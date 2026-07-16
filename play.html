@@ -181,8 +181,11 @@
 
   function loadUnitData(){
     var urlFull = 'data/' + lang + '/' + level + '/' + lang + '_' + level + '_u' + unit + '.json';
+    var urlLevelOnly = 'data/' + lang + '/' + level + '/' + level + '_u' + unit + '.json';
     var urlShort = 'data/' + lang + '/' + level + '/u' + unit + '.json';
-    return fetchJson(urlFull).catch(function(){ return fetchJson(urlShort); });
+    return fetchJson(urlFull)
+      .catch(function(){ return fetchJson(urlLevelOnly); })
+      .catch(function(){ return fetchJson(urlShort); });
   }
 
   function shuffle(arr){

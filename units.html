@@ -136,6 +136,7 @@
   function loadUnit(i){
     var n = pad(i);
     var urlFull = 'data/' + lang + '/' + level + '/' + lang + '_' + level + '_u' + n + '.json';
+    var urlLevelOnly = 'data/' + lang + '/' + level + '/' + level + '_u' + n + '.json';
     var urlShort = 'data/' + lang + '/' + level + '/u' + n + '.json';
 
     function applyData(data){
@@ -160,15 +161,18 @@
       titleEl.textContent = t('Unit ', '유닛 ') + n;
     }
 
-    fetch(urlFull).then(function(res){
-      if(!res.ok) throw new Error('not found');
-      return res.json();
-    }).then(applyData).catch(function(){
-      fetch(urlShort).then(function(res){
+    function tryFetch(url){
+      return fetch(url).then(function(res){
         if(!res.ok) throw new Error('not found');
         return res.json();
-      }).then(applyData).catch(applyFallback);
-    });
+      });
+    }
+
+    tryFetch(urlFull)
+      .catch(function(){ return tryFetch(urlLevelOnly); })
+      .catch(function(){ return tryFetch(urlShort); })
+      .then(applyData)
+      .catch(applyFallback);
   }
 
   function loadAll(){
