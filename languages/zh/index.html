@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chinese — Lingua Arena</title>
+<meta name="description" content="Learn Chinese from A1 to C2. 3,000 questions, 120 units, bilingual EN/KO explanations. Free, in your browser.">
+<meta name="theme-color" content="#16224A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#16224A; --surface:#1E2E5C; --surface-hi:#263768; --line:#33447F;
+    --ink:#F3F1EA; --ink-dim:#93A0AA;
+    --amber:#F2A65A; --amber-dim:#7A5A34;
+    --teal:#3FBFA6; --teal-dim:#2C6E62;
+    --radius:14px; --wrap:1120px;
+    --serif-display:'Space Grotesk',sans-serif; --sans:'IBM Plex Sans',system-ui,sans-serif; --mono:'IBM Plex Mono',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  @media (prefers-reduced-motion: reduce){*{animation-duration:0.001ms !important;transition-duration:0.001ms !important;}}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.5;-webkit-font-smoothing:antialiased;}
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:var(--wrap);margin:0 auto;padding:0 28px;}
+  :focus-visible{outline:2px solid var(--amber);outline-offset:3px;border-radius:4px;}
+  body::before{content:"";position:fixed;inset:0;background:radial-gradient(1100px 600px at 15% -10%, rgba(242,166,90,0.08), transparent 60%),radial-gradient(900px 500px at 110% 10%, rgba(63,191,166,0.07), transparent 60%);pointer-events:none;z-index:0;}
+
+  header.nav{position:sticky;top:0;z-index:100;background:rgba(22,34,74,0.72);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+  .nav-row{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px;}
+  .back{display:flex;align-items:center;gap:8px;font-size:13.5px;color:var(--ink-dim);}
+  .back:hover{color:var(--ink);}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--serif-display);font-weight:700;font-size:16px;}
+  .brand .mark{width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,var(--amber),var(--teal));display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-weight:500;font-size:11px;color:#16224A;}
+  .lang-toggle{display:flex;background:var(--surface);border:1px solid var(--line);border-radius:100px;padding:3px;font-family:var(--mono);font-size:12px;}
+  .lang-toggle button{border:none;background:transparent;color:var(--ink-dim);padding:6px 12px;border-radius:100px;cursor:pointer;font-family:var(--mono);font-size:12px;}
+  .lang-toggle button.act{background:var(--amber);color:#1a1206;font-weight:500;}
+
+  .hero{position:relative;z-index:1;padding:64px 0 48px;text-align:center;}
+  .greet{font-family:var(--serif-display);font-weight:700;font-size:clamp(40px,7vw,72px);line-height:1;}
+  .name-row{margin-top:14px;font-size:16px;color:var(--ink-dim);}
+  .name-row b{color:var(--ink);font-weight:600;}
+  .stat-strip{display:flex;justify-content:center;gap:0;flex-wrap:wrap;margin:40px auto 0;max-width:600px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .stat{flex:1 1 120px;padding:18px 12px;text-align:center;border-right:1px solid var(--line);}
+  .stat:last-child{border-right:none;}
+  .stat .num{font-family:var(--mono);font-size:22px;font-weight:500;}
+  .stat .lbl{font-family:var(--mono);font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:var(--ink-dim);margin-top:5px;}
+
+  .levels{position:relative;z-index:1;padding:20px 0 100px;}
+  .section-head{max-width:520px;margin:0 auto 40px;text-align:center;}
+  .section-head h2{font-family:var(--serif-display);font-weight:600;font-size:clamp(22px,3vw,30px);}
+  .section-head p{color:var(--ink-dim);margin-top:10px;font-size:14.5px;}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;}
+  .card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;display:flex;flex-direction:column;gap:14px;transition:transform .2s ease,border-color .2s ease,background .2s ease;overflow:hidden;}
+  .card::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--amber),var(--teal));transform:scaleX(0);transform-origin:left;transition:transform .3s ease;}
+  .card:hover{transform:translateY(-4px);background:var(--surface-hi);}
+  .card:hover::before{transform:scaleX(1);}
+  .card-top{display:flex;align-items:baseline;justify-content:space-between;}
+  .card-code{font-family:var(--mono);font-size:26px;font-weight:600;color:var(--amber);}
+  .card-title{font-size:14px;color:var(--ink);font-weight:500;}
+  .card-title-ko{font-size:12.5px;color:var(--ink-dim);}
+  .card-meta{display:flex;gap:12px;font-family:var(--mono);font-size:11px;color:var(--ink-dim);border-top:1px solid var(--line);padding-top:12px;}
+  .card-cta{font-size:13px;font-weight:500;color:var(--teal);display:flex;align-items:center;gap:6px;}
+  .card:hover .card-cta .arrow{transform:translateX(4px);}
+  .card-cta .arrow{transition:transform .18s ease;}
+
+  footer{position:relative;z-index:1;border-top:1px solid var(--line);padding:30px 0;text-align:center;font-size:12px;color:var(--ink-dim);}
+  [data-i18n-only]{display:inline;}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-row">
+    <a class="back" href="../../index.html">
+      <span aria-hidden="true">←</span>
+      <span data-i18n-only="en">Lingua Arena</span>
+      <span data-i18n-only="ko" style="display:none;">Lingua Arena</span>
+    </a>
+    <div class="brand"><span class="mark">ZH</span>Chinese</div>
+    <div class="lang-toggle" role="group" aria-label="Interface language">
+      <button type="button" id="btn-en" class="act" onclick="setLang('en')">EN</button>
+      <button type="button" id="btn-ko" onclick="setLang('ko')">KO</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div class="greet">你好</div>
+    <div class="name-row">
+      <span data-i18n-only="en">Learn <b>Chinese</b> from A1 to C2</span>
+      <span data-i18n-only="ko" style="display:none;">A1부터 C2까지 <b>중국어</b> 배우기</span>
+    </div>
+    <div class="stat-strip">
+      <div class="stat"><div class="num">3,000</div><div class="lbl" data-i18n-only="en">Questions</div><div class="lbl" data-i18n-only="ko" style="display:none;">문제 수</div></div>
+      <div class="stat"><div class="num">6</div><div class="lbl" data-i18n-only="en">Levels</div><div class="lbl" data-i18n-only="ko" style="display:none;">레벨</div></div>
+      <div class="stat"><div class="num">120</div><div class="lbl" data-i18n-only="en">Units</div><div class="lbl" data-i18n-only="ko" style="display:none;">유닛</div></div>
+    </div>
+  </section>
+
+  <section class="levels wrap">
+    <div class="section-head">
+      <h2 data-i18n-only="en">Choose your level</h2>
+      <h2 data-i18n-only="ko" style="display:none;">레벨을 선택하세요</h2>
+      <p data-i18n-only="en">Not sure where to start? A1 is for absolute beginners.</p>
+      <p data-i18n-only="ko" style="display:none;">어디서 시작할지 모르겠다면, A1은 완전 초보자를 위한 레벨입니다.</p>
+    </div>
+
+    <div class="grid">
+
+      <a class="card" href="../../units.html?lang=zh&level=a1">
+        <div class="card-top"><span class="card-code">A1</span></div>
+        <div><div class="card-title" data-i18n-only="en">First words</div><div class="card-title" data-i18n-only="ko" style="display:none;">첫 단어</div></div>
+        <div class="card-meta"><span>20 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>500 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
+        <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="../../units.html?lang=zh&level=a2">
+        <div class="card-top"><span class="card-code">A2</span></div>
+        <div><div class="card-title" data-i18n-only="en">Everyday chat</div><div class="card-title" data-i18n-only="ko" style="display:none;">일상 대화</div></div>
+        <div class="card-meta"><span>20 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>500 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
+        <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="../../units.html?lang=zh&level=b1">
+        <div class="card-top"><span class="card-code">B1</span></div>
+        <div><div class="card-title" data-i18n-only="en">Real conversation</div><div class="card-title" data-i18n-only="ko" style="display:none;">실전 대화</div></div>
+        <div class="card-meta"><span>20 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>500 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
+        <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="../../units.html?lang=zh&level=b2">
+        <div class="card-top"><span class="card-code">B2</span></div>
+        <div><div class="card-title" data-i18n-only="en">Confident fluency</div><div class="card-title" data-i18n-only="ko" style="display:none;">자신 있는 유창함</div></div>
+        <div class="card-meta"><span>20 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>500 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
+        <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="../../units.html?lang=zh&level=c1">
+        <div class="card-top"><span class="card-code">C1</span></div>
+        <div><div class="card-title" data-i18n-only="en">Nuanced command</div><div class="card-title" data-i18n-only="ko" style="display:none;">섬세한 구사력</div></div>
+        <div class="card-meta"><span>20 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>500 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
+        <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card" href="../../units.html?lang=zh&level=c2">
+        <div class="card-top"><span class="card-code">C2</span></div>
+        <div><div class="card-title" data-i18n-only="en">Native instinct</div><div class="card-title" data-i18n-only="ko" style="display:none;">원어민 감각</div></div>
+        <div class="card-meta"><span>20 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>500 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
+        <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
+      </a>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span data-i18n-only="en">© 2026 Lingua Arena</span>
+  <span data-i18n-only="ko" style="display:none;">© 2026 Lingua Arena</span>
+</footer>
+
+<script>
+  function setLang(l){
+    document.querySelectorAll('[data-i18n-only]').forEach(function(el){
+      el.style.display = (el.getAttribute('data-i18n-only') === l) ? '' : 'none';
+    });
+    document.getElementById('btn-en').classList.toggle('act', l === 'en');
+    document.getElementById('btn-ko').classList.toggle('act', l === 'ko');
+    try { localStorage.setItem('la-lang', l); } catch(e){}
+  }
+  (function(){
+    var saved; try { saved = localStorage.getItem('la-lang'); } catch(e){}
+    setLang(saved || (navigator.language && navigator.language.startsWith('ko') ? 'ko' : 'en'));
+  })();
+</script>
+</body>
+</html>

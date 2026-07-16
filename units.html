@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Units — Lingua Arena</title>
+<meta name="theme-color" content="#16224A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#16224A; --surface:#1E2E5C; --surface-hi:#263768; --line:#33447F;
+    --ink:#F3F1EA; --ink-dim:#93A0AA;
+    --amber:#F2A65A; --amber-dim:#7A5A34;
+    --teal:#3FBFA6; --teal-dim:#2C6E62;
+    --radius:14px; --wrap:1120px;
+    --serif-display:'Space Grotesk',sans-serif; --sans:'IBM Plex Sans',system-ui,sans-serif; --mono:'IBM Plex Mono',monospace;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  @media (prefers-reduced-motion: reduce){*{animation-duration:0.001ms !important;transition-duration:0.001ms !important;}}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.5;-webkit-font-smoothing:antialiased;}
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:var(--wrap);margin:0 auto;padding:0 28px;}
+  :focus-visible{outline:2px solid var(--amber);outline-offset:3px;border-radius:4px;}
+  body::before{content:"";position:fixed;inset:0;background:radial-gradient(1100px 600px at 15% -10%, rgba(242,166,90,0.08), transparent 60%),radial-gradient(900px 500px at 110% 10%, rgba(63,191,166,0.07), transparent 60%);pointer-events:none;z-index:0;}
+
+  header.nav{position:sticky;top:0;z-index:100;background:rgba(22,34,74,0.72);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line);}
+  .nav-row{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px;}
+  .back{display:flex;align-items:center;gap:8px;font-size:13.5px;color:var(--ink-dim);}
+  .back:hover{color:var(--ink);}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--serif-display);font-weight:700;font-size:16px;}
+  .brand .mark{width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,var(--amber),var(--teal));display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-weight:500;font-size:11px;color:#16224A;}
+  .lang-toggle{display:flex;background:var(--surface);border:1px solid var(--line);border-radius:100px;padding:3px;font-family:var(--mono);font-size:12px;}
+  .lang-toggle button{border:none;background:transparent;color:var(--ink-dim);padding:6px 12px;border-radius:100px;cursor:pointer;font-family:var(--mono);font-size:12px;}
+  .lang-toggle button.act{background:var(--amber);color:#1a1206;font-weight:500;}
+
+  .hero{position:relative;z-index:1;padding:52px 0 36px;text-align:center;}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:0.1em;text-transform:uppercase;color:var(--teal);}
+  h1{font-family:var(--serif-display);font-weight:700;font-size:clamp(28px,5vw,44px);margin-top:10px;}
+  .sub{color:var(--ink-dim);margin-top:10px;font-size:14.5px;}
+
+  .units{position:relative;z-index:1;padding:10px 0 100px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;}
+  .card{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px;display:flex;flex-direction:column;gap:10px;transition:transform .18s ease,background .18s ease;}
+  .card:hover{transform:translateY(-3px);background:var(--surface-hi);}
+  .card-top{display:flex;align-items:center;gap:10px;}
+  .u-num{font-family:var(--mono);font-size:13px;color:var(--amber);border:1px solid var(--amber-dim);border-radius:7px;padding:3px 8px;}
+  .u-title{font-size:14px;font-weight:500;line-height:1.35;}
+  .u-title.skeleton{color:transparent;background:linear-gradient(90deg,var(--line) 25%,var(--surface-hi) 50%,var(--line) 75%);background-size:200% 100%;border-radius:4px;animation:shine 1.4s infinite;}
+  @keyframes shine{0%{background-position:200% 0;}100%{background-position:-200% 0;}}
+  .u-title-ko{font-size:12px;color:var(--ink-dim);}
+  .u-meta{margin-top:auto;font-family:var(--mono);font-size:10.5px;color:var(--ink-dim);border-top:1px solid var(--line);padding-top:10px;}
+
+  .empty-state{max-width:480px;margin:60px auto;text-align:center;color:var(--ink-dim);font-size:14px;line-height:1.6;}
+  .empty-state a{color:var(--amber);}
+
+  footer{position:relative;z-index:1;border-top:1px solid var(--line);padding:30px 0;text-align:center;font-size:12px;color:var(--ink-dim);}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-row">
+    <a class="back" id="backLink" href="index.html"><span aria-hidden="true">←</span><span id="backLabel">Lingua Arena</span></a>
+    <div class="brand"><span class="mark" id="brandMark">LA</span><span id="brandName">Lingua Arena</span></div>
+    <div class="lang-toggle" role="group" aria-label="Interface language">
+      <button type="button" id="btn-en" class="act">EN</button>
+      <button type="button" id="btn-ko">KO</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div class="eyebrow" id="eyebrow">—</div>
+    <h1 id="heading">—</h1>
+    <p class="sub" id="subline">—</p>
+  </section>
+
+  <section class="units wrap">
+    <div class="grid" id="grid"></div>
+    <div class="empty-state" id="emptyState" style="display:none;"></div>
+  </section>
+</main>
+
+<footer><span>© 2026 Lingua Arena</span></footer>
+
+<script>
+  var LANG_NAMES = {
+    en:{en:"English", ko:"영어"}, ja:{en:"Japanese", ko:"일본어"}, zh:{en:"Chinese", ko:"중국어"},
+    fr:{en:"French", ko:"프랑스어"}, de:{en:"German", ko:"독일어"}, es:{en:"Spanish", ko:"스페인어"}
+  };
+  var LEVEL_INFO = {
+    a1:{en:"First words", ko:"첫 단어"}, a2:{en:"Everyday chat", ko:"일상 대화"},
+    b1:{en:"Real conversation", ko:"실전 대화"}, b2:{en:"Confident fluency", ko:"자신 있는 유창함"},
+    c1:{en:"Nuanced command", ko:"섬세한 구사력"}, c2:{en:"Native instinct", ko:"원어민 감각"}
+  };
+
+  var params = new URLSearchParams(location.search);
+  var lang = (params.get('lang') || '').toLowerCase();
+  var level = (params.get('level') || '').toLowerCase();
+  var uiLang = 'en';
+
+  function t(en, ko){ return uiLang === 'ko' ? ko : en; }
+
+  function renderHeader(){
+    document.getElementById('backLink').href = 'languages/' + lang + '/index.html';
+    document.getElementById('backLabel').textContent = (LANG_NAMES[lang] ? LANG_NAMES[lang][uiLang] : 'Lingua Arena');
+    document.getElementById('brandMark').textContent = lang ? lang.toUpperCase() : 'LA';
+    document.getElementById('brandName').textContent = LANG_NAMES[lang] ? LANG_NAMES[lang][uiLang] : 'Lingua Arena';
+    document.getElementById('eyebrow').textContent = (LANG_NAMES[lang] ? LANG_NAMES[lang][uiLang] : '') + ' · ' + level.toUpperCase();
+    document.getElementById('heading').textContent = LEVEL_INFO[level] ? LEVEL_INFO[level][uiLang] : level.toUpperCase();
+    document.title = (LANG_NAMES[lang] ? LANG_NAMES[lang].en : '') + ' ' + level.toUpperCase() + ' — Lingua Arena';
+    document.getElementById('subline').textContent = t('20 units · 25 questions each. Pick one to begin.', '20개 유닛 · 유닛당 25문제. 하나를 골라 시작하세요.');
+  }
+
+  function pad(n){ return n < 10 ? '0' + n : '' + n; }
+
+  function buildSkeletons(){
+    var grid = document.getElementById('grid');
+    grid.innerHTML = '';
+    for(var i = 1; i <= 20; i++){
+      var card = document.createElement('a');
+      card.className = 'card';
+      card.id = 'card-' + i;
+      card.href = 'play.html?lang=' + encodeURIComponent(lang) + '&level=' + encodeURIComponent(level) + '&unit=' + pad(i);
+      card.innerHTML =
+        '<div class="card-top"><span class="u-num">' + pad(i) + '</span></div>' +
+        '<div class="u-title skeleton">Loading unit title</div>' +
+        '<div class="u-meta">25 ' + t('questions','문제') + '</div>';
+      grid.appendChild(card);
+    }
+  }
+
+  function loadUnit(i){
+    var n = pad(i);
+    var url = 'data/' + lang + '/' + level + '/' + lang + '_' + level + '_u' + n + '.json';
+    fetch(url).then(function(res){
+      if(!res.ok) throw new Error('not found');
+      return res.json();
+    }).then(function(data){
+      var card = document.getElementById('card-' + i);
+      if(!card || !data.meta) return;
+      var titleEl = card.querySelector('.u-title');
+      titleEl.classList.remove('skeleton');
+      titleEl.textContent = uiLang === 'ko' ? (data.meta.title_ko || data.meta.title) : data.meta.title;
+      if(!card.querySelector('.u-title-ko') && data.meta.title_ko && data.meta.title){
+        var sub = document.createElement('div');
+        sub.className = 'u-title-ko';
+        sub.textContent = uiLang === 'ko' ? data.meta.title : data.meta.title_ko;
+        titleEl.insertAdjacentElement('afterend', sub);
+      }
+    }).catch(function(){
+      var card = document.getElementById('card-' + i);
+      if(!card) return;
+      var titleEl = card.querySelector('.u-title');
+      titleEl.classList.remove('skeleton');
+      titleEl.textContent = t('Unit ', '유닛 ') + n;
+    });
+  }
+
+  function loadAll(){
+    for(var i = 1; i <= 20; i++){ loadUnit(i); }
+  }
+
+  function setUiLang(l){
+    uiLang = l;
+    document.getElementById('btn-en').classList.toggle('act', l === 'en');
+    document.getElementById('btn-ko').classList.toggle('act', l === 'ko');
+    try { localStorage.setItem('la-lang', l); } catch(e){}
+    if(lang && level){
+      renderHeader();
+      buildSkeletons();
+      loadAll();
+    }
+  }
+
+  document.getElementById('btn-en').addEventListener('click', function(){ setUiLang('en'); });
+  document.getElementById('btn-ko').addEventListener('click', function(){ setUiLang('ko'); });
+
+  (function init(){
+    var saved; try { saved = localStorage.getItem('la-lang'); } catch(e){}
+    uiLang = saved || (navigator.language && navigator.language.startsWith('ko') ? 'ko' : 'en');
+    document.getElementById('btn-en').classList.toggle('act', uiLang === 'en');
+    document.getElementById('btn-ko').classList.toggle('act', uiLang === 'ko');
+
+    if(!lang || !level || !LANG_NAMES[lang] || !LEVEL_INFO[level]){
+      document.querySelector('.hero').style.display = 'none';
+      var empty = document.getElementById('emptyState');
+      empty.style.display = 'block';
+      empty.innerHTML = 'Missing or invalid language/level. <a href="index.html">← Back to Lingua Arena</a>';
+      return;
+    }
+    renderHeader();
+    buildSkeletons();
+    loadAll();
+  })();
+</script>
+</body>
+</html>
