@@ -135,11 +135,10 @@
 
   function loadUnit(i){
     var n = pad(i);
-    var url = 'data/' + lang + '/' + level + '/' + lang + '_' + level + '_u' + n + '.json';
-    fetch(url).then(function(res){
-      if(!res.ok) throw new Error('not found');
-      return res.json();
-    }).then(function(data){
+    var urlFull = 'data/' + lang + '/' + level + '/' + lang + '_' + level + '_u' + n + '.json';
+    var urlShort = 'data/' + lang + '/' + level + '/u' + n + '.json';
+
+    function applyData(data){
       var card = document.getElementById('card-' + i);
       if(!card || !data.meta) return;
       var titleEl = card.querySelector('.u-title');
@@ -151,12 +150,24 @@
         sub.textContent = uiLang === 'ko' ? data.meta.title : data.meta.title_ko;
         titleEl.insertAdjacentElement('afterend', sub);
       }
-    }).catch(function(){
+    }
+
+    function applyFallback(){
       var card = document.getElementById('card-' + i);
       if(!card) return;
       var titleEl = card.querySelector('.u-title');
       titleEl.classList.remove('skeleton');
       titleEl.textContent = t('Unit ', '유닛 ') + n;
+    }
+
+    fetch(urlFull).then(function(res){
+      if(!res.ok) throw new Error('not found');
+      return res.json();
+    }).then(applyData).catch(function(){
+      fetch(urlShort).then(function(res){
+        if(!res.ok) throw new Error('not found');
+        return res.json();
+      }).then(applyData).catch(applyFallback);
     });
   }
 
