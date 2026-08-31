@@ -1,70 +1,69 @@
 {
   "meta": {
-    "id": "en_a2_u01",
+    "id": "en_a2_u07",
     "domain": "language",
     "lang": "en",
     "level": "a2",
-    "unit": 1,
-    "title": "Past Experiences",
-    "title_ko": "과거 경험",
+    "unit": 7,
+    "title": "Travel & Holiday Planning",
+    "title_ko": "여행 계획 세우기",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "This unit's key expressions: talking about life experiences using 'have you ever' and simple past.",
-    "explanation_ko": "이번 유닛의 핵심 표현: 'have you ever'와 과거시제로 인생 경험 말하기",
+    "explanation_en": "This unit's key expressions: discussing travel plans and preferences using 'would rather' and 'planning to'.",
+    "explanation_ko": "이번 유닛의 핵심 표현: 'would rather'와 'planning to'로 여행 계획·선호 이야기하기",
     "key_expressions": [
       {
-        "en": "Have you ever been to ~?",
-        "ko": "~에 가본 적 있어요?"
+        "en": "I'm planning to visit Japan.",
+        "ko": "저는 일본을 방문할 계획이에요."
       },
       {
-        "en": "Yes, I have. / No, I haven't.",
-        "ko": "네, 있어요. / 아니요, 없어요."
+        "en": "I'd rather go to the beach than the mountains.",
+        "ko": "저는 산보다 해변에 가고 싶어요."
       },
       {
-        "en": "I went there two years ago.",
-        "ko": "저는 2년 전에 거기 갔었어요."
+        "en": "We should book the hotel early.",
+        "ko": "우리는 호텔을 일찍 예약해야 해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "en_a2_u01_w1",
+      "id": "en_a2_u07_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write about an interesting experience you have had (a trip, event, or activity).",
-        "ko": "경험했던 흥미로운 일(여행, 행사, 활동 등)에 대해 써 보세요."
+        "en": "Write about a trip you are planning. Include the destination and what you plan to do there.",
+        "ko": "계획 중인 여행에 대해 써 보세요. 목적지와 거기서 할 일을 포함하세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "past_experience",
-          "label_ko": "경험 표현",
+          "id": "planning_to",
+          "label_ko": "계획 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "과거시제 동사를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\b(went|saw|tried|visited|did|had|met)\\b",
+          "criterion_ko": "'planning to' 또는 'going to'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "planning to",
+            "going to"
+          ],
           "min_matches": 1,
-          "points": 40,
+          "points": 45,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "시간 표현(ago/last)을 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "ago",
-            "last year",
-            "last summer"
-          ],
+          "criterion_ko": "장소 이름을 포함했는가",
+          "type": "pattern_regex",
+          "target": "[A-Z][a-z]+",
           "min_matches": 1,
-          "points": 30,
+          "points": 25,
           "required": false
         },
         {
@@ -89,31 +88,29 @@
       }
     },
     {
-      "id": "en_a2_u01_w2",
+      "id": "en_a2_u07_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Someone asks: 'Have you ever tried Indian food?' Write your answer.",
-        "ko": "'Have you ever tried Indian food?'라는 질문에 답을 써 보세요."
+        "en": "Someone asks: 'Would you rather travel alone or with friends?' Write your answer.",
+        "ko": "'Would you rather travel alone or with friends?'라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "have_ever",
-          "label_ko": "경험 표현",
+          "id": "would_rather",
+          "label_ko": "선호 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Yes, I have' 또는 'No, I haven't'를 사용했는가",
+          "criterion_ko": "'I'd rather' 또는 'I prefer'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "yes, i have",
-            "no, i haven't",
-            "yes i have",
-            "no i haven't"
+            "i'd rather",
+            "i prefer"
           ],
           "min_matches": 1,
           "points": 50,
@@ -121,10 +118,12 @@
         },
         {
           "id": "r2",
-          "criterion_ko": "추가 설명 문장이 있는가",
-          "type": "pattern_regex",
-          "target": "[.!]",
-          "min_matches": 2,
+          "criterion_ko": "이유(because)를 포함했는가",
+          "type": "keyword_match",
+          "target": [
+            "because"
+          ],
+          "min_matches": 1,
           "points": 30,
           "required": false
         },
@@ -132,7 +131,7 @@
           "id": "r3",
           "criterion_ko": "완전한 문장인가",
           "type": "pattern_regex",
-          "target": "^[A-Z]",
+          "target": "^[A-Z].*[.!]$",
           "min_matches": 1,
           "points": 20,
           "required": false
@@ -150,42 +149,43 @@
       }
     },
     {
-      "id": "en_a2_u01_s1",
+      "id": "en_a2_u07_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Talk out loud about the most memorable trip you have ever taken.",
-        "ko": "지금까지 다녀온 여행 중 가장 기억에 남는 것에 대해 소리 내어 말해 보세요."
+        "en": "Talk out loud about your dream vacation destination and why you want to go there.",
+        "ko": "꿈꾸는 여행지와 그 이유를 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "past_experience",
-          "label_ko": "경험 표현",
-          "min_occurrences": 2
+          "id": "planning_to",
+          "label_ko": "계획 표현",
+          "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "과거시제 동사를 2개 이상 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\b(went|saw|stayed|visited|did|had)\\b",
-          "min_matches": 2,
-          "points": 50,
+          "criterion_ko": "'want to' 또는 'would like to'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "want to",
+            "would like to"
+          ],
+          "min_matches": 1,
+          "points": 45,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "평가 표현(was amazing 등)을 사용했는가",
+          "criterion_ko": "'because'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "was amazing",
-            "was great",
-            "was unforgettable"
+            "because"
           ],
           "min_matches": 1,
-          "points": 20,
+          "points": 25,
           "required": false
         },
         {
@@ -213,34 +213,32 @@
       }
     },
     {
-      "id": "en_a2_u01_s2",
+      "id": "en_a2_u07_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Answer out loud: 'Have you ever lived in another country?'",
-        "ko": "소리 내어 답해 보세요: 'Have you ever lived in another country?'"
+        "en": "Answer out loud: 'Do you prefer planning every detail of a trip, or being spontaneous?'",
+        "ko": "소리 내어 답해 보세요: 'Do you prefer planning every detail of a trip, or being spontaneous?'"
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "have_ever",
-          "label_ko": "경험 표현",
+          "id": "preference",
+          "label_ko": "선호 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Yes, I have' 또는 'No, I haven't'를 사용했는가",
+          "criterion_ko": "'I prefer'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "yes, i have",
-            "no, i haven't",
-            "yes i have",
-            "no i haven't"
+            "i prefer",
+            "i like"
           ],
           "min_matches": 1,
-          "points": 55,
+          "points": 50,
           "required": true
         },
         {
@@ -248,7 +246,7 @@
           "criterion_ko": "STT 인식 신뢰도가 충분히 높은가",
           "type": "stt_confidence",
           "min": 0.75,
-          "points": 45,
+          "points": 50,
           "required": false
         }
       ],
