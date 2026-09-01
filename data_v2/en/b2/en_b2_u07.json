@@ -1,55 +1,59 @@
 {
   "meta": {
-    "id": "en_b2_u01",
+    "id": "en_b2_u07",
     "domain": "language",
     "lang": "en",
     "level": "b2",
-    "unit": 1,
-    "title": "Inversion for Emphasis",
-    "title_ko": "강조를 위한 도치",
+    "unit": 7,
+    "title": "Passive Reporting Verbs",
+    "title_ko": "수동태 보고 동사",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "Starting a sentence with a negative or limiting adverb (never, rarely, not only, no sooner) triggers inversion — the auxiliary verb moves before the subject, like in a question: 'Never have I seen such chaos.' 'Not only did she win, but she also broke the record.'",
-    "explanation_ko": "부정·제한 부사(never, rarely, not only, no sooner)로 문장을 시작하면 도치가 일어납니다 — 조동사가 의문문처럼 주어 앞으로 옵니다: 'Never have I seen such chaos.' 'Not only did she win, but she also broke the record.'",
+    "explanation_en": "News and academic English often report general beliefs impersonally: 'It is said that ...', 'It is believed that ...', or with the subject moved forward: 'She is thought to be the best candidate.' This avoids naming who exactly holds the belief.",
+    "explanation_ko": "뉴스나 학술 영어는 일반적인 통념을 비인칭으로 보도하는 경우가 많습니다: 'It is said that ...', 'It is believed that ...', 또는 주어를 앞으로 옮겨서: 'She is thought to be the best candidate.' 누가 정확히 그렇게 믿는지 밝히지 않습니다.",
     "key_expressions": [
       {
-        "en": "Never have I felt so proud.",
-        "ko": "이렇게 자랑스러웠던 적이 없어요."
+        "en": "It is said that this restaurant has the best pasta in town.",
+        "ko": "이 식당이 마을에서 최고의 파스타를 만든다고 해요."
       },
       {
-        "en": "Not only was it expensive, but it also broke quickly.",
-        "ko": "비쌌을 뿐 아니라 금방 고장 났어요."
+        "en": "He is believed to have left the country.",
+        "ko": "그는 출국한 것으로 알려져 있어요."
       },
       {
-        "en": "Rarely do we get a chance like this.",
-        "ko": "이런 기회는 좀처럼 없어요."
+        "en": "It is reported that the road will be closed.",
+        "ko": "그 도로가 폐쇄될 거라고 보도됐어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "en_b2_u01_w1",
+      "id": "en_b2_u07_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write about an intense experience using inversion with 'Never have I' or 'Rarely do I'.",
-        "ko": "강렬했던 경험을 'Never have I' 또는 'Rarely do I' 도치 구문을 사용해서 써 보세요."
+        "en": "Write about a popular belief or rumor about something (a place, a person, a trend), using 'It is said that' or 'It is believed that'.",
+        "ko": "어떤 대상(장소, 사람, 트렌드)에 대한 통념이나 소문을 'It is said that' 또는 'It is believed that'을 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "inversion",
-          "label_ko": "도치",
+          "id": "passive_reporting",
+          "label_ko": "수동태 보고 동사",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "도치 구조(Never have I / Rarely do I 등)를 사용했는가",
-          "type": "pattern_regex",
-          "target": "(never|rarely|seldom)\\s+(have|has|do|does|did)\\s+i",
+          "criterion_ko": "'It is said that' 또는 'It is believed that'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "it is said that",
+            "it is believed that",
+            "it is reported that"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -76,38 +80,40 @@
       }
     },
     {
-      "id": "en_b2_u01_w2",
+      "id": "en_b2_u07_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Someone asks: 'How did the presentation go?' Write your answer using 'Not only ... but also' with inversion.",
-        "ko": "'How did the presentation go?'라는 질문에 도치를 포함한 'Not only ... but also'를 사용해서 답을 써 보세요."
+        "en": "Someone asks: 'What is this area known for?' Write your answer using 'is known to' or 'is said to'.",
+        "ko": "'What is this area known for?'라는 질문에 'is known to' 또는 'is said to'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "inversion",
-          "label_ko": "도치",
+          "id": "passive_reporting",
+          "label_ko": "수동태 보고 동사",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Not only' 도치 구조를 사용했는가",
-          "type": "pattern_regex",
-          "target": "not only\\s+(did|was|were|has|have)",
+          "criterion_ko": "'is known to' 또는 'is said to'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "is known to",
+            "is said to",
+            "is known for"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "'but also'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "but also"
-          ],
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "^[A-Z].*[.!]$",
           "min_matches": 1,
           "points": 45,
           "required": false
@@ -125,27 +131,31 @@
       }
     },
     {
-      "id": "en_b2_u01_s1",
+      "id": "en_b2_u07_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Talk out loud about a rare experience in your life, using inversion for emphasis.",
-        "ko": "인생에서 드물었던 경험에 대해 도치를 사용해서 강조하며 소리 내어 말해 보세요."
+        "en": "Talk out loud about a popular belief about your hometown, using 'It is said that'.",
+        "ko": "고향에 대한 통념을 'It is said that'를 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "inversion",
-          "label_ko": "도치",
+          "id": "passive_reporting",
+          "label_ko": "수동태 보고 동사",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "도치 구조를 사용했는가",
-          "type": "pattern_regex",
-          "target": "(never|rarely|seldom|not only)\\s+(have|has|do|does|did|was|were)",
+          "criterion_ko": "'It is said that' 또는 'is known for'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "it is said that",
+            "is known for",
+            "is believed"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -175,30 +185,30 @@
       }
     },
     {
-      "id": "en_b2_u01_s2",
+      "id": "en_b2_u07_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Answer out loud: 'Has anything ever completely surprised you at work?'",
-        "ko": "소리 내어 답해 보세요: 'Has anything ever completely surprised you at work?'"
+        "en": "Answer out loud: 'What is your country believed to be famous for around the world?'",
+        "ko": "소리 내어 답해 보세요: 'What is your country believed to be famous for around the world?'"
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "inversion",
-          "label_ko": "도치",
+          "id": "passive_reporting",
+          "label_ko": "수동태 보고 동사",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "도치 구조 또는 'Yes/No'로 답했는가",
+          "criterion_ko": "'is known for' 또는 'is believed to'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "never have i",
-            "yes",
-            "no"
+            "is known for",
+            "is believed to",
+            "is famous for"
           ],
           "min_matches": 1,
           "points": 55,

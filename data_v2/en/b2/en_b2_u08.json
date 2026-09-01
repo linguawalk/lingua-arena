@@ -1,55 +1,55 @@
 {
   "meta": {
-    "id": "en_b2_u01",
+    "id": "en_b2_u08",
     "domain": "language",
     "lang": "en",
     "level": "b2",
-    "unit": 1,
-    "title": "Inversion for Emphasis",
-    "title_ko": "강조를 위한 도치",
+    "unit": 8,
+    "title": "Cleft Sentences",
+    "title_ko": "분열문 (강조 구문)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "Starting a sentence with a negative or limiting adverb (never, rarely, not only, no sooner) triggers inversion — the auxiliary verb moves before the subject, like in a question: 'Never have I seen such chaos.' 'Not only did she win, but she also broke the record.'",
-    "explanation_ko": "부정·제한 부사(never, rarely, not only, no sooner)로 문장을 시작하면 도치가 일어납니다 — 조동사가 의문문처럼 주어 앞으로 옵니다: 'Never have I seen such chaos.' 'Not only did she win, but she also broke the record.'",
+    "explanation_en": "Cleft sentences split a simple sentence into two parts to add emphasis. 'It was ... that ...' emphasizes a specific detail: 'It was John who called, not Mary.' 'What ... is/was ...' emphasizes an idea: 'What surprised me was the price.'",
+    "explanation_ko": "분열문은 단순한 문장을 두 부분으로 나눠서 강조합니다. 'It was ... that ...'는 특정 세부사항을 강조합니다: 'It was John who called, not Mary.' 'What ... is/was ...'는 하나의 생각을 강조합니다: 'What surprised me was the price.'",
     "key_expressions": [
       {
-        "en": "Never have I felt so proud.",
-        "ko": "이렇게 자랑스러웠던 적이 없어요."
+        "en": "It was the manager who made the final decision.",
+        "ko": "최종 결정을 내린 사람은 매니저였어요."
       },
       {
-        "en": "Not only was it expensive, but it also broke quickly.",
-        "ko": "비쌌을 뿐 아니라 금방 고장 났어요."
+        "en": "What bothers me most is the noise.",
+        "ko": "저를 가장 신경 쓰이게 하는 건 소음이에요."
       },
       {
-        "en": "Rarely do we get a chance like this.",
-        "ko": "이런 기회는 좀처럼 없어요."
+        "en": "It wasn't until last year that I understood.",
+        "ko": "작년이 되어서야 저는 이해했어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "en_b2_u01_w1",
+      "id": "en_b2_u08_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write about an intense experience using inversion with 'Never have I' or 'Rarely do I'.",
-        "ko": "강렬했던 경험을 'Never have I' 또는 'Rarely do I' 도치 구문을 사용해서 써 보세요."
+        "en": "Write about a specific person or detail that made a difference in a situation, using 'It was ... that/who ...'.",
+        "ko": "어떤 상황에서 차이를 만들었던 특정 인물이나 세부사항을 'It was ... that/who ...'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "inversion",
-          "label_ko": "도치",
+          "id": "cleft_it",
+          "label_ko": "It was...that 강조",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "도치 구조(Never have I / Rarely do I 등)를 사용했는가",
+          "criterion_ko": "'It was ... that/who' 구조를 사용했는가",
           "type": "pattern_regex",
-          "target": "(never|rarely|seldom)\\s+(have|has|do|does|did)\\s+i",
+          "target": "it\\s+was\\s+\\w+.{0,20}(that|who)",
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -76,38 +76,36 @@
       }
     },
     {
-      "id": "en_b2_u01_w2",
+      "id": "en_b2_u08_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Someone asks: 'How did the presentation go?' Write your answer using 'Not only ... but also' with inversion.",
-        "ko": "'How did the presentation go?'라는 질문에 도치를 포함한 'Not only ... but also'를 사용해서 답을 써 보세요."
+        "en": "Someone asks: 'What bothers you most about your commute?' Write your answer using 'What ... is/was ...'.",
+        "ko": "'What bothers you most about your commute?'라는 질문에 'What ... is/was ...' 구조를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "inversion",
-          "label_ko": "도치",
+          "id": "cleft_what",
+          "label_ko": "What...is 강조",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Not only' 도치 구조를 사용했는가",
+          "criterion_ko": "'What ... is/was' 구조를 사용했는가",
           "type": "pattern_regex",
-          "target": "not only\\s+(did|was|were|has|have)",
+          "target": "what\\s+\\w+.{0,25}\\s+is\\b|what\\s+\\w+.{0,25}\\s+was\\b",
           "min_matches": 1,
           "points": 55,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "'but also'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "but also"
-          ],
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "^[A-Z].*[.!]$",
           "min_matches": 1,
           "points": 45,
           "required": false
@@ -125,27 +123,27 @@
       }
     },
     {
-      "id": "en_b2_u01_s1",
+      "id": "en_b2_u08_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Talk out loud about a rare experience in your life, using inversion for emphasis.",
-        "ko": "인생에서 드물었던 경험에 대해 도치를 사용해서 강조하며 소리 내어 말해 보세요."
+        "en": "Talk out loud about who or what really made a project successful, using cleft sentences for emphasis.",
+        "ko": "누가(또는 무엇이) 프로젝트를 성공시켰는지 분열문으로 강조하며 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "inversion",
-          "label_ko": "도치",
+          "id": "cleft_it",
+          "label_ko": "It was...that 강조",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "도치 구조를 사용했는가",
+          "criterion_ko": "'It was ... that/who' 구조를 사용했는가",
           "type": "pattern_regex",
-          "target": "(never|rarely|seldom|not only)\\s+(have|has|do|does|did|was|were)",
+          "target": "it\\s+was\\s+\\w+.{0,20}(that|who)",
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -175,30 +173,29 @@
       }
     },
     {
-      "id": "en_b2_u01_s2",
+      "id": "en_b2_u08_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Answer out loud: 'Has anything ever completely surprised you at work?'",
-        "ko": "소리 내어 답해 보세요: 'Has anything ever completely surprised you at work?'"
+        "en": "Answer out loud: 'What is it that motivates you most at work?'",
+        "ko": "소리 내어 답해 보세요: 'What is it that motivates you most at work?'"
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "inversion",
-          "label_ko": "도치",
+          "id": "cleft_what",
+          "label_ko": "What...is 강조",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "도치 구조 또는 'Yes/No'로 답했는가",
+          "criterion_ko": "'What motivates me' 구조를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "never have i",
-            "yes",
-            "no"
+            "what motivates me",
+            "what really motivates"
           ],
           "min_matches": 1,
           "points": 55,
