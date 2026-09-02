@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "ja_b1_u01",
+    "id": "ja_b1_u02",
     "domain": "language",
     "lang": "ja",
     "level": "b1",
-    "unit": 1,
-    "title": "ておく",
-    "title_ko": "~해 두다 (준비)",
+    "unit": 2,
+    "title": "てしまう",
+    "title_ko": "~해 버리다 (완료·후회)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "「〜ておく」は、将来のために今なにかをしておくことを表します。「じゅんびしておきます」「かっておきます」のように使います。",
-    "explanation_ko": "'〜ておく'는 미래를 위해 지금 무언가를 해두는 것을 나타냅니다. 'じゅんびしておきます'(준비해 둬요), 'かっておきます'(사 둬요)처럼 씁니다.",
+    "explanation_en": "「〜てしまう」は、完了や後悔の気持ちを表します。「わすれてしまいました」のように、意図せずに起きたことを表す場合が多いです。",
+    "explanation_ko": "'〜てしまう'는 완료나 후회의 감정을 나타냅니다. 'わすれてしまいました'(잊어버렸어요)처럼, 의도치 않게 일어난 일을 나타내는 경우가 많습니다.",
     "key_expressions": [
       {
-        "en": "かいぎのまえにしりょうをよんでおきます。",
-        "ko": "회의 전에 자료를 읽어 둬요."
+        "en": "パスワードをわすれてしまいました。",
+        "ko": "비밀번호를 잊어버렸어요."
       },
       {
-        "en": "きっぷをかっておきました。",
-        "ko": "표를 사 뒀어요."
+        "en": "でんしゃにのりおくれてしまいました。",
+        "ko": "전철을 놓쳐버렸어요."
       },
       {
-        "en": "れいぞうこにいれておいてください。",
-        "ko": "냉장고에 넣어 두세요."
+        "en": "ぜんぶたべてしまいました。",
+        "ko": "전부 먹어버렸어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_b1_u01_w1",
+      "id": "ja_b1_u02_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "旅行の前に準備しておくことを「〜ておきます」を使って書いてください。",
-        "ko": "여행 전에 준비해 두는 것을 '〜ておきます'를 사용해서 써 보세요."
+        "en": "うっかりしてしまった失敗を「〜てしまいました」を使って書いてください。",
+        "ko": "실수로 저질러버린 일을 '〜てしまいました'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "teoku",
-          "label_ko": "ておく",
+          "id": "teshimau",
+          "label_ko": "てしまう",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'ておきます'를 사용했는가",
+          "criterion_ko": "'てしまいました'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "ておきます"
+            "てしまいました"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,28 +78,28 @@
       }
     },
     {
-      "id": "ja_b1_u01_w2",
+      "id": "ja_b1_u02_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「かいぎのまえになにをしておきますか」という質問に答えを書いてください。",
-        "ko": "'かいぎのまえになにをしておきますか'라는 질문에 답을 써 보세요."
+        "en": "「なぜちこくしましたか」という質問に「〜てしまいました」を使って答えを書いてください。",
+        "ko": "'なぜちこくしましたか'라는 질문에 '〜てしまいました'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "teoku",
-          "label_ko": "ておく",
+          "id": "teshimau",
+          "label_ko": "てしまう",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'ておきます'를 사용했는가",
+          "criterion_ko": "'てしまいました'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "ておきます"
+            "てしまいました"
           ],
           "min_matches": 1,
           "points": 60,
@@ -127,29 +127,28 @@
       }
     },
     {
-      "id": "ja_b1_u01_s1",
+      "id": "ja_b1_u02_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "旅行の前に準備しておくことについて声に出して話してください。",
-        "ko": "여행 전에 준비해 두는 것에 대해 소리 내어 말해 보세요."
+        "en": "うっかりしてしまった失敗について声に出して話してください。",
+        "ko": "실수로 저질러버린 일에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "teoku",
-          "label_ko": "ておく",
+          "id": "teshimau",
+          "label_ko": "てしまう",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'ておきます' 또는 'ておいて'를 사용했는가",
+          "criterion_ko": "'てしまいました'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "ておきます",
-            "ておいて"
+            "てしまいました"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,18 +179,18 @@
       }
     },
     {
-      "id": "ja_b1_u01_s2",
+      "id": "ja_b1_u02_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「きっぷをかっておきましたか」と聞かれました。声に出して答えてください。",
-        "ko": "'きっぷをかっておきましたか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「ぜんぶたべてしまいましたか」と聞かれました。声に出して答えてください。",
+        "ko": "'ぜんぶたべてしまいましたか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "teoku",
-          "label_ko": "ておく",
+          "id": "teshimau",
+          "label_ko": "てしまう",
           "min_occurrences": 1
         }
       ],
