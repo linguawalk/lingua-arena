@@ -1,75 +1,68 @@
 {
   "meta": {
-    "id": "en_c2_u01",
+    "id": "en_c2_u03",
     "domain": "language",
     "lang": "en",
     "level": "c2",
-    "unit": 1,
-    "title": "Subtle Synonyms: Elicit vs Evoke vs Provoke",
-    "title_ko": "미묘한 유의어: Elicit vs Evoke vs Provoke",
+    "unit": 3,
+    "title": "Register: Highbrow vs Colloquial for the Same Idea",
+    "title_ko": "격식: 고급 어휘 vs 구어체",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "'Elicit' draws out a response through effort (elicit a reaction, elicit information). 'Evoke' calls up a feeling or memory, often unintentionally (the smell evoked childhood memories). 'Provoke' deliberately or forcefully triggers a strong, often negative reaction (provoke anger). All three involve 'causing a response' but differ in intent and force.",
-    "explanation_ko": "'elicit'는 노력을 통해 반응을 끌어냅니다(elicit a reaction, elicit information). 'evoke'는 종종 의도치 않게 감정이나 기억을 불러일으킵니다(the smell evoked childhood memories). 'provoke'는 의도적이거나 강하게 강렬하고 흔히 부정적인 반응을 촉발합니다(provoke anger). 셋 다 '반응을 일으키는 것'이지만 의도와 강도가 다릅니다.",
+    "explanation_en": "The same idea can shift dramatically between highbrow/literary register ('an ephemeral pleasure') and colloquial register ('a fun little thing that doesn't last'). True C2 mastery means recognizing when highbrow vocabulary sounds pretentious versus when it sounds precise and appropriate.",
+    "explanation_ko": "같은 생각도 고급·문학적 격식('an ephemeral pleasure')과 구어체 격식('a fun little thing that doesn't last') 사이에서 크게 달라질 수 있습니다. 진짜 C2 숙달은 고급 어휘가 언제 허세로 들리고 언제 정밀하고 적절하게 들리는지 구분하는 것입니다.",
     "key_expressions": [
       {
-        "en": "The question elicited a thoughtful response.",
-        "ko": "그 질문은 신중한 답변을 이끌어냈어요."
+        "en": "It was an ephemeral pleasure, gone in an instant.",
+        "ko": "그건 순식간에 사라지는 덧없는 즐거움이었어요."
       },
       {
-        "en": "The song evoked memories of my childhood.",
-        "ko": "그 노래는 어린 시절의 기억을 불러일으켰어요."
+        "en": "It was a fun little thing that didn't last.",
+        "ko": "오래가지 않는 재밌는 거였어요."
       },
       {
-        "en": "His comment provoked outrage online.",
-        "ko": "그의 발언은 온라인에서 분노를 촉발했어요."
+        "en": "His prose was verbose, almost impenetrable.",
+        "ko": "그의 산문은 장황해서 거의 이해할 수 없었어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "en_c2_u01_w1",
+      "id": "en_c2_u03_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write about a smell or song that evoked a memory, and a question that elicited a surprising answer, using both words precisely.",
-        "ko": "기억을 불러일으켰던 냄새나 노래, 그리고 놀라운 답을 이끌어냈던 질문에 대해 두 단어를 정확히 사용해서 써 보세요."
+        "en": "Describe a short-lived pleasure once using highbrow vocabulary ('ephemeral') and once colloquially ('doesn't last'), showing you can shift register deliberately.",
+        "ko": "짧게 지속되는 즐거움을 고급 어휘('ephemeral')로 한 번, 구어체로 한 번 묘사해서, 의도적으로 격식을 바꿀 수 있음을 보여주세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "evoke",
-          "label_ko": "evoke",
+          "id": "ephemeral",
+          "label_ko": "ephemeral",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'evok(e/ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bevok(e|ed|es)\\b",
+          "criterion_ko": "'ephemeral'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "ephemeral"
+          ],
           "min_matches": 1,
-          "points": 40,
+          "points": 55,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "'elicit(ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\belicit(ed)?\\b",
-          "min_matches": 1,
-          "points": 40,
-          "required": true
-        },
-        {
-          "id": "r3",
           "criterion_ko": "완전한 문장인가",
           "type": "pattern_regex",
           "target": "[.!]$",
           "min_matches": 1,
-          "points": 20,
+          "points": 45,
           "required": false
         }
       ],
@@ -85,27 +78,29 @@
       }
     },
     {
-      "id": "en_c2_u01_w2",
+      "id": "en_c2_u03_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Someone asks: 'Did his comment upset people intentionally?' Write your answer using 'provoke' to show deliberate intent.",
-        "ko": "'Did his comment upset people intentionally?'라는 질문에, 의도적임을 나타내기 위해 'provoke'를 사용해서 답을 써 보세요."
+        "en": "Someone asks: 'Was the writing style clear or overly complicated?' Write your answer using 'verbose' if it was overly wordy.",
+        "ko": "'Was the writing style clear or overly complicated?'라는 질문에, 지나치게 장황했다면 'verbose'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "provoke",
-          "label_ko": "provoke",
+          "id": "verbose",
+          "label_ko": "verbose",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'provok(e/ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bprovok(e|ed|es)\\b",
+          "criterion_ko": "'verbose'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "verbose"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -132,27 +127,29 @@
       }
     },
     {
-      "id": "en_c2_u01_s1",
+      "id": "en_c2_u03_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Talk out loud about a place or object that evokes strong emotion for you, using 'evoke' precisely.",
-        "ko": "당신에게 강한 감정을 불러일으키는 장소나 물건에 대해 'evoke'를 정확히 사용해서 소리 내어 말해 보세요."
+        "en": "Talk out loud about something ephemeral in modern life (a trend, a feeling), using 'ephemeral' precisely.",
+        "ko": "현대 삶에서 덧없는 것(트렌드, 감정)에 대해 'ephemeral'을 정확히 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "evoke",
-          "label_ko": "evoke",
+          "id": "ephemeral",
+          "label_ko": "ephemeral",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'evok(e/es)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bevok(e|es)\\b",
+          "criterion_ko": "'ephemeral'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "ephemeral"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -182,27 +179,30 @@
       }
     },
     {
-      "id": "en_c2_u01_s2",
+      "id": "en_c2_u03_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Answer out loud: 'What kind of question elicits your best thinking?'",
-        "ko": "소리 내어 답해 보세요: 'What kind of question elicits your best thinking?'"
+        "en": "Answer out loud: 'Do you prefer plain, simple writing or more elaborate, literary prose?'",
+        "ko": "소리 내어 답해 보세요: 'Do you prefer plain, simple writing or more elaborate, literary prose?'"
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "elicit",
-          "label_ko": "elicit",
+          "id": "register",
+          "label_ko": "격식 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'elicit(s)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\belicit[s]?\\b",
+          "criterion_ko": "'simple' 또는 'elaborate'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "simple",
+            "elaborate"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true

@@ -1,75 +1,93 @@
 {
   "meta": {
-    "id": "en_c2_u01",
+    "id": "en_c2_u08",
     "domain": "language",
     "lang": "en",
     "level": "c2",
-    "unit": 1,
-    "title": "Subtle Synonyms: Elicit vs Evoke vs Provoke",
-    "title_ko": "미묘한 유의어: Elicit vs Evoke vs Provoke",
+    "unit": 8,
+    "title": "Idiomatic Prepositional Nuance: Agree with/to/on",
+    "title_ko": "전치사 뉘앙스: Agree with/to/on",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "'Elicit' draws out a response through effort (elicit a reaction, elicit information). 'Evoke' calls up a feeling or memory, often unintentionally (the smell evoked childhood memories). 'Provoke' deliberately or forcefully triggers a strong, often negative reaction (provoke anger). All three involve 'causing a response' but differ in intent and force.",
-    "explanation_ko": "'elicit'는 노력을 통해 반응을 끌어냅니다(elicit a reaction, elicit information). 'evoke'는 종종 의도치 않게 감정이나 기억을 불러일으킵니다(the smell evoked childhood memories). 'provoke'는 의도적이거나 강하게 강렬하고 흔히 부정적인 반응을 촉발합니다(provoke anger). 셋 다 '반응을 일으키는 것'이지만 의도와 강도가 다릅니다.",
+    "explanation_en": "'Agree with' a person or opinion (I agree with you). 'Agree to' a proposal or action (I agree to the terms). 'Agree on' a shared decision between parties (We agreed on a price). These prepositions aren't interchangeable, and native speakers rarely confuse them — a mark of true fluency.",
+    "explanation_ko": "'agree with'는 사람이나 의견에 동의할 때(I agree with you), 'agree to'는 제안이나 행동에 동의할 때(I agree to the terms), 'agree on'은 당사자 간 공유된 결정에 동의할 때(We agreed on a price) 씁니다. 이 전치사들은 서로 바꿔 쓸 수 없으며, 원어민은 거의 헷갈리지 않는데, 이게 진짜 유창함의 표시입니다.",
     "key_expressions": [
       {
-        "en": "The question elicited a thoughtful response.",
-        "ko": "그 질문은 신중한 답변을 이끌어냈어요."
+        "en": "I completely agree with you on this.",
+        "ko": "이 점에 대해서는 전적으로 당신에게 동의해요."
       },
       {
-        "en": "The song evoked memories of my childhood.",
-        "ko": "그 노래는 어린 시절의 기억을 불러일으켰어요."
+        "en": "They finally agreed to the new terms.",
+        "ko": "그들은 마침내 새 조건에 동의했어요."
       },
       {
-        "en": "His comment provoked outrage online.",
-        "ko": "그의 발언은 온라인에서 분노를 촉발했어요."
+        "en": "We agreed on a fair price.",
+        "ko": "우리는 공정한 가격에 합의했어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "en_c2_u01_w1",
+      "id": "en_c2_u08_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write about a smell or song that evoked a memory, and a question that elicited a surprising answer, using both words precisely.",
-        "ko": "기억을 불러일으켰던 냄새나 노래, 그리고 놀라운 답을 이끌어냈던 질문에 대해 두 단어를 정확히 사용해서 써 보세요."
+        "en": "Write three sentences using 'agree with' (a person), 'agree to' (a proposal), and 'agree on' (a shared decision) correctly.",
+        "ko": "'agree with'(사람), 'agree to'(제안), 'agree on'(공유된 결정)를 각각 올바르게 사용한 문장 세 개를 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "evoke",
-          "label_ko": "evoke",
-          "min_occurrences": 1
+          "id": "agree_prepositions",
+          "label_ko": "agree 전치사",
+          "min_occurrences": 3
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'evok(e/ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bevok(e|ed|es)\\b",
+          "criterion_ko": "'agree with'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "agree with",
+            "agreed with"
+          ],
           "min_matches": 1,
-          "points": 40,
+          "points": 30,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "'elicit(ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\belicit(ed)?\\b",
+          "criterion_ko": "'agree to'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "agree to",
+            "agreed to"
+          ],
           "min_matches": 1,
-          "points": 40,
+          "points": 30,
           "required": true
         },
         {
           "id": "r3",
-          "criterion_ko": "완전한 문장인가",
-          "type": "pattern_regex",
-          "target": "[.!]$",
+          "criterion_ko": "'agree on'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "agree on",
+            "agreed on"
+          ],
           "min_matches": 1,
-          "points": 20,
+          "points": 30,
+          "required": true
+        },
+        {
+          "id": "r4",
+          "criterion_ko": "문장이 3개 이상인가",
+          "type": "pattern_regex",
+          "target": "[.!]",
+          "min_matches": 3,
+          "points": 10,
           "required": false
         }
       ],
@@ -85,27 +103,30 @@
       }
     },
     {
-      "id": "en_c2_u01_w2",
+      "id": "en_c2_u08_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Someone asks: 'Did his comment upset people intentionally?' Write your answer using 'provoke' to show deliberate intent.",
-        "ko": "'Did his comment upset people intentionally?'라는 질문에, 의도적임을 나타내기 위해 'provoke'를 사용해서 답을 써 보세요."
+        "en": "Someone asks: 'Did the two companies finally reach a shared decision on the merger terms?' Write your answer using 'agree on'.",
+        "ko": "'Did the two companies finally reach a shared decision on the merger terms?'라는 질문에 'agree on'을 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "provoke",
-          "label_ko": "provoke",
+          "id": "agree_on",
+          "label_ko": "agree on",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'provok(e/ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bprovok(e|ed|es)\\b",
+          "criterion_ko": "'agree(d) on'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "agree on",
+            "agreed on"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -132,27 +153,30 @@
       }
     },
     {
-      "id": "en_c2_u01_s1",
+      "id": "en_c2_u08_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Talk out loud about a place or object that evokes strong emotion for you, using 'evoke' precisely.",
-        "ko": "당신에게 강한 감정을 불러일으키는 장소나 물건에 대해 'evoke'를 정확히 사용해서 소리 내어 말해 보세요."
+        "en": "Talk out loud about something you agreed to recently (a proposal or request), using 'agree to' correctly.",
+        "ko": "최근 동의했던 제안이나 요청에 대해 'agree to'를 정확히 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "evoke",
-          "label_ko": "evoke",
+          "id": "agree_to",
+          "label_ko": "agree to",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'evok(e/es)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bevok(e|es)\\b",
+          "criterion_ko": "'agree(d) to'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "agree to",
+            "agreed to"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -182,27 +206,29 @@
       }
     },
     {
-      "id": "en_c2_u01_s2",
+      "id": "en_c2_u08_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Answer out loud: 'What kind of question elicits your best thinking?'",
-        "ko": "소리 내어 답해 보세요: 'What kind of question elicits your best thinking?'"
+        "en": "Answer out loud: 'Do you usually agree with your friends' opinions on politics?'",
+        "ko": "소리 내어 답해 보세요: 'Do you usually agree with your friends' opinions on politics?'"
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "elicit",
-          "label_ko": "elicit",
+          "id": "agree_with",
+          "label_ko": "agree with",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'elicit(s)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\belicit[s]?\\b",
+          "criterion_ko": "'agree with'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "agree with"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true

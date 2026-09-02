@@ -1,64 +1,68 @@
 {
   "meta": {
-    "id": "en_c2_u01",
+    "id": "en_c2_u04",
     "domain": "language",
     "lang": "en",
     "level": "c2",
-    "unit": 1,
-    "title": "Subtle Synonyms: Elicit vs Evoke vs Provoke",
-    "title_ko": "미묘한 유의어: Elicit vs Evoke vs Provoke",
+    "unit": 4,
+    "title": "Rare/Literary Vocabulary in Everyday Use",
+    "title_ko": "일상 속 희귀·문학적 어휘",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "'Elicit' draws out a response through effort (elicit a reaction, elicit information). 'Evoke' calls up a feeling or memory, often unintentionally (the smell evoked childhood memories). 'Provoke' deliberately or forcefully triggers a strong, often negative reaction (provoke anger). All three involve 'causing a response' but differ in intent and force.",
-    "explanation_ko": "'elicit'는 노력을 통해 반응을 끌어냅니다(elicit a reaction, elicit information). 'evoke'는 종종 의도치 않게 감정이나 기억을 불러일으킵니다(the smell evoked childhood memories). 'provoke'는 의도적이거나 강하게 강렬하고 흔히 부정적인 반응을 촉발합니다(provoke anger). 셋 다 '반응을 일으키는 것'이지만 의도와 강도가 다릅니다.",
+    "explanation_en": "Some literary words occasionally surface in sophisticated everyday speech: 'ubiquitous' (present everywhere), 'quintessential' (the perfect, most typical example), 'serendipitous' (a happy accident). Using these sparingly and correctly signals real fluency without sounding forced.",
+    "explanation_ko": "일부 문학적 단어는 세련된 일상 발화에 종종 등장합니다: 'ubiquitous'(어디에나 있는), 'quintessential'(가장 전형적이고 완벽한 예), 'serendipitous'(운 좋은 우연). 이를 적절히 드물게 사용하면 억지스럽지 않게 진짜 유창함을 드러냅니다.",
     "key_expressions": [
       {
-        "en": "The question elicited a thoughtful response.",
-        "ko": "그 질문은 신중한 답변을 이끌어냈어요."
+        "en": "Smartphones have become ubiquitous.",
+        "ko": "스마트폰은 어디에나 있게 됐어요."
       },
       {
-        "en": "The song evoked memories of my childhood.",
-        "ko": "그 노래는 어린 시절의 기억을 불러일으켰어요."
+        "en": "That cafe is the quintessential Parisian spot.",
+        "ko": "그 카페는 전형적인 파리다운 장소예요."
       },
       {
-        "en": "His comment provoked outrage online.",
-        "ko": "그의 발언은 온라인에서 분노를 촉발했어요."
+        "en": "Meeting her was completely serendipitous.",
+        "ko": "그녀를 만난 건 완전히 운 좋은 우연이었어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "en_c2_u01_w1",
+      "id": "en_c2_u04_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write about a smell or song that evoked a memory, and a question that elicited a surprising answer, using both words precisely.",
-        "ko": "기억을 불러일으켰던 냄새나 노래, 그리고 놀라운 답을 이끌어냈던 질문에 대해 두 단어를 정확히 사용해서 써 보세요."
+        "en": "Write about something that has become ubiquitous in modern life, and something you consider the quintessential example of its category.",
+        "ko": "현대 삶에서 어디에나 있게 된 것과, 어떤 범주의 전형적인 예라고 생각하는 것에 대해 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "evoke",
-          "label_ko": "evoke",
+          "id": "ubiquitous",
+          "label_ko": "ubiquitous",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'evok(e/ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bevok(e|ed|es)\\b",
+          "criterion_ko": "'ubiquitous'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "ubiquitous"
+          ],
           "min_matches": 1,
           "points": 40,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "'elicit(ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\belicit(ed)?\\b",
+          "criterion_ko": "'quintessential'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "quintessential"
+          ],
           "min_matches": 1,
           "points": 40,
           "required": true
@@ -85,27 +89,29 @@
       }
     },
     {
-      "id": "en_c2_u01_w2",
+      "id": "en_c2_u04_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Someone asks: 'Did his comment upset people intentionally?' Write your answer using 'provoke' to show deliberate intent.",
-        "ko": "'Did his comment upset people intentionally?'라는 질문에, 의도적임을 나타내기 위해 'provoke'를 사용해서 답을 써 보세요."
+        "en": "Someone asks: 'How did you two meet — was it planned?' Write your answer using 'serendipitous' if it was a happy accident.",
+        "ko": "'How did you two meet — was it planned?'라는 질문에, 우연이었다면 'serendipitous'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "provoke",
-          "label_ko": "provoke",
+          "id": "serendipitous",
+          "label_ko": "serendipitous",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'provok(e/ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bprovok(e|ed|es)\\b",
+          "criterion_ko": "'serendipitous'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "serendipitous"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -132,27 +138,29 @@
       }
     },
     {
-      "id": "en_c2_u01_s1",
+      "id": "en_c2_u04_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Talk out loud about a place or object that evokes strong emotion for you, using 'evoke' precisely.",
-        "ko": "당신에게 강한 감정을 불러일으키는 장소나 물건에 대해 'evoke'를 정확히 사용해서 소리 내어 말해 보세요."
+        "en": "Talk out loud about something that feels ubiquitous in your daily life, using 'ubiquitous'.",
+        "ko": "일상에서 어디에나 있게 느껴지는 것에 대해 'ubiquitous'를 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "evoke",
-          "label_ko": "evoke",
+          "id": "ubiquitous",
+          "label_ko": "ubiquitous",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'evok(e/es)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bevok(e|es)\\b",
+          "criterion_ko": "'ubiquitous'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "ubiquitous"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -182,27 +190,29 @@
       }
     },
     {
-      "id": "en_c2_u01_s2",
+      "id": "en_c2_u04_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Answer out loud: 'What kind of question elicits your best thinking?'",
-        "ko": "소리 내어 답해 보세요: 'What kind of question elicits your best thinking?'"
+        "en": "Answer out loud: 'What would you call the quintessential dish from your country?'",
+        "ko": "소리 내어 답해 보세요: 'What would you call the quintessential dish from your country?'"
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "elicit",
-          "label_ko": "elicit",
+          "id": "quintessential",
+          "label_ko": "quintessential",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'elicit(s)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\belicit[s]?\\b",
+          "criterion_ko": "'quintessential'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "quintessential"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true

@@ -1,64 +1,68 @@
 {
   "meta": {
-    "id": "en_c2_u01",
+    "id": "en_c2_u05",
     "domain": "language",
     "lang": "en",
     "level": "c2",
-    "unit": 1,
-    "title": "Subtle Synonyms: Elicit vs Evoke vs Provoke",
-    "title_ko": "미묘한 유의어: Elicit vs Evoke vs Provoke",
+    "unit": 5,
+    "title": "Nuance: Ambiguous vs Equivocal vs Vague",
+    "title_ko": "뉘앙스: Ambiguous vs Equivocal vs Vague",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "'Elicit' draws out a response through effort (elicit a reaction, elicit information). 'Evoke' calls up a feeling or memory, often unintentionally (the smell evoked childhood memories). 'Provoke' deliberately or forcefully triggers a strong, often negative reaction (provoke anger). All three involve 'causing a response' but differ in intent and force.",
-    "explanation_ko": "'elicit'는 노력을 통해 반응을 끌어냅니다(elicit a reaction, elicit information). 'evoke'는 종종 의도치 않게 감정이나 기억을 불러일으킵니다(the smell evoked childhood memories). 'provoke'는 의도적이거나 강하게 강렬하고 흔히 부정적인 반응을 촉발합니다(provoke anger). 셋 다 '반응을 일으키는 것'이지만 의도와 강도가 다릅니다.",
+    "explanation_en": "'Ambiguous' has multiple genuine interpretations (an ambiguous statement could mean two things). 'Equivocal' implies deliberately unclear language to avoid commitment, often with a hint of evasion. 'Vague' simply lacks detail or precision, without necessarily implying multiple meanings or intent.",
+    "explanation_ko": "'ambiguous'는 진짜로 여러 해석이 가능합니다(모호한 발언이 두 가지 뜻일 수 있음). 'equivocal'은 책임을 피하려고 의도적으로 불명확한 언어를 함축하며 회피의 뉘앙스가 있습니다. 'vague'는 단순히 세부사항이나 정밀함이 부족한 것으로, 반드시 여러 뜻이나 의도를 함축하지는 않습니다.",
     "key_expressions": [
       {
-        "en": "The question elicited a thoughtful response.",
-        "ko": "그 질문은 신중한 답변을 이끌어냈어요."
+        "en": "The contract's wording was ambiguous.",
+        "ko": "그 계약서 문구는 모호했어요."
       },
       {
-        "en": "The song evoked memories of my childhood.",
-        "ko": "그 노래는 어린 시절의 기억을 불러일으켰어요."
+        "en": "His equivocal answer avoided the real question.",
+        "ko": "그의 애매한 답변은 진짜 질문을 피했어요."
       },
       {
-        "en": "His comment provoked outrage online.",
-        "ko": "그의 발언은 온라인에서 분노를 촉발했어요."
+        "en": "The instructions were too vague to follow.",
+        "ko": "지시사항이 너무 막연해서 따를 수 없었어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "en_c2_u01_w1",
+      "id": "en_c2_u05_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write about a smell or song that evoked a memory, and a question that elicited a surprising answer, using both words precisely.",
-        "ko": "기억을 불러일으켰던 냄새나 노래, 그리고 놀라운 답을 이끌어냈던 질문에 대해 두 단어를 정확히 사용해서 써 보세요."
+        "en": "Write about a statement that was genuinely ambiguous (two real meanings) and one that was deliberately equivocal (avoiding commitment), using both words correctly.",
+        "ko": "진짜로 두 가지 뜻이었던 발언과, 의도적으로 책임을 피한 애매한 발언에 대해 두 단어를 정확히 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "evoke",
-          "label_ko": "evoke",
+          "id": "ambiguous",
+          "label_ko": "ambiguous",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'evok(e/ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bevok(e|ed|es)\\b",
+          "criterion_ko": "'ambiguous'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "ambiguous"
+          ],
           "min_matches": 1,
           "points": 40,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "'elicit(ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\belicit(ed)?\\b",
+          "criterion_ko": "'equivocal'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "equivocal"
+          ],
           "min_matches": 1,
           "points": 40,
           "required": true
@@ -85,27 +89,29 @@
       }
     },
     {
-      "id": "en_c2_u01_w2",
+      "id": "en_c2_u05_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Someone asks: 'Did his comment upset people intentionally?' Write your answer using 'provoke' to show deliberate intent.",
-        "ko": "'Did his comment upset people intentionally?'라는 질문에, 의도적임을 나타내기 위해 'provoke'를 사용해서 답을 써 보세요."
+        "en": "Someone asks: 'Were the instructions clear enough to follow?' Write your answer using 'vague' if they lacked detail.",
+        "ko": "'Were the instructions clear enough to follow?'라는 질문에, 세부사항이 부족했다면 'vague'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "provoke",
-          "label_ko": "provoke",
+          "id": "vague",
+          "label_ko": "vague",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'provok(e/ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bprovok(e|ed|es)\\b",
+          "criterion_ko": "'vague'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "vague"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -132,27 +138,29 @@
       }
     },
     {
-      "id": "en_c2_u01_s1",
+      "id": "en_c2_u05_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Talk out loud about a place or object that evokes strong emotion for you, using 'evoke' precisely.",
-        "ko": "당신에게 강한 감정을 불러일으키는 장소나 물건에 대해 'evoke'를 정확히 사용해서 소리 내어 말해 보세요."
+        "en": "Talk out loud about a time someone gave an equivocal answer to avoid committing, using 'equivocal'.",
+        "ko": "누군가 책임을 피하려고 애매한 답을 했던 경험을 'equivocal'을 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "evoke",
-          "label_ko": "evoke",
+          "id": "equivocal",
+          "label_ko": "equivocal",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'evok(e/es)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bevok(e|es)\\b",
+          "criterion_ko": "'equivocal'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "equivocal"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -182,27 +190,31 @@
       }
     },
     {
-      "id": "en_c2_u01_s2",
+      "id": "en_c2_u05_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Answer out loud: 'What kind of question elicits your best thinking?'",
-        "ko": "소리 내어 답해 보세요: 'What kind of question elicits your best thinking?'"
+        "en": "Answer out loud: 'Is the phrase \"see you later\" ambiguous about time?'",
+        "ko": "소리 내어 답해 보세요: 'Is the phrase \"see you later\" ambiguous about time?'"
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "elicit",
-          "label_ko": "elicit",
+          "id": "ambiguous",
+          "label_ko": "ambiguous",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'elicit(s)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\belicit[s]?\\b",
+          "criterion_ko": "'ambiguous' 또는 'Yes/No'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "ambiguous",
+            "yes",
+            "no"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true

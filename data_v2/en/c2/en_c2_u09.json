@@ -1,74 +1,81 @@
 {
   "meta": {
-    "id": "en_c2_u01",
+    "id": "en_c2_u09",
     "domain": "language",
     "lang": "en",
     "level": "c2",
-    "unit": 1,
-    "title": "Subtle Synonyms: Elicit vs Evoke vs Provoke",
-    "title_ko": "미묘한 유의어: Elicit vs Evoke vs Provoke",
+    "unit": 9,
+    "title": "Advanced Idioms: Corporate Jargon Critique",
+    "title_ko": "기업 은어 비평",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "'Elicit' draws out a response through effort (elicit a reaction, elicit information). 'Evoke' calls up a feeling or memory, often unintentionally (the smell evoked childhood memories). 'Provoke' deliberately or forcefully triggers a strong, often negative reaction (provoke anger). All three involve 'causing a response' but differ in intent and force.",
-    "explanation_ko": "'elicit'는 노력을 통해 반응을 끌어냅니다(elicit a reaction, elicit information). 'evoke'는 종종 의도치 않게 감정이나 기억을 불러일으킵니다(the smell evoked childhood memories). 'provoke'는 의도적이거나 강하게 강렬하고 흔히 부정적인 반응을 촉발합니다(provoke anger). 셋 다 '반응을 일으키는 것'이지만 의도와 강도가 다릅니다.",
+    "explanation_en": "Corporate jargon often obscures meaning: 'synergy' (vague benefit from combining things), 'circle back' (revisit later, often to avoid deciding now), 'low-hanging fruit' (easy wins). A C2 speaker can both use these fluently AND recognize when they're empty buzzwords.",
+    "explanation_ko": "기업 은어는 종종 의미를 흐립니다: 'synergy'(결합에서 오는 막연한 이익), 'circle back'(나중에 다시 논의, 지금 결정을 피하려는 경우가 많음), 'low-hanging fruit'(쉬운 성과). C2 화자는 이런 표현을 유창하게 쓰면서도 동시에 언제 그게 공허한 유행어인지 알아챌 수 있어야 합니다.",
     "key_expressions": [
       {
-        "en": "The question elicited a thoughtful response.",
-        "ko": "그 질문은 신중한 답변을 이끌어냈어요."
+        "en": "Let's circle back on that next week.",
+        "ko": "그건 다음 주에 다시 논의해요."
       },
       {
-        "en": "The song evoked memories of my childhood.",
-        "ko": "그 노래는 어린 시절의 기억을 불러일으켰어요."
+        "en": "We should focus on the low-hanging fruit first.",
+        "ko": "우리는 쉬운 성과부터 처리해야 해요."
       },
       {
-        "en": "His comment provoked outrage online.",
-        "ko": "그의 발언은 온라인에서 분노를 촉발했어요."
+        "en": "The merger creates real synergy between the teams.",
+        "ko": "그 합병은 팀 간에 실질적인 시너지를 만들어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "en_c2_u01_w1",
+      "id": "en_c2_u09_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write about a smell or song that evoked a memory, and a question that elicited a surprising answer, using both words precisely.",
-        "ko": "기억을 불러일으켰던 냄새나 노래, 그리고 놀라운 답을 이끌어냈던 질문에 대해 두 단어를 정확히 사용해서 써 보세요."
+        "en": "Write a sentence using corporate jargon naturally ('circle back', 'low-hanging fruit'), then a sentence critiquing how vague that kind of jargon can be.",
+        "ko": "기업 은어('circle back', 'low-hanging fruit')를 자연스럽게 사용한 문장 하나와, 그런 은어가 얼마나 모호할 수 있는지 비평하는 문장 하나를 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "evoke",
-          "label_ko": "evoke",
+          "id": "corporate_jargon",
+          "label_ko": "기업 은어",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'evok(e/ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bevok(e|ed|es)\\b",
+          "criterion_ko": "'circle back' 또는 'low-hanging fruit'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "circle back",
+            "low-hanging fruit",
+            "low hanging fruit"
+          ],
           "min_matches": 1,
-          "points": 40,
+          "points": 45,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "'elicit(ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\belicit(ed)?\\b",
+          "criterion_ko": "'vague' 또는 'jargon'을 언급했는가",
+          "type": "keyword_match",
+          "target": [
+            "vague",
+            "jargon"
+          ],
           "min_matches": 1,
-          "points": 40,
-          "required": true
+          "points": 35,
+          "required": false
         },
         {
           "id": "r3",
-          "criterion_ko": "완전한 문장인가",
+          "criterion_ko": "문장이 2개 이상인가",
           "type": "pattern_regex",
-          "target": "[.!]$",
-          "min_matches": 1,
+          "target": "[.!]",
+          "min_matches": 2,
           "points": 20,
           "required": false
         }
@@ -85,27 +92,29 @@
       }
     },
     {
-      "id": "en_c2_u01_w2",
+      "id": "en_c2_u09_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Someone asks: 'Did his comment upset people intentionally?' Write your answer using 'provoke' to show deliberate intent.",
-        "ko": "'Did his comment upset people intentionally?'라는 질문에, 의도적임을 나타내기 위해 'provoke'를 사용해서 답을 써 보세요."
+        "en": "Someone asks: 'Should we discuss the budget issue now or later?' Write a workplace-style answer using 'circle back'.",
+        "ko": "'Should we discuss the budget issue now or later?'라는 질문에 'circle back'을 사용해서 직장 스타일로 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "provoke",
-          "label_ko": "provoke",
+          "id": "circle_back",
+          "label_ko": "circle back",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'provok(e/ed)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bprovok(e|ed|es)\\b",
+          "criterion_ko": "'circle back'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "circle back"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -132,27 +141,31 @@
       }
     },
     {
-      "id": "en_c2_u01_s1",
+      "id": "en_c2_u09_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Talk out loud about a place or object that evokes strong emotion for you, using 'evoke' precisely.",
-        "ko": "당신에게 강한 감정을 불러일으키는 장소나 물건에 대해 'evoke'를 정확히 사용해서 소리 내어 말해 보세요."
+        "en": "Talk out loud, playfully critiquing a piece of corporate jargon you find meaningless, naming the term.",
+        "ko": "의미 없다고 생각하는 기업 은어를 언급하며, 장난스럽게 비평하는 내용을 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "evoke",
-          "label_ko": "evoke",
+          "id": "corporate_jargon",
+          "label_ko": "기업 은어",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'evok(e/es)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\bevok(e|es)\\b",
+          "criterion_ko": "'synergy', 'circle back', 'low-hanging fruit' 중 하나를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "synergy",
+            "circle back",
+            "low-hanging fruit"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -182,27 +195,32 @@
       }
     },
     {
-      "id": "en_c2_u01_s2",
+      "id": "en_c2_u09_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "Answer out loud: 'What kind of question elicits your best thinking?'",
-        "ko": "소리 내어 답해 보세요: 'What kind of question elicits your best thinking?'"
+        "en": "Answer out loud: 'What corporate buzzword annoys you the most?'",
+        "ko": "소리 내어 답해 보세요: 'What corporate buzzword annoys you the most?'"
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "elicit",
-          "label_ko": "elicit",
+          "id": "corporate_jargon",
+          "label_ko": "기업 은어",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'elicit(s)'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "\\belicit[s]?\\b",
+          "criterion_ko": "'synergy', 'circle back', 'buzzword' 중 하나를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "synergy",
+            "circle back",
+            "buzzword",
+            "low-hanging fruit"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
