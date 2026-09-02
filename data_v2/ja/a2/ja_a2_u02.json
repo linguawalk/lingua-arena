@@ -1,68 +1,79 @@
 {
   "meta": {
-    "id": "ja_a2_u01",
+    "id": "ja_a2_u02",
     "domain": "language",
     "lang": "ja",
     "level": "a2",
-    "unit": 1,
-    "title": "過去の経験",
-    "title_ko": "과거 경험",
+    "unit": 2,
+    "title": "きのう",
+    "title_ko": "어제",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "経験を話すときは「〜たことがあります」を使います。「にほんへいったことがあります」のように、これまでにしたことを表します。",
-    "explanation_ko": "경험을 말할 때는 '〜たことがあります'(~한 적이 있어요)를 씁니다. 'にほんへいったことがあります'(일본에 가본 적이 있어요)처럼, 지금까지 해본 것을 나타냅니다.",
+    "explanation_en": "昨日の出来事を順番に話すときは「まず〜、それから〜」を使います。動詞の過去形（〜ました）を続けて使います。",
+    "explanation_ko": "어제 있었던 일을 순서대로 말할 때는 'まず〜、それから〜'를 씁니다. 동사의 과거형(〜ました)을 이어서 씁니다.",
     "key_expressions": [
       {
-        "en": "にほんへいったことがあります。",
-        "ko": "일본에 가본 적이 있어요."
+        "en": "きのうはまずかいものにいきました。それからともだちとあいました。",
+        "ko": "어제는 먼저 쇼핑하러 갔어요. 그리고 친구를 만났어요."
       },
       {
-        "en": "うまにのったことがありません。",
-        "ko": "말을 타본 적이 없어요."
+        "en": "あさごはんをたべて、しごとにいきました。",
+        "ko": "아침을 먹고 일하러 갔어요."
       },
       {
-        "en": "からいたべものをたべたことがあります。",
-        "ko": "매운 음식을 먹어본 적이 있어요."
+        "en": "よるはえいがをみました。",
+        "ko": "밤에는 영화를 봤어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_a2_u01_w1",
+      "id": "ja_a2_u02_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "したことがある珍しい経験を「〜たことがあります」を使って書いてください。",
-        "ko": "해본 적 있는 특이한 경험을 '〜たことがあります'를 사용해서 써 보세요."
+        "en": "きのうしたことを、「まず」「それから」を使って順番に書いてください。",
+        "ko": "어제 했던 일을 'まず', 'それから'를 사용해서 순서대로 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
-          "min_occurrences": 1
+          "id": "yesterday_sequence",
+          "label_ko": "어제 순서 표현",
+          "min_occurrences": 2
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'まず'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "まず"
           ],
           "min_matches": 1,
-          "points": 60,
+          "points": 40,
           "required": true
         },
         {
           "id": "r2",
+          "criterion_ko": "'それから'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "それから"
+          ],
+          "min_matches": 1,
+          "points": 40,
+          "required": true
+        },
+        {
+          "id": "r3",
           "criterion_ko": "완전한 문장인가",
           "type": "pattern_regex",
           "target": "[。]$",
           "min_matches": 1,
-          "points": 40,
+          "points": 20,
           "required": false
         }
       ],
@@ -78,29 +89,28 @@
       }
     },
     {
-      "id": "ja_a2_u01_w2",
+      "id": "ja_a2_u02_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「がいこくへいったことがありますか」という質問に答えを書いてください。",
-        "ko": "'がいこくへいったことがありますか'라는 질문에 답을 써 보세요."
+        "en": "「きのうのよる何をしましたか」という質問に答えを書いてください。",
+        "ko": "'きのうのよる何をしましたか'라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "last_night",
+          "label_ko": "어젯밤 활동 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'たことがありません'을 사용했는가",
+          "criterion_ko": "'ました'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "たことがありません"
+            "ました"
           ],
           "min_matches": 1,
           "points": 60,
@@ -128,28 +138,29 @@
       }
     },
     {
-      "id": "ja_a2_u01_s1",
+      "id": "ja_a2_u02_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "珍しい経験について声に出して話してください。",
-        "ko": "특이한 경험에 대해 소리 내어 말해 보세요."
+        "en": "きのうしたことを、声に出して順番に話してください。",
+        "ko": "어제 했던 일을 소리 내어 순서대로 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "yesterday_sequence",
+          "label_ko": "어제 순서 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'まず' 또는 'それから'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "まず",
+            "それから"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,29 +191,30 @@
       }
     },
     {
-      "id": "ja_a2_u01_s2",
+      "id": "ja_a2_u02_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「うまにのったことがありますか」と聞かれました。声に出して答えてください。",
-        "ko": "'うまにのったことがありますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「きのういそがしかったですか」と聞かれました。声に出して答えてください。",
+        "ko": "'きのういそがしかったですか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "yesterday_busy",
+          "label_ko": "어제 상태 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'ありません'을 사용했는가",
+          "criterion_ko": "'いそがしかった' 또는 'はい/いいえ'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "ありません"
+            "いそがしかった",
+            "はい",
+            "いいえ"
           ],
           "min_matches": 1,
           "points": 55,

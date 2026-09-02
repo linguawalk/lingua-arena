@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "ja_a2_u01",
+    "id": "ja_a2_u10",
     "domain": "language",
     "lang": "ja",
     "level": "a2",
-    "unit": 1,
-    "title": "過去の経験",
-    "title_ko": "과거 경험",
+    "unit": 10,
+    "title": "食べ物の好み",
+    "title_ko": "음식 취향",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "経験を話すときは「〜たことがあります」を使います。「にほんへいったことがあります」のように、これまでにしたことを表します。",
-    "explanation_ko": "경험을 말할 때는 '〜たことがあります'(~한 적이 있어요)를 씁니다. 'にほんへいったことがあります'(일본에 가본 적이 있어요)처럼, 지금까지 해본 것을 나타냅니다.",
+    "explanation_en": "食べ物の好みを詳しく話すときは「〜のほうがすきです」「〜はにがてです」を使います。",
+    "explanation_ko": "음식 취향을 자세히 말할 때는 '〜のほうがすきです'(~쪽을 좋아해요), '〜はにがてです'(~은 잘 못 먹어요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "にほんへいったことがあります。",
-        "ko": "일본에 가본 적이 있어요."
+        "en": "わしょくよりようしょくのほうがすきです。",
+        "ko": "일식보다 양식 쪽을 좋아해요."
       },
       {
-        "en": "うまにのったことがありません。",
-        "ko": "말을 타본 적이 없어요."
+        "en": "なっとうはにがてです。",
+        "ko": "낫토는 잘 못 먹어요."
       },
       {
-        "en": "からいたべものをたべたことがあります。",
-        "ko": "매운 음식을 먹어본 적이 있어요."
+        "en": "あまいものがだいすきです。",
+        "ko": "단 음식을 정말 좋아해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_a2_u01_w1",
+      "id": "ja_a2_u10_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "したことがある珍しい経験を「〜たことがあります」を使って書いてください。",
-        "ko": "해본 적 있는 특이한 경험을 '〜たことがあります'를 사용해서 써 보세요."
+        "en": "食べ物の好みを「〜のほうがすきです」を使って書いてください。",
+        "ko": "음식 취향을 '〜のほうがすきです'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "food_preference",
+          "label_ko": "음식 취향 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'のほうがすきです'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "のほうがすきです"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,29 +78,28 @@
       }
     },
     {
-      "id": "ja_a2_u01_w2",
+      "id": "ja_a2_u10_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「がいこくへいったことがありますか」という質問に答えを書いてください。",
-        "ko": "'がいこくへいったことがありますか'라는 질문에 답을 써 보세요."
+        "en": "「にがてなたべものがありますか」という質問に答えを書いてください。",
+        "ko": "'にがてなたべものがありますか'라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "dislike_food",
+          "label_ko": "못 먹는 음식 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'たことがありません'을 사용했는가",
+          "criterion_ko": "'にがて'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "たことがありません"
+            "にがて"
           ],
           "min_matches": 1,
           "points": 60,
@@ -128,28 +127,29 @@
       }
     },
     {
-      "id": "ja_a2_u01_s1",
+      "id": "ja_a2_u10_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "珍しい経験について声に出して話してください。",
-        "ko": "특이한 경험에 대해 소리 내어 말해 보세요."
+        "en": "食べ物の好みについて声に出して話してください。",
+        "ko": "음식 취향에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "food_preference",
+          "label_ko": "음식 취향 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'ほうがすき' 또는 'にがて'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "ほうがすき",
+            "にがて"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,29 +180,29 @@
       }
     },
     {
-      "id": "ja_a2_u01_s2",
+      "id": "ja_a2_u10_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「うまにのったことがありますか」と聞かれました。声に出して答えてください。",
-        "ko": "'うまにのったことがありますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「なっとうがすきですか」と聞かれました。声に出して答えてください。",
+        "ko": "'なっとうがすきですか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "natto",
+          "label_ko": "낫토 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'ありません'을 사용했는가",
+          "criterion_ko": "'はい' 또는 'いいえ'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "ありません"
+            "はい",
+            "いいえ"
           ],
           "min_matches": 1,
           "points": 55,

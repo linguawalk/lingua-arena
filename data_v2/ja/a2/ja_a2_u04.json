@@ -1,68 +1,79 @@
 {
   "meta": {
-    "id": "ja_a2_u01",
+    "id": "ja_a2_u04",
     "domain": "language",
     "lang": "ja",
     "level": "a2",
-    "unit": 1,
-    "title": "過去の経験",
-    "title_ko": "과거 경험",
+    "unit": 4,
+    "title": "比較(応用)",
+    "title_ko": "비교 (심화)",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "経験を話すときは「〜たことがあります」を使います。「にほんへいったことがあります」のように、これまでにしたことを表します。",
-    "explanation_ko": "경험을 말할 때는 '〜たことがあります'(~한 적이 있어요)를 씁니다. 'にほんへいったことがあります'(일본에 가본 적이 있어요)처럼, 지금까지 해본 것을 나타냅니다.",
+    "explanation_en": "複数の中で一番のものを言うときは「〜のなかで〜が一番〜です」を使います。",
+    "explanation_ko": "여러 개 중 가장 뛰어난 것을 말할 때는 '〜のなかで〜が一番〜です'(~중에서 ~가 가장 ~해요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "にほんへいったことがあります。",
-        "ko": "일본에 가본 적이 있어요."
+        "en": "かぞくのなかでちちが一番せがたかいです。",
+        "ko": "가족 중에서 아버지가 가장 키가 커요."
       },
       {
-        "en": "うまにのったことがありません。",
-        "ko": "말을 타본 적이 없어요."
+        "en": "にほんりょうりのなかですしが一番すきです。",
+        "ko": "일본 요리 중에서 초밥을 가장 좋아해요."
       },
       {
-        "en": "からいたべものをたべたことがあります。",
-        "ko": "매운 음식을 먹어본 적이 있어요."
+        "en": "きょうが一番あついです。",
+        "ko": "오늘이 가장 더워요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_a2_u01_w1",
+      "id": "ja_a2_u04_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "したことがある珍しい経験を「〜たことがあります」を使って書いてください。",
-        "ko": "해본 적 있는 특이한 경험을 '〜たことがあります'를 사용해서 써 보세요."
+        "en": "家族や友だちの中で一番のものを「〜のなかで〜が一番〜です」を使って書いてください。",
+        "ko": "가족이나 친구 중에서 가장 뛰어난 것을 '〜のなかで〜が一番〜です'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "superlative",
+          "label_ko": "최상급 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'のなかで'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "のなかで"
           ],
           "min_matches": 1,
-          "points": 60,
+          "points": 40,
           "required": true
         },
         {
           "id": "r2",
+          "criterion_ko": "'一番'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "一番"
+          ],
+          "min_matches": 1,
+          "points": 40,
+          "required": true
+        },
+        {
+          "id": "r3",
           "criterion_ko": "완전한 문장인가",
           "type": "pattern_regex",
           "target": "[。]$",
           "min_matches": 1,
-          "points": 40,
+          "points": 20,
           "required": false
         }
       ],
@@ -78,29 +89,28 @@
       }
     },
     {
-      "id": "ja_a2_u01_w2",
+      "id": "ja_a2_u04_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「がいこくへいったことがありますか」という質問に答えを書いてください。",
-        "ko": "'がいこくへいったことがありますか'라는 질문에 답을 써 보세요."
+        "en": "「にほんりょうりのなかで何が一番すきですか」という質問に答えを書いてください。",
+        "ko": "'にほんりょうりのなかで何が一番すきですか'라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "superlative_food",
+          "label_ko": "음식 최상급 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'たことがありません'을 사용했는가",
+          "criterion_ko": "'一番すき'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "たことがありません"
+            "一番すき"
           ],
           "min_matches": 1,
           "points": 60,
@@ -128,28 +138,28 @@
       }
     },
     {
-      "id": "ja_a2_u01_s1",
+      "id": "ja_a2_u04_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "珍しい経験について声に出して話してください。",
-        "ko": "특이한 경험에 대해 소리 내어 말해 보세요."
+        "en": "友だちの中で一番のものについて声に出して話してください。",
+        "ko": "친구 중에서 가장 뛰어난 것에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "superlative",
+          "label_ko": "최상급 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'一番'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "一番"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,29 +190,28 @@
       }
     },
     {
-      "id": "ja_a2_u01_s2",
+      "id": "ja_a2_u04_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「うまにのったことがありますか」と聞かれました。声に出して答えてください。",
-        "ko": "'うまにのったことがありますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「きせつのなかで何が一番すきですか」と聞かれました。声に出して答えてください。",
+        "ko": "'きせつのなかで何が一番すきですか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "superlative_season",
+          "label_ko": "계절 최상급 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'ありません'을 사용했는가",
+          "criterion_ko": "'一番'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "ありません"
+            "一番"
           ],
           "min_matches": 1,
           "points": 55,

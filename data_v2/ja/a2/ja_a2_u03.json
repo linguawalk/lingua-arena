@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "ja_a2_u01",
+    "id": "ja_a2_u03",
     "domain": "language",
     "lang": "ja",
     "level": "a2",
-    "unit": 1,
-    "title": "過去の経験",
-    "title_ko": "과거 경험",
+    "unit": 3,
+    "title": "将来の予定",
+    "title_ko": "장래 계획",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "経験を話すときは「〜たことがあります」を使います。「にほんへいったことがあります」のように、これまでにしたことを表します。",
-    "explanation_ko": "경험을 말할 때는 '〜たことがあります'(~한 적이 있어요)를 씁니다. 'にほんへいったことがあります'(일본에 가본 적이 있어요)처럼, 지금까지 해본 것을 나타냅니다.",
+    "explanation_en": "将来の予定を話すときは「〜つもりです」や「〜よていです」を使います。",
+    "explanation_ko": "장래 계획을 말할 때는 '〜つもりです'(~할 생각이에요)나 '〜よていです'(~할 예정이에요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "にほんへいったことがあります。",
-        "ko": "일본에 가본 적이 있어요."
+        "en": "らいねんにほんへいくつもりです。",
+        "ko": "내년에 일본에 갈 생각이에요."
       },
       {
-        "en": "うまにのったことがありません。",
-        "ko": "말을 타본 적이 없어요."
+        "en": "しごとをかえるよていです。",
+        "ko": "일을 바꿀 예정이에요."
       },
       {
-        "en": "からいたべものをたべたことがあります。",
-        "ko": "매운 음식을 먹어본 적이 있어요."
+        "en": "らいしゅうりょこうします。",
+        "ko": "다음 주에 여행해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_a2_u01_w1",
+      "id": "ja_a2_u03_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "したことがある珍しい経験を「〜たことがあります」を使って書いてください。",
-        "ko": "해본 적 있는 특이한 경험을 '〜たことがあります'를 사용해서 써 보세요."
+        "en": "来年の予定を「〜つもりです」を使って書いてください。",
+        "ko": "내년 계획을 '〜つもりです'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "future_plan",
+          "label_ko": "미래 계획 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'つもりです'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "つもりです"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,29 +78,28 @@
       }
     },
     {
-      "id": "ja_a2_u01_w2",
+      "id": "ja_a2_u03_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「がいこくへいったことがありますか」という質問に答えを書いてください。",
-        "ko": "'がいこくへいったことがありますか'라는 질문에 답을 써 보세요."
+        "en": "「らいねん何をするよていですか」という質問に答えを書いてください。",
+        "ko": "'らいねん何をするよていですか'라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "future_plan",
+          "label_ko": "미래 계획 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'たことがありません'을 사용했는가",
+          "criterion_ko": "'よていです'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "たことがありません"
+            "よていです"
           ],
           "min_matches": 1,
           "points": 60,
@@ -128,28 +127,29 @@
       }
     },
     {
-      "id": "ja_a2_u01_s1",
+      "id": "ja_a2_u03_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "珍しい経験について声に出して話してください。",
-        "ko": "특이한 경험에 대해 소리 내어 말해 보세요."
+        "en": "将来の予定について声に出して話してください。",
+        "ko": "장래 계획에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "future_plan",
+          "label_ko": "미래 계획 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'つもり' 또는 'よてい'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "つもり",
+            "よてい"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,29 +180,29 @@
       }
     },
     {
-      "id": "ja_a2_u01_s2",
+      "id": "ja_a2_u03_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「うまにのったことがありますか」と聞かれました。声に出して答えてください。",
-        "ko": "'うまにのったことがありますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「しごとをかえるつもりですか」と聞かれました。声に出して答えてください。",
+        "ko": "'しごとをかえるつもりですか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "job_change",
+          "label_ko": "이직 계획 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'ありません'을 사용했는가",
+          "criterion_ko": "'はい' 또는 'いいえ'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "ありません"
+            "はい",
+            "いいえ"
           ],
           "min_matches": 1,
           "points": 55,

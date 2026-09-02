@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "ja_a2_u01",
+    "id": "ja_a2_u06",
     "domain": "language",
     "lang": "ja",
     "level": "a2",
-    "unit": 1,
-    "title": "過去の経験",
-    "title_ko": "과거 경험",
+    "unit": 6,
+    "title": "人を説明する",
+    "title_ko": "사람 묘사",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "経験を話すときは「〜たことがあります」を使います。「にほんへいったことがあります」のように、これまでにしたことを表します。",
-    "explanation_ko": "경험을 말할 때는 '〜たことがあります'(~한 적이 있어요)를 씁니다. 'にほんへいったことがあります'(일본에 가본 적이 있어요)처럼, 지금까지 해본 것을 나타냅니다.",
+    "explanation_en": "人の性格や見た目を話すときは「〜な人です」を使います。「しんせつな人です」「せがたかいです」のように使います。",
+    "explanation_ko": "사람의 성격이나 외모를 말할 때는 '〜な人です'(~한 사람이에요)를 씁니다. 'しんせつな人です'(친절한 사람이에요), 'せがたかいです'(키가 커요)처럼 씁니다.",
     "key_expressions": [
       {
-        "en": "にほんへいったことがあります。",
-        "ko": "일본에 가본 적이 있어요."
+        "en": "かれはしんせつな人です。",
+        "ko": "그는 친절한 사람이에요."
       },
       {
-        "en": "うまにのったことがありません。",
-        "ko": "말을 타본 적이 없어요."
+        "en": "せがたかくて、めがねをかけています。",
+        "ko": "키가 크고 안경을 쓰고 있어요."
       },
       {
-        "en": "からいたべものをたべたことがあります。",
-        "ko": "매운 음식을 먹어본 적이 있어요."
+        "en": "いつもわらっています。",
+        "ko": "항상 웃고 있어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_a2_u01_w1",
+      "id": "ja_a2_u06_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "したことがある珍しい経験を「〜たことがあります」を使って書いてください。",
-        "ko": "해본 적 있는 특이한 경험을 '〜たことがあります'를 사용해서 써 보세요."
+        "en": "友だちの性格を「〜な人です」を使って書いてください。",
+        "ko": "친구의 성격을 '〜な人です'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "personality",
+          "label_ko": "성격 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'な人です'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "な人です"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,29 +78,28 @@
       }
     },
     {
-      "id": "ja_a2_u01_w2",
+      "id": "ja_a2_u06_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「がいこくへいったことがありますか」という質問に答えを書いてください。",
-        "ko": "'がいこくへいったことがありますか'라는 질문에 답을 써 보세요."
+        "en": "「どんな人がすきですか」という質問に答えを書いてください。",
+        "ko": "'どんな人がすきですか'라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "person_preference",
+          "label_ko": "인물 취향 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'たことがありません'을 사용했는가",
+          "criterion_ko": "'な人'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "たことがありません"
+            "な人"
           ],
           "min_matches": 1,
           "points": 60,
@@ -128,28 +127,30 @@
       }
     },
     {
-      "id": "ja_a2_u01_s1",
+      "id": "ja_a2_u06_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "珍しい経験について声に出して話してください。",
-        "ko": "특이한 경험에 대해 소리 내어 말해 보세요."
+        "en": "友だちの外見や性格について声に出して話してください。",
+        "ko": "친구의 외모나 성격에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "personality",
+          "label_ko": "성격 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'な人' 또는 성격 형용사를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "な人",
+            "しんせつ",
+            "おもしろい"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,29 +181,31 @@
       }
     },
     {
-      "id": "ja_a2_u01_s2",
+      "id": "ja_a2_u06_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「うまにのったことがありますか」と聞かれました。声に出して答えてください。",
-        "ko": "'うまにのったことがありますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「せんせいはどんな人ですか」と聞かれました。声に出して答えてください。",
+        "ko": "'せんせいはどんな人ですか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "teacher_description",
+          "label_ko": "선생님 묘사 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'ありません'을 사용했는가",
+          "criterion_ko": "'な人' 또는 형용사를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "ありません"
+            "な人",
+            "しんせつ",
+            "おもしろい",
+            "やさしい"
           ],
           "min_matches": 1,
           "points": 55,

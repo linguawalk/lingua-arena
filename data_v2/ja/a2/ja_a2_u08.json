@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "ja_a2_u01",
+    "id": "ja_a2_u08",
     "domain": "language",
     "lang": "ja",
     "level": "a2",
-    "unit": 1,
-    "title": "過去の経験",
-    "title_ko": "과거 경험",
+    "unit": 8,
+    "title": "旅行の話",
+    "title_ko": "여행 이야기",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "経験を話すときは「〜たことがあります」を使います。「にほんへいったことがあります」のように、これまでにしたことを表します。",
-    "explanation_ko": "경험을 말할 때는 '〜たことがあります'(~한 적이 있어요)를 씁니다. 'にほんへいったことがあります'(일본에 가본 적이 있어요)처럼, 지금까지 해본 것을 나타냅니다.",
+    "explanation_en": "旅行の感想を話すときは「〜てとてもたのしかったです」を使います。",
+    "explanation_ko": "여행 소감을 말할 때는 '〜てとてもたのしかったです'(~해서 정말 즐거웠어요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "にほんへいったことがあります。",
-        "ko": "일본에 가본 적이 있어요."
+        "en": "おきなわへいって、とてもたのしかったです。",
+        "ko": "오키나와에 가서 정말 즐거웠어요."
       },
       {
-        "en": "うまにのったことがありません。",
-        "ko": "말을 타본 적이 없어요."
+        "en": "うみがきれいでした。",
+        "ko": "바다가 아름다웠어요."
       },
       {
-        "en": "からいたべものをたべたことがあります。",
-        "ko": "매운 음식을 먹어본 적이 있어요."
+        "en": "また、いきたいです。",
+        "ko": "다시 가고 싶어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_a2_u01_w1",
+      "id": "ja_a2_u08_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "したことがある珍しい経験を「〜たことがあります」を使って書いてください。",
-        "ko": "해본 적 있는 특이한 경험을 '〜たことがあります'를 사용해서 써 보세요."
+        "en": "最近した旅行の感想を「たのしかったです」を使って書いてください。",
+        "ko": "최근에 다녀온 여행 소감을 'たのしかったです'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "travel_impression",
+          "label_ko": "여행 소감 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'たのしかったです'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "たのしかったです"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,29 +78,29 @@
       }
     },
     {
-      "id": "ja_a2_u01_w2",
+      "id": "ja_a2_u08_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「がいこくへいったことがありますか」という質問に答えを書いてください。",
-        "ko": "'がいこくへいったことがありますか'라는 질문에 답을 써 보세요."
+        "en": "「りょこうはどうでしたか」という質問に答えを書いてください。",
+        "ko": "'りょこうはどうでしたか'라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "travel_review",
+          "label_ko": "여행 후기 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'たことがありません'을 사용했는가",
+          "criterion_ko": "'たのしかった' 또는 'よかった'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "たことがありません"
+            "たのしかった",
+            "よかった"
           ],
           "min_matches": 1,
           "points": 60,
@@ -128,28 +128,28 @@
       }
     },
     {
-      "id": "ja_a2_u01_s1",
+      "id": "ja_a2_u08_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "珍しい経験について声に出して話してください。",
-        "ko": "특이한 경험에 대해 소리 내어 말해 보세요."
+        "en": "最近した旅行について声に出して話してください。",
+        "ko": "최근에 다녀온 여행에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "travel_impression",
+          "label_ko": "여행 소감 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'たのしかった'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "たのしかった"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,29 +180,30 @@
       }
     },
     {
-      "id": "ja_a2_u01_s2",
+      "id": "ja_a2_u08_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「うまにのったことがありますか」と聞かれました。声に出して答えてください。",
-        "ko": "'うまにのったことがありますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「またいきたいですか」と聞かれました。声に出して答えてください。",
+        "ko": "'またいきたいですか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "want_return",
+          "label_ko": "재방문 의사 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'ありません'을 사용했는가",
+          "criterion_ko": "'いきたい' 또는 'はい/いいえ'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "ありません"
+            "いきたい",
+            "はい",
+            "いいえ"
           ],
           "min_matches": 1,
           "points": 55,

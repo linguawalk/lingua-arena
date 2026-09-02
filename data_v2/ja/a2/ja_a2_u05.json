@@ -1,56 +1,57 @@
 {
   "meta": {
-    "id": "ja_a2_u01",
+    "id": "ja_a2_u05",
     "domain": "language",
     "lang": "ja",
     "level": "a2",
-    "unit": 1,
-    "title": "過去の経験",
-    "title_ko": "과거 경험",
+    "unit": 5,
+    "title": "毎日の習慣(応用)",
+    "title_ko": "매일 습관 (심화)",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "経験を話すときは「〜たことがあります」を使います。「にほんへいったことがあります」のように、これまでにしたことを表します。",
-    "explanation_ko": "경험을 말할 때는 '〜たことがあります'(~한 적이 있어요)를 씁니다. 'にほんへいったことがあります'(일본에 가본 적이 있어요)처럼, 지금까지 해본 것을 나타냅니다.",
+    "explanation_en": "習慣の頻度を話すときは「たいてい」「ときどき」「ぜんぜん」を使います。",
+    "explanation_ko": "습관의 빈도를 말할 때는 'たいてい'(대개), 'ときどき'(가끔), 'ぜんぜん'(전혀)을 씁니다.",
     "key_expressions": [
       {
-        "en": "にほんへいったことがあります。",
-        "ko": "일본에 가본 적이 있어요."
+        "en": "たいていあさごはんをたべます。",
+        "ko": "대개 아침을 먹어요."
       },
       {
-        "en": "うまにのったことがありません。",
-        "ko": "말을 타본 적이 없어요."
+        "en": "ときどきちこくします。",
+        "ko": "가끔 지각해요."
       },
       {
-        "en": "からいたべものをたべたことがあります。",
-        "ko": "매운 음식을 먹어본 적이 있어요."
+        "en": "ぜんぜんたばこをすいません。",
+        "ko": "전혀 담배를 안 피워요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_a2_u01_w1",
+      "id": "ja_a2_u05_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "したことがある珍しい経験を「〜たことがあります」を使って書いてください。",
-        "ko": "해본 적 있는 특이한 경험을 '〜たことがあります'를 사용해서 써 보세요."
+        "en": "自分の習慣を「たいてい」または「ときどき」を使って書いてください。",
+        "ko": "자신의 습관을 'たいてい' 또는 'ときどき'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "frequency_habit",
+          "label_ko": "빈도 습관 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'たいてい' 또는 'ときどき'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "たいてい",
+            "ときどき"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,29 +79,30 @@
       }
     },
     {
-      "id": "ja_a2_u01_w2",
+      "id": "ja_a2_u05_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「がいこくへいったことがありますか」という質問に答えを書いてください。",
-        "ko": "'がいこくへいったことがありますか'라는 질문에 답을 써 보세요."
+        "en": "「たばこをすいますか」という質問に答えを書いてください。",
+        "ko": "'たばこをすいますか'라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "smoking",
+          "label_ko": "흡연 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'たことがありません'을 사용했는가",
+          "criterion_ko": "'ぜんぜん' 또는 'はい/いいえ'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "たことがありません"
+            "ぜんぜん",
+            "はい",
+            "いいえ"
           ],
           "min_matches": 1,
           "points": 60,
@@ -128,28 +130,29 @@
       }
     },
     {
-      "id": "ja_a2_u01_s1",
+      "id": "ja_a2_u05_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "珍しい経験について声に出して話してください。",
-        "ko": "특이한 경험에 대해 소리 내어 말해 보세요."
+        "en": "自分の習慣について声に出して話してください。",
+        "ko": "자신의 습관에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "frequency_habit",
+          "label_ko": "빈도 습관 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります'를 사용했는가",
+          "criterion_ko": "'たいてい' 또는 'ときどき'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります"
+            "たいてい",
+            "ときどき"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,29 +183,30 @@
       }
     },
     {
-      "id": "ja_a2_u01_s2",
+      "id": "ja_a2_u05_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「うまにのったことがありますか」と聞かれました。声に出して答えてください。",
-        "ko": "'うまにのったことがありますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「ちこくしますか」と聞かれました。声に出して答えてください。",
+        "ko": "'ちこくしますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "late",
+          "label_ko": "지각 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'たことがあります' 또는 'ありません'을 사용했는가",
+          "criterion_ko": "'ときどき' 또는 'はい/いいえ'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "たことがあります",
-            "ありません"
+            "ときどき",
+            "はい",
+            "いいえ"
           ],
           "min_matches": 1,
           "points": 55,
