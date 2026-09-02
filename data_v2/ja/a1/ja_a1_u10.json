@@ -1,107 +1,56 @@
 {
   "meta": {
-    "id": "ja_a1_u01",
+    "id": "ja_a1_u10",
     "domain": "language",
     "lang": "ja",
     "level": "a1",
-    "unit": 1,
-    "title": "あいさつ・自己紹介",
-    "title_ko": "인사·자기소개",
+    "unit": 10,
+    "title": "動物・ペット",
+    "title_ko": "동물·반려동물",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "日本語のあいさつは時間帯によって変わります。朝は「おはようございます」、昼は「こんにちは」、夜は「こんばんは」を使います。自己紹介では「わたしは〜です」という形を使います。",
-    "explanation_ko": "일본어 인사는 시간대에 따라 달라집니다. 아침에는 'おはようございます', 낮에는 'こんにちは', 저녁에는 'こんばんは'를 씁니다. 자기소개에서는 'わたしは〜です' 형태를 씁니다.",
+    "explanation_en": "動物がいるかどうかは「〜をかっています」を使います。「いぬをかっています」「ねこがすきです」のように使います。",
+    "explanation_ko": "동물을 키우는지는 '〜をかっています'(키우고 있어요)를 씁니다. 'いぬをかっています'(강아지를 키워요), 'ねこがすきです'(고양이를 좋아해요)처럼 씁니다.",
     "key_expressions": [
       {
-        "en": "はじめまして。わたしはキムです。",
-        "ko": "처음 뵙겠습니다. 저는 김입니다."
+        "en": "いぬをかっています。",
+        "ko": "강아지를 키우고 있어요."
       },
       {
-        "en": "おはようございます。",
-        "ko": "안녕하세요 (아침 인사)."
+        "en": "ねこがすきです。",
+        "ko": "고양이를 좋아해요."
       },
       {
-        "en": "どうぞよろしくお願いします。",
-        "ko": "잘 부탁드립니다."
+        "en": "どうぶつえんへいきます。",
+        "ko": "동물원에 가요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_a1_u01_w1",
+      "id": "ja_a1_u10_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "はじめて会う人に、名前を使って自己紹介を書いてください。「わたしは〜です」を使いましょう。",
-        "ko": "처음 만나는 사람에게 이름을 사용해서 자기소개를 써 보세요. 'わたしは〜です'를 사용하세요."
+        "en": "好きな動物を「〜がすきです」を使って書いてください。",
+        "ko": "좋아하는 동물을 '〜がすきです'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "self_intro",
-          "label_ko": "자기소개 표현",
+          "id": "like_animal",
+          "label_ko": "좋아하는 동물 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'わたしは〜です'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "わたしは.{0,10}です",
-          "min_matches": 1,
-          "points": 55,
-          "required": true
-        },
-        {
-          "id": "r2",
-          "criterion_ko": "'よろしくお願いします'를 포함했는가",
+          "criterion_ko": "'がすきです'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "よろしくお願いします",
-            "よろしく"
-          ],
-          "min_matches": 1,
-          "points": 45,
-          "required": false
-        }
-      ],
-      "scoring": {
-        "max_score": 100,
-        "pass_threshold": 60,
-        "tie_break_rule": "partial_match_ratio_geq_0.8_counts_as_met",
-        "flag_for_spot_check": {
-          "condition": "total_score_within_confidence_band_of_pass_threshold",
-          "confidence_band": 3,
-          "blocking": false
-        }
-      }
-    },
-    {
-      "id": "ja_a1_u01_w2",
-      "skill": "writing",
-      "task_type": "qa_response",
-      "prompt": {
-        "en": "「おはようございます」に答えるあいさつを書いてください。",
-        "ko": "'おはようございます'에 답하는 인사말을 써 보세요."
-      },
-      "target_elements": [
-        {
-          "type": "expression",
-          "id": "greeting",
-          "label_ko": "인사 표현",
-          "min_occurrences": 1
-        }
-      ],
-      "rubric": [
-        {
-          "id": "r1",
-          "criterion_ko": "'おはようございます'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "おはようございます",
-            "おはよう"
+            "がすきです"
           ],
           "min_matches": 1,
           "points": 60,
@@ -111,7 +60,7 @@
           "id": "r2",
           "criterion_ko": "완전한 문장인가",
           "type": "pattern_regex",
-          "target": "[。！]$",
+          "target": "[。]$",
           "min_matches": 1,
           "points": 40,
           "required": false
@@ -129,29 +78,78 @@
       }
     },
     {
-      "id": "ja_a1_u01_s1",
-      "skill": "speaking",
-      "task_type": "situation_response",
+      "id": "ja_a1_u10_w2",
+      "skill": "writing",
+      "task_type": "qa_response",
       "prompt": {
-        "en": "はじめて会う人に、声に出して自己紹介をしてください。",
-        "ko": "처음 만나는 사람에게 소리 내어 자기소개를 해 보세요."
+        "en": "「ペットをかっていますか」という質問に答えを書いてください。",
+        "ko": "'ペットをかっていますか'라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "self_intro",
-          "label_ko": "자기소개 표현",
+          "id": "pet",
+          "label_ko": "반려동물 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'わたしは' 또는 'はじめまして'를 사용했는가",
+          "criterion_ko": "'かっています' 또는 'かっていません'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "わたしは",
-            "はじめまして"
+            "かっています",
+            "かっていません"
+          ],
+          "min_matches": 1,
+          "points": 60,
+          "required": true
+        },
+        {
+          "id": "r2",
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "[。]$",
+          "min_matches": 1,
+          "points": 40,
+          "required": false
+        }
+      ],
+      "scoring": {
+        "max_score": 100,
+        "pass_threshold": 60,
+        "tie_break_rule": "partial_match_ratio_geq_0.8_counts_as_met",
+        "flag_for_spot_check": {
+          "condition": "total_score_within_confidence_band_of_pass_threshold",
+          "confidence_band": 3,
+          "blocking": false
+        }
+      }
+    },
+    {
+      "id": "ja_a1_u10_s1",
+      "skill": "speaking",
+      "task_type": "situation_response",
+      "prompt": {
+        "en": "好きな動物について声に出して話してください。",
+        "ko": "좋아하는 동물에 대해 소리 내어 말해 보세요."
+      },
+      "target_elements": [
+        {
+          "type": "expression",
+          "id": "like_animal",
+          "label_ko": "좋아하는 동물 표현",
+          "min_occurrences": 1
+        }
+      ],
+      "rubric": [
+        {
+          "id": "r1",
+          "criterion_ko": "'すき'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "すき"
           ],
           "min_matches": 1,
           "points": 55,
@@ -182,28 +180,29 @@
       }
     },
     {
-      "id": "ja_a1_u01_s2",
+      "id": "ja_a1_u10_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「こんにちは」と声をかけられました。声に出して返事をしてください。",
-        "ko": "'こんにちは'라고 인사를 받았습니다. 소리 내어 답해 보세요."
+        "en": "「いぬとねこ、どちらがすきですか」と聞かれました。声に出して答えてください。",
+        "ko": "'いぬとねこ、どちらがすきですか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "greeting",
-          "label_ko": "인사 표현",
+          "id": "like_animal",
+          "label_ko": "좋아하는 동물 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'こんにちは'를 사용했는가",
+          "criterion_ko": "'いぬ' 또는 'ねこ'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "こんにちは"
+            "いぬ",
+            "ねこ"
           ],
           "min_matches": 1,
           "points": 55,

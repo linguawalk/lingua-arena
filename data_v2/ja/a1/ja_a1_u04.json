@@ -1,69 +1,84 @@
 {
   "meta": {
-    "id": "ja_a1_u01",
+    "id": "ja_a1_u04",
     "domain": "language",
     "lang": "ja",
     "level": "a1",
-    "unit": 1,
-    "title": "あいさつ・自己紹介",
-    "title_ko": "인사·자기소개",
+    "unit": 4,
+    "title": "色・形",
+    "title_ko": "색·모양",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "日本語のあいさつは時間帯によって変わります。朝は「おはようございます」、昼は「こんにちは」、夜は「こんばんは」を使います。自己紹介では「わたしは〜です」という形を使います。",
-    "explanation_ko": "일본어 인사는 시간대에 따라 달라집니다. 아침에는 'おはようございます', 낮에는 'こんにちは', 저녁에는 'こんばんは'를 씁니다. 자기소개에서는 'わたしは〜です' 형태를 씁니다.",
+    "explanation_en": "色を言うときは「〜いろです」または形容詞の形（あかい、あおい）を使います。「これは〜です」で物を説明できます。",
+    "explanation_ko": "색을 말할 때는 '〜いろです' 또는 형용사 형태(あかい, あおい)를 씁니다. 'これは〜です'로 사물을 설명할 수 있어요.",
     "key_expressions": [
       {
-        "en": "はじめまして。わたしはキムです。",
-        "ko": "처음 뵙겠습니다. 저는 김입니다."
+        "en": "これはあかいくつです。",
+        "ko": "이건 빨간 신발이에요."
       },
       {
-        "en": "おはようございます。",
-        "ko": "안녕하세요 (아침 인사)."
+        "en": "空はあおいろです。",
+        "ko": "하늘은 파란색이에요."
       },
       {
-        "en": "どうぞよろしくお願いします。",
-        "ko": "잘 부탁드립니다."
+        "en": "この形はまるいです。",
+        "ko": "이 모양은 둥글어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_a1_u01_w1",
+      "id": "ja_a1_u04_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "はじめて会う人に、名前を使って自己紹介を書いてください。「わたしは〜です」を使いましょう。",
-        "ko": "처음 만나는 사람에게 이름을 사용해서 자기소개를 써 보세요. 'わたしは〜です'를 사용하세요."
+        "en": "好きな物の色を「これは〜です」を使って書いてください。",
+        "ko": "좋아하는 물건의 색을 'これは〜です'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "self_intro",
-          "label_ko": "자기소개 표현",
+          "id": "color",
+          "label_ko": "색 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'わたしは〜です'를 사용했는가",
-          "type": "pattern_regex",
-          "target": "わたしは.{0,10}です",
+          "criterion_ko": "'これは'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "これは"
+          ],
           "min_matches": 1,
-          "points": 55,
+          "points": 40,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "'よろしくお願いします'를 포함했는가",
+          "criterion_ko": "색 이름(あかい/あおい/しろい/くろい 등)을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "よろしくお願いします",
-            "よろしく"
+            "あかい",
+            "あおい",
+            "しろい",
+            "くろい",
+            "きいろ",
+            "みどり"
           ],
           "min_matches": 1,
-          "points": 45,
+          "points": 40,
+          "required": true
+        },
+        {
+          "id": "r3",
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "[。]$",
+          "min_matches": 1,
+          "points": 20,
           "required": false
         }
       ],
@@ -79,29 +94,32 @@
       }
     },
     {
-      "id": "ja_a1_u01_w2",
+      "id": "ja_a1_u04_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「おはようございます」に答えるあいさつを書いてください。",
-        "ko": "'おはようございます'에 답하는 인사말을 써 보세요."
+        "en": "「すきな色は何ですか」という質問に答えを書いてください。",
+        "ko": "'すきな色は何ですか'라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "greeting",
-          "label_ko": "인사 표현",
+          "id": "favorite_color",
+          "label_ko": "좋아하는 색 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'おはようございます'를 사용했는가",
+          "criterion_ko": "'色です' 또는 색 이름을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "おはようございます",
-            "おはよう"
+            "色です",
+            "あか",
+            "あお",
+            "しろ",
+            "くろ"
           ],
           "min_matches": 1,
           "points": 60,
@@ -111,7 +129,7 @@
           "id": "r2",
           "criterion_ko": "완전한 문장인가",
           "type": "pattern_regex",
-          "target": "[。！]$",
+          "target": "[。]$",
           "min_matches": 1,
           "points": 40,
           "required": false
@@ -129,29 +147,33 @@
       }
     },
     {
-      "id": "ja_a1_u01_s1",
+      "id": "ja_a1_u04_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "はじめて会う人に、声に出して自己紹介をしてください。",
-        "ko": "처음 만나는 사람에게 소리 내어 자기소개를 해 보세요."
+        "en": "今きている服の色を声に出して説明してください。",
+        "ko": "지금 입고 있는 옷의 색을 소리 내어 설명해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "self_intro",
-          "label_ko": "자기소개 표현",
+          "id": "color",
+          "label_ko": "색 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'わたしは' 또는 'はじめまして'를 사용했는가",
+          "criterion_ko": "색 이름을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "わたしは",
-            "はじめまして"
+            "あか",
+            "あお",
+            "しろ",
+            "くろ",
+            "きいろ",
+            "みどり"
           ],
           "min_matches": 1,
           "points": 55,
@@ -182,28 +204,33 @@
       }
     },
     {
-      "id": "ja_a1_u01_s2",
+      "id": "ja_a1_u04_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「こんにちは」と声をかけられました。声に出して返事をしてください。",
-        "ko": "'こんにちは'라고 인사를 받았습니다. 소리 내어 답해 보세요."
+        "en": "「すきな色は何ですか」と聞かれました。声に出して答えてください。",
+        "ko": "'すきな色は何ですか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "greeting",
-          "label_ko": "인사 표현",
+          "id": "favorite_color",
+          "label_ko": "좋아하는 색 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'こんにちは'를 사용했는가",
+          "criterion_ko": "색 이름을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "こんにちは"
+            "あか",
+            "あお",
+            "しろ",
+            "くろ",
+            "きいろ",
+            "みどり"
           ],
           "min_matches": 1,
           "points": 55,
