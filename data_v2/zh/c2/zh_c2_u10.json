@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "zh_c2_u01",
+    "id": "zh_c2_u10",
     "domain": "language",
     "lang": "zh",
     "level": "c2",
-    "unit": 1,
-    "title": "讲述/阐述/论述",
-    "title_ko": "미묘한 유의어: 讲述/阐述/论述",
+    "unit": 10,
+    "title": "法律·正式语域",
+    "title_ko": "법률·격식 언어역",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "「讲述」是叙述故事或经历，「阐述」是详细说明观点或道理，「论述」是学术性地论证和分析。",
-    "explanation_ko": "'讲述'는 이야기나 경험을 서술하는 것, '阐述'는 견해나 이치를 상세히 설명하는 것, '论述'는 학술적으로 논증하고 분석하는 것입니다.",
+    "explanation_en": "「鉴于」表示考虑到某种情况，「依照」表示按照规定，「除...之外，不在此限」表示例外情况，都是法律文书中的格式化表达。",
+    "explanation_ko": "'鉴于'(감안하여)는 어떤 상황을 고려함, '依照'(~에 따라)는 규정에 따름, '除...之外，不在此限'(~을 제외하고 이 한도에 해당하지 않는다)은 예외 상황을 나타내며, 모두 법률 문서의 격식화된 표현입니다.",
     "key_expressions": [
       {
-        "en": "他讲述了自己的经历。",
-        "ko": "그는 자신의 경험을 이야기했어요."
+        "en": "鉴于目前的情况，我们决定推迟计划。",
+        "ko": "현재 상황을 감안하여 계획을 연기하기로 결정했어요."
       },
       {
-        "en": "她阐述了自己的观点。",
-        "ko": "그녀는 자신의 견해를 상세히 설명했어요."
+        "en": "请依照规定办理手续。",
+        "ko": "규정에 따라 절차를 밟아주세요."
       },
       {
-        "en": "这篇论文论述了这个问题。",
-        "ko": "이 논문은 이 문제를 논증했어요."
+        "en": "除特殊情况外，不在此限。",
+        "ko": "특수한 경우를 제외하고 이 한도에 해당하지 않아요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_c2_u01_w1",
+      "id": "zh_c2_u10_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「讲述」写出讲述自己经历的句子。",
-        "ko": "자신의 경험을 이야기하는 문장을 '讲述'를 사용해서 써 보세요."
+        "en": "请用「鉴于」写出考虑情况后做出决定的句子。",
+        "ko": "상황을 고려해서 결정을 내린 문장을 '鉴于'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "jiangshu",
-          "label_ko": "讲述",
+          "id": "jianyu",
+          "label_ko": "鉴于",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'讲述'를 사용했는가",
+          "criterion_ko": "'鉴于'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "讲述"
+            "鉴于"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,28 +77,28 @@
       }
     },
     {
-      "id": "zh_c2_u01_w2",
+      "id": "zh_c2_u10_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你能详细说明你的观点吗？」请用「阐述」回答。",
-        "ko": "'你能详细说明你的观点吗？'(견해를 상세히 설명해주실 수 있어요?)라는 질문에 '阐述'를 사용해서 답을 써 보세요."
+        "en": "「应该怎么办手续？」请用「依照」回答。",
+        "ko": "'应该怎么办手续？'(절차는 어떻게 밟아야 해요?)라는 질문에 '依照'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "chanshu",
-          "label_ko": "阐述",
+          "id": "yizhao",
+          "label_ko": "依照",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'阐述'를 사용했는가",
+          "criterion_ko": "'依照'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "阐述"
+            "依照"
           ],
           "min_matches": 1,
           "points": 60,
@@ -125,28 +125,28 @@
       }
     },
     {
-      "id": "zh_c2_u01_s1",
+      "id": "zh_c2_u10_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「论述」说出一篇论文的内容。",
-        "ko": "논문의 내용에 대해 '论述'를 사용해서 소리 내어 말해 보세요."
+        "en": "请大声用「鉴于」说出考虑情况后的决定。",
+        "ko": "상황을 고려한 결정에 대해 '鉴于'를 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "lunshu",
-          "label_ko": "论述",
+          "id": "jianyu",
+          "label_ko": "鉴于",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'论述'를 사용했는가",
+          "criterion_ko": "'鉴于'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "论述"
+            "鉴于"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,18 +176,18 @@
       }
     },
     {
-      "id": "zh_c2_u01_s2",
+      "id": "zh_c2_u10_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「他讲述了自己的经历吗？」有人问你。请大声回答。",
-        "ko": "'他讲述了自己的经历吗？'(그가 자신의 경험을 이야기했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「依照规定办理了吗？」有人问你。请大声回答。",
+        "ko": "'依照规定办理了吗？'(규정에 따라 처리했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "jiangshu",
-          "label_ko": "讲述",
+          "id": "yizhao",
+          "label_ko": "依照",
           "min_occurrences": 1
         }
       ],
