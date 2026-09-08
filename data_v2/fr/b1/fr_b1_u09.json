@@ -1,58 +1,55 @@
 {
   "meta": {
-    "id": "fr_b1_u01",
+    "id": "fr_b1_u09",
     "domain": "language",
     "lang": "fr",
     "level": "b1",
-    "unit": 1,
-    "title": "Subjonctif présent (il faut que)",
-    "title_ko": "접속법 현재 (il faut que)",
+    "unit": 9,
+    "title": "Pronoms y/en",
+    "title_ko": "대명사 y·en",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "« Il faut que » est suivi du subjonctif pour exprimer une nécessité. Par exemple : « Il faut que tu viennes ».",
-    "explanation_ko": "'Il faut que' 뒤에는 필요성을 나타내는 접속법이 옵니다. 예: 'Il faut que tu viennes'(당신이 와야 해요).",
+    "explanation_en": "« Y » remplace un lieu ou un complément avec « à », « en » remplace un complément avec « de » ou une quantité. Par exemple : « J'y vais » et « J'en veux ».",
+    "explanation_ko": "'Y'는 장소나 'à'가 붙은 목적어를 대체하고, 'en'은 'de'가 붙은 목적어나 수량을 대체합니다. 예: 'J'y vais'(거기 가요), 'J'en veux'(그거 원해요).",
     "key_expressions": [
       {
-        "en": "Il faut que tu viennes demain.",
-        "ko": "당신은 내일 와야 해요."
+        "en": "J'y vais demain.",
+        "ko": "내일 거기 가요."
       },
       {
-        "en": "Il faut que je parte maintenant.",
-        "ko": "저는 지금 가야 해요."
+        "en": "J'en veux un peu plus.",
+        "ko": "조금 더 원해요."
       },
       {
-        "en": "Il faut que nous finissions ce projet.",
-        "ko": "우리는 이 프로젝트를 끝내야 해요."
+        "en": "Tu y penses souvent ?",
+        "ko": "그것에 대해 자주 생각해요?"
       }
     ]
   },
   "tasks": [
     {
-      "id": "fr_b1_u01_w1",
+      "id": "fr_b1_u09_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Écrivez une nécessité en utilisant « Il faut que ».",
-        "ko": "필요성을 'Il faut que'를 사용해서 써 보세요."
+        "en": "Écrivez une phrase avec « y » pour parler d'un lieu.",
+        "ko": "장소에 대해 'y'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "il_faut_que",
-          "label_ko": "il faut que",
+          "id": "y_pronom",
+          "label_ko": "y",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Il faut que'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "Il faut que",
-            "il faut que"
-          ],
+          "criterion_ko": "'y'를 사용했는가",
+          "type": "pattern_regex",
+          "target": "\\by\\b",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -78,31 +75,27 @@
       }
     },
     {
-      "id": "fr_b1_u01_w2",
+      "id": "fr_b1_u09_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Qu'est-ce qu'il faut que je fasse ? » Répondez à cette question.",
-        "ko": "'Qu'est-ce qu'il faut que je fasse ?'(제가 뭘 해야 해요?)라는 질문에 답을 써 보세요."
+        "en": "« Voulez-vous du café ? » Répondez en utilisant « en ».",
+        "ko": "'Voulez-vous du café ?'(커피 원해요?)라는 질문에 'en'을 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "il_faut_que",
-          "label_ko": "il faut que",
+          "id": "en_pronom",
+          "label_ko": "en",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Il faut que' 또는 'faut'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "Il faut que",
-            "il faut que",
-            "faut"
-          ],
+          "criterion_ko": "'en'을 사용했는가",
+          "type": "pattern_regex",
+          "target": "\\ben\\b",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -128,30 +121,27 @@
       }
     },
     {
-      "id": "fr_b1_u01_s1",
+      "id": "fr_b1_u09_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Dites à voix haute une nécessité en utilisant « Il faut que ».",
-        "ko": "'Il faut que'를 사용해서 소리 내어 필요성을 말해 보세요."
+        "en": "Dites à voix haute une phrase avec « y ».",
+        "ko": "소리 내어 'y'를 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "il_faut_que",
-          "label_ko": "il faut que",
+          "id": "y_pronom",
+          "label_ko": "y",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Il faut que'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "Il faut que",
-            "il faut que"
-          ],
+          "criterion_ko": "'y'를 사용했는가",
+          "type": "pattern_regex",
+          "target": "\\by\\b",
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -180,18 +170,18 @@
       }
     },
     {
-      "id": "fr_b1_u01_s2",
+      "id": "fr_b1_u09_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Il faut que tu partes maintenant ? » On vous pose cette question. Répondez à voix haute.",
-        "ko": "'Il faut que tu partes maintenant ?'(지금 가야 해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "« Tu y penses souvent ? » On vous pose cette question. Répondez à voix haute.",
+        "ko": "'Tu y penses souvent ?'(그것에 대해 자주 생각해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "il_faut_que",
-          "label_ko": "il faut que",
+          "id": "y_pronom",
+          "label_ko": "y",
           "min_occurrences": 1
         }
       ],

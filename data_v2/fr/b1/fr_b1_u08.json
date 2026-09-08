@@ -1,57 +1,61 @@
 {
   "meta": {
-    "id": "fr_b1_u01",
+    "id": "fr_b1_u08",
     "domain": "language",
     "lang": "fr",
     "level": "b1",
-    "unit": 1,
-    "title": "Subjonctif présent (il faut que)",
-    "title_ko": "접속법 현재 (il faut que)",
+    "unit": 8,
+    "title": "Pronoms COD/COI (le/la/les, lui/leur)",
+    "title_ko": "직접·간접목적어 대명사",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "« Il faut que » est suivi du subjonctif pour exprimer une nécessité. Par exemple : « Il faut que tu viennes ».",
-    "explanation_ko": "'Il faut que' 뒤에는 필요성을 나타내는 접속법이 옵니다. 예: 'Il faut que tu viennes'(당신이 와야 해요).",
+    "explanation_en": "« Le/la/les » remplacent un objet direct, « lui/leur » remplacent un objet indirect avec « à ». Par exemple : « Je le vois » et « Je lui parle ».",
+    "explanation_ko": "'Le/la/les'는 직접목적어를, 'lui/leur'는 'à'가 붙은 간접목적어를 대체합니다. 예: 'Je le vois'(그를 봐요), 'Je lui parle'(그에게 말해요).",
     "key_expressions": [
       {
-        "en": "Il faut que tu viennes demain.",
-        "ko": "당신은 내일 와야 해요."
+        "en": "Je le vois tous les jours.",
+        "ko": "저는 매일 그를 봐요."
       },
       {
-        "en": "Il faut que je parte maintenant.",
-        "ko": "저는 지금 가야 해요."
+        "en": "Je lui parle souvent.",
+        "ko": "저는 그에게 자주 말해요."
       },
       {
-        "en": "Il faut que nous finissions ce projet.",
-        "ko": "우리는 이 프로젝트를 끝내야 해요."
+        "en": "Je leur ai envoyé un message.",
+        "ko": "저는 그들에게 메시지를 보냈어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "fr_b1_u01_w1",
+      "id": "fr_b1_u08_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Écrivez une nécessité en utilisant « Il faut que ».",
-        "ko": "필요성을 'Il faut que'를 사용해서 써 보세요."
+        "en": "Écrivez une phrase avec « le/la/les » comme objet direct.",
+        "ko": "직접목적어 'le/la/les'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "il_faut_que",
-          "label_ko": "il faut que",
+          "id": "cod",
+          "label_ko": "직접목적어 대명사",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Il faut que'를 사용했는가",
+          "criterion_ko": "'le' 또는 'la' 또는 'les'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Il faut que",
-            "il faut que"
+            "Je le",
+            "Je la",
+            "Je les",
+            "je le",
+            "je la",
+            "je les"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,30 +82,28 @@
       }
     },
     {
-      "id": "fr_b1_u01_w2",
+      "id": "fr_b1_u08_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Qu'est-ce qu'il faut que je fasse ? » Répondez à cette question.",
-        "ko": "'Qu'est-ce qu'il faut que je fasse ?'(제가 뭘 해야 해요?)라는 질문에 답을 써 보세요."
+        "en": "« Vous parlez souvent à votre ami ? » Répondez en utilisant « lui ».",
+        "ko": "'Vous parlez souvent à votre ami ?'(친구에게 자주 말해요?)라는 질문에 'lui'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "il_faut_que",
-          "label_ko": "il faut que",
+          "id": "coi",
+          "label_ko": "간접목적어 대명사",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Il faut que' 또는 'faut'를 사용했는가",
+          "criterion_ko": "'lui'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Il faut que",
-            "il faut que",
-            "faut"
+            "lui"
           ],
           "min_matches": 1,
           "points": 60,
@@ -128,29 +130,29 @@
       }
     },
     {
-      "id": "fr_b1_u01_s1",
+      "id": "fr_b1_u08_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Dites à voix haute une nécessité en utilisant « Il faut que ».",
-        "ko": "'Il faut que'를 사용해서 소리 내어 필요성을 말해 보세요."
+        "en": "Dites à voix haute une phrase avec « lui » ou « leur ».",
+        "ko": "소리 내어 'lui' 또는 'leur'를 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "il_faut_que",
-          "label_ko": "il faut que",
+          "id": "coi",
+          "label_ko": "간접목적어 대명사",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Il faut que'를 사용했는가",
+          "criterion_ko": "'lui' 또는 'leur'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Il faut que",
-            "il faut que"
+            "lui",
+            "leur"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,18 +182,18 @@
       }
     },
     {
-      "id": "fr_b1_u01_s2",
+      "id": "fr_b1_u08_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Il faut que tu partes maintenant ? » On vous pose cette question. Répondez à voix haute.",
-        "ko": "'Il faut que tu partes maintenant ?'(지금 가야 해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "« Vous le voyez tous les jours ? » On vous pose cette question. Répondez à voix haute.",
+        "ko": "'Vous le voyez tous les jours ?'(매일 그를 봐요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "il_faut_que",
-          "label_ko": "il faut que",
+          "id": "cod",
+          "label_ko": "직접목적어 대명사",
           "min_occurrences": 1
         }
       ],
