@@ -1,56 +1,57 @@
 {
   "meta": {
-    "id": "zh_a2_u01",
+    "id": "zh_a2_u05",
     "domain": "language",
     "lang": "zh",
     "level": "a2",
-    "unit": 1,
-    "title": "过去的经历",
-    "title_ko": "과거 경험",
+    "unit": 5,
+    "title": "日常习惯(深入)",
+    "title_ko": "매일 습관 (심화)",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "说经历用「我...过」，表示曾经做过的事情。",
-    "explanation_ko": "경험을 말할 때는 '我...过'(저는 ~해본 적이 있어요)를 씁니다.",
+    "explanation_en": "说习惯的频率用「常常」「有时候」「从不」。",
+    "explanation_ko": "습관의 빈도를 말할 때는 '常常'(자주), '有时候'(가끔), '从不'(전혀 안)를 씁니다.",
     "key_expressions": [
       {
-        "en": "我骑过马。",
-        "ko": "저는 말을 타본 적이 있어요."
+        "en": "我常常吃早饭。",
+        "ko": "저는 자주 아침을 먹어요."
       },
       {
-        "en": "我没吃过辣的东西。",
-        "ko": "저는 매운 음식을 먹어본 적이 없어요."
+        "en": "我有时候迟到。",
+        "ko": "저는 가끔 지각해요."
       },
       {
-        "en": "我坐过飞机。",
-        "ko": "저는 비행기를 타본 적이 있어요."
+        "en": "我从不抽烟。",
+        "ko": "저는 전혀 담배를 안 피워요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_a2_u01_w1",
+      "id": "zh_a2_u05_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「我...过」写出一个特别的经历。",
-        "ko": "해본 적 있는 특이한 경험을 '我...过'를 사용해서 써 보세요."
+        "en": "请用「常常」或「有时候」写出自己的习惯。",
+        "ko": "자신의 습관을 '常常' 또는 '有时候'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "frequency_habit",
+          "label_ko": "빈도 습관 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'过'를 사용했는가",
+          "criterion_ko": "'常常' 또는 '有时候'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "过"
+            "常常",
+            "有时候"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,29 +78,30 @@
       }
     },
     {
-      "id": "zh_a2_u01_w2",
+      "id": "zh_a2_u05_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你去过国外吗？」请回答这个问题。",
-        "ko": "'你去过国外吗？'(외국에 가본 적 있어요?)라는 질문에 답을 써 보세요."
+        "en": "「你抽烟吗？」请回答这个问题。",
+        "ko": "'你抽烟吗？'(담배 피워요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "smoking",
+          "label_ko": "흡연 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'去过' 또는 '没去过'를 사용했는가",
+          "criterion_ko": "'从不' 또는 '是/不是'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "去过",
-            "没去过"
+            "从不",
+            "是",
+            "不是"
           ],
           "min_matches": 1,
           "points": 60,
@@ -126,28 +128,29 @@
       }
     },
     {
-      "id": "zh_a2_u01_s1",
+      "id": "zh_a2_u05_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声说出一个特别的经历。",
-        "ko": "특이한 경험에 대해 소리 내어 말해 보세요."
+        "en": "请大声说出你的习惯。",
+        "ko": "소리 내어 자신의 습관을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "frequency_habit",
+          "label_ko": "빈도 습관 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'过'를 사용했는가",
+          "criterion_ko": "'常常' 또는 '有时候'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "过"
+            "常常",
+            "有时候"
           ],
           "min_matches": 1,
           "points": 55,
@@ -177,29 +180,30 @@
       }
     },
     {
-      "id": "zh_a2_u01_s2",
+      "id": "zh_a2_u05_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你骑过马吗？」有人问你。请大声回答。",
-        "ko": "'你骑过马吗？'(말 타본 적 있어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「你常常迟到吗？」有人问你。请大声回答。",
+        "ko": "'你常常迟到吗？'(자주 지각해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "late",
+          "label_ko": "지각 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'骑过' 또는 '没骑过'를 사용했는가",
+          "criterion_ko": "'常常' 또는 '是/不是'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "骑过",
-            "没骑过"
+            "常常",
+            "是",
+            "不是"
           ],
           "min_matches": 1,
           "points": 55,

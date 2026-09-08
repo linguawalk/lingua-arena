@@ -1,56 +1,57 @@
 {
   "meta": {
-    "id": "zh_a2_u01",
+    "id": "zh_a2_u06",
     "domain": "language",
     "lang": "zh",
     "level": "a2",
-    "unit": 1,
-    "title": "过去的经历",
-    "title_ko": "과거 경험",
+    "unit": 6,
+    "title": "描述人物",
+    "title_ko": "사람 묘사",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "说经历用「我...过」，表示曾经做过的事情。",
-    "explanation_ko": "경험을 말할 때는 '我...过'(저는 ~해본 적이 있어요)를 씁니다.",
+    "explanation_en": "描述人的性格和外貌用「他很...」，比如「他很热情」「他个子很高」。",
+    "explanation_ko": "사람의 성격이나 외모를 말할 때는 '他很...'(그는 정말 ~해요)를 씁니다. 예: '他很热情'(그는 정말 친절해요), '他个子很高'(그는 키가 커요).",
     "key_expressions": [
       {
-        "en": "我骑过马。",
-        "ko": "저는 말을 타본 적이 있어요."
+        "en": "他很热情。",
+        "ko": "그는 정말 친절해요."
       },
       {
-        "en": "我没吃过辣的东西。",
-        "ko": "저는 매운 음식을 먹어본 적이 없어요."
+        "en": "她个子很高，戴眼镜。",
+        "ko": "그녀는 키가 크고 안경을 써요."
       },
       {
-        "en": "我坐过飞机。",
-        "ko": "저는 비행기를 타본 적이 있어요."
+        "en": "他总是笑。",
+        "ko": "그는 항상 웃어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_a2_u01_w1",
+      "id": "zh_a2_u06_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「我...过」写出一个特别的经历。",
-        "ko": "해본 적 있는 특이한 경험을 '我...过'를 사용해서 써 보세요."
+        "en": "请用「他很...」写出朋友的性格。",
+        "ko": "친구의 성격을 '他很...'을 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "personality",
+          "label_ko": "성격 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'过'를 사용했는가",
+          "criterion_ko": "'他很' 또는 '她很'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "过"
+            "他很",
+            "她很"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,29 +78,28 @@
       }
     },
     {
-      "id": "zh_a2_u01_w2",
+      "id": "zh_a2_u06_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你去过国外吗？」请回答这个问题。",
-        "ko": "'你去过国外吗？'(외국에 가본 적 있어요?)라는 질문에 답을 써 보세요."
+        "en": "「你喜欢什么样的人？」请回答这个问题。",
+        "ko": "'你喜欢什么样的人？'(어떤 사람을 좋아해요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "person_preference",
+          "label_ko": "인물 취향 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'去过' 또는 '没去过'를 사용했는가",
+          "criterion_ko": "'喜欢'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "去过",
-            "没去过"
+            "喜欢"
           ],
           "min_matches": 1,
           "points": 60,
@@ -126,28 +126,29 @@
       }
     },
     {
-      "id": "zh_a2_u01_s1",
+      "id": "zh_a2_u06_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声说出一个特别的经历。",
-        "ko": "특이한 경험에 대해 소리 내어 말해 보세요."
+        "en": "请大声描述朋友的外貌和性格。",
+        "ko": "친구의 외모나 성격에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "personality",
+          "label_ko": "성격 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'过'를 사용했는가",
+          "criterion_ko": "'他很' 또는 '她很'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "过"
+            "他很",
+            "她很"
           ],
           "min_matches": 1,
           "points": 55,
@@ -177,29 +178,28 @@
       }
     },
     {
-      "id": "zh_a2_u01_s2",
+      "id": "zh_a2_u06_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你骑过马吗？」有人问你。请大声回答。",
-        "ko": "'你骑过马吗？'(말 타본 적 있어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「你的老师是什么样的人？」有人问你。请大声回答。",
+        "ko": "'你的老师是什么样的人？'(선생님은 어떤 분이세요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "teacher_description",
+          "label_ko": "선생님 묘사 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'骑过' 또는 '没骑过'를 사용했는가",
+          "criterion_ko": "'很'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "骑过",
-            "没骑过"
+            "很"
           ],
           "min_matches": 1,
           "points": 55,

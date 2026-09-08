@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "zh_a2_u01",
+    "id": "zh_a2_u08",
     "domain": "language",
     "lang": "zh",
     "level": "a2",
-    "unit": 1,
-    "title": "过去的经历",
-    "title_ko": "과거 경험",
+    "unit": 8,
+    "title": "谈旅行经历",
+    "title_ko": "여행 이야기",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "说经历用「我...过」，表示曾经做过的事情。",
-    "explanation_ko": "경험을 말할 때는 '我...过'(저는 ~해본 적이 있어요)를 씁니다.",
+    "explanation_en": "说旅行感受用「...玩儿得很开心」。",
+    "explanation_ko": "여행 소감을 말할 때는 '...玩儿得很开心'(~해서 정말 즐거웠어요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "我骑过马。",
-        "ko": "저는 말을 타본 적이 있어요."
+        "en": "这次旅行玩儿得很开心。",
+        "ko": "이번 여행은 정말 즐거웠어요."
       },
       {
-        "en": "我没吃过辣的东西。",
-        "ko": "저는 매운 음식을 먹어본 적이 없어요."
+        "en": "海边很漂亮。",
+        "ko": "바다가 아름다웠어요."
       },
       {
-        "en": "我坐过飞机。",
-        "ko": "저는 비행기를 타본 적이 있어요."
+        "en": "我还想再去一次。",
+        "ko": "다시 한번 가고 싶어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_a2_u01_w1",
+      "id": "zh_a2_u08_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「我...过」写出一个特别的经历。",
-        "ko": "해본 적 있는 특이한 경험을 '我...过'를 사용해서 써 보세요."
+        "en": "请用「玩儿得很开心」写出最近旅行的感受。",
+        "ko": "최근에 다녀온 여행 소감을 '玩儿得很开心'을 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "travel_impression",
+          "label_ko": "여행 소감 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'过'를 사용했는가",
+          "criterion_ko": "'玩儿得很开心'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "过"
+            "玩儿得很开心"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,29 +77,29 @@
       }
     },
     {
-      "id": "zh_a2_u01_w2",
+      "id": "zh_a2_u08_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你去过国外吗？」请回答这个问题。",
-        "ko": "'你去过国外吗？'(외국에 가본 적 있어요?)라는 질문에 답을 써 보세요."
+        "en": "「旅行怎么样？」请回答这个问题。",
+        "ko": "'旅行怎么样？'(여행 어땠어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "travel_review",
+          "label_ko": "여행 후기 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'去过' 또는 '没去过'를 사용했는가",
+          "criterion_ko": "'开心' 또는 '很好'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "去过",
-            "没去过"
+            "开心",
+            "很好"
           ],
           "min_matches": 1,
           "points": 60,
@@ -126,28 +126,28 @@
       }
     },
     {
-      "id": "zh_a2_u01_s1",
+      "id": "zh_a2_u08_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声说出一个特别的经历。",
-        "ko": "특이한 경험에 대해 소리 내어 말해 보세요."
+        "en": "请大声说出最近旅行的感受。",
+        "ko": "최근에 다녀온 여행에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience",
-          "label_ko": "경험 표현",
+          "id": "travel_impression",
+          "label_ko": "여행 소감 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'过'를 사용했는가",
+          "criterion_ko": "'开心'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "过"
+            "开心"
           ],
           "min_matches": 1,
           "points": 55,
@@ -177,29 +177,30 @@
       }
     },
     {
-      "id": "zh_a2_u01_s2",
+      "id": "zh_a2_u08_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你骑过马吗？」有人问你。请大声回答。",
-        "ko": "'你骑过马吗？'(말 타본 적 있어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「你还想再去吗？」有人问你。请大声回答。",
+        "ko": "'你还想再去吗？'(다시 가고 싶어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "want_return",
+          "label_ko": "재방문 의사 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'骑过' 또는 '没骑过'를 사용했는가",
+          "criterion_ko": "'想' 또는 '是/不是'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "骑过",
-            "没骑过"
+            "想",
+            "是",
+            "不是"
           ],
           "min_matches": 1,
           "points": 55,
