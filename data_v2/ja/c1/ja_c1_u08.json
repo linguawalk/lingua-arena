@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "ja_c1_u01",
+    "id": "ja_c1_u08",
     "domain": "language",
     "lang": "ja",
     "level": "c1",
-    "unit": 1,
-    "title": "「言う」の類義語",
-    "title_ko": "'말하다'의 유의어",
+    "unit": 8,
+    "title": "ビジネス語彙: 交渉",
+    "title_ko": "비즈니스 어휘: 협상",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "「話す」は一般的な会話、「述べる」はフォーマルな場での意見表明、「申す」は謙譲語、「語る」は物語や経験をじっくり話すことを表します。",
-    "explanation_ko": "'話す'는 일반적인 대화, '述べる'는 격식 있는 자리에서의 의견 표명, '申す'는 겸양어, '語る'는 이야기나 경험을 차분히 이야기하는 것을 나타냅니다.",
+    "explanation_en": "「譲歩」は交渉で妥協すること、「決裂」は交渉が失敗すること、「合意」は双方が同意することを表す、ビジネスの重要語彙です。",
+    "explanation_ko": "'譲歩'는 협상에서 타협하는 것, '決裂'은 협상이 실패하는 것, '合意'는 쌍방이 동의하는 것을 나타내는, 비즈니스의 중요 어휘입니다.",
     "key_expressions": [
       {
-        "en": "かいぎでいけんをのべました。",
-        "ko": "회의에서 의견을 말했어요(述べる)."
+        "en": "こちらもじょうほしますので、ごりかいください。",
+        "ko": "저희도 양보할 테니 이해해 주세요."
       },
       {
-        "en": "じぶんのけいけんをかたりました。",
-        "ko": "자신의 경험을 이야기했어요(語る)."
+        "en": "こうしょうはけつれつしました。",
+        "ko": "협상은 결렬됐어요."
       },
       {
-        "en": "わたしはたなかともうします。",
-        "ko": "저는 다나카라고 합니다(申す, 겸양)."
+        "en": "りょうしゃがごういにたっしました。",
+        "ko": "양측이 합의에 도달했어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_c1_u01_w1",
+      "id": "ja_c1_u08_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "会議で意見を言ったことを「述べる」を使って書いてください。",
-        "ko": "회의에서 의견을 말했던 것을 '述べる'를 사용해서 써 보세요."
+        "en": "交渉で妥協したことを「譲歩」を使って書いてください。",
+        "ko": "협상에서 타협했던 것을 '譲歩'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "noberu",
-          "label_ko": "述べる",
+          "id": "jouho",
+          "label_ko": "譲歩",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'のべ' 어근을 사용했는가",
+          "criterion_ko": "'じょうほ'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "のべ"
+            "じょうほ"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,28 +78,28 @@
       }
     },
     {
-      "id": "ja_c1_u01_w2",
+      "id": "ja_c1_u08_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「じぶんのけいけんについてはなしてください」という質問に「語る」を使って答えを書いてください。",
-        "ko": "'じぶんのけいけんについてはなしてください'라는 질문에 '語る'를 사용해서 답을 써 보세요."
+        "en": "「こうしょうはどうなりましたか」という質問に「合意」を使って答えを書いてください。",
+        "ko": "'こうしょうはどうなりましたか'라는 질문에 '合意'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "kataru",
-          "label_ko": "語る",
+          "id": "goui",
+          "label_ko": "合意",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'かたり' 어근을 사용했는가",
+          "criterion_ko": "'ごうい'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "かたり"
+            "ごうい"
           ],
           "min_matches": 1,
           "points": 60,
@@ -127,28 +127,28 @@
       }
     },
     {
-      "id": "ja_c1_u01_s1",
+      "id": "ja_c1_u08_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "自己紹介で、謙譲語「申す」を使って声に出して名前を伝えてください。",
-        "ko": "자기소개에서 겸양어 '申す'를 사용해서 소리 내어 이름을 전해 보세요."
+        "en": "交渉で合意に達した経験について声に出して話してください。",
+        "ko": "협상에서 합의에 도달했던 경험에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "mousu",
-          "label_ko": "申す",
+          "id": "goui",
+          "label_ko": "合意",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'もうします'를 사용했는가",
+          "criterion_ko": "'ごうい'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "もうします"
+            "ごうい"
           ],
           "min_matches": 1,
           "points": 55,
@@ -179,18 +179,18 @@
       }
     },
     {
-      "id": "ja_c1_u01_s2",
+      "id": "ja_c1_u08_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「かいぎでいけんをのべましたか」と聞かれました。声に出して答えてください。",
-        "ko": "'かいぎでいけんをのべましたか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「こうしょうがけつれつしたことがありますか」と聞かれました。声に出して答えてください。",
+        "ko": "'こうしょうがけつれつしたことがありますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "noberu",
-          "label_ko": "述べる",
+          "id": "ketsuretsu",
+          "label_ko": "決裂",
           "min_occurrences": 1
         }
       ],

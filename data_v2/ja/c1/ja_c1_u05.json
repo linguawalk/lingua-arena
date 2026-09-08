@@ -1,68 +1,79 @@
 {
   "meta": {
-    "id": "ja_c1_u01",
+    "id": "ja_c1_u05",
     "domain": "language",
     "lang": "ja",
     "level": "c1",
-    "unit": 1,
-    "title": "「言う」の類義語",
-    "title_ko": "'말하다'의 유의어",
+    "unit": 5,
+    "title": "頑固 vs 意志が強い",
+    "title_ko": "함축: 頑固 vs 意志が強い",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "「話す」は一般的な会話、「述べる」はフォーマルな場での意見表明、「申す」は謙譲語、「語る」は物語や経験をじっくり話すことを表します。",
-    "explanation_ko": "'話す'는 일반적인 대화, '述べる'는 격식 있는 자리에서의 의견 표명, '申す'는 겸양어, '語る'는 이야기나 경험을 차분히 이야기하는 것을 나타냅니다.",
+    "explanation_en": "「頑固」は否定的で、柔軟性のなさを批判するニュアンスがあります。「意志が強い」は肯定的で、決意の強さを称賛します。同じ性質を違う角度から表現します。",
+    "explanation_ko": "'頑固'는 부정적이며, 유연성 없음을 비판하는 뉘앙스가 있습니다. '意志が強い'는 긍정적이며, 결의의 강함을 칭찬합니다. 같은 성질을 다른 각도에서 표현합니다.",
     "key_expressions": [
       {
-        "en": "かいぎでいけんをのべました。",
-        "ko": "회의에서 의견을 말했어요(述べる)."
+        "en": "ちちはがんこで、いけんをかえません。",
+        "ko": "아버지는 고집이 세서 의견을 안 바꿔요."
       },
       {
-        "en": "じぶんのけいけんをかたりました。",
-        "ko": "자신의 경험을 이야기했어요(語る)."
+        "en": "かのじょはいしがつよく、あきらめません。",
+        "ko": "그녀는 의지가 강해서 포기하지 않아요."
       },
       {
-        "en": "わたしはたなかともうします。",
-        "ko": "저는 다나카라고 합니다(申す, 겸양)."
+        "en": "がんこなせいかくが、しごとではやくにたつこともあります。",
+        "ko": "고집스러운 성격이 일에서는 도움이 될 때도 있어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_c1_u01_w1",
+      "id": "ja_c1_u05_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "会議で意見を言ったことを「述べる」を使って書いてください。",
-        "ko": "회의에서 의견을 말했던 것을 '述べる'를 사용해서 써 보세요."
+        "en": "頑固な人と意志が強い人について、それぞれの言葉を正しく使って書いてください。",
+        "ko": "고집이 센 사람과 의지가 강한 사람에 대해, 각각의 단어를 정확히 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "noberu",
-          "label_ko": "述べる",
+          "id": "ganko",
+          "label_ko": "頑固",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'のべ' 어근을 사용했는가",
+          "criterion_ko": "'がんこ'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "のべ"
+            "がんこ"
           ],
           "min_matches": 1,
-          "points": 60,
+          "points": 40,
           "required": true
         },
         {
           "id": "r2",
+          "criterion_ko": "'いしがつよい'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "いしがつよい"
+          ],
+          "min_matches": 1,
+          "points": 40,
+          "required": true
+        },
+        {
+          "id": "r3",
           "criterion_ko": "완전한 문장인가",
           "type": "pattern_regex",
           "target": "[。]$",
           "min_matches": 1,
-          "points": 40,
+          "points": 20,
           "required": false
         }
       ],
@@ -78,28 +89,28 @@
       }
     },
     {
-      "id": "ja_c1_u01_w2",
+      "id": "ja_c1_u05_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「じぶんのけいけんについてはなしてください」という質問に「語る」を使って答えを書いてください。",
-        "ko": "'じぶんのけいけんについてはなしてください'라는 질문에 '語る'를 사용해서 답을 써 보세요."
+        "en": "「あなたのせいかくはどうですか」という質問に「意志が強い」を使って答えを書いてください。",
+        "ko": "'あなたのせいかくはどうですか'라는 질문에 '意志が強い'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "kataru",
-          "label_ko": "語る",
+          "id": "ishigatsuyoi",
+          "label_ko": "意志が強い",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'かたり' 어근을 사용했는가",
+          "criterion_ko": "'いしがつよい'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "かたり"
+            "いしがつよい"
           ],
           "min_matches": 1,
           "points": 60,
@@ -127,28 +138,28 @@
       }
     },
     {
-      "id": "ja_c1_u01_s1",
+      "id": "ja_c1_u05_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "自己紹介で、謙譲語「申す」を使って声に出して名前を伝えてください。",
-        "ko": "자기소개에서 겸양어 '申す'를 사용해서 소리 내어 이름을 전해 보세요."
+        "en": "意志が強いと感じる自分の一面について声に出して話してください。",
+        "ko": "의지가 강하다고 느끼는 자신의 일면에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "mousu",
-          "label_ko": "申す",
+          "id": "ishigatsuyoi",
+          "label_ko": "意志が強い",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'もうします'를 사용했는가",
+          "criterion_ko": "'いしがつよい'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "もうします"
+            "いしがつよい"
           ],
           "min_matches": 1,
           "points": 55,
@@ -179,18 +190,18 @@
       }
     },
     {
-      "id": "ja_c1_u01_s2",
+      "id": "ja_c1_u05_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「かいぎでいけんをのべましたか」と聞かれました。声に出して答えてください。",
-        "ko": "'かいぎでいけんをのべましたか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「おとうさんはがんこですか」と聞かれました。声に出して答えてください。",
+        "ko": "'おとうさんはがんこですか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "noberu",
-          "label_ko": "述べる",
+          "id": "ganko",
+          "label_ko": "頑固",
           "min_occurrences": 1
         }
       ],
