@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "ja_c2_u01",
+    "id": "ja_c2_u05",
     "domain": "language",
     "lang": "ja",
     "level": "c2",
-    "unit": 1,
-    "title": "誘う/促す/唆す",
-    "title_ko": "미묘한 유의어: 誘う/促す/唆す",
+    "unit": 5,
+    "title": "曖昧/紛らわしい/漠然",
+    "title_ko": "뉘앙스: 曖昧/紛らわしい/漠然",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "「誘う」は一緒に何かをするよう声をかけること、「促す」は行動を起こすよう働きかけること、「唆す」は悪いことをするよう仕向けることを表します。",
-    "explanation_ko": "'誘う'는 함께 무언가를 하자고 부르는 것, '促す'는 행동을 일으키도록 촉구하는 것, '唆す'는 나쁜 짓을 하도록 부추기는 것을 나타냅니다.",
+    "explanation_en": "「曖昧」は複数の解釈が可能なこと、「紛らわしい」は似ていて区別しにくいこと、「漠然」は輪郭がはっきりしないことを表します。",
+    "explanation_ko": "'曖昧'는 여러 해석이 가능한 것, '紛らわしい'는 비슷해서 구별하기 어려운 것, '漠然'은 윤곽이 명확하지 않은 것을 나타냅니다.",
     "key_expressions": [
       {
-        "en": "えいがにさそいました。",
-        "ko": "영화 보러 가자고 청했어요."
+        "en": "けいやくしょのひょうげんがあいまいです。",
+        "ko": "계약서의 표현이 애매해요."
       },
       {
-        "en": "こうどうをうながしました。",
-        "ko": "행동을 촉구했어요."
+        "en": "にたなまえでまぎらわしいです。",
+        "ko": "비슷한 이름이라 헷갈려요."
       },
       {
-        "en": "はんざいをそそのかしました。",
-        "ko": "범죄를 부추겼어요."
+        "en": "ばくぜんとしたふあんがあります。",
+        "ko": "막연한 불안이 있어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_c2_u01_w1",
+      "id": "ja_c2_u05_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "だれかを何かに誘った経験を「誘う」を使って書いてください。",
-        "ko": "누군가를 무언가에 초대했던 경험을 '誘う'를 사용해서 써 보세요."
+        "en": "複数の解釈が可能な曖昧な表現について「曖昧」を使って書いてください。",
+        "ko": "여러 해석이 가능한 애매한 표현에 대해 '曖昧'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "sasou",
-          "label_ko": "誘う",
+          "id": "aimai",
+          "label_ko": "曖昧",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'さそい'를 사용했는가",
+          "criterion_ko": "'あいまい'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "さそい"
+            "あいまい"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,28 +77,28 @@
       }
     },
     {
-      "id": "ja_c2_u01_w2",
+      "id": "ja_c2_u05_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「かいしゃはしゃいんになにをうながしていますか」という質問に「促す」を使って答えを書いてください。",
-        "ko": "'かいしゃはしゃいんになにをうながしていますか'라는 질문에 '促す'를 사용해서 답을 써 보세요."
+        "en": "「にたなまえのひとがいますか」という質問に「紛らわしい」を使って答えを書いてください。",
+        "ko": "'にたなまえのひとがいますか'라는 질문에 '紛らわしい'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "unagasu",
-          "label_ko": "促す",
+          "id": "magirawashii",
+          "label_ko": "紛らわしい",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'うながし'를 사용했는가",
+          "criterion_ko": "'まぎらわしい'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "うながし"
+            "まぎらわしい"
           ],
           "min_matches": 1,
           "points": 60,
@@ -125,28 +125,28 @@
       }
     },
     {
-      "id": "ja_c2_u01_s1",
+      "id": "ja_c2_u05_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "だれかに何かを促した経験について声に出して話してください。",
-        "ko": "누군가에게 무언가를 촉구했던 경험에 대해 소리 내어 말해 보세요."
+        "en": "漠然とした不安について声に出して話してください。",
+        "ko": "막연한 불안에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "unagasu",
-          "label_ko": "促す",
+          "id": "bakuzen",
+          "label_ko": "漠然",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'うながし'를 사용했는가",
+          "criterion_ko": "'ばくぜん'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "うながし"
+            "ばくぜん"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,18 +176,18 @@
       }
     },
     {
-      "id": "ja_c2_u01_s2",
+      "id": "ja_c2_u05_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「えいがにさそわれたことがありますか」と聞かれました。声に出して答えてください。",
-        "ko": "'えいがにさそわれたことがありますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「けいやくしょのひょうげんがあいまいですか」と聞かれました。声に出して答えてください。",
+        "ko": "'けいやくしょのひょうげんがあいまいですか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "sasou",
-          "label_ko": "誘う",
+          "id": "aimai",
+          "label_ko": "曖昧",
           "min_occurrences": 1
         }
       ],

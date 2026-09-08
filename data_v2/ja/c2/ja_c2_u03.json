@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "ja_c2_u01",
+    "id": "ja_c2_u03",
     "domain": "language",
     "lang": "ja",
     "level": "c2",
-    "unit": 1,
-    "title": "誘う/促す/唆す",
-    "title_ko": "미묘한 유의어: 誘う/促す/唆す",
+    "unit": 3,
+    "title": "格式: 文学的表現 vs 口語表現",
+    "title_ko": "격식: 문학적 표현 vs 구어체",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "「誘う」は一緒に何かをするよう声をかけること、「促す」は行動を起こすよう働きかけること、「唆す」は悪いことをするよう仕向けることを表します。",
-    "explanation_ko": "'誘う'는 함께 무언가를 하자고 부르는 것, '促す'는 행동을 일으키도록 촉구하는 것, '唆す'는 나쁜 짓을 하도록 부추기는 것을 나타냅니다.",
+    "explanation_en": "同じ内容でも、文学的で格調高い表現（儚い、諸行無常）と、日常会話の表現（すぐ終わっちゃう）では大きく印象が変わります。",
+    "explanation_ko": "같은 내용이라도, 문학적이고 격조 높은 표현(儚い, 諸行無常)과, 일상 대화 표현(すぐ終わっちゃう)에서는 인상이 크게 달라집니다.",
     "key_expressions": [
       {
-        "en": "えいがにさそいました。",
-        "ko": "영화 보러 가자고 청했어요."
+        "en": "はかないよろこびでした。",
+        "ko": "덧없는 기쁨이었어요."
       },
       {
-        "en": "こうどうをうながしました。",
-        "ko": "행동을 촉구했어요."
+        "en": "すぐおわっちゃうたのしみでした。",
+        "ko": "금방 끝나버리는 즐거움이었어요."
       },
       {
-        "en": "はんざいをそそのかしました。",
-        "ko": "범죄를 부추겼어요."
+        "en": "そのぶんしょうはじょうちょうです。",
+        "ko": "그 문장은 장황해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_c2_u01_w1",
+      "id": "ja_c2_u03_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "だれかを何かに誘った経験を「誘う」を使って書いてください。",
-        "ko": "누군가를 무언가에 초대했던 경험을 '誘う'를 사용해서 써 보세요."
+        "en": "短命な喜びを、文学的な「儚い」を使って一度、口語的な言い方で一度書いてください。",
+        "ko": "짧은 기쁨을, 문학적인 '儚い'로 한 번, 구어체로 한 번 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "sasou",
-          "label_ko": "誘う",
+          "id": "hakanai",
+          "label_ko": "儚い",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'さそい'를 사용했는가",
+          "criterion_ko": "'はかない'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "さそい"
+            "はかない"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,28 +77,28 @@
       }
     },
     {
-      "id": "ja_c2_u01_w2",
+      "id": "ja_c2_u03_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「かいしゃはしゃいんになにをうながしていますか」という質問に「促す」を使って答えを書いてください。",
-        "ko": "'かいしゃはしゃいんになにをうながしていますか'라는 질문에 '促す'를 사용해서 답을 써 보세요."
+        "en": "「そのぶんしょうはどうでしたか」という質問に「冗長」を使って答えを書いてください。",
+        "ko": "'そのぶんしょうはどうでしたか'라는 질문에 '冗長'을 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "unagasu",
-          "label_ko": "促す",
+          "id": "jouchou",
+          "label_ko": "冗長",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'うながし'를 사용했는가",
+          "criterion_ko": "'じょうちょう'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "うながし"
+            "じょうちょう"
           ],
           "min_matches": 1,
           "points": 60,
@@ -125,28 +125,28 @@
       }
     },
     {
-      "id": "ja_c2_u01_s1",
+      "id": "ja_c2_u03_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "だれかに何かを促した経験について声に出して話してください。",
-        "ko": "누군가에게 무언가를 촉구했던 경험에 대해 소리 내어 말해 보세요."
+        "en": "現代生活の中で儚いと感じるものについて「儚い」を使って声に出して話してください。",
+        "ko": "현대 생활 속에서 덧없다고 느끼는 것에 대해 '儚い'를 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "unagasu",
-          "label_ko": "促す",
+          "id": "hakanai",
+          "label_ko": "儚い",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'うながし'를 사용했는가",
+          "criterion_ko": "'はかない'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "うながし"
+            "はかない"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,29 +176,29 @@
       }
     },
     {
-      "id": "ja_c2_u01_s2",
+      "id": "ja_c2_u03_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「えいがにさそわれたことがありますか」と聞かれました。声に出して答えてください。",
-        "ko": "'えいがにさそわれたことがありますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「シンプルなぶんしょうとこったぶんしょう、どちらがすきですか」と聞かれました。声に出して答えてください。",
+        "ko": "'シンプルなぶんしょうとこったぶんしょう、どちらがすきですか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "sasou",
-          "label_ko": "誘う",
+          "id": "register",
+          "label_ko": "격식 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'はい' 또는 'いいえ'를 사용했는가",
+          "criterion_ko": "'シンプル' 또는 'こった'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "はい",
-            "いいえ"
+            "シンプル",
+            "こった"
           ],
           "min_matches": 1,
           "points": 55,

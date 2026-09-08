@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "ja_c2_u01",
+    "id": "ja_c2_u06",
     "domain": "language",
     "lang": "ja",
     "level": "c2",
-    "unit": 1,
-    "title": "誘う/促す/唆す",
-    "title_ko": "미묘한 유의어: 誘う/促す/唆す",
+    "unit": 6,
+    "title": "皮肉/冷笑的/悲観的",
+    "title_ko": "뉘앙스: 皮肉/冷笑的/悲観的",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "「誘う」は一緒に何かをするよう声をかけること、「促す」は行動を起こすよう働きかけること、「唆す」は悪いことをするよう仕向けることを表します。",
-    "explanation_ko": "'誘う'는 함께 무언가를 하자고 부르는 것, '促す'는 행동을 일으키도록 촉구하는 것, '唆す'는 나쁜 짓을 하도록 부추기는 것을 나타냅니다.",
+    "explanation_en": "「皮肉」は意図的な逆説的表現、「冷笑的」は物事を斜に構えて見る態度、「悲観的」は将来を悪く予想する態度を表します。",
+    "explanation_ko": "'皮肉'는 의도적인 역설적 표현, '冷笑的'는 사물을 비뚤어지게 보는 태도, '悲観的'는 미래를 나쁘게 예상하는 태도를 나타냅니다.",
     "key_expressions": [
       {
-        "en": "えいがにさそいました。",
-        "ko": "영화 보러 가자고 청했어요."
+        "en": "ひにくをこめていいました。",
+        "ko": "비꼬는 투로 말했어요."
       },
       {
-        "en": "こうどうをうながしました。",
-        "ko": "행동을 촉구했어요."
+        "en": "せいじかにたいしてれいしょうてきです。",
+        "ko": "정치인에 대해 냉소적이에요."
       },
       {
-        "en": "はんざいをそそのかしました。",
-        "ko": "범죄를 부추겼어요."
+        "en": "けいざいにひかんてきです。",
+        "ko": "경제에 비관적이에요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_c2_u01_w1",
+      "id": "ja_c2_u06_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "だれかを何かに誘った経験を「誘う」を使って書いてください。",
-        "ko": "누군가를 무언가에 초대했던 경험을 '誘う'를 사용해서 써 보세요."
+        "en": "皮肉を込めた発言をした経験について「皮肉」を使って書いてください。",
+        "ko": "비꼬는 발언을 했던 경험에 대해 '皮肉'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "sasou",
-          "label_ko": "誘う",
+          "id": "hiniku",
+          "label_ko": "皮肉",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'さそい'를 사용했는가",
+          "criterion_ko": "'ひにく'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "さそい"
+            "ひにく"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,28 +77,28 @@
       }
     },
     {
-      "id": "ja_c2_u01_w2",
+      "id": "ja_c2_u06_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「かいしゃはしゃいんになにをうながしていますか」という質問に「促す」を使って答えを書いてください。",
-        "ko": "'かいしゃはしゃいんになにをうながしていますか'라는 질문에 '促す'를 사용해서 답을 써 보세요."
+        "en": "「けいざいのしょうらいについてどうおもいますか」という質問に「悲観的」を使って答えを書いてください。",
+        "ko": "'けいざいのしょうらいについてどうおもいますか'라는 질문에 '悲観的'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "unagasu",
-          "label_ko": "促す",
+          "id": "hikanteki",
+          "label_ko": "悲観的",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'うながし'를 사용했는가",
+          "criterion_ko": "'ひかんてき'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "うながし"
+            "ひかんてき"
           ],
           "min_matches": 1,
           "points": 60,
@@ -125,28 +125,28 @@
       }
     },
     {
-      "id": "ja_c2_u01_s1",
+      "id": "ja_c2_u06_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "だれかに何かを促した経験について声に出して話してください。",
-        "ko": "누군가에게 무언가를 촉구했던 경험에 대해 소리 내어 말해 보세요."
+        "en": "何かに対して冷笑的になった経験について声に出して話してください。",
+        "ko": "무언가에 대해 냉소적이 됐던 경험에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "unagasu",
-          "label_ko": "促す",
+          "id": "reishouteki",
+          "label_ko": "冷笑的",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'うながし'를 사용했는가",
+          "criterion_ko": "'れいしょうてき'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "うながし"
+            "れいしょうてき"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,18 +176,18 @@
       }
     },
     {
-      "id": "ja_c2_u01_s2",
+      "id": "ja_c2_u06_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「えいがにさそわれたことがありますか」と聞かれました。声に出して答えてください。",
-        "ko": "'えいがにさそわれたことがありますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「せいじかにたいしてれいしょうてきですか」と聞かれました。声に出して答えてください。",
+        "ko": "'せいじかにたいしてれいしょうてきですか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "sasou",
-          "label_ko": "誘う",
+          "id": "reishouteki",
+          "label_ko": "冷笑的",
           "min_occurrences": 1
         }
       ],

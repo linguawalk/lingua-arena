@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "ja_c2_u01",
+    "id": "ja_c2_u10",
     "domain": "language",
     "lang": "ja",
     "level": "c2",
-    "unit": 1,
-    "title": "誘う/促す/唆す",
-    "title_ko": "미묘한 유의어: 誘う/促す/唆す",
+    "unit": 10,
+    "title": "法律・格式語彙",
+    "title_ko": "법률·격식 어휘",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "「誘う」は一緒に何かをするよう声をかけること、「促す」は行動を起こすよう働きかけること、「唆す」は悪いことをするよう仕向けることを表します。",
-    "explanation_ko": "'誘う'는 함께 무언가를 하자고 부르는 것, '促す'는 행동을 일으키도록 촉구하는 것, '唆す'는 나쁜 짓을 하도록 부추기는 것을 나타냅니다.",
+    "explanation_en": "「〜にかんがみ」は事情を考慮して、「〜に鑑みず」は無視して、「〜のかぎりでない」は例外を示す、法律文書で使われる格式高い表現です。",
+    "explanation_ko": "'〜にかんがみ'는 사정을 고려하여, '〜に鑑みず'는 무시하고, '〜のかぎりでない'는 예외를 나타내는, 법률 문서에서 쓰이는 격식 높은 표현입니다.",
     "key_expressions": [
       {
-        "en": "えいがにさそいました。",
-        "ko": "영화 보러 가자고 청했어요."
+        "en": "げんじょうにかんがみ、けっていしました。",
+        "ko": "현 상황을 감안하여 결정했어요."
       },
       {
-        "en": "こうどうをうながしました。",
-        "ko": "행동을 촉구했어요."
+        "en": "きそくにいはんするばあいは、このかぎりでない。",
+        "ko": "규칙에 위반되는 경우는 이 한도에 해당하지 않는다."
       },
       {
-        "en": "はんざいをそそのかしました。",
-        "ko": "범죄를 부추겼어요."
+        "en": "ほうりつじょうのぎむがあります。",
+        "ko": "법률상의 의무가 있어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ja_c2_u01_w1",
+      "id": "ja_c2_u10_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "だれかを何かに誘った経験を「誘う」を使って書いてください。",
-        "ko": "누군가를 무언가에 초대했던 경험을 '誘う'를 사용해서 써 보세요."
+        "en": "事情を考慮して決定したことを「〜にかんがみ」を使って書いてください。",
+        "ko": "사정을 고려해서 결정했던 것을 '〜にかんがみ'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "sasou",
-          "label_ko": "誘う",
+          "id": "kangami",
+          "label_ko": "にかんがみ",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'さそい'를 사용했는가",
+          "criterion_ko": "'かんがみ'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "さそい"
+            "かんがみ"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,28 +77,30 @@
       }
     },
     {
-      "id": "ja_c2_u01_w2",
+      "id": "ja_c2_u10_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「かいしゃはしゃいんになにをうながしていますか」という質問に「促す」を使って答えを書いてください。",
-        "ko": "'かいしゃはしゃいんになにをうながしていますか'라는 질문에 '促す'를 사용해서 답을 써 보세요."
+        "en": "「ほうりつじょうのぎむがありますか」という質問に答えを書いてください。",
+        "ko": "'ほうりつじょうのぎむがありますか'라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "unagasu",
-          "label_ko": "促す",
+          "id": "gimu",
+          "label_ko": "義務",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'うながし'를 사용했는가",
+          "criterion_ko": "'ぎむ' 또는 'はい/いいえ'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "うながし"
+            "ぎむ",
+            "はい",
+            "いいえ"
           ],
           "min_matches": 1,
           "points": 60,
@@ -125,28 +127,28 @@
       }
     },
     {
-      "id": "ja_c2_u01_s1",
+      "id": "ja_c2_u10_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "だれかに何かを促した経験について声に出して話してください。",
-        "ko": "누군가에게 무언가를 촉구했던 경험에 대해 소리 내어 말해 보세요."
+        "en": "現状を考慮して決定したことについて「にかんがみ」を使って声に出して話してください。",
+        "ko": "현 상황을 고려해서 결정했던 것에 대해 'にかんがみ'를 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "unagasu",
-          "label_ko": "促す",
+          "id": "kangami",
+          "label_ko": "にかんがみ",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'うながし'를 사용했는가",
+          "criterion_ko": "'かんがみ'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "うながし"
+            "かんがみ"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,18 +178,18 @@
       }
     },
     {
-      "id": "ja_c2_u01_s2",
+      "id": "ja_c2_u10_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「えいがにさそわれたことがありますか」と聞かれました。声に出して答えてください。",
-        "ko": "'えいがにさそわれたことがありますか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「げんじょうにかんがみてけっていしましたか」と聞かれました。声に出して答えてください。",
+        "ko": "'げんじょうにかんがみてけっていしましたか'라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "sasou",
-          "label_ko": "誘う",
+          "id": "kangami",
+          "label_ko": "にかんがみ",
           "min_occurrences": 1
         }
       ],
