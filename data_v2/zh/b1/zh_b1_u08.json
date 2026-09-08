@@ -1,57 +1,55 @@
 {
   "meta": {
-    "id": "zh_b1_u01",
+    "id": "zh_b1_u08",
     "domain": "language",
     "lang": "zh",
     "level": "b1",
-    "unit": 1,
-    "title": "把字句",
-    "title_ko": "把자문",
+    "unit": 8,
+    "title": "因为...所以...",
+    "title_ko": "因为...所以... (~때문에 ~해서)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "「把」字句强调对某个具体事物做了处置，动词后常有结果。「我把作业写完了」。",
-    "explanation_ko": "'把'자문은 특정 사물을 어떻게 처리했는지를 강조하며, 동사 뒤에 결과가 오는 경우가 많습니다. '我把作业写完了'(저는 숙제를 다 했어요).",
+    "explanation_en": "「因为...所以...」表示因果关系。「因为下雨，所以我没去」。",
+    "explanation_ko": "'因为...所以...'는 인과관계를 나타냅니다. '因为下雨，所以我没去'(비가 와서 안 갔어요).",
     "key_expressions": [
       {
-        "en": "我把作业写完了。",
-        "ko": "저는 숙제를 다 했어요."
+        "en": "因为下雨，所以我没去。",
+        "ko": "비가 와서 안 갔어요."
       },
       {
-        "en": "请把门关上。",
-        "ko": "문을 닫아주세요."
+        "en": "因为很忙，所以没时间休息。",
+        "ko": "바빠서 쉴 시간이 없어요."
       },
       {
-        "en": "他把杯子打破了。",
-        "ko": "그는 컵을 깨뜨렸어요."
+        "en": "因为喜欢中国文化，所以学汉语。",
+        "ko": "중국 문화를 좋아해서 중국어를 배워요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_b1_u01_w1",
+      "id": "zh_b1_u08_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「把」字句写出你对某个东西做了什么处理。",
-        "ko": "어떤 물건을 어떻게 처리했는지 '把'자문을 사용해서 써 보세요."
+        "en": "请用「因为...所以...」写出原因和结果。",
+        "ko": "원인과 결과를 '因为...所以...'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "yinwei_suoyi",
+          "label_ko": "因为...所以...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "把"
-          ],
+          "criterion_ko": "'因为'와 '所以'를 사용했는가",
+          "type": "pattern_regex",
+          "target": "因为.{0,15}所以",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -77,30 +75,28 @@
       }
     },
     {
-      "id": "zh_b1_u01_w2",
+      "id": "zh_b1_u08_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你把作业写完了吗？」请回答这个问题。",
-        "ko": "'你把作业写完了吗？'(숙제 다 했어요?)라는 질문에 답을 써 보세요."
+        "en": "「你为什么学汉语？」请用「因为...所以...」回答。",
+        "ko": "'你为什么学汉语？'(왜 중국어를 배우세요?)라는 질문에 '因为...所以...'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "yinwei_suoyi",
+          "label_ko": "因为...所以...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把' 또는 '是/不是'를 사용했는가",
+          "criterion_ko": "'因为'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "把",
-            "是",
-            "不是"
+            "因为"
           ],
           "min_matches": 1,
           "points": 60,
@@ -127,28 +123,29 @@
       }
     },
     {
-      "id": "zh_b1_u01_s1",
+      "id": "zh_b1_u08_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「把」字句说出你处理了什么东西。",
-        "ko": "어떤 물건을 처리했는지 '把'자문을 사용해서 소리 내어 말해 보세요."
+        "en": "请大声用「因为...所以...」说出一件事情的原因。",
+        "ko": "'因为...所以...'를 사용해서 소리 내어 어떤 일의 이유를 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "yinwei_suoyi",
+          "label_ko": "因为...所以...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把'를 사용했는가",
+          "criterion_ko": "'因为' 또는 '所以'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "把"
+            "因为",
+            "所以"
           ],
           "min_matches": 1,
           "points": 55,
@@ -178,18 +175,18 @@
       }
     },
     {
-      "id": "zh_b1_u01_s2",
+      "id": "zh_b1_u08_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你把门关上了吗？」有人问你。请大声回答。",
-        "ko": "'你把门关上了吗？'(문 닫았어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「因为忙，所以没休息吗？」有人问你。请大声回答。",
+        "ko": "'因为忙，所以没休息吗？'(바빠서 못 쉬었어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "yinwei_suoyi",
+          "label_ko": "因为...所以...",
           "min_occurrences": 1
         }
       ],

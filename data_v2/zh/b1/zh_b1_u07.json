@@ -1,57 +1,55 @@
 {
   "meta": {
-    "id": "zh_b1_u01",
+    "id": "zh_b1_u07",
     "domain": "language",
     "lang": "zh",
     "level": "b1",
-    "unit": 1,
-    "title": "把字句",
-    "title_ko": "把자문",
+    "unit": 7,
+    "title": "虽然...但是...",
+    "title_ko": "虽然...但是... (비록~하지만)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "「把」字句强调对某个具体事物做了处置，动词后常有结果。「我把作业写完了」。",
-    "explanation_ko": "'把'자문은 특정 사물을 어떻게 처리했는지를 강조하며, 동사 뒤에 결과가 오는 경우가 많습니다. '我把作业写完了'(저는 숙제를 다 했어요).",
+    "explanation_en": "「虽然...但是...」表示转折，前后意思相反。「虽然很累，但是很开心」。",
+    "explanation_ko": "'虽然...但是...'는 역접을 나타내며, 앞뒤 내용이 상반됩니다. '虽然很累，但是很开心'(비록 힘들지만 정말 즐거워요).",
     "key_expressions": [
       {
-        "en": "我把作业写完了。",
-        "ko": "저는 숙제를 다 했어요."
+        "en": "虽然很累，但是很开心。",
+        "ko": "비록 힘들지만 정말 즐거워요."
       },
       {
-        "en": "请把门关上。",
-        "ko": "문을 닫아주세요."
+        "en": "虽然下雨，但是我们还是去了。",
+        "ko": "비록 비가 오지만 우리는 그래도 갔어요."
       },
       {
-        "en": "他把杯子打破了。",
-        "ko": "그는 컵을 깨뜨렸어요."
+        "en": "虽然贵，但是质量很好。",
+        "ko": "비록 비싸지만 품질이 정말 좋아요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_b1_u01_w1",
+      "id": "zh_b1_u07_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「把」字句写出你对某个东西做了什么处理。",
-        "ko": "어떤 물건을 어떻게 처리했는지 '把'자문을 사용해서 써 보세요."
+        "en": "请用「虽然...但是...」写出转折的句子。",
+        "ko": "역접의 문장을 '虽然...但是...'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "suiran_danshi",
+          "label_ko": "虽然...但是...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "把"
-          ],
+          "criterion_ko": "'虽然'과 '但是'를 사용했는가",
+          "type": "pattern_regex",
+          "target": "虽然.{0,15}但是",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -77,31 +75,27 @@
       }
     },
     {
-      "id": "zh_b1_u01_w2",
+      "id": "zh_b1_u07_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你把作业写完了吗？」请回答这个问题。",
-        "ko": "'你把作业写完了吗？'(숙제 다 했어요?)라는 질문에 답을 써 보세요."
+        "en": "「今天累不累？」请用「虽然...但是...」回答。",
+        "ko": "'今天累不累？'(오늘 피곤해요?)라는 질문에 '虽然...但是...'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "suiran_danshi",
+          "label_ko": "虽然...但是...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把' 또는 '是/不是'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "把",
-            "是",
-            "不是"
-          ],
+          "criterion_ko": "'虽然'과 '但是'를 사용했는가",
+          "type": "pattern_regex",
+          "target": "虽然.{0,15}但是",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -127,28 +121,29 @@
       }
     },
     {
-      "id": "zh_b1_u01_s1",
+      "id": "zh_b1_u07_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「把」字句说出你处理了什么东西。",
-        "ko": "어떤 물건을 처리했는지 '把'자문을 사용해서 소리 내어 말해 보세요."
+        "en": "请大声用「虽然...但是...」说出一件事情。",
+        "ko": "'虽然...但是...'를 사용해서 소리 내어 어떤 일을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "suiran_danshi",
+          "label_ko": "虽然...但是...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把'를 사용했는가",
+          "criterion_ko": "'虽然' 또는 '但是'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "把"
+            "虽然",
+            "但是"
           ],
           "min_matches": 1,
           "points": 55,
@@ -178,29 +173,29 @@
       }
     },
     {
-      "id": "zh_b1_u01_s2",
+      "id": "zh_b1_u07_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你把门关上了吗？」有人问你。请大声回答。",
-        "ko": "'你把门关上了吗？'(문 닫았어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「虽然贵，但是你会买吗？」有人问你。请大声回答。",
+        "ko": "'虽然贵，但是你会买吗？'(비록 비싸지만 사시겠어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "suiran_danshi",
+          "label_ko": "虽然...但是...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'是' 또는 '不是'를 사용했는가",
+          "criterion_ko": "'会' 또는 '不会'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "是",
-            "不是"
+            "会",
+            "不会"
           ],
           "min_matches": 1,
           "points": 55,

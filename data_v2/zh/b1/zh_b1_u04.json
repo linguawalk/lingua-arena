@@ -1,56 +1,57 @@
 {
   "meta": {
-    "id": "zh_b1_u01",
+    "id": "zh_b1_u04",
     "domain": "language",
     "lang": "zh",
     "level": "b1",
-    "unit": 1,
-    "title": "把字句",
-    "title_ko": "把자문",
+    "unit": 4,
+    "title": "趋向补语",
+    "title_ko": "방향보어",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "「把」字句强调对某个具体事物做了处置，动词后常有结果。「我把作业写完了」。",
-    "explanation_ko": "'把'자문은 특정 사물을 어떻게 처리했는지를 강조하며, 동사 뒤에 결과가 오는 경우가 많습니다. '我把作业写完了'(저는 숙제를 다 했어요).",
+    "explanation_en": "趋向补语表示动作的方向，比如「站起来」「走出去」「拿出来」。",
+    "explanation_ko": "방향보어는 동작의 방향을 나타냅니다. 예: '站起来'(일어서다), '走出去'(걸어나가다), '拿出来'(꺼내다).",
     "key_expressions": [
       {
-        "en": "我把作业写完了。",
-        "ko": "저는 숙제를 다 했어요."
+        "en": "他突然站起来了。",
+        "ko": "그는 갑자기 일어섰어요."
       },
       {
-        "en": "请把门关上。",
-        "ko": "문을 닫아주세요."
+        "en": "我把书拿出来了。",
+        "ko": "책을 꺼냈어요."
       },
       {
-        "en": "他把杯子打破了。",
-        "ko": "그는 컵을 깨뜨렸어요."
+        "en": "她走出去了。",
+        "ko": "그녀는 걸어나갔어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_b1_u01_w1",
+      "id": "zh_b1_u04_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「把」字句写出你对某个东西做了什么处理。",
-        "ko": "어떤 물건을 어떻게 처리했는지 '把'자문을 사용해서 써 보세요."
+        "en": "请用「站起来」或「拿出来」写出一个动作。",
+        "ko": "'站起来' 또는 '拿出来'를 사용해서 어떤 동작을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "directional_complement",
+          "label_ko": "방향보어",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把'를 사용했는가",
+          "criterion_ko": "'起来' 또는 '出来'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "把"
+            "起来",
+            "出来"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,30 +78,29 @@
       }
     },
     {
-      "id": "zh_b1_u01_w2",
+      "id": "zh_b1_u04_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你把作业写完了吗？」请回答这个问题。",
-        "ko": "'你把作业写完了吗？'(숙제 다 했어요?)라는 질문에 답을 써 보세요."
+        "en": "「他站起来了吗？」请回答这个问题。",
+        "ko": "'他站起来了吗？'(그가 일어섰어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "directional_complement",
+          "label_ko": "방향보어",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把' 또는 '是/不是'를 사용했는가",
+          "criterion_ko": "'是' 또는 '没有'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "把",
             "是",
-            "不是"
+            "没有"
           ],
           "min_matches": 1,
           "points": 60,
@@ -127,28 +127,29 @@
       }
     },
     {
-      "id": "zh_b1_u01_s1",
+      "id": "zh_b1_u04_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「把」字句说出你处理了什么东西。",
-        "ko": "어떤 물건을 처리했는지 '把'자문을 사용해서 소리 내어 말해 보세요."
+        "en": "请大声用方向补语说出一个动作。",
+        "ko": "방향보어를 사용해서 소리 내어 어떤 동작을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "directional_complement",
+          "label_ko": "방향보어",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把'를 사용했는가",
+          "criterion_ko": "'起来' 또는 '出来'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "把"
+            "起来",
+            "出来"
           ],
           "min_matches": 1,
           "points": 55,
@@ -178,29 +179,29 @@
       }
     },
     {
-      "id": "zh_b1_u01_s2",
+      "id": "zh_b1_u04_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你把门关上了吗？」有人问你。请大声回答。",
-        "ko": "'你把门关上了吗？'(문 닫았어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「她走出去了吗？」有人问你。请大声回答。",
+        "ko": "'她走出去了吗？'(그녀가 걸어나갔어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "directional_complement",
+          "label_ko": "방향보어",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'是' 또는 '不是'를 사용했는가",
+          "criterion_ko": "'是' 또는 '没有'를 사용했는가",
           "type": "keyword_match",
           "target": [
             "是",
-            "不是"
+            "没有"
           ],
           "min_matches": 1,
           "points": 55,

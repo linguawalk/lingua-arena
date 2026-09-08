@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "zh_b1_u01",
+    "id": "zh_b1_u02",
     "domain": "language",
     "lang": "zh",
     "level": "b1",
-    "unit": 1,
-    "title": "把字句",
-    "title_ko": "把자문",
+    "unit": 2,
+    "title": "被字句",
+    "title_ko": "被자문",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "「把」字句强调对某个具体事物做了处置，动词后常有结果。「我把作业写完了」。",
-    "explanation_ko": "'把'자문은 특정 사물을 어떻게 처리했는지를 강조하며, 동사 뒤에 결과가 오는 경우가 많습니다. '我把作业写完了'(저는 숙제를 다 했어요).",
+    "explanation_en": "「被」字句表示被动，强调主语受到了动作的影响。「杯子被打破了」。",
+    "explanation_ko": "'被'자문은 수동을 나타내며, 주어가 동작의 영향을 받았음을 강조합니다. '杯子被打破了'(컵이 깨졌어요).",
     "key_expressions": [
       {
-        "en": "我把作业写完了。",
-        "ko": "저는 숙제를 다 했어요."
+        "en": "杯子被打破了。",
+        "ko": "컵이 깨졌어요."
       },
       {
-        "en": "请把门关上。",
-        "ko": "문을 닫아주세요."
+        "en": "我被老师批评了。",
+        "ko": "저는 선생님께 혼났어요."
       },
       {
-        "en": "他把杯子打破了。",
-        "ko": "그는 컵을 깨뜨렸어요."
+        "en": "这本书被很多人读过。",
+        "ko": "이 책은 많은 사람이 읽었어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_b1_u01_w1",
+      "id": "zh_b1_u02_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「把」字句写出你对某个东西做了什么处理。",
-        "ko": "어떤 물건을 어떻게 처리했는지 '把'자문을 사용해서 써 보세요."
+        "en": "请用「被」字句写出被别人做了什么的经历。",
+        "ko": "누군가에게 무언가 당했던 경험을 '被'자문을 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "bei",
+          "label_ko": "被자문",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把'를 사용했는가",
+          "criterion_ko": "'被'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "把"
+            "被"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,28 +77,28 @@
       }
     },
     {
-      "id": "zh_b1_u01_w2",
+      "id": "zh_b1_u02_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你把作业写完了吗？」请回答这个问题。",
-        "ko": "'你把作业写完了吗？'(숙제 다 했어요?)라는 질문에 답을 써 보세요."
+        "en": "「你被老师批评过吗？」请回答这个问题。",
+        "ko": "'你被老师批评过吗？'(선생님께 혼난 적 있어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "bei",
+          "label_ko": "被자문",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把' 또는 '是/不是'를 사용했는가",
+          "criterion_ko": "'被' 또는 '是/不是'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "把",
+            "被",
             "是",
             "不是"
           ],
@@ -127,28 +127,28 @@
       }
     },
     {
-      "id": "zh_b1_u01_s1",
+      "id": "zh_b1_u02_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「把」字句说出你处理了什么东西。",
-        "ko": "어떤 물건을 처리했는지 '把'자문을 사용해서 소리 내어 말해 보세요."
+        "en": "请大声用「被」字句说出一件事情。",
+        "ko": "'被'자문을 사용해서 소리 내어 어떤 일을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "bei",
+          "label_ko": "被자문",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把'를 사용했는가",
+          "criterion_ko": "'被'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "把"
+            "被"
           ],
           "min_matches": 1,
           "points": 55,
@@ -178,18 +178,18 @@
       }
     },
     {
-      "id": "zh_b1_u01_s2",
+      "id": "zh_b1_u02_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你把门关上了吗？」有人问你。请大声回答。",
-        "ko": "'你把门关上了吗？'(문 닫았어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「这本书被很多人读过吗？」有人问你。请大声回答。",
+        "ko": "'这本书被很多人读过吗？'(이 책은 많은 사람이 읽었어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "bei",
+          "label_ko": "被자문",
           "min_occurrences": 1
         }
       ],

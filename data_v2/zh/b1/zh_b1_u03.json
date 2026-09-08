@@ -1,56 +1,57 @@
 {
   "meta": {
-    "id": "zh_b1_u01",
+    "id": "zh_b1_u03",
     "domain": "language",
     "lang": "zh",
     "level": "b1",
-    "unit": 1,
-    "title": "把字句",
-    "title_ko": "把자문",
+    "unit": 3,
+    "title": "结果补语",
+    "title_ko": "결과보어",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "「把」字句强调对某个具体事物做了处置，动词后常有结果。「我把作业写完了」。",
-    "explanation_ko": "'把'자문은 특정 사물을 어떻게 처리했는지를 강조하며, 동사 뒤에 결과가 오는 경우가 많습니다. '我把作业写完了'(저는 숙제를 다 했어요).",
+    "explanation_en": "结果补语放在动词后，表示动作的结果。「听懂」「吃完」「看到」。",
+    "explanation_ko": "결과보어는 동사 뒤에 붙어서 동작의 결과를 나타냅니다. '听懂'(듣고 이해하다), '吃完'(다 먹다), '看到'(보다/발견하다).",
     "key_expressions": [
       {
-        "en": "我把作业写完了。",
-        "ko": "저는 숙제를 다 했어요."
+        "en": "我听懂了老师的话。",
+        "ko": "선생님 말씀을 알아들었어요."
       },
       {
-        "en": "请把门关上。",
-        "ko": "문을 닫아주세요."
+        "en": "我吃完了饭。",
+        "ko": "밥을 다 먹었어요."
       },
       {
-        "en": "他把杯子打破了。",
-        "ko": "그는 컵을 깨뜨렸어요."
+        "en": "我在路上看到他了。",
+        "ko": "길에서 그를 봤어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_b1_u01_w1",
+      "id": "zh_b1_u03_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「把」字句写出你对某个东西做了什么处理。",
-        "ko": "어떤 물건을 어떻게 처리했는지 '把'자문을 사용해서 써 보세요."
+        "en": "请用「听懂」或「吃完」写出一件事情的完成情况。",
+        "ko": "'听懂' 또는 '吃完'을 사용해서 완료된 일을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "result_complement",
+          "label_ko": "결과보어",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把'를 사용했는가",
+          "criterion_ko": "'懂' 또는 '完'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "把"
+            "懂",
+            "完"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,30 +78,29 @@
       }
     },
     {
-      "id": "zh_b1_u01_w2",
+      "id": "zh_b1_u03_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你把作业写完了吗？」请回答这个问题。",
-        "ko": "'你把作业写完了吗？'(숙제 다 했어요?)라는 질문에 답을 써 보세요."
+        "en": "「你听懂老师的话了吗？」请回答这个问题。",
+        "ko": "'你听懂老师的话了吗？'(선생님 말씀 알아들었어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "result_complement",
+          "label_ko": "결과보어",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把' 또는 '是/不是'를 사용했는가",
+          "criterion_ko": "'懂' 또는 '没'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "把",
-            "是",
-            "不是"
+            "懂",
+            "没"
           ],
           "min_matches": 1,
           "points": 60,
@@ -127,28 +127,29 @@
       }
     },
     {
-      "id": "zh_b1_u01_s1",
+      "id": "zh_b1_u03_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「把」字句说出你处理了什么东西。",
-        "ko": "어떤 물건을 처리했는지 '把'자문을 사용해서 소리 내어 말해 보세요."
+        "en": "请大声说出你完成了什么事情。",
+        "ko": "완료한 일에 대해 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "result_complement",
+          "label_ko": "결과보어",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'把'를 사용했는가",
+          "criterion_ko": "'完' 또는 '懂'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "把"
+            "完",
+            "懂"
           ],
           "min_matches": 1,
           "points": 55,
@@ -178,29 +179,29 @@
       }
     },
     {
-      "id": "zh_b1_u01_s2",
+      "id": "zh_b1_u03_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你把门关上了吗？」有人问你。请大声回答。",
-        "ko": "'你把门关上了吗？'(문 닫았어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「你吃完饭了吗？」有人问你。请大声回答。",
+        "ko": "'你吃完饭了吗？'(밥 다 먹었어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "ba",
-          "label_ko": "把자문",
+          "id": "result_complement",
+          "label_ko": "결과보어",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'是' 또는 '不是'를 사용했는가",
+          "criterion_ko": "'吃完' 또는 '没'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "是",
-            "不是"
+            "吃完",
+            "没"
           ],
           "min_matches": 1,
           "points": 55,
