@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "fr_a2_u01",
+    "id": "fr_a2_u10",
     "domain": "language",
     "lang": "fr",
     "level": "a2",
-    "unit": 1,
-    "title": "Expériences passées",
-    "title_ko": "과거 경험 (심화)",
+    "unit": 10,
+    "title": "Préférences alimentaires",
+    "title_ko": "음식 취향",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "Pour parler d'une expérience déjà vécue, on utilise « J'ai déjà... » ou « Je n'ai jamais... ».",
-    "explanation_ko": "이미 경험한 것을 말할 때는 'J'ai déjà...'(저는 ~해본 적이 있어요), 경험이 없을 때는 'Je n'ai jamais...'(저는 한 번도 ~한 적이 없어요)를 씁니다.",
+    "explanation_en": "Pour dire ce qu'on préfère, on utilise « Je préfère... à... ». Pour dire ce qu'on ne peut pas manger, on utilise « Je ne peux pas manger... ».",
+    "explanation_ko": "선호하는 것을 말할 때는 'Je préfère... à...'(저는 ~보다 ~을 더 좋아해요), 못 먹는 것을 말할 때는 'Je ne peux pas manger...'(저는 ~을 못 먹어요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "J'ai déjà visité la France.",
-        "ko": "저는 프랑스에 가본 적이 있어요."
+        "en": "Je préfère la cuisine française à la cuisine italienne.",
+        "ko": "저는 이탈리아 요리보다 프랑스 요리를 더 좋아해요."
       },
       {
-        "en": "Je n'ai jamais mangé d'escargots.",
-        "ko": "저는 달팽이 요리를 먹어본 적이 없어요."
+        "en": "Je ne peux pas manger de fruits de mer.",
+        "ko": "저는 해산물을 못 먹어요."
       },
       {
-        "en": "As-tu déjà essayé le ski ?",
-        "ko": "스키 타본 적 있어요?"
+        "en": "J'adore les sucreries.",
+        "ko": "저는 단 음식을 정말 좋아해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "fr_a2_u01_w1",
+      "id": "fr_a2_u10_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Écrivez une expérience que vous avez déjà vécue en utilisant « J'ai déjà... ».",
-        "ko": "이미 경험한 것을 'J'ai déjà...'를 사용해서 써 보세요."
+        "en": "Écrivez une préférence alimentaire en utilisant « Je préfère... à... ».",
+        "ko": "음식 취향을 'Je préfère... à...'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "already_done",
-          "label_ko": "이미 경험 표현",
+          "id": "food_preference",
+          "label_ko": "음식 취향 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'déjà'를 사용했는가",
+          "criterion_ko": "'préfère'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "déjà"
+            "préfère"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,29 +77,28 @@
       }
     },
     {
-      "id": "fr_a2_u01_w2",
+      "id": "fr_a2_u10_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Avez-vous déjà essayé le ski ? » Répondez à cette question.",
-        "ko": "'Avez-vous déjà essayé le ski ?'(스키 타본 적 있어요?)라는 질문에 답을 써 보세요."
+        "en": "« Y a-t-il quelque chose que vous ne pouvez pas manger ? » Répondez à cette question.",
+        "ko": "'Y a-t-il quelque chose que vous ne pouvez pas manger ?'(못 먹는 음식 있어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "dislike_food",
+          "label_ko": "못 먹는 음식 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'déjà' 또는 'jamais'를 사용했는가",
+          "criterion_ko": "'ne peux pas manger'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "déjà",
-            "jamais"
+            "ne peux pas manger"
           ],
           "min_matches": 1,
           "points": 60,
@@ -126,28 +125,28 @@
       }
     },
     {
-      "id": "fr_a2_u01_s1",
+      "id": "fr_a2_u10_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Parlez à voix haute d'une expérience que vous n'avez jamais vécue.",
-        "ko": "소리 내어 한 번도 해본 적 없는 경험에 대해 말해 보세요."
+        "en": "Parlez de votre préférence alimentaire à voix haute.",
+        "ko": "소리 내어 음식 취향에 대해 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "never_done",
-          "label_ko": "경험 없음 표현",
+          "id": "food_preference",
+          "label_ko": "음식 취향 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'jamais'를 사용했는가",
+          "criterion_ko": "'préfère'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "jamais"
+            "préfère"
           ],
           "min_matches": 1,
           "points": 55,
@@ -177,18 +176,18 @@
       }
     },
     {
-      "id": "fr_a2_u01_s2",
+      "id": "fr_a2_u10_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Vous avez déjà mangé des escargots ? » On vous pose cette question. Répondez à voix haute.",
-        "ko": "'Vous avez déjà mangé des escargots ?'(달팽이 요리 먹어본 적 있어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "« Vous aimez les fruits de mer ? » On vous pose cette question. Répondez à voix haute.",
+        "ko": "'Vous aimez les fruits de mer ?'(해산물 좋아해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "seafood",
+          "label_ko": "해산물 표현",
           "min_occurrences": 1
         }
       ],

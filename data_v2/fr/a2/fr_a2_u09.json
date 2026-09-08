@@ -1,56 +1,57 @@
 {
   "meta": {
-    "id": "fr_a2_u01",
+    "id": "fr_a2_u09",
     "domain": "language",
     "lang": "fr",
     "level": "a2",
-    "unit": 1,
-    "title": "Expériences passées",
-    "title_ko": "과거 경험 (심화)",
+    "unit": 9,
+    "title": "Commander au restaurant (détail)",
+    "title_ko": "식당 상세 주문",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "Pour parler d'une expérience déjà vécue, on utilise « J'ai déjà... » ou « Je n'ai jamais... ».",
-    "explanation_ko": "이미 경험한 것을 말할 때는 'J'ai déjà...'(저는 ~해본 적이 있어요), 경험이 없을 때는 'Je n'ai jamais...'(저는 한 번도 ~한 적이 없어요)를 씁니다.",
+    "explanation_en": "Pour préciser une commande, on utilise « sans... » (sans oignons). Pour signaler une allergie, on utilise « Je suis allergique à... ».",
+    "explanation_ko": "주문을 구체적으로 말할 때는 'sans...'(~빼고), 알레르기를 알릴 때는 'Je suis allergique à...'(저는 ~알레르기가 있어요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "J'ai déjà visité la France.",
-        "ko": "저는 프랑스에 가본 적이 있어요."
+        "en": "Sans oignons, s'il vous plaît.",
+        "ko": "양파 빼주세요."
       },
       {
-        "en": "Je n'ai jamais mangé d'escargots.",
-        "ko": "저는 달팽이 요리를 먹어본 적이 없어요."
+        "en": "Je suis allergique aux cacahuètes.",
+        "ko": "저는 땅콩 알레르기가 있어요."
       },
       {
-        "en": "As-tu déjà essayé le ski ?",
-        "ko": "스키 타본 적 있어요?"
+        "en": "Pouvez-vous faire moins épicé ?",
+        "ko": "덜 맵게 해주실 수 있어요?"
       }
     ]
   },
   "tasks": [
     {
-      "id": "fr_a2_u01_w1",
+      "id": "fr_a2_u09_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Écrivez une expérience que vous avez déjà vécue en utilisant « J'ai déjà... ».",
-        "ko": "이미 경험한 것을 'J'ai déjà...'를 사용해서 써 보세요."
+        "en": "Écrivez ce que vous ne voulez pas manger en utilisant « sans... ».",
+        "ko": "못 먹는 것을 'sans...'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "already_done",
-          "label_ko": "이미 경험 표현",
+          "id": "order_detail",
+          "label_ko": "주문 세부사항 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'déjà'를 사용했는가",
+          "criterion_ko": "'sans'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "déjà"
+            "sans",
+            "Sans"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,29 +78,28 @@
       }
     },
     {
-      "id": "fr_a2_u01_w2",
+      "id": "fr_a2_u09_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Avez-vous déjà essayé le ski ? » Répondez à cette question.",
-        "ko": "'Avez-vous déjà essayé le ski ?'(스키 타본 적 있어요?)라는 질문에 답을 써 보세요."
+        "en": "« Êtes-vous allergique à quelque chose ? » Répondez à cette question.",
+        "ko": "'Êtes-vous allergique à quelque chose ?'(뭐 알레르기 있어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "allergy",
+          "label_ko": "알레르기 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'déjà' 또는 'jamais'를 사용했는가",
+          "criterion_ko": "'allergique'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "déjà",
-            "jamais"
+            "allergique"
           ],
           "min_matches": 1,
           "points": 60,
@@ -126,28 +126,28 @@
       }
     },
     {
-      "id": "fr_a2_u01_s1",
+      "id": "fr_a2_u09_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Parlez à voix haute d'une expérience que vous n'avez jamais vécue.",
-        "ko": "소리 내어 한 번도 해본 적 없는 경험에 대해 말해 보세요."
+        "en": "Dites à voix haute votre allergie au restaurant.",
+        "ko": "식당에서 소리 내어 알레르기에 대해 전해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "never_done",
-          "label_ko": "경험 없음 표현",
+          "id": "allergy",
+          "label_ko": "알레르기 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'jamais'를 사용했는가",
+          "criterion_ko": "'allergique'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "jamais"
+            "allergique"
           ],
           "min_matches": 1,
           "points": 55,
@@ -177,31 +177,28 @@
       }
     },
     {
-      "id": "fr_a2_u01_s2",
+      "id": "fr_a2_u09_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Vous avez déjà mangé des escargots ? » On vous pose cette question. Répondez à voix haute.",
-        "ko": "'Vous avez déjà mangé des escargots ?'(달팽이 요리 먹어본 적 있어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "« Voulez-vous épicé ou pas épicé ? » Le serveur vous demande. Répondez à voix haute.",
+        "ko": "'Voulez-vous épicé ou pas épicé ?'(매운 걸로 드릴까요, 안 매운 걸로 드릴까요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "experience_answer",
-          "label_ko": "경험 답변 표현",
+          "id": "spice_level",
+          "label_ko": "맵기 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Oui' 또는 'Non'을 사용했는가",
+          "criterion_ko": "'épicé'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Oui",
-            "oui",
-            "Non",
-            "non"
+            "épicé"
           ],
           "min_matches": 1,
           "points": 55,
