@@ -1,55 +1,55 @@
 {
   "meta": {
-    "id": "zh_b2_u01",
+    "id": "zh_b2_u08",
     "domain": "language",
     "lang": "zh",
     "level": "b2",
-    "unit": 1,
-    "title": "之所以...是因为...",
-    "title_ko": "之所以...是因为... (~한 이유는 ~때문이다)",
+    "unit": 8,
+    "title": "即使...也...",
+    "title_ko": "即使...也... (설령 ~하더라도)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "「之所以...是因为...」强调结果先出现，再解释原因，比「因为...所以...」更正式。「我之所以迟到，是因为堵车了」。",
-    "explanation_ko": "'之所以...是因为...'는 결과를 먼저 말하고 원인을 설명하며, '因为...所以...'보다 더 격식 있습니다. '我之所以迟到，是因为堵车了'(제가 지각한 이유는 차가 막혔기 때문이에요).",
+    "explanation_en": "「即使...也...」表示假设的让步，即使某种极端情况发生，结果也不变。「即使失败了，也不要放弃」。",
+    "explanation_ko": "'即使...也...'는 가정의 양보를 나타내며, 극단적인 상황이 일어나도 결과가 변하지 않음을 나타냅니다. '即使失败了，也不要放弃'(설령 실패하더라도 포기하지 마세요).",
     "key_expressions": [
       {
-        "en": "我之所以迟到，是因为堵车了。",
-        "ko": "제가 지각한 이유는 차가 막혔기 때문이에요."
+        "en": "即使失败了，也不要放弃。",
+        "ko": "설령 실패하더라도 포기하지 마세요."
       },
       {
-        "en": "他之所以成功，是因为他很努力。",
-        "ko": "그가 성공한 이유는 노력했기 때문이에요."
+        "en": "即使很忙，我也会去。",
+        "ko": "설령 바쁘더라도 갈 거예요."
       },
       {
-        "en": "我之所以学汉语，是因为喜欢中国文化。",
-        "ko": "제가 중국어를 배우는 이유는 중국 문화를 좋아하기 때문이에요."
+        "en": "即使下雨，比赛也照常进行。",
+        "ko": "설령 비가 오더라도 경기는 예정대로 진행돼요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_b2_u01_w1",
+      "id": "zh_b2_u08_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「之所以...是因为...」写出某个结果和原因。",
-        "ko": "결과와 원인을 '之所以...是因为...'를 사용해서 써 보세요."
+        "en": "请用「即使...也...」写出一个假设的让步。",
+        "ko": "가정의 양보를 '即使...也...'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "jishi_ye",
+          "label_ko": "即使...也...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'之所以'와 '是因为'를 사용했는가",
+          "criterion_ko": "'即使'와 '也'를 사용했는가",
           "type": "pattern_regex",
-          "target": "之所以.{0,20}是因为",
+          "target": "即使.{0,15}也",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -75,28 +75,28 @@
       }
     },
     {
-      "id": "zh_b2_u01_w2",
+      "id": "zh_b2_u08_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你为什么学汉语？」请用「之所以...是因为...」回答。",
-        "ko": "'你为什么学汉语？'(왜 중국어를 배우세요?)라는 질문에 '之所以...是因为...'를 사용해서 답을 써 보세요."
+        "en": "「很忙的话，你还去吗？」请用「即使...也...」回答。",
+        "ko": "'很忙的话，你还去吗？'(바쁘면 그래도 가요?)라는 질문에 '即使...也...'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "jishi_ye",
+          "label_ko": "即使...也...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'之所以'를 사용했는가",
+          "criterion_ko": "'即使'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "之所以"
+            "即使"
           ],
           "min_matches": 1,
           "points": 60,
@@ -123,28 +123,29 @@
       }
     },
     {
-      "id": "zh_b2_u01_s1",
+      "id": "zh_b2_u08_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「之所以...是因为...」说出某个结果和原因。",
-        "ko": "'之所以...是因为...'를 사용해서 소리 내어 결과와 원인을 말해 보세요."
+        "en": "请大声用「即使...也...」说出一个假设的让步。",
+        "ko": "'即使...也...'를 사용해서 소리 내어 가정의 양보를 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "jishi_ye",
+          "label_ko": "即使...也...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'之所以'를 사용했는가",
+          "criterion_ko": "'即使' 또는 '也'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "之所以"
+            "即使",
+            "也"
           ],
           "min_matches": 1,
           "points": 55,
@@ -174,29 +175,29 @@
       }
     },
     {
-      "id": "zh_b2_u01_s2",
+      "id": "zh_b2_u08_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「他之所以成功，是因为努力吗？」有人问你。请大声回答。",
-        "ko": "'他之所以成功，是因为努力吗？'(그가 성공한 이유가 노력 때문이에요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「即使失败了，你也不会放弃吗？」有人问你。请大声回答。",
+        "ko": "'即使失败了，你也不会放弃吗？'(설령 실패하더라도 포기 안 할 거예요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "jishi_ye",
+          "label_ko": "即使...也...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'是' 또는 '不是'를 사용했는가",
+          "criterion_ko": "'会' 또는 '不会'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "是",
-            "不是"
+            "会",
+            "不会"
           ],
           "min_matches": 1,
           "points": 55,

@@ -1,55 +1,55 @@
 {
   "meta": {
-    "id": "zh_b2_u01",
+    "id": "zh_b2_u07",
     "domain": "language",
     "lang": "zh",
     "level": "b2",
-    "unit": 1,
-    "title": "之所以...是因为...",
-    "title_ko": "之所以...是因为... (~한 이유는 ~때문이다)",
+    "unit": 7,
+    "title": "不管...都...",
+    "title_ko": "不管...都... (~에 상관없이)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "「之所以...是因为...」强调结果先出现，再解释原因，比「因为...所以...」更正式。「我之所以迟到，是因为堵车了」。",
-    "explanation_ko": "'之所以...是因为...'는 결과를 먼저 말하고 원인을 설명하며, '因为...所以...'보다 더 격식 있습니다. '我之所以迟到，是因为堵车了'(제가 지각한 이유는 차가 막혔기 때문이에요).",
+    "explanation_en": "「不管...都...」和「无论...都...」意思相近，「不管」更口语化。「不管你说什么，我都不会改变主意」。",
+    "explanation_ko": "'不管...都...'는 '无论...都...'와 의미가 비슷하며, '不管'가 더 구어체입니다. '不管你说什么，我都不会改变主意'(당신이 뭐라고 하든 저는 마음을 안 바꿔요).",
     "key_expressions": [
       {
-        "en": "我之所以迟到，是因为堵车了。",
-        "ko": "제가 지각한 이유는 차가 막혔기 때문이에요."
+        "en": "不管你说什么，我都不会改变主意。",
+        "ko": "당신이 뭐라고 하든 저는 마음을 안 바꿔요."
       },
       {
-        "en": "他之所以成功，是因为他很努力。",
-        "ko": "그가 성공한 이유는 노력했기 때문이에요."
+        "en": "不管多难，我都要试试。",
+        "ko": "아무리 어려워도 시도해볼 거예요."
       },
       {
-        "en": "我之所以学汉语，是因为喜欢中国文化。",
-        "ko": "제가 중국어를 배우는 이유는 중국 문화를 좋아하기 때문이에요."
+        "en": "不管谁来，我都会开门。",
+        "ko": "누가 오든 문을 열어줄 거예요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_b2_u01_w1",
+      "id": "zh_b2_u07_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「之所以...是因为...」写出某个结果和原因。",
-        "ko": "결과와 원인을 '之所以...是因为...'를 사용해서 써 보세요."
+        "en": "请用「不管...都...」写出无论如何都不变的态度。",
+        "ko": "어떤 상황이든 변하지 않는 태도를 '不管...都...'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "buguan_dou",
+          "label_ko": "不管...都...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'之所以'와 '是因为'를 사용했는가",
+          "criterion_ko": "'不管'과 '都'를 사용했는가",
           "type": "pattern_regex",
-          "target": "之所以.{0,20}是因为",
+          "target": "不管.{0,15}都",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -75,28 +75,28 @@
       }
     },
     {
-      "id": "zh_b2_u01_w2",
+      "id": "zh_b2_u07_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你为什么学汉语？」请用「之所以...是因为...」回答。",
-        "ko": "'你为什么学汉语？'(왜 중국어를 배우세요?)라는 질문에 '之所以...是因为...'를 사용해서 답을 써 보세요."
+        "en": "「你会改变主意吗？」请用「不管...都...」回答。",
+        "ko": "'你会改变主意吗？'(마음을 바꿀 거예요?)라는 질문에 '不管...都...'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "buguan_dou",
+          "label_ko": "不管...都...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'之所以'를 사용했는가",
+          "criterion_ko": "'不管'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "之所以"
+            "不管"
           ],
           "min_matches": 1,
           "points": 60,
@@ -123,28 +123,29 @@
       }
     },
     {
-      "id": "zh_b2_u01_s1",
+      "id": "zh_b2_u07_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「之所以...是因为...」说出某个结果和原因。",
-        "ko": "'之所以...是因为...'를 사용해서 소리 내어 결과와 원인을 말해 보세요."
+        "en": "请大声用「不管...都...」说出不变的态度。",
+        "ko": "'不管...都...'를 사용해서 소리 내어 변하지 않는 태도를 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "buguan_dou",
+          "label_ko": "不管...都...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'之所以'를 사용했는가",
+          "criterion_ko": "'不管' 또는 '都'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "之所以"
+            "不管",
+            "都"
           ],
           "min_matches": 1,
           "points": 55,
@@ -174,29 +175,29 @@
       }
     },
     {
-      "id": "zh_b2_u01_s2",
+      "id": "zh_b2_u07_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「他之所以成功，是因为努力吗？」有人问你。请大声回答。",
-        "ko": "'他之所以成功，是因为努力吗？'(그가 성공한 이유가 노력 때문이에요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「不管多难，你都会试试吗？」有人问你。请大声回答。",
+        "ko": "'不管多难，你都会试试吗？'(아무리 어려워도 시도해볼 거예요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "buguan_dou",
+          "label_ko": "不管...都...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'是' 또는 '不是'를 사용했는가",
+          "criterion_ko": "'会' 또는 '不会'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "是",
-            "不是"
+            "会",
+            "不会"
           ],
           "min_matches": 1,
           "points": 55,

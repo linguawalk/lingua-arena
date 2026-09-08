@@ -1,55 +1,55 @@
 {
   "meta": {
-    "id": "zh_b2_u01",
+    "id": "zh_b2_u10",
     "domain": "language",
     "lang": "zh",
     "level": "b2",
-    "unit": 1,
-    "title": "之所以...是因为...",
-    "title_ko": "之所以...是因为... (~한 이유는 ~때문이다)",
+    "unit": 10,
+    "title": "与其...不如...",
+    "title_ko": "与其...不如... (~하느니 ~하는 게 낫다)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "「之所以...是因为...」强调结果先出现，再解释原因，比「因为...所以...」更正式。「我之所以迟到，是因为堵车了」。",
-    "explanation_ko": "'之所以...是因为...'는 결과를 먼저 말하고 원인을 설명하며, '因为...所以...'보다 더 격식 있습니다. '我之所以迟到，是因为堵车了'(제가 지각한 이유는 차가 막혔기 때문이에요).",
+    "explanation_en": "「与其...不如...」表示比较两个选择，后者更好。「与其等着，不如自己去做」。",
+    "explanation_ko": "'与其...不如...'는 두 선택지를 비교하며, 후자가 더 낫다는 것을 나타냅니다. '与其等着，不如自己去做'(기다리느니 직접 하는 게 나아요).",
     "key_expressions": [
       {
-        "en": "我之所以迟到，是因为堵车了。",
-        "ko": "제가 지각한 이유는 차가 막혔기 때문이에요."
+        "en": "与其等着，不如自己去做。",
+        "ko": "기다리느니 직접 하는 게 나아요."
       },
       {
-        "en": "他之所以成功，是因为他很努力。",
-        "ko": "그가 성공한 이유는 노력했기 때문이에요."
+        "en": "与其抱怨，不如想办法解决。",
+        "ko": "불평하느니 해결책을 생각하는 게 나아요."
       },
       {
-        "en": "我之所以学汉语，是因为喜欢中国文化。",
-        "ko": "제가 중국어를 배우는 이유는 중국 문화를 좋아하기 때문이에요."
+        "en": "与其在家看电视，不如出去运动。",
+        "ko": "집에서 TV 보느니 나가서 운동하는 게 나아요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_b2_u01_w1",
+      "id": "zh_b2_u10_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「之所以...是因为...」写出某个结果和原因。",
-        "ko": "결과와 원인을 '之所以...是因为...'를 사용해서 써 보세요."
+        "en": "请用「与其...不如...」比较两个选择。",
+        "ko": "두 선택지를 '与其...不如...'를 사용해서 비교해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "yuqi_buru",
+          "label_ko": "与其...不如...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'之所以'와 '是因为'를 사용했는가",
+          "criterion_ko": "'与其'와 '不如'를 사용했는가",
           "type": "pattern_regex",
-          "target": "之所以.{0,20}是因为",
+          "target": "与其.{0,15}不如",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -75,28 +75,28 @@
       }
     },
     {
-      "id": "zh_b2_u01_w2",
+      "id": "zh_b2_u10_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你为什么学汉语？」请用「之所以...是因为...」回答。",
-        "ko": "'你为什么学汉语？'(왜 중국어를 배우세요?)라는 질문에 '之所以...是因为...'를 사용해서 답을 써 보세요."
+        "en": "「周末在家还是出去？」请用「与其...不如...」回答。",
+        "ko": "'周末在家还是出去？'(주말에 집에 있어요, 아니면 나가요?)라는 질문에 '与其...不如...'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "yuqi_buru",
+          "label_ko": "与其...不如...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'之所以'를 사용했는가",
+          "criterion_ko": "'与其'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "之所以"
+            "与其"
           ],
           "min_matches": 1,
           "points": 60,
@@ -123,28 +123,29 @@
       }
     },
     {
-      "id": "zh_b2_u01_s1",
+      "id": "zh_b2_u10_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「之所以...是因为...」说出某个结果和原因。",
-        "ko": "'之所以...是因为...'를 사용해서 소리 내어 결과와 원인을 말해 보세요."
+        "en": "请大声用「与其...不如...」比较两个选择。",
+        "ko": "'与其...不如...'를 사용해서 소리 내어 두 선택지를 비교해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "yuqi_buru",
+          "label_ko": "与其...不如...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'之所以'를 사용했는가",
+          "criterion_ko": "'与其' 또는 '不如'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "之所以"
+            "与其",
+            "不如"
           ],
           "min_matches": 1,
           "points": 55,
@@ -174,29 +175,29 @@
       }
     },
     {
-      "id": "zh_b2_u01_s2",
+      "id": "zh_b2_u10_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「他之所以成功，是因为努力吗？」有人问你。请大声回答。",
-        "ko": "'他之所以成功，是因为努力吗？'(그가 성공한 이유가 노력 때문이에요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「与其抱怨，不如想办法解决，对吗？」有人问你。请大声回答。",
+        "ko": "'与其抱怨，不如想办法解决，对吗？'(불평하느니 해결책을 생각하는 게 맞죠?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "yuqi_buru",
+          "label_ko": "与其...不如...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'是' 또는 '不是'를 사용했는가",
+          "criterion_ko": "'对' 또는 '不对'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "是",
-            "不是"
+            "对",
+            "不对"
           ],
           "min_matches": 1,
           "points": 55,

@@ -1,55 +1,55 @@
 {
   "meta": {
-    "id": "zh_b2_u01",
+    "id": "zh_b2_u09",
     "domain": "language",
     "lang": "zh",
     "level": "b2",
-    "unit": 1,
-    "title": "之所以...是因为...",
-    "title_ko": "之所以...是因为... (~한 이유는 ~때문이다)",
+    "unit": 9,
+    "title": "哪怕...也...",
+    "title_ko": "哪怕...也... (설령 ~라도, 구어체)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "「之所以...是因为...」强调结果先出现，再解释原因，比「因为...所以...」更正式。「我之所以迟到，是因为堵车了」。",
-    "explanation_ko": "'之所以...是因为...'는 결과를 먼저 말하고 원인을 설명하며, '因为...所以...'보다 더 격식 있습니다. '我之所以迟到，是因为堵车了'(제가 지각한 이유는 차가 막혔기 때문이에요).",
+    "explanation_en": "「哪怕...也...」与「即使...也...」意思相近，但更口语化、更强调极端情况。「哪怕再累，我也要完成」。",
+    "explanation_ko": "'哪怕...也...'는 '即使...也...'와 의미가 비슷하지만, 더 구어체이며 극단적인 상황을 더 강조합니다. '哪怕再累，我也要完成'(아무리 피곤해도 끝내야 해요).",
     "key_expressions": [
       {
-        "en": "我之所以迟到，是因为堵车了。",
-        "ko": "제가 지각한 이유는 차가 막혔기 때문이에요."
+        "en": "哪怕再累，我也要完成。",
+        "ko": "아무리 피곤해도 끝내야 해요."
       },
       {
-        "en": "他之所以成功，是因为他很努力。",
-        "ko": "그가 성공한 이유는 노력했기 때문이에요."
+        "en": "哪怕一分钱，我也不会浪费。",
+        "ko": "단돈 1위안이라도 낭비 안 해요."
       },
       {
-        "en": "我之所以学汉语，是因为喜欢中国文化。",
-        "ko": "제가 중국어를 배우는 이유는 중국 문화를 좋아하기 때문이에요."
+        "en": "哪怕全世界都反对，我也要做。",
+        "ko": "온 세상이 반대해도 저는 할 거예요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_b2_u01_w1",
+      "id": "zh_b2_u09_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「之所以...是因为...」写出某个结果和原因。",
-        "ko": "결과와 원인을 '之所以...是因为...'를 사용해서 써 보세요."
+        "en": "请用「哪怕...也...」写出一个强调决心的句子。",
+        "ko": "결심을 강조하는 문장을 '哪怕...也...'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "nape_ye",
+          "label_ko": "哪怕...也...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'之所以'와 '是因为'를 사용했는가",
+          "criterion_ko": "'哪怕'와 '也'를 사용했는가",
           "type": "pattern_regex",
-          "target": "之所以.{0,20}是因为",
+          "target": "哪怕.{0,15}也",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -75,28 +75,28 @@
       }
     },
     {
-      "id": "zh_b2_u01_w2",
+      "id": "zh_b2_u09_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「你为什么学汉语？」请用「之所以...是因为...」回答。",
-        "ko": "'你为什么学汉语？'(왜 중국어를 배우세요?)라는 질문에 '之所以...是因为...'를 사용해서 답을 써 보세요."
+        "en": "「你累了会放弃吗？」请用「哪怕...也...」回答。",
+        "ko": "'你累了会放弃吗？'(피곤하면 포기할 거예요?)라는 질문에 '哪怕...也...'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "nape_ye",
+          "label_ko": "哪怕...也...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'之所以'를 사용했는가",
+          "criterion_ko": "'哪怕'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "之所以"
+            "哪怕"
           ],
           "min_matches": 1,
           "points": 60,
@@ -123,28 +123,29 @@
       }
     },
     {
-      "id": "zh_b2_u01_s1",
+      "id": "zh_b2_u09_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「之所以...是因为...」说出某个结果和原因。",
-        "ko": "'之所以...是因为...'를 사용해서 소리 내어 결과와 원인을 말해 보세요."
+        "en": "请大声用「哪怕...也...」说出一个强调决心的句子。",
+        "ko": "'哪怕...也...'를 사용해서 소리 내어 결심을 강조하는 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "nape_ye",
+          "label_ko": "哪怕...也...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'之所以'를 사용했는가",
+          "criterion_ko": "'哪怕' 또는 '也'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "之所以"
+            "哪怕",
+            "也"
           ],
           "min_matches": 1,
           "points": 55,
@@ -174,29 +175,29 @@
       }
     },
     {
-      "id": "zh_b2_u01_s2",
+      "id": "zh_b2_u09_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「他之所以成功，是因为努力吗？」有人问你。请大声回答。",
-        "ko": "'他之所以成功，是因为努力吗？'(그가 성공한 이유가 노력 때문이에요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「哪怕全世界都反对，你也要做吗？」有人问你。请大声回答。",
+        "ko": "'哪怕全世界都反对，你也要做吗？'(온 세상이 반대해도 할 거예요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "zhisuoyi_shiyinwei",
-          "label_ko": "之所以...是因为...",
+          "id": "nape_ye",
+          "label_ko": "哪怕...也...",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'是' 또는 '不是'를 사용했는가",
+          "criterion_ko": "'会' 또는 '不会'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "是",
-            "不是"
+            "会",
+            "不会"
           ],
           "min_matches": 1,
           "points": 55,
