@@ -1,68 +1,79 @@
 {
   "meta": {
-    "id": "zh_c1_u01",
+    "id": "zh_c1_u05",
     "domain": "language",
     "lang": "zh",
     "level": "c1",
-    "unit": 1,
-    "title": "「说」的近义词",
-    "title_ko": "'말하다'의 유의어",
+    "unit": 5,
+    "title": "固执 vs 坚定",
+    "title_ko": "함축: 固执 vs 坚定",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "「讲」偏口语，常用于讲课或讲故事；「表示」用于表达态度或意见；「声称」带有不完全相信的语气；「陈述」是正式地叙述事实。",
-    "explanation_ko": "'讲'는 구어체에 가까우며 강의나 이야기할 때 자주 씁니다. '表示'는 태도나 의견을 표현할 때, '声称'는 완전히 믿지 않는 뉘앙스를 담고 있으며, '陈述'는 격식 있게 사실을 서술하는 것입니다.",
+    "explanation_en": "「固执」是否定的，批评一个人不愿意改变想法；「坚定」是肯定的，称赞一个人意志坚强。同一种特质，用不同角度表达。",
+    "explanation_ko": "'固执'는 부정적이며, 생각을 바꾸려 하지 않는 사람을 비판합니다. '坚定'은 긍정적이며, 의지가 강한 사람을 칭찬합니다. 같은 특성을 다른 각도에서 표현합니다.",
     "key_expressions": [
       {
-        "en": "老师在讲课。",
-        "ko": "선생님이 수업을 하고 계세요."
+        "en": "他很固执，不听别人的意见。",
+        "ko": "그는 고집이 세서 다른 사람 의견을 안 들어요."
       },
       {
-        "en": "他表示同意这个计划。",
-        "ko": "그는 이 계획에 동의한다고 표명했어요."
+        "en": "她很坚定，从不轻易放弃。",
+        "ko": "그녀는 확고해서 쉽게 포기하지 않아요."
       },
       {
-        "en": "他声称自己是无辜的。",
-        "ko": "그는 자신이 무고하다고 주장했어요(믿기 어려운 뉘앙스)."
+        "en": "固执有时候也能带来好的结果。",
+        "ko": "고집이 때로는 좋은 결과를 가져오기도 해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_c1_u01_w1",
+      "id": "zh_c1_u05_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「表示」写出对某个计划的态度。",
-        "ko": "어떤 계획에 대한 태도를 '表示'를 사용해서 써 보세요."
+        "en": "请用「固执」和「坚定」各写一句话，描述同一种性格特点。",
+        "ko": "'固执'와 '坚定'을 각각 사용해서, 같은 성격 특징을 묘사하는 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "biaoshi",
-          "label_ko": "表示",
+          "id": "guzhi",
+          "label_ko": "固执",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'表示'를 사용했는가",
+          "criterion_ko": "'固执'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "表示"
+            "固执"
           ],
           "min_matches": 1,
-          "points": 60,
+          "points": 40,
           "required": true
         },
         {
           "id": "r2",
+          "criterion_ko": "'坚定'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "坚定"
+          ],
+          "min_matches": 1,
+          "points": 40,
+          "required": true
+        },
+        {
+          "id": "r3",
           "criterion_ko": "완전한 문장인가",
           "type": "pattern_regex",
           "target": "[。]$",
           "min_matches": 1,
-          "points": 40,
+          "points": 20,
           "required": false
         }
       ],
@@ -77,28 +88,28 @@
       }
     },
     {
-      "id": "zh_c1_u01_w2",
+      "id": "zh_c1_u05_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「老师在做什么？」请用「讲课」回答。",
-        "ko": "'老师在做什么？'(선생님이 뭘 하고 계세요?)라는 질문에 '讲课'를 사용해서 답을 써 보세요."
+        "en": "「你的性格怎么样？」请用「坚定」回答。",
+        "ko": "'你的性格怎么样？'(성격이 어때요?)라는 질문에 '坚定'을 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "jiangke",
-          "label_ko": "讲课",
+          "id": "jianding",
+          "label_ko": "坚定",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'讲课'를 사용했는가",
+          "criterion_ko": "'坚定'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "讲课"
+            "坚定"
           ],
           "min_matches": 1,
           "points": 60,
@@ -125,28 +136,28 @@
       }
     },
     {
-      "id": "zh_c1_u01_s1",
+      "id": "zh_c1_u05_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「声称」说出一个不太可信的说法。",
-        "ko": "믿기 어려운 주장을 '声称'을 사용해서 소리 내어 말해 보세요."
+        "en": "请大声用「坚定」说出自己意志坚强的一面。",
+        "ko": "의지가 강한 자신의 일면에 대해 '坚定'을 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "shengcheng",
-          "label_ko": "声称",
+          "id": "jianding",
+          "label_ko": "坚定",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'声称'을 사용했는가",
+          "criterion_ko": "'坚定'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "声称"
+            "坚定"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,18 +187,18 @@
       }
     },
     {
-      "id": "zh_c1_u01_s2",
+      "id": "zh_c1_u05_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「他表示同意了吗？」有人问你。请大声回答。",
-        "ko": "'他表示同意了吗？'(그가 동의한다고 표명했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「你爸爸固执吗？」有人问你。请大声回答。",
+        "ko": "'你爸爸固执吗？'(아버지가 고집이 세세요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "biaoshi",
-          "label_ko": "表示",
+          "id": "guzhi",
+          "label_ko": "固执",
           "min_occurrences": 1
         }
       ],

@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "zh_c1_u01",
+    "id": "zh_c1_u09",
     "domain": "language",
     "lang": "zh",
     "level": "c1",
-    "unit": 1,
-    "title": "「说」的近义词",
-    "title_ko": "'말하다'의 유의어",
+    "unit": 9,
+    "title": "商务词汇: 财务",
+    "title_ko": "비즈니스 어휘: 재무",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "「讲」偏口语，常用于讲课或讲故事；「表示」用于表达态度或意见；「声称」带有不完全相信的语气；「陈述」是正式地叙述事实。",
-    "explanation_ko": "'讲'는 구어체에 가까우며 강의나 이야기할 때 자주 씁니다. '表示'는 태도나 의견을 표현할 때, '声称'는 완전히 믿지 않는 뉘앙스를 담고 있으며, '陈述'는 격식 있게 사실을 서술하는 것입니다.",
+    "explanation_en": "「盈利」表示赚钱，「亏损」表示赔钱，「预算」表示计划开支的金额。",
+    "explanation_ko": "'盈利'(수익)는 돈을 버는 것, '亏损'(손실)은 돈을 잃는 것, '预算'(예산)은 지출을 계획한 금액을 나타냅니다.",
     "key_expressions": [
       {
-        "en": "老师在讲课。",
-        "ko": "선생님이 수업을 하고 계세요."
+        "en": "公司今年盈利了。",
+        "ko": "회사가 올해 수익을 냈어요."
       },
       {
-        "en": "他表示同意这个计划。",
-        "ko": "그는 이 계획에 동의한다고 표명했어요."
+        "en": "上个季度出现了亏损。",
+        "ko": "지난 분기에 손실이 발생했어요."
       },
       {
-        "en": "他声称自己是无辜的。",
-        "ko": "그는 자신이 무고하다고 주장했어요(믿기 어려운 뉘앙스)."
+        "en": "我们需要控制预算。",
+        "ko": "저희는 예산을 관리해야 해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_c1_u01_w1",
+      "id": "zh_c1_u09_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「表示」写出对某个计划的态度。",
-        "ko": "어떤 계획에 대한 태도를 '表示'를 사용해서 써 보세요."
+        "en": "请用「盈利」写出公司经营状况良好的句子。",
+        "ko": "회사 경영이 좋은 문장을 '盈利'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "biaoshi",
-          "label_ko": "表示",
+          "id": "yingli",
+          "label_ko": "盈利",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'表示'를 사용했는가",
+          "criterion_ko": "'盈利'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "表示"
+            "盈利"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,28 +77,28 @@
       }
     },
     {
-      "id": "zh_c1_u01_w2",
+      "id": "zh_c1_u09_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「老师在做什么？」请用「讲课」回答。",
-        "ko": "'老师在做什么？'(선생님이 뭘 하고 계세요?)라는 질문에 '讲课'를 사용해서 답을 써 보세요."
+        "en": "「公司的预算够吗？」请回答这个问题。",
+        "ko": "'公司的预算够吗？'(회사 예산이 충분해요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "jiangke",
-          "label_ko": "讲课",
+          "id": "yusuan",
+          "label_ko": "预算",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'讲课'를 사용했는가",
+          "criterion_ko": "'预算'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "讲课"
+            "预算"
           ],
           "min_matches": 1,
           "points": 60,
@@ -125,28 +125,28 @@
       }
     },
     {
-      "id": "zh_c1_u01_s1",
+      "id": "zh_c1_u09_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「声称」说出一个不太可信的说法。",
-        "ko": "믿기 어려운 주장을 '声称'을 사용해서 소리 내어 말해 보세요."
+        "en": "请大声用「亏损」说出经营困难的情况。",
+        "ko": "경영이 어려운 상황에 대해 '亏损'을 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "shengcheng",
-          "label_ko": "声称",
+          "id": "kuisun",
+          "label_ko": "亏损",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'声称'을 사용했는가",
+          "criterion_ko": "'亏损'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "声称"
+            "亏损"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,18 +176,18 @@
       }
     },
     {
-      "id": "zh_c1_u01_s2",
+      "id": "zh_c1_u09_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「他表示同意了吗？」有人问你。请大声回答。",
-        "ko": "'他表示同意了吗？'(그가 동의한다고 표명했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「公司今年盈利了吗？」有人问你。请大声回答。",
+        "ko": "'公司今年盈利了吗？'(회사가 올해 수익을 냈어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "biaoshi",
-          "label_ko": "表示",
+          "id": "yingli",
+          "label_ko": "盈利",
           "min_occurrences": 1
         }
       ],

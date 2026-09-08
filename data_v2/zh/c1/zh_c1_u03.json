@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "zh_c1_u01",
+    "id": "zh_c1_u03",
     "domain": "language",
     "lang": "zh",
     "level": "c1",
-    "unit": 1,
-    "title": "「说」的近义词",
-    "title_ko": "'말하다'의 유의어",
+    "unit": 3,
+    "title": "「大」的近义词",
+    "title_ko": "'크다'의 유의어",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "「讲」偏口语，常用于讲课或讲故事；「表示」用于表达态度或意见；「声称」带有不完全相信的语气；「陈述」是正式地叙述事实。",
-    "explanation_ko": "'讲'는 구어체에 가까우며 강의나 이야기할 때 자주 씁니다. '表示'는 태도나 의견을 표현할 때, '声称'는 완전히 믿지 않는 뉘앙스를 담고 있으며, '陈述'는 격식 있게 사실을 서술하는 것입니다.",
+    "explanation_en": "「巨大」表示非常大的规模；「庞大」强调数量或结构上的庞大；「宏大」形容目标或场面的宏伟壮观。",
+    "explanation_ko": "'巨大'는 매우 큰 규모, '庞大'는 수량이나 구조상의 방대함을 강조하며, '宏大'는 목표나 장면의 웅장함을 묘사합니다.",
     "key_expressions": [
       {
-        "en": "老师在讲课。",
-        "ko": "선생님이 수업을 하고 계세요."
+        "en": "这是一座巨大的建筑。",
+        "ko": "이건 거대한 건물이에요."
       },
       {
-        "en": "他表示同意这个计划。",
-        "ko": "그는 이 계획에 동의한다고 표명했어요."
+        "en": "公司有一个庞大的团队。",
+        "ko": "회사는 방대한 팀을 갖고 있어요."
       },
       {
-        "en": "他声称自己是无辜的。",
-        "ko": "그는 자신이 무고하다고 주장했어요(믿기 어려운 뉘앙스)."
+        "en": "他有一个宏大的目标。",
+        "ko": "그는 웅대한 목표를 갖고 있어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "zh_c1_u01_w1",
+      "id": "zh_c1_u03_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请用「表示」写出对某个计划的态度。",
-        "ko": "어떤 계획에 대한 태도를 '表示'를 사용해서 써 보세요."
+        "en": "请用「巨大」写出一个规模很大的东西。",
+        "ko": "규모가 큰 것을 '巨大'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "biaoshi",
-          "label_ko": "表示",
+          "id": "juda",
+          "label_ko": "巨大",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'表示'를 사용했는가",
+          "criterion_ko": "'巨大'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "表示"
+            "巨大"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,28 +77,28 @@
       }
     },
     {
-      "id": "zh_c1_u01_w2",
+      "id": "zh_c1_u03_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「老师在做什么？」请用「讲课」回答。",
-        "ko": "'老师在做什么？'(선생님이 뭘 하고 계세요?)라는 질문에 '讲课'를 사용해서 답을 써 보세요."
+        "en": "「公司的团队大吗？」请用「庞大」回答。",
+        "ko": "'公司的团队大吗？'(회사 팀이 커요?)라는 질문에 '庞大'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "jiangke",
-          "label_ko": "讲课",
+          "id": "pangda",
+          "label_ko": "庞大",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'讲课'를 사용했는가",
+          "criterion_ko": "'庞大'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "讲课"
+            "庞大"
           ],
           "min_matches": 1,
           "points": 60,
@@ -125,28 +125,28 @@
       }
     },
     {
-      "id": "zh_c1_u01_s1",
+      "id": "zh_c1_u03_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "请大声用「声称」说出一个不太可信的说法。",
-        "ko": "믿기 어려운 주장을 '声称'을 사용해서 소리 내어 말해 보세요."
+        "en": "请大声用「宏大」说出一个宏大的目标。",
+        "ko": "'宏大'를 사용해서 소리 내어 웅대한 목표를 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "shengcheng",
-          "label_ko": "声称",
+          "id": "hongda",
+          "label_ko": "宏大",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'声称'을 사용했는가",
+          "criterion_ko": "'宏大'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "声称"
+            "宏大"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,18 +176,18 @@
       }
     },
     {
-      "id": "zh_c1_u01_s2",
+      "id": "zh_c1_u03_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "「他表示同意了吗？」有人问你。请大声回答。",
-        "ko": "'他表示同意了吗？'(그가 동의한다고 표명했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "「这个建筑巨大吗？」有人问你。请大声回答。",
+        "ko": "'这个建筑巨大吗？'(이 건물 거대해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "biaoshi",
-          "label_ko": "表示",
+          "id": "juda",
+          "label_ko": "巨大",
           "min_occurrences": 1
         }
       ],
