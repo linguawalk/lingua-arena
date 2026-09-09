@@ -1,57 +1,56 @@
 {
   "meta": {
-    "id": "fr_c1_u01",
+    "id": "fr_c1_u09",
     "domain": "language",
     "lang": "fr",
     "level": "c1",
-    "unit": 1,
-    "title": "Synonymes de « dire »",
-    "title_ko": "'말하다'의 유의어",
+    "unit": 9,
+    "title": "Vocabulaire des affaires: finance",
+    "title_ko": "비즈니스 어휘: 재무",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Déclarer » est formel et officiel, « affirmer » exprime une certitude, « prétendre » implique un doute sur la véracité, « exprimer » se concentre sur les sentiments.",
-    "explanation_ko": "'Déclarer'는 격식 있고 공식적이며, 'affirmer'는 확신을 나타내고, 'prétendre'는 진실성에 대한 의심을 담고 있으며, 'exprimer'는 감정 표현에 중점을 둡니다.",
+    "explanation_en": "« Réaliser un bénéfice » exprime le profit, « subir une perte » exprime la perte financière, « établir un budget » exprime la planification des dépenses.",
+    "explanation_ko": "'Réaliser un bénéfice'(수익을 내다)는 이익을, 'subir une perte'(손실을 입다)는 재정 손실을, 'établir un budget'(예산을 세우다)는 지출 계획을 나타냅니다.",
     "key_expressions": [
       {
-        "en": "Le président a déclaré la victoire.",
-        "ko": "대통령이 승리를 선언했어요."
+        "en": "L'entreprise a réalisé un bénéfice cette année.",
+        "ko": "회사가 올해 수익을 냈어요."
       },
       {
-        "en": "Il affirme qu'il est innocent.",
-        "ko": "그는 자신이 결백하다고 확언해요."
+        "en": "Nous avons subi une perte le trimestre dernier.",
+        "ko": "지난 분기에 손실을 입었어요."
       },
       {
-        "en": "Il prétend être malade.",
-        "ko": "그는 아프다고 주장해요(믿기 어려운 뉘앙스)."
+        "en": "Nous devons établir un budget strict.",
+        "ko": "엄격한 예산을 세워야 해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "fr_c1_u01_w1",
+      "id": "fr_c1_u09_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Écrivez une phrase avec « affirmer » exprimant une certitude.",
-        "ko": "확신을 나타내는 문장을 'affirmer'를 사용해서 써 보세요."
+        "en": "Écrivez une phrase avec « réaliser un bénéfice » décrivant une bonne performance financière.",
+        "ko": "좋은 재무 성과를 'réaliser un bénéfice'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "affirmer",
-          "label_ko": "affirmer",
+          "id": "benefice",
+          "label_ko": "bénéfice",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'affirme' 또는 'affirmer'를 사용했는가",
+          "criterion_ko": "'bénéfice'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "affirme",
-            "affirmer"
+            "bénéfice"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,28 +77,28 @@
       }
     },
     {
-      "id": "fr_c1_u01_w2",
+      "id": "fr_c1_u09_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Que fait-il ? » Répondez en utilisant « prétendre » pour exprimer un doute.",
-        "ko": "'Que fait-il ?'(그가 뭘 해요?)라는 질문에, 의심을 담아 'prétendre'를 사용해서 답을 써 보세요."
+        "en": "« Le budget est-il suffisant ? » Répondez à cette question.",
+        "ko": "'Le budget est-il suffisant ?'(예산이 충분해요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "pretendre",
-          "label_ko": "prétendre",
+          "id": "budget",
+          "label_ko": "budget",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'prétend'을 사용했는가",
+          "criterion_ko": "'budget'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "prétend"
+            "budget"
           ],
           "min_matches": 1,
           "points": 60,
@@ -126,29 +125,28 @@
       }
     },
     {
-      "id": "fr_c1_u01_s1",
+      "id": "fr_c1_u09_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Dites à voix haute une phrase avec « déclarer » dans un contexte officiel.",
-        "ko": "공식적인 맥락에서 'déclarer'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Dites à voix haute une phrase avec « subir une perte » décrivant une difficulté financière.",
+        "ko": "재정적 어려움에 대해 'subir une perte'를 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "declarer",
-          "label_ko": "déclarer",
+          "id": "perte",
+          "label_ko": "perte",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'déclare' 또는 'déclarer'를 사용했는가",
+          "criterion_ko": "'perte'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "déclare",
-            "déclarer"
+            "perte"
           ],
           "min_matches": 1,
           "points": 55,
@@ -178,18 +176,18 @@
       }
     },
     {
-      "id": "fr_c1_u01_s2",
+      "id": "fr_c1_u09_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Il affirme qu'il est innocent ? » On vous pose cette question. Répondez à voix haute.",
-        "ko": "'Il affirme qu'il est innocent ?'(그가 결백하다고 확언해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "« L'entreprise a réalisé un bénéfice cette année ? » On vous pose cette question. Répondez à voix haute.",
+        "ko": "'L'entreprise a réalisé un bénéfice cette année ?'(회사가 올해 수익을 냈어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "affirmer",
-          "label_ko": "affirmer",
+          "id": "benefice",
+          "label_ko": "bénéfice",
           "min_occurrences": 1
         }
       ],
