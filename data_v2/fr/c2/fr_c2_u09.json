@@ -1,57 +1,56 @@
 {
   "meta": {
-    "id": "fr_c2_u01",
+    "id": "fr_c2_u09",
     "domain": "language",
     "lang": "fr",
     "level": "c2",
-    "unit": 1,
-    "title": "Narrer/relater/exposer",
-    "title_ko": "말하기 유의어: narrer/relater/exposer",
+    "unit": 9,
+    "title": "Critique du jargon d'entreprise (synergie, disruptif)",
+    "title_ko": "기업 은어 비평 (synergie, disruptif)",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Narrer » est littéraire et évoque un récit, « relater » est plus factuel et journalistique, « exposer » implique une présentation structurée d'idées.",
-    "explanation_ko": "'Narrer'(이야기하다)는 문학적이고 서사를 연상시키며, 'relater'(전하다)는 더 사실적이고 저널리즘적이며, 'exposer'(제시하다)는 구조화된 생각 발표를 의미합니다.",
+    "explanation_en": "« Synergie » et « disruptif » sont des termes de jargon d'entreprise souvent critiqués pour leur vide de sens quand ils sont surutilisés. Ils peuvent sonner creux ou prétentieux.",
+    "explanation_ko": "'Synergie'(시너지)와 'disruptif'(파괴적인)는 남용되면 공허하게 들리는 기업 은어로, 흔히 비판받습니다. 과용될 경우 공허하거나 잘난 체하는 것처럼 들릴 수 있습니다.",
     "key_expressions": [
       {
-        "en": "L'auteur narre les aventures d'un jeune homme.",
-        "ko": "저자는 한 청년의 모험을 이야기해요."
+        "en": "Ce mot 'synergie' est devenu du jargon vide.",
+        "ko": "'시너지'라는 단어는 공허한 은어가 됐어요."
       },
       {
-        "en": "Le journal relate les événements de la semaine.",
-        "ko": "신문이 이번 주의 사건들을 전해요."
+        "en": "Il utilise trop le mot 'disruptif'.",
+        "ko": "그는 'disruptif'라는 단어를 너무 많이 써요."
       },
       {
-        "en": "Il a exposé ses arguments clairement.",
-        "ko": "그는 자신의 논거를 명확하게 제시했어요."
+        "en": "Ce genre de jargon d'entreprise m'agace.",
+        "ko": "이런 종류의 기업 은어가 저를 짜증나게 해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "fr_c2_u01_w1",
+      "id": "fr_c2_u09_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Écrivez une phrase avec « exposer » décrivant une présentation structurée d'idées.",
-        "ko": "구조화된 생각 발표를 'exposer'를 사용해서 써 보세요."
+        "en": "Écrivez une phrase critiquant l'usage excessif du mot « synergie ».",
+        "ko": "'synergie'라는 단어의 과도한 사용을 비판하는 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "exposer",
-          "label_ko": "exposer",
+          "id": "synergie",
+          "label_ko": "synergie",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'exposé' 또는 'exposer'를 사용했는가",
+          "criterion_ko": "'synergie'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "exposé",
-            "exposer"
+            "synergie"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,31 +77,28 @@
       }
     },
     {
-      "id": "fr_c2_u01_w2",
+      "id": "fr_c2_u09_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Le journal a-t-il relaté les événements ? » Répondez à cette question.",
-        "ko": "'Le journal a-t-il relaté les événements ?'(신문이 사건들을 전했어요?)라는 질문에 답을 써 보세요."
+        "en": "« Que pensez-vous du mot 'disruptif' ? » Répondez à cette question.",
+        "ko": "'Que pensez-vous du mot 'disruptif' ?'('disruptif'라는 단어에 대해 어떻게 생각해요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "relater",
-          "label_ko": "relater",
+          "id": "disruptif",
+          "label_ko": "disruptif",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Oui' 또는 'Non'을 사용했는가",
+          "criterion_ko": "'disruptif'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Oui",
-            "oui",
-            "Non",
-            "non"
+            "disruptif"
           ],
           "min_matches": 1,
           "points": 60,
@@ -129,29 +125,28 @@
       }
     },
     {
-      "id": "fr_c2_u01_s1",
+      "id": "fr_c2_u09_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Dites à voix haute une phrase avec « narrer » dans un contexte littéraire.",
-        "ko": "문학적 맥락에서 'narrer'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Dites à voix haute une critique du jargon d'entreprise.",
+        "ko": "기업 은어에 대한 비판을 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "narrer",
-          "label_ko": "narrer",
+          "id": "jargon",
+          "label_ko": "jargon d'entreprise",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'narre' 또는 'narrer'를 사용했는가",
+          "criterion_ko": "'jargon'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "narre",
-            "narrer"
+            "jargon"
           ],
           "min_matches": 1,
           "points": 55,
@@ -181,18 +176,18 @@
       }
     },
     {
-      "id": "fr_c2_u01_s2",
+      "id": "fr_c2_u09_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« A-t-il exposé ses arguments clairement ? » On vous pose cette question. Répondez à voix haute.",
-        "ko": "'A-t-il exposé ses arguments clairement ?'(그가 논거를 명확하게 제시했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "« Ce genre de jargon vous agace-t-il ? » On vous pose cette question. Répondez à voix haute.",
+        "ko": "'Ce genre de jargon vous agace-t-il ?'(이런 종류의 은어가 짜증나요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "exposer",
-          "label_ko": "exposer",
+          "id": "jargon",
+          "label_ko": "jargon d'entreprise",
           "min_occurrences": 1
         }
       ],

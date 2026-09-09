@@ -1,57 +1,57 @@
 {
   "meta": {
-    "id": "fr_c2_u01",
+    "id": "fr_c2_u08",
     "domain": "language",
     "lang": "fr",
     "level": "c2",
-    "unit": 1,
-    "title": "Narrer/relater/exposer",
-    "title_ko": "말하기 유의어: narrer/relater/exposer",
+    "unit": 8,
+    "title": "Connecteurs avancés (dont, or, voire)",
+    "title_ko": "고급 연결어 (dont, or, voire)",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Narrer » est littéraire et évoque un récit, « relater » est plus factuel et journalistique, « exposer » implique une présentation structurée d'idées.",
-    "explanation_ko": "'Narrer'(이야기하다)는 문학적이고 서사를 연상시키며, 'relater'(전하다)는 더 사실적이고 저널리즘적이며, 'exposer'(제시하다)는 구조화된 생각 발표를 의미합니다.",
+    "explanation_en": "« Or » introduit un fait qui change la perspective (littéraire), « voire » signifie « et même », ajoutant une intensité. Par exemple : « Or, la situation a changé ».",
+    "explanation_ko": "'Or'(그런데)는 관점을 바꾸는 사실을 도입하며(문학체), 'voire'(심지어)는 강도를 더하며 '그리고 심지어'를 의미합니다. 예: 'Or, la situation a changé'(그런데 상황이 바뀌었어요).",
     "key_expressions": [
       {
-        "en": "L'auteur narre les aventures d'un jeune homme.",
-        "ko": "저자는 한 청년의 모험을 이야기해요."
+        "en": "Or, la situation a changé depuis.",
+        "ko": "그런데 그 이후로 상황이 바뀌었어요."
       },
       {
-        "en": "Le journal relate les événements de la semaine.",
-        "ko": "신문이 이번 주의 사건들을 전해요."
+        "en": "C'est difficile, voire impossible.",
+        "ko": "이건 어려워요, 심지어 불가능할 정도로요."
       },
       {
-        "en": "Il a exposé ses arguments clairement.",
-        "ko": "그는 자신의 논거를 명확하게 제시했어요."
+        "en": "Le projet dont je parle est ambitieux.",
+        "ko": "제가 말하는 프로젝트는 야심 찬 거예요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "fr_c2_u01_w1",
+      "id": "fr_c2_u08_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Écrivez une phrase avec « exposer » décrivant une présentation structurée d'idées.",
-        "ko": "구조화된 생각 발표를 'exposer'를 사용해서 써 보세요."
+        "en": "Écrivez une phrase avec « or » introduisant un fait qui change la perspective.",
+        "ko": "관점을 바꾸는 사실을 'or'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "exposer",
-          "label_ko": "exposer",
+          "id": "or_connecteur",
+          "label_ko": "or",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'exposé' 또는 'exposer'를 사용했는가",
+          "criterion_ko": "'Or'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "exposé",
-            "exposer"
+            "Or,",
+            "or,"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,31 +78,28 @@
       }
     },
     {
-      "id": "fr_c2_u01_w2",
+      "id": "fr_c2_u08_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Le journal a-t-il relaté les événements ? » Répondez à cette question.",
-        "ko": "'Le journal a-t-il relaté les événements ?'(신문이 사건들을 전했어요?)라는 질문에 답을 써 보세요."
+        "en": "« Est-ce difficile ? » Répondez en ajoutant une intensité avec « voire ».",
+        "ko": "'Est-ce difficile ?'(이거 어려워요?)라는 질문에 'voire'를 사용해서 강도를 더해 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "relater",
-          "label_ko": "relater",
+          "id": "voire",
+          "label_ko": "voire",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Oui' 또는 'Non'을 사용했는가",
+          "criterion_ko": "'voire'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Oui",
-            "oui",
-            "Non",
-            "non"
+            "voire"
           ],
           "min_matches": 1,
           "points": 60,
@@ -129,29 +126,28 @@
       }
     },
     {
-      "id": "fr_c2_u01_s1",
+      "id": "fr_c2_u08_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Dites à voix haute une phrase avec « narrer » dans un contexte littéraire.",
-        "ko": "문학적 맥락에서 'narrer'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Dites à voix haute une phrase avec « dont » comme pronom relatif avancé.",
+        "ko": "고급 관계대명사 'dont'를 사용해서 소리 내어 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "narrer",
-          "label_ko": "narrer",
+          "id": "dont",
+          "label_ko": "dont",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'narre' 또는 'narrer'를 사용했는가",
+          "criterion_ko": "'dont'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "narre",
-            "narrer"
+            "dont"
           ],
           "min_matches": 1,
           "points": 55,
@@ -181,18 +177,18 @@
       }
     },
     {
-      "id": "fr_c2_u01_s2",
+      "id": "fr_c2_u08_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« A-t-il exposé ses arguments clairement ? » On vous pose cette question. Répondez à voix haute.",
-        "ko": "'A-t-il exposé ses arguments clairement ?'(그가 논거를 명확하게 제시했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "« Or, la situation a-t-elle changé ? » On vous pose cette question. Répondez à voix haute.",
+        "ko": "'Or, la situation a-t-elle changé ?'(그런데 상황이 바뀌었어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "exposer",
-          "label_ko": "exposer",
+          "id": "or_connecteur",
+          "label_ko": "or",
           "min_occurrences": 1
         }
       ],

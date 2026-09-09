@@ -1,58 +1,55 @@
 {
   "meta": {
-    "id": "fr_c2_u01",
+    "id": "fr_c2_u03",
     "domain": "language",
     "lang": "fr",
     "level": "c2",
-    "unit": 1,
-    "title": "Narrer/relater/exposer",
-    "title_ko": "말하기 유의어: narrer/relater/exposer",
+    "unit": 3,
+    "title": "Registre littéraire: syntaxe recherchée",
+    "title_ko": "문학체: 정교한 통사",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Narrer » est littéraire et évoque un récit, « relater » est plus factuel et journalistique, « exposer » implique une présentation structurée d'idées.",
-    "explanation_ko": "'Narrer'(이야기하다)는 문학적이고 서사를 연상시키며, 'relater'(전하다)는 더 사실적이고 저널리즘적이며, 'exposer'(제시하다)는 구조화된 생각 발표를 의미합니다.",
+    "explanation_en": "Le registre littéraire utilise des structures comme « à peine... que » ou « aussi... » avec inversion pour un style plus élégant. Par exemple : « À peine était-il arrivé qu'il repartait déjà ».",
+    "explanation_ko": "문학체는 'à peine...que'(~하자마자)나 도치를 동반한 'aussi...'(그러므로) 같은 구조를 사용해서 더 우아한 문체를 만듭니다. 예: 'À peine était-il arrivé qu'il repartait déjà'(그가 도착하자마자 그는 이미 다시 떠나고 있었다).",
     "key_expressions": [
       {
-        "en": "L'auteur narre les aventures d'un jeune homme.",
-        "ko": "저자는 한 청년의 모험을 이야기해요."
+        "en": "À peine était-il arrivé qu'il repartait déjà.",
+        "ko": "그가 도착하자마자 그는 이미 다시 떠나고 있었다."
       },
       {
-        "en": "Le journal relate les événements de la semaine.",
-        "ko": "신문이 이번 주의 사건들을 전해요."
+        "en": "Aussi devons-nous agir avec prudence.",
+        "ko": "그러므로 저희는 신중하게 행동해야 해요."
       },
       {
-        "en": "Il a exposé ses arguments clairement.",
-        "ko": "그는 자신의 논거를 명확하게 제시했어요."
+        "en": "Peut-être eût-il fallu attendre.",
+        "ko": "아마 기다렸어야 했을지도 모른다."
       }
     ]
   },
   "tasks": [
     {
-      "id": "fr_c2_u01_w1",
+      "id": "fr_c2_u03_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Écrivez une phrase avec « exposer » décrivant une présentation structurée d'idées.",
-        "ko": "구조화된 생각 발표를 'exposer'를 사용해서 써 보세요."
+        "en": "Écrivez une phrase avec « à peine... que » et l'inversion dans un style littéraire.",
+        "ko": "문학체로 'à peine...que'와 도치를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "exposer",
-          "label_ko": "exposer",
+          "id": "a_peine_que",
+          "label_ko": "à peine...que",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'exposé' 또는 'exposer'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "exposé",
-            "exposer"
-          ],
+          "criterion_ko": "'à peine'와 'que'를 사용했는가",
+          "type": "pattern_regex",
+          "target": "à peine.{0,20}que",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -78,31 +75,29 @@
       }
     },
     {
-      "id": "fr_c2_u01_w2",
+      "id": "fr_c2_u03_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Le journal a-t-il relaté les événements ? » Répondez à cette question.",
-        "ko": "'Le journal a-t-il relaté les événements ?'(신문이 사건들을 전했어요?)라는 질문에 답을 써 보세요."
+        "en": "« Devrions-nous agir avec prudence ? » Répondez en style littéraire avec « Aussi devons-nous... ».",
+        "ko": "'Devrions-nous agir avec prudence ?'(저희가 신중하게 행동해야 할까요?)라는 질문에 문학체로 'Aussi devons-nous...'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "relater",
-          "label_ko": "relater",
+          "id": "aussi_inversion",
+          "label_ko": "aussi+도치",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Oui' 또는 'Non'을 사용했는가",
+          "criterion_ko": "'Aussi'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Oui",
-            "oui",
-            "Non",
-            "non"
+            "Aussi",
+            "aussi"
           ],
           "min_matches": 1,
           "points": 60,
@@ -129,31 +124,28 @@
       }
     },
     {
-      "id": "fr_c2_u01_s1",
+      "id": "fr_c2_u03_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Dites à voix haute une phrase avec « narrer » dans un contexte littéraire.",
-        "ko": "문학적 맥락에서 'narrer'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Dites à voix haute une phrase dans un style littéraire recherché.",
+        "ko": "소리 내어 정교한 문학체 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "narrer",
-          "label_ko": "narrer",
+          "id": "registre_litteraire",
+          "label_ko": "문학체",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'narre' 또는 'narrer'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "narre",
-            "narrer"
-          ],
-          "min_matches": 1,
+          "criterion_ko": "분량이 충분한가 (최소 10자)",
+          "type": "length_check",
+          "unit": "chars",
+          "min": 10,
           "points": 55,
           "required": true
         },
@@ -181,18 +173,18 @@
       }
     },
     {
-      "id": "fr_c2_u01_s2",
+      "id": "fr_c2_u03_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« A-t-il exposé ses arguments clairement ? » On vous pose cette question. Répondez à voix haute.",
-        "ko": "'A-t-il exposé ses arguments clairement ?'(그가 논거를 명확하게 제시했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "« Le style littéraire est-il plus élégant que le style courant ? » On vous pose cette question. Répondez à voix haute.",
+        "ko": "'Le style littéraire est-il plus élégant que le style courant ?'(문학체가 일상체보다 우아한가요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "exposer",
-          "label_ko": "exposer",
+          "id": "registre_litteraire",
+          "label_ko": "문학체",
           "min_occurrences": 1
         }
       ],

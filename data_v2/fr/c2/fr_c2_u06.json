@@ -1,57 +1,56 @@
 {
   "meta": {
-    "id": "fr_c2_u01",
+    "id": "fr_c2_u06",
     "domain": "language",
     "lang": "fr",
     "level": "c2",
-    "unit": 1,
-    "title": "Narrer/relater/exposer",
-    "title_ko": "말하기 유의어: narrer/relater/exposer",
+    "unit": 6,
+    "title": "Ironie/sarcasme/moquerie",
+    "title_ko": "반어·냉소·조롱",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Narrer » est littéraire et évoque un récit, « relater » est plus factuel et journalistique, « exposer » implique une présentation structurée d'idées.",
-    "explanation_ko": "'Narrer'(이야기하다)는 문학적이고 서사를 연상시키며, 'relater'(전하다)는 더 사실적이고 저널리즘적이며, 'exposer'(제시하다)는 구조화된 생각 발표를 의미합니다.",
+    "explanation_en": "« Ironie » exprime dire le contraire de ce qu'on pense de manière subtile, « sarcasme » est plus mordant et blessant, « moquerie » exprime le fait de se moquer directement.",
+    "explanation_ko": "'Ironie'(반어)는 생각과 반대되는 것을 미묘하게 말함을, 'sarcasme'(냉소)는 더 신랄하고 상처를 주며, 'moquerie'(조롱)는 직접적으로 비웃음을 나타냅니다.",
     "key_expressions": [
       {
-        "en": "L'auteur narre les aventures d'un jeune homme.",
-        "ko": "저자는 한 청년의 모험을 이야기해요."
+        "en": "Il a répondu avec ironie.",
+        "ko": "그는 반어적으로 대답했어요."
       },
       {
-        "en": "Le journal relate les événements de la semaine.",
-        "ko": "신문이 이번 주의 사건들을 전해요."
+        "en": "Son sarcasme était blessant.",
+        "ko": "그의 냉소는 상처를 줬어요."
       },
       {
-        "en": "Il a exposé ses arguments clairement.",
-        "ko": "그는 자신의 논거를 명확하게 제시했어요."
+        "en": "Elle a été victime de moqueries.",
+        "ko": "그녀는 조롱의 대상이었어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "fr_c2_u01_w1",
+      "id": "fr_c2_u06_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Écrivez une phrase avec « exposer » décrivant une présentation structurée d'idées.",
-        "ko": "구조화된 생각 발표를 'exposer'를 사용해서 써 보세요."
+        "en": "Écrivez une phrase avec « ironie » exprimant une remarque subtile.",
+        "ko": "미묘한 발언을 'ironie'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "exposer",
-          "label_ko": "exposer",
+          "id": "ironie",
+          "label_ko": "ironie",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'exposé' 또는 'exposer'를 사용했는가",
+          "criterion_ko": "'ironie'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "exposé",
-            "exposer"
+            "ironie"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,31 +77,28 @@
       }
     },
     {
-      "id": "fr_c2_u01_w2",
+      "id": "fr_c2_u06_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« Le journal a-t-il relaté les événements ? » Répondez à cette question.",
-        "ko": "'Le journal a-t-il relaté les événements ?'(신문이 사건들을 전했어요?)라는 질문에 답을 써 보세요."
+        "en": "« Son commentaire était-il blessant ? » Répondez en utilisant « sarcasme ».",
+        "ko": "'Son commentaire était-il blessant ?'(그의 말이 상처를 줬어요?)라는 질문에 'sarcasme'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "relater",
-          "label_ko": "relater",
+          "id": "sarcasme",
+          "label_ko": "sarcasme",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Oui' 또는 'Non'을 사용했는가",
+          "criterion_ko": "'sarcasme'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Oui",
-            "oui",
-            "Non",
-            "non"
+            "sarcasme"
           ],
           "min_matches": 1,
           "points": 60,
@@ -129,29 +125,29 @@
       }
     },
     {
-      "id": "fr_c2_u01_s1",
+      "id": "fr_c2_u06_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Dites à voix haute une phrase avec « narrer » dans un contexte littéraire.",
-        "ko": "문학적 맥락에서 'narrer'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Dites à voix haute une phrase avec « moquerie » décrivant le fait de se moquer.",
+        "ko": "조롱에 대해 'moquerie'를 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "narrer",
-          "label_ko": "narrer",
+          "id": "moquerie",
+          "label_ko": "moquerie",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'narre' 또는 'narrer'를 사용했는가",
+          "criterion_ko": "'moquerie' 또는 'moqueries'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "narre",
-            "narrer"
+            "moquerie",
+            "moqueries"
           ],
           "min_matches": 1,
           "points": 55,
@@ -181,18 +177,18 @@
       }
     },
     {
-      "id": "fr_c2_u01_s2",
+      "id": "fr_c2_u06_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "« A-t-il exposé ses arguments clairement ? » On vous pose cette question. Répondez à voix haute.",
-        "ko": "'A-t-il exposé ses arguments clairement ?'(그가 논거를 명확하게 제시했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "« A-t-il répondu avec ironie ? » On vous pose cette question. Répondez à voix haute.",
+        "ko": "'A-t-il répondu avec ironie ?'(그가 반어적으로 대답했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "exposer",
-          "label_ko": "exposer",
+          "id": "ironie",
+          "label_ko": "ironie",
           "min_occurrences": 1
         }
       ],
