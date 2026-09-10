@@ -1,116 +1,56 @@
 {
   "meta": {
-    "id": "de_a1_u01",
+    "id": "de_a1_u09",
     "domain": "language",
     "lang": "de",
     "level": "a1",
-    "unit": 1,
-    "title": "Begrüßung und Vorstellung",
-    "title_ko": "인사·자기소개",
+    "unit": 9,
+    "title": "Körper, Gesundheit",
+    "title_ko": "신체·건강",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "We say « Hallo » to greet, and « Ich heiße... » to introduce ourselves.",
-    "explanation_ko": "만났을 때는 'Hallo'(안녕하세요)로 인사하고, 'Ich heiße...'(저는 ~라고 해요)로 자신의 이름을 소개합니다.",
+    "explanation_en": "To say you're in pain, we use « ... tut mir weh ». To say you're sick, we use « Ich bin krank ».",
+    "explanation_ko": "아픈 곳을 말할 때는 '...tut mir weh'(~이 아파요), 아프다는 것을 말할 때는 'Ich bin krank'(저 아파요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "Hallo, ich heiße Kim.",
-        "ko": "안녕하세요, 저는 김이라고 해요."
+        "en": "Mein Kopf tut mir weh.",
+        "ko": "머리가 아파요."
       },
       {
-        "en": "Freut mich, Sie kennenzulernen.",
-        "ko": "만나서 반가워요."
+        "en": "Ich bin heute krank.",
+        "ko": "오늘 아파요."
       },
       {
-        "en": "Wie heißen Sie?",
-        "ko": "이름이 뭐예요?"
+        "en": "Mein Bauch tut mir weh.",
+        "ko": "배가 아파요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "de_a1_u01_w1",
+      "id": "de_a1_u09_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Stellen Sie sich vor und benutzen Sie dabei „Hallo“ und „Ich heiße“.",
-        "ko": "'Hallo'와 'Ich heiße'를 사용해서 자기소개를 써 보세요."
+        "en": "Schreiben Sie, wo es Ihnen weh tut, und benutzen Sie dabei „... tut mir weh“.",
+        "ko": "아픈 곳을 '...tut mir weh'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "greeting_intro",
-          "label_ko": "인사·자기소개 표현",
+          "id": "pain",
+          "label_ko": "통증 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Hallo'를 사용했는가",
+          "criterion_ko": "'tut mir weh'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Hallo",
-            "hallo"
-          ],
-          "min_matches": 1,
-          "points": 40,
-          "required": true
-        },
-        {
-          "id": "r2",
-          "criterion_ko": "'heiße'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "heiße"
-          ],
-          "min_matches": 1,
-          "points": 40,
-          "required": true
-        },
-        {
-          "id": "r3",
-          "criterion_ko": "완전한 문장인가",
-          "type": "pattern_regex",
-          "target": "[.]$",
-          "min_matches": 1,
-          "points": 20,
-          "required": false
-        }
-      ],
-      "scoring": {
-        "max_score": 100,
-        "pass_threshold": 60,
-        "tie_break_rule": "partial_match_ratio_geq_0.8_counts_as_met",
-        "flag_for_spot_check": {
-          "blocking": false,
-          "confidence_band": 3
-        }
-      }
-    },
-    {
-      "id": "de_a1_u01_w2",
-      "skill": "writing",
-      "task_type": "qa_response",
-      "prompt": {
-        "en": "„Wie heißen Sie?“ Beantworten Sie diese Frage.",
-        "ko": "'Wie heißen Sie?'(이름이 뭐예요?)라는 질문에 답을 써 보세요."
-      },
-      "target_elements": [
-        {
-          "type": "expression",
-          "id": "name_intro",
-          "label_ko": "이름 소개 표현",
-          "min_occurrences": 1
-        }
-      ],
-      "rubric": [
-        {
-          "id": "r1",
-          "criterion_ko": "'heiße'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "heiße"
+            "tut mir weh"
           ],
           "min_matches": 1,
           "points": 60,
@@ -137,30 +77,76 @@
       }
     },
     {
-      "id": "de_a1_u01_s1",
-      "skill": "speaking",
-      "task_type": "situation_response",
+      "id": "de_a1_u09_w2",
+      "skill": "writing",
+      "task_type": "qa_response",
       "prompt": {
-        "en": "Stellen Sie sich laut vor.",
-        "ko": "소리 내어 자기소개를 해 보세요."
+        "en": "„Geht es Ihnen gut?“ Antworten Sie und benutzen Sie dabei „Ich bin krank“.",
+        "ko": "'Geht es Ihnen gut?'(괜찮아요?)라는 질문에 'Ich bin krank'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "greeting_intro",
-          "label_ko": "인사·자기소개 표현",
+          "id": "sick",
+          "label_ko": "아픔 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Hallo' 또는 'heiße'를 사용했는가",
+          "criterion_ko": "'krank'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Hallo",
-            "hallo",
-            "heiße"
+            "krank"
+          ],
+          "min_matches": 1,
+          "points": 60,
+          "required": true
+        },
+        {
+          "id": "r2",
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "[.]$",
+          "min_matches": 1,
+          "points": 40,
+          "required": false
+        }
+      ],
+      "scoring": {
+        "max_score": 100,
+        "pass_threshold": 60,
+        "tie_break_rule": "partial_match_ratio_geq_0.8_counts_as_met",
+        "flag_for_spot_check": {
+          "blocking": false,
+          "confidence_band": 3
+        }
+      }
+    },
+    {
+      "id": "de_a1_u09_s1",
+      "skill": "speaking",
+      "task_type": "situation_response",
+      "prompt": {
+        "en": "Sagen Sie laut, wo es Ihnen weh tut.",
+        "ko": "소리 내어 아픈 곳을 말해 보세요."
+      },
+      "target_elements": [
+        {
+          "type": "expression",
+          "id": "pain",
+          "label_ko": "통증 표현",
+          "min_occurrences": 1
+        }
+      ],
+      "rubric": [
+        {
+          "id": "r1",
+          "criterion_ko": "'tut mir weh'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "tut mir weh"
           ],
           "min_matches": 1,
           "points": 55,
@@ -190,30 +176,31 @@
       }
     },
     {
-      "id": "de_a1_u01_s2",
+      "id": "de_a1_u09_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Freut mich, Sie kennenzulernen.“ Das sagt jemand zu Ihnen. Antworten Sie laut.",
-        "ko": "'Freut mich, Sie kennenzulernen.'(만나서 반가워요)라는 말을 들었습니다. 소리 내어 답해 보세요."
+        "en": "„Sind Sie krank?“ Das fragt man Sie. Antworten Sie laut.",
+        "ko": "'Sind Sie krank?'(아파요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "nice_to_meet",
-          "label_ko": "반가움 표현",
+          "id": "sick",
+          "label_ko": "아픔 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Freut mich' 또는 'auch'를 사용했는가",
+          "criterion_ko": "'Ja' 또는 'Nein'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Freut mich",
-            "freut mich",
-            "auch"
+            "Ja",
+            "ja",
+            "Nein",
+            "nein"
           ],
           "min_matches": 1,
           "points": 55,
