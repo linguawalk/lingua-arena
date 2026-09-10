@@ -1,57 +1,55 @@
 {
   "meta": {
-    "id": "de_b1_u01",
+    "id": "de_b1_u06",
     "domain": "language",
     "lang": "de",
     "level": "b1",
-    "unit": 1,
-    "title": "Konjunktiv II (würde/könnte)",
-    "title_ko": "접속법 2식 (würde/könnte)",
+    "unit": 6,
+    "title": "Relativsätze mit Präposition",
+    "title_ko": "전치사가 붙은 관계문",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "Konjunktiv II with « würde + infinitive » expresses a hypothetical action. « Könnte » expresses a polite possibility.",
-    "explanation_ko": "'würde + 부정사'를 사용한 접속법 2식은 가정적인 행동을 나타냅니다. 'könnte'는 정중한 가능성을 나타냅니다.",
+    "explanation_en": "When the relative pronoun follows a preposition, we use « mit dem/der », « für den/die », etc.",
+    "explanation_ko": "관계대명사가 전치사 뒤에 올 때는 'mit dem/der', 'für den/die' 등을 사용합니다.",
     "key_expressions": [
       {
-        "en": "Ich würde gerne nach Berlin reisen.",
-        "ko": "저는 베를린으로 여행 가고 싶어요."
+        "en": "Das ist der Freund, mit dem ich reise.",
+        "ko": "이 사람은 저와 함께 여행하는 친구예요."
       },
       {
-        "en": "Könnten Sie mir bitte helfen?",
-        "ko": "저 좀 도와주실 수 있어요?"
+        "en": "Das ist die Arbeit, für die ich mich interessiere.",
+        "ko": "이건 제가 관심 있는 일이에요."
       },
       {
-        "en": "Das würde ich nicht machen.",
-        "ko": "저라면 그렇게 안 할 거예요."
+        "en": "Das ist das Thema, über das wir sprechen.",
+        "ko": "이건 저희가 이야기하는 주제예요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "de_b1_u01_w1",
+      "id": "de_b1_u06_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Schreiben Sie einen Satz mit „würde + Infinitiv“ über einen Wunsch.",
-        "ko": "'würde + 부정사'를 사용해서 소망을 표현하는 문장을 써 보세요."
+        "en": "Schreiben Sie einen Satz mit einem Relativsatz mit Präposition (z.B. „mit dem/der“).",
+        "ko": "전치사가 붙은 관계문(예: 'mit dem/der')을 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "wuerde_infinitiv",
-          "label_ko": "würde+부정사",
+          "id": "relativsatz_praeposition",
+          "label_ko": "전치사+관계문",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'würde'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "würde"
-          ],
+          "criterion_ko": "전치사와 'dem/der/das'가 함께 사용됐는가",
+          "type": "pattern_regex",
+          "target": "(mit|für|über|von|an)\\s+(dem|der|das)",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -77,40 +75,37 @@
       }
     },
     {
-      "id": "de_b1_u01_w2",
+      "id": "de_b1_u06_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Können Sie mir helfen?“ Fragen Sie höflicher und benutzen Sie dabei „Könnten Sie...?“.",
-        "ko": "'Können Sie mir helfen?'을 더 정중하게 'Könnten Sie...?'를 사용해서 다시 써 보세요."
+        "en": "„Wer ist der Freund, mit dem Sie reisen?“ Beantworten Sie diese Frage.",
+        "ko": "'Wer ist der Freund, mit dem Sie reisen?'(같이 여행하는 친구가 누구예요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "koennte",
-          "label_ko": "könnte",
+          "id": "relativsatz_praeposition",
+          "label_ko": "전치사+관계문",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Könnten Sie'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "Könnten Sie",
-            "könnten Sie"
-          ],
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "[.]$",
           "min_matches": 1,
           "points": 60,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "완전한 문장인가",
-          "type": "pattern_regex",
-          "target": "[?]$",
-          "min_matches": 1,
+          "criterion_ko": "분량이 충분한가 (최소 5자)",
+          "type": "length_check",
+          "unit": "chars",
+          "min": 5,
           "points": 40,
           "required": false
         }
@@ -126,28 +121,28 @@
       }
     },
     {
-      "id": "de_b1_u01_s1",
+      "id": "de_b1_u06_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Sagen Sie laut einen Satz mit „würde“.",
-        "ko": "소리 내어 'würde'를 사용한 문장을 말해 보세요."
+        "en": "Sagen Sie laut einen Satz mit „über das/den“.",
+        "ko": "소리 내어 'über das/den'을 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "wuerde_infinitiv",
-          "label_ko": "würde+부정사",
+          "id": "relativsatz_praeposition",
+          "label_ko": "전치사+관계문",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'würde'를 사용했는가",
+          "criterion_ko": "'über'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "würde"
+            "über"
           ],
           "min_matches": 1,
           "points": 55,
@@ -177,30 +172,31 @@
       }
     },
     {
-      "id": "de_b1_u01_s2",
+      "id": "de_b1_u06_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Könnten Sie das noch einmal sagen?“ Das fragt man Sie. Antworten Sie laut.",
-        "ko": "'Könnten Sie das noch einmal sagen?'(다시 한번 말씀해 주실 수 있어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "„Ist das die Arbeit, für die Sie sich interessieren?“ Das fragt man Sie. Antworten Sie laut.",
+        "ko": "'Ist das die Arbeit, für die Sie sich interessieren?'(관심 있는 일이 이거예요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "koennte",
-          "label_ko": "könnte",
+          "id": "relativsatz_praeposition",
+          "label_ko": "전치사+관계문",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Ja' 또는 'Natürlich'를 사용했는가",
+          "criterion_ko": "'Ja' 또는 'Nein'을 사용했는가",
           "type": "keyword_match",
           "target": [
             "Ja",
             "ja",
-            "Natürlich"
+            "Nein",
+            "nein"
           ],
           "min_matches": 1,
           "points": 55,
