@@ -1,58 +1,55 @@
 {
   "meta": {
-    "id": "de_c2_u01",
+    "id": "de_c2_u03",
     "domain": "language",
     "lang": "de",
     "level": "c2",
-    "unit": 1,
-    "title": "Narrieren/darlegen/schildern",
-    "title_ko": "말하기 유의어: narrieren/darlegen/schildern",
+    "unit": 3,
+    "title": "Literarisches Register: gehobene Syntax",
+    "title_ko": "문학체: 정교한 통사",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Narrieren » is literary and evokes storytelling, « darlegen » is more factual and structured, « schildern » implies a vivid, detailed description.",
-    "explanation_ko": "'narrieren'(이야기하다)은 문학적이고 서사를 연상시키며, 'darlegen'(제시하다)은 더 사실적이고 구조화되어 있으며, 'schildern'(묘사하다)은 생생하고 상세한 묘사를 나타냅니다.",
+    "explanation_en": "Literary register uses structures like inversion after « kaum » (« Kaum war er angekommen, da... ») for a more elegant style.",
+    "explanation_ko": "문학체는 'kaum'(~하자마자) 뒤의 도치 같은 구조('Kaum war er angekommen, da...')를 사용해서 더 우아한 문체를 만듭니다.",
     "key_expressions": [
       {
-        "en": "Der Autor narriert die Abenteuer eines jungen Mannes.",
-        "ko": "저자는 한 청년의 모험을 이야기해요."
+        "en": "Kaum war er angekommen, da musste er schon wieder gehen.",
+        "ko": "그가 도착하자마자 그는 이미 다시 떠나야 했다."
       },
       {
-        "en": "Er legte seine Argumente klar dar.",
-        "ko": "그는 자신의 논거를 명확하게 제시했어요."
+        "en": "So mancher hätte anders gehandelt.",
+        "ko": "많은 사람이 다르게 행동했을 것이다."
       },
       {
-        "en": "Sie schilderte die Ereignisse sehr lebendig.",
-        "ko": "그녀는 사건들을 매우 생생하게 묘사했어요."
+        "en": "Selten hat man solch eine Leistung gesehen.",
+        "ko": "이런 성과는 좀처럼 볼 수 없었다."
       }
     ]
   },
   "tasks": [
     {
-      "id": "de_c2_u01_w1",
+      "id": "de_c2_u03_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Schreiben Sie einen Satz mit „darlegen“, der eine strukturierte Präsentation von Ideen beschreibt.",
-        "ko": "구조화된 생각 발표를 'darlegen'을 사용해서 써 보세요."
+        "en": "Schreiben Sie einen Satz mit „Kaum... da...“ und Inversion in einem literarischen Stil.",
+        "ko": "문학체로 'Kaum...da...'와 도치를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "darlegen",
-          "label_ko": "darlegen",
+          "id": "kaum_da",
+          "label_ko": "Kaum...da",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'dargelegt' 또는 'darlegen'을 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "dargelegt",
-            "darlegen"
-          ],
+          "criterion_ko": "'Kaum'과 'da'를 사용했는가",
+          "type": "pattern_regex",
+          "target": "Kaum.{0,25}da",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -78,42 +75,37 @@
       }
     },
     {
-      "id": "de_c2_u01_w2",
+      "id": "de_c2_u03_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Hat sie die Ereignisse geschildert?“ Beantworten Sie diese Frage.",
-        "ko": "'Hat sie die Ereignisse geschildert?'(그녀가 사건들을 묘사했어요?)라는 질문에 답을 써 보세요."
+        "en": "„Hat man selten solch eine Leistung gesehen?“ Antworten Sie im literarischen Stil.",
+        "ko": "'Hat man selten solch eine Leistung gesehen?'(이런 성과는 좀처럼 볼 수 없었어요?)라는 질문에 문학체로 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "schildern",
-          "label_ko": "schildern",
+          "id": "selten_inversion",
+          "label_ko": "selten+도치",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Ja' 또는 'Nein'을 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "Ja",
-            "ja",
-            "Nein",
-            "nein"
-          ],
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "[.]$",
           "min_matches": 1,
           "points": 60,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "완전한 문장인가",
-          "type": "pattern_regex",
-          "target": "[.]$",
-          "min_matches": 1,
+          "criterion_ko": "분량이 충분한가 (최소 8자)",
+          "type": "length_check",
+          "unit": "chars",
+          "min": 8,
           "points": 40,
           "required": false
         }
@@ -129,31 +121,28 @@
       }
     },
     {
-      "id": "de_c2_u01_s1",
+      "id": "de_c2_u03_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Sagen Sie laut einen Satz mit „narrieren“ in einem literarischen Kontext.",
-        "ko": "문학적 맥락에서 'narrieren'을 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Sagen Sie laut einen Satz in einem gehobenen literarischen Stil.",
+        "ko": "소리 내어 정교한 문학체 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "narrieren",
-          "label_ko": "narrieren",
+          "id": "literarisches_register",
+          "label_ko": "문학체",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'narriert' 또는 'narrieren'을 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "narriert",
-            "narrieren"
-          ],
-          "min_matches": 1,
+          "criterion_ko": "분량이 충분한가 (최소 10자)",
+          "type": "length_check",
+          "unit": "chars",
+          "min": 10,
           "points": 55,
           "required": true
         },
@@ -181,18 +170,18 @@
       }
     },
     {
-      "id": "de_c2_u01_s2",
+      "id": "de_c2_u03_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Hat er seine Argumente klar dargelegt?“ Das fragt man Sie. Antworten Sie laut.",
-        "ko": "'Hat er seine Argumente klar dargelegt?'(그가 논거를 명확하게 제시했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "„Ist das literarische Register eleganter als das Standardregister?“ Das fragt man Sie. Antworten Sie laut.",
+        "ko": "'Ist das literarische Register eleganter als das Standardregister?'(문학체가 표준체보다 우아한가요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "darlegen",
-          "label_ko": "darlegen",
+          "id": "literarisches_register",
+          "label_ko": "문학체",
           "min_occurrences": 1
         }
       ],

@@ -1,57 +1,56 @@
 {
   "meta": {
-    "id": "de_c2_u01",
+    "id": "de_c2_u10",
     "domain": "language",
     "lang": "de",
     "level": "c2",
-    "unit": 1,
-    "title": "Narrieren/darlegen/schildern",
-    "title_ko": "말하기 유의어: narrieren/darlegen/schildern",
+    "unit": 10,
+    "title": "Juristisch-formelles Register",
+    "title_ko": "법률·격식체",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Narrieren » is literary and evokes storytelling, « darlegen » is more factual and structured, « schildern » implies a vivid, detailed description.",
-    "explanation_ko": "'narrieren'(이야기하다)은 문학적이고 서사를 연상시키며, 'darlegen'(제시하다)은 더 사실적이고 구조화되어 있으며, 'schildern'(묘사하다)은 생생하고 상세한 묘사를 나타냅니다.",
+    "explanation_en": "« In Anbetracht dessen, dass » introduces a formal legal reason, « gemäß » expresses compliance with a rule. Used in official documents.",
+    "explanation_ko": "'in Anbetracht dessen, dass'(~을 고려하여)는 격식 있는 법적 근거를 도입하고, 'gemäß'(~에 따라)는 규칙과의 일치를 나타냅니다. 공식 문서에서 사용됩니다.",
     "key_expressions": [
       {
-        "en": "Der Autor narriert die Abenteuer eines jungen Mannes.",
-        "ko": "저자는 한 청년의 모험을 이야기해요."
+        "en": "In Anbetracht dessen, dass die Fakten feststehen, entscheidet das Gericht...",
+        "ko": "사실이 확립되었음을 고려하여, 법원은 결정한다..."
       },
       {
-        "en": "Er legte seine Argumente klar dar.",
-        "ko": "그는 자신의 논거를 명확하게 제시했어요."
+        "en": "Gemäß dem Gesetz müssen wir so handeln.",
+        "ko": "법에 따라 저희는 이렇게 행동해야 해요."
       },
       {
-        "en": "Sie schilderte die Ereignisse sehr lebendig.",
-        "ko": "그녀는 사건들을 매우 생생하게 묘사했어요."
+        "en": "Dieses Dokument ist im formellen juristischen Stil verfasst.",
+        "ko": "이 문서는 격식 있는 법률 문체로 작성됐어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "de_c2_u01_w1",
+      "id": "de_c2_u10_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Schreiben Sie einen Satz mit „darlegen“, der eine strukturierte Präsentation von Ideen beschreibt.",
-        "ko": "구조화된 생각 발표를 'darlegen'을 사용해서 써 보세요."
+        "en": "Schreiben Sie einen Satz mit „gemäß“, der Konformität mit einer Regel ausdrückt.",
+        "ko": "규칙과의 일치를 'gemäß'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "darlegen",
-          "label_ko": "darlegen",
+          "id": "gemaess",
+          "label_ko": "gemäß",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'dargelegt' 또는 'darlegen'을 사용했는가",
+          "criterion_ko": "'gemäß'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "dargelegt",
-            "darlegen"
+            "gemäß"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,31 +77,28 @@
       }
     },
     {
-      "id": "de_c2_u01_w2",
+      "id": "de_c2_u10_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Hat sie die Ereignisse geschildert?“ Beantworten Sie diese Frage.",
-        "ko": "'Hat sie die Ereignisse geschildert?'(그녀가 사건들을 묘사했어요?)라는 질문에 답을 써 보세요."
+        "en": "„Müssen wir nach dem Gesetz handeln?“ Antworten Sie mit „gemäß“.",
+        "ko": "'Müssen wir nach dem Gesetz handeln?'(법에 따라 행동해야 하나요?)라는 질문에 'gemäß'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "schildern",
-          "label_ko": "schildern",
+          "id": "gemaess",
+          "label_ko": "gemäß",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Ja' 또는 'Nein'을 사용했는가",
+          "criterion_ko": "'gemäß'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Ja",
-            "ja",
-            "Nein",
-            "nein"
+            "gemäß"
           ],
           "min_matches": 1,
           "points": 60,
@@ -129,29 +125,28 @@
       }
     },
     {
-      "id": "de_c2_u01_s1",
+      "id": "de_c2_u10_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Sagen Sie laut einen Satz mit „narrieren“ in einem literarischen Kontext.",
-        "ko": "문학적 맥락에서 'narrieren'을 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Sagen Sie laut einen Satz mit „in Anbetracht dessen, dass“ in einem formellen Stil.",
+        "ko": "격식 있는 문체로 'in Anbetracht dessen, dass'를 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "narrieren",
-          "label_ko": "narrieren",
+          "id": "in_anbetracht",
+          "label_ko": "in Anbetracht dessen",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'narriert' 또는 'narrieren'을 사용했는가",
+          "criterion_ko": "'Anbetracht'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "narriert",
-            "narrieren"
+            "Anbetracht"
           ],
           "min_matches": 1,
           "points": 55,
@@ -181,18 +176,18 @@
       }
     },
     {
-      "id": "de_c2_u01_s2",
+      "id": "de_c2_u10_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Hat er seine Argumente klar dargelegt?“ Das fragt man Sie. Antworten Sie laut.",
-        "ko": "'Hat er seine Argumente klar dargelegt?'(그가 논거를 명확하게 제시했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "„Ist dieses Dokument im formellen juristischen Stil verfasst?“ Das fragt man Sie. Antworten Sie laut.",
+        "ko": "'Ist dieses Dokument im formellen juristischen Stil verfasst?'(이 문서가 격식 있는 법률 문체로 작성됐어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "darlegen",
-          "label_ko": "darlegen",
+          "id": "juristischer_stil",
+          "label_ko": "juristischer Stil",
           "min_occurrences": 1
         }
       ],

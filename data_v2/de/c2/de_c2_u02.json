@@ -1,57 +1,56 @@
 {
   "meta": {
-    "id": "de_c2_u01",
+    "id": "de_c2_u02",
     "domain": "language",
     "lang": "de",
     "level": "c2",
-    "unit": 1,
-    "title": "Narrieren/darlegen/schildern",
-    "title_ko": "말하기 유의어: narrieren/darlegen/schildern",
+    "unit": 2,
+    "title": "Starr vs. altmodisch",
+    "title_ko": "함축: starr vs altmodisch",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Narrieren » is literary and evokes storytelling, « darlegen » is more factual and structured, « schildern » implies a vivid, detailed description.",
-    "explanation_ko": "'narrieren'(이야기하다)은 문학적이고 서사를 연상시키며, 'darlegen'(제시하다)은 더 사실적이고 구조화되어 있으며, 'schildern'(묘사하다)은 생생하고 상세한 묘사를 나타냅니다.",
+    "explanation_en": "« Starr » expresses general inflexibility, « altmodisch » expresses specifically outdated and conservative ideas.",
+    "explanation_ko": "'starr'(경직된)는 일반적인 융통성 없음을, 'altmodisch'(구식의)는 특히 시대에 뒤떨어지고 보수적인 생각을 나타냅니다.",
     "key_expressions": [
       {
-        "en": "Der Autor narriert die Abenteuer eines jungen Mannes.",
-        "ko": "저자는 한 청년의 모험을 이야기해요."
+        "en": "Sein Zeitplan ist sehr starr.",
+        "ko": "그의 일정은 매우 경직되어 있어요."
       },
       {
-        "en": "Er legte seine Argumente klar dar.",
-        "ko": "그는 자신의 논거를 명확하게 제시했어요."
+        "en": "Seine Ansichten sind etwas altmodisch.",
+        "ko": "그의 생각은 좀 구식이에요."
       },
       {
-        "en": "Sie schilderte die Ereignisse sehr lebendig.",
-        "ko": "그녀는 사건들을 매우 생생하게 묘사했어요."
+        "en": "Starr zu sein ist nicht dasselbe wie altmodisch zu sein.",
+        "ko": "경직된 것과 구식인 것은 다른 거예요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "de_c2_u01_w1",
+      "id": "de_c2_u02_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Schreiben Sie einen Satz mit „darlegen“, der eine strukturierte Präsentation von Ideen beschreibt.",
-        "ko": "구조화된 생각 발표를 'darlegen'을 사용해서 써 보세요."
+        "en": "Schreiben Sie einen Satz mit „starr“, der allgemeine Inflexibilität beschreibt.",
+        "ko": "일반적인 융통성 없음을 'starr'를 사용해서 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "darlegen",
-          "label_ko": "darlegen",
+          "id": "starr",
+          "label_ko": "starr",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'dargelegt' 또는 'darlegen'을 사용했는가",
+          "criterion_ko": "'starr'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "dargelegt",
-            "darlegen"
+            "starr"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,31 +77,28 @@
       }
     },
     {
-      "id": "de_c2_u01_w2",
+      "id": "de_c2_u02_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Hat sie die Ereignisse geschildert?“ Beantworten Sie diese Frage.",
-        "ko": "'Hat sie die Ereignisse geschildert?'(그녀가 사건들을 묘사했어요?)라는 질문에 답을 써 보세요."
+        "en": "„Sind seine Ansichten veraltet?“ Antworten Sie mit „altmodisch“.",
+        "ko": "'Sind seine Ansichten veraltet?'(그의 생각이 시대에 뒤떨어졌어요?)라는 질문에 'altmodisch'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "schildern",
-          "label_ko": "schildern",
+          "id": "altmodisch",
+          "label_ko": "altmodisch",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Ja' 또는 'Nein'을 사용했는가",
+          "criterion_ko": "'altmodisch'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Ja",
-            "ja",
-            "Nein",
-            "nein"
+            "altmodisch"
           ],
           "min_matches": 1,
           "points": 60,
@@ -129,29 +125,28 @@
       }
     },
     {
-      "id": "de_c2_u01_s1",
+      "id": "de_c2_u02_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Sagen Sie laut einen Satz mit „narrieren“ in einem literarischen Kontext.",
-        "ko": "문학적 맥락에서 'narrieren'을 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Sagen Sie laut einen Satz mit „altmodisch“, der veraltete Ideen beschreibt.",
+        "ko": "시대에 뒤떨어진 생각을 'altmodisch'를 사용해서 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "narrieren",
-          "label_ko": "narrieren",
+          "id": "altmodisch",
+          "label_ko": "altmodisch",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'narriert' 또는 'narrieren'을 사용했는가",
+          "criterion_ko": "'altmodisch'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "narriert",
-            "narrieren"
+            "altmodisch"
           ],
           "min_matches": 1,
           "points": 55,
@@ -181,18 +176,18 @@
       }
     },
     {
-      "id": "de_c2_u01_s2",
+      "id": "de_c2_u02_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Hat er seine Argumente klar dargelegt?“ Das fragt man Sie. Antworten Sie laut.",
-        "ko": "'Hat er seine Argumente klar dargelegt?'(그가 논거를 명확하게 제시했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "„Ist sein Zeitplan starr?“ Das fragt man Sie. Antworten Sie laut.",
+        "ko": "'Ist sein Zeitplan starr?'(그의 일정이 경직됐어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "darlegen",
-          "label_ko": "darlegen",
+          "id": "starr",
+          "label_ko": "starr",
           "min_occurrences": 1
         }
       ],
