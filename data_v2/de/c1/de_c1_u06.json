@@ -1,58 +1,55 @@
 {
   "meta": {
-    "id": "de_c1_u01",
+    "id": "de_c1_u06",
     "domain": "language",
     "lang": "de",
     "level": "c1",
-    "unit": 1,
-    "title": "Synonyme von 'sagen' (erklären/behaupten/äußern/betonen)",
-    "title_ko": "말하기 유의어 (erklären/behaupten/äußern/betonen)",
+    "unit": 6,
+    "title": "Kollokationen mit machen/nehmen",
+    "title_ko": "콜로케이션 (machen/nehmen)",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Erklären » explains something clearly, « behaupten » asserts a claim (sometimes questionably), « äußern » expresses an opinion, « betonen » emphasizes a point.",
-    "explanation_ko": "'erklären'(설명하다)은 무언가를 명확하게 설명하고, 'behaupten'(주장하다)은 주장을 내세우며(때로는 의심스럽게), 'äußern'(표명하다)은 의견을 표현하고, 'betonen'(강조하다)은 요점을 강조합니다.",
+    "explanation_en": "« Eine Entscheidung treffen » (make a decision), « Rücksicht nehmen » (be considerate) are fixed collocations often using specific verbs.",
+    "explanation_ko": "'eine Entscheidung treffen'(결정을 내리다), 'Rücksicht nehmen'(배려하다) 등은 특정 동사를 사용하는 고정된 콜로케이션입니다.",
     "key_expressions": [
       {
-        "en": "Er erklärt das Problem im Detail.",
-        "ko": "그는 문제를 자세히 설명해요."
+        "en": "Ich muss eine wichtige Entscheidung treffen.",
+        "ko": "저는 중요한 결정을 내려야 해요."
       },
       {
-        "en": "Sie behauptet, dass es wahr ist.",
-        "ko": "그녀는 그게 사실이라고 주장해요."
+        "en": "Bitte nehmen Sie Rücksicht auf andere.",
+        "ko": "다른 사람들을 배려해 주세요."
       },
       {
-        "en": "Er betont die Wichtigkeit dieses Punktes.",
-        "ko": "그는 이 점의 중요성을 강조해요."
+        "en": "Er macht sich Sorgen um seine Zukunft.",
+        "ko": "그는 자신의 미래를 걱정해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "de_c1_u01_w1",
+      "id": "de_c1_u06_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Schreiben Sie einen Satz mit „erklären“, um etwas klar zu erklären.",
-        "ko": "'erklären'을 사용해서 무언가를 명확하게 설명하는 문장을 써 보세요."
+        "en": "Schreiben Sie einen Satz mit „eine Entscheidung treffen“.",
+        "ko": "'eine Entscheidung treffen'을 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "erklaeren",
-          "label_ko": "erklären",
+          "id": "entscheidung_treffen",
+          "label_ko": "Entscheidung treffen",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'erklärt' 또는 'erkläre'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "erklärt",
-            "erkläre"
-          ],
+          "criterion_ko": "'Entscheidung'과 'treffen/trifft'를 사용했는가",
+          "type": "pattern_regex",
+          "target": "Entscheidung.{0,15}(treffe|trifft|treffen)",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -78,29 +75,31 @@
       }
     },
     {
-      "id": "de_c1_u01_w2",
+      "id": "de_c1_u06_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Ist es wahr?“ Antworten Sie und benutzen Sie dabei „behaupten“.",
-        "ko": "'Ist es wahr?'(그게 사실이에요?)라는 질문에 'behaupten'을 사용해서 답을 써 보세요."
+        "en": "„Nehmen Sie Rücksicht auf andere?“ Beantworten Sie diese Frage.",
+        "ko": "'Nehmen Sie Rücksicht auf andere?'(다른 사람들을 배려해요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "behaupten",
-          "label_ko": "behaupten",
+          "id": "ruecksicht_nehmen",
+          "label_ko": "Rücksicht nehmen",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'behauptet' 또는 'behaupte'를 사용했는가",
+          "criterion_ko": "'Ja' 또는 'Nein'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "behauptet",
-            "behaupte"
+            "Ja",
+            "ja",
+            "Nein",
+            "nein"
           ],
           "min_matches": 1,
           "points": 60,
@@ -127,29 +126,28 @@
       }
     },
     {
-      "id": "de_c1_u01_s1",
+      "id": "de_c1_u06_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Sagen Sie laut einen Satz mit „betonen“, um einen wichtigen Punkt zu betonen.",
-        "ko": "'betonen'을 사용해서 중요한 점을 강조하는 문장을 소리 내어 말해 보세요."
+        "en": "Sagen Sie laut einen Satz mit „sich Sorgen machen“.",
+        "ko": "소리 내어 'sich Sorgen machen'을 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "betonen",
-          "label_ko": "betonen",
+          "id": "sorgen_machen",
+          "label_ko": "Sorgen machen",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'betont' 또는 'betone'를 사용했는가",
+          "criterion_ko": "'Sorgen'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "betont",
-            "betone"
+            "Sorgen"
           ],
           "min_matches": 1,
           "points": 55,
@@ -179,18 +177,18 @@
       }
     },
     {
-      "id": "de_c1_u01_s2",
+      "id": "de_c1_u06_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Äußert sie ihre Meinung offen?“ Das fragt man Sie. Antworten Sie laut.",
-        "ko": "'Äußert sie ihre Meinung offen?'(그녀가 의견을 솔직하게 표명해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "„Müssen Sie eine wichtige Entscheidung treffen?“ Das fragt man Sie. Antworten Sie laut.",
+        "ko": "'Müssen Sie eine wichtige Entscheidung treffen?'(중요한 결정을 내려야 해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "aeussern",
-          "label_ko": "äußern",
+          "id": "entscheidung_treffen",
+          "label_ko": "Entscheidung treffen",
           "min_occurrences": 1
         }
       ],

@@ -1,57 +1,56 @@
 {
   "meta": {
-    "id": "de_c1_u01",
+    "id": "de_c1_u07",
     "domain": "language",
     "lang": "de",
     "level": "c1",
-    "unit": 1,
-    "title": "Synonyme von 'sagen' (erklären/behaupten/äußern/betonen)",
-    "title_ko": "말하기 유의어 (erklären/behaupten/äußern/betonen)",
+    "unit": 7,
+    "title": "Kollokationen mit haben (Vertrauen haben, Sinn haben für)",
+    "title_ko": "콜로케이션 (haben)",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Erklären » explains something clearly, « behaupten » asserts a claim (sometimes questionably), « äußern » expresses an opinion, « betonen » emphasizes a point.",
-    "explanation_ko": "'erklären'(설명하다)은 무언가를 명확하게 설명하고, 'behaupten'(주장하다)은 주장을 내세우며(때로는 의심스럽게), 'äußern'(표명하다)은 의견을 표현하고, 'betonen'(강조하다)은 요점을 강조합니다.",
+    "explanation_en": "« Vertrauen haben » (to have trust), « Sinn haben für » (to have a sense/feel for) are fixed collocations with « haben ».",
+    "explanation_ko": "'Vertrauen haben'(신뢰를 갖다), 'Sinn haben für'(~에 감각이 있다)는 'haben'을 사용하는 고정된 콜로케이션입니다.",
     "key_expressions": [
       {
-        "en": "Er erklärt das Problem im Detail.",
-        "ko": "그는 문제를 자세히 설명해요."
+        "en": "Ich habe Vertrauen in dich.",
+        "ko": "저는 당신을 신뢰해요."
       },
       {
-        "en": "Sie behauptet, dass es wahr ist.",
-        "ko": "그녀는 그게 사실이라고 주장해요."
+        "en": "Sie hat einen guten Sinn für Humor.",
+        "ko": "그녀는 유머 감각이 좋아요."
       },
       {
-        "en": "Er betont die Wichtigkeit dieses Punktes.",
-        "ko": "그는 이 점의 중요성을 강조해요."
+        "en": "Er hat keine Ahnung, was passiert ist.",
+        "ko": "그는 무슨 일이 일어났는지 전혀 몰라요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "de_c1_u01_w1",
+      "id": "de_c1_u07_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Schreiben Sie einen Satz mit „erklären“, um etwas klar zu erklären.",
-        "ko": "'erklären'을 사용해서 무언가를 명확하게 설명하는 문장을 써 보세요."
+        "en": "Schreiben Sie einen Satz mit „Vertrauen haben“.",
+        "ko": "'Vertrauen haben'을 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "erklaeren",
-          "label_ko": "erklären",
+          "id": "vertrauen_haben",
+          "label_ko": "Vertrauen haben",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'erklärt' 또는 'erkläre'를 사용했는가",
+          "criterion_ko": "'Vertrauen'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "erklärt",
-            "erkläre"
+            "Vertrauen"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,29 +77,31 @@
       }
     },
     {
-      "id": "de_c1_u01_w2",
+      "id": "de_c1_u07_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Ist es wahr?“ Antworten Sie und benutzen Sie dabei „behaupten“.",
-        "ko": "'Ist es wahr?'(그게 사실이에요?)라는 질문에 'behaupten'을 사용해서 답을 써 보세요."
+        "en": "„Hat sie einen guten Sinn für Humor?“ Beantworten Sie diese Frage.",
+        "ko": "'Hat sie einen guten Sinn für Humor?'(그녀가 유머 감각이 좋아요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "behaupten",
-          "label_ko": "behaupten",
+          "id": "sinn_haben",
+          "label_ko": "Sinn haben für",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'behauptet' 또는 'behaupte'를 사용했는가",
+          "criterion_ko": "'Ja' 또는 'Nein'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "behauptet",
-            "behaupte"
+            "Ja",
+            "ja",
+            "Nein",
+            "nein"
           ],
           "min_matches": 1,
           "points": 60,
@@ -127,29 +128,28 @@
       }
     },
     {
-      "id": "de_c1_u01_s1",
+      "id": "de_c1_u07_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Sagen Sie laut einen Satz mit „betonen“, um einen wichtigen Punkt zu betonen.",
-        "ko": "'betonen'을 사용해서 중요한 점을 강조하는 문장을 소리 내어 말해 보세요."
+        "en": "Sagen Sie laut einen Satz mit „keine Ahnung haben“.",
+        "ko": "소리 내어 'keine Ahnung haben'을 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "betonen",
-          "label_ko": "betonen",
+          "id": "ahnung_haben",
+          "label_ko": "Ahnung haben",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'betont' 또는 'betone'를 사용했는가",
+          "criterion_ko": "'Ahnung'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "betont",
-            "betone"
+            "Ahnung"
           ],
           "min_matches": 1,
           "points": 55,
@@ -179,18 +179,18 @@
       }
     },
     {
-      "id": "de_c1_u01_s2",
+      "id": "de_c1_u07_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Äußert sie ihre Meinung offen?“ Das fragt man Sie. Antworten Sie laut.",
-        "ko": "'Äußert sie ihre Meinung offen?'(그녀가 의견을 솔직하게 표명해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "„Haben Sie Vertrauen in ihn?“ Das fragt man Sie. Antworten Sie laut.",
+        "ko": "'Haben Sie Vertrauen in ihn?'(그를 신뢰해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "aeussern",
-          "label_ko": "äußern",
+          "id": "vertrauen_haben",
+          "label_ko": "Vertrauen haben",
           "min_occurrences": 1
         }
       ],

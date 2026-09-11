@@ -1,57 +1,56 @@
 {
   "meta": {
-    "id": "de_c1_u01",
+    "id": "de_c1_u09",
     "domain": "language",
     "lang": "de",
     "level": "c1",
-    "unit": 1,
-    "title": "Synonyme von 'sagen' (erklären/behaupten/äußern/betonen)",
-    "title_ko": "말하기 유의어 (erklären/behaupten/äußern/betonen)",
+    "unit": 9,
+    "title": "Geschäftsvokabular: Finanzen",
+    "title_ko": "비즈니스 어휘: 재무",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Erklären » explains something clearly, « behaupten » asserts a claim (sometimes questionably), « äußern » expresses an opinion, « betonen » emphasizes a point.",
-    "explanation_ko": "'erklären'(설명하다)은 무언가를 명확하게 설명하고, 'behaupten'(주장하다)은 주장을 내세우며(때로는 의심스럽게), 'äußern'(표명하다)은 의견을 표현하고, 'betonen'(강조하다)은 요점을 강조합니다.",
+    "explanation_en": "« Gewinn » (profit), « Verlust » (loss), « Budget » (budget) are essential finance vocabulary in business contexts.",
+    "explanation_ko": "'Gewinn'(이익), 'Verlust'(손실), 'Budget'(예산)은 비즈니스 맥락에서 필수적인 재무 어휘입니다.",
     "key_expressions": [
       {
-        "en": "Er erklärt das Problem im Detail.",
-        "ko": "그는 문제를 자세히 설명해요."
+        "en": "Das Unternehmen hat einen hohen Gewinn erzielt.",
+        "ko": "그 회사는 큰 이익을 냈어요."
       },
       {
-        "en": "Sie behauptet, dass es wahr ist.",
-        "ko": "그녀는 그게 사실이라고 주장해요."
+        "en": "Wir müssen den Verlust minimieren.",
+        "ko": "저희는 손실을 최소화해야 해요."
       },
       {
-        "en": "Er betont die Wichtigkeit dieses Punktes.",
-        "ko": "그는 이 점의 중요성을 강조해요."
+        "en": "Das Budget für dieses Jahr ist begrenzt.",
+        "ko": "올해 예산은 한정돼 있어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "de_c1_u01_w1",
+      "id": "de_c1_u09_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Schreiben Sie einen Satz mit „erklären“, um etwas klar zu erklären.",
-        "ko": "'erklären'을 사용해서 무언가를 명확하게 설명하는 문장을 써 보세요."
+        "en": "Schreiben Sie einen Satz mit „Gewinn“.",
+        "ko": "'Gewinn'을 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "erklaeren",
-          "label_ko": "erklären",
+          "id": "gewinn",
+          "label_ko": "Gewinn",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'erklärt' 또는 'erkläre'를 사용했는가",
+          "criterion_ko": "'Gewinn'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "erklärt",
-            "erkläre"
+            "Gewinn"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,29 +77,31 @@
       }
     },
     {
-      "id": "de_c1_u01_w2",
+      "id": "de_c1_u09_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Ist es wahr?“ Antworten Sie und benutzen Sie dabei „behaupten“.",
-        "ko": "'Ist es wahr?'(그게 사실이에요?)라는 질문에 'behaupten'을 사용해서 답을 써 보세요."
+        "en": "„Müssen Sie den Verlust minimieren?“ Beantworten Sie diese Frage.",
+        "ko": "'Müssen Sie den Verlust minimieren?'(손실을 최소화해야 해요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "behaupten",
-          "label_ko": "behaupten",
+          "id": "verlust",
+          "label_ko": "Verlust",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'behauptet' 또는 'behaupte'를 사용했는가",
+          "criterion_ko": "'Ja' 또는 'Nein'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "behauptet",
-            "behaupte"
+            "Ja",
+            "ja",
+            "Nein",
+            "nein"
           ],
           "min_matches": 1,
           "points": 60,
@@ -127,29 +128,28 @@
       }
     },
     {
-      "id": "de_c1_u01_s1",
+      "id": "de_c1_u09_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Sagen Sie laut einen Satz mit „betonen“, um einen wichtigen Punkt zu betonen.",
-        "ko": "'betonen'을 사용해서 중요한 점을 강조하는 문장을 소리 내어 말해 보세요."
+        "en": "Sagen Sie laut einen Satz mit „Budget“.",
+        "ko": "소리 내어 'Budget'을 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "betonen",
-          "label_ko": "betonen",
+          "id": "budget",
+          "label_ko": "Budget",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'betont' 또는 'betone'를 사용했는가",
+          "criterion_ko": "'Budget'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "betont",
-            "betone"
+            "Budget"
           ],
           "min_matches": 1,
           "points": 55,
@@ -179,18 +179,18 @@
       }
     },
     {
-      "id": "de_c1_u01_s2",
+      "id": "de_c1_u09_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Äußert sie ihre Meinung offen?“ Das fragt man Sie. Antworten Sie laut.",
-        "ko": "'Äußert sie ihre Meinung offen?'(그녀가 의견을 솔직하게 표명해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "„Hat das Unternehmen einen hohen Gewinn erzielt?“ Das fragt man Sie. Antworten Sie laut.",
+        "ko": "'Hat das Unternehmen einen hohen Gewinn erzielt?'(회사가 큰 이익을 냈어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "aeussern",
-          "label_ko": "äußern",
+          "id": "gewinn",
+          "label_ko": "Gewinn",
           "min_occurrences": 1
         }
       ],
