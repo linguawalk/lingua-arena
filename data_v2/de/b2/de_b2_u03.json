@@ -1,58 +1,55 @@
 {
   "meta": {
-    "id": "de_b2_u01",
+    "id": "de_b2_u03",
     "domain": "language",
     "lang": "de",
     "level": "b2",
-    "unit": 1,
-    "title": "Konjunktiv I (indirekte Rede, formal)",
-    "title_ko": "접속법 1식 (간접화법, 격식체)",
+    "unit": 3,
+    "title": "Erweiterte Partizipialkonstruktionen",
+    "title_ko": "확장된 분사구문",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "Konjunktiv I (« er sei, er habe ») is used in formal/written indirect speech, especially in news reports.",
-    "explanation_ko": "접속법 1식('er sei, er habe')은 격식체·문어체 간접화법, 특히 뉴스 보도에서 사용됩니다.",
+    "explanation_en": "Extended participial constructions (« der von allen geliebte Lehrer ») compress a relative clause into a pre-noun phrase, typical of formal written German.",
+    "explanation_ko": "확장된 분사구문('der von allen geliebte Lehrer')은 관계문을 명사 앞 구문으로 압축하며, 격식 있는 문어체 독일어의 전형입니다.",
     "key_expressions": [
       {
-        "en": "Der Minister sagte, die Lage sei ernst.",
-        "ko": "장관은 상황이 심각하다고 말했어요."
+        "en": "Der von allen geliebte Lehrer ist in Rente gegangen.",
+        "ko": "모두에게 사랑받는 선생님이 은퇴했어요."
       },
       {
-        "en": "Sie erklärte, sie habe keine Zeit.",
-        "ko": "그녀는 시간이 없다고 설명했어요."
+        "en": "Das lange erwartete Ergebnis kam endlich.",
+        "ko": "오랫동안 기다려온 결과가 드디어 나왔어요."
       },
       {
-        "en": "Er behauptete, er kenne die Wahrheit.",
-        "ko": "그는 진실을 안다고 주장했어요."
+        "en": "Die schnell wachsende Stadt braucht mehr Wohnungen.",
+        "ko": "빠르게 성장하는 도시는 더 많은 주택이 필요해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "de_b2_u01_w1",
+      "id": "de_b2_u03_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Schreiben Sie einen Satz mit Konjunktiv I (z.B. „sei“, „habe“) in indirekter Rede.",
-        "ko": "접속법 1식(예: 'sei', 'habe')을 사용해서 간접화법 문장을 써 보세요."
+        "en": "Schreiben Sie einen Satz mit einer erweiterten Partizipialkonstruktion (z.B. „der von allen geliebte...“).",
+        "ko": "확장된 분사구문(예: 'der von allen geliebte...')을 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "konjunktiv1",
-          "label_ko": "접속법 1식",
+          "id": "erweiterte_partizip",
+          "label_ko": "확장된 분사구문",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'sei' 또는 'habe'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "sei",
-            "habe"
-          ],
+          "criterion_ko": "전치사구+분사+명사 구조를 사용했는가",
+          "type": "pattern_regex",
+          "target": "(von|schnell|lange)\\s+\\w+\\s+\\w+(e|en|te|ten)\\s",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -78,37 +75,42 @@
       }
     },
     {
-      "id": "de_b2_u01_w2",
+      "id": "de_b2_u03_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Was sagte der Minister?“ Beantworten Sie diese Frage im Konjunktiv I.",
-        "ko": "'Was sagte der Minister?'(장관이 뭐라고 말했어요?)라는 질문에 접속법 1식을 사용해서 답을 써 보세요."
+        "en": "„Ist der Lehrer in Rente gegangen?“ Beantworten Sie diese Frage.",
+        "ko": "'Ist der Lehrer in Rente gegangen?'(선생님이 은퇴했어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "konjunktiv1",
-          "label_ko": "접속법 1식",
+          "id": "erweiterte_partizip",
+          "label_ko": "확장된 분사구문",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "완전한 문장인가",
-          "type": "pattern_regex",
-          "target": "[.]$",
+          "criterion_ko": "'Ja' 또는 'Nein'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "Ja",
+            "ja",
+            "Nein",
+            "nein"
+          ],
           "min_matches": 1,
           "points": 60,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "분량이 충분한가 (최소 5자)",
-          "type": "length_check",
-          "unit": "chars",
-          "min": 5,
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "[.]$",
+          "min_matches": 1,
           "points": 40,
           "required": false
         }
@@ -124,31 +126,28 @@
       }
     },
     {
-      "id": "de_b2_u01_s1",
+      "id": "de_b2_u03_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Sagen Sie laut einen Satz mit Konjunktiv I.",
-        "ko": "소리 내어 접속법 1식을 사용한 문장을 말해 보세요."
+        "en": "Sagen Sie laut einen Satz mit einer erweiterten Partizipialkonstruktion.",
+        "ko": "소리 내어 확장된 분사구문을 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "konjunktiv1",
-          "label_ko": "접속법 1식",
+          "id": "erweiterte_partizip",
+          "label_ko": "확장된 분사구문",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'sei' 또는 'habe'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "sei",
-            "habe"
-          ],
-          "min_matches": 1,
+          "criterion_ko": "분량이 충분한가 (최소 10자)",
+          "type": "length_check",
+          "unit": "chars",
+          "min": 10,
           "points": 55,
           "required": true
         },
@@ -176,18 +175,18 @@
       }
     },
     {
-      "id": "de_b2_u01_s2",
+      "id": "de_b2_u03_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Behauptete er, er kenne die Wahrheit?“ Das fragt man Sie. Antworten Sie laut.",
-        "ko": "'Behauptete er, er kenne die Wahrheit?'(그가 진실을 안다고 주장했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "„Braucht die schnell wachsende Stadt mehr Wohnungen?“ Das fragt man Sie. Antworten Sie laut.",
+        "ko": "'Braucht die schnell wachsende Stadt mehr Wohnungen?'(빠르게 성장하는 도시가 더 많은 주택이 필요해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "konjunktiv1",
-          "label_ko": "접속법 1식",
+          "id": "erweiterte_partizip",
+          "label_ko": "확장된 분사구문",
           "min_occurrences": 1
         }
       ],

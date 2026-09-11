@@ -1,57 +1,105 @@
 {
   "meta": {
-    "id": "de_b2_u01",
+    "id": "de_b2_u09",
     "domain": "language",
     "lang": "de",
     "level": "b2",
-    "unit": 1,
-    "title": "Konjunktiv I (indirekte Rede, formal)",
-    "title_ko": "접속법 1식 (간접화법, 격식체)",
+    "unit": 9,
+    "title": "Relativsätze mit was/wo",
+    "title_ko": "was/wo 관계문",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "Konjunktiv I (« er sei, er habe ») is used in formal/written indirect speech, especially in news reports.",
-    "explanation_ko": "접속법 1식('er sei, er habe')은 격식체·문어체 간접화법, 특히 뉴스 보도에서 사용됩니다.",
+    "explanation_en": "« Was » is used as a relative pronoun after indefinite pronouns (alles, etwas, nichts) or a whole clause. « Wo » refers to places.",
+    "explanation_ko": "'was'는 부정대명사(alles, etwas, nichts) 뒤나 전체 절 뒤에서 관계대명사로 쓰입니다. 'wo'는 장소를 가리킵니다.",
     "key_expressions": [
       {
-        "en": "Der Minister sagte, die Lage sei ernst.",
-        "ko": "장관은 상황이 심각하다고 말했어요."
+        "en": "Das ist alles, was ich weiß.",
+        "ko": "이게 제가 아는 전부예요."
       },
       {
-        "en": "Sie erklärte, sie habe keine Zeit.",
-        "ko": "그녀는 시간이 없다고 설명했어요."
+        "en": "Er kam zu spät, was mich ärgerte.",
+        "ko": "그가 늦게 왔는데, 그게 저를 짜증나게 했어요."
       },
       {
-        "en": "Er behauptete, er kenne die Wahrheit.",
-        "ko": "그는 진실을 안다고 주장했어요."
+        "en": "Das ist die Stadt, wo ich geboren wurde.",
+        "ko": "이곳이 제가 태어난 도시예요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "de_b2_u01_w1",
+      "id": "de_b2_u09_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Schreiben Sie einen Satz mit Konjunktiv I (z.B. „sei“, „habe“) in indirekter Rede.",
-        "ko": "접속법 1식(예: 'sei', 'habe')을 사용해서 간접화법 문장을 써 보세요."
+        "en": "Schreiben Sie einen Satz mit „was“ als Relativpronomen (nach „alles“ oder „etwas“).",
+        "ko": "'alles' 또는 'etwas' 뒤에서 관계대명사 'was'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "konjunktiv1",
-          "label_ko": "접속법 1식",
+          "id": "relativ_was",
+          "label_ko": "관계대명사 was",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'sei' 또는 'habe'를 사용했는가",
+          "criterion_ko": "'was'를 관계대명사로 사용했는가",
+          "type": "pattern_regex",
+          "target": "(alles|etwas|nichts),?\\s+was\\s",
+          "min_matches": 1,
+          "points": 60,
+          "required": true
+        },
+        {
+          "id": "r2",
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "[.]$",
+          "min_matches": 1,
+          "points": 40,
+          "required": false
+        }
+      ],
+      "scoring": {
+        "max_score": 100,
+        "pass_threshold": 60,
+        "tie_break_rule": "partial_match_ratio_geq_0.8_counts_as_met",
+        "flag_for_spot_check": {
+          "blocking": false,
+          "confidence_band": 3
+        }
+      }
+    },
+    {
+      "id": "de_b2_u09_w2",
+      "skill": "writing",
+      "task_type": "qa_response",
+      "prompt": {
+        "en": "„Ist das die Stadt, wo Sie geboren wurden?“ Beantworten Sie diese Frage.",
+        "ko": "'Ist das die Stadt, wo Sie geboren wurden?'(여기가 태어난 도시예요?)라는 질문에 답을 써 보세요."
+      },
+      "target_elements": [
+        {
+          "type": "grammar",
+          "id": "relativ_wo",
+          "label_ko": "관계대명사 wo",
+          "min_occurrences": 1
+        }
+      ],
+      "rubric": [
+        {
+          "id": "r1",
+          "criterion_ko": "'Ja' 또는 'Nein'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "sei",
-            "habe"
+            "Ja",
+            "ja",
+            "Nein",
+            "nein"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,75 +126,28 @@
       }
     },
     {
-      "id": "de_b2_u01_w2",
-      "skill": "writing",
-      "task_type": "qa_response",
-      "prompt": {
-        "en": "„Was sagte der Minister?“ Beantworten Sie diese Frage im Konjunktiv I.",
-        "ko": "'Was sagte der Minister?'(장관이 뭐라고 말했어요?)라는 질문에 접속법 1식을 사용해서 답을 써 보세요."
-      },
-      "target_elements": [
-        {
-          "type": "grammar",
-          "id": "konjunktiv1",
-          "label_ko": "접속법 1식",
-          "min_occurrences": 1
-        }
-      ],
-      "rubric": [
-        {
-          "id": "r1",
-          "criterion_ko": "완전한 문장인가",
-          "type": "pattern_regex",
-          "target": "[.]$",
-          "min_matches": 1,
-          "points": 60,
-          "required": true
-        },
-        {
-          "id": "r2",
-          "criterion_ko": "분량이 충분한가 (최소 5자)",
-          "type": "length_check",
-          "unit": "chars",
-          "min": 5,
-          "points": 40,
-          "required": false
-        }
-      ],
-      "scoring": {
-        "max_score": 100,
-        "pass_threshold": 60,
-        "tie_break_rule": "partial_match_ratio_geq_0.8_counts_as_met",
-        "flag_for_spot_check": {
-          "blocking": false,
-          "confidence_band": 3
-        }
-      }
-    },
-    {
-      "id": "de_b2_u01_s1",
+      "id": "de_b2_u09_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Sagen Sie laut einen Satz mit Konjunktiv I.",
-        "ko": "소리 내어 접속법 1식을 사용한 문장을 말해 보세요."
+        "en": "Sagen Sie laut einen Satz mit „was“ nach einem ganzen Satz (z.B. „..., was mich ärgerte“).",
+        "ko": "전체 절 뒤의 'was'(예: '..., was mich ärgerte')를 사용해서 소리 내어 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "konjunktiv1",
-          "label_ko": "접속법 1식",
+          "id": "relativ_was",
+          "label_ko": "관계대명사 was",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'sei' 또는 'habe'를 사용했는가",
+          "criterion_ko": "'was'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "sei",
-            "habe"
+            "was"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,18 +177,18 @@
       }
     },
     {
-      "id": "de_b2_u01_s2",
+      "id": "de_b2_u09_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Behauptete er, er kenne die Wahrheit?“ Das fragt man Sie. Antworten Sie laut.",
-        "ko": "'Behauptete er, er kenne die Wahrheit?'(그가 진실을 안다고 주장했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "„Ist das alles, was Sie wissen?“ Das fragt man Sie. Antworten Sie laut.",
+        "ko": "'Ist das alles, was Sie wissen?'(이게 아는 전부예요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "konjunktiv1",
-          "label_ko": "접속법 1식",
+          "id": "relativ_was",
+          "label_ko": "관계대명사 was",
           "min_occurrences": 1
         }
       ],

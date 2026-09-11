@@ -1,57 +1,57 @@
 {
   "meta": {
-    "id": "de_b2_u01",
+    "id": "de_b2_u07",
     "domain": "language",
     "lang": "de",
     "level": "b2",
-    "unit": 1,
-    "title": "Konjunktiv I (indirekte Rede, formal)",
-    "title_ko": "접속법 1식 (간접화법, 격식체)",
+    "unit": 7,
+    "title": "Konzessive Präpositionen (ungeachtet)",
+    "title_ko": "양보 전치사 (ungeachtet)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "Konjunktiv I (« er sei, er habe ») is used in formal/written indirect speech, especially in news reports.",
-    "explanation_ko": "접속법 1식('er sei, er habe')은 격식체·문어체 간접화법, 특히 뉴스 보도에서 사용됩니다.",
+    "explanation_en": "« Ungeachtet » (regardless of, notwithstanding) is a formal genitive preposition expressing concession, similar to « trotz ».",
+    "explanation_ko": "'ungeachtet'(~에 상관없이)는 'trotz'와 비슷하게 양보를 나타내는 격식 있는 2격지배 전치사입니다.",
     "key_expressions": [
       {
-        "en": "Der Minister sagte, die Lage sei ernst.",
-        "ko": "장관은 상황이 심각하다고 말했어요."
+        "en": "Ungeachtet der Kritik setzte er seinen Plan fort.",
+        "ko": "비판에도 불구하고 그는 계획을 계속 진행했어요."
       },
       {
-        "en": "Sie erklärte, sie habe keine Zeit.",
-        "ko": "그녀는 시간이 없다고 설명했어요."
+        "en": "Ungeachtet aller Schwierigkeiten haben wir es geschafft.",
+        "ko": "모든 어려움에도 불구하고 저희는 해냈어요."
       },
       {
-        "en": "Er behauptete, er kenne die Wahrheit.",
-        "ko": "그는 진실을 안다고 주장했어요."
+        "en": "Ungeachtet des Wetters findet die Veranstaltung statt.",
+        "ko": "날씨와 상관없이 행사는 진행돼요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "de_b2_u01_w1",
+      "id": "de_b2_u07_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Schreiben Sie einen Satz mit Konjunktiv I (z.B. „sei“, „habe“) in indirekter Rede.",
-        "ko": "접속법 1식(예: 'sei', 'habe')을 사용해서 간접화법 문장을 써 보세요."
+        "en": "Schreiben Sie einen Satz mit „ungeachtet“ (formell).",
+        "ko": "격식 있는 'ungeachtet'을 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "konjunktiv1",
-          "label_ko": "접속법 1식",
+          "id": "ungeachtet",
+          "label_ko": "ungeachtet",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'sei' 또는 'habe'를 사용했는가",
+          "criterion_ko": "'ungeachtet'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "sei",
-            "habe"
+            "Ungeachtet",
+            "ungeachtet"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,37 +78,42 @@
       }
     },
     {
-      "id": "de_b2_u01_w2",
+      "id": "de_b2_u07_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Was sagte der Minister?“ Beantworten Sie diese Frage im Konjunktiv I.",
-        "ko": "'Was sagte der Minister?'(장관이 뭐라고 말했어요?)라는 질문에 접속법 1식을 사용해서 답을 써 보세요."
+        "en": "„Findet die Veranstaltung ungeachtet des Wetters statt?“ Beantworten Sie diese Frage.",
+        "ko": "'Findet die Veranstaltung ungeachtet des Wetters statt?'(날씨와 상관없이 행사가 진행돼요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "konjunktiv1",
-          "label_ko": "접속법 1식",
+          "id": "ungeachtet",
+          "label_ko": "ungeachtet",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "완전한 문장인가",
-          "type": "pattern_regex",
-          "target": "[.]$",
+          "criterion_ko": "'Ja' 또는 'Nein'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "Ja",
+            "ja",
+            "Nein",
+            "nein"
+          ],
           "min_matches": 1,
           "points": 60,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "분량이 충분한가 (최소 5자)",
-          "type": "length_check",
-          "unit": "chars",
-          "min": 5,
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "[.]$",
+          "min_matches": 1,
           "points": 40,
           "required": false
         }
@@ -124,29 +129,29 @@
       }
     },
     {
-      "id": "de_b2_u01_s1",
+      "id": "de_b2_u07_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Sagen Sie laut einen Satz mit Konjunktiv I.",
-        "ko": "소리 내어 접속법 1식을 사용한 문장을 말해 보세요."
+        "en": "Sagen Sie laut einen Satz mit „ungeachtet“.",
+        "ko": "소리 내어 'ungeachtet'을 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "konjunktiv1",
-          "label_ko": "접속법 1식",
+          "id": "ungeachtet",
+          "label_ko": "ungeachtet",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'sei' 또는 'habe'를 사용했는가",
+          "criterion_ko": "'ungeachtet'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "sei",
-            "habe"
+            "Ungeachtet",
+            "ungeachtet"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,18 +181,18 @@
       }
     },
     {
-      "id": "de_b2_u01_s2",
+      "id": "de_b2_u07_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "„Behauptete er, er kenne die Wahrheit?“ Das fragt man Sie. Antworten Sie laut.",
-        "ko": "'Behauptete er, er kenne die Wahrheit?'(그가 진실을 안다고 주장했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "„Haben Sie es ungeachtet aller Schwierigkeiten geschafft?“ Das fragt man Sie. Antworten Sie laut.",
+        "ko": "'Haben Sie es ungeachtet aller Schwierigkeiten geschafft?'(모든 어려움에도 불구하고 해냈어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "konjunktiv1",
-          "label_ko": "접속법 1식",
+          "id": "ungeachtet",
+          "label_ko": "ungeachtet",
           "min_occurrences": 1
         }
       ],
