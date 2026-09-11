@@ -1,57 +1,57 @@
 {
   "meta": {
-    "id": "es_a2_u01",
+    "id": "es_a2_u10",
     "domain": "language",
     "lang": "es",
     "level": "a2",
-    "unit": 1,
-    "title": "Experiencias pasadas (ya/todavía no)",
-    "title_ko": "과거 경험 (이미/아직)",
+    "unit": 10,
+    "title": "Preferencias de comida",
+    "title_ko": "음식 선호",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "To say you've already done something, we use « Ya he... ». To say you haven't yet, we use « Todavía no he... ».",
-    "explanation_ko": "이미 했다고 말할 때는 'Ya he...'(저는 이미 ~했어요), 아직 안 했다고 말할 때는 'Todavía no he...'(저는 아직 ~안 했어요)를 씁니다.",
+    "explanation_en": "To say you prefer something, we use « Prefiero... ». To describe taste, we use « Sabe... ».",
+    "explanation_ko": "선호를 말할 때는 'Prefiero...'(저는 ~을 더 선호해요), 맛을 묘사할 때는 'Sabe...'(~한 맛이에요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "Ya he visto esa película.",
-        "ko": "저는 이미 그 영화를 봤어요."
+        "en": "Prefiero la comida picante.",
+        "ko": "저는 매운 음식을 더 선호해요."
       },
       {
-        "en": "Todavía no he comido.",
-        "ko": "저는 아직 식사를 안 했어요."
+        "en": "Sabe dulce.",
+        "ko": "달콤한 맛이에요."
       },
       {
-        "en": "¿Ya has terminado la tarea?",
-        "ko": "숙제 이미 끝냈어요?"
+        "en": "Me gusta más el té que el café.",
+        "ko": "저는 커피보다 차를 더 좋아해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_a2_u01_w1",
+      "id": "es_a2_u10_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba algo que ya ha hecho usando «Ya he...».",
-        "ko": "'Ya he...'를 사용해서 이미 한 일을 써 보세요."
+        "en": "Escriba su preferencia de comida usando «Prefiero...».",
+        "ko": "'Prefiero...'를 사용해서 음식 선호를 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "already_done",
-          "label_ko": "이미 완료 표현",
+          "id": "food_preference",
+          "label_ko": "음식 선호 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Ya he'를 사용했는가",
+          "criterion_ko": "'Prefiero'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Ya he",
-            "ya he"
+            "Prefiero",
+            "prefiero"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,31 +78,29 @@
       }
     },
     {
-      "id": "es_a2_u01_w2",
+      "id": "es_a2_u10_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Ya has terminado la tarea?» Responda a esta pregunta.",
-        "ko": "'¿Ya has terminado la tarea?'(숙제 이미 끝냈어요?)라는 질문에 답을 써 보세요."
+        "en": "«¿A qué sabe este plato?» Responda a esta pregunta.",
+        "ko": "'¿A qué sabe este plato?'(이 요리 무슨 맛이에요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "not_yet",
-          "label_ko": "아직 표현",
+          "id": "taste",
+          "label_ko": "맛 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Sí' 또는 'No'를 사용했는가",
+          "criterion_ko": "'Sabe'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Sí",
-            "sí",
-            "No",
-            "no"
+            "Sabe",
+            "sabe"
           ],
           "min_matches": 1,
           "points": 60,
@@ -129,29 +127,28 @@
       }
     },
     {
-      "id": "es_a2_u01_s1",
+      "id": "es_a2_u10_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta algo que todavía no ha hecho usando «Todavía no he...».",
-        "ko": "'Todavía no he...'를 사용해서 소리 내어 아직 안 한 일을 말해 보세요."
+        "en": "Diga en voz alta su preferencia usando «Me gusta más...».",
+        "ko": "'Me gusta más...'를 사용해서 소리 내어 음식 선호를 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "not_yet",
-          "label_ko": "아직 표현",
+          "id": "prefer",
+          "label_ko": "선호 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Todavía no'를 사용했는가",
+          "criterion_ko": "'gusta más'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Todavía no",
-            "todavía no"
+            "gusta más"
           ],
           "min_matches": 1,
           "points": 55,
@@ -181,18 +178,18 @@
       }
     },
     {
-      "id": "es_a2_u01_s2",
+      "id": "es_a2_u10_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Ya has visto esa película?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Ya has visto esa película?'(그 영화 이미 봤어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Prefiere la comida picante?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Prefiere la comida picante?'(매운 음식을 더 선호해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "already_done",
-          "label_ko": "이미 완료 표현",
+          "id": "spicy",
+          "label_ko": "매운 음식 표현",
           "min_occurrences": 1
         }
       ],

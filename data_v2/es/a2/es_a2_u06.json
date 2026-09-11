@@ -1,57 +1,57 @@
 {
   "meta": {
-    "id": "es_a2_u01",
+    "id": "es_a2_u06",
     "domain": "language",
     "lang": "es",
     "level": "a2",
-    "unit": 1,
-    "title": "Experiencias pasadas (ya/todavía no)",
-    "title_ko": "과거 경험 (이미/아직)",
+    "unit": 6,
+    "title": "Describir a una persona",
+    "title_ko": "사람 묘사",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "To say you've already done something, we use « Ya he... ». To say you haven't yet, we use « Todavía no he... ».",
-    "explanation_ko": "이미 했다고 말할 때는 'Ya he...'(저는 이미 ~했어요), 아직 안 했다고 말할 때는 'Todavía no he...'(저는 아직 ~안 했어요)를 씁니다.",
+    "explanation_en": "To describe a person's appearance, we use « Tiene... » and « Es... ». To describe personality, we use « Es una persona... ».",
+    "explanation_ko": "외모를 묘사할 때는 'Tiene...'(~을 가지고 있어요)와 'Es...'(~예요), 성격을 묘사할 때는 'Es una persona...'(~한 사람이에요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "Ya he visto esa película.",
-        "ko": "저는 이미 그 영화를 봤어요."
+        "en": "Tiene el pelo negro.",
+        "ko": "머리가 검은색이에요."
       },
       {
-        "en": "Todavía no he comido.",
-        "ko": "저는 아직 식사를 안 했어요."
+        "en": "Es una persona muy amable.",
+        "ko": "정말 친절한 사람이에요."
       },
       {
-        "en": "¿Ya has terminado la tarea?",
-        "ko": "숙제 이미 끝냈어요?"
+        "en": "Es alto y delgado.",
+        "ko": "키가 크고 날씬해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_a2_u01_w1",
+      "id": "es_a2_u06_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba algo que ya ha hecho usando «Ya he...».",
-        "ko": "'Ya he...'를 사용해서 이미 한 일을 써 보세요."
+        "en": "Describa a alguien usando «Tiene...».",
+        "ko": "'Tiene...'를 사용해서 누군가를 묘사해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "already_done",
-          "label_ko": "이미 완료 표현",
+          "id": "appearance",
+          "label_ko": "외모 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Ya he'를 사용했는가",
+          "criterion_ko": "'Tiene'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Ya he",
-            "ya he"
+            "Tiene",
+            "tiene"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,42 +78,37 @@
       }
     },
     {
-      "id": "es_a2_u01_w2",
+      "id": "es_a2_u06_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Ya has terminado la tarea?» Responda a esta pregunta.",
-        "ko": "'¿Ya has terminado la tarea?'(숙제 이미 끝냈어요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Cómo es tu mejor amigo?» Responda a esta pregunta.",
+        "ko": "'¿Cómo es tu mejor amigo?'(가장 친한 친구는 어때요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "not_yet",
-          "label_ko": "아직 표현",
+          "id": "personality",
+          "label_ko": "성격 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Sí' 또는 'No'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "Sí",
-            "sí",
-            "No",
-            "no"
-          ],
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "[.]$",
           "min_matches": 1,
           "points": 60,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "완전한 문장인가",
-          "type": "pattern_regex",
-          "target": "[.]$",
-          "min_matches": 1,
+          "criterion_ko": "분량이 충분한가 (최소 5자)",
+          "type": "length_check",
+          "unit": "chars",
+          "min": 5,
           "points": 40,
           "required": false
         }
@@ -129,29 +124,28 @@
       }
     },
     {
-      "id": "es_a2_u01_s1",
+      "id": "es_a2_u06_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta algo que todavía no ha hecho usando «Todavía no he...».",
-        "ko": "'Todavía no he...'를 사용해서 소리 내어 아직 안 한 일을 말해 보세요."
+        "en": "Describa en voz alta la personalidad de alguien usando «Es una persona...».",
+        "ko": "'Es una persona...'를 사용해서 소리 내어 누군가의 성격을 묘사해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "not_yet",
-          "label_ko": "아직 표현",
+          "id": "personality",
+          "label_ko": "성격 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Todavía no'를 사용했는가",
+          "criterion_ko": "'persona'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Todavía no",
-            "todavía no"
+            "persona"
           ],
           "min_matches": 1,
           "points": 55,
@@ -181,18 +175,18 @@
       }
     },
     {
-      "id": "es_a2_u01_s2",
+      "id": "es_a2_u06_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Ya has visto esa película?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Ya has visto esa película?'(그 영화 이미 봤어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Es alto tu hermano?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Es alto tu hermano?'(형제가 키가 커요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "already_done",
-          "label_ko": "이미 완료 표현",
+          "id": "appearance",
+          "label_ko": "외모 표현",
           "min_occurrences": 1
         }
       ],

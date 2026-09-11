@@ -1,57 +1,56 @@
 {
   "meta": {
-    "id": "es_a2_u01",
+    "id": "es_a2_u09",
     "domain": "language",
     "lang": "es",
     "level": "a2",
-    "unit": 1,
-    "title": "Experiencias pasadas (ya/todavía no)",
-    "title_ko": "과거 경험 (이미/아직)",
+    "unit": 9,
+    "title": "Detalles del restaurante (sin/alérgico)",
+    "title_ko": "식당 세부사항 (~빼고/알레르기)",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "To say you've already done something, we use « Ya he... ». To say you haven't yet, we use « Todavía no he... ».",
-    "explanation_ko": "이미 했다고 말할 때는 'Ya he...'(저는 이미 ~했어요), 아직 안 했다고 말할 때는 'Todavía no he...'(저는 아직 ~안 했어요)를 씁니다.",
+    "explanation_en": "To ask for something without an ingredient, we use « sin... ». To say you are allergic, we use « Soy alérgico/a a... ».",
+    "explanation_ko": "재료를 빼달라고 할 때는 'sin...'(~빼고), 알레르기를 말할 때는 'Soy alérgico/a a...'(저는 ~에 알레르기가 있어요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "Ya he visto esa película.",
-        "ko": "저는 이미 그 영화를 봤어요."
+        "en": "Quiero un café sin azúcar.",
+        "ko": "설탕 빼고 커피 주세요."
       },
       {
-        "en": "Todavía no he comido.",
-        "ko": "저는 아직 식사를 안 했어요."
+        "en": "Soy alérgico a los cacahuetes.",
+        "ko": "저는 땅콩 알레르기가 있어요."
       },
       {
-        "en": "¿Ya has terminado la tarea?",
-        "ko": "숙제 이미 끝냈어요?"
+        "en": "¿Puede hacerlo sin carne?",
+        "ko": "고기 빼고 만들어 주실 수 있어요?"
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_a2_u01_w1",
+      "id": "es_a2_u09_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba algo que ya ha hecho usando «Ya he...».",
-        "ko": "'Ya he...'를 사용해서 이미 한 일을 써 보세요."
+        "en": "Pida algo usando «sin...».",
+        "ko": "'sin...'를 사용해서 음식을 주문해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "already_done",
-          "label_ko": "이미 완료 표현",
+          "id": "without",
+          "label_ko": "제외 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Ya he'를 사용했는가",
+          "criterion_ko": "'sin'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Ya he",
-            "ya he"
+            "sin"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,31 +77,29 @@
       }
     },
     {
-      "id": "es_a2_u01_w2",
+      "id": "es_a2_u09_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Ya has terminado la tarea?» Responda a esta pregunta.",
-        "ko": "'¿Ya has terminado la tarea?'(숙제 이미 끝냈어요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Es usted alérgico a algo?» Responda a esta pregunta.",
+        "ko": "'¿Es usted alérgico a algo?'(뭔가에 알레르기가 있어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "not_yet",
-          "label_ko": "아직 표현",
+          "id": "allergy",
+          "label_ko": "알레르기 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Sí' 또는 'No'를 사용했는가",
+          "criterion_ko": "'alérgico' 또는 'alérgica'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Sí",
-            "sí",
-            "No",
-            "no"
+            "alérgico",
+            "alérgica"
           ],
           "min_matches": 1,
           "points": 60,
@@ -129,29 +126,28 @@
       }
     },
     {
-      "id": "es_a2_u01_s1",
+      "id": "es_a2_u09_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta algo que todavía no ha hecho usando «Todavía no he...».",
-        "ko": "'Todavía no he...'를 사용해서 소리 내어 아직 안 한 일을 말해 보세요."
+        "en": "Pida algo en voz alta usando «sin...».",
+        "ko": "'sin...'를 사용해서 소리 내어 음식을 주문해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "not_yet",
-          "label_ko": "아직 표현",
+          "id": "without",
+          "label_ko": "제외 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Todavía no'를 사용했는가",
+          "criterion_ko": "'sin'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Todavía no",
-            "todavía no"
+            "sin"
           ],
           "min_matches": 1,
           "points": 55,
@@ -181,18 +177,18 @@
       }
     },
     {
-      "id": "es_a2_u01_s2",
+      "id": "es_a2_u09_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Ya has visto esa película?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Ya has visto esa película?'(그 영화 이미 봤어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Es alérgico a los cacahuetes?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Es alérgico a los cacahuetes?'(땅콩 알레르기 있어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "already_done",
-          "label_ko": "이미 완료 표현",
+          "id": "peanut_allergy",
+          "label_ko": "땅콩 알레르기 표현",
           "min_occurrences": 1
         }
       ],

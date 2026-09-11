@@ -1,57 +1,56 @@
 {
   "meta": {
-    "id": "es_a2_u01",
+    "id": "es_a2_u05",
     "domain": "language",
     "lang": "es",
     "level": "a2",
-    "unit": 1,
-    "title": "Experiencias pasadas (ya/todavía no)",
-    "title_ko": "과거 경험 (이미/아직)",
+    "unit": 5,
+    "title": "Hábitos (a menudo/a veces/nunca)",
+    "title_ko": "습관 (자주/가끔/전혀)",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "To say you've already done something, we use « Ya he... ». To say you haven't yet, we use « Todavía no he... ».",
-    "explanation_ko": "이미 했다고 말할 때는 'Ya he...'(저는 이미 ~했어요), 아직 안 했다고 말할 때는 'Todavía no he...'(저는 아직 ~안 했어요)를 씁니다.",
+    "explanation_en": "To describe habits, we use adverbs of frequency: « a menudo » (often), « a veces » (sometimes), « nunca » (never).",
+    "explanation_ko": "습관을 묘사할 때는 빈도 부사를 씁니다: 'a menudo'(자주), 'a veces'(가끔), 'nunca'(전혀 ~않다).",
     "key_expressions": [
       {
-        "en": "Ya he visto esa película.",
-        "ko": "저는 이미 그 영화를 봤어요."
+        "en": "A menudo llego tarde al trabajo.",
+        "ko": "저는 자주 회사에 늦게 도착해요."
       },
       {
-        "en": "Todavía no he comido.",
-        "ko": "저는 아직 식사를 안 했어요."
+        "en": "A veces salgo con amigos.",
+        "ko": "저는 가끔 친구들과 나가요."
       },
       {
-        "en": "¿Ya has terminado la tarea?",
-        "ko": "숙제 이미 끝냈어요?"
+        "en": "Nunca bebo café por la noche.",
+        "ko": "저는 밤에는 절대 커피를 안 마셔요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_a2_u01_w1",
+      "id": "es_a2_u05_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba algo que ya ha hecho usando «Ya he...».",
-        "ko": "'Ya he...'를 사용해서 이미 한 일을 써 보세요."
+        "en": "Escriba un hábito usando «a menudo».",
+        "ko": "'a menudo'를 사용해서 습관을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "already_done",
-          "label_ko": "이미 완료 표현",
+          "id": "habit_often",
+          "label_ko": "자주 습관 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Ya he'를 사용했는가",
+          "criterion_ko": "'a menudo'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Ya he",
-            "ya he"
+            "a menudo"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,18 +77,18 @@
       }
     },
     {
-      "id": "es_a2_u01_w2",
+      "id": "es_a2_u05_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Ya has terminado la tarea?» Responda a esta pregunta.",
-        "ko": "'¿Ya has terminado la tarea?'(숙제 이미 끝냈어요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Sales con amigos a veces?» Responda a esta pregunta.",
+        "ko": "'¿Sales con amigos a veces?'(가끔 친구들과 나가요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "not_yet",
-          "label_ko": "아직 표현",
+          "id": "habit_sometimes",
+          "label_ko": "가끔 습관 표현",
           "min_occurrences": 1
         }
       ],
@@ -129,29 +128,29 @@
       }
     },
     {
-      "id": "es_a2_u01_s1",
+      "id": "es_a2_u05_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta algo que todavía no ha hecho usando «Todavía no he...».",
-        "ko": "'Todavía no he...'를 사용해서 소리 내어 아직 안 한 일을 말해 보세요."
+        "en": "Diga en voz alta un hábito usando «nunca».",
+        "ko": "'nunca'를 사용해서 소리 내어 습관을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "not_yet",
-          "label_ko": "아직 표현",
+          "id": "habit_never",
+          "label_ko": "전혀 습관 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Todavía no'를 사용했는가",
+          "criterion_ko": "'nunca'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Todavía no",
-            "todavía no"
+            "nunca",
+            "Nunca"
           ],
           "min_matches": 1,
           "points": 55,
@@ -181,18 +180,18 @@
       }
     },
     {
-      "id": "es_a2_u01_s2",
+      "id": "es_a2_u05_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Ya has visto esa película?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Ya has visto esa película?'(그 영화 이미 봤어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Llegas tarde a menudo?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Llegas tarde a menudo?'(자주 늦어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "already_done",
-          "label_ko": "이미 완료 표현",
+          "id": "habit_often",
+          "label_ko": "자주 습관 표현",
           "min_occurrences": 1
         }
       ],

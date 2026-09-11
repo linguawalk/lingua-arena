@@ -1,57 +1,57 @@
 {
   "meta": {
-    "id": "es_a2_u01",
+    "id": "es_a2_u02",
     "domain": "language",
     "lang": "es",
     "level": "a2",
-    "unit": 1,
-    "title": "Experiencias pasadas (ya/todavía no)",
-    "title_ko": "과거 경험 (이미/아직)",
+    "unit": 2,
+    "title": "Ayer",
+    "title_ko": "어제",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "To say you've already done something, we use « Ya he... ». To say you haven't yet, we use « Todavía no he... ».",
-    "explanation_ko": "이미 했다고 말할 때는 'Ya he...'(저는 이미 ~했어요), 아직 안 했다고 말할 때는 'Todavía no he...'(저는 아직 ~안 했어요)를 씁니다.",
+    "explanation_en": "To talk about yesterday, we use the preterite tense: « Ayer fui... » or « Ayer comí... ».",
+    "explanation_ko": "어제에 대해 말할 때는 단순과거시제를 씁니다: 'Ayer fui...'(어제 저는 ~에 갔어요) 또는 'Ayer comí...'(어제 저는 ~을 먹었어요).",
     "key_expressions": [
       {
-        "en": "Ya he visto esa película.",
-        "ko": "저는 이미 그 영화를 봤어요."
+        "en": "Ayer fui al cine.",
+        "ko": "어제 저는 영화관에 갔어요."
       },
       {
-        "en": "Todavía no he comido.",
-        "ko": "저는 아직 식사를 안 했어요."
+        "en": "Ayer comí en un restaurante nuevo.",
+        "ko": "어제 저는 새 식당에서 먹었어요."
       },
       {
-        "en": "¿Ya has terminado la tarea?",
-        "ko": "숙제 이미 끝냈어요?"
+        "en": "¿Qué hiciste ayer?",
+        "ko": "어제 뭐 했어요?"
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_a2_u01_w1",
+      "id": "es_a2_u02_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba algo que ya ha hecho usando «Ya he...».",
-        "ko": "'Ya he...'를 사용해서 이미 한 일을 써 보세요."
+        "en": "Escriba lo que hizo ayer usando «Ayer fui...».",
+        "ko": "'Ayer fui...'를 사용해서 어제 한 일을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "already_done",
-          "label_ko": "이미 완료 표현",
+          "id": "yesterday",
+          "label_ko": "어제 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Ya he'를 사용했는가",
+          "criterion_ko": "'Ayer'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Ya he",
-            "ya he"
+            "Ayer",
+            "ayer"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,42 +78,37 @@
       }
     },
     {
-      "id": "es_a2_u01_w2",
+      "id": "es_a2_u02_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Ya has terminado la tarea?» Responda a esta pregunta.",
-        "ko": "'¿Ya has terminado la tarea?'(숙제 이미 끝냈어요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Qué hiciste ayer?» Responda a esta pregunta.",
+        "ko": "'¿Qué hiciste ayer?'(어제 뭐 했어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "not_yet",
-          "label_ko": "아직 표현",
+          "id": "yesterday_activity",
+          "label_ko": "어제 활동 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Sí' 또는 'No'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "Sí",
-            "sí",
-            "No",
-            "no"
-          ],
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "[.]$",
           "min_matches": 1,
           "points": 60,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "완전한 문장인가",
-          "type": "pattern_regex",
-          "target": "[.]$",
-          "min_matches": 1,
+          "criterion_ko": "분량이 충분한가 (최소 5자)",
+          "type": "length_check",
+          "unit": "chars",
+          "min": 5,
           "points": 40,
           "required": false
         }
@@ -129,29 +124,29 @@
       }
     },
     {
-      "id": "es_a2_u01_s1",
+      "id": "es_a2_u02_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta algo que todavía no ha hecho usando «Todavía no he...».",
-        "ko": "'Todavía no he...'를 사용해서 소리 내어 아직 안 한 일을 말해 보세요."
+        "en": "Hable en voz alta sobre lo que comió ayer usando «Ayer comí...».",
+        "ko": "'Ayer comí...'를 사용해서 소리 내어 어제 먹은 것에 대해 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "not_yet",
-          "label_ko": "아직 표현",
+          "id": "yesterday",
+          "label_ko": "어제 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Todavía no'를 사용했는가",
+          "criterion_ko": "'Ayer'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Todavía no",
-            "todavía no"
+            "Ayer",
+            "ayer"
           ],
           "min_matches": 1,
           "points": 55,
@@ -181,18 +176,18 @@
       }
     },
     {
-      "id": "es_a2_u01_s2",
+      "id": "es_a2_u02_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Ya has visto esa película?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Ya has visto esa película?'(그 영화 이미 봤어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Fuiste al cine ayer?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Fuiste al cine ayer?'(어제 영화관 갔어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "already_done",
-          "label_ko": "이미 완료 표현",
+          "id": "yesterday",
+          "label_ko": "어제 표현",
           "min_occurrences": 1
         }
       ],
