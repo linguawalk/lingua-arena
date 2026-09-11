@@ -1,55 +1,57 @@
 {
   "meta": {
-    "id": "es_b1_u01",
+    "id": "es_b1_u05",
     "domain": "language",
     "lang": "es",
     "level": "b1",
-    "unit": 1,
-    "title": "Condicional (would)",
-    "title_ko": "가정법 (~할 텐데)",
+    "unit": 5,
+    "title": "Pronombres relativos (que/quien)",
+    "title_ko": "관계대명사 (que/quien)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "The conditional expresses hypothetical actions: « Yo viajaría si tuviera dinero » (I would travel if I had money).",
-    "explanation_ko": "가정법은 가상의 행동을 나타냅니다: 'Yo viajaría si tuviera dinero'(돈이 있으면 여행할 텐데).",
+    "explanation_en": "« Que » is used for things and people, « quien » is used only for people, often after a preposition.",
+    "explanation_ko": "'que'는 사물과 사람에 모두 사용되고, 'quien'은 사람에게만 사용되며 흔히 전치사 뒤에 옵니다.",
     "key_expressions": [
       {
-        "en": "Yo viajaría más si tuviera tiempo.",
-        "ko": "시간이 있으면 더 여행할 텐데요."
+        "en": "El libro que leí es interesante.",
+        "ko": "제가 읽은 책은 흥미로워요."
       },
       {
-        "en": "¿Qué harías tú en mi lugar?",
-        "ko": "제 입장이면 뭘 하시겠어요?"
+        "en": "La persona con quien hablé es amable.",
+        "ko": "제가 이야기 나눈 사람은 친절해요."
       },
       {
-        "en": "Compraría esa casa si pudiera.",
-        "ko": "할 수 있다면 그 집을 살 텐데요."
+        "en": "Esa es la chica que conocí ayer.",
+        "ko": "저 사람이 어제 제가 만난 여자예요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_b1_u01_w1",
+      "id": "es_b1_u05_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba una frase con el condicional (p.ej. «Yo viajaría...»).",
-        "ko": "가정법(예: 'Yo viajaría...')을 사용해서 문장을 써 보세요."
+        "en": "Escriba una frase con «que» como pronombre relativo.",
+        "ko": "관계대명사 'que'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "condicional",
-          "label_ko": "가정법",
+          "id": "que_relativo",
+          "label_ko": "관계대명사 que",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'ría' 또는 'ría'로 끝나는 동사(조건법)를 사용했는가",
-          "type": "pattern_regex",
-          "target": "[ríd]ía\\b",
+          "criterion_ko": "'que'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "que"
+          ],
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -75,27 +77,32 @@
       }
     },
     {
-      "id": "es_b1_u01_w2",
+      "id": "es_b1_u05_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Qué harías tú en mi lugar?» Responda a esta pregunta con el condicional.",
-        "ko": "'¿Qué harías tú en mi lugar?'(제 입장이면 뭘 하시겠어요?)라는 질문에 조건법을 사용해서 답을 써 보세요."
+        "en": "«¿Es amable la persona con quien hablaste?» Responda a esta pregunta.",
+        "ko": "'¿Es amable la persona con quien hablaste?'(이야기 나눈 사람이 친절해요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "condicional",
-          "label_ko": "가정법",
+          "id": "quien_relativo",
+          "label_ko": "관계대명사 quien",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'ía'로 끝나는 동사를 사용했는가",
-          "type": "pattern_regex",
-          "target": "ía\\b",
+          "criterion_ko": "'Sí' 또는 'No'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "Sí",
+            "sí",
+            "No",
+            "no"
+          ],
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -121,27 +128,29 @@
       }
     },
     {
-      "id": "es_b1_u01_s1",
+      "id": "es_b1_u05_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta una frase con el condicional sobre algo que compraría.",
-        "ko": "조건법을 사용해서 소리 내어 사고 싶은 것에 대해 말해 보세요."
+        "en": "Diga en voz alta una frase con «con quien».",
+        "ko": "소리 내어 'con quien'을 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "condicional",
-          "label_ko": "가정법",
+          "id": "quien_relativo",
+          "label_ko": "관계대명사 quien",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'compraría' 또는 'ía'로 끝나는 동사를 사용했는가",
-          "type": "pattern_regex",
-          "target": "ía\\b",
+          "criterion_ko": "'quien'을 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "quien"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -170,18 +179,18 @@
       }
     },
     {
-      "id": "es_b1_u01_s2",
+      "id": "es_b1_u05_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Viajarías más si tuvieras tiempo?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Viajarías más si tuvieras tiempo?'(시간이 있으면 더 여행하시겠어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Es interesante el libro que leíste?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Es interesante el libro que leíste?'(읽은 책이 흥미로워요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "condicional",
-          "label_ko": "가정법",
+          "id": "que_relativo",
+          "label_ko": "관계대명사 que",
           "min_occurrences": 1
         }
       ],

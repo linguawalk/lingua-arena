@@ -1,55 +1,58 @@
 {
   "meta": {
-    "id": "es_b1_u01",
+    "id": "es_b1_u06",
     "domain": "language",
     "lang": "es",
     "level": "b1",
-    "unit": 1,
-    "title": "Condicional (would)",
-    "title_ko": "가정법 (~할 텐데)",
+    "unit": 6,
+    "title": "Pronombres relativos con preposición",
+    "title_ko": "전치사 동반 관계대명사",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "The conditional expresses hypothetical actions: « Yo viajaría si tuviera dinero » (I would travel if I had money).",
-    "explanation_ko": "가정법은 가상의 행동을 나타냅니다: 'Yo viajaría si tuviera dinero'(돈이 있으면 여행할 텐데).",
+    "explanation_en": "Relative pronouns after prepositions use « el/la que » or « el/la cual »: « La casa en la que vivo es grande ».",
+    "explanation_ko": "전치사 뒤에 오는 관계대명사는 'el/la que' 또는 'el/la cual'을 사용합니다: 'La casa en la que vivo es grande'(제가 사는 집은 커요).",
     "key_expressions": [
       {
-        "en": "Yo viajaría más si tuviera tiempo.",
-        "ko": "시간이 있으면 더 여행할 텐데요."
+        "en": "La casa en la que vivo es grande.",
+        "ko": "제가 사는 집은 커요."
       },
       {
-        "en": "¿Qué harías tú en mi lugar?",
-        "ko": "제 입장이면 뭘 하시겠어요?"
+        "en": "El motivo por el que vine es simple.",
+        "ko": "제가 온 이유는 간단해요."
       },
       {
-        "en": "Compraría esa casa si pudiera.",
-        "ko": "할 수 있다면 그 집을 살 텐데요."
+        "en": "La razón por la cual me fui es clara.",
+        "ko": "제가 떠난 이유는 명확해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_b1_u01_w1",
+      "id": "es_b1_u06_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba una frase con el condicional (p.ej. «Yo viajaría...»).",
-        "ko": "가정법(예: 'Yo viajaría...')을 사용해서 문장을 써 보세요."
+        "en": "Escriba una frase con «en la que» o «en el que».",
+        "ko": "'en la que' 또는 'en el que'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "condicional",
-          "label_ko": "가정법",
+          "id": "relativo_preposicion",
+          "label_ko": "전치사 관계대명사",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'ría' 또는 'ría'로 끝나는 동사(조건법)를 사용했는가",
-          "type": "pattern_regex",
-          "target": "[ríd]ía\\b",
+          "criterion_ko": "'en la que' 또는 'en el que'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "en la que",
+            "en el que"
+          ],
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -75,27 +78,32 @@
       }
     },
     {
-      "id": "es_b1_u01_w2",
+      "id": "es_b1_u06_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Qué harías tú en mi lugar?» Responda a esta pregunta con el condicional.",
-        "ko": "'¿Qué harías tú en mi lugar?'(제 입장이면 뭘 하시겠어요?)라는 질문에 조건법을 사용해서 답을 써 보세요."
+        "en": "«¿Es grande la casa en la que vives?» Responda a esta pregunta.",
+        "ko": "'¿Es grande la casa en la que vives?'(사는 집이 커요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "condicional",
-          "label_ko": "가정법",
+          "id": "relativo_preposicion",
+          "label_ko": "전치사 관계대명사",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'ía'로 끝나는 동사를 사용했는가",
-          "type": "pattern_regex",
-          "target": "ía\\b",
+          "criterion_ko": "'Sí' 또는 'No'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "Sí",
+            "sí",
+            "No",
+            "no"
+          ],
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -121,27 +129,30 @@
       }
     },
     {
-      "id": "es_b1_u01_s1",
+      "id": "es_b1_u06_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta una frase con el condicional sobre algo que compraría.",
-        "ko": "조건법을 사용해서 소리 내어 사고 싶은 것에 대해 말해 보세요."
+        "en": "Diga en voz alta una frase con «por el que» o «por la que».",
+        "ko": "소리 내어 'por el que' 또는 'por la que'를 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "condicional",
-          "label_ko": "가정법",
+          "id": "relativo_preposicion",
+          "label_ko": "전치사 관계대명사",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'compraría' 또는 'ía'로 끝나는 동사를 사용했는가",
-          "type": "pattern_regex",
-          "target": "ía\\b",
+          "criterion_ko": "'por el que' 또는 'por la que'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "por el que",
+            "por la que"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -170,18 +181,18 @@
       }
     },
     {
-      "id": "es_b1_u01_s2",
+      "id": "es_b1_u06_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Viajarías más si tuvieras tiempo?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Viajarías más si tuvieras tiempo?'(시간이 있으면 더 여행하시겠어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Es simple el motivo por el que viniste?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Es simple el motivo por el que viniste?'(온 이유가 간단해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "condicional",
-          "label_ko": "가정법",
+          "id": "relativo_preposicion",
+          "label_ko": "전치사 관계대명사",
           "min_occurrences": 1
         }
       ],

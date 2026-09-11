@@ -1,55 +1,57 @@
 {
   "meta": {
-    "id": "es_b1_u01",
+    "id": "es_b1_u07",
     "domain": "language",
     "lang": "es",
     "level": "b1",
-    "unit": 1,
-    "title": "Condicional (would)",
-    "title_ko": "가정법 (~할 텐데)",
+    "unit": 7,
+    "title": "Subordinadas con porque/ya que",
+    "title_ko": "종속절 (porque/ya que)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "The conditional expresses hypothetical actions: « Yo viajaría si tuviera dinero » (I would travel if I had money).",
-    "explanation_ko": "가정법은 가상의 행동을 나타냅니다: 'Yo viajaría si tuviera dinero'(돈이 있으면 여행할 텐데).",
+    "explanation_en": "« Porque » gives a direct reason, « ya que » gives a reason the listener may already know, often at the start of a sentence.",
+    "explanation_ko": "'porque'(왜냐하면)는 직접적인 이유를 제공하고, 'ya que'(~이니까)는 듣는 사람이 이미 알고 있을 수 있는 이유를 제공하며 흔히 문장 처음에 옵니다.",
     "key_expressions": [
       {
-        "en": "Yo viajaría más si tuviera tiempo.",
-        "ko": "시간이 있으면 더 여행할 텐데요."
+        "en": "No fui porque estaba enfermo.",
+        "ko": "저는 아파서 안 갔어요."
       },
       {
-        "en": "¿Qué harías tú en mi lugar?",
-        "ko": "제 입장이면 뭘 하시겠어요?"
+        "en": "Ya que llueve, quedémonos en casa.",
+        "ko": "비가 오니까 집에 있어요."
       },
       {
-        "en": "Compraría esa casa si pudiera.",
-        "ko": "할 수 있다면 그 집을 살 텐데요."
+        "en": "Estudio mucho porque quiero aprobar.",
+        "ko": "저는 합격하고 싶어서 열심히 공부해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_b1_u01_w1",
+      "id": "es_b1_u07_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba una frase con el condicional (p.ej. «Yo viajaría...»).",
-        "ko": "가정법(예: 'Yo viajaría...')을 사용해서 문장을 써 보세요."
+        "en": "Escriba una frase con «porque».",
+        "ko": "'porque'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "condicional",
-          "label_ko": "가정법",
+          "id": "porque",
+          "label_ko": "porque",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'ría' 또는 'ría'로 끝나는 동사(조건법)를 사용했는가",
-          "type": "pattern_regex",
-          "target": "[ríd]ía\\b",
+          "criterion_ko": "'porque'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "porque"
+          ],
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -75,27 +77,29 @@
       }
     },
     {
-      "id": "es_b1_u01_w2",
+      "id": "es_b1_u07_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Qué harías tú en mi lugar?» Responda a esta pregunta con el condicional.",
-        "ko": "'¿Qué harías tú en mi lugar?'(제 입장이면 뭘 하시겠어요?)라는 질문에 조건법을 사용해서 답을 써 보세요."
+        "en": "«¿Por qué no fuiste a la fiesta?» Responda usando «porque».",
+        "ko": "'¿Por qué no fuiste a la fiesta?'(왜 파티에 안 갔어요?)라는 질문에 'porque'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "condicional",
-          "label_ko": "가정법",
+          "id": "porque",
+          "label_ko": "porque",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'ía'로 끝나는 동사를 사용했는가",
-          "type": "pattern_regex",
-          "target": "ía\\b",
+          "criterion_ko": "'porque'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "porque"
+          ],
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -121,27 +125,29 @@
       }
     },
     {
-      "id": "es_b1_u01_s1",
+      "id": "es_b1_u07_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta una frase con el condicional sobre algo que compraría.",
-        "ko": "조건법을 사용해서 소리 내어 사고 싶은 것에 대해 말해 보세요."
+        "en": "Diga en voz alta una frase con «ya que».",
+        "ko": "소리 내어 'ya que'를 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "condicional",
-          "label_ko": "가정법",
+          "id": "ya_que",
+          "label_ko": "ya que",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'compraría' 또는 'ía'로 끝나는 동사를 사용했는가",
-          "type": "pattern_regex",
-          "target": "ía\\b",
+          "criterion_ko": "'ya que'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "ya que"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -170,18 +176,18 @@
       }
     },
     {
-      "id": "es_b1_u01_s2",
+      "id": "es_b1_u07_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Viajarías más si tuvieras tiempo?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Viajarías más si tuvieras tiempo?'(시간이 있으면 더 여행하시겠어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Estudias mucho porque quieres aprobar?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Estudias mucho porque quieres aprobar?'(합격하고 싶어서 열심히 공부해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "condicional",
-          "label_ko": "가정법",
+          "id": "porque",
+          "label_ko": "porque",
           "min_occurrences": 1
         }
       ],
