@@ -1,58 +1,55 @@
 {
   "meta": {
-    "id": "es_a1_u01",
+    "id": "es_a1_u02",
     "domain": "language",
     "lang": "es",
     "level": "a1",
-    "unit": 1,
-    "title": "Saludos/Presentaciones",
-    "title_ko": "인사·자기소개",
+    "unit": 2,
+    "title": "Números/Edad/Hora",
+    "title_ko": "숫자·나이·시간",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "To greet someone, we use « Hola » or « Buenos días ». To introduce yourself, we use « Me llamo... ».",
-    "explanation_ko": "인사할 때는 'Hola'(안녕하세요) 또는 'Buenos días'(좋은 아침입니다)를 씁니다. 자기소개할 때는 'Me llamo...'(제 이름은 ~예요)를 씁니다.",
+    "explanation_en": "To say your age, we use « Tengo... años ». To ask for the time, we use « ¿Qué hora es? ».",
+    "explanation_ko": "나이를 말할 때는 'Tengo...años'(저는 ~살이에요), 시간을 물을 때는 '¿Qué hora es?'(몇 시예요?)를 씁니다.",
     "key_expressions": [
       {
-        "en": "Hola, ¿cómo estás?",
-        "ko": "안녕하세요, 어떻게 지내세요?"
+        "en": "Tengo veinte años.",
+        "ko": "저는 스무 살이에요."
       },
       {
-        "en": "Me llamo María.",
-        "ko": "제 이름은 마리아예요."
+        "en": "¿Qué hora es?",
+        "ko": "몇 시예요?"
       },
       {
-        "en": "Mucho gusto.",
-        "ko": "만나서 반가워요."
+        "en": "Son las tres.",
+        "ko": "3시예요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_a1_u01_w1",
+      "id": "es_a1_u02_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Preséntese usando «Me llamo...».",
-        "ko": "'Me llamo...'를 사용해서 자기소개를 써 보세요."
+        "en": "Escriba su edad usando «Tengo... años».",
+        "ko": "'Tengo...años'를 사용해서 나이를 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "introduction",
-          "label_ko": "자기소개 표현",
+          "id": "age",
+          "label_ko": "나이 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Me llamo'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "Me llamo",
-            "me llamo"
-          ],
+          "criterion_ko": "'Tengo'와 'años'를 사용했는가",
+          "type": "pattern_regex",
+          "target": "[Tt]engo.{0,10}años",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -78,18 +75,18 @@
       }
     },
     {
-      "id": "es_a1_u01_w2",
+      "id": "es_a1_u02_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Cómo estás?» Responda a esta pregunta.",
-        "ko": "'¿Cómo estás?'(어떻게 지내세요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Qué hora es?» Responda a esta pregunta.",
+        "ko": "'¿Qué hora es?'(몇 시예요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "how_are_you",
-          "label_ko": "안부 응답 표현",
+          "id": "time",
+          "label_ko": "시간 표현",
           "min_occurrences": 1
         }
       ],
@@ -124,29 +121,29 @@
       }
     },
     {
-      "id": "es_a1_u01_s1",
+      "id": "es_a1_u02_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Salude en voz alta usando «Hola».",
-        "ko": "'Hola'를 사용해서 소리 내어 인사해 보세요."
+        "en": "Diga en voz alta su edad usando «Tengo... años».",
+        "ko": "'Tengo...años'를 사용해서 소리 내어 나이를 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "greeting",
-          "label_ko": "인사 표현",
+          "id": "age",
+          "label_ko": "나이 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Hola'를 사용했는가",
+          "criterion_ko": "'Tengo'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Hola",
-            "hola"
+            "Tengo",
+            "tengo"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,29 +173,31 @@
       }
     },
     {
-      "id": "es_a1_u01_s2",
+      "id": "es_a1_u02_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Cómo te llamas?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Cómo te llamas?'(이름이 뭐예요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Son las tres?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Son las tres?'(3시예요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "introduction",
-          "label_ko": "자기소개 표현",
+          "id": "time",
+          "label_ko": "시간 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Me llamo'를 사용했는가",
+          "criterion_ko": "'Sí' 또는 'No'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Me llamo",
-            "me llamo"
+            "Sí",
+            "sí",
+            "No",
+            "no"
           ],
           "min_matches": 1,
           "points": 55,

@@ -1,57 +1,57 @@
 {
   "meta": {
-    "id": "es_a1_u01",
+    "id": "es_a1_u05",
     "domain": "language",
     "lang": "es",
     "level": "a1",
-    "unit": 1,
-    "title": "Saludos/Presentaciones",
-    "title_ko": "인사·자기소개",
+    "unit": 5,
+    "title": "Comida/Bebida",
+    "title_ko": "음식·음료",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "To greet someone, we use « Hola » or « Buenos días ». To introduce yourself, we use « Me llamo... ».",
-    "explanation_ko": "인사할 때는 'Hola'(안녕하세요) 또는 'Buenos días'(좋은 아침입니다)를 씁니다. 자기소개할 때는 'Me llamo...'(제 이름은 ~예요)를 씁니다.",
+    "explanation_en": "To say what you like to eat/drink, we use « Me gusta... ». To order, we use « Quiero... ».",
+    "explanation_ko": "먹고 마시는 것을 좋아한다고 말할 때는 'Me gusta...'(저는 ~을 좋아해요), 주문할 때는 'Quiero...'(저는 ~을 원해요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "Hola, ¿cómo estás?",
-        "ko": "안녕하세요, 어떻게 지내세요?"
+        "en": "Me gusta la pizza.",
+        "ko": "저는 피자를 좋아해요."
       },
       {
-        "en": "Me llamo María.",
-        "ko": "제 이름은 마리아예요."
+        "en": "Quiero un café, por favor.",
+        "ko": "커피 한 잔 주세요."
       },
       {
-        "en": "Mucho gusto.",
-        "ko": "만나서 반가워요."
+        "en": "No me gusta el pescado.",
+        "ko": "저는 생선을 안 좋아해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_a1_u01_w1",
+      "id": "es_a1_u05_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Preséntese usando «Me llamo...».",
-        "ko": "'Me llamo...'를 사용해서 자기소개를 써 보세요."
+        "en": "Escriba sobre su comida favorita usando «Me gusta...».",
+        "ko": "'Me gusta...'를 사용해서 좋아하는 음식을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "introduction",
-          "label_ko": "자기소개 표현",
+          "id": "food_preference",
+          "label_ko": "음식 선호 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Me llamo'를 사용했는가",
+          "criterion_ko": "'Me gusta'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Me llamo",
-            "me llamo"
+            "Me gusta",
+            "me gusta"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,37 +78,40 @@
       }
     },
     {
-      "id": "es_a1_u01_w2",
+      "id": "es_a1_u05_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Cómo estás?» Responda a esta pregunta.",
-        "ko": "'¿Cómo estás?'(어떻게 지내세요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Qué quieres beber?» Responda a esta pregunta.",
+        "ko": "'¿Qué quieres beber?'(뭐 마시고 싶어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "how_are_you",
-          "label_ko": "안부 응답 표현",
+          "id": "drink_order",
+          "label_ko": "음료 주문 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "완전한 문장인가",
-          "type": "pattern_regex",
-          "target": "[.]$",
+          "criterion_ko": "'Quiero'를 사용했는가",
+          "type": "keyword_match",
+          "target": [
+            "Quiero",
+            "quiero"
+          ],
           "min_matches": 1,
           "points": 60,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "분량이 충분한가 (최소 5자)",
-          "type": "length_check",
-          "unit": "chars",
-          "min": 5,
+          "criterion_ko": "완전한 문장인가",
+          "type": "pattern_regex",
+          "target": "[.]$",
+          "min_matches": 1,
           "points": 40,
           "required": false
         }
@@ -124,29 +127,29 @@
       }
     },
     {
-      "id": "es_a1_u01_s1",
+      "id": "es_a1_u05_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Salude en voz alta usando «Hola».",
-        "ko": "'Hola'를 사용해서 소리 내어 인사해 보세요."
+        "en": "Pida algo en voz alta usando «Quiero...».",
+        "ko": "'Quiero...'를 사용해서 소리 내어 주문해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "greeting",
-          "label_ko": "인사 표현",
+          "id": "order",
+          "label_ko": "주문 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Hola'를 사용했는가",
+          "criterion_ko": "'Quiero'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Hola",
-            "hola"
+            "Quiero",
+            "quiero"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,29 +179,31 @@
       }
     },
     {
-      "id": "es_a1_u01_s2",
+      "id": "es_a1_u05_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Cómo te llamas?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Cómo te llamas?'(이름이 뭐예요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Te gusta el pescado?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Te gusta el pescado?'(생선 좋아해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "introduction",
-          "label_ko": "자기소개 표현",
+          "id": "food_preference",
+          "label_ko": "음식 선호 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'Me llamo'를 사용했는가",
+          "criterion_ko": "'Sí' 또는 'No'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "Me llamo",
-            "me llamo"
+            "Sí",
+            "sí",
+            "No",
+            "no"
           ],
           "min_matches": 1,
           "points": 55,
