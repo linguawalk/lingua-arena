@@ -1,58 +1,55 @@
 {
   "meta": {
-    "id": "es_c1_u01",
+    "id": "es_c1_u06",
     "domain": "language",
     "lang": "es",
     "level": "c1",
-    "unit": 1,
-    "title": "Sinónimos de 'decir' (explicar/afirmar/expresar/subrayar)",
-    "title_ko": "말하기 유의어 (explicar/afirmar/expresar/subrayar)",
+    "unit": 6,
+    "title": "Colocaciones con hacer/tomar",
+    "title_ko": "콜로케이션 (hacer/tomar)",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Explicar » explains something clearly, « afirmar » asserts a claim confidently, « expresar » expresses an opinion, « subrayar » emphasizes a point.",
-    "explanation_ko": "'explicar'(설명하다)는 무언가를 명확하게 설명하고, 'afirmar'(단언하다)는 자신 있게 주장을 내세우며, 'expresar'(표현하다)는 의견을 표현하고, 'subrayar'(강조하다)는 요점을 강조합니다.",
+    "explanation_en": "« Tomar una decisión » (make a decision), « tener en cuenta » are fixed collocations often using specific verbs.",
+    "explanation_ko": "'tomar una decisión'(결정을 내리다), 'hacer caso'(주의를 기울이다) 등은 특정 동사를 사용하는 고정된 콜로케이션입니다.",
     "key_expressions": [
       {
-        "en": "Explica el problema en detalle.",
-        "ko": "그는 문제를 자세히 설명해요."
+        "en": "Tengo que tomar una decisión importante.",
+        "ko": "저는 중요한 결정을 내려야 해요."
       },
       {
-        "en": "Afirma que es verdad.",
-        "ko": "그녀는 그게 사실이라고 단언해요."
+        "en": "Deberías hacer caso a tus padres.",
+        "ko": "부모님 말씀을 잘 들어야 해요."
       },
       {
-        "en": "Subraya la importancia de este punto.",
-        "ko": "그는 이 점의 중요성을 강조해요."
+        "en": "Hace un esfuerzo enorme cada día.",
+        "ko": "그는 매일 엄청난 노력을 해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_c1_u01_w1",
+      "id": "es_c1_u06_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba una frase con «explicar» para explicar algo claramente.",
-        "ko": "'explicar'을 사용해서 무언가를 명확하게 설명하는 문장을 써 보세요."
+        "en": "Escriba una frase con «tomar una decisión».",
+        "ko": "'tomar una decisión'을 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "explicar",
-          "label_ko": "explicar",
+          "id": "tomar_decision",
+          "label_ko": "tomar una decisión",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'explica' 또는 'explico'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "explica",
-            "explico"
-          ],
+          "criterion_ko": "'decisión'과 'tomar/tomo/toma'를 사용했는가",
+          "type": "pattern_regex",
+          "target": "decisión.{0,15}(tomo|toma|tomar)",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -78,29 +75,31 @@
       }
     },
     {
-      "id": "es_c1_u01_w2",
+      "id": "es_c1_u06_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Es verdad?» Responda y utilice «afirmar».",
-        "ko": "'¿Es verdad?'(그게 사실이에요?)라는 질문에 'afirmar'를 사용해서 답을 써 보세요."
+        "en": "«¿Hace caso a sus padres?» Responda a esta pregunta.",
+        "ko": "'¿Hace caso a sus padres?'(부모님 말씀을 잘 들어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "afirmar",
-          "label_ko": "afirmar",
+          "id": "hacer_caso",
+          "label_ko": "hacer caso",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'afirma' 또는 'afirmo'를 사용했는가",
+          "criterion_ko": "'Sí' 또는 'No'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "afirma",
-            "afirmo"
+            "Sí",
+            "sí",
+            "No",
+            "no"
           ],
           "min_matches": 1,
           "points": 60,
@@ -127,29 +126,28 @@
       }
     },
     {
-      "id": "es_c1_u01_s1",
+      "id": "es_c1_u06_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta una frase con «subrayar» para enfatizar un punto importante.",
-        "ko": "'subrayar'를 사용해서 중요한 점을 강조하는 문장을 소리 내어 말해 보세요."
+        "en": "Diga en voz alta una frase con «hacer un esfuerzo».",
+        "ko": "소리 내어 'hacer un esfuerzo'를 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "subrayar",
-          "label_ko": "subrayar",
+          "id": "hacer_esfuerzo",
+          "label_ko": "hacer un esfuerzo",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'subraya' 또는 'subrayo'를 사용했는가",
+          "criterion_ko": "'esfuerzo'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "subraya",
-            "subrayo"
+            "esfuerzo"
           ],
           "min_matches": 1,
           "points": 55,
@@ -179,18 +177,18 @@
       }
     },
     {
-      "id": "es_c1_u01_s2",
+      "id": "es_c1_u06_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Expresa su opinión abiertamente?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Expresa su opinión abiertamente?'(그가 의견을 솔직하게 표현해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Tiene que tomar una decisión importante?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Tiene que tomar una decisión importante?'(중요한 결정을 내려야 해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "expresar",
-          "label_ko": "expresar",
+          "id": "tomar_decision",
+          "label_ko": "tomar una decisión",
           "min_occurrences": 1
         }
       ],

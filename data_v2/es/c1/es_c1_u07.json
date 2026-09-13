@@ -1,57 +1,56 @@
 {
   "meta": {
-    "id": "es_c1_u01",
+    "id": "es_c1_u07",
     "domain": "language",
     "lang": "es",
     "level": "c1",
-    "unit": 1,
-    "title": "Sinónimos de 'decir' (explicar/afirmar/expresar/subrayar)",
-    "title_ko": "말하기 유의어 (explicar/afirmar/expresar/subrayar)",
+    "unit": 7,
+    "title": "Colocaciones con tener (tener confianza, tener sentido para)",
+    "title_ko": "콜로케이션 (tener)",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« Explicar » explains something clearly, « afirmar » asserts a claim confidently, « expresar » expresses an opinion, « subrayar » emphasizes a point.",
-    "explanation_ko": "'explicar'(설명하다)는 무언가를 명확하게 설명하고, 'afirmar'(단언하다)는 자신 있게 주장을 내세우며, 'expresar'(표현하다)는 의견을 표현하고, 'subrayar'(강조하다)는 요점을 강조합니다.",
+    "explanation_en": "« Tener confianza » (to have trust), « tener sentido para » (to have a sense/feel for) are fixed collocations with « tener ».",
+    "explanation_ko": "'tener confianza'(신뢰를 갖다), 'tener sentido para'(~에 감각이 있다)는 'tener'를 사용하는 고정된 콜로케이션입니다.",
     "key_expressions": [
       {
-        "en": "Explica el problema en detalle.",
-        "ko": "그는 문제를 자세히 설명해요."
+        "en": "Tengo confianza en ti.",
+        "ko": "저는 당신을 신뢰해요."
       },
       {
-        "en": "Afirma que es verdad.",
-        "ko": "그녀는 그게 사실이라고 단언해요."
+        "en": "Tiene buen sentido para el humor.",
+        "ko": "그녀는 유머 감각이 좋아요."
       },
       {
-        "en": "Subraya la importancia de este punto.",
-        "ko": "그는 이 점의 중요성을 강조해요."
+        "en": "No tiene ni idea de lo que pasó.",
+        "ko": "그는 무슨 일이 일어났는지 전혀 몰라요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_c1_u01_w1",
+      "id": "es_c1_u07_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba una frase con «explicar» para explicar algo claramente.",
-        "ko": "'explicar'을 사용해서 무언가를 명확하게 설명하는 문장을 써 보세요."
+        "en": "Escriba una frase con «tener confianza».",
+        "ko": "'tener confianza'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "explicar",
-          "label_ko": "explicar",
+          "id": "tener_confianza",
+          "label_ko": "tener confianza",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'explica' 또는 'explico'를 사용했는가",
+          "criterion_ko": "'confianza'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "explica",
-            "explico"
+            "confianza"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,29 +77,31 @@
       }
     },
     {
-      "id": "es_c1_u01_w2",
+      "id": "es_c1_u07_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Es verdad?» Responda y utilice «afirmar».",
-        "ko": "'¿Es verdad?'(그게 사실이에요?)라는 질문에 'afirmar'를 사용해서 답을 써 보세요."
+        "en": "«¿Tiene buen sentido para el humor?» Responda a esta pregunta.",
+        "ko": "'¿Tiene buen sentido para el humor?'(유머 감각이 좋아요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "afirmar",
-          "label_ko": "afirmar",
+          "id": "sentido_para",
+          "label_ko": "sentido para",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'afirma' 또는 'afirmo'를 사용했는가",
+          "criterion_ko": "'Sí' 또는 'No'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "afirma",
-            "afirmo"
+            "Sí",
+            "sí",
+            "No",
+            "no"
           ],
           "min_matches": 1,
           "points": 60,
@@ -127,29 +128,28 @@
       }
     },
     {
-      "id": "es_c1_u01_s1",
+      "id": "es_c1_u07_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta una frase con «subrayar» para enfatizar un punto importante.",
-        "ko": "'subrayar'를 사용해서 중요한 점을 강조하는 문장을 소리 내어 말해 보세요."
+        "en": "Diga en voz alta una frase con «no tener ni idea».",
+        "ko": "소리 내어 'no tener ni idea'를 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "subrayar",
-          "label_ko": "subrayar",
+          "id": "ni_idea",
+          "label_ko": "ni idea",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'subraya' 또는 'subrayo'를 사용했는가",
+          "criterion_ko": "'idea'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "subraya",
-            "subrayo"
+            "idea"
           ],
           "min_matches": 1,
           "points": 55,
@@ -179,18 +179,18 @@
       }
     },
     {
-      "id": "es_c1_u01_s2",
+      "id": "es_c1_u07_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Expresa su opinión abiertamente?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Expresa su opinión abiertamente?'(그가 의견을 솔직하게 표현해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Tiene confianza en él?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Tiene confianza en él?'(그를 신뢰해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "expresar",
-          "label_ko": "expresar",
+          "id": "tener_confianza",
+          "label_ko": "tener confianza",
           "min_occurrences": 1
         }
       ],
