@@ -1,57 +1,56 @@
 {
   "meta": {
-    "id": "es_b2_u01",
+    "id": "es_b2_u02",
     "domain": "language",
     "lang": "es",
     "level": "b2",
-    "unit": 1,
-    "title": "Subjuntivo presente perfecto (haya + participio)",
-    "title_ko": "접속법 현재완료 (haya + 과거분사)",
+    "unit": 2,
+    "title": "Subjuntivo pluscuamperfecto (hubiera + participio)",
+    "title_ko": "접속법 과거완료 (hubiera + 과거분사)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "The present perfect subjunctive expresses doubt or emotion about a completed action: « Espero que hayas terminado ».",
-    "explanation_ko": "접속법 현재완료는 완료된 행동에 대한 의심이나 감정을 나타냅니다: 'Espero que hayas terminado'(끝냈기를 바라요).",
+    "explanation_en": "The pluperfect subjunctive expresses doubt or a hypothetical about a past completed action: « Si hubiera sabido, habría venido ».",
+    "explanation_ko": "접속법 과거완료는 과거의 완료된 행동에 대한 의심이나 가정을 나타냅니다: 'Si hubiera sabido, habría venido'(알았다면 왔을 텐데요).",
     "key_expressions": [
       {
-        "en": "Espero que hayas terminado el trabajo.",
-        "ko": "일을 끝냈기를 바라요."
+        "en": "Si hubiera sabido, habría venido.",
+        "ko": "알았다면 왔을 텐데요."
       },
       {
-        "en": "No creo que haya llegado todavía.",
-        "ko": "아직 도착했다고 생각하지 않아요."
+        "en": "Ojalá hubiera estudiado más.",
+        "ko": "공부를 더 했더라면 좋았을 텐데요."
       },
       {
-        "en": "Me alegra que hayas venido.",
-        "ko": "와줘서 기뻐요."
+        "en": "No creía que hubiera terminado tan rápido.",
+        "ko": "그렇게 빨리 끝냈을 거라고 생각하지 않았어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_b2_u01_w1",
+      "id": "es_b2_u02_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba una frase con «espero que haya...» (subjuntivo presente perfecto).",
-        "ko": "접속법 현재완료 'espero que haya...'를 사용해서 문장을 써 보세요."
+        "en": "Escriba una frase con «Si hubiera... habría...».",
+        "ko": "'Si hubiera...habría...'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "subjuntivo_pluscuamperfecto",
+          "label_ko": "접속법 과거완료",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'haya' 또는 'hayas'를 사용했는가",
+          "criterion_ko": "'hubiera'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "haya",
-            "hayas"
+            "hubiera"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,18 +77,18 @@
       }
     },
     {
-      "id": "es_b2_u01_w2",
+      "id": "es_b2_u02_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Cree que haya llegado ya?» Responda a esta pregunta.",
-        "ko": "'¿Cree que haya llegado ya?'(이미 도착했다고 생각해요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Habría venido si hubiera sabido?» Responda a esta pregunta.",
+        "ko": "'¿Habría venido si hubiera sabido?'(알았다면 왔을까요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "subjuntivo_pluscuamperfecto",
+          "label_ko": "접속법 과거완료",
           "min_occurrences": 1
         }
       ],
@@ -129,28 +128,28 @@
       }
     },
     {
-      "id": "es_b2_u01_s1",
+      "id": "es_b2_u02_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta una frase con «me alegra que hayas...».",
-        "ko": "'me alegra que hayas...'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Diga en voz alta una frase con «Ojalá hubiera...».",
+        "ko": "'Ojalá hubiera...'를 사용해서 소리 내어 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "subjuntivo_pluscuamperfecto",
+          "label_ko": "접속법 과거완료",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'hayas'를 사용했는가",
+          "criterion_ko": "'hubiera'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "hayas"
+            "hubiera"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,18 +179,18 @@
       }
     },
     {
-      "id": "es_b2_u01_s2",
+      "id": "es_b2_u02_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Espera que haya terminado el trabajo?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Espera que haya terminado el trabajo?'(일을 끝냈기를 바라나요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿No creía que hubiera terminado tan rápido?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿No creía que hubiera terminado tan rápido?'(그렇게 빨리 끝냈을 거라고 생각 안 했어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "subjuntivo_pluscuamperfecto",
+          "label_ko": "접속법 과거완료",
           "min_occurrences": 1
         }
       ],

@@ -1,57 +1,56 @@
 {
   "meta": {
-    "id": "es_b2_u01",
+    "id": "es_b2_u09",
     "domain": "language",
     "lang": "es",
     "level": "b2",
-    "unit": 1,
-    "title": "Subjuntivo presente perfecto (haya + participio)",
-    "title_ko": "접속법 현재완료 (haya + 과거분사)",
+    "unit": 9,
+    "title": "Relativas con lo que/lo cual",
+    "title_ko": "관계절 (lo que/lo cual)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "The present perfect subjunctive expresses doubt or emotion about a completed action: « Espero que hayas terminado ».",
-    "explanation_ko": "접속법 현재완료는 완료된 행동에 대한 의심이나 감정을 나타냅니다: 'Espero que hayas terminado'(끝냈기를 바라요).",
+    "explanation_en": "« Lo que » and « lo cual » refer back to an entire preceding idea, not just a noun: « Llegó tarde, lo cual me molestó ».",
+    "explanation_ko": "'lo que'와 'lo cual'은 명사가 아니라 앞선 생각 전체를 가리킵니다: 'Llegó tarde, lo cual me molestó'(그가 늦게 도착했는데, 그게 저를 짜증나게 했어요).",
     "key_expressions": [
       {
-        "en": "Espero que hayas terminado el trabajo.",
-        "ko": "일을 끝냈기를 바라요."
+        "en": "Llegó tarde, lo cual me molestó.",
+        "ko": "그가 늦게 도착했는데, 그게 저를 짜증나게 했어요."
       },
       {
-        "en": "No creo que haya llegado todavía.",
-        "ko": "아직 도착했다고 생각하지 않아요."
+        "en": "No vino, lo que fue una sorpresa.",
+        "ko": "그가 안 왔는데, 그건 놀라운 일이었어요."
       },
       {
-        "en": "Me alegra que hayas venido.",
-        "ko": "와줘서 기뻐요."
+        "en": "Lo que dijo no tiene sentido.",
+        "ko": "그가 말한 것은 말이 안 돼요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_b2_u01_w1",
+      "id": "es_b2_u09_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba una frase con «espero que haya...» (subjuntivo presente perfecto).",
-        "ko": "접속법 현재완료 'espero que haya...'를 사용해서 문장을 써 보세요."
+        "en": "Escriba una frase con «lo cual» que se refiera a toda una idea previa.",
+        "ko": "앞선 생각 전체를 가리키는 'lo cual'을 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "lo_cual",
+          "label_ko": "lo cual",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'haya' 또는 'hayas'를 사용했는가",
+          "criterion_ko": "'lo cual'을 사용했는가",
           "type": "keyword_match",
           "target": [
-            "haya",
-            "hayas"
+            "lo cual"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,18 +77,18 @@
       }
     },
     {
-      "id": "es_b2_u01_w2",
+      "id": "es_b2_u09_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Cree que haya llegado ya?» Responda a esta pregunta.",
-        "ko": "'¿Cree que haya llegado ya?'(이미 도착했다고 생각해요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Tiene sentido lo que dijo?» Responda a esta pregunta.",
+        "ko": "'¿Tiene sentido lo que dijo?'(그가 말한 게 말이 돼요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "lo_que",
+          "label_ko": "lo que",
           "min_occurrences": 1
         }
       ],
@@ -129,28 +128,28 @@
       }
     },
     {
-      "id": "es_b2_u01_s1",
+      "id": "es_b2_u09_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta una frase con «me alegra que hayas...».",
-        "ko": "'me alegra que hayas...'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Diga en voz alta una frase con «lo que fue una sorpresa».",
+        "ko": "'lo que fue una sorpresa'를 사용해서 소리 내어 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "lo_que",
+          "label_ko": "lo que",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'hayas'를 사용했는가",
+          "criterion_ko": "'lo que'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "hayas"
+            "lo que"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,18 +179,18 @@
       }
     },
     {
-      "id": "es_b2_u01_s2",
+      "id": "es_b2_u09_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Espera que haya terminado el trabajo?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Espera que haya terminado el trabajo?'(일을 끝냈기를 바라나요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Le molestó que llegara tarde?» Le preguntan esto. Responda en voz alta usando «lo cual».",
+        "ko": "'¿Le molestó que llegara tarde?'(늦게 도착한 게 짜증났어요?)라는 질문을 받았습니다. 'lo cual'을 사용해서 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "lo_cual",
+          "label_ko": "lo cual",
           "min_occurrences": 1
         }
       ],

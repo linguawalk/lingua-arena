@@ -1,57 +1,57 @@
 {
   "meta": {
-    "id": "es_b2_u01",
+    "id": "es_b2_u10",
     "domain": "language",
     "lang": "es",
     "level": "b2",
-    "unit": 1,
-    "title": "Subjuntivo presente perfecto (haya + participio)",
-    "title_ko": "접속법 현재완료 (haya + 과거분사)",
+    "unit": 10,
+    "title": "Relativas complejas",
+    "title_ko": "복잡한 관계절",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "The present perfect subjunctive expresses doubt or emotion about a completed action: « Espero que hayas terminado ».",
-    "explanation_ko": "접속법 현재완료는 완료된 행동에 대한 의심이나 감정을 나타냅니다: 'Espero que hayas terminado'(끝냈기를 바라요).",
+    "explanation_en": "Complex relative clauses use « cuyo/cuya » (whose) to indicate possession: « El escritor cuyo libro leí es famoso ».",
+    "explanation_ko": "복잡한 관계절은 소유를 나타내기 위해 'cuyo/cuya'(~의)를 사용합니다: 'El escritor cuyo libro leí es famoso'(제가 읽은 책의 작가는 유명해요).",
     "key_expressions": [
       {
-        "en": "Espero que hayas terminado el trabajo.",
-        "ko": "일을 끝냈기를 바라요."
+        "en": "El escritor cuyo libro leí es famoso.",
+        "ko": "제가 읽은 책의 작가는 유명해요."
       },
       {
-        "en": "No creo que haya llegado todavía.",
-        "ko": "아직 도착했다고 생각하지 않아요."
+        "en": "La mujer cuya casa visitamos es amable.",
+        "ko": "저희가 방문한 집의 여자분은 친절해요."
       },
       {
-        "en": "Me alegra que hayas venido.",
-        "ko": "와줘서 기뻐요."
+        "en": "La empresa cuyos productos compramos es confiable.",
+        "ko": "저희가 구매하는 제품의 회사는 신뢰할 만해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_b2_u01_w1",
+      "id": "es_b2_u10_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba una frase con «espero que haya...» (subjuntivo presente perfecto).",
-        "ko": "접속법 현재완료 'espero que haya...'를 사용해서 문장을 써 보세요."
+        "en": "Escriba una frase con «cuyo» o «cuya».",
+        "ko": "'cuyo' 또는 'cuya'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "cuyo",
+          "label_ko": "cuyo/cuya",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'haya' 또는 'hayas'를 사용했는가",
+          "criterion_ko": "'cuyo' 또는 'cuya'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "haya",
-            "hayas"
+            "cuyo",
+            "cuya"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,18 +78,18 @@
       }
     },
     {
-      "id": "es_b2_u01_w2",
+      "id": "es_b2_u10_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Cree que haya llegado ya?» Responda a esta pregunta.",
-        "ko": "'¿Cree que haya llegado ya?'(이미 도착했다고 생각해요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Es amable la mujer cuya casa visitaron?» Responda a esta pregunta.",
+        "ko": "'¿Es amable la mujer cuya casa visitaron?'(방문한 집의 여자분이 친절해요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "cuyo",
+          "label_ko": "cuyo/cuya",
           "min_occurrences": 1
         }
       ],
@@ -129,28 +129,29 @@
       }
     },
     {
-      "id": "es_b2_u01_s1",
+      "id": "es_b2_u10_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta una frase con «me alegra que hayas...».",
-        "ko": "'me alegra que hayas...'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Diga en voz alta una frase con «cuyos» o «cuyas».",
+        "ko": "소리 내어 'cuyos' 또는 'cuyas'를 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "cuyo",
+          "label_ko": "cuyo/cuya",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'hayas'를 사용했는가",
+          "criterion_ko": "'cuyos' 또는 'cuyas'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "hayas"
+            "cuyos",
+            "cuyas"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,18 +181,18 @@
       }
     },
     {
-      "id": "es_b2_u01_s2",
+      "id": "es_b2_u10_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Espera que haya terminado el trabajo?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Espera que haya terminado el trabajo?'(일을 끝냈기를 바라나요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Es famoso el escritor cuyo libro leyó?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Es famoso el escritor cuyo libro leyó?'(읽은 책의 작가가 유명해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "cuyo",
+          "label_ko": "cuyo/cuya",
           "min_occurrences": 1
         }
       ],

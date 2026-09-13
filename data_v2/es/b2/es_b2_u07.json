@@ -1,57 +1,57 @@
 {
   "meta": {
-    "id": "es_b2_u01",
+    "id": "es_b2_u07",
     "domain": "language",
     "lang": "es",
     "level": "b2",
-    "unit": 1,
-    "title": "Subjuntivo presente perfecto (haya + participio)",
-    "title_ko": "접속법 현재완료 (haya + 과거분사)",
+    "unit": 7,
+    "title": "Preposiciones concesivas (pese a)",
+    "title_ko": "양보 전치사 (pese a)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "The present perfect subjunctive expresses doubt or emotion about a completed action: « Espero que hayas terminado ».",
-    "explanation_ko": "접속법 현재완료는 완료된 행동에 대한 의심이나 감정을 나타냅니다: 'Espero que hayas terminado'(끝냈기를 바라요).",
+    "explanation_en": "« Pese a » (despite) is a formal concessive preposition, similar to « a pesar de »: « Pese a las dificultades, lo logramos ».",
+    "explanation_ko": "'pese a'(~에도 불구하고)는 'a pesar de'와 비슷한 격식 있는 양보 전치사입니다: 'Pese a las dificultades, lo logramos'(어려움에도 불구하고 저희는 해냈어요).",
     "key_expressions": [
       {
-        "en": "Espero que hayas terminado el trabajo.",
-        "ko": "일을 끝냈기를 바라요."
+        "en": "Pese a las dificultades, lo logramos.",
+        "ko": "어려움에도 불구하고 저희는 해냈어요."
       },
       {
-        "en": "No creo que haya llegado todavía.",
-        "ko": "아직 도착했다고 생각하지 않아요."
+        "en": "Pese a estar cansado, terminó el proyecto.",
+        "ko": "피곤함에도 불구하고 그는 프로젝트를 끝냈어요."
       },
       {
-        "en": "Me alegra que hayas venido.",
-        "ko": "와줘서 기뻐요."
+        "en": "Pese al mal tiempo, salimos.",
+        "ko": "궂은 날씨에도 불구하고 저희는 나갔어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_b2_u01_w1",
+      "id": "es_b2_u07_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba una frase con «espero que haya...» (subjuntivo presente perfecto).",
-        "ko": "접속법 현재완료 'espero que haya...'를 사용해서 문장을 써 보세요."
+        "en": "Escriba una frase con «pese a».",
+        "ko": "'pese a'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "pese_a",
+          "label_ko": "pese a",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'haya' 또는 'hayas'를 사용했는가",
+          "criterion_ko": "'pese a'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "haya",
-            "hayas"
+            "pese a",
+            "Pese a"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,18 +78,18 @@
       }
     },
     {
-      "id": "es_b2_u01_w2",
+      "id": "es_b2_u07_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Cree que haya llegado ya?» Responda a esta pregunta.",
-        "ko": "'¿Cree que haya llegado ya?'(이미 도착했다고 생각해요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Lo lograron pese a las dificultades?» Responda a esta pregunta.",
+        "ko": "'¿Lo lograron pese a las dificultades?'(어려움에도 불구하고 해냈어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "pese_a",
+          "label_ko": "pese a",
           "min_occurrences": 1
         }
       ],
@@ -129,28 +129,28 @@
       }
     },
     {
-      "id": "es_b2_u01_s1",
+      "id": "es_b2_u07_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta una frase con «me alegra que hayas...».",
-        "ko": "'me alegra que hayas...'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Diga en voz alta una frase con «pese a».",
+        "ko": "소리 내어 'pese a'를 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "pese_a",
+          "label_ko": "pese a",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'hayas'를 사용했는가",
+          "criterion_ko": "'pese a'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "hayas"
+            "pese a"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,18 +180,18 @@
       }
     },
     {
-      "id": "es_b2_u01_s2",
+      "id": "es_b2_u07_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Espera que haya terminado el trabajo?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Espera que haya terminado el trabajo?'(일을 끝냈기를 바라나요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Salieron pese al mal tiempo?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Salieron pese al mal tiempo?'(궂은 날씨에도 불구하고 나갔어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "pese_a",
+          "label_ko": "pese a",
           "min_occurrences": 1
         }
       ],

@@ -1,58 +1,55 @@
 {
   "meta": {
-    "id": "es_b2_u01",
+    "id": "es_b2_u06",
     "domain": "language",
     "lang": "es",
     "level": "b2",
-    "unit": 1,
-    "title": "Subjuntivo presente perfecto (haya + participio)",
-    "title_ko": "접속법 현재완료 (haya + 과거분사)",
+    "unit": 6,
+    "title": "Dobles conjunciones (cuanto más...tanto más)",
+    "title_ko": "이중접속사 (cuanto más...tanto más)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "The present perfect subjunctive expresses doubt or emotion about a completed action: « Espero que hayas terminado ».",
-    "explanation_ko": "접속법 현재완료는 완료된 행동에 대한 의심이나 감정을 나타냅니다: 'Espero que hayas terminado'(끝냈기를 바라요).",
+    "explanation_en": "« Cuanto más... tanto más » is a formal proportional structure: « Cuanto más trabajamos, tanto más ganamos ».",
+    "explanation_ko": "'cuanto más...tanto más'는 격식 있는 비례 구문입니다: 'Cuanto más trabajamos, tanto más ganamos'(일할수록 더 많이 벌어요).",
     "key_expressions": [
       {
-        "en": "Espero que hayas terminado el trabajo.",
-        "ko": "일을 끝냈기를 바라요."
+        "en": "Cuanto más trabajamos, tanto más ganamos.",
+        "ko": "일할수록 더 많이 벌어요."
       },
       {
-        "en": "No creo que haya llegado todavía.",
-        "ko": "아직 도착했다고 생각하지 않아요."
+        "en": "Cuanto más lo pienso, tanto menos lo entiendo.",
+        "ko": "생각할수록 더 이해가 안 돼요."
       },
       {
-        "en": "Me alegra que hayas venido.",
-        "ko": "와줘서 기뻐요."
+        "en": "Cuanto más rápido corres, tanto más te cansas.",
+        "ko": "빨리 달릴수록 더 피곤해져요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_b2_u01_w1",
+      "id": "es_b2_u06_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba una frase con «espero que haya...» (subjuntivo presente perfecto).",
-        "ko": "접속법 현재완료 'espero que haya...'를 사용해서 문장을 써 보세요."
+        "en": "Escriba una frase con «cuanto más... tanto más».",
+        "ko": "'cuanto más...tanto más'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "cuanto_tanto",
+          "label_ko": "cuanto más...tanto más",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'haya' 또는 'hayas'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "haya",
-            "hayas"
-          ],
+          "criterion_ko": "'cuanto más'와 'tanto'를 사용했는가",
+          "type": "pattern_regex",
+          "target": "[Cc]uanto más.{0,30}tanto",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -78,18 +75,18 @@
       }
     },
     {
-      "id": "es_b2_u01_w2",
+      "id": "es_b2_u06_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Cree que haya llegado ya?» Responda a esta pregunta.",
-        "ko": "'¿Cree que haya llegado ya?'(이미 도착했다고 생각해요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Ganan más cuanto más trabajan?» Responda a esta pregunta.",
+        "ko": "'¿Ganan más cuanto más trabajan?'(일할수록 더 많이 벌어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "cuanto_tanto",
+          "label_ko": "cuanto más...tanto más",
           "min_occurrences": 1
         }
       ],
@@ -129,28 +126,28 @@
       }
     },
     {
-      "id": "es_b2_u01_s1",
+      "id": "es_b2_u06_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta una frase con «me alegra que hayas...».",
-        "ko": "'me alegra que hayas...'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Diga en voz alta una frase con «cuanto más... tanto más».",
+        "ko": "소리 내어 'cuanto más...tanto más'를 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "cuanto_tanto",
+          "label_ko": "cuanto más...tanto más",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'hayas'를 사용했는가",
+          "criterion_ko": "'cuanto más'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "hayas"
+            "cuanto más"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,18 +177,18 @@
       }
     },
     {
-      "id": "es_b2_u01_s2",
+      "id": "es_b2_u06_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Espera que haya terminado el trabajo?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Espera que haya terminado el trabajo?'(일을 끝냈기를 바라나요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Te cansas más cuanto más rápido corres?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Te cansas más cuanto más rápido corres?'(빨리 달릴수록 더 피곤해요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "cuanto_tanto",
+          "label_ko": "cuanto más...tanto más",
           "min_occurrences": 1
         }
       ],

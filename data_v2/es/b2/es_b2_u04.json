@@ -1,58 +1,55 @@
 {
   "meta": {
-    "id": "es_b2_u01",
+    "id": "es_b2_u04",
     "domain": "language",
     "lang": "es",
     "level": "b2",
-    "unit": 1,
-    "title": "Subjuntivo presente perfecto (haya + participio)",
-    "title_ko": "접속법 현재완료 (haya + 과거분사)",
+    "unit": 4,
+    "title": "Estilo nominal vs. verbal",
+    "title_ko": "명사문체 vs 동사문체",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "The present perfect subjunctive expresses doubt or emotion about a completed action: « Espero que hayas terminado ».",
-    "explanation_ko": "접속법 현재완료는 완료된 행동에 대한 의심이나 감정을 나타냅니다: 'Espero que hayas terminado'(끝냈기를 바라요).",
+    "explanation_en": "The nominal style uses nouns for a formal, compact register: « la construcción del puente » instead of « construir el puente ».",
+    "explanation_ko": "명사문체는 격식 있고 압축적인 언어역을 위해 명사를 사용합니다: 'la construcción del puente'(다리 건설) 대신 'construir el puente'(다리를 짓다).",
     "key_expressions": [
       {
-        "en": "Espero que hayas terminado el trabajo.",
-        "ko": "일을 끝냈기를 바라요."
+        "en": "La construcción del puente tomó dos años.",
+        "ko": "다리 건설은 2년이 걸렸어요."
       },
       {
-        "en": "No creo que haya llegado todavía.",
-        "ko": "아직 도착했다고 생각하지 않아요."
+        "en": "El aumento de precios preocupa a todos.",
+        "ko": "가격 인상이 모두를 걱정시켜요."
       },
       {
-        "en": "Me alegra que hayas venido.",
-        "ko": "와줘서 기뻐요."
+        "en": "La toma de decisiones requiere tiempo.",
+        "ko": "의사결정은 시간이 필요해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_b2_u01_w1",
+      "id": "es_b2_u04_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba una frase con «espero que haya...» (subjuntivo presente perfecto).",
-        "ko": "접속법 현재완료 'espero que haya...'를 사용해서 문장을 써 보세요."
+        "en": "Escriba una frase en estilo nominal (p.ej. «la construcción de...»).",
+        "ko": "명사문체(예: 'la construcción de...')를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "estilo_nominal",
+          "label_ko": "명사문체",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'haya' 또는 'hayas'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "haya",
-            "hayas"
-          ],
+          "criterion_ko": "명사화된 표현(construcción, aumento, toma 등)을 사용했는가",
+          "type": "pattern_regex",
+          "target": "(construcción|aumento|toma|decisión)",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -78,18 +75,18 @@
       }
     },
     {
-      "id": "es_b2_u01_w2",
+      "id": "es_b2_u04_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Cree que haya llegado ya?» Responda a esta pregunta.",
-        "ko": "'¿Cree que haya llegado ya?'(이미 도착했다고 생각해요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Preocupa a todos el aumento de precios?» Responda a esta pregunta.",
+        "ko": "'¿Preocupa a todos el aumento de precios?'(가격 인상이 모두를 걱정시켜요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "estilo_nominal",
+          "label_ko": "명사문체",
           "min_occurrences": 1
         }
       ],
@@ -129,28 +126,28 @@
       }
     },
     {
-      "id": "es_b2_u01_s1",
+      "id": "es_b2_u04_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta una frase con «me alegra que hayas...».",
-        "ko": "'me alegra que hayas...'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Diga en voz alta una frase con «la toma de decisiones».",
+        "ko": "소리 내어 'la toma de decisiones'를 사용한 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "estilo_nominal",
+          "label_ko": "명사문체",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'hayas'를 사용했는가",
+          "criterion_ko": "'decisiones'를 사용했는가",
           "type": "keyword_match",
           "target": [
-            "hayas"
+            "decisiones"
           ],
           "min_matches": 1,
           "points": 55,
@@ -180,18 +177,18 @@
       }
     },
     {
-      "id": "es_b2_u01_s2",
+      "id": "es_b2_u04_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Espera que haya terminado el trabajo?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Espera que haya terminado el trabajo?'(일을 끝냈기를 바라나요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Tomó dos años la construcción del puente?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Tomó dos años la construcción del puente?'(다리 건설이 2년 걸렸어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "estilo_nominal",
+          "label_ko": "명사문체",
           "min_occurrences": 1
         }
       ],

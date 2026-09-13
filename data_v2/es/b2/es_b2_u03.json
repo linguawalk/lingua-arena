@@ -1,58 +1,55 @@
 {
   "meta": {
-    "id": "es_b2_u01",
+    "id": "es_b2_u03",
     "domain": "language",
     "lang": "es",
     "level": "b2",
-    "unit": 1,
-    "title": "Subjuntivo presente perfecto (haya + participio)",
-    "title_ko": "접속법 현재완료 (haya + 과거분사)",
+    "unit": 3,
+    "title": "Participios absolutos",
+    "title_ko": "절대분사구문",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "The present perfect subjunctive expresses doubt or emotion about a completed action: « Espero que hayas terminado ».",
-    "explanation_ko": "접속법 현재완료는 완료된 행동에 대한 의심이나 감정을 나타냅니다: 'Espero que hayas terminado'(끝냈기를 바라요).",
+    "explanation_en": "The absolute participle expresses an action completed before the main clause, in a formal style: « Terminado el trabajo, se fue a casa ».",
+    "explanation_ko": "절대분사구문은 격식체로 주절보다 먼저 완료된 행동을 나타냅니다: 'Terminado el trabajo, se fue a casa'(일을 끝낸 후 그는 집에 갔어요).",
     "key_expressions": [
       {
-        "en": "Espero que hayas terminado el trabajo.",
-        "ko": "일을 끝냈기를 바라요."
+        "en": "Terminado el trabajo, se fue a casa.",
+        "ko": "일을 끝낸 후 그는 집에 갔어요."
       },
       {
-        "en": "No creo que haya llegado todavía.",
-        "ko": "아직 도착했다고 생각하지 않아요."
+        "en": "Una vez firmado el contrato, empezamos.",
+        "ko": "계약서에 서명한 후 저희는 시작했어요."
       },
       {
-        "en": "Me alegra que hayas venido.",
-        "ko": "와줘서 기뻐요."
+        "en": "Resuelto el problema, todos se relajaron.",
+        "ko": "문제가 해결된 후 모두 안심했어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "es_b2_u01_w1",
+      "id": "es_b2_u03_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Escriba una frase con «espero que haya...» (subjuntivo presente perfecto).",
-        "ko": "접속법 현재완료 'espero que haya...'를 사용해서 문장을 써 보세요."
+        "en": "Escriba una frase con un participio absoluto (p.ej. «Terminado el trabajo,...»).",
+        "ko": "절대분사구문(예: 'Terminado el trabajo,...')을 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "participio_absoluto",
+          "label_ko": "절대분사구문",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'haya' 또는 'hayas'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "haya",
-            "hayas"
-          ],
+          "criterion_ko": "과거분사로 문장을 시작했는가",
+          "type": "pattern_regex",
+          "target": "^\\w+[oa]d[oa]",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -78,18 +75,18 @@
       }
     },
     {
-      "id": "es_b2_u01_w2",
+      "id": "es_b2_u03_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Cree que haya llegado ya?» Responda a esta pregunta.",
-        "ko": "'¿Cree que haya llegado ya?'(이미 도착했다고 생각해요?)라는 질문에 답을 써 보세요."
+        "en": "«¿Se relajaron todos una vez resuelto el problema?» Responda a esta pregunta.",
+        "ko": "'¿Se relajaron todos una vez resuelto el problema?'(문제가 해결된 후 모두 안심했어요?)라는 질문에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "participio_absoluto",
+          "label_ko": "절대분사구문",
           "min_occurrences": 1
         }
       ],
@@ -129,30 +126,28 @@
       }
     },
     {
-      "id": "es_b2_u01_s1",
+      "id": "es_b2_u03_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Diga en voz alta una frase con «me alegra que hayas...».",
-        "ko": "'me alegra que hayas...'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Diga en voz alta una frase con «Una vez firmado el contrato,...».",
+        "ko": "'Una vez firmado el contrato,...'를 사용해서 소리 내어 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "participio_absoluto",
+          "label_ko": "절대분사구문",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "'hayas'를 사용했는가",
-          "type": "keyword_match",
-          "target": [
-            "hayas"
-          ],
-          "min_matches": 1,
+          "criterion_ko": "분량이 충분한가 (최소 10자)",
+          "type": "length_check",
+          "unit": "chars",
+          "min": 10,
           "points": 55,
           "required": true
         },
@@ -180,18 +175,18 @@
       }
     },
     {
-      "id": "es_b2_u01_s2",
+      "id": "es_b2_u03_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«¿Espera que haya terminado el trabajo?» Le preguntan esto. Responda en voz alta.",
-        "ko": "'¿Espera que haya terminado el trabajo?'(일을 끝냈기를 바라나요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«¿Se fue a casa terminado el trabajo?» Le preguntan esto. Responda en voz alta.",
+        "ko": "'¿Se fue a casa terminado el trabajo?'(일을 끝낸 후 집에 갔어요?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "subjuntivo_perfecto",
-          "label_ko": "접속법 현재완료",
+          "id": "participio_absoluto",
+          "label_ko": "절대분사구문",
           "min_occurrences": 1
         }
       ],
