@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lingua Arena</title>
+<title>Level Checkpoint — Lingua Arena</title>
+<meta name="description" content="A writing + speaking checkpoint test to confirm you're ready to advance to the next level.">
 <meta name="theme-color" content="#16224A">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +22,7 @@
   *{box-sizing:border-box;margin:0;padding:0;}
   body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.5;-webkit-font-smoothing:antialiased;}
   a{color:inherit;text-decoration:none;}
-  button, textarea{font-family:inherit;}
+  button, textarea, select{font-family:inherit;}
   .wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px;}
   :focus-visible{outline:2px solid var(--amber);outline-offset:3px;border-radius:4px;}
   body::before{content:"";position:fixed;inset:0;background:radial-gradient(1100px 600px at 15% -10%, rgba(242,166,90,0.08), transparent 60%),radial-gradient(900px 500px at 110% 10%, rgba(63,191,166,0.07), transparent 60%);pointer-events:none;z-index:0;}
@@ -40,14 +41,19 @@
 
   main{position:relative;z-index:1;padding:30px 0 80px;}
 
+  .intro{text-align:center;padding:20px 0 8px;}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:0.08em;text-transform:uppercase;color:var(--amber);}
+  h1{font-family:var(--serif-display);font-weight:700;font-size:clamp(24px,4vw,32px);margin-top:8px;}
+  .intro p{color:var(--ink-dim);margin-top:10px;font-size:14px;line-height:1.6;}
+
+  .picker{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin-top:26px;display:flex;flex-direction:column;gap:14px;}
+  .picker-row{display:flex;gap:10px;}
+  .picker-row select{flex:1;background:var(--surface-hi);border:1px solid var(--line);border-radius:8px;color:var(--ink);padding:10px 12px;font-size:14px;}
+  .picker-note{font-family:var(--mono);font-size:11.5px;color:var(--ink-dim);}
+
   .context-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:20px 22px;margin-bottom:22px;}
   .context-card h2{font-family:var(--serif-display);font-size:15px;font-weight:600;margin-bottom:8px;}
-  .context-card .expl{font-size:13px;color:var(--ink-dim);line-height:1.6;margin-bottom:12px;}
-  .expr-list{display:flex;flex-direction:column;gap:6px;}
-  .expr-item{font-size:13px;background:var(--surface-hi);border-radius:8px;padding:8px 12px;}
-  .expr-item .native{font-weight:500;}
-  .expr-item .ko{color:var(--ink-dim);font-size:12px;margin-top:2px;}
-  .context-toggle{font-family:var(--mono);font-size:11px;color:var(--teal);background:none;border:none;cursor:pointer;margin-top:10px;}
+  .context-card .expl{font-size:13px;color:var(--ink-dim);line-height:1.6;}
 
   .qcount{font-family:var(--mono);font-size:12px;color:var(--ink-dim);text-align:center;margin-bottom:6px;}
   .skill-badge{display:block;width:fit-content;margin:0 auto 18px;font-family:var(--mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;border-radius:6px;padding:3px 9px;}
@@ -55,6 +61,7 @@
   .skill-badge.speaking{color:var(--amber);border:1px solid var(--amber-dim);}
 
   .qcard{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px;}
+  .prompt-src{font-family:var(--mono);font-size:11px;color:var(--ink-dim);margin-bottom:14px;}
   .prompt{font-size:16px;line-height:1.55;margin-bottom:18px;}
 
   textarea.answer-input{
@@ -62,6 +69,7 @@
     padding:12px 14px;color:var(--ink);font-size:14.5px;resize:vertical;line-height:1.5;
   }
   textarea.answer-input:focus{border-color:var(--amber-dim);}
+  textarea.answer-input:disabled{opacity:.6;}
 
   .mic-row{display:flex;align-items:center;gap:12px;margin-bottom:12px;}
   .mic-btn{
@@ -69,6 +77,7 @@
     color:var(--teal);font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;
   }
   .mic-btn.recording{border-color:var(--rose);color:var(--rose);animation:pulse 1.2s infinite;}
+  .mic-btn:disabled{opacity:.5;}
   @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(232,99,122,0.4);}50%{box-shadow:0 0 0 10px rgba(232,99,122,0);}}
   .mic-status{font-size:13px;color:var(--ink-dim);}
   .transcript-box{
@@ -78,11 +87,12 @@
   .transcript-box .placeholder{color:var(--ink-dim);font-family:var(--mono);font-size:12.5px;}
   .fallback-note{font-size:12px;color:var(--ink-dim);margin-bottom:10px;line-height:1.5;}
 
-  .btn-row{display:flex;gap:10px;margin-top:16px;}
+  .btn-row{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap;}
   .btn{font-family:var(--mono);font-size:13px;border-radius:8px;padding:10px 18px;cursor:pointer;border:1px solid var(--line);background:var(--surface-hi);color:var(--ink);}
   .btn:hover{border-color:var(--amber-dim);}
   .btn.primary{background:var(--amber);color:#1a1206;border-color:var(--amber);font-weight:500;}
   .btn.primary:disabled{opacity:.4;cursor:default;}
+  .btn.ghost{background:transparent;}
 
   .result-box{margin-top:22px;padding-top:20px;border-top:1px solid var(--line);}
   .result-score{display:flex;align-items:baseline;gap:10px;margin-bottom:14px;}
@@ -103,8 +113,14 @@
   .error-state a{color:var(--amber);}
 
   .final-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:44px 30px;text-align:center;}
-  .final-card .avg{font-family:var(--serif-display);font-weight:700;font-size:44px;margin:12px 0 6px;}
-  .final-card .sub{font-family:var(--mono);color:var(--ink-dim);font-size:13px;margin-bottom:26px;}
+  .final-card .eyebrow2{font-family:var(--mono);font-size:12px;color:var(--ink-dim);letter-spacing:.06em;text-transform:uppercase;}
+  .final-card .score{font-family:var(--serif-display);font-weight:700;font-size:56px;margin:12px 0 6px;}
+  .final-card .score.pass{color:var(--teal);}
+  .final-card .score.fail{color:var(--amber);}
+  .final-card .verdict{font-size:15px;color:var(--ink-dim);margin-bottom:18px;}
+  .skill-breakdown{display:flex;justify-content:center;gap:24px;margin-bottom:22px;font-family:var(--mono);font-size:12.5px;}
+  .skill-breakdown div span{display:block;font-family:var(--serif-display);font-size:20px;color:var(--ink);margin-top:2px;}
+  .final-card .sub{font-family:var(--mono);color:var(--ink-dim);font-size:12.5px;margin-bottom:26px;line-height:1.6;}
   .final-actions{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;}
 </style>
 </head>
@@ -112,22 +128,40 @@
 
 <header class="nav">
   <div class="wrap nav-row">
-    <a class="back" id="backLink" href="units_v2.html"><span aria-hidden="true">←</span><span id="backLabel">Back</span></a>
-    <div class="nav-mid" id="navMid">—</div>
+    <a class="back" id="backLink" href="index.html"><span aria-hidden="true">←</span><span id="backLabel">Lingua Arena</span></a>
+    <div class="nav-mid" id="navMid">Level Checkpoint</div>
     <div class="lang-toggle" role="group" aria-label="Interface language">
       <button type="button" id="btn-en" class="act">EN</button>
       <button type="button" id="btn-ko">KO</button>
     </div>
   </div>
-  <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+  <div class="progress-track" id="progressTrack" style="display:none;"><div class="progress-fill" id="progressFill"></div></div>
 </header>
 
 <main class="wrap">
-  <div id="loadingState" class="loading">Loading tasks…</div>
+
+  <div id="introState">
+    <div class="intro">
+      <div class="eyebrow" id="eyebrow">LEVEL CHECKPOINT</div>
+      <h1 id="introTitle">Ready to move up?</h1>
+      <p id="introSub">This checkpoint mixes writing and speaking, sampled from across the whole level. Score 65 or higher on average to advance. Usually 10–15 minutes.</p>
+    </div>
+    <div class="picker">
+      <div class="picker-row">
+        <select id="langSelect"></select>
+        <select id="levelSelect"></select>
+      </div>
+      <div class="picker-note" id="pickerNote">Choose the language and the level you just finished.</div>
+      <div class="btn-row">
+        <button class="btn primary" id="startBtn">Start checkpoint →</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="loadingState" class="loading" style="display:none;">Loading…</div>
   <div id="errorState" class="error-state" style="display:none;"></div>
 
   <div id="playArea" style="display:none;">
-    <div class="context-card" id="contextCard"></div>
     <div class="qcount" id="qcount"></div>
     <div class="skill-badge" id="skillBadge"></div>
     <div class="qcard" id="qcard"></div>
@@ -137,6 +171,7 @@
   </div>
 
   <div id="resultArea" style="display:none;"></div>
+
 </main>
 
 <script>
@@ -145,21 +180,26 @@
     fr:{en:"French", ko:"프랑스어"}, de:{en:"German", ko:"독일어"}, es:{en:"Spanish", ko:"스페인어"},
     ko:{en:"Korean", ko:"한국어"}
   };
-  var LANG_LOCALE = {
-    en:'en-US', ja:'ja-JP', zh:'zh-CN', fr:'fr-FR', de:'de-DE', es:'es-ES', ko:'ko-KR'
+  var LANG_LOCALE = { en:'en-US', ja:'ja-JP', zh:'zh-CN', fr:'fr-FR', de:'de-DE', es:'es-ES', ko:'ko-KR' };
+  var LEVEL_INFO = {
+    a1:{en:"First words", ko:"첫 단어"}, a2:{en:"Everyday chat", ko:"일상 대화"},
+    b1:{en:"Real conversation", ko:"실전 대화"}, b2:{en:"Confident fluency", ko:"자신 있는 유창함"},
+    c1:{en:"Nuanced command", ko:"섬세한 구사력"}, c2:{en:"Native instinct", ko:"원어민 감각"}
   };
+  var LEVELS = ['a1','a2','b1','b2','c1','c2'];
+  var SAMPLE_UNITS = ['05','15','25','35','45','50'];  // spread across the level, including the review unit
+  var PASS_AVG = 65;   // average score needed across all sampled tasks to advance
 
   var params = new URLSearchParams(location.search);
   var lang = (params.get('lang') || '').toLowerCase();
   var level = (params.get('level') || '').toLowerCase();
-  var unitRaw = params.get('unit') || '';
-  var unitNum = parseInt(unitRaw, 10);
-  var unit = (isNaN(unitNum) ? '' : (unitNum < 10 ? '0' + unitNum : '' + unitNum));
+  if(!LANG_NAMES[lang]) lang = '';
+  if(LEVELS.indexOf(level) === -1) level = '';
 
   var uiLang = 'en';
-  var unitData = null;
   var current = 0;
-  var scores = [];
+  var tasks = [];       // [{task, unitTitle, unitTitleKo}]
+  var scores = [];      // {total, skill}
 
   function t(en, ko){ return uiLang === 'ko' ? ko : en; }
   function esc(s){ var d=document.createElement('div'); d.textContent = s; return d.innerHTML; }
@@ -169,53 +209,37 @@
     document.getElementById('btn-en').classList.toggle('act', l === 'en');
     document.getElementById('btn-ko').classList.toggle('act', l === 'ko');
     try { localStorage.setItem('la-lang', l); } catch(e){}
-    document.getElementById('backLabel').textContent = t('Back', '뒤로');
-    if(unitData){ updateNav(); renderContext(); renderTask(); }
+    document.getElementById('backLabel').textContent = t('Lingua Arena', 'Lingua Arena');
+    document.getElementById('navMid').textContent = t('Level Checkpoint', '레벨 체크포인트');
+    document.getElementById('eyebrow').textContent = t('LEVEL CHECKPOINT', '레벨 체크포인트');
+    document.getElementById('introTitle').textContent = t('Ready to move up?', '다음 레벨로 갈 준비가 됐나요?');
+    document.getElementById('introSub').textContent = t(
+      'This checkpoint mixes writing and speaking, sampled from across the whole level. Score 65 or higher on average to advance. Usually 10–15 minutes.',
+      '이 체크포인트는 레벨 전체에서 골고루 뽑은 쓰기·말하기 문항으로 구성됩니다. 평균 65점 이상이면 다음 레벨로 진급합니다. 보통 10~15분이 걸려요.'
+    );
+    document.getElementById('pickerNote').textContent = t('Choose the language and the level you just finished.', '방금 마친 언어와 레벨을 선택하세요.');
+    document.getElementById('startBtn').textContent = t('Start checkpoint →', '체크포인트 시작하기 →');
+    renderPickerOptions();
   }
   document.getElementById('btn-en').addEventListener('click', function(){ setUiLang('en'); });
   document.getElementById('btn-ko').addEventListener('click', function(){ setUiLang('ko'); });
 
-  function updateNav(){
-    document.getElementById('backLink').href = 'units_v2.html?lang=' + encodeURIComponent(lang) + '&level=' + encodeURIComponent(level);
-    var langLabel = LANG_NAMES[lang] ? LANG_NAMES[lang][uiLang] : lang.toUpperCase();
-    document.getElementById('navMid').textContent = langLabel + ' · ' + level.toUpperCase() + ' · ' + t('Unit ', '유닛 ') + unit;
-  }
-
-  function fetchJson(url){
-    return fetch(url).then(function(res){
-      if(!res.ok) throw new Error('not ok');
-      return res.json();
-    });
-  }
-  function loadUnitData(){
-    var url = 'data_v2/' + lang + '/' + level + '/' + lang + '_' + level + '_u' + unit + '.json';
-    return fetchJson(url);
-  }
-
-  // ---------------- context (collapsible) ----------------
-  var contextExpanded = true;
-  function renderContext(){
-    var c = unitData.context;
-    var box = document.getElementById('contextCard');
-    var exprHtml = c.key_expressions.map(function(e){
-      return '<div class="expr-item"><div class="native">' + esc(e.en) + '</div><div class="ko">' + esc(e.ko) + '</div></div>';
+  function renderPickerOptions(){
+    var langSel = document.getElementById('langSelect');
+    var curLang = langSel.value || lang || 'en';
+    langSel.innerHTML = Object.keys(LANG_NAMES).map(function(code){
+      return '<option value="' + code + '"' + (code === curLang ? ' selected' : '') + '>' + esc(LANG_NAMES[code][uiLang]) + '</option>';
     }).join('');
-    box.innerHTML =
-      '<h2>' + t('Key expressions', '핵심 표현') + '</h2>' +
-      '<div class="expl">' + esc(uiLang === 'ko' ? c.explanation_ko : c.explanation_en) + '</div>' +
-      '<div class="expr-list" id="exprList" style="' + (contextExpanded ? '' : 'display:none;') + '">' + exprHtml + '</div>' +
-      '<button class="context-toggle" id="ctxToggle">' + (contextExpanded ? t('Hide','접기') : t('Show','펼치기')) + '</button>';
-    document.getElementById('ctxToggle').addEventListener('click', function(){
-      contextExpanded = !contextExpanded;
-      renderContext();
-    });
+    var levelSel = document.getElementById('levelSelect');
+    var curLevel = levelSel.value || level || 'a1';
+    levelSel.innerHTML = LEVELS.map(function(lv){
+      return '<option value="' + lv + '"' + (lv === curLevel ? ' selected' : '') + '>' + lv.toUpperCase() + ' · ' + esc(LEVEL_INFO[lv][uiLang]) + '</option>';
+    }).join('');
   }
 
-  // ---------------- rubric scoring engine ----------------
+  // ---------------- rubric scoring engine (same as task.html) ----------------
   function escapeRegex(s){ return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
-
   function countMatches(text, rubricItem){
-    var lower = text.toLowerCase();
     if(rubricItem.type === 'keyword_match'){
       var pattern = rubricItem.target.map(escapeRegex).join('|');
       var re = new RegExp(pattern, 'gi');
@@ -223,43 +247,54 @@
       return m ? m.length : 0;
     }
     if(rubricItem.type === 'pattern_regex'){
-      try {
-        var re2 = new RegExp(rubricItem.target, 'gi');
-        var m2 = text.match(re2);
-        return m2 ? m2.length : 0;
-      } catch(e){ return 0; }
+      try { var re2 = new RegExp(rubricItem.target, 'gi'); var m2 = text.match(re2); return m2 ? m2.length : 0; }
+      catch(e){ return 0; }
     }
     return 0;
   }
-
   function scoreTask(task, text, sttConfidence){
-    var breakdown = [];
-    var total = 0;
+    var breakdown = []; var total = 0;
     task.rubric.forEach(function(r){
       var met = false;
-      var count = 0;
       if(r.type === 'keyword_match' || r.type === 'pattern_regex'){
-        count = countMatches(text, r);
+        var count = countMatches(text, r);
         var minReq = r.min_matches || 1;
         met = count >= minReq;
-        if(!met && minReq > 0 && (count / minReq) >= 0.8){ met = true; } // tie_break_rule
+        if(!met && minReq > 0 && (count / minReq) >= 0.8){ met = true; }
       } else if(r.type === 'length_check'){
         var words = text.trim().length ? text.trim().split(/\s+/) : [];
         met = words.length >= r.min;
       } else if(r.type === 'stt_confidence'){
-        met = (sttConfidence != null) && (sttConfidence >= r.min);
+        met = (sttConfidence == null) ? true : (sttConfidence >= r.min);
       }
       if(met) total += r.points;
-      breakdown.push({criterion_ko: r.criterion_ko, points: r.points, met: met, required: !!r.required});
+      breakdown.push({criterion_ko: r.criterion_ko, points: r.points, met: met});
     });
     return {total: total, breakdown: breakdown};
   }
 
-  // ---------------- rendering a task ----------------
+  function fetchJson(url){
+    return fetch(url).then(function(res){ if(!res.ok) throw new Error('not ok'); return res.json(); });
+  }
+
+  function loadSampledTasks(){
+    var urls = SAMPLE_UNITS.map(function(u){ return 'data_v2/' + lang + '/' + level + '/' + lang + '_' + level + '_u' + u + '.json'; });
+    return Promise.all(urls.map(function(u){ return fetchJson(u); })).then(function(units){
+      var out = [];
+      units.forEach(function(d){
+        var w = d.tasks.find(function(tk){ return tk.id && tk.id.indexOf('w1') !== -1; }) || d.tasks.find(function(tk){ return tk.skill === 'writing'; });
+        var s = d.tasks.find(function(tk){ return tk.id && tk.id.indexOf('s1') !== -1; }) || d.tasks.find(function(tk){ return tk.skill === 'speaking'; });
+        if(w) out.push({task: w, unitTitle: d.meta.title, unitTitleKo: d.meta.title_ko, context: d.context});
+        if(s) out.push({task: s, unitTitle: d.meta.title, unitTitleKo: d.meta.title_ko, context: d.context});
+      });
+      return out;
+    });
+  }
+
   function renderProgress(){
-    var pct = Math.round((current / unitData.tasks.length) * 100);
+    var pct = Math.round((current / tasks.length) * 100);
     document.getElementById('progressFill').style.width = pct + '%';
-    document.getElementById('qcount').textContent = t('Task ', '문항 ') + (current + 1) + t(' of ', ' / ') + unitData.tasks.length;
+    document.getElementById('qcount').textContent = t('Task ', '문항 ') + (current + 1) + t(' of ', ' / ') + tasks.length;
   }
 
   var recognition = null;
@@ -267,7 +302,8 @@
   var sttSupported = !!(window.SpeechRecognition || window.webkitSpeechRecognition);
 
   function renderTask(){
-    var task = unitData.tasks[current];
+    var entry = tasks[current];
+    var task = entry.task;
     renderProgress();
     var badge = document.getElementById('skillBadge');
     badge.className = 'skill-badge ' + task.skill;
@@ -276,9 +312,12 @@
 
     var card = document.getElementById('qcard');
     var promptText = uiLang === 'ko' ? task.prompt.ko : task.prompt.en;
+    var srcTitle = uiLang === 'ko' ? (entry.unitTitleKo || entry.unitTitle) : entry.unitTitle;
+    var srcHtml = '<div class="prompt-src">' + esc(srcTitle) + '</div>';
 
     if(task.skill === 'writing'){
       card.innerHTML =
+        srcHtml +
         '<div class="prompt">' + esc(promptText) + '</div>' +
         '<textarea class="answer-input" id="answerInput" placeholder="' + t('Type your answer here...','여기에 답을 입력하세요...') + '"></textarea>' +
         '<div class="btn-row"><button class="btn primary" id="submitBtn">' + t('Submit','제출') + '</button></div>' +
@@ -301,7 +340,7 @@
           '<textarea class="answer-input" id="answerInput" placeholder="' + t('Type what you would say...','말할 내용을 입력하세요...') + '"></textarea>' +
           '<div class="btn-row"><button class="btn primary" id="submitBtn">' + t('Submit','제출') + '</button></div>';
       }
-      card.innerHTML = '<div class="prompt">' + esc(promptText) + '</div>' + micHtml + '<div id="resultBox"></div>';
+      card.innerHTML = srcHtml + '<div class="prompt">' + esc(promptText) + '</div>' + micHtml + '<div id="resultBox"></div>';
 
       if(sttSupported){
         var transcriptFinal = '';
@@ -311,7 +350,7 @@
           if(recognizing){ recognition && recognition.stop(); return; }
           var SR = window.SpeechRecognition || window.webkitSpeechRecognition;
           recognition = new SR();
-          recognition.lang = LANG_LOCALE[lang] || 'en-US'; // recognize speech in the target language being learned
+          recognition.lang = LANG_LOCALE[lang] || 'en-US';
           recognition.interimResults = true;
           recognition.continuous = true;
           transcriptFinal = '';
@@ -356,7 +395,7 @@
         document.getElementById('submitBtn').addEventListener('click', function(){
           var text = document.getElementById('answerInput').value;
           if(!text.trim()) return;
-          submitAnswer(task, text, 0.9); // assume good confidence for typed fallback
+          submitAnswer(task, text, 0.9);
         });
       }
     }
@@ -364,7 +403,7 @@
 
   function submitAnswer(task, text, sttConfidence){
     var result = scoreTask(task, text, sttConfidence);
-    scores.push(result.total);
+    scores.push({total: result.total, skill: task.skill});
     var passed = result.total >= 60;
 
     var box = document.getElementById('resultBox');
@@ -377,7 +416,6 @@
         '<div class="rubric-list">' + rubricHtml + '</div>' +
       '</div>';
 
-    // disable further input
     var submitBtn = document.getElementById('submitBtn');
     if(submitBtn) submitBtn.disabled = true;
     var input = document.getElementById('answerInput');
@@ -387,65 +425,103 @@
 
     var nextRow = document.getElementById('nextRow');
     var nextBtn = document.getElementById('nextBtn');
-    nextBtn.textContent = (current + 1 < unitData.tasks.length) ? t('Next task →','다음 문항 →') : t('See results →','결과 보기 →');
+    nextBtn.textContent = (current + 1 < tasks.length) ? t('Next task →','다음 문항 →') : t('See results →','결과 보기 →');
     nextRow.style.display = 'flex';
     nextBtn.onclick = function(){
       current++;
-      if(current < unitData.tasks.length){ renderTask(); }
+      if(current < tasks.length){ renderTask(); }
       else { showResults(); }
     };
   }
 
   function showResults(){
     document.getElementById('playArea').style.display = 'none';
-    document.getElementById('progressFill').style.width = '100%';
-    var avg = Math.round(scores.reduce(function(a,b){return a+b;},0) / scores.length);
-    var passCount = scores.filter(function(s){ return s >= 60; }).length;
+    document.getElementById('progressTrack').style.display = 'none';
+    var avg = Math.round(scores.reduce(function(a,b){return a+b.total;},0) / scores.length);
+    var writingScores = scores.filter(function(s){ return s.skill === 'writing'; });
+    var speakingScores = scores.filter(function(s){ return s.skill === 'speaking'; });
+    var writingAvg = writingScores.length ? Math.round(writingScores.reduce(function(a,b){return a+b.total;},0) / writingScores.length) : 0;
+    var speakingAvg = speakingScores.length ? Math.round(speakingScores.reduce(function(a,b){return a+b.total;},0) / speakingScores.length) : 0;
+    var passed = avg >= PASS_AVG;
+
+    var levelIdx = LEVELS.indexOf(level);
+    var nextLevel = (levelIdx >= 0 && levelIdx + 1 < LEVELS.length) ? LEVELS[levelIdx + 1] : null;
+
+    var verdictText = passed
+      ? t('You cleared this level.', '이 레벨을 통과했습니다.')
+      : t('Not quite there yet.', '아직 통과 기준에 못 미쳤습니다.');
+    var subText = passed
+      ? (nextLevel
+          ? t('Great work — you\'re ready for ' + nextLevel.toUpperCase() + '.', '수고하셨습니다 — ' + nextLevel.toUpperCase() + '로 넘어갈 준비가 됐어요.')
+          : t('You\'ve cleared the top level in this ladder. Keep practicing to stay sharp.', '이 사다리의 최상위 레벨을 통과했습니다. 감각을 유지하려면 계속 연습하세요.'))
+      : t('Spend more time in this level, then try the checkpoint again.', '이 레벨에서 조금 더 연습한 뒤 체크포인트를 다시 시도해 보세요.');
+
     var area = document.getElementById('resultArea');
     area.style.display = 'block';
     area.innerHTML =
       '<div class="final-card">' +
-        '<div style="font-family:var(--mono);font-size:12px;color:var(--ink-dim);letter-spacing:.08em;text-transform:uppercase;">' + t('Unit complete','유닛 완료') + '</div>' +
-        '<div class="avg">' + avg + ' / 100</div>' +
-        '<div class="sub">' + passCount + ' / ' + scores.length + ' ' + t('tasks passed','문항 통과') + '</div>' +
+        '<div class="eyebrow2">' + esc(LANG_NAMES[lang][uiLang]) + ' · ' + level.toUpperCase() + ' ' + t('Checkpoint','체크포인트') + '</div>' +
+        '<div class="score ' + (passed ? 'pass' : 'fail') + '">' + avg + '</div>' +
+        '<div class="verdict">' + verdictText + '</div>' +
+        '<div class="skill-breakdown">' +
+          '<div>' + t('Writing avg','쓰기 평균') + '<span>' + writingAvg + '</span></div>' +
+          '<div>' + t('Speaking avg','말하기 평균') + '<span>' + speakingAvg + '</span></div>' +
+        '</div>' +
+        '<div class="sub">' + subText + '</div>' +
         '<div class="final-actions">' +
-          '<button class="btn" id="retryBtn">' + t('Retry unit','다시 풀기') + '</button>' +
-          '<a class="btn primary" href="units_v2.html?lang=' + encodeURIComponent(lang) + '&level=' + encodeURIComponent(level) + '">' + t('Back to units','유닛 목록으로') + '</a>' +
+          (passed && nextLevel
+            ? '<a class="btn primary" href="units_v2.html?lang=' + encodeURIComponent(lang) + '&level=' + encodeURIComponent(nextLevel) + '">' + t('Start ' + nextLevel.toUpperCase(), nextLevel.toUpperCase() + ' 시작하기') + '</a>'
+            : '<a class="btn primary" href="units_v2.html?lang=' + encodeURIComponent(lang) + '&level=' + encodeURIComponent(level) + '">' + t('Review ' + level.toUpperCase(), level.toUpperCase() + ' 복습하기') + '</a>') +
+          '<button class="btn ghost" id="retakeBtn">' + t('Retake checkpoint','다시 응시하기') + '</button>' +
         '</div>' +
       '</div>';
-    document.getElementById('retryBtn').addEventListener('click', function(){ location.reload(); });
+    document.getElementById('retakeBtn').addEventListener('click', function(){
+      location.reload();
+    });
   }
 
   function showError(msg){
     document.getElementById('loadingState').style.display = 'none';
+    document.getElementById('introState').style.display = 'none';
     var err = document.getElementById('errorState');
     err.style.display = 'block';
     err.innerHTML = msg;
   }
+
+  function beginCheckpoint(){
+    document.getElementById('introState').style.display = 'none';
+    document.getElementById('loadingState').style.display = 'block';
+    loadSampledTasks().then(function(loaded){
+      tasks = loaded;
+      current = 0;
+      scores = [];
+      document.getElementById('loadingState').style.display = 'none';
+      document.getElementById('playArea').style.display = 'block';
+      document.getElementById('progressTrack').style.display = 'block';
+      renderTask();
+    }).catch(function(){
+      showError(t('Could not load checkpoint content for this level. ', '이 레벨의 체크포인트 콘텐츠를 불러오지 못했습니다. ') +
+        '<a href="index.html">' + t('← Back to home', '← 홈으로') + '</a>');
+    });
+  }
+
+  document.getElementById('startBtn').addEventListener('click', function(){
+    lang = document.getElementById('langSelect').value;
+    level = document.getElementById('levelSelect').value;
+    var url = new URL(location.href);
+    url.searchParams.set('lang', lang);
+    url.searchParams.set('level', level);
+    history.replaceState(null, '', url);
+    beginCheckpoint();
+  });
 
   (function init(){
     var saved; try { saved = localStorage.getItem('la-lang'); } catch(e){}
     uiLang = saved || (navigator.language && navigator.language.startsWith('ko') ? 'ko' : 'en');
     document.getElementById('btn-en').classList.toggle('act', uiLang === 'en');
     document.getElementById('btn-ko').classList.toggle('act', uiLang === 'ko');
-    document.getElementById('backLabel').textContent = t('Back', '뒤로');
-
-    if(!lang || !level || !unit || !LANG_NAMES[lang]){
-      showError(t('Missing or invalid task link. ', '잘못된 링크입니다. ') + '<a href="index.html">' + t('← Back to Lingua Arena', '← Lingua Arena로 돌아가기') + '</a>');
-      return;
-    }
-    updateNav();
-
-    loadUnitData().then(function(data){
-      if(!data.tasks || !data.tasks.length){ throw new Error('empty'); }
-      unitData = data;
-      document.getElementById('loadingState').style.display = 'none';
-      document.getElementById('playArea').style.display = 'block';
-      renderContext();
-      renderTask();
-    }).catch(function(){
-      showError(t('This unit isn\'t available yet. ', '아직 준비되지 않은 유닛입니다. ') + '<a href="units_v2.html?lang=' + encodeURIComponent(lang) + '&level=' + encodeURIComponent(level) + '">' + t('← Back to units', '← 유닛 목록으로') + '</a>');
-    });
+    if(lang) document.getElementById('backLink').href = 'languages/' + lang + '/index.html';
+    setUiLang(uiLang);
   })();
 </script>
 </body>

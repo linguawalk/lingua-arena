@@ -78,6 +78,7 @@
   <section class="units wrap">
     <div class="grid" id="grid"></div>
     <div class="empty-state" id="emptyState" style="display:none;"></div>
+    <p id="checkpointLink" style="margin-top:20px;font-size:13px;"></p>
   </section>
 </main>
 
@@ -86,7 +87,8 @@
 <script>
   var LANG_NAMES = {
     en:{en:"English", ko:"영어"}, ja:{en:"Japanese", ko:"일본어"}, zh:{en:"Chinese", ko:"중국어"},
-    fr:{en:"French", ko:"프랑스어"}, de:{en:"German", ko:"독일어"}, es:{en:"Spanish", ko:"스페인어"}
+    fr:{en:"French", ko:"프랑스어"}, de:{en:"German", ko:"독일어"}, es:{en:"Spanish", ko:"스페인어"},
+    ko:{en:"Korean", ko:"한국어"}
   };
   var LEVEL_INFO = {
     a1:{en:"First words", ko:"첫 단어"}, a2:{en:"Everyday chat", ko:"일상 대화"},
@@ -112,6 +114,9 @@
     document.getElementById('heading').textContent = LEVEL_INFO[level] ? LEVEL_INFO[level][uiLang] : level.toUpperCase();
     document.title = (LANG_NAMES[lang] ? LANG_NAMES[lang].en : '') + ' ' + level.toUpperCase() + ' — Lingua Arena';
     document.getElementById('subline').textContent = t(UNITS_PER_LEVEL + ' units · 2 writing + 2 speaking tasks each. Pick one to begin.', UNITS_PER_LEVEL + '개 유닛 · 유닛당 쓰기 2 + 말하기 2문항. 하나를 골라 시작하세요.');
+    document.getElementById('checkpointLink').innerHTML =
+      '<a href="checkpoint.html?lang=' + encodeURIComponent(lang) + '&level=' + encodeURIComponent(level) + '" style="color:var(--teal);font-weight:500;">' +
+      t('Finished this level? Take the checkpoint →', '이 레벨을 마쳤나요? 체크포인트 응시하기 →') + '</a>';
   }
 
   function buildSkeletons(){
