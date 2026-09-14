@@ -1,106 +1,56 @@
 {
   "meta": {
-    "id": "ko_a1_u01",
+    "id": "ko_a1_u03",
     "domain": "language",
     "lang": "ko",
     "level": "a1",
-    "unit": 1,
-    "title": "Greetings & Self-Introduction (안녕하세요, 저는 ~예요)",
-    "title_ko": "인사와 자기소개",
+    "unit": 3,
+    "title": "Family (가족, 있어요)",
+    "title_ko": "가족",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "To greet someone, use « 안녕하세요 » (hello, polite). To introduce yourself, use « 저는 ~예요/이에요 » (I am ~).",
-    "explanation_ko": "인사할 때는 '안녕하세요'(존댓말)를 씁니다. 자기소개할 때는 '저는 ~예요/이에요'(저는 ~입니다)를 씁니다.",
+    "explanation_en": "To talk about family members, use « 저는 ~이/가 있어요 » (I have ~). To describe them, use « 제 ~은/는 ~예요 » (My ~ is ~).",
+    "explanation_ko": "가족을 말할 때는 '저는 ~이/가 있어요'(저는 ~이 있어요), 가족을 묘사할 때는 '제 ~은/는 ~예요'(제 ~은 ~예요)를 씁니다.",
     "key_expressions": [
       {
-        "en": "Hello. My name is Kim.",
-        "ko": "안녕하세요. 저는 김이에요."
+        "en": "I have an older brother.",
+        "ko": "저는 오빠가 있어요."
       },
       {
-        "en": "Nice to meet you.",
-        "ko": "만나서 반가워요."
+        "en": "My mother is kind.",
+        "ko": "제 어머니는 친절해요."
       },
       {
-        "en": "I am a student.",
-        "ko": "저는 학생이에요."
+        "en": "I have two younger siblings.",
+        "ko": "저는 동생이 두 명 있어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ko_a1_u01_w1",
+      "id": "ko_a1_u03_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Introduce yourself in Korean using «저는 ~예요/이에요» (I am ~).",
-        "ko": "'저는 ~예요/이에요'를 사용해서 한국어로 자기소개를 써 보세요."
+        "en": "Write about a family member using «~이/가 있어요» (I have ~).",
+        "ko": "'~이/가 있어요'를 사용해서 가족에 대해 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "self_intro",
-          "label_ko": "자기소개 표현",
+          "id": "family_have",
+          "label_ko": "가족 소유 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '저는' (I am)?",
+          "criterion_ko": "Did you use '있어요' (there is/I have)?",
           "type": "keyword_match",
           "target": [
-            "저는"
-          ],
-          "min_matches": 1,
-          "points": 50,
-          "required": true
-        },
-        {
-          "id": "r2",
-          "criterion_ko": "Does the sentence end with 예요/이에요?",
-          "type": "pattern_regex",
-          "target": "(예요|이에요)[.]?$",
-          "min_matches": 1,
-          "points": 50,
-          "required": false
-        }
-      ],
-      "scoring": {
-        "max_score": 100,
-        "pass_threshold": 60,
-        "tie_break_rule": "partial_match_ratio_geq_0.8_counts_as_met",
-        "flag_for_spot_check": {
-          "blocking": false,
-          "confidence_band": 3
-        }
-      }
-    },
-    {
-      "id": "ko_a1_u01_w2",
-      "skill": "writing",
-      "task_type": "qa_response",
-      "prompt": {
-        "en": "«처음 뵙겠습니다.» (Nice to meet you for the first time.) Respond politely in Korean.",
-        "ko": "'처음 뵙겠습니다.'(처음 만났을 때 하는 인사)라는 말을 들었습니다. 한국어로 답을 써 보세요."
-      },
-      "target_elements": [
-        {
-          "type": "expression",
-          "id": "greeting_response",
-          "label_ko": "인사 응답 표현",
-          "min_occurrences": 1
-        }
-      ],
-      "rubric": [
-        {
-          "id": "r1",
-          "criterion_ko": "Did you use a greeting word (반갑습니다/반가워요/안녕하세요)?",
-          "type": "keyword_match",
-          "target": [
-            "반갑습니다",
-            "반가워요",
-            "안녕하세요"
+            "있어요"
           ],
           "min_matches": 1,
           "points": 60,
@@ -108,9 +58,9 @@
         },
         {
           "id": "r2",
-          "criterion_ko": "Is it a complete sentence ending in 요 or 다?",
+          "criterion_ko": "Is it a complete sentence?",
           "type": "pattern_regex",
-          "target": "(요|다)[.]?$",
+          "target": "[.]$",
           "min_matches": 1,
           "points": 40,
           "required": false
@@ -127,28 +77,78 @@
       }
     },
     {
-      "id": "ko_a1_u01_s1",
-      "skill": "speaking",
-      "task_type": "situation_response",
+      "id": "ko_a1_u03_w2",
+      "skill": "writing",
+      "task_type": "qa_response",
       "prompt": {
-        "en": "Say hello out loud in Korean using «안녕하세요».",
-        "ko": "'안녕하세요'를 사용해서 소리 내어 인사해 보세요."
+        "en": "«어머니는 어떤 분이세요?» (What is your mother like?) Answer this question.",
+        "ko": "'어머니는 어떤 분이세요?'(어머니가 어떤 사람인지 묻는 질문)에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "greeting",
-          "label_ko": "인사 표현",
+          "id": "family_describe",
+          "label_ko": "가족 묘사 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you say 안녕하세요?",
+          "criterion_ko": "Did you use '어머니는' (my mother)?",
           "type": "keyword_match",
           "target": [
-            "안녕하세요"
+            "어머니는",
+            "엄마는"
+          ],
+          "min_matches": 1,
+          "points": 60,
+          "required": true
+        },
+        {
+          "id": "r2",
+          "criterion_ko": "Is it a complete sentence?",
+          "type": "pattern_regex",
+          "target": "[.]$",
+          "min_matches": 1,
+          "points": 40,
+          "required": false
+        }
+      ],
+      "scoring": {
+        "max_score": 100,
+        "pass_threshold": 60,
+        "tie_break_rule": "partial_match_ratio_geq_0.8_counts_as_met",
+        "flag_for_spot_check": {
+          "blocking": false,
+          "confidence_band": 3
+        }
+      }
+    },
+    {
+      "id": "ko_a1_u03_s1",
+      "skill": "speaking",
+      "task_type": "situation_response",
+      "prompt": {
+        "en": "Say out loud how many siblings you have, using «있어요».",
+        "ko": "'있어요'를 사용해서 형제자매가 몇 명 있는지 소리 내어 말해 보세요."
+      },
+      "target_elements": [
+        {
+          "type": "expression",
+          "id": "siblings",
+          "label_ko": "형제자매 표현",
+          "min_occurrences": 1
+        }
+      ],
+      "rubric": [
+        {
+          "id": "r1",
+          "criterion_ko": "Did you say '있어요' or '없어요'?",
+          "type": "keyword_match",
+          "target": [
+            "있어요",
+            "없어요"
           ],
           "min_matches": 1,
           "points": 55,
@@ -178,29 +178,28 @@
       }
     },
     {
-      "id": "ko_a1_u01_s2",
+      "id": "ko_a1_u03_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«이름이 뭐예요?» (What is your name?) You are asked this. Answer out loud.",
-        "ko": "'이름이 뭐예요?'(이름이 무엇입니까?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«가족이 몇 명이에요?» (How many people are in your family?) Answer out loud.",
+        "ko": "'가족이 몇 명이에요?'(가족 구성원 수를 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "name",
-          "label_ko": "이름 표현",
+          "id": "family_size",
+          "label_ko": "가족 구성원 수 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '저는' or '제 이름은'?",
+          "criterion_ko": "Did you say '명' (counter for people)?",
           "type": "keyword_match",
           "target": [
-            "저는",
-            "제 이름은"
+            "명"
           ],
           "min_matches": 1,
           "points": 55,

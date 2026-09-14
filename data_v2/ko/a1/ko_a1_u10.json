@@ -1,106 +1,56 @@
 {
   "meta": {
-    "id": "ko_a1_u01",
+    "id": "ko_a1_u10",
     "domain": "language",
     "lang": "ko",
     "level": "a1",
-    "unit": 1,
-    "title": "Greetings & Self-Introduction (안녕하세요, 저는 ~예요)",
-    "title_ko": "인사와 자기소개",
+    "unit": 10,
+    "title": "Animals & Pets (동물)",
+    "title_ko": "동물",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "To greet someone, use « 안녕하세요 » (hello, polite). To introduce yourself, use « 저는 ~예요/이에요 » (I am ~).",
-    "explanation_ko": "인사할 때는 '안녕하세요'(존댓말)를 씁니다. 자기소개할 때는 '저는 ~예요/이에요'(저는 ~입니다)를 씁니다.",
+    "explanation_en": "To talk about pets, use « 저는 ~을/를 키워요 » (I raise/keep ~). To describe an animal, use « ~은/는 ~예요 ».",
+    "explanation_ko": "반려동물을 말할 때는 '저는 ~을/를 키워요', 동물을 묘사할 때는 '~은/는 ~예요'를 씁니다.",
     "key_expressions": [
       {
-        "en": "Hello. My name is Kim.",
-        "ko": "안녕하세요. 저는 김이에요."
+        "en": "I have a dog.",
+        "ko": "저는 강아지를 키워요."
       },
       {
-        "en": "Nice to meet you.",
-        "ko": "만나서 반가워요."
+        "en": "The cat is cute.",
+        "ko": "고양이는 귀여워요."
       },
       {
-        "en": "I am a student.",
-        "ko": "저는 학생이에요."
+        "en": "I don't have a pet.",
+        "ko": "저는 반려동물이 없어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ko_a1_u01_w1",
+      "id": "ko_a1_u10_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Introduce yourself in Korean using «저는 ~예요/이에요» (I am ~).",
-        "ko": "'저는 ~예요/이에요'를 사용해서 한국어로 자기소개를 써 보세요."
+        "en": "Write about a pet using «~을/를 키워요» (I raise/keep ~).",
+        "ko": "'~을/를 키워요'를 사용해서 반려동물에 대해 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "self_intro",
-          "label_ko": "자기소개 표현",
+          "id": "pet",
+          "label_ko": "반려동물 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '저는' (I am)?",
+          "criterion_ko": "Did you use '키워요' (raise/keep)?",
           "type": "keyword_match",
           "target": [
-            "저는"
-          ],
-          "min_matches": 1,
-          "points": 50,
-          "required": true
-        },
-        {
-          "id": "r2",
-          "criterion_ko": "Does the sentence end with 예요/이에요?",
-          "type": "pattern_regex",
-          "target": "(예요|이에요)[.]?$",
-          "min_matches": 1,
-          "points": 50,
-          "required": false
-        }
-      ],
-      "scoring": {
-        "max_score": 100,
-        "pass_threshold": 60,
-        "tie_break_rule": "partial_match_ratio_geq_0.8_counts_as_met",
-        "flag_for_spot_check": {
-          "blocking": false,
-          "confidence_band": 3
-        }
-      }
-    },
-    {
-      "id": "ko_a1_u01_w2",
-      "skill": "writing",
-      "task_type": "qa_response",
-      "prompt": {
-        "en": "«처음 뵙겠습니다.» (Nice to meet you for the first time.) Respond politely in Korean.",
-        "ko": "'처음 뵙겠습니다.'(처음 만났을 때 하는 인사)라는 말을 들었습니다. 한국어로 답을 써 보세요."
-      },
-      "target_elements": [
-        {
-          "type": "expression",
-          "id": "greeting_response",
-          "label_ko": "인사 응답 표현",
-          "min_occurrences": 1
-        }
-      ],
-      "rubric": [
-        {
-          "id": "r1",
-          "criterion_ko": "Did you use a greeting word (반갑습니다/반가워요/안녕하세요)?",
-          "type": "keyword_match",
-          "target": [
-            "반갑습니다",
-            "반가워요",
-            "안녕하세요"
+            "키워요"
           ],
           "min_matches": 1,
           "points": 60,
@@ -108,9 +58,9 @@
         },
         {
           "id": "r2",
-          "criterion_ko": "Is it a complete sentence ending in 요 or 다?",
+          "criterion_ko": "Is it a complete sentence?",
           "type": "pattern_regex",
-          "target": "(요|다)[.]?$",
+          "target": "[.]$",
           "min_matches": 1,
           "points": 40,
           "required": false
@@ -127,28 +77,81 @@
       }
     },
     {
-      "id": "ko_a1_u01_s1",
-      "skill": "speaking",
-      "task_type": "situation_response",
+      "id": "ko_a1_u10_w2",
+      "skill": "writing",
+      "task_type": "qa_response",
       "prompt": {
-        "en": "Say hello out loud in Korean using «안녕하세요».",
-        "ko": "'안녕하세요'를 사용해서 소리 내어 인사해 보세요."
+        "en": "«반려동물이 있어요?» (Do you have a pet?) Answer this question.",
+        "ko": "'반려동물이 있어요?'(반려동물이 있는지 묻는 질문)에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "greeting",
-          "label_ko": "인사 표현",
+          "id": "pet",
+          "label_ko": "반려동물 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you say 안녕하세요?",
+          "criterion_ko": "Did you say '있어요' or '없어요'?",
           "type": "keyword_match",
           "target": [
-            "안녕하세요"
+            "있어요",
+            "없어요"
+          ],
+          "min_matches": 1,
+          "points": 60,
+          "required": true
+        },
+        {
+          "id": "r2",
+          "criterion_ko": "Is it a complete sentence?",
+          "type": "pattern_regex",
+          "target": "[.]$",
+          "min_matches": 1,
+          "points": 40,
+          "required": false
+        }
+      ],
+      "scoring": {
+        "max_score": 100,
+        "pass_threshold": 60,
+        "tie_break_rule": "partial_match_ratio_geq_0.8_counts_as_met",
+        "flag_for_spot_check": {
+          "blocking": false,
+          "confidence_band": 3
+        }
+      }
+    },
+    {
+      "id": "ko_a1_u10_s1",
+      "skill": "speaking",
+      "task_type": "situation_response",
+      "prompt": {
+        "en": "Say the name of an animal out loud in Korean.",
+        "ko": "한국어로 동물 이름을 소리 내어 말해 보세요."
+      },
+      "target_elements": [
+        {
+          "type": "expression",
+          "id": "animal",
+          "label_ko": "동물 표현",
+          "min_occurrences": 1
+        }
+      ],
+      "rubric": [
+        {
+          "id": "r1",
+          "criterion_ko": "Did you say an animal name (강아지/고양이/새 etc.)?",
+          "type": "keyword_match",
+          "target": [
+            "강아지",
+            "고양이",
+            "새",
+            "토끼",
+            "물고기"
           ],
           "min_matches": 1,
           "points": 55,
@@ -178,29 +181,29 @@
       }
     },
     {
-      "id": "ko_a1_u01_s2",
+      "id": "ko_a1_u10_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«이름이 뭐예요?» (What is your name?) You are asked this. Answer out loud.",
-        "ko": "'이름이 뭐예요?'(이름이 무엇입니까?)라는 질문을 받았습니다. 소리 내어 답해 보세요."
+        "en": "«고양이가 귀여워요?» (Is the cat cute?) Answer out loud.",
+        "ko": "'고양이가 귀여워요?'(고양이가 귀여운지 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "name",
-          "label_ko": "이름 표현",
+          "id": "animal_describe",
+          "label_ko": "동물 묘사 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '저는' or '제 이름은'?",
+          "criterion_ko": "Did you say '네' or '아니요'?",
           "type": "keyword_match",
           "target": [
-            "저는",
-            "제 이름은"
+            "네",
+            "아니요"
           ],
           "min_matches": 1,
           "points": 55,
