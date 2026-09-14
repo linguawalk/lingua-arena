@@ -1,77 +1,71 @@
 {
   "meta": {
-    "id": "ko_a2_u01",
+    "id": "ko_a2_u03",
     "domain": "language",
     "lang": "ko",
     "level": "a2",
-    "unit": 1,
-    "title": "Yesterday's Story (어제 있었던 일)",
-    "title_ko": "어제 있었던 일",
+    "unit": 3,
+    "title": "Future Plans Deepening (-을 거예요, 여행 계획)",
+    "title_ko": "미래 계획 심화",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "To narrate what happened yesterday, use « 어제 ~았/었어요 » (Yesterday I ~). Combine several past-tense actions for a fuller story.",
-    "explanation_ko": "어제 있었던 일을 말할 때는 '어제 ~았/었어요'를 씁니다. 여러 과거시제 문장을 결합해서 이야기를 만들 수 있습니다.",
+    "explanation_en": "To describe detailed future plans, combine « -을 거예요 » with time expressions. For example, « 다음 주에 부산에 여행 갈 거예요 » (Next week, I'm going to travel to Busan).",
+    "explanation_ko": "구체적인 미래 계획을 말할 때는 '-을 거예요'와 시간 표현을 결합합니다. 예: '다음 주에 부산에 여행 갈 거예요'.",
     "key_expressions": [
       {
-        "en": "Yesterday I met a friend.",
-        "ko": "어제 친구를 만났어요."
+        "en": "Next week I'm going to travel to Busan.",
+        "ko": "다음 주에 부산에 여행 갈 거예요."
       },
       {
-        "en": "Yesterday I was very busy.",
-        "ko": "어제 정말 바빴어요."
+        "en": "I'm going to study Korean this year.",
+        "ko": "올해 한국어를 공부할 거예요."
       },
       {
-        "en": "Yesterday I stayed home all day.",
-        "ko": "어제 하루 종일 집에 있었어요."
+        "en": "I'm planning to move next month.",
+        "ko": "다음 달에 이사할 거예요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ko_a2_u01_w1",
+      "id": "ko_a2_u03_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write two sentences about what happened yesterday using «어제 ~았/었어요».",
-        "ko": "'어제 ~았/었어요'를 사용해서 어제 있었던 일을 두 문장으로 써 보세요."
+        "en": "Write a detailed future plan using a time expression + «-을 거예요».",
+        "ko": "시간 표현 + '-을 거예요'를 사용해서 구체적인 미래 계획을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "yesterday",
-          "label_ko": "어제 표현",
-          "min_occurrences": 2
+          "id": "future_detail",
+          "label_ko": "미래 계획 심화 표현",
+          "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '어제' (yesterday)?",
-          "type": "keyword_match",
-          "target": [
-            "어제"
-          ],
+          "criterion_ko": "Does it end with 거예요?",
+          "type": "pattern_regex",
+          "target": "거예요[.]?$",
           "min_matches": 1,
-          "points": 40,
+          "points": 60,
           "required": true
         },
         {
           "id": "r2",
-          "criterion_ko": "Does the verb end in 았어요 or 었어요?",
-          "type": "pattern_regex",
-          "target": "(았어요|었어요)",
+          "criterion_ko": "Did you include a time word (다음/이번/내년 etc.)?",
+          "type": "keyword_match",
+          "target": [
+            "다음",
+            "이번",
+            "내년",
+            "올해"
+          ],
           "min_matches": 1,
-          "points": 30,
-          "required": true
-        },
-        {
-          "id": "r3",
-          "criterion_ko": "Are there two or more sentences?",
-          "type": "pattern_regex",
-          "target": "[.]",
-          "min_matches": 2,
-          "points": 30,
+          "points": 40,
           "required": false
         }
       ],
@@ -86,30 +80,27 @@
       }
     },
     {
-      "id": "ko_a2_u01_w2",
+      "id": "ko_a2_u03_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«어제 바빴어요?» (Were you busy yesterday?) Answer this question.",
-        "ko": "'어제 바빴어요?'(어제 바빴는지 묻는 질문)에 답을 써 보세요."
+        "en": "«다음 달에 뭐 할 거예요?» (What are you going to do next month?) Answer this question.",
+        "ko": "'다음 달에 뭐 할 거예요?'(다음 달 계획을 묻는 질문)에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "yesterday",
-          "label_ko": "어제 표현",
+          "id": "future_detail",
+          "label_ko": "미래 계획 심화 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you say '네' or '아니요'?",
-          "type": "keyword_match",
-          "target": [
-            "네",
-            "아니요"
-          ],
+          "criterion_ko": "Does it end with 거예요?",
+          "type": "pattern_regex",
+          "target": "거예요[.]?$",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -135,27 +126,29 @@
       }
     },
     {
-      "id": "ko_a2_u01_s1",
+      "id": "ko_a2_u03_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Say out loud something you did yesterday, using past tense.",
-        "ko": "과거시제를 사용해서 소리 내어 어제 한 일을 말해 보세요."
+        "en": "Say a travel plan out loud using «~에 여행 갈 거예요».",
+        "ko": "'~에 여행 갈 거예요'를 사용해서 소리 내어 여행 계획을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "yesterday",
-          "label_ko": "어제 표현",
+          "id": "travel_plan",
+          "label_ko": "여행 계획 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Does the verb end in 았어요 or 었어요?",
-          "type": "pattern_regex",
-          "target": "(았어요|었어요)",
+          "criterion_ko": "Did you say '여행' (travel)?",
+          "type": "keyword_match",
+          "target": [
+            "여행"
+          ],
           "min_matches": 1,
           "points": 55,
           "required": true
@@ -184,18 +177,18 @@
       }
     },
     {
-      "id": "ko_a2_u01_s2",
+      "id": "ko_a2_u03_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«어제 친구를 만났어요?» (Did you meet a friend yesterday?) Answer out loud.",
-        "ko": "'어제 친구를 만났어요?'(친구를 만났는지 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
+        "en": "«올해 한국어를 공부할 거예요?» (Are you going to study Korean this year?) Answer out loud.",
+        "ko": "'올해 한국어를 공부할 거예요?'(공부 계획을 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "yesterday",
-          "label_ko": "어제 표현",
+          "id": "future_detail",
+          "label_ko": "미래 계획 심화 표현",
           "min_occurrences": 1
         }
       ],

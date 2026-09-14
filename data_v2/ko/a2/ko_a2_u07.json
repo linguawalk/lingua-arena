@@ -1,114 +1,57 @@
 {
   "meta": {
-    "id": "ko_a2_u01",
+    "id": "ko_a2_u07",
     "domain": "language",
     "lang": "ko",
     "level": "a2",
-    "unit": 1,
-    "title": "Yesterday's Story (어제 있었던 일)",
-    "title_ko": "어제 있었던 일",
+    "unit": 7,
+    "title": "Travel Plans with Reasons (-아서/어서 계속)",
+    "title_ko": "여행 계획과 이유",
     "focus_axis": "expression"
   },
   "context": {
-    "explanation_en": "To narrate what happened yesterday, use « 어제 ~았/었어요 » (Yesterday I ~). Combine several past-tense actions for a fuller story.",
-    "explanation_ko": "어제 있었던 일을 말할 때는 '어제 ~았/었어요'를 씁니다. 여러 과거시제 문장을 결합해서 이야기를 만들 수 있습니다.",
+    "explanation_en": "Combine travel plans with reasons using « -아서/어서 ». For example, « 바다를 좋아해서 부산에 가요 » (Because I like the sea, I'm going to Busan).",
+    "explanation_ko": "여행 계획을 이유와 결합할 때는 '-아서/어서'를 씁니다. 예: '바다를 좋아해서 부산에 가요'.",
     "key_expressions": [
       {
-        "en": "Yesterday I met a friend.",
-        "ko": "어제 친구를 만났어요."
+        "en": "Because I like the sea, I'm going to Busan.",
+        "ko": "바다를 좋아해서 부산에 가요."
       },
       {
-        "en": "Yesterday I was very busy.",
-        "ko": "어제 정말 바빴어요."
+        "en": "Because it's cheap, I'm going to Vietnam.",
+        "ko": "싸서 베트남에 가요."
       },
       {
-        "en": "Yesterday I stayed home all day.",
-        "ko": "어제 하루 종일 집에 있었어요."
+        "en": "Because I want to rest, I'm going to Jeju Island.",
+        "ko": "쉬고 싶어서 제주도에 가요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ko_a2_u01_w1",
+      "id": "ko_a2_u07_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write two sentences about what happened yesterday using «어제 ~았/었어요».",
-        "ko": "'어제 ~았/었어요'를 사용해서 어제 있었던 일을 두 문장으로 써 보세요."
+        "en": "Write a travel plan with a reason using «-아서/어서».",
+        "ko": "'-아서/어서'를 사용해서 이유가 있는 여행 계획을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "yesterday",
-          "label_ko": "어제 표현",
-          "min_occurrences": 2
-        }
-      ],
-      "rubric": [
-        {
-          "id": "r1",
-          "criterion_ko": "Did you use '어제' (yesterday)?",
-          "type": "keyword_match",
-          "target": [
-            "어제"
-          ],
-          "min_matches": 1,
-          "points": 40,
-          "required": true
-        },
-        {
-          "id": "r2",
-          "criterion_ko": "Does the verb end in 았어요 or 었어요?",
-          "type": "pattern_regex",
-          "target": "(았어요|었어요)",
-          "min_matches": 1,
-          "points": 30,
-          "required": true
-        },
-        {
-          "id": "r3",
-          "criterion_ko": "Are there two or more sentences?",
-          "type": "pattern_regex",
-          "target": "[.]",
-          "min_matches": 2,
-          "points": 30,
-          "required": false
-        }
-      ],
-      "scoring": {
-        "max_score": 100,
-        "pass_threshold": 60,
-        "tie_break_rule": "partial_match_ratio_geq_0.8_counts_as_met",
-        "flag_for_spot_check": {
-          "blocking": false,
-          "confidence_band": 3
-        }
-      }
-    },
-    {
-      "id": "ko_a2_u01_w2",
-      "skill": "writing",
-      "task_type": "qa_response",
-      "prompt": {
-        "en": "«어제 바빴어요?» (Were you busy yesterday?) Answer this question.",
-        "ko": "'어제 바빴어요?'(어제 바빴는지 묻는 질문)에 답을 써 보세요."
-      },
-      "target_elements": [
-        {
-          "type": "expression",
-          "id": "yesterday",
-          "label_ko": "어제 표현",
+          "id": "travel_reason",
+          "label_ko": "여행 이유 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you say '네' or '아니요'?",
+          "criterion_ko": "Did you use '아서' or '어서'?",
           "type": "keyword_match",
           "target": [
-            "네",
-            "아니요"
+            "아서",
+            "어서"
           ],
           "min_matches": 1,
           "points": 60,
@@ -135,28 +78,77 @@
       }
     },
     {
-      "id": "ko_a2_u01_s1",
-      "skill": "speaking",
-      "task_type": "situation_response",
+      "id": "ko_a2_u07_w2",
+      "skill": "writing",
+      "task_type": "qa_response",
       "prompt": {
-        "en": "Say out loud something you did yesterday, using past tense.",
-        "ko": "과거시제를 사용해서 소리 내어 어제 한 일을 말해 보세요."
+        "en": "«왜 부산에 가요?» (Why are you going to Busan?) Answer this question.",
+        "ko": "'왜 부산에 가요?'(부산 여행 이유를 묻는 질문)에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "yesterday",
-          "label_ko": "어제 표현",
+          "id": "travel_reason",
+          "label_ko": "여행 이유 표현",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Does the verb end in 았어요 or 었어요?",
-          "type": "pattern_regex",
-          "target": "(았어요|었어요)",
+          "criterion_ko": "Did you use '아서' or '어서'?",
+          "type": "keyword_match",
+          "target": [
+            "아서",
+            "어서"
+          ],
           "min_matches": 1,
+          "points": 60,
+          "required": true
+        },
+        {
+          "id": "r2",
+          "criterion_ko": "Is it a complete sentence?",
+          "type": "pattern_regex",
+          "target": "[.]$",
+          "min_matches": 1,
+          "points": 40,
+          "required": false
+        }
+      ],
+      "scoring": {
+        "max_score": 100,
+        "pass_threshold": 60,
+        "tie_break_rule": "partial_match_ratio_geq_0.8_counts_as_met",
+        "flag_for_spot_check": {
+          "blocking": false,
+          "confidence_band": 3
+        }
+      }
+    },
+    {
+      "id": "ko_a2_u07_s1",
+      "skill": "speaking",
+      "task_type": "situation_response",
+      "prompt": {
+        "en": "Say out loud a travel plan with a reason.",
+        "ko": "소리 내어 이유가 있는 여행 계획을 말해 보세요."
+      },
+      "target_elements": [
+        {
+          "type": "expression",
+          "id": "travel_reason",
+          "label_ko": "여행 이유 표현",
+          "min_occurrences": 1
+        }
+      ],
+      "rubric": [
+        {
+          "id": "r1",
+          "criterion_ko": "Did you write at least 8 characters?",
+          "type": "length_check",
+          "unit": "chars",
+          "min": 8,
           "points": 55,
           "required": true
         },
@@ -184,18 +176,18 @@
       }
     },
     {
-      "id": "ko_a2_u01_s2",
+      "id": "ko_a2_u07_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«어제 친구를 만났어요?» (Did you meet a friend yesterday?) Answer out loud.",
-        "ko": "'어제 친구를 만났어요?'(친구를 만났는지 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
+        "en": "«쉬고 싶어서 제주도에 가요?» (Are you going to Jeju because you want to rest?) Answer out loud.",
+        "ko": "'쉬고 싶어서 제주도에 가요?'(제주도 여행 이유를 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "expression",
-          "id": "yesterday",
-          "label_ko": "어제 표현",
+          "id": "travel_reason",
+          "label_ko": "여행 이유 표현",
           "min_occurrences": 1
         }
       ],
