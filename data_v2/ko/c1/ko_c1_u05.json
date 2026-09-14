@@ -1,56 +1,57 @@
 {
   "meta": {
-    "id": "ko_c1_u01",
+    "id": "ko_c1_u05",
     "domain": "language",
     "lang": "ko",
     "level": "c1",
-    "unit": 1,
-    "title": "Synonyms of 말하다 (설명하다/주장하다/표현하다/언급하다)",
-    "title_ko": "'말하다' 계열 동의어",
+    "unit": 5,
+    "title": "고집 세다 vs 단호하다 (nuance distinction)",
+    "title_ko": "고집 세다 vs 단호하다",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« 설명하다 » (explain), « 주장하다 » (assert/claim), « 표현하다 » (express), « 언급하다 » (mention) are nuanced synonyms of 말하다.",
-    "explanation_ko": "'설명하다'(explain), '주장하다'(assert), '표현하다'(express), '언급하다'(mention)는 '말하다'의 뉘앙스 있는 동의어입니다.",
+    "explanation_en": "« 고집 세다 » (stubborn) has a negative connotation of unreasonable insistence, while « 단호하다 » (firm/resolute) has a positive connotation of decisiveness.",
+    "explanation_ko": "'고집 세다'(고집이 셈)는 불합리한 고집이라는 부정적 뉘앙스가, '단호하다'(결단력 있음)는 긍정적 뉘앙스가 있습니다.",
     "key_expressions": [
       {
-        "en": "The teacher explained the concept in detail.",
-        "ko": "선생님이 개념을 자세히 설명했어요."
+        "en": "He's so stubborn that he won't listen to anyone.",
+        "ko": "그는 고집이 세서 아무 말도 안 들어요."
       },
       {
-        "en": "He asserted that he was right.",
-        "ko": "그는 자신이 옳다고 주장했어요."
+        "en": "She gave a firm answer.",
+        "ko": "그녀는 단호하게 대답했어요."
       },
       {
-        "en": "She expressed her feelings honestly.",
-        "ko": "그녀는 감정을 솔직하게 표현했어요."
+        "an": "x",
+        "en": "A firm attitude is sometimes necessary.",
+        "ko": "단호한 태도가 필요할 때도 있어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ko_c1_u01_w1",
+      "id": "ko_c1_u05_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write a sentence using «주장하다» (assert/claim).",
-        "ko": "'주장하다'를 사용해서 문장을 써 보세요."
+        "en": "Write a sentence using «고집이 세다» (stubborn, negative nuance).",
+        "ko": "'고집이 세다'(부정적 뉘앙스)를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "jujanghada",
-          "label_ko": "주장하다",
+          "id": "gojip_seda",
+          "label_ko": "고집이 세다",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '주장' (assert)?",
+          "criterion_ko": "Did you use '고집' (stubborn)?",
           "type": "keyword_match",
           "target": [
-            "주장"
+            "고집"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,28 +78,28 @@
       }
     },
     {
-      "id": "ko_c1_u01_w2",
+      "id": "ko_c1_u05_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«그녀가 감정을 어떻게 표현했어요?» (How did she express her feelings?) Answer using «표현하다».",
-        "ko": "'그녀가 감정을 어떻게 표현했어요?'(표현 방식을 묻는 질문)에 '표현하다'를 사용해서 답을 써 보세요."
+        "en": "«그녀가 어떻게 대답했어요?» (How did she answer?) Answer using «단호하다» (firm, positive nuance).",
+        "ko": "'그녀가 어떻게 대답했어요?'(대답 방식을 묻는 질문)에 '단호하다'(긍정적 뉘앙스)를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "pyohyeonhada",
-          "label_ko": "표현하다",
+          "id": "danhohada",
+          "label_ko": "단호하다",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '표현' (express)?",
+          "criterion_ko": "Did you use '단호' (firm)?",
           "type": "keyword_match",
           "target": [
-            "표현"
+            "단호"
           ],
           "min_matches": 1,
           "points": 60,
@@ -125,28 +126,28 @@
       }
     },
     {
-      "id": "ko_c1_u01_s1",
+      "id": "ko_c1_u05_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Say out loud a sentence using «설명하다» (explain).",
-        "ko": "'설명하다'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Say out loud a sentence using «단호하다» (firm/resolute).",
+        "ko": "'단호하다'를 사용해서 소리 내어 문장을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "seolmyeonghada",
-          "label_ko": "설명하다",
+          "id": "danhohada",
+          "label_ko": "단호하다",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you say '설명' (explain)?",
+          "criterion_ko": "Did you say '단호' (firm)?",
           "type": "keyword_match",
           "target": [
-            "설명"
+            "단호"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,18 +177,18 @@
       }
     },
     {
-      "id": "ko_c1_u01_s2",
+      "id": "ko_c1_u05_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«그 이야기를 언급했어요?» (Did you mention that story?) Answer out loud.",
-        "ko": "'그 이야기를 언급했어요?'(언급 여부를 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
+        "en": "«그는 고집이 세요?» (Is he stubborn?) Answer out loud.",
+        "ko": "'그는 고집이 세요?'(고집 여부를 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "eongeuphada",
-          "label_ko": "언급하다",
+          "id": "gojip_seda",
+          "label_ko": "고집이 세다",
           "min_occurrences": 1
         }
       ],

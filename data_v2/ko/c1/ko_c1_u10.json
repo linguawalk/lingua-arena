@@ -1,56 +1,56 @@
 {
   "meta": {
-    "id": "ko_c1_u01",
+    "id": "ko_c1_u10",
     "domain": "language",
     "lang": "ko",
     "level": "c1",
-    "unit": 1,
-    "title": "Synonyms of 말하다 (설명하다/주장하다/표현하다/언급하다)",
-    "title_ko": "'말하다' 계열 동의어",
+    "unit": 10,
+    "title": "Academic Vocabulary: Trends",
+    "title_ko": "학술 어휘: 트렌드",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« 설명하다 » (explain), « 주장하다 » (assert/claim), « 표현하다 » (express), « 언급하다 » (mention) are nuanced synonyms of 말하다.",
-    "explanation_ko": "'설명하다'(explain), '주장하다'(assert), '표현하다'(express), '언급하다'(mention)는 '말하다'의 뉘앙스 있는 동의어입니다.",
+    "explanation_en": "Trend vocabulary includes « 증가하는 추세이다 » (on an increasing trend), « 두드러지다 » (be prominent/notable), « 지속되다 » (continue/persist).",
+    "explanation_ko": "트렌드 어휘에는 '증가하는 추세이다'(증가 추세), '두드러지다'(두드러짐), '지속되다'(지속됨)가 있습니다.",
     "key_expressions": [
       {
-        "en": "The teacher explained the concept in detail.",
-        "ko": "선생님이 개념을 자세히 설명했어요."
+        "en": "This trend is increasing.",
+        "ko": "이 추세는 증가하고 있어요."
       },
       {
-        "en": "He asserted that he was right.",
-        "ko": "그는 자신이 옳다고 주장했어요."
+        "en": "This phenomenon is particularly notable.",
+        "ko": "이 현상이 특히 두드러져요."
       },
       {
-        "en": "She expressed her feelings honestly.",
-        "ko": "그녀는 감정을 솔직하게 표현했어요."
+        "en": "This trend will continue.",
+        "ko": "이 추세는 지속될 거예요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ko_c1_u01_w1",
+      "id": "ko_c1_u10_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write a sentence using «주장하다» (assert/claim).",
-        "ko": "'주장하다'를 사용해서 문장을 써 보세요."
+        "en": "Write a sentence using «증가하는 추세이다» (on an increasing trend).",
+        "ko": "'증가하는 추세이다'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "jujanghada",
-          "label_ko": "주장하다",
+          "id": "chuse",
+          "label_ko": "추세",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '주장' (assert)?",
+          "criterion_ko": "Did you use '추세' (trend)?",
           "type": "keyword_match",
           "target": [
-            "주장"
+            "추세"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,28 +77,29 @@
       }
     },
     {
-      "id": "ko_c1_u01_w2",
+      "id": "ko_c1_u10_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«그녀가 감정을 어떻게 표현했어요?» (How did she express her feelings?) Answer using «표현하다».",
-        "ko": "'그녀가 감정을 어떻게 표현했어요?'(표현 방식을 묻는 질문)에 '표현하다'를 사용해서 답을 써 보세요."
+        "en": "«이 현상이 두드러져요?» (Is this phenomenon notable?) Answer this question.",
+        "ko": "'이 현상이 두드러져요?'(현상의 두드러짐을 묻는 질문)에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "pyohyeonhada",
-          "label_ko": "표현하다",
+          "id": "dudeureojida",
+          "label_ko": "두드러지다",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '표현' (express)?",
+          "criterion_ko": "Did you say '네' or '아니요'?",
           "type": "keyword_match",
           "target": [
-            "표현"
+            "네",
+            "아니요"
           ],
           "min_matches": 1,
           "points": 60,
@@ -125,28 +126,28 @@
       }
     },
     {
-      "id": "ko_c1_u01_s1",
+      "id": "ko_c1_u10_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Say out loud a sentence using «설명하다» (explain).",
-        "ko": "'설명하다'를 사용해서 소리 내어 문장을 말해 보세요."
+        "en": "Say out loud «이 추세는 지속될 거예요» (This trend will continue).",
+        "ko": "'이 추세는 지속될 거예요'를 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "seolmyeonghada",
-          "label_ko": "설명하다",
+          "id": "jisokdoeda",
+          "label_ko": "지속되다",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you say '설명' (explain)?",
+          "criterion_ko": "Did you say '지속' (continue)?",
           "type": "keyword_match",
           "target": [
-            "설명"
+            "지속"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,18 +177,18 @@
       }
     },
     {
-      "id": "ko_c1_u01_s2",
+      "id": "ko_c1_u10_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«그 이야기를 언급했어요?» (Did you mention that story?) Answer out loud.",
-        "ko": "'그 이야기를 언급했어요?'(언급 여부를 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
+        "en": "«이 추세가 증가하고 있어요?» (Is this trend increasing?) Answer out loud.",
+        "ko": "'이 추세가 증가하고 있어요?'(추세 증가 여부를 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "eongeuphada",
-          "label_ko": "언급하다",
+          "id": "chuse",
+          "label_ko": "추세",
           "min_occurrences": 1
         }
       ],
