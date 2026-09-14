@@ -1,56 +1,57 @@
 {
   "meta": {
-    "id": "ko_c2_u01",
+    "id": "ko_c2_u08",
     "domain": "language",
     "lang": "ko",
     "level": "c2",
-    "unit": 1,
-    "title": "Narrate/Relate/State (서술하다/전하다/진술하다)",
-    "title_ko": "서술하다/전하다/진술하다",
+    "unit": 8,
+    "title": "Advanced Connectors (그럼에도 불구하고/그렇다 하더라도)",
+    "title_ko": "고급 접속사",
     "focus_axis": "vocabulary"
   },
   "context": {
-    "explanation_en": "« 서술하다 » (narrate/describe in detail), « 전하다 » (relate/convey a message), « 진술하다 » (state formally, e.g. in testimony) are native-level narrative verbs.",
-    "explanation_ko": "'서술하다'(자세히 서술함), '전하다'(메시지를 전달함), '진술하다'(공식적으로 진술함, 예: 증언)는 원어민 수준 서사 동사입니다.",
+    "explanation_en": "« 그럼에도 불구하고 » (nevertheless, despite that) and « 그렇다 하더라도 » (even if that's the case) are advanced concessive connectors used in formal discourse.",
+    "explanation_ko": "'그럼에도 불구하고'(그럼에도)와 '그렇다 하더라도'(설령 그렇더라도)는 격식 있는 담화에 쓰이는 고급 양보 접속사입니다.",
     "key_expressions": [
       {
-        "en": "The author narrates the event in detail.",
-        "ko": "작가가 사건을 자세히 서술해요."
+        "en": "Nevertheless, we continued the project.",
+        "ko": "그럼에도 불구하고 저희는 프로젝트를 계속했어요."
       },
       {
-        "en": "He relayed the news to his family.",
-        "ko": "그는 가족에게 소식을 전했어요."
+        "en": "Even if that's the case, we should try.",
+        "ko": "그렇다 하더라도 시도해야 해요."
       },
       {
-        "en": "The witness stated the facts to the police.",
-        "ko": "목격자가 경찰에 사실을 진술했어요."
+        "an": "x",
+        "en": "Nevertheless, hope still remains.",
+        "ko": "그럼에도 불구하고 희망은 남아 있어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ko_c2_u01_w1",
+      "id": "ko_c2_u08_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write a sentence using «서술하다» (narrate/describe in detail).",
-        "ko": "'서술하다'를 사용해서 문장을 써 보세요."
+        "en": "Write a sentence using «그럼에도 불구하고» (nevertheless).",
+        "ko": "'그럼에도 불구하고'를 사용해서 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "seosulhada",
-          "label_ko": "서술하다",
+          "id": "geureomedo_bulguhago",
+          "label_ko": "그럼에도 불구하고",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '서술' (narrate)?",
+          "criterion_ko": "Did you use '그럼에도 불구하고' (nevertheless)?",
           "type": "keyword_match",
           "target": [
-            "서술"
+            "그럼에도 불구하고"
           ],
           "min_matches": 1,
           "points": 60,
@@ -77,28 +78,28 @@
       }
     },
     {
-      "id": "ko_c2_u01_w2",
+      "id": "ko_c2_u08_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«목격자가 뭘 했어요?» (What did the witness do?) Answer using «진술하다».",
-        "ko": "'목격자가 뭘 했어요?'(목격자의 행동을 묻는 질문)에 '진술하다'를 사용해서 답을 써 보세요."
+        "en": "«어려워도 시도할 거예요?» (Will you try even if it's hard?) Answer using «그렇다 하더라도».",
+        "ko": "'어려워도 시도할 거예요?'(시도 의사를 묻는 질문)에 '그렇다 하더라도'를 사용해서 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "jinsulhada",
-          "label_ko": "진술하다",
+          "id": "geureotta_hadeorado",
+          "label_ko": "그렇다 하더라도",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '진술' (state formally)?",
+          "criterion_ko": "Did you use '그렇다 하더라도' (even if that's the case)?",
           "type": "keyword_match",
           "target": [
-            "진술"
+            "그렇다 하더라도"
           ],
           "min_matches": 1,
           "points": 60,
@@ -125,28 +126,28 @@
       }
     },
     {
-      "id": "ko_c2_u01_s1",
+      "id": "ko_c2_u08_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Say out loud «그는 가족에게 소식을 전했어요» (He relayed the news to his family).",
-        "ko": "'그는 가족에게 소식을 전했어요'를 소리 내어 말해 보세요."
+        "en": "Say out loud «그럼에도 불구하고 희망은 남아 있어요» (Nevertheless, hope still remains).",
+        "ko": "'그럼에도 불구하고 희망은 남아 있어요'를 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "jeonhada",
-          "label_ko": "전하다",
+          "id": "geureomedo_bulguhago",
+          "label_ko": "그럼에도 불구하고",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you say '전했' (relayed)?",
+          "criterion_ko": "Did you say '그럼에도' (nevertheless)?",
           "type": "keyword_match",
           "target": [
-            "전했"
+            "그럼에도"
           ],
           "min_matches": 1,
           "points": 55,
@@ -176,18 +177,18 @@
       }
     },
     {
-      "id": "ko_c2_u01_s2",
+      "id": "ko_c2_u08_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«작가가 사건을 자세히 서술했어요?» (Did the author narrate the event in detail?) Answer out loud.",
-        "ko": "'작가가 사건을 자세히 서술했어요?'(서술 여부를 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
+        "en": "«프로젝트를 계속했어요?» (Did you continue the project?) Answer out loud.",
+        "ko": "'프로젝트를 계속했어요?'(프로젝트 지속 여부를 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "vocabulary",
-          "id": "seosulhada",
-          "label_ko": "서술하다",
+          "id": "geureomedo_bulguhago",
+          "label_ko": "그럼에도 불구하고",
           "min_occurrences": 1
         }
       ],
