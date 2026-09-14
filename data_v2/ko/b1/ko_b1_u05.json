@@ -1,58 +1,55 @@
 {
   "meta": {
-    "id": "ko_b1_u01",
+    "id": "ko_b1_u05",
     "domain": "language",
     "lang": "ko",
     "level": "b1",
-    "unit": 1,
-    "title": "Conditional -으면 (if)",
-    "title_ko": "조건 -으면",
+    "unit": 5,
+    "title": "Relative Clause: Present Modifier -는",
+    "title_ko": "관형형 -는 (현재)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "« -으면/면 » expresses a condition (if ~). For example, « 시간이 있으면 도와줄게요 » (If I have time, I'll help you).",
-    "explanation_ko": "'-으면/면'은 조건(~하면)을 나타냅니다. 예: '시간이 있으면 도와줄게요'.",
+    "explanation_en": "The present modifier « -는 » attaches to a verb stem to modify a following noun. For example, « 공부하는 학생 » (a student who studies).",
+    "explanation_ko": "현재 관형형 '-는'은 동사 어간에 붙어 뒤의 명사를 수식합니다. 예: '공부하는 학생'.",
     "key_expressions": [
       {
-        "en": "If I have time, I'll help you.",
-        "ko": "시간이 있으면 도와줄게요."
+        "en": "The student who studies hard is my friend.",
+        "ko": "열심히 공부하는 학생이 제 친구예요."
       },
       {
-        "en": "If it rains, I won't go out.",
-        "ko": "비가 오면 안 나갈 거예요."
+        "en": "The coffee that I'm drinking is delicious.",
+        "ko": "제가 마시는 커피가 맛있어요."
       },
       {
-        "en": "If you press this button, it turns on.",
-        "ko": "이 버튼을 누르면 켜져요."
+        "en": "The person who works here is kind.",
+        "ko": "여기서 일하는 사람이 친절해요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ko_b1_u01_w1",
+      "id": "ko_b1_u05_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write a conditional sentence using «-으면/면» (if).",
-        "ko": "'-으면/면'을 사용해서 조건문을 써 보세요."
+        "en": "Write a sentence with a present-tense relative clause using «-는» + noun.",
+        "ko": "'-는' + 명사를 사용해서 현재 관형형 문장을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "eumyeon",
-          "label_ko": "조건 -으면",
+          "id": "neun_modifier",
+          "label_ko": "관형형 -는",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '으면' or '면' (if)?",
-          "type": "keyword_match",
-          "target": [
-            "으면",
-            "면"
-          ],
+          "criterion_ko": "Did you use a verb ending in '는' before a noun?",
+          "type": "pattern_regex",
+          "target": "는\\s*\\S+",
           "min_matches": 1,
           "points": 60,
           "required": true
@@ -78,29 +75,29 @@
       }
     },
     {
-      "id": "ko_b1_u01_w2",
+      "id": "ko_b1_u05_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«비가 오면 뭐 할 거예요?» (If it rains, what will you do?) Answer this question.",
-        "ko": "'비가 오면 뭐 할 거예요?'(우천 시 계획을 묻는 질문)에 답을 써 보세요."
+        "en": "«여기서 일하는 사람이 친절해요?» (Is the person who works here kind?) Answer this question.",
+        "ko": "'여기서 일하는 사람이 친절해요?'(직원의 친절함을 묻는 질문)에 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "eumyeon",
-          "label_ko": "조건 -으면",
+          "id": "neun_modifier",
+          "label_ko": "관형형 -는",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '으면' or '면' (if)?",
+          "criterion_ko": "Did you say '네' or '아니요'?",
           "type": "keyword_match",
           "target": [
-            "으면",
-            "면"
+            "네",
+            "아니요"
           ],
           "min_matches": 1,
           "points": 60,
@@ -127,29 +124,28 @@
       }
     },
     {
-      "id": "ko_b1_u01_s1",
+      "id": "ko_b1_u05_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Say a conditional sentence out loud using «-으면/면».",
-        "ko": "'-으면/면'을 사용해서 소리 내어 조건문을 말해 보세요."
+        "en": "Say out loud «제가 마시는 커피가 맛있어요» (The coffee I'm drinking is delicious).",
+        "ko": "'제가 마시는 커피가 맛있어요'를 소리 내어 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "eumyeon",
-          "label_ko": "조건 -으면",
+          "id": "neun_modifier",
+          "label_ko": "관형형 -는",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you say '으면' or '면' (if)?",
+          "criterion_ko": "Did you say '마시는' or '는'?",
           "type": "keyword_match",
           "target": [
-            "으면",
-            "면"
+            "마시는"
           ],
           "min_matches": 1,
           "points": 55,
@@ -179,18 +175,18 @@
       }
     },
     {
-      "id": "ko_b1_u01_s2",
+      "id": "ko_b1_u05_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«시간이 있으면 도와줄 거예요?» (If you have time, will you help?) Answer out loud.",
-        "ko": "'시간이 있으면 도와줄 거예요?'(도움 조건을 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
+        "en": "«열심히 공부하는 학생이 제 친구예요?» (Is the student who studies hard your friend?) Answer out loud.",
+        "ko": "'열심히 공부하는 학생이 제 친구예요?'(친구 확인 질문)를 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "eumyeon",
-          "label_ko": "조건 -으면",
+          "id": "neun_modifier",
+          "label_ko": "관형형 -는",
           "min_occurrences": 1
         }
       ],

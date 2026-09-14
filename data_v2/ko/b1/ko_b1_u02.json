@@ -1,57 +1,57 @@
 {
   "meta": {
-    "id": "ko_b1_u01",
+    "id": "ko_b1_u02",
     "domain": "language",
     "lang": "ko",
     "level": "b1",
-    "unit": 1,
-    "title": "Conditional -으면 (if)",
-    "title_ko": "조건 -으면",
+    "unit": 2,
+    "title": "Conditional -으면 Deepened (wishes/advice)",
+    "title_ko": "조건 -으면 심화 (소망·조언)",
     "focus_axis": "grammar"
   },
   "context": {
-    "explanation_en": "« -으면/면 » expresses a condition (if ~). For example, « 시간이 있으면 도와줄게요 » (If I have time, I'll help you).",
-    "explanation_ko": "'-으면/면'은 조건(~하면)을 나타냅니다. 예: '시간이 있으면 도와줄게요'.",
+    "explanation_en": "« -으면 좋겠어요 » expresses a wish (I hope ~), and « -으면 어때요? » offers advice (how about ~?).",
+    "explanation_ko": "'-으면 좋겠어요'는 소망을(~하면 좋겠어요), '-으면 어때요?'는 조언을(~하면 어때요?) 나타냅니다.",
     "key_expressions": [
       {
-        "en": "If I have time, I'll help you.",
-        "ko": "시간이 있으면 도와줄게요."
+        "en": "I hope it doesn't rain tomorrow.",
+        "ko": "내일 비가 안 오면 좋겠어요."
       },
       {
-        "en": "If it rains, I won't go out.",
-        "ko": "비가 오면 안 나갈 거예요."
+        "en": "How about resting a bit?",
+        "ko": "좀 쉬면 어때요?"
       },
       {
-        "en": "If you press this button, it turns on.",
-        "ko": "이 버튼을 누르면 켜져요."
+        "en": "I wish I could speak Korean well.",
+        "ko": "한국어를 잘하면 좋겠어요."
       }
     ]
   },
   "tasks": [
     {
-      "id": "ko_b1_u01_w1",
+      "id": "ko_b1_u02_w1",
       "skill": "writing",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Write a conditional sentence using «-으면/면» (if).",
-        "ko": "'-으면/면'을 사용해서 조건문을 써 보세요."
+        "en": "Write a wish using «-으면 좋겠어요».",
+        "ko": "'-으면 좋겠어요'를 사용해서 소망을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "eumyeon",
-          "label_ko": "조건 -으면",
+          "id": "eumyeon_johgesseoyo",
+          "label_ko": "으면 좋겠어요",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '으면' or '면' (if)?",
+          "criterion_ko": "Did you use '으면 좋겠어요' (I hope/wish)?",
           "type": "keyword_match",
           "target": [
-            "으면",
-            "면"
+            "으면 좋겠어요",
+            "면 좋겠어요"
           ],
           "min_matches": 1,
           "points": 60,
@@ -78,29 +78,29 @@
       }
     },
     {
-      "id": "ko_b1_u01_w2",
+      "id": "ko_b1_u02_w2",
       "skill": "writing",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«비가 오면 뭐 할 거예요?» (If it rains, what will you do?) Answer this question.",
-        "ko": "'비가 오면 뭐 할 거예요?'(우천 시 계획을 묻는 질문)에 답을 써 보세요."
+        "en": "«머리가 아파요.» (I have a headache.) Give advice using «-으면 어때요?».",
+        "ko": "'머리가 아파요.'(두통 호소)에 '-으면 어때요?'를 사용해서 조언으로 답을 써 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "eumyeon",
-          "label_ko": "조건 -으면",
+          "id": "eumyeon_eottaeyo",
+          "label_ko": "으면 어때요",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you use '으면' or '면' (if)?",
+          "criterion_ko": "Did you use '으면 어때요' or '면 어때요' (how about)?",
           "type": "keyword_match",
           "target": [
-            "으면",
-            "면"
+            "으면 어때요",
+            "면 어때요"
           ],
           "min_matches": 1,
           "points": 60,
@@ -108,9 +108,9 @@
         },
         {
           "id": "r2",
-          "criterion_ko": "Is it a complete sentence?",
+          "criterion_ko": "Does the sentence end with a question mark?",
           "type": "pattern_regex",
-          "target": "[.]$",
+          "target": "[?]$",
           "min_matches": 1,
           "points": 40,
           "required": false
@@ -127,29 +127,28 @@
       }
     },
     {
-      "id": "ko_b1_u01_s1",
+      "id": "ko_b1_u02_s1",
       "skill": "speaking",
       "task_type": "situation_response",
       "prompt": {
-        "en": "Say a conditional sentence out loud using «-으면/면».",
-        "ko": "'-으면/면'을 사용해서 소리 내어 조건문을 말해 보세요."
+        "en": "Say a wish out loud using «-으면 좋겠어요».",
+        "ko": "'-으면 좋겠어요'를 사용해서 소리 내어 소망을 말해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "eumyeon",
-          "label_ko": "조건 -으면",
+          "id": "eumyeon_johgesseoyo",
+          "label_ko": "으면 좋겠어요",
           "min_occurrences": 1
         }
       ],
       "rubric": [
         {
           "id": "r1",
-          "criterion_ko": "Did you say '으면' or '면' (if)?",
+          "criterion_ko": "Did you say '좋겠어요' (I hope)?",
           "type": "keyword_match",
           "target": [
-            "으면",
-            "면"
+            "좋겠어요"
           ],
           "min_matches": 1,
           "points": 55,
@@ -179,18 +178,18 @@
       }
     },
     {
-      "id": "ko_b1_u01_s2",
+      "id": "ko_b1_u02_s2",
       "skill": "speaking",
       "task_type": "qa_response",
       "prompt": {
-        "en": "«시간이 있으면 도와줄 거예요?» (If you have time, will you help?) Answer out loud.",
-        "ko": "'시간이 있으면 도와줄 거예요?'(도움 조건을 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
+        "en": "«한국어를 잘하면 좋겠어요?» (Do you wish you could speak Korean well?) Answer out loud.",
+        "ko": "'한국어를 잘하면 좋겠어요?'(소망을 묻는 질문)를 받았습니다. 소리 내어 답해 보세요."
       },
       "target_elements": [
         {
           "type": "grammar",
-          "id": "eumyeon",
-          "label_ko": "조건 -으면",
+          "id": "eumyeon_johgesseoyo",
+          "label_ko": "으면 좋겠어요",
           "min_occurrences": 1
         }
       ],
