@@ -67,6 +67,12 @@
 
   footer{position:relative;z-index:1;border-top:1px solid var(--line);padding:30px 0;text-align:center;font-size:12px;color:var(--ink-dim);}
   [data-i18n-only]{display:inline;}
+  .mode-divider{display:flex;align-items:center;gap:14px;margin:0 0 40px;}
+  .mode-divider::before,.mode-divider::after{content:"";flex:1;height:1px;background:var(--line);}
+  .mode-divider span{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-dim);white-space:nowrap;}
+  .card.classic{opacity:.88;}
+  .card.classic .card-code{color:var(--ink-dim);}
+  .card.classic:hover{opacity:1;}
 </style>
 </head>
 <body>
@@ -102,6 +108,9 @@
 
   <section class="levels wrap">
     <div class="section-head">
+      <div style="font-family:var(--mono);font-size:11px;color:var(--teal);letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;">
+        <span data-i18n-only="en">New · Writing &amp; Speaking</span><span data-i18n-only="ko" style="display:none;">새 버전 · 쓰기 + 말하기</span>
+      </div>
       <h2 data-i18n-only="en">Choose your level</h2>
       <h2 data-i18n-only="ko" style="display:none;">레벨을 선택하세요</h2>
       <p data-i18n-only="en">Not sure where to start? A1 is for absolute beginners.</p>
@@ -150,6 +159,63 @@
         <div class="card-top"><span class="card-code">C2</span></div>
         <div><div class="card-title" data-i18n-only="en">Native instinct</div><div class="card-title" data-i18n-only="ko" style="display:none;">원어민 감각</div></div>
         <div class="card-meta"><span>50 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>200 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
+        <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
+      </a>
+
+    </div>
+  </section>
+
+  <div class="wrap mode-divider"><span data-i18n-only="en">Prefer multiple choice?</span><span data-i18n-only="ko" style="display:none;">객관식이 더 편하신가요?</span></div>
+
+  <section class="levels wrap">
+    <div class="section-head">
+      <h2 data-i18n-only="en">Classic format</h2>
+      <h2 data-i18n-only="ko" style="display:none;">클래식 버전</h2>
+      <p data-i18n-only="en">The original multiple-choice / fill-in-the-blank question bank — 20 units per level, no speaking or microphone needed.</p>
+      <p data-i18n-only="ko" style="display:none;">기존 객관식·빈칸 채우기 문제은행입니다 — 레벨당 20유닛, 말하기나 마이크가 필요 없습니다.</p>
+    </div>
+
+    <div class="grid">
+
+      <a class="card classic" href="../../units.html?lang=de&level=a1">
+        <div class="card-top"><span class="card-code">A1</span></div>
+        <div><div class="card-title" data-i18n-only="en">First words</div><div class="card-title" data-i18n-only="ko" style="display:none;">첫 단어</div></div>
+        <div class="card-meta"><span>20 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>500 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
+        <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card classic" href="../../units.html?lang=de&level=a2">
+        <div class="card-top"><span class="card-code">A2</span></div>
+        <div><div class="card-title" data-i18n-only="en">Everyday chat</div><div class="card-title" data-i18n-only="ko" style="display:none;">일상 대화</div></div>
+        <div class="card-meta"><span>20 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>500 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
+        <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card classic" href="../../units.html?lang=de&level=b1">
+        <div class="card-top"><span class="card-code">B1</span></div>
+        <div><div class="card-title" data-i18n-only="en">Real conversation</div><div class="card-title" data-i18n-only="ko" style="display:none;">실전 대화</div></div>
+        <div class="card-meta"><span>20 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>500 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
+        <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card classic" href="../../units.html?lang=de&level=b2">
+        <div class="card-top"><span class="card-code">B2</span></div>
+        <div><div class="card-title" data-i18n-only="en">Confident fluency</div><div class="card-title" data-i18n-only="ko" style="display:none;">자신 있는 유창함</div></div>
+        <div class="card-meta"><span>20 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>500 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
+        <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card classic" href="../../units.html?lang=de&level=c1">
+        <div class="card-top"><span class="card-code">C1</span></div>
+        <div><div class="card-title" data-i18n-only="en">Nuanced command</div><div class="card-title" data-i18n-only="ko" style="display:none;">섬세한 구사력</div></div>
+        <div class="card-meta"><span>20 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>500 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
+        <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
+      </a>
+
+      <a class="card classic" href="../../units.html?lang=de&level=c2">
+        <div class="card-top"><span class="card-code">C2</span></div>
+        <div><div class="card-title" data-i18n-only="en">Native instinct</div><div class="card-title" data-i18n-only="ko" style="display:none;">원어민 감각</div></div>
+        <div class="card-meta"><span>20 <span data-i18n-only="en">units</span><span data-i18n-only="ko" style="display:none;">유닛</span></span><span>500 <span data-i18n-only="en">Qs</span><span data-i18n-only="ko" style="display:none;">문제</span></span></div>
         <div class="card-cta"><span data-i18n-only="en">Start</span><span data-i18n-only="ko" style="display:none;">시작</span><span class="arrow">→</span></div>
       </a>
 
