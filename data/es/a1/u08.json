@@ -1,0 +1,797 @@
+{
+ "meta": {
+  "id": "es_a1_u08",
+  "lang": "es",
+  "family": "europe",
+  "level": "a1",
+  "unit": 8,
+  "concept": "A1.U08",
+  "status": "live",
+  "title": {
+   "target": "La hora y los días",
+   "ko": "시간과 요일",
+   "en": "Time and days"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "la hora",
+   "pos": "noun",
+   "ko": "시간, 시각",
+   "en": "time",
+   "ex": {
+    "t": "¿Qué hora es?",
+    "ko": "지금 몇 시예요?",
+    "en": "What time is it?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "el día",
+   "pos": "noun",
+   "ko": "날, 요일",
+   "en": "day",
+   "ex": {
+    "t": "¿Qué día es hoy?",
+    "ko": "오늘은 무슨 요일이에요?",
+    "en": "What day is it today?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "lunes",
+   "pos": "noun",
+   "ko": "월요일",
+   "en": "Monday",
+   "ex": {
+    "t": "Trabajo los lunes.",
+    "ko": "저는 월요일에 일해요.",
+    "en": "I work on Monday."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "sábado",
+   "pos": "noun",
+   "ko": "토요일",
+   "en": "Saturday",
+   "ex": {
+    "t": "Estudio los sábados.",
+    "ko": "저는 토요일에 공부해요.",
+    "en": "I study on Saturday."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "domingo",
+   "pos": "noun",
+   "ko": "일요일",
+   "en": "Sunday",
+   "ex": {
+    "t": "Leo un libro los domingos.",
+    "ko": "저는 일요일에 책을 읽어요.",
+    "en": "I read a book on Sunday."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "por la mañana",
+   "pos": "noun",
+   "ko": "아침",
+   "en": "morning",
+   "ex": {
+    "t": "Bebo café por la mañana.",
+    "ko": "저는 아침에 커피를 마셔요.",
+    "en": "I drink coffee in the morning."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "por la noche",
+   "pos": "noun",
+   "ko": "저녁",
+   "en": "evening",
+   "ex": {
+    "t": "Estudio inglés por la noche.",
+    "ko": "저는 저녁에 영어를 공부해요.",
+    "en": "I study English in the evening."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "hoy",
+   "pos": "adv",
+   "ko": "오늘",
+   "en": "today",
+   "ex": {
+    "t": "Hoy es lunes.",
+    "ko": "오늘은 월요일이에요.",
+    "en": "Today is Monday."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "mañana",
+   "pos": "adv",
+   "ko": "내일",
+   "en": "tomorrow",
+   "ex": {
+    "t": "¡Hasta mañana!",
+    "ko": "내일 만나요.",
+    "en": "See you tomorrow."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "a las nueve",
+   "pos": "noun",
+   "ko": "~시 (정각)",
+   "en": "o'clock",
+   "ex": {
+    "t": "La clase es a las nueve.",
+    "ko": "지금 아홉 시예요.",
+    "en": "It is nine o'clock."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "Son las ... · a las ... · los lunes",
+   "en": "Telling the time: 'Son las ...', 'a las ...', 'los lunes'"
+  },
+  "explain": {
+   "ko": "시각은 Son las + 숫자로 말합니다(1시는 Es la una). 시각 앞에는 a las를 씁니다. 매주 반복되는 요일에는 los를 붙이고(los lunes), 아침·저녁은 por la mañana / por la noche입니다.",
+   "en": "Tell the time with Son las + number (one o'clock is Es la una) and use 'a las' before a time. For a weekly habit use 'los' before the day (los lunes). Parts of the day: por la mañana / por la noche."
+  },
+  "table": {
+   "head": [
+    "표현 / Expresión",
+    "예 / Ejemplo"
+   ],
+   "rows": [
+    [
+     "Son las + 시각",
+     "Son las nueve."
+    ],
+    [
+     "a las + 시각",
+     "a las nueve"
+    ],
+    [
+     "los + 요일 (매주)",
+     "los lunes"
+    ],
+    [
+     "el + 요일 (특정)",
+     "el lunes (이번 월요일)"
+    ],
+    [
+     "때",
+     "por la mañana, por la noche"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "요일 이름은 소문자로 씁니다: lunes.",
+    "en": "Days are written in lowercase: lunes."
+   },
+   {
+    "ko": "1시는 Es la una(단수)입니다.",
+    "en": "One o'clock is Es la una (singular)."
+   },
+   {
+    "ko": "매주 반복되면 los를 씁니다: Trabajo los lunes.",
+    "en": "Use 'los' for a weekly habit: Trabajo los lunes."
+   }
+  ],
+  "examples": [
+   {
+    "t": "¿Qué hora es?",
+    "ko": "지금 몇 시예요?",
+    "en": "What time is it?"
+   },
+   {
+    "t": "Son las nueve.",
+    "ko": "지금 아홉 시예요.",
+    "en": "It is nine o'clock."
+   },
+   {
+    "t": "¿Qué día es hoy?",
+    "ko": "오늘은 무슨 요일이에요?",
+    "en": "What day is it today?"
+   },
+   {
+    "t": "Trabajo los lunes.",
+    "ko": "저는 월요일에 일해요.",
+    "en": "I work on Monday."
+   },
+   {
+    "t": "Bebo café por la mañana.",
+    "ko": "저는 아침에 커피를 마셔요.",
+    "en": "I drink coffee in the morning."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Trabajo ___ lunes. (cada semana)",
+    "options": [
+     "los",
+     "a",
+     "en"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "La clase es ___ las nueve.",
+    "options": [
+     "a",
+     "en",
+     "por"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Bebo café ___ la mañana.",
+    "options": [
+     "por",
+     "a",
+     "en"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "¿Qué ___ es?",
+    "options": [
+     "hora",
+     "día",
+     "vez"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Qué hora es?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 지금 몇 시예요?",
+     "en": "(Question) What time is it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "Son las nueve.",
+       "Es lunes.",
+       "Es un reloj."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Qué día es hoy?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 오늘은 무슨 요일이에요?",
+     "en": "(Question) What day is it today?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "Hoy es sábado.",
+       "Son las diez.",
+       "Estoy bien."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Qué día es la clase de inglés?"
+      },
+      {
+       "s": "B",
+       "t": "Es el lunes."
+      },
+      {
+       "s": "A",
+       "t": "¿A qué hora empieza?"
+      },
+      {
+       "s": "B",
+       "t": "Empieza a las nueve de la mañana."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 영어 수업은 무슨 요일이에요?\nB: 월요일이에요.\nA: 몇 시에 시작해요?\nB: 아침 아홉 시에 시작해요.",
+     "en": "A: What day is the English class?\nB: It's on Monday.\nA: What time does it start?\nB: It starts at nine o'clock in the morning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuándo empieza la clase?",
+      "options": [
+       "El lunes a las nueve",
+       "El domingo a las nueve",
+       "El lunes a las siete"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Trabajo los lunes. Estudio inglés los sábados. Los domingos estoy con mi familia."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 월요일에 일해요. 토요일에는 영어를 공부해요. 일요일에는 가족과 함께 있어요.",
+     "en": "I work on Monday. I study English on Saturday. I am with my family on Sunday."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Qué hace la persona los sábados?",
+      "options": [
+       "Trabajar",
+       "Estudiar inglés",
+       "Estar con la familia"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Qué día quiere venir?"
+      },
+      {
+       "s": "B",
+       "t": "El sábado."
+      },
+      {
+       "s": "A",
+       "t": "¿A qué hora?"
+      },
+      {
+       "s": "B",
+       "t": "A las siete de la tarde."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "접수원: 무슨 요일로 하시겠어요?\n손님: 토요일이요.\n접수원: 몇 시요?\n손님: 저녁 일곱 시요.",
+     "en": "Receptionist: Which day would you like?\nGuest: Saturday.\nReceptionist: What time?\nGuest: Seven o'clock in the evening."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Día: ______",
+      "answers": [
+       "sábado"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Hora: ______",
+      "answers": [
+       "siete"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Trabajo ___ lunes.\n2) Bebo café ___ la mañana.\n3) ¿Qué ___ es?",
+    "trans": {
+     "ko": "1) 저는 월요일에 일해요. 2) 저는 아침에 커피를 마셔요. 3) 지금 몇 시예요?",
+     "en": "1) I work on Monday. 2) I drink coffee in the morning. 3) What time is it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Trabajo ___ lunes.",
+      "options": [
+       "los",
+       "a",
+       "en"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Bebo café ___ la mañana.",
+      "options": [
+       "a",
+       "por",
+       "en"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "¿Qué ___ es?",
+      "options": [
+       "hora",
+       "día",
+       "mes"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "¡Hola! Hoy (1) sábado. Estudio inglés (2) la mañana. Estoy con mi familia (3) las siete de la tarde.",
+    "trans": {
+     "ko": "안녕하세요! 오늘은 토요일이에요. 저는 아침에 영어를 공부해요. 저녁 일곱 시에 가족과 함께 있어요.",
+     "en": "Hello! Today is Saturday. I study English in the morning. I am with my family at seven o'clock in the evening."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "es",
+       "son",
+       "está"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "por",
+       "a",
+       "en"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "a",
+       "por",
+       "en"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "HORARIO\nLunes: inglés, 9:00\nSábado: español, 10:00",
+    "trans": {
+     "ko": "수업 시간표\n월요일: 영어, 9시\n토요일: 스페인어, 10시",
+     "en": "CLASS TIMETABLE\nMonday: English, 9 o'clock\nSaturday: Spanish, 10 o'clock"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Qué clase hay el lunes?",
+      "options": [
+       "Inglés",
+       "Español",
+       "Francés"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "¿A qué hora es la clase del sábado?",
+      "options": [
+       "9:00",
+       "10:00",
+       "11:00"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Ben trabaja los lunes. Empieza a las nueve de la mañana. Los sábados está en casa.",
+    "trans": {
+     "ko": "벤은 월요일에 일해요. 그는 아침 아홉 시에 일을 시작해요. 토요일에 그는 집에 있어요.",
+     "en": "Ben works on Monday. He starts work at nine o'clock in the morning. On Saturday, he is at home."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Ben trabaja los sábados.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Ben empieza a las nueve.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Ben trabaja en un banco.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "¿Qué hora es?",
+    "ko": "지금 몇 시예요?",
+    "en": "What time is it?",
+    "situation": {
+     "ko": "시간을 물을 때",
+     "en": "Asking the time"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Son las nueve.",
+    "ko": "지금 아홉 시예요.",
+    "en": "It's nine o'clock.",
+    "situation": {
+     "ko": "시간을 말할 때",
+     "en": "Telling the time"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "¿Qué día es hoy?",
+    "ko": "오늘은 무슨 요일이에요?",
+    "en": "What day is it today?",
+    "situation": {
+     "ko": "요일을 물을 때",
+     "en": "Asking the day"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Hoy es lunes.",
+    "ko": "오늘은 월요일이에요.",
+    "en": "Today is Monday.",
+    "situation": {
+     "ko": "요일을 말할 때",
+     "en": "Telling the day"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "¿A qué hora empieza?",
+    "ko": "몇 시에 시작해요?",
+    "en": "What time does it start?",
+    "situation": {
+     "ko": "시작 시간을 물을 때",
+     "en": "Asking a start time"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Empieza a las siete.",
+    "ko": "일곱 시에 시작해요.",
+    "en": "It starts at seven o'clock.",
+    "situation": {
+     "ko": "시작 시간을 말할 때",
+     "en": "Giving a start time"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "¡Hasta mañana!",
+    "ko": "내일 만나요.",
+    "en": "See you tomorrow.",
+    "situation": {
+     "ko": "작별할 때",
+     "en": "Saying goodbye"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "¿Estás libre el sábado?",
+    "ko": "토요일에 시간 있어요?",
+    "en": "Are you free on Saturday?",
+    "situation": {
+     "ko": "약속을 물을 때",
+     "en": "Asking about availability"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Son las ~.",
+    "ko": "지금 ~시예요.",
+    "en": "It's ~ o'clock."
+   },
+   {
+    "id": "w2",
+    "t": "Hoy es ~.",
+    "ko": "오늘은 ~요일이에요.",
+    "en": "Today is ~."
+   },
+   {
+    "id": "w3",
+    "t": "Yo ~ los ~.",
+    "ko": "저는 ~요일에 ~해요.",
+    "en": "I ~ on ~."
+   },
+   {
+    "id": "w4",
+    "t": "Yo ~ por la mañana / por la noche.",
+    "ko": "저는 아침/저녁에 ~해요.",
+    "en": "I ~ in the morning/evening."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "시간에 대해 3문장으로 써 보세요: 오늘 요일, 지금 시각, 토요일에 하는 일.",
+    "en": "Write 3 sentences about time: today's day, the time now, and something you do on Saturday."
+   },
+   "must_include": [
+    {
+     "label": "Hoy es ~",
+     "match": [
+      "hoy es"
+     ]
+    },
+    {
+     "label": "Son las ~",
+     "match": [
+      "son las"
+     ]
+    },
+    {
+     "label": "los + día",
+     "match": [
+      "los sábados",
+      "los lunes",
+      "los domingos"
+     ]
+    }
+   ],
+   "model": "Hoy es lunes. Son las nueve. Estudio inglés los sábados.",
+   "model_trans": {
+    "ko": "오늘은 월요일이에요. 지금 아홉 시예요. 저는 토요일에 영어를 공부해요.",
+    "en": "Today is Monday. It's nine o'clock. I study English on Saturday."
+   }
+  }
+ }
+}
