@@ -1,0 +1,836 @@
+{
+ "meta": {
+  "id": "ja_a1_u19",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a1",
+  "unit": 19,
+  "concept": "A1.U19",
+  "status": "live",
+  "title": {
+   "target": "誘いと予定",
+   "ko": "초대와 약속",
+   "en": "Invitations and plans"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "招待します",
+   "pos": "verb",
+   "read": "しょうたいします",
+   "ko": "초대하다",
+   "en": "invite",
+   "ex": {
+    "t": "私は友だちを招待します。",
+    "read": "わたしはともだちをしょうたいします。",
+    "ko": "저는 친구들을 초대해요.",
+    "en": "I invite my friends."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "パーティー",
+   "pos": "noun",
+   "read": "パーティー",
+   "ko": "파티",
+   "en": "party",
+   "ex": {
+    "t": "土曜日にパーティーがあります。",
+    "read": "どようびにパーティーがあります。",
+    "ko": "토요일에 파티가 있어요.",
+    "en": "There is a party on Saturday."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "予定",
+   "pos": "noun",
+   "read": "よてい",
+   "ko": "계획",
+   "en": "plan",
+   "ex": {
+    "t": "私は日曜日に予定があります。",
+    "read": "わたしはにちようびによていがあります。",
+    "ko": "저는 일요일에 계획이 있어요.",
+    "en": "I have a plan for Sunday."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "暇",
+   "pos": "adj",
+   "read": "ひま",
+   "ko": "한가한, 시간이 있는",
+   "en": "free",
+   "ex": {
+    "t": "私は土曜日は暇です。",
+    "read": "わたしはどようびはひまです。",
+    "ko": "저는 토요일에 시간이 있어요.",
+    "en": "I am free on Saturday."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "忙しい",
+   "pos": "adj",
+   "read": "いそがしい",
+   "ko": "바쁜",
+   "en": "busy",
+   "ex": {
+    "t": "私は今日忙しいです。",
+    "read": "わたしはきょういそがしいです。",
+    "ko": "저는 오늘 바빠요.",
+    "en": "I am busy today."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "〜ことができます",
+   "pos": "verb",
+   "read": "〜ことができます",
+   "ko": "~할 수 있다",
+   "en": "can",
+   "ex": {
+    "t": "明日会うことができますか。",
+    "read": "あしたあうことができますか。",
+    "ko": "와 줄 수 있어요?",
+    "en": "Can you come?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "〜ましょう",
+   "pos": "verb",
+   "read": "〜ましょう",
+   "ko": "~하자",
+   "en": "let's",
+   "ex": {
+    "t": "公園に行きましょう。",
+    "read": "こうえんにいきましょう。",
+    "ko": "우리 공원에 가요.",
+    "en": "Let's go to the park."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "〜ませんか",
+   "pos": "verb",
+   "read": "〜ませんか",
+   "ko": "~하시겠어요? (권유)",
+   "en": "would you like",
+   "ex": {
+    "t": "お茶を飲みませんか。",
+    "read": "おちゃをのみませんか。",
+    "ko": "차 좀 드시겠어요?",
+    "en": "Would you like some tea?"
+   }
+  },
+  {
+   "id": "v9",
+   "t": "一緒に",
+   "pos": "verb",
+   "read": "いっしょに",
+   "ko": "함께하다",
+   "en": "join",
+   "ex": {
+    "t": "一緒に来ませんか。",
+    "read": "いっしょにきませんか。",
+    "ko": "우리와 함께할래요?",
+    "en": "Do you want to join us?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "会います",
+   "pos": "verb",
+   "read": "あいます",
+   "ko": "만나다",
+   "en": "meet",
+   "ex": {
+    "t": "明日会いますか。",
+    "read": "あしたあいますか。",
+    "ko": "내일 만날 수 있어요?",
+    "en": "Can we meet tomorrow?"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜ませんか · 〜ましょう · 〜ことができます",
+   "en": "Invitations: 〜ませんか, 〜ましょう, 〜ことができます"
+  },
+  "explain": {
+   "ko": "友だちを誘うときは「〜ませんか」を使います：一緒に映画を見ませんか。「〜ましょう」は「しよう」と提案する言い方です：公園に行きましょう。できるかどうかは「〜ことができますか」で聞き、断るときは「すみません、忙しいです」と言います。",
+   "en": "Invite with 〜ませんか: 一緒に映画を見ませんか. 〜ましょう means 'let's': 公園に行きましょう. Ask if something is possible with 〜ことができますか, and decline with すみません、忙しいです。"
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "時間がありますか",
+     "土曜日は時間がありますか。"
+    ],
+    [
+     "〜ませんか",
+     "一緒に映画を見ませんか。"
+    ],
+    [
+     "〜ましょう",
+     "公園に行きましょう。"
+    ],
+    [
+     "〜ことができますか",
+     "明日会うことができますか。"
+    ],
+    [
+     "すみません、〜は忙しいです",
+     "すみません、日曜日は忙しいです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜ませんか」は相手の気持ちを聞く、やわらかい誘い方です。",
+    "en": "〜ませんか is a soft way to invite."
+   },
+   {
+    "ko": "「時間があります」は「暇です」と似ています。",
+    "en": "時間があります is close to 暇です."
+   },
+   {
+    "ko": "受けるときは「いいですね」、断るときは「すみません、忙しいです」。",
+    "en": "Accept with いいですね; decline with すみません、忙しいです。"
+   }
+  ],
+  "examples": [
+   {
+    "t": "土曜日は時間がありますか。",
+    "read": "どようびはじかんがありますか。",
+    "ko": "토요일에 시간 있어요?",
+    "en": "Are you free on Saturday?"
+   },
+   {
+    "t": "今日は忙しいです。",
+    "read": "きょうはいそがしいです。",
+    "ko": "저는 오늘 바빠요.",
+    "en": "I am busy today."
+   },
+   {
+    "t": "公園に行きましょう。",
+    "read": "こうえんにいきましょう。",
+    "ko": "우리 공원에 가요.",
+    "en": "Let's go to the park."
+   },
+   {
+    "t": "お茶を飲みませんか。",
+    "read": "おちゃをのみませんか。",
+    "ko": "차 한 잔 하실래요?",
+    "en": "Would you like a cup of tea?"
+   },
+   {
+    "t": "明日会うことができますか。",
+    "read": "あしたあうことができますか。",
+    "ko": "내일 만날 수 있어요?",
+    "en": "Can we meet tomorrow?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "一緒に映画を見___か。",
+    "options": [
+     "ません",
+     "ます",
+     "ました"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "公園に行き___。",
+    "options": [
+     "ましょう",
+     "ません",
+     "ます"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "すみません、今日は___です。",
+    "options": [
+     "忙しい",
+     "忙しく",
+     "忙し"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "パーティーに来る___ができますか。",
+    "options": [
+     "こと",
+     "もの",
+     "ところ"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "土曜日は時間がありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 토요일에 시간 있어요?",
+     "en": "(Question) Are you free on Saturday?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、あります。",
+       "はい、そうです。",
+       "土曜日です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "一緒に映画を見ませんか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 같이 영화 볼래요?",
+     "en": "(Question) Would you like to watch a movie with me?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、いいですね。",
+       "はい、映画です。",
+       "土曜日です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "日曜日は時間がありますか。"
+      },
+      {
+       "s": "B",
+       "t": "はい。どうしてですか。"
+      },
+      {
+       "s": "A",
+       "t": "公園に行きましょう。"
+      },
+      {
+       "s": "B",
+       "t": "いいですね。何時に会いますか。"
+      },
+      {
+       "s": "A",
+       "t": "十時に会いましょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 일요일에 시간 있어요?\nB: 네. 왜요?\nA: 우리 공원에 가요.\nB: 좋아요. 몇 시에 만날까요?\nA: 열 시에 만나요.",
+     "en": "A: Are you free on Sunday?\nB: Yes. Why?\nA: Let's go to the park.\nB: Great. What time shall we meet?\nA: Let's meet at ten o'clock."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "二人は何時に会いますか。",
+      "options": [
+       "8時",
+       "9時",
+       "10時"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "土曜日にパーティーがあります。私は友だちを招待します。パーティーは夜七時に始まります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "토요일에 파티가 있어요. 저는 친구들을 초대해요. 파티는 저녁 일곱 시에 시작해요.",
+     "en": "There is a party on Saturday. I invite my friends. The party starts at seven o'clock in the evening."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "パーティーは何時に始まりますか。",
+      "options": [
+       "七時",
+       "八時",
+       "六時"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いつ時間がありますか。"
+      },
+      {
+       "s": "B",
+       "t": "土曜日は時間があります。"
+      },
+      {
+       "s": "A",
+       "t": "何時ですか。"
+      },
+      {
+       "s": "B",
+       "t": "十時です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 언제 시간이 되세요?\n손님: 토요일에 시간이 있어요.\n직원: 몇 시요?\n손님: 열 시요.",
+     "en": "Clerk: When are you free?\nGuest: I am free on Saturday.\nClerk: What time?\nGuest: Ten o'clock."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "曜日: ______",
+      "answers": [
+       "土曜日"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "時刻: ______ 時",
+      "answers": [
+       "十"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 土曜日は時間が___。\n2) 公園に行き___。\n3) 一緒に映画を見___か。",
+    "trans": {
+     "ko": "1) 와 줄 수 있어요? 2) 공원에 가요. 3) 차 한 잔 하실래요?",
+     "en": "1) Can you come? 2) Let's go to the park. 3) Would you like a cup of tea?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "土曜日は時間が___。",
+      "options": [
+       "ありますか",
+       "あります",
+       "いますか"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "公園に行き___。",
+      "options": [
+       "ましょう",
+       "ません",
+       "ます"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "一緒に映画を見___か。",
+      "options": [
+       "ません",
+       "ます",
+       "ました"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは！土曜日は時間が(1)。一緒に映画を(2)。七時に会い(3)。",
+    "trans": {
+     "ko": "안녕하세요! 토요일에 시간 있어요? 우리 영화를 봐요. 일곱 시에 만나요.",
+     "en": "Hello! Are you free on Saturday? Let's watch a movie. Let's meet at seven o'clock."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "ありますか",
+       "あります",
+       "いますか"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "見ませんか",
+       "見ました",
+       "見ない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "ましょう",
+       "ません",
+       "ます"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "招待状\nパーティー\n日：土曜日\n時間：夜七時\n場所：私の家",
+    "trans": {
+     "ko": "초대장\n파티\n날: 토요일\n시간: 저녁 7시\n장소: 우리 집",
+     "en": "INVITATION\nParty\nDay: Saturday\nTime: 7 o'clock in the evening\nPlace: my house"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "パーティーはいつですか。",
+      "options": [
+       "土曜日",
+       "日曜日",
+       "月曜日"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "パーティーはどこですか。",
+      "options": [
+       "公園",
+       "私の家",
+       "レストラン"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "スーさんは日曜日に忙しいです。彼女は土曜日に時間があります。彼女は友だちと公園に行きます。",
+    "trans": {
+     "ko": "수는 일요일에 바빠요. 그녀는 토요일에 시간이 있어요. 그녀는 친구와 공원에 가요.",
+     "en": "Sue is busy on Sunday. She is free on Saturday. She goes to the park with her friend."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "スーさんは日曜日に時間があります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "スーさんは土曜日に時間があります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "スーさんはバスで公園に行きます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "土曜日は時間がありますか。",
+    "read": "どようびはじかんがありますか。",
+    "ko": "토요일에 시간 있어요?",
+    "en": "Are you free on Saturday?",
+    "situation": {
+     "ko": "약속을 물을 때",
+     "en": "Asking about plans"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "一緒に映画を見ませんか。",
+    "read": "いっしょにえいがをみませんか。",
+    "ko": "같이 영화 볼래요?",
+    "en": "Would you like to watch a movie with me?",
+    "situation": {
+     "ko": "초대할 때",
+     "en": "Inviting someone"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "いいですね、行きたいです。",
+    "read": "いいですね、いきたいです。",
+    "ko": "좋아요, 가고 싶어요.",
+    "en": "Yes, I'd love to.",
+    "situation": {
+     "ko": "수락할 때",
+     "en": "Accepting"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "すみません、忙しいです。",
+    "read": "すみません、いそがしいです。",
+    "ko": "미안해요, 바빠요.",
+    "en": "Sorry, I'm busy.",
+    "situation": {
+     "ko": "거절할 때",
+     "en": "Declining"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "公園に行きましょう。",
+    "read": "こうえんにいきましょう。",
+    "ko": "우리 공원에 가요.",
+    "en": "Let's go to the park.",
+    "situation": {
+     "ko": "제안할 때",
+     "en": "Making a suggestion"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "何時に会いましょうか。",
+    "read": "なんじにあいましょうか。",
+    "ko": "몇 시에 만날까요?",
+    "en": "What time shall we meet?",
+    "situation": {
+     "ko": "시간을 정할 때",
+     "en": "Fixing a time"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "七時に会いましょう。",
+    "read": "しちじにあいましょう。",
+    "ko": "일곱 시에 만나요.",
+    "en": "Let's meet at seven.",
+    "situation": {
+     "ko": "약속을 정할 때",
+     "en": "Making a plan"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "また明日。",
+    "read": "またあした。",
+    "ko": "내일 봐요.",
+    "en": "See you tomorrow.",
+    "situation": {
+     "ko": "작별할 때",
+     "en": "Saying goodbye"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜は時間がありますか。",
+    "read": "〜はじかんがありますか。",
+    "ko": "~에 시간 있어요?",
+    "en": "Are you free on ~?"
+   },
+   {
+    "id": "w2",
+    "t": "〜ましょう。",
+    "read": "〜ましょう。",
+    "ko": "우리 ~해요.",
+    "en": "Let's ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜ませんか。",
+    "read": "〜ませんか。",
+    "ko": "~ 하실래요?",
+    "en": "Would you like to ~?"
+   },
+   {
+    "id": "w4",
+    "t": "すみません、〜は忙しいです。",
+    "read": "すみません、〜はいそがしいです。",
+    "ko": "미안해요, ~에 바빠요.",
+    "en": "Sorry, I'm busy on ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "초대 메시지를 3문장으로 써 보세요: 시간이 되는지 묻기, 제안하기, 만날 시각 정하기.",
+    "en": "Write an invitation in 3 sentences: ask if they're free, make a suggestion, and give a time."
+   },
+   "must_include": [
+    {
+     "label": "〜に時間がありますか",
+     "match": [
+      "時間がありますか"
+     ]
+    },
+    {
+     "label": "〜ましょう",
+     "match": [
+      "ましょう"
+     ]
+    },
+    {
+     "label": "〜時に会いましょう",
+     "match": [
+      "時に会いましょう"
+     ]
+    }
+   ],
+   "model": "土曜日は時間がありますか。公園に行きましょう。七時に会いましょう。",
+   "model_trans": {
+    "ko": "토요일에 시간 있어요? 우리 공원에 가요. 일곱 시에 만나요.",
+    "en": "Are you free on Saturday? Let's go to the park. Let's meet at seven o'clock."
+   }
+  }
+ }
+}

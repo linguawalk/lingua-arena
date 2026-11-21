@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_a1_u16",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a1",
+  "unit": 16,
+  "concept": "A1.U16",
+  "status": "live",
+  "title": {
+   "target": "家と部屋",
+   "ko": "집과 방",
+   "en": "Home and rooms"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "家",
+   "pos": "noun",
+   "read": "いえ",
+   "ko": "집",
+   "en": "house",
+   "ex": {
+    "t": "私は大きい家に住んでいます。",
+    "read": "わたしはおおきいいえにすんでいます。",
+    "ko": "저는 큰 집에 살아요.",
+    "en": "I live in a big house."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "部屋",
+   "pos": "noun",
+   "read": "へや",
+   "ko": "방",
+   "en": "room",
+   "ex": {
+    "t": "私の部屋は小さいです。",
+    "read": "わたしのへやはちいさいです。",
+    "ko": "제 방은 작아요.",
+    "en": "My room is small."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "台所",
+   "pos": "noun",
+   "read": "だいどころ",
+   "ko": "부엌",
+   "en": "kitchen",
+   "ex": {
+    "t": "台所は居間の隣にあります。",
+    "read": "だいどころはいまのとなりにあります。",
+    "ko": "부엌은 거실 옆에 있어요.",
+    "en": "The kitchen is next to the living room."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "寝室",
+   "pos": "noun",
+   "read": "しんしつ",
+   "ko": "침실",
+   "en": "bedroom",
+   "ex": {
+    "t": "寝室にベッドがあります。",
+    "read": "しんしつにベッドがあります。",
+    "ko": "침실에 침대가 있어요.",
+    "en": "There is a bed in the bedroom."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "トイレ",
+   "pos": "noun",
+   "read": "トイレ",
+   "ko": "화장실, 욕실",
+   "en": "bathroom",
+   "ex": {
+    "t": "トイレは左にあります。",
+    "read": "トイレはひだりにあります。",
+    "ko": "화장실은 왼쪽에 있어요.",
+    "en": "The bathroom is on the left."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "居間",
+   "pos": "noun",
+   "read": "いま",
+   "ko": "거실",
+   "en": "living room",
+   "ex": {
+    "t": "私たちは居間でテレビを見ます。",
+    "read": "わたしたちはいまでテレビをみます。",
+    "ko": "우리는 거실에서 텔레비전을 봐요.",
+    "en": "We watch TV in the living room."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "ベッド",
+   "pos": "noun",
+   "read": "ベッド",
+   "ko": "침대",
+   "en": "bed",
+   "ex": {
+    "t": "ベッドは私の部屋にあります。",
+    "read": "ベッドはわたしのへやにあります。",
+    "ko": "침대는 제 방에 있어요.",
+    "en": "The bed is in my room."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "ソファ",
+   "pos": "noun",
+   "read": "ソファ",
+   "ko": "소파",
+   "en": "sofa",
+   "ex": {
+    "t": "居間にソファがあります。",
+    "read": "いまにソファがあります。",
+    "ko": "거실에 소파가 있어요.",
+    "en": "There is a sofa in the living room."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "窓",
+   "pos": "noun",
+   "read": "まど",
+   "ko": "창문",
+   "en": "window",
+   "ex": {
+    "t": "窓が大きいです。",
+    "read": "まどがおおきいです。",
+    "ko": "창문이 커요.",
+    "en": "The window is big."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "ドア",
+   "pos": "noun",
+   "read": "ドア",
+   "ko": "문",
+   "en": "door",
+   "ex": {
+    "t": "ドアは窓の隣にあります。",
+    "read": "ドアはまどのとなりにあります。",
+    "ko": "문은 창문 옆에 있어요.",
+    "en": "The door is next to the window."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜に〜があります · 部屋の言葉",
+   "en": "Describing a home: 〜に〜があります"
+  },
+  "explain": {
+   "ko": "部屋に何があるかは「場所 + に + 物 + があります」と言います：居間にソファがあります。数は「二つ、三つ」と言います。物の位置は「〜は〜の隣にあります」です。大きさは形容詞で言います：私の部屋は小さいです。",
+   "en": "Say what is in a room with '場所に + 物 + があります': 居間にソファがあります. Count with つ: 二つ, 三つ. For position use '〜は〜の隣にあります'. Describe size with adjectives: 私の部屋は小さいです。"
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "場所に + 物があります",
+     "寝室にベッドがあります。"
+    ],
+    [
+     "〜は〜の隣にあります",
+     "台所は居間の隣にあります。"
+    ],
+    [
+     "数 + つ",
+     "部屋が三つあります。"
+    ],
+    [
+     "どこですか",
+     "トイレはどこですか。"
+    ],
+    [
+     "形容詞",
+     "私の部屋は小さいです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "日本語は単数と複数の区別がありません：窓があります / 窓が二つあります。",
+    "en": "Japanese doesn't mark plural: 窓があります / 窓が二つあります."
+   },
+   {
+    "ko": "部屋の数は「つ」で数えます：一つ、二つ、三つ。",
+    "en": "Count rooms with つ: 一つ, 二つ, 三つ."
+   },
+   {
+    "ko": "「私の家」より「うちの家」「私たちの家」がよく使われます。",
+    "en": "うち / 私たちの家 is common for 'our home'."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は大きい家に住んでいます。",
+    "read": "わたしはおおきいいえにすんでいます。",
+    "ko": "저는 큰 집에 살아요.",
+    "en": "I live in a big house."
+   },
+   {
+    "t": "寝室にベッドがあります。",
+    "read": "しんしつにベッドがあります。",
+    "ko": "침실에 침대가 있어요.",
+    "en": "There is a bed in the bedroom."
+   },
+   {
+    "t": "台所は居間の隣にあります。",
+    "read": "だいどころはいまのとなりにあります。",
+    "ko": "부엌은 거실 옆에 있어요.",
+    "en": "The kitchen is next to the living room."
+   },
+   {
+    "t": "居間にソファがあります。",
+    "read": "いまにソファがあります。",
+    "ko": "거실에 소파가 있어요.",
+    "en": "There is a sofa in the living room."
+   },
+   {
+    "t": "トイレはどこにありますか。",
+    "read": "トイレはどこにありますか。",
+    "ko": "화장실은 어디에 있어요?",
+    "en": "Where is the bathroom?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "居間にソファ___あります。",
+    "options": [
+     "が",
+     "を",
+     "で"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "部屋が二___あります。",
+    "options": [
+     "つ",
+     "人",
+     "本"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "ベッドは寝室___あります。",
+    "options": [
+     "に",
+     "を",
+     "で"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "台所は居間の___にあります。",
+    "options": [
+     "隣",
+     "隣で",
+     "隣を"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "トイレはどこですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 화장실이 어디예요?",
+     "en": "(Question) Where is the bathroom?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "左にあります。",
+       "トイレです。",
+       "元気です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "部屋はいくつありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 방이 몇 개예요?",
+     "en": "(Question) How many rooms are there?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "三つあります。",
+       "ベッドがあります。",
+       "大きいです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新しい家はどうですか。"
+      },
+      {
+       "s": "B",
+       "t": "大きいです。部屋が三つあります。"
+      },
+      {
+       "s": "A",
+       "t": "台所はどこにありますか。"
+      },
+      {
+       "s": "B",
+       "t": "居間の隣にあります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 새 집은 어때요?\nB: 커요. 방이 세 개 있어요.\nA: 부엌은 어디에 있어요?\nB: 거실 옆에 있어요.",
+     "en": "A: How is your new house?\nB: It's big. There are three rooms.\nA: Where is the kitchen?\nB: It's next to the living room."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "部屋はいくつありますか。",
+      "options": [
+       "2つ",
+       "3つ",
+       "4つ"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私の寝室は小さいです。寝室にベッドと椅子があります。窓は大きいです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제 침실은 작아요. 침실에 침대와 의자가 있어요. 창문은 커요.",
+     "en": "My bedroom is small. There is a bed and a chair in the bedroom. The window is big."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "寝室には何がありますか。",
+      "options": [
+       "ベッドと椅子",
+       "ソファとテーブル",
+       "ベッドとソファ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "家に部屋はいくつありますか。"
+      },
+      {
+       "s": "B",
+       "t": "四つです。"
+      },
+      {
+       "s": "A",
+       "t": "トイレは？"
+      },
+      {
+       "s": "B",
+       "t": "二つです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 집에 방이 몇 개예요?\n손님: 네 개요.\n직원: 화장실은요?\n손님: 두 개요.",
+     "en": "Clerk: How many rooms are there in your house?\nGuest: Four.\nClerk: And bathrooms?\nGuest: Two."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "部屋: ______",
+      "answers": [
+       "四つ"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "トイレ: ______",
+      "answers": [
+       "二つ"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 居間にソファ___あります。\n2) 窓が二___あります。\n3) ベッドは寝室___あります。",
+    "trans": {
+     "ko": "1) 거실에 소파가 있어요. 2) 창문이 두 개 있어요. 3) 침대는 침실에 있어요.",
+     "en": "1) There is a sofa in the living room. 2) There are two windows. 3) The bed is in the bedroom."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "居間にソファ___あります。",
+      "options": [
+       "が",
+       "を",
+       "で"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "窓が二___あります。",
+      "options": [
+       "つ",
+       "人",
+       "本"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ベッドは寝室___あります。",
+      "options": [
+       "に",
+       "を",
+       "で"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは！私は小さい家に(1)。部屋が二つ(2)。居間にソファがあります。台所は居間の(3)にあります。",
+    "trans": {
+     "ko": "안녕하세요! 저는 작은 집에 살아요. 방이 두 개 있어요. 거실에 소파가 있어요. 부엌은 거실 옆에 있어요.",
+     "en": "Hello! I live in a small house. There are two rooms. There is a sofa in the living room. The kitchen is next to the living room."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "住んでいます",
+       "行きます",
+       "食べます"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "あります",
+       "います",
+       "です"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "隣",
+       "隣で",
+       "隣を"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "家の案内\n寝室：ベッド、椅子\n居間：ソファ\n台所：テーブル",
+    "trans": {
+     "ko": "집 안내\n침실: 침대, 의자\n거실: 소파\n부엌: 탁자",
+     "en": "HOUSE PLAN\nBedroom: bed, chair\nLiving room: sofa\nKitchen: table"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "居間には何がありますか。",
+      "options": [
+       "ベッド",
+       "ソファ",
+       "テーブル"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "テーブルはどこにありますか。",
+      "options": [
+       "寝室",
+       "居間",
+       "台所"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ミンホさんの家は大きいです。寝室が三つあります。台所は居間の隣にあります。",
+    "trans": {
+     "ko": "민호의 집은 커요. 침실이 세 개 있어요. 부엌은 거실 옆에 있어요.",
+     "en": "Minho's house is big. There are three bedrooms. The kitchen is next to the living room."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ミンホさんの家は小さいです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "寝室が三つあります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "庭があります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "私の家を紹介します。",
+    "read": "わたしのいえをしょうかいします。",
+    "ko": "우리 집을 소개할게요.",
+    "en": "Let me show you my house.",
+    "situation": {
+     "ko": "집을 소개할 때",
+     "en": "Showing your home"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "部屋はいくつありますか。",
+    "read": "へやはいくつありますか。",
+    "ko": "방이 몇 개예요?",
+    "en": "How many rooms are there?",
+    "situation": {
+     "ko": "방 개수를 물을 때",
+     "en": "Asking about rooms"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "部屋が三つあります。",
+    "read": "へやがみっつあります。",
+    "ko": "방이 세 개 있어요.",
+    "en": "There are three rooms.",
+    "situation": {
+     "ko": "방 개수를 말할 때",
+     "en": "Saying how many rooms"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "台所は居間の隣にあります。",
+    "read": "だいどころはいまのとなりにあります。",
+    "ko": "부엌은 거실 옆에 있어요.",
+    "en": "The kitchen is next to the living room.",
+    "situation": {
+     "ko": "위치를 설명할 때",
+     "en": "Describing locations"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "トイレはどこですか。",
+    "read": "トイレはどこですか。",
+    "ko": "화장실이 어디예요?",
+    "en": "Where is the bathroom?",
+    "situation": {
+     "ko": "화장실을 찾을 때",
+     "en": "Asking for the bathroom"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "寝室にベッドがあります。",
+    "read": "しんしつにベッドがあります。",
+    "ko": "침실에 침대가 있어요.",
+    "en": "There is a bed in the bedroom.",
+    "situation": {
+     "ko": "방 안을 설명할 때",
+     "en": "Describing a room"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "私の部屋は小さいです。",
+    "read": "わたしのへやはちいさいです。",
+    "ko": "제 방은 작아요.",
+    "en": "My room is small.",
+    "situation": {
+     "ko": "방을 설명할 때",
+     "en": "Describing your room"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "窓が大きいです。",
+    "read": "まどがおおきいです。",
+    "ko": "창문이 커요.",
+    "en": "The window is big.",
+    "situation": {
+     "ko": "방을 설명할 때",
+     "en": "Describing a room"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "私の家には〜があります。",
+    "read": "わたしのいえには〜があります。",
+    "ko": "우리 집에는 ~가 있어요.",
+    "en": "There is a ~ in my house."
+   },
+   {
+    "id": "w2",
+    "t": "〜は〜の隣にあります。",
+    "read": "〜は〜のとなりにあります。",
+    "ko": "~는 ~ 옆에 있어요.",
+    "en": "The ~ is next to the ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜に〜があります。",
+    "read": "〜に〜があります。",
+    "ko": "~에 ~가 있어요.",
+    "en": "There is a ~ in the ~."
+   },
+   {
+    "id": "w4",
+    "t": "私の部屋は〜です。",
+    "read": "わたしのへやは〜です。",
+    "ko": "제 방은 ~해요.",
+    "en": "My room is ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "집을 3문장으로 소개해 보세요: 방 개수, 한 방의 가구, 방의 위치.",
+    "en": "Describe your home in 3 sentences: how many rooms, furniture in one room, and where a room is."
+   },
+   "must_include": [
+    {
+     "label": "私の家には〜があります",
+     "match": [
+      "家には"
+     ]
+    },
+    {
+     "label": "〜に〜があります",
+     "match": [
+      "ソファがあります",
+      "ベッドがあります"
+     ]
+    },
+    {
+     "label": "〜は〜の隣にあります",
+     "match": [
+      "隣にあります"
+     ]
+    }
+   ],
+   "model": "私の家には部屋が三つあります。居間にソファがあります。台所は居間の隣にあります。",
+   "model_trans": {
+    "ko": "우리 집에는 방이 세 개 있어요. 거실에 소파가 있어요. 부엌은 거실 옆에 있어요.",
+    "en": "There are three rooms in my house. There is a sofa in the living room. The kitchen is next to the living room."
+   }
+  }
+ }
+}
