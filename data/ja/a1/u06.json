@@ -1,0 +1,832 @@
+{
+ "meta": {
+  "id": "ja_a1_u06",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a1",
+  "unit": 6,
+  "concept": "A1.U06",
+  "status": "live",
+  "title": {
+   "target": "食べ物の注文",
+   "ko": "음식 주문하기",
+   "en": "Ordering food"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "メニュー",
+   "pos": "noun",
+   "read": "メニュー",
+   "ko": "메뉴",
+   "en": "menu",
+   "ex": {
+    "t": "メニューを見てもいいですか。",
+    "read": "メニューをみてもいいですか。",
+    "ko": "메뉴판을 볼 수 있을까요?",
+    "en": "Can I see the menu, please?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "コーヒー",
+   "pos": "noun",
+   "read": "コーヒー",
+   "ko": "커피",
+   "en": "coffee",
+   "ex": {
+    "t": "コーヒーを一つください。",
+    "read": "コーヒーをひとつください。",
+    "ko": "커피 한 잔 주세요.",
+    "en": "I'd like a coffee, please."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "サンドイッチ",
+   "pos": "noun",
+   "read": "サンドイッチ",
+   "ko": "샌드위치",
+   "en": "sandwich",
+   "ex": {
+    "t": "チキンサンドをください。",
+    "read": "チキンサンドをください。",
+    "ko": "치킨 샌드위치 주세요.",
+    "en": "A chicken sandwich, please."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "サラダ",
+   "pos": "noun",
+   "read": "サラダ",
+   "ko": "샐러드",
+   "en": "salad",
+   "ex": {
+    "t": "小さいサラダを一つください。",
+    "read": "ちいさいサラダをひとつください。",
+    "ko": "작은 샐러드 하나 주세요.",
+    "en": "I'd like a small salad."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "スープ",
+   "pos": "noun",
+   "read": "スープ",
+   "ko": "수프",
+   "en": "soup",
+   "ex": {
+    "t": "スープは熱いです。",
+    "read": "スープはあついです。",
+    "ko": "수프는 뜨거워요.",
+    "en": "The soup is hot."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "パン",
+   "pos": "noun",
+   "read": "パン",
+   "ko": "빵",
+   "en": "bread",
+   "ex": {
+    "t": "パンをもう少しください。",
+    "read": "パンをもうすこしください。",
+    "ko": "빵 좀 더 주실 수 있어요?",
+    "en": "Can I have some more bread?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "ジュース",
+   "pos": "noun",
+   "read": "ジュース",
+   "ko": "주스",
+   "en": "juice",
+   "ex": {
+    "t": "オレンジジュースをください。",
+    "read": "オレンジジュースをください。",
+    "ko": "오렌지 주스 주세요.",
+    "en": "An orange juice, please."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "〜たいです",
+   "pos": "verb",
+   "read": "〜たいです",
+   "ko": "~하고 싶다 (would like)",
+   "en": "would like",
+   "ex": {
+    "t": "何を食べたいですか。",
+    "read": "なにをたべたいですか。",
+    "ko": "무엇을 드시겠어요?",
+    "en": "What would you like?"
+   }
+  },
+  {
+   "id": "v9",
+   "t": "お会計",
+   "pos": "noun",
+   "read": "おかいけい",
+   "ko": "계산서",
+   "en": "bill",
+   "ex": {
+    "t": "お会計をお願いします。",
+    "read": "おかいけいをおねがいします。",
+    "ko": "계산서 주세요.",
+    "en": "The bill, please."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "注文します",
+   "pos": "verb",
+   "read": "ちゅうもんします",
+   "ko": "주문하다",
+   "en": "order",
+   "ex": {
+    "t": "注文してもいいですか。",
+    "read": "ちゅうもんしてもいいですか。",
+    "ko": "주문하시겠어요?",
+    "en": "Are you ready to order?"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜をください · 〜てもいいですか",
+   "en": "Ordering: 〜をください and 〜てもいいですか"
+  },
+  "explain": {
+   "ko": "物を注文するときは「名詞 + をください」と言います。二つ以上は「と」でつなぎます：サラダとスープをください。許可を求めるときは「〜てもいいですか」、お金を払うときは「お会計をお願いします」と言います。",
+   "en": "To order, say 'noun + をください'. Connect items with と: サラダとスープをください. Ask permission with 〜てもいいですか, and ask for the bill with お会計をお願いします."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "使い方 / Use"
+   ],
+   "rows": [
+    [
+     "名詞 + をください",
+     "注文・お願い"
+    ],
+    [
+     "AとBをください",
+     "二つ注文する"
+    ],
+    [
+     "〜てもいいですか",
+     "丁寧な許可"
+    ],
+    [
+     "何にしますか。",
+     "注文を聞く"
+    ],
+    [
+     "お会計をお願いします",
+     "支払い"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "数は名詞の後ろに言います：コーヒーを一つください。",
+    "en": "Put the quantity after the noun: コーヒーを一つください。"
+   },
+   {
+    "ko": "「と」は名詞をつなぎます：パンと水をください。",
+    "en": "と joins nouns: パンと水をください。"
+   },
+   {
+    "ko": "「お願いします」は「ください」より少し丁寧です。",
+    "en": "お願いします is slightly more polite than ください."
+   }
+  ],
+  "examples": [
+   {
+    "t": "コーヒーを一つください。",
+    "read": "コーヒーをひとつください。",
+    "ko": "커피 한 잔 주세요.",
+    "en": "I'd like a coffee, please."
+   },
+   {
+    "t": "メニューを見てもいいですか。",
+    "read": "メニューをみてもいいですか。",
+    "ko": "메뉴판을 볼 수 있을까요?",
+    "en": "Can I see the menu, please?"
+   },
+   {
+    "t": "何にしますか。",
+    "read": "なににしますか。",
+    "ko": "무엇을 드시겠어요?",
+    "en": "What would you like?"
+   },
+   {
+    "t": "サラダとスープをください。",
+    "read": "サラダとスープをください。",
+    "ko": "샐러드와 수프 주세요.",
+    "en": "I'd like a salad and a soup."
+   },
+   {
+    "t": "お会計をお願いします。",
+    "read": "おかいけいをおねがいします。",
+    "ko": "계산서 주세요.",
+    "en": "The bill, please."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "コーヒーを一つ___。",
+    "options": [
+     "ください",
+     "います",
+     "です"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "サラダ___スープをください。",
+    "options": [
+     "と",
+     "を",
+     "の"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "メニューを見___いいですか。",
+    "options": [
+     "ても",
+     "では",
+     "ます"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "お会計を___。",
+    "options": [
+     "お願いします",
+     "食べます",
+     "います"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "何にしますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 무엇을 드시겠어요?",
+     "en": "(Question) What would you like?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "コーヒーをください。",
+       "学生です。",
+       "ソウルです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "お飲み物はいかがですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 마실 것 드릴까요?",
+     "en": "(Question) Would you like something to drink?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、お茶をください。",
+       "はい、学生です。",
+       "テーブルです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "こんにちは。ご注文はいかがですか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、サンドイッチを一つください。"
+      },
+      {
+       "s": "A",
+       "t": "お飲み物は？"
+      },
+      {
+       "s": "B",
+       "t": "オレンジジュースをください。以上です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 안녕하세요. 주문하시겠어요?\nB: 네, 샌드위치 하나 주세요.\nA: 음료는요?\nB: 오렌지 주스 주세요. 그게 다예요.",
+     "en": "A: Hello. Are you ready to order?\nB: Yes, a sandwich, please.\nA: And to drink?\nB: An orange juice, please. That's all."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bさんは飲み物に何を注文しますか。",
+      "options": [
+       "コーヒー",
+       "オレンジジュース",
+       "水"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私はレストランにいます。スープとサラダを注文します。お茶も一杯注文します。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 식당에 있어요. 저는 수프와 샐러드를 주문해요. 차도 한 잔 주문해요.",
+     "en": "I am at a restaurant. I order a soup and a salad. I also order a tea."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "話す人は何を注文しますか。",
+      "options": [
+       "スープとサラダとお茶",
+       "サンドイッチとジュース",
+       "パンと水"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ご注文は何ですか。"
+      },
+      {
+       "s": "B",
+       "t": "スープを一つとパンをください。"
+      },
+      {
+       "s": "A",
+       "t": "お飲み物は？"
+      },
+      {
+       "s": "B",
+       "t": "水を一杯ください。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "웨이터: 무엇을 드시겠어요?\n손님: 수프 하나와 빵 주세요.\n웨이터: 마실 것은요?\n손님: 물 한 잔 주세요.",
+     "en": "Waiter: What would you like?\nGuest: A soup and some bread, please.\nWaiter: And to drink?\nGuest: A water, please."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "食べ物: ______",
+      "answers": [
+       "スープ"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "飲み物: ______",
+      "answers": [
+       "水"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) コーヒーを一つ___。\n2) メニューを見___いいですか。\n3) 何を___か。",
+    "trans": {
+     "ko": "1) 커피 한 잔 주세요. 2) 메뉴판을 볼 수 있을까요? 3) 무엇을 드시겠어요?",
+     "en": "1) I'd like a coffee, please. 2) Can I see the menu, please? 3) What would you like?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "コーヒーを一つ___。",
+      "options": [
+       "ください",
+       "います",
+       "です"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "メニューを見___いいですか。",
+      "options": [
+       "ても",
+       "では",
+       "ます"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "何を___か。",
+      "options": [
+       "食べたいです",
+       "食べたいます",
+       "食べますです"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは！サンドイッチを(1)ください。スープは(2)です。お会計を(3)。",
+    "trans": {
+     "ko": "안녕하세요! 샌드위치 하나 주세요. 수프는 뜨거워요. 계산서 주세요.",
+     "en": "Hello! I would like a sandwich, please. The soup is hot. The bill, please."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "一つ",
+       "一人",
+       "一本"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "熱い",
+       "熱",
+       "熱く"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "お願いします",
+       "食べます",
+       "います"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "メニュー\nサンドイッチ：五ドル\nスープ：三ドル\nコーヒー：二ドル",
+    "trans": {
+     "ko": "메뉴\n샌드위치: 5달러\n수프: 3달러\n커피: 2달러",
+     "en": "MENU\nSandwich: $5\nSoup: $3\nCoffee: $2"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "スープはいくらですか。",
+      "options": [
+       "二ドル",
+       "三ドル",
+       "五ドル"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "五ドルのものはどれですか。",
+      "options": [
+       "コーヒー",
+       "スープ",
+       "サンドイッチ"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "アンナさんはレストランにいます。彼女はサラダとお茶を注文します。サラダはおいしいです。",
+    "trans": {
+     "ko": "안나는 식당에 있어요. 그녀는 샐러드와 차를 주문해요. 샐러드는 맛있어요.",
+     "en": "Anna is at a restaurant. She orders a salad and a tea. The salad is good."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "アンナさんはコーヒーを注文します。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "アンナさんはサラダを注文します。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "アンナさんはカードで払います。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "メニューを見てもいいですか。",
+    "read": "メニューをみてもいいですか。",
+    "ko": "메뉴판 좀 볼 수 있을까요?",
+    "en": "Can I see the menu, please?",
+    "situation": {
+     "ko": "메뉴를 부탁할 때",
+     "en": "Asking for the menu"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "注文をお願いします。",
+    "read": "ちゅうもんをおねがいします。",
+    "ko": "주문할게요.",
+    "en": "I'd like to order.",
+    "situation": {
+     "ko": "주문을 시작할 때",
+     "en": "Starting your order"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "コーヒーを一つください。",
+    "read": "コーヒーをひとつください。",
+    "ko": "커피 한 잔 주세요.",
+    "en": "I'd like a coffee, please.",
+    "situation": {
+     "ko": "음료를 주문할 때",
+     "en": "Ordering a drink"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "サンドイッチとサラダをください。",
+    "read": "サンドイッチとサラダをください。",
+    "ko": "샌드위치와 샐러드 주세요.",
+    "en": "A sandwich and a salad, please.",
+    "situation": {
+     "ko": "음식을 주문할 때",
+     "en": "Ordering food"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "お水をもう少しください。",
+    "read": "おみずをもうすこしください。",
+    "ko": "물 좀 더 주실 수 있어요?",
+    "en": "Can I have some more water?",
+    "situation": {
+     "ko": "추가로 부탁할 때",
+     "en": "Asking for more"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "これはおいしいです。",
+    "read": "これはおいしいです。",
+    "ko": "이거 맛있어요.",
+    "en": "This is good.",
+    "situation": {
+     "ko": "맛을 말할 때",
+     "en": "Saying food is good"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "お会計をお願いします。",
+    "read": "おかいけいをおねがいします。",
+    "ko": "계산서 주세요.",
+    "en": "The bill, please.",
+    "situation": {
+     "ko": "계산할 때",
+     "en": "Asking for the bill"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "カードで払ってもいいですか。",
+    "read": "カードではらってもいいですか。",
+    "ko": "카드로 계산할 수 있어요?",
+    "en": "Can I pay by card?",
+    "situation": {
+     "ko": "결제 방법을 물을 때",
+     "en": "Asking how to pay"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜をください。",
+    "read": "〜をください。",
+    "ko": "~ 주세요.",
+    "en": "I'd like a ~, please."
+   },
+   {
+    "id": "w2",
+    "t": "〜と〜をください。",
+    "read": "〜と〜をください。",
+    "ko": "~와 ~ 주세요.",
+    "en": "A ~ and a ~, please."
+   },
+   {
+    "id": "w3",
+    "t": "〜てもいいですか。",
+    "read": "〜てもいいですか。",
+    "ko": "~를 볼 수 있을까요?",
+    "en": "Can I see the ~?"
+   },
+   {
+    "id": "w4",
+    "t": "お会計をお願いします。",
+    "read": "おかいけいをおねがいします。",
+    "ko": "계산서 주세요.",
+    "en": "The bill, please."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "식당에서 쓰는 문장 3개를 써 보세요: 메뉴 요청, 음식 주문, 계산서 요청.",
+    "en": "Write 3 sentences for a restaurant: ask for the menu, order food, and ask for the bill."
+   },
+   "must_include": [
+    {
+     "label": "〜てもいいですか",
+     "match": [
+      "てもいいですか"
+     ]
+    },
+    {
+     "label": "〜と〜をください",
+     "match": [
+      "と"
+     ]
+    },
+    {
+     "label": "お会計をお願いします",
+     "match": [
+      "お会計"
+     ]
+    }
+   ],
+   "model": "メニューを見てもいいですか。サンドイッチとコーヒーをください。お会計をお願いします。",
+   "model_trans": {
+    "ko": "메뉴판 좀 볼 수 있을까요? 샌드위치와 커피 주세요. 계산서 주세요.",
+    "en": "Can I see the menu, please? I'd like a sandwich and a coffee, please. The bill, please."
+   }
+  }
+ }
+}

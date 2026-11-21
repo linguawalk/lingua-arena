@@ -1,0 +1,832 @@
+{
+ "meta": {
+  "id": "ja_a1_u08",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a1",
+  "unit": 8,
+  "concept": "A1.U08",
+  "status": "live",
+  "title": {
+   "target": "時間と曜日",
+   "ko": "시간과 요일",
+   "en": "Time and days"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "時間",
+   "pos": "noun",
+   "read": "じかん",
+   "ko": "시간, 시각",
+   "en": "time",
+   "ex": {
+    "t": "今何時ですか。",
+    "read": "いまなんじですか。",
+    "ko": "지금 몇 시예요?",
+    "en": "What time is it?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "曜日",
+   "pos": "noun",
+   "read": "ようび",
+   "ko": "날, 요일",
+   "en": "day",
+   "ex": {
+    "t": "今日は何曜日ですか。",
+    "read": "きょうはなんようびですか。",
+    "ko": "오늘은 무슨 요일이에요?",
+    "en": "What day is it today?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "月曜日",
+   "pos": "noun",
+   "read": "げつようび",
+   "ko": "월요일",
+   "en": "Monday",
+   "ex": {
+    "t": "私は月曜日に働きます。",
+    "read": "わたしはげつようびにはたらきます。",
+    "ko": "저는 월요일에 일해요.",
+    "en": "I work on Monday."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "土曜日",
+   "pos": "noun",
+   "read": "どようび",
+   "ko": "토요일",
+   "en": "Saturday",
+   "ex": {
+    "t": "私は土曜日に勉強します。",
+    "read": "わたしはどようびにべんきょうします。",
+    "ko": "저는 토요일에 공부해요.",
+    "en": "I study on Saturday."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "日曜日",
+   "pos": "noun",
+   "read": "にちようび",
+   "ko": "일요일",
+   "en": "Sunday",
+   "ex": {
+    "t": "私は日曜日に本を読みます。",
+    "read": "わたしはにちようびにほんをよみます。",
+    "ko": "저는 일요일에 책을 읽어요.",
+    "en": "I read a book on Sunday."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "朝",
+   "pos": "noun",
+   "read": "あさ",
+   "ko": "아침",
+   "en": "morning",
+   "ex": {
+    "t": "私は朝コーヒーを飲みます。",
+    "read": "わたしはあさコーヒーをのみます。",
+    "ko": "저는 아침에 커피를 마셔요.",
+    "en": "I drink coffee in the morning."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "夜",
+   "pos": "noun",
+   "read": "よる",
+   "ko": "저녁",
+   "en": "evening",
+   "ex": {
+    "t": "私は夜英語を勉強します。",
+    "read": "わたしはよるえいごをべんきょうします。",
+    "ko": "저는 저녁에 영어를 공부해요.",
+    "en": "I study English in the evening."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "今日",
+   "pos": "adv",
+   "read": "きょう",
+   "ko": "오늘",
+   "en": "today",
+   "ex": {
+    "t": "今日は月曜日です。",
+    "read": "きょうはげつようびです。",
+    "ko": "오늘은 월요일이에요.",
+    "en": "Today is Monday."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "明日",
+   "pos": "adv",
+   "read": "あした",
+   "ko": "내일",
+   "en": "tomorrow",
+   "ex": {
+    "t": "明日会います。",
+    "read": "あしたあいます。",
+    "ko": "내일 만나요.",
+    "en": "See you tomorrow."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "〜時",
+   "pos": "noun",
+   "read": "〜じ",
+   "ko": "~시 (정각)",
+   "en": "o'clock",
+   "ex": {
+    "t": "今九時です。",
+    "read": "いまくじです。",
+    "ko": "지금 아홉 시예요.",
+    "en": "It is nine o'clock."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜時です · 曜日と「に」",
+   "en": "Time: 〜時 and days with に"
+  },
+  "explain": {
+   "ko": "時刻は「数字 + 時」で言います：九時、十時。何時かは「何時ですか」、曜日は「何曜日ですか」と聞きます。時や曜日の後ろには「に」を付けます：月曜日に、九時に。「今日」「明日」「朝」には普通「に」を付けません。",
+   "en": "Tell the hour with number + 時: 九時, 十時. Ask 何時ですか and 何曜日ですか. Add に after a time or weekday: 月曜日に, 九時に. Words like 今日, 明日 and 朝 normally take no に."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "数字 + 時",
+     "九時"
+    ],
+    [
+     "曜日 + に",
+     "月曜日に働きます。"
+    ],
+    [
+     "時刻 + に",
+     "九時に始まります。"
+    ],
+    [
+     "今日は〜曜日です",
+     "今日は月曜日です。"
+    ],
+    [
+     "何時ですか",
+     "今何時ですか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "四時は「よじ」、七時は「しちじ」、九時は「くじ」と読みます。",
+    "en": "Special readings: 四時 よじ, 七時 しちじ, 九時 くじ."
+   },
+   {
+    "ko": "曜日は月・火・水・木・金・土・日です。",
+    "en": "Days: 月・火・水・木・金・土・日."
+   },
+   {
+    "ko": "「朝」「夜」「今日」「明日」には「に」を付けません。",
+    "en": "Do not add に to 朝, 夜, 今日, 明日."
+   }
+  ],
+  "examples": [
+   {
+    "t": "今何時ですか。",
+    "read": "いまなんじですか。",
+    "ko": "지금 몇 시예요?",
+    "en": "What time is it?"
+   },
+   {
+    "t": "今九時です。",
+    "read": "いまくじです。",
+    "ko": "지금 아홉 시예요.",
+    "en": "It is nine o'clock."
+   },
+   {
+    "t": "今日は何曜日ですか。",
+    "read": "きょうはなんようびですか。",
+    "ko": "오늘은 무슨 요일이에요?",
+    "en": "What day is it today?"
+   },
+   {
+    "t": "私は月曜日に働きます。",
+    "read": "わたしはげつようびにはたらきます。",
+    "ko": "저는 월요일에 일해요.",
+    "en": "I work on Monday."
+   },
+   {
+    "t": "私は朝コーヒーを飲みます。",
+    "read": "わたしはあさコーヒーをのみます。",
+    "ko": "저는 아침에 커피를 마셔요.",
+    "en": "I drink coffee in the morning."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私は月曜日___働きます。",
+    "options": [
+     "に",
+     "を",
+     "で"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "今___ですか。",
+    "options": [
+     "何時",
+     "何曜日",
+     "何歳"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "今日は何___ですか。",
+    "options": [
+     "曜日",
+     "時",
+     "歳"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "授業は九時___始まります。",
+    "options": [
+     "に",
+     "を",
+     "で"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今何時ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 지금 몇 시예요?",
+     "en": "(Question) What time is it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "九時です。",
+       "月曜日です。",
+       "時計です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今日は何曜日ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 오늘은 무슨 요일이에요?",
+     "en": "(Question) What day is it today?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "土曜日です。",
+       "十時です。",
+       "元気です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "英語の授業は何曜日ですか。"
+      },
+      {
+       "s": "B",
+       "t": "月曜日です。"
+      },
+      {
+       "s": "A",
+       "t": "何時に始まりますか。"
+      },
+      {
+       "s": "B",
+       "t": "朝九時に始まります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 영어 수업은 무슨 요일이에요?\nB: 월요일이에요.\nA: 몇 시에 시작해요?\nB: 아침 아홉 시에 시작해요.",
+     "en": "A: What day is the English class?\nB: It's on Monday.\nA: What time does it start?\nB: It starts at nine o'clock in the morning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "授業はいつ始まりますか。",
+      "options": [
+       "月曜日の九時",
+       "日曜日の九時",
+       "月曜日の七時"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私は月曜日に働きます。土曜日は英語を勉強します。日曜日は家族といます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 월요일에 일해요. 토요일에는 영어를 공부해요. 일요일에는 가족과 함께 있어요.",
+     "en": "I work on Monday. I study English on Saturday. I am with my family on Sunday."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "話す人は土曜日に何をしますか。",
+      "options": [
+       "働きます",
+       "英語を勉強します",
+       "家族といます"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "何曜日がいいですか。"
+      },
+      {
+       "s": "B",
+       "t": "土曜日です。"
+      },
+      {
+       "s": "A",
+       "t": "何時ですか。"
+      },
+      {
+       "s": "B",
+       "t": "夜七時です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "접수원: 무슨 요일로 하시겠어요?\n손님: 토요일이요.\n접수원: 몇 시요?\n손님: 저녁 일곱 시요.",
+     "en": "Receptionist: Which day would you like?\nGuest: Saturday.\nReceptionist: What time?\nGuest: Seven o'clock in the evening."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "曜日: ______",
+      "answers": [
+       "土曜日"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "時刻: ______",
+      "answers": [
+       "七時"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は月曜日___働きます。\n2) 授業は九時___始まります。\n3) 今___ですか。",
+    "trans": {
+     "ko": "1) 저는 월요일에 일해요. 2) 저는 아침에 커피를 마셔요. 3) 지금 몇 시예요?",
+     "en": "1) I work on Monday. 2) I drink coffee in the morning. 3) What time is it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は月曜日___働きます。",
+      "options": [
+       "に",
+       "を",
+       "で"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "授業は九時___始まります。",
+      "options": [
+       "に",
+       "を",
+       "が"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "今___ですか。",
+      "options": [
+       "何時",
+       "何曜日",
+       "何歳"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは！今日は土曜日(1)。私は朝、英語を勉強(2)。夜七時(3)家族といます。",
+    "trans": {
+     "ko": "안녕하세요! 오늘은 토요일이에요. 저는 아침에 영어를 공부해요. 저녁 일곱 시에 가족과 함께 있어요.",
+     "en": "Hello! Today is Saturday. I study English in the morning. I am with my family at seven o'clock in the evening."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "です",
+       "ます",
+       "ですか"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "します",
+       "です",
+       "しますか"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "に",
+       "を",
+       "で"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "授業の時間割\n月曜日：英語、九時\n土曜日：スペイン語、十時",
+    "trans": {
+     "ko": "수업 시간표\n월요일: 영어, 9시\n토요일: 스페인어, 10시",
+     "en": "CLASS TIMETABLE\nMonday: English, 9 o'clock\nSaturday: Spanish, 10 o'clock"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "月曜日の授業は何ですか。",
+      "options": [
+       "英語",
+       "スペイン語",
+       "フランス語"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "土曜日の授業は何時ですか。",
+      "options": [
+       "九時",
+       "十時",
+       "十一時"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ベンさんは月曜日に働きます。彼は朝九時に仕事を始めます。土曜日、彼は家にいます。",
+    "trans": {
+     "ko": "벤은 월요일에 일해요. 그는 아침 아홉 시에 일을 시작해요. 토요일에 그는 집에 있어요.",
+     "en": "Ben works on Monday. He starts work at nine o'clock in the morning. On Saturday, he is at home."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ベンさんは土曜日に働きます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ベンさんは朝九時に仕事を始めます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ベンさんは銀行で働きます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "今何時ですか。",
+    "read": "いまなんじですか。",
+    "ko": "지금 몇 시예요?",
+    "en": "What time is it?",
+    "situation": {
+     "ko": "시간을 물을 때",
+     "en": "Asking the time"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "今九時です。",
+    "read": "いまくじです。",
+    "ko": "지금 아홉 시예요.",
+    "en": "It's nine o'clock.",
+    "situation": {
+     "ko": "시간을 말할 때",
+     "en": "Telling the time"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "今日は何曜日ですか。",
+    "read": "きょうはなんようびですか。",
+    "ko": "오늘은 무슨 요일이에요?",
+    "en": "What day is it today?",
+    "situation": {
+     "ko": "요일을 물을 때",
+     "en": "Asking the day"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "今日は月曜日です。",
+    "read": "きょうはげつようびです。",
+    "ko": "오늘은 월요일이에요.",
+    "en": "Today is Monday.",
+    "situation": {
+     "ko": "요일을 말할 때",
+     "en": "Telling the day"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "何時に始まりますか。",
+    "read": "なんじにはじまりますか。",
+    "ko": "몇 시에 시작해요?",
+    "en": "What time does it start?",
+    "situation": {
+     "ko": "시작 시간을 물을 때",
+     "en": "Asking a start time"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "七時に始まります。",
+    "read": "しちじにはじまります。",
+    "ko": "일곱 시에 시작해요.",
+    "en": "It starts at seven o'clock.",
+    "situation": {
+     "ko": "시작 시간을 말할 때",
+     "en": "Giving a start time"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "明日会います。",
+    "read": "あしたあいます。",
+    "ko": "내일 만나요.",
+    "en": "See you tomorrow.",
+    "situation": {
+     "ko": "작별할 때",
+     "en": "Saying goodbye"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "土曜日は時間がありますか。",
+    "read": "どようびはじかんがありますか。",
+    "ko": "토요일에 시간 있어요?",
+    "en": "Are you free on Saturday?",
+    "situation": {
+     "ko": "약속을 물을 때",
+     "en": "Asking about availability"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "今〜時です。",
+    "read": "いま〜じです。",
+    "ko": "지금 ~시예요.",
+    "en": "It's ~ o'clock."
+   },
+   {
+    "id": "w2",
+    "t": "今日は〜曜日です。",
+    "read": "きょうは〜ようびです。",
+    "ko": "오늘은 ~요일이에요.",
+    "en": "Today is ~."
+   },
+   {
+    "id": "w3",
+    "t": "私は〜曜日に〜します。",
+    "read": "わたしは〜ようびに〜します。",
+    "ko": "저는 ~요일에 ~해요.",
+    "en": "I ~ on ~."
+   },
+   {
+    "id": "w4",
+    "t": "私は朝・夜に〜します。",
+    "read": "わたしはあさ・よるに〜します。",
+    "ko": "저는 아침/저녁에 ~해요.",
+    "en": "I ~ in the morning/evening."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "시간에 대해 3문장으로 써 보세요: 오늘 요일, 지금 시각, 토요일에 하는 일.",
+    "en": "Write 3 sentences about time: today's day, the time now, and something you do on Saturday."
+   },
+   "must_include": [
+    {
+     "label": "今日は〜曜日です",
+     "match": [
+      "今日は"
+     ]
+    },
+    {
+     "label": "今〜時です",
+     "match": [
+      "今"
+     ]
+    },
+    {
+     "label": "〜曜日に〜します",
+     "match": [
+      "曜日に"
+     ]
+    }
+   ],
+   "model": "今日は月曜日です。今九時です。私は土曜日に英語を勉強します。",
+   "model_trans": {
+    "ko": "오늘은 월요일이에요. 지금 아홉 시예요. 저는 토요일에 영어를 공부해요.",
+    "en": "Today is Monday. It's nine o'clock. I study English on Saturday."
+   }
+  }
+ }
+}
