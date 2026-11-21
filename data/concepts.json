@@ -1,60 +1,922 @@
 {
- "version": 1,
+ "version": 2,
  "note": "Shared curriculum map. Every language follows the same unit concepts so that the same expression can be compared across languages (e.g. English 'be' / French 'être' / Korean '이다').",
  "languages": [
-  {"code": "en", "name": "English", "native": "English", "family": "europe", "bcp47": "en-US"},
-  {"code": "fr", "name": "French", "native": "Français", "family": "europe", "bcp47": "fr-FR"},
-  {"code": "de", "name": "German", "native": "Deutsch", "family": "europe", "bcp47": "de-DE"},
-  {"code": "es", "name": "Spanish", "native": "Español", "family": "europe", "bcp47": "es-ES"},
-  {"code": "ko", "name": "Korean", "native": "한국어", "family": "asia", "bcp47": "ko-KR"},
-  {"code": "ja", "name": "Japanese", "native": "日本語", "family": "asia", "bcp47": "ja-JP"},
-  {"code": "zh", "name": "Chinese", "native": "中文", "family": "asia", "bcp47": "zh-CN"}
+  {
+   "code": "en",
+   "name": "English",
+   "native": "English",
+   "family": "europe",
+   "bcp47": "en-US"
+  },
+  {
+   "code": "fr",
+   "name": "French",
+   "native": "Français",
+   "family": "europe",
+   "bcp47": "fr-FR"
+  },
+  {
+   "code": "de",
+   "name": "German",
+   "native": "Deutsch",
+   "family": "europe",
+   "bcp47": "de-DE"
+  },
+  {
+   "code": "es",
+   "name": "Spanish",
+   "native": "Español",
+   "family": "europe",
+   "bcp47": "es-ES"
+  },
+  {
+   "code": "ko",
+   "name": "Korean",
+   "native": "한국어",
+   "family": "asia",
+   "bcp47": "ko-KR"
+  },
+  {
+   "code": "ja",
+   "name": "Japanese",
+   "native": "日本語",
+   "family": "asia",
+   "bcp47": "ja-JP"
+  },
+  {
+   "code": "zh",
+   "name": "Chinese",
+   "native": "中文",
+   "family": "asia",
+   "bcp47": "zh-CN"
+  }
  ],
  "families": {
-  "europe": {"ko": "유럽 언어권", "en": "European languages"},
-  "asia": {"ko": "아시아 언어권", "en": "Asian languages"}
+  "europe": {
+   "ko": "유럽 언어권",
+   "en": "European languages"
+  },
+  "asia": {
+   "ko": "아시아 언어권",
+   "en": "Asian languages"
+  }
  },
  "categories": [
-  {"id": "vocab", "ko": "어휘", "en": "Vocabulary"},
-  {"id": "grammar", "ko": "문법", "en": "Grammar"},
-  {"id": "listening", "ko": "듣기", "en": "Listening"},
-  {"id": "reading", "ko": "읽기", "en": "Reading"},
-  {"id": "speaking", "ko": "말하기", "en": "Speaking"},
-  {"id": "writing", "ko": "쓰기", "en": "Writing"}
+  {
+   "id": "vocab",
+   "ko": "어휘",
+   "en": "Vocabulary"
+  },
+  {
+   "id": "grammar",
+   "ko": "문법",
+   "en": "Grammar"
+  },
+  {
+   "id": "listening",
+   "ko": "듣기",
+   "en": "Listening"
+  },
+  {
+   "id": "reading",
+   "ko": "읽기",
+   "en": "Reading"
+  },
+  {
+   "id": "speaking",
+   "ko": "말하기",
+   "en": "Speaking"
+  },
+  {
+   "id": "writing",
+   "ko": "쓰기",
+   "en": "Writing"
+  }
  ],
  "levels": [
-  {"id": "a1", "ko": "A1 입문", "en": "A1 Beginner", "goal": {"ko": "아주 기본적인 인사·자기소개·일상 표현", "en": "Greetings, introductions and very basic everyday phrases"}},
-  {"id": "a2", "ko": "A2 초급", "en": "A2 Elementary", "goal": {"ko": "일상 대화: 과거·미래 표현, 쇼핑, 길 묻기", "en": "Everyday conversation: past and future, shopping, directions"}},
-  {"id": "b1", "ko": "B1 중급", "en": "B1 Intermediate", "goal": {"ko": "경험과 의견 설명, 여행·직장의 일반 상황", "en": "Describing experiences and opinions in travel and work situations"}},
-  {"id": "b2", "ko": "B2 중상급", "en": "B2 Upper-intermediate", "goal": {"ko": "논리적 글쓰기와 토론, 복잡한 글 이해", "en": "Argued writing and discussion, understanding complex texts"}},
-  {"id": "c1", "ko": "C1 고급", "en": "C1 Advanced", "goal": {"ko": "유창하고 정교한 표현, 뉘앙스 있는 어휘", "en": "Fluent, precise expression with nuanced vocabulary"}},
-  {"id": "c2", "ko": "C2 최상급", "en": "C2 Proficient", "goal": {"ko": "원어민에 가까운 정확성과 관용 표현", "en": "Near-native accuracy and idiomatic range"}}
+  {
+   "id": "a1",
+   "ko": "A1 입문",
+   "en": "A1 Beginner",
+   "goal": {
+    "ko": "아주 기본적인 인사·자기소개·일상 표현",
+    "en": "Greetings, introductions and very basic everyday phrases"
+   }
+  },
+  {
+   "id": "a2",
+   "ko": "A2 초급",
+   "en": "A2 Elementary",
+   "goal": {
+    "ko": "일상 대화: 과거·미래 표현, 쇼핑, 길 묻기",
+    "en": "Everyday conversation: past and future, shopping, directions"
+   }
+  },
+  {
+   "id": "b1",
+   "ko": "B1 중급",
+   "en": "B1 Intermediate",
+   "goal": {
+    "ko": "경험과 의견 설명, 여행·직장의 일반 상황",
+    "en": "Describing experiences and opinions in travel and work situations"
+   }
+  },
+  {
+   "id": "b2",
+   "ko": "B2 중상급",
+   "en": "B2 Upper-intermediate",
+   "goal": {
+    "ko": "논리적 글쓰기와 토론, 복잡한 글 이해",
+    "en": "Argued writing and discussion, understanding complex texts"
+   }
+  },
+  {
+   "id": "c1",
+   "ko": "C1 고급",
+   "en": "C1 Advanced",
+   "goal": {
+    "ko": "유창하고 정교한 표현, 뉘앙스 있는 어휘",
+    "en": "Fluent, precise expression with nuanced vocabulary"
+   }
+  },
+  {
+   "id": "c2",
+   "ko": "C2 최상급",
+   "en": "C2 Proficient",
+   "goal": {
+    "ko": "원어민에 가까운 정확성과 관용 표현",
+    "en": "Near-native accuracy and idiomatic range"
+   }
+  }
  ],
  "formats": {
   "listening": {
-   "qr": {"ko": "질문-응답", "en": "Question–Response", "exam": "TOEIC Part 2 style"},
-   "conv": {"ko": "대화", "en": "Conversation", "exam": "TOEIC Part 3 / TOEFL Conversation style"},
-   "talk": {"ko": "짧은 담화", "en": "Short talk", "exam": "TOEIC Part 4 / TOEFL Announcement style"},
-   "form": {"ko": "양식 완성", "en": "Form completion", "exam": "IELTS Listening Part 1 style"}
+   "qr": {
+    "ko": "질문-응답",
+    "en": "Question–Response",
+    "exam": "TOEIC Part 2 style"
+   },
+   "conv": {
+    "ko": "대화",
+    "en": "Conversation",
+    "exam": "TOEIC Part 3 / TOEFL Conversation style"
+   },
+   "talk": {
+    "ko": "짧은 담화",
+    "en": "Short talk",
+    "exam": "TOEIC Part 4 / TOEFL Announcement style"
+   },
+   "form": {
+    "ko": "양식 완성",
+    "en": "Form completion",
+    "exam": "IELTS Listening Part 1 style"
+   }
   },
   "reading": {
-   "incomplete": {"ko": "문장 빈칸", "en": "Incomplete sentences", "exam": "TOEIC Part 5 style"},
-   "textcomp": {"ko": "글 빈칸", "en": "Text completion", "exam": "TOEIC Part 6 style"},
-   "short": {"ko": "짧은 글 독해", "en": "Short text comprehension", "exam": "TOEIC Part 7 style"},
-   "tfng": {"ko": "참/거짓/알 수 없음", "en": "True / False / Not Given", "exam": "IELTS Reading style"}
+   "incomplete": {
+    "ko": "문장 빈칸",
+    "en": "Incomplete sentences",
+    "exam": "TOEIC Part 5 style"
+   },
+   "textcomp": {
+    "ko": "글 빈칸",
+    "en": "Text completion",
+    "exam": "TOEIC Part 6 style"
+   },
+   "short": {
+    "ko": "짧은 글 독해",
+    "en": "Short text comprehension",
+    "exam": "TOEIC Part 7 style"
+   },
+   "tfng": {
+    "ko": "참/거짓/알 수 없음",
+    "en": "True / False / Not Given",
+    "exam": "IELTS Reading style"
+   }
   }
  },
  "a1_units": [
-  {"unit": 1, "status": "pilot", "ko": "자기소개와 '이다' 동사", "en": "Introducing yourself & 'to be'",
-   "realization": {"en": "be (am/is/are)", "fr": "être", "de": "sein", "es": "ser", "ko": "이다 (-이에요/-예요)", "ja": "です", "zh": "是"}},
-  {"unit": 2, "status": "planned", "ko": "숫자·나이·전화번호", "en": "Numbers, age, phone numbers"},
-  {"unit": 3, "status": "planned", "ko": "가족과 소유 표현", "en": "Family and possession"},
-  {"unit": 4, "status": "planned", "ko": "사물 이름: 관사·성·수량사", "en": "Everyday objects: articles, gender, counters"},
-  {"unit": 5, "status": "planned", "ko": "일상 동사 현재형", "en": "Daily-routine verbs (present tense)"},
-  {"unit": 6, "status": "planned", "ko": "음식 주문하기", "en": "Ordering food"},
-  {"unit": 7, "status": "planned", "ko": "장소와 길 묻기", "en": "Places and asking directions"},
-  {"unit": 8, "status": "planned", "ko": "시간·요일·날짜", "en": "Time, days and dates"},
-  {"unit": 9, "status": "planned", "ko": "부정문·의문문 정리", "en": "Negatives and questions"},
-  {"unit": 10, "status": "planned", "ko": "쇼핑과 가격", "en": "Shopping and prices"}
- ]
+  {
+   "unit": 1,
+   "status": "live",
+   "ko": "자기소개",
+   "en": "Introducing yourself",
+   "focus": {
+    "en": {
+     "ko": "be동사",
+     "en": "'be'"
+    },
+    "fr": {
+     "ko": "être 동사",
+     "en": "'être'"
+    },
+    "de": {
+     "ko": "sein 동사",
+     "en": "'sein'"
+    },
+    "es": {
+     "ko": "ser 동사",
+     "en": "'ser'"
+    },
+    "ko": {
+     "ko": "서술격 조사 '이다'",
+     "en": "copula '이다'"
+    },
+    "ja": {
+     "ko": "です",
+     "en": "です"
+    },
+    "zh": {
+     "ko": "是(판단동사)",
+     "en": "'是'"
+    }
+   }
+  },
+  {
+   "unit": 2,
+   "status": "live",
+   "ko": "숫자와 나이",
+   "en": "Numbers and age",
+   "focus": {
+    "en": {
+     "ko": "기수 · be로 나이 말하기",
+     "en": "numbers · age with 'be'"
+    },
+    "fr": {
+     "ko": "기수 · avoir로 나이 말하기",
+     "en": "numbers · age with 'avoir'"
+    },
+    "de": {
+     "ko": "기수 · sein으로 나이 말하기",
+     "en": "numbers · age with 'sein'"
+    },
+    "es": {
+     "ko": "기수 · tener로 나이 말하기",
+     "en": "numbers · age with 'tener'"
+    },
+    "ko": {
+     "ko": "수사 · 나이(살)",
+     "en": "numerals · age (살)"
+    },
+    "ja": {
+     "ko": "数字 · 〜歳",
+     "en": "数字 · 〜歳"
+    },
+    "zh": {
+     "ko": "数字 · 〜岁",
+     "en": "数字 · 〜岁"
+    }
+   }
+  },
+  {
+   "unit": 3,
+   "status": "planned",
+   "ko": "가족과 소유",
+   "en": "Family and possession",
+   "focus": {
+    "en": {
+     "ko": "소유격 my/your · have",
+     "en": "possessives · 'have'"
+    },
+    "fr": {
+     "ko": "소유 형용사 · avoir",
+     "en": "possessive adjectives · 'avoir'"
+    },
+    "de": {
+     "ko": "소유관사 · haben",
+     "en": "possessives · 'haben'"
+    },
+    "es": {
+     "ko": "소유 형용사 · tener",
+     "en": "possessive adjectives · 'tener'"
+    },
+    "ko": {
+     "ko": "소유 표현 · 있다/없다",
+     "en": "possession · 있다/없다"
+    },
+    "ja": {
+     "ko": "の · います/あります",
+     "en": "の · います/あります"
+    },
+    "zh": {
+     "ko": "的 · 有",
+     "en": "的 · 有"
+    }
+   }
+  },
+  {
+   "unit": 4,
+   "status": "planned",
+   "ko": "사물 이름과 관사",
+   "en": "Objects and articles",
+   "focus": {
+    "en": {
+     "ko": "관사 a/an/the",
+     "en": "articles a/an/the"
+    },
+    "fr": {
+     "ko": "관사 · 명사의 성",
+     "en": "articles · noun gender"
+    },
+    "de": {
+     "ko": "관사 · 명사의 성",
+     "en": "articles · noun gender"
+    },
+    "es": {
+     "ko": "관사 · 명사의 성",
+     "en": "articles · noun gender"
+    },
+    "ko": {
+     "ko": "이/그/저 · 조사 이/가",
+     "en": "this/that · particles 이/가"
+    },
+    "ja": {
+     "ko": "これ/それ/あれ",
+     "en": "これ/それ/あれ"
+    },
+    "zh": {
+     "ko": "这/那 · 量词",
+     "en": "这/那 · measure words"
+    }
+   }
+  },
+  {
+   "unit": 5,
+   "status": "planned",
+   "ko": "일상 동사 현재형",
+   "en": "Everyday verbs",
+   "focus": {
+    "en": {
+     "ko": "일반동사 현재형",
+     "en": "present simple"
+    },
+    "fr": {
+     "ko": "-er 동사 현재형",
+     "en": "regular -er verbs"
+    },
+    "de": {
+     "ko": "규칙동사 현재형",
+     "en": "regular verbs, present"
+    },
+    "es": {
+     "ko": "-ar 동사 현재형",
+     "en": "regular -ar verbs"
+    },
+    "ko": {
+     "ko": "-아요/-어요 현재형",
+     "en": "polite present -아요/-어요"
+    },
+    "ja": {
+     "ko": "ます형",
+     "en": "ます-form"
+    },
+    "zh": {
+     "ko": "동사 + 목적어(SVO)",
+     "en": "verb + object (SVO)"
+    }
+   }
+  },
+  {
+   "unit": 6,
+   "status": "planned",
+   "ko": "음식 주문하기",
+   "en": "Ordering food",
+   "focus": {
+    "en": {
+     "ko": "I'd like · 공손한 요청",
+     "en": "I'd like · polite requests"
+    },
+    "fr": {
+     "ko": "je voudrais",
+     "en": "je voudrais"
+    },
+    "de": {
+     "ko": "ich möchte",
+     "en": "ich möchte"
+    },
+    "es": {
+     "ko": "quisiera · quiero",
+     "en": "quisiera · quiero"
+    },
+    "ko": {
+     "ko": "-주세요",
+     "en": "-주세요"
+    },
+    "ja": {
+     "ko": "〜をください",
+     "en": "〜をください"
+    },
+    "zh": {
+     "ko": "我要 · 请给我",
+     "en": "我要 · 请给我"
+    }
+   }
+  },
+  {
+   "unit": 7,
+   "status": "planned",
+   "ko": "장소와 길 묻기",
+   "en": "Places and directions",
+   "focus": {
+    "en": {
+     "ko": "there is · 전치사",
+     "en": "there is · prepositions"
+    },
+    "fr": {
+     "ko": "il y a · 전치사",
+     "en": "il y a · prepositions"
+    },
+    "de": {
+     "ko": "es gibt · 전치사",
+     "en": "es gibt · prepositions"
+    },
+    "es": {
+     "ko": "hay · estar(위치)",
+     "en": "hay · estar (location)"
+    },
+    "ko": {
+     "ko": "에 있다 · 위치 명사",
+     "en": "에 있다 · location nouns"
+    },
+    "ja": {
+     "ko": "あります/います · 位置",
+     "en": "あります/います · location"
+    },
+    "zh": {
+     "ko": "在 · 有",
+     "en": "在 · 有"
+    }
+   }
+  },
+  {
+   "unit": 8,
+   "status": "planned",
+   "ko": "시간과 요일",
+   "en": "Time and days",
+   "focus": {
+    "en": {
+     "ko": "시각 · 요일 전치사",
+     "en": "telling time · day prepositions"
+    },
+    "fr": {
+     "ko": "시각 · 요일",
+     "en": "telling time · days"
+    },
+    "de": {
+     "ko": "시각 · 요일",
+     "en": "telling time · days"
+    },
+    "es": {
+     "ko": "시각 · 요일",
+     "en": "telling time · days"
+    },
+    "ko": {
+     "ko": "시/분 · 요일",
+     "en": "hours/minutes · days"
+    },
+    "ja": {
+     "ko": "時間 · 曜日",
+     "en": "time · days"
+    },
+    "zh": {
+     "ko": "时间 · 星期",
+     "en": "time · weekdays"
+    }
+   }
+  },
+  {
+   "unit": 9,
+   "status": "planned",
+   "ko": "부정문과 의문문",
+   "en": "Negatives and questions",
+   "focus": {
+    "en": {
+     "ko": "do 조동사 · 부정·의문",
+     "en": "do-support · negatives, questions"
+    },
+    "fr": {
+     "ko": "ne … pas · est-ce que",
+     "en": "ne … pas · est-ce que"
+    },
+    "de": {
+     "ko": "nicht/kein · 어순",
+     "en": "nicht/kein · word order"
+    },
+    "es": {
+     "ko": "no · ¿ ?",
+     "en": "no · ¿ ?"
+    },
+    "ko": {
+     "ko": "안/못 · 의문문",
+     "en": "안/못 · questions"
+    },
+    "ja": {
+     "ko": "ません · か",
+     "en": "ません · か"
+    },
+    "zh": {
+     "ko": "不/没 · 吗/呢",
+     "en": "不/没 · 吗/呢"
+    }
+   }
+  },
+  {
+   "unit": 10,
+   "status": "planned",
+   "ko": "쇼핑과 가격",
+   "en": "Shopping and prices",
+   "focus": {
+    "en": {
+     "ko": "this/that · How much",
+     "en": "this/that · How much"
+    },
+    "fr": {
+     "ko": "ce/cette · combien",
+     "en": "ce/cette · combien"
+    },
+    "de": {
+     "ko": "dieser · wie viel",
+     "en": "dieser · wie viel"
+    },
+    "es": {
+     "ko": "este/esta · cuánto",
+     "en": "este/esta · cuánto"
+    },
+    "ko": {
+     "ko": "이/그/저 · 얼마예요?",
+     "en": "이/그/저 · 얼마예요?"
+    },
+    "ja": {
+     "ko": "これ/それ · いくら",
+     "en": "これ/それ · いくら"
+    },
+    "zh": {
+     "ko": "这/那 · 多少钱",
+     "en": "这/那 · 多少钱"
+    }
+   }
+  },
+  {
+   "unit": 11,
+   "status": "planned",
+   "ko": "형용사와 색깔",
+   "en": "Adjectives and colors",
+   "focus": {
+    "en": {
+     "ko": "형용사의 위치",
+     "en": "adjective position"
+    },
+    "fr": {
+     "ko": "형용사 성·수 일치",
+     "en": "adjective agreement"
+    },
+    "de": {
+     "ko": "서술 형용사 · 색",
+     "en": "predicate adjectives · colors"
+    },
+    "es": {
+     "ko": "형용사 성·수 일치",
+     "en": "adjective agreement"
+    },
+    "ko": {
+     "ko": "형용사 현재형",
+     "en": "adjectives, present"
+    },
+    "ja": {
+     "ko": "い형용사 · な형용사",
+     "en": "i- and na-adjectives"
+    },
+    "zh": {
+     "ko": "很 + 형용사",
+     "en": "很 + adjective"
+    }
+   }
+  },
+  {
+   "unit": 12,
+   "status": "planned",
+   "ko": "취미와 좋아하는 것",
+   "en": "Hobbies and likes",
+   "focus": {
+    "en": {
+     "ko": "like + 명사/-ing",
+     "en": "like + noun/-ing"
+    },
+    "fr": {
+     "ko": "aimer + 동사원형",
+     "en": "aimer + infinitive"
+    },
+    "de": {
+     "ko": "gern + 동사",
+     "en": "gern + verb"
+    },
+    "es": {
+     "ko": "gustar",
+     "en": "gustar"
+    },
+    "ko": {
+     "ko": "-을/를 좋아해요",
+     "en": "-을/를 좋아해요"
+    },
+    "ja": {
+     "ko": "〜が好きです",
+     "en": "〜が好きです"
+    },
+    "zh": {
+     "ko": "喜欢",
+     "en": "喜欢"
+    }
+   }
+  },
+  {
+   "unit": 13,
+   "status": "planned",
+   "ko": "하루 일과",
+   "en": "Daily routine",
+   "focus": {
+    "en": {
+     "ko": "시간 표현 · 일과 동사",
+     "en": "time phrases · routine verbs"
+    },
+    "fr": {
+     "ko": "재귀동사",
+     "en": "reflexive verbs"
+    },
+    "de": {
+     "ko": "분리동사",
+     "en": "separable verbs"
+    },
+    "es": {
+     "ko": "재귀동사",
+     "en": "reflexive verbs"
+    },
+    "ko": {
+     "ko": "-에 · 일과 동사",
+     "en": "-에 · routine verbs"
+    },
+    "ja": {
+     "ko": "〜に起きます",
+     "en": "〜に起きます"
+    },
+    "zh": {
+     "ko": "시간 + 동사 어순",
+     "en": "time + verb word order"
+    }
+   }
+  },
+  {
+   "unit": 14,
+   "status": "planned",
+   "ko": "날씨와 계절",
+   "en": "Weather and seasons",
+   "focus": {
+    "en": {
+     "ko": "It's + 날씨",
+     "en": "It's + weather"
+    },
+    "fr": {
+     "ko": "il fait + 날씨",
+     "en": "il fait + weather"
+    },
+    "de": {
+     "ko": "es ist · es regnet",
+     "en": "es ist · es regnet"
+    },
+    "es": {
+     "ko": "hace · está",
+     "en": "hace · está"
+    },
+    "ko": {
+     "ko": "날씨 형용사",
+     "en": "weather adjectives"
+    },
+    "ja": {
+     "ko": "天気 · 季節",
+     "en": "weather · seasons"
+    },
+    "zh": {
+     "ko": "天气 · 季节",
+     "en": "weather · seasons"
+    }
+   }
+  },
+  {
+   "unit": 15,
+   "status": "planned",
+   "ko": "교통과 이동",
+   "en": "Transport and travel",
+   "focus": {
+    "en": {
+     "ko": "go to · by + 교통수단",
+     "en": "go to · by + transport"
+    },
+    "fr": {
+     "ko": "aller à · en/à",
+     "en": "aller à · en/à"
+    },
+    "de": {
+     "ko": "fahren · mit",
+     "en": "fahren · mit"
+    },
+    "es": {
+     "ko": "ir a · en",
+     "en": "ir a · en"
+    },
+    "ko": {
+     "ko": "-에 가요 · -(으)로",
+     "en": "-에 가요 · -(으)로"
+    },
+    "ja": {
+     "ko": "〜で行きます",
+     "en": "〜で行きます"
+    },
+    "zh": {
+     "ko": "坐 · 去",
+     "en": "坐 · 去"
+    }
+   }
+  },
+  {
+   "unit": 16,
+   "status": "planned",
+   "ko": "집과 방",
+   "en": "Home and rooms",
+   "focus": {
+    "en": {
+     "ko": "there is/are · 방 이름",
+     "en": "there is/are · rooms"
+    },
+    "fr": {
+     "ko": "il y a · 가구",
+     "en": "il y a · furniture"
+    },
+    "de": {
+     "ko": "es gibt · 가구",
+     "en": "es gibt · furniture"
+    },
+    "es": {
+     "ko": "hay · 가구",
+     "en": "hay · furniture"
+    },
+    "ko": {
+     "ko": "-에 있다 · 집 어휘",
+     "en": "-에 있다 · home words"
+    },
+    "ja": {
+     "ko": "〜があります",
+     "en": "〜があります"
+    },
+    "zh": {
+     "ko": "有 · 방 어휘",
+     "en": "有 · rooms"
+    }
+   }
+  },
+  {
+   "unit": 17,
+   "status": "planned",
+   "ko": "몸과 건강",
+   "en": "Body and health",
+   "focus": {
+    "en": {
+     "ko": "have · hurt",
+     "en": "have · hurt"
+    },
+    "fr": {
+     "ko": "avoir mal à",
+     "en": "avoir mal à"
+    },
+    "de": {
+     "ko": "… tut weh",
+     "en": "… tut weh"
+    },
+    "es": {
+     "ko": "me duele",
+     "en": "me duele"
+    },
+    "ko": {
+     "ko": "아파요",
+     "en": "아파요"
+    },
+    "ja": {
+     "ko": "〜が痛いです",
+     "en": "〜が痛いです"
+    },
+    "zh": {
+     "ko": "我〜疼",
+     "en": "我〜疼"
+    }
+   }
+  },
+  {
+   "unit": 18,
+   "status": "planned",
+   "ko": "직업과 일터",
+   "en": "Jobs and workplaces",
+   "focus": {
+    "en": {
+     "ko": "work as/at",
+     "en": "work as/at"
+    },
+    "fr": {
+     "ko": "직업 말하기(관사 생략)",
+     "en": "jobs (no article)"
+    },
+    "de": {
+     "ko": "arbeiten als/bei",
+     "en": "arbeiten als/bei"
+    },
+    "es": {
+     "ko": "trabajar de/en",
+     "en": "trabajar de/en"
+    },
+    "ko": {
+     "ko": "-에서 일해요",
+     "en": "-에서 일해요"
+    },
+    "ja": {
+     "ko": "〜で働きます",
+     "en": "〜で働きます"
+    },
+    "zh": {
+     "ko": "在〜工作",
+     "en": "在〜工作"
+    }
+   }
+  },
+  {
+   "unit": 19,
+   "status": "planned",
+   "ko": "초대와 약속",
+   "en": "Invitations and plans",
+   "focus": {
+    "en": {
+     "ko": "Can · Let's · Would you like to",
+     "en": "Can · Let's · Would you like to"
+    },
+    "fr": {
+     "ko": "pouvoir · vouloir",
+     "en": "pouvoir · vouloir"
+    },
+    "de": {
+     "ko": "können · wollen",
+     "en": "können · wollen"
+    },
+    "es": {
+     "ko": "poder · querer",
+     "en": "poder · querer"
+    },
+    "ko": {
+     "ko": "-(으)ㄹ래요? · -아요/어요",
+     "en": "-(으)ㄹ래요? · -아요/어요"
+    },
+    "ja": {
+     "ko": "〜ませんか",
+     "en": "〜ませんか"
+    },
+    "zh": {
+     "ko": "想 · 可以 · 一起",
+     "en": "想 · 可以 · 一起"
+    }
+   }
+  },
+  {
+   "unit": 20,
+   "status": "planned",
+   "ko": "A1 종합과 자기소개 쓰기",
+   "en": "A1 review & writing about yourself",
+   "focus": {
+    "en": {
+     "ko": "종합 복습",
+     "en": "review"
+    },
+    "fr": {
+     "ko": "종합 복습",
+     "en": "review"
+    },
+    "de": {
+     "ko": "종합 복습",
+     "en": "review"
+    },
+    "es": {
+     "ko": "종합 복습",
+     "en": "review"
+    },
+    "ko": {
+     "ko": "종합 복습",
+     "en": "review"
+    },
+    "ja": {
+     "ko": "종합 복습",
+     "en": "review"
+    },
+    "zh": {
+     "ko": "종합 복습",
+     "en": "review"
+    }
+   }
+  }
+ ],
+ "units_per_level": 20
 }

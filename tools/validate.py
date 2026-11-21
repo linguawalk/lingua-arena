@@ -122,6 +122,8 @@ def main():
                     warn(rel, f"kana {v['t']}: written '{v['read']}' vs auto '{auto}'")
         # grammar
         g = d['grammar']
+        if not g.get('title', {}).get('ko') or not g.get('title', {}).get('en'):
+            err(rel, 'grammar.title (ko/en) missing')
         for k in ('explain', 'table', 'notes', 'examples', 'practice'):
             if k not in g:
                 err(rel, f'grammar missing {k}')

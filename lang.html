@@ -31,7 +31,7 @@
 
     c.levels.forEach(function (lv, idx) {
       var isA1 = lv.id === 'a1';
-      var ready = c.a1_units.filter(function (u) { return u.status === 'pilot'; }).length;
+      var ready = c.a1_units.filter(function (u) { return u.status === 'live'; }).length;
       html += '<details class="level"' + (isA1 ? ' open' : '') + '><summary>' +
         '<span class="lv-badge">' + L.esc(lv.id.toUpperCase()) + '</span>' +
         '<span><strong>' + L.esc(L.pick(lv)) + '</strong><br><span class="lv-goal">' + L.esc(L.pick(lv.goal)) + '</span></span>' +
@@ -39,9 +39,9 @@
       if (isA1) {
         html += '<div class="units">';
         c.a1_units.forEach(function (u) {
-          var live = u.status === 'pilot';
+          var live = u.status === 'live';
           html += '<div class="unit-row' + (live ? '' : ' soon') + '"><span class="u-no">U' + L.pad(u.unit) + '</span>' +
-            '<span class="u-title">' + L.esc(L.pick(u)) + '</span><span class="chips">' +
+            '<span class="u-title">' + L.esc(L.pick(u)) + '<br><span class="lv-goal" lang="' + (L.ui === 'ko' ? 'ko' : 'en') + '">' + L.esc(L.pick((u.focus || {})[lang.code])) + '</span></span><span class="chips">' +
             c.categories.map(function (cat) {
               var label = L.esc(L.pick(cat));
               return live ? '<a class="chip" href="unit.html?l=' + lang.code + '&lv=a1&u=' + u.unit + '&c=' + cat.id + '">' + label + '</a>'

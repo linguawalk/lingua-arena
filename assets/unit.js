@@ -88,7 +88,7 @@
 
   function grammarPanel() {
     var g = data.grammar;
-    var h = '<div class="box"><h3>' + esc(L.t('explain')) + '</h3><p style="margin-top:6px">' + esc(glossOf(g.explain)) + '</p></div>';
+    var h = '<div class="box"><h2>' + esc(glossOf(g.title)) + '</h2><p style="margin-top:8px">' + esc(glossOf(g.explain)) + '</p></div>';
     h += '<div class="box" style="overflow-x:auto"><table class="t"><thead><tr>' + g.table.head.map(function (x) { return '<th>' + esc(x) + '</th>'; }).join('') +
       '</tr></thead><tbody>' + g.table.rows.map(function (r) {
         return '<tr>' + r.map(function (c) { return '<td lang="' + lang.code + '">' + esc(c) + '</td>'; }).join('') + '</tr>';

@@ -5,7 +5,7 @@
   var UI = {
     ko: {
       home: '홈', brandSub: 'Lingua Arena', europe: '유럽 언어권', asia: '아시아 언어권',
-      pilot: 'A1 · 유닛 1 파일럿 공개', levelsLabel: '레벨', soon: '준비 중', open: '열기',
+      liveLabel: 'A1 공개 유닛', levelsLabel: '레벨', soon: '준비 중', open: '열기',
       unit: '유닛', start: '시작하기', cats: '6개 영역', noData: '이 유닛의 데이터를 찾을 수 없습니다.',
       back: '← 돌아가기', hide: '뜻 가리기', show: '뜻 보이기', example: '예문', explain: '설명',
       practice: '연습 문제', answerCheck: '정답 확인', correct: '정답입니다!', wrong: '아쉬워요. 정답: ',
@@ -21,7 +21,7 @@
     },
     en: {
       home: 'Home', brandSub: 'Lingua Arena', europe: 'European languages', asia: 'Asian languages',
-      pilot: 'A1 · Unit 1 pilot is live', levelsLabel: 'Levels', soon: 'Coming soon', open: 'Open',
+      liveLabel: 'A1 units live', levelsLabel: 'Levels', soon: 'Coming soon', open: 'Open',
       unit: 'Unit', start: 'Start', cats: '6 skills', noData: 'Could not find data for this unit.',
       back: '← Back', hide: 'Hide meanings', show: 'Show meanings', example: 'Example', explain: 'Explanation',
       practice: 'Practice', answerCheck: 'Check', correct: 'Correct!', wrong: 'Not quite. Answer: ',
