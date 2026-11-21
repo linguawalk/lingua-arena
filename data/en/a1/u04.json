@@ -1,0 +1,750 @@
+{
+ "meta": {
+  "id": "en_a1_u04",
+  "lang": "en",
+  "family": "europe",
+  "level": "a1",
+  "unit": 4,
+  "concept": "A1.U04",
+  "status": "live",
+  "title": {
+   "target": "Objects and articles",
+   "ko": "사물 이름과 관사",
+   "en": "Objects and articles"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "book",
+   "pos": "noun",
+   "ko": "책",
+   "ex": {
+    "t": "This is a book.",
+    "ko": "이것은 책이에요."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "apple",
+   "pos": "noun",
+   "ko": "사과",
+   "ex": {
+    "t": "She has an apple.",
+    "ko": "그녀는 사과가 하나 있어요."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "bag",
+   "pos": "noun",
+   "ko": "가방",
+   "ex": {
+    "t": "I have a bag.",
+    "ko": "저는 가방이 하나 있어요."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "pen",
+   "pos": "noun",
+   "ko": "펜",
+   "ex": {
+    "t": "This is my pen.",
+    "ko": "이것은 제 펜이에요."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "table",
+   "pos": "noun",
+   "ko": "탁자",
+   "ex": {
+    "t": "The table is big.",
+    "ko": "그 탁자는 커요."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "chair",
+   "pos": "noun",
+   "ko": "의자",
+   "ex": {
+    "t": "The chair is small.",
+    "ko": "그 의자는 작아요."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "umbrella",
+   "pos": "noun",
+   "ko": "우산",
+   "ex": {
+    "t": "I have an umbrella.",
+    "ko": "저는 우산이 하나 있어요."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "phone",
+   "pos": "noun",
+   "ko": "전화기",
+   "ex": {
+    "t": "It is a new phone.",
+    "ko": "그것은 새 전화기예요."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "key",
+   "pos": "noun",
+   "ko": "열쇠",
+   "ex": {
+    "t": "Where is the key?",
+    "ko": "열쇠는 어디에 있어요?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "water",
+   "pos": "noun",
+   "ko": "물",
+   "ex": {
+    "t": "I need water.",
+    "ko": "저는 물이 필요해요."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "관사 a / an / the",
+   "en": "Articles: a / an / the"
+  },
+  "explain": {
+   "ko": "a / an은 '하나의 (처음 말하는) 사물' 앞에, the는 서로 알고 있는 특정한 사물 앞에 씁니다. an은 모음 소리 앞에 붙습니다.",
+   "en": "Use 'a / an' for one thing mentioned for the first time, and 'the' for a specific thing both people know. 'An' goes before a vowel sound."
+  },
+  "table": {
+   "head": [
+    "관사 / Article",
+    "쓰임 / Use",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "a",
+     "자음 소리 앞 · 처음 말할 때",
+     "a book, a pen"
+    ],
+    [
+     "an",
+     "모음 소리 앞",
+     "an apple, an umbrella"
+    ],
+    [
+     "the",
+     "특정한 것",
+     "the key, the bag"
+    ],
+    [
+     "(없음)",
+     "셀 수 없는 명사 · 복수",
+     "water, books"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "복수형에는 a / an을 쓰지 않습니다: two books.",
+    "en": "Do not use a / an with plurals: two books."
+   },
+   {
+    "ko": "처음에는 a, 다시 말할 때는 the: I have a bag. The bag is new.",
+    "en": "First mention: a. Second mention: the. I have a bag. The bag is new."
+   },
+   {
+    "ko": "물처럼 셀 수 없는 명사에는 a / an을 쓰지 않습니다.",
+    "en": "Do not use a / an with uncountable nouns such as water."
+   }
+  ],
+  "examples": [
+   {
+    "t": "This is a book.",
+    "ko": "이것은 책이에요."
+   },
+   {
+    "t": "She has an apple.",
+    "ko": "그녀는 사과가 하나 있어요."
+   },
+   {
+    "t": "The chair is small.",
+    "ko": "그 의자는 작아요."
+   },
+   {
+    "t": "I have an umbrella.",
+    "ko": "저는 우산이 하나 있어요."
+   },
+   {
+    "t": "Where is the key?",
+    "ko": "열쇠는 어디에 있어요?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "I have ___ umbrella.",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ],
+    "answer": 1,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "This is ___ pen.",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Where is ___ key? (we both know which one)",
+    "options": [
+     "a",
+     "an",
+     "the"
+    ],
+    "answer": 2,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "I need ___ water.",
+    "options": [
+     "a",
+     "an",
+     "(no article)"
+    ],
+    "answer": 2,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "What is this?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이것은 무엇이에요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "It's a pen.",
+       "It's Monday.",
+       "I'm a student."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Is this your bag?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이것은 당신의 가방이에요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "Yes, it is.",
+       "Yes, I am.",
+       "No, you are."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Excuse me. Is this your umbrella?"
+      },
+      {
+       "s": "B",
+       "t": "No, it isn't. My umbrella is small."
+      },
+      {
+       "s": "A",
+       "t": "What about this key?"
+      },
+      {
+       "s": "B",
+       "t": "Yes, that's my key. Thank you."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 실례합니다. 이것은 당신의 우산이에요?\nB: 아니요, 제 우산이 아니에요. 제 우산은 작아요.\nA: 그럼 이 열쇠는요?\nB: 네, 그것은 제 열쇠예요. 고맙습니다."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What belongs to B?",
+      "options": [
+       "The umbrella",
+       "The key",
+       "The bag"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "In my bag, I have a book, two pens, and an apple."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제 가방 안에는 책 한 권, 펜 두 자루, 사과 하나가 있어요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "How many pens are in the bag?",
+      "options": [
+       "1",
+       "2",
+       "3"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Is this your bag?"
+      },
+      {
+       "s": "B",
+       "t": "Yes, it is."
+      },
+      {
+       "s": "A",
+       "t": "What is in it?"
+      },
+      {
+       "s": "B",
+       "t": "A book and an umbrella."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 이것은 손님 가방이에요?\n손님: 네, 맞아요.\n직원: 안에 무엇이 있어요?\n손님: 책 한 권과 우산 하나가 있어요."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Item 1: ______",
+      "answers": [
+       "book"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Item 2: ______",
+      "answers": [
+       "umbrella"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) I have ___ umbrella.\n2) This is ___ pen.\n3) Where is ___ key?",
+    "trans": {
+     "ko": "1) 저는 우산이 하나 있어요. 2) 이것은 펜이에요. 3) 열쇠는 어디에 있어요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "I have ___ umbrella.",
+      "options": [
+       "a",
+       "an",
+       "the"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "This is ___ pen.",
+      "options": [
+       "a",
+       "an",
+       "the"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Where is ___ key?",
+      "options": [
+       "a",
+       "an",
+       "the"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Hello! I have (1) bag. (2) bag is big. I have (3) apple in the bag.",
+    "trans": {
+     "ko": "안녕하세요! 저는 가방이 하나 있어요. 가방은 커요. 저는 가방 안에 사과가 하나 있어요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "a",
+       "an",
+       "the"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "A",
+       "An",
+       "The"
+      ],
+      "answer": 2
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "a",
+       "an",
+       "the"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "LOST AND FOUND\n1 bag\n1 umbrella\n2 keys",
+    "trans": {
+     "ko": "분실물 안내\n가방 1개\n우산 1개\n열쇠 2개"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "How many keys are there?",
+      "options": [
+       "1",
+       "2",
+       "3"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "How many umbrellas are there?",
+      "options": [
+       "1",
+       "2",
+       "3"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Tom has a bag. The bag is new. There is a book in the bag.",
+    "trans": {
+     "ko": "톰은 가방이 하나 있어요. 가방은 새것이에요. 가방 안에 책이 한 권 있어요."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "The bag is old.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Tom has a bag.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "The book is expensive.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "What is this?",
+    "ko": "이것은 무엇이에요?",
+    "situation": {
+     "ko": "사물을 물을 때",
+     "en": "Asking about an object"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "This is a pen.",
+    "ko": "이것은 펜이에요.",
+    "situation": {
+     "ko": "사물을 알려줄 때",
+     "en": "Naming an object"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Is this your bag?",
+    "ko": "이것은 당신의 가방이에요?",
+    "situation": {
+     "ko": "누구 것인지 확인할 때",
+     "en": "Checking whose it is"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Yes, it's mine.",
+    "ko": "네, 제 거예요.",
+    "situation": {
+     "ko": "내 것임을 말할 때",
+     "en": "Saying it is yours"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "How do you say it in English?",
+    "ko": "그것을 영어로 뭐라고 해요?",
+    "situation": {
+     "ko": "표현을 물을 때",
+     "en": "Asking for a word"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Can you say that again?",
+    "ko": "다시 한번 말씀해 주세요.",
+    "situation": {
+     "ko": "다시 부탁할 때",
+     "en": "Asking someone to repeat"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Here you are. — Thank you.",
+    "ko": "여기 있어요. — 고마워요.",
+    "situation": {
+     "ko": "물건을 건넬 때",
+     "en": "Handing something over"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "A glass of water, please.",
+    "ko": "물 한 잔 주세요.",
+    "situation": {
+     "ko": "부탁할 때",
+     "en": "Making a request"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "This is a ~.",
+    "ko": "이것은 ~예요."
+   },
+   {
+    "id": "w2",
+    "t": "I have a ~.",
+    "ko": "저는 ~가 하나 있어요."
+   },
+   {
+    "id": "w3",
+    "t": "The ~ is ~.",
+    "ko": "그 ~는 ~해요."
+   },
+   {
+    "id": "w4",
+    "t": "Where is the ~?",
+    "ko": "~는 어디에 있어요?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가방 속 물건을 3문장으로 써 보세요: 가방, 가지고 있는 물건, 열쇠가 어디 있는지 묻는 문장.",
+    "en": "Write 3 sentences about your bag: the bag, things you have, and a question about the key."
+   },
+   "must_include": [
+    {
+     "label": "I have a ~",
+     "match": [
+      "i have a "
+     ]
+    },
+    {
+     "label": "an + 모음 소리 (an umbrella)",
+     "match": [
+      "an "
+     ]
+    },
+    {
+     "label": "Where is the ~?",
+     "match": [
+      "where is the"
+     ]
+    }
+   ],
+   "model": "I have a bag. I have a book and an umbrella. Where is the key?",
+   "model_trans": {
+    "ko": "저는 가방이 하나 있어요. 저는 책 한 권과 우산 하나가 있어요. 열쇠는 어디에 있어요?",
+    "en": "I have a bag. I have a book and an umbrella. Where is the key?"
+   }
+  }
+ }
+}

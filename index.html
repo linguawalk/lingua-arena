@@ -29,7 +29,7 @@
 
   function render(c) {
     var total = c.a1_units.length;
-    var live = c.a1_units.filter(function (u) { return u.status === 'live'; }).length;
+    function liveOf(code) { return c.a1_units.filter(function (u) { return (u.live || []).indexOf(code) >= 0; }).length; }
     var html = L.header('');
     html += '<main><div class="wrap">' +
       '<section class="hero"><span class="eyebrow">Seven languages · A1–C2 · six skills</span>' +
@@ -38,7 +38,7 @@
     ['europe', 'asia'].forEach(function (fam) {
       var langs = c.languages.filter(function (x) { return x.family === fam; });
       html += '<section class="block"><div class="block-head"><h2>' + L.esc(L.pick(c.families[fam])) + '</h2></div><div class="grid">' +
-        langs.map(function (x) { return card(x, true, live, total); }).join('') + '</div></section>';
+        langs.map(function (x) { return card(x, true, liveOf(x.code), total); }).join('') + '</div></section>';
     });
     html += '<section class="block"><div class="block-head"><h2>' + L.esc(L.t('levelsLabel')) + '</h2></div><div class="grid">' +
       c.levels.map(function (lv) {

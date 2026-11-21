@@ -31,7 +31,7 @@
 
     c.levels.forEach(function (lv, idx) {
       var isA1 = lv.id === 'a1';
-      var ready = c.a1_units.filter(function (u) { return u.status === 'live'; }).length;
+      var ready = c.a1_units.filter(function (u) { return (u.live || []).indexOf(lang.code) >= 0; }).length;
       html += '<details class="level"' + (isA1 ? ' open' : '') + '><summary>' +
         '<span class="lv-badge">' + L.esc(lv.id.toUpperCase()) + '</span>' +
         '<span><strong>' + L.esc(L.pick(lv)) + '</strong><br><span class="lv-goal">' + L.esc(L.pick(lv.goal)) + '</span></span>' +
@@ -39,7 +39,7 @@
       if (isA1) {
         html += '<div class="units">';
         c.a1_units.forEach(function (u) {
-          var live = u.status === 'live';
+          var live = (u.live || []).indexOf(lang.code) >= 0;
           html += '<div class="unit-row' + (live ? '' : ' soon') + '"><span class="u-no">U' + L.pad(u.unit) + '</span>' +
             '<span class="u-title">' + L.esc(L.pick(u)) + '<br><span class="lv-goal" lang="' + (L.ui === 'ko' ? 'ko' : 'en') + '">' + L.esc(L.pick((u.focus || {})[lang.code])) + '</span></span><span class="chips">' +
             c.categories.map(function (cat) {

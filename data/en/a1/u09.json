@@ -1,0 +1,752 @@
+{
+ "meta": {
+  "id": "en_a1_u09",
+  "lang": "en",
+  "family": "europe",
+  "level": "a1",
+  "unit": 9,
+  "concept": "A1.U09",
+  "status": "live",
+  "title": {
+   "target": "Negatives and questions",
+   "ko": "부정문과 의문문",
+   "en": "Negatives and questions"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "yes",
+   "pos": "adv",
+   "ko": "네",
+   "ex": {
+    "t": "Yes, I do.",
+    "ko": "네, 해요."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "no",
+   "pos": "adv",
+   "ko": "아니요",
+   "ex": {
+    "t": "No, I don't.",
+    "ko": "아니요, 안 해요."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "not",
+   "pos": "adv",
+   "ko": "~이 아니다, ~하지 않다",
+   "ex": {
+    "t": "I am not a teacher.",
+    "ko": "저는 선생님이 아니에요."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "who",
+   "pos": "pron",
+   "ko": "누구",
+   "ex": {
+    "t": "Who is she?",
+    "ko": "그녀는 누구예요?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "what",
+   "pos": "pron",
+   "ko": "무엇",
+   "ex": {
+    "t": "What do you eat?",
+    "ko": "무엇을 먹어요?"
+   }
+  },
+  {
+   "id": "v6",
+   "t": "where",
+   "pos": "adv",
+   "ko": "어디",
+   "ex": {
+    "t": "Where do you work?",
+    "ko": "어디에서 일해요?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "when",
+   "pos": "adv",
+   "ko": "언제",
+   "ex": {
+    "t": "When do you study?",
+    "ko": "언제 공부해요?"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "why",
+   "pos": "adv",
+   "ko": "왜",
+   "ex": {
+    "t": "Why do you study English?",
+    "ko": "왜 영어를 공부해요?"
+   }
+  },
+  {
+   "id": "v9",
+   "t": "how",
+   "pos": "adv",
+   "ko": "어떻게",
+   "ex": {
+    "t": "How are you?",
+    "ko": "잘 지내요?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "question",
+   "pos": "noun",
+   "ko": "질문",
+   "ex": {
+    "t": "I have a question.",
+    "ko": "질문이 있어요."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "don't / doesn't · Do / Does · be 동사의 not",
+   "en": "don't / doesn't, Do / Does, and 'not' with be"
+  },
+  "explain": {
+   "ko": "일반동사의 부정은 don't / doesn't + 동사 원형, 의문은 Do / Does + 주어 + 동사 원형입니다. be동사는 do 없이 not을 붙이거나 주어 앞으로 보냅니다.",
+   "en": "For ordinary verbs, negatives use don't / doesn't + base verb and questions use Do / Does + subject + base verb. 'Be' needs no 'do': add 'not' or put it before the subject."
+  },
+  "table": {
+   "head": [
+    "문장 / Sentence",
+    "I / you / we / they",
+    "he / she / it"
+   ],
+   "rows": [
+    [
+     "부정",
+     "I don't work.",
+     "She doesn't work."
+    ],
+    [
+     "의문",
+     "Do you work?",
+     "Does she work?"
+    ],
+    [
+     "be 부정",
+     "I am not / you aren't",
+     "he isn't"
+    ],
+    [
+     "대답",
+     "Yes, I do. / No, I don't.",
+     "Yes, she does. / No, she doesn't."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "doesn't / Does 뒤에는 동사 원형: She doesn't work.",
+    "en": "After doesn't / Does use the base verb: She doesn't work."
+   },
+   {
+    "ko": "be동사는 do 없이: Are you a student? / I am not.",
+    "en": "'Be' does not need 'do': Are you a student? / I am not."
+   },
+   {
+    "ko": "의문사는 문장 맨 앞에: Where do you live?",
+    "en": "Question words come first: Where do you live?"
+   }
+  ],
+  "examples": [
+   {
+    "t": "I don't drink coffee.",
+    "ko": "저는 커피를 마시지 않아요."
+   },
+   {
+    "t": "He doesn't live in Seoul.",
+    "ko": "그는 서울에 살지 않아요."
+   },
+   {
+    "t": "Do you study English?",
+    "ko": "당신은 영어를 공부해요?"
+   },
+   {
+    "t": "Does she work at a school?",
+    "ko": "그녀는 학교에서 일해요?"
+   },
+   {
+    "t": "I am not a doctor.",
+    "ko": "저는 의사가 아니에요."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "I ___ drink coffee.",
+    "options": [
+     "don't",
+     "doesn't",
+     "not"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "She ___ work at a bank.",
+    "options": [
+     "don't",
+     "doesn't",
+     "isn't"
+    ],
+    "answer": 1,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___ you study English?",
+    "options": [
+     "Do",
+     "Does",
+     "Are"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___ he live in Seoul?",
+    "options": [
+     "Do",
+     "Does",
+     "Is"
+    ],
+    "answer": 1,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Do you speak English?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 영어를 말해요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "Yes, I do.",
+       "Yes, I am.",
+       "No, I'm not."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Does she work at a school?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그녀는 학교에서 일해요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "Yes, she does.",
+       "Yes, she is.",
+       "No, I don't."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Do you drink coffee?"
+      },
+      {
+       "s": "B",
+       "t": "No, I don't. I drink tea."
+      },
+      {
+       "s": "A",
+       "t": "I don't drink coffee, either."
+      },
+      {
+       "s": "B",
+       "t": "Then would you like a cup of tea?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 커피 마셔요?\nB: 아니요, 안 마셔요. 저는 차를 마셔요.\nA: 저도 커피를 안 마셔요.\nB: 그럼 차 한 잔 어때요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What does B drink?",
+      "options": [
+       "Coffee",
+       "Tea",
+       "Water"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "I am not a doctor. I am a teacher. I don't work at a hospital. I work at a school."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 의사가 아니에요. 저는 선생님이에요. 저는 병원에서 일하지 않아요. 학교에서 일해요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Where does the speaker work?",
+      "options": [
+       "At a hospital",
+       "At a school",
+       "At a bank"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Do you speak English?"
+      },
+      {
+       "s": "B",
+       "t": "Yes, I do."
+      },
+      {
+       "s": "A",
+       "t": "Do you speak French?"
+      },
+      {
+       "s": "B",
+       "t": "No, I don't."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 영어를 말해요?\n손님: 네, 말해요.\n직원: 프랑스어도 말해요?\n손님: 아니요, 안 해요."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "English: ______",
+      "answers": [
+       "yes"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "French: ______",
+      "answers": [
+       "no"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) I ___ drink coffee.\n2) She ___ work at a hospital.\n3) ___ you study English?",
+    "trans": {
+     "ko": "1) 저는 커피를 마시지 않아요. 2) 그녀는 병원에서 일하지 않아요. 3) 당신은 영어를 공부해요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "I ___ drink coffee.",
+      "options": [
+       "don't",
+       "doesn't",
+       "not"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "She ___ work at a hospital.",
+      "options": [
+       "don't",
+       "doesn't",
+       "isn't"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "___ you study English?",
+      "options": [
+       "Do",
+       "Does",
+       "Are"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Hello! I (1) not a student. I am a teacher. I (2) work at a hospital. (3) you work at a school?",
+    "trans": {
+     "ko": "안녕하세요! 저는 학생이 아니에요. 저는 선생님이에요. 저는 병원에서 일하지 않아요. 당신은 학교에서 일해요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "am",
+       "do",
+       "does"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "don't",
+       "doesn't",
+       "am not"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "Do",
+       "Does",
+       "Are"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "SURVEY\nDo you speak English? Yes\nDo you speak French? No\nDo you drink coffee? Yes",
+    "trans": {
+     "ko": "설문\n영어를 말해요? 네\n프랑스어를 말해요? 아니요\n커피를 마셔요? 네"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Does the person speak French?",
+      "options": [
+       "Yes",
+       "No",
+       "Not known"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "Does the person drink coffee?",
+      "options": [
+       "Yes",
+       "No",
+       "Not known"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Minho is not a doctor. He is a teacher. He works at a school. He doesn't drink coffee.",
+    "trans": {
+     "ko": "민호는 의사가 아니에요. 그는 선생님이에요. 그는 학교에서 일해요. 그는 커피를 마시지 않아요."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Minho is a doctor.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Minho works at a school.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Minho drinks tea.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "I don't drink coffee.",
+    "ko": "저는 커피를 마시지 않아요.",
+    "situation": {
+     "ko": "거절하거나 부정할 때",
+     "en": "Saying no to something"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "I'm not a doctor.",
+    "ko": "저는 의사가 아니에요.",
+    "situation": {
+     "ko": "사실이 아님을 말할 때",
+     "en": "Correcting information"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Do you speak English?",
+    "ko": "영어를 말해요?",
+    "situation": {
+     "ko": "언어를 물을 때",
+     "en": "Asking about languages"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Yes, I do. / No, I don't.",
+    "ko": "네, 해요. / 아니요, 안 해요.",
+    "situation": {
+     "ko": "짧게 대답할 때",
+     "en": "Giving short answers"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "I don't understand.",
+    "ko": "무슨 말인지 모르겠어요.",
+    "situation": {
+     "ko": "이해하지 못했을 때",
+     "en": "When you don't understand"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Why do you study English?",
+    "ko": "왜 영어를 공부해요?",
+    "situation": {
+     "ko": "이유를 물을 때",
+     "en": "Asking why"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "When do you work?",
+    "ko": "언제 일해요?",
+    "situation": {
+     "ko": "때를 물을 때",
+     "en": "Asking when"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "I have a question.",
+    "ko": "질문이 있어요.",
+    "situation": {
+     "ko": "질문을 시작할 때",
+     "en": "Starting a question"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "I don't ~.",
+    "ko": "저는 ~하지 않아요."
+   },
+   {
+    "id": "w2",
+    "t": "He/She doesn't ~.",
+    "ko": "그/그녀는 ~하지 않아요."
+   },
+   {
+    "id": "w3",
+    "t": "Do you ~?",
+    "ko": "당신은 ~해요?"
+   },
+   {
+    "id": "w4",
+    "t": "I am not a ~.",
+    "ko": "저는 ~가 아니에요."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "3문장으로 써 보세요: 하지 않는 것 하나, 내가 아닌 것 하나, 질문 하나.",
+    "en": "Write 3 sentences: one thing you don't do, one thing you are not, and one question."
+   },
+   "must_include": [
+    {
+     "label": "I don't ~",
+     "match": [
+      "i don't",
+      "i do not"
+     ]
+    },
+    {
+     "label": "I am not ~",
+     "match": [
+      "i am not",
+      "i'm not"
+     ]
+    },
+    {
+     "label": "Do you ~?",
+     "match": [
+      "do you"
+     ]
+    }
+   ],
+   "model": "I don't drink coffee. I am not a doctor. Do you study English?",
+   "model_trans": {
+    "ko": "저는 커피를 마시지 않아요. 저는 의사가 아니에요. 당신은 영어를 공부해요?",
+    "en": "I don't drink coffee. I am not a doctor. Do you study English?"
+   }
+  }
+ }
+}
