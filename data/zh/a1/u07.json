@@ -1,0 +1,834 @@
+{
+ "meta": {
+  "id": "zh_a1_u07",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a1",
+  "unit": 7,
+  "concept": "A1.U07",
+  "status": "live",
+  "title": {
+   "target": "地点和问路",
+   "ko": "장소와 길 묻기",
+   "en": "Places and directions"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "车站",
+   "pos": "noun",
+   "read": "chēzhàn",
+   "ko": "역",
+   "en": "station",
+   "ex": {
+    "t": "车站在哪儿？",
+    "read": "Chēzhàn zài nǎr?",
+    "ko": "역은 어디에 있어요?",
+    "en": "Where is the station?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "银行",
+   "pos": "noun",
+   "read": "yínháng",
+   "ko": "은행",
+   "en": "bank",
+   "ex": {
+    "t": "这条街上有一家银行。",
+    "read": "Zhè tiáo jiē shàng yǒu yì jiā yínháng.",
+    "ko": "이 거리에 은행이 있어요.",
+    "en": "There is a bank on this street."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "医院",
+   "pos": "noun",
+   "read": "yīyuàn",
+   "ko": "병원",
+   "en": "hospital",
+   "ex": {
+    "t": "医院很大。",
+    "read": "Yīyuàn hěn dà.",
+    "ko": "병원은 커요.",
+    "en": "The hospital is big."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "公园",
+   "pos": "noun",
+   "read": "gōngyuán",
+   "ko": "공원",
+   "en": "park",
+   "ex": {
+    "t": "城市里有一个公园。",
+    "read": "Chéngshì lǐ yǒu yí gè gōngyuán.",
+    "ko": "도시에 공원이 있어요.",
+    "en": "There is a park in the city."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "超市",
+   "pos": "noun",
+   "read": "chāoshì",
+   "ko": "슈퍼마켓",
+   "en": "supermarket",
+   "ex": {
+    "t": "这里有一家超市。",
+    "read": "Zhèlǐ yǒu yì jiā chāoshì.",
+    "ko": "여기에 슈퍼마켓이 있어요.",
+    "en": "There is a supermarket here."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "街",
+   "pos": "noun",
+   "read": "jiē",
+   "ko": "거리, 길",
+   "en": "street",
+   "ex": {
+    "t": "银行在这条街上。",
+    "read": "Yínháng zài zhè tiáo jiē shàng.",
+    "ko": "은행은 이 거리에 있어요.",
+    "en": "The bank is on this street."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "左边",
+   "pos": "adv",
+   "read": "zuǒbian",
+   "ko": "왼쪽",
+   "en": "left",
+   "ex": {
+    "t": "请往左拐。",
+    "read": "Qǐng wǎng zuǒ guǎi.",
+    "ko": "왼쪽으로 도세요.",
+    "en": "Turn left."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "右边",
+   "pos": "adv",
+   "read": "yòubian",
+   "ko": "오른쪽",
+   "en": "right",
+   "ex": {
+    "t": "请往右拐。",
+    "read": "Qǐng wǎng yòu guǎi.",
+    "ko": "오른쪽으로 도세요.",
+    "en": "Turn right."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "旁边",
+   "pos": "prep",
+   "read": "pángbiān",
+   "ko": "~ 옆에",
+   "en": "next to",
+   "ex": {
+    "t": "银行在车站旁边。",
+    "read": "Yínháng zài chēzhàn pángbiān.",
+    "ko": "은행은 역 옆에 있어요.",
+    "en": "The bank is next to the station."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "前面",
+   "pos": "prep",
+   "read": "qiánmian",
+   "ko": "~ 앞에",
+   "en": "in front of",
+   "ex": {
+    "t": "公园在学校前面。",
+    "read": "Gōngyuán zài xuéxiào qiánmian.",
+    "ko": "공원은 학교 앞에 있어요.",
+    "en": "The park is in front of the school."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "在 · 有 · 方位词",
+   "en": "Location: 在, 有 and position words"
+  },
+  "explain": {
+   "ko": "说明某个地方在哪儿，用「东西 + 在 + 地点」：银行在车站旁边。说明某地有什么，用「地点 + 有 + 东西」：学校前面有一个公园。问路用「……在哪儿？」。",
+   "en": "To say where something is use thing + 在 + place: 银行在车站旁边. To say what is somewhere use place + 有 + thing: 学校前面有一个公园. Ask with ……在哪儿？"
+  },
+  "table": {
+   "head": [
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "东西 + 在 + 地点",
+     "车站在这条街上。"
+    ],
+    [
+     "地点 + 有 + 东西",
+     "这里有一家银行。"
+    ],
+    [
+     "旁边 / 前面",
+     "银行在车站旁边。"
+    ],
+    [
+     "往左 / 往右拐",
+     "请往右拐。"
+    ],
+    [
+     "……在哪儿？",
+     "医院在哪儿？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「在」说明位置，「有」说明存在，不要混用。",
+    "en": "在 gives a location and 有 states existence; don't mix them up."
+   },
+   {
+    "ko": "方位词放在地点名词后面：学校前面、车站旁边。",
+    "en": "Position words follow the noun: 学校前面, 车站旁边."
+   },
+   {
+    "ko": "指路：请一直走，请往左拐，请往右拐。",
+    "en": "Directions: 请一直走, 请往左拐, 请往右拐。"
+   }
+  ],
+  "examples": [
+   {
+    "t": "车站在哪儿？",
+    "read": "Chēzhàn zài nǎr?",
+    "ko": "역은 어디에 있어요?",
+    "en": "Where is the station?"
+   },
+   {
+    "t": "银行在车站旁边。",
+    "read": "Yínháng zài chēzhàn pángbiān.",
+    "ko": "은행은 역 옆에 있어요.",
+    "en": "The bank is next to the station."
+   },
+   {
+    "t": "学校前面有一个公园。",
+    "read": "Xuéxiào qiánmian yǒu yí gè gōngyuán.",
+    "ko": "학교 앞에 공원이 있어요.",
+    "en": "There is a park in front of the school."
+   },
+   {
+    "t": "这条街上有医院吗？",
+    "read": "Zhè tiáo jiē shàng yǒu yīyuàn ma?",
+    "ko": "이 거리에 병원이 있어요?",
+    "en": "Is there a hospital on this street?"
+   },
+   {
+    "t": "请往右拐。",
+    "read": "Qǐng wǎng yòu guǎi.",
+    "ko": "오른쪽으로 도세요.",
+    "en": "Turn right."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "银行___车站旁边。",
+    "options": [
+     "在",
+     "有",
+     "是"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "这条街上___一家医院。",
+    "options": [
+     "有",
+     "在",
+     "是"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "公园在学校___。",
+    "options": [
+     "前面",
+     "左",
+     "哪"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "请往右___。",
+    "options": [
+     "拐",
+     "在",
+     "有"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "银行在哪儿？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 은행은 어디에 있어요?",
+     "en": "(Question) Where is the bank?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是哪一个？",
+      "options": [
+       "在车站旁边。",
+       "我是老师。",
+       "星期一。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这附近有公园吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 근처에 공원이 있어요?",
+     "en": "(Question) Is there a park near here?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是哪一个？",
+      "options": [
+       "有，在那边。",
+       "是的，我是学生。",
+       "这是公园。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请问，医院在哪儿？"
+      },
+      {
+       "s": "B",
+       "t": "一直走，然后往右拐。"
+      },
+      {
+       "s": "A",
+       "t": "远吗？"
+      },
+      {
+       "s": "B",
+       "t": "不远，就在学校旁边。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 실례합니다. 병원이 어디에 있어요?\nB: 쭉 가서 오른쪽으로 도세요.\nA: 멀어요?\nB: 아니요. 학교 옆에 있어요.",
+     "en": "A: Excuse me. Where is the hospital?\nB: Go straight and turn right.\nA: Is it far?\nB: No. It's next to the school."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "医院在哪儿？",
+      "options": [
+       "学校旁边",
+       "银行旁边",
+       "公园前面"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这条街上有银行、公园和超市。公园在学校前面。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 거리에는 은행, 공원, 슈퍼마켓이 있어요. 공원은 학교 앞에 있어요.",
+     "en": "On this street, there is a bank, a park, and a supermarket. The park is in front of the school."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "公园在哪儿？",
+      "options": [
+       "学校前面",
+       "银行旁边",
+       "超市旁边"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你去哪儿？"
+      },
+      {
+       "s": "B",
+       "t": "我去车站。"
+      },
+      {
+       "s": "A",
+       "t": "往左拐。车站在银行旁边。"
+      },
+      {
+       "s": "B",
+       "t": "谢谢。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안내원: 어디에 가세요?\n손님: 역에 가요.\n안내원: 왼쪽으로 도세요. 역은 은행 옆에 있어요.\n손님: 고맙습니다.",
+     "en": "Guide: Where are you going?\nGuest: To the station.\nGuide: Turn left. The station is next to the bank.\nGuest: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "方向: ______",
+      "answers": [
+       "左"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "旁边: ______",
+      "answers": [
+       "银行"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 这条街上___一家银行。\n2) 公园在学校___。\n3) 医院在___？",
+    "trans": {
+     "ko": "1) 이 거리에 은행이 있어요. 2) 공원이 두 개 있어요. 3) 병원은 어디에 있어요?",
+     "en": "1) There is a bank on this street. 2) There are two parks. 3) Where is the hospital?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这条街上___一家银行。",
+      "options": [
+       "有",
+       "在",
+       "是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "公园在学校___。",
+      "options": [
+       "前面",
+       "在",
+       "有"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "医院在___？",
+      "options": [
+       "哪儿",
+       "谁",
+       "什么"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好！我住在这条街(1)。学校(2)有一个公园。银行在公园(3)。",
+    "trans": {
+     "ko": "안녕하세요! 저는 이 거리에 살아요. 학교 앞에 공원이 있어요. 은행은 공원 옆에 있어요.",
+     "en": "Hello! I live on this street. There is a park in front of the school. The bank is next to the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "上",
+       "在",
+       "有"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "前面",
+       "在",
+       "是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "旁边",
+       "旁",
+       "是"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "路线图\n车站：银行旁边\n公园：学校前面\n医院：超市旁边",
+    "trans": {
+     "ko": "안내도\n역: 은행 옆\n공원: 학교 앞\n병원: 슈퍼마켓 옆",
+     "en": "MAP\nStation: next to the bank\nPark: in front of the school\nHospital: next to the supermarket"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "车站在哪儿？",
+      "options": [
+       "银行旁边",
+       "学校前面",
+       "超市旁边"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "学校前面有什么？",
+      "options": [
+       "医院",
+       "公园",
+       "银行"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "车站在这条街上。银行在车站旁边。医院很远。",
+    "trans": {
+     "ko": "역은 이 거리에 있어요. 은행은 역 옆에 있어요. 병원은 멀어요.",
+     "en": "The station is on this street. The bank is next to the station. The hospital is far."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "银行在车站旁边。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "医院很近。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "银行很大。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "请问，车站在哪儿？",
+    "read": "Qǐngwèn, chēzhàn zài nǎr?",
+    "ko": "실례합니다. 역이 어디에 있어요?",
+    "en": "Excuse me, where is the station?",
+    "situation": {
+     "ko": "길을 물을 때",
+     "en": "Asking the way"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "这附近有银行吗？",
+    "read": "Zhè fùjìn yǒu yínháng ma?",
+    "ko": "이 근처에 은행이 있어요?",
+    "en": "Is there a bank near here?",
+    "situation": {
+     "ko": "장소를 찾을 때",
+     "en": "Looking for a place"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "请一直走。",
+    "read": "Qǐng yìzhí zǒu.",
+    "ko": "쭉 가세요.",
+    "en": "Go straight.",
+    "situation": {
+     "ko": "길을 안내할 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "请往左拐。",
+    "read": "Qǐng wǎng zuǒ guǎi.",
+    "ko": "왼쪽으로 도세요.",
+    "en": "Turn left.",
+    "situation": {
+     "ko": "길을 안내할 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "请往右拐。",
+    "read": "Qǐng wǎng yòu guǎi.",
+    "ko": "오른쪽으로 도세요.",
+    "en": "Turn right.",
+    "situation": {
+     "ko": "길을 안내할 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "银行在车站旁边。",
+    "read": "Yínháng zài chēzhàn pángbiān.",
+    "ko": "은행은 역 옆에 있어요.",
+    "en": "The bank is next to the station.",
+    "situation": {
+     "ko": "위치를 설명할 때",
+     "en": "Describing a location"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "远吗？",
+    "read": "Yuǎn ma?",
+    "ko": "멀어요?",
+    "en": "Is it far?",
+    "situation": {
+     "ko": "거리를 물을 때",
+     "en": "Asking about distance"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "谢谢，你帮了我大忙。",
+    "read": "Xièxie, nǐ bāng le wǒ dà máng.",
+    "ko": "고맙습니다. 큰 도움이 됐어요.",
+    "en": "Thank you. That's very helpful.",
+    "situation": {
+     "ko": "감사를 표할 때",
+     "en": "Thanking someone"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜在哪儿？",
+    "read": "〜 Zài nǎr?",
+    "ko": "~는 어디에 있어요?",
+    "en": "Where is the ~?"
+   },
+   {
+    "id": "w2",
+    "t": "〜旁边有〜。",
+    "read": "〜 Pángbiān yǒu 〜.",
+    "ko": "~ 옆에 ~가 있어요.",
+    "en": "There is a ~ next to the ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜前面有〜。",
+    "read": "〜 Qiánmian yǒu 〜.",
+    "ko": "~ 앞에 ~가 있어요.",
+    "en": "There is a ~ in front of the ~."
+   },
+   {
+    "id": "w4",
+    "t": "往左/右拐。",
+    "read": "Wǎng zuǒ / yòu guǎi.",
+    "ko": "왼쪽/오른쪽으로 도세요.",
+    "en": "Turn left/right."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "길 안내를 3문장으로 써 보세요: 장소의 위치, 왼쪽 또는 오른쪽으로 가기, 옆에 있는 건물.",
+    "en": "Write 3 sentences giving directions: where a place is, turning left or right, and a building next to it."
+   },
+   "must_include": [
+    {
+     "label": "〜在哪儿",
+     "match": [
+      "在哪儿",
+      "在这条街上"
+     ]
+    },
+    {
+     "label": "往左/右拐",
+     "match": [
+      "往左拐",
+      "往右拐"
+     ]
+    },
+    {
+     "label": "〜旁边",
+     "match": [
+      "旁边"
+     ]
+    }
+   ],
+   "model": "车站在这条街上。请一直走，然后往左拐。银行在车站旁边。",
+   "model_trans": {
+    "ko": "역은 이 거리에 있어요. 쭉 가서 왼쪽으로 도세요. 은행은 역 옆에 있어요.",
+    "en": "The station is on this street. Go straight and turn left. The bank is next to the station."
+   }
+  }
+ }
+}

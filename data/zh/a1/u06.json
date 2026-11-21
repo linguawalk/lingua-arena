@@ -1,0 +1,832 @@
+{
+ "meta": {
+  "id": "zh_a1_u06",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a1",
+  "unit": 6,
+  "concept": "A1.U06",
+  "status": "live",
+  "title": {
+   "target": "点餐",
+   "ko": "음식 주문하기",
+   "en": "Ordering food"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "菜单",
+   "pos": "noun",
+   "read": "càidān",
+   "ko": "메뉴",
+   "en": "menu",
+   "ex": {
+    "t": "我可以看一下菜单吗？",
+    "read": "Wǒ kěyǐ kàn yíxià càidān ma?",
+    "ko": "메뉴판을 볼 수 있을까요?",
+    "en": "Can I see the menu, please?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "咖啡",
+   "pos": "noun",
+   "read": "kāfēi",
+   "ko": "커피",
+   "en": "coffee",
+   "ex": {
+    "t": "请给我一杯咖啡。",
+    "read": "Qǐng gěi wǒ yì bēi kāfēi.",
+    "ko": "커피 한 잔 주세요.",
+    "en": "I'd like a coffee, please."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "三明治",
+   "pos": "noun",
+   "read": "sānmíngzhì",
+   "ko": "샌드위치",
+   "en": "sandwich",
+   "ex": {
+    "t": "请给我一个三明治。",
+    "read": "Qǐng gěi wǒ yí gè sānmíngzhì.",
+    "ko": "치킨 샌드위치 주세요.",
+    "en": "A chicken sandwich, please."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "沙拉",
+   "pos": "noun",
+   "read": "shālā",
+   "ko": "샐러드",
+   "en": "salad",
+   "ex": {
+    "t": "请给我一份沙拉。",
+    "read": "Qǐng gěi wǒ yí fèn shālā.",
+    "ko": "작은 샐러드 하나 주세요.",
+    "en": "I'd like a small salad."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "汤",
+   "pos": "noun",
+   "read": "tāng",
+   "ko": "수프",
+   "en": "soup",
+   "ex": {
+    "t": "汤很烫。",
+    "read": "Tāng hěn tàng.",
+    "ko": "수프는 뜨거워요.",
+    "en": "The soup is hot."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "面包",
+   "pos": "noun",
+   "read": "miànbāo",
+   "ko": "빵",
+   "en": "bread",
+   "ex": {
+    "t": "可以再给我一点儿面包吗？",
+    "read": "Kěyǐ zài gěi wǒ yìdiǎnr miànbāo ma?",
+    "ko": "빵 좀 더 주실 수 있어요?",
+    "en": "Can I have some more bread?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "果汁",
+   "pos": "noun",
+   "read": "guǒzhī",
+   "ko": "주스",
+   "en": "juice",
+   "ex": {
+    "t": "请给我一杯果汁。",
+    "read": "Qǐng gěi wǒ yì bēi guǒzhī.",
+    "ko": "오렌지 주스 주세요.",
+    "en": "An orange juice, please."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "想要",
+   "pos": "verb",
+   "read": "xiǎng yào",
+   "ko": "~하고 싶다 (would like)",
+   "en": "would like",
+   "ex": {
+    "t": "你想要什么？",
+    "read": "Nǐ xiǎng yào shénme?",
+    "ko": "무엇을 드시겠어요?",
+    "en": "What would you like?"
+   }
+  },
+  {
+   "id": "v9",
+   "t": "账单",
+   "pos": "noun",
+   "read": "zhàngdān",
+   "ko": "계산서",
+   "en": "bill",
+   "ex": {
+    "t": "请给我账单。",
+    "read": "Qǐng gěi wǒ zhàngdān.",
+    "ko": "계산서 주세요.",
+    "en": "The bill, please."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "点菜",
+   "pos": "verb",
+   "read": "diǎncài",
+   "ko": "주문하다",
+   "en": "order",
+   "ex": {
+    "t": "我想点菜。",
+    "read": "Wǒ xiǎng diǎncài.",
+    "ko": "주문하시겠어요?",
+    "en": "Are you ready to order?"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "请给我 · 可以……吗？",
+   "en": "Ordering: 请给我 and 可以……吗？"
+  },
+  "explain": {
+   "ko": "点餐时最自然的说法是「请给我 + 数量 + 名词」。两样东西用「和」连接：沙拉和汤。礼貌地请求用「可以……吗？」：我可以看一下菜单吗？服务员会问「你想要什么？」。",
+   "en": "To order say 请给我 + quantity + noun. Join two items with 和: 沙拉和汤. Make a polite request with 可以……吗？ The server asks 你想要什么？"
+  },
+  "table": {
+   "head": [
+    "表达 / Expression",
+    "用法 / Use"
+   ],
+   "rows": [
+    [
+     "请给我 + 名词",
+     "点餐 · 请求"
+    ],
+    [
+     "A 和 B",
+     "两样东西"
+    ],
+    [
+     "可以……吗？",
+     "礼貌地请求"
+    ],
+    [
+     "你想要什么？",
+     "服务员问"
+    ],
+    [
+     "请给我账单",
+     "结账"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "数量放在名词前面：一杯咖啡、一份沙拉。",
+    "en": "The quantity goes before the noun: 一杯咖啡, 一份沙拉."
+   },
+   {
+    "ko": "「和」连接名词：面包和水。",
+    "en": "和 joins nouns: 面包和水。"
+   },
+   {
+    "ko": "「再……一点儿」表示再要一些：再给我一点儿水。",
+    "en": "再……一点儿 asks for more: 再给我一点儿水。"
+   }
+  ],
+  "examples": [
+   {
+    "t": "请给我一杯咖啡。",
+    "read": "Qǐng gěi wǒ yì bēi kāfēi.",
+    "ko": "커피 한 잔 주세요.",
+    "en": "I'd like a coffee, please."
+   },
+   {
+    "t": "我可以看一下菜单吗？",
+    "read": "Wǒ kěyǐ kàn yíxià càidān ma?",
+    "ko": "메뉴판을 볼 수 있을까요?",
+    "en": "Can I see the menu, please?"
+   },
+   {
+    "t": "你想要什么？",
+    "read": "Nǐ xiǎng yào shénme?",
+    "ko": "무엇을 드시겠어요?",
+    "en": "What would you like?"
+   },
+   {
+    "t": "请给我沙拉和汤。",
+    "read": "Qǐng gěi wǒ shālā hé tāng.",
+    "ko": "샐러드와 수프 주세요.",
+    "en": "I'd like a salad and a soup."
+   },
+   {
+    "t": "请给我账单。",
+    "read": "Qǐng gěi wǒ zhàngdān.",
+    "ko": "계산서 주세요.",
+    "en": "The bill, please."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "请___我一杯咖啡。",
+    "options": [
+     "给",
+     "是",
+     "有"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "沙拉___汤，谢谢。",
+    "options": [
+     "和",
+     "在",
+     "吗"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我可以看一下菜单___？",
+    "options": [
+     "吗",
+     "呢",
+     "了"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "请给我一___水。",
+    "options": [
+     "杯",
+     "个",
+     "本"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你想要什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 무엇을 드시겠어요?",
+     "en": "(Question) What would you like?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是哪一个？",
+      "options": [
+       "请给我一杯咖啡。",
+       "我是学生。",
+       "我住在首尔。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要喝点什么吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 마실 것 드릴까요?",
+     "en": "(Question) Would you like something to drink?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是哪一个？",
+      "options": [
+       "要，请给我一杯茶。",
+       "要，我是学生。",
+       "这是桌子。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你好，可以点菜了吗？"
+      },
+      {
+       "s": "B",
+       "t": "可以，请给我一个三明治。"
+      },
+      {
+       "s": "A",
+       "t": "喝点什么？"
+      },
+      {
+       "s": "B",
+       "t": "请给我一杯橙汁。就这些。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 안녕하세요. 주문하시겠어요?\nB: 네, 샌드위치 하나 주세요.\nA: 음료는요?\nB: 오렌지 주스 주세요. 그게 다예요.",
+     "en": "A: Hello. Are you ready to order?\nB: Yes, a sandwich, please.\nA: And to drink?\nB: An orange juice, please. That's all."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B点了什么饮料？",
+      "options": [
+       "咖啡",
+       "橙汁",
+       "水"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我在餐厅。我点了汤和沙拉。我还点了一杯茶。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 식당에 있어요. 저는 수프와 샐러드를 주문해요. 차도 한 잔 주문해요.",
+     "en": "I am at a restaurant. I order a soup and a salad. I also order a tea."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话的人点了什么？",
+      "options": [
+       "汤、沙拉和茶",
+       "三明治和果汁",
+       "面包和水"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你想要什么？"
+      },
+      {
+       "s": "B",
+       "t": "请给我一碗汤和一些面包。"
+      },
+      {
+       "s": "A",
+       "t": "喝点什么？"
+      },
+      {
+       "s": "B",
+       "t": "请给我一杯水。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "웨이터: 무엇을 드시겠어요?\n손님: 수프 하나와 빵 주세요.\n웨이터: 마실 것은요?\n손님: 물 한 잔 주세요.",
+     "en": "Waiter: What would you like?\nGuest: A soup and some bread, please.\nWaiter: And to drink?\nGuest: A water, please."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "食物: ______",
+      "answers": [
+       "汤"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "饮料: ______",
+      "answers": [
+       "水"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 请___我一杯咖啡。\n2) 我可以看一下菜单___？\n3) 你想___什么？",
+    "trans": {
+     "ko": "1) 커피 한 잔 주세요. 2) 메뉴판을 볼 수 있을까요? 3) 무엇을 드시겠어요?",
+     "en": "1) I'd like a coffee, please. 2) Can I see the menu, please? 3) What would you like?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "请___我一杯咖啡。",
+      "options": [
+       "给",
+       "是",
+       "有"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我可以看一下菜单___？",
+      "options": [
+       "吗",
+       "呢",
+       "了"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "你想___什么？",
+      "options": [
+       "要",
+       "在",
+       "有"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好！请给我一(1)三明治。汤很(2)。请给我(3)。",
+    "trans": {
+     "ko": "안녕하세요! 샌드위치 하나 주세요. 수프는 뜨거워요. 계산서 주세요.",
+     "en": "Hello! I would like a sandwich, please. The soup is hot. The bill, please."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "个",
+       "杯",
+       "本"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "烫",
+       "大",
+       "远"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "账单",
+       "面包",
+       "包"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "菜单\n三明治：五美元\n汤：三美元\n咖啡：两美元",
+    "trans": {
+     "ko": "메뉴\n샌드위치: 5달러\n수프: 3달러\n커피: 2달러",
+     "en": "MENU\nSandwich: $5\nSoup: $3\nCoffee: $2"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "汤多少钱？",
+      "options": [
+       "两美元",
+       "三美元",
+       "五美元"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "哪一个是五美元？",
+      "options": [
+       "咖啡",
+       "汤",
+       "三明治"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "安娜在餐厅。她点了沙拉和茶。沙拉很好吃。",
+    "trans": {
+     "ko": "안나는 식당에 있어요. 그녀는 샐러드와 차를 주문해요. 샐러드는 맛있어요.",
+     "en": "Anna is at a restaurant. She orders a salad and a tea. The salad is good."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "安娜点了咖啡。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "安娜点了沙拉。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "安娜用卡付钱。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我可以看一下菜单吗？",
+    "read": "Wǒ kěyǐ kàn yíxià càidān ma?",
+    "ko": "메뉴판 좀 볼 수 있을까요?",
+    "en": "Can I see the menu, please?",
+    "situation": {
+     "ko": "메뉴를 부탁할 때",
+     "en": "Asking for the menu"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我要点菜。",
+    "read": "Wǒ yào diǎncài.",
+    "ko": "주문할게요.",
+    "en": "I'd like to order.",
+    "situation": {
+     "ko": "주문을 시작할 때",
+     "en": "Starting your order"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "请给我一杯咖啡。",
+    "read": "Qǐng gěi wǒ yì bēi kāfēi.",
+    "ko": "커피 한 잔 주세요.",
+    "en": "I'd like a coffee, please.",
+    "situation": {
+     "ko": "음료를 주문할 때",
+     "en": "Ordering a drink"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "请给我三明治和沙拉。",
+    "read": "Qǐng gěi wǒ sānmíngzhì hé shālā.",
+    "ko": "샌드위치와 샐러드 주세요.",
+    "en": "A sandwich and a salad, please.",
+    "situation": {
+     "ko": "음식을 주문할 때",
+     "en": "Ordering food"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "可以再给我一点儿水吗？",
+    "read": "Kěyǐ zài gěi wǒ yìdiǎnr shuǐ ma?",
+    "ko": "물 좀 더 주실 수 있어요?",
+    "en": "Can I have some more water?",
+    "situation": {
+     "ko": "추가로 부탁할 때",
+     "en": "Asking for more"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "这个很好吃。",
+    "read": "Zhège hěn hǎochī.",
+    "ko": "이거 맛있어요.",
+    "en": "This is good.",
+    "situation": {
+     "ko": "맛을 말할 때",
+     "en": "Saying food is good"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "请给我账单。",
+    "read": "Qǐng gěi wǒ zhàngdān.",
+    "ko": "계산서 주세요.",
+    "en": "The bill, please.",
+    "situation": {
+     "ko": "계산할 때",
+     "en": "Asking for the bill"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "可以用卡付钱吗？",
+    "read": "Kěyǐ yòng kǎ fù qián ma?",
+    "ko": "카드로 계산할 수 있어요?",
+    "en": "Can I pay by card?",
+    "situation": {
+     "ko": "결제 방법을 물을 때",
+     "en": "Asking how to pay"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "请给我〜。",
+    "read": "Qǐng gěi wǒ 〜.",
+    "ko": "~ 주세요.",
+    "en": "I'd like a ~, please."
+   },
+   {
+    "id": "w2",
+    "t": "请给我〜和〜。",
+    "read": "Qǐng gěi wǒ 〜 hé 〜.",
+    "ko": "~와 ~ 주세요.",
+    "en": "A ~ and a ~, please."
+   },
+   {
+    "id": "w3",
+    "t": "我可以〜吗？",
+    "read": "Wǒ kěyǐ 〜 ma?",
+    "ko": "~를 볼 수 있을까요?",
+    "en": "Can I see the ~?"
+   },
+   {
+    "id": "w4",
+    "t": "请给我账单。",
+    "read": "Qǐng gěi wǒ zhàngdān.",
+    "ko": "계산서 주세요.",
+    "en": "The bill, please."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "식당에서 쓰는 문장 3개를 써 보세요: 메뉴 요청, 음식 주문, 계산서 요청.",
+    "en": "Write 3 sentences for a restaurant: ask for the menu, order food, and ask for the bill."
+   },
+   "must_include": [
+    {
+     "label": "请给我〜",
+     "match": [
+      "请给我"
+     ]
+    },
+    {
+     "label": "〜和〜",
+     "match": [
+      "和"
+     ]
+    },
+    {
+     "label": "账单",
+     "match": [
+      "账单"
+     ]
+    }
+   ],
+   "model": "我可以看一下菜单吗？请给我三明治和咖啡。请给我账单。",
+   "model_trans": {
+    "ko": "메뉴판 좀 볼 수 있을까요? 샌드위치와 커피 주세요. 계산서 주세요.",
+    "en": "Can I see the menu, please? I'd like a sandwich and a coffee, please. The bill, please."
+   }
+  }
+ }
+}
