@@ -1,0 +1,789 @@
+{
+ "meta": {
+  "id": "ko_a1_u16",
+  "lang": "ko",
+  "family": "asia",
+  "level": "a1",
+  "unit": 16,
+  "concept": "A1.U16",
+  "status": "live",
+  "title": {
+   "target": "집과 방",
+   "ko": "집과 방",
+   "en": "Home and rooms"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "집",
+   "pos": "noun",
+   "read": "jip",
+   "en": "house",
+   "ex": {
+    "t": "저는 큰 집에 살아요.",
+    "read": "jeoneun keun jibe sarayo.",
+    "en": "I live in a big house."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "방",
+   "pos": "noun",
+   "read": "bang",
+   "en": "room",
+   "ex": {
+    "t": "제 방은 작아요.",
+    "read": "je bangeun jagayo.",
+    "en": "My room is small."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "부엌",
+   "pos": "noun",
+   "read": "bueok",
+   "en": "kitchen",
+   "ex": {
+    "t": "부엌은 거실 옆에 있어요.",
+    "read": "bueokeun geosil yeope isseoyo.",
+    "en": "The kitchen is next to the living room."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "침실",
+   "pos": "noun",
+   "read": "chimsil",
+   "en": "bedroom",
+   "ex": {
+    "t": "침실에 침대가 있어요.",
+    "read": "chimsire chimdaega isseoyo.",
+    "en": "There is a bed in the bedroom."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "화장실",
+   "pos": "noun",
+   "read": "hwajangsil",
+   "en": "bathroom",
+   "ex": {
+    "t": "화장실은 왼쪽에 있어요.",
+    "read": "hwajangsireun oenjjoge isseoyo.",
+    "en": "The bathroom is on the left."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "거실",
+   "pos": "noun",
+   "read": "geosil",
+   "en": "living room",
+   "ex": {
+    "t": "우리는 거실에서 텔레비전을 봐요.",
+    "read": "urineun geosireseo tellebijeoneul bwayo.",
+    "en": "We watch TV in the living room."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "침대",
+   "pos": "noun",
+   "read": "chimdae",
+   "en": "bed",
+   "ex": {
+    "t": "침대는 제 방에 있어요.",
+    "read": "chimdaeneun je bange isseoyo.",
+    "en": "The bed is in my room."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "소파",
+   "pos": "noun",
+   "read": "sopa",
+   "en": "sofa",
+   "ex": {
+    "t": "거실에 소파가 있어요.",
+    "read": "geosire sopaga isseoyo.",
+    "en": "There is a sofa in the living room."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "창문",
+   "pos": "noun",
+   "read": "changmun",
+   "en": "window",
+   "ex": {
+    "t": "창문이 커요.",
+    "read": "changmuni keoyo.",
+    "en": "The window is big."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "문",
+   "pos": "noun",
+   "read": "mun",
+   "en": "door",
+   "ex": {
+    "t": "문은 창문 옆에 있어요.",
+    "read": "muneun changmun yeope isseoyo.",
+    "en": "The door is next to the window."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "-에 ~이/가 있어요 · 위치 · 방 어휘",
+   "en": "Describing a home: -에 ~이/가 있어요"
+  },
+  "explain": {
+   "ko": "방에 무엇이 있는지는 '장소에 + 물건이/가 + 있어요'로 말합니다: 거실에 소파가 있어요. 수는 '두 개'처럼 개수로 말합니다. 물건의 위치는 '은/는 ~ 옆에 있어요'를 씁니다. 크기나 느낌은 형용사로 말합니다: 제 방은 작아요.",
+   "en": "Say what is in a room with 'place에 + thing이/가 + 있어요': 거실에 소파가 있어요. Count with 개: 두 개. For position use '은/는 ~ 옆에 있어요'. Describe size with adjectives: 제 방은 작아요."
+  },
+  "table": {
+   "head": [
+    "표현 / Expression",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "장소에 + 명사이/가 있어요",
+     "침실에 침대가 있어요."
+    ],
+    [
+     "명사 + 은/는 + ~ 옆에 있어요",
+     "부엌은 거실 옆에 있어요."
+    ],
+    [
+     "수 + 개",
+     "방이 세 개 있어요."
+    ],
+    [
+     "어디예요?",
+     "화장실이 어디예요?"
+    ],
+    [
+     "형용사",
+     "제 방은 작아요."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "한국어에는 단수와 복수의 구별이 없습니다: 창문이 있어요 / 창문이 두 개 있어요.",
+    "en": "Korean doesn't mark plural: 창문이 있어요 / 창문이 두 개 있어요."
+   },
+   {
+    "ko": "방 수는 '개'로 셉니다: 한 개, 두 개, 세 개.",
+    "en": "Count rooms with 개: 한 개, 두 개, 세 개."
+   },
+   {
+    "ko": "'우리 집'은 '제 집'보다 자연스럽습니다.",
+    "en": "우리 집 is more natural than 제 집."
+   }
+  ],
+  "examples": [
+   {
+    "t": "저는 큰 집에 살아요.",
+    "read": "jeoneun keun jibe sarayo.",
+    "en": "I live in a big house."
+   },
+   {
+    "t": "침실에 침대가 있어요.",
+    "read": "chimsire chimdaega isseoyo.",
+    "en": "There is a bed in the bedroom."
+   },
+   {
+    "t": "부엌은 거실 옆에 있어요.",
+    "read": "bueokeun geosil yeope isseoyo.",
+    "en": "The kitchen is next to the living room."
+   },
+   {
+    "t": "거실에 소파가 있어요.",
+    "read": "geosire sopaga isseoyo.",
+    "en": "There is a sofa in the living room."
+   },
+   {
+    "t": "화장실은 어디에 있어요?",
+    "read": "hwajangsireun eodie isseoyo?",
+    "en": "Where is the bathroom?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "거실에 소파___ 있어요.",
+    "options": [
+     "가",
+     "를",
+     "에서"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "방이 두 ___ 있어요.",
+    "options": [
+     "개",
+     "명",
+     "권"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "침대는 침실___ 있어요.",
+    "options": [
+     "에",
+     "를",
+     "으로"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "부엌은 거실 ___ 있어요.",
+    "options": [
+     "옆에",
+     "옆",
+     "에서"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "화장실이 어디예요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Where is the bathroom?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "왼쪽에 있어요.",
+       "화장실이에요.",
+       "잘 지내요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "방이 몇 개예요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) How many rooms are there?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "세 개 있어요.",
+       "침대가 있어요.",
+       "커요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "새 집은 어때요?"
+      },
+      {
+       "s": "B",
+       "t": "커요. 방이 세 개 있어요."
+      },
+      {
+       "s": "A",
+       "t": "부엌은 어디에 있어요?"
+      },
+      {
+       "s": "B",
+       "t": "거실 옆에 있어요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: How is your new house?\nB: It's big. There are three rooms.\nA: Where is the kitchen?\nB: It's next to the living room."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "방이 몇 개 있어요?",
+      "options": [
+       "2개",
+       "3개",
+       "4개"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "제 침실은 작아요. 침실에 침대와 의자가 있어요. 창문은 커요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "My bedroom is small. There is a bed and a chair in the bedroom. The window is big."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "침실에는 무엇이 있어요?",
+      "options": [
+       "침대와 의자",
+       "소파와 탁자",
+       "침대와 소파"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "집에 방이 몇 개예요?"
+      },
+      {
+       "s": "B",
+       "t": "네 개요."
+      },
+      {
+       "s": "A",
+       "t": "화장실은요?"
+      },
+      {
+       "s": "B",
+       "t": "두 개요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Clerk: How many rooms are there in your house?\nGuest: Four.\nClerk: And bathrooms?\nGuest: Two."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "방: ______ 개",
+      "answers": [
+       "네"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "화장실: ______ 개",
+      "answers": [
+       "두"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 거실에 소파___ 있어요.\n2) 창문이 두 ___ 있어요.\n3) 침대는 침실___ 있어요.",
+    "trans": {
+     "en": "1) There is a sofa in the living room. 2) There are two windows. 3) The bed is in the bedroom."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "거실에 소파___ 있어요.",
+      "options": [
+       "가",
+       "를",
+       "에서"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "창문이 두 ___ 있어요.",
+      "options": [
+       "개",
+       "명",
+       "권"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "침대는 침실___ 있어요.",
+      "options": [
+       "에",
+       "를",
+       "으로"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "안녕하세요! 저는 작은 집에 (1). 방이 두 개 (2). 거실에 소파가 있어요. 부엌은 거실 (3) 있어요.",
+    "trans": {
+     "en": "Hello! I live in a small house. There are two rooms. There is a sofa in the living room. The kitchen is next to the living room."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "살아요",
+       "가요",
+       "먹어요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "있어요",
+       "없어요",
+       "아니에요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "옆에",
+       "옆",
+       "에서"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "집 안내\n침실: 침대, 의자\n거실: 소파\n부엌: 탁자",
+    "trans": {
+     "en": "HOUSE PLAN\nBedroom: bed, chair\nLiving room: sofa\nKitchen: table"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "거실에는 무엇이 있어요?",
+      "options": [
+       "침대",
+       "소파",
+       "탁자"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "탁자는 어디에 있어요?",
+      "options": [
+       "침실",
+       "거실",
+       "부엌"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "민호의 집은 커요. 침실이 세 개 있어요. 부엌은 거실 옆에 있어요.",
+    "trans": {
+     "en": "Minho's house is big. There are three bedrooms. The kitchen is next to the living room."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "민호의 집은 작아요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "민호의 집에는 침실이 세 개 있어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "민호의 집에는 정원이 있어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "우리 집을 소개할게요.",
+    "read": "uri jibeul sogaehalgeyo.",
+    "en": "Let me show you my house.",
+    "situation": {
+     "ko": "집을 소개할 때",
+     "en": "Showing your home"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "방이 몇 개예요?",
+    "read": "bangi myeot gaeyeyo?",
+    "en": "How many rooms are there?",
+    "situation": {
+     "ko": "방 개수를 물을 때",
+     "en": "Asking about rooms"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "방이 세 개 있어요.",
+    "read": "bangi se gae isseoyo.",
+    "en": "There are three rooms.",
+    "situation": {
+     "ko": "방 개수를 말할 때",
+     "en": "Saying how many rooms"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "부엌은 거실 옆에 있어요.",
+    "read": "bueokeun geosil yeope isseoyo.",
+    "en": "The kitchen is next to the living room.",
+    "situation": {
+     "ko": "위치를 설명할 때",
+     "en": "Describing locations"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "화장실이 어디예요?",
+    "read": "hwajangsiri eodiyeyo?",
+    "en": "Where is the bathroom?",
+    "situation": {
+     "ko": "화장실을 찾을 때",
+     "en": "Asking for the bathroom"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "침실에 침대가 있어요.",
+    "read": "chimsire chimdaega isseoyo.",
+    "en": "There is a bed in the bedroom.",
+    "situation": {
+     "ko": "방 안을 설명할 때",
+     "en": "Describing a room"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "제 방은 작아요.",
+    "read": "je bangeun jagayo.",
+    "en": "My room is small.",
+    "situation": {
+     "ko": "방을 설명할 때",
+     "en": "Describing your room"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "창문이 커요.",
+    "read": "changmuni keoyo.",
+    "en": "The window is big.",
+    "situation": {
+     "ko": "방을 설명할 때",
+     "en": "Describing a room"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "우리 집에는 ~가 있어요.",
+    "read": "uri jibeneun ~ga isseoyo.",
+    "en": "There is a ~ in my house."
+   },
+   {
+    "id": "w2",
+    "t": "~는 ~ 옆에 있어요.",
+    "read": "~neun ~ yeope isseoyo.",
+    "en": "The ~ is next to the ~."
+   },
+   {
+    "id": "w3",
+    "t": "~에 ~가 있어요.",
+    "read": "~e ~ga isseoyo.",
+    "en": "There is a ~ in the ~."
+   },
+   {
+    "id": "w4",
+    "t": "제 방은 ~해요.",
+    "read": "je bangeun ~haeyo.",
+    "en": "My room is ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "집을 3문장으로 소개해 보세요: 방 개수, 한 방의 가구, 방의 위치.",
+    "en": "Describe your home in 3 sentences: how many rooms, furniture in one room, and where a room is."
+   },
+   "must_include": [
+    {
+     "label": "우리 집에는 ~가 있어요",
+     "match": [
+      "가 있어요"
+     ]
+    },
+    {
+     "label": "~는 ~ 옆에 있어요",
+     "match": [
+      "옆에 있어요"
+     ]
+    },
+    {
+     "label": "~에 ~가 있어요",
+     "match": [
+      "에 소파가",
+      "에 침대가",
+      "에 탁자가",
+      "방이"
+     ]
+    }
+   ],
+   "model": "우리 집에는 방이 세 개 있어요. 거실에 소파가 있어요. 부엌은 거실 옆에 있어요.",
+   "model_trans": {
+    "ko": "우리 집에는 방이 세 개 있어요. 거실에 소파가 있어요. 부엌은 거실 옆에 있어요.",
+    "en": "There are three rooms in my house. There is a sofa in the living room. The kitchen is next to the living room."
+   }
+  }
+ }
+}
