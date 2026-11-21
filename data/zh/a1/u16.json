@@ -1,0 +1,832 @@
+{
+ "meta": {
+  "id": "zh_a1_u16",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a1",
+  "unit": 16,
+  "concept": "A1.U16",
+  "status": "live",
+  "title": {
+   "target": "家和房间",
+   "ko": "집과 방",
+   "en": "Home and rooms"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "房子",
+   "pos": "noun",
+   "read": "fángzi",
+   "ko": "집",
+   "en": "house",
+   "ex": {
+    "t": "我住在一个大房子里。",
+    "read": "Wǒ zhù zài yí gè dà fángzi lǐ.",
+    "ko": "저는 큰 집에 살아요.",
+    "en": "I live in a big house."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "房间",
+   "pos": "noun",
+   "read": "fángjiān",
+   "ko": "방",
+   "en": "room",
+   "ex": {
+    "t": "我的房间很小。",
+    "read": "Wǒ de fángjiān hěn xiǎo.",
+    "ko": "제 방은 작아요.",
+    "en": "My room is small."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "厨房",
+   "pos": "noun",
+   "read": "chúfáng",
+   "ko": "부엌",
+   "en": "kitchen",
+   "ex": {
+    "t": "厨房在客厅旁边。",
+    "read": "Chúfáng zài kètīng pángbiān.",
+    "ko": "부엌은 거실 옆에 있어요.",
+    "en": "The kitchen is next to the living room."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "卧室",
+   "pos": "noun",
+   "read": "wòshì",
+   "ko": "침실",
+   "en": "bedroom",
+   "ex": {
+    "t": "卧室里有一张床。",
+    "read": "Wòshì lǐ yǒu yì zhāng chuáng.",
+    "ko": "침실에 침대가 있어요.",
+    "en": "There is a bed in the bedroom."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "洗手间",
+   "pos": "noun",
+   "read": "xǐshǒujiān",
+   "ko": "화장실, 욕실",
+   "en": "bathroom",
+   "ex": {
+    "t": "洗手间在左边。",
+    "read": "Xǐshǒujiān zài zuǒbian.",
+    "ko": "화장실은 왼쪽에 있어요.",
+    "en": "The bathroom is on the left."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "客厅",
+   "pos": "noun",
+   "read": "kètīng",
+   "ko": "거실",
+   "en": "living room",
+   "ex": {
+    "t": "我们在客厅看电视。",
+    "read": "Wǒmen zài kètīng kàn diànshì.",
+    "ko": "우리는 거실에서 텔레비전을 봐요.",
+    "en": "We watch TV in the living room."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "床",
+   "pos": "noun",
+   "read": "chuáng",
+   "ko": "침대",
+   "en": "bed",
+   "ex": {
+    "t": "床在我的房间里。",
+    "read": "Chuáng zài wǒ de fángjiān lǐ.",
+    "ko": "침대는 제 방에 있어요.",
+    "en": "The bed is in my room."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "沙发",
+   "pos": "noun",
+   "read": "shāfā",
+   "ko": "소파",
+   "en": "sofa",
+   "ex": {
+    "t": "客厅里有一个沙发。",
+    "read": "Kètīng lǐ yǒu yí gè shāfā.",
+    "ko": "거실에 소파가 있어요.",
+    "en": "There is a sofa in the living room."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "窗户",
+   "pos": "noun",
+   "read": "chuānghu",
+   "ko": "창문",
+   "en": "window",
+   "ex": {
+    "t": "窗户很大。",
+    "read": "Chuānghu hěn dà.",
+    "ko": "창문이 커요.",
+    "en": "The window is big."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "门",
+   "pos": "noun",
+   "read": "mén",
+   "ko": "문",
+   "en": "door",
+   "ex": {
+    "t": "门在窗户旁边。",
+    "read": "Mén zài chuānghu pángbiān.",
+    "ko": "문은 창문 옆에 있어요.",
+    "en": "The door is next to the window."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "地点 + 有 + 东西 · 在",
+   "en": "Describing a home: 地点 + 有 + 东西 and 在"
+  },
+  "explain": {
+   "ko": "说房间里有什么，用「地点 + 有 + 东西」：客厅里有一个沙发。说东西在哪儿，用「东西 + 在 + 地点」：床在卧室里。数量用量词：两个房间、一张床。",
+   "en": "Say what is in a room with place + 有 + thing: 客厅里有一个沙发. Say where a thing is with thing + 在 + place: 床在卧室里. Use measure words for counts: 两个房间, 一张床。"
+  },
+  "table": {
+   "head": [
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "地点 + 有 + 东西",
+     "卧室里有一张床。"
+    ],
+    [
+     "东西 + 在 + 地点",
+     "床在卧室里。"
+    ],
+    [
+     "在 + ……旁边",
+     "厨房在客厅旁边。"
+    ],
+    [
+     "几个房间",
+     "有三个房间。"
+    ],
+    [
+     "很 + 形容词",
+     "我的房间很小。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「有」放在地点后面，「在」放在东西后面。",
+    "en": "有 follows the place; 在 follows the thing."
+   },
+   {
+    "ko": "房间用「个」，床用「张」，沙发用「个」。",
+    "en": "Rooms take 个, beds take 张, sofas take 个."
+   },
+   {
+    "ko": "「里」表示「在……里面」：卧室里。",
+    "en": "里 means 'inside': 卧室里。"
+   }
+  ],
+  "examples": [
+   {
+    "t": "我住在一个大房子里。",
+    "read": "Wǒ zhù zài yí gè dà fángzi lǐ.",
+    "ko": "저는 큰 집에 살아요.",
+    "en": "I live in a big house."
+   },
+   {
+    "t": "卧室里有一张床。",
+    "read": "Wòshì lǐ yǒu yì zhāng chuáng.",
+    "ko": "침실에 침대가 있어요.",
+    "en": "There is a bed in the bedroom."
+   },
+   {
+    "t": "厨房在客厅旁边。",
+    "read": "Chúfáng zài kètīng pángbiān.",
+    "ko": "부엌은 거실 옆에 있어요.",
+    "en": "The kitchen is next to the living room."
+   },
+   {
+    "t": "客厅里有一个沙发。",
+    "read": "Kètīng lǐ yǒu yí gè shāfā.",
+    "ko": "거실에 소파가 있어요.",
+    "en": "There is a sofa in the living room."
+   },
+   {
+    "t": "洗手间在哪儿？",
+    "read": "Xǐshǒujiān zài nǎr?",
+    "ko": "화장실은 어디에 있어요?",
+    "en": "Where is the bathroom?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "客厅里___一个沙发。",
+    "options": [
+     "有",
+     "在",
+     "是"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我家有两个___。",
+    "options": [
+     "房间",
+     "床",
+     "门"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "床___卧室里。",
+    "options": [
+     "在",
+     "有",
+     "是"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "厨房在客厅___。",
+    "options": [
+     "旁边",
+     "在",
+     "有"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "洗手间在哪儿？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 화장실이 어디예요?",
+     "en": "(Question) Where is the bathroom?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是哪一个？",
+      "options": [
+       "在左边。",
+       "是洗手间。",
+       "我很好。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "有几个房间？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 방이 몇 개예요?",
+     "en": "(Question) How many rooms are there?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是哪一个？",
+      "options": [
+       "有三个。",
+       "有一张床。",
+       "很大。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新家怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "很大，有三个房间。"
+      },
+      {
+       "s": "A",
+       "t": "厨房在哪儿？"
+      },
+      {
+       "s": "B",
+       "t": "在客厅旁边。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 새 집은 어때요?\nB: 커요. 방이 세 개 있어요.\nA: 부엌은 어디에 있어요?\nB: 거실 옆에 있어요.",
+     "en": "A: How is your new house?\nB: It's big. There are three rooms.\nA: Where is the kitchen?\nB: It's next to the living room."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "有几个房间？",
+      "options": [
+       "2个",
+       "3个",
+       "4个"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我的卧室很小。卧室里有一张床和一把椅子。窗户很大。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제 침실은 작아요. 침실에 침대와 의자가 있어요. 창문은 커요.",
+     "en": "My bedroom is small. There is a bed and a chair in the bedroom. The window is big."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "卧室里有什么？",
+      "options": [
+       "床和椅子",
+       "沙发和桌子",
+       "床和沙发"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "家里有几个房间？"
+      },
+      {
+       "s": "B",
+       "t": "四个。"
+      },
+      {
+       "s": "A",
+       "t": "洗手间呢？"
+      },
+      {
+       "s": "B",
+       "t": "两个。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 집에 방이 몇 개예요?\n손님: 네 개요.\n직원: 화장실은요?\n손님: 두 개요.",
+     "en": "Clerk: How many rooms are there in your house?\nGuest: Four.\nClerk: And bathrooms?\nGuest: Two."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "房间: ______",
+      "answers": [
+       "四个"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "洗手间: ______",
+      "answers": [
+       "两个"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 客厅里___一个沙发。\n2) 窗户有两___。\n3) 床___卧室里。",
+    "trans": {
+     "ko": "1) 거실에 소파가 있어요. 2) 창문이 두 개 있어요. 3) 침대는 침실에 있어요.",
+     "en": "1) There is a sofa in the living room. 2) There are two windows. 3) The bed is in the bedroom."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "客厅里___一个沙发。",
+      "options": [
+       "有",
+       "在",
+       "是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "窗户有两___。",
+      "options": [
+       "个",
+       "张",
+       "本"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "床___卧室里。",
+      "options": [
+       "在",
+       "有",
+       "是"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好！我住在一个小房子(1)。房子里(2)两个房间。厨房在客厅(3)。",
+    "trans": {
+     "ko": "안녕하세요! 저는 작은 집에 살아요. 방이 두 개 있어요. 거실에 소파가 있어요. 부엌은 거실 옆에 있어요.",
+     "en": "Hello! I live in a small house. There are two rooms. There is a sofa in the living room. The kitchen is next to the living room."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "里",
+       "在",
+       "是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "有",
+       "在",
+       "是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "旁边",
+       "旁",
+       "有"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "房屋介绍\n卧室：床，椅子\n客厅：沙发\n厨房：桌子",
+    "trans": {
+     "ko": "집 안내\n침실: 침대, 의자\n거실: 소파\n부엌: 탁자",
+     "en": "HOUSE PLAN\nBedroom: bed, chair\nLiving room: sofa\nKitchen: table"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "客厅里有什么？",
+      "options": [
+       "床",
+       "沙发",
+       "桌子"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "桌子在哪儿？",
+      "options": [
+       "卧室",
+       "客厅",
+       "厨房"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "民浩家很大。有三个卧室。厨房在客厅旁边。",
+    "trans": {
+     "ko": "민호의 집은 커요. 침실이 세 개 있어요. 부엌은 거실 옆에 있어요.",
+     "en": "Minho's house is big. There are three bedrooms. The kitchen is next to the living room."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "民浩家很小。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "有三个卧室。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "有花园。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我来介绍一下我家。",
+    "read": "Wǒ lái jièshào yíxià wǒ jiā.",
+    "ko": "우리 집을 소개할게요.",
+    "en": "Let me show you my house.",
+    "situation": {
+     "ko": "집을 소개할 때",
+     "en": "Showing your home"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "有几个房间？",
+    "read": "Yǒu jǐ gè fángjiān?",
+    "ko": "방이 몇 개예요?",
+    "en": "How many rooms are there?",
+    "situation": {
+     "ko": "방 개수를 물을 때",
+     "en": "Asking about rooms"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "有三个房间。",
+    "read": "Yǒu sān gè fángjiān.",
+    "ko": "방이 세 개 있어요.",
+    "en": "There are three rooms.",
+    "situation": {
+     "ko": "방 개수를 말할 때",
+     "en": "Saying how many rooms"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "厨房在客厅旁边。",
+    "read": "Chúfáng zài kètīng pángbiān.",
+    "ko": "부엌은 거실 옆에 있어요.",
+    "en": "The kitchen is next to the living room.",
+    "situation": {
+     "ko": "위치를 설명할 때",
+     "en": "Describing locations"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "洗手间在哪儿？",
+    "read": "Xǐshǒujiān zài nǎr?",
+    "ko": "화장실이 어디예요?",
+    "en": "Where is the bathroom?",
+    "situation": {
+     "ko": "화장실을 찾을 때",
+     "en": "Asking for the bathroom"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "卧室里有一张床。",
+    "read": "Wòshì lǐ yǒu yì zhāng chuáng.",
+    "ko": "침실에 침대가 있어요.",
+    "en": "There is a bed in the bedroom.",
+    "situation": {
+     "ko": "방 안을 설명할 때",
+     "en": "Describing a room"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我的房间很小。",
+    "read": "Wǒ de fángjiān hěn xiǎo.",
+    "ko": "제 방은 작아요.",
+    "en": "My room is small.",
+    "situation": {
+     "ko": "방을 설명할 때",
+     "en": "Describing your room"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "窗户很大。",
+    "read": "Chuānghu hěn dà.",
+    "ko": "창문이 커요.",
+    "en": "The window is big.",
+    "situation": {
+     "ko": "방을 설명할 때",
+     "en": "Describing a room"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我家有〜。",
+    "read": "Wǒ jiā yǒu 〜.",
+    "ko": "우리 집에는 ~가 있어요.",
+    "en": "There is a ~ in my house."
+   },
+   {
+    "id": "w2",
+    "t": "〜在〜旁边。",
+    "read": "〜 Zài 〜 pángbiān.",
+    "ko": "~는 ~ 옆에 있어요.",
+    "en": "The ~ is next to the ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜里有〜。",
+    "read": "〜 Lǐ yǒu 〜.",
+    "ko": "~에 ~가 있어요.",
+    "en": "There is a ~ in the ~."
+   },
+   {
+    "id": "w4",
+    "t": "我的房间很〜。",
+    "read": "Wǒ de fángjiān hěn 〜.",
+    "ko": "제 방은 ~해요.",
+    "en": "My room is ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "집을 3문장으로 소개해 보세요: 방 개수, 한 방의 가구, 방의 위치.",
+    "en": "Describe your home in 3 sentences: how many rooms, furniture in one room, and where a room is."
+   },
+   "must_include": [
+    {
+     "label": "我家有〜",
+     "match": [
+      "我家有"
+     ]
+    },
+    {
+     "label": "〜里有〜",
+     "match": [
+      "里有"
+     ]
+    },
+    {
+     "label": "〜在〜旁边",
+     "match": [
+      "旁边"
+     ]
+    }
+   ],
+   "model": "我家有三个房间。客厅里有沙发。厨房在客厅旁边。",
+   "model_trans": {
+    "ko": "우리 집에는 방이 세 개 있어요. 거실에 소파가 있어요. 부엌은 거실 옆에 있어요.",
+    "en": "There are three rooms in my house. There is a sofa in the living room. The kitchen is next to the living room."
+   }
+  }
+ }
+}
