@@ -1,0 +1,843 @@
+{
+ "meta": {
+  "id": "zh_a1_u01",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a1",
+  "unit": 1,
+  "concept": "A1.U01",
+  "status": "pilot",
+  "title": {
+   "target": "自我介绍",
+   "ko": "자기소개와 '이다' 동사",
+   "en": "Introducing yourself & 'to be'"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "你好",
+   "pos": "interj",
+   "read": "nǐ hǎo",
+   "ko": "안녕하세요",
+   "en": "hello",
+   "ex": {
+    "t": "你好，我是安娜。",
+    "read": "Nǐ hǎo, wǒ shì Ānnà.",
+    "ko": "안녕하세요, 저는 안나예요.",
+    "en": "Hello, I'm Anna."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "再见",
+   "pos": "interj",
+   "read": "zàijiàn",
+   "ko": "안녕히 가세요",
+   "en": "goodbye",
+   "ex": {
+    "t": "再见，汤姆。",
+    "read": "Zàijiàn, Tāngmǔ.",
+    "ko": "안녕히 가세요, 톰 씨.",
+    "en": "Goodbye, Tom."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "谢谢",
+   "pos": "interj",
+   "read": "xièxie",
+   "ko": "고맙습니다",
+   "en": "thank you",
+   "ex": {
+    "t": "谢谢，安娜。",
+    "read": "Xièxie, Ānnà.",
+    "ko": "고마워요, 안나 씨.",
+    "en": "Thank you, Anna."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "名字",
+   "pos": "noun",
+   "read": "míngzi",
+   "ko": "이름",
+   "en": "name",
+   "ex": {
+    "t": "我的名字是汤姆。",
+    "read": "Wǒ de míngzi shì Tāngmǔ.",
+    "ko": "제 이름은 톰이에요.",
+    "en": "My name is Tom."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "学生",
+   "pos": "noun",
+   "read": "xuésheng",
+   "ko": "학생",
+   "en": "student",
+   "ex": {
+    "t": "我是学生。",
+    "read": "Wǒ shì xuésheng.",
+    "ko": "저는 학생이에요.",
+    "en": "I am a student."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "老师",
+   "pos": "noun",
+   "read": "lǎoshī",
+   "ko": "선생님",
+   "en": "teacher",
+   "ex": {
+    "t": "她是老师。",
+    "read": "Tā shì lǎoshī.",
+    "ko": "그녀는 선생님이에요.",
+    "en": "She is a teacher."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "朋友",
+   "pos": "noun",
+   "read": "péngyou",
+   "ko": "친구",
+   "en": "friend",
+   "ex": {
+    "t": "他是我的朋友。",
+    "read": "Tā shì wǒ de péngyou.",
+    "ko": "그는 제 친구예요.",
+    "en": "He is my friend."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "国家",
+   "pos": "noun",
+   "read": "guójiā",
+   "ko": "나라",
+   "en": "country",
+   "ex": {
+    "t": "韩国是一个国家。",
+    "read": "Hánguó shì yí ge guójiā.",
+    "ko": "한국은 나라예요.",
+    "en": "Korea is a country."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "韩国",
+   "pos": "noun",
+   "read": "Hánguó",
+   "ko": "한국",
+   "en": "Korea",
+   "ex": {
+    "t": "我来自韩国。",
+    "read": "Wǒ láizì Hánguó.",
+    "ko": "저는 한국에서 왔어요.",
+    "en": "I am from Korea."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "医生",
+   "pos": "noun",
+   "read": "yīshēng",
+   "ko": "의사",
+   "en": "doctor",
+   "ex": {
+    "t": "汤姆是医生。",
+    "read": "Tāngmǔ shì yīshēng.",
+    "ko": "톰은 의사예요.",
+    "en": "Tom is a doctor."
+   }
+  }
+ ],
+ "grammar": {
+  "explain": {
+   "ko": "'是'는 '~이다'를 뜻하며 주어가 바뀌어도 모양이 변하지 않습니다. 형용사 앞에는 쓰지 않습니다(이후 유닛).",
+   "en": "'是' means 'to be' and never changes with the subject. It is not used before adjectives (later unit)."
+  },
+  "table": {
+   "head": [
+    "주어 / Subject",
+    "是",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "我",
+     "是",
+     "我是学生。"
+    ],
+    [
+     "你",
+     "是",
+     "你是老师。"
+    ],
+    [
+     "他 / 她",
+     "是",
+     "她是医生。"
+    ],
+    [
+     "我们",
+     "是",
+     "我们是朋友。"
+    ],
+    [
+     "他们",
+     "是",
+     "他们是学生。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "부정문은 不是: 我不是医生。",
+    "en": "Negative: 不是: 我不是医生。"
+   },
+   {
+    "ko": "의문문은 문장 끝에 吗를 붙입니다: 你是学生吗？",
+    "en": "For yes/no questions add 吗 at the end: 你是学生吗？"
+   },
+   {
+    "ko": "간체자를 사용하고, 발음은 병음(pinyin)과 성조 부호로 표기합니다.",
+    "en": "Simplified characters are used; pronunciation is written in pinyin with tone marks."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我是学生。",
+    "read": "Wǒ shì xuésheng.",
+    "ko": "저는 학생이에요.",
+    "en": "I am a student."
+   },
+   {
+    "t": "你是我的朋友。",
+    "read": "Nǐ shì wǒ de péngyou.",
+    "ko": "당신은 제 친구예요.",
+    "en": "You are my friend."
+   },
+   {
+    "t": "她是老师。",
+    "read": "Tā shì lǎoshī.",
+    "ko": "그녀는 선생님이에요.",
+    "en": "She is a teacher."
+   },
+   {
+    "t": "我们是朋友。",
+    "read": "Wǒmen shì péngyou.",
+    "ko": "우리는 친구예요.",
+    "en": "We are friends."
+   },
+   {
+    "t": "他们是医生。",
+    "read": "Tāmen shì yīshēng.",
+    "ko": "그들은 의사예요.",
+    "en": "They are doctors."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我___学生。",
+    "options": [
+     "是",
+     "不",
+     "吗"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "你是老师___？",
+    "options": [
+     "是",
+     "吗",
+     "不"
+    ],
+    "answer": 1,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "他___是医生。",
+    "options": [
+     "不",
+     "吗",
+     "很"
+    ],
+    "answer": 0,
+    "hint": {
+     "ko": "(그는 의사가 아닙니다)",
+     "en": "(He is not a doctor.)"
+    },
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我们___朋友。",
+    "options": [
+     "是",
+     "吗",
+     "很"
+    ],
+    "answer": 0,
+    "hint": {
+     "ko": "(우리는 친구입니다)",
+     "en": "(We are friends.)"
+    },
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你是学生吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 당신은 학생이에요?",
+     "en": "(Question) Are you a student?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "哪个回答最合适？",
+      "options": [
+       "是，我是学生。",
+       "他是学生。",
+       "这是书。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你叫什么名字？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이름이 뭐예요?",
+     "en": "(Question) What's your name?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "哪个回答最合适？",
+      "options": [
+       "我叫汤姆。",
+       "我很好，谢谢。",
+       "今天星期一。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你好，我是汤姆。"
+      },
+      {
+       "s": "B",
+       "t": "你好，汤姆。我是安娜。很高兴认识你。"
+      },
+      {
+       "s": "A",
+       "t": "我也很高兴认识你。你是加拿大人吗？"
+      },
+      {
+       "s": "B",
+       "t": "不是，我是法国人。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 안녕하세요, 저는 톰이에요.\nB: 안녕하세요, 톰. 저는 안나예요. 만나서 반갑습니다.\nA: 저도 반가워요. 캐나다에서 왔어요?\nB: 아니요, 저는 프랑스에서 왔어요.",
+     "en": "A: Hi, I'm Tom.\nB: Hi, Tom. I'm Anna. Nice to meet you.\nA: Nice to meet you, too. Are you from Canada?\nB: No, I'm from France."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "安娜是哪国人？",
+      "options": [
+       "加拿大人",
+       "法国人",
+       "韩国人"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "大家好。我叫金娜。我是老师。我是韩国人。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "여러분, 안녕하세요. 제 이름은 유나예요. 저는 선생님이에요. 저는 한국에서 왔어요.",
+     "en": "Hello, everyone. My name is Yuna. I am a teacher. I am from Korea."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "金娜的职业是什么？",
+      "options": [
+       "学生",
+       "老师",
+       "医生"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请问，您叫什么名字？"
+      },
+      {
+       "s": "B",
+       "t": "我叫丹尼尔·布朗。"
+      },
+      {
+       "s": "A",
+       "t": "您是学生吗？"
+      },
+      {
+       "s": "B",
+       "t": "是，我是学生。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "접수원: 성함이 어떻게 되세요?\n손님: 다니엘 브라운이에요.\n접수원: 학생이세요?\n손님: 네, 학생이에요.",
+     "en": "Receptionist: What's your name, please?\nGuest: Daniel Brown.\nReceptionist: Are you a student?\nGuest: Yes, I am a student."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "姓名：丹尼尔·______",
+      "answers": [
+       "布朗"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "职业：______",
+      "answers": [
+       "学生"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 她___老师。\n2) 他不___医生。\n3) 你是韩国人___？",
+    "trans": {
+     "ko": "1) 그녀는 선생님이에요. 2) 그는 의사가 아니에요. 3) 당신은 한국 사람이에요?",
+     "en": "1) She is a teacher. 2) He is not a doctor. 3) Are you Korean?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "她___老师。",
+      "options": [
+       "是",
+       "吗",
+       "很"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他不___医生。",
+      "options": [
+       "是",
+       "吗",
+       "很"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "你是韩国人___？",
+      "options": [
+       "吗",
+       "是",
+       "不"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好！我(1)山姆。丽娅(2)老师，她是学生。我们(3)朋友。",
+    "trans": {
+     "ko": "안녕하세요! 저는 샘이에요. 리아는 선생님이 아니라 학생이에요. 우리는 친구예요.",
+     "en": "Hello! I am Sam. Lea is not a teacher; she is a student. We are friends."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "是",
+       "不是",
+       "吗"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "是",
+       "不是",
+       "吗"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "是",
+       "不是",
+       "吗"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "名片\n姓名：金美娜\n职业：老师\n国家：韩国",
+    "trans": {
+     "ko": "명함\n이름: 김미나\n직업: 선생님\n나라: 한국",
+     "en": "Name card\nName: Mina Kim\nJob: Teacher\nCountry: Korea"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "美娜的职业是什么？",
+      "options": [
+       "医生",
+       "老师",
+       "学生"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "美娜是哪国人？",
+      "options": [
+       "韩国人",
+       "加拿大人",
+       "法国人"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汤姆是学生。他是加拿大人。他的老师是李老师。",
+    "trans": {
+     "ko": "톰은 학생이에요. 그는 캐나다에서 왔어요. 그의 선생님은 이 선생님이에요.",
+     "en": "Tom is a student. He is from Canada. His teacher is Ms. Lee."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "汤姆是老师。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆是加拿大人。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "李老师是韩国人。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你好。",
+    "read": "Nǐ hǎo.",
+    "ko": "안녕하세요.",
+    "en": "Hello.",
+    "situation": {
+     "ko": "언제든 사람을 만났을 때",
+     "en": "Whenever you meet someone"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "很高兴认识你。",
+    "read": "Hěn gāoxìng rènshi nǐ.",
+    "ko": "만나서 반갑습니다.",
+    "en": "Nice to meet you.",
+    "situation": {
+     "ko": "처음 만났을 때",
+     "en": "When you meet someone for the first time"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我叫～。 / 我是～。",
+    "read": "Wǒ jiào ~. / Wǒ shì ~.",
+    "ko": "제 이름은 ~입니다.",
+    "en": "My name is ~.",
+    "situation": {
+     "ko": "이름을 소개할 때",
+     "en": "Introducing your name"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我是～人。",
+    "read": "Wǒ shì ~ rén.",
+    "ko": "저는 ~에서 왔어요.",
+    "en": "I'm from ~.",
+    "situation": {
+     "ko": "출신을 말할 때",
+     "en": "Saying where you're from"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我是学生。",
+    "read": "Wǒ shì xuésheng.",
+    "ko": "저는 학생이에요.",
+    "en": "I'm a student.",
+    "situation": {
+     "ko": "직업·신분을 말할 때",
+     "en": "Saying your job or status"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "你是～吗？",
+    "read": "Nǐ shì ~ ma?",
+    "ko": "당신은 ~이에요?",
+    "en": "Are you ~?",
+    "situation": {
+     "ko": "상대방에게 확인할 때",
+     "en": "Checking something about the other person"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "你好吗？— 我很好，谢谢。",
+    "read": "Nǐ hǎo ma? — Wǒ hěn hǎo, xièxie.",
+    "ko": "잘 지내요? — 네, 잘 지내요. 고마워요.",
+    "en": "How are you? — I'm fine, thanks.",
+    "situation": {
+     "ko": "안부를 묻고 답할 때",
+     "en": "Asking and answering how someone is"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "谢谢。 / 再见。",
+    "read": "Xièxie. / Zàijiàn.",
+    "ko": "고맙습니다. / 안녕히 가세요.",
+    "en": "Thank you. / Goodbye.",
+    "situation": {
+     "ko": "감사와 작별 인사",
+     "en": "Thanks and farewell"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我叫～。",
+    "read": "Wǒ jiào ~.",
+    "ko": "제 이름은 ~입니다.",
+    "en": "My name is ~."
+   },
+   {
+    "id": "w2",
+    "t": "我是～。",
+    "read": "Wǒ shì ~.",
+    "ko": "저는 ~입니다.",
+    "en": "I am a ~."
+   },
+   {
+    "id": "w3",
+    "t": "我是～人。",
+    "read": "Wǒ shì ~ rén.",
+    "ko": "저는 ~에서 왔어요.",
+    "en": "I am from ~."
+   },
+   {
+    "id": "w4",
+    "t": "很高兴认识你。",
+    "read": "Hěn gāoxìng rènshi nǐ.",
+    "ko": "만나서 반갑습니다.",
+    "en": "Nice to meet you."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "자기소개를 3문장으로 써 보세요: 이름, 직업(또는 신분), 출신.",
+    "en": "Write a 3-sentence self-introduction: name, job (or status), and where you're from."
+   },
+   "must_include": [
+    {
+     "label": "我叫～ / 我是～",
+     "match": [
+      "我叫",
+      "我是"
+     ]
+    },
+    {
+     "label": "我是 + 职业/身份",
+     "match": [
+      "我是"
+     ]
+    },
+    {
+     "label": "我是～人",
+     "match": [
+      "人"
+     ]
+    }
+   ],
+   "model": "我叫智秀。我是学生。我是韩国人。",
+   "model_trans": {
+    "ko": "제 이름은 지수예요. 저는 학생이에요. 저는 한국에서 왔어요.",
+    "en": "My name is Jisu. I am a student. I am from Korea."
+   }
+  }
+ }
+}

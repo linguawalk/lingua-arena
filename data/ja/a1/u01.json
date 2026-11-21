@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_a1_u01",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a1",
+  "unit": 1,
+  "concept": "A1.U01",
+  "status": "pilot",
+  "title": {
+   "target": "自己紹介",
+   "ko": "자기소개와 '이다' 동사",
+   "en": "Introducing yourself & 'to be'"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "こんにちは",
+   "pos": "interj",
+   "ko": "안녕하세요",
+   "en": "hello",
+   "ex": {
+    "t": "こんにちは、アンナです。",
+    "ko": "안녕하세요, 저는 안나예요.",
+    "en": "Hello, I'm Anna."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "さようなら",
+   "pos": "interj",
+   "ko": "안녕히 가세요",
+   "en": "goodbye",
+   "ex": {
+    "t": "さようなら、トムさん。",
+    "ko": "안녕히 가세요, 톰 씨.",
+    "en": "Goodbye, Tom."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "ありがとう",
+   "pos": "interj",
+   "ko": "고맙습니다",
+   "en": "thank you",
+   "ex": {
+    "t": "ありがとう、アンナさん。",
+    "ko": "고마워요, 안나 씨.",
+    "en": "Thank you, Anna."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "名前",
+   "pos": "noun",
+   "read": "なまえ",
+   "ko": "이름",
+   "en": "name",
+   "ex": {
+    "t": "私の名前はトムです。",
+    "read": "わたしのなまえはトムです。",
+    "ko": "제 이름은 톰이에요.",
+    "en": "My name is Tom."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "学生",
+   "pos": "noun",
+   "read": "がくせい",
+   "ko": "학생",
+   "en": "student",
+   "ex": {
+    "t": "私は学生です。",
+    "read": "わたしはがくせいです。",
+    "ko": "저는 학생이에요.",
+    "en": "I am a student."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "先生",
+   "pos": "noun",
+   "read": "せんせい",
+   "ko": "선생님",
+   "en": "teacher",
+   "ex": {
+    "t": "彼女は先生です。",
+    "read": "かのじょはせんせいです。",
+    "ko": "그녀는 선생님이에요.",
+    "en": "She is a teacher."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "友達",
+   "pos": "noun",
+   "read": "ともだち",
+   "ko": "친구",
+   "en": "friend",
+   "ex": {
+    "t": "彼は私の友達です。",
+    "read": "かれはわたしのともだちです。",
+    "ko": "그는 제 친구예요.",
+    "en": "He is my friend."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "国",
+   "pos": "noun",
+   "read": "くに",
+   "ko": "나라",
+   "en": "country",
+   "ex": {
+    "t": "韓国は国です。",
+    "read": "かんこくはくにです。",
+    "ko": "한국은 나라예요.",
+    "en": "Korea is a country."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "韓国",
+   "pos": "noun",
+   "read": "かんこく",
+   "ko": "한국",
+   "en": "Korea",
+   "ex": {
+    "t": "私は韓国から来ました。",
+    "read": "わたしはかんこくからきました。",
+    "ko": "저는 한국에서 왔어요.",
+    "en": "I am from Korea."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "医者",
+   "pos": "noun",
+   "read": "いしゃ",
+   "ko": "의사",
+   "en": "doctor",
+   "ex": {
+    "t": "トムさんは医者です。",
+    "read": "トムさんはいしゃです。",
+    "ko": "톰은 의사예요.",
+    "en": "Tom is a doctor."
+   }
+  }
+ ],
+ "grammar": {
+  "explain": {
+   "ko": "'です'는 '~입니다'를 뜻하는 정중한 표현으로, 명사 뒤에 붙으며 주어가 바뀌어도 모양이 변하지 않습니다.",
+   "en": "'です' is the polite 'to be'. It follows a noun and never changes with the subject."
+  },
+  "table": {
+   "head": [
+    "형태 / Form",
+    "의미 / Meaning",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "〜です",
+     "~입니다",
+     "学生です"
+    ],
+    [
+     "〜じゃありません",
+     "~이/가 아닙니다",
+     "学生じゃありません"
+    ],
+    [
+     "〜ですか",
+     "~입니까?",
+     "学生ですか"
+    ],
+    [
+     "〜でした",
+     "~이었습니다(과거)",
+     "学生でした"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'は'는 'wa'로 읽으며 주제를 나타냅니다: 私は学生です。",
+    "en": "は is read 'wa' and marks the topic: 私は学生です。"
+   },
+   {
+    "ko": "의문문은 문장 끝에 か를 붙입니다(물음표는 쓰지 않아도 됩니다).",
+    "en": "For questions add か at the end (a question mark is optional)."
+   },
+   {
+    "ko": "'さん'은 다른 사람 이름 뒤에 붙이는 존칭이며, 자기 이름에는 붙이지 않습니다.",
+    "en": "Add さん after other people's names; never after your own."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は学生です。",
+    "read": "わたしはがくせいです。",
+    "ko": "저는 학생이에요.",
+    "en": "I am a student."
+   },
+   {
+    "t": "あなたは私の友達です。",
+    "read": "あなたはわたしのともだちです。",
+    "ko": "당신은 제 친구예요.",
+    "en": "You are my friend."
+   },
+   {
+    "t": "彼女は先生です。",
+    "read": "かのじょはせんせいです。",
+    "ko": "그녀는 선생님이에요.",
+    "en": "She is a teacher."
+   },
+   {
+    "t": "私たちは友達です。",
+    "read": "わたしたちはともだちです。",
+    "ko": "우리는 친구예요.",
+    "en": "We are friends."
+   },
+   {
+    "t": "彼らは医者です。",
+    "read": "かれらはいしゃです。",
+    "ko": "그들은 의사예요.",
+    "en": "They are doctors."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私は学生___。",
+    "options": [
+     "です",
+     "でした",
+     "ですか"
+    ],
+    "answer": 0,
+    "hint": {
+     "ko": "(저는 학생입니다)",
+     "en": "(I am a student.)"
+    },
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "あなたは先生___？",
+    "options": [
+     "です",
+     "ですか",
+     "でした"
+    ],
+    "answer": 1,
+    "hint": {
+     "ko": "(당신은 선생님입니까?)",
+     "en": "(Are you a teacher?)"
+    },
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "私は医者___。",
+    "options": [
+     "です",
+     "じゃありません",
+     "ですか"
+    ],
+    "answer": 1,
+    "hint": {
+     "ko": "(저는 의사가 아닙니다)",
+     "en": "(I am not a doctor.)"
+    },
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "私___学生です。",
+    "options": [
+     "は",
+     "を",
+     "に"
+    ],
+    "answer": 0,
+    "hint": {
+     "ko": "(주제를 나타내는 조사)",
+     "en": "(the topic particle)"
+    },
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "学生ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 당신은 학생이에요?",
+     "en": "(Question) Are you a student?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんいい答えはどれですか。",
+      "options": [
+       "はい、学生です。",
+       "月曜日です。",
+       "本です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "お名前は？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이름이 뭐예요?",
+     "en": "(Question) What's your name?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんいい答えはどれですか。",
+      "options": [
+       "トムです。",
+       "元気です。",
+       "月曜日です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "こんにちは。トムです。"
+      },
+      {
+       "s": "B",
+       "t": "こんにちは、トムさん。アンナです。はじめまして。"
+      },
+      {
+       "s": "A",
+       "t": "はじめまして。アンナさんはカナダから来ましたか。"
+      },
+      {
+       "s": "B",
+       "t": "いいえ、フランスから来ました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 안녕하세요, 저는 톰이에요.\nB: 안녕하세요, 톰. 저는 안나예요. 만나서 반갑습니다.\nA: 저도 반가워요. 캐나다에서 왔어요?\nB: 아니요, 저는 프랑스에서 왔어요.",
+     "en": "A: Hi, I'm Tom.\nB: Hi, Tom. I'm Anna. Nice to meet you.\nA: Nice to meet you, too. Are you from Canada?\nB: No, I'm from France."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "アンナさんはどこから来ましたか。",
+      "options": [
+       "カナダ",
+       "フランス",
+       "韓国"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "みなさん、こんにちは。ユナです。先生です。韓国から来ました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "여러분, 안녕하세요. 제 이름은 유나예요. 저는 선생님이에요. 저는 한국에서 왔어요.",
+     "en": "Hello, everyone. My name is Yuna. I am a teacher. I am from Korea."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ユナさんの仕事は何ですか。",
+      "options": [
+       "学生",
+       "先生",
+       "医者"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "お名前は？"
+      },
+      {
+       "s": "B",
+       "t": "ダニエル・ブラウンです。"
+      },
+      {
+       "s": "A",
+       "t": "学生ですか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、学生です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "접수원: 성함이 어떻게 되세요?\n손님: 다니엘 브라운이에요.\n접수원: 학생이세요?\n손님: 네, 학생이에요.",
+     "en": "Receptionist: What's your name, please?\nGuest: Daniel Brown.\nReceptionist: Are you a student?\nGuest: Yes, I am a student."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "名前：ダニエル ______",
+      "answers": [
+       "ブラウン",
+       "ぶらうん"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "仕事：______",
+      "answers": [
+       "学生",
+       "がくせい"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 彼女は先生___。\n2) あなたは学生___？\n3) 私は韓国___来ました。",
+    "trans": {
+     "ko": "1) 그녀는 선생님이에요. 2) 당신은 학생이에요? 3) 저는 한국에서 왔어요.",
+     "en": "1) She is a teacher. 2) Are you a student? 3) I am from Korea."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "彼女は先生___。",
+      "options": [
+       "です",
+       "ですか",
+       "でした"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "あなたは学生___？",
+      "options": [
+       "です",
+       "ですか",
+       "でした"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "私は韓国___来ました。",
+      "options": [
+       "から",
+       "を",
+       "で"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは！私はサム(1)。リアさんは私の友達です。リアさんは先生(2)。学生です。私たちは友達(3)。",
+    "trans": {
+     "ko": "안녕하세요! 저는 샘이에요. 리아는 제 친구예요. 리아는 선생님이 아니에요. 학생이에요. 우리는 친구예요.",
+     "en": "Hello! I am Sam. Lea is my friend. Lea is not a teacher; she is a student. We are friends."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "です",
+       "じゃありません",
+       "ですか"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "です",
+       "じゃありません",
+       "ですか"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "です",
+       "じゃありません",
+       "ですか"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "名刺\n名前：キム・ミナ\n仕事：先生\n国：韓国",
+    "trans": {
+     "ko": "명함\n이름: 김미나\n직업: 선생님\n나라: 한국",
+     "en": "Name card\nName: Mina Kim\nJob: Teacher\nCountry: Korea"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ミナさんの仕事は何ですか。",
+      "options": [
+       "医者",
+       "先生",
+       "学生"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "ミナさんはどこの国の人ですか。",
+      "options": [
+       "韓国",
+       "カナダ",
+       "フランス"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "トムさんは学生です。カナダから来ました。トムさんの先生はイさんです。",
+    "trans": {
+     "ko": "톰은 학생이에요. 그는 캐나다에서 왔어요. 그의 선생님은 이 선생님이에요.",
+     "en": "Tom is a student. He is from Canada. His teacher is Ms. Lee."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "トムさんは先生です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "トムさんはカナダから来ました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "イさんは韓国人です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "こんにちは。",
+    "ko": "안녕하세요.",
+    "en": "Hello.",
+    "situation": {
+     "ko": "언제든 사람을 만났을 때",
+     "en": "Whenever you meet someone"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "はじめまして。",
+    "ko": "만나서 반갑습니다.",
+    "en": "Nice to meet you.",
+    "situation": {
+     "ko": "처음 만났을 때",
+     "en": "When you meet someone for the first time"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "〜です。 / 私は〜です。",
+    "ko": "제 이름은 ~입니다.",
+    "en": "My name is ~.",
+    "situation": {
+     "ko": "이름을 소개할 때",
+     "en": "Introducing your name"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "〜から来ました。",
+    "read": "〜からきました。",
+    "ko": "저는 ~에서 왔어요.",
+    "en": "I'm from ~.",
+    "situation": {
+     "ko": "출신을 말할 때",
+     "en": "Saying where you're from"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "学生です。",
+    "read": "がくせいです。",
+    "ko": "저는 학생이에요.",
+    "en": "I'm a student.",
+    "situation": {
+     "ko": "직업·신분을 말할 때",
+     "en": "Saying your job or status"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "〜ですか。",
+    "ko": "당신은 ~이에요?",
+    "en": "Are you ~?",
+    "situation": {
+     "ko": "상대방에게 확인할 때",
+     "en": "Checking something about the other person"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "お元気ですか。— はい、元気です。",
+    "read": "おげんきですか。— はい、げんきです。",
+    "ko": "잘 지내요? — 네, 잘 지내요. 고마워요.",
+    "en": "How are you? — I'm fine, thanks.",
+    "situation": {
+     "ko": "안부를 묻고 답할 때",
+     "en": "Asking and answering how someone is"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "ありがとう。 / さようなら。",
+    "ko": "고맙습니다. / 안녕히 가세요.",
+    "en": "Thank you. / Goodbye.",
+    "situation": {
+     "ko": "감사와 작별 인사",
+     "en": "Thanks and farewell"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "私は〜です。",
+    "read": "わたしは〜です。",
+    "ko": "제 이름은 ~입니다.",
+    "en": "My name is ~."
+   },
+   {
+    "id": "w2",
+    "t": "私の名前は〜です。",
+    "read": "わたしのなまえは〜です。",
+    "ko": "저는 ~입니다.",
+    "en": "I am a ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜から来ました。",
+    "read": "〜からきました。",
+    "ko": "저는 ~에서 왔어요.",
+    "en": "I am from ~."
+   },
+   {
+    "id": "w4",
+    "t": "はじめまして。",
+    "ko": "만나서 반갑습니다.",
+    "en": "Nice to meet you."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "자기소개를 3문장으로 써 보세요: 이름, 직업(또는 신분), 출신.",
+    "en": "Write a 3-sentence self-introduction: name, job (or status), and where you're from."
+   },
+   "must_include": [
+    {
+     "label": "私の名前は〜 / 私は〜",
+     "match": [
+      "私の名前は",
+      "名前は",
+      "私は"
+     ]
+    },
+    {
+     "label": "〜です (仕事・身分)",
+     "match": [
+      "です"
+     ]
+    },
+    {
+     "label": "〜から来ました",
+     "match": [
+      "から来ました",
+      "出身",
+      "人です"
+     ]
+    }
+   ],
+   "model": "私の名前はジスです。学生です。韓国から来ました。",
+   "model_trans": {
+    "ko": "제 이름은 지수예요. 저는 학생이에요. 저는 한국에서 왔어요.",
+    "en": "My name is Jisu. I am a student. I am from Korea."
+   }
+  }
+ }
+}

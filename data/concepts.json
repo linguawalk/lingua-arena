@@ -1,0 +1,60 @@
+{
+ "version": 1,
+ "note": "Shared curriculum map. Every language follows the same unit concepts so that the same expression can be compared across languages (e.g. English 'be' / French 'être' / Korean '이다').",
+ "languages": [
+  {"code": "en", "name": "English", "native": "English", "family": "europe", "bcp47": "en-US"},
+  {"code": "fr", "name": "French", "native": "Français", "family": "europe", "bcp47": "fr-FR"},
+  {"code": "de", "name": "German", "native": "Deutsch", "family": "europe", "bcp47": "de-DE"},
+  {"code": "es", "name": "Spanish", "native": "Español", "family": "europe", "bcp47": "es-ES"},
+  {"code": "ko", "name": "Korean", "native": "한국어", "family": "asia", "bcp47": "ko-KR"},
+  {"code": "ja", "name": "Japanese", "native": "日本語", "family": "asia", "bcp47": "ja-JP"},
+  {"code": "zh", "name": "Chinese", "native": "中文", "family": "asia", "bcp47": "zh-CN"}
+ ],
+ "families": {
+  "europe": {"ko": "유럽 언어권", "en": "European languages"},
+  "asia": {"ko": "아시아 언어권", "en": "Asian languages"}
+ },
+ "categories": [
+  {"id": "vocab", "ko": "어휘", "en": "Vocabulary"},
+  {"id": "grammar", "ko": "문법", "en": "Grammar"},
+  {"id": "listening", "ko": "듣기", "en": "Listening"},
+  {"id": "reading", "ko": "읽기", "en": "Reading"},
+  {"id": "speaking", "ko": "말하기", "en": "Speaking"},
+  {"id": "writing", "ko": "쓰기", "en": "Writing"}
+ ],
+ "levels": [
+  {"id": "a1", "ko": "A1 입문", "en": "A1 Beginner", "goal": {"ko": "아주 기본적인 인사·자기소개·일상 표현", "en": "Greetings, introductions and very basic everyday phrases"}},
+  {"id": "a2", "ko": "A2 초급", "en": "A2 Elementary", "goal": {"ko": "일상 대화: 과거·미래 표현, 쇼핑, 길 묻기", "en": "Everyday conversation: past and future, shopping, directions"}},
+  {"id": "b1", "ko": "B1 중급", "en": "B1 Intermediate", "goal": {"ko": "경험과 의견 설명, 여행·직장의 일반 상황", "en": "Describing experiences and opinions in travel and work situations"}},
+  {"id": "b2", "ko": "B2 중상급", "en": "B2 Upper-intermediate", "goal": {"ko": "논리적 글쓰기와 토론, 복잡한 글 이해", "en": "Argued writing and discussion, understanding complex texts"}},
+  {"id": "c1", "ko": "C1 고급", "en": "C1 Advanced", "goal": {"ko": "유창하고 정교한 표현, 뉘앙스 있는 어휘", "en": "Fluent, precise expression with nuanced vocabulary"}},
+  {"id": "c2", "ko": "C2 최상급", "en": "C2 Proficient", "goal": {"ko": "원어민에 가까운 정확성과 관용 표현", "en": "Near-native accuracy and idiomatic range"}}
+ ],
+ "formats": {
+  "listening": {
+   "qr": {"ko": "질문-응답", "en": "Question–Response", "exam": "TOEIC Part 2 style"},
+   "conv": {"ko": "대화", "en": "Conversation", "exam": "TOEIC Part 3 / TOEFL Conversation style"},
+   "talk": {"ko": "짧은 담화", "en": "Short talk", "exam": "TOEIC Part 4 / TOEFL Announcement style"},
+   "form": {"ko": "양식 완성", "en": "Form completion", "exam": "IELTS Listening Part 1 style"}
+  },
+  "reading": {
+   "incomplete": {"ko": "문장 빈칸", "en": "Incomplete sentences", "exam": "TOEIC Part 5 style"},
+   "textcomp": {"ko": "글 빈칸", "en": "Text completion", "exam": "TOEIC Part 6 style"},
+   "short": {"ko": "짧은 글 독해", "en": "Short text comprehension", "exam": "TOEIC Part 7 style"},
+   "tfng": {"ko": "참/거짓/알 수 없음", "en": "True / False / Not Given", "exam": "IELTS Reading style"}
+  }
+ },
+ "a1_units": [
+  {"unit": 1, "status": "pilot", "ko": "자기소개와 '이다' 동사", "en": "Introducing yourself & 'to be'",
+   "realization": {"en": "be (am/is/are)", "fr": "être", "de": "sein", "es": "ser", "ko": "이다 (-이에요/-예요)", "ja": "です", "zh": "是"}},
+  {"unit": 2, "status": "planned", "ko": "숫자·나이·전화번호", "en": "Numbers, age, phone numbers"},
+  {"unit": 3, "status": "planned", "ko": "가족과 소유 표현", "en": "Family and possession"},
+  {"unit": 4, "status": "planned", "ko": "사물 이름: 관사·성·수량사", "en": "Everyday objects: articles, gender, counters"},
+  {"unit": 5, "status": "planned", "ko": "일상 동사 현재형", "en": "Daily-routine verbs (present tense)"},
+  {"unit": 6, "status": "planned", "ko": "음식 주문하기", "en": "Ordering food"},
+  {"unit": 7, "status": "planned", "ko": "장소와 길 묻기", "en": "Places and asking directions"},
+  {"unit": 8, "status": "planned", "ko": "시간·요일·날짜", "en": "Time, days and dates"},
+  {"unit": 9, "status": "planned", "ko": "부정문·의문문 정리", "en": "Negatives and questions"},
+  {"unit": 10, "status": "planned", "ko": "쇼핑과 가격", "en": "Shopping and prices"}
+ ]
+}

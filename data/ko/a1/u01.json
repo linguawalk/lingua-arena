@@ -1,0 +1,783 @@
+{
+ "meta": {
+  "id": "ko_a1_u01",
+  "lang": "ko",
+  "family": "asia",
+  "level": "a1",
+  "unit": 1,
+  "concept": "A1.U01",
+  "status": "pilot",
+  "title": {
+   "target": "자기소개",
+   "ko": "자기소개와 '이다' 동사",
+   "en": "Introducing yourself & 'to be'"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "안녕하세요",
+   "pos": "interj",
+   "read": "annyeonghaseyo",
+   "en": "hello",
+   "ex": {
+    "t": "안녕하세요, 저는 안나예요.",
+    "read": "annyeonghaseyo, jeoneun annayeyo",
+    "en": "Hello, I'm Anna."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "안녕히 가세요",
+   "pos": "interj",
+   "read": "annyeonghi gaseyo",
+   "en": "goodbye",
+   "ex": {
+    "t": "안녕히 가세요, 톰 씨.",
+    "read": "annyeonghi gaseyo, tom ssi",
+    "en": "Goodbye, Tom."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "감사합니다",
+   "pos": "interj",
+   "read": "gamsahamnida",
+   "en": "thank you",
+   "ex": {
+    "t": "감사합니다, 안나 씨.",
+    "read": "gamsahamnida, anna ssi",
+    "en": "Thank you, Anna."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "이름",
+   "pos": "noun",
+   "read": "ireum",
+   "en": "name",
+   "ex": {
+    "t": "제 이름은 톰이에요.",
+    "read": "je ireumeun tomieyo",
+    "en": "My name is Tom."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "학생",
+   "pos": "noun",
+   "read": "haksaeng",
+   "en": "student",
+   "ex": {
+    "t": "저는 학생이에요.",
+    "read": "jeoneun haksaengieyo",
+    "en": "I am a student."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "선생님",
+   "pos": "noun",
+   "read": "seonsaengnim",
+   "en": "teacher",
+   "ex": {
+    "t": "그분은 선생님이에요.",
+    "read": "geubuneun seonsaengnimieyo",
+    "en": "She is a teacher."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "친구",
+   "pos": "noun",
+   "read": "chingu",
+   "en": "friend",
+   "ex": {
+    "t": "그는 제 친구예요.",
+    "read": "geuneun je chinguyeyo",
+    "en": "He is my friend."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "나라",
+   "pos": "noun",
+   "read": "nara",
+   "en": "country",
+   "ex": {
+    "t": "한국은 나라예요.",
+    "read": "hangugeun narayeyo",
+    "en": "Korea is a country."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "한국",
+   "pos": "noun",
+   "read": "hanguk",
+   "en": "Korea",
+   "ex": {
+    "t": "저는 한국에서 왔어요.",
+    "read": "jeoneun hangugeseo wasseoyo",
+    "en": "I am from Korea."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "의사",
+   "pos": "noun",
+   "read": "uisa",
+   "en": "doctor",
+   "ex": {
+    "t": "톰 씨는 의사예요.",
+    "read": "tom ssineun uisayeyo",
+    "en": "Tom is a doctor."
+   }
+  }
+ ],
+ "grammar": {
+  "explain": {
+   "ko": "'이다'는 명사 뒤에 붙어 '~입니다/~이에요'를 뜻합니다. 받침이 있으면 -이에요, 없으면 -예요를 씁니다.",
+   "en": "'이다' attaches to a noun to mean 'is/am/are'. Use -이에요 after a final consonant and -예요 after a vowel."
+  },
+  "table": {
+   "head": [
+    "받침 / Final consonant",
+    "형태 / Form",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "있음 (O)",
+     "-이에요",
+     "학생이에요"
+    ],
+    [
+     "없음 (X)",
+     "-예요",
+     "의사예요"
+    ],
+    [
+     "격식체 / Formal",
+     "-입니다",
+     "학생입니다 / 의사입니다"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'은/는'은 주제를 나타냅니다: 저는 학생이에요.",
+    "en": "은/는 marks the topic: 저는 학생이에요."
+   },
+   {
+    "ko": "부정문은 'N이/가 아니에요': 저는 의사가 아니에요.",
+    "en": "Negative: N이/가 아니에요: 저는 의사가 아니에요."
+   },
+   {
+    "ko": "의문문은 문장 끝을 올립니다: 학생이에요?",
+    "en": "For questions, raise the ending: 학생이에요?"
+   }
+  ],
+  "examples": [
+   {
+    "t": "저는 학생이에요.",
+    "read": "jeoneun haksaengieyo",
+    "en": "I am a student."
+   },
+   {
+    "t": "이분은 제 친구예요.",
+    "read": "ibuneun je chinguyeyo",
+    "en": "This is my friend."
+   },
+   {
+    "t": "그분은 선생님이에요.",
+    "read": "geubuneun seonsaengnimieyo",
+    "en": "She is a teacher."
+   },
+   {
+    "t": "우리는 친구예요.",
+    "read": "urineun chinguyeyo",
+    "en": "We are friends."
+   },
+   {
+    "t": "그들은 의사예요.",
+    "read": "geudeureun uisayeyo",
+    "en": "They are doctors."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "저는 학생___.",
+    "options": [
+     "이에요",
+     "예요",
+     "가 아니에요"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "저는 의사___.",
+    "options": [
+     "이에요",
+     "예요",
+     "입니까"
+    ],
+    "answer": 1,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "김민수 씨는 선생님___.",
+    "options": [
+     "예요",
+     "이에요",
+     "에요"
+    ],
+    "answer": 1,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "제 친구는 가수___.",
+    "options": [
+     "이에요",
+     "예요",
+     "입니까"
+    ],
+    "answer": 1,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "학생이에요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Are you a student?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "가장 알맞은 대답은 무엇입니까?",
+      "options": [
+       "네, 학생이에요.",
+       "월요일이에요.",
+       "저는 한국에 있어요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이름이 뭐예요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What's your name?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "가장 알맞은 대답은 무엇입니까?",
+      "options": [
+       "톰이에요.",
+       "잘 지내요.",
+       "월요일이에요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "안녕하세요, 저는 톰이에요."
+      },
+      {
+       "s": "B",
+       "t": "안녕하세요, 톰 씨. 저는 안나예요. 만나서 반갑습니다."
+      },
+      {
+       "s": "A",
+       "t": "반갑습니다. 안나 씨는 캐나다 사람이에요?"
+      },
+      {
+       "s": "B",
+       "t": "아니요, 저는 프랑스 사람이에요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: Hi, I'm Tom.\nB: Hi, Tom. I'm Anna. Nice to meet you.\nA: Nice to meet you, too. Are you from Canada?\nB: No, I'm from France."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "안나 씨는 어느 나라 사람이에요?",
+      "options": [
+       "캐나다",
+       "프랑스",
+       "한국"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "안녕하세요, 여러분. 저는 유나예요. 선생님이에요. 한국 사람이에요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Hello, everyone. My name is Yuna. I am a teacher. I am from Korea."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "유나 씨의 직업은 뭐예요?",
+      "options": [
+       "학생",
+       "선생님",
+       "의사"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "성함이 어떻게 되세요?"
+      },
+      {
+       "s": "B",
+       "t": "다니엘 브라운이에요."
+      },
+      {
+       "s": "A",
+       "t": "학생이세요?"
+      },
+      {
+       "s": "B",
+       "t": "네, 학생이에요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Receptionist: What's your name, please?\nGuest: Daniel Brown.\nReceptionist: Are you a student?\nGuest: Yes, I am a student."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "이름: 다니엘 ______",
+      "answers": [
+       "브라운"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "직업: ______",
+      "answers": [
+       "학생"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 그분은 선생님___.\n2) 우리는 친구___.\n3) 저는 한국 사람___.",
+    "trans": {
+     "en": "1) That person is a teacher. 2) We are friends. 3) I am Korean."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "그분은 선생님___.",
+      "options": [
+       "이에요",
+       "예요",
+       "입니까"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "우리는 친구___.",
+      "options": [
+       "이에요",
+       "예요",
+       "입니까"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "저는 한국 사람___.",
+      "options": [
+       "이에요",
+       "예요",
+       "입니까"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "안녕하세요! 저는 샘(1). 리아 씨는 제 친구(2). 우리는 학생(3).",
+    "trans": {
+     "en": "Hello! I am Sam. Lea is my friend. We are students."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "이에요",
+       "예요",
+       "입니까"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "이에요",
+       "예요",
+       "입니까"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "이에요",
+       "예요",
+       "입니까"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "명함\n이름: 김미나\n직업: 선생님\n나라: 한국",
+    "trans": {
+     "en": "Name card\nName: Mina Kim\nJob: Teacher\nCountry: Korea"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "미나 씨의 직업은 뭐예요?",
+      "options": [
+       "의사",
+       "선생님",
+       "학생"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "미나 씨는 어느 나라 사람이에요?",
+      "options": [
+       "한국",
+       "캐나다",
+       "프랑스"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "톰은 학생이에요. 캐나다 사람이에요. 톰의 선생님은 이 선생님이에요.",
+    "trans": {
+     "en": "Tom is a student. He is from Canada. His teacher is Ms. Lee."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "톰은 선생님이에요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "톰은 캐나다 사람이에요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "이 선생님은 한국 사람이에요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "안녕하세요.",
+    "read": "annyeonghaseyo",
+    "en": "Hello.",
+    "situation": {
+     "ko": "언제든 사람을 만났을 때",
+     "en": "Whenever you meet someone"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "만나서 반갑습니다.",
+    "read": "mannaseo bangapseumnida",
+    "en": "Nice to meet you.",
+    "situation": {
+     "ko": "처음 만났을 때",
+     "en": "When you meet someone for the first time"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "제 이름은 ~이에요/예요.",
+    "read": "je ireumeun ~ieyo/yeyo",
+    "en": "My name is ~.",
+    "situation": {
+     "ko": "이름을 소개할 때",
+     "en": "Introducing your name"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "저는 ~에서 왔어요.",
+    "read": "jeoneun ~eseo wasseoyo",
+    "en": "I'm from ~.",
+    "situation": {
+     "ko": "출신을 말할 때",
+     "en": "Saying where you're from"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "저는 학생이에요.",
+    "read": "jeoneun haksaengieyo",
+    "en": "I'm a student.",
+    "situation": {
+     "ko": "직업·신분을 말할 때",
+     "en": "Saying your job or status"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "~이에요/예요?",
+    "read": "~ieyo/yeyo?",
+    "en": "Are you ~?",
+    "situation": {
+     "ko": "상대방에게 확인할 때",
+     "en": "Checking something about the other person"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "잘 지내세요? — 네, 잘 지내요.",
+    "read": "jal jinaeseyo? ne, jal jinaeyo",
+    "en": "How are you? — I'm fine, thanks.",
+    "situation": {
+     "ko": "안부를 묻고 답할 때",
+     "en": "Asking and answering how someone is"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "감사합니다. / 안녕히 가세요.",
+    "read": "gamsahamnida / annyeonghi gaseyo",
+    "en": "Thank you. / Goodbye.",
+    "situation": {
+     "ko": "감사와 작별 인사",
+     "en": "Thanks and farewell"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "제 이름은 ~이에요/예요.",
+    "read": "je ireumeun ~ieyo/yeyo",
+    "en": "My name is ~."
+   },
+   {
+    "id": "w2",
+    "t": "저는 ~이에요/예요.",
+    "read": "jeoneun ~ieyo/yeyo",
+    "en": "I am a ~."
+   },
+   {
+    "id": "w3",
+    "t": "저는 ~에서 왔어요.",
+    "read": "jeoneun ~eseo wasseoyo",
+    "en": "I am from ~."
+   },
+   {
+    "id": "w4",
+    "t": "만나서 반갑습니다.",
+    "read": "mannaseo bangapseumnida",
+    "en": "Nice to meet you."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "자기소개를 3문장으로 써 보세요: 이름, 직업(또는 신분), 출신.",
+    "en": "Write a 3-sentence self-introduction: name, job (or status), and where you're from."
+   },
+   "must_include": [
+    {
+     "label": "제 이름은 ~ / 저는 ~",
+     "match": [
+      "제 이름은",
+      "저는"
+     ]
+    },
+    {
+     "label": "~이에요/예요 (직업·신분)",
+     "match": [
+      "이에요",
+      "예요",
+      "입니다"
+     ]
+    },
+    {
+     "label": "~에서 왔어요 / ~ 사람이에요",
+     "match": [
+      "에서 왔",
+      "사람이에요",
+      "사람입니다"
+     ]
+    }
+   ],
+   "model": "제 이름은 지수예요. 저는 학생이에요. 저는 한국 사람이에요.",
+   "model_trans": {
+    "ko": "제 이름은 지수예요. 저는 학생이에요. 저는 한국에서 왔어요.",
+    "en": "My name is Jisu. I am a student. I am from Korea."
+   }
+  }
+ }
+}

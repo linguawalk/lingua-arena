@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lingua Arena — 언어별 학습</title>
+<meta name="theme-color" content="#16224A">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+<div id="app"></div>
+<script src="assets/app.js"></script>
+<script>
+(function () {
+  var L = window.LA;
+  var app = document.getElementById('app');
+  var code = L.qs().l || 'en';
+
+  function render(c) {
+    var lang = c.languages.filter(function (x) { return x.code === code; })[0];
+    if (!lang) { app.innerHTML = L.header('') + '<div class="empty">Unknown language. <a href="index.html">Home</a></div>'; L.bindToggle(app); return; }
+    document.title = lang.native + ' — Lingua Arena';
+    var crumbs = '<a href="index.html">' + L.esc(L.t('home')) + '</a><span>/</span><span lang="' + lang.code + '">' + L.esc(lang.native) + '</span>';
+    var html = L.header(crumbs) + '<main><div class="wrap">' +
+      '<section class="hero"><span class="eyebrow">' + L.esc(L.pick(c.families[lang.family])) + '</span>' +
+      '<h1 lang="' + lang.code + '">' + L.esc(lang.native) + ' <span style="color:var(--ink-dim);font-size:.55em">' + L.esc(lang.name) + '</span></h1>' +
+      '<p class="sub">' + L.esc(L.t('langHeroSub')) + '</p></section><section class="block">';
+
+    c.levels.forEach(function (lv, idx) {
+      var isA1 = lv.id === 'a1';
+      var ready = c.a1_units.filter(function (u) { return u.status === 'pilot'; }).length;
+      html += '<details class="level"' + (isA1 ? ' open' : '') + '><summary>' +
+        '<span class="lv-badge">' + L.esc(lv.id.toUpperCase()) + '</span>' +
+        '<span><strong>' + L.esc(L.pick(lv)) + '</strong><br><span class="lv-goal">' + L.esc(L.pick(lv.goal)) + '</span></span>' +
+        '<span class="lv-state">' + (isA1 ? L.esc(L.t('unitsReady')) + ' ' + ready + ' / ' + c.a1_units.length : L.esc(L.t('soon'))) + '</span></summary>';
+      if (isA1) {
+        html += '<div class="units">';
+        c.a1_units.forEach(function (u) {
+          var live = u.status === 'pilot';
+          html += '<div class="unit-row' + (live ? '' : ' soon') + '"><span class="u-no">U' + L.pad(u.unit) + '</span>' +
+            '<span class="u-title">' + L.esc(L.pick(u)) + '</span><span class="chips">' +
+            c.categories.map(function (cat) {
+              var label = L.esc(L.pick(cat));
+              return live ? '<a class="chip" href="unit.html?l=' + lang.code + '&lv=a1&u=' + u.unit + '&c=' + cat.id + '">' + label + '</a>'
+                          : '<span class="chip off">' + label + '</span>';
+            }).join('') + '</span></div>';
+        });
+        html += '</div>';
+      } else {
+        html += '<div class="units"><div class="dim">' + L.esc(L.t('soon')) + '</div></div>';
+      }
+      html += '</details>';
+    });
+    html += '</section></div></main>' + L.footer();
+    app.innerHTML = html;
+    L.bindToggle(app);
+  }
+  window.renderPage = function () { L.getJSON('data/concepts.json').then(render).catch(function (e) {
+    app.innerHTML = '<div class="empty">' + L.esc(String(e)) + '</div>'; }); };
+  window.renderPage();
+})();
+</script>
+</body>
+</html>
