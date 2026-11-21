@@ -1,0 +1,807 @@
+{
+ "meta": {
+  "id": "de_a1_u03",
+  "lang": "de",
+  "family": "europe",
+  "level": "a1",
+  "unit": 3,
+  "concept": "A1.U03",
+  "status": "live",
+  "title": {
+   "target": "Die Familie und der Besitz",
+   "ko": "가족과 소유",
+   "en": "Family and possession"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "die Familie",
+   "pos": "noun",
+   "ko": "가족",
+   "en": "family",
+   "ex": {
+    "t": "Ich liebe meine Familie.",
+    "ko": "저는 제 가족을 사랑해요.",
+    "en": "I love my family."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "die Mutter",
+   "pos": "noun",
+   "ko": "어머니",
+   "en": "mother",
+   "ex": {
+    "t": "Meine Mutter ist Lehrerin.",
+    "ko": "제 어머니는 선생님이에요.",
+    "en": "My mother is a teacher."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "der Vater",
+   "pos": "noun",
+   "ko": "아버지",
+   "en": "father",
+   "ex": {
+    "t": "Mein Vater ist Arzt.",
+    "ko": "제 아버지는 의사예요.",
+    "en": "My father is a doctor."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "der Bruder",
+   "pos": "noun",
+   "ko": "남자 형제 (형·오빠·남동생)",
+   "en": "brother",
+   "ex": {
+    "t": "Mein Bruder ist Koch.",
+    "ko": "제 남자 형제는 요리사예요.",
+    "en": "My brother is a cook."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "die Schwester",
+   "pos": "noun",
+   "ko": "여자 자매 (누나·언니·여동생)",
+   "en": "sister",
+   "ex": {
+    "t": "Meine Schwester ist Studentin.",
+    "ko": "제 여자 자매는 학생이에요.",
+    "en": "My sister is a student."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "der Sohn",
+   "pos": "noun",
+   "ko": "아들",
+   "en": "son",
+   "ex": {
+    "t": "Sie hat einen Sohn.",
+    "ko": "그녀에게는 아들이 한 명 있어요.",
+    "en": "She has one son."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "die Tochter",
+   "pos": "noun",
+   "ko": "딸",
+   "en": "daughter",
+   "ex": {
+    "t": "Er hat zwei Töchter.",
+    "ko": "그에게는 딸이 두 명 있어요.",
+    "en": "He has two daughters."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "die Großmutter",
+   "pos": "noun",
+   "ko": "할머니",
+   "en": "grandmother",
+   "ex": {
+    "t": "Meine Großmutter ist nett.",
+    "ko": "제 할머니는 친절해요.",
+    "en": "My grandmother is kind."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "der Großvater",
+   "pos": "noun",
+   "ko": "할아버지",
+   "en": "grandfather",
+   "ex": {
+    "t": "Mein Großvater hat einen Hund.",
+    "ko": "제 할아버지는 개가 한 마리 있어요.",
+    "en": "My grandfather has a dog."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "haben",
+   "pos": "verb",
+   "ko": "가지고 있다",
+   "en": "have",
+   "ex": {
+    "t": "Ich habe eine große Familie.",
+    "ko": "저는 큰 가족이 있어요.",
+    "en": "I have a big family."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "소유관사 mein / meine와 haben",
+   "en": "Possessive articles (mein / meine) and 'haben'"
+  },
+  "explain": {
+   "ko": "독일어 소유관사는 소유하는 사람(ich, du, er)에 따라 mein / dein / sein으로 정해지고, 뒤에 오는 명사의 성·수에 따라 어미가 붙습니다: 남성·중성 mein, 여성·복수 meine.",
+   "en": "German possessives depend on the owner (mein, dein, sein / ihr) and take an ending that matches the noun: mein for masculine and neuter, meine for feminine and plural."
+  },
+  "table": {
+   "head": [
+    "명사 / Nomen",
+    "나의 / mein",
+    "너의 / dein",
+    "그의·그녀의 / sein · ihr"
+   ],
+   "rows": [
+    [
+     "남성 단수",
+     "mein Vater",
+     "dein Vater",
+     "sein Vater"
+    ],
+    [
+     "여성 단수",
+     "meine Mutter",
+     "deine Mutter",
+     "seine Mutter"
+    ],
+    [
+     "복수",
+     "meine Eltern",
+     "deine Eltern",
+     "seine Eltern"
+    ],
+    [
+     "중성 단수",
+     "mein Kind",
+     "dein Kind",
+     "sein Kind"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'그의'는 sein, '그녀의'는 ihr입니다. 소유자의 성별이 기준입니다.",
+    "en": "'His' is sein and 'her' is ihr: the owner's gender decides."
+   },
+   {
+    "ko": "남성·중성 단수는 어미가 없고, 여성·복수는 -e가 붙습니다.",
+    "en": "Masculine and neuter singular have no ending; feminine and plural add -e."
+   },
+   {
+    "ko": "haben: ich habe, du hast, er / sie hat, wir haben, sie haben.",
+    "en": "haben: ich habe, du hast, er / sie hat, wir haben, sie haben."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Meine Mutter ist Lehrerin.",
+    "ko": "제 어머니는 선생님이에요.",
+    "en": "My mother is a teacher."
+   },
+   {
+    "t": "Ist dein Vater Arzt?",
+    "ko": "당신의 아버지는 의사예요?",
+    "en": "Is your father a doctor?"
+   },
+   {
+    "t": "Seine Schwester ist Studentin.",
+    "ko": "그의 누나는 학생이에요.",
+    "en": "His sister is a student."
+   },
+   {
+    "t": "Sein Sohn ist fünf Jahre alt.",
+    "ko": "그녀의 아들은 다섯 살이에요.",
+    "en": "Her son is five years old."
+   },
+   {
+    "t": "Unsere Großmutter hat einen Hund.",
+    "ko": "우리 할머니는 개가 있어요.",
+    "en": "Our grandmother has a dog."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Ich liebe ___ Familie. (ich)",
+    "options": [
+     "meine",
+     "mein",
+     "meinen"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___ Schwester ist Studentin. (er)",
+    "options": [
+     "Seine",
+     "Sein",
+     "Ihre"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Sie ___ zwei Töchter.",
+    "options": [
+     "habe",
+     "hat",
+     "haben"
+    ],
+    "answer": 1,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Sie lieben ___ Großmutter. (sie, Plural)",
+    "options": [
+     "ihre",
+     "ihr",
+     "seine"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Wer ist das?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이분은 누구예요?",
+     "en": "(Question) Who is this?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Das ist meine Mutter.",
+       "Das ist ein Buch.",
+       "Mir geht es gut."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Wie viele Personen sind in deiner Familie?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 가족이 몇 명이에요?",
+     "en": "(Question) How many people are in your family?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Wir sind vier.",
+       "Ich bin zehn Jahre alt.",
+       "Es ist Montag."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Schau, das Foto. Das ist meine Mutter."
+      },
+      {
+       "s": "B",
+       "t": "Was macht sie?"
+      },
+      {
+       "s": "A",
+       "t": "Sie ist Lehrerin. Mein Vater ist Arzt."
+      },
+      {
+       "s": "B",
+       "t": "Hast du Geschwister?"
+      },
+      {
+       "s": "A",
+       "t": "Ja, ich habe eine Schwester."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 사진 봐요. 이분은 제 어머니예요.\nB: 어머니는 무슨 일을 하세요?\nA: 선생님이에요. 아버지는 의사예요.\nB: 형제자매가 있어요?\nA: 네, 여동생이 한 명 있어요.",
+     "en": "A: Look at this photo. This is my mother.\nB: What does she do?\nA: She is a teacher. My father is a doctor.\nB: Do you have any brothers or sisters?\nA: Yes, I have one sister."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist der Vater von A?",
+      "options": [
+       "Lehrer",
+       "Arzt",
+       "Student"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Hallo. Ich heiße Minho. Wir sind fünf in meiner Familie. Mein Vater, meine Mutter, mein Bruder, meine Schwester und ich."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요. 제 이름은 민호예요. 제 가족은 다섯 명이에요. 아버지, 어머니, 형, 여동생, 그리고 저예요.",
+     "en": "Hello. My name is Minho. There are five people in my family. My father, my mother, my brother, my sister, and me."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Wie viele Personen sind in Minhos Familie?",
+      "options": [
+       "4",
+       "5",
+       "6"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Wie viele seid ihr in der Familie?"
+      },
+      {
+       "s": "B",
+       "t": "Vier."
+      },
+      {
+       "s": "A",
+       "t": "Haben Sie Kinder?"
+      },
+      {
+       "s": "B",
+       "t": "Ja, ich habe einen Sohn."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "접수원: 가족이 몇 명이에요?\n손님: 네 명이에요.\n접수원: 아이가 있어요?\n손님: 네, 아들이 한 명 있어요.",
+     "en": "Receptionist: How many people are in your family?\nGuest: Four.\nReceptionist: Do you have children?\nGuest: Yes, I have one son."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Familienmitglieder: ______",
+      "answers": [
+       "vier"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Kind: ______",
+      "answers": [
+       "sohn"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___ Mutter ist Lehrerin. (ich)\n2) ___ Schwester ist Studentin. (er)\n3) Sie ___ einen Sohn.",
+    "trans": {
+     "ko": "1) 제 어머니는 선생님이에요. 2) 그의 누나는 학생이에요. 3) 그녀는 아들이 한 명 있어요.",
+     "en": "1) My mother is a teacher. 2) His sister is a student. 3) She has one son."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___ Mutter ist Lehrerin. (ich)",
+      "options": [
+       "Meine",
+       "Mein",
+       "Meinen"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___ Schwester ist Studentin. (er)",
+      "options": [
+       "Seine",
+       "Sein",
+       "Ihre"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Sie ___ einen Sohn.",
+      "options": [
+       "habe",
+       "hat",
+       "hast"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Hallo! Ich bin Eva. Das ist (1) Mutter. (2) Mutter ist Ärztin. Ich (3) zwei Brüder.",
+    "trans": {
+     "ko": "안녕하세요! 저는 에바예요. 이분은 제 어머니예요. 제 어머니는 의사예요. 저는 형제가 두 명 있어요.",
+     "en": "Hello! I am Eva. This is my mother. My mother is a doctor. I have two brothers."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "meine",
+       "mein",
+       "meinen"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "Meine",
+       "Mein",
+       "Meinen"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "habe",
+       "hat",
+       "bin"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ÜBER MEINE FAMILIE\nName: Eva\nMutter: Ärztin\nVater: Lehrer\nBrüder: zwei",
+    "trans": {
+     "ko": "우리 가족\n이름: 에바\n어머니: 의사\n아버지: 선생님\n형제: 두 명",
+     "en": "ABOUT MY FAMILY\nName: Eva\nMother: doctor\nFather: teacher\nBrothers: two"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist Evas Vater?",
+      "options": [
+       "Arzt",
+       "Lehrer",
+       "Student"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "Wie viele Brüder hat Eva?",
+      "options": [
+       "1",
+       "2",
+       "3"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Ben hat eine Familie mit vier Personen. Sein Vater ist Lehrer. Seine Mutter ist Ärztin.",
+    "trans": {
+     "ko": "벤은 가족이 네 명이에요. 그의 아버지는 선생님이에요. 그의 어머니는 의사예요.",
+     "en": "Ben has a family of four. His father is a teacher. His mother is a doctor."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Bens Vater ist Arzt.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "In Bens Familie sind vier Personen.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Ben hat eine Schwester.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Das ist meine Familie.",
+    "ko": "제 가족을 소개할게요.",
+    "en": "Let me introduce my family.",
+    "situation": {
+     "ko": "가족을 소개할 때",
+     "en": "Introducing your family"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Das ist meine Mutter.",
+    "ko": "이분은 제 어머니예요.",
+    "en": "This is my mother.",
+    "situation": {
+     "ko": "사람을 소개할 때",
+     "en": "Introducing a person"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Wie viele seid ihr in der Familie?",
+    "ko": "가족이 몇 명이에요?",
+    "en": "How many people are in your family?",
+    "situation": {
+     "ko": "가족 수를 물을 때",
+     "en": "Asking about family size"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Ich habe eine ältere Schwester.",
+    "ko": "저는 누나가 한 명 있어요.",
+    "en": "I have one older sister.",
+    "situation": {
+     "ko": "형제자매를 말할 때",
+     "en": "Talking about siblings"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Was macht dein Vater?",
+    "ko": "아버지는 무슨 일을 하세요?",
+    "en": "What does your father do?",
+    "situation": {
+     "ko": "직업을 물을 때",
+     "en": "Asking about someone's job"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Das ist meine Tochter.",
+    "ko": "그녀는 제 딸이에요.",
+    "en": "She is my daughter.",
+    "situation": {
+     "ko": "가족을 소개할 때",
+     "en": "Introducing family"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Wie geht es deiner Großmutter?",
+    "ko": "할머니는 잘 지내세요?",
+    "en": "How is your grandmother?",
+    "situation": {
+     "ko": "안부를 물을 때",
+     "en": "Asking after someone"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Wir sind vier in meiner Familie.",
+    "ko": "제 가족은 모두 네 명이에요.",
+    "en": "There are four people in my family.",
+    "situation": {
+     "ko": "가족 구성을 말할 때",
+     "en": "Describing your family"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Meine ~ ist ~.",
+    "ko": "제 ~는 ~예요.",
+    "en": "My ~ is a ~."
+   },
+   {
+    "id": "w2",
+    "t": "Ich habe ~ ~.",
+    "ko": "저는 ~가 ~명 있어요.",
+    "en": "I have ~ ~."
+   },
+   {
+    "id": "w3",
+    "t": "Das ist meine ~.",
+    "ko": "이분은 제 ~예요.",
+    "en": "This is my ~."
+   },
+   {
+    "id": "w4",
+    "t": "Wir sind ~ in meiner Familie.",
+    "ko": "제 가족은 ~명이에요.",
+    "en": "There are ~ people in my family."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가족을 3문장으로 소개해 보세요: 가족 수, 어머니(또는 아버지)의 직업, 형제자매.",
+    "en": "Introduce your family in 3 sentences: how many people, your mother's or father's job, and siblings."
+   },
+   "must_include": [
+    {
+     "label": "Wir sind ~ in meiner Familie",
+     "match": [
+      "in meiner familie",
+      "wir sind"
+     ]
+    },
+    {
+     "label": "Meine Mutter / Mein Vater ist ~",
+     "match": [
+      "meine mutter ist",
+      "mein vater ist"
+     ]
+    },
+    {
+     "label": "Ich habe ~",
+     "match": [
+      "ich habe"
+     ]
+    }
+   ],
+   "model": "Wir sind vier in meiner Familie. Meine Mutter ist Lehrerin. Ich habe eine Schwester.",
+   "model_trans": {
+    "ko": "제 가족은 네 명이에요. 제 어머니는 선생님이에요. 저는 여동생이 한 명 있어요.",
+    "en": "There are four people in my family. My mother is a teacher. I have one sister."
+   }
+  }
+ }
+}
