@@ -1,0 +1,787 @@
+{
+ "meta": {
+  "id": "ko_a1_u07",
+  "lang": "ko",
+  "family": "asia",
+  "level": "a1",
+  "unit": 7,
+  "concept": "A1.U07",
+  "status": "live",
+  "title": {
+   "target": "장소와 길 묻기",
+   "ko": "장소와 길 묻기",
+   "en": "Places and directions"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "역",
+   "pos": "noun",
+   "read": "yeok",
+   "en": "station",
+   "ex": {
+    "t": "역은 어디에 있어요?",
+    "read": "yeogeun eodie isseoyo?",
+    "en": "Where is the station?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "은행",
+   "pos": "noun",
+   "read": "eunhaeng",
+   "en": "bank",
+   "ex": {
+    "t": "이 거리에 은행이 있어요.",
+    "read": "i georie eunhaengi isseoyo.",
+    "en": "There is a bank on this street."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "병원",
+   "pos": "noun",
+   "read": "byeongwon",
+   "en": "hospital",
+   "ex": {
+    "t": "병원은 커요.",
+    "read": "byeongwoneun keoyo.",
+    "en": "The hospital is big."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "공원",
+   "pos": "noun",
+   "read": "gongwon",
+   "en": "park",
+   "ex": {
+    "t": "도시에 공원이 있어요.",
+    "read": "dosie gongwoni isseoyo.",
+    "en": "There is a park in the city."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "슈퍼마켓",
+   "pos": "noun",
+   "read": "syupeomaket",
+   "en": "supermarket",
+   "ex": {
+    "t": "여기에 슈퍼마켓이 있어요.",
+    "read": "yeogie syupeomakesi isseoyo.",
+    "en": "There is a supermarket here."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "거리",
+   "pos": "noun",
+   "read": "geori",
+   "en": "street",
+   "ex": {
+    "t": "은행은 이 거리에 있어요.",
+    "read": "eunhaengeun i georie isseoyo.",
+    "en": "The bank is on this street."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "왼쪽",
+   "pos": "adv",
+   "read": "oenjjok",
+   "en": "left",
+   "ex": {
+    "t": "왼쪽으로 도세요.",
+    "read": "oenjjogeuro doseyo.",
+    "en": "Turn left."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "오른쪽",
+   "pos": "adv",
+   "read": "oreunjjok",
+   "en": "right",
+   "ex": {
+    "t": "오른쪽으로 도세요.",
+    "read": "oreunjjogeuro doseyo.",
+    "en": "Turn right."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "옆",
+   "pos": "prep",
+   "read": "yeop",
+   "en": "next to",
+   "ex": {
+    "t": "은행은 역 옆에 있어요.",
+    "read": "eunhaengeun yeok yeope isseoyo.",
+    "en": "The bank is next to the station."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "앞",
+   "pos": "prep",
+   "read": "ap",
+   "en": "in front of",
+   "ex": {
+    "t": "공원은 학교 앞에 있어요.",
+    "read": "gongwoneun hakgyo ape isseoyo.",
+    "en": "The park is in front of the school."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "-에 있다 · 옆 / 앞",
+   "en": "Location: -에 있다 and position words (옆, 앞)"
+  },
+  "explain": {
+   "ko": "장소의 위치는 '장소 + 은/는 + 기준 + 위치 + 에 있어요'로 말합니다: 은행은 역 옆에 있어요. 어떤 장소에 무엇이 있다고 말할 때는 '장소에 + 명사가 있어요'를 씁니다. 위치를 물을 때는 '어디에 있어요?'라고 합니다.",
+   "en": "Say where a place is with 'place + 은/는 + reference + position word + 에 있어요': 은행은 역 옆에 있어요. To say there is something somewhere use '장소에 + noun가 있어요'. Ask with '어디에 있어요?'."
+  },
+  "table": {
+   "head": [
+    "표현 / Expression",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "~에 있다",
+     "역은 이 거리에 있어요."
+    ],
+    [
+     "~ 옆에",
+     "은행은 역 옆에 있어요."
+    ],
+    [
+     "~ 앞에",
+     "공원은 학교 앞에 있어요."
+    ],
+    [
+     "왼쪽 / 오른쪽",
+     "왼쪽으로 도세요."
+    ],
+    [
+     "어디에 있어요?",
+     "병원은 어디에 있어요?"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "위치 명사는 기준이 되는 명사 뒤에 둡니다: 역 옆, 학교 앞.",
+    "en": "Position words come after the reference noun: 역 옆, 학교 앞."
+   },
+   {
+    "ko": "'있다'는 '있다(존재)'와 '~에 있다(위치)'를 모두 나타냅니다.",
+    "en": "'있다' means both 'there is' and 'be located'."
+   },
+   {
+    "ko": "길 안내: 쭉 가세요. 왼쪽 / 오른쪽으로 도세요.",
+    "en": "Directions: 쭉 가세요. 왼쪽 / 오른쪽으로 도세요."
+   }
+  ],
+  "examples": [
+   {
+    "t": "역은 어디에 있어요?",
+    "read": "yeogeun eodie isseoyo?",
+    "en": "Where is the station?"
+   },
+   {
+    "t": "은행은 역 옆에 있어요.",
+    "read": "eunhaengeun yeok yeope isseoyo.",
+    "en": "The bank is next to the station."
+   },
+   {
+    "t": "학교 앞에 공원이 있어요.",
+    "read": "hakgyo ape gongwoni isseoyo.",
+    "en": "There is a park in front of the school."
+   },
+   {
+    "t": "이 거리에 병원이 있어요?",
+    "read": "i georie byeongwoni isseoyo?",
+    "en": "Is there a hospital on this street?"
+   },
+   {
+    "t": "오른쪽으로 도세요.",
+    "read": "oreunjjogeuro doseyo.",
+    "en": "Turn right."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "은행은 역 ___ 있어요.",
+    "options": [
+     "옆에",
+     "옆",
+     "에서"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "병원은 ___ 있어요?",
+    "options": [
+     "누구",
+     "어디에",
+     "무엇"
+    ],
+    "answer": 1,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "공원은 학교 ___ 있어요.",
+    "options": [
+     "앞",
+     "앞에",
+     "으로"
+    ],
+    "answer": 1,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "오른쪽___ 도세요.",
+    "options": [
+     "에서",
+     "으로",
+     "에"
+    ],
+    "answer": 1,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "은행은 어디에 있어요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Where is the bank?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "역 옆에 있어요.",
+       "저는 선생님이에요.",
+       "월요일이에요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이 근처에 공원이 있어요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Is there a park near here?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "네, 있어요.",
+       "네, 해요.",
+       "공원이에요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "실례합니다. 병원이 어디에 있어요?"
+      },
+      {
+       "s": "B",
+       "t": "쭉 가서 오른쪽으로 도세요."
+      },
+      {
+       "s": "A",
+       "t": "멀어요?"
+      },
+      {
+       "s": "B",
+       "t": "아니요. 학교 옆에 있어요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: Excuse me. Where is the hospital?\nB: Go straight and turn right.\nA: Is it far?\nB: No. It's next to the school."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "병원은 어디에 있어요?",
+      "options": [
+       "학교 옆",
+       "은행 옆",
+       "공원 앞"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이 거리에는 은행, 공원, 슈퍼마켓이 있어요. 공원은 학교 앞에 있어요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "On this street, there is a bank, a park, and a supermarket. The park is in front of the school."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "공원은 어디에 있어요?",
+      "options": [
+       "학교 앞",
+       "은행 옆",
+       "슈퍼마켓 옆"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "어디에 가세요?"
+      },
+      {
+       "s": "B",
+       "t": "역에 가요."
+      },
+      {
+       "s": "A",
+       "t": "왼쪽으로 도세요. 역은 은행 옆에 있어요."
+      },
+      {
+       "s": "B",
+       "t": "고맙습니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Guide: Where are you going?\nGuest: To the station.\nGuide: Turn left. The station is next to the bank.\nGuest: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "방향: ______",
+      "answers": [
+       "왼쪽"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "옆: ______",
+      "answers": [
+       "은행"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 이 거리에 은행___ 있어요.\n2) 공원이 ___ 있어요.\n3) 병원은 ___ 있어요?",
+    "trans": {
+     "en": "1) There is a bank on this street. 2) There are two parks. 3) Where is the hospital?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "이 거리에 은행___ 있어요.",
+      "options": [
+       "이",
+       "가",
+       "을"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "공원이 ___ 있어요.",
+      "options": [
+       "두 개",
+       "두 명",
+       "두 잔"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "병원은 ___ 있어요?",
+      "options": [
+       "어디에",
+       "누가",
+       "무엇"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "안녕하세요! 저는 이 거리(1) 살아요. 학교 (2) 공원이 있어요. 은행은 공원 (3) 있어요.",
+    "trans": {
+     "en": "Hello! I live on this street. There is a park in front of the school. The bank is next to the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "에",
+       "에서",
+       "를"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "앞에",
+       "앞",
+       "으로"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "옆에",
+       "옆",
+       "에서"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "안내도\n역: 은행 옆\n공원: 학교 앞\n병원: 슈퍼마켓 옆",
+    "trans": {
+     "en": "MAP\nStation: next to the bank\nPark: in front of the school\nHospital: next to the supermarket"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "역은 어디에 있어요?",
+      "options": [
+       "은행 옆",
+       "학교 앞",
+       "슈퍼마켓 옆"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "학교 앞에는 무엇이 있어요?",
+      "options": [
+       "병원",
+       "공원",
+       "은행"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "역은 이 거리에 있어요. 은행은 역 옆에 있어요. 병원은 멀어요.",
+    "trans": {
+     "en": "The station is on this street. The bank is next to the station. The hospital is far."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "은행은 역 옆에 있어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "병원은 가까워요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "은행은 커요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "실례합니다. 역이 어디에 있어요?",
+    "read": "sillyehamnida. yeogi eodie isseoyo?",
+    "en": "Excuse me, where is the station?",
+    "situation": {
+     "ko": "길을 물을 때",
+     "en": "Asking the way"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "이 근처에 은행이 있어요?",
+    "read": "i geuncheoe eunhaengi isseoyo?",
+    "en": "Is there a bank near here?",
+    "situation": {
+     "ko": "장소를 찾을 때",
+     "en": "Looking for a place"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "쭉 가세요.",
+    "read": "jjuk gaseyo.",
+    "en": "Go straight.",
+    "situation": {
+     "ko": "길을 안내할 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "왼쪽으로 도세요.",
+    "read": "oenjjogeuro doseyo.",
+    "en": "Turn left.",
+    "situation": {
+     "ko": "길을 안내할 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "오른쪽으로 도세요.",
+    "read": "oreunjjogeuro doseyo.",
+    "en": "Turn right.",
+    "situation": {
+     "ko": "길을 안내할 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "은행은 역 옆에 있어요.",
+    "read": "eunhaengeun yeok yeope isseoyo.",
+    "en": "The bank is next to the station.",
+    "situation": {
+     "ko": "위치를 설명할 때",
+     "en": "Describing a location"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "멀어요?",
+    "read": "meoreoyo?",
+    "en": "Is it far?",
+    "situation": {
+     "ko": "거리를 물을 때",
+     "en": "Asking about distance"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "고맙습니다. 큰 도움이 됐어요.",
+    "read": "gomapseumnida. keun doumi dwaesseoyo.",
+    "en": "Thank you. That's very helpful.",
+    "situation": {
+     "ko": "감사를 표할 때",
+     "en": "Thanking someone"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~는 어디에 있어요?",
+    "read": "~neun eodie isseoyo?",
+    "en": "Where is the ~?"
+   },
+   {
+    "id": "w2",
+    "t": "~ 옆에 ~가 있어요.",
+    "read": "~ yeope ~ga isseoyo.",
+    "en": "There is a ~ next to the ~."
+   },
+   {
+    "id": "w3",
+    "t": "~ 앞에 ~가 있어요.",
+    "read": "~ ape ~ga isseoyo.",
+    "en": "There is a ~ in front of the ~."
+   },
+   {
+    "id": "w4",
+    "t": "왼쪽/오른쪽으로 도세요.",
+    "read": "oenjjok/oreunjjogeuro doseyo.",
+    "en": "Turn left/right."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "길 안내를 3문장으로 써 보세요: 장소의 위치, 왼쪽 또는 오른쪽으로 가기, 옆에 있는 건물.",
+    "en": "Write 3 sentences giving directions: where a place is, turning left or right, and a building next to it."
+   },
+   "must_include": [
+    {
+     "label": "~는 ~에 있어요",
+     "match": [
+      "에 있어요"
+     ]
+    },
+    {
+     "label": "왼쪽/오른쪽으로 도세요",
+     "match": [
+      "왼쪽으로 도세요",
+      "오른쪽으로 도세요"
+     ]
+    },
+    {
+     "label": "옆에",
+     "match": [
+      "옆에"
+     ]
+    }
+   ],
+   "model": "역은 이 거리에 있어요. 쭉 가서 왼쪽으로 도세요. 은행은 역 옆에 있어요.",
+   "model_trans": {
+    "ko": "역은 이 거리에 있어요. 쭉 가서 왼쪽으로 도세요. 은행은 역 옆에 있어요.",
+    "en": "The station is on this street. Go straight and turn left. The bank is next to the station."
+   }
+  }
+ }
+}

@@ -1,0 +1,786 @@
+{
+ "meta": {
+  "id": "ko_a1_u08",
+  "lang": "ko",
+  "family": "asia",
+  "level": "a1",
+  "unit": 8,
+  "concept": "A1.U08",
+  "status": "live",
+  "title": {
+   "target": "시간과 요일",
+   "ko": "시간과 요일",
+   "en": "Time and days"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "시간",
+   "pos": "noun",
+   "read": "sigan",
+   "en": "time",
+   "ex": {
+    "t": "지금 몇 시예요?",
+    "read": "jigeum myeot siyeyo?",
+    "en": "What time is it?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "요일",
+   "pos": "noun",
+   "read": "yoil",
+   "en": "day",
+   "ex": {
+    "t": "오늘은 무슨 요일이에요?",
+    "read": "oneureun museun yoirieyo?",
+    "en": "What day is it today?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "월요일",
+   "pos": "noun",
+   "read": "woryoil",
+   "en": "Monday",
+   "ex": {
+    "t": "저는 월요일에 일해요.",
+    "read": "jeoneun woryoire ilhaeyo.",
+    "en": "I work on Monday."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "토요일",
+   "pos": "noun",
+   "read": "toyoil",
+   "en": "Saturday",
+   "ex": {
+    "t": "저는 토요일에 공부해요.",
+    "read": "jeoneun toyoire gongbuhaeyo.",
+    "en": "I study on Saturday."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "일요일",
+   "pos": "noun",
+   "read": "iryoil",
+   "en": "Sunday",
+   "ex": {
+    "t": "저는 일요일에 책을 읽어요.",
+    "read": "jeoneun iryoire chaegeul ilgeoyo.",
+    "en": "I read a book on Sunday."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "아침",
+   "pos": "noun",
+   "read": "achim",
+   "en": "morning",
+   "ex": {
+    "t": "저는 아침에 커피를 마셔요.",
+    "read": "jeoneun achime keopireul masyeoyo.",
+    "en": "I drink coffee in the morning."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "저녁",
+   "pos": "noun",
+   "read": "jeonyeok",
+   "en": "evening",
+   "ex": {
+    "t": "저는 저녁에 영어를 공부해요.",
+    "read": "jeoneun jeonyeoge yeongeoreul gongbuhaeyo.",
+    "en": "I study English in the evening."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "오늘",
+   "pos": "adv",
+   "read": "oneul",
+   "en": "today",
+   "ex": {
+    "t": "오늘은 월요일이에요.",
+    "read": "oneureun woryoirieyo.",
+    "en": "Today is Monday."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "내일",
+   "pos": "adv",
+   "read": "naeil",
+   "en": "tomorrow",
+   "ex": {
+    "t": "내일 만나요.",
+    "read": "naeil mannayo.",
+    "en": "See you tomorrow."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "시",
+   "pos": "noun",
+   "read": "si",
+   "en": "o'clock",
+   "ex": {
+    "t": "지금 아홉 시예요.",
+    "read": "jigeum ahop siyeyo.",
+    "en": "It is nine o'clock."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "~시 · 요일 · 시간 + 에",
+   "en": "Time: ~시, days and the particle 에"
+  },
+  "explain": {
+   "ko": "시각은 고유어 수(한, 두, 세, ... 아홉)에 '시'를 붙여 말하고, 분은 한자어 수(십, 삼십)에 '분'을 붙입니다. 요일이나 때 뒤에는 조사 '에'를 붙입니다: 월요일에, 아침에, 아홉 시에.",
+   "en": "Tell the hour with a native number + 시 (한 시, 두 시, ... 아홉 시) and minutes with a Sino-Korean number + 분. Add the particle 에 after a day or a time: 월요일에, 아침에, 아홉 시에."
+  },
+  "table": {
+   "head": [
+    "표현 / Expression",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "고유어 수 + 시",
+     "아홉 시"
+    ],
+    [
+     "한자어 수 + 분",
+     "십 분, 삼십 분"
+    ],
+    [
+     "요일 + 에",
+     "월요일에 일해요."
+    ],
+    [
+     "아침 / 저녁 + 에",
+     "아침에 커피를 마셔요."
+    ],
+    [
+     "오늘 · 내일 (에 없음)",
+     "오늘은 월요일이에요."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "시는 고유어 수를 씁니다: 한 시, 두 시, 세 시.",
+    "en": "Hours use native numbers: 한 시, 두 시, 세 시."
+   },
+   {
+    "ko": "분은 한자어 수를 씁니다: 십 분, 삼십 분.",
+    "en": "Minutes use Sino-Korean numbers: 십 분, 삼십 분."
+   },
+   {
+    "ko": "오늘, 내일, 어제에는 '에'를 쓰지 않습니다.",
+    "en": "Do not add 에 to 오늘, 내일 or 어제."
+   }
+  ],
+  "examples": [
+   {
+    "t": "지금 몇 시예요?",
+    "read": "jigeum myeot siyeyo?",
+    "en": "What time is it?"
+   },
+   {
+    "t": "지금 아홉 시예요.",
+    "read": "jigeum ahop siyeyo.",
+    "en": "It is nine o'clock."
+   },
+   {
+    "t": "오늘은 무슨 요일이에요?",
+    "read": "oneureun museun yoirieyo?",
+    "en": "What day is it today?"
+   },
+   {
+    "t": "저는 월요일에 일해요.",
+    "read": "jeoneun woryoire ilhaeyo.",
+    "en": "I work on Monday."
+   },
+   {
+    "t": "저는 아침에 커피를 마셔요.",
+    "read": "jeoneun achime keopireul masyeoyo.",
+    "en": "I drink coffee in the morning."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "저는 월요일___ 일해요.",
+    "options": [
+     "을",
+     "에",
+     "가"
+    ],
+    "answer": 1,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "지금 ___ 시예요?",
+    "options": [
+     "몇",
+     "무슨",
+     "어느"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "저는 아침___ 커피를 마셔요.",
+    "options": [
+     "에",
+     "에서",
+     "를"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "오늘은 무슨 ___이에요?",
+    "options": [
+     "시",
+     "분",
+     "요일"
+    ],
+    "answer": 2,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "지금 몇 시예요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What time is it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "아홉 시예요.",
+       "월요일이에요.",
+       "시계예요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "오늘은 무슨 요일이에요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What day is it today?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "토요일이에요.",
+       "열 시예요.",
+       "잘 지내요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "영어 수업은 무슨 요일이에요?"
+      },
+      {
+       "s": "B",
+       "t": "월요일이에요."
+      },
+      {
+       "s": "A",
+       "t": "몇 시에 시작해요?"
+      },
+      {
+       "s": "B",
+       "t": "아침 아홉 시에 시작해요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: What day is the English class?\nB: It's on Monday.\nA: What time does it start?\nB: It starts at nine o'clock in the morning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "수업은 언제 시작해요?",
+      "options": [
+       "월요일 아홉 시",
+       "일요일 아홉 시",
+       "월요일 일곱 시"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "저는 월요일에 일해요. 토요일에는 영어를 공부해요. 일요일에는 가족과 함께 있어요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "I work on Monday. I study English on Saturday. I am with my family on Sunday."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "화자는 토요일에 무엇을 해요?",
+      "options": [
+       "일해요",
+       "영어를 공부해요",
+       "가족과 있어요"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "무슨 요일로 하시겠어요?"
+      },
+      {
+       "s": "B",
+       "t": "토요일이요."
+      },
+      {
+       "s": "A",
+       "t": "몇 시요?"
+      },
+      {
+       "s": "B",
+       "t": "저녁 일곱 시요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Receptionist: Which day would you like?\nGuest: Saturday.\nReceptionist: What time?\nGuest: Seven o'clock in the evening."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "요일: ______",
+      "answers": [
+       "토요일"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "시각: ______",
+      "answers": [
+       "일곱"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 저는 월요일___ 일해요.\n2) 저는 아침___ 커피를 마셔요.\n3) 지금 ___ 시예요?",
+    "trans": {
+     "en": "1) I work on Monday. 2) I drink coffee in the morning. 3) What time is it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "저는 월요일___ 일해요.",
+      "options": [
+       "에",
+       "을",
+       "가"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "저는 아침___ 커피를 마셔요.",
+      "options": [
+       "에",
+       "에서",
+       "를"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "지금 ___ 시예요?",
+      "options": [
+       "몇",
+       "무슨",
+       "어느"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "안녕하세요! 오늘은 토요일(1). 저는 아침(2) 영어를 공부해요. 저녁 일곱 시(3) 가족과 함께 있어요.",
+    "trans": {
+     "en": "Hello! Today is Saturday. I study English in the morning. I am with my family at seven o'clock in the evening."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "이에요",
+       "예요",
+       "가"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "에",
+       "을",
+       "는"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "에",
+       "을",
+       "가"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "수업 시간표\n월요일: 영어, 9시\n토요일: 스페인어, 10시",
+    "trans": {
+     "en": "CLASS TIMETABLE\nMonday: English, 9 o'clock\nSaturday: Spanish, 10 o'clock"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "월요일에는 무슨 수업이 있어요?",
+      "options": [
+       "영어",
+       "스페인어",
+       "프랑스어"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "토요일 수업은 몇 시예요?",
+      "options": [
+       "9시",
+       "10시",
+       "11시"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "벤은 월요일에 일해요. 그는 아침 아홉 시에 일을 시작해요. 토요일에 그는 집에 있어요.",
+    "trans": {
+     "en": "Ben works on Monday. He starts work at nine o'clock in the morning. On Saturday, he is at home."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "벤은 토요일에 일해요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "벤은 아침 아홉 시에 일을 시작해요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "벤은 은행에서 일해요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "지금 몇 시예요?",
+    "read": "jigeum myeot siyeyo?",
+    "en": "What time is it?",
+    "situation": {
+     "ko": "시간을 물을 때",
+     "en": "Asking the time"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "지금 아홉 시예요.",
+    "read": "jigeum ahop siyeyo.",
+    "en": "It's nine o'clock.",
+    "situation": {
+     "ko": "시간을 말할 때",
+     "en": "Telling the time"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "오늘은 무슨 요일이에요?",
+    "read": "oneureun museun yoirieyo?",
+    "en": "What day is it today?",
+    "situation": {
+     "ko": "요일을 물을 때",
+     "en": "Asking the day"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "오늘은 월요일이에요.",
+    "read": "oneureun woryoirieyo.",
+    "en": "Today is Monday.",
+    "situation": {
+     "ko": "요일을 말할 때",
+     "en": "Telling the day"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "몇 시에 시작해요?",
+    "read": "myeot sie sijakaeyo?",
+    "en": "What time does it start?",
+    "situation": {
+     "ko": "시작 시간을 물을 때",
+     "en": "Asking a start time"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "일곱 시에 시작해요.",
+    "read": "ilgop sie sijakaeyo.",
+    "en": "It starts at seven o'clock.",
+    "situation": {
+     "ko": "시작 시간을 말할 때",
+     "en": "Giving a start time"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "내일 만나요.",
+    "read": "naeil mannayo.",
+    "en": "See you tomorrow.",
+    "situation": {
+     "ko": "작별할 때",
+     "en": "Saying goodbye"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "토요일에 시간 있어요?",
+    "read": "toyoire sigan isseoyo?",
+    "en": "Are you free on Saturday?",
+    "situation": {
+     "ko": "약속을 물을 때",
+     "en": "Asking about availability"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "지금 ~시예요.",
+    "read": "jigeum ~siyeyo.",
+    "en": "It's ~ o'clock."
+   },
+   {
+    "id": "w2",
+    "t": "오늘은 ~요일이에요.",
+    "read": "oneureun ~yoirieyo.",
+    "en": "Today is ~."
+   },
+   {
+    "id": "w3",
+    "t": "저는 ~요일에 ~해요.",
+    "read": "jeoneun ~yoire ~haeyo.",
+    "en": "I ~ on ~."
+   },
+   {
+    "id": "w4",
+    "t": "저는 아침/저녁에 ~해요.",
+    "read": "jeoneun achim/jeonyeoge ~haeyo.",
+    "en": "I ~ in the morning/evening."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "시간에 대해 3문장으로 써 보세요: 오늘 요일, 지금 시각, 토요일에 하는 일.",
+    "en": "Write 3 sentences about time: today's day, the time now, and something you do on Saturday."
+   },
+   "must_include": [
+    {
+     "label": "오늘은 ~요일이에요",
+     "match": [
+      "오늘은"
+     ]
+    },
+    {
+     "label": "지금 ~시예요",
+     "match": [
+      "시예요"
+     ]
+    },
+    {
+     "label": "~요일에",
+     "match": [
+      "요일에"
+     ]
+    }
+   ],
+   "model": "오늘은 월요일이에요. 지금 아홉 시예요. 저는 토요일에 영어를 공부해요.",
+   "model_trans": {
+    "ko": "오늘은 월요일이에요. 지금 아홉 시예요. 저는 토요일에 영어를 공부해요.",
+    "en": "Today is Monday. It's nine o'clock. I study English on Saturday."
+   }
+  }
+ }
+}
