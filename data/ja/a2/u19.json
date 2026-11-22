@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "ja_a2_u19",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 19,
+  "concept": "A2.U19",
+  "status": "live",
+  "title": {
+   "target": "もしも・〜とき",
+   "ko": "만약 ~라면",
+   "en": "If and when"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "〜たら",
+   "pos": "conj",
+   "read": "〜たら",
+   "ko": "만약 ~라면",
+   "en": "if",
+   "ex": {
+    "t": "雨が降ったら、家にいます。",
+    "read": "あめがふったら、いえにいます。",
+    "ko": "비가 오면 집에 있을 거예요.",
+    "en": "If it rains, I'll stay at home."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜とき",
+   "pos": "conj",
+   "read": "〜とき",
+   "ko": "~할 때",
+   "en": "when",
+   "ex": {
+    "t": "家に着いたとき、電話します。",
+    "read": "いえについたとき、でんわします。",
+    "ko": "집에 도착하면 전화할게요.",
+    "en": "I'll call you when I get home."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜ないと",
+   "pos": "conj",
+   "read": "〜ないと",
+   "ko": "~하지 않으면",
+   "en": "unless",
+   "ex": {
+    "t": "急がないと、遅れます。",
+    "read": "いそがないと、おくれます。",
+    "ko": "서두르지 않으면 늦을 거예요.",
+    "en": "Unless we hurry, we'll be late."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "かもしれない",
+   "pos": "modal",
+   "read": "かもしれない",
+   "ko": "~할지도 모른다",
+   "en": "might",
+   "ex": {
+    "t": "雨が降るかもしれません。",
+    "read": "あめがふるかもしれません。",
+    "ko": "비가 올지도 몰라요.",
+    "en": "It might rain."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜たらすぐ",
+   "pos": "phrase",
+   "read": "〜たらすぐ",
+   "ko": "~하자마자",
+   "en": "as soon as",
+   "ex": {
+    "t": "着いたらすぐ電話します。",
+    "read": "ついたらすぐでんわします。",
+    "ko": "도착하자마자 전화할게요.",
+    "en": "I'll call you as soon as I arrive."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "〜前に",
+   "pos": "conj",
+   "read": "〜まえに",
+   "ko": "~하기 전에",
+   "en": "before",
+   "ex": {
+    "t": "出かける前に、ドアに鍵をかけます。",
+    "read": "でかけるまえに、ドアにかぎをかけます。",
+    "ko": "나가기 전에 문을 잠가요.",
+    "en": "Lock the door before you leave."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "〜あとで",
+   "pos": "conj",
+   "read": "〜あとで",
+   "ko": "~한 후에",
+   "en": "after",
+   "ex": {
+    "t": "晩ごはんを食べたあとで、宿題をします。",
+    "read": "ばんごはんをたべたあとで、しゅくだいをします。",
+    "ko": "저녁을 먹은 후에 숙제를 할 거예요.",
+    "en": "I'll do my homework after I have dinner."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "晴れ",
+   "pos": "adj",
+   "read": "はれ",
+   "ko": "맑은",
+   "en": "sunny",
+   "ex": {
+    "t": "明日晴れたら、海へ行きます。",
+    "read": "あしたはれたら、うみへいきます。",
+    "ko": "내일 맑으면 해변에 갈 거예요.",
+    "en": "If it's sunny tomorrow, we'll go to the beach."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "傘",
+   "pos": "noun",
+   "read": "かさ",
+   "ko": "우산",
+   "en": "umbrella",
+   "ex": {
+    "t": "雨が降ったら、傘を持っていってください。",
+    "read": "あめがふったら、かさをもっていってください。",
+    "ko": "비가 오면 우산을 가져가세요.",
+    "en": "Take an umbrella if it rains."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "切符",
+   "pos": "noun",
+   "read": "きっぷ",
+   "ko": "표",
+   "en": "ticket",
+   "ex": {
+    "t": "切符を買わないと、入れません。",
+    "read": "きっぷをかわないと、いれません。",
+    "ko": "표를 사지 않으면 들어갈 수 없어요.",
+    "en": "You can't go in unless you buy a ticket."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "条件：〜たら・〜と・〜前に・〜あとで",
+   "en": "Conditionals: 〜たら / 〜と / 〜前に / 〜あとで"
+  },
+  "explain": {
+   "ko": "「もし〜なら」は、動詞のた形に「ら」をつけた「〜たら」で言います：雨が降ったら、家にいます。「〜ないと、〜」は、しないと悪いことが起こるときに使います：急がないと、遅れます。順番は「〜前に」「〜たあとで」で言います：晩ごはんを食べたあとで、宿題をします。",
+   "en": "Say 'if' with 〜たら (た-form + ら): 雨が降ったら、家にいます。 〜ないと is for 'otherwise': 急がないと、遅れます。 Order is shown by 〜前に and 〜たあとで: 晩ごはんを食べたあとで、宿題をします。"
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜たら、〜",
+     "if / when",
+     "雨が降ったら、家にいます。"
+    ],
+    [
+     "〜ないと、〜",
+     "if not, …",
+     "急がないと、遅れます。"
+    ],
+    [
+     "〜たらすぐ〜",
+     "as soon as",
+     "着いたらすぐ電話します。"
+    ],
+    [
+     "〜前に",
+     "before",
+     "出かける前に、鍵をかけます。"
+    ],
+    [
+     "〜たあとで",
+     "after",
+     "食べたあとで、勉強します。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜たら」のあとには、未来の行動を言います。",
+    "en": "After 〜たら, state a future action."
+   },
+   {
+    "ko": "「かもしれません」は「たぶん〜」という意味で、確かではありません。",
+    "en": "「かもしれません」 means 'maybe' — not certain."
+   },
+   {
+    "ko": "「雨だったら」のように、名詞や形容詞にも「たら」がつきます。",
+    "en": "〜たら also attaches to nouns and adjectives: 雨だったら."
+   }
+  ],
+  "examples": [
+   {
+    "t": "雨が降ったら、家にいます。",
+    "read": "あめがふったら、いえにいます。",
+    "ko": "비가 오면 집에 있을 거예요.",
+    "en": "If it rains, I'll stay at home."
+   },
+   {
+    "t": "明日晴れたら、私たちは海へ行きます。",
+    "read": "あしたはれたら、わたしたちはうみへいきます。",
+    "ko": "내일 맑으면 우리는 해변에 갈 거예요.",
+    "en": "If it's sunny tomorrow, we'll go to the beach."
+   },
+   {
+    "t": "急がないと、遅れます。",
+    "read": "いそがないと、おくれます。",
+    "ko": "서두르지 않으면 늦을 거예요.",
+    "en": "If we don't hurry, we'll be late."
+   },
+   {
+    "t": "着いたらすぐ電話します。",
+    "read": "ついたらすぐでんわします。",
+    "ko": "도착하자마자 전화할게요.",
+    "en": "I'll call you as soon as I arrive."
+   },
+   {
+    "t": "晩ごはんを食べたあとで、勉強します。",
+    "read": "ばんごはんをたべたあとで、べんきょうします。",
+    "ko": "저녁을 먹은 후에 공부할 거예요.",
+    "en": "I'll study after I have dinner."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "雨が降っ___、家にいます。",
+    "options": [
+     "たら",
+     "たり",
+     "ても"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "急がない___、遅れます。",
+    "options": [
+     "と",
+     "で",
+     "が"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "着い___すぐ電話します。",
+    "options": [
+     "たら",
+     "たり",
+     "て"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "晩ごはんを食べた___、勉強します。",
+    "options": [
+     "あとで",
+     "前に",
+     "ながら"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "雨が降ったら、何をしますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 비가 오면 뭐 할 거예요?",
+     "en": "(Question) What will you do if it rains?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "家にいます。",
+       "家にいました。",
+       "家にいます、昨日。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "着いたら電話してくれますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 도착하면 전화해 줄래요?",
+     "en": "(Question) Will you call me when you arrive?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、着いたらすぐ電話します。",
+       "はい、電話しました。",
+       "はい、電話しています。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明日の天気はどうかな。"
+      },
+      {
+       "s": "B",
+       "t": "晴れたら海に行こう。雨が降ったら映画を見に行こう。"
+      },
+      {
+       "s": "A",
+       "t": "いいね。早く出ないと道が混むよ。"
+      },
+      {
+       "s": "B",
+       "t": "じゃあ、八時に出よう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 내일 날씨가 어떨까?\nB: 맑으면 해변에 가자. 비가 오면 영화를 보러 가자.\nA: 좋아. 일찍 출발하지 않으면 길이 막힐 거야.\nB: 그럼 여덟 시에 출발하자.",
+     "en": "A: What will the weather be like tomorrow?\nB: If it's sunny, let's go to the beach. If it rains, let's see a film.\nA: OK. If we don't leave early, the traffic will be bad.\nB: Then let's leave at eight."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "雨が降ったら何をしますか。",
+      "options": [
+       "海へ行く",
+       "映画を見る",
+       "家にいる"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明日は晴れそうです。晴れたら、私たちは公園で昼ごはんを食べます。でも雨が降ったら、家にいます。昼ごはんを食べたあとで、自転車に乗ります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "내일은 맑을 것 같아요. 맑으면 우리는 공원에서 점심을 먹을 거예요. 하지만 비가 오면 집에 있을 거예요. 점심을 먹은 후에는 자전거를 탈 거예요.",
+     "en": "Tomorrow will probably be sunny. If it's sunny, we'll have lunch in the park. But if it rains, we'll stay at home. After lunch we'll ride our bikes."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "昼ごはんのあと、何をしますか。",
+      "options": [
+       "自転車に乗る",
+       "海へ行く",
+       "テレビを見る"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "切符を買いますか。"
+      },
+      {
+       "s": "B",
+       "t": "雨が降ったら、払い戻しはできますか。"
+      },
+      {
+       "s": "A",
+       "t": "はい、雨が降ったら払い戻します。"
+      },
+      {
+       "s": "B",
+       "t": "では、二枚ください。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 표를 사시겠어요?\n손님: 비가 오면 환불이 되나요?\n직원: 네, 비가 오면 환불해 드려요.\n손님: 그럼 두 장 주세요.",
+     "en": "Clerk: Would you like to buy tickets?\nCustomer: If it rains, can I get my money back?\nClerk: Yes, if it rains we'll give you a refund.\nCustomer: Then two tickets, please."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "雨が降ったら: ______",
+      "answers": [
+       "払い戻し"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "チケット: ______枚",
+      "answers": [
+       "二"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 雨が降ったら、家に___。\n2) 急がないと、___遅れます。\n3) 晩ごはんを食べた___、勉強します。",
+    "trans": {
+     "ko": "1) 비가 오면 집에 있을 거예요. 2) 서두르지 않으면 늦을 거예요. 3) 저녁을 먹은 후에 공부할 거예요.",
+     "en": "1) If it rains, I'll stay at home. 2) If we don't hurry, we'll be late. 3) I'll study after I have dinner."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "雨が降ったら、家に___。",
+      "options": [
+       "います",
+       "いました",
+       "いません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "急がないと、___遅れます。",
+      "options": [
+       "きっと",
+       "もう",
+       "まだ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "晩ごはんを食べた___、勉強します。",
+      "options": [
+       "あとで",
+       "前に",
+       "ながら"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは、サム！明日、晴れ(1)、海へ行くよ。雨が(2)、映画を見るよ。着い(3)、電話するね。一緒に行く？",
+    "trans": {
+     "ko": "안녕, 샘! 내일 맑으면 우리는 해변에 갈 거야. 비가 오면 영화를 볼 거야. 도착하면 전화할게. 같이 갈래?",
+     "en": "Hi Sam! If it's sunny tomorrow, we'll go to the beach. If it rains, we'll see a film. I'll call you when I get there. Do you want to come?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "たら",
+       "たり",
+       "ても"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "降ったら",
+       "降るたら",
+       "降りたら"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "たら",
+       "たり",
+       "たて"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "案内\n晴れ：海でピクニック\n雨：映画\n出発：午前8時",
+    "trans": {
+     "ko": "안내\n맑음: 해변 소풍\n비: 영화\n출발: 오전 8시",
+     "en": "NOTICE\nSunny: beach picnic\nRain: film\nDeparture: 8 am"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "晴れたら何をしますか。",
+      "options": [
+       "海でピクニック",
+       "映画",
+       "仕事"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "何時に出発しますか。",
+      "options": [
+       "午前7時",
+       "午前8時",
+       "午前9時"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "雨が降ったら、屋外コンサートは中止です。すでに切符を買った人はお金が戻ります。切符を買わないと、入れません。",
+    "trans": {
+     "ko": "비가 오면 야외 콘서트는 취소돼요. 표를 이미 산 사람은 돈을 돌려받아요. 표를 사지 않으면 입장할 수 없어요.",
+     "en": "If it rains, the outdoor concert will be cancelled. People who have already bought a ticket will get their money back. You can't go in unless you buy a ticket."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "雨が降ったら、コンサートは中止です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "切符がなくても入れます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "コンサートは八時に始まります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "雨が降ったら、何をしますか。",
+    "read": "あめがふったら、なにをしますか。",
+    "ko": "비가 오면 뭐 할 거예요?",
+    "en": "What will you do if it rains?",
+    "situation": {
+     "ko": "조건을 물을 때",
+     "en": "Asking about a condition"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "晴れたら海へ行きます。",
+    "read": "はれたらうみへいきます。",
+    "ko": "비가 오면 집에 있을 거예요.",
+    "en": "If it rains, I'll stay at home.",
+    "situation": {
+     "ko": "조건과 결과를 말할 때",
+     "en": "Saying condition and result"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "急がないと、遅れます。",
+    "read": "いそがないと、おくれます。",
+    "ko": "내일 시간이 되면 만나요.",
+    "en": "If you're free tomorrow, let's meet.",
+    "situation": {
+     "ko": "조건부로 제안할 때",
+     "en": "Making a conditional suggestion"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "着いたらすぐ電話します。",
+    "read": "ついたらすぐでんわします。",
+    "ko": "서두르지 않으면 늦을 거예요.",
+    "en": "If we don't hurry, we'll be late.",
+    "situation": {
+     "ko": "경고할 때",
+     "en": "Giving a warning"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "食べたあとで、勉強します。",
+    "read": "たべたあとで、べんきょうします。",
+    "ko": "도착하면 전화할게요.",
+    "en": "I'll call you when I arrive.",
+    "situation": {
+     "ko": "약속할 때",
+     "en": "Making a promise"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "出かける前に、鍵をかけます。",
+    "read": "でかけるまえに、かぎをかけます。",
+    "ko": "비가 올지도 몰라요.",
+    "en": "It might rain.",
+    "situation": {
+     "ko": "가능성을 말할 때",
+     "en": "Saying something is possible"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "雨が降るかもしれません。",
+    "read": "あめがふるかもしれません。",
+    "ko": "나가기 전에 문을 잠그세요.",
+    "en": "Lock the door before you leave.",
+    "situation": {
+     "ko": "순서를 알려 줄 때",
+     "en": "Giving a sequence"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "切符を買わないと、入れません。",
+    "read": "きっぷをかわないと、いれません。",
+    "ko": "우산을 가져가는 게 좋아요, 비가 오면요.",
+    "en": "Take an umbrella in case it rains.",
+    "situation": {
+     "ko": "대비하라고 할 때",
+     "en": "Telling someone to be prepared"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜たら、〜ます。",
+    "read": "〜たら、〜ます。",
+    "ko": "만약 ~라면 ~할 거예요.",
+    "en": "If ~, I'll ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜ないと、〜ます。",
+    "read": "〜ないと、〜ます。",
+    "ko": "~하면 ~할게요.",
+    "en": "I'll ~ when ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜たらすぐ〜ます。",
+    "read": "〜たらすぐ〜ます。",
+    "ko": "~하지 않으면 ~할 거예요.",
+    "en": "If we don't ~, we'll ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜たあとで、〜ます。",
+    "read": "〜たあとで、〜ます。",
+    "ko": "~할지도 몰라요.",
+    "en": "It might ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "날씨에 따라 달라지는 주말 계획을 3문장으로 쓰세요. If를 쓰세요.",
+    "en": "Write 3 sentences about weekend plans that depend on the weather. Use 'if'."
+   },
+   "must_include": [
+    {
+     "label": "〜たら",
+     "match": [
+      "たら"
+     ]
+    },
+    {
+     "label": "雨が降ったら",
+     "match": [
+      "降ったら"
+     ]
+    },
+    {
+     "label": "着いたらすぐ〜",
+     "match": [
+      "着いたら"
+     ]
+    }
+   ],
+   "model": "明日、晴れたら海へ行きます。雨が降ったら家にいます。着いたらすぐ電話します。",
+   "model_trans": {
+    "ko": "내일 맑으면 우리는 해변에 갈 거예요. 비가 오면 집에 있을 거예요. 도착하자마자 전화할게요.",
+    "en": "If it's sunny tomorrow, we'll go to the beach. If it rains, we'll stay at home. I'll call you as soon as I arrive."
+   }
+  }
+ }
+}

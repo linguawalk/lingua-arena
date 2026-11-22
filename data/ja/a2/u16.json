@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "ja_a2_u16",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 16,
+  "concept": "A2.U16",
+  "status": "live",
+  "title": {
+   "target": "服と買い物",
+   "ko": "옷과 쇼핑",
+   "en": "Clothes and shopping"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "ジャケット",
+   "pos": "noun",
+   "read": "ジャケット",
+   "ko": "재킷",
+   "en": "jacket",
+   "ex": {
+    "t": "このジャケットが気に入りました。",
+    "read": "このジャケットがきにいりました。",
+    "ko": "이 재킷이 마음에 들어요.",
+    "en": "I like this jacket."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "ズボン",
+   "pos": "noun",
+   "read": "ズボン",
+   "ko": "바지",
+   "en": "trousers",
+   "ex": {
+    "t": "このズボンは長すぎます。",
+    "read": "このズボンはながすぎます。",
+    "ko": "이 바지는 너무 길어요.",
+    "en": "These trousers are too long."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "靴",
+   "pos": "noun",
+   "read": "くつ",
+   "ko": "신발",
+   "en": "shoes",
+   "ex": {
+    "t": "その靴は私に合いません。",
+    "read": "そのくつはわたしにあいません。",
+    "ko": "그 신발은 저에게 안 맞아요.",
+    "en": "The shoes don't fit me."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "サイズ",
+   "pos": "noun",
+   "read": "サイズ",
+   "ko": "치수",
+   "en": "size",
+   "ex": {
+    "t": "もっと大きいサイズはありますか。",
+    "read": "もっとおおきいサイズはありますか。",
+    "ko": "더 큰 치수가 있어요?",
+    "en": "Do you have a bigger size?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "着てみる",
+   "pos": "verb",
+   "read": "きてみる",
+   "ko": "입어 보다",
+   "en": "try on",
+   "ex": {
+    "t": "このジャケットを着てみてもいいですか。",
+    "read": "このジャケットをきてみてもいいですか。",
+    "ko": "이 재킷을 입어 봐도 돼요?",
+    "en": "Can I try this jacket on?"
+   }
+  },
+  {
+   "id": "v6",
+   "t": "合う",
+   "pos": "verb",
+   "read": "あう",
+   "ko": "(크기가) 맞다",
+   "en": "fit",
+   "ex": {
+    "t": "そのズボンはよく合います。",
+    "read": "そのズボンはよくあいます。",
+    "ko": "그 바지가 잘 맞아요.",
+    "en": "The trousers fit well."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "〜すぎる",
+   "pos": "adv",
+   "read": "〜すぎる",
+   "ko": "너무 ~한",
+   "en": "too",
+   "ex": {
+    "t": "この靴は小さすぎます。",
+    "read": "このくつはちいさすぎます。",
+    "ko": "이 신발은 너무 작아요.",
+    "en": "These shoes are too small."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "十分",
+   "pos": "adv",
+   "read": "じゅうぶん",
+   "ko": "충분히 ~한",
+   "en": "enough",
+   "ex": {
+    "t": "このジャケットは十分暖かいです。",
+    "read": "このジャケットはじゅうぶんあたたかいです。",
+    "ko": "이 재킷은 충분히 따뜻해요.",
+    "en": "This jacket is warm enough."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "それを",
+   "pos": "pron",
+   "read": "それを",
+   "ko": "그것을",
+   "en": "it",
+   "ex": {
+    "t": "気に入ったので、それを買います。",
+    "read": "きにいったので、それをかいます。",
+    "ko": "마음에 들어요, 그걸 살게요.",
+    "en": "I like it. I'll take it."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "それが",
+   "pos": "pron",
+   "read": "それが",
+   "ko": "그것들을",
+   "en": "them",
+   "ex": {
+    "t": "あの靴が気に入ったので、それを買いました。",
+    "read": "あのくつがきにいったので、それをかいました。",
+    "ko": "그 신발이 마음에 들어서 그걸 샀어요.",
+    "en": "I liked the shoes, so I bought them."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜てみてもいい・〜すぎる・〜に十分",
+   "en": "〜てみてもいいですか / 〜すぎる / 十分"
+  },
+  "explain": {
+   "ko": "試着は「〜てみてもいいですか」と聞きます：このジャケットを着てみてもいいですか。「〜すぎる」は「多すぎる」という意味です：この靴は小さすぎます。「十分〜」は「〜で足りる」という意味です：十分暖かいです。気に入ったものは「それを」で受けます：気に入ったので、それを買います。",
+   "en": "Ask to try on with 〜てみてもいいですか: このジャケットを着てみてもいいですか。 〜すぎる means 'too': この靴は小さすぎます。 十分〜 means 'enough': 十分暖かいです。 Refer back to something you like with それを: 気に入ったので、それを買います。"
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜てみてもいいですか",
+     "try on",
+     "着てみてもいいですか。"
+    ],
+    [
+     "〜すぎる",
+     "too ~",
+     "この靴は小さすぎます。"
+    ],
+    [
+     "十分〜",
+     "enough",
+     "十分暖かいです。"
+    ],
+    [
+     "〜ない + 十分",
+     "not enough",
+     "十分暖かくありません。"
+    ],
+    [
+     "それを",
+     "it / them",
+     "それを買います。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "サイズを聞くときは「もっと大きい／小さいのはありますか」と言います。",
+    "en": "Ask for another size with もっと大きい / 小さいのはありますか。"
+   },
+   {
+    "ko": "「合う」は大きさや好みがちょうどよいときに使います。",
+    "en": "「合う」 is for a good fit in size or taste."
+   },
+   {
+    "ko": "日本語には「it」と「they」の違いはなく、「それ」を使います。",
+    "en": "Japanese does not distinguish it and they; both are それ."
+   }
+  ],
+  "examples": [
+   {
+    "t": "このジャケットが気に入りました。着てみてもいいですか。",
+    "read": "このジャケットがきにいりました。きてみてもいいですか。",
+    "ko": "이 재킷이 마음에 들어요. 입어 봐도 돼요?",
+    "en": "I like this jacket. Can I try it on?"
+   },
+   {
+    "t": "このズボンは長すぎます。",
+    "read": "このズボンはながすぎます。",
+    "ko": "이 바지는 너무 길어요.",
+    "en": "These trousers are too long."
+   },
+   {
+    "t": "このジャケットは十分暖かくありません。",
+    "read": "このジャケットはじゅうぶんあたたかくありません。",
+    "ko": "이 재킷은 충분히 따뜻하지 않아요.",
+    "en": "This jacket isn't warm enough."
+   },
+   {
+    "t": "もっと大きいサイズをください。",
+    "read": "もっとおおきいサイズをください。",
+    "ko": "저에게 더 큰 치수를 주세요.",
+    "en": "Please give me a bigger size."
+   },
+   {
+    "t": "靴が気に入ったので、それを買いました。",
+    "read": "くつがきにいったので、それをかいました。",
+    "ko": "신발이 마음에 들어서 그걸 샀어요.",
+    "en": "I liked the shoes, so I bought them."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "このジャケットを着て___もいいですか。",
+    "options": [
+     "みて",
+     "みる",
+     "みた"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "このズボンは長___ます。",
+    "options": [
+     "すぎ",
+     "く",
+     "さ"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "このジャケットは___暖かくありません。",
+    "options": [
+     "十分",
+     "とても",
+     "ちょっと"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "気に入ったので、それ___買います。",
+    "options": [
+     "を",
+     "が",
+     "に"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このジャケットを着てみてもいいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 재킷을 입어 봐도 돼요?",
+     "en": "(Question) Can I try this jacket on?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "もちろん。試着室はあちらです。",
+       "はい、ジャケットです。",
+       "いいえ、私のサイズです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "サイズは合いますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 치수가 맞아요?",
+     "en": "(Question) Does it fit?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、よく合います。",
+       "はい、いいです。",
+       "いいえ、しません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この靴を履いてみてもいいですか。"
+      },
+      {
+       "s": "B",
+       "t": "もちろんです。サイズはいくつですか。"
+      },
+      {
+       "s": "A",
+       "t": "二十五・五です。あ、これは小さすぎます。"
+      },
+      {
+       "s": "B",
+       "t": "では、一つ大きいものを持ってきますね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 신발을 신어 봐도 돼요?\nB: 물론이죠. 치수가 어떻게 되세요?\nA: 255요. 아, 이건 너무 작아요.\nB: 그럼 한 치수 큰 것을 가져다 드릴게요.",
+     "en": "A: Can I try these shoes on?\nB: Of course. What size are you?\nA: Size 255. Oh, they're too small.\nB: I'll bring you a bigger size."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "靴はどうですか。",
+      "options": [
+       "大きすぎる",
+       "小さすぎる",
+       "高すぎる"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日、私は買い物をしました。ジャケットを着てみましたが、十分暖かくありませんでした。ズボンは長すぎました。最後に気に入った靴を買って、今日履いています。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어제 저는 쇼핑을 했어요. 재킷을 입어 봤지만 충분히 따뜻하지 않았어요. 바지는 너무 길었어요. 마지막에 마음에 드는 신발을 사서 오늘 신고 있어요.",
+     "en": "Yesterday I went shopping. I tried on a jacket but it wasn't warm enough. The trousers were too long. In the end I bought some shoes I liked and I'm wearing them today."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "なぜジャケットを買いませんでしたか。",
+      "options": [
+       "高すぎたから",
+       "十分暖かくなかったから",
+       "大きすぎたから"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どんな色がいいですか。"
+      },
+      {
+       "s": "B",
+       "t": "黒です。サイズはMです。"
+      },
+      {
+       "s": "A",
+       "t": "こちらです。着てみてください。"
+      },
+      {
+       "s": "B",
+       "t": "よく合います。これにします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 어떤 색이 좋으세요?\n손님: 검은색이요. 치수는 M이에요.\n직원: 여기 있습니다. 입어 보세요.\n손님: 잘 맞아요. 이걸로 할게요.",
+     "en": "Clerk: Which colour would you like?\nCustomer: Black, please. Size medium.\nClerk: Here you are. Please try it on.\nCustomer: It fits well. I'll take it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "色: ______",
+      "answers": [
+       "黒"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "サイズ: ______",
+      "answers": [
+       "M"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) このジャケットが好きです。___着てみてもいいですか。\n2) このズボンは___長いです。\n3) 靴が気に入ったので、___買いました。",
+    "trans": {
+     "ko": "1) 이 재킷이 마음에 들어요. 입어 봐도 돼요? 2) 이 바지는 너무 길어요. 3) 신발이 마음에 들어서 그걸 샀어요.",
+     "en": "1) I like this jacket. Can I try it on? 2) These trousers are too long. 3) I liked the shoes, so I bought them."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "このジャケットが好きです。___着てみてもいいですか。",
+      "options": [
+       "それを",
+       "それが",
+       "それの"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "このズボンは___長いです。",
+      "options": [
+       "十分",
+       "あまりにも",
+       "あまり"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "靴が気に入ったので、___買いました。",
+      "options": [
+       "それが",
+       "それを",
+       "それも"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは、エバ！昨日、買い物をしたよ。気に入ったジャケットを見つけたけど、値段が(1)、買わなかった。でも靴は(2)。買った靴は(3)楽だよ！",
+    "trans": {
+     "ko": "안녕, 에바! 어제 나는 쇼핑을 했어. 마음에 드는 재킷을 봤어. 가격이 너무 비싸서 사지 않았어. 하지만 신발은 샀어. 정말 편해!",
+     "en": "Hi Eva! Yesterday I went shopping. I saw a jacket I liked. It was too expensive, so I didn't buy it. But I bought some shoes. They are really comfortable!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "高すぎたので",
+       "高くなかったので",
+       "安かったので"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "買ったよ",
+       "買わなかったよ",
+       "買うよ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "すごく",
+       "あまり",
+       "ぜんぜん"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "レシート\nジャケット：60ドル\n靴：45ドル\n合計：105ドル",
+    "trans": {
+     "ko": "영수증\n재킷: 60달러\n신발: 45달러\n합계: 105달러",
+     "en": "RECEIPT\nJacket: $60\nShoes: $45\nTotal: $105"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "靴はいくらですか。",
+      "options": [
+       "60ドル",
+       "45ドル",
+       "105ドル"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "合計はいくらですか。",
+      "options": [
+       "60ドル",
+       "45ドル",
+       "105ドル"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ベンさんは新しいジャケットを買いました。ジャケットは青くて、十分暖かいです。彼は毎日それを着ています。",
+    "trans": {
+     "ko": "벤은 새 재킷을 샀어요. 재킷은 파란색이고 충분히 따뜻해요. 그는 그것을 매일 입어요.",
+     "en": "Ben bought a new jacket. It is blue and warm enough. He wears it every day."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ベンさんはジャケットを買いました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "そのジャケットは十分暖かくありません。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "そのジャケットはプレゼントです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "このジャケットを着てみてもいいですか。",
+    "read": "このジャケットをきてみてもいいですか。",
+    "ko": "이걸 입어 봐도 돼요?",
+    "en": "Can I try it on?",
+    "situation": {
+     "ko": "입어 보고 싶을 때",
+     "en": "Asking to try something on"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "サイズは合いますか。",
+    "read": "サイズはあいますか。",
+    "ko": "제 치수가 있어요?",
+    "en": "Do you have it in my size?",
+    "situation": {
+     "ko": "치수를 물을 때",
+     "en": "Asking about size"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "このズボンは長すぎます。",
+    "read": "このズボンはながすぎます。",
+    "ko": "이건 저에게 너무 커요.",
+    "en": "It's too big for me.",
+    "situation": {
+     "ko": "크다고 말할 때",
+     "en": "Saying it is too big"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "もっと大きいサイズはありますか。",
+    "read": "もっとおおきいサイズはありますか。",
+    "ko": "이건 충분히 크지 않아요.",
+    "en": "It isn't big enough.",
+    "situation": {
+     "ko": "작다고 말할 때",
+     "en": "Saying it is not big enough"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "これは十分暖かくありません。",
+    "read": "これはじゅうぶんあたたかくありません。",
+    "ko": "저한테 잘 어울려요?",
+    "en": "Does it suit me?",
+    "situation": {
+     "ko": "어울리는지 물을 때",
+     "en": "Asking if it suits you"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "この靴が気に入りました。",
+    "read": "このくつがきにいりました。",
+    "ko": "이건 마음에 들어요. 이걸로 살게요.",
+    "en": "I like it. I'll take it.",
+    "situation": {
+     "ko": "구매를 결정할 때",
+     "en": "Deciding to buy"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "気に入ったので、それを買います。",
+    "read": "きにいったので、それをかいます。",
+    "ko": "더 싼 것이 있어요?",
+    "en": "Do you have anything cheaper?",
+    "situation": {
+     "ko": "다른 상품을 물을 때",
+     "en": "Asking for another option"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "色は黒がいいです。",
+    "read": "いろはくろがいいです。",
+    "ko": "그들에게 줄 선물을 샀어요.",
+    "en": "I bought a present for them.",
+    "situation": {
+     "ko": "선물을 샀다고 말할 때",
+     "en": "Saying you bought a gift"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜を着てみてもいいですか。",
+    "read": "〜をきてみてもいいですか。",
+    "ko": "이건 저에게 너무 ~해요.",
+    "en": "It's too ~ for me."
+   },
+   {
+    "id": "w2",
+    "t": "これは〜すぎます。",
+    "read": "これは〜すぎます。",
+    "ko": "충분히 ~하지 않아요.",
+    "en": "It isn't ~ enough."
+   },
+   {
+    "id": "w3",
+    "t": "十分〜くありません。",
+    "read": "じゅうぶん〜くありません。",
+    "ko": "저에게 ~를 주세요.",
+    "en": "Please give me ~."
+   },
+   {
+    "id": "w4",
+    "t": "それを〜ます。",
+    "read": "それを〜ます。",
+    "ko": "~가 마음에 들어서 그걸 샀어요.",
+    "en": "I liked ~, so I bought it / them."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "옷 가게에서 점원과 나눌 말 3문장을 쓰세요. too와 enough를 하나씩 쓰세요.",
+    "en": "Write 3 sentences you would say in a clothes shop. Use 'too' once and 'enough' once."
+   },
+   "must_include": [
+    {
+     "label": "〜を着てみてもいいですか",
+     "match": [
+      "てみてもいい"
+     ]
+    },
+    {
+     "label": "これは〜すぎます",
+     "match": [
+      "すぎ"
+     ]
+    },
+    {
+     "label": "十分〜くありません",
+     "match": [
+      "十分"
+     ]
+    }
+   ],
+   "model": "このジャケットを着てみてもいいですか。これは私には大きすぎます。十分暖かくありません。",
+   "model_trans": {
+    "ko": "이 재킷을 입어 봐도 돼요? 이건 저에게 너무 커요. 이건 충분히 따뜻하지 않아요.",
+    "en": "Can I try this jacket on? It's too big for me. It isn't warm enough."
+   }
+  }
+ }
+}

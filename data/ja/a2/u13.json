@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "ja_a2_u13",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 13,
+  "concept": "A2.U13",
+  "status": "live",
+  "title": {
+   "target": "アドバイスをする",
+   "ko": "조언하기",
+   "en": "Giving advice"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "〜たほうがいい",
+   "pos": "modal",
+   "read": "〜たほうがいい",
+   "ko": "~하는 게 좋다",
+   "en": "should",
+   "ex": {
+    "t": "医者に会ったほうがいいです。",
+    "read": "いしゃにあったほうがいいです。",
+    "ko": "당신은 의사를 만나는 게 좋아요.",
+    "en": "You should see a doctor."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜ないほうがいい",
+   "pos": "modal",
+   "read": "〜ないほうがいい",
+   "ko": "~하지 않는 게 좋다",
+   "en": "shouldn't",
+   "ex": {
+    "t": "遅く寝ないほうがいいです。",
+    "read": "おそくねないほうがいいです。",
+    "ko": "너무 늦게 자지 않는 게 좋아요.",
+    "en": "You shouldn't go to bed too late."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "アドバイス",
+   "pos": "noun",
+   "read": "アドバイス",
+   "ko": "조언",
+   "en": "advice",
+   "ex": {
+    "t": "アドバイスをしてもいいですか。",
+    "read": "アドバイスをしてもいいですか。",
+    "ko": "조언 하나 해도 될까요?",
+    "en": "Can I give you some advice?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜たらどうですか",
+   "pos": "phrase",
+   "read": "〜たらどうですか",
+   "ko": "~하는 게 어때요?",
+   "en": "why don't you",
+   "ex": {
+    "t": "少し休んだらどうですか。",
+    "read": "すこしやすんだらどうですか。",
+    "ko": "좀 쉬는 게 어때요?",
+    "en": "Why don't you have a rest?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "試す",
+   "pos": "verb",
+   "read": "ためす",
+   "ko": "해 보다",
+   "en": "try",
+   "ex": {
+    "t": "お茶を飲んでみてください。",
+    "read": "おちゃをのんでみてください。",
+    "ko": "차를 한번 마셔 보세요.",
+    "en": "Try some tea."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "休む",
+   "pos": "verb",
+   "read": "やすむ",
+   "ko": "쉬다 · 휴식",
+   "en": "rest",
+   "ex": {
+    "t": "家で少し休んでください。",
+    "read": "いえですこしやすんでください。",
+    "ko": "집에서 좀 쉬세요.",
+    "en": "Have a rest at home."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "運動する",
+   "pos": "verb",
+   "read": "うんどうする",
+   "ko": "운동하다 · 운동",
+   "en": "exercise",
+   "ex": {
+    "t": "毎日運動したほうがいいです。",
+    "read": "まいにちうんどうしたほうがいいです。",
+    "ko": "매일 운동하는 게 좋아요.",
+    "en": "You should exercise every day."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "健康な",
+   "pos": "adj",
+   "read": "けんこうな",
+   "ko": "건강한",
+   "en": "healthy",
+   "ex": {
+    "t": "健康な食べ物を食べてください。",
+    "read": "けんこうなたべものをたべてください。",
+    "ko": "건강한 음식을 드세요.",
+    "en": "Eat healthy food."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "ストレス",
+   "pos": "adj",
+   "read": "ストレス",
+   "ko": "스트레스를 받은",
+   "en": "stressed",
+   "ex": {
+    "t": "最近、ストレスがあります。",
+    "read": "さいきん、ストレスがあります。",
+    "ko": "저는 요즘 스트레스를 받아요.",
+    "en": "I feel stressed these days."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "寝る",
+   "pos": "verb",
+   "read": "ねる",
+   "ko": "자다 · 잠",
+   "en": "sleep",
+   "ex": {
+    "t": "もっと寝たほうがいいです。",
+    "read": "もっとねたほうがいいです。",
+    "ko": "더 많이 자는 게 좋아요.",
+    "en": "You should sleep more."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜たほうがいい・〜ないほうがいい・〜たらどうですか",
+   "en": "Advice: 〜たほうがいい / 〜ないほうがいい / 〜たらどうですか"
+  },
+  "explain": {
+   "ko": "アドバイスは、動詞のた形に「ほうがいい」をつけて言います：医者に会ったほうがいいです。してはいけないことは、ない形に「ほうがいい」：遅く寝ないほうがいいです。やわらかく勧めるときは「〜たらどうですか」を使います：少し休んだらどうですか。",
+   "en": "Give advice with the た-form + ほうがいい: 医者に会ったほうがいいです。 For things to avoid use the ない-form + ほうがいい: 遅く寝ないほうがいいです。 To suggest gently use 〜たらどうですか: 少し休んだらどうですか。"
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜たほうがいい",
+     "た形 + ほうがいい",
+     "医者に会ったほうがいいです。"
+    ],
+    [
+     "〜ないほうがいい",
+     "ない形 + ほうがいい",
+     "遅く寝ないほうがいいです。"
+    ],
+    [
+     "〜たらどうですか",
+     "た形 + らどうですか",
+     "少し休んだらどうですか。"
+    ],
+    [
+     "〜てみてください",
+     "て形 + みてください",
+     "お茶を飲んでみてください。"
+    ],
+    [
+     "どうしたらいいですか",
+     "助言を求める",
+     "私はどうしたらいいですか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜たほうがいい」は、相手のためになると思うことを言います。",
+    "en": "「〜たほうがいい」 says what you think is good for the listener."
+   },
+   {
+    "ko": "強すぎないように、「〜と思います」をつけることもあります。",
+    "en": "Add 〜と思います to soften the advice."
+   },
+   {
+    "ko": "助言を求めるときは「どうしたらいいですか」と言います。",
+    "en": "Ask for advice with どうしたらいいですか。"
+   }
+  ],
+  "examples": [
+   {
+    "t": "医者に会ったほうがいいです。",
+    "read": "いしゃにあったほうがいいです。",
+    "ko": "당신은 의사를 만나는 게 좋아요.",
+    "en": "You should see a doctor."
+   },
+   {
+    "t": "遅く寝ないほうがいいです。",
+    "read": "おそくねないほうがいいです。",
+    "ko": "너무 늦게 자지 않는 게 좋아요.",
+    "en": "You shouldn't go to bed too late."
+   },
+   {
+    "t": "少し休んだらどうですか。",
+    "read": "すこしやすんだらどうですか。",
+    "ko": "좀 쉬는 게 어때요?",
+    "en": "Why don't you have a rest?"
+   },
+   {
+    "t": "毎日運動したほうがいいです。",
+    "read": "まいにちうんどうしたほうがいいです。",
+    "ko": "매일 운동하는 게 좋아요.",
+    "en": "You should exercise every day."
+   },
+   {
+    "t": "私はどうしたらいいですか。",
+    "read": "わたしはどうしたらいいですか。",
+    "ko": "제가 뭘 해야 할까요?",
+    "en": "What should I do?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "医者に会った___がいいです。",
+    "options": [
+     "ほう",
+     "こと",
+     "もの"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "遅く寝ない___がいいです。",
+    "options": [
+     "ほう",
+     "ため",
+     "ところ"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "少し休ん___どうですか。",
+    "options": [
+     "だら",
+     "で",
+     "だり"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "私は___したらいいですか。",
+    "options": [
+     "どう",
+     "いつ",
+     "だれ"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "頭が痛いです。どうしたらいいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 머리가 아파요. 어떻게 해야 할까요?",
+     "en": "(Question) I have a headache. What should I do?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "薬を飲んだほうがいいです。",
+       "薬を飲みました。",
+       "薬を飲んでいます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "最近、とても疲れています。アドバイスをください。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 저는 요즘 너무 피곤해요. 조언 좀 해 주세요.",
+     "en": "(Question) I'm so tired these days. Can you give me some advice?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "早く寝たほうがいいです。",
+       "早く寝ました。",
+       "早く寝ます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "最近、よく眠れないんだ。"
+      },
+      {
+       "s": "B",
+       "t": "コーヒーを飲みすぎないほうがいいよ。それから、早く寝てみたら？"
+      },
+      {
+       "s": "A",
+       "t": "運動もしたほうがいい？"
+      },
+      {
+       "s": "B",
+       "t": "うん、夕方に散歩したらどう？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 요즘 잠을 잘 못 자.\nB: 커피를 너무 많이 마시지 않는 게 좋아. 그리고 일찍 자 봐.\nA: 운동도 해야 할까?\nB: 응, 저녁에 걷는 게 어때?",
+     "en": "A: I can't sleep well these days.\nB: You shouldn't drink too much coffee. And try to go to bed early.\nA: Should I do some exercise too?\nB: Yes. Why don't you go for a walk in the evening?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女の人が飲みすぎないほうがいいものは何ですか。",
+      "options": [
+       "お茶",
+       "水",
+       "コーヒー"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "健康のためのアドバイスです。毎日、水をたくさん飲んだほうがいいです。遅く寝ないほうがいいです。それから、週に三回は運動したほうがいいです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "건강을 위한 조언을 드릴게요. 매일 물을 많이 마셔야 해요. 늦게 자면 안 돼요. 그리고 일주일에 세 번은 운동하는 게 좋아요.",
+     "en": "Here is some advice for your health. You should drink a lot of water every day. You shouldn't go to bed late. And you should exercise three times a week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "どのくらい運動したほうがいいですか。",
+      "options": [
+       "毎日",
+       "週に三回",
+       "月に一回"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どこが痛いですか。"
+      },
+      {
+       "s": "B",
+       "t": "頭が痛いです。"
+      },
+      {
+       "s": "A",
+       "t": "薬を飲んで、今日は休んでください。"
+      },
+      {
+       "s": "B",
+       "t": "わかりました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의사: 어디가 아프세요?\n환자: 머리가 아파요.\n의사: 약을 드시고 오늘은 쉬세요.\n환자: 알겠습니다.",
+     "en": "Doctor: What's the problem?\nPatient: I have a headache.\nDoctor: You should take some medicine and rest today.\nPatient: OK, thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "問題: ______が痛い",
+      "answers": [
+       "頭"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "アドバイス: 薬を飲んで、今日は______",
+      "answers": [
+       "休んで"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 医者に会った___がいいです。\n2) 遅く寝ない___がいいです。\n3) 少し休んだら___ですか。",
+    "trans": {
+     "ko": "1) 당신은 의사를 만나는 게 좋아요. 2) 너무 늦게 자지 않는 게 좋아요. 3) 좀 쉬는 게 어때요?",
+     "en": "1) You should see a doctor. 2) You shouldn't go to bed too late. 3) Why don't you have a rest?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "医者に会った___がいいです。",
+      "options": [
+       "ほう",
+       "こと",
+       "もの"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "遅く寝ない___がいいです。",
+      "options": [
+       "こと",
+       "ほう",
+       "もの"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "少し休んだら___ですか。",
+      "options": [
+       "どう",
+       "なに",
+       "いつ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは、アン！病気だと聞きました。家で(1)ほうがいいですよ。温かいお茶を(2)。明日は仕事を(3)ほうがいいと思います。",
+    "trans": {
+     "ko": "안녕, 앤! 네가 아프다고 들었어. 집에서 쉬는 게 좋아. 따뜻한 차를 마셔 봐. 내일은 일하지 않는 게 좋겠어.",
+     "en": "Hi Ann! I heard you are sick. You should rest at home. Try some warm tea. You shouldn't work tomorrow."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "休んだ",
+       "休む",
+       "休み"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "飲んでみて",
+       "飲んだ",
+       "飲まない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "しない",
+       "した",
+       "する"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "健康のヒント\n水をたくさん飲みましょう。\n夜十一時前に寝ましょう。\n週に三回、運動しましょう。",
+    "trans": {
+     "ko": "건강 팁\n물을 많이 마시세요.\n밤 11시 전에 자세요.\n일주일에 세 번 운동하세요.",
+     "en": "HEALTH TIPS\nDrink a lot of water.\nGo to bed before 11 pm.\nExercise three times a week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "何時前に寝たほうがいいですか。",
+      "options": [
+       "夜九時",
+       "夜十一時",
+       "夜十二時"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "どのくらい運動したほうがいいですか。",
+      "options": [
+       "毎日",
+       "週に三回",
+       "しなくてもいい"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジャックさんは最近、ストレスがたくさんあります。医者はもっと寝たほうがいいと言いました。コーヒーは減らしたほうがいいとも言いました。",
+    "trans": {
+     "ko": "잭은 요즘 스트레스를 많이 받아요. 의사는 그에게 더 많이 자라고 했어요. 커피는 줄이라고도 했어요.",
+     "en": "Jack feels very stressed these days. The doctor told him to sleep more. She also told him to drink less coffee."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジャックさんはストレスがあります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ジャックさんはコーヒーをもっと飲んだほうがいいです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ジャックさんは銀行で働いています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "頭が痛いです。どうしたらいいですか。",
+    "read": "あたまがいたいです。どうしたらいいですか。",
+    "ko": "제가 어떻게 해야 할까요?",
+    "en": "What should I do?",
+    "situation": {
+     "ko": "조언을 구할 때",
+     "en": "Asking for advice"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "医者に会ったほうがいいです。",
+    "read": "いしゃにあったほうがいいです。",
+    "ko": "의사를 만나는 게 좋겠어요.",
+    "en": "You should see a doctor.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "少し休んだらどうですか。",
+    "read": "すこしやすんだらどうですか。",
+    "ko": "너무 늦게 자지 않는 게 좋아요.",
+    "en": "You shouldn't go to bed too late.",
+    "situation": {
+     "ko": "하지 말라고 조언할 때",
+     "en": "Advising against something"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "毎日運動したほうがいいです。",
+    "read": "まいにちうんどうしたほうがいいです。",
+    "ko": "좀 쉬는 게 어때요?",
+    "en": "Why don't you have a rest?",
+    "situation": {
+     "ko": "부드럽게 제안할 때",
+     "en": "Making a gentle suggestion"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "遅く寝ないほうがいいです。",
+    "read": "おそくねないほうがいいです。",
+    "ko": "운동을 더 하는 게 좋아요.",
+    "en": "You should do more exercise.",
+    "situation": {
+     "ko": "건강 조언을 할 때",
+     "en": "Giving health advice"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "お茶を飲んでみてください。",
+    "read": "おちゃをのんでみてください。",
+    "ko": "저는 스트레스를 많이 받아요.",
+    "en": "I feel very stressed.",
+    "situation": {
+     "ko": "문제를 말할 때",
+     "en": "Describing a problem"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "アドバイスをしてもいいですか。",
+    "read": "アドバイスをしてもいいですか。",
+    "ko": "물을 많이 마셔 보세요.",
+    "en": "Try drinking more water.",
+    "situation": {
+     "ko": "해 보라고 권할 때",
+     "en": "Suggesting to try something"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "もっと寝たほうがいいです。",
+    "read": "もっとねたほうがいいです。",
+    "ko": "좋은 생각이에요, 고마워요.",
+    "en": "Good idea, thanks.",
+    "situation": {
+     "ko": "조언에 답할 때",
+     "en": "Responding to advice"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜たほうがいいです。",
+    "read": "〜たほうがいいです。",
+    "ko": "~하는 게 좋아요.",
+    "en": "You should ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜ないほうがいいです。",
+    "read": "〜ないほうがいいです。",
+    "ko": "~하지 않는 게 좋아요.",
+    "en": "You shouldn't ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜たらどうですか。",
+    "read": "〜たらどうですか。",
+    "ko": "~하는 게 어때요?",
+    "en": "Why don't you ~?"
+   },
+   {
+    "id": "w4",
+    "t": "〜てみてください。",
+    "read": "〜てみてください。",
+    "ko": "제가 뭘 ~해야 할까요?",
+    "en": "What should I ~?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "잠을 잘 못 자는 친구에게 조언 3가지를 쓰세요. should, shouldn't, Why don't you를 쓰세요.",
+    "en": "Give a friend who can't sleep three pieces of advice. Use should, shouldn't and Why don't you."
+   },
+   "must_include": [
+    {
+     "label": "〜たほうがいいです",
+     "match": [
+      "ほうがいい"
+     ]
+    },
+    {
+     "label": "〜ないほうがいいです",
+     "match": [
+      "ないほうがいい"
+     ]
+    },
+    {
+     "label": "〜たらどうですか",
+     "match": [
+      "たらどう"
+     ]
+    }
+   ],
+   "model": "早く寝たほうがいいです。コーヒーは飲まないほうがいいです。温かい牛乳を飲んでみたらどうですか。",
+   "model_trans": {
+    "ko": "너는 일찍 자는 게 좋아. 커피는 마시지 않는 게 좋아. 따뜻한 우유를 마셔 보는 게 어때?",
+    "en": "You should go to bed early. You shouldn't drink coffee. Why don't you try some warm milk?"
+   }
+  }
+ }
+}

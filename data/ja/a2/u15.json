@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_a2_u15",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 15,
+  "concept": "A2.U15",
+  "status": "live",
+  "title": {
+   "target": "町を歩く",
+   "ko": "도시에서 길 찾기",
+   "en": "Getting around town"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "まっすぐ行く",
+   "pos": "phrase",
+   "read": "まっすぐいく",
+   "ko": "직진하다",
+   "en": "go straight",
+   "ex": {
+    "t": "まっすぐ行ってください。",
+    "read": "まっすぐいってください。",
+    "ko": "쭉 직진하세요.",
+    "en": "Go straight on."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "左に曲がる",
+   "pos": "phrase",
+   "read": "ひだりにまがる",
+   "ko": "왼쪽으로 돌다",
+   "en": "turn left",
+   "ex": {
+    "t": "次の信号で左に曲がってください。",
+    "read": "つぎのしんごうでひだりにまがってください。",
+    "ko": "다음 신호등에서 왼쪽으로 도세요.",
+    "en": "Turn left at the next traffic lights."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "右に曲がる",
+   "pos": "phrase",
+   "read": "みぎにまがる",
+   "ko": "오른쪽으로 돌다",
+   "en": "turn right",
+   "ex": {
+    "t": "二つ目の道で右に曲がってください。",
+    "read": "ふたつめのみちでみぎにまがってください。",
+    "ko": "두 번째 길에서 오른쪽으로 도세요.",
+    "en": "Turn right at the second street."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "渡る",
+   "pos": "verb",
+   "read": "わたる",
+   "ko": "건너다",
+   "en": "cross",
+   "ex": {
+    "t": "橋を渡ってください。",
+    "read": "はしをわたってください。",
+    "ko": "다리를 건너세요.",
+    "en": "Cross the bridge."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜に沿って",
+   "pos": "prep",
+   "read": "〜にそって",
+   "ko": "~을 따라",
+   "en": "along",
+   "ex": {
+    "t": "この道に沿って歩いてください。",
+    "read": "このみちにそってあるいてください。",
+    "ko": "이 길을 따라 걸으세요.",
+    "en": "Walk along this road."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "通る",
+   "pos": "prep",
+   "read": "とうる",
+   "ko": "~을 지나서",
+   "en": "past",
+   "ex": {
+    "t": "銀行の前を通ってください。",
+    "read": "ぎんこうのまえをとおってください。",
+    "ko": "은행을 지나가세요.",
+    "en": "Go past the bank."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "向かい",
+   "pos": "prep",
+   "read": "むかい",
+   "ko": "~ 건너편에",
+   "en": "across",
+   "ex": {
+    "t": "公園は道の向かいにあります。",
+    "read": "こうえんはみちのむかいにあります。",
+    "ko": "공원은 길 건너편에 있어요.",
+    "en": "The park is across the road."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "〜を通り抜ける",
+   "pos": "prep",
+   "read": "〜をとうりぬける",
+   "ko": "~을 통과하여",
+   "en": "through",
+   "ex": {
+    "t": "公園を通り抜けてください。",
+    "read": "こうえんをとうりぬけてください。",
+    "ko": "공원을 지나가세요.",
+    "en": "Go through the park."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "角",
+   "pos": "noun",
+   "read": "かど",
+   "ko": "모퉁이",
+   "en": "corner",
+   "ex": {
+    "t": "銀行は角にあります。",
+    "read": "ぎんこうはかどにあります。",
+    "ko": "은행은 모퉁이에 있어요.",
+    "en": "The bank is on the corner."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "信号",
+   "pos": "noun",
+   "read": "しんごう",
+   "ko": "신호등",
+   "en": "traffic lights",
+   "ex": {
+    "t": "信号で左に曲がってください。",
+    "read": "しんごうでひだりにまがってください。",
+    "ko": "신호등에서 왼쪽으로 도세요.",
+    "en": "Turn left at the traffic lights."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "道案内：〜てください・〜を渡る・〜を通る",
+   "en": "Directions: 〜てください / 〜を渡る / 〜を通る"
+  },
+  "explain": {
+   "ko": "道を教えるときは、動詞のて形に「ください」をつけます：まっすぐ行ってください。場所は「で」、通る道は「を」で言います：次の信号で左に曲がってください。橋を渡ってください。「〜の向かい」は道のむこうがわ、「〜の隣」はとなりです。",
+   "en": "Give directions with the て-form + ください: まっすぐ行ってください. Mark the place with で and the path with を: 次の信号で左に曲がってください。橋を渡ってください。 〜の向かい is across the road; 〜の隣 is next to it."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "まっすぐ行ってください",
+     "go straight",
+     "まっすぐ行ってください。"
+    ],
+    [
+     "〜で左/右に曲がる",
+     "turn left / right",
+     "信号で左に曲がってください。"
+    ],
+    [
+     "〜を渡る",
+     "cross",
+     "橋を渡ってください。"
+    ],
+    [
+     "〜を通る",
+     "pass / go through",
+     "公園を通ってください。"
+    ],
+    [
+     "〜の向かい",
+     "across from",
+     "公園は道の向かいにあります。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "目印を言うと、わかりやすくなります：信号、角、橋、銀行。",
+    "en": "Mention landmarks to be clear: 信号, 角, 橋, 銀行."
+   },
+   {
+    "ko": "「〜目」は順番を表します：二つ目の道。",
+    "en": "「〜目」 shows order: 二つ目の道。"
+   },
+   {
+    "ko": "距離は「歩いて五分」のように言います。",
+    "en": "Give distance as 歩いて五分."
+   }
+  ],
+  "examples": [
+   {
+    "t": "まっすぐ行ってください。",
+    "read": "まっすぐいってください。",
+    "ko": "쭉 직진하세요.",
+    "en": "Go straight on."
+   },
+   {
+    "t": "次の信号で左に曲がってください。",
+    "read": "つぎのしんごうでひだりにまがってください。",
+    "ko": "다음 신호등에서 왼쪽으로 도세요.",
+    "en": "Turn left at the next traffic lights."
+   },
+   {
+    "t": "銀行の前を通ってください。",
+    "read": "ぎんこうのまえをとおってください。",
+    "ko": "은행을 지나가세요.",
+    "en": "Go past the bank."
+   },
+   {
+    "t": "公園は道の向かいにあります。",
+    "read": "こうえんはみちのむかいにあります。",
+    "ko": "공원은 길 건너편에 있어요.",
+    "en": "The park is across the road."
+   },
+   {
+    "t": "公園を通り抜ければいいです。",
+    "read": "こうえんをとうりぬければいいです。",
+    "ko": "공원을 지나가면 돼요.",
+    "en": "Go through the park."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "まっすぐ行っ___ください。",
+    "options": [
+     "て",
+     "た",
+     "で"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "次の信号___左に曲がってください。",
+    "options": [
+     "で",
+     "を",
+     "が"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "橋___渡ってください。",
+    "options": [
+     "を",
+     "に",
+     "で"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "公園は道の___にあります。",
+    "options": [
+     "向かい",
+     "渡り",
+     "通り"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "すみません、駅はどこですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 실례합니다, 역이 어디예요?",
+     "en": "(Question) Excuse me, where is the station?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "まっすぐ行ってください。",
+       "まっすぐ行きました。",
+       "まっすぐです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ここから遠いですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 여기서 멀어요?",
+     "en": "(Question) Is it far from here?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "いいえ、歩いて五分です。",
+       "はい、銀行です。",
+       "いいえ、違います。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "すみません、郵便局へはどう行きますか。"
+      },
+      {
+       "s": "B",
+       "t": "まっすぐ行って、二つ目の信号で右に曲がってください。"
+      },
+      {
+       "s": "A",
+       "t": "遠いですか。"
+      },
+      {
+       "s": "B",
+       "t": "いいえ、歩いて五分です。銀行の向かいにあります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 실례합니다, 우체국에 어떻게 가요?\nB: 쭉 직진하다가 두 번째 신호등에서 오른쪽으로 도세요.\nA: 멀어요?\nB: 아니요, 걸어서 오 분이에요. 은행 건너편에 있어요.",
+     "en": "A: Excuse me, how do I get to the post office?\nB: Go straight on and turn right at the second traffic lights.\nA: Is it far?\nB: No, it's five minutes on foot. It's across from the bank."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "郵便局はどこにありますか。",
+      "options": [
+       "銀行の向かい",
+       "駅の隣",
+       "公園の後ろ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "公園からホテルまでの行き方を説明します。公園を通って、橋を渡ってください。角で左に曲がると、ホテルが見えます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "공원에서 호텔까지 가는 길을 알려 드릴게요. 공원을 지나서 다리를 건너세요. 모퉁이에서 왼쪽으로 돌면 호텔이 보여요.",
+     "en": "Here are directions from the park to the hotel. Go through the park and cross the bridge. Turn left at the corner and you will see the hotel."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "角でどうしますか。",
+      "options": [
+       "左に曲がる",
+       "右に曲がる",
+       "まっすぐ行く"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どこへ行きますか。"
+      },
+      {
+       "s": "B",
+       "t": "博物館へ行きます。"
+      },
+      {
+       "s": "A",
+       "t": "この道に沿って行って、銀行で左に曲がってください。"
+      },
+      {
+       "s": "B",
+       "t": "ありがとうございます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 어디에 가세요?\n손님: 박물관에 가요.\n직원: 이 길을 따라가서 은행에서 왼쪽으로 도세요.\n손님: 감사합니다.",
+     "en": "Clerk: Where are you going?\nCustomer: To the museum.\nClerk: Walk along this road and turn left at the bank.\nCustomer: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "行き先: ______",
+      "answers": [
+       "博物館"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______で左に曲がる",
+      "answers": [
+       "銀行"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) まっすぐ___ください。\n2) 次の信号___左に曲がってください。\n3) 公園は道の___にあります。",
+    "trans": {
+     "ko": "1) 쭉 직진하세요. 2) 다음 신호등에서 왼쪽으로 도세요. 3) 공원은 길 건너편에 있어요.",
+     "en": "1) Go straight on. 2) Turn left at the next traffic lights. 3) The park is across the road."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "まっすぐ___ください。",
+      "options": [
+       "行って",
+       "行く",
+       "行き"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "次の信号___左に曲がってください。",
+      "options": [
+       "で",
+       "を",
+       "に"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "公園は道の___にあります。",
+      "options": [
+       "向かい",
+       "渡り",
+       "通り"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは、サム！私の家への行き方を教えるね。駅から(1)歩いて。公園を(2)、橋を渡って、角で(3)曲がると私の家だよ！",
+    "trans": {
+     "ko": "안녕, 샘! 내 집에 오는 방법을 알려 줄게. 역에서 쭉 걸어. 공원을 지나서 다리를 건너. 모퉁이에서 오른쪽으로 돌면 우리 집이야!",
+     "en": "Hi Sam! Here is how to get to my house. Walk straight on from the station. Go through the park and cross the bridge. Turn right at the corner and you'll see my house!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "まっすぐ",
+       "ゆっくり",
+       "だんだん"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "通って",
+       "通る",
+       "通ります"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "右に",
+       "右を",
+       "右が"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "案内板\n駅：まっすぐ200m\n郵便局：左\n公園：右、道の向かい",
+    "trans": {
+     "ko": "안내 표지판\n역: 직진 200m\n우체국: 왼쪽\n공원: 오른쪽, 길 건너편",
+     "en": "SIGNS\nStation: straight on, 200 m\nPost office: left\nPark: right, across the road"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "郵便局はどこですか。",
+      "options": [
+       "まっすぐ",
+       "左",
+       "右"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "公園はどこですか。",
+      "options": [
+       "左",
+       "右、道の向かい",
+       "まっすぐ"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "図書館は銀行の隣にあります。駅から図書館までは歩いて十分です。図書館は月曜日が休みです。",
+    "trans": {
+     "ko": "도서관은 은행 옆에 있어요. 역에서 도서관까지는 걸어서 십 분이에요. 도서관은 월요일에 문을 닫아요.",
+     "en": "The library is next to the bank. It's ten minutes on foot from the station to the library. The library is closed on Mondays."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "図書館は銀行の隣にあります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "図書館は日曜日が休みです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "図書館はとても古いです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "まっすぐ行ってください。",
+    "read": "まっすぐいってください。",
+    "ko": "실례합니다, 역이 어디예요?",
+    "en": "Excuse me, where is the station?",
+    "situation": {
+     "ko": "길을 물을 때",
+     "en": "Asking the way"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "信号で左に曲がってください。",
+    "read": "しんごうでひだりにまがってください。",
+    "ko": "역에 어떻게 가요?",
+    "en": "How do I get to the station?",
+    "situation": {
+     "ko": "가는 방법을 물을 때",
+     "en": "Asking how to get there"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "橋を渡ってください。",
+    "read": "はしをわたってください。",
+    "ko": "쭉 직진하세요.",
+    "en": "Go straight on.",
+    "situation": {
+     "ko": "길을 알려 줄 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "公園は道の向かいにあります。",
+    "read": "こうえんはみちのむかいにあります。",
+    "ko": "신호등에서 왼쪽으로 도세요.",
+    "en": "Turn left at the traffic lights.",
+    "situation": {
+     "ko": "회전 지점을 알려 줄 때",
+     "en": "Telling someone where to turn"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "ここから遠いですか。",
+    "read": "ここからとおいですか。",
+    "ko": "은행을 지나가세요.",
+    "en": "Go past the bank.",
+    "situation": {
+     "ko": "지나칠 곳을 알려 줄 때",
+     "en": "Telling someone what to pass"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "歩いて五分です。",
+    "read": "あるいてごふんです。",
+    "ko": "길 건너편에 있어요.",
+    "en": "It's across the road.",
+    "situation": {
+     "ko": "위치를 말할 때",
+     "en": "Saying where something is"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "銀行は角にあります。",
+    "read": "ぎんこうはかどにあります。",
+    "ko": "여기서 멀어요?",
+    "en": "Is it far from here?",
+    "situation": {
+     "ko": "거리를 물을 때",
+     "en": "Asking about distance"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "この道に沿って行ってください。",
+    "read": "このみちにそっていってください。",
+    "ko": "걸어서 오 분이에요.",
+    "en": "It's five minutes on foot.",
+    "situation": {
+     "ko": "시간을 알려 줄 때",
+     "en": "Saying how long it takes"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "まっすぐ〜てください。",
+    "read": "まっすぐ〜てください。",
+    "ko": "~에 어떻게 가요?",
+    "en": "How do I get to ~?"
+   },
+   {
+    "id": "w2",
+    "t": "〜で左に曲がってください。",
+    "read": "〜でひだりにまがってください。",
+    "ko": "~에서 왼쪽/오른쪽으로 도세요.",
+    "en": "Turn left / right at ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜を通ってください。",
+    "read": "〜をとおってください。",
+    "ko": "~을 지나가세요.",
+    "en": "Go past ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜は〜の向かいです。",
+    "read": "〜は〜のむかいです。",
+    "ko": "~는 걸어서 ~분이에요.",
+    "en": "It's ~ minutes on foot."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "학교(또는 집)에서 가장 가까운 역까지 가는 길을 3문장으로 안내해 보세요.",
+    "en": "Give directions from your school or home to the nearest station in 3 sentences."
+   },
+   "must_include": [
+    {
+     "label": "まっすぐ行ってください",
+     "match": [
+      "まっすぐ"
+     ]
+    },
+    {
+     "label": "信号で左に曲がってください",
+     "match": [
+      "左に曲が"
+     ]
+    },
+    {
+     "label": "銀行を通ってください",
+     "match": [
+      "通って",
+      "通り"
+     ]
+    }
+   ],
+   "model": "まっすぐ行ってください。信号で左に曲がってください。銀行を通ってください。駅があります。",
+   "model_trans": {
+    "ko": "쭉 직진하세요. 신호등에서 왼쪽으로 도세요. 은행을 지나가면 역이 있어요.",
+    "en": "Go straight on. Turn left at the traffic lights. Go past the bank and you'll see the station."
+   }
+  }
+ }
+}

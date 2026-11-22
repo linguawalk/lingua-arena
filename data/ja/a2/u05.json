@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "ja_a2_u05",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 5,
+  "concept": "A2.U05",
+  "status": "live",
+  "title": {
+   "target": "計画を立てる",
+   "ko": "계획 말하기",
+   "en": "Making plans"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "計画",
+   "pos": "noun",
+   "read": "けいかく",
+   "ko": "계획",
+   "en": "plan",
+   "ex": {
+    "t": "週末の計画があります。",
+    "read": "しゅうまつのけいかくがあります。",
+    "ko": "저는 주말 계획이 있어요.",
+    "en": "I have a plan for the weekend."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "明日",
+   "pos": "adv",
+   "read": "あした",
+   "ko": "내일",
+   "en": "tomorrow",
+   "ex": {
+    "t": "明日は仕事をするつもりです。",
+    "read": "あしたはしごとをするつもりです。",
+    "ko": "내일은 비가 올 거예요.",
+    "en": "It is going to rain tomorrow."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "今夜",
+   "pos": "adv",
+   "read": "こんや",
+   "ko": "오늘 밤",
+   "en": "tonight",
+   "ex": {
+    "t": "今夜は映画を見るつもりです。",
+    "read": "こんやはえいがをみるつもりです。",
+    "ko": "오늘 밤에 우리는 영화를 볼 거예요.",
+    "en": "We are going to watch a film tonight."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "来週",
+   "pos": "adv",
+   "read": "らいしゅう",
+   "ko": "다음 주",
+   "en": "next week",
+   "ex": {
+    "t": "来週、祖母を訪ねるつもりです。",
+    "read": "らいしゅう、そぼをたずねるつもりです。",
+    "ko": "다음 주에 저는 할머니를 방문할 거예요.",
+    "en": "I am going to visit my grandmother next week."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "つもり",
+   "pos": "phrase",
+   "read": "つもり",
+   "ko": "~할 예정이다",
+   "en": "going to",
+   "ex": {
+    "t": "私は英語を勉強するつもりです。",
+    "read": "わたしはえいごをべんきょうするつもりです。",
+    "ko": "저는 영어를 공부할 거예요.",
+    "en": "I am going to study English."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "旅行する",
+   "pos": "verb",
+   "read": "りょこうする",
+   "ko": "여행하다",
+   "en": "travel",
+   "ex": {
+    "t": "彼らは夏に旅行するつもりです。",
+    "read": "かれらはなつにりょこうするつもりです。",
+    "ko": "그들은 여름에 여행할 거예요.",
+    "en": "They are going to travel in the summer."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "決める",
+   "pos": "verb",
+   "read": "きめる",
+   "ko": "결정하다",
+   "en": "decide",
+   "ex": {
+    "t": "まだ決めていません。",
+    "read": "まだきめていません。",
+    "ko": "저는 아직 결정하지 않았어요.",
+    "en": "I haven't decided yet."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "たぶん",
+   "pos": "adv",
+   "read": "たぶん",
+   "ko": "아마도",
+   "en": "maybe",
+   "ex": {
+    "t": "たぶん浜辺へ行きます。",
+    "read": "たぶんはまべへいきます。",
+    "ko": "아마 우리는 해변에 갈 거예요.",
+    "en": "Maybe we are going to go to the beach."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "もうすぐ",
+   "pos": "adv",
+   "read": "もうすぐ",
+   "ko": "곧",
+   "en": "soon",
+   "ex": {
+    "t": "もうすぐ雨が降ります。",
+    "read": "もうすぐあめがおります。",
+    "ko": "곧 비가 올 거예요.",
+    "en": "It is going to rain soon."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "切符",
+   "pos": "noun",
+   "read": "きっぷ",
+   "ko": "표",
+   "en": "ticket",
+   "ex": {
+    "t": "明日、切符を買うつもりです。",
+    "read": "あした、きっぷをかうつもりです。",
+    "ko": "저는 내일 표를 살 거예요.",
+    "en": "I am going to buy a ticket tomorrow."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜つもりです・〜予定です",
+   "en": "Plans: 〜つもりです / 〜予定です"
+  },
+  "explain": {
+   "ko": "これからの計画は、動詞の辞書形に「つもりです」をつけて言います：働くつもりです。決まっている予定は「〜予定です」を使います：来週パリへ行く予定です。否定は「〜ないつもりです」です。「たぶん」を使うと、はっきり決めていない気持ちを表せます。",
+   "en": "Talk about plans with the dictionary form + つもりです: 働くつもりです. Use 〜予定です for arranged plans: 来週パリへ行く予定です. The negative is 〜ないつもりです. たぶん shows you have not fully decided."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜つもりです",
+     "辞書形 + つもり",
+     "明日は働くつもりです。"
+    ],
+    [
+     "〜ないつもりです",
+     "ない形 + つもり",
+     "旅行しないつもりです。"
+    ],
+    [
+     "〜予定です",
+     "辞書形 + 予定",
+     "来週パリへ行く予定です。"
+    ],
+    [
+     "たぶん + 〜ます",
+     "はっきりしない計画",
+     "たぶん浜辺へ行きます。"
+    ],
+    [
+     "何をしますか",
+     "予定を聞く",
+     "明日は何をしますか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "未来を表す言葉：明日、今夜、来週、もうすぐ。",
+    "en": "Future time words: 明日, 今夜, 来週, もうすぐ."
+   },
+   {
+    "ko": "「まだ〜ていません」は「まだしていない」という意味です：まだ決めていません。",
+    "en": "「まだ〜ていません」 means 'not yet': まだ決めていません。"
+   },
+   {
+    "ko": "「〜つもりです」は自分の考えを言うときに使います。",
+    "en": "「〜つもりです」 states your own intention."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は明日、働くつもりです。",
+    "read": "わたしはあした、はたらくつもりです。",
+    "ko": "저는 내일 일할 거예요.",
+    "en": "I am going to work tomorrow."
+   },
+   {
+    "t": "彼女は来週、パリへ行く予定です。",
+    "read": "かのじょはらいしゅう、パリへいくよていです。",
+    "ko": "그녀는 다음 주에 파리에 갈 거예요.",
+    "en": "She is going to visit Paris next week."
+   },
+   {
+    "t": "私たちは今夜、映画を見るつもりです。",
+    "read": "わたしたちはこんや、えいがをみるつもりです。",
+    "ko": "우리는 오늘 밤 영화를 볼 거예요.",
+    "en": "We are going to watch a film tonight."
+   },
+   {
+    "t": "彼らは旅行しないつもりです。",
+    "read": "かれらはりょこうしないつもりです。",
+    "ko": "그들은 여행하지 않을 거예요.",
+    "en": "They aren't going to travel."
+   },
+   {
+    "t": "明日は何をするつもりですか。",
+    "read": "あしたはなにをするつもりですか。",
+    "ko": "내일 뭐 할 거예요?",
+    "en": "What are you going to do tomorrow?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "明日、私は働く___です。",
+    "options": [
+     "つもり",
+     "つもりの",
+     "つもりで"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "彼女は来週、パリへ行く___です。",
+    "options": [
+     "予定",
+     "予定が",
+     "予定を"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "彼らは旅行しない___です。",
+    "options": [
+     "つもり",
+     "つもりを",
+     "つもりに"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "今夜は映画を___つもりです。",
+    "options": [
+     "見る",
+     "見た",
+     "見ます"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明日、何をするつもりですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 내일 뭐 할 거예요?",
+     "en": "(Question) What are you going to do tomorrow?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "友達に会うつもりです。",
+       "友達に会いました。",
+       "友達に会っています。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今年の夏、旅行するつもりですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 올여름에 여행할 거예요?",
+     "en": "(Question) Are you going to travel this summer?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、そのつもりです。",
+       "はい、旅行しました。",
+       "はい、旅行しています。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "週末は何をするの？"
+      },
+      {
+       "s": "B",
+       "t": "まだ決めてないんだ。たぶん海に行くと思う。"
+      },
+      {
+       "s": "A",
+       "t": "私も一緒に行ってもいい？"
+      },
+      {
+       "s": "B",
+       "t": "もちろん！土曜日に行くつもりだよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 주말에 뭐 할 거야?\nB: 아직 결정 안 했어. 아마 해변에 갈 것 같아.\nA: 나도 같이 가도 돼?\nB: 물론이지! 토요일에 갈 거야.",
+     "en": "A: What are you going to do at the weekend?\nB: I haven't decided yet. Maybe we are going to go to the beach.\nA: Can I come too?\nB: Of course! We are going to go on Saturday."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いつ行きますか。",
+      "options": [
+       "金曜日",
+       "土曜日",
+       "日曜日"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "来週、私は休暇を取るつもりです。月曜日に電車の切符を買います。火曜日は家族とパリへ行きます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "다음 주에 저는 휴가를 갈 거예요. 월요일에 기차표를 살 거예요. 화요일에는 가족과 파리에 갈 거예요.",
+     "en": "Next week I'm going on holiday. On Monday I'm going to buy the train tickets. On Tuesday I'm going to travel to Paris with my family."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "話す人は月曜日に何をしますか。",
+      "options": [
+       "パリへ行く",
+       "電車の切符を買う",
+       "友達に会う"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いつ旅行しますか。"
+      },
+      {
+       "s": "B",
+       "t": "来週の金曜日です。"
+      },
+      {
+       "s": "A",
+       "t": "切符は何枚必要ですか。"
+      },
+      {
+       "s": "B",
+       "t": "三枚お願いします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 언제 여행하실 거예요?\n손님: 다음 주 금요일에요.\n직원: 표는 몇 장 필요하세요?\n손님: 세 장 주세요.",
+     "en": "Clerk: When are you going to travel?\nCustomer: Next Friday.\nClerk: How many tickets do you need?\nCustomer: Three, please."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "旅行の日: 来週の______",
+      "answers": [
+       "金曜日"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "切符: ______枚",
+      "answers": [
+       "三"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は明日、働く___です。\n2) 彼女は来週、パリへ行く___です。\n3) 彼らは旅行しない___です。",
+    "trans": {
+     "ko": "1) 저는 내일 일할 거예요. 2) 그녀는 다음 주에 파리에 갈 거예요. 3) 그들은 여행하지 않을 거예요.",
+     "en": "1) I am going to work tomorrow. 2) She is going to visit Paris next week. 3) They aren't going to travel."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は明日、働く___です。",
+      "options": [
+       "ため",
+       "つもり",
+       "ところ"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "彼女は来週、パリへ行く___です。",
+      "options": [
+       "ため",
+       "予定",
+       "ところ"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "彼らは旅行しない___です。",
+      "options": [
+       "ところ",
+       "つもり",
+       "ため"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは、エバ！明日、友達に(1)つもりです。映画を(2)つもりです。一緒に(3)？あなたは何をするつもりですか。",
+    "trans": {
+     "ko": "안녕, 에바! 내일 나는 친구를 만날 거야. 우리는 영화를 볼 거야. 같이 갈래? 넌 뭐 할 거야?",
+     "en": "Hi Eva! Tomorrow I am going to meet a friend. We are going to watch a film. Do you want to come? What are you going to do?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "会った",
+       "会う",
+       "会います"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "見た",
+       "見る",
+       "見ます"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "行きました",
+       "行きませんか",
+       "行きません"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "予定\n土曜日：海\n日曜日：博物館\n月曜日：仕事",
+    "trans": {
+     "ko": "일정\n토요일: 해변\n일요일: 박물관\n월요일: 일",
+     "en": "PLANS\nSaturday: the beach\nSunday: the museum\nMonday: work"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "日曜日の予定は何ですか。",
+      "options": [
+       "海",
+       "博物館",
+       "仕事"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "仕事は何曜日ですか。",
+      "options": [
+       "土曜日",
+       "日曜日",
+       "月曜日"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "スーさんは来月、引っ越すつもりです。新しいアパートを見に行きます。家族が引っ越しを手伝います。",
+    "trans": {
+     "ko": "수는 다음 달에 이사할 거예요. 그녀는 새 아파트를 볼 거예요. 그녀의 가족이 이사를 도와줄 거예요.",
+     "en": "Sue is going to move house next month. She is going to look at a new flat. Her family is going to help her."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "スーさんは引っ越すつもりです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "スーさんは来週引っ越すつもりです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "新しいアパートは大きいです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "明日、何をするつもりですか。",
+    "read": "あした、なにをするつもりですか。",
+    "ko": "내일 뭐 할 거예요?",
+    "en": "What are you going to do tomorrow?",
+    "situation": {
+     "ko": "계획을 물을 때",
+     "en": "Asking about plans"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "まだ計画がありません。",
+    "read": "まだけいかくがありません。",
+    "ko": "저는 친구를 만날 거예요.",
+    "en": "I'm going to meet a friend.",
+    "situation": {
+     "ko": "계획을 말할 때",
+     "en": "Saying your plan"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "たぶん浜辺へ行きます。",
+    "read": "たぶんはまべへいきます。",
+    "ko": "주말에 어디 갈 거예요?",
+    "en": "Where are you going to go at the weekend?",
+    "situation": {
+     "ko": "주말 계획을 물을 때",
+     "en": "Asking about weekend plans"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "来週、祖母を訪ねるつもりです。",
+    "read": "らいしゅう、そぼをたずねるつもりです。",
+    "ko": "우리는 해변에 갈 예정이에요.",
+    "en": "We're going to go to the beach.",
+    "situation": {
+     "ko": "함께 할 계획을 말할 때",
+     "en": "Saying a shared plan"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "今夜は映画を見るつもりです。",
+    "read": "こんやはえいがをみるつもりです。",
+    "ko": "아직 결정하지 않았어요.",
+    "en": "I haven't decided yet.",
+    "situation": {
+     "ko": "정하지 않았다고 말할 때",
+     "en": "Saying you haven't decided"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "英語を勉強するつもりです。",
+    "read": "えいごをべんきょうするつもりです。",
+    "ko": "저는 일하지 않을 거예요.",
+    "en": "I'm not going to work.",
+    "situation": {
+     "ko": "하지 않을 거라고 말할 때",
+     "en": "Saying what you won't do"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "もうすぐ雨が降ります。",
+    "read": "もうすぐあめがおります。",
+    "ko": "곧 비가 올 거예요.",
+    "en": "It's going to rain soon.",
+    "situation": {
+     "ko": "곧 일어날 일을 말할 때",
+     "en": "Saying what will happen soon"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "明日、切符を買います。",
+    "read": "あした、きっぷをかいます。",
+    "ko": "표는 언제 살 거예요?",
+    "en": "When are you going to buy the tickets?",
+    "situation": {
+     "ko": "시기를 물을 때",
+     "en": "Asking when"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "今度の週末は〜するつもりです。",
+    "read": "こんどのしゅうまつは〜するつもりです。",
+    "ko": "저는 ~할 거예요.",
+    "en": "I'm going to ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜へ行く予定です。",
+    "read": "〜へいくよていです。",
+    "ko": "우리는 ~에 갈 거예요.",
+    "en": "We're going to go to ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜ないつもりです。",
+    "read": "〜ないつもりです。",
+    "ko": "저는 ~하지 않을 거예요.",
+    "en": "I'm not going to ~."
+   },
+   {
+    "id": "w4",
+    "t": "たぶん〜。",
+    "read": "たぶん〜。",
+    "ko": "~할 거예요?",
+    "en": "Are you going to ~?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "다음 주말 계획을 3문장으로 쓰세요. be going to를 쓰세요.",
+    "en": "Write 3 sentences about your plans for next weekend. Use 'be going to'."
+   },
+   "must_include": [
+    {
+     "label": "〜するつもりです",
+     "match": [
+      "つもり"
+     ]
+    },
+    {
+     "label": "〜へ行く予定です",
+     "match": [
+      "予定"
+     ]
+    },
+    {
+     "label": "〜ないつもりです",
+     "match": [
+      "ないつもり"
+     ]
+    }
+   ],
+   "model": "今度の週末は友達に会うつもりです。映画を見る予定です。仕事はしないつもりです。",
+   "model_trans": {
+    "ko": "다음 주말에 저는 친구를 만날 거예요. 우리는 영화를 볼 거예요. 저는 일하지 않을 거예요.",
+    "en": "Next weekend I'm going to meet a friend. We're going to watch a film. I'm not going to work."
+   }
+  }
+ }
+}

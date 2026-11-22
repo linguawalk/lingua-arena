@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_a2_u10",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 10,
+  "concept": "A2.U10",
+  "status": "live",
+  "title": {
+   "target": "いちばんいいものといちばん悪いもの",
+   "ko": "최고와 최악",
+   "en": "The best and the worst"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "一番大きい",
+   "pos": "adj",
+   "read": "いちばんおおきい",
+   "ko": "가장 큰",
+   "en": "the biggest",
+   "ex": {
+    "t": "ここは町で一番大きい公園です。",
+    "read": "ここはまちでいちばんおおきいこうえんです。",
+    "ko": "이곳은 도시에서 가장 큰 공원이에요.",
+    "en": "This is the biggest park in the city."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "一番小さい",
+   "pos": "adj",
+   "read": "いちばんちいさい",
+   "ko": "가장 작은",
+   "en": "the smallest",
+   "ex": {
+    "t": "それは一番小さい部屋です。",
+    "read": "それはいちばんちいさいへやです。",
+    "ko": "그것이 가장 작은 방이에요.",
+    "en": "That is the smallest room."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "一番安い",
+   "pos": "adj",
+   "read": "いちばんやすい",
+   "ko": "가장 싼",
+   "en": "the cheapest",
+   "ex": {
+    "t": "このホテルが一番安いです。",
+    "read": "このホテルがいちばんやすいです。",
+    "ko": "이 호텔이 가장 싸요.",
+    "en": "This hotel is the cheapest."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "一番高い",
+   "pos": "adj",
+   "read": "いちばんたかい",
+   "ko": "가장 비싼",
+   "en": "the most expensive",
+   "ex": {
+    "t": "それは一番高いかばんです。",
+    "read": "それはいちばんたかいかばんです。",
+    "ko": "그것이 가장 비싼 가방이에요.",
+    "en": "That is the most expensive bag."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "一番いい",
+   "pos": "adj",
+   "read": "いちばんいい",
+   "ko": "가장 좋은",
+   "en": "the best",
+   "ex": {
+    "t": "ここは一番いいレストランです。",
+    "read": "ここはいちばんいいレストランです。",
+    "ko": "이곳이 최고의 식당이에요.",
+    "en": "This is the best restaurant."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "最悪",
+   "pos": "adj",
+   "read": "さいあく",
+   "ko": "가장 나쁜",
+   "en": "the worst",
+   "ex": {
+    "t": "昨日は最悪の日でした。",
+    "read": "きのうはさいあくのにちでした。",
+    "ko": "어제가 최악의 날이었어요.",
+    "en": "Yesterday was the worst day."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "一番速い",
+   "pos": "adj",
+   "read": "いちばんはやい",
+   "ko": "가장 빠른",
+   "en": "the fastest",
+   "ex": {
+    "t": "彼はクラスで一番速いです。",
+    "read": "かれはクラスでいちばんはやいです。",
+    "ko": "그는 반에서 가장 빨라요.",
+    "en": "He is the fastest in the class."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "一番年上",
+   "pos": "adj",
+   "read": "いちばんとしうえ",
+   "ko": "가장 나이 많은",
+   "en": "the oldest",
+   "ex": {
+    "t": "祖父が家族で一番年上です。",
+    "read": "そふがかぞくでいちばんとしうえです。",
+    "ko": "우리 할아버지가 가장 연세가 많으세요.",
+    "en": "My grandfather is the oldest in my family."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "世界で",
+   "pos": "phrase",
+   "read": "せかいで",
+   "ko": "세계에서",
+   "en": "in the world",
+   "ex": {
+    "t": "それは世界で一番高い建物です。",
+    "read": "それはせかいでいちばんたかいたてものです。",
+    "ko": "그것은 세계에서 가장 높은 건물이에요.",
+    "en": "It is the tallest building in the world."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "〜の中で",
+   "pos": "phrase",
+   "read": "〜のなかで",
+   "ko": "~ 중에서",
+   "en": "of all",
+   "ex": {
+    "t": "彼女は生徒の中で一番背が高いです。",
+    "read": "かのじょはせいとのなかでいちばんせがたかいです。",
+    "ko": "그녀는 모든 학생 중에서 가장 키가 커요.",
+    "en": "She is the tallest of all the students."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "最上級：〜で一番〜・〜の中で一番〜",
+   "en": "Superlatives: 〜で一番〜 / 〜の中で一番〜"
+  },
+  "explain": {
+   "ko": "三つ以上の中で「いちばん〜」を言うときは、「(範囲)で / の中で 一番 + 形容詞」を使います：町で一番大きい公園、生徒の中で一番背が高いです。「いちばんいい」は「最高」、「いちばん悪い」は「最悪」とも言います。比べるのは二つ、一番を言うのは三つ以上です。",
+   "en": "To say 'the most ~' among three or more use (range)で / の中で 一番 + adjective: 町で一番大きい公園. 最高 is 'the best' and 最悪 'the worst'. A comparison is for two things, a superlative for three or more."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "一番 + 形容詞",
+     "このホテルが一番安いです。"
+    ],
+    [
+     "〜で一番〜",
+     "ここは町で一番大きい公園です。"
+    ],
+    [
+     "〜の中で一番〜",
+     "彼女は生徒の中で一番背が高いです。"
+    ],
+    [
+     "最高 / 最悪",
+     "最高のレストラン / 最悪の日"
+    ],
+    [
+     "世界で一番〜",
+     "世界で一番高い建物です。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "範囲は「で」「の中で」で表します：町で、クラスで、生徒の中で。",
+    "en": "Mark the range with で or の中で: 町で, クラスで, 生徒の中で."
+   },
+   {
+    "ko": "「一番」の代わりに「いちばん」とひらがなでも書きます。",
+    "en": "一番 can also be written いちばん."
+   },
+   {
+    "ko": "二つを比べるときは「より」、三つ以上は「一番」です。",
+    "en": "Two things use より; three or more use 一番."
+   }
+  ],
+  "examples": [
+   {
+    "t": "ここは町で一番大きい公園です。",
+    "read": "ここはまちでいちばんおおきいこうえんです。",
+    "ko": "이곳은 도시에서 가장 큰 공원이에요.",
+    "en": "This is the biggest park in the city."
+   },
+   {
+    "t": "このホテルが一番安いです。",
+    "read": "このホテルがいちばんやすいです。",
+    "ko": "이 호텔이 가장 싸요.",
+    "en": "This hotel is the cheapest."
+   },
+   {
+    "t": "昨日は最悪の日でした。",
+    "read": "きのうはさいあくのにちでした。",
+    "ko": "어제가 최악의 날이었어요.",
+    "en": "Yesterday was the worst day."
+   },
+   {
+    "t": "彼はクラスで一番速いです。",
+    "read": "かれはクラスでいちばんはやいです。",
+    "ko": "그는 반에서 가장 빨라요.",
+    "en": "He is the fastest in the class."
+   },
+   {
+    "t": "祖父が家族で一番年上です。",
+    "read": "そふがかぞくでいちばんとしうえです。",
+    "ko": "우리 할아버지가 가장 연세가 많으세요.",
+    "en": "My grandfather is the oldest in my family."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "ここは町___一番大きい公園です。",
+    "options": [
+     "で",
+     "を",
+     "が"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "このホテルが___安いです。",
+    "options": [
+     "もっと",
+     "一番",
+     "より"
+    ],
+    "answer": 1,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "昨日は___の日でした。",
+    "options": [
+     "最高",
+     "最悪",
+     "最大"
+    ],
+    "answer": 1,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "彼女は生徒___一番背が高いです。",
+    "options": [
+     "の中で",
+     "より",
+     "ほど"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ここで一番いいレストランはどこですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이곳에서 가장 좋은 식당이 어디예요?",
+     "en": "(Question) What is the best restaurant here?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "青いドアが一番いいです。",
+       "青いドアはよかったです。",
+       "青いドアがあります。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "これが一番安いですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이게 가장 싼 거예요?",
+     "en": "(Question) Is this the cheapest one?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、一番安いです。",
+       "はい、もっと安いです。",
+       "はい、安かったです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この町で一番大きい公園はどこですか。"
+      },
+      {
+       "s": "B",
+       "t": "セントラル公園です。町で一番大きくて、一番きれいです。"
+      },
+      {
+       "s": "A",
+       "t": "近いですか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、歩いて五分です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 도시에서 가장 큰 공원이 어디예요?\nB: 센트럴 공원이에요. 도시에서 가장 크고 가장 아름다워요.\nA: 가까워요?\nB: 네, 걸어서 오 분이에요.",
+     "en": "A: Which is the biggest park in this city?\nB: Central Park. It is the biggest and the most beautiful.\nA: Is it near?\nB: Yes, it's five minutes on foot."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "セントラル公園はここからどのくらいですか。",
+      "options": [
+       "歩いて五分",
+       "バスで十分",
+       "電車で一時間"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "当ホテルは町で一番古いホテルです。部屋は一番安くはありませんが、サービスは最高です。レストランはこの地域で一番人気があります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저희 호텔은 도시에서 가장 오래된 호텔이에요. 방은 가장 싸지는 않지만 서비스는 최고예요. 식당은 이 지역에서 가장 인기가 많아요.",
+     "en": "Our hotel is the oldest hotel in the city. The rooms aren't the cheapest but the service is the best. The restaurant is the most popular in the area."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "このホテルのいちばんいいところは何ですか。",
+      "options": [
+       "値段",
+       "サービス",
+       "部屋"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どんなお部屋がいいですか。"
+      },
+      {
+       "s": "B",
+       "t": "一番安い部屋をお願いします。"
+      },
+      {
+       "s": "A",
+       "t": "一泊六十ドルです。"
+      },
+      {
+       "s": "B",
+       "t": "いいですね。四泊お願いします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 어떤 방을 원하세요?\n손님: 가장 싼 방으로 주세요.\n직원: 한 박에 육십 달러입니다.\n손님: 좋아요, 사 일 묵을게요.",
+     "en": "Clerk: Which room would you like?\nCustomer: I'll take the cheapest room.\nClerk: It is sixty dollars a night.\nCustomer: Good. I'll stay for four nights."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "部屋: ______部屋",
+      "answers": [
+       "一番安い"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "泊数: ______泊",
+      "answers": [
+       "四"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ここは町で___大きい公園です。\n2) このホテルが___安いです。\n3) 昨日は___の日でした。",
+    "trans": {
+     "ko": "1) 이곳은 도시에서 가장 큰 공원이에요. 2) 이 호텔이 가장 싸요. 3) 어제가 최악의 날이었어요.",
+     "en": "1) This is the biggest park in the city. 2) This hotel is the cheapest. 3) Yesterday was the worst day."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ここは町で___大きい公園です。",
+      "options": [
+       "もっと",
+       "より",
+       "一番"
+      ],
+      "answer": 2
+     },
+     {
+      "type": "mc",
+      "q": "このホテルが___安いです。",
+      "options": [
+       "もっと",
+       "より",
+       "一番"
+      ],
+      "answer": 2
+     },
+     {
+      "type": "mc",
+      "q": "昨日は___の日でした。",
+      "options": [
+       "最高",
+       "最大",
+       "最悪"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは、ニック！ソウルへようこそ！ここはすばらしい町です。(1)レストランと(2)大きい市場があります。一番安いホテル(3)教えます！",
+    "trans": {
+     "ko": "안녕, 닉! 서울에 온 걸 환영해! 이곳은 정말 멋져. 가장 좋은 식당과 가장 큰 시장이 있어. 가장 싼 호텔도 알려 줄게!",
+     "en": "Hi Nick! Welcome to Seoul! It's a great city. It has the best restaurants and the biggest market. I'll tell you about the cheapest hotel too!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "いい",
+       "もっといい",
+       "一番いい"
+      ],
+      "answer": 2
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "もっと",
+       "より",
+       "一番"
+      ],
+      "answer": 2
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "も",
+       "を",
+       "は"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ランキング\n1位：セントラル公園（一番大きい）\n2位：市役所公園\n3位：川沿い公園（一番小さい）",
+    "trans": {
+     "ko": "순위\n1위: 센트럴 공원(가장 큼)\n2위: 시청 공원\n3위: 강변 공원(가장 작음)",
+     "en": "RANKING\n1st: Central Park (the biggest)\n2nd: City Hall Park\n3rd: River Park (the smallest)"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばん小さい公園はどれですか。",
+      "options": [
+       "セントラル公園",
+       "市役所公園",
+       "川沿い公園"
+      ],
+      "answer": 2
+     },
+     {
+      "type": "mc",
+      "q": "いちばん大きい公園はどれですか。",
+      "options": [
+       "セントラル公園",
+       "市役所公園",
+       "川沿い公園"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "その映画は今年一番の映画です。話が一番おもしろくて、俳優が一番有名です。でも、チケットが一番高いです。",
+    "trans": {
+     "ko": "그 영화는 올해 최고의 영화예요. 이야기가 가장 재미있고 배우들이 가장 유명해요. 하지만 표가 가장 비싸요.",
+     "en": "The film is the best of the year. The story is the most interesting and the actors are the most famous. But the tickets are the most expensive."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "その映画は今年一番の映画です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "チケットが一番安いです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "映画は二時間です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "これが一番安いですか。",
+    "read": "これがいちばんやすいですか。",
+    "ko": "이게 가장 싸요?",
+    "en": "Is this the cheapest?",
+    "situation": {
+     "ko": "가장 싼 것을 확인할 때",
+     "en": "Checking the lowest price"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "ここは町で一番大きい公園です。",
+    "read": "ここはまちでいちばんおおきいこうえんです。",
+    "ko": "이곳이 도시에서 가장 큰 공원이에요.",
+    "en": "This is the biggest park in the city.",
+    "situation": {
+     "ko": "장소를 소개할 때",
+     "en": "Introducing a place"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "一番いいレストランはどこですか。",
+    "read": "いちばんいいレストランはどこですか。",
+    "ko": "제일 좋아하는 식당이 어디예요?",
+    "en": "What's the best restaurant?",
+    "situation": {
+     "ko": "추천을 물을 때",
+     "en": "Asking for a recommendation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "最悪の映画でした。",
+    "read": "さいあくのえいがでした。",
+    "ko": "그건 최악의 영화였어요.",
+    "en": "That was the worst film.",
+    "situation": {
+     "ko": "나쁜 평가를 말할 때",
+     "en": "Giving a bad opinion"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "彼はクラスで一番速いです。",
+    "read": "かれはクラスでいちばんはやいです。",
+    "ko": "그는 우리 반에서 가장 빨라요.",
+    "en": "He is the fastest in our class.",
+    "situation": {
+     "ko": "사람을 비교할 때",
+     "en": "Comparing people"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "それは世界で一番高い建物です。",
+    "read": "それはせかいでいちばんたかいたてものです。",
+    "ko": "이게 세계에서 가장 높아요.",
+    "en": "It is the tallest in the world.",
+    "situation": {
+     "ko": "기록을 말할 때",
+     "en": "Talking about a record"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "一番安い部屋をお願いします。",
+    "read": "いちばんやすいへやをおねがいします。",
+    "ko": "가장 싼 것으로 주세요.",
+    "en": "I'll take the cheapest one.",
+    "situation": {
+     "ko": "가게에서 고를 때",
+     "en": "Choosing in a shop"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "一番いい道はどれですか。",
+    "read": "いちばんいいみちはどれですか。",
+    "ko": "가장 좋은 방법이 뭐예요?",
+    "en": "What is the best way?",
+    "situation": {
+     "ko": "방법을 물을 때",
+     "en": "Asking for the best way"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜で一番〜です。",
+    "read": "〜でいちばん〜です。",
+    "ko": "이것이 ~에서 가장 ~해요.",
+    "en": "This is the ~est in ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜は一番〜でした。",
+    "read": "〜はいちばん〜でした。",
+    "ko": "그것이 가장 ~했어요.",
+    "en": "It was the ~est."
+   },
+   {
+    "id": "w3",
+    "t": "〜が一番〜です。",
+    "read": "〜がいちばん〜です。",
+    "ko": "~는 가장 ~해요.",
+    "en": "~ is the most ~."
+   },
+   {
+    "id": "w4",
+    "t": "一番安い〜をお願いします。",
+    "read": "いちばんやすい〜をおねがいします。",
+    "ko": "가장 ~한 것으로 주세요.",
+    "en": "I'll take the ~est one."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "우리 도시(또는 학교)에서 가장 좋은 곳, 가장 큰 곳, 가장 싼 곳을 한 문장씩 쓰세요.",
+    "en": "Write one sentence each about the best, the biggest and the cheapest place in your town."
+   },
+   "must_include": [
+    {
+     "label": "〜で一番〜",
+     "match": [
+      "一番"
+     ]
+    },
+    {
+     "label": "私が知っている一番いい〜",
+     "match": [
+      "一番いい",
+      "最高"
+     ]
+    },
+    {
+     "label": "〜が一番〜です",
+     "match": [
+      "一番"
+     ]
+    }
+   ],
+   "model": "ここは町で一番大きい公園です。私は一番いいレストランを知っています。このホテルが一番安いです。",
+   "model_trans": {
+    "ko": "이곳이 도시에서 가장 큰 공원이에요. 저는 가장 좋은 식당을 알아요. 이 호텔이 가장 싸요.",
+    "en": "This is the biggest park in the city. I know the best restaurant. This hotel is the cheapest."
+   }
+  }
+ }
+}

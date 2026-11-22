@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "ja_a2_u11",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 11,
+  "concept": "A2.U11",
+  "status": "live",
+  "title": {
+   "target": "食べ物と量",
+   "ko": "음식과 양",
+   "en": "Food and quantities"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "少し",
+   "pos": "det",
+   "read": "すこし",
+   "ko": "약간 · 조금 (긍정문)",
+   "en": "some",
+   "ex": {
+    "t": "牛乳を少し買いました。",
+    "read": "ぎゅうにゅうをすこしかいました。",
+    "ko": "저는 우유를 조금 샀어요.",
+    "en": "I bought some milk."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "ひとつも",
+   "pos": "det",
+   "read": "ひとつも",
+   "ko": "하나도 · 조금도 (부정·의문)",
+   "en": "any",
+   "ex": {
+    "t": "牛乳がひとつもありません。",
+    "read": "ぎゅうにゅうがひとつもありません。",
+    "ko": "우유가 하나도 없어요.",
+    "en": "We haven't got any milk."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "あまり",
+   "pos": "det",
+   "read": "あまり",
+   "ko": "많은 (셀 수 없는)",
+   "en": "much",
+   "ex": {
+    "t": "時間があまりありません。",
+    "read": "じかんがあまりありません。",
+    "ko": "우리는 시간이 많지 않아요.",
+    "en": "We don't have much time."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "いくつ",
+   "pos": "det",
+   "read": "いくつ",
+   "ko": "많은 (셀 수 있는)",
+   "en": "many",
+   "ex": {
+    "t": "りんごはいくつありますか。",
+    "read": "りんごはいくつありますか。",
+    "ko": "사과가 많이 있어요?",
+    "en": "Are there many apples?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "たくさん",
+   "pos": "det",
+   "read": "たくさん",
+   "ko": "많은",
+   "en": "a lot of",
+   "ex": {
+    "t": "彼は水をたくさん飲みます。",
+    "read": "かれはみずをたくさんのみます。",
+    "ko": "그는 물을 많이 마셔요.",
+    "en": "He drinks a lot of water."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "いくつか",
+   "pos": "det",
+   "read": "いくつか",
+   "ko": "몇 개 (셀 수 있는)",
+   "en": "a few",
+   "ex": {
+    "t": "卵がいくつかあります。",
+    "read": "たまごがいくつかあります。",
+    "ko": "달걀이 몇 개 있어요.",
+    "en": "There are a few eggs."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "ちょっと",
+   "pos": "det",
+   "read": "ちょっと",
+   "ko": "조금 (셀 수 없는)",
+   "en": "a little",
+   "ex": {
+    "t": "砂糖をちょっとください。",
+    "read": "さとうをちょっとください。",
+    "ko": "설탕을 조금 주세요.",
+    "en": "I'd like a little sugar."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "びん",
+   "pos": "noun",
+   "read": "びん",
+   "ko": "병",
+   "en": "bottle",
+   "ex": {
+    "t": "水を一びんください。",
+    "read": "みずをいちびんください。",
+    "ko": "물 한 병 주세요.",
+    "en": "A bottle of water, please."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "ふくろ",
+   "pos": "noun",
+   "read": "ふくろ",
+   "ko": "봉지",
+   "en": "bag",
+   "ex": {
+    "t": "お米を一ふくろ買いました。",
+    "read": "おこめをいちふくろかいました。",
+    "ko": "쌀 한 봉지를 샀어요.",
+    "en": "I bought a bag of rice."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "足りる",
+   "pos": "det",
+   "read": "たりる",
+   "ko": "충분한",
+   "en": "enough",
+   "ex": {
+    "t": "パンは足ります。",
+    "read": "パンはたります。",
+    "ko": "우리는 빵이 충분해요.",
+    "en": "We have enough bread."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "量の言い方：少し・たくさん・ひとつも・いくつ",
+   "en": "Quantities: 少し / たくさん / ひとつも / いくつ"
+  },
+  "explain": {
+   "ko": "量が少ないときは「少し・ちょっと」、多いときは「たくさん」を使います：牛乳を少し買いました。否定では「ひとつもありません」「あまりありません」と言います。数えられるものを聞くときは「いくつ」：卵はいくつありますか。入れ物を数えるときは、びん・ふくろなどを使います：水を二びん、お米を一ふくろ。",
+   "en": "For a small amount use 少し or ちょっと, for a lot たくさん: 牛乳を少し買いました。 In negatives say ひとつもありません or あまりありません. Ask about countable things with いくつ: 卵はいくつありますか。 Count containers with びん or ふくろ: 水を二びん, お米を一ふくろ。"
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "少し・ちょっと",
+     "a little",
+     "牛乳を少し買いました。"
+    ],
+    [
+     "ひとつも〜ない",
+     "none at all",
+     "牛乳がひとつもありません。"
+    ],
+    [
+     "たくさん",
+     "a lot",
+     "水をたくさん飲みます。"
+    ],
+    [
+     "いくつ",
+     "how many",
+     "卵はいくつありますか。"
+    ],
+    [
+     "びん・ふくろ",
+     "bottle · bag",
+     "水を二びん、お米を一ふくろ"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "数え方：一つ、二つ、三つ…／一びん、二びん。",
+    "en": "Counting: 一つ, 二つ, 三つ… / 一びん, 二びん."
+   },
+   {
+    "ko": "「足りる」は「十分ある」という意味です：パンは足ります。",
+    "en": "「足りる」 means 'there is enough': パンは足ります。"
+   },
+   {
+    "ko": "「あまり〜ない」は「少ししかない」という意味です：時間があまりありません。",
+    "en": "「あまり〜ない」 means 'not much': 時間があまりありません。"
+   }
+  ],
+  "examples": [
+   {
+    "t": "牛乳を少し買いました。",
+    "read": "ぎゅうにゅうをすこしかいました。",
+    "ko": "저는 우유를 조금 샀어요.",
+    "en": "I bought some milk."
+   },
+   {
+    "t": "牛乳がひとつもありません。",
+    "read": "ぎゅうにゅうがひとつもありません。",
+    "ko": "우리는 우유가 하나도 없어요.",
+    "en": "We haven't got any milk."
+   },
+   {
+    "t": "りんごはたくさんありますか。",
+    "read": "りんごはたくさんありますか。",
+    "ko": "사과가 많이 있어요?",
+    "en": "Are there many apples?"
+   },
+   {
+    "t": "水を少し飲みました。",
+    "read": "みずをすこしのみました。",
+    "ko": "저는 물을 조금 마셨어요.",
+    "en": "I drank a little water."
+   },
+   {
+    "t": "パンは足ります。",
+    "read": "パンはたります。",
+    "ko": "우리는 빵이 충분해요.",
+    "en": "We have enough bread."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "牛乳を___買いました。",
+    "options": [
+     "少し",
+     "ひとつも",
+     "あまり"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "牛乳が___ありません。",
+    "options": [
+     "少し",
+     "ひとつも",
+     "たくさん"
+    ],
+    "answer": 1,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "りんごは___ありますか。",
+    "options": [
+     "いくら",
+     "いくつ",
+     "どこ"
+    ],
+    "answer": 1,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "パンは___。",
+    "options": [
+     "足ります",
+     "足りません",
+     "足りました"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "牛乳はありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 우유가 좀 있어요?",
+     "en": "(Question) Is there any milk?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、少しあります。",
+       "はい、牛乳です。",
+       "はい、ここにいます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "卵はいくつ必要ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 달걀이 몇 개 필요해요?",
+     "en": "(Question) How many eggs do you need?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "六つです。",
+       "牛乳をたくさんです。",
+       "二びんです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "パンはある？"
+      },
+      {
+       "s": "B",
+       "t": "うん、少しあるよ。でも牛乳はひとつもないんだ。"
+      },
+      {
+       "s": "A",
+       "t": "じゃあ、牛乳を二びんと卵を買ってくるね。"
+      },
+      {
+       "s": "B",
+       "t": "ありがとう！"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 빵이 좀 있어?\nB: 응, 조금 있어. 그런데 우유는 하나도 없어.\nA: 그럼 우유 두 병이랑 달걀 몇 개 사 올게.\nB: 고마워!",
+     "en": "A: Is there any bread?\nB: Yes, there is a little. But there isn't any milk.\nA: Then I'll buy two bottles of milk and a few eggs.\nB: Thanks!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人は何を買いますか。",
+      "options": [
+       "パンと卵",
+       "牛乳と卵",
+       "お米と牛乳"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今夜は友達が六人来ます。お米が足りないので、一ふくろ買わなければなりません。卵はたくさんありますが、牛乳はひとつもありません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "오늘 저녁에는 친구 여섯 명이 와요. 쌀이 충분하지 않아서 한 봉지 사야 해요. 달걀은 많이 있지만 우유는 하나도 없어요.",
+     "en": "Six friends are coming this evening. We haven't got enough rice, so I need to buy a bag. We have a lot of eggs but we haven't got any milk."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "何を買わなければなりませんか。",
+      "options": [
+       "卵",
+       "お米を一ふくろ",
+       "牛乳"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "何にしますか。"
+      },
+      {
+       "s": "B",
+       "t": "水を二びんと、りんごをいくつかお願いします。"
+      },
+      {
+       "s": "A",
+       "t": "りんごはいくつですか。"
+      },
+      {
+       "s": "B",
+       "t": "五つです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 무엇을 드릴까요?\n손님: 물 두 병과 사과 몇 개 주세요.\n직원: 사과는 몇 개요?\n손님: 다섯 개요.",
+     "en": "Clerk: What would you like?\nCustomer: Two bottles of water and a few apples, please.\nClerk: How many apples?\nCustomer: Five."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "水: 二______",
+      "answers": [
+       "びん"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "りんご: ______つ",
+      "answers": [
+       "五"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 牛乳を___買いました。\n2) 牛乳が___ありません。\n3) りんごは___ありますか。",
+    "trans": {
+     "ko": "1) 저는 우유를 조금 샀어요. 2) 우리는 우유가 하나도 없어요. 3) 사과가 많이 있어요?",
+     "en": "1) I bought some milk. 2) We haven't got any milk. 3) Are there many apples?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "牛乳を___買いました。",
+      "options": [
+       "少し",
+       "ひとつも",
+       "あまり"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "牛乳が___ありません。",
+      "options": [
+       "少し",
+       "ひとつも",
+       "たくさん"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "りんごは___ありますか。",
+      "options": [
+       "いくら",
+       "いくつ",
+       "どこ"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "お母さん、こんにちは！今日、買い物に行きます。牛乳が(1)ありません。卵とお米を一(2)買わなければなりません。時間が(3)ありません！",
+    "trans": {
+     "ko": "안녕, 엄마! 오늘 쇼핑하러 갈게요. 우유는 하나도 없어요. 달걀이랑 쌀 한 봉지가 필요해요. 시간은 많지 않아요!",
+     "en": "Hi Mum! I'm going shopping today. We haven't got any milk. We need some eggs and a bag of rice. I haven't got much time!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "少し",
+       "ひとつも",
+       "たくさん"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "びん",
+       "ふくろ",
+       "はこ"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "たくさん",
+       "あまり",
+       "ひとつ"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "買い物リスト\n牛乳：2びん\n卵：6つ\nお米：1ふくろ\nりんご：5つ",
+    "trans": {
+     "ko": "쇼핑 목록\n우유: 2병\n달걀: 6개\n쌀: 1봉지\n사과: 5개",
+     "en": "SHOPPING LIST\nMilk: 2 bottles\nEggs: 6\nRice: 1 bag\nApples: 5"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "リストに卵はいくつありますか。",
+      "options": [
+       "2つ",
+       "6つ",
+       "5つ"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "牛乳はどれだけですか。",
+      "options": [
+       "2びん",
+       "1ふくろ",
+       "6つ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "家にはりんごがたくさんあります。オレンジは少しだけです。牛乳はひとつもありません。",
+    "trans": {
+     "ko": "집에는 사과가 많이 있어요. 오렌지는 몇 개뿐이에요. 우유는 하나도 없어요.",
+     "en": "There are a lot of apples at home. There are only a few oranges. There isn't any milk."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "家にはりんごがたくさんあります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "牛乳がたくさんあります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "バナナが少しあります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "牛乳はありますか。",
+    "read": "ぎゅうにゅうはありますか。",
+    "ko": "우유가 좀 있어요?",
+    "en": "Is there any milk?",
+    "situation": {
+     "ko": "있는지 물을 때",
+     "en": "Asking if something is available"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "卵がいくつかあります。",
+    "read": "たまごがいくつかあります。",
+    "ko": "달걀이 몇 개 있어요.",
+    "en": "There are a few eggs.",
+    "situation": {
+     "ko": "수가 적다고 말할 때",
+     "en": "Saying there are a few"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "砂糖をちょっとください。",
+    "read": "さとうをちょっとください。",
+    "ko": "설탕을 조금 주세요.",
+    "en": "I'd like a little sugar.",
+    "situation": {
+     "ko": "조금 요청할 때",
+     "en": "Asking for a small amount"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "りんごはいくつありますか。",
+    "read": "りんごはいくつありますか。",
+    "ko": "사과는 몇 개 있어요?",
+    "en": "How many apples are there?",
+    "situation": {
+     "ko": "수를 물을 때",
+     "en": "Asking how many"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "牛乳はどのくらい必要ですか。",
+    "read": "ぎゅうにゅうはどのくらいひつようですか。",
+    "ko": "우유는 얼마나 필요해요?",
+    "en": "How much milk do you need?",
+    "situation": {
+     "ko": "양을 물을 때",
+     "en": "Asking how much"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "パンは足ります。",
+    "read": "パンはたります。",
+    "ko": "우리는 빵이 충분해요.",
+    "en": "We have enough bread.",
+    "situation": {
+     "ko": "충분하다고 말할 때",
+     "en": "Saying it is enough"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "水を一びんください。",
+    "read": "みずをいちびんください。",
+    "ko": "물 한 병 주세요.",
+    "en": "A bottle of water, please.",
+    "situation": {
+     "ko": "병 단위로 주문할 때",
+     "en": "Ordering by the bottle"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "時間があまりありません。",
+    "read": "じかんがあまりありません。",
+    "ko": "저는 시간이 많지 않아요.",
+    "en": "I don't have much time.",
+    "situation": {
+     "ko": "부족하다고 말할 때",
+     "en": "Saying there is not much"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜を少し買いました。",
+    "read": "〜をすこしかいました。",
+    "ko": "~가 좀 있어요.",
+    "en": "I have some ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜がひとつもありません。",
+    "read": "〜がひとつもありません。",
+    "ko": "~가 하나도 없어요.",
+    "en": "There isn't any ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜はいくつありますか。",
+    "read": "〜はいくつありますか。",
+    "ko": "~는 얼마나 있어요?",
+    "en": "How much ~ is there?"
+   },
+   {
+    "id": "w4",
+    "t": "〜がたくさんあります。",
+    "read": "〜がたくさんあります。",
+    "ko": "~는 몇 개 있어요?",
+    "en": "How many ~ are there?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "냉장고에 있는 것과 없는 것을 3문장으로 쓰세요. some, any, a lot of를 쓰세요.",
+    "en": "Write 3 sentences about what is and isn't in your fridge. Use some, any and a lot of."
+   },
+   "must_include": [
+    {
+     "label": "〜があります",
+     "match": [
+      "あります"
+     ]
+    },
+    {
+     "label": "〜がひとつもありません",
+     "match": [
+      "ひとつも"
+     ]
+    },
+    {
+     "label": "〜がたくさんあります",
+     "match": [
+      "たくさん"
+     ]
+    }
+   ],
+   "model": "冷蔵庫に牛乳が少しあります。卵はひとつもありません。りんごはたくさんあります。",
+   "model_trans": {
+    "ko": "냉장고에 우유가 조금 있어요. 달걀은 하나도 없어요. 사과는 많이 있어요.",
+    "en": "There is some milk in the fridge. There aren't any eggs. There are a lot of apples."
+   }
+  }
+ }
+}

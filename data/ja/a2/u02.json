@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_a2_u02",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 2,
+  "concept": "A2.U02",
+  "status": "live",
+  "title": {
+   "target": "過去のことを話す",
+   "ko": "지난 일 말하기",
+   "en": "Talking about the past"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "働く",
+   "pos": "verb",
+   "read": "はたらく",
+   "ko": "일하다",
+   "en": "work",
+   "ex": {
+    "t": "彼は昨日、働きました。",
+    "read": "かれはきのう、はたらきました。",
+    "ko": "그는 어제 일했어요.",
+    "en": "He worked yesterday."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "勉強する",
+   "pos": "verb",
+   "read": "べんきょうする",
+   "ko": "공부하다",
+   "en": "study",
+   "ex": {
+    "t": "昨夜、勉強しました。",
+    "read": "さくや、べんきょうしました。",
+    "ko": "저는 어젯밤에 공부했어요.",
+    "en": "I studied last night."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "料理する",
+   "pos": "verb",
+   "read": "りょうりする",
+   "ko": "요리하다",
+   "en": "cook",
+   "ex": {
+    "t": "彼女は夕食を料理しました。",
+    "read": "かのじょはゆうしょくをりょうりしました。",
+    "ko": "그녀는 저녁을 요리했어요.",
+    "en": "She cooked dinner."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "訪ねる",
+   "pos": "verb",
+   "read": "たずねる",
+   "ko": "방문하다",
+   "en": "visit",
+   "ex": {
+    "t": "私たちは祖母を訪ねました。",
+    "read": "わたしたちはそぼをたずねました。",
+    "ko": "우리는 할머니를 방문했어요.",
+    "en": "We visited our grandmother."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "掃除する",
+   "pos": "verb",
+   "read": "そうじする",
+   "ko": "청소하다",
+   "en": "clean",
+   "ex": {
+    "t": "彼らは部屋を掃除しました。",
+    "read": "かれらはへやをそうじしました。",
+    "ko": "그들은 방을 청소했어요.",
+    "en": "They cleaned the room."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "遊ぶ",
+   "pos": "verb",
+   "read": "あそぶ",
+   "ko": "(경기를) 하다 · 놀다",
+   "en": "play",
+   "ex": {
+    "t": "子どもたちは公園で遊びました。",
+    "read": "こどもたちはこうえんであそびました。",
+    "ko": "아이들은 공원에서 놀았어요.",
+    "en": "The children played in the park."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "待つ",
+   "pos": "verb",
+   "read": "まつ",
+   "ko": "기다리다",
+   "en": "wait",
+   "ex": {
+    "t": "私はバスを二十分待ちました。",
+    "read": "わたしはバスをにじゅっぷんまちました。",
+    "ko": "저는 버스를 20분 기다렸어요.",
+    "en": "I waited for the bus for twenty minutes."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "やむ",
+   "pos": "verb",
+   "read": "やむ",
+   "ko": "멈추다",
+   "en": "stop",
+   "ex": {
+    "t": "雨は正午にやみました。",
+    "read": "あめはしょうごにやみました。",
+    "ko": "비가 정오에 그쳤어요.",
+    "en": "The rain stopped at noon."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "昨夜",
+   "pos": "adv",
+   "read": "さくや",
+   "ko": "지난밤",
+   "en": "last night",
+   "ex": {
+    "t": "昨夜は遅くまで勉強しました。",
+    "read": "さくやはおそくまでべんきょうしました。",
+    "ko": "지난밤에 저는 늦게까지 공부했어요.",
+    "en": "I studied late last night."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "楽しむ",
+   "pos": "verb",
+   "read": "たのしむ",
+   "ko": "즐기다",
+   "en": "enjoy",
+   "ex": {
+    "t": "私たちはパーティーを楽しみました。",
+    "read": "わたしたちはパーティーをたのしみました。",
+    "ko": "우리는 파티를 즐겼어요.",
+    "en": "We enjoyed the party."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "動詞の過去形：〜ました",
+   "en": "Verb past tense: 〜ました"
+  },
+  "explain": {
+   "ko": "動詞の過去形は「ます」を「ました」に変えて作ります：働きます → 働きました。否定は「ませんでした」です。する動詞は「勉強します → 勉強しました」、来るは「来ます → 来ました」と、どれも同じ形で変わります。",
+   "en": "Make the polite past by changing ます to ました: 働きます → 働きました. The negative is ませんでした. する-verbs (勉強しました) and 来る (来ました) change the same way."
+  },
+  "table": {
+   "head": [
+    "動詞 / Verb",
+    "ます形 / Present",
+    "過去 / Past"
+   ],
+   "rows": [
+    [
+     "働く",
+     "働きます",
+     "働きました"
+    ],
+    [
+     "食べる",
+     "食べます",
+     "食べました"
+    ],
+    [
+     "勉強する",
+     "勉強します",
+     "勉強しました"
+    ],
+    [
+     "待つ",
+     "待ちます",
+     "待ちました"
+    ],
+    [
+     "遊ぶ",
+     "遊びます",
+     "遊びました"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "場所で何かをするときは「で」：公園で遊びました。",
+    "en": "Use で for where an action happens: 公園で遊びました。"
+   },
+   {
+    "ko": "動作の対象は「を」で表します：部屋を掃除しました。",
+    "en": "Mark the object with を: 部屋を掃除しました。"
+   },
+   {
+    "ko": "人に会いに行くときは「〜を訪ねる」「〜に会う」を使います。",
+    "en": "To visit someone use 〜を訪ねる or 〜に会う."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は昨日、働きました。",
+    "read": "わたしはきのう、はたらきました。",
+    "ko": "저는 어제 일했어요.",
+    "en": "I worked yesterday."
+   },
+   {
+    "t": "彼女は夕食を作りました。",
+    "read": "かのじょはゆうしょくをつくりました。",
+    "ko": "그녀는 저녁을 요리했어요.",
+    "en": "She cooked dinner."
+   },
+   {
+    "t": "私たちは先週の日曜日に祖母を訪ねました。",
+    "read": "わたしたちはせんしゅうのにちようびにそぼをたずねました。",
+    "ko": "우리는 지난 일요일에 할머니를 방문했어요.",
+    "en": "We visited our grandmother last Sunday."
+   },
+   {
+    "t": "彼らは公園で遊びました。",
+    "read": "かれらはこうえんであそびました。",
+    "ko": "그들은 공원에서 놀았어요.",
+    "en": "They played in the park."
+   },
+   {
+    "t": "バスは朝八時に止まりました。",
+    "read": "バスはあさはちじにどまりました。",
+    "ko": "버스가 오전 8시에 멈췄어요.",
+    "en": "The bus stopped at eight o'clock."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "彼は昨日、___。",
+    "options": [
+     "働きます",
+     "働きました",
+     "働く"
+    ],
+    "answer": 1,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "私は昨夜、英語を___。",
+    "options": [
+     "勉強します",
+     "勉強する",
+     "勉強しました"
+    ],
+    "answer": 2,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "彼らは公園で___。",
+    "options": [
+     "遊びます",
+     "遊びました",
+     "遊ぶ"
+    ],
+    "answer": 1,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "私たちはパーティーを___。",
+    "options": [
+     "楽しみます",
+     "楽しみました",
+     "楽しむ"
+    ],
+    "answer": 1,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日、何をしましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어제 뭐 했어요?",
+     "en": "(Question) What did you do yesterday?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "部屋を掃除しました。",
+       "学生です。",
+       "金曜日です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今朝、どうやって来ましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 오늘 아침에 어떻게 왔어요?",
+     "en": "(Question) How did you get here this morning?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "バスを待ちました。",
+       "コーヒーが好きです。",
+       "遠いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "週末は楽しかった？"
+      },
+      {
+       "s": "B",
+       "t": "うん。土曜日に部屋を掃除して、日曜日に祖母を訪ねたよ。"
+      },
+      {
+       "s": "A",
+       "t": "おばあさんは何をしてくれたの？"
+      },
+      {
+       "s": "B",
+       "t": "夕食を作ってくれたよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 주말 잘 보냈어?\nB: 응, 토요일에 방을 청소했고 일요일에 할머니를 방문했어.\nA: 할머니는 뭐 하셨어?\nB: 저녁을 요리해 주셨어.",
+     "en": "A: Did you have a good weekend?\nB: Yes. On Saturday I cleaned my room and on Sunday I visited my grandmother.\nA: What did she do?\nB: She cooked dinner for us."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "おばあさんは何をしてくれましたか。",
+      "options": [
+       "部屋を掃除した。",
+       "夕食を作った。",
+       "訪ねて来た。"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日は朝七時から働きました。昼は友達と昼ごはんを食べました。夜は二時間勉強しました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어제 저는 아침 일곱 시에 일했어요. 정오에는 친구와 점심을 먹었어요. 저녁에는 두 시간 공부했어요.",
+     "en": "Yesterday I worked from seven in the morning. At noon I had lunch with a friend. In the evening I studied for two hours."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "話す人は夜に何をしましたか。",
+      "options": [
+       "働きました",
+       "勉強しました",
+       "料理しました"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日は何をしましたか。"
+      },
+      {
+       "s": "B",
+       "t": "バスを待ちました。"
+      },
+      {
+       "s": "A",
+       "t": "どのくらいですか。"
+      },
+      {
+       "s": "B",
+       "t": "二十分待ちました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 어제 뭐 하셨어요?\n손님: 버스를 기다렸어요.\n직원: 얼마나요?\n손님: 20분 기다렸어요.",
+     "en": "Clerk: What did you do yesterday?\nCustomer: I waited for a bus.\nClerk: For how long?\nCustomer: I waited for twenty minutes."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "したこと: ______を待ちました",
+      "answers": [
+       "バス"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "時間: ______分",
+      "answers": [
+       "二十"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 彼は昨日、___。\n2) 私たちは先週の日曜日に祖母を___。\n3) 彼らは公園で___。",
+    "trans": {
+     "ko": "1) 그는 어제 일했어요. 2) 우리는 지난 일요일에 할머니를 방문했어요. 3) 그들은 공원에서 놀았어요.",
+     "en": "1) He worked yesterday. 2) We visited our grandmother last Sunday. 3) They played in the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "彼は昨日、___。",
+      "options": [
+       "働きます",
+       "働きました",
+       "働く"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "私たちは先週の日曜日に祖母を___。",
+      "options": [
+       "訪ねる",
+       "訪ねます",
+       "訪ねました"
+      ],
+      "answer": 2
+     },
+     {
+      "type": "mc",
+      "q": "彼らは公園で___。",
+      "options": [
+       "遊びます",
+       "遊びました",
+       "遊ぶ"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは、スー！昨日、部屋を(1)。午後は(2)、夜は英語を勉強しました。本当に(3)！",
+    "trans": {
+     "ko": "안녕, 수! 어제 나는 방을 청소했어. 오후에는 요리했고, 저녁에는 영어를 공부했어. 정말 바빴어!",
+     "en": "Hi Sue! Yesterday I cleaned my room. In the afternoon I cooked, and in the evening I studied English. I was so busy!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "掃除します",
+       "掃除しました",
+       "掃除する"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "料理します",
+       "料理しました",
+       "料理する"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "忙しかったです",
+       "忙しいです",
+       "忙しでした"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "メモ\n月曜日：働いた\n火曜日：料理した\n水曜日：祖母を訪ねた",
+    "trans": {
+     "ko": "메모\n월요일: 일했다\n화요일: 요리했다\n수요일: 할머니를 방문했다",
+     "en": "NOTES\nMonday: worked\nTuesday: cooked\nWednesday: visited grandmother"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "火曜日に何をしましたか。",
+      "options": [
+       "働きました",
+       "料理しました",
+       "訪ねました"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "祖母をいつ訪ねましたか。",
+      "options": [
+       "月曜日",
+       "火曜日",
+       "水曜日"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ミンホさんは昨日、料理しました。パスタを作りました。友達が二人、夕食を食べに来ました。",
+    "trans": {
+     "ko": "민호는 어제 요리했어요. 그는 파스타를 만들었어요. 그의 친구 두 명이 저녁을 먹으러 왔어요.",
+     "en": "Minho cooked yesterday. He made pasta. Two of his friends came for dinner."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ミンホさんはパスタを作りました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ミンホさんは土曜日に料理しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     },
+     {
+      "type": "tfng",
+      "q": "友達が三人、夕食を食べに来ました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "昨日、何をしましたか。",
+    "read": "きのう、なにをしましたか。",
+    "ko": "어제 뭐 했어요?",
+    "en": "What did you do yesterday?",
+    "situation": {
+     "ko": "어제 한 일을 물을 때",
+     "en": "Asking about yesterday"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "部屋を掃除しました。",
+    "read": "へやをそうじしました。",
+    "ko": "저는 방을 청소했어요.",
+    "en": "I cleaned my room.",
+    "situation": {
+     "ko": "한 일을 말할 때",
+     "en": "Saying what you did"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "祖母を訪ねました。",
+    "read": "そぼをたずねました。",
+    "ko": "저는 어젯밤에 공부했어요.",
+    "en": "I studied last night.",
+    "situation": {
+     "ko": "공부했다고 말할 때",
+     "en": "Saying you studied"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "夕食を作りました。",
+    "read": "ゆうしょくをつくりました。",
+    "ko": "우리는 친구들과 놀았어요.",
+    "en": "We played with our friends.",
+    "situation": {
+     "ko": "누구와 놀았는지 말할 때",
+     "en": "Saying who you played with"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "公園で遊びました。",
+    "read": "こうえんであそびました。",
+    "ko": "저는 버스를 20분 기다렸어요.",
+    "en": "I waited for the bus for twenty minutes.",
+    "situation": {
+     "ko": "기다린 시간을 말할 때",
+     "en": "Saying how long you waited"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "バスを二十分待ちました。",
+    "read": "バスをにじゅっぷんまちました。",
+    "ko": "파티는 즐거웠어요.",
+    "en": "We enjoyed the party.",
+    "situation": {
+     "ko": "즐거웠다고 말할 때",
+     "en": "Saying you enjoyed it"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "昨夜、勉強しました。",
+    "read": "さくや、べんきょうしました。",
+    "ko": "저는 어제 일하지 않았어요.",
+    "en": "I didn't work yesterday.",
+    "situation": {
+     "ko": "하지 않았다고 말할 때",
+     "en": "Saying you didn't do something"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "パーティーを楽しみました。",
+    "read": "パーティーをたのしみました。",
+    "ko": "그녀는 저녁을 요리했어요.",
+    "en": "She cooked dinner.",
+    "situation": {
+     "ko": "누가 한 일을 말할 때",
+     "en": "Saying what someone did"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "先週末、私は〜ました。",
+    "read": "せんしゅうまつ、わたしは〜ました。",
+    "ko": "저는 어제 ~했어요.",
+    "en": "Yesterday I ~ed."
+   },
+   {
+    "id": "w2",
+    "t": "日曜日に〜を訪ねました。",
+    "read": "にちようびに〜をたずねました。",
+    "ko": "우리는 ~를 방문했어요.",
+    "en": "We visited ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜も〜ました。",
+    "read": "〜も〜ました。",
+    "ko": "그녀는 ~를 요리했어요.",
+    "en": "She cooked ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜で〜ました。",
+    "read": "〜で〜ました。",
+    "ko": "저는 ~하지 않았어요.",
+    "en": "I didn't ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "지난 주말에 한 일 세 가지를 쓰세요. 규칙 과거(-ed) 동사를 쓰세요.",
+    "en": "Write three things you did last weekend. Use regular past verbs (-ed)."
+   },
+   "must_include": [
+    {
+     "label": "先週末、〜ました",
+     "match": [
+      "先週末"
+     ]
+    },
+    {
+     "label": "〜を掃除/訪ねました",
+     "match": [
+      "掃除しました",
+      "訪ねました"
+     ]
+    },
+    {
+     "label": "〜も〜ました",
+     "match": [
+      "も"
+     ]
+    }
+   ],
+   "model": "先週末、私は部屋を掃除しました。日曜日に祖母を訪ねました。夕食も作りました。",
+   "model_trans": {
+    "ko": "지난 주말에 저는 방을 청소했어요. 일요일에는 할머니를 방문했어요. 저는 요리도 했어요.",
+    "en": "Last weekend I cleaned my room. On Sunday I visited my grandmother. I also cooked dinner."
+   }
+  }
+ }
+}

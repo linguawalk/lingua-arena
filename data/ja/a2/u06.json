@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "ja_a2_u06",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 6,
+  "concept": "A2.U06",
+  "status": "live",
+  "title": {
+   "target": "予測と申し出",
+   "ko": "예측과 제안",
+   "en": "Predictions and offers"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "〜ましょうか",
+   "pos": "aux",
+   "read": "〜ましょうか",
+   "ko": "~할 것이다",
+   "en": "will",
+   "ex": {
+    "t": "私が手伝いましょうか。",
+    "read": "わたしがてつだいましょうか。",
+    "ko": "제가 도와드릴게요.",
+    "en": "I will help you."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜ないでしょう",
+   "pos": "aux",
+   "read": "〜ないでしょう",
+   "ko": "~하지 않을 것이다",
+   "en": "won't",
+   "ex": {
+    "t": "彼は来ないでしょう。",
+    "read": "かれはこないでしょう。",
+    "ko": "그는 오지 않을 거예요.",
+    "en": "He won't come."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "たぶん",
+   "pos": "adv",
+   "read": "たぶん",
+   "ko": "아마",
+   "en": "probably",
+   "ex": {
+    "t": "たぶん明日は雨でしょう。",
+    "read": "たぶんあしたはあめでしょう。",
+    "ko": "아마 내일 비가 올 거예요.",
+    "en": "It will probably rain tomorrow."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜と思う",
+   "pos": "phrase",
+   "read": "〜とおもう",
+   "ko": "~인 것 같다",
+   "en": "I think",
+   "ex": {
+    "t": "おもしろいと思います。",
+    "read": "おもしろいとおもいます。",
+    "ko": "저는 그게 재미있을 거라고 생각해요.",
+    "en": "I think it will be fun."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "約束する",
+   "pos": "verb",
+   "read": "やくそくする",
+   "ko": "약속하다",
+   "en": "promise",
+   "ex": {
+    "t": "遅れないと約束します。",
+    "read": "おくれないとやくそくします。",
+    "ko": "저는 늦지 않겠다고 약속해요.",
+    "en": "I promise I won't be late."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "手伝う",
+   "pos": "verb",
+   "read": "てつだう",
+   "ko": "돕다",
+   "en": "help",
+   "ex": {
+    "t": "私が手伝います。",
+    "read": "わたしがてつだいます。",
+    "ko": "제가 도와드릴게요.",
+    "en": "I'll help you."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "持つ",
+   "pos": "verb",
+   "read": "もつ",
+   "ko": "나르다 · 들다",
+   "en": "carry",
+   "ex": {
+    "t": "私が荷物を持ちます。",
+    "read": "わたしがにもつをもちます。",
+    "ko": "제가 가방을 들어 드릴게요.",
+    "en": "I'll carry your bag."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "ドア",
+   "pos": "noun",
+   "read": "ドア",
+   "ko": "문",
+   "en": "door",
+   "ex": {
+    "t": "ドアを開けましょうか。",
+    "read": "ドアをあけましょうか。",
+    "ko": "제가 문을 열어 드릴게요.",
+    "en": "I'll open the door."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "暑い",
+   "pos": "adj",
+   "read": "あつい",
+   "ko": "더운",
+   "en": "hot",
+   "ex": {
+    "t": "明日は暑いでしょう。",
+    "read": "あしたはあついでしょう。",
+    "ko": "내일은 더울 거예요.",
+    "en": "It will be hot tomorrow."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "雨",
+   "pos": "noun",
+   "read": "あめ",
+   "ko": "비",
+   "en": "rain",
+   "ex": {
+    "t": "今夜は雨でしょう。",
+    "read": "こんやはあめでしょう。",
+    "ko": "오늘 밤에는 비가 올 거예요.",
+    "en": "There will be rain tonight."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜でしょう・〜ましょうか・約束の「〜ます」",
+   "en": "〜でしょう / 〜ましょうか / promises with 〜ます"
+  },
+  "explain": {
+   "ko": "予測は「〜でしょう」「〜と思います」で言います：明日は暑いでしょう。申し出は「〜ましょうか」：ドアを開けましょうか。自分がすると決めたときや約束は「私が〜ます」：私が手伝います。「たぶん」をつけると、自信が少し低くなります。",
+   "en": "Predict with 〜でしょう or 〜と思います: 明日は暑いでしょう. Offer with 〜ましょうか: ドアを開けましょうか。 Promise or volunteer with 私が〜ます: 私が手伝います。 たぶん makes a prediction less certain."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "用途 / Use",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜でしょう",
+     "予測 / prediction",
+     "明日は暑いでしょう。"
+    ],
+    [
+     "〜ましょうか",
+     "申し出 / offer",
+     "ドアを開けましょうか。"
+    ],
+    [
+     "私が〜ます",
+     "約束・申し出",
+     "私が手伝います。"
+    ],
+    [
+     "たぶん〜でしょう",
+     "自信の低い予測",
+     "彼はたぶん遅れるでしょう。"
+    ],
+    [
+     "〜ないでしょう",
+     "否定の予測",
+     "彼は来ないでしょう。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜ましょうか」は相手のためにすると申し出るときに使います。",
+    "en": "「〜ましょうか」 offers to do something for the listener."
+   },
+   {
+    "ko": "友達には「〜よ」「〜ね」をつけて、やわらかく言います：手伝うよ。",
+    "en": "To friends add よ / ね to soften: 手伝うよ。"
+   },
+   {
+    "ko": "「〜と思います」は自分の考えを言うときに使います。",
+    "en": "「〜と思います」 gives your own opinion."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私が手伝います。",
+    "read": "わたしがてつだいます。",
+    "ko": "제가 도와드릴게요.",
+    "en": "I'll help you."
+   },
+   {
+    "t": "明日は暑いでしょう。",
+    "read": "あしたはあついでしょう。",
+    "ko": "내일은 더울 거예요.",
+    "en": "It will be hot tomorrow."
+   },
+   {
+    "t": "彼はたぶん遅れるでしょう。",
+    "read": "かれはたぶんおくれるでしょう。",
+    "ko": "그는 아마 늦을 거예요.",
+    "en": "He will probably be late."
+   },
+   {
+    "t": "私は遅れないと約束します。",
+    "read": "わたしはおくれないとやくそくします。",
+    "ko": "저는 늦지 않을 거예요.",
+    "en": "I won't be late."
+   },
+   {
+    "t": "ドアを開けましょうか。",
+    "read": "ドアをあけましょうか。",
+    "ko": "제가 문을 열어 드릴까요?",
+    "en": "Shall I open the door?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私が手伝い___。",
+    "options": [
+     "ます",
+     "ました",
+     "ません"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "明日は暑い___。",
+    "options": [
+     "でしょう",
+     "でした",
+     "ます"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "彼は___遅れるでしょう。",
+    "options": [
+     "たぶん",
+     "まだ",
+     "もう"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "ドアを開け___か。",
+    "options": [
+     "ました",
+     "ましょう",
+     "ません"
+    ],
+    "answer": 1,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "かばんが重いです。手伝ってくれますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 가방이 너무 무거워요. 도와줄래요?",
+     "en": "(Question) My bag is very heavy. Can you help me?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "持ちましょうか。",
+       "持ちました。",
+       "持っています。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明日の天気はどうですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 내일 날씨는 어떨까요?",
+     "en": "(Question) What will the weather be like tomorrow?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "暑いでしょう。",
+       "暑かったです。",
+       "暑い日です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この箱、すごく重いんだ。"
+      },
+      {
+       "s": "B",
+       "t": "手伝うよ。ドアも開けるね。"
+      },
+      {
+       "s": "A",
+       "t": "ありがとう！遅れないって約束するよ。"
+      },
+      {
+       "s": "B",
+       "t": "大丈夫、心配しないで。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 상자들이 너무 무거워.\nB: 내가 도와줄게. 문도 열어 줄게.\nA: 고마워! 늦지 않을 거라고 약속할게.\nB: 괜찮아, 걱정하지 마.",
+     "en": "A: These boxes are so heavy.\nB: I'll help you. I'll open the door too.\nA: Thanks! I promise I won't be late.\nB: That's fine, don't worry."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女の人は何を約束しましたか。",
+      "options": [
+       "忘れない",
+       "遅れない",
+       "昼ごはんをおごる"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明日の天気をお知らせします。朝は晴れるでしょう。午後は暑くなるでしょう。夕方はたぶん雨になるでしょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "내일 날씨를 알려 드릴게요. 아침에는 맑을 거예요. 오후에는 더울 거예요. 저녁에는 아마 비가 올 거예요.",
+     "en": "Here is tomorrow's weather. It will be sunny in the morning. It will be hot in the afternoon. In the evening it will probably rain."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "夕方の天気はどうですか。",
+      "options": [
+       "晴れ",
+       "暑い",
+       "雨"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "お荷物をお持ちしましょうか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、ありがとうございます。"
+      },
+      {
+       "s": "A",
+       "t": "お部屋は三階です。エレベーターは左にあります。"
+      },
+      {
+       "s": "B",
+       "t": "ありがとうございます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 가방을 들어 드릴까요?\n손님: 네, 감사합니다.\n직원: 방은 3층이에요. 엘리베이터는 왼쪽에 있어요.\n손님: 감사합니다.",
+     "en": "Clerk: Shall I carry your bag?\nCustomer: Yes, thank you.\nClerk: Your room is on the third floor. The lift is on the left.\nCustomer: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "部屋: ______階",
+      "answers": [
+       "三"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "エレベーター: ______にあります",
+      "answers": [
+       "左"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私が手伝い___。\n2) 明日は暑い___。\n3) 彼は___遅れるでしょう。",
+    "trans": {
+     "ko": "1) 제가 도와드릴게요. 2) 내일은 더울 거예요. 3) 그는 아마 늦을 거예요.",
+     "en": "1) I will help you. 2) It will be hot tomorrow. 3) He will probably be late."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私が手伝い___。",
+      "options": [
+       "ます",
+       "ました",
+       "ません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "明日は暑い___。",
+      "options": [
+       "でしょう",
+       "でした",
+       "ます"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼は___遅れるでしょう。",
+      "options": [
+       "たぶん",
+       "まだ",
+       "もう"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは、トム！心配しないで。明日、私が(1)。かばんも持ちます。(2)雨でしょう。傘を(3)！",
+    "trans": {
+     "ko": "안녕, 톰! 걱정하지 마. 내일 내가 도와줄게. 가방도 들어 줄게. 아마 비가 올 거야. 우산 가져와!",
+     "en": "Hi Tom! Don't worry. Tomorrow I will help you. I'll carry your bag too. It will probably rain. Bring an umbrella!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "手伝います",
+       "手伝いました",
+       "手伝いません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "たぶん",
+       "まだ",
+       "もう"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "持ってきてね",
+       "持ってきたよ",
+       "持ってきません"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "天気予報\n午前：晴れ\n午後：暑い\n夕方：雨",
+    "trans": {
+     "ko": "일기예보\n오전: 맑음\n오후: 더움\n저녁: 비",
+     "en": "WEATHER\nMorning: sunny\nAfternoon: hot\nEvening: rain"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "午後の天気はどうですか。",
+      "options": [
+       "晴れ",
+       "暑い",
+       "雨"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "いつ雨が降りますか。",
+      "options": [
+       "午前",
+       "午後",
+       "夕方"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "リナさんは明日、引っ越します。友達が箱を運んでくれます。みんな十時に来ます。",
+    "trans": {
+     "ko": "리나는 내일 이사를 합니다. 그녀의 친구들이 상자를 들어 줄 거예요. 모두 열 시에 올 거예요.",
+     "en": "Lina is moving house tomorrow. Her friends will carry the boxes. Everyone will come at ten o'clock."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "リナさんは明日、引っ越します。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "友達は九時に来ます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "リナさんの新しい家は大きいです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "私が手伝います。",
+    "read": "わたしがてつだいます。",
+    "ko": "제가 도와드릴게요.",
+    "en": "I'll help you.",
+    "situation": {
+     "ko": "도움을 제안할 때",
+     "en": "Offering to help"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "荷物を持ちましょうか。",
+    "read": "にもつをもちましょうか。",
+    "ko": "제가 가방을 들어 드릴게요.",
+    "en": "I'll carry your bag.",
+    "situation": {
+     "ko": "짐을 들어 준다고 할 때",
+     "en": "Offering to carry something"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "明日は暑いでしょう。",
+    "read": "あしたはあついでしょう。",
+    "ko": "제가 문을 열어 드릴까요?",
+    "en": "Shall I open the door?",
+    "situation": {
+     "ko": "공손하게 제안할 때",
+     "en": "Making a polite offer"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "たぶん雨が降るでしょう。",
+    "read": "たぶんあめがふるでしょう。",
+    "ko": "내일은 더울 것 같아요.",
+    "en": "I think it will be hot tomorrow.",
+    "situation": {
+     "ko": "날씨를 예측할 때",
+     "en": "Predicting the weather"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "おもしろいと思います。",
+    "read": "おもしろいとおもいます。",
+    "ko": "아마 비가 올 거예요.",
+    "en": "It will probably rain.",
+    "situation": {
+     "ko": "가능성을 말할 때",
+     "en": "Saying what is likely"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "遅れないと約束します。",
+    "read": "おくれないとやくそくします。",
+    "ko": "늦지 않겠다고 약속해요.",
+    "en": "I promise I won't be late.",
+    "situation": {
+     "ko": "약속할 때",
+     "en": "Making a promise"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "彼は来ないでしょう。",
+    "read": "かれはこないでしょう。",
+    "ko": "전화는 제가 받을게요.",
+    "en": "I'll answer the phone.",
+    "situation": {
+     "ko": "즉석에서 결정할 때",
+     "en": "Deciding on the spot"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "ドアを開けましょうか。",
+    "read": "ドアをあけましょうか。",
+    "ko": "걱정하지 마세요, 괜찮을 거예요.",
+    "en": "Don't worry, it will be fine.",
+    "situation": {
+     "ko": "안심시킬 때",
+     "en": "Reassuring someone"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "明日はたぶん〜でしょう。",
+    "read": "あしたはたぶん〜でしょう。",
+    "ko": "제가 ~할게요.",
+    "en": "I'll ~."
+   },
+   {
+    "id": "w2",
+    "t": "私が〜ます。",
+    "read": "わたしが〜ます。",
+    "ko": "아마 ~일 거예요.",
+    "en": "It will probably be ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜と約束します。",
+    "read": "〜とやくそくします。",
+    "ko": "저는 ~하지 않을 거예요.",
+    "en": "I won't ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜と思います。",
+    "read": "〜とおもいます。",
+    "ko": "~할까요?",
+    "en": "Shall I ~?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "내일 날씨를 예측하는 문장 하나, 친구를 돕겠다는 문장 하나, 약속 하나를 쓰세요.",
+    "en": "Write one prediction about tomorrow's weather, one offer to help a friend and one promise."
+   },
+   "must_include": [
+    {
+     "label": "明日は〜でしょう",
+     "match": [
+      "でしょう"
+     ]
+    },
+    {
+     "label": "私が〜ます",
+     "match": [
+      "私が"
+     ]
+    },
+    {
+     "label": "〜と約束します",
+     "match": [
+      "約束"
+     ]
+    }
+   ],
+   "model": "明日はたぶん暑いでしょう。私が荷物を持ちます。遅れないと約束します。",
+   "model_trans": {
+    "ko": "내일은 아마 더울 거예요. 제가 가방을 들어 드릴게요. 저는 늦지 않겠다고 약속해요.",
+    "en": "Tomorrow it will probably be hot. I'll carry your bag. I promise I won't be late."
+   }
+  }
+ }
+}

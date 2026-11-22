@@ -1,0 +1,840 @@
+{
+ "meta": {
+  "id": "ja_a2_u12",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 12,
+  "concept": "A2.U12",
+  "status": "live",
+  "title": {
+   "target": "能力と規則",
+   "ko": "능력과 규칙",
+   "en": "Ability and rules"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "泳げる",
+   "pos": "modal",
+   "read": "およげる",
+   "ko": "~할 수 있다",
+   "en": "can",
+   "ex": {
+    "t": "私は泳げます。",
+    "read": "わたしはおよげます。",
+    "ko": "저는 수영을 할 수 있어요.",
+    "en": "I can swim."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "運転できない",
+   "pos": "modal",
+   "read": "うんてんできない",
+   "ko": "~할 수 없다",
+   "en": "can't",
+   "ex": {
+    "t": "彼は運転できません。",
+    "read": "かれはうんてんできません。",
+    "ko": "그는 운전을 못 해요.",
+    "en": "He can't drive."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "泳げた",
+   "pos": "modal",
+   "read": "およげた",
+   "ko": "~할 수 있었다",
+   "en": "could",
+   "ex": {
+    "t": "子どものとき、泳げました。",
+    "read": "こどものとき、およげました。",
+    "ko": "저는 어릴 때 수영을 할 수 있었어요.",
+    "en": "I could swim when I was young."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜なければならない",
+   "pos": "modal",
+   "read": "〜なければならない",
+   "ko": "~해야 한다",
+   "en": "must",
+   "ex": {
+    "t": "静かにしなければなりません。",
+    "read": "しずかにしなければなりません。",
+    "ko": "우리는 조용히 해야 해요.",
+    "en": "We must be quiet."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜てはいけない",
+   "pos": "modal",
+   "read": "〜てはいけない",
+   "ko": "~해서는 안 된다",
+   "en": "mustn't",
+   "ex": {
+    "t": "ここでタバコを吸ってはいけません。",
+    "read": "ここでタバコをすってはいけません。",
+    "ko": "여기서 담배를 피우면 안 돼요.",
+    "en": "You mustn't smoke here."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "早く起きる",
+   "pos": "phrase",
+   "read": "はやくおきる",
+   "ko": "~해야 한다 (규칙·필요)",
+   "en": "have to",
+   "ex": {
+    "t": "明日は早く起きなければなりません。",
+    "read": "あしたははやくおきなければなりません。",
+    "ko": "저는 내일 일찍 일어나야 해요.",
+    "en": "I have to get up early tomorrow."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "〜なくてもいい",
+   "pos": "phrase",
+   "read": "〜なくてもいい",
+   "ko": "~할 필요가 없다",
+   "en": "don't have to",
+   "ex": {
+    "t": "日曜日は働かなくてもいいです。",
+    "read": "にちようびははたらかなくてもいいです。",
+    "ko": "일요일에는 일할 필요가 없어요.",
+    "en": "I don't have to work on Sundays."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "規則",
+   "pos": "noun",
+   "read": "きそく",
+   "ko": "규칙",
+   "en": "rule",
+   "ex": {
+    "t": "これは学校の規則です。",
+    "read": "これはがっこうのきそくです。",
+    "ko": "이것은 학교 규칙이에요.",
+    "en": "This is a school rule."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "〜てもいい",
+   "pos": "adj",
+   "read": "〜てもいい",
+   "ko": "허락된",
+   "en": "allowed",
+   "ex": {
+    "t": "ここで写真を撮ってもいいです。",
+    "read": "ここでしゃしんをとってもいいです。",
+    "ko": "여기서 사진을 찍어도 돼요.",
+    "en": "You are allowed to take photos here."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "能力",
+   "pos": "noun",
+   "read": "のうりょく",
+   "ko": "능력",
+   "en": "ability",
+   "ex": {
+    "t": "彼は歌う能力があります。",
+    "read": "かれはうたうのうりょくがあります。",
+    "ko": "그에게는 노래하는 능력이 있어요.",
+    "en": "He has the ability to sing."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜ことができます・〜なければなりません・〜てはいけません",
+   "en": "〜ことができます / 〜なければなりません / 〜てはいけません"
+  },
+  "explain": {
+   "ko": "できることは「〜ことができます」か、動詞の可能形で言います：泳ぐことができます／泳げます。しなければならないことは「〜なければなりません」、してはいけないことは「〜てはいけません」、許可は「〜てもいいです」、必要がないことは「〜なくてもいいです」です。",
+   "en": "Ability is 〜ことができます or the potential form: 泳ぐことができます / 泳げます. Obligation is 〜なければなりません, prohibition 〜てはいけません, permission 〜てもいいです, and 'not necessary' 〜なくてもいいです."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜ことができます",
+     "能力 / ability",
+     "私は泳ぐことができます。"
+    ],
+    [
+     "〜なければなりません",
+     "義務 / obligation",
+     "シャワーを浴びなければなりません。"
+    ],
+    [
+     "〜てはいけません",
+     "禁止 / prohibition",
+     "走ってはいけません。"
+    ],
+    [
+     "〜てもいいです",
+     "許可 / permission",
+     "写真を撮ってもいいです。"
+    ],
+    [
+     "〜なくてもいいです",
+     "不要 / not necessary",
+     "かぶらなくてもいいです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜てはいけません」と「〜なくてもいいです」は意味がまったく違います。",
+    "en": "「〜てはいけません」 and 「〜なくてもいいです」 mean very different things."
+   },
+   {
+    "ko": "許可を求めるときは「〜てもいいですか」を使います。",
+    "en": "Ask permission with 〜てもいいですか。"
+   },
+   {
+    "ko": "過去の能力は「〜ことができました」「泳げました」です。",
+    "en": "Past ability is 〜ことができました / 泳げました."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は泳ぐことができます。",
+    "read": "わたしはおよぐことができます。",
+    "ko": "저는 수영을 할 수 있어요.",
+    "en": "I can swim."
+   },
+   {
+    "t": "彼は運転できません。",
+    "read": "かれはうんてんできません。",
+    "ko": "그는 운전을 못 해요.",
+    "en": "He can't drive."
+   },
+   {
+    "t": "私たちは静かにしなければなりません。",
+    "read": "わたしたちはしずかにしなければなりません。",
+    "ko": "우리는 조용히 해야 해요.",
+    "en": "We must be quiet."
+   },
+   {
+    "t": "ここでタバコを吸ってはいけません。",
+    "read": "ここでタバコをすってはいけません。",
+    "ko": "여기서 담배를 피우면 안 돼요.",
+    "en": "You mustn't smoke here."
+   },
+   {
+    "t": "私は明日、早く起きなければなりません。",
+    "read": "わたしはあした、はやくおきなければなりません。",
+    "ko": "저는 내일 일찍 일어나야 해요.",
+    "en": "I have to get up early tomorrow."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私は泳ぐ___ができます。",
+    "options": [
+     "こと",
+     "もの",
+     "ところ"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "ここで走っ___いけません。",
+    "options": [
+     "ては",
+     "ても",
+     "たら"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "私は明日、早く起き___。",
+    "options": [
+     "なければなりません",
+     "てはいけません",
+     "なくてもいいです"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "日曜日は働か___いいです。",
+    "options": [
+     "なくても",
+     "なければ",
+     "ないで"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "泳げますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 수영할 수 있어요?",
+     "en": "(Question) Can you swim?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、泳げます。",
+       "はい、泳ぎました。",
+       "はい、泳いでいます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ここで写真を撮ってもいいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 여기서 사진을 찍어도 돼요?",
+     "en": "(Question) Can I take photos here?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、いいですよ。",
+       "はい、撮りました。",
+       "はい、撮っています。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このプールのルールは何ですか。"
+      },
+      {
+       "s": "B",
+       "t": "シャワーを浴びなければなりません。それから、走ってはいけません。"
+      },
+      {
+       "s": "A",
+       "t": "水泳帽をかぶらなければなりませんか。"
+      },
+      {
+       "s": "B",
+       "t": "いいえ、かぶらなくてもいいです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 수영장 규칙이 뭐예요?\nB: 샤워를 해야 해요. 그리고 뛰면 안 돼요.\nA: 수영모를 써야 해요?\nB: 아니요, 쓸 필요는 없어요.",
+     "en": "A: What are the rules at this pool?\nB: You have to take a shower. And you mustn't run.\nA: Do I have to wear a swimming cap?\nB: No, you don't have to."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "プールでしてはいけないことは何ですか。",
+      "options": [
+       "シャワー",
+       "走ること",
+       "泳ぐこと"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この博物館では、写真を撮ってもいいです。でも、食べ物を食べてはいけません。かばんは入り口に預けなければなりません。学生は切符を買わなくてもいいです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 박물관에서는 사진을 찍어도 돼요. 하지만 음식을 먹으면 안 돼요. 가방은 입구에서 맡겨야 해요. 학생은 표를 살 필요가 없어요.",
+     "en": "In this museum you can take photos. But you mustn't eat food. You have to leave your bag at the entrance. Students don't have to buy a ticket."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "切符を買わなくてもいい人はだれですか。",
+      "options": [
+       "みんな",
+       "学生",
+       "先生"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "泳げますか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、泳げます。"
+      },
+      {
+       "s": "A",
+       "t": "では、深いプールで泳いでもいいですよ。"
+      },
+      {
+       "s": "B",
+       "t": "ありがとうございます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 수영을 할 수 있으세요?\n손님: 네, 할 수 있어요.\n직원: 그럼 깊은 수영장에서 수영하셔도 돼요.\n손님: 감사합니다.",
+     "en": "Clerk: Can you swim?\nCustomer: Yes, I can.\nClerk: Then you can swim in the deep pool.\nCustomer: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "泳げますか: ______",
+      "answers": [
+       "はい"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "深い______で泳いでもいいです",
+      "answers": [
+       "プール"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は泳ぐ___ができます。\n2) 私たちは静かにし___。\n3) 私は明日、早く起き___。",
+    "trans": {
+     "ko": "1) 저는 수영을 할 수 있어요. 2) 우리는 조용히 해야 해요. 3) 저는 내일 일찍 일어나야 해요.",
+     "en": "1) I can swim. 2) We must be quiet. 3) I have to get up early tomorrow."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は泳ぐ___ができます。",
+      "options": [
+       "こと",
+       "もの",
+       "ところ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私たちは静かにし___。",
+      "options": [
+       "なければなりません",
+       "てはいけません",
+       "なくてもいいです"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私は明日、早く起き___。",
+      "options": [
+       "てもいいです",
+       "なければなりません",
+       "なくてもいいです"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは、トム！この図書館は最高です。本を借り(1)。でも、大きな声で話し(2)。二週間で返さ(3)。",
+    "trans": {
+     "ko": "안녕, 톰! 이 도서관은 정말 좋아. 책을 빌릴 수 있어. 하지만 큰 소리로 이야기하면 안 돼. 반납은 2주 안에 해야 해.",
+     "en": "Hi Tom! This library is great. You can borrow books. But you mustn't talk loudly. You have to return them within two weeks."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "てもいいです",
+       "てはいけません",
+       "なくてもいいです"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "てもいいです",
+       "てはいけません",
+       "なくてもいいです"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "なければなりません",
+       "てはいけません",
+       "なくてもいいです"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "プールのルール\nシャワーを浴びなければなりません。\n走ってはいけません。\n水泳帽はかぶらなくてもいいです。",
+    "trans": {
+     "ko": "수영장 규칙\n샤워를 해야 합니다.\n뛰면 안 됩니다.\n수영모는 쓰지 않아도 됩니다.",
+     "en": "POOL RULES\nYou must take a shower.\nYou mustn't run.\nYou don't have to wear a cap."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "しなければならないことは何ですか。",
+      "options": [
+       "走ること",
+       "シャワーを浴びること",
+       "水泳帽をかぶること"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "しなくてもいいことは何ですか。",
+      "options": [
+       "シャワーを浴びること",
+       "水泳帽をかぶること",
+       "静かにすること"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "その博物館では写真を撮ってもいいです。食べ物は食べてはいけません。子どもは切符を買わなくてもいいです。",
+    "trans": {
+     "ko": "그 박물관에서는 사진을 찍어도 돼요. 음식은 먹으면 안 돼요. 어린이는 표를 살 필요가 없어요.",
+     "en": "In the museum you can take photos. You mustn't eat food. Children don't have to buy a ticket."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "その博物館では写真を撮ってもいいです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "子どもは切符を買わなければなりません。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "その博物館は月曜日が休みです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "泳げますか。",
+    "read": "およげますか。",
+    "ko": "수영할 수 있어요?",
+    "en": "Can you swim?",
+    "situation": {
+     "ko": "능력을 물을 때",
+     "en": "Asking about ability"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "ピアノが弾けます。",
+    "read": "ピアノがひけます。",
+    "ko": "저는 피아노를 칠 수 있어요.",
+    "en": "I can play the piano.",
+    "situation": {
+     "ko": "할 수 있는 것을 말할 때",
+     "en": "Saying what you can do"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "ここで写真を撮ってもいいですか。",
+    "read": "ここでしゃしんをとってもいいですか。",
+    "ko": "여기서 사진을 찍어도 돼요?",
+    "en": "Can I take photos here?",
+    "situation": {
+     "ko": "허락을 구할 때",
+     "en": "Asking for permission"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "ここで走ってはいけません。",
+    "read": "ここではしってはいけません。",
+    "ko": "여기서 뛰면 안 돼요.",
+    "en": "You mustn't run here.",
+    "situation": {
+     "ko": "금지할 때",
+     "en": "Saying something is forbidden"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "靴を脱がなければなりません。",
+    "read": "くつをぬがなければなりません。",
+    "ko": "신발을 벗어야 해요.",
+    "en": "You have to take off your shoes.",
+    "situation": {
+     "ko": "규칙을 알려 줄 때",
+     "en": "Explaining a rule"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "明日は働かなくてもいいです。",
+    "read": "あしたははたらかなくてもいいです。",
+    "ko": "내일은 일할 필요가 없어요.",
+    "en": "I don't have to work tomorrow.",
+    "situation": {
+     "ko": "필요 없다고 말할 때",
+     "en": "Saying it isn't necessary"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "子どものとき、泳げました。",
+    "read": "こどものとき、およげました。",
+    "ko": "저는 어릴 때 수영을 할 수 있었어요.",
+    "en": "I could swim when I was young.",
+    "situation": {
+     "ko": "과거의 능력을 말할 때",
+     "en": "Talking about past ability"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "ルールは何ですか。",
+    "read": "ルールはなんですか。",
+    "ko": "규칙이 뭐예요?",
+    "en": "What are the rules?",
+    "situation": {
+     "ko": "규칙을 물을 때",
+     "en": "Asking about rules"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "私は〜ことができます。",
+    "read": "わたしは〜ことができます。",
+    "ko": "저는 ~할 수 있어요.",
+    "en": "I can ~."
+   },
+   {
+    "id": "w2",
+    "t": "ここで〜てはいけません。",
+    "read": "ここで〜てはいけません。",
+    "ko": "~하면 안 돼요.",
+    "en": "You mustn't ~."
+   },
+   {
+    "id": "w3",
+    "t": "私は〜なければなりません。",
+    "read": "わたしは〜なければなりません。",
+    "ko": "저는 ~해야 해요.",
+    "en": "I have to ~."
+   },
+   {
+    "id": "w4",
+    "t": "私は〜なくてもいいです。",
+    "read": "わたしは〜なくてもいいです。",
+    "ko": "~할 필요가 없어요.",
+    "en": "I don't have to ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "내가 할 수 있는 것 한 가지, 해야 하는 일 한 가지, 하지 않아도 되는 일 한 가지를 쓰세요.",
+    "en": "Write one thing you can do, one thing you have to do and one thing you don't have to do."
+   },
+   "must_include": [
+    {
+     "label": "私は〜ことができます / 〜れます",
+     "match": [
+      "できます",
+      "弾けます",
+      "泳げます"
+     ]
+    },
+    {
+     "label": "私は〜なければなりません",
+     "match": [
+      "なければなりません"
+     ]
+    },
+    {
+     "label": "〜なくてもいいです",
+     "match": [
+      "なくてもいい"
+     ]
+    }
+   ],
+   "model": "私はピアノを弾くことができます。私は明日、早く起きなければなりません。日曜日は働かなくてもいいです。",
+   "model_trans": {
+    "ko": "저는 피아노를 칠 수 있어요. 저는 내일 일찍 일어나야 해요. 일요일에는 일할 필요가 없어요.",
+    "en": "I can play the piano. I have to get up early tomorrow. I don't have to work on Sundays."
+   }
+  }
+ }
+}
