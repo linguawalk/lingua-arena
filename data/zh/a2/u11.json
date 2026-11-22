@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "zh_a2_u11",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 11,
+  "concept": "A2.U11",
+  "status": "live",
+  "title": {
+   "target": "食物和数量",
+   "ko": "음식과 양",
+   "en": "Food and quantities"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "一点",
+   "pos": "det",
+   "read": "yìdiǎn",
+   "ko": "약간 · 조금 (긍정문)",
+   "en": "some",
+   "ex": {
+    "t": "我买了一点牛奶。",
+    "read": "Wǒ mǎi le yìdiǎn niúnǎi.",
+    "ko": "저는 우유를 조금 샀어요.",
+    "en": "I bought some milk."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "一点也没有",
+   "pos": "det",
+   "read": "yìdiǎn yě méiyǒu",
+   "ko": "하나도 · 조금도 (부정·의문)",
+   "en": "any",
+   "ex": {
+    "t": "我们一点牛奶也没有。",
+    "read": "Wǒmen yìdiǎn niúnǎi yě méiyǒu.",
+    "ko": "우유가 하나도 없어요.",
+    "en": "We haven't got any milk."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "不多",
+   "pos": "det",
+   "read": "bù duō",
+   "ko": "많은 (셀 수 없는)",
+   "en": "much",
+   "ex": {
+    "t": "我们的时间不多。",
+    "read": "Wǒmen de shíjiān bù duō.",
+    "ko": "우리는 시간이 많지 않아요.",
+    "en": "We don't have much time."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "多少",
+   "pos": "det",
+   "read": "duōshao",
+   "ko": "많은 (셀 수 있는)",
+   "en": "many",
+   "ex": {
+    "t": "你有多少个苹果？",
+    "read": "Nǐ yǒu duōshao gè píngguǒ?",
+    "ko": "사과가 많이 있어요?",
+    "en": "Are there many apples?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "很多",
+   "pos": "det",
+   "read": "hěn duō",
+   "ko": "많은",
+   "en": "a lot of",
+   "ex": {
+    "t": "他喝很多水。",
+    "read": "Tā hē hěn duō shuǐ.",
+    "ko": "그는 물을 많이 마셔요.",
+    "en": "He drinks a lot of water."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "几个",
+   "pos": "det",
+   "read": "jǐ gè",
+   "ko": "몇 개 (셀 수 있는)",
+   "en": "a few",
+   "ex": {
+    "t": "有几个鸡蛋。",
+    "read": "Yǒu jǐ gè jīdàn.",
+    "ko": "달걀이 몇 개 있어요.",
+    "en": "There are a few eggs."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "一点儿",
+   "pos": "det",
+   "read": "yìdiǎnr",
+   "ko": "조금 (셀 수 없는)",
+   "en": "a little",
+   "ex": {
+    "t": "请给我一点儿糖。",
+    "read": "Qǐng gěi wǒ yìdiǎnr táng.",
+    "ko": "설탕을 조금 주세요.",
+    "en": "I'd like a little sugar."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "瓶",
+   "pos": "noun",
+   "read": "píng",
+   "ko": "병",
+   "en": "bottle",
+   "ex": {
+    "t": "请给我一瓶水。",
+    "read": "Qǐng gěi wǒ yì píng shuǐ.",
+    "ko": "물 한 병 주세요.",
+    "en": "A bottle of water, please."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "袋",
+   "pos": "noun",
+   "read": "dài",
+   "ko": "봉지",
+   "en": "bag",
+   "ex": {
+    "t": "我买了一袋米。",
+    "read": "Wǒ mǎi le yí dài mǐ.",
+    "ko": "쌀 한 봉지를 샀어요.",
+    "en": "I bought a bag of rice."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "够",
+   "pos": "det",
+   "read": "gòu",
+   "ko": "충분한",
+   "en": "enough",
+   "ex": {
+    "t": "我们的面包够了。",
+    "read": "Wǒmen de miànbāo gòu le.",
+    "ko": "우리는 빵이 충분해요.",
+    "en": "We have enough bread."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "数量：一点、一点也没有、很多、几个",
+   "en": "Quantities: 一点 / 一点也没有 / 很多 / 几个"
+  },
+  "explain": {
+   "ko": "少量用“一点”：我买了一点牛奶。多量用“很多”：他喝很多水。否定用“一点……也没有”：我们一点牛奶也没有。能数的东西问“几个”“多少个”：有几个鸡蛋？汉语数东西要加量词：一瓶水，一袋米。“够”表示足够：面包够了。",
+   "en": "A small amount is 一点: 我买了一点牛奶. A large amount is 很多: 他喝很多水. The negative is 一点……也没有: 我们一点牛奶也没有. Ask about countable things with 几个 or 多少个: 有几个鸡蛋？ Chinese needs measure words: 一瓶水, 一袋米. 够 means 'enough': 面包够了."
+  },
+  "table": {
+   "head": [
+    "表达 / Expression",
+    "意思 / Meaning",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "一点",
+     "少量",
+     "我买了一点牛奶。"
+    ],
+    [
+     "一点……也没有",
+     "完全没有",
+     "我们一点牛奶也没有。"
+    ],
+    [
+     "很多",
+     "多量",
+     "他喝很多水。"
+    ],
+    [
+     "几个 / 多少",
+     "问数量",
+     "有几个鸡蛋？"
+    ],
+    [
+     "瓶 / 袋",
+     "量词",
+     "一瓶水、一袋米"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "数数：一个、两个、三个……；一瓶、两瓶。",
+    "en": "Counting: 一个, 两个, 三个… / 一瓶, 两瓶."
+   },
+   {
+    "ko": "“够”表示数量足够：面包够了。",
+    "en": "够 means there is enough: 面包够了。"
+   },
+   {
+    "ko": "“不多”表示很少：我们的时间不多。",
+    "en": "「不多」 means 'not much': 我们的时间不多。"
+   }
+  ],
+  "examples": [
+   {
+    "t": "我买了一点牛奶。",
+    "read": "Wǒ mǎi le yìdiǎn niúnǎi.",
+    "ko": "저는 우유를 조금 샀어요.",
+    "en": "I bought some milk."
+   },
+   {
+    "t": "我们一点牛奶也没有。",
+    "read": "Wǒmen yìdiǎn niúnǎi yě méiyǒu.",
+    "ko": "우리는 우유가 하나도 없어요.",
+    "en": "We haven't got any milk."
+   },
+   {
+    "t": "有很多苹果吗？",
+    "read": "Yǒu hěn duō píngguǒ ma?",
+    "ko": "사과가 많이 있어요?",
+    "en": "Are there many apples?"
+   },
+   {
+    "t": "我喝了一点水。",
+    "read": "Wǒ hē le yìdiǎn shuǐ.",
+    "ko": "저는 물을 조금 마셨어요.",
+    "en": "I drank a little water."
+   },
+   {
+    "t": "我们的面包够了。",
+    "read": "Wǒmen de miànbāo gòu le.",
+    "ko": "우리는 빵이 충분해요.",
+    "en": "We have enough bread."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我买了___牛奶。",
+    "options": [
+     "一点",
+     "几个",
+     "多少"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我们___牛奶也没有。",
+    "options": [
+     "一些",
+     "一点",
+     "几个"
+    ],
+    "answer": 1,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "有___苹果吗？",
+    "options": [
+     "一点",
+     "很多",
+     "多少"
+    ],
+    "answer": 1,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "面包___了。",
+    "options": [
+     "够",
+     "多",
+     "少"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "家里有牛奶吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 우유가 좀 있어요?",
+     "en": "(Question) Is there any milk?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "有一点。",
+       "是牛奶。",
+       "在这儿。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你需要几个鸡蛋？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 달걀이 몇 개 필요해요?",
+     "en": "(Question) How many eggs do you need?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "六个。",
+       "很多牛奶。",
+       "两瓶。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "有面包吗？"
+      },
+      {
+       "s": "B",
+       "t": "有一点。但是一点牛奶也没有。"
+      },
+      {
+       "s": "A",
+       "t": "那我去买两瓶牛奶和几个鸡蛋。"
+      },
+      {
+       "s": "B",
+       "t": "谢谢！"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 빵이 좀 있어?\nB: 응, 조금 있어. 그런데 우유는 하나도 없어.\nA: 그럼 우유 두 병이랑 달걀 몇 개 사 올게.\nB: 고마워!",
+     "en": "A: Is there any bread?\nB: Yes, there is a little. But there isn't any milk.\nA: Then I'll buy two bottles of milk and a few eggs.\nB: Thanks!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的要买什么？",
+      "options": [
+       "面包和鸡蛋",
+       "牛奶和鸡蛋",
+       "米和牛奶"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今天晚上有六个朋友来。米不够，要买一袋。鸡蛋很多，但是一点牛奶也没有。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "오늘 저녁에는 친구 여섯 명이 와요. 쌀이 충분하지 않아서 한 봉지 사야 해요. 달걀은 많이 있지만 우유는 하나도 없어요.",
+     "en": "Six friends are coming this evening. We haven't got enough rice, so I need to buy a bag. We have a lot of eggs but we haven't got any milk."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他们要买什么？",
+      "options": [
+       "鸡蛋",
+       "一袋米",
+       "牛奶"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要什么？"
+      },
+      {
+       "s": "B",
+       "t": "两瓶水，还有几个苹果。"
+      },
+      {
+       "s": "A",
+       "t": "苹果要几个？"
+      },
+      {
+       "s": "B",
+       "t": "五个。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 무엇을 드릴까요?\n손님: 물 두 병과 사과 몇 개 주세요.\n직원: 사과는 몇 개요?\n손님: 다섯 개요.",
+     "en": "Clerk: What would you like?\nCustomer: Two bottles of water and a few apples, please.\nClerk: How many apples?\nCustomer: Five."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "水: 两______",
+      "answers": [
+       "瓶"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "苹果: ______个",
+      "answers": [
+       "五"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我买了___牛奶。\n2) 我们___牛奶也没有。\n3) 有___苹果吗？",
+    "trans": {
+     "ko": "1) 저는 우유를 조금 샀어요. 2) 우리는 우유가 하나도 없어요. 3) 사과가 많이 있어요?",
+     "en": "1) I bought some milk. 2) We haven't got any milk. 3) Are there many apples?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我买了___牛奶。",
+      "options": [
+       "一点",
+       "几个",
+       "多少"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我们___牛奶也没有。",
+      "options": [
+       "一些",
+       "一点",
+       "几个"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "有___苹果吗？",
+      "options": [
+       "一点",
+       "很多",
+       "多少"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好，妈妈！今天我去买东西。牛奶(1)也没有。我需要鸡蛋和一(2)米。时间不(3)！",
+    "trans": {
+     "ko": "안녕, 엄마! 오늘 쇼핑하러 갈게요. 우유는 하나도 없어요. 달걀이랑 쌀 한 봉지가 필요해요. 시간은 많지 않아요!",
+     "en": "Hi Mum! I'm going shopping today. We haven't got any milk. We need some eggs and a bag of rice. I haven't got much time!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "一点",
+       "一些",
+       "很多"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "瓶",
+       "袋",
+       "盒"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "多",
+       "好",
+       "对"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "购物清单\n牛奶：2瓶\n鸡蛋：6个\n米：1袋\n苹果：5个",
+    "trans": {
+     "ko": "쇼핑 목록\n우유: 2병\n달걀: 6개\n쌀: 1봉지\n사과: 5개",
+     "en": "SHOPPING LIST\nMilk: 2 bottles\nEggs: 6\nRice: 1 bag\nApples: 5"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "清单上有几个鸡蛋？",
+      "options": [
+       "2个",
+       "6个",
+       "5个"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "牛奶要多少？",
+      "options": [
+       "两瓶",
+       "一袋",
+       "六个"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "家里有很多苹果。橙子只有几个。一点牛奶也没有。",
+    "trans": {
+     "ko": "집에는 사과가 많이 있어요. 오렌지는 몇 개뿐이에요. 우유는 하나도 없어요.",
+     "en": "There are a lot of apples at home. There are only a few oranges. There isn't any milk."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "家里有很多苹果。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "家里有很多牛奶。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "家里有一点香蕉。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "家里有牛奶吗？",
+    "read": "Jiālǐ yǒu niúnǎi ma?",
+    "ko": "우유가 좀 있어요?",
+    "en": "Is there any milk?",
+    "situation": {
+     "ko": "있는지 물을 때",
+     "en": "Asking if something is available"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "有几个鸡蛋。",
+    "read": "Yǒu jǐ gè jīdàn.",
+    "ko": "달걀이 몇 개 있어요.",
+    "en": "There are a few eggs.",
+    "situation": {
+     "ko": "수가 적다고 말할 때",
+     "en": "Saying there are a few"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "请给我一点儿糖。",
+    "read": "Qǐng gěi wǒ yìdiǎnr táng.",
+    "ko": "설탕을 조금 주세요.",
+    "en": "I'd like a little sugar.",
+    "situation": {
+     "ko": "조금 요청할 때",
+     "en": "Asking for a small amount"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "有多少个苹果？",
+    "read": "Yǒu duōshao gè píngguǒ?",
+    "ko": "사과는 몇 개 있어요?",
+    "en": "How many apples are there?",
+    "situation": {
+     "ko": "수를 물을 때",
+     "en": "Asking how many"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "牛奶要多少？",
+    "read": "Niúnǎi yào duōshao?",
+    "ko": "우유는 얼마나 필요해요?",
+    "en": "How much milk do you need?",
+    "situation": {
+     "ko": "양을 물을 때",
+     "en": "Asking how much"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "面包够了。",
+    "read": "Miànbāo gòu le.",
+    "ko": "우리는 빵이 충분해요.",
+    "en": "We have enough bread.",
+    "situation": {
+     "ko": "충분하다고 말할 때",
+     "en": "Saying it is enough"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "请给我一瓶水。",
+    "read": "Qǐng gěi wǒ yì píng shuǐ.",
+    "ko": "물 한 병 주세요.",
+    "en": "A bottle of water, please.",
+    "situation": {
+     "ko": "병 단위로 주문할 때",
+     "en": "Ordering by the bottle"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我们的时间不多。",
+    "read": "Wǒmen de shíjiān bù duō.",
+    "ko": "저는 시간이 많지 않아요.",
+    "en": "I don't have much time.",
+    "situation": {
+     "ko": "부족하다고 말할 때",
+     "en": "Saying there is not much"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我买了一点……。",
+    "read": "Wǒ mǎi le yìdiǎn ….",
+    "ko": "~가 좀 있어요.",
+    "en": "I have some ~."
+   },
+   {
+    "id": "w2",
+    "t": "一点……也没有。",
+    "read": "Yìdiǎn … yě méiyǒu.",
+    "ko": "~가 하나도 없어요.",
+    "en": "There isn't any ~."
+   },
+   {
+    "id": "w3",
+    "t": "有几个……？",
+    "read": "Yǒu jǐ gè …?",
+    "ko": "~는 얼마나 있어요?",
+    "en": "How much ~ is there?"
+   },
+   {
+    "id": "w4",
+    "t": "有很多……。",
+    "read": "Yǒu hěn duō ….",
+    "ko": "~는 몇 개 있어요?",
+    "en": "How many ~ are there?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "냉장고에 있는 것과 없는 것을 3문장으로 쓰세요. some, any, a lot of를 쓰세요.",
+    "en": "Write 3 sentences about what is and isn't in your fridge. Use some, any and a lot of."
+   },
+   "must_include": [
+    {
+     "label": "有一点~",
+     "match": [
+      "一点"
+     ]
+    },
+    {
+     "label": "一个~也没有",
+     "match": [
+      "也没有"
+     ]
+    },
+    {
+     "label": "有很多~",
+     "match": [
+      "很多"
+     ]
+    }
+   ],
+   "model": "冰箱里有一点牛奶。一个鸡蛋也没有。有很多苹果。",
+   "model_trans": {
+    "ko": "냉장고에 우유가 조금 있어요. 달걀은 하나도 없어요. 사과는 많이 있어요.",
+    "en": "There is some milk in the fridge. There aren't any eggs. There are a lot of apples."
+   }
+  }
+ }
+}

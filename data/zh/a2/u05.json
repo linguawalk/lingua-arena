@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "zh_a2_u05",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 5,
+  "concept": "A2.U05",
+  "status": "live",
+  "title": {
+   "target": "做计划",
+   "ko": "계획 말하기",
+   "en": "Making plans"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "计划",
+   "pos": "noun",
+   "read": "jìhuà",
+   "ko": "계획",
+   "en": "plan",
+   "ex": {
+    "t": "我周末有计划。",
+    "read": "Wǒ zhōumò yǒu jìhuà.",
+    "ko": "저는 주말 계획이 있어요.",
+    "en": "I have a plan for the weekend."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "明天",
+   "pos": "adv",
+   "read": "míngtiān",
+   "ko": "내일",
+   "en": "tomorrow",
+   "ex": {
+    "t": "我明天打算工作。",
+    "read": "Wǒ míngtiān dǎsuàn gōngzuò.",
+    "ko": "내일은 비가 올 거예요.",
+    "en": "It is going to rain tomorrow."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "今晚",
+   "pos": "adv",
+   "read": "jīnwǎn",
+   "ko": "오늘 밤",
+   "en": "tonight",
+   "ex": {
+    "t": "今晚我们打算看电影。",
+    "read": "Jīnwǎn wǒmen dǎsuàn kàn diànyǐng.",
+    "ko": "오늘 밤에 우리는 영화를 볼 거예요.",
+    "en": "We are going to watch a film tonight."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "下个星期",
+   "pos": "adv",
+   "read": "xià ge xīngqī",
+   "ko": "다음 주",
+   "en": "next week",
+   "ex": {
+    "t": "下个星期我打算看望奶奶。",
+    "read": "Xià ge xīngqī wǒ dǎsuàn kànwàng nǎinai.",
+    "ko": "다음 주에 저는 할머니를 방문할 거예요.",
+    "en": "I am going to visit my grandmother next week."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "打算",
+   "pos": "phrase",
+   "read": "dǎsuàn",
+   "ko": "~할 예정이다",
+   "en": "going to",
+   "ex": {
+    "t": "我打算学英语。",
+    "read": "Wǒ dǎsuàn xué yīngyǔ.",
+    "ko": "저는 영어를 공부할 거예요.",
+    "en": "I am going to study English."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "旅行",
+   "pos": "verb",
+   "read": "lǚxíng",
+   "ko": "여행하다",
+   "en": "travel",
+   "ex": {
+    "t": "他们夏天打算旅行。",
+    "read": "Tāmen xiàtiān dǎsuàn lǚxíng.",
+    "ko": "그들은 여름에 여행할 거예요.",
+    "en": "They are going to travel in the summer."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "决定",
+   "pos": "verb",
+   "read": "juédìng",
+   "ko": "결정하다",
+   "en": "decide",
+   "ex": {
+    "t": "我还没决定。",
+    "read": "Wǒ hái méi juédìng.",
+    "ko": "저는 아직 결정하지 않았어요.",
+    "en": "I haven't decided yet."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "可能",
+   "pos": "adv",
+   "read": "kěnéng",
+   "ko": "아마도",
+   "en": "maybe",
+   "ex": {
+    "t": "可能我们去海边。",
+    "read": "Kěnéng wǒmen qù hǎibiān.",
+    "ko": "아마 우리는 해변에 갈 거예요.",
+    "en": "Maybe we are going to go to the beach."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "马上",
+   "pos": "adv",
+   "read": "mǎshàng",
+   "ko": "곧",
+   "en": "soon",
+   "ex": {
+    "t": "马上要下雨了。",
+    "read": "Mǎshàng yào xiàyǔ le.",
+    "ko": "곧 비가 올 거예요.",
+    "en": "It is going to rain soon."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "票",
+   "pos": "noun",
+   "read": "piào",
+   "ko": "표",
+   "en": "ticket",
+   "ex": {
+    "t": "我明天打算买票。",
+    "read": "Wǒ míngtiān dǎsuàn mǎi piào.",
+    "ko": "저는 내일 표를 살 거예요.",
+    "en": "I am going to buy a ticket tomorrow."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "计划：打算 + 动词、不打算、要……了",
+   "en": "Plans: 打算 + verb / 不打算 / 要……了"
+  },
+  "explain": {
+   "ko": "说计划，用“打算 + 动词”：我明天打算工作。否定用“不打算”：他们不打算旅行。很快就要发生的事用“要……了”：马上要下雨了。还没决定时，用“可能”：可能我们去海边。时间词放在句子前面：明天、今晚、下个星期。",
+   "en": "State plans with 打算 + verb: 我明天打算工作. The negative is 不打算: 他们不打算旅行. Use 要……了 for something about to happen: 马上要下雨了. When undecided use 可能: 可能我们去海边. Put time words early: 明天, 今晚, 下个星期."
+  },
+  "table": {
+   "head": [
+    "结构 / Form",
+    "说明 / Meaning",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "打算 + 动词",
+     "计划",
+     "我明天打算工作。"
+    ],
+    [
+     "不打算 + 动词",
+     "不计划",
+     "他们不打算旅行。"
+    ],
+    [
+     "要……了",
+     "马上发生",
+     "马上要下雨了。"
+    ],
+    [
+     "可能 + 动词",
+     "还没决定",
+     "可能我们去海边。"
+    ],
+    [
+     "你打算做什么？",
+     "问计划",
+     "明天你打算做什么？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "表示将来的时间词：明天、今晚、下个星期、马上。",
+    "en": "Future time words: 明天, 今晚, 下个星期, 马上."
+   },
+   {
+    "ko": "“还没……”表示现在还没做：我还没决定。",
+    "en": "「还没……」 means 'not yet': 我还没决定。"
+   },
+   {
+    "ko": "“打算”表示自己的想法，不一定已经决定。",
+    "en": "打算 states your own intention."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我明天打算工作。",
+    "read": "Wǒ míngtiān dǎsuàn gōngzuò.",
+    "ko": "저는 내일 일할 거예요.",
+    "en": "I am going to work tomorrow."
+   },
+   {
+    "t": "她下个星期打算去巴黎。",
+    "read": "Tā xià ge xīngqī dǎsuàn qù Bālí.",
+    "ko": "그녀는 다음 주에 파리에 갈 거예요.",
+    "en": "She is going to visit Paris next week."
+   },
+   {
+    "t": "今晚我们打算看电影。",
+    "read": "Jīnwǎn wǒmen dǎsuàn kàn diànyǐng.",
+    "ko": "우리는 오늘 밤 영화를 볼 거예요.",
+    "en": "We are going to watch a film tonight."
+   },
+   {
+    "t": "他们不打算旅行。",
+    "read": "Tāmen bù dǎsuàn lǚxíng.",
+    "ko": "그들은 여행하지 않을 거예요.",
+    "en": "They aren't going to travel."
+   },
+   {
+    "t": "明天你打算做什么？",
+    "read": "Míngtiān nǐ dǎsuàn zuò shénme?",
+    "ko": "내일 뭐 할 거예요?",
+    "en": "What are you going to do tomorrow?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我明天___工作。",
+    "options": [
+     "打算",
+     "打算了",
+     "了打算"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "她下个星期打算___巴黎。",
+    "options": [
+     "去",
+     "去了",
+     "去过"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "他们___打算旅行。",
+    "options": [
+     "不",
+     "没",
+     "别"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "马上___下雨了。",
+    "options": [
+     "要",
+     "在",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明天你打算做什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 내일 뭐 할 거예요?",
+     "en": "(Question) What are you going to do tomorrow?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我打算见一个朋友。",
+       "我见了一个朋友。",
+       "我在见朋友。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今年夏天你打算去旅行吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 올여름에 여행할 거예요?",
+     "en": "(Question) Are you going to travel this summer?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "是的，我打算去。",
+       "是的，我去了。",
+       "是的，我常去。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "周末你打算做什么？"
+      },
+      {
+       "s": "B",
+       "t": "我还没决定。可能去海边。"
+      },
+      {
+       "s": "A",
+       "t": "我也可以一起去吗？"
+      },
+      {
+       "s": "B",
+       "t": "当然！我打算星期六去。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 주말에 뭐 할 거야?\nB: 아직 결정 안 했어. 아마 해변에 갈 것 같아.\nA: 나도 같이 가도 돼?\nB: 물론이지! 토요일에 갈 거야.",
+     "en": "A: What are you going to do at the weekend?\nB: I haven't decided yet. Maybe we are going to go to the beach.\nA: Can I come too?\nB: Of course! We are going to go on Saturday."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他们什么时候去？",
+      "options": [
+       "星期五",
+       "星期六",
+       "星期天"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "下个星期我打算休假。星期一我打算买火车票。星期二我打算和家人去巴黎。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "다음 주에 저는 휴가를 갈 거예요. 월요일에 기차표를 살 거예요. 화요일에는 가족과 파리에 갈 거예요.",
+     "en": "Next week I'm going on holiday. On Monday I'm going to buy the train tickets. On Tuesday I'm going to travel to Paris with my family."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人星期一打算做什么？",
+      "options": [
+       "去巴黎",
+       "买火车票",
+       "见朋友"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你什么时候去旅行？"
+      },
+      {
+       "s": "B",
+       "t": "下个星期五。"
+      },
+      {
+       "s": "A",
+       "t": "你要几张票？"
+      },
+      {
+       "s": "B",
+       "t": "三张。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 언제 여행하실 거예요?\n손님: 다음 주 금요일에요.\n직원: 표는 몇 장 필요하세요?\n손님: 세 장 주세요.",
+     "en": "Clerk: When are you going to travel?\nCustomer: Next Friday.\nClerk: How many tickets do you need?\nCustomer: Three, please."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "旅行日期: 下个星期______",
+      "answers": [
+       "五"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "票: ______张",
+      "answers": [
+       "三"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我明天___工作。\n2) 她下个星期打算___巴黎。\n3) 他们___打算旅行。",
+    "trans": {
+     "ko": "1) 저는 내일 일할 거예요. 2) 그녀는 다음 주에 파리에 갈 거예요. 3) 그들은 여행하지 않을 거예요.",
+     "en": "1) I am going to work tomorrow. 2) She is going to visit Paris next week. 3) They aren't going to travel."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我明天___工作。",
+      "options": [
+       "了",
+       "打算",
+       "过"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "她下个星期打算___巴黎。",
+      "options": [
+       "去了",
+       "去",
+       "去过"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "他们___打算旅行。",
+      "options": [
+       "没",
+       "不",
+       "别"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好，艾娃！明天我(1)见朋友。我们(2)看电影。你想一起去(3)？",
+    "trans": {
+     "ko": "안녕, 에바! 내일 나는 친구를 만날 거야. 우리는 영화를 볼 거야. 같이 갈래? 넌 뭐 할 거야?",
+     "en": "Hi Eva! Tomorrow I am going to meet a friend. We are going to watch a film. Do you want to come? What are you going to do?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "了",
+       "打算",
+       "过"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "了",
+       "打算",
+       "着"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "了",
+       "吗",
+       "过"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "日程\n星期六：海边\n星期日：博物馆\n星期一：工作",
+    "trans": {
+     "ko": "일정\n토요일: 해변\n일요일: 박물관\n월요일: 일",
+     "en": "PLANS\nSaturday: the beach\nSunday: the museum\nMonday: work"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "星期日的计划是什么？",
+      "options": [
+       "海边",
+       "博物馆",
+       "工作"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "哪天工作？",
+      "options": [
+       "星期六",
+       "星期日",
+       "星期一"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "小苏打算下个月搬家。她要去看新公寓。她的家人会帮她搬家。",
+    "trans": {
+     "ko": "수는 다음 달에 이사할 거예요. 그녀는 새 아파트를 볼 거예요. 그녀의 가족이 이사를 도와줄 거예요.",
+     "en": "Sue is going to move house next month. She is going to look at a new flat. Her family is going to help her."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "小苏打算搬家。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "小苏打算下个星期搬家。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "小苏的新公寓很大。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "明天你打算做什么？",
+    "read": "Míngtiān nǐ dǎsuàn zuò shénme?",
+    "ko": "내일 뭐 할 거예요?",
+    "en": "What are you going to do tomorrow?",
+    "situation": {
+     "ko": "계획을 물을 때",
+     "en": "Asking about plans"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我还没有计划。",
+    "read": "Wǒ hái méiyǒu jìhuà.",
+    "ko": "저는 친구를 만날 거예요.",
+    "en": "I'm going to meet a friend.",
+    "situation": {
+     "ko": "계획을 말할 때",
+     "en": "Saying your plan"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "可能我们去海边。",
+    "read": "Kěnéng wǒmen qù hǎibiān.",
+    "ko": "주말에 어디 갈 거예요?",
+    "en": "Where are you going to go at the weekend?",
+    "situation": {
+     "ko": "주말 계획을 물을 때",
+     "en": "Asking about weekend plans"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "下个星期我打算看望奶奶。",
+    "read": "Xià ge xīngqī wǒ dǎsuàn kànwàng nǎinai.",
+    "ko": "우리는 해변에 갈 예정이에요.",
+    "en": "We're going to go to the beach.",
+    "situation": {
+     "ko": "함께 할 계획을 말할 때",
+     "en": "Saying a shared plan"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "今晚我们打算看电影。",
+    "read": "Jīnwǎn wǒmen dǎsuàn kàn diànyǐng.",
+    "ko": "아직 결정하지 않았어요.",
+    "en": "I haven't decided yet.",
+    "situation": {
+     "ko": "정하지 않았다고 말할 때",
+     "en": "Saying you haven't decided"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我打算学英语。",
+    "read": "Wǒ dǎsuàn xué yīngyǔ.",
+    "ko": "저는 일하지 않을 거예요.",
+    "en": "I'm not going to work.",
+    "situation": {
+     "ko": "하지 않을 거라고 말할 때",
+     "en": "Saying what you won't do"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "马上要下雨了。",
+    "read": "Mǎshàng yào xiàyǔ le.",
+    "ko": "곧 비가 올 거예요.",
+    "en": "It's going to rain soon.",
+    "situation": {
+     "ko": "곧 일어날 일을 말할 때",
+     "en": "Saying what will happen soon"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我明天打算买票。",
+    "read": "Wǒ míngtiān dǎsuàn mǎi piào.",
+    "ko": "표는 언제 살 거예요?",
+    "en": "When are you going to buy the tickets?",
+    "situation": {
+     "ko": "시기를 물을 때",
+     "en": "Asking when"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "下个周末我打算……。",
+    "read": "Xià ge zhōumò wǒ dǎsuàn ….",
+    "ko": "저는 ~할 거예요.",
+    "en": "I'm going to ~."
+   },
+   {
+    "id": "w2",
+    "t": "我们打算……。",
+    "read": "Wǒmen dǎsuàn ….",
+    "ko": "우리는 ~에 갈 거예요.",
+    "en": "We're going to go to ~."
+   },
+   {
+    "id": "w3",
+    "t": "我不打算……。",
+    "read": "Wǒ bù dǎsuàn ….",
+    "ko": "저는 ~하지 않을 거예요.",
+    "en": "I'm not going to ~."
+   },
+   {
+    "id": "w4",
+    "t": "可能……。",
+    "read": "Kěnéng ….",
+    "ko": "~할 거예요?",
+    "en": "Are you going to ~?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "다음 주말 계획을 3문장으로 쓰세요. be going to를 쓰세요.",
+    "en": "Write 3 sentences about your plans for next weekend. Use 'be going to'."
+   },
+   "must_include": [
+    {
+     "label": "我打算~",
+     "match": [
+      "我打算"
+     ]
+    },
+    {
+     "label": "我们打算~",
+     "match": [
+      "我们打算"
+     ]
+    },
+    {
+     "label": "我不打算~",
+     "match": [
+      "我不打算"
+     ]
+    }
+   ],
+   "model": "下个周末我打算见朋友。我们打算看电影。我不打算工作。",
+   "model_trans": {
+    "ko": "다음 주말에 저는 친구를 만날 거예요. 우리는 영화를 볼 거예요. 저는 일하지 않을 거예요.",
+    "en": "Next weekend I'm going to meet a friend. We're going to watch a film. I'm not going to work."
+   }
+  }
+ }
+}

@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "zh_a2_u19",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 19,
+  "concept": "A2.U19",
+  "status": "live",
+  "title": {
+   "target": "如果和……的时候",
+   "ko": "만약 ~라면",
+   "en": "If and when"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "如果",
+   "pos": "conj",
+   "read": "rúguǒ",
+   "ko": "만약 ~라면",
+   "en": "if",
+   "ex": {
+    "t": "如果下雨，我就在家。",
+    "read": "Rúguǒ xiàyǔ, wǒ jiù zài jiā.",
+    "ko": "비가 오면 집에 있을 거예요.",
+    "en": "If it rains, I'll stay at home."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "就",
+   "pos": "conj",
+   "read": "jiù",
+   "ko": "~할 때",
+   "en": "when",
+   "ex": {
+    "t": "如果不快点，我们就会迟到。",
+    "read": "Rúguǒ bú kuàidiǎn, wǒmen jiù huì chídào.",
+    "ko": "집에 도착하면 전화할게요.",
+    "en": "I'll call you when I get home."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "一……就……",
+   "pos": "conj",
+   "read": "yī … jiù … ",
+   "ko": "~하지 않으면",
+   "en": "unless",
+   "ex": {
+    "t": "我一到就给你打电话。",
+    "read": "Wǒ yí dào jiù gěi nǐ dǎ diànhuà.",
+    "ko": "서두르지 않으면 늦을 거예요.",
+    "en": "Unless we hurry, we'll be late."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "不……就……",
+   "pos": "modal",
+   "read": "bù … jiù … ",
+   "ko": "~할지도 모른다",
+   "en": "might",
+   "ex": {
+    "t": "不买票就不能进去。",
+    "read": "Bù mǎi piào jiù bùnéng jìnqù.",
+    "ko": "비가 올지도 몰라요.",
+    "en": "It might rain."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "可能",
+   "pos": "phrase",
+   "read": "kěnéng",
+   "ko": "~하자마자",
+   "en": "as soon as",
+   "ex": {
+    "t": "明天可能会下雨。",
+    "read": "Míngtiān kěnéng huì xiàyǔ.",
+    "ko": "도착하자마자 전화할게요.",
+    "en": "I'll call you as soon as I arrive."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "以前",
+   "pos": "conj",
+   "read": "yǐqián",
+   "ko": "~하기 전에",
+   "en": "before",
+   "ex": {
+    "t": "出门以前，我锁门。",
+    "read": "Chūmén yǐqián, wǒ suǒmén.",
+    "ko": "나가기 전에 문을 잠가요.",
+    "en": "Lock the door before you leave."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "以后",
+   "pos": "conj",
+   "read": "yǐhòu",
+   "ko": "~한 후에",
+   "en": "after",
+   "ex": {
+    "t": "吃完晚饭以后，我学习。",
+    "read": "Chīwán wǎnfàn yǐhòu, wǒ xuéxí.",
+    "ko": "저녁을 먹은 후에 숙제를 할 거예요.",
+    "en": "I'll do my homework after I have dinner."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "晴天",
+   "pos": "adj",
+   "read": "qíngtiān",
+   "ko": "맑은",
+   "en": "sunny",
+   "ex": {
+    "t": "如果明天晴天，我们去海边。",
+    "read": "Rúguǒ míngtiān qíngtiān, wǒmen qù hǎibiān.",
+    "ko": "내일 맑으면 해변에 갈 거예요.",
+    "en": "If it's sunny tomorrow, we'll go to the beach."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "伞",
+   "pos": "noun",
+   "read": "sǎn",
+   "ko": "우산",
+   "en": "umbrella",
+   "ex": {
+    "t": "如果下雨，请带伞。",
+    "read": "Rúguǒ xiàyǔ, qǐng dài sǎn.",
+    "ko": "비가 오면 우산을 가져가세요.",
+    "en": "Take an umbrella if it rains."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "票",
+   "pos": "noun",
+   "read": "piào",
+   "ko": "표",
+   "en": "ticket",
+   "ex": {
+    "t": "没有票就不能进去。",
+    "read": "Méiyǒu piào jiù bùnéng jìnqù.",
+    "ko": "표를 사지 않으면 들어갈 수 없어요.",
+    "en": "You can't go in unless you buy a ticket."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "条件：如果……就……、一……就……、以前 / 以后",
+   "en": "Conditionals: 如果……就…… / 一……就…… / 以前 · 以后"
+  },
+  "explain": {
+   "ko": "说“如果”，用“如果……，就……”：如果下雨，我就在家。“一……就……”表示一做完马上做：我一到就给你打电话。先后顺序用“以前”“以后”：吃完晚饭以后，我学习。不确定的事用“可能”：明天可能会下雨。",
+   "en": "Say 'if' with 如果……，就……: 如果下雨，我就在家. 一……就…… means 'as soon as': 我一到就给你打电话. Order uses 以前 and 以后: 吃完晚饭以后，我学习。 For uncertain things use 可能: 明天可能会下雨。"
+  },
+  "table": {
+   "head": [
+    "结构 / Form",
+    "意思 / Meaning",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "如果……，就……",
+     "如果",
+     "如果下雨，我就在家。"
+    ],
+    [
+     "不……就……",
+     "否则",
+     "不快点就会迟到。"
+    ],
+    [
+     "一……就……",
+     "一……马上",
+     "我一到就给你打电话。"
+    ],
+    [
+     "……以前",
+     "在……之前",
+     "出门以前，我锁门。"
+    ],
+    [
+     "……以后",
+     "在……之后",
+     "吃完晚饭以后，我学习。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“如果”可以省略，“就”常常不能省略。",
+    "en": "如果 can be dropped; 就 is usually kept."
+   },
+   {
+    "ko": "“可能”表示不太确定。",
+    "en": "可能 means 'maybe'."
+   },
+   {
+    "ko": "“如果”后面可以是将来的事。",
+    "en": "如果 is often followed by a future event."
+   }
+  ],
+  "examples": [
+   {
+    "t": "如果下雨，我就在家。",
+    "read": "Rúguǒ xiàyǔ, wǒ jiù zài jiā.",
+    "ko": "비가 오면 집에 있을 거예요.",
+    "en": "If it rains, I'll stay at home."
+   },
+   {
+    "t": "如果明天晴天，我们去海边。",
+    "read": "Rúguǒ míngtiān qíngtiān, wǒmen qù hǎibiān.",
+    "ko": "내일 맑으면 우리는 해변에 갈 거예요.",
+    "en": "If it's sunny tomorrow, we'll go to the beach."
+   },
+   {
+    "t": "如果不快点，我们就会迟到。",
+    "read": "Rúguǒ bú kuàidiǎn, wǒmen jiù huì chídào.",
+    "ko": "서두르지 않으면 늦을 거예요.",
+    "en": "If we don't hurry, we'll be late."
+   },
+   {
+    "t": "我一到就给你打电话。",
+    "read": "Wǒ yí dào jiù gěi nǐ dǎ diànhuà.",
+    "ko": "도착하자마자 전화할게요.",
+    "en": "I'll call you as soon as I arrive."
+   },
+   {
+    "t": "吃完晚饭以后，我学习。",
+    "read": "Chīwán wǎnfàn yǐhòu, wǒ xuéxí.",
+    "ko": "저녁을 먹은 후에 공부할 거예요.",
+    "en": "I'll study after I have dinner."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "如果下雨，我___在家。",
+    "options": [
+     "就",
+     "才",
+     "也"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "如果不快点，我们___会迟到。",
+    "options": [
+     "就",
+     "才",
+     "还"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我一到___给你打电话。",
+    "options": [
+     "就",
+     "才",
+     "再"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "吃完晚饭___，我学习。",
+    "options": [
+     "以后",
+     "以前",
+     "的时候"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "如果下雨，你做什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 비가 오면 뭐 할 거예요?",
+     "en": "(Question) What will you do if it rains?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我就在家。",
+       "我在家了。",
+       "我在家过。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你到了会给我打电话吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 도착하면 전화해 줄래요?",
+     "en": "(Question) Will you call me when you arrive?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "会，我一到就给你打电话。",
+       "是的，我打了电话。",
+       "是的，我在打电话。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明天天气怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "如果晴天，我们去海边。如果下雨，我们去看电影。"
+      },
+      {
+       "s": "A",
+       "t": "好。如果不早点出发，路上会堵车。"
+      },
+      {
+       "s": "B",
+       "t": "那我们八点出发吧。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 내일 날씨가 어떨까?\nB: 맑으면 해변에 가자. 비가 오면 영화를 보러 가자.\nA: 좋아. 일찍 출발하지 않으면 길이 막힐 거야.\nB: 그럼 여덟 시에 출발하자.",
+     "en": "A: What will the weather be like tomorrow?\nB: If it's sunny, let's go to the beach. If it rains, let's see a film.\nA: OK. If we don't leave early, the traffic will be bad.\nB: Then let's leave at eight."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "如果下雨，他们做什么？",
+      "options": [
+       "去海边",
+       "看电影",
+       "在家"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明天可能是晴天。如果晴天，我们在公园吃午饭。如果下雨，我们就在家。吃完午饭以后，我们骑自行车。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "내일은 맑을 것 같아요. 맑으면 우리는 공원에서 점심을 먹을 거예요. 하지만 비가 오면 집에 있을 거예요. 점심을 먹은 후에는 자전거를 탈 거예요.",
+     "en": "Tomorrow will probably be sunny. If it's sunny, we'll have lunch in the park. But if it rains, we'll stay at home. After lunch we'll ride our bikes."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "吃完午饭以后，他们做什么？",
+      "options": [
+       "骑自行车",
+       "去海边",
+       "看电视"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你要买票吗？"
+      },
+      {
+       "s": "B",
+       "t": "如果下雨，可以退钱吗？"
+      },
+      {
+       "s": "A",
+       "t": "可以，下雨就退钱。"
+      },
+      {
+       "s": "B",
+       "t": "那给我两张。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 표를 사시겠어요?\n손님: 비가 오면 환불이 되나요?\n직원: 네, 비가 오면 환불해 드려요.\n손님: 그럼 두 장 주세요.",
+     "en": "Clerk: Would you like to buy tickets?\nCustomer: If it rains, can I get my money back?\nClerk: Yes, if it rains we'll give you a refund.\nCustomer: Then two tickets, please."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "下雨: 可以______",
+      "answers": [
+       "退钱"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "票: ______张",
+      "answers": [
+       "两"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 如果下雨，我___在家。\n2) 如果不快点，我们___会迟到。\n3) 我吃完晚饭___学习。",
+    "trans": {
+     "ko": "1) 비가 오면 집에 있을 거예요. 2) 서두르지 않으면 늦을 거예요. 3) 저녁을 먹은 후에 공부할 거예요.",
+     "en": "1) If it rains, I'll stay at home. 2) If we don't hurry, we'll be late. 3) I'll study after I have dinner."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "如果下雨，我___在家。",
+      "options": [
+       "就",
+       "才",
+       "也"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "如果不快点，我们___会迟到。",
+      "options": [
+       "就",
+       "才",
+       "还"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我吃完晚饭___学习。",
+      "options": [
+       "以后",
+       "以前",
+       "的时候"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好，萨姆！明天如果(1)，我们去海边。如果下雨，我们(2)看电影。我一(3)就给你打电话。你来吗？",
+    "trans": {
+     "ko": "안녕, 샘! 내일 맑으면 우리는 해변에 갈 거야. 비가 오면 영화를 볼 거야. 도착하면 전화할게. 같이 갈래?",
+     "en": "Hi Sam! If it's sunny tomorrow, we'll go to the beach. If it rains, we'll see a film. I'll call you when I get there. Do you want to come?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "晴天",
+       "晴了",
+       "晴着"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "就",
+       "才",
+       "也"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "到",
+       "到了",
+       "到过"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "通知\n晴天：海边野餐\n下雨：电影\n出发：上午八点",
+    "trans": {
+     "ko": "안내\n맑음: 해변 소풍\n비: 영화\n출발: 오전 8시",
+     "en": "NOTICE\nSunny: beach picnic\nRain: film\nDeparture: 8 am"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "如果晴天，做什么？",
+      "options": [
+       "海边野餐",
+       "电影",
+       "工作"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "几点出发？",
+      "options": [
+       "七点",
+       "八点",
+       "九点"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "如果下雨，室外音乐会就取消。已经买票的人可以退钱。没有票就不能进去。",
+    "trans": {
+     "ko": "비가 오면 야외 콘서트는 취소돼요. 표를 이미 산 사람은 돈을 돌려받아요. 표를 사지 않으면 입장할 수 없어요.",
+     "en": "If it rains, the outdoor concert will be cancelled. People who have already bought a ticket will get their money back. You can't go in unless you buy a ticket."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "如果下雨，音乐会就取消。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "没有票也可以进去。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "音乐会八点开始。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "如果下雨，你做什么？",
+    "read": "Rúguǒ xiàyǔ, nǐ zuò shénme?",
+    "ko": "비가 오면 뭐 할 거예요?",
+    "en": "What will you do if it rains?",
+    "situation": {
+     "ko": "조건을 물을 때",
+     "en": "Asking about a condition"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "如果晴天，我们去海边。",
+    "read": "Rúguǒ qíngtiān, wǒmen qù hǎibiān.",
+    "ko": "비가 오면 집에 있을 거예요.",
+    "en": "If it rains, I'll stay at home.",
+    "situation": {
+     "ko": "조건과 결과를 말할 때",
+     "en": "Saying condition and result"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "如果不快点，我们就会迟到。",
+    "read": "Rúguǒ bú kuàidiǎn, wǒmen jiù huì chídào.",
+    "ko": "내일 시간이 되면 만나요.",
+    "en": "If you're free tomorrow, let's meet.",
+    "situation": {
+     "ko": "조건부로 제안할 때",
+     "en": "Making a conditional suggestion"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我一到就给你打电话。",
+    "read": "Wǒ yí dào jiù gěi nǐ dǎ diànhuà.",
+    "ko": "서두르지 않으면 늦을 거예요.",
+    "en": "If we don't hurry, we'll be late.",
+    "situation": {
+     "ko": "경고할 때",
+     "en": "Giving a warning"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "吃完饭以后，我学习。",
+    "read": "Chīwán fàn yǐhòu, wǒ xuéxí.",
+    "ko": "도착하면 전화할게요.",
+    "en": "I'll call you when I arrive.",
+    "situation": {
+     "ko": "약속할 때",
+     "en": "Making a promise"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "出门以前，我锁门。",
+    "read": "Chūmén yǐqián, wǒ suǒmén.",
+    "ko": "비가 올지도 몰라요.",
+    "en": "It might rain.",
+    "situation": {
+     "ko": "가능성을 말할 때",
+     "en": "Saying something is possible"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "明天可能会下雨。",
+    "read": "Míngtiān kěnéng huì xiàyǔ.",
+    "ko": "나가기 전에 문을 잠그세요.",
+    "en": "Lock the door before you leave.",
+    "situation": {
+     "ko": "순서를 알려 줄 때",
+     "en": "Giving a sequence"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "没有票就不能进去。",
+    "read": "Méiyǒu piào jiù bùnéng jìnqù.",
+    "ko": "우산을 가져가는 게 좋아요, 비가 오면요.",
+    "en": "Take an umbrella in case it rains.",
+    "situation": {
+     "ko": "대비하라고 할 때",
+     "en": "Telling someone to be prepared"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "如果……，我就……。",
+    "read": "Rúguǒ …, wǒ jiù ….",
+    "ko": "만약 ~라면 ~할 거예요.",
+    "en": "If ~, I'll ~."
+   },
+   {
+    "id": "w2",
+    "t": "不……就……。",
+    "read": "Bù … jiù ….",
+    "ko": "~하면 ~할게요.",
+    "en": "I'll ~ when ~."
+   },
+   {
+    "id": "w3",
+    "t": "我一……就……。",
+    "read": "Wǒ yī … jiù ….",
+    "ko": "~하지 않으면 ~할 거예요.",
+    "en": "If we don't ~, we'll ~."
+   },
+   {
+    "id": "w4",
+    "t": "……以后，我……。",
+    "read": "… Yǐhòu, wǒ ….",
+    "ko": "~할지도 몰라요.",
+    "en": "It might ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "날씨에 따라 달라지는 주말 계획을 3문장으로 쓰세요. If를 쓰세요.",
+    "en": "Write 3 sentences about weekend plans that depend on the weather. Use 'if'."
+   },
+   "must_include": [
+    {
+     "label": "如果~，我就~",
+     "match": [
+      "如果"
+     ]
+    },
+    {
+     "label": "如果下雨~",
+     "match": [
+      "如果下雨"
+     ]
+    },
+    {
+     "label": "我一到就~",
+     "match": [
+      "一到就"
+     ]
+    }
+   ],
+   "model": "如果明天晴天，我们去海边。如果下雨，我就在家。我一到就给你打电话。",
+   "model_trans": {
+    "ko": "내일 맑으면 우리는 해변에 갈 거예요. 비가 오면 집에 있을 거예요. 도착하자마자 전화할게요.",
+    "en": "If it's sunny tomorrow, we'll go to the beach. If it rains, we'll stay at home. I'll call you as soon as I arrive."
+   }
+  }
+ }
+}

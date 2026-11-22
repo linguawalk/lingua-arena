@@ -1,0 +1,842 @@
+{
+ "meta": {
+  "id": "zh_a2_u17",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 17,
+  "concept": "A2.U17",
+  "status": "live",
+  "title": {
+   "target": "约好见面",
+   "ko": "약속 정하기",
+   "en": "Making arrangements"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "邀请",
+   "pos": "verb",
+   "read": "yāoqǐng",
+   "ko": "초대하다",
+   "en": "invite",
+   "ex": {
+    "t": "我邀请朋友来参加聚会。",
+    "read": "Wǒ yāoqǐng péngyou lái cānjiā jùhuì.",
+    "ko": "저는 친구들을 파티에 초대했어요.",
+    "en": "I invited my friends to the party."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "约",
+   "pos": "verb",
+   "read": "yuē",
+   "ko": "약속을 정하다",
+   "en": "arrange",
+   "ex": {
+    "t": "我们约好星期五见面。",
+    "read": "Wǒmen yuēhǎo xīngqīwǔ jiànmiàn.",
+    "ko": "우리는 금요일에 만나기로 했어요.",
+    "en": "We arranged to meet on Friday."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "想",
+   "pos": "phrase",
+   "read": "xiǎng",
+   "ko": "~하고 싶으세요?",
+   "en": "would you like to",
+   "ex": {
+    "t": "你想去看电影吗？",
+    "read": "Nǐ xiǎng qù kàn diànyǐng ma?",
+    "ko": "영화 보러 갈래요?",
+    "en": "Would you like to see a film?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "吧",
+   "pos": "phrase",
+   "read": "ba",
+   "ko": "~하자",
+   "en": "let's",
+   "ex": {
+    "t": "我们去喝咖啡吧。",
+    "read": "Wǒmen qù hē kāfēi ba.",
+    "ko": "커피 마시러 가요.",
+    "en": "Let's go for a coffee."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "有空",
+   "pos": "adj",
+   "read": "yǒukòng",
+   "ko": "시간이 되는 · 한가한",
+   "en": "free",
+   "ex": {
+    "t": "星期六你有空吗？",
+    "read": "Xīngqīliù nǐ yǒukòng ma?",
+    "ko": "토요일에 시간 돼요?",
+    "en": "Are you free on Saturday?"
+   }
+  },
+  {
+   "id": "v6",
+   "t": "电影院",
+   "pos": "noun",
+   "read": "diànyǐngyuàn",
+   "ko": "영화관",
+   "en": "cinema",
+   "ex": {
+    "t": "我们在电影院见面。",
+    "read": "Wǒmen zài diànyǐngyuàn jiànmiàn.",
+    "ko": "우리는 영화관에서 만나요.",
+    "en": "We're meeting at the cinema."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "当然",
+   "pos": "phrase",
+   "read": "dāngrán",
+   "ko": "그럼요 · 좋아요",
+   "en": "why not",
+   "ex": {
+    "t": "当然，我去！",
+    "read": "Dāngrán, wǒ qù!",
+    "ko": "좋아요, 가요!",
+    "en": "Why not? Let's go!"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "可惜",
+   "pos": "phrase",
+   "read": "kěxī",
+   "ko": "유감이지만",
+   "en": "I'm afraid",
+   "ex": {
+    "t": "可惜星期六我不能去。",
+    "read": "Kěxī xīngqīliù wǒ bùnéng qù.",
+    "ko": "유감이지만 토요일에는 못 가요.",
+    "en": "I'm afraid I can't come on Saturday."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "接",
+   "pos": "phrase",
+   "read": "jiē",
+   "ko": "데리러 가다",
+   "en": "pick you up",
+   "ex": {
+    "t": "我七点去接你。",
+    "read": "Wǒ qī diǎn qù jiē nǐ.",
+    "ko": "제가 7시에 데리러 갈게요.",
+    "en": "I'll pick you up at seven."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "明天见",
+   "pos": "phrase",
+   "read": "míngtiān jiàn",
+   "ko": "또 봐요",
+   "en": "see you",
+   "ex": {
+    "t": "明天见！",
+    "read": "Míngtiān jiàn!",
+    "ko": "내일 봐요!",
+    "en": "See you tomorrow!"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "邀请和约定：有空吗？想……吗？……吧",
+   "en": "Arrangements: 有空吗？ / 想……吗？ / ……吧"
+  },
+  "explain": {
+   "ko": "问对方有没有时间，用“你有空吗？”：星期六你有空吗？邀请用“你想……吗？”：你想去看电影吗？提议一起做，用“……吧”：我们去喝咖啡吧。已经约好的事用“明天见朋友”这样的现在式。拒绝时说“可惜……”：可惜星期六我不能去。",
+   "en": "Ask about availability with 你有空吗？: 星期六你有空吗？ Invite with 你想……吗？: 你想去看电影吗？ Suggest doing something together with ……吧: 我们去喝咖啡吧。 Arranged plans use plain verbs: 明天见朋友。 Decline with 可惜……: 可惜星期六我不能去。"
+  },
+  "table": {
+   "head": [
+    "说法 / Pattern",
+    "意思 / Meaning",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "你有空吗？",
+     "问时间",
+     "星期六你有空吗？"
+    ],
+    [
+     "你想……吗？",
+     "邀请",
+     "你想去看电影吗？"
+    ],
+    [
+     "……吧",
+     "提议",
+     "我们去喝咖啡吧。"
+    ],
+    [
+     "明天见……",
+     "已约好",
+     "明天我见朋友。"
+    ],
+    [
+     "可惜……",
+     "委婉拒绝",
+     "可惜星期六我不能去。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "接受邀请可以说“好啊”“当然”。",
+    "en": "Accept with 好啊 or 当然."
+   },
+   {
+    "ko": "对朋友常用“……吧？”表示商量。",
+    "en": "With friends 吧 invites agreement."
+   },
+   {
+    "ko": "约定见面用“在 + 地点 + 时间 + 见”。",
+    "en": "Arrange meetings with 在 + place + time + 见."
+   }
+  ],
+  "examples": [
+   {
+    "t": "星期六你有空吗？",
+    "read": "Xīngqīliù nǐ yǒukòng ma?",
+    "ko": "토요일에 시간 돼요?",
+    "en": "Are you free on Saturday?"
+   },
+   {
+    "t": "你想去看电影吗？",
+    "read": "Nǐ xiǎng qù kàn diànyǐng ma?",
+    "ko": "영화 보러 갈래요?",
+    "en": "Would you like to see a film?"
+   },
+   {
+    "t": "我们去喝咖啡吧。",
+    "read": "Wǒmen qù hē kāfēi ba.",
+    "ko": "커피 마시러 가요.",
+    "en": "Let's go for a coffee."
+   },
+   {
+    "t": "我明天见朋友。",
+    "read": "Wǒ míngtiān jiàn péngyou.",
+    "ko": "저는 내일 친구를 만나요.",
+    "en": "I'm meeting a friend tomorrow."
+   },
+   {
+    "t": "可惜星期六我不能去。",
+    "read": "Kěxī xīngqīliù wǒ bùnéng qù.",
+    "ko": "유감이지만 토요일에는 못 가요.",
+    "en": "I'm afraid I can't come on Saturday."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "星期六你有___吗？",
+    "options": [
+     "空",
+     "时",
+     "闲着"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "你想去看电影___？",
+    "options": [
+     "吗",
+     "了",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我们去喝咖啡___。",
+    "options": [
+     "吧",
+     "了",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___星期六我不能去。",
+    "options": [
+     "可惜",
+     "可以",
+     "可能"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "星期六你有空吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 토요일에 시간 돼요?",
+     "en": "(Question) Are you free on Saturday?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "有，怎么了？",
+       "是的，我有。",
+       "不，我是。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你想去看电影吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 영화 보러 갈래요?",
+     "en": "(Question) Would you like to see a film?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "好啊，我很想去。",
+       "是的，我看了。",
+       "是的，是电影。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "星期六你有空吗？"
+      },
+      {
+       "s": "B",
+       "t": "有，怎么了？"
+      },
+      {
+       "s": "A",
+       "t": "我们一起去看电影吧？"
+      },
+      {
+       "s": "B",
+       "t": "好啊！几点见？"
+      },
+      {
+       "s": "A",
+       "t": "七点在电影院门口见。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 토요일에 시간 돼?\nB: 응, 왜?\nA: 같이 영화 보러 갈래?\nB: 좋아! 몇 시에 만날까?\nA: 일곱 시에 영화관 앞에서 보자.",
+     "en": "A: Are you free on Saturday?\nB: Yes. Why?\nA: Would you like to see a film with me?\nB: Why not? What time shall we meet?\nA: Let's meet at seven in front of the cinema."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他们在哪儿见面？",
+      "options": [
+       "聚会",
+       "电影院门口",
+       "咖啡馆"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你好，我是汤姆。星期六我在家开聚会。晚上八点开始。你能来的话请告诉我。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요, 톰이에요. 토요일에 제 집에서 파티를 해요. 저녁 여덟 시에 시작해요. 올 수 있으면 알려 주세요.",
+     "en": "Hello, it's Tom. I'm having a party at my house on Saturday. It starts at eight in the evening. Please tell me if you can come."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "聚会几点开始？",
+      "options": [
+       "六点",
+       "七点",
+       "八点"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你想看哪场电影？"
+      },
+      {
+       "s": "B",
+       "t": "星期六晚上的。"
+      },
+      {
+       "s": "A",
+       "t": "有七点和九点的。"
+      },
+      {
+       "s": "B",
+       "t": "七点的吧。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 영화는 언제 보실래요?\n손님: 토요일 저녁이요.\n직원: 일곱 시와 아홉 시가 있어요.\n손님: 일곱 시로 할게요.",
+     "en": "Clerk: When would you like to see the film?\nCustomer: Saturday evening.\nClerk: There are shows at seven and nine.\nCustomer: Seven, please."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "日期: 星期六______",
+      "answers": [
+       "晚上"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "时间: ______点",
+      "answers": [
+       "七"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 星期六你___空吗？\n2) 你想去看电影___？\n3) 我明天___朋友。",
+    "trans": {
+     "ko": "1) 토요일에 시간 돼요? 2) 영화 보러 갈래요? 3) 저는 내일 친구를 만나요.",
+     "en": "1) Are you free on Saturday? 2) Would you like to see a film? 3) I'm meeting a friend tomorrow."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "星期六你___空吗？",
+      "options": [
+       "有",
+       "在",
+       "是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "你想去看电影___？",
+      "options": [
+       "吗",
+       "呢",
+       "了"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我明天___朋友。",
+      "options": [
+       "见了",
+       "要见",
+       "见过"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好，凯特！星期六你(1)空吗？我们一起吃午饭(2)！十二点在咖啡馆见。那星期六(3)！",
+    "trans": {
+     "ko": "안녕, 케이트! 토요일에 시간 돼? 같이 점심 먹을래? 열두 시에 카페에서 만나자. 그럼 토요일에 봐!",
+     "en": "Hi Kate! Are you free on Saturday? Would you like to have lunch with me? Let's meet at the cafe at twelve. See you on Saturday!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "有",
+       "是",
+       "在"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "吧",
+       "了",
+       "过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "见",
+       "见了",
+       "见过"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "短信\n吉娜：星期天你有空吗？\n汤姆：对不起，星期天我要看奶奶。\n吉娜：那星期六呢？",
+    "trans": {
+     "ko": "메시지\n지나: 일요일에 시간 돼?\n톰: 미안, 일요일엔 할머니를 만나.\n지나: 그럼 토요일은?",
+     "en": "MESSAGES\nGina: Are you free on Sunday?\nTom: Sorry, I'm seeing my grandmother on Sunday.\nGina: What about Saturday?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "汤姆星期天为什么不能见面？",
+      "options": [
+       "他在工作",
+       "他要看奶奶",
+       "他在度假"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "吉娜建议什么时候？",
+      "options": [
+       "星期六",
+       "星期一",
+       "星期五"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "小苏星期五要和朋友见面。他们七点在电影院见。电影结束后他们要吃晚饭。",
+    "trans": {
+     "ko": "수는 금요일에 친구를 만나요. 그들은 일곱 시에 영화관에서 만나요. 영화가 끝나면 저녁을 먹을 거예요.",
+     "en": "Sue is meeting a friend on Friday. They are meeting at seven at the cinema. They are going to have dinner after the film."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "小苏星期五和朋友见面。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "他们九点去电影院。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "他们要吃披萨。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "星期六你有空吗？",
+    "read": "Xīngqīliù nǐ yǒukòng ma?",
+    "ko": "토요일에 시간 돼요?",
+    "en": "Are you free on Saturday?",
+    "situation": {
+     "ko": "시간을 물을 때",
+     "en": "Asking if someone is free"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "你想去看电影吗？",
+    "read": "Nǐ xiǎng qù kàn diànyǐng ma?",
+    "ko": "영화 보러 갈래요?",
+    "en": "Would you like to see a film?",
+    "situation": {
+     "ko": "초대할 때",
+     "en": "Inviting someone"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我们去喝咖啡吧。",
+    "read": "Wǒmen qù hē kāfēi ba.",
+    "ko": "좋아요, 그럼 가요!",
+    "en": "Why not? Let's go!",
+    "situation": {
+     "ko": "수락할 때",
+     "en": "Accepting"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我们几点见面？",
+    "read": "Wǒmen jǐ diǎn jiànmiàn?",
+    "ko": "유감이지만 못 가요.",
+    "en": "I'm afraid I can't come.",
+    "situation": {
+     "ko": "정중하게 거절할 때",
+     "en": "Politely refusing"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "在电影院门口见吧。",
+    "read": "Zài diànyǐngyuàn ménkǒu jiàn ba.",
+    "ko": "몇 시에 만날까요?",
+    "en": "What time shall we meet?",
+    "situation": {
+     "ko": "시간을 정할 때",
+     "en": "Fixing a time"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我明天见朋友。",
+    "read": "Wǒ míngtiān jiàn péngyou.",
+    "ko": "영화관 앞에서 만나요.",
+    "en": "Let's meet in front of the cinema.",
+    "situation": {
+     "ko": "장소를 정할 때",
+     "en": "Fixing a place"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "可惜我不能去。",
+    "read": "Kěxī wǒ bùnéng qù.",
+    "ko": "제가 7시에 데리러 갈게요.",
+    "en": "I'll pick you up at seven.",
+    "situation": {
+     "ko": "데리러 간다고 할 때",
+     "en": "Offering to pick someone up"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我七点去接你。",
+    "read": "Wǒ qī diǎn qù jiē nǐ.",
+    "ko": "내일 봐요!",
+    "en": "See you tomorrow!",
+    "situation": {
+     "ko": "헤어질 때",
+     "en": "Saying goodbye for now"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "你……有空吗？",
+    "read": "Nǐ … yǒukòng ma?",
+    "ko": "~할래요?",
+    "en": "Would you like to ~?"
+   },
+   {
+    "id": "w2",
+    "t": "你想……吗？",
+    "read": "Nǐ xiǎng … ma?",
+    "ko": "~하러 가요.",
+    "en": "Let's ~."
+   },
+   {
+    "id": "w3",
+    "t": "我们……吧。",
+    "read": "Wǒmen … ba.",
+    "ko": "저는 ~에 ~를 만나요.",
+    "en": "I'm meeting ~ on ~."
+   },
+   {
+    "id": "w4",
+    "t": "可惜……。",
+    "read": "Kěxī ….",
+    "ko": "유감이지만 ~할 수 없어요.",
+    "en": "I'm afraid I can't ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "친구에게 주말에 함께 하자고 초대하는 문자를 3문장으로 쓰세요: 시간 확인, 초대, 만날 시간.",
+    "en": "Write a 3-sentence text inviting a friend for the weekend: ask if they're free, invite them, fix a time."
+   },
+   "must_include": [
+    {
+     "label": "你有空吗",
+     "match": [
+      "有空吗"
+     ]
+    },
+    {
+     "label": "你想~吗",
+     "match": [
+      "想"
+     ]
+    },
+    {
+     "label": "我们~吧",
+     "match": [
+      "吧"
+     ]
+    }
+   ],
+   "model": "星期六你有空吗？你想一起去看电影吗？我们七点在电影院门口见吧。",
+   "model_trans": {
+    "ko": "토요일에 시간 돼요? 같이 영화 보러 갈래요? 영화관 앞에서 일곱 시에 만나요.",
+    "en": "Are you free on Saturday? Would you like to see a film with me? Let's meet in front of the cinema at seven."
+   }
+  }
+ }
+}

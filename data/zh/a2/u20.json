@@ -1,0 +1,850 @@
+{
+ "meta": {
+  "id": "zh_a2_u20",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 20,
+  "concept": "A2.U20",
+  "status": "live",
+  "title": {
+   "target": "A2 复习和写邮件",
+   "ko": "A2 종합과 이메일 쓰기",
+   "en": "A2 review and writing an email"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "亲爱的……",
+   "pos": "adj",
+   "read": "qīn'ài de … ",
+   "ko": "~님께 (편지 첫머리)",
+   "en": "dear",
+   "ex": {
+    "t": "亲爱的汤姆，",
+    "read": "Qīn'ài de Tāngmǔ,",
+    "ko": "친애하는 톰에게,",
+    "en": "Dear Tom,"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "祝好",
+   "pos": "noun",
+   "read": "zhùhǎo",
+   "ko": "안부를 전하며 (편지 끝)",
+   "en": "regards",
+   "ex": {
+    "t": "祝好，艾娃",
+    "read": "Zhùhǎo, Àiwá",
+    "ko": "안부를 전하며, 에바",
+    "en": "Best regards, Eva"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "写",
+   "pos": "verb",
+   "read": "xiě",
+   "ko": "쓰다",
+   "en": "write",
+   "ex": {
+    "t": "我很快给你写信。",
+    "read": "Wǒ hěn kuài gěi nǐ xiěxìn.",
+    "ko": "곧 편지 쓸게요.",
+    "en": "I'll write soon."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "关于",
+   "pos": "prep",
+   "read": "guānyú",
+   "ko": "~에 대해",
+   "en": "about",
+   "ex": {
+    "t": "我在写关于我假期的事。",
+    "read": "Wǒ zài xiě guānyú wǒ jiàqī de shì.",
+    "ko": "제 휴가에 대해 쓰고 있어요.",
+    "en": "I'm writing about my holiday."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "希望",
+   "pos": "verb",
+   "read": "xīwàng",
+   "ko": "~하기를 바라다",
+   "en": "hope",
+   "ex": {
+    "t": "希望你过得好。",
+    "read": "Xīwàng nǐ guò de hǎo.",
+    "ko": "잘 지내길 바라요.",
+    "en": "I hope you are well."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "谢谢你的邮件",
+   "pos": "phrase",
+   "read": "xièxie nǐ de yóujiàn",
+   "ko": "~에 감사드립니다",
+   "en": "thank you for",
+   "ex": {
+    "t": "谢谢你的邮件。",
+    "read": "Xièxie nǐ de yóujiàn.",
+    "ko": "이메일 감사합니다.",
+    "en": "Thank you for your email."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "期待",
+   "pos": "phrase",
+   "read": "qīdài",
+   "ko": "~를 기대하다",
+   "en": "looking forward to",
+   "ex": {
+    "t": "我很期待见到你。",
+    "read": "Wǒ hěn qīdài jiàndào nǐ.",
+    "ko": "당신을 만나기를 고대하고 있어요.",
+    "en": "I'm looking forward to seeing you."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "邮件",
+   "pos": "noun",
+   "read": "yóujiàn",
+   "ko": "이메일",
+   "en": "email",
+   "ex": {
+    "t": "我写了一封邮件。",
+    "read": "Wǒ xiě le yì fēng yóujiàn.",
+    "ko": "이메일을 한 통 썼어요.",
+    "en": "I wrote an email."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "回复",
+   "pos": "verb",
+   "read": "huífù",
+   "ko": "답장하다",
+   "en": "reply",
+   "ex": {
+    "t": "请尽快回复我。",
+    "read": "Qǐng jǐnkuài huífù wǒ.",
+    "ko": "곧 답장해 주세요.",
+    "en": "Please reply soon."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "保重",
+   "pos": "phrase",
+   "read": "bǎozhòng",
+   "ko": "행운을 빌며 (편지 끝)",
+   "en": "best wishes",
+   "ex": {
+    "t": "保重，小民",
+    "read": "Bǎozhòng, Xiǎomín",
+    "ko": "행운을 빌며, 민",
+    "en": "Best wishes, Min"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "复习：过去、将来、正在做，以及邮件格式",
+   "en": "Review: past, future, progressive and email format"
+  },
+  "explain": {
+   "ko": "邮件有称呼、正文和结尾：亲爱的汤姆，……祝好，艾娃。正文里用“了”说过去（去了海边），用“打算”说将来（打算去巴黎），用“在”说现在。感谢用“谢谢你的邮件”，请求用“请尽快回复”，表达心情用“期待”。",
+   "en": "An email has a greeting, a body and a closing: 亲爱的汤姆，……祝好，艾娃。 In the body use 了 for the past (去了海边), 打算 for the future (打算去巴黎) and 在 for now. Thank with 谢谢你的邮件, ask with 请尽快回复, and show feeling with 期待."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "称呼",
+     "亲爱的……，",
+     "亲爱的汤姆，"
+    ],
+    [
+     "感谢",
+     "谢谢你的邮件",
+     "谢谢你的邮件。"
+    ],
+    [
+     "过去",
+     "……了",
+     "上个周末我们去了海边。"
+    ],
+    [
+     "将来",
+     "打算……",
+     "下个星期我打算去巴黎。"
+    ],
+    [
+     "结尾",
+     "祝好 / 保重",
+     "祝好，艾娃"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "对朋友可以用“你好”，对工作用“您好”。",
+    "en": "Use 你好 with friends and 您好 in formal mail."
+   },
+   {
+    "ko": "请求可以用“请……”或“你能……吗？”",
+    "en": "Ask with 请…… or 你能……吗？"
+   },
+   {
+    "ko": "结尾前可以加请求回复的句子。",
+    "en": "Add a request for a reply before the closing."
+   }
+  ],
+  "examples": [
+   {
+    "t": "谢谢你的邮件。",
+    "read": "Xièxie nǐ de yóujiàn.",
+    "ko": "이메일 감사합니다.",
+    "en": "Thank you for your email."
+   },
+   {
+    "t": "希望你过得好。",
+    "read": "Xīwàng nǐ guò de hǎo.",
+    "ko": "잘 지내길 바랍니다.",
+    "en": "I hope you are well."
+   },
+   {
+    "t": "上个周末我们去了海边。",
+    "read": "Shàng ge zhōumò wǒmen qù le hǎibiān.",
+    "ko": "지난 주말에 우리는 해변에 갔어요.",
+    "en": "Last weekend we went to the beach."
+   },
+   {
+    "t": "下个月我期待见到你。",
+    "read": "Xià ge yuè wǒ qīdài jiàndào nǐ.",
+    "ko": "다음 달에 당신을 만나기를 고대하고 있어요.",
+    "en": "I'm looking forward to seeing you next month."
+   },
+   {
+    "t": "请尽快回复。",
+    "read": "Qǐng jǐnkuài huífù.",
+    "ko": "가능하면 곧 답장해 주세요.",
+    "en": "Please reply as soon as you can."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "谢谢你的___。",
+    "options": [
+     "邮件",
+     "邮票",
+     "邮局"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "希望你过___好。",
+    "options": [
+     "得",
+     "了",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我很期待___你。",
+    "options": [
+     "见到",
+     "见了",
+     "见过"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "上个周末我们去___海边。",
+    "options": [
+     "了",
+     "着",
+     "吗"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "上个周末你做什么了？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 지난 주말에 뭐 했어요?",
+     "en": "(Question) What did you do last weekend?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我去了海边。",
+       "我去海边。",
+       "我在去海边。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "下个星期你打算做什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 다음 주에 뭐 할 거예요?",
+     "en": "(Question) What are you going to do next week?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我打算去巴黎。",
+       "我去了巴黎。",
+       "我去过巴黎。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你读了邮件吗？她问你好不好。"
+      },
+      {
+       "s": "B",
+       "t": "读了，我要回信。我写上个周末我们去了海边。"
+      },
+      {
+       "s": "A",
+       "t": "也写下个星期的计划。你要去巴黎吧？"
+      },
+      {
+       "s": "B",
+       "t": "对，我还要问她有没有空。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이메일 읽었어? 잘 지내길 바란다고 썼어.\nB: 응, 답장 보낼 거야. 지난 주말에 해변에 갔다고 쓸게.\nA: 다음 주 계획도 써. 파리에 갈 거잖아.\nB: 맞아, 그리고 시간 되는지도 물어볼게.",
+     "en": "A: Did you read the email? She wrote that she hopes you are well.\nB: Yes, I'm going to reply. I'll write that we went to the beach last weekend.\nA: Write about next week too. You're going to visit Paris.\nB: Right, and I'll ask if she is free."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "艾娃在回信里要问什么？",
+      "options": [
+       "海边在哪儿",
+       "朋友有没有空",
+       "现在几点"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你好，我是艾娃。谢谢你的邮件。上个周末我和家人去了海边，玩得很开心。下个星期我打算去巴黎。期待很快见到你。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요, 에바예요. 이메일 감사합니다. 지난 주말에 저는 가족과 해변에 갔어요. 정말 즐거운 시간을 보냈어요. 다음 주에 파리에 갈 거예요. 곧 만나기를 고대하고 있어요.",
+     "en": "Hello, this is Eva. Thank you for your email. Last weekend I went to the beach with my family. We had a really good time. Next week I'm going to visit Paris. I'm looking forward to seeing you soon."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "艾娃下个星期打算做什么？",
+      "options": [
+       "去海边",
+       "去巴黎",
+       "在家"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请告诉我你的邮箱。"
+      },
+      {
+       "s": "B",
+       "t": "eva at mail dot com。"
+      },
+      {
+       "s": "A",
+       "t": "谢谢，我很快回复你。"
+      },
+      {
+       "s": "B",
+       "t": "谢谢。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 이메일 주소를 알려 주세요.\n손님: eva 앳 mail 닷 com이에요.\n직원: 감사합니다. 곧 답장 드릴게요.\n손님: 감사합니다.",
+     "en": "Clerk: Please give me your email address.\nCustomer: It's eva at mail dot com.\nClerk: Thank you. I'll reply soon.\nCustomer: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "邮箱: eva at mail dot ______",
+      "answers": [
+       "com"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "员工很快______你",
+      "answers": [
+       "回复"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 谢谢你的___。\n2) 希望你过___好。\n3) 我很期待___你。",
+    "trans": {
+     "ko": "1) 이메일 감사합니다. 2) 잘 지내길 바랍니다. 3) 다음 달에 당신을 만나기를 고대하고 있어요.",
+     "en": "1) Thank you for your email. 2) I hope you are well. 3) I'm looking forward to seeing you next month."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "谢谢你的___。",
+      "options": [
+       "邮件",
+       "邮票",
+       "邮局"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "希望你过___好。",
+      "options": [
+       "得",
+       "了",
+       "着"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我很期待___你。",
+      "options": [
+       "见到",
+       "见了",
+       "见过"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "亲爱的汤姆，谢谢你的邮件。上个周末我们(1)海边。下个星期我(2)去巴黎。请尽快(3)。祝好，艾娃",
+    "trans": {
+     "ko": "친애하는 톰에게, 이메일 감사해요. 지난 주말에 우리는 해변에 갔어요. 다음 주에 저는 파리에 갈 거예요. 곧 답장해 주세요. 행운을 빌며, 에바",
+     "en": "Dear Tom, Thank you for your email. Last weekend we went to the beach. Next week I'm going to visit Paris. Please reply soon. Best wishes, Eva"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "去",
+       "去了",
+       "去过"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "去了",
+       "打算",
+       "去过"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "回复我",
+       "回复了",
+       "回复过"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "收件箱\n发件人：艾娃\n主题：巴黎之行\n正文：下个星期我去巴黎。星期六你有空吗？",
+    "trans": {
+     "ko": "받은 편지함\n보낸 사람: 에바\n제목: 파리 여행\n본문: 다음 주에 파리에 갈 거예요. 토요일에 시간 돼요?",
+     "en": "INBOX\nFrom: Eva\nSubject: Trip to Paris\nMessage: I'm going to visit Paris next week. Are you free on Saturday?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "邮件的主题是什么？",
+      "options": [
+       "巴黎之行",
+       "海边度假",
+       "聚会"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "艾娃问什么？",
+      "options": [
+       "汤姆星期六有没有空",
+       "汤姆喜不喜欢巴黎",
+       "汤姆会不会做饭"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "艾娃给汤姆写了邮件。她上个周末和家人去了海边。下个星期她要去巴黎。",
+    "trans": {
+     "ko": "에바는 톰에게 이메일을 썼어요. 그녀는 지난 주말에 가족과 해변에 갔어요. 그녀는 다음 주에 파리에 갈 거예요.",
+     "en": "Eva wrote an email to Tom. Last weekend she went to the beach with her family. Next week she is going to visit Paris."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "艾娃给汤姆写了邮件。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "艾娃一个人去了海边。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "艾娃坐火车去巴黎。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "上个周末你做什么了？",
+    "read": "Shàng ge zhōumò nǐ zuò shénme le?",
+    "ko": "이메일 감사합니다.",
+    "en": "Thank you for your email.",
+    "situation": {
+     "ko": "답장을 시작할 때",
+     "en": "Starting a reply"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "下个星期你打算做什么？",
+    "read": "Xià ge xīngqī nǐ dǎsuàn zuò shénme?",
+    "ko": "잘 지내길 바라요.",
+    "en": "I hope you are well.",
+    "situation": {
+     "ko": "안부를 물을 때",
+     "en": "Asking after someone"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "谢谢你的邮件。",
+    "read": "Xièxie nǐ de yóujiàn.",
+    "ko": "지난 주말에 우리는 해변에 갔어요.",
+    "en": "Last weekend we went to the beach.",
+    "situation": {
+     "ko": "지난 일을 전할 때",
+     "en": "Telling about the past"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "希望你过得好。",
+    "read": "Xīwàng nǐ guò de hǎo.",
+    "ko": "다음 주에 파리에 갈 거예요.",
+    "en": "I'm going to visit Paris next week.",
+    "situation": {
+     "ko": "계획을 전할 때",
+     "en": "Telling about plans"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "上个周末我们去了海边。",
+    "read": "Shàng ge zhōumò wǒmen qù le hǎibiān.",
+    "ko": "토요일에 시간 돼요?",
+    "en": "Are you free on Saturday?",
+    "situation": {
+     "ko": "약속을 제안할 때",
+     "en": "Suggesting a meeting"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "下个星期我打算去巴黎。",
+    "read": "Xià ge xīngqī wǒ dǎsuàn qù Bālí.",
+    "ko": "당신을 만나기를 고대하고 있어요.",
+    "en": "I'm looking forward to seeing you.",
+    "situation": {
+     "ko": "기대를 표현할 때",
+     "en": "Saying you look forward to it"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我很期待见到你。",
+    "read": "Wǒ hěn qīdài jiàndào nǐ.",
+    "ko": "가능하면 곧 답장해 주세요.",
+    "en": "Please reply as soon as you can.",
+    "situation": {
+     "ko": "답장을 부탁할 때",
+     "en": "Asking for a reply"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "请尽快回复。",
+    "read": "Qǐng jǐnkuài huífù.",
+    "ko": "행운을 빌며, 민",
+    "en": "Best wishes, Min",
+    "situation": {
+     "ko": "편지를 마무리할 때",
+     "en": "Closing an email"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "亲爱的……，谢谢你的邮件。",
+    "read": "Qīn'ài de …, xièxie nǐ de yóujiàn.",
+    "ko": "~에게,",
+    "en": "Dear ~,"
+   },
+   {
+    "id": "w2",
+    "t": "上个周末……了。",
+    "read": "Shàng ge zhōumò … le.",
+    "ko": "~ 감사합니다.",
+    "en": "Thank you for ~."
+   },
+   {
+    "id": "w3",
+    "t": "下个星期我打算……。",
+    "read": "Xià ge xīngqī wǒ dǎsuàn ….",
+    "ko": "~를 고대하고 있어요.",
+    "en": "I'm looking forward to ~."
+   },
+   {
+    "id": "w4",
+    "t": "祝好。",
+    "read": "Zhùhǎo.",
+    "ko": "행운을 빌며, ~",
+    "en": "Best wishes, ~"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "친구에게 보내는 짧은 이메일을 쓰세요: 안부, 지난 주말에 한 일, 다음 주 계획.",
+    "en": "Write a short email to a friend: ask how they are, tell them what you did last weekend and what you are going to do next week."
+   },
+   "must_include": [
+    {
+     "label": "谢谢你的邮件",
+     "match": [
+      "谢谢"
+     ]
+    },
+    {
+     "label": "希望你过得好",
+     "match": [
+      "希望"
+     ]
+    },
+    {
+     "label": "上个周末~了",
+     "match": [
+      "上个周末"
+     ]
+    },
+    {
+     "label": "下个星期我打算~",
+     "match": [
+      "下个星期"
+     ]
+    },
+    {
+     "label": "祝好",
+     "match": [
+      "祝好"
+     ]
+    }
+   ],
+   "model": "汤姆，你好！谢谢你的邮件。希望你过得好。上个周末我们去了海边。下个星期我打算去巴黎。祝好，艾娃",
+   "model_trans": {
+    "ko": "톰에게, 이메일 고마워. 잘 지내길 바라. 지난 주말에 우리는 해변에 갔어. 다음 주에 나는 파리에 갈 거야. 행운을 빌며, 에바",
+    "en": "Dear Tom, Thank you for your email. I hope you are well. Last weekend we went to the beach. Next week I'm going to visit Paris. Best wishes, Eva"
+   }
+  }
+ }
+}
