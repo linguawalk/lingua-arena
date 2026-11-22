@@ -1,0 +1,748 @@
+{
+ "meta": {
+  "id": "en_a1_u34",
+  "lang": "en",
+  "family": "europe",
+  "level": "a1",
+  "unit": 34,
+  "concept": "A1.U34",
+  "status": "live",
+  "title": {
+   "target": "Giving directions",
+   "ko": "길 안내하기",
+   "en": "Giving directions"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "go straight",
+   "pos": "verb",
+   "ko": "직진하다",
+   "ex": {
+    "t": "Go straight.",
+    "ko": "직진하세요."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "turn left",
+   "pos": "verb",
+   "ko": "왼쪽으로 돌다",
+   "ex": {
+    "t": "Turn left at the next street.",
+    "ko": "다음 길에서 왼쪽으로 도세요."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "turn right",
+   "pos": "verb",
+   "ko": "오른쪽으로 돌다",
+   "ex": {
+    "t": "Turn right at the traffic lights.",
+    "ko": "신호등에서 오른쪽으로 도세요."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "street",
+   "pos": "noun",
+   "ko": "길",
+   "ex": {
+    "t": "Follow this street.",
+    "ko": "이 길을 따라가세요."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "corner",
+   "pos": "noun",
+   "ko": "모퉁이",
+   "ex": {
+    "t": "Turn right at the corner.",
+    "ko": "모퉁이에서 오른쪽으로 도세요."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "traffic lights",
+   "pos": "noun",
+   "ko": "신호등",
+   "ex": {
+    "t": "Turn left at the traffic lights.",
+    "ko": "신호등에서 왼쪽으로 도세요."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "cross",
+   "pos": "verb",
+   "ko": "건너다",
+   "ex": {
+    "t": "Cross the road.",
+    "ko": "길을 건너세요."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "next",
+   "pos": "adj",
+   "ko": "다음",
+   "ex": {
+    "t": "Turn at the next street.",
+    "ko": "다음 길에서 도세요."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "far",
+   "pos": "adv",
+   "ko": "멀리",
+   "ex": {
+    "t": "Is it far from here?",
+    "ko": "여기서 멀어요?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "near",
+   "pos": "adj",
+   "ko": "가까운",
+   "ex": {
+    "t": "The station is near here.",
+    "ko": "역은 여기서 가까워요."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "길 안내 (Turn left / Go straight)",
+   "en": "Giving directions (Turn left / Go straight)"
+  },
+  "explain": {
+   "ko": "길 안내는 명령문으로 말합니다: Go straight. Turn left. Cross the road. 위치는 It's on the left / on the right로 말합니다. 장소 앞에는 at을 씁니다: Turn left at the traffic lights.",
+   "en": "Directions use imperatives: Go straight. Turn left. Cross the road. Say position with It's on the left / on the right. Use at before the place: Turn left at the traffic lights."
+  },
+  "table": {
+   "head": [
+    "표현 / Pattern",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "Go straight",
+     "Go straight."
+    ],
+    [
+     "Turn left / right",
+     "Turn left at the corner."
+    ],
+    [
+     "on the left / right",
+     "It's on the left."
+    ],
+    [
+     "Cross the road",
+     "Cross the road."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "길 안내에는 주어를 쓰지 않아요. 동사부터 말해요.",
+    "en": "In directions the verb comes first with no subject."
+   },
+   {
+    "ko": "on foot은 '걸어서'라는 뜻입니다.",
+    "en": "On foot means by walking."
+   },
+   {
+    "ko": "Then으로 다음 단계를 이어 줍니다.",
+    "en": "Use Then to link steps."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Go straight.",
+    "ko": "직진하세요."
+   },
+   {
+    "t": "Turn left at the next street.",
+    "ko": "다음 길에서 왼쪽으로 도세요."
+   },
+   {
+    "t": "Turn right at the traffic lights.",
+    "ko": "신호등에서 오른쪽으로 도세요."
+   },
+   {
+    "t": "Cross the road.",
+    "ko": "길을 건너세요."
+   },
+   {
+    "t": "The station is near here.",
+    "ko": "역은 여기서 가까워요."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___ straight.",
+    "options": [
+     "Go",
+     "Goes",
+     "Going"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Turn ___ at the corner.",
+    "options": [
+     "right",
+     "rights",
+     "rightly"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "It's ___ the left.",
+    "options": [
+     "on",
+     "in",
+     "at"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___ the road.",
+    "options": [
+     "Cross",
+     "Crosses",
+     "Crossing"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Where is the post office?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 우체국이 어디에 있어요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "Go straight.",
+       "I'm a teacher.",
+       "It's red."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Is it far from here?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 여기서 멀어요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "No, it's near.",
+       "Yes, I am.",
+       "It's Monday."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Excuse me. Where is the bank?"
+      },
+      {
+       "s": "B",
+       "t": "Go straight. Turn left at the traffic lights."
+      },
+      {
+       "s": "A",
+       "t": "Is it far?"
+      },
+      {
+       "s": "B",
+       "t": "No, it's near. The bank is on the right."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 실례합니다. 은행이 어디에 있어요?\nB: 직진하세요. 신호등에서 왼쪽으로 도세요.\nA: 먼가요?\nB: 아니요, 가까워요. 은행은 오른쪽에 있어요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Where is the bank?",
+      "options": [
+       "On the right",
+       "On the left",
+       "Behind the school"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Go straight from the station. Turn right at the corner. The school is on the left. It's five minutes on foot."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "역에서 직진하세요. 모퉁이에서 오른쪽으로 도세요. 학교는 왼쪽에 있어요. 걸어서 5분이에요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "How long is it on foot?",
+      "options": [
+       "5 minutes",
+       "15 minutes",
+       "50 minutes"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Excuse me. Where is the hotel?"
+      },
+      {
+       "s": "B",
+       "t": "Passer-by: Cross the road. Then turn right."
+      },
+      {
+       "s": "A",
+       "t": "Is it far?"
+      },
+      {
+       "s": "B",
+       "t": "Passer-by: No, it's three minutes."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "손님: 실례합니다. 호텔이 어디에 있어요?\n행인: 길을 건너세요. 그다음에 오른쪽으로 도세요.\n손님: 먼가요?\n행인: 아니요, 3분이에요."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "First, ______ the road",
+      "answers": [
+       "cross"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "The hotel is ______ minutes away",
+      "answers": [
+       "three",
+       "3"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___ straight.\n2) ___ left at the next street.\n3) Turn ___ at the traffic lights.",
+    "trans": {
+     "ko": "1) 직진하세요. 2) 다음 길에서 왼쪽으로 도세요. 3) 신호등에서 오른쪽으로 도세요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___ straight.",
+      "options": [
+       "Go",
+       "Goes",
+       "Going"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___ left at the next street.",
+      "options": [
+       "Turn",
+       "Turns",
+       "Turning"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Turn ___ at the traffic lights.",
+      "options": [
+       "right",
+       "rights",
+       "rightly"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "(1) straight from the station. Turn (2) at the corner. The school is (3) the left.",
+    "trans": {
+     "ko": "역에서 직진하세요. 모퉁이에서 오른쪽으로 도세요. 학교는 왼쪽에 있어요. 걸어서 5분이에요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "Go",
+       "Goes",
+       "Going"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "right",
+       "rights",
+       "rightly"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "on",
+       "in",
+       "at"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "DIRECTIONS\nStation → park: straight\nPark → school: left",
+    "trans": {
+     "ko": "길 안내\n역 → 공원: 직진\n공원 → 학교: 왼쪽"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "How do you go from the station to the park?",
+      "options": [
+       "Straight",
+       "Left",
+       "Right"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "How do you go from the park to the school?",
+      "options": [
+       "Left",
+       "Straight",
+       "Right"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Gina is looking for the hotel. She asks a passer-by for the way. The hotel is near.",
+    "trans": {
+     "ko": "지나는 호텔을 찾고 있어요. 그녀는 행인에게 길을 물어요. 호텔은 가까워요."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Gina looks for the hotel.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "The hotel is far.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Gina goes by bus.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Excuse me, where is the post office?",
+    "ko": "실례합니다, 우체국이 어디에 있어요?",
+    "situation": {
+     "ko": "길을 물을 때",
+     "en": "Asking the way"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Go straight.",
+    "ko": "직진하세요.",
+    "situation": {
+     "ko": "직진을 안내할 때",
+     "en": "Telling someone to go straight"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Turn left at the next street.",
+    "ko": "다음 길에서 왼쪽으로 도세요.",
+    "situation": {
+     "ko": "왼쪽을 안내할 때",
+     "en": "Telling someone to turn left"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Turn right at the traffic lights.",
+    "ko": "신호등에서 오른쪽으로 도세요.",
+    "situation": {
+     "ko": "오른쪽을 안내할 때",
+     "en": "Telling someone to turn right"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "The post office is on the left.",
+    "ko": "우체국은 왼쪽에 있어요.",
+    "situation": {
+     "ko": "위치를 말할 때",
+     "en": "Saying where it is"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Is it far from here?",
+    "ko": "여기서 멀어요?",
+    "situation": {
+     "ko": "거리를 물을 때",
+     "en": "Asking the distance"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "No, it's near.",
+    "ko": "아니요, 가까워요.",
+    "situation": {
+     "ko": "가깝다고 말할 때",
+     "en": "Saying it's near"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Thank you!",
+    "ko": "감사합니다!",
+    "situation": {
+     "ko": "고마움을 말할 때",
+     "en": "Thanking"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Go straight.",
+    "ko": "직진하세요."
+   },
+   {
+    "id": "w2",
+    "t": "Turn left at ~.",
+    "ko": "~에서 왼쪽으로 도세요."
+   },
+   {
+    "id": "w3",
+    "t": "~ is on the left / right.",
+    "ko": "~은 왼쪽/오른쪽에 있어요."
+   },
+   {
+    "id": "w4",
+    "t": "Is it far from here?",
+    "ko": "여기서 멀어요?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "역에서 학교까지 가는 길을 3문장으로 써 보세요.",
+    "en": "Write 3 sentences telling the way from the station to the school."
+   },
+   "must_include": [
+    {
+     "label": "Go straight",
+     "match": [
+      "go straight"
+     ]
+    },
+    {
+     "label": "Turn right / left",
+     "match": [
+      "turn right",
+      "turn left"
+     ]
+    },
+    {
+     "label": "on the left / right",
+     "match": [
+      "on the left",
+      "on the right"
+     ]
+    }
+   ],
+   "model": "Go straight. Turn right at the traffic lights. The school is on the left.",
+   "model_trans": {
+    "ko": "직진하세요. 신호등에서 오른쪽으로 도세요. 학교는 왼쪽에 있어요.",
+    "en": "Go straight. Turn right at the traffic lights. The school is on the left."
+   }
+  }
+ }
+}

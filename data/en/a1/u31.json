@@ -1,0 +1,746 @@
+{
+ "meta": {
+  "id": "en_a1_u31",
+  "lang": "en",
+  "family": "europe",
+  "level": "a1",
+  "unit": 31,
+  "concept": "A1.U31",
+  "status": "live",
+  "title": {
+   "target": "Permission and requests",
+   "ko": "허락과 부탁",
+   "en": "Permission and requests"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "open",
+   "pos": "verb",
+   "ko": "열다",
+   "ex": {
+    "t": "Can I open the window?",
+    "ko": "창문을 열어도 돼요?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "close",
+   "pos": "verb",
+   "ko": "닫다",
+   "ex": {
+    "t": "Can you close the door?",
+    "ko": "문을 닫아 주실래요?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "sit",
+   "pos": "verb",
+   "ko": "앉다",
+   "ex": {
+    "t": "Can I sit here?",
+    "ko": "여기에 앉아도 돼요?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "borrow",
+   "pos": "verb",
+   "ko": "빌리다",
+   "ex": {
+    "t": "Can I borrow your pen?",
+    "ko": "펜을 빌려도 돼요?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "help",
+   "pos": "verb",
+   "ko": "돕다",
+   "ex": {
+    "t": "Can you help me?",
+    "ko": "저를 도와줄 수 있어요?"
+   }
+  },
+  {
+   "id": "v6",
+   "t": "call",
+   "pos": "verb",
+   "ko": "전화하다",
+   "ex": {
+    "t": "Please call me.",
+    "ko": "저에게 전화해 주세요."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "of course",
+   "pos": "phr",
+   "ko": "물론이죠",
+   "ex": {
+    "t": "Of course, sit down.",
+    "ko": "물론이죠, 앉으세요."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "sorry",
+   "pos": "phr",
+   "ko": "죄송하지만",
+   "ex": {
+    "t": "Sorry, you can't.",
+    "ko": "죄송하지만 안 돼요."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "wait a moment",
+   "pos": "phr",
+   "ko": "잠깐만요",
+   "ex": {
+    "t": "Wait a moment, please.",
+    "ko": "잠깐만 기다려 주세요."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "please",
+   "pos": "adv",
+   "ko": "부탁합니다",
+   "ex": {
+    "t": "Help me, please.",
+    "ko": "도와주세요, 부탁해요."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "Can I ...? / Can you ...?",
+   "en": "Can I ...? / Can you ...?"
+  },
+  "explain": {
+   "ko": "Can I ...?는 '~해도 될까요?'라는 허락을, Can you ...?는 '~해 주실래요?'라는 부탁을 나타냅니다. 허락할 때는 Yes, of course. / Sure., 거절할 때는 Sorry, you can't. / Sorry, I can't.라고 합니다. please를 붙이면 더 공손해집니다.",
+   "en": "Can I ...? asks for permission and Can you ...? asks someone to do something. Say Yes, of course. or Sure. to agree and Sorry, you can't. or Sorry, I can't. to refuse. Add please to be more polite."
+  },
+  "table": {
+   "head": [
+    "표현 / Pattern",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "Can I + 동사?",
+     "Can I sit here?"
+    ],
+    [
+     "Can you + 동사?",
+     "Can you help me?"
+    ],
+    [
+     "허락",
+     "Yes, of course. / Sure."
+    ],
+    [
+     "거절",
+     "Sorry, you can't."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "Can I는 내가 하는 행동, Can you는 상대가 하는 행동입니다.",
+    "en": "Can I is about my action; Can you is about the other person's action."
+   },
+   {
+    "ko": "Could로 바꾸면 더 정중해집니다.",
+    "en": "Using Could makes it more polite."
+   },
+   {
+    "ko": "부탁에는 please를 붙이면 좋아요.",
+    "en": "Add please to a request."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Can I sit here?",
+    "ko": "여기에 앉아도 돼요?"
+   },
+   {
+    "t": "Can I open the window?",
+    "ko": "창문을 열어도 돼요?"
+   },
+   {
+    "t": "Can you close the door?",
+    "ko": "문을 닫아 주실래요?"
+   },
+   {
+    "t": "Can I borrow your pen?",
+    "ko": "펜을 빌려도 돼요?"
+   },
+   {
+    "t": "Can you help me?",
+    "ko": "저를 도와줄 수 있어요?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___ I sit here?",
+    "options": [
+     "Can",
+     "Do",
+     "Am"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___ you help me?",
+    "options": [
+     "Can",
+     "Are",
+     "Is"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Can I ___ your pen?",
+    "options": [
+     "borrow",
+     "borrows",
+     "borrowing"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Yes, of ___.",
+    "options": [
+     "course",
+     "cours",
+     "curse"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Can I sit here?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 여기에 앉아도 돼요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "Yes, of course.",
+       "Yes, I am.",
+       "It's a chair."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Can you open the window?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 창문을 열어 주실래요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "Sure.",
+       "I'm fine.",
+       "He is open."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Can I borrow your pen?"
+      },
+      {
+       "s": "B",
+       "t": "Of course. Here you are."
+      },
+      {
+       "s": "A",
+       "t": "Thank you. I'll give it back in a moment."
+      },
+      {
+       "s": "B",
+       "t": "That's OK."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 펜을 빌려도 돼요?\nB: 물론이죠. 여기 있어요.\nA: 감사합니다. 잠깐 후에 돌려 드릴게요.\nB: 괜찮아요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What does A borrow?",
+      "options": [
+       "A pen",
+       "A book",
+       "A phone"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "I want to open the window in the classroom. I ask the teacher. The teacher says yes."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 교실에서 창문을 열고 싶어요. 선생님께 물어요. 선생님은 괜찮다고 해요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What does the teacher say?",
+      "options": [
+       "Yes",
+       "No",
+       "Wait"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Can I sit here?"
+      },
+      {
+       "s": "B",
+       "t": "Sorry, you can't. This seat is reserved."
+      },
+      {
+       "s": "A",
+       "t": "What about there?"
+      },
+      {
+       "s": "B",
+       "t": "Yes, that's fine."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "학생: 여기에 앉아도 돼요?\n직원: 죄송하지만 안 돼요. 이 자리는 예약됐어요.\n학생: 그럼 저기는요?\n직원: 네, 저기는 괜찮아요."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Sorry, this seat is ______",
+      "answers": [
+       "reserved"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "The other seat is ______",
+      "answers": [
+       "fine",
+       "ok"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___ I sit here?\n2) ___ you help me?\n3) Can I ___ your pen?",
+    "trans": {
+     "ko": "1) 여기에 앉아도 돼요? 2) 창문을 열어도 돼요? 3) 문을 닫아 주실래요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___ I sit here?",
+      "options": [
+       "Can",
+       "Do",
+       "Am"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___ you help me?",
+      "options": [
+       "Can",
+       "Are",
+       "Is"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Can I ___ your pen?",
+      "options": [
+       "borrow",
+       "borrows",
+       "borrowing"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "I want to (1) the window in the classroom. I (2) the teacher. The teacher says of course. I say (3).",
+    "trans": {
+     "ko": "저는 교실에서 창문을 열고 싶어요. 선생님께 물어요. 선생님은 물론이라고 해요. 저는 감사하다고 말해요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "open",
+       "opens",
+       "opening"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "ask",
+       "asks",
+       "asking"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "thank you",
+       "sorry",
+       "please"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "LIBRARY SIGN\nYou can borrow books.\nYou can't make phone calls.",
+    "trans": {
+     "ko": "도서관 안내\n책을 빌릴 수 있어요.\n전화는 할 수 없어요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What can you do in the library?",
+      "options": [
+       "Borrow books",
+       "Make phone calls",
+       "Sleep"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "What can't you do?",
+      "options": [
+       "Make phone calls",
+       "Borrow books",
+       "Read"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Gina asks, Can I borrow your pen? Her friend says of course. Gina gives the pen back soon.",
+    "trans": {
+     "ko": "지나는 펜을 빌려도 되냐고 물어요. 친구는 물론이라고 해요. 지나는 펜을 금방 돌려줘요."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Gina asks to borrow a pen.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Her friend says no.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Gina's pen is red.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Can I sit here?",
+    "ko": "여기에 앉아도 돼요?",
+    "situation": {
+     "ko": "허락을 구할 때",
+     "en": "Asking for permission"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Yes, of course.",
+    "ko": "네, 물론이죠.",
+    "situation": {
+     "ko": "허락할 때",
+     "en": "Giving permission"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Sorry, you can't.",
+    "ko": "죄송하지만 안 돼요.",
+    "situation": {
+     "ko": "거절할 때",
+     "en": "Saying no"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Can you open the window?",
+    "ko": "창문을 열어 주실래요?",
+    "situation": {
+     "ko": "부탁할 때",
+     "en": "Asking for help"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Can I borrow your pen?",
+    "ko": "펜을 빌려도 돼요?",
+    "situation": {
+     "ko": "빌릴 때",
+     "en": "Borrowing"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Can you help me?",
+    "ko": "저를 도와줄 수 있어요?",
+    "situation": {
+     "ko": "도움을 청할 때",
+     "en": "Asking for help"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Wait a moment, please.",
+    "ko": "잠깐만 기다려 주세요.",
+    "situation": {
+     "ko": "기다리게 할 때",
+     "en": "Asking to wait"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Please call me.",
+    "ko": "제게 전화해 주세요.",
+    "situation": {
+     "ko": "부탁할 때",
+     "en": "Making a request"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Can I ~?",
+    "ko": "~해도 돼요?"
+   },
+   {
+    "id": "w2",
+    "t": "Can you ~?",
+    "ko": "~해 주실래요?"
+   },
+   {
+    "id": "w3",
+    "t": "Yes, of course.",
+    "ko": "네, 물론이죠."
+   },
+   {
+    "id": "w4",
+    "t": "Sorry, you can't.",
+    "ko": "죄송하지만 안 돼요."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "친구에게 허락을 구하는 문장 하나와 부탁하는 문장 하나를 써 보세요.",
+    "en": "Write one sentence asking permission and one asking a friend for help."
+   },
+   "must_include": [
+    {
+     "label": "Can I ~?",
+     "match": [
+      "can i "
+     ]
+    },
+    {
+     "label": "Can you ~?",
+     "match": [
+      "can you "
+     ]
+    },
+    {
+     "label": "Please",
+     "match": [
+      "please"
+     ]
+    }
+   ],
+   "model": "Can I sit here? Can you help me? Please.",
+   "model_trans": {
+    "ko": "여기에 앉아도 돼요? 저를 도와줄 수 있어요? 부탁해요.",
+    "en": "Can I sit here? Can you help me? Please."
+   }
+  }
+ }
+}

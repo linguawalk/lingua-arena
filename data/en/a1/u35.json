@@ -1,0 +1,747 @@
+{
+ "meta": {
+  "id": "en_a1_u35",
+  "lang": "en",
+  "family": "europe",
+  "level": "a1",
+  "unit": 35,
+  "concept": "A1.U35",
+  "status": "live",
+  "title": {
+   "target": "Tickets and stations",
+   "ko": "표와 역",
+   "en": "Tickets and stations"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "ticket",
+   "pos": "noun",
+   "ko": "표",
+   "ex": {
+    "t": "I want to buy a ticket.",
+    "ko": "표를 한 장 사고 싶어요."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "single",
+   "pos": "noun",
+   "ko": "편도",
+   "ex": {
+    "t": "A single ticket, please.",
+    "ko": "편도 한 장 주세요."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "return",
+   "pos": "noun",
+   "ko": "왕복",
+   "ex": {
+    "t": "A return ticket, please.",
+    "ko": "왕복표 한 장 주세요."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "train",
+   "pos": "noun",
+   "ko": "기차",
+   "ex": {
+    "t": "The train leaves at ten o'clock.",
+    "ko": "기차는 열 시에 출발해요."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "platform",
+   "pos": "noun",
+   "ko": "승강장",
+   "ex": {
+    "t": "The train leaves from platform three.",
+    "ko": "기차는 3번 승강장에서 출발해요."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "leave",
+   "pos": "verb",
+   "ko": "출발하다",
+   "ex": {
+    "t": "When does the train leave?",
+    "ko": "기차는 언제 출발해요?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "arrive",
+   "pos": "verb",
+   "ko": "도착하다",
+   "ex": {
+    "t": "The train arrives at twelve.",
+    "ko": "기차는 열두 시에 도착해요."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "how much",
+   "pos": "adv",
+   "ko": "얼마",
+   "ex": {
+    "t": "How much is a ticket?",
+    "ko": "표는 얼마예요?"
+   }
+  },
+  {
+   "id": "v9",
+   "t": "station",
+   "pos": "noun",
+   "ko": "역",
+   "ex": {
+    "t": "The station is in the city.",
+    "ko": "역은 시내에 있어요."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "timetable",
+   "pos": "noun",
+   "ko": "시간표",
+   "ex": {
+    "t": "Look at the timetable.",
+    "ko": "시간표를 보세요."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "표 사기와 출발 시간",
+   "en": "Buying tickets and departure times"
+  },
+  "explain": {
+   "ko": "표를 살 때는 A ticket to + 장소, please를 씁니다. single은 편도, return은 왕복입니다. 시간을 물을 때는 What time does the train leave?라고 하고, 시간표에 있는 일은 현재형으로 말합니다: The train leaves at ten.",
+   "en": "To buy a ticket say A ticket to + place, please. Single means one way and return means both ways. Ask the time with What time does the train leave? and give timetable times in the present simple: The train leaves at ten."
+  },
+  "table": {
+   "head": [
+    "표현 / Pattern",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "A ticket to ~, please",
+     "A ticket to Seoul, please."
+    ],
+    [
+     "single / return",
+     "Single or return?"
+    ],
+    [
+     "What time does ~?",
+     "What time does the train leave?"
+    ],
+    [
+     "platform + 번호",
+     "platform three"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "he / she / it / the train에는 leaves처럼 -s를 붙입니다.",
+    "en": "With the train use leaves with -s."
+   },
+   {
+    "ko": "시각 앞에는 at: at ten o'clock.",
+    "en": "Use at before a time: at ten o'clock."
+   },
+   {
+    "ko": "platform 뒤에는 숫자를 씁니다.",
+    "en": "Use a number after platform."
+   }
+  ],
+  "examples": [
+   {
+    "t": "A single ticket, please.",
+    "ko": "편도 한 장 주세요."
+   },
+   {
+    "t": "What time does the train leave?",
+    "ko": "기차는 몇 시에 출발해요?"
+   },
+   {
+    "t": "The train leaves at ten o'clock.",
+    "ko": "기차는 열 시에 출발해요."
+   },
+   {
+    "t": "How much is a ticket?",
+    "ko": "표는 얼마예요?"
+   },
+   {
+    "t": "The train leaves from platform three.",
+    "ko": "기차는 3번 승강장에서 출발해요."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "A ticket ___ Seoul, please.",
+    "options": [
+     "to",
+     "at",
+     "in"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "The train ___ at ten.",
+    "options": [
+     "leaves",
+     "leave",
+     "leaving"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "What time ___ the train leave?",
+    "options": [
+     "does",
+     "do",
+     "is"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "It leaves from ___ three.",
+    "options": [
+     "platform",
+     "plateform",
+     "plate"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Single or return?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 편도예요, 왕복이에요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "Return, please.",
+       "Yes, I am.",
+       "It's ten."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "What time does the train leave?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 기차는 몇 시에 출발해요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "At ten o'clock.",
+       "On platform three.",
+       "Twenty dollars."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "One ticket to Seoul, please."
+      },
+      {
+       "s": "B",
+       "t": "Single or return?"
+      },
+      {
+       "s": "A",
+       "t": "Return, please. How much is it?"
+      },
+      {
+       "s": "B",
+       "t": "It's twenty dollars."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 서울행 표 한 장 주세요.\nB: 편도예요, 왕복이에요?\nA: 왕복이요. 얼마예요?\nB: 20달러예요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "How much is the ticket?",
+      "options": [
+       "$20",
+       "$15",
+       "$12"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "The train to Seoul leaves at ten o'clock. It leaves from platform three. It arrives at twelve."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "서울행 기차는 열 시에 출발해요. 기차는 3번 승강장에서 출발해요. 기차는 열두 시에 도착해요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "When does the train arrive?",
+      "options": [
+       "At twelve",
+       "At ten",
+       "At eleven"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "One ticket to Busan, please."
+      },
+      {
+       "s": "B",
+       "t": "Single or return?"
+      },
+      {
+       "s": "A",
+       "t": "Single."
+      },
+      {
+       "s": "B",
+       "t": "It's fifteen dollars."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "손님: 부산행 표 한 장 주세요.\n직원: 편도예요, 왕복이에요?\n손님: 편도요.\n직원: 15달러예요."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Ticket to ______",
+      "answers": [
+       "busan"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Price: ______ dollars",
+      "answers": [
+       "fifteen",
+       "15"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) A single ticket, ___.\n2) What time ___ the train leave?\n3) The train ___ at ten.",
+    "trans": {
+     "ko": "1) 편도 한 장 주세요. 2) 기차는 몇 시에 출발해요? 3) 표는 얼마예요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "A single ticket, ___.",
+      "options": [
+       "please",
+       "thanks",
+       "sorry"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "What time ___ the train leave?",
+      "options": [
+       "does",
+       "do",
+       "is"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "The train ___ at ten.",
+      "options": [
+       "leaves",
+       "leave",
+       "leaving"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "The train to Seoul (1) at ten o'clock. It leaves from (2) three. It arrives (3) twelve.",
+    "trans": {
+     "ko": "서울행 기차는 열 시에 출발해요. 기차는 3번 승강장에서 출발해요. 기차는 열두 시에 도착해요. 표는 20달러예요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "leaves",
+       "leave",
+       "leaving"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "platform",
+       "plateform",
+       "plate"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "at",
+       "on",
+       "in"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "TIMETABLE\nSeoul 10:00 platform 3\nBusan 11:30 platform 5",
+    "trans": {
+     "ko": "시간표\n서울행 10:00 3번 승강장\n부산행 11:30 5번 승강장"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What time is the train to Seoul?",
+      "options": [
+       "10:00",
+       "11:30",
+       "12:00"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Which platform is Busan?",
+      "options": [
+       "5",
+       "3",
+       "1"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Gina goes to Seoul. She buys a return ticket. She waits for the train.",
+    "trans": {
+     "ko": "지나는 서울에 가요. 그녀는 왕복표를 사요. 그녀는 기차를 기다려요."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Gina goes to Seoul.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Gina buys a single ticket.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Gina goes by bus.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "One ticket to Seoul, please.",
+    "ko": "서울행 표 한 장 주세요.",
+    "situation": {
+     "ko": "표를 살 때",
+     "en": "Buying a ticket"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Single or return?",
+    "ko": "편도예요, 왕복이에요?",
+    "situation": {
+     "ko": "종류를 물을 때",
+     "en": "Asking the type"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Return, please.",
+    "ko": "왕복이요.",
+    "situation": {
+     "ko": "왕복이라고 답할 때",
+     "en": "Answering return"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "How much is the ticket?",
+    "ko": "표는 얼마예요?",
+    "situation": {
+     "ko": "가격을 물을 때",
+     "en": "Asking the price"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "What time does the train leave?",
+    "ko": "기차는 몇 시에 출발해요?",
+    "situation": {
+     "ko": "출발 시간을 물을 때",
+     "en": "Asking the time"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "The train leaves at ten.",
+    "ko": "기차는 열 시에 출발해요.",
+    "situation": {
+     "ko": "출발 시간을 말할 때",
+     "en": "Giving the time"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Which platform is it?",
+    "ko": "몇 번 승강장이에요?",
+    "situation": {
+     "ko": "승강장을 물을 때",
+     "en": "Asking the platform"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "It's platform three.",
+    "ko": "3번 승강장이에요.",
+    "situation": {
+     "ko": "승강장을 말할 때",
+     "en": "Giving the platform"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "One ticket to ~, please.",
+    "ko": "~행 표 한 장 주세요."
+   },
+   {
+    "id": "w2",
+    "t": "Single / Return, please.",
+    "ko": "편도 / 왕복이요."
+   },
+   {
+    "id": "w3",
+    "t": "What time does the train leave?",
+    "ko": "기차는 몇 시에 출발해요?"
+   },
+   {
+    "id": "w4",
+    "t": "It's platform ~.",
+    "ko": "~번 승강장이에요."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "표를 사는 대화를 3문장으로 써 보세요.",
+    "en": "Write 3 sentences for buying a train ticket."
+   },
+   "must_include": [
+    {
+     "label": "A ticket to ~",
+     "match": [
+      "ticket to"
+     ]
+    },
+    {
+     "label": "return / single",
+     "match": [
+      "return",
+      "single"
+     ]
+    },
+    {
+     "label": "What time ~",
+     "match": [
+      "what time"
+     ]
+    }
+   ],
+   "model": "One ticket to Seoul, please. Return, please. What time does the train leave?",
+   "model_trans": {
+    "ko": "서울행 표 한 장 주세요. 왕복이요. 기차는 몇 시에 출발해요?",
+    "en": "One ticket to Seoul, please. Return, please. What time does the train leave?"
+   }
+  }
+ }
+}

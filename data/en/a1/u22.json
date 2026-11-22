@@ -1,0 +1,745 @@
+{
+ "meta": {
+  "id": "en_a1_u22",
+  "lang": "en",
+  "family": "europe",
+  "level": "a1",
+  "unit": 22,
+  "concept": "A1.U22",
+  "status": "live",
+  "title": {
+   "target": "Languages",
+   "ko": "언어",
+   "en": "Languages"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "speak",
+   "pos": "verb",
+   "ko": "말하다",
+   "ex": {
+    "t": "I speak English.",
+    "ko": "저는 영어를 말해요."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "understand",
+   "pos": "verb",
+   "ko": "이해하다",
+   "ex": {
+    "t": "I understand French.",
+    "ko": "저는 프랑스어를 이해해요."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "English",
+   "pos": "noun",
+   "ko": "영어",
+   "ex": {
+    "t": "English is not difficult.",
+    "ko": "영어는 어렵지 않아요."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "Korean",
+   "pos": "noun",
+   "ko": "한국어",
+   "ex": {
+    "t": "I speak Korean.",
+    "ko": "저는 한국어를 말해요."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "Spanish",
+   "pos": "noun",
+   "ko": "스페인어",
+   "ex": {
+    "t": "She learns Spanish.",
+    "ko": "그녀는 스페인어를 배워요."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "a little",
+   "pos": "adv",
+   "ko": "조금",
+   "ex": {
+    "t": "I speak a little Japanese.",
+    "ko": "저는 일본어를 조금 말해요."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "well",
+   "pos": "adv",
+   "ko": "잘",
+   "ex": {
+    "t": "He speaks English well.",
+    "ko": "그는 영어를 잘 말해요."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "learn",
+   "pos": "verb",
+   "ko": "배우다",
+   "ex": {
+    "t": "We learn Chinese.",
+    "ko": "우리는 중국어를 배워요."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "word",
+   "pos": "noun",
+   "ko": "단어",
+   "ex": {
+    "t": "What does this word mean?",
+    "ko": "이 단어가 무슨 뜻이에요?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "slowly",
+   "pos": "adv",
+   "ko": "천천히",
+   "ex": {
+    "t": "Please speak slowly.",
+    "ko": "천천히 말해 주세요."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "언어에 관한 표현 (speak, understand, a little)",
+   "en": "Talking about languages (speak, understand, a little)"
+  },
+  "explain": {
+   "ko": "언어는 'speak + 언어'로 말합니다. 'a little'은 '조금', 'well'은 '잘'이라는 뜻이고 동사 뒤에 옵니다. 못 알아들으면 I don't understand라고 말합니다.",
+   "en": "Say a language with speak + language. 'a little' and 'well' tell how much or how good, and they come after the verb phrase. If you can't follow, say I don't understand."
+  },
+  "table": {
+   "head": [
+    "표현 / Pattern",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "speak + 언어",
+     "I speak English."
+    ],
+    [
+     "a little",
+     "I speak a little Korean."
+    ],
+    [
+     "well",
+     "She speaks English well."
+    ],
+    [
+     "don't understand",
+     "I don't understand."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "언어 이름은 대문자로 씁니다: English, Korean.",
+    "en": "Language names start with a capital letter: English, Korean."
+   },
+   {
+    "ko": "he / she / it에는 speaks를 씁니다.",
+    "en": "With he / she / it use speaks."
+   },
+   {
+    "ko": "well은 목적어 뒤에 옵니다: She speaks English well.",
+    "en": "'well' comes after the object: She speaks English well."
+   }
+  ],
+  "examples": [
+   {
+    "t": "I speak English.",
+    "ko": "저는 영어를 말해요."
+   },
+   {
+    "t": "She speaks Korean well.",
+    "ko": "그녀는 한국어를 잘 말해요."
+   },
+   {
+    "t": "I speak a little Japanese.",
+    "ko": "저는 일본어를 조금 말해요."
+   },
+   {
+    "t": "Do you speak French?",
+    "ko": "당신은 프랑스어를 말해요?"
+   },
+   {
+    "t": "Please speak slowly.",
+    "ko": "천천히 말해 주세요."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "I ___ English.",
+    "options": [
+     "speak",
+     "speaks",
+     "speaking"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "She ___ Korean well.",
+    "options": [
+     "speak",
+     "speaks",
+     "speaking"
+    ],
+    "answer": 1,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "I speak a ___ Japanese.",
+    "options": [
+     "little",
+     "well",
+     "much"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "I don't ___.",
+    "options": [
+     "understand",
+     "understands",
+     "understanding"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Do you speak English?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 영어를 말해요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "Yes, a little.",
+       "No, I'm not.",
+       "It's Monday."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "What does this word mean?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 단어는 무슨 뜻이에요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "It means 'book'.",
+       "I'm from Korea.",
+       "Yes, I do."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Do you speak French?"
+      },
+      {
+       "s": "B",
+       "t": "Yes, a little. Please speak slowly."
+      },
+      {
+       "s": "A",
+       "t": "OK. Do you speak English too?"
+      },
+      {
+       "s": "B",
+       "t": "Yes, I speak English well."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 프랑스어를 말해요?\nB: 네, 조금 말해요. 천천히 말해 주세요.\nA: 알겠어요. 영어도 말해요?\nB: 네, 영어는 잘 말해요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "How well does B speak English?",
+      "options": [
+       "A little",
+       "Well",
+       "Not at all"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "I speak Korean. I speak a little English. Now I learn Spanish."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 한국어를 말해요. 저는 영어를 조금 말해요. 지금은 스페인어를 배워요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What does the speaker learn now?",
+      "options": [
+       "Spanish",
+       "English",
+       "Korean"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Do you speak English?"
+      },
+      {
+       "s": "B",
+       "t": "A little."
+      },
+      {
+       "s": "A",
+       "t": "What language do you learn?"
+      },
+      {
+       "s": "B",
+       "t": "Japanese."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 영어를 말해요?\n손님: 조금 말해요.\n직원: 어떤 언어를 배워요?\n손님: 일본어요."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Language: ______",
+      "answers": [
+       "japanese"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "English: A ______",
+      "answers": [
+       "little"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) I ___ English.\n2) She speaks Korean ___.\n3) Please speak ___.",
+    "trans": {
+     "ko": "1) 저는 영어를 말해요. 2) 그녀는 한국어를 잘 말해요. 3) 천천히 말해 주세요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "I ___ English.",
+      "options": [
+       "speak",
+       "speaks",
+       "speaking"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "She speaks Korean ___.",
+      "options": [
+       "well",
+       "good",
+       "a little"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Please speak ___.",
+      "options": [
+       "slowly",
+       "slow",
+       "slower"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "My name is Sophie. I (1) French and English. I speak (2) Korean. Now I (3) Korean.",
+    "trans": {
+     "ko": "제 이름은 소피예요. 저는 프랑스어와 영어를 말해요. 저는 한국어를 조금 말해요. 지금 저는 한국어를 배워요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "speak",
+       "speaks",
+       "speaking"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "a little",
+       "a lot",
+       "much"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "learn",
+       "learns",
+       "learning"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "LANGUAGE CLASS\nMonday: English\nWednesday: Spanish",
+    "trans": {
+     "ko": "언어 수업\n월요일: 영어\n수요일: 스페인어"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is on Monday?",
+      "options": [
+       "English",
+       "Spanish",
+       "French"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "When is Spanish?",
+      "options": [
+       "Monday",
+       "Wednesday",
+       "Friday"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Tom speaks Japanese well. He speaks a little Chinese. He doesn't speak German.",
+    "trans": {
+     "ko": "톰은 일본어를 잘 말해요. 그는 중국어를 조금 말해요. 그는 독일어를 말하지 않아요."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Tom speaks Japanese well.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Tom speaks German.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Tom lives in Tokyo.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Do you speak English?",
+    "ko": "영어 말해요?",
+    "situation": {
+     "ko": "언어를 물을 때",
+     "en": "Asking about a language"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Yes, a little.",
+    "ko": "네, 조금 말해요.",
+    "situation": {
+     "ko": "조금 한다고 말할 때",
+     "en": "Saying you speak a little"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "I speak Korean.",
+    "ko": "저는 한국어를 말해요.",
+    "situation": {
+     "ko": "언어를 말할 때",
+     "en": "Saying what you speak"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "I don't understand.",
+    "ko": "이해하지 못해요.",
+    "situation": {
+     "ko": "이해하지 못했을 때",
+     "en": "When you don't understand"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Please speak slowly.",
+    "ko": "천천히 말해 주세요.",
+    "situation": {
+     "ko": "부탁할 때",
+     "en": "Asking someone to slow down"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Please say it again.",
+    "ko": "다시 말해 주세요.",
+    "situation": {
+     "ko": "반복을 부탁할 때",
+     "en": "Asking someone to repeat"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "What does this word mean?",
+    "ko": "이 단어는 무슨 뜻이에요?",
+    "situation": {
+     "ko": "뜻을 물을 때",
+     "en": "Asking for a meaning"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "I'm learning Spanish.",
+    "ko": "저는 스페인어를 배워요.",
+    "situation": {
+     "ko": "배우는 중이라고 말할 때",
+     "en": "Saying what you learn"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "I speak ~.",
+    "ko": "저는 ~를 말해요."
+   },
+   {
+    "id": "w2",
+    "t": "I speak a little ~.",
+    "ko": "저는 ~를 조금 말해요."
+   },
+   {
+    "id": "w3",
+    "t": "I don't understand.",
+    "ko": "저는 이해하지 못해요."
+   },
+   {
+    "id": "w4",
+    "t": "Please speak slowly.",
+    "ko": "천천히 말해 주세요."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "어떤 언어를 말하는지 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about the languages you speak."
+   },
+   "must_include": [
+    {
+     "label": "I speak ~",
+     "match": [
+      "i speak "
+     ]
+    },
+    {
+     "label": "a little",
+     "match": [
+      "a little"
+     ]
+    },
+    {
+     "label": "I learn ~",
+     "match": [
+      "i learn"
+     ]
+    }
+   ],
+   "model": "I speak Korean. I speak a little English. I learn Spanish.",
+   "model_trans": {
+    "ko": "저는 한국어를 말해요. 저는 영어를 조금 말해요. 저는 스페인어를 배워요.",
+    "en": "I speak Korean. I speak a little English. I learn Spanish."
+   }
+  }
+ }
+}

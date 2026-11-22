@@ -1,0 +1,749 @@
+{
+ "meta": {
+  "id": "en_a1_u37",
+  "lang": "en",
+  "family": "europe",
+  "level": "a1",
+  "unit": 37,
+  "concept": "A1.U37",
+  "status": "live",
+  "title": {
+   "target": "Dates, months and birthdays",
+   "ko": "날짜, 달과 생일",
+   "en": "Dates, months and birthdays"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "birthday",
+   "pos": "noun",
+   "ko": "생일",
+   "ex": {
+    "t": "My birthday is in May.",
+    "ko": "제 생일은 5월이에요."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "month",
+   "pos": "noun",
+   "ko": "달",
+   "ex": {
+    "t": "A month has thirty days.",
+    "ko": "한 달은 30일이에요."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "January",
+   "pos": "noun",
+   "ko": "1월",
+   "ex": {
+    "t": "January is cold.",
+    "ko": "1월은 추워요."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "May",
+   "pos": "noun",
+   "ko": "5월",
+   "ex": {
+    "t": "May is warm.",
+    "ko": "5월은 따뜻해요."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "December",
+   "pos": "noun",
+   "ko": "12월",
+   "ex": {
+    "t": "It snows in December.",
+    "ko": "12월에는 눈이 와요."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "first",
+   "pos": "adj",
+   "ko": "첫 번째",
+   "ex": {
+    "t": "May the first is the first day.",
+    "ko": "5월 1일은 첫 번째 날이에요."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "second",
+   "pos": "adj",
+   "ko": "두 번째",
+   "ex": {
+    "t": "It's the second Monday.",
+    "ko": "두 번째 월요일이에요."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "third",
+   "pos": "adj",
+   "ko": "세 번째",
+   "ex": {
+    "t": "Go to the third door.",
+    "ko": "세 번째 문으로 가세요."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "date",
+   "pos": "noun",
+   "ko": "날짜",
+   "ex": {
+    "t": "What's the date today?",
+    "ko": "오늘 날짜가 뭐예요?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "today",
+   "pos": "adv",
+   "ko": "오늘",
+   "ex": {
+    "t": "Today is Monday.",
+    "ko": "오늘은 월요일이에요."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "날짜 말하기 (서수와 on)",
+   "en": "Saying dates (ordinals and on)"
+  },
+  "explain": {
+   "ko": "월 이름은 항상 대문자로 씁니다: January, May. 월에는 in을, 날짜에는 on을 씁니다: in May, on May third. 날짜는 서수로 읽습니다: 1st = first, 2nd = second, 3rd = third, 4th = fourth.",
+   "en": "Month names always start with a capital letter: January, May. Use in with months and on with dates: in May, on May third. Dates are read as ordinal numbers: 1st = first, 2nd = second, 3rd = third, 4th = fourth."
+  },
+  "table": {
+   "head": [
+    "표현 / Pattern",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "in + 월",
+     "in May"
+    ],
+    [
+     "on + 날짜",
+     "on May third"
+    ],
+    [
+     "서수",
+     "first, second, third, fourth"
+    ],
+    [
+     "When is ~?",
+     "When is your birthday?"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "서수는 숫자 뒤에 -th를 붙이는 것이 많지만 first, second, third는 불규칙입니다.",
+    "en": "Most ordinals end in -th, but first, second, third are irregular."
+   },
+   {
+    "ko": "월 이름은 대문자로 시작합니다.",
+    "en": "Month names start with a capital letter."
+   },
+   {
+    "ko": "날짜 앞의 the는 말할 때 쓸 수 있어요: the third of May.",
+    "en": "You can say the third of May."
+   }
+  ],
+  "examples": [
+   {
+    "t": "My birthday is on May third.",
+    "ko": "제 생일은 5월 3일이에요."
+   },
+   {
+    "t": "What's the date today?",
+    "ko": "오늘 날짜가 뭐예요?"
+   },
+   {
+    "t": "Today is the tenth of June.",
+    "ko": "오늘은 6월 10일이에요."
+   },
+   {
+    "t": "When is your birthday?",
+    "ko": "생일이 언제예요?"
+   },
+   {
+    "t": "January is cold.",
+    "ko": "1월은 추워요."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "My birthday is ___ May.",
+    "options": [
+     "in",
+     "on",
+     "at"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "My birthday is ___ May third.",
+    "options": [
+     "on",
+     "in",
+     "at"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "May 1st is the ___ day.",
+    "options": [
+     "first",
+     "one",
+     "oneth"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___ is your birthday?",
+    "options": [
+     "When",
+     "Where",
+     "Who"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "When is your birthday?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 생일이 언제예요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "It's on May third.",
+       "It's Monday.",
+       "I'm twenty."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "What's the date today?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 오늘 날짜가 뭐예요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "It's June tenth.",
+       "It's six o'clock.",
+       "It's sunny."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "When is your birthday?"
+      },
+      {
+       "s": "B",
+       "t": "It's on May third. And yours?"
+      },
+      {
+       "s": "A",
+       "t": "My birthday is on December twenty-fifth."
+      },
+      {
+       "s": "B",
+       "t": "Wow, it's Christmas!"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 생일이 언제예요?\nB: 5월 3일이에요. 당신은요?\nA: 제 생일은 12월 25일이에요.\nB: 와, 크리스마스네요!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "When is A's birthday?",
+      "options": [
+       "December 25",
+       "May 3",
+       "June 12"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Today is June tenth. My friend's birthday is on June twelfth. We have a party on Saturday."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "오늘은 6월 10일이에요. 제 친구의 생일은 6월 12일이에요. 우리는 토요일에 파티를 해요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "When is the friend's birthday?",
+      "options": [
+       "June 12",
+       "June 10",
+       "June 15"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "When is your birthday?"
+      },
+      {
+       "s": "B",
+       "t": "March twenty-first."
+      },
+      {
+       "s": "A",
+       "t": "What's your name?"
+      },
+      {
+       "s": "B",
+       "t": "Hana Lee."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 생일이 언제예요?\n손님: 3월 21일이에요.\n직원: 이름이 뭐예요?\n손님: 해나 리예요."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Birthday: March ______",
+      "answers": [
+       "twenty-first",
+       "21",
+       "21st",
+       "twenty first"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Name: Hana ______",
+      "answers": [
+       "lee"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) My birthday is ___ May.\n2) My birthday is ___ May third.\n3) ___ is your birthday?",
+    "trans": {
+     "ko": "1) 제 생일은 5월 3일이에요. 2) 오늘은 6월 10일이에요. 3) 1월은 추워요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "My birthday is ___ May.",
+      "options": [
+       "in",
+       "on",
+       "at"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "My birthday is ___ May third.",
+      "options": [
+       "on",
+       "in",
+       "at"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___ is your birthday?",
+      "options": [
+       "When",
+       "Where",
+       "Who"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Today is June tenth. My friend's birthday is (1) June twelfth. We have a party (2) Saturday. I (3) a cake.",
+    "trans": {
+     "ko": "오늘은 6월 10일이에요. 제 친구의 생일은 6월 12일이에요. 우리는 토요일에 파티를 해요. 저는 케이크를 사요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "on",
+       "in",
+       "at"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "on",
+       "in",
+       "at"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "buy",
+       "buys",
+       "buying"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "BIRTHDAY CALENDAR\nAnna: March 5\nTom: July 20",
+    "trans": {
+     "ko": "생일 달력\n안나: 3월 5일\n톰: 7월 20일"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "When is Anna's birthday?",
+      "options": [
+       "March 5",
+       "July 20",
+       "May 3"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "When is Tom's birthday?",
+      "options": [
+       "July 20",
+       "March 5",
+       "June 10"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Hana's birthday is on March twenty-first. She was born in spring. She doesn't like summer.",
+    "trans": {
+     "ko": "해나의 생일은 3월 21일이에요. 그녀는 봄에 태어났어요. 그녀는 여름을 좋아하지 않아요."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Hana was born in spring.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Hana likes summer.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Hana has a sister.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "When is your birthday?",
+    "ko": "생일이 언제예요?",
+    "situation": {
+     "ko": "생일을 물을 때",
+     "en": "Asking about a birthday"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "My birthday is on May third.",
+    "ko": "제 생일은 5월 3일이에요.",
+    "situation": {
+     "ko": "생일을 말할 때",
+     "en": "Saying your birthday"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "What's the date today?",
+    "ko": "오늘 날짜가 뭐예요?",
+    "situation": {
+     "ko": "날짜를 물을 때",
+     "en": "Asking the date"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "It's June tenth.",
+    "ko": "오늘은 6월 10일이에요.",
+    "situation": {
+     "ko": "날짜를 말할 때",
+     "en": "Saying the date"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "The party is on May tenth.",
+    "ko": "파티는 5월 10일에 있어요.",
+    "situation": {
+     "ko": "행사 날짜",
+     "en": "Date of an event"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "January is cold.",
+    "ko": "1월은 추워요.",
+    "situation": {
+     "ko": "월을 말할 때",
+     "en": "Talking about a month"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "My birthday is in December.",
+    "ko": "제 생일은 12월에 있어요.",
+    "situation": {
+     "ko": "월을 말할 때",
+     "en": "Saying the month"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Happy birthday!",
+    "ko": "생일 축하해요!",
+    "situation": {
+     "ko": "축하할 때",
+     "en": "Congratulating"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "My birthday is on ~.",
+    "ko": "제 생일은 ~월 ~일이에요."
+   },
+   {
+    "id": "w2",
+    "t": "It is in ~ (month).",
+    "ko": "~월에 있어요."
+   },
+   {
+    "id": "w3",
+    "t": "Today is ~.",
+    "ko": "오늘은 ~월 ~일이에요."
+   },
+   {
+    "id": "w4",
+    "t": "~ is on ~.",
+    "ko": "~은 ~일에 있어요."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "자신의 생일과 오늘 날짜를 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about your birthday and today's date."
+   },
+   "must_include": [
+    {
+     "label": "My birthday is ~",
+     "match": [
+      "my birthday is"
+     ]
+    },
+    {
+     "label": "Today is ~",
+     "match": [
+      "today is"
+     ]
+    },
+    {
+     "label": "in / on + 날짜",
+     "match": [
+      " on ",
+      " in "
+     ]
+    }
+   ],
+   "model": "My birthday is on May third. Today is June tenth. May is warm.",
+   "model_trans": {
+    "ko": "제 생일은 5월 3일이에요. 오늘은 6월 10일이에요. 5월은 따뜻해요.",
+    "en": "My birthday is on May third. Today is June tenth. May is warm."
+   }
+  }
+ }
+}
