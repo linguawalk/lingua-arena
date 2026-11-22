@@ -68,3 +68,7 @@ _legacy/              기존 사이트(숨김: 밑줄 폴더는 GitHub Pages(Jek
 - 언어별 공인시험 형식 반영 시점
 - 언어 추가 순서(유럽 언어권, 아시아 언어권 확장)
 - 로그인·진도 저장 여부(edu-arena와 통합할지)
+
+## A2 유닛 구성 (20개, 영어 먼저 제작)
+1 was/were · 2 규칙 과거 · 3 불규칙 과거 · 4 did 의문·부정 · 5 be going to · 6 will · 7 현재진행 · 8 현재 vs 진행 · 9 비교급 · 10 최상급 · 11 수량(some/any/much/many) · 12 can/could/must/have to · 13 should · 14 부사(빈도·방법) · 15 길 안내·이동 전치사 · 16 목적격 대명사·too/enough · 17 약속·초대 · 18 현재완료(경험) · 19 제1조건문 · 20 A2 종합·이메일 쓰기
+- 파일 위치: `data/<언어>/a2/uNN.json`, 목록은 `data/concepts.json`의 `a2_units`. 다른 언어는 영어 유닛의 공용 번역(S)을 그대로 이어받아 A1과 같은 방식으로 만듭니다.
