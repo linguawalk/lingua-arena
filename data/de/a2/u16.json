@@ -1,0 +1,801 @@
+{
+ "meta": {
+  "id": "de_a2_u16",
+  "lang": "de",
+  "family": "europe",
+  "level": "a2",
+  "unit": 16,
+  "concept": "A2.U16",
+  "status": "live",
+  "title": {
+   "target": "Kleidung und Einkaufen",
+   "ko": "옷과 쇼핑",
+   "en": "Clothes and shopping"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "die Jacke",
+   "pos": "noun",
+   "ko": "재킷",
+   "en": "jacket",
+   "ex": {
+    "t": "Die Jacke gefällt mir.",
+    "ko": "이 재킷이 마음에 들어요.",
+    "en": "I like this jacket."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "die Hose",
+   "pos": "noun",
+   "ko": "바지",
+   "en": "trousers",
+   "ex": {
+    "t": "Diese Hose ist zu lang.",
+    "ko": "이 바지는 너무 길어요.",
+    "en": "These trousers are too long."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "die Schuhe",
+   "pos": "noun",
+   "ko": "신발",
+   "en": "shoes",
+   "ex": {
+    "t": "Diese Schuhe passen mir nicht.",
+    "ko": "그 신발은 저에게 안 맞아요.",
+    "en": "The shoes don't fit me."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "die Größe",
+   "pos": "noun",
+   "ko": "치수",
+   "en": "size",
+   "ex": {
+    "t": "Haben Sie das in meiner Größe?",
+    "ko": "더 큰 치수가 있어요?",
+    "en": "Do you have a bigger size?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "anprobieren",
+   "pos": "verb",
+   "ko": "입어 보다",
+   "en": "try on",
+   "ex": {
+    "t": "Kann ich diese Jacke anprobieren?",
+    "ko": "이 재킷을 입어 봐도 돼요?",
+    "en": "Can I try this jacket on?"
+   }
+  },
+  {
+   "id": "v6",
+   "t": "passen",
+   "pos": "verb",
+   "ko": "(크기가) 맞다",
+   "en": "fit",
+   "ex": {
+    "t": "Die Hose passt mir gut.",
+    "ko": "그 바지가 잘 맞아요.",
+    "en": "The trousers fit well."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "zu",
+   "pos": "adv",
+   "ko": "너무 ~한",
+   "en": "too",
+   "ex": {
+    "t": "Diese Schuhe sind zu klein.",
+    "ko": "이 신발은 너무 작아요.",
+    "en": "These shoes are too small."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "genug",
+   "pos": "adv",
+   "ko": "충분히 ~한",
+   "en": "enough",
+   "ex": {
+    "t": "Diese Jacke ist warm genug.",
+    "ko": "이 재킷은 충분히 따뜻해요.",
+    "en": "This jacket is warm enough."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "ihn / sie / es",
+   "pos": "pron",
+   "ko": "그것을",
+   "en": "it",
+   "ex": {
+    "t": "Ich mag sie, ich nehme sie.",
+    "ko": "마음에 들어요, 그걸 살게요.",
+    "en": "I like it. I'll take it."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "sie (Pl.)",
+   "pos": "pron",
+   "ko": "그것들을",
+   "en": "them",
+   "ex": {
+    "t": "Mir haben die Schuhe gefallen, deshalb habe ich sie gekauft.",
+    "ko": "그 신발이 마음에 들어서 그걸 샀어요.",
+    "en": "I liked the shoes, so I bought them."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "Personalpronomen (Akkusativ / Dativ) · zu / genug",
+   "en": "Personal pronouns (accusative / dative) · zu / genug"
+  },
+  "explain": {
+   "ko": "Das Personalpronomen ersetzt ein Nomen und richtet sich nach dessen Genus: der Mantel → ihn (Akk.), die Jacke → sie, das Hemd → es, die Schuhe → sie. Nach Verben wie mögen, nehmen, kaufen steht der Akkusativ (Ich mag sie.), nach passen, gefallen, geben der Dativ (Die Hose passt mir.). zu steht vor dem Adjektiv und drückt ein Zuviel aus (zu klein); genug steht nach dem Adjektiv (groß genug).",
+   "en": "The personal pronoun replaces a noun and follows its gender: der Mantel → ihn (acc.), die Jacke → sie, das Hemd → es, die Schuhe → sie. After verbs like mögen, nehmen, kaufen use the accusative (Ich mag sie.), after passen, gefallen, geben the dative (Die Hose passt mir.). 'Zu' goes before the adjective and means too much (zu klein); 'genug' goes after the adjective (groß genug)."
+  },
+  "table": {
+   "head": [
+    "주어 / Nominativ",
+    "4격 / Akkusativ",
+    "3격 / Dativ"
+   ],
+   "rows": [
+    [
+     "ich",
+     "mich",
+     "mir"
+    ],
+    [
+     "du",
+     "dich",
+     "dir"
+    ],
+    [
+     "er",
+     "ihn",
+     "ihm"
+    ],
+    [
+     "sie",
+     "sie",
+     "ihr"
+    ],
+    [
+     "wir",
+     "uns",
+     "uns"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "»zu« steht vor dem Adjektiv, »genug« danach: zu groß, groß genug.",
+    "en": "'Zu' goes before the adjective, 'genug' after it: zu groß, groß genug."
+   },
+   {
+    "ko": "passen und gefallen verlangen den Dativ: Die Jacke passt mir.",
+    "en": "passen and gefallen take the dative: Die Jacke passt mir."
+   },
+   {
+    "ko": "Im Perfekt steht das Pronomen vor dem Partizip: Ich habe sie gekauft.",
+    "en": "In the perfect the pronoun goes before the participle: Ich habe sie gekauft."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Ich mag die Jacke. Kann ich sie anprobieren?",
+    "ko": "이 재킷이 마음에 들어요. 입어 봐도 돼요?",
+    "en": "I like this jacket. Can I try it on?"
+   },
+   {
+    "t": "Diese Hose ist zu lang.",
+    "ko": "이 바지는 너무 길어요.",
+    "en": "These trousers are too long."
+   },
+   {
+    "t": "Diese Jacke ist nicht warm genug.",
+    "ko": "이 재킷은 충분히 따뜻하지 않아요.",
+    "en": "This jacket isn't warm enough."
+   },
+   {
+    "t": "Geben Sie mir bitte eine größere Größe.",
+    "ko": "저에게 더 큰 치수를 주세요.",
+    "en": "Please give me a bigger size."
+   },
+   {
+    "t": "Mir haben die Schuhe gefallen, deshalb habe ich sie gekauft.",
+    "ko": "신발이 마음에 들어서 그걸 샀어요.",
+    "en": "I liked the shoes, so I bought them."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Ich mag die Jacke. Kann ich ___ anprobieren?",
+    "options": [
+     "sie",
+     "ihn",
+     "ihr"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Diese Schuhe sind ___ klein.",
+    "options": [
+     "genug",
+     "zu",
+     "sehr viel"
+    ],
+    "answer": 1,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Die Jacke ist nicht warm ___.",
+    "options": [
+     "zu",
+     "genug",
+     "sehr"
+    ],
+    "answer": 1,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Die Schuhe haben mir gefallen, deshalb habe ich ___ gekauft.",
+    "options": [
+     "sie",
+     "ihnen",
+     "ihr"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Kann ich diese Jacke anprobieren?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 재킷을 입어 봐도 돼요?",
+     "en": "(Question) Can I try this jacket on?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Natürlich. Die Umkleide ist dort.",
+       "Ja, das ist eine Jacke.",
+       "Nein, es ist meine Größe."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Passt sie Ihnen?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 치수가 맞아요?",
+     "en": "(Question) Does it fit?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Ja, sie passt mir gut.",
+       "Ja, sie ist gut.",
+       "Nein, das tue ich nicht."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Kann ich diese Schuhe anprobieren?"
+      },
+      {
+       "s": "B",
+       "t": "Natürlich. Welche Größe haben Sie?"
+      },
+      {
+       "s": "A",
+       "t": "Vierzig. Oh, sie sind zu klein."
+      },
+      {
+       "s": "B",
+       "t": "Ich bringe Ihnen eine größere Größe."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 신발을 신어 봐도 돼요?\nB: 물론이죠. 치수가 어떻게 되세요?\nA: 255요. 아, 이건 너무 작아요.\nB: 그럼 한 치수 큰 것을 가져다 드릴게요.",
+     "en": "A: Can I try these shoes on?\nB: Of course. What size are you?\nA: Size 255. Oh, they're too small.\nB: I'll bring you a bigger size."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist das Problem mit den Schuhen?",
+      "options": [
+       "Sie sind zu groß.",
+       "Sie sind zu klein.",
+       "Sie sind zu teuer."
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Gestern war ich einkaufen. Ich habe eine Jacke anprobiert, aber sie war nicht warm genug. Die Hose war zu lang. Am Ende habe ich Schuhe gekauft, die mir gefallen haben, und ich trage sie heute."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어제 저는 쇼핑을 했어요. 재킷을 입어 봤지만 충분히 따뜻하지 않았어요. 바지는 너무 길었어요. 마지막에 마음에 드는 신발을 사서 오늘 신고 있어요.",
+     "en": "Yesterday I went shopping. I tried on a jacket but it wasn't warm enough. The trousers were too long. In the end I bought some shoes I liked and I'm wearing them today."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Warum hat sie die Jacke nicht gekauft?",
+      "options": [
+       "Sie war zu teuer.",
+       "Sie war nicht warm genug.",
+       "Sie war zu groß."
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Welche Farbe möchten Sie?"
+      },
+      {
+       "s": "B",
+       "t": "Schwarz, bitte. Größe M."
+      },
+      {
+       "s": "A",
+       "t": "Bitte sehr. Probieren Sie sie an."
+      },
+      {
+       "s": "B",
+       "t": "Sie passt mir gut. Ich nehme sie."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 어떤 색이 좋으세요?\n손님: 검은색이요. 치수는 M이에요.\n직원: 여기 있습니다. 입어 보세요.\n손님: 잘 맞아요. 이걸로 할게요.",
+     "en": "Clerk: Which colour would you like?\nCustomer: Black, please. Size medium.\nClerk: Here you are. Please try it on.\nCustomer: It fits well. I'll take it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Farbe: ______",
+      "answers": [
+       "schwarz"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Passform: Sie passt mir ______",
+      "answers": [
+       "gut"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Ich mag die Jacke. Kann ich ___ anprobieren?\n2) Diese Hose ist ___ lang.\n3) Die Schuhe haben mir gefallen, deshalb habe ich ___ gekauft.",
+    "trans": {
+     "ko": "1) 이 재킷이 마음에 들어요. 입어 봐도 돼요? 2) 이 바지는 너무 길어요. 3) 신발이 마음에 들어서 그걸 샀어요.",
+     "en": "1) I like this jacket. Can I try it on? 2) These trousers are too long. 3) I liked the shoes, so I bought them."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Ich mag die Jacke. Kann ich ___ anprobieren?",
+      "options": [
+       "sie",
+       "ihn",
+       "ihr"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Diese Hose ist ___ lang.",
+      "options": [
+       "genug",
+       "zu",
+       "sehr viel"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "Die Schuhe haben mir gefallen, deshalb habe ich ___ gekauft.",
+      "options": [
+       "sie",
+       "ihnen",
+       "ihr"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Hallo Eva! Gestern war ich einkaufen. Ich habe eine Jacke gesehen, die mir gefallen hat. Sie war (1) teuer, deshalb habe ich (2) nicht gekauft. Aber ich habe Schuhe gekauft. (3) sind wirklich bequem!",
+    "trans": {
+     "ko": "안녕, 에바! 어제 나는 쇼핑을 했어. 마음에 드는 재킷을 봤어. 가격이 너무 비싸서 사지 않았어. 하지만 신발은 샀어. 정말 편해!",
+     "en": "Hi Eva! Yesterday I went shopping. I saw a jacket I liked. It was too expensive, so I didn't buy it. But I bought some shoes. They are really comfortable!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "zu",
+       "genug",
+       "sehr viel"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "sie",
+       "ihr",
+       "ihnen"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "Sie",
+       "Ihnen",
+       "Ihr"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "KASSENBON\nJacke: 60 $\nSchuhe: 45 $\nSumme: 105 $",
+    "trans": {
+     "ko": "영수증\n재킷: 60달러\n신발: 45달러\n합계: 105달러",
+     "en": "RECEIPT\nJacket: $60\nShoes: $45\nTotal: $105"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Wie viel kosten die Schuhe?",
+      "options": [
+       "60 $",
+       "45 $",
+       "105 $"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "Wie hoch ist die Summe?",
+      "options": [
+       "60 $",
+       "45 $",
+       "105 $"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Ben hat eine neue Jacke gekauft. Sie ist blau und warm genug. Er trägt sie jeden Tag.",
+    "trans": {
+     "ko": "벤은 새 재킷을 샀어요. 재킷은 파란색이고 충분히 따뜻해요. 그는 그것을 매일 입어요.",
+     "en": "Ben bought a new jacket. It is blue and warm enough. He wears it every day."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Ben hat eine Jacke gekauft.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Die Jacke ist nicht warm genug.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Die Jacke war ein Geschenk.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Kann ich diese Jacke anprobieren?",
+    "ko": "이걸 입어 봐도 돼요?",
+    "en": "Can I try it on?",
+    "situation": {
+     "ko": "입어 보고 싶을 때",
+     "en": "Asking to try something on"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Haben Sie das in meiner Größe?",
+    "ko": "제 치수가 있어요?",
+    "en": "Do you have it in my size?",
+    "situation": {
+     "ko": "치수를 물을 때",
+     "en": "Asking about size"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Das ist zu groß für mich.",
+    "ko": "이건 저에게 너무 커요.",
+    "en": "It's too big for me.",
+    "situation": {
+     "ko": "크다고 말할 때",
+     "en": "Saying it is too big"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Das ist nicht groß genug.",
+    "ko": "이건 충분히 크지 않아요.",
+    "en": "It isn't big enough.",
+    "situation": {
+     "ko": "작다고 말할 때",
+     "en": "Saying it is not big enough"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Passt sie mir?",
+    "ko": "저한테 잘 어울려요?",
+    "en": "Does it suit me?",
+    "situation": {
+     "ko": "어울리는지 물을 때",
+     "en": "Asking if it suits you"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Ich mag sie, ich nehme sie.",
+    "ko": "이건 마음에 들어요. 이걸로 살게요.",
+    "en": "I like it. I'll take it.",
+    "situation": {
+     "ko": "구매를 결정할 때",
+     "en": "Deciding to buy"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Haben Sie etwas Billigeres?",
+    "ko": "더 싼 것이 있어요?",
+    "en": "Do you have anything cheaper?",
+    "situation": {
+     "ko": "다른 상품을 물을 때",
+     "en": "Asking for another option"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Ich habe ein Geschenk für sie gekauft.",
+    "ko": "그들에게 줄 선물을 샀어요.",
+    "en": "I bought a present for them.",
+    "situation": {
+     "ko": "선물을 샀다고 말할 때",
+     "en": "Saying you bought a gift"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Das ist zu ~ für mich.",
+    "ko": "이건 저에게 너무 ~해요.",
+    "en": "It's too ~ for me."
+   },
+   {
+    "id": "w2",
+    "t": "Das ist nicht ~ genug.",
+    "ko": "충분히 ~하지 않아요.",
+    "en": "It isn't ~ enough."
+   },
+   {
+    "id": "w3",
+    "t": "Geben Sie mir bitte ~.",
+    "ko": "저에게 ~를 주세요.",
+    "en": "Please give me ~."
+   },
+   {
+    "id": "w4",
+    "t": "Mir hat ~ gefallen, deshalb habe ich ihn / sie / es gekauft.",
+    "ko": "~가 마음에 들어서 그걸 샀어요.",
+    "en": "I liked ~, so I bought it / them."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "옷 가게에서 점원과 나눌 말 3문장을 쓰세요. too와 enough를 하나씩 쓰세요.",
+    "en": "Write 3 sentences you would say in a clothes shop. Use 'too' once and 'enough' once."
+   },
+   "must_include": [
+    {
+     "label": "Kann ich ~ anprobieren?",
+     "match": [
+      "anprobieren"
+     ]
+    },
+    {
+     "label": "Das ist zu ~ für mich",
+     "match": [
+      "zu"
+     ]
+    },
+    {
+     "label": "Das ist nicht ~ genug",
+     "match": [
+      "genug"
+     ]
+    }
+   ],
+   "model": "Kann ich diese Jacke anprobieren? Das ist zu groß für mich. Das ist nicht warm genug.",
+   "model_trans": {
+    "ko": "이 재킷을 입어 봐도 돼요? 이건 저에게 너무 커요. 이건 충분히 따뜻하지 않아요.",
+    "en": "Can I try this jacket on? It's too big for me. It isn't warm enough."
+   }
+  }
+ }
+}
