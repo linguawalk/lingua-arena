@@ -1,0 +1,828 @@
+{
+ "meta": {
+  "id": "zh_a1_u34",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a1",
+  "unit": 34,
+  "concept": "A1.U34",
+  "status": "live",
+  "title": {
+   "target": "问路和指路",
+   "ko": "길 안내하기",
+   "en": "Giving directions"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "一直走",
+   "pos": "verb",
+   "read": "yìzhí zǒu",
+   "ko": "직진하다",
+   "en": "go straight",
+   "ex": {
+    "t": "请一直走。",
+    "read": "Qǐng yìzhí zǒu.",
+    "ko": "직진하세요.",
+    "en": "Go straight."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "左转",
+   "pos": "verb",
+   "read": "zuǒzhuǎn",
+   "ko": "왼쪽으로 돌다",
+   "en": "turn left",
+   "ex": {
+    "t": "在下一条街左转。",
+    "read": "Zài xià yì tiáo jiē zuǒzhuǎn.",
+    "ko": "다음 길에서 왼쪽으로 도세요.",
+    "en": "Turn left at the next street."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "右转",
+   "pos": "verb",
+   "read": "yòuzhuǎn",
+   "ko": "오른쪽으로 돌다",
+   "en": "turn right",
+   "ex": {
+    "t": "在红绿灯右转。",
+    "read": "Zài hónglǜdēng yòuzhuǎn.",
+    "ko": "신호등에서 오른쪽으로 도세요.",
+    "en": "Turn right at the traffic lights."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "街",
+   "pos": "noun",
+   "read": "jiē",
+   "ko": "길",
+   "en": "street",
+   "ex": {
+    "t": "沿着这条街走。",
+    "read": "Yánzhe zhè tiáo jiē zǒu.",
+    "ko": "이 길을 따라가세요.",
+    "en": "Follow this street."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "拐角",
+   "pos": "noun",
+   "read": "guǎijiǎo",
+   "ko": "모퉁이",
+   "en": "corner",
+   "ex": {
+    "t": "在拐角右转。",
+    "read": "Zài guǎijiǎo yòuzhuǎn.",
+    "ko": "모퉁이에서 오른쪽으로 도세요.",
+    "en": "Turn right at the corner."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "红绿灯",
+   "pos": "noun",
+   "read": "hónglǜdēng",
+   "ko": "신호등",
+   "en": "traffic lights",
+   "ex": {
+    "t": "在红绿灯左转。",
+    "read": "Zài hónglǜdēng zuǒzhuǎn.",
+    "ko": "신호등에서 왼쪽으로 도세요.",
+    "en": "Turn left at the traffic lights."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "过马路",
+   "pos": "verb",
+   "read": "guò mǎlù",
+   "ko": "건너다",
+   "en": "cross",
+   "ex": {
+    "t": "请过马路。",
+    "read": "Qǐng guò mǎlù.",
+    "ko": "길을 건너세요.",
+    "en": "Cross the road."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "下一个",
+   "pos": "adj",
+   "read": "xià yí ge",
+   "ko": "다음",
+   "en": "next",
+   "ex": {
+    "t": "在下一个路口转。",
+    "read": "Zài xià yí ge lù kǒu zhuǎn.",
+    "ko": "다음 길에서 도세요.",
+    "en": "Turn at the next street."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "远",
+   "pos": "adv",
+   "read": "yuǎn",
+   "ko": "멀리",
+   "en": "far",
+   "ex": {
+    "t": "离这儿远吗？",
+    "read": "Lí zhèr yuǎn ma?",
+    "ko": "여기서 멀어요?",
+    "en": "Is it far from here?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "近",
+   "pos": "adj",
+   "read": "jìn",
+   "ko": "가까운",
+   "en": "near",
+   "ex": {
+    "t": "车站离这儿很近。",
+    "read": "Chēzhàn lí zhèr hěn jìn.",
+    "ko": "역은 여기서 가까워요.",
+    "en": "The station is near here."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "一直走 · 左转 · 右转 · 在左边",
+   "en": "Directions: 一直走, 左转, 右转, 在左边"
+  },
+  "explain": {
+   "ko": "指路用「一直走」「左转」「右转」。地点用「在……左边 / 右边」：邮局在左边。问距离用「离这儿远吗？」，回答「很近」或「很远」。「在……转」表示转弯的地方。",
+   "en": "Give directions with 一直走, 左转, 右转. Locate with 在……左边 / 右边: 邮局在左边. Ask 离这儿远吗？ Answer 很近 or 很远. 在……转 names the turning point."
+  },
+  "table": {
+   "head": [
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "一直走",
+     "请一直走。"
+    ],
+    [
+     "在……左转 / 右转",
+     "在红绿灯右转。"
+    ],
+    [
+     "在左边 / 右边",
+     "邮局在左边。"
+    ],
+    [
+     "离这儿远吗？",
+     "离这儿远吗？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「在……」说明转弯的地方。",
+    "en": "在…… marks where to turn."
+   },
+   {
+    "ko": "「远」的反义是「近」。",
+    "en": "The opposite of 远 is 近."
+   },
+   {
+    "ko": "「过」表示穿过。",
+    "en": "过 means cross."
+   }
+  ],
+  "examples": [
+   {
+    "t": "请一直走。",
+    "read": "Qǐng yìzhí zǒu.",
+    "ko": "직진하세요.",
+    "en": "Go straight."
+   },
+   {
+    "t": "在下一条街左转。",
+    "read": "Zài xià yì tiáo jiē zuǒzhuǎn.",
+    "ko": "다음 길에서 왼쪽으로 도세요.",
+    "en": "Turn left at the next street."
+   },
+   {
+    "t": "在红绿灯右转。",
+    "read": "Zài hónglǜdēng yòuzhuǎn.",
+    "ko": "신호등에서 오른쪽으로 도세요.",
+    "en": "Turn right at the traffic lights."
+   },
+   {
+    "t": "请过马路。",
+    "read": "Qǐng guò mǎlù.",
+    "ko": "길을 건너세요.",
+    "en": "Cross the road."
+   },
+   {
+    "t": "车站离这儿很近。",
+    "read": "Chēzhàn lí zhèr hěn jìn.",
+    "ko": "역은 여기서 가까워요.",
+    "en": "The station is near here."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "请一___走。",
+    "options": [
+     "直",
+     "边",
+     "条"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "在下一条街___转。",
+    "options": [
+     "左",
+     "在",
+     "对"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "在红绿灯___转。",
+    "options": [
+     "右",
+     "有",
+     "好"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "车站离这儿很___。",
+    "options": [
+     "近",
+     "远",
+     "近了"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请问，邮局在哪儿？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 우체국이 어디에 있어요?",
+     "en": "(Question) Where is the post office?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是哪一个？",
+      "options": [
+       "请一直走。",
+       "三点。",
+       "我是学生。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "离这儿远吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 여기서 멀어요?",
+     "en": "(Question) Is it far from here?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是哪一个？",
+      "options": [
+       "不远，很近。",
+       "不会。",
+       "不喜欢。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请问，邮局在哪儿？"
+      },
+      {
+       "s": "B",
+       "t": "请一直走。"
+      },
+      {
+       "s": "A",
+       "t": "好的。"
+      },
+      {
+       "s": "B",
+       "t": "在红绿灯右转。邮局在左边。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 실례합니다. 은행이 어디에 있어요?\nB: 직진하세요. 신호등에서 왼쪽으로 도세요.\nA: 먼가요?\nB: 아니요, 가까워요. 은행은 오른쪽에 있어요.",
+     "en": "A: Excuse me. Where is the bank?\nB: Go straight. Turn left at the traffic lights.\nA: Is it far?\nB: No, it's near. The bank is on the right."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "在红绿灯怎么走？",
+      "options": [
+       "右转",
+       "左转",
+       "一直走"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "从车站到学校。请一直走。在红绿灯右转。学校在左边。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "역에서 직진하세요. 모퉁이에서 오른쪽으로 도세요. 학교는 왼쪽에 있어요. 걸어서 5분이에요.",
+     "en": "Go straight from the station. Turn right at the corner. The school is on the left. It's five minutes on foot."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "学校在哪边？",
+      "options": [
+       "左边",
+       "右边",
+       "后面"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请问，银行在哪儿？"
+      },
+      {
+       "s": "B",
+       "t": "在下一条街左转。"
+      },
+      {
+       "s": "A",
+       "t": "远吗？"
+      },
+      {
+       "s": "B",
+       "t": "不远，很近。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "손님: 실례합니다. 호텔이 어디에 있어요?\n행인: 길을 건너세요. 그다음에 오른쪽으로 도세요.\n손님: 먼가요?\n행인: 아니요, 3분이에요.",
+     "en": "Guest: Excuse me. Where is the hotel?\nPasser-by: Cross the road. Then turn right.\nGuest: Is it far?\nPasser-by: No, it's three minutes."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "在下一条街______转",
+      "answers": [
+       "左"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "银行很______",
+      "answers": [
+       "近"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 请一___走。\n2) 在下一条街___转。\n3) 在红绿灯___转。",
+    "trans": {
+     "ko": "1) 직진하세요. 2) 다음 길에서 왼쪽으로 도세요. 3) 신호등에서 오른쪽으로 도세요.",
+     "en": "1) Go straight. 2) Turn left at the next street. 3) Turn right at the traffic lights."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "请一___走。",
+      "options": [
+       "直",
+       "边",
+       "条"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "在下一条街___转。",
+      "options": [
+       "左",
+       "在",
+       "对"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "在红绿灯___转。",
+      "options": [
+       "右",
+       "有",
+       "好"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "请一直(1)。在红绿灯(2)转。学校在(3)边。",
+    "trans": {
+     "ko": "역에서 직진하세요. 모퉁이에서 오른쪽으로 도세요. 학교는 왼쪽에 있어요. 걸어서 5분이에요.",
+     "en": "Go straight from the station. Turn right at the corner. The school is on the left. It's five minutes on foot."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "走",
+       "吃",
+       "看"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "右",
+       "有",
+       "好"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "左",
+       "做",
+       "对"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "路线\n车站 → 一直走 → 红绿灯 → 右转 → 学校",
+    "trans": {
+     "ko": "길 안내\n역 → 공원: 직진\n공원 → 학교: 왼쪽",
+     "en": "DIRECTIONS\nStation → park: straight\nPark → school: left"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "先怎么走？",
+      "options": [
+       "一直走",
+       "右转",
+       "左转"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "在红绿灯怎么走？",
+      "options": [
+       "右转",
+       "一直走",
+       "过马路"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "邮局离车站很近。请一直走，在下一条街左转。邮局在右边。",
+    "trans": {
+     "ko": "지나는 호텔을 찾고 있어요. 그녀는 행인에게 길을 물어요. 호텔은 가까워요.",
+     "en": "Gina is looking for the hotel. She asks a passer-by for the way. The hotel is near."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "邮局离车站很近。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "邮局在左边。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "邮局九点开门。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "请问，邮局在哪儿？",
+    "read": "Qǐngwèn, yóujú zài nǎr?",
+    "ko": "실례합니다, 우체국이 어디에 있어요?",
+    "en": "Excuse me, where is the post office?",
+    "situation": {
+     "ko": "길을 물을 때",
+     "en": "Asking the way"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "请一直走。",
+    "read": "Qǐng yìzhí zǒu.",
+    "ko": "직진하세요.",
+    "en": "Go straight.",
+    "situation": {
+     "ko": "직진을 안내할 때",
+     "en": "Telling someone to go straight"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "在下一条街左转。",
+    "read": "Zài xià yì tiáo jiē zuǒzhuǎn.",
+    "ko": "다음 길에서 왼쪽으로 도세요.",
+    "en": "Turn left at the next street.",
+    "situation": {
+     "ko": "왼쪽을 안내할 때",
+     "en": "Telling someone to turn left"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "在红绿灯右转。",
+    "read": "Zài hónglǜdēng yòuzhuǎn.",
+    "ko": "신호등에서 오른쪽으로 도세요.",
+    "en": "Turn right at the traffic lights.",
+    "situation": {
+     "ko": "오른쪽을 안내할 때",
+     "en": "Telling someone to turn right"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "邮局在左边。",
+    "read": "Yóujú zài zuǒbian.",
+    "ko": "우체국은 왼쪽에 있어요.",
+    "en": "The post office is on the left.",
+    "situation": {
+     "ko": "위치를 말할 때",
+     "en": "Saying where it is"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "离这儿远吗？",
+    "read": "Lí zhèr yuǎn ma?",
+    "ko": "여기서 멀어요?",
+    "en": "Is it far from here?",
+    "situation": {
+     "ko": "거리를 물을 때",
+     "en": "Asking the distance"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "不远，很近。",
+    "read": "Bù yuǎn, hěn jìn.",
+    "ko": "아니요, 가까워요.",
+    "en": "No, it's near.",
+    "situation": {
+     "ko": "가깝다고 말할 때",
+     "en": "Saying it's near"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "谢谢。",
+    "read": "Xièxie.",
+    "ko": "감사합니다!",
+    "en": "Thank you!",
+    "situation": {
+     "ko": "고마움을 말할 때",
+     "en": "Thanking"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "请一直走。",
+    "read": "Qǐng yìzhí zǒu.",
+    "ko": "직진하세요.",
+    "en": "Go straight."
+   },
+   {
+    "id": "w2",
+    "t": "在〜左转。",
+    "read": "Zài 〜 zuǒzhuǎn.",
+    "ko": "~에서 왼쪽으로 도세요.",
+    "en": "Turn left at ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜在左边 / 右边。",
+    "read": "〜 Zài zuǒbian / yòubian.",
+    "ko": "~은 왼쪽/오른쪽에 있어요.",
+    "en": "~ is on the left / right."
+   },
+   {
+    "id": "w4",
+    "t": "离这儿远吗？",
+    "read": "Lí zhèr yuǎn ma?",
+    "ko": "여기서 멀어요?",
+    "en": "Is it far from here?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "역에서 학교까지 가는 길을 3문장으로 써 보세요.",
+    "en": "Write 3 sentences telling the way from the station to the school."
+   },
+   "must_include": [
+    {
+     "label": "一直走",
+     "match": [
+      "一直走"
+     ]
+    },
+    {
+     "label": "右转",
+     "match": [
+      "右转"
+     ]
+    },
+    {
+     "label": "在〜边",
+     "match": [
+      "边"
+     ]
+    }
+   ],
+   "model": "请一直走。在红绿灯右转。学校在左边。",
+   "model_trans": {
+    "ko": "직진하세요. 신호등에서 오른쪽으로 도세요. 학교는 왼쪽에 있어요.",
+    "en": "Go straight. Turn right at the traffic lights. The school is on the left."
+   }
+  }
+ }
+}

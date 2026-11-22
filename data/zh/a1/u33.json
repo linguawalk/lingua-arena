@@ -1,0 +1,828 @@
+{
+ "meta": {
+  "id": "zh_a1_u33",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a1",
+  "unit": 33,
+  "concept": "A1.U33",
+  "status": "live",
+  "title": {
+   "target": "打电话和留言",
+   "ko": "전화와 문자",
+   "en": "Phone calls and messages"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "电话",
+   "pos": "noun",
+   "read": "diànhuà",
+   "ko": "전화",
+   "en": "phone",
+   "ex": {
+    "t": "我的电话在桌子上。",
+    "read": "Wǒ de diànhuà zài zhuōzi shàng.",
+    "ko": "제 전화는 탁자 위에 있어요.",
+    "en": "My phone is on the table."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "打",
+   "pos": "verb",
+   "read": "dǎ",
+   "ko": "전화하다",
+   "en": "call",
+   "ex": {
+    "t": "我明天打电话。",
+    "read": "Wǒ míngtiān dǎ diànhuà.",
+    "ko": "내일 전화할게요.",
+    "en": "I'll call tomorrow."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "短信",
+   "pos": "noun",
+   "read": "duǎnxìn",
+   "ko": "문자 메시지",
+   "en": "text message",
+   "ex": {
+    "t": "我发短信。",
+    "read": "Wǒ fā duǎnxìn.",
+    "ko": "문자 메시지를 보낼게요.",
+    "en": "I'll send a text message."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "号码",
+   "pos": "noun",
+   "read": "hàomǎ",
+   "ko": "번호",
+   "en": "number",
+   "ex": {
+    "t": "你的电话号码是多少？",
+    "read": "Nǐ de diànhuà hàomǎ shì duōshao?",
+    "ko": "전화번호가 뭐예요?",
+    "en": "What's your phone number?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "留言",
+   "pos": "noun",
+   "read": "liúyán",
+   "ko": "메시지",
+   "en": "message",
+   "ex": {
+    "t": "请留言。",
+    "read": "Qǐng liúyán.",
+    "ko": "메시지를 남겨 주세요.",
+    "en": "Please leave a message."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "再打",
+   "pos": "verb",
+   "read": "zài dǎ",
+   "ko": "다시 전화하다",
+   "en": "call back",
+   "ex": {
+    "t": "我一会儿再打。",
+    "read": "Wǒ yíhuìr zài dǎ.",
+    "ko": "나중에 다시 전화할게요.",
+    "en": "I'll call back later."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "忙",
+   "pos": "adj",
+   "read": "máng",
+   "ko": "바쁜",
+   "en": "busy",
+   "ex": {
+    "t": "他现在很忙。",
+    "read": "Tā xiànzài hěn máng.",
+    "ko": "그는 지금 바빠요.",
+    "en": "He is busy now."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "稍等",
+   "pos": "verb",
+   "read": "shāoděng",
+   "ko": "기다리다",
+   "en": "hold on",
+   "ex": {
+    "t": "请稍等。",
+    "read": "Qǐng shāoděng.",
+    "ko": "잠깐만 기다려 주세요.",
+    "en": "Please hold on."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "打错了",
+   "pos": "noun",
+   "read": "dǎ cuò le",
+   "ko": "잘못 걸다",
+   "en": "wrong number",
+   "ex": {
+    "t": "对不起，打错了。",
+    "read": "Duìbuqǐ, dǎ cuò le.",
+    "ko": "죄송해요, 잘못 걸었어요.",
+    "en": "Sorry, wrong number."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "喂",
+   "pos": "verb",
+   "read": "wèi",
+   "ko": "말하다",
+   "en": "speak",
+   "ex": {
+    "t": "喂，李先生在吗？",
+    "read": "Wèi, lǐ xiānsheng zài ma?",
+    "ko": "리 씨와 통화할 수 있을까요?",
+    "en": "Can I speak to Mr Lee?"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "喂 · 请问……在吗 · 留言 · 一会儿再打",
+   "en": "Phone calls: 喂, 请问……在吗, 留言, 一会儿再打"
+  },
+  "explain": {
+   "ko": "接电话先说「喂」。找人用「请问……在吗？」。请对方等用「请稍等」。对方不在可以说「请留言」或「我一会儿再打」。号码用「电话号码是多少？」。",
+   "en": "Answer a call with 喂. Ask for someone with 请问……在吗？ Ask them to wait with 请稍等. If out, 请留言 or 我一会儿再打. Ask 电话号码是多少？"
+  },
+  "table": {
+   "head": [
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "请问……在吗？",
+     "请问李先生在吗？"
+    ],
+    [
+     "请稍等",
+     "请稍等。"
+    ],
+    [
+     "请留言",
+     "请留言。"
+    ],
+    [
+     "一会儿再打",
+     "我一会儿再打。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「请问」是礼貌的开头。",
+    "en": "请问 is a polite opening."
+   },
+   {
+    "ko": "「不在」表示人不在。",
+    "en": "不在 means the person is out."
+   },
+   {
+    "ko": "电话号码一个一个数字地说。",
+    "en": "Say phone numbers digit by digit."
+   }
+  ],
+  "examples": [
+   {
+    "t": "喂，请问李先生在吗？",
+    "read": "Wèi, qǐngwèn lǐ xiānsheng zài ma?",
+    "ko": "리 씨와 통화할 수 있을까요?",
+    "en": "Can I speak to Mr Lee?"
+   },
+   {
+    "t": "请稍等。",
+    "read": "Qǐng shāoděng.",
+    "ko": "잠깐만 기다려 주세요.",
+    "en": "Please hold on."
+   },
+   {
+    "t": "他现在不在。",
+    "read": "Tā xiànzài bú zài.",
+    "ko": "전화번호가 뭐예요?",
+    "en": "What's your phone number?"
+   },
+   {
+    "t": "请留言。",
+    "read": "Qǐng liúyán.",
+    "ko": "메시지를 남겨 주시겠어요?",
+    "en": "Can you leave a message?"
+   },
+   {
+    "t": "我一会儿再打。",
+    "read": "Wǒ yíhuìr zài dǎ.",
+    "ko": "나중에 다시 전화할게요.",
+    "en": "I'll call back later."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "请问李先生___吗？",
+    "options": [
+     "在",
+     "有",
+     "是"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "请___等。",
+    "options": [
+     "稍",
+     "多",
+     "好"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我一会儿___打。",
+    "options": [
+     "再",
+     "在",
+     "又"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "他现在___在。",
+    "options": [
+     "不",
+     "没",
+     "别"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "喂，请问李先生在吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 전화번호가 뭐예요?",
+     "en": "(Question) What's your phone number?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是哪一个？",
+      "options": [
+       "请稍等。",
+       "三点。",
+       "我是韩国人。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你的电话号码是多少？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 리 씨와 통화할 수 있을까요?",
+     "en": "(Question) Can I speak to Mr Lee?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是哪一个？",
+      "options": [
+       "零九零，一二三四，五六七八。",
+       "两个。",
+       "在车站前面。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "喂，请问李先生在吗？"
+      },
+      {
+       "s": "B",
+       "t": "请稍等。"
+      },
+      {
+       "s": "B",
+       "t": "对不起，他现在不在。"
+      },
+      {
+       "s": "A",
+       "t": "那我一会儿再打。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 여보세요. 리 씨와 통화할 수 있을까요?\nB: 죄송하지만 지금 안 계세요. 메시지를 남겨 주시겠어요?\nA: 네. 제 이름은 안나예요. 다시 전화할게요.\nB: 알겠습니다.",
+     "en": "A: Hello. Can I speak to Mr Lee?\nB: Sorry, he isn't here now. Can you leave a message?\nA: Yes. My name is Anna. I'll call back later.\nB: OK."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "A 怎么办？",
+      "options": [
+       "一会儿再打",
+       "留言",
+       "等"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我的电话号码是零九零，一二三四，五六七八。我现在很忙。我一会儿再打。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제 전화번호는 공 일 공, 이삼사오, 육칠팔구예요. 저는 보통 문자 메시지를 보내요. 저는 전화를 자주 하지 않아요.",
+     "en": "My phone number is zero one zero, two three four five, six seven eight nine. I usually send text messages. I don't call often."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我现在怎么样？",
+      "options": [
+       "很忙",
+       "有空",
+       "不在"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你好，韩公司。"
+      },
+      {
+       "s": "B",
+       "t": "请问汤姆在吗？"
+      },
+      {
+       "s": "A",
+       "t": "请稍等。"
+      },
+      {
+       "s": "B",
+       "t": "请留言。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 여보세요. 시청입니다.\n손님: 박 씨와 통화할 수 있을까요?\n직원: 잠깐만 기다려 주세요.\n손님: 네, 기다릴게요.",
+     "en": "Clerk: Hello. City Hall.\nGuest: Can I speak to Mr Park?\nClerk: Please hold on.\nGuest: Yes, I'll wait."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客人找: ______",
+      "answers": [
+       "汤姆"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "客人说请: ______",
+      "answers": [
+       "留言"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 请问李先生___吗？\n2) 请___等。\n3) 我一会儿___打。",
+    "trans": {
+     "ko": "1) 리 씨와 통화할 수 있을까요? 2) 잠깐만 기다려 주세요. 3) 나중에 다시 전화할게요.",
+     "en": "1) Can I speak to Mr Lee? 2) Please hold on. 3) I'll call back later."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "请问李先生___吗？",
+      "options": [
+       "在",
+       "有",
+       "是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "请___等。",
+      "options": [
+       "稍",
+       "多",
+       "好"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我一会儿___打。",
+      "options": [
+       "再",
+       "在",
+       "又"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "喂，请问汤姆(1)吗？请(2)等。汤姆现在(3)。",
+    "trans": {
+     "ko": "안녕, 지나! 저는 지금 시장에 있어요. 우리는 토마토를 사고 있어요. 저는 나중에 전화할게요. 안녕!",
+     "en": "Hi Gina! I'm at the market now. We are buying tomatoes. I'll call you later. Bye!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "在",
+       "有",
+       "是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "稍",
+       "多",
+       "好"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "不在",
+       "不是",
+       "没有"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "公司通知\n电话：星期一到星期五\n时间：九点到五点",
+    "trans": {
+     "ko": "문자 메시지\n안나: 지금 어디야?\n톰: 버스를 기다리고 있어.",
+     "en": "TEXT MESSAGE\nAnna: Where are you now?\nTom: I'm waiting for the bus."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "星期几可以打电话？",
+      "options": [
+       "星期一到星期五",
+       "星期六",
+       "星期日"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "到几点？",
+      "options": [
+       "五点",
+       "九点",
+       "三点"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "俊给朋友打电话。朋友现在不在。俊请他留言。",
+    "trans": {
+     "ko": "마크는 전화를 해요. 리 씨는 지금 바빠요. 마크는 메시지를 남겨요.",
+     "en": "Mark makes a phone call. Mr Lee is busy now. Mark leaves a message."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "俊打电话。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "朋友现在在。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "俊是学生。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "喂。",
+    "read": "Wèi.",
+    "ko": "여보세요?",
+    "en": "Hello?",
+    "situation": {
+     "ko": "전화를 받을 때",
+     "en": "Answering the phone"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "请问李先生在吗？",
+    "read": "Qǐngwèn lǐ xiānsheng zài ma?",
+    "ko": "리 씨와 통화할 수 있을까요?",
+    "en": "Can I speak to Mr Lee?",
+    "situation": {
+     "ko": "통화를 요청할 때",
+     "en": "Asking to speak to someone"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "请稍等。",
+    "read": "Qǐng shāoděng.",
+    "ko": "잠깐만 기다려 주세요.",
+    "en": "Please hold on.",
+    "situation": {
+     "ko": "기다리게 할 때",
+     "en": "Asking to wait"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "他现在不在。",
+    "read": "Tā xiànzài bú zài.",
+    "ko": "지금 자리에 안 계세요.",
+    "en": "He isn't here now.",
+    "situation": {
+     "ko": "없을 때",
+     "en": "Saying he is out"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我可以留言吗？",
+    "read": "Wǒ kěyǐ liúyán ma?",
+    "ko": "메시지를 남겨 주시겠어요?",
+    "en": "Can you leave a message?",
+    "situation": {
+     "ko": "메시지를 부탁할 때",
+     "en": "Leaving a message"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "你的电话号码是多少？",
+    "read": "Nǐ de diànhuà hàomǎ shì duōshao?",
+    "ko": "전화번호가 뭐예요?",
+    "en": "What's your phone number?",
+    "situation": {
+     "ko": "번호를 물을 때",
+     "en": "Asking for a number"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我一会儿再打。",
+    "read": "Wǒ yíhuìr zài dǎ.",
+    "ko": "나중에 다시 전화할게요.",
+    "en": "I'll call back later.",
+    "situation": {
+     "ko": "다시 걸겠다고 할 때",
+     "en": "Saying you will call back"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "对不起，打错了。",
+    "read": "Duìbuqǐ, dǎ cuò le.",
+    "ko": "죄송해요, 잘못 걸었어요.",
+    "en": "Sorry, wrong number.",
+    "situation": {
+     "ko": "잘못 걸었을 때",
+     "en": "Wrong number"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "请问〜在吗？",
+    "read": "Qǐngwèn 〜 zài ma?",
+    "ko": "~와 통화할 수 있을까요?",
+    "en": "Can I speak to ~?"
+   },
+   {
+    "id": "w2",
+    "t": "我的电话号码是〜。",
+    "read": "Wǒ de diànhuà hàomǎ shì 〜.",
+    "ko": "제 번호는 ~예요.",
+    "en": "My number is ~."
+   },
+   {
+    "id": "w3",
+    "t": "我一会儿再打。",
+    "read": "Wǒ yíhuìr zài dǎ.",
+    "ko": "나중에 다시 전화할게요.",
+    "en": "I'll call back later."
+   },
+   {
+    "id": "w4",
+    "t": "请留言。",
+    "read": "Qǐng liúyán.",
+    "ko": "메시지를 남겨 주세요.",
+    "en": "Please leave a message."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "전화로 친구를 찾는 짧은 대화를 3문장으로 써 보세요.",
+    "en": "Write 3 sentences for a short phone call asking for a friend."
+   },
+   "must_include": [
+    {
+     "label": "请问〜在吗",
+     "match": [
+      "请问"
+     ]
+    },
+    {
+     "label": "电话号码",
+     "match": [
+      "号码"
+     ]
+    },
+    {
+     "label": "喂",
+     "match": [
+      "喂"
+     ]
+    }
+   ],
+   "model": "喂，请问汤姆在吗？请稍等。请留言。我的电话号码是零九零。",
+   "model_trans": {
+    "ko": "여보세요. 톰과 통화할 수 있을까요? 잠깐만 기다려 주세요.",
+    "en": "Hello. Can I speak to Tom? Please hold on."
+   }
+  }
+ }
+}
