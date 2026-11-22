@@ -1,0 +1,782 @@
+{
+ "meta": {
+  "id": "ko_a1_u36",
+  "lang": "ko",
+  "family": "asia",
+  "level": "a1",
+  "unit": 36,
+  "concept": "A1.U36",
+  "status": "live",
+  "title": {
+   "target": "호텔과 예약",
+   "ko": "호텔과 예약",
+   "en": "Hotel and booking"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "호텔",
+   "pos": "noun",
+   "read": "hotel",
+   "en": "hotel",
+   "ex": {
+    "t": "호텔은 역 옆에 있어요.",
+    "read": "hotereun yeok yeope isseoyo.",
+    "en": "The hotel is next to the station."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "방",
+   "pos": "noun",
+   "read": "bang",
+   "en": "room",
+   "ex": {
+    "t": "방이 필요해요.",
+    "read": "bangi piryohaeyo.",
+    "en": "I need a room."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "1인실",
+   "pos": "noun",
+   "read": "1insil",
+   "en": "single room",
+   "ex": {
+    "t": "1인실이 있어요?",
+    "read": "1insiri isseoyo?",
+    "en": "Do you have a single room?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "2인실",
+   "pos": "noun",
+   "read": "2insil",
+   "en": "double room",
+   "ex": {
+    "t": "2인실을 예약하고 싶어요.",
+    "read": "2insireul yeyakago sipeoyo.",
+    "en": "I'd like to book a double room."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "예약",
+   "pos": "noun",
+   "read": "yeyak",
+   "en": "reservation",
+   "ex": {
+    "t": "저는 예약이 있어요.",
+    "read": "jeoneun yeyagi isseoyo.",
+    "en": "I have a reservation."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "박",
+   "pos": "noun",
+   "read": "bak",
+   "en": "night",
+   "ex": {
+    "t": "이틀 밤 묵어요.",
+    "read": "iteul bam mugeoyo.",
+    "en": "I stay for two nights."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "열쇠",
+   "pos": "noun",
+   "read": "yeolsoe",
+   "en": "key",
+   "ex": {
+    "t": "여기 열쇠 있어요.",
+    "read": "yeogi yeolsoe isseoyo.",
+    "en": "Here is your key."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "아침 식사",
+   "pos": "noun",
+   "read": "achim siksa",
+   "en": "breakfast",
+   "ex": {
+    "t": "아침 식사가 포함돼요?",
+    "read": "achim siksaga pohamdwaeyo?",
+    "en": "Is breakfast included?"
+   }
+  },
+  {
+   "id": "v9",
+   "t": "체크인",
+   "pos": "verb",
+   "read": "chekeuin",
+   "en": "check in",
+   "ex": {
+    "t": "체크인은 몇 시예요?",
+    "read": "chekeuineun myeot siyeyo?",
+    "en": "What time is check-in?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "체크아웃",
+   "pos": "verb",
+   "read": "chekeuaut",
+   "en": "check out",
+   "ex": {
+    "t": "체크아웃은 열 시예요.",
+    "read": "chekeuauseun yeol siyeyo.",
+    "en": "Check-out is at ten."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "예약 · -고 싶어요 · 이틀 밤",
+   "en": "Hotel: 예약, -고 싶어요, 몇 박"
+  },
+  "explain": {
+   "ko": "예약했을 때는 '예약이 있어요'라고 하고, 원하는 방은 '2인실을 원해요' 또는 '-고 싶어요'로 말합니다. 묵는 기간은 '이틀 밤'처럼 말하고 '몇 박이에요?'로 묻습니다. 포함 여부는 '아침 식사가 포함돼요?'라고 묻습니다. 시간은 '체크아웃은 열 시예요'입니다.",
+   "en": "If you booked, say 예약이 있어요. Ask for a room with 2인실을 원해요 or -고 싶어요. Duration is 이틀 밤; ask 몇 박이에요? Ask what is included with 아침 식사가 포함돼요? Times: 체크아웃은 열 시예요."
+  },
+  "table": {
+   "head": [
+    "표현 / Expression",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "예약이 있어요",
+     "저는 예약이 있어요."
+    ],
+    [
+     "~을/를 원해요",
+     "2인실을 원해요."
+    ],
+    [
+     "몇 박이에요?",
+     "이틀 밤이에요."
+    ],
+    [
+     "포함돼요?",
+     "아침 식사가 포함돼요?"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "밤 수는 '하룻밤, 이틀 밤, 사흘 밤'처럼 셉니다.",
+    "en": "Nights count as 하룻밤, 이틀 밤, 사흘 밤."
+   },
+   {
+    "ko": "1인실은 한 명, 2인실은 두 명이 쓰는 방입니다.",
+    "en": "1인실 sleeps one, 2인실 sleeps two."
+   },
+   {
+    "ko": "'-았/었어요'는 과거입니다: 예약했어요.",
+    "en": "-았/었어요 is past: 예약했어요."
+   }
+  ],
+  "examples": [
+   {
+    "t": "저는 예약이 있어요.",
+    "read": "jeoneun yeyagi isseoyo.",
+    "en": "I have a reservation."
+   },
+   {
+    "t": "2인실을 원해요.",
+    "read": "2insireul wonhaeyo.",
+    "en": "I'd like a double room."
+   },
+   {
+    "t": "이틀 밤 묵어요.",
+    "read": "iteul bam mugeoyo.",
+    "en": "I stay for two nights."
+   },
+   {
+    "t": "아침 식사가 포함돼요?",
+    "read": "achim siksaga pohamdwaeyo?",
+    "en": "Is breakfast included?"
+   },
+   {
+    "t": "체크아웃은 열 시예요.",
+    "read": "chekeuauseun yeol siyeyo.",
+    "en": "Check-out is at ten."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "저는 예약이 ___.",
+    "options": [
+     "있어요",
+     "먹어요",
+     "와요"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "2인실을 ___.",
+    "options": [
+     "원해요",
+     "원하는",
+     "원하고"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "저는 ___ 밤 묵어요.",
+    "options": [
+     "이틀",
+     "둘",
+     "이"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "아침 식사가 ___?",
+    "options": [
+     "포함돼요",
+     "포함해요",
+     "포함하고"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "몇 박이에요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) How many nights?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "이틀 밤이에요.",
+       "열 시예요.",
+       "20달러예요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "체크아웃은 몇 시예요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What time is check-out?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "열 시예요.",
+       "이틀 밤이에요.",
+       "305호예요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "안녕하세요. 방이 있어요?"
+      },
+      {
+       "s": "B",
+       "t": "네, 있어요. 1인실이에요, 2인실이에요?"
+      },
+      {
+       "s": "A",
+       "t": "2인실이요. 이틀 밤이요."
+      },
+      {
+       "s": "B",
+       "t": "알겠습니다. 아침 식사는 포함돼요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: Hello. Do you have a room?\nB: Yes, we do. Single or double?\nA: A double room. Two nights.\nB: OK. Breakfast is included."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "아침 식사는 어때요?",
+      "options": [
+       "포함돼요",
+       "포함되지 않아요",
+       "없어요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "저는 호텔에 이틀 밤 묵어요. 저는 2인실을 예약했어요. 체크아웃은 열 시예요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "I stay at the hotel for two nights. I have a double room. Check-out is at ten."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "체크아웃은 몇 시예요?",
+      "options": [
+       "열 시",
+       "열한 시",
+       "아홉 시"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "안녕하세요. 예약이 있으세요?"
+      },
+      {
+       "s": "B",
+       "t": "네. 제 이름은 김이에요."
+      },
+      {
+       "s": "A",
+       "t": "여기 열쇠 있어요. 방은 305호예요."
+      },
+      {
+       "s": "B",
+       "t": "감사합니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Clerk: Hello. Do you have a reservation?\nGuest: Yes. My name is Kim.\nClerk: Here is your key. Your room is three oh five.\nGuest: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "방은 ______호예요",
+      "answers": [
+       "305"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "손님의 성은 ______이에요",
+      "answers": [
+       "김"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 저는 예약이 ___.\n2) 2인실을 ___.\n3) 체크아웃은 열 시___.",
+    "trans": {
+     "en": "1) I have a reservation. 2) I'd like a double room. 3) Check-out is at ten."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "저는 예약이 ___.",
+      "options": [
+       "있어요",
+       "먹어요",
+       "와요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "2인실을 ___.",
+      "options": [
+       "원해요",
+       "원하는",
+       "원하고"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "체크아웃은 열 시___.",
+      "options": [
+       "예요",
+       "이에",
+       "가"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "저는 호텔에 (1) 밤 묵어요. 저는 2인실을 (2). 아침 식사는 (3). 체크아웃은 열 시예요.",
+    "trans": {
+     "en": "I stay at the hotel for two nights. I have a double room. Breakfast is included. Check-out is at ten."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "이틀",
+       "둘",
+       "이"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "예약했어요",
+       "예약해요",
+       "예약하고"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "포함돼요",
+       "포함해요",
+       "포함하고"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "호텔 안내\n체크인: 14:00\n체크아웃: 10:00",
+    "trans": {
+     "en": "HOTEL INFORMATION\nCheck-in: 14:00\nCheck-out: 10:00"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "체크인은 몇 시예요?",
+      "options": [
+       "14:00",
+       "10:00",
+       "12:00"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "체크아웃은 몇 시예요?",
+      "options": [
+       "10:00",
+       "14:00",
+       "12:00"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "지나는 호텔에 가요. 그녀는 1인실을 예약했어요. 그녀는 사흘 밤 묵어요.",
+    "trans": {
+     "en": "Gina goes to the hotel. She has a single room. She stays for three nights."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "지나는 1인실을 예약했어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "지나는 이틀 밤 묵어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "호텔은 바다 옆에 있어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "방이 있어요?",
+    "read": "bangi isseoyo?",
+    "en": "Do you have a room?",
+    "situation": {
+     "ko": "방을 물을 때",
+     "en": "Asking for a room"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "1인실을 원해요.",
+    "read": "1insireul wonhaeyo.",
+    "en": "I'd like a single room.",
+    "situation": {
+     "ko": "방을 요청할 때",
+     "en": "Requesting a room"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "몇 박이에요?",
+    "read": "myeot bagieyo?",
+    "en": "How many nights?",
+    "situation": {
+     "ko": "기간을 물을 때",
+     "en": "Asking how long"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "이틀 밤이요.",
+    "read": "iteul bamiyo.",
+    "en": "Two nights.",
+    "situation": {
+     "ko": "기간을 말할 때",
+     "en": "Saying how long"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "저는 예약이 있어요.",
+    "read": "jeoneun yeyagi isseoyo.",
+    "en": "I have a reservation.",
+    "situation": {
+     "ko": "예약을 말할 때",
+     "en": "Saying you have a booking"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "아침 식사가 포함돼요?",
+    "read": "achim siksaga pohamdwaeyo?",
+    "en": "Is breakfast included?",
+    "situation": {
+     "ko": "식사를 물을 때",
+     "en": "Asking about breakfast"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "체크아웃은 몇 시예요?",
+    "read": "chekeuauseun myeot siyeyo?",
+    "en": "What time is check-out?",
+    "situation": {
+     "ko": "시간을 물을 때",
+     "en": "Asking the time"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "여기 열쇠 있어요.",
+    "read": "yeogi yeolsoe isseoyo.",
+    "en": "Here is your key.",
+    "situation": {
+     "ko": "열쇠를 줄 때",
+     "en": "Giving the key"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~을 원해요.",
+    "read": "~eul wonhaeyo.",
+    "en": "I'd like ~."
+   },
+   {
+    "id": "w2",
+    "t": "~박 묵어요.",
+    "read": "~bak mugeoyo.",
+    "en": "I stay for ~ nights."
+   },
+   {
+    "id": "w3",
+    "t": "저는 예약이 있어요.",
+    "read": "jeoneun yeyagi isseoyo.",
+    "en": "I have a reservation."
+   },
+   {
+    "id": "w4",
+    "t": "~이 포함돼요?",
+    "read": "~i pohamdwaeyo?",
+    "en": "Is ~ included?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "호텔에서 방을 요청하는 문장을 3개 써 보세요.",
+    "en": "Write 3 sentences asking for a room at a hotel."
+   },
+   "must_include": [
+    {
+     "label": "2인실을 원해요",
+     "match": [
+      "2인실"
+     ]
+    },
+    {
+     "label": "이틀 밤 묵어요",
+     "match": [
+      "이틀 밤"
+     ]
+    },
+    {
+     "label": "아침 식사가 포함돼요?",
+     "match": [
+      "아침 식사"
+     ]
+    }
+   ],
+   "model": "2인실을 원해요. 저는 이틀 밤 묵어요. 아침 식사가 포함돼요?",
+   "model_trans": {
+    "ko": "2인실을 원해요. 저는 이틀 밤 묵어요. 아침 식사가 포함돼요?",
+    "en": "I'd like a double room. I stay for two nights. Is breakfast included?"
+   }
+  }
+ }
+}
