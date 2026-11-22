@@ -1,0 +1,791 @@
+{
+ "meta": {
+  "id": "de_a1_u48",
+  "lang": "de",
+  "family": "europe",
+  "level": "a1",
+  "unit": 48,
+  "concept": "A1.U48",
+  "status": "live",
+  "title": {
+   "target": "Wollen und müssen",
+   "ko": "원하는 것과 해야 하는 것",
+   "en": "Wants and needs"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "wollen",
+   "pos": "verb",
+   "ko": "원하다",
+   "en": "want",
+   "ex": {
+    "t": "Ich will Pizza essen.",
+    "ko": "저는 커피를 원해요.",
+    "en": "I want a coffee."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "müssen",
+   "pos": "verb",
+   "ko": "~하고 싶다",
+   "en": "want to",
+   "ex": {
+    "t": "Ich muss arbeiten.",
+    "ko": "저는 수영하고 싶어요.",
+    "en": "I want to swim."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "möchten",
+   "pos": "verb",
+   "ko": "~할 필요가 있다",
+   "en": "need to",
+   "ex": {
+    "t": "Ich möchte einen Kaffee.",
+    "ko": "저는 공부해야 해요.",
+    "en": "I need to study."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "sollen",
+   "pos": "verb",
+   "ko": "~해야 한다",
+   "en": "have to",
+   "ex": {
+    "t": "Du sollst mehr schlafen.",
+    "ko": "저는 일해야 해요.",
+    "en": "I have to work."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "früh aufstehen",
+   "pos": "verb",
+   "ko": "~해서는 안 된다",
+   "en": "mustn't",
+   "ex": {
+    "t": "Ich muss früh aufstehen.",
+    "ko": "여기에서 달리면 안 돼요.",
+    "en": "You mustn't run here."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "arbeiten",
+   "pos": "adv",
+   "ko": "지금",
+   "en": "now",
+   "ex": {
+    "t": "Ich muss heute arbeiten.",
+    "ko": "저는 지금 가야 해요.",
+    "en": "I have to go now."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "lernen",
+   "pos": "adv",
+   "ko": "나중에",
+   "en": "later",
+   "ex": {
+    "t": "Ich will Deutsch lernen.",
+    "ko": "저는 나중에 공부해요.",
+    "en": "I study later."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "nach Hause gehen",
+   "pos": "adv",
+   "ko": "조금 더",
+   "en": "more",
+   "ex": {
+    "t": "Ich will nach Hause gehen.",
+    "ko": "저는 조금 더 자고 싶어요.",
+    "en": "I want to sleep more."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "keine Zeit",
+   "pos": "verb",
+   "ko": "쉬다",
+   "en": "rest",
+   "ex": {
+    "t": "Ich habe keine Zeit.",
+    "ko": "저는 쉬고 싶어요.",
+    "en": "I want to rest."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "heute Abend",
+   "pos": "adv",
+   "ko": "일찍",
+   "en": "early",
+   "ex": {
+    "t": "Heute Abend will ich ausgehen.",
+    "ko": "저는 일찍 자야 해요.",
+    "en": "I have to go to bed early."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "wollen, müssen, möchten",
+   "en": "'wollen', 'müssen', 'möchten'"
+  },
+  "explain": {
+   "ko": "의지는 wollen, 의무는 müssen, 정중한 바람은 möchten + 동사원형(문장 끝)입니다. ich will, du willst, er will / ich muss, du musst, er muss / ich möchte, du möchtest. Ich will Pizza essen. Ich muss arbeiten. 부정: Ich muss nicht arbeiten (= 안 해도 됨).",
+   "en": "Use wollen for wishes, müssen for obligation and möchten for polite wants, all with an infinitive at the end. ich will, du willst, er will / ich muss, du musst, er muss / ich möchte, du möchtest. Ich will Pizza essen. Ich muss arbeiten. Negative: Ich muss nicht arbeiten (= I don't have to)."
+  },
+  "table": {
+   "head": [
+    "주어 / Subjekt",
+    "wollen / müssen"
+   ],
+   "rows": [
+    [
+     "ich",
+     "will / muss"
+    ],
+    [
+     "du",
+     "willst / musst"
+    ],
+    [
+     "er / sie",
+     "will / muss"
+    ],
+    [
+     "wir",
+     "wollen / müssen"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "modal 뒤 동사원형은 문장 끝에 옵니다.",
+    "en": "The infinitive after a modal goes to the end."
+   },
+   {
+    "ko": "ich will, er will: 3인칭에도 어미가 없습니다.",
+    "en": "Ich will, er will: no ending in the 3rd person."
+   },
+   {
+    "ko": "möchte는 mögen의 접속법으로 공손한 표현입니다.",
+    "en": "Möchte is a polite form of mögen."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Ich will Pizza essen.",
+    "ko": "저는 수영하고 싶어요.",
+    "en": "I want to swim."
+   },
+   {
+    "t": "Ich muss arbeiten.",
+    "ko": "저는 지금 공부해야 해요.",
+    "en": "I need to study now."
+   },
+   {
+    "t": "Ich möchte einen Kaffee.",
+    "ko": "저는 일찍 자야 해요.",
+    "en": "I have to go to bed early."
+   },
+   {
+    "t": "Du musst früh aufstehen.",
+    "ko": "당신은 무엇을 하고 싶어요?",
+    "en": "What do you want to do?"
+   },
+   {
+    "t": "Ich will Deutsch lernen.",
+    "ko": "여기에서 달리면 안 돼요.",
+    "en": "You mustn't run here."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Ich ___ Pizza essen.",
+    "options": [
+     "will",
+     "willst",
+     "wollen"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Ich ___ arbeiten.",
+    "options": [
+     "muss",
+     "musst",
+     "müssen"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Du ___ früh aufstehen.",
+    "options": [
+     "musst",
+     "muss",
+     "müssen"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Ich ___ einen Kaffee.",
+    "options": [
+     "möchte",
+     "möchtest",
+     "möchten"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Was willst du essen?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 당신은 무엇을 하고 싶어요?",
+     "en": "(Question) What do you want to do?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Ich will Pizza essen.",
+       "Ich bin hungrig.",
+       "Es ist zwölf Uhr."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Musst du heute arbeiten?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 당신은 지금 가야 해요?",
+     "en": "(Question) Do you have to go now?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Ja, ich muss arbeiten.",
+       "Ja, ich bin.",
+       "Das ist Arbeit."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Was willst du heute Abend machen?"
+      },
+      {
+       "s": "B",
+       "t": "Ich will ins Kino gehen. Aber ich muss arbeiten."
+      },
+      {
+       "s": "A",
+       "t": "Schade. Und morgen?"
+      },
+      {
+       "s": "B",
+       "t": "Morgen habe ich Zeit."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 수영하러 가고 싶어요?\nB: 네, 하지만 지금은 공부해야 해요.\nA: 숙제가 많아요?\nB: 네, 아주 많아요.",
+     "en": "A: Do you want to go swimming?\nB: Yes, but I have to study now.\nA: Do you have a lot of homework?\nB: Yes, a lot."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Warum geht B nicht ins Kino?",
+      "options": [
+       "Er muss arbeiten",
+       "Er hat Hunger",
+       "Er hat kein Geld"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Ich will Deutsch lernen. Ich muss jeden Tag üben. Ich möchte nächstes Jahr nach Berlin fahren."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 오늘 수영하고 싶어요. 하지만 저는 공부해야 해요. 저는 내일 시험이 있어요. 저는 일찍 자야 해요.",
+     "en": "I want to swim today. But I have to study. I have a test tomorrow. I have to go to bed early."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Wohin möchte die Person fahren?",
+      "options": [
+       "Nach Berlin",
+       "Nach Paris",
+       "Nach Rom"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Was möchten Sie?"
+      },
+      {
+       "s": "B",
+       "t": "Ich möchte einen Kaffee."
+      },
+      {
+       "s": "A",
+       "t": "Möchten Sie auch etwas essen?"
+      },
+      {
+       "s": "B",
+       "t": "Nein, danke."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 지금 가야 해요?\n손님: 네, 버스가 와요.\n직원: 어디에 가요?\n손님: 집에 가요.",
+     "en": "Clerk: Do you have to go now?\nGuest: Yes, the bus is coming.\nClerk: Where are you going?\nGuest: I'm going home."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Der Gast möchte einen ______",
+      "answers": [
+       "kaffee"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Er möchte nichts ______",
+      "answers": [
+       "essen"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Ich ___ Pizza essen.\n2) Ich ___ arbeiten.\n3) Du ___ früh aufstehen.",
+    "trans": {
+     "ko": "1) 저는 수영하고 싶어요. 2) 저는 지금 공부해야 해요. 3) 저는 일찍 자야 해요.",
+     "en": "1) I want to swim. 2) I need to study now. 3) I have to go to bed early."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Ich ___ Pizza essen.",
+      "options": [
+       "will",
+       "willst",
+       "wollen"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Ich ___ arbeiten.",
+      "options": [
+       "muss",
+       "musst",
+       "müssen"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Du ___ früh aufstehen.",
+      "options": [
+       "musst",
+       "muss",
+       "müssen"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Ich (1) Deutsch lernen. Ich (2) jeden Tag üben. Ich möchte nächstes (3) nach Berlin fahren.",
+    "trans": {
+     "ko": "저는 오늘 수영하고 싶어요. 하지만 저는 공부해야 해요. 저는 내일 시험이 있어요. 저는 일찍 자야 해요.",
+     "en": "I want to swim today. But I have to study. I have a test tomorrow. I have to go to bed early."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "will",
+       "willst",
+       "wollen"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "muss",
+       "musst",
+       "müssen"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "Jahr",
+       "Jahre",
+       "Jahren"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "AUFGABEN\nHeute: einkaufen, kochen\nMorgen: arbeiten",
+    "trans": {
+     "ko": "안내\n여기에서 달리면 안 돼요.\n조용히 해 주세요.",
+     "en": "SIGN\nYou mustn't run here.\nPlease be quiet."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was muss man heute machen?",
+      "options": [
+       "Einkaufen und kochen",
+       "Arbeiten",
+       "Schlafen"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Was muss man morgen machen?",
+      "options": [
+       "Arbeiten",
+       "Einkaufen",
+       "Kochen"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Lea will ins Kino gehen. Sie muss aber zuerst arbeiten. Danach hat sie Zeit.",
+    "trans": {
+     "ko": "톰은 쉬고 싶어요. 하지만 그는 일해야 해요. 그는 주말에 쉬어요.",
+     "en": "Tom wants to rest. But he has to work. He rests at the weekend."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Lea will ins Kino gehen.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Lea muss nicht arbeiten.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Lea geht allein ins Kino.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Ich will Deutsch lernen.",
+    "ko": "당신은 무엇을 하고 싶어요?",
+    "en": "What do you want to do?",
+    "situation": {
+     "ko": "원하는 것을 물을 때",
+     "en": "Asking what someone wants"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Ich muss arbeiten.",
+    "ko": "저는 수영하고 싶어요.",
+    "en": "I want to swim.",
+    "situation": {
+     "ko": "원하는 것을 말할 때",
+     "en": "Saying what you want"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Ich möchte einen Kaffee.",
+    "ko": "저는 지금 공부해야 해요.",
+    "en": "I need to study now.",
+    "situation": {
+     "ko": "필요를 말할 때",
+     "en": "Saying what you need"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Was willst du machen?",
+    "ko": "저는 일찍 자야 해요.",
+    "en": "I have to go to bed early.",
+    "situation": {
+     "ko": "의무를 말할 때",
+     "en": "Saying what you have to do"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Du musst früh aufstehen.",
+    "ko": "저는 쉬고 싶지 않아요.",
+    "en": "I don't want to rest.",
+    "situation": {
+     "ko": "원하지 않을 때",
+     "en": "Saying you don't want to"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Ich habe keine Zeit.",
+    "ko": "여기에서 달리면 안 돼요.",
+    "en": "You mustn't run here.",
+    "situation": {
+     "ko": "금지할 때",
+     "en": "Saying it's not allowed"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Ich muss nicht arbeiten.",
+    "ko": "당신은 지금 가야 해요?",
+    "en": "Do you have to go now?",
+    "situation": {
+     "ko": "의무를 물을 때",
+     "en": "Asking about obligation"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Heute Abend will ich ausgehen.",
+    "ko": "저는 나중에 하고 싶어요.",
+    "en": "I want to do it later.",
+    "situation": {
+     "ko": "미룰 때",
+     "en": "Postponing"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Ich will ~.",
+    "ko": "저는 ~하고 싶어요.",
+    "en": "I want to ~."
+   },
+   {
+    "id": "w2",
+    "t": "Ich muss ~.",
+    "ko": "저는 ~해야 해요.",
+    "en": "I need to / have to ~."
+   },
+   {
+    "id": "w3",
+    "t": "Ich möchte ~.",
+    "ko": "저는 ~하고 싶지 않아요.",
+    "en": "I don't want to ~."
+   },
+   {
+    "id": "w4",
+    "t": "Ich muss nicht ~.",
+    "ko": "~하면 안 돼요.",
+    "en": "You mustn't ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "하고 싶은 일과 해야 하는 일을 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about what you want to do and have to do."
+   },
+   "must_include": [
+    {
+     "label": "Ich will ~",
+     "match": [
+      "ich will"
+     ]
+    },
+    {
+     "label": "Ich muss ~",
+     "match": [
+      "ich muss"
+     ]
+    },
+    {
+     "label": "Ich möchte ~",
+     "match": [
+      "ich möchte"
+     ]
+    }
+   ],
+   "model": "Ich will Deutsch lernen. Ich muss jeden Tag üben. Ich möchte nach Berlin fahren.",
+   "model_trans": {
+    "ko": "저는 수영하고 싶어요. 하지만 저는 지금 공부해야 해요. 저는 일찍 자야 해요.",
+    "en": "I want to swim. But I have to study now. I have to go to bed early."
+   }
+  }
+ }
+}
