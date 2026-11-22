@@ -1,0 +1,828 @@
+{
+ "meta": {
+  "id": "ja_a1_u36",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a1",
+  "unit": 36,
+  "concept": "A1.U36",
+  "status": "live",
+  "title": {
+   "target": "ホテルと予約",
+   "ko": "호텔과 예약",
+   "en": "Hotel and booking"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "ホテル",
+   "pos": "noun",
+   "read": "ホテル",
+   "ko": "호텔",
+   "en": "hotel",
+   "ex": {
+    "t": "ホテルは駅の隣にあります。",
+    "read": "ホテルはえきのとなりにあります。",
+    "ko": "호텔은 역 옆에 있어요.",
+    "en": "The hotel is next to the station."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "部屋",
+   "pos": "noun",
+   "read": "へや",
+   "ko": "방",
+   "en": "room",
+   "ex": {
+    "t": "部屋が一つ必要です。",
+    "read": "へやがひとつひつようです。",
+    "ko": "방이 필요해요.",
+    "en": "I need a room."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "シングル",
+   "pos": "noun",
+   "read": "シングル",
+   "ko": "1인실",
+   "en": "single room",
+   "ex": {
+    "t": "シングルの部屋はありますか。",
+    "read": "シングルのへやはありますか。",
+    "ko": "1인실이 있어요?",
+    "en": "Do you have a single room?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "ダブル",
+   "pos": "noun",
+   "read": "ダブル",
+   "ko": "2인실",
+   "en": "double room",
+   "ex": {
+    "t": "ダブルの部屋をお願いします。",
+    "read": "ダブルのへやをおねがいします。",
+    "ko": "2인실을 예약하고 싶어요.",
+    "en": "I'd like to book a double room."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "予約",
+   "pos": "noun",
+   "read": "よやく",
+   "ko": "예약",
+   "en": "reservation",
+   "ex": {
+    "t": "予約しています。",
+    "read": "よやくしています。",
+    "ko": "저는 예약이 있어요.",
+    "en": "I have a reservation."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "泊",
+   "pos": "noun",
+   "read": "はく",
+   "ko": "박",
+   "en": "night",
+   "ex": {
+    "t": "二泊します。",
+    "read": "にはくします。",
+    "ko": "이틀 밤 묵어요.",
+    "en": "I stay for two nights."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "かぎ",
+   "pos": "noun",
+   "read": "かぎ",
+   "ko": "열쇠",
+   "en": "key",
+   "ex": {
+    "t": "こちらがかぎです。",
+    "read": "こちらがかぎです。",
+    "ko": "여기 열쇠 있어요.",
+    "en": "Here is your key."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "朝ご飯",
+   "pos": "noun",
+   "read": "あさごはん",
+   "ko": "아침 식사",
+   "en": "breakfast",
+   "ex": {
+    "t": "朝ご飯は入っていますか。",
+    "read": "あさごはんはいっっていますか。",
+    "ko": "아침 식사가 포함돼요?",
+    "en": "Is breakfast included?"
+   }
+  },
+  {
+   "id": "v9",
+   "t": "チェックイン",
+   "pos": "verb",
+   "read": "チェックイン",
+   "ko": "체크인",
+   "en": "check in",
+   "ex": {
+    "t": "チェックインは何時ですか。",
+    "read": "チェックインはなんじですか。",
+    "ko": "체크인은 몇 시예요?",
+    "en": "What time is check-in?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "チェックアウト",
+   "pos": "verb",
+   "read": "チェックアウト",
+   "ko": "체크아웃",
+   "en": "check out",
+   "ex": {
+    "t": "チェックアウトは十時です。",
+    "read": "チェックアウトはじゅうじです。",
+    "ko": "체크아웃은 열 시예요.",
+    "en": "Check-out is at ten."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "予約しています · 〜をお願いします · 〜泊",
+   "en": "Hotel: 予約しています, 〜をお願いします, 〜泊"
+  },
+  "explain": {
+   "ko": "ホテルでは「予約しています」と言います。部屋は「ダブルの部屋をお願いします」で頼みます。泊数は「二泊」です。質問は「朝ご飯は入っていますか」「チェックアウトは何時ですか」です。",
+   "en": "At a hotel say 予約しています. Ask for a room with ダブルの部屋をお願いします. Nights: 二泊. Ask 朝ご飯は入っていますか and チェックアウトは何時ですか."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "予約しています",
+     "予約しています。"
+    ],
+    [
+     "〜をお願いします",
+     "ダブルの部屋をお願いします。"
+    ],
+    [
+     "〜泊",
+     "二泊します。"
+    ],
+    [
+     "〜は何時ですか",
+     "チェックアウトは何時ですか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "泊数は「一泊、二泊、三泊」と数えます。",
+    "en": "Count nights: 一泊, 二泊, 三泊."
+   },
+   {
+    "ko": "「入っていますか」は料金に含まれるかを聞きます。",
+    "en": "入っていますか asks if it is included."
+   },
+   {
+    "ko": "「お願いします」はていねいな依頼です。",
+    "en": "お願いします is a polite request."
+   }
+  ],
+  "examples": [
+   {
+    "t": "予約しています。",
+    "read": "よやくしています。",
+    "ko": "저는 예약이 있어요.",
+    "en": "I have a reservation."
+   },
+   {
+    "t": "ダブルの部屋をお願いします。",
+    "read": "ダブルのへやをおねがいします。",
+    "ko": "2인실을 원해요.",
+    "en": "I'd like a double room."
+   },
+   {
+    "t": "二泊します。",
+    "read": "にはくします。",
+    "ko": "이틀 밤 묵어요.",
+    "en": "I stay for two nights."
+   },
+   {
+    "t": "朝ご飯は入っていますか。",
+    "read": "あさごはんはいっっていますか。",
+    "ko": "아침 식사가 포함돼요?",
+    "en": "Is breakfast included?"
+   },
+   {
+    "t": "チェックアウトは十時です。",
+    "read": "チェックアウトはじゅうじです。",
+    "ko": "체크아웃은 열 시예요.",
+    "en": "Check-out is at ten."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "予約し___。",
+    "options": [
+     "ています",
+     "ました",
+     "ましょう"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "ダブルの部屋を___します。",
+    "options": [
+     "お願い",
+     "お待ち",
+     "お休み"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "二___します。",
+    "options": [
+     "泊",
+     "個",
+     "枚"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "朝ご飯は入って___か。",
+    "options": [
+     "います",
+     "ません",
+     "いて"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "部屋はありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 몇 박이에요?",
+     "en": "(Question) How many nights?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、あります。",
+       "はい、予約です。",
+       "はい、十時です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "朝ご飯は入っていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 체크아웃은 몇 시예요?",
+     "en": "(Question) What time is check-out?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、入っています。",
+       "はい、二泊です。",
+       "はい、十時です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いらっしゃいませ。予約していますか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、予約しています。"
+      },
+      {
+       "s": "A",
+       "t": "何泊ですか。"
+      },
+      {
+       "s": "B",
+       "t": "二泊です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 안녕하세요. 방이 있어요?\nB: 네, 있어요. 1인실이에요, 2인실이에요?\nA: 2인실이요. 이틀 밤이요.\nB: 알겠습니다. 아침 식사는 포함돼요.",
+     "en": "A: Hello. Do you have a room?\nB: Yes, we do. Single or double?\nA: A double room. Two nights.\nB: OK. Breakfast is included."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bさんは何泊しますか。",
+      "options": [
+       "二泊",
+       "三泊",
+       "一泊"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私はホテルでダブルの部屋をお願いします。二泊します。朝ご飯は入っています。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 호텔에 이틀 밤 묵어요. 저는 2인실을 예약했어요. 체크아웃은 열 시예요.",
+     "en": "I stay at the hotel for two nights. I have a double room. Check-out is at ten."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "朝ご飯はどうですか。",
+      "options": [
+       "入っている",
+       "入っていない",
+       "分からない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "シングルの部屋をお願いします。"
+      },
+      {
+       "s": "B",
+       "t": "何泊ですか。"
+      },
+      {
+       "s": "A",
+       "t": "三泊です。"
+      },
+      {
+       "s": "B",
+       "t": "こちらがかぎです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 안녕하세요. 예약이 있으세요?\n손님: 네. 제 이름은 김이에요.\n직원: 여기 열쇠 있어요. 방은 305호예요.\n손님: 감사합니다.",
+     "en": "Clerk: Hello. Do you have a reservation?\nGuest: Yes. My name is Kim.\nClerk: Here is your key. Your room is three oh five.\nGuest: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客は______の部屋をお願いします",
+      "answers": [
+       "シングル"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______泊です",
+      "answers": [
+       "三"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 予約し___。\n2) ダブルの部屋を___します。\n3) 二___します。",
+    "trans": {
+     "ko": "1) 저는 예약이 있어요. 2) 2인실을 원해요. 3) 체크아웃은 열 시예요.",
+     "en": "1) I have a reservation. 2) I'd like a double room. 3) Check-out is at ten."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "予約し___。",
+      "options": [
+       "ています",
+       "ました",
+       "ましょう"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ダブルの部屋を___します。",
+      "options": [
+       "お願い",
+       "お待ち",
+       "お休み"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "二___します。",
+      "options": [
+       "泊",
+       "個",
+       "枚"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私はホテルを(1)しています。ダブルの部屋を(2)ます。二(3)します。",
+    "trans": {
+     "ko": "저는 호텔에 이틀 밤 묵어요. 저는 2인실을 예약했어요. 아침 식사는 포함돼요. 체크아웃은 열 시예요.",
+     "en": "I stay at the hotel for two nights. I have a double room. Breakfast is included. Check-out is at ten."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "予約",
+       "予定",
+       "予習"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "お願いし",
+       "お待ちし",
+       "お休みし"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "泊",
+       "個",
+       "枚"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ホテルのご案内\nチェックイン：三時\nチェックアウト：十時",
+    "trans": {
+     "ko": "호텔 안내\n체크인: 14:00\n체크아웃: 10:00",
+     "en": "HOTEL INFORMATION\nCheck-in: 14:00\nCheck-out: 10:00"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "チェックインは何時ですか。",
+      "options": [
+       "三時",
+       "十時",
+       "九時"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "チェックアウトは何時ですか。",
+      "options": [
+       "十時",
+       "三時",
+       "九時"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "リサさんはダブルの部屋を予約しています。二泊します。朝ご飯は入っています。",
+    "trans": {
+     "ko": "지나는 호텔에 가요. 그녀는 1인실을 예약했어요. 그녀는 사흘 밤 묵어요.",
+     "en": "Gina goes to the hotel. She has a single room. She stays for three nights."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "リサさんは二泊します。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "朝ご飯は入っていません。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "リサさんは一人で来ました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "部屋はありますか。",
+    "read": "へやはありますか。",
+    "ko": "방이 있어요?",
+    "en": "Do you have a room?",
+    "situation": {
+     "ko": "방을 물을 때",
+     "en": "Asking for a room"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "シングルの部屋をお願いします。",
+    "read": "シングルのへやをおねがいします。",
+    "ko": "1인실을 원해요.",
+    "en": "I'd like a single room.",
+    "situation": {
+     "ko": "방을 요청할 때",
+     "en": "Requesting a room"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "予約しています。",
+    "read": "よやくしています。",
+    "ko": "몇 박이에요?",
+    "en": "How many nights?",
+    "situation": {
+     "ko": "기간을 물을 때",
+     "en": "Asking how long"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "二泊します。",
+    "read": "にはくします。",
+    "ko": "이틀 밤이요.",
+    "en": "Two nights.",
+    "situation": {
+     "ko": "기간을 말할 때",
+     "en": "Saying how long"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "朝ご飯は入っていますか。",
+    "read": "あさごはんはいっっていますか。",
+    "ko": "저는 예약이 있어요.",
+    "en": "I have a reservation.",
+    "situation": {
+     "ko": "예약을 말할 때",
+     "en": "Saying you have a booking"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "チェックアウトは何時ですか。",
+    "read": "チェックアウトはなんじですか。",
+    "ko": "아침 식사가 포함돼요?",
+    "en": "Is breakfast included?",
+    "situation": {
+     "ko": "식사를 물을 때",
+     "en": "Asking about breakfast"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "こちらがかぎです。",
+    "read": "こちらがかぎです。",
+    "ko": "체크아웃은 몇 시예요?",
+    "en": "What time is check-out?",
+    "situation": {
+     "ko": "시간을 물을 때",
+     "en": "Asking the time"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "ありがとうございます。",
+    "read": "ありがとうございます。",
+    "ko": "여기 열쇠 있어요.",
+    "en": "Here is your key.",
+    "situation": {
+     "ko": "열쇠를 줄 때",
+     "en": "Giving the key"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜をお願いします。",
+    "read": "〜をおねがいします。",
+    "ko": "~을 원해요.",
+    "en": "I'd like ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜泊します。",
+    "read": "〜はくします。",
+    "ko": "~박 묵어요.",
+    "en": "I stay for ~ nights."
+   },
+   {
+    "id": "w3",
+    "t": "予約しています。",
+    "read": "よやくしています。",
+    "ko": "저는 예약이 있어요.",
+    "en": "I have a reservation."
+   },
+   {
+    "id": "w4",
+    "t": "〜は入っていますか。",
+    "read": "〜はいっっていますか。",
+    "ko": "~이 포함돼요?",
+    "en": "Is ~ included?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "호텔에서 방을 요청하는 문장을 3개 써 보세요.",
+    "en": "Write 3 sentences asking for a room at a hotel."
+   },
+   "must_include": [
+    {
+     "label": "〜をお願いします",
+     "match": [
+      "お願い"
+     ]
+    },
+    {
+     "label": "〜泊",
+     "match": [
+      "泊"
+     ]
+    },
+    {
+     "label": "朝ご飯",
+     "match": [
+      "朝ご飯"
+     ]
+    }
+   ],
+   "model": "ダブルの部屋をお願いします。二泊します。朝ご飯は入っていますか。",
+   "model_trans": {
+    "ko": "2인실을 원해요. 저는 이틀 밤 묵어요. 아침 식사가 포함돼요?",
+    "en": "I'd like a double room. I stay for two nights. Is breakfast included?"
+   }
+  }
+ }
+}

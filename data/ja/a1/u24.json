@@ -1,0 +1,828 @@
+{
+ "meta": {
+  "id": "ja_a1_u24",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a1",
+  "unit": 24,
+  "concept": "A1.U24",
+  "status": "live",
+  "title": {
+   "target": "食べ物と飲み物：あります・ありません",
+   "ko": "음식과 음료: some과 any",
+   "en": "Food and drink: some and any"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "パン",
+   "pos": "noun",
+   "read": "パン",
+   "ko": "빵",
+   "en": "bread",
+   "ex": {
+    "t": "パンが少しあります。",
+    "read": "パンがすこしあります。",
+    "ko": "저는 빵이 조금 있어요.",
+    "en": "I have some bread."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "牛乳",
+   "pos": "noun",
+   "read": "ぎゅうにゅう",
+   "ko": "우유",
+   "en": "milk",
+   "ex": {
+    "t": "冷蔵庫に牛乳があります。",
+    "read": "れいぞうこにぎゅうにゅうがあります。",
+    "ko": "냉장고에 우유가 있어요.",
+    "en": "There is some milk in the fridge."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "チーズ",
+   "pos": "noun",
+   "read": "チーズ",
+   "ko": "치즈",
+   "en": "cheese",
+   "ex": {
+    "t": "私はチーズが好きです。",
+    "read": "わたしはチーズがすきです。",
+    "ko": "저는 치즈를 좋아해요.",
+    "en": "I like cheese."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "水",
+   "pos": "noun",
+   "read": "みず",
+   "ko": "물",
+   "en": "water",
+   "ex": {
+    "t": "水をください。",
+    "read": "みずをください。",
+    "ko": "물 좀 주세요.",
+    "en": "Some water, please."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "卵",
+   "pos": "noun",
+   "read": "たまご",
+   "ko": "계란",
+   "en": "egg",
+   "ex": {
+    "t": "卵が二つあります。",
+    "read": "たまごがふたつあります。",
+    "ko": "저는 계란이 두 개 있어요.",
+    "en": "I have two eggs."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "米",
+   "pos": "noun",
+   "read": "こめ",
+   "ko": "쌀",
+   "en": "rice",
+   "ex": {
+    "t": "米がありません。",
+    "read": "こめがありません。",
+    "ko": "우리는 쌀이 없어요.",
+    "en": "We don't have any rice."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "肉",
+   "pos": "noun",
+   "read": "にく",
+   "ko": "고기",
+   "en": "meat",
+   "ex": {
+    "t": "彼は肉を食べません。",
+    "read": "かれはにくをたべません。",
+    "ko": "그는 고기를 먹지 않아요.",
+    "en": "He doesn't eat meat."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "魚",
+   "pos": "noun",
+   "read": "さかな",
+   "ko": "생선",
+   "en": "fish",
+   "ex": {
+    "t": "私は魚が好きです。",
+    "read": "わたしはさかながすきです。",
+    "ko": "저는 생선을 좋아해요.",
+    "en": "I like fish."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "りんご",
+   "pos": "noun",
+   "read": "りんご",
+   "ko": "사과",
+   "en": "apple",
+   "ex": {
+    "t": "りんごが少しあります。",
+    "read": "りんごがすこしあります。",
+    "ko": "저는 사과가 몇 개 있어요.",
+    "en": "I have some apples."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "冷蔵庫",
+   "pos": "noun",
+   "read": "れいぞうこ",
+   "ko": "냉장고",
+   "en": "fridge",
+   "ex": {
+    "t": "食べ物は冷蔵庫にあります。",
+    "read": "たべものはれいぞうこにあります。",
+    "ko": "음식은 냉장고에 있어요.",
+    "en": "The food is in the fridge."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜があります · 〜がありません · 少し",
+   "en": "Food and drink: 〜があります / ありません, 少し"
+  },
+  "explain": {
+   "ko": "物があるかないかは「〜があります / 〜がありません」で言います：牛乳があります。量は「少し」、数は「二つ」で言います。場所は「冷蔵庫に〜があります」です。質問は「冷蔵庫に何がありますか」です。食べないものは「〜を食べません」です。",
+   "en": "Existence uses 〜があります / 〜がありません: 牛乳があります. Amounts: 少し; numbers: 二つ. Place: 冷蔵庫に〜があります. Ask 冷蔵庫に何がありますか. Things you don't eat use 〜を食べません."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜があります",
+     "冷蔵庫に牛乳があります。"
+    ],
+    [
+     "〜がありません",
+     "米がありません。"
+    ],
+    [
+     "少しあります",
+     "パンが少しあります。"
+    ],
+    [
+     "〜が二つあります",
+     "卵が二つあります。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "物には「あります」、人や動物には「います」を使います。",
+    "en": "Use あります for things and います for people and animals."
+   },
+   {
+    "ko": "「に」は場所、「が」はあるものを表します。",
+    "en": "に marks the place and が marks the thing."
+   },
+   {
+    "ko": "否定は「ありません」です。",
+    "en": "The negative is ありません."
+   }
+  ],
+  "examples": [
+   {
+    "t": "パンが少しあります。",
+    "read": "パンがすこしあります。",
+    "ko": "저는 빵이 조금 있어요.",
+    "en": "I have some bread."
+   },
+   {
+    "t": "牛乳がありません。",
+    "read": "ぎゅうにゅうがありません。",
+    "ko": "우리는 우유가 없어요.",
+    "en": "We don't have any milk."
+   },
+   {
+    "t": "冷蔵庫に卵がありますか。",
+    "read": "れいぞうこにたまごがありますか。",
+    "ko": "냉장고에 계란이 있어요?",
+    "en": "Are there any eggs in the fridge?"
+   },
+   {
+    "t": "りんごが三つあります。",
+    "read": "りんごがみっつあります。",
+    "ko": "저는 사과가 몇 개 있어요.",
+    "en": "I have some apples."
+   },
+   {
+    "t": "彼女は肉を食べません。",
+    "read": "かのじょはにくをたべません。",
+    "ko": "그녀는 고기를 안 먹어요.",
+    "en": "She doesn't eat any meat."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "冷蔵庫に牛乳___あります。",
+    "options": [
+     "が",
+     "を",
+     "は"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "私たちは米が___。",
+    "options": [
+     "ありません",
+     "あります",
+     "食べます"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "パンが___あります。",
+    "options": [
+     "少し",
+     "少しを",
+     "少しに"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "卵が二つ___。",
+    "options": [
+     "あります",
+     "います",
+     "ください"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "牛乳がありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 우유가 있어요?",
+     "en": "(Question) Do you have any milk?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "いいえ、ありません。",
+       "いいえ、学生です。",
+       "いいえ、韓国人です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "冷蔵庫に何がありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 냉장고에 무엇이 있어요?",
+     "en": "(Question) What is in the fridge?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "牛乳と卵があります。",
+       "三時です。",
+       "ソウルに住んでいます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "冷蔵庫に卵がありますか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、卵が少しあります。"
+      },
+      {
+       "s": "A",
+       "t": "牛乳は？"
+      },
+      {
+       "s": "B",
+       "t": "牛乳はありません。牛乳を買います。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 냉장고에 계란이 있어요?\nB: 네, 계란이 몇 개 있어요.\nA: 우유는요?\nB: 우유는 없어요. 우유를 사요.",
+     "en": "A: Are there any eggs in the fridge?\nB: Yes, there are some eggs.\nA: What about milk?\nB: There isn't any milk. Let's buy some milk."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bさんは何を買いますか。",
+      "options": [
+       "牛乳",
+       "卵",
+       "パン"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私たちの冷蔵庫にはチーズと卵があります。パンが少しあります。でも、米はありません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 냉장고에는 치즈와 계란이 있어요. 우리는 빵이 조금 있어요. 하지만 쌀은 없어요.",
+     "en": "In our fridge there is some cheese and there are some eggs. We have some bread. But we don't have any rice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "何がありませんか。",
+      "options": [
+       "米",
+       "チーズ",
+       "卵"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "何にしますか。"
+      },
+      {
+       "s": "B",
+       "t": "パンと牛乳をください。"
+      },
+      {
+       "s": "A",
+       "t": "卵もいりますか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、卵を六つください。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "점원: 무엇을 드릴까요?\n손님: 빵과 우유요.\n점원: 계란도 필요해요?\n손님: 네, 계란 여섯 개요.",
+     "en": "Clerk: What would you like?\nGuest: Some bread and milk.\nClerk: Do you need any eggs?\nGuest: Yes, six eggs."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さんはパンと______がほしいです",
+      "answers": [
+       "牛乳"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "卵を______つください",
+      "answers": [
+       "六"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 冷蔵庫に牛乳___あります。\n2) 私たちは米が___。\n3) パンが___あります。",
+    "trans": {
+     "ko": "1) 저는 빵이 조금 있어요. 2) 우리는 우유가 없어요. 3) 냉장고에 계란이 있어요?",
+     "en": "1) I have some bread. 2) We don't have any milk. 3) Are there any eggs in the fridge?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "冷蔵庫に牛乳___あります。",
+      "options": [
+       "が",
+       "を",
+       "は"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私たちは米が___。",
+      "options": [
+       "ありません",
+       "あります",
+       "食べます"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "パンが___あります。",
+      "options": [
+       "少し",
+       "少しを",
+       "少しに"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "これは私の冷蔵庫です。冷蔵庫に牛乳が(1)あります。卵も(2)あります。でも、チーズは(3)。",
+    "trans": {
+     "ko": "이것은 제 냉장고예요. 냉장고에 우유가 조금 있어요. 계란도 몇 개 있어요. 하지만 치즈는 없어요.",
+     "en": "This is my fridge. There is some milk in the fridge. There are some eggs too. But there isn't any cheese."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "少し",
+       "少しを",
+       "少しに"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "いくつか",
+       "いくつかを",
+       "いくつかに"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "ありません",
+       "あります",
+       "食べます"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "買い物リスト\nパン\n牛乳\n卵 6個",
+    "trans": {
+     "ko": "쇼핑 목록\n빵\n우유\n계란 6개",
+     "en": "SHOPPING LIST\nbread\nmilk\n6 eggs"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "何を買いますか。",
+      "options": [
+       "パン、牛乳、卵",
+       "肉",
+       "魚"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "卵はいくつ必要ですか。",
+      "options": [
+       "6個",
+       "3個",
+       "12個"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "マヤさんはパンが少しあります。牛乳はありません。彼女は店に行きます。",
+    "trans": {
+     "ko": "마야는 빵이 조금 있어요. 그녀는 우유가 없어요. 그녀는 가게에 가요.",
+     "en": "Maya has some bread. She doesn't have any milk. She goes to the shop."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "マヤさんはパンが少しあります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "マヤさんは牛乳があります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "マヤさんは一人で住んでいます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "牛乳がありますか。",
+    "read": "ぎゅうにゅうがありますか。",
+    "ko": "저는 빵이 조금 있어요.",
+    "en": "I have some bread.",
+    "situation": {
+     "ko": "긍정문에서",
+     "en": "In a positive sentence"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "はい、あります。",
+    "read": "はい、あります。",
+    "ko": "우유가 있어요?",
+    "en": "Do you have any milk?",
+    "situation": {
+     "ko": "질문에서",
+     "en": "In a question"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "いいえ、ありません。",
+    "read": "いいえ、ありません。",
+    "ko": "아니요, 우유가 없어요.",
+    "en": "No, I don't have any milk.",
+    "situation": {
+     "ko": "부정문에서",
+     "en": "In a negative sentence"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "冷蔵庫に何がありますか。",
+    "read": "れいぞうこになにがありますか。",
+    "ko": "냉장고에 계란이 있어요.",
+    "en": "There are some eggs in the fridge.",
+    "situation": {
+     "ko": "있는 것을 말할 때",
+     "en": "Saying what is there"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "卵が二つあります。",
+    "read": "たまごがふたつあります。",
+    "ko": "냉장고에 치즈가 없어요.",
+    "en": "There isn't any cheese in the fridge.",
+    "situation": {
+     "ko": "없는 것을 말할 때",
+     "en": "Saying what is missing"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "チーズがありません。",
+    "read": "チーズがありません。",
+    "ko": "물 좀 주세요.",
+    "en": "Some water, please.",
+    "situation": {
+     "ko": "부탁할 때",
+     "en": "Asking politely"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "水をください。",
+    "read": "みずをください。",
+    "ko": "저는 생선을 좋아해요.",
+    "en": "I like fish.",
+    "situation": {
+     "ko": "좋아하는 것을 말할 때",
+     "en": "Saying what you like"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "魚が好きです。",
+    "read": "さかながすきです。",
+    "ko": "저는 사과를 두 개 사요.",
+    "en": "I buy two apples.",
+    "situation": {
+     "ko": "사는 것을 말할 때",
+     "en": "Saying what you buy"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜があります。",
+    "read": "〜があります。",
+    "ko": "저는 ~가 조금 있어요.",
+    "en": "I have some ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜がありません。",
+    "read": "〜がありません。",
+    "ko": "~가 있어요?",
+    "en": "Do you have any ~?"
+   },
+   {
+    "id": "w3",
+    "t": "〜が少しあります。",
+    "read": "〜がすこしあります。",
+    "ko": "저는 ~가 없어요.",
+    "en": "I don't have any ~."
+   },
+   {
+    "id": "w4",
+    "t": "冷蔵庫に〜があります。",
+    "read": "れいぞうこに〜があります。",
+    "ko": "~가 있어요.",
+    "en": "There is / are some ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "냉장고에 있는 음식을 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about the food in your fridge."
+   },
+   "must_include": [
+    {
+     "label": "〜があります",
+     "match": [
+      "があります"
+     ]
+    },
+    {
+     "label": "〜がありません",
+     "match": [
+      "がありません"
+     ]
+    },
+    {
+     "label": "少し / いくつか",
+     "match": [
+      "少し"
+     ]
+    }
+   ],
+   "model": "冷蔵庫に牛乳があります。卵が少しあります。でも、チーズがありません。",
+   "model_trans": {
+    "ko": "냉장고에 우유가 있어요. 계란도 몇 개 있어요. 하지만 치즈는 없어요.",
+    "en": "There is some milk in the fridge. There are some eggs too. But there isn't any cheese."
+   }
+  }
+ }
+}

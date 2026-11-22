@@ -1,0 +1,828 @@
+{
+ "meta": {
+  "id": "ja_a1_u48",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a1",
+  "unit": 48,
+  "concept": "A1.U48",
+  "status": "live",
+  "title": {
+   "target": "したいこと・しなければならないこと",
+   "ko": "원하는 것과 해야 하는 것",
+   "en": "Wants and needs"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "ほしい",
+   "pos": "verb",
+   "read": "ほしい",
+   "ko": "원하다",
+   "en": "want",
+   "ex": {
+    "t": "コーヒーがほしいです。",
+    "read": "コーヒーがほしいです。",
+    "ko": "저는 커피를 원해요.",
+    "en": "I want a coffee."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜たい",
+   "pos": "verb",
+   "read": "〜たい",
+   "ko": "~하고 싶다",
+   "en": "want to",
+   "ex": {
+    "t": "私は泳ぎたいです。",
+    "read": "わたしはおよぎたいです。",
+    "ko": "저는 수영하고 싶어요.",
+    "en": "I want to swim."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜なければならない",
+   "pos": "verb",
+   "read": "〜なければならない",
+   "ko": "~할 필요가 있다",
+   "en": "need to",
+   "ex": {
+    "t": "私は勉強しなければなりません。",
+    "read": "わたしはべんきょうしなければなりません。",
+    "ko": "저는 공부해야 해요.",
+    "en": "I need to study."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "働く",
+   "pos": "verb",
+   "read": "はたらく",
+   "ko": "~해야 한다",
+   "en": "have to",
+   "ex": {
+    "t": "私は働かなければなりません。",
+    "read": "わたしははたらかなければなりません。",
+    "ko": "저는 일해야 해요.",
+    "en": "I have to work."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜てはいけない",
+   "pos": "verb",
+   "read": "〜てはいけない",
+   "ko": "~해서는 안 된다",
+   "en": "mustn't",
+   "ex": {
+    "t": "ここで走ってはいけません。",
+    "read": "ここではしってはいけません。",
+    "ko": "여기에서 달리면 안 돼요.",
+    "en": "You mustn't run here."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "今",
+   "pos": "adv",
+   "read": "いま",
+   "ko": "지금",
+   "en": "now",
+   "ex": {
+    "t": "今行かなければなりません。",
+    "read": "いまいかなければなりません。",
+    "ko": "저는 지금 가야 해요.",
+    "en": "I have to go now."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "あとで",
+   "pos": "adv",
+   "read": "あとで",
+   "ko": "나중에",
+   "en": "later",
+   "ex": {
+    "t": "あとで勉強します。",
+    "read": "あとでべんきょうします。",
+    "ko": "저는 나중에 공부해요.",
+    "en": "I study later."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "もっと",
+   "pos": "adv",
+   "read": "もっと",
+   "ko": "조금 더",
+   "en": "more",
+   "ex": {
+    "t": "もっと寝たいです。",
+    "read": "もっとねたいです。",
+    "ko": "저는 조금 더 자고 싶어요.",
+    "en": "I want to sleep more."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "休む",
+   "pos": "verb",
+   "read": "やすむ",
+   "ko": "쉬다",
+   "en": "rest",
+   "ex": {
+    "t": "私は休みたいです。",
+    "read": "わたしはやすみたいです。",
+    "ko": "저는 쉬고 싶어요.",
+    "en": "I want to rest."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "早く",
+   "pos": "adv",
+   "read": "はやく",
+   "ko": "일찍",
+   "en": "early",
+   "ex": {
+    "t": "早く寝なければなりません。",
+    "read": "はやくねなければなりません。",
+    "ko": "저는 일찍 자야 해요.",
+    "en": "I have to go to bed early."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜たいです · 〜なければなりません · 〜てはいけません",
+   "en": "Wants and needs: 〜たいです, 〜なければなりません, 〜てはいけません"
+  },
+  "explain": {
+   "ko": "したいことは「動詞 + たいです」で言います。しなければならないことは「〜なければなりません」です。してはいけないことは「〜てはいけません」です。ほしい物は「〜がほしいです」です。",
+   "en": "Wishes use verb stem + たいです. Obligations use 〜なければなりません. Prohibitions use 〜てはいけません. Wanted things use 〜がほしいです."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜たいです",
+     "泳ぎたいです。"
+    ],
+    [
+     "〜なければなりません",
+     "勉強しなければなりません。"
+    ],
+    [
+     "〜てはいけません",
+     "ここで走ってはいけません。"
+    ],
+    [
+     "〜がほしいです",
+     "コーヒーがほしいです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「たい」の否定は「〜たくないです」です。",
+    "en": "The negative of たい is 〜たくないです."
+   },
+   {
+    "ko": "「なければなりません」は義務を表します。",
+    "en": "なければなりません expresses obligation."
+   },
+   {
+    "ko": "禁止には「てはいけません」を使います。",
+    "en": "Use てはいけません for prohibition."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は泳ぎたいです。",
+    "read": "わたしはおよぎたいです。",
+    "ko": "저는 수영하고 싶어요.",
+    "en": "I want to swim."
+   },
+   {
+    "t": "私は今、勉強しなければなりません。",
+    "read": "わたしはいま、べんきょうしなければなりません。",
+    "ko": "저는 지금 공부해야 해요.",
+    "en": "I need to study now."
+   },
+   {
+    "t": "早く寝なければなりません。",
+    "read": "はやくねなければなりません。",
+    "ko": "저는 일찍 자야 해요.",
+    "en": "I have to go to bed early."
+   },
+   {
+    "t": "休みたくないです。",
+    "read": "やすみたくないです。",
+    "ko": "당신은 무엇을 하고 싶어요?",
+    "en": "What do you want to do?"
+   },
+   {
+    "t": "ここで走ってはいけません。",
+    "read": "ここではしってはいけません。",
+    "ko": "여기에서 달리면 안 돼요.",
+    "en": "You mustn't run here."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私は泳ぎ___です。",
+    "options": [
+     "たい",
+     "ます",
+     "たく"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "私は勉強しなければ___。",
+    "options": [
+     "なりません",
+     "いません",
+     "ありません"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "ここで走っては___。",
+    "options": [
+     "いけません",
+     "なりません",
+     "ありません"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "休み___ないです。",
+    "options": [
+     "たく",
+     "たい",
+     "ます"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "何をしたいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 당신은 무엇을 하고 싶어요?",
+     "en": "(Question) What do you want to do?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "泳ぎたいです。",
+       "三時です。",
+       "韓国人です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今、行かなければなりませんか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 당신은 지금 가야 해요?",
+     "en": "(Question) Do you have to go now?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、行かなければなりません。",
+       "はい、二つです。",
+       "はい、駅です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "何をしたいですか。"
+      },
+      {
+       "s": "B",
+       "t": "泳ぎたいです。でも、今、勉強しなければなりません。"
+      },
+      {
+       "s": "A",
+       "t": "早く寝なければなりませんか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、早く寝なければなりません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 수영하러 가고 싶어요?\nB: 네, 하지만 지금은 공부해야 해요.\nA: 숙제가 많아요?\nB: 네, 아주 많아요.",
+     "en": "A: Do you want to go swimming?\nB: Yes, but I have to study now.\nA: Do you have a lot of homework?\nB: Yes, a lot."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bさんは今何をしなければなりませんか。",
+      "options": [
+       "勉強",
+       "水泳",
+       "休む"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私は泳ぎたいです。でも、今勉強しなければなりません。早く寝なければなりません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 오늘 수영하고 싶어요. 하지만 저는 공부해야 해요. 저는 내일 시험이 있어요. 저는 일찍 자야 해요.",
+     "en": "I want to swim today. But I have to study. I have a test tomorrow. I have to go to bed early."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "早く何をしなければなりませんか。",
+      "options": [
+       "寝る",
+       "泳ぐ",
+       "勉強する"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ここで走ってはいけません。"
+      },
+      {
+       "s": "B",
+       "t": "すみません。"
+      },
+      {
+       "s": "A",
+       "t": "今、休みたいですか。"
+      },
+      {
+       "s": "B",
+       "t": "いいえ、休みたくないです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 지금 가야 해요?\n손님: 네, 버스가 와요.\n직원: 어디에 가요?\n손님: 집에 가요.",
+     "en": "Clerk: Do you have to go now?\nGuest: Yes, the bus is coming.\nClerk: Where are you going?\nGuest: I'm going home."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "先生は、ここで走っては______と言います",
+      "answers": [
+       "いけません"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "生徒は休み______です",
+      "answers": [
+       "たくない"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は泳ぎ___です。\n2) 私は勉強しなければ___。\n3) ここで走っては___。",
+    "trans": {
+     "ko": "1) 저는 수영하고 싶어요. 2) 저는 지금 공부해야 해요. 3) 저는 일찍 자야 해요.",
+     "en": "1) I want to swim. 2) I need to study now. 3) I have to go to bed early."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は泳ぎ___です。",
+      "options": [
+       "たい",
+       "ます",
+       "たく"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私は勉強しなければ___。",
+      "options": [
+       "なりません",
+       "いません",
+       "ありません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ここで走っては___。",
+      "options": [
+       "いけません",
+       "なりません",
+       "ありません"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私は泳ぎ(1)です。でも、今勉強し(2)なりません。早く(3)なければなりません。",
+    "trans": {
+     "ko": "저는 오늘 수영하고 싶어요. 하지만 저는 공부해야 해요. 저는 내일 시험이 있어요. 저는 일찍 자야 해요.",
+     "en": "I want to swim today. But I have to study. I have a test tomorrow. I have to go to bed early."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "たい",
+       "ます",
+       "たく"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "なければ",
+       "ないで",
+       "なくて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "寝",
+       "寝る",
+       "寝て"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "プールのルール\nここで走ってはいけません。\n泳ぐ前にシャワーを浴びなければなりません。",
+    "trans": {
+     "ko": "안내\n여기에서 달리면 안 돼요.\n조용히 해 주세요.",
+     "en": "SIGN\nYou mustn't run here.\nPlease be quiet."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "プールで何をしてはいけませんか。",
+      "options": [
+       "走る",
+       "泳ぐ",
+       "シャワーを浴びる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "泳ぐ前に何をしなければなりませんか。",
+      "options": [
+       "シャワーを浴びる",
+       "走る",
+       "休む"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "私は泳ぎたいです。でも、今は勉強しなければなりません。休みたくありません。",
+    "trans": {
+     "ko": "톰은 쉬고 싶어요. 하지만 그는 일해야 해요. 그는 주말에 쉬어요.",
+     "en": "Tom wants to rest. But he has to work. He rests at the weekend."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "私は泳ぎたいです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "私は休みたいです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "私は学生です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "何をしたいですか。",
+    "read": "なにをしたいですか。",
+    "ko": "당신은 무엇을 하고 싶어요?",
+    "en": "What do you want to do?",
+    "situation": {
+     "ko": "원하는 것을 물을 때",
+     "en": "Asking what someone wants"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "泳ぎたいです。",
+    "read": "およぎたいです。",
+    "ko": "저는 수영하고 싶어요.",
+    "en": "I want to swim.",
+    "situation": {
+     "ko": "원하는 것을 말할 때",
+     "en": "Saying what you want"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "勉強しなければなりません。",
+    "read": "べんきょうしなければなりません。",
+    "ko": "저는 지금 공부해야 해요.",
+    "en": "I need to study now.",
+    "situation": {
+     "ko": "필요를 말할 때",
+     "en": "Saying what you need"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "早く寝なければなりません。",
+    "read": "はやくねなければなりません。",
+    "ko": "저는 일찍 자야 해요.",
+    "en": "I have to go to bed early.",
+    "situation": {
+     "ko": "의무를 말할 때",
+     "en": "Saying what you have to do"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "休みたくないです。",
+    "read": "やすみたくないです。",
+    "ko": "저는 쉬고 싶지 않아요.",
+    "en": "I don't want to rest.",
+    "situation": {
+     "ko": "원하지 않을 때",
+     "en": "Saying you don't want to"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "ここで走ってはいけません。",
+    "read": "ここではしってはいけません。",
+    "ko": "여기에서 달리면 안 돼요.",
+    "en": "You mustn't run here.",
+    "situation": {
+     "ko": "금지할 때",
+     "en": "Saying it's not allowed"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "今行かなければなりませんか。",
+    "read": "いまいかなければなりませんか。",
+    "ko": "당신은 지금 가야 해요?",
+    "en": "Do you have to go now?",
+    "situation": {
+     "ko": "의무를 물을 때",
+     "en": "Asking about obligation"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "あとでしたいです。",
+    "read": "あとでしたいです。",
+    "ko": "저는 나중에 하고 싶어요.",
+    "en": "I want to do it later.",
+    "situation": {
+     "ko": "미룰 때",
+     "en": "Postponing"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "私は〜たいです。",
+    "read": "わたしは〜たいです。",
+    "ko": "저는 ~하고 싶어요.",
+    "en": "I want to ~."
+   },
+   {
+    "id": "w2",
+    "t": "私は〜なければなりません。",
+    "read": "わたしは〜なければなりません。",
+    "ko": "저는 ~해야 해요.",
+    "en": "I need to / have to ~."
+   },
+   {
+    "id": "w3",
+    "t": "私は〜たくないです。",
+    "read": "わたしは〜たくないです。",
+    "ko": "저는 ~하고 싶지 않아요.",
+    "en": "I don't want to ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜てはいけません。",
+    "read": "〜てはいけません。",
+    "ko": "~하면 안 돼요.",
+    "en": "You mustn't ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "하고 싶은 일과 해야 하는 일을 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about what you want to do and have to do."
+   },
+   "must_include": [
+    {
+     "label": "〜たいです",
+     "match": [
+      "たい"
+     ]
+    },
+    {
+     "label": "〜なければなりません",
+     "match": [
+      "なければなりません"
+     ]
+    },
+    {
+     "label": "〜たくない",
+     "match": [
+      "たくない"
+     ]
+    }
+   ],
+   "model": "私は泳ぎたいです。でも、今勉強しなければなりません。早く寝なければなりません。休みたくないです。",
+   "model_trans": {
+    "ko": "저는 수영하고 싶어요. 하지만 저는 지금 공부해야 해요. 저는 일찍 자야 해요.",
+    "en": "I want to swim. But I have to study now. I have to go to bed early."
+   }
+  }
+ }
+}

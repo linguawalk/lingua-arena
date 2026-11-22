@@ -1,0 +1,828 @@
+{
+ "meta": {
+  "id": "ja_a1_u32",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a1",
+  "unit": 32,
+  "concept": "A1.U32",
+  "status": "live",
+  "title": {
+   "target": "今、何をしていますか",
+   "ko": "지금 하는 일",
+   "en": "What are you doing now?"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "今",
+   "pos": "adv",
+   "read": "いま",
+   "ko": "지금",
+   "en": "now",
+   "ex": {
+    "t": "私は今、勉強しています。",
+    "read": "わたしはいま、べんきょうしています。",
+    "ko": "저는 지금 공부해요.",
+    "en": "I am studying now."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "読む",
+   "pos": "verb",
+   "read": "よむ",
+   "ko": "읽다",
+   "en": "read",
+   "ex": {
+    "t": "彼は本を読んでいます。",
+    "read": "かれはほんをよんでいます。",
+    "ko": "그는 책을 읽고 있어요.",
+    "en": "He is reading a book."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "書く",
+   "pos": "verb",
+   "read": "かく",
+   "ko": "쓰다",
+   "en": "write",
+   "ex": {
+    "t": "私は手紙を書いています。",
+    "read": "わたしはてがみをかいています。",
+    "ko": "저는 편지를 쓰고 있어요.",
+    "en": "I am writing a letter."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "聞く",
+   "pos": "verb",
+   "read": "きく",
+   "ko": "듣다",
+   "en": "listen",
+   "ex": {
+    "t": "彼女は音楽を聞いています。",
+    "read": "かのじょはおんがくをきいています。",
+    "ko": "그녀는 음악을 듣고 있어요.",
+    "en": "She is listening to music."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "見る",
+   "pos": "verb",
+   "read": "みる",
+   "ko": "보다",
+   "en": "watch",
+   "ex": {
+    "t": "私たちはテレビを見ています。",
+    "read": "わたしたちはテレビをみています。",
+    "ko": "우리는 텔레비전을 보고 있어요.",
+    "en": "We are watching TV."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "食べる",
+   "pos": "verb",
+   "read": "たべる",
+   "ko": "먹다",
+   "en": "eat",
+   "ex": {
+    "t": "彼らは昼ご飯を食べています。",
+    "read": "かれらはひるごはんをたべています。",
+    "ko": "그들은 점심을 먹고 있어요.",
+    "en": "They are eating lunch."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "飲む",
+   "pos": "verb",
+   "read": "のむ",
+   "ko": "마시다",
+   "en": "drink",
+   "ex": {
+    "t": "私は水を飲んでいます。",
+    "read": "わたしはみずをのんでいます。",
+    "ko": "저는 물을 마시고 있어요.",
+    "en": "I am drinking water."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "勉強する",
+   "pos": "verb",
+   "read": "べんきょうする",
+   "ko": "공부하다",
+   "en": "study",
+   "ex": {
+    "t": "私は英語を勉強しています。",
+    "read": "わたしはえいごをべんきょうしています。",
+    "ko": "저는 영어를 공부하고 있어요.",
+    "en": "I am studying English."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "待つ",
+   "pos": "verb",
+   "read": "まつ",
+   "ko": "기다리다",
+   "en": "wait",
+   "ex": {
+    "t": "私はバスを待っています。",
+    "read": "わたしはバスをまっています。",
+    "ko": "저는 버스를 기다리고 있어요.",
+    "en": "I am waiting for the bus."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "今ちょうど",
+   "pos": "adv",
+   "read": "いまちょうど",
+   "ko": "지금 막",
+   "en": "right now",
+   "ex": {
+    "t": "今ちょうど忙しいです。",
+    "read": "いまちょうどいそがしいです。",
+    "ko": "저는 지금 바빠요.",
+    "en": "I'm busy right now."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜ています · 今 · 〜ていません",
+   "en": "Now: 〜ています, 今, 〜ていません"
+  },
+  "explain": {
+   "ko": "今していることは「動詞て形 + います」で言います：勉強しています。質問は「何をしていますか」です。否定は「〜ていません」です。話すときは「い」を省いて「してます」とも言います。",
+   "en": "Say what is happening now with the te-form + います: 勉強しています. Ask 何をしていますか. The negative is 〜ていません. In speech the い is often dropped: してます."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜ています",
+     "私は勉強しています。"
+    ],
+    [
+     "何をしていますか",
+     "今、何をしていますか。"
+    ],
+    [
+     "〜ていません",
+     "テレビを見ていません。"
+    ],
+    [
+     "今",
+     "今、バスを待っています。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "て形に「います」をつけます。",
+    "en": "Add います to the te-form."
+   },
+   {
+    "ko": "「〜ていますか」で聞きます。",
+    "en": "Ask with 〜ていますか."
+   },
+   {
+    "ko": "習慣にも使います：毎日走っています。",
+    "en": "It can also express habits."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は今、勉強しています。",
+    "read": "わたしはいま、べんきょうしています。",
+    "ko": "저는 지금 공부하고 있어요.",
+    "en": "I am studying now."
+   },
+   {
+    "t": "彼は本を読んでいます。",
+    "read": "かれはほんをよんでいます。",
+    "ko": "그는 책을 읽고 있어요.",
+    "en": "He is reading a book."
+   },
+   {
+    "t": "彼らは昼ご飯を食べています。",
+    "read": "かれらはひるごはんをたべています。",
+    "ko": "그들은 점심을 먹고 있어요.",
+    "en": "They are eating lunch."
+   },
+   {
+    "t": "今、何をしていますか。",
+    "read": "いま、なにをしていますか。",
+    "ko": "당신은 무엇을 하고 있어요?",
+    "en": "What are you doing?"
+   },
+   {
+    "t": "私はバスを待っています。",
+    "read": "わたしはバスをまっています。",
+    "ko": "저는 버스를 기다리고 있어요.",
+    "en": "I am waiting for the bus."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私は今、勉強し___。",
+    "options": [
+     "ています",
+     "ました",
+     "ましょう"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "彼は本を読ん___。",
+    "options": [
+     "でいます",
+     "ています",
+     "ました"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "今、何を___か。",
+    "options": [
+     "していますか",
+     "しますか",
+     "しましたか"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "テレビを見て___。",
+    "options": [
+     "いません",
+     "ません",
+     "ました"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今、何をしていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 무엇을 하고 있어요?",
+     "en": "(Question) What are you doing?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "勉強しています。",
+       "勉強しました。",
+       "勉強します。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "テレビを見ていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 당신은 공부하고 있어요?",
+     "en": "(Question) Are you studying?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "いいえ、見ていません。",
+       "いいえ、見ました。",
+       "いいえ、見ます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "もしもし、今、何をしていますか。"
+      },
+      {
+       "s": "B",
+       "t": "英語を勉強しています。"
+      },
+      {
+       "s": "A",
+       "t": "水を飲んでいますか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、水を飲んでいます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 무엇을 하고 있어요?\nB: 저는 영어를 공부하고 있어요. 당신은요?\nA: 저는 음악을 듣고 있어요.\nB: 어떤 음악이에요?",
+     "en": "A: What are you doing?\nB: I'm studying English. And you?\nA: I'm listening to music.\nB: What music?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bさんは今何をしていますか。",
+      "options": [
+       "英語を勉強している",
+       "水だけ飲んでいる",
+       "テレビを見ている"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私は今、駅でバスを待っています。友だちは音楽を聞いています。私たちは昼ご飯を食べていません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "지금은 일요일 오후예요. 아빠는 신문을 읽고 있어요. 엄마는 요리하고 있어요. 저는 텔레비전을 보고 있어요.",
+     "en": "It is Sunday afternoon. Dad is reading the newspaper. Mum is cooking. I am watching TV."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "友だちは何をしていますか。",
+      "options": [
+       "音楽を聞いている",
+       "バスを待っている",
+       "昼ご飯を食べている"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今、何をしていますか。"
+      },
+      {
+       "s": "B",
+       "t": "本を読んでいます。"
+      },
+      {
+       "s": "A",
+       "t": "弟は？"
+      },
+      {
+       "s": "B",
+       "t": "弟はテレビを見ています。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 지금 무엇을 하고 있어요?\n손님: 저는 버스를 기다리고 있어요.\n직원: 어디에 가요?\n손님: 시청에 가요.",
+     "en": "Clerk: What are you doing now?\nGuest: I'm waiting for the bus.\nClerk: Where are you going?\nGuest: I'm going to the city hall."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "子は______を読んでいます",
+      "answers": [
+       "本"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "弟は______を見ています",
+      "answers": [
+       "テレビ"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は今、勉強し___。\n2) 彼は本を読ん___。\n3) テレビを見て___。",
+    "trans": {
+     "ko": "1) 저는 지금 공부하고 있어요. 2) 그는 책을 읽고 있어요. 3) 그들은 점심을 먹고 있어요.",
+     "en": "1) I am studying now. 2) He is reading a book. 3) They are eating lunch."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は今、勉強し___。",
+      "options": [
+       "ています",
+       "ました",
+       "ましょう"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼は本を読ん___。",
+      "options": [
+       "でいます",
+       "ています",
+       "ました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "テレビを見て___。",
+      "options": [
+       "いません",
+       "ません",
+       "ました"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私は今、英語を(1)。水も(2)。友だちは音楽を(3)。",
+    "trans": {
+     "ko": "지금은 일요일 오후예요. 아빠는 신문을 읽고 있어요. 엄마는 요리하고 있어요. 저는 텔레비전을 보고 있어요.",
+     "en": "It is Sunday afternoon. Dad is reading the newspaper. Mum is cooking. I am watching TV."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "勉強しています",
+       "勉強しました",
+       "勉強します"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "飲んでいます",
+       "飲みました",
+       "飲みます"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "聞いています",
+       "聞きました",
+       "聞きます"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "メッセージ\n今、バスを待っています。\n十分後に着きます。",
+    "trans": {
+     "ko": "문자 메시지\n지금 뭐 해? - 숙제하고 있어.\n나는 영화 보고 있어.",
+     "en": "TEXT MESSAGE\nWhat are you doing? - I'm doing my homework.\nI'm watching a film."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "今何をしていますか。",
+      "options": [
+       "バスを待っている",
+       "昼ご飯を食べている",
+       "本を読んでいる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "いつ着きますか。",
+      "options": [
+       "十分後",
+       "一時間後",
+       "明日"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ユナさんは今、本を読んでいます。弟はテレビを見ています。母は料理をしています。",
+    "trans": {
+     "ko": "해나는 지금 카페에 있어요. 그녀는 커피를 마시고 있어요. 그녀는 책을 읽고 있지 않아요.",
+     "en": "Hana is in a cafe now. She is drinking coffee. She isn't reading a book."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ユナさんは本を読んでいます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "弟は勉強しています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "母は忙しいです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "今、何をしていますか。",
+    "read": "いま、なにをしていますか。",
+    "ko": "무엇을 하고 있어요?",
+    "en": "What are you doing?",
+    "situation": {
+     "ko": "지금 하는 일을 물을 때",
+     "en": "Asking what someone is doing"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "勉強しています。",
+    "read": "べんきょうしています。",
+    "ko": "저는 공부하고 있어요.",
+    "en": "I'm studying.",
+    "situation": {
+     "ko": "내가 하는 일을 말할 때",
+     "en": "Saying what you are doing"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "彼はテレビを見ています。",
+    "read": "かれはテレビをみています。",
+    "ko": "그는 텔레비전을 보고 있어요.",
+    "en": "He's watching TV.",
+    "situation": {
+     "ko": "다른 사람이 하는 일",
+     "en": "What someone else is doing"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "彼女は音楽を聞いています。",
+    "read": "かのじょはおんがくをきいています。",
+    "ko": "그녀는 음악을 듣고 있어요.",
+    "en": "She's listening to music.",
+    "situation": {
+     "ko": "다른 사람이 하는 일",
+     "en": "What someone else is doing"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "私たちは昼ご飯を食べています。",
+    "read": "わたしたちはひるごはんをたべています。",
+    "ko": "우리는 점심을 먹고 있어요.",
+    "en": "We're having lunch.",
+    "situation": {
+     "ko": "함께 하는 일",
+     "en": "What we are doing"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "今ちょうど忙しいです。",
+    "read": "いまちょうどいそがしいです。",
+    "ko": "저는 지금 바빠요.",
+    "en": "I'm busy right now.",
+    "situation": {
+     "ko": "지금 상태를 말할 때",
+     "en": "Saying how you are now"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "今、勉強していますか。",
+    "read": "いま、べんきょうしていますか。",
+    "ko": "당신은 지금 공부해요?",
+    "en": "Are you studying now?",
+    "situation": {
+     "ko": "확인할 때",
+     "en": "Checking"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "いいえ、勉強していません。",
+    "read": "いいえ、べんきょうしていません。",
+    "ko": "아니요, 저는 공부하지 않아요.",
+    "en": "No, I'm not studying.",
+    "situation": {
+     "ko": "아니라고 말할 때",
+     "en": "Saying no"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "私は今、〜ています。",
+    "read": "わたしはいま、〜ています。",
+    "ko": "저는 지금 ~하고 있어요.",
+    "en": "I am ~ing now."
+   },
+   {
+    "id": "w2",
+    "t": "彼は〜ています。",
+    "read": "かれは〜ています。",
+    "ko": "그는 ~하고 있어요.",
+    "en": "He is ~ing."
+   },
+   {
+    "id": "w3",
+    "t": "〜ていますか。",
+    "read": "〜ていますか。",
+    "ko": "당신은 ~하고 있어요?",
+    "en": "Are you ~ing?"
+   },
+   {
+    "id": "w4",
+    "t": "私は〜ていません。",
+    "read": "わたしは〜ていません。",
+    "ko": "저는 ~하고 있지 않아요.",
+    "en": "I am not ~ing."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "지금 하고 있는 일을 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about what you are doing now."
+   },
+   "must_include": [
+    {
+     "label": "〜ています",
+     "match": [
+      "ています"
+     ]
+    },
+    {
+     "label": "今",
+     "match": [
+      "今"
+     ]
+    },
+    {
+     "label": "〜を〜ています",
+     "match": [
+      "を"
+     ]
+    }
+   ],
+   "model": "私は今、英語を勉強しています。私は水を飲んでいます。友だちは音楽を聞いています。",
+   "model_trans": {
+    "ko": "저는 지금 영어를 공부하고 있어요. 저는 물을 마시고 있어요. 제 친구는 음악을 듣고 있어요.",
+    "en": "I am studying English now. I am drinking water. My friend is listening to music."
+   }
+  }
+ }
+}

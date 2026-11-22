@@ -1,0 +1,828 @@
+{
+ "meta": {
+  "id": "ja_a1_u38",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a1",
+  "unit": 38,
+  "concept": "A1.U38",
+  "status": "live",
+  "title": {
+   "target": "どのくらいしますか",
+   "ko": "얼마나 자주?",
+   "en": "How often?"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "よく",
+   "pos": "adv",
+   "read": "よく",
+   "ko": "자주",
+   "en": "often",
+   "ex": {
+    "t": "私はよく歩きます。",
+    "read": "わたしはよくあるきます。",
+    "ko": "저는 자주 걸어서 가요.",
+    "en": "I often walk."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "ときどき",
+   "pos": "adv",
+   "read": "ときどき",
+   "ko": "가끔",
+   "en": "sometimes",
+   "ex": {
+    "t": "私はときどき映画を見ます。",
+    "read": "わたしはときどきえいがをみます。",
+    "ko": "저는 가끔 영화를 봐요.",
+    "en": "I sometimes watch films."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "あまり〜ない",
+   "pos": "adv",
+   "read": "あまり〜ない",
+   "ko": "거의 ~않다",
+   "en": "hardly ever",
+   "ex": {
+    "t": "私はテレビをあまり見ません。",
+    "read": "わたしはテレビをあまりみません。",
+    "ko": "저는 거의 TV를 안 봐요.",
+    "en": "I hardly ever watch TV."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "ぜんぜん〜ない",
+   "pos": "adv",
+   "read": "ぜんぜん〜ない",
+   "ko": "절대 ~않다",
+   "en": "never",
+   "ex": {
+    "t": "彼はぜんぜん遅れません。",
+    "read": "かれはぜんぜんおくれません。",
+    "ko": "그는 절대 늦지 않아요.",
+    "en": "He is never late."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "毎日",
+   "pos": "adv",
+   "read": "まいにち",
+   "ko": "매일",
+   "en": "every day",
+   "ex": {
+    "t": "私は毎日勉強します。",
+    "read": "わたしはまいにちべんきょうします。",
+    "ko": "저는 매일 공부해요.",
+    "en": "I study every day."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "週に一回",
+   "pos": "adv",
+   "read": "しゅうにいっかい",
+   "ko": "일주일에 한 번",
+   "en": "once a week",
+   "ex": {
+    "t": "私は週に一回泳ぎます。",
+    "read": "わたしはしゅうにいっかいおよぎます。",
+    "ko": "저는 일주일에 한 번 수영해요.",
+    "en": "I swim once a week."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "週に二回",
+   "pos": "adv",
+   "read": "しゅうににかい",
+   "ko": "일주일에 두 번",
+   "en": "twice a week",
+   "ex": {
+    "t": "彼女は週に二回運動します。",
+    "read": "かのじょはしゅうににかいうんどうします。",
+    "ko": "그녀는 일주일에 두 번 운동해요.",
+    "en": "She exercises twice a week."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "週末",
+   "pos": "adv",
+   "read": "しゅうまつ",
+   "ko": "주말마다",
+   "en": "at the weekend",
+   "ex": {
+    "t": "私は週末に休みます。",
+    "read": "わたしはしゅうまつにやすみます。",
+    "ko": "저는 주말마다 쉬어요.",
+    "en": "I rest at the weekend."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "どのくらい",
+   "pos": "adv",
+   "read": "どのくらい",
+   "ko": "얼마나 자주",
+   "en": "how often",
+   "ex": {
+    "t": "どのくらい運動しますか。",
+    "read": "どのくらいうんどうしますか。",
+    "ko": "얼마나 자주 운동해요?",
+    "en": "How often do you exercise?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "運動する",
+   "pos": "verb",
+   "read": "うんどうする",
+   "ko": "운동하다",
+   "en": "exercise",
+   "ex": {
+    "t": "私は毎日運動します。",
+    "read": "わたしはまいにちうんどうします。",
+    "ko": "저는 매일 운동해요.",
+    "en": "I exercise every day."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "よく · ときどき · あまり〜ない · 毎日 · 週に〜回",
+   "en": "How often: よく, ときどき, あまり〜ない, 毎日, 週に〜回"
+  },
+  "explain": {
+   "ko": "頻度は「毎日」「よく」「ときどき」「あまり〜ない」「ぜんぜん〜ない」で言います。回数は「週に二回」です。「あまり」「ぜんぜん」は否定の文で使います。質問は「どのくらい運動しますか」です。",
+   "en": "Frequency: 毎日, よく, ときどき, あまり〜ない, ぜんぜん〜ない. Counts: 週に二回. あまり and ぜんぜん go with negatives. Ask どのくらい運動しますか."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "毎日",
+     "毎日勉強します。"
+    ],
+    [
+     "よく / ときどき",
+     "ときどき映画を見ます。"
+    ],
+    [
+     "あまり〜ない",
+     "テレビをあまり見ません。"
+    ],
+    [
+     "週に〜回",
+     "週に二回運動します。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「あまり」「ぜんぜん」の後は否定です。",
+    "en": "あまり and ぜんぜん take a negative."
+   },
+   {
+    "ko": "「週に二回」は一週間に二回の意味です。",
+    "en": "週に二回 means twice a week."
+   },
+   {
+    "ko": "頻度の言葉は動詞の前に置きます。",
+    "en": "Frequency words go before the verb."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は毎日勉強します。",
+    "read": "わたしはまいにちべんきょうします。",
+    "ko": "저는 매일 공부해요.",
+    "en": "I study every day."
+   },
+   {
+    "t": "彼女は週に二回運動します。",
+    "read": "かのじょはしゅうににかいうんどうします。",
+    "ko": "그녀는 일주일에 두 번 운동해요.",
+    "en": "She exercises twice a week."
+   },
+   {
+    "t": "私はときどき映画を見ます。",
+    "read": "わたしはときどきえいがをみます。",
+    "ko": "저는 가끔 영화를 봐요.",
+    "en": "I sometimes watch films."
+   },
+   {
+    "t": "どのくらい運動しますか。",
+    "read": "どのくらいうんどうしますか。",
+    "ko": "얼마나 자주 운동해요?",
+    "en": "How often do you exercise?"
+   },
+   {
+    "t": "私はテレビをあまり見ません。",
+    "read": "わたしはテレビをあまりみません。",
+    "ko": "그는 절대 늦지 않아요.",
+    "en": "He is never late."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私は___勉強します。",
+    "options": [
+     "毎日",
+     "毎",
+     "毎日を"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "彼女は週に二___運動します。",
+    "options": [
+     "回",
+     "個",
+     "枚"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "私は___映画を見ます。",
+    "options": [
+     "ときどき",
+     "ときどきを",
+     "ときどきに"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "テレビを___見ません。",
+    "options": [
+     "あまり",
+     "よく",
+     "毎日"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どのくらい運動しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 얼마나 자주 운동해요?",
+     "en": "(Question) How often do you exercise?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "毎日します。",
+       "三つです。",
+       "学生です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "テレビをよく見ますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 영화를 자주 봐요?",
+     "en": "(Question) Do you often watch films?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "いいえ、あまり見ません。",
+       "いいえ、毎日です。",
+       "いいえ、二つです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どのくらい泳ぎますか。"
+      },
+      {
+       "s": "B",
+       "t": "週に二回泳ぎます。"
+      },
+      {
+       "s": "A",
+       "t": "走りますか。"
+      },
+      {
+       "s": "B",
+       "t": "ときどき走ります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 얼마나 자주 수영해요?\nB: 일주일에 두 번이요. 당신은요?\nA: 저는 가끔 수영해요.\nB: 저는 매일 걸어요.",
+     "en": "A: How often do you swim?\nB: Twice a week. And you?\nA: I sometimes swim.\nB: I walk every day."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bさんは週に何回泳ぎますか。",
+      "options": [
+       "二回",
+       "一回",
+       "三回"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私は毎日勉強します。週に二回運動します。ときどき映画を見ます。テレビはあまり見ません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 매일 영어를 공부해요. 저는 일주일에 두 번 운동해요. 저는 가끔 영화를 봐요. 저는 거의 TV를 안 봐요.",
+     "en": "I study English every day. I exercise twice a week. I sometimes watch films. I hardly ever watch TV."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "あまりしないことは何ですか。",
+      "options": [
+       "テレビを見る",
+       "勉強する",
+       "運動する"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どのくらい運動しますか。"
+      },
+      {
+       "s": "B",
+       "t": "週に一回です。"
+      },
+      {
+       "s": "A",
+       "t": "毎日歩いてください。"
+      },
+      {
+       "s": "B",
+       "t": "はい、分かりました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 얼마나 자주 운동해요?\n손님: 일주일에 세 번이요.\n직원: 무슨 운동이에요?\n손님: 달리기요.",
+     "en": "Clerk: How often do you exercise?\nGuest: Three times a week.\nClerk: What exercise?\nGuest: Running."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "患者は週に______回運動します",
+      "answers": [
+       "一"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "医者は毎日______てくださいと言います",
+      "answers": [
+       "歩い"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は___勉強します。\n2) 彼女は週に二___運動します。\n3) テレビを___見ません。",
+    "trans": {
+     "ko": "1) 저는 매일 공부해요. 2) 그녀는 일주일에 두 번 운동해요. 3) 그는 절대 늦지 않아요.",
+     "en": "1) I study every day. 2) She exercises twice a week. 3) He is never late."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は___勉強します。",
+      "options": [
+       "毎日",
+       "毎",
+       "毎日を"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼女は週に二___運動します。",
+      "options": [
+       "回",
+       "個",
+       "枚"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "テレビを___見ません。",
+      "options": [
+       "あまり",
+       "よく",
+       "毎日"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私は(1)勉強します。週に二回(2)。ときどき映画を(3)。",
+    "trans": {
+     "ko": "저는 매일 영어를 공부해요. 저는 일주일에 두 번 운동해요. 저는 가끔 영화를 봐요. 저는 거의 TV를 안 봐요.",
+     "en": "I study English every day. I exercise twice a week. I sometimes watch films. I hardly ever watch TV."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "毎日",
+       "毎",
+       "毎日を"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "運動します",
+       "運動しません",
+       "運動して"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "見ます",
+       "見ません",
+       "見て"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "クラブの予定\n水泳：週に二回\nヨガ：週に一回",
+    "trans": {
+     "ko": "운동 시간표\n월: 수영\n수: 수영\n금: 달리기",
+     "en": "EXERCISE PLAN\nMon: swimming\nWed: swimming\nFri: running"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "水泳は週に何回ですか。",
+      "options": [
+       "二回",
+       "一回",
+       "三回"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ヨガは週に何回ですか。",
+      "options": [
+       "一回",
+       "二回",
+       "三回"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジョンさんは毎日勉強します。週に二回運動します。テレビはあまり見ません。",
+    "trans": {
+     "ko": "톰은 일주일에 세 번 운동해요. 그는 가끔 영화를 봐요. 그는 절대 일찍 일어나지 않아요.",
+     "en": "Tom exercises three times a week. He sometimes watches films. He never gets up early."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジョンさんは毎日勉強します。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ジョンさんはテレビをよく見ます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ジョンさんは学生です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "どのくらい運動しますか。",
+    "read": "どのくらいうんどうしますか。",
+    "ko": "얼마나 자주 운동해요?",
+    "en": "How often do you exercise?",
+    "situation": {
+     "ko": "빈도를 물을 때",
+     "en": "Asking how often"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "毎日運動します。",
+    "read": "まいにちうんどうします。",
+    "ko": "저는 매일 운동해요.",
+    "en": "I exercise every day.",
+    "situation": {
+     "ko": "매일을 말할 때",
+     "en": "Saying every day"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "週に二回泳ぎます。",
+    "read": "しゅうににかいおよぎます。",
+    "ko": "저는 일주일에 두 번 수영해요.",
+    "en": "I swim twice a week.",
+    "situation": {
+     "ko": "횟수를 말할 때",
+     "en": "Saying how many times"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "よく歩きます。",
+    "read": "よくあるきます。",
+    "ko": "저는 자주 걸어서 가요.",
+    "en": "I often walk.",
+    "situation": {
+     "ko": "자주를 말할 때",
+     "en": "Saying often"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "ときどき映画を見ます。",
+    "read": "ときどきえいがをみます。",
+    "ko": "저는 가끔 영화를 봐요.",
+    "en": "I sometimes watch films.",
+    "situation": {
+     "ko": "가끔을 말할 때",
+     "en": "Saying sometimes"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "テレビはあまり見ません。",
+    "read": "テレビはあまりみません。",
+    "ko": "저는 거의 TV를 안 봐요.",
+    "en": "I hardly ever watch TV.",
+    "situation": {
+     "ko": "거의 안 할 때",
+     "en": "Saying hardly ever"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "彼はぜんぜん遅れません。",
+    "read": "かれはぜんぜんおくれません。",
+    "ko": "그는 절대 늦지 않아요.",
+    "en": "He is never late.",
+    "situation": {
+     "ko": "절대 안 할 때",
+     "en": "Saying never"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "週末は休みます。",
+    "read": "しゅうまつはやすみます。",
+    "ko": "우리는 주말마다 쉬어요.",
+    "en": "We rest at the weekend.",
+    "situation": {
+     "ko": "주말을 말할 때",
+     "en": "Talking about weekends"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "私は毎日〜ます。",
+    "read": "わたしはまいにち〜ます。",
+    "ko": "저는 매일 ~해요.",
+    "en": "I ~ every day."
+   },
+   {
+    "id": "w2",
+    "t": "私は週に〜回〜ます。",
+    "read": "わたしはしゅうに〜かい〜ます。",
+    "ko": "저는 일주일에 ~번 ~해요.",
+    "en": "I ~ ... times a week."
+   },
+   {
+    "id": "w3",
+    "t": "どのくらい〜ますか。",
+    "read": "どのくらい〜ますか。",
+    "ko": "얼마나 자주 ~해요?",
+    "en": "How often do you ~?"
+   },
+   {
+    "id": "w4",
+    "t": "私はときどき〜ます。",
+    "read": "わたしはときどき〜ます。",
+    "ko": "저는 가끔 ~해요.",
+    "en": "I sometimes ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "자주 하는 일과 가끔 하는 일을 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about what you do often and sometimes."
+   },
+   "must_include": [
+    {
+     "label": "毎日",
+     "match": [
+      "毎日"
+     ]
+    },
+    {
+     "label": "週に〜回",
+     "match": [
+      "週に"
+     ]
+    },
+    {
+     "label": "ときどき",
+     "match": [
+      "ときどき"
+     ]
+    }
+   ],
+   "model": "私は毎日勉強します。私は週に二回運動します。私はときどき映画を見ます。",
+   "model_trans": {
+    "ko": "저는 매일 공부해요. 저는 일주일에 두 번 운동해요. 저는 가끔 영화를 봐요.",
+    "en": "I study every day. I exercise twice a week. I sometimes watch films."
+   }
+  }
+ }
+}

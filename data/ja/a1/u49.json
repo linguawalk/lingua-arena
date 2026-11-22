@@ -1,0 +1,828 @@
+{
+ "meta": {
+  "id": "ja_a1_u49",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a1",
+  "unit": 49,
+  "concept": "A1.U49",
+  "status": "live",
+  "title": {
+   "target": "私の町",
+   "ko": "우리 동네",
+   "en": "My town"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "近所",
+   "pos": "noun",
+   "read": "きんじょ",
+   "ko": "동네",
+   "en": "neighbourhood",
+   "ex": {
+    "t": "私の近所は静かです。",
+    "read": "わたしのきんじょはしずかです。",
+    "ko": "제 동네는 조용해요.",
+    "en": "My neighbourhood is quiet."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "公園",
+   "pos": "noun",
+   "read": "こうえん",
+   "ko": "공원",
+   "en": "park",
+   "ex": {
+    "t": "近所に公園があります。",
+    "read": "きんじょにこうえんがあります。",
+    "ko": "동네에 공원이 있어요.",
+    "en": "There is a park in my neighbourhood."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "図書館",
+   "pos": "noun",
+   "read": "としょかん",
+   "ko": "도서관",
+   "en": "library",
+   "ex": {
+    "t": "図書館は学校の隣にあります。",
+    "read": "としょかんはがっこうのとなりにあります。",
+    "ko": "도서관은 학교 옆에 있어요.",
+    "en": "The library is next to the school."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "レストラン",
+   "pos": "noun",
+   "read": "レストラン",
+   "ko": "식당",
+   "en": "restaurant",
+   "ex": {
+    "t": "この近くにレストランがたくさんあります。",
+    "read": "このちかくにレストランがたくさんあります。",
+    "ko": "근처에 식당이 많아요.",
+    "en": "There are many restaurants near here."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "スーパー",
+   "pos": "noun",
+   "read": "スーパー",
+   "ko": "슈퍼마켓",
+   "en": "supermarket",
+   "ex": {
+    "t": "スーパーは駅の近くにあります。",
+    "read": "スーパーはえきのちかくにあります。",
+    "ko": "슈퍼마켓은 역 근처에 있어요.",
+    "en": "The supermarket is near the station."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "向かい",
+   "pos": "prep",
+   "read": "むかい",
+   "ko": "~ 맞은편에",
+   "en": "opposite",
+   "ex": {
+    "t": "銀行は郵便局の向かいにあります。",
+    "read": "ぎんこうはゆうびんきょくのむかいにあります。",
+    "ko": "은행은 우체국 맞은편에 있어요.",
+    "en": "The bank is opposite the post office."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "近い",
+   "pos": "prep",
+   "read": "ちかい",
+   "ko": "~ 근처에",
+   "en": "near",
+   "ex": {
+    "t": "私の家は駅から近いです。",
+    "read": "わたしのいえはえきからちかいです。",
+    "ko": "우리 집은 역 근처에 있어요.",
+    "en": "My house is near the station."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "遠い",
+   "pos": "adv",
+   "read": "とおい",
+   "ko": "멀리",
+   "en": "far",
+   "ex": {
+    "t": "学校はここから遠いです。",
+    "read": "がっこうはここからとおいです。",
+    "ko": "학교는 여기서 멀어요.",
+    "en": "The school is far from here."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "静か",
+   "pos": "adj",
+   "read": "しずか",
+   "ko": "조용한",
+   "en": "quiet",
+   "ex": {
+    "t": "私の近所は静かです。",
+    "read": "わたしのきんじょはしずかです。",
+    "ko": "제 동네는 조용해요.",
+    "en": "My neighbourhood is quiet."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "にぎやか",
+   "pos": "adj",
+   "read": "にぎやか",
+   "ko": "바쁜",
+   "en": "busy",
+   "ex": {
+    "t": "町の中心はにぎやかです。",
+    "read": "まちのちゅうしんはにぎやかです。",
+    "ko": "시내는 바빠요.",
+    "en": "The city centre is busy."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜があります · 〜の向かい · 近い・遠い",
+   "en": "My town: 〜があります, 〜の向かい, 近い, 遠い"
+  },
+  "explain": {
+   "ko": "町のものは「〜があります」で言います。場所は「〜の向かい」「〜の近く」で言います。町の様子は「静かです」「にぎやかです」です。距離は「近い」「遠い」で言います。質問は「あなたの近所はどんなところですか」です。",
+   "en": "Describe things in town with 〜があります. Place: 〜の向かい, 〜の近く. Mood: 静かです, にぎやかです. Distance: 近い, 遠い. Ask あなたの近所はどんなところですか."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜があります",
+     "近所に公園があります。"
+    ],
+    [
+     "〜の向かい",
+     "銀行は郵便局の向かいにあります。"
+    ],
+    [
+     "静か / にぎやか",
+     "私の近所は静かです。"
+    ],
+    [
+     "近い / 遠い",
+     "学校はここから遠いです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「静か」「にぎやか」はな形容詞です。",
+    "en": "静か and にぎやか are な-adjectives."
+   },
+   {
+    "ko": "「近く」は「近い」の名詞形です。",
+    "en": "近く is the noun form of 近い."
+   },
+   {
+    "ko": "町の説明は「あります」を多く使います。",
+    "en": "Town descriptions often use あります."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私の近所は静かです。",
+    "read": "わたしのきんじょはしずかです。",
+    "ko": "제 동네는 조용해요.",
+    "en": "My neighbourhood is quiet."
+   },
+   {
+    "t": "近所に公園があります。",
+    "read": "きんじょにこうえんがあります。",
+    "ko": "동네에 공원이 있어요.",
+    "en": "There is a park in my neighbourhood."
+   },
+   {
+    "t": "銀行は郵便局の向かいにあります。",
+    "read": "ぎんこうはゆうびんきょくのむかいにあります。",
+    "ko": "은행은 우체국 맞은편에 있어요.",
+    "en": "The bank is opposite the post office."
+   },
+   {
+    "t": "この近くにレストランがたくさんあります。",
+    "read": "このちかくにレストランがたくさんあります。",
+    "ko": "근처에 식당이 많아요.",
+    "en": "There are many restaurants near here."
+   },
+   {
+    "t": "学校はここから遠いです。",
+    "read": "がっこうはここからとおいです。",
+    "ko": "학교는 여기서 멀어요.",
+    "en": "The school is far from here."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私の近所は___です。",
+    "options": [
+     "静か",
+     "静かい",
+     "静かな"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "近所に公園が___。",
+    "options": [
+     "あります",
+     "います",
+     "します"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "銀行は郵便局の___にあります。",
+    "options": [
+     "向かい",
+     "向かいを",
+     "向かいが"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "学校はここから___です。",
+    "options": [
+     "遠い",
+     "遠",
+     "遠く"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "あなたの近所はどんなところですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 동네는 어때요?",
+     "en": "(Question) What's your neighbourhood like?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "静かなところです。",
+       "三時です。",
+       "韓国人です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "近くにレストランがありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 공원이 근처에 있어요?",
+     "en": "(Question) Is there a park near here?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、たくさんあります。",
+       "はい、二つです。",
+       "はい、学生です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "あなたの近所はどんなところですか。"
+      },
+      {
+       "s": "B",
+       "t": "静かです。公園があります。"
+      },
+      {
+       "s": "A",
+       "t": "銀行は？"
+      },
+      {
+       "s": "B",
+       "t": "銀行は郵便局の向かいにあります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 동네는 어때요?\nB: 조용해요. 공원이 있어요.\nA: 가게도 있어요?\nB: 네, 슈퍼마켓이 역 근처에 있어요.",
+     "en": "A: What's your neighbourhood like?\nB: It's quiet. There is a park.\nA: Are there any shops?\nB: Yes, the supermarket is near the station."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "銀行はどこにありますか。",
+      "options": [
+       "郵便局の向かい",
+       "学校の隣",
+       "駅の前"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私の家は駅から近いです。近所は静かです。近くにスーパーと公園があります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제 동네는 조용해요. 동네에 공원과 도서관이 있어요. 슈퍼마켓은 역 근처에 있어요. 학교는 여기서 멀지 않아요.",
+     "en": "My neighbourhood is quiet. There is a park and a library in my neighbourhood. The supermarket is near the station. The school is not far from here."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "家はどうですか。",
+      "options": [
+       "駅から近い",
+       "駅から遠い",
+       "学校の隣"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この近くにレストランがありますか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、たくさんあります。"
+      },
+      {
+       "s": "A",
+       "t": "遠いですか。"
+      },
+      {
+       "s": "B",
+       "t": "いいえ、近いです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "손님: 근처에 식당이 있어요?\n행인: 네, 은행 맞은편에 있어요.\n손님: 먼가요?\n행인: 아니요, 2분이에요.",
+     "en": "Guest: Is there a restaurant near here?\nPasser-by: Yes, it's opposite the bank.\nGuest: Is it far?\nPasser-by: No, it's two minutes."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "この近くに______がありますか",
+      "answers": [
+       "レストラン"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "店員は、いいえ、______ですと言います",
+      "answers": [
+       "近い"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私の近所は___です。\n2) 近所に公園が___。\n3) 銀行は郵便局の___にあります。",
+    "trans": {
+     "ko": "1) 제 동네는 조용해요. 2) 동네에 공원이 있어요. 3) 은행은 우체국 맞은편에 있어요.",
+     "en": "1) My neighbourhood is quiet. 2) There is a park in my neighbourhood. 3) The bank is opposite the post office."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私の近所は___です。",
+      "options": [
+       "静か",
+       "静かい",
+       "静かな"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "近所に公園が___。",
+      "options": [
+       "あります",
+       "います",
+       "します"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "銀行は郵便局の___にあります。",
+      "options": [
+       "向かい",
+       "向かいを",
+       "向かいが"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私の近所は(1)です。公園が(2)。スーパーは駅の(3)にあります。",
+    "trans": {
+     "ko": "제 동네는 조용해요. 동네에 공원과 도서관이 있어요. 슈퍼마켓은 역 근처에 있어요. 학교는 여기서 멀지 않아요.",
+     "en": "My neighbourhood is quiet. There is a park and a library in my neighbourhood. The supermarket is near the station. The school is not far from here."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "静か",
+       "静かい",
+       "静かな"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "あります",
+       "います",
+       "します"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "近く",
+       "近い",
+       "近"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "町の地図\n図書館：学校の隣\nスーパー：駅の近く",
+    "trans": {
+     "ko": "동네 지도\n공원: 학교 옆\n도서관: 은행 맞은편",
+     "en": "TOWN MAP\nPark: next to the school\nLibrary: opposite the bank"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "図書館はどこですか。",
+      "options": [
+       "学校の隣",
+       "駅の近く",
+       "公園の中"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "スーパーはどこですか。",
+      "options": [
+       "駅の近く",
+       "学校の隣",
+       "銀行の向かい"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "私の近所は静かです。近所に公園があります。銀行は郵便局の向かいにあります。",
+    "trans": {
+     "ko": "마크의 동네는 바빠요. 그의 동네에는 식당이 많아요. 그는 공원이 없어서 슬퍼요.",
+     "en": "Mark's neighbourhood is busy. There are many restaurants in his neighbourhood. He is sad because there is no park."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "私の近所は静かです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "銀行は学校の隣にあります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "私は町が好きです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "あなたの近所はどんなところですか。",
+    "read": "あなたのきんじょはどんなところですか。",
+    "ko": "동네는 어때요?",
+    "en": "What's your neighbourhood like?",
+    "situation": {
+     "ko": "동네를 물을 때",
+     "en": "Asking about the area"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "静かなところです。",
+    "read": "しずかなところです。",
+    "ko": "제 동네는 조용해요.",
+    "en": "My neighbourhood is quiet.",
+    "situation": {
+     "ko": "동네를 말할 때",
+     "en": "Describing the area"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "近所に公園があります。",
+    "read": "きんじょにこうえんがあります。",
+    "ko": "동네에 공원이 있어요.",
+    "en": "There is a park.",
+    "situation": {
+     "ko": "있는 것을 말할 때",
+     "en": "Saying what there is"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "この近くにレストランがたくさんあります。",
+    "read": "このちかくにレストランがたくさんあります。",
+    "ko": "근처에 식당이 많아요.",
+    "en": "There are many restaurants near here.",
+    "situation": {
+     "ko": "여러 개를 말할 때",
+     "en": "Saying what there are"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "銀行は郵便局の向かいにあります。",
+    "read": "ぎんこうはゆうびんきょくのむかいにあります。",
+    "ko": "은행은 우체국 맞은편에 있어요.",
+    "en": "The bank is opposite the post office.",
+    "situation": {
+     "ko": "맞은편을 말할 때",
+     "en": "Saying opposite"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "私の家は駅から近いです。",
+    "read": "わたしのいえはえきからちかいです。",
+    "ko": "우리 집은 역 근처에 있어요.",
+    "en": "My house is near the station.",
+    "situation": {
+     "ko": "근처를 말할 때",
+     "en": "Saying near"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "学校はここから遠いです。",
+    "read": "がっこうはここからとおいです。",
+    "ko": "학교는 여기서 멀어요.",
+    "en": "The school is far from here.",
+    "situation": {
+     "ko": "먼 곳을 말할 때",
+     "en": "Saying far"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "私は近所が好きです。",
+    "read": "わたしはきんじょがすきです。",
+    "ko": "저는 제 동네를 좋아해요.",
+    "en": "I like my neighbourhood.",
+    "situation": {
+     "ko": "좋아한다고 말할 때",
+     "en": "Saying you like it"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "私の近所は〜です。",
+    "read": "わたしのきんじょは〜です。",
+    "ko": "제 동네는 ~해요.",
+    "en": "My neighbourhood is ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜があります。",
+    "read": "〜があります。",
+    "ko": "~가 있어요.",
+    "en": "There is / are ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜は〜の向かいにあります。",
+    "read": "〜は〜のむかいにあります。",
+    "ko": "~는 ~ 맞은편에 있어요.",
+    "en": "~ is opposite ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜は〜の近くにあります。",
+    "read": "〜は〜のちかくにあります。",
+    "ko": "~는 ~ 근처에 있어요.",
+    "en": "~ is near ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "자기 동네를 3문장으로 소개해 보세요.",
+    "en": "Write 3 sentences describing your neighbourhood."
+   },
+   "must_include": [
+    {
+     "label": "私の近所は〜",
+     "match": [
+      "近所は"
+     ]
+    },
+    {
+     "label": "〜があります",
+     "match": [
+      "があります"
+     ]
+    },
+    {
+     "label": "〜の向かい",
+     "match": [
+      "向かい"
+     ]
+    }
+   ],
+   "model": "私の近所は静かです。近所に公園があります。銀行は郵便局の向かいにあります。",
+   "model_trans": {
+    "ko": "제 동네는 조용해요. 동네에 공원이 있어요. 은행은 우체국 맞은편에 있어요.",
+    "en": "My neighbourhood is quiet. There is a park in my neighbourhood. The bank is opposite the post office."
+   }
+  }
+ }
+}

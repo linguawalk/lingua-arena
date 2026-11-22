@@ -1,0 +1,828 @@
+{
+ "meta": {
+  "id": "ja_a1_u27",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a1",
+  "unit": 27,
+  "concept": "A1.U27",
+  "status": "live",
+  "title": {
+   "target": "ものの場所",
+   "ko": "물건의 위치",
+   "en": "Where things are"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "中",
+   "pos": "prep",
+   "read": "なか",
+   "ko": "~ 안에",
+   "en": "in",
+   "ex": {
+    "t": "かぎはかばんの中にあります。",
+    "read": "かぎはかばんのなかにあります。",
+    "ko": "열쇠는 가방 안에 있어요.",
+    "en": "The key is in the bag."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "上",
+   "pos": "prep",
+   "read": "うえ",
+   "ko": "~ 위에",
+   "en": "on",
+   "ex": {
+    "t": "本は机の上にあります。",
+    "read": "ほんはつくえのうえにあります。",
+    "ko": "책은 탁자 위에 있어요.",
+    "en": "The book is on the table."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "下",
+   "pos": "prep",
+   "read": "した",
+   "ko": "~ 아래에",
+   "en": "under",
+   "ex": {
+    "t": "ねこはいすの下にいます。",
+    "read": "ねこはいすのしたにいます。",
+    "ko": "고양이는 의자 아래에 있어요.",
+    "en": "The cat is under the chair."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "隣",
+   "pos": "prep",
+   "read": "となり",
+   "ko": "~ 옆에",
+   "en": "next to",
+   "ex": {
+    "t": "銀行は郵便局の隣にあります。",
+    "read": "ぎんこうはゆうびんきょくのとなりにあります。",
+    "ko": "은행은 우체국 옆에 있어요.",
+    "en": "The bank is next to the post office."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "後ろ",
+   "pos": "prep",
+   "read": "うしろ",
+   "ko": "~ 뒤에",
+   "en": "behind",
+   "ex": {
+    "t": "公園は学校の後ろにあります。",
+    "read": "こうえんはがっこうのうしろにあります。",
+    "ko": "공원은 학교 뒤에 있어요.",
+    "en": "The park is behind the school."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "前",
+   "pos": "prep",
+   "read": "まえ",
+   "ko": "~ 앞에",
+   "en": "in front of",
+   "ex": {
+    "t": "バスは駅の前にあります。",
+    "read": "バスはえきのまえにあります。",
+    "ko": "버스는 역 앞에 있어요.",
+    "en": "The bus is in front of the station."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "間",
+   "pos": "prep",
+   "read": "かん",
+   "ko": "~ 사이에",
+   "en": "between",
+   "ex": {
+    "t": "カフェは二つの店の間にあります。",
+    "read": "カフェはふたつのみせのあいだにあります。",
+    "ko": "카페는 두 가게 사이에 있어요.",
+    "en": "The cafe is between two shops."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "かばん",
+   "pos": "noun",
+   "read": "かばん",
+   "ko": "가방",
+   "en": "bag",
+   "ex": {
+    "t": "私のかばんはいすの上にあります。",
+    "read": "わたしのかばんはいすのうえにあります。",
+    "ko": "제 가방은 의자 위에 있어요.",
+    "en": "My bag is on the chair."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "かぎ",
+   "pos": "noun",
+   "read": "かぎ",
+   "ko": "열쇠",
+   "en": "key",
+   "ex": {
+    "t": "私のかぎはどこですか。",
+    "read": "わたしのかぎはどこですか。",
+    "ko": "제 열쇠는 어디에 있어요?",
+    "en": "Where is my key?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "ねこ",
+   "pos": "noun",
+   "read": "ねこ",
+   "ko": "고양이",
+   "en": "cat",
+   "ex": {
+    "t": "ねこはベッドの上にいます。",
+    "read": "ねこはベッドのうえにいます。",
+    "ko": "고양이가 침대 위에 있어요.",
+    "en": "The cat is on the bed."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜にあります · 上・下・中・隣・後ろ",
+   "en": "Where things are: 〜にあります, 上, 下, 中, 隣, 後ろ"
+  },
+  "explain": {
+   "ko": "物の場所は「名詞 + の + 上 / 下 / 中 / 隣 / 前 / 後ろ」で言います。物には「あります」、動物や人には「います」を使います。質問は「〜はどこですか」です。",
+   "en": "Give a location with noun + の + 上 / 下 / 中 / 隣 / 前 / 後ろ. Use あります for things and います for animals and people. Ask 〜はどこですか."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜の上",
+     "本は机の上にあります。"
+    ],
+    [
+     "〜の下",
+     "ねこはいすの下にいます。"
+    ],
+    [
+     "〜の隣",
+     "銀行は郵便局の隣です。"
+    ],
+    [
+     "〜はどこですか",
+     "私のかぎはどこですか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "場所は「の」と「に」でつなぎます。",
+    "en": "Link places with の and に."
+   },
+   {
+    "ko": "ねこは動物なので「います」です。",
+    "en": "A cat is an animal so use います."
+   },
+   {
+    "ko": "「間」は二つのものの間です。",
+    "en": "間 means between two things."
+   }
+  ],
+  "examples": [
+   {
+    "t": "本は机の上にあります。",
+    "read": "ほんはつくえのうえにあります。",
+    "ko": "책은 탁자 위에 있어요.",
+    "en": "The book is on the table."
+   },
+   {
+    "t": "かぎはかばんの中にあります。",
+    "read": "かぎはかばんのなかにあります。",
+    "ko": "열쇠는 가방 안에 있어요.",
+    "en": "The key is in the bag."
+   },
+   {
+    "t": "ねこはいすの下にいます。",
+    "read": "ねこはいすのしたにいます。",
+    "ko": "고양이는 의자 아래에 있어요.",
+    "en": "The cat is under the chair."
+   },
+   {
+    "t": "銀行は郵便局の隣にあります。",
+    "read": "ぎんこうはゆうびんきょくのとなりにあります。",
+    "ko": "은행은 우체국 옆에 있어요.",
+    "en": "The bank is next to the post office."
+   },
+   {
+    "t": "私のかばんはどこですか。",
+    "read": "わたしのかばんはどこですか。",
+    "ko": "제 가방은 어디에 있어요?",
+    "en": "Where is my bag?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "本は机の___にあります。",
+    "options": [
+     "上",
+     "下で",
+     "上を"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "かぎはかばんの___にあります。",
+    "options": [
+     "中",
+     "上で",
+     "中を"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "ねこはいすの下に___。",
+    "options": [
+     "います",
+     "あります",
+     "ください"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "銀行は郵便局の___にあります。",
+    "options": [
+     "隣",
+     "隣を",
+     "隣が"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私のかぎはどこですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 제 열쇠는 어디에 있어요?",
+     "en": "(Question) Where is my key?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "かばんの中にあります。",
+       "私の名前はケンです。",
+       "三時です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ねこはどこにいますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 고양이는 어디에 있어요?",
+     "en": "(Question) Where is the cat?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "いすの下にいます。",
+       "いすの下にあります。",
+       "いすの下を食べます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私のかばんはどこですか。"
+      },
+      {
+       "s": "B",
+       "t": "いすの上にあります。"
+      },
+      {
+       "s": "A",
+       "t": "かぎは？"
+      },
+      {
+       "s": "B",
+       "t": "かばんの中にあります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 제 책은 어디에 있어요?\nB: 탁자 위에 있어요.\nA: 제 가방은요?\nB: 의자 아래에 있어요.",
+     "en": "A: Where is my book?\nB: It's on the table.\nA: And my bag?\nB: It's under the chair."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "かぎはどこにありますか。",
+      "options": [
+       "かばんの中",
+       "いすの上",
+       "机の下"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "銀行は郵便局の隣にあります。公園は学校の後ろにあります。カフェは二つの店の間にあります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 집에는 방이 두 개 있어요. 제 책상은 창문 옆에 있어요. 책은 책상 위에 있어요.",
+     "en": "Our house has two rooms. My desk is next to the window. The books are on the desk."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "公園はどこにありますか。",
+      "options": [
+       "学校の後ろ",
+       "郵便局の隣",
+       "店の間"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "すみません、駅はどこですか。"
+      },
+      {
+       "s": "B",
+       "t": "あのスーパーの前です。"
+      },
+      {
+       "s": "A",
+       "t": "ありがとうございます。"
+      },
+      {
+       "s": "B",
+       "t": "バスもその前にあります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "손님: 은행이 어디에 있어요?\n행인: 우체국 옆에 있어요.\n손님: 우체국은요?\n행인: 공원 앞에 있어요.",
+     "en": "Guest: Where is the bank?\nPasser-by: It's next to the post office.\nGuest: And the post office?\nPasser-by: It's in front of the park."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "駅は______の前です",
+      "answers": [
+       "スーパー"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______もその前にあります",
+      "answers": [
+       "バス"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 本は机の___にあります。\n2) かぎはかばんの___にあります。\n3) ねこはいすの下に___。",
+    "trans": {
+     "ko": "1) 책은 탁자 위에 있어요. 2) 열쇠는 가방 안에 있어요. 3) 고양이는 의자 아래에 있어요.",
+     "en": "1) The book is on the table. 2) The key is in the bag. 3) The cat is under the chair."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "本は机の___にあります。",
+      "options": [
+       "上",
+       "下で",
+       "上を"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "かぎはかばんの___にあります。",
+      "options": [
+       "中",
+       "上で",
+       "中を"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ねこはいすの下に___。",
+      "options": [
+       "います",
+       "あります",
+       "ください"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "これは私の部屋です。本は机の(1)にあります。かばんはいすの(2)にあります。ねこはベッドの下に(3)。",
+    "trans": {
+     "ko": "이것은 제 방이에요. 제 책상은 창문 옆에 있어요. 책은 책상 위에 있어요. 고양이는 침대 아래에 있어요.",
+     "en": "This is my room. My desk is next to the window. The books are on the desk. The cat is under the bed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "上",
+       "下で",
+       "上を"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "隣",
+       "隣を",
+       "隣が"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "います",
+       "あります",
+       "ください"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "町の地図\n銀行：郵便局の隣\n公園：学校の後ろ",
+    "trans": {
+     "ko": "우리 동네\n은행은 우체국 옆에 있어요.\n공원은 학교 뒤에 있어요.",
+     "en": "OUR TOWN\nThe bank is next to the post office.\nThe park is behind the school."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "銀行はどこですか。",
+      "options": [
+       "郵便局の隣",
+       "学校の後ろ",
+       "駅の前"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "公園はどこですか。",
+      "options": [
+       "学校の後ろ",
+       "郵便局の隣",
+       "店の間"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "私のかぎはかばんの中にあります。かばんは机の上にあります。ねこはいすの下にいます。",
+    "trans": {
+     "ko": "톰의 열쇠는 가방 안에 있어요. 그의 핸드폰은 탁자 위에 있어요. 그의 고양이는 밖에 있어요.",
+     "en": "Tom's key is in the bag. His phone is on the table. His cat is outside."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "かぎはかばんの中にあります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "かばんはいすの下にあります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ねこは黒いです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "私のかぎはどこですか。",
+    "read": "わたしのかぎはどこですか。",
+    "ko": "제 열쇠는 어디에 있어요?",
+    "en": "Where is my key?",
+    "situation": {
+     "ko": "물건을 찾을 때",
+     "en": "Looking for something"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "かばんの中にあります。",
+    "read": "かばんのなかにあります。",
+    "ko": "가방 안에 있어요.",
+    "en": "It's in the bag.",
+    "situation": {
+     "ko": "위치를 말할 때",
+     "en": "Saying where it is"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "机の上にあります。",
+    "read": "つくえのうえにあります。",
+    "ko": "탁자 위에 있어요.",
+    "en": "It's on the table.",
+    "situation": {
+     "ko": "위에 있을 때",
+     "en": "Saying it's on top"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "いすの下にあります。",
+    "read": "いすのしたにあります。",
+    "ko": "의자 아래에 있어요.",
+    "en": "It's under the chair.",
+    "situation": {
+     "ko": "아래에 있을 때",
+     "en": "Saying it's under"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "銀行は郵便局の隣にあります。",
+    "read": "ぎんこうはゆうびんきょくのとなりにあります。",
+    "ko": "은행은 우체국 옆에 있어요.",
+    "en": "The bank is next to the post office.",
+    "situation": {
+     "ko": "옆을 말할 때",
+     "en": "Saying next to"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "公園は学校の後ろにあります。",
+    "read": "こうえんはがっこうのうしろにあります。",
+    "ko": "공원은 학교 뒤에 있어요.",
+    "en": "The park is behind the school.",
+    "situation": {
+     "ko": "뒤를 말할 때",
+     "en": "Saying behind"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "カフェは二つの店の間にあります。",
+    "read": "カフェはふたつのみせのあいだにあります。",
+    "ko": "카페는 두 가게 사이에 있어요.",
+    "en": "The cafe is between two shops.",
+    "situation": {
+     "ko": "사이를 말할 때",
+     "en": "Saying between"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "ねこはどこにいますか。",
+    "read": "ねこはどこにいますか。",
+    "ko": "고양이는 어디에 있어요?",
+    "en": "Where is the cat?",
+    "situation": {
+     "ko": "동물을 찾을 때",
+     "en": "Looking for an animal"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜は〜の中にあります。",
+    "read": "〜は〜のなかにあります。",
+    "ko": "~는 ~ 안에 있어요.",
+    "en": "~ is in ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜は〜の上にあります。",
+    "read": "〜は〜のうえにあります。",
+    "ko": "~는 ~ 위에 있어요.",
+    "en": "~ is on ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜は〜の隣にあります。",
+    "read": "〜は〜のとなりにあります。",
+    "ko": "~는 ~ 옆에 있어요.",
+    "en": "~ is next to ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜はどこですか。",
+    "read": "〜はどこですか。",
+    "ko": "~는 어디에 있어요?",
+    "en": "Where is ~?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "방 안의 물건 위치를 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about where things are in your room."
+   },
+   "must_include": [
+    {
+     "label": "〜の上",
+     "match": [
+      "上"
+     ]
+    },
+    {
+     "label": "〜の隣",
+     "match": [
+      "隣"
+     ]
+    },
+    {
+     "label": "〜の下",
+     "match": [
+      "下"
+     ]
+    }
+   ],
+   "model": "私の本は机の上にあります。私のかばんはいすの隣にあります。ねこはベッドの下にいます。",
+   "model_trans": {
+    "ko": "제 책은 탁자 위에 있어요. 제 가방은 의자 옆에 있어요. 고양이는 침대 아래에 있어요.",
+    "en": "My book is on the table. My bag is next to the chair. The cat is under the bed."
+   }
+  }
+ }
+}
