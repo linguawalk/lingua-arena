@@ -1,0 +1,792 @@
+{
+ "meta": {
+  "id": "ko_a2_u15",
+  "lang": "ko",
+  "family": "asia",
+  "level": "a2",
+  "unit": 15,
+  "concept": "A2.U15",
+  "status": "live",
+  "title": {
+   "target": "시내에서 길 찾기",
+   "ko": "도시에서 길 찾기",
+   "en": "Getting around town"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "직진하다",
+   "pos": "phrase",
+   "read": "jikjinhada",
+   "en": "go straight",
+   "ex": {
+    "t": "쭉 직진하세요.",
+    "read": "jjuk jikjinhaseyo.",
+    "en": "Go straight on."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "왼쪽으로 돌다",
+   "pos": "phrase",
+   "read": "oenjjogeuro dolda",
+   "en": "turn left",
+   "ex": {
+    "t": "다음 신호등에서 왼쪽으로 도세요.",
+    "read": "daeum sinhodeungeseo oenjjogeuro doseyo.",
+    "en": "Turn left at the next traffic lights."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "오른쪽으로 돌다",
+   "pos": "phrase",
+   "read": "oreunjjogeuro dolda",
+   "en": "turn right",
+   "ex": {
+    "t": "두 번째 길에서 오른쪽으로 도세요.",
+    "read": "du beonjjae gireseo oreunjjogeuro doseyo.",
+    "en": "Turn right at the second street."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "건너다",
+   "pos": "verb",
+   "read": "geonneoda",
+   "en": "cross",
+   "ex": {
+    "t": "다리를 건너세요.",
+    "read": "darireul geonneoseyo.",
+    "en": "Cross the bridge."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "~을 따라",
+   "pos": "prep",
+   "read": "~eul ttara",
+   "en": "along",
+   "ex": {
+    "t": "이 길을 따라 걸으세요.",
+    "read": "i gireul ttara georeuseyo.",
+    "en": "Walk along this road."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "지나가다",
+   "pos": "prep",
+   "read": "jinagada",
+   "en": "past",
+   "ex": {
+    "t": "은행을 지나가세요.",
+    "read": "eunhaengeul jinagaseyo.",
+    "en": "Go past the bank."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "건너편",
+   "pos": "prep",
+   "read": "geonneopyeon",
+   "en": "across",
+   "ex": {
+    "t": "공원은 길 건너편에 있어요.",
+    "read": "gongwoneun gil geonneopyeone isseoyo.",
+    "en": "The park is across the road."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "지나다",
+   "pos": "prep",
+   "read": "jinada",
+   "en": "through",
+   "ex": {
+    "t": "공원을 지나가세요.",
+    "read": "gongwoneul jinagaseyo.",
+    "en": "Go through the park."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "모퉁이",
+   "pos": "noun",
+   "read": "motungi",
+   "en": "corner",
+   "ex": {
+    "t": "은행은 모퉁이에 있어요.",
+    "read": "eunhaengeun motungie isseoyo.",
+    "en": "The bank is on the corner."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "신호등",
+   "pos": "noun",
+   "read": "sinhodeung",
+   "en": "traffic lights",
+   "ex": {
+    "t": "신호등에서 왼쪽으로 도세요.",
+    "read": "sinhodeungeseo oenjjogeuro doseyo.",
+    "en": "Turn left at the traffic lights."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "길 안내: -(으)세요 · 위치 표현",
+   "en": "Giving directions: -(으)세요 · place words"
+  },
+  "explain": {
+   "ko": "길을 안내할 때는 '-(으)세요'를 씁니다: 쭉 직진하세요. 왼쪽으로 도세요 (돌다는 ㄹ이 빠집니다). 다리를 건너세요. 이 길을 따라 걸으세요. 위치는 '~에 있어요'로 말합니다: 공원은 길 건너편에 있어요. 방법은 '걸어서', '버스로'입니다.",
+   "en": "Give directions with -(으)세요: 쭉 직진하세요. 왼쪽으로 도세요 (돌다 drops ㄹ). 다리를 건너세요. 이 길을 따라 걸으세요. Say where something is with ~에 있어요: 공원은 길 건너편에 있어요. Say how with 걸어서 or 버스로."
+  },
+  "table": {
+   "head": [
+    "표현 / Expression",
+    "형태 / Form",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "직진하다",
+     "직진하세요",
+     "쭉 직진하세요."
+    ],
+    [
+     "돌다",
+     "도세요 (ㄹ 탈락)",
+     "왼쪽으로 도세요."
+    ],
+    [
+     "건너다",
+     "건너세요",
+     "다리를 건너세요."
+    ],
+    [
+     "~을 따라",
+     "~을/를 따라 걸으세요",
+     "이 길을 따라 걸으세요."
+    ],
+    [
+     "건너편에 있다",
+     "위치",
+     "공원은 길 건너편에 있어요."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'~에서'는 그곳에서 하는 행동을 나타냅니다: 신호등에서 왼쪽으로 도세요.",
+    "en": "'~에서' marks where you act: 신호등에서 왼쪽으로 도세요."
+   },
+   {
+    "ko": "'건너편'은 길 반대쪽, '옆'은 바로 곁입니다.",
+    "en": "'건너편' is across the street; '옆' is beside."
+   },
+   {
+    "ko": "'걸어서 5분'은 걸어서 5분 걸린다는 뜻입니다.",
+    "en": "'걸어서 5분' means five minutes on foot."
+   }
+  ],
+  "examples": [
+   {
+    "t": "쭉 직진하세요.",
+    "read": "jjuk jikjinhaseyo.",
+    "en": "Go straight on."
+   },
+   {
+    "t": "다음 신호등에서 왼쪽으로 도세요.",
+    "read": "daeum sinhodeungeseo oenjjogeuro doseyo.",
+    "en": "Turn left at the next traffic lights."
+   },
+   {
+    "t": "은행을 지나가세요.",
+    "read": "eunhaengeul jinagaseyo.",
+    "en": "Go past the bank."
+   },
+   {
+    "t": "공원은 길 건너편에 있어요.",
+    "read": "gongwoneun gil geonneopyeone isseoyo.",
+    "en": "The park is across the road."
+   },
+   {
+    "t": "공원을 지나가면 돼요.",
+    "read": "gongwoneul jinagamyeon dwaeyo.",
+    "en": "Go through the park."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "쭉 ___.",
+    "options": [
+     "직진하세요",
+     "직진했어요",
+     "직진이에요"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "다음 신호등에서 왼쪽으로 ___.",
+    "options": [
+     "돌았어요",
+     "도세요",
+     "돌어요"
+    ],
+    "answer": 1,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "다리를 ___.",
+    "options": [
+     "건너세요",
+     "건넜어요",
+     "건너요"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "공원은 길 ___에 있어요.",
+    "options": [
+     "따라",
+     "건너편",
+     "통과"
+    ],
+    "answer": 1,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "실례합니다, 역이 어디예요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Excuse me, where is the station?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "쭉 직진하세요.",
+       "직진했어요.",
+       "직진이었어요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "여기서 멀어요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Is it far from here?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "아니요, 걸어서 5분이에요.",
+       "네, 은행이에요.",
+       "아니요, 저는 아니에요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "실례합니다, 우체국에 어떻게 가요?"
+      },
+      {
+       "s": "B",
+       "t": "쭉 직진하다가 두 번째 신호등에서 오른쪽으로 도세요."
+      },
+      {
+       "s": "A",
+       "t": "멀어요?"
+      },
+      {
+       "s": "B",
+       "t": "아니요, 걸어서 오 분이에요. 은행 건너편에 있어요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: Excuse me, how do I get to the post office?\nB: Go straight on and turn right at the second traffic lights.\nA: Is it far?\nB: No, it's five minutes on foot. It's across from the bank."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "우체국은 어디에 있어요?",
+      "options": [
+       "은행 건너편",
+       "역 옆",
+       "공원 뒤"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "공원에서 호텔까지 가는 길을 알려 드릴게요. 공원을 지나서 다리를 건너세요. 모퉁이에서 왼쪽으로 돌면 호텔이 보여요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Here are directions from the park to the hotel. Go through the park and cross the bridge. Turn left at the corner and you will see the hotel."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "모퉁이에서 무엇을 해야 해요?",
+      "options": [
+       "왼쪽으로 돌아요",
+       "오른쪽으로 돌아요",
+       "직진해요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "어디에 가세요?"
+      },
+      {
+       "s": "B",
+       "t": "박물관에 가요."
+      },
+      {
+       "s": "A",
+       "t": "이 길을 따라가서 은행에서 왼쪽으로 도세요."
+      },
+      {
+       "s": "B",
+       "t": "감사합니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Clerk: Where are you going?\nCustomer: To the museum.\nClerk: Walk along this road and turn left at the bank.\nCustomer: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "장소: ______",
+      "answers": [
+       "박물관"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______에서 왼쪽으로 도세요",
+      "answers": [
+       "은행"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 쭉 ___.\n2) 다음 신호등에서 왼쪽으로 ___.\n3) 공원은 길 ___에 있어요.",
+    "trans": {
+     "en": "1) Go straight on. 2) Turn left at the next traffic lights. 3) The park is across the road."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "쭉 ___.",
+      "options": [
+       "직진하세요",
+       "직진했어요",
+       "직진해서"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "다음 신호등에서 왼쪽으로 ___.",
+      "options": [
+       "도세요",
+       "돌았어요",
+       "돌어요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "공원은 길 ___에 있어요.",
+      "options": [
+       "건너편",
+       "건너다",
+       "통과"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "안녕, 샘! 내 집에 오는 방법을 알려 줄게. 역에서 쭉 걸어. 공원을 (1) 다리를 (2). 모퉁이(3) 오른쪽으로 돌면 우리 집이야!",
+    "trans": {
+     "en": "Hi Sam! Here is how to get to my house. Walk straight on from the station. Go through the park and cross the bridge. Turn right at the corner and you'll see my house!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "지나서",
+       "지났어",
+       "지날 거야"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "건너",
+       "건넜어",
+       "건널 거야"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "에서",
+       "에게",
+       "를"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "안내 표지판\n역: 직진 200m\n우체국: 왼쪽\n공원: 오른쪽, 길 건너편",
+    "trans": {
+     "en": "SIGNS\nStation: straight on, 200 m\nPost office: left\nPark: right, across the road"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "우체국은 어디예요?",
+      "options": [
+       "직진",
+       "왼쪽",
+       "오른쪽"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "공원은 어디예요?",
+      "options": [
+       "왼쪽",
+       "오른쪽, 길 건너편",
+       "직진"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "도서관은 은행 옆에 있어요. 역에서 도서관까지는 걸어서 십 분이에요. 도서관은 월요일에 문을 닫아요.",
+    "trans": {
+     "en": "The library is next to the bank. It's ten minutes on foot from the station to the library. The library is closed on Mondays."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "도서관은 은행 옆에 있어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "도서관은 일요일에 문을 닫아요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "도서관은 아주 오래됐어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "실례합니다, 역이 어디예요?",
+    "read": "sillyehamnida, yeogi eodiyeyo?",
+    "en": "Excuse me, where is the station?",
+    "situation": {
+     "ko": "길을 물을 때",
+     "en": "Asking the way"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "역에 어떻게 가요?",
+    "read": "yeoge eotteoke gayo?",
+    "en": "How do I get to the station?",
+    "situation": {
+     "ko": "가는 방법을 물을 때",
+     "en": "Asking how to get there"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "쭉 직진하세요.",
+    "read": "jjuk jikjinhaseyo.",
+    "en": "Go straight on.",
+    "situation": {
+     "ko": "길을 알려 줄 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "신호등에서 왼쪽으로 도세요.",
+    "read": "sinhodeungeseo oenjjogeuro doseyo.",
+    "en": "Turn left at the traffic lights.",
+    "situation": {
+     "ko": "회전 지점을 알려 줄 때",
+     "en": "Telling someone where to turn"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "은행을 지나가세요.",
+    "read": "eunhaengeul jinagaseyo.",
+    "en": "Go past the bank.",
+    "situation": {
+     "ko": "지나칠 곳을 알려 줄 때",
+     "en": "Telling someone what to pass"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "길 건너편에 있어요.",
+    "read": "gil geonneopyeone isseoyo.",
+    "en": "It's across the road.",
+    "situation": {
+     "ko": "위치를 말할 때",
+     "en": "Saying where something is"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "여기서 멀어요?",
+    "read": "yeogiseo meoreoyo?",
+    "en": "Is it far from here?",
+    "situation": {
+     "ko": "거리를 물을 때",
+     "en": "Asking about distance"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "걸어서 오 분이에요.",
+    "read": "georeoseo o bunieyo.",
+    "en": "It's five minutes on foot.",
+    "situation": {
+     "ko": "시간을 알려 줄 때",
+     "en": "Saying how long it takes"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~에 어떻게 가요?",
+    "read": "~e eotteoke gayo?",
+    "en": "How do I get to ~?"
+   },
+   {
+    "id": "w2",
+    "t": "~에서 왼쪽/오른쪽으로 도세요.",
+    "read": "~eseo oenjjok/oreunjjogeuro doseyo.",
+    "en": "Turn left / right at ~."
+   },
+   {
+    "id": "w3",
+    "t": "~을 지나가세요.",
+    "read": "~eul jinagaseyo.",
+    "en": "Go past ~."
+   },
+   {
+    "id": "w4",
+    "t": "~는 걸어서 ~분이에요.",
+    "read": "~neun georeoseo ~bunieyo.",
+    "en": "It's ~ minutes on foot."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "학교(또는 집)에서 가장 가까운 역까지 가는 길을 3문장으로 안내해 보세요.",
+    "en": "Give directions from your school or home to the nearest station in 3 sentences."
+   },
+   "must_include": [
+    {
+     "label": "쭉 직진하세요",
+     "match": [
+      "직진하세요"
+     ]
+    },
+    {
+     "label": "~에서 왼쪽/오른쪽으로 도세요",
+     "match": [
+      "도세요"
+     ]
+    },
+    {
+     "label": "~을 지나가세요 / 지나가면",
+     "match": [
+      "지나가"
+     ]
+    }
+   ],
+   "model": "쭉 직진하세요. 신호등에서 왼쪽으로 도세요. 은행을 지나가면 역이 있어요.",
+   "model_trans": {
+    "ko": "쭉 직진하세요. 신호등에서 왼쪽으로 도세요. 은행을 지나가면 역이 있어요.",
+    "en": "Go straight on. Turn left at the traffic lights. Go past the bank and you'll see the station."
+   }
+  }
+ }
+}

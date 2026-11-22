@@ -1,0 +1,793 @@
+{
+ "meta": {
+  "id": "ko_a2_u02",
+  "lang": "ko",
+  "family": "asia",
+  "level": "a2",
+  "unit": 2,
+  "concept": "A2.U02",
+  "status": "live",
+  "title": {
+   "target": "지난 일 말하기",
+   "ko": "지난 일 말하기",
+   "en": "Talking about the past"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "일하다",
+   "pos": "verb",
+   "read": "ilhada",
+   "en": "work",
+   "ex": {
+    "t": "그는 어제 일했어요.",
+    "read": "geuneun eoje ilhaesseoyo.",
+    "en": "He worked yesterday."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "공부하다",
+   "pos": "verb",
+   "read": "gongbuhada",
+   "en": "study",
+   "ex": {
+    "t": "저는 어젯밤에 공부했어요.",
+    "read": "jeoneun eojetbame gongbuhaesseoyo.",
+    "en": "I studied last night."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "요리하다",
+   "pos": "verb",
+   "read": "yorihada",
+   "en": "cook",
+   "ex": {
+    "t": "그녀는 저녁을 요리했어요.",
+    "read": "geunyeoneun jeonyeogeul yorihaesseoyo.",
+    "en": "She cooked dinner."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "방문하다",
+   "pos": "verb",
+   "read": "bangmunhada",
+   "en": "visit",
+   "ex": {
+    "t": "우리는 할머니를 방문했어요.",
+    "read": "urineun halmeonireul bangmunhaesseoyo.",
+    "en": "We visited our grandmother."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "청소하다",
+   "pos": "verb",
+   "read": "cheongsohada",
+   "en": "clean",
+   "ex": {
+    "t": "그들은 방을 청소했어요.",
+    "read": "geudeureun bangeul cheongsohaesseoyo.",
+    "en": "They cleaned the room."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "놀다",
+   "pos": "verb",
+   "read": "nolda",
+   "en": "play",
+   "ex": {
+    "t": "아이들은 공원에서 놀았어요.",
+    "read": "aideureun gongwoneseo norasseoyo.",
+    "en": "The children played in the park."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "기다리다",
+   "pos": "verb",
+   "read": "gidarida",
+   "en": "wait",
+   "ex": {
+    "t": "저는 버스를 20분 기다렸어요.",
+    "read": "jeoneun beoseureul 20bun gidaryeosseoyo.",
+    "en": "I waited for the bus for twenty minutes."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "멈추다",
+   "pos": "verb",
+   "read": "meomchuda",
+   "en": "stop",
+   "ex": {
+    "t": "비가 정오에 그쳤어요.",
+    "read": "biga jeongoe geuchyeosseoyo.",
+    "en": "The rain stopped at noon."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "지난밤",
+   "pos": "adv",
+   "read": "jinanbam",
+   "en": "last night",
+   "ex": {
+    "t": "지난밤에 저는 늦게까지 공부했어요.",
+    "read": "jinanbame jeoneun neutgekkaji gongbuhaesseoyo.",
+    "en": "I studied late last night."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "즐기다",
+   "pos": "verb",
+   "read": "jeulgida",
+   "en": "enjoy",
+   "ex": {
+    "t": "우리는 파티를 즐겼어요.",
+    "read": "urineun patireul jeulgyeosseoyo.",
+    "en": "We enjoyed the party."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "규칙 과거: -았어요 / -었어요 / -했어요",
+   "en": "Regular past: -았어요 / -었어요 / -했어요"
+  },
+  "explain": {
+   "ko": "규칙 과거는 어간 끝 모음에 따라 만듭니다. '하다' 동사는 -했어요, ㅏ·ㅗ 모음 어간은 -았어요(놀았어요), 그 밖의 모음은 -었어요(먹었어요)입니다. 어간이 모음으로 끝나면 줄여 씁니다: 기다리다 → 기다렸어요, 멈추다 → 멈췄어요.",
+   "en": "Regular past depends on the last vowel of the stem. 하다 verbs take -했어요; stems with ㅏ or ㅗ take -았어요 (놀았어요); other stems take -었어요 (먹었어요). Stems ending in a vowel contract: 기다리다 → 기다렸어요, 멈추다 → 멈췄어요."
+  },
+  "table": {
+   "head": [
+    "어간 / Stem",
+    "과거 / Past",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "하다 동사",
+     "-했어요",
+     "일했어요, 공부했어요"
+    ],
+    [
+     "ㅏ, ㅗ 모음",
+     "-았어요",
+     "놀았어요"
+    ],
+    [
+     "그 밖의 모음",
+     "-었어요",
+     "먹었어요"
+    ],
+    [
+     "ㅣ + ㅓ → ㅕ",
+     "-렸어요 / -겼어요",
+     "기다렸어요, 즐겼어요"
+    ],
+    [
+     "ㅜ + ㅓ → ㅝ",
+     "-췄어요",
+     "멈췄어요"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'~을/를 + 동사'로 목적어를 나타냅니다: 방을 청소했어요.",
+    "en": "Mark the object with 을/를: 방을 청소했어요."
+   },
+   {
+    "ko": "'~에서'는 일어난 장소를 나타냅니다: 공원에서 놀았어요.",
+    "en": "'~에서' marks where something happens: 공원에서 놀았어요."
+   },
+   {
+    "ko": "'~도'는 '또한'이라는 뜻입니다: 요리도 했어요.",
+    "en": "'~도' means 'also': 요리도 했어요."
+   }
+  ],
+  "examples": [
+   {
+    "t": "저는 어제 일했어요.",
+    "read": "jeoneun eoje ilhaesseoyo.",
+    "en": "I worked yesterday."
+   },
+   {
+    "t": "그녀는 저녁을 요리했어요.",
+    "read": "geunyeoneun jeonyeogeul yorihaesseoyo.",
+    "en": "She cooked dinner."
+   },
+   {
+    "t": "우리는 지난 일요일에 할머니를 방문했어요.",
+    "read": "urineun jinan iryoire halmeonireul bangmunhaesseoyo.",
+    "en": "We visited our grandmother last Sunday."
+   },
+   {
+    "t": "그들은 공원에서 놀았어요.",
+    "read": "geudeureun gongwoneseo norasseoyo.",
+    "en": "They played in the park."
+   },
+   {
+    "t": "버스가 오전 8시에 멈췄어요.",
+    "read": "beoseuga ojeon 8sie meomchwosseoyo.",
+    "en": "The bus stopped at eight o'clock."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "그들은 공원에서 ___.",
+    "options": [
+     "놀아요",
+     "놀았어요",
+     "놀 거예요"
+    ],
+    "answer": 1,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "저는 버스를 20분 ___.",
+    "options": [
+     "기다렸어요",
+     "기다려요",
+     "기다릴 거예요"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "그녀는 저녁을 ___.",
+    "options": [
+     "요리해요",
+     "요리할 거예요",
+     "요리했어요"
+    ],
+    "answer": 2,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "우리는 어제 파티를 ___.",
+    "options": [
+     "즐겨요",
+     "즐겼어요",
+     "즐길 거예요"
+    ],
+    "answer": 1,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "어제 뭐 했어요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What did you do yesterday?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "방을 청소했어요.",
+       "학생이에요.",
+       "금요일이에요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "오늘 아침에 어떻게 왔어요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) How did you get here this morning?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "버스를 기다렸어요.",
+       "커피를 좋아해요.",
+       "멀어요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "주말 잘 보냈어?"
+      },
+      {
+       "s": "B",
+       "t": "응, 토요일에 방을 청소했고 일요일에 할머니를 방문했어."
+      },
+      {
+       "s": "A",
+       "t": "할머니는 뭐 하셨어?"
+      },
+      {
+       "s": "B",
+       "t": "저녁을 요리해 주셨어."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: Did you have a good weekend?\nB: Yes. On Saturday I cleaned my room and on Sunday I visited my grandmother.\nA: What did she do?\nB: She cooked dinner for us."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "할머니는 뭐 하셨어요?",
+      "options": [
+       "방을 청소하셨어요.",
+       "저녁을 요리하셨어요.",
+       "그들을 방문하셨어요."
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "어제 저는 아침 일곱 시에 일했어요. 정오에는 친구와 점심을 먹었어요. 저녁에는 두 시간 공부했어요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Yesterday I worked from seven in the morning. At noon I had lunch with a friend. In the evening I studied for two hours."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "화자는 저녁에 뭘 했어요?",
+      "options": [
+       "일했어요",
+       "공부했어요",
+       "요리했어요"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "어제 뭐 하셨어요?"
+      },
+      {
+       "s": "B",
+       "t": "버스를 기다렸어요."
+      },
+      {
+       "s": "A",
+       "t": "얼마나요?"
+      },
+      {
+       "s": "B",
+       "t": "20분 기다렸어요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Clerk: What did you do yesterday?\nCustomer: I waited for a bus.\nClerk: For how long?\nCustomer: I waited for twenty minutes."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "한 일: ______를 기다렸어요",
+      "answers": [
+       "버스"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "시간: ______분",
+      "answers": [
+       "20"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 그는 어제 ___.\n2) 우리는 지난 일요일에 할머니를 ___.\n3) 그들은 공원에서 ___.",
+    "trans": {
+     "en": "1) He worked yesterday. 2) We visited our grandmother last Sunday. 3) They played in the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "그는 어제 ___.",
+      "options": [
+       "일해요",
+       "일했어요",
+       "일할 거예요"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "우리는 지난 일요일에 할머니를 ___.",
+      "options": [
+       "방문해요",
+       "방문할 거예요",
+       "방문했어요"
+      ],
+      "answer": 2
+     },
+     {
+      "type": "mc",
+      "q": "그들은 공원에서 ___.",
+      "options": [
+       "놀아요",
+       "놀았어요",
+       "놀 거예요"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "안녕, 수! 어제 나는 방을 (1). 오후에는 (2), 저녁에는 영어를 공부했어. 정말 (3)!",
+    "trans": {
+     "en": "Hi Sue! Yesterday I cleaned my room. In the afternoon I cooked, and in the evening I studied English. I was so busy!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "청소해",
+       "청소했어",
+       "청소할 거야"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "요리해",
+       "요리했어",
+       "요리할 거야"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "바빴어",
+       "바빠",
+       "바쁠 거야"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "메모\n월요일: 일했다\n화요일: 요리했다\n수요일: 할머니를 방문했다",
+    "trans": {
+     "en": "NOTES\nMonday: worked\nTuesday: cooked\nWednesday: visited grandmother"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "화요일에 글쓴이는 뭘 했어요?",
+      "options": [
+       "일했어요",
+       "요리했어요",
+       "방문했어요"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "글쓴이는 언제 할머니를 방문했어요?",
+      "options": [
+       "월요일",
+       "화요일",
+       "수요일"
+      ],
+      "answer": 2
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "민호는 어제 요리했어요. 그는 파스타를 만들었어요. 그의 친구 두 명이 저녁을 먹으러 왔어요.",
+    "trans": {
+     "en": "Minho cooked yesterday. He made pasta. Two of his friends came for dinner."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "민호는 파스타를 만들었어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "민호는 토요일에 요리했어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     },
+     {
+      "type": "tfng",
+      "q": "친구 세 명이 저녁을 먹으러 왔어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "어제 뭐 했어요?",
+    "read": "eoje mwo haesseoyo?",
+    "en": "What did you do yesterday?",
+    "situation": {
+     "ko": "어제 한 일을 물을 때",
+     "en": "Asking about yesterday"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "저는 방을 청소했어요.",
+    "read": "jeoneun bangeul cheongsohaesseoyo.",
+    "en": "I cleaned my room.",
+    "situation": {
+     "ko": "한 일을 말할 때",
+     "en": "Saying what you did"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "저는 어젯밤에 공부했어요.",
+    "read": "jeoneun eojetbame gongbuhaesseoyo.",
+    "en": "I studied last night.",
+    "situation": {
+     "ko": "공부했다고 말할 때",
+     "en": "Saying you studied"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "우리는 친구들과 놀았어요.",
+    "read": "urineun chingudeulgwa norasseoyo.",
+    "en": "We played with our friends.",
+    "situation": {
+     "ko": "누구와 놀았는지 말할 때",
+     "en": "Saying who you played with"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "저는 버스를 20분 기다렸어요.",
+    "read": "jeoneun beoseureul 20bun gidaryeosseoyo.",
+    "en": "I waited for the bus for twenty minutes.",
+    "situation": {
+     "ko": "기다린 시간을 말할 때",
+     "en": "Saying how long you waited"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "파티는 즐거웠어요.",
+    "read": "patineun jeulgeowosseoyo.",
+    "en": "We enjoyed the party.",
+    "situation": {
+     "ko": "즐거웠다고 말할 때",
+     "en": "Saying you enjoyed it"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "저는 어제 일하지 않았어요.",
+    "read": "jeoneun eoje ilhaji anasseoyo.",
+    "en": "I didn't work yesterday.",
+    "situation": {
+     "ko": "하지 않았다고 말할 때",
+     "en": "Saying you didn't do something"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "그녀는 저녁을 요리했어요.",
+    "read": "geunyeoneun jeonyeogeul yorihaesseoyo.",
+    "en": "She cooked dinner.",
+    "situation": {
+     "ko": "누가 한 일을 말할 때",
+     "en": "Saying what someone did"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "저는 어제 ~했어요.",
+    "read": "jeoneun eoje ~haesseoyo.",
+    "en": "Yesterday I ~ed."
+   },
+   {
+    "id": "w2",
+    "t": "우리는 ~를 방문했어요.",
+    "read": "urineun ~reul bangmunhaesseoyo.",
+    "en": "We visited ~."
+   },
+   {
+    "id": "w3",
+    "t": "그녀는 ~를 요리했어요.",
+    "read": "geunyeoneun ~reul yorihaesseoyo.",
+    "en": "She cooked ~."
+   },
+   {
+    "id": "w4",
+    "t": "저는 ~하지 않았어요.",
+    "read": "jeoneun ~haji anasseoyo.",
+    "en": "I didn't ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "지난 주말에 한 일 세 가지를 쓰세요. 규칙 과거(-ed) 동사를 쓰세요.",
+    "en": "Write three things you did last weekend. Use regular past verbs (-ed)."
+   },
+   "must_include": [
+    {
+     "label": "지난 주말에 ~",
+     "match": [
+      "지난 주말"
+     ]
+    },
+    {
+     "label": "~을/를 청소했어요 / 방문했어요",
+     "match": [
+      "청소했어요",
+      "방문했어요"
+     ]
+    },
+    {
+     "label": "~도 했어요",
+     "match": [
+      "도 했어요"
+     ]
+    }
+   ],
+   "model": "지난 주말에 저는 방을 청소했어요. 일요일에는 할머니를 방문했어요. 저는 요리도 했어요.",
+   "model_trans": {
+    "ko": "지난 주말에 저는 방을 청소했어요. 일요일에는 할머니를 방문했어요. 저는 요리도 했어요.",
+    "en": "Last weekend I cleaned my room. On Sunday I visited my grandmother. I also cooked dinner."
+   }
+  }
+ }
+}

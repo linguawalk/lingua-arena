@@ -1,0 +1,792 @@
+{
+ "meta": {
+  "id": "ko_a2_u11",
+  "lang": "ko",
+  "family": "asia",
+  "level": "a2",
+  "unit": 11,
+  "concept": "A2.U11",
+  "status": "live",
+  "title": {
+   "target": "음식과 양",
+   "ko": "음식과 양",
+   "en": "Food and quantities"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "조금",
+   "pos": "det",
+   "read": "jogeum",
+   "en": "some",
+   "ex": {
+    "t": "저는 우유를 조금 샀어요.",
+    "read": "jeoneun uyureul jogeum sasseoyo.",
+    "en": "I bought some milk."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "하나도",
+   "pos": "det",
+   "read": "hanado",
+   "en": "any",
+   "ex": {
+    "t": "우유가 하나도 없어요.",
+    "read": "uyuga hanado eopseoyo.",
+    "en": "We haven't got any milk."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "많다",
+   "pos": "det",
+   "read": "manta",
+   "en": "much",
+   "ex": {
+    "t": "우리는 시간이 많지 않아요.",
+    "read": "urineun sigani manchi anayo.",
+    "en": "We don't have much time."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "많이",
+   "pos": "det",
+   "read": "mani",
+   "en": "many",
+   "ex": {
+    "t": "사과가 많이 있어요?",
+    "read": "sagwaga mani isseoyo?",
+    "en": "Are there many apples?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "많이",
+   "pos": "det",
+   "read": "mani",
+   "en": "a lot of",
+   "ex": {
+    "t": "그는 물을 많이 마셔요.",
+    "read": "geuneun mureul mani masyeoyo.",
+    "en": "He drinks a lot of water."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "몇 개",
+   "pos": "det",
+   "read": "myeot gae",
+   "en": "a few",
+   "ex": {
+    "t": "달걀이 몇 개 있어요.",
+    "read": "dalgyari myeot gae isseoyo.",
+    "en": "There are a few eggs."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "조금",
+   "pos": "det",
+   "read": "jogeum",
+   "en": "a little",
+   "ex": {
+    "t": "설탕을 조금 주세요.",
+    "read": "seoltangeul jogeum juseyo.",
+    "en": "I'd like a little sugar."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "병",
+   "pos": "noun",
+   "read": "byeong",
+   "en": "bottle",
+   "ex": {
+    "t": "물 한 병 주세요.",
+    "read": "mul han byeong juseyo.",
+    "en": "A bottle of water, please."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "봉지",
+   "pos": "noun",
+   "read": "bongji",
+   "en": "bag",
+   "ex": {
+    "t": "쌀 한 봉지를 샀어요.",
+    "read": "ssal han bongjireul sasseoyo.",
+    "en": "I bought a bag of rice."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "충분하다",
+   "pos": "det",
+   "read": "chungbunhada",
+   "en": "enough",
+   "ex": {
+    "t": "우리는 빵이 충분해요.",
+    "read": "urineun ppangi chungbunhaeyo.",
+    "en": "We have enough bread."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "수량 표현: 조금 · 하나도 · 많이 · 몇 개 · 충분히",
+   "en": "Quantities: 조금 · 하나도 · 많이 · 몇 개 · 충분히"
+  },
+  "explain": {
+   "ko": "양이 적을 때는 '조금', 많을 때는 '많이'를 씁니다: 우유를 조금 샀어요 / 물을 많이 마셔요. 부정문에서는 '하나도 없어요'로 말합니다: 우유가 하나도 없어요. 셀 수 있는 것을 물을 때는 '몇 개'를 씁니다: 달걀이 몇 개 있어요? 용기를 세는 말은 병, 봉지, 상자입니다: 물 한 병, 쌀 한 봉지.",
+   "en": "For a small amount use 조금, for a lot use 많이: 우유를 조금 샀어요 / 물을 많이 마셔요. In negatives say 하나도 없어요: 우유가 하나도 없어요. Ask about countable things with 몇 개: 달걀이 몇 개 있어요? Container counters are 병, 봉지, 상자: 물 한 병, 쌀 한 봉지."
+  },
+  "table": {
+   "head": [
+    "표현 / Expression",
+    "뜻 / Meaning",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "조금",
+     "a little / some",
+     "우유를 조금 샀어요."
+    ],
+    [
+     "하나도 없다",
+     "none at all",
+     "우유가 하나도 없어요."
+    ],
+    [
+     "많이",
+     "a lot",
+     "물을 많이 마셔요."
+    ],
+    [
+     "몇 개",
+     "how many / a few",
+     "달걀이 몇 개 있어요."
+    ],
+    [
+     "병 · 봉지",
+     "bottle · bag",
+     "물 한 병, 쌀 한 봉지"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "수 + 단위 명사: 한 병, 두 병, 한 봉지.",
+    "en": "Number + counter: 한 병, 두 병, 한 봉지."
+   },
+   {
+    "ko": "'충분하다'는 '모자라지 않다'는 뜻입니다: 빵이 충분해요.",
+    "en": "'충분하다' means 'enough': 빵이 충분해요."
+   },
+   {
+    "ko": "부정과 함께 쓰는 '많지 않다'는 '적다'는 뜻입니다: 시간이 많지 않아요.",
+    "en": "'많지 않다' means 'not much': 시간이 많지 않아요."
+   }
+  ],
+  "examples": [
+   {
+    "t": "저는 우유를 조금 샀어요.",
+    "read": "jeoneun uyureul jogeum sasseoyo.",
+    "en": "I bought some milk."
+   },
+   {
+    "t": "우리는 우유가 하나도 없어요.",
+    "read": "urineun uyuga hanado eopseoyo.",
+    "en": "We haven't got any milk."
+   },
+   {
+    "t": "사과가 많이 있어요?",
+    "read": "sagwaga mani isseoyo?",
+    "en": "Are there many apples?"
+   },
+   {
+    "t": "저는 물을 조금 마셨어요.",
+    "read": "jeoneun mureul jogeum masyeosseoyo.",
+    "en": "I drank a little water."
+   },
+   {
+    "t": "우리는 빵이 충분해요.",
+    "read": "urineun ppangi chungbunhaeyo.",
+    "en": "We have enough bread."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "우리는 시간이 ___ 않아요.",
+    "options": [
+     "많지",
+     "조금",
+     "충분"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "사과가 ___ 있어요? (수 묻기)",
+    "options": [
+     "얼마",
+     "몇 개",
+     "어디"
+    ],
+    "answer": 1,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "설탕을 ___ 주세요.",
+    "options": [
+     "조금",
+     "하나도",
+     "충분"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "우리는 빵이 ___.",
+    "options": [
+     "충분해요",
+     "충분하게",
+     "충분한"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "우유가 좀 있어요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Is there any milk?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "네, 조금 있어요.",
+       "네, 우유예요.",
+       "네, 여기 있어요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "달걀이 몇 개 필요해요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) How many eggs do you need?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "여섯 개요.",
+       "우유를 많이요.",
+       "두 병이요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "빵이 좀 있어?"
+      },
+      {
+       "s": "B",
+       "t": "응, 조금 있어. 그런데 우유는 하나도 없어."
+      },
+      {
+       "s": "A",
+       "t": "그럼 우유 두 병이랑 달걀 몇 개 사 올게."
+      },
+      {
+       "s": "B",
+       "t": "고마워!"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: Is there any bread?\nB: Yes, there is a little. But there isn't any milk.\nA: Then I'll buy two bottles of milk and a few eggs.\nB: Thanks!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "남자는 무엇을 살 거예요?",
+      "options": [
+       "빵과 달걀",
+       "우유와 달걀",
+       "쌀과 우유"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "오늘 저녁에는 친구 여섯 명이 와요. 쌀이 충분하지 않아서 한 봉지 사야 해요. 달걀은 많이 있지만 우유는 하나도 없어요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Six friends are coming this evening. We haven't got enough rice, so I need to buy a bag. We have a lot of eggs but we haven't got any milk."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "무엇을 사야 해요?",
+      "options": [
+       "달걀",
+       "쌀 한 봉지",
+       "우유"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "무엇을 드릴까요?"
+      },
+      {
+       "s": "B",
+       "t": "물 두 병과 사과 몇 개 주세요."
+      },
+      {
+       "s": "A",
+       "t": "사과는 몇 개요?"
+      },
+      {
+       "s": "B",
+       "t": "다섯 개요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Clerk: What would you like?\nCustomer: Two bottles of water and a few apples, please.\nClerk: How many apples?\nCustomer: Five."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "물: 두 ______",
+      "answers": [
+       "병"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "사과: ______ 개",
+      "answers": [
+       "다섯"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 저는 우유를 ___ 샀어요.\n2) 우리는 우유가 ___ 없어요.\n3) 사과가 ___ 있어요?",
+    "trans": {
+     "en": "1) I bought some milk. 2) We haven't got any milk. 3) Are there many apples?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "저는 우유를 ___ 샀어요.",
+      "options": [
+       "조금",
+       "하나도",
+       "많이"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "우리는 우유가 ___ 없어요.",
+      "options": [
+       "조금",
+       "하나도",
+       "많이"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "사과가 ___ 있어요?",
+      "options": [
+       "조금",
+       "많이",
+       "하나도"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "안녕, 엄마! 오늘 쇼핑하러 갈게요. 우유는 (1) 없어요. 달걀이랑 쌀 (2)이 필요해요. 시간은 (3) 않아요!",
+    "trans": {
+     "en": "Hi Mum! I'm going shopping today. We haven't got any milk. We need some eggs and a bag of rice. I haven't got much time!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "조금",
+       "하나도",
+       "많이"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "한 병",
+       "한 봉지",
+       "한 상자"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "많지",
+       "조금",
+       "하나도"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "쇼핑 목록\n우유: 2병\n달걀: 6개\n쌀: 1봉지\n사과: 5개",
+    "trans": {
+     "en": "SHOPPING LIST\nMilk: 2 bottles\nEggs: 6\nRice: 1 bag\nApples: 5"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "목록에 달걀은 몇 개예요?",
+      "options": [
+       "2개",
+       "6개",
+       "5개"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "목록에 우유는 얼마예요?",
+      "options": [
+       "2병",
+       "1봉지",
+       "6개"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "집에는 사과가 많이 있어요. 오렌지는 몇 개뿐이에요. 우유는 하나도 없어요.",
+    "trans": {
+     "en": "There are a lot of apples at home. There are only a few oranges. There isn't any milk."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "집에는 사과가 많이 있어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "우유가 많이 있어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "바나나가 몇 개 있어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "우유가 좀 있어요?",
+    "read": "uyuga jom isseoyo?",
+    "en": "Is there any milk?",
+    "situation": {
+     "ko": "있는지 물을 때",
+     "en": "Asking if something is available"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "달걀이 몇 개 있어요.",
+    "read": "dalgyari myeot gae isseoyo.",
+    "en": "There are a few eggs.",
+    "situation": {
+     "ko": "수가 적다고 말할 때",
+     "en": "Saying there are a few"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "설탕을 조금 주세요.",
+    "read": "seoltangeul jogeum juseyo.",
+    "en": "I'd like a little sugar.",
+    "situation": {
+     "ko": "조금 요청할 때",
+     "en": "Asking for a small amount"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "사과는 몇 개 있어요?",
+    "read": "sagwaneun myeot gae isseoyo?",
+    "en": "How many apples are there?",
+    "situation": {
+     "ko": "수를 물을 때",
+     "en": "Asking how many"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "우유는 얼마나 필요해요?",
+    "read": "uyuneun eolmana piryohaeyo?",
+    "en": "How much milk do you need?",
+    "situation": {
+     "ko": "양을 물을 때",
+     "en": "Asking how much"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "우리는 빵이 충분해요.",
+    "read": "urineun ppangi chungbunhaeyo.",
+    "en": "We have enough bread.",
+    "situation": {
+     "ko": "충분하다고 말할 때",
+     "en": "Saying it is enough"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "물 한 병 주세요.",
+    "read": "mul han byeong juseyo.",
+    "en": "A bottle of water, please.",
+    "situation": {
+     "ko": "병 단위로 주문할 때",
+     "en": "Ordering by the bottle"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "저는 시간이 많지 않아요.",
+    "read": "jeoneun sigani manchi anayo.",
+    "en": "I don't have much time.",
+    "situation": {
+     "ko": "부족하다고 말할 때",
+     "en": "Saying there is not much"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~가 좀 있어요.",
+    "read": "~ga jom isseoyo.",
+    "en": "I have some ~."
+   },
+   {
+    "id": "w2",
+    "t": "~가 하나도 없어요.",
+    "read": "~ga hanado eopseoyo.",
+    "en": "There isn't any ~."
+   },
+   {
+    "id": "w3",
+    "t": "~는 얼마나 있어요?",
+    "read": "~neun eolmana isseoyo?",
+    "en": "How much ~ is there?"
+   },
+   {
+    "id": "w4",
+    "t": "~는 몇 개 있어요?",
+    "read": "~neun myeot gae isseoyo?",
+    "en": "How many ~ are there?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "냉장고에 있는 것과 없는 것을 3문장으로 쓰세요. some, any, a lot of를 쓰세요.",
+    "en": "Write 3 sentences about what is and isn't in your fridge. Use some, any and a lot of."
+   },
+   "must_include": [
+    {
+     "label": "~가 조금 있어요",
+     "match": [
+      "조금"
+     ]
+    },
+    {
+     "label": "~가 하나도 없어요",
+     "match": [
+      "하나도"
+     ]
+    },
+    {
+     "label": "~가 많이 있어요",
+     "match": [
+      "많이"
+     ]
+    }
+   ],
+   "model": "냉장고에 우유가 조금 있어요. 달걀은 하나도 없어요. 사과는 많이 있어요.",
+   "model_trans": {
+    "ko": "냉장고에 우유가 조금 있어요. 달걀은 하나도 없어요. 사과는 많이 있어요.",
+    "en": "There is some milk in the fridge. There aren't any eggs. There are a lot of apples."
+   }
+  }
+ }
+}
