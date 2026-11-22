@@ -1,0 +1,791 @@
+{
+ "meta": {
+  "id": "es_a1_u35",
+  "lang": "es",
+  "family": "europe",
+  "level": "a1",
+  "unit": 35,
+  "concept": "A1.U35",
+  "status": "live",
+  "title": {
+   "target": "Billetes y estación",
+   "ko": "표와 역",
+   "en": "Tickets and stations"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "el billete",
+   "pos": "noun",
+   "ko": "표",
+   "en": "ticket",
+   "ex": {
+    "t": "Quiero un billete a Madrid.",
+    "ko": "표를 한 장 사고 싶어요.",
+    "en": "I want to buy a ticket."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "de ida",
+   "pos": "noun",
+   "ko": "편도",
+   "en": "single",
+   "ex": {
+    "t": "Un billete de ida, por favor.",
+    "ko": "편도 한 장 주세요.",
+    "en": "A single ticket, please."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "de ida y vuelta",
+   "pos": "noun",
+   "ko": "왕복",
+   "en": "return",
+   "ex": {
+    "t": "De ida y vuelta, por favor.",
+    "ko": "왕복표 한 장 주세요.",
+    "en": "A return ticket, please."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "el tren",
+   "pos": "noun",
+   "ko": "기차",
+   "en": "train",
+   "ex": {
+    "t": "El tren sale a las diez.",
+    "ko": "기차는 열 시에 출발해요.",
+    "en": "The train leaves at ten o'clock."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "la vía",
+   "pos": "noun",
+   "ko": "승강장",
+   "en": "platform",
+   "ex": {
+    "t": "El tren sale de la vía tres.",
+    "ko": "기차는 3번 승강장에서 출발해요.",
+    "en": "The train leaves from platform three."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "salir",
+   "pos": "verb",
+   "ko": "출발하다",
+   "en": "leave",
+   "ex": {
+    "t": "¿A qué hora sale el tren?",
+    "ko": "기차는 언제 출발해요?",
+    "en": "When does the train leave?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "llegar",
+   "pos": "verb",
+   "ko": "도착하다",
+   "en": "arrive",
+   "ex": {
+    "t": "El tren llega a las doce.",
+    "ko": "기차는 열두 시에 도착해요.",
+    "en": "The train arrives at twelve."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "cuánto cuesta",
+   "pos": "adv",
+   "ko": "얼마",
+   "en": "how much",
+   "ex": {
+    "t": "¿Cuánto cuesta un billete?",
+    "ko": "표는 얼마예요?",
+    "en": "How much is a ticket?"
+   }
+  },
+  {
+   "id": "v9",
+   "t": "la estación",
+   "pos": "noun",
+   "ko": "역",
+   "en": "station",
+   "ex": {
+    "t": "La estación está en el centro.",
+    "ko": "역은 시내에 있어요.",
+    "en": "The station is in the city."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "el horario",
+   "pos": "noun",
+   "ko": "시간표",
+   "en": "timetable",
+   "ex": {
+    "t": "Mire el horario.",
+    "ko": "시간표를 보세요.",
+    "en": "Look at the timetable."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "표 사기와 ¿A qué hora …?",
+   "en": "Buying tickets and '¿A qué hora …?'"
+  },
+  "explain": {
+   "ko": "표를 살 때는 Un billete a + 도시, por favor.라고 합니다. de ida는 편도, de ida y vuelta는 왕복입니다. 시각은 ¿A qué hora sale el tren?로 묻고 현재형으로 답합니다: Sale a las diez. 가격은 ¿Cuánto cuesta …?로 묻습니다. salir: salgo, sales, sale.",
+   "en": "Buy a ticket with Un billete a + city, por favor. De ida is one way and de ida y vuelta is return. Ask the time with ¿A qué hora sale el tren? and answer in the present: Sale a las diez. Ask the price with ¿Cuánto cuesta …? Salir: salgo, sales, sale."
+  },
+  "table": {
+   "head": [
+    "표현 / Expresión",
+    "예 / Ejemplo"
+   ],
+   "rows": [
+    [
+     "Un billete a ~",
+     "Un billete a Madrid, por favor."
+    ],
+    [
+     "de ida / de ida y vuelta",
+     "¿De ida o de ida y vuelta?"
+    ],
+    [
+     "¿A qué hora …?",
+     "¿A qué hora sale el tren?"
+    ],
+    [
+     "vía + 숫자",
+     "vía tres"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "시각 앞에는 a las: a las diez (1시는 a la una).",
+    "en": "Use a las before a time: a las diez (one o'clock is a la una)."
+   },
+   {
+    "ko": "salir: yo salgo (불규칙).",
+    "en": "salir: yo salgo (irregular)."
+   },
+   {
+    "ko": "a + 도시: a Madrid.",
+    "en": "a + city: a Madrid."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Un billete de ida, por favor.",
+    "ko": "편도 한 장 주세요.",
+    "en": "A single ticket, please."
+   },
+   {
+    "t": "¿A qué hora sale el tren?",
+    "ko": "기차는 몇 시에 출발해요?",
+    "en": "What time does the train leave?"
+   },
+   {
+    "t": "El tren sale a las diez.",
+    "ko": "기차는 열 시에 출발해요.",
+    "en": "The train leaves at ten o'clock."
+   },
+   {
+    "t": "¿Cuánto cuesta un billete?",
+    "ko": "표는 얼마예요?",
+    "en": "How much is a ticket?"
+   },
+   {
+    "t": "El tren sale de la vía tres.",
+    "ko": "기차는 3번 승강장에서 출발해요.",
+    "en": "The train leaves from platform three."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Un billete ___ Madrid, por favor.",
+    "options": [
+     "a",
+     "en",
+     "de"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "¿A qué hora ___ el tren?",
+    "options": [
+     "sale",
+     "salgo",
+     "sales"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "El tren sale ___ las diez.",
+    "options": [
+     "a",
+     "en",
+     "por"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "¿Cuánto ___ un billete?",
+    "options": [
+     "cuesta",
+     "cuestan",
+     "cuesto"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿De ida o de ida y vuelta?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 편도예요, 왕복이에요?",
+     "en": "(Question) Single or return?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "De ida y vuelta, por favor.",
+       "Estoy en la estación.",
+       "Son las doce."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿A qué hora sale el tren?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 기차는 몇 시에 출발해요?",
+     "en": "(Question) What time does the train leave?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "A las diez.",
+       "De la vía tres.",
+       "Veinte euros."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Un billete a Madrid, por favor."
+      },
+      {
+       "s": "B",
+       "t": "¿De ida o de ida y vuelta?"
+      },
+      {
+       "s": "A",
+       "t": "De ida y vuelta. ¿Cuánto cuesta?"
+      },
+      {
+       "s": "B",
+       "t": "Veinte euros."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 서울행 표 한 장 주세요.\nB: 편도예요, 왕복이에요?\nA: 왕복이요. 얼마예요?\nB: 20달러예요.",
+     "en": "A: One ticket to Seoul, please.\nB: Single or return?\nA: Return, please. How much is it?\nB: It's twenty dollars."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuánto cuesta el billete?",
+      "options": [
+       "Veinte euros",
+       "Quince euros",
+       "Diez euros"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "El tren a Madrid sale a las diez. Sale de la vía tres. Llega a las doce."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "서울행 기차는 열 시에 출발해요. 기차는 3번 승강장에서 출발해요. 기차는 열두 시에 도착해요.",
+     "en": "The train to Seoul leaves at ten o'clock. It leaves from platform three. It arrives at twelve."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿De qué vía sale el tren?",
+      "options": [
+       "Vía tres",
+       "Vía cinco",
+       "Vía uno"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Un billete a Barcelona, por favor."
+      },
+      {
+       "s": "B",
+       "t": "¿De ida o de ida y vuelta?"
+      },
+      {
+       "s": "A",
+       "t": "De ida."
+      },
+      {
+       "s": "B",
+       "t": "Son quince euros."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "손님: 부산행 표 한 장 주세요.\n직원: 편도예요, 왕복이에요?\n손님: 편도요.\n직원: 15달러예요.",
+     "en": "Guest: One ticket to Busan, please.\nClerk: Single or return?\nGuest: Single.\nClerk: It's fifteen dollars."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "El cliente va a ______",
+      "answers": [
+       "barcelona"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Precio: ______ euros",
+      "answers": [
+       "quince"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Un billete ___, por favor.\n2) ¿A qué hora ___ el tren?\n3) ¿Cuánto ___ un billete?",
+    "trans": {
+     "ko": "1) 편도 한 장 주세요. 2) 기차는 몇 시에 출발해요? 3) 표는 얼마예요?",
+     "en": "1) A single ticket, please. 2) What time does the train leave? 3) How much is a ticket?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Un billete ___, por favor.",
+      "options": [
+       "de ida",
+       "de ido",
+       "de idas"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "¿A qué hora ___ el tren?",
+      "options": [
+       "sale",
+       "salgo",
+       "sales"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "¿Cuánto ___ un billete?",
+      "options": [
+       "cuesta",
+       "cuestan",
+       "cuesto"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "El tren a Madrid sale (1) las diez. Sale (2) la vía tres. Llega a las doce. El billete cuesta veinte (3).",
+    "trans": {
+     "ko": "서울행 기차는 열 시에 출발해요. 기차는 3번 승강장에서 출발해요. 기차는 열두 시에 도착해요. 표는 20달러예요.",
+     "en": "The train to Seoul leaves at ten o'clock. It leaves from platform three. It arrives at twelve. The ticket is twenty dollars."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "a",
+       "en",
+       "por"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "de",
+       "desde a",
+       "por"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "euros",
+       "euro",
+       "euroes"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "HORARIO\nMadrid 10:00 vía 3\nBarcelona 11:30 vía 5",
+    "trans": {
+     "ko": "시간표\n서울행 10:00 3번 승강장\n부산행 11:30 5번 승강장",
+     "en": "TIMETABLE\nSeoul 10:00 platform 3\nBusan 11:30 platform 5"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿De qué vía sale el tren a Madrid?",
+      "options": [
+       "Vía 3",
+       "Vía 5",
+       "Vía 1"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "¿A qué hora sale el tren a Barcelona?",
+      "options": [
+       "11:30",
+       "10:00",
+       "12:00"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Gina va a Madrid. Compra un billete de ida y vuelta. Espera el tren.",
+    "trans": {
+     "ko": "지나는 서울에 가요. 그녀는 왕복표를 사요. 그녀는 기차를 기다려요.",
+     "en": "Gina goes to Seoul. She buys a return ticket. She waits for the train."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Gina va a Madrid.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Gina compra un billete de ida.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Gina viaja con su hermana.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Un billete a Madrid, por favor.",
+    "ko": "서울행 표 한 장 주세요.",
+    "en": "One ticket to Seoul, please.",
+    "situation": {
+     "ko": "표를 살 때",
+     "en": "Buying a ticket"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "¿De ida o de ida y vuelta?",
+    "ko": "편도예요, 왕복이에요?",
+    "en": "Single or return?",
+    "situation": {
+     "ko": "종류를 물을 때",
+     "en": "Asking the type"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "De ida y vuelta, por favor.",
+    "ko": "왕복이요.",
+    "en": "Return, please.",
+    "situation": {
+     "ko": "왕복이라고 답할 때",
+     "en": "Answering return"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "¿Cuánto cuesta el billete?",
+    "ko": "표는 얼마예요?",
+    "en": "How much is the ticket?",
+    "situation": {
+     "ko": "가격을 물을 때",
+     "en": "Asking the price"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "¿A qué hora sale el tren?",
+    "ko": "기차는 몇 시에 출발해요?",
+    "en": "What time does the train leave?",
+    "situation": {
+     "ko": "출발 시간을 물을 때",
+     "en": "Asking the time"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Sale a las diez.",
+    "ko": "기차는 열 시에 출발해요.",
+    "en": "The train leaves at ten.",
+    "situation": {
+     "ko": "출발 시간을 말할 때",
+     "en": "Giving the time"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "¿De qué vía?",
+    "ko": "몇 번 승강장이에요?",
+    "en": "Which platform is it?",
+    "situation": {
+     "ko": "승강장을 물을 때",
+     "en": "Asking the platform"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "De la vía tres.",
+    "ko": "3번 승강장이에요.",
+    "en": "It's platform three.",
+    "situation": {
+     "ko": "승강장을 말할 때",
+     "en": "Giving the platform"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Un billete a ~, por favor.",
+    "ko": "~행 표 한 장 주세요.",
+    "en": "One ticket to ~, please."
+   },
+   {
+    "id": "w2",
+    "t": "De ida / De ida y vuelta, por favor.",
+    "ko": "편도 / 왕복이요.",
+    "en": "Single / Return, please."
+   },
+   {
+    "id": "w3",
+    "t": "¿A qué hora sale ~?",
+    "ko": "기차는 몇 시에 출발해요?",
+    "en": "What time does the train leave?"
+   },
+   {
+    "id": "w4",
+    "t": "Es la vía ~.",
+    "ko": "~번 승강장이에요.",
+    "en": "It's platform ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "표를 사는 대화를 3문장으로 써 보세요.",
+    "en": "Write 3 sentences for buying a train ticket."
+   },
+   "must_include": [
+    {
+     "label": "Un billete a ~",
+     "match": [
+      "un billete a"
+     ]
+    },
+    {
+     "label": "de ida / de ida y vuelta",
+     "match": [
+      "de ida"
+     ]
+    },
+    {
+     "label": "¿A qué hora ~?",
+     "match": [
+      "a qué hora"
+     ]
+    }
+   ],
+   "model": "Un billete a Madrid, por favor. De ida y vuelta, por favor. ¿A qué hora sale el tren?",
+   "model_trans": {
+    "ko": "서울행 표 한 장 주세요. 왕복이요. 기차는 몇 시에 출발해요?",
+    "en": "One ticket to Seoul, please. Return, please. What time does the train leave?"
+   }
+  }
+ }
+}
