@@ -1,0 +1,843 @@
+{
+ "meta": {
+  "id": "zh_b1_u09",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 9,
+  "concept": "B1.U09",
+  "status": "live",
+  "title": {
+   "target": "规则和过去的义务",
+   "ko": "규칙과 과거의 의무",
+   "en": "Rules and past obligation"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "规则",
+   "pos": "noun",
+   "read": "guīzé",
+   "ko": "규칙",
+   "en": "rule",
+   "ex": {
+    "t": "学校的规则很严格。",
+    "read": "Xuéxiào de guīzé hěn yángé.",
+    "ko": "학교에는 엄격한 규칙이 많았어요.",
+    "en": "The school had a lot of strict rules."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "允许",
+   "pos": "noun",
+   "read": "yǔnxǔ",
+   "ko": "허락",
+   "en": "permission",
+   "ex": {
+    "t": "这里不允许抽烟。",
+    "read": "Zhèlǐ bù yǔnxǔ chōuyān.",
+    "ko": "들어가기 전에 허락을 받아야 해요.",
+    "en": "You need permission before you go in."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "获准",
+   "pos": "phrase",
+   "read": "huòzhǔn",
+   "ko": "(~하는 것이) 허용되다",
+   "en": "be allowed to",
+   "ex": {
+    "t": "她获准提前离开。",
+    "read": "Tā huòzhǔn tíqián líkāi.",
+    "ko": "우리는 교실에서 휴대폰을 쓸 수 없었어요.",
+    "en": "We weren't allowed to use phones in class."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "不得不",
+   "pos": "phrase",
+   "read": "bù dé bù",
+   "ko": "~해야 했다",
+   "en": "had to",
+   "ex": {
+    "t": "我不得不早起。",
+    "read": "Wǒ bù dé bù zǎo qǐ.",
+    "ko": "저는 어릴 때 일찍 자야 했어요.",
+    "en": "I had to go to bed early as a child."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "不用",
+   "pos": "modal",
+   "read": "búyòng",
+   "ko": "~할 필요가 없다",
+   "en": "needn't",
+   "ex": {
+    "t": "你不用着急。",
+    "read": "Nǐ búyòng zháojí.",
+    "ko": "서두를 필요 없어요. 시간이 많아요.",
+    "en": "You needn't hurry. We have plenty of time."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "必须的",
+   "pos": "adj",
+   "read": "bìxū de",
+   "ko": "필수의",
+   "en": "compulsory",
+   "ex": {
+    "t": "校服是必须的。",
+    "read": "Xiàofú shì bìxū de.",
+    "ko": "우리 학교에서는 교복이 필수였어요.",
+    "en": "A uniform was compulsory at our school."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "义务",
+   "pos": "noun",
+   "read": "yìwù",
+   "ko": "의무",
+   "en": "duty",
+   "ex": {
+    "t": "遵守规则是每个人的义务。",
+    "read": "Zūnshǒu guīzé shì měi gè rén de yìwù.",
+    "ko": "그녀는 환자를 돌볼 의무가 있어요.",
+    "en": "She has a duty to care for her patients."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "禁止",
+   "pos": "verb",
+   "read": "jìnzhǐ",
+   "ko": "금지하다",
+   "en": "forbid",
+   "ex": {
+    "t": "禁止在这里停车。",
+    "read": "Jìnzhǐ zài zhèlǐ tíngchē.",
+    "ko": "규칙은 학생이 일찍 떠나는 것을 금지해요.",
+    "en": "The rules forbid students from leaving early."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "遵守规定",
+   "pos": "verb",
+   "read": "zūnshǒu guīdìng",
+   "ko": "규정을 지키다",
+   "en": "obey",
+   "ex": {
+    "t": "我们要遵守规定。",
+    "read": "Wǒmen yào zūnshǒu guīdìng.",
+    "ko": "운전자는 교통 법규를 지켜야 해요.",
+    "en": "Drivers must obey traffic laws."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "罚款",
+   "pos": "noun",
+   "read": "fákuǎn",
+   "ko": "벌금",
+   "en": "fine",
+   "ex": {
+    "t": "停错地方要罚款。",
+    "read": "Tíng cuò dìfang yào fákuǎn.",
+    "ko": "주차를 잘못해서 벌금을 냈어요.",
+    "en": "I had to pay a fine for parking illegally."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "义务和许可：得、不得不、不能、不用",
+   "en": "Obligation and permission: 得 / 不得不 / 不能 / 不用"
+  },
+  "explain": {
+   "ko": "说过去必须做的事，用“得”或“不得不”，再加时间词：小时候我九点就得睡觉。过去不被允许的事用“不能”或“不许”：那时候教室里不能用手机。不需要做的事用“不用”或“不必”：昨天我不用早起。现在不允许的事用“不可以”：这里不可以用手机。问是否必须：昨天你得早起吗？",
+   "en": "A past obligation uses 得 or 不得不 with a time word: 小时候我九点就得睡觉. A past prohibition uses 不能 or 不许: 那时候教室里不能用手机. No need uses 不用 or 不必: 昨天我不用早起. A present prohibition is 不可以: 这里不可以用手机. Ask about obligation: 昨天你得早起吗？"
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "过去必须 / Had to",
+     "得 · 不得不＋动词",
+     "小时候我九点就得睡觉。"
+    ],
+    [
+     "过去不能 / Couldn't",
+     "不能 · 不许＋动词",
+     "那时候教室里不能用手机。"
+    ],
+    [
+     "不需要 / No need",
+     "不用 · 不必＋动词",
+     "昨天我不用早起。"
+    ],
+    [
+     "现在不允许 / Not allowed",
+     "不可以＋动词",
+     "这里不可以用手机。"
+    ],
+    [
+     "问义务 / Ask",
+     "……得……吗？",
+     "你昨天得早起吗？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“得”读děi，意思是“必须”，只用在口语里。",
+    "en": "得 here is read děi and means must; it is colloquial."
+   },
+   {
+    "ko": "“不用”表示没有必要，“不能”表示不被允许，意思不同。",
+    "en": "不用 means no need; 不能 means not allowed. The meanings differ."
+   },
+   {
+    "ko": "过去的义务要靠“那时”“小时候”等时间词表示。",
+    "en": "A past obligation is shown by time words such as 那时 or 小时候."
+   }
+  ],
+  "examples": [
+   {
+    "t": "小时候我九点就得睡觉。",
+    "read": "Xiǎoshíhou wǒ jiǔ diǎn jiù děi shuìjiào.",
+    "ko": "어릴 때 저는 아홉 시에 자야 했어요.",
+    "en": "When I was young, I had to go to bed at nine."
+   },
+   {
+    "t": "那时候教室里不能用手机。",
+    "read": "Nà shíhou jiàoshì lǐ bùnéng yòng shǒujī.",
+    "ko": "그때는 교실에서 휴대폰을 쓸 수 없었어요.",
+    "en": "We weren't allowed to use phones in class."
+   },
+   {
+    "t": "昨天我不用早起。",
+    "read": "Zuótiān wǒ búyòng zǎo qǐ.",
+    "ko": "어제는 일찍 일어날 필요가 없었어요.",
+    "en": "I didn't have to get up early yesterday."
+   },
+   {
+    "t": "现在不用提前买票。",
+    "read": "Xiànzài búyòng tíqián mǎi piào.",
+    "ko": "지금은 표를 미리 살 필요가 없어요.",
+    "en": "You don't need to buy a ticket in advance now."
+   },
+   {
+    "t": "她考试以前得先得到许可。",
+    "read": "Tā kǎoshì yǐqián děi xiān dé dào xǔ kě.",
+    "ko": "그녀는 시험 전에 허락을 받아야 했어요.",
+    "en": "She had to get permission before the exam."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "小时候我九点就___睡觉。",
+    "options": [
+     "得",
+     "刚",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "那时候教室里___用手机。",
+    "options": [
+     "不能",
+     "不用",
+     "没"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "昨天我___早起。",
+    "options": [
+     "不用",
+     "不能",
+     "不许"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "这里___用手机。",
+    "options": [
+     "不可以",
+     "不用",
+     "没有"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你小时候规则严格吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어릴 때 규칙이 엄격했어요?",
+     "en": "(Question) Were your rules strict when you were a child?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "很严格，我十点以前得回家。",
+       "是的，我昨天去了。",
+       "我没去过。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨天你得早起吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어제 일찍 일어나야 했어요?",
+     "en": "(Question) Did you have to get up early yesterday?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "不用，我可以睡懒觉。",
+       "不可以，我很高兴。",
+       "没有，在家里。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你上学的时候得穿校服吗？"
+      },
+      {
+       "s": "B",
+       "t": "得，是必须的。而且教室里不能用手机。"
+      },
+      {
+       "s": "A",
+       "t": "真的吗？我们午饭的时候可以用。"
+      },
+      {
+       "s": "B",
+       "t": "我们不行。被发现了，就得把手机交给老师。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 학교 다닐 때 교복을 입어야 했어?\nB: 응, 필수였어. 그리고 교실에서 휴대폰을 쓸 수 없었어.\nA: 정말? 우리는 점심시간엔 써도 됐어.\nB: 우리는 안 됐어. 걸리면 선생님께 맡겨야 했어.",
+     "en": "A: Did you have to wear a uniform at school?\nB: Yes, it was compulsory. And we weren't allowed to use phones in class.\nA: Really? We could use them at lunchtime.\nB: Not us. If you were caught, you had to hand it to the teacher."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "被发现用手机怎么办？",
+      "options": [
+       "把手机交给老师",
+       "交罚款",
+       "回家"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "欢迎新同事。所有员工必须一直戴着门禁卡。访客必须在前台登记，不能一个人在办公室里走动。休息室里可以吃东西，但是不能在办公桌上吃。没有停车证的人，请不要停车。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "신입 직원 여러분, 환영합니다. 모든 직원은 출입 카드를 항상 착용해야 합니다. 방문객은 안내 데스크에서 등록해야 하며, 혼자서 사무실을 돌아다닐 수 없습니다. 휴게실에서는 음식을 드셔도 되지만 책상에서는 드실 수 없습니다. 주차권이 없는 분은 주차하지 마세요.",
+     "en": "Welcome, new staff. All employees must wear their pass at all times. Visitors have to sign in at reception and are not allowed to walk around the offices alone. You may eat in the break room, but not at your desk. Please don't park here unless you have a permit."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "可以在哪儿吃东西？",
+      "options": [
+       "休息室",
+       "办公桌",
+       "前台"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这里是图书馆咨询台。"
+      },
+      {
+       "s": "B",
+       "t": "考试期间可以用阅览室吗？"
+      },
+      {
+       "s": "A",
+       "t": "可以，但是必须出示学生证。"
+      },
+      {
+       "s": "B",
+       "t": "好的。开到几点？"
+      },
+      {
+       "s": "A",
+       "t": "开到晚上十点。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 도서관 안내 데스크입니다.\n학생: 시험 기간 중에 열람실을 쓸 수 있나요?\n직원: 네, 하지만 학생증을 반드시 보여 주셔야 해요.\n학생: 알겠습니다. 몇 시까지 여나요?",
+     "en": "Staff: Library help desk.\nStudent: Can I use the reading room during exams?\nStaff: Yes, but you have to show your student card.\nStudent: Okay. What time does it close?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "必须出示______",
+      "answers": [
+       "学生证"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "开到晚上______点",
+      "answers": [
+       "十"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 小时候我九点就___睡觉。\n2) 我们在教室里___吃东西。\n3) 昨天我___早起，所以睡了懒觉。",
+    "trans": {
+     "ko": "1) 어릴 때 저는 아홉 시에 자야 했어요. 2) 우리는 교실에서 먹을 수 없었어요. 3) 어제는 일찍 일어날 필요가 없어서 늦잠을 잤어요.",
+     "en": "1) When I was young, I had to go to bed at nine. 2) We weren't allowed to eat in class. 3) I didn't have to get up early yesterday, so I slept late."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "小时候我九点就___睡觉。",
+      "options": [
+       "得",
+       "刚",
+       "过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我们在教室里___吃东西。",
+      "options": [
+       "不能",
+       "不用",
+       "没有"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "昨天我___早起，所以睡了懒觉。",
+      "options": [
+       "不用",
+       "不能",
+       "不许"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好，薇琪！新公寓规矩很多。晚上十点以后(1)吵闹，租客要把垃圾(2)。幸好每个月管理费(3)自己交。",
+    "trans": {
+     "ko": "안녕, 비키! 새 아파트에는 규칙이 많아. 밤 열 시 이후에는 시끄럽게 하면 안 되고, 세입자는 쓰레기를 분리해야 해. 다행히 매달 관리비를 직접 낼 필요는 없어.",
+     "en": "Hi Vicky, My new flat has a lot of rules. You mustn't make noise after ten at night, and tenants have to separate their rubbish. Luckily, we don't have to pay the service charge ourselves every month."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "不能",
+       "不用",
+       "得"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "分类",
+       "买",
+       "卖"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "不用",
+       "不能",
+       "得"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "游泳池须知\n所有游泳的人必须先淋浴。十二岁以下的孩子必须有家长陪同。游泳池周围不能跑。泳帽不是必须的，但是长头发得扎起来。不用带自己的毛巾，可以在售票处借。",
+    "trans": {
+     "ko": "수영장 이용 안내\n수영장에서는 모든 이용객이 샤워를 해야 합니다. 열두 살 미만 어린이는 보호자와 함께 와야 합니다. 수영장 주변에서 뛰어서는 안 됩니다. 수영모는 필수는 아니지만 긴 머리는 묶어야 합니다. 개인 수건을 가져올 필요는 없으며 매표소에서 빌릴 수 있습니다.",
+     "en": "SWIMMING POOL RULES\nAll swimmers must shower before entering the pool. Children under twelve have to be accompanied by an adult. You mustn't run around the pool. A swimming cap is not compulsory, but long hair has to be tied back. You don't need to bring your own towel; you can hire one at the ticket desk."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "什么人必须有家长陪同？",
+      "options": [
+       "十二岁以下的孩子",
+       "所有的人",
+       "长头发的人"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "毛巾怎么办？",
+      "options": [
+       "可以在售票处借",
+       "必须自己带",
+       "游泳池里没有"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "梅的奶奶十四岁的时候不得不退学，回家帮助家里干农活。那时候，女孩子不能上大学。今天，梅可以学自己想学的东西，奶奶为此感到很自豪。",
+    "trans": {
+     "ko": "메이의 할머니는 열네 살 때 학교를 그만두고 가족의 농장 일을 도와야 했어요. 그때는 소녀들이 대학에 가는 것이 허용되지 않았어요. 오늘날 메이는 원하는 것을 공부할 수 있고, 그녀의 할머니는 그것이 자랑스러워요.",
+     "en": "May's grandmother had to leave school at fourteen to help on the family farm. At that time, girls weren't allowed to go to university. Today May can study whatever she wants, and her grandmother is very proud of it."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "梅的奶奶十四岁时退学了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "梅的奶奶没有上过学。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "梅学的是历史。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你小时候规则严格吗？",
+    "read": "Nǐ xiǎoshíhou guīzé yángé ma?",
+    "ko": "어릴 때 규칙이 엄격했어요?",
+    "en": "Were your rules strict when you were a child?",
+    "situation": {
+     "ko": "과거 규칙을 물을 때",
+     "en": "Asking about past rules"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我十点以前得回家。",
+    "read": "Wǒ shí diǎn yǐqián děi huí jiā.",
+    "ko": "저는 열 시까지 집에 와야 했어요.",
+    "en": "I had to be home by ten.",
+    "situation": {
+     "ko": "과거의 의무를 말할 때",
+     "en": "Saying what was required"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我们在教室里不能吃东西。",
+    "read": "Wǒmen zài jiàoshì lǐ bùnéng chī dōngxi.",
+    "ko": "우리는 교실에서 먹을 수 없었어요.",
+    "en": "We weren't allowed to eat in class.",
+    "situation": {
+     "ko": "금지를 말할 때",
+     "en": "Saying what was forbidden"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "昨天你得早起吗？",
+    "read": "Zuótiān nǐ děi zǎoqǐ ma?",
+    "ko": "어제 일찍 일어나야 했어요?",
+    "en": "Did you have to get up early yesterday?",
+    "situation": {
+     "ko": "필요 여부를 물을 때",
+     "en": "Asking if it was necessary"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "不用，我睡了懒觉。",
+    "read": "Búyòng, wǒ shuì le lǎnjiào.",
+    "ko": "아니요, 그럴 필요 없었어요.",
+    "en": "No, I didn't have to.",
+    "situation": {
+     "ko": "필요 없었다고 답할 때",
+     "en": "Saying it wasn't necessary"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "现在不用提前订票。",
+    "read": "Xiànzài búyòng tíqián dìng piào.",
+    "ko": "지금은 예약하지 않아도 돼요.",
+    "en": "You don't need to book now.",
+    "situation": {
+     "ko": "현재 불필요함을 말할 때",
+     "en": "Saying it isn't needed now"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "这里不可以用手机。",
+    "read": "Zhèlǐ bù kěyǐ yòng shǒujī.",
+    "ko": "여기서는 휴대폰을 쓰면 안 돼요.",
+    "en": "You mustn't use your phone here.",
+    "situation": {
+     "ko": "금지를 말할 때",
+     "en": "Prohibiting"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "你不用着急。",
+    "read": "Nǐ búyòng zháojí.",
+    "ko": "서두를 필요 없어요.",
+    "en": "You needn't hurry.",
+    "situation": {
+     "ko": "안심시킬 때",
+     "en": "Reassuring someone"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我小时候得……。",
+    "read": "Wǒ xiǎoshíhou děi ….",
+    "ko": "저는 ~해야 했어요.",
+    "en": "I had to ~."
+   },
+   {
+    "id": "w2",
+    "t": "我们不能……。",
+    "read": "Wǒmen bùnéng ….",
+    "ko": "우리는 ~할 수 없었어요.",
+    "en": "We weren't allowed to ~."
+   },
+   {
+    "id": "w3",
+    "t": "我不用……。",
+    "read": "Wǒ búyòng ….",
+    "ko": "저는 ~할 필요가 없었어요.",
+    "en": "I didn't have to ~."
+   },
+   {
+    "id": "w4",
+    "t": "这里不可以……。",
+    "read": "Zhèlǐ bù kěyǐ ….",
+    "ko": "~하면 안 돼요.",
+    "en": "You mustn't ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "어릴 때의 규칙을 3문장으로 써 보세요: 해야 했던 일, 허락되지 않았던 일, 하지 않아도 되었던 일.",
+    "en": "Write 3 sentences about rules from your childhood: something you had to do, something you weren't allowed to do, and something you didn't have to do."
+   },
+   "must_include": [
+    {
+     "label": "我得～",
+     "match": [
+      "得",
+      "不得不"
+     ]
+    },
+    {
+     "label": "我们不能～",
+     "match": [
+      "不能"
+     ]
+    },
+    {
+     "label": "我不用～",
+     "match": [
+      "不用"
+     ]
+    }
+   ],
+   "model": "小时候我九点就得睡觉。吃晚饭的时候不能用手机。但是周末我不用早起。",
+   "model_trans": {
+    "ko": "어릴 때 저는 아홉 시에 자야 했어요. 저녁 식사 중에는 휴대폰을 쓸 수 없었어요. 하지만 주말에는 일찍 일어나지 않아도 됐어요.",
+    "en": "When I was a child, I had to go to bed at nine. We weren't allowed to use phones at dinner. But I didn't have to get up early at weekends."
+   }
+  }
+ }
+}

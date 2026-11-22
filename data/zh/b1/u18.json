@@ -1,0 +1,840 @@
+{
+ "meta": {
+  "id": "zh_b1_u18",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 18,
+  "concept": "B1.U18",
+  "status": "live",
+  "title": {
+   "target": "礼貌地询问",
+   "ko": "정중하게 묻기",
+   "en": "Polite and indirect questions"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "请问",
+   "pos": "phrase",
+   "read": "qǐngwèn",
+   "ko": "~인지 알려 주시겠어요?",
+   "en": "could you tell me",
+   "ex": {
+    "t": "请问，邮局在哪儿？",
+    "read": "Qǐngwèn, yóu jú zài nǎr?",
+    "ko": "우체국이 어디에 있는지 알려 주시겠어요?",
+    "en": "Could you tell me where the post office is?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "您知道……吗",
+   "pos": "phrase",
+   "read": "nín zhīdào … ma",
+   "ko": "~인지 아세요?",
+   "en": "do you know",
+   "ex": {
+    "t": "您知道图书馆在哪儿吗？",
+    "read": "Nín zhīdào túshūguǎn zài nǎr ma?",
+    "ko": "몇 시에 시작하는지 아세요?",
+    "en": "Do you know what time it starts?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "可以……吗",
+   "pos": "phrase",
+   "read": "kěyǐ … ma",
+   "ko": "~해도 될까요?",
+   "en": "would you mind",
+   "ex": {
+    "t": "我可以开窗户吗？",
+    "read": "Wǒ kěyǐ kāi chuānghu ma?",
+    "ko": "창문을 열어도 괜찮을까요?",
+    "en": "Would you mind if I opened the window?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "我想知道",
+   "pos": "phrase",
+   "read": "wǒ xiǎng zhīdào",
+   "ko": "~인지 궁금해요",
+   "en": "I was wondering",
+   "ex": {
+    "t": "我想知道几点开始。",
+    "read": "Wǒ xiǎng zhīdào jǐ diǎn kāishǐ.",
+    "ko": "혹시 도와주실 수 있을까 해서요.",
+    "en": "I was wondering if you could help me."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "是不是",
+   "pos": "conj",
+   "read": "shì bú shì",
+   "ko": "~인지 아닌지",
+   "en": "if",
+   "ex": {
+    "t": "你是不是住在首尔？",
+    "read": "Nǐ shì bú shì zhùzài Shǒu'ěr?",
+    "ko": "그가 올지 모르겠어요.",
+    "en": "I don't know if he'll come."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "对吧",
+   "pos": "phrase",
+   "read": "duì ba",
+   "ko": "그렇죠?",
+   "en": "isn't it",
+   "ex": {
+    "t": "今天很冷，对吧？",
+    "read": "Jīntiān hěn lěng, duì ba?",
+    "ko": "오늘 춥네요, 그렇죠?",
+    "en": "It's cold today, isn't it?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "难道不是",
+   "pos": "phrase",
+   "read": "nándào bú shì",
+   "ko": "그렇지 않나요?",
+   "en": "don't you",
+   "ex": {
+    "t": "这难道不是你的雨伞吗？",
+    "read": "Zhè nándào bú shì nǐ de yǔsǎn ma?",
+    "ko": "당신은 서울에 사시죠, 그렇지 않나요?",
+    "en": "You live in Seoul, don't you?"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "确认",
+   "pos": "verb",
+   "read": "quèrèn",
+   "ko": "확인하다",
+   "en": "confirm",
+   "ex": {
+    "t": "我想确认一下时间。",
+    "read": "Wǒ xiǎng quèrèn yíxià shíjiān.",
+    "ko": "제 예약을 확인해 주실 수 있나요?",
+    "en": "Can you confirm my reservation?"
+   }
+  },
+  {
+   "id": "v9",
+   "t": "礼貌",
+   "pos": "adj",
+   "read": "lǐmào",
+   "ko": "정중한",
+   "en": "polite",
+   "ex": {
+    "t": "他说话很礼貌。",
+    "read": "Tā shuōhuà hěn lǐmào.",
+    "ko": "그는 항상 정중하게 말해요.",
+    "en": "He always speaks politely."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "打扰一下",
+   "pos": "phrase",
+   "read": "dǎrǎo yíxià",
+   "ko": "실례합니다",
+   "en": "excuse me",
+   "ex": {
+    "t": "打扰一下，请问现在几点？",
+    "read": "Dǎrǎo yíxià, qǐngwèn xiànzài jǐ diǎn?",
+    "ko": "실례합니다, 이 자리 비어 있나요?",
+    "en": "Excuse me, is this seat free?"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "礼貌：请问、您知道……吗、可以……吗、对吧",
+   "en": "Politeness: 请问 / 您知道……吗 / 可以……吗 / 对吧"
+  },
+  "explain": {
+   "ko": "汉语里礼貌地问路或问信息，开头常说“请问”“打扰一下”，句末加“吗”：请问，邮局在哪儿？您知道几点开始吗？请求别人帮忙，用“能不能……”“可以……吗”：我可以开窗户吗？你能帮我一下吗？想确认对方是否同意，用“……，对吧？”“……，是不是？”：今天很冷，对吧？你住在首尔，对吧？",
+   "en": "To ask politely for directions or information, begin with 请问 or 打扰一下 and end with 吗: 请问，邮局在哪儿？ 您知道几点开始吗？ To ask for help use 能不能…… or 可以……吗: 我可以开窗户吗？你能帮我一下吗？ To check agreement use ……，对吧？ or ……，是不是？: 今天很冷，对吧？你住在首尔，对吧？"
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "问路 / Directions",
+     "请问＋地点＋在哪儿？",
+     "请问，邮局在哪儿？"
+    ],
+    [
+     "问信息 / Information",
+     "您知道……吗？",
+     "您知道几点开始吗？"
+    ],
+    [
+     "请求许可 / Permission",
+     "我可以……吗？",
+     "我可以开窗户吗？"
+    ],
+    [
+     "请求帮忙 / Help",
+     "你能……吗？",
+     "你能帮我一下吗？"
+    ],
+    [
+     "确认 / Check",
+     "……，对吧？",
+     "今天很冷，对吧？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“您”比“你”更礼貌，用在长辈或不熟的人。",
+    "en": "您 is more polite than 你 and is used for elders or strangers."
+   },
+   {
+    "ko": "“请问”放在句首，表示礼貌的提问。",
+    "en": "请问 at the start of a sentence marks a polite question."
+   },
+   {
+    "ko": "“对吧”放在句尾，期待对方说“对”。",
+    "en": "对吧 at the end expects the answer 对."
+   }
+  ],
+  "examples": [
+   {
+    "t": "请问邮局在哪儿？",
+    "read": "Qǐngwèn yóu jú zài nǎr?",
+    "ko": "우체국이 어디에 있는지 알려 주시겠어요?",
+    "en": "Could you tell me where the post office is?"
+   },
+   {
+    "t": "您知道几点开始吗？",
+    "read": "Nín zhīdào jǐ diǎn kāishǐ ma?",
+    "ko": "몇 시에 시작하는지 아세요?",
+    "en": "Do you know what time it starts?"
+   },
+   {
+    "t": "我想请您帮个忙。",
+    "read": "Wǒ xiǎng qǐng nín bāng gè máng.",
+    "ko": "도와주실 수 있을까 해서요.",
+    "en": "I was wondering if you could help me."
+   },
+   {
+    "t": "今天很冷，对吧？",
+    "read": "Jīntiān hěn lěng, duì ba?",
+    "ko": "오늘 춥네요, 그렇죠?",
+    "en": "It's cold today, isn't it?"
+   },
+   {
+    "t": "你住在首尔，对吧？",
+    "read": "Nǐ zhùzài Shǒu'ěr, duì ba?",
+    "ko": "당신은 서울에 사시죠, 그렇지 않나요?",
+    "en": "You live in Seoul, don't you?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "请问，你___邮局在哪儿吗？",
+    "options": [
+     "知道",
+     "喜欢",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我可以开窗户___？",
+    "options": [
+     "吗",
+     "了",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "今天很冷，___？",
+    "options": [
+     "对吧",
+     "对了",
+     "对着"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "请问，您能告诉我邮局在哪儿___？",
+    "options": [
+     "吗",
+     "了",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请问，你知道图书馆在哪儿吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 실례합니다, 도서관이 어디에 있는지 아세요?",
+     "en": "(Question) Excuse me, do you know where the library is?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "知道，在那边的拐角。",
+       "知道，我昨天去了。",
+       "是的，很大。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我可以开窗户吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 창문을 열어도 괜찮을까요?",
+     "en": "(Question) Would you mind if I opened the window?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "可以，开吧。",
+       "我昨天开了。",
+       "窗户很大。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请问，去博物馆的公共汽车几点来，您知道吗？"
+      },
+      {
+       "s": "B",
+       "t": "每十五分钟一趟。在那边的车站上车。"
+      },
+      {
+       "s": "A",
+       "t": "谢谢。您能告诉我车票多少钱吗？"
+      },
+      {
+       "s": "B",
+       "t": "付现金的话，两英镑。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 실례합니다, 박물관에 가는 버스가 몇 시에 오는지 아세요?\nB: 15분마다 와요. 저기 정류장에서 타세요.\nA: 감사합니다. 요금이 얼마인지도 알려 주시겠어요?\nB: 현금이면 2파운드예요.",
+     "en": "A: Excuse me, do you know what time the bus to the museum comes?\nB: Every fifteen minutes. You catch it at that stop over there.\nA: Thanks. Could you tell me how much the fare is?\nB: It's two pounds if you pay in cash."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "公共汽车多久来一趟？",
+      "options": [
+       "每十五分钟",
+       "每一个小时",
+       "每五分钟"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你好，这里是市政厅服务台。来访以前，请注意：办公室上午九点开门，下午五点关门。要停车的人，请在入口处问地下停车场在哪儿。材料可以亲自交，也可以邮寄。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요, 시청 안내 데스크입니다. 방문하시기 전에 알아 두세요. 사무실은 오전 9시에 열고 5시에 닫습니다. 주차를 하실 분은 지하 주차장이 어디에 있는지 입구에서 물어보세요. 서류는 직접 제출하셔도 되고 우편으로 보내셔도 됩니다.",
+     "en": "Hello, this is the City Hall information desk. Before you visit, please note that the office opens at nine and closes at five. If you want to park, ask at the entrance where the underground car park is. You can hand in your documents in person or send them by post."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "办公室几点关门？",
+      "options": [
+       "下午五点",
+       "上午九点",
+       "晚上七点"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "打扰一下，请问这附近有药店吗？"
+      },
+      {
+       "s": "B",
+       "t": "有，转过那个拐角就是。"
+      },
+      {
+       "s": "A",
+       "t": "您知道开到几点吗？"
+      },
+      {
+       "s": "B",
+       "t": "开到七点。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "손님: 실례합니다, 이 근처에 약국이 있는지 아세요?\n행인: 네, 저쪽 모퉁이를 돌면 있어요.\n손님: 몇 시까지 여는지도 아세요?\n행인: 일곱 시까지 열 거예요.",
+     "en": "Customer: Excuse me, do you know if there's a pharmacy near here?\nPasser-by: Yes, just round the corner.\nCustomer: Do you know what time it closes?\nPasser-by: It stays open until seven."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "转过那个______就是",
+      "answers": [
+       "拐角"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "开到______点",
+      "answers": [
+       "七"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 请问，您能告诉我邮局在哪儿___？\n2) 您知道几点开始___？\n3) 今天很冷，___？",
+    "trans": {
+     "ko": "1) 우체국이 어디에 있는지 알려 주시겠어요? 2) 몇 시에 시작하는지 아세요? 3) 오늘 춥네요, 그렇죠?",
+     "en": "1) Could you tell me where the post office is? 2) Do you know what time it starts? 3) It's cold today, isn't it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "请问，您能告诉我邮局在哪儿___？",
+      "options": [
+       "吗",
+       "了",
+       "过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "您知道几点开始___？",
+      "options": [
+       "吗",
+       "了",
+       "过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "今天很冷，___？",
+      "options": [
+       "对吧",
+       "对了",
+       "对着"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "您好，酒店负责人。我是下星期一订房的莎拉·李。请问(1)入住的时间是几点？我还想(2)酒店有没有停车场。(3)！",
+    "trans": {
+     "ko": "안녕하세요, 호텔 담당자님. 다음 주 월요일에 예약한 사라 리입니다. 체크인이 몇 시인지 알려 주실 수 있을까요? 그리고 호텔에 주차장이 있는지도 궁금합니다. 감사합니다.",
+     "en": "Dear Sir or Madam, I'm Sara Lee, and I have a booking for next Monday. Could you tell me what time check-in is? I was also wondering if the hotel has a car park. Thank you."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "能告诉我",
+       "不告诉我",
+       "没告诉我"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "知道",
+       "忘了",
+       "卖"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "谢谢您",
+       "对不起",
+       "没关系"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "礼貌请求的方法\n同一个请求，说法不同，给人的感觉很不一样。“开窗！”听起来像命令，而“你能开一下窗户吗？”就很礼貌。想说得更客气，可以说“不知道您介意不介意我开一下窗户？”。不直接问，而是说“请问，您知道……吗？”，也是一个很好的办法。",
+    "trans": {
+     "ko": "정중한 부탁의 기술\n영어에서는 같은 부탁도 말투에 따라 느낌이 크게 다릅니다. 'Open the window.'는 명령처럼 들리지만 'Could you open the window?'는 정중합니다. 더 조심스럽게 말하려면 'Would you mind opening the window?'를 쓸 수 있습니다. 직접 묻는 대신 'Do you know where …?'처럼 간접 질문을 쓰는 것도 좋은 방법입니다.",
+     "en": "THE ART OF POLITE REQUESTS\nIn English, the same request can sound very different depending on the wording. 'Open the window.' sounds like an order, while 'Could you open the window?' is polite. To be even more careful you can say 'Would you mind opening the window?' Using an indirect question such as 'Do you know where …?' is another good way to sound polite."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "“开窗！”听起来像什么？",
+      "options": [
+       "命令",
+       "请求",
+       "问候"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "更礼貌的说法是什么？",
+      "options": [
+       "你能开一下窗户吗？",
+       "快开窗！",
+       "开窗吧！"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "凯文在第一次去的城市迷路了。他走到一个路人面前，问最近的地铁站在哪儿。那个人很热心地告诉了他路，凯文说了谢谢。",
+    "trans": {
+     "ko": "케빈은 처음 간 도시에서 길을 잃었어요. 그는 행인에게 다가가 가장 가까운 지하철역이 어디에 있는지 물었어요. 그 사람은 친절하게 길을 알려 주었고, 케빈은 고맙다고 말했어요.",
+     "en": "Kevin got lost in a city he had never visited before. He went up to a passer-by and asked where the nearest underground station was. The man kindly gave him directions, and Kevin thanked him."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "凯文问了最近的地铁站在哪儿。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "路人不愿意告诉他。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "凯文最后坐了出租车。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "请问，你知道图书馆在哪儿吗？",
+    "read": "Qǐngwèn, nǐ zhīdào túshūguǎn zài nǎr ma?",
+    "ko": "실례합니다, 도서관이 어디에 있는지 아세요?",
+    "en": "Excuse me, do you know where the library is?",
+    "situation": {
+     "ko": "길을 물을 때",
+     "en": "Asking for directions"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "知道，在那边的拐角。",
+    "read": "Zhīdào, zài nà biān de guǎijiǎo.",
+    "ko": "저쪽 모퉁이에 있어요.",
+    "en": "It's on the corner over there.",
+    "situation": {
+     "ko": "길을 알려 줄 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我可以开窗户吗？",
+    "read": "Wǒ kěyǐ kāi chuānghu ma?",
+    "ko": "버스가 몇 시에 오는지 알려 주시겠어요?",
+    "en": "Could you tell me what time the bus comes?",
+    "situation": {
+     "ko": "정중하게 물을 때",
+     "en": "Asking politely"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "你能告诉我几点来车吗？",
+    "read": "Nǐ néng gàosu wǒ jǐ diǎn lái chē ma?",
+    "ko": "도와주실 수 있을까 해서요.",
+    "en": "I was wondering if you could help me.",
+    "situation": {
+     "ko": "부탁할 때",
+     "en": "Asking for help"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "今天天气真好，对吧？",
+    "read": "Jīntiān tiānqì zhēn hǎo, duì ba?",
+    "ko": "창문을 열어도 괜찮을까요?",
+    "en": "Would you mind if I opened the window?",
+    "situation": {
+     "ko": "허락을 구할 때",
+     "en": "Asking for permission"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "你是英语老师，对吧？",
+    "read": "Nǐ shì yīngyǔ lǎoshī, duì ba?",
+    "ko": "괜찮아요. 열어도 돼요.",
+    "en": "Not at all. Go ahead.",
+    "situation": {
+     "ko": "허락할 때",
+     "en": "Giving permission"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "您能帮我一下吗？",
+    "read": "Nín néng bāng wǒ yíxià ma?",
+    "ko": "오늘 날씨 좋네요, 그렇죠?",
+    "en": "Lovely weather today, isn't it?",
+    "situation": {
+     "ko": "대화를 시작할 때",
+     "en": "Starting a conversation"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "打扰一下，请问现在几点？",
+    "read": "Dǎrǎo yíxià, qǐngwèn xiànzài jǐ diǎn?",
+    "ko": "당신은 영어 선생님이시죠, 아닌가요?",
+    "en": "You're an English teacher, aren't you?",
+    "situation": {
+     "ko": "확인할 때",
+     "en": "Checking information"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "请问，……在哪儿？",
+    "read": "Qǐngwèn, … zài nǎr?",
+    "ko": "~가 어디에 있는지 알려 주시겠어요?",
+    "en": "Could you tell me where ~ is?"
+   },
+   {
+    "id": "w2",
+    "t": "您知道……吗？",
+    "read": "Nín zhīdào … ma?",
+    "ko": "~인지 아세요?",
+    "en": "Do you know if ~?"
+   },
+   {
+    "id": "w3",
+    "t": "我可以……吗？",
+    "read": "Wǒ kěyǐ … ma?",
+    "ko": "~해도 괜찮을까요?",
+    "en": "Would you mind if I ~?"
+   },
+   {
+    "id": "w4",
+    "t": "……，对吧？",
+    "read": "…, Duì ba?",
+    "ko": "~죠, 그렇지 않나요?",
+    "en": "~, isn't it? / ~, don't you?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "정중한 말로 3문장을 써 보세요: 길이나 시간을 묻는 간접 질문, 허락 구하기, 부가 의문문 하나.",
+    "en": "Write 3 polite sentences: an indirect question about directions or time, a request for permission, and a sentence with a question tag."
+   },
+   "must_include": [
+    {
+     "label": "请问～在哪儿",
+     "match": [
+      "请问",
+      "在哪儿"
+     ]
+    },
+    {
+     "label": "可以～吗",
+     "match": [
+      "可以",
+      "吗"
+     ]
+    },
+    {
+     "label": "对吧",
+     "match": [
+      "对吧"
+     ]
+    }
+   ],
+   "model": "请问，火车站在哪儿，您能告诉我吗？我可以开窗户吗？今天真热，对吧？",
+   "model_trans": {
+    "ko": "실례합니다, 기차역이 어디에 있는지 알려 주시겠어요? 제가 창문을 열어도 괜찮을까요? 오늘 정말 덥네요, 그렇죠?",
+    "en": "Excuse me, could you tell me where the station is? Would you mind if I opened the window? It's really hot today, isn't it?"
+   }
+  }
+ }
+}

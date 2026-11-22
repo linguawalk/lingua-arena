@@ -1,0 +1,842 @@
+{
+ "meta": {
+  "id": "zh_b1_u10",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 10,
+  "concept": "B1.U10",
+  "status": "live",
+  "title": {
+   "target": "被动句",
+   "ko": "수동태",
+   "en": "The passive"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "制造",
+   "pos": "verb",
+   "read": "zhìzào",
+   "ko": "만들다 · 생산하다",
+   "en": "produce",
+   "ex": {
+    "t": "这些手机是在中国制造的。",
+    "read": "Zhèxiē shǒujī shì zài Zhōngguó zhìzào de.",
+    "ko": "이 차는 독일에서 생산돼요.",
+    "en": "This car is produced in Germany."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "建造",
+   "pos": "verb",
+   "read": "jiànzào",
+   "ko": "짓다 · 건설하다",
+   "en": "build",
+   "ex": {
+    "t": "这座桥是一百多年前建造的。",
+    "read": "Zhè zuò qiáo shì yìbǎi duō nián qián jiànzào de.",
+    "ko": "다리는 1998년에 지어졌어요.",
+    "en": "The bridge was built in 1998."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "发明",
+   "pos": "verb",
+   "read": "fāmíng",
+   "ko": "발명하다",
+   "en": "invent",
+   "ex": {
+    "t": "电话是谁发明的？",
+    "read": "Diànhuà shì shéi fāmíng de?",
+    "ko": "전화는 벨이 발명했어요.",
+    "en": "The telephone was invented by Bell."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "偷",
+   "pos": "verb",
+   "read": "tōu",
+   "ko": "훔치다",
+   "en": "steal",
+   "ex": {
+    "t": "我的钱包被偷了。",
+    "read": "Wǒ de qiánbāo bèi tōu le.",
+    "ko": "어젯밤 제 자전거를 도난당했어요.",
+    "en": "My bike was stolen last night."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "修理",
+   "pos": "verb",
+   "read": "xiūlǐ",
+   "ko": "수리하다",
+   "en": "repair",
+   "ex": {
+    "t": "我的电脑正在修理。",
+    "read": "Wǒ de diànnǎo zhèngzài xiūlǐ.",
+    "ko": "제 노트북은 이번 주에 수리돼요.",
+    "en": "My laptop is being repaired this week."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "送",
+   "pos": "verb",
+   "read": "sòng",
+   "ko": "배달하다",
+   "en": "deliver",
+   "ex": {
+    "t": "包裹明天会送到。",
+    "read": "Bāo guǒ míngtiān huì sòng dào.",
+    "ko": "소포는 내일 배달될 거예요.",
+    "en": "The parcel will be delivered tomorrow."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "取消",
+   "pos": "verb",
+   "read": "qǔxiāo",
+   "ko": "취소하다",
+   "en": "cancel",
+   "ex": {
+    "t": "航班被取消了。",
+    "read": "Hángbān bèi qǔxiāo le.",
+    "ko": "폭풍 때문에 비행기가 취소됐어요.",
+    "en": "The flight has been cancelled because of the storm."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "举办",
+   "pos": "verb",
+   "read": "jǔbàn",
+   "ko": "개최하다",
+   "en": "hold",
+   "ex": {
+    "t": "运动会由学校举办。",
+    "read": "Yùndòng huì yóu xuéxiào jǔbàn.",
+    "ko": "올림픽은 4년마다 열려요.",
+    "en": "The Olympics are held every four years."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "发现",
+   "pos": "verb",
+   "read": "fāxiàn",
+   "ko": "발견하다",
+   "en": "discover",
+   "ex": {
+    "t": "这幅画是在阁楼里发现的。",
+    "read": "Zhè fú huà shì zài gélóu lǐ fāxiàn de.",
+    "ko": "그 그림은 다락방에서 발견됐어요.",
+    "en": "The painting was discovered in an attic."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "生产",
+   "pos": "phrase",
+   "read": "shēngchǎn",
+   "ko": "제조된",
+   "en": "made of",
+   "ex": {
+    "t": "这种茶是在云南生产的。",
+    "read": "Zhè zhǒng chá shì zài Yúnnán shēngchǎn de.",
+    "ko": "이 의자는 목재로 만들어졌어요.",
+    "en": "This chair is made of wood."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "被动：被、是……的、由……",
+   "en": "Passive: 被 / 是……的 / 由……"
+  },
+  "explain": {
+   "ko": "汉语的被动句常用“被”，表示主语受到影响，常有不好的结果：我的自行车昨晚被偷了。说东西在哪儿、什么时候、怎样做出来，用“是……的”：这辆车是在德国生产的。说将来要发生的事用“会……”或者“将”：包裹明天会送到。说谁做的用“由”或者“被”后面接人：运动会由学校举办。没有说明谁做的，航班被取消了。",
+   "en": "Chinese passives often use 被, showing the subject is affected, often badly: 我的自行车昨晚被偷了. For where, when or how something was made use 是……的: 这辆车是在德国生产的. A future event uses 会……: 包裹明天会送到. The agent is introduced by 由 or by a person after 被: 运动会由学校举办. With no agent, 航班被取消了。"
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "受影响 / Affected",
+     "被＋动词＋了",
+     "我的自行车昨晚被偷了。"
+    ],
+    [
+     "制造 / Made",
+     "是……的",
+     "这辆车是在德国生产的。"
+    ],
+    [
+     "将来 / Future",
+     "会……",
+     "包裹明天会送到。"
+    ],
+    [
+     "谁做的 / By whom",
+     "由＋人＋动词",
+     "运动会由学校举办。"
+    ],
+    [
+     "取消 / Cancelled",
+     "被取消了",
+     "航班被取消了。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“被”后面的动词常常带“了”或者结果，不能只是一个光杆动词。",
+    "en": "The verb after 被 usually takes 了 or a result and is not bare."
+   },
+   {
+    "ko": "“是……的”强调时间、地点、方式，说的是过去的事。",
+    "en": "是……的 stresses time, place or manner of a past event."
+   },
+   {
+    "ko": "没有不好的结果时，常常不用“被”，用“是……的”。",
+    "en": "Without a bad result 是……的 is often used instead of 被."
+   }
+  ],
+  "examples": [
+   {
+    "t": "这辆车是在德国生产的。",
+    "read": "Zhè liàng chē shì zài Déguó shēngchǎn de.",
+    "ko": "이 차는 독일에서 생산돼요.",
+    "en": "This car is made in Germany."
+   },
+   {
+    "t": "我的自行车昨晚被偷了。",
+    "read": "Wǒ de zìxíngchē zuówǎn bèi tōu le.",
+    "ko": "제 자전거는 어젯밤에 도난당했어요.",
+    "en": "My bike was stolen last night."
+   },
+   {
+    "t": "包裹明天会送到。",
+    "read": "Bāo guǒ míngtiān huì sòng dào.",
+    "ko": "소포는 내일 배달될 거예요.",
+    "en": "The parcel will be delivered tomorrow."
+   },
+   {
+    "t": "航班因为暴风雨被取消了。",
+    "read": "Hángbān yīnwèi bàofēng yǔ bèi qǔxiāo le.",
+    "ko": "비행기는 폭풍 때문에 취소됐어요.",
+    "en": "The flight has been cancelled because of the storm."
+   },
+   {
+    "t": "那座桥是一九九八年建的。",
+    "read": "Nà zuò qiáo shì yì jiǔ jiǔ bā nián jiàn de.",
+    "ko": "그 다리는 1998년에 지어졌어요.",
+    "en": "The bridge was built in 1998."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "这辆车___在德国生产的。",
+    "options": [
+     "是",
+     "被",
+     "把"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我的自行车昨晚___偷了。",
+    "options": [
+     "被",
+     "是",
+     "把"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "包裹明天___送到。",
+    "options": [
+     "会",
+     "被",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "航班因为暴风雨___取消了。",
+    "options": [
+     "被",
+     "把",
+     "在"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这部手机是在哪儿生产的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 휴대폰은 어디에서 만들어졌어요?",
+     "en": "(Question) Where is this phone made?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "是在中国生产的。",
+       "是的，我买了。",
+       "明天会送到。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "包裹什么时候送到？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 소포는 언제 배달돼요?",
+     "en": "(Question) When will the parcel be delivered?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "明天会送到。",
+       "是在德国生产的。",
+       "我的车被偷了。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这里是警察局，请问有什么事？"
+      },
+      {
+       "s": "B",
+       "t": "我的车被偷了。昨天晚上我把车停在家门口。"
+      },
+      {
+       "s": "A",
+       "t": "是什么车？"
+      },
+      {
+       "s": "B",
+       "t": "蓝色的福特，是前年生产的。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 경찰서입니다. 무슨 일이세요?\nB: 제 차를 도난당했어요. 어젯밤 집 앞에 세워 뒀거든요.\nA: 차종이 어떻게 되죠?\nB: 파란색 포드이고 2019년에 생산된 거예요.",
+     "en": "A: Police station. How can I help?\nB: My car has been stolen. I left it outside my house last night.\nA: What make is it?\nB: It's a blue Ford, and it was made in 2019."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "被偷的车是什么颜色？",
+      "options": [
+       "蓝色",
+       "红色",
+       "白色"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这种葡萄酒产于法国南部的一个小农场。葡萄在九月用手采摘，装进橡木桶，存放十八个月。酒每年十月出口到十个国家。今年的收成因为暴风雨受到了一些损失，但是质量没有受到影响。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 와인은 프랑스 남부의 작은 농장에서 생산됩니다. 포도는 9월에 손으로 수확되어 오크통에 담긴 뒤 18개월 동안 숙성됩니다. 병은 매년 10월에 열 개 나라로 수출됩니다. 올해의 수확은 폭풍 때문에 일부 손상되었지만 품질에는 영향이 없었습니다.",
+     "en": "This wine is produced on a small farm in the south of France. The grapes are picked by hand in September, then stored in oak barrels for eighteen months. The bottles are exported to ten countries every October. This year's harvest was partly damaged by a storm, but the quality hasn't been affected."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "葡萄是什么时候采摘的？",
+      "options": [
+       "九月",
+       "十月",
+       "十八个月以后"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这里是客户服务中心。"
+      },
+      {
+       "s": "B",
+       "t": "我订的书还没送到。"
+      },
+      {
+       "s": "A",
+       "t": "请告诉我订单号。"
+      },
+      {
+       "s": "B",
+       "t": "好的，订单号是四七二九一。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 고객 센터입니다.\n손님: 주문한 책이 아직 배달되지 않았어요.\n직원: 주문 번호를 말씀해 주시겠어요?\n손님: 네, 4-7-2-9-1입니다.",
+     "en": "Agent: Customer service.\nCustomer: The book I ordered hasn't been delivered yet.\nAgent: Could I have your order number?\nCustomer: Yes, it's 47291."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "订的东西：______",
+      "answers": [
+       "书"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "订单号：______",
+      "answers": [
+       "四七二九一"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 这辆车___在德国生产的。\n2) 昨天晚上我的自行车___偷了。\n3) 包裹明天___送到。",
+    "trans": {
+     "ko": "1) 이 차는 독일에서 만들어져요. 2) 어젯밤 제 자전거를 도난당했어요. 3) 소포는 내일 배달될 거예요.",
+     "en": "1) This car is made in Germany. 2) My bike was stolen last night. 3) The parcel will be delivered tomorrow."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这辆车___在德国生产的。",
+      "options": [
+       "是",
+       "被",
+       "把"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "昨天晚上我的自行车___偷了。",
+      "options": [
+       "被",
+       "是",
+       "把"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "包裹明天___送到。",
+      "options": [
+       "会",
+       "被",
+       "过"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "尼克你好！有个坏消息。昨天在地铁上我的钱包(1)了。银行卡已经停了，新卡下星期会(2)过来。我也已经向(3)报了案。",
+    "trans": {
+     "ko": "안녕, 닉! 나쁜 소식이야. 어제 지하철에서 지갑을 도난당했어. 은행 카드는 이미 정지됐고, 새 카드는 다음 주에 보내질 거야. 경찰에도 신고했어.",
+     "en": "Hi Nick, Bad news. My wallet was stolen on the underground yesterday. My bank card has already been cancelled, and a new one will be sent next week. I've also reported it to the police."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "被偷",
+       "被送",
+       "被买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "寄",
+       "偷",
+       "丢"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "警察",
+       "银行",
+       "邻居"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "镇上消息\n老市场广场从本月起开始整修。新的地面将用当地的石头铺成，工程预计八月结束。在这期间，星期六的市场在市政厅前面举行。对施工噪音有意见的，请寄给市政厅。",
+    "trans": {
+     "ko": "마을 소식\n오래된 시장 광장은 이번 달부터 보수 공사 중입니다. 새 바닥은 지역 석재로 만들어지며 공사는 8월에 끝날 예정입니다. 그동안 토요일 시장은 시청 앞에서 열립니다. 공사 소음에 대한 불편 사항은 시청으로 보내 주세요.",
+     "en": "VILLAGE NEWS\nThe old market square is being repaired this month. The new floor will be made from local stone, and the work is expected to be finished in August. In the meantime, the Saturday market is held outside the town hall. Complaints about noise should be sent to the council."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "新的地面用什么铺成？",
+      "options": [
+       "当地的石头",
+       "木头",
+       "水泥"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "星期六的市场在哪儿举行？",
+      "options": [
+       "市政厅前面",
+       "老广场",
+       "公园"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "这座桥建于一八九五年，两年前第一次大规模修理。今天每天大约有两万人从桥上走过。下个月路灯会被换成新的。",
+    "trans": {
+     "ko": "이 다리는 1895년에 지어졌고 2년 전에 처음으로 대대적으로 수리되었어요. 오늘날에는 하루에 약 2만 명이 이용해요. 다음 달에는 가로등이 새것으로 교체될 예정이에요.",
+     "en": "The bridge was built in 1895 and was repaired for the first time two years ago. Today it is used by about twenty thousand people a day. Next month, the street lights will be replaced with new ones."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "这座桥两年前修理过。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "这座桥每天有一千人使用。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "这座桥是用石头建的。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "这部手机是在哪儿生产的？",
+    "read": "Zhè bù shǒujī shì zài nǎr shēngchǎn de?",
+    "ko": "이 휴대폰은 어디에서 만들어졌어요?",
+    "en": "Where is this phone made?",
+    "situation": {
+     "ko": "생산지를 물을 때",
+     "en": "Asking where something is made"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "是在中国生产的。",
+    "read": "Shì zài Zhōngguó shēngchǎn de.",
+    "ko": "중국에서 만들어졌어요.",
+    "en": "It's made in China.",
+    "situation": {
+     "ko": "일반적 사실을 말할 때",
+     "en": "Stating a general fact"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我的钱包被偷了。",
+    "read": "Wǒ de qiánbāo bèi tōu le.",
+    "ko": "제 지갑을 도난당했어요.",
+    "en": "My wallet was stolen.",
+    "situation": {
+     "ko": "피해를 신고할 때",
+     "en": "Reporting a crime"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "什么时候被偷的？",
+    "read": "Shénme shíhou bèi tōu de?",
+    "ko": "언제 도난당했어요?",
+    "en": "When was it stolen?",
+    "situation": {
+     "ko": "시점을 물을 때",
+     "en": "Asking when"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "包裹什么时候送到？",
+    "read": "Bāo guǒ shénme shíhou sòng dào?",
+    "ko": "소포는 언제 배달돼요?",
+    "en": "When will the parcel be delivered?",
+    "situation": {
+     "ko": "미래를 물을 때",
+     "en": "Asking about the future"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "航班被取消了。",
+    "read": "Hángbān bèi qǔxiāo le.",
+    "ko": "비행기가 취소됐어요.",
+    "en": "The flight has been cancelled.",
+    "situation": {
+     "ko": "최근 결과를 말할 때",
+     "en": "Reporting a recent result"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我的电脑正在修理。",
+    "read": "Wǒ de diànnǎo zhèngzài xiūlǐ.",
+    "ko": "제 컴퓨터는 지금 수리 중이에요.",
+    "en": "My computer is being repaired.",
+    "situation": {
+     "ko": "진행 중인 일을 말할 때",
+     "en": "Saying it is in progress"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "这部电影是谁拍的？",
+    "read": "Zhè bù diànyǐng shì shéi pāi de?",
+    "ko": "그 영화는 누가 감독했어요?",
+    "en": "Who was the film directed by?",
+    "situation": {
+     "ko": "행위자를 물을 때",
+     "en": "Asking who did it"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……是在……生产的。",
+    "read": "… Shì zài … shēngchǎn de.",
+    "ko": "~는 ~에서 만들어져요.",
+    "en": "~ is made in ~."
+   },
+   {
+    "id": "w2",
+    "t": "我的……被偷了。",
+    "read": "Wǒ de … bèi tōu le.",
+    "ko": "~는 ~에 도난당했어요.",
+    "en": "~ was stolen ~."
+   },
+   {
+    "id": "w3",
+    "t": "……明天会送到。",
+    "read": "… Míngtiān huì sòng dào.",
+    "ko": "~는 ~에 배달될 거예요.",
+    "en": "~ will be delivered ~."
+   },
+   {
+    "id": "w4",
+    "t": "……被取消了。",
+    "read": "… Bèi qǔxiāo le.",
+    "ko": "~는 취소됐어요.",
+    "en": "~ has been cancelled."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "수동태로 3문장을 써 보세요: 물건이 만들어지는 곳, 최근 도난당하거나 고장 난 것, 앞으로 배달되거나 수리될 것.",
+    "en": "Write 3 passive sentences: where something is made, something that was lost or damaged recently, and something that will be delivered or repaired."
+   },
+   "must_include": [
+    {
+     "label": "是～生产的",
+     "match": [
+      "生产的",
+      "制造的",
+      "做的"
+     ]
+    },
+    {
+     "label": "被偷了",
+     "match": [
+      "被偷了",
+      "被偷"
+     ]
+    },
+    {
+     "label": "会送到",
+     "match": [
+      "会送到",
+      "会"
+     ]
+    }
+   ],
+   "model": "这个包是在意大利做的。我的钱包昨天被偷了。新手机明天会送到。",
+   "model_trans": {
+    "ko": "이 가방은 이탈리아에서 만들어져요. 제 지갑을 어제 도난당했어요. 새 휴대폰은 내일 배달될 거예요.",
+    "en": "This bag is made in Italy. My wallet was stolen yesterday. My new phone will be delivered tomorrow."
+   }
+  }
+ }
+}

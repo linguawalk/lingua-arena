@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "zh_b1_u08",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 8,
+  "concept": "B1.U08",
+  "status": "live",
+  "title": {
+   "target": "猜测和判断",
+   "ko": "추측하고 판단하기",
+   "en": "Guessing and deducing"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "一定是",
+   "pos": "phrase",
+   "read": "yí dìng shì",
+   "ko": "~임에 틀림없다",
+   "en": "must be",
+   "ex": {
+    "t": "他一定是累了。",
+    "read": "Tā yí dìng shì lèi le.",
+    "ko": "그렇게 긴 비행 뒤라 그는 피곤한 게 틀림없어요.",
+    "en": "He must be tired after such a long flight."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "也许",
+   "pos": "phrase",
+   "read": "yě xǔ",
+   "ko": "~일지도 모른다",
+   "en": "might be",
+   "ex": {
+    "t": "他也许在开会。",
+    "read": "Tā yě xǔ zài kāi huì.",
+    "ko": "그녀는 도서관에 있을지도 몰라요.",
+    "en": "She might be at the library."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "可能",
+   "pos": "phrase",
+   "read": "kěnéng",
+   "ko": "~일 수도 있다",
+   "en": "could be",
+   "ex": {
+    "t": "这可能是山姆的雨伞。",
+    "read": "Zhè kěnéng shì Shānmǔ de yǔsǎn.",
+    "ko": "그게 정답일 수도 있어요.",
+    "en": "That could be the answer."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "不可能",
+   "pos": "phrase",
+   "read": "bù kěnéng",
+   "ko": "~일 리가 없다",
+   "en": "can't be",
+   "ex": {
+    "t": "这不可能是真的。",
+    "read": "Zhè bù kěnéng shì zhēn de.",
+    "ko": "톰일 리가 없어요. 휴가 중이거든요.",
+    "en": "It can't be Tom. He's on holiday."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "显然",
+   "pos": "adv",
+   "read": "xiǎnrán",
+   "ko": "분명히",
+   "en": "obviously",
+   "ex": {
+    "t": "显然他已经走了。",
+    "read": "Xiǎnrán tā yǐjīng zǒu le.",
+    "ko": "그녀는 분명히 화가 났어요.",
+    "en": "She's obviously upset."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "大概",
+   "pos": "adv",
+   "read": "dàgài",
+   "ko": "아마",
+   "en": "probably",
+   "ex": {
+    "t": "她大概忘了。",
+    "read": "Tā dàgài wàng le.",
+    "ko": "그들은 아마 아직 직장에 있을 거예요.",
+    "en": "They're probably still at work."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "看起来",
+   "pos": "verb",
+   "read": "kànqǐlái",
+   "ko": "~처럼 보이다",
+   "en": "seem",
+   "ex": {
+    "t": "她看起来很累。",
+    "read": "Tā kànqǐlái hěn lèi.",
+    "ko": "걱정이 있어 보이네요. 무슨 일이에요?",
+    "en": "You seem worried. What's wrong?"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "证据",
+   "pos": "noun",
+   "read": "zhèngjù",
+   "ko": "증거",
+   "en": "evidence",
+   "ex": {
+    "t": "我们没有证据。",
+    "read": "Wǒmen méiyǒu zhèngjù.",
+    "ko": "그가 가져갔다는 증거는 없어요.",
+    "en": "There's no evidence that he took it."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "肯定",
+   "pos": "adj",
+   "read": "kěndìng",
+   "ko": "확신하는",
+   "en": "certain",
+   "ex": {
+    "t": "我肯定他在家。",
+    "read": "Wǒ kěndìng tā zài jiā.",
+    "ko": "그녀가 문을 잠근 건 확실해요.",
+    "en": "I'm certain she locked the door."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "猜",
+   "pos": "verb",
+   "read": "cāi",
+   "ko": "추측하다",
+   "en": "guess",
+   "ex": {
+    "t": "你猜他在哪儿？",
+    "read": "Nǐ cāi tā zài nǎr?",
+    "ko": "제 추측엔 그는 마흔 살쯤이에요.",
+    "en": "I'd guess he's about forty."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "猜测：一定、可能、也许、不可能",
+   "en": "Speculation: 一定 / 可能 / 也许 / 不可能"
+  },
+  "explain": {
+   "ko": "很有把握的猜测用“一定”：他工作了一整天，一定很累。没有把握的猜测用“可能”或“也许”：他也许在健身房。认为不可能的事，用“不可能”：她很仔细，不可能忘了。猜测过去的事，在动词后面加“了”：他们一定睡了。说“看起来”表示根据外表判断：她看起来很累。汉语没有表示猜测的特别形式，靠这些副词和语气来表达。",
+   "en": "A confident guess uses 一定: 他工作了一整天，一定很累. An unsure guess uses 可能 or 也许: 他也许在健身房. Something judged impossible uses 不可能: 她很仔细，不可能忘了. A guess about the past puts 了 after the verb: 他们一定睡了. 看起来 judges from appearance: 她看起来很累. Chinese has no special verb form for speculation; these adverbs carry it."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "很有把握 / Certain",
+     "一定＋动词",
+     "他一定累了。"
+    ],
+    [
+     "没有把握 / Possible",
+     "可能 · 也许＋动词",
+     "他也许在健身房。"
+    ],
+    [
+     "不可能 / Impossible",
+     "不可能＋动词",
+     "她不可能忘了。"
+    ],
+    [
+     "过去的猜测 / Past guess",
+     "一定＋动词＋了",
+     "他们一定睡了。"
+    ],
+    [
+     "看起来 / Looks like",
+     "看起来＋形容词",
+     "她看起来很累。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“一定”后面接肯定的判断，“不可能”后面接否定的判断。",
+    "en": "一定 is followed by a positive judgement, 不可能 by a negative one."
+   },
+   {
+    "ko": "“也许”和“可能”可以放在句首。",
+    "en": "也许 and 可能 can go at the start of a sentence."
+   },
+   {
+    "ko": "“肯定”可以代替“一定”，语气更强。",
+    "en": "肯定 can replace 一定 with a stronger tone."
+   }
+  ],
+  "examples": [
+   {
+    "t": "他工作了一整天，一定很累。",
+    "read": "Tā gōngzuò le yìzhěngtiān, yí dìng hěn lèi.",
+    "ko": "그는 하루 종일 일했어요. 피곤한 게 틀림없어요.",
+    "en": "He's been working all day. He must be exhausted."
+   },
+   {
+    "t": "那不可能是安娜，她这个星期在巴黎。",
+    "read": "Nà bù kěnéng shì Ānnà, tā zhège xīngqī zài Bālí.",
+    "ko": "저 사람은 애나일 리 없어요. 이번 주에 파리에 있거든요.",
+    "en": "That can't be Anna. She's in Paris this week."
+   },
+   {
+    "t": "我不知道汤姆在哪儿，他也许在健身房。",
+    "read": "Wǒ bù zhīdào Tāngmǔ zài nǎr, tā yě xǔ zài jiànshēnfáng.",
+    "ko": "톰이 어디 있는지 모르겠어요. 헬스장에 있을지도 몰라요.",
+    "en": "I don't know where Tom is. He might be at the gym."
+   },
+   {
+    "t": "灯关着，他们一定睡了。",
+    "read": "Dēng guān zhe, tāmen yí dìng shuì le.",
+    "ko": "불이 꺼져 있어요. 그들은 잠자리에 든 게 틀림없어요.",
+    "en": "The lights are off. They must have gone to bed."
+   },
+   {
+    "t": "她很仔细，不可能忘了。",
+    "read": "Tā hěn zǐxì, bù kěnéng wàng le.",
+    "ko": "그녀는 아주 꼼꼼해요. 잊었을 리가 없어요.",
+    "en": "She's very organised. She can't have forgotten."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "他工作了一整天，___很累。",
+    "options": [
+     "一定",
+     "不可能",
+     "没有"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "那___是安娜，她这个星期在巴黎。",
+    "options": [
+     "不可能",
+     "一定",
+     "也许"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我不知道汤姆在哪儿，他___在健身房。",
+    "options": [
+     "也许",
+     "不可能",
+     "没有"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "灯关着，他们一定___了。",
+    "options": [
+     "睡",
+     "睡着",
+     "睡过"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "马克为什么不接电话？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 마크는 왜 전화를 안 받을까요?",
+     "en": "(Question) Why isn't Mark answering his phone?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "他也许在开会。",
+       "他昨天打了。",
+       "他的电话很贵。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这把雨伞是谁的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 우산은 누구 거예요?",
+     "en": "(Question) Whose umbrella is this?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "也许是山姆的。",
+       "我昨天买了。",
+       "是的，下雨了。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "办公室的灯还亮着，一定有人在加班。"
+      },
+      {
+       "s": "B",
+       "t": "不可能是露丝，她今天早上去度假了。"
+      },
+      {
+       "s": "A",
+       "t": "那也许是打扫卫生的人。"
+      },
+      {
+       "s": "B",
+       "t": "也有可能。我们去看看吧。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 사무실에 불이 켜져 있어. 누가 늦게까지 일하고 있는 게 틀림없어.\nB: 루스일 리는 없어. 오늘 아침에 휴가를 떠났거든.\nA: 그럼 청소하는 분일지도 몰라.\nB: 그럴 수도 있겠다. 가서 보자.",
+     "en": "A: There's a light on in the office. Someone must be working late.\nB: It can't be Ruth. She went on holiday this morning.\nA: Then it might be the cleaner.\nB: Maybe. Let's go and see."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "为什么不可能是露丝？",
+      "options": [
+       "她去度假了",
+       "她生病了",
+       "她已经走了很久"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这幅画是十年前在阁楼里发现的。画家不详，但专家认为，从画风和纸张来看，它一定是十七世纪的作品。签名检测表明，它不可能是仿品。有些历史学家认为，它也许出自荷兰画家之手，但目前还没有证据。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 그림은 2010년에 다락방에서 발견되었습니다. 화가는 알려져 있지 않지만, 전문가들은 화풍과 종이를 보면 17세기 작품임이 틀림없다고 봅니다. 서명 검사 결과 모작일 리는 없습니다. 일부 역사학자는 네덜란드 화가의 작품일 수도 있다고 생각하지만 아직 증거는 없습니다.",
+     "en": "This painting was found in an attic in 2010. The artist is unknown, but experts believe it must be from the seventeenth century because of the style and the paper. It can't be a copy, as the signature has been tested. Some historians think it could be by a Dutch painter, but there is still no proof."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "专家认为这幅画是什么时候的？",
+      "options": [
+       "十七世纪",
+       "十九世纪",
+       "二十世纪"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "失物招领处，你好。"
+      },
+      {
+       "s": "B",
+       "t": "我的手机丢了。可能落在出租车上了。"
+      },
+      {
+       "s": "A",
+       "t": "手机是什么样的？"
+      },
+      {
+       "s": "B",
+       "t": "是黑色的诺基亚，有一个绿色的手机壳。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 분실물 센터입니다.\n전화한 사람: 휴대폰을 잃어버렸어요. 택시에 두고 내렸을지도 몰라요.\n직원: 어떻게 생겼나요?\n전화한 사람: 초록색 케이스를 씌운 검은색 노키아예요. 번호는 07700 900123이에요.",
+     "en": "Clerk: Lost property.\nCaller: I've lost my phone. I think I might have left it in a taxi.\nClerk: What does it look like?\nCaller: It's a black Nokia with a green case. My number's 07700 900123."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "可能落在了______上",
+      "answers": [
+       "出租车"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "黑色的手机，______手机壳",
+      "answers": [
+       "绿色的"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 她从四点起一直醒着，___很累。\n2) 那___是真的。谁也做不到！\n3) 我找不到钥匙，___落在公司了。",
+    "trans": {
+     "ko": "1) 그녀는 네 시부터 깨어 있었어요. 피곤한 게 틀림없어요. 2) 그건 사실일 리가 없어요. 아무도 그렇게 할 수 없거든요! 3) 열쇠를 못 찾겠어요. 직장에 두고 왔을지도 몰라요.",
+     "en": "1) She has been up since four. She must be exhausted. 2) It can't be true. Nobody could do that! 3) I can't find my keys. I might have left them at work."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "她从四点起一直醒着，___很累。",
+      "options": [
+       "一定",
+       "不可能",
+       "没有"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "那___是真的。谁也做不到！",
+      "options": [
+       "不可能",
+       "一定",
+       "也许"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我找不到钥匙，___落在公司了。",
+      "options": [
+       "可能",
+       "不可能",
+       "一定不"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好，露！我不知道帕特昨晚为什么没来。他昨天看起来脸色不好，(1)是病了。他非常仔细，(2)忘了。也(3)是堵车，他家离这儿只有五分钟。",
+    "trans": {
+     "ko": "안녕, 루! 팻이 어젯밤에 왜 안 왔는지 모르겠어. 어제 창백해 보였으니 아팠던 게 틀림없어. 아주 꼼꼼한 사람이라 잊었을 리는 없어. 교통 체증일 수도 없어. 집이 5분 거리거든.",
+     "en": "Hi Lou, I don't know why Pat didn't come last night. She must be ill — she looked pale yesterday. She can't have forgotten, because she's so organised. And it can't be traffic — she lives five minutes away."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "一定",
+       "不可能",
+       "没有"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "不可能",
+       "一定",
+       "也许"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "不可能",
+       "一定",
+       "已经"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "消失的蛋糕\n同事们吃完午饭回来，发现办公室厨房里的生日蛋糕不见了。门是锁着的，所以不可能是外面的人。有钥匙的只有四个人。凯特在休假，所以不可能是她。经理上午一直在开会。一定是丹或者普里娅。",
+    "trans": {
+     "ko": "사라진 케이크의 수수께끼\n직원들이 점심시간에서 돌아왔을 때 사무실 주방에 있던 생일 케이크가 사라져 있었습니다. 문은 잠겨 있었으므로 외부인이었을 리는 없습니다. 열쇠를 가진 사람은 네 명뿐입니다. 케이트는 휴가 중이었으니 그녀일 리는 없습니다. 매니저는 오전 내내 회의 중이었습니다. 댄이나 프리야였던 게 틀림없습니다.",
+     "en": "MYSTERY OF THE MISSING CAKE\nWhen the staff returned from lunch, the birthday cake had disappeared from the office kitchen. The door was locked, so it can't have been a stranger. Only four people have keys. Kate was on holiday, so it can't have been her. The manager was in a meeting all morning. It must have been either Dan or Priya."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "为什么不可能是外面的人？",
+      "options": [
+       "门是锁着的",
+       "他们都在开会",
+       "没有人来过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "为什么不可能是凯特？",
+      "options": [
+       "她在休假",
+       "她没有钥匙",
+       "她在开会"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "米尔巷的那栋旧房子空了很多年，上个星期邻居们看见楼上的窗户亮着灯。有人说一定是春天买下这栋房子的新主人，也有人说也许是在找便宜住处的学生。还没有人见过房子的主人。",
+    "trans": {
+     "ko": "밀 레인의 오래된 집은 수년째 비어 있었는데 지난주에 이웃들이 위층 창문에 불이 켜진 것을 보았어요. 봄에 이 집을 산 새 주인일 게 틀림없다고 하는 사람도 있고, 싼 숙소를 찾는 학생들일 수도 있다고 하는 사람도 있어요. 주인은 아직 본 적이 없어요.",
+     "en": "The old house on Mill Lane has been empty for years, but last week neighbours noticed a light in an upstairs window. Some say it must be the new owner, who bought the house in the spring. Others think it could be students looking for somewhere cheap to stay. The owner hasn't been seen yet."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "上个星期楼上的窗户亮着灯。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "大家都知道新主人是谁。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "这栋房子是春天卖出去的。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "马克为什么不接电话？",
+    "read": "Mǎkè wèishénme bù jiē diànhuà?",
+    "ko": "마크는 왜 전화를 안 받을까요?",
+    "en": "Why isn't Mark answering his phone?",
+    "situation": {
+     "ko": "이유를 추측할 때",
+     "en": "Wondering about a reason"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "他也许在开会。",
+    "read": "Tā yě xǔ zài kāi huì.",
+    "ko": "회의 중일지도 몰라요.",
+    "en": "He might be in a meeting.",
+    "situation": {
+     "ko": "가능성을 말할 때",
+     "en": "Saying something is possible"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "他一定很累。",
+    "read": "Tā yí dìng hěn lèi.",
+    "ko": "그는 피곤한 게 틀림없어요.",
+    "en": "He must be tired.",
+    "situation": {
+     "ko": "강한 확신을 말할 때",
+     "en": "Saying you are almost sure"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "这不可能是真的。",
+    "read": "Zhè bù kěnéng shì zhēn de.",
+    "ko": "그건 사실일 리가 없어요.",
+    "en": "That can't be true.",
+    "situation": {
+     "ko": "불가능하다고 판단할 때",
+     "en": "Saying something is impossible"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这是谁的雨伞？",
+    "read": "Zhè shì shéi de yǔsǎn?",
+    "ko": "이건 누구 우산일까요?",
+    "en": "Whose umbrella is this?",
+    "situation": {
+     "ko": "주인을 물을 때",
+     "en": "Asking about the owner"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "也许是山姆的。",
+    "read": "Yě xǔ shì Shānmǔ de.",
+    "ko": "샘의 것일 수도 있어요.",
+    "en": "It could be Sam's.",
+    "situation": {
+     "ko": "가능성을 제시할 때",
+     "en": "Suggesting a possibility"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "他们一定已经走了。",
+    "read": "Tāmen yí dìng yǐjīng zǒu le.",
+    "ko": "그들은 이미 떠난 게 틀림없어요.",
+    "en": "They must have left already.",
+    "situation": {
+     "ko": "과거를 추측할 때",
+     "en": "Deducing about the past"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "她不可能忘了。",
+    "read": "Tā bù kěnéng wàng le.",
+    "ko": "그녀가 잊었을 리가 없어요.",
+    "en": "She can't have forgotten.",
+    "situation": {
+     "ko": "과거에 대해 불가능하다고 말할 때",
+     "en": "Saying it was impossible"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "他一定……。",
+    "read": "Tā yí dìng ….",
+    "ko": "그는 ~한 게 틀림없어요.",
+    "en": "He must be ~."
+   },
+   {
+    "id": "w2",
+    "t": "她也许……。",
+    "read": "Tā yě xǔ ….",
+    "ko": "그녀는 ~일지도 몰라요.",
+    "en": "She might be ~."
+   },
+   {
+    "id": "w3",
+    "t": "这不可能……。",
+    "read": "Zhè bù kěnéng ….",
+    "ko": "그건 ~일 리가 없어요.",
+    "en": "It can't be ~."
+   },
+   {
+    "id": "w4",
+    "t": "他们一定……了。",
+    "read": "Tāmen yí dìng … le.",
+    "ko": "그들은 ~했을 것 같아요.",
+    "en": "They must have ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "미스터리한 상황을 3문장으로 써 보세요: 거의 확신하는 추측, 가능성이 있는 추측, 불가능하다고 생각하는 것.",
+    "en": "Write 3 sentences about a mystery: something you are almost sure about, something that is possible, and something you think is impossible."
+   },
+   "must_include": [
+    {
+     "label": "一定",
+     "match": [
+      "一定"
+     ]
+    },
+    {
+     "label": "也许",
+     "match": [
+      "也许"
+     ]
+    },
+    {
+     "label": "不可能",
+     "match": [
+      "不可能"
+     ]
+    }
+   ],
+   "model": "汤姆坐了很长时间的飞机，一定很累。他现在也许在睡觉。门口的人不可能是他，他在国外。",
+   "model_trans": {
+    "ko": "톰은 긴 비행 뒤라 피곤한 게 틀림없어요. 지금은 자고 있을지도 몰라요. 문 앞에 있는 사람이 그일 리는 없어요. 해외에 있으니까요.",
+    "en": "Tom must be tired after the long flight. He might be asleep now. It can't be him at the door, because he's abroad."
+   }
+  }
+ }
+}

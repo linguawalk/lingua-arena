@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "zh_b1_u16",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 16,
+  "concept": "B1.U16",
+  "status": "live",
+  "title": {
+   "target": "更准确地比较",
+   "ko": "더 정확하게 비교하기",
+   "en": "Comparing more precisely"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "没有……那么",
+   "pos": "phrase",
+   "read": "méiyǒu … nà me",
+   "ko": "~만큼 ~한",
+   "en": "as … as",
+   "ex": {
+    "t": "这家酒店没有那家那么贵。",
+    "read": "Zhè jiā jiǔdiàn méiyǒu nà jiā nà me guì.",
+    "ko": "이 호텔은 그것만큼 비싸지 않아요.",
+    "en": "This hotel isn't as expensive as that one."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "越……越",
+   "pos": "phrase",
+   "read": "yuè … yuè",
+   "ko": "~하면 할수록 더 ~한",
+   "en": "the more … the more",
+   "ex": {
+    "t": "你越练习，就越好。",
+    "read": "Nǐ yuè liànxí, jiù yuè hǎo.",
+    "ko": "더 연습할수록 더 잘하게 돼요.",
+    "en": "The more you practise, the better you get."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "太……了",
+   "pos": "adv",
+   "read": "tài … le",
+   "ko": "너무 ~한 (그래서 ~할 수 없다)",
+   "en": "too",
+   "ex": {
+    "t": "这杯咖啡太烫了。",
+    "read": "Zhè bēi kāfēi tài tàng le.",
+    "ko": "커피가 너무 뜨거워서 마실 수 없어요.",
+    "en": "The coffee is too hot to drink."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "够",
+   "pos": "adv",
+   "read": "gòu",
+   "ko": "충분히 ~한",
+   "en": "enough",
+   "ex": {
+    "t": "这个房间够大。",
+    "read": "Zhège fángjiān gòu dà.",
+    "ko": "그는 충분히 빠르지 않았어요.",
+    "en": "He wasn't fast enough."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "非常",
+   "pos": "adv",
+   "read": "fēicháng",
+   "ko": "매우 ~한 (so)",
+   "en": "so",
+   "ex": {
+    "t": "这部电影非常好看。",
+    "read": "Zhè bù diànyǐng fēicháng hǎo kàn.",
+    "ko": "날씨가 너무 더워서 나갈 수 없었어요.",
+    "en": "It was so hot that we couldn't go out."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "真",
+   "pos": "det",
+   "read": "zhēn",
+   "ko": "정말 ~한 (such)",
+   "en": "such",
+   "ex": {
+    "t": "今天真是美好的一天！",
+    "read": "Jīntiān zhēn shì měihǎo de yì tiān!",
+    "ko": "정말 좋은 영화였어요!",
+    "en": "It was such a good film!"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "……得多",
+   "pos": "phrase",
+   "read": "… de duō",
+   "ko": "훨씬 더",
+   "en": "much more",
+   "ex": {
+    "t": "这个比那个便宜得多。",
+    "read": "Zhège bǐ nàge piányi de duō.",
+    "ko": "기차가 버스보다 훨씬 더 편해요.",
+    "en": "The train is much more comfortable than the bus."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "稍微",
+   "pos": "phrase",
+   "read": "shāowēi",
+   "ko": "약간 더",
+   "en": "a bit",
+   "ex": {
+    "t": "这个稍微小一点。",
+    "read": "Zhège shāowēi xiǎo yìdiǎn.",
+    "ko": "오늘은 어제보다 조금 더 따뜻해요.",
+    "en": "It's a bit warmer today than yesterday."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "最",
+   "pos": "phrase",
+   "read": "zuì",
+   "ko": "가장 ~한",
+   "en": "the most",
+   "ex": {
+    "t": "这是我去过的最美的地方。",
+    "read": "Zhè shì wǒ qùguo de zuì měi de dìfang.",
+    "ko": "이건 제가 가 본 곳 중 가장 아름다운 곳이에요.",
+    "en": "This is the most beautiful place I've ever been to."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "几乎",
+   "pos": "adv",
+   "read": "jǐ hū",
+   "ko": "거의",
+   "en": "almost",
+   "ex": {
+    "t": "我几乎没睡。",
+    "read": "Wǒ jǐ hū méi shuì.",
+    "ko": "우리는 거의 도착했어요.",
+    "en": "We're almost there."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "比较：没有……那么、越……越、太……了、够……",
+   "en": "Comparing: 没有……那么 / 越……越 / 太……了 / 够……"
+  },
+  "explain": {
+   "ko": "说两样东西不一样，用“没有……那么……”：这家酒店没有那家酒店那么贵。说随着一个动作的增加，另一个也增加，用“越……越……”：练习得越多，就越好。说程度太高所以做不到，用“太……了”：咖啡太烫了，没法喝。说程度刚好够，用“够”：这个房间够大。加强语气用“真”：那部电影真好看！",
+   "en": "To say two things differ use 没有……那么……: 这家酒店没有那家酒店那么贵. When one thing grows with another use 越……越……: 练习得越多，就越好. Too much to do something is 太……了: 咖啡太烫了，没法喝. Just enough uses 够: 这个房间够大. Emphasis is 真: 那部电影真好看！"
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "不如 / Not as…as",
+     "没有……那么……",
+     "这家没有那家那么贵。"
+    ],
+    [
+     "越来越 / The more…the more",
+     "越……越……",
+     "练习得越多，越好。"
+    ],
+    [
+     "太……了 / Too…",
+     "太＋形容词＋了",
+     "咖啡太烫了，没法喝。"
+    ],
+    [
+     "够 / Enough",
+     "够＋形容词",
+     "这个房间够大。"
+    ],
+    [
+     "强调 / Such a…",
+     "真＋形容词",
+     "那部电影真好看！"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“没有……那么”常常用在否定的比较里。",
+    "en": "没有……那么 is used in negative comparison."
+   },
+   {
+    "ko": "“越……越……”里两个“越”各放在一个动词或形容词前面。",
+    "en": "In 越……越……, each 越 stands before a verb or adjective."
+   },
+   {
+    "ko": "“太……了”常常表示程度过高，后面常常有“不能”。",
+    "en": "太……了 often shows excess, followed by an inability."
+   }
+  ],
+  "examples": [
+   {
+    "t": "这家酒店没有那家酒店贵。",
+    "read": "Zhè jiā jiǔdiàn méiyǒu nà jiā jiǔdiàn guì.",
+    "ko": "이 호텔은 저 호텔만큼 비싸지 않아요.",
+    "en": "This hotel isn't as expensive as that one."
+   },
+   {
+    "t": "练习得越多，就越好。",
+    "read": "Liànxí de yuè duō, jiù yuè hǎo.",
+    "ko": "더 연습할수록 더 잘하게 돼요.",
+    "en": "The more you practise, the better you get."
+   },
+   {
+    "t": "咖啡太烫了，没法喝。",
+    "read": "Kāfēi tài tàng le, méi fǎ hē.",
+    "ko": "커피가 너무 뜨거워서 마실 수 없어요.",
+    "en": "The coffee is too hot to drink."
+   },
+   {
+    "t": "天气太热了，我们没能出去。",
+    "read": "Tiānqì tài rè le, wǒmen méi néng chū qù.",
+    "ko": "날씨가 너무 더워서 우리는 나갈 수 없었어요.",
+    "en": "It was so hot that we couldn't go out."
+   },
+   {
+    "t": "那部电影真好看！",
+    "read": "Nà bù diànyǐng zhēn hǎo kàn!",
+    "ko": "정말 좋은 영화였어요!",
+    "en": "It was such a good film!"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "这家酒店___那家酒店贵。",
+    "options": [
+     "没有",
+     "比",
+     "更"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "练习得___多，就越好。",
+    "options": [
+     "越",
+     "刚",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "咖啡___烫了，没法喝。",
+    "options": [
+     "太",
+     "刚",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "那部电影___好看！",
+    "options": [
+     "真",
+     "吗",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这家酒店比那家酒店贵吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 호텔이 저 호텔보다 더 비싼가요?",
+     "en": "(Question) Is this hotel more expensive than that one?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "不，没有那家那么贵。",
+       "是的，我昨天去了。",
+       "它在海边。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个房间够我们大家用吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 방은 우리 모두에게 충분히 커요?",
+     "en": "(Question) Is the room big enough for all of us?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "够大，我们都能用。",
+       "我昨天住了。",
+       "它很贵吧。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "哪个公寓好呢？这个更大。"
+      },
+      {
+       "s": "B",
+       "t": "可是没有那个离车站那么近。"
+      },
+      {
+       "s": "A",
+       "t": "对。不过房租便宜多了。"
+      },
+      {
+       "s": "B",
+       "t": "那就选这个吧，每个月可以省很多钱。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어느 아파트가 좋을까? 이건 더 넓어.\nB: 그런데 저 아파트만큼 역에서 가깝지 않아.\nA: 맞아. 하지만 월세가 훨씬 싸.\nB: 그럼 이걸로 하자. 매달 돈을 많이 아낄 수 있어.",
+     "en": "A: Which flat should we take? This one is bigger.\nB: But it isn't as close to the station as that one.\nA: True, but the rent is much cheaper.\nB: Then let's take this one. We'll save a lot of money every month."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "为什么选这个公寓？",
+      "options": [
+       "房租便宜多了",
+       "离车站近",
+       "更旧"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我们的调查显示，年龄越大，人们越重视健康。二十岁的人说健康没有那么重要，五十岁的人说重要得多。大多数人说睡眠最重要，但是睡够的人不到一半。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저희 설문에 따르면 사람들은 나이가 들수록 건강에 더 신경을 씁니다. 스무 살은 건강이 그렇게 중요하지 않다고 답했고, 쉰 살은 훨씬 더 중요하다고 답했습니다. 응답자 대부분이 가장 중요한 것으로 수면을 꼽았지만 충분히 자는 사람은 절반도 안 되었습니다.",
+     "en": "Our survey shows that the older people get, the more they care about their health. Twenty-year-olds said it wasn't as important, while fifty-year-olds said it was much more important. Most respondents named sleep as the most important thing, but fewer than half of them get enough."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "年龄越大怎么样？",
+      "options": [
+       "越重视健康",
+       "越不喜欢运动",
+       "越喜欢旅行"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这里是家具店。"
+      },
+      {
+       "s": "B",
+       "t": "我想找一个沙发，不要太大的。"
+      },
+      {
+       "s": "A",
+       "t": "您看这款怎么样？这款比那款小，价格差不多。"
+      },
+      {
+       "s": "B",
+       "t": "颜色我喜欢。多少钱？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 가구점입니다.\n손님: 소파를 찾고 있는데 너무 크지 않았으면 해요.\n직원: 이 모델은 어떠세요? 저것보다 작고 가격은 비슷해요.\n손님: 색상이 마음에 드네요. 얼마예요?",
+     "en": "Assistant: Furniture shop.\nCustomer: I'm looking for a sofa, but not one that's too big.\nAssistant: How about this one? It's smaller than that one and about the same price.\nCustomer: I like the colour. How much is it?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "不要太______",
+      "answers": [
+       "大"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "这款比那款______",
+      "answers": [
+       "小"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 这家酒店___那家酒店贵。\n2) 练习得___多，就越好。\n3) 咖啡___烫了，没法喝。",
+    "trans": {
+     "ko": "1) 이 호텔은 저 호텔만큼 비싸지 않아요. 2) 더 연습할수록 더 잘하게 돼요. 3) 커피가 너무 뜨거워서 마실 수 없어요.",
+     "en": "1) This hotel isn't as expensive as that one. 2) The more you practise, the better you get. 3) The coffee is too hot to drink."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这家酒店___那家酒店贵。",
+      "options": [
+       "没有",
+       "比",
+       "更"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "练习得___多，就越好。",
+      "options": [
+       "越",
+       "刚",
+       "过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "咖啡___烫了，没法喝。",
+      "options": [
+       "太",
+       "刚",
+       "过"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "智秀你好！新城市比我想象的(1)好。房子没有以前的房子(2)大，但是亮多了。而且人们(3)友好！希望你也能来这个美丽的地方。",
+    "trans": {
+     "ko": "안녕, 지수! 새 도시는 생각보다 훨씬 좋아. 집은 예전 집만큼 크지 않지만 훨씬 밝아. 그리고 사람들이 정말 친절해! 네가 이렇게 멋진 곳에 와 봤으면 좋겠어.",
+     "en": "Hi Jisoo, The new city is much nicer than I expected. The flat isn't as big as my old one, but it's much brighter. And the people are so friendly! I wish you could see such a lovely place."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "好得多",
+       "差得多",
+       "小得多"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "那么",
+       "太",
+       "越"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "真",
+       "没",
+       "不"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "自行车和公共汽车\n上班的时候，自行车常常比公共汽车快，特别是在高峰期，公共汽车容易堵在路上。但是下雨的时候，自行车没有公共汽车那么舒服。至于费用，自行车便宜得多。",
+    "trans": {
+     "ko": "자전거 vs 버스\n출근길에는 자전거가 버스보다 더 빠를 때가 많습니다. 특히 러시아워에는 버스가 교통 체증에 갇히기 쉽습니다. 하지만 비가 올 때는 자전거는 버스만큼 편하지 않습니다. 비용은 자전거가 훨씬 적게 듭니다.",
+     "en": "BIKE VS BUS\nOn the way to work, a bike is often faster than the bus, especially in the rush hour when buses get stuck in traffic. But in the rain, cycling isn't as comfortable as taking the bus. In terms of cost, cycling is much cheaper."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "高峰期什么更快？",
+      "options": [
+       "自行车",
+       "公共汽车",
+       "出租车"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "下雨的时候什么更舒服？",
+      "options": [
+       "公共汽车",
+       "自行车",
+       "走路"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "马可去看新公寓，但是不喜欢。房间不够大，厨房太暗了。他决定再贵一点也要找一个更好的房子。",
+    "trans": {
+     "ko": "마르코는 새 아파트를 보러 갔지만 마음에 들지 않았어요. 방이 충분히 크지 않았고 부엌은 너무 어두웠어요. 그는 더 비싸더라도 더 나은 집을 찾아보기로 했어요.",
+     "en": "Marco went to see a new flat, but he didn't like it. The rooms weren't big enough and the kitchen was too dark. He decided to look for a better one, even if it was more expensive."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "马可觉得厨房太暗了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "马可已经租了新公寓。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "马可的朋友帮他找房子。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "这家酒店比那家贵吗？",
+    "read": "Zhè jiā jiǔdiàn bǐ nà jiā guì ma?",
+    "ko": "이 호텔이 저 호텔보다 더 비싼가요?",
+    "en": "Is this hotel more expensive than that one?",
+    "situation": {
+     "ko": "비교를 물을 때",
+     "en": "Asking for a comparison"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "不，没有那家那么贵。",
+    "read": "Bù, méiyǒu nà jiā nà me guì.",
+    "ko": "아니요, 저 호텔만큼 비싸지 않아요.",
+    "en": "No, it isn't as expensive as that one.",
+    "situation": {
+     "ko": "비교를 답할 때",
+     "en": "Answering with as … as"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "练习得越多，就越好。",
+    "read": "Liànxí de yuè duō, jiù yuè hǎo.",
+    "ko": "연습할수록 더 잘하게 돼요.",
+    "en": "The more you practise, the better you get.",
+    "situation": {
+     "ko": "비례 관계를 말할 때",
+     "en": "Describing a proportional change"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "咖啡太烫了，没法喝。",
+    "read": "Kāfēi tài tàng le, méi fǎ hē.",
+    "ko": "커피가 너무 뜨거워서 마실 수 없어요.",
+    "en": "The coffee is too hot to drink.",
+    "situation": {
+     "ko": "너무 ~함을 말할 때",
+     "en": "Saying something is too much"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这个房间够大吗？",
+    "read": "Zhège fángjiān gòu dà ma?",
+    "ko": "그 방은 우리가 쓰기에 충분히 커요.",
+    "en": "The room is big enough for us.",
+    "situation": {
+     "ko": "충분함을 말할 때",
+     "en": "Saying something is enough"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "那是一个美好的一天！",
+    "read": "Nà shì yí ge měihǎo de yì tiān!",
+    "ko": "정말 좋은 하루였어요!",
+    "en": "It was such a good day!",
+    "situation": {
+     "ko": "감탄할 때",
+     "en": "Expressing enthusiasm"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "天气太冷了，我们没出去。",
+    "read": "Tiānqì tài lěng le, wǒmen méi chū qù.",
+    "ko": "날씨가 너무 추워서 나가지 않았어요.",
+    "en": "It was so cold that we stayed in.",
+    "situation": {
+     "ko": "원인과 결과를 말할 때",
+     "en": "Giving cause and result"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "这是我去过的最美的地方。",
+    "read": "Zhè shì wǒ qùguo de zuì měi de dìfang.",
+    "ko": "이건 제가 가 본 가장 아름다운 곳이에요.",
+    "en": "This is the most beautiful place I've ever visited.",
+    "situation": {
+     "ko": "최상급을 말할 때",
+     "en": "Using a superlative"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……没有……那么……。",
+    "read": "… Méiyǒu … nà me ….",
+    "ko": "~는 ~만큼 ~하지 않아요.",
+    "en": "~ isn't as ~ as ~."
+   },
+   {
+    "id": "w2",
+    "t": "越……越……。",
+    "read": "Yuè … yuè ….",
+    "ko": "~할수록 더 ~해요.",
+    "en": "The more ~, the more ~."
+   },
+   {
+    "id": "w3",
+    "t": "……太……了，没法……。",
+    "read": "… Tài … le, méi fǎ ….",
+    "ko": "~는 너무 ~해서 ~할 수 없어요.",
+    "en": "~ is too ~ to ~."
+   },
+   {
+    "id": "w4",
+    "t": "……够……。",
+    "read": "… Gòu ….",
+    "ko": "~는 충분히 ~해요.",
+    "en": "~ is ~ enough."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "두 가지를 비교하는 3문장을 써 보세요: as … as를 쓴 문장, the more … the more를 쓴 문장, too 또는 enough를 쓴 문장.",
+    "en": "Write 3 sentences comparing things: one with as … as, one with the more … the more, and one with too or enough."
+   },
+   "must_include": [
+    {
+     "label": "没有～那么",
+     "match": [
+      "没有"
+     ]
+    },
+    {
+     "label": "越～越",
+     "match": [
+      "越"
+     ]
+    },
+    {
+     "label": "够～",
+     "match": [
+      "够"
+     ]
+    }
+   ],
+   "model": "这个公寓没有那个公寓那么贵。练习得越多，就越好。这个房间够我们大家用。",
+   "model_trans": {
+    "ko": "이 아파트는 저 아파트만큼 비싸지 않아요. 더 연습할수록 더 잘하게 돼요. 그 방은 우리 모두가 쓰기에 충분히 커요.",
+    "en": "This flat isn't as expensive as that one. The more you practise, the better you get. The room is big enough for all of us."
+   }
+  }
+ }
+}
