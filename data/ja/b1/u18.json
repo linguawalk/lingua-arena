@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "ja_b1_u18",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 18,
+  "concept": "B1.U18",
+  "status": "live",
+  "title": {
+   "target": "丁寧にたずねる",
+   "ko": "정중하게 묻기",
+   "en": "Polite and indirect questions"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "〜か教えていただけますか",
+   "pos": "phrase",
+   "read": "〜かおしえていただけますか",
+   "ko": "~인지 알려 주시겠어요?",
+   "en": "could you tell me",
+   "ex": {
+    "t": "駅がどこにあるか教えていただけますか。",
+    "read": "えきがどこにあるかおしえていただけますか。",
+    "ko": "우체국이 어디에 있는지 알려 주시겠어요?",
+    "en": "Could you tell me where the post office is?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜か知っていますか",
+   "pos": "phrase",
+   "read": "〜かしっていますか",
+   "ko": "~인지 아세요?",
+   "en": "do you know",
+   "ex": {
+    "t": "何時に始まるか知っていますか。",
+    "read": "なんじにはじまるかしっていますか。",
+    "ko": "몇 시에 시작하는지 아세요?",
+    "en": "Do you know what time it starts?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜てもよろしいでしょうか",
+   "pos": "phrase",
+   "read": "〜てもよろしいでしょうか",
+   "ko": "~해도 될까요?",
+   "en": "would you mind",
+   "ex": {
+    "t": "窓を開けてもよろしいでしょうか。",
+    "read": "まどをあけてもよろしいでしょうか。",
+    "ko": "창문을 열어도 괜찮을까요?",
+    "en": "Would you mind if I opened the window?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜か気になる",
+   "pos": "phrase",
+   "read": "〜かきになる",
+   "ko": "~인지 궁금해요",
+   "en": "I was wondering",
+   "ex": {
+    "t": "彼が来るかどうか気になります。",
+    "read": "かれがくるかどうかきになります。",
+    "ko": "혹시 도와주실 수 있을까 해서요.",
+    "en": "I was wondering if you could help me."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜かどうか",
+   "pos": "conj",
+   "read": "〜かどうか",
+   "ko": "~인지 아닌지",
+   "en": "if",
+   "ex": {
+    "t": "開いているかどうか確認します。",
+    "read": "ひらいているかどうかかくにんします。",
+    "ko": "그가 올지 모르겠어요.",
+    "en": "I don't know if he'll come."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "〜ですよね",
+   "pos": "phrase",
+   "read": "〜ですよね",
+   "ko": "그렇죠?",
+   "en": "isn't it",
+   "ex": {
+    "t": "今日は暑いですよね。",
+    "read": "きょうはあついですよね。",
+    "ko": "오늘 춥네요, 그렇죠?",
+    "en": "It's cold today, isn't it?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "〜ではありませんか",
+   "pos": "phrase",
+   "read": "〜ではありませんか",
+   "ko": "그렇지 않나요?",
+   "en": "don't you",
+   "ex": {
+    "t": "あなたは英語の先生ではありませんか。",
+    "read": "あなたはえいごのせんせいではありませんか。",
+    "ko": "당신은 서울에 사시죠, 그렇지 않나요?",
+    "en": "You live in Seoul, don't you?"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "確認する",
+   "pos": "verb",
+   "read": "かくにんする",
+   "ko": "확인하다",
+   "en": "confirm",
+   "ex": {
+    "t": "予約を確認します。",
+    "read": "よやくをかくにんします。",
+    "ko": "제 예약을 확인해 주실 수 있나요?",
+    "en": "Can you confirm my reservation?"
+   }
+  },
+  {
+   "id": "v9",
+   "t": "丁寧な",
+   "pos": "adj",
+   "read": "ていねいな",
+   "ko": "정중한",
+   "en": "polite",
+   "ex": {
+    "t": "丁寧な言い方を学びます。",
+    "read": "ていねいないいかたをまなびます。",
+    "ko": "그는 항상 정중하게 말해요.",
+    "en": "He always speaks politely."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "すみません",
+   "pos": "phrase",
+   "read": "すみません",
+   "ko": "실례합니다",
+   "en": "excuse me",
+   "ex": {
+    "t": "すみません、道を教えてください。",
+    "read": "すみません、みちをおしえてください。",
+    "ko": "실례합니다, 이 자리 비어 있나요?",
+    "en": "Excuse me, is this seat free?"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "丁寧な質問：〜か教えていただけますか・〜てもよろしいでしょうか・〜ですよね",
+   "en": "Polite questions: 〜か教えていただけますか / 〜てもよろしいでしょうか / 〜ですよね"
+  },
+  "explain": {
+   "ko": "丁寧にたずねるときは、直接たずねないで、間接的な質問を使います。「図書館はどこですか。」の代わりに、「図書館がどこにあるか知っていますか。」「どこにあるか教えていただけますか。」と言います。お願いは「〜ていただけますか」「〜ていただけないでしょうか」です。許可は「〜てもよろしいでしょうか」「〜てもいいですか」でたずねます：「窓を開けてもよろしいでしょうか。」確認や同意を求めるときは「〜ですよね」「〜ではありませんか」を使います：「今日は寒いですよね。」はじめに「すみません」「失礼ですが」をつけると、もっと丁寧になります。敬語を使います。",
+   "en": "To ask politely use an indirect question rather than a direct one. Instead of 「図書館はどこですか。」 say 「図書館がどこにあるか知っていますか。」 or 「どこにあるか教えていただけますか。」 A request is 〜ていただけますか or 〜ていただけないでしょうか. Permission is asked with 〜てもよろしいでしょうか or 〜てもいいですか: 「窓を開けてもよろしいでしょうか。」 To check or seek agreement use 〜ですよね or 〜ではありませんか: 「今日は寒いですよね。」 Starting with すみません or 失礼ですが makes it more polite. Honorific language is used."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "間接質問 / Indirect question",
+     "〜か知っていますか",
+     "何時に始まるか知っていますか。"
+    ],
+    [
+     "お願い / Request",
+     "〜か教えていただけますか",
+     "郵便局がどこにあるか教えていただけますか。"
+    ],
+    [
+     "許可 / Permission",
+     "〜てもよろしいでしょうか",
+     "窓を開けてもよろしいでしょうか。"
+    ],
+    [
+     "確認 / Confirmation",
+     "〜ですよね・〜ではありませんか",
+     "今日は寒いですよね。"
+    ],
+    [
+     "丁寧な前置き / Polite opening",
+     "すみません・失礼ですが",
+     "失礼ですが、お名前は？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜か」の前は普通形にし、文の最後は丁寧な形で終えます。",
+    "en": "Put the plain form before 〜か and end the sentence in a polite form."
+   },
+   {
+    "ko": "「〜てもよろしいでしょうか」は許可、「〜ていただけますか」はお願いに使います。",
+    "en": "〜てもよろしいでしょうか is for permission; 〜ていただけますか is for requests."
+   },
+   {
+    "ko": "「〜ですよね」は、語尾を上げると質問、下げると確認です。",
+    "en": "〜ですよね is a question with a rising tone and a confirmation with a falling tone."
+   }
+  ],
+  "examples": [
+   {
+    "t": "郵便局がどこにあるか教えていただけますか。",
+    "read": "ゆうびんきょくがどこにあるかおしえていただけますか。",
+    "ko": "우체국이 어디에 있는지 알려 주시겠어요?",
+    "en": "Could you tell me where the post office is?"
+   },
+   {
+    "t": "何時に始まるかご存じですか。",
+    "read": "なんじにはじまるかごぞんじですか。",
+    "ko": "몇 시에 시작하는지 아세요?",
+    "en": "Do you know what time it starts?"
+   },
+   {
+    "t": "手伝っていただけないでしょうか。",
+    "read": "てつだっていただけないでしょうか。",
+    "ko": "도와주실 수 있을까 해서요.",
+    "en": "I was wondering if you could help me."
+   },
+   {
+    "t": "今日は寒いですよね。",
+    "read": "きょうはさむいですよね。",
+    "ko": "오늘 춥네요, 그렇죠?",
+    "en": "It's cold today, isn't it?"
+   },
+   {
+    "t": "あなたはソウルにお住まいですよね。",
+    "read": "あなたはソウルにおすまいですよね。",
+    "ko": "당신은 서울에 사시죠, 그렇지 않나요?",
+    "en": "You live in Seoul, don't you?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "郵便局がどこにあるか教えて___か。",
+    "options": [
+     "いただけます",
+     "ください",
+     "いただきます"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "何時に始まるか___ですか。",
+    "options": [
+     "ご存じ",
+     "知らない",
+     "分かります"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "窓を開けても___でしょうか。",
+    "options": [
+     "よろしい",
+     "いけない",
+     "ならない"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "今日は寒い___。",
+    "options": [
+     "ですよね",
+     "ませんよね",
+     "でしょうた"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "すみません、図書館がどこにあるか知っていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 실례합니다, 도서관이 어디에 있는지 아세요?",
+     "en": "(Question) Excuse me, do you know where the library is?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、あそこの角にあります。",
+       "はい、昨日行きました。",
+       "いいえ、図書館は閉まりました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "窓を開けてもよろしいでしょうか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 창문을 열어도 괜찮을까요?",
+     "en": "(Question) Would you mind if I opened the window?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、どうぞ。開けても大丈夫です。",
+       "いいえ、開けました。",
+       "はい、窓が開きます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "すみません、博物館へ行くバスは何時に来るかご存じですか。"
+      },
+      {
+       "s": "B",
+       "t": "十五分おきに来ますよ。あそこのバス停から乗ってください。"
+      },
+      {
+       "s": "A",
+       "t": "ありがとうございます。料金がいくらかも教えていただけますか。"
+      },
+      {
+       "s": "B",
+       "t": "現金なら二ポンドです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 실례합니다, 박물관에 가는 버스가 몇 시에 오는지 아세요?\nB: 15분마다 와요. 저기 정류장에서 타세요.\nA: 감사합니다. 요금이 얼마인지도 알려 주시겠어요?\nB: 현금이면 2파운드예요.",
+     "en": "A: Excuse me, do you know what time the bus to the museum comes?\nB: Every fifteen minutes. You catch it at that stop over there.\nA: Thanks. Could you tell me how much the fare is?\nB: It's two pounds if you pay in cash."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "バスの料金はいくらですか。",
+      "options": [
+       "現金で二ポンド",
+       "カードで二ポンド",
+       "無料"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "こちらは市役所の案内デスクです。ご来庁の前にお知らせします。事務所は午前九時に開き、五時に閉まります。駐車される方は、地下駐車場がどこにあるか、入口でおたずねください。書類は直接提出されても、郵送されてもかまいません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요, 시청 안내 데스크입니다. 방문하시기 전에 알아 두세요. 사무실은 오전 9시에 열고 5시에 닫습니다. 주차를 하실 분은 지하 주차장이 어디에 있는지 입구에서 물어보세요. 서류는 직접 제출하셔도 되고 우편으로 보내셔도 됩니다.",
+     "en": "Hello, this is the City Hall information desk. Before you visit, please note that the office opens at nine and closes at five. If you want to park, ask at the entrance where the underground car park is. You can hand in your documents in person or send them by post."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "書類はどうやって出せますか。",
+      "options": [
+       "直接でも郵送でもよい",
+       "メールだけ",
+       "電話だけ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "すみません、この近くに薬局があるかご存じですか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、あそこの角を曲がるとありますよ。"
+      },
+      {
+       "s": "A",
+       "t": "何時まで開いているかもご存じですか。"
+      },
+      {
+       "s": "B",
+       "t": "七時まで開いていると思います。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "손님: 실례합니다, 이 근처에 약국이 있는지 아세요?\n행인: 네, 저쪽 모퉁이를 돌면 있어요.\n손님: 몇 시까지 여는지도 아세요?\n행인: 일곱 시까지 열 거예요.",
+     "en": "Customer: Excuse me, do you know if there's a pharmacy near here?\nPasser-by: Yes, just round the corner.\nCustomer: Do you know what time it closes?\nPasser-by: It stays open until seven."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "探しているもの：______",
+      "answers": [
+       "薬局"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "閉まる時間：______時まで",
+      "answers": [
+       "七"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 郵便局がどこにあるか教えて___か。\n2) 何時に始まるか___ですか。\n3) 今日は寒い___。",
+    "trans": {
+     "ko": "1) 우체국이 어디에 있는지 알려 주시겠어요? 2) 몇 시에 시작하는지 아세요? 3) 오늘 춥네요, 그렇죠?",
+     "en": "1) Could you tell me where the post office is? 2) Do you know what time it starts? 3) It's cold today, isn't it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "郵便局がどこにあるか教えて___か。",
+      "options": [
+       "いただけます",
+       "ください",
+       "いただきます"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "何時に始まるか___ですか。",
+      "options": [
+       "ご存じ",
+       "知らない",
+       "分かります"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "今日は寒い___。",
+      "options": [
+       "ですよね",
+       "ませんよね",
+       "でしょうた"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "ホテルご担当者様。来週の月曜日に予約しているサラ・リーです。チェックインが何時か(1)でしょうか。また、ホテルに駐車場があるかどうかも(2)。よろしくお願いいたします。お返事をお待ちして(3)。",
+    "trans": {
+     "ko": "안녕하세요, 호텔 담당자님. 다음 주 월요일에 예약한 사라 리입니다. 체크인이 몇 시인지 알려 주실 수 있을까요? 그리고 호텔에 주차장이 있는지도 궁금합니다. 감사합니다.",
+     "en": "Dear Sir or Madam, I'm Sara Lee, and I have a booking for next Monday. Could you tell me what time check-in is? I was also wondering if the hotel has a car park. Thank you."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "教えていただけない",
+       "教えない",
+       "教えて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "気になっております",
+       "気にしないでください",
+       "気になりません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "おります",
+       "おいません",
+       "おくだけ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "丁寧な頼み方の技術\n英語では、同じ頼みごとでも、言い方によって印象が大きく変わります。「Open the window.」は命令のように聞こえますが、「Could you open the window?」は丁寧です。もっと控えめに言うには、「Would you mind opening the window?」が使えます。直接たずねる代わりに、「Do you know where …?」のような間接的な質問を使うのもよい方法です。",
+    "trans": {
+     "ko": "정중한 부탁의 기술\n영어에서는 같은 부탁도 말투에 따라 느낌이 크게 다릅니다. 'Open the window.'는 명령처럼 들리지만 'Could you open the window?'는 정중합니다. 더 조심스럽게 말하려면 'Would you mind opening the window?'를 쓸 수 있습니다. 직접 묻는 대신 'Do you know where …?'처럼 간접 질문을 쓰는 것도 좋은 방법입니다.",
+     "en": "THE ART OF POLITE REQUESTS\nIn English, the same request can sound very different depending on the wording. 'Open the window.' sounds like an order, while 'Could you open the window?' is polite. To be even more careful you can say 'Would you mind opening the window?' Using an indirect question such as 'Do you know where …?' is another good way to sound polite."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "英語で丁寧に頼むにはどう言いますか。",
+      "options": [
+       "Could you …?",
+       "Open …",
+       "Give me …"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "間接的な質問の例はどれですか。",
+      "options": [
+       "Do you know where …?",
+       "Open the window.",
+       "Where is it?"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ケビンさんは初めて訪れた町で道に迷いました。彼は通行人に近づいて、いちばん近い地下鉄の駅がどこにあるかたずねました。その人は親切に道を教えてくれ、ケビンさんはお礼を言いました。",
+    "trans": {
+     "ko": "케빈은 처음 간 도시에서 길을 잃었어요. 그는 행인에게 다가가 가장 가까운 지하철역이 어디에 있는지 물었어요. 그 사람은 친절하게 길을 알려 주었고, 케빈은 고맙다고 말했어요.",
+     "en": "Kevin got lost in a city he had never visited before. He went up to a passer-by and asked where the nearest underground station was. The man kindly gave him directions, and Kevin thanked him."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ケビンさんは初めて訪れた町で道に迷いました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ケビンさんは地図を見て道を見つけました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ケビンさんはタクシーに乗りました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "すみません、図書館がどこにあるか知っていますか。",
+    "read": "すみません、としょかんがどこにあるかしっていますか。",
+    "ko": "실례합니다, 도서관이 어디에 있는지 아세요?",
+    "en": "Excuse me, do you know where the library is?",
+    "situation": {
+     "ko": "길을 물을 때",
+     "en": "Asking for directions"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "あそこの角にあります。",
+    "read": "あそこのかどにあります。",
+    "ko": "저쪽 모퉁이에 있어요.",
+    "en": "It's on the corner over there.",
+    "situation": {
+     "ko": "길을 알려 줄 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "バスが何時に来るか教えていただけますか。",
+    "read": "バスがなんじにくるかおしえていただけますか。",
+    "ko": "버스가 몇 시에 오는지 알려 주시겠어요?",
+    "en": "Could you tell me what time the bus comes?",
+    "situation": {
+     "ko": "정중하게 물을 때",
+     "en": "Asking politely"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "お手伝いいただけないでしょうか。",
+    "read": "おてつだいいただけないでしょうか。",
+    "ko": "도와주실 수 있을까 해서요.",
+    "en": "I was wondering if you could help me.",
+    "situation": {
+     "ko": "부탁할 때",
+     "en": "Asking for help"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "窓を開けてもよろしいでしょうか。",
+    "read": "まどをあけてもよろしいでしょうか。",
+    "ko": "창문을 열어도 괜찮을까요?",
+    "en": "Would you mind if I opened the window?",
+    "situation": {
+     "ko": "허락을 구할 때",
+     "en": "Asking for permission"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "どうぞ、開けても大丈夫です。",
+    "read": "どうぞ、あけてもだいじょうぶです。",
+    "ko": "괜찮아요. 열어도 돼요.",
+    "en": "Not at all. Go ahead.",
+    "situation": {
+     "ko": "허락할 때",
+     "en": "Giving permission"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "今日はいい天気ですよね。",
+    "read": "きょうはいいてんきですよね。",
+    "ko": "오늘 날씨 좋네요, 그렇죠?",
+    "en": "Lovely weather today, isn't it?",
+    "situation": {
+     "ko": "대화를 시작할 때",
+     "en": "Starting a conversation"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "あなたは英語の先生ではありませんか。",
+    "read": "あなたはえいごのせんせいではありませんか。",
+    "ko": "당신은 영어 선생님이시죠, 아닌가요?",
+    "en": "You're an English teacher, aren't you?",
+    "situation": {
+     "ko": "확인할 때",
+     "en": "Checking information"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜がどこにあるか教えていただけますか。",
+    "read": "〜がどこにあるかおしえていただけますか。",
+    "ko": "~가 어디에 있는지 알려 주시겠어요?",
+    "en": "Could you tell me where ~ is?"
+   },
+   {
+    "id": "w2",
+    "t": "〜か知っていますか。",
+    "read": "〜かしっていますか。",
+    "ko": "~인지 아세요?",
+    "en": "Do you know if ~?"
+   },
+   {
+    "id": "w3",
+    "t": "〜てもよろしいでしょうか。",
+    "read": "〜てもよろしいでしょうか。",
+    "ko": "~해도 괜찮을까요?",
+    "en": "Would you mind if I ~?"
+   },
+   {
+    "id": "w4",
+    "t": "〜ですよね。",
+    "read": "〜ですよね。",
+    "ko": "~죠, 그렇지 않나요?",
+    "en": "~, isn't it? / ~, don't you?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "정중한 말로 3문장을 써 보세요: 길이나 시간을 묻는 간접 질문, 허락 구하기, 부가 의문문 하나.",
+    "en": "Write 3 polite sentences: an indirect question about directions or time, a request for permission, and a sentence with a question tag."
+   },
+   "must_include": [
+    {
+     "label": "〜か教えていただけますか",
+     "match": [
+      "教えていただけますか"
+     ]
+    },
+    {
+     "label": "〜てもよろしいでしょうか",
+     "match": [
+      "よろしいでしょうか"
+     ]
+    },
+    {
+     "label": "〜ですよね",
+     "match": [
+      "ですよね"
+     ]
+    }
+   ],
+   "model": "すみません、駅がどこにあるか教えていただけますか。窓を開けてもよろしいでしょうか。今日は本当に暑いですよね。",
+   "model_trans": {
+    "ko": "실례합니다, 기차역이 어디에 있는지 알려 주시겠어요? 제가 창문을 열어도 괜찮을까요? 오늘 정말 덥네요, 그렇죠?",
+    "en": "Excuse me, could you tell me where the station is? Would you mind if I opened the window? It's really hot today, isn't it?"
+   }
+  }
+ }
+}

@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "ja_b1_u10",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 10,
+  "concept": "B1.U10",
+  "status": "live",
+  "title": {
+   "target": "受身",
+   "ko": "수동태",
+   "en": "The passive"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "作る・生産する",
+   "pos": "verb",
+   "read": "つくる・せいさんする",
+   "ko": "만들다 · 생산하다",
+   "en": "produce",
+   "ex": {
+    "t": "この車はドイツで生産されています。",
+    "read": "このくるまはドイツでせいさんされています。",
+    "ko": "이 차는 독일에서 생산돼요.",
+    "en": "This car is produced in Germany."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "建てる",
+   "pos": "verb",
+   "read": "たてる",
+   "ko": "짓다 · 건설하다",
+   "en": "build",
+   "ex": {
+    "t": "その橋は1895年に建てられました。",
+    "read": "そのはしは1895ねんにたてられました。",
+    "ko": "다리는 1998년에 지어졌어요.",
+    "en": "The bridge was built in 1998."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "発明する",
+   "pos": "verb",
+   "read": "はつめいする",
+   "ko": "발명하다",
+   "en": "invent",
+   "ex": {
+    "t": "電話はベルによって発明されました。",
+    "read": "でんわはベルによってはつめいされました。",
+    "ko": "전화는 벨이 발명했어요.",
+    "en": "The telephone was invented by Bell."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "盗む",
+   "pos": "verb",
+   "read": "ぬすむ",
+   "ko": "훔치다",
+   "en": "steal",
+   "ex": {
+    "t": "私の自転車が盗まれました。",
+    "read": "わたしのじてんしゃがぬすまれました。",
+    "ko": "어젯밤 제 자전거를 도난당했어요.",
+    "en": "My bike was stolen last night."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "修理する",
+   "pos": "verb",
+   "read": "しゅうりする",
+   "ko": "수리하다",
+   "en": "repair",
+   "ex": {
+    "t": "パソコンは今、修理されています。",
+    "read": "パソコンはいま、しゅうりされています。",
+    "ko": "제 노트북은 이번 주에 수리돼요.",
+    "en": "My laptop is being repaired this week."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "配達する",
+   "pos": "verb",
+   "read": "はいたつする",
+   "ko": "배달하다",
+   "en": "deliver",
+   "ex": {
+    "t": "荷物は明日配達されます。",
+    "read": "にもつはあしたはいたつされます。",
+    "ko": "소포는 내일 배달될 거예요.",
+    "en": "The parcel will be delivered tomorrow."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "キャンセルする",
+   "pos": "verb",
+   "read": "キャンセルする",
+   "ko": "취소하다",
+   "en": "cancel",
+   "ex": {
+    "t": "試合は雨のためキャンセルされました。",
+    "read": "しあいはあめのためキャンセルされました。",
+    "ko": "폭풍 때문에 비행기가 취소됐어요.",
+    "en": "The flight has been cancelled because of the storm."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "開催する",
+   "pos": "verb",
+   "read": "かいさいする",
+   "ko": "개최하다",
+   "en": "hold",
+   "ex": {
+    "t": "大会は来月、東京で開催されます。",
+    "read": "たいかいはらいげつ、とうきょうでかいさいされます。",
+    "ko": "올림픽은 4년마다 열려요.",
+    "en": "The Olympics are held every four years."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "発見する",
+   "pos": "verb",
+   "read": "はっけんする",
+   "ko": "발견하다",
+   "en": "discover",
+   "ex": {
+    "t": "その絵は屋根裏で発見されました。",
+    "read": "そのえはやねうらではっけんされました。",
+    "ko": "그 그림은 다락방에서 발견됐어요.",
+    "en": "The painting was discovered in an attic."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "〜製",
+   "pos": "phrase",
+   "read": "〜せい",
+   "ko": "제조된",
+   "en": "made of",
+   "ex": {
+    "t": "この時計はスイス製です。",
+    "read": "このとけいはスイスせいです。",
+    "ko": "이 의자는 목재로 만들어졌어요.",
+    "en": "This chair is made of wood."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "受身：〜られる・被害の受身",
+   "en": "The passive: 〜られる / adversity passive"
+  },
+  "explain": {
+   "ko": "日本語の受身は、動詞を「〜(ら)れる」の形にして作ります：作る → 作られる、建てる → 建てられる、する → される。物が主語のときは、行為や結果に注目します：「この車はドイツで作られています。」人が主語で、迷惑や被害を受けたときは「〜に〜を〜られる」を使います：「私は昨夜、自転車を盗まれました。」行為をした人は「〜に」「〜によって」で表します：「その本は有名な作家によって書かれました。」未来は「配達されます」のように言います。",
+   "en": "The Japanese passive is made by putting the verb in the 〜(ら)れる form: 作る → 作られる, 建てる → 建てられる, する → される. With a thing as subject it focuses on the action or result: 「この車はドイツで作られています。」 With a person as subject who suffers harm, use 〜に〜を〜られる: 「私は昨夜、自転車を盗まれました。」 The doer is shown with 〜に or 〜によって: 「その本は有名な作家によって書かれました。」 The future is expressed like 配達されます."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "物が主語 / Thing as subject",
+     "〜は〜で作られます",
+     "この車はドイツで作られています。"
+    ],
+    [
+     "被害 / Adversity",
+     "〜に〜を〜られる",
+     "私は自転車を盗まれました。"
+    ],
+    [
+     "する動詞 / する-verbs",
+     "〜する → 〜される",
+     "荷物は明日配達されます。"
+    ],
+    [
+     "行為者 / Doer",
+     "〜に・〜によって",
+     "その本は作家によって書かれました。"
+    ],
+    [
+     "過去 / Past",
+     "〜られました",
+     "その橋は1998年に建てられました。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "一段動詞は「〜られる」、五段動詞は「〜れる」、「する」は「される」、「来る」は「来られる」です。",
+    "en": "Ichidan verbs take 〜られる, godan verbs 〜れる, する becomes される, and 来る becomes 来られる."
+   },
+   {
+    "ko": "被害の受身は、直接の持ち物を盗まれたときにも使います：財布を盗まれました。",
+    "en": "The adversity passive is also used when your belongings are taken: 財布を盗まれました。"
+   },
+   {
+    "ko": "行為者が大切でないときは、「だれかが盗みました」と言わずに受身にします。",
+    "en": "When the doer is not important, use the passive instead of saying 'someone stole'."
+   }
+  ],
+  "examples": [
+   {
+    "t": "この車はドイツで作られています。",
+    "read": "このくるまはドイツでつくられています。",
+    "ko": "이 차는 독일에서 생산돼요.",
+    "en": "This car is made in Germany."
+   },
+   {
+    "t": "私は昨夜、自転車を盗まれました。",
+    "read": "わたしはさくや、じてんしゃをぬすまれました。",
+    "ko": "제 자전거는 어젯밤에 도난당했어요.",
+    "en": "My bike was stolen last night."
+   },
+   {
+    "t": "荷物は明日配達されます。",
+    "read": "にもつはあしたはいたつされます。",
+    "ko": "소포는 내일 배달될 거예요.",
+    "en": "The parcel will be delivered tomorrow."
+   },
+   {
+    "t": "飛行機は嵐のため欠航になりました。",
+    "read": "ひこうきはあらしのためけっこうになりました。",
+    "ko": "비행기는 폭풍 때문에 취소됐어요.",
+    "en": "The flight has been cancelled because of the storm."
+   },
+   {
+    "t": "その橋は1998年に建てられました。",
+    "read": "そのはしは1998ねんにたてられました。",
+    "ko": "그 다리는 1998년에 지어졌어요.",
+    "en": "The bridge was built in 1998."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "この車はドイツで___。",
+    "options": [
+     "作られています",
+     "作っています",
+     "作りました"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "私は昨夜、自転車を___。",
+    "options": [
+     "盗まれました",
+     "盗みました",
+     "盗んでいます"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "荷物は明日配達___。",
+    "options": [
+     "されます",
+     "します",
+     "しました"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "その橋は1998年に___。",
+    "options": [
+     "建てられました",
+     "建てました",
+     "建てています"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この携帯電話はどこで作られましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 휴대폰은 어디에서 만들어졌어요?",
+     "en": "(Question) Where is this phone made?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "中国で作られました。",
+       "中国で作りました。",
+       "私が作りました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "荷物はいつ配達されますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 소포는 언제 배달돼요?",
+     "en": "(Question) When will the parcel be delivered?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "明日の朝、配達されます。",
+       "昨日、配達しました。",
+       "私が配達します。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "警察署です。どうされましたか。"
+      },
+      {
+       "s": "B",
+       "t": "車を盗まれたんです。昨夜、家の前に止めておいたんですが。"
+      },
+      {
+       "s": "A",
+       "t": "車種は何ですか。"
+      },
+      {
+       "s": "B",
+       "t": "青いフォードで、2019年に生産されたものです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 경찰서입니다. 무슨 일이세요?\nB: 제 차를 도난당했어요. 어젯밤 집 앞에 세워 뒀거든요.\nA: 차종이 어떻게 되죠?\nB: 파란색 포드이고 2019년에 생산된 거예요.",
+     "en": "A: Police station. How can I help?\nB: My car has been stolen. I left it outside my house last night.\nA: What make is it?\nB: It's a blue Ford, and it was made in 2019."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "車はいつ生産されましたか。",
+      "options": [
+       "2019年",
+       "昨夜",
+       "今年"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このワインは、フランス南部の小さな農場で生産されています。ぶどうは9月に手で収穫され、樽に入れられて18か月間熟成されます。ボトルは毎年10月に十か国に輸出されます。今年の収穫は嵐で一部傷みましたが、品質には影響ありませんでした。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 와인은 프랑스 남부의 작은 농장에서 생산됩니다. 포도는 9월에 손으로 수확되어 오크통에 담긴 뒤 18개월 동안 숙성됩니다. 병은 매년 10월에 열 개 나라로 수출됩니다. 올해의 수확은 폭풍 때문에 일부 손상되었지만 품질에는 영향이 없었습니다.",
+     "en": "This wine is produced on a small farm in the south of France. The grapes are picked by hand in September, then stored in oak barrels for eighteen months. The bottles are exported to ten countries every October. This year's harvest was partly damaged by a storm, but the quality hasn't been affected."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ワインは何か月熟成されますか。",
+      "options": [
+       "18か月",
+       "10か月",
+       "二年"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "カスタマーセンターです。"
+      },
+      {
+       "s": "B",
+       "t": "注文した本がまだ配達されていません。"
+      },
+      {
+       "s": "A",
+       "t": "注文番号をお願いします。"
+      },
+      {
+       "s": "B",
+       "t": "はい、4-7-2-9-1です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 고객 센터입니다.\n손님: 주문한 책이 아직 배달되지 않았어요.\n직원: 주문 번호를 말씀해 주시겠어요?\n손님: 네, 4-7-2-9-1입니다.",
+     "en": "Agent: Customer service.\nCustomer: The book I ordered hasn't been delivered yet.\nAgent: Could I have your order number?\nCustomer: Yes, it's 47291."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "物：______",
+      "answers": [
+       "本"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "注文番号：______",
+      "answers": [
+       "4-7-2-9-1"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) この車はドイツで___。\n2) 昨夜、私は自転車を___。\n3) 荷物は明日配達___。",
+    "trans": {
+     "ko": "1) 이 차는 독일에서 만들어져요. 2) 어젯밤 제 자전거를 도난당했어요. 3) 소포는 내일 배달될 거예요.",
+     "en": "1) This car is made in Germany. 2) My bike was stolen last night. 3) The parcel will be delivered tomorrow."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この車はドイツで___。",
+      "options": [
+       "作られています",
+       "作っています",
+       "作りました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "昨夜、私は自転車を___。",
+      "options": [
+       "盗まれました",
+       "盗みました",
+       "盗んでいます"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "荷物は明日配達___。",
+      "options": [
+       "されます",
+       "します",
+       "しました"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "ニックへ。悪いニュースだよ。昨日、地下鉄で財布を(1)。銀行のカードはもう(2)、新しいカードは来週(3)よ。警察にも届けたよ。",
+    "trans": {
+     "ko": "안녕, 닉! 나쁜 소식이야. 어제 지하철에서 지갑을 도난당했어. 은행 카드는 이미 정지됐고, 새 카드는 다음 주에 보내질 거야. 경찰에도 신고했어.",
+     "en": "Hi Nick, Bad news. My wallet was stolen on the underground yesterday. My bank card has already been cancelled, and a new one will be sent next week. I've also reported it to the police."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "盗まれた",
+       "盗んだ",
+       "盗む"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "止められていて",
+       "止めたがって",
+       "止まりたくて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "送られる",
+       "送る",
+       "送った"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "町のお知らせ\n古い市場広場は、今月から改修工事が行われています。新しい床は地元の石で作られ、工事は8月に終わる予定です。その間、土曜市は市役所の前で開かれます。工事の騒音に関する苦情は、市役所に送ってください。",
+    "trans": {
+     "ko": "마을 소식\n오래된 시장 광장은 이번 달부터 보수 공사 중입니다. 새 바닥은 지역 석재로 만들어지며 공사는 8월에 끝날 예정입니다. 그동안 토요일 시장은 시청 앞에서 열립니다. 공사 소음에 대한 불편 사항은 시청으로 보내 주세요.",
+     "en": "VILLAGE NEWS\nThe old market square is being repaired this month. The new floor will be made from local stone, and the work is expected to be finished in August. In the meantime, the Saturday market is held outside the town hall. Complaints about noise should be sent to the council."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "新しい床は何で作られますか。",
+      "options": [
+       "地元の石",
+       "木",
+       "コンクリート"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "土曜市は今どこで開かれますか。",
+      "options": [
+       "市役所の前",
+       "広場",
+       "駅前"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この橋は1895年に建てられ、二年前に初めて大規模に修理されました。今日では、一日に約二万人が利用しています。来月には街灯が新しいものに交換される予定です。",
+    "trans": {
+     "ko": "이 다리는 1895년에 지어졌고 2년 전에 처음으로 대대적으로 수리되었어요. 오늘날에는 하루에 약 2만 명이 이용해요. 다음 달에는 가로등이 새것으로 교체될 예정이에요.",
+     "en": "The bridge was built in 1895 and was repaired for the first time two years ago. Today it is used by about twenty thousand people a day. Next month, the street lights will be replaced with new ones."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "その橋は1895年に建てられました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "その橋は一度も修理されていません。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "その橋は有名な技術者が設計しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "この携帯電話はどこで作られましたか。",
+    "read": "このけいたいでんわはどこでつくられましたか。",
+    "ko": "이 휴대폰은 어디에서 만들어졌어요?",
+    "en": "Where is this phone made?",
+    "situation": {
+     "ko": "생산지를 물을 때",
+     "en": "Asking where something is made"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "中国で作られました。",
+    "read": "ちゅうごくでつくられました。",
+    "ko": "중국에서 만들어졌어요.",
+    "en": "It's made in China.",
+    "situation": {
+     "ko": "일반적 사실을 말할 때",
+     "en": "Stating a general fact"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "財布を盗まれました。",
+    "read": "さいふをぬすまれました。",
+    "ko": "제 지갑을 도난당했어요.",
+    "en": "My wallet was stolen.",
+    "situation": {
+     "ko": "피해를 신고할 때",
+     "en": "Reporting a crime"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "いつ盗まれましたか。",
+    "read": "いつぬすまれましたか。",
+    "ko": "언제 도난당했어요?",
+    "en": "When was it stolen?",
+    "situation": {
+     "ko": "시점을 물을 때",
+     "en": "Asking when"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "荷物はいつ配達されますか。",
+    "read": "にもつはいつはいたつされますか。",
+    "ko": "소포는 언제 배달돼요?",
+    "en": "When will the parcel be delivered?",
+    "situation": {
+     "ko": "미래를 물을 때",
+     "en": "Asking about the future"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "飛行機は欠航になりました。",
+    "read": "ひこうきはけっこうになりました。",
+    "ko": "비행기가 취소됐어요.",
+    "en": "The flight has been cancelled.",
+    "situation": {
+     "ko": "최근 결과를 말할 때",
+     "en": "Reporting a recent result"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "私のパソコンは今、修理されています。",
+    "read": "わたしのパソコンはいま、しゅうりされています。",
+    "ko": "제 컴퓨터는 지금 수리 중이에요.",
+    "en": "My computer is being repaired.",
+    "situation": {
+     "ko": "진행 중인 일을 말할 때",
+     "en": "Saying it is in progress"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "その映画はだれが監督しましたか。",
+    "read": "そのえいがはだれがかんとくしましたか。",
+    "ko": "그 영화는 누가 감독했어요?",
+    "en": "Who was the film directed by?",
+    "situation": {
+     "ko": "행위자를 물을 때",
+     "en": "Asking who did it"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜は〜で作られています。",
+    "read": "〜は〜でつくられています。",
+    "ko": "~는 ~에서 만들어져요.",
+    "en": "~ is made in ~."
+   },
+   {
+    "id": "w2",
+    "t": "私は〜に〜を盗まれました。",
+    "read": "わたしは〜に〜をぬすまれました。",
+    "ko": "~는 ~에 도난당했어요.",
+    "en": "~ was stolen ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜は〜に配達されます。",
+    "read": "〜は〜にはいたつされます。",
+    "ko": "~는 ~에 배달될 거예요.",
+    "en": "~ will be delivered ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜はキャンセルされました。",
+    "read": "〜はキャンセルされました。",
+    "ko": "~는 취소됐어요.",
+    "en": "~ has been cancelled."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "수동태로 3문장을 써 보세요: 물건이 만들어지는 곳, 최근 도난당하거나 고장 난 것, 앞으로 배달되거나 수리될 것.",
+    "en": "Write 3 passive sentences: where something is made, something that was lost or damaged recently, and something that will be delivered or repaired."
+   },
+   "must_include": [
+    {
+     "label": "〜で作られています",
+     "match": [
+      "作られています"
+     ]
+    },
+    {
+     "label": "〜を盗まれました",
+     "match": [
+      "盗まれました"
+     ]
+    },
+    {
+     "label": "〜は配達されます",
+     "match": [
+      "配達されます"
+     ]
+    }
+   ],
+   "model": "このかばんはイタリアで作られています。私は昨日、財布を盗まれました。新しい携帯電話は明日配達されます。",
+   "model_trans": {
+    "ko": "이 가방은 이탈리아에서 만들어져요. 제 지갑을 어제 도난당했어요. 새 휴대폰은 내일 배달될 거예요.",
+    "en": "This bag is made in Italy. My wallet was stolen yesterday. My new phone will be delivered tomorrow."
+   }
+  }
+ }
+}

@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "ja_b1_u11",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 11,
+  "concept": "B1.U11",
+  "status": "live",
+  "title": {
+   "target": "人や物を説明する",
+   "ko": "사람과 사물 설명하기",
+   "en": "Describing people and things"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "〜する人",
+   "pos": "pron",
+   "read": "〜するひと",
+   "ko": "~한 사람",
+   "en": "who",
+   "ex": {
+    "t": "英語を教えている人を知っています。",
+    "read": "えいごをおしえているひとをしっています。",
+    "ko": "저는 영어를 가르치는 여자를 알아요.",
+    "en": "I know a woman who teaches English."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜するもの",
+   "pos": "pron",
+   "read": "〜するもの",
+   "ko": "~한 것",
+   "en": "which",
+   "ex": {
+    "t": "私がいちばん好きなものは本です。",
+    "read": "わたしがいちばんすきなものはほんです。",
+    "ko": "저는 바다가 보이는 방을 원해요.",
+    "en": "I want a room which has a sea view."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜する（人・物）",
+   "pos": "pron",
+   "read": "〜する（ひと・もの）",
+   "ko": "~한 (사람·사물)",
+   "en": "that",
+   "ex": {
+    "t": "昨日買った本を読みました。",
+    "read": "きのうかったほんをよみました。",
+    "ko": "이건 제가 어제 산 책이에요.",
+    "en": "This is the book that I bought yesterday."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜する所",
+   "pos": "pron",
+   "read": "〜するところ",
+   "ko": "~한 곳",
+   "en": "where",
+   "ex": {
+    "t": "ここは私たちが初めて会った所です。",
+    "read": "ここはわたしたちがはじめてあったところです。",
+    "ko": "우리가 만난 카페는 문을 닫았어요.",
+    "en": "The cafe where we met has closed."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "だれの〜",
+   "pos": "pron",
+   "read": "だれの〜",
+   "ko": "누구의 ~",
+   "en": "whose",
+   "ex": {
+    "t": "これはだれの傘ですか。",
+    "read": "これはだれのかさですか。",
+    "ko": "차가 도난당한 남자가 경찰을 불렀어요.",
+    "en": "The man whose car was stolen called the police."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "隣人",
+   "pos": "noun",
+   "read": "りんじん",
+   "ko": "이웃",
+   "en": "neighbour",
+   "ex": {
+    "t": "隣人はとても親切です。",
+    "read": "りんじんはとてもしんせつです。",
+    "ko": "제 이웃은 저에게 항상 인사를 해요.",
+    "en": "My neighbour always says hello to me."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "同僚",
+   "pos": "noun",
+   "read": "どうりょう",
+   "ko": "동료",
+   "en": "colleague",
+   "ex": {
+    "t": "私は同僚と昼ご飯を食べます。",
+    "read": "わたしはどうりょうとひるごはんをたべます。",
+    "ko": "제 동료 한 명이 다음 달에 은퇴해요.",
+    "en": "One of my colleagues is retiring next month."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "何人かの",
+   "pos": "det",
+   "read": "なんにんかの",
+   "ko": "몇몇",
+   "en": "some",
+   "ex": {
+    "t": "何人かの友達が来ました。",
+    "read": "なんにんかのともだちがきました。",
+    "ko": "제가 아는 사람 몇 명은 서울에 살아요.",
+    "en": "Some of the people I know live in Seoul."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "正確に",
+   "pos": "adv",
+   "read": "せいかくに",
+   "ko": "정확히",
+   "en": "exactly",
+   "ex": {
+    "t": "正確に何が起こりましたか。",
+    "read": "せいかくになにがおこりましたか。",
+    "ko": "제가 찾던 게 바로 이거예요.",
+    "en": "This is exactly what I was looking for."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "特徴",
+   "pos": "noun",
+   "read": "とくちょう",
+   "ko": "특징",
+   "en": "feature",
+   "ex": {
+    "t": "この町の特徴は古い市場です。",
+    "read": "このまちのとくちょうはふるいしじょうです。",
+    "ko": "이 휴대폰의 가장 좋은 점은 배터리예요.",
+    "en": "The best feature of this phone is the battery."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "名詞を修飾する文：普通形 + 名詞",
+   "en": "Modifying clauses: plain form + noun"
+  },
+  "explain": {
+   "ko": "日本語では、名詞を説明する文は、必ずその名詞の前に置きます。英語の who, which, where にあたる言葉はなく、動詞や形容詞を普通形にして、そのまま名詞につなぎます：「英語を教えている女性」「昨日買った本」「私たちが初めて会ったカフェ」。修飾する文の中の主語には「が」を使います（「は」は使えません）：「私が昨日買った本」。場所は「〜所」「〜ところ」で、人は「〜人」、物は「〜もの」と言います。名詞「だ」は「の」「な」に変わります：「医者の人」「静かな所」。",
+   "en": "In Japanese a clause that describes a noun always comes before it. There are no words like who, which or where; the verb or adjective is put in the plain form and joined directly to the noun: 「英語を教えている女性」「昨日買った本」「私たちが初めて会ったカフェ」. The subject inside the modifying clause takes が (not は): 「私が昨日買った本」. A place is 〜所 / 〜ところ, a person 〜人, a thing 〜もの. だ becomes の or な before a noun: 「医者の人」「静かな所」."
+  },
+  "table": {
+   "head": [
+    "形 / Form",
+    "例 / Example",
+    "意味 / Meaning"
+   ],
+   "rows": [
+    [
+     "動詞 + 名詞 / Verb + noun",
+     "英語を教えている女性",
+     "a woman who teaches English"
+    ],
+    [
+     "過去形 + 名詞 / Past + noun",
+     "昨日買った本",
+     "the book I bought yesterday"
+    ],
+    [
+     "〜が + 動詞 + 名詞",
+     "私たちが出会ったカフェ",
+     "the café where we met"
+    ],
+    [
+     "形容詞 + 名詞",
+     "海が見える部屋",
+     "a room with a sea view"
+    ],
+    [
+     "〜の + 名詞",
+     "車を盗まれた男性",
+     "the man whose car was stolen"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "修飾する文の中の主語は「は」ではなく「が」にします。",
+    "en": "The subject of the modifying clause takes が, not は."
+   },
+   {
+    "ko": "「〜こと」「〜の」を使うと、文を名詞のようにできます：読むのが好きです。",
+    "en": "Using 〜こと or 〜の turns a clause into a noun: 読むのが好きです。"
+   },
+   {
+    "ko": "関係代名詞は省略するのではなく、もともと存在しません。",
+    "en": "There is no relative pronoun to omit; Japanese simply has none."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は英語を教えている女性を知っています。",
+    "read": "わたしはえいごをおしえているじょせいをしっています。",
+    "ko": "저는 영어를 가르치는 여자를 알아요.",
+    "en": "I know a woman who teaches English."
+   },
+   {
+    "t": "これは私が昨日買った本です。",
+    "read": "これはわたしがきのうかったほんです。",
+    "ko": "이건 제가 어제 산 책이에요.",
+    "en": "This is the book that I bought yesterday."
+   },
+   {
+    "t": "私たちが出会ったカフェは閉店しました。",
+    "read": "わたしたちがであったカフェはへいてんしました。",
+    "ko": "우리가 만난 카페는 문을 닫았어요.",
+    "en": "The cafe where we met has closed."
+   },
+   {
+    "t": "車を盗まれた男性が警察に電話しました。",
+    "read": "くるまをぬすまれただんせいがけいさつにでんわしました。",
+    "ko": "차가 도난당한 남자가 경찰을 불렀어요.",
+    "en": "The man whose car was stolen called the police."
+   },
+   {
+    "t": "私は海が見える部屋がほしいです。",
+    "read": "わたしはうみがみえるへやがほしいです。",
+    "ko": "저는 바다가 보이는 방을 원해요.",
+    "en": "I want a room which has a sea view."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私は英語を___女性を知っています。",
+    "options": [
+     "教えている",
+     "教える人",
+     "教えて"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "これは私が昨日___本です。",
+    "options": [
+     "買った",
+     "買う",
+     "買って"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "私たちが___カフェは閉店しました。",
+    "options": [
+     "出会った",
+     "出会って",
+     "出会い"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "私は海が___部屋がほしいです。",
+    "options": [
+     "見える",
+     "見えて",
+     "見えない"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どんな人を探していますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어떤 사람을 찾고 있어요?",
+     "en": "(Question) What kind of person are you looking for?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "英語がよくできる人です。",
+       "英語は難しいです。",
+       "昨日見つけました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "あそこにいる女の人はだれですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 저기 있는 여자는 누구예요?",
+     "en": "(Question) Who's that woman over there?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "私の上司の奥さんです。",
+       "昨日、会いました。",
+       "女の人は高いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新しいアパートは、どんなところがいい？"
+      },
+      {
+       "s": "B",
+       "t": "駅から近くて、寝室が二つあるところがいいな。"
+      },
+      {
+       "s": "A",
+       "t": "私が知っている不動産屋さんがいるよ。市内の物件をたくさん扱っているの。"
+      },
+      {
+       "s": "B",
+       "t": "いいね！その人の連絡先を教えてくれる？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 새 아파트는 어떤 곳을 원해?\nB: 역에서 가깝고 침실이 두 개 있는 곳이면 좋겠어.\nA: 내가 아는 중개인이 있어. 시내 매물을 많이 다뤄.\nB: 좋아! 그 사람 연락처를 줄래?",
+     "en": "A: What kind of flat do you want?\nB: One that is near the station and has two bedrooms.\nA: I know an agent who deals with lots of properties in the centre.\nB: Great! Could you give me her number?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人は何がほしいですか。",
+      "options": [
+       "不動産屋さんの連絡先",
+       "市内のアパート",
+       "物件のリスト"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私たちの町の誇りは、何百年も続く市場です。市場が開かれる広場は町でいちばん古い場所で、商人のほとんどは、代々商売をしてきた家族です。特にお見逃しなく。パン屋のマリアさんが焼くライ麦パンは、全国で賞を取りました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저희 마을의 자랑은 수백 년 된 시장입니다. 시장이 열리는 광장은 도시에서 가장 오래된 곳이며, 상인 대부분은 대를 이어 장사를 해 온 가족입니다. 특히 놓치지 마세요. 빵집 주인 마리아가 구워 내는 호밀빵은 전국에서 상을 받았습니다.",
+     "en": "The pride of our town is a market that is hundreds of years old. The square where it takes place is the oldest part of the city, and most of the traders are families who have worked there for generations. Don't miss the rye bread made by Maria, the baker whose shop has won national prizes."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "全国で賞を取ったものは何ですか。",
+      "options": [
+       "マリアさんのライ麦パン",
+       "市場",
+       "広場"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どんな仕事を探していますか。"
+      },
+      {
+       "s": "B",
+       "t": "人といっしょに働ける仕事です。"
+      },
+      {
+       "s": "A",
+       "t": "今の職場で、いちばん気に入っている点は何ですか。"
+      },
+      {
+       "s": "B",
+       "t": "私が尊敬する同僚がいることです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "면접관: 어떤 종류의 일을 찾고 계신가요?\n지원자: 사람들과 함께 일할 수 있는 일이요.\n면접관: 지금 일하시는 곳에서 가장 마음에 드는 점은 뭔가요?\n지원자: 제가 존경하는 동료들이 있다는 거예요.",
+     "en": "Interviewer: What kind of job are you looking for?\nCandidate: One where I can work with people.\nInterviewer: What do you like most about your present job?\nCandidate: I have colleagues whom I respect."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "希望：______といっしょに働ける仕事",
+      "answers": [
+       "人"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "気に入っている点：尊敬する______",
+      "answers": [
+       "同僚"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は英語を___女性を知っています。\n2) これは私が昨日___本です。\n3) 私たちが___カフェは閉店しました。",
+    "trans": {
+     "ko": "1) 저는 영어를 가르치는 여자를 알아요. 2) 이건 제가 어제 산 책이에요. 3) 우리가 만난 카페는 문을 닫았어요.",
+     "en": "1) I know a woman who teaches English. 2) This is the book that I bought yesterday. 3) The cafe where we met has closed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は英語を___女性を知っています。",
+      "options": [
+       "教えている",
+       "教える人",
+       "教えて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "これは私が昨日___本です。",
+      "options": [
+       "買った",
+       "買う",
+       "買って"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私たちが___カフェは閉店しました。",
+      "options": [
+       "出会った",
+       "出会って",
+       "出会い"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "エマへ。先週話した人は、あそこにいる男の人だよ。彼はアフリカで(1)医者で、子どものための学校を(2)。君が読んだ本を(3)作家のお兄さんでもあるんだ。",
+    "trans": {
+     "ko": "안녕, 엠마! 지난주에 이야기한 사람은 저기 있는 남자야. 그는 아프리카에서 일하는 의사이고 아이들을 위한 학교를 세웠어. 네가 읽은 책을 쓴 작가의 형이기도 해.",
+     "en": "Hi Emma, The man I told you about last week is over there. He's a doctor who works in Africa and has built a school for children. He's also the brother of the author who wrote the book you read."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "働いている",
+       "働いた",
+       "働く人"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "建てたんだ",
+       "建てられたんだ",
+       "建てさせたんだ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "書いた",
+       "書かれた",
+       "書き"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "新しいスタッフを募集しています\n町の中心にある私たちのカフェで、経験のあるバリスタを探しています。応募者は、チームで働けて、週末に働ける人でなければなりません。私たちが提供するのは、柔軟な勤務時間と親切なチームです。興味のある方は、ウェブサイトに履歴書をアップロードしてください。",
+    "trans": {
+     "ko": "새 직원을 찾습니다\n도시 중심에 있는 우리 카페에서 경험이 있는 바리스타를 찾고 있습니다. 지원자는 팀으로 일할 수 있고 주말에 일할 수 있는 사람이어야 합니다. 우리가 제공하는 것은 유연한 근무 시간과 친절한 팀입니다. 관심 있으신 분은 우리 웹사이트에 이력서를 올려 주세요.",
+     "en": "STAFF WANTED\nOur cafe in the city centre is looking for an experienced barista. Applicants should be people who can work in a team and are free at weekends. What we offer is flexible hours and a friendly team. If you are interested, please upload your CV to our website."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "どんな人を探していますか。",
+      "options": [
+       "経験のあるバリスタ",
+       "料理人",
+       "マネージャー"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "何を提供しますか。",
+      "options": [
+       "柔軟な勤務時間",
+       "無料のアパート",
+       "車"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "カルロスさんは田舎にある古い家を買いました。その家は、おばあさんが子どものころに住んでいた所です。屋根から雨が漏れる部屋が二つありますが、庭が美しいので、彼はすぐに引っ越したがっています。",
+    "trans": {
+     "ko": "카를로스는 시골에 있는 오래된 집을 샀어요. 그 집은 할머니가 어릴 때 살던 곳이에요. 지붕이 새는 방이 두 개 있지만 정원이 아름다워서 그는 곧 이사하고 싶어 해요.",
+     "en": "Carlos has bought an old house in the countryside. It is the place where his grandmother lived as a child. Two rooms have roofs that leak, but the garden is beautiful, so he wants to move in soon."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "カルロスさんは田舎にある家を買いました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "庭を直さなければなりません。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "カルロスさんのおばあさんは今もその家に住んでいます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "どんな人を探していますか。",
+    "read": "どんなひとをさがしていますか。",
+    "ko": "어떤 사람을 찾고 있어요?",
+    "en": "What kind of person are you looking for?",
+    "situation": {
+     "ko": "원하는 사람을 물을 때",
+     "en": "Asking what kind of person"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "英語がよくできる人です。",
+    "read": "えいごがよくできるひとです。",
+    "ko": "영어를 잘하는 사람이요.",
+    "en": "Someone who speaks good English.",
+    "situation": {
+     "ko": "사람을 설명할 때",
+     "en": "Describing a person"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "あそこにいる女の人はだれですか。",
+    "read": "あそこにいるおんなのひとはだれですか。",
+    "ko": "어떤 집을 원하세요?",
+    "en": "What kind of flat do you want?",
+    "situation": {
+     "ko": "원하는 것을 물을 때",
+     "en": "Asking what kind of thing"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "私の上司の奥さんです。",
+    "read": "わたしのじょうしのおくさんです。",
+    "ko": "방이 두 개 있고 역에서 가까운 집이요.",
+    "en": "One which has two bedrooms and is near the station.",
+    "situation": {
+     "ko": "사물을 설명할 때",
+     "en": "Describing a thing"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "私たちが初めて会ったカフェを覚えていますか。",
+    "read": "わたしたちがはじめてあったカフェをおぼえていますか。",
+    "ko": "우리가 처음 만난 카페 기억나요?",
+    "en": "Do you remember the cafe where we first met?",
+    "situation": {
+     "ko": "장소를 말할 때",
+     "en": "Talking about a place"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "昨日借りた本を探さなければなりません。",
+    "read": "きのうかりたほんをさがさなければなりません。",
+    "ko": "저기 있는 여자가 누구예요?",
+    "en": "Who's that woman over there?",
+    "situation": {
+     "ko": "사람을 물을 때",
+     "en": "Asking about a person"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "どんな家がほしいですか。",
+    "read": "どんないえがほしいですか。",
+    "ko": "제 상사의 부인이에요.",
+    "en": "She's the wife of the man whose company I work for.",
+    "situation": {
+     "ko": "소유를 설명할 때",
+     "en": "Explaining possession"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "部屋が二つあって、駅から近い家です。",
+    "read": "へやがふたつあって、えきからちかいいえです。",
+    "ko": "제가 어제 빌린 책을 찾아야 해요.",
+    "en": "I need to find the book I borrowed yesterday.",
+    "situation": {
+     "ko": "목적어 관계사를 생략할 때",
+     "en": "Leaving out the relative pronoun"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "私は〜（動詞）人を知っています。",
+    "read": "わたしは〜（どうし）ひとをしっています。",
+    "ko": "저는 ~하는 사람을 알아요.",
+    "en": "I know someone who ~."
+   },
+   {
+    "id": "w2",
+    "t": "これは私が〜た本です。",
+    "read": "これはわたしが〜たほんです。",
+    "ko": "제가 ~한 책은 ~예요.",
+    "en": "The book that I ~ is ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜た所は〜です。",
+    "read": "〜たところは〜です。",
+    "ko": "~한 곳은 ~예요.",
+    "en": "The place where ~ is ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜が〜た人が〜ました。",
+    "read": "〜が〜たひとが〜ました。",
+    "ko": "~가 ~한 사람이 ~했어요.",
+    "en": "The person whose ~ ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "관계절을 써서 3문장으로 써 보세요: 아는 사람 한 명, 좋아하는 물건, 의미 있는 장소.",
+    "en": "Write 3 sentences using relative clauses: a person you know, something you like, and a place that matters to you."
+   },
+   "must_include": [
+    {
+     "label": "〜（動詞）人を知っています",
+     "match": [
+      "を知っています"
+     ]
+    },
+    {
+     "label": "私がいちばん好きな本",
+     "match": [
+      "好きな本"
+     ]
+    },
+    {
+     "label": "私たちが初めて会ったカフェ",
+     "match": [
+      "会ったカフェ"
+     ]
+    }
+   ],
+   "model": "私は英語を教えている女性を知っています。これは私がいちばん好きな本です。私たちが初めて会ったカフェは、もう閉店しました。",
+   "model_trans": {
+    "ko": "저는 영어를 가르치는 여자를 알아요. 이건 제가 가장 좋아하는 책이에요. 우리가 처음 만난 카페는 이제 문을 닫았어요.",
+    "en": "I know a woman who teaches English. This is the book that I like best. The cafe where we first met has closed down."
+   }
+  }
+ }
+}

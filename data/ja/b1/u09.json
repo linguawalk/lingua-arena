@@ -1,0 +1,838 @@
+{
+ "meta": {
+  "id": "ja_b1_u09",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 9,
+  "concept": "B1.U09",
+  "status": "live",
+  "title": {
+   "target": "規則と過去の義務",
+   "ko": "규칙과 과거의 의무",
+   "en": "Rules and past obligation"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "ルール",
+   "pos": "noun",
+   "read": "ルール",
+   "ko": "규칙",
+   "en": "rule",
+   "ex": {
+    "t": "学校には厳しいルールがありました。",
+    "read": "がっこうにはいかめしいルールがありました。",
+    "ko": "학교에는 엄격한 규칙이 많았어요.",
+    "en": "The school had a lot of strict rules."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "許可",
+   "pos": "noun",
+   "read": "きょか",
+   "ko": "허락",
+   "en": "permission",
+   "ex": {
+    "t": "先生の許可をもらいました。",
+    "read": "せんせいのきょかをもらいました。",
+    "ko": "들어가기 전에 허락을 받아야 해요.",
+    "en": "You need permission before you go in."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜てもいい",
+   "pos": "phrase",
+   "read": "〜てもいい",
+   "ko": "(~하는 것이) 허용되다",
+   "en": "be allowed to",
+   "ex": {
+    "t": "ここで写真を撮ってもいいですか。",
+    "read": "ここでしゃしんをとってもいいですか。",
+    "ko": "우리는 교실에서 휴대폰을 쓸 수 없었어요.",
+    "en": "We weren't allowed to use phones in class."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜なければならなかった",
+   "pos": "phrase",
+   "read": "〜なければならなかった",
+   "ko": "~해야 했다",
+   "en": "had to",
+   "ex": {
+    "t": "私は十時までに帰らなければなりませんでした。",
+    "read": "わたしはじゅうじまでにかえらなければなりませんでした。",
+    "ko": "저는 어릴 때 일찍 자야 했어요.",
+    "en": "I had to go to bed early as a child."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜必要がない",
+   "pos": "modal",
+   "read": "〜ひつようがない",
+   "ko": "~할 필요가 없다",
+   "en": "needn't",
+   "ex": {
+    "t": "予約する必要はありません。",
+    "read": "よやくするひつようはありません。",
+    "ko": "서두를 필요 없어요. 시간이 많아요.",
+    "en": "You needn't hurry. We have plenty of time."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "必須",
+   "pos": "adj",
+   "read": "ひっす",
+   "ko": "필수의",
+   "en": "compulsory",
+   "ex": {
+    "t": "制服は必須でした。",
+    "read": "せいふくはひっすでした。",
+    "ko": "우리 학교에서는 교복이 필수였어요.",
+    "en": "A uniform was compulsory at our school."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "義務",
+   "pos": "noun",
+   "read": "ぎむ",
+   "ko": "의무",
+   "en": "duty",
+   "ex": {
+    "t": "納税は国民の義務です。",
+    "read": "のうぜいはこくみんのぎむです。",
+    "ko": "그녀는 환자를 돌볼 의무가 있어요.",
+    "en": "She has a duty to care for her patients."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "禁止する",
+   "pos": "verb",
+   "read": "きんしする",
+   "ko": "금지하다",
+   "en": "forbid",
+   "ex": {
+    "t": "ここでは喫煙が禁止されています。",
+    "read": "ここではきつえんがきんしされています。",
+    "ko": "규칙은 학생이 일찍 떠나는 것을 금지해요.",
+    "en": "The rules forbid students from leaving early."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "規則を守る",
+   "pos": "verb",
+   "read": "きそくをまもる",
+   "ko": "규정을 지키다",
+   "en": "obey",
+   "ex": {
+    "t": "規則を守ってください。",
+    "read": "きそくをまもってください。",
+    "ko": "운전자는 교통 법규를 지켜야 해요.",
+    "en": "Drivers must obey traffic laws."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "罰金",
+   "pos": "noun",
+   "read": "ばっきん",
+   "ko": "벌금",
+   "en": "fine",
+   "ex": {
+    "t": "遅れると罰金を払わなければなりません。",
+    "read": "おくれるとばっきんをはらわなければなりません。",
+    "ko": "주차를 잘못해서 벌금을 냈어요.",
+    "en": "I had to pay a fine for parking illegally."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "規則と義務：〜なければならなかった・〜てはいけない・〜なくてもよかった",
+   "en": "Rules and past obligation: 〜なければならなかった / 〜てはいけない / 〜なくてもよかった"
+  },
+  "explain": {
+   "ko": "義務は「〜なければなりません」で言い、過去は「〜なければなりませんでした」です：「子どものころ、九時に寝なければなりませんでした。」許可は「〜てもいいです」、禁止は「〜てはいけません」で、過去は「〜てはいけませんでした」です：「教室で食べてはいけませんでした。」しなくてもいいことは「〜なくてもいいです」「〜必要はありません」で、過去は「〜なくてもよかったです」「〜必要はありませんでした」です：「昨日は早く起きなくてもよかったです。」注意：「〜なくてもいい」は「しなくてもいい」、「〜てはいけない」は「してはいけない」という意味です。",
+   "en": "Obligation is 〜なければなりません, past 〜なければなりませんでした: 「子どものころ、九時に寝なければなりませんでした。」 Permission is 〜てもいいです; prohibition is 〜てはいけません, past 〜てはいけませんでした: 「教室で食べてはいけませんでした。」 What is not necessary is 〜なくてもいいです or 〜必要はありません, past 〜なくてもよかったです / 〜必要はありませんでした: 「昨日は早く起きなくてもよかったです。」 Note: 〜なくてもいい means you needn't, while 〜てはいけない means you must not."
+  },
+  "table": {
+   "head": [
+    "意味 / Meaning",
+    "現在 / Present",
+    "過去 / Past"
+   ],
+   "rows": [
+    [
+     "義務 / Obligation",
+     "〜なければなりません",
+     "〜なければなりませんでした"
+    ],
+    [
+     "不必要 / Not necessary",
+     "〜なくてもいいです",
+     "〜なくてもよかったです"
+    ],
+    [
+     "許可 / Permission",
+     "〜てもいいです",
+     "〜てもよかったです"
+    ],
+    [
+     "禁止 / Prohibition",
+     "〜てはいけません",
+     "〜てはいけませんでした"
+    ],
+    [
+     "質問 / Question",
+     "〜なければなりませんか",
+     "〜なければなりませんでしたか"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜なくてもいい」は禁止ではなく、「必要ない」という意味です。",
+    "en": "〜なくてもいい means 'it is not necessary', not a prohibition."
+   },
+   {
+    "ko": "「〜なければなりません」は「〜なければいけません」「〜なくてはなりません」とも言います。",
+    "en": "〜なければなりません can also be 〜なければいけません or 〜なくてはなりません."
+   },
+   {
+    "ko": "「〜てはいけません」は話し言葉で「〜ちゃだめ」と言うこともあります。",
+    "en": "In casual speech 〜てはいけません becomes 〜ちゃだめ."
+   }
+  ],
+  "examples": [
+   {
+    "t": "子どものころ、私は九時に寝なければなりませんでした。",
+    "read": "こどものころ、わたしはくじにねなければなりませんでした。",
+    "ko": "어릴 때 저는 아홉 시에 자야 했어요.",
+    "en": "When I was young, I had to go to bed at nine."
+   },
+   {
+    "t": "当時、教室で携帯電話を使ってはいけませんでした。",
+    "read": "とうじ、きょうしつでけいたいでんわをつかってはいけませんでした。",
+    "ko": "그때는 교실에서 휴대폰을 쓸 수 없었어요.",
+    "en": "We weren't allowed to use phones in class."
+   },
+   {
+    "t": "昨日は早く起きなくてもよかったです。",
+    "read": "きのうははやくおきなくてもよかったです。",
+    "ko": "어제는 일찍 일어날 필요가 없었어요.",
+    "en": "I didn't have to get up early yesterday."
+   },
+   {
+    "t": "今はチケットを前もって買う必要はありません。",
+    "read": "いまはチケットをまえもってかうひつようはありません。",
+    "ko": "지금은 표를 미리 살 필요가 없어요.",
+    "en": "You don't need to buy a ticket in advance now."
+   },
+   {
+    "t": "彼女は試験の前に許可をもらわなければなりませんでした。",
+    "read": "かのじょはしけんのまえにきょかをもらわなければなりませんでした。",
+    "ko": "그녀는 시험 전에 허락을 받아야 했어요.",
+    "en": "She had to get permission before the exam."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "子どものころ、私は九時に寝___。",
+    "options": [
+     "なければなりませんでした",
+     "てもいいです",
+     "なくてもいいです"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "当時、教室で携帯電話を使って___。",
+    "options": [
+     "はいけませんでした",
+     "もいいです",
+     "はいけません"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "昨日は早く起き___。",
+    "options": [
+     "なくてもよかったです",
+     "なければなりませんでした",
+     "てはいけませんでした"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "ここでは携帯電話を使って___。",
+    "options": [
+     "はいけません",
+     "もよかったです",
+     "なくてもいいです"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "子どものころ、ルールは厳しかったですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어릴 때 규칙이 엄격했어요?",
+     "en": "(Question) Were your rules strict when you were a child?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、十時までに家に帰らなければなりませんでした。",
+       "いいえ、明日行きます。",
+       "はい、ルールは新しいです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日は早く起きなければなりませんでしたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어제 일찍 일어나야 했어요?",
+     "en": "(Question) Did you have to get up early yesterday?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "いいえ、早く起きなくてもよかったです。休みでした。",
+       "はい、今から行きます。",
+       "いいえ、起きてはいけません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "学校のとき、制服を着なければならなかった？"
+      },
+      {
+       "s": "B",
+       "t": "うん、必須だったよ。それに、教室で携帯電話を使ってはいけなかった。"
+      },
+      {
+       "s": "A",
+       "t": "本当？私たちは昼休みなら使ってもよかったよ。"
+      },
+      {
+       "s": "B",
+       "t": "私たちはだめだった。見つかったら、先生に預けなければならなかった。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 학교 다닐 때 교복을 입어야 했어?\nB: 응, 필수였어. 그리고 교실에서 휴대폰을 쓸 수 없었어.\nA: 정말? 우리는 점심시간엔 써도 됐어.\nB: 우리는 안 됐어. 걸리면 선생님께 맡겨야 했어.",
+     "en": "A: Did you have to wear a uniform at school?\nB: Yes, it was compulsory. And we weren't allowed to use phones in class.\nA: Really? We could use them at lunchtime.\nB: Not us. If you were caught, you had to hand it to the teacher."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "携帯電話が見つかったら、どうしなければなりませんでしたか。",
+      "options": [
+       "先生に預ける",
+       "捨てる",
+       "昼休みに返してもらう"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新入社員の皆さん、ようこそ。すべての社員は、入館カードをいつも身につけなければなりません。訪問者は受付で登録しなければならず、一人でオフィスを歩き回ってはいけません。休憩室では食事をしてもいいですが、机では食べてはいけません。駐車券がない方は、駐車しないでください。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "신입 직원 여러분, 환영합니다. 모든 직원은 출입 카드를 항상 착용해야 합니다. 방문객은 안내 데스크에서 등록해야 하며, 혼자서 사무실을 돌아다닐 수 없습니다. 휴게실에서는 음식을 드셔도 되지만 책상에서는 드실 수 없습니다. 주차권이 없는 분은 주차하지 마세요.",
+     "en": "Welcome, new staff. All employees must wear their pass at all times. Visitors have to sign in at reception and are not allowed to walk around the offices alone. You may eat in the break room, but not at your desk. Please don't park here unless you have a permit."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "食事をしてもいい場所はどこですか。",
+      "options": [
+       "休憩室",
+       "机",
+       "受付"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "図書館の案内デスクです。"
+      },
+      {
+       "s": "B",
+       "t": "試験期間中に閲覧室を使えますか。"
+      },
+      {
+       "s": "A",
+       "t": "はい、ただし学生証を必ず見せていただかなければなりません。"
+      },
+      {
+       "s": "B",
+       "t": "わかりました。何時まで開いていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 도서관 안내 데스크입니다.\n학생: 시험 기간 중에 열람실을 쓸 수 있나요?\n직원: 네, 하지만 학생증을 반드시 보여 주셔야 해요.\n학생: 알겠습니다. 몇 시까지 여나요?",
+     "en": "Staff: Library help desk.\nStudent: Can I use the reading room during exams?\nStaff: Yes, but you have to show your student card.\nStudent: Okay. What time does it close?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "見せるもの：______",
+      "answers": [
+       "学生証"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "場所：______",
+      "answers": [
+       "閲覧室"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 子どものころ、私は九時に寝___。\n2) 私たちは教室で食べ___。\n3) 昨日は早く起きる必要がなかったので、寝坊___。",
+    "trans": {
+     "ko": "1) 어릴 때 저는 아홉 시에 자야 했어요. 2) 우리는 교실에서 먹을 수 없었어요. 3) 어제는 일찍 일어날 필요가 없어서 늦잠을 잤어요.",
+     "en": "1) When I was young, I had to go to bed at nine. 2) We weren't allowed to eat in class. 3) I didn't have to get up early yesterday, so I slept late."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "子どものころ、私は九時に寝___。",
+      "options": [
+       "なければなりませんでした",
+       "てもいいです",
+       "なくてもいいです"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私たちは教室で食べ___。",
+      "options": [
+       "てはいけませんでした",
+       "てもいいです",
+       "なければなりません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "昨日は早く起きる必要がなかったので、寝坊___。",
+      "options": [
+       "しました",
+       "します",
+       "しています"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "ビッキーへ！新しいアパートはルールが多いんだ。夜十時以降はうるさくして(1)、住人はごみを分別し(2)。ありがたいことに、毎月の管理費を自分で払う(3)。",
+    "trans": {
+     "ko": "안녕, 비키! 새 아파트에는 규칙이 많아. 밤 열 시 이후에는 시끄럽게 하면 안 되고, 세입자는 쓰레기를 분리해야 해. 다행히 매달 관리비를 직접 낼 필요는 없어.",
+     "en": "Hi Vicky, My new flat has a lot of rules. You mustn't make noise after ten at night, and tenants have to separate their rubbish. Luckily, we don't have to pay the service charge ourselves every month."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "はいけないし",
+       "もいいし",
+       "なくてもいいし"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "なければならない",
+       "なくてもいい",
+       "てもいい"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "必要はないんだ",
+       "必要があるんだ",
+       "義務なんだ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "プールのご利用案内\nプールでは、すべての利用者がシャワーを浴びなければなりません。十二歳未満の子どもは、保護者といっしょに来なければなりません。プールの周りで走ってはいけません。水泳帽は必須ではありませんが、長い髪は結ばなければなりません。自分のタオルを持ってくる必要はなく、受付で借りることができます。",
+    "trans": {
+     "ko": "수영장 이용 안내\n수영장에서는 모든 이용객이 샤워를 해야 합니다. 열두 살 미만 어린이는 보호자와 함께 와야 합니다. 수영장 주변에서 뛰어서는 안 됩니다. 수영모는 필수는 아니지만 긴 머리는 묶어야 합니다. 개인 수건을 가져올 필요는 없으며 매표소에서 빌릴 수 있습니다.",
+     "en": "SWIMMING POOL RULES\nAll swimmers must shower before entering the pool. Children under twelve have to be accompanied by an adult. You mustn't run around the pool. A swimming cap is not compulsory, but long hair has to be tied back. You don't need to bring your own towel; you can hire one at the ticket desk."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "だれがシャワーを浴びなければなりませんか。",
+      "options": [
+       "すべての利用者",
+       "子どもだけ",
+       "会員だけ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "タオルについて正しいのはどれですか。",
+      "options": [
+       "受付で借りられる",
+       "二枚持ってこなければならない",
+       "プールのタオルは使えない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "メイさんのおばあさんは、十四歳のときに学校をやめて、家族の農場の仕事を手伝わなければなりませんでした。当時は女の子が大学へ行くことは許されていませんでした。今日、メイさんは好きなことを勉強できて、おばあさんはそれを誇りに思っています。",
+    "trans": {
+     "ko": "메이의 할머니는 열네 살 때 학교를 그만두고 가족의 농장 일을 도와야 했어요. 그때는 소녀들이 대학에 가는 것이 허용되지 않았어요. 오늘날 메이는 원하는 것을 공부할 수 있고, 그녀의 할머니는 그것이 자랑스러워요.",
+     "en": "May's grandmother had to leave school at fourteen to help on the family farm. At that time, girls weren't allowed to go to university. Today May can study whatever she wants, and her grandmother is very proud of it."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "メイさんのおばあさんは十四歳で学校をやめました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "メイさんのおばあさんは大学に行きました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "メイさんは農場で暮らしています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "子どものころ、ルールは厳しかったですか。",
+    "read": "こどものころ、ルールはいかめしかったですか。",
+    "ko": "어릴 때 규칙이 엄격했어요?",
+    "en": "Were your rules strict when you were a child?",
+    "situation": {
+     "ko": "과거 규칙을 물을 때",
+     "en": "Asking about past rules"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "十時までに家に帰らなければなりませんでした。",
+    "read": "じゅうじまでにいえにかえらなければなりませんでした。",
+    "ko": "저는 열 시까지 집에 와야 했어요.",
+    "en": "I had to be home by ten.",
+    "situation": {
+     "ko": "과거의 의무를 말할 때",
+     "en": "Saying what was required"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "教室で食べてはいけませんでした。",
+    "read": "きょうしつでたべてはいけませんでした。",
+    "ko": "우리는 교실에서 먹을 수 없었어요.",
+    "en": "We weren't allowed to eat in class.",
+    "situation": {
+     "ko": "금지를 말할 때",
+     "en": "Saying what was forbidden"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "昨日は早く起きなければなりませんでしたか。",
+    "read": "きのうははやくおきなければなりませんでしたか。",
+    "ko": "어제 일찍 일어나야 했어요?",
+    "en": "Did you have to get up early yesterday?",
+    "situation": {
+     "ko": "필요 여부를 물을 때",
+     "en": "Asking if it was necessary"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "いいえ、その必要はありませんでした。",
+    "read": "いいえ、そのひつようはありませんでした。",
+    "ko": "아니요, 그럴 필요 없었어요.",
+    "en": "No, I didn't have to.",
+    "situation": {
+     "ko": "필요 없었다고 답할 때",
+     "en": "Saying it wasn't necessary"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "今は予約しなくてもいいです。",
+    "read": "いまはよやくしなくてもいいです。",
+    "ko": "지금은 예약하지 않아도 돼요.",
+    "en": "You don't need to book now.",
+    "situation": {
+     "ko": "현재 불필요함을 말할 때",
+     "en": "Saying it isn't needed now"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "ここで携帯電話を使ってはいけません。",
+    "read": "ここでけいたいでんわをつかってはいけません。",
+    "ko": "여기서는 휴대폰을 쓰면 안 돼요.",
+    "en": "You mustn't use your phone here.",
+    "situation": {
+     "ko": "금지를 말할 때",
+     "en": "Prohibiting"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "急ぐ必要はありません。",
+    "read": "いそぐひつようはありません。",
+    "ko": "서두를 필요 없어요.",
+    "en": "You needn't hurry.",
+    "situation": {
+     "ko": "안심시킬 때",
+     "en": "Reassuring someone"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "私は〜なければなりませんでした。",
+    "read": "わたしは〜なければなりませんでした。",
+    "ko": "저는 ~해야 했어요.",
+    "en": "I had to ~."
+   },
+   {
+    "id": "w2",
+    "t": "私たちは〜てはいけませんでした。",
+    "read": "わたしたちは〜てはいけませんでした。",
+    "ko": "우리는 ~할 수 없었어요.",
+    "en": "We weren't allowed to ~."
+   },
+   {
+    "id": "w3",
+    "t": "私は〜なくてもよかったです。",
+    "read": "わたしは〜なくてもよかったです。",
+    "ko": "저는 ~할 필요가 없었어요.",
+    "en": "I didn't have to ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜てはいけません。",
+    "read": "〜てはいけません。",
+    "ko": "~하면 안 돼요.",
+    "en": "You mustn't ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "어릴 때의 규칙을 3문장으로 써 보세요: 해야 했던 일, 허락되지 않았던 일, 하지 않아도 되었던 일.",
+    "en": "Write 3 sentences about rules from your childhood: something you had to do, something you weren't allowed to do, and something you didn't have to do."
+   },
+   "must_include": [
+    {
+     "label": "〜なければなりませんでした",
+     "match": [
+      "なければなりませんでした"
+     ]
+    },
+    {
+     "label": "〜てはいけませんでした",
+     "match": [
+      "てはいけませんでした"
+     ]
+    },
+    {
+     "label": "〜なくてもよかったです",
+     "match": [
+      "なくてもよかった"
+     ]
+    }
+   ],
+   "model": "子どものころ、私は九時に寝なければなりませんでした。夕食中は携帯電話を使ってはいけませんでした。でも、週末は早く起きなくてもよかったです。",
+   "model_trans": {
+    "ko": "어릴 때 저는 아홉 시에 자야 했어요. 저녁 식사 중에는 휴대폰을 쓸 수 없었어요. 하지만 주말에는 일찍 일어나지 않아도 됐어요.",
+    "en": "When I was a child, I had to go to bed at nine. We weren't allowed to use phones at dinner. But I didn't have to get up early at weekends."
+   }
+  }
+ }
+}
