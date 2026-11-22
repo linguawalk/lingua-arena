@@ -1,0 +1,795 @@
+{
+ "meta": {
+  "id": "de_a2_u11",
+  "lang": "de",
+  "family": "europe",
+  "level": "a2",
+  "unit": 11,
+  "concept": "A2.U11",
+  "status": "live",
+  "title": {
+   "target": "Essen und Mengen",
+   "ko": "음식과 양",
+   "en": "Food and quantities"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "ohne Artikel",
+   "pos": "det",
+   "ko": "약간 · 조금 (긍정문)",
+   "en": "some",
+   "ex": {
+    "t": "Ich habe Milch gekauft.",
+    "ko": "저는 우유를 조금 샀어요.",
+    "en": "I bought some milk."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "kein / keine",
+   "pos": "det",
+   "ko": "하나도 · 조금도 (부정·의문)",
+   "en": "any",
+   "ex": {
+    "t": "Wir haben keine Milch.",
+    "ko": "우유가 하나도 없어요.",
+    "en": "We haven't got any milk."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "viel",
+   "pos": "det",
+   "ko": "많은 (셀 수 없는)",
+   "en": "much",
+   "ex": {
+    "t": "Wir haben nicht viel Zeit.",
+    "ko": "우리는 시간이 많지 않아요.",
+    "en": "We don't have much time."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "viele",
+   "pos": "det",
+   "ko": "많은 (셀 수 있는)",
+   "en": "many",
+   "ex": {
+    "t": "Gibt es viele Äpfel?",
+    "ko": "사과가 많이 있어요?",
+    "en": "Are there many apples?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "sehr viel",
+   "pos": "det",
+   "ko": "많은",
+   "en": "a lot of",
+   "ex": {
+    "t": "Er trinkt sehr viel Wasser.",
+    "ko": "그는 물을 많이 마셔요.",
+    "en": "He drinks a lot of water."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "ein paar",
+   "pos": "det",
+   "ko": "몇 개 (셀 수 있는)",
+   "en": "a few",
+   "ex": {
+    "t": "Es gibt ein paar Eier.",
+    "ko": "달걀이 몇 개 있어요.",
+    "en": "There are a few eggs."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "ein bisschen",
+   "pos": "det",
+   "ko": "조금 (셀 수 없는)",
+   "en": "a little",
+   "ex": {
+    "t": "Ich möchte ein bisschen Zucker.",
+    "ko": "설탕을 조금 주세요.",
+    "en": "I'd like a little sugar."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "die Flasche",
+   "pos": "noun",
+   "ko": "병",
+   "en": "bottle",
+   "ex": {
+    "t": "Eine Flasche Wasser, bitte.",
+    "ko": "물 한 병 주세요.",
+    "en": "A bottle of water, please."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "der Sack",
+   "pos": "noun",
+   "ko": "봉지",
+   "en": "bag",
+   "ex": {
+    "t": "Ich habe einen Sack Reis gekauft.",
+    "ko": "쌀 한 봉지를 샀어요.",
+    "en": "I bought a bag of rice."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "genug",
+   "pos": "det",
+   "ko": "충분한",
+   "en": "enough",
+   "ex": {
+    "t": "Wir haben genug Brot.",
+    "ko": "우리는 빵이 충분해요.",
+    "en": "We have enough bread."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "kein / keine · viel / viele · ein bisschen / ein paar",
+   "en": "kein / keine · viel / viele · ein bisschen / ein paar"
+  },
+  "explain": {
+   "ko": "Bei nicht zählbaren Dingen (Milch, Zucker) und bei Mehrzahl ohne bestimmte Menge steht im Deutschen kein Artikel: Ich habe Milch gekauft. Verneinung: kein / keine: Wir haben keine Milch. Mengen: viel + nicht zählbar (viel Zeit), viele + Plural (viele Äpfel), ein bisschen + nicht zählbar, ein paar + Plural, genug. Fragen: Wie viel Milch? Wie viele Eier? Behälter stehen ohne »von«: eine Flasche Wasser, ein Sack Reis.",
+   "en": "For uncountable things (Milch, Zucker) and plurals of no fixed number, German uses no article: Ich habe Milch gekauft. Negation: kein / keine: Wir haben keine Milch. Quantities: viel + uncountable (viel Zeit), viele + plural (viele Äpfel), ein bisschen + uncountable, ein paar + plural, genug. Questions: Wie viel Milch? Wie viele Eier? Containers take no 'von': eine Flasche Wasser, ein Sack Reis."
+  },
+  "table": {
+   "head": [
+    "셀 수 있는 / Zählbar",
+    "셀 수 없는 / Nicht zählbar"
+   ],
+   "rows": [
+    [
+     "Wie viele Eier?",
+     "Wie viel Milch?"
+    ],
+    [
+     "viele Eier",
+     "viel Milch"
+    ],
+    [
+     "ein paar Eier",
+     "ein bisschen Milch"
+    ],
+    [
+     "Eier (ohne Artikel)",
+     "Milch (ohne Artikel)"
+    ],
+    [
+     "keine Eier",
+     "keine Milch"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "»viel« bleibt im Singular unverändert, »viele« steht mit dem Plural.",
+    "en": "'Viel' stays unchanged with singular nouns, 'viele' goes with plurals."
+   },
+   {
+    "ko": "»kein« wird dekliniert wie »ein«: kein Brot, keine Milch, keine Eier.",
+    "en": "'Kein' is declined like 'ein': kein Brot, keine Milch, keine Eier."
+   },
+   {
+    "ko": "Behälter: eine Flasche Wasser, ein Sack Reis, eine Packung Tee.",
+    "en": "Containers: eine Flasche Wasser, ein Sack Reis, eine Packung Tee."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Ich habe Milch gekauft.",
+    "ko": "저는 우유를 조금 샀어요.",
+    "en": "I bought some milk."
+   },
+   {
+    "t": "Wir haben keine Milch.",
+    "ko": "우리는 우유가 하나도 없어요.",
+    "en": "We haven't got any milk."
+   },
+   {
+    "t": "Gibt es viele Äpfel?",
+    "ko": "사과가 많이 있어요?",
+    "en": "Are there many apples?"
+   },
+   {
+    "t": "Ich habe ein bisschen Wasser getrunken.",
+    "ko": "저는 물을 조금 마셨어요.",
+    "en": "I drank a little water."
+   },
+   {
+    "t": "Wir haben genug Brot.",
+    "ko": "우리는 빵이 충분해요.",
+    "en": "We have enough bread."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Wir haben ___ Eier.",
+    "options": [
+     "keine",
+     "kein",
+     "nicht"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Wie ___ Äpfel gibt es?",
+    "options": [
+     "viel",
+     "viele",
+     "vieler"
+    ],
+    "answer": 1,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Ich möchte ein ___ Zucker.",
+    "options": [
+     "bisschen",
+     "paar",
+     "viele"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Wir haben ___ Milch.",
+    "options": [
+     "kein",
+     "keine",
+     "nicht"
+    ],
+    "answer": 1,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Gibt es Milch?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 우유가 좀 있어요?",
+     "en": "(Question) Is there any milk?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Ja, es ist noch etwas da.",
+       "Ja, er ist hier.",
+       "Ja, das ist eine Milch."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Wie viele Eier brauchst du?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 달걀이 몇 개 필요해요?",
+     "en": "(Question) How many eggs do you need?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Sechs, bitte.",
+       "Viel Milch.",
+       "Zwei Flaschen."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Haben wir Brot?"
+      },
+      {
+       "s": "B",
+       "t": "Ja, ein bisschen. Aber wir haben keine Milch."
+      },
+      {
+       "s": "A",
+       "t": "Dann kaufe ich zwei Flaschen Milch und ein paar Eier."
+      },
+      {
+       "s": "B",
+       "t": "Danke!"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 빵이 좀 있어?\nB: 응, 조금 있어. 그런데 우유는 하나도 없어.\nA: 그럼 우유 두 병이랑 달걀 몇 개 사 올게.\nB: 고마워!",
+     "en": "A: Is there any bread?\nB: Yes, there is a little. But there isn't any milk.\nA: Then I'll buy two bottles of milk and a few eggs.\nB: Thanks!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was kauft der Mann?",
+      "options": [
+       "Brot und Eier",
+       "Milch und Eier",
+       "Reis und Milch"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Heute Abend kommen sechs Freunde. Wir haben nicht genug Reis, also muss ich einen Sack kaufen. Wir haben viele Eier und genug Milch."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "오늘 저녁에는 친구 여섯 명이 와요. 쌀이 충분하지 않아서 한 봉지 사야 해요. 달걀은 많이 있지만 우유는 하나도 없어요.",
+     "en": "Six friends are coming this evening. We haven't got enough rice, so I need to buy a bag. We have a lot of eggs but we haven't got any milk."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was müssen sie kaufen?",
+      "options": [
+       "Eier",
+       "Einen Sack Reis",
+       "Milch"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Was möchten Sie?"
+      },
+      {
+       "s": "B",
+       "t": "Zwei Flaschen Wasser und ein paar Äpfel, bitte."
+      },
+      {
+       "s": "A",
+       "t": "Wie viele Äpfel?"
+      },
+      {
+       "s": "B",
+       "t": "Fünf."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 무엇을 드릴까요?\n손님: 물 두 병과 사과 몇 개 주세요.\n직원: 사과는 몇 개요?\n손님: 다섯 개요.",
+     "en": "Clerk: What would you like?\nCustomer: Two bottles of water and a few apples, please.\nClerk: How many apples?\nCustomer: Five."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Wasser: zwei ______",
+      "answers": [
+       "flaschen"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Äpfel: ______",
+      "answers": [
+       "fünf"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Wir haben ___ Eier.\n2) Wie ___ Äpfel gibt es?\n3) Ich möchte ein ___ Zucker.",
+    "trans": {
+     "ko": "1) 저는 우유를 조금 샀어요. 2) 우리는 우유가 하나도 없어요. 3) 사과가 많이 있어요?",
+     "en": "1) I bought some milk. 2) We haven't got any milk. 3) Are there many apples?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Wir haben ___ Eier.",
+      "options": [
+       "keine",
+       "kein",
+       "nicht"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Wie ___ Äpfel gibt es?",
+      "options": [
+       "viel",
+       "viele",
+       "vieler"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "Ich möchte ein ___ Zucker.",
+      "options": [
+       "bisschen",
+       "paar",
+       "viele"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Hallo Mama! Ich gehe heute einkaufen. Wir haben (1) Milch. Wir brauchen Eier und einen (2) Reis. Ich habe nicht (3) Zeit!",
+    "trans": {
+     "ko": "안녕, 엄마! 오늘 쇼핑하러 갈게요. 우유는 하나도 없어요. 달걀이랑 쌀 한 봉지가 필요해요. 시간은 많지 않아요!",
+     "en": "Hi Mum! I'm going shopping today. We haven't got any milk. We need some eggs and a bag of rice. I haven't got much time!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "keine",
+       "kein",
+       "nicht"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "Sack",
+       "Flasche",
+       "Dose"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "viel",
+       "viele",
+       "vieler"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "EINKAUFSLISTE\nMilch: 2 Flaschen\nEier: 6\nReis: 1 Sack\nÄpfel: 5",
+    "trans": {
+     "ko": "쇼핑 목록\n우유: 2병\n달걀: 6개\n쌀: 1봉지\n사과: 5개",
+     "en": "SHOPPING LIST\nMilk: 2 bottles\nEggs: 6\nRice: 1 bag\nApples: 5"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Wie viele Eier stehen auf der Liste?",
+      "options": [
+       "2",
+       "6",
+       "5"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "Wie viel Milch steht auf der Liste?",
+      "options": [
+       "Zwei Flaschen",
+       "Ein Sack",
+       "Sechs"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Zu Hause gibt es viele Äpfel. Es gibt nur ein paar Orangen. Es gibt keine Milch.",
+    "trans": {
+     "ko": "집에는 사과가 많이 있어요. 오렌지는 몇 개뿐이에요. 우유는 하나도 없어요.",
+     "en": "There are a lot of apples at home. There are only a few oranges. There isn't any milk."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Zu Hause gibt es viele Äpfel.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Es gibt viel Milch.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Es gibt ein paar Bananen.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Gibt es Milch?",
+    "ko": "우유가 좀 있어요?",
+    "en": "Is there any milk?",
+    "situation": {
+     "ko": "있는지 물을 때",
+     "en": "Asking if something is available"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Es gibt ein paar Eier.",
+    "ko": "달걀이 몇 개 있어요.",
+    "en": "There are a few eggs.",
+    "situation": {
+     "ko": "수가 적다고 말할 때",
+     "en": "Saying there are a few"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Ich möchte ein bisschen Zucker.",
+    "ko": "설탕을 조금 주세요.",
+    "en": "I'd like a little sugar.",
+    "situation": {
+     "ko": "조금 요청할 때",
+     "en": "Asking for a small amount"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Wie viele Äpfel gibt es?",
+    "ko": "사과는 몇 개 있어요?",
+    "en": "How many apples are there?",
+    "situation": {
+     "ko": "수를 물을 때",
+     "en": "Asking how many"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Wie viel Milch brauchst du?",
+    "ko": "우유는 얼마나 필요해요?",
+    "en": "How much milk do you need?",
+    "situation": {
+     "ko": "양을 물을 때",
+     "en": "Asking how much"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Wir haben genug Brot.",
+    "ko": "우리는 빵이 충분해요.",
+    "en": "We have enough bread.",
+    "situation": {
+     "ko": "충분하다고 말할 때",
+     "en": "Saying it is enough"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Eine Flasche Wasser, bitte.",
+    "ko": "물 한 병 주세요.",
+    "en": "A bottle of water, please.",
+    "situation": {
+     "ko": "병 단위로 주문할 때",
+     "en": "Ordering by the bottle"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Ich habe nicht viel Zeit.",
+    "ko": "저는 시간이 많지 않아요.",
+    "en": "I don't have much time.",
+    "situation": {
+     "ko": "부족하다고 말할 때",
+     "en": "Saying there is not much"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Ich habe ~ gekauft.",
+    "ko": "~가 좀 있어요.",
+    "en": "I have some ~."
+   },
+   {
+    "id": "w2",
+    "t": "Es gibt keine ~.",
+    "ko": "~가 하나도 없어요.",
+    "en": "There isn't any ~."
+   },
+   {
+    "id": "w3",
+    "t": "Wie viele ~ gibt es?",
+    "ko": "~는 얼마나 있어요?",
+    "en": "How much ~ is there?"
+   },
+   {
+    "id": "w4",
+    "t": "Es gibt viele ~.",
+    "ko": "~는 몇 개 있어요?",
+    "en": "How many ~ are there?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "냉장고에 있는 것과 없는 것을 3문장으로 쓰세요. some, any, a lot of를 쓰세요.",
+    "en": "Write 3 sentences about what is and isn't in your fridge. Use some, any and a lot of."
+   },
+   "must_include": [
+    {
+     "label": "Es gibt ~",
+     "match": [
+      "es gibt"
+     ]
+    },
+    {
+     "label": "Es gibt keine ~",
+     "match": [
+      "keine"
+     ]
+    },
+    {
+     "label": "Es gibt viele ~",
+     "match": [
+      "viele"
+     ]
+    }
+   ],
+   "model": "Es gibt Milch im Kühlschrank. Es gibt keine Eier. Es gibt viele Äpfel.",
+   "model_trans": {
+    "ko": "냉장고에 우유가 조금 있어요. 달걀은 하나도 없어요. 사과는 많이 있어요.",
+    "en": "There is some milk in the fridge. There aren't any eggs. There are a lot of apples."
+   }
+  }
+ }
+}
