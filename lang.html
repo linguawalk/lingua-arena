@@ -30,21 +30,22 @@
       '<p class="sub">' + L.esc(L.t('langHeroSub')) + '</p></section><section class="block">';
 
     c.levels.forEach(function (lv, idx) {
-      var isA1 = lv.id === 'a1';
-      var ready = c.a1_units.filter(function (u) { return (u.live || []).indexOf(lang.code) >= 0; }).length;
-      html += '<details class="level"' + (isA1 ? ' open' : '') + '><summary>' +
+      var list = c[lv.id + '_units'] || [];
+      var ready = list.filter(function (u) { return (u.live || []).indexOf(lang.code) >= 0; }).length;
+      var has = ready > 0;
+      html += '<details class="level"' + (lv.id === 'a1' ? ' open' : '') + '><summary>' +
         '<span class="lv-badge">' + L.esc(lv.id.toUpperCase()) + '</span>' +
         '<span><strong>' + L.esc(L.pick(lv)) + '</strong><br><span class="lv-goal">' + L.esc(L.pick(lv.goal)) + '</span></span>' +
-        '<span class="lv-state">' + (isA1 ? L.esc(L.t('unitsReady')) + ' ' + ready + ' / ' + c.a1_units.length : L.esc(L.t('soon'))) + '</span></summary>';
-      if (isA1) {
+        '<span class="lv-state">' + (has ? L.esc(L.t('unitsReady')) + ' ' + ready + ' / ' + list.length : L.esc(L.t('soon'))) + '</span></summary>';
+      if (list.length && (has || lv.id === 'a1')) {
         html += '<div class="units">';
-        c.a1_units.forEach(function (u) {
+        list.forEach(function (u) {
           var live = (u.live || []).indexOf(lang.code) >= 0;
           html += '<div class="unit-row' + (live ? '' : ' soon') + '"><span class="u-no">U' + L.pad(u.unit) + '</span>' +
             '<span class="u-title">' + L.esc(L.pick(u)) + '<br><span class="lv-goal" lang="' + (L.ui === 'ko' ? 'ko' : 'en') + '">' + L.esc(L.pick((u.focus || {})[lang.code])) + '</span></span><span class="chips">' +
             c.categories.map(function (cat) {
               var label = L.esc(L.pick(cat));
-              return live ? '<a class="chip" href="unit.html?l=' + lang.code + '&lv=a1&u=' + u.unit + '&c=' + cat.id + '">' + label + '</a>'
+              return live ? '<a class="chip" href="unit.html?l=' + lang.code + '&lv=' + lv.id + '&u=' + u.unit + '&c=' + cat.id + '">' + label + '</a>'
                           : '<span class="chip off">' + label + '</span>';
             }).join('') + '</span></div>';
         });
