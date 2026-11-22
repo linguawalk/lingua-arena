@@ -1,0 +1,793 @@
+{
+ "meta": {
+  "id": "ko_b1_u08",
+  "lang": "ko",
+  "family": "asia",
+  "level": "b1",
+  "unit": 8,
+  "concept": "B1.U08",
+  "status": "live",
+  "title": {
+   "target": "추측하고 판단하기",
+   "ko": "추측하고 판단하기",
+   "en": "Guessing and deducing"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "-(으)ㄴ 게 틀림없다",
+   "pos": "phrase",
+   "read": "-(eu)ㄴ ge teullimeopda",
+   "en": "must be",
+   "ex": {
+    "t": "그렇게 긴 비행 뒤라 그는 피곤한 게 틀림없어요.",
+    "read": "geureoke gin bihaeng dwira geuneun pigonhan ge teullimeopseoyo.",
+    "en": "He must be tired after such a long flight."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "-(으)ㄹ지도 모르다",
+   "pos": "phrase",
+   "read": "-(eu)ㄹjido moreuda",
+   "en": "might be",
+   "ex": {
+    "t": "그녀는 도서관에 있을지도 몰라요.",
+    "read": "geunyeoneun doseogwane isseuljido mollayo.",
+    "en": "She might be at the library."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "-(으)ㄹ 수도 있다",
+   "pos": "phrase",
+   "read": "-(eu)ㄹ sudo itda",
+   "en": "could be",
+   "ex": {
+    "t": "그게 정답일 수도 있어요.",
+    "read": "geuge jeongdabil sudo isseoyo.",
+    "en": "That could be the answer."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "-(으)ㄹ 리가 없다",
+   "pos": "phrase",
+   "read": "-(eu)ㄹ riga eopda",
+   "en": "can't be",
+   "ex": {
+    "t": "톰일 리가 없어요. 휴가 중이거든요.",
+    "read": "tomil riga eopseoyo. hyuga jungigeodeunyo.",
+    "en": "It can't be Tom. He's on holiday."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "분명히",
+   "pos": "adv",
+   "read": "bunmyeonghi",
+   "en": "obviously",
+   "ex": {
+    "t": "그녀는 분명히 화가 났어요.",
+    "read": "geunyeoneun bunmyeonghi hwaga nasseoyo.",
+    "en": "She's obviously upset."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "아마",
+   "pos": "adv",
+   "read": "ama",
+   "en": "probably",
+   "ex": {
+    "t": "그들은 아마 아직 직장에 있을 거예요.",
+    "read": "geudeureun ama ajik jikjange isseul geoyeyo.",
+    "en": "They're probably still at work."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "-아/어 보이다",
+   "pos": "verb",
+   "read": "-a/eo boida",
+   "en": "seem",
+   "ex": {
+    "t": "걱정이 있어 보이네요. 무슨 일이에요?",
+    "read": "geokjeongi isseo boineyo. museun irieyo?",
+    "en": "You seem worried. What's wrong?"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "증거",
+   "pos": "noun",
+   "read": "jeunggeo",
+   "en": "evidence",
+   "ex": {
+    "t": "그가 가져갔다는 증거는 없어요.",
+    "read": "geuga gajyeogatdaneun jeunggeoneun eopseoyo.",
+    "en": "There's no evidence that he took it."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "확신하다",
+   "pos": "adj",
+   "read": "hwaksinhada",
+   "en": "certain",
+   "ex": {
+    "t": "그녀가 문을 잠근 건 확실해요.",
+    "read": "geunyeoga muneul jamgeun geon hwaksilhaeyo.",
+    "en": "I'm certain she locked the door."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "추측하다",
+   "pos": "verb",
+   "read": "chucheukada",
+   "en": "guess",
+   "ex": {
+    "t": "제 추측엔 그는 마흔 살쯤이에요.",
+    "read": "je chucheugen geuneun maheun saljjeumieyo.",
+    "en": "I'd guess he's about forty."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "-(으)ㄴ 게 틀림없다, -(으)ㄹ지도 모르다, -(으)ㄹ 수도 있다, -(으)ㄹ 리가 없다",
+   "en": "-(으)ㄴ 게 틀림없다, -(으)ㄹ지도 모르다, -(으)ㄹ 수도 있다, -(으)ㄹ 리가 없다"
+  },
+  "explain": {
+   "ko": "단서를 보고 추측할 때는 확신의 정도에 따라 표현을 고릅니다. 거의 확실하면 '-(으)ㄴ 게 틀림없다'나 '-(으)ㄴ 것 같다': '그는 피곤한 게 틀림없어요.' 가능성이 있으면 '-(으)ㄹ지도 모른다'나 '-(으)ㄹ 수도 있다': '회의 중일지도 몰라요.' / '샘의 것일 수도 있어요.' 불가능하다고 생각하면 '-(으)ㄹ 리가 없다': '그건 사실일 리가 없어요.' 과거의 일을 추측할 때는 '-았/었-'을 앞에 넣습니다: '그녀가 잊었을 리가 없어요.' / '이미 떠난 게 틀림없어요.' 겉모습으로 추측하면 '-아/어 보이다'를 씁니다: '피곤해 보여요.'",
+   "en": "When you guess from clues, choose the expression according to how sure you are. Almost sure: '-(으)ㄴ 게 틀림없다' or '-(으)ㄴ 것 같다': '그는 피곤한 게 틀림없어요.' Possible: '-(으)ㄹ지도 모른다' or '-(으)ㄹ 수도 있다': '회의 중일지도 몰라요.' / '샘의 것일 수도 있어요.' Impossible: '-(으)ㄹ 리가 없다': '그건 사실일 리가 없어요.' For a guess about the past put '-았/었-' in front: '그녀가 잊었을 리가 없어요.' / '이미 떠난 게 틀림없어요.' A guess from appearance uses '-아/어 보이다': '피곤해 보여요.'"
+  },
+  "table": {
+   "head": [
+    "확신 / Certainty",
+    "현재 / Present",
+    "과거 / Past"
+   ],
+   "rows": [
+    [
+     "거의 확실 / Almost sure",
+     "-(으)ㄴ 게 틀림없어요",
+     "-았/었을 게 틀림없어요"
+    ],
+    [
+     "가능 / Possible",
+     "-(으)ㄹ지도 몰라요",
+     "-았/었을지도 몰라요"
+    ],
+    [
+     "가능 / Possible",
+     "-(으)ㄹ 수도 있어요",
+     "-았/었을 수도 있어요"
+    ],
+    [
+     "불가능 / Impossible",
+     "-(으)ㄹ 리가 없어요",
+     "-았/었을 리가 없어요"
+    ],
+    [
+     "겉모습 / Appearance",
+     "-아/어 보여요",
+     "피곤해 보여요."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'-(으)ㄹ 리가 없다'는 '-(으)ㄹ 수 없다'(할 수 없다)와 다릅니다.",
+    "en": "'-(으)ㄹ 리가 없다' differs from '-(으)ㄹ 수 없다' (cannot)."
+   },
+   {
+    "ko": "추측의 '-(으)ㄹ지도 몰라요'는 가능성이 50% 정도일 때 씁니다.",
+    "en": "'-(으)ㄹ지도 몰라요' fits roughly even chances."
+   },
+   {
+    "ko": "명사 뒤에서는 '-일 리가 없다', '-일지도 모른다'가 됩니다: 애나일 리가 없어요.",
+    "en": "After a noun it is '-일 리가 없다', '-일지도 모른다': 애나일 리가 없어요."
+   }
+  ],
+  "examples": [
+   {
+    "t": "그는 하루 종일 일했어요. 피곤한 게 틀림없어요.",
+    "read": "geuneun haru jongil ilhaesseoyo. pigonhan ge teullimeopseoyo.",
+    "en": "He's been working all day. He must be exhausted."
+   },
+   {
+    "t": "저 사람은 애나일 리 없어요. 이번 주에 파리에 있거든요.",
+    "read": "jeo sarameun aenail ri eopseoyo. ibeon jue parie itgeodeunyo.",
+    "en": "That can't be Anna. She's in Paris this week."
+   },
+   {
+    "t": "톰이 어디 있는지 모르겠어요. 헬스장에 있을지도 몰라요.",
+    "read": "tomi eodi inneunji moreugesseoyo. helseujange isseuljido mollayo.",
+    "en": "I don't know where Tom is. He might be at the gym."
+   },
+   {
+    "t": "불이 꺼져 있어요. 그들은 잠자리에 든 게 틀림없어요.",
+    "read": "buri kkeojyeo isseoyo. geudeureun jamjarie deun ge teullimeopseoyo.",
+    "en": "The lights are off. They must have gone to bed."
+   },
+   {
+    "t": "그녀는 아주 꼼꼼해요. 잊었을 리가 없어요.",
+    "read": "geunyeoneun aju kkomkkomhaeyo. ijeosseul riga eopseoyo.",
+    "en": "She's very organised. She can't have forgotten."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "그는 하루 종일 일했어요. 피곤한 게 ___.",
+    "options": [
+     "틀림없어요",
+     "아니에요",
+     "모르겠어요"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "저 사람은 애나일 ___ 없어요. 이번 주에 파리에 있거든요.",
+    "options": [
+     "리가",
+     "수가",
+     "줄"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "톰은 헬스장에 있을___ 몰라요.",
+    "options": [
+     "지도",
+     "리가",
+     "수가"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "회의 중일 ___ 있어요.",
+    "options": [
+     "수도",
+     "리가",
+     "게"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "마크는 왜 전화를 안 받을까요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Why isn't Mark answering his phone?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "회의 중일지도 몰라요.",
+       "어제 받았어요.",
+       "전화 기사예요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이 우산은 누구 거예요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Whose umbrella is this?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "샘의 것일 수도 있어요. 아침에 하나 들고 있었어요.",
+       "밖에 비가 와요.",
+       "아주 비싸요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "사무실에 불이 켜져 있어. 누가 늦게까지 일하고 있는 게 틀림없어."
+      },
+      {
+       "s": "B",
+       "t": "루스일 리는 없어. 오늘 아침에 휴가를 떠났거든."
+      },
+      {
+       "s": "A",
+       "t": "그럼 청소하는 분일지도 몰라."
+      },
+      {
+       "s": "B",
+       "t": "그럴 수도 있겠다. 가서 보자."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: There's a light on in the office. Someone must be working late.\nB: It can't be Ruth. She went on holiday this morning.\nA: Then it might be the cleaner.\nB: Maybe. Let's go and see."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "누가 사무실에 있을지도 몰라요?",
+      "options": [
+       "청소하는 분",
+       "루스",
+       "도둑"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이 그림은 2010년에 다락방에서 발견되었습니다. 화가는 알려져 있지 않지만, 전문가들은 화풍과 종이를 보면 17세기 작품임이 틀림없다고 봅니다. 서명 검사 결과 모작일 리는 없습니다. 일부 역사학자는 네덜란드 화가의 작품일 수도 있다고 생각하지만 아직 증거는 없습니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "This painting was found in an attic in 2010. The artist is unknown, but experts believe it must be from the seventeenth century because of the style and the paper. It can't be a copy, as the signature has been tested. Some historians think it could be by a Dutch painter, but there is still no proof."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "전문가들은 왜 17세기 작품이라고 생각해요?",
+      "options": [
+       "화풍과 종이를 보면",
+       "서명 때문에",
+       "다락방 때문에"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "분실물 센터입니다."
+      },
+      {
+       "s": "B",
+       "t": "휴대폰을 잃어버렸어요. 택시에 두고 내렸을지도 몰라요."
+      },
+      {
+       "s": "A",
+       "t": "어떻게 생겼나요?"
+      },
+      {
+       "s": "B",
+       "t": "초록색 케이스를 씌운 검은색 노키아예요. 번호는 07700 900123이에요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Clerk: Lost property.\nCaller: I've lost my phone. I think I might have left it in a taxi.\nClerk: What does it look like?\nCaller: It's a black Nokia with a green case. My number's 07700 900123."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "케이스 색: ______",
+      "answers": [
+       "초록색"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "번호: 07700 ______",
+      "answers": [
+       "900123"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 그녀는 네 시부터 깨어 있었어요. 피곤한 게 ___.\n2) 그건 사실일 ___ 없어요. 아무도 그렇게 할 수 없거든요!\n3) 열쇠를 못 찾겠어요. 직장에 두고 왔을___ 몰라요.",
+    "trans": {
+     "en": "1) She has been up since four. She must be exhausted. 2) It can't be true. Nobody could do that! 3) I can't find my keys. I might have left them at work."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "그녀는 네 시부터 깨어 있었어요. 피곤한 게 ___.",
+      "options": [
+       "틀림없어요",
+       "아니에요",
+       "모르겠어요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "그건 사실일 ___ 없어요. 아무도 그렇게 할 수 없거든요!",
+      "options": [
+       "리가",
+       "수가",
+       "줄"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "열쇠를 못 찾겠어요. 직장에 두고 왔을___ 몰라요.",
+      "options": [
+       "지도",
+       "리가",
+       "수도"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "안녕, 루! 팻이 어젯밤에 왜 안 왔는지 모르겠어. 어제 창백해 보였으니 (1). 아주 꼼꼼한 사람이라 잊었을 (2) 없어. 교통 체증일 (3) 없어. 집이 5분 거리거든.",
+    "trans": {
+     "en": "Hi Lou, I don't know why Pat didn't come last night. She must be ill — she looked pale yesterday. She can't have forgotten, because she's so organised. And it can't be traffic — she lives five minutes away."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "아팠던 게 틀림없어",
+       "아팠던 리가 없어",
+       "아프지 않을 거야"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "리는",
+       "수는",
+       "줄은"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "리도",
+       "수도",
+       "줄도"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "사라진 케이크의 수수께끼\n직원들이 점심시간에서 돌아왔을 때 사무실 주방에 있던 생일 케이크가 사라져 있었습니다. 문은 잠겨 있었으므로 외부인이었을 리는 없습니다. 열쇠를 가진 사람은 네 명뿐입니다. 케이트는 휴가 중이었으니 그녀일 리는 없습니다. 매니저는 오전 내내 회의 중이었습니다. 댄이나 프리야였던 게 틀림없습니다.",
+    "trans": {
+     "en": "MYSTERY OF THE MISSING CAKE\nWhen the staff returned from lunch, the birthday cake had disappeared from the office kitchen. The door was locked, so it can't have been a stranger. Only four people have keys. Kate was on holiday, so it can't have been her. The manager was in a meeting all morning. It must have been either Dan or Priya."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "왜 외부인이었을 리가 없어요?",
+      "options": [
+       "문이 잠겨 있었기 때문에",
+       "아무도 없어서",
+       "케이크가 작아서"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "누가 케이크를 가져갔을 수 있어요?",
+      "options": [
+       "댄이나 프리야",
+       "케이트나 매니저",
+       "외부인"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "밀 레인의 오래된 집은 수년째 비어 있었는데 지난주에 이웃들이 위층 창문에 불이 켜진 것을 보았어요. 봄에 이 집을 산 새 주인일 게 틀림없다고 하는 사람도 있고, 싼 숙소를 찾는 학생들일 수도 있다고 하는 사람도 있어요. 주인은 아직 본 적이 없어요.",
+    "trans": {
+     "en": "The old house on Mill Lane has been empty for years, but last week neighbours noticed a light in an upstairs window. Some say it must be the new owner, who bought the house in the spring. Others think it could be students looking for somewhere cheap to stay. The owner hasn't been seen yet."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "이웃들이 오래된 집에서 불빛을 보았어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "모두 새 주인이라고 생각해요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "학생들이 그 집을 빌릴 계획이에요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "마크는 왜 전화를 안 받을까요?",
+    "read": "makeuneun wae jeonhwareul an badeulkkayo?",
+    "en": "Why isn't Mark answering his phone?",
+    "situation": {
+     "ko": "이유를 추측할 때",
+     "en": "Wondering about a reason"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "회의 중일지도 몰라요.",
+    "read": "hoeui jungiljido mollayo.",
+    "en": "He might be in a meeting.",
+    "situation": {
+     "ko": "가능성을 말할 때",
+     "en": "Saying something is possible"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "그는 피곤한 게 틀림없어요.",
+    "read": "geuneun pigonhan ge teullimeopseoyo.",
+    "en": "He must be tired.",
+    "situation": {
+     "ko": "강한 확신을 말할 때",
+     "en": "Saying you are almost sure"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "그건 사실일 리가 없어요.",
+    "read": "geugeon sasiril riga eopseoyo.",
+    "en": "That can't be true.",
+    "situation": {
+     "ko": "불가능하다고 판단할 때",
+     "en": "Saying something is impossible"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "이건 누구 우산일까요?",
+    "read": "igeon nugu usanilkkayo?",
+    "en": "Whose umbrella is this?",
+    "situation": {
+     "ko": "주인을 물을 때",
+     "en": "Asking about the owner"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "샘의 것일 수도 있어요.",
+    "read": "saemui geosil sudo isseoyo.",
+    "en": "It could be Sam's.",
+    "situation": {
+     "ko": "가능성을 제시할 때",
+     "en": "Suggesting a possibility"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "그들은 이미 떠난 게 틀림없어요.",
+    "read": "geudeureun imi tteonan ge teullimeopseoyo.",
+    "en": "They must have left already.",
+    "situation": {
+     "ko": "과거를 추측할 때",
+     "en": "Deducing about the past"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "그녀가 잊었을 리가 없어요.",
+    "read": "geunyeoga ijeosseul riga eopseoyo.",
+    "en": "She can't have forgotten.",
+    "situation": {
+     "ko": "과거에 대해 불가능하다고 말할 때",
+     "en": "Saying it was impossible"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "그는 ~한 게 틀림없어요.",
+    "read": "geuneun ~han ge teullimeopseoyo.",
+    "en": "He must be ~."
+   },
+   {
+    "id": "w2",
+    "t": "그녀는 ~일지도 몰라요.",
+    "read": "geunyeoneun ~iljido mollayo.",
+    "en": "She might be ~."
+   },
+   {
+    "id": "w3",
+    "t": "그건 ~일 리가 없어요.",
+    "read": "geugeon ~il riga eopseoyo.",
+    "en": "It can't be ~."
+   },
+   {
+    "id": "w4",
+    "t": "그들은 ~했을 것 같아요.",
+    "read": "geudeureun ~haesseul geot gatayo.",
+    "en": "They must have ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "미스터리한 상황을 3문장으로 써 보세요: 거의 확신하는 추측, 가능성이 있는 추측, 불가능하다고 생각하는 것.",
+    "en": "Write 3 sentences about a mystery: something you are almost sure about, something that is possible, and something you think is impossible."
+   },
+   "must_include": [
+    {
+     "label": "그는 ~한 게 틀림없어요",
+     "match": [
+      "틀림없어요"
+     ]
+    },
+    {
+     "label": "그녀는 ~일지도 몰라요",
+     "match": [
+      "지도 몰라요"
+     ]
+    },
+    {
+     "label": "그건 ~일 리가 없어요",
+     "match": [
+      "리는 없어요",
+      "리가 없어요"
+     ]
+    }
+   ],
+   "model": "톰은 긴 비행 뒤라 피곤한 게 틀림없어요. 지금은 자고 있을지도 몰라요. 문 앞에 있는 사람이 그일 리는 없어요. 해외에 있으니까요.",
+   "model_trans": {
+    "ko": "톰은 긴 비행 뒤라 피곤한 게 틀림없어요. 지금은 자고 있을지도 몰라요. 문 앞에 있는 사람이 그일 리는 없어요. 해외에 있으니까요.",
+    "en": "Tom must be tired after the long flight. He might be asleep now. It can't be him at the door, because he's abroad."
+   }
+  }
+ }
+}
