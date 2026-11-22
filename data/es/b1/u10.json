@@ -1,0 +1,805 @@
+{
+ "meta": {
+  "id": "es_b1_u10",
+  "lang": "es",
+  "family": "europe",
+  "level": "b1",
+  "unit": 10,
+  "concept": "B1.U10",
+  "status": "live",
+  "title": {
+   "target": "La voz pasiva",
+   "ko": "수동태",
+   "en": "The passive"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "fabricar",
+   "pos": "verb",
+   "ko": "만들다 · 생산하다",
+   "en": "produce",
+   "ex": {
+    "t": "Este coche se fabrica en Alemania.",
+    "ko": "이 차는 독일에서 생산돼요.",
+    "en": "This car is produced in Germany."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "construir",
+   "pos": "verb",
+   "ko": "짓다 · 건설하다",
+   "en": "build",
+   "ex": {
+    "t": "El puente fue construido en 1998.",
+    "ko": "다리는 1998년에 지어졌어요.",
+    "en": "The bridge was built in 1998."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "inventar",
+   "pos": "verb",
+   "ko": "발명하다",
+   "en": "invent",
+   "ex": {
+    "t": "El teléfono fue inventado por Bell.",
+    "ko": "전화는 벨이 발명했어요.",
+    "en": "The telephone was invented by Bell."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "robar",
+   "pos": "verb",
+   "ko": "훔치다",
+   "en": "steal",
+   "ex": {
+    "t": "Mi bicicleta fue robada anoche.",
+    "ko": "어젯밤 제 자전거를 도난당했어요.",
+    "en": "My bike was stolen last night."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "reparar",
+   "pos": "verb",
+   "ko": "수리하다",
+   "en": "repair",
+   "ex": {
+    "t": "Mi portátil será reparado esta semana.",
+    "ko": "제 노트북은 이번 주에 수리돼요.",
+    "en": "My laptop is being repaired this week."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "entregar",
+   "pos": "verb",
+   "ko": "배달하다",
+   "en": "deliver",
+   "ex": {
+    "t": "El paquete será entregado mañana.",
+    "ko": "소포는 내일 배달될 거예요.",
+    "en": "The parcel will be delivered tomorrow."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "cancelar",
+   "pos": "verb",
+   "ko": "취소하다",
+   "en": "cancel",
+   "ex": {
+    "t": "El vuelo fue cancelado por la tormenta.",
+    "ko": "폭풍 때문에 비행기가 취소됐어요.",
+    "en": "The flight has been cancelled because of the storm."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "celebrar",
+   "pos": "verb",
+   "ko": "개최하다",
+   "en": "hold",
+   "ex": {
+    "t": "Los Juegos Olímpicos se celebran cada cuatro años.",
+    "ko": "올림픽은 4년마다 열려요.",
+    "en": "The Olympics are held every four years."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "descubrir",
+   "pos": "verb",
+   "ko": "발견하다",
+   "en": "discover",
+   "ex": {
+    "t": "El cuadro fue descubierto en un desván.",
+    "ko": "그 그림은 다락방에서 발견됐어요.",
+    "en": "The painting was discovered in an attic."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "estar hecho de",
+   "pos": "phrase",
+   "ko": "제조된",
+   "en": "made of",
+   "ex": {
+    "t": "Esta silla está hecha de madera.",
+    "ko": "이 의자는 목재로 만들어졌어요.",
+    "en": "This chair is made of wood."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "pasiva: ser + participio, pasiva refleja con se",
+   "en": "passive: ser + participle, pasiva refleja with se"
+  },
+  "explain": {
+   "ko": "La voz pasiva pone el énfasis en la acción o en el resultado, no en quien actúa. Hay dos formas. Ser + participio (el participio concuerda con el sujeto): « El puente fue construido en 1998. » / « Las casas fueron vendidas. » El agente se introduce con por: « El teléfono fue inventado por Bell. » La pasiva refleja con se (muy frecuente): « Este coche se fabrica en Alemania. » / « Se venden pisos. » Para el resultado, estar + participio: « La puerta está cerrada. » Si no se conoce quien actúa, se usa también la tercera persona del plural: « Han robado mi bicicleta. » El tiempo lo marca el verbo ser: es / fue / será / ha sido construido.",
+   "en": "The passive voice stresses the action or the result, not the doer. There are two forms. Ser + participle (the participle agrees with the subject): 'El puente fue construido en 1998.' / 'Las casas fueron vendidas.' The agent is introduced with por: 'El teléfono fue inventado por Bell.' The pasiva refleja with se (very frequent): 'Este coche se fabrica en Alemania.' / 'Se venden pisos.' For the result, estar + participle: 'La puerta está cerrada.' If the doer is unknown, the third person plural is also used: 'Han robado mi bicicleta.' The tense is marked by ser: es / fue / será / ha sido construido."
+  },
+  "table": {
+   "head": [
+    "시제 / Tiempo",
+    "형태 / Forma",
+    "예문 / Ejemplo"
+   ],
+   "rows": [
+    [
+     "현재 / Presente",
+     "se + verbo · es + participio",
+     "Este coche se fabrica en Alemania."
+    ],
+    [
+     "과거 / Pretérito",
+     "fue / fueron + participio",
+     "Mi bicicleta fue robada anoche."
+    ],
+    [
+     "현재완료 / Perfecto",
+     "ha sido + participio",
+     "El vuelo ha sido cancelado."
+    ],
+    [
+     "미래 / Futuro",
+     "será / serán + participio",
+     "El paquete será entregado mañana."
+    ],
+    [
+     "행위자 불명 / Agente desconocido",
+     "3.ª persona plural",
+     "Han robado mi bicicleta."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "El participio concuerda con el sujeto: construido / construida / construidos / construidas.",
+    "en": "The participle agrees with the subject: construido / construida / construidos / construidas."
+   },
+   {
+    "ko": "El agente se expresa con por: fue escrito por Cervantes.",
+    "en": "The agent is expressed with por: fue escrito por Cervantes."
+   },
+   {
+    "ko": "En la lengua hablada es más común la pasiva refleja o la 3.ª persona del plural.",
+    "en": "In spoken language the pasiva refleja or the third person plural is more common."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Este coche se fabrica en Alemania.",
+    "ko": "이 차는 독일에서 생산돼요.",
+    "en": "This car is made in Germany."
+   },
+   {
+    "t": "Mi bicicleta fue robada anoche.",
+    "ko": "제 자전거는 어젯밤에 도난당했어요.",
+    "en": "My bike was stolen last night."
+   },
+   {
+    "t": "El paquete será entregado mañana.",
+    "ko": "소포는 내일 배달될 거예요.",
+    "en": "The parcel will be delivered tomorrow."
+   },
+   {
+    "t": "El vuelo ha sido cancelado por la tormenta.",
+    "ko": "비행기는 폭풍 때문에 취소됐어요.",
+    "en": "The flight has been cancelled because of the storm."
+   },
+   {
+    "t": "El puente fue construido en 1998.",
+    "ko": "그 다리는 1998년에 지어졌어요.",
+    "en": "The bridge was built in 1998."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Este coche ___ en Alemania.",
+    "options": [
+     "se fabrica",
+     "fabrica",
+     "ha fabricado"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Mi bicicleta fue ___ anoche.",
+    "options": [
+     "robada",
+     "robado",
+     "robar"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "El paquete será ___ mañana.",
+    "options": [
+     "entregado",
+     "entregando",
+     "entregar"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "El vuelo ha sido ___ por la tormenta.",
+    "options": [
+     "cancelado",
+     "cancelada",
+     "cancelar"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Dónde se fabrica este móvil?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 휴대폰은 어디에서 만들어졌어요?",
+     "en": "(Question) Where is this phone made?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "Se fabrica en China.",
+       "Fabrica en China.",
+       "Lo fabriqué yo."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Cuándo será entregado el paquete?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 소포는 언제 배달돼요?",
+     "en": "(Question) When will the parcel be delivered?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "Será entregado mañana por la mañana.",
+       "Entregaba ayer.",
+       "Lo entrego yo."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Comisaría de policía. ¿En qué puedo ayudarle?"
+      },
+      {
+       "s": "B",
+       "t": "Mi coche ha sido robado. Lo había aparcado anoche delante de mi casa."
+      },
+      {
+       "s": "A",
+       "t": "¿Qué marca es?"
+      },
+      {
+       "s": "B",
+       "t": "Un Ford azul que fue fabricado en 2019."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 경찰서입니다. 무슨 일이세요?\nB: 제 차를 도난당했어요. 어젯밤 집 앞에 세워 뒀거든요.\nA: 차종이 어떻게 되죠?\nB: 파란색 포드이고 2019년에 생산된 거예요.",
+     "en": "A: Police station. How can I help?\nB: My car has been stolen. I left it outside my house last night.\nA: What make is it?\nB: It's a blue Ford, and it was made in 2019."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuándo fue fabricado el coche?",
+      "options": [
+       "En 2019",
+       "Anoche",
+       "Este año"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Este vino se elabora en una pequeña bodega del sur de Francia. Las uvas se recogen a mano en septiembre y después se almacenan durante dieciocho meses en barricas de roble. Las botellas se exportan cada octubre a diez países. La cosecha de este año fue dañada en parte por una tormenta, pero la calidad no se ha visto afectada."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 와인은 프랑스 남부의 작은 농장에서 생산됩니다. 포도는 9월에 손으로 수확되어 오크통에 담긴 뒤 18개월 동안 숙성됩니다. 병은 매년 10월에 열 개 나라로 수출됩니다. 올해의 수확은 폭풍 때문에 일부 손상되었지만 품질에는 영향이 없었습니다.",
+     "en": "This wine is produced on a small farm in the south of France. The grapes are picked by hand in September, then stored in oak barrels for eighteen months. The bottles are exported to ten countries every October. This year's harvest was partly damaged by a storm, but the quality hasn't been affected."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuánto tiempo se almacena el vino en barricas?",
+      "options": [
+       "Dieciocho meses",
+       "Diez meses",
+       "Dos años"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Atención al cliente."
+      },
+      {
+       "s": "B",
+       "t": "El libro que pedí todavía no ha sido entregado."
+      },
+      {
+       "s": "A",
+       "t": "¿Me puede dar su número de pedido, por favor?"
+      },
+      {
+       "s": "B",
+       "t": "Sí, es el 47291."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 고객 센터입니다.\n손님: 주문한 책이 아직 배달되지 않았어요.\n직원: 주문 번호를 말씀해 주시겠어요?\n손님: 네, 4-7-2-9-1입니다.",
+     "en": "Agent: Customer service.\nCustomer: The book I ordered hasn't been delivered yet.\nAgent: Could I have your order number?\nCustomer: Yes, it's 47291."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Artículo: un ______",
+      "answers": [
+       "libro"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Número de pedido: ______",
+      "answers": [
+       "47291"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Este coche ___ en Alemania.\n2) Mi bicicleta fue ___ anoche.\n3) El paquete será ___ mañana.",
+    "trans": {
+     "ko": "1) 이 차는 독일에서 만들어져요. 2) 어젯밤 제 자전거를 도난당했어요. 3) 소포는 내일 배달될 거예요.",
+     "en": "1) This car is made in Germany. 2) My bike was stolen last night. 3) The parcel will be delivered tomorrow."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Este coche ___ en Alemania.",
+      "options": [
+       "se fabrica",
+       "fabrica",
+       "ha fabricado"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Mi bicicleta fue ___ anoche.",
+      "options": [
+       "robada",
+       "robado",
+       "robar"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "El paquete será ___ mañana.",
+      "options": [
+       "entregado",
+       "entregando",
+       "entregar"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Hola, Nico. Malas noticias. Mi cartera (1) robada ayer en el metro. Mi tarjeta ya (2) bloqueada, y me enviarán una nueva (3) semana. También lo he denunciado a la policía.",
+    "trans": {
+     "ko": "안녕, 닉! 나쁜 소식이야. 어제 지하철에서 지갑을 도난당했어. 은행 카드는 이미 정지됐고, 새 카드는 다음 주에 보내질 거야. 경찰에도 신고했어.",
+     "en": "Hi Nick, Bad news. My wallet was stolen on the underground yesterday. My bank card has already been cancelled, and a new one will be sent next week. I've also reported it to the police."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "fue",
+       "es",
+       "ha"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "ha sido",
+       "será",
+       "es"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "la próxima",
+       "el próximo",
+       "ayer"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "NOTICIAS DEL PUEBLO\nLa antigua plaza del mercado se está reparando este mes. El nuevo suelo será construido con piedra local y las obras terminarán en agosto. Mientras tanto, el mercado de los sábados se celebra delante del ayuntamiento. Las quejas por el ruido deben dirigirse al ayuntamiento.",
+    "trans": {
+     "ko": "마을 소식\n오래된 시장 광장은 이번 달부터 보수 공사 중입니다. 새 바닥은 지역 석재로 만들어지며 공사는 8월에 끝날 예정입니다. 그동안 토요일 시장은 시청 앞에서 열립니다. 공사 소음에 대한 불편 사항은 시청으로 보내 주세요.",
+     "en": "VILLAGE NEWS\nThe old market square is being repaired this month. The new floor will be made from local stone, and the work is expected to be finished in August. In the meantime, the Saturday market is held outside the town hall. Complaints about noise should be sent to the council."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿De qué se construirá el nuevo suelo?",
+      "options": [
+       "De piedra local",
+       "De madera",
+       "De hormigón"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "¿Dónde se celebra ahora el mercado de los sábados?",
+      "options": [
+       "Delante del ayuntamiento",
+       "En la plaza",
+       "En la estación"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "El puente fue construido en 1895 y reparado por primera vez hace dos años. Hoy es utilizado por unas veinte mil personas al día. El mes que viene las farolas serán sustituidas por otras nuevas.",
+    "trans": {
+     "ko": "이 다리는 1895년에 지어졌고 2년 전에 처음으로 대대적으로 수리되었어요. 오늘날에는 하루에 약 2만 명이 이용해요. 다음 달에는 가로등이 새것으로 교체될 예정이에요.",
+     "en": "The bridge was built in 1895 and was repaired for the first time two years ago. Today it is used by about twenty thousand people a day. Next month, the street lights will be replaced with new ones."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "El puente fue construido en 1895.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Nunca ha sido reparado.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Fue diseñado por un ingeniero famoso.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "¿Dónde se fabrica este móvil?",
+    "ko": "이 휴대폰은 어디에서 만들어졌어요?",
+    "en": "Where is this phone made?",
+    "situation": {
+     "ko": "생산지를 물을 때",
+     "en": "Asking where something is made"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Se fabrica en China.",
+    "ko": "중국에서 만들어졌어요.",
+    "en": "It's made in China.",
+    "situation": {
+     "ko": "일반적 사실을 말할 때",
+     "en": "Stating a general fact"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Mi cartera fue robada.",
+    "ko": "제 지갑을 도난당했어요.",
+    "en": "My wallet was stolen.",
+    "situation": {
+     "ko": "피해를 신고할 때",
+     "en": "Reporting a crime"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "¿Cuándo fue robada?",
+    "ko": "언제 도난당했어요?",
+    "en": "When was it stolen?",
+    "situation": {
+     "ko": "시점을 물을 때",
+     "en": "Asking when"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "¿Cuándo será entregado el paquete?",
+    "ko": "소포는 언제 배달돼요?",
+    "en": "When will the parcel be delivered?",
+    "situation": {
+     "ko": "미래를 물을 때",
+     "en": "Asking about the future"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "El vuelo ha sido cancelado.",
+    "ko": "비행기가 취소됐어요.",
+    "en": "The flight has been cancelled.",
+    "situation": {
+     "ko": "최근 결과를 말할 때",
+     "en": "Reporting a recent result"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Mi ordenador se está reparando.",
+    "ko": "제 컴퓨터는 지금 수리 중이에요.",
+    "en": "My computer is being repaired.",
+    "situation": {
+     "ko": "진행 중인 일을 말할 때",
+     "en": "Saying it is in progress"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "¿Quién dirigió la película?",
+    "ko": "그 영화는 누가 감독했어요?",
+    "en": "Who was the film directed by?",
+    "situation": {
+     "ko": "행위자를 물을 때",
+     "en": "Asking who did it"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~ se fabrica en ~.",
+    "ko": "~는 ~에서 만들어져요.",
+    "en": "~ is made in ~."
+   },
+   {
+    "id": "w2",
+    "t": "~ fue robado/a ~.",
+    "ko": "~는 ~에 도난당했어요.",
+    "en": "~ was stolen ~."
+   },
+   {
+    "id": "w3",
+    "t": "~ será entregado/a ~.",
+    "ko": "~는 ~에 배달될 거예요.",
+    "en": "~ will be delivered ~."
+   },
+   {
+    "id": "w4",
+    "t": "~ ha sido cancelado/a.",
+    "ko": "~는 취소됐어요.",
+    "en": "~ has been cancelled."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "수동태로 3문장을 써 보세요: 물건이 만들어지는 곳, 최근 도난당하거나 고장 난 것, 앞으로 배달되거나 수리될 것.",
+    "en": "Write 3 passive sentences: where something is made, something that was lost or damaged recently, and something that will be delivered or repaired."
+   },
+   "must_include": [
+    {
+     "label": "~ se ~ / es ~do",
+     "match": [
+      "se "
+     ]
+    },
+    {
+     "label": "~ fue robado/a / cancelado/a",
+     "match": [
+      "fue robada",
+      "fue robado",
+      "fue cancelado",
+      "fue cancelada"
+     ]
+    },
+    {
+     "label": "~ será entregado/a",
+     "match": [
+      "será entregado",
+      "será entregada"
+     ]
+    }
+   ],
+   "model": "Este bolso se fabrica en Italia. Mi cartera fue robada ayer. Mi móvil nuevo será entregado mañana.",
+   "model_trans": {
+    "ko": "이 가방은 이탈리아에서 만들어져요. 제 지갑을 어제 도난당했어요. 새 휴대폰은 내일 배달될 거예요.",
+    "en": "This bag is made in Italy. My wallet was stolen yesterday. My new phone will be delivered tomorrow."
+   }
+  }
+ }
+}
