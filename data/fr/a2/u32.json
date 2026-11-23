@@ -1,0 +1,793 @@
+{
+ "meta": {
+  "id": "fr_a2_u32",
+  "lang": "fr",
+  "family": "europe",
+  "level": "a2",
+  "unit": 32,
+  "concept": "A2.U32",
+  "status": "live",
+  "title": {
+   "target": "Chez le médecin",
+   "ko": "병원에서",
+   "en": "At the doctor's"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "le mal de tête",
+   "pos": "noun",
+   "ko": "두통",
+   "en": "headache",
+   "ex": {
+    "t": "J'ai mal à la tête.",
+    "ko": "나는 머리가 아파요.",
+    "en": "I have a headache."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "la toux",
+   "pos": "noun",
+   "ko": "기침",
+   "en": "cough",
+   "ex": {
+    "t": "J'ai de la toux.",
+    "ko": "나는 기침이 나요.",
+    "en": "I have a cough."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "la fièvre",
+   "pos": "noun",
+   "ko": "열",
+   "en": "fever",
+   "ex": {
+    "t": "L'enfant a de la fièvre.",
+    "ko": "아이는 열이 있어요.",
+    "en": "The child has a fever."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "le ventre",
+   "pos": "noun",
+   "ko": "배",
+   "en": "stomach",
+   "ex": {
+    "t": "J'ai mal au ventre.",
+    "ko": "배가 아파요.",
+    "en": "I have a stomach ache."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "le médecin",
+   "pos": "noun",
+   "ko": "의사",
+   "en": "doctor",
+   "ex": {
+    "t": "Tu devrais voir un médecin.",
+    "ko": "의사에게 가야 해요.",
+    "en": "You should see a doctor."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "le médicament",
+   "pos": "noun",
+   "ko": "약",
+   "en": "medicine",
+   "ex": {
+    "t": "Prenez ce médicament.",
+    "ko": "이 약을 드세요.",
+    "en": "Take this medicine."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "se reposer",
+   "pos": "verb",
+   "ko": "쉬다",
+   "en": "rest",
+   "ex": {
+    "t": "Reposez-vous à la maison.",
+    "ko": "집에서 쉬세요.",
+    "en": "Rest at home."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "l'eau",
+   "pos": "noun",
+   "ko": "물",
+   "en": "water",
+   "ex": {
+    "t": "Buvez beaucoup d'eau.",
+    "ko": "물을 많이 마시세요.",
+    "en": "Drink plenty of water."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "malade",
+   "pos": "adj",
+   "ko": "아픈",
+   "en": "ill",
+   "ex": {
+    "t": "J'étais malade, donc je ne suis pas allé à l'école.",
+    "ko": "저는 아파서 학교에 못 갔어요.",
+    "en": "I was ill, so I didn't go to school."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "le rendez-vous",
+   "pos": "noun",
+   "ko": "예약",
+   "en": "appointment",
+   "ex": {
+    "t": "J'ai un rendez-vous chez le médecin.",
+    "ko": "의사 예약이 있어요.",
+    "en": "I have a doctor's appointment."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "avoir mal à + partie du corps ; il faut ; tu devrais",
+   "en": "avoir mal à + body part; il faut; tu devrais"
+  },
+  "explain": {
+   "ko": "증상은 avoir mal à + 신체 부위로 말합니다: j'ai mal à la tête, j'ai mal au ventre. 충고는 tu devrais / vous devriez + 동사원형, 꼭 필요한 일은 il faut + 동사원형으로 말합니다. 약은 명령형으로 지시합니다: prenez ce médicament deux fois par jour.",
+   "en": "Say a symptom with avoir mal à + body part: j'ai mal à la tête, j'ai mal au ventre. Advice uses tu devrais / vous devriez + infinitive; necessity uses il faut + infinitive. Medicine instructions use the imperative: prenez ce médicament deux fois par jour."
+  },
+  "table": {
+   "head": [
+    "표현 / Structure",
+    "예 / Exemple"
+   ],
+   "rows": [
+    [
+     "avoir mal à",
+     "J'ai mal à la tête. J'ai mal au ventre."
+    ],
+    [
+     "devoir (conditionnel)",
+     "Tu devrais voir un médecin."
+    ],
+    [
+     "il faut + inf.",
+     "Il faut se reposer."
+    ],
+    [
+     "명령 / impératif",
+     "Prenez ce médicament deux fois par jour."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "mal à + le → au, mal à + la → à la.",
+    "en": "mal à + le → au; mal à + la → à la."
+   },
+   {
+    "ko": "tu devrais = 충고, il faut = 필요.",
+    "en": "Tu devrais = advice; il faut = necessity."
+   },
+   {
+    "ko": "avoir de la fièvre, avoir de la toux.",
+    "en": "avoir de la fièvre, avoir de la toux."
+   }
+  ],
+  "examples": [
+   {
+    "t": "J'ai mal à la tête.",
+    "ko": "나는 머리가 아파요.",
+    "en": "I have a headache."
+   },
+   {
+    "t": "J'ai de la fièvre et de la toux.",
+    "ko": "나는 열이 나고 기침을 해요.",
+    "en": "I have a fever and a cough."
+   },
+   {
+    "t": "Tu devrais voir un médecin.",
+    "ko": "의사에게 가는 게 좋겠어요.",
+    "en": "You should see a doctor."
+   },
+   {
+    "t": "Prenez ce médicament deux fois par jour.",
+    "ko": "이 약을 하루에 두 번 드세요.",
+    "en": "Take this medicine twice a day."
+   },
+   {
+    "t": "Il faut se reposer à la maison.",
+    "ko": "집에서 쉬어야 해요.",
+    "en": "You have to rest at home."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "J'ai mal ___ tête.",
+    "options": [
+     "à la",
+     "au",
+     "de la"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Tu ___ voir un médecin.",
+    "options": [
+     "devrais",
+     "dois à",
+     "doives"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Il ___ se reposer.",
+    "options": [
+     "faut",
+     "fait",
+     "faux"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Prenez ce médicament deux fois ___ jour.",
+    "options": [
+     "par",
+     "à",
+     "de"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Qu'est-ce qui ne va pas ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어디가 아파요?",
+     "en": "(Question) What's the matter?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "J'ai mal à la tête.",
+       "Je suis mal tête.",
+       "Ma tête a mal."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Comment dois-je prendre ce médicament ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 약은 어떻게 먹어요?",
+     "en": "(Question) How do I take this medicine?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Deux fois par jour.",
+       "Deux jours.",
+       "Pour deux."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Où avez-vous mal ?"
+      },
+      {
+       "s": "B",
+       "t": "J'ai mal à la tête et j'ai de la fièvre."
+      },
+      {
+       "s": "A",
+       "t": "Depuis quand ?"
+      },
+      {
+       "s": "B",
+       "t": "Depuis deux jours. Je tousse aussi."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어디가 아프세요?\nB: 머리가 아프고 열이 있어요.\nA: 언제부터 그랬어요?\nB: 이틀 전부터요. 기침도 해요.",
+     "en": "A: What's the matter?\nB: I have a headache and a fever.\nA: How long have you had them?\nB: For two days. I have a cough too."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Depuis combien de temps le patient a-t-il mal à la tête ?",
+      "options": [
+       "Deux jours",
+       "Deux semaines",
+       "Deux heures"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Le médecin a dit : « Reposez-vous à la maison. Buvez beaucoup d'eau. Prenez ce médicament deux fois par jour. Si vous n'allez pas mieux dans trois jours, revenez. »"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의사 선생님이 말했어요. 집에서 쉬세요. 물을 많이 드세요. 이 약을 하루에 두 번 드세요. 3일 후에도 낫지 않으면 다시 오세요.",
+     "en": "The doctor said, 'Rest at home. Drink plenty of water. Take this medicine twice a day. If you are not better in three days, come back.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que doit boire le patient ?",
+      "options": [
+       "Beaucoup d'eau",
+       "Du thé",
+       "Du lait"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Vous avez un rendez-vous ?"
+      },
+      {
+       "s": "B",
+       "t": "Oui, à trois heures."
+      },
+      {
+       "s": "A",
+       "t": "Comment vous appelez-vous ?"
+      },
+      {
+       "s": "B",
+       "t": "Eva Lee."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 예약하셨어요?\n손님: 네, 3시에 예약했어요.\n직원: 성함이 어떻게 되세요?\n손님: 에바 리예요.",
+     "en": "Receptionist: Do you have an appointment?\nGuest: Yes, at three o'clock.\nReceptionist: What's your name?\nGuest: Eva Lee."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Le rendez-vous est à ______ heures",
+      "answers": [
+       "trois",
+       "3"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Le client s'appelle Eva ______",
+      "answers": [
+       "lee"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) J'ai mal ___ tête.\n2) Tu ___ voir un médecin.\n3) Prenez ce médicament deux fois ___ jour.",
+    "trans": {
+     "ko": "1) 나는 머리가 아파요. 2) 의사에게 가는 게 좋겠어요. 3) 이 약을 하루에 두 번 드세요.",
+     "en": "1) I have a headache. 2) You should see a doctor. 3) Take this medicine twice a day."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "J'ai mal ___ tête.",
+      "options": [
+       "à la",
+       "au",
+       "de la"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Tu ___ voir un médecin.",
+      "options": [
+       "devrais",
+       "dois à",
+       "doives"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Prenez ce médicament deux fois ___ jour.",
+      "options": [
+       "par",
+       "à",
+       "de"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Le médecin a dit : « Reposez-vous à la maison. Buvez (1) d'eau. Prenez ce médicament (2) fois par jour. Si vous n'allez pas mieux dans trois jours, (3). »",
+    "trans": {
+     "ko": "의사 선생님이 말했어요. 집에서 쉬세요. 물을 많이 드세요. 이 약을 하루에 두 번 드세요. 3일 후에도 낫지 않으면 다시 오세요.",
+     "en": "The doctor said, 'Rest at home. Drink plenty of water. Take this medicine twice a day. If you are not better in three days, come back.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "beaucoup",
+       "beau",
+       "grand"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "deux",
+       "deuxième",
+       "second"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "revenez",
+       "revenir",
+       "revenu"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "FICHE PATIENT\nNom : Eva Lee\nSymptômes : mal de tête, fièvre\nTraitement : médicament 2 fois par jour",
+    "trans": {
+     "ko": "진료 카드\n환자: 에바 리\n증상: 두통, 열\n처방: 약 하루 2회",
+     "en": "PATIENT CARD\nName: Eva Lee\nSymptoms: headache, fever\nTreatment: medicine twice a day"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quels sont les symptômes ?",
+      "options": [
+       "Mal de tête et fièvre",
+       "Toux et rhume",
+       "Mal au ventre"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Combien de fois par jour prend-on le médicament ?",
+      "options": [
+       "Deux fois",
+       "Une fois",
+       "Trois fois"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Tom a de la fièvre et il tousse. Il est allé chez le médecin. Le médecin lui a dit de se reposer à la maison.",
+    "trans": {
+     "ko": "톰은 열이 나고 기침을 해요. 그는 의사에게 갔어요. 의사는 그에게 집에서 쉬라고 했어요.",
+     "en": "Tom has a fever and a cough. He went to the doctor. The doctor told him to rest at home."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Tom est allé chez le médecin.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Tom a mal au ventre.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Tom est étudiant.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Qu'est-ce qui ne va pas ?",
+    "ko": "어디가 아파요?",
+    "en": "What's the matter?",
+    "situation": {
+     "ko": "증상을 물을 때",
+     "en": "Asking what is wrong"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "J'ai mal à la tête.",
+    "ko": "나는 머리가 아파요.",
+    "en": "I have a headache.",
+    "situation": {
+     "ko": "증상을 말할 때",
+     "en": "Saying a symptom"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "J'ai de la fièvre et de la toux.",
+    "ko": "열이 나고 기침을 해요.",
+    "en": "I have a fever and a cough.",
+    "situation": {
+     "ko": "여러 증상을 말할 때",
+     "en": "Saying more symptoms"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Depuis quand avez-vous mal ?",
+    "ko": "언제부터 아팠어요?",
+    "en": "How long have you felt ill?",
+    "situation": {
+     "ko": "기간을 물을 때",
+     "en": "Asking how long"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Tu devrais voir un médecin.",
+    "ko": "의사에게 가는 게 좋겠어요.",
+    "en": "You should see a doctor.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Prenez ce médicament deux fois par jour.",
+    "ko": "이 약을 하루에 두 번 드세요.",
+    "en": "Take this medicine twice a day.",
+    "situation": {
+     "ko": "약 복용법을 말할 때",
+     "en": "Saying how to take medicine"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Il faut boire beaucoup d'eau.",
+    "ko": "물을 많이 마셔야 해요.",
+    "en": "You have to drink plenty of water.",
+    "situation": {
+     "ko": "필요한 일을 말할 때",
+     "en": "Saying what is necessary"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "J'ai un rendez-vous chez le médecin.",
+    "ko": "의사 예약이 있어요.",
+    "en": "I have a doctor's appointment.",
+    "situation": {
+     "ko": "예약을 말할 때",
+     "en": "Talking about an appointment"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "J'ai mal à ~.",
+    "ko": "나는 ~이 아파요.",
+    "en": "I have a ~."
+   },
+   {
+    "id": "w2",
+    "t": "Tu devrais ~.",
+    "ko": "~하는 게 좋겠어요.",
+    "en": "You should ~."
+   },
+   {
+    "id": "w3",
+    "t": "Il faut ~.",
+    "ko": "~해야 해요.",
+    "en": "You have to ~."
+   },
+   {
+    "id": "w4",
+    "t": "Prenez ~ deux fois par jour.",
+    "ko": "~하지 마세요.",
+    "en": "Don't ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "아플 때 하는 말을 3문장으로 써 보세요: 증상, 의사의 조언, 약 복용법.",
+    "en": "Write 3 sentences: your symptom, the doctor's advice and how to take the medicine."
+   },
+   "must_include": [
+    {
+     "label": "j'ai mal",
+     "match": [
+      "j'ai mal"
+     ]
+    },
+    {
+     "label": "tu devrais / il faut",
+     "match": [
+      "devrais",
+      "il faut"
+     ]
+    },
+    {
+     "label": "deux fois par jour",
+     "match": [
+      "deux fois par jour"
+     ]
+    }
+   ],
+   "model": "J'ai mal à la tête. Le médecin dit qu'il faut se reposer à la maison. Je prends ce médicament deux fois par jour.",
+   "model_trans": {
+    "ko": "나는 머리가 아파요. 의사가 집에서 쉬라고 했어요. 이 약을 하루에 두 번 먹어요.",
+    "en": "I have a headache. The doctor says I should rest at home. I take this medicine twice a day."
+   }
+  }
+ }
+}
