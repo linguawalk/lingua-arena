@@ -1,0 +1,782 @@
+{
+ "meta": {
+  "id": "ko_a2_u31",
+  "lang": "ko",
+  "family": "asia",
+  "level": "a2",
+  "unit": 31,
+  "concept": "A2.U31",
+  "status": "live",
+  "title": {
+   "target": "날씨와 계절",
+   "ko": "날씨와 계절",
+   "en": "The weather and the seasons"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "맑다",
+   "pos": "adj",
+   "read": "makda",
+   "en": "sunny",
+   "ex": {
+    "t": "내일은 맑을 거예요.",
+    "read": "naeireun malgeul geoyeyo.",
+    "en": "It will be sunny tomorrow."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "흐리다",
+   "pos": "adj",
+   "read": "heurida",
+   "en": "cloudy",
+   "ex": {
+    "t": "오늘은 하늘이 흐려요.",
+    "read": "oneureun haneuri heuryeoyo.",
+    "en": "It is cloudy today."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "비가 오다",
+   "pos": "adj",
+   "read": "biga oda",
+   "en": "rainy",
+   "ex": {
+    "t": "봄에는 비가 자주 와요.",
+    "read": "bomeneun biga jaju wayo.",
+    "en": "It is often rainy in spring."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "바람이 불다",
+   "pos": "adj",
+   "read": "barami bulda",
+   "en": "windy",
+   "ex": {
+    "t": "오늘은 바람이 많이 불어요.",
+    "read": "oneureun barami mani bureoyo.",
+    "en": "It is very windy today."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "눈이 오다",
+   "pos": "verb",
+   "read": "nuni oda",
+   "en": "snow",
+   "ex": {
+    "t": "겨울에는 눈이 와요.",
+    "read": "gyeoureneun nuni wayo.",
+    "en": "It snows in winter."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "기온",
+   "pos": "noun",
+   "read": "gion",
+   "en": "temperature",
+   "ex": {
+    "t": "오늘 기온은 20도예요.",
+    "read": "oneul gioneun 20doyeyo.",
+    "en": "The temperature is 20 degrees today."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "예보",
+   "pos": "noun",
+   "read": "yebo",
+   "en": "forecast",
+   "ex": {
+    "t": "일기예보를 봤어요.",
+    "read": "ilgiyeboreul bwasseoyo.",
+    "en": "I watched the weather forecast."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "우산",
+   "pos": "noun",
+   "read": "usan",
+   "en": "umbrella",
+   "ex": {
+    "t": "비가 올 것 같아서 우산을 가져갔어요.",
+    "read": "biga ol geot gataseo usaneul gajyeogasseoyo.",
+    "en": "It looks like rain, so I took an umbrella."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "따뜻하다",
+   "pos": "adj",
+   "read": "ttatteutada",
+   "en": "warm",
+   "ex": {
+    "t": "봄은 따뜻해요.",
+    "read": "bomeun ttatteutaeyo.",
+    "en": "Spring is warm."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "춥다",
+   "pos": "adj",
+   "read": "chupda",
+   "en": "freezing",
+   "ex": {
+    "t": "겨울 아침은 몹시 추워요.",
+    "read": "gyeoul achimeun mopsi chuwoyo.",
+    "en": "Winter mornings are freezing."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "날씨 표현 + -(으)ㄹ 거예요 / -겠습니다 (예보)",
+   "en": "weather + -(으)ㄹ 거예요 / -겠습니다 (forecast)"
+  },
+  "explain": {
+   "ko": "날씨는 '비가 와요', '눈이 와요', '바람이 불어요', '맑아요', '흐려요', '따뜻해요', '추워요'처럼 말합니다. 예보는 -(으)ㄹ 거예요(내일은 맑을 거예요)를 쓰고, 방송에서는 -겠습니다(비가 오겠습니다)를 씁니다. 들은 이야기는 -대요(비가 온대요)로 전합니다.",
+   "en": "Weather: 비가 와요, 눈이 와요, 바람이 불어요, 맑아요, 흐려요, 따뜻해요, 추워요. Forecasts use -(으)ㄹ 거예요 (내일은 맑을 거예요); broadcasts use -겠습니다 (비가 오겠습니다). Reported weather uses -대요 (비가 온대요)."
+  },
+  "table": {
+   "head": [
+    "표현 / Pattern",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "현재 / now",
+     "오늘은 바람이 많이 불어요."
+    ],
+    [
+     "예보 / forecast",
+     "내일은 맑을 거예요. 비가 올 거예요."
+    ],
+    [
+     "방송 / broadcast",
+     "오후에는 비가 오겠습니다."
+    ],
+    [
+     "전해 들음 / reported",
+     "일요일에는 눈이 온대요."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "비·눈은 '오다', 바람은 '불다', 날씨는 '맑다 / 흐리다'를 씁니다.",
+    "en": "Rain / snow use 오다, wind uses 불다, sky uses 맑다 / 흐리다."
+   },
+   {
+    "ko": "기온은 '15도예요'처럼 도(°)로 말합니다.",
+    "en": "Temperature: 15도예요."
+   },
+   {
+    "ko": "-(으)ㄹ 거예요는 추측과 예정 모두에 씁니다.",
+    "en": "-(으)ㄹ 거예요 covers both guess and plan."
+   }
+  ],
+  "examples": [
+   {
+    "t": "내일은 맑을 거예요.",
+    "read": "naeireun malgeul geoyeyo.",
+    "en": "It will be sunny tomorrow."
+   },
+   {
+    "t": "오늘은 바람이 많이 불어요.",
+    "read": "oneureun barami mani bureoyo.",
+    "en": "It is very windy today."
+   },
+   {
+    "t": "비가 올 거예요.",
+    "read": "biga ol geoyeyo.",
+    "en": "It's going to rain."
+   },
+   {
+    "t": "겨울에는 눈이 와요.",
+    "read": "gyeoureneun nuni wayo.",
+    "en": "It snows in winter."
+   },
+   {
+    "t": "일기예보를 봤어요?",
+    "read": "ilgiyeboreul bwasseoyo?",
+    "en": "Did you watch the weather forecast?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "내일은 ___ 거예요.",
+    "options": [
+     "맑을",
+     "맑아요",
+     "맑았어요"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "오늘은 바람이 많이 ___.",
+    "options": [
+     "불어요",
+     "와요",
+     "맑아요"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "겨울에는 눈이 ___.",
+    "options": [
+     "와요",
+     "불어요",
+     "흐려요"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "오후에는 비가 오___ 합니다.",
+    "options": [
+     "겠습니다",
+     "았어요",
+     "고 있어요"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "내일 날씨가 어때요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What will the weather be like tomorrow?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "흐리고 비가 올 거예요.",
+       "어제 맑았어요.",
+       "지금 맑아요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "어떤 계절을 좋아해요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Which season do you like?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "봄을 좋아해요.",
+       "봄이 어제 왔어요.",
+       "계절이 아니에요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "내일 날씨가 어때?"
+      },
+      {
+       "s": "B",
+       "t": "일기예보를 보니까 아침은 흐리고 오후에 비가 올 거래."
+      },
+      {
+       "s": "A",
+       "t": "그럼 우산을 가져가야겠다."
+      },
+      {
+       "s": "B",
+       "t": "응, 그리고 따뜻한 코트도 입어. 기온이 15도야."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: What's the weather going to be like tomorrow?\nB: The forecast says it will be cloudy in the morning and rainy in the afternoon.\nA: Then I'll take an umbrella.\nB: Yes, and wear a warm coat. The temperature will be 15 degrees."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "오후 날씨는 어때요?",
+      "options": [
+       "비가 와요",
+       "맑아요",
+       "눈이 와요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "안녕하세요, 일기예보입니다. 오늘은 맑고 따뜻합니다. 내일은 아침에 흐리겠고 오후에는 비가 오겠습니다. 바람이 많이 불겠으니 우산을 조심해서 쓰세요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Hello, here is the weather forecast. Today is sunny and warm. Tomorrow it will be cloudy in the morning and it's going to rain in the afternoon. It will be very windy, so be careful with your umbrella."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "오늘 날씨는 어때요?",
+      "options": [
+       "맑고 따뜻해요",
+       "흐리고 추워요",
+       "비가 와요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "주말 날씨는 어때요?"
+      },
+      {
+       "s": "B",
+       "t": "토요일은 맑고 일요일에는 눈이 온대요."
+      },
+      {
+       "s": "A",
+       "t": "기온은요?"
+      },
+      {
+       "s": "B",
+       "t": "영하 3도예요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Clerk: What's the weather like for the weekend?\nGuest: Saturday will be sunny and on Sunday it's going to snow.\nClerk: And the temperature?\nGuest: Minus three degrees."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "손님: 토요일은 ______고",
+      "answers": [
+       "맑"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "손님: 영하 ______도예요",
+      "answers": [
+       "3"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 내일은 ___ 거예요.\n2) 오늘은 바람이 많이 ___.\n3) 겨울에는 눈이 ___.",
+    "trans": {
+     "en": "1) It will be sunny tomorrow. 2) It is very windy today. 3) It snows in winter."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "내일은 ___ 거예요.",
+      "options": [
+       "맑을",
+       "맑아요",
+       "맑았어요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "오늘은 바람이 많이 ___.",
+      "options": [
+       "불어요",
+       "와요",
+       "맑아요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "겨울에는 눈이 ___.",
+      "options": [
+       "와요",
+       "불어요",
+       "흐려요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "일기예보입니다. 오늘은 맑고 (1). 내일은 아침에 흐리겠고 오후에는 비가 (2). 바람이 많이 불겠으니 우산을 (3).",
+    "trans": {
+     "en": "Here is the weather forecast. Today is sunny and warm. Tomorrow it will be cloudy in the morning and it's going to rain in the afternoon. It will be very windy, so be careful with your umbrella."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "따뜻합니다",
+       "추웠어요",
+       "흐릴 거예요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "오겠습니다",
+       "왔어요",
+       "오고 있어요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "조심하세요",
+       "조심했어요",
+       "조심해서"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "주간 날씨\n토요일: 맑음, 18°C\n일요일: 눈, -3°C",
+    "trans": {
+     "en": "WEEKLY WEATHER\nSaturday: sunny, 18°C\nSunday: snow, -3°C"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "토요일 날씨는 어때요?",
+      "options": [
+       "맑음, 18°C",
+       "눈, -3°C",
+       "비, 10°C"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "일요일 기온은 얼마예요?",
+      "options": [
+       "-3°C",
+       "18°C",
+       "0°C"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "내일 아침은 흐릴 거예요. 오후에는 비가 올 거예요. 바람이 많이 불 거예요.",
+    "trans": {
+     "en": "Tomorrow morning will be cloudy. In the afternoon it's going to rain. It will be very windy."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "내일 아침은 흐릴 거예요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "내일 오후에는 눈이 올 거예요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "내일은 기온이 15도일 거예요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "내일 날씨가 어때요?",
+    "read": "naeil nalssiga eottaeyo?",
+    "en": "What will the weather be like tomorrow?",
+    "situation": {
+     "ko": "내일 날씨를 물을 때",
+     "en": "Asking about tomorrow's weather"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "내일은 맑을 거예요.",
+    "read": "naeireun malgeul geoyeyo.",
+    "en": "It will be sunny tomorrow.",
+    "situation": {
+     "ko": "예보를 말할 때",
+     "en": "Giving the forecast"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "비가 올 것 같아요.",
+    "read": "biga ol geot gatayo.",
+    "en": "It's going to rain.",
+    "situation": {
+     "ko": "곧 일어날 일을 말할 때",
+     "en": "Saying it looks like rain"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "우산을 가져가세요.",
+    "read": "usaneul gajyeogaseyo.",
+    "en": "Take an umbrella.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "오늘은 바람이 많이 불어요.",
+    "read": "oneureun barami mani bureoyo.",
+    "en": "It is very windy today.",
+    "situation": {
+     "ko": "지금 날씨를 말할 때",
+     "en": "Describing today's weather"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "겨울 아침은 몹시 추워요.",
+    "read": "gyeoul achimeun mopsi chuwoyo.",
+    "en": "Winter mornings are freezing.",
+    "situation": {
+     "ko": "계절을 말할 때",
+     "en": "Talking about seasons"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "기온이 20도예요.",
+    "read": "gioni 20doyeyo.",
+    "en": "The temperature is 20 degrees.",
+    "situation": {
+     "ko": "기온을 말할 때",
+     "en": "Giving the temperature"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "나는 봄이 제일 좋아요.",
+    "read": "naneun bomi jeil joayo.",
+    "en": "I like spring best.",
+    "situation": {
+     "ko": "좋아하는 계절을 말할 때",
+     "en": "Saying your favourite season"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "내일은 ~할 거예요.",
+    "read": "naeireun ~hal geoyeyo.",
+    "en": "It will be ~ tomorrow."
+   },
+   {
+    "id": "w2",
+    "t": "~할 것 같아요.",
+    "read": "~hal geot gatayo.",
+    "en": "It's going to ~."
+   },
+   {
+    "id": "w3",
+    "t": "~에는 …해요.",
+    "read": "~eneun …haeyo.",
+    "en": "It ~ in (season)."
+   },
+   {
+    "id": "w4",
+    "t": "기온은 ~도예요.",
+    "read": "gioneun ~doyeyo.",
+    "en": "The temperature is ~ degrees."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "내일 날씨를 예보하는 글을 3문장으로 써 보세요 (will / going to 사용).",
+    "en": "Write a 3-sentence weather forecast for tomorrow using will and going to."
+   },
+   "must_include": [
+    {
+     "label": "~ 거예요 (예보)",
+     "match": [
+      "거예요"
+     ]
+    },
+    {
+     "label": "비가 올 거예요",
+     "match": [
+      "비가 올"
+     ]
+    },
+    {
+     "label": "기온 ~도",
+     "match": [
+      "도일"
+     ]
+    }
+   ],
+   "model": "내일 아침은 흐릴 거예요. 오후에는 비가 올 거예요. 기온은 15도일 거예요.",
+   "model_trans": {
+    "ko": "내일 아침은 흐릴 거예요. 오후에는 비가 올 거예요. 기온은 15도일 거예요.",
+    "en": "Tomorrow morning will be cloudy. In the afternoon it's going to rain. The temperature will be 15 degrees."
+   }
+  }
+ }
+}

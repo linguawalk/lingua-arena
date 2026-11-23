@@ -1,0 +1,782 @@
+{
+ "meta": {
+  "id": "ko_a2_u28",
+  "lang": "ko",
+  "family": "asia",
+  "level": "a2",
+  "unit": 28,
+  "concept": "A2.U28",
+  "status": "live",
+  "title": {
+   "target": "몇 개, 조금, 많이",
+   "ko": "a few, a little, a lot of: 수량 표현",
+   "en": "A few, a little, a lot of"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "몇 개",
+   "pos": "det",
+   "read": "myeot gae",
+   "en": "a few",
+   "ex": {
+    "t": "나는 친구가 몇 명 있어요.",
+    "read": "naneun chinguga myeot myeong isseoyo.",
+    "en": "I have a few friends."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "조금",
+   "pos": "det",
+   "read": "jogeum",
+   "en": "a little",
+   "ex": {
+    "t": "나는 우유를 조금 마셔요.",
+    "read": "naneun uyureul jogeum masyeoyo.",
+    "en": "I drink a little milk."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "많이",
+   "pos": "det",
+   "read": "mani",
+   "en": "a lot of",
+   "ex": {
+    "t": "그는 책이 많아요.",
+    "read": "geuneun chaegi manayo.",
+    "en": "He has a lot of books."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "별로 없다",
+   "pos": "det",
+   "read": "byeollo eopda",
+   "en": "not many",
+   "ex": {
+    "t": "나는 친구가 많지 않아요.",
+    "read": "naneun chinguga manchi anayo.",
+    "en": "I don't have many friends."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "별로 없다 (양)",
+   "pos": "det",
+   "read": "byeollo eopda (yang)",
+   "en": "not much",
+   "ex": {
+    "t": "나는 시간이 많지 않아요.",
+    "read": "naneun sigani manchi anayo.",
+    "en": "I don't have much time."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "많다",
+   "pos": "det",
+   "read": "manta",
+   "en": "many",
+   "ex": {
+    "t": "공원에 사람이 많아요?",
+    "read": "gongwone sarami manayo?",
+    "en": "Are there many people in the park?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "많다 (양)",
+   "pos": "det",
+   "read": "manta (yang)",
+   "en": "much",
+   "ex": {
+    "t": "너 돈 많이 있어?",
+    "read": "neo don mani isseo?",
+    "en": "Do you have much money?"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "설탕",
+   "pos": "noun",
+   "read": "seoltang",
+   "en": "sugar",
+   "ex": {
+    "t": "커피에 설탕을 조금 넣었어요.",
+    "read": "keopie seoltangeul jogeum neoeosseoyo.",
+    "en": "I put a little sugar in my coffee."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "사과",
+   "pos": "noun",
+   "read": "sagwa",
+   "en": "apple",
+   "ex": {
+    "t": "냉장고에 사과가 몇 개 있어요.",
+    "read": "naengjanggoe sagwaga myeot gae isseoyo.",
+    "en": "There are a few apples in the fridge."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "충분하다",
+   "pos": "det",
+   "read": "chungbunhada",
+   "en": "plenty of",
+   "ex": {
+    "t": "우리는 시간이 충분해요.",
+    "read": "urineun sigani chungbunhaeyo.",
+    "en": "We have plenty of time."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "몇 명·몇 개 / 조금 / 많이 / 많지 않다",
+   "en": "a few (몇) / a little (조금) / a lot (많이) / not many·much (많지 않다)"
+  },
+  "explain": {
+   "ko": "한국어에서는 셀 수 있는 것은 '몇 + 단위'(몇 명, 몇 개)로, 적은 양은 '조금'으로, 많은 양은 '많이'로 말합니다. '많지 않아요'는 '별로 없어요'라는 뜻입니다. 단위 명사: 사람은 명, 사물은 개, 책은 권, 동물은 마리입니다.",
+   "en": "Korean uses 몇 + counter for a few countable things (몇 명, 몇 개), 조금 for a small amount, 많이 for a lot. 많지 않아요 means 'there isn't much / many'. Counters: 명 (people), 개 (things), 권 (books), 마리 (animals)."
+  },
+  "table": {
+   "head": [
+    "표현 / Pattern",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "몇 + 단위",
+     "나는 친구가 몇 명 있어요."
+    ],
+    [
+     "조금",
+     "나는 우유를 조금 마셔요."
+    ],
+    [
+     "많이",
+     "채소는 많이 있어요."
+    ],
+    [
+     "많지 않다",
+     "나는 시간이 많지 않아요."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "셀 수 있는 것: 몇 명 / 몇 개. 셀 수 없는 것: 조금 / 많이.",
+    "en": "Countable: 몇 명 / 몇 개. Uncountable: 조금 / 많이."
+   },
+   {
+    "ko": "'조금만'은 '아주 조금'이라는 뜻입니다.",
+    "en": "조금만 means 'just a little'."
+   },
+   {
+    "ko": "의문문에서는 '몇 개예요?' / '얼마나 있어요?'를 씁니다.",
+    "en": "In questions: 몇 개예요? / 얼마나 있어요?"
+   }
+  ],
+  "examples": [
+   {
+    "t": "나는 친구가 몇 명 있어요.",
+    "read": "naneun chinguga myeot myeong isseoyo.",
+    "en": "I have a few friends."
+   },
+   {
+    "t": "나는 우유를 조금 마셔요.",
+    "read": "naneun uyureul jogeum masyeoyo.",
+    "en": "I drink a little milk."
+   },
+   {
+    "t": "그는 책이 많아요.",
+    "read": "geuneun chaegi manayo.",
+    "en": "He has a lot of books."
+   },
+   {
+    "t": "나는 시간이 많지 않아요.",
+    "read": "naneun sigani manchi anayo.",
+    "en": "I don't have much time."
+   },
+   {
+    "t": "공원에 사람이 많아요?",
+    "read": "gongwone sarami manayo?",
+    "en": "Are there many people in the park?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "나는 친구가 ___ 명 있어요.",
+    "options": [
+     "몇",
+     "조금",
+     "많이"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "나는 우유를 ___ 마셔요.",
+    "options": [
+     "조금",
+     "몇",
+     "개"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "공원에 사람이 ___ 있어요.",
+    "options": [
+     "많이",
+     "몇",
+     "조금씩"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "나는 시간이 많___ 않아요.",
+    "options": [
+     "지",
+     "고",
+     "은"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "친구가 많아요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Do you have many friends?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "몇 명 있어요.",
+       "많이 먹어요.",
+       "조금 샀어요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "우유가 얼마나 남았어요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) How much milk is left?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "조금 남았어요.",
+       "많이 사요.",
+       "몇 명이에요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "냉장고에 뭐가 있어?"
+      },
+      {
+       "s": "B",
+       "t": "사과가 몇 개 있고 우유가 조금 있어."
+      },
+      {
+       "s": "A",
+       "t": "채소는?"
+      },
+      {
+       "s": "B",
+       "t": "채소는 많이 있어. 하지만 달걀은 많지 않아."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: What's in the fridge?\nB: There are a few apples and a little milk.\nA: What about vegetables?\nB: There are a lot of vegetables. But there aren't many eggs."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "냉장고에 많은 것은 무엇이에요?",
+      "options": [
+       "채소",
+       "사과",
+       "달걀"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "저는 친구가 많지 않아요. 몇 명뿐이에요. 하지만 모두 좋은 친구예요. 주말에는 시간이 많지 않지만 커피를 조금 마시며 이야기해요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "I don't have many friends. Just a few. But they are all good friends. At weekends I don't have much time, but we talk over a little coffee."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "주말에 무엇을 해요?",
+      "options": [
+       "커피를 마시며 이야기해요",
+       "일해요",
+       "운동해요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "설탕을 넣을까요?"
+      },
+      {
+       "s": "B",
+       "t": "조금만 넣어 주세요."
+      },
+      {
+       "s": "A",
+       "t": "우유는요?"
+      },
+      {
+       "s": "B",
+       "t": "많이 넣어 주세요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Clerk: Would you like sugar?\nGuest: Just a little, please.\nClerk: And milk?\nGuest: A lot, please."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "손님: ______만 넣어 주세요",
+      "answers": [
+       "조금"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "손님: 우유는 ______ 넣어 주세요",
+      "answers": [
+       "많이"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 나는 친구가 ___ 명 있어요.\n2) 나는 우유를 ___ 마셔요.\n3) 나는 시간이 많지 ___.",
+    "trans": {
+     "en": "1) I have a few friends. 2) I drink a little milk. 3) I don't have much time."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "나는 친구가 ___ 명 있어요.",
+      "options": [
+       "몇",
+       "조금",
+       "많이"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "나는 우유를 ___ 마셔요.",
+      "options": [
+       "조금",
+       "몇",
+       "개"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "나는 시간이 많지 ___.",
+      "options": [
+       "않아요",
+       "있어요",
+       "좋아요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "저는 친구가 많지 않아요. (1) 명뿐이에요. 주말에는 시간이 많지 않지만 커피를 (2) 마시며 이야기해요. 하지만 모두 (3) 친구예요.",
+    "trans": {
+     "en": "I don't have many friends. Just a few. But they are all good friends. At weekends I don't have much time, but we talk over a little coffee."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "몇",
+       "조금",
+       "많이"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "조금",
+       "몇",
+       "개"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "좋은",
+       "나쁜",
+       "작은"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "냉장고 메모\n사과: 3개\n우유: 조금\n채소: 많음",
+    "trans": {
+     "en": "FRIDGE NOTE\nApples: 3\nMilk: a little\nVegetables: a lot"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "사과는 몇 개예요?",
+      "options": [
+       "3개",
+       "1개",
+       "10개"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "채소는 얼마나 있어요?",
+      "options": [
+       "많이",
+       "조금",
+       "없어요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "톰은 친구가 몇 명 있어요. 그는 시간이 많지 않아요. 그는 주말에 친구와 커피를 마셔요.",
+    "trans": {
+     "en": "Tom has a few friends. He doesn't have much time. At weekends he has coffee with his friends."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "톰은 친구가 몇 명 있어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "톰은 시간이 많아요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "톰은 매일 운동해요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "나는 친구가 몇 명 있어요.",
+    "read": "naneun chinguga myeot myeong isseoyo.",
+    "en": "I have a few friends.",
+    "situation": {
+     "ko": "친구 수를 말할 때",
+     "en": "Saying how many friends"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "우유를 조금 마셔요.",
+    "read": "uyureul jogeum masyeoyo.",
+    "en": "I drink a little milk.",
+    "situation": {
+     "ko": "양을 말할 때",
+     "en": "Saying how much"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "그는 책이 많아요.",
+    "read": "geuneun chaegi manayo.",
+    "en": "He has a lot of books.",
+    "situation": {
+     "ko": "많다고 말할 때",
+     "en": "Saying there are many"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "나는 시간이 많지 않아요.",
+    "read": "naneun sigani manchi anayo.",
+    "en": "I don't have much time.",
+    "situation": {
+     "ko": "시간이 부족할 때",
+     "en": "Saying you are short of time"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "공원에 사람이 많아요?",
+    "read": "gongwone sarami manayo?",
+    "en": "Are there many people in the park?",
+    "situation": {
+     "ko": "수를 물을 때",
+     "en": "Asking about number"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "돈이 얼마나 있어요?",
+    "read": "doni eolmana isseoyo?",
+    "en": "How much money do you have?",
+    "situation": {
+     "ko": "양을 물을 때",
+     "en": "Asking about amount"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "냉장고에 사과가 몇 개 있어요.",
+    "read": "naengjanggoe sagwaga myeot gae isseoyo.",
+    "en": "There are a few apples in the fridge.",
+    "situation": {
+     "ko": "물건 수를 말할 때",
+     "en": "Describing what is in the fridge"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "커피에 설탕을 조금 넣었어요.",
+    "read": "keopie seoltangeul jogeum neoeosseoyo.",
+    "en": "I put a little sugar in my coffee.",
+    "situation": {
+     "ko": "음식 양을 말할 때",
+     "en": "Talking about food amounts"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~이 몇 개 있어요.",
+    "read": "~i myeot gae isseoyo.",
+    "en": "I have a few ~ (plural)."
+   },
+   {
+    "id": "w2",
+    "t": "~이 조금 있어요.",
+    "read": "~i jogeum isseoyo.",
+    "en": "I have a little ~ (uncountable)."
+   },
+   {
+    "id": "w3",
+    "t": "~이 많이 있어요.",
+    "read": "~i mani isseoyo.",
+    "en": "I have a lot of ~."
+   },
+   {
+    "id": "w4",
+    "t": "~이 많지 않아요.",
+    "read": "~i manchi anayo.",
+    "en": "I don't have many / much ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "냉장고에 있는 것에 대해 a few, a little, a lot of를 써서 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about what is in your fridge using a few, a little and a lot of."
+   },
+   "must_include": [
+    {
+     "label": "몇 ~",
+     "match": [
+      "몇"
+     ]
+    },
+    {
+     "label": "조금 ~",
+     "match": [
+      "조금"
+     ]
+    },
+    {
+     "label": "많이 ~",
+     "match": [
+      "많이"
+     ]
+    }
+   ],
+   "model": "냉장고에 사과가 몇 개 있어요. 우유가 조금 있어요. 채소는 많이 있어요.",
+   "model_trans": {
+    "ko": "냉장고에 사과가 몇 개 있어요. 우유가 조금 있어요. 채소는 많이 있어요.",
+    "en": "There are a few apples in the fridge. There is a little milk. There are a lot of vegetables."
+   }
+  }
+ }
+}

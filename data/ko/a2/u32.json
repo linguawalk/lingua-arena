@@ -1,0 +1,782 @@
+{
+ "meta": {
+  "id": "ko_a2_u32",
+  "lang": "ko",
+  "family": "asia",
+  "level": "a2",
+  "unit": 32,
+  "concept": "A2.U32",
+  "status": "live",
+  "title": {
+   "target": "병원에서",
+   "ko": "병원에서",
+   "en": "At the doctor's"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "두통",
+   "pos": "noun",
+   "read": "dutong",
+   "en": "headache",
+   "ex": {
+    "t": "나는 머리가 아파요.",
+    "read": "naneun meoriga apayo.",
+    "en": "I have a headache."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "기침",
+   "pos": "noun",
+   "read": "gichim",
+   "en": "cough",
+   "ex": {
+    "t": "나는 기침이 나요.",
+    "read": "naneun gichimi nayo.",
+    "en": "I have a cough."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "열",
+   "pos": "noun",
+   "read": "yeol",
+   "en": "fever",
+   "ex": {
+    "t": "아이는 열이 있어요.",
+    "read": "aineun yeori isseoyo.",
+    "en": "The child has a fever."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "배",
+   "pos": "noun",
+   "read": "bae",
+   "en": "stomach",
+   "ex": {
+    "t": "배가 아파요.",
+    "read": "baega apayo.",
+    "en": "I have a stomach ache."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "의사",
+   "pos": "noun",
+   "read": "uisa",
+   "en": "doctor",
+   "ex": {
+    "t": "의사에게 가야 해요.",
+    "read": "uisaege gaya haeyo.",
+    "en": "You should see a doctor."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "약",
+   "pos": "noun",
+   "read": "yak",
+   "en": "medicine",
+   "ex": {
+    "t": "이 약을 드세요.",
+    "read": "i yageul deuseyo.",
+    "en": "Take this medicine."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "쉬다",
+   "pos": "verb",
+   "read": "swida",
+   "en": "rest",
+   "ex": {
+    "t": "집에서 쉬세요.",
+    "read": "jibeseo swiseyo.",
+    "en": "Rest at home."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "물",
+   "pos": "noun",
+   "read": "mul",
+   "en": "water",
+   "ex": {
+    "t": "물을 많이 마시세요.",
+    "read": "mureul mani masiseyo.",
+    "en": "Drink plenty of water."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "아프다",
+   "pos": "adj",
+   "read": "apeuda",
+   "en": "ill",
+   "ex": {
+    "t": "저는 아파서 학교에 못 갔어요.",
+    "read": "jeoneun apaseo hakgyoe mot gasseoyo.",
+    "en": "I was ill, so I didn't go to school."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "예약",
+   "pos": "noun",
+   "read": "yeyak",
+   "en": "appointment",
+   "ex": {
+    "t": "의사 예약이 있어요.",
+    "read": "uisa yeyagi isseoyo.",
+    "en": "I have a doctor's appointment."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "어디가 아파요? / -아/어야 해요 / -(으)세요 (처방)",
+   "en": "어디가 아파요? / -아/어야 해요 (should) / -(으)세요 (instructions)"
+  },
+  "explain": {
+   "ko": "아플 때는 '신체 부위 + 이/가 아파요'로 말합니다: 머리가 아파요, 배가 아파요. 증상은 '열이 나요', '기침을 해요'입니다. 의사의 조언과 처방은 -(으)세요(쉬세요, 드세요) 또는 -는 게 좋겠어요(가는 게 좋겠어요), 해야 하는 일은 -아/어야 해요입니다. 약은 '먹다'의 높임말 '드시다'를 씁니다.",
+   "en": "To say something hurts: body part + 이/가 아파요 (머리가 아파요, 배가 아파요). Symptoms: 열이 나요, 기침을 해요. A doctor gives advice with -(으)세요 (쉬세요, 드세요), -는 게 좋겠어요 or -아/어야 해요 (must). For medicine the honorific 드시다 replaces 먹다."
+  },
+  "table": {
+   "head": [
+    "표현 / Pattern",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "아프다",
+     "머리가 아파요. 배가 아파요."
+    ],
+    [
+     "증상 / symptom",
+     "열이 나고 기침을 해요."
+    ],
+    [
+     "조언 / advice",
+     "의사에게 가는 게 좋겠어요."
+    ],
+    [
+     "처방 / prescription",
+     "이 약을 하루에 두 번 드세요."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "아프다 앞에는 '이/가'를 씁니다: 머리가 아파요.",
+    "en": "Use 이/가 before 아프다: 머리가 아파요."
+   },
+   {
+    "ko": "-아/어야 해요는 '~해야 한다'는 필요를 나타냅니다.",
+    "en": "-아/어야 해요 expresses necessity."
+   },
+   {
+    "ko": "-(으)세요는 상대를 높이는 명령·권유입니다.",
+    "en": "-(으)세요 is a polite instruction."
+   }
+  ],
+  "examples": [
+   {
+    "t": "나는 머리가 아파요.",
+    "read": "naneun meoriga apayo.",
+    "en": "I have a headache."
+   },
+   {
+    "t": "나는 열이 나고 기침을 해요.",
+    "read": "naneun yeori nago gichimeul haeyo.",
+    "en": "I have a fever and a cough."
+   },
+   {
+    "t": "의사에게 가는 게 좋겠어요.",
+    "read": "uisaege ganeun ge jokesseoyo.",
+    "en": "You should see a doctor."
+   },
+   {
+    "t": "이 약을 하루에 두 번 드세요.",
+    "read": "i yageul harue du beon deuseyo.",
+    "en": "Take this medicine twice a day."
+   },
+   {
+    "t": "집에서 쉬어야 해요.",
+    "read": "jibeseo swieoya haeyo.",
+    "en": "You have to rest at home."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "나는 머리가 ___.",
+    "options": [
+     "아파요",
+     "아프세요",
+     "아플까요"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "열이 나___ 기침을 해요.",
+    "options": [
+     "고",
+     "면",
+     "서"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "집에서 쉬어야 ___.",
+    "options": [
+     "해요",
+     "했어요",
+     "할까요"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "이 약을 하루에 두 번 ___.",
+    "options": [
+     "드세요",
+     "먹었어요",
+     "먹고"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "어디가 아파요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What's the matter?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "머리가 아파요.",
+       "머리가 좋아요.",
+       "머리가 커요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이 약은 어떻게 먹어요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) How do I take this medicine?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "하루에 두 번 드세요.",
+       "어제 먹었어요.",
+       "내일 사요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "어디가 아프세요?"
+      },
+      {
+       "s": "B",
+       "t": "머리가 아프고 열이 있어요."
+      },
+      {
+       "s": "A",
+       "t": "언제부터 그랬어요?"
+      },
+      {
+       "s": "B",
+       "t": "이틀 전부터요. 기침도 해요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: What's the matter?\nB: I have a headache and a fever.\nA: How long have you had them?\nB: For two days. I have a cough too."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B는 언제부터 아팠어요?",
+      "options": [
+       "이틀 전부터",
+       "어제부터",
+       "일주일 전부터"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "의사 선생님이 말했어요. 집에서 쉬세요. 물을 많이 드세요. 이 약을 하루에 두 번 드세요. 3일 후에도 낫지 않으면 다시 오세요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "The doctor said, 'Rest at home. Drink plenty of water. Take this medicine twice a day. If you are not better in three days, come back.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "3일 후에도 낫지 않으면 어떻게 해요?",
+      "options": [
+       "다시 와요",
+       "약을 안 먹어요",
+       "집에서 쉬어요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "예약하셨어요?"
+      },
+      {
+       "s": "B",
+       "t": "네, 3시에 예약했어요."
+      },
+      {
+       "s": "A",
+       "t": "성함이 어떻게 되세요?"
+      },
+      {
+       "s": "B",
+       "t": "에바 리예요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Receptionist: Do you have an appointment?\nGuest: Yes, at three o'clock.\nReceptionist: What's your name?\nGuest: Eva Lee."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "손님: ______시에 예약했어요",
+      "answers": [
+       "3"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "손님: 에바 ______예요",
+      "answers": [
+       "리"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 나는 머리가 ___.\n2) 의사에게 가는 게 ___.\n3) 이 약을 하루에 두 번 ___.",
+    "trans": {
+     "en": "1) I have a headache. 2) You should see a doctor. 3) Take this medicine twice a day."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "나는 머리가 ___.",
+      "options": [
+       "아파요",
+       "아프세요",
+       "아플까요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "의사에게 가는 게 ___.",
+      "options": [
+       "좋겠어요",
+       "좋았어요",
+       "좋고"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "이 약을 하루에 두 번 ___.",
+      "options": [
+       "드세요",
+       "먹었어요",
+       "먹고"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "의사 선생님이 말했어요. 집에서 (1). 물을 많이 (2). 이 약을 하루에 두 번 드세요. 3일 후에도 (3) 다시 오세요.",
+    "trans": {
+     "en": "The doctor said, 'Rest at home. Drink plenty of water. Take this medicine twice a day. If you are not better in three days, come back.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "쉬세요",
+       "쉬었어요",
+       "쉬고"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "드세요",
+       "드셨어요",
+       "드시고"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "낫지 않으면",
+       "나았으면서",
+       "낫고"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "진료 카드\n환자: 에바 리\n증상: 두통, 열\n처방: 약 하루 2회",
+    "trans": {
+     "en": "PATIENT CARD\nName: Eva Lee\nSymptoms: headache, fever\nTreatment: medicine twice a day"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "환자의 이름은 무엇이에요?",
+      "options": [
+       "에바 리",
+       "톰 리",
+       "민 김"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "증상은 무엇이에요?",
+      "options": [
+       "두통, 열",
+       "기침, 배",
+       "열, 배"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "톰은 열이 나고 기침을 해요. 그는 의사에게 갔어요. 의사는 그에게 집에서 쉬라고 했어요.",
+    "trans": {
+     "en": "Tom has a fever and a cough. He went to the doctor. The doctor told him to rest at home."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "톰은 열이 나고 기침을 해요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "톰은 병원에 안 갔어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "톰은 약을 샀어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "어디가 아파요?",
+    "read": "eodiga apayo?",
+    "en": "What's the matter?",
+    "situation": {
+     "ko": "증상을 물을 때",
+     "en": "Asking what is wrong"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "나는 머리가 아파요.",
+    "read": "naneun meoriga apayo.",
+    "en": "I have a headache.",
+    "situation": {
+     "ko": "증상을 말할 때",
+     "en": "Saying a symptom"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "열이 나고 기침을 해요.",
+    "read": "yeori nago gichimeul haeyo.",
+    "en": "I have a fever and a cough.",
+    "situation": {
+     "ko": "여러 증상을 말할 때",
+     "en": "Saying more symptoms"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "언제부터 아팠어요?",
+    "read": "eonjebuteo apasseoyo?",
+    "en": "How long have you felt ill?",
+    "situation": {
+     "ko": "기간을 물을 때",
+     "en": "Asking how long"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "의사에게 가는 게 좋겠어요.",
+    "read": "uisaege ganeun ge jokesseoyo.",
+    "en": "You should see a doctor.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "이 약을 하루에 두 번 드세요.",
+    "read": "i yageul harue du beon deuseyo.",
+    "en": "Take this medicine twice a day.",
+    "situation": {
+     "ko": "약 복용법을 말할 때",
+     "en": "Saying how to take medicine"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "물을 많이 마셔야 해요.",
+    "read": "mureul mani masyeoya haeyo.",
+    "en": "You have to drink plenty of water.",
+    "situation": {
+     "ko": "필요한 일을 말할 때",
+     "en": "Saying what is necessary"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "의사 예약이 있어요.",
+    "read": "uisa yeyagi isseoyo.",
+    "en": "I have a doctor's appointment.",
+    "situation": {
+     "ko": "예약을 말할 때",
+     "en": "Talking about an appointment"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "나는 ~이 아파요.",
+    "read": "naneun ~i apayo.",
+    "en": "I have a ~."
+   },
+   {
+    "id": "w2",
+    "t": "~하는 게 좋겠어요.",
+    "read": "~haneun ge jokesseoyo.",
+    "en": "You should ~."
+   },
+   {
+    "id": "w3",
+    "t": "~해야 해요.",
+    "read": "~haeya haeyo.",
+    "en": "You have to ~."
+   },
+   {
+    "id": "w4",
+    "t": "~하지 마세요.",
+    "read": "~haji maseyo.",
+    "en": "Don't ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "아플 때 하는 말을 3문장으로 써 보세요: 증상, 의사의 조언, 약 복용법.",
+    "en": "Write 3 sentences: your symptom, the doctor's advice and how to take the medicine."
+   },
+   "must_include": [
+    {
+     "label": "머리가 아파요",
+     "match": [
+      "아파요"
+     ]
+    },
+    {
+     "label": "쉬라고 했어요",
+     "match": [
+      "쉬"
+     ]
+    },
+    {
+     "label": "약을 하루에 두 번",
+     "match": [
+      "두 번"
+     ]
+    }
+   ],
+   "model": "나는 머리가 아파요. 의사가 집에서 쉬라고 했어요. 이 약을 하루에 두 번 먹어요.",
+   "model_trans": {
+    "ko": "나는 머리가 아파요. 의사가 집에서 쉬라고 했어요. 이 약을 하루에 두 번 먹어요.",
+    "en": "I have a headache. The doctor says I should rest at home. I take this medicine twice a day."
+   }
+  }
+ }
+}
