@@ -1,0 +1,744 @@
+{
+ "meta": {
+  "id": "en_a2_u47",
+  "lang": "en",
+  "family": "europe",
+  "level": "a2",
+  "unit": 47,
+  "concept": "A2.U47",
+  "status": "live",
+  "title": {
+   "target": "Question tags",
+   "ko": "부가의문문: isn't it? don't you?",
+   "en": "Question tags"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "isn't it",
+   "pos": "phrase",
+   "ko": "그렇죠?",
+   "ex": {
+    "t": "It's a nice day, isn't it?",
+    "ko": "오늘 날씨가 좋네요, 그렇죠?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "aren't you",
+   "pos": "phrase",
+   "ko": "그렇지 않아요?",
+   "ex": {
+    "t": "You're a student, aren't you?",
+    "ko": "너 학생이지, 아니야?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "don't you",
+   "pos": "phrase",
+   "ko": "하지 않아요?",
+   "ex": {
+    "t": "You like coffee, don't you?",
+    "ko": "너 커피 좋아하지, 그렇지?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "didn't you",
+   "pos": "phrase",
+   "ko": "했죠?",
+   "ex": {
+    "t": "You went yesterday, didn't you?",
+    "ko": "너 어제 갔지, 그렇지?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "can't you",
+   "pos": "phrase",
+   "ko": "할 수 있죠?",
+   "ex": {
+    "t": "You can swim, can't you?",
+    "ko": "너 수영할 수 있지, 그렇지?"
+   }
+  },
+  {
+   "id": "v6",
+   "t": "right",
+   "pos": "adv",
+   "ko": "맞죠?",
+   "ex": {
+    "t": "Right?",
+    "ko": "맞죠?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "check",
+   "pos": "verb",
+   "ko": "확인하다",
+   "ex": {
+    "t": "Let me check that I'm right.",
+    "ko": "내가 맞는지 확인할게요."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "agree",
+   "pos": "verb",
+   "ko": "동의하다",
+   "ex": {
+    "t": "I agree.",
+    "ko": "나는 동의해요."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "of course",
+   "pos": "phrase",
+   "ko": "물론",
+   "ex": {
+    "t": "Of course.",
+    "ko": "물론이죠."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "no, it isn't",
+   "pos": "phrase",
+   "ko": "그렇지 않아요",
+   "ex": {
+    "t": "No, it isn't.",
+    "ko": "아니요, 그렇지 않아요."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "부가의문문 (question tags)",
+   "en": "question tags: isn't it?, don't you?, can't she?"
+  },
+  "explain": {
+   "ko": "부가의문문은 문장 끝에 붙여 확인하거나 동의를 구하는 짧은 의문문입니다. 긍정문에는 부정 꼬리(isn't it?), 부정문에는 긍정 꼬리(is he?)를 붙입니다. 조동사나 be동사는 그대로, 일반동사는 do / does / did를 씁니다. 대답은 사실이 맞으면 Yes, 아니면 No로 합니다.",
+   "en": "A question tag is a short question added to a sentence to check or ask for agreement. Use a negative tag after a positive sentence (isn't it?) and a positive tag after a negative sentence (is he?). Use the same auxiliary or be; with other verbs use do / does / did."
+  },
+  "table": {
+   "head": [
+    "표현 / Pattern",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "긍정 → 부정",
+     "It's a nice day, isn't it?"
+    ],
+    [
+     "부정 → 긍정",
+     "He isn't a student, is he?"
+    ],
+    [
+     "일반동사 / do",
+     "You like coffee, don't you?"
+    ],
+    [
+     "조동사 / modal",
+     "You can swim, can't you?"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "긍정문 + 부정 꼬리 / 부정문 + 긍정 꼬리.",
+    "en": "Positive sentence + negative tag; negative sentence + positive tag."
+   },
+   {
+    "ko": "일반동사 현재 → don't / doesn't, 과거 → didn't.",
+    "en": "Present → don't / doesn't; past → didn't."
+   },
+   {
+    "ko": "꼬리의 주어는 대명사: it, he, she, you.",
+    "en": "The tag subject is a pronoun: it, he, she, you."
+   }
+  ],
+  "examples": [
+   {
+    "t": "It's a nice day, isn't it?",
+    "ko": "오늘 날씨가 좋네요, 그렇죠?"
+   },
+   {
+    "t": "You're a student, aren't you?",
+    "ko": "너 학생이지, 아니야?"
+   },
+   {
+    "t": "You like coffee, don't you?",
+    "ko": "너 커피 좋아하지, 그렇지?"
+   },
+   {
+    "t": "You went yesterday, didn't you?",
+    "ko": "너 어제 갔지, 그렇지?"
+   },
+   {
+    "t": "You can swim, can't you?",
+    "ko": "너 수영할 수 있지, 그렇지?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "It's a nice day, ___ it?",
+    "options": [
+     "isn't",
+     "is",
+     "doesn't"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "You like coffee, ___ you?",
+    "options": [
+     "don't",
+     "aren't",
+     "didn't"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "He isn't a student, ___ he?",
+    "options": [
+     "is",
+     "isn't",
+     "does"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "You can swim, ___ you?",
+    "options": [
+     "can't",
+     "don't",
+     "aren't"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "It's a nice day, isn't it?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 오늘 날씨가 좋네요, 그렇죠?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "Yes, it is.",
+       "Yes, it does.",
+       "No, I did."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "You like coffee, don't you?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 커피 좋아하죠, 그렇죠?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "Yes, I do.",
+       "Yes, I am.",
+       "Yes, I did."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "It's a nice day, isn't it?"
+      },
+      {
+       "s": "B",
+       "t": "Yes, it's lovely. You went to the party yesterday, didn't you?"
+      },
+      {
+       "s": "A",
+       "t": "Yes, I did. You could come too, couldn't you?"
+      },
+      {
+       "s": "B",
+       "t": "No, I had to work."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 오늘 날씨가 좋네, 그렇지?\nB: 응, 정말 좋아. 너 어제 파티에 갔지, 그렇지?\nA: 응, 갔어. 너도 올 수 있었지, 안 그래?\nB: 아니, 일해야 했어."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Why couldn't B go to the party?",
+      "options": [
+       "B had to work",
+       "B was ill",
+       "B was tired"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Eva speaks English well, doesn't she? She can speak French too, can't she? She isn't a student, is she? No, she's a teacher."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "에바는 영어를 잘해요, 그렇죠? 그녀는 프랑스어도 할 수 있어요, 그렇죠? 그녀는 학생이 아니에요, 그렇죠? 아니요, 그녀는 선생님이에요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is Eva's job?",
+      "options": [
+       "Teacher",
+       "Student",
+       "Nurse"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "It's a nice day, isn't it?"
+      },
+      {
+       "s": "B",
+       "t": "Yes, it's lovely."
+      },
+      {
+       "s": "A",
+       "t": "You like coffee, don't you?"
+      },
+      {
+       "s": "B",
+       "t": "Yes, I do."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 오늘 날씨가 좋네요, 그렇죠?\n손님: 네, 정말 좋아요.\n직원: 커피 좋아하시죠, 그렇죠?\n손님: 네, 좋아해요."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "It's a nice day, ______ it?",
+      "answers": [
+       "isn't"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "You like coffee, ______ you?",
+      "answers": [
+       "don't"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) It's a nice day, ___ it?\n2) You like coffee, ___ you?\n3) He isn't a student, ___ he?",
+    "trans": {
+     "ko": "1) 오늘 날씨가 좋네요, 그렇죠? 2) 너 커피 좋아하지, 그렇지? 3) 그는 학생이 아니에요, 그렇죠?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "It's a nice day, ___ it?",
+      "options": [
+       "isn't",
+       "is",
+       "doesn't"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "You like coffee, ___ you?",
+      "options": [
+       "don't",
+       "aren't",
+       "didn't"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "He isn't a student, ___ he?",
+      "options": [
+       "is",
+       "isn't",
+       "does"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Eva speaks English well, (1) she? She can speak French too, (2) she? She isn't a student, (3) she? No, she's a teacher.",
+    "trans": {
+     "ko": "에바는 영어를 잘해요, 그렇죠? 그녀는 프랑스어도 할 수 있어요, 그렇죠? 그녀는 학생이 아니에요, 그렇죠? 아니요, 그녀는 선생님이에요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "doesn't",
+       "isn't",
+       "can't"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "can't",
+       "doesn't",
+       "isn't"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "is",
+       "isn't",
+       "does"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "NOTE\nIt's a nice day, isn't it?\nYou're all coming to the party, aren't you?",
+    "trans": {
+     "ko": "메모\n날씨가 좋네요, 그렇죠?\n모두 파티에 올 거죠, 그렇죠?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the weather?",
+      "options": [
+       "Nice",
+       "Bad",
+       "Rainy"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Who is coming?",
+      "options": [
+       "Everybody",
+       "Nobody",
+       "Tom only"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Eva speaks English well. She can speak French too. She is not a student; she is a teacher.",
+    "trans": {
+     "ko": "에바는 영어를 잘해요. 그녀는 프랑스어도 할 수 있어요. 그녀는 학생이 아니라 선생님이에요."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Eva speaks English well.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Eva is a student.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Eva has two sons.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "It's a nice day, isn't it?",
+    "ko": "오늘 날씨가 좋네요, 그렇죠?",
+    "situation": {
+     "ko": "동의를 구할 때",
+     "en": "Asking for agreement"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "You're a student, aren't you?",
+    "ko": "너 학생이지, 아니야?",
+    "situation": {
+     "ko": "확인할 때",
+     "en": "Checking something"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "You like coffee, don't you?",
+    "ko": "너 커피 좋아하지, 그렇지?",
+    "situation": {
+     "ko": "취향을 확인할 때",
+     "en": "Checking a preference"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "You went yesterday, didn't you?",
+    "ko": "너 어제 갔지, 그렇지?",
+    "situation": {
+     "ko": "과거 일을 확인할 때",
+     "en": "Checking a past event"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "You can swim, can't you?",
+    "ko": "너 수영할 수 있지, 그렇지?",
+    "situation": {
+     "ko": "능력을 확인할 때",
+     "en": "Checking ability"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "He isn't a student, is he?",
+    "ko": "그는 학생이 아니에요, 그렇죠?",
+    "situation": {
+     "ko": "부정문에 쓸 때",
+     "en": "Using a tag with a negative"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Yes, of course.",
+    "ko": "물론이죠.",
+    "situation": {
+     "ko": "대답할 때",
+     "en": "Answering"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "No, it isn't.",
+    "ko": "아니요, 그렇지 않아요.",
+    "situation": {
+     "ko": "부정으로 대답할 때",
+     "en": "Answering no"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "positive, negative tag",
+    "ko": "긍정문 → 부정 꼬리"
+   },
+   {
+    "id": "w2",
+    "t": "negative, positive tag",
+    "ko": "부정문 → 긍정 꼬리"
+   },
+   {
+    "id": "w3",
+    "t": "is / are → isn't / aren't",
+    "ko": "be 동사 → isn't it?"
+   },
+   {
+    "id": "w4",
+    "t": "do / does / did → don't / doesn't / didn't",
+    "ko": "일반동사 → don't you?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "부가의문문 3개를 써 보세요 (be동사, 일반동사, 부정문).",
+    "en": "Write 3 question tags (with be, with another verb and with a negative)."
+   },
+   "must_include": [
+    {
+     "label": "positive + negative tag",
+     "match": [
+      "isn't it",
+      "don't you",
+      "doesn't she",
+      "can't"
+     ]
+    },
+    {
+     "label": "negative + positive tag",
+     "match": [
+      "is he",
+      "is she",
+      "do you"
+     ]
+    }
+   ],
+   "model": "It's a nice day, isn't it? You like coffee, don't you? He isn't a student, is he?",
+   "model_trans": {
+    "ko": "오늘 날씨가 좋네요, 그렇죠? 너 커피 좋아하지, 그렇지? 그는 학생이 아니에요, 그렇죠?",
+    "en": "It's a nice day, isn't it? You like coffee, don't you? He isn't a student, is he?"
+   }
+  }
+ }
+}

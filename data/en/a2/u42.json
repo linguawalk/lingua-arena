@@ -1,0 +1,744 @@
+{
+ "meta": {
+  "id": "en_a2_u42",
+  "lang": "en",
+  "family": "europe",
+  "level": "a2",
+  "unit": 42,
+  "concept": "A2.U42",
+  "status": "live",
+  "title": {
+   "target": "Present passive: how things are made",
+   "ko": "현재 수동태: 어떻게 만들어지나",
+   "en": "Present passive: how things are made"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "make",
+   "pos": "verb",
+   "ko": "만들다",
+   "ex": {
+    "t": "This cake is made with eggs.",
+    "ko": "이 케이크는 달걀로 만들어요."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "sell",
+   "pos": "verb",
+   "ko": "팔다",
+   "ex": {
+    "t": "Shoes are sold in this shop.",
+    "ko": "이 가게에서는 신발을 팔아요."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "speak",
+   "pos": "verb",
+   "ko": "쓰다 (언어)",
+   "ex": {
+    "t": "French is spoken in Switzerland.",
+    "ko": "스위스에서는 프랑스어가 쓰여요."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "grow",
+   "pos": "verb",
+   "ko": "재배하다",
+   "ex": {
+    "t": "Tea is grown in China.",
+    "ko": "차는 중국에서 재배돼요."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "clean",
+   "pos": "verb",
+   "ko": "청소하다",
+   "ex": {
+    "t": "The rooms are cleaned every day.",
+    "ko": "방은 매일 청소돼요."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "factory",
+   "pos": "noun",
+   "ko": "공장",
+   "ex": {
+    "t": "These cars are made in a factory.",
+    "ko": "이 차는 공장에서 만들어져요."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "export",
+   "pos": "verb",
+   "ko": "수출하다",
+   "ex": {
+    "t": "Coffee is exported to many countries.",
+    "ko": "커피는 많은 나라에 수출돼요."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "use",
+   "pos": "verb",
+   "ko": "사용하다",
+   "ex": {
+    "t": "This tool is used for cooking.",
+    "ko": "이 도구는 요리할 때 쓰여요."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "pack",
+   "pos": "verb",
+   "ko": "포장하다",
+   "ex": {
+    "t": "The goods are packed in boxes.",
+    "ko": "상품은 상자에 포장돼요."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "every day",
+   "pos": "adv",
+   "ko": "매일",
+   "ex": {
+    "t": "Bread is baked every day.",
+    "ko": "빵은 매일 구워져요."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "현재 수동태 is / are + 과거분사",
+   "en": "present passive: is / are + past participle"
+  },
+  "explain": {
+   "ko": "현재 수동태는 행위를 한 사람보다 일 자체가 중요할 때 씁니다. am / is / are + 과거분사 구조이며, 행위자를 말하려면 by를 씁니다 (This book is written by Kim). 재료는 made of / with, 용도는 used for로 말합니다.",
+   "en": "Use the present passive when the action matters more than who does it: am / is / are + past participle. Add by to name the doer (This book is written by Kim). Say materials with made of / with and purposes with used for."
+  },
+  "table": {
+   "head": [
+    "표현 / Pattern",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "is / are + 과거분사",
+     "French is spoken in Switzerland."
+    ],
+    [
+     "복수 / plural",
+     "The rooms are cleaned every day."
+    ],
+    [
+     "재료 / material",
+     "This cake is made with eggs."
+    ],
+    [
+     "용도 / use",
+     "This tool is used for cooking."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "단수 is, 복수 are + 과거분사.",
+    "en": "Singular is, plural are + past participle."
+   },
+   {
+    "ko": "행위자는 by + 명사.",
+    "en": "The doer is by + noun."
+   },
+   {
+    "ko": "불규칙 과거분사: made, sold, grown, spoken.",
+    "en": "Irregular participles: made, sold, grown, spoken."
+   }
+  ],
+  "examples": [
+   {
+    "t": "This cake is made with eggs.",
+    "ko": "이 케이크는 달걀로 만들어요."
+   },
+   {
+    "t": "French is spoken in Switzerland.",
+    "ko": "스위스에서는 프랑스어가 쓰여요."
+   },
+   {
+    "t": "Tea is grown in China.",
+    "ko": "차는 중국에서 재배돼요."
+   },
+   {
+    "t": "The rooms are cleaned every day.",
+    "ko": "방은 매일 청소돼요."
+   },
+   {
+    "t": "These cars are made in a factory.",
+    "ko": "이 차들은 공장에서 만들어져요."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "French ___ spoken in Switzerland.",
+    "options": [
+     "is",
+     "are",
+     "does"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "The rooms ___ cleaned every day.",
+    "options": [
+     "are",
+     "is",
+     "do"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Tea is ___ in China.",
+    "options": [
+     "grown",
+     "grew",
+     "growing"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "This tool is used ___ cooking.",
+    "options": [
+     "for",
+     "to",
+     "by"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "What is this cake made with?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 케이크는 뭘로 만들어요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "It is made with eggs.",
+       "It makes with eggs.",
+       "It is making eggs."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Which languages are spoken in Switzerland?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 스위스에서는 어떤 언어를 써요?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "What is the best response?",
+      "options": [
+       "French and German.",
+       "French speaks.",
+       "Speak French."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "How is this bread made?"
+      },
+      {
+       "s": "B",
+       "t": "It is baked in the shop every morning."
+      },
+      {
+       "s": "A",
+       "t": "Is it made with eggs?"
+      },
+      {
+       "s": "B",
+       "t": "Yes, and milk is used too. It is all sold by the afternoon."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 빵은 어떻게 만들어요?\nB: 매일 아침 가게에서 구워요.\nA: 달걀로 만들어요?\nB: 네, 그리고 우유도 써요. 오후에는 모두 팔려요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "When is the bread baked?",
+      "options": [
+       "Every morning",
+       "Every night",
+       "Every week"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Cars are made in this factory. The parts are imported from several countries. The cars are put together and checked. Then they are packed and exported to many countries."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 공장에서는 차를 만들어요. 부품은 여러 나라에서 수입돼요. 차는 조립되고 검사받아요. 그리고 상자에 포장되어 많은 나라에 수출돼요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Where are the cars exported to?",
+      "options": [
+       "Many countries",
+       "One country",
+       "No country"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "What is this cake made with?"
+      },
+      {
+       "s": "B",
+       "t": "It is made with eggs and milk."
+      },
+      {
+       "s": "A",
+       "t": "When is it baked?"
+      },
+      {
+       "s": "B",
+       "t": "Every morning."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 이 케이크는 뭘로 만들어요?\n손님: 달걀과 우유로 만들어요.\n직원: 언제 구워요?\n손님: 매일 아침이요."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "The cake is made with eggs and ______",
+      "answers": [
+       "milk"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "It is baked every ______",
+      "answers": [
+       "morning"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) This cake is ___ with eggs.\n2) French ___ spoken in Switzerland.\n3) The rooms ___ cleaned every day.",
+    "trans": {
+     "ko": "1) 이 케이크는 달걀로 만들어요. 2) 스위스에서는 프랑스어가 쓰여요. 3) 방은 매일 청소돼요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "This cake is ___ with eggs.",
+      "options": [
+       "made",
+       "make",
+       "making"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "French ___ spoken in Switzerland.",
+      "options": [
+       "is",
+       "are",
+       "does"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "The rooms ___ cleaned every day.",
+      "options": [
+       "are",
+       "is",
+       "do"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Cars are (1) in this factory. The parts are (2) from several countries. Then the cars are packed and (3) to many countries.",
+    "trans": {
+     "ko": "이 공장에서는 차를 만들어요. 부품은 여러 나라에서 수입돼요. 차는 조립되고 검사받아요. 그리고 상자에 포장되어 수출돼요."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "made",
+       "make",
+       "making"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "imported",
+       "import",
+       "importing"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "exported",
+       "export",
+       "exporting"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "NOTICE\nThe rooms in this hotel are cleaned every day.\nTowels are changed on request.",
+    "trans": {
+     "ko": "안내문\n이 호텔의 방은 매일 청소됩니다.\n수건은 요청하면 교환됩니다."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "How often are the rooms cleaned?",
+      "options": [
+       "Every day",
+       "Every week",
+       "Every month"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "When are towels changed?",
+      "options": [
+       "On request",
+       "Every day",
+       "Never"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "In this bakery, bread is baked every day. It is made with eggs and milk. It is all sold by the afternoon.",
+    "trans": {
+     "ko": "이 빵집에서는 빵이 매일 구워져요. 빵은 달걀과 우유로 만들어져요. 오후에는 모두 팔려요."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Bread is baked every day in the bakery.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "The bread is sold in a supermarket.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "The bakery is old.",
+      "options": [
+       "True",
+       "False",
+       "Not Given"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "How is this made?",
+    "ko": "이건 어떻게 만들어져요?",
+    "situation": {
+     "ko": "방법을 물을 때",
+     "en": "Asking how something is made"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "This cake is made with eggs.",
+    "ko": "이 케이크는 달걀로 만들어요.",
+    "situation": {
+     "ko": "재료를 말할 때",
+     "en": "Saying what something is made of"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "French is spoken in Switzerland.",
+    "ko": "스위스에서는 프랑스어가 쓰여요.",
+    "situation": {
+     "ko": "사용 언어를 말할 때",
+     "en": "Talking about languages"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Tea is grown in China.",
+    "ko": "차는 중국에서 재배돼요.",
+    "situation": {
+     "ko": "생산지를 말할 때",
+     "en": "Saying where something is grown"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "The rooms are cleaned every day.",
+    "ko": "방은 매일 청소돼요.",
+    "situation": {
+     "ko": "일상 일을 말할 때",
+     "en": "Saying what is done every day"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "These cars are made in a factory.",
+    "ko": "이 차들은 공장에서 만들어져요.",
+    "situation": {
+     "ko": "복수 주어를 쓸 때",
+     "en": "Using plural subjects"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Coffee is exported to many countries.",
+    "ko": "커피는 많은 나라에 수출돼요.",
+    "situation": {
+     "ko": "수출을 말할 때",
+     "en": "Talking about exports"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "This tool is used for cooking.",
+    "ko": "이 도구는 요리할 때 쓰여요.",
+    "situation": {
+     "ko": "용도를 말할 때",
+     "en": "Saying what something is used for"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~ is / are + past participle.",
+    "ko": "~은(는) …돼요."
+   },
+   {
+    "id": "w2",
+    "t": "~ is ... in / at ~.",
+    "ko": "~에서 …돼요."
+   },
+   {
+    "id": "w3",
+    "t": "~ is made of / with ~.",
+    "ko": "~로 만들어져요."
+   },
+   {
+    "id": "w4",
+    "t": "~ is used for ~.",
+    "ko": "~에 쓰여요."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "현재 수동태로 제품 하나가 어떻게 만들어지고 팔리는지 3문장으로 써 보세요.",
+    "en": "Write 3 present-passive sentences about how a product is made and sold."
+   },
+   "must_include": [
+    {
+     "label": "is / are + past participle",
+     "match": [
+      "is made",
+      "is baked",
+      "are made",
+      "is sold",
+      "is used"
+     ]
+    },
+    {
+     "label": "by / with / for",
+     "match": [
+      "with",
+      "in"
+     ]
+    }
+   ],
+   "model": "This cake is made with eggs. It is baked in a bakery every day. It is sold in the shop.",
+   "model_trans": {
+    "ko": "이 케이크는 달걀로 만들어요. 매일 빵집에서 구워져요. 그리고 가게에서 팔려요.",
+    "en": "This cake is made with eggs. It is baked in a bakery every day. It is sold in the shop."
+   }
+  }
+ }
+}
