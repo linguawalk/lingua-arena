@@ -1,0 +1,823 @@
+{
+ "meta": {
+  "id": "zh_a2_u47",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 47,
+  "concept": "A2.U47",
+  "status": "live",
+  "title": {
+   "target": "附加疑问",
+   "ko": "부가의문문: isn't it? don't you?",
+   "en": "Question tags"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "是吧",
+   "pos": "phrase",
+   "read": "shì ba",
+   "ko": "그렇죠?",
+   "en": "isn't it",
+   "ex": {
+    "t": "今天天气真好，是吧？",
+    "read": "Jīntiān tiānqì zhēn hǎo, shì ba?",
+    "ko": "오늘 날씨가 좋네요, 그렇죠?",
+    "en": "It's a nice day, isn't it?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "对吧",
+   "pos": "phrase",
+   "read": "duì ba",
+   "ko": "그렇지 않아요?",
+   "en": "aren't you",
+   "ex": {
+    "t": "你是学生，对吧？",
+    "read": "Nǐ shì xuésheng, duì ba?",
+    "ko": "너 학생이지, 아니야?",
+    "en": "You're a student, aren't you?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "吧",
+   "pos": "phrase",
+   "read": "ba",
+   "ko": "하지 않아요?",
+   "en": "don't you",
+   "ex": {
+    "t": "你喜欢咖啡吧？",
+    "read": "Nǐ xǐhuan kāfēi ba?",
+    "ko": "너 커피 좋아하지, 그렇지?",
+    "en": "You like coffee, don't you?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "去了吧",
+   "pos": "phrase",
+   "read": "qù le ba",
+   "ko": "했죠?",
+   "en": "didn't you",
+   "ex": {
+    "t": "你昨天去了，对吧？",
+    "read": "Nǐ zuótiān qù le, duì ba?",
+    "ko": "너 어제 갔지, 그렇지?",
+    "en": "You went yesterday, didn't you?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "会游泳",
+   "pos": "phrase",
+   "read": "huì yóuyǒng",
+   "ko": "할 수 있죠?",
+   "en": "can't you",
+   "ex": {
+    "t": "你会游泳，对吧？",
+    "read": "Nǐ huì yóuyǒng, duì ba?",
+    "ko": "너 수영할 수 있지, 그렇지?",
+    "en": "You can swim, can't you?"
+   }
+  },
+  {
+   "id": "v6",
+   "t": "对吗",
+   "pos": "adv",
+   "read": "duì ma",
+   "ko": "맞죠?",
+   "en": "right",
+   "ex": {
+    "t": "对吗？",
+    "read": "Duì ma?",
+    "ko": "맞죠?",
+    "en": "Right?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "确认",
+   "pos": "verb",
+   "read": "quèrèn",
+   "ko": "확인하다",
+   "en": "check",
+   "ex": {
+    "t": "让我确认一下。",
+    "read": "Ràng wǒ quèrèn yíxià.",
+    "ko": "내가 맞는지 확인할게요.",
+    "en": "Let me check that I'm right."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "同意",
+   "pos": "verb",
+   "read": "tóngyì",
+   "ko": "동의하다",
+   "en": "agree",
+   "ex": {
+    "t": "我同意。",
+    "read": "Wǒ tóngyì.",
+    "ko": "나는 동의해요.",
+    "en": "I agree."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "当然",
+   "pos": "phrase",
+   "read": "dāngrán",
+   "ko": "물론",
+   "en": "of course",
+   "ex": {
+    "t": "当然。",
+    "read": "Dāngrán.",
+    "ko": "물론이죠.",
+    "en": "Of course."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "不是",
+   "pos": "phrase",
+   "read": "bú shì",
+   "ko": "그렇지 않아요",
+   "en": "no, it isn't",
+   "ex": {
+    "t": "不，不是。",
+    "read": "Bù, bú shì.",
+    "ko": "아니요, 그렇지 않아요.",
+    "en": "No, it isn't."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "附加疑问: ……，是吧？・……，对吧？",
+   "en": "Question tags: ……吧？ / ……，对吧？"
+  },
+  "explain": {
+   "ko": "상대의 확인을 구할 때는 문장 끝에 ……吧? / ……，是吧? / ……，对吧?를 붙입니다: 今天天气真好，是吧？你是学生，对吧？ 대답은 是的 / 对 / 不是 / 不对입니다. 부정문에는 他不是学生，对吧?",
+   "en": "Ask for confirmation by adding ……吧? / ……，是吧? / ……，对吧?: 今天天气真好，是吧？你是学生，对吧？ Answer 是的 / 对 / 不是 / 不对。 Negative: 他不是学生，对吧?"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "확인 / Check",
+     "……，对吧？",
+     "你是学生，对吧？"
+    ],
+    [
+     "맞장구 / Agree",
+     "……，是吧？",
+     "今天天气真好，是吧？"
+    ],
+    [
+     "부드럽게 / Soft",
+     "……吧？",
+     "你昨天去了吧？"
+    ],
+    [
+     "대답 / Answer",
+     "是的・对・不是",
+     "是的，当然。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "영어처럼 동사를 바꾸지 않고 말끝만 붙입니다.",
+    "en": "No verb change is needed; just add the tag."
+   },
+   {
+    "ko": "吧는 추측을 부드럽게 확인합니다.",
+    "en": "吧 gently checks a guess."
+   }
+  ],
+  "examples": [
+   {
+    "t": "今天天气真好，是吧？",
+    "read": "Jīntiān tiānqì zhēn hǎo, shì ba?",
+    "ko": "오늘 날씨가 좋네요, 그렇죠?",
+    "en": "It's a nice day, isn't it?"
+   },
+   {
+    "t": "你是学生，对吧？",
+    "read": "Nǐ shì xuésheng, duì ba?",
+    "ko": "너 학생이지, 아니야?",
+    "en": "You're a student, aren't you?"
+   },
+   {
+    "t": "你喜欢咖啡，对吧？",
+    "read": "Nǐ xǐhuan kāfēi, duì ba?",
+    "ko": "너 커피 좋아하지, 그렇지?",
+    "en": "You like coffee, don't you?"
+   },
+   {
+    "t": "你昨天去了，对吧？",
+    "read": "Nǐ zuótiān qù le, duì ba?",
+    "ko": "너 어제 갔지, 그렇지?",
+    "en": "You went yesterday, didn't you?"
+   },
+   {
+    "t": "他不是学生，对吧？",
+    "read": "Tā bú shì xuésheng, duì ba?",
+    "ko": "너 수영할 수 있지, 그렇지?",
+    "en": "You can swim, can't you?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "今天天气真好，___？",
+    "options": [
+     "是吧",
+     "了吧",
+     "过吧"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "你是学生，___？",
+    "options": [
+     "对吧",
+     "了吧",
+     "着吧"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "你昨天去了___？",
+    "options": [
+     "吧",
+     "过",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "他不是学生，___？",
+    "options": [
+     "对吧",
+     "有吧",
+     "过吧"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今天天气真好，是吧？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 오늘 날씨가 좋네요, 그렇죠?",
+     "en": "(Question) It's a nice day, isn't it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "是啊，真好。",
+       "是啊，好真了。",
+       "不好吧，真是。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你喜欢咖啡，对吧？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 커피 좋아하죠, 그렇죠?",
+     "en": "(Question) You like coffee, don't you?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "对，我喜欢。",
+       "对，喜欢我了。",
+       "对，我喜欢吧过。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今天天气真好，是吧？"
+      },
+      {
+       "s": "B",
+       "t": "是啊，真好。你昨天去了聚会，对吧？"
+      },
+      {
+       "s": "A",
+       "t": "对，去了。你也能来，对吧？"
+      },
+      {
+       "s": "B",
+       "t": "不行，我得上班。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 오늘 날씨가 좋네, 그렇지?\nB: 응, 정말 좋아. 너 어제 파티에 갔지, 그렇지?\nA: 응, 갔어. 너도 올 수 있었지, 안 그래?\nB: 아니, 일해야 했어.",
+     "en": "A: It's a nice day, isn't it?\nB: Yes, it's lovely. You went to the party yesterday, didn't you?\nA: Yes, I did. You could come too, couldn't you?\nB: No, I had to work."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B为什么不能去？",
+      "options": [
+       "要上班",
+       "生病了",
+       "没有时间"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "艾娃英语说得很好，是吧？她还会说法语，对吧？她不是学生，对吧？对，她是老师。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "에바는 영어를 잘해요, 그렇죠? 그녀는 프랑스어도 할 수 있어요, 그렇죠? 그녀는 학생이 아니에요, 그렇죠? 아니요, 그녀는 선생님이에요.",
+     "en": "Eva speaks English well, doesn't she? She can speak French too, can't she? She isn't a student, is she? No, she's a teacher."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "艾娃是什么人？",
+      "options": [
+       "老师",
+       "学生",
+       "医生"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今天天气真好，是吧？"
+      },
+      {
+       "s": "B",
+       "t": "是啊，真好。"
+      },
+      {
+       "s": "A",
+       "t": "你喜欢咖啡，对吧？"
+      },
+      {
+       "s": "B",
+       "t": "对，我喜欢。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 오늘 날씨가 좋네요, 그렇죠?\n손님: 네, 정말 좋아요.\n직원: 커피 좋아하시죠, 그렇죠?\n손님: 네, 좋아해요.",
+     "en": "Assistant: It's a nice day, isn't it?\nGuest: Yes, it's lovely.\nAssistant: You like coffee, don't you?\nGuest: Yes, I do."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客人: 是啊，真______",
+      "answers": [
+       "好"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "客人: 对，我______",
+      "answers": [
+       "喜欢"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 今天天气真好，___？\n2) 你喜欢咖啡，___？\n3) 他不是学生，___？",
+    "trans": {
+     "ko": "1) 오늘 날씨가 좋네요, 그렇죠? 2) 너 커피 좋아하지, 그렇지? 3) 그는 학생이 아니에요, 그렇죠?",
+     "en": "1) It's a nice day, isn't it? 2) You like coffee, don't you? 3) He isn't a student, is he?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "今天天气真好，___？",
+      "options": [
+       "是吧",
+       "了吧",
+       "过吧"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "你喜欢咖啡，___？",
+      "options": [
+       "对吧",
+       "了吧",
+       "着吧"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他不是学生，___？",
+      "options": [
+       "对吧",
+       "有吧",
+       "过吧"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "艾娃英语说得很好，(1)？她还会说(2)，对吧？她不是学生，对吧？对，她是(3)。",
+    "trans": {
+     "ko": "에바는 영어를 잘해요, 그렇죠? 그녀는 프랑스어도 할 수 있어요, 그렇죠? 그녀는 학생이 아니에요, 그렇죠? 아니요, 그녀는 선생님이에요.",
+     "en": "Eva speaks English well, doesn't she? She can speak French too, can't she? She isn't a student, is she? No, she's a teacher."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "是吧",
+       "了吧",
+       "过吧"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "法语",
+       "天气",
+       "咖啡"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "老师",
+       "学生",
+       "医生"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "便条\n今天天气真好，是吧？\n你们都来参加聚会，对吧？",
+    "trans": {
+     "ko": "메모\n날씨가 좋네요, 그렇죠?\n모두 파티에 올 거죠, 그렇죠?",
+     "en": "NOTE\nIt's a nice day, isn't it?\nYou're all coming to the party, aren't you?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "便条问了什么？",
+      "options": [
+       "天气和聚会",
+       "工作",
+       "考试"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "便条想确认什么？",
+      "options": [
+       "大家来不来参加聚会",
+       "明天的天气",
+       "买什么"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "艾娃英语说得很好。她还会说法语。她不是学生，她是老师。",
+    "trans": {
+     "ko": "에바는 영어를 잘해요. 그녀는 프랑스어도 할 수 있어요. 그녀는 학생이 아니라 선생님이에요.",
+     "en": "Eva speaks English well. She can speak French too. She is not a student; she is a teacher."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "艾娃英语说得很好。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "艾娃是学生。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "艾娃有一辆车。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "今天天气真好，是吧？",
+    "read": "Jīntiān tiānqì zhēn hǎo, shì ba?",
+    "ko": "오늘 날씨가 좋네요, 그렇죠?",
+    "en": "It's a nice day, isn't it?",
+    "situation": {
+     "ko": "동의를 구할 때",
+     "en": "Asking for agreement"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "你是学生，对吧？",
+    "read": "Nǐ shì xuésheng, duì ba?",
+    "ko": "너 학생이지, 아니야?",
+    "en": "You're a student, aren't you?",
+    "situation": {
+     "ko": "확인할 때",
+     "en": "Checking something"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "你喜欢咖啡，对吧？",
+    "read": "Nǐ xǐhuan kāfēi, duì ba?",
+    "ko": "너 커피 좋아하지, 그렇지?",
+    "en": "You like coffee, don't you?",
+    "situation": {
+     "ko": "취향을 확인할 때",
+     "en": "Checking a preference"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "你昨天去了，对吧？",
+    "read": "Nǐ zuótiān qù le, duì ba?",
+    "ko": "너 어제 갔지, 그렇지?",
+    "en": "You went yesterday, didn't you?",
+    "situation": {
+     "ko": "과거 일을 확인할 때",
+     "en": "Checking a past event"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "你会游泳，对吧？",
+    "read": "Nǐ huì yóuyǒng, duì ba?",
+    "ko": "너 수영할 수 있지, 그렇지?",
+    "en": "You can swim, can't you?",
+    "situation": {
+     "ko": "능력을 확인할 때",
+     "en": "Checking ability"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "他不是学生，对吧？",
+    "read": "Tā bú shì xuésheng, duì ba?",
+    "ko": "그는 학생이 아니에요, 그렇죠?",
+    "en": "He isn't a student, is he?",
+    "situation": {
+     "ko": "부정문에 쓸 때",
+     "en": "Using a tag with a negative"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "是的，当然。",
+    "read": "Shì de, dāngrán.",
+    "ko": "물론이죠.",
+    "en": "Yes, of course.",
+    "situation": {
+     "ko": "대답할 때",
+     "en": "Answering"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "不，不是。",
+    "read": "Bù, bú shì.",
+    "ko": "아니요, 그렇지 않아요.",
+    "en": "No, it isn't.",
+    "situation": {
+     "ko": "부정으로 대답할 때",
+     "en": "Answering no"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……，是吧？",
+    "read": "…, Shì ba?",
+    "ko": "긍정문 → 부정 꼬리",
+    "en": "positive, negative tag"
+   },
+   {
+    "id": "w2",
+    "t": "……，对吧？",
+    "read": "…, Duì ba?",
+    "ko": "부정문 → 긍정 꼬리",
+    "en": "negative, positive tag"
+   },
+   {
+    "id": "w3",
+    "t": "……吧？",
+    "read": "… Ba?",
+    "ko": "be 동사 → isn't it?",
+    "en": "is / are → isn't / aren't"
+   },
+   {
+    "id": "w4",
+    "t": "他不……，对吧？",
+    "read": "Tā bù …, duì ba?",
+    "ko": "일반동사 → don't you?",
+    "en": "do / does / did → don't / doesn't / didn't"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "부가의문문 3개를 써 보세요 (be동사, 일반동사, 부정문).",
+    "en": "Write 3 question tags (with be, with another verb and with a negative)."
+   },
+   "must_include": [
+    {
+     "label": "是吧・对吧",
+     "match": [
+      "吧"
+     ]
+    },
+    {
+     "label": "对",
+     "match": [
+      "对"
+     ]
+    }
+   ],
+   "model": "今天天气真好，是吧？你喜欢咖啡，对吧？他不是学生，对吧？",
+   "model_trans": {
+    "ko": "오늘 날씨가 좋네요, 그렇죠? 너 커피 좋아하지, 그렇지? 그는 학생이 아니에요, 그렇죠?",
+    "en": "It's a nice day, isn't it? You like coffee, don't you? He isn't a student, is he?"
+   }
+  }
+ }
+}

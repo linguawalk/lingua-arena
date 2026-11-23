@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "id": "zh_a2_u42",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 42,
+  "concept": "A2.U42",
+  "status": "live",
+  "title": {
+   "target": "被动（现在）",
+   "ko": "현재 수동태: 어떻게 만들어지나",
+   "en": "Present passive: how things are made"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "做",
+   "pos": "verb",
+   "read": "zuò",
+   "ko": "만들다",
+   "en": "make",
+   "ex": {
+    "t": "这个蛋糕是用鸡蛋做的。",
+    "read": "Zhège dàn gāo shì yòng jīdàn zuò de.",
+    "ko": "이 케이크는 달걀로 만들어요.",
+    "en": "This cake is made with eggs."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "卖",
+   "pos": "verb",
+   "read": "mài",
+   "ko": "팔다",
+   "en": "sell",
+   "ex": {
+    "t": "这家店卖鞋。",
+    "read": "Zhè jiā diàn mài xié.",
+    "ko": "이 가게에서는 신발을 팔아요.",
+    "en": "Shoes are sold in this shop."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "说",
+   "pos": "verb",
+   "read": "shuō",
+   "ko": "쓰다 (언어)",
+   "en": "speak",
+   "ex": {
+    "t": "瑞士说法语。",
+    "read": "Ruì shì shuō fǎyǔ.",
+    "ko": "스위스에서는 프랑스어가 쓰여요.",
+    "en": "French is spoken in Switzerland."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "种",
+   "pos": "verb",
+   "read": "zhǒng",
+   "ko": "재배하다",
+   "en": "grow",
+   "ex": {
+    "t": "茶是在中国种的。",
+    "read": "Chá shì zài Zhōngguó zhǒng de.",
+    "ko": "차는 중국에서 재배돼요.",
+    "en": "Tea is grown in China."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "打扫",
+   "pos": "verb",
+   "read": "dǎsǎo",
+   "ko": "청소하다",
+   "en": "clean",
+   "ex": {
+    "t": "房间每天都打扫。",
+    "read": "Fángjiān měitiān dōu dǎsǎo.",
+    "ko": "방은 매일 청소돼요.",
+    "en": "The rooms are cleaned every day."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "工厂",
+   "pos": "noun",
+   "read": "gōng chǎng",
+   "ko": "공장",
+   "en": "factory",
+   "ex": {
+    "t": "这些汽车是在工厂里造的。",
+    "read": "Zhèxiē qìchē shì zài gōng chǎng lǐ zào de.",
+    "ko": "이 차는 공장에서 만들어져요.",
+    "en": "These cars are made in a factory."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "出口",
+   "pos": "verb",
+   "read": "chū kǒu",
+   "ko": "수출하다",
+   "en": "export",
+   "ex": {
+    "t": "咖啡出口到很多国家。",
+    "read": "Kāfēi chū kǒu dào hěn duō guójiā.",
+    "ko": "커피는 많은 나라에 수출돼요.",
+    "en": "Coffee is exported to many countries."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "用",
+   "pos": "verb",
+   "read": "yòng",
+   "ko": "사용하다",
+   "en": "use",
+   "ex": {
+    "t": "这个工具用来做饭。",
+    "read": "Zhège gōng jù yòng lái zuòfàn.",
+    "ko": "이 도구는 요리할 때 쓰여요.",
+    "en": "This tool is used for cooking."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "包装",
+   "pos": "verb",
+   "read": "bāo zhuāng",
+   "ko": "포장하다",
+   "en": "pack",
+   "ex": {
+    "t": "货物用箱子包装。",
+    "read": "Huò wù yòng xiāngzi bāo zhuāng.",
+    "ko": "상품은 상자에 포장돼요.",
+    "en": "The goods are packed in boxes."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "每天",
+   "pos": "adv",
+   "read": "měitiān",
+   "ko": "매일",
+   "en": "every day",
+   "ex": {
+    "t": "面包每天烤。",
+    "read": "Miànbāo měitiān kǎo.",
+    "ko": "빵은 매일 구워져요.",
+    "en": "Bread is baked every day."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "被动（现在）: 用……做的・在……卖",
+   "en": "Present passive: 是……的 / 在……"
+  },
+  "explain": {
+   "ko": "중국어는 영어의 수동태 대신 주로 是……的 구문이나 能动문으로 말합니다: 这个蛋糕是用鸡蛋做的。茶是在中国种的。房间每天都打扫。 방법은 用……, 장소는 在……를 씁니다.",
+   "en": "Chinese seldom uses a passive; it uses 是……的 or an active sentence: 这个蛋糕是用鸡蛋做的。茶是在中国种的。房间每天都打扫。 Method: 用……; place: 在……。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "방법 / How",
+     "是用……做的",
+     "这个蛋糕是用鸡蛋做的。"
+    ],
+    [
+     "장소 / Where",
+     "是在……的",
+     "茶是在中国种的。"
+    ],
+    [
+     "용도 / Use",
+     "……用来……",
+     "这个工具用来做饭。"
+    ],
+    [
+     "일상 / Routine",
+     "每天 + 动词",
+     "房间每天都打扫。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "是……的는 이미 일어난 일의 방법·장소를 강조합니다.",
+    "en": "是……的 stresses how or where."
+   },
+   {
+    "ko": "영어 수동태를 그대로 옮기지 않습니다.",
+    "en": "Do not translate the English passive word for word."
+   }
+  ],
+  "examples": [
+   {
+    "t": "这个蛋糕是用鸡蛋做的。",
+    "read": "Zhège dàn gāo shì yòng jīdàn zuò de.",
+    "ko": "이 케이크는 달걀로 만들어요.",
+    "en": "This cake is made with eggs."
+   },
+   {
+    "t": "瑞士说法语。",
+    "read": "Ruì shì shuō fǎyǔ.",
+    "ko": "스위스에서는 프랑스어가 쓰여요.",
+    "en": "French is spoken in Switzerland."
+   },
+   {
+    "t": "茶是在中国种的。",
+    "read": "Chá shì zài Zhōngguó zhǒng de.",
+    "ko": "차는 중국에서 재배돼요.",
+    "en": "Tea is grown in China."
+   },
+   {
+    "t": "房间每天都打扫。",
+    "read": "Fángjiān měitiān dōu dǎsǎo.",
+    "ko": "방은 매일 청소돼요.",
+    "en": "The rooms are cleaned every day."
+   },
+   {
+    "t": "这些汽车是在工厂里造的。",
+    "read": "Zhèxiē qìchē shì zài gōng chǎng lǐ zào de.",
+    "ko": "이 차들은 공장에서 만들어져요.",
+    "en": "These cars are made in a factory."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "这个蛋糕是用鸡蛋___的。",
+    "options": [
+     "做",
+     "做了",
+     "做过"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "瑞士___法语。",
+    "options": [
+     "说",
+     "写",
+     "买"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "茶是在中国___的。",
+    "options": [
+     "种",
+     "种了",
+     "种着"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "房间每天___打扫。",
+    "options": [
+     "都",
+     "了",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个蛋糕是用什么做的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 케이크는 뭘로 만들어요?",
+     "en": "(Question) What is this cake made with?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "是用鸡蛋做的。",
+       "是用鸡蛋做了的。",
+       "用是鸡蛋的做。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "瑞士说什么语言？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 스위스에서는 어떤 언어를 써요?",
+     "en": "(Question) Which languages are spoken in Switzerland?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "说法语。",
+       "法语被说了。",
+       "是法语说的了。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个面包是怎么做的？"
+      },
+      {
+       "s": "B",
+       "t": "每天早上在店里烤的。"
+      },
+      {
+       "s": "A",
+       "t": "是用鸡蛋做的吗？"
+      },
+      {
+       "s": "B",
+       "t": "是的，还用牛奶。下午就卖完了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 빵은 어떻게 만들어요?\nB: 매일 아침 가게에서 구워요.\nA: 달걀로 만들어요?\nB: 네, 그리고 우유도 써요. 오후에는 모두 팔려요.",
+     "en": "A: How is this bread made?\nB: It is baked in the shop every morning.\nA: Is it made with eggs?\nB: Yes, and milk is used too. It is all sold by the afternoon."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "面包什么时候烤的？",
+      "options": [
+       "早上",
+       "晚上",
+       "中午"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "汽车是在这家工厂造的。零件是从几个国家进口的。汽车组装好以后要检查。然后包装起来，出口到很多国家。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 공장에서는 차를 만들어요. 부품은 여러 나라에서 수입돼요. 차는 조립되고 검사받아요. 그리고 상자에 포장되어 많은 나라에 수출돼요.",
+     "en": "Cars are made in this factory. The parts are imported from several countries. The cars are put together and checked. Then they are packed and exported to many countries."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "汽车出口到哪里？",
+      "options": [
+       "很多国家",
+       "一个国家",
+       "不出口"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个蛋糕是用什么做的？"
+      },
+      {
+       "s": "B",
+       "t": "用鸡蛋和牛奶做的。"
+      },
+      {
+       "s": "A",
+       "t": "什么时候烤的？"
+      },
+      {
+       "s": "B",
+       "t": "每天早上。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 이 케이크는 뭘로 만들어요?\n손님: 달걀과 우유로 만들어요.\n직원: 언제 구워요?\n손님: 매일 아침이요.",
+     "en": "Guest: What is this cake made with?\nAssistant: It is made with eggs and milk.\nGuest: When is it baked?\nAssistant: Every morning."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "店员: 用鸡蛋和______做的",
+      "answers": [
+       "牛奶"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "店员: 每天______",
+      "answers": [
+       "早上"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 这个蛋糕是用鸡蛋___的。\n2) 瑞士___法语。\n3) 房间每天___打扫。",
+    "trans": {
+     "ko": "1) 이 케이크는 달걀로 만들어요. 2) 스위스에서는 프랑스어가 쓰여요. 3) 방은 매일 청소돼요.",
+     "en": "1) This cake is made with eggs. 2) French is spoken in Switzerland. 3) The rooms are cleaned every day."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这个蛋糕是用鸡蛋___的。",
+      "options": [
+       "做",
+       "做了",
+       "做过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "瑞士___法语。",
+      "options": [
+       "说",
+       "写",
+       "买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "房间每天___打扫。",
+      "options": [
+       "都",
+       "了",
+       "过"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "汽车是在这家(1)造的。零件是从几个国家(2)的。汽车组装好以后要检查。然后包装起来，(3)到很多国家。",
+    "trans": {
+     "ko": "이 공장에서는 차를 만들어요. 부품은 여러 나라에서 수입돼요. 차는 조립되고 검사받아요. 그리고 상자에 포장되어 수출돼요.",
+     "en": "Cars are made in this factory. The parts are imported from several countries. The cars are put together and checked. Then they are packed and exported."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "工厂",
+       "学校",
+       "医院"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "进口",
+       "出口",
+       "打扫"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "出口",
+       "进口",
+       "借"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "通知\n酒店房间每天都打扫。\n毛巾需要时可以更换。",
+    "trans": {
+     "ko": "안내문\n이 호텔의 방은 매일 청소됩니다.\n수건은 요청하면 교환됩니다.",
+     "en": "NOTICE\nThe rooms in this hotel are cleaned every day.\nTowels are changed on request."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "房间多久打扫一次？",
+      "options": [
+       "每天",
+       "每周",
+       "每月"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "什么时候换毛巾？",
+      "options": [
+       "需要时",
+       "每天",
+       "每周"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "在这家面包店，面包每天烤。它是用鸡蛋和牛奶做的。下午就卖完了。",
+    "trans": {
+     "ko": "이 빵집에서는 빵이 매일 구워져요. 빵은 달걀과 우유로 만들어져요. 오후에는 모두 팔려요.",
+     "en": "In this bakery, bread is baked every day. It is made with eggs and milk. It is all sold by the afternoon."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "面包每天烤。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "面包不用牛奶。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "面包店有一只猫。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "这个蛋糕是怎么做的？",
+    "read": "Zhège dàn gāo shì zěnme zuò de?",
+    "ko": "이건 어떻게 만들어져요?",
+    "en": "How is this made?",
+    "situation": {
+     "ko": "방법을 물을 때",
+     "en": "Asking how something is made"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "这个蛋糕是用鸡蛋做的。",
+    "read": "Zhège dàn gāo shì yòng jīdàn zuò de.",
+    "ko": "이 케이크는 달걀로 만들어요.",
+    "en": "This cake is made with eggs.",
+    "situation": {
+     "ko": "재료를 말할 때",
+     "en": "Saying what something is made of"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "瑞士说法语。",
+    "read": "Ruì shì shuō fǎyǔ.",
+    "ko": "스위스에서는 프랑스어가 쓰여요.",
+    "en": "French is spoken in Switzerland.",
+    "situation": {
+     "ko": "사용 언어를 말할 때",
+     "en": "Talking about languages"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "茶是在中国种的。",
+    "read": "Chá shì zài Zhōngguó zhǒng de.",
+    "ko": "차는 중국에서 재배돼요.",
+    "en": "Tea is grown in China.",
+    "situation": {
+     "ko": "생산지를 말할 때",
+     "en": "Saying where something is grown"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "房间每天都打扫。",
+    "read": "Fángjiān měitiān dōu dǎsǎo.",
+    "ko": "방은 매일 청소돼요.",
+    "en": "The rooms are cleaned every day.",
+    "situation": {
+     "ko": "일상 일을 말할 때",
+     "en": "Saying what is done every day"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "这些汽车是在工厂里造的。",
+    "read": "Zhèxiē qìchē shì zài gōng chǎng lǐ zào de.",
+    "ko": "이 차들은 공장에서 만들어져요.",
+    "en": "These cars are made in a factory.",
+    "situation": {
+     "ko": "복수 주어를 쓸 때",
+     "en": "Using plural subjects"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "咖啡出口到很多国家。",
+    "read": "Kāfēi chū kǒu dào hěn duō guójiā.",
+    "ko": "커피는 많은 나라에 수출돼요.",
+    "en": "Coffee is exported to many countries.",
+    "situation": {
+     "ko": "수출을 말할 때",
+     "en": "Talking about exports"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "这个工具用来做饭。",
+    "read": "Zhège gōng jù yòng lái zuòfàn.",
+    "ko": "이 도구는 요리할 때 쓰여요.",
+    "en": "This tool is used for cooking.",
+    "situation": {
+     "ko": "용도를 말할 때",
+     "en": "Saying what something is used for"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……是用……做的。",
+    "read": "… Shì yòng … zuò de.",
+    "ko": "~은(는) …돼요.",
+    "en": "~ is / are + past participle."
+   },
+   {
+    "id": "w2",
+    "t": "……是在……的。",
+    "read": "… Shì zài … de.",
+    "ko": "~에서 …돼요.",
+    "en": "~ is ... in / at ~."
+   },
+   {
+    "id": "w3",
+    "t": "……每天都……。",
+    "read": "… Měitiān dōu ….",
+    "ko": "~로 만들어져요.",
+    "en": "~ is made of / with ~."
+   },
+   {
+    "id": "w4",
+    "t": "……用来……。",
+    "read": "… Yòng lái ….",
+    "ko": "~에 쓰여요.",
+    "en": "~ is used for ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "현재 수동태로 제품 하나가 어떻게 만들어지고 팔리는지 3문장으로 써 보세요.",
+    "en": "Write 3 present-passive sentences about how a product is made and sold."
+   },
+   "must_include": [
+    {
+     "label": "是……的",
+     "match": [
+      "是",
+      "的"
+     ]
+    },
+    {
+     "label": "用",
+     "match": [
+      "用"
+     ]
+    }
+   ],
+   "model": "这个蛋糕是用鸡蛋做的。它每天都在面包店里烤。它在店里卖。",
+   "model_trans": {
+    "ko": "이 케이크는 달걀로 만들어요. 매일 빵집에서 구워져요. 그리고 가게에서 팔려요.",
+    "en": "This cake is made with eggs. It is baked in a bakery every day. It is sold in the shop."
+   }
+  }
+ }
+}

@@ -1,0 +1,823 @@
+{
+ "meta": {
+  "id": "zh_a2_u37",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 37,
+  "concept": "A2.U37",
+  "status": "live",
+  "title": {
+   "target": "邀请和借口",
+   "ko": "초대와 거절",
+   "en": "Invitations and excuses"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "邀请",
+   "pos": "verb",
+   "read": "yāoqǐng",
+   "ko": "초대하다",
+   "en": "invite",
+   "ex": {
+    "t": "我邀请朋友来参加聚会。",
+    "read": "Wǒ yāoqǐng péngyou lái cānjiā jùhuì.",
+    "ko": "친구를 파티에 초대했어요.",
+    "en": "I invited my friend to the party."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "聚会",
+   "pos": "noun",
+   "read": "jùhuì",
+   "ko": "파티",
+   "en": "party",
+   "ex": {
+    "t": "星期六有一个聚会。",
+    "read": "Xīngqīliù yǒu yí ge jùhuì.",
+    "ko": "토요일에 파티가 있어요.",
+    "en": "There is a party on Saturday."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "你想……吗",
+   "pos": "phrase",
+   "read": "nǐ xiǎng … ma",
+   "ko": "~하고 싶다 (정중)",
+   "en": "would like",
+   "ex": {
+    "t": "你想和我一起吃晚饭吗？",
+    "read": "Nǐ xiǎng hé wǒ yìqǐ chī wǎnfàn ma?",
+    "ko": "저녁 같이 먹을래요?",
+    "en": "Would you like to have dinner with me?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "我很想",
+   "pos": "phrase",
+   "read": "wǒ hěn xiǎng",
+   "ko": "기꺼이",
+   "en": "I'd love to",
+   "ex": {
+    "t": "我很想去。",
+    "read": "Wǒ hěn xiǎng qù.",
+    "ko": "기꺼이 갈게요.",
+    "en": "I'd love to come."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "对不起",
+   "pos": "phrase",
+   "read": "duìbuqǐ",
+   "ko": "죄송해요",
+   "en": "I'm sorry",
+   "ex": {
+    "t": "对不起，我去不了。",
+    "read": "Duìbuqǐ, wǒ qù bù le.",
+    "ko": "미안해요, 갈 수 없어요.",
+    "en": "I'm sorry, I can't come."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "忙",
+   "pos": "adj",
+   "read": "máng",
+   "ko": "바쁜",
+   "en": "busy",
+   "ex": {
+    "t": "星期六我很忙。",
+    "read": "Xīngqīliù wǒ hěn máng.",
+    "ko": "토요일에는 바빠요.",
+    "en": "I'm busy on Saturday."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "改成",
+   "pos": "adv",
+   "read": "gǎi chéng",
+   "ko": "대신",
+   "en": "instead",
+   "ex": {
+    "t": "改成星期日怎么样？",
+    "read": "Gǎi chéng xīngqī rì zěnmeyàng?",
+    "ko": "일요일은 어때요?",
+    "en": "How about Sunday instead?"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "建议",
+   "pos": "noun",
+   "read": "jiànyì",
+   "ko": "제안",
+   "en": "suggestion",
+   "ex": {
+    "t": "这是个好建议。",
+    "read": "Zhè shì gè hǎo jiànyì.",
+    "ko": "좋은 제안이에요.",
+    "en": "That's a good suggestion."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "有空",
+   "pos": "adj",
+   "read": "yǒukòng",
+   "ko": "가능한",
+   "en": "free",
+   "ex": {
+    "t": "星期五你有空吗？",
+    "read": "Xīngqīwǔ nǐ yǒukòng ma?",
+    "ko": "금요일에 시간 돼요?",
+    "en": "Are you free on Friday?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "……怎么样",
+   "pos": "phrase",
+   "read": "… Zěnmeyàng",
+   "ko": "~ 어때요?",
+   "en": "how about",
+   "ex": {
+    "t": "去看电影怎么样？",
+    "read": "Qù kàn diànyǐng zěnmeyàng?",
+    "ko": "영화 보는 건 어때요?",
+    "en": "How about going to the cinema?"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "邀请和借口: 你想……吗？・我很想……",
+   "en": "Invitations and excuses: 你想……吗 / 我很想"
+  },
+  "explain": {
+   "ko": "초대는 你想……吗?, 수락은 我很想……, 거절은 对不起，我……不了 / 我很忙, 대안 제안은 ……怎么样?로 말합니다: 你想和我一起吃晚饭吗？我很想去。对不起，星期六我很忙。改成星期日怎么样？",
+   "en": "Invite: 你想……吗?; accept: 我很想……; decline: 对不起，我……不了 / 我很忙; suggest: ……怎么样?: 你想和我一起吃晚饭吗？我很想去。对不起，星期六我很忙。改成星期日怎么样？"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "초대 / Invite",
+     "你想……吗？",
+     "你想和我一起吃晚饭吗？"
+    ],
+    [
+     "수락 / Accept",
+     "我很想……",
+     "我很想去。"
+    ],
+    [
+     "거절 / Decline",
+     "对不起，我……不了",
+     "对不起，我去不了。"
+    ],
+    [
+     "제안 / Suggest",
+     "……怎么样？",
+     "改成星期日怎么样？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "거절할 때는 이유를 덧붙입니다.",
+    "en": "Give a reason when declining."
+   },
+   {
+    "ko": "초대를 받으면 谢谢你邀请我라고 말합니다.",
+    "en": "Thank people: 谢谢你邀请我。"
+   }
+  ],
+  "examples": [
+   {
+    "t": "星期六有一个聚会。",
+    "read": "Xīngqīliù yǒu yí ge jùhuì.",
+    "ko": "토요일에 파티가 있어요.",
+    "en": "There is a party on Saturday."
+   },
+   {
+    "t": "你想和我一起吃晚饭吗？",
+    "read": "Nǐ xiǎng hé wǒ yìqǐ chī wǎnfàn ma?",
+    "ko": "저녁 같이 먹을래요?",
+    "en": "Would you like to have dinner with me?"
+   },
+   {
+    "t": "我很想去。",
+    "read": "Wǒ hěn xiǎng qù.",
+    "ko": "기꺼이 갈게요.",
+    "en": "I'd love to come."
+   },
+   {
+    "t": "对不起，星期六我很忙。",
+    "read": "Duìbuqǐ, xīngqīliù wǒ hěn máng.",
+    "ko": "미안해요, 토요일에는 바빠요.",
+    "en": "I'm sorry, I'm busy on Saturday."
+   },
+   {
+    "t": "改成星期日怎么样？",
+    "read": "Gǎi chéng xīngqī rì zěnmeyàng?",
+    "ko": "일요일은 어때요?",
+    "en": "How about Sunday instead?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "你想和我一起吃晚饭___？",
+    "options": [
+     "吗",
+     "了",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我很___去。",
+    "options": [
+     "想",
+     "要了",
+     "在"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "对不起，星期六我很___。",
+    "options": [
+     "忙",
+     "好",
+     "对"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "改成星期日___？",
+    "options": [
+     "怎么样",
+     "什么",
+     "几点"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "星期六你有空吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 토요일에 시간 돼요?",
+     "en": "(Question) Are you free on Saturday?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "有空，怎么了？",
+       "有空了怎么了过。",
+       "空有星期六。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你想和我一起吃晚饭吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 저녁 같이 먹을래요?",
+     "en": "(Question) Would you like to have dinner with me?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我很想去。",
+       "我想很去了。",
+       "我去很想着。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "星期六你想去看电影吗？"
+      },
+      {
+       "s": "B",
+       "t": "对不起，星期六我很忙。星期日怎么样？"
+      },
+      {
+       "s": "A",
+       "t": "星期日可以，我有空。"
+      },
+      {
+       "s": "B",
+       "t": "我很想去。谢谢你邀请我。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 토요일에 영화 볼래?\nB: 미안해, 토요일에는 바빠. 일요일은 어때?\nA: 좋아, 일요일은 시간 돼.\nB: 기꺼이 갈게. 초대해 줘서 고마워.",
+     "en": "A: Would you like to see a film on Saturday?\nB: I'm sorry, I'm busy on Saturday. How about Sunday?\nA: Sunday is fine. I'm free.\nB: I'd love to come. Thank you for inviting me."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他们星期几去看电影？",
+      "options": [
+       "星期日",
+       "星期六",
+       "星期五"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你好，我是艾娃。星期六我要办生日聚会，晚上七点在我家。你能来吗？请告诉我。期待见到你。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요, 에바예요. 토요일에 제 생일 파티가 있어요. 저녁 7시에 우리 집에서 해요. 올 수 있어요? 올 수 있으면 알려 주세요. 기다릴게요.",
+     "en": "Hello, it's Eva. I'm having a birthday party on Saturday. It's at seven in the evening at my house. Can you come? Please let me know. I look forward to seeing you."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "聚会几点开始？",
+      "options": [
+       "晚上七点",
+       "下午三点",
+       "中午十二点"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "星期六的聚会你能来吗？"
+      },
+      {
+       "s": "B",
+       "t": "恐怕星期六我得上班。"
+      },
+      {
+       "s": "A",
+       "t": "那我们改成星期日吧。"
+      },
+      {
+       "s": "B",
+       "t": "好主意。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 토요일 파티에 오실 수 있어요?\n손님: 죄송하지만 토요일에는 일해야 해요.\n직원: 그럼 일요일에 다시 해요.\n손님: 좋은 생각이에요.",
+     "en": "Assistant: Can you come to the party on Saturday?\nGuest: I'm afraid I have to work on Saturday.\nAssistant: Then let's do it on Sunday instead.\nGuest: That's a good idea."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客人: 恐怕星期六我得______",
+      "answers": [
+       "上班"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "客人: 好______意",
+      "answers": [
+       "主"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 星期六有一个___。\n2) 你想和我一起吃晚饭___？\n3) 我很___去。",
+    "trans": {
+     "ko": "1) 토요일에 파티가 있어요. 2) 저녁 같이 먹을래요? 3) 기꺼이 갈게요.",
+     "en": "1) There is a party on Saturday. 2) Would you like to have dinner with me? 3) I'd love to come."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "星期六有一个___。",
+      "options": [
+       "聚会",
+       "会议",
+       "面试"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "你想和我一起吃晚饭___？",
+      "options": [
+       "吗",
+       "了",
+       "过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我很___去。",
+      "options": [
+       "想",
+       "要了",
+       "在"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好，我是艾娃。星期六我要办生日(1)，晚上七点在我家。你(2)来吗？请(3)我。",
+    "trans": {
+     "ko": "안녕하세요, 에바예요. 토요일에 제 생일 파티가 있어요. 저녁 7시에 우리 집에서 해요. 올 수 있으면 알려 주세요.",
+     "en": "Hello, it's Eva. I'm having a birthday party on Saturday. It's at seven in the evening at my house. Please let me know if you can come."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "聚会",
+       "会议",
+       "面试"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "能",
+       "了",
+       "过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "告诉",
+       "借",
+       "关"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "请柬\n艾娃的生日聚会\n星期六晚上七点\n艾娃家",
+    "trans": {
+     "ko": "초대장\n에바의 생일 파티\n토요일 저녁 7시\n에바의 집",
+     "en": "INVITATION\nEva's birthday party\nSaturday, 7 p.m.\nEva's house"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "聚会在什么时候？",
+      "options": [
+       "星期六晚上七点",
+       "星期日下午",
+       "星期五晚上"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "聚会在哪里？",
+      "options": [
+       "艾娃家",
+       "餐厅",
+       "公园"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "艾娃星期六要办生日聚会。她邀请了汤姆。汤姆星期六很忙。",
+    "trans": {
+     "ko": "에바는 토요일에 생일 파티를 해요. 그녀는 톰을 초대했어요. 톰은 토요일에 바빠요.",
+     "en": "Eva is having a birthday party on Saturday. She invited Tom. Tom is busy on Saturday."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "艾娃邀请了汤姆。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆星期六有空。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "艾娃有一辆车。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "星期六你有空吗？",
+    "read": "Xīngqīliù nǐ yǒukòng ma?",
+    "ko": "토요일에 시간 돼요?",
+    "en": "Are you free on Saturday?",
+    "situation": {
+     "ko": "시간을 물을 때",
+     "en": "Asking if someone is free"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "你想和我一起吃晚饭吗？",
+    "read": "Nǐ xiǎng hé wǒ yìqǐ chī wǎnfàn ma?",
+    "ko": "저녁 같이 먹을래요?",
+    "en": "Would you like to have dinner with me?",
+    "situation": {
+     "ko": "초대할 때",
+     "en": "Inviting someone"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我很想去。",
+    "read": "Wǒ hěn xiǎng qù.",
+    "ko": "기꺼이 갈게요.",
+    "en": "I'd love to come.",
+    "situation": {
+     "ko": "수락할 때",
+     "en": "Accepting"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "对不起，星期六我很忙。",
+    "read": "Duìbuqǐ, xīngqīliù wǒ hěn máng.",
+    "ko": "미안해요, 토요일에는 바빠요.",
+    "en": "I'm sorry, I'm busy on Saturday.",
+    "situation": {
+     "ko": "거절할 때",
+     "en": "Refusing politely"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "改成星期日怎么样？",
+    "read": "Gǎi chéng xīngqī rì zěnmeyàng?",
+    "ko": "일요일은 어때요?",
+    "en": "How about Sunday instead?",
+    "situation": {
+     "ko": "다른 날을 제안할 때",
+     "en": "Suggesting another day"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "去看电影怎么样？",
+    "read": "Qù kàn diànyǐng zěnmeyàng?",
+    "ko": "영화 보는 건 어때요?",
+    "en": "How about going to the cinema?",
+    "situation": {
+     "ko": "활동을 제안할 때",
+     "en": "Suggesting an activity"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "这是个好主意。",
+    "read": "Zhè shì gè hǎo zhǔ yì.",
+    "ko": "좋은 생각이에요.",
+    "en": "That's a good idea.",
+    "situation": {
+     "ko": "동의할 때",
+     "en": "Agreeing"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "谢谢你邀请我。",
+    "read": "Xièxie nǐ yāoqǐng wǒ.",
+    "ko": "초대해 줘서 고마워요.",
+    "en": "Thank you for inviting me.",
+    "situation": {
+     "ko": "고마움을 말할 때",
+     "en": "Thanking for an invitation"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "你想……吗？",
+    "read": "Nǐ xiǎng … ma?",
+    "ko": "~할래요?",
+    "en": "Would you like to ~?"
+   },
+   {
+    "id": "w2",
+    "t": "我很想……。",
+    "read": "Wǒ hěn xiǎng ….",
+    "ko": "기꺼이 ~할게요.",
+    "en": "I'd love to ~."
+   },
+   {
+    "id": "w3",
+    "t": "对不起，我……不了。",
+    "read": "Duìbuqǐ, wǒ … bù le.",
+    "ko": "미안해요, ~",
+    "en": "I'm sorry, I can't ~."
+   },
+   {
+    "id": "w4",
+    "t": "……怎么样？",
+    "read": "… Zěnmeyàng?",
+    "ko": "~는 어때요?",
+    "en": "How about ~?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "친구를 초대하는 짧은 대화를 3줄로 써 보세요 (초대, 거절 또는 수락, 대안).",
+    "en": "Write a 3-line dialogue inviting a friend (invitation, refusal or acceptance, alternative)."
+   },
+   "must_include": [
+    {
+     "label": "想・很想",
+     "match": [
+      "想"
+     ]
+    },
+    {
+     "label": "对不起",
+     "match": [
+      "对不起"
+     ]
+    }
+   ],
+   "model": "星期六你想去看电影吗？对不起，星期六我很忙。改成星期日怎么样？",
+   "model_trans": {
+    "ko": "토요일에 영화 볼래요? 미안해요, 토요일에는 바빠요. 일요일은 어때요?",
+    "en": "Would you like to see a film on Saturday? I'm sorry, I'm busy on Saturday. How about Sunday?"
+   }
+  }
+ }
+}

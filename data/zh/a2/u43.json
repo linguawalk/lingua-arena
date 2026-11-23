@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "id": "zh_a2_u43",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 43,
+  "concept": "A2.U43",
+  "status": "live",
+  "title": {
+   "target": "被动（过去）",
+   "ko": "과거 수동태: 어떤 일이 있었나",
+   "en": "Past passive: what was done"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "建",
+   "pos": "verb",
+   "read": "jiàn",
+   "ko": "짓다",
+   "en": "build",
+   "ex": {
+    "t": "这座桥是1990年建的。",
+    "read": "Zhè zuò qiáo shì yì jiǔ jiǔ líng nián jiàn de.",
+    "ko": "그 다리는 1990년에 지어졌어요.",
+    "en": "The bridge was built in 1990."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "写",
+   "pos": "verb",
+   "read": "xiě",
+   "ko": "쓰다 (글)",
+   "en": "write",
+   "ex": {
+    "t": "这本书是一位著名作家写的。",
+    "read": "Zhè běn shū shì yí wèi zhù míng zuò jiā xiě de.",
+    "ko": "이 책은 유명한 작가가 썼어요.",
+    "en": "This book was written by a famous writer."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "画",
+   "pos": "verb",
+   "read": "huà",
+   "ko": "그리다",
+   "en": "paint",
+   "ex": {
+    "t": "这幅画是一百年前画的。",
+    "read": "Zhè fú huà shì yìbǎi nián qián huà de.",
+    "ko": "이 그림은 100년 전에 그려졌어요.",
+    "en": "This picture was painted 100 years ago."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "发明",
+   "pos": "verb",
+   "read": "fāmíng",
+   "ko": "발명하다",
+   "en": "invent",
+   "ex": {
+    "t": "电话是1876年发明的。",
+    "read": "Diànhuà shì yì bā qī liù nián fāmíng de.",
+    "ko": "전화는 1876년에 발명됐어요.",
+    "en": "The telephone was invented in 1876."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "被偷",
+   "pos": "verb",
+   "read": "bèi tōu",
+   "ko": "도둑맞다",
+   "en": "steal",
+   "ex": {
+    "t": "我的包被偷了。",
+    "read": "Wǒ de bāo bèi tōu le.",
+    "ko": "내 가방이 도둑맞았어요.",
+    "en": "My bag was stolen."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "找到",
+   "pos": "verb",
+   "read": "zhǎo dào",
+   "ko": "찾다",
+   "en": "find",
+   "ex": {
+    "t": "钥匙找到了。",
+    "read": "Yàoshi zhǎo dào le.",
+    "ko": "열쇠를 찾았어요.",
+    "en": "The keys were found."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "被邀请",
+   "pos": "verb",
+   "read": "bèi yāoqǐng",
+   "ko": "초대하다",
+   "en": "invite",
+   "ex": {
+    "t": "我们被邀请参加聚会。",
+    "read": "Wǒmen bèi yāoqǐng cānjiā jùhuì.",
+    "ko": "우리는 파티에 초대받았어요.",
+    "en": "We were invited to the party."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "受伤",
+   "pos": "verb",
+   "read": "shòu shāng",
+   "ko": "다치다",
+   "en": "injure",
+   "ex": {
+    "t": "有两个人受伤了。",
+    "read": "Yǒu liǎng ge rén shòu shāng le.",
+    "ko": "두 사람이 다쳤어요.",
+    "en": "Two people were injured."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "开放",
+   "pos": "verb",
+   "read": "kāi fàng",
+   "ko": "열다",
+   "en": "open",
+   "ex": {
+    "t": "这座博物馆是2005年开放的。",
+    "read": "Zhè zuò bówùguǎn shì èr líng líng wǔ nián kāi fàng de.",
+    "ko": "그 박물관은 2005년에 문을 열었어요.",
+    "en": "The museum was opened in 2005."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "著名",
+   "pos": "adj",
+   "read": "zhù míng",
+   "ko": "유명한",
+   "en": "famous",
+   "ex": {
+    "t": "他是一位著名的画家。",
+    "read": "Tā shì yí wèi zhù míng de huà jiā.",
+    "ko": "그는 유명한 화가였어요.",
+    "en": "He was a famous painter."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "被动（过去）: 被……了・是……的",
+   "en": "Past passive: 被……了 / 是……的"
+  },
+  "explain": {
+   "ko": "과거에 한 일은 是……的 구문으로 말합니다: 这座桥是1990年建的。 불행한 일은 被……了를 씁니다: 我的包被偷了。 질문은 这座桥是什么时候建的? / 这本书是谁写的? 입니다.",
+   "en": "Past events: 是……的: 这座桥是1990年建的。 Unfortunate events: 被……了: 我的包被偷了。 Ask 这座桥是什么时候建的? / 这本书是谁写的?"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "과거 / Past",
+     "是……年……的",
+     "这座桥是1990年建的。"
+    ],
+    [
+     "행위자 / Doer",
+     "是 + 人 + 动词 + 的",
+     "这本书是一位著名作家写的。"
+    ],
+    [
+     "피해 / Misfortune",
+     "被……了",
+     "我的包被偷了。"
+    ],
+    [
+     "질문 / Question",
+     "是什么时候……的？",
+     "这座桥是什么时候建的？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "被는 주로 좋지 않은 일에 씁니다.",
+    "en": "被 mostly marks unfortunate events."
+   },
+   {
+    "ko": "是……的는 때·사람·장소를 강조합니다.",
+    "en": "是……的 stresses time, person or place."
+   }
+  ],
+  "examples": [
+   {
+    "t": "这座桥是1990年建的。",
+    "read": "Zhè zuò qiáo shì yì jiǔ jiǔ líng nián jiàn de.",
+    "ko": "그 다리는 1990년에 지어졌어요.",
+    "en": "The bridge was built in 1990."
+   },
+   {
+    "t": "这本书是一位著名作家写的。",
+    "read": "Zhè běn shū shì yí wèi zhù míng zuò jiā xiě de.",
+    "ko": "이 책은 유명한 작가가 썼어요.",
+    "en": "This book was written by a famous writer."
+   },
+   {
+    "t": "电话是1876年发明的。",
+    "read": "Diànhuà shì yì bā qī liù nián fāmíng de.",
+    "ko": "전화는 1876년에 발명됐어요.",
+    "en": "The telephone was invented in 1876."
+   },
+   {
+    "t": "我的包被偷了。",
+    "read": "Wǒ de bāo bèi tōu le.",
+    "ko": "내 가방이 도둑맞았어요.",
+    "en": "My bag was stolen."
+   },
+   {
+    "t": "有两个人受伤了。",
+    "read": "Yǒu liǎng ge rén shòu shāng le.",
+    "ko": "우리는 파티에 초대받았어요.",
+    "en": "We were invited to the party."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "这座桥是1990年建___。",
+    "options": [
+     "的",
+     "了过",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我的包___偷了。",
+    "options": [
+     "被",
+     "把",
+     "给了"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "电话是1876年发明___。",
+    "options": [
+     "的",
+     "过了",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "这座桥是什么时候建___？",
+    "options": [
+     "的",
+     "了过",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这座桥是什么时候建的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 다리는 언제 지어졌어요?",
+     "en": "(Question) When was this bridge built?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "是1990年建的。",
+       "是建1990年的。",
+       "1990年建被了。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这本书是谁写的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 책은 누가 썼어요?",
+     "en": "(Question) Who was this book written by?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "是一位著名作家写的。",
+       "一位著名作家被写了。",
+       "是写一位著名作家的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这座桥是什么时候建的？"
+      },
+      {
+       "s": "B",
+       "t": "是1990年建的，是一位著名建筑师设计的。"
+      },
+      {
+       "s": "A",
+       "t": "我的包昨天被偷了。"
+      },
+      {
+       "s": "B",
+       "t": "真的吗？你报警了吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 다리는 언제 지어졌어?\nB: 1990년에 지어졌어. 유명한 건축가가 설계했어.\nA: 내 가방이 어제 도둑맞았어.\nB: 정말? 경찰에 알렸어?",
+     "en": "A: When was this bridge built?\nB: It was built in 1990. It was designed by a famous architect.\nA: My bag was stolen yesterday.\nB: Really? Did you tell the police?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "桥是谁设计的？",
+      "options": [
+       "著名建筑师",
+       "老师",
+       "医生"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "现在播报新闻。昨晚城里一家银行发生了事故。有两个人受伤，警察赶到了现场。一个大包被偷了，现在还没有找到。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "뉴스입니다. 어젯밤 시내 은행에서 사고가 있었습니다. 두 사람이 다쳤고 경찰이 도착했습니다. 큰 가방이 도둑맞았고 아직 찾지 못했습니다.",
+     "en": "Here is the news. There was an accident at a city bank last night. Two people were injured and the police arrived. A large bag was stolen and it has not been found yet."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "什么被偷了？",
+      "options": [
+       "一个大包",
+       "钥匙",
+       "手机"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你的包是什么时候被偷的？"
+      },
+      {
+       "s": "B",
+       "t": "昨晚。"
+      },
+      {
+       "s": "A",
+       "t": "是在哪里被偷的？"
+      },
+      {
+       "s": "B",
+       "t": "在地铁上。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 가방은 언제 도둑맞았어요?\n손님: 어젯밤이요.\n직원: 어디에서요?\n손님: 지하철에서요.",
+     "en": "Officer: When was your bag stolen?\nGuest: Last night.\nOfficer: Where was it stolen?\nGuest: On the subway."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客人: ______晚",
+      "answers": [
+       "昨"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "客人: 在______上",
+      "answers": [
+       "地铁"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 这座桥是1990年建___。\n2) 这本书是一位著名作家写___。\n3) 电话是1876年发明___。",
+    "trans": {
+     "ko": "1) 그 다리는 1990년에 지어졌어요. 2) 이 책은 유명한 작가가 썼어요. 3) 전화는 1876년에 발명됐어요.",
+     "en": "1) The bridge was built in 1990. 2) This book was written by a famous writer. 3) The telephone was invented in 1876."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这座桥是1990年建___。",
+      "options": [
+       "的",
+       "了过",
+       "着"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这本书是一位著名作家写___。",
+      "options": [
+       "的",
+       "了过",
+       "着"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "电话是1876年发明___。",
+      "options": [
+       "的",
+       "过了",
+       "着"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "现在播报新闻。昨晚城里一家银行发生了(1)。有两个人(2)了。一个大包(3)偷了。",
+    "trans": {
+     "ko": "뉴스입니다. 어젯밤 시내 은행에서 사고가 있었습니다. 두 사람이 다쳤고 큰 가방이 도둑맞았습니다.",
+     "en": "Here is the news. There was an accident at a city bank last night. Two people were injured and a large bag was stolen."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "事故",
+       "聚会",
+       "面试"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "受伤",
+       "邀请",
+       "建"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "被",
+       "把",
+       "给了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "博物馆通知\n这座博物馆是2005年开放的。\n建筑师：艾伦·史密斯",
+    "trans": {
+     "ko": "박물관 안내\n이 박물관은 2005년에 문을 열었습니다.\n건축가: 앨런 스미스",
+     "en": "MUSEUM NOTICE\nThis museum was opened in 2005.\nArchitect: Alan Smith"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "博物馆是哪一年开放的？",
+      "options": [
+       "2005年",
+       "1990年",
+       "1876年"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "建筑师是谁？",
+      "options": [
+       "艾伦·史密斯",
+       "汤姆",
+       "民浩"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汤姆的包昨天被偷了。是在地铁上被偷的。警察找到了那个包。",
+    "trans": {
+     "ko": "톰의 가방이 어제 도둑맞았어요. 그것은 지하철에서 일어났어요. 경찰이 가방을 찾았어요.",
+     "en": "Tom's bag was stolen yesterday. It happened on the subway. The police found the bag."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "汤姆的包被偷了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆的包在家里。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆有一辆车。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "这座桥是什么时候建的？",
+    "read": "Zhè zuò qiáo shì shénme shíhou jiàn de?",
+    "ko": "이 다리는 언제 지어졌어요?",
+    "en": "When was this bridge built?",
+    "situation": {
+     "ko": "과거 사실을 물을 때",
+     "en": "Asking when something was built"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "这座桥是1990年建的。",
+    "read": "Zhè zuò qiáo shì yì jiǔ jiǔ líng nián jiàn de.",
+    "ko": "그 다리는 1990년에 지어졌어요.",
+    "en": "The bridge was built in 1990.",
+    "situation": {
+     "ko": "연도를 말할 때",
+     "en": "Saying a year"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "这本书是谁写的？",
+    "read": "Zhè běn shū shì shéi xiě de?",
+    "ko": "이 책은 누가 썼어요?",
+    "en": "Who was this book written by?",
+    "situation": {
+     "ko": "작가를 물을 때",
+     "en": "Asking who wrote something"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "这本书是一位著名作家写的。",
+    "read": "Zhè běn shū shì yí wèi zhù míng zuò jiā xiě de.",
+    "ko": "이 책은 유명한 작가가 썼어요.",
+    "en": "This book was written by a famous writer.",
+    "situation": {
+     "ko": "작가를 말할 때",
+     "en": "Saying the writer"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "电话是1876年发明的。",
+    "read": "Diànhuà shì yì bā qī liù nián fāmíng de.",
+    "ko": "전화는 1876년에 발명됐어요.",
+    "en": "The telephone was invented in 1876.",
+    "situation": {
+     "ko": "발명을 말할 때",
+     "en": "Talking about an invention"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我的包被偷了。",
+    "read": "Wǒ de bāo bèi tōu le.",
+    "ko": "내 가방이 도둑맞았어요.",
+    "en": "My bag was stolen.",
+    "situation": {
+     "ko": "사건을 말할 때",
+     "en": "Reporting a crime"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我们被邀请参加聚会。",
+    "read": "Wǒmen bèi yāoqǐng cānjiā jùhuì.",
+    "ko": "우리는 파티에 초대받았어요.",
+    "en": "We were invited to the party.",
+    "situation": {
+     "ko": "초대를 말할 때",
+     "en": "Talking about an invitation"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "有两个人受伤了。",
+    "read": "Yǒu liǎng ge rén shòu shāng le.",
+    "ko": "두 사람이 다쳤어요.",
+    "en": "Two people were injured.",
+    "situation": {
+     "ko": "사고를 말할 때",
+     "en": "Reporting an accident"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……是……年……的。",
+    "read": "… Shì … nián … de.",
+    "ko": "~은(는) …됐어요.",
+    "en": "~ was / were + past participle."
+   },
+   {
+    "id": "w2",
+    "t": "……是谁……的？",
+    "read": "… Shì shéi … de?",
+    "ko": "~ 년에 …됐어요.",
+    "en": "~ was built in ~."
+   },
+   {
+    "id": "w3",
+    "t": "我的……被偷了。",
+    "read": "Wǒ de … bèi tōu le.",
+    "ko": "누가 ~했어요?",
+    "en": "Who was ~ by?"
+   },
+   {
+    "id": "w4",
+    "t": "我们被邀请……。",
+    "read": "Wǒmen bèi yāoqǐng ….",
+    "ko": "~에게 …당했어요.",
+    "en": "~ was stolen."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "과거 수동태로 유명한 건물이나 물건에 대해 3문장으로 써 보세요.",
+    "en": "Write 3 past-passive sentences about a famous building or object."
+   },
+   "must_include": [
+    {
+     "label": "是……的",
+     "match": [
+      "是",
+      "的"
+     ]
+    },
+    {
+     "label": "被",
+     "match": [
+      "被"
+     ]
+    }
+   ],
+   "model": "这座桥是1990年建的。它是一位著名建筑师设计的。我的包被偷了。",
+   "model_trans": {
+    "ko": "그 다리는 1990년에 지어졌어요. 그 설계는 유명한 건축가가 했어요. 매년 많은 사람이 그곳을 방문해요.",
+    "en": "The bridge was built in 1990. It was designed by a famous architect. Many people visit it every year."
+   }
+  }
+ }
+}

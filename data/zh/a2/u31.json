@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "id": "zh_a2_u31",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 31,
+  "concept": "A2.U31",
+  "status": "live",
+  "title": {
+   "target": "天气和季节",
+   "ko": "날씨와 계절",
+   "en": "The weather and the seasons"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "晴",
+   "pos": "adj",
+   "read": "qíng",
+   "ko": "맑은",
+   "en": "sunny",
+   "ex": {
+    "t": "明天会是晴天。",
+    "read": "Míngtiān huì shì qíngtiān.",
+    "ko": "내일은 맑을 거예요.",
+    "en": "It will be sunny tomorrow."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "多云",
+   "pos": "adj",
+   "read": "duō yún",
+   "ko": "흐린",
+   "en": "cloudy",
+   "ex": {
+    "t": "今天多云。",
+    "read": "Jīntiān duō yún.",
+    "ko": "오늘은 하늘이 흐려요.",
+    "en": "It is cloudy today."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "下雨",
+   "pos": "adj",
+   "read": "xiàyǔ",
+   "ko": "비 오는",
+   "en": "rainy",
+   "ex": {
+    "t": "春天常常下雨。",
+    "read": "Chūntiān chángcháng xiàyǔ.",
+    "ko": "봄에는 비가 자주 와요.",
+    "en": "It is often rainy in spring."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "刮风",
+   "pos": "adj",
+   "read": "guā fēng",
+   "ko": "바람 부는",
+   "en": "windy",
+   "ex": {
+    "t": "今天风很大。",
+    "read": "Jīntiān fēng hěn dà.",
+    "ko": "오늘은 바람이 많이 불어요.",
+    "en": "It is very windy today."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "雪",
+   "pos": "verb",
+   "read": "xuě",
+   "ko": "눈이 오다",
+   "en": "snow",
+   "ex": {
+    "t": "冬天下雪。",
+    "read": "Dōngtiān xiàxuě.",
+    "ko": "겨울에는 눈이 와요.",
+    "en": "It snows in winter."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "温度",
+   "pos": "noun",
+   "read": "wēn dù",
+   "ko": "기온",
+   "en": "temperature",
+   "ex": {
+    "t": "今天的温度是二十度。",
+    "read": "Jīntiān de wēn dù shì èrshí dù.",
+    "ko": "오늘 기온은 20도예요.",
+    "en": "The temperature is 20 degrees today."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "天气预报",
+   "pos": "noun",
+   "read": "tiānqì yù bào",
+   "ko": "예보",
+   "en": "forecast",
+   "ex": {
+    "t": "我看了天气预报。",
+    "read": "Wǒ kàn le tiānqì yù bào.",
+    "ko": "일기예보를 봤어요.",
+    "en": "I watched the weather forecast."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "雨伞",
+   "pos": "noun",
+   "read": "yǔsǎn",
+   "ko": "우산",
+   "en": "umbrella",
+   "ex": {
+    "t": "好像要下雨，所以我带了雨伞。",
+    "read": "Hǎo xiàng yào xiàyǔ, suǒyǐ wǒ dài le yǔsǎn.",
+    "ko": "비가 올 것 같아서 우산을 가져갔어요.",
+    "en": "It looks like rain, so I took an umbrella."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "暖和",
+   "pos": "adj",
+   "read": "nuǎnhuo",
+   "ko": "따뜻한",
+   "en": "warm",
+   "ex": {
+    "t": "春天很暖和。",
+    "read": "Chūntiān hěn nuǎnhuo.",
+    "ko": "봄은 따뜻해요.",
+    "en": "Spring is warm."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "冻",
+   "pos": "adj",
+   "read": "dòng",
+   "ko": "추운",
+   "en": "freezing",
+   "ex": {
+    "t": "冬天的早晨冷得很。",
+    "read": "Dōngtiān de zǎo chén lěng de hěn.",
+    "ko": "겨울 아침은 몹시 추워요.",
+    "en": "Winter mornings are freezing."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "天气和季节: 明天会……・要下雨了",
+   "en": "The weather and the seasons: 会 / 要……了"
+  },
+  "explain": {
+   "ko": "미래의 날씨는 会(~일 것이다)와 要……了(곧 ~할 것이다)로 말합니다: 明天会是晴天。要下雨了。 습관적인 날씨는 현재형으로 말합니다: 冬天下雪。 질문은 明天天气怎么样? 입니다.",
+   "en": "Future weather: 会 and 要……了: 明天会是晴天。要下雨了。 General facts use the plain present: 冬天下雪。 Ask 明天天气怎么样?"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "예보 / Forecast",
+     "明天会 + 形容词",
+     "明天会是晴天。"
+    ],
+    [
+     "곧 / About to",
+     "要……了",
+     "要下雨了。"
+    ],
+    [
+     "사실 / General fact",
+     "季节 + 动词",
+     "冬天下雪。"
+    ],
+    [
+     "질문 / Question",
+     "明天天气怎么样？",
+     "明天天气怎么样？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "会는 예측, 要……了는 곧 일어날 일에 씁니다.",
+    "en": "会 predicts; 要……了 is for what is about to happen."
+   },
+   {
+    "ko": "天气预报는 看 · 听과 함께 씁니다.",
+    "en": "天气预报 goes with 看 / 听."
+   }
+  ],
+  "examples": [
+   {
+    "t": "明天会是晴天。",
+    "read": "Míngtiān huì shì qíngtiān.",
+    "ko": "내일은 맑을 거예요.",
+    "en": "It will be sunny tomorrow."
+   },
+   {
+    "t": "今天风很大。",
+    "read": "Jīntiān fēng hěn dà.",
+    "ko": "오늘은 바람이 많이 불어요.",
+    "en": "It is very windy today."
+   },
+   {
+    "t": "要下雨了。",
+    "read": "Yào xiàyǔ le.",
+    "ko": "비가 올 거예요.",
+    "en": "It's going to rain."
+   },
+   {
+    "t": "冬天下雪。",
+    "read": "Dōngtiān xiàxuě.",
+    "ko": "겨울에는 눈이 와요.",
+    "en": "It snows in winter."
+   },
+   {
+    "t": "你看天气预报了吗？",
+    "read": "Nǐ kàn tiānqì yù bào le ma?",
+    "ko": "일기예보를 봤어요?",
+    "en": "Did you watch the weather forecast?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "明天___是晴天。",
+    "options": [
+     "会",
+     "了",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "要下雨___。",
+    "options": [
+     "了",
+     "过",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "冬天___雪。",
+    "options": [
+     "下",
+     "刮",
+     "晴"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "你看天气___了吗？",
+    "options": [
+     "预报",
+     "温度",
+     "多云"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明天天气怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 내일 날씨가 어때요?",
+     "en": "(Question) What will the weather be like tomorrow?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "明天会是晴天。",
+       "明天晴天会是了。",
+       "明天是会晴天过。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你喜欢哪个季节？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어떤 계절을 좋아해요?",
+     "en": "(Question) Which season do you like?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我最喜欢春天。",
+       "我喜欢春天最了。",
+       "春天最喜欢我。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明天天气怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "天气预报说早上多云，下午下雨。"
+      },
+      {
+       "s": "A",
+       "t": "那我带雨伞。"
+      },
+      {
+       "s": "B",
+       "t": "对，还要穿暖和的外套。温度是十五度。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 내일 날씨가 어때?\nB: 일기예보를 보니까 아침은 흐리고 오후에 비가 올 거래.\nA: 그럼 우산을 가져가야겠다.\nB: 응, 그리고 따뜻한 코트도 입어. 기온이 15도야.",
+     "en": "A: What's the weather going to be like tomorrow?\nB: The forecast says it will be cloudy in the morning and rainy in the afternoon.\nA: Then I'll take an umbrella.\nB: Yes, and wear a warm coat. The temperature will be 15 degrees."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "下午天气怎么样？",
+      "options": [
+       "下雨",
+       "晴天",
+       "下雪"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "大家好，这是天气预报。今天晴天，很暖和。明天早上多云，下午要下雨。风会很大，请小心你的雨伞。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요, 일기예보입니다. 오늘은 맑고 따뜻합니다. 내일은 아침에 흐리겠고 오후에는 비가 오겠습니다. 바람이 많이 불겠으니 우산을 조심해서 쓰세요.",
+     "en": "Hello, here is the weather forecast. Today is sunny and warm. Tomorrow it will be cloudy in the morning and it's going to rain in the afternoon. It will be very windy, so be careful with your umbrella."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "明天什么会很大？",
+      "options": [
+       "风",
+       "雨",
+       "雪"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "周末天气怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "星期六晴天，星期日要下雪。"
+      },
+      {
+       "s": "A",
+       "t": "温度呢？"
+      },
+      {
+       "s": "B",
+       "t": "零下三度。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 주말 날씨는 어때요?\n손님: 토요일은 맑고 일요일에는 눈이 온대요.\n직원: 기온은요?\n손님: 영하 3도예요.",
+     "en": "Clerk: What's the weather like for the weekend?\nGuest: Saturday will be sunny and on Sunday it's going to snow.\nClerk: And the temperature?\nGuest: Minus three degrees."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客人: 星期六______天",
+      "answers": [
+       "晴"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "客人: 零下______度",
+      "answers": [
+       "三"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 明天___是晴天。\n2) 今天风___大。\n3) 冬天___雪。",
+    "trans": {
+     "ko": "1) 내일은 맑을 거예요. 2) 오늘은 바람이 많이 불어요. 3) 겨울에는 눈이 와요.",
+     "en": "1) It will be sunny tomorrow. 2) It is very windy today. 3) It snows in winter."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "明天___是晴天。",
+      "options": [
+       "会",
+       "了",
+       "过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "今天风___大。",
+      "options": [
+       "很",
+       "了",
+       "着"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "冬天___雪。",
+      "options": [
+       "下",
+       "刮",
+       "晴"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "大家好，这是天气预报。今天晴天，很(1)。明天早上多云，下午(2)下雨。风会很大，请小心你的(3)。",
+    "trans": {
+     "ko": "일기예보입니다. 오늘은 맑고 따뜻합니다. 내일은 아침에 흐리겠고 오후에는 비가 오겠습니다. 바람이 많이 불겠으니 우산을 조심하세요.",
+     "en": "Here is the weather forecast. Today is sunny and warm. Tomorrow it will be cloudy in the morning and it's going to rain in the afternoon. It will be very windy, so be careful with your umbrella."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "暖和",
+       "冷",
+       "下雨"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "要",
+       "过",
+       "着"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "雨伞",
+       "天气",
+       "温度"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "一周天气\n星期六：晴，18度\n星期日：雪，零下3度",
+    "trans": {
+     "ko": "주간 날씨\n토요일: 맑음, 18°C\n일요일: 눈, -3°C",
+     "en": "WEEKLY WEATHER\nSaturday: sunny, 18°C\nSunday: snow, -3°C"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "星期六天气怎么样？",
+      "options": [
+       "晴，18度",
+       "雪，零下3度",
+       "多云"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "星期日天气怎么样？",
+      "options": [
+       "雪，零下3度",
+       "晴，18度",
+       "雨"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "明天早上多云。下午要下雨。风会很大。",
+    "trans": {
+     "ko": "내일 아침은 흐릴 거예요. 오후에는 비가 올 거예요. 바람이 많이 불 거예요.",
+     "en": "Tomorrow morning will be cloudy. In the afternoon it's going to rain. It will be very windy."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "明天早上多云。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "明天下午是晴天。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "明天有雪。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "明天天气怎么样？",
+    "read": "Míngtiān tiānqì zěnmeyàng?",
+    "ko": "내일 날씨가 어때요?",
+    "en": "What will the weather be like tomorrow?",
+    "situation": {
+     "ko": "내일 날씨를 물을 때",
+     "en": "Asking about tomorrow's weather"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "明天会是晴天。",
+    "read": "Míngtiān huì shì qíngtiān.",
+    "ko": "내일은 맑을 거예요.",
+    "en": "It will be sunny tomorrow.",
+    "situation": {
+     "ko": "예보를 말할 때",
+     "en": "Giving the forecast"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "要下雨了。",
+    "read": "Yào xiàyǔ le.",
+    "ko": "비가 올 것 같아요.",
+    "en": "It's going to rain.",
+    "situation": {
+     "ko": "곧 일어날 일을 말할 때",
+     "en": "Saying it looks like rain"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "带上雨伞。",
+    "read": "Dàishang yǔsǎn.",
+    "ko": "우산을 가져가세요.",
+    "en": "Take an umbrella.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "今天风很大。",
+    "read": "Jīntiān fēng hěn dà.",
+    "ko": "오늘은 바람이 많이 불어요.",
+    "en": "It is very windy today.",
+    "situation": {
+     "ko": "지금 날씨를 말할 때",
+     "en": "Describing today's weather"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "冬天的早晨冷得很。",
+    "read": "Dōngtiān de zǎo chén lěng de hěn.",
+    "ko": "겨울 아침은 몹시 추워요.",
+    "en": "Winter mornings are freezing.",
+    "situation": {
+     "ko": "계절을 말할 때",
+     "en": "Talking about seasons"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "今天的温度是二十度。",
+    "read": "Jīntiān de wēn dù shì èrshí dù.",
+    "ko": "기온이 20도예요.",
+    "en": "The temperature is 20 degrees.",
+    "situation": {
+     "ko": "기온을 말할 때",
+     "en": "Giving the temperature"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我最喜欢春天。",
+    "read": "Wǒ zuìxǐhuan chūntiān.",
+    "ko": "나는 봄이 제일 좋아요.",
+    "en": "I like spring best.",
+    "situation": {
+     "ko": "좋아하는 계절을 말할 때",
+     "en": "Saying your favourite season"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "明天会……。",
+    "read": "Míngtiān huì ….",
+    "ko": "내일은 ~할 거예요.",
+    "en": "It will be ~ tomorrow."
+   },
+   {
+    "id": "w2",
+    "t": "要……了。",
+    "read": "Yào … le.",
+    "ko": "~할 것 같아요.",
+    "en": "It's going to ~."
+   },
+   {
+    "id": "w3",
+    "t": "……天……（季节）。",
+    "read": "… Tiān … (jìjié).",
+    "ko": "~에는 …해요.",
+    "en": "It ~ in (season)."
+   },
+   {
+    "id": "w4",
+    "t": "今天的温度是……度。",
+    "read": "Jīntiān de wēn dù shì … dù.",
+    "ko": "기온은 ~도예요.",
+    "en": "The temperature is ~ degrees."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "내일 날씨를 예보하는 글을 3문장으로 써 보세요 (will / going to 사용).",
+    "en": "Write a 3-sentence weather forecast for tomorrow using will and going to."
+   },
+   "must_include": [
+    {
+     "label": "会・要",
+     "match": [
+      "会",
+      "要"
+     ]
+    },
+    {
+     "label": "度",
+     "match": [
+      "度"
+     ]
+    }
+   ],
+   "model": "明天早上多云。下午要下雨。温度会是十五度。",
+   "model_trans": {
+    "ko": "내일 아침은 흐릴 거예요. 오후에는 비가 올 거예요. 기온은 15도일 거예요.",
+    "en": "Tomorrow morning will be cloudy. In the afternoon it's going to rain. The temperature will be 15 degrees."
+   }
+  }
+ }
+}

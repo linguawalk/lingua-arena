@@ -1,0 +1,823 @@
+{
+ "meta": {
+  "id": "zh_a2_u46",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 46,
+  "concept": "A2.U46",
+  "status": "live",
+  "title": {
+   "target": "自己・互相",
+   "ko": "재귀대명사와 each other",
+   "en": "Myself, yourself and each other"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "我自己",
+   "pos": "pron",
+   "read": "wǒ zìjǐ",
+   "ko": "나 자신",
+   "en": "myself",
+   "ex": {
+    "t": "我在镜子里看见了我自己。",
+    "read": "Wǒ zài jìng zi lǐ kàn jiàn le wǒ zìjǐ.",
+    "ko": "나는 거울에서 나 자신을 봤어요.",
+    "en": "I saw myself in the mirror."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "你自己",
+   "pos": "pron",
+   "read": "nǐ zìjǐ",
+   "ko": "너 자신",
+   "en": "yourself",
+   "ex": {
+    "t": "你自己试试。",
+    "read": "Nǐ zìjǐ shìshi.",
+    "ko": "스스로 해 보세요.",
+    "en": "Try it yourself."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "他自己",
+   "pos": "pron",
+   "read": "tā zìjǐ",
+   "ko": "그 자신",
+   "en": "himself",
+   "ex": {
+    "t": "他做饭时伤了自己。",
+    "read": "Tā zuòfàn shí shāng le zìjǐ.",
+    "ko": "그는 요리하다가 다쳤어요.",
+    "en": "He hurt himself while cooking."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "她自己",
+   "pos": "pron",
+   "read": "tā zìjǐ",
+   "ko": "그녀 자신",
+   "en": "herself",
+   "ex": {
+    "t": "她自己穿衣服。",
+    "read": "Tā zìjǐ chuān yīfu.",
+    "ko": "그녀는 스스로 옷을 입어요.",
+    "en": "She dresses herself."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "我们自己",
+   "pos": "pron",
+   "read": "wǒmen zìjǐ",
+   "ko": "우리 자신",
+   "en": "ourselves",
+   "ex": {
+    "t": "我们在聚会上玩得很开心。",
+    "read": "Wǒmen zài jùhuì shàng wán de hěn kāixīn.",
+    "ko": "우리는 파티를 즐겼어요.",
+    "en": "We enjoyed ourselves at the party."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "他们自己",
+   "pos": "pron",
+   "read": "tāmen zìjǐ",
+   "ko": "그들 자신",
+   "en": "themselves",
+   "ex": {
+    "t": "孩子们自己做作业。",
+    "read": "Háizimen zìjǐ zuò zuòyè.",
+    "ko": "아이들이 스스로 숙제를 했어요.",
+    "en": "The children did their homework themselves."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "互相",
+   "pos": "pron",
+   "read": "hù xiāng",
+   "ko": "서로",
+   "en": "each other",
+   "ex": {
+    "t": "他们互相帮助。",
+    "read": "Tāmen hù xiāng bāngzhù.",
+    "ko": "그들은 서로 도와요.",
+    "en": "They help each other."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "弄伤",
+   "pos": "verb",
+   "read": "nòng shāng",
+   "ko": "다치다",
+   "en": "hurt",
+   "ex": {
+    "t": "我摔倒了，弄伤了自己。",
+    "read": "Wǒ shuāi dǎo le, nòng shāng le zìjǐ.",
+    "ko": "나는 넘어져서 다쳤어요.",
+    "en": "I fell and hurt myself."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "一个人",
+   "pos": "phrase",
+   "read": "yí ge rén",
+   "ko": "혼자서",
+   "en": "by myself",
+   "ex": {
+    "t": "我一个人去旅行。",
+    "read": "Wǒ yí ge rén qù lǚxíng.",
+    "ko": "나는 혼자서 여행했어요.",
+    "en": "I travelled by myself."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "玩得开心",
+   "pos": "phrase",
+   "read": "wán de kāixīn",
+   "ko": "즐기다",
+   "en": "enjoy oneself",
+   "ex": {
+    "t": "祝你玩得开心！",
+    "read": "Zhù nǐ wán de kāixīn!",
+    "ko": "즐거운 시간 보내세요!",
+    "en": "Enjoy yourself!"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "自己・互相: 自己・一个人・互相",
+   "en": "Myself and each other: 自己 / 互相"
+  },
+  "explain": {
+   "ko": "자기 자신은 自己로 말합니다: 我在镜子里看见了我自己。他伤了自己。 혼자는 一个人 / 自己, 서로는 互相 / 彼此로 씁니다: 他们互相帮助。我一个人去旅行。 즐겁게 놀다는 玩得开心입니다.",
+   "en": "Reflexive: 自己: 我看见了我自己。他伤了自己。 Alone: 一个人 / 自己; each other: 互相: 他们互相帮助。我一个人去旅行。 Enjoy yourself: 玩得开心。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "자기 자신 / Self",
+     "自己",
+     "他做饭时伤了自己。"
+    ],
+    [
+     "혼자 / By oneself",
+     "一个人・自己",
+     "我一个人去旅行。"
+    ],
+    [
+     "서로 / Each other",
+     "互相 + 动词",
+     "他们互相帮助。"
+    ],
+    [
+     "즐겁게 / Enjoy",
+     "玩得开心",
+     "我们玩得很开心。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "自己는 주어와 같은 사람을 가리킵니다.",
+    "en": "自己 refers back to the subject."
+   },
+   {
+    "ko": "互相은 동사 앞에 둡니다.",
+    "en": "互相 goes before the verb."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我在镜子里看见了我自己。",
+    "read": "Wǒ zài jìng zi lǐ kàn jiàn le wǒ zìjǐ.",
+    "ko": "나는 거울에서 나 자신을 봤어요.",
+    "en": "I saw myself in the mirror."
+   },
+   {
+    "t": "他做饭时伤了自己。",
+    "read": "Tā zuòfàn shí shāng le zìjǐ.",
+    "ko": "그는 요리하다가 다쳤어요.",
+    "en": "He hurt himself while cooking."
+   },
+   {
+    "t": "我们在聚会上玩得很开心。",
+    "read": "Wǒmen zài jùhuì shàng wán de hěn kāixīn.",
+    "ko": "우리는 파티를 즐겼어요.",
+    "en": "We enjoyed ourselves at the party."
+   },
+   {
+    "t": "他们互相帮助。",
+    "read": "Tāmen hù xiāng bāngzhù.",
+    "ko": "그들은 서로 도와요.",
+    "en": "They help each other."
+   },
+   {
+    "t": "我一个人去旅行。",
+    "read": "Wǒ yí ge rén qù lǚxíng.",
+    "ko": "나는 혼자서 여행했어요.",
+    "en": "I travelled by myself."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我在镜子里看见了我___。",
+    "options": [
+     "自己",
+     "互相",
+     "一起"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "他做饭时伤了___。",
+    "options": [
+     "自己",
+     "互相",
+     "我们"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我们在聚会上玩得很___。",
+    "options": [
+     "开心",
+     "难过",
+     "累了"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "他们___帮助。",
+    "options": [
+     "互相",
+     "自己",
+     "一个人"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你没事吧？你伤到自己了吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 괜찮아요? 다쳤어요?",
+     "en": "(Question) Are you OK? Did you hurt yourself?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "没有，我没事。",
+       "没有，我互相没事。",
+       "没有，自己我没事。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你们在聚会上玩得开心吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 파티는 즐거웠어요?",
+     "en": "(Question) Did you enjoy yourselves at the party?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "是的，我们玩得很开心。",
+       "是的，我们自己玩开心。",
+       "是的，互相开心。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你没事吧？你伤到自己了吗？"
+      },
+      {
+       "s": "B",
+       "t": "是的，我摔倒了，弄伤了自己。不过没事。"
+      },
+      {
+       "s": "A",
+       "t": "我来帮你吧？"
+      },
+      {
+       "s": "B",
+       "t": "不用，我自己可以。谢谢。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 괜찮아? 다쳤어?\nB: 응, 넘어져서 다쳤어. 하지만 괜찮아.\nA: 내가 도와줄까?\nB: 아니, 혼자서 할 수 있어. 고마워.",
+     "en": "A: Are you OK? Did you hurt yourself?\nB: Yes, I fell and hurt myself. But I'm fine.\nA: Shall I help you?\nB: No, I can do it by myself. Thank you."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B怎么说？",
+      "options": [
+       "我自己可以",
+       "请帮我",
+       "我不要"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨天我们去参加聚会，玩得非常开心。朋友们互相帮助准备食物。汤姆做饭时伤了自己，不过没事。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어제 우리는 파티에 갔어요. 우리는 정말 즐거운 시간을 보냈어요. 친구들은 서로 도와 음식을 준비했어요. 톰은 요리하다가 다쳤지만 괜찮았어요.",
+     "en": "Yesterday we went to a party. We really enjoyed ourselves. The friends helped each other to prepare the food. Tom hurt himself while cooking but he was fine."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "谁做饭时受伤了？",
+      "options": [
+       "汤姆",
+       "艾娃",
+       "民浩"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "聚会怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "我们玩得非常开心。"
+      },
+      {
+       "s": "A",
+       "t": "你们互相认识吗？"
+      },
+      {
+       "s": "B",
+       "t": "是的，我们是老朋友。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 파티는 어땠어요?\n손님: 우리는 아주 즐거웠어요.\n직원: 서로 아는 사이예요?\n손님: 네, 오래된 친구예요.",
+     "en": "Interviewer: How was the party?\nGuest: We really enjoyed ourselves.\nInterviewer: Do you know each other?\nGuest: Yes, we are old friends."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客人: 我们是老______",
+      "answers": [
+       "朋友"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "客人: 我们玩得非常______",
+      "answers": [
+       "开心"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我在镜子里看见了我___。\n2) 他做饭时伤了___。\n3) 他们___帮助。",
+    "trans": {
+     "ko": "1) 나는 거울에서 나 자신을 봤어요. 2) 그는 요리하다가 다쳤어요. 3) 그들은 서로 도와요.",
+     "en": "1) I saw myself in the mirror. 2) He hurt himself while cooking. 3) They help each other."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我在镜子里看见了我___。",
+      "options": [
+       "自己",
+       "互相",
+       "一起"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他做饭时伤了___。",
+      "options": [
+       "自己",
+       "互相",
+       "我们"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他们___帮助。",
+      "options": [
+       "互相",
+       "自己",
+       "一个人"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "昨天我们去参加聚会，玩得非常(1)。朋友们(2)帮助准备食物。汤姆做饭时伤了(3)，不过没事。",
+    "trans": {
+     "ko": "어제 우리는 파티에 갔어요. 우리는 정말 즐거운 시간을 보냈어요. 친구들은 서로 도와 음식을 준비했어요. 톰은 요리하다가 다쳤지만 괜찮았어요.",
+     "en": "Yesterday we went to a party. We really enjoyed ourselves. The friends helped each other to prepare the food. Tom hurt himself while cooking but he was fine."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "开心",
+       "难过",
+       "生气"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "互相",
+       "自己",
+       "一个人"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "自己",
+       "互相",
+       "朋友"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "提示\n不要一个人做。互相帮助。\n安全第一。",
+    "trans": {
+     "ko": "안내\n혼자서 하지 마세요. 서로 도와 주세요.\n안전이 가장 중요합니다.",
+     "en": "NOTICE\nDon't do it by yourself. Help each other.\nSafety comes first."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "提示说什么？",
+      "options": [
+       "互相帮助",
+       "一个人做",
+       "不要帮助"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "什么第一？",
+      "options": [
+       "安全",
+       "速度",
+       "钱"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汤姆做饭时伤了自己。他没事。朋友们互相帮助准备食物。",
+    "trans": {
+     "ko": "톰은 요리하다가 다쳤어요. 그는 괜찮았어요. 친구들은 서로 도와 음식을 준비했어요.",
+     "en": "Tom hurt himself while cooking. He was fine. The friends helped each other to prepare the food."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "汤姆做饭时受伤了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆病得很重。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆有一辆车。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你没事吧？你伤到自己了吗？",
+    "read": "Nǐ méishì ba? Nǐ shāng dào zìjǐ le ma?",
+    "ko": "괜찮아요? 다쳤어요?",
+    "en": "Are you OK? Did you hurt yourself?",
+    "situation": {
+     "ko": "걱정할 때",
+     "en": "Checking someone is OK"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我摔倒了，弄伤了自己。",
+    "read": "Wǒ shuāi dǎo le, nòng shāng le zìjǐ.",
+    "ko": "나는 넘어져서 다쳤어요.",
+    "en": "I fell and hurt myself.",
+    "situation": {
+     "ko": "사고를 말할 때",
+     "en": "Describing an accident"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "他做饭时伤了自己。",
+    "read": "Tā zuòfàn shí shāng le zìjǐ.",
+    "ko": "그는 요리하다가 다쳤어요.",
+    "en": "He hurt himself while cooking.",
+    "situation": {
+     "ko": "다른 사람의 사고를 말할 때",
+     "en": "Reporting someone else's accident"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我们在聚会上玩得很开心。",
+    "read": "Wǒmen zài jùhuì shàng wán de hěn kāixīn.",
+    "ko": "우리는 파티를 즐겼어요.",
+    "en": "We enjoyed ourselves at the party.",
+    "situation": {
+     "ko": "즐거움을 말할 때",
+     "en": "Saying you had fun"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "他们互相帮助。",
+    "read": "Tāmen hù xiāng bāngzhù.",
+    "ko": "그들은 서로 도와요.",
+    "en": "They help each other.",
+    "situation": {
+     "ko": "서로의 행동을 말할 때",
+     "en": "Saying people do things to each other"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "你自己试试。",
+    "read": "Nǐ zìjǐ shìshi.",
+    "ko": "스스로 해 보세요.",
+    "en": "Try it yourself.",
+    "situation": {
+     "ko": "권유할 때",
+     "en": "Encouraging someone"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我一个人去旅行。",
+    "read": "Wǒ yí ge rén qù lǚxíng.",
+    "ko": "나는 혼자서 여행했어요.",
+    "en": "I travelled by myself.",
+    "situation": {
+     "ko": "혼자 한 일을 말할 때",
+     "en": "Saying you did something alone"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "祝你玩得开心！",
+    "read": "Zhù nǐ wán de kāixīn!",
+    "ko": "즐거운 시간 보내세요!",
+    "en": "Enjoy yourself!",
+    "situation": {
+     "ko": "인사할 때",
+     "en": "Wishing someone a good time"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我……自己。",
+    "read": "Wǒ … zìjǐ.",
+    "ko": "나는 나 자신을 ~",
+    "en": "I ~ myself."
+   },
+   {
+    "id": "w2",
+    "t": "他／她……自己。",
+    "read": "Tā ／ tā … zìjǐ.",
+    "ko": "그녀는 스스로 ~",
+    "en": "She ~ herself."
+   },
+   {
+    "id": "w3",
+    "t": "……互相……。",
+    "read": "… Hù xiāng ….",
+    "ko": "서로 ~",
+    "en": "~ each other."
+   },
+   {
+    "id": "w4",
+    "t": "我一个人……。",
+    "read": "Wǒ yí ge rén ….",
+    "ko": "혼자서 ~",
+    "en": "~ by myself."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "재귀대명사 두 개와 each other를 써서 3문장을 써 보세요.",
+    "en": "Write 3 sentences using two reflexive pronouns and each other."
+   },
+   "must_include": [
+    {
+     "label": "自己",
+     "match": [
+      "自己"
+     ]
+    },
+    {
+     "label": "互相",
+     "match": [
+      "互相"
+     ]
+    }
+   ],
+   "model": "我摔倒了，弄伤了自己。我们在聚会上玩得很开心。我们互相帮助。",
+   "model_trans": {
+    "ko": "나는 넘어져서 다쳤어요. 우리는 파티를 즐겼어요. 우리는 서로 도와요.",
+    "en": "I fell and hurt myself. We enjoyed ourselves at the party. We help each other."
+   }
+  }
+ }
+}

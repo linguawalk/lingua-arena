@@ -1,0 +1,823 @@
+{
+ "meta": {
+  "id": "zh_a2_u26",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 26,
+  "concept": "A2.U26",
+  "status": "live",
+  "title": {
+   "target": "经历和过去",
+   "ko": "현재완료와 과거형 구별하기",
+   "en": "Present perfect or past simple?"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "……前",
+   "pos": "adv",
+   "read": "… Qián",
+   "ko": "~ 전에",
+   "en": "ago",
+   "ex": {
+    "t": "两个星期前我去了巴黎。",
+    "read": "Liǎng ge xīngqī qián wǒ qù le Bālí.",
+    "ko": "나는 두 주 전에 파리에 갔어요.",
+    "en": "I went to Paris two weeks ago."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "上个",
+   "pos": "adj",
+   "read": "shàng ge",
+   "ko": "지난",
+   "en": "last",
+   "ex": {
+    "t": "上个周末我看了一部电影。",
+    "read": "Shàng ge zhōumò wǒ kàn le yí bù diànyǐng.",
+    "ko": "지난 주말에 영화를 봤어요.",
+    "en": "I saw a film last weekend."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "……过",
+   "pos": "adv",
+   "read": "… Guo",
+   "ko": "~한 적 있다",
+   "en": "ever",
+   "ex": {
+    "t": "你去过巴黎吗？",
+    "read": "Nǐ qùguo Bālí ma?",
+    "ko": "너 파리에 가 본 적 있어?",
+    "en": "Have you ever been to Paris?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "从来没",
+   "pos": "adv",
+   "read": "cónglái méi",
+   "ko": "한 번도 ~않다",
+   "en": "never",
+   "ex": {
+    "t": "我从来没滑过雪。",
+    "read": "Wǒ cónglái méi huáguo xuě.",
+    "ko": "나는 한 번도 스키를 안 타 봤어요.",
+    "en": "I have never skied."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "在……年",
+   "pos": "prep",
+   "read": "zài … nián",
+   "ko": "~에 (연도)",
+   "en": "in",
+   "ex": {
+    "t": "他2019年毕业。",
+    "read": "Tā èr líng yì jiǔ nián bì yè.",
+    "ko": "그는 2019년에 졸업했어요.",
+    "en": "He graduated in 2019."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "拜访",
+   "pos": "verb",
+   "read": "bài fǎng",
+   "ko": "방문하다",
+   "en": "visit",
+   "ex": {
+    "t": "去年我们看望了奶奶。",
+    "read": "Qùnián wǒmen kànwang le nǎinai.",
+    "ko": "우리는 작년에 할머니를 방문했어요.",
+    "en": "We visited Grandma last year."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "两次",
+   "pos": "adv",
+   "read": "liǎng cì",
+   "ko": "두 번",
+   "en": "twice",
+   "ex": {
+    "t": "我去过那里两次。",
+    "read": "Wǒ qùguo nàlǐ liǎng cì.",
+    "ko": "나는 거기에 두 번 가 봤어요.",
+    "en": "I have been there twice."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "经验",
+   "pos": "noun",
+   "read": "jīng yàn",
+   "ko": "경험",
+   "en": "experience",
+   "ex": {
+    "t": "那是一次很好的经历。",
+    "read": "Nà shì yí cì hěn hǎo de jīnglì.",
+    "ko": "좋은 경험이었어요.",
+    "en": "It was a good experience."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "毕业",
+   "pos": "verb",
+   "read": "bì yè",
+   "ko": "졸업하다",
+   "en": "graduate",
+   "ex": {
+    "t": "她2019年毕业。",
+    "read": "Tā èr líng yì jiǔ nián bì yè.",
+    "ko": "그녀는 2019년에 졸업했어요.",
+    "en": "She graduated in 2019."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "昨天",
+   "pos": "adv",
+   "read": "zuótiān",
+   "ko": "어제",
+   "en": "yesterday",
+   "ex": {
+    "t": "昨天我见了一个朋友。",
+    "read": "Zuótiān wǒ jiàn le yí ge péngyou.",
+    "ko": "어제 나는 친구를 만났어요.",
+    "en": "I met a friend yesterday."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "经历和过去: ……过・……了",
+   "en": "Present perfect or past simple: ……过 / ……了"
+  },
+  "explain": {
+   "ko": "경험은 동사 + 过(~한 적이 있다)로, 구체적인 때가 있는 일은 동사 + 了로 말합니다: 我去过巴黎两次。两个星期前我去了巴黎。 부정은 没(有)……过 / 从来没……过, 언제인지 물을 때는 了를 씁니다.",
+   "en": "Experience: verb + 过; a specific time: verb + 了: 我去过巴黎两次。两个星期前我去了巴黎。 Negative: 没(有)……过 / 从来没……过. When you say when, use 了。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "경험 / Experience",
+     "动词 + 过",
+     "我去过巴黎两次。"
+    ],
+    [
+     "경험 없음 / Never",
+     "从来没……过",
+     "我从来没滑过雪。"
+    ],
+    [
+     "때 / Time",
+     "……前 + 动词 + 了",
+     "两个星期前我去了巴黎。"
+    ],
+    [
+     "질문 / Question",
+     "你……过吗？",
+     "你滑过雪吗？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "过는 때를 말하지 않는 경험에 씁니다.",
+    "en": "过 is for experience without a time."
+   },
+   {
+    "ko": "때가 나오면 了로 바꿉니다.",
+    "en": "Once a time appears, switch to 了."
+   }
+  ],
+  "examples": [
+   {
+    "t": "两个星期前我去了巴黎。",
+    "read": "Liǎng ge xīngqī qián wǒ qù le Bālí.",
+    "ko": "나는 두 주 전에 파리에 갔어요.",
+    "en": "I went to Paris two weeks ago."
+   },
+   {
+    "t": "我去过巴黎两次。",
+    "read": "Wǒ qùguo Bālí liǎng cì.",
+    "ko": "나는 파리에 두 번 가 봤어요.",
+    "en": "I have been to Paris twice."
+   },
+   {
+    "t": "你滑过雪吗？",
+    "read": "Nǐ huáguo xuě ma?",
+    "ko": "너 스키 타 본 적 있어?",
+    "en": "Have you ever skied?"
+   },
+   {
+    "t": "他2019年毕业。",
+    "read": "Tā èr líng yì jiǔ nián bì yè.",
+    "ko": "그는 2019년에 졸업했어요.",
+    "en": "He graduated in 2019."
+   },
+   {
+    "t": "昨天我见了一个朋友。",
+    "read": "Zuótiān wǒ jiàn le yí ge péngyou.",
+    "ko": "어제 나는 친구를 만났어요.",
+    "en": "I met a friend yesterday."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "你去___巴黎吗？",
+    "options": [
+     "过",
+     "了",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "两个星期___我去了巴黎。",
+    "options": [
+     "前",
+     "过",
+     "后了"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我从来___滑过雪。",
+    "options": [
+     "没",
+     "不",
+     "别"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "他2019年毕业___。",
+    "options": [
+     "了",
+     "过去",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你去过巴黎吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 파리에 가 본 적 있어요?",
+     "en": "(Question) Have you ever been to Paris?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "去过，我去过两次。",
+       "去了，我去过两次了在。",
+       "不，我去过没有。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你什么时候去的巴黎？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 언제 파리에 갔어요?",
+     "en": "(Question) When did you go to Paris?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "两个星期前去的。",
+       "两个星期前去过。",
+       "两个星期前去着。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你滑过雪吗？"
+      },
+      {
+       "s": "B",
+       "t": "滑过，滑过两次。我第一次滑雪是去年。"
+      },
+      {
+       "s": "A",
+       "t": "你在哪儿滑的？"
+      },
+      {
+       "s": "B",
+       "t": "在江原道。特别好玩。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 너 스키 타 본 적 있어?\nB: 응, 두 번 타 봤어. 작년에 처음 탔어.\nA: 어디서 탔어?\nB: 강원도에서 탔어. 정말 재미있었어.",
+     "en": "A: Have you ever skied?\nB: Yes, I've skied twice. I first skied last year.\nA: Where did you ski?\nB: In Gangwon. It was great fun."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B第一次滑雪是什么时候？",
+      "options": [
+       "去年",
+       "十年前",
+       "昨天"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我去过巴黎两次。第一次是2019年。第二次是去年。我看了埃菲尔铁塔。那是一次很好的经历。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 파리에 두 번 가 봤어요. 처음 간 건 2019년이에요. 두 번째는 작년이었어요. 저는 에펠탑을 봤어요. 정말 좋은 경험이었어요.",
+     "en": "I have been to Paris twice. The first time was in 2019. The second time was last year. I saw the Eiffel Tower. It was a really good experience."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "第一次是什么时候？",
+      "options": [
+       "2019年",
+       "去年",
+       "2022年"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你去过西班牙吗？"
+      },
+      {
+       "s": "B",
+       "t": "去过，一次。三年前去的。"
+      },
+      {
+       "s": "A",
+       "t": "你去了哪儿？"
+      },
+      {
+       "s": "B",
+       "t": "巴塞罗那。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 스페인에 가 본 적 있으세요?\n손님: 네, 한 번요. 3년 전에 갔어요.\n직원: 어디에 가셨어요?\n손님: 바르셀로나요.",
+     "en": "Clerk: Have you ever been to Spain?\nGuest: Yes, once. I went three years ago.\nClerk: Where did you go?\nGuest: Barcelona."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "顾客: ______年前去的",
+      "answers": [
+       "三"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "顾客: ______",
+      "answers": [
+       "巴塞罗那"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 两个星期___我去了巴黎。\n2) 我去___巴黎两次。\n3) 你滑___雪吗？",
+    "trans": {
+     "ko": "1) 나는 두 주 전에 파리에 갔어요. 2) 나는 파리에 두 번 가 봤어요. 3) 너 스키 타 본 적 있어?",
+     "en": "1) I went to Paris two weeks ago. 2) I have been to Paris twice. 3) Have you ever skied?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "两个星期___我去了巴黎。",
+      "options": [
+       "前",
+       "过",
+       "后了"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我去___巴黎两次。",
+      "options": [
+       "过",
+       "了",
+       "着"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "你滑___雪吗？",
+      "options": [
+       "过",
+       "了",
+       "着"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我去过巴黎两次。第一次(1)2019年。第二次是(2)。我看了(3)。",
+    "trans": {
+     "ko": "저는 파리에 두 번 가 봤어요. 처음 간 건 2019년이에요. 두 번째는 작년이었어요. 저는 에펠탑을 봤어요.",
+     "en": "I have been to Paris twice. The first time was in 2019. The second time was last year. I saw the Eiffel Tower."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "是",
+       "有",
+       "在了"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "去年",
+       "没有",
+       "从来"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "埃菲尔铁塔",
+       "埃菲尔铁塔过",
+       "埃菲尔铁塔着"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "旅行笔记\n巴黎：2019年，去年\n罗马：没去过",
+    "trans": {
+     "ko": "여행 기록\n파리: 2019년, 작년\n로마: 한 번도 안 가 봄",
+     "en": "TRAVEL LOG\nParis: 2019, last year\nRome: never been"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "去过几次巴黎？",
+      "options": [
+       "两次",
+       "一次",
+       "没去过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "去过罗马吗？",
+      "options": [
+       "没去过",
+       "去过一次",
+       "去过两次"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汤姆去过巴黎两次。他第一次去是2019年。他从来没去过罗马。",
+    "trans": {
+     "ko": "톰은 파리에 두 번 가 봤어요. 그는 2019년에 처음 갔어요. 그는 로마에는 한 번도 안 가 봤어요.",
+     "en": "Tom has been to Paris twice. He first went in 2019. He has never been to Rome."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "汤姆去过巴黎两次。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆去过罗马。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆有一个哥哥。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你去过巴黎吗？",
+    "read": "Nǐ qùguo Bālí ma?",
+    "ko": "너 파리에 가 본 적 있어?",
+    "en": "Have you ever been to Paris?",
+    "situation": {
+     "ko": "경험을 물을 때",
+     "en": "Asking about experience"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "去过，我去过两次。",
+    "read": "Qùguo, wǒ qùguo liǎng cì.",
+    "ko": "응, 두 번 가 봤어.",
+    "en": "Yes, I have been there twice.",
+    "situation": {
+     "ko": "경험을 말할 때",
+     "en": "Talking about experience"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "你什么时候去的？",
+    "read": "Nǐ shénme shíhou qù de?",
+    "ko": "언제 갔어?",
+    "en": "When did you go?",
+    "situation": {
+     "ko": "시점을 물을 때",
+     "en": "Asking when it happened"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我两个星期前去的。",
+    "read": "Wǒ liǎng ge xīngqī qián qù de.",
+    "ko": "두 주 전에 갔어요.",
+    "en": "I went two weeks ago.",
+    "situation": {
+     "ko": "시점을 말할 때",
+     "en": "Saying when it happened"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我从来没滑过雪。",
+    "read": "Wǒ cónglái méi huáguo xuě.",
+    "ko": "나는 한 번도 스키를 안 타 봤어요.",
+    "en": "I have never skied.",
+    "situation": {
+     "ko": "경험이 없다고 말할 때",
+     "en": "Saying you have never done it"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "他2019年毕业。",
+    "read": "Tā èr líng yì jiǔ nián bì yè.",
+    "ko": "그는 2019년에 졸업했어요.",
+    "en": "He graduated in 2019.",
+    "situation": {
+     "ko": "연도를 말할 때",
+     "en": "Using a year"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "昨天我见了一个朋友。",
+    "read": "Zuótiān wǒ jiàn le yí ge péngyou.",
+    "ko": "어제 나는 친구를 만났어요.",
+    "en": "I met a friend yesterday.",
+    "situation": {
+     "ko": "어제 일을 말할 때",
+     "en": "Talking about yesterday"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "那是一次很好的经历。",
+    "read": "Nà shì yí cì hěn hǎo de jīnglì.",
+    "ko": "좋은 경험이었어요.",
+    "en": "It was a good experience.",
+    "situation": {
+     "ko": "느낌을 말할 때",
+     "en": "Saying how it was"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我……过。",
+    "read": "Wǒ … guo.",
+    "ko": "~한 적 있어요.",
+    "en": "I have ~ed."
+   },
+   {
+    "id": "w2",
+    "t": "我……前……了。",
+    "read": "Wǒ … qián … le.",
+    "ko": "~ 전에 …했어요.",
+    "en": "I ~ed ... ago."
+   },
+   {
+    "id": "w3",
+    "t": "你……过吗？",
+    "read": "Nǐ … guo ma?",
+    "ko": "너 ~한 적 있어?",
+    "en": "Have you ever ~ed?"
+   },
+   {
+    "id": "w4",
+    "t": "你什么时候……的？",
+    "read": "Nǐ shénme shíhou … de?",
+    "ko": "언제 ~했어요?",
+    "en": "When did you ~?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가 본 곳 한 곳에 대해, 가 본 적이 있다는 문장 1개와 언제 갔는지 말하는 문장 2개를 써 보세요.",
+    "en": "Write about one place you have been: one sentence saying you have been there and two saying when and what you did."
+   },
+   "must_include": [
+    {
+     "label": "……过",
+     "match": [
+      "过"
+     ]
+    },
+    {
+     "label": "……了",
+     "match": [
+      "了"
+     ]
+    }
+   ],
+   "model": "我去过巴黎两次。我什么时候去的？我去年去了。我们看了埃菲尔铁塔。",
+   "model_trans": {
+    "ko": "나는 파리에 두 번 가 봤어요. 언제 갔을까요? 나는 작년에 파리에 갔어요. 우리는 에펠탑을 봤어요.",
+    "en": "I have been to Paris twice. When did I go? I went to Paris last year. We saw the Eiffel Tower."
+   }
+  }
+ }
+}

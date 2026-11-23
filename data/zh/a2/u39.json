@@ -1,0 +1,823 @@
+{
+ "meta": {
+  "id": "zh_a2_u39",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 39,
+  "concept": "A2.U39",
+  "status": "live",
+  "title": {
+   "target": "在餐厅",
+   "ko": "식당에서",
+   "en": "At a restaurant"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "菜单",
+   "pos": "noun",
+   "read": "càidān",
+   "ko": "메뉴",
+   "en": "menu",
+   "ex": {
+    "t": "请给我看一下菜单。",
+    "read": "Qǐng gěi wǒ kàn yíxià càidān.",
+    "ko": "메뉴 좀 볼 수 있어요?",
+    "en": "Could I see the menu, please?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "点菜",
+   "pos": "verb",
+   "read": "diǎncài",
+   "ko": "주문하다",
+   "en": "order",
+   "ex": {
+    "t": "你们准备好点菜了吗？",
+    "read": "Nǐmen zhǔn bèi hǎo diǎncài le ma?",
+    "ko": "주문하시겠어요?",
+    "en": "Are you ready to order?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "前菜",
+   "pos": "noun",
+   "read": "qián cài",
+   "ko": "애피타이저",
+   "en": "starter",
+   "ex": {
+    "t": "我要汤当前菜。",
+    "read": "Wǒ yào tāng dāng qián cài.",
+    "ko": "애피타이저로 수프를 주세요.",
+    "en": "I'll have the soup as a starter."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "主菜",
+   "pos": "noun",
+   "read": "zhǔ cài",
+   "ko": "주요리",
+   "en": "main course",
+   "ex": {
+    "t": "主菜我要鱼。",
+    "read": "Zhǔ cài wǒ yào yú.",
+    "ko": "주요리는 생선으로 할게요.",
+    "en": "I'll have the fish for the main course."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "甜点",
+   "pos": "noun",
+   "read": "tián diǎn",
+   "ko": "디저트",
+   "en": "dessert",
+   "ex": {
+    "t": "甜点我想要冰淇淋。",
+    "read": "Tián diǎn wǒ xiǎng yào bīng qí lín.",
+    "ko": "디저트는 아이스크림이요.",
+    "en": "I'd like ice cream for dessert."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "饮料",
+   "pos": "noun",
+   "read": "yǐn liào",
+   "ko": "음료",
+   "en": "drink",
+   "ex": {
+    "t": "你想喝什么饮料？",
+    "read": "Nǐ xiǎng hē shénme yǐn liào?",
+    "ko": "음료는 뭐로 하시겠어요?",
+    "en": "What would you like to drink?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "买单",
+   "pos": "noun",
+   "read": "mǎidān",
+   "ko": "계산서",
+   "en": "bill",
+   "ex": {
+    "t": "请给我们买单。",
+    "read": "Qǐng gěi wǒmen mǎidān.",
+    "ko": "계산서 부탁합니다.",
+    "en": "Could we have the bill, please?"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "小费",
+   "pos": "noun",
+   "read": "xiǎo fèi",
+   "ko": "팁",
+   "en": "tip",
+   "ex": {
+    "t": "我留了一点儿小费。",
+    "read": "Wǒ liú le yìdiǎnr xiǎo fèi.",
+    "ko": "팁을 조금 남겼어요.",
+    "en": "I left a small tip."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "订位",
+   "pos": "verb",
+   "read": "dìng wèi",
+   "ko": "예약하다",
+   "en": "book",
+   "ex": {
+    "t": "我订了两个人的位子。",
+    "read": "Wǒ dìng le liǎng ge rén de wèi zi.",
+    "ko": "두 사람 자리를 예약했어요.",
+    "en": "I booked a table for two."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "好吃",
+   "pos": "adj",
+   "read": "hǎochī",
+   "ko": "맛있는",
+   "en": "delicious",
+   "ex": {
+    "t": "菜很好吃。",
+    "read": "Cài hěn hǎochī.",
+    "ko": "음식이 정말 맛있었어요.",
+    "en": "The food was delicious."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "在餐厅: 我要……・请给我……・我想要……",
+   "en": "At a restaurant: 我要 / 请给我 / 我想要"
+  },
+  "explain": {
+   "ko": "주문은 我要……(~주세요), 请给我……, 我想要……로 합니다. 점원은 你们想吃点什么? / 准备好点菜了吗?라고 묻습니다: 我要汤当前菜。请给我们买单。 맛은 很好吃입니다.",
+   "en": "Order with 我要……, 请给我……, 我想要……。 Staff ask 你们想吃点什么? / 准备好点菜了吗?: 我要汤当前菜。请给我们买单。 Praise: 很好吃。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "주문 / Order",
+     "我要 + 菜",
+     "主菜我要鱼。"
+    ],
+    [
+     "부탁 / Please",
+     "请给我……",
+     "请给我菜单。"
+    ],
+    [
+     "원하다 / Would like",
+     "我想要……",
+     "甜点我想要冰淇淋。"
+    ],
+    [
+     "계산 / Bill",
+     "请给我们买单",
+     "请给我们买单。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "要는 주문할 때 가장 자연스러운 말입니다.",
+    "en": "要 is the most natural word for ordering."
+   },
+   {
+    "ko": "菜单, 买单은 请과 함께 씁니다.",
+    "en": "Use 请 with 菜单 and 买单."
+   }
+  ],
+  "examples": [
+   {
+    "t": "请给我看一下菜单。",
+    "read": "Qǐng gěi wǒ kàn yíxià càidān.",
+    "ko": "메뉴 좀 볼 수 있어요?",
+    "en": "Could I see the menu, please?"
+   },
+   {
+    "t": "你们准备好点菜了吗？",
+    "read": "Nǐmen zhǔn bèi hǎo diǎncài le ma?",
+    "ko": "주문하시겠어요?",
+    "en": "Are you ready to order?"
+   },
+   {
+    "t": "主菜我要鱼。",
+    "read": "Zhǔ cài wǒ yào yú.",
+    "ko": "주요리는 생선으로 할게요.",
+    "en": "I'll have the fish for the main course."
+   },
+   {
+    "t": "请给我们买单。",
+    "read": "Qǐng gěi wǒmen mǎidān.",
+    "ko": "계산서 부탁합니다.",
+    "en": "Could we have the bill, please?"
+   },
+   {
+    "t": "菜很好吃。",
+    "read": "Cài hěn hǎochī.",
+    "ko": "음식이 정말 맛있었어요.",
+    "en": "The food was delicious."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "请给我看一下___。",
+    "options": [
+     "菜单",
+     "买单",
+     "小费"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "你们准备好点菜___吗？",
+    "options": [
+     "了",
+     "过",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "主菜我___鱼。",
+    "options": [
+     "要",
+     "有",
+     "是"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "请给我们___。",
+    "options": [
+     "买单",
+     "订位",
+     "点菜了"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你们准备好点菜了吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 주문하시겠어요?",
+     "en": "(Question) Are you ready to order?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "好了，我要汤。",
+       "我汤要好了了。",
+       "好了过汤我。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你想喝什么饮料？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 음료는 뭐로 하시겠어요?",
+     "en": "(Question) What would you like to drink?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "请给我水。",
+       "水我给请。",
+       "我水喝了。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你们准备好点菜了吗？"
+      },
+      {
+       "s": "B",
+       "t": "好了。前菜我要汤。"
+      },
+      {
+       "s": "A",
+       "t": "主菜呢？"
+      },
+      {
+       "s": "B",
+       "t": "我要鱼。请给我一杯水。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 주문하시겠어요?\nB: 네. 애피타이저로 수프를 주세요.\nA: 주요리는요?\nB: 생선으로 할게요. 그리고 물을 부탁해요.",
+     "en": "A: Are you ready to order?\nB: Yes. I'll have the soup as a starter.\nA: And for the main course?\nB: I'll have the fish. And could I have water, please?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B主菜点了什么？",
+      "options": [
+       "鱼",
+       "汤",
+       "沙拉"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨天我和朋友去了一家餐厅。我们订了两个人的位子。我点了汤和鱼，朋友点了沙拉和意大利面。菜很好吃。我们留了一点儿小费。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어제 저는 친구와 식당에 갔어요. 우리는 두 사람 자리를 예약했어요. 저는 수프와 생선을 주문했고 친구는 샐러드와 파스타를 주문했어요. 음식이 정말 맛있었어요. 팁을 조금 남겼어요.",
+     "en": "Yesterday I went to a restaurant with a friend. We booked a table for two. I ordered soup and fish and my friend ordered salad and pasta. The food was delicious. We left a small tip."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "朋友点了什么？",
+      "options": [
+       "沙拉和意大利面",
+       "汤和鱼",
+       "冰淇淋"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "甜点你想要什么？"
+      },
+      {
+       "s": "B",
+       "t": "请给我冰淇淋。"
+      },
+      {
+       "s": "A",
+       "t": "你怎么付钱？"
+      },
+      {
+       "s": "B",
+       "t": "刷卡。请给我们买单。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 디저트는 뭐로 하시겠어요?\n손님: 아이스크림을 주세요.\n직원: 계산은 어떻게 하시겠어요?\n손님: 카드로 할게요. 계산서 부탁해요.",
+     "en": "Waiter: What would you like for dessert?\nGuest: I'd like ice cream, please.\nWaiter: How would you like to pay?\nGuest: By card. Could we have the bill, please?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客人: 请给我______",
+      "answers": [
+       "冰淇淋"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "客人: ______。请给我们买单",
+      "answers": [
+       "刷卡"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 请给我看一下___。\n2) 主菜我___鱼。\n3) 请给我们___。",
+    "trans": {
+     "ko": "1) 메뉴 좀 볼 수 있어요? 2) 주요리는 생선으로 할게요. 3) 계산서 부탁합니다.",
+     "en": "1) Could I see the menu, please? 2) I'll have the fish for the main course. 3) Could we have the bill, please?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "请给我看一下___。",
+      "options": [
+       "菜单",
+       "买单",
+       "小费"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "主菜我___鱼。",
+      "options": [
+       "要",
+       "有",
+       "是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "请给我们___。",
+      "options": [
+       "买单",
+       "菜单",
+       "订位"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "昨天我和朋友去了一家餐厅。我们(1)了两个人的位子。我点了汤和鱼。菜很(2)。我们留了一点儿(3)。",
+    "trans": {
+     "ko": "어제 저는 친구와 식당에 갔어요. 우리는 두 사람 자리를 예약했어요. 저는 수프와 생선을 주문했어요. 음식이 정말 맛있었어요.",
+     "en": "Yesterday I went to a restaurant with a friend. We booked a table for two. I ordered soup and fish. The food was delicious."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "订",
+       "点",
+       "吃"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "好吃",
+       "难吃",
+       "贵了"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "小费",
+       "菜单",
+       "发票"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "菜单\n前菜：汤 5美元\n主菜：鱼 12美元\n甜点：冰淇淋 4美元",
+    "trans": {
+     "ko": "메뉴\n애피타이저: 수프 5달러\n주요리: 생선 12달러\n디저트: 아이스크림 4달러",
+     "en": "MENU\nStarter: soup $5\nMain course: fish $12\nDessert: ice cream $4"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "鱼多少钱？",
+      "options": [
+       "12美元",
+       "5美元",
+       "4美元"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "冰淇淋多少钱？",
+      "options": [
+       "4美元",
+       "5美元",
+       "12美元"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汤姆和朋友去了一家餐厅。他点了鱼。菜很好吃，他们留了小费。",
+    "trans": {
+     "ko": "톰은 친구와 식당에 갔어요. 그는 생선을 주문했어요. 음식이 맛있었고 그들은 팁을 남겼어요.",
+     "en": "Tom went to a restaurant with a friend. He ordered fish. The food was delicious and they left a tip."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "汤姆点了鱼。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "菜不好吃。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆有一只狗。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我订了两个人的位子。",
+    "read": "Wǒ dìng le liǎng ge rén de wèi zi.",
+    "ko": "두 사람 자리를 예약했어요.",
+    "en": "I booked a table for two.",
+    "situation": {
+     "ko": "예약을 말할 때",
+     "en": "Saying you booked"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "请给我看一下菜单。",
+    "read": "Qǐng gěi wǒ kàn yíxià càidān.",
+    "ko": "메뉴 좀 볼 수 있어요?",
+    "en": "Could I see the menu, please?",
+    "situation": {
+     "ko": "메뉴를 청할 때",
+     "en": "Asking for the menu"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "你们准备好点菜了吗？",
+    "read": "Nǐmen zhǔn bèi hǎo diǎncài le ma?",
+    "ko": "주문하시겠어요?",
+    "en": "Are you ready to order?",
+    "situation": {
+     "ko": "직원이 물을 때",
+     "en": "The waiter asks"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "主菜我要鱼。",
+    "read": "Zhǔ cài wǒ yào yú.",
+    "ko": "주요리는 생선으로 할게요.",
+    "en": "I'll have the fish for the main course.",
+    "situation": {
+     "ko": "주문할 때",
+     "en": "Ordering"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我想要水。",
+    "read": "Wǒ xiǎng yào shuǐ.",
+    "ko": "음료는 물로 할게요.",
+    "en": "I'd like water to drink.",
+    "situation": {
+     "ko": "음료를 고를 때",
+     "en": "Choosing a drink"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "甜点我想要冰淇淋。",
+    "read": "Tián diǎn wǒ xiǎng yào bīng qí lín.",
+    "ko": "디저트는 아이스크림이요.",
+    "en": "I'd like ice cream for dessert.",
+    "situation": {
+     "ko": "디저트를 고를 때",
+     "en": "Choosing dessert"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "请给我们买单。",
+    "read": "Qǐng gěi wǒmen mǎidān.",
+    "ko": "계산서 부탁합니다.",
+    "en": "Could we have the bill, please?",
+    "situation": {
+     "ko": "계산할 때",
+     "en": "Asking for the bill"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "菜很好吃。",
+    "read": "Cài hěn hǎochī.",
+    "ko": "음식이 정말 맛있었어요.",
+    "en": "The food was delicious.",
+    "situation": {
+     "ko": "칭찬할 때",
+     "en": "Giving a compliment"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我要……。",
+    "read": "Wǒ yào ….",
+    "ko": "~으로 할게요.",
+    "en": "I'll have ~."
+   },
+   {
+    "id": "w2",
+    "t": "请给我……。",
+    "read": "Qǐng gěi wǒ ….",
+    "ko": "~ 부탁해요.",
+    "en": "Could I have ~, please?"
+   },
+   {
+    "id": "w3",
+    "t": "我想要……。",
+    "read": "Wǒ xiǎng yào ….",
+    "ko": "~을(를) 원해요.",
+    "en": "I'd like ~."
+   },
+   {
+    "id": "w4",
+    "t": "……很好吃。",
+    "read": "… Hěn hǎochī.",
+    "ko": "~이(가) 맛있었어요.",
+    "en": "The ~ was delicious."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "식당에서 주문하는 대화를 3줄로 써 보세요 (애피타이저, 주요리, 음료).",
+    "en": "Write a 3-line restaurant order (starter, main course, drink)."
+   },
+   "must_include": [
+    {
+     "label": "我要",
+     "match": [
+      "我要"
+     ]
+    },
+    {
+     "label": "请给我",
+     "match": [
+      "请给"
+     ]
+    }
+   ],
+   "model": "前菜我要汤。主菜我要鱼。请给我水。",
+   "model_trans": {
+    "ko": "애피타이저로 수프를 주세요. 주요리는 생선으로 할게요. 음료는 물을 주세요.",
+    "en": "I'll have the soup as a starter. I'll have the fish for the main course. Could I have water to drink?"
+   }
+  }
+ }
+}

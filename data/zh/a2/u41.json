@@ -1,0 +1,823 @@
+{
+ "meta": {
+  "id": "zh_a2_u41",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 41,
+  "concept": "A2.U41",
+  "status": "live",
+  "title": {
+   "target": "假设",
+   "ko": "가정해 보기: 제2 조건문 (If I had...)",
+   "en": "If I had...: imaginary situations"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "彩票",
+   "pos": "noun",
+   "read": "cǎi piào",
+   "ko": "복권",
+   "en": "lottery",
+   "ex": {
+    "t": "要是我中了彩票，我就去旅行。",
+    "read": "Yào shì wǒ zhōng le cǎi piào, wǒ jiù qù lǚxíng.",
+    "ko": "복권에 당첨되면 여행할 거예요.",
+    "en": "If I won the lottery, I would travel."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "有钱",
+   "pos": "adj",
+   "read": "yǒu qián",
+   "ko": "부자인",
+   "en": "rich",
+   "ex": {
+    "t": "要是我有钱，我就买一座大房子。",
+    "read": "Yào shì wǒ yǒu qián, wǒ jiù mǎi yí zuò dà fángzi.",
+    "ko": "내가 부자라면 큰 집을 살 거예요.",
+    "en": "If I were rich, I would buy a big house."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "更多时间",
+   "pos": "phrase",
+   "read": "gèng duō shíjiān",
+   "ko": "시간이 더 있다면",
+   "en": "more time",
+   "ex": {
+    "t": "要是我有更多的时间，我就去锻炼。",
+    "read": "Yào shì wǒ yǒu gèng duō de shíjiān, wǒ jiù qù duànliàn.",
+    "ko": "시간이 더 있다면 운동할 거예요.",
+    "en": "If I had more time, I would exercise."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "买",
+   "pos": "verb",
+   "read": "mǎi",
+   "ko": "살다",
+   "en": "buy",
+   "ex": {
+    "t": "我会买一辆车。",
+    "read": "Wǒ huì mǎi yí liàng chē.",
+    "ko": "차를 살 거예요.",
+    "en": "I would buy a car."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "环游世界",
+   "pos": "verb",
+   "read": "huán yóu shìjiè",
+   "ko": "여행하다",
+   "en": "travel",
+   "ex": {
+    "t": "我会环游世界。",
+    "read": "Wǒ huì huán yóu shìjiè.",
+    "ko": "세계를 여행할 거예요.",
+    "en": "I would travel around the world."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "帮助",
+   "pos": "verb",
+   "read": "bāngzhù",
+   "ko": "도와주다",
+   "en": "help",
+   "ex": {
+    "t": "我会帮助穷人。",
+    "read": "Wǒ huì bāngzhù qióng rén.",
+    "ko": "가난한 사람들을 도와줄 거예요.",
+    "en": "I would help poor people."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "要是我是你",
+   "pos": "phrase",
+   "read": "yào shì wǒ shì nǐ",
+   "ko": "만약 내가 너라면",
+   "en": "if I were you",
+   "ex": {
+    "t": "要是我是你，我就去看医生。",
+    "read": "Yào shì wǒ shì nǐ, wǒ jiù qù kàn yīshēng.",
+    "ko": "내가 너라면 의사에게 갈 거예요.",
+    "en": "If I were you, I would see a doctor."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "梦想",
+   "pos": "noun",
+   "read": "mèng xiǎng",
+   "ko": "꿈",
+   "en": "dream",
+   "ex": {
+    "t": "我的梦想是当作家。",
+    "read": "Wǒ de mèng xiǎng shì dàng zuò jiā.",
+    "ko": "내 꿈은 작가가 되는 거예요.",
+    "en": "My dream is to be a writer."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "辞职",
+   "pos": "verb",
+   "read": "cízhí",
+   "ko": "그만두다",
+   "en": "quit",
+   "ex": {
+    "t": "我不会辞职。",
+    "read": "Wǒ búhuì cízhí.",
+    "ko": "나라면 일을 그만두지 않을 거예요.",
+    "en": "I wouldn't quit my job."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "也许",
+   "pos": "adv",
+   "read": "yě xǔ",
+   "ko": "아마",
+   "en": "maybe",
+   "ex": {
+    "t": "也许我会去巴黎。",
+    "read": "Yě xǔ wǒ huì qù Bālí.",
+    "ko": "아마 파리에 갈 거예요.",
+    "en": "Maybe I would go to Paris."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "假设: 要是我……，我就会……",
+   "en": "If I had...: 要是……就会……"
+  },
+  "explain": {
+   "ko": "현실과 다른 가정은 要是……(就会)……로 말합니다: 要是我中了彩票，我就去旅行。 부정은 就不会……, 조언은 要是我是你，我就……입니다. 질문은 要是你中了彩票，你会做什么?",
+   "en": "Imaginary situations: 要是……(就会)……: 要是我中了彩票，我就去旅行。 Negative: 就不会……; advice: 要是我是你，我就……。 Ask 要是你中了彩票，你会做什么?"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "가정 / If",
+     "要是……，就会……",
+     "要是我中了彩票，我就去旅行。"
+    ],
+    [
+     "부정 / Negative",
+     "我不会……",
+     "我不会辞职。"
+    ],
+    [
+     "조언 / Advice",
+     "要是我是你，我就……",
+     "要是我是你，我就去看医生。"
+    ],
+    [
+     "질문 / Question",
+     "要是……，你会做什么？",
+     "要是你中了彩票，你会做什么？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "要是는 如果와 같은 뜻의 구어체입니다.",
+    "en": "要是 is the spoken form of 如果."
+   },
+   {
+    "ko": "会는 가정의 결과를 나타냅니다.",
+    "en": "会 marks the imagined result."
+   }
+  ],
+  "examples": [
+   {
+    "t": "要是我中了彩票，我就去旅行。",
+    "read": "Yào shì wǒ zhōng le cǎi piào, wǒ jiù qù lǚxíng.",
+    "ko": "복권에 당첨되면 여행할 거예요.",
+    "en": "If I won the lottery, I would travel."
+   },
+   {
+    "t": "要是我有钱，我就买一座大房子。",
+    "read": "Yào shì wǒ yǒu qián, wǒ jiù mǎi yí zuò dà fángzi.",
+    "ko": "내가 부자라면 큰 집을 살 거예요.",
+    "en": "If I were rich, I would buy a big house."
+   },
+   {
+    "t": "要是我有更多的时间，我就去锻炼。",
+    "read": "Yào shì wǒ yǒu gèng duō de shíjiān, wǒ jiù qù duànliàn.",
+    "ko": "시간이 더 있다면 운동할 거예요.",
+    "en": "If I had more time, I would exercise."
+   },
+   {
+    "t": "要是我是你，我就去看医生。",
+    "read": "Yào shì wǒ shì nǐ, wǒ jiù qù kàn yīshēng.",
+    "ko": "내가 너라면 의사에게 갈 거예요.",
+    "en": "If I were you, I would see a doctor."
+   },
+   {
+    "t": "我不会辞职。",
+    "read": "Wǒ búhuì cízhí.",
+    "ko": "나라면 일을 그만두지 않을 거예요.",
+    "en": "I wouldn't quit my job."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___我中了彩票，我就去旅行。",
+    "options": [
+     "要是",
+     "因为",
+     "但是"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "要是我有钱，我___买一座大房子。",
+    "options": [
+     "就",
+     "也不",
+     "还"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "要是我是你，我就去看___。",
+    "options": [
+     "医生",
+     "老师",
+     "朋友"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我___辞职。",
+    "options": [
+     "不会",
+     "没有",
+     "不了了"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要是你中了彩票，你会做什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 복권에 당첨되면 뭘 할 거예요?",
+     "en": "(Question) What would you do if you won the lottery?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我会环游世界。",
+       "我环游世界会了。",
+       "我就环游世界了会。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要是你有更多的时间，你会做什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 시간이 더 있다면 뭘 할 거예요?",
+     "en": "(Question) What would you do if you had more time?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我会去锻炼。",
+       "我去锻炼会了。",
+       "我会锻炼去了。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要是你中了彩票，你会做什么？"
+      },
+      {
+       "s": "B",
+       "t": "我会环游世界。你呢？"
+      },
+      {
+       "s": "A",
+       "t": "我会买一座大房子，还要帮助穷人。"
+      },
+      {
+       "s": "B",
+       "t": "这个主意真好。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 복권에 당첨되면 뭘 할래?\nB: 세계를 여행할 거야. 너는?\nA: 나는 큰 집을 사고 가난한 사람들을 도울 거야.\nB: 정말 좋은 생각이야.",
+     "en": "A: What would you do if you won the lottery?\nB: I would travel around the world. What about you?\nA: I would buy a big house and help poor people.\nB: That's a really good idea."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B会做什么？",
+      "options": [
+       "环游世界",
+       "买房子",
+       "辞职"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我的梦想是当作家。要是我有更多的时间，我就每天写作。要是我有更多的钱，我就少工作，去巴黎生活。可是现在我还得上学。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제 꿈은 작가가 되는 거예요. 시간이 더 있다면 매일 글을 쓸 거예요. 돈이 더 있다면 일을 줄이고 파리에서 살 거예요. 하지만 지금은 학교에 가야 해요.",
+     "en": "My dream is to be a writer. If I had more time, I would write every day. If I had more money, I would work less and live in Paris. But now I have to go to school."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "作者的梦想是什么？",
+      "options": [
+       "当作家",
+       "当医生",
+       "当老师"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要是你中了彩票，你会做什么？"
+      },
+      {
+       "s": "B",
+       "t": "我会买一座大房子。"
+      },
+      {
+       "s": "A",
+       "t": "你会辞职吗？"
+      },
+      {
+       "s": "B",
+       "t": "不，我不会辞职。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 복권에 당첨되면 뭘 하실 거예요?\n손님: 큰 집을 살 거예요.\n직원: 일은 그만두실 거예요?\n손님: 아니요, 그만두지 않을 거예요.",
+     "en": "Interviewer: What would you do if you won the lottery?\nGuest: I would buy a big house.\nInterviewer: Would you quit your job?\nGuest: No, I wouldn't quit."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客人: 我会买一座大______",
+      "answers": [
+       "房子"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "客人: 我不会______",
+      "answers": [
+       "辞职"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___我中了彩票，我就去旅行。\n2) 要是我有钱，我___买一座大房子。\n3) 要是我是你，我就去看___。",
+    "trans": {
+     "ko": "1) 복권에 당첨되면 여행할 거예요. 2) 내가 부자라면 큰 집을 살 거예요. 3) 내가 너라면 의사에게 갈 거예요.",
+     "en": "1) If I won the lottery, I would travel. 2) If I were rich, I would buy a big house. 3) If I were you, I would see a doctor."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___我中了彩票，我就去旅行。",
+      "options": [
+       "要是",
+       "因为",
+       "但是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "要是我有钱，我___买一座大房子。",
+      "options": [
+       "就",
+       "也不",
+       "还"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "要是我是你，我就去看___。",
+      "options": [
+       "医生",
+       "老师",
+       "朋友"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我的梦想是当作家。要是我有更多的(1)，我就每天写作。要是我有更多的钱，我就(2)工作，去(3)生活。",
+    "trans": {
+     "ko": "제 꿈은 작가가 되는 거예요. 시간이 더 있다면 매일 글을 쓸 거예요. 돈이 더 있다면 일을 줄이고 파리에서 살 거예요.",
+     "en": "My dream is to be a writer. If I had more time, I would write every day. If I had more money, I would work less and live in Paris."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "时间",
+       "房子",
+       "朋友"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "少",
+       "多",
+       "不会"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "巴黎",
+       "学校",
+       "医院"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "小测验\n要是你中了彩票，你会做什么？\nA 去旅行\nB 买房子\nC 把钱存起来",
+    "trans": {
+     "ko": "퀴즈\n복권에 당첨되면 뭘 할래요?\nA 여행하기\nB 집 사기\nC 저금하기",
+     "en": "QUIZ\nWhat would you do if you won the lottery?\nA travel\nB buy a house\nC save the money"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "问题是什么？",
+      "options": [
+       "要是你中了彩票，你会做什么？",
+       "你去过哪里？",
+       "你喜欢什么？"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "选项A是什么？",
+      "options": [
+       "去旅行",
+       "买房子",
+       "存钱"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "艾娃的梦想是当作家。要是她有更多的时间，她就每天写作。她想去巴黎生活。",
+    "trans": {
+     "ko": "에바의 꿈은 작가가 되는 거예요. 시간이 더 있다면 그녀는 매일 글을 쓸 거예요. 그녀는 파리에서 살고 싶어요.",
+     "en": "Eva's dream is to be a writer. If she had more time, she would write every day. She would like to live in Paris."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "艾娃的梦想是当作家。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "艾娃想当医生。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "艾娃有一只猫。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "要是你中了彩票，你会做什么？",
+    "read": "Yào shì nǐ zhōng le cǎi piào, nǐ huì zuò shénme?",
+    "ko": "복권에 당첨되면 뭘 할 거예요?",
+    "en": "What would you do if you won the lottery?",
+    "situation": {
+     "ko": "가정 질문을 할 때",
+     "en": "Asking an imaginary question"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "要是我中了彩票，我就去旅行。",
+    "read": "Yào shì wǒ zhōng le cǎi piào, wǒ jiù qù lǚxíng.",
+    "ko": "복권에 당첨되면 여행할 거예요.",
+    "en": "If I won the lottery, I would travel.",
+    "situation": {
+     "ko": "상상을 말할 때",
+     "en": "Describing an imaginary situation"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "要是我有钱，我就买一座大房子。",
+    "read": "Yào shì wǒ yǒu qián, wǒ jiù mǎi yí zuò dà fángzi.",
+    "ko": "내가 부자라면 큰 집을 살 거예요.",
+    "en": "If I were rich, I would buy a big house.",
+    "situation": {
+     "ko": "부자라고 가정할 때",
+     "en": "Imagining being rich"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "要是我有更多的时间，我就去锻炼。",
+    "read": "Yào shì wǒ yǒu gèng duō de shíjiān, wǒ jiù qù duànliàn.",
+    "ko": "시간이 더 있다면 운동할 거예요.",
+    "en": "If I had more time, I would exercise.",
+    "situation": {
+     "ko": "소망을 말할 때",
+     "en": "Saying what you wish"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "要是我是你，我就去看医生。",
+    "read": "Yào shì wǒ shì nǐ, wǒ jiù qù kàn yīshēng.",
+    "ko": "내가 너라면 의사에게 갈 거예요.",
+    "en": "If I were you, I would see a doctor.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我不会辞职。",
+    "read": "Wǒ búhuì cízhí.",
+    "ko": "나라면 일을 그만두지 않을 거예요.",
+    "en": "I wouldn't quit my job.",
+    "situation": {
+     "ko": "부정 가정을 말할 때",
+     "en": "Saying what you wouldn't do"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我会帮助穷人。",
+    "read": "Wǒ huì bāngzhù qióng rén.",
+    "ko": "가난한 사람들을 도와줄 거예요.",
+    "en": "I would help poor people.",
+    "situation": {
+     "ko": "좋은 계획을 말할 때",
+     "en": "Saying a kind plan"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我的梦想是当作家。",
+    "read": "Wǒ de mèng xiǎng shì dàng zuò jiā.",
+    "ko": "내 꿈은 작가가 되는 거예요.",
+    "en": "My dream is to be a writer.",
+    "situation": {
+     "ko": "꿈을 말할 때",
+     "en": "Talking about a dream"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "要是我……，我就会……。",
+    "read": "Yào shì wǒ …, wǒ jiù huì ….",
+    "ko": "만약 ~라면 …할 거예요.",
+    "en": "If I ~ (past), I would ~."
+   },
+   {
+    "id": "w2",
+    "t": "要是我是你，我就……。",
+    "read": "Yào shì wǒ shì nǐ, wǒ jiù ….",
+    "ko": "내가 너라면 ~할 거예요.",
+    "en": "If I were you, I would ~."
+   },
+   {
+    "id": "w3",
+    "t": "我不会……。",
+    "read": "Wǒ búhuì ….",
+    "ko": "~하지 않을 거예요.",
+    "en": "I wouldn't ~."
+   },
+   {
+    "id": "w4",
+    "t": "要是你……，你会做什么？",
+    "read": "Yào shì nǐ …, nǐ huì zuò shénme?",
+    "ko": "너라면 뭘 할래요?",
+    "en": "What would you do if ~?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "제2 조건문으로 상상하는 문장 3개를 써 보세요 (복권, 시간, 조언).",
+    "en": "Write 3 second-conditional sentences (lottery, time, advice)."
+   },
+   "must_include": [
+    {
+     "label": "要是",
+     "match": [
+      "要是"
+     ]
+    },
+    {
+     "label": "会",
+     "match": [
+      "会"
+     ]
+    }
+   ],
+   "model": "要是我中了彩票，我就会环游世界。要是我有更多的时间，我就去锻炼。要是我是你，我就去看医生。",
+   "model_trans": {
+    "ko": "복권에 당첨되면 세계를 여행할 거예요. 시간이 더 있다면 운동할 거예요. 내가 너라면 의사에게 갈 거예요.",
+    "en": "If I won the lottery, I would travel around the world. If I had more time, I would exercise. If I were you, I would see a doctor."
+   }
+  }
+ }
+}

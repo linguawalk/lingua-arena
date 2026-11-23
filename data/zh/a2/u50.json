@@ -1,0 +1,825 @@
+{
+ "meta": {
+  "id": "zh_a2_u50",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 50,
+  "concept": "A2.U50",
+  "status": "live",
+  "title": {
+   "target": "A2复习",
+   "ko": "A2 총정리: 긴 메시지 쓰기",
+   "en": "A2 review: a longer message"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "上个周末",
+   "pos": "phrase",
+   "read": "shàng ge zhōumò",
+   "ko": "지난 주말",
+   "en": "last weekend",
+   "ex": {
+    "t": "上个周末我去参加了一个聚会。",
+    "read": "Shàng ge zhōumò wǒ qù cānjiā le yí ge jùhuì.",
+    "ko": "지난 주말에 파티에 갔어요.",
+    "en": "Last weekend I went to a party."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "已经",
+   "pos": "adv",
+   "read": "yǐjīng",
+   "ko": "이미",
+   "en": "already",
+   "ex": {
+    "t": "我已经做完作业了。",
+    "read": "Wǒ yǐjīng zuò wán zuòyè le.",
+    "ko": "나는 이미 숙제를 끝냈어요.",
+    "en": "I have already finished my homework."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "去过",
+   "pos": "phrase",
+   "read": "qùguo",
+   "ko": "~한 적이 있다",
+   "en": "have been",
+   "ex": {
+    "t": "我去过巴黎。",
+    "read": "Wǒ qùguo Bālí.",
+    "ko": "나는 파리에 가 본 적이 있어요.",
+    "en": "I have been to Paris."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "打算",
+   "pos": "phrase",
+   "read": "dǎsuàn",
+   "ko": "~할 거예요",
+   "en": "going to",
+   "ex": {
+    "t": "我打算明年搬家。",
+    "read": "Wǒ dǎsuàn míngnián bān jiā.",
+    "ko": "나는 내년에 이사할 거예요.",
+    "en": "I'm going to move next year."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "如果",
+   "pos": "conj",
+   "read": "rúguǒ",
+   "ko": "만약 ~라면",
+   "en": "if",
+   "ex": {
+    "t": "如果我有时间，我就帮你。",
+    "read": "Rúguǒ wǒ yǒushí jiān, wǒ jiù bāng nǐ.",
+    "ko": "시간이 있으면 도와줄게요.",
+    "en": "If I have time, I'll help you."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "因为",
+   "pos": "conj",
+   "read": "yīnwèi",
+   "ko": "~ 때문에",
+   "en": "because",
+   "ex": {
+    "t": "我没能去，因为我生病了。",
+    "read": "Wǒ méi néng qù, yīnwèi wǒ shēngbìng le.",
+    "ko": "아파서 못 갔어요.",
+    "en": "I couldn't go because I was ill."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "从那以后",
+   "pos": "phrase",
+   "read": "cóng nà yǐhòu",
+   "ko": "그동안",
+   "en": "since then",
+   "ex": {
+    "t": "从那以后我们一直是朋友。",
+    "read": "Cóng nà yǐhòu wǒmen yìzhí shì péngyou.",
+    "ko": "그 후로 우리는 친구예요.",
+    "en": "We have been friends since then."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "推荐",
+   "pos": "verb",
+   "read": "tuī jiàn",
+   "ko": "추천하다",
+   "en": "recommend",
+   "ex": {
+    "t": "我推荐这家餐厅。",
+    "read": "Wǒ tuī jiàn zhè jiā cāntīng.",
+    "ko": "이 식당을 추천해요.",
+    "en": "I recommend this restaurant."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "最后",
+   "pos": "adv",
+   "read": "zuìhòu",
+   "ko": "마지막으로",
+   "en": "finally",
+   "ex": {
+    "t": "最后，请代我向你的家人问好。",
+    "read": "Zuìhòu, qǐng dài wǒ xiàng nǐ de jiārén wèn hǎo.",
+    "ko": "마지막으로 안부를 전해요.",
+    "en": "Finally, say hello to your family."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "消息",
+   "pos": "noun",
+   "read": "xiāo xī",
+   "ko": "소식",
+   "en": "news",
+   "ex": {
+    "t": "我有一个好消息。",
+    "read": "Wǒ yǒu yí ge hǎo xiāo xī.",
+    "ko": "좋은 소식이 있어요.",
+    "en": "I have some good news."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "A2复习: 过去・已经・将来・如果",
+   "en": "A2 review: a longer message"
+  },
+  "explain": {
+   "ko": "복습 편지에는 과거(……了), 경험(……过), 완료(已经……了), 계획(打算), 조건(如果……就……), 이유(因为)를 함께 씁니다: 上个周末我去参加了一个聚会。我已经做完作业了。我打算明年搬家。如果我有时间，我就去看你。",
+   "en": "A review message mixes past (……了), experience (……过), completed (已经……了), plans (打算), conditions (如果……就……) and reasons (因为): 上个周末我去参加了一个聚会。我已经做完作业了。我打算明年搬家。如果我有时间，我就去看你。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "과거 / Past",
+     "上个周末 + 动词 + 了",
+     "上个周末我去参加了一个聚会。"
+    ],
+    [
+     "완료 / Done",
+     "已经……了",
+     "我已经做完作业了。"
+    ],
+    [
+     "계획 / Plan",
+     "打算 + 动词",
+     "我打算明年搬家。"
+    ],
+    [
+     "조건 / If",
+     "如果……就……",
+     "如果我有时间，我就去看你。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "편지는 인사로 시작하고 인사로 끝냅니다.",
+    "en": "Start and end a letter with greetings."
+   },
+   {
+    "ko": "最后는 마무리 인사 앞에 씁니다.",
+    "en": "最后 introduces the closing greeting."
+   }
+  ],
+  "examples": [
+   {
+    "t": "上个周末我去参加了一个聚会。",
+    "read": "Shàng ge zhōumò wǒ qù cānjiā le yí ge jùhuì.",
+    "ko": "지난 주말에 파티에 갔어요.",
+    "en": "Last weekend I went to a party."
+   },
+   {
+    "t": "我已经做完作业了。",
+    "read": "Wǒ yǐjīng zuò wán zuòyè le.",
+    "ko": "나는 이미 숙제를 끝냈어요.",
+    "en": "I have already finished my homework."
+   },
+   {
+    "t": "我去过巴黎。",
+    "read": "Wǒ qùguo Bālí.",
+    "ko": "나는 파리에 가 본 적이 있어요.",
+    "en": "I have been to Paris."
+   },
+   {
+    "t": "我打算明年搬家。",
+    "read": "Wǒ dǎsuàn míngnián bān jiā.",
+    "ko": "나는 내년에 이사할 거예요.",
+    "en": "I'm going to move next year."
+   },
+   {
+    "t": "如果我有时间，我就帮你。",
+    "read": "Rúguǒ wǒ yǒushí jiān, wǒ jiù bāng nǐ.",
+    "ko": "시간이 있으면 도와줄게요.",
+    "en": "If I have time, I'll help you."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "上个周末我去参加___一个聚会。",
+    "options": [
+     "了",
+     "过",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我___做完作业了。",
+    "options": [
+     "已经",
+     "还没",
+     "刚刚了"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我___明年搬家。",
+    "options": [
+     "打算",
+     "已经",
+     "刚"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___我有时间，我就帮你。",
+    "options": [
+     "如果",
+     "因为",
+     "所以"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "上个周末你做了什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 지난 주말에 뭐 했어요?",
+     "en": "(Question) What did you do last weekend?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我去参加了一个聚会。",
+       "我参加聚会去了过。",
+       "聚会参加我着。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明年你打算做什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 내년에 뭐 할 거예요?",
+     "en": "(Question) What are you going to do next year?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我打算搬到巴黎。",
+       "我搬到巴黎打算了。",
+       "打算搬巴黎我。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "上个周末你做了什么？"
+      },
+      {
+       "s": "B",
+       "t": "我去参加了一个聚会，玩得很开心。"
+      },
+      {
+       "s": "A",
+       "t": "你做完作业了吗？"
+      },
+      {
+       "s": "B",
+       "t": "已经做完了。如果有时间，我就去看你。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 지난 주말에 뭐 했어?\nB: 파티에 갔어. 정말 즐거웠어.\nA: 숙제는 끝냈어?\nB: 응, 이미 끝냈어. 시간이 있으면 너도 만날게.",
+     "en": "A: What did you do last weekend?\nB: I went to a party. I really enjoyed myself.\nA: Have you finished your homework?\nB: Yes, I've already finished it. If I have time, I'll see you."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B做完作业了吗？",
+      "options": [
+       "做完了",
+       "还没有",
+       "不做了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你好，我是艾娃。你好吗？上个周末我去参加了一个聚会，玩得很开心。我已经做完作业了。明年我打算搬到巴黎。如果你有时间，来看我吧。我很快会再给你写信。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕, 에바야. 잘 지내? 지난 주말에 나는 파티에 갔어. 정말 즐거웠어. 나는 이미 숙제를 끝냈어. 내년에는 파리로 이사할 거야. 시간이 있으면 놀러 와. 곧 다시 편지 쓸게.",
+     "en": "Hi, it's Eva. How are you? Last weekend I went to a party. I really enjoyed myself. I have already finished my homework. Next year I'm going to move to Paris. If you have time, come and see me. I'll write again soon."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "艾娃明年打算做什么？",
+      "options": [
+       "搬到巴黎",
+       "毕业",
+       "找工作"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "上个周末你做了什么？"
+      },
+      {
+       "s": "B",
+       "t": "我去参加了一个聚会。"
+      },
+      {
+       "s": "A",
+       "t": "明年你有什么计划？"
+      },
+      {
+       "s": "B",
+       "t": "我打算搬到巴黎。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 지난 주말에 뭐 하셨어요?\n손님: 파티에 갔어요.\n직원: 내년 계획은요?\n손님: 파리로 이사할 거예요.",
+     "en": "Interviewer: What did you do last weekend?\nGuest: I went to a party.\nInterviewer: What are your plans for next year?\nGuest: I'm going to move to Paris."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客人: 我去参加了一个______",
+      "answers": [
+       "聚会"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "客人: 我打算搬到______",
+      "answers": [
+       "巴黎"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 上个周末我去参加___一个聚会。\n2) 我___做完作业了。\n3) 我___明年搬家。",
+    "trans": {
+     "ko": "1) 지난 주말에 파티에 갔어요. 2) 나는 이미 숙제를 끝냈어요. 3) 나는 내년에 이사할 거예요.",
+     "en": "1) Last weekend I went to a party. 2) I have already finished my homework. 3) I'm going to move next year."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "上个周末我去参加___一个聚会。",
+      "options": [
+       "了",
+       "过",
+       "着"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我___做完作业了。",
+      "options": [
+       "已经",
+       "还没",
+       "刚刚了"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我___明年搬家。",
+      "options": [
+       "打算",
+       "已经",
+       "刚"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好，我是艾娃。你好吗？上个周末我去参加了一个聚会，玩得很(1)。我已经做完作业了。明年我打算(2)到巴黎。(3)你有时间，来看我吧。",
+    "trans": {
+     "ko": "안녕, 에바야. 잘 지내? 지난 주말에 나는 파티에 갔어. 정말 즐거웠어. 나는 이미 숙제를 끝냈어. 내년에는 파리로 이사할 거야. 시간이 있으면 놀러 와.",
+     "en": "Hi, it's Eva. How are you? Last weekend I went to a party. I really enjoyed myself. I have already finished my homework. Next year I'm going to move to Paris. If you have time, come and see me."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "开心",
+       "难过",
+       "生气"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "搬",
+       "搬过",
+       "搬着"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "如果",
+       "因为",
+       "所以"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "明信片\n来自巴黎的问候！\n天气很好，菜很好吃。\n回头见。",
+    "trans": {
+     "ko": "엽서\n파리에서 안부를 전해요!\n날씨가 좋고 음식이 맛있어요.\n곧 만나요.",
+     "en": "POSTCARD\nGreetings from Paris!\nThe weather is nice and the food is delicious.\nSee you soon."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "明信片来自哪里？",
+      "options": [
+       "巴黎",
+       "首尔",
+       "东京"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "那里怎么样？",
+      "options": [
+       "天气好，菜好吃",
+       "天气冷",
+       "菜难吃"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "艾娃上个周末去参加了一个聚会。她已经做完了作业。她打算明年搬到巴黎。",
+    "trans": {
+     "ko": "에바는 지난 주말에 파티에 갔어요. 그녀는 이미 숙제를 끝냈어요. 그녀는 내년에 파리로 이사할 거예요.",
+     "en": "Eva went to a party last weekend. She has already finished her homework. She is going to move to Paris next year."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "艾娃去参加了聚会。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "艾娃还没做完作业。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "艾娃有一个哥哥。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你好吗？",
+    "read": "Nǐ hǎo ma?",
+    "ko": "안녕하세요, 잘 지내요?",
+    "en": "Hi, how are you?",
+    "situation": {
+     "ko": "인사할 때",
+     "en": "Greeting"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "上个周末我去参加了一个聚会。",
+    "read": "Shàng ge zhōumò wǒ qù cānjiā le yí ge jùhuì.",
+    "ko": "지난 주말에 파티에 갔어요.",
+    "en": "Last weekend I went to a party.",
+    "situation": {
+     "ko": "과거 일을 말할 때",
+     "en": "Telling what happened"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我已经做完作业了。",
+    "read": "Wǒ yǐjīng zuò wán zuòyè le.",
+    "ko": "나는 이미 숙제를 끝냈어요.",
+    "en": "I have already finished my homework.",
+    "situation": {
+     "ko": "현재완료를 쓸 때",
+     "en": "Using the present perfect"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我打算明年搬家。",
+    "read": "Wǒ dǎsuàn míngnián bān jiā.",
+    "ko": "나는 내년에 이사할 거예요.",
+    "en": "I'm going to move next year.",
+    "situation": {
+     "ko": "계획을 말할 때",
+     "en": "Talking about plans"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "如果我有时间，我就去看你。",
+    "read": "Rúguǒ wǒ yǒushí jiān, wǒ jiù qù kàn nǐ.",
+    "ko": "시간이 있으면 도와줄게요.",
+    "en": "If I have time, I'll help you.",
+    "situation": {
+     "ko": "조건을 말할 때",
+     "en": "Using a conditional"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我没能去，因为我生病了。",
+    "read": "Wǒ méi néng qù, yīnwèi wǒ shēngbìng le.",
+    "ko": "아파서 못 갔어요.",
+    "en": "I couldn't go because I was ill.",
+    "situation": {
+     "ko": "이유를 말할 때",
+     "en": "Giving a reason"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我推荐这家餐厅。",
+    "read": "Wǒ tuī jiàn zhè jiā cāntīng.",
+    "ko": "이 식당을 추천해요.",
+    "en": "I recommend this restaurant.",
+    "situation": {
+     "ko": "추천할 때",
+     "en": "Recommending"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我很快会再给你写信。",
+    "read": "Wǒ hěn kuài huì zài gěi nǐ xiěxìn.",
+    "ko": "곧 다시 편지 쓸게요.",
+    "en": "I'll write again soon.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Ending a message"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "上个周末我……了。",
+    "read": "Shàng ge zhōumò wǒ … le.",
+    "ko": "지난 ~에 …했어요.",
+    "en": "Last ~ I ~ (past)."
+   },
+   {
+    "id": "w2",
+    "t": "我已经……了。",
+    "read": "Wǒ yǐjīng … le.",
+    "ko": "이미 ~했어요.",
+    "en": "I have already ~."
+   },
+   {
+    "id": "w3",
+    "t": "我打算……。",
+    "read": "Wǒ dǎsuàn ….",
+    "ko": "~할 거예요.",
+    "en": "I'm going to ~."
+   },
+   {
+    "id": "w4",
+    "t": "如果……，我就……。",
+    "read": "Rúguǒ …, wǒ jiù ….",
+    "ko": "~하면 …할게요.",
+    "en": "If ~, I'll ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "친구에게 쓰는 짧은 이메일을 5문장으로 써 보세요 (과거, 현재완료, 미래, 조건 포함).",
+    "en": "Write a short 5-sentence email to a friend (include past, present perfect, future and a condition)."
+   },
+   "must_include": [
+    {
+     "label": "过去・已经",
+     "match": [
+      "了",
+      "已经"
+     ]
+    },
+    {
+     "label": "打算・如果",
+     "match": [
+      "打算",
+      "如果"
+     ]
+    }
+   ],
+   "model": "上个周末我去参加了一个聚会。我已经做完作业了。我打算明年搬家。如果我有时间，我就去看你。我很快会再给你写信。",
+   "model_trans": {
+    "ko": "지난 주말에 파티에 갔어요. 나는 이미 숙제를 끝냈어요. 나는 내년에 이사할 거예요. 시간이 있으면 너를 만날게요. 곧 다시 편지 쓸게요.",
+    "en": "Last weekend I went to a party. I have already finished my homework. I'm going to move next year. If I have time, I'll visit you. I'll write again soon."
+   }
+  }
+ }
+}

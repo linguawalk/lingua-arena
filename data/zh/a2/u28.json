@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "id": "zh_a2_u28",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 28,
+  "concept": "A2.U28",
+  "status": "live",
+  "title": {
+   "target": "几个・一点儿・很多",
+   "ko": "a few, a little, a lot of: 수량 표현",
+   "en": "A few, a little, a lot of"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "几个",
+   "pos": "det",
+   "read": "jǐ gè",
+   "ko": "몇 개의 (셀 수 있는)",
+   "en": "a few",
+   "ex": {
+    "t": "我有几个朋友。",
+    "read": "Wǒ yǒu jǐ gè péngyou.",
+    "ko": "나는 친구가 몇 명 있어요.",
+    "en": "I have a few friends."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "一点儿",
+   "pos": "det",
+   "read": "yìdiǎnr",
+   "ko": "조금의 (셀 수 없는)",
+   "en": "a little",
+   "ex": {
+    "t": "我喝一点儿牛奶。",
+    "read": "Wǒ hē yìdiǎnr niúnǎi.",
+    "ko": "나는 우유를 조금 마셔요.",
+    "en": "I drink a little milk."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "很多",
+   "pos": "det",
+   "read": "hěn duō",
+   "ko": "많은",
+   "en": "a lot of",
+   "ex": {
+    "t": "他有很多书。",
+    "read": "Tā yǒu hěn duō shū.",
+    "ko": "그는 책이 많아요.",
+    "en": "He has a lot of books."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "不多",
+   "pos": "det",
+   "read": "bù duō",
+   "ko": "별로 많지 않은 (수)",
+   "en": "not many",
+   "ex": {
+    "t": "我的朋友不多。",
+    "read": "Wǒ de péngyou bù duō.",
+    "ko": "나는 친구가 많지 않아요.",
+    "en": "I don't have many friends."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "没多少",
+   "pos": "det",
+   "read": "méi duōshao",
+   "ko": "별로 많지 않은 (양)",
+   "en": "not much",
+   "ex": {
+    "t": "我没有多少时间。",
+    "read": "Wǒ méiyǒu duōshao shíjiān.",
+    "ko": "나는 시간이 많지 않아요.",
+    "en": "I don't have much time."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "多",
+   "pos": "det",
+   "read": "duō",
+   "ko": "많은 (수)",
+   "en": "many",
+   "ex": {
+    "t": "公园里人多吗？",
+    "read": "Gōngyuán lǐ rén duō ma?",
+    "ko": "공원에 사람이 많아요?",
+    "en": "Are there many people in the park?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "多少",
+   "pos": "det",
+   "read": "duōshao",
+   "ko": "많은 (양)",
+   "en": "much",
+   "ex": {
+    "t": "你有多少钱？",
+    "read": "Nǐ yǒu duōshao qián?",
+    "ko": "너 돈 많이 있어?",
+    "en": "Do you have much money?"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "糖",
+   "pos": "noun",
+   "read": "táng",
+   "ko": "설탕",
+   "en": "sugar",
+   "ex": {
+    "t": "我在咖啡里放一点儿糖。",
+    "read": "Wǒ zài kāfēi lǐ fàng yìdiǎnr táng.",
+    "ko": "커피에 설탕을 조금 넣었어요.",
+    "en": "I put a little sugar in my coffee."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "苹果",
+   "pos": "noun",
+   "read": "píngguǒ",
+   "ko": "사과",
+   "en": "apple",
+   "ex": {
+    "t": "冰箱里有几个苹果。",
+    "read": "Bīngxiāng lǐ yǒu jǐ gè píngguǒ.",
+    "ko": "냉장고에 사과가 몇 개 있어요.",
+    "en": "There are a few apples in the fridge."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "足够",
+   "pos": "det",
+   "read": "zúgòu",
+   "ko": "충분한",
+   "en": "plenty of",
+   "ex": {
+    "t": "我们有足够的时间。",
+    "read": "Wǒmen yǒu zúgòu de shíjiān.",
+    "ko": "우리는 시간이 충분해요.",
+    "en": "We have plenty of time."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "几个・一点儿・很多",
+   "en": "A few, a little, a lot of: 几个 / 一点儿 / 很多"
+  },
+  "explain": {
+   "ko": "셀 수 있는 것은 几个(몇 개) · 很多 · 不多, 셀 수 없는 것은 一点儿(조금) · 很多 · 没多少로 말합니다: 我有几个朋友。我喝一点儿牛奶。我没有多少时间。 질문은 多少 / 几 입니다.",
+   "en": "Countable: 几个, 很多, 不多. Uncountable: 一点儿, 很多, 没多少: 我有几个朋友。我喝一点儿牛奶。我没有多少时间。 Ask 多少 / 几。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "몇 개 / A few",
+     "几个 + 名词",
+     "我有几个朋友。"
+    ],
+    [
+     "조금 / A little",
+     "一点儿 + 名词",
+     "我喝一点儿牛奶。"
+    ],
+    [
+     "많이 / A lot of",
+     "很多 + 名词",
+     "他有很多书。"
+    ],
+    [
+     "별로 / Not many, not much",
+     "不多・没多少",
+     "我没有多少时间。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "几 + 양사: 几个, 几本.",
+    "en": "几 takes a measure word: 几个, 几本."
+   },
+   {
+    "ko": "一点儿은 양사 없이 명사 앞에 씁니다.",
+    "en": "一点儿 goes straight before the noun."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我有几个朋友。",
+    "read": "Wǒ yǒu jǐ gè péngyou.",
+    "ko": "나는 친구가 몇 명 있어요.",
+    "en": "I have a few friends."
+   },
+   {
+    "t": "我喝一点儿牛奶。",
+    "read": "Wǒ hē yìdiǎnr niúnǎi.",
+    "ko": "나는 우유를 조금 마셔요.",
+    "en": "I drink a little milk."
+   },
+   {
+    "t": "他有很多书。",
+    "read": "Tā yǒu hěn duō shū.",
+    "ko": "그는 책이 많아요.",
+    "en": "He has a lot of books."
+   },
+   {
+    "t": "我没有多少时间。",
+    "read": "Wǒ méiyǒu duōshao shíjiān.",
+    "ko": "나는 시간이 많지 않아요.",
+    "en": "I don't have much time."
+   },
+   {
+    "t": "公园里人多吗？",
+    "read": "Gōngyuán lǐ rén duō ma?",
+    "ko": "공원에 사람이 많아요?",
+    "en": "Are there many people in the park?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我有___朋友。",
+    "options": [
+     "几个",
+     "一点儿",
+     "多少个"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我喝___牛奶。",
+    "options": [
+     "一点儿",
+     "几个",
+     "很多个"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "他有___书。",
+    "options": [
+     "很多",
+     "一点儿个",
+     "几点"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我没有___时间。",
+    "options": [
+     "多少",
+     "几个",
+     "很多个"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你有很多朋友吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 친구가 많아요?",
+     "en": "(Question) Do you have many friends?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "不多，只有几个。",
+       "不多，只有一点儿朋友。",
+       "很多，几个朋友。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "还剩多少牛奶？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 우유가 얼마나 남았어요?",
+     "en": "(Question) How much milk is left?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "还剩一点儿。",
+       "还剩几个。",
+       "还剩很多个。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "冰箱里有什么？"
+      },
+      {
+       "s": "B",
+       "t": "有几个苹果和一点儿牛奶。"
+      },
+      {
+       "s": "A",
+       "t": "蔬菜呢？"
+      },
+      {
+       "s": "B",
+       "t": "有很多蔬菜。但是鸡蛋不多。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 냉장고에 뭐가 있어?\nB: 사과가 몇 개 있고 우유가 조금 있어.\nA: 채소는?\nB: 채소는 많이 있어. 하지만 달걀은 많지 않아.",
+     "en": "A: What's in the fridge?\nB: There are a few apples and a little milk.\nA: What about vegetables?\nB: There are a lot of vegetables. But there aren't many eggs."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "冰箱里什么很多？",
+      "options": [
+       "蔬菜",
+       "鸡蛋",
+       "苹果"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我的朋友不多，只有几个。但他们都是好朋友。周末我没有多少时间，但我们会一边喝一点儿咖啡一边聊天。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 친구가 많지 않아요. 몇 명뿐이에요. 하지만 모두 좋은 친구예요. 주말에는 시간이 많지 않지만 커피를 조금 마시며 이야기해요.",
+     "en": "I don't have many friends. Just a few. But they are all good friends. At weekends I don't have much time, but we talk over a little coffee."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "什么时候没有多少时间？",
+      "options": [
+       "周末",
+       "平时",
+       "晚上"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你要糖吗？"
+      },
+      {
+       "s": "B",
+       "t": "请放一点儿。"
+      },
+      {
+       "s": "A",
+       "t": "牛奶呢？"
+      },
+      {
+       "s": "B",
+       "t": "请多放一些。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 설탕을 넣을까요?\n손님: 조금만 넣어 주세요.\n직원: 우유는요?\n손님: 많이 넣어 주세요.",
+     "en": "Clerk: Would you like sugar?\nGuest: Just a little, please.\nClerk: And milk?\nGuest: A lot, please."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "顾客: 请放一点儿______",
+      "answers": [
+       "糖"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "顾客: 请多放一些______",
+      "answers": [
+       "牛奶"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我有___朋友。\n2) 我喝___牛奶。\n3) 我没有___时间。",
+    "trans": {
+     "ko": "1) 나는 친구가 몇 명 있어요. 2) 나는 우유를 조금 마셔요. 3) 나는 시간이 많지 않아요.",
+     "en": "1) I have a few friends. 2) I drink a little milk. 3) I don't have much time."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我有___朋友。",
+      "options": [
+       "几个",
+       "一点儿",
+       "多少个"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我喝___牛奶。",
+      "options": [
+       "一点儿",
+       "几个",
+       "很多个"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我没有___时间。",
+      "options": [
+       "多少",
+       "几个",
+       "很多个"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我的朋友(1)，只有几个。但他们都是好朋友。周末我没有(2)时间，但我们会喝(3)咖啡聊天。",
+    "trans": {
+     "ko": "저는 친구가 많지 않아요. 몇 명뿐이에요. 하지만 모두 좋은 친구예요. 주말에는 시간이 많지 않지만 커피를 조금 마시며 이야기해요.",
+     "en": "I don't have many friends. Just a few. But they are all good friends. At weekends I don't have much time, but we talk over a little coffee."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "不多",
+       "很多",
+       "一点儿"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "多少",
+       "几个",
+       "一点儿个"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "一点儿",
+       "几个",
+       "很多个"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "冰箱便条\n苹果：3个\n牛奶：一点儿\n蔬菜：很多",
+    "trans": {
+     "ko": "냉장고 메모\n사과: 3개\n우유: 조금\n채소: 많음",
+     "en": "FRIDGE NOTE\nApples: 3\nMilk: a little\nVegetables: a lot"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "有几个苹果？",
+      "options": [
+       "3个",
+       "1个",
+       "10个"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "有多少牛奶？",
+      "options": [
+       "一点儿",
+       "很多",
+       "没有"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汤姆有几个朋友。他没有多少时间。周末他和朋友们喝咖啡。",
+    "trans": {
+     "ko": "톰은 친구가 몇 명 있어요. 그는 시간이 많지 않아요. 그는 주말에 친구와 커피를 마셔요.",
+     "en": "Tom has a few friends. He doesn't have much time. At weekends he has coffee with his friends."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "汤姆有几个朋友。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆有很多时间。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆养了一只猫。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我有几个朋友。",
+    "read": "Wǒ yǒu jǐ gè péngyou.",
+    "ko": "나는 친구가 몇 명 있어요.",
+    "en": "I have a few friends.",
+    "situation": {
+     "ko": "친구 수를 말할 때",
+     "en": "Saying how many friends"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我喝一点儿牛奶。",
+    "read": "Wǒ hē yìdiǎnr niúnǎi.",
+    "ko": "우유를 조금 마셔요.",
+    "en": "I drink a little milk.",
+    "situation": {
+     "ko": "양을 말할 때",
+     "en": "Saying how much"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "他有很多书。",
+    "read": "Tā yǒu hěn duō shū.",
+    "ko": "그는 책이 많아요.",
+    "en": "He has a lot of books.",
+    "situation": {
+     "ko": "많다고 말할 때",
+     "en": "Saying there are many"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我没有多少时间。",
+    "read": "Wǒ méiyǒu duōshao shíjiān.",
+    "ko": "나는 시간이 많지 않아요.",
+    "en": "I don't have much time.",
+    "situation": {
+     "ko": "시간이 부족할 때",
+     "en": "Saying you are short of time"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "公园里人多吗？",
+    "read": "Gōngyuán lǐ rén duō ma?",
+    "ko": "공원에 사람이 많아요?",
+    "en": "Are there many people in the park?",
+    "situation": {
+     "ko": "수를 물을 때",
+     "en": "Asking about number"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "你有多少钱？",
+    "read": "Nǐ yǒu duōshao qián?",
+    "ko": "돈이 얼마나 있어요?",
+    "en": "How much money do you have?",
+    "situation": {
+     "ko": "양을 물을 때",
+     "en": "Asking about amount"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "冰箱里有几个苹果。",
+    "read": "Bīngxiāng lǐ yǒu jǐ gè píngguǒ.",
+    "ko": "냉장고에 사과가 몇 개 있어요.",
+    "en": "There are a few apples in the fridge.",
+    "situation": {
+     "ko": "물건 수를 말할 때",
+     "en": "Describing what is in the fridge"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我在咖啡里放一点儿糖。",
+    "read": "Wǒ zài kāfēi lǐ fàng yìdiǎnr táng.",
+    "ko": "커피에 설탕을 조금 넣었어요.",
+    "en": "I put a little sugar in my coffee.",
+    "situation": {
+     "ko": "음식 양을 말할 때",
+     "en": "Talking about food amounts"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我有几个……（可数）。",
+    "read": "Wǒ yǒu jǐ gè … (kě shù).",
+    "ko": "~이 몇 개 있어요.",
+    "en": "I have a few ~ (plural)."
+   },
+   {
+    "id": "w2",
+    "t": "我有一点儿……（不可数）。",
+    "read": "Wǒ yǒu yìdiǎnr … (bù kě shù).",
+    "ko": "~이 조금 있어요.",
+    "en": "I have a little ~ (uncountable)."
+   },
+   {
+    "id": "w3",
+    "t": "我有很多……。",
+    "read": "Wǒ yǒu hěn duō ….",
+    "ko": "~이 많이 있어요.",
+    "en": "I have a lot of ~."
+   },
+   {
+    "id": "w4",
+    "t": "我没有多少……。",
+    "read": "Wǒ méiyǒu duōshao ….",
+    "ko": "~이 많지 않아요.",
+    "en": "I don't have many / much ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "냉장고에 있는 것에 대해 a few, a little, a lot of를 써서 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about what is in your fridge using a few, a little and a lot of."
+   },
+   "must_include": [
+    {
+     "label": "几个・一点儿",
+     "match": [
+      "几个",
+      "一点儿"
+     ]
+    },
+    {
+     "label": "很多",
+     "match": [
+      "很多"
+     ]
+    }
+   ],
+   "model": "冰箱里有几个苹果。有一点儿牛奶。有很多蔬菜。",
+   "model_trans": {
+    "ko": "냉장고에 사과가 몇 개 있어요. 우유가 조금 있어요. 채소는 많이 있어요.",
+    "en": "There are a few apples in the fridge. There is a little milk. There are a lot of vegetables."
+   }
+  }
+ }
+}

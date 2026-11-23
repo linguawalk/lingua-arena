@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "id": "zh_a2_u25",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 25,
+  "concept": "A2.U25",
+  "status": "live",
+  "title": {
+   "target": "多长时间・从什么时候",
+   "ko": "for와 since: 얼마 동안, 언제부터",
+   "en": "For and since"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "……年了",
+   "pos": "prep",
+   "read": "… Nián le",
+   "ko": "~ 동안",
+   "en": "for",
+   "ex": {
+    "t": "我在这里住了五年了。",
+    "read": "Wǒ zài zhèlǐ zhù le wǔ nián le.",
+    "ko": "나는 5년 동안 여기 살았어요.",
+    "en": "I have lived here for five years."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "从……起",
+   "pos": "prep",
+   "read": "cóng … qǐ",
+   "ko": "~ 이래로",
+   "en": "since",
+   "ex": {
+    "t": "我从2020年起住在这里。",
+    "read": "Wǒ cóng 2 0 2 0 nián qǐ zhùzài zhèlǐ.",
+    "ko": "나는 2020년부터 여기 살았어요.",
+    "en": "I have lived here since 2020."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "认识",
+   "pos": "verb",
+   "read": "rènshi",
+   "ko": "알다",
+   "en": "know",
+   "ex": {
+    "t": "我认识她十年了。",
+    "read": "Wǒ rènshi tā shí nián le.",
+    "ko": "나는 그녀를 10년 동안 알았어요.",
+    "en": "I have known her for ten years."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "有",
+   "pos": "verb",
+   "read": "yǒu",
+   "ko": "가지다",
+   "en": "have",
+   "ex": {
+    "t": "我有这辆车两年了。",
+    "read": "Wǒ yǒu zhè liàng chē liǎng nián le.",
+    "ko": "나는 이 차를 2년 동안 갖고 있어요.",
+    "en": "I have had this car for two years."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "工作",
+   "pos": "verb",
+   "read": "gōngzuò",
+   "ko": "일하다",
+   "en": "work",
+   "ex": {
+    "t": "他从一月起在这里工作。",
+    "read": "Tā cóng yīyuè qǐ zài zhèlǐ gōngzuò.",
+    "ko": "그는 1월부터 이 회사에서 일하고 있어요.",
+    "en": "He has worked here since January."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "学习",
+   "pos": "verb",
+   "read": "xuéxí",
+   "ko": "공부하다",
+   "en": "study",
+   "ex": {
+    "t": "我学英语学了三年了。",
+    "read": "Wǒ xué yīngyǔ xué le sān nián le.",
+    "ko": "나는 3년 동안 영어를 공부했어요.",
+    "en": "I have studied English for three years."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "住",
+   "pos": "verb",
+   "read": "zhù",
+   "ko": "살다",
+   "en": "live",
+   "ex": {
+    "t": "我们从2018年起住在首尔。",
+    "read": "Wǒmen cóng 2 0 1 8 nián qǐ zhùzài Shǒu'ěr.",
+    "ko": "우리는 2018년부터 서울에 살았어요.",
+    "en": "We have lived in Seoul since 2018."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "结婚",
+   "pos": "adj",
+   "read": "jiéhūn",
+   "ko": "결혼한",
+   "en": "married",
+   "ex": {
+    "t": "他们结婚十年了。",
+    "read": "Tāmen jiéhūn shí nián le.",
+    "ko": "그들은 10년 동안 결혼했어요.",
+    "en": "They have been married for ten years."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "很久",
+   "pos": "phrase",
+   "read": "hěn jiǔ",
+   "ko": "오랫동안",
+   "en": "for a long time",
+   "ex": {
+    "t": "我很久以前就常去这家店。",
+    "read": "Wǒ hěn jiǔ yǐqián jiù cháng qù zhè jiā diàn.",
+    "ko": "나는 오랫동안 이 가게에 다녔어요.",
+    "en": "I have gone to this shop for a long time."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "从小",
+   "pos": "phrase",
+   "read": "cóng xiǎo",
+   "ko": "어릴 때부터",
+   "en": "since I was a child",
+   "ex": {
+    "t": "我从小就弹钢琴。",
+    "read": "Wǒ cóng xiǎo jiù tán gāngqín.",
+    "ko": "나는 어릴 때부터 피아노를 쳤어요.",
+    "en": "I have played the piano since I was a child."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "多长时间・从什么时候: ……了五年・从……起",
+   "en": "For and since: ……了……年 / 从……起"
+  },
+  "explain": {
+   "ko": "지속된 기간은 동사 + 了 + 기간 + 了, 시작한 때는 从 + 때 + 起로 말합니다: 我在这里住了五年了。我从2020年起住在这里。 질문은 ……多长时间了?, 从什么时候起……? 입니다.",
+   "en": "Length of time: verb + 了 + duration + 了: 我在这里住了五年了。 Starting point: 从 + time + 起: 我从2020年起住在这里。 Ask ……多长时间了? / 从什么时候起……?"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "기간 / Length",
+     "动词 + 了 + 时间 + 了",
+     "我住了五年了。"
+    ],
+    [
+     "시작 / Start",
+     "从……起",
+     "我从2020年起住在这里。"
+    ],
+    [
+     "질문 / Question",
+     "……多长时间了？",
+     "你学英语多长时间了？"
+    ],
+    [
+     "어릴 때부터 / Since childhood",
+     "从小",
+     "我从小就弹钢琴。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "끝의 了는 지금까지 계속되고 있음을 나타냅니다.",
+    "en": "The final 了 shows it continues up to now."
+   },
+   {
+    "ko": "从……起는 시작점을 말합니다.",
+    "en": "从……起 names the starting point."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我在这里住了五年了。",
+    "read": "Wǒ zài zhèlǐ zhù le wǔ nián le.",
+    "ko": "나는 5년 동안 여기 살았어요.",
+    "en": "I have lived here for five years."
+   },
+   {
+    "t": "我从2020年起住在这里。",
+    "read": "Wǒ cóng 2 0 2 0 nián qǐ zhùzài zhèlǐ.",
+    "ko": "나는 2020년부터 여기 살았어요.",
+    "en": "I have lived here since 2020."
+   },
+   {
+    "t": "他从一月起在这里工作。",
+    "read": "Tā cóng yīyuè qǐ zài zhèlǐ gōngzuò.",
+    "ko": "그는 1월부터 이 회사에서 일하고 있어요.",
+    "en": "He has worked here since January."
+   },
+   {
+    "t": "我认识她十年了。",
+    "read": "Wǒ rènshi tā shí nián le.",
+    "ko": "나는 그녀를 10년 동안 알았어요.",
+    "en": "I have known her for ten years."
+   },
+   {
+    "t": "你学英语多长时间了？",
+    "read": "Nǐ xué yīngyǔ duō cháng shíjiān le?",
+    "ko": "얼마 동안 영어를 공부했어요?",
+    "en": "How long have you studied English?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我在这里住___五年了。",
+    "options": [
+     "了",
+     "着",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我___2020年起住在这里。",
+    "options": [
+     "从",
+     "在",
+     "到"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "他从一月___在这里工作。",
+    "options": [
+     "起",
+     "了",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "你学英语___时间了？",
+    "options": [
+     "多长",
+     "几点",
+     "怎么"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你在这里住多长时间了？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 얼마 동안 여기 살았어요?",
+     "en": "(Question) How long have you lived here?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我住了五年了。",
+       "我住从五年。",
+       "我五年住过了着。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你学英语多长时间了？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 언제부터 영어를 공부했어요?",
+     "en": "(Question) How long have you studied English?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我从2022年起学英语。",
+       "我学英语从2022年。",
+       "我2022年起在学了。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你在这家公司工作多长时间了？"
+      },
+      {
+       "s": "B",
+       "t": "我从2019年起在这里工作。"
+      },
+      {
+       "s": "A",
+       "t": "那你已经工作五年多了。"
+      },
+      {
+       "s": "B",
+       "t": "对，我也认识我的同事很久了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 회사에서 얼마 동안 일했어요?\nB: 2019년부터 일했어요.\nA: 그럼 5년 넘게 일했네요.\nB: 네, 그리고 팀 동료들을 오랫동안 알고 있어요.",
+     "en": "A: How long have you worked at this company?\nB: I've worked here since 2019.\nA: So you've worked here for more than five years.\nB: Yes, and I've known my team for a long time."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B从什么时候起在这家公司工作？",
+      "options": [
+       "2019年",
+       "2022年",
+       "一月"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你好，我是艾娃。我在首尔住了五年了。我从2022年起学韩语。我从小就弹钢琴。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요, 에바예요. 저는 서울에 5년 동안 살았어요. 2022년부터 한국어를 공부했어요. 저는 어릴 때부터 피아노를 쳤어요.",
+     "en": "Hello, I'm Eva. I've lived in Seoul for five years. I've studied Korean since 2022. I've played the piano since I was a child."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "艾娃从什么时候起弹钢琴？",
+      "options": [
+       "从小",
+       "2022年",
+       "五年前"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你在这个城市住多长时间了？"
+      },
+      {
+       "s": "B",
+       "t": "我住了三年了。"
+      },
+      {
+       "s": "A",
+       "t": "你做什么工作？"
+      },
+      {
+       "s": "B",
+       "t": "我从2022年起当老师。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 이 도시에 얼마나 살았어요?\n손님: 3년 동안 살았어요.\n직원: 직업은요?\n손님: 2022년부터 교사로 일하고 있어요.",
+     "en": "Clerk: How long have you lived in this city?\nGuest: I've lived here for three years.\nClerk: What do you do?\nGuest: I've been a teacher since 2022."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "顾客: 我住了______年了",
+      "answers": [
+       "三"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "顾客: 我从2022年起当______",
+      "answers": [
+       "老师"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我在这里住___五年了。\n2) 我___2020年起住在这里。\n3) 他从一月___在这里工作。",
+    "trans": {
+     "ko": "1) 나는 5년 동안 여기 살았어요. 2) 나는 2020년부터 여기 살았어요. 3) 그는 1월부터 일하고 있어요.",
+     "en": "1) I have lived here for five years. 2) I have lived here since 2020. 3) He has worked here since January."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我在这里住___五年了。",
+      "options": [
+       "了",
+       "着",
+       "过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我___2020年起住在这里。",
+      "options": [
+       "从",
+       "在",
+       "到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他从一月___在这里工作。",
+      "options": [
+       "起",
+       "了",
+       "着"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "你好，我是艾娃。我在首尔住(1)五年了。我(2)2022年起学韩语。我(3)小就弹钢琴。",
+    "trans": {
+     "ko": "안녕하세요, 에바예요. 저는 서울에 5년 동안 살았어요. 2022년부터 한국어를 공부했어요. 저는 어릴 때부터 피아노를 쳤어요.",
+     "en": "Hello, I'm Eva. I've lived in Seoul for five years. I've studied Korean since 2022. I've played the piano since I was a child."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "了",
+       "着",
+       "过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "从",
+       "在",
+       "到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "从",
+       "在",
+       "到"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "个人资料\n姓名：民\n住在首尔：从2018年起\n工作：老师（从2022年起）",
+    "trans": {
+     "ko": "프로필\n이름: 민\n서울 거주: 2018년부터\n직업: 교사 (2022년부터)",
+     "en": "PROFILE\nName: Min\nLives in Seoul: since 2018\nJob: teacher (since 2022)"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "民从什么时候起住在首尔？",
+      "options": [
+       "2018年",
+       "2022年",
+       "2020年"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "民的工作是什么？",
+      "options": [
+       "老师",
+       "医生",
+       "厨师"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汤姆在同一家公司工作了十年了。他从2015年起住在首尔。他从小就踢足球。",
+    "trans": {
+     "ko": "톰은 10년 동안 같은 회사에서 일했어요. 그는 2015년부터 서울에 살아요. 그는 어릴 때부터 축구를 해요.",
+     "en": "Tom has worked for the same company for ten years. He has lived in Seoul since 2015. He has played football since he was a child."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "汤姆在同一家公司工作了十年了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆从2020年起住在首尔。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆有一辆车。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你在这里住多长时间了？",
+    "read": "Nǐ zài zhèlǐ zhù duō cháng shíjiān le?",
+    "ko": "얼마 동안 여기 살았어요?",
+    "en": "How long have you lived here?",
+    "situation": {
+     "ko": "기간을 물을 때",
+     "en": "Asking how long"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我在这里住了五年了。",
+    "read": "Wǒ zài zhèlǐ zhù le wǔ nián le.",
+    "ko": "5년 동안 여기 살았어요.",
+    "en": "I have lived here for five years.",
+    "situation": {
+     "ko": "기간을 말할 때",
+     "en": "Saying how long"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我从2020年起住在这里。",
+    "read": "Wǒ cóng 2 0 2 0 nián qǐ zhùzài zhèlǐ.",
+    "ko": "2020년부터 여기 살았어요.",
+    "en": "I have lived here since 2020.",
+    "situation": {
+     "ko": "시작 시점을 말할 때",
+     "en": "Saying when it started"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我认识他十年了。",
+    "read": "Wǒ rènshi tā shí nián le.",
+    "ko": "그를 10년 동안 알았어요.",
+    "en": "I have known him for ten years.",
+    "situation": {
+     "ko": "아는 기간을 말할 때",
+     "en": "Saying how long you have known someone"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我从一月起在这里工作。",
+    "read": "Wǒ cóng yīyuè qǐ zài zhèlǐ gōngzuò.",
+    "ko": "1월부터 이 회사에서 일했어요.",
+    "en": "I have worked here since January.",
+    "situation": {
+     "ko": "일한 기간을 말할 때",
+     "en": "Talking about work"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "他们结婚十年了。",
+    "read": "Tāmen jiéhūn shí nián le.",
+    "ko": "그들은 10년 동안 결혼했어요.",
+    "en": "They have been married for ten years.",
+    "situation": {
+     "ko": "결혼 기간을 말할 때",
+     "en": "Talking about marriage"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我从小就弹钢琴。",
+    "read": "Wǒ cóng xiǎo jiù tán gāngqín.",
+    "ko": "어릴 때부터 피아노를 쳤어요.",
+    "en": "I have played the piano since I was a child.",
+    "situation": {
+     "ko": "오랜 취미를 말할 때",
+     "en": "Talking about a long hobby"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我学英语学了三年了。",
+    "read": "Wǒ xué yīngyǔ xué le sān nián le.",
+    "ko": "나는 3년 동안 영어를 공부했어요.",
+    "en": "I have studied English for three years.",
+    "situation": {
+     "ko": "공부 기간을 말할 때",
+     "en": "Talking about studying"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我……了……年了。",
+    "read": "Wǒ … le … nián le.",
+    "ko": "나는 ~ 동안 …했어요.",
+    "en": "I have ~ed for ~."
+   },
+   {
+    "id": "w2",
+    "t": "我从……起……。",
+    "read": "Wǒ cóng … qǐ ….",
+    "ko": "나는 ~부터 …했어요.",
+    "en": "I have ~ed since ~."
+   },
+   {
+    "id": "w3",
+    "t": "你……多长时间了？",
+    "read": "Nǐ … duō cháng shíjiān le?",
+    "ko": "얼마 동안 ~했어요?",
+    "en": "How long have you ~ed?"
+   },
+   {
+    "id": "w4",
+    "t": "他……了……年了。",
+    "read": "Tā … le … nián le.",
+    "ko": "그는 ~ 동안 …했어요.",
+    "en": "He has ~ed for ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "얼마 동안 어디에 살았는지, 얼마 동안 무엇을 공부했는지 for와 since를 써서 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about how long you have lived somewhere and studied something, using for and since."
+   },
+   "must_include": [
+    {
+     "label": "……了……年了",
+     "match": [
+      "年了"
+     ]
+    },
+    {
+     "label": "从……起",
+     "match": [
+      "从",
+      "起"
+     ]
+    }
+   ],
+   "model": "我在首尔住了五年了。我从2022年起学英语。我从小就弹钢琴。",
+   "model_trans": {
+    "ko": "나는 5년 동안 서울에 살았어요. 나는 2022년부터 영어를 공부했어요. 나는 어릴 때부터 피아노를 쳤어요.",
+    "en": "I have lived in Seoul for five years. I have studied English since 2022. I have played the piano since I was a child."
+   }
+  }
+ }
+}

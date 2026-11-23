@@ -1,0 +1,823 @@
+{
+ "meta": {
+  "id": "zh_a2_u33",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 33,
+  "concept": "A2.U33",
+  "status": "live",
+  "title": {
+   "target": "……的人・……的东西",
+   "ko": "who, which, that: 관계대명사로 설명하기",
+   "en": "Who, which and that"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "……的人",
+   "pos": "pron",
+   "read": "… De rén",
+   "ko": "~하는 사람",
+   "en": "who",
+   "ex": {
+    "t": "他是住在隔壁的人。",
+    "read": "Tā shì zhùzài gé bì de rén.",
+    "ko": "저 사람은 제 옆집에 사는 남자예요.",
+    "en": "He is the man who lives next door."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "……的东西",
+   "pos": "pron",
+   "read": "… De dōngxi",
+   "ko": "~하는 것",
+   "en": "which",
+   "ex": {
+    "t": "这是我每天用的包。",
+    "read": "Zhè shì wǒ měitiān yòng de bāo.",
+    "ko": "이건 매일 쓰는 가방이에요.",
+    "en": "This is a bag which I use every day."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "会……的",
+   "pos": "pron",
+   "read": "huì … de",
+   "ko": "~하는 것 (사람/사물)",
+   "en": "that",
+   "ex": {
+    "t": "它是会打扫房间的机器人。",
+    "read": "Tā shì huì dǎsǎo fángjiān de jī qì rén.",
+    "ko": "이건 방을 청소하는 로봇이에요.",
+    "en": "It's a robot that cleans the room."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "邻居",
+   "pos": "noun",
+   "read": "línjū",
+   "ko": "이웃",
+   "en": "neighbour",
+   "ex": {
+    "t": "我的邻居是个好人。",
+    "read": "Wǒ de línjū shì gè hǎo rén.",
+    "ko": "제 이웃은 친절한 사람이에요.",
+    "en": "My neighbour is a kind person."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "厨师",
+   "pos": "noun",
+   "read": "chúshī",
+   "ko": "요리사",
+   "en": "chef",
+   "ex": {
+    "t": "他是做意大利菜的厨师。",
+    "read": "Tā shì zuò yì dà lì cài de chúshī.",
+    "ko": "그는 이탈리아 음식을 만드는 요리사예요.",
+    "en": "He is a chef who makes Italian food."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "钥匙",
+   "pos": "noun",
+   "read": "yàoshi",
+   "ko": "열쇠",
+   "en": "key",
+   "ex": {
+    "t": "这是开门的钥匙。",
+    "read": "Zhè shì kāi mén de yàoshi.",
+    "ko": "이건 문을 여는 열쇠예요.",
+    "en": "This is the key that opens the door."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "机器",
+   "pos": "noun",
+   "read": "jī qì",
+   "ko": "기계",
+   "en": "machine",
+   "ex": {
+    "t": "这是做咖啡的机器。",
+    "read": "Zhè shì zuò kāfēi de jī qì.",
+    "ko": "이건 커피를 만드는 기계예요.",
+    "en": "It's a machine that makes coffee."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "歌手",
+   "pos": "noun",
+   "read": "gēshǒu",
+   "ko": "가수",
+   "en": "singer",
+   "ex": {
+    "t": "她是在韩国很有名的歌手。",
+    "read": "Tā shì zài Hánguó hěn yǒu míng de gēshǒu.",
+    "ko": "그녀는 한국에서 유명한 가수예요.",
+    "en": "She is a singer who is famous in Korea."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "选",
+   "pos": "verb",
+   "read": "xuǎn",
+   "ko": "고르다",
+   "en": "choose",
+   "ex": {
+    "t": "我选了最便宜的那个。",
+    "read": "Wǒ xuǎn le zuì piányi de nàge.",
+    "ko": "나는 가장 싼 걸 골랐어요.",
+    "en": "I chose the one which was cheapest."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "描述",
+   "pos": "verb",
+   "read": "miáo shù",
+   "ko": "설명하다",
+   "en": "describe",
+   "ex": {
+    "t": "请介绍一下你的朋友。",
+    "read": "Qǐng jièshào yíxià nǐ de péngyou.",
+    "ko": "친구를 설명해 보세요.",
+    "en": "Describe your friend."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "……的人・……的东西: 的 + 名词",
+   "en": "Who, which and that: ……的 + noun"
+  },
+  "explain": {
+   "ko": "중국어는 수식하는 말을 명사 앞에 두고 的로 연결합니다: 他是住在隔壁的人。(~하는 사람) 这是我每天用的包。(~하는 물건) 영어의 who · which · that에 해당하는 말은 따로 필요 없습니다.",
+   "en": "Chinese puts the describing clause before the noun and links it with 的: 他是住在隔壁的人。这是我每天用的包。 No word for who / which / that is needed."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "사람 / Person",
+     "动词 + 的 + 人",
+     "他是住在隔壁的人。"
+    ],
+    [
+     "물건 / Thing",
+     "动词 + 的 + 东西",
+     "这是我每天用的包。"
+    ],
+    [
+     "기계 / Machine",
+     "做……的机器",
+     "这是做咖啡的机器。"
+    ],
+    [
+     "좋아하는 / Like",
+     "我喜欢……的人",
+     "我喜欢善良的人。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "的 앞의 절이 뒤의 명사를 꾸밉니다.",
+    "en": "The clause before 的 modifies the noun after it."
+   },
+   {
+    "ko": "영어와 어순이 반대입니다.",
+    "en": "The order is the reverse of English."
+   }
+  ],
+  "examples": [
+   {
+    "t": "他是住在隔壁的人。",
+    "read": "Tā shì zhùzài gé bì de rén.",
+    "ko": "저 사람은 제 옆집에 사는 남자예요.",
+    "en": "He is the man who lives next door."
+   },
+   {
+    "t": "这是我每天用的包。",
+    "read": "Zhè shì wǒ měitiān yòng de bāo.",
+    "ko": "이건 매일 쓰는 가방이에요.",
+    "en": "This is a bag which I use every day."
+   },
+   {
+    "t": "它是会打扫房间的机器人。",
+    "read": "Tā shì huì dǎsǎo fángjiān de jī qì rén.",
+    "ko": "이건 방을 청소하는 로봇이에요.",
+    "en": "It's a robot that cleans the room."
+   },
+   {
+    "t": "他是做意大利菜的厨师。",
+    "read": "Tā shì zuò yì dà lì cài de chúshī.",
+    "ko": "그는 이탈리아 음식을 만드는 요리사예요.",
+    "en": "He is a chef who makes Italian food."
+   },
+   {
+    "t": "这是开门的钥匙。",
+    "read": "Zhè shì kāi mén de yàoshi.",
+    "ko": "이건 문을 여는 열쇠예요.",
+    "en": "This is the key that opens the door."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "他是住在隔壁___人。",
+    "options": [
+     "的",
+     "了",
+     "过"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "这是我每天用___包。",
+    "options": [
+     "的",
+     "得",
+     "地"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "它是会打扫房间___机器人。",
+    "options": [
+     "的",
+     "着",
+     "了"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "这是开门___钥匙。",
+    "options": [
+     "的",
+     "过",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "那个人是谁？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 사람이 누구예요?",
+     "en": "(Question) Who is that man?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "他是住在隔壁的厨师。",
+       "他是的住在隔壁厨师。",
+       "他是厨师住在隔壁的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这是什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이게 뭐예요?",
+     "en": "(Question) What is this?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "这是做咖啡的机器。",
+       "这是机器做咖啡的。",
+       "这是的做咖啡机器。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "那个人是谁？"
+      },
+      {
+       "s": "B",
+       "t": "他是住在隔壁的厨师，做意大利菜。"
+      },
+      {
+       "s": "A",
+       "t": "这是什么？"
+      },
+      {
+       "s": "B",
+       "t": "这是做咖啡的机器。我每天都用。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 저 사람이 누구야?\nB: 우리 옆집에 사는 요리사야. 이탈리아 음식을 만들어.\nA: 이건 뭐야?\nB: 커피를 만드는 기계야. 내가 매일 써.",
+     "en": "A: Who is that man?\nB: He's a chef who lives next door. He makes Italian food.\nA: What's this?\nB: It's a machine that makes coffee. I use it every day."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B的邻居做什么菜？",
+      "options": [
+       "意大利菜",
+       "韩国菜",
+       "中国菜"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我的邻居是个好人。他是做意大利菜的厨师。他的店里有一台做咖啡的大机器。我特别喜欢他做的比萨。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제 이웃은 친절한 사람이에요. 그는 이탈리아 음식을 만드는 요리사예요. 그의 가게에는 커피를 만드는 큰 기계가 있어요. 저는 그가 만든 피자를 아주 좋아해요.",
+     "en": "My neighbour is a kind person. He is a chef who makes Italian food. His shop has a big machine that makes coffee. I really like the pizza which he makes."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他的店里有什么？",
+      "options": [
+       "做咖啡的机器",
+       "大冰箱",
+       "钢琴"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你想找什么样的包？"
+      },
+      {
+       "s": "B",
+       "t": "能放电脑的大包。"
+      },
+      {
+       "s": "A",
+       "t": "这个怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "很好。我要这个。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 어떤 가방을 찾으세요?\n손님: 큰 가방이요. 노트북이 들어가는 가방이요.\n직원: 이건 어때요?\n손님: 좋네요. 이걸로 할게요.",
+     "en": "Clerk: What kind of bag are you looking for?\nGuest: A big bag that holds a laptop.\nClerk: How about this one?\nGuest: It's nice. I'll take it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客人: 能放______的大包",
+      "answers": [
+       "电脑"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "客人: 我要______个",
+      "answers": [
+       "这"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 他是住在隔壁___人。\n2) 这是我每天用___包。\n3) 这是开门___钥匙。",
+    "trans": {
+     "ko": "1) 저 사람은 제 옆집에 사는 남자예요. 2) 이건 매일 쓰는 가방이에요. 3) 이건 문을 여는 열쇠예요.",
+     "en": "1) He is the man who lives next door. 2) This is a bag which I use every day. 3) This is the key that opens the door."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他是住在隔壁___人。",
+      "options": [
+       "的",
+       "了",
+       "过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这是我每天用___包。",
+      "options": [
+       "的",
+       "得",
+       "地"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这是开门___钥匙。",
+      "options": [
+       "的",
+       "着",
+       "了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我的邻居是个好人。他是做意大利菜(1)厨师。他的店里有一台做咖啡(2)大机器。我特别喜欢他做(3)比萨。",
+    "trans": {
+     "ko": "제 이웃은 친절한 사람이에요. 그는 이탈리아 음식을 만드는 요리사예요. 그의 가게에는 커피를 만드는 큰 기계가 있어요.",
+     "en": "My neighbour is a kind person. He is a chef who makes Italian food. His shop has a big machine that makes coffee."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "的",
+       "了",
+       "着"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "的",
+       "得",
+       "地"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "的",
+       "了",
+       "过"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "启事\n寻找：能放电脑的大包\n电话：010-1234-5678",
+    "trans": {
+     "ko": "광고\n찾습니다: 노트북이 들어가는 큰 가방\n연락처: 010-1234-5678",
+     "en": "NOTICE\nWanted: a big bag that holds a laptop\nPhone: 010-1234-5678"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "要找什么？",
+      "options": [
+       "能放电脑的大包",
+       "一把钥匙",
+       "一只猫"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "怎么联系？",
+      "options": [
+       "打电话",
+       "发邮件",
+       "写信"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汤姆的邻居是厨师。他做意大利菜。汤姆喜欢他做的比萨。",
+    "trans": {
+     "ko": "톰의 이웃은 요리사예요. 그는 이탈리아 음식을 만들어요. 톰은 그가 만든 피자를 좋아해요.",
+     "en": "Tom's neighbour is a chef. He makes Italian food. Tom likes the pizza which he makes."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "汤姆的邻居是厨师。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆不喜欢比萨。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆有一辆车。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "他是住在隔壁的人。",
+    "read": "Tā shì zhùzài gé bì de rén.",
+    "ko": "저 사람은 제 옆집에 사는 남자예요.",
+    "en": "He is the man who lives next door.",
+    "situation": {
+     "ko": "사람을 설명할 때",
+     "en": "Describing a person"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "这是我每天用的包。",
+    "read": "Zhè shì wǒ měitiān yòng de bāo.",
+    "ko": "이건 매일 쓰는 가방이에요.",
+    "en": "This is a bag which I use every day.",
+    "situation": {
+     "ko": "물건을 설명할 때",
+     "en": "Describing a thing"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "它是会打扫房间的机器人。",
+    "read": "Tā shì huì dǎsǎo fángjiān de jī qì rén.",
+    "ko": "이건 방을 청소하는 로봇이에요.",
+    "en": "It's a robot that cleans the room.",
+    "situation": {
+     "ko": "기계를 설명할 때",
+     "en": "Describing a machine"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "他是做意大利菜的厨师。",
+    "read": "Tā shì zuò yì dà lì cài de chúshī.",
+    "ko": "그는 이탈리아 음식을 만드는 요리사예요.",
+    "en": "He is a chef who makes Italian food.",
+    "situation": {
+     "ko": "직업을 설명할 때",
+     "en": "Describing a job"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这是开门的钥匙。",
+    "read": "Zhè shì kāi mén de yàoshi.",
+    "ko": "이건 문을 여는 열쇠예요.",
+    "en": "This is the key that opens the door.",
+    "situation": {
+     "ko": "쓰임새를 설명할 때",
+     "en": "Describing a use"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "她是在韩国很有名的歌手。",
+    "read": "Tā shì zài Hánguó hěn yǒu míng de gēshǒu.",
+    "ko": "그녀는 한국에서 유명한 가수예요.",
+    "en": "She is a singer who is famous in Korea.",
+    "situation": {
+     "ko": "인물을 소개할 때",
+     "en": "Introducing a person"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我选了最便宜的那个。",
+    "read": "Wǒ xuǎn le zuì piányi de nàge.",
+    "ko": "가장 싼 걸 골랐어요.",
+    "en": "I chose the one which was cheapest.",
+    "situation": {
+     "ko": "고른 것을 말할 때",
+     "en": "Saying what you chose"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我喜欢善良的人。",
+    "read": "Wǒ xǐhuan shàn liáng de rén.",
+    "ko": "저는 친절한 사람이 좋아요.",
+    "en": "I like people who are kind.",
+    "situation": {
+     "ko": "좋아하는 사람을 말할 때",
+     "en": "Saying what kind of people you like"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……是……的人。",
+    "read": "… Shì … de rén.",
+    "ko": "~하는 사람",
+    "en": "someone who ~"
+   },
+   {
+    "id": "w2",
+    "t": "这是……的东西。",
+    "read": "Zhè shì … de dōngxi.",
+    "ko": "~하는 것",
+    "en": "something which / that ~"
+   },
+   {
+    "id": "w3",
+    "t": "它是……的机器。",
+    "read": "Tā shì … de jī qì.",
+    "ko": "이건 ~하는 …예요.",
+    "en": "It's a ... that ~."
+   },
+   {
+    "id": "w4",
+    "t": "我喜欢……的人。",
+    "read": "Wǒ xǐhuan … de rén.",
+    "ko": "저는 ~한 사람이 좋아요.",
+    "en": "I like people who ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "who, which, that을 써서 사람 한 명과 물건 한 개를 3문장으로 설명해 보세요.",
+    "en": "Describe one person and one thing in 3 sentences using who, which or that."
+   },
+   "must_include": [
+    {
+     "label": "……的人",
+     "match": [
+      "的人"
+     ]
+    },
+    {
+     "label": "……的东西",
+     "match": [
+      "的"
+     ]
+    }
+   ],
+   "model": "他是住在隔壁的人。这是做咖啡的机器。这是我每天用的包。",
+   "model_trans": {
+    "ko": "그는 제 옆집에 사는 남자예요. 이건 커피를 만드는 기계예요. 이건 제가 매일 쓰는 가방이에요.",
+    "en": "He is the man who lives next door. It's a machine that makes coffee. This is a bag which I use every day."
+   }
+  }
+ }
+}

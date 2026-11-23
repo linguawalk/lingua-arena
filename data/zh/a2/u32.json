@@ -1,0 +1,823 @@
+{
+ "meta": {
+  "id": "zh_a2_u32",
+  "lang": "zh",
+  "family": "asia",
+  "level": "a2",
+  "unit": 32,
+  "concept": "A2.U32",
+  "status": "live",
+  "title": {
+   "target": "在医院",
+   "ko": "병원에서",
+   "en": "At the doctor's"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "头疼",
+   "pos": "noun",
+   "read": "tóuténg",
+   "ko": "두통",
+   "en": "headache",
+   "ex": {
+    "t": "我头疼。",
+    "read": "Wǒ tóuténg.",
+    "ko": "나는 머리가 아파요.",
+    "en": "I have a headache."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "咳嗽",
+   "pos": "noun",
+   "read": "ké sòu",
+   "ko": "기침",
+   "en": "cough",
+   "ex": {
+    "t": "我咳嗽。",
+    "read": "Wǒ ké sòu.",
+    "ko": "나는 기침이 나요.",
+    "en": "I have a cough."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "发烧",
+   "pos": "noun",
+   "read": "fā shāo",
+   "ko": "열",
+   "en": "fever",
+   "ex": {
+    "t": "孩子发烧了。",
+    "read": "Háizi fā shāo le.",
+    "ko": "아이는 열이 있어요.",
+    "en": "The child has a fever."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "肚子疼",
+   "pos": "noun",
+   "read": "dùzi téng",
+   "ko": "배",
+   "en": "stomach",
+   "ex": {
+    "t": "我肚子疼。",
+    "read": "Wǒ dùzi téng.",
+    "ko": "배가 아파요.",
+    "en": "I have a stomach ache."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "医生",
+   "pos": "noun",
+   "read": "yīshēng",
+   "ko": "의사",
+   "en": "doctor",
+   "ex": {
+    "t": "你应该去看医生。",
+    "read": "Nǐ yīnggāi qù kàn yīshēng.",
+    "ko": "의사에게 가야 해요.",
+    "en": "You should see a doctor."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "药",
+   "pos": "noun",
+   "read": "yào",
+   "ko": "약",
+   "en": "medicine",
+   "ex": {
+    "t": "请吃这个药。",
+    "read": "Qǐng chī zhège yào.",
+    "ko": "이 약을 드세요.",
+    "en": "Take this medicine."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "休息",
+   "pos": "verb",
+   "read": "xiūxi",
+   "ko": "쉬다",
+   "en": "rest",
+   "ex": {
+    "t": "在家休息。",
+    "read": "Zài jiā xiūxi.",
+    "ko": "집에서 쉬세요.",
+    "en": "Rest at home."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "水",
+   "pos": "noun",
+   "read": "shuǐ",
+   "ko": "물",
+   "en": "water",
+   "ex": {
+    "t": "多喝水。",
+    "read": "Duō hē shuǐ.",
+    "ko": "물을 많이 마시세요.",
+    "en": "Drink plenty of water."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "生病",
+   "pos": "adj",
+   "read": "shēngbìng",
+   "ko": "아픈",
+   "en": "ill",
+   "ex": {
+    "t": "我生病了，所以没去上学。",
+    "read": "Wǒ shēngbìng le, suǒyǐ méi qù shàng xué.",
+    "ko": "저는 아파서 학교에 못 갔어요.",
+    "en": "I was ill, so I didn't go to school."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "预约",
+   "pos": "noun",
+   "read": "yùyuē",
+   "ko": "예약",
+   "en": "appointment",
+   "ex": {
+    "t": "我预约了医生。",
+    "read": "Wǒ yùyuē le yīshēng.",
+    "ko": "의사 예약이 있어요.",
+    "en": "I have a doctor's appointment."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "在医院: ……疼・应该・得",
+   "en": "At the doctor's: 应该 and 得"
+  },
+  "explain": {
+   "ko": "증상은 我 + 증상(头疼・咳嗽・发烧)로 말합니다. 조언은 应该(~하는 게 좋다), 의무는 得(~해야 한다), 금지는 别 + 동사입니다: 你应该去看医生。你得在家休息。别吃冷的。",
+   "en": "Symptoms: 我头疼 / 咳嗽 / 发烧. Advice: 应该; necessity: 得; prohibition: 别 + verb: 你应该去看医生。你得在家休息。别吃冷的。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "说法 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "증상 / Symptom",
+     "我 + 症状",
+     "我头疼。"
+    ],
+    [
+     "조언 / Advice",
+     "你应该 + 动词",
+     "你应该去看医生。"
+    ],
+    [
+     "의무 / Have to",
+     "你得 + 动词",
+     "你得在家休息。"
+    ],
+    [
+     "금지 / Don't",
+     "别 + 动词",
+     "别吃冷的。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "疼은 신체 부위 뒤에 붙입니다: 头疼, 肚子疼.",
+    "en": "疼 follows the body part: 头疼, 肚子疼."
+   },
+   {
+    "ko": "一天两次: 하루 두 번.",
+    "en": "一天两次 = twice a day."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我头疼。",
+    "read": "Wǒ tóuténg.",
+    "ko": "나는 머리가 아파요.",
+    "en": "I have a headache."
+   },
+   {
+    "t": "我发烧，还咳嗽。",
+    "read": "Wǒ fā shāo, hái ké sòu.",
+    "ko": "나는 열이 나고 기침을 해요.",
+    "en": "I have a fever and a cough."
+   },
+   {
+    "t": "你应该去看医生。",
+    "read": "Nǐ yīnggāi qù kàn yīshēng.",
+    "ko": "의사에게 가는 게 좋겠어요.",
+    "en": "You should see a doctor."
+   },
+   {
+    "t": "这个药一天吃两次。",
+    "read": "Zhège yào yì tiān chī liǎng cì.",
+    "ko": "이 약을 하루에 두 번 드세요.",
+    "en": "Take this medicine twice a day."
+   },
+   {
+    "t": "你得在家休息。",
+    "read": "Nǐ děi zài jiā xiūxi.",
+    "ko": "집에서 쉬어야 해요.",
+    "en": "You have to rest at home."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我___疼。",
+    "options": [
+     "头",
+     "头发",
+     "头了"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "你___去看医生。",
+    "options": [
+     "应该",
+     "已经",
+     "刚刚"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "你___在家休息。",
+    "options": [
+     "得",
+     "过",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "这个药一天吃___。",
+    "options": [
+     "两次",
+     "两个",
+     "两点"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你怎么了？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어디가 아파요?",
+     "en": "(Question) What's the matter?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我头疼。",
+       "我疼头了。",
+       "头我疼着。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个药怎么吃？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 약은 어떻게 먹어요?",
+     "en": "(Question) How do I take this medicine?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "一天吃两次。",
+       "一天两次吃了。",
+       "两次一天吃着。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你怎么了？"
+      },
+      {
+       "s": "B",
+       "t": "我头疼，还发烧。"
+      },
+      {
+       "s": "A",
+       "t": "多长时间了？"
+      },
+      {
+       "s": "B",
+       "t": "两天了。我还咳嗽。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어디가 아프세요?\nB: 머리가 아프고 열이 있어요.\nA: 언제부터 그랬어요?\nB: 이틀 전부터요. 기침도 해요.",
+     "en": "A: What's the matter?\nB: I have a headache and a fever.\nA: How long have you had them?\nB: For two days. I have a cough too."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B病了多长时间？",
+      "options": [
+       "两天",
+       "两个星期",
+       "两个月"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "医生说：“在家休息。多喝水。这个药一天吃两次。三天以后还不好，再来。”"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의사 선생님이 말했어요. 집에서 쉬세요. 물을 많이 드세요. 이 약을 하루에 두 번 드세요. 3일 후에도 낫지 않으면 다시 오세요.",
+     "en": "The doctor said, 'Rest at home. Drink plenty of water. Take this medicine twice a day. If you are not better in three days, come back.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这个药怎么吃？",
+      "options": [
+       "一天两次",
+       "一天一次",
+       "一天三次"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你预约了吗？"
+      },
+      {
+       "s": "B",
+       "t": "预约了，三点。"
+      },
+      {
+       "s": "A",
+       "t": "你叫什么名字？"
+      },
+      {
+       "s": "B",
+       "t": "艾娃。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 예약하셨어요?\n손님: 네, 3시에 예약했어요.\n직원: 성함이 어떻게 되세요?\n손님: 에바 리예요.",
+     "en": "Receptionist: Do you have an appointment?\nGuest: Yes, at three o'clock.\nReceptionist: What's your name?\nGuest: Eva Lee."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客人: 预约了，______点",
+      "answers": [
+       "三"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "客人: ______",
+      "answers": [
+       "艾娃"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我___疼。\n2) 你___去看医生。\n3) 这个药一天吃___。",
+    "trans": {
+     "ko": "1) 나는 머리가 아파요. 2) 의사에게 가는 게 좋겠어요. 3) 이 약을 하루에 두 번 드세요.",
+     "en": "1) I have a headache. 2) You should see a doctor. 3) Take this medicine twice a day."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我___疼。",
+      "options": [
+       "头",
+       "头发",
+       "头了"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "你___去看医生。",
+      "options": [
+       "应该",
+       "已经",
+       "刚刚"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这个药一天吃___。",
+      "options": [
+       "两次",
+       "两个",
+       "两点"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "医生说：“在家(1)。多喝(2)。这个药一天吃(3)。”",
+    "trans": {
+     "ko": "의사 선생님이 말했어요. 집에서 쉬세요. 물을 많이 드세요. 이 약을 하루에 두 번 드세요. 3일 후에도 낫지 않으면 다시 오세요.",
+     "en": "The doctor said, 'Rest at home. Drink plenty of water. Take this medicine twice a day. If you are not better in three days, come back.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "休息",
+       "工作",
+       "学习"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "水",
+       "药",
+       "茶了"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "两次",
+       "三天",
+       "一周"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "病人卡\n姓名：艾娃\n症状：头疼，发烧\n治疗：药，一天两次",
+    "trans": {
+     "ko": "진료 카드\n환자: 에바 리\n증상: 두통, 열\n처방: 약 하루 2회",
+     "en": "PATIENT CARD\nName: Eva Lee\nSymptoms: headache, fever\nTreatment: medicine twice a day"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "艾娃有什么症状？",
+      "options": [
+       "头疼，发烧",
+       "咳嗽",
+       "肚子疼"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "药一天吃几次？",
+      "options": [
+       "两次",
+       "一次",
+       "三次"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汤姆发烧，还咳嗽。他去看了医生。医生让他在家休息。",
+    "trans": {
+     "ko": "톰은 열이 나고 기침을 해요. 그는 의사에게 갔어요. 의사는 그에게 집에서 쉬라고 했어요.",
+     "en": "Tom has a fever and a cough. He went to the doctor. The doctor told him to rest at home."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "汤姆发烧了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆肚子疼。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆有一只猫。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你怎么了？",
+    "read": "Nǐ zěnme le?",
+    "ko": "어디가 아파요?",
+    "en": "What's the matter?",
+    "situation": {
+     "ko": "증상을 물을 때",
+     "en": "Asking what is wrong"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我头疼。",
+    "read": "Wǒ tóuténg.",
+    "ko": "나는 머리가 아파요.",
+    "en": "I have a headache.",
+    "situation": {
+     "ko": "증상을 말할 때",
+     "en": "Saying a symptom"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我发烧，还咳嗽。",
+    "read": "Wǒ fā shāo, hái ké sòu.",
+    "ko": "열이 나고 기침을 해요.",
+    "en": "I have a fever and a cough.",
+    "situation": {
+     "ko": "여러 증상을 말할 때",
+     "en": "Saying more symptoms"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "你生病多长时间了？",
+    "read": "Nǐ shēngbìng duō cháng shíjiān le?",
+    "ko": "언제부터 아팠어요?",
+    "en": "How long have you felt ill?",
+    "situation": {
+     "ko": "기간을 물을 때",
+     "en": "Asking how long"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "你应该去看医生。",
+    "read": "Nǐ yīnggāi qù kàn yīshēng.",
+    "ko": "의사에게 가는 게 좋겠어요.",
+    "en": "You should see a doctor.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "这个药一天吃两次。",
+    "read": "Zhège yào yì tiān chī liǎng cì.",
+    "ko": "이 약을 하루에 두 번 드세요.",
+    "en": "Take this medicine twice a day.",
+    "situation": {
+     "ko": "약 복용법을 말할 때",
+     "en": "Saying how to take medicine"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "你得多喝水。",
+    "read": "Nǐ de duō hē shuǐ.",
+    "ko": "물을 많이 마셔야 해요.",
+    "en": "You have to drink plenty of water.",
+    "situation": {
+     "ko": "필요한 일을 말할 때",
+     "en": "Saying what is necessary"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我预约了医生。",
+    "read": "Wǒ yùyuē le yīshēng.",
+    "ko": "의사 예약이 있어요.",
+    "en": "I have a doctor's appointment.",
+    "situation": {
+     "ko": "예약을 말할 때",
+     "en": "Talking about an appointment"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我……疼。",
+    "read": "Wǒ … téng.",
+    "ko": "나는 ~이 아파요.",
+    "en": "I have a ~."
+   },
+   {
+    "id": "w2",
+    "t": "你应该……。",
+    "read": "Nǐ yīnggāi ….",
+    "ko": "~하는 게 좋겠어요.",
+    "en": "You should ~."
+   },
+   {
+    "id": "w3",
+    "t": "你得……。",
+    "read": "Nǐ děi ….",
+    "ko": "~해야 해요.",
+    "en": "You have to ~."
+   },
+   {
+    "id": "w4",
+    "t": "别……。",
+    "read": "Bié ….",
+    "ko": "~하지 마세요.",
+    "en": "Don't ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "아플 때 하는 말을 3문장으로 써 보세요: 증상, 의사의 조언, 약 복용법.",
+    "en": "Write 3 sentences: your symptom, the doctor's advice and how to take the medicine."
+   },
+   "must_include": [
+    {
+     "label": "应该",
+     "match": [
+      "应该"
+     ]
+    },
+    {
+     "label": "得",
+     "match": [
+      "得"
+     ]
+    }
+   ],
+   "model": "我头疼。医生说我应该在家休息。你得多喝水。这个药我一天吃两次。",
+   "model_trans": {
+    "ko": "나는 머리가 아파요. 의사가 집에서 쉬라고 했어요. 이 약을 하루에 두 번 먹어요.",
+    "en": "I have a headache. The doctor says I should rest at home. I take this medicine twice a day."
+   }
+  }
+ }
+}
