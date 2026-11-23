@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "id": "ja_a2_u41",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 41,
+  "concept": "A2.U41",
+  "status": "live",
+  "title": {
+   "target": "もしも〜",
+   "ko": "가정해 보기: 제2 조건문 (If I had...)",
+   "en": "If I had...: imaginary situations"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "宝くじ",
+   "pos": "noun",
+   "read": "たからくじ",
+   "ko": "복권",
+   "en": "lottery",
+   "ex": {
+    "t": "もし宝くじが当たったら、旅行します。",
+    "read": "もしたからくじがあたったら、りょこうします。",
+    "ko": "복권에 당첨되면 여행할 거예요.",
+    "en": "If I won the lottery, I would travel."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "金持ち",
+   "pos": "adj",
+   "read": "かねもち",
+   "ko": "부자인",
+   "en": "rich",
+   "ex": {
+    "t": "もし金持ちだったら、大きな家を買います。",
+    "read": "もしかねもちだったら、おおきないえをかいます。",
+    "ko": "내가 부자라면 큰 집을 살 거예요.",
+    "en": "If I were rich, I would buy a big house."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "もっと時間",
+   "pos": "phrase",
+   "read": "もっとじかん",
+   "ko": "시간이 더 있다면",
+   "en": "more time",
+   "ex": {
+    "t": "もっと時間があったら、運動します。",
+    "read": "もっとじかんがあったら、うんどうします。",
+    "ko": "시간이 더 있다면 운동할 거예요.",
+    "en": "If I had more time, I would exercise."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "買う",
+   "pos": "verb",
+   "read": "かう",
+   "ko": "살다",
+   "en": "buy",
+   "ex": {
+    "t": "車を買うでしょう。",
+    "read": "くるまをかうでしょう。",
+    "ko": "차를 살 거예요.",
+    "en": "I would buy a car."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "旅行する",
+   "pos": "verb",
+   "read": "りょこうする",
+   "ko": "여행하다",
+   "en": "travel",
+   "ex": {
+    "t": "世界中を旅行したいです。",
+    "read": "せかいじゅうをりょこうしたいです。",
+    "ko": "세계를 여행할 거예요.",
+    "en": "I would travel around the world."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "助ける",
+   "pos": "verb",
+   "read": "たすける",
+   "ko": "도와주다",
+   "en": "help",
+   "ex": {
+    "t": "貧しい人を助けたいです。",
+    "read": "まずしいひとをたすけたいです。",
+    "ko": "가난한 사람들을 도와줄 거예요.",
+    "en": "I would help poor people."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "私があなただったら",
+   "pos": "phrase",
+   "read": "わたしがあなただったら",
+   "ko": "만약 내가 너라면",
+   "en": "if I were you",
+   "ex": {
+    "t": "私があなただったら、医者に行きます。",
+    "read": "わたしがあなただったら、いしゃにいきます。",
+    "ko": "내가 너라면 의사에게 갈 거예요.",
+    "en": "If I were you, I would see a doctor."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "夢",
+   "pos": "noun",
+   "read": "ゆめ",
+   "ko": "꿈",
+   "en": "dream",
+   "ex": {
+    "t": "私の夢は作家になることです。",
+    "read": "わたしのゆめはさっかになることです。",
+    "ko": "내 꿈은 작가가 되는 거예요.",
+    "en": "My dream is to be a writer."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "やめる",
+   "pos": "verb",
+   "read": "やめる",
+   "ko": "그만두다",
+   "en": "quit",
+   "ex": {
+    "t": "仕事はやめません。",
+    "read": "しごとはやめません。",
+    "ko": "나라면 일을 그만두지 않을 거예요.",
+    "en": "I wouldn't quit my job."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "たぶん",
+   "pos": "adv",
+   "read": "たぶん",
+   "ko": "아마",
+   "en": "maybe",
+   "ex": {
+    "t": "たぶんパリへ行くでしょう。",
+    "read": "たぶんパリへいくでしょう。",
+    "ko": "아마 파리에 갈 거예요.",
+    "en": "Maybe I would go to Paris."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "もしも〜: もし〜たら、〜ます",
+   "en": "If I had...: もし〜たら、〜ます"
+  },
+  "explain": {
+   "ko": "현실과 다른 가정은 もし〜たら、〜(만약 ~라면, ~하겠다)로 말합니다: もし宝くじが当たったら、旅行します。 조언은 私があなただったら、〜입니다. 〜たら 앞은 た형, 뒤에는 의지나 희망(〜たいです)을 씁니다.",
+   "en": "Imaginary situations use もし〜たら、〜: もし宝くじが当たったら、旅行します。 Advice: 私があなただったら、〜. Put the た-form before たら and a wish or intention after it."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "가정 / If",
+     "もし〜たら",
+     "もし宝くじが当たったら"
+    ],
+    [
+     "결과 / Result",
+     "〜ます・〜たいです",
+     "旅行したいです。"
+    ],
+    [
+     "조언 / Advice",
+     "私があなただったら、〜",
+     "私があなただったら、医者に行きます。"
+    ],
+    [
+     "질문 / Question",
+     "もし〜たら、何をしますか",
+     "もし宝くじが当たったら、何をしますか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "もし는 생략해도 됩니다.",
+    "en": "もし can be left out."
+   },
+   {
+    "ko": "뒤 문장은 〜たい, 〜でしょう, 〜ます 어느 것도 가능합니다.",
+    "en": "The main clause can be 〜たい, 〜でしょう or 〜ます."
+   }
+  ],
+  "examples": [
+   {
+    "t": "もし宝くじが当たったら、旅行します。",
+    "read": "もしたからくじがあたったら、りょこうします。",
+    "ko": "복권에 당첨되면 여행할 거예요.",
+    "en": "If I won the lottery, I would travel."
+   },
+   {
+    "t": "もし金持ちだったら、大きな家を買います。",
+    "read": "もしかねもちだったら、おおきないえをかいます。",
+    "ko": "내가 부자라면 큰 집을 살 거예요.",
+    "en": "If I were rich, I would buy a big house."
+   },
+   {
+    "t": "もっと時間があったら、運動します。",
+    "read": "もっとじかんがあったら、うんどうします。",
+    "ko": "시간이 더 있다면 운동할 거예요.",
+    "en": "If I had more time, I would exercise."
+   },
+   {
+    "t": "私があなただったら、医者に行きます。",
+    "read": "わたしがあなただったら、いしゃにいきます。",
+    "ko": "내가 너라면 의사에게 갈 거예요.",
+    "en": "If I were you, I would see a doctor."
+   },
+   {
+    "t": "仕事はやめません。",
+    "read": "しごとはやめません。",
+    "ko": "나라면 일을 그만두지 않을 거예요.",
+    "en": "I wouldn't quit my job."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "もし宝くじが当たっ___、旅行します。",
+    "options": [
+     "たら",
+     "ても",
+     "ながら"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "もし金持ち___、大きな家を買います。",
+    "options": [
+     "だったら",
+     "なら",
+     "でしたら"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "私があなただった___、医者に行きます。",
+    "options": [
+     "ら",
+     "と",
+     "が"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "もっと時間があったら、運動___。",
+    "options": [
+     "します",
+     "しました",
+     "していました"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "もし宝くじが当たったら、何をしますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 복권에 당첨되면 뭘 할 거예요?",
+     "en": "(Question) What would you do if you won the lottery?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "世界中を旅行したいです。",
+       "世界中を旅行しました。",
+       "世界中を旅行しています。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "もっと時間があったら、何をしますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 시간이 더 있다면 뭘 할 거예요?",
+     "en": "(Question) What would you do if you had more time?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "運動したいです。",
+       "運動しました。",
+       "運動していました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "もし宝くじが当たったら、何をする？"
+      },
+      {
+       "s": "B",
+       "t": "世界中を旅行するよ。あなたは？"
+      },
+      {
+       "s": "A",
+       "t": "大きな家を買って、貧しい人を助けたいな。"
+      },
+      {
+       "s": "B",
+       "t": "それはとてもいい考えだね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 복권에 당첨되면 뭘 할래?\nB: 세계를 여행할 거야. 너는?\nA: 나는 큰 집을 사고 가난한 사람들을 도울 거야.\nB: 정말 좋은 생각이야.",
+     "en": "A: What would you do if you won the lottery?\nB: I would travel around the world. What about you?\nA: I would buy a big house and help poor people.\nB: That's a really good idea."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Aはお金で何をしたいですか。",
+      "options": [
+       "大きな家を買う",
+       "旅行する",
+       "貯金する"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私の夢は作家になることです。もっと時間があったら、毎日書きたいです。もっとお金があったら、仕事を減らして、パリに住みたいです。でも、今は学校へ行かなければなりません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제 꿈은 작가가 되는 거예요. 시간이 더 있다면 매일 글을 쓸 거예요. 돈이 더 있다면 일을 줄이고 파리에서 살 거예요. 하지만 지금은 학교에 가야 해요.",
+     "en": "My dream is to be a writer. If I had more time, I would write every day. If I had more money, I would work less and live in Paris. But now I have to go to school."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "話す人はどこに住みたいですか。",
+      "options": [
+       "パリ",
+       "東京",
+       "ローマ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "もし宝くじが当たったら、何をしますか。"
+      },
+      {
+       "s": "B",
+       "t": "大きな家を買います。"
+      },
+      {
+       "s": "A",
+       "t": "仕事はやめますか。"
+      },
+      {
+       "s": "B",
+       "t": "いいえ、やめません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 복권에 당첨되면 뭘 하실 거예요?\n손님: 큰 집을 살 거예요.\n직원: 일은 그만두실 거예요?\n손님: 아니요, 그만두지 않을 거예요.",
+     "en": "Interviewer: What would you do if you won the lottery?\nGuest: I would buy a big house.\nInterviewer: Would you quit your job?\nGuest: No, I wouldn't quit."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さん: ______家を買います",
+      "answers": [
+       "大きな"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さん: いいえ、______ません",
+      "answers": [
+       "やめ"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) もし宝くじが当たっ___、旅行します。\n2) もし金持ち___、大きな家を買います。\n3) 私があなただった___、医者に行きます。",
+    "trans": {
+     "ko": "1) 복권에 당첨되면 여행할 거예요. 2) 내가 부자라면 큰 집을 살 거예요. 3) 내가 너라면 의사에게 갈 거예요.",
+     "en": "1) If I won the lottery, I would travel. 2) If I were rich, I would buy a big house. 3) If I were you, I would see a doctor."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "もし宝くじが当たっ___、旅行します。",
+      "options": [
+       "たら",
+       "ても",
+       "ながら"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "もし金持ち___、大きな家を買います。",
+      "options": [
+       "だったら",
+       "なら",
+       "でしたら"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私があなただった___、医者に行きます。",
+      "options": [
+       "ら",
+       "と",
+       "が"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私の夢は作家になることです。もっと時間が(1)、毎日書きたいです。もっとお金が(2)、仕事を減らして、(3)に住みたいです。",
+    "trans": {
+     "ko": "제 꿈은 작가가 되는 거예요. 시간이 더 있다면 매일 글을 쓸 거예요. 돈이 더 있다면 일을 줄이고 파리에서 살 거예요.",
+     "en": "My dream is to be a writer. If I had more time, I would write every day. If I had more money, I would work less and live in Paris."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "あったら",
+       "あるので",
+       "あって"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "あったら",
+       "あるので",
+       "あって"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "パリ",
+       "ローマ",
+       "東京"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "アンケート\nもし宝くじが当たったら、何をしますか。\nA 旅行する\nB 家を買う\nC お金を貯める",
+    "trans": {
+     "ko": "퀴즈\n복권에 당첨되면 뭘 할래요?\nA 여행하기\nB 집 사기\nC 저금하기",
+     "en": "QUIZ\nWhat would you do if you won the lottery?\nA travel\nB buy a house\nC save the money"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "旅行するのはどれですか。",
+      "options": [
+       "A",
+       "B",
+       "C"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "貯金するのはどれですか。",
+      "options": [
+       "C",
+       "A",
+       "B"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "エバの夢は作家になることです。もっと時間があったら、毎日書きたいです。パリに住みたいです。",
+    "trans": {
+     "ko": "에바의 꿈은 작가가 되는 거예요. 시간이 더 있다면 그녀는 매일 글을 쓸 거예요. 그녀는 파리에서 살고 싶어요.",
+     "en": "Eva's dream is to be a writer. If she had more time, she would write every day. She would like to live in Paris."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "エバは作家になりたいです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "エバはもうパリに住んでいます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "エバは猫を飼っています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "もし宝くじが当たったら、何をしますか。",
+    "read": "もしたからくじがあたったら、なにをしますか。",
+    "ko": "복권에 당첨되면 뭘 할 거예요?",
+    "en": "What would you do if you won the lottery?",
+    "situation": {
+     "ko": "가정 질문을 할 때",
+     "en": "Asking an imaginary question"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "もし宝くじが当たったら、旅行します。",
+    "read": "もしたからくじがあたったら、りょこうします。",
+    "ko": "복권에 당첨되면 여행할 거예요.",
+    "en": "If I won the lottery, I would travel.",
+    "situation": {
+     "ko": "상상을 말할 때",
+     "en": "Describing an imaginary situation"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "もし金持ちだったら、大きな家を買います。",
+    "read": "もしかねもちだったら、おおきないえをかいます。",
+    "ko": "내가 부자라면 큰 집을 살 거예요.",
+    "en": "If I were rich, I would buy a big house.",
+    "situation": {
+     "ko": "부자라고 가정할 때",
+     "en": "Imagining being rich"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "もっと時間があったら、運動します。",
+    "read": "もっとじかんがあったら、うんどうします。",
+    "ko": "시간이 더 있다면 운동할 거예요.",
+    "en": "If I had more time, I would exercise.",
+    "situation": {
+     "ko": "소망을 말할 때",
+     "en": "Saying what you wish"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "私があなただったら、医者に行きます。",
+    "read": "わたしがあなただったら、いしゃにいきます。",
+    "ko": "내가 너라면 의사에게 갈 거예요.",
+    "en": "If I were you, I would see a doctor.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "仕事はやめません。",
+    "read": "しごとはやめません。",
+    "ko": "나라면 일을 그만두지 않을 거예요.",
+    "en": "I wouldn't quit my job.",
+    "situation": {
+     "ko": "부정 가정을 말할 때",
+     "en": "Saying what you wouldn't do"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "貧しい人を助けたいです。",
+    "read": "まずしいひとをたすけたいです。",
+    "ko": "가난한 사람들을 도와줄 거예요.",
+    "en": "I would help poor people.",
+    "situation": {
+     "ko": "좋은 계획을 말할 때",
+     "en": "Saying a kind plan"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "私の夢は作家になることです。",
+    "read": "わたしのゆめはさっかになることです。",
+    "ko": "내 꿈은 작가가 되는 거예요.",
+    "en": "My dream is to be a writer.",
+    "situation": {
+     "ko": "꿈을 말할 때",
+     "en": "Talking about a dream"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "もし〜たら、〜ます。",
+    "read": "もし〜たら、〜ます。",
+    "ko": "만약 ~라면 …할 거예요.",
+    "en": "If I ~ (past), I would ~."
+   },
+   {
+    "id": "w2",
+    "t": "私があなただったら、〜。",
+    "read": "わたしがあなただったら、〜。",
+    "ko": "내가 너라면 ~할 거예요.",
+    "en": "If I were you, I would ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜ません。",
+    "read": "〜ません。",
+    "ko": "~하지 않을 거예요.",
+    "en": "I wouldn't ~."
+   },
+   {
+    "id": "w4",
+    "t": "もし〜たら、何をしますか。",
+    "read": "もし〜たら、なにをしますか。",
+    "ko": "너라면 뭘 할래요?",
+    "en": "What would you do if ~?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "제2 조건문으로 상상하는 문장 3개를 써 보세요 (복권, 시간, 조언).",
+    "en": "Write 3 second-conditional sentences (lottery, time, advice)."
+   },
+   "must_include": [
+    {
+     "label": "もし〜たら",
+     "match": [
+      "たら"
+     ]
+    },
+    {
+     "label": "〜たいです",
+     "match": [
+      "旅行",
+      "行きます"
+     ]
+    }
+   ],
+   "model": "もし宝くじが当たったら、世界中を旅行します。もっと時間があったら、運動します。私があなただったら、医者に行きます。",
+   "model_trans": {
+    "ko": "복권에 당첨되면 세계를 여행할 거예요. 시간이 더 있다면 운동할 거예요. 내가 너라면 의사에게 갈 거예요.",
+    "en": "If I won the lottery, I would travel around the world. If I had more time, I would exercise. If I were you, I would see a doctor."
+   }
+  }
+ }
+}

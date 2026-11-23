@@ -1,0 +1,825 @@
+{
+ "meta": {
+  "id": "ja_a2_u40",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 40,
+  "concept": "A2.U40",
+  "status": "live",
+  "title": {
+   "target": "事実と習慣",
+   "ko": "제로 조건문: 사실과 습관 (if + 현재)",
+   "en": "Zero conditional: facts and habits"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "〜と",
+   "pos": "conj",
+   "read": "〜と",
+   "ko": "만약 ~라면",
+   "en": "if",
+   "ex": {
+    "t": "水を熱すると、わきます。",
+    "read": "みずをあつすると、わきます。",
+    "ko": "물을 가열하면 끓어요.",
+    "en": "If you heat water, it boils."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "熱する",
+   "pos": "verb",
+   "read": "あつする",
+   "ko": "가열하다",
+   "en": "heat",
+   "ex": {
+    "t": "氷を熱すると、とけます。",
+    "read": "こおりをあつすると、とけます。",
+    "ko": "얼음을 가열하면 녹아요.",
+    "en": "If you heat ice, it melts."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "こおる",
+   "pos": "verb",
+   "read": "こおる",
+   "ko": "얼다",
+   "en": "freeze",
+   "ex": {
+    "t": "水が0度になると、こおります。",
+    "read": "みずが0どになると、こおります。",
+    "ko": "물이 0도가 되면 얼어요.",
+    "en": "If water gets to 0 degrees, it freezes."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "とける",
+   "pos": "verb",
+   "read": "とける",
+   "ko": "녹다",
+   "en": "melt",
+   "ex": {
+    "t": "暑くなると、氷はとけます。",
+    "read": "あつくなると、こおりはとけます。",
+    "ko": "얼음은 열을 받으면 녹아요.",
+    "en": "Ice melts if it gets hot."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "わく",
+   "pos": "verb",
+   "read": "わく",
+   "ko": "끓다",
+   "en": "boil",
+   "ex": {
+    "t": "水は100度でわきます。",
+    "read": "みずは100どでわきます。",
+    "ko": "물은 100도에서 끓어요.",
+    "en": "Water boils at 100 degrees."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "混ぜる",
+   "pos": "verb",
+   "read": "まぜる",
+   "ko": "섞다",
+   "en": "mix",
+   "ex": {
+    "t": "青と黄色を混ぜると、緑になります。",
+    "read": "あおときいろをまぜると、みどりになります。",
+    "ko": "파랑과 노랑을 섞으면 초록이 돼요.",
+    "en": "If you mix blue and yellow, you get green."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "押す",
+   "pos": "verb",
+   "read": "おす",
+   "ko": "누르다",
+   "en": "press",
+   "ex": {
+    "t": "ボタンを押すと、電気がつきます。",
+    "read": "ボタンをおすと、でんきがつきます。",
+    "ko": "버튼을 누르면 불이 켜져요.",
+    "en": "If you press the button, the light comes on."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "疲れる",
+   "pos": "phrase",
+   "read": "つかれる",
+   "ko": "피곤하다",
+   "en": "feel tired",
+   "ex": {
+    "t": "遅く寝ると、疲れます。",
+    "read": "おそくねると、つかれます。",
+    "ko": "늦게 자면 피곤해요.",
+    "en": "If I go to bed late, I feel tired."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "いつも",
+   "pos": "adv",
+   "read": "いつも",
+   "ko": "항상",
+   "en": "always",
+   "ex": {
+    "t": "雨が降ると、いつも傘を持っていきます。",
+    "read": "あめがふると、いつもかさをもっていきます。",
+    "ko": "비가 오면 나는 항상 우산을 가져가요.",
+    "en": "If it rains, I always take an umbrella."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "たいてい",
+   "pos": "adv",
+   "read": "たいてい",
+   "ko": "보통",
+   "en": "usually",
+   "ex": {
+    "t": "早く起きると、たいてい散歩に行きます。",
+    "read": "はやくおきると、たいていさんぽにいきます。",
+    "ko": "일찍 일어나면 보통 산책해요.",
+    "en": "If I get up early, I usually go for a walk."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "事実と習慣: 〜と〜・〜ば",
+   "en": "Zero conditional: 〜と〜 / 〜ば"
+  },
+  "explain": {
+   "ko": "いつも同じ結果になる事実や習慣は 〜と、〜(~하면 ~합니다)로 말합니다: 水を熱すると、わきます。ボタンを押すと、電気がつきます。 習慣は〜と、いつも〜で言います: 雨が降ると、いつも傘を持っていきます。 뒤 문장에는 명령·의지를 쓰지 않습니다.",
+   "en": "For facts and habits that always follow, use 〜と、〜: 水を熱すると、わきます。ボタンを押すと、電気がつきます。 For habits: 雨が降ると、いつも傘を持っていきます。 Do not put commands or intentions after と."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "사실 / Fact",
+     "〜と、〜ます",
+     "水を熱すると、わきます。"
+    ],
+    [
+     "결과 / Result",
+     "〜と、〜になります",
+     "青と黄色を混ぜると、緑になります。"
+    ],
+    [
+     "습관 / Habit",
+     "〜と、いつも〜",
+     "雨が降ると、いつも傘を持っていきます。"
+    ],
+    [
+     "부정 / Negative",
+     "〜ないと、〜",
+     "寝ないと、疲れます。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "〜と 앞은 보통형, 〜ば로도 바꿀 수 있습니다.",
+    "en": "The verb before と is plain form; 〜ば works too."
+   },
+   {
+    "ko": "と는 같은 결과가 항상 나올 때 씁니다.",
+    "en": "と is for results that always follow."
+   }
+  ],
+  "examples": [
+   {
+    "t": "水を熱すると、わきます。",
+    "read": "みずをあつすると、わきます。",
+    "ko": "물을 가열하면 끓어요.",
+    "en": "If you heat water, it boils."
+   },
+   {
+    "t": "青と黄色を混ぜると、緑になります。",
+    "read": "あおときいろをまぜると、みどりになります。",
+    "ko": "파랑과 노랑을 섞으면 초록이 돼요.",
+    "en": "If you mix blue and yellow, you get green."
+   },
+   {
+    "t": "ボタンを押すと、電気がつきます。",
+    "read": "ボタンをおすと、でんきがつきます。",
+    "ko": "버튼을 누르면 불이 켜져요.",
+    "en": "If you press the button, the light comes on."
+   },
+   {
+    "t": "遅く寝ると、疲れます。",
+    "read": "おそくねると、つかれます。",
+    "ko": "늦게 자면 피곤해요.",
+    "en": "If I go to bed late, I feel tired."
+   },
+   {
+    "t": "雨が降ると、いつも傘を持っていきます。",
+    "read": "あめがふると、いつもかさをもっていきます。",
+    "ko": "비가 오면 항상 우산을 가져가요.",
+    "en": "If it rains, I always take an umbrella."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "水を熱する___、わきます。",
+    "options": [
+     "と",
+     "なら",
+     "から"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "青と黄色を混ぜる___、緑になります。",
+    "options": [
+     "と",
+     "ので",
+     "のに"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "遅く寝る___、疲れます。",
+    "options": [
+     "と",
+     "ばかり",
+     "ながら"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "雨が降る___、いつも傘を持っていきます。",
+    "options": [
+     "と",
+     "のを",
+     "ほど"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "水を熱するとどうなりますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 물을 가열하면 어떻게 돼요?",
+     "en": "(Question) What happens if you heat water?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "水を熱すると、わきます。",
+       "水を熱しながら、わきます。",
+       "水を熱したら、わいてください。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "雨が降るとどうしますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 비가 오면 뭐 해요?",
+     "en": "(Question) What do you do if it rains?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "傘を持っていきます。",
+       "傘を持っていくでしょう。",
+       "傘を持っていってください。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "青と黄色を混ぜると、何色になる？"
+      },
+      {
+       "s": "B",
+       "t": "緑になるよ。赤と黄色を混ぜると、オレンジになるよ。"
+      },
+      {
+       "s": "A",
+       "t": "雨が降ると、どうする？"
+      },
+      {
+       "s": "B",
+       "t": "雨が降ると、いつも傘を持っていくよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 파랑과 노랑을 섞으면 무슨 색이 돼?\nB: 초록이 돼. 그리고 빨강과 노랑을 섞으면 주황이 돼.\nA: 너는 비가 오면 뭐 해?\nB: 비가 오면 항상 우산을 가져가.",
+     "en": "A: What colour do you get if you mix blue and yellow?\nB: You get green. And if you mix red and yellow, you get orange.\nA: What do you do if it rains?\nB: If it rains, I always take an umbrella."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "赤と黄色を混ぜると何色になりますか。",
+      "options": [
+       "オレンジ",
+       "緑",
+       "紫"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "理科の授業で、先生は言いました。「水を熱すると、わきます。水が零度になると、こおります。暑くなると、氷はとけます。」これらの事実をみんな覚えなければなりません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "과학 시간에 선생님이 말했어요. 물을 가열하면 끓어요. 물이 0도가 되면 얼어요. 얼음은 열을 받으면 녹아요. 우리는 이 사실을 모두 외워야 해요.",
+     "en": "In science class the teacher said, 'If you heat water, it boils. If water gets to zero degrees, it freezes. Ice melts if it gets hot.' We all have to remember these facts."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "水が零度になるとどうなりますか。",
+      "options": [
+       "こおる",
+       "わく",
+       "きえる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ボタンを押すとどうなりますか。"
+      },
+      {
+       "s": "B",
+       "t": "電気がつきます。"
+      },
+      {
+       "s": "A",
+       "t": "二回押すと？"
+      },
+      {
+       "s": "B",
+       "t": "電気が消えます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 버튼을 누르면 어떻게 돼요?\n손님: 불이 켜져요.\n직원: 두 번 누르면요?\n손님: 불이 꺼져요.",
+     "en": "Assistant: What happens if you press the button?\nGuest: The light comes on.\nAssistant: And if you press it twice?\nGuest: The light goes off."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さん: ______がつきます",
+      "answers": [
+       "電気"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さん: 電気が______ます",
+      "answers": [
+       "消え"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 水を熱する___、わきます。\n2) 青と黄色を混ぜる___、緑になります。\n3) ボタンを押す___、電気がつきます。",
+    "trans": {
+     "ko": "1) 물을 가열하면 끓어요. 2) 파랑과 노랑을 섞으면 초록이 돼요. 3) 버튼을 누르면 불이 켜져요.",
+     "en": "1) If you heat water, it boils. 2) If you mix blue and yellow, you get green. 3) If you press the button, the light comes on."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "水を熱する___、わきます。",
+      "options": [
+       "と",
+       "ので",
+       "のに"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "青と黄色を混ぜる___、緑になります。",
+      "options": [
+       "と",
+       "ので",
+       "のに"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ボタンを押す___、電気がつきます。",
+      "options": [
+       "と",
+       "ので",
+       "のに"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "理科の授業で、先生は言いました。「水を(1)、わきます。水が零度に(2)、こおります。暑くなると、氷は(3)。」",
+    "trans": {
+     "ko": "과학 시간에 선생님이 말했어요. 물을 가열하면 끓어요. 물이 0도가 되면 얼어요. 얼음은 열을 받으면 녹아요.",
+     "en": "In science class the teacher said, 'If you heat water, it boils. If water gets to zero degrees, it freezes. Ice melts if it gets hot.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "熱すると",
+       "熱しながら",
+       "熱してください"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "なると",
+       "なりながら",
+       "なってください"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "とけます",
+       "とけてください",
+       "とけたい"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "使い方\nボタンを一回押すと、電気がつきます。\n二回押すと、電気が消えます。",
+    "trans": {
+     "ko": "사용 설명서\n버튼을 한 번 누르면 불이 켜집니다.\n두 번 누르면 불이 꺼집니다.",
+     "en": "INSTRUCTIONS\nIf you press the button once, the light comes on.\nIf you press it twice, the light goes off."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "一回押すとどうなりますか。",
+      "options": [
+       "電気がつく",
+       "電気が消える",
+       "何も起きない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "二回押すとどうなりますか。",
+      "options": [
+       "電気が消える",
+       "電気がつく",
+       "音が鳴る"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "トムは雨が降ると、いつも傘を持っていきます。遅く寝ると、疲れます。早く起きると、散歩に行きます。",
+    "trans": {
+     "ko": "톰은 비가 오면 항상 우산을 가져가요. 그는 늦게 자면 피곤해요. 그는 일찍 일어나면 산책해요.",
+     "en": "Tom always takes an umbrella if it rains. If he goes to bed late, he feels tired. If he gets up early, he goes for a walk."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "トムは雨が降ると、傘を持っていきます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "トムは疲れたことがありません。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "トムはバイクを持っています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "水を熱すると、わきます。",
+    "read": "みずをあつすると、わきます。",
+    "ko": "물을 가열하면 끓어요.",
+    "en": "If you heat water, it boils.",
+    "situation": {
+     "ko": "과학적 사실을 말할 때",
+     "en": "Stating a scientific fact"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "暑くなると、氷はとけます。",
+    "read": "あつくなると、こおりはとけます。",
+    "ko": "얼음은 열을 받으면 녹아요.",
+    "en": "Ice melts if it gets hot.",
+    "situation": {
+     "ko": "또 다른 사실을 말할 때",
+     "en": "Stating another fact"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "青と黄色を混ぜると、緑になります。",
+    "read": "あおときいろをまぜると、みどりになります。",
+    "ko": "파랑과 노랑을 섞으면 초록이 돼요.",
+    "en": "If you mix blue and yellow, you get green.",
+    "situation": {
+     "ko": "결과를 설명할 때",
+     "en": "Explaining a result"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "ボタンを押すと、電気がつきます。",
+    "read": "ボタンをおすと、でんきがつきます。",
+    "ko": "버튼을 누르면 불이 켜져요.",
+    "en": "If you press the button, the light comes on.",
+    "situation": {
+     "ko": "작동 방법을 설명할 때",
+     "en": "Explaining how something works"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "遅く寝ると、疲れます。",
+    "read": "おそくねると、つかれます。",
+    "ko": "늦게 자면 피곤해요.",
+    "en": "If I go to bed late, I feel tired.",
+    "situation": {
+     "ko": "습관의 결과를 말할 때",
+     "en": "Saying the result of a habit"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "雨が降ると、いつも傘を持っていきます。",
+    "read": "あめがふると、いつもかさをもっていきます。",
+    "ko": "비가 오면 항상 우산을 가져가요.",
+    "en": "If it rains, I always take an umbrella.",
+    "situation": {
+     "ko": "습관을 말할 때",
+     "en": "Saying what you always do"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "早く起きると、たいてい散歩に行きます。",
+    "read": "はやくおきると、たいていさんぽにいきます。",
+    "ko": "일찍 일어나면 보통 산책해요.",
+    "en": "If I get up early, I usually go for a walk.",
+    "situation": {
+     "ko": "보통 하는 일을 말할 때",
+     "en": "Saying what you usually do"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "水が0度になると、こおります。",
+    "read": "みずが0どになると、こおります。",
+    "ko": "물이 0도가 되면 얼어요.",
+    "en": "If water gets to 0 degrees, it freezes.",
+    "situation": {
+     "ko": "온도 사실을 말할 때",
+     "en": "Stating a temperature fact"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜と、〜ます。",
+    "read": "〜と、〜ます。",
+    "ko": "~하면 …해요.",
+    "en": "If + present, present."
+   },
+   {
+    "id": "w2",
+    "t": "〜と、いつも〜ます。",
+    "read": "〜と、いつも〜ます。",
+    "ko": "~하면 항상 …해요.",
+    "en": "If ~, I always ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜ないと、〜ます。",
+    "read": "〜ないと、〜ます。",
+    "ko": "…은 ~하면 …해요.",
+    "en": "~ if ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜ば、〜ます。",
+    "read": "〜ば、〜ます。",
+    "ko": "만약 ~ 안 하면 …",
+    "en": "If you don't ~, ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "제로 조건문으로 사실 하나와 나의 습관 하나를 2문장으로 써 보세요.",
+    "en": "Write 2 zero-conditional sentences: one scientific fact and one habit of your own."
+   },
+   "must_include": [
+    {
+     "label": "〜と、〜",
+     "match": [
+      "すると",
+      "降ると"
+     ]
+    },
+    {
+     "label": "結果",
+     "match": [
+      "わき",
+      "持っていき"
+     ]
+    }
+   ],
+   "model": "水を熱すると、わきます。雨が降ると、いつも傘を持っていきます。",
+   "model_trans": {
+    "ko": "물을 가열하면 끓어요. 비가 오면 나는 항상 우산을 가져가요.",
+    "en": "If you heat water, it boils. If it rains, I always take an umbrella."
+   }
+  }
+ }
+}

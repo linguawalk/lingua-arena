@@ -1,0 +1,828 @@
+{
+ "meta": {
+  "id": "ja_a2_u22",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 22,
+  "concept": "A2.U22",
+  "status": "live",
+  "title": {
+   "target": "とき・あいだに",
+   "ko": "when과 while: 과거진행형과 과거형",
+   "en": "When and while: past continuous and past simple"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "〜とき",
+   "pos": "conj",
+   "read": "〜とき",
+   "ko": "~할 때",
+   "en": "when",
+   "ex": {
+    "t": "私が着いたとき、彼は料理していました。",
+    "read": "わたしがついたとき、かれはりょうりしていました。",
+    "ko": "내가 도착했을 때 그는 요리하고 있었어요.",
+    "en": "When I arrived, he was cooking."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜あいだに",
+   "pos": "conj",
+   "read": "〜あいだに",
+   "ko": "~하는 동안",
+   "en": "while",
+   "ex": {
+    "t": "寝ているあいだに、電話が鳴りました。",
+    "read": "ねているあいだに、でんわがなりました。",
+    "ko": "내가 자는 동안 전화가 울렸어요.",
+    "en": "While I was sleeping, the phone rang."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "鳴る",
+   "pos": "verb",
+   "read": "なる",
+   "ko": "울리다",
+   "en": "ring",
+   "ex": {
+    "t": "電話が鳴りました。",
+    "read": "でんわがなりました。",
+    "ko": "전화가 울렸어요.",
+    "en": "The phone rang."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "着く",
+   "pos": "verb",
+   "read": "つく",
+   "ko": "도착하다",
+   "en": "arrive",
+   "ex": {
+    "t": "私たちが着いたとき、雨が降っていました。",
+    "read": "わたしたちがついたとき、あめがふっていました。",
+    "ko": "우리가 도착했을 때 비가 오고 있었어요.",
+    "en": "When we arrived, it was raining."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "転ぶ",
+   "pos": "verb",
+   "read": "ころぶ",
+   "ko": "떨어지다",
+   "en": "fall",
+   "ex": {
+    "t": "歩いているとき、転びました。",
+    "read": "あるいているとき、ころびました。",
+    "ko": "걷다가 넘어졌어요.",
+    "en": "I fell while I was walking."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "見かける",
+   "pos": "verb",
+   "read": "みかける",
+   "ko": "보다",
+   "en": "see",
+   "ex": {
+    "t": "バスを待っているあいだに、友達を見かけました。",
+    "read": "バスをまっているあいだに、ともだちをみかけました。",
+    "ko": "버스를 기다리다가 친구를 봤어요.",
+    "en": "I saw a friend while I was waiting for the bus."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "突然",
+   "pos": "adv",
+   "read": "とつぜん",
+   "ko": "갑자기",
+   "en": "suddenly",
+   "ex": {
+    "t": "突然、電気が消えました。",
+    "read": "とつぜん、でんきがきえました。",
+    "ko": "갑자기 불이 꺼졌어요.",
+    "en": "Suddenly the light went out."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "当たる",
+   "pos": "verb",
+   "read": "あたる",
+   "ko": "부딪치다",
+   "en": "hit",
+   "ex": {
+    "t": "ボールが窓に当たりました。",
+    "read": "ボールがまどにあたりました。",
+    "ko": "공이 창문에 부딪쳤어요.",
+    "en": "The ball hit the window."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "目が覚める",
+   "pos": "phrasal verb",
+   "read": "めがさめる",
+   "ko": "깨다",
+   "en": "wake up",
+   "ex": {
+    "t": "七時に目が覚めました。",
+    "read": "しちじにめがさめました。",
+    "ko": "나는 7시에 깼어요.",
+    "en": "I woke up at seven."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "事故",
+   "pos": "noun",
+   "read": "じこ",
+   "ko": "사고",
+   "en": "accident",
+   "ex": {
+    "t": "通りで事故を見ました。",
+    "read": "とうりでじこをみました。",
+    "ko": "길에서 사고를 봤어요.",
+    "en": "I saw an accident in the street."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜とき・〜ているあいだに",
+   "en": "When and while: 〜とき / 〜ているあいだに"
+  },
+  "explain": {
+   "ko": "두 가지 일의 관계는 〜とき(~했을 때)와 〜ているあいだに(~하고 있는 동안에)로 말합니다: 私が着いたとき、彼は料理していました。 갑자기 일어난 일에는 突然을 씁니다.",
+   "en": "Link two events with 〜とき (when) and 〜ているあいだに (while): 私が着いたとき、彼は料理していました。 Use 突然 for something sudden."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜とき",
+     "過去形 + とき",
+     "私が着いたとき、彼は料理していました。"
+    ],
+    [
+     "〜あいだに",
+     "〜ているあいだに",
+     "寝ているあいだに、電話が鳴りました。"
+    ],
+    [
+     "갑자기 / Suddenly",
+     "突然 + 過去形",
+     "突然、電気が消えました。"
+    ],
+    [
+     "질문 / Question",
+     "〜とき、何をしていましたか",
+     "電話が鳴ったとき、何をしていましたか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "とき 앞의 동사는 보통형(着いた・している)을 씁니다.",
+    "en": "The verb before とき is in plain form (着いた / している)."
+   },
+   {
+    "ko": "あいだに는 계속되는 동작 중에 일어난 일을 말합니다.",
+    "en": "あいだに links an event to an ongoing action."
+   },
+   {
+    "ko": "突然 뒤에는 과거형을 씁니다.",
+    "en": "After 突然 use the past form."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私が着いたとき、彼は料理していました。",
+    "read": "わたしがついたとき、かれはりょうりしていました。",
+    "ko": "내가 도착했을 때 그는 요리하고 있었어요.",
+    "en": "When I arrived, he was cooking."
+   },
+   {
+    "t": "寝ているあいだに、電話が鳴りました。",
+    "read": "ねているあいだに、でんわがなりました。",
+    "ko": "내가 자는 동안 전화가 울렸어요.",
+    "en": "While I was sleeping, the phone rang."
+   },
+   {
+    "t": "歩いているとき、転びました。",
+    "read": "あるいているとき、ころびました。",
+    "ko": "걷다가 넘어졌어요.",
+    "en": "I fell while I was walking."
+   },
+   {
+    "t": "雨が降っているとき、彼らは着きました。",
+    "read": "あめがふっているとき、かれらはつきました。",
+    "ko": "그들이 도착했을 때 비가 오고 있었어요.",
+    "en": "It was raining when they arrived."
+   },
+   {
+    "t": "電話が鳴ったとき、何をしていましたか。",
+    "read": "でんわがなったとき、なにをしていましたか。",
+    "ko": "너 전화 왔을 때 뭐 하고 있었어?",
+    "en": "What were you doing when the phone rang?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私が着い___、彼は料理していました。",
+    "options": [
+     "たとき",
+     "ましたとき",
+     "ているとき"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "寝ている___に、電話が鳴りました。",
+    "options": [
+     "あいだ",
+     "とき",
+     "ところ"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___、電気が消えました。",
+    "options": [
+     "突然",
+     "いつも",
+     "たぶん"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "電話が鳴った___、何をしていましたか。",
+    "options": [
+     "とき",
+     "あいだに",
+     "だけ"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "電話が鳴ったとき、何をしていましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 전화가 울렸을 때 뭐 하고 있었어요?",
+     "en": "(Question) What were you doing when the phone rang?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "寝ていました。",
+       "寝ます。",
+       "寝てください。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いつ転びましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 언제 넘어졌어요?",
+     "en": "(Question) When did you fall?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "歩いているとき、転びました。",
+       "歩くとき、転ぶでしょう。",
+       "歩いてください、転びます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日、通りで事故を見たよ。"
+      },
+      {
+       "s": "B",
+       "t": "本当？何をしていたの？"
+      },
+      {
+       "s": "A",
+       "t": "バスを待っていたんだ。突然、車がバイクに当たったよ。"
+      },
+      {
+       "s": "B",
+       "t": "けが人はいた？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 길에서 사고를 봤어.\nB: 정말? 그때 뭐 하고 있었어?\nA: 버스를 기다리고 있었어. 갑자기 차가 오토바이와 부딪쳤어.\nB: 다친 사람은 없었어?",
+     "en": "A: I saw an accident in the street yesterday.\nB: Really? What were you doing?\nA: I was waiting for the bus. Suddenly a car hit a motorbike.\nB: Was anybody hurt?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Aは事故のとき何をしていましたか。",
+      "options": [
+       "バスを待っていた",
+       "道を渡っていた",
+       "運転していた"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日の朝、公園を歩いていました。歩いているあいだに、友達を見かけました。話しているとき、突然雨が降り始めました。私たちは走って家へ帰りました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어제 아침에 나는 공원에서 걷고 있었어요. 걷는 동안 친구를 봤어요. 우리가 이야기하고 있을 때 갑자기 비가 오기 시작했어요. 우리는 집으로 달려갔어요.",
+     "en": "Yesterday morning I was walking in the park. While I was walking, I saw a friend. When we were talking, it suddenly started to rain. We ran home."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "突然、何が起こりましたか。",
+      "options": [
+       "雨が降り始めた",
+       "電話が鳴った",
+       "電気が消えた"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "事故はいつ起きましたか。"
+      },
+      {
+       "s": "B",
+       "t": "午後三時ごろです。歩いていました。"
+      },
+      {
+       "s": "A",
+       "t": "何を見ましたか。"
+      },
+      {
+       "s": "B",
+       "t": "青い車が赤信号を無視しました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 사고는 언제 일어났어요?\n손님: 오후 3시쯤이었어요. 저는 걷고 있었어요.\n직원: 무엇을 봤어요?\n손님: 파란 차가 신호를 무시했어요.",
+     "en": "Clerk: When did the accident happen?\nGuest: At about three in the afternoon. I was walking.\nClerk: What did you see?\nGuest: A blue car went through the red light."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さん: 午後三時______です",
+      "answers": [
+       "ごろ"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さん: ______車が赤信号を無視しました",
+      "answers": [
+       "青い"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私が着いた___、彼は料理していました。\n2) 寝ている___、電話が鳴りました。\n3) 歩いている___、転びました。",
+    "trans": {
+     "ko": "1) 내가 도착했을 때 그는 요리하고 있었어요. 2) 내가 자는 동안 전화가 울렸어요. 3) 걷다가 넘어졌어요.",
+     "en": "1) When I arrived, he was cooking. 2) While I was sleeping, the phone rang. 3) I fell while I was walking."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私が着いた___、彼は料理していました。",
+      "options": [
+       "とき",
+       "あいだ",
+       "ところ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "寝ている___、電話が鳴りました。",
+      "options": [
+       "あいだに",
+       "とき",
+       "だけ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "歩いている___、転びました。",
+      "options": [
+       "とき",
+       "あいだ",
+       "ところ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "昨日の朝、公園を歩いていました。(1)、友達を見かけました。話しているとき、(2)雨が(3)。",
+    "trans": {
+     "ko": "어제 아침에 나는 공원에서 걷고 있었어요. 걷는 동안 친구를 봤어요. 우리가 이야기하고 있을 때 갑자기 비가 오기 시작했어요.",
+     "en": "Yesterday morning I was walking in the park. While I was walking, I saw a friend. When we were talking, it suddenly started to rain."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "歩いているあいだに",
+       "歩いた",
+       "歩く"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "突然",
+       "いつも",
+       "たぶん"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "降り始めました",
+       "降ります",
+       "降っています"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "事故報告\n時間：午後三時\n場所：公園の前の通り\n内容：青い車がバイクに当たった。",
+    "trans": {
+     "ko": "사고 보고서\n시간: 오후 3시\n장소: 공원 앞 길\n내용: 파란 차가 오토바이와 부딪쳤어요.",
+     "en": "ACCIDENT REPORT\nTime: 3 p.m.\nPlace: The street in front of the park\nWhat happened: A blue car hit a motorbike."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "事故は何時でしたか。",
+      "options": [
+       "午後三時",
+       "午後四時",
+       "午後五時"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "青い車は何に当たりましたか。",
+      "options": [
+       "バイク",
+       "バス",
+       "自転車"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "トムはバスを待っていました。そのとき、昔の友達に会いました。二人は一時間話しました。",
+    "trans": {
+     "ko": "톰은 버스를 기다리고 있었어요. 그때 그는 오랜 친구를 봤어요. 그들은 한 시간 동안 이야기했어요.",
+     "en": "Tom was waiting for the bus. Then he saw an old friend. They talked for an hour."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "トムは昔の友達に会いました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "トムは車の中にいました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "トムは犬を飼っています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "私が着いたとき、彼は料理していました。",
+    "read": "わたしがついたとき、かれはりょうりしていました。",
+    "ko": "내가 도착했을 때 그는 요리하고 있었어요.",
+    "en": "When I arrived, he was cooking.",
+    "situation": {
+     "ko": "그때 한 일을 말할 때",
+     "en": "Saying what was happening"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "寝ているあいだに、電話が鳴りました。",
+    "read": "ねているあいだに、でんわがなりました。",
+    "ko": "내가 자는 동안 전화가 울렸어요.",
+    "en": "While I was sleeping, the phone rang.",
+    "situation": {
+     "ko": "중간에 일어난 일을 말할 때",
+     "en": "Saying what interrupted"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "歩いているとき、転びました。",
+    "read": "あるいているとき、ころびました。",
+    "ko": "걷다가 넘어졌어요.",
+    "en": "I fell while I was walking.",
+    "situation": {
+     "ko": "사고를 말할 때",
+     "en": "Telling about an accident"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "突然、電気が消えました。",
+    "read": "とつぜん、でんきがきえました。",
+    "ko": "갑자기 불이 꺼졌어요.",
+    "en": "Suddenly the light went out.",
+    "situation": {
+     "ko": "갑작스러운 일을 말할 때",
+     "en": "Describing a sudden event"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "電話が鳴ったとき、何をしていましたか。",
+    "read": "でんわがなったとき、なにをしていましたか。",
+    "ko": "전화 왔을 때 뭐 하고 있었어요?",
+    "en": "What were you doing when the phone rang?",
+    "situation": {
+     "ko": "물어볼 때",
+     "en": "Asking what was happening"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "バスを待っているあいだに、友達を見かけました。",
+    "read": "バスをまっているあいだに、ともだちをみかけました。",
+    "ko": "버스를 기다리다가 친구를 봤어요.",
+    "en": "I saw a friend while I was waiting for the bus.",
+    "situation": {
+     "ko": "우연한 일을 말할 때",
+     "en": "Talking about a chance meeting"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "私たちが着いたとき、雨が降っていました。",
+    "read": "わたしたちがついたとき、あめがふっていました。",
+    "ko": "우리가 도착했을 때 비가 오고 있었어요.",
+    "en": "When we arrived, it was raining.",
+    "situation": {
+     "ko": "날씨를 말할 때",
+     "en": "Describing the weather"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "七時に目が覚めたとき、父はもう働いていました。",
+    "read": "しちじにめがさめたとき、ちちはもうはたらいていました。",
+    "ko": "7시에 일어났을 때 아빠는 이미 일하고 있었어요.",
+    "en": "When I woke up at seven, Dad was already working.",
+    "situation": {
+     "ko": "아침 상황을 말할 때",
+     "en": "Describing the morning"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "私が〜たとき、彼は〜ていました。",
+    "read": "わたしが〜たとき、かれは〜ていました。",
+    "ko": "~했을 때 …하고 있었어요.",
+    "en": "When I ~, he was ~ing."
+   },
+   {
+    "id": "w2",
+    "t": "〜ているあいだに、〜ました。",
+    "read": "〜ているあいだに、〜ました。",
+    "ko": "~하는 동안 …했어요.",
+    "en": "While I was ~ing, ~ (past)."
+   },
+   {
+    "id": "w3",
+    "t": "突然、〜ました。",
+    "read": "とつぜん、〜ました。",
+    "ko": "갑자기 ~했어요.",
+    "en": "Suddenly ~ (past)."
+   },
+   {
+    "id": "w4",
+    "t": "〜ているとき、〜ました。",
+    "read": "〜ているとき、〜ました。",
+    "ko": "~하고 있었는데 …했어요.",
+    "en": "I was ~ing when ~ (past)."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "과거진행형과 과거형으로 어제 일어난 일을 3문장으로 써 보세요 (when / while 사용).",
+    "en": "Write 3 sentences about something that happened yesterday using the past continuous and the past simple (with when / while)."
+   },
+   "must_include": [
+    {
+     "label": "とき・あいだに",
+     "match": [
+      "とき",
+      "あいだに"
+     ]
+    },
+    {
+     "label": "突然",
+     "match": [
+      "突然"
+     ]
+    }
+   ],
+   "model": "学校に着いたとき、雨が降っていました。バスを待っているあいだに、友達を見かけました。突然、雨がやみました。",
+   "model_trans": {
+    "ko": "내가 학교에 도착했을 때 비가 오고 있었어요. 버스를 기다리는 동안 친구를 봤어요. 갑자기 비가 그쳤어요.",
+    "en": "When I arrived at school, it was raining. While I was waiting for the bus, I saw a friend. Suddenly the rain stopped."
+   }
+  }
+ }
+}

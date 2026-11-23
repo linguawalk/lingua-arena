@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "id": "ja_a2_u32",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 32,
+  "concept": "A2.U32",
+  "status": "live",
+  "title": {
+   "target": "病院で",
+   "ko": "병원에서",
+   "en": "At the doctor's"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "頭痛",
+   "pos": "noun",
+   "read": "ずつう",
+   "ko": "두통",
+   "en": "headache",
+   "ex": {
+    "t": "頭が痛いです。",
+    "read": "あたまがいたいです。",
+    "ko": "나는 머리가 아파요.",
+    "en": "I have a headache."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "咳",
+   "pos": "noun",
+   "read": "せき",
+   "ko": "기침",
+   "en": "cough",
+   "ex": {
+    "t": "咳が出ます。",
+    "read": "せきがでます。",
+    "ko": "나는 기침이 나요.",
+    "en": "I have a cough."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "熱",
+   "pos": "noun",
+   "read": "ねつ",
+   "ko": "열",
+   "en": "fever",
+   "ex": {
+    "t": "子どもに熱があります。",
+    "read": "こどもにねつがあります。",
+    "ko": "아이는 열이 있어요.",
+    "en": "The child has a fever."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "おなか",
+   "pos": "noun",
+   "read": "おなか",
+   "ko": "배",
+   "en": "stomach",
+   "ex": {
+    "t": "おなかが痛いです。",
+    "read": "おなかがいたいです。",
+    "ko": "배가 아파요.",
+    "en": "I have a stomach ache."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "医者",
+   "pos": "noun",
+   "read": "いしゃ",
+   "ko": "의사",
+   "en": "doctor",
+   "ex": {
+    "t": "医者に診てもらったほうがいいです。",
+    "read": "いしゃにみてもらったほうがいいです。",
+    "ko": "의사에게 가야 해요.",
+    "en": "You should see a doctor."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "薬",
+   "pos": "noun",
+   "read": "くすり",
+   "ko": "약",
+   "en": "medicine",
+   "ex": {
+    "t": "この薬を飲んでください。",
+    "read": "このくすりをのんでください。",
+    "ko": "이 약을 드세요.",
+    "en": "Take this medicine."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "休む",
+   "pos": "verb",
+   "read": "やすむ",
+   "ko": "쉬다",
+   "en": "rest",
+   "ex": {
+    "t": "家で休んでください。",
+    "read": "いえでやすんでください。",
+    "ko": "집에서 쉬세요.",
+    "en": "Rest at home."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "水",
+   "pos": "noun",
+   "read": "みず",
+   "ko": "물",
+   "en": "water",
+   "ex": {
+    "t": "水をたくさん飲んでください。",
+    "read": "みずをたくさんのんでください。",
+    "ko": "물을 많이 마시세요.",
+    "en": "Drink plenty of water."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "病気",
+   "pos": "adj",
+   "read": "びょうき",
+   "ko": "아픈",
+   "en": "ill",
+   "ex": {
+    "t": "病気だったので、学校へ行きませんでした。",
+    "read": "びょうきだったので、がっこうへいきませんでした。",
+    "ko": "저는 아파서 학교에 못 갔어요.",
+    "en": "I was ill, so I didn't go to school."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "予約",
+   "pos": "noun",
+   "read": "よやく",
+   "ko": "예약",
+   "en": "appointment",
+   "ex": {
+    "t": "病院の予約があります。",
+    "read": "びょういんのよやくがあります。",
+    "ko": "의사 예약이 있어요.",
+    "en": "I have a doctor's appointment."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "病院で: 〜があります・〜たほうがいい",
+   "en": "At the doctor's: 〜があります / 〜たほうがいい"
+  },
+  "explain": {
+   "ko": "증상은 〜が痛いです・〜があります로 말합니다: 頭が痛いです。熱があります。 조언은 〜たほうがいいです(~하는 편이 좋습니다), 지시는 〜てください로 말합니다: 医者に診てもらったほうがいいです。薬を飲んでください。",
+   "en": "Symptoms: 〜が痛いです / 〜があります: 頭が痛いです。熱があります。 Advice: 〜たほうがいいです; instructions: 〜てください: 医者に診てもらったほうがいいです。薬を飲んでください。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "증상 / Symptom",
+     "〜が痛いです・〜があります",
+     "頭が痛いです。"
+    ],
+    [
+     "조언 / Advice",
+     "〜たほうがいいです",
+     "医者に診てもらったほうがいいです。"
+    ],
+    [
+     "지시 / Instruction",
+     "〜てください",
+     "薬を飲んでください。"
+    ],
+    [
+     "금지 / Don't",
+     "〜ないでください",
+     "無理をしないでください。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "たほうがいい 앞은 た형입니다.",
+    "en": "〜たほうがいい follows the た-form."
+   },
+   {
+    "ko": "病院에서는 どうしましたか(어디가 안 좋으세요?)라고 묻습니다.",
+    "en": "At the clinic you are asked どうしましたか。"
+   }
+  ],
+  "examples": [
+   {
+    "t": "頭が痛いです。",
+    "read": "あたまがいたいです。",
+    "ko": "나는 머리가 아파요.",
+    "en": "I have a headache."
+   },
+   {
+    "t": "熱と咳があります。",
+    "read": "ねつとせきがあります。",
+    "ko": "나는 열이 나고 기침을 해요.",
+    "en": "I have a fever and a cough."
+   },
+   {
+    "t": "医者に診てもらったほうがいいです。",
+    "read": "いしゃにみてもらったほうがいいです。",
+    "ko": "의사에게 가는 게 좋겠어요.",
+    "en": "You should see a doctor."
+   },
+   {
+    "t": "この薬を一日二回飲んでください。",
+    "read": "このくすりをついたちにかいのんでください。",
+    "ko": "이 약을 하루에 두 번 드세요.",
+    "en": "Take this medicine twice a day."
+   },
+   {
+    "t": "家で休まなければなりません。",
+    "read": "いえでやすまなければなりません。",
+    "ko": "집에서 쉬어야 해요.",
+    "en": "You have to rest at home."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "頭が___です。",
+    "options": [
+     "痛い",
+     "痛く",
+     "痛"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "医者に診てもらった___がいいです。",
+    "options": [
+     "ほう",
+     "こと",
+     "とき"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "この薬を___ください。",
+    "options": [
+     "飲んで",
+     "飲む",
+     "飲んだ"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "家で休ま___なりません。",
+    "options": [
+     "なければ",
+     "ないと",
+     "ないで"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どうしましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어디가 아파요?",
+     "en": "(Question) What's the matter?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "頭が痛いです。",
+       "頭を痛いです。",
+       "頭に痛います。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この薬はどうやって飲みますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 약은 어떻게 먹어요?",
+     "en": "(Question) How do I take this medicine?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "一日二回飲んでください。",
+       "一日二回飲みました。",
+       "一日二回飲みたいです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どうしましたか。"
+      },
+      {
+       "s": "B",
+       "t": "頭が痛くて、熱もあります。"
+      },
+      {
+       "s": "A",
+       "t": "いつからですか。"
+      },
+      {
+       "s": "B",
+       "t": "二日前からです。咳も出ます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어디가 아프세요?\nB: 머리가 아프고 열이 있어요.\nA: 언제부터 그랬어요?\nB: 이틀 전부터요. 기침도 해요.",
+     "en": "A: What's the matter?\nB: I have a headache and a fever.\nA: How long have you had them?\nB: For two days. I have a cough too."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bはいつから症状がありますか。",
+      "options": [
+       "二日前から",
+       "昨日から",
+       "一週間前から"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "医者は言いました。「家で休んでください。水をたくさん飲んでください。この薬を一日二回飲んでください。三日たっても治らなければ、また来てください。」"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의사 선생님이 말했어요. 집에서 쉬세요. 물을 많이 드세요. 이 약을 하루에 두 번 드세요. 3일 후에도 낫지 않으면 다시 오세요.",
+     "en": "The doctor said, 'Rest at home. Drink plenty of water. Take this medicine twice a day. If you are not better in three days, come back.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "薬は一日何回飲みますか。",
+      "options": [
+       "二回",
+       "一回",
+       "三回"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "予約はありますか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、三時です。"
+      },
+      {
+       "s": "A",
+       "t": "お名前は？"
+      },
+      {
+       "s": "B",
+       "t": "エバ・リーです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 예약하셨어요?\n손님: 네, 3시에 예약했어요.\n직원: 성함이 어떻게 되세요?\n손님: 에바 리예요.",
+     "en": "Receptionist: Do you have an appointment?\nGuest: Yes, at three o'clock.\nReceptionist: What's your name?\nGuest: Eva Lee."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さん: ______時です",
+      "answers": [
+       "三"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さん: エバ・______です",
+      "answers": [
+       "リー"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 頭が___です。\n2) 医者に診てもらった___がいいです。\n3) この薬を一日二回飲ん___ください。",
+    "trans": {
+     "ko": "1) 나는 머리가 아파요. 2) 의사에게 가는 게 좋겠어요. 3) 이 약을 하루에 두 번 드세요.",
+     "en": "1) I have a headache. 2) You should see a doctor. 3) Take this medicine twice a day."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "頭が___です。",
+      "options": [
+       "痛い",
+       "痛く",
+       "痛"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "医者に診てもらった___がいいです。",
+      "options": [
+       "ほう",
+       "こと",
+       "とき"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "この薬を一日二回飲ん___ください。",
+      "options": [
+       "で",
+       "に",
+       "を"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "医者は言いました。「家で(1)ください。水をたくさん(2)ください。この薬を一日二回飲んでください。三日たっても治らなければ、また(3)ください。」",
+    "trans": {
+     "ko": "의사 선생님이 말했어요. 집에서 쉬세요. 물을 많이 드세요. 이 약을 하루에 두 번 드세요. 3일 후에도 낫지 않으면 다시 오세요.",
+     "en": "The doctor said, 'Rest at home. Drink plenty of water. Take this medicine twice a day. If you are not better in three days, come back.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "休んで",
+       "休む",
+       "休んだ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "飲んで",
+       "飲む",
+       "飲んだ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "来て",
+       "来る",
+       "来た"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "患者カード\n名前：エバ・リー\n症状：頭痛、熱\n治療：薬を一日二回",
+    "trans": {
+     "ko": "진료 카드\n환자: 에바 리\n증상: 두통, 열\n처방: 약 하루 2회",
+     "en": "PATIENT CARD\nName: Eva Lee\nSymptoms: headache, fever\nTreatment: medicine twice a day"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "エバさんの症状は何ですか。",
+      "options": [
+       "頭痛と熱",
+       "咳とおなかの痛み",
+       "咳だけ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "薬はいつ飲みますか。",
+      "options": [
+       "一日二回",
+       "一日一回",
+       "一日三回"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "トムは熱と咳があります。医者へ行きました。医者は家で休むように言いました。",
+    "trans": {
+     "ko": "톰은 열이 나고 기침을 해요. 그는 의사에게 갔어요. 의사는 그에게 집에서 쉬라고 했어요.",
+     "en": "Tom has a fever and a cough. He went to the doctor. The doctor told him to rest at home."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "トムは熱と咳があります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "トムは歯医者へ行きました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "トムは犬を飼っています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "どうしましたか。",
+    "read": "どうしましたか。",
+    "ko": "어디가 아파요?",
+    "en": "What's the matter?",
+    "situation": {
+     "ko": "증상을 물을 때",
+     "en": "Asking what is wrong"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "頭が痛いです。",
+    "read": "あたまがいたいです。",
+    "ko": "나는 머리가 아파요.",
+    "en": "I have a headache.",
+    "situation": {
+     "ko": "증상을 말할 때",
+     "en": "Saying a symptom"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "熱と咳があります。",
+    "read": "ねつとせきがあります。",
+    "ko": "열이 나고 기침을 해요.",
+    "en": "I have a fever and a cough.",
+    "situation": {
+     "ko": "여러 증상을 말할 때",
+     "en": "Saying more symptoms"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "いつから具合が悪いですか。",
+    "read": "いつからぐあいがわるいですか。",
+    "ko": "언제부터 아팠어요?",
+    "en": "How long have you felt ill?",
+    "situation": {
+     "ko": "기간을 물을 때",
+     "en": "Asking how long"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "医者に診てもらったほうがいいです。",
+    "read": "いしゃにみてもらったほうがいいです。",
+    "ko": "의사에게 가는 게 좋겠어요.",
+    "en": "You should see a doctor.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "この薬を一日二回飲んでください。",
+    "read": "このくすりをついたちにかいのんでください。",
+    "ko": "이 약을 하루에 두 번 드세요.",
+    "en": "Take this medicine twice a day.",
+    "situation": {
+     "ko": "약 복용법을 말할 때",
+     "en": "Saying how to take medicine"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "水をたくさん飲まなければなりません。",
+    "read": "みずをたくさんのまなければなりません。",
+    "ko": "물을 많이 마셔야 해요.",
+    "en": "You have to drink plenty of water.",
+    "situation": {
+     "ko": "필요한 일을 말할 때",
+     "en": "Saying what is necessary"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "病院の予約があります。",
+    "read": "びょういんのよやくがあります。",
+    "ko": "의사 예약이 있어요.",
+    "en": "I have a doctor's appointment.",
+    "situation": {
+     "ko": "예약을 말할 때",
+     "en": "Talking about an appointment"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜が痛いです。",
+    "read": "〜がいたいです。",
+    "ko": "나는 ~이 아파요.",
+    "en": "I have a ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜たほうがいいです。",
+    "read": "〜たほうがいいです。",
+    "ko": "~하는 게 좋겠어요.",
+    "en": "You should ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜てください。",
+    "read": "〜てください。",
+    "ko": "~해야 해요.",
+    "en": "You have to ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜ないでください。",
+    "read": "〜ないでください。",
+    "ko": "~하지 마세요.",
+    "en": "Don't ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "아플 때 하는 말을 3문장으로 써 보세요: 증상, 의사의 조언, 약 복용법.",
+    "en": "Write 3 sentences: your symptom, the doctor's advice and how to take the medicine."
+   },
+   "must_include": [
+    {
+     "label": "症状",
+     "match": [
+      "頭",
+      "熱"
+     ]
+    },
+    {
+     "label": "〜たほうがいい",
+     "match": [
+      "ほうがいい"
+     ]
+    }
+   ],
+   "model": "頭が痛いです。医者は家で休んだほうがいいと言いました。この薬を一日二回飲みます。",
+   "model_trans": {
+    "ko": "나는 머리가 아파요. 의사가 집에서 쉬라고 했어요. 이 약을 하루에 두 번 먹어요.",
+    "en": "I have a headache. The doctor says I should rest at home. I take this medicine twice a day."
+   }
+  }
+ }
+}

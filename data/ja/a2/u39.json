@@ -1,0 +1,823 @@
+{
+ "meta": {
+  "id": "ja_a2_u39",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 39,
+  "concept": "A2.U39",
+  "status": "live",
+  "title": {
+   "target": "レストランで",
+   "ko": "식당에서",
+   "en": "At a restaurant"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "メニュー",
+   "pos": "noun",
+   "read": "メニュー",
+   "ko": "메뉴",
+   "en": "menu",
+   "ex": {
+    "t": "メニューを見せてもらえますか。",
+    "read": "メニューをみせてもらえますか。",
+    "ko": "메뉴 좀 볼 수 있어요?",
+    "en": "Could I see the menu, please?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "注文する",
+   "pos": "verb",
+   "read": "ちゅうもんする",
+   "ko": "주문하다",
+   "en": "order",
+   "ex": {
+    "t": "ご注文はお決まりですか。",
+    "read": "ごちゅうもんはおきまりですか。",
+    "ko": "주문하시겠어요?",
+    "en": "Are you ready to order?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "前菜",
+   "pos": "noun",
+   "read": "ぜんさい",
+   "ko": "애피타이저",
+   "en": "starter",
+   "ex": {
+    "t": "前菜はスープにします。",
+    "read": "ぜんさいはスープにします。",
+    "ko": "애피타이저로 수프를 주세요.",
+    "en": "I'll have the soup as a starter."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "メインディッシュ",
+   "pos": "noun",
+   "read": "メインディッシュ",
+   "ko": "주요리",
+   "en": "main course",
+   "ex": {
+    "t": "メインは魚にします。",
+    "read": "メインはさかなにします。",
+    "ko": "주요리는 생선으로 할게요.",
+    "en": "I'll have the fish for the main course."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "デザート",
+   "pos": "noun",
+   "read": "デザート",
+   "ko": "디저트",
+   "en": "dessert",
+   "ex": {
+    "t": "デザートはアイスクリームをお願いします。",
+    "read": "デザートはアイスクリームをおねがいします。",
+    "ko": "디저트는 아이스크림이요.",
+    "en": "I'd like ice cream for dessert."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "飲み物",
+   "pos": "noun",
+   "read": "のみもの",
+   "ko": "음료",
+   "en": "drink",
+   "ex": {
+    "t": "お飲み物は何になさいますか。",
+    "read": "おのみものはなにになさいますか。",
+    "ko": "음료는 뭐로 하시겠어요?",
+    "en": "What would you like to drink?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "お会計",
+   "pos": "noun",
+   "read": "おかいけい",
+   "ko": "계산서",
+   "en": "bill",
+   "ex": {
+    "t": "お会計をお願いします。",
+    "read": "おかいけいをおねがいします。",
+    "ko": "계산서 부탁합니다.",
+    "en": "Could we have the bill, please?"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "チップ",
+   "pos": "noun",
+   "read": "チップ",
+   "ko": "팁",
+   "en": "tip",
+   "ex": {
+    "t": "少しチップを置きました。",
+    "read": "すこしチップをおきました。",
+    "ko": "팁을 조금 남겼어요.",
+    "en": "I left a small tip."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "予約する",
+   "pos": "verb",
+   "read": "よやくする",
+   "ko": "예약하다",
+   "en": "book",
+   "ex": {
+    "t": "二人で予約しました。",
+    "read": "ふたりでよやくしました。",
+    "ko": "두 사람 자리를 예약했어요.",
+    "en": "I booked a table for two."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "おいしい",
+   "pos": "adj",
+   "read": "おいしい",
+   "ko": "맛있는",
+   "en": "delicious",
+   "ex": {
+    "t": "料理はとてもおいしかったです。",
+    "read": "りょうりはとてもおいしかったです。",
+    "ko": "음식이 정말 맛있었어요.",
+    "en": "The food was delicious."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "レストランで: 〜にします・〜をお願いします",
+   "en": "At a restaurant: 〜にします / 〜をお願いします"
+  },
+  "explain": {
+   "ko": "주문은 〜にします(~로 하겠습니다), 〜をお願いします(~ 부탁합니다)로 말합니다: 前菜はスープにします。お会計をお願いします。 점원은 ご注文はお決まりですか(주문하시겠어요?)라고 묻습니다. 맛은 おいしかったです로 말합니다.",
+   "en": "Order with 〜にします and 〜をお願いします: 前菜はスープにします。お会計をお願いします。 The waiter asks ご注文はお決まりですか。 Praise the food with おいしかったです。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "주문 / Order",
+     "〜にします",
+     "メインは魚にします。"
+    ],
+    [
+     "요청 / Ask",
+     "〜をお願いします",
+     "水をお願いします。"
+    ],
+    [
+     "계산 / Bill",
+     "お会計をお願いします",
+     "お会計をお願いします。"
+    ],
+    [
+     "감상 / Opinion",
+     "おいしかったです",
+     "料理はおいしかったです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "〜にします는 여러 선택지 중에서 고를 때 씁니다.",
+    "en": "〜にします is used when choosing among options."
+   },
+   {
+    "ko": "お会計는 계산서·계산을 뜻합니다.",
+    "en": "お会計 means the bill or paying."
+   }
+  ],
+  "examples": [
+   {
+    "t": "メニューを見せてもらえますか。",
+    "read": "メニューをみせてもらえますか。",
+    "ko": "메뉴 좀 볼 수 있어요?",
+    "en": "Could I see the menu, please?"
+   },
+   {
+    "t": "ご注文はお決まりですか。",
+    "read": "ごちゅうもんはおきまりですか。",
+    "ko": "주문하시겠어요?",
+    "en": "Are you ready to order?"
+   },
+   {
+    "t": "メインは魚にします。",
+    "read": "メインはさかなにします。",
+    "ko": "주요리는 생선으로 할게요.",
+    "en": "I'll have the fish for the main course."
+   },
+   {
+    "t": "お会計をお願いします。",
+    "read": "おかいけいをおねがいします。",
+    "ko": "계산서 부탁합니다.",
+    "en": "Could we have the bill, please?"
+   },
+   {
+    "t": "料理はとてもおいしかったです。",
+    "read": "りょうりはとてもおいしかったです。",
+    "ko": "음식이 정말 맛있었어요.",
+    "en": "The food was delicious."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "メニューを見せて___ますか。",
+    "options": [
+     "もらえ",
+     "あげ",
+     "ください"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "メインは魚___します。",
+    "options": [
+     "に",
+     "を",
+     "が"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "お会計を___します。",
+    "options": [
+     "お願い",
+     "お願いが",
+     "お願いを"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "料理はとても___。",
+    "options": [
+     "おいしかったです",
+     "おいしいでした",
+     "おいしくでした"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ご注文はお決まりですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 주문하시겠어요?",
+     "en": "(Question) Are you ready to order?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、スープにします。",
+       "はい、スープでしたか。",
+       "はい、スープへ行きます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "お飲み物は何になさいますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 음료는 뭐로 하시겠어요?",
+     "en": "(Question) What would you like to drink?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "水をお願いします。",
+       "水をなさいます。",
+       "水が注文しました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ご注文はお決まりですか。"
+      },
+      {
+       "s": "B",
+       "t": "はい。前菜はスープにします。"
+      },
+      {
+       "s": "A",
+       "t": "メインは何になさいますか。"
+      },
+      {
+       "s": "B",
+       "t": "魚にします。それから、水をお願いします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 주문하시겠어요?\nB: 네. 애피타이저로 수프를 주세요.\nA: 주요리는요?\nB: 생선으로 할게요. 그리고 물을 부탁해요.",
+     "en": "A: Are you ready to order?\nB: Yes. I'll have the soup as a starter.\nA: And for the main course?\nB: I'll have the fish. And could I have water, please?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bはメインに何を選びましたか。",
+      "options": [
+       "魚",
+       "スープ",
+       "パスタ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日、友達とレストランへ行きました。二人で予約しました。私はスープと魚、友達はサラダとパスタを注文しました。料理はとてもおいしかったです。少しチップを置きました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어제 저는 친구와 식당에 갔어요. 우리는 두 사람 자리를 예약했어요. 저는 수프와 생선을 주문했고 친구는 샐러드와 파스타를 주문했어요. 음식이 정말 맛있었어요. 팁을 조금 남겼어요.",
+     "en": "Yesterday I went to a restaurant with a friend. We booked a table for two. I ordered soup and fish and my friend ordered salad and pasta. The food was delicious. We left a small tip."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "友達は何を注文しましたか。",
+      "options": [
+       "サラダとパスタ",
+       "スープと魚",
+       "デザートだけ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "デザートは何になさいますか。"
+      },
+      {
+       "s": "B",
+       "t": "アイスクリームをお願いします。"
+      },
+      {
+       "s": "A",
+       "t": "お支払いはどうなさいますか。"
+      },
+      {
+       "s": "B",
+       "t": "カードです。お会計をお願いします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 디저트는 뭐로 하시겠어요?\n손님: 아이스크림을 주세요.\n직원: 계산은 어떻게 하시겠어요?\n손님: 카드로 할게요. 계산서 부탁해요.",
+     "en": "Waiter: What would you like for dessert?\nGuest: I'd like ice cream, please.\nWaiter: How would you like to pay?\nGuest: By card. Could we have the bill, please?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さん: ______をお願いします",
+      "answers": [
+       "アイスクリーム"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さん: ______です",
+      "answers": [
+       "カード"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___を見せてもらえますか。\n2) メインは魚___します。\n3) ___をお願いします。",
+    "trans": {
+     "ko": "1) 메뉴 좀 볼 수 있어요? 2) 주요리는 생선으로 할게요. 3) 계산서 부탁합니다.",
+     "en": "1) Could I see the menu, please? 2) I'll have the fish for the main course. 3) Could we have the bill, please?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___を見せてもらえますか。",
+      "options": [
+       "メニュー",
+       "お会計",
+       "チップ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "メインは魚___します。",
+      "options": [
+       "に",
+       "を",
+       "が"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___をお願いします。",
+      "options": [
+       "お会計",
+       "メニュー",
+       "前菜"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "昨日、友達とレストランへ行きました。二人で(1)しました。私はスープと魚を注文しました。料理はとても(2)。少し(3)を置きました。",
+    "trans": {
+     "ko": "어제 저는 친구와 식당에 갔어요. 우리는 두 사람 자리를 예약했어요. 저는 수프와 생선을 주문했어요. 음식이 정말 맛있었어요.",
+     "en": "Yesterday I went to a restaurant with a friend. We booked a table for two. I ordered soup and fish. The food was delicious."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "予約",
+       "注文",
+       "会計"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "おいしかったです",
+       "おいしいです",
+       "おいしくないです"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "チップ",
+       "メニュー",
+       "お金持ち"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "メニュー\n前菜：スープ 5ドル\nメイン：魚 12ドル\nデザート：アイスクリーム 4ドル",
+    "trans": {
+     "ko": "메뉴\n애피타이저: 수프 5달러\n주요리: 생선 12달러\n디저트: 아이스크림 4달러",
+     "en": "MENU\nStarter: soup $5\nMain course: fish $12\nDessert: ice cream $4"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "魚はいくらですか。",
+      "options": [
+       "12ドル",
+       "5ドル",
+       "4ドル"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "アイスクリームは何ですか。",
+      "options": [
+       "デザート",
+       "前菜",
+       "飲み物"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "トムは友達とレストランへ行きました。魚を注文しました。料理はおいしくて、チップを置きました。",
+    "trans": {
+     "ko": "톰은 친구와 식당에 갔어요. 그는 생선을 주문했어요. 음식이 맛있었고 그들은 팁을 남겼어요.",
+     "en": "Tom went to a restaurant with a friend. He ordered fish. The food was delicious and they left a tip."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "トムは魚を注文しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "トムはパスタを注文しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "トムは猫を飼っています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "二人で予約しました。",
+    "read": "ふたりでよやくしました。",
+    "ko": "두 사람 자리를 예약했어요.",
+    "en": "I booked a table for two.",
+    "situation": {
+     "ko": "예약을 말할 때",
+     "en": "Saying you booked"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "メニューを見せてもらえますか。",
+    "read": "メニューをみせてもらえますか。",
+    "ko": "메뉴 좀 볼 수 있어요?",
+    "en": "Could I see the menu, please?",
+    "situation": {
+     "ko": "메뉴를 청할 때",
+     "en": "Asking for the menu"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "ご注文はお決まりですか。",
+    "read": "ごちゅうもんはおきまりですか。",
+    "ko": "주문하시겠어요?",
+    "en": "Are you ready to order?",
+    "situation": {
+     "ko": "직원이 물을 때",
+     "en": "The waiter asks"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "メインは魚にします。",
+    "read": "メインはさかなにします。",
+    "ko": "주요리는 생선으로 할게요.",
+    "en": "I'll have the fish for the main course.",
+    "situation": {
+     "ko": "주문할 때",
+     "en": "Ordering"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "水をお願いします。",
+    "read": "みずをおねがいします。",
+    "ko": "음료는 물로 할게요.",
+    "en": "I'd like water to drink.",
+    "situation": {
+     "ko": "음료를 고를 때",
+     "en": "Choosing a drink"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "デザートはアイスクリームをお願いします。",
+    "read": "デザートはアイスクリームをおねがいします。",
+    "ko": "디저트는 아이스크림이요.",
+    "en": "I'd like ice cream for dessert.",
+    "situation": {
+     "ko": "디저트를 고를 때",
+     "en": "Choosing dessert"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "お会計をお願いします。",
+    "read": "おかいけいをおねがいします。",
+    "ko": "계산서 부탁합니다.",
+    "en": "Could we have the bill, please?",
+    "situation": {
+     "ko": "계산할 때",
+     "en": "Asking for the bill"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "料理はとてもおいしかったです。",
+    "read": "りょうりはとてもおいしかったです。",
+    "ko": "음식이 정말 맛있었어요.",
+    "en": "The food was delicious.",
+    "situation": {
+     "ko": "칭찬할 때",
+     "en": "Giving a compliment"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜にします。",
+    "read": "〜にします。",
+    "ko": "~으로 할게요.",
+    "en": "I'll have ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜をお願いします。",
+    "read": "〜をおねがいします。",
+    "ko": "~ 부탁해요.",
+    "en": "Could I have ~, please?"
+   },
+   {
+    "id": "w3",
+    "t": "お会計をお願いします。",
+    "read": "おかいけいをおねがいします。",
+    "ko": "~을(를) 원해요.",
+    "en": "I'd like ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜はおいしかったです。",
+    "read": "〜はおいしかったです。",
+    "ko": "~이(가) 맛있었어요.",
+    "en": "The ~ was delicious."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "식당에서 주문하는 대화를 3줄로 써 보세요 (애피타이저, 주요리, 음료).",
+    "en": "Write a 3-line restaurant order (starter, main course, drink)."
+   },
+   "must_include": [
+    {
+     "label": "〜にします",
+     "match": [
+      "にします"
+     ]
+    },
+    {
+     "label": "おいしかった",
+     "match": [
+      "おいしかった"
+     ]
+    }
+   ],
+   "model": "前菜はスープにします。メインは魚にします。水をお願いします。料理はおいしかったです。",
+   "model_trans": {
+    "ko": "애피타이저로 수프를 주세요. 주요리는 생선으로 할게요. 음료는 물을 주세요.",
+    "en": "I'll have the soup as a starter. I'll have the fish for the main course. Could I have water to drink?"
+   }
+  }
+ }
+}

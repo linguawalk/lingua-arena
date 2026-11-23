@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "id": "ja_a2_u45",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 45,
+  "concept": "A2.U45",
+  "status": "live",
+  "title": {
+   "target": "好きなこと・したいこと",
+   "ko": "좋아하는 것과 하고 싶은 것: 동사 + -ing / to",
+   "en": "Liking and wanting: verb + -ing or to"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "楽しむ",
+   "pos": "verb",
+   "read": "たのしむ",
+   "ko": "즐기다",
+   "en": "enjoy",
+   "ex": {
+    "t": "料理を楽しみます。",
+    "read": "りょうりをたのしみます。",
+    "ko": "나는 요리하는 것을 즐겨요.",
+    "en": "I enjoy cooking."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "好き",
+   "pos": "verb",
+   "read": "すき",
+   "ko": "좋아하다",
+   "en": "like",
+   "ex": {
+    "t": "泳ぐのが好きです。",
+    "read": "およぐのがすきです。",
+    "ko": "나는 수영하는 것을 좋아해요.",
+    "en": "I like swimming."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "きらい",
+   "pos": "verb",
+   "read": "きらい",
+   "ko": "싫어하다",
+   "en": "hate",
+   "ex": {
+    "t": "早く起きるのがきらいです。",
+    "read": "はやくおきるのがきらいです。",
+    "ko": "나는 일찍 일어나는 것을 싫어해요.",
+    "en": "I hate getting up early."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜たい",
+   "pos": "verb",
+   "read": "〜たい",
+   "ko": "원하다",
+   "en": "want",
+   "ex": {
+    "t": "旅行したいです。",
+    "read": "りょこうしたいです。",
+    "ko": "나는 여행하고 싶어요.",
+    "en": "I want to travel."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "望む",
+   "pos": "verb",
+   "read": "のぞむ",
+   "ko": "희망하다",
+   "en": "hope",
+   "ex": {
+    "t": "医者になりたいと思っています。",
+    "read": "いしゃになりたいとおもっています。",
+    "ko": "나는 의사가 되기를 바라요.",
+    "en": "I hope to be a doctor."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "〜つもり",
+   "pos": "verb",
+   "read": "〜つもり",
+   "ko": "계획하다",
+   "en": "plan",
+   "ex": {
+    "t": "来年、引っ越すつもりです。",
+    "read": "らいねん、ひっこすつもりです。",
+    "ko": "나는 내년에 이사할 계획이에요.",
+    "en": "I plan to move next year."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "終える",
+   "pos": "verb",
+   "read": "おえる",
+   "ko": "끝내다",
+   "en": "finish",
+   "ex": {
+    "t": "宿題をし終えました。",
+    "read": "しゅくだいをしおえました。",
+    "ko": "나는 숙제를 끝냈어요.",
+    "en": "I finished doing my homework."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "やめる",
+   "pos": "verb",
+   "read": "やめる",
+   "ko": "그만두다",
+   "en": "stop",
+   "ex": {
+    "t": "彼はたばこをやめました。",
+    "read": "かれはたばこをやめました。",
+    "ko": "담배를 그만 피웠어요.",
+    "en": "He stopped smoking."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "始める",
+   "pos": "verb",
+   "read": "はじめる",
+   "ko": "시작하다",
+   "en": "start",
+   "ex": {
+    "t": "雨が降り始めました。",
+    "read": "あめがおりはじめました。",
+    "ko": "비가 오기 시작했어요.",
+    "en": "It started to rain."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "決める",
+   "pos": "verb",
+   "read": "きめる",
+   "ko": "결정하다",
+   "en": "decide",
+   "ex": {
+    "t": "行くことに決めました。",
+    "read": "いくことにきめました。",
+    "ko": "나는 가기로 결정했어요.",
+    "en": "I decided to go."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "好きなこと・したいこと: 〜のが好き・〜たい",
+   "en": "Liking and wanting: 〜のが好き / 〜たい / 〜つもり"
+  },
+  "explain": {
+   "ko": "좋아하는 일은 〜のが好きです, 하고 싶은 일은 〜たいです, 계획은 〜つもりです로 말합니다: 泳ぐのが好きです。旅行したいです。来年、引っ越すつもりです。 〜始める・〜終える・〜やめる는 동사 ます형 어간 또는 〜のを에 붙입니다.",
+   "en": "Say what you like with 〜のが好きです, what you want with 〜たいです, and plans with 〜つもりです: 泳ぐのが好きです。旅行したいです。来年、引っ越すつもりです。 〜始める / 〜終える attach to the verb stem."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "좋아함 / Like",
+     "〜のが好きです",
+     "泳ぐのが好きです。"
+    ],
+    [
+     "싫어함 / Dislike",
+     "〜のがきらいです",
+     "早く起きるのがきらいです。"
+    ],
+    [
+     "희망 / Want",
+     "〜たいです",
+     "旅行したいです。"
+    ],
+    [
+     "계획 / Plan",
+     "〜つもりです",
+     "来年、引っ越すつもりです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "〜たい는 자신의 희망에만 씁니다.",
+    "en": "〜たい is used for your own wishes."
+   },
+   {
+    "ko": "〜つもり 앞은 사전형입니다.",
+    "en": "〜つもり follows the dictionary form."
+   }
+  ],
+  "examples": [
+   {
+    "t": "料理を楽しみます。",
+    "read": "りょうりをたのしみます。",
+    "ko": "나는 요리하는 것을 즐겨요.",
+    "en": "I enjoy cooking."
+   },
+   {
+    "t": "泳ぐのが好きです。",
+    "read": "およぐのがすきです。",
+    "ko": "나는 수영하는 것을 좋아해요.",
+    "en": "I like swimming."
+   },
+   {
+    "t": "旅行したいです。",
+    "read": "りょこうしたいです。",
+    "ko": "나는 여행하고 싶어요.",
+    "en": "I want to travel."
+   },
+   {
+    "t": "来年、引っ越すつもりです。",
+    "read": "らいねん、ひっこすつもりです。",
+    "ko": "나는 내년에 이사할 계획이에요.",
+    "en": "I plan to move next year."
+   },
+   {
+    "t": "彼はたばこをやめました。",
+    "read": "かれはたばこをやめました。",
+    "ko": "그는 담배를 끊었어요.",
+    "en": "He stopped smoking."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "泳ぐ___が好きです。",
+    "options": [
+     "の",
+     "こと",
+     "ほど"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "旅行し___です。",
+    "options": [
+     "たい",
+     "ない",
+     "ます"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "来年、引っ越す___です。",
+    "options": [
+     "つもり",
+     "ところ",
+     "ばかり"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "雨が降り___ました。",
+    "options": [
+     "始め",
+     "始める",
+     "始めて"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "何をするのが好きですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 뭘 하는 것을 즐겨요?",
+     "en": "(Question) What do you enjoy doing?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "料理するのが好きです。",
+       "料理するを好きです。",
+       "料理するは好きます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "来年、何をしたいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 내년에 뭘 하고 싶어요?",
+     "en": "(Question) What do you want to do next year?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "旅行したいです。",
+       "旅行しました。",
+       "旅行しています。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "何をするのが好き？"
+      },
+      {
+       "s": "B",
+       "t": "料理するのが好きだよ。あなたは？"
+      },
+      {
+       "s": "A",
+       "t": "泳ぐのが好き。来年はフランスへ行きたいな。"
+      },
+      {
+       "s": "B",
+       "t": "いいね。私も行くことに決めたよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 취미가 뭐야?\nB: 나는 요리하는 것을 즐겨. 너는?\nA: 나는 수영하는 것을 좋아해. 내년에는 프랑스에 가고 싶어.\nB: 좋겠다. 나도 가기로 결정했어.",
+     "en": "A: What do you enjoy doing?\nB: I enjoy cooking. What about you?\nA: I like swimming. Next year I want to go to France.\nB: That sounds great. I've decided to go too."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Aは来年どこへ行きたいですか。",
+      "options": [
+       "フランス",
+       "スペイン",
+       "イタリア"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "こんにちは、エバです。料理が好きです。でも、皿を洗うのはきらいです。来年、パリへ引っ越すつもりです。そこで料理学校へ行きたいです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요, 에바예요. 저는 요리하는 것을 즐겨요. 하지만 설거지하는 것은 싫어해요. 내년에 저는 파리로 이사할 계획이에요. 거기서 요리 학교에 다니고 싶어요.",
+     "en": "Hello, I'm Eva. I enjoy cooking. But I hate washing up. Next year I plan to move to Paris. I want to go to a cooking school there."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "エバがきらいなことは何ですか。",
+      "options": [
+       "皿を洗うこと",
+       "料理すること",
+       "旅行すること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "何をするのが好きですか。"
+      },
+      {
+       "s": "B",
+       "t": "泳ぐのが好きです。"
+      },
+      {
+       "s": "A",
+       "t": "来年、何をしたいですか。"
+      },
+      {
+       "s": "B",
+       "t": "旅行したいです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 취미가 뭐예요?\n손님: 수영하는 것을 좋아해요.\n직원: 내년에 뭘 하고 싶으세요?\n손님: 여행하고 싶어요.",
+     "en": "Interviewer: What do you enjoy doing?\nGuest: I like swimming.\nInterviewer: What do you want to do next year?\nGuest: I want to travel."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さん: ______のが好きです",
+      "answers": [
+       "泳ぐ"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さん: ______したいです",
+      "answers": [
+       "旅行"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 料理を___ます。\n2) 旅行し___です。\n3) 来年、引っ越す___です。",
+    "trans": {
+     "ko": "1) 나는 요리하는 것을 즐겨요. 2) 나는 여행하고 싶어요. 3) 나는 내년에 이사할 계획이에요.",
+     "en": "1) I enjoy cooking. 2) I want to travel. 3) I plan to move next year."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "料理を___ます。",
+      "options": [
+       "楽しみ",
+       "楽しむ",
+       "楽しんで"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "旅行し___です。",
+      "options": [
+       "たい",
+       "ない",
+       "ます"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "来年、引っ越す___です。",
+      "options": [
+       "つもり",
+       "ところ",
+       "ばかり"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは、エバです。料理が好きです。でも、皿を洗う(1)はきらいです。来年、(2)へ引っ越すつもりです。そこで料理学校へ(3)です。",
+    "trans": {
+     "ko": "안녕하세요, 에바예요. 저는 요리하는 것을 즐겨요. 하지만 설거지하는 것은 싫어해요. 내년에 저는 파리로 이사할 계획이에요.",
+     "en": "Hello, I'm Eva. I enjoy cooking. But I hate washing up. Next year I plan to move to Paris."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "の",
+       "こと",
+       "ほど"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "パリ",
+       "ローマ",
+       "東京"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "行きたい",
+       "行きたく",
+       "行きます"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "クラブのお知らせ\n水泳クラブ\n泳ぐのが好きな人はだれでも歓迎\n毎週土曜日",
+    "trans": {
+     "ko": "동아리 안내\n수영 동아리\n수영을 좋아하는 사람 환영\n매주 토요일",
+     "en": "CLUB NOTICE\nSwimming club\nAnyone who likes swimming is welcome\nEvery Saturday"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "何のクラブですか。",
+      "options": [
+       "水泳",
+       "料理",
+       "サッカー"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "いつ集まりますか。",
+      "options": [
+       "毎週土曜日",
+       "毎週日曜日",
+       "毎週月曜日"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "エバは料理が好きです。皿を洗うのはきらいです。来年、パリへ引っ越すつもりです。",
+    "trans": {
+     "ko": "에바는 요리하는 것을 즐겨요. 그녀는 설거지를 싫어해요. 그녀는 내년에 파리로 이사할 계획이에요.",
+     "en": "Eva enjoys cooking. She hates washing up. She plans to move to Paris next year."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "エバは料理が好きです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "エバは料理がきらいです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "エバは犬を飼っています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "何をするのが好きですか。",
+    "read": "なにをするのがすきですか。",
+    "ko": "취미가 뭐예요?",
+    "en": "What do you enjoy doing?",
+    "situation": {
+     "ko": "취미를 물을 때",
+     "en": "Asking about hobbies"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "料理を楽しみます。",
+    "read": "りょうりをたのしみます。",
+    "ko": "나는 요리하는 것을 즐겨요.",
+    "en": "I enjoy cooking.",
+    "situation": {
+     "ko": "즐기는 일을 말할 때",
+     "en": "Saying what you enjoy"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "泳ぐのが好きです。",
+    "read": "およぐのがすきです。",
+    "ko": "나는 수영하는 것을 좋아해요.",
+    "en": "I like swimming.",
+    "situation": {
+     "ko": "좋아하는 일을 말할 때",
+     "en": "Saying what you like"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "早く起きるのがきらいです。",
+    "read": "はやくおきるのがきらいです。",
+    "ko": "나는 일찍 일어나는 것을 싫어해요.",
+    "en": "I hate getting up early.",
+    "situation": {
+     "ko": "싫어하는 일을 말할 때",
+     "en": "Saying what you hate"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "旅行したいです。",
+    "read": "りょこうしたいです。",
+    "ko": "나는 여행하고 싶어요.",
+    "en": "I want to travel.",
+    "situation": {
+     "ko": "소망을 말할 때",
+     "en": "Saying what you want"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "来年、引っ越すつもりです。",
+    "read": "らいねん、ひっこすつもりです。",
+    "ko": "나는 내년에 이사할 계획이에요.",
+    "en": "I plan to move next year.",
+    "situation": {
+     "ko": "계획을 말할 때",
+     "en": "Talking about plans"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "行くことに決めました。",
+    "read": "いくことにきめました。",
+    "ko": "나는 가기로 결정했어요.",
+    "en": "I decided to go.",
+    "situation": {
+     "ko": "결정을 말할 때",
+     "en": "Talking about a decision"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "彼はたばこをやめました。",
+    "read": "かれはたばこをやめました。",
+    "ko": "그는 담배를 끊었어요.",
+    "en": "He stopped smoking.",
+    "situation": {
+     "ko": "습관을 말할 때",
+     "en": "Talking about a habit"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜を楽しみます。",
+    "read": "〜をたのしみます。",
+    "ko": "~하는 것을 즐겨요.",
+    "en": "I enjoy + -ing."
+   },
+   {
+    "id": "w2",
+    "t": "〜のが好きです。",
+    "read": "〜のがすきです。",
+    "ko": "~하고 싶어요.",
+    "en": "I want to + verb."
+   },
+   {
+    "id": "w3",
+    "t": "〜たいです。",
+    "read": "〜たいです。",
+    "ko": "~할 계획이에요.",
+    "en": "I plan to + verb."
+   },
+   {
+    "id": "w4",
+    "t": "〜つもりです。",
+    "read": "〜つもりです。",
+    "ko": "~하는 것을 싫어해요.",
+    "en": "I hate + -ing."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "enjoy, want, plan을 써서 자신에 대해 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about yourself using enjoy, want and plan."
+   },
+   "must_include": [
+    {
+     "label": "〜のが好き",
+     "match": [
+      "好き"
+     ]
+    },
+    {
+     "label": "〜たい・〜つもり",
+     "match": [
+      "たい",
+      "つもり"
+     ]
+    }
+   ],
+   "model": "料理を楽しみます。泳ぐのが好きです。旅行したいです。来年、引っ越すつもりです。",
+   "model_trans": {
+    "ko": "나는 요리하는 것을 즐겨요. 나는 여행하고 싶어요. 나는 내년에 이사할 계획이에요.",
+    "en": "I enjoy cooking. I want to travel. I plan to move next year."
+   }
+  }
+ }
+}

@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "id": "ja_a2_u31",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 31,
+  "concept": "A2.U31",
+  "status": "live",
+  "title": {
+   "target": "天気と季節",
+   "ko": "날씨와 계절",
+   "en": "The weather and the seasons"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "晴れ",
+   "pos": "adj",
+   "read": "はれ",
+   "ko": "맑은",
+   "en": "sunny",
+   "ex": {
+    "t": "明日は晴れるでしょう。",
+    "read": "あしたははれるでしょう。",
+    "ko": "내일은 맑을 거예요.",
+    "en": "It will be sunny tomorrow."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "くもり",
+   "pos": "adj",
+   "read": "くもり",
+   "ko": "흐린",
+   "en": "cloudy",
+   "ex": {
+    "t": "今日はくもりです。",
+    "read": "きょうはくもりです。",
+    "ko": "오늘은 하늘이 흐려요.",
+    "en": "It is cloudy today."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "雨",
+   "pos": "adj",
+   "read": "あめ",
+   "ko": "비 오는",
+   "en": "rainy",
+   "ex": {
+    "t": "春は雨が多いです。",
+    "read": "はるはあめがおおいです。",
+    "ko": "봄에는 비가 자주 와요.",
+    "en": "It is often rainy in spring."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "風が強い",
+   "pos": "adj",
+   "read": "かぜがつよい",
+   "ko": "바람 부는",
+   "en": "windy",
+   "ex": {
+    "t": "今日は風がとても強いです。",
+    "read": "きょうはかぜがとてもつよいです。",
+    "ko": "오늘은 바람이 많이 불어요.",
+    "en": "It is very windy today."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "雪",
+   "pos": "verb",
+   "read": "ゆき",
+   "ko": "눈이 오다",
+   "en": "snow",
+   "ex": {
+    "t": "冬は雪が降ります。",
+    "read": "ふゆはゆきがおります。",
+    "ko": "겨울에는 눈이 와요.",
+    "en": "It snows in winter."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "気温",
+   "pos": "noun",
+   "read": "きおん",
+   "ko": "기온",
+   "en": "temperature",
+   "ex": {
+    "t": "今日の気温は二十度です。",
+    "read": "きょうのきおんはにじゅうどです。",
+    "ko": "오늘 기온은 20도예요.",
+    "en": "The temperature is 20 degrees today."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "天気予報",
+   "pos": "noun",
+   "read": "てんきよほう",
+   "ko": "예보",
+   "en": "forecast",
+   "ex": {
+    "t": "天気予報を見ました。",
+    "read": "てんきよほうをみました。",
+    "ko": "일기예보를 봤어요.",
+    "en": "I watched the weather forecast."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "傘",
+   "pos": "noun",
+   "read": "かさ",
+   "ko": "우산",
+   "en": "umbrella",
+   "ex": {
+    "t": "雨が降りそうだったので、傘を持っていきました。",
+    "read": "あめがおりそうだったので、かさをもっていきました。",
+    "ko": "비가 올 것 같아서 우산을 가져갔어요.",
+    "en": "It looks like rain, so I took an umbrella."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "暖かい",
+   "pos": "adj",
+   "read": "あたたかい",
+   "ko": "따뜻한",
+   "en": "warm",
+   "ex": {
+    "t": "春は暖かいです。",
+    "read": "はるはあたたかいです。",
+    "ko": "봄은 따뜻해요.",
+    "en": "Spring is warm."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "凍える",
+   "pos": "adj",
+   "read": "こごえる",
+   "ko": "추운",
+   "en": "freezing",
+   "ex": {
+    "t": "冬の朝は凍えるほど寒いです。",
+    "read": "ふゆのあさはこごえるほどさむいです。",
+    "ko": "겨울 아침은 몹시 추워요.",
+    "en": "Winter mornings are freezing."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "天気と季節: 〜でしょう・〜そうです",
+   "en": "Weather and seasons: 〜でしょう / 〜そうです"
+  },
+  "explain": {
+   "ko": "예보는 〜でしょう(~일 것입니다), 곧 일어날 듯한 일은 〜そうです(~할 것 같습니다)로 말합니다: 明日は晴れるでしょう。雨が降りそうです。 계절의 일반적인 사실은 보통형 + です로 말합니다: 冬は雪が降ります。",
+   "en": "Forecast with 〜でしょう and something about to happen with 〜そうです: 明日は晴れるでしょう。雨が降りそうです。 General seasonal facts use the plain present: 冬は雪が降ります。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "예보 / Forecast",
+     "〜でしょう",
+     "明日は晴れるでしょう。"
+    ],
+    [
+     "곧 / About to",
+     "〜そうです",
+     "雨が降りそうです。"
+    ],
+    [
+     "계절 / Season",
+     "〜は〜が降ります",
+     "冬は雪が降ります。"
+    ],
+    [
+     "기온 / Temperature",
+     "気温は〜度です",
+     "気温は二十度です。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "でしょう는 추측이라 확정보다 부드럽습니다.",
+    "en": "でしょう is a soft guess, not a certainty."
+   },
+   {
+    "ko": "そうです 앞은 동사 ます형 어간입니다.",
+    "en": "そうです follows the verb stem."
+   }
+  ],
+  "examples": [
+   {
+    "t": "明日は晴れるでしょう。",
+    "read": "あしたははれるでしょう。",
+    "ko": "내일은 맑을 거예요.",
+    "en": "It will be sunny tomorrow."
+   },
+   {
+    "t": "今日は風がとても強いです。",
+    "read": "きょうはかぜがとてもつよいです。",
+    "ko": "오늘은 바람이 많이 불어요.",
+    "en": "It is very windy today."
+   },
+   {
+    "t": "雨が降りそうです。",
+    "read": "あめがおりそうです。",
+    "ko": "비가 올 거예요.",
+    "en": "It's going to rain."
+   },
+   {
+    "t": "冬は雪が降ります。",
+    "read": "ふゆはゆきがおります。",
+    "ko": "겨울에는 눈이 와요.",
+    "en": "It snows in winter."
+   },
+   {
+    "t": "天気予報を見ましたか。",
+    "read": "てんきよほうをみましたか。",
+    "ko": "일기예보를 봤어요?",
+    "en": "Did you watch the weather forecast?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "明日は晴れる___。",
+    "options": [
+     "でしょう",
+     "ました",
+     "ています"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "雨が降り___です。",
+    "options": [
+     "そう",
+     "たい",
+     "ながら"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "冬は雪が___。",
+    "options": [
+     "降ります",
+     "降りました",
+     "降りたい"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "今日の気温は二十___です。",
+    "options": [
+     "度",
+     "個",
+     "枚"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明日の天気はどうですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 내일 날씨가 어때요?",
+     "en": "(Question) What will the weather be like tomorrow?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "明日は晴れるでしょう。",
+       "昨日は晴れるでしょう。",
+       "明日は晴れました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どの季節が好きですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어떤 계절을 좋아해요?",
+     "en": "(Question) Which season do you like?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "春が好きです。",
+       "春を好きです。",
+       "春に好きです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明日の天気はどうなるの？"
+      },
+      {
+       "s": "B",
+       "t": "天気予報では、朝はくもりで、午後は雨だって。"
+      },
+      {
+       "s": "A",
+       "t": "じゃあ、傘を持っていくよ。"
+      },
+      {
+       "s": "B",
+       "t": "うん、暖かいコートも着てね。気温は十五度だよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 내일 날씨가 어때?\nB: 일기예보를 보니까 아침은 흐리고 오후에 비가 올 거래.\nA: 그럼 우산을 가져가야겠다.\nB: 응, 그리고 따뜻한 코트도 입어. 기온이 15도야.",
+     "en": "A: What's the weather going to be like tomorrow?\nB: The forecast says it will be cloudy in the morning and rainy in the afternoon.\nA: Then I'll take an umbrella.\nB: Yes, and wear a warm coat. The temperature will be 15 degrees."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Aは何を持っていきますか。",
+      "options": [
+       "傘",
+       "サングラス",
+       "マフラー"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "こんにちは、天気予報です。今日は晴れて暖かいです。明日の朝はくもりで、午後は雨が降りそうです。風がとても強いので、傘に気をつけてください。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요, 일기예보입니다. 오늘은 맑고 따뜻합니다. 내일은 아침에 흐리겠고 오후에는 비가 오겠습니다. 바람이 많이 불겠으니 우산을 조심해서 쓰세요.",
+     "en": "Hello, here is the weather forecast. Today is sunny and warm. Tomorrow it will be cloudy in the morning and it's going to rain in the afternoon. It will be very windy, so be careful with your umbrella."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "明日の午後はどんな天気ですか。",
+      "options": [
+       "雨",
+       "晴れ",
+       "雪"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "週末の天気はどうですか。"
+      },
+      {
+       "s": "B",
+       "t": "土曜日は晴れで、日曜日は雪が降るでしょう。"
+      },
+      {
+       "s": "A",
+       "t": "気温はどうですか。"
+      },
+      {
+       "s": "B",
+       "t": "マイナス三度です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 주말 날씨는 어때요?\n손님: 토요일은 맑고 일요일에는 눈이 온대요.\n직원: 기온은요?\n손님: 영하 3도예요.",
+     "en": "Clerk: What's the weather like for the weekend?\nGuest: Saturday will be sunny and on Sunday it's going to snow.\nClerk: And the temperature?\nGuest: Minus three degrees."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さん: 日曜日は______が降るでしょう",
+      "answers": [
+       "雪"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さん: マイナス______度です",
+      "answers": [
+       "三"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 明日は晴れる___。\n2) 今日は風が___強いです。\n3) 冬は雪が___。",
+    "trans": {
+     "ko": "1) 내일은 맑을 거예요. 2) 오늘은 바람이 많이 불어요. 3) 겨울에는 눈이 와요.",
+     "en": "1) It will be sunny tomorrow. 2) It is very windy today. 3) It snows in winter."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "明日は晴れる___。",
+      "options": [
+       "でしょう",
+       "でした",
+       "ています"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "今日は風が___強いです。",
+      "options": [
+       "とても",
+       "ぜんぜん",
+       "あまり"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "冬は雪が___。",
+      "options": [
+       "降ります",
+       "降りました",
+       "降りたい"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは、天気予報です。今日は晴れて暖かいです。明日の朝は(1)で、午後は雨が(2)。風が(3)強いです。",
+    "trans": {
+     "ko": "일기예보입니다. 오늘은 맑고 따뜻합니다. 내일은 아침에 흐리겠고 오후에는 비가 오겠습니다. 바람이 많이 불겠으니 우산을 조심하세요.",
+     "en": "Here is the weather forecast. Today is sunny and warm. Tomorrow it will be cloudy in the morning and it's going to rain in the afternoon. It will be very windy, so be careful with your umbrella."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "くもり",
+       "晴れ",
+       "雪"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "降りそうです",
+       "降りました",
+       "降りません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "とても",
+       "ぜんぜん",
+       "まったく"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "今週の天気\n土曜日：晴れ、18度\n日曜日：雪、マイナス3度",
+    "trans": {
+     "ko": "주간 날씨\n토요일: 맑음, 18°C\n일요일: 눈, -3°C",
+     "en": "WEEKLY WEATHER\nSaturday: sunny, 18°C\nSunday: snow, -3°C"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "土曜日の天気はどうですか。",
+      "options": [
+       "晴れ",
+       "雪",
+       "雨"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "日曜日の気温は何度ですか。",
+      "options": [
+       "マイナス3度",
+       "18度",
+       "0度"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "明日の朝はくもりです。午後は雨が降りそうです。風がとても強いでしょう。",
+    "trans": {
+     "ko": "내일 아침은 흐릴 거예요. 오후에는 비가 올 거예요. 바람이 많이 불 거예요.",
+     "en": "Tomorrow morning will be cloudy. In the afternoon it's going to rain. It will be very windy."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "午後は雨が降りそうです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "明日は雪が降ります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "明日は霧が出ます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "明日の天気はどうなりますか。",
+    "read": "あしたのてんきはどうなりますか。",
+    "ko": "내일 날씨가 어때요?",
+    "en": "What will the weather be like tomorrow?",
+    "situation": {
+     "ko": "내일 날씨를 물을 때",
+     "en": "Asking about tomorrow's weather"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "明日は晴れるでしょう。",
+    "read": "あしたははれるでしょう。",
+    "ko": "내일은 맑을 거예요.",
+    "en": "It will be sunny tomorrow.",
+    "situation": {
+     "ko": "예보를 말할 때",
+     "en": "Giving the forecast"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "雨が降りそうです。",
+    "read": "あめがおりそうです。",
+    "ko": "비가 올 것 같아요.",
+    "en": "It's going to rain.",
+    "situation": {
+     "ko": "곧 일어날 일을 말할 때",
+     "en": "Saying it looks like rain"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "傘を持っていってください。",
+    "read": "かさをもっていってください。",
+    "ko": "우산을 가져가세요.",
+    "en": "Take an umbrella.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "今日は風がとても強いです。",
+    "read": "きょうはかぜがとてもつよいです。",
+    "ko": "오늘은 바람이 많이 불어요.",
+    "en": "It is very windy today.",
+    "situation": {
+     "ko": "지금 날씨를 말할 때",
+     "en": "Describing today's weather"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "冬の朝は凍えるほど寒いです。",
+    "read": "ふゆのあさはこごえるほどさむいです。",
+    "ko": "겨울 아침은 몹시 추워요.",
+    "en": "Winter mornings are freezing.",
+    "situation": {
+     "ko": "계절을 말할 때",
+     "en": "Talking about seasons"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "気温は二十度です。",
+    "read": "きおんはにじゅうどです。",
+    "ko": "기온이 20도예요.",
+    "en": "The temperature is 20 degrees.",
+    "situation": {
+     "ko": "기온을 말할 때",
+     "en": "Giving the temperature"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "春がいちばん好きです。",
+    "read": "はるがいちばんすきです。",
+    "ko": "나는 봄이 제일 좋아요.",
+    "en": "I like spring best.",
+    "situation": {
+     "ko": "좋아하는 계절을 말할 때",
+     "en": "Saying your favourite season"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "明日は〜でしょう。",
+    "read": "あしたは〜でしょう。",
+    "ko": "내일은 ~할 거예요.",
+    "en": "It will be ~ tomorrow."
+   },
+   {
+    "id": "w2",
+    "t": "〜そうです。",
+    "read": "〜そうです。",
+    "ko": "~할 것 같아요.",
+    "en": "It's going to ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜（季節）は〜ます。",
+    "read": "〜（きせつ）は〜ます。",
+    "ko": "~에는 …해요.",
+    "en": "It ~ in (season)."
+   },
+   {
+    "id": "w4",
+    "t": "気温は〜度です。",
+    "read": "きおんは〜どです。",
+    "ko": "기온은 ~도예요.",
+    "en": "The temperature is ~ degrees."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "내일 날씨를 예보하는 글을 3문장으로 써 보세요 (will / going to 사용).",
+    "en": "Write a 3-sentence weather forecast for tomorrow using will and going to."
+   },
+   "must_include": [
+    {
+     "label": "でしょう・そうです",
+     "match": [
+      "でしょう",
+      "そう"
+     ]
+    },
+    {
+     "label": "気温",
+     "match": [
+      "度"
+     ]
+    }
+   ],
+   "model": "明日の朝はくもりでしょう。午後は雨が降りそうです。気温は十五度でしょう。",
+   "model_trans": {
+    "ko": "내일 아침은 흐릴 거예요. 오후에는 비가 올 거예요. 기온은 15도일 거예요.",
+    "en": "Tomorrow morning will be cloudy. In the afternoon it's going to rain. The temperature will be 15 degrees."
+   }
+  }
+ }
+}

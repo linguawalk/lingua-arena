@@ -1,0 +1,825 @@
+{
+ "meta": {
+  "id": "ja_a2_u38",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 38,
+  "concept": "A2.U38",
+  "status": "live",
+  "title": {
+   "target": "苦情と返品",
+   "ko": "불만 말하기와 환불",
+   "en": "Complaints and returning things"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "苦情",
+   "pos": "noun",
+   "read": "くじょう",
+   "ko": "불만",
+   "en": "complaint",
+   "ex": {
+    "t": "苦情があります。",
+    "read": "くじょうがあります。",
+    "ko": "불만이 있어요.",
+    "en": "I have a complaint."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "こわれる",
+   "pos": "adj",
+   "read": "こわれる",
+   "ko": "고장 난",
+   "en": "broken",
+   "ex": {
+    "t": "このパソコンはこわれています。",
+    "read": "このパソコンはこわれています。",
+    "ko": "이 컴퓨터는 고장 났어요.",
+    "en": "This computer is broken."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "払い戻し",
+   "pos": "noun",
+   "read": "はらいもどし",
+   "ko": "환불",
+   "en": "refund",
+   "ex": {
+    "t": "払い戻しをお願いします。",
+    "read": "はらいもどしをおねがいします。",
+    "ko": "환불 받고 싶어요.",
+    "en": "I'd like a refund."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "交換する",
+   "pos": "verb",
+   "read": "こうかんする",
+   "ko": "교환하다",
+   "en": "exchange",
+   "ex": {
+    "t": "これを交換できますか。",
+    "read": "これをこうかんできますか。",
+    "ko": "이걸 교환할 수 있어요?",
+    "en": "Can I exchange this?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "レシート",
+   "pos": "noun",
+   "read": "レシート",
+   "ko": "영수증",
+   "en": "receipt",
+   "ex": {
+    "t": "レシートを持っています。",
+    "read": "レシートをもっています。",
+    "ko": "영수증 있어요.",
+    "en": "I have the receipt."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "動く",
+   "pos": "verb",
+   "read": "うごく",
+   "ko": "작동하다",
+   "en": "work",
+   "ex": {
+    "t": "動きません。",
+    "read": "うごきません。",
+    "ko": "이게 작동하지 않아요.",
+    "en": "It doesn't work."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "まちがい",
+   "pos": "adj",
+   "read": "まちがい",
+   "ko": "잘못된",
+   "en": "wrong",
+   "ex": {
+    "t": "サイズがまちがっていました。",
+    "read": "サイズがまちがっていました。",
+    "ko": "잘못된 사이즈를 받았어요.",
+    "en": "I got the wrong size."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "返品する",
+   "pos": "verb",
+   "read": "へんぴんする",
+   "ko": "반품하다",
+   "en": "return",
+   "ex": {
+    "t": "これを返品したいです。",
+    "read": "これをへんぴんしたいです。",
+    "ko": "이걸 반품하고 싶어요.",
+    "en": "I'd like to return this."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "おわび",
+   "pos": "noun",
+   "read": "おわび",
+   "ko": "사과",
+   "en": "apology",
+   "ex": {
+    "t": "ご迷惑をおかけしました。",
+    "read": "ごめいわくをおかけしました。",
+    "ko": "사과드립니다.",
+    "en": "I'm sorry for the problem."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "問題",
+   "pos": "noun",
+   "read": "もんだい",
+   "ko": "문제",
+   "en": "problem",
+   "ex": {
+    "t": "問題があります。",
+    "read": "もんだいがあります。",
+    "ko": "문제가 있어요.",
+    "en": "There's a problem."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "苦情と返品: こわれています・交換",
+   "en": "Complaints and returns: こわれています / 交換"
+  },
+  "explain": {
+   "ko": "문제는 〜がこわれています・動きません으로 말합니다. 요청은 〜をお願いします, 〜できますか로 합니다: 払い戻しをお願いします。これを交換できますか。 점원은 申し訳ありません이라고 사과합니다.",
+   "en": "State a problem with 〜がこわれています / 動きません. Ask with 〜をお願いします or 〜できますか: 払い戻しをお願いします。これを交換できますか。 The clerk apologises with 申し訳ありません。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "문제 / Problem",
+     "〜がこわれています",
+     "このパソコンはこわれています。"
+    ],
+    [
+     "요청 / Request",
+     "〜をお願いします",
+     "払い戻しをお願いします。"
+    ],
+    [
+     "교환 / Exchange",
+     "〜を交換できますか",
+     "これを交換できますか。"
+    ],
+    [
+     "증거 / Proof",
+     "レシートを持っています",
+     "レシートを持っています。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "動きません은 기계가 작동하지 않을 때 씁니다.",
+    "en": "動きません is used when a machine does not work."
+   },
+   {
+    "ko": "まちがっていました로 잘못된 것을 말합니다.",
+    "en": "まちがっていました says something was wrong."
+   }
+  ],
+  "examples": [
+   {
+    "t": "このパソコンはこわれています。",
+    "read": "このパソコンはこわれています。",
+    "ko": "이 컴퓨터는 고장 났어요.",
+    "en": "This computer is broken."
+   },
+   {
+    "t": "払い戻しをお願いします。",
+    "read": "はらいもどしをおねがいします。",
+    "ko": "환불 받고 싶어요.",
+    "en": "I'd like a refund."
+   },
+   {
+    "t": "これを交換できますか。",
+    "read": "これをこうかんできますか。",
+    "ko": "이걸 교환할 수 있어요?",
+    "en": "Can I exchange this?"
+   },
+   {
+    "t": "レシートを持っています。",
+    "read": "レシートをもっています。",
+    "ko": "영수증 있어요.",
+    "en": "I have the receipt."
+   },
+   {
+    "t": "サイズがまちがっていました。",
+    "read": "サイズがまちがっていました。",
+    "ko": "잘못된 사이즈를 받았어요.",
+    "en": "I got the wrong size."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "このパソコンはこわれ___。",
+    "options": [
+     "ています",
+     "ました",
+     "ます"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "払い戻しを___します。",
+    "options": [
+     "お願い",
+     "お願いして",
+     "お願いが"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "これを交換___ますか。",
+    "options": [
+     "でき",
+     "し",
+     "なり"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "サイズがまちがって___。",
+    "options": [
+     "いました",
+     "います",
+     "ください"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どうなさいましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 무슨 문제가 있어요?",
+     "en": "(Question) What's the problem?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "このパソコンが動かないんです。",
+       "このパソコンを動かないんです。",
+       "このパソコンは動きたいです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "レシートはお持ちですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 영수증 있어요?",
+     "en": "(Question) Do you have the receipt?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、これです。",
+       "はい、持ちません。",
+       "いいえ、持ちましたか。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このパソコンが動かないんです。昨日買いました。"
+      },
+      {
+       "s": "B",
+       "t": "申し訳ありません。レシートはお持ちですか。"
+      },
+      {
+       "s": "A",
+       "t": "はい、これです。払い戻しをお願いします。"
+      },
+      {
+       "s": "B",
+       "t": "かしこまりました。新しいものと交換することもできます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 컴퓨터가 작동하지 않아요. 어제 샀어요.\nB: 죄송합니다. 영수증 있으세요?\nA: 네, 여기 있어요. 환불 받고 싶어요.\nB: 알겠습니다. 새것으로 교환해 드릴까요?",
+     "en": "A: This computer doesn't work. I bought it yesterday.\nB: I'm sorry. Do you have the receipt?\nA: Yes, here it is. I'd like a refund.\nB: All right. Would you like to exchange it for a new one?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Aは何を望んでいますか。",
+      "options": [
+       "払い戻し",
+       "レシート",
+       "新しいかばん"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日、シャツを買いました。家に帰ると、サイズがまちがっていました。それで、今日、店へ行きました。店員さんは親切に謝って、正しいサイズに交換してくれました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어제 저는 셔츠를 샀어요. 집에 와서 보니 사이즈가 잘못됐어요. 그래서 오늘 가게에 갔어요. 직원은 친절하게 사과하고 맞는 사이즈로 교환해 줬어요.",
+     "en": "Yesterday I bought a shirt. When I got home I saw it was the wrong size. So I went back to the shop today. The assistant apologised kindly and exchanged it for the right size."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "シャツはどうでしたか。",
+      "options": [
+       "サイズがまちがっていた",
+       "こわれていた",
+       "高すぎた"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どうなさいましたか。"
+      },
+      {
+       "s": "B",
+       "t": "この電話がつかないんです。"
+      },
+      {
+       "s": "A",
+       "t": "レシートはお持ちですか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、これです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 무슨 문제가 있으세요?\n손님: 이 전화기가 켜지지 않아요.\n직원: 영수증 있으세요?\n손님: 네, 여기요.",
+     "en": "Assistant: What's the problem?\nGuest: This phone won't turn on.\nAssistant: Do you have the receipt?\nGuest: Yes, here it is."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さん: この______がつかないんです",
+      "answers": [
+       "電話"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さん: はい、______です",
+      "answers": [
+       "これ"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) このパソコンはこわれ___。\n2) ___をお願いします。\n3) サイズがまちがって___。",
+    "trans": {
+     "ko": "1) 이 컴퓨터는 고장 났어요. 2) 환불 받고 싶어요. 3) 잘못된 사이즈를 받았어요.",
+     "en": "1) This computer is broken. 2) I'd like a refund. 3) I got the wrong size."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "このパソコンはこわれ___。",
+      "options": [
+       "ています",
+       "ました",
+       "ます"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___をお願いします。",
+      "options": [
+       "払い戻し",
+       "苦情",
+       "問題"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "サイズがまちがって___。",
+      "options": [
+       "いました",
+       "います",
+       "ください"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "昨日、シャツを買いました。家に帰ると、(1)がまちがっていました。それで、今日、店へ(2)。店員さんは謝って、(3)してくれました。",
+    "trans": {
+     "ko": "어제 저는 셔츠를 샀어요. 집에 와서 보니 사이즈가 잘못됐어요. 그래서 오늘 가게에 갔어요. 직원은 친절하게 사과하고 맞는 사이즈로 교환해 줬어요.",
+     "en": "Yesterday I bought a shirt. When I got home I saw it was the wrong size. So I went back to the shop today. The assistant apologised kindly and exchanged it for the right size."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "サイズ",
+       "値段",
+       "色"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "行きました",
+       "行きます",
+       "行っています"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "交換",
+       "返事",
+       "注文"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "店のお知らせ\n交換・払い戻し：十四日以内\nレシートが必要です",
+    "trans": {
+     "ko": "가게 안내\n교환 / 환불: 구매 후 14일 이내\n영수증 필수",
+     "en": "SHOP NOTICE\nExchange / refund: within 14 days\nReceipt required"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "何日以内に交換できますか。",
+      "options": [
+       "十四日",
+       "七日",
+       "三十日"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "何が必要ですか。",
+      "options": [
+       "レシート",
+       "手紙",
+       "パスポート"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "トムは昨日パソコンを買いました。動きませんでした。レシートを持って店へ行きました。",
+    "trans": {
+     "ko": "톰은 어제 컴퓨터를 샀어요. 컴퓨터가 작동하지 않았어요. 그는 영수증을 가지고 가게에 갔어요.",
+     "en": "Tom bought a computer yesterday. It didn't work. He went to the shop with the receipt."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "トムのパソコンは動きませんでした。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "トムはレシートを持っていませんでした。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "トムは車を買いました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "問題があります。",
+    "read": "もんだいがあります。",
+    "ko": "문제가 있어요.",
+    "en": "There's a problem.",
+    "situation": {
+     "ko": "문제를 말할 때",
+     "en": "Saying there is a problem"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "動きません。",
+    "read": "うごきません。",
+    "ko": "이게 작동하지 않아요.",
+    "en": "It doesn't work.",
+    "situation": {
+     "ko": "고장을 말할 때",
+     "en": "Saying something doesn't work"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "サイズがまちがっていました。",
+    "read": "サイズがまちがっていました。",
+    "ko": "잘못된 사이즈를 받았어요.",
+    "en": "I got the wrong size.",
+    "situation": {
+     "ko": "잘못 받은 것을 말할 때",
+     "en": "Saying you got the wrong thing"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "これを交換できますか。",
+    "read": "これをこうかんできますか。",
+    "ko": "이걸 교환할 수 있어요?",
+    "en": "Can I exchange this?",
+    "situation": {
+     "ko": "교환을 요청할 때",
+     "en": "Asking for an exchange"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "払い戻しをお願いします。",
+    "read": "はらいもどしをおねがいします。",
+    "ko": "환불 받고 싶어요.",
+    "en": "I'd like a refund.",
+    "situation": {
+     "ko": "환불을 요청할 때",
+     "en": "Asking for a refund"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "レシートを持っています。",
+    "read": "レシートをもっています。",
+    "ko": "영수증 있어요.",
+    "en": "I have the receipt.",
+    "situation": {
+     "ko": "영수증을 보일 때",
+     "en": "Showing a receipt"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "申し訳ありません。確認します。",
+    "read": "もうしわけありません。かくにんします。",
+    "ko": "죄송합니다. 확인해 볼게요.",
+    "en": "I'm sorry. I'll check.",
+    "situation": {
+     "ko": "직원이 사과할 때",
+     "en": "A shop assistant apologises"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "少々お待ちください。新しいものを持ってきます。",
+    "read": "しょうしょうおまちください。あたらしいものをもってきます。",
+    "ko": "잠깐만요, 새것을 가져올게요.",
+    "en": "Just a moment, I'll get a new one.",
+    "situation": {
+     "ko": "해결할 때",
+     "en": "Solving the problem"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜がこわれています。",
+    "read": "〜がこわれています。",
+    "ko": "~이(가) 고장 났어요.",
+    "en": "The ~ is broken."
+   },
+   {
+    "id": "w2",
+    "t": "払い戻しをお願いします。",
+    "read": "はらいもどしをおねがいします。",
+    "ko": "~을(를) 환불 받고 싶어요.",
+    "en": "I'd like a refund."
+   },
+   {
+    "id": "w3",
+    "t": "〜を交換できますか。",
+    "read": "〜をこうかんできますか。",
+    "ko": "~을(를) 교환할 수 있어요?",
+    "en": "Can I exchange ~?"
+   },
+   {
+    "id": "w4",
+    "t": "〜がまちがっていました。",
+    "read": "〜がまちがっていました。",
+    "ko": "~을(를) 잘못 받았어요.",
+    "en": "I got the wrong ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가게에서 불만을 말하는 대화를 3줄로 써 보세요 (문제 설명, 요청, 직원의 답).",
+    "en": "Write a 3-line dialogue complaining in a shop (describe the problem, make a request, the assistant's answer)."
+   },
+   "must_include": [
+    {
+     "label": "こわれる・動かない",
+     "match": [
+      "動きません",
+      "こわれ"
+     ]
+    },
+    {
+     "label": "払い戻し・交換",
+     "match": [
+      "払い戻し",
+      "交換"
+     ]
+    }
+   ],
+   "model": "このパソコンは動きません。払い戻しをお願いします。申し訳ありません。レシートはお持ちですか。交換できますか。",
+   "model_trans": {
+    "ko": "이 컴퓨터가 작동하지 않아요. 환불 받고 싶어요. 죄송합니다. 영수증 있으세요?",
+    "en": "This computer doesn't work. I'd like a refund. I'm sorry. Do you have the receipt? Can I exchange it?"
+   }
+  }
+ }
+}

@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "id": "ja_a2_u33",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 33,
+  "concept": "A2.U33",
+  "status": "live",
+  "title": {
+   "target": "名詞を説明する",
+   "ko": "who, which, that: 관계대명사로 설명하기",
+   "en": "Who, which and that"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "〜する人",
+   "pos": "pron",
+   "read": "〜するひと",
+   "ko": "~하는 사람",
+   "en": "who",
+   "ex": {
+    "t": "彼は隣に住んでいる人です。",
+    "read": "かれはとなりにすんでいるひとです。",
+    "ko": "저 사람은 제 옆집에 사는 남자예요.",
+    "en": "He is the man who lives next door."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜する物",
+   "pos": "pron",
+   "read": "〜するもの",
+   "ko": "~하는 것",
+   "en": "which",
+   "ex": {
+    "t": "これは私が毎日使うかばんです。",
+    "read": "これはわたしがまいにちつかうかばんです。",
+    "ko": "이건 매일 쓰는 가방이에요.",
+    "en": "This is a bag which I use every day."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜する機械",
+   "pos": "pron",
+   "read": "〜するきかい",
+   "ko": "~하는 것 (사람/사물)",
+   "en": "that",
+   "ex": {
+    "t": "部屋を掃除するロボットです。",
+    "read": "へやをそうじするロボットです。",
+    "ko": "이건 방을 청소하는 로봇이에요.",
+    "en": "It's a robot that cleans the room."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "隣人",
+   "pos": "noun",
+   "read": "りんじん",
+   "ko": "이웃",
+   "en": "neighbour",
+   "ex": {
+    "t": "隣の人は親切な人です。",
+    "read": "となりのひとはしんせつなひとです。",
+    "ko": "제 이웃은 친절한 사람이에요.",
+    "en": "My neighbour is a kind person."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "料理人",
+   "pos": "noun",
+   "read": "りょうりにん",
+   "ko": "요리사",
+   "en": "chef",
+   "ex": {
+    "t": "彼はイタリア料理を作る料理人です。",
+    "read": "かれはイタリアりょうりをつくるりょうりにんです。",
+    "ko": "그는 이탈리아 음식을 만드는 요리사예요.",
+    "en": "He is a chef who makes Italian food."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "鍵",
+   "pos": "noun",
+   "read": "かぎ",
+   "ko": "열쇠",
+   "en": "key",
+   "ex": {
+    "t": "これはドアを開ける鍵です。",
+    "read": "これはドアをあけるかぎです。",
+    "ko": "이건 문을 여는 열쇠예요.",
+    "en": "This is the key that opens the door."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "機械",
+   "pos": "noun",
+   "read": "きかい",
+   "ko": "기계",
+   "en": "machine",
+   "ex": {
+    "t": "コーヒーを作る機械です。",
+    "read": "コーヒーをつくるきかいです。",
+    "ko": "이건 커피를 만드는 기계예요.",
+    "en": "It's a machine that makes coffee."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "歌手",
+   "pos": "noun",
+   "read": "かしゅ",
+   "ko": "가수",
+   "en": "singer",
+   "ex": {
+    "t": "彼女は韓国で有名な歌手です。",
+    "read": "かのじょはかんこくでゆうめいなかしゅです。",
+    "ko": "그녀는 한국에서 유명한 가수예요.",
+    "en": "She is a singer who is famous in Korea."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "選ぶ",
+   "pos": "verb",
+   "read": "えらぶ",
+   "ko": "고르다",
+   "en": "choose",
+   "ex": {
+    "t": "いちばん安いのを選びました。",
+    "read": "いちばんやすいのをえらびました。",
+    "ko": "나는 가장 싼 걸 골랐어요.",
+    "en": "I chose the one which was cheapest."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "説明する",
+   "pos": "verb",
+   "read": "せつめいする",
+   "ko": "설명하다",
+   "en": "describe",
+   "ex": {
+    "t": "友達を説明してください。",
+    "read": "ともだちをせつめいしてください。",
+    "ko": "친구를 설명해 보세요.",
+    "en": "Describe your friend."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "名詞を説明する: 〜する人・〜する物",
+   "en": "Who, which and that: describing a noun"
+  },
+  "explain": {
+   "ko": "일본어에서는 설명하는 말을 명사 앞에 둡니다: 隣に住んでいる人(옆에 사는 사람), 部屋を掃除するロボット(방을 청소하는 로봇). 설명하는 부분은 보통형을 씁니다. 사람이든 물건이든 같은 형태입니다.",
+   "en": "Japanese puts the description before the noun: 隣に住んでいる人, 部屋を掃除するロボット. The describing part is in plain form, and works the same for people and things."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "사람 / Person",
+     "普通形 + 人",
+     "隣に住んでいる人です。"
+    ],
+    [
+     "물건 / Thing",
+     "普通形 + 物",
+     "毎日使うかばんです。"
+    ],
+    [
+     "기계 / Machine",
+     "普通形 + 機械",
+     "コーヒーを作る機械です。"
+    ],
+    [
+     "좋아하는 / I like",
+     "〜人が好きです",
+     "親切な人が好きです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "영어의 who / which / that에 해당하는 말은 필요 없습니다.",
+    "en": "There is no word for who / which / that."
+   },
+   {
+    "ko": "설명 부분이 길어도 명사는 맨 뒤에 옵니다.",
+    "en": "The noun always comes last."
+   }
+  ],
+  "examples": [
+   {
+    "t": "彼は隣に住んでいる人です。",
+    "read": "かれはとなりにすんでいるひとです。",
+    "ko": "저 사람은 제 옆집에 사는 남자예요.",
+    "en": "He is the man who lives next door."
+   },
+   {
+    "t": "これは私が毎日使うかばんです。",
+    "read": "これはわたしがまいにちつかうかばんです。",
+    "ko": "이건 매일 쓰는 가방이에요.",
+    "en": "This is a bag which I use every day."
+   },
+   {
+    "t": "部屋を掃除するロボットです。",
+    "read": "へやをそうじするロボットです。",
+    "ko": "이건 방을 청소하는 로봇이에요.",
+    "en": "It's a robot that cleans the room."
+   },
+   {
+    "t": "彼はイタリア料理を作る料理人です。",
+    "read": "かれはイタリアりょうりをつくるりょうりにんです。",
+    "ko": "그는 이탈리아 음식을 만드는 요리사예요.",
+    "en": "He is a chef who makes Italian food."
+   },
+   {
+    "t": "これはドアを開ける鍵です。",
+    "read": "これはドアをあけるかぎです。",
+    "ko": "이건 문을 여는 열쇠예요.",
+    "en": "This is the key that opens the door."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "彼は隣に住ん___人です。",
+    "options": [
+     "でいる",
+     "でいた人が",
+     "でいます"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "私が毎日使___かばんです。",
+    "options": [
+     "う",
+     "います",
+     "いた"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "コーヒーを作___機械です。",
+    "options": [
+     "る",
+     "ます",
+     "って"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "これはドアを開ける___です。",
+    "options": [
+     "鍵",
+     "鍵を",
+     "鍵が"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "あの人はだれですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 사람이 누구예요?",
+     "en": "(Question) Who is that man?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "隣に住んでいる料理人です。",
+       "隣に住む料理人がです。",
+       "料理人隣住んでいます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "これは何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이게 뭐예요?",
+     "en": "(Question) What is this?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "コーヒーを作る機械です。",
+       "コーヒーが作る機械です。",
+       "機械コーヒー作ります。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "あの人はだれ？"
+      },
+      {
+       "s": "B",
+       "t": "隣に住んでいる料理人だよ。イタリア料理を作るんだ。"
+      },
+      {
+       "s": "A",
+       "t": "これは何？"
+      },
+      {
+       "s": "B",
+       "t": "コーヒーを作る機械だよ。毎日使っているんだ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 저 사람이 누구야?\nB: 우리 옆집에 사는 요리사야. 이탈리아 음식을 만들어.\nA: 이건 뭐야?\nB: 커피를 만드는 기계야. 내가 매일 써.",
+     "en": "A: Who is that man?\nB: He's a chef who lives next door. He makes Italian food.\nA: What's this?\nB: It's a machine that makes coffee. I use it every day."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "機械は何を作りますか。",
+      "options": [
+       "コーヒー",
+       "ピザ",
+       "パン"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "隣の人は親切な人です。イタリア料理を作る料理人です。彼の店にはコーヒーを作る大きな機械があります。私は彼が作るピザが大好きです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제 이웃은 친절한 사람이에요. 그는 이탈리아 음식을 만드는 요리사예요. 그의 가게에는 커피를 만드는 큰 기계가 있어요. 저는 그가 만든 피자를 아주 좋아해요.",
+     "en": "My neighbour is a kind person. He is a chef who makes Italian food. His shop has a big machine that makes coffee. I really like the pizza which he makes."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "話す人は何が好きですか。",
+      "options": [
+       "ピザ",
+       "パスタ",
+       "パン"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どんなかばんをお探しですか。"
+      },
+      {
+       "s": "B",
+       "t": "パソコンが入る大きいかばんです。"
+      },
+      {
+       "s": "A",
+       "t": "これはいかがですか。"
+      },
+      {
+       "s": "B",
+       "t": "いいですね。これにします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 어떤 가방을 찾으세요?\n손님: 큰 가방이요. 노트북이 들어가는 가방이요.\n직원: 이건 어때요?\n손님: 좋네요. 이걸로 할게요.",
+     "en": "Clerk: What kind of bag are you looking for?\nGuest: A big bag that holds a laptop.\nClerk: How about this one?\nGuest: It's nice. I'll take it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さん: パソコンが入る______かばんです",
+      "answers": [
+       "大きい"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さん: これに______",
+      "answers": [
+       "します"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 彼は隣に住ん___人です。\n2) これは私が毎日使___かばんです。\n3) これはドアを開け___鍵です。",
+    "trans": {
+     "ko": "1) 저 사람은 제 옆집에 사는 남자예요. 2) 이건 매일 쓰는 가방이에요. 3) 이건 문을 여는 열쇠예요.",
+     "en": "1) He is the man who lives next door. 2) This is a bag which I use every day. 3) This is the key that opens the door."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "彼は隣に住ん___人です。",
+      "options": [
+       "でいる",
+       "でいます",
+       "でいて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "これは私が毎日使___かばんです。",
+      "options": [
+       "う",
+       "います",
+       "った"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "これはドアを開け___鍵です。",
+      "options": [
+       "る",
+       "ます",
+       "て"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "隣の人は親切な人です。イタリア料理を(1)料理人です。彼の店にはコーヒーを(2)大きな(3)があります。",
+    "trans": {
+     "ko": "제 이웃은 친절한 사람이에요. 그는 이탈리아 음식을 만드는 요리사예요. 그의 가게에는 커피를 만드는 큰 기계가 있어요.",
+     "en": "My neighbour is a kind person. He is a chef who makes Italian food. His shop has a big machine that makes coffee."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "作る",
+       "作ります",
+       "作って"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "作る",
+       "作ります",
+       "作って"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "機械",
+       "鍵",
+       "かばん"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "お知らせ\n募集：パソコンが入る大きいかばん\n電話：010-1234-5678",
+    "trans": {
+     "ko": "광고\n찾습니다: 노트북이 들어가는 큰 가방\n연락처: 010-1234-5678",
+     "en": "NOTICE\nWanted: a big bag that holds a laptop\nPhone: 010-1234-5678"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "何を探していますか。",
+      "options": [
+       "大きいかばん",
+       "パソコン",
+       "鍵"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "かばんには何が入りますか。",
+      "options": [
+       "パソコン",
+       "本",
+       "傘"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "トムの隣人は料理人です。彼はイタリア料理を作ります。トムは彼が作るピザが好きです。",
+    "trans": {
+     "ko": "톰의 이웃은 요리사예요. 그는 이탈리아 음식을 만들어요. 톰은 그가 만든 피자를 좋아해요.",
+     "en": "Tom's neighbour is a chef. He makes Italian food. Tom likes the pizza which he makes."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "トムの隣人は料理人です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "トムの隣人は医者です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "トムは猫を飼っています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "彼は隣に住んでいる人です。",
+    "read": "かれはとなりにすんでいるひとです。",
+    "ko": "저 사람은 제 옆집에 사는 남자예요.",
+    "en": "He is the man who lives next door.",
+    "situation": {
+     "ko": "사람을 설명할 때",
+     "en": "Describing a person"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "これは私が毎日使うかばんです。",
+    "read": "これはわたしがまいにちつかうかばんです。",
+    "ko": "이건 매일 쓰는 가방이에요.",
+    "en": "This is a bag which I use every day.",
+    "situation": {
+     "ko": "물건을 설명할 때",
+     "en": "Describing a thing"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "部屋を掃除するロボットです。",
+    "read": "へやをそうじするロボットです。",
+    "ko": "이건 방을 청소하는 로봇이에요.",
+    "en": "It's a robot that cleans the room.",
+    "situation": {
+     "ko": "기계를 설명할 때",
+     "en": "Describing a machine"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "彼はイタリア料理を作る料理人です。",
+    "read": "かれはイタリアりょうりをつくるりょうりにんです。",
+    "ko": "그는 이탈리아 음식을 만드는 요리사예요.",
+    "en": "He is a chef who makes Italian food.",
+    "situation": {
+     "ko": "직업을 설명할 때",
+     "en": "Describing a job"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "これはドアを開ける鍵です。",
+    "read": "これはドアをあけるかぎです。",
+    "ko": "이건 문을 여는 열쇠예요.",
+    "en": "This is the key that opens the door.",
+    "situation": {
+     "ko": "쓰임새를 설명할 때",
+     "en": "Describing a use"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "彼女は韓国で有名な歌手です。",
+    "read": "かのじょはかんこくでゆうめいなかしゅです。",
+    "ko": "그녀는 한국에서 유명한 가수예요.",
+    "en": "She is a singer who is famous in Korea.",
+    "situation": {
+     "ko": "인물을 소개할 때",
+     "en": "Introducing a person"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "いちばん安いのを選びました。",
+    "read": "いちばんやすいのをえらびました。",
+    "ko": "가장 싼 걸 골랐어요.",
+    "en": "I chose the one which was cheapest.",
+    "situation": {
+     "ko": "고른 것을 말할 때",
+     "en": "Saying what you chose"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "親切な人が好きです。",
+    "read": "しんせつなひとがすきです。",
+    "ko": "저는 친절한 사람이 좋아요.",
+    "en": "I like people who are kind.",
+    "situation": {
+     "ko": "좋아하는 사람을 말할 때",
+     "en": "Saying what kind of people you like"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜する人",
+    "read": "〜するひと",
+    "ko": "~하는 사람",
+    "en": "someone who ~"
+   },
+   {
+    "id": "w2",
+    "t": "〜する物",
+    "read": "〜するもの",
+    "ko": "~하는 것",
+    "en": "something which / that ~"
+   },
+   {
+    "id": "w3",
+    "t": "〜するロボット",
+    "read": "〜するロボット",
+    "ko": "이건 ~하는 …예요.",
+    "en": "It's a ... that ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜人が好きです。",
+    "read": "〜にんがすきです。",
+    "ko": "저는 ~한 사람이 좋아요.",
+    "en": "I like people who ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "who, which, that을 써서 사람 한 명과 물건 한 개를 3문장으로 설명해 보세요.",
+    "en": "Describe one person and one thing in 3 sentences using who, which or that."
+   },
+   "must_include": [
+    {
+     "label": "普通形 + 人",
+     "match": [
+      "人"
+     ]
+    },
+    {
+     "label": "普通形 + 物",
+     "match": [
+      "機械",
+      "かばん"
+     ]
+    }
+   ],
+   "model": "彼は隣に住んでいる人です。これはコーヒーを作る機械です。これは私が毎日使うかばんです。",
+   "model_trans": {
+    "ko": "그는 제 옆집에 사는 남자예요. 이건 커피를 만드는 기계예요. 이건 제가 매일 쓰는 가방이에요.",
+    "en": "He is the man who lives next door. It's a machine that makes coffee. This is a bag which I use every day."
+   }
+  }
+ }
+}

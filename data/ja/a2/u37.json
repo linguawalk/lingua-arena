@@ -1,0 +1,823 @@
+{
+ "meta": {
+  "id": "ja_a2_u37",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 37,
+  "concept": "A2.U37",
+  "status": "live",
+  "title": {
+   "target": "誘いと断り",
+   "ko": "초대와 거절",
+   "en": "Invitations and excuses"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "誘う",
+   "pos": "verb",
+   "read": "さそう",
+   "ko": "초대하다",
+   "en": "invite",
+   "ex": {
+    "t": "友達をパーティーに誘いました。",
+    "read": "ともだちをパーティーにさそいました。",
+    "ko": "친구를 파티에 초대했어요.",
+    "en": "I invited my friend to the party."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "パーティー",
+   "pos": "noun",
+   "read": "パーティー",
+   "ko": "파티",
+   "en": "party",
+   "ex": {
+    "t": "土曜日にパーティーがあります。",
+    "read": "どようびにパーティーがあります。",
+    "ko": "토요일에 파티가 있어요.",
+    "en": "There is a party on Saturday."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜ませんか",
+   "pos": "phrase",
+   "read": "〜ませんか",
+   "ko": "~하고 싶다 (정중)",
+   "en": "would like",
+   "ex": {
+    "t": "いっしょに夕食を食べませんか。",
+    "read": "いっしょにゆうしょくをたべませんか。",
+    "ko": "저녁 같이 먹을래요?",
+    "en": "Would you like to have dinner with me?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "ぜひ",
+   "pos": "phrase",
+   "read": "ぜひ",
+   "ko": "기꺼이",
+   "en": "I'd love to",
+   "ex": {
+    "t": "ぜひ行きたいです。",
+    "read": "ぜひいきたいです。",
+    "ko": "기꺼이 갈게요.",
+    "en": "I'd love to come."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "すみません",
+   "pos": "phrase",
+   "read": "すみません",
+   "ko": "죄송해요",
+   "en": "I'm sorry",
+   "ex": {
+    "t": "すみません、行けません。",
+    "read": "すみません、いけません。",
+    "ko": "미안해요, 갈 수 없어요.",
+    "en": "I'm sorry, I can't come."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "忙しい",
+   "pos": "adj",
+   "read": "いそがしい",
+   "ko": "바쁜",
+   "en": "busy",
+   "ex": {
+    "t": "土曜日は忙しいです。",
+    "read": "どようびはいそがしいです。",
+    "ko": "토요일에는 바빠요.",
+    "en": "I'm busy on Saturday."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "代わりに",
+   "pos": "adv",
+   "read": "かわりに",
+   "ko": "대신",
+   "en": "instead",
+   "ex": {
+    "t": "代わりに日曜日はどうですか。",
+    "read": "かわりににちようびはどうですか。",
+    "ko": "일요일은 어때요?",
+    "en": "How about Sunday instead?"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "提案",
+   "pos": "noun",
+   "read": "ていあん",
+   "ko": "제안",
+   "en": "suggestion",
+   "ex": {
+    "t": "いい提案ですね。",
+    "read": "いいていあんですね。",
+    "ko": "좋은 제안이에요.",
+    "en": "That's a good suggestion."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "空いている",
+   "pos": "adj",
+   "read": "あいている",
+   "ko": "가능한",
+   "en": "free",
+   "ex": {
+    "t": "金曜日は空いていますか。",
+    "read": "きんようびはあいていますか。",
+    "ko": "금요일에 시간 돼요?",
+    "en": "Are you free on Friday?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "〜はどうですか",
+   "pos": "phrase",
+   "read": "〜はどうですか",
+   "ko": "~ 어때요?",
+   "en": "how about",
+   "ex": {
+    "t": "映画はどうですか。",
+    "read": "えいがはどうですか。",
+    "ko": "영화 보는 건 어때요?",
+    "en": "How about going to the cinema?"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "誘いと断り: 〜ませんか・〜たいです",
+   "en": "Invitations and excuses: 〜ませんか / 〜たいです"
+  },
+  "explain": {
+   "ko": "권유는 〜ませんか(~하지 않겠어요?), 수락은 ぜひ〜たいです(꼭 ~하고 싶어요), 거절은 すみません、〜(미안해요, ~)로 말합니다: いっしょに夕食を食べませんか。ぜひ行きたいです。すみません、行けません。 대안은 〜はどうですか로 제안합니다.",
+   "en": "Invite with 〜ませんか, accept with ぜひ〜たいです, and decline with すみません、〜: いっしょに夕食を食べませんか。ぜひ行きたいです。すみません、行けません。 Suggest an alternative with 〜はどうですか。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "권유 / Invite",
+     "〜ませんか",
+     "いっしょに夕食を食べませんか。"
+    ],
+    [
+     "수락 / Accept",
+     "ぜひ〜たいです",
+     "ぜひ行きたいです。"
+    ],
+    [
+     "거절 / Decline",
+     "すみません、〜",
+     "すみません、土曜日は忙しいです。"
+    ],
+    [
+     "대안 / Alternative",
+     "〜はどうですか",
+     "日曜日はどうですか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "거절할 때는 이유를 먼저 말하면 부드럽습니다.",
+    "en": "Give a reason first when declining."
+   },
+   {
+    "ko": "초대에 대한 감사: 誘ってくれてありがとう.",
+    "en": "Thank for the invitation: 誘ってくれてありがとう."
+   }
+  ],
+  "examples": [
+   {
+    "t": "土曜日にパーティーがあります。",
+    "read": "どようびにパーティーがあります。",
+    "ko": "토요일에 파티가 있어요.",
+    "en": "There is a party on Saturday."
+   },
+   {
+    "t": "いっしょに夕食を食べませんか。",
+    "read": "いっしょにゆうしょくをたべませんか。",
+    "ko": "저녁 같이 먹을래요?",
+    "en": "Would you like to have dinner with me?"
+   },
+   {
+    "t": "ぜひ行きたいです。",
+    "read": "ぜひいきたいです。",
+    "ko": "기꺼이 갈게요.",
+    "en": "I'd love to come."
+   },
+   {
+    "t": "すみません、土曜日は忙しいです。",
+    "read": "すみません、どようびはいそがしいです。",
+    "ko": "미안해요, 토요일에는 바빠요.",
+    "en": "I'm sorry, I'm busy on Saturday."
+   },
+   {
+    "t": "代わりに日曜日はどうですか。",
+    "read": "かわりににちようびはどうですか。",
+    "ko": "일요일은 어때요?",
+    "en": "How about Sunday instead?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "いっしょに夕食を食べ___か。",
+    "options": [
+     "ません",
+     "ました",
+     "ます"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "ぜひ行き___です。",
+    "options": [
+     "たい",
+     "ない",
+     "ます"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "すみません、土曜日は___です。",
+    "options": [
+     "忙しい",
+     "忙しく",
+     "忙しかった"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "日曜日は___ですか。",
+    "options": [
+     "どう",
+     "なぜ",
+     "だれ"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "土曜日は空いていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 토요일에 시간 돼요?",
+     "en": "(Question) Are you free on Saturday?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、空いています。",
+       "はい、空いていません。",
+       "はい、空きます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いっしょに夕食を食べませんか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 저녁 같이 먹을래요?",
+     "en": "(Question) Would you like to have dinner with me?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "ぜひ行きたいです。",
+       "ぜひ行きました。",
+       "ぜひ行きません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "土曜日に映画を見ませんか。"
+      },
+      {
+       "s": "B",
+       "t": "すみません、土曜日は忙しいんです。日曜日はどうですか。"
+      },
+      {
+       "s": "A",
+       "t": "日曜日なら大丈夫です。空いています。"
+      },
+      {
+       "s": "B",
+       "t": "ぜひ行きたいです。誘ってくれてありがとう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 토요일에 영화 볼래?\nB: 미안해, 토요일에는 바빠. 일요일은 어때?\nA: 좋아, 일요일은 시간 돼.\nB: 기꺼이 갈게. 초대해 줘서 고마워.",
+     "en": "A: Would you like to see a film on Saturday?\nB: I'm sorry, I'm busy on Saturday. How about Sunday?\nA: Sunday is fine. I'm free.\nB: I'd love to come. Thank you for inviting me."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bはいつなら空いていますか。",
+      "options": [
+       "日曜日",
+       "土曜日",
+       "金曜日"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "もしもし、エバです。土曜日に誕生日パーティーをします。夜七時に私の家です。来られますか。教えてください。会えるのを楽しみにしています。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요, 에바예요. 토요일에 제 생일 파티가 있어요. 저녁 7시에 우리 집에서 해요. 올 수 있어요? 올 수 있으면 알려 주세요. 기다릴게요.",
+     "en": "Hello, it's Eva. I'm having a birthday party on Saturday. It's at seven in the evening at my house. Can you come? Please let me know. I look forward to seeing you."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "パーティーは何時ですか。",
+      "options": [
+       "夜七時",
+       "夜八時",
+       "夕方五時"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "土曜日のパーティーに来られますか。"
+      },
+      {
+       "s": "B",
+       "t": "すみません、土曜日は仕事なんです。"
+      },
+      {
+       "s": "A",
+       "t": "では、日曜日にしましょう。"
+      },
+      {
+       "s": "B",
+       "t": "いい提案ですね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 토요일 파티에 오실 수 있어요?\n손님: 죄송하지만 토요일에는 일해야 해요.\n직원: 그럼 일요일에 다시 해요.\n손님: 좋은 생각이에요.",
+     "en": "Assistant: Can you come to the party on Saturday?\nGuest: I'm afraid I have to work on Saturday.\nAssistant: Then let's do it on Sunday instead.\nGuest: That's a good idea."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さん: 土曜日は______なんです",
+      "answers": [
+       "仕事"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "店員: では、______にしましょう",
+      "answers": [
+       "日曜日"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 土曜日に___があります。\n2) いっしょに夕食を食べ___か。\n3) ぜひ行き___です。",
+    "trans": {
+     "ko": "1) 토요일에 파티가 있어요. 2) 저녁 같이 먹을래요? 3) 기꺼이 갈게요.",
+     "en": "1) There is a party on Saturday. 2) Would you like to have dinner with me? 3) I'd love to come."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "土曜日に___があります。",
+      "options": [
+       "パーティー",
+       "会議",
+       "授業"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "いっしょに夕食を食べ___か。",
+      "options": [
+       "ません",
+       "ました",
+       "ます"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ぜひ行き___です。",
+      "options": [
+       "たい",
+       "ない",
+       "ます"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "もしもし、エバです。土曜日に(1)パーティーをします。夜七時に私の(2)です。来られるか(3)ください。",
+    "trans": {
+     "ko": "안녕하세요, 에바예요. 토요일에 제 생일 파티가 있어요. 저녁 7시에 우리 집에서 해요. 올 수 있으면 알려 주세요.",
+     "en": "Hello, it's Eva. I'm having a birthday party on Saturday. It's at seven in the evening at my house. Please let me know if you can come."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "誕生日",
+       "毎日",
+       "学校"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "家",
+       "車",
+       "会社"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "教えて",
+       "忘れて",
+       "隠して"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "招待状\nエバの誕生日パーティー\n土曜日 午後七時\nエバの家",
+    "trans": {
+     "ko": "초대장\n에바의 생일 파티\n토요일 저녁 7시\n에바의 집",
+     "en": "INVITATION\nEva's birthday party\nSaturday, 7 p.m.\nEva's house"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "パーティーはいつですか。",
+      "options": [
+       "土曜日",
+       "日曜日",
+       "金曜日"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "どこでありますか。",
+      "options": [
+       "エバの家",
+       "レストラン",
+       "学校"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "エバは土曜日に誕生日パーティーをします。トムを誘いました。トムは土曜日は忙しいです。",
+    "trans": {
+     "ko": "에바는 토요일에 생일 파티를 해요. 그녀는 톰을 초대했어요. 톰은 토요일에 바빠요.",
+     "en": "Eva is having a birthday party on Saturday. She invited Tom. Tom is busy on Saturday."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "エバはトムを誘いました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "トムは土曜日に行けます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "エバは猫を飼っています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "土曜日は空いていますか。",
+    "read": "どようびはあいていますか。",
+    "ko": "토요일에 시간 돼요?",
+    "en": "Are you free on Saturday?",
+    "situation": {
+     "ko": "시간을 물을 때",
+     "en": "Asking if someone is free"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "いっしょに夕食を食べませんか。",
+    "read": "いっしょにゆうしょくをたべませんか。",
+    "ko": "저녁 같이 먹을래요?",
+    "en": "Would you like to have dinner with me?",
+    "situation": {
+     "ko": "초대할 때",
+     "en": "Inviting someone"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "ぜひ行きたいです。",
+    "read": "ぜひいきたいです。",
+    "ko": "기꺼이 갈게요.",
+    "en": "I'd love to come.",
+    "situation": {
+     "ko": "수락할 때",
+     "en": "Accepting"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "すみません、土曜日は忙しいです。",
+    "read": "すみません、どようびはいそがしいです。",
+    "ko": "미안해요, 토요일에는 바빠요.",
+    "en": "I'm sorry, I'm busy on Saturday.",
+    "situation": {
+     "ko": "거절할 때",
+     "en": "Refusing politely"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "代わりに日曜日はどうですか。",
+    "read": "かわりににちようびはどうですか。",
+    "ko": "일요일은 어때요?",
+    "en": "How about Sunday instead?",
+    "situation": {
+     "ko": "다른 날을 제안할 때",
+     "en": "Suggesting another day"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "映画を見に行きませんか。",
+    "read": "えいがをみにいきませんか。",
+    "ko": "영화 보는 건 어때요?",
+    "en": "How about going to the cinema?",
+    "situation": {
+     "ko": "활동을 제안할 때",
+     "en": "Suggesting an activity"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "いい考えですね。",
+    "read": "いいかんがえですね。",
+    "ko": "좋은 생각이에요.",
+    "en": "That's a good idea.",
+    "situation": {
+     "ko": "동의할 때",
+     "en": "Agreeing"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "誘ってくれてありがとう。",
+    "read": "さそってくれてありがとう。",
+    "ko": "초대해 줘서 고마워요.",
+    "en": "Thank you for inviting me.",
+    "situation": {
+     "ko": "고마움을 말할 때",
+     "en": "Thanking for an invitation"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜ませんか。",
+    "read": "〜ませんか。",
+    "ko": "~할래요?",
+    "en": "Would you like to ~?"
+   },
+   {
+    "id": "w2",
+    "t": "ぜひ〜たいです。",
+    "read": "ぜひ〜たいです。",
+    "ko": "기꺼이 ~할게요.",
+    "en": "I'd love to ~."
+   },
+   {
+    "id": "w3",
+    "t": "すみません、〜。",
+    "read": "すみません、〜。",
+    "ko": "미안해요, ~",
+    "en": "I'm sorry, I can't ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜はどうですか。",
+    "read": "〜はどうですか。",
+    "ko": "~는 어때요?",
+    "en": "How about ~?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "친구를 초대하는 짧은 대화를 3줄로 써 보세요 (초대, 거절 또는 수락, 대안).",
+    "en": "Write a 3-line dialogue inviting a friend (invitation, refusal or acceptance, alternative)."
+   },
+   "must_include": [
+    {
+     "label": "〜ませんか",
+     "match": [
+      "ませんか"
+     ]
+    },
+    {
+     "label": "すみません",
+     "match": [
+      "すみません"
+     ]
+    }
+   ],
+   "model": "土曜日に映画を見ませんか。すみません、土曜日は忙しいです。日曜日はどうですか。",
+   "model_trans": {
+    "ko": "토요일에 영화 볼래요? 미안해요, 토요일에는 바빠요. 일요일은 어때요?",
+    "en": "Would you like to see a film on Saturday? I'm sorry, I'm busy on Saturday. How about Sunday?"
+   }
+  }
+ }
+}

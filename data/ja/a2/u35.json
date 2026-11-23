@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "id": "ja_a2_u35",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 35,
+  "concept": "A2.U35",
+  "status": "live",
+  "title": {
+   "target": "理由と対比",
+   "ko": "because, so, but: 이유와 결과 말하기",
+   "en": "Because, so and but"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "〜から",
+   "pos": "conj",
+   "read": "〜から",
+   "ko": "왜냐하면",
+   "en": "because",
+   "ex": {
+    "t": "病気だったから、学校へ行きませんでした。",
+    "read": "びょうきだったから、がっこうへいきませんでした。",
+    "ko": "나는 아파서 학교에 안 갔어요.",
+    "en": "I didn't go to school because I was ill."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜ので",
+   "pos": "conj",
+   "read": "〜ので",
+   "ko": "그래서",
+   "en": "so",
+   "ex": {
+    "t": "病気だったので、家にいました。",
+    "read": "びょうきだったので、いえにいました。",
+    "ko": "나는 아팠어요. 그래서 집에 있었어요.",
+    "en": "I was ill, so I stayed at home."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜が",
+   "pos": "conj",
+   "read": "〜が",
+   "ko": "하지만",
+   "en": "but",
+   "ex": {
+    "t": "疲れていましたが、勉強しました。",
+    "read": "つかれていましたが、べんきょうしました。",
+    "ko": "나는 피곤했지만 공부했어요.",
+    "en": "I was tired but I studied."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜か",
+   "pos": "conj",
+   "read": "〜か",
+   "ko": "또는",
+   "en": "or",
+   "ex": {
+    "t": "お茶とコーヒーとどちらがいいですか。",
+    "read": "おちゃとコーヒーとどちらがいいですか。",
+    "ko": "차 아니면 커피를 마실래요?",
+    "en": "Would you like tea or coffee?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "理由",
+   "pos": "noun",
+   "read": "りゆう",
+   "ko": "이유",
+   "en": "reason",
+   "ex": {
+    "t": "遅れた理由は何ですか。",
+    "read": "おくれたりゆうはなんですか。",
+    "ko": "늦은 이유가 뭐예요?",
+    "en": "What is the reason you are late?"
+   }
+  },
+  {
+   "id": "v6",
+   "t": "遅れる",
+   "pos": "adj",
+   "read": "おくれる",
+   "ko": "늦은",
+   "en": "late",
+   "ex": {
+    "t": "バスに乗り遅れたので、遅れました。",
+    "read": "バスにのりおくれたので、おくれました。",
+    "ko": "나는 버스를 놓쳐서 늦었어요.",
+    "en": "I was late because I missed the bus."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "乗り遅れる",
+   "pos": "verb",
+   "read": "のりおくれる",
+   "ko": "놓치다",
+   "en": "miss",
+   "ex": {
+    "t": "電車に乗り遅れました。",
+    "read": "でんしゃにのりおくれました。",
+    "ko": "나는 기차를 놓쳤어요.",
+    "en": "I missed the train."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "疲れる",
+   "pos": "adj",
+   "read": "つかれる",
+   "ko": "피곤한",
+   "en": "tired",
+   "ex": {
+    "t": "疲れたので、早く寝ました。",
+    "read": "つかれたので、はやくねました。",
+    "ko": "피곤해서 일찍 잤어요.",
+    "en": "I was tired, so I went to bed early."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "なぜ",
+   "pos": "adv",
+   "read": "なぜ",
+   "ko": "그래서 (이유를 물을 때)",
+   "en": "why",
+   "ex": {
+    "t": "なぜ遅れましたか。",
+    "read": "なぜおくれましたか。",
+    "ko": "왜 늦었어요?",
+    "en": "Why were you late?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "〜のため",
+   "pos": "phrase",
+   "read": "〜のため",
+   "ko": "~ 때문에",
+   "en": "because of",
+   "ex": {
+    "t": "雨のため、試合は中止になりました。",
+    "read": "あめのため、しあいはちゅうしになりました。",
+    "ko": "비 때문에 경기가 취소됐어요.",
+    "en": "The match was cancelled because of the rain."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "理由と対比: 〜から・〜ので・〜が",
+   "en": "Because, so and but: 〜から / 〜ので / 〜が"
+  },
+  "explain": {
+   "ko": "이유는 〜から・〜ので로 말합니다: 病気だったから、行きませんでした。 대조는 〜が, 선택은 〜か로 말합니다: 疲れていましたが、勉強しました。お茶かコーヒーか。 원인이 명사일 때는 〜のため를 씁니다: 雨のため。",
+   "en": "Reasons: 〜から / 〜ので: 病気だったから、行きませんでした。 Contrast: 〜が; choice: 〜か: 疲れていましたが、勉強しました。 With a noun cause use 〜のため: 雨のため。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "이유 / Because",
+     "〜から・〜ので",
+     "病気だったから、行きませんでした。"
+    ],
+    [
+     "결과 / So",
+     "〜ので〜",
+     "病気だったので、家にいました。"
+    ],
+    [
+     "대조 / But",
+     "〜が",
+     "疲れていましたが、勉強しました。"
+    ],
+    [
+     "선택 / Or",
+     "〜か〜か",
+     "お茶かコーヒーか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "から는 문장 끝에, ので는 중간에 자주 씁니다.",
+    "en": "から often closes a clause; ので joins smoothly."
+   },
+   {
+    "ko": "ので 앞은 보통형(な형용사는 な)입니다.",
+    "en": "Use the plain form before ので."
+   }
+  ],
+  "examples": [
+   {
+    "t": "病気だったから、学校へ行きませんでした。",
+    "read": "びょうきだったから、がっこうへいきませんでした。",
+    "ko": "나는 아파서 학교에 안 갔어요.",
+    "en": "I didn't go to school because I was ill."
+   },
+   {
+    "t": "病気だったので、家にいました。",
+    "read": "びょうきだったので、いえにいました。",
+    "ko": "나는 아팠어요. 그래서 집에 있었어요.",
+    "en": "I was ill, so I stayed at home."
+   },
+   {
+    "t": "疲れていましたが、勉強しました。",
+    "read": "つかれていましたが、べんきょうしました。",
+    "ko": "나는 피곤했지만 공부했어요.",
+    "en": "I was tired but I studied."
+   },
+   {
+    "t": "お茶とコーヒーとどちらがいいですか。",
+    "read": "おちゃとコーヒーとどちらがいいですか。",
+    "ko": "차 아니면 커피를 마실래요?",
+    "en": "Would you like tea or coffee?"
+   },
+   {
+    "t": "雨のため、試合は中止になりました。",
+    "read": "あめのため、しあいはちゅうしになりました。",
+    "ko": "비 때문에 경기가 취소됐어요.",
+    "en": "The match was cancelled because of the rain."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "病気だった___、学校へ行きませんでした。",
+    "options": [
+     "から",
+     "が",
+     "か"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "疲れていました___、勉強しました。",
+    "options": [
+     "が",
+     "から",
+     "ので"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "バスに乗り遅れた___、遅れました。",
+    "options": [
+     "ので",
+     "が",
+     "か"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "雨___、試合は中止になりました。",
+    "options": [
+     "のため",
+     "ので",
+     "から"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "なぜ遅れましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 늦었어요?",
+     "en": "(Question) Why were you late?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "バスに乗り遅れたからです。",
+       "バスに乗り遅れたがです。",
+       "バスに乗り遅れたでしょう。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "お茶とコーヒーとどちらがいいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 차 마실래요, 커피 마실래요?",
+     "en": "(Question) Would you like tea or coffee?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "コーヒーをお願いします。",
+       "コーヒーからお願いします。",
+       "コーヒーがのでお願いします。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "なぜ昨日は学校に来なかったの？"
+      },
+      {
+       "s": "B",
+       "t": "病気だったので、家で休んでいたんだ。"
+      },
+      {
+       "s": "A",
+       "t": "もうよくなった？"
+      },
+      {
+       "s": "B",
+       "t": "うん、まだ疲れているけど大丈夫だよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 왜 어제 학교에 안 왔어?\nB: 아파서 못 왔어. 그래서 집에서 쉬었어.\nA: 지금은 괜찮아?\nB: 응, 아직 피곤하지만 괜찮아.",
+     "en": "A: Why didn't you come to school yesterday?\nB: I was ill, so I stayed at home and rested.\nA: Are you better now?\nB: Yes, I'm still tired but I'm OK."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bはなぜ家にいましたか。",
+      "options": [
+       "病気だったから",
+       "旅行だったから",
+       "お客さんが来たから"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日はバスに乗り遅れたので、学校に遅れました。雨のため、道がこんでいました。疲れていましたが、先生は分かってくれました。だから、宿題は今日出します。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어제 나는 버스를 놓쳐서 학교에 늦었어요. 비 때문에 길이 막혔어요. 피곤했지만 선생님이 이해해 주셨어요. 그래서 숙제를 오늘 내기로 했어요.",
+     "en": "Yesterday I was late for school because I missed the bus. The roads were busy because of the rain. I was tired but my teacher understood. So I will hand in my homework today."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "なぜ遅れましたか。",
+      "options": [
+       "バスに乗り遅れたから",
+       "寝坊したから",
+       "雪だったから"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "なぜ応募しましたか。"
+      },
+      {
+       "s": "B",
+       "t": "新しいことを学びたいからです。"
+      },
+      {
+       "s": "A",
+       "t": "お茶とコーヒーとどちらがいいですか。"
+      },
+      {
+       "s": "B",
+       "t": "お茶をお願いします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 왜 지원하셨어요?\n손님: 새로운 일을 배우고 싶어서요.\n직원: 차 드실래요, 커피 드실래요?\n손님: 차 주세요.",
+     "en": "Interviewer: Why did you apply?\nGuest: I want to learn something new.\nInterviewer: Would you like tea or coffee?\nGuest: Tea, please."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さん: 新しいことを学びたい______です",
+      "answers": [
+       "から"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さん: ______をお願いします",
+      "answers": [
+       "お茶"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 病気だった___、学校へ行きませんでした。\n2) 病気だった___、家にいました。\n3) 疲れていました___、勉強しました。",
+    "trans": {
+     "ko": "1) 나는 아파서 학교에 안 갔어요. 2) 나는 아팠어요. 그래서 집에 있었어요. 3) 나는 피곤했지만 공부했어요.",
+     "en": "1) I didn't go to school because I was ill. 2) I was ill, so I stayed at home. 3) I was tired but I studied."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "病気だった___、学校へ行きませんでした。",
+      "options": [
+       "から",
+       "が",
+       "か"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "病気だった___、家にいました。",
+      "options": [
+       "ので",
+       "が",
+       "か"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "疲れていました___、勉強しました。",
+      "options": [
+       "が",
+       "から",
+       "ので"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "昨日はバスに乗り遅れた(1)、学校に遅れました。雨の(2)、道がこんでいました。疲れていました(3)、先生は分かってくれました。",
+    "trans": {
+     "ko": "어제 나는 버스를 놓쳐서 학교에 늦었어요. 비 때문에 길이 막혔어요. 피곤했지만 선생님이 이해해 주셨어요. 그래서 숙제를 오늘 내기로 했어요.",
+     "en": "Yesterday I was late for school because I missed the bus. The roads were busy because of the rain. I was tired but my teacher understood. So I will hand in my homework today."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "ので",
+       "が",
+       "か"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "ため",
+       "が",
+       "か"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "が",
+       "ので",
+       "から"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "お知らせ\n雨のため、試合は中止になりました。\n次の試合は土曜日です。",
+    "trans": {
+     "ko": "공지\n비 때문에 경기가 취소되었습니다.\n다음 경기는 토요일입니다.",
+     "en": "NOTICE\nThe match has been cancelled because of the rain.\nThe next match is on Saturday."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "なぜ試合は中止になりましたか。",
+      "options": [
+       "雨のため",
+       "暑さのため",
+       "雪のため"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "次の試合はいつですか。",
+      "options": [
+       "土曜日",
+       "日曜日",
+       "金曜日"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "トムは病気だったので、家にいました。疲れていましたが、宿題をしました。明日は学校へ行きます。",
+    "trans": {
+     "ko": "톰은 아파서 집에 있었어요. 그는 피곤했지만 숙제를 했어요. 그는 내일 학교에 갈 거예요.",
+     "en": "Tom stayed at home because he was ill. He was tired but he did his homework. He will go to school tomorrow."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "トムは病気だったので、家にいました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "トムは昨日学校へ行きました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "トムには弟がいます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "なぜ遅れましたか。",
+    "read": "なぜおくれましたか。",
+    "ko": "왜 늦었어요?",
+    "en": "Why were you late?",
+    "situation": {
+     "ko": "이유를 물을 때",
+     "en": "Asking for a reason"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "バスに乗り遅れたから、遅れました。",
+    "read": "バスにのりおくれたから、おくれました。",
+    "ko": "버스를 놓쳐서 늦었어요.",
+    "en": "I was late because I missed the bus.",
+    "situation": {
+     "ko": "이유를 말할 때",
+     "en": "Giving a reason"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "病気だったので、家にいました。",
+    "read": "びょうきだったので、いえにいました。",
+    "ko": "나는 아팠어요. 그래서 집에 있었어요.",
+    "en": "I was ill, so I stayed at home.",
+    "situation": {
+     "ko": "결과를 말할 때",
+     "en": "Giving a result"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "疲れていましたが、勉強しました。",
+    "read": "つかれていましたが、べんきょうしました。",
+    "ko": "나는 피곤했지만 공부했어요.",
+    "en": "I was tired but I studied.",
+    "situation": {
+     "ko": "반대되는 일을 말할 때",
+     "en": "Contrasting two things"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "お茶とコーヒーとどちらがいいですか。",
+    "read": "おちゃとコーヒーとどちらがいいですか。",
+    "ko": "차 아니면 커피를 마실래요?",
+    "en": "Would you like tea or coffee?",
+    "situation": {
+     "ko": "선택을 물을 때",
+     "en": "Offering a choice"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "雨のため、試合は中止になりました。",
+    "read": "あめのため、しあいはちゅうしになりました。",
+    "ko": "비 때문에 경기가 취소됐어요.",
+    "en": "The match was cancelled because of the rain.",
+    "situation": {
+     "ko": "원인을 말할 때",
+     "en": "Giving a cause"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "疲れたので、早く寝ました。",
+    "read": "つかれたので、はやくねました。",
+    "ko": "나는 피곤해서 일찍 잤어요.",
+    "en": "I was tired, so I went to bed early.",
+    "situation": {
+     "ko": "원인과 결과를 말할 때",
+     "en": "Giving a cause and result"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "彼はお金持ちですが、幸せではありません。",
+    "read": "かれはおかねもちですが、しあわせではありません。",
+    "ko": "그는 부자지만 행복하지 않아요.",
+    "en": "He is rich but he isn't happy.",
+    "situation": {
+     "ko": "차이를 말할 때",
+     "en": "Saying something unexpected"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜から、〜。",
+    "read": "〜から、〜。",
+    "ko": "~해서 …했어요.",
+    "en": "... because ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜ので、〜。",
+    "read": "〜ので、〜。",
+    "ko": "~했어요. 그래서 …했어요.",
+    "en": "~, so ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜が、〜。",
+    "read": "〜が、〜。",
+    "ko": "~했지만 …했어요.",
+    "en": "~ but ~."
+   },
+   {
+    "id": "w4",
+    "t": "AかBか。",
+    "read": "AかBか。",
+    "ko": "A 아니면 B",
+    "en": "A or B"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "because, so, but을 각각 한 번씩 써서 어제 있었던 일을 3문장으로 써 보세요.",
+    "en": "Write 3 sentences about something that happened yesterday using because, so and but once each."
+   },
+   "must_include": [
+    {
+     "label": "から・ので",
+     "match": [
+      "から",
+      "ので"
+     ]
+    },
+    {
+     "label": "が",
+     "match": [
+      "が"
+     ]
+    }
+   ],
+   "model": "バスに乗り遅れたから、遅れました。病気だったので、家にいました。疲れていましたが、宿題をしました。",
+   "model_trans": {
+    "ko": "나는 버스를 놓쳐서 늦었어요. 나는 아팠어요. 그래서 집에 있었어요. 피곤했지만 숙제를 했어요.",
+    "en": "I was late because I missed the bus. I was ill, so I stayed at home. I was tired but I did my homework."
+   }
+  }
+ }
+}

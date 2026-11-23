@@ -1,0 +1,824 @@
+{
+ "meta": {
+  "id": "ja_a2_u43",
+  "lang": "ja",
+  "family": "asia",
+  "level": "a2",
+  "unit": 43,
+  "concept": "A2.U43",
+  "status": "live",
+  "title": {
+   "target": "受身（過去）",
+   "ko": "과거 수동태: 어떤 일이 있었나",
+   "en": "Past passive: what was done"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "建てる",
+   "pos": "verb",
+   "read": "たてる",
+   "ko": "짓다",
+   "en": "build",
+   "ex": {
+    "t": "橋は一九九〇年に建てられました。",
+    "read": "はしはいっくきゅう〇ねんにたてられました。",
+    "ko": "그 다리는 1990년에 지어졌어요.",
+    "en": "The bridge was built in 1990."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "書く",
+   "pos": "verb",
+   "read": "かく",
+   "ko": "쓰다 (글)",
+   "en": "write",
+   "ex": {
+    "t": "この本は有名な作家に書かれました。",
+    "read": "このほんはゆうめいなさっかにかかれました。",
+    "ko": "이 책은 유명한 작가가 썼어요.",
+    "en": "This book was written by a famous writer."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "描く",
+   "pos": "verb",
+   "read": "えがく",
+   "ko": "그리다",
+   "en": "paint",
+   "ex": {
+    "t": "この絵は百年前に描かれました。",
+    "read": "このえはひゃくねんまえにえがかれました。",
+    "ko": "이 그림은 100년 전에 그려졌어요.",
+    "en": "This picture was painted 100 years ago."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "発明する",
+   "pos": "verb",
+   "read": "はつめいする",
+   "ko": "발명하다",
+   "en": "invent",
+   "ex": {
+    "t": "電話は一八七六年に発明されました。",
+    "read": "でんわはいちはつしちろくねんにはつめいされました。",
+    "ko": "전화는 1876년에 발명됐어요.",
+    "en": "The telephone was invented in 1876."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "盗む",
+   "pos": "verb",
+   "read": "ぬすむ",
+   "ko": "도둑맞다",
+   "en": "steal",
+   "ex": {
+    "t": "かばんを盗まれました。",
+    "read": "かばんをぬすまれました。",
+    "ko": "내 가방이 도둑맞았어요.",
+    "en": "My bag was stolen."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "見つける",
+   "pos": "verb",
+   "read": "みつける",
+   "ko": "찾다",
+   "en": "find",
+   "ex": {
+    "t": "鍵が見つけられました。",
+    "read": "かぎがみつけられました。",
+    "ko": "열쇠를 찾았어요.",
+    "en": "The keys were found."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "招待する",
+   "pos": "verb",
+   "read": "しょうたいする",
+   "ko": "초대하다",
+   "en": "invite",
+   "ex": {
+    "t": "私たちはパーティーに招待されました。",
+    "read": "わたしたちはパーティーにしょうたいされました。",
+    "ko": "우리는 파티에 초대받았어요.",
+    "en": "We were invited to the party."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "けがをさせる",
+   "pos": "verb",
+   "read": "けがをさせる",
+   "ko": "다치다",
+   "en": "injure",
+   "ex": {
+    "t": "二人がけがをしました。",
+    "read": "ふたりがけがをしました。",
+    "ko": "두 사람이 다쳤어요.",
+    "en": "Two people were injured."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "開く",
+   "pos": "verb",
+   "read": "ひらく",
+   "ko": "열다",
+   "en": "open",
+   "ex": {
+    "t": "博物館は二〇〇五年に開かれました。",
+    "read": "はくぶつかんはに〇〇ごねんにひらかれました。",
+    "ko": "그 박물관은 2005년에 문을 열었어요.",
+    "en": "The museum was opened in 2005."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "有名な",
+   "pos": "adj",
+   "read": "ゆうめいな",
+   "ko": "유명한",
+   "en": "famous",
+   "ex": {
+    "t": "彼は有名な画家でした。",
+    "read": "かれはゆうめいながかでした。",
+    "ko": "그는 유명한 화가였어요.",
+    "en": "He was a famous painter."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "受身（過去）: 〜れました・〜られました",
+   "en": "Past passive: 〜れました / 〜られました"
+  },
+  "explain": {
+   "ko": "과거의 수동은 〜れました・〜られました로 말합니다: 橋は一九九〇年に建てられました。電話は一八七六年に発明されました。 피해를 입었을 때(迷惑の受身)도 같은 형태를 씁니다: かばんを盗まれました。 행위자는 〜に로 나타냅니다: 有名な作家に書かれました。",
+   "en": "Past passive: 〜れました / 〜られました: 橋は一九九〇年に建てられました。 Also used when something bad happened to you: かばんを盗まれました。 The doer takes に: 有名な作家に書かれました。"
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "건설·발명 / Built, invented",
+     "〜年に〜されました",
+     "橋は一九九〇年に建てられました。"
+    ],
+    [
+     "행위자 / By whom",
+     "〜に〜れました",
+     "有名な作家に書かれました。"
+    ],
+    [
+     "피해 / Victim",
+     "〜を〜れました",
+     "かばんを盗まれました。"
+    ],
+    [
+     "초대 / Invited",
+     "〜に招待されました",
+     "パーティーに招待されました。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "피해의 수동은 물건 앞에 を를 씁니다.",
+    "en": "The adversative passive keeps を before the object."
+   },
+   {
+    "ko": "いつ・だれに를 묻는 질문에 자주 쓰입니다.",
+    "en": "It often answers いつ and だれに."
+   }
+  ],
+  "examples": [
+   {
+    "t": "橋は一九九〇年に建てられました。",
+    "read": "はしはいっくきゅう〇ねんにたてられました。",
+    "ko": "그 다리는 1990년에 지어졌어요.",
+    "en": "The bridge was built in 1990."
+   },
+   {
+    "t": "この本は有名な作家に書かれました。",
+    "read": "このほんはゆうめいなさっかにかかれました。",
+    "ko": "이 책은 유명한 작가가 썼어요.",
+    "en": "This book was written by a famous writer."
+   },
+   {
+    "t": "電話は一八七六年に発明されました。",
+    "read": "でんわはいちはつしちろくねんにはつめいされました。",
+    "ko": "전화는 1876년에 발명됐어요.",
+    "en": "The telephone was invented in 1876."
+   },
+   {
+    "t": "かばんを盗まれました。",
+    "read": "かばんをぬすまれました。",
+    "ko": "내 가방이 도둑맞았어요.",
+    "en": "My bag was stolen."
+   },
+   {
+    "t": "私たちはパーティーに招待されました。",
+    "read": "わたしたちはパーティーにしょうたいされました。",
+    "ko": "우리는 파티에 초대받았어요.",
+    "en": "We were invited to the party."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "橋は一九九〇年に建て___ました。",
+    "options": [
+     "られ",
+     "れ",
+     "り"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "この本は有名な作家___書かれました。",
+    "options": [
+     "に",
+     "を",
+     "が"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "かばんを盗___ました。",
+    "options": [
+     "まれ",
+     "られ",
+     "み"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "私たちはパーティーに招待___ました。",
+    "options": [
+     "され",
+     "し",
+     "させ"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この橋はいつ建てられましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 다리는 언제 지어졌어요?",
+     "en": "(Question) When was this bridge built?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "一九九〇年に建てられました。",
+       "一九九〇年に建てました。",
+       "一九九〇年に建てたいです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この本はだれに書かれましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 책은 누가 썼어요?",
+     "en": "(Question) Who was this book written by?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "有名な作家に書かれました。",
+       "有名な作家を書かれました。",
+       "有名な作家が書きました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この橋はいつ建てられたの？"
+      },
+      {
+       "s": "B",
+       "t": "一九九〇年に建てられたよ。有名な建築家に設計されたんだ。"
+      },
+      {
+       "s": "A",
+       "t": "昨日、かばんを盗まれたんだ。"
+      },
+      {
+       "s": "B",
+       "t": "本当？警察に言った？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 다리는 언제 지어졌어?\nB: 1990년에 지어졌어. 유명한 건축가가 설계했어.\nA: 내 가방이 어제 도둑맞았어.\nB: 정말? 경찰에 알렸어?",
+     "en": "A: When was this bridge built?\nB: It was built in 1990. It was designed by a famous architect.\nA: My bag was stolen yesterday.\nB: Really? Did you tell the police?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "昨日Aに何がありましたか。",
+      "options": [
+       "かばんを盗まれた",
+       "電車に乗り遅れた",
+       "転んだ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ニュースです。昨夜、市内の銀行で事故がありました。二人がけがをして、警察が来ました。大きなかばんが盗まれ、まだ見つかっていません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "뉴스입니다. 어젯밤 시내 은행에서 사고가 있었습니다. 두 사람이 다쳤고 경찰이 도착했습니다. 큰 가방이 도둑맞았고 아직 찾지 못했습니다.",
+     "en": "Here is the news. There was an accident at a city bank last night. Two people were injured and the police arrived. A large bag was stolen and it has not been found yet."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "何人がけがをしましたか。",
+      "options": [
+       "二人",
+       "一人",
+       "五人"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いつかばんを盗まれましたか。"
+      },
+      {
+       "s": "B",
+       "t": "昨夜です。"
+      },
+      {
+       "s": "A",
+       "t": "どこで盗まれましたか。"
+      },
+      {
+       "s": "B",
+       "t": "地下鉄です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 가방은 언제 도둑맞았어요?\n손님: 어젯밤이요.\n직원: 어디에서요?\n손님: 지하철에서요.",
+     "en": "Officer: When was your bag stolen?\nGuest: Last night.\nOfficer: Where was it stolen?\nGuest: On the subway."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さん: ______鉄です",
+      "answers": [
+       "地下"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "警官: いつかばんを______か",
+      "answers": [
+       "盗まれました"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 橋は一九九〇年に建て___ました。\n2) この本は有名な作家に書___ました。\n3) 電話は一八七六年に発明___ました。",
+    "trans": {
+     "ko": "1) 그 다리는 1990년에 지어졌어요. 2) 이 책은 유명한 작가가 썼어요. 3) 전화는 1876년에 발명됐어요.",
+     "en": "1) The bridge was built in 1990. 2) This book was written by a famous writer. 3) The telephone was invented in 1876."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "橋は一九九〇年に建て___ました。",
+      "options": [
+       "られ",
+       "れ",
+       "り"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "この本は有名な作家に書___ました。",
+      "options": [
+       "かれ",
+       "かられ",
+       "き"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "電話は一八七六年に発明___ました。",
+      "options": [
+       "され",
+       "し",
+       "させ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "ニュースです。昨夜、市内の銀行で事故がありました。二人が(1)、大きなかばんが(2)。まだ(3)いません。",
+    "trans": {
+     "ko": "뉴스입니다. 어젯밤 시내 은행에서 사고가 있었습니다. 두 사람이 다쳤고 큰 가방이 도둑맞았습니다.",
+     "en": "Here is the news. There was an accident at a city bank last night. Two people were injured and a large bag was stolen."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "けがをして",
+       "けがさせて",
+       "けがしたい"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "盗まれました",
+       "盗みました",
+       "盗みたいです"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "見つかって",
+       "見つけて",
+       "見つけたく"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "博物館のお知らせ\nこの博物館は二〇〇五年に開かれました。\n建築家：アラン・スミス",
+    "trans": {
+     "ko": "박물관 안내\n이 박물관은 2005년에 문을 열었습니다.\n건축가: 앨런 스미스",
+     "en": "MUSEUM NOTICE\nThis museum was opened in 2005.\nArchitect: Alan Smith"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "博物館はいつ開かれましたか。",
+      "options": [
+       "二〇〇五年",
+       "一九九〇年",
+       "一八七六年"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "建築家はだれですか。",
+      "options": [
+       "アラン・スミス",
+       "トム・リー",
+       "エバ・キム"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "昨日、トムはかばんを盗まれました。地下鉄で起きました。警察がかばんを見つけました。",
+    "trans": {
+     "ko": "톰의 가방이 어제 도둑맞았어요. 그것은 지하철에서 일어났어요. 경찰이 가방을 찾았어요.",
+     "en": "Tom's bag was stolen yesterday. It happened on the subway. The police found the bag."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "トムはかばんを盗まれました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "バスで起きました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "トムは犬を飼っています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "この橋はいつ建てられましたか。",
+    "read": "このはしはいつたてられましたか。",
+    "ko": "이 다리는 언제 지어졌어요?",
+    "en": "When was this bridge built?",
+    "situation": {
+     "ko": "과거 사실을 물을 때",
+     "en": "Asking when something was built"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "橋は一九九〇年に建てられました。",
+    "read": "はしはいっくきゅう〇ねんにたてられました。",
+    "ko": "그 다리는 1990년에 지어졌어요.",
+    "en": "The bridge was built in 1990.",
+    "situation": {
+     "ko": "연도를 말할 때",
+     "en": "Saying a year"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "この本はだれに書かれましたか。",
+    "read": "このほんはだれにかかれましたか。",
+    "ko": "이 책은 누가 썼어요?",
+    "en": "Who was this book written by?",
+    "situation": {
+     "ko": "작가를 물을 때",
+     "en": "Asking who wrote something"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "この本は有名な作家に書かれました。",
+    "read": "このほんはゆうめいなさっかにかかれました。",
+    "ko": "이 책은 유명한 작가가 썼어요.",
+    "en": "This book was written by a famous writer.",
+    "situation": {
+     "ko": "작가를 말할 때",
+     "en": "Saying the writer"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "電話は一八七六年に発明されました。",
+    "read": "でんわはいちはつしちろくねんにはつめいされました。",
+    "ko": "전화는 1876년에 발명됐어요.",
+    "en": "The telephone was invented in 1876.",
+    "situation": {
+     "ko": "발명을 말할 때",
+     "en": "Talking about an invention"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "かばんを盗まれました。",
+    "read": "かばんをぬすまれました。",
+    "ko": "내 가방이 도둑맞았어요.",
+    "en": "My bag was stolen.",
+    "situation": {
+     "ko": "사건을 말할 때",
+     "en": "Reporting a crime"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "私たちはパーティーに招待されました。",
+    "read": "わたしたちはパーティーにしょうたいされました。",
+    "ko": "우리는 파티에 초대받았어요.",
+    "en": "We were invited to the party.",
+    "situation": {
+     "ko": "초대를 말할 때",
+     "en": "Talking about an invitation"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "二人がけがをしました。",
+    "read": "ふたりがけがをしました。",
+    "ko": "두 사람이 다쳤어요.",
+    "en": "Two people were injured.",
+    "situation": {
+     "ko": "사고를 말할 때",
+     "en": "Reporting an accident"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜は〜年に〜されました。",
+    "read": "〜は〜ねんに〜されました。",
+    "ko": "~은(는) …됐어요.",
+    "en": "~ was / were + past participle."
+   },
+   {
+    "id": "w2",
+    "t": "〜は〜に〜れました。",
+    "read": "〜は〜に〜れました。",
+    "ko": "~ 년에 …됐어요.",
+    "en": "~ was built in ~."
+   },
+   {
+    "id": "w3",
+    "t": "だれに〜られましたか。",
+    "read": "だれに〜られましたか。",
+    "ko": "누가 ~했어요?",
+    "en": "Who was ~ by?"
+   },
+   {
+    "id": "w4",
+    "t": "〜を盗まれました。",
+    "read": "〜をぬすまれました。",
+    "ko": "~에게 …당했어요.",
+    "en": "~ was stolen."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "과거 수동태로 유명한 건물이나 물건에 대해 3문장으로 써 보세요.",
+    "en": "Write 3 past-passive sentences about a famous building or object."
+   },
+   "must_include": [
+    {
+     "label": "〜されました",
+     "match": [
+      "建てられ",
+      "設計"
+     ]
+    },
+    {
+     "label": "盗まれました",
+     "match": [
+      "盗まれ"
+     ]
+    }
+   ],
+   "model": "橋は一九九〇年に建てられました。有名な建築家に設計されました。昨日、かばんを盗まれました。",
+   "model_trans": {
+    "ko": "그 다리는 1990년에 지어졌어요. 그 설계는 유명한 건축가가 했어요. 매년 많은 사람이 그곳을 방문해요.",
+    "en": "The bridge was built in 1990. It was designed by a famous architect. Many people visit it every year."
+   }
+  }
+ }
+}
