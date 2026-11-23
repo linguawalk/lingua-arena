@@ -1,0 +1,793 @@
+{
+ "meta": {
+  "id": "de_a2_u36",
+  "lang": "de",
+  "family": "europe",
+  "level": "a2",
+  "unit": 36,
+  "concept": "A2.U36",
+  "status": "live",
+  "title": {
+   "target": "Höflich bitten",
+   "ko": "정중하게 부탁하기",
+   "en": "Polite requests"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "Könnten Sie",
+   "pos": "phrase",
+   "ko": "~해 주시겠어요?",
+   "en": "could you",
+   "ex": {
+    "t": "Könnten Sie bitte die Tür öffnen?",
+    "ko": "문을 열어 주시겠어요?",
+    "en": "Could you open the door, please?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "Dürfte ich",
+   "pos": "phrase",
+   "ko": "~해도 될까요?",
+   "en": "could I",
+   "ex": {
+    "t": "Dürfte ich Ihren Stift leihen?",
+    "ko": "펜을 빌려도 될까요?",
+    "en": "Could I borrow your pen?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "Würden Sie",
+   "pos": "phrase",
+   "ko": "~해 주시겠어요? (정중)",
+   "en": "would you mind",
+   "ex": {
+    "t": "Würden Sie bitte das Fenster schließen?",
+    "ko": "창문을 닫아 주시겠어요?",
+    "en": "Would you mind closing the window?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "leihen",
+   "pos": "verb",
+   "ko": "빌리다",
+   "en": "borrow",
+   "ex": {
+    "t": "Kann ich Ihr Buch leihen?",
+    "ko": "책을 빌려도 될까요?",
+    "en": "Could I borrow your book?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "borgen",
+   "pos": "verb",
+   "ko": "빌려주다",
+   "en": "lend",
+   "ex": {
+    "t": "Könnten Sie mir einen Stift borgen?",
+    "ko": "펜 좀 빌려주시겠어요?",
+    "en": "Could you lend me a pen?"
+   }
+  },
+  {
+   "id": "v6",
+   "t": "helfen",
+   "pos": "verb",
+   "ko": "도와주다",
+   "en": "help",
+   "ex": {
+    "t": "Könnten Sie mir bitte helfen?",
+    "ko": "저를 좀 도와주시겠어요?",
+    "en": "Could you help me, please?"
+   }
+  },
+  {
+   "id": "v7",
+   "t": "wiederholen",
+   "pos": "verb",
+   "ko": "반복하다",
+   "en": "repeat",
+   "ex": {
+    "t": "Könnten Sie das bitte wiederholen?",
+    "ko": "다시 말씀해 주시겠어요?",
+    "en": "Could you repeat that, please?"
+   }
+  },
+  {
+   "id": "v8",
+   "t": "langsam",
+   "pos": "adv",
+   "ko": "천천히",
+   "en": "slowly",
+   "ex": {
+    "t": "Könnten Sie bitte langsamer sprechen?",
+    "ko": "천천히 말씀해 주시겠어요?",
+    "en": "Could you speak more slowly?"
+   }
+  },
+  {
+   "id": "v9",
+   "t": "natürlich",
+   "pos": "phrase",
+   "ko": "물론이죠",
+   "en": "of course",
+   "ex": {
+    "t": "Natürlich, kein Problem.",
+    "ko": "물론이죠, 문제없어요.",
+    "en": "Of course, no problem."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "leider",
+   "pos": "phrase",
+   "ko": "죄송하지만",
+   "en": "I'm afraid",
+   "ex": {
+    "t": "Leider geht das nicht.",
+    "ko": "죄송하지만 안 돼요.",
+    "en": "I'm afraid I can't."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "höfliche Bitten: Könnten Sie …? Dürfte ich …? Würden Sie …?",
+   "en": "polite requests: Könnten Sie …? Dürfte ich …? Würden Sie …?"
+  },
+  "explain": {
+   "ko": "정중한 부탁은 Könnten Sie + 동사원형 …? / Würden Sie + 동사원형 …?를 씁니다 (Konjunktiv II). 허락을 구할 때는 Dürfte ich + 동사원형 …? 또는 Kann ich …?를 씁니다. 수락은 'Natürlich.' / 'Gern.', 거절은 'Leider geht das nicht.'처럼 부드럽게 합니다. bitte를 붙이면 더 정중합니다.",
+   "en": "Make polite requests with Könnten Sie + infinitive …? / Würden Sie + infinitive …? (Konjunktiv II). Ask permission with Dürfte ich + infinitive …? or Kann ich …? Accept with 'Natürlich' / 'Gern'; refuse gently: 'Leider geht das nicht.' Adding bitte makes it more polite."
+  },
+  "table": {
+   "head": [
+    "표현 / Struktur",
+    "예 / Beispiel"
+   ],
+   "rows": [
+    [
+     "Könnten Sie + Inf.",
+     "Könnten Sie bitte die Tür öffnen?"
+    ],
+    [
+     "Dürfte ich + Inf.",
+     "Dürfte ich Ihren Stift leihen?"
+    ],
+    [
+     "Würden Sie + Inf.",
+     "Würden Sie bitte das Fenster schließen?"
+    ],
+    [
+     "거절 / Ablehnung",
+     "Leider geht das nicht."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "부탁 = Könnten Sie …, 허락 = Dürfte ich …",
+    "en": "Request = Könnten Sie …; permission = Dürfte ich …"
+   },
+   {
+    "ko": "동사원형은 문장 끝으로 갑니다.",
+    "en": "The infinitive goes to the end."
+   },
+   {
+    "ko": "bitte는 문장 안에 넣어도 됩니다.",
+    "en": "Bitte can go inside the sentence."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Könnten Sie bitte die Tür öffnen?",
+    "ko": "문을 열어 주시겠어요?",
+    "en": "Could you open the door, please?"
+   },
+   {
+    "t": "Dürfte ich Ihren Stift leihen?",
+    "ko": "펜을 빌려도 될까요?",
+    "en": "Could I borrow your pen?"
+   },
+   {
+    "t": "Würden Sie bitte das Fenster schließen?",
+    "ko": "창문을 닫아 주시겠어요?",
+    "en": "Would you mind closing the window?"
+   },
+   {
+    "t": "Könnten Sie bitte langsamer sprechen?",
+    "ko": "천천히 말씀해 주시겠어요?",
+    "en": "Could you speak more slowly?"
+   },
+   {
+    "t": "Leider geht das nicht.",
+    "ko": "죄송하지만 안 돼요.",
+    "en": "I'm afraid I can't."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___ Sie bitte die Tür öffnen?",
+    "options": [
+     "Könnten",
+     "Können Sie zu",
+     "Sind"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Dürfte ich Ihren Stift ___?",
+    "options": [
+     "leihen",
+     "geliehen",
+     "leiht"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Würden Sie bitte das Fenster ___?",
+    "options": [
+     "schließen",
+     "geschlossen",
+     "schließt"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___ geht das nicht.",
+    "options": [
+     "Leider",
+     "Leid",
+     "Leiden"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Könnten Sie mir bitte helfen?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 도와주시겠어요?",
+     "en": "(Question) Could you help me, please?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Natürlich.",
+       "Ja, ich bin Hilfe.",
+       "Nein, ich helfen."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Dürfte ich Ihren Stift leihen?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 펜을 빌려도 될까요?",
+     "en": "(Question) Could I borrow your pen?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Natürlich.",
+       "Ja, ich geliehen.",
+       "Ich leihe gestern."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Entschuldigung, würden Sie bitte das Fenster schließen?"
+      },
+      {
+       "s": "B",
+       "t": "Natürlich. Ist Ihnen kalt?"
+      },
+      {
+       "s": "A",
+       "t": "Ein bisschen. Und dürfte ich Ihren Stift leihen?"
+      },
+      {
+       "s": "B",
+       "t": "Leider gerade nicht. Ich benutze ihn."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 실례지만 창문을 닫아 주시겠어요?\nB: 물론이죠. 추워요?\nA: 네, 조금요. 그리고 펜도 빌려도 될까요?\nB: 죄송하지만 지금은 안 돼요. 저도 쓰고 있어서요.",
+     "en": "A: Excuse me, would you mind closing the window?\nB: Of course. Are you cold?\nA: A little. And could I borrow your pen?\nB: I'm afraid not right now. I'm using it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Warum kann A den Stift nicht leihen?",
+      "options": [
+       "B benutzt ihn gerade",
+       "B hat ihn verloren",
+       "B mag A nicht"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Die Verkäuferin sagte zu dem Kunden: „Leider dürfen Sie hier keine Fotos machen. Draußen ist es in Ordnung. Lassen Sie sich Zeit und sagen Sie mir, wenn Sie etwas brauchen.“"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원이 손님에게 말했어요. 죄송하지만 여기서는 사진을 찍으실 수 없어요. 하지만 밖에서는 괜찮아요. 천천히 구경하시고 필요하면 말씀해 주세요.",
+     "en": "The assistant said to the customer, 'I'm afraid you can't take photos here. But it's fine outside. Please take your time and let me know if you need anything.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was dürfen die Kunden nicht?",
+      "options": [
+       "Drinnen fotografieren",
+       "Nach draußen gehen",
+       "Fragen stellen"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Wie kann ich Ihnen helfen?"
+      },
+      {
+       "s": "B",
+       "t": "Könnten Sie das bitte wiederholen?"
+      },
+      {
+       "s": "A",
+       "t": "Natürlich. Es ist im dritten Stock."
+      },
+      {
+       "s": "B",
+       "t": "Danke."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 무엇을 도와드릴까요?\n손님: 다시 한번 말씀해 주시겠어요?\n직원: 물론이죠. 3층이에요.\n손님: 감사합니다.",
+     "en": "Assistant: How can I help you?\nGuest: Could you repeat that, please?\nAssistant: Of course. It's on the third floor.\nGuest: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Es ist im ______ Stock",
+      "answers": [
+       "dritten",
+       "3."
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Der Gast sagt ______",
+      "answers": [
+       "danke"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___ Sie bitte die Tür öffnen?\n2) Dürfte ich Ihren Stift ___?\n3) Würden Sie bitte das Fenster ___?",
+    "trans": {
+     "ko": "1) 문을 열어 주시겠어요? 2) 펜을 빌려도 될까요? 3) 창문을 닫아 주시겠어요?",
+     "en": "1) Could you open the door, please? 2) Could I borrow your pen? 3) Would you mind closing the window?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___ Sie bitte die Tür öffnen?",
+      "options": [
+       "Könnten",
+       "Können Sie zu",
+       "Sind"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Dürfte ich Ihren Stift ___?",
+      "options": [
+       "leihen",
+       "geliehen",
+       "leiht"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Würden Sie bitte das Fenster ___?",
+      "options": [
+       "schließen",
+       "geschlossen",
+       "schließt"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Die Verkäuferin sagte zu dem Kunden: „(1) dürfen Sie hier keine Fotos machen. Draußen ist es in (2). Sagen Sie mir, wenn Sie etwas (3).“",
+    "trans": {
+     "ko": "직원이 손님에게 말했어요. 죄송하지만 여기서는 사진을 찍으실 수 없어요. 하지만 밖에서는 괜찮아요. 필요하면 말씀해 주세요.",
+     "en": "The assistant said to the customer, 'I'm afraid you can't take photos here. But it's fine outside. Let me know if you need anything.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "Leider",
+       "Leid",
+       "Leiden"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "Ordnung",
+       "Ordnen",
+       "Ordnet"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "brauchen",
+       "braucht",
+       "brauche"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "HINWEIS\nLeider sind hier keine Fotos erlaubt.\nDraußen ist Fotografieren in Ordnung.",
+    "trans": {
+     "ko": "안내문\n죄송하지만 이곳에서는 사진 촬영을 할 수 없습니다.\n밖에서는 괜찮습니다.",
+     "en": "NOTICE\nI'm afraid photos are not allowed here.\nPhotos outside are fine."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist nicht erlaubt?",
+      "options": [
+       "Fotos drinnen",
+       "Fotos draußen",
+       "Sprechen"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Wo sind Fotos erlaubt?",
+      "options": [
+       "Draußen",
+       "Drinnen",
+       "Oben"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Tom bat darum, das Fenster zu schließen. Er wollte sich auch einen Stift leihen. Aber er konnte den Stift nicht leihen.",
+    "trans": {
+     "ko": "톰은 창문을 닫아 달라고 부탁했어요. 그는 펜도 빌리고 싶었어요. 하지만 펜은 빌릴 수 없었어요.",
+     "en": "Tom asked someone to close the window. He also wanted to borrow a pen. But he couldn't borrow the pen."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Tom bat darum, das Fenster zu schließen.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Tom hat den Stift geliehen.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Tom war kalt.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Könnten Sie mir bitte helfen?",
+    "ko": "문을 열어 주시겠어요?",
+    "en": "Could you open the door, please?",
+    "situation": {
+     "ko": "부탁할 때",
+     "en": "Making a request"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Könnten Sie bitte die Tür öffnen?",
+    "ko": "펜을 빌려도 될까요?",
+    "en": "Could I borrow your pen?",
+    "situation": {
+     "ko": "허락을 구할 때",
+     "en": "Asking permission"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Dürfte ich Ihren Stift leihen?",
+    "ko": "창문을 닫아 주시겠어요?",
+    "en": "Would you mind closing the window?",
+    "situation": {
+     "ko": "아주 정중하게 부탁할 때",
+     "en": "A very polite request"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Würden Sie bitte das Fenster schließen?",
+    "ko": "물론이죠.",
+    "en": "Of course.",
+    "situation": {
+     "ko": "수락할 때",
+     "en": "Saying yes"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Natürlich.",
+    "ko": "죄송하지만 안 돼요.",
+    "en": "I'm afraid I can't.",
+    "situation": {
+     "ko": "거절할 때",
+     "en": "Saying no politely"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Leider geht das nicht.",
+    "ko": "다시 말씀해 주시겠어요?",
+    "en": "Could you repeat that, please?",
+    "situation": {
+     "ko": "못 들었을 때",
+     "en": "Asking someone to repeat"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Könnten Sie das bitte wiederholen?",
+    "ko": "천천히 말씀해 주시겠어요?",
+    "en": "Could you speak more slowly?",
+    "situation": {
+     "ko": "천천히 말해 달라고 할 때",
+     "en": "Asking someone to slow down"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Könnten Sie bitte langsamer sprechen?",
+    "ko": "저를 좀 도와주시겠어요?",
+    "en": "Could you help me, please?",
+    "situation": {
+     "ko": "도움을 청할 때",
+     "en": "Asking for help"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Könnten Sie bitte ~?",
+    "ko": "~해 주시겠어요?",
+    "en": "Could you ~, please?"
+   },
+   {
+    "id": "w2",
+    "t": "Dürfte ich ~?",
+    "ko": "~해도 될까요?",
+    "en": "Could I ~?"
+   },
+   {
+    "id": "w3",
+    "t": "Würden Sie bitte ~?",
+    "ko": "~해 주시겠어요? (정중)",
+    "en": "Would you mind ~ing?"
+   },
+   {
+    "id": "w4",
+    "t": "Leider ~.",
+    "ko": "죄송하지만 ~",
+    "en": "I'm afraid ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "정중한 부탁 3개를 써 보세요: 부탁 하나, 허락 하나, 아주 정중한 부탁 하나.",
+    "en": "Write 3 polite requests: one request, one asking for permission and one very polite request."
+   },
+   "must_include": [
+    {
+     "label": "könnten Sie",
+     "match": [
+      "könnten sie"
+     ]
+    },
+    {
+     "label": "dürfte ich",
+     "match": [
+      "dürfte ich",
+      "kann ich"
+     ]
+    },
+    {
+     "label": "würden Sie",
+     "match": [
+      "würden sie"
+     ]
+    }
+   ],
+   "model": "Könnten Sie bitte die Tür öffnen? Dürfte ich Ihren Stift leihen? Würden Sie bitte das Fenster schließen?",
+   "model_trans": {
+    "ko": "문을 열어 주시겠어요? 펜을 빌려도 될까요? 창문을 닫아 주시겠어요?",
+    "en": "Could you open the door, please? Could I borrow your pen? Would you mind closing the window?"
+   }
+  }
+ }
+}
