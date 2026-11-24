@@ -1,0 +1,782 @@
+{
+ "meta": {
+  "id": "ko_b1_u28",
+  "lang": "ko",
+  "family": "asia",
+  "level": "b1",
+  "unit": 28,
+  "concept": "B1.U28",
+  "status": "live",
+  "title": {
+   "target": "수량 표현: 조금 · 많이 · 몇 · 각 · 모든 · 대부분",
+   "ko": "수량 표현: some · any · much · many · each · every",
+   "en": "Quantifiers: some, any, much, many, each, every"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "충분한",
+   "pos": "adj",
+   "read": "chungbunhan",
+   "en": "enough",
+   "ex": {
+    "t": "우리는 충분한 시간이 없어요.",
+    "read": "urineun chungbunhan sigani eopseoyo.",
+    "en": "We don't have enough time."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "조금도",
+   "pos": "det",
+   "read": "jogeumdo",
+   "en": "any",
+   "ex": {
+    "t": "냉장고에 우유가 조금도 없어요.",
+    "read": "naengjanggoe uyuga jogeumdo eopseoyo.",
+    "en": "There isn't any milk in the fridge."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "많은(셀 수 있는)",
+   "pos": "det",
+   "read": "maneun(sel su inneun)",
+   "en": "many",
+   "ex": {
+    "t": "이 도시에는 공원이 많지 않아요.",
+    "read": "i dosieneun gongwoni manchi anayo.",
+    "en": "There aren't many parks in this city."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "많은(셀 수 없는)",
+   "pos": "det",
+   "read": "maneun(sel su eomneun)",
+   "en": "much",
+   "ex": {
+    "t": "나는 돈이 많지 않아요.",
+    "read": "naneun doni manchi anayo.",
+    "en": "I don't have much money."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "몇몇의",
+   "pos": "det",
+   "read": "myeonmyeochui",
+   "en": "a few",
+   "ex": {
+    "t": "나는 영국에 친구가 몇 명 있어요.",
+    "read": "naneun yeongguge chinguga myeot myeong isseoyo.",
+    "en": "I have a few friends in England."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "약간의",
+   "pos": "det",
+   "read": "yakganui",
+   "en": "a little",
+   "ex": {
+    "t": "수프에 소금을 조금 넣으세요.",
+    "read": "supeue sogeumeul jogeum neoeuseyo.",
+    "en": "Add a little salt to the soup."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "각각",
+   "pos": "det",
+   "read": "gakgak",
+   "en": "each",
+   "ex": {
+    "t": "각 학생은 책을 한 권씩 가져야 해요.",
+    "read": "gak haksaengeun chaegeul han gwonssik gajyeoya haeyo.",
+    "en": "Each student must bring a book."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "모든",
+   "pos": "det",
+   "read": "modeun",
+   "en": "every",
+   "ex": {
+    "t": "나는 매일 아침 운동을 해요.",
+    "read": "naneun maeil achim undongeul haeyo.",
+    "en": "I exercise every morning."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "대부분",
+   "pos": "det",
+   "read": "daebubun",
+   "en": "most",
+   "ex": {
+    "t": "대부분의 사람들이 그 의견에 동의해요.",
+    "read": "daebubunui saramdeuri geu uigyeone donguihaeyo.",
+    "en": "Most people agree with that opinion."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "아무도 ~않다",
+   "pos": "pron",
+   "read": "amudo ~anta",
+   "en": "no one",
+   "ex": {
+    "t": "아무도 그 문제에 답하지 못했어요.",
+    "read": "amudo geu munjee dapaji motaesseoyo.",
+    "en": "No one could answer the question."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "조금 · 많지 않아요 · 몇 개 · 각 · 대부분",
+   "en": "조금 · 많지 않아요 · 몇 개 · 각 · 대부분"
+  },
+  "explain": {
+   "ko": "수량은 조금, 많이, 몇 개, 충분히로 말합니다. 부정은 많지 않아요 / 하나도 없어요 / 조금도 없어요입니다. 몇 명, 몇 개처럼 셀 수 있는 것은 몇 + 단위: 친구가 몇 명 있어요. 전체는 모든, 각, 대부분: 각 학생은 책을 한 권씩 가져와야 해요. 대부분의 사람들이 동의해요. 시간·돈처럼 셀 수 없는 것은 많이 / 조금으로 말합니다.",
+   "en": "Quantity uses 조금, 많이, 몇 개, 충분히. Negatives: 많지 않아요 / 하나도 없어요 / 조금도 없어요. Countable things use 몇 + counter: 친구가 몇 명 있어요. Totals use 모든, 각, 대부분: 각 학생은 책을 한 권씩 가져와야 해요. 대부분의 사람들이 동의해요. Uncountable things such as time and money use 많이 / 조금."
+  },
+  "table": {
+   "head": [
+    "표현 / Pattern",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "적음 / little",
+     "조금 있어요 · 조금도 없어요"
+    ],
+    [
+     "많음 / much",
+     "많이 있어요 · 많지 않아요"
+    ],
+    [
+     "몇 / some",
+     "친구가 몇 명 있어요"
+    ],
+    [
+     "전체 / all",
+     "각 · 모든 · 대부분"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "많지 않아요는 '적다'는 뜻으로 부드럽게 말합니다.",
+    "en": "많지 않아요 gently says there is little."
+   },
+   {
+    "ko": "몇 + 단위: 몇 개, 몇 명, 몇 병.",
+    "en": "몇 + counter: 몇 개, 몇 명, 몇 병."
+   },
+   {
+    "ko": "각 + 명사는 하나하나를 뜻합니다.",
+    "en": "각 + noun means each one."
+   }
+  ],
+  "examples": [
+   {
+    "t": "우리는 충분한 시간이 없어요.",
+    "read": "urineun chungbunhan sigani eopseoyo.",
+    "en": "We don't have enough time."
+   },
+   {
+    "t": "이 도시에는 공원이 많지 않아요.",
+    "read": "i dosieneun gongwoni manchi anayo.",
+    "en": "There aren't many parks in this city."
+   },
+   {
+    "t": "나는 돈이 많지 않아요.",
+    "read": "naneun doni manchi anayo.",
+    "en": "I don't have much money."
+   },
+   {
+    "t": "각 학생은 책을 한 권씩 가져야 해요.",
+    "read": "gak haksaengeun chaegeul han gwonssik gajyeoya haeyo.",
+    "en": "Each student must bring a book."
+   },
+   {
+    "t": "나는 매일 아침 운동을 해요.",
+    "read": "naneun maeil achim undongeul haeyo.",
+    "en": "I exercise every morning."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "우리는 ___ 시간이 없어요.",
+    "options": [
+     "충분한",
+     "충분히",
+     "충분해"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "이 도시에는 공원이 많지 ___.",
+    "options": [
+     "않아요",
+     "없어요",
+     "아니에요"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "영국에 친구가 ___ 명 있어요.",
+    "options": [
+     "몇",
+     "얼마",
+     "무슨"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___ 학생은 책을 한 권씩 가져와야 해요.",
+    "options": [
+     "각",
+     "많은",
+     "조금"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "냉장고에 우유가 있어요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Is there any milk in the fridge?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "조금 있어요.",
+       "어제 샀어요.",
+       "냉장고가 커요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "돈이 얼마나 있어요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) How much money do you have?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "많지 않아요.",
+       "돈을 썼어요.",
+       "은행이 멀어요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "파티에 사람이 몇 명 올까?"
+      },
+      {
+       "s": "B",
+       "t": "친구 몇 명이 올 거야. 많지는 않아."
+      },
+      {
+       "s": "A",
+       "t": "음식이 충분할까?"
+      },
+      {
+       "s": "B",
+       "t": "응. 케이크도 조금 있고 과일도 많아."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: How many people are coming to the party?\nB: A few friends. Not many.\nA: Will there be enough food?\nB: Yes. There's a little cake and plenty of fruit."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "과일은 어때요?",
+      "options": [
+       "많아요",
+       "하나도 없어요",
+       "조금밖에 없어요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "우리 동네에는 공원이 많지 않아요. 하지만 카페는 몇 개 있어요. 대부분의 이웃들은 친절하고 모두 서로를 알아요. 매일 아침 나는 공원에서 걸으며 하루를 시작해요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "There aren't many parks in my neighbourhood, but there are a few cafés. Most of my neighbours are friendly and each one knows the others. Every morning I start the day with a walk in the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "동네에 무엇이 많지 않아요?",
+      "options": [
+       "공원",
+       "카페",
+       "이웃"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "슈퍼마켓입니다."
+      },
+      {
+       "s": "B",
+       "t": "유제품 코너에 우유가 있나요?"
+      },
+      {
+       "s": "A",
+       "t": "조금 남아 있지만 많지는 않습니다."
+      },
+      {
+       "s": "B",
+       "t": "그럼 두 병만 주세요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Assistant: Supermarket.\nGuest: Is there any milk in the dairy section?\nAssistant: There's a little left, but not much.\nGuest: Then I'll take two bottles."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "우유가 남은 양: ______ 남아 있어요",
+      "answers": [
+       "조금"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "필요한 우유: ______ 병",
+      "answers": [
+       "두"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 우리는 ___ 시간이 없어요.\n2) 이 도시에는 공원이 많지 ___.\n3) 나는 돈이 ___ 않아요.",
+    "trans": {
+     "en": "1) We don't have enough time. 2) There aren't many parks in this city. 3) I don't have much money."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "우리는 ___ 시간이 없어요.",
+      "options": [
+       "충분한",
+       "충분히",
+       "충분해"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "이 도시에는 공원이 많지 ___.",
+      "options": [
+       "않아요",
+       "없어요",
+       "아니에요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "나는 돈이 ___ 않아요.",
+      "options": [
+       "많지",
+       "많이",
+       "많은"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "우리 동네에는 공원이 (1). 하지만 카페는 (2) 있어요. (3) 이웃들은 친절하고 모두 서로를 알아요. 매일 아침 나는 공원에서 걸으며 하루를 시작해요.",
+    "trans": {
+     "en": "There aren't many parks in my neighbourhood, but there are a few cafés. Most of my neighbours are friendly and each one knows the others. Every morning I start the day with a walk in the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "많지 않아요",
+       "많아요",
+       "하나도 많아요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "몇 개",
+       "몇 명",
+       "몇 시"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "대부분의",
+       "각각의",
+       "조금의"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "공지\n각 학생은 다음 주 월요일까지 책 한 권을 가져와야 합니다. 소수의 학생만 이미 가져왔습니다. 도서관에는 책이 많이 없으니 미리 준비하세요.",
+    "trans": {
+     "en": "NOTICE\nEach student must bring a book by next Monday. Only a few students have brought one already. There aren't many books in the library, so prepare in advance."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "각 학생은 언제까지 책을 가져와야 해요?",
+      "options": [
+       "다음 주 월요일까지",
+       "이번 주 금요일까지",
+       "다음 달까지"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "이미 책을 가져온 학생은 얼마나 돼요?",
+      "options": [
+       "소수의 학생만",
+       "대부분",
+       "모두"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "메이는 파티에 필요한 음식을 샀어요. 케이크는 충분하지만 음료수는 조금밖에 없어요. 그녀는 내일 더 사기로 했어요.",
+    "trans": {
+     "en": "May bought food for the party. There is enough cake, but there are only a few drinks. She decided to buy more tomorrow."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "케이크는 충분해요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "음료수도 충분해요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "메이는 내일 파티를 할 거예요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "돈이 얼마나 있어요?",
+    "read": "doni eolmana isseoyo?",
+    "en": "How much money do you have?",
+    "situation": {
+     "ko": "셀 수 없는 수량을 물을 때",
+     "en": "Asking about an uncountable amount"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "친구가 몇 명이에요?",
+    "read": "chinguga myeot myeongieyo?",
+    "en": "How many friends do you have?",
+    "situation": {
+     "ko": "셀 수 있는 수량을 물을 때",
+     "en": "Asking about a countable number"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "우유가 조금도 없어요.",
+    "read": "uyuga jogeumdo eopseoyo.",
+    "en": "There isn't any milk.",
+    "situation": {
+     "ko": "부정문에서",
+     "en": "In negative sentences"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "영국에 친구가 몇 명 있어요.",
+    "read": "yeongguge chinguga myeot myeong isseoyo.",
+    "en": "I have a few friends in England.",
+    "situation": {
+     "ko": "조금 있음을 말할 때",
+     "en": "Saying there are some"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "수프에 소금을 조금 넣으세요.",
+    "read": "supeue sogeumeul jogeum neoeuseyo.",
+    "en": "Add a little salt to the soup.",
+    "situation": {
+     "ko": "소량을 말할 때",
+     "en": "Saying a small amount"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "각 학생은 책을 가져와야 해요.",
+    "read": "gak haksaengeun chaegeul gajyeowaya haeyo.",
+    "en": "Each student must bring a book.",
+    "situation": {
+     "ko": "하나씩 말할 때",
+     "en": "Talking about one by one"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "대부분의 사람들이 동의해요.",
+    "read": "daebubunui saramdeuri donguihaeyo.",
+    "en": "Most people agree.",
+    "situation": {
+     "ko": "대다수를 말할 때",
+     "en": "Talking about the majority"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "시간이 충분하지 않아요.",
+    "read": "sigani chungbunhaji anayo.",
+    "en": "We don't have enough time.",
+    "situation": {
+     "ko": "부족함을 말할 때",
+     "en": "Saying something is not enough"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~가 ~개 있어요.",
+    "read": "~ga ~gae isseoyo.",
+    "en": "There are a few ~."
+   },
+   {
+    "id": "w2",
+    "t": "~가 약간 있어요.",
+    "read": "~ga yakgan isseoyo.",
+    "en": "There is a little ~."
+   },
+   {
+    "id": "w3",
+    "t": "~가 많지 않아요.",
+    "read": "~ga manchi anayo.",
+    "en": "There aren't many / much ~."
+   },
+   {
+    "id": "w4",
+    "t": "각 ~는 ~해야 해요.",
+    "read": "gak ~neun ~haeya haeyo.",
+    "en": "Each / Every ~ must ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "우리 동네나 집에 있는 것과 없는 것을 수량 표현을 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about what there is and isn't in your neighbourhood or home, using quantifiers."
+   },
+   "must_include": [
+    {
+     "label": "많지 않아요",
+     "match": [
+      "많지 않아요"
+     ]
+    },
+    {
+     "label": "몇 개",
+     "match": [
+      "몇 개"
+     ]
+    },
+    {
+     "label": "대부분",
+     "match": [
+      "대부분"
+     ]
+    }
+   ],
+   "model": "우리 동네에는 공원이 많지 않아요. 하지만 카페는 몇 개 있어요. 나는 집에 시간이 많지 않아서 매일 아침 일찍 일어나요. 대부분의 이웃들은 친절하고 모두 서로를 알아요.",
+   "model_trans": {
+    "ko": "우리 동네에는 공원이 많지 않아요. 하지만 카페는 몇 개 있어요. 나는 집에 시간이 많지 않아서 매일 아침 일찍 일어나요. 대부분의 이웃들은 친절하고 모두 서로를 알아요.",
+    "en": "There aren't many parks in my neighbourhood. But there are a few cafés. I don't have much time at home, so I get up early every morning. Most of my neighbours are friendly and each one knows the others."
+   }
+  }
+ }
+}
