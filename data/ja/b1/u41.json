@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_b1_u41",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 41,
+  "concept": "B1.U41",
+  "status": "live",
+  "title": {
+   "target": "住まい探しと賃貸：〜より〜・〜が含まれる・〜てもいいですか",
+   "ko": "집 구하기와 임대",
+   "en": "Housing and renting"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "家賃",
+   "pos": "noun",
+   "read": "やちん",
+   "ko": "월세",
+   "en": "rent",
+   "ex": {
+    "t": "家賃は月八十万ウォンです。",
+    "read": "やちんはがつはちじゅうまんウォンです。",
+    "ko": "월세는 한 달에 80만 원이에요.",
+    "en": "The rent is eight hundred thousand won a month."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "敷金",
+   "pos": "noun",
+   "read": "しききん",
+   "ko": "보증금",
+   "en": "deposit",
+   "ex": {
+    "t": "契約するとき、敷金を払わなければなりません。",
+    "read": "けいやくするとき、しききんをはらわなければなりません。",
+    "ko": "보증금은 계약 때 내야 해요.",
+    "en": "You have to pay the deposit when you sign the contract."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "契約",
+   "pos": "noun",
+   "read": "けいやく",
+   "ko": "계약",
+   "en": "contract",
+   "ex": {
+    "t": "サインする前に契約書をよく読んでください。",
+    "read": "サインするまえにけいやくしょをよくよんでください。",
+    "ko": "계약서에 서명하기 전에 꼼꼼히 읽으세요.",
+    "en": "Read the contract carefully before you sign it."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "大家",
+   "pos": "noun",
+   "read": "おおや",
+   "ko": "집주인",
+   "en": "landlord",
+   "ex": {
+    "t": "大家さんはとても親切です。",
+    "read": "おおやさんはとてもしんせつです。",
+    "ko": "집주인은 아주 친절해요.",
+    "en": "The landlord is very kind."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "借主",
+   "pos": "noun",
+   "read": "かりぬし",
+   "ko": "세입자",
+   "en": "tenant",
+   "ex": {
+    "t": "借主は毎月家賃を払わなければなりません。",
+    "read": "かりぬしはまいつきやちんをはらわなければなりません。",
+    "ko": "세입자는 월세를 매달 내야 해요.",
+    "en": "Tenants must pay the rent every month."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "家具付き",
+   "pos": "adj",
+   "read": "かぐつき",
+   "ko": "가구가 갖춰진",
+   "en": "furnished",
+   "ex": {
+    "t": "この部屋は家具付きです。",
+    "read": "このへやはかぐつきです。",
+    "ko": "이 아파트는 가구가 갖춰져 있어요.",
+    "en": "This flat is furnished."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "周辺",
+   "pos": "noun",
+   "read": "しゅうへん",
+   "ko": "이웃",
+   "en": "neighbourhood",
+   "ex": {
+    "t": "この周辺は静かで安全です。",
+    "read": "このしゅうへんはしずかであんぜんです。",
+    "ko": "이 동네는 조용하고 안전해요.",
+    "en": "This neighbourhood is quiet and safe."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "入居する",
+   "pos": "phrasal verb",
+   "read": "にゅうきょする",
+   "ko": "이사하다",
+   "en": "move in",
+   "ex": {
+    "t": "来月の一日から入居できます。",
+    "read": "らいげつのついたちからにゅうきょできます。",
+    "ko": "다음 달 1일에 이사 들어올 수 있어요.",
+    "en": "You can move in on the first of next month."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "光熱費",
+   "pos": "noun",
+   "read": "こうねつひ",
+   "ko": "공과금",
+   "en": "bills",
+   "ex": {
+    "t": "家賃に光熱費は含まれていますか。",
+    "read": "やちんにこうねつひはふくまれていますか。",
+    "ko": "공과금은 월세에 포함되어 있나요?",
+    "en": "Are the bills included in the rent?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "内見",
+   "pos": "noun",
+   "read": "ないけん",
+   "ko": "집을 보다",
+   "en": "viewing",
+   "ex": {
+    "t": "明日の午後に内見ができます。",
+    "read": "あしたのごごにないけんができます。",
+    "ko": "내일 오후에 집을 보러 갈 수 있어요.",
+    "en": "We can arrange a viewing tomorrow afternoon."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "집 구하기와 임대: 〜より・〜が含まれる・〜てもいいですか",
+   "en": "Housing and renting: 〜より / 〜が含まれる / 〜てもいいですか"
+  },
+  "explain": {
+   "ko": "집을 구할 때는 가격과 조건을 「〜は〜です」와 「〜が含まれていますか」로 묻습니다: 家賃に光熱費は含まれていますか. 비교는 「〜より〜い」: この部屋はあの部屋より広いです. 허락은 「〜てもいいですか」: 明日の午後に内見してもいいですか. 시기는 「〜から入居できます」입니다.",
+   "en": "Ask price and conditions: 「家賃に光熱費は含まれていますか」. Compare with 「〜より」: この部屋はあの部屋より広いです. Permission: 「〜てもいいですか」. Move-in date: 「〜から入居できます」."
+  },
+  "table": {
+   "head": [
+    "구조 / 形",
+    "표현 / 表現",
+    "예 / 例"
+   ],
+   "rows": [
+    [
+     "가격 / 値段",
+     "〜は〜です",
+     "家賃は月八十万ウォン"
+    ],
+    [
+     "포함 / 含む",
+     "〜が含まれている",
+     "光熱費が含まれている"
+    ],
+    [
+     "비교 / 比較",
+     "〜より〜い",
+     "あの部屋より広い"
+    ],
+    [
+     "허락 / 許可",
+     "〜てもいいですか",
+     "内見してもいいですか"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜が含まれる」는 '포함되어 있다'는 뜻입니다.",
+    "en": "「〜が含まれる」 means 'is included'."
+   },
+   {
+    "ko": "「〜より」는 비교의 기준을 나타냅니다.",
+    "en": "「〜より」 marks the standard of comparison."
+   },
+   {
+    "ko": "「〜から入居できる」는 입주 가능한 날짜를 알려 줍니다.",
+    "en": "「〜から入居できる」 gives the move-in date."
+   }
+  ],
+  "examples": [
+   {
+    "t": "家賃は月八十万ウォンです。",
+    "read": "やちんはがつはちじゅうまんウォンです。",
+    "ko": "월세는 한 달에 80만 원이에요.",
+    "en": "The rent is eight hundred thousand won a month."
+   },
+   {
+    "t": "契約するとき、敷金を払わなければなりません。",
+    "read": "けいやくするとき、しききんをはらわなければなりません。",
+    "ko": "보증금은 계약 때 내야 해요.",
+    "en": "You have to pay the deposit when you sign the contract."
+   },
+   {
+    "t": "この部屋は家具付きです。",
+    "read": "このへやはかぐつきです。",
+    "ko": "이 아파트는 가구가 갖춰져 있어요.",
+    "en": "This flat is furnished."
+   },
+   {
+    "t": "この周辺は静かで安全です。",
+    "read": "このしゅうへんはしずかであんぜんです。",
+    "ko": "이 동네는 조용하고 안전해요.",
+    "en": "This neighbourhood is quiet and safe."
+   },
+   {
+    "t": "家賃に光熱費は含まれていますか。",
+    "read": "やちんにこうねつひはふくまれていますか。",
+    "ko": "공과금은 월세에 포함되어 있나요?",
+    "en": "Are the bills included in the rent?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "家賃に光熱費は含まれて___ですか。",
+    "options": [
+     "いるの",
+     "いたの",
+     "いません"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "この部屋はあの部屋___広いです。",
+    "options": [
+     "より",
+     "ほど",
+     "ぐらい"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "明日の午後に内見し___いいですか。",
+    "options": [
+     "ても",
+     "ては",
+     "たら"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "来月の一日から入居___。",
+    "options": [
+     "できます",
+     "しません",
+     "でした"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "家賃はいくらですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 월세가 얼마예요?",
+     "en": "(Question) How much is the rent?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "月八十万ウォンです。",
+       "昨日見ました。",
+       "家は大きいです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いつ入居できますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 언제 이사 들어올 수 있어요?",
+     "en": "(Question) When can I move in?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "来月の一日から入居できます。",
+       "昨日入居しました。",
+       "部屋は広いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "広告の部屋についてお聞きしたいのですが、家賃はいくらですか。"
+      },
+      {
+       "s": "B",
+       "t": "月八十万ウォンで、光熱費は含まれていません。"
+      },
+      {
+       "s": "A",
+       "t": "家具付きですか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、ベッドと机があります。明日の午後、見に来てください。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 광고에서 본 아파트에 대해 문의하고 싶어요. 월세가 얼마예요?\nB: 한 달에 80만 원이고 공과금은 별도입니다.\nA: 가구는 갖춰져 있나요?\nB: 네, 침대와 책상이 있어요. 내일 오후에 보러 오실 수 있어요.",
+     "en": "A: I'd like to ask about the flat in the advert. How much is the rent?\nB: It's eight hundred thousand won a month, and the bills are not included.\nA: Is it furnished?\nB: Yes, there's a bed and a desk. You can come and see it tomorrow afternoon."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "光熱費はどうですか。",
+      "options": [
+       "含まれていない",
+       "含まれている",
+       "無料"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "こんにちは。ご覧になった広告の部屋は、駅から歩いて五分です。寝室が二つあり、家具付きです。家賃は月八十万ウォンで、敷金は家賃二か月分です。光熱費は含まれていません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요. 광고에서 보신 집은 지하철역에서 걸어서 5분 거리에 있습니다. 침실이 두 개 있고 가구가 갖춰져 있습니다. 월세는 한 달에 80만 원이고 보증금은 월세 두 달 치입니다. 공과금은 별도입니다.",
+     "en": "Hello. The flat you saw in the advert is five minutes' walk from the subway station. It has two bedrooms and is furnished. The rent is eight hundred thousand won a month, and the deposit is two months' rent. The bills are not included."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "敷金は家賃何か月分ですか。",
+      "options": [
+       "二か月分",
+       "一か月分",
+       "半年分"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "不動産屋です。"
+      },
+      {
+       "s": "B",
+       "t": "今月中に入居したいのですが。"
+      },
+      {
+       "s": "A",
+       "t": "契約するとき、敷金と最初の月の家賃を払っていただきます。"
+      },
+      {
+       "s": "B",
+       "t": "契約書はいつもらえますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "중개인: 부동산입니다.\n손님: 이번 달 안에 이사하고 싶어요.\n중개인: 보증금과 첫 달 월세를 계약 때 내셔야 합니다.\n손님: 계약서는 언제 받을 수 있나요?",
+     "en": "Agent: Estate agency.\nGuest: I'd like to move in this month.\nAgent: You have to pay the deposit and the first month's rent when you sign the contract.\nGuest: When can I get the contract?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "入居したい時期：______中",
+      "answers": [
+       "今月"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "払うもの：敷金と最初の月の______",
+      "answers": [
+       "家賃"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 家賃は月八十万ウォン___。\n2) 契約するとき、___を払わなければなりません。\n3) 家賃に光熱費は含まれて___か。",
+    "trans": {
+     "ko": "1) 월세는 한 달에 80만 원이에요. 2) 보증금은 계약 때 내야 해요. 3) 공과금은 월세에 포함되어 있나요?",
+     "en": "1) The rent is eight hundred thousand won a month. 2) You have to pay the deposit when you sign the contract. 3) Are the bills included in the rent?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "家賃は月八十万ウォン___。",
+      "options": [
+       "です",
+       "でした",
+       "でしょう"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "契約するとき、___を払わなければなりません。",
+      "options": [
+       "敷金",
+       "光熱費",
+       "内見"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "家賃に光熱費は含まれて___か。",
+      "options": [
+       "います",
+       "ありません",
+       "いません"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "こんにちは。ご覧になった広告の部屋は、駅から歩いて五分です。寝室が二つあり、(1)です。家賃は月八十万ウォンで、敷金は家賃二か月分です。光熱費は(2)(3)。",
+    "trans": {
+     "ko": "안녕하세요. 광고에서 보신 집은 지하철역에서 걸어서 5분 거리에 있습니다. 침실이 두 개 있고 가구가 갖춰져 있습니다. 월세는 한 달에 80만 원이고 보증금은 월세 두 달 치입니다. 공과금은 별도입니다.",
+     "en": "Hello. The flat you saw in the advert is five minutes' walk from the subway station. It has two bedrooms and is furnished. The rent is eight hundred thousand won a month, and the deposit is two months' rent. The bills are not included."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "家具付き",
+       "家具なし",
+       "古い家"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "含まれて",
+       "含めて",
+       "含んで"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "いません",
+       "います",
+       "いました"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "広告\n賃貸ワンルーム\n寝室二つ、家具付き\n駅から歩いて五分\n家賃八十万ウォン、敷金百六十万ウォン\n連絡先：010-1234-5678",
+    "trans": {
+     "ko": "광고\n아파트 임대\n침실 2개, 가구 완비\n지하철역 도보 5분\n월세 80만 원, 보증금 160만 원\n문의: 010-1234-5678",
+     "en": "ADVERT\nFlat to rent\nTwo bedrooms, fully furnished\n5 minutes' walk from the subway\nRent 800,000 won, deposit 1,600,000 won\nContact: 010-1234-5678"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "寝室はいくつありますか。",
+      "options": [
+       "二つ",
+       "一つ",
+       "三つ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "敷金はいくらですか。",
+      "options": [
+       "百六十万ウォン",
+       "八十万ウォン",
+       "二十万ウォン"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "メイさんは新しい家に引っ越しました。静かで、近所の人も親切です。でも、家賃は前の部屋より高いです。",
+    "trans": {
+     "ko": "메이는 새 집으로 이사 들어왔어요. 집은 조용하고 이웃도 친절해요. 하지만 월세가 이전 집보다 비싸요.",
+     "en": "May has moved into her new home. It's quiet and the neighbours are friendly. But the rent is higher than in her old flat."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "メイさんは新しい家に引っ越しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "新しい家の家賃は前より安いです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "近所は騒がしいです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "家賃はいくらですか。",
+    "read": "やちんはいくらですか。",
+    "ko": "월세가 얼마예요?",
+    "en": "How much is the rent?",
+    "situation": {
+     "ko": "가격을 물을 때",
+     "en": "Asking about the price"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "月八十万ウォンです。",
+    "read": "がつはちじゅうまんウォンです。",
+    "ko": "월세는 한 달에 80만 원이에요.",
+    "en": "The rent is eight hundred thousand won a month.",
+    "situation": {
+     "ko": "가격을 말할 때",
+     "en": "Giving the price"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "光熱費は含まれていますか。",
+    "read": "こうねつひはふくまれていますか。",
+    "ko": "공과금은 포함되어 있나요?",
+    "en": "Are the bills included?",
+    "situation": {
+     "ko": "조건을 물을 때",
+     "en": "Asking about what's included"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "家具付きですか。",
+    "read": "かぐつきですか。",
+    "ko": "가구가 갖춰져 있어요?",
+    "en": "Is it furnished?",
+    "situation": {
+     "ko": "상태를 물을 때",
+     "en": "Asking about the condition"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "内見してもいいですか。",
+    "read": "ないけんしてもいいですか。",
+    "ko": "집을 보러 가도 될까요?",
+    "en": "Could I arrange a viewing?",
+    "situation": {
+     "ko": "방문을 요청할 때",
+     "en": "Requesting a viewing"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "いつ入居できますか。",
+    "read": "いつにゅうきょできますか。",
+    "ko": "언제 이사 들어올 수 있어요?",
+    "en": "When can I move in?",
+    "situation": {
+     "ko": "시기를 물을 때",
+     "en": "Asking about the date"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "駅から近いです。",
+    "read": "えきからちかいです。",
+    "ko": "이 집은 지하철에서 가까워요.",
+    "en": "It's close to the subway.",
+    "situation": {
+     "ko": "위치를 말할 때",
+     "en": "Describing the location"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "契約書を送っていただけますか。",
+    "read": "けいやくしょをおくっていただけますか。",
+    "ko": "계약서를 보내 주시겠어요?",
+    "en": "Could you send me the contract?",
+    "situation": {
+     "ko": "정중하게 부탁할 때",
+     "en": "Politely asking"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜は月〜万ウォンです。",
+    "read": "〜はがつ〜まんウォンです。",
+    "ko": "~가 ~에 있어요.",
+    "en": "There is a ~ in ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜が含まれています。",
+    "read": "〜がふくまれています。",
+    "ko": "~보다 더 ~해요.",
+    "en": "~ is cheaper / bigger than ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜より〜です。",
+    "read": "〜より〜です。",
+    "ko": "~를 보러 가도 될까요?",
+    "en": "Could I arrange a viewing?"
+   },
+   {
+    "id": "w4",
+    "t": "〜てもいいですか。",
+    "read": "〜てもいいですか。",
+    "ko": "~는 포함되어 있나요?",
+    "en": "Is / Are ~ included?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "원하는 집의 조건을 4문장으로 써 보세요. 월세, 위치, 크기, 시설에 대해 쓰세요.",
+    "en": "Write 4 sentences about the home you want: the rent, location, size and facilities."
+   },
+   "must_include": [
+    {
+     "label": "家賃",
+     "match": [
+      "家賃"
+     ]
+    },
+    {
+     "label": "家具付き",
+     "match": [
+      "家具付き"
+     ]
+    },
+    {
+     "label": "光熱費",
+     "match": [
+      "光熱費"
+     ]
+    },
+    {
+     "label": "内見",
+     "match": [
+      "内見"
+     ]
+    }
+   ],
+   "model": "家具付きで、家賃が八十万ウォン以下の部屋を探しています。駅から近くて、寝室が二つあるといいです。家賃に光熱費は含まれていますか。明日の午後に内見してもいいですか。",
+   "model_trans": {
+    "ko": "저는 월세가 80만 원 이하인 가구가 갖춰진 집을 찾고 있어요. 지하철에서 가까우면 좋겠고 침실이 두 개 있으면 좋겠어요. 공과금은 월세에 포함되어 있나요? 내일 오후에 집을 보러 가도 될까요?",
+    "en": "I'm looking for a furnished flat with a rent of no more than eight hundred thousand won. I'd like it to be close to the subway and to have two bedrooms. Are the bills included in the rent? Could I arrange a viewing tomorrow afternoon?"
+   }
+  }
+ }
+}

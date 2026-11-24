@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_b1_u42",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 42,
+  "concept": "B1.U42",
+  "status": "live",
+  "title": {
+   "target": "買い物と消費者の権利：〜より・いちばん・返品する",
+   "ko": "쇼핑과 소비",
+   "en": "Shopping and consumer rights"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "割引",
+   "pos": "noun",
+   "read": "わりびき",
+   "ko": "할인",
+   "en": "discount",
+   "ex": {
+    "t": "この店は学生に一割引です。",
+    "read": "このみせはがくせいにいちわりびきです。",
+    "ko": "이 가게는 학생에게 10% 할인을 해 줘요.",
+    "en": "This shop gives students a ten per cent discount."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "セール",
+   "pos": "noun",
+   "read": "セール",
+   "ko": "세일",
+   "en": "sale",
+   "ex": {
+    "t": "あの店は今セールをしています。",
+    "read": "あのみせはいまセールをしています。",
+    "ko": "그 가게는 지금 세일 중이에요.",
+    "en": "That shop has a sale on now."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "値段",
+   "pos": "noun",
+   "read": "ねだん",
+   "ko": "가격",
+   "en": "price",
+   "ex": {
+    "t": "この商品は値段が高すぎます。",
+    "read": "このしょうひんはねだんがたかすぎます。",
+    "ko": "이 제품의 가격은 너무 비싸요.",
+    "en": "The price of this product is too high."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "品質",
+   "pos": "noun",
+   "read": "ひんしつ",
+   "ko": "품질",
+   "en": "quality",
+   "ex": {
+    "t": "このかばんはとても品質がいいです。",
+    "read": "このかばんはとてもひんしつがいいです。",
+    "ko": "이 가방은 품질이 아주 좋아요.",
+    "en": "This bag is of very good quality."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "保証",
+   "pos": "noun",
+   "read": "ほしょう",
+   "ko": "보증",
+   "en": "warranty",
+   "ex": {
+    "t": "このパソコンには一年間の保証があります。",
+    "read": "このパソコンにはいちねんかんのほしょうがあります。",
+    "ko": "이 노트북은 1년 보증이 있어요.",
+    "en": "This laptop has a one-year warranty."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "比べる",
+   "pos": "verb",
+   "read": "くらべる",
+   "ko": "비교하다",
+   "en": "compare",
+   "ex": {
+    "t": "買う前に値段を比べてください。",
+    "read": "かうまえにねだんをくらべてください。",
+    "ko": "구매하기 전에 가격을 비교해 보세요.",
+    "en": "Compare prices before you buy."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "口コミ",
+   "pos": "noun",
+   "read": "くちこみ",
+   "ko": "후기",
+   "en": "review",
+   "ex": {
+    "t": "買う前に口コミを読んでください。",
+    "read": "かうまえにくちこみをよんでください。",
+    "ko": "구매하기 전에 후기를 읽어 보세요.",
+    "en": "Read the reviews before you buy."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "いちばん安い",
+   "pos": "adj",
+   "read": "いちばんやすい",
+   "ko": "가장 저렴한",
+   "en": "cheapest",
+   "ex": {
+    "t": "これは店でいちばん安いモデルです。",
+    "read": "これはみせでいちばんやすいモデルです。",
+    "ko": "이게 이 가게에서 가장 저렴한 모델이에요.",
+    "en": "This is the cheapest model in the shop."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "交換する",
+   "pos": "verb",
+   "read": "こうかんする",
+   "ko": "교환하다",
+   "en": "exchange",
+   "ex": {
+    "t": "サイズが合わなければ、交換できます。",
+    "read": "サイズがあわなければ、こうかんできます。",
+    "ko": "사이즈가 맞지 않으면 교환할 수 있어요.",
+    "en": "You can exchange it if the size doesn't fit."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "レシート",
+   "pos": "noun",
+   "read": "レシート",
+   "ko": "영수증",
+   "en": "receipt",
+   "ex": {
+    "t": "返金にはレシートが必要です。",
+    "read": "へんきんにはレシートがひつようです。",
+    "ko": "환불을 받으려면 영수증이 필요해요.",
+    "en": "You need the receipt to get a refund."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "쇼핑과 소비: 〜より〜・いちばん〜・〜と交換する・返金",
+   "en": "Shopping and consumer rights: 〜より / いちばん / 交換・返金"
+  },
+  "explain": {
+   "ko": "비교는 「AはBより〜」: こちらはあちらより高いですが、速いです. 최상급은 「いちばん〜」: これは店でいちばん安いモデルです. 교환과 환불은 「〜を交換したいのですが」「返金してください」입니다. 사기 전에는 「買う前に口コミを読む」, 산 뒤에는 「レシートを取っておく」라고 합니다.",
+   "en": "Comparison: 「AはBより〜」. Superlative: 「いちばん〜」. Exchanges and refunds: 「交換したいのですが」「返金してください」. Before buying: read reviews; after: keep the receipt."
+  },
+  "table": {
+   "head": [
+    "구조 / 形",
+    "표현 / 表現",
+    "예 / 例"
+   ],
+   "rows": [
+    [
+     "비교 / 比較",
+     "AはBより〜",
+     "こちらはあちらより安い"
+    ],
+    [
+     "최상급 / 最上級",
+     "いちばん〜",
+     "いちばん安いモデル"
+    ],
+    [
+     "교환 / 交換",
+     "〜を交換したい",
+     "サイズを交換したい"
+    ],
+    [
+     "환불 / 返金",
+     "返金してください",
+     "返金してもらえますか"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「いちばん」은 가장 정도가 높음을 나타냅니다.",
+    "en": "「いちばん」 means 'the most'."
+   },
+   {
+    "ko": "「〜と比べる」는 비교하는 대상을 나타냅니다.",
+    "en": "「〜と比べる」 marks what is compared."
+   },
+   {
+    "ko": "환불에는 영수증이 필요한 경우가 많습니다.",
+    "en": "Refunds often need the receipt."
+   }
+  ],
+  "examples": [
+   {
+    "t": "この店は学生に一割引です。",
+    "read": "このみせはがくせいにいちわりびきです。",
+    "ko": "이 가게는 학생에게 10% 할인을 해 줘요.",
+    "en": "This shop gives students a ten per cent discount."
+   },
+   {
+    "t": "このパソコンには一年間の保証があります。",
+    "read": "このパソコンにはいちねんかんのほしょうがあります。",
+    "ko": "이 노트북은 1년 보증이 있어요.",
+    "en": "This laptop has a one-year warranty."
+   },
+   {
+    "t": "買う前に口コミを読んでください。",
+    "read": "かうまえにくちこみをよんでください。",
+    "ko": "구매하기 전에 후기를 읽어 보세요.",
+    "en": "Read the reviews before you buy."
+   },
+   {
+    "t": "これは店でいちばん安いモデルです。",
+    "read": "これはみせでいちばんやすいモデルです。",
+    "ko": "이게 이 가게에서 가장 저렴한 모델이에요.",
+    "en": "This is the cheapest model in the shop."
+   },
+   {
+    "t": "返金にはレシートが必要です。",
+    "read": "へんきんにはレシートがひつようです。",
+    "ko": "환불을 받으려면 영수증이 필요해요.",
+    "en": "You need the receipt to get a refund."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "こちらはあちら___安いです。",
+    "options": [
+     "より",
+     "ほど",
+     "だけ"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "これは店で___安いモデルです。",
+    "options": [
+     "いちばん",
+     "もっと",
+     "とても"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "買う前に口コミを読ん___ください。",
+    "options": [
+     "で",
+     "た",
+     "る"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "サイズが合わないので、交換し___のですが。",
+    "options": [
+     "たい",
+     "ない",
+     "ます"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この商品はいくらですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 제품은 얼마예요?",
+     "en": "(Question) How much is this product?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "三万ウォンです。",
+       "昨日買いました。",
+       "店は大きいです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "保証はどのくらいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 보증 기간은 얼마예요?",
+     "en": "(Question) How long is the warranty?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "一年間です。",
+       "昨日です。",
+       "高いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この二つのパソコンはどう違いますか。"
+      },
+      {
+       "s": "B",
+       "t": "こちらは安いですが、あちらは速くて、保証も二年あります。"
+      },
+      {
+       "s": "A",
+       "t": "学生割引はありますか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、学生証を見せれば、一割引になります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 두 노트북의 차이가 뭐예요?\nB: 이 모델이 더 저렴하지만 저 모델이 더 빠르고 보증도 2년이에요.\nA: 학생 할인이 되나요?\nB: 네, 학생증을 보여 주시면 10% 할인해 드려요.",
+     "en": "A: What's the difference between these two laptops?\nB: This one is cheaper, but that one is faster and has a two-year warranty.\nA: Is there a student discount?\nB: Yes, show your student card and you'll get ten per cent off."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "学生割引はどのくらいですか。",
+      "options": [
+       "一割",
+       "五割",
+       "割引はない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "買う前にいくつか確認しましょう。まず、いくつかの店で値段を比べて、ネットの口コミを読みます。保証が長い商品のほうが安心です。買ったあとは、レシートを取っておきます。問題があったら、返金や交換ができます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "물건을 사기 전에 몇 가지를 확인하세요. 먼저 여러 가게의 가격을 비교하고 인터넷 후기를 읽어 보세요. 보증 기간이 긴 제품이 더 안전합니다. 산 뒤에는 영수증을 꼭 보관하세요. 문제가 생기면 환불이나 교환을 받을 수 있습니다.",
+     "en": "Check a few things before you buy. First compare prices in several shops and read online reviews. A product with a longer warranty is safer. After you buy it, keep the receipt. If there's a problem, you can get a refund or an exchange."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "買ったあとは何を取っておきますか。",
+      "options": [
+       "レシート",
+       "箱",
+       "袋"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いらっしゃいませ。"
+      },
+      {
+       "s": "B",
+       "t": "先週買った靴が小さいので、交換したいのですが。"
+      },
+      {
+       "s": "A",
+       "t": "レシートを見せていただけますか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、どうぞ。一つ大きいサイズをお願いします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "점원: 어서 오세요.\n손님: 지난주에 산 구두가 작아서 교환하고 싶어요.\n점원: 영수증을 보여 주시겠어요?\n손님: 네, 여기 있어요. 한 치수 큰 걸로 주세요.",
+     "en": "Assistant: Welcome.\nGuest: The shoes I bought last week are too small, so I'd like to exchange them.\nAssistant: Could I see the receipt?\nGuest: Yes, here you are. I'd like one size bigger, please."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "交換したいもの：______",
+      "answers": [
+       "靴"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "希望：一つ大きい______",
+      "answers": [
+       "サイズ"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) この店は学生に___です。\n2) 買う前に口コミを読んで___。\n3) 返金には___が必要です。",
+    "trans": {
+     "ko": "1) 이 가게는 학생에게 10% 할인을 해 줘요. 2) 구매하기 전에 후기를 읽어 보세요. 3) 환불을 받으려면 영수증이 필요해요.",
+     "en": "1) This shop gives students a ten per cent discount. 2) Read the reviews before you buy. 3) You need the receipt to get a refund."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この店は学生に___です。",
+      "options": [
+       "一割引",
+       "二倍",
+       "半分"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "買う前に口コミを読んで___。",
+      "options": [
+       "ください",
+       "いません",
+       "しまいました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "返金には___が必要です。",
+      "options": [
+       "レシート",
+       "鍵",
+       "写真"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "買う前にいくつか確認しましょう。まず、いくつかの店で値段を(1)、ネットの口コミを読みます。保証が長い商品のほうが(2)。買ったあとは、レシートを取っておきます。問題があったら、返金や交換が(3)。",
+    "trans": {
+     "ko": "물건을 사기 전에 몇 가지를 확인하세요. 먼저 여러 가게의 가격을 비교하고 인터넷 후기를 읽어 보세요. 보증 기간이 긴 제품이 더 안전합니다. 산 뒤에는 영수증을 꼭 보관하세요. 문제가 생기면 환불이나 교환을 받을 수 있습니다.",
+     "en": "Check a few things before you buy. First compare prices in several shops and read online reviews. A product with a longer warranty is safer. After you buy it, keep the receipt. If there's a problem, you can get a refund or an exchange."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "比べて",
+       "捨てて",
+       "貸して"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "安心です",
+       "不安です",
+       "危険です"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "できます",
+       "できません",
+       "しません"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "セールのお知らせ\nウィンターセール！十二月一日〜十五日\nコート全品三割引\n学生証を見せればさらに一割引\n交換・返金は十四日以内、レシートが必要です。",
+    "trans": {
+     "ko": "세일 안내\n겨울 대세일! 12월 1일~15일\n모든 외투 30% 할인\n학생증 지참 시 추가 10% 할인\n교환·환불: 구매 후 14일 이내, 영수증 지참",
+     "en": "SALE NOTICE\nWinter sale! 1–15 December\n30% off all coats\nExtra 10% off with a student card\nExchanges and refunds: within 14 days with the receipt"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "コートはいくら割引になりますか。",
+      "options": [
+       "三割引",
+       "五割引",
+       "一割引"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "交換・返金はいつまでできますか。",
+      "options": [
+       "十四日以内",
+       "一年以内",
+       "当日のみ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジュンさんはネットで靴を注文しました。届いてみると、写真ほど品質がよくありませんでした。返品を頼んで、全額返金してもらいました。",
+    "trans": {
+     "ko": "준은 온라인으로 신발을 주문했어요. 도착한 신발은 사진보다 품질이 좋지 않았어요. 그는 반품을 신청해서 전액 환불받았어요.",
+     "en": "Jun ordered shoes online. When they arrived, the quality wasn't as good as in the photo. He asked for a return and got a full refund."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジュンさんは靴を注文しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "靴は写真どおりでした。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "返金は断られました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "この商品はいくらですか。",
+    "read": "このしょうひんはいくらですか。",
+    "ko": "이 제품은 얼마예요?",
+    "en": "How much is this product?",
+    "situation": {
+     "ko": "가격을 물을 때",
+     "en": "Asking the price"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "これがいちばん安いモデルです。",
+    "read": "これがいちばんやすいモデルです。",
+    "ko": "이게 가장 저렴한 모델이에요.",
+    "en": "This is the cheapest model.",
+    "situation": {
+     "ko": "추천할 때",
+     "en": "Recommending"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "こちらのほうが性能はいいですが、高いです。",
+    "read": "こちらのほうがせいのうはいいですが、たかいです。",
+    "ko": "이 노트북은 더 좋지만 더 비싸요.",
+    "en": "This laptop is better, but more expensive.",
+    "situation": {
+     "ko": "비교할 때",
+     "en": "Comparing"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "保証はどのくらいですか。",
+    "read": "ほしょうはどのくらいですか。",
+    "ko": "보증 기간은 얼마예요?",
+    "en": "How long is the warranty?",
+    "situation": {
+     "ko": "보증을 물을 때",
+     "en": "Asking about the warranty"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "割引はありますか。",
+    "read": "わりびきはありますか。",
+    "ko": "할인이 있나요?",
+    "en": "Is there a discount?",
+    "situation": {
+     "ko": "할인을 물을 때",
+     "en": "Asking for a discount"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "サイズが合わないので、交換したいのですが。",
+    "read": "サイズがあわないので、こうかんしたいのですが。",
+    "ko": "사이즈가 맞지 않아서 교환하고 싶어요.",
+    "en": "It doesn't fit, so I'd like to exchange it.",
+    "situation": {
+     "ko": "교환을 요청할 때",
+     "en": "Asking for an exchange"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "返金してもらえますか。",
+    "read": "へんきんしてもらえますか。",
+    "ko": "환불해 주시겠어요?",
+    "en": "Could I have a refund, please?",
+    "situation": {
+     "ko": "환불을 요청할 때",
+     "en": "Asking for a refund"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "口コミを読んで決めます。",
+    "read": "くちこみをよんできめます。",
+    "ko": "후기를 읽어 보고 결정할게요.",
+    "en": "I'll read the reviews and decide.",
+    "situation": {
+     "ko": "결정을 미룰 때",
+     "en": "Postponing a decision"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜より〜です。",
+    "read": "〜より〜です。",
+    "ko": "이게 ~보다 더 ~해요.",
+    "en": "This is more ~ than ~."
+   },
+   {
+    "id": "w2",
+    "t": "いちばん〜です。",
+    "read": "いちばん〜です。",
+    "ko": "이게 가장 ~해요.",
+    "en": "This is the ~est / most ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜を交換したいのですが。",
+    "read": "〜をこうかんしたいのですが。",
+    "ko": "~를 교환하고 싶어요.",
+    "en": "I'd like to exchange ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜を返金してください。",
+    "read": "〜をへんきんしてください。",
+    "ko": "~를 환불받고 싶어요.",
+    "en": "I'd like a refund for ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "물건을 사려고 비교한 경험을 비교급·최상급을 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about comparing products before buying, using comparatives and superlatives."
+   },
+   "must_include": [
+    {
+     "label": "〜より",
+     "match": [
+      "より"
+     ]
+    },
+    {
+     "label": "いちばん",
+     "match": [
+      "いちばん"
+     ]
+    },
+    {
+     "label": "口コミ",
+     "match": [
+      "口コミ"
+     ]
+    },
+    {
+     "label": "レシート",
+     "match": [
+      "レシート"
+     ]
+    }
+   ],
+   "model": "パソコンを買う前に、口コミを読んで、値段を比べました。このモデルがいちばん安いですが、あのモデルはこれより速くて、保証も長いです。それで、少し高いほうを買いました。返金が必要になった場合に備えて、レシートを取っておきます。",
+   "model_trans": {
+    "ko": "나는 노트북을 사기 전에 후기를 읽고 가격을 비교했어요. 이 모델이 가장 저렴하지만 저 모델이 더 빠르고 보증도 더 길어요. 그래서 조금 더 비싼 모델을 샀어요. 영수증은 환불을 위해 잘 보관하고 있어요.",
+    "en": "Before buying a laptop I read the reviews and compared prices. This model is the cheapest, but that one is faster and has a longer warranty. So I bought the slightly more expensive model. I'm keeping the receipt in case I need a refund."
+   }
+  }
+ }
+}
