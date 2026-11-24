@@ -1,0 +1,829 @@
+{
+ "meta": {
+  "id": "zh_b1_u50",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 50,
+  "concept": "B1.U50",
+  "status": "live",
+  "title": {
+   "target": "B1总复习：写一篇较长的文章",
+   "ko": "B1 종합 복습: 긴 글 쓰기",
+   "en": "B1 final review: writing a longer text"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "到现在为止",
+   "pos": "phrase",
+   "read": "dào xiànzài wéi zhǐ",
+   "ko": "지금까지",
+   "en": "so far",
+   "ex": {
+    "t": "到现在为止，我去过三个国家。",
+    "read": "Dào xiànzài wéi zhǐ, wǒ qùguo sān gè guójiā.",
+    "ko": "지금까지 나는 세 나라를 여행했어요.",
+    "en": "So far I've travelled to three countries."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "如果当时",
+   "pos": "phrase",
+   "read": "rúguǒ dāngshí",
+   "ko": "~이었더라면",
+   "en": "if I had",
+   "ex": {
+    "t": "如果当时早点出发，我就不会迟到了。",
+    "read": "Rúguǒ dāngshí zǎo diǎn chūfā, wǒ jiù búhuì chídào le.",
+    "ko": "더 일찍 출발했더라면 늦지 않았을 거예요.",
+    "en": "If I had left earlier, I wouldn't have been late."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "他说",
+   "pos": "phrase",
+   "read": "tā shuō",
+   "ko": "~라고 말하다",
+   "en": "said that",
+   "ex": {
+    "t": "他说他下星期要搬家。",
+    "read": "Tā shuō tā xià xīngqī yào bān jiā.",
+    "ko": "그는 다음 주에 이사한다고 말했어요.",
+    "en": "He said that he was moving next week."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "建于",
+   "pos": "phrase",
+   "read": "jiàn yú",
+   "ko": "~되었다",
+   "en": "was built",
+   "ex": {
+    "t": "这座桥建于一九九〇年。",
+    "read": "Zhè zuò qiáo jiàn yú yì jiǔ jiǔ 〇 nián.",
+    "ko": "이 다리는 1990년에 지어졌어요.",
+    "en": "This bridge was built in 1990."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "虽然……但是",
+   "pos": "conj",
+   "read": "suīrán … dànshì",
+   "ko": "비록 ~이지만",
+   "en": "although",
+   "ex": {
+    "t": "虽然我很累，但是我还在继续学习。",
+    "read": "Suīrán wǒ hěn lèi, dànshì wǒ hái zài jìxù xuéxí.",
+    "ko": "비록 피곤했지만 나는 끝까지 공부했어요.",
+    "en": "Although I was tired, I kept studying."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "为了",
+   "pos": "phrase",
+   "read": "wèile",
+   "ko": "~하기 위해",
+   "en": "in order to",
+   "ex": {
+    "t": "她为了通过考试而努力学习。",
+    "read": "Tā wèile tōng guo kǎoshì ér nǔlì xuéxí.",
+    "ko": "그녀는 시험에 합격하기 위해 열심히 공부해요.",
+    "en": "She studies hard in order to pass the exam."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "习惯",
+   "pos": "phrase",
+   "read": "xíguàn",
+   "ko": "~에 익숙해지다",
+   "en": "get used to",
+   "ex": {
+    "t": "我正在习惯这座新城市。",
+    "read": "Wǒ zhèngzài xíguàn zhè zuò xīn chéngshì.",
+    "ko": "나는 새 도시에 익숙해지고 있어요.",
+    "en": "I'm getting used to the new city."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "在我看来",
+   "pos": "phrase",
+   "read": "zài wǒ kàn lái",
+   "ko": "제 생각에는",
+   "en": "in my view",
+   "ex": {
+    "t": "在我看来，这个计划最好。",
+    "read": "Zài wǒ kàn lái, zhège jìhuà zuì hǎo.",
+    "ko": "제 생각에는 이 계획이 최선이에요.",
+    "en": "In my view this plan is the best."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "总之",
+   "pos": "phrase",
+   "read": "zǒngzhī",
+   "ko": "요약하면",
+   "en": "to sum up",
+   "ex": {
+    "t": "总之，两种方法各有优点。",
+    "read": "Zǒngzhī, liǎng zhǒng fāng fǎ gè yǒu yōu diǎn.",
+    "ko": "요약하면 두 방법 모두 장점이 있어요.",
+    "en": "To sum up, both methods have advantages."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "期待回信",
+   "pos": "phrase",
+   "read": "qīdài huí xìn",
+   "ko": "소식 기다릴게요",
+   "en": "I look forward to hearing from you",
+   "ex": {
+    "t": "期待您的回信。",
+    "read": "Qīdài nín de huí xìn.",
+    "ko": "곧 소식을 기다리겠습니다.",
+    "en": "I look forward to hearing from you soon."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "B1 총정리: 到现在……・如果当时……・他说……・虽然……但是……・总之",
+   "en": "B1 review: 到现在 / 如果当时 / 他说…… / 虽然……但是…… / 总之"
+  },
+  "explain": {
+   "ko": "总结 B1 的语法。经历用“到现在为止，我去过……”，过去的假设用“如果当时……，就……了”，转述用“他说……”，被动用“被……”，让步用“虽然……但是……”，目的用“为了……”，总结用“总之”。",
+   "en": "A summary of B1 grammar. Experience: 到现在为止，我去过……. Hypothetical past: 如果当时……，就……了. Reported speech: 他说……. Concession: 虽然……但是……. Purpose: 为了……. Summary: 总之."
+  },
+  "table": {
+   "head": [
+    "구조 / 结构",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "경험 / 经历",
+     "到现在为止……",
+     "到现在为止我去过三个国家"
+    ],
+    [
+     "가정 / 假设",
+     "如果当时……就……了",
+     "如果当时早点出发就不会迟到"
+    ],
+    [
+     "전달 / 转述",
+     "他说……",
+     "他说下星期搬家"
+    ],
+    [
+     "양보 / 让步",
+     "虽然……但是……",
+     "虽然累，但是继续学习"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "长文章要有开头、正文和结尾。",
+    "en": "A long text needs an opening, body and closing."
+   },
+   {
+    "ko": "用连接词能让文章更连贯。",
+    "en": "Connectors make a text flow."
+   },
+   {
+    "ko": "结尾可以用“期待您的回信”。",
+    "en": "End with 期待您的回信."
+   }
+  ],
+  "examples": [
+   {
+    "t": "到现在为止，我去过三个国家。",
+    "read": "Dào xiànzài wéi zhǐ, wǒ qùguo sān gè guójiā.",
+    "ko": "지금까지 나는 세 나라를 여행했어요.",
+    "en": "So far I've travelled to three countries."
+   },
+   {
+    "t": "如果当时早点出发，我就不会迟到了。",
+    "read": "Rúguǒ dāngshí zǎo diǎn chūfā, wǒ jiù búhuì chídào le.",
+    "ko": "더 일찍 출발했더라면 늦지 않았을 거예요.",
+    "en": "If I had left earlier, I wouldn't have been late."
+   },
+   {
+    "t": "他说他下星期要搬家。",
+    "read": "Tā shuō tā xià xīngqī yào bān jiā.",
+    "ko": "그는 다음 주에 이사한다고 말했어요.",
+    "en": "He said that he was moving next week."
+   },
+   {
+    "t": "这座桥建于一九九〇年。",
+    "read": "Zhè zuò qiáo jiàn yú yì jiǔ jiǔ 〇 nián.",
+    "ko": "이 다리는 1990년에 지어졌어요.",
+    "en": "This bridge was built in 1990."
+   },
+   {
+    "t": "虽然我很累，但是我还在继续学习。",
+    "read": "Suīrán wǒ hěn lèi, dànshì wǒ hái zài jìxù xuéxí.",
+    "ko": "비록 피곤했지만 나는 끝까지 공부했어요.",
+    "en": "Although I was tired, I kept studying."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "到现在为止，我去___三个国家。",
+    "options": [
+     "过",
+     "着",
+     "吗"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "如果当时早点出发，我___不会迟到了。",
+    "options": [
+     "就",
+     "也",
+     "才"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "他___他下星期要搬家。",
+    "options": [
+     "说",
+     "看",
+     "买"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___我很累，但是我还在继续学习。",
+    "options": [
+     "虽然",
+     "因为",
+     "如果"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "到现在为止你过得怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 지금까지 어떻게 지냈어요?",
+     "en": "(Question) How have you been so far?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "到现在为止，我去过三个国家。",
+       "我昨天去了。",
+       "旅行很大。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "下个月你打算做什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 다음 달에 뭘 할 거예요?",
+     "en": "(Question) What are you going to do next month?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我要开始一个新项目。",
+       "我昨天开始了。",
+       "项目是红色的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "好久不见！你最近怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "挺好的。到现在为止我去过三个国家，下个月还有一个新项目。"
+      },
+      {
+       "s": "A",
+       "t": "哇！如果我早点准备，就能和你一起去了。"
+      },
+      {
+       "s": "B",
+       "t": "下次一起去吧。期待你的消息。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 오랜만이야! 요즘 어떻게 지내?\nB: 잘 지내. 지금까지 세 나라를 여행했고 다음 달에는 새 프로젝트가 시작돼.\nA: 대단하다! 난 더 일찍 준비했더라면 같이 갈 수 있었을 텐데.\nB: 다음엔 같이 가자. 곧 소식을 기다릴게.",
+     "en": "A: Long time no see! How are you these days?\nB: Fine. I've travelled to three countries so far, and a new project is starting next month.\nA: Wow! If I had prepared earlier, I could have gone with you.\nB: Let's go together next time. I look forward to hearing from you soon."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B下个月有什么？",
+      "options": [
+       "一个新项目",
+       "搬家",
+       "旅行"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "大家好，我是李娜。我来到这座城市已经一年了。起初觉得陌生，现在已经习惯了。同事们都很友好，工作也很有意义。虽然有很累的日子，但是我不后悔这个选择。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요, 에바입니다. 제가 이 도시에 온 지 벌써 1년이 되었습니다. 처음에는 낯설었지만 이제는 익숙해졌습니다. 직장 동료들은 모두 친절하고 업무도 보람이 있습니다. 비록 피곤한 날도 있지만 저는 이 선택을 후회하지 않습니다.",
+     "en": "Hello, this is Eva. It's already been a year since I came to this city. At first it felt strange, but now I've got used to it. My colleagues are all friendly and the work is rewarding. Although there are tiring days, I don't regret this choice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人来这座城市多久了？",
+      "options": [
+       "一年",
+       "一个月",
+       "十年"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这是B1口语考试。上个周末你做了什么？"
+      },
+      {
+       "s": "B",
+       "t": "我和朋友去爬山了。"
+      },
+      {
+       "s": "A",
+       "t": "下个月你有什么计划？"
+      },
+      {
+       "s": "B",
+       "t": "我要开始一个新项目。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "면접관: B1 말하기 시험입니다. 지난 주말에 뭘 했어요?\n지원자: 친구들과 등산을 갔어요.\n면접관: 다음 달 계획은요?\n지원자: 새 프로젝트를 시작할 거예요.",
+     "en": "Examiner: This is the B1 speaking test. What did you do last weekend?\nCandidate: I went hiking with friends.\nExaminer: And what are your plans for next month?\nCandidate: I'm going to start a new project."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "上个周末：和朋友去______",
+      "answers": [
+       "爬山"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "下个月：开始一个新______",
+      "answers": [
+       "项目"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 到现在为止，我去___三个国家。\n2) 如果当时早点出发，我___不会迟到了。\n3) ___我很累，但是我还在继续学习。",
+    "trans": {
+     "ko": "1) 지금까지 나는 세 나라를 여행했어요. 2) 더 일찍 출발했더라면 늦지 않았을 거예요. 3) 비록 피곤했지만 나는 끝까지 공부했어요.",
+     "en": "1) So far I've travelled to three countries. 2) If I had left earlier, I wouldn't have been late. 3) Although I was tired, I kept studying."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "到现在为止，我去___三个国家。",
+      "options": [
+       "过",
+       "着",
+       "吗"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "如果当时早点出发，我___不会迟到了。",
+      "options": [
+       "就",
+       "也",
+       "才"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___我很累，但是我还在继续学习。",
+      "options": [
+       "虽然",
+       "因为",
+       "如果"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "大家好，我是李娜。我来到这座城市已经一年了。起初觉得陌生，现在已经(1)了。同事们都很友好，工作也很有意义。虽然有很累的日子，但是我(2)后悔这个选择。",
+    "trans": {
+     "ko": "안녕하세요, 에바입니다. 제가 이 도시에 온 지 벌써 1년이 되었습니다. 처음에는 낯설었지만 이제는 익숙해졌습니다. 직장 동료들은 모두 친절하고 업무도 보람이 있습니다. 비록 피곤한 날도 있지만 저는 이 선택을 후회하지 않습니다.",
+     "en": "Hello, this is Eva. It's already been a year since I came to this city. At first it felt strange, but now I've got used to it. My colleagues are all friendly and the work is rewarding. Although there are tiring days, I don't regret this choice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "习惯",
+       "离开",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "不",
+       "很",
+       "已经"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "来信\n志秀：你好吗？上个月我搬进了新公寓，比以前的大得多。我的邻居是老师，他说这一带非常安全。如果你有时间，欢迎来玩。期待你的回信！",
+    "trans": {
+     "ko": "편지\nDear Ji-su, How are you? Last month I moved to a new flat, which is much bigger than my old one. My neighbour, who is a teacher, said that the area is very safe. If you have time, come and visit me. Write soon!",
+     "en": "LETTER\nDear Ji-su, How are you? Last month I moved to a new flat, which is much bigger than my old one. My neighbour, who is a teacher, said that the area is very safe. If you have time, come and visit me. Write soon!"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "作者上个月做了什么？",
+      "options": [
+       "搬了家",
+       "换了工作",
+       "毕业了"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "邻居说这一带怎么样？",
+      "options": [
+       "非常安全",
+       "非常吵",
+       "很贵"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "马克在同一家公司工作了五年。他听说自己快要升职了。可是他说他担心要负更多的责任。",
+    "trans": {
+     "ko": "마크는 지난 5년 동안 같은 회사에서 일했어요. 그는 곧 승진할 예정이라고 들었어요. 하지만 그는 더 많은 책임을 지는 것이 걱정된다고 말했어요.",
+     "en": "Mark has worked at the same company for five years. He has heard that he will be promoted soon. But he said he was worried about taking more responsibility."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "马克在同一家公司工作了五年。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "马克马上就升职了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "马克很高兴责任变多。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "到现在为止你过得怎么样？",
+    "read": "Dào xiànzài wéi zhǐ nǐ guò de zěnmeyàng?",
+    "ko": "지금까지 어떻게 지냈어요?",
+    "en": "How have you been so far?",
+    "situation": {
+     "ko": "근황을 물을 때",
+     "en": "Asking for news"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "到现在为止，我去过三个国家。",
+    "read": "Dào xiànzài wéi zhǐ, wǒ qùguo sān gè guójiā.",
+    "ko": "지금까지 세 나라를 여행했어요.",
+    "en": "So far I've travelled to three countries.",
+    "situation": {
+     "ko": "경험을 말할 때",
+     "en": "Talking about experience"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "如果当时早点出发，就不会迟到了。",
+    "read": "Rúguǒ dāngshí zǎo diǎn chūfā, jiù búhuì chídào le.",
+    "ko": "더 일찍 출발했더라면 좋았을 텐데요.",
+    "en": "If only I had left earlier.",
+    "situation": {
+     "ko": "후회를 말할 때",
+     "en": "Expressing regret"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "他说他下星期搬家。",
+    "read": "Tā shuō tā xià xīngqī bān jiā.",
+    "ko": "그는 다음 주에 이사한다고 했어요.",
+    "en": "He said he was moving next week.",
+    "situation": {
+     "ko": "전달할 때",
+     "en": "Reporting speech"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这座桥建于一九九〇年。",
+    "read": "Zhè zuò qiáo jiàn yú yì jiǔ jiǔ 〇 nián.",
+    "ko": "이 다리는 1990년에 지어졌어요.",
+    "en": "This bridge was built in 1990.",
+    "situation": {
+     "ko": "사실을 말할 때",
+     "en": "Stating facts"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "虽然累，但是我坚持学习。",
+    "read": "Suīrán lèi, dànshì wǒ jiān chí xuéxí.",
+    "ko": "비록 피곤했지만 끝까지 했어요.",
+    "en": "Although I was tired, I kept going.",
+    "situation": {
+     "ko": "양보를 말할 때",
+     "en": "Making a concession"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "总之，两种方法各有优点。",
+    "read": "Zǒngzhī, liǎng zhǒng fāng fǎ gè yǒu yōu diǎn.",
+    "ko": "요약하면 두 방법 모두 장점이 있어요.",
+    "en": "To sum up, both methods have advantages.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "期待您的回信。",
+    "read": "Qīdài nín de huí xìn.",
+    "ko": "곧 소식을 기다리겠습니다.",
+    "en": "I look forward to hearing from you.",
+    "situation": {
+     "ko": "이메일을 마칠 때",
+     "en": "Ending an email"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "到现在为止，我……过……。",
+    "read": "Dào xiànzài wéi zhǐ, wǒ … guo ….",
+    "ko": "지금까지 ~했어요.",
+    "en": "So far I've ~."
+   },
+   {
+    "id": "w2",
+    "t": "如果当时……，就……了。",
+    "read": "Rúguǒ dāngshí …, jiù … le.",
+    "ko": "~했더라면 ~했을 거예요.",
+    "en": "If I had ~, I would have ~."
+   },
+   {
+    "id": "w3",
+    "t": "他说……。",
+    "read": "Tā shuō ….",
+    "ko": "~라고 말했어요.",
+    "en": "He said (that) ~."
+   },
+   {
+    "id": "w4",
+    "t": "总之，……。",
+    "read": "Zǒngzhī, ….",
+    "ko": "요약하면 ~예요.",
+    "en": "To sum up, ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "B1에서 배운 시제, 조건문, 수동태, 전달화법을 사용해 친구에게 보내는 6문장 안부 편지를 써 보세요.",
+    "en": "Write a 6-sentence letter to a friend using the tenses, conditionals, passive and reported speech you learnt at B1."
+   },
+   "must_include": [
+    {
+     "label": "到现在为止",
+     "match": [
+      "到现在为止"
+     ]
+    },
+    {
+     "label": "如果当时",
+     "match": [
+      "如果当时"
+     ]
+    },
+    {
+     "label": "他说",
+     "match": [
+      "老师说"
+     ]
+    },
+    {
+     "label": "期待回信",
+     "match": [
+      "期待您的回信"
+     ]
+    }
+   ],
+   "model": "你好！上个周末我和朋友去爬山了，很开心。到现在为止，我去过三个国家。如果当时早点出发，我就能在山顶看日出了。老师说下个月要开始一个新项目。期待您的回信。",
+   "model_trans": {
+    "ko": "안녕, 잘 지내? 지난 주말에는 친구들과 등산을 갔고 정말 즐거웠어. 지금까지 나는 세 나라를 여행했어. 더 일찍 출발했더라면 정상에서 일출을 볼 수 있었을 거야. 선생님은 다음 달에 새 프로젝트가 시작된다고 말씀하셨어. 곧 소식을 기다릴게.",
+    "en": "Hi, how are you? Last weekend I went hiking with my friends and it was great fun. So far I've travelled to three countries. If I had left earlier, I would have seen the sunrise from the top. My teacher said that a new project was starting next month. I look forward to hearing from you soon."
+   }
+  }
+ }
+}

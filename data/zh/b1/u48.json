@@ -1,0 +1,829 @@
+{
+ "meta": {
+  "id": "zh_b1_u48",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 48,
+  "concept": "B1.U48",
+  "status": "live",
+  "title": {
+   "target": "提出建议和说服：……吧・……怎么样・我们一起……",
+   "ko": "제안하고 설득하기",
+   "en": "Making suggestions and persuading"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "建议",
+   "pos": "noun",
+   "read": "jiànyì",
+   "ko": "제안",
+   "en": "suggestion",
+   "ex": {
+    "t": "这是个好建议。",
+    "read": "Zhè shì gè hǎo jiànyì.",
+    "ko": "좋은 제안이에요.",
+    "en": "That's a good suggestion."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "说服",
+   "pos": "verb",
+   "read": "shuō fú",
+   "ko": "설득하다",
+   "en": "persuade",
+   "ex": {
+    "t": "她说服我去旅行。",
+    "read": "Tā shuō fú wǒ qù lǚxíng.",
+    "ko": "그녀는 나를 설득해 여행에 함께 가게 했어요.",
+    "en": "She persuaded me to go on the trip."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "……怎么样",
+   "pos": "phrase",
+   "read": "… Zěnmeyàng",
+   "ko": "~하는 게 어때요",
+   "en": "how about",
+   "ex": {
+    "t": "周末去爬山怎么样？",
+    "read": "Zhōumò qù páshān zěnmeyàng?",
+    "ko": "주말에 등산하는 게 어때요?",
+    "en": "How about going hiking at the weekend?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "……好吗",
+   "pos": "phrase",
+   "read": "… Hǎo ma",
+   "ko": "~하지 않을래요",
+   "en": "why don't we",
+   "ex": {
+    "t": "我们一起吃晚饭好吗？",
+    "read": "Wǒmen yìqǐ chī wǎnfàn hǎo ma?",
+    "ko": "함께 저녁을 먹지 않을래요?",
+    "en": "Why don't we have dinner together?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "……吧",
+   "pos": "phrase",
+   "read": "… Ba",
+   "ko": "~하자",
+   "en": "let's",
+   "ex": {
+    "t": "我们去看电影吧。",
+    "read": "Wǒmen qù kàn diànyǐng ba.",
+    "ko": "영화를 보러 가자.",
+    "en": "Let's go to the cinema."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "赞成",
+   "pos": "phrase",
+   "read": "zànchéng",
+   "ko": "찬성하다",
+   "en": "be in favour of",
+   "ex": {
+    "t": "我赞成那个计划。",
+    "read": "Wǒ zànchéng nàge jìhuà.",
+    "ko": "나는 그 계획에 찬성해요.",
+    "en": "I'm in favour of that plan."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "反对",
+   "pos": "verb",
+   "read": "fǎnduì",
+   "ko": "반대하다",
+   "en": "object to",
+   "ex": {
+    "t": "有些居民反对修新路。",
+    "read": "Yǒu xiē jū mín fǎnduì xiū xīn lù.",
+    "ko": "일부 주민들은 새 도로에 반대해요.",
+    "en": "Some residents object to the new road."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "确信",
+   "pos": "phrase",
+   "read": "què xìn",
+   "ko": "확신하다",
+   "en": "be sure",
+   "ex": {
+    "t": "我确信这是最好的方法。",
+    "read": "Wǒ què xìn zhè shì zuì hǎo de fāng fǎ.",
+    "ko": "나는 이 방법이 최선이라고 확신해요.",
+    "en": "I'm sure this is the best method."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "好处",
+   "pos": "noun",
+   "read": "hǎo chù",
+   "ko": "장점",
+   "en": "benefit",
+   "ex": {
+    "t": "运动的好处是身体健康。",
+    "read": "Yùndòng de hǎo chù shì shēntǐ jiànkāng.",
+    "ko": "운동의 장점은 건강이에요.",
+    "en": "A benefit of exercise is good health."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "妥协",
+   "pos": "verb",
+   "read": "tuǒ xié",
+   "ko": "타협하다",
+   "en": "compromise",
+   "ex": {
+    "t": "我们各让一步，在中间见面了。",
+    "read": "Wǒmen gè ràng yí bù, zài zhōngjiān jiànmiàn le.",
+    "ko": "우리는 가운데에서 타협했어요.",
+    "en": "We compromised and met in the middle."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "제안과 설득: ……吧・……怎么样・我们一起……・我觉得……",
+   "en": "Suggesting and persuading: ……吧 / ……怎么样 / 我们一起……"
+  },
+  "explain": {
+   "ko": "提建议，用“……吧”“……怎么样”“……好吗”：我们去看电影吧。周末去爬山怎么样？表达看法，用“我觉得……”“我认为……应该……”。表达确信，用“我确信……”。同意用“赞成”，不同意用“反对”，各让一步用“妥协”。",
+   "en": "Suggest with ……吧 / ……怎么样 / ……好吗. Opinion: 我觉得…… / 我认为……应该……. Conviction: 我确信……. Agree: 赞成. Object: 反对. Compromise: 妥协."
+  },
+  "table": {
+   "head": [
+    "구조 / 结构",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "권유 / 建议",
+     "……吧",
+     "我们去看电影吧"
+    ],
+    [
+     "제안 / 提议",
+     "……怎么样",
+     "去爬山怎么样"
+    ],
+    [
+     "의견 / 看法",
+     "我觉得……",
+     "我觉得应该试试"
+    ],
+    [
+     "타협 / 妥协",
+     "各让一步",
+     "各让一步，十点出发"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“吧”使语气更柔和。",
+    "en": "吧 softens the tone."
+   },
+   {
+    "ko": "“怎么样”用来征求对方意见。",
+    "en": "怎么样 asks for the other person's opinion."
+   },
+   {
+    "ko": "不同意的时候，可以先说“不好意思”。",
+    "en": "When disagreeing, begin with 不好意思."
+   }
+  ],
+  "examples": [
+   {
+    "t": "周末去爬山怎么样？",
+    "read": "Zhōumò qù páshān zěnmeyàng?",
+    "ko": "주말에 등산하는 게 어때요?",
+    "en": "How about going hiking at the weekend?"
+   },
+   {
+    "t": "我们一起吃晚饭好吗？",
+    "read": "Wǒmen yìqǐ chī wǎnfàn hǎo ma?",
+    "ko": "함께 저녁을 먹지 않을래요?",
+    "en": "Why don't we have dinner together?"
+   },
+   {
+    "t": "我们去看电影吧。",
+    "read": "Wǒmen qù kàn diànyǐng ba.",
+    "ko": "나는 그 계획에 찬성해요.",
+    "en": "I'm in favour of that plan."
+   },
+   {
+    "t": "我赞成那个计划。",
+    "read": "Wǒ zànchéng nàge jìhuà.",
+    "ko": "나는 이 방법이 최선이라고 확신해요.",
+    "en": "I'm sure this is the best method."
+   },
+   {
+    "t": "我们各让一步，在中间见面了。",
+    "read": "Wǒmen gè ràng yí bù, zài zhōngjiān jiànmiàn le.",
+    "ko": "우리는 가운데에서 타협했어요.",
+    "en": "We compromised and met in the middle."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "周末去爬山___？",
+    "options": [
+     "怎么样",
+     "什么",
+     "哪里"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我们去看电影___。",
+    "options": [
+     "吧",
+     "吗",
+     "了"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我们一起吃晚饭___？",
+    "options": [
+     "好吗",
+     "了吗",
+     "过吗"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我___那个计划。",
+    "options": [
+     "赞成",
+     "喜欢",
+     "忘记"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我们做什么好呢？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어떻게 하면 좋을까요?",
+     "en": "(Question) What shall we do?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我们去看电影吧。",
+       "我昨天去了。",
+       "电影很长。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你觉得那个建议怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 제안을 어떻게 생각해요?",
+     "en": "(Question) What do you think of that suggestion?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我觉得是个好建议。",
+       "我昨天建议了。",
+       "建议是红色的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个周末做什么好呢？"
+      },
+      {
+       "s": "B",
+       "t": "去爬山怎么样？天气不错。"
+      },
+      {
+       "s": "A",
+       "t": "好主意。不过我不太会早起。"
+      },
+      {
+       "s": "B",
+       "t": "那我们各让一步，十点出发吧。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이번 주말에 뭐 할까?\nB: 등산하는 게 어때? 날씨도 좋잖아.\nA: 좋은 생각이야. 하지만 나는 일찍 일어나기 힘들어.\nB: 그럼 10시에 출발하는 걸로 타협하자.",
+     "en": "A: What shall we do this weekend?\nB: How about going hiking? The weather is good.\nA: Good idea. But it's hard for me to get up early.\nB: Then let's compromise and leave at ten."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "两个人决定几点出发？",
+      "options": [
+       "十点",
+       "六点",
+       "八点"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我想向公司提一个新建议：每个月让员工在家办公一次，怎么样？我确信这会减少通勤时间，提高效率。就算有些员工反对，我也认为应该试三个月。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 회사에 새로운 제안을 하고 싶습니다. 직원들이 한 달에 한 번 재택근무를 하는 것은 어떨까요? 출퇴근 시간이 줄고 업무 효율이 높아질 것이라고 확신합니다. 일부 직원이 반대하더라도 일단 3개월 동안 시도해 보면 좋겠습니다.",
+     "en": "I would like to make a new suggestion to the company. How about letting staff work from home once a month? I'm sure it will reduce commuting time and improve efficiency. Even if some staff object, I think we should try it for three months."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人提了什么建议？",
+      "options": [
+       "每个月在家办公一次",
+       "每天加班",
+       "减少休假"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这里是社团招募处。"
+      },
+      {
+       "s": "B",
+       "t": "我在考虑要不要加入登山社。"
+      },
+      {
+       "s": "A",
+       "t": "加入吧，对身体好，还能交朋友。"
+      },
+      {
+       "s": "B",
+       "t": "好，我试试。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 동아리 모집 센터입니다.\n학생: 등산 동아리에 들어갈까 고민 중이에요.\n직원: 가입해 보세요. 건강에도 좋고 친구도 사귈 수 있어요.\n학생: 좋아요. 한번 해 볼게요.",
+     "en": "Staff: Club recruitment centre.\nStudent: I'm thinking about joining the hiking club.\nStaff: Why don't you join? It's good for your health and you can make friends.\nStudent: OK. I'll give it a try."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "想加入的社团：______社",
+      "answers": [
+       "登山"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "好处：对______好",
+      "answers": [
+       "身体"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 周末去爬山___？\n2) 我们一起吃晚饭___？\n3) 我___那个计划。",
+    "trans": {
+     "ko": "1) 주말에 등산하는 게 어때요? 2) 함께 저녁을 먹지 않을래요? 3) 나는 그 계획에 찬성해요.",
+     "en": "1) How about going hiking at the weekend? 2) Why don't we have dinner together? 3) I'm in favour of that plan."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "周末去爬山___？",
+      "options": [
+       "怎么样",
+       "什么",
+       "哪里"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我们一起吃晚饭___？",
+      "options": [
+       "好吗",
+       "了吗",
+       "过吗"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我___那个计划。",
+      "options": [
+       "赞成",
+       "喜欢",
+       "忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我想向公司提一个新建议：每个月让员工在家办公一次，怎么样？我(1)这会减少通勤时间，提高效率。就算有些员工反对，我也(2)应该试三个月。",
+    "trans": {
+     "ko": "저는 회사에 새로운 제안을 하고 싶습니다. 직원들이 한 달에 한 번 재택근무를 하는 것은 어떨까요? 출퇴근 시간이 줄고 업무 효율이 높아질 것이라고 확신합니다. 일부 직원이 반대하더라도 일단 3개월 동안 시도해 보면 좋겠습니다.",
+     "en": "I would like to make a new suggestion to the company. How about letting staff work from home once a month? I'm sure it will reduce commuting time and improve efficiency. Even if some staff object, I think we should try it for three months."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "确信",
+       "担心",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "认为",
+       "没有",
+       "不"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "公告栏\n公园清扫\n本星期六上午十点，在公园入口集合\n大家一起让公园更干净！我们提供手套和垃圾袋。和邻居一起来参加吧？",
+    "trans": {
+     "ko": "게시판\n동네 공원 청소 모임\n이번 토요일 오전 10시, 공원 입구\n함께하면 공원이 더 깨끗해져요! 장갑과 쓰레기봉투는 준비되어 있어요. 이웃들과 함께 참여해 보지 않으실래요?",
+     "en": "NOTICE BOARD\nPark clean-up\nThis Saturday, 10 a.m., at the park entrance\nTogether we can make the park cleaner! Gloves and bags are provided. Why don't you join in with your neighbours?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "清扫什么时候开始？",
+      "options": [
+       "本星期六上午十点",
+       "星期天下午",
+       "每天"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "手套和垃圾袋怎么办？",
+      "options": [
+       "我们提供",
+       "自己带",
+       "自己买"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汤姆向朋友梅建议去一家新餐厅。梅起初反对，说太贵了，可是汤姆给她看了菜单以后，她改变了主意。最后两个人决定一起去。",
+    "trans": {
+     "ko": "톰은 친구 메이에게 새 식당에 가 보자고 제안했어요. 처음에 메이는 너무 비싸다고 반대했지만 톰이 메뉴를 보여 주자 마음을 바꿨어요. 결국 둘은 함께 가기로 했어요.",
+     "en": "Tom suggested to his friend May that they try a new restaurant. At first May objected that it was too expensive, but when Tom showed her the menu she changed her mind. In the end they decided to go together."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "汤姆提出了去餐厅的建议。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "梅一直反对。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "两个人分别吃饭。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我们做什么好呢？",
+    "read": "Wǒmen zuò shénme hǎo ne?",
+    "ko": "어떻게 하면 좋을까요?",
+    "en": "What shall we do?",
+    "situation": {
+     "ko": "의견을 구할 때",
+     "en": "Asking for ideas"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我们去看电影吧。",
+    "read": "Wǒmen qù kàn diànyǐng ba.",
+    "ko": "영화를 보러 가자.",
+    "en": "Let's go to the cinema.",
+    "situation": {
+     "ko": "가볍게 제안할 때",
+     "en": "Making a casual suggestion"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "周末去爬山怎么样？",
+    "read": "Zhōumò qù páshān zěnmeyàng?",
+    "ko": "주말에 등산하는 게 어때요?",
+    "en": "How about going hiking at the weekend?",
+    "situation": {
+     "ko": "제안할 때",
+     "en": "Suggesting an activity"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我们一起吃晚饭好吗？",
+    "read": "Wǒmen yìqǐ chī wǎnfàn hǎo ma?",
+    "ko": "함께 저녁을 먹지 않을래요?",
+    "en": "Why don't we have dinner together?",
+    "situation": {
+     "ko": "제안할 때",
+     "en": "Inviting someone"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我赞成那个计划。",
+    "read": "Wǒ zànchéng nàge jìhuà.",
+    "ko": "저는 그 계획에 찬성해요.",
+    "en": "I'm in favour of that plan.",
+    "situation": {
+     "ko": "동의할 때",
+     "en": "Agreeing"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "不好意思，我不同意。",
+    "read": "Bù hǎoyìsi, wǒ bù tóngyì.",
+    "ko": "저는 그 점에는 동의하지 않아요.",
+    "en": "I'm afraid I don't agree.",
+    "situation": {
+     "ko": "반대할 때",
+     "en": "Disagreeing politely"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我们各让一步，怎么样？",
+    "read": "Wǒmen gè ràng yí bù, zěnmeyàng?",
+    "ko": "가운데에서 타협하면 어떨까요?",
+    "en": "Why don't we compromise?",
+    "situation": {
+     "ko": "타협을 제안할 때",
+     "en": "Suggesting a compromise"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我确信这是最好的方法。",
+    "read": "Wǒ què xìn zhè shì zuì hǎo de fāng fǎ.",
+    "ko": "이 방법이 최선이라고 확신해요.",
+    "en": "I'm sure this is the best method.",
+    "situation": {
+     "ko": "설득할 때",
+     "en": "Persuading"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我们……吧。",
+    "read": "Wǒmen … ba.",
+    "ko": "~하자.",
+    "en": "Let's ~."
+   },
+   {
+    "id": "w2",
+    "t": "……怎么样？",
+    "read": "… Zěnmeyàng?",
+    "ko": "~하는 게 어때요?",
+    "en": "How about + -ing?"
+   },
+   {
+    "id": "w3",
+    "t": "……好吗？",
+    "read": "… Hǎo ma?",
+    "ko": "~하지 않을래요?",
+    "en": "Why don't we ~?"
+   },
+   {
+    "id": "w4",
+    "t": "我认为应该……。",
+    "read": "Wǒ rènwéi yīnggāi ….",
+    "ko": "~하는 게 좋겠어요.",
+    "en": "I think we should ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "친구에게 주말 계획을 제안하고 설득하는 말을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences suggesting weekend plans to a friend and persuading them."
+   },
+   "must_include": [
+    {
+     "label": "……怎么样",
+     "match": [
+      "怎么样"
+     ]
+    },
+    {
+     "label": "……吧",
+     "match": [
+      "吧"
+     ]
+    },
+    {
+     "label": "我认为应该",
+     "match": [
+      "我觉得应该"
+     ]
+    },
+    {
+     "label": "确信",
+     "match": [
+      "确信"
+     ]
+    }
+   ],
+   "model": "周末去爬山怎么样？天气不错，对身体也好。我们早点出发吧。我觉得应该去。如果一起去，我确信我们会玩得很开心。",
+   "model_trans": {
+    "ko": "주말에 등산하는 게 어때요? 날씨도 좋고 건강에도 좋아요. 일찍 출발하지 않을래요? 저는 그러는 게 좋다고 생각해요. 함께 가면 분명히 즐거울 거예요.",
+    "en": "How about going hiking at the weekend? The weather is good and it's good for your health. Why don't we leave early? I think we should. I'm sure we'll enjoy it if we go together."
+   }
+  }
+ }
+}
