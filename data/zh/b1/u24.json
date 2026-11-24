@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "zh_b1_u24",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 24,
+  "concept": "B1.U24",
+  "status": "live",
+  "title": {
+   "target": "对过去的后悔和推测：本来应该・一定・不可能",
+   "ko": "과거에 대한 추측과 후회: should have · could have",
+   "en": "Past modals: should have, could have, must have"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "本来应该",
+   "pos": "phrase",
+   "read": "běn lái yīnggāi",
+   "ko": "~했어야 했다",
+   "en": "should have",
+   "ex": {
+    "t": "我本来应该早点出发的。",
+    "read": "Wǒ běn lái yīnggāi zǎo diǎn chūfā de.",
+    "ko": "나는 더 일찍 출발했어야 했어요.",
+    "en": "I should have left earlier."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "本来可以",
+   "pos": "phrase",
+   "read": "běn lái kěyǐ",
+   "ko": "~할 수도 있었다",
+   "en": "could have",
+   "ex": {
+    "t": "你本来可以给我打电话的。",
+    "read": "Nǐ běn lái kěyǐ gěi wǒ dǎ diànhuà de.",
+    "ko": "너는 나에게 전화할 수도 있었어.",
+    "en": "You could have called me."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "可能……了",
+   "pos": "phrase",
+   "read": "kěnéng … le",
+   "ko": "~했을지도 모른다",
+   "en": "might have",
+   "ex": {
+    "t": "他可能迷路了。",
+    "read": "Tā kěnéng mí lù le.",
+    "ko": "그는 길을 잃었을지도 몰라요.",
+    "en": "He might have got lost."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "一定……了",
+   "pos": "phrase",
+   "read": "yí dìng … le",
+   "ko": "~했음이 틀림없다",
+   "en": "must have",
+   "ex": {
+    "t": "她一定很累了。",
+    "read": "Tā yí dìng hěn lèi le.",
+    "ko": "그녀는 아주 피곤했음이 틀림없어요.",
+    "en": "She must have been very tired."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "不可能",
+   "pos": "phrase",
+   "read": "bù kěnéng",
+   "ko": "~했을 리 없다",
+   "en": "can't have",
+   "ex": {
+    "t": "他不可能说谎。",
+    "read": "Tā bù kěnéng shuō huǎng.",
+    "ko": "그가 거짓말을 했을 리 없어요.",
+    "en": "He can't have lied."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "忘记",
+   "pos": "verb",
+   "read": "wàng jì",
+   "ko": "잊다",
+   "en": "forget",
+   "ex": {
+    "t": "他可能忘了带钥匙。",
+    "read": "Tā kěnéng wàng le dài yàoshi.",
+    "ko": "그는 열쇠를 잊고 나왔을지도 몰라요.",
+    "en": "He might have forgotten his keys."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "道歉",
+   "pos": "verb",
+   "read": "dào qiàn",
+   "ko": "사과하다",
+   "en": "apologise",
+   "ex": {
+    "t": "他本来应该道歉的。",
+    "read": "Tā běn lái yīnggāi dào qiàn de.",
+    "ko": "그는 사과했어야 했어요.",
+    "en": "He should have apologised."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "肯定",
+   "pos": "adj",
+   "read": "kěndìng",
+   "ko": "확신하는",
+   "en": "certain",
+   "ex": {
+    "t": "我肯定他在家。",
+    "read": "Wǒ kěndìng tā zài jiā.",
+    "ko": "나는 그가 집에 있었다고 확신해요.",
+    "en": "I'm certain he was at home."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "原因",
+   "pos": "noun",
+   "read": "yuányīn",
+   "ko": "이유",
+   "en": "reason",
+   "ex": {
+    "t": "她没来，一定有原因。",
+    "read": "Tā méi lái, yí dìng yǒu yuányīn.",
+    "ko": "그녀가 오지 않은 이유가 있었을 거예요.",
+    "en": "There must have been a reason she didn't come."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "错过的机会",
+   "pos": "noun",
+   "read": "cuò guo de jī huì",
+   "ko": "놓친 기회",
+   "en": "missed chance",
+   "ex": {
+    "t": "那是一次错过的机会。",
+    "read": "Nà shì yí cì cuò guo de jī huì.",
+    "ko": "그 일은 놓친 기회였어요.",
+    "en": "That was a missed chance."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "과거의 후회와 추측: 本来应该・本来可以・可能……了・一定……了・不可能",
+   "en": "Regret and guesses about the past: 本来应该 / 一定……了 / 不可能"
+  },
+  "explain": {
+   "ko": "对没做的事感到后悔，用“本来应该……”：我本来应该早点出发的。过去本来可以做的事，用“本来可以……”：你本来可以给我打电话的。对过去的推测：“可能……了”表示不太肯定，“一定……了”表示很肯定，“不可能……”表示没有可能：他不可能说谎。",
+   "en": "Regret: 本来应该……. Missed possibility: 本来可以……. Guesses about the past: 可能……了 (maybe), 一定……了 (surely), 不可能…… (impossible)."
+  },
+  "table": {
+   "head": [
+    "구조 / 结构",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "후회 / 后悔",
+     "本来应该……",
+     "本来应该早点出发"
+    ],
+    [
+     "가능 / 可能",
+     "本来可以……",
+     "本来可以给我打电话"
+    ],
+    [
+     "추측 / 推测",
+     "可能……了",
+     "他可能迷路了"
+    ],
+    [
+     "확신 / 肯定",
+     "一定……了",
+     "她一定很累了"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“本来……”说明实际上没有这样做。",
+    "en": "本来…… implies it was not actually done."
+   },
+   {
+    "ko": "“不可能”表示强烈的否定推测。",
+    "en": "不可能 is a strong negative guess."
+   },
+   {
+    "ko": "“可能”用于不太肯定的时候。",
+    "en": "可能 is for uncertainty."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我本来应该早点出发的。",
+    "read": "Wǒ běn lái yīnggāi zǎo diǎn chūfā de.",
+    "ko": "나는 더 일찍 출발했어야 했어요.",
+    "en": "I should have left earlier."
+   },
+   {
+    "t": "你本来可以给我打电话的。",
+    "read": "Nǐ běn lái kěyǐ gěi wǒ dǎ diànhuà de.",
+    "ko": "너는 나에게 전화할 수도 있었어.",
+    "en": "You could have called me."
+   },
+   {
+    "t": "他可能迷路了。",
+    "read": "Tā kěnéng mí lù le.",
+    "ko": "그는 길을 잃었을지도 몰라요.",
+    "en": "He might have got lost."
+   },
+   {
+    "t": "她一定很累了。",
+    "read": "Tā yí dìng hěn lèi le.",
+    "ko": "그녀는 아주 피곤했음이 틀림없어요.",
+    "en": "She must have been very tired."
+   },
+   {
+    "t": "他不可能说谎。",
+    "read": "Tā bù kěnéng shuō huǎng.",
+    "ko": "그가 거짓말을 했을 리 없어요.",
+    "en": "He can't have lied."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我___应该早点出发的。",
+    "options": [
+     "本来",
+     "刚才",
+     "已经"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "他___迷路了。",
+    "options": [
+     "可能",
+     "必须",
+     "应该"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "她___很累了。",
+    "options": [
+     "一定",
+     "刚才",
+     "已经"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "他___说谎。",
+    "options": [
+     "不可能",
+     "不一定",
+     "不应该"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨天的会你为什么没来？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 어제 회의에 오지 않았어요?",
+     "en": "(Question) Why didn't you come to the meeting yesterday?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我本来应该早点出发的。",
+       "我昨天去了。",
+       "会议很长。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "他为什么还没到？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 왜 아직 안 왔을까요?",
+     "en": "(Question) Why hasn't he arrived yet?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "他可能迷路了。",
+       "路很宽。",
+       "他昨天来了。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "民浩还没到，怎么回事？"
+      },
+      {
+       "s": "B",
+       "t": "他可能迷路了，这是他第一次来。"
+      },
+      {
+       "s": "A",
+       "t": "我本来可以给他打电话，可是我没有他的号码。"
+      },
+      {
+       "s": "B",
+       "t": "我们本来应该问他要的。再等等吧。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 민호가 아직 안 왔네. 무슨 일일까?\nB: 길을 잃었을지도 몰라. 이 근처는 처음이거든.\nA: 전화해 볼 수도 있었는데 번호가 없어.\nB: 번호를 받아 놓았어야 했는데. 기다려 보자.",
+     "en": "A: Min-ho hasn't arrived yet. What's happened?\nB: He might have got lost. It's his first time here.\nA: I could have phoned him but I don't have his number.\nB: We should have asked for it. Let's wait."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "为什么不能给民浩打电话？",
+      "options": [
+       "没有他的号码",
+       "手机坏了",
+       "太忙了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨天我考试迟到了。我本来应该定个闹钟，可是忘了。我本来也可以早点起床，可是我看电影看到很晚。下次我不会再犯同样的错误。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어제 저는 중요한 시험에 늦었어요. 알람을 맞췄어야 했는데 잊어버렸어요. 또 일찍 일어날 수도 있었지만 밤늦게까지 영화를 봤어요. 다음에는 같은 실수를 하지 않을 거예요.",
+     "en": "Yesterday I was late for an important exam. I should have set an alarm, but I forgot. I could also have got up earlier, but I watched a film late into the night. I won't make the same mistake next time."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人为什么考试迟到？",
+      "options": [
+       "没定闹钟",
+       "火车停了",
+       "生病了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这里是失物招领处。"
+      },
+      {
+       "s": "B",
+       "t": "昨天我把包忘在火车上了。"
+      },
+      {
+       "s": "A",
+       "t": "您在几号车厢？"
+      },
+      {
+       "s": "B",
+       "t": "五号车厢。我一定是把它放在座位上面的架子上了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 분실물 센터입니다.\n손님: 어제 기차에서 가방을 잃어버렸어요.\n직원: 어느 칸에 앉으셨어요?\n손님: 5번 칸이요. 좌석 위 선반에 두었을 거예요.",
+     "en": "Agent: Lost property.\nGuest: I lost my bag on the train yesterday.\nAgent: Which carriage were you in?\nGuest: Carriage five. I must have left it on the shelf above the seat."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "包落在：______号车厢",
+      "answers": [
+       "五"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "放包的地方：座位上面的______",
+      "answers": [
+       "架子"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我___应该早点出发的。\n2) 他___迷路了。\n3) 她___很累了。",
+    "trans": {
+     "ko": "1) 나는 더 일찍 출발했어야 했어요. 2) 그는 길을 잃었을지도 몰라요. 3) 그녀는 아주 피곤했음이 틀림없어요.",
+     "en": "1) I should have left earlier. 2) He might have got lost. 3) She must have been very tired."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我___应该早点出发的。",
+      "options": [
+       "本来",
+       "刚才",
+       "已经"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他___迷路了。",
+      "options": [
+       "可能",
+       "必须",
+       "应该"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "她___很累了。",
+      "options": [
+       "一定",
+       "刚才",
+       "已经"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "昨天我考试迟到了。我本来应该(1)闹钟，可是忘了。我本来也(2)早点起床，可是看电影看到很晚。老师很理解，但是我(3)很不好意思。",
+    "trans": {
+     "ko": "어제 저는 중요한 시험에 늦었어요. 알람을 맞췄어야 했는데 잊어버렸어요. 또 일찍 일어날 수도 있었지만 밤늦게까지 영화를 봤어요. 선생님은 이해해 주셨지만 저는 부끄러웠어요.",
+     "en": "Yesterday I was late for an important exam. I should have set an alarm, but I forgot. I could also have got up earlier, but I watched a film late into the night. The teacher was understanding, but I felt embarrassed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "定",
+       "买",
+       "卖"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "可以",
+       "不可以",
+       "不会"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "觉得",
+       "不觉得",
+       "没有"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "留言\n苏珊：我昨晚给你打了电话，你没接。你一定早睡了。或者你的手机可能没电了。明天早上我再给你打。",
+    "trans": {
+     "ko": "메모\n수잔에게. 어젯밤에 전화했는데 받지 않았어. 일찍 잤음이 틀림없어. 아니면 휴대폰이 꺼져 있었을지도 몰라. 내일 아침에 다시 전화할게.",
+     "en": "NOTE\nTo Susan: I called last night but you didn't answer. You must have gone to bed early. Or your phone might have been switched off. I'll call again tomorrow morning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "作者觉得苏珊为什么没接电话？",
+      "options": [
+       "一定早睡了",
+       "在开会",
+       "在旅行"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "作者什么时候再打电话？",
+      "options": [
+       "明天早上",
+       "今晚",
+       "下周"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "戴夫昨天丢了钱包。他想，可能落在公共汽车上了。第二天，公共汽车公司打来电话说找到了。",
+    "trans": {
+     "ko": "데이브는 어제 지갑을 잃어버렸어요. 그는 버스에 두고 내렸을지도 모른다고 생각했어요. 다음 날 버스 회사에서 전화가 와서 지갑을 찾았다고 했어요.",
+     "en": "Dave lost his wallet yesterday. He thought he might have left it on the bus. The next day the bus company phoned to say they had found it."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "戴夫丢了钱包。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "钱包没找到。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "戴夫把钱包忘在家里了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你为什么没来？",
+    "read": "Nǐ wèishénme méi lái?",
+    "ko": "왜 오지 않았어요?",
+    "en": "Why didn't you come?",
+    "situation": {
+     "ko": "이유를 물을 때",
+     "en": "Asking for a reason"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我本来应该早点出发的。",
+    "read": "Wǒ běn lái yīnggāi zǎo diǎn chūfā de.",
+    "ko": "더 일찍 출발했어야 했어요.",
+    "en": "I should have left earlier.",
+    "situation": {
+     "ko": "후회를 말할 때",
+     "en": "Expressing regret"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "你本来可以给我打电话的。",
+    "read": "Nǐ běn lái kěyǐ gěi wǒ dǎ diànhuà de.",
+    "ko": "나한테 전화할 수도 있었잖아요.",
+    "en": "You could have called me.",
+    "situation": {
+     "ko": "가볍게 비난할 때",
+     "en": "Mild criticism"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "他可能迷路了。",
+    "read": "Tā kěnéng mí lù le.",
+    "ko": "그가 길을 잃었을지도 몰라요.",
+    "en": "He might have got lost.",
+    "situation": {
+     "ko": "가능성을 추측할 때",
+     "en": "Guessing a possibility"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "她一定很累了。",
+    "read": "Tā yí dìng hěn lèi le.",
+    "ko": "그녀는 피곤했음이 틀림없어요.",
+    "en": "She must have been tired.",
+    "situation": {
+     "ko": "확신하며 추측할 때",
+     "en": "Making a strong guess"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "他不可能说谎。",
+    "read": "Tā bù kěnéng shuō huǎng.",
+    "ko": "그가 거짓말을 했을 리 없어요.",
+    "en": "He can't have lied.",
+    "situation": {
+     "ko": "불가능하다고 추측할 때",
+     "en": "Saying something is unlikely"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我真不该那么说。",
+    "read": "Wǒ zhēn bù gāi nà me shuō.",
+    "ko": "그러지 말았어야 했어요.",
+    "en": "I shouldn't have said that.",
+    "situation": {
+     "ko": "자신의 행동을 후회할 때",
+     "en": "Regretting what you did"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "对不起，是我的错。",
+    "read": "Duìbuqǐ, shì wǒ de cuò.",
+    "ko": "미안해요. 제 잘못이에요.",
+    "en": "I'm sorry. It was my fault.",
+    "situation": {
+     "ko": "사과할 때",
+     "en": "Apologising"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "本来应该……。",
+    "read": "Běn lái yīnggāi ….",
+    "ko": "~했어야 했어요.",
+    "en": "I should have + p.p."
+   },
+   {
+    "id": "w2",
+    "t": "本来可以……。",
+    "read": "Běn lái kěyǐ ….",
+    "ko": "~할 수도 있었어요.",
+    "en": "You could have + p.p."
+   },
+   {
+    "id": "w3",
+    "t": "一定……了。",
+    "read": "Yí dìng … le.",
+    "ko": "~했음이 틀림없어요.",
+    "en": "She must have + p.p."
+   },
+   {
+    "id": "w4",
+    "t": "不可能……。",
+    "read": "Bù kěnéng ….",
+    "ko": "~했을 리 없어요.",
+    "en": "He can't have + p.p."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "최근에 한 후회되는 일을 should have와 could have를 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about something you regret, using should have and could have."
+   },
+   "must_include": [
+    {
+     "label": "本来应该",
+     "match": [
+      "本来应该"
+     ]
+    },
+    {
+     "label": "本来可以",
+     "match": [
+      "本来可以"
+     ]
+    },
+    {
+     "label": "一定",
+     "match": [
+      "一定"
+     ]
+    },
+    {
+     "label": "可能",
+     "match": [
+      "可能"
+     ]
+    }
+   ],
+   "model": "昨天我没写作业。我本来应该早点开始的。我本来可以请朋友帮忙。我不该看那么久电视。老师一定很失望，我可能会不及格。",
+   "model_trans": {
+    "ko": "나는 어제 숙제를 하지 않았어요. 일찍 시작했어야 했어요. 친구에게 도움을 요청할 수도 있었어요. 그러지 말았어야 했는데 TV를 너무 오래 봤어요. 선생님은 실망하셨음이 틀림없고 나는 낙제했을지도 몰라요.",
+    "en": "I didn't do my homework yesterday. I should have started earlier. I could have asked a friend for help. I shouldn't have watched TV for so long. My teacher must have been disappointed, and I might have failed."
+   }
+  }
+ }
+}
