@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "zh_b1_u33",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 33,
+  "concept": "B1.U33",
+  "status": "live",
+  "title": {
+   "target": "求职面试和简历：……了……年・应聘・我的优点是……",
+   "ko": "취업 면접과 이력서",
+   "en": "Job interviews and CVs"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "简历",
+   "pos": "noun",
+   "read": "jiǎn lì",
+   "ko": "이력서",
+   "en": "CV",
+   "ex": {
+    "t": "请把您的简历发到我的邮箱。",
+    "read": "Qǐng bǎ nín de jiǎn lì fā dào wǒ de yóuxiāng.",
+    "ko": "이력서를 이메일로 보내 주세요.",
+    "en": "Please email me your CV."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "经验",
+   "pos": "noun",
+   "read": "jīng yàn",
+   "ko": "경험",
+   "en": "experience",
+   "ex": {
+    "t": "我有三年销售经验。",
+    "read": "Wǒ yǒu sān nián xiāo shòu jīng yàn.",
+    "ko": "저는 판매 분야에서 3년의 경험이 있어요.",
+    "en": "I have three years of experience in sales."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "学历",
+   "pos": "noun",
+   "read": "xué lì",
+   "ko": "자격",
+   "en": "qualification",
+   "ex": {
+    "t": "我有商科学位。",
+    "read": "Wǒ yǒu shāng kēxué wèi.",
+    "ko": "저는 경영학 학위가 있어요.",
+    "en": "I have a degree in business."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "应聘",
+   "pos": "verb",
+   "read": "yìng pìn",
+   "ko": "지원하다",
+   "en": "apply",
+   "ex": {
+    "t": "我应聘了市场部的职位。",
+    "read": "Wǒ yìng pìn le shìchǎng bù de zhí wèi.",
+    "ko": "저는 마케팅 직책에 지원했어요.",
+    "en": "I applied for the marketing position."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "优点",
+   "pos": "noun",
+   "read": "yōu diǎn",
+   "ko": "강점",
+   "en": "strength",
+   "ex": {
+    "t": "我的优点是团队合作。",
+    "read": "Wǒ de yōu diǎn shì tuán duì hé zuò.",
+    "ko": "제 강점은 팀워크예요.",
+    "en": "My strength is teamwork."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "缺点",
+   "pos": "noun",
+   "read": "quē diǎn",
+   "ko": "약점",
+   "en": "weakness",
+   "ex": {
+    "t": "我的缺点是有时太追求完美。",
+    "read": "Wǒ de quē diǎn shì yǒushí tài zhuī qiú wán měi.",
+    "ko": "제 약점은 가끔 너무 완벽을 추구한다는 거예요.",
+    "en": "My weakness is that I sometimes aim for perfection."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "负责",
+   "pos": "noun",
+   "read": "fù zé",
+   "ko": "책임",
+   "en": "responsibility",
+   "ex": {
+    "t": "我负责培训新员工。",
+    "read": "Wǒ fù zé péi xùn xīn yuán gōng.",
+    "ko": "저는 신입 사원을 교육할 책임이 있었어요.",
+    "en": "I was responsible for training new staff."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "技能",
+   "pos": "noun",
+   "read": "jì néng",
+   "ko": "기술",
+   "en": "skill",
+   "ex": {
+    "t": "我的电脑技能很好。",
+    "read": "Wǒ de diànnǎo jì néng hěn hǎo.",
+    "ko": "저는 컴퓨터 기술이 뛰어나요.",
+    "en": "I have excellent computer skills."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "工资",
+   "pos": "noun",
+   "read": "gōng zī",
+   "ko": "급여",
+   "en": "salary",
+   "ex": {
+    "t": "工资根据经验决定。",
+    "read": "Gōng zī gēn jù jīng yàn juédìng.",
+    "ko": "급여는 경력에 따라 달라요.",
+    "en": "The salary depends on experience."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "团队合作",
+   "pos": "noun",
+   "read": "tuán duì hé zuò",
+   "ko": "팀워크",
+   "en": "teamwork",
+   "ex": {
+    "t": "这个工作很需要团队合作。",
+    "read": "Zhège gōngzuò hěn xūyào tuán duì hé zuò.",
+    "ko": "이 일은 팀워크가 중요해요.",
+    "en": "Teamwork is important in this job."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "취업 면접과 이력서: ……了……年・应聘・我的优点是……・负责……",
+   "en": "Job interviews and CVs: ……了……年 / 应聘 / 我的优点是……"
+  },
+  "explain": {
+   "ko": "介绍经验，用“我做了……年……”：我做了三年销售。说应聘，用“我应聘了……职位”。说优点，用“我的优点是……”。说负责的工作，用“我负责……”：我负责培训新员工。面试时要用礼貌的说法，例如“您好”“请问”。",
+   "en": "Experience: 我做了……年……. Applying: 我应聘了……职位. Strengths: 我的优点是……. Responsibilities: 我负责……. Use polite forms in interviews."
+  },
+  "table": {
+   "head": [
+    "구조 / 结构",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "경력 / 经验",
+     "我做了……年……",
+     "我做了三年销售"
+    ],
+    [
+     "지원 / 应聘",
+     "我应聘了……",
+     "我应聘了市场部职位"
+    ],
+    [
+     "장점 / 优点",
+     "我的优点是……",
+     "我的优点是团队合作"
+    ],
+    [
+     "담당 / 负责",
+     "我负责……",
+     "我负责培训新员工"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“了”表示这段经历已经完成。",
+    "en": "了 shows the experience has been completed."
+   },
+   {
+    "ko": "“负责”后面接具体的工作内容。",
+    "en": "负责 is followed by the specific duty."
+   },
+   {
+    "ko": "“应聘”用于找工作的场合。",
+    "en": "应聘 is used when applying for a job."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我有三年销售经验。",
+    "read": "Wǒ yǒu sān nián xiāo shòu jīng yàn.",
+    "ko": "저는 판매 분야에서 3년의 경험이 있어요.",
+    "en": "I have three years of experience in sales."
+   },
+   {
+    "t": "我应聘了市场部的职位。",
+    "read": "Wǒ yìng pìn le shìchǎng bù de zhí wèi.",
+    "ko": "저는 마케팅 직책에 지원했어요.",
+    "en": "I applied for the marketing position."
+   },
+   {
+    "t": "我的优点是团队合作。",
+    "read": "Wǒ de yōu diǎn shì tuán duì hé zuò.",
+    "ko": "제 강점은 팀워크예요.",
+    "en": "My strength is teamwork."
+   },
+   {
+    "t": "我负责培训新员工。",
+    "read": "Wǒ fù zé péi xùn xīn yuán gōng.",
+    "ko": "저는 신입 사원을 교육할 책임이 있었어요.",
+    "en": "I was responsible for training new staff."
+   },
+   {
+    "t": "工资根据经验决定。",
+    "read": "Gōng zī gēn jù jīng yàn juédìng.",
+    "ko": "급여는 경력에 따라 달라요.",
+    "en": "The salary depends on experience."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我做___三年销售。",
+    "options": [
+     "了",
+     "着",
+     "吗"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我___了市场部的职位。",
+    "options": [
+     "应聘",
+     "喜欢",
+     "买"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我的优点___团队合作。",
+    "options": [
+     "是",
+     "有",
+     "在"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我___培训新员工。",
+    "options": [
+     "负责",
+     "喜欢",
+     "买"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请介绍一下你自己。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 자기소개를 해 주세요.",
+     "en": "(Question) Could you tell me about yourself?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我做了三年销售。",
+       "我昨天面试了。",
+       "我很大。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你为什么应聘这个职位？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 이 직책에 지원하셨어요?",
+     "en": "(Question) Why did you apply for this position?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我想学新东西。",
+       "我昨天应聘了。",
+       "工资很低。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请谈谈你的经验。"
+      },
+      {
+       "s": "B",
+       "t": "我做了三年销售，还负责培训新员工。"
+      },
+      {
+       "s": "A",
+       "t": "你的优点是什么？"
+      },
+      {
+       "s": "B",
+       "t": "我的优点是团队合作，我喜欢和别人一起工作。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 경력에 대해 말씀해 주세요.\nB: 저는 판매 분야에서 3년 일했고 신입 사원을 교육할 책임도 있었어요.\nA: 강점은 무엇인가요?\nB: 제 강점은 팀워크예요. 다른 사람들과 함께 일하는 것을 좋아해요.",
+     "en": "A: Tell me about your experience.\nB: I've worked in sales for three years, and I was also responsible for training new staff.\nA: What are your strengths?\nB: My strength is teamwork. I enjoy working with other people."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B的优点是什么？",
+      "options": [
+       "团队合作",
+       "外语",
+       "运动"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "大家好，我叫李娜。我做了三年销售。现在我想接受新的挑战，所以应聘了市场部的职位。我会说英语和法语，电脑技能也很好。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안녕하세요. 저는 에바 리입니다. 저는 판매 분야에서 3년 일했습니다. 지금은 새로운 도전을 하고 싶어서 마케팅 직책에 지원했습니다. 저는 영어와 프랑스어를 할 수 있고 컴퓨터 기술도 뛰어납니다.",
+     "en": "Hello. My name is Eva Lee. I've worked in sales for three years. Now I'd like a new challenge, so I've applied for the marketing position. I can speak English and French, and I have excellent computer skills."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人应聘了什么职位？",
+      "options": [
+       "市场部",
+       "销售部",
+       "财务部"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "五年以后你想做什么？"
+      },
+      {
+       "s": "B",
+       "t": "我想当团队负责人。"
+      },
+      {
+       "s": "A",
+       "t": "关于工资，你有什么问题吗？"
+      },
+      {
+       "s": "B",
+       "t": "有，年薪是怎么决定的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "면접관: 5년 후에는 어떤 모습일 것 같아요?\n지원자: 팀장이 되어 있고 싶어요.\n면접관: 급여에 대해 질문이 있으신가요?\n지원자: 네, 연봉은 어떻게 결정되나요?",
+     "en": "Interviewer: Where do you see yourself in five years?\nCandidate: I'd like to be a team leader.\nInterviewer: Do you have any questions about the salary?\nCandidate: Yes, how is the annual salary decided?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "想做的：团队______",
+      "answers": [
+       "负责人"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "想问的：______是怎么决定的",
+      "answers": [
+       "年薪"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我有三年销售___。\n2) 我___了市场部的职位。\n3) 我的优点___团队合作。",
+    "trans": {
+     "ko": "1) 저는 판매 분야에서 3년의 경험이 있어요. 2) 저는 마케팅 직책에 지원했어요. 3) 제 강점은 팀워크예요.",
+     "en": "1) I have three years of experience in sales. 2) I applied for the marketing position. 3) My strength is teamwork."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我有三年销售___。",
+      "options": [
+       "经验",
+       "工资",
+       "简历"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我___了市场部的职位。",
+      "options": [
+       "应聘",
+       "喜欢",
+       "买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我的优点___团队合作。",
+      "options": [
+       "是",
+       "有",
+       "在"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "大家好，我叫李娜。我(1)了三年销售。现在我想接受新的挑战，所以(2)了市场部的职位。我会说英语和法语，电脑技能也很(3)。",
+    "trans": {
+     "ko": "안녕하세요. 저는 에바 리입니다. 저는 판매 분야에서 3년 일했습니다. 지금은 새로운 도전을 하고 싶어서 마케팅 직책에 지원했습니다. 저는 영어와 프랑스어를 할 수 있고 컴퓨터 기술도 뛰어납니다.",
+     "en": "Hello. My name is Eva Lee. I've worked in sales for three years. Now I'd like a new challenge, so I've applied for the marketing position. I can speak English and French, and I have excellent computer skills."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "做",
+       "买",
+       "卖"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "应聘",
+       "取消",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "好",
+       "差",
+       "旧"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "招聘广告\n招聘市场助理\n要求：商科学位，两年以上工作经验\n优先：会外语\n申请方式：请把简历发到 hr@company.com，截止日期六月三十日。",
+    "trans": {
+     "ko": "구인 광고\n마케팅 담당자 모집\n자격: 경영 관련 학위, 2년 이상의 경험\n우대: 외국어 능력\n지원: 이력서를 hr@company.com으로 보내 주세요. 마감: 6월 30일",
+     "en": "JOB AD\nMarketing assistant wanted\nRequirements: a degree in business and at least two years of experience\nAdvantage: foreign languages\nApply: send your CV to hr@company.com. Deadline: 30 June"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "应聘需要什么条件？",
+      "options": [
+       "商科学位和两年以上经验",
+       "只要会外语",
+       "不需要经验"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "截止日期是什么时候？",
+      "options": [
+       "六月三十日",
+       "六月十三日",
+       "七月三十日"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汤姆昨天参加了面试。他自信地回答了问题，面试官对他的经验印象很深。结果下星期出来。",
+    "trans": {
+     "ko": "톰은 어제 면접을 봤어요. 그는 질문에 자신 있게 대답했고 면접관은 그의 경험에 감명을 받았어요. 결과는 다음 주에 나올 거예요.",
+     "en": "Tom had an interview yesterday. He answered the questions confidently and the interviewer was impressed by his experience. The result will come next week."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "汤姆参加了面试。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "汤姆没能回答问题。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "结果今天出来。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "请介绍一下你自己。",
+    "read": "Qǐng jièshào yíxià nǐ zìjǐ.",
+    "ko": "자기소개를 해 주세요.",
+    "en": "Could you tell me about yourself?",
+    "situation": {
+     "ko": "면접의 첫 질문",
+     "en": "A typical first question"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我做了三年销售。",
+    "read": "Wǒ zuò le sān nián xiāo shòu.",
+    "ko": "저는 판매 분야에서 3년 일했어요.",
+    "en": "I've worked in sales for three years.",
+    "situation": {
+     "ko": "경력을 말할 때",
+     "en": "Describing experience"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "你为什么应聘这个职位？",
+    "read": "Nǐ wèishénme yìng pìn zhège zhí wèi?",
+    "ko": "왜 이 직책에 지원하셨어요?",
+    "en": "Why did you apply for this position?",
+    "situation": {
+     "ko": "지원 동기를 물을 때",
+     "en": "Asking about motivation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我想学新东西。",
+    "read": "Wǒ xiǎng xué xīn dōngxi.",
+    "ko": "새로운 것을 배우고 싶어서요.",
+    "en": "I'd like to learn something new.",
+    "situation": {
+     "ko": "동기를 말할 때",
+     "en": "Giving a reason"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "你的优点是什么？",
+    "read": "Nǐ de yōu diǎn shì shénme?",
+    "ko": "강점이 무엇인가요?",
+    "en": "What are your strengths?",
+    "situation": {
+     "ko": "강점을 물을 때",
+     "en": "Asking about strengths"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我的优点是团队合作。",
+    "read": "Wǒ de yōu diǎn shì tuán duì hé zuò.",
+    "ko": "제 강점은 팀워크예요.",
+    "en": "My strength is teamwork.",
+    "situation": {
+     "ko": "강점을 말할 때",
+     "en": "Talking about strengths"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "五年以后你想做什么？",
+    "read": "Wǔ nián yǐhòu nǐ xiǎng zuò shénme?",
+    "ko": "5년 후 어떤 모습일 것 같아요?",
+    "en": "Where do you see yourself in five years?",
+    "situation": {
+     "ko": "미래 계획을 물을 때",
+     "en": "Asking about future plans"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "你有什么问题吗？",
+    "read": "Nǐ yǒu shénme wèntí ma?",
+    "ko": "질문이 있으신가요?",
+    "en": "Do you have any questions for us?",
+    "situation": {
+     "ko": "면접을 마칠 때",
+     "en": "Ending the interview"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我做了……年……。",
+    "read": "Wǒ zuò le … nián ….",
+    "ko": "저는 ~에서 ~년 일했어요.",
+    "en": "I've worked in ~ for ~ years."
+   },
+   {
+    "id": "w2",
+    "t": "我应聘了……。",
+    "read": "Wǒ yìng pìn le ….",
+    "ko": "저는 ~에 지원했어요.",
+    "en": "I applied for ~."
+   },
+   {
+    "id": "w3",
+    "t": "我的优点是……。",
+    "read": "Wǒ de yōu diǎn shì ….",
+    "ko": "제 강점은 ~예요.",
+    "en": "My strength is ~."
+   },
+   {
+    "id": "w4",
+    "t": "我负责……。",
+    "read": "Wǒ fù zé ….",
+    "ko": "저는 ~할 책임이 있었어요.",
+    "en": "I was responsible for -ing."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "지원하고 싶은 직업을 정하고 지원 동기와 경력을 4문장으로 써 보세요.",
+    "en": "Choose a job you would like to apply for and write 4 sentences about your motivation and experience."
+   },
+   "must_include": [
+    {
+     "label": "我做了……年",
+     "match": [
+      "做了三年"
+     ]
+    },
+    {
+     "label": "应聘",
+     "match": [
+      "应聘了"
+     ]
+    },
+    {
+     "label": "优点",
+     "match": [
+      "优点是"
+     ]
+    },
+    {
+     "label": "负责",
+     "match": [
+      "负责"
+     ]
+    }
+   ],
+   "model": "我应聘了市场部的职位。我做了三年销售，还负责培训新员工。我的优点是团队合作。我想学新东西，所以对这个职位很感兴趣。",
+   "model_trans": {
+    "ko": "저는 마케팅 직책에 지원했어요. 저는 판매 분야에서 3년 일했고 신입 사원을 교육할 책임도 있었어요. 제 강점은 팀워크예요. 새로운 것을 배우고 싶어서 이 직책에 관심이 있어요.",
+    "en": "I applied for the marketing position. I've worked in sales for three years and I was also responsible for training new staff. My strength is teamwork. I'm interested in this position because I'd like to learn something new."
+   }
+  }
+ }
+}

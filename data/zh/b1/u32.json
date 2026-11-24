@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "zh_b1_u32",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 32,
+  "concept": "B1.U32",
+  "status": "live",
+  "title": {
+   "target": "健康和生活习惯：每周……次・对……好・太……",
+   "ko": "건강과 생활 습관",
+   "en": "Health and lifestyle"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "锻炼",
+   "pos": "noun",
+   "read": "duànliàn",
+   "ko": "운동",
+   "en": "exercise",
+   "ex": {
+    "t": "我每周锻炼三次。",
+    "read": "Wǒ měi zhōu duànliàn sān cì.",
+    "ko": "나는 일주일에 세 번 운동해요.",
+    "en": "I exercise three times a week."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "健康饮食",
+   "pos": "noun",
+   "read": "jiànkāng yǐn shí",
+   "ko": "건강한 식사",
+   "en": "healthy diet",
+   "ex": {
+    "t": "健康的饮食包括蔬菜和水果。",
+    "read": "Jiànkāng de yǐn shí bāo kuò shūcài hé shuǐguǒ.",
+    "ko": "건강한 식사는 채소와 과일을 포함해요.",
+    "en": "A healthy diet includes vegetables and fruit."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "睡眠",
+   "pos": "noun",
+   "read": "shuì mián",
+   "ko": "수면",
+   "en": "sleep",
+   "ex": {
+    "t": "成年人每天需要七八个小时的睡眠。",
+    "read": "Chéng nián rén měitiān xūyào qī bā gè xiǎoshí de shuì mián.",
+    "ko": "어른은 하루에 7~8시간의 수면이 필요해요.",
+    "en": "Adults need seven to eight hours of sleep a day."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "压力",
+   "pos": "noun",
+   "read": "yālì",
+   "ko": "스트레스",
+   "en": "stress",
+   "ex": {
+    "t": "压力对身体不好。",
+    "read": "Yālì duì shēntǐ bù hǎo.",
+    "ko": "스트레스는 건강에 나쁠 수 있어요.",
+    "en": "Stress can be bad for your health."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "体重",
+   "pos": "noun",
+   "read": "tǐ zhòng",
+   "ko": "체중",
+   "en": "weight",
+   "ex": {
+    "t": "他想减轻体重。",
+    "read": "Tā xiǎng jiǎn qīng tǐ zhòng.",
+    "ko": "그는 체중을 줄이고 싶어 해요.",
+    "en": "He wants to lose weight."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "习惯",
+   "pos": "noun",
+   "read": "xíguàn",
+   "ko": "습관",
+   "en": "habit",
+   "ex": {
+    "t": "早起是一个好习惯。",
+    "read": "Zǎo qǐ shì yí ge hǎo xíguàn.",
+    "ko": "일찍 일어나는 것은 좋은 습관이에요.",
+    "en": "Getting up early is a good habit."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "累坏了",
+   "pos": "adj",
+   "read": "lèi huài le",
+   "ko": "피곤한",
+   "en": "exhausted",
+   "ex": {
+    "t": "工作了一整天，我累坏了。",
+    "read": "Gōngzuò le yìzhěngtiān, wǒ lèi huài le.",
+    "ko": "나는 하루 종일 일해서 완전히 지쳤어요.",
+    "en": "I'm exhausted after working all day."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "避免",
+   "pos": "verb",
+   "read": "bìmiǎn",
+   "ko": "피하다",
+   "en": "avoid",
+   "ex": {
+    "t": "你应该避免吃甜食。",
+    "read": "Nǐ yīnggāi bìmiǎn chī tián shí.",
+    "ko": "단 음식을 피하는 게 좋아요.",
+    "en": "You should avoid sugary food."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "恢复",
+   "pos": "verb",
+   "read": "huī fù",
+   "ko": "회복하다",
+   "en": "recover",
+   "ex": {
+    "t": "他手术后恢复得很快。",
+    "read": "Tā shǒu shù hòu huī fù de hěn kuài.",
+    "ko": "그는 수술 후에 빠르게 회복했어요.",
+    "en": "He recovered quickly after the operation."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "偶尔",
+   "pos": "adv",
+   "read": "ǒu ěr",
+   "ko": "가끔",
+   "en": "occasionally",
+   "ex": {
+    "t": "我偶尔吃快餐。",
+    "read": "Wǒ ǒu ěr chī kuài cān.",
+    "ko": "나는 가끔 패스트푸드를 먹어요.",
+    "en": "I occasionally eat fast food."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "건강과 생활 습관: 每周……次・对身体好/不好・别太……",
+   "en": "Health and habits: 每周……次 / 对身体好 / 别太……"
+  },
+  "explain": {
+   "ko": "说习惯，用“每周……次”“经常”“偶尔”：我每周锻炼三次。说对身体的影响，用“对身体好/不好”：压力对身体不好。给建议，用“应该”“最好”：你应该避免吃甜食。说过度，用“太……了”“别……太……”：别喝太多咖啡。",
+   "en": "Habits: 每周……次 / 经常 / 偶尔. Effects: 对身体好/不好. Advice: 应该 / 最好. Too much: 太……了 / 别……太……."
+  },
+  "table": {
+   "head": [
+    "구조 / 结构",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "습관 / 习惯",
+     "每周……次",
+     "每周锻炼三次"
+    ],
+    [
+     "빈도 / 频率",
+     "经常・偶尔",
+     "偶尔吃快餐"
+    ],
+    [
+     "영향 / 影响",
+     "对身体好/不好",
+     "压力对身体不好"
+    ],
+    [
+     "과도 / 过度",
+     "太……了",
+     "咖啡喝得太多了"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“每周……次”表示一个星期做几次。",
+    "en": "每周……次 states times per week."
+   },
+   {
+    "ko": "“对……好”中的“对”引出对象。",
+    "en": "In 对……好, 对 introduces the target."
+   },
+   {
+    "ko": "“太……了”表示过度。",
+    "en": "太……了 expresses excess."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我每周锻炼三次。",
+    "read": "Wǒ měi zhōu duànliàn sān cì.",
+    "ko": "나는 일주일에 세 번 운동해요.",
+    "en": "I exercise three times a week."
+   },
+   {
+    "t": "成年人每天需要七八个小时的睡眠。",
+    "read": "Chéng nián rén měitiān xūyào qī bā gè xiǎoshí de shuì mián.",
+    "ko": "어른은 하루에 7~8시간의 수면이 필요해요.",
+    "en": "Adults need seven to eight hours of sleep a day."
+   },
+   {
+    "t": "压力对身体不好。",
+    "read": "Yālì duì shēntǐ bù hǎo.",
+    "ko": "스트레스는 건강에 나쁠 수 있어요.",
+    "en": "Stress can be bad for your health."
+   },
+   {
+    "t": "你应该避免吃甜食。",
+    "read": "Nǐ yīnggāi bìmiǎn chī tián shí.",
+    "ko": "단 음식을 피하는 게 좋아요.",
+    "en": "You should avoid sugary food."
+   },
+   {
+    "t": "我偶尔吃快餐。",
+    "read": "Wǒ ǒu ěr chī kuài cān.",
+    "ko": "나는 가끔 패스트푸드를 먹어요.",
+    "en": "I occasionally eat fast food."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我每周锻炼三___。",
+    "options": [
+     "次",
+     "个",
+     "把"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "压力___身体不好。",
+    "options": [
+     "对",
+     "把",
+     "被"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "你应该___吃甜食。",
+    "options": [
+     "避免",
+     "喜欢",
+     "忘记"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我___吃快餐。",
+    "options": [
+     "偶尔",
+     "常常",
+     "每天"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你多久锻炼一次？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 얼마나 자주 운동해요?",
+     "en": "(Question) How often do you exercise?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我每周锻炼三次。",
+       "我昨天锻炼了。",
+       "我很会锻炼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你怎么缓解压力？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 스트레스는 어떻게 풀어요?",
+     "en": "(Question) How do you deal with stress?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "散散步会轻松一些。",
+       "压力是蓝色的。",
+       "我昨天睡觉了。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我最近特别累，怎么办？"
+      },
+      {
+       "s": "B",
+       "t": "你每天睡几个小时？"
+      },
+      {
+       "s": "A",
+       "t": "一般只睡五个小时，偶尔更少。"
+      },
+      {
+       "s": "B",
+       "t": "不够。你应该每天睡七个小时，每周至少锻炼三次。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 요즘 너무 피곤해. 어떻게 하면 좋을까?\nB: 잠을 몇 시간 자?\nA: 보통 5시간밖에 못 자. 가끔은 더 적어.\nB: 그러면 안 돼. 하루에 7시간은 자야 하고 운동도 일주일에 세 번은 하는 게 좋아.",
+     "en": "A: I'm so tired these days. What should I do?\nB: How many hours do you sleep?\nA: I usually get only five hours. Occasionally even less.\nB: That's not enough. You should sleep seven hours a day and exercise at least three times a week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "A一般睡几个小时？",
+      "options": [
+       "五个小时",
+       "七个小时",
+       "九个小时"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "想要健康地生活，习惯很重要。首先要养成每天早起的习惯。每周锻炼三次，每天喝足够的水。感觉有压力的时候，散散步会有帮助。还有，甜食只能偶尔吃一点。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "건강하게 살려면 습관이 중요해요. 우선 매일 일찍 일어나는 습관을 들이세요. 일주일에 세 번은 운동하고 하루에 물을 충분히 마시세요. 스트레스를 받을 때는 산책이 도움이 돼요. 그리고 단 음식은 가끔만 드세요.",
+     "en": "To live healthily, habits matter. First, get into the habit of getting up early every day. Exercise three times a week and drink enough water every day. When you feel stressed, a walk helps. And eat sugary food only occasionally."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "感觉有压力的时候怎么办？",
+      "options": [
+       "散散步",
+       "睡觉",
+       "吃东西"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你哪里不舒服？"
+      },
+      {
+       "s": "B",
+       "t": "我最近很累，睡不着。"
+      },
+      {
+       "s": "A",
+       "t": "你每天睡几个小时？"
+      },
+      {
+       "s": "B",
+       "t": "一般五个小时，我每天喝四杯咖啡。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의사: 어떻게 오셨어요?\n환자: 요즘 계속 피곤하고 잠을 못 자요.\n의사: 하루에 몇 시간 주무세요?\n환자: 보통 다섯 시간요. 커피는 하루 네 잔 마셔요.",
+     "en": "Doctor: What brings you here?\nPatient: I've been tired and unable to sleep lately.\nDoctor: How many hours do you sleep a day?\nPatient: Usually five. I drink four cups of coffee a day."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "睡眠时间：一般______个小时",
+      "answers": [
+       "五"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "咖啡：每天______杯",
+      "answers": [
+       "四"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我每周___三次。\n2) 成年人每天需要七八个小时的___。\n3) 你应该___吃甜食。",
+    "trans": {
+     "ko": "1) 나는 일주일에 세 번 운동해요. 2) 어른은 하루에 7~8시간의 수면이 필요해요. 3) 단 음식을 피하는 게 좋아요.",
+     "en": "1) I exercise three times a week. 2) Adults need seven to eight hours of sleep a day. 3) You should avoid sugary food."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我每周___三次。",
+      "options": [
+       "锻炼",
+       "旅行",
+       "吃饭"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "成年人每天需要七八个小时的___。",
+      "options": [
+       "睡眠",
+       "咖啡",
+       "工作"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "你应该___吃甜食。",
+      "options": [
+       "避免",
+       "喜欢",
+       "忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "想要健康地生活，习惯很重要。首先要养成每天(1)的习惯。每周锻炼三次，每天喝足够的水。感觉有压力的时候，(2)会有帮助。甜食只能(3)吃一点。",
+    "trans": {
+     "ko": "건강하게 살려면 습관이 중요해요. 우선 매일 일찍 일어나는 습관을 들이세요. 일주일에 세 번은 운동하고 하루에 물을 충분히 마시세요. 스트레스를 받을 때는 산책이 도움이 돼요. 그리고 단 음식은 가끔만 드세요.",
+     "en": "To live healthily, habits matter. First, get into the habit of getting up early every day. Exercise three times a week and drink enough water every day. When you feel stressed, a walk helps. And eat sugary food only occasionally."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "早起",
+       "熬夜",
+       "吃饱"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "散步",
+       "睡觉",
+       "吃饭"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "偶尔",
+       "经常",
+       "每天"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "健康专栏\n现在很多上班族一坐就是很长时间。研究表明，每小时站起来走几分钟对健康有好处。你还应该每天喝八杯水，按时吃饭。",
+    "trans": {
+     "ko": "건강 칼럼\n요즘 많은 직장인이 오래 앉아서 일합니다. 연구에 따르면 한 시간에 한 번 일어나 몇 분 걷기만 해도 건강에 도움이 됩니다. 또 하루 8잔의 물을 마시고 규칙적으로 식사해야 합니다.",
+     "en": "HEALTH COLUMN\nMany office workers sit for long hours these days. Research shows that standing up and walking for a few minutes once an hour helps your health. You should also drink eight glasses of water a day and eat regularly."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "每小时应该做什么？",
+      "options": [
+       "站起来走几分钟",
+       "跑步",
+       "午睡"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "每天应该喝几杯水？",
+      "options": [
+       "八杯",
+       "两杯",
+       "十五杯"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "俊想减肥，所以开始锻炼。刚开始很难，现在已经成了习惯。他还尽量吃健康的饮食。",
+    "trans": {
+     "ko": "준은 체중을 줄이고 싶어서 운동을 시작했어요. 처음에는 힘들었지만 이제는 습관이 되었어요. 그는 건강한 식사도 하려고 노력해요.",
+     "en": "Jun wanted to lose weight, so he started exercising. It was hard at first, but now it has become a habit. He also tries to eat a healthy diet."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "俊开始锻炼了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "俊不再锻炼了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "俊的体重增加了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你多久锻炼一次？",
+    "read": "Nǐ duōjiǔ duànliàn yí cì?",
+    "ko": "얼마나 자주 운동해요?",
+    "en": "How often do you exercise?",
+    "situation": {
+     "ko": "빈도를 물을 때",
+     "en": "Asking about frequency"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我每周锻炼三次。",
+    "read": "Wǒ měi zhōu duànliàn sān cì.",
+    "ko": "일주일에 세 번 해요.",
+    "en": "I exercise three times a week.",
+    "situation": {
+     "ko": "빈도를 말할 때",
+     "en": "Saying how often"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "你每天睡几个小时？",
+    "read": "Nǐ měitiān shuì jǐ gè xiǎoshí?",
+    "ko": "잠은 몇 시간 자요?",
+    "en": "How many hours of sleep do you get?",
+    "situation": {
+     "ko": "수면을 물을 때",
+     "en": "Asking about sleep"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我一般睡七个小时。",
+    "read": "Wǒ yìbān shuì qī gè xiǎoshí.",
+    "ko": "보통 7시간 자요.",
+    "en": "I usually sleep seven hours.",
+    "situation": {
+     "ko": "대답할 때",
+     "en": "Answering"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "你怎么缓解压力？",
+    "read": "Nǐ zěnme huǎn jiě yālì?",
+    "ko": "스트레스를 어떻게 풀어요?",
+    "en": "How do you deal with stress?",
+    "situation": {
+     "ko": "방법을 물을 때",
+     "en": "Asking how you cope"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "散散步有帮助。",
+    "read": "Sàn sànbù yǒu bāngzhù.",
+    "ko": "산책을 하면 도움이 돼요.",
+    "en": "Going for a walk helps.",
+    "situation": {
+     "ko": "방법을 말할 때",
+     "en": "Describing a method"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "你应该避免吃甜食。",
+    "read": "Nǐ yīnggāi bìmiǎn chī tián shí.",
+    "ko": "단 음식을 피하는 게 좋아요.",
+    "en": "You should avoid sugary food.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我最近想更健康一点。",
+    "read": "Wǒ zuìjìn xiǎng gèng jiànkāng yìdiǎn.",
+    "ko": "저는 요즘 건강해지려고 노력해요.",
+    "en": "I'm trying to be healthier these days.",
+    "situation": {
+     "ko": "계획을 말할 때",
+     "en": "Talking about an effort"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我每周……次。",
+    "read": "Wǒ měi zhōu … cì.",
+    "ko": "나는 ~에 ~번 ~해요.",
+    "en": "I ~ ... times a week."
+   },
+   {
+    "id": "w2",
+    "t": "我一般/偶尔……。",
+    "read": "Wǒ yìbān / ǒu ěr ….",
+    "ko": "나는 보통 / 가끔 ~해요.",
+    "en": "I usually / occasionally ~."
+   },
+   {
+    "id": "w3",
+    "t": "……对身体好/不好。",
+    "read": "… Duì shēntǐ hǎo / bù hǎo.",
+    "ko": "~는 건강에 좋아요 / 나빠요.",
+    "en": "~ is good / bad for your health."
+   },
+   {
+    "id": "w4",
+    "t": "你应该……。",
+    "read": "Nǐ yīnggāi ….",
+    "ko": "~하는 게 좋아요.",
+    "en": "You should ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "나의 건강 습관과 개선할 점을 빈도 부사와 should를 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about your health habits and what to improve, using frequency adverbs and should."
+   },
+   "must_include": [
+    {
+     "label": "每周……次",
+     "match": [
+      "每周锻炼三次"
+     ]
+    },
+    {
+     "label": "偶尔",
+     "match": [
+      "偶尔"
+     ]
+    },
+    {
+     "label": "对身体不好",
+     "match": [
+      "对身体不好"
+     ]
+    },
+    {
+     "label": "应该",
+     "match": [
+      "应该"
+     ]
+    }
+   ],
+   "model": "我每周锻炼三次，一般睡七个小时。但是我偶尔熬夜，所以觉得累。压力对身体不好，所以我应该多散散步。我也应该避免吃甜食。",
+   "model_trans": {
+    "ko": "나는 일주일에 세 번 운동하고 보통 7시간을 자요. 하지만 가끔 밤늦게까지 깨어 있어서 피곤해요. 스트레스는 건강에 나쁘기 때문에 더 자주 산책을 해야 해요. 또 단 음식을 피하는 게 좋아요.",
+    "en": "I exercise three times a week and usually sleep seven hours. But I occasionally stay up late, so I feel tired. Stress is bad for your health, so I should go for walks more often. I should also avoid sugary food."
+   }
+  }
+ }
+}
