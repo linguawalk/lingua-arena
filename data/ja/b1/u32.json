@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_b1_u32",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 32,
+  "concept": "B1.U32",
+  "status": "live",
+  "title": {
+   "target": "健康と生活習慣：〜ようにしています・〜たほうがいいです",
+   "ko": "건강과 생활 습관",
+   "en": "Health and lifestyle"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "運動する",
+   "pos": "noun",
+   "read": "うんどうする",
+   "ko": "운동",
+   "en": "exercise",
+   "ex": {
+    "t": "私は週に三回運動します。",
+    "read": "わたしはしゅうにさんかいうんどうします。",
+    "ko": "나는 일주일에 세 번 운동해요.",
+    "en": "I exercise three times a week."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "健康的な食事",
+   "pos": "noun",
+   "read": "けんこうてきなしょくじ",
+   "ko": "건강한 식사",
+   "en": "healthy diet",
+   "ex": {
+    "t": "健康的な食事には野菜と果物が入っています。",
+    "read": "けんこうてきなしょくじにはやさいとくだものがいっっています。",
+    "ko": "건강한 식사는 채소와 과일을 포함해요.",
+    "en": "A healthy diet includes vegetables and fruit."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "睡眠",
+   "pos": "noun",
+   "read": "すいみん",
+   "ko": "수면",
+   "en": "sleep",
+   "ex": {
+    "t": "大人は一日に七〜八時間の睡眠が必要です。",
+    "read": "おとなはついたちにしち〜はちじまのすいみんがひつようです。",
+    "ko": "어른은 하루에 7~8시간의 수면이 필요해요.",
+    "en": "Adults need seven to eight hours of sleep a day."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "ストレス",
+   "pos": "noun",
+   "read": "ストレス",
+   "ko": "스트레스",
+   "en": "stress",
+   "ex": {
+    "t": "ストレスは体に悪いです。",
+    "read": "ストレスはからだにわるいです。",
+    "ko": "스트레스는 건강에 나쁠 수 있어요.",
+    "en": "Stress can be bad for your health."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "体重",
+   "pos": "noun",
+   "read": "たいじゅう",
+   "ko": "체중",
+   "en": "weight",
+   "ex": {
+    "t": "彼は体重を減らしたいと思っています。",
+    "read": "かれはたいじゅうをへらしたいとおもっています。",
+    "ko": "그는 체중을 줄이고 싶어 해요.",
+    "en": "He wants to lose weight."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "習慣",
+   "pos": "noun",
+   "read": "しゅうかん",
+   "ko": "습관",
+   "en": "habit",
+   "ex": {
+    "t": "早起きはいい習慣です。",
+    "read": "はやおきはいいしゅうかんです。",
+    "ko": "일찍 일어나는 것은 좋은 습관이에요.",
+    "en": "Getting up early is a good habit."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "くたくた",
+   "pos": "adj",
+   "read": "くたくた",
+   "ko": "피곤한",
+   "en": "exhausted",
+   "ex": {
+    "t": "一日中働いて、くたくたです。",
+    "read": "いちにちじゅうはたらいて、くたくたです。",
+    "ko": "나는 하루 종일 일해서 완전히 지쳤어요.",
+    "en": "I'm exhausted after working all day."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "避ける",
+   "pos": "verb",
+   "read": "さける",
+   "ko": "피하다",
+   "en": "avoid",
+   "ex": {
+    "t": "甘い物は避けたほうがいいです。",
+    "read": "あまいものはさけたほうがいいです。",
+    "ko": "단 음식을 피하는 게 좋아요.",
+    "en": "You should avoid sugary food."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "回復する",
+   "pos": "verb",
+   "read": "かいふくする",
+   "ko": "회복하다",
+   "en": "recover",
+   "ex": {
+    "t": "彼は手術のあと、すぐに回復しました。",
+    "read": "かれはしゅじゅつのあと、すぐにかいふくしました。",
+    "ko": "그는 수술 후에 빠르게 회복했어요.",
+    "en": "He recovered quickly after the operation."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "たまに",
+   "pos": "adv",
+   "read": "たまに",
+   "ko": "가끔",
+   "en": "occasionally",
+   "ex": {
+    "t": "たまにファストフードを食べます。",
+    "read": "たまにファストフードをたべます。",
+    "ko": "나는 가끔 패스트푸드를 먹어요.",
+    "en": "I occasionally eat fast food."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "건강과 생활 습관: 〜ようにしている・〜は体にいい・〜すぎる",
+   "en": "Health and habits: 〜ようにしている / 〜は体にいい"
+  },
+  "explain": {
+   "ko": "습관은 「〜ようにしている」로 말합니다: 毎日七時間寝るようにしています. 빈도는 「週に三回」「たまに」「いつも」, 좋고 나쁜 정도는 「〜は体にいい／悪い」입니다. 충고는 「〜たほうがいいです」: 甘い物は避けたほうがいいです. 지나친 것은 「〜すぎる」: コーヒーを飲みすぎます.",
+   "en": "Habits: 「〜ようにしている」. Frequency: 「週に三回」「たまに」「いつも」. Good/bad for you: 「〜は体にいい／悪い」. Advice: 「〜たほうがいいです」. Too much: 「〜すぎる」."
+  },
+  "table": {
+   "head": [
+    "구조 / 形",
+    "표현 / 表現",
+    "예 / 例"
+   ],
+   "rows": [
+    [
+     "습관 / 習慣",
+     "〜ようにしている",
+     "早く寝るようにしている"
+    ],
+    [
+     "빈도 / 頻度",
+     "週に〜回",
+     "週に三回運動する"
+    ],
+    [
+     "영향 / 影響",
+     "〜は体にいい／悪い",
+     "ストレスは体に悪い"
+    ],
+    [
+     "지나침 / 過度",
+     "〜すぎる",
+     "飲みすぎる"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜ようにしている」는 의식해서 계속하는 습관입니다.",
+    "en": "「〜ようにしている」 is a habit you deliberately keep."
+   },
+   {
+    "ko": "「週に〜回」는 일주일에 몇 번인지 말합니다.",
+    "en": "「週に〜回」 states times per week."
+   },
+   {
+    "ko": "「〜すぎる」는 동사 ます형에 붙입니다.",
+    "en": "「〜すぎる」 attaches to the ます-stem."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は週に三回運動します。",
+    "read": "わたしはしゅうにさんかいうんどうします。",
+    "ko": "나는 일주일에 세 번 운동해요.",
+    "en": "I exercise three times a week."
+   },
+   {
+    "t": "大人は一日に七〜八時間の睡眠が必要です。",
+    "read": "おとなはついたちにしち〜はちじまのすいみんがひつようです。",
+    "ko": "어른은 하루에 7~8시간의 수면이 필요해요.",
+    "en": "Adults need seven to eight hours of sleep a day."
+   },
+   {
+    "t": "ストレスは体に悪いです。",
+    "read": "ストレスはからだにわるいです。",
+    "ko": "스트레스는 건강에 나쁠 수 있어요.",
+    "en": "Stress can be bad for your health."
+   },
+   {
+    "t": "甘い物は避けたほうがいいです。",
+    "read": "あまいものはさけたほうがいいです。",
+    "ko": "단 음식을 피하는 게 좋아요.",
+    "en": "You should avoid sugary food."
+   },
+   {
+    "t": "たまにファストフードを食べます。",
+    "read": "たまにファストフードをたべます。",
+    "ko": "나는 가끔 패스트푸드를 먹어요.",
+    "en": "I occasionally eat fast food."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私は週に三回運動___。",
+    "options": [
+     "します",
+     "しません",
+     "しました"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "ストレスは体に___です。",
+    "options": [
+     "悪い",
+     "いい",
+     "強い"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "甘い物は避けた___いいです。",
+    "options": [
+     "ほうが",
+     "ほうを",
+     "ほうに"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "毎日早く寝る___にしています。",
+    "options": [
+     "よう",
+     "こと",
+     "もの"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どのくらい運動しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 얼마나 자주 운동해요?",
+     "en": "(Question) How often do you exercise?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "週に三回運動します。",
+       "昨日運動しました。",
+       "運動は上手です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ストレスにどう対処しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 스트레스는 어떻게 풀어요?",
+     "en": "(Question) How do you deal with stress?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "散歩をすると楽になります。",
+       "ストレスは青いです。",
+       "昨日寝ました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "最近、すごく疲れているんだ。どうしたらいいかな。"
+      },
+      {
+       "s": "B",
+       "t": "何時間寝ているの？"
+      },
+      {
+       "s": "A",
+       "t": "だいたい五時間だけ。たまにそれより少ないよ。"
+      },
+      {
+       "s": "B",
+       "t": "それは足りないよ。一日七時間寝て、週に三回は運動したほうがいいよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 요즘 너무 피곤해. 어떻게 하면 좋을까?\nB: 잠을 몇 시간 자?\nA: 보통 5시간밖에 못 자. 가끔은 더 적어.\nB: 그러면 안 돼. 하루에 7시간은 자야 하고 운동도 일주일에 세 번은 하는 게 좋아.",
+     "en": "A: I'm so tired these days. What should I do?\nB: How many hours do you sleep?\nA: I usually get only five hours. Occasionally even less.\nB: That's not enough. You should sleep seven hours a day and exercise at least three times a week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Aは普段何時間寝ていますか。",
+      "options": [
+       "五時間",
+       "七時間",
+       "九時間"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "健康に暮らすには、習慣が大切です。まず、毎日早起きする習慣をつけましょう。週に三回運動して、毎日水を十分に飲みます。ストレスを感じたら、散歩が効果的です。そして、甘い物はたまに食べるだけにしましょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "건강하게 살려면 습관이 중요해요. 우선 매일 일찍 일어나는 습관을 들이세요. 일주일에 세 번은 운동하고 하루에 물을 충분히 마시세요. 스트레스를 받을 때는 산책이 도움이 돼요. 그리고 단 음식은 가끔만 드세요.",
+     "en": "To live healthily, habits matter. First, get into the habit of getting up early every day. Exercise three times a week and drink enough water every day. When you feel stressed, a walk helps. And eat sugary food only occasionally."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ストレスを感じたときはどうしますか。",
+      "options": [
+       "散歩する",
+       "寝る",
+       "食べる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どうなさいましたか。"
+      },
+      {
+       "s": "B",
+       "t": "最近疲れていて、眠れません。"
+      },
+      {
+       "s": "A",
+       "t": "一日に何時間寝ていますか。"
+      },
+      {
+       "s": "B",
+       "t": "だいたい五時間です。コーヒーを一日四杯飲みます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의사: 어떻게 오셨어요?\n환자: 요즘 계속 피곤하고 잠을 못 자요.\n의사: 하루에 몇 시간 주무세요?\n환자: 보통 다섯 시간요. 커피는 하루 네 잔 마셔요.",
+     "en": "Doctor: What brings you here?\nPatient: I've been tired and unable to sleep lately.\nDoctor: How many hours do you sleep a day?\nPatient: Usually five. I drink four cups of coffee a day."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "睡眠時間：だいたい______時間",
+      "answers": [
+       "五"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "コーヒーの量：一日______杯",
+      "answers": [
+       "四"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は週に三回___。\n2) 大人は一日に七〜八時間の睡眠が___。\n3) 甘い物は___ほうがいいです。",
+    "trans": {
+     "ko": "1) 나는 일주일에 세 번 운동해요. 2) 어른은 하루에 7~8시간의 수면이 필요해요. 3) 단 음식을 피하는 게 좋아요.",
+     "en": "1) I exercise three times a week. 2) Adults need seven to eight hours of sleep a day. 3) You should avoid sugary food."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は週に三回___。",
+      "options": [
+       "運動します",
+       "運動しません",
+       "運動でした"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "大人は一日に七〜八時間の睡眠が___。",
+      "options": [
+       "必要です",
+       "不要です",
+       "好きです"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "甘い物は___ほうがいいです。",
+      "options": [
+       "避けた",
+       "食べた",
+       "買った"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "健康に暮らすには、習慣が大切です。まず、毎日(1)習慣をつけましょう。週に三回運動して、毎日水を十分に飲みます。ストレスを感じたら、散歩が(2)。そして、甘い物は(3)食べるだけにしましょう。",
+    "trans": {
+     "ko": "건강하게 살려면 습관이 중요해요. 우선 매일 일찍 일어나는 습관을 들이세요. 일주일에 세 번은 운동하고 하루에 물을 충분히 마시세요. 스트레스를 받을 때는 산책이 도움이 돼요. 그리고 단 음식은 가끔만 드세요.",
+     "en": "To live healthily, habits matter. First, get into the habit of getting up early every day. Exercise three times a week and drink enough water every day. When you feel stressed, a walk helps. And eat sugary food only occasionally."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "早起きする",
+       "夜ふかしする",
+       "食べすぎる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "効果的です",
+       "危険です",
+       "悪いです"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "たまに",
+       "いつも",
+       "毎日"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "健康コラム\n最近、会社員は長時間座ったままで働くことが多くなっています。研究によると、一時間に一回、数分立って歩くと健康にいいそうです。また、一日にコップ八杯の水を飲み、きちんと食事をするのもおすすめです。",
+    "trans": {
+     "ko": "건강 칼럼\n요즘 많은 직장인이 오래 앉아서 일합니다. 연구에 따르면 한 시간에 한 번 일어나 몇 분 걷기만 해도 건강에 도움이 됩니다. 또 하루 8잔의 물을 마시고 규칙적으로 식사해야 합니다.",
+     "en": "HEALTH COLUMN\nMany office workers sit for long hours these days. Research shows that standing up and walking for a few minutes once an hour helps your health. You should also drink eight glasses of water a day and eat regularly."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "一時間に一回何をするといいですか。",
+      "options": [
+       "数分立って歩く",
+       "運動場を走る",
+       "昼寝をする"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "一日にコップ何杯の水を飲むといいですか。",
+      "options": [
+       "八杯",
+       "二杯",
+       "十五杯"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジュンさんは体重を減らしたくて、運動を始めました。最初は大変でしたが、今では習慣になりました。健康的な食事にも気をつけています。",
+    "trans": {
+     "ko": "준은 체중을 줄이고 싶어서 운동을 시작했어요. 처음에는 힘들었지만 이제는 습관이 되었어요. 그는 건강한 식사도 하려고 노력해요.",
+     "en": "Jun wanted to lose weight, so he started exercising. It was hard at first, but now it has become a habit. He also tries to eat a healthy diet."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジュンさんは運動を始めました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ジュンさんは運動をやめました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ジュンさんは体重が増えました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "どのくらい運動しますか。",
+    "read": "どのくらいうんどうしますか。",
+    "ko": "얼마나 자주 운동해요?",
+    "en": "How often do you exercise?",
+    "situation": {
+     "ko": "빈도를 물을 때",
+     "en": "Asking about frequency"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "週に三回運動します。",
+    "read": "しゅうにさんかいうんどうします。",
+    "ko": "일주일에 세 번 해요.",
+    "en": "I exercise three times a week.",
+    "situation": {
+     "ko": "빈도를 말할 때",
+     "en": "Saying how often"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "何時間寝ていますか。",
+    "read": "なんじかんねていますか。",
+    "ko": "잠은 몇 시간 자요?",
+    "en": "How many hours of sleep do you get?",
+    "situation": {
+     "ko": "수면을 물을 때",
+     "en": "Asking about sleep"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "だいたい七時間寝ます。",
+    "read": "だいたいしちじかんねます。",
+    "ko": "보통 7시간 자요.",
+    "en": "I usually sleep seven hours.",
+    "situation": {
+     "ko": "대답할 때",
+     "en": "Answering"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "ストレスにはどう対処しますか。",
+    "read": "ストレスにはどうたいしょしますか。",
+    "ko": "스트레스를 어떻게 풀어요?",
+    "en": "How do you deal with stress?",
+    "situation": {
+     "ko": "방법을 물을 때",
+     "en": "Asking how you cope"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "散歩をすると楽になります。",
+    "read": "さんぽをするとらくになります。",
+    "ko": "산책을 하면 도움이 돼요.",
+    "en": "Going for a walk helps.",
+    "situation": {
+     "ko": "방법을 말할 때",
+     "en": "Describing a method"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "甘い物は避けたほうがいいです。",
+    "read": "あまいものはさけたほうがいいです。",
+    "ko": "단 음식을 피하는 게 좋아요.",
+    "en": "You should avoid sugary food.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "最近は健康に気をつけています。",
+    "read": "さいきんはけんこうにきをつけています。",
+    "ko": "저는 요즘 건강해지려고 노력해요.",
+    "en": "I'm trying to be healthier these days.",
+    "situation": {
+     "ko": "계획을 말할 때",
+     "en": "Talking about an effort"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "私は週に〜回〜ます。",
+    "read": "わたしはしゅうに〜かい〜ます。",
+    "ko": "나는 ~에 ~번 ~해요.",
+    "en": "I ~ ... times a week."
+   },
+   {
+    "id": "w2",
+    "t": "たまに〜ます。",
+    "read": "たまに〜ます。",
+    "ko": "나는 보통 / 가끔 ~해요.",
+    "en": "I usually / occasionally ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜は体にいいです。",
+    "read": "〜はからだにいいです。",
+    "ko": "~는 건강에 좋아요 / 나빠요.",
+    "en": "~ is good / bad for your health."
+   },
+   {
+    "id": "w4",
+    "t": "〜たほうがいいです。",
+    "read": "〜たほうがいいです。",
+    "ko": "~하는 게 좋아요.",
+    "en": "You should ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "나의 건강 습관과 개선할 점을 빈도 부사와 should를 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about your health habits and what to improve, using frequency adverbs and should."
+   },
+   "must_include": [
+    {
+     "label": "週に〜回",
+     "match": [
+      "週に三回"
+     ]
+    },
+    {
+     "label": "たまに",
+     "match": [
+      "たまに"
+     ]
+    },
+    {
+     "label": "〜は体に悪い",
+     "match": [
+      "体に悪い"
+     ]
+    },
+    {
+     "label": "〜たほうがいい",
+     "match": [
+      "たほうがいい"
+     ]
+    }
+   ],
+   "model": "私は週に三回運動して、だいたい七時間寝ます。でも、たまに夜ふかしをして、疲れます。ストレスは体に悪いので、もっと散歩したほうがいいです。甘い物も避けたほうがいいです。",
+   "model_trans": {
+    "ko": "나는 일주일에 세 번 운동하고 보통 7시간을 자요. 하지만 가끔 밤늦게까지 깨어 있어서 피곤해요. 스트레스는 건강에 나쁘기 때문에 더 자주 산책을 해야 해요. 또 단 음식을 피하는 게 좋아요.",
+    "en": "I exercise three times a week and usually sleep seven hours. But I occasionally stay up late, so I feel tired. Stress is bad for your health, so I should go for walks more often. I should also avoid sugary food."
+   }
+  }
+ }
+}

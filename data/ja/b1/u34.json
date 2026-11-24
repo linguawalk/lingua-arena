@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_b1_u34",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 34,
+  "concept": "B1.U34",
+  "status": "live",
+  "title": {
+   "target": "お金と銀行：〜から借りる・〜に貸す・〜ために貯める",
+   "ko": "돈과 은행",
+   "en": "Money and banking"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "借りる",
+   "pos": "verb",
+   "read": "かりる",
+   "ko": "빌리다",
+   "en": "borrow",
+   "ex": {
+    "t": "友達からお金を借りました。",
+    "read": "ともだちからおきんをかりました。",
+    "ko": "친구에게 돈을 조금 빌렸어요.",
+    "en": "I borrowed some money from a friend."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "貸す",
+   "pos": "verb",
+   "read": "かす",
+   "ko": "빌려주다",
+   "en": "lend",
+   "ex": {
+    "t": "弟に一万ウォン貸しました。",
+    "read": "おとうとにいちまんウォンかしました。",
+    "ko": "나는 동생에게 만 원을 빌려줬어요.",
+    "en": "I lent my brother ten thousand won."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "借金",
+   "pos": "verb",
+   "read": "しゃっきん",
+   "ko": "빚지다",
+   "en": "owe",
+   "ex": {
+    "t": "銀行にお金の借りがあります。",
+    "read": "ぎんこうにおきんのかりがあります。",
+    "ko": "나는 은행에 대출금을 갚아야 해요.",
+    "en": "I owe the bank some money."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "口座",
+   "pos": "noun",
+   "read": "こうざ",
+   "ko": "계좌",
+   "en": "account",
+   "ex": {
+    "t": "この銀行で口座を開きたいです。",
+    "read": "このぎんこうでこうざをひらきたいです。",
+    "ko": "나는 이 은행에 계좌를 열고 싶어요.",
+    "en": "I'd like to open an account at this bank."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "貯金する",
+   "pos": "verb",
+   "read": "ちょきんする",
+   "ko": "저축하다",
+   "en": "save",
+   "ex": {
+    "t": "毎月給料の二割を貯金しています。",
+    "read": "まいつききゅうりょうのにわりをちょきんしています。",
+    "ko": "나는 매달 월급의 20%를 저축해요.",
+    "en": "I save twenty per cent of my salary every month."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "使う",
+   "pos": "verb",
+   "read": "つかう",
+   "ko": "(돈을) 쓰다",
+   "en": "spend",
+   "ex": {
+    "t": "彼は服にお金を使いすぎます。",
+    "read": "かれはふくにおきんをつかいすぎます。",
+    "ko": "그는 옷에 너무 많은 돈을 써요.",
+    "en": "He spends too much money on clothes."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "予算",
+   "pos": "noun",
+   "read": "よさん",
+   "ko": "예산",
+   "en": "budget",
+   "ex": {
+    "t": "今月は予算が足りません。",
+    "read": "こんげつはよさんがたりません。",
+    "ko": "우리는 이번 달 예산이 부족해요.",
+    "en": "We're short of budget this month."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "利子",
+   "pos": "noun",
+   "read": "りし",
+   "ko": "이자",
+   "en": "interest",
+   "ex": {
+    "t": "普通預金の利子は年二パーセントです。",
+    "read": "ふつうよきんのりしはねんにパーセントです。",
+    "ko": "저축 예금은 연 2%의 이자가 붙어요.",
+    "en": "A savings account pays two per cent interest a year."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "現金",
+   "pos": "noun",
+   "read": "げんきん",
+   "ko": "현금",
+   "en": "cash",
+   "ex": {
+    "t": "現金がなかったので、カードで払いました。",
+    "read": "げんきんがなかったので、カードではらいました。",
+    "ko": "나는 현금이 없어서 카드로 계산했어요.",
+    "en": "I had no cash, so I paid by card."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "手数料",
+   "pos": "noun",
+   "read": "てすうりょう",
+   "ko": "수수료",
+   "en": "fee",
+   "ex": {
+    "t": "海外送金には手数料がかかります。",
+    "read": "かいがいそうきんにはてすうりょうがかかります。",
+    "ko": "해외 송금에는 수수료가 있어요.",
+    "en": "There's a fee for sending money abroad."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "돈과 은행: 〜から借りる・〜に貸す・〜ために貯金する・〜がかかる",
+   "en": "Money and banking: 〜から借りる / 〜に貸す / 〜がかかる"
+  },
+  "explain": {
+   "ko": "돈을 받을 때는 「〜から借りる」, 줄 때는 「〜に貸す」를 씁니다: 友達からお金を借りました / 弟にお金を貸しました. 목적은 「〜ために貯金する」, 비용은 「〜がかかる」: 海外送金には手数料がかかります. 갚는 것은 「返す」: 来週までに返します.",
+   "en": "Borrow: 「〜から借りる」. Lend: 「〜に貸す」. Purpose: 「〜ために貯金する」. Costs: 「〜がかかる」. Pay back: 「返す」."
+  },
+  "table": {
+   "head": [
+    "구조 / 形",
+    "표현 / 表現",
+    "예 / 例"
+   ],
+   "rows": [
+    [
+     "빌림 / 借りる",
+     "〜から借りる",
+     "友達から借りた"
+    ],
+    [
+     "빌려줌 / 貸す",
+     "〜に貸す",
+     "弟に貸した"
+    ],
+    [
+     "저축 / 貯金",
+     "〜ために貯金する",
+     "旅行のために貯金する"
+    ],
+    [
+     "비용 / 費用",
+     "〜がかかる",
+     "手数料がかかる"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「借りる」는 받는 사람, 「貸す」는 주는 사람의 입장입니다.",
+    "en": "「借りる」 is from the receiver's side, 「貸す」 from the giver's."
+   },
+   {
+    "ko": "「〜がかかる」는 시간·돈이 든다는 뜻입니다.",
+    "en": "「〜がかかる」 means time or money is needed."
+   },
+   {
+    "ko": "「返す」는 빌린 것을 돌려줄 때 씁니다.",
+    "en": "「返す」 is used for returning what you borrowed."
+   }
+  ],
+  "examples": [
+   {
+    "t": "友達からお金を借りました。",
+    "read": "ともだちからおきんをかりました。",
+    "ko": "친구에게 돈을 조금 빌렸어요.",
+    "en": "I borrowed some money from a friend."
+   },
+   {
+    "t": "毎月給料の二割を貯金しています。",
+    "read": "まいつききゅうりょうのにわりをちょきんしています。",
+    "ko": "나는 매달 월급의 20%를 저축해요.",
+    "en": "I save twenty per cent of my salary every month."
+   },
+   {
+    "t": "普通預金の利子は年二パーセントです。",
+    "read": "ふつうよきんのりしはねんにパーセントです。",
+    "ko": "저축 예금은 연 2%의 이자가 붙어요.",
+    "en": "A savings account pays two per cent interest a year."
+   },
+   {
+    "t": "現金がなかったので、カードで払いました。",
+    "read": "げんきんがなかったので、カードではらいました。",
+    "ko": "나는 현금이 없어서 카드로 계산했어요.",
+    "en": "I had no cash, so I paid by card."
+   },
+   {
+    "t": "海外送金には手数料がかかります。",
+    "read": "かいがいそうきんにはてすうりょうがかかります。",
+    "ko": "해외 송금에는 수수료가 있어요.",
+    "en": "There's a fee for sending money abroad."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "友達___お金を借りました。",
+    "options": [
+     "から",
+     "に",
+     "を"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "弟に一万ウォン貸し___。",
+    "options": [
+     "ました",
+     "ません",
+     "たい"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "海外送金には手数料が___。",
+    "options": [
+     "かかります",
+     "かけます",
+     "あります"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "毎月給料の二割を貯金し___。",
+    "options": [
+     "ています",
+     "ません",
+     "ました"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どのようなご用件ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 무엇을 도와드릴까요?",
+     "en": "(Question) How can I help you?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "口座を開きたいのですが。",
+       "昨日、銀行に行きました。",
+       "お金は丸いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "給料はどう管理していますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 월급은 어떻게 관리해요?",
+     "en": "(Question) How do you manage your salary?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "毎月二割を貯金しています。",
+       "昨日使いました。",
+       "給料は重いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "口座を開きたいのですが。"
+      },
+      {
+       "s": "B",
+       "t": "身分証明書を見せていただけますか。"
+      },
+      {
+       "s": "A",
+       "t": "どうぞ。利子はどのくらいですか。"
+      },
+      {
+       "s": "B",
+       "t": "年二パーセントで、手数料はかかりません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 계좌를 열고 싶어요.\nB: 신분증을 보여 주시겠어요?\nA: 여기 있어요. 이자는 몇 퍼센트예요?\nB: 연 2%이고 수수료는 없습니다.",
+     "en": "A: I'd like to open an account.\nB: Could you show me your ID?\nA: Here you are. What is the interest rate?\nB: Two per cent a year, and there's no fee."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "利子は年何パーセントですか。",
+      "options": [
+       "二パーセント",
+       "五パーセント",
+       "十パーセント"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私はお金をきちんと管理するようにしています。毎月給料の二割を貯金して、残りで予算を立てます。服や外食にはあまりお金を使いません。友達からお金を借りたときは、約束の日に必ず返します。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 돈을 잘 관리하려고 노력해요. 매달 월급의 20%를 저축하고 나머지로 예산을 세워요. 옷이나 외식에는 너무 많은 돈을 쓰지 않아요. 친구에게 돈을 빌릴 때는 약속한 날짜에 꼭 갚아요.",
+     "en": "I try to manage my money well. I save twenty per cent of my salary every month and make a budget with the rest. I don't spend too much on clothes or eating out. When I borrow money from a friend I always pay it back on the agreed date."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "友達からお金を借りたときはどうしますか。",
+      "options": [
+       "約束の日に返す",
+       "返さない",
+       "忘れる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いらっしゃいませ。"
+      },
+      {
+       "s": "B",
+       "t": "海外にお金を送りたいのですが。"
+      },
+      {
+       "s": "A",
+       "t": "手数料がかかります。五千ウォンです。"
+      },
+      {
+       "s": "B",
+       "t": "かまいません。現金で払います。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 어떻게 도와드릴까요?\n손님: 해외로 돈을 보내고 싶어요.\n직원: 수수료가 있습니다. 5천 원입니다.\n손님: 괜찮아요. 현금으로 낼게요.",
+     "en": "Clerk: How can I help you?\nGuest: I'd like to send money abroad.\nClerk: There's a fee. It's five thousand won.\nGuest: That's fine. I'll pay in cash."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "手数料：______ウォン",
+      "answers": [
+       "五千"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "払い方：______で払う",
+      "answers": [
+       "現金"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 友達___お金を借りました。\n2) 毎月給料の二割を貯金し___。\n3) 海外送金には手数料が___。",
+    "trans": {
+     "ko": "1) 친구에게 돈을 조금 빌렸어요. 2) 나는 매달 월급의 20%를 저축해요. 3) 해외 송금에는 수수료가 있어요.",
+     "en": "1) I borrowed some money from a friend. 2) I save twenty per cent of my salary every month. 3) There's a fee for sending money abroad."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "友達___お金を借りました。",
+      "options": [
+       "から",
+       "に",
+       "を"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "毎月給料の二割を貯金し___。",
+      "options": [
+       "ています",
+       "ません",
+       "ました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "海外送金には手数料が___。",
+      "options": [
+       "かかります",
+       "かけます",
+       "あります"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私はお金をきちんと管理するようにしています。毎月給料の二割を(1)、残りで予算を立てます。服や外食にはあまりお金を(2)。友達からお金を借りたときは、約束の日に必ず(3)。",
+    "trans": {
+     "ko": "저는 돈을 잘 관리하려고 노력해요. 매달 월급의 20%를 저축하고 나머지로 예산을 세워요. 옷이나 외식에는 너무 많은 돈을 쓰지 않아요. 친구에게 돈을 빌릴 때는 약속한 날짜에 꼭 갚아요.",
+     "en": "I try to manage my money well. I save twenty per cent of my salary every month and make a budget with the rest. I don't spend too much on clothes or eating out. When I borrow money from a friend I always pay it back on the agreed date."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "貯金して",
+       "使って",
+       "借りて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "使いません",
+       "使います",
+       "貸します"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "返します",
+       "借ります",
+       "貸します"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "銀行のご案内\n普通預金：年利二パーセント、口座の開設は無料\n海外送金：手数料五千ウォン\n営業時間：平日九時〜四時、土日は休み",
+    "trans": {
+     "ko": "은행 안내\n저축 예금: 연 이자 2%, 계좌 개설 무료\n해외 송금: 수수료 5,000원\n영업시간: 평일 9시~4시, 주말 휴무",
+     "en": "BANK INFORMATION\nSavings account: 2% interest a year, free to open\nSending money abroad: 5,000 won fee\nOpening hours: weekdays 9–4, closed at weekends"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "口座の開設にはいくらかかりますか。",
+      "options": [
+       "無料",
+       "五千ウォン",
+       "一万ウォン"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "銀行はいつ休みですか。",
+      "options": [
+       "土日",
+       "平日",
+       "毎日"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "スーさんは友達から二十万ウォンを借りました。給料をもらってすぐに返しました。友達は感謝して、スーさんはお金にもっと気をつけようと決めました。",
+    "trans": {
+     "ko": "수는 친구에게 20만 원을 빌렸어요. 그녀는 월급을 받자마자 돈을 갚았어요. 친구는 고마워했고 수는 앞으로 더 아껴 쓰기로 했어요.",
+     "en": "Sue borrowed two hundred thousand won from a friend. She paid it back as soon as she got her salary. Her friend was grateful, and Sue decided to be more careful with money."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "スーさんは友達からお金を借りました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "スーさんはまだお金を返していません。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "友達は怒りました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "どのようなご用件ですか。",
+    "read": "どのようなごようけんですか。",
+    "ko": "무엇을 도와드릴까요?",
+    "en": "How can I help you?",
+    "situation": {
+     "ko": "은행 직원이 묻는 말",
+     "en": "What the bank clerk asks"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "口座を開きたいのですが。",
+    "read": "こうざをひらきたいのですが。",
+    "ko": "계좌를 열고 싶어요.",
+    "en": "I'd like to open an account.",
+    "situation": {
+     "ko": "계좌를 열 때",
+     "en": "Opening an account"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "海外にお金を送りたいのですが。",
+    "read": "かいがいにおきんをおくりたいのですが。",
+    "ko": "이 돈을 해외로 보내고 싶어요.",
+    "en": "I'd like to send this money abroad.",
+    "situation": {
+     "ko": "송금을 요청할 때",
+     "en": "Sending money"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "手数料はいくらですか。",
+    "read": "てすうりょうはいくらですか。",
+    "ko": "수수료는 얼마예요?",
+    "en": "How much is the fee?",
+    "situation": {
+     "ko": "비용을 물을 때",
+     "en": "Asking about the cost"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "利子はどのくらいですか。",
+    "read": "りしはどのくらいですか。",
+    "ko": "이자는 몇 퍼센트예요?",
+    "en": "What is the interest rate?",
+    "situation": {
+     "ko": "이자를 물을 때",
+     "en": "Asking about interest"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "毎月給料の二割を貯金しています。",
+    "read": "まいつききゅうりょうのにわりをちょきんしています。",
+    "ko": "나는 매달 월급의 20%를 저축해요.",
+    "en": "I save twenty per cent of my salary every month.",
+    "situation": {
+     "ko": "저축 습관을 말할 때",
+     "en": "Talking about saving"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "お金を貸してもらえませんか。",
+    "read": "おきんをかしてもらえませんか。",
+    "ko": "돈을 빌려줄 수 있어요?",
+    "en": "Could you lend me some money?",
+    "situation": {
+     "ko": "부탁할 때",
+     "en": "Asking a favour"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "来週までに返します。",
+    "read": "らいしゅうまでにかえします。",
+    "ko": "다음 주까지 갚을게요.",
+    "en": "I'll pay you back by next week.",
+    "situation": {
+     "ko": "약속할 때",
+     "en": "Making a promise"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜から〜を借りました。",
+    "read": "〜から〜をかりました。",
+    "ko": "나는 ~에게서 ~를 빌렸어요.",
+    "en": "I borrowed ~ from ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜に〜を貸しました。",
+    "read": "〜に〜をかしました。",
+    "ko": "나는 ~에게 ~를 빌려줬어요.",
+    "en": "I lent ~ to ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜にお金を使います。",
+    "read": "〜におきんをつかいます。",
+    "ko": "나는 ~에 돈을 써요.",
+    "en": "I spend money on ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜には手数料がかかります。",
+    "read": "〜にはてすうりょうがかかります。",
+    "ko": "~에는 수수료가 있어요.",
+    "en": "There's a fee for ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "나의 돈 관리 습관을 borrow, lend, save, spend를 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about how you manage money, using borrow, lend, save and spend."
+   },
+   "must_include": [
+    {
+     "label": "〜から借りる",
+     "match": [
+      "借りた"
+     ]
+    },
+    {
+     "label": "〜に貸す",
+     "match": [
+      "貸します"
+     ]
+    },
+    {
+     "label": "貯金する",
+     "match": [
+      "貯金しています"
+     ]
+    },
+    {
+     "label": "返す",
+     "match": [
+      "返します"
+     ]
+    }
+   ],
+   "model": "私は毎月給料の二割を貯金しています。服にお金を使いすぎないようにしています。先月、友達から少しお金を借りたので、来週までに返します。ときどき、弟にお金を貸します。",
+   "model_trans": {
+    "ko": "나는 매달 월급의 20%를 저축해요. 옷에는 너무 많은 돈을 쓰지 않으려고 해요. 지난달에 친구에게 돈을 조금 빌렸는데 다음 주까지 갚을 거예요. 나는 가끔 동생에게 돈을 빌려줘요.",
+    "en": "I save twenty per cent of my salary every month. I try not to spend too much money on clothes. Last month I borrowed some money from a friend, and I'll pay it back by next week. I sometimes lend money to my brother."
+   }
+  }
+ }
+}
