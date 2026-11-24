@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_b1_u39",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 39,
+  "concept": "B1.U39",
+  "status": "live",
+  "title": {
+   "target": "食べ物と料理：まず・次に・最後に・〜てから",
+   "ko": "음식과 요리",
+   "en": "Food and cooking"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "材料",
+   "pos": "noun",
+   "read": "ざいりょう",
+   "ko": "재료",
+   "en": "ingredient",
+   "ex": {
+    "t": "この料理の材料は簡単です。",
+    "read": "このりょうりのざいりょうはかんたんです。",
+    "ko": "이 요리의 재료는 간단해요.",
+    "en": "The ingredients of this dish are simple."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "切る",
+   "pos": "verb",
+   "read": "きる",
+   "ko": "썰다",
+   "en": "chop",
+   "ex": {
+    "t": "玉ねぎをみじん切りにします。",
+    "read": "たまねぎをみじんきりにします。",
+    "ko": "양파를 잘게 썰어 주세요.",
+    "en": "Chop the onion finely."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "炒める",
+   "pos": "verb",
+   "read": "いためる",
+   "ko": "볶다",
+   "en": "fry",
+   "ex": {
+    "t": "肉を中火で五分間炒めます。",
+    "read": "にくをちゅうびでごふんかんいためます。",
+    "ko": "고기를 중불에서 5분간 볶으세요.",
+    "en": "Fry the meat on medium heat for five minutes."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "ゆでる",
+   "pos": "verb",
+   "read": "ゆでる",
+   "ko": "끓이다",
+   "en": "boil",
+   "ex": {
+    "t": "お湯をわかして、パスタをゆでます。",
+    "read": "おゆをわかして、パスタをゆでます。",
+    "ko": "물을 끓인 다음 파스타를 넣으세요.",
+    "en": "Boil the water, then add the pasta."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "焼く",
+   "pos": "verb",
+   "read": "やく",
+   "ko": "굽다",
+   "en": "bake",
+   "ex": {
+    "t": "ケーキを百八十度で三十分焼きます。",
+    "read": "ケーキをひゃくはちじゅうどでさんじゅうぶんやきます。",
+    "ko": "케이크를 180도에서 30분간 구워요.",
+    "en": "Bake the cake at 180 degrees for thirty minutes."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "混ぜる",
+   "pos": "verb",
+   "read": "まぜる",
+   "ko": "섞다",
+   "en": "mix",
+   "ex": {
+    "t": "小麦粉と卵をよく混ぜます。",
+    "read": "こむぎことたまごをよくまぜます。",
+    "ko": "밀가루와 달걀을 잘 섞으세요.",
+    "en": "Mix the flour and eggs well."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "味見する",
+   "pos": "verb",
+   "read": "あじみする",
+   "ko": "맛을 보다",
+   "en": "taste",
+   "ex": {
+    "t": "塩を入れる前に、味見します。",
+    "read": "しおをいれるまえに、あじみします。",
+    "ko": "소금을 넣기 전에 맛을 보세요.",
+    "en": "Taste it before you add salt."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "まず",
+   "pos": "adv",
+   "read": "まず",
+   "ko": "먼저",
+   "en": "first",
+   "ex": {
+    "t": "まず、野菜を洗います。",
+    "read": "まず、やさいをあらいます。",
+    "ko": "먼저 채소를 씻으세요.",
+    "en": "First, wash the vegetables."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "次に",
+   "pos": "adv",
+   "read": "つぎに",
+   "ko": "그다음에",
+   "en": "then",
+   "ex": {
+    "t": "次に、火を弱めます。",
+    "read": "つぎに、ひをよわめます。",
+    "ko": "그다음에 불을 줄이세요.",
+    "en": "Then turn down the heat."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "最後に",
+   "pos": "adv",
+   "read": "さいごに",
+   "ko": "마지막으로",
+   "en": "finally",
+   "ex": {
+    "t": "最後に、お皿に盛ります。",
+    "read": "さいごに、おさらにもります。",
+    "ko": "마지막으로 접시에 담으세요.",
+    "en": "Finally, put it on a plate."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "음식과 요리: まず・次に・最後に・〜てから・〜前に",
+   "en": "Food and cooking: まず / 次に / 最後に / 〜てから / 〜前に"
+  },
+  "explain": {
+   "ko": "요리 순서는 「まず、〜。次に、〜。最後に、〜。」로 말합니다. 동작의 순서는 「〜てから」: 野菜を洗ってから切ります. 하기 전에는 「〜前に」: 塩を入れる前に味見します. 시간은 「〜分間」, 불 세기는 「中火」「弱火」로 말합니다.",
+   "en": "Order steps with 「まず、〜。次に、〜。最後に、〜。」. After doing: 「〜てから」. Before: 「〜前に」. Time: 「〜分間」. Heat: 「中火」「弱火」."
+  },
+  "table": {
+   "head": [
+    "구조 / 形",
+    "표현 / 表現",
+    "예 / 例"
+   ],
+   "rows": [
+    [
+     "순서 / 順序",
+     "まず・次に・最後に",
+     "まず洗う。次に切る。"
+    ],
+    [
+     "이후 / 後",
+     "〜てから",
+     "洗ってから切る"
+    ],
+    [
+     "이전 / 前",
+     "〜前に",
+     "入れる前に味見する"
+    ],
+    [
+     "시간 / 時間",
+     "〜分間",
+     "五分間炒める"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜てから」는 앞 동작이 끝난 뒤를 말합니다.",
+    "en": "「〜てから」 means after the first action is done."
+   },
+   {
+    "ko": "「〜前に」 앞에는 동사 사전형이 옵니다.",
+    "en": "「〜前に」 follows the dictionary form."
+   },
+   {
+    "ko": "레시피에서는 「〜ます」보다 「〜ましょう」도 자주 씁니다.",
+    "en": "Recipes often use 「〜ましょう」 as well."
+   }
+  ],
+  "examples": [
+   {
+    "t": "玉ねぎをみじん切りにします。",
+    "read": "たまねぎをみじんきりにします。",
+    "ko": "양파를 잘게 썰어 주세요.",
+    "en": "Chop the onion finely."
+   },
+   {
+    "t": "肉を中火で五分間炒めます。",
+    "read": "にくをちゅうびでごふんかんいためます。",
+    "ko": "고기를 중불에서 5분간 볶으세요.",
+    "en": "Fry the meat on medium heat for five minutes."
+   },
+   {
+    "t": "お湯をわかして、パスタをゆでます。",
+    "read": "おゆをわかして、パスタをゆでます。",
+    "ko": "물을 끓인 다음 파스타를 넣으세요.",
+    "en": "Boil the water, then add the pasta."
+   },
+   {
+    "t": "ケーキを百八十度で三十分焼きます。",
+    "read": "ケーキをひゃくはちじゅうどでさんじゅうぶんやきます。",
+    "ko": "케이크를 180도에서 30분간 구워요.",
+    "en": "Bake the cake at 180 degrees for thirty minutes."
+   },
+   {
+    "t": "最後に、お皿に盛ります。",
+    "read": "さいごに、おさらにもります。",
+    "ko": "마지막으로 접시에 담으세요.",
+    "en": "Finally, put it on a plate."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "まず、野菜を洗い___。",
+    "options": [
+     "ます",
+     "ました",
+     "ません"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "塩を入れる___に味見します。",
+    "options": [
+     "前",
+     "後",
+     "間"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "洗っ___から切ります。",
+    "options": [
+     "て",
+     "た",
+     "る"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "肉を五分___炒めます。",
+    "options": [
+     "間",
+     "回",
+     "個"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この料理はどうやって作りますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 요리는 어떻게 만들어요?",
+     "en": "(Question) How do you make this dish?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "まず野菜を洗います。",
+       "昨日食べました。",
+       "料理は大きいです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "パスタは何分ゆでますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 파스타는 몇 분 동안 끓여요?",
+     "en": "(Question) How long do you boil the pasta?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "十分間ゆでます。",
+       "昨日ゆでました。",
+       "パスタは長いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このパスタソースはどうやって作るの？"
+      },
+      {
+       "s": "B",
+       "t": "まず、玉ねぎを切って炒める。次に、トマトを入れて十分間煮るんだ。"
+      },
+      {
+       "s": "A",
+       "t": "塩はいつ入れるの？"
+      },
+      {
+       "s": "B",
+       "t": "最後に、味見してから入れるよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 파스타 소스는 어떻게 만들어?\nB: 먼저 양파를 잘게 썰어서 볶아. 그다음에 토마토를 넣고 10분간 끓여.\nA: 소금은 언제 넣어?\nB: 맨 마지막에, 맛을 보고 넣어.",
+     "en": "A: How do you make this pasta sauce?\nB: First, chop the onion and fry it. Then add the tomatoes and boil for ten minutes.\nA: When do you add the salt?\nB: At the end, after you taste it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "塩はいつ入れますか。",
+      "options": [
+       "味見してから",
+       "最初に",
+       "炒める前に"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今日は簡単なトマトパスタを作りましょう。まず、お湯をわかして、パスタをゆでます。次に、フライパンで玉ねぎを炒めて、トマトを入れて十分間煮ます。最後に、塩を入れる前に味見をして、パスタと混ぜます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "오늘은 간단한 토마토 파스타를 만들어 봅시다. 먼저 물을 끓이고 파스타를 넣으세요. 그다음에 팬에 양파를 볶고 토마토를 넣어 10분간 끓이세요. 마지막으로 소금을 넣기 전에 맛을 보고 파스타와 섞으세요.",
+     "en": "Today let's make a simple tomato pasta. First, boil some water and add the pasta. Then fry the onion in a pan, add the tomatoes and boil for ten minutes. Finally, taste the sauce before you add salt, then mix it with the pasta."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "トマトは何分煮ますか。",
+      "options": [
+       "十分間",
+       "一分間",
+       "一時間"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "料理教室の受付です。"
+      },
+      {
+       "s": "B",
+       "t": "今週末の教室に申し込みたいのですが。"
+      },
+      {
+       "s": "A",
+       "t": "土曜日はケーキの教室です。"
+      },
+      {
+       "s": "B",
+       "t": "材料は用意してもらえますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 요리 학원 접수처입니다.\n손님: 이번 주말 수업에 등록하고 싶어요.\n직원: 토요일은 케이크 굽기 수업입니다.\n손님: 재료도 제공되나요?",
+     "en": "Clerk: Cooking school reception.\nGuest: I'd like to sign up for this weekend's class.\nClerk: Saturday's class is on baking cakes.\nGuest: Are the ingredients provided?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "土曜日の教室：______",
+      "answers": [
+       "ケーキ"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "確認したいこと：______は用意してもらえるか",
+      "answers": [
+       "材料"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 玉ねぎを___にします。\n2) お湯をわかして、パスタを___。\n3) ___、お皿に盛ります。",
+    "trans": {
+     "ko": "1) 양파를 잘게 썰어 주세요. 2) 물을 끓인 다음 파스타를 넣으세요. 3) 마지막으로 접시에 담으세요.",
+     "en": "1) Chop the onion finely. 2) Boil the water, then add the pasta. 3) Finally, put it on a plate."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "玉ねぎを___にします。",
+      "options": [
+       "みじん切り",
+       "ゆで",
+       "焼き"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "お湯をわかして、パスタを___。",
+      "options": [
+       "ゆでます",
+       "焼きます",
+       "切ります"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___、お皿に盛ります。",
+      "options": [
+       "最後に",
+       "まず",
+       "次に"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "今日は簡単なトマトパスタを作りましょう。まず、お湯をわかして、パスタを(1)。次に、フライパンで玉ねぎを炒めて、トマトを入れて十分間(2)。最後に、塩を入れる前に(3)をして、パスタと混ぜます。",
+    "trans": {
+     "ko": "오늘은 간단한 토마토 파스타를 만들어 봅시다. 먼저 물을 끓이고 파스타를 넣으세요. 그다음에 팬에 양파를 볶고 토마토를 넣어 10분간 끓이세요. 마지막으로 소금을 넣기 전에 맛을 보고 파스타와 섞으세요.",
+     "en": "Today let's make a simple tomato pasta. First, boil some water and add the pasta. Then fry the onion in a pan, add the tomatoes and boil for ten minutes. Finally, taste the sauce before you add salt, then mix it with the pasta."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "ゆでます",
+       "洗います",
+       "捨てます"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "煮ます",
+       "焼きます",
+       "冷やします"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "味見",
+       "掃除",
+       "洗濯"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "レシピ\nキムチチャーハン（二人分）\n材料：ご飯二杯、キムチ一カップ、卵二個、油少々\n1. キムチを切る。2. フライパンに油を熱してキムチを炒める。3. ご飯を入れて混ぜる。4. 卵をのせる。",
+    "trans": {
+     "ko": "요리법\n김치볶음밥 (2인분)\n재료: 밥 2공기, 김치 1컵, 달걀 2개, 식용유 약간\n1. 김치를 잘게 썬다. 2. 팬에 기름을 두르고 김치를 볶는다. 3. 밥을 넣고 섞는다. 4. 달걀을 올린다.",
+     "en": "RECIPE\nKimchi fried rice (serves 2)\nIngredients: 2 bowls of rice, 1 cup of kimchi, 2 eggs, a little oil\n1. Chop the kimchi. 2. Heat the oil in a pan and fry the kimchi. 3. Add the rice and mix. 4. Put an egg on top."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "材料の卵は何個ですか。",
+      "options": [
+       "二個",
+       "一個",
+       "四個"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ご飯はいつ入れますか。",
+      "options": [
+       "キムチを炒めたあと",
+       "最初",
+       "最後"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "トムさんは初めてケーキを焼きました。レシピのとおりに作りましたが、オーブンの温度を間違えました。ケーキは少し焦げましたが、おいしかったです。",
+    "trans": {
+     "ko": "톰은 처음으로 케이크를 구웠어요. 그는 레시피를 정확히 따랐지만 오븐 온도를 잘못 맞췄어요. 케이크는 조금 탔지만 맛은 괜찮았어요.",
+     "en": "Tom baked a cake for the first time. He followed the recipe exactly, but he set the oven temperature wrongly. The cake was a bit burnt, but it tasted fine."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "トムさんはケーキを初めて焼きました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "オーブンの温度は正しかったです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ケーキはまずかったです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "この料理はどうやって作りますか。",
+    "read": "このりょうりはどうやってつくりますか。",
+    "ko": "이 요리는 어떻게 만들어요?",
+    "en": "How do you make this dish?",
+    "situation": {
+     "ko": "방법을 물을 때",
+     "en": "Asking how to make something"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "まず、野菜を洗います。",
+    "read": "まず、やさいをあらいます。",
+    "ko": "먼저 채소를 씻으세요.",
+    "en": "First, wash the vegetables.",
+    "situation": {
+     "ko": "첫 단계를 말할 때",
+     "en": "Giving the first step"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "玉ねぎをみじん切りにします。",
+    "read": "たまねぎをみじんきりにします。",
+    "ko": "양파를 잘게 썰어 주세요.",
+    "en": "Chop the onion finely.",
+    "situation": {
+     "ko": "지시할 때",
+     "en": "Giving an instruction"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "次に、肉を炒めます。",
+    "read": "つぎに、にくをいためます。",
+    "ko": "그다음에 고기를 볶으세요.",
+    "en": "Then fry the meat.",
+    "situation": {
+     "ko": "다음 단계를 말할 때",
+     "en": "Giving the next step"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "塩を入れる前に、味見します。",
+    "read": "しおをいれるまえに、あじみします。",
+    "ko": "소금을 넣기 전에 맛을 보세요.",
+    "en": "Taste it before you add salt.",
+    "situation": {
+     "ko": "주의를 줄 때",
+     "en": "Giving a tip"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "中火で五分間炒めます。",
+    "read": "ちゅうびでごふんかんいためます。",
+    "ko": "중불에서 5분간 볶으세요.",
+    "en": "Fry it on medium heat for five minutes.",
+    "situation": {
+     "ko": "시간을 말할 때",
+     "en": "Giving cooking time"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "最後に、お皿に盛ります。",
+    "read": "さいごに、おさらにもります。",
+    "ko": "마지막으로 접시에 담으세요.",
+    "en": "Finally, put it on a plate.",
+    "situation": {
+     "ko": "마지막 단계를 말할 때",
+     "en": "Giving the last step"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "おいしそうですね。",
+    "read": "おいしそうですね。",
+    "ko": "정말 맛있어 보여요!",
+    "en": "It looks delicious!",
+    "situation": {
+     "ko": "감탄할 때",
+     "en": "Reacting"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "まず、〜。",
+    "read": "まず、〜。",
+    "ko": "먼저 ~하세요.",
+    "en": "First, ~."
+   },
+   {
+    "id": "w2",
+    "t": "次に、〜。",
+    "read": "つぎに、〜。",
+    "ko": "그다음에 ~하세요.",
+    "en": "Then ~. · After that, ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜前に、〜。",
+    "read": "〜まえに、〜。",
+    "ko": "~하기 전에 ~하세요.",
+    "en": "~ before you ~."
+   },
+   {
+    "id": "w4",
+    "t": "最後に、〜。",
+    "read": "さいごに、〜。",
+    "ko": "마지막으로 ~하세요.",
+    "en": "Finally, ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "좋아하는 요리의 만드는 방법을 순서 표현을 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences explaining how to make your favourite dish, using sequencers."
+   },
+   "must_include": [
+    {
+     "label": "まず",
+     "match": [
+      "まず"
+     ]
+    },
+    {
+     "label": "次に",
+     "match": [
+      "次に"
+     ]
+    },
+    {
+     "label": "〜前に",
+     "match": [
+      "前に"
+     ]
+    },
+    {
+     "label": "最後に",
+     "match": [
+      "最後に"
+     ]
+    }
+   ],
+   "model": "まず、玉ねぎをみじん切りにします。次に、中火で五分間炒めます。最後に、塩を入れる前に味見します。この料理は二十分で作れます。",
+   "model_trans": {
+    "ko": "먼저 양파를 잘게 썰어 주세요. 그다음에 중불에서 5분간 볶으세요. 마지막으로 소금을 넣기 전에 꼭 맛을 보세요. 이 요리는 20분이면 만들 수 있어요.",
+    "en": "First, chop the onion finely. Then fry it on medium heat for five minutes. Finally, taste it before you add salt. This dish can be made in twenty minutes."
+   }
+  }
+ }
+}

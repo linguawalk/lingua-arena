@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_b1_u37",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 37,
+  "concept": "B1.U37",
+  "status": "live",
+  "title": {
+   "target": "教育と学習：〜ことになっている・〜ように",
+   "ko": "교육과 학습",
+   "en": "Education and learning"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "授業",
+   "pos": "noun",
+   "read": "じゅぎょう",
+   "ko": "수업",
+   "en": "lesson",
+   "ex": {
+    "t": "私は週に三回、英語の授業があります。",
+    "read": "わたしはしゅうにさんかい、えいごのじゅぎょうがあります。",
+    "ko": "나는 일주일에 영어 수업이 세 번 있어요.",
+    "en": "I have three English lessons a week."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "課題",
+   "pos": "noun",
+   "read": "かだい",
+   "ko": "과제",
+   "en": "assignment",
+   "ex": {
+    "t": "課題は金曜日までに出さなければなりません。",
+    "read": "かだいはきんようびまでにださなければなりません。",
+    "ko": "과제는 금요일까지 제출해야 해요.",
+    "en": "The assignment must be handed in by Friday."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "試験を受ける",
+   "pos": "phrase",
+   "read": "しけんをうける",
+   "ko": "시험을 보다",
+   "en": "take an exam",
+   "ex": {
+    "t": "来週、試験を受けます。",
+    "read": "らいしゅう、しけんをうけます。",
+    "ko": "나는 다음 주에 시험을 봐요.",
+    "en": "I'm taking an exam next week."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "合格する",
+   "pos": "verb",
+   "read": "ごうかくする",
+   "ko": "합격하다",
+   "en": "pass",
+   "ex": {
+    "t": "彼は運転免許の試験に合格しました。",
+    "read": "かれはうんてんめんきょのしけんにごうかくしました。",
+    "ko": "그는 운전면허 시험에 합격했어요.",
+    "en": "He passed his driving test."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "落ちる",
+   "pos": "verb",
+   "read": "おちる",
+   "ko": "떨어지다",
+   "en": "fail",
+   "ex": {
+    "t": "彼女は試験に落ちましたが、また挑戦しました。",
+    "read": "かのじょはしけんにおちましたが、またちょうせんしました。",
+    "ko": "그녀는 시험에 떨어졌지만 다시 도전했어요.",
+    "en": "She failed the exam but tried again."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "専攻",
+   "pos": "noun",
+   "read": "せんこう",
+   "ko": "전공",
+   "en": "major",
+   "ex": {
+    "t": "私の専攻は経済学です。",
+    "read": "わたしのせんこうはけいざいがくです。",
+    "ko": "내 전공은 경제학이에요.",
+    "en": "My major is economics."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "奨学金",
+   "pos": "noun",
+   "read": "しょうがくきん",
+   "ko": "장학금",
+   "en": "scholarship",
+   "ex": {
+    "t": "彼は奨学金で大学に通っています。",
+    "read": "かれはしょうがくきんでだいがくにとおっています。",
+    "ko": "그는 장학금을 받아 대학에 다녀요.",
+    "en": "He goes to university on a scholarship."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "復習する",
+   "pos": "verb",
+   "read": "ふくしゅうする",
+   "ko": "복습하다",
+   "en": "revise",
+   "ex": {
+    "t": "試験の前にノートを復習してください。",
+    "read": "しけんのまえにノートをふくしゅうしてください。",
+    "ko": "시험 전에 노트를 복습하세요.",
+    "en": "Revise your notes before the exam."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "集中する",
+   "pos": "verb",
+   "read": "しゅうちゅうする",
+   "ko": "집중하다",
+   "en": "concentrate",
+   "ex": {
+    "t": "うるさいと、集中しにくいです。",
+    "read": "うるさいと、しゅうちゅうしにくいです。",
+    "ko": "소음이 있으면 집중하기 어려워요.",
+    "en": "It's hard to concentrate when there's noise."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "卒業する",
+   "pos": "verb",
+   "read": "そつぎょうする",
+   "ko": "졸업하다",
+   "en": "graduate",
+   "ex": {
+    "t": "彼は昨年、大学を卒業しました。",
+    "read": "かれはさくねん、だいがくをそつぎょうしました。",
+    "ko": "그는 작년에 대학을 졸업했어요.",
+    "en": "He graduated from university last year."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "교육과 학습: 〜ように勉強する・〜は〜までに提出する・〜にくい",
+   "en": "Education and learning: 〜ように / 〜までに提出する / 〜にくい"
+  },
+  "explain": {
+   "ko": "목적은 「〜ように」: 試験に合格するように、毎日復習します. 기한은 「〜までに出す」: 課題は金曜日までに出さなければなりません. 어렵다는 「〜にくい」: うるさいと集中しにくいです. 전공은 「専攻は〜です」, 합격·불합격은 「合格する」「落ちる」입니다.",
+   "en": "Purpose: 「〜ように」: 合格するように、毎日復習します. Deadline: 「〜までに出す」. Difficulty: 「〜にくい」: うるさいと集中しにくいです. Major: 「専攻は〜です」."
+  },
+  "table": {
+   "head": [
+    "구조 / 形",
+    "표현 / 表現",
+    "예 / 例"
+   ],
+   "rows": [
+    [
+     "목적 / 目的",
+     "〜ように",
+     "合格するように勉強する"
+    ],
+    [
+     "기한 / 期限",
+     "〜までに出す",
+     "金曜日までに出す"
+    ],
+    [
+     "곤란 / 困難",
+     "〜にくい",
+     "集中しにくい"
+    ],
+    [
+     "전공 / 専攻",
+     "専攻は〜です",
+     "専攻は経済学です"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜ように」 앞에는 가능·부정 표현이 자주 옵니다.",
+    "en": "「〜ように」 often follows potential or negative forms."
+   },
+   {
+    "ko": "「〜にくい」는 동사 ます형에 붙습니다.",
+    "en": "「〜にくい」 attaches to the ます-stem."
+   },
+   {
+    "ko": "「出す」는 제출한다는 뜻으로 쓰입니다.",
+    "en": "「出す」 also means 'to hand in'."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は週に三回、英語の授業があります。",
+    "read": "わたしはしゅうにさんかい、えいごのじゅぎょうがあります。",
+    "ko": "나는 일주일에 영어 수업이 세 번 있어요.",
+    "en": "I have three English lessons a week."
+   },
+   {
+    "t": "課題は金曜日までに出さなければなりません。",
+    "read": "かだいはきんようびまでにださなければなりません。",
+    "ko": "과제는 금요일까지 제출해야 해요.",
+    "en": "The assignment must be handed in by Friday."
+   },
+   {
+    "t": "彼は運転免許の試験に合格しました。",
+    "read": "かれはうんてんめんきょのしけんにごうかくしました。",
+    "ko": "그는 운전면허 시험에 합격했어요.",
+    "en": "He passed his driving test."
+   },
+   {
+    "t": "試験の前にノートを復習してください。",
+    "read": "しけんのまえにノートをふくしゅうしてください。",
+    "ko": "시험 전에 노트를 복습하세요.",
+    "en": "Revise your notes before the exam."
+   },
+   {
+    "t": "うるさいと、集中しにくいです。",
+    "read": "うるさいと、しゅうちゅうしにくいです。",
+    "ko": "소음이 있으면 집중하기 어려워요.",
+    "en": "It's hard to concentrate when there's noise."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "課題は金曜日___出さなければなりません。",
+    "options": [
+     "までに",
+     "まで",
+     "から"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "うるさいと、集中し___です。",
+    "options": [
+     "にくい",
+     "やすい",
+     "たい"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "試験に合格する___、毎日復習します。",
+    "options": [
+     "ように",
+     "ことに",
+     "ために"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "私の専攻は経済学___。",
+    "options": [
+     "です",
+     "でした",
+     "でしょうか"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "専攻は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 전공이 뭐예요?",
+     "en": "(Question) What's your major?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "専攻は経済学です。",
+       "昨日卒業しました。",
+       "試験は難しいです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "試験のためにどう準備しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 시험 준비는 어떻게 해요?",
+     "en": "(Question) How do you prepare for exams?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "ノートを復習して、練習問題をします。",
+       "昨日寝ました。",
+       "試験は楽しいです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "来週、試験があるんだってね。"
+      },
+      {
+       "s": "B",
+       "t": "うん。だから毎日ノートを復習しているよ。集中しにくいときは図書館に行くんだ。"
+      },
+      {
+       "s": "A",
+       "t": "図書館は静かだからいいね。"
+      },
+      {
+       "s": "B",
+       "t": "うん。試験に合格したら、奨学金がもらえるかもしれないんだ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 다음 주에 시험이 있다고 들었어.\nB: 응, 그래서 매일 노트를 복습하고 있어. 집중하기 어려울 때는 도서관에 가.\nA: 도서관은 조용해서 좋지.\nB: 맞아. 시험에 합격하면 장학금도 받을 수 있어.",
+     "en": "A: I heard you have an exam next week.\nB: Yes, so I'm revising my notes every day. When it's hard to concentrate I go to the library.\nA: The library is quiet, which is good.\nB: Yes. If I pass the exam I might get a scholarship."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは集中しにくいときどこへ行きますか。",
+      "options": [
+       "図書館",
+       "カフェ",
+       "公園"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私は大学二年生で、専攻は経済学です。週に十回の授業があり、課題もたくさんあります。試験の前には、ノートを復習して、友達と練習問題をします。うるさいと集中しにくいので、たいてい図書館で勉強します。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 대학교 2학년이고 전공은 경제학입니다. 일주일에 수업이 열 번 있고 과제도 많습니다. 시험 전에는 노트를 복습하고 친구들과 모의시험을 풉니다. 소음이 있으면 집중하기 어려워서 보통 도서관에서 공부합니다.",
+     "en": "I'm in my second year at university and my major is economics. I have ten lessons a week and a lot of assignments. Before exams I revise my notes and do practice tests with friends. It's hard to concentrate when there's noise, so I usually study in the library."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "話す人は週に何回授業がありますか。",
+      "options": [
+       "十回",
+       "三回",
+       "二十回"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "学生支援センターです。"
+      },
+      {
+       "s": "B",
+       "t": "奨学金の申し込み方法を知りたいのですが。"
+      },
+      {
+       "s": "A",
+       "t": "五月末までに成績証明書と申込書を出してください。"
+      },
+      {
+       "s": "B",
+       "t": "申込書はどこでもらえますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 학생 지원 센터입니다.\n학생: 장학금 신청 방법을 알고 싶어요.\n직원: 성적표와 신청서를 5월 말까지 내셔야 합니다.\n학생: 신청서는 어디서 받나요?",
+     "en": "Staff: Student support centre.\nStudent: I'd like to know how to apply for a scholarship.\nStaff: You must hand in your transcript and application form by the end of May.\nStudent: Where can I get the form?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "出すもの：成績証明書と______",
+      "answers": [
+       "申込書"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "締め切り：______末まで",
+      "answers": [
+       "五月"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は週に三回、英語の___があります。\n2) 課題は金曜日___出さなければなりません。\n3) 試験の前にノートを___ください。",
+    "trans": {
+     "ko": "1) 나는 일주일에 영어 수업이 세 번 있어요. 2) 과제는 금요일까지 제출해야 해요. 3) 시험 전에 노트를 복습하세요.",
+     "en": "1) I have three English lessons a week. 2) The assignment must be handed in by Friday. 3) Revise your notes before the exam."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は週に三回、英語の___があります。",
+      "options": [
+       "授業",
+       "約束",
+       "習慣"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "課題は金曜日___出さなければなりません。",
+      "options": [
+       "までに",
+       "まで",
+       "から"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "試験の前にノートを___ください。",
+      "options": [
+       "復習して",
+       "捨てて",
+       "貸して"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私は大学二年生で、専攻は経済学です。週に十回の授業があり、課題もたくさんあります。試験の前には、ノートを(1)、友達と練習問題をします。うるさいと(2)ので、たいてい図書館で(3)。",
+    "trans": {
+     "ko": "저는 대학교 2학년이고 전공은 경제학입니다. 일주일에 수업이 열 번 있고 과제도 많습니다. 시험 전에는 노트를 복습하고 친구들과 모의시험을 풉니다. 소음이 있으면 집중하기 어려워서 보통 도서관에서 공부합니다.",
+     "en": "I'm in my second year at university and my major is economics. I have ten lessons a week and a lot of assignments. Before exams I revise my notes and do practice tests with friends. It's hard to concentrate when there's noise, so I usually study in the library."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "復習して",
+       "捨てて",
+       "貸して"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "集中しにくい",
+       "集中しやすい",
+       "集中したい"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "勉強します",
+       "遊びます",
+       "寝ます"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "奨学金のご案内\n応募資格：成績平均がB以上\n必要書類：成績証明書と申込書\n締め切り：五月三十一日\n結果発表：六月十五日",
+    "trans": {
+     "ko": "장학금 안내\n신청 자격: 평균 성적 B 이상\n제출 서류: 성적표, 신청서\n마감: 5월 31일\n결과 발표: 6월 15일",
+     "en": "SCHOLARSHIP INFORMATION\nEligibility: average grade B or above\nDocuments: transcript and application form\nDeadline: 31 May\nResults: 15 June"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "応募資格は何ですか。",
+      "options": [
+       "成績平均がB以上",
+       "運動が得意",
+       "年齢が二十歳以下"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "結果はいつわかりますか。",
+      "options": [
+       "六月十五日",
+       "五月三十一日",
+       "七月一日"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジミンさんは昨日、運転免許の試験に合格しました。二か月間、一生懸命準備しました。家族はケーキでお祝いしました。",
+    "trans": {
+     "ko": "지민은 어제 운전면허 시험에 합격했어요. 그녀는 두 달 동안 열심히 준비했어요. 가족들은 케이크로 축하해 주었어요.",
+     "en": "Ji-min passed her driving test yesterday. She had prepared hard for two months. Her family celebrated with a cake."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジミンさんは試験に合格しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ジミンさんは試験に落ちました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "家族は何もしませんでした。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "専攻は何ですか。",
+    "read": "せんこうはなんですか。",
+    "ko": "전공이 뭐예요?",
+    "en": "What's your major?",
+    "situation": {
+     "ko": "전공을 물을 때",
+     "en": "Asking about a major"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "専攻は経済学です。",
+    "read": "せんこうはけいざいがくです。",
+    "ko": "전공은 경제학이에요.",
+    "en": "My major is economics.",
+    "situation": {
+     "ko": "전공을 말할 때",
+     "en": "Saying your major"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "試験のためにどう準備しますか。",
+    "read": "しけんのためにどうじゅんびしますか。",
+    "ko": "시험 준비는 어떻게 해요?",
+    "en": "How do you prepare for exams?",
+    "situation": {
+     "ko": "공부법을 물을 때",
+     "en": "Asking about study habits"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "ノートを復習して、練習問題をします。",
+    "read": "ノートをふくしゅうして、れんしゅうもんだいをします。",
+    "ko": "노트를 복습하고 모의시험을 풀어요.",
+    "en": "I revise my notes and do practice tests.",
+    "situation": {
+     "ko": "방법을 말할 때",
+     "en": "Describing a method"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "集中できないときはどうしますか。",
+    "read": "しゅうちゅうできないときはどうしますか。",
+    "ko": "집중하기 어려울 때는 어떻게 해요?",
+    "en": "What do you do when you can't concentrate?",
+    "situation": {
+     "ko": "어려움을 물을 때",
+     "en": "Asking about difficulties"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "少し休んでから、また始めます。",
+    "read": "すこしやすんでから、またはじめます。",
+    "ko": "잠깐 쉬고 다시 시작해요.",
+    "en": "I take a short break and start again.",
+    "situation": {
+     "ko": "해결책을 말할 때",
+     "en": "Giving a solution"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "課題は金曜日までに出さなければなりません。",
+    "read": "かだいはきんようびまでにださなければなりません。",
+    "ko": "과제는 금요일까지 제출해야 해요.",
+    "en": "The assignment must be handed in by Friday.",
+    "situation": {
+     "ko": "마감을 말할 때",
+     "en": "Talking about a deadline"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "彼は奨学金をもらいました。",
+    "read": "かれはしょうがくきんをもらいました。",
+    "ko": "그는 장학금을 받았어요.",
+    "en": "He got a scholarship.",
+    "situation": {
+     "ko": "소식을 전할 때",
+     "en": "Sharing news"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "専攻は〜です。",
+    "read": "せんこうは〜です。",
+    "ko": "나는 ~에서 ~를 전공해요.",
+    "en": "My major is ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜を復習します。",
+    "read": "〜をふくしゅうします。",
+    "ko": "나는 ~를 복습해요.",
+    "en": "I revise ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜しにくいです。",
+    "read": "〜しにくいです。",
+    "ko": "~하기 어려워요.",
+    "en": "It's hard to ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜は〜までに出さなければなりません。",
+    "read": "〜は〜までにださなければなりません。",
+    "ko": "~까지 제출해야 해요.",
+    "en": "~ must be handed in by ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "나의 공부 방법과 어려운 점을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about your study methods and what you find difficult."
+   },
+   "must_include": [
+    {
+     "label": "専攻",
+     "match": [
+      "専攻は"
+     ]
+    },
+    {
+     "label": "復習する",
+     "match": [
+      "復習して"
+     ]
+    },
+    {
+     "label": "〜にくい",
+     "match": [
+      "しにくい"
+     ]
+    },
+    {
+     "label": "〜までに",
+     "match": [
+      "までに"
+     ]
+    }
+   ],
+   "model": "私の専攻は経済学で、週に十回の授業があります。試験の前には、ノートを復習して、練習問題をします。うるさいと集中しにくいので、図書館で勉強します。課題は金曜日までに出さなければなりません。",
+   "model_trans": {
+    "ko": "내 전공은 경제학이고 일주일에 수업이 열 번 있어요. 시험 전에는 노트를 복습하고 모의시험을 풀어요. 소음이 있으면 집중하기 어려워서 도서관에서 공부해요. 과제는 금요일까지 제출해야 해요.",
+    "en": "My major is economics and I have ten lessons a week. Before exams I revise my notes and do practice tests. It's hard to concentrate when there's noise, so I study in the library. The assignment must be handed in by Friday."
+   }
+  }
+ }
+}

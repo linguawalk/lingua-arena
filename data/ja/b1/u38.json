@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_b1_u38",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 38,
+  "concept": "B1.U38",
+  "status": "live",
+  "title": {
+   "target": "ニュースとメディア：〜によると・〜そうです・〜という",
+   "ko": "뉴스와 미디어",
+   "en": "News and the media"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "ニュース",
+   "pos": "noun",
+   "read": "ニュース",
+   "ko": "뉴스",
+   "en": "news",
+   "ex": {
+    "t": "私は毎朝ニュースを見ます。",
+    "read": "わたしはまいあさニュースをみます。",
+    "ko": "저는 매일 아침 뉴스를 봐요.",
+    "en": "I watch the news every morning."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "見出し",
+   "pos": "noun",
+   "read": "みだし",
+   "ko": "헤드라인",
+   "en": "headline",
+   "ex": {
+    "t": "その見出しが目に留まりました。",
+    "read": "そのみだしがめにとまりました。",
+    "ko": "그 헤드라인이 내 눈길을 끌었어요.",
+    "en": "The headline caught my eye."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "記事",
+   "pos": "noun",
+   "read": "きじ",
+   "ko": "기사",
+   "en": "article",
+   "ex": {
+    "t": "私はその新聞記事を読みました。",
+    "read": "わたしはそのしんぶんきじをよみました。",
+    "ko": "나는 그 신문 기사를 읽었어요.",
+    "en": "I read that newspaper article."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "記者",
+   "pos": "noun",
+   "read": "きしゃ",
+   "ko": "기자",
+   "en": "journalist",
+   "ex": {
+    "t": "彼女は有名な記者です。",
+    "read": "かのじょはゆうめいなきしゃです。",
+    "ko": "그녀는 유명한 기자예요.",
+    "en": "She is a famous journalist."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "報道する",
+   "pos": "verb",
+   "read": "ほうどうする",
+   "ko": "보도하다",
+   "en": "report",
+   "ex": {
+    "t": "そのチャンネルは事故を報道しました。",
+    "read": "そのチャンネルはじこをほうどうしました。",
+    "ko": "방송국은 사고를 보도했어요.",
+    "en": "The channel reported the accident."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "事実",
+   "pos": "noun",
+   "read": "じじつ",
+   "ko": "사실",
+   "en": "fact",
+   "ex": {
+    "t": "記事は事実に基づくべきです。",
+    "read": "きじはじじつにもとづくべきです。",
+    "ko": "기사는 사실에 근거해야 해요.",
+    "en": "An article should be based on facts."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "意見",
+   "pos": "noun",
+   "read": "いけん",
+   "ko": "의견",
+   "en": "opinion",
+   "ex": {
+    "t": "この文章は筆者の意見です。",
+    "read": "このぶんしょうはひっしゃのいけんです。",
+    "ko": "이 글은 필자의 의견이에요.",
+    "en": "This text is the writer's opinion."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "フェイクニュース",
+   "pos": "noun",
+   "read": "フェイクニュース",
+   "ko": "가짜 뉴스",
+   "en": "fake news",
+   "ex": {
+    "t": "フェイクニュースは速く広まります。",
+    "read": "フェイクニュースははやくひろまります。",
+    "ko": "가짜 뉴스는 빠르게 퍼질 수 있어요.",
+    "en": "Fake news can spread quickly."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "信頼できる",
+   "pos": "adj",
+   "read": "しんらいできる",
+   "ko": "믿을 만한",
+   "en": "reliable",
+   "ex": {
+    "t": "情報源が信頼できるか確認してください。",
+    "read": "じょうほうげんがしんらいできるかかくにんしてください。",
+    "ko": "믿을 만한 출처를 확인하세요.",
+    "en": "Check that the source is reliable."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "購読する",
+   "pos": "verb",
+   "read": "こうどくする",
+   "ko": "구독하다",
+   "en": "subscribe",
+   "ex": {
+    "t": "私はオンライン新聞を購読しています。",
+    "read": "わたしはオンラインしんぶんをこうどくしています。",
+    "ko": "나는 온라인 신문을 구독하고 있어요.",
+    "en": "I subscribe to an online newspaper."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "뉴스와 미디어: 〜によると・〜そうです・〜と報道された",
+   "en": "News and the media: 〜によると / 〜そうです / 〜と報道された"
+  },
+  "explain": {
+   "ko": "전해 들은 정보는 「〜によると、〜そうです」: 新聞によると、火事があったそうです. 보도는 「〜と報道されました」, 수동은 「〜れた／られた」: 記事は有名な記者によって書かれました. 사실과 의견은 「事実」「意見」으로 나눕니다. 정보원은 「情報源が信頼できるか確認する」입니다.",
+   "en": "Hearsay: 「〜によると、〜そうです」. Reporting: 「〜と報道されました」. Passive: 「〜によって書かれました」. Distinguish 事実 and 意見. Check sources."
+  },
+  "table": {
+   "head": [
+    "구조 / 形",
+    "표현 / 表現",
+    "예 / 例"
+   ],
+   "rows": [
+    [
+     "전문 / 伝聞",
+     "〜によると〜そうです",
+     "新聞によると、火事があったそうです"
+    ],
+    [
+     "보도 / 報道",
+     "〜と報道された",
+     "事故が報道された"
+    ],
+    [
+     "수동 / 受身",
+     "〜によって書かれる",
+     "記者によって書かれた"
+    ],
+    [
+     "확인 / 確認",
+     "〜か確認する",
+     "信頼できるか確認する"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜そうです」는 전해 들은 이야기를 나타냅니다.",
+    "en": "「〜そうです」 reports what you heard."
+   },
+   {
+    "ko": "「〜によると」는 정보의 출처를 말합니다.",
+    "en": "「〜によると」 names the source."
+   },
+   {
+    "ko": "뉴스에서는 「〜た」보다 「〜ました」보다 문어체를 쓰기도 합니다.",
+    "en": "News often uses a more formal register."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は毎朝ニュースを見ます。",
+    "read": "わたしはまいあさニュースをみます。",
+    "ko": "저는 매일 아침 뉴스를 봐요.",
+    "en": "I watch the news every morning."
+   },
+   {
+    "t": "そのチャンネルは事故を報道しました。",
+    "read": "そのチャンネルはじこをほうどうしました。",
+    "ko": "방송국은 사고를 보도했어요.",
+    "en": "The channel reported the accident."
+   },
+   {
+    "t": "記事は事実に基づくべきです。",
+    "read": "きじはじじつにもとづくべきです。",
+    "ko": "기사는 사실에 근거해야 해요.",
+    "en": "An article should be based on facts."
+   },
+   {
+    "t": "フェイクニュースは速く広まります。",
+    "read": "フェイクニュースははやくひろまります。",
+    "ko": "가짜 뉴스는 빠르게 퍼질 수 있어요.",
+    "en": "Fake news can spread quickly."
+   },
+   {
+    "t": "情報源が信頼できるか確認してください。",
+    "read": "じょうほうげんがしんらいできるかかくにんしてください。",
+    "ko": "믿을 만한 출처를 확인하세요.",
+    "en": "Check that the source is reliable."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "新聞に___と、火事があったそうです。",
+    "options": [
+     "よる",
+     "よって",
+     "よれば"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "火事があった___です。",
+    "options": [
+     "そう",
+     "よう",
+     "みたい"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "記事は事実に基づく___です。",
+    "options": [
+     "べき",
+     "はず",
+     "つもり"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "情報源が信頼できるか___してください。",
+    "options": [
+     "確認",
+     "確認を",
+     "確認で"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ニュースはどうやって知りますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어떻게 뉴스를 접해요?",
+     "en": "(Question) How do you get your news?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "毎朝テレビでニュースを見ます。",
+       "昨日寝ました。",
+       "ニュースは青いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "その記事を読みましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 기사 읽었어요?",
+     "en": "(Question) Have you read that article?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、昨日読みました。",
+       "いいえ、昨日行きました。",
+       "記事は高いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日の地球温暖化の記事を読んだ？"
+      },
+      {
+       "s": "B",
+       "t": "うん、有名な記者が書いた記事で、事実に基づいていたよ。"
+      },
+      {
+       "s": "A",
+       "t": "最近はフェイクニュースが心配だね。"
+      },
+      {
+       "s": "B",
+       "t": "そうだね。だから、情報源が信頼できるかいつも確認しているよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 지구 온난화 기사 읽었어?\nB: 응, 유명한 기자가 쓴 기사였어. 사실에 근거하고 있었어.\nA: 요즘은 가짜 뉴스가 많아서 걱정돼.\nB: 맞아. 그래서 항상 믿을 만한 출처를 확인해.",
+     "en": "A: Did you read the article about global warming yesterday?\nB: Yes, it was written by a famous journalist and based on facts.\nA: I'm worried about all the fake news these days.\nB: Me too. That's why I always check that the source is reliable."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bはいつも何を確認しますか。",
+      "options": [
+       "情報源が信頼できるか",
+       "天気",
+       "値段"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今日の主なニュースです。昨夜、市の中心部で大きな火事がありました。消防隊がすぐに駆けつけ、火事は一時間以内に消されました。幸いにも、けが人はいませんでした。正確な原因は調査中です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "오늘의 주요 뉴스입니다. 어젯밤 시내에서 큰 화재가 발생했습니다. 소방관들이 신속하게 출동해 불은 한 시간 안에 꺼졌습니다. 다행히 다친 사람은 없었습니다. 정확한 원인은 현재 조사 중입니다.",
+     "en": "Here are today's main stories. A large fire broke out in the city centre last night. Firefighters arrived quickly and the fire was put out within an hour. Fortunately, no one was injured. The exact cause is being investigated."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "火事で何がありましたか。",
+      "options": [
+       "けが人はいなかった",
+       "けが人が出た",
+       "建物がなくなった"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新聞購読のご案内です。"
+      },
+      {
+       "s": "B",
+       "t": "オンライン新聞を購読したいのですが。"
+      },
+      {
+       "s": "A",
+       "t": "月五千ウォンで、最初の一か月は無料です。"
+      },
+      {
+       "s": "B",
+       "t": "いいですね。申し込みます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 신문 구독 센터입니다.\n손님: 온라인 신문을 구독하고 싶어요.\n직원: 한 달에 5천 원이고 첫 달은 무료입니다.\n손님: 좋아요. 신청할게요.",
+     "en": "Clerk: Newspaper subscriptions.\nGuest: I'd like to subscribe to the online newspaper.\nClerk: It's five thousand won a month, and the first month is free.\nGuest: Great. I'll sign up."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "月額：______ウォン",
+      "answers": [
+       "五千"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "最初の一か月：______",
+      "answers": [
+       "無料"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は毎朝___を見ます。\n2) そのチャンネルは事故を___。\n3) 情報源が___か確認してください。",
+    "trans": {
+     "ko": "1) 저는 매일 아침 뉴스를 봐요. 2) 방송국은 사고를 보도했어요. 3) 믿을 만한 출처를 확인하세요.",
+     "en": "1) I watch the news every morning. 2) The channel reported the accident. 3) Check that the source is reliable."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は毎朝___を見ます。",
+      "options": [
+       "ニュース",
+       "ドラマ",
+       "映画"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "そのチャンネルは事故を___。",
+      "options": [
+       "報道しました",
+       "報道しません",
+       "報道でした"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "情報源が___か確認してください。",
+      "options": [
+       "信頼できる",
+       "うるさい",
+       "新しい"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "今日の主なニュースです。昨夜、市の中心部で大きな火事が(1)。消防隊がすぐに駆けつけ、火事は一時間以内に消されました。幸いにも、けが人は(2)。正確な原因は(3)。",
+    "trans": {
+     "ko": "오늘의 주요 뉴스입니다. 어젯밤 시내에서 큰 화재가 발생했습니다. 소방관들이 신속하게 출동해 불은 한 시간 안에 꺼졌습니다. 다행히 다친 사람은 없었습니다. 정확한 원인은 현재 조사 중입니다.",
+     "en": "Here are today's main stories. A large fire broke out in the city centre last night. Firefighters arrived quickly and the fire was put out within an hour. Fortunately, no one was injured. The exact cause is being investigated."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "ありました",
+       "ありません",
+       "ありますか"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "いませんでした",
+       "いました",
+       "いません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "調査中です",
+       "わかりました",
+       "不明でした"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "見出し\n市立図書館が二十四時間開館へ\n市長は昨日、来月から市立図書館が一日二十四時間開館すると発表しました。市民はおおむね歓迎していますが、安全面を心配する声もあります。",
+    "trans": {
+     "ko": "헤드라인\n시 도서관, 24시간 개방 시작\n시립 도서관이 다음 달부터 하루 24시간 문을 연다고 시장은 어제 발표했다. 시민들은 대체로 환영했지만 일부는 안전이 걱정된다고 말했다.",
+     "en": "HEADLINE\nCity library to open 24 hours\nThe mayor announced yesterday that the city library will be open twenty-four hours a day from next month. Citizens generally welcomed the news, but some said they were worried about safety."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "図書館はいつから二十四時間開館しますか。",
+      "options": [
+       "来月",
+       "今月",
+       "来年"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "心配する声はどんなことについてですか。",
+      "options": [
+       "安全面",
+       "値段",
+       "本の数"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "メイさんは新聞記事で、新しい地下鉄の路線ができると読みました。通勤時間が短くなることを期待しました。彼女はそのニュースを家族にも話しました。",
+    "trans": {
+     "ko": "메이는 신문 기사에서 새 지하철 노선이 개통된다는 소식을 읽었어요. 그녀는 통근 시간이 줄 것이라고 기대했어요. 가족에게도 그 소식을 알렸어요.",
+     "en": "May read in a newspaper article that a new metro line was opening. She hoped her commute would get shorter. She also told her family the news."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "メイさんは新聞でニュースを読みました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "メイさんは通勤が長くなると思いました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "メイさんはニュースを家族に話しませんでした。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "ニュースはどうやって知りますか。",
+    "read": "ニュースはどうやってしりますか。",
+    "ko": "어떻게 뉴스를 접해요?",
+    "en": "How do you get your news?",
+    "situation": {
+     "ko": "방법을 물을 때",
+     "en": "Asking how you follow the news"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "毎朝ニュースを見ます。",
+    "read": "まいあさニュースをみます。",
+    "ko": "매일 아침 뉴스를 봐요.",
+    "en": "I watch the news every morning.",
+    "situation": {
+     "ko": "습관을 말할 때",
+     "en": "Describing a habit"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "その記事を読みましたか。",
+    "read": "そのきじをよみましたか。",
+    "ko": "그 기사 읽었어요?",
+    "en": "Have you read that article?",
+    "situation": {
+     "ko": "경험을 물을 때",
+     "en": "Asking about experience"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "そのチャンネルは事故を報道しました。",
+    "read": "そのチャンネルはじこをほうどうしました。",
+    "ko": "방송국은 사고를 보도했어요.",
+    "en": "The channel reported the accident.",
+    "situation": {
+     "ko": "보도를 전할 때",
+     "en": "Reporting the news"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "どうして本当だとわかりますか。",
+    "read": "どうしてほんとうだとわかりますか。",
+    "ko": "그것이 사실인지 어떻게 알죠?",
+    "en": "How do you know it's true?",
+    "situation": {
+     "ko": "의심을 말할 때",
+     "en": "Questioning a claim"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "情報源が信頼できるか確認してください。",
+    "read": "じょうほうげんがしんらいできるかかくにんしてください。",
+    "ko": "믿을 만한 출처를 확인하세요.",
+    "en": "Check that the source is reliable.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "フェイクニュースが心配です。",
+    "read": "フェイクニュースがしんぱいです。",
+    "ko": "가짜 뉴스가 걱정돼요.",
+    "en": "I'm worried about fake news.",
+    "situation": {
+     "ko": "걱정을 말할 때",
+     "en": "Expressing concern"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "私の意見では、これは筆者の意見です。",
+    "read": "わたしのいけんでは、これはひっしゃのいけんです。",
+    "ko": "제 생각에는 이 글은 의견이에요.",
+    "en": "In my opinion, this text is the writer's opinion.",
+    "situation": {
+     "ko": "의견을 말할 때",
+     "en": "Giving an opinion"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜によると、〜そうです。",
+    "read": "〜によると、〜そうです。",
+    "ko": "~는 ~에 의해 ~되었어요.",
+    "en": "~ was + p.p. + by ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜は〜と報道しました。",
+    "read": "〜は〜とほうどうしました。",
+    "ko": "~는 ~라고 보도했어요.",
+    "en": "~ reported that ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜を購読しています。",
+    "read": "〜をこうどくしています。",
+    "ko": "~를 구독해요.",
+    "en": "I subscribe to ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜は事実に基づくべきです。",
+    "read": "〜はじじつにもとづくべきです。",
+    "ko": "~는 사실에 근거해야 해요.",
+    "en": "~ should be based on facts."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "최근에 읽은 뉴스나 기사를 소개하고 의견을 4문장으로 써 보세요.",
+    "en": "Introduce a news story you read recently and give your opinion in 4 sentences."
+   },
+   "must_include": [
+    {
+     "label": "〜によると",
+     "match": [
+      "によると"
+     ]
+    },
+    {
+     "label": "〜そうです",
+     "match": [
+      "そうです"
+     ]
+    },
+    {
+     "label": "フェイクニュース",
+     "match": [
+      "フェイクニュース"
+     ]
+    },
+    {
+     "label": "信頼できる",
+     "match": [
+      "信頼できる"
+     ]
+    }
+   ],
+   "model": "昨日、地球温暖化についての記事を読みました。記者によると、多くの事実に基づいているそうです。でも、フェイクニュースは速く広まるので、情報源が信頼できるかいつも確認します。私の意見では、こうした記事がもっと必要です。市長は火事の原因を調査中だと発表し、チャンネルが報道しました。",
+   "model_trans": {
+    "ko": "어제 나는 지구 온난화에 관한 기사를 읽었어요. 그 기사는 한 유명한 기자가 썼고 많은 사실에 근거하고 있었어요. 하지만 가짜 뉴스가 빠르게 퍼질 수 있어서 항상 믿을 만한 출처를 확인해요. 제 생각에는 이런 기사가 더 많이 필요해요. 시장은 화재 원인이 조사 중이라고 발표했고 방송국이 이를 보도했어요.",
+    "en": "Yesterday I read an article about global warming. It was written by a famous journalist and based on many facts. But fake news can spread quickly, so I always check that the source is reliable. In my opinion, we need more articles like this. The mayor announced that the cause of the fire is being investigated, and the channel reported it."
+   }
+  }
+ }
+}

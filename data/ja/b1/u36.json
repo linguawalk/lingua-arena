@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_b1_u36",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 36,
+  "concept": "B1.U36",
+  "status": "live",
+  "title": {
+   "target": "テクノロジーとインターネット：〜一方で・〜が心配です",
+   "ko": "기술과 인터넷",
+   "en": "Technology and the internet"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "オンライン",
+   "pos": "adj",
+   "read": "オンライン",
+   "ko": "온라인",
+   "en": "online",
+   "ex": {
+    "t": "私はオンラインで買い物をします。",
+    "read": "わたしはオンラインでかいものをします。",
+    "ko": "나는 온라인으로 물건을 사요.",
+    "en": "I buy things online."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "アプリ",
+   "pos": "noun",
+   "read": "アプリ",
+   "ko": "앱",
+   "en": "app",
+   "ex": {
+    "t": "このアプリは無料でダウンロードできます。",
+    "read": "このアプリはむりょうでダウンロードできます。",
+    "ko": "이 앱은 무료로 다운로드할 수 있어요.",
+    "en": "This app can be downloaded for free."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "アップデート",
+   "pos": "noun",
+   "read": "アップデート",
+   "ko": "업데이트",
+   "en": "update",
+   "ex": {
+    "t": "スマホのアップデートをしなければなりません。",
+    "read": "スマホのアップデートをしなければなりません。",
+    "ko": "휴대폰 업데이트를 설치해야 해요.",
+    "en": "I need to install a phone update."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "セキュリティ",
+   "pos": "noun",
+   "read": "セキュリティ",
+   "ko": "보안",
+   "en": "security",
+   "ex": {
+    "t": "ネットのセキュリティはとても大切です。",
+    "read": "ネットのセキュリティはとてもたいせつです。",
+    "ko": "온라인 보안은 매우 중요해요.",
+    "en": "Online security is very important."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "個人情報",
+   "pos": "noun",
+   "read": "こじんじょうほう",
+   "ko": "개인 정보",
+   "en": "personal data",
+   "ex": {
+    "t": "個人情報をだれにでも教えてはいけません。",
+    "read": "こじんじょうほうをだれにでもおしえてはいけません。",
+    "ko": "개인 정보를 아무에게나 알려 주지 마세요.",
+    "en": "Don't give your personal data to just anyone."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "つなぐ",
+   "pos": "verb",
+   "read": "つなぐ",
+   "ko": "연결하다",
+   "en": "connect",
+   "ex": {
+    "t": "Wi-Fiにつながりません。",
+    "read": "Wi-Fiにつながりません。",
+    "ko": "와이파이에 연결할 수 없어요.",
+    "en": "I can't connect to the Wi-Fi."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "保存する",
+   "pos": "verb",
+   "read": "ほぞんする",
+   "ko": "저장하다",
+   "en": "save",
+   "ex": {
+    "t": "ファイルを保存するのを忘れないでください。",
+    "read": "ファイルをほぞんするのをわすれないでください。",
+    "ko": "파일을 저장하는 것을 잊지 마세요.",
+    "en": "Don't forget to save the file."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "ハッキング",
+   "pos": "noun",
+   "read": "ハッキング",
+   "ko": "해킹",
+   "en": "hacking",
+   "ex": {
+    "t": "ハッキングで多くの人の情報が漏れました。",
+    "read": "ハッキングでおおくのひとのじょうほうがもれました。",
+    "ko": "해킹으로 많은 사람의 정보가 유출되었어요.",
+    "en": "Many people's information was leaked by hacking."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "依存",
+   "pos": "noun",
+   "read": "いぞん",
+   "ko": "중독",
+   "en": "addiction",
+   "ex": {
+    "t": "スマホ依存は深刻な問題です。",
+    "read": "スマホいぞんはしんこくなもんだいです。",
+    "ko": "스마트폰 중독은 심각한 문제예요.",
+    "en": "Smartphone addiction is a serious problem."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "便利な",
+   "pos": "adj",
+   "read": "べんりな",
+   "ko": "편리한",
+   "en": "convenient",
+   "ex": {
+    "t": "ネットショッピングはとても便利です。",
+    "read": "ネットショッピングはとてもべんりです。",
+    "ko": "온라인 쇼핑은 매우 편리해요.",
+    "en": "Online shopping is very convenient."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "기술과 인터넷: 〜一方で〜・〜ので便利だ・〜が心配だ",
+   "en": "Technology and the internet: 〜一方で〜 / 〜が心配です"
+  },
+  "explain": {
+   "ko": "장점과 단점은 「〜一方で、〜」로 대비합니다: 便利な一方で、危険もあります. 이유는 「〜ので」, 걱정은 「〜が心配です」: 個人情報が心配です. 가능은 「〜ことができます」「〜れます」: 無料でダウンロードできます. 주의는 「〜ないように気をつけてください」입니다.",
+   "en": "Contrast with 「〜一方で、〜」: 便利な一方で、危険もあります. Reason: 「〜ので」. Worry: 「〜が心配です」. Possibility: 「〜できます」. Caution: 「〜ないように気をつけてください」."
+  },
+  "table": {
+   "head": [
+    "구조 / 形",
+    "표현 / 表現",
+    "예 / 例"
+   ],
+   "rows": [
+    [
+     "대비 / 対比",
+     "〜一方で、〜",
+     "便利な一方で危険だ"
+    ],
+    [
+     "이유 / 理由",
+     "〜ので",
+     "時間が省けるので便利"
+    ],
+    [
+     "걱정 / 心配",
+     "〜が心配です",
+     "個人情報が心配です"
+    ],
+    [
+     "가능 / 可能",
+     "〜できます",
+     "無料でダウンロードできます"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「一方で」는 두 가지 면을 대비할 때 씁니다.",
+    "en": "「一方で」 contrasts two sides."
+   },
+   {
+    "ko": "「〜が心配だ」의 「が」는 걱정하는 대상입니다.",
+    "en": "In 「〜が心配だ」, 「が」 marks the object of worry."
+   },
+   {
+    "ko": "「ダウンロードできる」는 가능을 나타냅니다.",
+    "en": "「ダウンロードできる」 expresses possibility."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私はオンラインで買い物をします。",
+    "read": "わたしはオンラインでかいものをします。",
+    "ko": "나는 온라인으로 물건을 사요.",
+    "en": "I buy things online."
+   },
+   {
+    "t": "このアプリは無料でダウンロードできます。",
+    "read": "このアプリはむりょうでダウンロードできます。",
+    "ko": "이 앱은 무료로 다운로드할 수 있어요.",
+    "en": "This app can be downloaded for free."
+   },
+   {
+    "t": "ハッキングで多くの人の情報が漏れました。",
+    "read": "ハッキングでおおくのひとのじょうほうがもれました。",
+    "ko": "해킹으로 많은 사람의 정보가 유출되었어요.",
+    "en": "Many people's information was leaked by hacking."
+   },
+   {
+    "t": "スマホ依存は深刻な問題です。",
+    "read": "スマホいぞんはしんこくなもんだいです。",
+    "ko": "스마트폰 중독은 심각한 문제예요.",
+    "en": "Smartphone addiction is a serious problem."
+   },
+   {
+    "t": "ネットショッピングはとても便利です。",
+    "read": "ネットショッピングはとてもべんりです。",
+    "ko": "온라인 쇼핑은 매우 편리해요.",
+    "en": "Online shopping is very convenient."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "便利な___、危険もあります。",
+    "options": [
+     "一方で",
+     "ために",
+     "から"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "このアプリは無料でダウンロード___。",
+    "options": [
+     "できます",
+     "しません",
+     "でした"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "個人情報が___です。",
+    "options": [
+     "心配",
+     "大丈夫",
+     "上手"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "時間が省ける___、便利です。",
+    "options": [
+     "ので",
+     "のに",
+     "けど"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "テクノロジーであなたの生活はどう変わりましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 기술이 삶을 어떻게 바꿨나요?",
+     "en": "(Question) How has technology changed your life?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "買い物がオンラインでできるようになりました。",
+       "昨日、買い物をしました。",
+       "技術は難しいです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ネットショッピングの利点は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 온라인 쇼핑의 장점은 뭐예요?",
+     "en": "(Question) What is the advantage of online shopping?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "時間が省けることです。",
+       "昨日買いました。",
+       "店が大きいことです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "最近、よくネットで買い物をする？"
+      },
+      {
+       "s": "B",
+       "t": "うん、とても便利で、時間も省けるよ。"
+      },
+      {
+       "s": "A",
+       "t": "でも、個人情報は心配じゃない？"
+      },
+      {
+       "s": "B",
+       "t": "だから、安全なサイトでしか買わないようにしているよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 요즘 온라인 쇼핑 자주 해?\nB: 응, 매우 편리해서 시간을 아낄 수 있어.\nA: 하지만 개인 정보가 걱정되지 않아?\nB: 그래서 항상 보안이 확실한 사이트에서만 사.",
+     "en": "A: Do you shop online often these days?\nB: Yes, it's very convenient and saves me time.\nA: But aren't you worried about your personal data?\nB: That's why I only buy from secure sites."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bはなぜ安全なサイトでしか買いませんか。",
+      "options": [
+       "個人情報が心配だから",
+       "値段が高いから",
+       "店が近いから"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "スマートフォンは私たちの生活を大きく変えました。道を調べたり、銀行の手続きをしたり、友達と話したりすることが、一台でできます。しかし、一日中画面を見るのは健康に悪く、個人情報が漏れることも心配です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "스마트폰은 우리 삶을 크게 바꿨습니다. 길을 찾고 은행 업무를 보고 친구와 대화하는 일이 모두 한 기기로 가능해졌습니다. 하지만 하루 종일 화면을 보는 것은 건강에 좋지 않고 개인 정보 유출도 걱정됩니다.",
+     "en": "Smartphones have changed our lives a great deal. Finding our way, doing our banking and chatting with friends can all be done on one device. But looking at a screen all day is bad for your health, and leaks of personal data are also a worry."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "画面を一日中見るとどうなりますか。",
+      "options": [
+       "健康に悪い",
+       "目がよくなる",
+       "頭がよくなる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "技術サポートです。"
+      },
+      {
+       "s": "B",
+       "t": "Wi-Fiにつながりません。"
+      },
+      {
+       "s": "A",
+       "t": "ルーターの電源を入れ直してみましたか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、やってみましたが、まだだめです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 기술 지원 센터입니다.\n손님: 와이파이에 연결이 안 돼요.\n직원: 공유기를 껐다가 다시 켜 보셨나요?\n손님: 네, 해 봤는데도 안 돼요.",
+     "en": "Agent: Technical support.\nGuest: I can't connect to the Wi-Fi.\nAgent: Have you tried switching the router off and on again?\nGuest: Yes, I have, but it still doesn't work."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "つながらないもの：______",
+      "answers": [
+       "Wi-Fi"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "試したこと：ルーターの______",
+      "answers": [
+       "電源"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は___で買い物をします。\n2) このアプリは無料で___。\n3) スマホ依存は深刻な___です。",
+    "trans": {
+     "ko": "1) 나는 온라인으로 물건을 사요. 2) 이 앱은 무료로 다운로드할 수 있어요. 3) 스마트폰 중독은 심각한 문제예요.",
+     "en": "1) I buy things online. 2) This app can be downloaded for free. 3) Smartphone addiction is a serious problem."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は___で買い物をします。",
+      "options": [
+       "オンライン",
+       "オフライン",
+       "オーバー"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "このアプリは無料で___。",
+      "options": [
+       "ダウンロードできます",
+       "ダウンロードしません",
+       "ダウンロードでした"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "スマホ依存は深刻な___です。",
+      "options": [
+       "問題",
+       "約束",
+       "計画"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "スマートフォンは私たちの生活を大きく変えました。道を調べたり、銀行の手続きをしたり、友達と話したりすることが、一台で(1)。しかし、一日中画面を見るのは健康に(2)、個人情報が漏れることも(3)。",
+    "trans": {
+     "ko": "스마트폰은 우리 삶을 크게 바꿨습니다. 길을 찾고 은행 업무를 보고 친구와 대화하는 일이 모두 한 기기로 가능해졌습니다. 하지만 하루 종일 화면을 보는 것은 건강에 좋지 않고 개인 정보 유출도 걱정됩니다.",
+     "en": "Smartphones have changed our lives a great deal. Finding our way, doing our banking and chatting with friends can all be done on one device. But looking at a screen all day is bad for your health, and leaks of personal data are also a worry."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "できます",
+       "できません",
+       "しません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "悪く",
+       "よく",
+       "強く"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "心配です",
+       "安心です",
+       "得意です"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "お知らせ\nサービスのメンテナンス\n六月五日の午前一時から四時まで、アプリはメンテナンス中です。その間、ログインや支払いはできません。ご迷惑をおかけして申し訳ありません。",
+    "trans": {
+     "ko": "공지\n서비스 점검 안내\n6월 5일 오전 1시부터 4시까지 앱 서비스가 점검됩니다. 이 시간에는 로그인과 결제를 할 수 없습니다. 불편을 드려 죄송합니다.",
+     "en": "NOTICE\nService maintenance\nThe app will be under maintenance from 1 a.m. to 4 a.m. on 5 June. You will not be able to log in or pay during that time. We apologise for the inconvenience."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "メンテナンスは何時からですか。",
+      "options": [
+       "午前一時",
+       "午後一時",
+       "午前四時"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "その間、何ができませんか。",
+      "options": [
+       "ログインや支払い",
+       "電話",
+       "メール"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "トムさんは毎日、何時間もソーシャルメディアを見ていました。睡眠が足りなくなり、成績も下がりました。そこで、一日一時間だけ使うことにしました。",
+    "trans": {
+     "ko": "톰은 매일 소셜 미디어를 몇 시간씩 봤어요. 그는 잠이 부족해지고 성적이 떨어졌어요. 그래서 하루 한 시간만 쓰기로 결심했어요.",
+     "en": "Tom spent several hours on social media every day. He got too little sleep and his grades dropped. So he decided to use it for only one hour a day."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "トムさんは睡眠が足りなくなりました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "トムさんは成績が上がりました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "トムさんは今も何時間も使っています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "テクノロジーで生活はどう変わりましたか。",
+    "read": "テクノロジーでせいかつはどうかわりましたか。",
+    "ko": "기술이 삶을 어떻게 바꿨나요?",
+    "en": "How has technology changed your life?",
+    "situation": {
+     "ko": "변화를 물을 때",
+     "en": "Asking about change"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "ネットショッピングはとても便利です。",
+    "read": "ネットショッピングはとてもべんりです。",
+    "ko": "온라인 쇼핑은 매우 편리해요.",
+    "en": "Online shopping is very convenient.",
+    "situation": {
+     "ko": "장점을 말할 때",
+     "en": "Talking about advantages"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "でも、セキュリティが心配です。",
+    "read": "でも、セキュリティがしんぱいです。",
+    "ko": "하지만 보안이 걱정돼요.",
+    "en": "But I'm worried about security.",
+    "situation": {
+     "ko": "단점을 말할 때",
+     "en": "Talking about disadvantages"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "スマホ依存は深刻な問題です。",
+    "read": "スマホいぞんはしんこくなもんだいです。",
+    "ko": "스마트폰 중독은 심각한 문제예요.",
+    "en": "Smartphone addiction is a serious problem.",
+    "situation": {
+     "ko": "문제를 말할 때",
+     "en": "Describing a problem"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "このアプリは無料でダウンロードできます。",
+    "read": "このアプリはむりょうでダウンロードできます。",
+    "ko": "이 앱은 무료로 다운로드할 수 있어요.",
+    "en": "This app can be downloaded for free.",
+    "situation": {
+     "ko": "정보를 줄 때",
+     "en": "Giving information"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "個人情報をだれにでも教えてはいけません。",
+    "read": "こじんじょうほうをだれにでもおしえてはいけません。",
+    "ko": "개인 정보를 아무에게나 알려 주지 마세요.",
+    "en": "Don't give your personal data to just anyone.",
+    "situation": {
+     "ko": "경고할 때",
+     "en": "Giving a warning"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Wi-Fiにつながりません。",
+    "read": "Wi-Fiにつながりません。",
+    "ko": "와이파이에 연결할 수 없어요.",
+    "en": "I can't connect to the Wi-Fi.",
+    "situation": {
+     "ko": "문제를 말할 때",
+     "en": "Reporting a technical problem"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "便利な一方で、危険もあります。",
+    "read": "べんりないっぽうで、きけんもあります。",
+    "ko": "한편으로는 편리하지만 다른 한편으로는 위험해요.",
+    "en": "On the one hand it's convenient, but on the other hand it's risky.",
+    "situation": {
+     "ko": "양쪽을 비교할 때",
+     "en": "Comparing both sides"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜は便利です。〜ので。",
+    "read": "〜はべんりです。〜ので。",
+    "ko": "~는 ~해서 편리해요.",
+    "en": "~ is convenient because ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜はダウンロードできます。",
+    "read": "〜はダウンロードできます。",
+    "ko": "~는 ~할 수 있어요.",
+    "en": "~ can be + p.p."
+   },
+   {
+    "id": "w3",
+    "t": "〜が心配です。",
+    "read": "〜がしんぱいです。",
+    "ko": "~가 걱정돼요.",
+    "en": "I'm worried about ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜一方で、〜。",
+    "read": "〜いっぽうで、〜。",
+    "ko": "한편으로는 ~, 다른 한편으로는 ~",
+    "en": "On the one hand ~, on the other hand ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "기술의 장점과 단점을 한 가지씩 골라 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about one advantage and one disadvantage of technology."
+   },
+   "must_include": [
+    {
+     "label": "〜ので便利",
+     "match": [
+      "便利です"
+     ]
+    },
+    {
+     "label": "〜が心配",
+     "match": [
+      "心配です"
+     ]
+    },
+    {
+     "label": "〜一方で",
+     "match": [
+      "一方で"
+     ]
+    },
+    {
+     "label": "ダウンロードできる",
+     "match": [
+      "ダウンロードできます"
+     ]
+    }
+   ],
+   "model": "ネットショッピングは時間が省けるので、とても便利です。その一方で、個人情報がハッキングされることが心配です。このアプリは無料でダウンロードできますが、セキュリティに気をつけてください。スマホ依存も深刻な問題です。",
+   "model_trans": {
+    "ko": "온라인 쇼핑은 매우 편리해서 시간을 아낄 수 있어요. 한편으로는 개인 정보가 해킹당할 수 있어서 걱정돼요. 이 앱은 무료로 다운로드할 수 있지만 보안에 주의해야 해요. 스마트폰 중독도 심각한 문제예요.",
+    "en": "Online shopping is very convenient because it saves time. On the other hand, personal data can be hacked, so I'm worried. This app can be downloaded for free, but you should be careful about security. Smartphone addiction is also a serious problem."
+   }
+  }
+ }
+}
