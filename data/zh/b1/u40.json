@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "zh_b1_u40",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 40,
+  "concept": "B1.U40",
+  "status": "live",
+  "title": {
+   "target": "犯罪和法律：被偷・……的时候・把……抓住",
+   "ko": "범죄와 법",
+   "en": "Crime and the law"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "小偷",
+   "pos": "noun",
+   "read": "xiǎo tōu",
+   "ko": "도둑",
+   "en": "thief",
+   "ex": {
+    "t": "小偷从窗户进来了。",
+    "read": "Xiǎo tōu cóng chuānghu jìn lái le.",
+    "ko": "도둑이 창문으로 들어왔어요.",
+    "en": "A thief came in through the window."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "偷",
+   "pos": "verb",
+   "read": "tōu",
+   "ko": "훔치다",
+   "en": "steal",
+   "ex": {
+    "t": "有人偷了我的自行车。",
+    "read": "Yǒu rén tōu le wǒ de zìxíngchē.",
+    "ko": "내 자전거를 누군가 훔쳐 갔어요.",
+    "en": "Somebody stole my bike."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "抢劫",
+   "pos": "noun",
+   "read": "qiǎng jié",
+   "ko": "강도",
+   "en": "robbery",
+   "ex": {
+    "t": "昨晚发生了一起银行抢劫案。",
+    "read": "Zuówǎn fāshēng le yìqǐ yínháng qiǎng jié àn.",
+    "ko": "어젯밤 은행 강도 사건이 있었어요.",
+    "en": "There was a bank robbery last night."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "逮捕",
+   "pos": "verb",
+   "read": "dài bǔ",
+   "ko": "체포하다",
+   "en": "arrest",
+   "ex": {
+    "t": "警察逮捕了嫌疑人。",
+    "read": "Jǐng chá dài bǔ le xián yí rén.",
+    "ko": "경찰은 용의자를 체포했어요.",
+    "en": "The police arrested the suspect."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "目击者",
+   "pos": "noun",
+   "read": "mù jī zhě",
+   "ko": "목격자",
+   "en": "witness",
+   "ex": {
+    "t": "事故有一位目击者。",
+    "read": "Shì gù yǒu yí wèi mù jī zhě.",
+    "ko": "그 사고의 목격자가 있었어요.",
+    "en": "There was a witness to the accident."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "嫌疑人",
+   "pos": "noun",
+   "read": "xián yí rén",
+   "ko": "용의자",
+   "en": "suspect",
+   "ex": {
+    "t": "嫌疑人是一个二十多岁的男人。",
+    "read": "Xián yí rén shì yí ge èrshí duō suì de nánrén.",
+    "ko": "용의자는 20대 남성이에요.",
+    "en": "The suspect is a man in his twenties."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "报警",
+   "pos": "verb",
+   "read": "bào jǐng",
+   "ko": "신고하다",
+   "en": "report",
+   "ex": {
+    "t": "我向警察报了案。",
+    "read": "Wǒ xiàng jǐng chá bào le àn.",
+    "ko": "나는 그 사건을 경찰에 신고했어요.",
+    "en": "I reported the incident to the police."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "审判",
+   "pos": "noun",
+   "read": "shěn pàn",
+   "ko": "재판",
+   "en": "trial",
+   "ex": {
+    "t": "审判将在下个月进行。",
+    "read": "Shěn pàn jiāng zài xià ge yuè jìn xíng.",
+    "ko": "재판은 다음 달에 열려요.",
+    "en": "The trial will take place next month."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "罚款",
+   "pos": "noun",
+   "read": "fákuǎn",
+   "ko": "벌금",
+   "en": "fine",
+   "ex": {
+    "t": "他因为违章停车被罚了款。",
+    "read": "Tā yīnwèi wéi zhāng tíngchē bèi fá le kuǎn.",
+    "ko": "그는 주차 위반으로 벌금을 냈어요.",
+    "en": "He paid a fine for illegal parking."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "安全",
+   "pos": "adv",
+   "read": "ān quán",
+   "ko": "안전하게",
+   "en": "safely",
+   "ex": {
+    "t": "离开时请把门锁好。",
+    "read": "Líkāi shí qǐng bǎ mén suǒ hǎo.",
+    "ko": "집을 나갈 때 문을 안전하게 잠그세요.",
+    "en": "Lock the door safely when you leave."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "범죄와 법: 被偷・正在……的时候・把……抓住",
+   "en": "Crime and the law: 被偷 / 正在……的时候 / 把……抓住"
+  },
+  "explain": {
+   "ko": "说被害，用“被”：我的包被偷了。说当时在做什么，用“……的时候”“正在……”：我正在看书的时候，包被偷了。说警察的行动：警察逮捕了嫌疑人。说报案：我向警察报了案。描述嫌疑人：他个子很高，穿着黑色外套。",
+   "en": "Victim: 被: 我的包被偷了. What you were doing: 正在……的时候. Police: 警察逮捕了嫌疑人. Reporting: 向警察报案. Describe a suspect: 他个子很高，穿着黑色外套."
+  },
+  "table": {
+   "head": [
+    "구조 / 结构",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "피해 / 被害",
+     "……被偷了",
+     "包被偷了"
+    ],
+    [
+     "상황 / 情况",
+     "正在……的时候",
+     "正在看书的时候"
+    ],
+    [
+     "체포 / 逮捕",
+     "警察逮捕了……",
+     "逮捕了嫌疑人"
+    ],
+    [
+     "신고 / 报案",
+     "向警察报案",
+     "向警察报了案"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“被”后面常省略不明确的施事者。",
+    "en": "After 被 an unknown doer is often omitted."
+   },
+   {
+    "ko": "“正在……的时候”表示当时进行的动作。",
+    "en": "正在……的时候 describes an action in progress."
+   },
+   {
+    "ko": "描述外貌可以用“穿着……”。",
+    "en": "Use 穿着…… to describe appearance."
+   }
+  ],
+  "examples": [
+   {
+    "t": "有人偷了我的自行车。",
+    "read": "Yǒu rén tōu le wǒ de zìxíngchē.",
+    "ko": "내 자전거를 누군가 훔쳐 갔어요.",
+    "en": "Somebody stole my bike."
+   },
+   {
+    "t": "昨晚发生了一起银行抢劫案。",
+    "read": "Zuówǎn fāshēng le yìqǐ yínháng qiǎng jié àn.",
+    "ko": "어젯밤 은행 강도 사건이 있었어요.",
+    "en": "There was a bank robbery last night."
+   },
+   {
+    "t": "警察逮捕了嫌疑人。",
+    "read": "Jǐng chá dài bǔ le xián yí rén.",
+    "ko": "경찰은 용의자를 체포했어요.",
+    "en": "The police arrested the suspect."
+   },
+   {
+    "t": "我向警察报了案。",
+    "read": "Wǒ xiàng jǐng chá bào le àn.",
+    "ko": "나는 그 사건을 경찰에 신고했어요.",
+    "en": "I reported the incident to the police."
+   },
+   {
+    "t": "他因为违章停车被罚了款。",
+    "read": "Tā yīnwèi wéi zhāng tíngchē bèi fá le kuǎn.",
+    "ko": "그는 주차 위반으로 벌금을 냈어요.",
+    "en": "He paid a fine for illegal parking."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我的包___偷了。",
+    "options": [
+     "被",
+     "把",
+     "给"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我正在看书___时候，包被偷了。",
+    "options": [
+     "的",
+     "了",
+     "着"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "警察___了嫌疑人。",
+    "options": [
+     "逮捕",
+     "借",
+     "买"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我向警察报___案。",
+    "options": [
+     "了",
+     "着",
+     "吗"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "发生了什么事？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 무슨 일이 있었어요?",
+     "en": "(Question) What happened?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我的包被偷了。",
+       "我昨天买了包。",
+       "包很大。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "当时你在做什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그때 뭘 하고 계셨어요?",
+     "en": "(Question) What were you doing at the time?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我正在街上走。",
+       "我昨天走了。",
+       "街很宽。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这里是派出所，请问怎么了？"
+      },
+      {
+       "s": "B",
+       "t": "昨晚我的包在地铁里被偷了。"
+      },
+      {
+       "s": "A",
+       "t": "当时你在做什么？"
+      },
+      {
+       "s": "B",
+       "t": "我在看书。嫌疑人个子很高，穿着黑色外套。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 경찰서입니다. 무슨 일이세요?\nB: 어젯밤 지하철에서 제 가방이 도난당했어요.\nA: 그때 뭘 하고 계셨나요?\nB: 책을 읽고 있었어요. 용의자는 키가 크고 검은 코트를 입고 있었어요.",
+     "en": "A: Police station. What's the matter?\nB: My bag was stolen on the subway last night.\nA: What were you doing at the time?\nB: I was reading a book. The suspect was tall and wearing a black coat."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B在地铁里做什么？",
+      "options": [
+       "看书",
+       "睡觉",
+       "打电话"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨晚十点左右，市中心的一家银行发生了抢劫案。两个男人闯进银行，抢走了一些现金。警察马上赶到，一个小时后逮捕了一名嫌疑人。目击者的帮助非常重要。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어젯밤 10시쯤 시내 은행에서 강도 사건이 일어났습니다. 두 명의 남성이 은행에 침입해 현금을 훔쳤습니다. 경찰은 사건 직후 도착했고 한 시간 뒤 용의자 한 명을 체포했습니다. 목격자의 도움이 컸습니다.",
+     "en": "At about ten o'clock last night a robbery took place at a bank in the city centre. Two men broke into the bank and stole some cash. The police arrived immediately and arrested one suspect an hour later. The help of a witness was very important."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "警察逮捕了几个人？",
+      "options": [
+       "一个",
+       "两个",
+       "十个"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这里是报案中心。"
+      },
+      {
+       "s": "B",
+       "t": "我的自行车昨晚被偷了。"
+      },
+      {
+       "s": "A",
+       "t": "在哪里被偷的？"
+      },
+      {
+       "s": "B",
+       "t": "我家门前，大约十点。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "경찰: 신고 접수 센터입니다.\n손님: 어젯밤 제 자전거가 도난당했어요.\n경찰: 어디서 도난당했나요?\n손님: 집 앞에서요. 오후 10시쯤이었어요.",
+     "en": "Police: Reporting centre.\nGuest: My bicycle was stolen last night.\nPolice: Where was it stolen?\nGuest: In front of my house, at about ten o'clock."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "被偷的东西：______",
+      "answers": [
+       "自行车"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "被偷的地方：我家______",
+      "answers": [
+       "门前"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 有人___了我的自行车。\n2) 警察___了嫌疑人。\n3) 我向警察报___案。",
+    "trans": {
+     "ko": "1) 내 자전거를 누군가 훔쳐 갔어요. 2) 경찰은 용의자를 체포했어요. 3) 나는 그 사건을 경찰에 신고했어요.",
+     "en": "1) Somebody stole my bike. 2) The police arrested the suspect. 3) I reported the incident to the police."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "有人___了我的自行车。",
+      "options": [
+       "偷",
+       "借",
+       "买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "警察___了嫌疑人。",
+      "options": [
+       "逮捕",
+       "借",
+       "买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我向警察报___案。",
+      "options": [
+       "了",
+       "着",
+       "吗"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "昨晚十点左右，市中心的一家银行发生了(1)案。两个男人闯进银行，抢走了一些现金。警察马上赶到，一个小时后(2)了一名嫌疑人。目击者的帮助(3)重要。",
+    "trans": {
+     "ko": "어젯밤 10시쯤 시내 은행에서 강도 사건이 일어났습니다. 두 명의 남성이 은행에 침입해 현금을 훔쳤습니다. 경찰은 사건 직후 도착했고 한 시간 뒤 용의자 한 명을 체포했습니다. 목격자의 도움이 컸습니다.",
+     "en": "At about ten o'clock last night a robbery took place at a bank in the city centre. Two men broke into the bank and stole some cash. The police arrived immediately and arrested one suspect an hour later. The help of a witness was very important."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "抢劫",
+       "音乐",
+       "旅行"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "逮捕",
+       "借",
+       "买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "非常",
+       "不",
+       "没"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "提醒\n最近这个地区自行车被盗的案件增多了。请务必把自行车锁好，看到可疑的人请向警察报告。",
+    "trans": {
+     "ko": "경고문\n최근 이 지역에서 자전거 도난 사건이 늘고 있습니다. 자전거는 반드시 잠가 두시고 의심스러운 사람을 보면 경찰에 신고해 주세요.",
+     "en": "WARNING\nBicycle thefts have been increasing in this area recently. Please make sure to lock your bicycle, and report anyone suspicious to the police."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这个地区什么增多了？",
+      "options": [
+       "自行车被盗",
+       "交通事故",
+       "火灾"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "看到可疑的人怎么办？",
+      "options": [
+       "向警察报告",
+       "不管他",
+       "追他"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "马克昨天因为违章停车被罚了款。他说他没看到标志。最后他决定交罚款。",
+    "trans": {
+     "ko": "마크는 어제 주차 위반으로 벌금을 받았어요. 그는 표지판을 보지 못했다고 말했어요. 결국 그는 벌금을 내기로 했어요.",
+     "en": "Mark was fined for illegal parking yesterday. He said he hadn't seen the sign. In the end he decided to pay the fine."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "马克被罚了款。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "马克没交罚款。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "马克说他看到了标志。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "发生了什么事？",
+    "read": "Fāshēng le shénme shì?",
+    "ko": "무슨 일이 있었어요?",
+    "en": "What happened?",
+    "situation": {
+     "ko": "상황을 물을 때",
+     "en": "Asking what happened"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我的自行车被偷了。",
+    "read": "Wǒ de zìxíngchē bèi tōu le.",
+    "ko": "내 자전거를 누군가 훔쳐 갔어요.",
+    "en": "Somebody stole my bike.",
+    "situation": {
+     "ko": "도난을 알릴 때",
+     "en": "Reporting a theft"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我的包被偷了。",
+    "read": "Wǒ de bāo bèi tōu le.",
+    "ko": "제 가방이 도난당했어요.",
+    "en": "My bag was stolen.",
+    "situation": {
+     "ko": "수동태로 말할 때",
+     "en": "Using the passive"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "当时你在做什么？",
+    "read": "Dāngshí nǐ zài zuò shénme?",
+    "ko": "그때 뭘 하고 계셨어요?",
+    "en": "What were you doing at the time?",
+    "situation": {
+     "ko": "경찰이 물을 때",
+     "en": "What the police ask"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我正在街上走。",
+    "read": "Wǒ zhèngzài jiē shàng zǒu.",
+    "ko": "저는 길을 걷고 있었어요.",
+    "en": "I was walking along the street.",
+    "situation": {
+     "ko": "상황을 설명할 때",
+     "en": "Describing the situation"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "你看到嫌疑人了吗？",
+    "read": "Nǐ kàn dào xián yí rén le ma?",
+    "ko": "용의자를 보셨어요?",
+    "en": "Did you see the suspect?",
+    "situation": {
+     "ko": "목격 여부를 물을 때",
+     "en": "Asking about a witness"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "他个子很高，穿着黑色外套。",
+    "read": "Tā gè zi hěn gāo, chuānzhe hēisè wàitào.",
+    "ko": "키가 크고 검은 코트를 입고 있었어요.",
+    "en": "He was tall and wearing a black coat.",
+    "situation": {
+     "ko": "외모를 설명할 때",
+     "en": "Describing someone"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "请马上向警察报案。",
+    "read": "Qǐng mǎshàng xiàng jǐng chá bào àn.",
+    "ko": "바로 경찰에 신고하세요.",
+    "en": "Report it to the police immediately.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我的……被偷了。",
+    "read": "Wǒ de … bèi tōu le.",
+    "ko": "~가 도난당했어요.",
+    "en": "My ~ was stolen."
+   },
+   {
+    "id": "w2",
+    "t": "我正在……的时候……。",
+    "read": "Wǒ zhèngzài … de shíhou ….",
+    "ko": "나는 ~하고 있었어요.",
+    "en": "I was ~ing when ~."
+   },
+   {
+    "id": "w3",
+    "t": "警察逮捕了……。",
+    "read": "Jǐng chá dài bǔ le ….",
+    "ko": "경찰은 ~를 체포했어요.",
+    "en": "The police arrested ~."
+   },
+   {
+    "id": "w4",
+    "t": "我向警察报了案。",
+    "read": "Wǒ xiàng jǐng chá bào le àn.",
+    "ko": "~를 경찰에 신고했어요.",
+    "en": "I reported ~ to the police."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가상의 도난 사건을 경찰에 신고하는 상황을 과거형과 수동태를 사용해 4문장으로 써 보세요.",
+    "en": "Imagine reporting a theft to the police and write 4 sentences using the past simple and the passive."
+   },
+   "must_include": [
+    {
+     "label": "被偷",
+     "match": [
+      "被偷了"
+     ]
+    },
+    {
+     "label": "……的时候",
+     "match": [
+      "的时候"
+     ]
+    },
+    {
+     "label": "嫌疑人",
+     "match": [
+      "嫌疑人"
+     ]
+    },
+    {
+     "label": "报案",
+     "match": [
+      "向警察报了案"
+     ]
+    }
+   ],
+   "model": "昨晚我的包在地铁里被偷了。我正在看书的时候，有人把它拿走了。嫌疑人个子很高，穿着黑色外套。我马上向警察报了案。",
+   "model_trans": {
+    "ko": "어젯밤 제 가방이 지하철에서 도난당했어요. 저는 책을 읽고 있었는데 누군가 가방을 가져갔어요. 용의자는 키가 크고 검은 코트를 입고 있었어요. 저는 바로 경찰에 신고했어요.",
+    "en": "My bag was stolen on the subway last night. I was reading a book when somebody took it. The suspect was tall and wearing a black coat. I reported it to the police immediately."
+   }
+  }
+ }
+}

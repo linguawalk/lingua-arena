@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "zh_b1_u39",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 39,
+  "concept": "B1.U39",
+  "status": "live",
+  "title": {
+   "target": "食物和烹饪：先……然后……最后……",
+   "ko": "음식과 요리",
+   "en": "Food and cooking"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "材料",
+   "pos": "noun",
+   "read": "cái liào",
+   "ko": "재료",
+   "en": "ingredient",
+   "ex": {
+    "t": "这道菜的材料很简单。",
+    "read": "Zhè dào cài de cái liào hěn jiǎn dān.",
+    "ko": "이 요리의 재료는 간단해요.",
+    "en": "The ingredients of this dish are simple."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "切",
+   "pos": "verb",
+   "read": "qiè",
+   "ko": "썰다",
+   "en": "chop",
+   "ex": {
+    "t": "把洋葱切碎。",
+    "read": "Bǎ yáng cōng qiè suì.",
+    "ko": "양파를 잘게 썰어 주세요.",
+    "en": "Chop the onion finely."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "炒",
+   "pos": "verb",
+   "read": "chǎo",
+   "ko": "볶다",
+   "en": "fry",
+   "ex": {
+    "t": "用中火把肉炒五分钟。",
+    "read": "Yòng zhōng huǒ bǎ ròu chǎo wǔ fēnzhōng.",
+    "ko": "고기를 중불에서 5분간 볶으세요.",
+    "en": "Fry the meat on medium heat for five minutes."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "煮",
+   "pos": "verb",
+   "read": "zhǔ",
+   "ko": "끓이다",
+   "en": "boil",
+   "ex": {
+    "t": "把水烧开，然后放面条。",
+    "read": "Bǎ shuǐ shāo kāi, ránhòu fàng miàn tiáo.",
+    "ko": "물을 끓인 다음 파스타를 넣으세요.",
+    "en": "Boil the water, then add the pasta."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "烤",
+   "pos": "verb",
+   "read": "kǎo",
+   "ko": "굽다",
+   "en": "bake",
+   "ex": {
+    "t": "把蛋糕用一百八十度烤三十分钟。",
+    "read": "Bǎ dàn gāo yòng yìbǎibāshí dù kǎo sānshí fēnzhōng.",
+    "ko": "케이크를 180도에서 30분간 구워요.",
+    "en": "Bake the cake at 180 degrees for thirty minutes."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "搅拌",
+   "pos": "verb",
+   "read": "jiǎobàn",
+   "ko": "섞다",
+   "en": "mix",
+   "ex": {
+    "t": "把面粉和鸡蛋搅拌均匀。",
+    "read": "Bǎ miàn fěn hé jīdàn jiǎobàn jūn yún.",
+    "ko": "밀가루와 달걀을 잘 섞으세요.",
+    "en": "Mix the flour and eggs well."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "尝",
+   "pos": "verb",
+   "read": "cháng",
+   "ko": "맛을 보다",
+   "en": "taste",
+   "ex": {
+    "t": "放盐以前先尝一尝。",
+    "read": "Fàng yán yǐqián xiān cháng yì cháng.",
+    "ko": "소금을 넣기 전에 맛을 보세요.",
+    "en": "Taste it before you add salt."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "先",
+   "pos": "adv",
+   "read": "xiān",
+   "ko": "먼저",
+   "en": "first",
+   "ex": {
+    "t": "先把蔬菜洗干净。",
+    "read": "Xiān bǎ shūcài xǐ gān jìng.",
+    "ko": "먼저 채소를 씻으세요.",
+    "en": "First, wash the vegetables."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "然后",
+   "pos": "adv",
+   "read": "ránhòu",
+   "ko": "그다음에",
+   "en": "then",
+   "ex": {
+    "t": "然后把火调小。",
+    "read": "Ránhòu bǎ huǒ diào xiǎo.",
+    "ko": "그다음에 불을 줄이세요.",
+    "en": "Then turn down the heat."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "最后",
+   "pos": "adv",
+   "read": "zuìhòu",
+   "ko": "마지막으로",
+   "en": "finally",
+   "ex": {
+    "t": "最后把菜盛到盘子里。",
+    "read": "Zuìhòu bǎ cài shèng dào pán zi lǐ.",
+    "ko": "마지막으로 접시에 담으세요.",
+    "en": "Finally, put it on a plate."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "음식과 요리: 先……然后……最后……・……以前・……以后",
+   "en": "Food and cooking: 先……然后……最后…… / ……以前 / ……以后"
+  },
+  "explain": {
+   "ko": "说步骤，用“先……，然后……，最后……”：先洗菜，然后切，最后炒。说在……以前，用“……以前”：放盐以前先尝一尝。说完成以后，用“……以后”：洗好以后再切。说时间，用“……分钟”，说火力，用“大火”“中火”“小火”。",
+   "en": "Steps: 先……，然后……，最后……. Before: ……以前. After: ……以后. Time: ……分钟. Heat: 大火 / 中火 / 小火."
+  },
+  "table": {
+   "head": [
+    "구조 / 结构",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "순서 / 顺序",
+     "先……然后……最后……",
+     "先洗然后切最后炒"
+    ],
+    [
+     "이전 / 以前",
+     "……以前",
+     "放盐以前尝一尝"
+    ],
+    [
+     "이후 / 以后",
+     "……以后",
+     "洗好以后再切"
+    ],
+    [
+     "시간 / 时间",
+     "……分钟",
+     "炒五分钟"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“把”字句常用于菜谱。",
+    "en": "把 sentences are common in recipes."
+   },
+   {
+    "ko": "“再”表示动作的先后。",
+    "en": "再 shows sequence."
+   },
+   {
+    "ko": "菜谱里常省略主语。",
+    "en": "Recipes often omit the subject."
+   }
+  ],
+  "examples": [
+   {
+    "t": "把洋葱切碎。",
+    "read": "Bǎ yáng cōng qiè suì.",
+    "ko": "양파를 잘게 썰어 주세요.",
+    "en": "Chop the onion finely."
+   },
+   {
+    "t": "用中火把肉炒五分钟。",
+    "read": "Yòng zhōng huǒ bǎ ròu chǎo wǔ fēnzhōng.",
+    "ko": "고기를 중불에서 5분간 볶으세요.",
+    "en": "Fry the meat on medium heat for five minutes."
+   },
+   {
+    "t": "把水烧开，然后放面条。",
+    "read": "Bǎ shuǐ shāo kāi, ránhòu fàng miàn tiáo.",
+    "ko": "물을 끓인 다음 파스타를 넣으세요.",
+    "en": "Boil the water, then add the pasta."
+   },
+   {
+    "t": "放盐以前先尝一尝。",
+    "read": "Fàng yán yǐqián xiān cháng yì cháng.",
+    "ko": "케이크를 180도에서 30분간 구워요.",
+    "en": "Bake the cake at 180 degrees for thirty minutes."
+   },
+   {
+    "t": "最后把菜盛到盘子里。",
+    "read": "Zuìhòu bǎ cài shèng dào pán zi lǐ.",
+    "ko": "마지막으로 접시에 담으세요.",
+    "en": "Finally, put it on a plate."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "先把蔬菜洗___。",
+    "options": [
+     "干净",
+     "高兴",
+     "好看"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "放盐___先尝一尝。",
+    "options": [
+     "以前",
+     "以后",
+     "刚才"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "把水烧开，___放面条。",
+    "options": [
+     "然后",
+     "但是",
+     "虽然"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "用中火炒五___。",
+    "options": [
+     "分钟",
+     "个",
+     "只"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这道菜怎么做？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 요리는 어떻게 만들어요?",
+     "en": "(Question) How do you make this dish?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "先把蔬菜洗干净。",
+       "我昨天吃了。",
+       "菜很大。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "面条要煮多长时间？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 파스타는 몇 분 동안 끓여요?",
+     "en": "(Question) How long do you boil the pasta?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "煮十分钟。",
+       "我昨天煮了。",
+       "面条很长。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个意大利面酱怎么做？"
+      },
+      {
+       "s": "B",
+       "t": "先把洋葱切碎炒一炒，然后放番茄，煮十分钟。"
+      },
+      {
+       "s": "A",
+       "t": "什么时候放盐？"
+      },
+      {
+       "s": "B",
+       "t": "最后，尝过以后再放。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 파스타 소스는 어떻게 만들어?\nB: 먼저 양파를 잘게 썰어서 볶아. 그다음에 토마토를 넣고 10분간 끓여.\nA: 소금은 언제 넣어?\nB: 맨 마지막에, 맛을 보고 넣어.",
+     "en": "A: How do you make this pasta sauce?\nB: First, chop the onion and fry it. Then add the tomatoes and boil for ten minutes.\nA: When do you add the salt?\nB: At the end, after you taste it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "盐什么时候放？",
+      "options": [
+       "尝过以后",
+       "一开始",
+       "炒以前"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今天我们来做简单的番茄意大利面。先把水烧开，放进面条。然后在锅里炒洋葱，放番茄煮十分钟。最后，放盐以前先尝一尝酱汁，再和面条搅拌。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "오늘은 간단한 토마토 파스타를 만들어 봅시다. 먼저 물을 끓이고 파스타를 넣으세요. 그다음에 팬에 양파를 볶고 토마토를 넣어 10분간 끓이세요. 마지막으로 소금을 넣기 전에 맛을 보고 파스타와 섞으세요.",
+     "en": "Today let's make a simple tomato pasta. First, boil some water and add the pasta. Then fry the onion in a pan, add the tomatoes and boil for ten minutes. Finally, taste the sauce before you add salt, then mix it with the pasta."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "番茄要煮几分钟？",
+      "options": [
+       "十分钟",
+       "一分钟",
+       "一小时"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这里是烹饪学校。"
+      },
+      {
+       "s": "B",
+       "t": "我想报名这个周末的课。"
+      },
+      {
+       "s": "A",
+       "t": "星期六的课是做蛋糕。"
+      },
+      {
+       "s": "B",
+       "t": "材料是提供的吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 요리 학원 접수처입니다.\n손님: 이번 주말 수업에 등록하고 싶어요.\n직원: 토요일은 케이크 굽기 수업입니다.\n손님: 재료도 제공되나요?",
+     "en": "Clerk: Cooking school reception.\nGuest: I'd like to sign up for this weekend's class.\nClerk: Saturday's class is on baking cakes.\nGuest: Are the ingredients provided?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "星期六的课：做______",
+      "answers": [
+       "蛋糕"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "想问的：______是提供的吗",
+      "answers": [
+       "材料"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 把洋葱___碎。\n2) 把水烧开，___放面条。\n3) ___把菜盛到盘子里。",
+    "trans": {
+     "ko": "1) 양파를 잘게 썰어 주세요. 2) 물을 끓인 다음 파스타를 넣으세요. 3) 마지막으로 접시에 담으세요.",
+     "en": "1) Chop the onion finely. 2) Boil the water, then add the pasta. 3) Finally, put it on a plate."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "把洋葱___碎。",
+      "options": [
+       "切",
+       "洗",
+       "买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "把水烧开，___放面条。",
+      "options": [
+       "然后",
+       "但是",
+       "虽然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___把菜盛到盘子里。",
+      "options": [
+       "最后",
+       "先",
+       "然后"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "今天我们来做简单的番茄意大利面。先把水烧开，放进面条。(1)在锅里炒洋葱，放番茄煮十分钟。最后，放盐(2)先尝一尝酱汁，再和面条(3)。",
+    "trans": {
+     "ko": "오늘은 간단한 토마토 파스타를 만들어 봅시다. 먼저 물을 끓이고 파스타를 넣으세요. 그다음에 팬에 양파를 볶고 토마토를 넣어 10분간 끓이세요. 마지막으로 소금을 넣기 전에 맛을 보고 파스타와 섞으세요.",
+     "en": "Today let's make a simple tomato pasta. First, boil some water and add the pasta. Then fry the onion in a pan, add the tomatoes and boil for ten minutes. Finally, taste the sauce before you add salt, then mix it with the pasta."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "然后",
+       "但是",
+       "虽然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "以前",
+       "以后",
+       "刚才"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "搅拌",
+       "扔掉",
+       "关掉"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "食谱\n泡菜炒饭（两人份）\n材料：米饭两碗，泡菜一杯，鸡蛋两个，少许油\n1. 把泡菜切碎。2. 锅里放油，炒泡菜。3. 放米饭，搅拌。4. 上面放一个蛋。",
+    "trans": {
+     "ko": "요리법\n김치볶음밥 (2인분)\n재료: 밥 2공기, 김치 1컵, 달걀 2개, 식용유 약간\n1. 김치를 잘게 썬다. 2. 팬에 기름을 두르고 김치를 볶는다. 3. 밥을 넣고 섞는다. 4. 달걀을 올린다.",
+     "en": "RECIPE\nKimchi fried rice (serves 2)\nIngredients: 2 bowls of rice, 1 cup of kimchi, 2 eggs, a little oil\n1. Chop the kimchi. 2. Heat the oil in a pan and fry the kimchi. 3. Add the rice and mix. 4. Put an egg on top."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "需要几个鸡蛋？",
+      "options": [
+       "两个",
+       "一个",
+       "四个"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "米饭什么时候放？",
+      "options": [
+       "炒完泡菜以后",
+       "一开始",
+       "最后"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汤姆第一次烤蛋糕。他严格按照食谱做，可是把烤箱的温度设错了。蛋糕有点烤焦了，但是味道还不错。",
+    "trans": {
+     "ko": "톰은 처음으로 케이크를 구웠어요. 그는 레시피를 정확히 따랐지만 오븐 온도를 잘못 맞췄어요. 케이크는 조금 탔지만 맛은 괜찮았어요.",
+     "en": "Tom baked a cake for the first time. He followed the recipe exactly, but he set the oven temperature wrongly. The cake was a bit burnt, but it tasted fine."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "汤姆第一次烤蛋糕。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "烤箱温度设对了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "蛋糕很难吃。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "这道菜怎么做？",
+    "read": "Zhè dào cài zěnme zuò?",
+    "ko": "이 요리는 어떻게 만들어요?",
+    "en": "How do you make this dish?",
+    "situation": {
+     "ko": "방법을 물을 때",
+     "en": "Asking how to make something"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "先把蔬菜洗干净。",
+    "read": "Xiān bǎ shūcài xǐ gān jìng.",
+    "ko": "먼저 채소를 씻으세요.",
+    "en": "First, wash the vegetables.",
+    "situation": {
+     "ko": "첫 단계를 말할 때",
+     "en": "Giving the first step"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "把洋葱切碎。",
+    "read": "Bǎ yáng cōng qiè suì.",
+    "ko": "양파를 잘게 썰어 주세요.",
+    "en": "Chop the onion finely.",
+    "situation": {
+     "ko": "지시할 때",
+     "en": "Giving an instruction"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "然后炒肉。",
+    "read": "Ránhòu chǎo ròu.",
+    "ko": "그다음에 고기를 볶으세요.",
+    "en": "Then fry the meat.",
+    "situation": {
+     "ko": "다음 단계를 말할 때",
+     "en": "Giving the next step"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "放盐以前先尝一尝。",
+    "read": "Fàng yán yǐqián xiān cháng yì cháng.",
+    "ko": "소금을 넣기 전에 맛을 보세요.",
+    "en": "Taste it before you add salt.",
+    "situation": {
+     "ko": "주의를 줄 때",
+     "en": "Giving a tip"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "用中火炒五分钟。",
+    "read": "Yòng zhōng huǒ chǎo wǔ fēnzhōng.",
+    "ko": "중불에서 5분간 볶으세요.",
+    "en": "Fry it on medium heat for five minutes.",
+    "situation": {
+     "ko": "시간을 말할 때",
+     "en": "Giving cooking time"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "最后把菜盛到盘子里。",
+    "read": "Zuìhòu bǎ cài shèng dào pán zi lǐ.",
+    "ko": "마지막으로 접시에 담으세요.",
+    "en": "Finally, put it on a plate.",
+    "situation": {
+     "ko": "마지막 단계를 말할 때",
+     "en": "Giving the last step"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "看起来真好吃！",
+    "read": "Kànqǐlái zhēn hǎochī!",
+    "ko": "정말 맛있어 보여요!",
+    "en": "It looks delicious!",
+    "situation": {
+     "ko": "감탄할 때",
+     "en": "Reacting"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "先……。",
+    "read": "Xiān ….",
+    "ko": "먼저 ~하세요.",
+    "en": "First, ~."
+   },
+   {
+    "id": "w2",
+    "t": "然后……。",
+    "read": "Ránhòu ….",
+    "ko": "그다음에 ~하세요.",
+    "en": "Then ~. · After that, ~."
+   },
+   {
+    "id": "w3",
+    "t": "……以前……。",
+    "read": "… Yǐqián ….",
+    "ko": "~하기 전에 ~하세요.",
+    "en": "~ before you ~."
+   },
+   {
+    "id": "w4",
+    "t": "最后……。",
+    "read": "Zuìhòu ….",
+    "ko": "마지막으로 ~하세요.",
+    "en": "Finally, ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "좋아하는 요리의 만드는 방법을 순서 표현을 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences explaining how to make your favourite dish, using sequencers."
+   },
+   "must_include": [
+    {
+     "label": "先",
+     "match": [
+      "先把洋葱切碎"
+     ]
+    },
+    {
+     "label": "然后",
+     "match": [
+      "然后"
+     ]
+    },
+    {
+     "label": "以前",
+     "match": [
+      "以前"
+     ]
+    },
+    {
+     "label": "最后",
+     "match": [
+      "最后"
+     ]
+    }
+   ],
+   "model": "先把洋葱切碎。然后用中火炒五分钟。最后，放盐以前先尝一尝。这道菜二十分钟就能做好。",
+   "model_trans": {
+    "ko": "먼저 양파를 잘게 썰어 주세요. 그다음에 중불에서 5분간 볶으세요. 마지막으로 소금을 넣기 전에 꼭 맛을 보세요. 이 요리는 20분이면 만들 수 있어요.",
+    "en": "First, chop the onion finely. Then fry it on medium heat for five minutes. Finally, taste it before you add salt. This dish can be made in twenty minutes."
+   }
+  }
+ }
+}

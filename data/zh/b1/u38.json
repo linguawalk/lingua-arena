@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "zh_b1_u38",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 38,
+  "concept": "B1.U38",
+  "status": "live",
+  "title": {
+   "target": "新闻和媒体：据……报道・听说・被……报道",
+   "ko": "뉴스와 미디어",
+   "en": "News and the media"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "新闻",
+   "pos": "noun",
+   "read": "xīn wén",
+   "ko": "뉴스",
+   "en": "news",
+   "ex": {
+    "t": "我每天早上看新闻。",
+    "read": "Wǒ měitiān zǎoshang kàn xīn wén.",
+    "ko": "저는 매일 아침 뉴스를 봐요.",
+    "en": "I watch the news every morning."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "标题",
+   "pos": "noun",
+   "read": "biāo tí",
+   "ko": "헤드라인",
+   "en": "headline",
+   "ex": {
+    "t": "那个标题引起了我的注意。",
+    "read": "Nàge biāo tí yǐn qǐ le wǒ de zhù yì.",
+    "ko": "그 헤드라인이 내 눈길을 끌었어요.",
+    "en": "The headline caught my eye."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "文章",
+   "pos": "noun",
+   "read": "wén zhāng",
+   "ko": "기사",
+   "en": "article",
+   "ex": {
+    "t": "我读了那篇报纸文章。",
+    "read": "Wǒ dú le nà piān bào zhǐ wén zhāng.",
+    "ko": "나는 그 신문 기사를 읽었어요.",
+    "en": "I read that newspaper article."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "记者",
+   "pos": "noun",
+   "read": "jì zhě",
+   "ko": "기자",
+   "en": "journalist",
+   "ex": {
+    "t": "她是一位有名的记者。",
+    "read": "Tā shì yí wèi yǒu míng de jì zhě.",
+    "ko": "그녀는 유명한 기자예요.",
+    "en": "She is a famous journalist."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "报道",
+   "pos": "verb",
+   "read": "bào dào",
+   "ko": "보도하다",
+   "en": "report",
+   "ex": {
+    "t": "那个频道报道了这起事故。",
+    "read": "Nàge pín dào bào dào le zhè qǐ shì gù.",
+    "ko": "방송국은 사고를 보도했어요.",
+    "en": "The channel reported the accident."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "事实",
+   "pos": "noun",
+   "read": "shì shí",
+   "ko": "사실",
+   "en": "fact",
+   "ex": {
+    "t": "文章应该以事实为基础。",
+    "read": "Wén zhāng yīnggāi yǐ shì shí wèi jī chǔ.",
+    "ko": "기사는 사실에 근거해야 해요.",
+    "en": "An article should be based on facts."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "观点",
+   "pos": "noun",
+   "read": "guān diǎn",
+   "ko": "의견",
+   "en": "opinion",
+   "ex": {
+    "t": "这段文字是作者的观点。",
+    "read": "Zhè duàn wén zì shì zuò zhě de guān diǎn.",
+    "ko": "이 글은 필자의 의견이에요.",
+    "en": "This text is the writer's opinion."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "假新闻",
+   "pos": "noun",
+   "read": "jiǎ xīn wén",
+   "ko": "가짜 뉴스",
+   "en": "fake news",
+   "ex": {
+    "t": "假新闻传播得很快。",
+    "read": "Jiǎ xīn wén chuán bō de hěn kuài.",
+    "ko": "가짜 뉴스는 빠르게 퍼질 수 있어요.",
+    "en": "Fake news can spread quickly."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "可靠",
+   "pos": "adj",
+   "read": "kě kào",
+   "ko": "믿을 만한",
+   "en": "reliable",
+   "ex": {
+    "t": "要确认消息来源是否可靠。",
+    "read": "Yào quèrèn xiāo xī lái yuán shìfǒu kě kào.",
+    "ko": "믿을 만한 출처를 확인하세요.",
+    "en": "Check that the source is reliable."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "订阅",
+   "pos": "verb",
+   "read": "dìng yuè",
+   "ko": "구독하다",
+   "en": "subscribe",
+   "ex": {
+    "t": "我订阅了一份网络报纸。",
+    "read": "Wǒ dìng yuè le yí fèn wǎng luò bào zhǐ.",
+    "ko": "나는 온라인 신문을 구독하고 있어요.",
+    "en": "I subscribe to an online newspaper."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "뉴스와 미디어: 据……报道・听说・被……报道",
+   "en": "News and the media: 据……报道 / 听说 / 被……报道"
+  },
+  "explain": {
+   "ko": "转述新闻，用“据……报道”“听说”：据报纸报道，昨晚发生了火灾。被动用“被……报道”：这起事故被各大媒体报道了。区分事实和观点：“事实”“观点”。提醒要确认来源：要确认消息来源是否可靠。",
+   "en": "Report news: 据……报道 / 听说: 据报纸报道，昨晚发生了火灾. Passive: 被……报道. Distinguish 事实 and 观点. Check the source: 要确认消息来源是否可靠."
+  },
+  "table": {
+   "head": [
+    "구조 / 结构",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "전문 / 转述",
+     "据……报道",
+     "据报纸报道……"
+    ],
+    [
+     "전문 / 听说",
+     "听说……",
+     "听说发生了火灾"
+    ],
+    [
+     "피동 / 被动",
+     "被……报道",
+     "被媒体报道"
+    ],
+    [
+     "확인 / 确认",
+     "确认……是否可靠",
+     "确认来源是否可靠"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“据……报道”用于新闻语体。",
+    "en": "据……报道 is used in news style."
+   },
+   {
+    "ko": "“听说”是口语中常用的说法。",
+    "en": "听说 is common in speech."
+   },
+   {
+    "ko": "“是否”是书面语，口语常说“是不是”。",
+    "en": "是否 is formal; speech uses 是不是."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我每天早上看新闻。",
+    "read": "Wǒ měitiān zǎoshang kàn xīn wén.",
+    "ko": "저는 매일 아침 뉴스를 봐요.",
+    "en": "I watch the news every morning."
+   },
+   {
+    "t": "那个频道报道了这起事故。",
+    "read": "Nàge pín dào bào dào le zhè qǐ shì gù.",
+    "ko": "방송국은 사고를 보도했어요.",
+    "en": "The channel reported the accident."
+   },
+   {
+    "t": "文章应该以事实为基础。",
+    "read": "Wén zhāng yīnggāi yǐ shì shí wèi jī chǔ.",
+    "ko": "기사는 사실에 근거해야 해요.",
+    "en": "An article should be based on facts."
+   },
+   {
+    "t": "假新闻传播得很快。",
+    "read": "Jiǎ xīn wén chuán bō de hěn kuài.",
+    "ko": "가짜 뉴스는 빠르게 퍼질 수 있어요.",
+    "en": "Fake news can spread quickly."
+   },
+   {
+    "t": "要确认消息来源是否可靠。",
+    "read": "Yào quèrèn xiāo xī lái yuán shìfǒu kě kào.",
+    "ko": "믿을 만한 출처를 확인하세요.",
+    "en": "Check that the source is reliable."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___报纸报道，昨晚发生了火灾。",
+    "options": [
+     "据",
+     "把",
+     "被"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "这起事故___媒体报道了。",
+    "options": [
+     "被",
+     "把",
+     "给"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "文章应该以___为基础。",
+    "options": [
+     "事实",
+     "朋友",
+     "天气"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "要确认消息来源是否___。",
+    "options": [
+     "可靠",
+     "好吃",
+     "好看"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你怎么获得新闻？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어떻게 뉴스를 접해요?",
+     "en": "(Question) How do you get your news?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我每天早上看电视新闻。",
+       "我昨天睡觉了。",
+       "新闻是蓝色的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你看了那篇文章吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 기사 읽었어요?",
+     "en": "(Question) Have you read that article?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "看了，我昨天读的。",
+       "没有，我昨天去了。",
+       "文章很贵。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你昨天看了关于全球变暖的文章吗？"
+      },
+      {
+       "s": "B",
+       "t": "看了，是一位有名的记者写的，基于很多事实。"
+      },
+      {
+       "s": "A",
+       "t": "现在假新闻很让人担心。"
+      },
+      {
+       "s": "B",
+       "t": "是啊，所以我总是确认消息来源是否可靠。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 지구 온난화 기사 읽었어?\nB: 응, 유명한 기자가 쓴 기사였어. 사실에 근거하고 있었어.\nA: 요즘은 가짜 뉴스가 많아서 걱정돼.\nB: 맞아. 그래서 항상 믿을 만한 출처를 확인해.",
+     "en": "A: Did you read the article about global warming yesterday?\nB: Yes, it was written by a famous journalist and based on facts.\nA: I'm worried about all the fake news these days.\nB: Me too. That's why I always check that the source is reliable."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B总是确认什么？",
+      "options": [
+       "消息来源是否可靠",
+       "天气",
+       "价格"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "下面是今天的主要新闻。昨晚市中心发生了一场大火。消防员很快赶到，一个小时之内火被扑灭了。幸运的是，没有人受伤。确切的原因正在调查中。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "오늘의 주요 뉴스입니다. 어젯밤 시내에서 큰 화재가 발생했습니다. 소방관들이 신속하게 출동해 불은 한 시간 안에 꺼졌습니다. 다행히 다친 사람은 없었습니다. 정확한 원인은 현재 조사 중입니다.",
+     "en": "Here are today's main stories. A large fire broke out in the city centre last night. Firefighters arrived quickly and the fire was put out within an hour. Fortunately, no one was injured. The exact cause is being investigated."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这场火灾怎么样？",
+      "options": [
+       "没有人受伤",
+       "有人受伤",
+       "房子全烧光了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这里是报纸订阅处。"
+      },
+      {
+       "s": "B",
+       "t": "我想订阅网络报纸。"
+      },
+      {
+       "s": "A",
+       "t": "每月五千韩元，第一个月免费。"
+      },
+      {
+       "s": "B",
+       "t": "太好了，我订。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 신문 구독 센터입니다.\n손님: 온라인 신문을 구독하고 싶어요.\n직원: 한 달에 5천 원이고 첫 달은 무료입니다.\n손님: 좋아요. 신청할게요.",
+     "en": "Clerk: Newspaper subscriptions.\nGuest: I'd like to subscribe to the online newspaper.\nClerk: It's five thousand won a month, and the first month is free.\nGuest: Great. I'll sign up."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "每月价格：______韩元",
+      "answers": [
+       "五千"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "第一个月：______",
+      "answers": [
+       "免费"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我每天早上看___。\n2) 那个频道___了这起事故。\n3) 要确认消息来源是否___。",
+    "trans": {
+     "ko": "1) 저는 매일 아침 뉴스를 봐요. 2) 방송국은 사고를 보도했어요. 3) 믿을 만한 출처를 확인하세요.",
+     "en": "1) I watch the news every morning. 2) The channel reported the accident. 3) Check that the source is reliable."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我每天早上看___。",
+      "options": [
+       "新闻",
+       "电影",
+       "电视剧"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "那个频道___了这起事故。",
+      "options": [
+       "报道",
+       "忘记",
+       "借"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "要确认消息来源是否___。",
+      "options": [
+       "可靠",
+       "好吃",
+       "好看"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "下面是今天的主要新闻。昨晚市中心发生了一场大火。消防员很快赶到，一个小时之内火被扑灭了。(1)，没有人(2)。确切的原因正在(3)中。",
+    "trans": {
+     "ko": "오늘의 주요 뉴스입니다. 어젯밤 시내에서 큰 화재가 발생했습니다. 소방관들이 신속하게 출동해 불은 한 시간 안에 꺼졌습니다. 다행히 다친 사람은 없었습니다. 정확한 원인은 현재 조사 중입니다.",
+     "en": "Here are today's main stories. A large fire broke out in the city centre last night. Firefighters arrived quickly and the fire was put out within an hour. Fortunately, no one was injured. The exact cause is being investigated."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "幸运的是",
+       "不幸的是",
+       "可是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "受伤",
+       "回家",
+       "吃饭"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "调查",
+       "休息",
+       "学习"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "标题\n市图书馆将二十四小时开放\n市长昨天宣布，从下个月起，市图书馆将每天二十四小时开放。市民大多欢迎这个消息，但也有人担心安全问题。",
+    "trans": {
+     "ko": "헤드라인\n시 도서관, 24시간 개방 시작\n시립 도서관이 다음 달부터 하루 24시간 문을 연다고 시장은 어제 발표했다. 시민들은 대체로 환영했지만 일부는 안전이 걱정된다고 말했다.",
+     "en": "HEADLINE\nCity library to open 24 hours\nThe mayor announced yesterday that the city library will be open twenty-four hours a day from next month. Citizens generally welcomed the news, but some said they were worried about safety."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "图书馆从什么时候起二十四小时开放？",
+      "options": [
+       "下个月",
+       "这个月",
+       "明年"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "有人担心什么？",
+      "options": [
+       "安全问题",
+       "价格",
+       "书的数量"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "梅在报纸上读到一条新地铁线要开通的消息。她希望上班时间能变短。她也把这个消息告诉了家人。",
+    "trans": {
+     "ko": "메이는 신문 기사에서 새 지하철 노선이 개통된다는 소식을 읽었어요. 그녀는 통근 시간이 줄 것이라고 기대했어요. 가족에게도 그 소식을 알렸어요.",
+     "en": "May read in a newspaper article that a new metro line was opening. She hoped her commute would get shorter. She also told her family the news."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "梅在报纸上读到了消息。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "梅觉得上班时间会变长。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "梅没有告诉家人。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你怎么获得新闻？",
+    "read": "Nǐ zěnme huò děi xīn wén?",
+    "ko": "어떻게 뉴스를 접해요?",
+    "en": "How do you get your news?",
+    "situation": {
+     "ko": "방법을 물을 때",
+     "en": "Asking how you follow the news"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我每天早上看新闻。",
+    "read": "Wǒ měitiān zǎoshang kàn xīn wén.",
+    "ko": "매일 아침 뉴스를 봐요.",
+    "en": "I watch the news every morning.",
+    "situation": {
+     "ko": "습관을 말할 때",
+     "en": "Describing a habit"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "你看了那篇文章吗？",
+    "read": "Nǐ kàn le nà piān wén zhāng ma?",
+    "ko": "그 기사 읽었어요?",
+    "en": "Have you read that article?",
+    "situation": {
+     "ko": "경험을 물을 때",
+     "en": "Asking about experience"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "那个频道报道了这起事故。",
+    "read": "Nàge pín dào bào dào le zhè qǐ shì gù.",
+    "ko": "방송국은 사고를 보도했어요.",
+    "en": "The channel reported the accident.",
+    "situation": {
+     "ko": "보도를 전할 때",
+     "en": "Reporting the news"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "你怎么知道是真的？",
+    "read": "Nǐ zěnme zhīdào shì zhēn de?",
+    "ko": "그것이 사실인지 어떻게 알죠?",
+    "en": "How do you know it's true?",
+    "situation": {
+     "ko": "의심을 말할 때",
+     "en": "Questioning a claim"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "要确认消息来源是否可靠。",
+    "read": "Yào quèrèn xiāo xī lái yuán shìfǒu kě kào.",
+    "ko": "믿을 만한 출처를 확인하세요.",
+    "en": "Check that the source is reliable.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我担心假新闻。",
+    "read": "Wǒ dānxīn jiǎ xīn wén.",
+    "ko": "가짜 뉴스가 걱정돼요.",
+    "en": "I'm worried about fake news.",
+    "situation": {
+     "ko": "걱정을 말할 때",
+     "en": "Expressing concern"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "这段文字是作者的观点。",
+    "read": "Zhè duàn wén zì shì zuò zhě de guān diǎn.",
+    "ko": "제 생각에는 이 글은 의견이에요.",
+    "en": "In my opinion, this text is the writer's opinion.",
+    "situation": {
+     "ko": "의견을 말할 때",
+     "en": "Giving an opinion"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "据……报道，……。",
+    "read": "Jù … bào dào, ….",
+    "ko": "~는 ~에 의해 ~되었어요.",
+    "en": "~ was + p.p. + by ~."
+   },
+   {
+    "id": "w2",
+    "t": "……报道了……。",
+    "read": "… Bào dào le ….",
+    "ko": "~는 ~라고 보도했어요.",
+    "en": "~ reported that ~."
+   },
+   {
+    "id": "w3",
+    "t": "我订阅了……。",
+    "read": "Wǒ dìng yuè le ….",
+    "ko": "~를 구독해요.",
+    "en": "I subscribe to ~."
+   },
+   {
+    "id": "w4",
+    "t": "……应该以事实为基础。",
+    "read": "… Yīnggāi yǐ shì shí wèi jī chǔ.",
+    "ko": "~는 사실에 근거해야 해요.",
+    "en": "~ should be based on facts."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "최근에 읽은 뉴스나 기사를 소개하고 의견을 4문장으로 써 보세요.",
+    "en": "Introduce a news story you read recently and give your opinion in 4 sentences."
+   },
+   "must_include": [
+    {
+     "label": "据……报道",
+     "match": [
+      "据记者报道"
+     ]
+    },
+    {
+     "label": "报道",
+     "match": [
+      "报道了"
+     ]
+    },
+    {
+     "label": "假新闻",
+     "match": [
+      "假新闻"
+     ]
+    },
+    {
+     "label": "可靠",
+     "match": [
+      "可靠"
+     ]
+    }
+   ],
+   "model": "昨天我读了一篇关于全球变暖的文章。据记者报道，里面有很多事实。可是假新闻传播得很快，所以我总是确认消息来源是否可靠。市长说火灾的原因正在调查中，那个频道报道了。",
+   "model_trans": {
+    "ko": "어제 나는 지구 온난화에 관한 기사를 읽었어요. 그 기사는 한 유명한 기자가 썼고 많은 사실에 근거하고 있었어요. 하지만 가짜 뉴스가 빠르게 퍼질 수 있어서 항상 믿을 만한 출처를 확인해요. 제 생각에는 이런 기사가 더 많이 필요해요. 시장은 화재 원인이 조사 중이라고 발표했고 방송국이 이를 보도했어요.",
+    "en": "Yesterday I read an article about global warming. It was written by a famous journalist and based on many facts. But fake news can spread quickly, so I always check that the source is reliable. In my opinion, we need more articles like this. The mayor announced that the cause of the fire is being investigated, and the channel reported it."
+   }
+  }
+ }
+}
