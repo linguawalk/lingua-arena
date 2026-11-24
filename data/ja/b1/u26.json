@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b1_u26",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 26,
+  "concept": "B1.U26",
+  "status": "live",
+  "title": {
+   "target": "受身と〜てもらう：直される・直してもらう",
+   "ko": "조동사 수동태와 사역: have something done",
+   "en": "Modal passives and have something done"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "修理する",
+   "pos": "verb",
+   "read": "しゅうりする",
+   "ko": "수리하다",
+   "en": "repair",
+   "ex": {
+    "t": "自転車は今週中に修理されなければなりません。",
+    "read": "じてんしゃはこんしゅうちゅうにしゅうりされなければなりません。",
+    "ko": "내 자전거는 이번 주에 수리돼야 해요.",
+    "en": "My bike has to be repaired this week."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "切る",
+   "pos": "verb",
+   "read": "きる",
+   "ko": "자르다",
+   "en": "cut",
+   "ex": {
+    "t": "私は月に一度、髪を切ってもらいます。",
+    "read": "わたしはがつにいちど、かみをきってもらいます。",
+    "ko": "나는 한 달에 한 번 머리를 잘라요.",
+    "en": "I have my hair cut once a month."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "直す",
+   "pos": "verb",
+   "read": "なおす",
+   "ko": "고치다",
+   "en": "fix",
+   "ex": {
+    "t": "屋根を直してもらいました。",
+    "read": "やねをなおしてもらいました。",
+    "ko": "그들은 지붕을 고치게 했어요.",
+    "en": "They had the roof fixed."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "検査する",
+   "pos": "verb",
+   "read": "けんさする",
+   "ko": "검사하다",
+   "en": "check",
+   "ex": {
+    "t": "車は毎年検査されなければなりません。",
+    "read": "くるまはまいとしけんさされなければなりません。",
+    "ko": "차는 매년 검사받아야 해요.",
+    "en": "Cars must be checked every year."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "配達する",
+   "pos": "verb",
+   "read": "はいたつする",
+   "ko": "배달하다",
+   "en": "deliver",
+   "ex": {
+    "t": "料理は三十分以内に配達されます。",
+    "read": "りょうりはさんじゅうぶんいないにはいたつされます。",
+    "ko": "음식은 30분 안에 배달될 수 있어요.",
+    "en": "The food can be delivered within thirty minutes."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "禁止する",
+   "pos": "verb",
+   "read": "きんしする",
+   "ko": "금지하다",
+   "en": "ban",
+   "ex": {
+    "t": "ここでは喫煙が禁止されています。",
+    "read": "ここではきつえんがきんしされています。",
+    "ko": "이곳에서는 흡연이 금지돼 있어요.",
+    "en": "Smoking is banned here."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "許可する",
+   "pos": "verb",
+   "read": "きょかする",
+   "ko": "허락하다",
+   "en": "allow",
+   "ex": {
+    "t": "写真撮影は許可されていません。",
+    "read": "しゃしんさつえいはきょかされていません。",
+    "ko": "사진은 허용되지 않아요.",
+    "en": "Photos are not allowed."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "美容院",
+   "pos": "noun",
+   "read": "びよういん",
+   "ko": "미용실",
+   "en": "hairdresser's",
+   "ex": {
+    "t": "美容院で髪をセットしてもらいました。",
+    "read": "びよういんでかみをセットしてもらいました。",
+    "ko": "나는 미용실에서 머리를 했어요.",
+    "en": "I had my hair done at the hairdresser's."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "修理工場",
+   "pos": "noun",
+   "read": "しゅうりこうじょう",
+   "ko": "정비소",
+   "en": "garage",
+   "ex": {
+    "t": "修理工場で車を点検してもらいました。",
+    "read": "しゅうりこうじょうでくるまをてんけんしてもらいました。",
+    "ko": "차를 정비소에서 점검받았어요.",
+    "en": "I had the car checked at the garage."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "修理代",
+   "pos": "noun",
+   "read": "しゅうりだい",
+   "ko": "수리비",
+   "en": "repair bill",
+   "ex": {
+    "t": "修理代は月末に払うことができます。",
+    "read": "しゅうりだいはげつまつにはらうことができます。",
+    "ko": "수리비는 월말에 지불될 수 있어요.",
+    "en": "The repair bill can be paid at the end of the month."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "수동과 〜てもらう: 〜される・〜なければならない・〜てもらう",
+   "en": "Passives and having things done: 〜される / 〜てもらう"
+  },
+  "explain": {
+   "ko": "일을 받는 쪽에서 말할 때는 수동형 「〜される」를 씁니다: 車は毎年検査されなければなりません. 허가·금지도 수동형입니다: 写真撮影は許可されていません. 다른 사람에게 부탁해서 해 받는 일은 「〜てもらう」를 씁니다: 髪を切ってもらいます / 屋根を直してもらいました. 가능은 「〜ことができる」입니다: 三十分以内に配達してもらえます.",
+   "en": "Passives: 「〜される」: 車は毎年検査されなければなりません. Permission and bans use the passive: 写真撮影は許可されていません. Having someone do something for you: 「〜てもらう」: 髪を切ってもらいます / 屋根を直してもらいました. Possibility: 「〜してもらえます」."
+  },
+  "table": {
+   "head": [
+    "구조 / 形",
+    "표현 / 表現",
+    "예 / 例"
+   ],
+   "rows": [
+    [
+     "수동 / 受身",
+     "〜される",
+     "検査される"
+    ],
+    [
+     "의무 / 義務",
+     "〜されなければならない",
+     "検査されなければならない"
+    ],
+    [
+     "부탁 / 依頼",
+     "〜てもらう",
+     "直してもらう"
+    ],
+    [
+     "금지 / 禁止",
+     "〜は禁止されている",
+     "喫煙は禁止されている"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜てもらう」는 상대방이 해 주는 일을 받는다는 뜻입니다.",
+    "en": "「〜てもらう」 means receiving a favour done by someone."
+   },
+   {
+    "ko": "수동형의 주어는 행동을 받는 쪽입니다.",
+    "en": "The subject of a passive is the receiver of the action."
+   },
+   {
+    "ko": "「〜てもらいたい」는 '해 받고 싶다'입니다.",
+    "en": "「〜てもらいたい」 means 'I'd like to have it done'."
+   }
+  ],
+  "examples": [
+   {
+    "t": "自転車は今週中に修理されなければなりません。",
+    "read": "じてんしゃはこんしゅうちゅうにしゅうりされなければなりません。",
+    "ko": "내 자전거는 이번 주에 수리돼야 해요.",
+    "en": "My bike has to be repaired this week."
+   },
+   {
+    "t": "車は毎年検査されなければなりません。",
+    "read": "くるまはまいとしけんさされなければなりません。",
+    "ko": "차는 매년 검사받아야 해요.",
+    "en": "Cars must be checked every year."
+   },
+   {
+    "t": "料理は三十分以内に配達されます。",
+    "read": "りょうりはさんじゅうぶんいないにはいたつされます。",
+    "ko": "음식은 30분 안에 배달될 수 있어요.",
+    "en": "The food can be delivered within thirty minutes."
+   },
+   {
+    "t": "私は月に一度、髪を切ってもらいます。",
+    "read": "わたしはがつにいちど、かみをきってもらいます。",
+    "ko": "나는 한 달에 한 번 머리를 잘라요.",
+    "en": "I have my hair cut once a month."
+   },
+   {
+    "t": "屋根を直してもらいました。",
+    "read": "やねをなおしてもらいました。",
+    "ko": "그들은 지붕을 고치게 했어요.",
+    "en": "They had the roof fixed."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "車は毎年検査___なければなりません。",
+    "options": [
+     "され",
+     "し",
+     "させ"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "私は月に一度、髪を切って___。",
+    "options": [
+     "もらいます",
+     "あげます",
+     "くれます"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "ここでは写真は許可されて___。",
+    "options": [
+     "いません",
+     "いますか",
+     "います"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "屋根を直して___ました。",
+    "options": [
+     "もらい",
+     "あげ",
+     "やり"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いつ修理してもらえますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이건 언제 수리될 수 있어요?",
+     "en": "(Question) When can it be repaired?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "明日までに修理してもらえます。",
+       "昨日、自転車を買いました。",
+       "修理は好きです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どのくらいの頻度で髪を切ってもらいますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 머리는 얼마나 자주 잘라요?",
+     "en": "(Question) How often do you have your hair cut?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "月に一度、切ってもらいます。",
+       "髪は長いです。",
+       "昨日切りました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ノートパソコンが壊れたんだ。今週中に直さなきゃ。"
+      },
+      {
+       "s": "B",
+       "t": "店で直してもらったほうがいいよ。"
+      },
+      {
+       "s": "A",
+       "t": "うん。明日の午後までに直してもらえるかな。"
+      },
+      {
+       "s": "B",
+       "t": "電話で聞いてみて。修理代は月末に払えるかもしれないよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 내 노트북이 고장 났어. 이번 주에 수리돼야 해.\nB: 정비소에 맡기는 게 좋겠어.\nA: 응. 내일 오후까지는 고쳐질 수 있을까?\nB: 전화해서 물어봐. 수리비는 월말에 낼 수도 있어.",
+     "en": "A: My laptop is broken. It has to be repaired this week.\nB: You'd better have it fixed at the shop.\nA: Yes. Can it be fixed by tomorrow afternoon?\nB: Phone and ask. The repair bill might be paid at the end of the month."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Aのパソコンはどうなりましたか。",
+      "options": [
+       "壊れた",
+       "盗まれた",
+       "売れた"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私たちの家は古いです。今年、屋根を直してもらうつもりです。窓も取り替えなければなりません。工事は一か月以内に終わる予定です。専門家が来て、全部点検してくれます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 집은 낡았어요. 올해 지붕을 고치게 할 예정이에요. 창문도 교체되어야 해요. 일은 한 달 안에 끝날 수 있어요. 전문가들이 와서 모든 걸 점검할 거예요.",
+     "en": "Our house is old. We're going to have the roof fixed this year. The windows also have to be replaced. The work can be finished within a month. Experts will come and check everything."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "工事はどのくらいで終わる予定ですか。",
+      "options": [
+       "一か月以内",
+       "一週間以内",
+       "一年以内"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "自動車修理工場です。"
+      },
+      {
+       "s": "B",
+       "t": "車を点検してもらいたいのですが。ブレーキの音が変なんです。"
+      },
+      {
+       "s": "A",
+       "t": "明日の午前中までに点検できます。"
+      },
+      {
+       "s": "B",
+       "t": "費用はいくらですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 정비소입니다.\n손님: 차를 점검받고 싶어요. 브레이크가 이상해요.\n직원: 내일 오전까지 점검될 수 있어요.\n손님: 비용은 얼마예요?",
+     "en": "Agent: Car garage.\nGuest: I'd like to have my car checked. The brakes are strange.\nAgent: It can be checked by tomorrow morning.\nGuest: How much will it cost?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "点検してほしいもの：______",
+      "answers": [
+       "車"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "おかしいところ：______",
+      "answers": [
+       "ブレーキ"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 自転車は今週中に修理___なければなりません。\n2) 車は毎年検査___なければなりません。\n3) 私は月に一度、髪を切って___。",
+    "trans": {
+     "ko": "1) 내 자전거는 이번 주에 수리돼야 해요. 2) 차는 매년 검사받아야 해요. 3) 나는 한 달에 한 번 머리를 잘라요.",
+     "en": "1) My bike has to be repaired this week. 2) Cars must be checked every year. 3) I have my hair cut once a month."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "自転車は今週中に修理___なければなりません。",
+      "options": [
+       "され",
+       "し",
+       "させ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "車は毎年検査___なければなりません。",
+      "options": [
+       "され",
+       "し",
+       "させ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私は月に一度、髪を切って___。",
+      "options": [
+       "もらいます",
+       "あげます",
+       "くれます"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私たちの家は古いです。今年、屋根を(1)つもりです。窓も(2)なければなりません。工事は一か月以内に(3)、費用は二回に分けて払えます。",
+    "trans": {
+     "ko": "우리 집은 낡았어요. 올해 지붕을 고치게 할 예정이에요. 창문도 교체되어야 해요. 일은 한 달 안에 끝날 수 있고 비용은 두 번에 나누어 지불될 수 있어요.",
+     "en": "Our house is old. We're going to have the roof fixed this year. The windows also have to be replaced. The work can be finished within a month, and the cost can be paid in two parts."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "直してもらう",
+       "直してあげる",
+       "直してやる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "取り替えられ",
+       "取り替え",
+       "取り替えて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "終わる予定で",
+       "終わらないで",
+       "終わっていて"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "お知らせ\nここでは写真撮影は許可されていません。かばんは入口で検査されます。子どもは大人と一緒でなければなりません。",
+    "trans": {
+     "ko": "안내문\n이곳에서는 사진 촬영이 허용되지 않습니다. 가방은 입구에서 검사받아야 합니다. 어린이는 어른과 함께 입장해야 합니다.",
+     "en": "NOTICE\nPhotos are not allowed here. Bags must be checked at the entrance. Children must be accompanied by an adult."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ここでは何が許可されていませんか。",
+      "options": [
+       "写真撮影",
+       "飲み物",
+       "会話"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "かばんはどこで検査されますか。",
+      "options": [
+       "入口",
+       "出口",
+       "駐車場"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "スーさんは昨日、美容院で髪を切ってもらいました。新しい髪型が気に入りました。次は髪を染めてもらいたいと言いました。",
+    "trans": {
+     "ko": "수는 어제 미용실에서 머리를 잘랐어요. 그녀는 새 스타일이 마음에 들었어요. 다음에는 염색도 하게 하고 싶다고 말했어요.",
+     "en": "Sue had her hair cut at the hairdresser's yesterday. She liked the new style. She said she'd like to have it dyed next time."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "スーさんは髪を切ってもらいました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "スーさんは髪型が気に入りませんでした。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "スーさんはもう髪を染めました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "いつ直してもらえますか。",
+    "read": "いつなおしてもらえますか。",
+    "ko": "이건 언제 수리될 수 있어요?",
+    "en": "When can it be repaired?",
+    "situation": {
+     "ko": "수리 시기를 물을 때",
+     "en": "Asking when something can be repaired"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "明日までに直してもらえます。",
+    "read": "あしたまでになおしてもらえます。",
+    "ko": "내일까지는 수리될 수 있어요.",
+    "en": "It can be repaired by tomorrow.",
+    "situation": {
+     "ko": "가능성을 말할 때",
+     "en": "Saying what is possible"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "車は毎年検査されなければなりません。",
+    "read": "くるまはまいとしけんさされなければなりません。",
+    "ko": "차는 매년 검사받아야 해요.",
+    "en": "Cars must be checked every year.",
+    "situation": {
+     "ko": "의무를 말할 때",
+     "en": "Saying what is required"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "ここでは写真は許可されていません。",
+    "read": "ここではしゃしんはきょかされていません。",
+    "ko": "이곳에서는 사진이 허용되지 않아요.",
+    "en": "Photos are not allowed here.",
+    "situation": {
+     "ko": "규칙을 말할 때",
+     "en": "Stating a rule"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "髪を切ってもらいたいのですが。",
+    "read": "かみをきってもらいたいのですが。",
+    "ko": "머리를 자르러 왔어요.",
+    "en": "I'd like to have my hair cut.",
+    "situation": {
+     "ko": "서비스를 요청할 때",
+     "en": "Asking for a service"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "屋根を直してもらいました。",
+    "read": "やねをなおしてもらいました。",
+    "ko": "지붕을 고치게 했어요.",
+    "en": "We had the roof fixed.",
+    "situation": {
+     "ko": "남에게 시킨 일을 말할 때",
+     "en": "Saying you paid someone to do it"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "どのくらいかかりますか。",
+    "read": "どのくらいかかりますか。",
+    "ko": "얼마나 걸려요?",
+    "en": "How long will it take?",
+    "situation": {
+     "ko": "소요 시간을 물을 때",
+     "en": "Asking how long"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "修理代はいくらですか。",
+    "read": "しゅうりだいはいくらですか。",
+    "ko": "수리비는 얼마예요?",
+    "en": "How much will the repair cost?",
+    "situation": {
+     "ko": "비용을 물을 때",
+     "en": "Asking about the cost"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜は〜されなければなりません。",
+    "read": "〜は〜されなければなりません。",
+    "ko": "~는 ~될 수 있어요.",
+    "en": "~ can be + p.p."
+   },
+   {
+    "id": "w2",
+    "t": "〜は〜されます。",
+    "read": "〜は〜されます。",
+    "ko": "~는 ~돼야 해요.",
+    "en": "~ must / has to be + p.p."
+   },
+   {
+    "id": "w3",
+    "t": "〜を〜てもらいます。",
+    "read": "〜を〜てもらいます。",
+    "ko": "나는 ~를 ~하게 해요.",
+    "en": "I have my ~ + p.p."
+   },
+   {
+    "id": "w4",
+    "t": "〜を〜てもらいました。",
+    "read": "〜を〜てもらいました。",
+    "ko": "우리는 ~를 ~하게 했어요.",
+    "en": "We had the ~ + p.p."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "집이나 자전거 등을 수리할 때 필요한 일을 조동사 수동태와 have something done을 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about getting something repaired, using modal passives and have something done."
+   },
+   "must_include": [
+    {
+     "label": "〜される",
+     "match": [
+      "されなければなりません"
+     ]
+    },
+    {
+     "label": "〜てもらう",
+     "match": [
+      "直してもらう"
+     ]
+    },
+    {
+     "label": "修理代",
+     "match": [
+      "修理代"
+     ]
+    }
+   ],
+   "model": "自転車は今週中に修理されなければなりません。修理工場で直してもらうつもりです。修理は明日までに終わります。修理代は月末に払うことができます。",
+   "model_trans": {
+    "ko": "내 자전거는 이번 주에 수리돼야 해요. 나는 정비소에서 그것을 고치게 할 거예요. 수리는 내일까지 끝날 수 있어요. 수리비는 월말에 지불될 수 있어요.",
+    "en": "My bike has to be repaired this week. I'm going to have it fixed at the garage. The repair can be finished by tomorrow. The repair bill can be paid at the end of the month."
+   }
+  }
+ }
+}

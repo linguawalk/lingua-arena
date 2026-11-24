@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_b1_u28",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 28,
+  "concept": "B1.U28",
+  "status": "live",
+  "title": {
+   "target": "数量の言い方：少し・たくさん・あまり〜ない・みんな・それぞれ",
+   "ko": "수량 표현: some · any · much · many · each · every",
+   "en": "Quantifiers: some, any, much, many, each, every"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "十分な",
+   "pos": "adj",
+   "read": "じゅうぶんな",
+   "ko": "충분한",
+   "en": "enough",
+   "ex": {
+    "t": "時間が十分にありません。",
+    "read": "じかんがじゅうぶんにありません。",
+    "ko": "우리는 충분한 시간이 없어요.",
+    "en": "We don't have enough time."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "少しも",
+   "pos": "det",
+   "read": "すこしも",
+   "ko": "조금도",
+   "en": "any",
+   "ex": {
+    "t": "冷蔵庫に牛乳が少しもありません。",
+    "read": "れいぞうこにぎゅうにゅうがすこしもありません。",
+    "ko": "냉장고에 우유가 조금도 없어요.",
+    "en": "There isn't any milk in the fridge."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "たくさん",
+   "pos": "det",
+   "read": "たくさん",
+   "ko": "많은(셀 수 있는)",
+   "en": "many",
+   "ex": {
+    "t": "この町には公園がたくさんありません。",
+    "read": "このまちにはこうえんがたくさんありません。",
+    "ko": "이 도시에는 공원이 많지 않아요.",
+    "en": "There aren't many parks in this city."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "あまり",
+   "pos": "det",
+   "read": "あまり",
+   "ko": "많은(셀 수 없는)",
+   "en": "much",
+   "ex": {
+    "t": "私はお金があまりありません。",
+    "read": "わたしはおきんがあまりありません。",
+    "ko": "나는 돈이 많지 않아요.",
+    "en": "I don't have much money."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "何人か",
+   "pos": "det",
+   "read": "なんにんか",
+   "ko": "몇몇의",
+   "en": "a few",
+   "ex": {
+    "t": "イギリスに友達が何人かいます。",
+    "read": "イギリスにともだちがなんにんかいます。",
+    "ko": "나는 영국에 친구가 몇 명 있어요.",
+    "en": "I have a few friends in England."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "少し",
+   "pos": "det",
+   "read": "すこし",
+   "ko": "약간의",
+   "en": "a little",
+   "ex": {
+    "t": "スープに塩を少し入れてください。",
+    "read": "スープにしおをすこしいれてください。",
+    "ko": "수프에 소금을 조금 넣으세요.",
+    "en": "Add a little salt to the soup."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "それぞれ",
+   "pos": "det",
+   "read": "それぞれ",
+   "ko": "각각",
+   "en": "each",
+   "ex": {
+    "t": "学生はそれぞれ本を一冊持ってきてください。",
+    "read": "がくせいはそれぞれほんをいっさつもってきてください。",
+    "ko": "각 학생은 책을 한 권씩 가져야 해요.",
+    "en": "Each student must bring a book."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "毎〜",
+   "pos": "det",
+   "read": "まい〜",
+   "ko": "모든",
+   "en": "every",
+   "ex": {
+    "t": "私は毎朝運動します。",
+    "read": "わたしはまいあさうんどうします。",
+    "ko": "나는 매일 아침 운동을 해요.",
+    "en": "I exercise every morning."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "ほとんど",
+   "pos": "det",
+   "read": "ほとんど",
+   "ko": "대부분",
+   "en": "most",
+   "ex": {
+    "t": "ほとんどの人がその意見に賛成です。",
+    "read": "ほとんどのひとがそのいけんにさんせいです。",
+    "ko": "대부분의 사람들이 그 의견에 동의해요.",
+    "en": "Most people agree with that opinion."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "だれも",
+   "pos": "pron",
+   "read": "だれも",
+   "ko": "아무도 ~않다",
+   "en": "no one",
+   "ex": {
+    "t": "だれもその質問に答えられませんでした。",
+    "read": "だれもそのしつもんにこたえられませんでした。",
+    "ko": "아무도 그 문제에 답하지 못했어요.",
+    "en": "No one could answer the question."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "수량 표현: 少し・たくさん・あまり〜ない・すこしも〜ない・みんな・それぞれ・毎〜",
+   "en": "Quantity words: 少し / たくさん / あまり〜ない / みんな / それぞれ / 毎〜"
+  },
+  "explain": {
+   "ko": "셀 수 있는 것이 많을 때는 「たくさん」, 적을 때는 「何人か・いくつか・少し」를 씁니다. 부정문에서는 「あまり〜ない」: お金があまりありません. 아주 없을 때는 「少しも〜ない」「全然〜ない」입니다. 「それぞれ」는 하나씩, 「毎〜」는 모든 반복, 「ほとんど」는 거의 전부, 「だれも〜ない」는 아무도 ~않다입니다.",
+   "en": "Many: 「たくさん」. A few: 「何人か・いくつか・少し」. In negatives: 「あまり〜ない」. None at all: 「少しも〜ない」「全然〜ない」. 「それぞれ」 = each; 「毎〜」 = every; 「ほとんど」 = most; 「だれも〜ない」 = no one."
+  },
+  "table": {
+   "head": [
+    "구조 / 形",
+    "표현 / 表現",
+    "예 / 例"
+   ],
+   "rows": [
+    [
+     "많음 / 多い",
+     "たくさん",
+     "公園がたくさんある"
+    ],
+    [
+     "조금 / 少し",
+     "少し・何人か",
+     "友達が何人かいる"
+    ],
+    [
+     "부정 / 否定",
+     "あまり〜ない・少しも〜ない",
+     "お金があまりない"
+    ],
+    [
+     "전체 / 全体",
+     "毎〜・ほとんど・それぞれ",
+     "毎朝運動する"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「あまり」 뒤에는 반드시 부정형이 옵니다.",
+    "en": "「あまり」 is always followed by a negative."
+   },
+   {
+    "ko": "사람은 「何人か」, 물건은 「いくつか」를 씁니다.",
+    "en": "Use 「何人か」 for people, 「いくつか」 for things."
+   },
+   {
+    "ko": "「だれも」「何も」 뒤에도 부정형이 옵니다.",
+    "en": "「だれも」「何も」 are followed by negatives."
+   }
+  ],
+  "examples": [
+   {
+    "t": "時間が十分にありません。",
+    "read": "じかんがじゅうぶんにありません。",
+    "ko": "우리는 충분한 시간이 없어요.",
+    "en": "We don't have enough time."
+   },
+   {
+    "t": "私はお金があまりありません。",
+    "read": "わたしはおきんがあまりありません。",
+    "ko": "이 도시에는 공원이 많지 않아요.",
+    "en": "There aren't many parks in this city."
+   },
+   {
+    "t": "イギリスに友達が何人かいます。",
+    "read": "イギリスにともだちがなんにんかいます。",
+    "ko": "나는 돈이 많지 않아요.",
+    "en": "I don't have much money."
+   },
+   {
+    "t": "学生はそれぞれ本を一冊持ってきてください。",
+    "read": "がくせいはそれぞれほんをいっさつもってきてください。",
+    "ko": "각 학생은 책을 한 권씩 가져야 해요.",
+    "en": "Each student must bring a book."
+   },
+   {
+    "t": "私は毎朝運動します。",
+    "read": "わたしはまいあさうんどうします。",
+    "ko": "나는 매일 아침 운동을 해요.",
+    "en": "I exercise every morning."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私はお金が___ありません。",
+    "options": [
+     "あまり",
+     "たくさん",
+     "とても"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "イギリスに友達が___います。",
+    "options": [
+     "何人か",
+     "あまり",
+     "少しも"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "私は___朝運動します。",
+    "options": [
+     "毎",
+     "全",
+     "各"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "だれも質問に答え___でした。",
+    "options": [
+     "られません",
+     "ます",
+     "ました"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "冷蔵庫に牛乳はありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 냉장고에 우유가 있어요?",
+     "en": "(Question) Is there any milk in the fridge?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "いいえ、少しもありません。",
+       "はい、昨日飲みました。",
+       "牛乳は白いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "お金はどのくらい持っていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 돈이 얼마나 있어요?",
+     "en": "(Question) How much money do you have?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "あまり持っていません。",
+       "毎朝持っています。",
+       "昨日持っていました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "パーティーには何人来るの？"
+      },
+      {
+       "s": "B",
+       "t": "友達が何人か来るよ。そんなに多くないよ。"
+      },
+      {
+       "s": "A",
+       "t": "食べ物は十分ある？"
+      },
+      {
+       "s": "B",
+       "t": "うん。ケーキが少しと、果物がたくさんあるよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 파티에 사람이 몇 명 올까?\nB: 친구 몇 명이 올 거야. 많지는 않아.\nA: 음식이 충분할까?\nB: 응. 케이크도 조금 있고 과일도 많아.",
+     "en": "A: How many people are coming to the party?\nB: A few friends. Not many.\nA: Will there be enough food?\nB: Yes. There's a little cake and plenty of fruit."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "パーティーには何人くらい来ますか。",
+      "options": [
+       "友達が何人か",
+       "百人",
+       "だれも来ない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私の町には公園があまりありませんが、カフェが何軒かあります。近所の人はほとんどが親切で、それぞれお互いを知っています。毎朝、私は公園を散歩して一日を始めます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 동네에는 공원이 많지 않아요. 하지만 카페는 몇 개 있어요. 대부분의 이웃들은 친절하고 모두 서로를 알아요. 매일 아침 나는 공원에서 걸으며 하루를 시작해요.",
+     "en": "There aren't many parks in my neighbourhood, but there are a few cafés. Most of my neighbours are friendly and each one knows the others. Every morning I start the day with a walk in the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "話す人は毎朝何をしますか。",
+      "options": [
+       "公園を散歩する",
+       "カフェに行く",
+       "映画を見る"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "スーパーです。"
+      },
+      {
+       "s": "B",
+       "t": "乳製品のコーナーに牛乳はありますか。"
+      },
+      {
+       "s": "A",
+       "t": "少し残っていますが、あまり多くありません。"
+      },
+      {
+       "s": "B",
+       "t": "では、二本いただきます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 슈퍼마켓입니다.\n손님: 유제품 코너에 우유가 있나요?\n직원: 조금 남아 있지만 많지는 않습니다.\n손님: 그럼 두 병만 주세요.",
+     "en": "Assistant: Supermarket.\nGuest: Is there any milk in the dairy section?\nAssistant: There's a little left, but not much.\nGuest: Then I'll take two bottles."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "牛乳の残り：______",
+      "answers": [
+       "少し"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "買う本数：______本",
+      "answers": [
+       "二"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 時間が十分に___。\n2) 私はお金が___ありません。\n3) 学生は___本を一冊持ってきてください。",
+    "trans": {
+     "ko": "1) 우리는 충분한 시간이 없어요. 2) 이 도시에는 공원이 많지 않아요. 3) 나는 돈이 많지 않아요.",
+     "en": "1) We don't have enough time. 2) There aren't many parks in this city. 3) I don't have much money."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "時間が十分に___。",
+      "options": [
+       "ありません",
+       "あります",
+       "ありました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私はお金が___ありません。",
+      "options": [
+       "あまり",
+       "たくさん",
+       "とても"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "学生は___本を一冊持ってきてください。",
+      "options": [
+       "それぞれ",
+       "あまり",
+       "少しも"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私の町には公園があまり(1)が、カフェが何軒かあります。近所の人は(2)が親切で、それぞれお互いを知っています。毎朝、私は公園を(3)一日を始めます。",
+    "trans": {
+     "ko": "우리 동네에는 공원이 많지 않아요. 하지만 카페는 몇 개 있어요. 대부분의 이웃들은 친절하고 모두 서로를 알아요. 매일 아침 나는 공원에서 걸으며 하루를 시작해요.",
+     "en": "There aren't many parks in my neighbourhood, but there are a few cafés. Most of my neighbours are friendly and each one knows the others. Every morning I start the day with a walk in the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "ありません",
+       "あります",
+       "ありました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "ほとんど",
+       "少しも",
+       "だれも"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "散歩して",
+       "散歩しないで",
+       "散歩したので"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "お知らせ\n学生はそれぞれ、来週の月曜日までに本を一冊持ってきてください。すでに持ってきた学生は何人かしかいません。図書館には本があまりないので、早めに準備してください。",
+    "trans": {
+     "ko": "공지\n각 학생은 다음 주 월요일까지 책 한 권을 가져와야 합니다. 소수의 학생만 이미 가져왔습니다. 도서관에는 책이 많이 없으니 미리 준비하세요.",
+     "en": "NOTICE\nEach student must bring a book by next Monday. Only a few students have brought one already. There aren't many books in the library, so prepare in advance."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いつまでに本を持ってきますか。",
+      "options": [
+       "来週の月曜日",
+       "今日",
+       "来月"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "図書館にはどうですか。",
+      "options": [
+       "本があまりない",
+       "本がたくさんある",
+       "閉まっている"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "メイさんはパーティーのために食べ物を買いました。ケーキは十分ありますが、飲み物は少ししかありません。彼女は明日もっと買うことにしました。",
+    "trans": {
+     "ko": "메이는 파티에 필요한 음식을 샀어요. 케이크는 충분하지만 음료수는 조금밖에 없어요. 그녀는 내일 더 사기로 했어요.",
+     "en": "May bought food for the party. There is enough cake, but there are only a few drinks. She decided to buy more tomorrow."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ケーキは十分あります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "飲み物はたくさんあります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "メイさんは今日もっと買います。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "牛乳はありますか。",
+    "read": "ぎゅうにゅうはありますか。",
+    "ko": "돈이 얼마나 있어요?",
+    "en": "How much money do you have?",
+    "situation": {
+     "ko": "셀 수 없는 수량을 물을 때",
+     "en": "Asking about an uncountable amount"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "お金はどのくらいありますか。",
+    "read": "おきんはどのくらいありますか。",
+    "ko": "친구가 몇 명이에요?",
+    "en": "How many friends do you have?",
+    "situation": {
+     "ko": "셀 수 있는 수량을 물을 때",
+     "en": "Asking about a countable number"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "冷蔵庫に牛乳が少しもありません。",
+    "read": "れいぞうこにぎゅうにゅうがすこしもありません。",
+    "ko": "우유가 조금도 없어요.",
+    "en": "There isn't any milk.",
+    "situation": {
+     "ko": "부정문에서",
+     "en": "In negative sentences"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "友達が何人かいます。",
+    "read": "ともだちがなんにんかいます。",
+    "ko": "영국에 친구가 몇 명 있어요.",
+    "en": "I have a few friends in England.",
+    "situation": {
+     "ko": "조금 있음을 말할 때",
+     "en": "Saying there are some"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "スープに塩を少し入れてください。",
+    "read": "スープにしおをすこしいれてください。",
+    "ko": "수프에 소금을 조금 넣으세요.",
+    "en": "Add a little salt to the soup.",
+    "situation": {
+     "ko": "소량을 말할 때",
+     "en": "Saying a small amount"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "学生はそれぞれ本を持ってきてください。",
+    "read": "がくせいはそれぞれほんをもってきてください。",
+    "ko": "각 학생은 책을 가져와야 해요.",
+    "en": "Each student must bring a book.",
+    "situation": {
+     "ko": "하나씩 말할 때",
+     "en": "Talking about one by one"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "ほとんどの人が賛成です。",
+    "read": "ほとんどのひとがさんせいです。",
+    "ko": "대부분의 사람들이 동의해요.",
+    "en": "Most people agree.",
+    "situation": {
+     "ko": "대다수를 말할 때",
+     "en": "Talking about the majority"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "時間が十分にありません。",
+    "read": "じかんがじゅうぶんにありません。",
+    "ko": "시간이 충분하지 않아요.",
+    "en": "We don't have enough time.",
+    "situation": {
+     "ko": "부족함을 말할 때",
+     "en": "Saying something is not enough"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜があまりありません。",
+    "read": "〜があまりありません。",
+    "ko": "~가 ~개 있어요.",
+    "en": "There are a few ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜が何人かいます。",
+    "read": "〜がなんにんかいます。",
+    "ko": "~가 약간 있어요.",
+    "en": "There is a little ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜を少し〜ます。",
+    "read": "〜をすこし〜ます。",
+    "ko": "~가 많지 않아요.",
+    "en": "There aren't many / much ~."
+   },
+   {
+    "id": "w4",
+    "t": "毎〜〜ます。",
+    "read": "まい〜〜ます。",
+    "ko": "각 ~는 ~해야 해요.",
+    "en": "Each / Every ~ must ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "우리 동네나 집에 있는 것과 없는 것을 수량 표현을 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about what there is and isn't in your neighbourhood or home, using quantifiers."
+   },
+   "must_include": [
+    {
+     "label": "あまり〜ない",
+     "match": [
+      "あまりありません"
+     ]
+    },
+    {
+     "label": "何軒か",
+     "match": [
+      "何軒か"
+     ]
+    },
+    {
+     "label": "毎〜",
+     "match": [
+      "毎朝"
+     ]
+    },
+    {
+     "label": "ほとんど",
+     "match": [
+      "ほとんど"
+     ]
+    }
+   ],
+   "model": "私の町には公園があまりありません。でも、カフェが何軒かあります。家では時間があまりないので、毎朝早く起きます。近所の人はほとんどが親切で、それぞれお互いを知っています。",
+   "model_trans": {
+    "ko": "우리 동네에는 공원이 많지 않아요. 하지만 카페는 몇 개 있어요. 나는 집에 시간이 많지 않아서 매일 아침 일찍 일어나요. 대부분의 이웃들은 친절하고 모두 서로를 알아요.",
+    "en": "There aren't many parks in my neighbourhood. But there are a few cafés. I don't have much time at home, so I get up early every morning. Most of my neighbours are friendly and each one knows the others."
+   }
+  }
+ }
+}
