@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "zh_b1_u28",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 28,
+  "concept": "B1.U28",
+  "status": "live",
+  "title": {
+   "target": "数量表达：一些・不多・每・大多数",
+   "ko": "수량 표현: some · any · much · many · each · every",
+   "en": "Quantifiers: some, any, much, many, each, every"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "足够",
+   "pos": "adj",
+   "read": "zúgòu",
+   "ko": "충분한",
+   "en": "enough",
+   "ex": {
+    "t": "我们的时间不够。",
+    "read": "Wǒmen de shíjiān bú gòu.",
+    "ko": "우리는 충분한 시간이 없어요.",
+    "en": "We don't have enough time."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "一点也",
+   "pos": "det",
+   "read": "yìdiǎn yě",
+   "ko": "조금도",
+   "en": "any",
+   "ex": {
+    "t": "冰箱里一点牛奶也没有。",
+    "read": "Bīngxiāng lǐ yìdiǎn niúnǎi yě méiyǒu.",
+    "ko": "냉장고에 우유가 조금도 없어요.",
+    "en": "There isn't any milk in the fridge."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "不多",
+   "pos": "det",
+   "read": "bù duō",
+   "ko": "많은(셀 수 있는)",
+   "en": "many",
+   "ex": {
+    "t": "这个城市的公园不多。",
+    "read": "Zhège chéngshì de gōngyuán bù duō.",
+    "ko": "이 도시에는 공원이 많지 않아요.",
+    "en": "There aren't many parks in this city."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "不多(钱)",
+   "pos": "det",
+   "read": "bù duō (qián)",
+   "ko": "많은(셀 수 없는)",
+   "en": "much",
+   "ex": {
+    "t": "我没有多少钱。",
+    "read": "Wǒ méiyǒu duōshao qián.",
+    "ko": "나는 돈이 많지 않아요.",
+    "en": "I don't have much money."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "几个",
+   "pos": "det",
+   "read": "jǐ gè",
+   "ko": "몇몇의",
+   "en": "a few",
+   "ex": {
+    "t": "我在英国有几个朋友。",
+    "read": "Wǒ zài yīng guó yǒu jǐ gè péngyou.",
+    "ko": "나는 영국에 친구가 몇 명 있어요.",
+    "en": "I have a few friends in England."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "一点",
+   "pos": "det",
+   "read": "yìdiǎn",
+   "ko": "약간의",
+   "en": "a little",
+   "ex": {
+    "t": "汤里放一点盐。",
+    "read": "Tāng lǐ fàng yìdiǎn yán.",
+    "ko": "수프에 소금을 조금 넣으세요.",
+    "en": "Add a little salt to the soup."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "每个",
+   "pos": "det",
+   "read": "měi gè",
+   "ko": "각각",
+   "en": "each",
+   "ex": {
+    "t": "每个学生都要带一本书。",
+    "read": "Měi gè xuésheng dōu yào dài yì běn shū.",
+    "ko": "각 학생은 책을 한 권씩 가져야 해요.",
+    "en": "Each student must bring a book."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "每",
+   "pos": "det",
+   "read": "měi",
+   "ko": "모든",
+   "en": "every",
+   "ex": {
+    "t": "我每天早上锻炼。",
+    "read": "Wǒ měitiān zǎoshang duànliàn.",
+    "ko": "나는 매일 아침 운동을 해요.",
+    "en": "I exercise every morning."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "大多数",
+   "pos": "det",
+   "read": "dà duō shù",
+   "ko": "대부분",
+   "en": "most",
+   "ex": {
+    "t": "大多数人都同意那个看法。",
+    "read": "Dà duō shù rén dōu tóngyì nàge kàn fǎ.",
+    "ko": "대부분의 사람들이 그 의견에 동의해요.",
+    "en": "Most people agree with that opinion."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "没有人",
+   "pos": "pron",
+   "read": "méiyǒu rén",
+   "ko": "아무도 ~않다",
+   "en": "no one",
+   "ex": {
+    "t": "没有人能回答那个问题。",
+    "read": "Méiyǒu rén néng huídá nàge wèntí.",
+    "ko": "아무도 그 문제에 답하지 못했어요.",
+    "en": "No one could answer the question."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "수량 표현: 一些・一点・很多・不多・每・大多数・没有人",
+   "en": "Quantity: 一些 / 一点 / 很多 / 不多 / 每 / 大多数"
+  },
+  "explain": {
+   "ko": "可数的东西多用“很多”，少用“几个”：我有几个朋友。不可数或否定句用“不多”“没有多少”：我没有多少钱。完全没有用“一点也没有”：冰箱里一点牛奶也没有。“每个”强调一个一个，“每”表示全部重复，“大多数”表示几乎所有，“没有人”表示一个人也没有。",
+   "en": "Many: 很多. A few: 几个. A little: 一点. Not many/much: 不多 / 没有多少. None at all: 一点也没有. 每个 = each; 每 = every; 大多数 = most; 没有人 = no one."
+  },
+  "table": {
+   "head": [
+    "구조 / 结构",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "많음 / 很多",
+     "很多",
+     "很多朋友"
+    ],
+    [
+     "조금 / 少",
+     "几个・一点",
+     "几个朋友・一点盐"
+    ],
+    [
+     "부정 / 否定",
+     "不多・一点也没有",
+     "钱不多・一点也没有"
+    ],
+    [
+     "전체 / 全部",
+     "每・大多数",
+     "每天・大多数人"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“几个”用于可数名词，“一点”用于不可数名词。",
+    "en": "几个 is for countables, 一点 for uncountables."
+   },
+   {
+    "ko": "“一点也”后面一定是否定。",
+    "en": "一点也 is followed by a negative."
+   },
+   {
+    "ko": "“没有人”后面常用“能/会”。",
+    "en": "没有人 is often followed by 能/会."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我们的时间不够。",
+    "read": "Wǒmen de shíjiān bú gòu.",
+    "ko": "우리는 충분한 시간이 없어요.",
+    "en": "We don't have enough time."
+   },
+   {
+    "t": "我没有多少钱。",
+    "read": "Wǒ méiyǒu duōshao qián.",
+    "ko": "이 도시에는 공원이 많지 않아요.",
+    "en": "There aren't many parks in this city."
+   },
+   {
+    "t": "我在英国有几个朋友。",
+    "read": "Wǒ zài yīng guó yǒu jǐ gè péngyou.",
+    "ko": "나는 돈이 많지 않아요.",
+    "en": "I don't have much money."
+   },
+   {
+    "t": "每个学生都要带一本书。",
+    "read": "Měi gè xuésheng dōu yào dài yì běn shū.",
+    "ko": "각 학생은 책을 한 권씩 가져야 해요.",
+    "en": "Each student must bring a book."
+   },
+   {
+    "t": "我每天早上锻炼。",
+    "read": "Wǒ měitiān zǎoshang duànliàn.",
+    "ko": "나는 매일 아침 운동을 해요.",
+    "en": "I exercise every morning."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我没有___钱。",
+    "options": [
+     "多少",
+     "几个",
+     "每个"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我在英国有___朋友。",
+    "options": [
+     "几个",
+     "一点",
+     "没有"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我___天早上锻炼。",
+    "options": [
+     "每",
+     "各",
+     "全"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "没有人___回答那个问题。",
+    "options": [
+     "能",
+     "要",
+     "把"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "冰箱里有牛奶吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 냉장고에 우유가 있어요?",
+     "en": "(Question) Is there any milk in the fridge?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "一点也没有了。",
+       "是的，我昨天喝了。",
+       "牛奶是白的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你有多少钱？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 돈이 얼마나 있어요?",
+     "en": "(Question) How much money do you have?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我没有多少钱。",
+       "我每天都有。",
+       "我昨天有。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "有多少人来参加聚会？"
+      },
+      {
+       "s": "B",
+       "t": "有几个朋友，不多。"
+      },
+      {
+       "s": "A",
+       "t": "吃的够吗？"
+      },
+      {
+       "s": "B",
+       "t": "够。有一点蛋糕，水果很多。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 파티에 사람이 몇 명 올까?\nB: 친구 몇 명이 올 거야. 많지는 않아.\nA: 음식이 충분할까?\nB: 응. 케이크도 조금 있고 과일도 많아.",
+     "en": "A: How many people are coming to the party?\nB: A few friends. Not many.\nA: Will there be enough food?\nB: Yes. There's a little cake and plenty of fruit."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "大概有多少人来参加聚会？",
+      "options": [
+       "几个朋友",
+       "一百个人",
+       "没有人"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我住的地方公园不多，不过有几家咖啡馆。大多数邻居都很友好，每个人都互相认识。每天早上我都先到公园散步，开始新的一天。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 동네에는 공원이 많지 않아요. 하지만 카페는 몇 개 있어요. 대부분의 이웃들은 친절하고 모두 서로를 알아요. 매일 아침 나는 공원에서 걸으며 하루를 시작해요.",
+     "en": "There aren't many parks in my neighbourhood, but there are a few cafés. Most of my neighbours are friendly and each one knows the others. Every morning I start the day with a walk in the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人每天早上做什么？",
+      "options": [
+       "去公园散步",
+       "去咖啡馆",
+       "看电影"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这里是超市。"
+      },
+      {
+       "s": "B",
+       "t": "奶制品区还有牛奶吗？"
+      },
+      {
+       "s": "A",
+       "t": "还有一点，不太多。"
+      },
+      {
+       "s": "B",
+       "t": "那我要两瓶。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 슈퍼마켓입니다.\n손님: 유제품 코너에 우유가 있나요?\n직원: 조금 남아 있지만 많지는 않습니다.\n손님: 그럼 두 병만 주세요.",
+     "en": "Assistant: Supermarket.\nGuest: Is there any milk in the dairy section?\nAssistant: There's a little left, but not much.\nGuest: Then I'll take two bottles."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "牛奶还剩：______",
+      "answers": [
+       "一点"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "要买的瓶数：______瓶",
+      "answers": [
+       "两"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我们的时间___。\n2) 我没有___钱。\n3) ___学生都要带一本书。",
+    "trans": {
+     "ko": "1) 우리는 충분한 시간이 없어요. 2) 이 도시에는 공원이 많지 않아요. 3) 나는 돈이 많지 않아요.",
+     "en": "1) We don't have enough time. 2) There aren't many parks in this city. 3) I don't have much money."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我们的时间___。",
+      "options": [
+       "不够",
+       "太多",
+       "很多"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我没有___钱。",
+      "options": [
+       "多少",
+       "几个",
+       "每个"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___学生都要带一本书。",
+      "options": [
+       "每个",
+       "多少",
+       "一点"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我住的地方公园(1)，不过有几家咖啡馆。(2)邻居都很友好，每个人都互相认识。每天早上我都先到公园(3)，开始新的一天。",
+    "trans": {
+     "ko": "우리 동네에는 공원이 많지 않아요. 하지만 카페는 몇 개 있어요. 대부분의 이웃들은 친절하고 모두 서로를 알아요. 매일 아침 나는 공원에서 걸으며 하루를 시작해요.",
+     "en": "There aren't many parks in my neighbourhood, but there are a few cafés. Most of my neighbours are friendly and each one knows the others. Every morning I start the day with a walk in the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "不多",
+       "很多",
+       "太多"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "大多数",
+       "没有人",
+       "一点也"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "散步",
+       "睡觉",
+       "上班"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "通知\n每个学生都要在下星期一以前带一本书。现在只有几个学生已经带来了。图书馆里的书不多，请大家提前准备。",
+    "trans": {
+     "ko": "공지\n각 학생은 다음 주 월요일까지 책 한 권을 가져와야 합니다. 소수의 학생만 이미 가져왔습니다. 도서관에는 책이 많이 없으니 미리 준비하세요.",
+     "en": "NOTICE\nEach student must bring a book by next Monday. Only a few students have brought one already. There aren't many books in the library, so prepare in advance."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "什么时候以前要带书？",
+      "options": [
+       "下星期一",
+       "今天",
+       "下个月"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "图书馆里的书怎么样？",
+      "options": [
+       "不多",
+       "很多",
+       "都关了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "梅为聚会买了吃的。蛋糕够了，可是饮料只有一点。她决定明天再多买一些。",
+    "trans": {
+     "ko": "메이는 파티에 필요한 음식을 샀어요. 케이크는 충분하지만 음료수는 조금밖에 없어요. 그녀는 내일 더 사기로 했어요.",
+     "en": "May bought food for the party. There is enough cake, but there are only a few drinks. She decided to buy more tomorrow."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "蛋糕够了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "饮料很多。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "梅今天要再买。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "冰箱里有牛奶吗？",
+    "read": "Bīngxiāng lǐ yǒu niúnǎi ma?",
+    "ko": "돈이 얼마나 있어요?",
+    "en": "How much money do you have?",
+    "situation": {
+     "ko": "셀 수 없는 수량을 물을 때",
+     "en": "Asking about an uncountable amount"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "你有多少钱？",
+    "read": "Nǐ yǒu duōshao qián?",
+    "ko": "친구가 몇 명이에요?",
+    "en": "How many friends do you have?",
+    "situation": {
+     "ko": "셀 수 있는 수량을 물을 때",
+     "en": "Asking about a countable number"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "冰箱里一点牛奶也没有。",
+    "read": "Bīngxiāng lǐ yìdiǎn niúnǎi yě méiyǒu.",
+    "ko": "우유가 조금도 없어요.",
+    "en": "There isn't any milk.",
+    "situation": {
+     "ko": "부정문에서",
+     "en": "In negative sentences"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我有几个朋友。",
+    "read": "Wǒ yǒu jǐ gè péngyou.",
+    "ko": "영국에 친구가 몇 명 있어요.",
+    "en": "I have a few friends in England.",
+    "situation": {
+     "ko": "조금 있음을 말할 때",
+     "en": "Saying there are some"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "汤里放一点盐。",
+    "read": "Tāng lǐ fàng yìdiǎn yán.",
+    "ko": "수프에 소금을 조금 넣으세요.",
+    "en": "Add a little salt to the soup.",
+    "situation": {
+     "ko": "소량을 말할 때",
+     "en": "Saying a small amount"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "每个学生都要带一本书。",
+    "read": "Měi gè xuésheng dōu yào dài yì běn shū.",
+    "ko": "각 학생은 책을 가져와야 해요.",
+    "en": "Each student must bring a book.",
+    "situation": {
+     "ko": "하나씩 말할 때",
+     "en": "Talking about one by one"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "大多数人都同意。",
+    "read": "Dà duō shù rén dōu tóngyì.",
+    "ko": "대부분의 사람들이 동의해요.",
+    "en": "Most people agree.",
+    "situation": {
+     "ko": "대다수를 말할 때",
+     "en": "Talking about the majority"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我们的时间不够。",
+    "read": "Wǒmen de shíjiān bú gòu.",
+    "ko": "시간이 충분하지 않아요.",
+    "en": "We don't have enough time.",
+    "situation": {
+     "ko": "부족함을 말할 때",
+     "en": "Saying something is not enough"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "没有多少……。",
+    "read": "Méiyǒu duōshao ….",
+    "ko": "~가 ~개 있어요.",
+    "en": "There are a few ~."
+   },
+   {
+    "id": "w2",
+    "t": "有几个……。",
+    "read": "Yǒu jǐ gè ….",
+    "ko": "~가 약간 있어요.",
+    "en": "There is a little ~."
+   },
+   {
+    "id": "w3",
+    "t": "每……都……。",
+    "read": "Měi … dōu ….",
+    "ko": "~가 많지 않아요.",
+    "en": "There aren't many / much ~."
+   },
+   {
+    "id": "w4",
+    "t": "大多数……。",
+    "read": "Dà duō shù ….",
+    "ko": "각 ~는 ~해야 해요.",
+    "en": "Each / Every ~ must ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "우리 동네나 집에 있는 것과 없는 것을 수량 표현을 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about what there is and isn't in your neighbourhood or home, using quantifiers."
+   },
+   "must_include": [
+    {
+     "label": "不多",
+     "match": [
+      "不多"
+     ]
+    },
+    {
+     "label": "几家",
+     "match": [
+      "几家"
+     ]
+    },
+    {
+     "label": "每",
+     "match": [
+      "每天早上"
+     ]
+    },
+    {
+     "label": "大多数",
+     "match": [
+      "大多数"
+     ]
+    }
+   ],
+   "model": "我住的地方公园不多，不过有几家咖啡馆。我在家的时间不多，所以每天早上很早起床。大多数邻居都很友好，每个人都互相认识。",
+   "model_trans": {
+    "ko": "우리 동네에는 공원이 많지 않아요. 하지만 카페는 몇 개 있어요. 나는 집에 시간이 많지 않아서 매일 아침 일찍 일어나요. 대부분의 이웃들은 친절하고 모두 서로를 알아요.",
+    "en": "There aren't many parks in my neighbourhood. But there are a few cafés. I don't have much time at home, so I get up early every morning. Most of my neighbours are friendly and each one knows the others."
+   }
+  }
+ }
+}

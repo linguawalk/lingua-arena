@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b1_u26",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b1",
+  "unit": 26,
+  "concept": "B1.U26",
+  "status": "live",
+  "title": {
+   "target": "被动句和让别人做：被・得被・请人……",
+   "ko": "조동사 수동태와 사역: have something done",
+   "en": "Modal passives and have something done"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "修理",
+   "pos": "verb",
+   "read": "xiūlǐ",
+   "ko": "수리하다",
+   "en": "repair",
+   "ex": {
+    "t": "我的自行车这星期得修一下。",
+    "read": "Wǒ de zìxíngchē zhè xīngqī děi xiū yíxià.",
+    "ko": "내 자전거는 이번 주에 수리돼야 해요.",
+    "en": "My bike has to be repaired this week."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "剪",
+   "pos": "verb",
+   "read": "jiǎn",
+   "ko": "자르다",
+   "en": "cut",
+   "ex": {
+    "t": "我每个月请人剪一次头发。",
+    "read": "Wǒ měi gè yuè qǐng rén jiǎn yí cì tóufa.",
+    "ko": "나는 한 달에 한 번 머리를 잘라요.",
+    "en": "I have my hair cut once a month."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "修好",
+   "pos": "verb",
+   "read": "xiū hǎo",
+   "ko": "고치다",
+   "en": "fix",
+   "ex": {
+    "t": "他们请人把屋顶修好了。",
+    "read": "Tāmen qǐng rén bǎ wū dǐng xiū hǎo le.",
+    "ko": "그들은 지붕을 고치게 했어요.",
+    "en": "They had the roof fixed."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "检查",
+   "pos": "verb",
+   "read": "jiǎn chá",
+   "ko": "검사하다",
+   "en": "check",
+   "ex": {
+    "t": "汽车每年都必须被检查。",
+    "read": "Qìchē měinián dōu bìxū bèi jiǎn chá.",
+    "ko": "차는 매년 검사받아야 해요.",
+    "en": "Cars must be checked every year."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "送",
+   "pos": "verb",
+   "read": "sòng",
+   "ko": "배달하다",
+   "en": "deliver",
+   "ex": {
+    "t": "饭菜可以在三十分钟以内送到。",
+    "read": "Fàn cài kěyǐ zài sānshí fēnzhōng yǐ nèi sòng dào.",
+    "ko": "음식은 30분 안에 배달될 수 있어요.",
+    "en": "The food can be delivered within thirty minutes."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "禁止",
+   "pos": "verb",
+   "read": "jìnzhǐ",
+   "ko": "금지하다",
+   "en": "ban",
+   "ex": {
+    "t": "这里禁止吸烟。",
+    "read": "Zhèlǐ jìnzhǐ xī yān.",
+    "ko": "이곳에서는 흡연이 금지돼 있어요.",
+    "en": "Smoking is banned here."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "允许",
+   "pos": "verb",
+   "read": "yǔnxǔ",
+   "ko": "허락하다",
+   "en": "allow",
+   "ex": {
+    "t": "这里不允许拍照。",
+    "read": "Zhèlǐ bù yǔnxǔ pāizhào.",
+    "ko": "사진은 허용되지 않아요.",
+    "en": "Photos are not allowed."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "理发店",
+   "pos": "noun",
+   "read": "lǐ fà diàn",
+   "ko": "미용실",
+   "en": "hairdresser's",
+   "ex": {
+    "t": "我在理发店做了头发。",
+    "read": "Wǒ zài lǐ fà diàn zuò le tóufa.",
+    "ko": "나는 미용실에서 머리를 했어요.",
+    "en": "I had my hair done at the hairdresser's."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "修理厂",
+   "pos": "noun",
+   "read": "xiūlǐ chǎng",
+   "ko": "정비소",
+   "en": "garage",
+   "ex": {
+    "t": "我在修理厂检查了汽车。",
+    "read": "Wǒ zài xiūlǐ chǎng jiǎn chá le qìchē.",
+    "ko": "차를 정비소에서 점검받았어요.",
+    "en": "I had the car checked at the garage."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "修理费",
+   "pos": "noun",
+   "read": "xiūlǐ fèi",
+   "ko": "수리비",
+   "en": "repair bill",
+   "ex": {
+    "t": "修理费可以月底付。",
+    "read": "Xiūlǐ fèi kěyǐ yuè dǐ fù.",
+    "ko": "수리비는 월말에 지불될 수 있어요.",
+    "en": "The repair bill can be paid at the end of the month."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "피동과 시키기: 被・得被……・请人……・让人……",
+   "en": "Passives and having things done: 被 / 得被…… / 请人……"
+  },
+  "explain": {
+   "ko": "被动句用“被”或“让/叫”：汽车每年都必须被检查。表示允许或禁止，常用“被禁止”“不允许”：这里不允许拍照。请别人帮忙做事，用“请/让/找人 + 做”：我每个月请人剪一次头发，他们请人把屋顶修好了。可能性用“可以”“能”：饭菜可以在三十分钟以内送到。",
+   "en": "Passive with 被: 汽车每年都必须被检查. Permission or ban: 被禁止 / 不允许. Having something done: 请/找人 + verb: 我每个月请人剪一次头发. Possibility: 可以 / 能."
+  },
+  "table": {
+   "head": [
+    "구조 / 结构",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "피동 / 被动",
+     "被……",
+     "汽车被检查"
+    ],
+    [
+     "의무 / 义务",
+     "必须被……",
+     "必须被检查"
+    ],
+    [
+     "시킴 / 请人",
+     "请人……",
+     "请人修屋顶"
+    ],
+    [
+     "금지 / 禁止",
+     "被禁止 / 不允许",
+     "不允许拍照"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“被”后面常有动作的施事者，也可以省略。",
+    "en": "After 被 the doer may be omitted."
+   },
+   {
+    "ko": "“请人……”表示让别人做某事。",
+    "en": "请人…… means to have someone do something."
+   },
+   {
+    "ko": "“把”字句也常和“请人”一起用。",
+    "en": "把 sentences are often used with 请人."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我的自行车这星期得修一下。",
+    "read": "Wǒ de zìxíngchē zhè xīngqī děi xiū yíxià.",
+    "ko": "내 자전거는 이번 주에 수리돼야 해요.",
+    "en": "My bike has to be repaired this week."
+   },
+   {
+    "t": "汽车每年都必须被检查。",
+    "read": "Qìchē měinián dōu bìxū bèi jiǎn chá.",
+    "ko": "차는 매년 검사받아야 해요.",
+    "en": "Cars must be checked every year."
+   },
+   {
+    "t": "饭菜可以在三十分钟以内送到。",
+    "read": "Fàn cài kěyǐ zài sānshí fēnzhōng yǐ nèi sòng dào.",
+    "ko": "음식은 30분 안에 배달될 수 있어요.",
+    "en": "The food can be delivered within thirty minutes."
+   },
+   {
+    "t": "我每个月请人剪一次头发。",
+    "read": "Wǒ měi gè yuè qǐng rén jiǎn yí cì tóufa.",
+    "ko": "나는 한 달에 한 번 머리를 잘라요.",
+    "en": "I have my hair cut once a month."
+   },
+   {
+    "t": "他们请人把屋顶修好了。",
+    "read": "Tāmen qǐng rén bǎ wū dǐng xiū hǎo le.",
+    "ko": "그들은 지붕을 고치게 했어요.",
+    "en": "They had the roof fixed."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "汽车每年都必须___检查。",
+    "options": [
+     "被",
+     "把",
+     "给"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我每个月___人剪一次头发。",
+    "options": [
+     "请",
+     "被",
+     "把"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "这里不___拍照。",
+    "options": [
+     "允许",
+     "必须",
+     "应该"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "他们请人把屋顶修好___。",
+    "options": [
+     "了",
+     "吗",
+     "的"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "什么时候可以修好？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이건 언제 수리될 수 있어요?",
+     "en": "(Question) When can it be repaired?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "明天以前可以修好。",
+       "我昨天买了自行车。",
+       "我喜欢修理。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你多久剪一次头发？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 머리는 얼마나 자주 잘라요?",
+     "en": "(Question) How often do you have your hair cut?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "每个月剪一次。",
+       "我头发很长。",
+       "我昨天剪了。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我的笔记本电脑坏了，这星期得修一下。"
+      },
+      {
+       "s": "B",
+       "t": "你最好拿到店里去修。"
+      },
+      {
+       "s": "A",
+       "t": "对。明天下午能修好吗？"
+      },
+      {
+       "s": "B",
+       "t": "你打电话问问。修理费可能月底再付。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 내 노트북이 고장 났어. 이번 주에 수리돼야 해.\nB: 정비소에 맡기는 게 좋겠어.\nA: 응. 내일 오후까지는 고쳐질 수 있을까?\nB: 전화해서 물어봐. 수리비는 월말에 낼 수도 있어.",
+     "en": "A: My laptop is broken. It has to be repaired this week.\nB: You'd better have it fixed at the shop.\nA: Yes. Can it be fixed by tomorrow afternoon?\nB: Phone and ask. The repair bill might be paid at the end of the month."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "A的电脑怎么了？",
+      "options": [
+       "坏了",
+       "被偷了",
+       "卖了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我们的房子很旧。今年我们打算请人把屋顶修一修。窗户也得换。工程一个月内可以完成。专家会来检查所有的地方。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 집은 낡았어요. 올해 지붕을 고치게 할 예정이에요. 창문도 교체되어야 해요. 일은 한 달 안에 끝날 수 있어요. 전문가들이 와서 모든 걸 점검할 거예요.",
+     "en": "Our house is old. We're going to have the roof fixed this year. The windows also have to be replaced. The work can be finished within a month. Experts will come and check everything."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "工程多久可以完成？",
+      "options": [
+       "一个月以内",
+       "一个星期以内",
+       "一年以内"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这里是汽车修理厂。"
+      },
+      {
+       "s": "B",
+       "t": "我想检查一下车，刹车声音不对。"
+      },
+      {
+       "s": "A",
+       "t": "明天上午以前可以检查好。"
+      },
+      {
+       "s": "B",
+       "t": "要花多少钱？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 정비소입니다.\n손님: 차를 점검받고 싶어요. 브레이크가 이상해요.\n직원: 내일 오전까지 점검될 수 있어요.\n손님: 비용은 얼마예요?",
+     "en": "Agent: Car garage.\nGuest: I'd like to have my car checked. The brakes are strange.\nAgent: It can be checked by tomorrow morning.\nGuest: How much will it cost?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "要检查的东西：______",
+      "answers": [
+       "车"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "有问题的地方：______",
+      "answers": [
+       "刹车"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我的自行车这星期得___一下。\n2) 汽车每年都必须___检查。\n3) 我每个月___人剪一次头发。",
+    "trans": {
+     "ko": "1) 내 자전거는 이번 주에 수리돼야 해요. 2) 차는 매년 검사받아야 해요. 3) 나는 한 달에 한 번 머리를 잘라요.",
+     "en": "1) My bike has to be repaired this week. 2) Cars must be checked every year. 3) I have my hair cut once a month."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我的自行车这星期得___一下。",
+      "options": [
+       "修",
+       "买",
+       "借"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "汽车每年都必须___检查。",
+      "options": [
+       "被",
+       "把",
+       "给"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我每个月___人剪一次头发。",
+      "options": [
+       "请",
+       "被",
+       "把"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我们的房子很旧。今年我们打算(1)人把屋顶修一修。窗户也(2)换。工程一个月内可以(3)，费用可以分两次付。",
+    "trans": {
+     "ko": "우리 집은 낡았어요. 올해 지붕을 고치게 할 예정이에요. 창문도 교체되어야 해요. 일은 한 달 안에 끝날 수 있고 비용은 두 번에 나누어 지불될 수 있어요.",
+     "en": "Our house is old. We're going to have the roof fixed this year. The windows also have to be replaced. The work can be finished within a month, and the cost can be paid in two parts."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "请",
+       "被",
+       "把"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "得",
+       "没",
+       "别"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "完成",
+       "开始",
+       "忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "通知\n这里不允许拍照。包必须在入口处接受检查。儿童必须由大人陪同。",
+    "trans": {
+     "ko": "안내문\n이곳에서는 사진 촬영이 허용되지 않습니다. 가방은 입구에서 검사받아야 합니다. 어린이는 어른과 함께 입장해야 합니다.",
+     "en": "NOTICE\nPhotos are not allowed here. Bags must be checked at the entrance. Children must be accompanied by an adult."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这里什么不被允许？",
+      "options": [
+       "拍照",
+       "喝水",
+       "说话"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "包在哪里检查？",
+      "options": [
+       "入口处",
+       "出口",
+       "停车场"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "苏昨天在理发店剪了头发。她很喜欢新发型。她说下次想请人把头发染一下。",
+    "trans": {
+     "ko": "수는 어제 미용실에서 머리를 잘랐어요. 그녀는 새 스타일이 마음에 들었어요. 다음에는 염색도 하게 하고 싶다고 말했어요.",
+     "en": "Sue had her hair cut at the hairdresser's yesterday. She liked the new style. She said she'd like to have it dyed next time."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "苏剪了头发。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "苏不喜欢新发型。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "苏已经染了头发。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "什么时候可以修好？",
+    "read": "Shénme shíhou kěyǐ xiū hǎo?",
+    "ko": "이건 언제 수리될 수 있어요?",
+    "en": "When can it be repaired?",
+    "situation": {
+     "ko": "수리 시기를 물을 때",
+     "en": "Asking when something can be repaired"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "明天以前可以修好。",
+    "read": "Míngtiān yǐqián kěyǐ xiū hǎo.",
+    "ko": "내일까지는 수리될 수 있어요.",
+    "en": "It can be repaired by tomorrow.",
+    "situation": {
+     "ko": "가능성을 말할 때",
+     "en": "Saying what is possible"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "汽车每年都必须被检查。",
+    "read": "Qìchē měinián dōu bìxū bèi jiǎn chá.",
+    "ko": "차는 매년 검사받아야 해요.",
+    "en": "Cars must be checked every year.",
+    "situation": {
+     "ko": "의무를 말할 때",
+     "en": "Saying what is required"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "这里不允许拍照。",
+    "read": "Zhèlǐ bù yǔnxǔ pāizhào.",
+    "ko": "이곳에서는 사진이 허용되지 않아요.",
+    "en": "Photos are not allowed here.",
+    "situation": {
+     "ko": "규칙을 말할 때",
+     "en": "Stating a rule"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我想剪头发。",
+    "read": "Wǒ xiǎng jiǎn tóufa.",
+    "ko": "머리를 자르러 왔어요.",
+    "en": "I'd like to have my hair cut.",
+    "situation": {
+     "ko": "서비스를 요청할 때",
+     "en": "Asking for a service"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我们请人把屋顶修好了。",
+    "read": "Wǒmen qǐng rén bǎ wū dǐng xiū hǎo le.",
+    "ko": "지붕을 고치게 했어요.",
+    "en": "We had the roof fixed.",
+    "situation": {
+     "ko": "남에게 시킨 일을 말할 때",
+     "en": "Saying you paid someone to do it"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "要花多长时间？",
+    "read": "Yào huā duō cháng shíjiān?",
+    "ko": "얼마나 걸려요?",
+    "en": "How long will it take?",
+    "situation": {
+     "ko": "소요 시간을 물을 때",
+     "en": "Asking how long"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "修理要多少钱？",
+    "read": "Xiūlǐ yào duōshao qián?",
+    "ko": "수리비는 얼마예요?",
+    "en": "How much will the repair cost?",
+    "situation": {
+     "ko": "비용을 물을 때",
+     "en": "Asking about the cost"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……可以被……。",
+    "read": "… Kěyǐ bèi ….",
+    "ko": "~는 ~될 수 있어요.",
+    "en": "~ can be + p.p."
+   },
+   {
+    "id": "w2",
+    "t": "……必须被……。",
+    "read": "… Bìxū bèi ….",
+    "ko": "~는 ~돼야 해요.",
+    "en": "~ must / has to be + p.p."
+   },
+   {
+    "id": "w3",
+    "t": "我请人……。",
+    "read": "Wǒ qǐng rén ….",
+    "ko": "나는 ~를 ~하게 해요.",
+    "en": "I have my ~ + p.p."
+   },
+   {
+    "id": "w4",
+    "t": "我们请人把……。",
+    "read": "Wǒmen qǐng rén bǎ ….",
+    "ko": "우리는 ~를 ~하게 했어요.",
+    "en": "We had the ~ + p.p."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "집이나 자전거 등을 수리할 때 필요한 일을 조동사 수동태와 have something done을 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about getting something repaired, using modal passives and have something done."
+   },
+   "must_include": [
+    {
+     "label": "被",
+     "match": [
+      "被检查"
+     ]
+    },
+    {
+     "label": "请人",
+     "match": [
+      "请人"
+     ]
+    },
+    {
+     "label": "修理费",
+     "match": [
+      "修理费"
+     ]
+    }
+   ],
+   "model": "我的自行车这星期得修一下。我打算请人在修理厂修好它，因为车每年都必须被检查。明天以前就可以修好。修理费可以月底付。",
+   "model_trans": {
+    "ko": "내 자전거는 이번 주에 수리돼야 해요. 나는 정비소에서 그것을 고치게 할 거예요. 수리는 내일까지 끝날 수 있어요. 수리비는 월말에 지불될 수 있어요.",
+    "en": "My bike has to be repaired this week. I'm going to have it fixed at the garage. The repair can be finished by tomorrow. The repair bill can be paid at the end of the month."
+   }
+  }
+ }
+}
