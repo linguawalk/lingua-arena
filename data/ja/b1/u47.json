@@ -1,0 +1,839 @@
+{
+ "meta": {
+  "id": "ja_b1_u47",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b1",
+  "unit": 47,
+  "concept": "B1.U47",
+  "status": "live",
+  "title": {
+   "target": "あらたまった言い方とくだけた言い方：メールの書き方",
+   "ko": "격식체와 일상 표현: 이메일 쓰기",
+   "en": "Formal and informal language: writing emails"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "拝啓",
+   "pos": "phrase",
+   "read": "はいけい",
+   "ko": "담당자께",
+   "en": "Dear Sir or Madam",
+   "ex": {
+    "t": "あらたまった手紙は「拝啓」で始めます。",
+    "read": "あらたまったてがみは「はいけい」ではじめます。",
+    "ko": "격식 있는 편지는 Dear Sir or Madam으로 시작해요.",
+    "en": "A formal letter starts with Dear Sir or Madam."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "やあ",
+   "pos": "interj",
+   "read": "やあ",
+   "ko": "안녕",
+   "en": "Hi",
+   "ex": {
+    "t": "友達へのメールは「やあ」で始められます。",
+    "read": "ともだちへのメールは「やあ」ではじめられます。",
+    "ko": "친구에게는 Hi로 시작해도 돼요.",
+    "en": "You can start an email to a friend with Hi."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜のことでご連絡しました",
+   "pos": "phrase",
+   "read": "〜のことでごれんらくしました",
+   "ko": "~에 관해 쓰다",
+   "en": "I am writing to",
+   "ex": {
+    "t": "苦情のことでご連絡しました。",
+    "read": "くじょうのことでごれんらくしました。",
+    "ko": "저는 불만을 말씀드리려고 씁니다.",
+    "en": "I am writing to complain."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜ていただけますと幸いです",
+   "pos": "phrase",
+   "read": "〜ていただけますとさいわいです",
+   "ko": "~해 주시겠습니까",
+   "en": "I would be grateful if you could",
+   "ex": {
+    "t": "ご返信いただけますと幸いです。",
+    "read": "ごへんしんいただけますとさいわいです。",
+    "ko": "답변해 주시면 감사하겠습니다.",
+    "en": "I would be grateful if you could reply."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "添付する",
+   "pos": "verb",
+   "read": "てんぷする",
+   "ko": "첨부하다",
+   "en": "attach",
+   "ex": {
+    "t": "履歴書を添付します。",
+    "read": "りれきしょをてんぷします。",
+    "ko": "이력서를 첨부합니다.",
+    "en": "I attach my CV."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "敬具",
+   "pos": "phrase",
+   "read": "けいぐ",
+   "ko": "~에게 보냄",
+   "en": "Best regards",
+   "ex": {
+    "t": "あらたまったメールは「敬具」で終えます。",
+    "read": "あらたまったメールは「けいぐ」でおえます。",
+    "ko": "격식 있는 이메일은 Best regards로 끝내요.",
+    "en": "End a formal email with Best regards."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "またね",
+   "pos": "phrase",
+   "read": "またね",
+   "ko": "친구에게 쓸 때 끝인사",
+   "en": "See you soon",
+   "ex": {
+    "t": "友達へのメールは「またね」で終えられます。",
+    "read": "ともだちへのメールは「またね」でおえられます。",
+    "ko": "친구에게는 See you soon으로 끝내도 돼요.",
+    "en": "You can end an email to a friend with See you soon."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "問い合わせ",
+   "pos": "noun",
+   "read": "といあわせ",
+   "ko": "문의",
+   "en": "enquiry",
+   "ex": {
+    "t": "料金についてお問い合わせしたいです。",
+    "read": "りょうきんについておといあわせしたいです。",
+    "ko": "저는 가격에 대해 문의하고 싶어요.",
+    "en": "I'd like to make an enquiry about the price."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "返信",
+   "pos": "noun",
+   "read": "へんしん",
+   "ko": "회신",
+   "en": "reply",
+   "ex": {
+    "t": "お早めのご返信をお待ちしております。",
+    "read": "おはやめのごへんしんをおまちしております。",
+    "ko": "빠른 회신을 기다리겠습니다.",
+    "en": "I look forward to your prompt reply."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "お詫びする",
+   "pos": "phrase",
+   "read": "おわびする",
+   "ko": "사과드립니다",
+   "en": "I apologise for",
+   "ex": {
+    "t": "ご不便をおかけして、お詫び申し上げます。",
+    "read": "ごふべんをおかけして、おわびもうしあげます。",
+    "ko": "불편을 드려 사과드립니다.",
+    "en": "I apologise for the inconvenience."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "격식체와 일상체: 〜にご連絡しました・〜ていただけますと幸いです・〜よろしく",
+   "en": "Formal and casual: メールの書き方 / 〜ていただけますと幸いです"
+  },
+  "explain": {
+   "ko": "받는 사람에 따라 말투가 달라집니다. 회사나 학교에는 「拝啓」「〜のことでご連絡しました」「〜ていただけますと幸いです」「敬具」를 쓰고, 친구에게는 「やあ」「〜だよ」「またね」를 씁니다. 첨부는 「添付します」, 회신 기대는 「ご返信をお待ちしております」, 사과는 「お詫び申し上げます」입니다.",
+   "en": "Tone depends on the reader. To a company or school: 「拝啓」「〜のことでご連絡しました」「〜ていただけますと幸いです」「敬具」. To a friend: 「やあ」「〜だよ」「またね」. Attach: 「添付します」. Awaiting reply: 「ご返信をお待ちしております」. Apology: 「お詫び申し上げます」."
+  },
+  "table": {
+   "head": [
+    "구조 / 形",
+    "표현 / 表現",
+    "예 / 例"
+   ],
+   "rows": [
+    [
+     "시작 / 始め",
+     "拝啓・やあ",
+     "拝啓／やあ"
+    ],
+    [
+     "용건 / 用件",
+     "〜のことでご連絡しました",
+     "苦情のことでご連絡しました"
+    ],
+    [
+     "부탁 / 依頼",
+     "〜ていただけますと幸いです",
+     "ご返信いただけますと幸いです"
+    ],
+    [
+     "끝 / 結び",
+     "敬具・またね",
+     "敬具／またね"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「拝啓」은 「敬具」로 끝맺습니다.",
+    "en": "「拝啓」 is closed with 「敬具」."
+   },
+   {
+    "ko": "친구에게는 「です・ます」 대신 보통체를 써도 됩니다.",
+    "en": "To friends you may use the plain form instead of です・ます."
+   },
+   {
+    "ko": "「お待ちしております」는 「待っています」의 겸양 표현입니다.",
+    "en": "「お待ちしております」 is the humble form of 「待っています」."
+   }
+  ],
+  "examples": [
+   {
+    "t": "あらたまった手紙は「拝啓」で始めます。",
+    "read": "あらたまったてがみは「はいけい」ではじめます。",
+    "ko": "격식 있는 편지는 Dear Sir or Madam으로 시작해요.",
+    "en": "A formal letter starts with Dear Sir or Madam."
+   },
+   {
+    "t": "苦情のことでご連絡しました。",
+    "read": "くじょうのことでごれんらくしました。",
+    "ko": "저는 불만을 말씀드리려고 씁니다.",
+    "en": "I am writing to complain."
+   },
+   {
+    "t": "ご返信いただけますと幸いです。",
+    "read": "ごへんしんいただけますとさいわいです。",
+    "ko": "답변해 주시면 감사하겠습니다.",
+    "en": "I would be grateful if you could reply."
+   },
+   {
+    "t": "履歴書を添付します。",
+    "read": "りれきしょをてんぷします。",
+    "ko": "이력서를 첨부합니다.",
+    "en": "I attach my CV."
+   },
+   {
+    "t": "ご不便をおかけして、お詫び申し上げます。",
+    "read": "ごふべんをおかけして、おわびもうしあげます。",
+    "ko": "불편을 드려 사과드립니다.",
+    "en": "I apologise for the inconvenience."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "あらたまったメールは「___」で始めます。",
+    "options": [
+     "拝啓",
+     "やあ",
+     "またね"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "ご返信いただけます___幸いです。",
+    "options": [
+     "と",
+     "を",
+     "が"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "履歴書を添付し___。",
+    "options": [
+     "ます",
+     "ません",
+     "ました"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "ご不便をおかけして、お詫び申し上げ___。",
+    "options": [
+     "ます",
+     "ません",
+     "ました"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "メールはどう書き始めればいいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이메일을 어떻게 시작할까요?",
+     "en": "(Question) How should I begin the email?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "「拝啓」で始めます。",
+       "昨日書きました。",
+       "メールは長いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "友達にもあらたまって書かなければなりませんか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 친구에게도 격식 있게 써야 하나요?",
+     "en": "(Question) Do I have to be formal with a friend too?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "いいえ、友達にはくだけて書いてもいいです。",
+       "はい、毎日必ず書きます。",
+       "メールは嫌いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この学校に問い合わせのメールを書くんだけど、どう始めればいいかな。"
+      },
+      {
+       "s": "B",
+       "t": "「拝啓」で始めて、「〜のことでご連絡しました」と書くといいよ。"
+      },
+      {
+       "s": "A",
+       "t": "終わりはどうする？"
+      },
+      {
+       "s": "B",
+       "t": "「敬具」だよ。友達なら「またね」でいいよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 학원에 문의 이메일을 쓰려고 해. 어떻게 시작할까?\nB: Dear Sir or Madam으로 시작해. 그다음에 I am writing to enquire about ... 라고 써.\nA: 끝인사는?\nB: Best regards. 친구에게는 See you soon이라고 써도 돼.",
+     "en": "A: I'm going to write an email enquiring about this school. How should I start?\nB: Start with Dear Sir or Madam, then write I am writing to enquire about ...\nA: And how do I end?\nB: Best regards. With a friend you can write See you soon."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "あらたまったメールの終わりはどう書きますか。",
+      "options": [
+       "敬具",
+       "またね",
+       "じゃあね"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "メールの言葉づかいは、だれに書くかによって変わります。会社や学校に書くときは、「拝啓」で始め、あらたまった言い方で、「敬具」で終えます。友達には「やあ」で始め、くだけた言い方で書いて、「またね」で終えます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이메일은 읽는 사람에 따라 말투가 다릅니다. 회사나 학교에 쓸 때는 Dear Sir or Madam으로 시작해 격식 있게 쓰고 Best regards로 끝냅니다. 친구에게는 Hi로 시작해 편하게 쓰고 See you soon으로 끝낼 수 있습니다.",
+     "en": "The tone of an email depends on who you are writing to. When you write to a company or school, start with Dear Sir or Madam, write formally and end with Best regards. With a friend you can start with Hi, write casually and end with See you soon."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "友達へのメールはどう終えますか。",
+      "options": [
+       "またね",
+       "敬具",
+       "拝啓"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "学校の受付です。"
+      },
+      {
+       "s": "B",
+       "t": "メールで問い合わせをしたのですが、返信がまだありません。"
+      },
+      {
+       "s": "A",
+       "t": "ご不便をおかけして、お詫び申し上げます。お名前を教えていただけますか。"
+      },
+      {
+       "s": "B",
+       "t": "イ・エバです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 학원 접수처입니다.\n손님: 이메일로 문의했는데 답을 못 받았어요.\n직원: 불편을 드려 사과드립니다. 성함을 알려 주시겠어요?\n손님: 에바 리입니다.",
+     "en": "Clerk: School reception.\nGuest: I sent an enquiry by email but haven't had a reply.\nClerk: I apologise for the inconvenience. May I have your name?\nGuest: Eva Lee."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "問い合わせの方法：______",
+      "answers": [
+       "メール"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "受付がお詫びした言葉：お詫び申し上げ______",
+      "answers": [
+       "ます"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) あらたまった手紙は「___」で始めます。\n2) 苦情のことで___しました。\n3) 履歴書を___します。",
+    "trans": {
+     "ko": "1) 격식 있는 편지는 Dear Sir or Madam으로 시작해요. 2) 저는 불만을 말씀드리려고 씁니다. 3) 이력서를 첨부합니다.",
+     "en": "1) A formal letter starts with Dear Sir or Madam. 2) I am writing to complain. 3) I attach my CV."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "あらたまった手紙は「___」で始めます。",
+      "options": [
+       "拝啓",
+       "やあ",
+       "またね"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "苦情のことで___しました。",
+      "options": [
+       "ご連絡",
+       "お詫び",
+       "拝見"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "履歴書を___します。",
+      "options": [
+       "添付",
+       "返信",
+       "問い合わせ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "メールの言葉づかいは、だれに書くかによって変わります。会社や学校に書くときは、「拝啓」で始め、あらたまった言い方で、「敬具」で(1)。友達には「やあ」で始め、くだけた言い方で書いて、「またね」で(2)。(3)。",
+    "trans": {
+     "ko": "이메일은 읽는 사람에 따라 말투가 다릅니다. 회사나 학교에 쓸 때는 Dear Sir or Madam으로 시작해 격식 있게 쓰고 Best regards로 끝냅니다. 친구에게는 Hi로 시작해 편하게 쓰고 See you soon으로 끝낼 수 있습니다.",
+     "en": "The tone of an email depends on who you are writing to. When you write to a company or school, start with Dear Sir or Madam, write formally and end with Best regards. With a friend you can start with Hi, write casually and end with See you soon."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "終えます",
+       "始めます",
+       "送りません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "終えます",
+       "始めます",
+       "送りません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "これは大切なことです",
+       "これは悪いことです",
+       "これは嫌いです"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "メール\n拝啓\n夜間英語コースについてお問い合わせいたします。時間割と料金を送っていただけますと幸いです。金曜日までにご返信をいただければありがたく存じます。\n敬具\nイ・エバ",
+    "trans": {
+     "ko": "이메일\nDear Sir or Madam, I am writing to enquire about your evening English course. Could you send me the timetable and the price? I would be grateful for a reply by Friday. Best regards, Eva Lee",
+     "en": "EMAIL\nDear Sir or Madam, I am writing to enquire about your evening English course. Could you send me the timetable and the price? I would be grateful for a reply by Friday. Best regards, Eva Lee"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "筆者は何を問い合わせていますか。",
+      "options": [
+       "夜間英語コースについて",
+       "旅行について",
+       "仕事について"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "筆者は何を送ってほしいですか。",
+      "options": [
+       "時間割と料金",
+       "地図",
+       "履歴書"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "メイさんは友達のトムさんにメールを書きました。「やあ」で始めて、週末の予定をくだけた言い方で聞きました。最後は「またね」で終えました。",
+    "trans": {
+     "ko": "메이는 친구 톰에게 이메일을 썼어요. 그녀는 Hi로 시작해서 주말 계획을 편하게 물었어요. 마지막은 See you soon으로 끝냈어요.",
+     "en": "May wrote an email to her friend Tom. She began with Hi and casually asked about his weekend plans. She finished with See you soon."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "メイさんは友達にメールを書きました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "メイさんはあらたまった言い方で書きました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "メイさんは「敬具」で終えました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "メールはどう始めればいいですか。",
+    "read": "メールはどうはじめればいいですか。",
+    "ko": "이메일을 어떻게 시작할까요?",
+    "en": "How should I begin the email?",
+    "situation": {
+     "ko": "형식을 물을 때",
+     "en": "Asking about format"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "コースについてお問い合わせします。",
+    "read": "コースについておといあわせします。",
+    "ko": "저는 문의하려고 이메일을 씁니다.",
+    "en": "I am writing to enquire about the course.",
+    "situation": {
+     "ko": "격식 있는 시작",
+     "en": "A formal opening"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "やあ、元気？",
+    "read": "やあ、げんき？",
+    "ko": "안녕, 잘 지내?",
+    "en": "Hi, how are you?",
+    "situation": {
+     "ko": "일상적인 시작",
+     "en": "An informal opening"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "ご返信いただけますと幸いです。",
+    "read": "ごへんしんいただけますとさいわいです。",
+    "ko": "답변해 주시면 감사하겠습니다.",
+    "en": "I would be grateful if you could reply.",
+    "situation": {
+     "ko": "격식 있는 요청",
+     "en": "A formal request"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "返信をいただけませんか。",
+    "read": "へんしんをいただけませんか。",
+    "ko": "답장해 줄래?",
+    "en": "Could you write back?",
+    "situation": {
+     "ko": "일상적인 요청",
+     "en": "An informal request"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "履歴書を添付します。",
+    "read": "りれきしょをてんぷします。",
+    "ko": "이력서를 첨부합니다.",
+    "en": "I attach my CV.",
+    "situation": {
+     "ko": "첨부 파일을 말할 때",
+     "en": "Mentioning an attachment"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "お返事をお待ちしております。",
+    "read": "おへんじをおまちしております。",
+    "ko": "회신을 기다리겠습니다.",
+    "en": "I look forward to your reply.",
+    "situation": {
+     "ko": "격식 있는 마무리",
+     "en": "A formal closing"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "またね！",
+    "read": "またね！",
+    "ko": "곧 또 연락해!",
+    "en": "Write soon!",
+    "situation": {
+     "ko": "일상적인 마무리",
+     "en": "An informal closing"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜のことでご連絡しました。",
+    "read": "〜のことでごれんらくしました。",
+    "ko": "~하려고 씁니다.",
+    "en": "I am writing to ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜ていただけますと幸いです。",
+    "read": "〜ていただけますとさいわいです。",
+    "ko": "~해 주시면 감사하겠습니다.",
+    "en": "I would be grateful if you could ~."
+   },
+   {
+    "id": "w3",
+    "t": "〜を添付します。",
+    "read": "〜をてんぷします。",
+    "ko": "~를 첨부합니다.",
+    "en": "I attach ~."
+   },
+   {
+    "id": "w4",
+    "t": "〜をお待ちしております。",
+    "read": "〜をおまちしております。",
+    "ko": "~를 기다리겠습니다.",
+    "en": "I look forward to ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "학원에 등록 문의를 하는 격식 있는 이메일을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences of a formal email enquiring about a course."
+   },
+   "must_include": [
+    {
+     "label": "拝啓",
+     "match": [
+      "拝啓"
+     ]
+    },
+    {
+     "label": "〜のことでご連絡しました",
+     "match": [
+      "ご連絡しました"
+     ]
+    },
+    {
+     "label": "〜ていただけますと幸いです",
+     "match": [
+      "いただけますと幸いです"
+     ]
+    },
+    {
+     "label": "敬具",
+     "match": [
+      "敬具"
+     ]
+    }
+   ],
+   "model": "拝啓　英語コースのことでご連絡しました。スケジュールと料金を教えていただけますと幸いです。履歴書を添付します。お返事をお待ちしております。　敬具",
+   "model_trans": {
+    "ko": "담당자님께. 저는 귀 학원의 영어 과정에 대해 문의하려고 이메일을 씁니다. 수업 일정과 수강료를 알려 주시면 감사하겠습니다. 이력서를 첨부합니다. 빠른 회신을 기다리겠습니다.",
+    "en": "Dear Sir or Madam, I am writing to enquire about your English course. I would be grateful if you could tell me the schedule and the fee. I attach my CV. I look forward to your reply."
+   }
+  }
+ }
+}
