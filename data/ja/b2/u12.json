@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u12",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 12,
+  "concept": "B2.U12",
+  "status": "live",
+  "title": {
+   "target": "覚える・忘れる・やめる",
+   "ko": "동명사와 to부정사 심화",
+   "en": "Gerunds and infinitives in depth"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "忘れる",
+   "pos": "verb",
+   "read": "わすれる",
+   "ko": "잊다",
+   "en": "forget",
+   "ex": {
+    "t": "鍵を持ってくるのを忘れました。",
+    "read": "かぎをもってくるのをわすれました。",
+    "ko": "열쇠를 가져오는 것을 잊었어요.",
+    "en": "I forgot to bring my key."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "覚えている",
+   "pos": "verb",
+   "read": "おぼえている",
+   "ko": "기억하다",
+   "en": "remember",
+   "ex": {
+    "t": "子どものころ遊んだことを覚えています。",
+    "read": "こどものころあそんだことをおぼえています。",
+    "ko": "그 책을 읽었던 것을 기억해요.",
+    "en": "I remember reading that book."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "やめる",
+   "pos": "verb",
+   "read": "やめる",
+   "ko": "그만두다",
+   "en": "stop",
+   "ex": {
+    "t": "去年、コーヒーをやめました。",
+    "read": "きょねん、コーヒーをやめました。",
+    "ko": "그는 담배를 끊었어요.",
+    "en": "He stopped smoking."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "試す",
+   "pos": "verb",
+   "read": "ためす",
+   "ko": "시도하다",
+   "en": "try",
+   "ex": {
+    "t": "新しい方法を試してみました。",
+    "read": "あたらしいほうほうをためしてみました。",
+    "ko": "새로운 방법을 써 봤어요.",
+    "en": "I tried using a new method."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "後悔する",
+   "pos": "verb",
+   "read": "こうかいする",
+   "ko": "후회하다",
+   "en": "regret",
+   "ex": {
+    "t": "言ったことを後悔しています。",
+    "read": "いったことをこうかいしています。",
+    "ko": "나는 그 말을 한 것을 후회해요.",
+    "en": "I regret saying that."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "続ける",
+   "pos": "phrase",
+   "read": "つづける",
+   "ko": "계속하다",
+   "en": "go on",
+   "ex": {
+    "t": "毎日練習を続けています。",
+    "read": "まいにちれんしゅうをつづけています。",
+    "ko": "그는 설명을 계속했어요.",
+    "en": "He went on explaining."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "大切だ",
+   "pos": "verb",
+   "read": "たいせつだ",
+   "ko": "중요하다",
+   "en": "matter",
+   "ex": {
+    "t": "続けることが大切です。",
+    "read": "つづけることがたいせつです。",
+    "ko": "시간을 지키는 것이 중요해요.",
+    "en": "Being on time matters."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "慣れる",
+   "pos": "phrase",
+   "read": "なれる",
+   "ko": "익숙하다",
+   "en": "be used to",
+   "ex": {
+    "t": "早起きに慣れました。",
+    "read": "はやおきになれました。",
+    "ko": "저는 일찍 일어나는 것에 익숙해요.",
+    "en": "I'm used to getting up early."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "楽しみにする",
+   "pos": "phrase",
+   "read": "たのしみにする",
+   "ko": "기대하다",
+   "en": "look forward to",
+   "ex": {
+    "t": "お会いするのを楽しみにしています。",
+    "read": "おあいするのをたのしみにしています。",
+    "ko": "만나 뵙기를 기대하고 있어요.",
+    "en": "I look forward to meeting you."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "反対する",
+   "pos": "phrase",
+   "read": "はんたいする",
+   "ko": "반대하다",
+   "en": "object to",
+   "ex": {
+    "t": "彼はその計画に反対しました。",
+    "read": "かれはそのけいかくにはんたいしました。",
+    "ko": "그는 계획을 변경하는 것에 반대했어요.",
+    "en": "He objected to changing the plan."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "動作の言い方：〜たことを覚えている・〜のを忘れる・〜をやめる・〜てみる",
+   "en": "Verb patterns: 〜たことを覚えている / 〜のを忘れる / 〜をやめる / 〜てみる"
+  },
+  "explain": {
+   "ko": "過去にしたことを覚えているときは「〜たことを覚えている」：「この本を読んだことを覚えています。」これからすることを忘れるときは「〜のを忘れる」：「鍵を持ってくるのを忘れました。」習慣をやめるときは「〜をやめる」：「煙草をやめました。」「〜て、立ち止まる」は、別の動作のために止まることです。「〜てみる」は試すこと、「〜に慣れる」「〜のを楽しみにしている」も一緒に覚えましょう。",
+   "en": "Remembering a past act uses 「〜たことを覚えている」: 「この本を読んだことを覚えています。」 Forgetting a to-do uses 「〜のを忘れる」: 「鍵を持ってくるのを忘れました。」 Quitting a habit is 「〜をやめる」: 「煙草をやめました。」 Stopping in order to do another thing is 「〜て立ち止まる」. Also learn 「〜てみる」 (try), 「〜に慣れる」 and 「〜のを楽しみにしている」."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "覚えている / Remember",
+     "〜たことを覚えている",
+     "遊んだことを覚えています。"
+    ],
+    [
+     "忘れる / Forget to",
+     "〜のを忘れる",
+     "牛乳を買うのを忘れました。"
+    ],
+    [
+     "やめる / Stop",
+     "〜をやめる",
+     "コーヒーをやめました。"
+    ],
+    [
+     "試す / Try",
+     "〜てみる",
+     "新しい方法を使ってみました。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「覚えている」は過去、「忘れずに〜する」は、これからすることです。",
+    "en": "「覚えている」 is about the past; 「忘れずに〜する」 is about future tasks."
+   },
+   {
+    "ko": "「〜のをやめる」は習慣をやめること、「〜て休む」は一時的に止まることです。",
+    "en": "「〜のをやめる」 quits for good; 「〜て休む」 pauses."
+   },
+   {
+    "ko": "「〜に慣れる」の前は名詞、または「〜ことに」です。",
+    "en": "Before 「〜に慣れる」 use a noun or 「〜ことに」."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は子どものころ、あの公園で遊んだことを覚えています。",
+    "read": "わたしはこどものころ、あのこうえんであそんだことをおぼえています。",
+    "ko": "열쇠를 가져오는 것을 잊었어요.",
+    "en": "I forgot to bring my key."
+   },
+   {
+    "t": "鍵を持ってくるのを忘れました。",
+    "read": "かぎをもってくるのをわすれました。",
+    "ko": "그 책을 읽었던 것을 기억해요.",
+    "en": "I remember reading that book."
+   },
+   {
+    "t": "彼は煙草をやめました。",
+    "read": "かれはたばこをやめました。",
+    "ko": "그는 담배를 끊었어요.",
+    "en": "He stopped smoking."
+   },
+   {
+    "t": "新しい方法を使ってみました。",
+    "read": "あたらしいほうほうをつかってみました。",
+    "ko": "그는 쉬려고 멈췄어요.",
+    "en": "He stopped to rest."
+   },
+   {
+    "t": "私は早く起きることに慣れています。",
+    "read": "わたしははやくおきることになれています。",
+    "ko": "저는 일찍 일어나는 것에 익숙해요.",
+    "en": "I'm used to getting up early."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "子どものころ、あの公園で遊んだ___覚えています。",
+    "options": [
+     "ことを",
+     "ところを",
+     "ために"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "鍵を持ってくる___忘れました。",
+    "options": [
+     "のを",
+     "ことが",
+     "ために"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "彼は煙草を___。",
+    "options": [
+     "やめました",
+     "忘れました",
+     "覚えました"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "新しい方法を使って___。",
+    "options": [
+     "みました",
+     "しまいました",
+     "おきました"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "子どものころ、何をして遊んだか覚えていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어릴 때 뭘 하고 놀았는지 기억해요?",
+     "en": "(Question) Do you remember what you used to play as a child?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "公園で遊んだことを覚えています。",
+       "来週です。",
+       "三人です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どうして歩くのをやめたのですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 걸음을 멈췄어요?",
+     "en": "(Question) Why did you stop walking?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "休むために立ち止まりました。",
+       "昨日買いました。",
+       "高いからです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日、牛乳を買った？"
+      },
+      {
+       "s": "B",
+       "t": "ううん、買うのを忘れちゃった。ごめん。"
+      },
+      {
+       "s": "A",
+       "t": "いいよ。今から行ってくる。"
+      },
+      {
+       "s": "B",
+       "t": "ついでにパンを買うのも忘れないでね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 우유 사 왔어?\nB: 아니, 사 오는 것을 잊었어. 미안.\nA: 괜찮아. 지금 가서 사 올게.\nB: 가는 길에 빵도 사 오는 것을 기억해 줘.",
+     "en": "A: Did you buy milk yesterday?\nB: No, I forgot to buy it. Sorry.\nA: It's fine. I'll go now.\nB: Remember to buy bread on the way."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人は何を忘れましたか。",
+      "options": [
+       "牛乳を買うこと",
+       "パンを買うこと",
+       "電話すること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "去年、コーヒーをやめました。最初は大変でしたが、今は紅茶を飲むことに慣れました。ときどきカフェの前で立ち止まって、においをかぎます。でも、もう一度飲んでみようとは思いません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 작년에 커피를 끊었어요. 처음에는 힘들었지만 지금은 차를 마시는 것에 익숙해요. 가끔 길을 가다가 카페 앞에서 멈춰 향기를 맡곤 해요. 그래도 다시 마시려고 하지는 않아요.",
+     "en": "I gave up coffee last year. It was hard at first, but now I'm used to drinking tea. Sometimes I stop in front of a café to smell it. Still, I don't try to drink it again."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "話している人は、カフェの前で何をしますか。",
+      "options": [
+       "立ち止まってにおいをかぐ",
+       "コーヒーを飲む",
+       "中に入る"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "健康相談です。"
+      },
+      {
+       "s": "B",
+       "t": "煙草をやめたいのですが、難しいです。"
+      },
+      {
+       "s": "A",
+       "t": "ガムをかんでみましたか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、でもまだ大変です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의사: 건강 상담입니다.\n손님: 담배를 끊고 싶은데 잘 안 돼요.\n의사: 껌을 씹어 보셨나요?\n손님: 네, 그래도 힘들어요.",
+     "en": "Doctor: Health advice.\nGuest: I want to stop smoking but it's difficult.\nDoctor: Have you tried chewing gum?\nGuest: Yes, but it's still hard."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さんは______をやめたいです",
+      "answers": [
+       "煙草"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "医者は______をかむことを勧めました",
+      "answers": [
+       "ガム"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 子どものころ、あの公園で遊んだ___覚えています。\n2) 鍵を持ってくる___忘れました。\n3) 彼は煙草を___。",
+    "trans": {
+     "ko": "1) 열쇠를 가져오는 것을 잊었어요. 2) 그 책을 읽었던 것을 기억해요. 3) 저는 일찍 일어나는 것에 익숙해요.",
+     "en": "1) I forgot to bring my key. 2) I remember reading that book. 3) I'm used to getting up early."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "子どものころ、あの公園で遊んだ___覚えています。",
+      "options": [
+       "ことを",
+       "ところを",
+       "ために"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "鍵を持ってくる___忘れました。",
+      "options": [
+       "のを",
+       "ことが",
+       "ために"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼は煙草を___。",
+      "options": [
+       "やめました",
+       "忘れました",
+       "覚えました"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "去年、コーヒーを(1)。最初は大変でしたが、今は紅茶を飲むことに(2)。ときどきカフェの前で立ち止まって、においをかぎます。でも、もう一度(3)みようとは思いません。",
+    "trans": {
+     "ko": "저는 작년에 커피를 끊었어요. 처음에는 힘들었지만 지금은 차를 마시는 것에 익숙해요. 가끔 길을 가다가 카페 앞에서 멈춰 향기를 맡곤 해요. 그래도 다시 마시려고 하지는 않아요.",
+     "en": "I gave up coffee last year. It was hard at first, but now I'm used to drinking tea. Sometimes I stop in front of a café to smell it. Still, I don't try to drink it again."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "やめました",
+       "覚えました",
+       "続けました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "慣れました",
+       "忘れました",
+       "反対しました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "飲んで",
+       "飲み",
+       "飲む"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "健康コラム\n禁煙は簡単ではありません。多くの人が煙草をやめようとしますが、数か月後にまた始めてしまいます。専門家は、ガムをかんだり運動をしたりしてみることを勧めています。いちばん大切なのは、なぜやめたいと思ったのかを覚えていることです。",
+    "trans": {
+     "ko": "건강 칼럼\n금연은 쉽지 않다. 많은 사람이 담배를 끊으려고 노력하지만 몇 달 뒤에는 다시 피운다. 전문가들은 껌을 씹어 보거나 운동을 해 보라고 권한다. 가장 중요한 것은 자신이 왜 끊고 싶었는지를 기억하는 것이다.",
+     "en": "HEALTH COLUMN\nQuitting smoking is not easy. Many people try to give up cigarettes but start again after a few months. Experts recommend trying chewing gum or exercise. The most important thing is remembering why you wanted to stop."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "禁煙について、正しいのはどれですか。",
+      "options": [
+       "簡単ではない",
+       "とても簡単だ",
+       "必要ない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "いちばん大切なことは何ですか。",
+      "options": [
+       "やめたい理由を覚えておくこと",
+       "ガムを買うこと",
+       "友達に話すこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジュノさんは鍵を持ってくるのを忘れました。それで一時間ドアの前で待ちました。次は鍵をカバンに入れるのを忘れないようにすると言いました。",
+    "trans": {
+     "ko": "준호는 열쇠를 가져오는 것을 잊었어요. 그래서 문 앞에서 한 시간 기다렸어요. 다음부터는 가방에 열쇠를 꼭 넣는 것을 기억하겠다고 말했어요.",
+     "en": "Junho forgot to bring his key. So he waited at the door for an hour. He said he would remember to put his key in his bag next time."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジュノさんは鍵を忘れました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ジュノさんは鍵を失くしました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ジュノさんは月曜日に鍵を忘れました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "子どものころのことを覚えていますか。",
+    "read": "こどものころのことをおぼえていますか。",
+    "ko": "어릴 때를 기억하세요?",
+    "en": "Do you remember your childhood?",
+    "situation": {
+     "ko": "기억을 물을 때",
+     "en": "Asking about a memory"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "この本を読んだことを覚えています。",
+    "read": "このほんをよんだことをおぼえています。",
+    "ko": "그 책을 읽었던 것을 기억해요.",
+    "en": "I remember reading that book.",
+    "situation": {
+     "ko": "과거의 행동을 기억할 때",
+     "en": "Remembering a past action"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "鍵を持ってくるのを忘れました。",
+    "read": "かぎをもってくるのをわすれました。",
+    "ko": "열쇠를 가져오는 것을 잊었어요.",
+    "en": "I forgot to bring my key.",
+    "situation": {
+     "ko": "해야 할 일을 잊었을 때",
+     "en": "Forgetting a task"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "彼は煙草をやめました。",
+    "read": "かれはたばこをやめました。",
+    "ko": "그는 담배를 끊었어요.",
+    "en": "He stopped smoking.",
+    "situation": {
+     "ko": "습관을 그만두었을 때",
+     "en": "Giving up a habit"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "休むために立ち止まりました。",
+    "read": "やすむためにたちどまりました。",
+    "ko": "그는 쉬려고 멈췄어요.",
+    "en": "He stopped to rest.",
+    "situation": {
+     "ko": "목적을 말할 때",
+     "en": "Giving a purpose"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "新しい方法を使ってみました。",
+    "read": "あたらしいほうほうをつかってみました。",
+    "ko": "새로운 방법을 써 봤어요.",
+    "en": "I tried using a new method.",
+    "situation": {
+     "ko": "실험해 보았을 때",
+     "en": "Trying something as an experiment"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "私は早く起きることに慣れています。",
+    "read": "わたしははやくおきることになれています。",
+    "ko": "저는 일찍 일어나는 것에 익숙해요.",
+    "en": "I'm used to getting up early.",
+    "situation": {
+     "ko": "익숙함을 말할 때",
+     "en": "Talking about familiarity"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "お会いするのを楽しみにしています。",
+    "read": "おあいするのをたのしみにしています。",
+    "ko": "만나 뵙기를 기대하고 있어요.",
+    "en": "I look forward to meeting you.",
+    "situation": {
+     "ko": "편지를 끝낼 때",
+     "en": "Ending a letter"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜たことを覚えています。",
+    "read": "〜たことをおぼえています。",
+    "ko": "~했던 것을 기억하다.",
+    "en": "remember + -ing."
+   },
+   {
+    "id": "w2",
+    "t": "〜のを忘れました。",
+    "read": "〜のをわすれました。",
+    "ko": "~할 것을 기억하다.",
+    "en": "remember + to + verb."
+   },
+   {
+    "id": "w3",
+    "t": "〜をやめました。",
+    "read": "〜をやめました。",
+    "ko": "~하는 것을 멈추다.",
+    "en": "stop + -ing."
+   },
+   {
+    "id": "w4",
+    "t": "〜てみました。",
+    "read": "〜てみました。",
+    "ko": "~하려고 멈추다.",
+    "en": "stop + to + verb."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "기억하다, 잊다, 멈추다 중 두 가지 이상을 써서 -ing와 to의 차이를 보이는 4문장을 써 보세요.",
+    "en": "Write 4 sentences using at least two of remember, forget, stop, try to show the difference between -ing and to."
+   },
+   "must_include": [
+    {
+     "label": "覚えて",
+     "match": [
+      "覚えています"
+     ]
+    },
+    {
+     "label": "忘れ",
+     "match": [
+      "忘れました"
+     ]
+    },
+    {
+     "label": "やめ",
+     "match": [
+      "やめました"
+     ]
+    }
+   ],
+   "model": "子どものころ、あの公園で遊んだことを覚えています。昨日、牛乳を買うのを忘れました。去年、コーヒーをやめました。今日は休むために立ち止まって、お茶を飲みました。",
+   "model_trans": {
+    "ko": "저는 어릴 때 그 공원에서 놀았던 것을 기억해요. 어제는 우유를 사 오는 것을 잊었어요. 작년에 저는 커피를 끊었어요. 오늘은 쉬려고 잠시 멈춰서 차를 마셨어요.",
+    "en": "I remember playing in that park as a child. Yesterday I forgot to buy milk. Last year I stopped drinking coffee. Today I stopped to rest and had a cup of tea."
+   }
+  }
+ }
+}

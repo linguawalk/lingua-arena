@@ -1,0 +1,837 @@
+{
+ "meta": {
+  "id": "ja_b2_u26",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 26,
+  "concept": "B2.U26",
+  "status": "live",
+  "title": {
+   "target": "要約と言い換え",
+   "ko": "요약과 바꿔 쓰기",
+   "en": "Summarising and paraphrasing"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "要約する",
+   "pos": "verb",
+   "read": "ようやくする",
+   "ko": "요약하다",
+   "en": "summarise",
+   "ex": {
+    "t": "記事を三文で要約してください。",
+    "read": "きじをさんもんでようやくしてください。",
+    "ko": "기사를 세 문장으로 요약하세요.",
+    "en": "Summarise the article in three sentences."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "言い換える",
+   "pos": "verb",
+   "read": "いいかえる",
+   "ko": "바꿔 쓰다",
+   "en": "paraphrase",
+   "ex": {
+    "t": "この文を言い換えてみます。",
+    "read": "このぶんをいいかえてみます。",
+    "ko": "문장을 자신의 말로 바꿔 쓰세요.",
+    "en": "Paraphrase the sentence in your own words."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "要点",
+   "pos": "noun",
+   "read": "ようてん",
+   "ko": "핵심",
+   "en": "main idea",
+   "ex": {
+    "t": "まず要点をつかみます。",
+    "read": "まずようてんをつかみます。",
+    "ko": "각 단락의 핵심을 찾으세요.",
+    "en": "Find the main idea of each paragraph."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "細部",
+   "pos": "noun",
+   "read": "さいぶ",
+   "ko": "세부 사항",
+   "en": "detail",
+   "ex": {
+    "t": "細部は省略します。",
+    "read": "さいぶはしょうりゃくします。",
+    "ko": "불필요한 세부 사항은 빼세요.",
+    "en": "Leave out unnecessary details."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "類義語",
+   "pos": "noun",
+   "read": "るいぎご",
+   "ko": "동의어",
+   "en": "synonym",
+   "ex": {
+    "t": "類義語を使って書き換えます。",
+    "read": "るいぎごをつかってかきかえます。",
+    "ko": "동의어를 사용하면 문장을 바꿀 수 있어요.",
+    "en": "Using synonyms lets you change the sentence."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "述べる",
+   "pos": "verb",
+   "read": "のべる",
+   "ko": "~라고 말하다",
+   "en": "state",
+   "ex": {
+    "t": "筆者は費用が問題だと述べています。",
+    "read": "ひっしゃはひようがもんだいだとのべています。",
+    "ko": "저자는 비용이 문제라고 말해요.",
+    "en": "The author states that cost is the problem."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "強調する",
+   "pos": "verb",
+   "read": "きょうちょうする",
+   "ko": "강조하다",
+   "en": "stress",
+   "ex": {
+    "t": "筆者は安全を強調しています。",
+    "read": "ひっしゃはあんぜんをきょうちょうしています。",
+    "ko": "그는 안전을 강조해요.",
+    "en": "He stresses safety."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "大意",
+   "pos": "noun",
+   "read": "たいい",
+   "ko": "요점",
+   "en": "gist",
+   "ex": {
+    "t": "文章の大意を述べます。",
+    "read": "ぶんしょうのたいいをのべます。",
+    "ko": "먼저 요점을 파악하세요.",
+    "en": "First get the gist."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "盗用",
+   "pos": "noun",
+   "read": "とうよう",
+   "ko": "표절",
+   "en": "plagiarism",
+   "ex": {
+    "t": "盗用は固く禁じられています。",
+    "read": "とうようはかたくきんじられています。",
+    "ko": "표절은 엄격히 금지돼요.",
+    "en": "Plagiarism is strictly forbidden."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "簡潔に",
+   "pos": "adv",
+   "read": "かんけつに",
+   "ko": "간결하게",
+   "en": "concisely",
+   "ex": {
+    "t": "簡潔にまとめてください。",
+    "read": "かんけつにまとめてください。",
+    "ko": "간결하게 쓰세요.",
+    "en": "Write concisely."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "要約と言い換え：〜と述べている・〜によると・つまり・要するに",
+   "en": "Summarising and paraphrasing: 〜と述べている / 〜によると / つまり / 要するに"
+  },
+  "explain": {
+   "ko": "要約は、文章の要点を意見を入れず短くまとめることで、言い換えは同じ意味を別の言葉と構造で書くことです。出典は「筆者は〜と述べている」「〜によると」で示します。言い換えるときは「つまり」、まとめるときは「要するに」を使います。方法は、類義語を使う、文の構造を変える、能動と受身を替える、動詞を名詞にすることです。要約は原文の三分の一ほどが目安で、盗用を避けるには出典を示します。",
+   "en": "A summary condenses the main points without opinion; paraphrasing says the same thing in different words and structure. Attribute with 「筆者は〜と述べている」「〜によると」. Restate with 「つまり」, conclude with 「要するに」. Methods: synonyms, restructuring, switching active and passive, turning verbs into nouns. A summary should be about one third of the original; avoid plagiarism by citing sources."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "出典 / Attribution",
+     "筆者は〜と述べている",
+     "筆者は費用が問題だと述べている。"
+    ],
+    [
+     "根拠 / According to",
+     "〜によると",
+     "研究によると、歩くのは健康にいい。"
+    ],
+    [
+     "言い換え / Restate",
+     "つまり",
+     "つまり、歩くのは健康にいい。"
+    ],
+    [
+     "まとめ / Summarise",
+     "要するに",
+     "要するに、歩くのは心臓にいい。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "要約には「また」「しかし」などの接続語を減らします。",
+    "en": "Reduce linkers like 「また」「しかし」 in a summary."
+   },
+   {
+    "ko": "出典を示さずに写すことを「盗用」と言います。",
+    "en": "Copying without a source is 「盗用」."
+   },
+   {
+    "ko": "要約には自分の意見を入れません。",
+    "en": "Do not add your own opinion to a summary."
+   }
+  ],
+  "examples": [
+   {
+    "t": "記事を三文で要約してください。",
+    "read": "きじをさんもんでようやくしてください。",
+    "ko": "기사를 세 문장으로 요약하세요.",
+    "en": "Summarise the article in three sentences."
+   },
+   {
+    "t": "筆者は費用が問題だと述べています。",
+    "read": "ひっしゃはひようがもんだいだとのべています。",
+    "ko": "저자는 비용이 문제라고 말해요.",
+    "en": "The author states that cost is the problem."
+   },
+   {
+    "t": "必要のない細部は省略してください。",
+    "read": "ひつようのないさいぶはしょうりゃくしてください。",
+    "ko": "불필요한 세부 사항은 빼세요.",
+    "en": "Leave out unnecessary details."
+   },
+   {
+    "t": "つまり、運動は睡眠にいいということです。",
+    "read": "つまり、うんどうはすいみんにいいということです。",
+    "ko": "동의어를 사용하면 문장을 바꿀 수 있어요.",
+    "en": "Using synonyms lets you change the sentence."
+   },
+   {
+    "t": "盗用を避けるために、出典を示してください。",
+    "read": "とうようをさけるために、しゅってんをしめしてください。",
+    "ko": "표절은 엄격히 금지돼요.",
+    "en": "Plagiarism is strictly forbidden."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "記事を三文で___ください。",
+    "options": [
+     "要約して",
+     "忘れて",
+     "破いて"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "筆者は費用が問題だと___います。",
+    "options": [
+     "述べて",
+     "忘れて",
+     "断って"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "不要な細部は___ください。",
+    "options": [
+     "省略して",
+     "足して",
+     "覚えて"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "盗用を避けるために___を示してください。",
+    "options": [
+     "出典",
+     "天気",
+     "名前"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この文章の大意は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 글의 요점이 뭐예요?",
+     "en": "(Question) What is the gist of this text?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "運動は健康にいいということです。",
+       "昨日読みました。",
+       "知りません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "言い換えはどのようにしますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 문장을 어떻게 바꿔 쓸 수 있어요?",
+     "en": "(Question) How can I paraphrase a sentence?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "類義語を使って、構造を変えます。",
+       "そのまま写します。",
+       "言葉を消します。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要約するとき、細部はどうする？"
+      },
+      {
+       "s": "B",
+       "t": "不要な細部は省略するんだ。"
+      },
+      {
+       "s": "A",
+       "t": "長さはどのくらい？"
+      },
+      {
+       "s": "B",
+       "t": "原文の三分の一くらいで、簡潔にまとめるといいよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 기사를 요약해야 해.\nB: 먼저 각 단락의 핵심을 찾아. 불필요한 세부 사항은 빼.\nA: 문장은 어떻게 바꿔?\nB: 동의어를 쓰고 문장 구조도 바꿔. 마지막에 출처를 밝혀.",
+     "en": "A: I have to summarise this article.\nB: First find the main idea of each paragraph. Leave out unnecessary details.\nA: How do I change the sentences?\nB: Use synonyms and change the structure. Acknowledge the source at the end."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "不要な細部はどうしますか。",
+      "options": [
+       "省略する",
+       "足す",
+       "覚える"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要約は、原文の要点を簡潔にまとめることです。言い換えるときは、類義語を使い、文の構造を変えます。そして、盗用を避けるために、必ず出典を示します。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "요약은 원문의 약 3분의 1 길이가 좋습니다. 핵심만 간결하게 쓰고 자신의 의견은 넣지 않습니다. 바꿔 쓸 때는 원문의 단어를 그대로 쓰지 않고 동의어와 다른 구조를 사용합니다. 마지막으로 출처를 밝힙니다.",
+     "en": "A summary is best about a third of the original's length. Write only the main points concisely and add no opinion of your own. When paraphrasing, don't copy the original words; use synonyms and a different structure. Finally, acknowledge the source."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "要約の長さはどのくらいがいいですか。",
+      "options": [
+       "原文の約三分の一",
+       "原文と同じ",
+       "原文の二倍"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "作文の授業です。"
+      },
+      {
+       "s": "B",
+       "t": "記事を要約しなければなりません。どこから始めますか。"
+      },
+      {
+       "s": "A",
+       "t": "まず要点の文を探しましょう。"
+      },
+      {
+       "s": "B",
+       "t": "盗用を避けるには？"
+      },
+      {
+       "s": "A",
+       "t": "自分の言葉で書いて、出典を明らかにします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "선생님: 작문 수업입니다.\n학생: 기사를 요약해야 하는데 어디서 시작해야 하나요?\n선생님: 먼저 핵심 문장을 찾으세요.\n학생: 표절하지 않으려면요?\n선생님: 자신의 말로 쓰고 출처를 밝히세요.",
+     "en": "Teacher: Writing class.\nStudent: I have to summarise an article. Where do I start?\nTeacher: First find the key sentences.\nStudent: How do I avoid plagiarism?\nTeacher: Use your own words and acknowledge the source."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "まず______の文を探します",
+      "answers": [
+       "要点"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______を明らかにします",
+      "answers": [
+       "出典"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 記事を三文で___ください。\n2) 筆者は費用が問題だと___います。\n3) 不要な細部は___ください。",
+    "trans": {
+     "ko": "1) 기사를 세 문장으로 요약하세요. 2) 저자는 비용이 문제라고 말해요. 3) 불필요한 세부 사항은 빼세요.",
+     "en": "1) Summarise the article in three sentences. 2) The author states that cost is the problem. 3) Leave out unnecessary details."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "記事を三文で___ください。",
+      "options": [
+       "要約して",
+       "忘れて",
+       "破いて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "筆者は費用が問題だと___います。",
+      "options": [
+       "述べて",
+       "忘れて",
+       "断って"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "不要な細部は___ください。",
+      "options": [
+       "省略して",
+       "足して",
+       "覚えて"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "要約は、原文の約三分の一の長さがよいです。(1)だけを簡潔に書き、自分の意見は入れません。言い換えるときは、原文の言葉をそのまま使わず、(2)と別の構造を使います。最後に(3)を示します。",
+    "trans": {
+     "ko": "요약은 원문의 약 3분의 1 길이가 좋습니다. 핵심만 간결하게 쓰고 자신의 의견은 넣지 않습니다. 바꿔 쓸 때는 원문의 단어를 그대로 쓰지 않고 동의어와 다른 구조를 사용합니다. 마지막으로 출처를 밝힙니다.",
+     "en": "A summary is best about a third of the original's length. Write only the main points concisely and add no opinion of your own. When paraphrasing, don't copy the original words; use synonyms and a different structure. Finally, acknowledge the source."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "要点",
+       "細部",
+       "冗談"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "類義語",
+       "反対語",
+       "数字"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "出典",
+       "名前",
+       "天気"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "原文\n毎日三十分歩く人は、心臓病になる確率が低いという研究があります。この研究によると、運動をしない人に比べて、リスクは三割低くなります。\n要約：歩くことは心臓の健康にいいということです。",
+    "trans": {
+     "ko": "원문\n연구에 따르면 매일 30분씩 걷는 사람은 그렇지 않은 사람보다 심장병에 걸릴 확률이 낮다.\n바꿔 쓴 문장\n하루 30분씩 걷는 습관은 심장 질환의 위험을 줄여 준다고 한다.\n요약\n걷기는 심장 건강에 좋다.",
+     "en": "ORIGINAL\nAccording to research, people who walk for thirty minutes a day are less likely to develop heart disease than people who don't.\nPARAPHRASE\nA habit of walking half an hour daily is said to reduce the risk of heart disease.\nSUMMARY\nWalking is good for the heart."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "原文によると、心臓病になる確率が低いのはどんな人ですか。",
+      "options": [
+       "毎日三十分歩く人",
+       "運動をしない人",
+       "子ども"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "要約は何と述べていますか。",
+      "options": [
+       "歩くことは心臓にいい",
+       "歩くのは大変だ",
+       "心臓は大切でない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ミンスさんは記事の要点を三つにまとめました。自分の言葉で書き、出典も示しました。先生は、簡潔でよい要約だと言いました。",
+    "trans": {
+     "ko": "민수는 기사를 읽고 핵심을 세 가지로 정리했어요. 그다음 자신의 말로 한 문단으로 요약했어요. 마지막에 기사 출처를 적어 두었어요.",
+     "en": "Minsu read the article and noted three main points. Then he summarised it in one paragraph in his own words. At the end he wrote down the source of the article."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ミンスさんは要点を三つにまとめました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ミンスさんは記事をそのまま写しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "記事はスポーツについてです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "この文章の大意は何ですか。",
+    "read": "このぶんしょうのたいいはなんですか。",
+    "ko": "이 글의 요점이 뭐예요?",
+    "en": "What is the gist of this text?",
+    "situation": {
+     "ko": "요점을 물을 때",
+     "en": "Asking for the gist"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "筆者は費用が問題だと述べています。",
+    "read": "ひっしゃはひようがもんだいだとのべています。",
+    "ko": "저자는 비용이 문제라고 말해요.",
+    "en": "The author states that cost is the problem.",
+    "situation": {
+     "ko": "저자의 의견을 전할 때",
+     "en": "Reporting the author's view"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "記事を三文で要約してください。",
+    "read": "きじをさんもんでようやくしてください。",
+    "ko": "기사를 세 문장으로 요약하세요.",
+    "en": "Summarise the article in three sentences.",
+    "situation": {
+     "ko": "과제를 줄 때",
+     "en": "Setting a task"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "不要な細部は省略してください。",
+    "read": "ふようなさいぶはしょうりゃくしてください。",
+    "ko": "불필요한 세부 사항은 빼세요.",
+    "en": "Leave out unnecessary details.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "類義語を使うと、文を変えられます。",
+    "read": "るいぎごをつかうと、ぶんをかえられます。",
+    "ko": "동의어를 사용하면 문장을 바꿀 수 있어요.",
+    "en": "Using synonyms lets you change the sentence.",
+    "situation": {
+     "ko": "바꿔 쓰는 방법",
+     "en": "How to paraphrase"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "この文を次のように言い換えます。",
+    "read": "このぶんをつぎのようにいいかえます。",
+    "ko": "저는 이 문장을 이렇게 바꿔 쓰겠어요.",
+    "en": "I would paraphrase this sentence like this.",
+    "situation": {
+     "ko": "예를 보여 줄 때",
+     "en": "Showing an example"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "盗用は固く禁じられています。",
+    "read": "とうようはかたくきんじられています。",
+    "ko": "표절은 엄격히 금지돼요.",
+    "en": "Plagiarism is strictly forbidden.",
+    "situation": {
+     "ko": "규칙을 말할 때",
+     "en": "Stating a rule"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "必ず出典を示してください。",
+    "read": "かならずしゅってんをしめしてください。",
+    "ko": "출처를 반드시 밝히세요.",
+    "en": "Always acknowledge your source.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Ending"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "筆者は〜と述べています。",
+    "read": "ひっしゃは〜とのべています。",
+    "ko": "저자는 ~라고 말한다.",
+    "en": "The author states / argues / points out that …"
+   },
+   {
+    "id": "w2",
+    "t": "〜によると、〜。",
+    "read": "〜によると、〜。",
+    "ko": "~에 따르면",
+    "en": "According to the text, …"
+   },
+   {
+    "id": "w3",
+    "t": "つまり、〜。",
+    "read": "つまり、〜。",
+    "ko": "다른 말로 하면",
+    "en": "In other words, … / That is to say, …"
+   },
+   {
+    "id": "w4",
+    "t": "要するに、〜。",
+    "read": "ようするに、〜。",
+    "ko": "요약하면",
+    "en": "In short, / In summary, …"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "아래 문장을 바꿔 쓰고 한 문장으로 요약해 보세요. ‘Many people believe that exercise helps them sleep better.’",
+    "en": "Paraphrase and summarise the sentence: 'Many people believe that exercise helps them sleep better.'"
+   },
+   "must_include": [
+    {
+     "label": "要するに",
+     "match": [
+      "要するに"
+     ]
+    },
+    {
+     "label": "筆者",
+     "match": [
+      "筆者"
+     ]
+    },
+    {
+     "label": "出典",
+     "match": [
+      "出典"
+     ]
+    }
+   ],
+   "model": "言い換え：多くの人が、運動で睡眠の質がよくなると考えています。要するに、運動はよく眠る助けになります。筆者もその証拠を示しています。したがって、盗用を避けるには、出典を明らかにしなければなりません。",
+   "model_trans": {
+    "ko": "바꿔 쓰기: 많은 사람이 운동이 수면의 질을 높인다고 생각합니다. 요약하면, 운동은 잠을 더 잘 자게 해 줍니다. 저자는 이를 뒷받침할 근거도 제시합니다. 그러므로 표절을 피하려면 출처를 밝혀야 합니다.",
+    "en": "Paraphrase: Many people think that exercise improves the quality of their sleep. In summary, exercise helps you sleep better. The author also provides evidence for this. Therefore, to avoid plagiarism you should acknowledge the source."
+   }
+  }
+ }
+}

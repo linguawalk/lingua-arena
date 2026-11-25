@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u23",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 23,
+  "concept": "B2.U23",
+  "status": "live",
+  "title": {
+   "target": "公式な手紙と応募",
+   "ko": "공식 편지와 지원서",
+   "en": "Formal letters and applications"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "応募する",
+   "pos": "verb",
+   "read": "おうぼする",
+   "ko": "지원하다",
+   "en": "apply",
+   "ex": {
+    "t": "求人広告を見て応募します。",
+    "read": "きゅうじんこうこくをみておうぼします。",
+    "ko": "저는 그 직책에 지원하고 싶습니다.",
+    "en": "I would like to apply for the position."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "履歴書",
+   "pos": "noun",
+   "read": "りれきしょ",
+   "ko": "이력서",
+   "en": "CV",
+   "ex": {
+    "t": "履歴書を同封いたします。",
+    "read": "りれきしょをどうふういたします。",
+    "ko": "이력서를 첨부합니다.",
+    "en": "I attach my CV."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "同封する",
+   "pos": "verb",
+   "read": "どうふうする",
+   "ko": "첨부하다",
+   "en": "enclose",
+   "ex": {
+    "t": "写真を同封いたします。",
+    "read": "しゃしんをどうふういたします。",
+    "ko": "이력서를 동봉합니다.",
+    "en": "I enclose my CV."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "資格",
+   "pos": "noun",
+   "read": "しかく",
+   "ko": "자격",
+   "en": "qualification",
+   "ex": {
+    "t": "いくつかの資格を持っています。",
+    "read": "いくつかのしかくをもっています。",
+    "ko": "저는 관련 자격을 갖고 있습니다.",
+    "en": "I hold the relevant qualifications."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "経験",
+   "pos": "noun",
+   "read": "けいけん",
+   "ko": "경력",
+   "en": "experience",
+   "ex": {
+    "t": "五年間の経験があります。",
+    "read": "ごねんかんのけいけんがあります。",
+    "ko": "저는 5년의 경력이 있습니다.",
+    "en": "I have five years' experience."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "問い合わせる",
+   "pos": "verb",
+   "read": "といあわせる",
+   "ko": "문의하다",
+   "en": "enquire",
+   "ex": {
+    "t": "料金について問い合わせます。",
+    "read": "りょうきんについてといあわせます。",
+    "ko": "과정에 대해 문의드리고자 합니다.",
+    "en": "I am writing to enquire about the course."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "返信",
+   "pos": "noun",
+   "read": "へんしん",
+   "ko": "답장",
+   "en": "reply",
+   "ex": {
+    "t": "ご返信をお待ちしております。",
+    "read": "ごへんしんをおまちしております。",
+    "ko": "빠른 답장을 기다리겠습니다.",
+    "en": "I look forward to your reply."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "〜していただければ幸いです",
+   "pos": "phrase",
+   "read": "〜していただければさいわいです",
+   "ko": "감사하겠습니다",
+   "en": "I would be grateful",
+   "ex": {
+    "t": "ご検討いただければ幸いです。",
+    "read": "ごけんとういただければさいわいです。",
+    "ko": "알려 주시면 감사하겠습니다.",
+    "en": "I would be grateful if you could let me know."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "貴社",
+   "pos": "pron",
+   "read": "きしゃ",
+   "ko": "귀하",
+   "en": "you (formal)",
+   "ex": {
+    "t": "貴社の求人を拝見しました。",
+    "read": "きしゃのきゅうじんをはいけんしました。",
+    "ko": "귀하의 편지를 받았습니다.",
+    "en": "I received your letter."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "面接",
+   "pos": "noun",
+   "read": "めんせつ",
+   "ko": "면접",
+   "en": "interview",
+   "ex": {
+    "t": "面接の機会をいただければと存じます。",
+    "read": "めんせつのきかいをいただければとぞんじます。",
+    "ko": "면접 기회를 주시면 감사하겠습니다.",
+    "en": "I would welcome the opportunity of an interview."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "ビジネス文書：拝啓・〜のご連絡です・〜していただければ幸いです・敬具",
+   "en": "Formal letters: 拝啓 / 〜と存じます / 〜していただければ幸いです / 敬具"
+  },
+  "explain": {
+   "ko": "公式な手紙は「拝啓」で始め、「敬具」で終わります。手紙の目的は「〜のご連絡です」「〜を拝見し、ご連絡いたしました」で述べます：「貴社の求人広告を拝見し、ご連絡いたしました。」依頼は「〜していただければ幸いです」：「ご検討いただければ幸いです。」書類は「同封いたします」、結びは「ご返信をお待ちしております」。全文を丁寧語・敬語で統一します。",
+   "en": "A formal letter opens with 「拝啓」 and closes with 「敬具」. State your purpose with 「〜を拝見し、ご連絡いたしました」: 「貴社の求人広告を拝見し、ご連絡いたしました。」 Requests use 「〜していただければ幸いです」: 「ご検討いただければ幸いです。」 Attached documents are 「同封いたします」 and the closing 「ご返信をお待ちしております」. Keep everything in polite and honorific language."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "目的 / Purpose",
+     "〜を拝見し、ご連絡いたしました",
+     "求人を拝見し、ご連絡いたしました。"
+    ],
+    [
+     "依頼 / Request",
+     "〜していただければ幸いです",
+     "ご検討いただければ幸いです。"
+    ],
+    [
+     "同封 / Enclosure",
+     "〜を同封いたします",
+     "履歴書を同封いたします。"
+    ],
+    [
+     "結び / Closing",
+     "ご返信をお待ちしております",
+     "ご返信をお待ちしております。 敬具"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「貴社」は相手の会社、「弊社」は自分の会社です。",
+    "en": "「貴社」 is the other company, 「弊社」 your own."
+   },
+   {
+    "ko": "「拝啓」には「敬具」、「前略」には「草々」を対にします。",
+    "en": "Pair 「拝啓」 with 「敬具」."
+   },
+   {
+    "ko": "敬語は混ぜず、「〜ます」「〜いたします」で揃えます。",
+    "en": "Keep the style consistent with 「〜ます」「〜いたします」."
+   }
+  ],
+  "examples": [
+   {
+    "t": "貴社の求人広告を拝見し、ご連絡いたしました。",
+    "read": "きしゃのきゅうじんこうこくをはいけんし、ごれんらくいたしました。",
+    "ko": "저는 귀사의 공고를 보고 이 글을 씁니다.",
+    "en": "I am writing in response to your advertisement."
+   },
+   {
+    "t": "広告会社で五年間の経験がございます。",
+    "read": "こうこくがいしゃでごねんかんのけいけんがございます。",
+    "ko": "이력서를 동봉합니다.",
+    "en": "I enclose my CV."
+   },
+   {
+    "t": "履歴書を同封いたします。",
+    "read": "りれきしょをどうふういたします。",
+    "ko": "저는 5년의 경력이 있습니다.",
+    "en": "I have five years' experience."
+   },
+   {
+    "t": "ご検討いただければ幸いです。",
+    "read": "ごけんとういただければさいわいです。",
+    "ko": "알려 주시면 감사하겠습니다.",
+    "en": "I would be grateful if you could let me know."
+   },
+   {
+    "t": "ご返信をお待ちしております。",
+    "read": "ごへんしんをおまちしております。",
+    "ko": "빠른 답장을 기다리겠습니다.",
+    "en": "I look forward to your reply."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "貴社の求人広告を___、ご連絡いたしました。",
+    "options": [
+     "拝見し",
+     "見て",
+     "見せて"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "履歴書を___。",
+    "options": [
+     "同封いたします",
+     "同封します",
+     "同封してる"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "ご検討い___幸いです。",
+    "options": [
+     "ただければ",
+     "くれれば",
+     "あげれば"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "ご返信を___おります。",
+    "options": [
+     "お待ちして",
+     "待って",
+     "待たせて"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "手紙はどう始めますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 공식 편지는 어떻게 시작해요?",
+     "en": "(Question) How do I begin a formal letter?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "「拝啓」で始めます。",
+       "「やあ」で始めます。",
+       "質問で始めます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "何を同封しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이력서는 어떻게 첨부하나요?",
+     "en": "(Question) How do I mention my CV?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "履歴書を同封いたします。",
+       "写真を捨てます。",
+       "何も送りません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "求人に応募する手紙を書いているんだ。"
+      },
+      {
+       "s": "B",
+       "t": "「拝啓」で始めて、「ご連絡いたしました」で目的を書くといいよ。"
+      },
+      {
+       "s": "A",
+       "t": "履歴書は？"
+      },
+      {
+       "s": "B",
+       "t": "「同封いたします」と書いて、最後は「敬具」で終わるんだ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 지원 편지를 어떻게 써야 해?\nB: ‘Dear Sir or Madam’으로 시작하고 공고를 보고 쓴다고 밝혀.\nA: 그다음엔?\nB: 경력을 쓰고 이력서를 동봉한다고 해. 마지막에는 ‘Yours faithfully’로 끝내.",
+     "en": "A: How should I write an application letter?\nB: Begin with 'Dear Sir or Madam' and say you are responding to the advertisement.\nA: Then?\nB: Describe your experience and say you enclose your CV. End with 'Yours faithfully'."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "手紙の最後はどう書きますか。",
+      "options": [
+       "敬具",
+       "拝啓",
+       "さようなら"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "拝啓。先週の新聞で、貴社のマーケティング職の募集を拝見し、ご連絡いたしました。広告会社で五年間の経験がございます。履歴書を同封いたしますので、ご検討いただければ幸いです。敬具。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 귀사의 영어 교사 직책에 지원하고자 합니다. 저는 교육 분야에서 5년의 경력이 있으며 관련 자격도 갖추고 있습니다. 이력서를 동봉하오니 검토해 주시면 감사하겠습니다.",
+     "en": "I would like to apply for the English teacher position at your school. I have five years' experience in education and hold the relevant qualifications. I enclose my CV and would be grateful if you could consider it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "書いた人は何の職に応募していますか。",
+      "options": [
+       "マーケティング職",
+       "教師",
+       "秘書"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "人事部です。"
+      },
+      {
+       "s": "B",
+       "t": "求人広告を見て応募したいのですが、履歴書はどこへ送ればいいですか。"
+      },
+      {
+       "s": "A",
+       "t": "メールで送ってください。"
+      },
+      {
+       "s": "B",
+       "t": "ありがとうございます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 인사팀입니다.\n지원자: 광고를 보고 지원하고 싶습니다. 이력서를 어디로 보내야 하나요?\n직원: 이메일로 보내 주시면 됩니다.\n지원자: 감사합니다.",
+     "en": "Staff: Human resources.\nApplicant: I saw the advertisement and would like to apply. Where should I send my CV?\nStaff: You can send it by email.\nApplicant: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "応募者は______をどこへ送るか聞いています",
+      "answers": [
+       "履歴書"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______で送るように言われました",
+      "answers": [
+       "メール"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 貴社の求人広告を___、ご連絡いたしました。\n2) 履歴書を___。\n3) ご検討い___幸いです。",
+    "trans": {
+     "ko": "1) 저는 귀사의 공고를 보고 이 글을 씁니다. 2) 이력서를 동봉합니다. 3) 알려 주시면 감사하겠습니다.",
+     "en": "1) I am writing in response to your advertisement. 2) I enclose my CV. 3) I would be grateful if you could let me know."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "貴社の求人広告を___、ご連絡いたしました。",
+      "options": [
+       "拝見し",
+       "見て",
+       "見せて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "履歴書を___。",
+      "options": [
+       "同封いたします",
+       "同封します",
+       "同封してる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ご検討い___幸いです。",
+      "options": [
+       "ただければ",
+       "くれれば",
+       "あげれば"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "拝啓。先週の新聞で、貴社のマーケティング職の募集を(1)、ご連絡いたしました。広告会社で五年間の経験が(2)。履歴書を同封いたしますので、ご検討いただければ(3)です。敬具。",
+    "trans": {
+     "ko": "저는 귀사의 영어 교사 직책에 지원하고자 합니다. 저는 교육 분야에서 5년의 경력이 있으며 관련 자격도 갖추고 있습니다. 이력서를 동봉하오니 검토해 주시면 감사하겠습니다.",
+     "en": "I would like to apply for the English teacher position at your school. I have five years' experience in education and hold the relevant qualifications. I enclose my CV and would be grateful if you could consider it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "拝見し",
+       "見て",
+       "見せて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "ございます",
+       "あります",
+       "いる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "幸い",
+       "残念",
+       "安心"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "手紙\n拝啓。貴校の日本語講座について、お問い合わせいたします。授業の日程と料金をお知らせいただければ幸いです。ご返信をお待ちしております。敬具。 イ・ジウン",
+    "trans": {
+     "ko": "편지\n담당자님께,\n저는 귀 학원의 프랑스어 강좌에 대해 문의드리고자 합니다. 초급 과정의 일정과 수강료를 알려 주시면 감사하겠습니다. 빠른 답장을 기다리겠습니다.\n이지은 드림",
+     "en": "LETTER\nDear Sir or Madam,\nI am writing to enquire about your French courses. I would be grateful if you could tell me the schedule and fees of the beginners' course. I look forward to your reply.\nYours faithfully,\nLee Jieun"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "イさんは何について問い合わせていますか。",
+      "options": [
+       "日本語講座",
+       "英語講座",
+       "料理教室"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "何を知らせてほしいですか。",
+      "options": [
+       "日程と料金",
+       "住所",
+       "先生の名前"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ミンホさんは新聞でインターンの募集を見ました。貴社の募集を拝見したと手紙に書き、履歴書を同封しました。まだ返事は来ていません。",
+    "trans": {
+     "ko": "민호는 신문에서 인턴십 공고를 보았어요. 그는 이력서와 자기소개서를 준비해 이메일로 보냈어요. 일주일 뒤 면접 연락을 받았어요.",
+     "en": "Minho saw an internship advertisement in the newspaper. He prepared his CV and cover letter and sent them by email. A week later he was called for an interview."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ミンホさんは新聞で募集を見ました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ミンホさんはすでに返事をもらいました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "募集は光州の会社です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "手紙はどう始めますか。",
+    "read": "てがみはどうはじめますか。",
+    "ko": "편지는 어떻게 시작해요?",
+    "en": "How do I begin the letter?",
+    "situation": {
+     "ko": "형식을 물을 때",
+     "en": "Asking about the opening"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "貴社の求人広告を拝見し、ご連絡いたしました。",
+    "read": "きしゃのきゅうじんこうこくをはいけんし、ごれんらくいたしました。",
+    "ko": "저는 귀사의 공고를 보고 이 글을 씁니다.",
+    "en": "I am writing in response to your advertisement.",
+    "situation": {
+     "ko": "편지를 시작할 때",
+     "en": "Opening a letter"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "広告会社で五年間の経験がございます。",
+    "read": "こうこくがいしゃでごねんかんのけいけんがございます。",
+    "ko": "저는 그 직책에 지원하고 싶습니다.",
+    "en": "I would like to apply for the position.",
+    "situation": {
+     "ko": "지원 의사를 밝힐 때",
+     "en": "Stating an application"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "履歴書を同封いたします。",
+    "read": "りれきしょをどうふういたします。",
+    "ko": "저는 5년의 경력이 있습니다.",
+    "en": "I have five years' experience.",
+    "situation": {
+     "ko": "경력을 말할 때",
+     "en": "Describing experience"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "ご検討いただければ幸いです。",
+    "read": "ごけんとういただければさいわいです。",
+    "ko": "이력서를 동봉합니다.",
+    "en": "I enclose my CV.",
+    "situation": {
+     "ko": "서류를 첨부할 때",
+     "en": "Mentioning enclosures"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "面接の機会をいただければと存じます。",
+    "read": "めんせつのきかいをいただければとぞんじます。",
+    "ko": "알려 주시면 감사하겠습니다.",
+    "en": "I would be grateful if you could let me know.",
+    "situation": {
+     "ko": "정중하게 부탁할 때",
+     "en": "Making a polite request"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "ご返信をお待ちしております。",
+    "read": "ごへんしんをおまちしております。",
+    "ko": "면접 기회를 주시면 감사하겠습니다.",
+    "en": "I would welcome the opportunity of an interview.",
+    "situation": {
+     "ko": "면접을 요청할 때",
+     "en": "Asking for an interview"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "どうぞよろしくお願いいたします。",
+    "read": "どうぞよろしくおねがいいたします。",
+    "ko": "빠른 답장을 기다리겠습니다.",
+    "en": "I look forward to your reply.",
+    "situation": {
+     "ko": "편지를 끝낼 때",
+     "en": "Closing"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜を拝見し、ご連絡いたしました。",
+    "read": "〜をはいけんし、ごれんらくいたしました。",
+    "ko": "~에 대해 문의드립니다.",
+    "en": "I am writing to enquire about …"
+   },
+   {
+    "id": "w2",
+    "t": "〜経験がございます。",
+    "read": "〜けいけんがございます。",
+    "ko": "~해 주시면 감사하겠습니다.",
+    "en": "I would be grateful if you could …"
+   },
+   {
+    "id": "w3",
+    "t": "〜を同封いたします。",
+    "read": "〜をどうふういたします。",
+    "ko": "동봉합니다.",
+    "en": "I enclose / Please find attached …"
+   },
+   {
+    "id": "w4",
+    "t": "〜いただければ幸いです。",
+    "read": "〜いただければさいわいです。",
+    "ko": "~을 기다리겠습니다.",
+    "en": "I look forward to + noun / -ing."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "구인 광고를 보고 지원하는 편지를 4문장으로 써 보세요.",
+    "en": "Write 4 sentences of a letter applying for a job advertised in a newspaper."
+   },
+   "must_include": [
+    {
+     "label": "拝見",
+     "match": [
+      "拝見し"
+     ]
+    },
+    {
+     "label": "同封",
+     "match": [
+      "同封いたします"
+     ]
+    },
+    {
+     "label": "いただければ幸い",
+     "match": [
+      "いただければ幸いです"
+     ]
+    }
+   ],
+   "model": "拝啓 先週の新聞で貴社のマーケティング職の募集を拝見し、ご連絡いたしました。広告会社で五年間の経験がございます。履歴書を同封いたしますので、ご検討いただければ幸いです。面接の機会をいただけますよう、お待ちしております。敬具",
+   "model_trans": {
+    "ko": "저는 지난주 신문에 실린 귀사의 마케팅 직책 공고를 보고 이 글을 씁니다. 저는 광고 회사에서 5년 동안 일한 경력이 있습니다. 이력서를 동봉하오니 검토해 주시면 감사하겠습니다. 면접 기회를 주시기를 기다리겠습니다.",
+    "en": "I am writing in response to your advertisement for the marketing position in last week's newspaper. I have five years' experience in an advertising company. I enclose my CV and would be grateful if you could consider it. I look forward to hearing from you about an interview."
+   }
+  }
+ }
+}

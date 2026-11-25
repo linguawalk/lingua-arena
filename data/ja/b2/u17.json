@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u17",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 17,
+  "concept": "B2.U17",
+  "status": "live",
+  "title": {
+   "target": "目的と条件",
+   "ko": "목적·조건의 연결어",
+   "en": "Purpose and condition linkers"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "目的",
+   "pos": "noun",
+   "read": "もくてき",
+   "ko": "목적",
+   "en": "purpose",
+   "ex": {
+    "t": "旅行の目的は勉強です。",
+    "read": "りょこうのもくてきはべんきょうです。",
+    "ko": "이 회의의 목적은 계획을 정하는 거예요.",
+    "en": "The purpose of this meeting is to decide the plan."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "条件",
+   "pos": "noun",
+   "read": "じょうけん",
+   "ko": "조건",
+   "en": "condition",
+   "ex": {
+    "t": "この仕事には条件があります。",
+    "read": "このしごとにはじょうけんがあります。",
+    "ko": "계약의 조건을 확인하세요.",
+    "en": "Check the conditions of the contract."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜ために",
+   "pos": "phrase",
+   "read": "〜ために",
+   "ko": "~하기 위해",
+   "en": "in order to",
+   "ex": {
+    "t": "チケットを買うために早く行きました。",
+    "read": "チケットをかうためにはやくいきました。",
+    "ko": "표를 사기 위해 일찍 갔어요.",
+    "en": "I went early in order to buy a ticket."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜ように",
+   "pos": "phrase",
+   "read": "〜ように",
+   "ko": "~하도록",
+   "en": "so that",
+   "ex": {
+    "t": "みんなに聞こえるように大きな声で話しました。",
+    "read": "みんなにきこえるようにおおきなこえではなしました。",
+    "ko": "모두가 들을 수 있도록 크게 말했어요.",
+    "en": "I spoke loudly so that everyone could hear."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜限り",
+   "pos": "phrase",
+   "read": "〜かぎり",
+   "ko": "~하는 한",
+   "en": "as long as",
+   "ex": {
+    "t": "約束を守る限り、手伝います。",
+    "read": "やくそくをまもるかぎり、てつだいます。",
+    "ko": "약속을 지키는 한 도와줄게요.",
+    "en": "I'll help as long as you keep your promise."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "〜さえ〜ば",
+   "pos": "phrase",
+   "read": "〜さえ〜ば",
+   "ko": "~라는 조건으로",
+   "en": "provided that",
+   "ex": {
+    "t": "時間さえあれば、行けます。",
+    "read": "じかんさえあれば、いけます。",
+    "ko": "제때 오는 조건으로 허락할게요.",
+    "en": "I'll allow it provided that you come on time."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "〜ない限り",
+   "pos": "conj",
+   "read": "〜ないかぎり",
+   "ko": "~하지 않으면",
+   "en": "unless",
+   "ex": {
+    "t": "急がない限り、遅れます。",
+    "read": "いそがないかぎり、おくれます。",
+    "ko": "서두르지 않으면 늦을 거예요.",
+    "en": "Unless you hurry, you'll be late."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "さもないと",
+   "pos": "adv",
+   "read": "さもないと",
+   "ko": "그렇지 않으면",
+   "en": "otherwise",
+   "ex": {
+    "t": "急いでください。さもないと遅れます。",
+    "read": "いそいでください。さもないとおくれます。",
+    "ko": "서둘러요. 그렇지 않으면 늦어요.",
+    "en": "Hurry up; otherwise you'll be late."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "念のため",
+   "pos": "phrase",
+   "read": "ねんのため",
+   "ko": "~에 대비해",
+   "en": "in case",
+   "ex": {
+    "t": "念のため、傘を持っていきます。",
+    "read": "ねんのため、かさをもっていきます。",
+    "ko": "비가 올 경우에 대비해 우산을 가져가요.",
+    "en": "Take an umbrella in case it rains."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "仮に",
+   "pos": "verb",
+   "read": "かりに",
+   "ko": "가정하다",
+   "en": "suppose",
+   "ex": {
+    "t": "仮に雨が降ったら、中止します。",
+    "read": "かりにあめがふったら、ちゅうしします。",
+    "ko": "만약 실패한다면 어떻게 하죠?",
+    "en": "Suppose we fail, what then?"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "目的と条件：〜ために・〜ように・〜限り・〜ない限り・さもないと",
+   "en": "Purpose and condition: 〜ために / 〜ように / 〜限り / 〜ない限り / さもないと"
+  },
+  "explain": {
+   "ko": "目的は「〜ために」「〜ように」：「チケットを買うために早く行きました。」意志的な動作には「ために」、状態や可能には「ように」を使います：「みんなに聞こえるように話しました。」条件は「〜限り」「〜さえ〜ば」「〜ない限り」：「約束を守る限り、手伝います。」「急がない限り、遅れます。」「さもないと」は「そうしなければ」の意味です。「念のため」は、まさかのときの用意です。",
+   "en": "Purpose uses 「〜ために」 or 「〜ように」: 「チケットを買うために早く行きました。」 Use 「ために」 for deliberate actions and 「ように」 for states or ability: 「みんなに聞こえるように話しました。」 Conditions use 「〜限り」「〜さえ〜ば」「〜ない限り」: 「約束を守る限り、手伝います。」 「さもないと」 means 'otherwise'. 「念のため」 means 'just in case'."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "目的 / Purpose",
+     "〜ために",
+     "買うために早く行った。"
+    ],
+    [
+     "〜ように / So that",
+     "〜ように",
+     "聞こえるように話した。"
+    ],
+    [
+     "条件 / Condition",
+     "〜限り・〜ない限り",
+     "守る限り手伝う。急がない限り遅れる。"
+    ],
+    [
+     "さもないと / Otherwise",
+     "〜。さもないと〜",
+     "急いで。さもないと遅れる。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「ために」の前は意志動詞、「ように」の前は可能・否定の形が多いです。",
+    "en": "「ために」 follows volitional verbs; 「ように」 often follows potential or negative forms."
+   },
+   {
+    "ko": "「〜ない限り」は「〜なければ〜ない」と同じ意味です。",
+    "en": "「〜ない限り」 means 'unless'."
+   },
+   {
+    "ko": "「念のため」は後ろに「〜ておく」が続くことが多いです。",
+    "en": "「念のため」 is often followed by 「〜ておく」."
+   }
+  ],
+  "examples": [
+   {
+    "t": "チケットを買うために早く行きました。",
+    "read": "チケットをかうためにはやくいきました。",
+    "ko": "표를 사기 위해 일찍 갔어요.",
+    "en": "I went early in order to buy a ticket."
+   },
+   {
+    "t": "みんなに聞こえるように大きな声で話しました。",
+    "read": "みんなにきこえるようにおおきなこえではなしました。",
+    "ko": "모두가 들을 수 있도록 크게 말했어요.",
+    "en": "I spoke loudly so that everyone could hear."
+   },
+   {
+    "t": "約束を守る限り、手伝います。",
+    "read": "やくそくをまもるかぎり、てつだいます。",
+    "ko": "약속을 지키는 한 도와줄게요.",
+    "en": "I'll help as long as you keep your promise."
+   },
+   {
+    "t": "急がない限り、遅れてしまいます。",
+    "read": "いそがないかぎり、おくれてしまいます。",
+    "ko": "서두르지 않으면 늦을 거예요.",
+    "en": "Unless you hurry, you'll be late."
+   },
+   {
+    "t": "念のため、傘を持っていきます。",
+    "read": "ねんのため、かさをもっていきます。",
+    "ko": "비가 올 경우에 대비해 우산을 가져가요.",
+    "en": "Take an umbrella in case it rains."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "チケットを買う___早く行きました。",
+    "options": [
+     "ために",
+     "ように",
+     "ところ"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "みんなに聞こえる___大きな声で話しました。",
+    "options": [
+     "ように",
+     "ために",
+     "ところ"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "約束を守る___、手伝います。",
+    "options": [
+     "限り",
+     "ところ",
+     "ほど"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "急いで。___遅れますよ。",
+    "options": [
+     "さもないと",
+     "そして",
+     "それで"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どうしてそんなに早く行ったのですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 아르바이트를 해요?",
+     "en": "(Question) Why do you work part-time?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "チケットを買うために行きました。",
+       "来週の月曜日です。",
+       "三人です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どうして大きな声で話したのですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어떤 조건으로 허락하셨어요?",
+     "en": "(Question) On what condition did they allow it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "みんなに聞こえるようにです。",
+       "昨日です。",
+       "高いからです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "旅行のために貯金しているの？"
+      },
+      {
+       "s": "B",
+       "t": "うん。週末にアルバイトをしているんだ。成績を保つ限り、親は許してくれるよ。"
+      },
+      {
+       "s": "A",
+       "t": "急がないと、チケットが売り切れるよ。"
+      },
+      {
+       "s": "B",
+       "t": "そうだね。念のため、今日買っておこう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 왜 주말마다 일해?\nB: 여행 경비를 모으기 위해서야. 부모님은 성적을 유지하는 한 허락해 주셨어.\nA: 우비는 샀어?\nB: 응. 비가 올 경우에 대비해서. 서두르지 않으면 표가 매진될 거야.",
+     "en": "A: Why do you work every weekend?\nB: In order to save money for my trip. My parents agreed as long as I keep up my grades.\nA: Did you buy a raincoat?\nB: Yes, in case it rains. Unless I hurry, the tickets will sell out."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "両親は、どんな条件で許してくれましたか。",
+      "options": [
+       "成績を保つこと",
+       "毎日働くこと",
+       "旅行をやめること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私は旅行のお金をためるために、週末にアルバイトをしています。両親は、成績を保つ限り許してくれると言いました。雨が降るといけないので、レインコートも買いました。急がない限り、チケットは売り切れてしまいます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 회사의 목적은 고객이 더 쉽게 쓸 수 있도록 제품을 개선하는 것입니다. 우리는 비용을 줄이기 위해 새 시스템을 도입했습니다. 직원들이 교육을 받는 한 문제는 없을 것입니다. 그렇지 않으면 오류가 늘 수 있습니다.",
+     "en": "The aim of this company is to improve products so that customers can use them more easily. We introduced a new system in order to cut costs. There will be no problem as long as staff are trained; otherwise errors may increase."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "急がないとどうなりますか。",
+      "options": [
+       "チケットが売り切れる",
+       "雨が降る",
+       "お金がなくなる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "旅行会社です。"
+      },
+      {
+       "s": "B",
+       "t": "キャンセル料なしで予約できますか。"
+      },
+      {
+       "s": "A",
+       "t": "三日前までにキャンセルすれば無料です。"
+      },
+      {
+       "s": "B",
+       "t": "分かりました。念のため、保険も付けます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 여행사입니다.\n손님: 취소 수수료 없이 예약할 수 있나요?\n직원: 3일 전에 취소하시면 수수료가 없습니다.\n손님: 알겠습니다. 비가 올 경우에 대비해 보험도 넣을게요.",
+     "en": "Staff: Travel agency.\nGuest: Can I book without a cancellation fee?\nStaff: If you cancel three days before, there is no fee.\nGuest: Fine. I'll add insurance in case it rains."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "キャンセルは______までなら無料です",
+      "answers": [
+       "三日前"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さんは念のため______も付けます",
+      "answers": [
+       "保険"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) チケットを買う___早く行きました。\n2) みんなに聞こえる___大きな声で話しました。\n3) 約束を守る___、手伝います。",
+    "trans": {
+     "ko": "1) 표를 사기 위해 일찍 갔어요. 2) 약속을 지키는 한 도와줄게요. 3) 서두르지 않으면 늦을 거예요.",
+     "en": "1) I went early in order to buy a ticket. 2) I'll help as long as you keep your promise. 3) Unless you hurry, you'll be late."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "チケットを買う___早く行きました。",
+      "options": [
+       "ために",
+       "ように",
+       "ところ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "みんなに聞こえる___大きな声で話しました。",
+      "options": [
+       "ように",
+       "ために",
+       "ところ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "約束を守る___、手伝います。",
+      "options": [
+       "限り",
+       "ところ",
+       "ほど"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私は旅行のお金を(1)ために、週末にアルバイトをしています。両親は、成績を保つ(2)許してくれると言いました。雨が降るといけないので、レインコートも買いました。急がない限り、チケットは(3)。",
+    "trans": {
+     "ko": "이 회사의 목적은 고객이 더 쉽게 쓸 수 있도록 제품을 개선하는 것입니다. 우리는 비용을 줄이기 위해 새 시스템을 도입했습니다. 직원들이 교육을 받는 한 문제는 없을 것입니다. 그렇지 않으면 오류가 늘 수 있습니다.",
+     "en": "The aim of this company is to improve products so that customers can use them more easily. We introduced a new system in order to cut costs. There will be no problem as long as staff are trained; otherwise errors may increase."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "ためる",
+       "使う",
+       "なくす"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "限り",
+       "ところ",
+       "ほど"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "売り切れてしまいます",
+       "安くなります",
+       "届きます"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "お知らせ\n図書館では、本を借りるために会員カードが必要です。カードをなくさない限り、再発行は無料です。返却が遅れないように、メールでお知らせします。念のため、連絡先を確認してください。",
+    "trans": {
+     "ko": "이용 안내\n도서관 회원은 신분증을 지참하는 조건으로 책을 빌릴 수 있습니다. 대출 기간은 2주이며, 연체하지 않는 한 연장이 가능합니다. 책을 훼손할 경우를 대비해 보증금이 필요합니다.",
+     "en": "USER GUIDE\nLibrary members may borrow books provided that they bring ID. The loan period is two weeks and can be extended as long as the book is not overdue. A deposit is required in case a book is damaged."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "本を借りるために何が必要ですか。",
+      "options": [
+       "会員カード",
+       "身分証",
+       "お金"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "メールは何のために送りますか。",
+      "options": [
+       "返却が遅れないように",
+       "新しい本を知らせるように",
+       "お金を払うように"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジフさんは、日本語をもっと話せるようになるために、毎晩勉強しています。毎日続ける限り、必ず上手になると先生に言われました。さもないと忘れてしまうので、休まないようにしています。",
+    "trans": {
+     "ko": "준호는 시험에 합격하기 위해 매일 공부해요. 부모님은 그가 건강을 지키는 한 응원하세요. 서두르지 않으면 접수가 끝나므로 오늘 신청하려고 해요.",
+     "en": "Junho studies every day in order to pass the exam. His parents support him as long as he stays healthy. Unless he hurries, registration will close, so he plans to apply today."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジフさんは毎晩勉強しています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ジフさんは週に一回だけ勉強します。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "先生は金曜日に教えます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "どうしてそんなに早く行ったのですか。",
+    "read": "どうしてそんなにはやくいったのですか。",
+    "ko": "왜 그렇게 일찍 갔어요?",
+    "en": "Why did you go so early?",
+    "situation": {
+     "ko": "목적을 물을 때",
+     "en": "Asking about a purpose"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "チケットを買うために早く行きました。",
+    "read": "チケットをかうためにはやくいきました。",
+    "ko": "표를 사기 위해 일찍 갔어요.",
+    "en": "I went early in order to buy a ticket.",
+    "situation": {
+     "ko": "목적을 말할 때",
+     "en": "Stating a purpose"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "みんなに聞こえるように大きな声で話しました。",
+    "read": "みんなにきこえるようにおおきなこえではなしました。",
+    "ko": "모두가 들을 수 있도록 크게 말했어요.",
+    "en": "I spoke loudly so that everyone could hear.",
+    "situation": {
+     "ko": "결과적 목적을 말할 때",
+     "en": "A purpose with a clause"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "約束を守る限り、手伝います。",
+    "read": "やくそくをまもるかぎり、てつだいます。",
+    "ko": "약속을 지키는 한 도와줄게요.",
+    "en": "I'll help as long as you keep your promise.",
+    "situation": {
+     "ko": "조건을 말할 때",
+     "en": "Setting a condition"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "時間さえあれば、行けます。",
+    "read": "じかんさえあれば、いけます。",
+    "ko": "제때 오는 조건으로 허락할게요.",
+    "en": "I'll allow it provided that you come on time.",
+    "situation": {
+     "ko": "격식 있는 조건",
+     "en": "A formal condition"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "急がない限り、遅れてしまいます。",
+    "read": "いそがないかぎり、おくれてしまいます。",
+    "ko": "서두르지 않으면 늦을 거예요.",
+    "en": "Unless you hurry, you'll be late.",
+    "situation": {
+     "ko": "부정 조건을 말할 때",
+     "en": "A negative condition"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "急いでください。さもないと遅れます。",
+    "read": "いそいでください。さもないとおくれます。",
+    "ko": "서둘러요. 그렇지 않으면 늦어요.",
+    "en": "Hurry up; otherwise you'll be late.",
+    "situation": {
+     "ko": "경고할 때",
+     "en": "Warning"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "念のため、傘を持っていってください。",
+    "read": "ねんのため、かさをもっていってください。",
+    "ko": "비가 올 경우에 대비해 우산을 가져가요.",
+    "en": "Take an umbrella in case it rains.",
+    "situation": {
+     "ko": "대비할 때",
+     "en": "Preparing for a possibility"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜ために、〜。",
+    "read": "〜ために、〜。",
+    "ko": "~하기 위해",
+    "en": "(in order) to + verb / so as to + verb."
+   },
+   {
+    "id": "w2",
+    "t": "〜ように、〜。",
+    "read": "〜ように、〜。",
+    "ko": "~하도록",
+    "en": "so that + clause (can / could / will / would)."
+   },
+   {
+    "id": "w3",
+    "t": "〜限り、〜。",
+    "read": "〜かぎり、〜。",
+    "ko": "~하는 한 / ~라는 조건으로",
+    "en": "as long as / provided that + clause."
+   },
+   {
+    "id": "w4",
+    "t": "〜ない限り、〜。",
+    "read": "〜ないかぎり、〜。",
+    "ko": "~하지 않으면",
+    "en": "unless + clause / otherwise + clause."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "목적과 조건을 나타내는 표현을 써서 계획을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about a plan, using purpose and condition linkers."
+   },
+   "must_include": [
+    {
+     "label": "ために",
+     "match": [
+      "ために"
+     ]
+    },
+    {
+     "label": "限り",
+     "match": [
+      "限り"
+     ]
+    },
+    {
+     "label": "いけないので",
+     "match": [
+      "いけないので"
+     ]
+    }
+   ],
+   "model": "私は旅行のお金をためるために、週末にアルバイトをしています。成績を保つ限り、両親は許してくれました。雨が降るといけないので、レインコートも買いました。急がない限り、チケットは売り切れてしまいます。",
+   "model_trans": {
+    "ko": "저는 여행 경비를 모으기 위해 주말에 아르바이트를 해요. 부모님은 제가 학교 성적을 유지하는 한 여행을 허락하셨어요. 비가 올 경우에 대비해 우비도 샀어요. 서두르지 않으면 표가 매진될 거예요.",
+    "en": "I work part-time at weekends in order to save money for my trip. My parents allowed it as long as I keep up my grades. I also bought a raincoat in case it rains. Unless I hurry, the tickets will sell out."
+   }
+  }
+ }
+}

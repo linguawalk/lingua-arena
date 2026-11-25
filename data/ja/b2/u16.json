@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u16",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 16,
+  "concept": "B2.U16",
+  "status": "live",
+  "title": {
+   "target": "原因と結果",
+   "ko": "원인과 결과의 연결어",
+   "en": "Cause and result"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "原因",
+   "pos": "noun",
+   "read": "げんいん",
+   "ko": "원인",
+   "en": "cause",
+   "ex": {
+    "t": "事故の原因を調べます。",
+    "read": "じこのげんいんをしらべます。",
+    "ko": "사고의 원인은 아직 몰라요.",
+    "en": "The cause of the accident is still unknown."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "結果",
+   "pos": "noun",
+   "read": "けっか",
+   "ko": "결과",
+   "en": "result",
+   "ex": {
+    "t": "その結果、売り上げが伸びました。",
+    "read": "そのけっか、うりあげがのびました。",
+    "ko": "그 결과 매출이 늘었어요.",
+    "en": "As a result, sales increased."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜により",
+   "pos": "prep",
+   "read": "〜により",
+   "ko": "~ 때문에",
+   "en": "owing to",
+   "ex": {
+    "t": "大雪により、空港が閉鎖されました。",
+    "read": "おおゆきにより、くうこうがへいさされました。",
+    "ko": "악천후 때문에 비행기가 지연됐어요.",
+    "en": "Owing to bad weather, the flight was delayed."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "したがって",
+   "pos": "adv",
+   "read": "したがって",
+   "ko": "따라서",
+   "en": "consequently",
+   "ex": {
+    "t": "したがって、計画を変えました。",
+    "read": "したがって、けいかくをかえました。",
+    "ko": "따라서 우리는 계획을 바꿨어요.",
+    "en": "Consequently, we changed the plan."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜につながる",
+   "pos": "phrase",
+   "read": "〜につながる",
+   "ko": "~로 이어지다",
+   "en": "lead to",
+   "ex": {
+    "t": "ストレスは健康問題につながります。",
+    "read": "ストレスはけんこうもんだいにつながります。",
+    "ko": "스트레스는 건강 문제로 이어질 수 있어요.",
+    "en": "Stress can lead to health problems."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "〜をもたらす",
+   "pos": "phrase",
+   "read": "〜をもたらす",
+   "ko": "초래하다",
+   "en": "result in",
+   "ex": {
+    "t": "新しい技術は変化をもたらしました。",
+    "read": "あたらしいぎじゅつはへんかをもたらしました。",
+    "ko": "그 실수는 큰 손실을 초래했어요.",
+    "en": "The mistake resulted in a big loss."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "〜による",
+   "pos": "phrase",
+   "read": "〜による",
+   "ko": "~ 때문이다",
+   "en": "be due to",
+   "ex": {
+    "t": "遅れはストライキによるものです。",
+    "read": "おくれはストライキによるものです。",
+    "ko": "지연은 파업 때문이에요.",
+    "en": "The delay is due to a strike."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "そのため",
+   "pos": "adv",
+   "read": "そのため",
+   "ko": "그래서",
+   "en": "therefore",
+   "ex": {
+    "t": "そのため、早く出発しました。",
+    "read": "そのため、はやくしゅっぱつしました。",
+    "ko": "그래서 우리는 일찍 출발했어요.",
+    "en": "Therefore we left early."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "影響",
+   "pos": "noun",
+   "read": "えいきょう",
+   "ko": "영향",
+   "en": "effect",
+   "ex": {
+    "t": "天気は気分に影響します。",
+    "read": "てんきはきぶんにえいきょうします。",
+    "ko": "약의 부작용이 있어요.",
+    "en": "The medicine has side effects."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "あまりに〜ので",
+   "pos": "phrase",
+   "read": "あまりに〜ので",
+   "ko": "매우 ~해서 …하다",
+   "en": "so … that",
+   "ex": {
+    "t": "あまりに疲れたので、すぐ眠りました。",
+    "read": "あまりにつかれたので、すぐねむりました。",
+    "ko": "너무 피곤해서 바로 잠들었어요.",
+    "en": "I was so tired that I fell asleep at once."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "原因と結果：〜のため・〜により・〜せいで・その結果・あまりに〜ので",
+   "en": "Cause and result: 〜のため / 〜により / 〜せいで / その結果 / あまりに〜ので"
+  },
+  "explain": {
+   "ko": "原因を表す書き言葉は「〜のため」「〜により」：「大雪のため、便が欠航しました。」話し言葉は「〜から」「〜ので」「〜せいで」：「雪のせいで遅れました。」結果は「その結果」「そのため」「したがって」でつなぎます。「あまりに〜ので〜」は程度が大きい原因：「あまりに疲れたので、すぐ眠りました。」「〜につながる」「〜をもたらす」は、長い因果関係を言うときに使います。",
+   "en": "Written causes use 「〜のため」「〜により」: 「大雪のため、便が欠航しました。」 Spoken causes use 「〜から」「〜ので」「〜せいで」: 「雪のせいで遅れました。」 Results connect with 「その結果」「そのため」「したがって」. 「あまりに〜ので〜」 shows a cause of extreme degree: 「あまりに疲れたので、すぐ眠りました。」 「〜につながる」 and 「〜をもたらす」 express longer chains of cause."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "書き言葉 / Written",
+     "〜のため・〜により",
+     "大雪のため、欠航しました。"
+    ],
+    [
+     "話し言葉 / Spoken",
+     "〜ので・〜から・〜せいで",
+     "雪のせいで遅れました。"
+    ],
+    [
+     "結果 / Result",
+     "その結果・そのため・したがって",
+     "その結果、売り上げが伸びました。"
+    ],
+    [
+     "程度 / Degree",
+     "あまりに〜ので",
+     "あまりに疲れたので、眠りました。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜せいで」は悪い結果、「〜おかげで」は良い結果に使います。",
+    "en": "「〜せいで」 is for bad results, 「〜おかげで」 for good ones."
+   },
+   {
+    "ko": "「〜のため」は、目的の意味もあるので、前後の意味で区別します。",
+    "en": "「〜のため」 can also mean purpose; context decides."
+   },
+   {
+    "ko": "書き言葉では「したがって」「よって」を使い、話し言葉では「だから」を使います。",
+    "en": "Writing uses 「したがって／よって」; speech uses 「だから」."
+   }
+  ],
+  "examples": [
+   {
+    "t": "大雪のため、多くの便が欠航しました。",
+    "read": "おおゆきのため、おおくのびんがけっこうしました。",
+    "ko": "악천후 때문에 비행기가 지연됐어요.",
+    "en": "Owing to bad weather, the flight was delayed."
+   },
+   {
+    "t": "雪のせいで、バスが遅れました。",
+    "read": "ゆきのせいで、バスがおくれました。",
+    "ko": "지연은 파업 때문이에요.",
+    "en": "The delay is due to a strike."
+   },
+   {
+    "t": "あまりに疲れたので、すぐ眠りました。",
+    "read": "あまりにつかれたので、すぐねむりました。",
+    "ko": "너무 피곤해서 바로 잠들었어요.",
+    "en": "I was so tired that I fell asleep at once."
+   },
+   {
+    "t": "その結果、売り上げが伸びました。",
+    "read": "そのけっか、うりあげがのびました。",
+    "ko": "그 결과 매출이 늘었어요.",
+    "en": "As a result, sales increased."
+   },
+   {
+    "t": "ストレスは健康問題につながることがあります。",
+    "read": "ストレスはけんこうもんだいにつながることがあります。",
+    "ko": "스트레스는 건강 문제로 이어질 수 있어요.",
+    "en": "Stress can lead to health problems."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "大雪の___、多くの便が欠航しました。",
+    "options": [
+     "ため",
+     "ように",
+     "ところ"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "雪の___で、バスが遅れました。",
+    "options": [
+     "せい",
+     "おかげ",
+     "うえ"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "あまりに疲れた___、すぐ眠りました。",
+    "options": [
+     "ので",
+     "のに",
+     "ながら"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___、売り上げが伸びました。",
+    "options": [
+     "その結果",
+     "それでも",
+     "ところが"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どうして飛行機は遅れたのですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 비행기가 지연됐어요?",
+     "en": "(Question) Why was the flight delayed?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "大雪のため遅れました。",
+       "来週の月曜日です。",
+       "三人です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "事故の結果はどうでしたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 사고의 결과는 어땠어요?",
+     "en": "(Question) What was the result of the accident?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "その結果、発表に間に合いませんでした。",
+       "昨日買いました。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どうしてこんなに遅れたの？"
+      },
+      {
+       "s": "B",
+       "t": "大雪でバスが遅れたんだ。あまりに雪が降ったので、道がふさがったよ。"
+      },
+      {
+       "s": "A",
+       "t": "それで会議に間に合わなかったんだね。"
+      },
+      {
+       "s": "B",
+       "t": "そう。その結果、大事な発表を逃してしまった。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 왜 이렇게 늦었어?\nB: 폭설 때문에 버스가 지연됐어. 눈이 너무 많이 와서 길이 막혔어.\nA: 그래서 회의에 못 왔구나.\nB: 응. 그 결과 중요한 발표를 놓쳤어.",
+     "en": "A: Why are you so late?\nB: The bus was delayed owing to heavy snow. It snowed so much that the roads were blocked.\nA: So that's why you missed the meeting.\nB: Yes. As a result, I missed the important presentation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "バスはなぜ遅れましたか。",
+      "options": [
+       "大雪のため",
+       "事故のため",
+       "故障のため"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日、大雪のため空港が閉鎖されました。その結果、多くの便が欠航し、数千人の乗客が空港で夜を過ごしました。そのため、航空会社は今日、臨時便を出すことにしました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어제 공항은 폭설 때문에 문을 닫았습니다. 그 결과 많은 항공편이 취소되었고 수천 명의 승객이 공항에서 밤을 보냈습니다. 따라서 항공사는 오늘 추가 편을 마련했습니다.",
+     "en": "The airport closed yesterday owing to heavy snow. As a result, many flights were cancelled and thousands of passengers spent the night there. Consequently, the airline has arranged extra flights today."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "航空会社は何をしましたか。",
+      "options": [
+       "臨時便を出した",
+       "運賃を上げた",
+       "空港を閉めた"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "航空会社のお客様センターです。"
+      },
+      {
+       "s": "B",
+       "t": "どうして私の便は欠航したのですか。"
+      },
+      {
+       "s": "A",
+       "t": "大雪のため、空港が閉鎖されたからです。"
+      },
+      {
+       "s": "B",
+       "t": "では、明日の便に変更してください。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 항공사 고객 센터입니다.\n손님: 제 비행기가 왜 취소됐나요?\n직원: 폭설 때문에 공항이 문을 닫았습니다.\n손님: 그럼 내일 비행기로 바꿔 주세요.",
+     "en": "Staff: Airline customer centre.\nGuest: Why was my flight cancelled?\nStaff: The airport closed owing to heavy snow.\nGuest: Then please change me to tomorrow's flight."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "______のため、空港が閉鎖されました",
+      "answers": [
+       "大雪"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さんは______の便に変更したいです",
+      "answers": [
+       "明日"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 大雪の___、多くの便が欠航しました。\n2) 雪の___で、バスが遅れました。\n3) あまりに疲れた___、すぐ眠りました。",
+    "trans": {
+     "ko": "1) 악천후 때문에 비행기가 지연됐어요. 2) 지연은 파업 때문이에요. 3) 너무 피곤해서 바로 잠들었어요.",
+     "en": "1) Owing to bad weather, the flight was delayed. 2) The delay is due to a strike. 3) I was so tired that I fell asleep at once."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "大雪の___、多くの便が欠航しました。",
+      "options": [
+       "ため",
+       "ように",
+       "ところ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "雪の___で、バスが遅れました。",
+      "options": [
+       "せい",
+       "おかげ",
+       "うえ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "あまりに疲れた___、すぐ眠りました。",
+      "options": [
+       "ので",
+       "のに",
+       "ながら"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "昨年、この町では大気汚染が悪化し、呼吸器の病気の患者が(1)。専門家は、車が増えたことによるものだと言っています。(2)、市は中心部で規制を始め、(3)今年は汚染が大きく減りました。",
+    "trans": {
+     "ko": "어제 공항은 폭설 때문에 문을 닫았습니다. 그 결과 많은 항공편이 취소되었고 수천 명의 승객이 공항에서 밤을 보냈습니다. 따라서 항공사는 오늘 추가 편을 마련했습니다.",
+     "en": "The airport closed yesterday owing to heavy snow. As a result, many flights were cancelled and thousands of passengers spent the night there. Consequently, the airline has arranged extra flights today."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "増えました",
+       "減りました",
+       "消えました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "そのため",
+       "ところが",
+       "それでも"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "その結果",
+       "ところで",
+       "むしろ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "記事\n昨年、市では大気汚染が悪化し、呼吸器の病気の患者が増えました。専門家は、これは車の増加によるものだと言っています。そのため市は中心部で規制を始め、その結果、今年は汚染のレベルが大きく下がりました。",
+    "trans": {
+     "ko": "기사\n지난해 도시의 대기 오염이 심해지면서 호흡기 질환 환자가 늘었다. 전문가들은 이것이 자동차 증가 때문이라고 말한다. 그 결과 시는 도심 운행 제한을 도입했고, 따라서 올해 오염 수치는 크게 낮아졌다.",
+     "en": "ARTICLE\nLast year air pollution worsened in the city and the number of patients with breathing problems rose. Experts say this is due to the increase in cars. As a result, the city introduced restrictions in the centre, and consequently pollution levels have fallen sharply this year."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "患者が増えた原因は何だと言われていますか。",
+      "options": [
+       "車の増加",
+       "天気",
+       "食べ物"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "規制のあと、どうなりましたか。",
+      "options": [
+       "汚染が大きく下がった",
+       "さらに悪化した",
+       "変わらなかった"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジウンさんはあまりに緊張したので、試験で間違えました。その結果、点数が低くなりました。したがって、次の試験の前によく休むことにしました。",
+    "trans": {
+     "ko": "지은은 너무 긴장해서 시험에서 실수를 했어요. 그 결과 성적이 낮았어요. 따라서 다음에는 충분히 쉬고 가기로 했어요.",
+     "en": "Jieun was so nervous that she made mistakes in the exam. As a result her grade was low. Therefore she decided to rest well before the next one."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジウンさんは緊張して間違えました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ジウンさんは満点を取りました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "次の試験は来月です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "どうして飛行機は遅れたのですか。",
+    "read": "どうしてひこうきはおくれたのですか。",
+    "ko": "왜 비행기가 지연됐어요?",
+    "en": "Why was the flight delayed?",
+    "situation": {
+     "ko": "원인을 물을 때",
+     "en": "Asking for a cause"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "大雪のため、遅れました。",
+    "read": "おおゆきのため、おくれました。",
+    "ko": "악천후 때문에 지연됐어요.",
+    "en": "It was delayed owing to bad weather.",
+    "situation": {
+     "ko": "원인을 밝힐 때",
+     "en": "Giving a cause"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "ストライキによる遅れです。",
+    "read": "ストライキによるおくれです。",
+    "ko": "지연은 파업 때문이에요.",
+    "en": "The delay is due to a strike.",
+    "situation": {
+     "ko": "공식적으로 원인을 말할 때",
+     "en": "A formal cause"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "あまりに疲れたので、すぐ眠りました。",
+    "read": "あまりにつかれたので、すぐねむりました。",
+    "ko": "너무 피곤해서 바로 잠들었어요.",
+    "en": "I was so tired that I fell asleep at once.",
+    "situation": {
+     "ko": "정도와 결과를 말할 때",
+     "en": "Degree and result"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "その結果、売り上げが伸びました。",
+    "read": "そのけっか、うりあげがのびました。",
+    "ko": "그 결과 매출이 늘었어요.",
+    "en": "As a result, sales increased.",
+    "situation": {
+     "ko": "결과를 말할 때",
+     "en": "Stating a result"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "そのため、計画を変えました。",
+    "read": "そのため、けいかくをかえました。",
+    "ko": "따라서 우리는 계획을 바꿨어요.",
+    "en": "Consequently, we changed the plan.",
+    "situation": {
+     "ko": "격식 있는 결론",
+     "en": "A formal consequence"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "ストレスは健康問題につながります。",
+    "read": "ストレスはけんこうもんだいにつながります。",
+    "ko": "스트레스는 건강 문제로 이어질 수 있어요.",
+    "en": "Stress can lead to health problems.",
+    "situation": {
+     "ko": "일반적 인과를 말할 때",
+     "en": "A general link"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "だから早く出発することにしました。",
+    "read": "だからはやくしゅっぱつすることにしました。",
+    "ko": "그래서 일찍 출발하기로 했어요.",
+    "en": "That's why we decided to leave early.",
+    "situation": {
+     "ko": "결과를 마무리할 때",
+     "en": "Wrapping up"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜のため、〜。",
+    "read": "〜のため、〜。",
+    "ko": "~ 때문에 (명사)",
+    "en": "because of / due to / owing to + noun."
+   },
+   {
+    "id": "w2",
+    "t": "〜せいで、〜。",
+    "read": "〜せいで、〜。",
+    "ko": "~ 때문에 (절)",
+    "en": "because / since / as + clause."
+   },
+   {
+    "id": "w3",
+    "t": "その結果、〜。",
+    "read": "そのけっか、〜。",
+    "ko": "그 결과",
+    "en": "As a result, / Consequently, / Therefore, + clause."
+   },
+   {
+    "id": "w4",
+    "t": "あまりに〜ので、〜。",
+    "read": "あまりに〜ので、〜。",
+    "ko": "너무 ~해서 …",
+    "en": "so + adj + that / such + noun + that."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "원인과 결과를 연결하는 표현을 써서 어떤 사건을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about an event, linking causes and results."
+   },
+   "must_include": [
+    {
+     "label": "のため",
+     "match": [
+      "大雪のため"
+     ]
+    },
+    {
+     "label": "あまりに",
+     "match": [
+      "あまりに雪が降った"
+     ]
+    },
+    {
+     "label": "その結果",
+     "match": [
+      "その結果"
+     ]
+    }
+   ],
+   "model": "大雪のため、昨日は多くの便が欠航しました。あまりに雪が降ったので、空港が閉鎖されました。その結果、数千人の乗客が空港で夜を過ごしました。そのため、航空会社は今日、臨時便を出しています。",
+   "model_trans": {
+    "ko": "폭설 때문에 어제 많은 항공편이 취소되었습니다. 눈이 너무 많이 와서 공항이 문을 닫았습니다. 그 결과 수천 명의 승객이 공항에서 밤을 보냈습니다. 따라서 항공사는 오늘 추가 편을 마련했습니다.",
+    "en": "Owing to heavy snow, many flights were cancelled yesterday. It snowed so much that the airport closed. As a result, thousands of passengers spent the night at the airport. Consequently, the airline has arranged extra flights today."
+   }
+  }
+ }
+}

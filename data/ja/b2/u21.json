@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u21",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 21,
+  "concept": "B2.U21",
+  "status": "live",
+  "title": {
+   "target": "文章の組み立て",
+   "ko": "에세이의 구조",
+   "en": "Essay structure"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "序論",
+   "pos": "noun",
+   "read": "じょろん",
+   "ko": "서론",
+   "en": "introduction",
+   "ex": {
+    "t": "序論でテーマを紹介します。",
+    "read": "じょろんでテーマをしょうかいします。",
+    "ko": "서론에서 주제를 소개하세요.",
+    "en": "Introduce the topic in the introduction."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "本論",
+   "pos": "noun",
+   "read": "ほんろん",
+   "ko": "본론",
+   "en": "main body",
+   "ex": {
+    "t": "本論は三つの段落にします。",
+    "read": "ほんろんはみっつのだんらくにします。",
+    "ko": "본론은 세 단락으로 구성돼요.",
+    "en": "The main body has three paragraphs."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "結論",
+   "pos": "noun",
+   "read": "けつろん",
+   "ko": "결론",
+   "en": "conclusion",
+   "ex": {
+    "t": "結論で意見をまとめます。",
+    "read": "けつろんでいけんをまとめます。",
+    "ko": "결론에서 요점을 정리해요.",
+    "en": "Sum up the main points in the conclusion."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "主題文",
+   "pos": "noun",
+   "read": "しゅだいぶん",
+   "ko": "주제문",
+   "en": "topic sentence",
+   "ex": {
+    "t": "各段落は主題文で始めます。",
+    "read": "かくだんらくはしゅだいぶんではじめます。",
+    "ko": "각 단락은 주제문으로 시작해요.",
+    "en": "Each paragraph begins with a topic sentence."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "論点",
+   "pos": "noun",
+   "read": "ろんてん",
+   "ko": "논점",
+   "en": "argument",
+   "ex": {
+    "t": "論点をはっきりさせます。",
+    "read": "ろんてんをはっきりさせます。",
+    "ko": "그의 논점은 분명했어요.",
+    "en": "His argument was clear."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "裏づける",
+   "pos": "verb",
+   "read": "うらづける",
+   "ko": "뒷받침하다",
+   "en": "support",
+   "ex": {
+    "t": "例で主張を裏づけます。",
+    "read": "れいでしゅちょうをうらづけます。",
+    "ko": "예시로 주장을 뒷받침하세요.",
+    "en": "Support your claim with examples."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "まず",
+   "pos": "adv",
+   "read": "まず",
+   "ko": "첫째로",
+   "en": "firstly",
+   "ex": {
+    "t": "まず、費用を見てみましょう。",
+    "read": "まず、ひようをみてみましょう。",
+    "ko": "첫째로 비용을 살펴보겠습니다.",
+    "en": "Firstly, let us look at the cost."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "さらに",
+   "pos": "adv",
+   "read": "さらに",
+   "ko": "게다가",
+   "en": "moreover",
+   "ex": {
+    "t": "さらに、この方法は安全です。",
+    "read": "さらに、このほうほうはあんぜんです。",
+    "ko": "게다가 그 방법은 안전해요.",
+    "en": "Moreover, the method is safe."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "要するに",
+   "pos": "phrase",
+   "read": "ようするに",
+   "ko": "요약하면",
+   "en": "to sum up",
+   "ex": {
+    "t": "要するに、この計画は実行できます。",
+    "read": "ようするに、このけいかくはじっこうできます。",
+    "ko": "요약하면 그 계획은 실현 가능해요.",
+    "en": "To sum up, the plan is feasible."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "主張",
+   "pos": "noun",
+   "read": "しゅちょう",
+   "ko": "논제",
+   "en": "thesis",
+   "ex": {
+    "t": "筆者の主張は明確です。",
+    "read": "ひっしゃのしゅちょうはめいかくです。",
+    "ko": "논제는 서론의 마지막에 써요.",
+    "en": "State your thesis at the end of the introduction."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "文章構成：序論・本論・結論・まず／さらに／例えば／以上のことから",
+   "en": "Essay structure: 序論 / 本論 / 結論 / まず・さらに・例えば・以上のことから"
+  },
+  "explain": {
+   "ko": "文章は「序論→本論→結論」で作ります。序論で話題を紹介して主張を示し、本論では各段落を主題文で始めて、例で裏づけます。順序は「まず、次に、最後に」、追加は「さらに、また」、例は「例えば」、まとめは「以上のことから」「要するに」で示します：「まず、費用を見てみましょう。さらに、この方法は安全です。」最後に読み直して直します。",
+   "en": "An essay runs 序論 → 本論 → 結論. The introduction presents the topic and your claim; in the body each paragraph opens with a topic sentence and is supported by examples. Order is 「まず、次に、最後に」, addition 「さらに、また」, examples 「例えば」, and conclusion 「以上のことから」「要するに」: 「まず、費用を見てみましょう。さらに、この方法は安全です。」 Finally, reread and correct."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "順序 / Order",
+     "まず・次に・最後に",
+     "まず、費用を見ます。"
+    ],
+    [
+     "追加 / Addition",
+     "さらに・また",
+     "さらに、安全です。"
+    ],
+    [
+     "例 / Example",
+     "例えば",
+     "例えば、高い服を着なくてよいです。"
+    ],
+    [
+     "まとめ / Conclusion",
+     "以上のことから・要するに",
+     "以上のことから、必要だと考えます。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "一つの段落には一つの主題を入れます。",
+    "en": "Keep one topic per paragraph."
+   },
+   {
+    "ko": "「まず」は「次に」「最後に」と一緒に使うと、順序がはっきりします。",
+    "en": "Use 「まず」 with 「次に」「最後に」 to make the order clear."
+   },
+   {
+    "ko": "結論では、序論の主張を別の言葉でもう一度言います。",
+    "en": "In the conclusion, restate the thesis in different words."
+   }
+  ],
+  "examples": [
+   {
+    "t": "序論でテーマを紹介して、主張を述べます。",
+    "read": "じょろんでテーマをしょうかいして、しゅちょうをのべます。",
+    "ko": "각 단락은 주제문으로 시작해요.",
+    "en": "Each paragraph begins with a topic sentence."
+   },
+   {
+    "t": "各段落は主題文で始めます。",
+    "read": "かくだんらくはしゅだいぶんではじめます。",
+    "ko": "첫째로 비용을 살펴보겠습니다.",
+    "en": "Firstly, let us look at the cost."
+   },
+   {
+    "t": "まず、費用を見てみましょう。",
+    "read": "まず、ひようをみてみましょう。",
+    "ko": "게다가 그 방법은 안전해요.",
+    "en": "Moreover, the method is safe."
+   },
+   {
+    "t": "さらに、この方法は安全です。",
+    "read": "さらに、このほうほうはあんぜんです。",
+    "ko": "예시로 주장을 뒷받침하세요.",
+    "en": "Support your claim with examples."
+   },
+   {
+    "t": "以上のことから、この計画は実行できると考えます。",
+    "read": "いじょうのことから、このけいかくはじっこうできるとかんがえます。",
+    "ko": "요약하면 그 계획은 실현 가능해요.",
+    "en": "To sum up, the plan is feasible."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___、費用を見てみましょう。",
+    "options": [
+     "まず",
+     "最後に",
+     "以上"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___、この方法は安全です。",
+    "options": [
+     "さらに",
+     "まず",
+     "もし"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___、高い服を着る必要がありません。",
+    "options": [
+     "例えば",
+     "要するに",
+     "ところで"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___、この計画は実行できると考えます。",
+    "options": [
+     "以上のことから",
+     "まず",
+     "さらに"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "エッセイはどう始めればいいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 에세이는 어떻게 시작해야 해요?",
+     "en": "(Question) How should an essay begin?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "テーマを紹介して、主張を述べます。",
+       "結論から書きます。",
+       "何も書きません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "段落はどのように始めますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 결론에는 무엇을 써야 해요?",
+     "en": "(Question) What should I write in the conclusion?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "主題文で始めます。",
+       "例だけで始めます。",
+       "質問で終わります。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "エッセイの本論は、何段落がいいかな。"
+      },
+      {
+       "s": "B",
+       "t": "普通は三つだよ。各段落は主題文で始めて、例で裏づけるといい。"
+      },
+      {
+       "s": "A",
+       "t": "結論は？"
+      },
+      {
+       "s": "B",
+       "t": "以上のことから、と書いて、主張をもう一度まとめるんだ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 에세이 구조를 모르겠어.\nB: 서론, 본론, 결론으로 나눠. 서론에서 주제를 소개하고 논제를 써.\nA: 본론은?\nB: 각 단락은 주제문으로 시작하고 예시로 뒷받침해.",
+     "en": "A: I don't know how to structure my essay.\nB: Split it into introduction, body and conclusion. Introduce the topic and state your thesis in the introduction.\nA: And the body?\nB: Start each paragraph with a topic sentence and support it with examples."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "結論ではどう書きますか。",
+      "options": [
+       "以上のことから、と書く",
+       "新しい話を始める",
+       "何も書かない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "エッセイは、序論、本論、結論の三つの部分から成ります。序論ではテーマと主張を述べます。本論では、まず、次に、さらにと順に論点を示し、最後に、結論で主張をまとめます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "좋은 에세이는 세 부분으로 이루어집니다. 서론에서는 주제를 소개합니다. 본론에서는 각 단락마다 하나의 논점을 다룹니다. 결론에서는 요점을 요약하고 자신의 의견을 다시 말합니다.",
+     "en": "A good essay has three parts. In the introduction you present the topic. In the body each paragraph deals with one argument. In the conclusion you sum up the main points and restate your opinion."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "エッセイはいくつの部分から成りますか。",
+      "options": [
+       "三つ",
+       "二つ",
+       "五つ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "作文の授業です。"
+      },
+      {
+       "s": "B",
+       "t": "本論は何段落がいいですか。"
+      },
+      {
+       "s": "A",
+       "t": "普通は三つです。各段落に主題文が必要です。"
+      },
+      {
+       "s": "B",
+       "t": "分かりました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "선생님: 작문 수업입니다.\n학생: 본론은 몇 단락이 좋을까요?\n선생님: 보통 세 단락이 좋아요. 각 단락에는 주제문이 필요해요.\n학생: 알겠습니다.",
+     "en": "Teacher: Writing class.\nStudent: How many body paragraphs are best?\nTeacher: Usually three. Each paragraph needs a topic sentence.\nStudent: I see."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "______は普通三つの段落です",
+      "answers": [
+       "本論"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "各段落に______が必要です",
+      "answers": [
+       "主題文"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___、費用を見てみましょう。\n2) ___、この方法は安全です。\n3) ___、高い服を着る必要がありません。",
+    "trans": {
+     "ko": "1) 각 단락은 주제문으로 시작해요. 2) 첫째로 비용을 살펴보겠습니다. 3) 요약하면 그 계획은 실현 가능해요.",
+     "en": "1) Each paragraph begins with a topic sentence. 2) Firstly, let us look at the cost. 3) To sum up, the plan is feasible."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___、費用を見てみましょう。",
+      "options": [
+       "まず",
+       "最後に",
+       "以上"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___、この方法は安全です。",
+      "options": [
+       "さらに",
+       "まず",
+       "もし"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___、高い服を着る必要がありません。",
+      "options": [
+       "例えば",
+       "要するに",
+       "ところで"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "制服は多くの学校で長い伝統があります。(1)、制服は生徒間の格差を減らします。(2)、高い服を着る必要がありません。(3)のことから、私は制服が必要だと考えます。",
+    "trans": {
+     "ko": "좋은 에세이는 세 부분으로 이루어집니다. 서론에서는 주제를 소개합니다. 본론에서는 각 단락마다 하나의 논점을 다룹니다. 결론에서는 요점을 요약하고 자신의 의견을 다시 말합니다.",
+     "en": "A good essay has three parts. In the introduction you present the topic. In the body each paragraph deals with one argument. In the conclusion you sum up the main points and restate your opinion."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "まず",
+       "最後に",
+       "以上"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "例えば",
+       "要するに",
+       "ところで"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "以上",
+       "最初",
+       "次"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "エッセイの例\n私は学校の給食を無料にすべきだと考えます。ある調査によると、昼食を抜く生徒は学習能力が下がります。確かに、費用が大きいという反論もあります。しかし、長い目で見れば、教育への投資として価値があります。以上のことから、無料給食は公平な教育の出発点だと考えます。",
+    "trans": {
+     "ko": "에세이 예시\n오늘날 많은 사람이 소셜 미디어를 사용합니다. 첫째로 소셜 미디어는 사람들을 연결해 줍니다. 둘째로 정보를 빠르게 공유할 수 있습니다. 그러나 개인 정보 문제도 있습니다. 결론적으로 장점이 단점보다 큽니다.",
+     "en": "SAMPLE ESSAY\nToday many people use social media. Firstly, it connects people. Secondly, information can be shared quickly. However, there are privacy problems too. In conclusion, the advantages outweigh the disadvantages."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "筆者の主張は何ですか。",
+      "options": [
+       "給食を無料にすべきだ",
+       "給食をやめるべきだ",
+       "給食を高くすべきだ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "どんな反論がありますか。",
+      "options": [
+       "費用が大きい",
+       "味が悪い",
+       "時間がかかる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ミンスさんはエッセイを書いて、先生に見せました。先生は、論理はいいが反論が足りないと言いました。ミンスさんは、下書きを直すことにしました。",
+    "trans": {
+     "ko": "지민은 에세이를 쓸 때 먼저 개요를 만들어요. 그다음 각 단락의 주제문을 정해요. 마지막으로 다시 읽으며 오류를 고쳐요.",
+     "en": "When Jimin writes an essay she first makes an outline. Then she decides the topic sentence for each paragraph. Finally she reads it again and corrects errors."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ミンスさんはエッセイを先生に見せました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "先生はエッセイが完璧だと言いました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "エッセイのテーマは旅行です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "エッセイはどう始めればいいですか。",
+    "read": "エッセイはどうはじめればいいですか。",
+    "ko": "에세이는 어떻게 시작해야 해요?",
+    "en": "How should an essay begin?",
+    "situation": {
+     "ko": "구조를 물을 때",
+     "en": "Asking about structure"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "序論でテーマを紹介して、主張を述べます。",
+    "read": "じょろんでテーマをしょうかいして、しゅちょうをのべます。",
+    "ko": "서론에서 주제를 소개하고 논제를 쓰세요.",
+    "en": "Introduce the topic and state your thesis in the introduction.",
+    "situation": {
+     "ko": "서론을 쓸 때",
+     "en": "Writing an introduction"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "各段落は主題文で始めます。",
+    "read": "かくだんらくはしゅだいぶんではじめます。",
+    "ko": "각 단락은 주제문으로 시작해요.",
+    "en": "Each paragraph begins with a topic sentence.",
+    "situation": {
+     "ko": "단락을 구성할 때",
+     "en": "Building a paragraph"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "まず、費用を見てみましょう。",
+    "read": "まず、ひようをみてみましょう。",
+    "ko": "첫째로 비용을 살펴보겠습니다.",
+    "en": "Firstly, let us look at the cost.",
+    "situation": {
+     "ko": "순서를 나타낼 때",
+     "en": "Ordering points"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "さらに、この方法は安全です。",
+    "read": "さらに、このほうほうはあんぜんです。",
+    "ko": "게다가 그 방법은 안전해요.",
+    "en": "Moreover, the method is safe.",
+    "situation": {
+     "ko": "점을 추가할 때",
+     "en": "Adding a point"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "例を挙げて、主張を裏づけます。",
+    "read": "れいをあげて、しゅちょうをうらづけます。",
+    "ko": "예시로 주장을 뒷받침하세요.",
+    "en": "Support your claim with examples.",
+    "situation": {
+     "ko": "근거를 들 때",
+     "en": "Giving evidence"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "以上のことから、この計画は実行できます。",
+    "read": "いじょうのことから、このけいかくはじっこうできます。",
+    "ko": "요약하면 그 계획은 실현 가능해요.",
+    "en": "To sum up, the plan is feasible.",
+    "situation": {
+     "ko": "결론을 쓸 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "最後に、読み直して直します。",
+    "read": "さいごに、よみなおしてなおします。",
+    "ko": "마지막으로 다시 읽고 고치세요.",
+    "en": "Finally, read it again and correct it.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Finishing"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "まず、〜。次に、〜。最後に、〜。",
+    "read": "まず、〜。つぎに、〜。さいごに、〜。",
+    "ko": "첫째로, 둘째로 …",
+    "en": "Firstly, … Secondly, … Finally, …"
+   },
+   {
+    "id": "w2",
+    "t": "さらに、〜。",
+    "read": "さらに、〜。",
+    "ko": "게다가 / 또한",
+    "en": "Moreover, / In addition, / Furthermore, …"
+   },
+   {
+    "id": "w3",
+    "t": "例えば、〜。",
+    "read": "たとえば、〜。",
+    "ko": "예를 들어",
+    "en": "For example, / For instance, …"
+   },
+   {
+    "id": "w4",
+    "t": "以上のことから、〜。",
+    "read": "いじょうのことから、〜。",
+    "ko": "요약하면",
+    "en": "To sum up, / In conclusion, …"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "‘교복은 필요한가?’에 대한 에세이의 서론, 본론 한 단락, 결론을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences: an introduction, one body paragraph and a conclusion for the essay 'Are school uniforms necessary?'"
+   },
+   "must_include": [
+    {
+     "label": "まず",
+     "match": [
+      "まず"
+     ]
+    },
+    {
+     "label": "例えば",
+     "match": [
+      "例えば"
+     ]
+    },
+    {
+     "label": "以上のことから",
+     "match": [
+      "以上のことから"
+     ]
+    }
+   ],
+   "model": "制服は多くの学校で長い伝統があります。まず、制服は生徒間の格差を減らします。例えば、高い服を着る必要がありません。以上のことから、私は制服が必要だと考えます。",
+   "model_trans": {
+    "ko": "교복은 많은 학교에서 오랫동안 이어져 온 제도입니다. 첫째로 교복은 학생들 사이의 불평등을 줄여 줍니다. 예를 들어 비싼 옷을 입을 필요가 없습니다. 요약하면 저는 교복이 필요하다고 생각합니다.",
+    "en": "School uniforms have been a long tradition in many schools. Firstly, uniforms reduce inequality between students. For example, nobody needs to wear expensive clothes. To sum up, I believe uniforms are necessary."
+   }
+  }
+ }
+}

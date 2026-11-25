@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u18",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 18,
+  "concept": "B2.U18",
+  "status": "live",
+  "title": {
+   "target": "やわらかい言い方",
+   "ko": "완곡하게 말하기",
+   "en": "Hedging and tentative language"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "〜ようだ",
+   "pos": "verb",
+   "read": "〜ようだ",
+   "ko": "~인 것 같다",
+   "en": "seem",
+   "ex": {
+    "t": "計画に問題があるようです。",
+    "read": "けいかくにもんだいがあるようです。",
+    "ko": "그 계획에는 문제가 있는 것 같아요.",
+    "en": "There seems to be a problem with the plan."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜がちだ",
+   "pos": "phrase",
+   "read": "〜がちだ",
+   "ko": "~하는 경향이 있다",
+   "en": "tend to",
+   "ex": {
+    "t": "人は変化を嫌がりがちです。",
+    "read": "にんはへんかをいやがりがちです。",
+    "ko": "사람들은 변화를 싫어하는 경향이 있어요.",
+    "en": "People tend to dislike change."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "たぶん",
+   "pos": "adv",
+   "read": "たぶん",
+   "ko": "아마",
+   "en": "probably",
+   "ex": {
+    "t": "明日はたぶん雨でしょう。",
+    "read": "あしたはたぶんあめでしょう。",
+    "ko": "아마 내일 비가 올 거예요.",
+    "en": "It will probably rain tomorrow."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "ある程度",
+   "pos": "phrase",
+   "read": "あるていど",
+   "ko": "어느 정도",
+   "en": "to some extent",
+   "ex": {
+    "t": "それはある程度本当です。",
+    "read": "それはあるていどほんとうです。",
+    "ko": "어느 정도는 맞는 말이에요.",
+    "en": "That is true to some extent."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "一般に",
+   "pos": "adv",
+   "read": "いっぱんに",
+   "ko": "일반적으로",
+   "en": "generally",
+   "ex": {
+    "t": "一般に、人は変化を好みません。",
+    "read": "いっぱんに、にんはへんかをこのみません。",
+    "ko": "일반적으로 그 방법이 효과적이에요.",
+    "en": "Generally, that method is effective."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "ちょっと",
+   "pos": "phrase",
+   "read": "ちょっと",
+   "ko": "약간",
+   "en": "a bit",
+   "ex": {
+    "t": "説明がちょっと難しかったです。",
+    "read": "せつめいがちょっとむずかしかったです。",
+    "ko": "그 설명은 약간 어려웠어요.",
+    "en": "The explanation was a bit difficult."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "〜かもしれない",
+   "pos": "verb",
+   "read": "〜かもしれない",
+   "ko": "~일지도 모른다",
+   "en": "might",
+   "ex": {
+    "t": "間違っているかもしれません。",
+    "read": "まちがっているかもしれません。",
+    "ko": "그가 이미 떠났을지도 몰라요.",
+    "en": "He might already have left."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "示唆する",
+   "pos": "verb",
+   "read": "しさする",
+   "ko": "~라고 생각하다",
+   "en": "suggest",
+   "ex": {
+    "t": "調査は問題があることを示唆しています。",
+    "read": "ちょうさはもんだいがあることをしさしています。",
+    "ko": "연구는 이 방법이 효과적임을 시사해요.",
+    "en": "Research suggests that this method is effective."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "〜と思われる",
+   "pos": "verb",
+   "read": "〜とおもわれる",
+   "ko": "제안하다",
+   "en": "suggest",
+   "ex": {
+    "t": "彼は忙しいと思われます。",
+    "read": "かれはいそがしいとおもわれます。",
+    "ko": "다른 방법을 제안드려도 될까요?",
+    "en": "May I suggest another way?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "自信がない",
+   "pos": "phrase",
+   "read": "じしんがない",
+   "ko": "확신하지 못하다",
+   "en": "be unsure",
+   "ex": {
+    "t": "答えには自信がありません。",
+    "read": "こたえにはじしんがありません。",
+    "ko": "저는 그 결과를 확신하지 못해요.",
+    "en": "I'm unsure about the result."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "婉曲表現：〜ようだ・〜がちだ・たぶん・ちょっと・〜ていただけないでしょうか",
+   "en": "Hedging: 〜ようだ / 〜がちだ / たぶん / ちょっと / 〜ていただけないでしょうか"
+  },
+  "explain": {
+   "ko": "日本語では、断定を避けてやわらかく言う表現がよく使われます。「〜ようです」「〜そうです」：「計画に問題があるようです。」傾向は「〜がちです」：「人は変化を嫌がりがちです。」可能性は「たぶん」「〜かもしれません」、程度は「ちょっと」「ある程度」、依頼は「〜ていただけないでしょうか」：「手伝っていただけないでしょうか。」断定しないことで、丁寧で控えめな印象になります。",
+   "en": "Japanese often softens statements. 「〜ようです／そうです」: 「計画に問題があるようです。」 Tendencies use 「〜がちです」: 「人は変化を嫌がりがちです。」 Possibility uses 「たぶん」「〜かもしれません」, degree 「ちょっと」「ある程度」, and requests 「〜ていただけないでしょうか」: 「手伝っていただけないでしょうか。」 Not asserting makes you sound polite and modest."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "様子 / Appearance",
+     "〜ようです",
+     "問題があるようです。"
+    ],
+    [
+     "傾向 / Tendency",
+     "〜がちです",
+     "変化を嫌がりがちです。"
+    ],
+    [
+     "可能性 / Possibility",
+     "たぶん・〜かもしれません",
+     "たぶん雨が降るでしょう。"
+    ],
+    [
+     "依頼 / Request",
+     "〜ていただけないでしょうか",
+     "手伝っていただけないでしょうか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「ちょっと」「少し」は、批判や断りをやわらげます。",
+    "en": "「ちょっと」 and 「少し」 soften criticism or refusal."
+   },
+   {
+    "ko": "「〜がちだ」は、よくない傾向について言うことが多いです。",
+    "en": "「〜がちだ」 is usually for undesirable tendencies."
+   },
+   {
+    "ko": "「〜ていただけないでしょうか」は、「〜てください」よりずっと丁寧です。",
+    "en": "「〜ていただけないでしょうか」 is far more polite than 「〜てください」."
+   }
+  ],
+  "examples": [
+   {
+    "t": "この計画には問題があるようです。",
+    "read": "このけいかくにはもんだいがあるようです。",
+    "ko": "그 계획에는 문제가 있는 것 같아요.",
+    "en": "There seems to be a problem with the plan."
+   },
+   {
+    "t": "人は変化を嫌がりがちです。",
+    "read": "にんはへんかをいやがりがちです。",
+    "ko": "사람들은 변화를 싫어하는 경향이 있어요.",
+    "en": "People tend to dislike change."
+   },
+   {
+    "t": "明日はたぶん雨が降るでしょう。",
+    "read": "あしたはたぶんあめがふるでしょう。",
+    "ko": "아마 내일 비가 올 거예요.",
+    "en": "It will probably rain tomorrow."
+   },
+   {
+    "t": "説明がちょっと難しかったです。",
+    "read": "せつめいがちょっとむずかしかったです。",
+    "ko": "그 설명은 약간 어려웠어요.",
+    "en": "The explanation was a bit difficult."
+   },
+   {
+    "t": "手伝っていただけないでしょうか。",
+    "read": "てつだっていただけないでしょうか。",
+    "ko": "도와주실 수 있는지 궁금해서요.",
+    "en": "I was wondering if you could help me."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "この計画には問題がある___です。",
+    "options": [
+     "よう",
+     "ところ",
+     "はず"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "人は変化を嫌がり___です。",
+    "options": [
+     "がち",
+     "そう",
+     "すぎ"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "明日は___雨でしょう。",
+    "options": [
+     "たぶん",
+     "決して",
+     "必ず"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "手伝って___ないでしょうか。",
+    "options": [
+     "いただけ",
+     "あげられ",
+     "くれ"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この計画についてどう思いますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 계획에 대해 어떻게 생각하세요?",
+     "en": "(Question) What do you think of this plan?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "問題があるようです。",
+       "来週です。",
+       "三人です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "その説明はどうでしたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 도움을 요청할 때 어떻게 말하면 좋을까요?",
+     "en": "(Question) How can I ask for help politely?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "ちょっと難しかったです。",
+       "昨日です。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この企画、どう思う？"
+      },
+      {
+       "s": "B",
+       "t": "いい点がいくつかあるようだね。でも、費用はちょっと高いかもしれない。"
+      },
+      {
+       "s": "A",
+       "t": "たしかに。"
+      },
+      {
+       "s": "B",
+       "t": "まず小さい規模で試してみてはどうかな。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 계획에 대해 어떻게 생각해?\nB: 좋은 점이 몇 가지 있는 것 같아. 다만 비용이 약간 높을 수도 있어.\nA: 그럼 어떻게 하면 좋을까?\nB: 먼저 작게 시험해 보는 것은 어떨까?",
+     "en": "A: What do you think about this plan?\nB: There seem to be a few good points. However, the cost might be a bit high.\nA: What should we do?\nB: How about trying it on a small scale first?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女の人は費用をどう思っていますか。",
+      "options": [
+       "ちょっと高いかもしれない",
+       "とても安い",
+       "ちょうどいい"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新しい方法は、人は変化を嫌がりがちなので、たぶん説明が必要でしょう。ある程度の時間もかかるようです。でも、うまくいけば効果は大きいと思われます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "연구에 따르면 사람들은 새로운 방식을 싫어하는 경향이 있는 것으로 보입니다. 아마 처음에는 불편함을 느낄 수 있습니다. 하지만 일반적으로 두세 달이 지나면 대부분 적응하는 것 같습니다.",
+     "en": "Research suggests that people tend to dislike new methods. They may feel uncomfortable at first. However, generally most people appear to adapt after two or three months."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "人は変化に対してどうしがちですか。",
+      "options": [
+       "嫌がりがち",
+       "喜びがち",
+       "忘れがち"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "事務室です。"
+      },
+      {
+       "s": "B",
+       "t": "この書類をもう一度見ていただけないでしょうか。"
+      },
+      {
+       "s": "A",
+       "t": "もちろんです。何か問題がありますか。"
+      },
+      {
+       "s": "B",
+       "t": "数字が少し間違っているようです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "손님: 사무실입니다.\n직원: 저는 이 서류를 다시 검토해 주실 수 있는지 궁금해서요.\n손님: 물론입니다. 어떤 부분이 문제인가요?\n직원: 숫자가 약간 틀린 것 같아요.",
+     "en": "Staff: Office.\nColleague: I was wondering if you could review this document again.\nStaff: Of course. What seems to be the problem?\nColleague: The figures seem to be a bit wrong."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "もう一度見てほしいのは______です",
+      "answers": [
+       "書類"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______が少し間違っているようです",
+      "answers": [
+       "数字"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) この計画には問題がある___です。\n2) 人は変化を嫌がり___です。\n3) 手伝って___ないでしょうか。",
+    "trans": {
+     "ko": "1) 그 계획에는 문제가 있는 것 같아요. 2) 사람들은 변화를 싫어하는 경향이 있어요. 3) 아마 내일 비가 올 거예요.",
+     "en": "1) There seems to be a problem with the plan. 2) People tend to dislike change. 3) It will probably rain tomorrow."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この計画には問題がある___です。",
+      "options": [
+       "よう",
+       "ところ",
+       "はず"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "人は変化を嫌がり___です。",
+      "options": [
+       "がち",
+       "そう",
+       "すぎ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "手伝って___ないでしょうか。",
+      "options": [
+       "いただけ",
+       "あげられ",
+       "くれ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "このアイデアには、いい点がいくつか(1)ようです。ただ、費用が少し高い(2)。利用者は新しい方法を嫌がりがちなので、(3)説明が必要でしょう。",
+    "trans": {
+     "ko": "연구에 따르면 사람들은 새로운 방식을 싫어하는 경향이 있는 것으로 보입니다. 아마 처음에는 불편함을 느낄 수 있습니다. 하지만 일반적으로 두세 달이 지나면 대부분 적응하는 것 같습니다.",
+     "en": "Research suggests that people tend to dislike new methods. They may feel uncomfortable at first. However, generally most people appear to adapt after two or three months."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "ある",
+       "ない",
+       "あった"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "かもしれません",
+       "ことがありません",
+       "はずがありません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "たぶん",
+       "決して",
+       "もう"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "読者の意見\nこの町の交通について、少し考えてみました。バスは便利なようですが、本数がちょっと少ない気がします。人は新しい制度に慣れるまで、不満を言いがちです。それでも、ある程度の改善は期待できるのではないでしょうか。",
+    "trans": {
+     "ko": "이메일\n안녕하세요. 지난주 보고서를 검토했는데 몇 가지 숫자가 약간 틀린 것 같습니다. 제가 잘못 보았을 수도 있지만 다시 확인해 주실 수 있을지 궁금합니다. 시간이 되실 때 알려 주세요.",
+     "en": "EMAIL\nHello. I reviewed last week's report and some of the figures seem to be a bit wrong. I may have misread them, but I was wondering if you could check again. Please let me know when you have time."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "筆者はバスをどう思っていますか。",
+      "options": [
+       "便利だが本数が少ない",
+       "とても高い",
+       "遅い"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "人は新しい制度についてどうなりがちですか。",
+      "options": [
+       "不満を言いがち",
+       "喜びがち",
+       "忘れがち"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ミンさんは新しい仕事を始めたばかりで、自信がないようです。でも先輩は、はじめは誰でもそうなりがちだと言いました。ミンさんは、少しずつ慣れていくつもりです。",
+    "trans": {
+     "ko": "민호는 새 계획이 좋은 것 같다고 말했어요. 하지만 비용이 약간 높을지도 모른다고 덧붙였어요. 그는 먼저 작게 시험해 보자고 제안했어요.",
+     "en": "Minho said the new plan seemed good. But he added that the cost might be a bit high. He suggested trying it on a small scale first."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ミンさんは新しい仕事を始めました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ミンさんは仕事にとても自信があります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ミンさんの先輩は男性です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "この計画についてどう思いますか。",
+    "read": "このけいかくについてどうおもいますか。",
+    "ko": "이 계획에 대해 어떻게 생각하세요?",
+    "en": "What do you think of this plan?",
+    "situation": {
+     "ko": "의견을 물을 때",
+     "en": "Asking for an opinion"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "この計画には問題があるようです。",
+    "read": "このけいかくにはもんだいがあるようです。",
+    "ko": "그 계획에는 문제가 있는 것 같아요.",
+    "en": "There seems to be a problem with the plan.",
+    "situation": {
+     "ko": "부드럽게 문제를 말할 때",
+     "en": "Raising a problem gently"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "人は変化を嫌がりがちです。",
+    "read": "にんはへんかをいやがりがちです。",
+    "ko": "사람들은 변화를 싫어하는 경향이 있어요.",
+    "en": "People tend to dislike change.",
+    "situation": {
+     "ko": "일반화할 때",
+     "en": "Making a generalisation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "明日はたぶん雨が降るでしょう。",
+    "read": "あしたはたぶんあめがふるでしょう。",
+    "ko": "아마 내일 비가 올 거예요.",
+    "en": "It will probably rain tomorrow.",
+    "situation": {
+     "ko": "확실하지 않을 때",
+     "en": "Showing uncertainty"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "説明がちょっと難しかったです。",
+    "read": "せつめいがちょっとむずかしかったです。",
+    "ko": "그 설명은 약간 어려웠어요.",
+    "en": "The explanation was a bit difficult.",
+    "situation": {
+     "ko": "비판을 완화할 때",
+     "en": "Softening criticism"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "手伝っていただけないでしょうか。",
+    "read": "てつだっていただけないでしょうか。",
+    "ko": "도와주실 수 있는지 궁금해서요.",
+    "en": "I was wondering if you could help me.",
+    "situation": {
+     "ko": "정중하게 부탁할 때",
+     "en": "A polite request"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "それはある程度本当です。",
+    "read": "それはあるていどほんとうです。",
+    "ko": "어느 정도는 맞는 말이에요.",
+    "en": "That is true to some extent.",
+    "situation": {
+     "ko": "부분적으로 동의할 때",
+     "en": "Partial agreement"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "間違っているかもしれませんが、そう思います。",
+    "read": "まちがっているかもしれませんが、そうおもいます。",
+    "ko": "제가 틀릴 수도 있지만 이렇게 생각해요.",
+    "en": "I may be wrong, but I think so.",
+    "situation": {
+     "ko": "의견을 내놓을 때",
+     "en": "Giving an opinion tentatively"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜ようです。",
+    "read": "〜ようです。",
+    "ko": "~인 것 같다.",
+    "en": "It seems / appears that … / S + seems to + verb."
+   },
+   {
+    "id": "w2",
+    "t": "〜がちです。",
+    "read": "〜がちです。",
+    "ko": "~하는 경향이 있다.",
+    "en": "S + tends to + verb."
+   },
+   {
+    "id": "w3",
+    "t": "たぶん〜でしょう。",
+    "read": "たぶん〜でしょう。",
+    "ko": "아마 ~일 것이다.",
+    "en": "S + will probably / may well + verb."
+   },
+   {
+    "id": "w4",
+    "t": "〜ていただけないでしょうか。",
+    "read": "〜ていただけないでしょうか。",
+    "ko": "~해 주실 수 있을까요?",
+    "en": "I was wondering if you could …"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "완곡 표현을 사용해 동료의 아이디어에 의견을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences giving your view on a colleague's idea, using hedging language."
+   },
+   "must_include": [
+    {
+     "label": "ようです",
+     "match": [
+      "あるようです"
+     ]
+    },
+    {
+     "label": "かもしれません",
+     "match": [
+      "かもしれません"
+     ]
+    },
+    {
+     "label": "がち",
+     "match": [
+      "嫌がりがち"
+     ]
+    }
+   ],
+   "model": "このアイデアには、いい点がいくつかあるようです。ただ、費用が少し高いかもしれません。利用者は新しい方法を嫌がりがちなので、たぶん説明が必要でしょう。まず小さい規模で試してみてはどうでしょうか。",
+   "model_trans": {
+    "ko": "그 아이디어에는 몇 가지 좋은 점이 있는 것 같아요. 다만 비용이 약간 높을 수 있어요. 사용자들은 새 방식을 싫어하는 경향이 있으니 아마 설명이 필요할 거예요. 먼저 작게 시험해 보는 것은 어떨까요?",
+    "en": "There seem to be a few good points in the idea. However, the cost might be a bit high. Users tend to dislike new methods, so some explanation will probably be needed. How about trying it on a small scale first?"
+   }
+  }
+ }
+}

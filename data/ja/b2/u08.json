@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u08",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 8,
+  "concept": "B2.U08",
+  "status": "live",
+  "title": {
+   "target": "〜て、〜ながら",
+   "ko": "분사 구문",
+   "en": "Participle clauses"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "到着する",
+   "pos": "verb",
+   "read": "とうちゃくする",
+   "ko": "도착하다",
+   "en": "arrive",
+   "ex": {
+    "t": "駅に到着してから電話します。",
+    "read": "えきにとうちゃくしてからでんわします。",
+    "ko": "역에 도착했을 때 비가 오고 있었어요.",
+    "en": "When we arrived at the station, it was raining."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "待つ",
+   "pos": "verb",
+   "read": "まつ",
+   "ko": "기다리다",
+   "en": "wait",
+   "ex": {
+    "t": "バスを待ちながら本を読みました。",
+    "read": "バスをまちながらほんをよみました。",
+    "ko": "그녀는 버스를 기다리면서 책을 읽었어요.",
+    "en": "While waiting for the bus, she read a book."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "終える",
+   "pos": "verb",
+   "read": "おえる",
+   "ko": "끝내다",
+   "en": "finish",
+   "ex": {
+    "t": "仕事を終えて、家に帰りました。",
+    "read": "しごとをおえて、いえにかえりました。",
+    "ko": "일을 끝낸 뒤에 그는 집으로 갔어요.",
+    "en": "Having finished his work, he went home."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "疲れ果てる",
+   "pos": "adj",
+   "read": "つかれはてる",
+   "ko": "피곤해서",
+   "en": "exhausted",
+   "ex": {
+    "t": "疲れ果てて、早く寝ました。",
+    "read": "つかれはてて、はやくねました。",
+    "ko": "피곤해서 그는 일찍 잠들었어요.",
+    "en": "Exhausted, he fell asleep early."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "気づく",
+   "pos": "verb",
+   "read": "きづく",
+   "ko": "알아차리다",
+   "en": "notice",
+   "ex": {
+    "t": "彼が来ていないことに気づきました。",
+    "read": "かれがきていないことにきづきました。",
+    "ko": "그는 문이 열려 있는 것을 알아차렸어요.",
+    "en": "He noticed that the door was open."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "驚く",
+   "pos": "adj",
+   "read": "おどろく",
+   "ko": "놀란",
+   "en": "startled",
+   "ex": {
+    "t": "驚いて、悲鳴をあげました。",
+    "read": "おどろいて、ひめいをあげました。",
+    "ko": "놀란 그녀는 소리를 질렀어요.",
+    "en": "Startled, she screamed."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "決める",
+   "pos": "verb",
+   "read": "きめる",
+   "ko": "결정하다",
+   "en": "decide",
+   "ex": {
+    "t": "行くことに決めました。",
+    "read": "いくことにきめました。",
+    "ko": "여행을 가기로 결정한 후 표를 샀어요.",
+    "en": "Having decided to travel, I bought a ticket."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "理由",
+   "pos": "noun",
+   "read": "りゆう",
+   "ko": "이유",
+   "en": "reason",
+   "ex": {
+    "t": "理由が分からず、帰りました。",
+    "read": "りゆうがわからず、かえりました。",
+    "ko": "이유를 모른 채 그는 떠났어요.",
+    "en": "Not knowing the reason, he left."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "同時に",
+   "pos": "phrase",
+   "read": "どうじに",
+   "ko": "동시에",
+   "en": "at the same time",
+   "ex": {
+    "t": "歌いながら同時に踊りました。",
+    "read": "うたいながらどうじにおどりました。",
+    "ko": "그는 동시에 두 가지 일을 했어요.",
+    "en": "He did two things at the same time."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "あきらめる",
+   "pos": "phrase",
+   "read": "あきらめる",
+   "ko": "포기하다",
+   "en": "give up",
+   "ex": {
+    "t": "試験の前にあきらめました。",
+    "read": "しけんのまえにあきらめました。",
+    "ko": "그는 포기하지 않고 계속했어요.",
+    "en": "He kept going without giving up."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "連用形と分詞的な言い方：〜て、〜・〜ながら・〜たまま・〜たので",
+   "en": "Participial constructions: 〜て、〜 / 〜ながら / 〜たまま / 〜ので"
+  },
+  "explain": {
+   "ko": "文を「て形」でつなぐと、前の動作が先に、または同時に起きたことを表します：「仕事を終えて、家に帰りました。」同時進行は「〜ながら」：「バスを待ちながら本を読みました。」理由を表すときは「〜て」や「〜ので」：「疲れ果てて、早く寝ました。」否定は「〜ないで／〜ず」：「理由が分からず、帰りました。」状態を保つときは「〜たまま」：「窓を開けたまま寝ました。」",
+   "en": "Linking with the te-form shows sequence or simultaneity: 「仕事を終えて、家に帰りました。」 Simultaneous actions use 「〜ながら」: 「バスを待ちながら本を読みました。」 Reasons use 「〜て」 or 「〜ので」: 「疲れ果てて、早く寝ました。」 Negatives use 「〜ないで／〜ず」: 「理由が分からず、帰りました。」 A continuing state uses 「〜たまま」: 「窓を開けたまま寝ました。」"
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "順序 / Sequence",
+     "〜て、〜",
+     "仕事を終えて、家に帰りました。"
+    ],
+    [
+     "同時 / Simultaneous",
+     "〜ながら",
+     "待ちながら本を読みました。"
+    ],
+    [
+     "理由 / Reason",
+     "〜て・〜ので",
+     "疲れ果てて、早く寝ました。"
+    ],
+    [
+     "否定 / Negative",
+     "〜ず・〜ないで",
+     "理由が分からず、帰りました。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜ながら」の主語は同じで、後ろの動作が主な動作です。",
+    "en": "With 「〜ながら」 the subject is the same, and the second verb is the main action."
+   },
+   {
+    "ko": "「〜ず」は書き言葉的で、「する」は「せず」になります。",
+    "en": "「〜ず」 is more literary; する becomes せず."
+   },
+   {
+    "ko": "「〜たまま」は、本来は変えるはずの状態がそのままのときに使います。",
+    "en": "「〜たまま」 is for a state left unchanged when it normally would change."
+   }
+  ],
+  "examples": [
+   {
+    "t": "バスを待ちながら、彼女は本を読みました。",
+    "read": "バスをまちながら、かのじょはほんをよみました。",
+    "ko": "버스를 기다리면서 그녀는 책을 읽었어요.",
+    "en": "While waiting for the bus, she read a book."
+   },
+   {
+    "t": "仕事を終えて、彼は家に帰りました。",
+    "read": "しごとをおえて、かれはいえにかえりました。",
+    "ko": "일을 끝낸 뒤에 그는 집으로 갔어요.",
+    "en": "Having finished his work, he went home."
+   },
+   {
+    "t": "疲れ果てて、彼は早く寝ました。",
+    "read": "つかれはてて、かれははやくねました。",
+    "ko": "피곤해서 그는 일찍 잠들었어요.",
+    "en": "Exhausted, he fell asleep early."
+   },
+   {
+    "t": "理由が分からず、彼は帰りました。",
+    "read": "りゆうがわからず、かれはかえりました。",
+    "ko": "이유를 모른 채 그는 떠났어요.",
+    "en": "Not knowing the reason, he left."
+   },
+   {
+    "t": "驚いて、彼女は悲鳴をあげました。",
+    "read": "おどろいて、かのじょはひめいをあげました。",
+    "ko": "놀란 그녀는 소리를 질렀어요.",
+    "en": "Startled, she screamed."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "バスを待ち___、彼女は本を読みました。",
+    "options": [
+     "ながら",
+     "たまま",
+     "ので"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "仕事を終え___、彼は家に帰りました。",
+    "options": [
+     "て",
+     "ず",
+     "ながら"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "疲れ果て___、彼は早く寝ました。",
+    "options": [
+     "て",
+     "ながら",
+     "ず"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "理由が分から___、彼は帰りました。",
+    "options": [
+     "ず",
+     "て",
+     "ながら"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "仕事のあと、何をしましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 퇴근 후에 뭘 했어요?",
+     "en": "(Question) What did you do after work?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "仕事を終えて、友達に会いました。",
+       "来週です。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どうしてそんなに早く寝たのですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 그렇게 일찍 잠들었어요?",
+     "en": "(Question) Why did you fall asleep so early?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "疲れ果てて、早く寝ました。",
+       "昨日買いました。",
+       "三人で行きました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日はどうだった？"
+      },
+      {
+       "s": "B",
+       "t": "仕事を終えて、友達に会ったよ。時間が分からず、一時間早く着いちゃった。"
+      },
+      {
+       "s": "A",
+       "t": "その間、何をしていたの？"
+      },
+      {
+       "s": "B",
+       "t": "カフェで本を読みながら待っていたよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 어땠어?\nB: 일을 끝낸 뒤에 친구를 만났어. 약속 시간을 몰라서 한 시간 일찍 도착했지.\nA: 그동안 뭐 했어?\nB: 카페에서 책을 읽으면서 기다렸어.",
+     "en": "A: How was yesterday?\nB: Having finished my work, I met a friend. Not knowing the time, I arrived an hour early.\nA: What did you do meanwhile?\nB: I waited in a café, reading a book."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人はなぜ早く着きましたか。",
+      "options": [
+       "時間が分からなかったから",
+       "道が空いていたから",
+       "急いでいたから"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "先週、駅でバスを待っていました。突然、男の人が走ってきて、驚いた顔で立ち止まりました。財布をなくしたと言うのです。話を聞いて、私たちは一緒に探すことにしました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "지난주에 저는 역에서 버스를 기다리고 있었어요. 갑자기 한 남자가 달려와서 놀란 채로 서 있었어요. 그는 지갑을 잃어버렸다고 말했어요. 이야기를 들은 뒤 우리는 함께 찾아 주기로 했어요.",
+     "en": "Last week I was waiting for a bus at the station. Suddenly a man ran up and stood there, startled. He said he had lost his wallet. Having heard the story, we decided to help him look for it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "駅の男の人は何と言いましたか。",
+      "options": [
+       "財布をなくした",
+       "道に迷った",
+       "電車が遅れた"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "忘れ物センターです。"
+      },
+      {
+       "s": "B",
+       "t": "昨日、地下鉄で傘を忘れました。"
+      },
+      {
+       "s": "A",
+       "t": "どんな傘ですか。"
+      },
+      {
+       "s": "B",
+       "t": "青い傘です。眠くて、降りるときに置いたまま来たと思います。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 분실물 센터입니다.\n손님: 어제 지하철에서 우산을 잃어버렸어요.\n직원: 어떤 우산이에요?\n손님: 파란색이에요. 졸린 채로 내려서 두고 온 것 같아요.",
+     "en": "Staff: Lost property.\nGuest: I lost an umbrella on the subway yesterday.\nStaff: What kind of umbrella?\nGuest: A blue one. Feeling sleepy, I think I left it when I got off."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さんは______色の傘を忘れました",
+      "answers": [
+       "青"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "傘を忘れたのは______です",
+      "answers": [
+       "地下鉄"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) バスを待ち___、彼女は本を読みました。\n2) 仕事を終え___、彼は家に帰りました。\n3) 疲れ果て___、彼は早く寝ました。",
+    "trans": {
+     "ko": "1) 버스를 기다리면서 그녀는 책을 읽었어요. 2) 일을 끝낸 뒤에 그는 집으로 갔어요. 3) 피곤해서 그는 일찍 잠들었어요.",
+     "en": "1) While waiting for the bus, she read a book. 2) Having finished his work, he went home. 3) Exhausted, he fell asleep early."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "バスを待ち___、彼女は本を読みました。",
+      "options": [
+       "ながら",
+       "たまま",
+       "ので"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "仕事を終え___、彼は家に帰りました。",
+      "options": [
+       "て",
+       "ず",
+       "ながら"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "疲れ果て___、彼は早く寝ました。",
+      "options": [
+       "て",
+       "ながら",
+       "ず"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "先週、駅でバスを待っていました。突然、男の人が走ってきて、驚いた顔で(1)。財布をなくしたと言うのです。話を聞いて、私たちは(2)探すことにしました。(3)、すぐに見つかりました。",
+    "trans": {
+     "ko": "지난주에 저는 역에서 버스를 기다리고 있었어요. 갑자기 한 남자가 달려와서 놀란 채로 서 있었어요. 그는 지갑을 잃어버렸다고 말했어요. 이야기를 들은 뒤 우리는 함께 찾아 주기로 했어요.",
+     "en": "Last week I was waiting for a bus at the station. Suddenly a man ran up and stood there, startled. He said he had lost his wallet. Having heard the story, we decided to help him look for it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "立ち止まりました",
+       "座りました",
+       "笑いました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "一緒に",
+       "別々に",
+       "一人で"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "みんなで探して",
+       "探さないで",
+       "探したまま"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ブログ\n1990年に建てられたこの橋は、今も町の象徴です。毎日何千人もが川を見ながら渡ります。昨日、雨の中でこの橋を渡りながら、初めてここへ来た日のことを突然思い出しました。",
+    "trans": {
+     "ko": "블로그\n1990년에 지어진 이 다리는 지금도 도시의 상징이다. 매일 수천 명이 이 다리를 건너면서 강을 바라본다. 어제 비를 맞으며 다리를 건너던 나는 문득 처음 이곳에 온 날을 떠올렸다.",
+     "en": "BLOG\nBuilt in 1990, this bridge is still a symbol of the city. Every day thousands of people cross it, looking at the river. Yesterday, crossing the bridge in the rain, I suddenly remembered the day I first came here."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この橋はいつ建てられましたか。",
+      "options": [
+       "1990年",
+       "去年",
+       "百年前"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "筆者は橋を渡りながら何を思い出しましたか。",
+      "options": [
+       "初めて来た日",
+       "子どものころの家",
+       "昨日のニュース"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ミンスさんは試験を終えて、まっすぐ家に帰りました。疲れ果てて、すぐ眠ってしまいました。翌朝、目が覚めると、結果が気になりました。",
+    "trans": {
+     "ko": "민수는 시험을 끝낸 뒤에 곧바로 집에 갔어요. 피곤한 채로 곧 잠들었어요. 다음 날 아침에 일어난 그는 결과가 궁금해졌어요.",
+     "en": "Minsu went straight home having finished the exam. Exhausted, he soon fell asleep. Waking up the next morning, he became curious about the result."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ミンスさんは試験のあと家に帰りました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ミンスさんは試験のあと友達と遊びました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ミンスさんは高校生です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "仕事のあと、何をしましたか。",
+    "read": "しごとのあと、なにをしましたか。",
+    "ko": "퇴근 후에 뭘 했어요?",
+    "en": "What did you do after work?",
+    "situation": {
+     "ko": "순서를 물을 때",
+     "en": "Asking about a sequence"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "仕事を終えて、彼は家に帰りました。",
+    "read": "しごとをおえて、かれはいえにかえりました。",
+    "ko": "일을 끝낸 뒤에 그는 집으로 갔어요.",
+    "en": "Having finished his work, he went home.",
+    "situation": {
+     "ko": "앞선 행동을 말할 때",
+     "en": "Describing an earlier action"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "バスを待ちながら、彼女は本を読みました。",
+    "read": "バスをまちながら、かのじょはほんをよみました。",
+    "ko": "버스를 기다리면서 그녀는 책을 읽었어요.",
+    "en": "While waiting for the bus, she read a book.",
+    "situation": {
+     "ko": "동시 동작을 말할 때",
+     "en": "Two actions at once"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "疲れ果てて、彼は早く寝ました。",
+    "read": "つかれはてて、かれははやくねました。",
+    "ko": "피곤해서 그는 일찍 잠들었어요.",
+    "en": "Exhausted, he fell asleep early.",
+    "situation": {
+     "ko": "이유를 말할 때",
+     "en": "Giving a reason"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "理由が分からず、彼は帰りました。",
+    "read": "りゆうがわからず、かれはかえりました。",
+    "ko": "이유를 모른 채 그는 떠났어요.",
+    "en": "Not knowing the reason, he left.",
+    "situation": {
+     "ko": "부정 분사구문",
+     "en": "A negative participle clause"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "1990年に建てられたこの本は、今も人気です。",
+    "read": "1990ねんにたてられたこのほんは、いまもひときです。",
+    "ko": "그 책은 1990년에 쓰여서 아직도 인기가 많아요.",
+    "en": "Written in 1990, the book is still popular.",
+    "situation": {
+     "ko": "수동의 분사구문",
+     "en": "A passive participle clause"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "話を聞いて、彼女は泣き出しました。",
+    "read": "はなしをきいて、かのじょはなきだしました。",
+    "ko": "알고 있는 대로 말씀드리겠습니다.",
+    "en": "Knowing what I know, let me explain.",
+    "situation": {
+     "ko": "정보를 줄 때",
+     "en": "Offering information"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "この事情を知っているので、説明します。",
+    "read": "このじじょうをしっているので、せつめいします。",
+    "ko": "그 이야기를 들은 뒤 그녀는 울기 시작했어요.",
+    "en": "Having heard the story, she began to cry.",
+    "situation": {
+     "ko": "이야기를 전할 때",
+     "en": "Telling a story"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜て、〜。",
+    "read": "〜て、〜。",
+    "ko": "~하면서 / ~하고서",
+    "en": "-ing clause, main clause."
+   },
+   {
+    "id": "w2",
+    "t": "〜ながら、〜。",
+    "read": "〜ながら、〜。",
+    "ko": "~한 뒤에",
+    "en": "Having + p.p., main clause."
+   },
+   {
+    "id": "w3",
+    "t": "〜ず、〜。",
+    "read": "〜ず、〜。",
+    "ko": "~때문에 (수동)",
+    "en": "Past participle, main clause."
+   },
+   {
+    "id": "w4",
+    "t": "〜たまま、〜。",
+    "read": "〜たまま、〜。",
+    "ko": "~하지 않아서",
+    "en": "Not + -ing, main clause."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "분사 구문을 사용해 어떤 하루의 일을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about a day, using participle clauses."
+   },
+   "must_include": [
+    {
+     "label": "て、",
+     "match": [
+      "終えて"
+     ]
+    },
+    {
+     "label": "ながら",
+     "match": [
+      "ながら"
+     ]
+    },
+    {
+     "label": "ず",
+     "match": [
+      "分からず"
+     ]
+    }
+   ],
+   "model": "早く起きて、コーヒーを飲みながら新聞を読みました。仕事を終えて、友達に会いに行きました。約束の時間が分からず、一時間早く着きました。疲れ果てても、うれしい一日でした。",
+   "model_trans": {
+    "ko": "아침 일찍 일어난 나는 커피를 마시면서 신문을 읽었어요. 일을 끝낸 뒤에 친구를 만나러 갔어요. 약속 시간을 몰라서 한 시간 일찍 도착했어요. 피곤했지만 즐거운 하루였어요.",
+    "en": "Having got up early, I read the newspaper while drinking coffee. Having finished my work, I went to meet a friend. Not knowing the time of the appointment, I arrived an hour early. Exhausted but happy, I ended the day."
+   }
+  }
+ }
+}

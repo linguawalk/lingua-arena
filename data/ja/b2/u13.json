@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u13",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 13,
+  "concept": "B2.U13",
+  "status": "live",
+  "title": {
+   "target": "数と量を表す言葉",
+   "ko": "관사와 한정사 심화",
+   "en": "Articles and determiners"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "情報",
+   "pos": "noun",
+   "read": "じょうほう",
+   "ko": "정보",
+   "en": "information",
+   "ex": {
+    "t": "インターネットで情報を調べました。",
+    "read": "インターネットでじょうほうをしらべました。",
+    "ko": "그 웹사이트에는 유용한 정보가 많아요.",
+    "en": "The website has a lot of useful information."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "助言",
+   "pos": "noun",
+   "read": "じょげん",
+   "ko": "조언",
+   "en": "advice",
+   "ex": {
+    "t": "先生が助言をくれました。",
+    "read": "せんせいがじょげんをくれました。",
+    "ko": "조언을 하나 드릴게요.",
+    "en": "Let me give you a piece of advice."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "家具",
+   "pos": "noun",
+   "read": "かぐ",
+   "ko": "가구",
+   "en": "furniture",
+   "ex": {
+    "t": "新しい家具を買いました。",
+    "read": "あたらしいかぐをかいました。",
+    "ko": "새 가구를 샀어요.",
+    "en": "We bought some new furniture."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "知らせ",
+   "pos": "noun",
+   "read": "しらせ",
+   "ko": "뉴스",
+   "en": "news",
+   "ex": {
+    "t": "いい知らせがあります。",
+    "read": "いいしらせがあります。",
+    "ko": "좋은 소식이 있어요.",
+    "en": "I have some good news."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "それぞれ",
+   "pos": "det",
+   "read": "それぞれ",
+   "ko": "각각의",
+   "en": "each",
+   "ex": {
+    "t": "それぞれの部屋に必要なものが違います。",
+    "read": "それぞれのへやにひつようなものがちがいます。",
+    "ko": "각 학생은 책을 한 권씩 받았어요.",
+    "en": "Each student received a book."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "どの〜も",
+   "pos": "det",
+   "read": "どの〜も",
+   "ko": "모든",
+   "en": "every",
+   "ex": {
+    "t": "どの学生も合格しました。",
+    "read": "どのがくせいもごうかくしました。",
+    "ko": "모든 사람이 그 소식을 들었어요.",
+    "en": "Everyone has heard the news."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "ほとんど〜ない",
+   "pos": "phrase",
+   "read": "ほとんど〜ない",
+   "ko": "거의 없는",
+   "en": "hardly any",
+   "ex": {
+    "t": "時間がほとんど残っていません。",
+    "read": "じかんがほとんどのこっていません。",
+    "ko": "남은 시간이 거의 없어요.",
+    "en": "There is hardly any time left."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "十分な",
+   "pos": "det",
+   "read": "じゅうぶんな",
+   "ko": "충분한",
+   "en": "enough",
+   "ex": {
+    "t": "お金が十分ではありません。",
+    "read": "おきんがじゅうぶんではありません。",
+    "ko": "충분한 돈이 없어요.",
+    "en": "I don't have enough money."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "両方",
+   "pos": "det",
+   "read": "りょうほう",
+   "ko": "둘 다",
+   "en": "both",
+   "ex": {
+    "t": "両方いい選択です。",
+    "read": "りょうほういいせんたくです。",
+    "ko": "둘 다 좋은 선택이에요.",
+    "en": "Both are good choices."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "どちらも〜ない",
+   "pos": "det",
+   "read": "どちらも〜ない",
+   "ko": "어느 쪽도 아닌",
+   "en": "neither",
+   "ex": {
+    "t": "どちらも行きたくありません。",
+    "read": "どちらもいきたくありません。",
+    "ko": "어느 쪽도 맞지 않아요.",
+    "en": "Neither answer is correct."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "数量の表現：それぞれ・すべて・ほとんど〜ない・十分・両方・どちらも〜ない",
+   "en": "Quantifiers: それぞれ / すべて / ほとんど〜ない / 十分 / 両方 / どちらも〜ない"
+  },
+  "explain": {
+   "ko": "日本語の名詞には、英語のような冠詞はありません。数や量は助数詞と副詞で表します。「それぞれ」は一つずつ：「学生はそれぞれ本をもらいました。」「すべて／みんな」は全部：「学生はみんな合格しました。」「ほとんど〜ない」は否定と使います：「時間がほとんどありません。」「十分／足りない」は量：「お金が十分ではありません。」二つについては「両方」、否定では「どちらも〜ない」です。",
+   "en": "Japanese has no articles; number and amount are shown with counters and adverbs. 「それぞれ」 means each: 「学生はそれぞれ本をもらいました。」 「すべて／みんな」 means all: 「学生はみんな合格しました。」 「ほとんど〜ない」 takes a negative: 「時間がほとんどありません。」 「十分／足りない」 is about amount: 「お金が十分ではありません。」 For two things: 「両方」, and negatively 「どちらも〜ない」."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "それぞれ / Each",
+     "それぞれ + 動詞",
+     "学生はそれぞれ本をもらいました。"
+    ],
+    [
+     "すべて / All",
+     "すべて・みんな",
+     "学生はみんな合格しました。"
+    ],
+    [
+     "ほとんどない / Hardly any",
+     "ほとんど〜ない",
+     "時間がほとんどありません。"
+    ],
+    [
+     "両方・どちらも / Both, neither",
+     "両方〜・どちらも〜ない",
+     "両方いい選択です。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「情報」「助言」は数えられないので、「一つの情報」より「情報」または「一件の情報」を使います。",
+    "en": "Info and advice are uncountable; say 「情報」 or counted units like 「一件の情報」."
+   },
+   {
+    "ko": "「ほとんど」の後は否定形です：ほとんど〜ない。",
+    "en": "「ほとんど」 is followed by a negative."
+   },
+   {
+    "ko": "「十分」は「足りる」とも言えます：お金が足りない。",
+    "en": "「十分」 pairs with 「足りる」 : お金が足りない."
+   }
+  ],
+  "examples": [
+   {
+    "t": "いい知らせがあります。",
+    "read": "いいしらせがあります。",
+    "ko": "그 웹사이트에는 유용한 정보가 많아요.",
+    "en": "The website has a lot of useful information."
+   },
+   {
+    "t": "学生はそれぞれ本をもらいました。",
+    "read": "がくせいはそれぞれほんをもらいました。",
+    "ko": "조언을 하나 드릴게요.",
+    "en": "Let me give you a piece of advice."
+   },
+   {
+    "t": "クラスの学生はみんな試験に合格しました。",
+    "read": "クラスのがくせいはみんなしけんにごうかくしました。",
+    "ko": "각 학생은 책을 한 권씩 받았어요.",
+    "en": "Each student received a book."
+   },
+   {
+    "t": "時間がほとんど残っていません。",
+    "read": "じかんがほとんどのこっていません。",
+    "ko": "모든 학생이 시험을 통과했어요.",
+    "en": "All the students passed the exam."
+   },
+   {
+    "t": "お金が十分ではありません。",
+    "read": "おきんがじゅうぶんではありません。",
+    "ko": "남은 시간이 거의 없어요.",
+    "en": "There is hardly any time left."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "学生は___本をもらいました。",
+    "options": [
+     "それぞれ",
+     "ほとんど",
+     "どちらも"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "クラスの学生は___試験に合格しました。",
+    "options": [
+     "みんな",
+     "ほとんど〜ない",
+     "どちらも"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "時間が___残っていません。",
+    "options": [
+     "ほとんど",
+     "みんな",
+     "それぞれ"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "お金が___ではありません。",
+    "options": [
+     "十分",
+     "いくら",
+     "全部"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "何か必要なものはありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 뭐 필요한 거 있어요?",
+     "en": "(Question) Do you need anything?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "少し助言がほしいです。",
+       "三時に着きます。",
+       "去年行きました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いい知らせを聞きましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 소식 들었어요?",
+     "en": "(Question) Have you heard the news?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、すばらしい知らせですね。",
+       "いいえ、雨です。",
+       "三人です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いい知らせがあるんだ。"
+      },
+      {
+       "s": "B",
+       "t": "何？"
+      },
+      {
+       "s": "A",
+       "t": "新しい家に家具が全部届いたよ。それぞれの部屋に必要なものを十分買ったんだ。"
+      },
+      {
+       "s": "B",
+       "t": "よかったね。助言が必要なら言ってね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 좋은 소식이 있어.\nB: 뭔데?\nA: 새 집에 가구가 모두 들어왔어. 각 방마다 필요한 물건이 있었는데 충분히 샀어.\nB: 정말 잘됐다. 조언이 필요하면 말해.",
+     "en": "A: I have some good news.\nB: What is it?\nA: All the furniture has come to the new house. Each room needed something and we bought enough.\nB: That's great. Let me know if you need any advice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "新しい家に何が届きましたか。",
+      "options": [
+       "家具",
+       "本",
+       "服"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私たちのクラスの学生は、みんな試験に合格しました。学生はそれぞれ先生から助言をもらい、多くの学生がインターネットで情報も調べました。でも時間がほとんどなく、最後の週には誰も遊べませんでした。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 반 학생들은 모두 시험을 통과했어요. 각 학생은 선생님께 조언을 받았고, 많은 학생이 정보를 인터넷에서도 찾았어요. 하지만 시간이 거의 없어서 마지막 주에는 아무도 놀지 못했어요.",
+     "en": "All the students in our class passed the exam. Each student received advice from the teacher, and many students also found information on the internet. But there was hardly any time, so nobody could play in the final week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最後の週はどうでしたか。",
+      "options": [
+       "時間がほとんどなかった",
+       "ずっと遊んだ",
+       "休みだった"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "家具屋です。"
+      },
+      {
+       "s": "B",
+       "t": "ベッドルームの家具を探しています。助言をいただけますか。"
+      },
+      {
+       "s": "A",
+       "t": "もちろんです。ご予算は？"
+      },
+      {
+       "s": "B",
+       "t": "あまりありません。足りないかもしれません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 가구점입니다.\n손님: 침실용 가구를 찾고 있어요. 조언을 좀 주실 수 있나요?\n직원: 물론이죠. 예산이 얼마나 되시나요?\n손님: 많지는 않아요. 충분하지 않을지도 몰라요.",
+     "en": "Staff: Furniture shop.\nGuest: I'm looking for bedroom furniture. Could you give me some advice?\nStaff: Of course. What is your budget?\nGuest: Not much. It may not be enough."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さんは______の家具を探しています",
+      "answers": [
+       "ベッドルーム"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "予算は______ありません",
+      "answers": [
+       "あまり"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 学生は___本をもらいました。\n2) クラスの学生は___試験に合格しました。\n3) 時間が___残っていません。",
+    "trans": {
+     "ko": "1) 그 웹사이트에는 유용한 정보가 많아요. 2) 각 학생은 책을 한 권씩 받았어요. 3) 남은 시간이 거의 없어요.",
+     "en": "1) The website has a lot of useful information. 2) Each student received a book. 3) There is hardly any time left."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "学生は___本をもらいました。",
+      "options": [
+       "それぞれ",
+       "ほとんど",
+       "どちらも"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "クラスの学生は___試験に合格しました。",
+      "options": [
+       "みんな",
+       "ほとんど",
+       "どちらも"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "時間が___残っていません。",
+      "options": [
+       "ほとんど",
+       "みんな",
+       "それぞれ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "ミンスさんは新しい職場で情報をたくさんもらいましたが、助言は(1)ありませんでした。先輩にいくつか質問すると、先輩は(2)教えてくれました。分からないことは(3)聞いても大丈夫だそうです。",
+    "trans": {
+     "ko": "우리 반 학생들은 모두 시험을 통과했어요. 각 학생은 선생님께 조언을 받았고, 많은 학생이 정보를 인터넷에서도 찾았어요. 하지만 시간이 거의 없어서 마지막 주에는 아무도 놀지 못했어요.",
+     "en": "All the students in our class passed the exam. Each student received advice from the teacher, and many students also found information on the internet. But there was hardly any time, so nobody could play in the final week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "ほとんど",
+       "みんな",
+       "それぞれ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "喜んで",
+       "いやいや",
+       "怒って"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "何でも",
+       "どこも",
+       "誰も"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "広告\n新しい家具店がオープンしました。全商品が二割引です。お客様にはそれぞれプレゼントがあります。在庫は十分あるので、急がなくても大丈夫です。二点以上お買い上げなら、配送は無料です。",
+    "trans": {
+     "ko": "광고\n새 가구 매장이 문을 열었습니다. 모든 제품은 20% 할인됩니다. 각 고객에게 사은품을 한 개씩 드립니다. 충분한 재고가 있으니 서두르지 않아도 됩니다. 두 가지 이상 구입하시면 배송이 무료입니다.",
+     "en": "ADVERT\nA new furniture store has opened. All items are 20% off. Each customer gets a free gift. There is enough stock, so there is no need to rush. If you buy two or more items, delivery is free."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "全商品はいくら安くなりますか。",
+      "options": [
+       "二割",
+       "五割",
+       "一割"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "配送が無料になるのはどんなときですか。",
+      "options": [
+       "二点以上買うとき",
+       "一点だけ買うとき",
+       "土曜日"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ミンスさんは新しい職場でたくさんの情報をもらいましたが、助言はほとんどありませんでした。そこで先輩に質問すると、喜んで教えてくれました。",
+    "trans": {
+     "ko": "민수는 새 직장에서 많은 정보를 받았지만 조언은 거의 받지 못했어요. 그는 선배에게 몇 가지 질문을 했고, 선배는 기꺼이 도와주었어요.",
+     "en": "Minsu received a lot of information at his new job but hardly any advice. He asked his senior colleague a few questions, and the colleague was happy to help."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ミンスさんは新しい職場で情報をもらいました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "先輩は質問に答えてくれませんでした。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ミンスさんは銀行で働いています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "何か必要なものはありますか。",
+    "read": "なにかひつようなものはありますか。",
+    "ko": "뭐 필요한 거 있어요?",
+    "en": "Do you need anything?",
+    "situation": {
+     "ko": "필요를 물을 때",
+     "en": "Asking about needs"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "助言を一つあげましょう。",
+    "read": "じょげんをひとつあげましょう。",
+    "ko": "조언을 하나 드릴게요.",
+    "en": "Let me give you a piece of advice.",
+    "situation": {
+     "ko": "조언을 할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "いい知らせがあります。",
+    "read": "いいしらせがあります。",
+    "ko": "좋은 소식이 있어요.",
+    "en": "I have some good news.",
+    "situation": {
+     "ko": "소식을 전할 때",
+     "en": "Sharing news"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "学生はそれぞれ本をもらいました。",
+    "read": "がくせいはそれぞれほんをもらいました。",
+    "ko": "각 학생은 책을 한 권씩 받았어요.",
+    "en": "Each student received a book.",
+    "situation": {
+     "ko": "개별 항목을 말할 때",
+     "en": "Talking about individuals"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "クラスの学生はみんな試験に合格しました。",
+    "read": "クラスのがくせいはみんなしけんにごうかくしました。",
+    "ko": "모든 학생이 시험을 통과했어요.",
+    "en": "All the students passed the exam.",
+    "situation": {
+     "ko": "전체를 말할 때",
+     "en": "Talking about a whole group"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "時間がほとんど残っていません。",
+    "read": "じかんがほとんどのこっていません。",
+    "ko": "남은 시간이 거의 없어요.",
+    "en": "There is hardly any time left.",
+    "situation": {
+     "ko": "부족함을 말할 때",
+     "en": "Talking about scarcity"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "お金が十分ではありません。",
+    "read": "おきんがじゅうぶんではありません。",
+    "ko": "충분한 돈이 없어요.",
+    "en": "I don't have enough money.",
+    "situation": {
+     "ko": "부족을 표현할 때",
+     "en": "Expressing a shortage"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "両方いい選択です。",
+    "read": "りょうほういいせんたくです。",
+    "ko": "둘 다 좋은 선택이에요.",
+    "en": "Both are good choices.",
+    "situation": {
+     "ko": "두 가지를 비교할 때",
+     "en": "Comparing two options"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜を買いました。",
+    "read": "〜をかいました。",
+    "ko": "셀 수 없는 명사 + some / any / much",
+    "en": "some / any / much + uncountable noun."
+   },
+   {
+    "id": "w2",
+    "t": "〜はそれぞれ〜ました。",
+    "read": "〜はそれぞれ〜ました。",
+    "ko": "셀 수 있는 복수 + many / a few / several",
+    "en": "many / a few / several + plural noun."
+   },
+   {
+    "id": "w3",
+    "t": "ほとんど〜ません。",
+    "read": "ほとんど〜ません。",
+    "ko": "각각 / 모든",
+    "en": "each + singular / every + singular / all + plural."
+   },
+   {
+    "id": "w4",
+    "t": "十分〜ません。",
+    "read": "じゅうぶん〜ません。",
+    "ko": "둘 중",
+    "en": "both / either / neither + noun."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "셀 수 없는 명사와 한정사를 써서 요즘 겪은 일을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about something that happened recently, using uncountable nouns and determiners."
+   },
+   "must_include": [
+    {
+     "label": "家具",
+     "match": [
+      "新しい家具"
+     ]
+    },
+    {
+     "label": "それぞれ",
+     "match": [
+      "それぞれの部屋"
+     ]
+    },
+    {
+     "label": "十分",
+     "match": [
+      "十分ではなかった"
+     ]
+    }
+   ],
+   "model": "昨日、新しい家具を買いました。店員さんがたくさん助言をくれました。それぞれの部屋に必要なものが違いました。お金が十分ではなかったので、いくつかは後で買うことにしました。",
+   "model_trans": {
+    "ko": "저는 어제 새 가구를 샀어요. 점원이 조언을 많이 해 줬어요. 각 방마다 필요한 물건이 달랐어요. 충분한 돈이 없어서 몇 가지는 다음에 사기로 했어요.",
+    "en": "I bought some new furniture yesterday. The shop assistant gave me a lot of advice. Each room needed different things. I didn't have enough money, so I decided to buy a few things later."
+   }
+  }
+ }
+}

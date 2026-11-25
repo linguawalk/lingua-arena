@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u15",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 15,
+  "concept": "B2.U15",
+  "status": "live",
+  "title": {
+   "target": "それでも・一方で",
+   "ko": "대조와 양보의 연결어",
+   "en": "Contrast and concession"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "とはいえ",
+   "pos": "adv",
+   "read": "とはいえ",
+   "ko": "그럼에도 불구하고",
+   "en": "nevertheless",
+   "ex": {
+    "t": "魅力的です。とはいえ、値段が高いです。",
+    "read": "みりょくてきです。とはいえ、ねだんがたかいです。",
+    "ko": "그럼에도 불구하고 그는 포기하지 않았어요.",
+    "en": "Nevertheless, he did not give up."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "一方で",
+   "pos": "phrase",
+   "read": "いっぽうで",
+   "ko": "반대로",
+   "en": "on the other hand",
+   "ex": {
+    "t": "給料は高い一方で、労働時間は長いです。",
+    "read": "きゅうりょうはたかいいっぽうで、ろうどうじかんはながいです。",
+    "ko": "반대로 그 일은 위험하기도 해요.",
+    "en": "On the other hand, the job is also risky."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜にもかかわらず",
+   "pos": "prep",
+   "read": "〜にもかかわらず",
+   "ko": "~에도 불구하고",
+   "en": "despite",
+   "ex": {
+    "t": "雨にもかかわらず、出発しました。",
+    "read": "あめにもかかわらず、しゅっぱつしました。",
+    "ko": "비가 오는데도 우리는 출발했어요.",
+    "en": "Despite the rain, we set off."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜けれども",
+   "pos": "conj",
+   "read": "〜けれども",
+   "ko": "~이긴 하지만",
+   "en": "although",
+   "ex": {
+    "t": "難しいけれども、やってみます。",
+    "read": "むずかしいけれども、やってみます。",
+    "ko": "그는 부유하지만 행복하지 않아요.",
+    "en": "Although he is rich, he isn't happy."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜のに",
+   "pos": "conj",
+   "read": "〜のに",
+   "ko": "반면에",
+   "en": "whereas",
+   "ex": {
+    "t": "お金持ちなのに、幸せではありません。",
+    "read": "おかねもちなのに、しあわせではありません。",
+    "ko": "나는 아침형인 반면 동생은 저녁형이에요.",
+    "en": "I am a morning person, whereas my brother is a night person."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "それでも",
+   "pos": "phrase",
+   "read": "それでも",
+   "ko": "그렇긴 해도",
+   "en": "even so",
+   "ex": {
+    "t": "それでも、試す価値はあります。",
+    "read": "それでも、ためすかちはあります。",
+    "ko": "그렇긴 해도 계획은 계속 진행해요.",
+    "en": "Even so, we will go ahead with the plan."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "実際は",
+   "pos": "phrase",
+   "read": "じっさいは",
+   "ko": "사실",
+   "en": "in fact",
+   "ex": {
+    "t": "実際は、そうではありませんでした。",
+    "read": "じっさいは、そうではありませんでした。",
+    "ko": "사실 저는 그 일이 마음에 들었어요.",
+    "en": "In fact, I liked the job."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "認める",
+   "pos": "adv",
+   "read": "みとめる",
+   "ko": "그래도",
+   "en": "still",
+   "ex": {
+    "t": "それは認めますが、まだ賛成です。",
+    "read": "それはみとめますが、まださんせいです。",
+    "ko": "힘들어도 그래도 해 볼게요.",
+    "en": "It's hard, but I'll still try."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "反対する",
+   "pos": "verb",
+   "read": "はんたいする",
+   "ko": "인정하다",
+   "en": "admit",
+   "ex": {
+    "t": "その案に反対しました。",
+    "read": "そのあんにはんたいしました。",
+    "ko": "문제가 있다는 것은 인정해요.",
+    "en": "I admit there is a problem."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "やはり",
+   "pos": "phrase",
+   "read": "やはり",
+   "ko": "반박하다",
+   "en": "argue against",
+   "ex": {
+    "t": "やはり田舎のほうが好きです。",
+    "read": "やはりいなかのほうがすきです。",
+    "ko": "그는 그 의견에 반박했어요.",
+    "en": "He argued against that opinion."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "逆接と譲歩：〜にもかかわらず・〜のに・〜一方・それでも",
+   "en": "Contrast and concession: 〜にもかかわらず / 〜のに / 〜一方 / それでも"
+  },
+  "explain": {
+   "ko": "予想と反対のことは「〜のに」「〜にもかかわらず」で言います：「雨にもかかわらず、出発しました。」二つの違いを比べるときは「〜一方」「〜のに対して」：「兄は朝型の一方、弟は夜型です。」文を始めるときは「しかし」「それでも」「とはいえ」を使います：「大変だった。それでも、やり遂げた。」「確かに〜が、〜」と譲歩してから自分の意見を言うこともできます。",
+   "en": "Things contrary to expectation use 「〜のに」 or 「〜にもかかわらず」: 「雨にもかかわらず、出発しました。」 Comparing two differences uses 「〜一方」 or 「〜のに対して」: 「兄は朝型の一方、弟は夜型です。」 Sentence-openers are 「しかし」「それでも」「とはいえ」: 「大変だった。それでも、やり遂げた。」 You can also concede with 「確かに〜が、〜」 before giving your view."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "予想と反対 / Contrary",
+     "〜のに・〜にもかかわらず",
+     "雨にもかかわらず、出発した。"
+    ],
+    [
+     "対比 / Contrast",
+     "〜一方・〜のに対して",
+     "兄は朝型の一方、弟は夜型だ。"
+    ],
+    [
+     "文頭 / Sentence start",
+     "しかし・それでも・とはいえ",
+     "大変だった。それでも、やり遂げた。"
+    ],
+    [
+     "譲歩 / Concede",
+     "確かに〜が、〜",
+     "確かに高いが、試す価値はある。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜にもかかわらず」は名詞・動詞の普通形に続きます：雨にもかかわらず／雨が降っているにもかかわらず。",
+    "en": "「〜にもかかわらず」 follows nouns or plain forms."
+   },
+   {
+    "ko": "「〜のに」には、不満や意外な気持ちが入ることがあります。",
+    "en": "「〜のに」 can carry a sense of surprise or complaint."
+   },
+   {
+    "ko": "「とはいえ」は「そうは言っても」の書き言葉に近い形です。",
+    "en": "「とはいえ」 is a written form of 「そうは言っても」."
+   }
+  ],
+  "examples": [
+   {
+    "t": "雨にもかかわらず、私たちは出発しました。",
+    "read": "あめにもかかわらず、わたしたちはしゅっぱつしました。",
+    "ko": "비가 오는데도 우리는 출발했어요.",
+    "en": "Despite the rain, we set off."
+   },
+   {
+    "t": "彼はお金持ちなのに、幸せではありません。",
+    "read": "かれはおかねもちなのに、しあわせではありません。",
+    "ko": "그는 부유하지만 행복하지 않아요.",
+    "en": "Although he is rich, he isn't happy."
+   },
+   {
+    "t": "私は朝型の一方、弟は夜型です。",
+    "read": "わたしはあさがたのいっぽう、おとうとはよるがたです。",
+    "ko": "나는 아침형인 반면 동생은 저녁형이에요.",
+    "en": "I am a morning person, whereas my brother is a night person."
+   },
+   {
+    "t": "仕事は大変でした。それでも、彼はやり遂げました。",
+    "read": "しごとはたいへんでした。それでも、かれはやりとげました。",
+    "ko": "그 일은 힘들었다. 그럼에도 불구하고 그는 끝까지 해냈다.",
+    "en": "The work was hard. Nevertheless, he finished it."
+   },
+   {
+    "t": "それは認めますが、やはり賛成です。",
+    "read": "それはみとめますが、やはりさんせいです。",
+    "ko": "피곤했음에도 불구하고 그는 일을 계속했어요.",
+    "en": "In spite of being tired, he carried on working."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "雨に___、私たちは出発しました。",
+    "options": [
+     "もかかわらず",
+     "よって",
+     "ついて"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "彼はお金持ち___、幸せではありません。",
+    "options": [
+     "なのに",
+     "だから",
+     "ながら"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "私は朝型の___、弟は夜型です。",
+    "options": [
+     "一方",
+     "ために",
+     "ように"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "大変でした。___、彼はやり遂げました。",
+    "options": [
+     "それでも",
+     "だから",
+     "そして"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "都会の生活と田舎の生活では、どちらが好きですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 도시 생활과 농촌 생활 중 어느 쪽이 더 좋아요?",
+     "en": "(Question) Which do you prefer, city life or country life?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "うるさいけれども、都会のほうが好きです。",
+       "来週の月曜日です。",
+       "三人います。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "雨が降っていたのに行きましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 비가 오는데도 갔어요?",
+     "en": "(Question) Did you go even though it was raining?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、雨にもかかわらず行きました。",
+       "いいえ、昨日買いました。",
+       "三時です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この仕事に応募しようと思うんだ。"
+      },
+      {
+       "s": "B",
+       "t": "給料は高いけど、労働時間は長いよ。一方で福利厚生はいいね。"
+      },
+      {
+       "s": "A",
+       "t": "それでも、試す価値はあるよね。"
+      },
+      {
+       "s": "B",
+       "t": "大変だけど、キャリアには役立つと思う。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 직장에 지원할까 고민 중이야.\nB: 급여는 높지만 근무 시간이 길어. 반대로 복지는 좋아.\nA: 그래도 해 볼 가치는 있겠지?\nB: 힘들긴 해도 경력에는 도움이 될 거야.",
+     "en": "A: I'm thinking of applying for this job.\nB: The salary is high but the hours are long. On the other hand, the benefits are good.\nA: Even so, it's worth trying, isn't it?\nB: Although it's hard, it will help your career."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この仕事の問題点は何ですか。",
+      "options": [
+       "労働時間が長い",
+       "給料が低い",
+       "福利厚生がない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "雨にもかかわらず、私たちは山に登りました。道は滑りやすかったですが、景色はすばらしかったです。友達はくたくたでしたが、頂上で笑顔でした。それでも、もう一度行きたいと言う人は多くありませんでした。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "비가 오는데도 우리는 산에 올랐어요. 길은 미끄러웠지만 경치는 아름다웠어요. 친구들은 지쳐 있었지만 정상에서 웃었어요. 그럼에도 불구하고 다시 가고 싶다는 사람은 많지 않았어요.",
+     "en": "We climbed the mountain despite the rain. The path was slippery, but the scenery was beautiful. My friends were exhausted but smiled at the top. Even so, not many wanted to go again."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "頂上で友達はどうでしたか。",
+      "options": [
+       "くたくたでも笑顔だった",
+       "怒っていた",
+       "泣いていた"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "進路相談です。"
+      },
+      {
+       "s": "B",
+       "t": "海外で働くことを考えていますが、心配です。"
+      },
+      {
+       "s": "A",
+       "t": "いちばん何が心配ですか。"
+      },
+      {
+       "s": "B",
+       "t": "言葉です。でも、給料は韓国より高いんです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "상담사: 진로 상담입니다.\n손님: 해외 취업을 고려 중인데 걱정이 많아요.\n상담사: 어떤 점이 가장 걱정되세요?\n손님: 언어예요. 하지만 급여는 한국보다 높아요.",
+     "en": "Adviser: Career advice.\nGuest: I'm considering working abroad but I'm worried.\nAdviser: What worries you most?\nGuest: The language. But the salary is higher than in Korea."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さんの心配は______です",
+      "answers": [
+       "言葉"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "給料は韓国より______です",
+      "answers": [
+       "高い"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 雨に___、私たちは出発しました。\n2) 彼はお金持ち___、幸せではありません。\n3) 私は朝型の___、弟は夜型です。",
+    "trans": {
+     "ko": "1) 비가 오는데도 우리는 출발했어요. 2) 그는 부유하지만 행복하지 않아요. 3) 나는 아침형인 반면 동생은 저녁형이에요.",
+     "en": "1) Despite the rain, we set off. 2) Although he is rich, he isn't happy. 3) I am a morning person, whereas my brother is a night person."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "雨に___、私たちは出発しました。",
+      "options": [
+       "もかかわらず",
+       "よって",
+       "ついて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼はお金持ち___、幸せではありません。",
+      "options": [
+       "なのに",
+       "だから",
+       "ながら"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私は朝型の___、弟は夜型です。",
+      "options": [
+       "一方",
+       "ために",
+       "ように"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "この町は便利ですが、とても(1)です。家賃が高いにもかかわらず、多くの人が住みたがります。町には仕事がたくさんある(2)、田舎は空気がきれいです。それでも、私は(3)町の生活が好きです。",
+    "trans": {
+     "ko": "비가 오는데도 우리는 산에 올랐어요. 길은 미끄러웠지만 경치는 아름다웠어요. 친구들은 지쳐 있었지만 정상에서 웃었어요. 그럼에도 불구하고 다시 가고 싶다는 사람은 많지 않았어요.",
+     "en": "We climbed the mountain despite the rain. The path was slippery, but the scenery was beautiful. My friends were exhausted but smiled at the top. Even so, not many wanted to go again."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "うるさい",
+       "静か",
+       "小さい"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "一方",
+       "ために",
+       "ように"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "やはり",
+       "決して",
+       "めったに"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "記事\n電気自動車は環境にいいと言われていますが、値段が高いです。政府の補助金にもかかわらず、売り上げは期待したほど伸びていません。一方、充電スタンドは急速に増えています。それでも、専門家は楽観的です。",
+    "trans": {
+     "ko": "기사\n전기차는 환경에 좋은 것으로 알려져 있지만 가격이 높다. 정부가 보조금을 지급함에도 불구하고 판매는 기대만큼 늘지 않았다. 반면 충전소는 빠르게 늘고 있다. 그럼에도 불구하고 전문가들은 낙관적이다.",
+     "en": "ARTICLE\nElectric cars are known to be good for the environment, but they are expensive. Despite government subsidies, sales have not grown as much as expected. Charging stations, on the other hand, are increasing rapidly. Nevertheless, experts are optimistic."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "電気自動車の問題は何ですか。",
+      "options": [
+       "値段が高いこと",
+       "音がうるさいこと",
+       "遅いこと"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "充電スタンドはどうなっていますか。",
+      "options": [
+       "急速に増えている",
+       "減っている",
+       "変わらない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジフさんは試験が難しかったのに合格しました。友達は一生懸命準備したのに、不合格でした。それでも、二人は励まし合いました。",
+    "trans": {
+     "ko": "지후는 시험이 어려웠음에도 불구하고 합격했어요. 반면 그의 친구는 열심히 준비했지만 떨어졌어요. 그래도 둘은 서로 격려해 주었어요.",
+     "en": "Jihu passed the exam although it was hard. His friend, on the other hand, prepared hard but failed. Even so, they encouraged each other."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジフさんは試験に合格しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "友達も合格しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "試験は夏にありました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "その計画についてどう思いますか。",
+    "read": "そのけいかくについてどうおもいますか。",
+    "ko": "그 계획에 대해 어떻게 생각해요?",
+    "en": "What do you think about the plan?",
+    "situation": {
+     "ko": "의견을 물을 때",
+     "en": "Asking for an opinion"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "雨にもかかわらず、私たちは出発しました。",
+    "read": "あめにもかかわらず、わたしたちはしゅっぱつしました。",
+    "ko": "비가 오는데도 우리는 출발했어요.",
+    "en": "Despite the rain, we set off.",
+    "situation": {
+     "ko": "방해에도 행동할 때",
+     "en": "Acting in spite of difficulty"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "彼はお金持ちなのに、幸せではありません。",
+    "read": "かれはおかねもちなのに、しあわせではありません。",
+    "ko": "그는 부유하지만 행복하지 않아요.",
+    "en": "Although he is rich, he isn't happy.",
+    "situation": {
+     "ko": "예상과 다른 상황",
+     "en": "An unexpected contrast"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "私は朝型の一方、弟は夜型です。",
+    "read": "わたしはあさがたのいっぽう、おとうとはよるがたです。",
+    "ko": "나는 아침형인 반면 동생은 저녁형이에요.",
+    "en": "I am a morning person, whereas my brother is a night person.",
+    "situation": {
+     "ko": "두 대상을 대조할 때",
+     "en": "Contrasting two things"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "仕事は大変でした。それでも、彼はやり遂げました。",
+    "read": "しごとはたいへんでした。それでも、かれはやりとげました。",
+    "ko": "그 일은 힘들었다. 그럼에도 불구하고 끝까지 해냈다.",
+    "en": "The work was hard. Nevertheless, he finished it.",
+    "situation": {
+     "ko": "격식 있는 글",
+     "en": "Formal writing"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "いい話ですが、値段が高いです。",
+    "read": "いいはなしですが、ねだんがたかいです。",
+    "ko": "그 제안은 좋지만, 반대로 비용이 많이 들어요.",
+    "en": "The offer is good; on the other hand, it is expensive.",
+    "situation": {
+     "ko": "장단점을 말할 때",
+     "en": "Weighing pros and cons"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "それでも、試す価値はあります。",
+    "read": "それでも、ためすかちはあります。",
+    "ko": "그렇긴 해도 시도해 볼 가치는 있어요.",
+    "en": "Even so, it's worth trying.",
+    "situation": {
+     "ko": "양보 후 결론",
+     "en": "Conceding and concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "それは認めますが、やはり賛成です。",
+    "read": "それはみとめますが、やはりさんせいです。",
+    "ko": "인정하지만 저는 여전히 찬성해요.",
+    "en": "I admit that, but I'm still in favour.",
+    "situation": {
+     "ko": "의견을 마무리할 때",
+     "en": "Closing an opinion"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜にもかかわらず、〜。",
+    "read": "〜にもかかわらず、〜。",
+    "ko": "~에도 불구하고 (절)",
+    "en": "although / even though / though + clause."
+   },
+   {
+    "id": "w2",
+    "t": "〜のに、〜。",
+    "read": "〜のに、〜。",
+    "ko": "~에도 불구하고 (명사)",
+    "en": "despite / in spite of + noun / -ing."
+   },
+   {
+    "id": "w3",
+    "t": "〜一方、〜。",
+    "read": "〜いっぽう、〜。",
+    "ko": "~인 반면",
+    "en": "whereas / while + clause."
+   },
+   {
+    "id": "w4",
+    "t": "それでも、〜。",
+    "read": "それでも、〜。",
+    "ko": "그럼에도 불구하고",
+    "en": "However, / Nevertheless, / Even so, + clause."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "although, despite, whereas, however를 모두 써서 장단점을 말하는 4문장을 써 보세요.",
+    "en": "Write 4 sentences giving pros and cons, using although, despite, whereas and however."
+   },
+   "must_include": [
+    {
+     "label": "にもかかわらず",
+     "match": [
+      "にもかかわらず"
+     ]
+    },
+    {
+     "label": "一方",
+     "match": [
+      "一方"
+     ]
+    },
+    {
+     "label": "それでも",
+     "match": [
+      "それでも"
+     ]
+    }
+   ],
+   "model": "この町は便利ですが、とても騒がしいです。家賃が高いにもかかわらず、多くの人が住みたがります。町には仕事がたくさんある一方、田舎は空気がきれいです。それでも、私はやはり町の生活が好きです。",
+   "model_trans": {
+    "ko": "도시는 편리하지만 소음이 심해요. 높은 집값에도 불구하고 많은 사람이 도시에 살고 싶어 해요. 도시는 일자리가 많은 반면 농촌은 공기가 맑아요. 그러나 저는 아직 도시 생활이 더 좋아요.",
+    "en": "Although the city is convenient, it is very noisy. Despite high housing prices, many people want to live in the city. The city has many jobs, whereas the countryside has clean air. However, I still prefer city life."
+   }
+  }
+ }
+}

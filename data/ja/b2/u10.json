@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u10",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 10,
+  "concept": "B2.U10",
+  "status": "live",
+  "title": {
+   "target": "言ったことを伝える",
+   "ko": "간접화법 심화",
+   "en": "Reported speech in depth"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "主張する",
+   "pos": "verb",
+   "read": "しゅちょうする",
+   "ko": "주장하다",
+   "en": "insist",
+   "ex": {
+    "t": "彼は自分が正しいと主張しました。",
+    "read": "かれはじぶんがただしいとしゅちょうしました。",
+    "ko": "그는 자기가 옳다고 주장했어요.",
+    "en": "He insisted that he was right."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "提案する",
+   "pos": "verb",
+   "read": "ていあんする",
+   "ko": "제안하다",
+   "en": "suggest",
+   "ex": {
+    "t": "彼女は早く出発しようと提案しました。",
+    "read": "かのじょははやくしゅっぱつしようとていあんしました。",
+    "ko": "그녀는 일찍 출발하자고 제안했어요.",
+    "en": "She suggested leaving early."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "認める",
+   "pos": "verb",
+   "read": "みとめる",
+   "ko": "인정하다",
+   "en": "admit",
+   "ex": {
+    "t": "彼は間違いを認めました。",
+    "read": "かれはあいだちがいをみとめました。",
+    "ko": "그는 실수를 인정했어요.",
+    "en": "He admitted making a mistake."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "否定する",
+   "pos": "verb",
+   "read": "ひていする",
+   "ko": "부인하다",
+   "en": "deny",
+   "ex": {
+    "t": "彼はうわさを否定しました。",
+    "read": "かれはうわさをひていしました。",
+    "ko": "그녀는 그 돈을 가져가지 않았다고 부인했어요.",
+    "en": "She denied taking the money."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "警告する",
+   "pos": "verb",
+   "read": "けいこくする",
+   "ko": "경고하다",
+   "en": "warn",
+   "ex": {
+    "t": "医者は酒を減らすように警告しました。",
+    "read": "いしゃはさけをへらすようにけいこくしました。",
+    "ko": "의사는 그에게 술을 줄이라고 경고했어요.",
+    "en": "The doctor warned him to cut down on alcohol."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "約束する",
+   "pos": "verb",
+   "read": "やくそくする",
+   "ko": "약속하다",
+   "en": "promise",
+   "ex": {
+    "t": "彼は翌日終わらせると約束しました。",
+    "read": "かれはよくじつおわらせるとやくそくしました。",
+    "ko": "그는 일찍 오겠다고 약속했어요.",
+    "en": "He promised to come early."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "説明する",
+   "pos": "verb",
+   "read": "せつめいする",
+   "ko": "설명하다",
+   "en": "explain",
+   "ex": {
+    "t": "彼女は理由を説明しました。",
+    "read": "かのじょはりゆうをせつめいしました。",
+    "ko": "그녀는 문제의 원인을 설명했어요.",
+    "en": "She explained the cause of the problem."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "不満を言う",
+   "pos": "verb",
+   "read": "ふまんをいう",
+   "ko": "불평하다",
+   "en": "complain",
+   "ex": {
+    "t": "彼女は仕事が多すぎると不満を言いました。",
+    "read": "かのじょはしごとがおおすぎるとふまんをいいました。",
+    "ko": "손님은 서비스가 느리다고 불평했어요.",
+    "en": "The customer complained that the service was slow."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "知らせる",
+   "pos": "verb",
+   "read": "しらせる",
+   "ko": "알려 주다",
+   "en": "inform",
+   "ex": {
+    "t": "担当者がご連絡を差し上げます。",
+    "read": "たんとうしゃがごれんらくをさしあげます。",
+    "ko": "그들은 우리에게 결과를 알려 주었어요.",
+    "en": "They informed us of the results."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "伝える",
+   "pos": "verb",
+   "read": "つたえる",
+   "ko": "전하다",
+   "en": "relay",
+   "ex": {
+    "t": "彼の言葉を皆に伝えました。",
+    "read": "かれのことばをみなにつたえました。",
+    "ko": "그가 한 말을 제가 전해 드릴게요.",
+    "en": "I'll relay what he said."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "間接話法：〜と言った・〜ように言った・〜と約束した・〜と認めた",
+   "en": "Reported speech: 〜と言った / 〜ように言った / 〜と約束した / 〜と認めた"
+  },
+  "explain": {
+   "ko": "人の言葉を伝えるときは「〜と言いました」を使います。日本語には時制の一致がないので、元の言葉の形をそのまま使います：「疲れていると言いました。」命令や依頼は「〜ように言いました／頼みました」：「早く出すように言いました。」提案は「〜と提案しました」、約束は「〜と約束しました」、認めるときは「〜と認めました」です。「昨日」「明日」は伝える日に合わせて「前の日」「次の日」に変えます。",
+   "en": "To report speech use 「〜と言いました」. Japanese has no tense backshift; keep the original form: 「疲れていると言いました。」 Orders and requests are 「〜ように言いました／頼みました」: 「早く出すように言いました。」 Suggestions are 「〜と提案しました」, promises 「〜と約束しました」, admissions 「〜と認めました」. Time words shift: 「昨日」→「前の日」, 「明日」→「次の日」."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "言う / Say",
+     "〜と言った",
+     "疲れていると言いました。"
+    ],
+    [
+     "命令 / Order",
+     "〜ように言った",
+     "早く出すように言いました。"
+    ],
+    [
+     "提案 / Suggest",
+     "〜と提案した",
+     "早く出ようと提案しました。"
+    ],
+    [
+     "約束 / Promise",
+     "〜と約束した",
+     "次の日に終わらせると約束しました。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "時制は変えません。「忙しい」と言ったら「忙しいと言いました」です。",
+    "en": "Tense is unchanged: 「忙しい」 → 「忙しいと言いました」."
+   },
+   {
+    "ko": "「〜ように言う」は、相手に何かをするよう頼む・命じるときです。",
+    "en": "「〜ように言う」 reports a request or order."
+   },
+   {
+    "ko": "人称は、伝える人から見て変えます：「私」→「彼」。",
+    "en": "Pronouns change from the reporter's viewpoint: 「私」→「彼」."
+   }
+  ],
+  "examples": [
+   {
+    "t": "彼は疲れていると言いました。",
+    "read": "かれはつかれているといいました。",
+    "ko": "그는 자기가 옳다고 주장했어요.",
+    "en": "He insisted that he was right."
+   },
+   {
+    "t": "彼は自分が正しいと主張しました。",
+    "read": "かれはじぶんがただしいとしゅちょうしました。",
+    "ko": "그녀는 일찍 출발하자고 제안했어요.",
+    "en": "She suggested leaving early."
+   },
+   {
+    "t": "彼女は早く出ようと提案しました。",
+    "read": "かのじょははやくでようとていあんしました。",
+    "ko": "그는 실수를 인정했어요.",
+    "en": "He admitted making a mistake."
+   },
+   {
+    "t": "彼は間違いを認めました。",
+    "read": "かれはあいだちがいをみとめました。",
+    "ko": "의사는 그에게 술을 줄이라고 경고했어요.",
+    "en": "The doctor warned him to cut down on alcohol."
+   },
+   {
+    "t": "医者は酒を減らすように警告しました。",
+    "read": "いしゃはさけをへらすようにけいこくしました。",
+    "ko": "그는 어제 이곳에 왔다고 말했어요.",
+    "en": "He said he had come here the day before."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "彼は疲れていると___。",
+    "options": [
+     "言いました",
+     "言わせました",
+     "言われました"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "医者は酒を減らす___警告しました。",
+    "options": [
+     "ように",
+     "ので",
+     "ながら"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "彼は間違いを___。",
+    "options": [
+     "認めました",
+     "認めさせました",
+     "認められました"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "彼は次の日に終わらせると___。",
+    "options": [
+     "約束しました",
+     "約束させました",
+     "約束されました"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "彼は何と言いましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 뭐라고 했어요?",
+     "en": "(Question) What did he say?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "疲れていると言いました。",
+       "来週の月曜日です。",
+       "三人います。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "医者は彼に何を警告しましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 의사가 뭐라고 경고했어요?",
+     "en": "(Question) What did the doctor warn him about?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "酒を減らすように警告しました。",
+       "毎日走るように言いました。",
+       "薬を飲むように言いました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日、部長は何て言っていた？"
+      },
+      {
+       "s": "B",
+       "t": "報告書が遅れているので心配だと言っていたよ。早く出すように頼まれたんだ。"
+      },
+      {
+       "s": "A",
+       "t": "それで、何て答えたの？"
+      },
+      {
+       "s": "B",
+       "t": "次の日までに終わらせると約束したよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 부장님이 뭐라고 하셨어?\nB: 보고서가 늦어서 걱정이라고 하셨어. 일찍 제출하라고 요청하셨고.\nA: 그래서 뭐라고 대답했어?\nB: 내일까지 끝내겠다고 약속했어.",
+     "en": "A: What did the manager say yesterday?\nB: She said she was worried because the report was late. She asked us to submit it early.\nA: What did you answer?\nB: I promised to finish it by the next day."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "部長は何を頼みましたか。",
+      "options": [
+       "報告書を早く出すこと",
+       "会議に出ること",
+       "休みを取ること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "医者は患者に、お酒を減らすように警告しました。毎日歩くことも勧めました。患者はそうすると約束しました。彼は、前の年に健康に気をつけていなかったことを認めました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의사는 환자에게 술을 줄이라고 경고했어요. 또한 매일 걷기를 제안했어요. 환자는 그렇게 하겠다고 약속했어요. 그는 지난해 건강을 소홀히 했던 것을 인정했어요.",
+     "en": "The doctor warned the patient to cut down on alcohol. She also suggested walking every day. The patient promised to do so. He admitted that he had neglected his health the year before."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "患者は何を約束しましたか。",
+      "options": [
+       "医者に言われたとおりにすること",
+       "病院を変えること",
+       "仕事を辞めること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "お客様センターです。"
+      },
+      {
+       "s": "B",
+       "t": "先週買った製品が壊れていると伝えたのに、返事がありません。"
+      },
+      {
+       "s": "A",
+       "t": "申し訳ありません。担当者が明日ご連絡すると約束しました。"
+      },
+      {
+       "s": "B",
+       "t": "分かりました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 고객 센터입니다.\n손님: 지난주에 산 제품이 고장 났다고 말씀드렸는데 아직 답이 없어요.\n직원: 죄송합니다. 담당자가 내일 연락드리겠다고 약속했습니다.\n손님: 알겠습니다.",
+     "en": "Staff: Customer centre.\nGuest: I told you the product I bought last week was broken, but I've had no reply.\nStaff: I'm sorry. The person in charge promised to contact you tomorrow.\nGuest: All right."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "先週買った______が壊れています",
+      "answers": [
+       "製品"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "担当者が______連絡すると約束しました",
+      "answers": [
+       "明日"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 彼は疲れていると___。\n2) 医者は酒を減らす___警告しました。\n3) 彼は次の日に終わらせると___。",
+    "trans": {
+     "ko": "1) 그는 자기가 옳다고 주장했어요. 2) 그녀는 일찍 출발하자고 제안했어요. 3) 그는 실수를 인정했어요.",
+     "en": "1) He insisted that he was right. 2) She suggested leaving early. 3) He admitted making a mistake."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "彼は疲れていると___。",
+      "options": [
+       "言いました",
+       "言わせました",
+       "言われました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "医者は酒を減らす___警告しました。",
+      "options": [
+       "ように",
+       "ので",
+       "ながら"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼は次の日に終わらせると___。",
+      "options": [
+       "約束しました",
+       "約束させました",
+       "約束されました"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "先週、友達が新しい仕事が大変だったと(1)。上司が仕事を多く与えすぎると不満を言っていました。私は上司と話す(2)勧めました。彼は次の週にそうすると(3)。",
+    "trans": {
+     "ko": "의사는 환자에게 술을 줄이라고 경고했어요. 또한 매일 걷기를 제안했어요. 환자는 그렇게 하겠다고 약속했어요. 그는 지난해 건강을 소홀히 했던 것을 인정했어요.",
+     "en": "The doctor warned the patient to cut down on alcohol. She also suggested walking every day. The patient promised to do so. He admitted that he had neglected his health the year before."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "言いました",
+       "言わせました",
+       "言われました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "ように",
+       "ので",
+       "ながら"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "約束しました",
+       "約束させました",
+       "約束されました"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ニュース\n昨日の記者会見で、市長は翌年は税金を上げないと約束しました。予算が足りないという批判に対して、効率よく使うと主張しました。野党議員は、詳しい計画を出すように求めました。",
+    "trans": {
+     "ko": "뉴스\n시장은 어제 기자 회견에서 내년에 세금을 올리지 않겠다고 약속했다. 그는 예산이 부족하다는 비판에 대해 효율적으로 쓰겠다고 주장했다. 반대 의원들은 구체적인 계획을 요구했다.",
+     "en": "NEWS\nAt yesterday's press conference the mayor promised not to raise taxes the following year. In response to criticism that the budget was short, he insisted that it would be used efficiently. Opposition members asked for a detailed plan."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "市長は何を約束しましたか。",
+      "options": [
+       "税金を上げないこと",
+       "予算を増やすこと",
+       "辞めること"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "野党議員は何を求めましたか。",
+      "options": [
+       "詳しい計画",
+       "新しい市長",
+       "選挙"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジフさんは会議で新しいプロジェクトを提案しました。何人かの同僚は費用を心配していると言いました。結局、一か月だけ試してみることに決まりました。",
+    "trans": {
+     "ko": "지후는 회의에서 새 프로젝트를 제안했어요. 몇몇 동료는 비용을 걱정한다고 말했어요. 결국 그들은 한 달 동안 시험해 보기로 합의했어요.",
+     "en": "Jihu proposed a new project at the meeting. Some colleagues said they were worried about the cost. In the end they agreed to try it for a month."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジフさんは新しいプロジェクトを提案しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "みんなは費用を全く心配しませんでした。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "会議は火曜日にありました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "彼は何と言いましたか。",
+    "read": "かれはなんといいましたか。",
+    "ko": "그가 뭐라고 했어요?",
+    "en": "What did he say?",
+    "situation": {
+     "ko": "남의 말을 물을 때",
+     "en": "Asking what someone said"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "彼は自分が正しいと主張しました。",
+    "read": "かれはじぶんがただしいとしゅちょうしました。",
+    "ko": "그는 자기가 옳다고 주장했어요.",
+    "en": "He insisted that he was right.",
+    "situation": {
+     "ko": "주장을 전할 때",
+     "en": "Reporting an insistence"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "彼女は早く出ようと提案しました。",
+    "read": "かのじょははやくでようとていあんしました。",
+    "ko": "그녀는 일찍 출발하자고 제안했어요.",
+    "en": "She suggested leaving early.",
+    "situation": {
+     "ko": "제안을 전할 때",
+     "en": "Reporting a suggestion"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "彼は間違いを認めました。",
+    "read": "かれはあいだちがいをみとめました。",
+    "ko": "그는 실수를 인정했어요.",
+    "en": "He admitted making a mistake.",
+    "situation": {
+     "ko": "인정을 전할 때",
+     "en": "Reporting an admission"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "医者は酒を減らすように警告しました。",
+    "read": "いしゃはさけをへらすようにけいこくしました。",
+    "ko": "의사는 술을 줄이라고 경고했어요.",
+    "en": "The doctor warned him to cut down on alcohol.",
+    "situation": {
+     "ko": "경고를 전할 때",
+     "en": "Reporting a warning"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "彼は前の日にここに来たと言いました。",
+    "read": "かれはまえのひにここにきたといいました。",
+    "ko": "그는 어제 이곳에 왔다고 말했어요.",
+    "en": "He said he had come here the day before.",
+    "situation": {
+     "ko": "시제를 바꿔 전할 때",
+     "en": "Changing tenses"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "彼は次の日に終わらせると約束しました。",
+    "read": "かれはつぎのひにおわらせるとやくそくしました。",
+    "ko": "그는 그 일을 내일 끝내겠다고 약속했어요.",
+    "en": "He promised to finish it the next day.",
+    "situation": {
+     "ko": "약속을 전할 때",
+     "en": "Reporting a promise"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "詳しいことは彼が自分で話します。",
+    "read": "くわしいことはかれがじぶんではなします。",
+    "ko": "자세한 내용은 그가 직접 말해 줄 거예요.",
+    "en": "He will tell you the details himself.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Ending"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜と言いました。",
+    "read": "〜といいました。",
+    "ko": "~라고 말했다.",
+    "en": "S + said (that) + backshifted clause."
+   },
+   {
+    "id": "w2",
+    "t": "〜と提案しました。",
+    "read": "〜とていあんしました。",
+    "ko": "~하자고 제안했다.",
+    "en": "S + suggested + -ing / that + S + should + verb."
+   },
+   {
+    "id": "w3",
+    "t": "〜と認めました。",
+    "read": "〜とみとめました。",
+    "ko": "~라고 인정했다.",
+    "en": "S + admitted + -ing."
+   },
+   {
+    "id": "w4",
+    "t": "〜ように警告しました。",
+    "read": "〜ようにけいこくしました。",
+    "ko": "~하라고 경고했다.",
+    "en": "S + warned + O + to + verb."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "친구에게 들은 이야기를 간접화법과 다양한 전달 동사를 써서 4문장으로 써 보세요.",
+    "en": "Write 4 sentences retelling what a friend said, using reported speech and varied reporting verbs."
+   },
+   "must_include": [
+    {
+     "label": "と言いました",
+     "match": [
+      "と言いました"
+     ]
+    },
+    {
+     "label": "不満",
+     "match": [
+      "不満を言って"
+     ]
+    },
+    {
+     "label": "約束",
+     "match": [
+      "約束しました"
+     ]
+    }
+   ],
+   "model": "先週、友達が新しい仕事でとても大変だったと言いました。上司が仕事を多く与えすぎると不満を言っていました。私は上司と話すように勧めました。彼は次の週にそうすると約束しました。",
+   "model_trans": {
+    "ko": "친구는 지난주에 새 직장에서 힘들었다고 말했어요. 그는 상사가 너무 많은 일을 시킨다고 불평했어요. 저는 그에게 상사와 이야기해 보라고 조언했어요. 그는 다음 주에 그렇게 하겠다고 약속했어요.",
+    "en": "My friend said last week that he had had a hard time at his new job. He complained that his boss gave him too much work. I advised him to talk to his boss. He promised to do so the following week."
+   }
+  }
+ }
+}

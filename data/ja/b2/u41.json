@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u41",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 41,
+  "concept": "B2.U41",
+  "status": "live",
+  "title": {
+   "target": "環境と持続可能性",
+   "ko": "환경과 지속 가능성",
+   "en": "Environment and sustainability"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "気候変動",
+   "pos": "noun",
+   "read": "きこうへんどう",
+   "ko": "기후 변화",
+   "en": "climate change",
+   "ex": {
+    "t": "気候変動は世界的な問題です。",
+    "read": "きこうへんどうはせかいてきなもんだいです。",
+    "ko": "기후 변화는 전 세계의 문제예요.",
+    "en": "Climate change is a global problem."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "温室効果ガス",
+   "pos": "noun",
+   "read": "おんしつこうかガス",
+   "ko": "온실가스",
+   "en": "greenhouse gas",
+   "ex": {
+    "t": "温室効果ガスを減らさなければなりません。",
+    "read": "おんしつこうかガスをへらさなければなりません。",
+    "ko": "온실가스 배출을 줄여야 해요.",
+    "en": "We must reduce greenhouse gas emissions."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "再生可能エネルギー",
+   "pos": "noun",
+   "read": "さいせいかのうエネルギー",
+   "ko": "재생 에너지",
+   "en": "renewable energy",
+   "ex": {
+    "t": "再生可能エネルギーが広がっています。",
+    "read": "さいせいかのうエネルギーがひろがっています。",
+    "ko": "재생 에너지 사용이 늘고 있어요.",
+    "en": "The use of renewable energy is growing."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "汚染",
+   "pos": "noun",
+   "read": "おせん",
+   "ko": "오염",
+   "en": "pollution",
+   "ex": {
+    "t": "海の汚染が深刻です。",
+    "read": "うみのおせんがしんこくです。",
+    "ko": "대기 오염이 심각해요.",
+    "en": "Air pollution is serious."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "持続可能な",
+   "pos": "adj",
+   "read": "じぞくかのうな",
+   "ko": "지속 가능한",
+   "en": "sustainable",
+   "ex": {
+    "t": "持続可能な社会を目指します。",
+    "read": "じぞくかのうなしゃかいをめざします。",
+    "ko": "지속 가능한 개발이 필요해요.",
+    "en": "Sustainable development is needed."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "リサイクルする",
+   "pos": "verb",
+   "read": "リサイクルする",
+   "ko": "재활용하다",
+   "en": "recycle",
+   "ex": {
+    "t": "プラスチックはリサイクルするべきです。",
+    "read": "プラスチックはリサイクルするべきです。",
+    "ko": "플라스틱을 재활용해야 해요.",
+    "en": "Plastic should be recycled."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "絶滅の危機にある",
+   "pos": "adj",
+   "read": "ぜつめつのききにある",
+   "ko": "멸종 위기의",
+   "en": "endangered",
+   "ex": {
+    "t": "その動物は絶滅の危機にあります。",
+    "read": "そのどうぶつはぜつめつのききにあります。",
+    "ko": "그 동물은 멸종 위기에 처했어요.",
+    "en": "The animal is endangered."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "炭素排出量",
+   "pos": "noun",
+   "read": "たんそはいしゅつりょう",
+   "ko": "탄소 발자국",
+   "en": "carbon footprint",
+   "ex": {
+    "t": "自分の炭素排出量を減らします。",
+    "read": "じぶんのたんそはいしゅつりょうをへらします。",
+    "ko": "탄소 발자국을 줄이려고 노력해요.",
+    "en": "I try to reduce my carbon footprint."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "守る",
+   "pos": "verb",
+   "read": "まもる",
+   "ko": "보호하다",
+   "en": "protect",
+   "ex": {
+    "t": "自然を守ることが大切です。",
+    "read": "しぜんをまもることがたいせつです。",
+    "ko": "우리는 환경을 보호해야 해요.",
+    "en": "We must protect the environment."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "ごみ",
+   "pos": "noun",
+   "read": "ごみ",
+   "ko": "쓰레기",
+   "en": "waste",
+   "ex": {
+    "t": "ごみを減らす努力をします。",
+    "read": "ごみをへらすどりょくをします。",
+    "ko": "음식물 쓰레기가 너무 많아요.",
+    "en": "There is too much food waste."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "環境の表現：〜べきだ・〜ば〜だろう・〜を減らす・〜の結果",
+   "en": "Environment: 〜べきだ / 〜ば〜だろう / 〜を減らす / 〜の結果"
+  },
+  "explain": {
+   "ko": "環境問題では、義務や提案を「〜べきだ／〜なければならない」で言います：「プラスチックはリサイクルするべきです。」仮定と見通しは「〜ば〜でしょう」：「政府が支援すれば、排出量は減るでしょう。」減らすことは「〜を減らす／削減する」、原因と結果は「〜の結果」「〜のため」で述べます。最後に「小さな行動も大きな違いを生みます」と結びます。",
+   "en": "For environmental issues, obligation and proposals use 「〜べきだ／〜なければならない」: 「プラスチックはリサイクルするべきです。」 Conditions and forecasts use 「〜ば〜でしょう」: 「政府が支援すれば、排出量は減るでしょう。」 Reducing is 「〜を減らす／削減する」; cause and result use 「〜の結果」「〜のため」. Close with 「小さな行動も大きな違いを生みます」."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "提案 / Proposal",
+     "〜べきだ",
+     "リサイクルするべきです。"
+    ],
+    [
+     "仮定 / Condition",
+     "〜ば〜でしょう",
+     "支援すれば、排出量は減るでしょう。"
+    ],
+    [
+     "削減 / Reduce",
+     "〜を減らす",
+     "ごみを減らします。"
+    ],
+    [
+     "結果 / Result",
+     "〜の結果",
+     "その結果、汚染が減りました。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜べきだ」は強い提案です。",
+    "en": "「〜べきだ」 is a strong proposal."
+   },
+   {
+    "ko": "「〜ば」は仮定で、後ろに「でしょう」を続けて見通しを言います。",
+    "en": "「〜ば」 is hypothetical; add 「でしょう」 for a forecast."
+   },
+   {
+    "ko": "「削減」は「減らす」の硬い言い方です。",
+    "en": "「削減」 is a formal word for 「減らす」."
+   }
+  ],
+  "examples": [
+   {
+    "t": "気候変動は世界的な問題です。",
+    "read": "きこうへんどうはせかいてきなもんだいです。",
+    "ko": "기후 변화는 전 세계의 문제예요.",
+    "en": "Climate change is a global problem."
+   },
+   {
+    "t": "温室効果ガスを減らさなければなりません。",
+    "read": "おんしつこうかガスをへらさなければなりません。",
+    "ko": "온실가스 배출을 줄여야 해요.",
+    "en": "We must reduce greenhouse gas emissions."
+   },
+   {
+    "t": "プラスチックはリサイクルするべきです。",
+    "read": "プラスチックはリサイクルするべきです。",
+    "ko": "플라스틱을 재활용해야 해요.",
+    "en": "Plastic should be recycled."
+   },
+   {
+    "t": "支援すれば、排出量は減るでしょう。",
+    "read": "しえんすれば、はいしゅつりょうはへるでしょう。",
+    "ko": "정부가 지원한다면 재생 에너지는 더 늘어날 거예요.",
+    "en": "If the government supported it, renewable energy would grow."
+   },
+   {
+    "t": "小さな行動も大きな違いを生みます。",
+    "read": "ちいさなこうどうもおおきなちがいをうみます。",
+    "ko": "탄소 발자국을 줄이려고 노력해요.",
+    "en": "I try to reduce my carbon footprint."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "プラスチックは___べきです。",
+    "options": [
+     "リサイクルする",
+     "忘れる",
+     "破る"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "政府が支援___、排出量は減るでしょう。",
+    "options": [
+     "すれば",
+     "しないで",
+     "しても"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "温室効果ガスを___なければなりません。",
+    "options": [
+     "減らさ",
+     "増やさ",
+     "忘れ"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "自然を___ことが大切です。",
+    "options": [
+     "守る",
+     "壊す",
+     "忘れる"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "環境のために何をしていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 환경을 위해 뭘 하세요?",
+     "en": "(Question) What do you do for the environment?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "ごみを減らすようにしています。",
+       "昨日行きました。",
+       "知りません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "プラスチックはどうすればいいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 기후 변화를 막으려면 어떻게 해야 해요?",
+     "en": "(Question) What should we do to stop climate change?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "洗って、ごみ箱に入れます。",
+       "そのまま燃やします。",
+       "海に捨てます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "環境のために何かしてる？"
+      },
+      {
+       "s": "B",
+       "t": "プラスチックをリサイクルして、炭素排出量を減らすようにしているよ。"
+      },
+      {
+       "s": "A",
+       "t": "政府は何をするべきかな。"
+      },
+      {
+       "s": "B",
+       "t": "再生可能エネルギーを支援すれば、排出量は減るだろうね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 환경을 위해 뭘 해?\nB: 쓰레기는 분리해서 재활용하고 탄소 발자국을 줄이려고 노력해.\nA: 정부는 뭘 해야 할까?\nB: 재생 에너지를 더 지원한다면 배출량이 크게 줄 거야.",
+     "en": "A: What do you do for the environment?\nB: I sort my waste for recycling and try to reduce my carbon footprint.\nA: What should the government do?\nB: If it supported renewable energy more, emissions would fall greatly."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "政府は何を支援すれば排出量が減りますか。",
+      "options": [
+       "再生可能エネルギー",
+       "自動車",
+       "石油"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "気候変動は世界的な問題です。主な原因は温室効果ガスの排出です。私たちはごみを減らし、リサイクルをし、できるだけ公共交通を使うべきです。小さな行動も、多くの人が行えば大きな違いを生みます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "지구의 평균 기온은 지난 100년 동안 약 1도 올랐습니다. 이는 온실가스 배출 때문으로 알려져 있습니다. 기후 변화는 해수면 상승과 멸종 위기 동물 증가를 불러왔습니다. 지속 가능한 에너지로의 전환이 필요합니다.",
+     "en": "The Earth's average temperature has risen by about one degree over the last hundred years. This is known to be caused by greenhouse gas emissions. Climate change has led to rising sea levels and more endangered animals. A shift to sustainable energy is needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "気候変動の主な原因は何ですか。",
+      "options": [
+       "温室効果ガスの排出",
+       "地震",
+       "雨"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "環境センターです。"
+      },
+      {
+       "s": "B",
+       "t": "プラスチックはどうやってリサイクルしますか。"
+      },
+      {
+       "s": "A",
+       "t": "洗って、リサイクルのごみ箱に入れてください。"
+      },
+      {
+       "s": "B",
+       "t": "ありがとうございます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 환경 센터입니다.\n손님: 플라스틱은 어떻게 재활용하나요?\n직원: 분리수거함에 세척해서 넣으시면 됩니다.\n손님: 감사합니다.",
+     "en": "Staff: Environment centre.\nGuest: How do I recycle plastic?\nStaff: Wash it and put it in the recycling bin.\nGuest: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "______はどうやってリサイクルしますか",
+      "answers": [
+       "プラスチック"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "リサイクルの______に入れてください",
+      "answers": [
+       "ごみ箱"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) プラスチックは___べきです。\n2) 政府が支援___、排出量は減るでしょう。\n3) 温室効果ガスを___なければなりません。",
+    "trans": {
+     "ko": "1) 기후 변화는 전 세계의 문제예요. 2) 온실가스 배출을 줄여야 해요. 3) 플라스틱을 재활용해야 해요.",
+     "en": "1) Climate change is a global problem. 2) We must reduce greenhouse gas emissions. 3) Plastic should be recycled."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "プラスチックは___べきです。",
+      "options": [
+       "リサイクルする",
+       "忘れる",
+       "破る"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "政府が支援___、排出量は減るでしょう。",
+      "options": [
+       "すれば",
+       "しないで",
+       "しても"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "温室効果ガスを___なければなりません。",
+      "options": [
+       "減らさ",
+       "増やさ",
+       "忘れ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "気候変動は世界的な問題です。主な原因は(1)の排出です。私たちはごみを減らし、リサイクルをし、できるだけ公共交通を使う(2)です。小さな行動も、多くの人が行えば大きな違いを(3)。",
+    "trans": {
+     "ko": "지구의 평균 기온은 지난 100년 동안 약 1도 올랐습니다. 이는 온실가스 배출 때문으로 알려져 있습니다. 기후 변화는 해수면 상승과 멸종 위기 동물 증가를 불러왔습니다. 지속 가능한 에너지로의 전환이 필요합니다.",
+     "en": "The Earth's average temperature has risen by about one degree over the last hundred years. This is known to be caused by greenhouse gas emissions. Climate change has led to rising sea levels and more endangered animals. A shift to sustainable energy is needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "温室効果ガス",
+       "音楽",
+       "雨"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "べき",
+       "ことがない",
+       "はず"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "生みます",
+       "忘れます",
+       "壊します"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ニュース\n海のプラスチック汚染が深刻になっています。専門家は、このまま続けば、2050年には海の魚より多くなる可能性があると言います。多くの国が使い捨てプラスチックの使用を禁止し始めました。",
+    "trans": {
+     "ko": "기사\n한 도시는 올해부터 일회용 플라스틱 사용을 금지했다. 시민들은 처음에는 불편했지만 곧 적응했다. 시 당국은 쓰레기가 30% 줄었다고 발표했다. 다른 도시들도 같은 정책을 검토하고 있다.",
+     "en": "ARTICLE\nA city has banned single-use plastic from this year. At first citizens found it inconvenient but soon adapted. The city authorities announced that waste had fallen by 30%. Other cities are considering the same policy."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "何が深刻になっていますか。",
+      "options": [
+       "海のプラスチック汚染",
+       "山の火事",
+       "空の汚れ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "多くの国は何を始めましたか。",
+      "options": [
+       "使い捨てプラスチックの禁止",
+       "魚の輸入",
+       "車の販売"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ウンジさんは、自分の炭素排出量を減らすために、車をやめて自転車で通勤しています。最初は大変でしたが、健康にもなりました。",
+    "trans": {
+     "ko": "지민은 매주 일요일 해변을 청소해요. 그녀는 작은 실천이 큰 차이를 만든다고 믿어요. 최근에는 친구들도 함께 참여해요.",
+     "en": "Jimin cleans the beach every Sunday. She believes small actions make a big difference. Recently her friends have joined in too."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ウンジさんは自転車で通勤しています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ウンジさんは車で通勤しています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ウンジさんは釜山に住んでいます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "環境のために何をしていますか。",
+    "read": "かんきょうのためになにをしていますか。",
+    "ko": "환경을 위해 뭘 하세요?",
+    "en": "What do you do for the environment?",
+    "situation": {
+     "ko": "실천을 물을 때",
+     "en": "Asking about actions"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "気候変動は世界的な問題です。",
+    "read": "きこうへんどうはせかいてきなもんだいです。",
+    "ko": "기후 변화는 전 세계의 문제예요.",
+    "en": "Climate change is a global problem.",
+    "situation": {
+     "ko": "문제를 말할 때",
+     "en": "Describing a problem"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "温室効果ガスを減らさなければなりません。",
+    "read": "おんしつこうかガスをへらさなければなりません。",
+    "ko": "온실가스 배출을 줄여야 해요.",
+    "en": "We must reduce greenhouse gas emissions.",
+    "situation": {
+     "ko": "의무를 말할 때",
+     "en": "Stating a duty"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "プラスチックはリサイクルするべきです。",
+    "read": "プラスチックはリサイクルするべきです。",
+    "ko": "플라스틱을 재활용해야 해요.",
+    "en": "Plastic should be recycled.",
+    "situation": {
+     "ko": "수동태로 말할 때",
+     "en": "Using the passive"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "再生可能エネルギーが広がっています。",
+    "read": "さいせいかのうエネルギーがひろがっています。",
+    "ko": "정부가 지원한다면 재생 에너지는 더 늘어날 거예요.",
+    "en": "If the government supported it, renewable energy would grow.",
+    "situation": {
+     "ko": "조건을 말할 때",
+     "en": "A conditional"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "その動物は絶滅の危機にあります。",
+    "read": "そのどうぶつはぜつめつのききにあります。",
+    "ko": "탄소 발자국을 줄이려고 노력해요.",
+    "en": "I try to reduce my carbon footprint.",
+    "situation": {
+     "ko": "개인 실천",
+     "en": "A personal action"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "自分の炭素排出量を減らします。",
+    "read": "じぶんのたんそはいしゅつりょうをへらします。",
+    "ko": "그 동물은 멸종 위기에 처했어요.",
+    "en": "The animal is endangered.",
+    "situation": {
+     "ko": "위기를 말할 때",
+     "en": "Describing risk"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "小さな行動も大きな違いを生みます。",
+    "read": "ちいさなこうどうもおおきなちがいをうみます。",
+    "ko": "작은 실천이 큰 변화를 만들어요.",
+    "en": "Small actions make a big difference.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜べきです。",
+    "read": "〜べきです。",
+    "ko": "~해야 한다",
+    "en": "should / must + verb; be + p.p."
+   },
+   {
+    "id": "w2",
+    "t": "〜ば〜でしょう。",
+    "read": "〜ば〜でしょう。",
+    "ko": "~한다면 ~할 것이다",
+    "en": "If + past simple, would + verb."
+   },
+   {
+    "id": "w3",
+    "t": "〜を減らします。",
+    "read": "〜をへらします。",
+    "ko": "~을 줄이다",
+    "en": "reduce / cut + noun."
+   },
+   {
+    "id": "w4",
+    "t": "〜の結果、〜。",
+    "read": "〜のけっか、〜。",
+    "ko": "~로 인해",
+    "en": "as a result of / due to + noun."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "환경 문제의 원인과 해결책을 4문장으로 써 보세요. 수동태와 조건문을 하나씩 쓰세요.",
+    "en": "Write 4 sentences about the causes of and solutions to an environmental problem, using a passive and a conditional."
+   },
+   "must_include": [
+    {
+     "label": "リサイクル",
+     "match": [
+      "リサイクルするべき"
+     ]
+    },
+    {
+     "label": "再生可能エネルギー",
+     "match": [
+      "再生可能エネルギー"
+     ]
+    },
+    {
+     "label": "気候変動",
+     "match": [
+      "気候変動"
+     ]
+    }
+   ],
+   "model": "温室効果ガスの排出は気候変動の主な原因です。プラスチックなどのごみはリサイクルするべきです。政府が再生可能エネルギーをもっと支援すれば、排出量は大きく減るでしょう。私たちの小さな行動も大きな違いを生みます。",
+   "model_trans": {
+    "ko": "온실가스 배출은 기후 변화의 주요 원인입니다. 플라스틱과 같은 쓰레기는 재활용해야 합니다. 정부가 재생 에너지를 더 지원한다면 배출량은 크게 줄 것입니다. 우리의 작은 실천도 큰 변화를 만들 수 있습니다.",
+    "en": "Greenhouse gas emissions are the main cause of climate change. Waste such as plastic should be recycled. If the government supported renewable energy more, emissions would fall greatly. Our small actions can also make a big difference."
+   }
+  }
+ }
+}

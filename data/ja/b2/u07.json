@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u07",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 7,
+  "concept": "B2.U07",
+  "status": "live",
+  "title": {
+   "target": "「の」で強調する",
+   "ko": "강조 구문 (분열문)",
+   "en": "Cleft sentences"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "原因",
+   "pos": "noun",
+   "read": "げんいん",
+   "ko": "원인",
+   "en": "cause",
+   "ex": {
+    "t": "問題の原因を探します。",
+    "read": "もんだいのげんいんをさがします。",
+    "ko": "문제의 원인을 찾아야 해요.",
+    "en": "We need to find the cause of the problem."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "理由",
+   "pos": "noun",
+   "read": "りゆう",
+   "ko": "이유",
+   "en": "reason",
+   "ex": {
+    "t": "彼が辞めた理由は給料です。",
+    "read": "かれがやめたりゆうはきゅうりょうです。",
+    "ko": "그가 떠난 이유는 아무도 몰라요.",
+    "en": "Nobody knows the reason why he left."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "必要とする",
+   "pos": "verb",
+   "read": "ひつようとする",
+   "ko": "필요로 하다",
+   "en": "require",
+   "ex": {
+    "t": "私が必要としているのは休みです。",
+    "read": "わたしがひつようとしているのはやすみです。",
+    "ko": "이 일은 많은 인내를 필요로 해요.",
+    "en": "This job requires a lot of patience."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "焦点",
+   "pos": "noun",
+   "read": "しょうてん",
+   "ko": "초점",
+   "en": "focus",
+   "ex": {
+    "t": "話の焦点をはっきりさせます。",
+    "read": "はなしのしょうてんをはっきりさせます。",
+    "ko": "회의의 초점은 비용 절감이에요.",
+    "en": "The focus of the meeting is cost reduction."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "はっきりさせる",
+   "pos": "phrase",
+   "read": "はっきりさせる",
+   "ko": "분명히 하다",
+   "en": "make clear",
+   "ex": {
+    "t": "私の立場をはっきりさせたいです。",
+    "read": "わたしのたちばをはっきりさせたいです。",
+    "ko": "제 입장을 분명히 하고 싶어요.",
+    "en": "I'd like to make my position clear."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "本当に",
+   "pos": "adv",
+   "read": "ほんとうに",
+   "ko": "정말로",
+   "en": "genuinely",
+   "ex": {
+    "t": "本当に嫌いなのはうそです。",
+    "read": "ほんとうにきらいなのはうそです。",
+    "ko": "저는 그 일을 정말로 좋아해요.",
+    "en": "I genuinely enjoy that work."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "批判する",
+   "pos": "verb",
+   "read": "ひはんする",
+   "ko": "비판하다",
+   "en": "criticise",
+   "ex": {
+    "t": "彼の態度を批判しました。",
+    "read": "かれのたいどをひはんしました。",
+    "ko": "그는 정부의 정책을 비판했어요.",
+    "en": "He criticised the government's policy."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "優先事項",
+   "pos": "noun",
+   "read": "ゆうせんじこう",
+   "ko": "우선순위",
+   "en": "priority",
+   "ex": {
+    "t": "今の優先事項は勉強です。",
+    "read": "いまのゆうせんじこうはべんきょうです。",
+    "ko": "건강이 가장 중요한 우선순위예요.",
+    "en": "Health is the top priority."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "気づく",
+   "pos": "verb",
+   "read": "きづく",
+   "ko": "깨닫다",
+   "en": "realise",
+   "ex": {
+    "t": "大切なことに気づきました。",
+    "read": "たいせつなことにきづきました。",
+    "ko": "나는 그제야 내 잘못을 깨달았어요.",
+    "en": "Only then did I realise my mistake."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "強調",
+   "pos": "noun",
+   "read": "きょうちょう",
+   "ko": "강조",
+   "en": "emphasis",
+   "ex": {
+    "t": "ここを強調したいです。",
+    "read": "ここをきょうちょうしたいです。",
+    "ko": "그 보고서는 안전에 강조를 두었어요.",
+    "en": "The report put emphasis on safety."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "強調構文：〜のは〜だ・〜のが〜です・〜理由は〜からだ",
+   "en": "Cleft sentences: 〜のは〜だ / 〜のが〜です / 〜理由は〜からだ"
+  },
+  "explain": {
+   "ko": "強調したいところを「〜のは〜だ／〜のが〜です」で取り出します。「私が必要なのは十分な休みです。」「問題を解決したのはキムさんです。」「私たちが出会ったのはこのカフェです。」理由は「〜理由は〜からです」：「彼が辞めた理由は給料です。」「いちばん心配なのは費用です」のように、形容詞の文でも使えます。",
+   "en": "To highlight one part, use 「〜のは〜だ／〜のが〜です」: 「私が必要なのは十分な休みです。」 「問題を解決したのはキムさんです。」 「私たちが出会ったのはこのカフェです。」 Reasons use 「〜理由は〜からです」: 「彼が辞めた理由は給料です。」 Adjective sentences work too: 「いちばん心配なのは費用です。」"
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "もの / Thing",
+     "〜のは〜だ",
+     "必要なのは休みです。"
+    ],
+    [
+     "人 / Person",
+     "〜のは〜さんだ",
+     "解決したのはキムさんです。"
+    ],
+    [
+     "場所 / Place",
+     "〜のは〜でだ",
+     "出会ったのはこのカフェでした。"
+    ],
+    [
+     "理由 / Reason",
+     "〜理由は〜からだ",
+     "辞めた理由は給料です。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「の」の代わりに「こと／ところ」は使えません。「〜のは」の形です。",
+    "en": "Use 「〜のは」, not 「〜ことは」, for this pattern."
+   },
+   {
+    "ko": "強調されるのは「だ／です」の直前の言葉です。",
+    "en": "The word right before 「だ／です」 is what gets emphasised."
+   },
+   {
+    "ko": "話し言葉では「〜んです」でも、同じような強調ができます。",
+    "en": "In speech, 「〜んです」 can give a similar emphasis."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私が必要なのは十分な休みです。",
+    "read": "わたしがひつようなのはじゅうぶんなやすみです。",
+    "ko": "내가 필요한 것은 충분한 휴식이에요.",
+    "en": "What I need is enough rest."
+   },
+   {
+    "t": "問題を解決したのはキムさんでした。",
+    "read": "もんだいをかいけつしたのはキムさんでした。",
+    "ko": "그 문제를 해결한 사람은 바로 김 선생님이에요.",
+    "en": "It was Mr Kim who solved the problem."
+   },
+   {
+    "t": "いちばん心配なのは費用です。",
+    "read": "いちばんしんぱいなのはひようです。",
+    "ko": "내가 가장 걱정하는 것은 비용이에요.",
+    "en": "What worries me most is the cost."
+   },
+   {
+    "t": "私たちが出会ったのはこのカフェでした。",
+    "read": "わたしたちがであったのはこのカフェでした。",
+    "ko": "우리가 만난 곳은 바로 이 카페였어요.",
+    "en": "It was in this café that we met."
+   },
+   {
+    "t": "彼が辞めた理由は給料でした。",
+    "read": "かれがやめたりゆうはきゅうりょうでした。",
+    "ko": "그가 떠난 이유는 급여 때문이에요.",
+    "en": "The reason why he left was the pay."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私が必要な___十分な休みです。",
+    "options": [
+     "のは",
+     "ことが",
+     "ところに"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "問題を解決した___キムさんでした。",
+    "options": [
+     "のは",
+     "ことを",
+     "ために"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "私たちが出会った___このカフェでした。",
+    "options": [
+     "のは",
+     "ことで",
+     "ために"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "彼が辞めた___は給料でした。",
+    "options": [
+     "理由",
+     "予定",
+     "時間"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "あなたがいちばん必要としているものは何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 가장 필요한 게 뭐예요?",
+     "en": "(Question) What do you need most?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "必要なのは少し休むことです。",
+       "三時に着きます。",
+       "あの店です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どうしてその仕事を辞めたのですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 그 직장을 그만뒀어요?",
+     "en": "(Question) Why did you leave that job?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "辞めた理由は給料です。",
+       "来月行きます。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この会議でいちばん大事なことは何？"
+      },
+      {
+       "s": "B",
+       "t": "心配なのは費用だね。会社に必要なのは節約計画だよ。"
+      },
+      {
+       "s": "A",
+       "t": "その計画を作ったのは誰？"
+      },
+      {
+       "s": "B",
+       "t": "作ったのはキムさんだよ。問題の原因を見つけたんだ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이번 회의에서 가장 중요한 건 뭐야?\nB: 내가 걱정하는 것은 비용이야. 회사가 정말 필요로 하는 건 절감 계획이지.\nA: 그 계획을 짠 사람은 누구야?\nB: 바로 김 부장님이야. 그분이 문제의 원인을 찾았어.",
+     "en": "A: What's the most important thing in this meeting?\nB: What worries me is the cost. What the company really needs is a savings plan.\nA: Who made the plan?\nB: It was Mr Kim who made it. He found the cause of the problem."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "節約計画を作ったのは誰ですか。",
+      "options": [
+       "キムさん",
+       "男の人",
+       "社長"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私がこの会社を辞めた理由は、給料ではありません。本当にしたかったのは、新しいことへの挑戦です。決心したきっかけは、去年の海外出張でした。今の優先事項は勉強です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제가 이 회사를 그만둔 이유는 급여 때문이 아니에요. 제가 정말 원했던 것은 새로운 도전이었어요. 저에게 이 결심을 하게 만든 것은 바로 지난해의 해외 출장이었어요. 이제 제 우선순위는 배움이에요.",
+     "en": "The reason why I left this company wasn't the pay. What I really wanted was a new challenge. It was last year's business trip abroad that made me decide. Now my priority is learning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "話している人はなぜ会社を辞めましたか。",
+      "options": [
+       "新しい挑戦をしたかったから",
+       "給料が低かったから",
+       "病気だったから"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "進路相談です。"
+      },
+      {
+       "s": "B",
+       "t": "私が本当に望んでいるのは、安定した仕事です。"
+      },
+      {
+       "s": "A",
+       "t": "今、いちばん心配なのは何ですか。"
+      },
+      {
+       "s": "B",
+       "t": "給料です。家族を支えなければならないからです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "상담사: 직업 상담입니다.\n손님: 제가 정말 원하는 것은 안정된 일이에요.\n상담사: 지금 가장 걱정되는 게 무엇인가요?\n손님: 급여예요. 이유는 가족을 지켜야 하기 때문이에요.",
+     "en": "Adviser: Career advice.\nGuest: What I really want is a stable job.\nAdviser: What worries you most at the moment?\nGuest: The pay. The reason is that I must support my family."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さんが本当に望んでいるのは______な仕事です",
+      "answers": [
+       "安定"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お客さんは______を支えなければなりません",
+      "answers": [
+       "家族"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私が必要な___十分な休みです。\n2) 問題を解決した___キムさんでした。\n3) 私たちが出会った___このカフェでした。",
+    "trans": {
+     "ko": "1) 내가 필요한 것은 충분한 휴식이에요. 2) 그 문제를 해결한 사람은 바로 김 선생님이에요. 3) 우리가 만난 곳은 바로 이 카페였어요.",
+     "en": "1) What I need is enough rest. 2) It was Mr Kim who solved the problem. 3) It was in this café that we met."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私が必要な___十分な休みです。",
+      "options": [
+       "のは",
+       "ことが",
+       "ところに"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "問題を解決した___キムさんでした。",
+      "options": [
+       "のは",
+       "ことを",
+       "ために"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私たちが出会った___このカフェでした。",
+      "options": [
+       "のは",
+       "ことで",
+       "ために"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私がこの会社を辞めた理由は、給料(1)ありません。本当にしたかったのは、新しい挑戦(2)。決心したきっかけは、去年の海外出張でした。今の優先事項は(3)です。",
+    "trans": {
+     "ko": "제가 이 회사를 그만둔 이유는 급여 때문이 아니에요. 제가 정말 원했던 것은 새로운 도전이었어요. 저에게 이 결심을 하게 만든 것은 바로 지난해의 해외 출장이었어요. 이제 제 우선순위는 배움이에요.",
+     "en": "The reason why I left this company wasn't the pay. What I really wanted was a new challenge. It was last year's business trip abroad that made me decide. Now my priority is learning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "では",
+       "に",
+       "を"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "です",
+       "でした",
+       "ました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "勉強",
+       "休み",
+       "旅行"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "新聞のコラム\n多くの人が、この町の問題は交通だと言います。しかし私は、もっと大きな問題は住宅だと思います。市民が本当に必要としているのは、手ごろな価格の家です。市が優先すべきなのは、この問題です。",
+    "trans": {
+     "ko": "신문 칼럼\n많은 사람이 도시의 문제는 교통이라고 말한다. 그러나 내가 보기에 더 큰 문제는 주택이다. 시민들이 정말 필요로 하는 것은 값싼 집이다. 시가 우선순위로 삼아야 하는 것도 바로 이 문제다.",
+     "en": "NEWSPAPER COLUMN\nMany people say that the city's problem is traffic. But in my view the bigger problem is housing. What citizens really need is affordable homes. And it is this issue that the city should make its priority."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "筆者は、より大きな問題は何だと考えていますか。",
+      "options": [
+       "住宅",
+       "交通",
+       "学校"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "市民が必要としているのは何ですか。",
+      "options": [
+       "手ごろな価格の家",
+       "新しい道路",
+       "大きな公園"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジミンさんは新しい仕事に満足していませんでした。本当にほしかったのは、柔軟な勤務時間でした。それで、フリーランスで働くことにしました。",
+    "trans": {
+     "ko": "지민은 새 직장에 만족하지 않았어요. 그녀가 정말 원한 것은 자유로운 근무 시간이었어요. 그래서 프리랜서로 일하기로 했어요.",
+     "en": "Jimin was not satisfied with her new job. What she really wanted was flexible working hours. So she decided to work as a freelancer."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジミンさんは新しい仕事に満足していませんでした。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ジミンさんは給料が低くて辞めました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ジミンさんは東京に住んでいます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "あなたがいちばん必要としているものは何ですか。",
+    "read": "あなたがいちばんひつようとしているものはなんですか。",
+    "ko": "가장 필요한 게 뭐예요?",
+    "en": "What do you need most?",
+    "situation": {
+     "ko": "필요한 것을 물을 때",
+     "en": "Asking what is needed"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "私が必要なのは十分な休みです。",
+    "read": "わたしがひつようなのはじゅうぶんなやすみです。",
+    "ko": "내가 필요한 것은 충분한 휴식이에요.",
+    "en": "What I need is enough rest.",
+    "situation": {
+     "ko": "필요를 강조할 때",
+     "en": "Emphasising what you need"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "問題を解決したのはキムさんでした。",
+    "read": "もんだいをかいけつしたのはキムさんでした。",
+    "ko": "그 문제를 해결한 사람은 바로 김 선생님이에요.",
+    "en": "It was Mr Kim who solved the problem.",
+    "situation": {
+     "ko": "사람을 강조할 때",
+     "en": "Emphasising a person"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "私たちが出会ったのはこのカフェでした。",
+    "read": "わたしたちがであったのはこのカフェでした。",
+    "ko": "우리가 만난 곳은 바로 이 카페였어요.",
+    "en": "It was in this café that we met.",
+    "situation": {
+     "ko": "장소를 강조할 때",
+     "en": "Emphasising a place"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "彼が辞めた理由は給料でした。",
+    "read": "かれがやめたりゆうはきゅうりょうでした。",
+    "ko": "그가 떠난 이유는 급여 때문이에요.",
+    "en": "The reason why he left was the pay.",
+    "situation": {
+     "ko": "이유를 강조할 때",
+     "en": "Emphasising a reason"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "私が本当に嫌いなのは、うそをつくことです。",
+    "read": "わたしがほんとうにきらいなのは、うそをつくことです。",
+    "ko": "내가 정말 싫어하는 것은 거짓말이에요.",
+    "en": "What I really dislike is lying.",
+    "situation": {
+     "ko": "감정을 강조할 때",
+     "en": "Emphasising a feeling"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "会議で大切なのは時間の管理です。",
+    "read": "かいぎでたいせつなのはじかんのかんりです。",
+    "ko": "회의에서 중요한 것은 시간 관리예요.",
+    "en": "What matters in a meeting is time management.",
+    "situation": {
+     "ko": "핵심을 짚을 때",
+     "en": "Pointing to the key issue"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "私の立場をはっきりさせたいです。",
+    "read": "わたしのたちばをはっきりさせたいです。",
+    "ko": "제 입장을 분명히 하고 싶어요.",
+    "en": "I'd like to make my position clear.",
+    "situation": {
+     "ko": "의견을 마무리할 때",
+     "en": "Clarifying your view"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "私が〜のは〜です。",
+    "read": "わたしが〜のは〜です。",
+    "ko": "~하는 것은 ~이다.",
+    "en": "What + subject + verb + is …"
+   },
+   {
+    "id": "w2",
+    "t": "〜のは〜さんです。",
+    "read": "〜のは〜さんです。",
+    "ko": "~한 사람은 바로 ~이다.",
+    "en": "It was + person + who …"
+   },
+   {
+    "id": "w3",
+    "t": "〜のは〜でした。",
+    "read": "〜のは〜でした。",
+    "ko": "~한 곳은 바로 ~이다.",
+    "en": "It was + place + that …"
+   },
+   {
+    "id": "w4",
+    "t": "〜理由は〜からです。",
+    "read": "〜りゆうは〜からです。",
+    "ko": "~한 이유는 ~이다.",
+    "en": "The reason why … is …"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "분열문을 사용해 자신의 가치관을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about your values, using cleft sentences."
+   },
+   "must_include": [
+    {
+     "label": "のは",
+     "match": [
+      "いちばん大切にしているのは"
+     ]
+    },
+    {
+     "label": "きっかけ",
+     "match": [
+      "きっかけ"
+     ]
+    },
+    {
+     "label": "理由",
+     "match": [
+      "働く理由"
+     ]
+    }
+   ],
+   "model": "私がいちばん大切にしているのは健康です。そう思うようになったきっかけは、去年の大きな病気でした。私が今働く理由は、家族を支えるためです。だから、私が本当に必要なのは安定した仕事です。",
+   "model_trans": {
+    "ko": "제가 가장 중요하게 생각하는 것은 건강이에요. 이 생각을 하게 만든 것은 바로 지난해의 큰 병이었어요. 제가 지금 일하는 이유는 가족을 지키기 위해서예요. 그래서 제가 정말 필요로 하는 것은 안정된 직장이에요.",
+    "en": "What I value most is health. It was last year's serious illness that made me think this way. The reason why I work now is to support my family. So what I really need is a stable job."
+   }
+  }
+ }
+}

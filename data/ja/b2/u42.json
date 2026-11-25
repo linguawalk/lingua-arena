@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u42",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 42,
+  "concept": "B2.U42",
+  "status": "live",
+  "title": {
+   "target": "教育と生涯学習",
+   "ko": "교육과 평생 학습",
+   "en": "Education and lifelong learning"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "生涯学習",
+   "pos": "noun",
+   "read": "しょうがいがくしゅう",
+   "ko": "평생 학습",
+   "en": "lifelong learning",
+   "ex": {
+    "t": "生涯学習は大切です。",
+    "read": "しょうがいがくしゅうはたいせつです。",
+    "ko": "평생 학습은 중요해요.",
+    "en": "Lifelong learning is important."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "カリキュラム",
+   "pos": "noun",
+   "read": "カリキュラム",
+   "ko": "교육 과정",
+   "en": "curriculum",
+   "ex": {
+    "t": "新しいカリキュラムが始まりました。",
+    "read": "あたらしいカリキュラムがはじまりました。",
+    "ko": "교육 과정이 개편되었어요.",
+    "en": "The curriculum has been reformed."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "資格",
+   "pos": "noun",
+   "read": "しかく",
+   "ko": "자격증",
+   "en": "qualification",
+   "ex": {
+    "t": "資格を取りたいです。",
+    "read": "しかくをとりたいです。",
+    "ko": "그는 교사 자격증을 땄어요.",
+    "en": "He got a teaching qualification."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "奨学金",
+   "pos": "noun",
+   "read": "しょうがくきん",
+   "ko": "장학금",
+   "en": "scholarship",
+   "ex": {
+    "t": "彼女は奨学金をもらいました。",
+    "read": "かのじょはしょうがくきんをもらいました。",
+    "ko": "그녀는 장학금을 받았어요.",
+    "en": "She received a scholarship."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "遠隔教育",
+   "pos": "noun",
+   "read": "えんかくきょういく",
+   "ko": "원격 수업",
+   "en": "distance learning",
+   "ex": {
+    "t": "遠隔教育が増えています。",
+    "read": "えんかくきょういくがふえています。",
+    "ko": "원격 수업이 늘고 있어요.",
+    "en": "Distance learning is increasing."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "身につける",
+   "pos": "phrase",
+   "read": "みにつける",
+   "ko": "기술을 익히다",
+   "en": "acquire a skill",
+   "ex": {
+    "t": "新しい技能を身につけています。",
+    "read": "あたらしいぎのうをみにつけています。",
+    "ko": "새로운 기술을 익히고 있어요.",
+    "en": "I'm acquiring a new skill."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "意欲",
+   "pos": "noun",
+   "read": "いよく",
+   "ko": "동기 부여",
+   "en": "motivation",
+   "ex": {
+    "t": "学ぶ意欲が大切です。",
+    "read": "まなぶいよくがたいせつです。",
+    "ko": "학습 동기가 중요해요.",
+    "en": "Motivation is important for learning."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "評価",
+   "pos": "noun",
+   "read": "ひょうか",
+   "ko": "평가",
+   "en": "assessment",
+   "ex": {
+    "t": "評価の方法を変えます。",
+    "read": "ひょうかのほうほうをかえます。",
+    "ko": "평가 방식이 바뀌고 있어요.",
+    "en": "The assessment method is changing."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "卒業する",
+   "pos": "verb",
+   "read": "そつぎょうする",
+   "ko": "졸업하다",
+   "en": "graduate",
+   "ex": {
+    "t": "来年、大学を卒業します。",
+    "read": "らいねん、だいがくをそつぎょうします。",
+    "ko": "그는 작년에 졸업했어요.",
+    "en": "He graduated last year."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "再教育",
+   "pos": "noun",
+   "read": "さいきょういく",
+   "ko": "재교육",
+   "en": "retraining",
+   "ex": {
+    "t": "労働者には再教育が必要です。",
+    "read": "ろうどうしゃにはさいきょういくがひつようです。",
+    "ko": "직장인에게 재교육이 필요해요.",
+    "en": "Workers need retraining."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "学びの表現：〜ている・〜ば〜のに・〜を身につける・〜ために",
+   "en": "Learning: 〜ている / 〜たら〜のに / 〜を身につける / 〜ために"
+  },
+  "explain": {
+   "ko": "今していることや続けていることは「〜ています」で言います：「今、フランス語を習っています。」仮定は「〜たら〜のに／〜ば〜のに」：「もっと時間があったら、料理も習うのに。」技能は「身につける」、資格は「取る」、目標は「〜ために」で述べます：「五年以内に資格を取るために勉強しています。」学びには終わりがないことも「学びに終わりはありません」と言えます。",
+   "en": "What you are doing now or continuing uses 「〜ています」: 「今、フランス語を習っています。」 Hypotheticals use 「〜たら〜のに／〜ば〜のに」: 「もっと時間があったら、料理も習うのに。」 Skills are 「身につける」, qualifications 「取る」, and goals 「〜ために」: 「五年以内に資格を取るために勉強しています。」 You can also say 「学びに終わりはありません」."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "継続 / Ongoing",
+     "〜ています",
+     "今、フランス語を習っています。"
+    ],
+    [
+     "仮定 / Hypothetical",
+     "〜たら〜のに",
+     "時間があったら習うのに。"
+    ],
+    [
+     "技能 / Skill",
+     "〜を身につける",
+     "新しい技能を身につけています。"
+    ],
+    [
+     "目的 / Goal",
+     "〜ために",
+     "資格を取るために勉強します。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜たら〜のに」は、実際はそうでないことを言います。",
+    "en": "「〜たら〜のに」 expresses something contrary to fact."
+   },
+   {
+    "ko": "「身につける」は努力して自分のものにすることです。",
+    "en": "「身につける」 means to make a skill one's own."
+   },
+   {
+    "ko": "「遠隔教育」は離れた場所で学ぶ方法です。",
+    "en": "「遠隔教育」 is learning from a distance."
+   }
+  ],
+  "examples": [
+   {
+    "t": "生涯学習は大切です。",
+    "read": "しょうがいがくしゅうはたいせつです。",
+    "ko": "평생 학습은 중요해요.",
+    "en": "Lifelong learning is important."
+   },
+   {
+    "t": "今、フランス語を習っています。",
+    "read": "いま、フランスごをならっています。",
+    "ko": "그녀는 장학금을 받았어요.",
+    "en": "She received a scholarship."
+   },
+   {
+    "t": "もっと時間があったら、料理も習うのに。",
+    "read": "もっとじかんがあったら、りょうりもならうのに。",
+    "ko": "원격 수업이 늘고 있어요.",
+    "en": "Distance learning is increasing."
+   },
+   {
+    "t": "彼女は奨学金をもらいました。",
+    "read": "かのじょはしょうがくきんをもらいました。",
+    "ko": "시간이 더 있다면 새 언어를 배울 거예요.",
+    "en": "If I had more time, I would learn a new language."
+   },
+   {
+    "t": "労働者には再教育が必要です。",
+    "read": "ろうどうしゃにはさいきょういくがひつようです。",
+    "ko": "직장인에게 재교육이 필요해요.",
+    "en": "Workers need retraining."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "今、フランス語を習って___。",
+    "options": [
+     "います",
+     "ください",
+     "ました"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "もっと時間が___、料理も習うのに。",
+    "options": [
+     "あったら",
+     "なくて",
+     "あっても"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "新しい技能を___います。",
+    "options": [
+     "身につけて",
+     "忘れて",
+     "断って"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "資格を取る___勉強します。",
+    "options": [
+     "ために",
+     "ばかり",
+     "ほど"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今、何を習っていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 지금 뭘 배우고 있어요?",
+     "en": "(Question) What are you learning now?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "フランス語を習っています。",
+       "昨日行きました。",
+       "知りません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "もっと時間があったら、何がしたいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 평생 학습이 중요하다고 생각해요?",
+     "en": "(Question) Why do you think lifelong learning is important?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "料理を習いたいです。",
+       "昨日習いました。",
+       "何も習いません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今、何を勉強しているの？"
+      },
+      {
+       "s": "B",
+       "t": "フランス語を習っているよ。仕事にも役立つからね。"
+      },
+      {
+       "s": "A",
+       "t": "資格も取るの？"
+      },
+      {
+       "s": "B",
+       "t": "うん、五年以内に取る予定だよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 요즘 뭘 배우고 있어?\nB: 프랑스어를 배우고 있어. 시간이 더 있다면 요리도 배우고 싶어.\nA: 목표가 뭐야?\nB: 5년 안에 프랑스어 자격증을 따는 거야.",
+     "en": "A: What are you learning these days?\nB: French. If I had more time, I'd learn cooking too.\nA: What's your goal?\nB: To get a French qualification within five years."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女の人は何を習っていますか。",
+      "options": [
+       "フランス語",
+       "料理",
+       "音楽"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "生涯学習は仕事にも人生にも役立ちます。私は今、フランス語を習っています。もっと時間があったら、料理も習うのに、と思います。学びには終わりがありません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "평생 학습은 학교를 졸업한 뒤에도 계속 배우는 것을 말합니다. 기술이 빠르게 변하면서 직장인의 재교육이 중요해졌습니다. 원격 수업 덕분에 시간과 장소의 제약도 줄었습니다. 동기가 있다면 누구나 새로운 기술을 익힐 수 있습니다.",
+     "en": "Lifelong learning means continuing to learn after leaving school. As technology changes quickly, retraining for workers has become important. Distance learning has reduced limits of time and place. With motivation, anyone can acquire a new skill."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "もっと時間があったら何を習いたいですか。",
+      "options": [
+       "料理",
+       "ダンス",
+       "数学"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "成人教育センターです。"
+      },
+      {
+       "s": "B",
+       "t": "フランス語のクラスはありますか。"
+      },
+      {
+       "s": "A",
+       "t": "火曜日の夜にあります。"
+      },
+      {
+       "s": "B",
+       "t": "申し込みたいです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 평생교육원입니다.\n손님: 프랑스어 수업이 있나요?\n직원: 네, 화요일 저녁에 있습니다.\n손님: 등록하겠습니다.",
+     "en": "Staff: Adult education centre.\nGuest: Do you have French classes?\nStaff: Yes, on Tuesday evenings.\nGuest: I'd like to register."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "______のクラスはありますか",
+      "answers": [
+       "フランス語"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______の夜にあります",
+      "answers": [
+       "火曜日"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 今、フランス語を習って___。\n2) もっと時間が___、料理も習うのに。\n3) 資格を取る___勉強します。",
+    "trans": {
+     "ko": "1) 평생 학습은 중요해요. 2) 그녀는 장학금을 받았어요. 3) 원격 수업이 늘고 있어요.",
+     "en": "1) Lifelong learning is important. 2) She received a scholarship. 3) Distance learning is increasing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "今、フランス語を習って___。",
+      "options": [
+       "います",
+       "ください",
+       "ました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "もっと時間が___、料理も習うのに。",
+      "options": [
+       "あったら",
+       "なくて",
+       "あっても"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "資格を取る___勉強します。",
+      "options": [
+       "ために",
+       "ばかり",
+       "ほど"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "生涯学習は仕事にも人生にも(1)。私は今、フランス語を習っています。もっと時間があったら、料理も習うのにと(2)。学びには(3)がありません。",
+    "trans": {
+     "ko": "평생 학습은 학교를 졸업한 뒤에도 계속 배우는 것을 말합니다. 기술이 빠르게 변하면서 직장인의 재교육이 중요해졌습니다. 원격 수업 덕분에 시간과 장소의 제약도 줄었습니다. 동기가 있다면 누구나 새로운 기술을 익힐 수 있습니다.",
+     "en": "Lifelong learning means continuing to learn after leaving school. As technology changes quickly, retraining for workers has become important. Distance learning has reduced limits of time and place. With motivation, anyone can acquire a new skill."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "役立ちます",
+       "危険です",
+       "禁止です"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "思います",
+       "忘れます",
+       "断ります"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "終わり",
+       "意味",
+       "お金"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "お知らせ\n成人教育センターでは、春から新しい講座が始まります。語学、料理、プログラミングなどがあります。遠隔教育のコースもあり、仕事の後でも受講できます。奨学金の申し込みは三月末までです。",
+    "trans": {
+     "ko": "안내문\n평생교육원은 올해 새로운 강좌를 열었습니다. 프랑스어, 요리, 컴퓨터 강좌가 있으며 모든 강좌는 저녁에 진행됩니다. 장학금을 신청하면 수강료의 50%를 지원받을 수 있습니다.",
+     "en": "NOTICE\nThe adult education centre has opened new courses this year. They include French, cooking and computing, all held in the evenings. If you apply for a scholarship you can receive 50% of the fee."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "春から何が始まりますか。",
+      "options": [
+       "新しい講座",
+       "新しい学校",
+       "新しい会社"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "奨学金の申し込みはいつまでですか。",
+      "options": [
+       "三月末",
+       "四月末",
+       "五月末"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジュノさんは、仕事をしながら夜間の大学に通っています。大変ですが、新しい技能を身につけているのが楽しいです。来年、卒業する予定です。",
+    "trans": {
+     "ko": "준호는 직장을 다니며 야간 대학원을 다녀요. 힘들지만 새 기술을 익히는 것이 즐거워요. 졸업하면 더 좋은 직장을 구하고 싶어 해요.",
+     "en": "Junho studies at an evening graduate school while working. It is hard but he enjoys acquiring new skills. After graduating he hopes to find a better job."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジュノさんは仕事をしながら大学に通っています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ジュノさんはもう卒業しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ジュノさんは大田に住んでいます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "今、何を習っていますか。",
+    "read": "いま、なにをならっていますか。",
+    "ko": "지금 뭘 배우고 있어요?",
+    "en": "What are you learning now?",
+    "situation": {
+     "ko": "학습을 물을 때",
+     "en": "Asking about learning"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "生涯学習は大切です。",
+    "read": "しょうがいがくしゅうはたいせつです。",
+    "ko": "평생 학습은 중요해요.",
+    "en": "Lifelong learning is important.",
+    "situation": {
+     "ko": "의견을 말할 때",
+     "en": "Giving an opinion"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "彼女は奨学金をもらいました。",
+    "read": "かのじょはしょうがくきんをもらいました。",
+    "ko": "그녀는 장학금을 받았어요.",
+    "en": "She received a scholarship.",
+    "situation": {
+     "ko": "성과를 말할 때",
+     "en": "Describing an achievement"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "遠隔教育が増えています。",
+    "read": "えんかくきょういくがふえています。",
+    "ko": "원격 수업이 늘고 있어요.",
+    "en": "Distance learning is increasing.",
+    "situation": {
+     "ko": "추세를 말할 때",
+     "en": "Describing a trend"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "もっと時間があったら、新しい言語を習うのに。",
+    "read": "もっとじかんがあったら、あたらしいげんごをならうのに。",
+    "ko": "시간이 더 있다면 새 언어를 배울 거예요.",
+    "en": "If I had more time, I would learn a new language.",
+    "situation": {
+     "ko": "가정할 때",
+     "en": "Hypothesising"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "新しい技能を身につけています。",
+    "read": "あたらしいぎのうをみにつけています。",
+    "ko": "새로운 기술을 익히고 있어요.",
+    "en": "I'm acquiring a new skill.",
+    "situation": {
+     "ko": "현재 학습을 말할 때",
+     "en": "Describing current study"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "労働者には再教育が必要です。",
+    "read": "ろうどうしゃにはさいきょういくがひつようです。",
+    "ko": "직장인에게 재교육이 필요해요.",
+    "en": "Workers need retraining.",
+    "situation": {
+     "ko": "필요를 말할 때",
+     "en": "Describing a need"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "学びに終わりはありません。",
+    "read": "まなびにおわりはありません。",
+    "ko": "배움에는 끝이 없어요.",
+    "en": "There is no end to learning.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜を習っています。",
+    "read": "〜をならっています。",
+    "ko": "~을 배우고 있다",
+    "en": "be + -ing; have been + -ing."
+   },
+   {
+    "id": "w2",
+    "t": "〜たら〜のに。",
+    "read": "〜たら〜のに。",
+    "ko": "~한다면 ~할 것이다",
+    "en": "If + past simple, would + verb."
+   },
+   {
+    "id": "w3",
+    "t": "〜を身につけています。",
+    "read": "〜をみにつけています。",
+    "ko": "~을 익히다",
+    "en": "acquire / gain a skill."
+   },
+   {
+    "id": "w4",
+    "t": "〜ために〜。",
+    "read": "〜ために〜。",
+    "ko": "~할 필요가 있다",
+    "en": "need + noun / to + verb."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "배우고 싶은 것과 이유, 계획을 4문장으로 써 보세요. 가정법을 하나 쓰세요.",
+    "en": "Write 4 sentences about what you want to learn, why and your plan, using one hypothetical."
+   },
+   "must_include": [
+    {
+     "label": "習って",
+     "match": [
+      "習っています"
+     ]
+    },
+    {
+     "label": "あったら",
+     "match": [
+      "あったら"
+     ]
+    },
+    {
+     "label": "資格",
+     "match": [
+      "資格"
+     ]
+    }
+   ],
+   "model": "私は今、フランス語を習っています。生涯学習は仕事にも人生にも役立ちます。もっと時間があったら、料理も習うのに。目標は、五年以内にフランス語の資格を取ることです。",
+   "model_trans": {
+    "ko": "저는 지금 프랑스어를 배우고 있습니다. 평생 학습은 직업과 삶에 모두 도움이 됩니다. 시간이 더 있다면 요리도 배울 것입니다. 앞으로 5년 안에 프랑스어 자격증을 따는 것이 제 목표입니다.",
+    "en": "I am learning French at the moment. Lifelong learning helps both career and life. If I had more time, I would learn cooking too. My goal is to get a French qualification within five years."
+   }
+  }
+ }
+}

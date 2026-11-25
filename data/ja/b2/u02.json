@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u02",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 2,
+  "concept": "B2.U02",
+  "status": "live",
+  "title": {
+   "target": "願いと仮定",
+   "ko": "소망과 가정: wish · if only",
+   "en": "Wishes and hypotheses"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "不満",
+   "pos": "noun",
+   "read": "ふまん",
+   "ko": "불만",
+   "en": "dissatisfaction",
+   "ex": {
+    "t": "仕事に不満があります。",
+    "read": "しごとにふまんがあります。",
+    "ko": "그의 불만이 점점 커졌어요.",
+    "en": "His dissatisfaction grew steadily."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜たらいいのに",
+   "pos": "verb",
+   "read": "〜たらいいのに",
+   "ko": "바라다",
+   "en": "wish",
+   "ex": {
+    "t": "もっと時間があったらいいのに。",
+    "read": "もっとじかんがあったらいいのに。",
+    "ko": "더 일찍 시작했더라면 좋았을 텐데요.",
+    "en": "I wish I had started earlier."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "いらいらする",
+   "pos": "noun",
+   "read": "いらいらする",
+   "ko": "짜증",
+   "en": "annoyance",
+   "ex": {
+    "t": "彼の文句にいらいらします。",
+    "read": "かれのもんくにいらいらします。",
+    "ko": "소음이 그녀의 짜증을 불러왔어요.",
+    "en": "The noise caused her annoyance."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "文句を言う",
+   "pos": "verb",
+   "read": "もんくをいう",
+   "ko": "불평하다",
+   "en": "complain",
+   "ex": {
+    "t": "彼はいつも文句を言います。",
+    "read": "かれはいつももんくをいいます。",
+    "ko": "그는 늘 날씨에 대해 불평해요.",
+    "en": "He is always complaining about the weather."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜より〜たい",
+   "pos": "phrase",
+   "read": "〜より〜たい",
+   "ko": "~하는 편이 낫다",
+   "en": "would rather",
+   "ex": {
+    "t": "映画に行くより、家にいたいです。",
+    "read": "えいがにいくより、いえにいたいです。",
+    "ko": "저는 집에 있는 편이 낫겠어요.",
+    "en": "I'd rather stay at home."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "もう〜べきだ",
+   "pos": "phrase",
+   "read": "もう〜べきだ",
+   "ko": "~할 때가 됐다",
+   "en": "It's high time",
+   "ex": {
+    "t": "もう決めるべきです。",
+    "read": "もうきめるべきです。",
+    "ko": "이제 결정할 때가 됐어요.",
+    "en": "It's high time we made a decision."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "変える",
+   "pos": "noun",
+   "read": "かえる",
+   "ko": "변화",
+   "en": "change",
+   "ex": {
+    "t": "習慣を変えたいです。",
+    "read": "しゅうかんをかえたいです。",
+    "ko": "작은 변화가 큰 효과를 낳았어요.",
+    "en": "A small change had a big effect."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "改善する",
+   "pos": "verb",
+   "read": "かいぜんする",
+   "ko": "개선하다",
+   "en": "improve",
+   "ex": {
+    "t": "働き方を改善したいです。",
+    "read": "はたらきほうをかいぜんしたいです。",
+    "ko": "서비스를 개선했으면 좋겠어요.",
+    "en": "I wish they would improve the service."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "現実的な",
+   "pos": "adj",
+   "read": "げんじつてきな",
+   "ko": "현실적인",
+   "en": "realistic",
+   "ex": {
+    "t": "現実的に考えましょう。",
+    "read": "げんじつてきにかんがえましょう。",
+    "ko": "현실적인 목표를 세워야 해요.",
+    "en": "You need to set realistic goals."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "残念に思う",
+   "pos": "phrase",
+   "read": "ざんねんにおもう",
+   "ko": "아쉬워하다",
+   "en": "feel sorry about",
+   "ex": {
+    "t": "早く始めなかったことを残念に思います。",
+    "read": "はやくはじめなかったことをざんねんにおもいます。",
+    "ko": "그 기회를 놓친 것을 아쉬워해요.",
+    "en": "I feel sorry about missing that chance."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "願望と仮定：〜たらいいのに・〜ばよかった・〜より〜たい・もう〜べきだ",
+   "en": "Wishes and hypotheses: 〜たらいいのに / 〜ばよかった / 〜より〜たい / もう〜べきだ"
+  },
+  "explain": {
+   "ko": "実現していない願いは「〜たらいいのに／〜ばいいのに」で言います：「もっと時間があったらいいのに。」過去の後悔は「〜ばよかった」：「もっと早く始めればよかった。」相手に変わってほしいときは「〜てくれたらいいのに」を使います。好みは「〜より〜たい」：「映画より家にいたい。」「もう〜べき時だ」は、今すぐ行動すべきだという意味です。",
+   "en": "Unfulfilled wishes use 「〜たらいいのに／〜ばいいのに」: 「もっと時間があったらいいのに。」 Regret about the past is 「〜ばよかった」: 「もっと早く始めればよかった。」 To wish someone would change, use 「〜てくれたらいいのに」. Preference is 「〜より〜たい」, and 「もう〜べき時だ」 means it is time to act now."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "今の願い / Present wish",
+     "〜たらいいのに",
+     "もっと時間があったらいいのに。"
+    ],
+    [
+     "過去の後悔 / Regret",
+     "〜ばよかった",
+     "もっと早く始めればよかった。"
+    ],
+    [
+     "相手への願い / Wish for others",
+     "〜てくれたらいいのに",
+     "文句を言わないでくれたらいいのに。"
+    ],
+    [
+     "好み / Preference",
+     "〜より〜たい",
+     "映画より家にいたい。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜のに」には、実際はそうではないという残念な気持ちが入っています。",
+    "en": "「〜のに」 carries regret that reality is otherwise."
+   },
+   {
+    "ko": "「〜ばよかった」は過去の行動について、「〜たらいいのに」は今の状況について使います。",
+    "en": "「〜ばよかった」 is about past actions; 「〜たらいいのに」 about the present."
+   },
+   {
+    "ko": "「もう〜べきだ」は少し強い言い方なので、「そろそろ〜ましょう」とやわらげることもできます。",
+    "en": "「もう〜べきだ」 is strong; soften with 「そろそろ〜ましょう」."
+   }
+  ],
+  "examples": [
+   {
+    "t": "もっと早く始めればよかった。",
+    "read": "もっとはやくはじめればよかった。",
+    "ko": "더 일찍 시작했더라면 좋았을 텐데요.",
+    "en": "I wish I had started earlier."
+   },
+   {
+    "t": "もっと時間があったらいいのに。",
+    "read": "もっとじかんがあったらいいのに。",
+    "ko": "지금 시간이 더 있으면 좋겠어요.",
+    "en": "I wish I had more time now."
+   },
+   {
+    "t": "彼が文句を言わなかったらいいのに。",
+    "read": "かれがもんくをいわなかったらいいのに。",
+    "ko": "그가 불평을 그만두면 좋겠어요.",
+    "en": "I wish he would stop complaining."
+   },
+   {
+    "t": "映画に行くより、家にいたいです。",
+    "read": "えいがにいくより、いえにいたいです。",
+    "ko": "저는 영화를 보러 가는 것보다 집에 있는 편이 낫겠어요.",
+    "en": "I'd rather stay at home than go to the cinema."
+   },
+   {
+    "t": "もう決めるべき時です。",
+    "read": "もうきめるべきときです。",
+    "ko": "이제 결정할 때가 됐어요.",
+    "en": "It's high time we made a decision."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "もっと早く始め___よかった。",
+    "options": [
+     "ればよ",
+     "ながら",
+     "てから"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "もっと時間が___いいのに。",
+    "options": [
+     "あったら",
+     "あるので",
+     "あるから"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "映画に行く___、家にいたいです。",
+    "options": [
+     "より",
+     "から",
+     "まで"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "もう決める___時です。",
+    "options": [
+     "べき",
+     "ない",
+     "ため"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今、いちばん何を願っていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 지금 가장 바라는 게 뭐예요?",
+     "en": "(Question) What do you wish for most at the moment?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "もっと自由な時間があったらいいのに。",
+       "先週の火曜日です。",
+       "三人います。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今晩は何をしたいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 오늘 저녁에 뭘 하는 편이 낫겠어요?",
+     "en": "(Question) What would you rather do this evening?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "出かけるより家にいたいです。",
+       "去年行きました。",
+       "とても高いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "最近忙しすぎて、休む時間がないんだ。"
+      },
+      {
+       "s": "B",
+       "t": "私ももっと時間があったらいいのに。そうしたら毎日運動するのに。"
+      },
+      {
+       "s": "A",
+       "t": "そろそろスケジュールを見直すべき時だね。"
+      },
+      {
+       "s": "B",
+       "t": "そうだね。週末はもっと働かないようにしたい。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 요즘 너무 바빠서 쉴 시간이 없어.\nB: 나도 시간이 더 있으면 좋겠어. 그러면 매일 운동할 텐데.\nA: 이제 일정을 조정할 때가 됐어.\nB: 맞아. 차라리 주말에 일을 줄이는 편이 낫겠어.",
+     "en": "A: I'm so busy these days that I have no time to rest.\nB: I wish I had more time too. Then I'd exercise every day.\nA: It's high time we organised our schedules.\nB: You're right. I'd rather work less at the weekend."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人は、時間があったら何をしますか。",
+      "options": [
+       "毎日運動する",
+       "毎日働く",
+       "毎日寝る"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "隣の家の犬が毎晩ほえます。静かにしてくれたらいいのにと思います。できれば直接話したいです。そろそろこの問題を解決するべき時です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 옆집에는 개가 있는데 밤마다 짖어요. 저는 그 개가 조용했으면 좋겠어요. 이웃에게 직접 이야기하는 편이 낫겠다는 생각도 해요. 이제 문제를 해결할 때가 됐어요.",
+     "en": "Our neighbour has a dog that barks every night. I wish it would be quiet. I think I'd rather talk to the neighbour in person. It's high time we solved the problem."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "話している人は何を願っていますか。",
+      "options": [
+       "犬が静かになること",
+       "犬を飼うこと",
+       "引っ越すこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "海外移住の相談です。"
+      },
+      {
+       "s": "B",
+       "t": "外国に住みたいのですが、現実的な心配がたくさんあります。"
+      },
+      {
+       "s": "A",
+       "t": "今、何がいちばん心配ですか。"
+      },
+      {
+       "s": "B",
+       "t": "費用です。お金持ちだったらいいのに。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "상담사: 이민 상담입니다.\n손님: 해외에서 살고 싶은데 현실적인 걱정이 많아요.\n상담사: 지금 가장 걱정되는 게 뭔가요?\n손님: 비용이에요. 제가 부자라면 좋을 텐데요.",
+     "en": "Adviser: Emigration advice.\nGuest: I'd like to live abroad, but I have a lot of realistic worries.\nAdviser: What worries you most right now?\nGuest: The cost. I wish I were rich."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さんには______な心配がたくさんあります",
+      "answers": [
+       "現実的"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "いちばんの心配は______です",
+      "answers": [
+       "費用"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) もっと早く始め___よかった。\n2) 彼が文句を言わなかっ___いいのに。\n3) もう決める___時です。",
+    "trans": {
+     "ko": "1) 더 일찍 시작했더라면 좋았을 텐데요. 2) 그가 불평을 그만두면 좋겠어요. 3) 이제 결정할 때가 됐어요.",
+     "en": "1) I wish I had started earlier. 2) I wish he would stop complaining. 3) It's high time we made a decision."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "もっと早く始め___よかった。",
+      "options": [
+       "ればよ",
+       "ながら",
+       "てから"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼が文句を言わなかっ___いいのに。",
+      "options": [
+       "たら",
+       "ので",
+       "まで"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "もう決める___時です。",
+      "options": [
+       "べき",
+       "ない",
+       "ため"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "最近は在宅勤務で、会社が(1)なります。会社にいれば同僚と気軽に話せます。でも通勤に二時間かかるので、家で働く(2)がいいです。会社が選べる(3)いいのにと思います。",
+    "trans": {
+     "ko": "저는 요즘 집에서 일하고 있는데 사무실이 그리워요. 사무실에 있으면 동료와 쉽게 이야기할 수 있을 텐데요. 하지만 출퇴근에 두 시간이 걸려서 집에서 일하는 편이 낫긴 해요. 회사가 선택권을 주면 좋겠어요.",
+     "en": "I'm working from home these days and I miss the office. If I were there I could chat to colleagues easily. But the commute takes two hours, so I'd rather work from home. I wish the company would give us a choice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "恋しく",
+       "うれしく",
+       "ひまに"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "ほう",
+       "より",
+       "まで"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "ようになれば",
+       "ようにしても",
+       "ようにしたら"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "読者の手紙\n会社が昼休みを三十分に短くしたことに不満があります。社員は十分に休めません。会社は社員の健康についてもう考えるべき時だと思います。一時間の昼休みを元に戻してくれたらいいのにと思います。",
+    "trans": {
+     "ko": "독자 편지\n저는 회사가 점심시간을 30분으로 줄인 것에 불만이 있습니다. 직원들은 충분히 쉴 수 없습니다. 이제 회사가 직원의 건강을 생각할 때가 되었다고 생각합니다. 저는 점심시간을 한 시간으로 되돌리면 좋겠습니다.",
+     "en": "READER'S LETTER\nI am dissatisfied that the company has cut lunch breaks to thirty minutes. Staff can't rest enough. I think it's high time the company thought about its employees' health. I wish they would restore the one-hour lunch break."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "会社は何を短くしましたか。",
+      "options": [
+       "昼休み",
+       "勤務時間",
+       "休暇"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "書いた人は会社に何をしてほしいですか。",
+      "options": [
+       "一時間の昼休みを戻す",
+       "給料を上げる",
+       "社員を増やす"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジュノさんは先学期あまり勉強しませんでした。成績が悪く、今は後悔しています。時間を戻せたらいいのにと言っています。",
+    "trans": {
+     "ko": "준호는 지난 학기에 공부를 열심히 하지 않았어요. 성적이 나빠서 이제 후회하고 있어요. 그는 시간을 되돌릴 수 있으면 좋겠다고 말해요.",
+     "en": "Junho didn't study hard last term. His grades are poor and now he regrets it. He says he wishes he could turn back time."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジュノさんは先学期あまり勉強しませんでした。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ジュノさんの成績はとても良かったです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ジュノさんは大阪の大学に通っています。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "今、いちばん何を願っていますか。",
+    "read": "いま、いちばんなにをねがっていますか。",
+    "ko": "지금 뭘 바라고 있나요?",
+    "en": "What do you wish for at the moment?",
+    "situation": {
+     "ko": "소망을 물을 때",
+     "en": "Asking about a wish"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "もっと早く始めればよかった。",
+    "read": "もっとはやくはじめればよかった。",
+    "ko": "더 일찍 시작했더라면 좋았을 텐데요.",
+    "en": "I wish I had started earlier.",
+    "situation": {
+     "ko": "과거에 대한 후회를 말할 때",
+     "en": "Regretting something in the past"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "もっと時間があったらいいのに。",
+    "read": "もっとじかんがあったらいいのに。",
+    "ko": "지금 시간이 더 있으면 좋겠어요.",
+    "en": "I wish I had more time now.",
+    "situation": {
+     "ko": "현재 상황에 불만일 때",
+     "en": "Wishing the present were different"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "彼が文句を言わなかったらいいのに。",
+    "read": "かれがもんくをいわなかったらいいのに。",
+    "ko": "그가 불평을 그만두면 좋겠어요.",
+    "en": "I wish he would stop complaining.",
+    "situation": {
+     "ko": "다른 사람의 행동이 짜증날 때",
+     "en": "Expressing annoyance at a habit"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "出かけるより家にいたいです。",
+    "read": "でかけるよりいえにいたいです。",
+    "ko": "저는 집에 있는 편이 낫겠어요.",
+    "en": "I'd rather stay at home.",
+    "situation": {
+     "ko": "선호를 말할 때",
+     "en": "Stating a preference"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "彼が自分で話してくれたらいいのに。",
+    "read": "かれがじぶんではなしてくれたらいいのに。",
+    "ko": "차라리 그가 직접 말하는 편이 나아요.",
+    "en": "I'd rather he told me himself.",
+    "situation": {
+     "ko": "상대의 행동에 대한 바람",
+     "en": "A preference about someone else"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "もう決めるべき時です。",
+    "read": "もうきめるべきときです。",
+    "ko": "이제 결정할 때가 됐어요.",
+    "en": "It's high time we made a decision.",
+    "situation": {
+     "ko": "행동을 촉구할 때",
+     "en": "Urging action"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "現実的に考えましょう。",
+    "read": "げんじつてきにかんがえましょう。",
+    "ko": "현실적으로 생각해 보세요.",
+    "en": "Let's be realistic.",
+    "situation": {
+     "ko": "현실을 짚어 줄 때",
+     "en": "Bringing the conversation back to reality"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜たらいいのに。",
+    "read": "〜たらいいのに。",
+    "ko": "~하면 좋겠어요 (현재).",
+    "en": "I wish I had ~ / I wish I were ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜ばよかった。",
+    "read": "〜ばよかった。",
+    "ko": "~했더라면 좋았을 텐데요.",
+    "en": "I wish / If only I had + p.p."
+   },
+   {
+    "id": "w3",
+    "t": "〜より〜たい。",
+    "read": "〜より〜たい。",
+    "ko": "~하면 좋겠어요 (상대의 행동).",
+    "en": "I wish you would ~."
+   },
+   {
+    "id": "w4",
+    "t": "もう〜べき時だ。",
+    "read": "もう〜べきときだ。",
+    "ko": "~하는 편이 낫겠어요.",
+    "en": "I'd rather + base verb / I'd rather you + past."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "현재와 과거에 대한 소망을 wish와 if only를 써서 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about wishes for the present and the past, using wish and if only."
+   },
+   "must_include": [
+    {
+     "label": "たらいいのに",
+     "match": [
+      "たらいいのに"
+     ]
+    },
+    {
+     "label": "ばよかった",
+     "match": [
+      "ばよかった"
+     ]
+    },
+    {
+     "label": "べき",
+     "match": [
+      "べき"
+     ]
+    }
+   ],
+   "model": "もっと時間があったらいいのに。そうすれば毎日運動できます。大学のとき、もっと語学を勉強すればよかった。そろそろ新しい習慣を作るべき時です。",
+   "model_trans": {
+    "ko": "시간이 더 있으면 좋겠어요. 그러면 매일 운동할 수 있을 텐데요. 대학생 때 외국어를 더 열심히 공부했더라면 좋았을 텐데요. 이제 새로운 습관을 만들 때가 됐어요.",
+    "en": "I wish I had more time. Then I could exercise every day. If only I had studied languages harder at university. It's high time I made a new habit."
+   }
+  }
+ }
+}

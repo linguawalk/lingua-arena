@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u11",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 11,
+  "concept": "B2.U11",
+  "status": "live",
+  "title": {
+   "target": "これからの予定",
+   "ko": "미래 표현 심화",
+   "en": "Advanced future forms"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "予定",
+   "pos": "noun",
+   "read": "よてい",
+   "ko": "일정",
+   "en": "schedule",
+   "ex": {
+    "t": "電車は六時に着く予定です。",
+    "read": "でんしゃはろくじにつくよていです。",
+    "ko": "내일 일정이 꽉 차 있어요.",
+    "en": "Tomorrow's schedule is full."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "締め切り",
+   "pos": "noun",
+   "read": "しめきり",
+   "ko": "마감",
+   "en": "deadline",
+   "ex": {
+    "t": "締め切りは来週の金曜日です。",
+    "read": "しめきりはらいしゅうのきんようびです。",
+    "ko": "마감은 금요일이에요.",
+    "en": "The deadline is on Friday."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "到着予定",
+   "pos": "phrase",
+   "read": "とうちゃくよてい",
+   "ko": "도착 예정이다",
+   "en": "be due to arrive",
+   "ex": {
+    "t": "到着予定は六時です。",
+    "read": "とうちゃくよていはろくじです。",
+    "ko": "기차는 6시에 도착할 예정이에요.",
+    "en": "The train is due to arrive at six."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜するところだ",
+   "pos": "phrase",
+   "read": "〜するところだ",
+   "ko": "막 ~하려던 참이다",
+   "en": "be about to",
+   "ex": {
+    "t": "ちょうど出かけるところでした。",
+    "read": "ちょうどでかけるところでした。",
+    "ko": "저는 막 나가려던 참이었어요.",
+    "en": "I was just about to leave."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "そのころには",
+   "pos": "phrase",
+   "read": "そのころには",
+   "ko": "그때쯤이면",
+   "en": "by then",
+   "ex": {
+    "t": "そのころには終わっているでしょう。",
+    "read": "そのころにはおわっているでしょう。",
+    "ko": "그때쯤이면 일이 끝나 있을 거예요.",
+    "en": "By then the work will have finished."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "見通し",
+   "pos": "noun",
+   "read": "みとおし",
+   "ko": "전망",
+   "en": "prospect",
+   "ex": {
+    "t": "景気の見通しは明るいです。",
+    "read": "けいきのみとおしはあかるいです。",
+    "ko": "취업 전망이 밝아요.",
+    "en": "The job prospects are bright."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "計画",
+   "pos": "verb",
+   "read": "けいかく",
+   "ko": "계획하다",
+   "en": "plan",
+   "ex": {
+    "t": "来月、新しいオフィスに引っ越す計画です。",
+    "read": "らいげつ、あたらしいオフィスにひっこすけいかくです。",
+    "ko": "그들은 다음 달에 이사할 계획이에요.",
+    "en": "They plan to move next month."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "予測する",
+   "pos": "verb",
+   "read": "よそくする",
+   "ko": "예측하다",
+   "en": "predict",
+   "ex": {
+    "t": "専門家は経済の成長を予測しています。",
+    "read": "せんもんかはけいざいのせいちょうをよそくしています。",
+    "ko": "전문가들은 경기 회복을 예측해요.",
+    "en": "Experts predict an economic recovery."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "まもなく",
+   "pos": "phrase",
+   "read": "まもなく",
+   "ko": "바로 ~할 것이다",
+   "en": "be on the point of",
+   "ex": {
+    "t": "電車はまもなく発車します。",
+    "read": "でんしゃはまもなくはっしゃします。",
+    "ko": "그는 막 사임하려는 참이에요.",
+    "en": "He is on the point of resigning."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "長い目で見れば",
+   "pos": "phrase",
+   "read": "ながいめでみれば",
+   "ko": "장기적으로",
+   "en": "in the long run",
+   "ex": {
+    "t": "長い目で見れば、この投資は得になります。",
+    "read": "ながいめでみれば、このとうしはえになります。",
+    "ko": "장기적으로 그 투자는 이익이 될 거예요.",
+    "en": "In the long run the investment will pay off."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "未来の表現：〜ているだろう・〜ているはずだ・〜予定だ・〜ところだ",
+   "en": "Future forms: 〜ているだろう / 〜ているはずだ / 〜予定だ / 〜ところだ"
+  },
+  "explain": {
+   "ko": "ある時点で何かをしている最中は「〜ているでしょう」：「明日の今ごろ、飛行機に乗っているでしょう。」ある時までに終わっていることは「〜までには〜ているはずです」：「来月までには、終わっているはずです。」予定は「〜予定です」、すぐ起こることは「〜ところです」「まもなく〜ます」を使います。「長い目で見れば」「やがて」は将来の結果を述べるときに便利です。",
+   "en": "To be in the middle of something at a future time, use 「〜ているでしょう」: 「明日の今ごろ、飛行機に乗っているでしょう。」 To be finished by a time, 「〜までには〜ているはずです」: 「来月までには、終わっているはずです。」 Schedules use 「〜予定です」, imminent events 「〜ところです／まもなく〜ます」. 「長い目で見れば」 and 「やがて」 state long-term results."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "進行中 / In progress",
+     "〜ているでしょう",
+     "明日の今ごろ、飛行機に乗っているでしょう。"
+    ],
+    [
+     "完了 / Completed by",
+     "〜までには〜ているはず",
+     "来月までには終わっているはずです。"
+    ],
+    [
+     "予定 / Scheduled",
+     "〜予定です",
+     "電車は六時に着く予定です。"
+    ],
+    [
+     "直前 / About to",
+     "〜ところです・まもなく〜",
+     "ちょうど出かけるところです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜予定」は決まっている計画、「〜つもり」は自分の意志です。",
+    "en": "「〜予定」 is a fixed plan; 「〜つもり」 is your intention."
+   },
+   {
+    "ko": "「〜ところだ」は、動作の直前・最中・直後を表します。",
+    "en": "「〜ところだ」 marks just before, during, or just after an action."
+   },
+   {
+    "ko": "確信が強いときは「〜はずです」、やや弱いときは「〜でしょう」を使います。",
+    "en": "「〜はずです」 is more confident, 「〜でしょう」 less."
+   }
+  ],
+  "examples": [
+   {
+    "t": "明日の今ごろ、私は飛行機に乗っているでしょう。",
+    "read": "あしたのいまごろ、わたしはひこうきにのっているでしょう。",
+    "ko": "내일 이 시간에 저는 비행기 안에 있을 거예요.",
+    "en": "This time tomorrow I will be flying."
+   },
+   {
+    "t": "来月までには、この仕事は終わっているはずです。",
+    "read": "らいげつまでには、このしごとはおわっているはずです。",
+    "ko": "다음 달이면 저는 여기서 5년째 일하게 돼요.",
+    "en": "By next month I will have worked here for five years."
+   },
+   {
+    "t": "電車は六時に着く予定です。",
+    "read": "でんしゃはろくじにつくよていです。",
+    "ko": "기차는 6시에 도착할 예정이에요.",
+    "en": "The train is due to arrive at six."
+   },
+   {
+    "t": "ちょうど出かけるところでした。",
+    "read": "ちょうどでかけるところでした。",
+    "ko": "저는 막 나가려던 참이었어요.",
+    "en": "I was just about to leave."
+   },
+   {
+    "t": "長い目で見れば、この計画は会社の得になります。",
+    "read": "ながいめでみれば、このけいかくはかいしゃのえになります。",
+    "ko": "우리는 다음 주에 새 사무실로 이사할 거예요.",
+    "en": "We are moving to a new office next week."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "明日の今ごろ、私は飛行機に乗って___。",
+    "options": [
+     "いるでしょう",
+     "いました",
+     "います"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "来月までには、この仕事は終わって___。",
+    "options": [
+     "いるはずです",
+     "いません",
+     "いました"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "電車は六時に着く___です。",
+    "options": [
+     "予定",
+     "ところ",
+     "はず"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "ちょうど出かける___でした。",
+    "options": [
+     "ところ",
+     "予定",
+     "はず"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明日の今ごろ、何をしていると思いますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 내일 이 시간에 뭘 하고 있을 것 같아요?",
+     "en": "(Question) What will you be doing this time tomorrow?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "パリ行きの飛行機に乗っているでしょう。",
+       "三時です。",
+       "去年でした。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "電車は何時に着く予定ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 기차는 몇 시에 도착할 예정인가요?",
+     "en": "(Question) What time is the train due to arrive?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "六時の予定です。",
+       "三年前です。",
+       "高いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明日の午後、空いてる？"
+      },
+      {
+       "s": "B",
+       "t": "ううん、明日の今ごろは飛行機に乗っているよ。"
+      },
+      {
+       "s": "A",
+       "t": "来週はどう？"
+      },
+      {
+       "s": "B",
+       "t": "来週の今ごろには、出張から戻っているはずだよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 내일 오후에 시간 있어?\nB: 아니, 이 시간에 나는 비행기를 타고 있을 거야.\nA: 그럼 다음 주는?\nB: 다음 주 이맘때면 이미 출장을 마치고 돌아와 있을 거야.",
+     "en": "A: Are you free tomorrow afternoon?\nB: No, this time tomorrow I'll be flying.\nA: What about next week?\nB: By this time next week I will have come back from the business trip."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人は明日の今ごろ何をしていますか。",
+      "options": [
+       "飛行機に乗っている",
+       "出張から戻っている",
+       "会議をしている"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "会社は来月、新しいオフィスに引っ越します。引っ越しは金曜日の午後に始まる予定で、日曜日までには終わっているはずです。月曜日の朝には、社員は新しい建物で働いているでしょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "회사는 다음 달에 새 사무실로 이사할 예정입니다. 이사는 금요일 오후에 시작되어 일요일까지는 끝나 있을 것입니다. 월요일 아침에 직원들은 새 건물에서 일하고 있을 것입니다.",
+     "en": "The company is moving to a new office next month. The move is due to begin on Friday afternoon and will have finished by Sunday. On Monday morning staff will be working in the new building."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "引っ越しはいつまでに終わりますか。",
+      "options": [
+       "日曜日",
+       "金曜日",
+       "月曜日"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "鉄道案内です。"
+      },
+      {
+       "s": "B",
+       "t": "パリ行きの電車は何時に着く予定ですか。"
+      },
+      {
+       "s": "A",
+       "t": "六時の予定ですが、十分ほど遅れるかもしれません。"
+      },
+      {
+       "s": "B",
+       "t": "分かりました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 철도 안내입니다.\n손님: 파리행 기차는 몇 시에 도착할 예정인가요?\n직원: 6시에 도착할 예정입니다. 하지만 약 10분 늦을 수 있습니다.\n손님: 알겠습니다.",
+     "en": "Staff: Rail information.\nGuest: What time is the Paris train due to arrive?\nStaff: It is due at six. But it may be about ten minutes late.\nGuest: I see."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "電車は______時に着く予定です",
+      "answers": [
+       "六"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______ほど遅れるかもしれません",
+      "answers": [
+       "十分"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 明日の今ごろ、私は飛行機に乗って___。\n2) 来月までには、この仕事は終わって___。\n3) 電車は六時に着く___です。",
+    "trans": {
+     "ko": "1) 내일 이 시간에 저는 비행기 안에 있을 거예요. 2) 다음 달이면 저는 여기서 5년째 일하게 돼요. 3) 기차는 6시에 도착할 예정이에요.",
+     "en": "1) This time tomorrow I will be flying. 2) By next month I will have worked here for five years. 3) The train is due to arrive at six."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "明日の今ごろ、私は飛行機に乗って___。",
+      "options": [
+       "いるでしょう",
+       "いました",
+       "います"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "来月までには、この仕事は終わって___。",
+      "options": [
+       "いるはずです",
+       "いません",
+       "いました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "電車は六時に着く___です。",
+      "options": [
+       "予定",
+       "ところ",
+       "はず"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "来月から、図書館は新しいシステムを使います。金曜日の夜にサーバーを点検し、土曜日までにはデータをすべて(1)いるはずです。月曜日には、利用者は新しい方法でログイン(2)いるでしょう。長い目で見れば、手続きは(3)なります。",
+    "trans": {
+     "ko": "회사는 다음 달에 새 사무실로 이사할 예정입니다. 이사는 금요일 오후에 시작되어 일요일까지는 끝나 있을 것입니다. 월요일 아침에 직원들은 새 건물에서 일하고 있을 것입니다.",
+     "en": "The company is moving to a new office next month. The move is due to begin on Friday afternoon and will have finished by Sunday. On Monday morning staff will be working in the new building."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "移して",
+       "忘れて",
+       "売って"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "して",
+       "した",
+       "する"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "楽に",
+       "難しく",
+       "高く"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "お知らせ\n来週の月曜日から、図書館は新しいシステムを使います。金曜日の夜にサーバーを点検し、土曜日までにはデータがすべて移されている予定です。月曜日には、利用者は新しい方法でログインすることになります。",
+    "trans": {
+     "ko": "공지\n다음 주 월요일부터 도서관은 새로운 시스템을 사용할 예정입니다. 금요일 저녁에는 서버가 점검되고, 토요일까지는 모든 자료가 옮겨져 있을 것입니다. 이용자 여러분은 월요일에 새 로그인 방법을 사용하게 될 것입니다.",
+     "en": "NOTICE\nFrom next Monday the library will use a new system. The server will be checked on Friday evening, and by Saturday all the data will have been moved. On Monday users will be logging in in a new way."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "新しいシステムはいつから使いますか。",
+      "options": [
+       "来週の月曜日",
+       "今週の金曜日",
+       "来月"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "土曜日までに何が終わっている予定ですか。",
+      "options": [
+       "データの移動",
+       "建物の工事",
+       "本の貸し出し"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジミンさんは来月卒業します。そのときまでには四年間の勉強を終えているはずです。卒業後はパリで働く予定です。",
+    "trans": {
+     "ko": "지민은 다음 달에 대학을 졸업해요. 그때쯤이면 그녀는 4년 동안 공부를 마쳤을 거예요. 졸업 후에는 파리에서 일할 계획이에요.",
+     "en": "Jimin graduates next month. By then she will have finished four years of study. After graduation she plans to work in Paris."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジミンさんは来月卒業します。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ジミンさんは卒業後、国内で働く予定です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ジミンさんは大学院に進みます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "明日の今ごろ、何をしていますか。",
+    "read": "あしたのいまごろ、なにをしていますか。",
+    "ko": "내일 이 시간에 뭘 하고 있을 것 같아요?",
+    "en": "What will you be doing this time tomorrow?",
+    "situation": {
+     "ko": "미래 진행을 물을 때",
+     "en": "Asking about a future activity"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "明日の今ごろ、私は飛行機に乗っているでしょう。",
+    "read": "あしたのいまごろ、わたしはひこうきにのっているでしょう。",
+    "ko": "내일 이 시간에 저는 비행기 안에 있을 거예요.",
+    "en": "This time tomorrow I will be flying.",
+    "situation": {
+     "ko": "미래의 한 시점의 진행",
+     "en": "An action in progress at a future time"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "来月までには、この仕事は終わっているはずです。",
+    "read": "らいげつまでには、このしごとはおわっているはずです。",
+    "ko": "다음 달이면 저는 여기서 5년째 일하게 돼요.",
+    "en": "By next month I will have worked here for five years.",
+    "situation": {
+     "ko": "미래 시점까지의 완료",
+     "en": "Completion by a future time"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "電車は六時に着く予定です。",
+    "read": "でんしゃはろくじにつくよていです。",
+    "ko": "기차는 6시에 도착할 예정이에요.",
+    "en": "The train is due to arrive at six.",
+    "situation": {
+     "ko": "공식 일정을 말할 때",
+     "en": "Talking about a timetable"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "ちょうど出かけるところでした。",
+    "read": "ちょうどでかけるところでした。",
+    "ko": "저는 막 나가려던 참이었어요.",
+    "en": "I was just about to leave.",
+    "situation": {
+     "ko": "임박한 행동을 말할 때",
+     "en": "An action about to happen"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "来週、新しいオフィスに引っ越します。",
+    "read": "らいしゅう、あたらしいオフィスにひっこします。",
+    "ko": "우리는 다음 주에 새 사무실로 이사할 거예요.",
+    "en": "We are moving to a new office next week.",
+    "situation": {
+     "ko": "확정된 계획",
+     "en": "A fixed arrangement"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "長い目で見れば、この投資は得になります。",
+    "read": "ながいめでみれば、このとうしはえになります。",
+    "ko": "장기적으로 그 투자는 이익이 될 거예요.",
+    "en": "In the long run the investment will pay off.",
+    "situation": {
+     "ko": "예측을 말할 때",
+     "en": "Making a prediction"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "そのころまでにご連絡します。",
+    "read": "そのころまでにごれんらくします。",
+    "ko": "그때 다시 연락드릴게요.",
+    "en": "I'll get back to you by then.",
+    "situation": {
+     "ko": "대화를 마무리할 때",
+     "en": "Ending a call"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "明日の今ごろ、〜ているでしょう。",
+    "read": "あしたのいまごろ、〜ているでしょう。",
+    "ko": "~하고 있을 것이다.",
+    "en": "will be + -ing."
+   },
+   {
+    "id": "w2",
+    "t": "〜までには〜ているはずです。",
+    "read": "〜までには〜ているはずです。",
+    "ko": "~해 있을 것이다.",
+    "en": "will have + p.p."
+   },
+   {
+    "id": "w3",
+    "t": "〜予定です。",
+    "read": "〜よていです。",
+    "ko": "~할 예정이다.",
+    "en": "be due to / be to + verb."
+   },
+   {
+    "id": "w4",
+    "t": "〜ところです。",
+    "read": "〜ところです。",
+    "ko": "막 ~하려 하다.",
+    "en": "be about to + verb."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "미래의 계획과 예측을 4문장으로 써 보세요. will be -ing와 will have + p.p.를 하나씩 쓰세요.",
+    "en": "Write 4 sentences about future plans and predictions. Use will be -ing and will have + past participle once each."
+   },
+   "must_include": [
+    {
+     "label": "乗っている",
+     "match": [
+      "乗っている"
+     ]
+    },
+    {
+     "label": "予定",
+     "match": [
+      "始まる予定"
+     ]
+    },
+    {
+     "label": "長い目で見れば",
+     "match": [
+      "長い目で見れば"
+     ]
+    }
+   ],
+   "model": "明日の今ごろ、私はパリへ向かう飛行機に乗っているでしょう。来月までには、このプロジェクトは終わっているはずです。会議は三時に始まる予定です。長い目で見れば、この計画は会社の利益になるでしょう。",
+   "model_trans": {
+    "ko": "내일 이 시간에 저는 파리행 비행기를 타고 있을 거예요. 다음 달이면 이 프로젝트는 끝나 있을 거예요. 회의는 3시에 시작할 예정이에요. 장기적으로는 이 계획이 회사에 이익이 될 거예요.",
+    "en": "This time tomorrow I will be flying to Paris. By next month this project will have finished. The meeting is due to start at three. In the long run this plan will pay off for the company."
+   }
+  }
+ }
+}

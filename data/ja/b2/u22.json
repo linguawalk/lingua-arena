@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u22",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 22,
+  "concept": "B2.U22",
+  "status": "live",
+  "title": {
+   "target": "賛成と反対",
+   "ko": "찬반 에세이",
+   "en": "For-and-against essays"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "利点",
+   "pos": "noun",
+   "read": "りてん",
+   "ko": "장점",
+   "en": "advantage",
+   "ex": {
+    "t": "在宅勤務の利点は時間の節約です。",
+    "read": "ざいたくきんむのりてんはじかんのせつやくです。",
+    "ko": "재택근무의 장점은 시간 절약이에요.",
+    "en": "An advantage of working from home is saving time."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "欠点",
+   "pos": "noun",
+   "read": "けってん",
+   "ko": "단점",
+   "en": "disadvantage",
+   "ex": {
+    "t": "欠点は孤立しやすいことです。",
+    "read": "けってんはこりつしやすいことです。",
+    "ko": "단점은 고립감이에요.",
+    "en": "A disadvantage is the feeling of isolation."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "支持者",
+   "pos": "noun",
+   "read": "しじしゃ",
+   "ko": "찬성하는 사람들",
+   "en": "supporters",
+   "ex": {
+    "t": "支持者は効率が上がると言います。",
+    "read": "しじしゃはこうりつがあがるといいます。",
+    "ko": "찬성하는 사람들은 비용 절감을 강조해요.",
+    "en": "Supporters stress cost savings."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "反対者",
+   "pos": "noun",
+   "read": "はんたいしゃ",
+   "ko": "반대하는 사람들",
+   "en": "opponents",
+   "ex": {
+    "t": "反対者は安全を心配します。",
+    "read": "はんたいしゃはあんぜんをしんぱいします。",
+    "ko": "반대하는 사람들은 안전을 걱정해요.",
+    "en": "Opponents are worried about safety."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜と主張される",
+   "pos": "phrase",
+   "read": "〜としゅちょうされる",
+   "ko": "~라고 주장되다",
+   "en": "it is argued that",
+   "ex": {
+    "t": "それは効率的だと主張されています。",
+    "read": "それはこうりつてきだとしゅちょうされています。",
+    "ko": "이것이 더 효율적이라고 주장되고 있어요.",
+    "en": "It is argued that this is more efficient."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "一方では",
+   "pos": "phrase",
+   "read": "いっぽうでは",
+   "ko": "한편으로는",
+   "en": "on the one hand",
+   "ex": {
+    "t": "一方では便利ですが、他方では危険です。",
+    "read": "いっぽうではべんりですが、たほうではきけんです。",
+    "ko": "한편으로는 편리하지만 다른 한편으로는 위험해요.",
+    "en": "On the one hand it is convenient; on the other it is risky."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "公平な",
+   "pos": "adj",
+   "read": "こうへいな",
+   "ko": "균형 잡힌",
+   "en": "balanced",
+   "ex": {
+    "t": "公平な意見を聞きます。",
+    "read": "こうへいないけんをききます。",
+    "ko": "균형 잡힌 시각이 필요해요.",
+    "en": "A balanced view is needed."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "全体として",
+   "pos": "adv",
+   "read": "ぜんたいとして",
+   "ko": "결과적으로",
+   "en": "overall",
+   "ex": {
+    "t": "全体として、利点のほうが大きいです。",
+    "read": "ぜんたいとして、りてんのほうがおおきいです。",
+    "ko": "전반적으로 장점이 더 커요.",
+    "en": "Overall, the advantages are greater."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "限界",
+   "pos": "verb",
+   "read": "げんかい",
+   "ko": "제한하다",
+   "en": "limit",
+   "ex": {
+    "t": "この方法には限界があります。",
+    "read": "このほうほうにはげんかいがあります。",
+    "ko": "정부는 사용을 제한했어요.",
+    "en": "The government limited its use."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "価値がある",
+   "pos": "phrase",
+   "read": "かちがある",
+   "ko": "가치가 있다",
+   "en": "be worth",
+   "ex": {
+    "t": "試す価値があります。",
+    "read": "ためすかちがあります。",
+    "ko": "시도해 볼 가치가 있어요.",
+    "en": "It is worth trying."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "賛否の文章：一方では〜、他方では〜・〜と主張される・利点は〜ことだ",
+   "en": "For-and-against: 一方では〜、他方では〜 / 〜と主張される / 利点は〜ことだ"
+  },
+  "explain": {
+   "ko": "賛否の文章は、両方の面を示してから結論を述べます。「一方では〜、他方では〜」：「一方では便利ですが、他方では危険です。」利点は「利点の一つは〜ことです」、欠点は「欠点は〜ことです」。他人の意見は「〜と主張されている」「〜と考える人もいる」、全体の判断は「全体として」「総合的に見て」で示します：「全体として、利点のほうが大きいと思います。」最後は「結局は人によって違います」と結ぶこともあります。",
+   "en": "A for-and-against text shows both sides before concluding. 「一方では〜、他方では〜」: 「一方では便利ですが、他方では危険です。」 Advantages: 「利点の一つは〜ことです」; disadvantages: 「欠点は〜ことです」. Others' views: 「〜と主張されている」「〜と考える人もいる」; overall judgment: 「全体として」「総合的に見て」: 「全体として、利点のほうが大きいと思います。」 You can end with 「結局は人によって違います」."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "両面 / Both sides",
+     "一方では〜、他方では〜",
+     "一方では便利ですが、他方では危険です。"
+    ],
+    [
+     "利点 / Advantage",
+     "利点の一つは〜ことです",
+     "利点の一つは時間の節約です。"
+    ],
+    [
+     "他人の意見 / Others' view",
+     "〜と主張されている",
+     "効率的だと主張されています。"
+    ],
+    [
+     "判断 / Overall",
+     "全体として",
+     "全体として、利点が大きいです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「一方では」と「他方では」は対で使います。",
+    "en": "「一方では」 and 「他方では」 are used as a pair."
+   },
+   {
+    "ko": "自分の意見は、最後の段落で「私は〜と考えます」と述べます。",
+    "en": "State your own view in the last paragraph: 「私は〜と考えます」."
+   },
+   {
+    "ko": "「〜と主張される」は書き言葉で、「〜と言われている」より硬い表現です。",
+    "en": "「〜と主張される」 is formal written style."
+   }
+  ],
+  "examples": [
+   {
+    "t": "在宅勤務の利点の一つは、通勤時間を節約できることです。",
+    "read": "ざいたくきんむのりてんのひとつは、つうきんじかんをせつやくできることです。",
+    "ko": "재택근무의 장점은 시간 절약이에요.",
+    "en": "An advantage of working from home is saving time."
+   },
+   {
+    "t": "欠点は、同僚との接触が減ることです。",
+    "read": "けってんは、どうりょうとのせっしょくがへることです。",
+    "ko": "단점은 고립감이에요.",
+    "en": "A disadvantage is the feeling of isolation."
+   },
+   {
+    "t": "一方では便利ですが、他方では危険です。",
+    "read": "いっぽうではべんりですが、たほうではきけんです。",
+    "ko": "한편으로는 편리하지만 다른 한편으로는 위험해요.",
+    "en": "On the one hand it is convenient; on the other hand it is risky."
+   },
+   {
+    "t": "支持者は効率が上がると主張しています。",
+    "read": "しじしゃはこうりつがあがるとしゅちょうしています。",
+    "ko": "이것이 더 효율적이라고 주장되고 있어요.",
+    "en": "It is argued that this is more efficient."
+   },
+   {
+    "t": "全体として、利点のほうが大きいと思います。",
+    "read": "ぜんたいとして、りてんのほうがおおきいとおもいます。",
+    "ko": "전반적으로 장점이 더 커요.",
+    "en": "Overall, the advantages are greater."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "在宅勤務の___の一つは、時間の節約です。",
+    "options": [
+     "利点",
+     "欠点",
+     "支持者"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___では便利ですが、他方では危険です。",
+    "options": [
+     "一方",
+     "全体",
+     "最後"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "支持者は効率が上がると___います。",
+    "options": [
+     "主張して",
+     "忘れて",
+     "断って"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___、利点のほうが大きいと思います。",
+    "options": [
+     "全体として",
+     "ところで",
+     "例えば"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "在宅勤務についてどう思いますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 재택근무에 대해 어떻게 생각해요?",
+     "en": "(Question) What do you think about working from home?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "通勤時間を節約できるのが利点です。",
+       "来週です。",
+       "三人です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "オンライン授業にはどんな欠点がありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 재택근무의 단점은 무엇이라고 생각해요?",
+     "en": "(Question) What do you think is a disadvantage of working from home?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "友達との交流が減ることです。",
+       "とても安いことです。",
+       "近いことです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "在宅勤務は、いいのかな。"
+      },
+      {
+       "s": "B",
+       "t": "利点の一つは通勤時間を節約できることだね。一方で、同僚との接触が減るのが欠点だよ。"
+      },
+      {
+       "s": "A",
+       "t": "支持者は効率が上がると言っているね。"
+      },
+      {
+       "s": "B",
+       "t": "そう。全体として、両方を組み合わせるのがいいと思う。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 재택근무의 장점이 뭘까?\nB: 출퇴근 시간을 절약하는 거야. 반면에 동료와의 소통이 줄어드는 단점이 있어.\nA: 전반적으로는 어떻게 생각해?\nB: 두 가지를 섞은 방식이 가장 좋다고 봐.",
+     "en": "A: What is an advantage of working from home?\nB: Saving commuting time. On the other hand, there is less contact with colleagues.\nA: What do you think overall?\nB: I think a mix of the two is best."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人は結局どう考えていますか。",
+      "options": [
+       "両方を組み合わせるのがよい",
+       "在宅勤務だけがよい",
+       "会社だけがよい"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "オンライン授業には、一方では場所を選ばずに学べるという利点があります。他方では、友達との交流が減るという欠点もあります。支持者は効率の良さを主張し、反対者は孤立を心配しています。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "한편으로는 온라인 수업이 시간과 비용을 절약해 줍니다. 다른 한편으로는 학생들의 집중력이 떨어질 수 있습니다. 찬성하는 사람들은 접근성이 좋아졌다고 말하지만 반대하는 사람들은 사회성 발달을 걱정합니다.",
+     "en": "On the one hand, online classes save time and money. On the other hand, students' concentration may fall. Supporters say access has improved, whereas opponents worry about social development."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "反対者は何を心配していますか。",
+      "options": [
+       "孤立",
+       "費用",
+       "速度"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "討論番組です。"
+      },
+      {
+       "s": "B",
+       "t": "私はオンライン授業に賛成です。利点のほうが欠点より大きいと思います。"
+      },
+      {
+       "s": "A",
+       "t": "反対する人は何を心配していますか。"
+      },
+      {
+       "s": "B",
+       "t": "社会性の発達です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "진행자: 토론 프로그램입니다.\n손님: 저는 온라인 수업에 찬성합니다. 장점이 단점보다 크다고 생각합니다.\n진행자: 반대하는 사람들은 어떤 점을 걱정하나요?\n손님: 사회성 발달이에요.",
+     "en": "Host: Debate programme.\nGuest: I support online classes. I think the advantages outweigh the disadvantages.\nHost: What worries the opponents?\nGuest: Social development."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さんは______に賛成です",
+      "answers": [
+       "オンライン授業"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "反対する人は______の発達を心配しています",
+      "answers": [
+       "社会性"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 在宅勤務の___の一つは、時間の節約です。\n2) ___では便利ですが、他方では危険です。\n3) 支持者は効率が上がると___います。",
+    "trans": {
+     "ko": "1) 재택근무의 장점은 시간 절약이에요. 2) 단점은 고립감이에요. 3) 전반적으로 장점이 더 커요.",
+     "en": "1) An advantage of working from home is saving time. 2) A disadvantage is the feeling of isolation. 3) Overall, the advantages are greater."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "在宅勤務の___の一つは、時間の節約です。",
+      "options": [
+       "利点",
+       "欠点",
+       "支持者"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___では便利ですが、他方では危険です。",
+      "options": [
+       "一方",
+       "全体",
+       "最後"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "支持者は効率が上がると___います。",
+      "options": [
+       "主張して",
+       "忘れて",
+       "断って"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "在宅勤務の(1)の一つは、通勤時間を節約できることです。一方、(2)は、同僚との接触が減ることです。支持者は効率が上がると主張しますが、反対者は孤立を心配します。(3)、両方を組み合わせるのがいちばんだと思います。",
+    "trans": {
+     "ko": "한편으로는 온라인 수업이 시간과 비용을 절약해 줍니다. 다른 한편으로는 학생들의 집중력이 떨어질 수 있습니다. 찬성하는 사람들은 접근성이 좋아졌다고 말하지만 반대하는 사람들은 사회성 발달을 걱정합니다.",
+     "en": "On the one hand, online classes save time and money. On the other hand, students' concentration may fall. Supporters say access has improved, whereas opponents worry about social development."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "利点",
+       "欠点",
+       "支持者"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "欠点",
+       "利点",
+       "支持者"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "全体として",
+       "例えば",
+       "ところで"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "コラム\n電気自動車の利点は、環境にやさしいことです。一方、欠点は、価格が高いことです。支持者は長い目で見れば得になると主張しますが、反対者は充電設備が足りないと指摘します。全体として、時間をかけて広がっていくと考えられます。",
+    "trans": {
+     "ko": "에세이\n도시 중심의 자동차 운행 제한은 논란이 되고 있다. 찬성하는 사람들은 공기가 깨끗해진다고 주장한다. 반면 반대하는 사람들은 상점의 매출이 줄어든다고 걱정한다. 전반적으로 제한은 대중교통이 충분할 때만 효과가 있다고 생각한다.",
+     "en": "ESSAY\nRestricting cars in city centres is controversial. Supporters argue that the air becomes cleaner. Opponents, on the other hand, worry that shops will lose sales. Overall, I think restrictions only work when public transport is adequate."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "電気自動車の欠点は何ですか。",
+      "options": [
+       "価格が高い",
+       "音がうるさい",
+       "遅い"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "反対者は何を指摘していますか。",
+      "options": [
+       "充電設備が足りない",
+       "環境に悪い",
+       "古い"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ヨンさんは、授業でスマートフォンを使うことについて、利点と欠点を書き出しました。調べものに便利な一方、集中しにくいと考えました。最後に、使う時間を決めるという案を出しました。",
+    "trans": {
+     "ko": "민수는 해외 유학에 대해 찬반을 정리했어요. 장점은 언어와 경험이고 단점은 비용이에요. 결국 그는 장학금을 받을 수 있을 때만 가기로 했어요.",
+     "en": "Minsu listed the pros and cons of studying abroad. The advantages are language and experience; the disadvantage is cost. In the end he decided to go only if he can get a scholarship."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ヨンさんは利点と欠点を書き出しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ヨンさんは全面禁止を提案しました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "授業は金曜日にあります。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "在宅勤務についてどう思いますか。",
+    "read": "ざいたくきんむについてどうおもいますか。",
+    "ko": "재택근무에 대해 어떻게 생각해요?",
+    "en": "What do you think about working from home?",
+    "situation": {
+     "ko": "의견을 물을 때",
+     "en": "Asking for an opinion"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "在宅勤務の利点の一つは、時間の節約です。",
+    "read": "ざいたくきんむのりてんのひとつは、じかんのせつやくです。",
+    "ko": "재택근무의 장점은 시간 절약이에요.",
+    "en": "An advantage of working from home is saving time.",
+    "situation": {
+     "ko": "장점을 말할 때",
+     "en": "Giving an advantage"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "欠点は、孤立を感じることです。",
+    "read": "けってんは、こりつをかんじることです。",
+    "ko": "단점은 고립감이에요.",
+    "en": "A disadvantage is the feeling of isolation.",
+    "situation": {
+     "ko": "단점을 말할 때",
+     "en": "Giving a disadvantage"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "一方では便利ですが、他方では危険です。",
+    "read": "いっぽうではべんりですが、たほうではきけんです。",
+    "ko": "한편으로는 편리하지만 다른 한편으로는 위험해요.",
+    "en": "On the one hand it is convenient; on the other hand it is risky.",
+    "situation": {
+     "ko": "양면을 비교할 때",
+     "en": "Presenting both sides"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "それは効率的だと主張されています。",
+    "read": "それはこうりつてきだとしゅちょうされています。",
+    "ko": "이것이 더 효율적이라고 주장되고 있어요.",
+    "en": "It is argued that this is more efficient.",
+    "situation": {
+     "ko": "주장을 객관적으로 말할 때",
+     "en": "Reporting a view"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "反対者は安全を心配しています。",
+    "read": "はんたいしゃはあんぜんをしんぱいしています。",
+    "ko": "반대하는 사람들은 안전을 걱정해요.",
+    "en": "Opponents are worried about safety.",
+    "situation": {
+     "ko": "반대 입장을 소개할 때",
+     "en": "Presenting the other side"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "全体として、利点のほうが大きいと思います。",
+    "read": "ぜんたいとして、りてんのほうがおおきいとおもいます。",
+    "ko": "전반적으로 장점이 더 커요.",
+    "en": "Overall, the advantages are greater.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "結局は人によって違います。",
+    "read": "けっきょくはひとによってちがいます。",
+    "ko": "결국 선택은 개인에게 달려 있어요.",
+    "en": "In the end, the choice depends on the individual.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Ending"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜の利点は〜ことです。",
+    "read": "〜のりてんは〜ことです。",
+    "ko": "한편으로는 …, 다른 한편으로는 …",
+    "en": "On the one hand, … On the other hand, …"
+   },
+   {
+    "id": "w2",
+    "t": "欠点は〜ことです。",
+    "read": "けってんは〜ことです。",
+    "ko": "~라고 주장된다.",
+    "en": "It is argued / claimed / believed that …"
+   },
+   {
+    "id": "w3",
+    "t": "一方では〜、他方では〜。",
+    "read": "いっぽうでは〜、たほうでは〜。",
+    "ko": "~의 장점은 …이다.",
+    "en": "One advantage of … is that …"
+   },
+   {
+    "id": "w4",
+    "t": "全体として、〜。",
+    "read": "ぜんたいとして、〜。",
+    "ko": "전반적으로",
+    "en": "Overall, / On balance, …"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "재택근무의 찬반을 균형 있게 4문장으로 써 보세요.",
+    "en": "Write 4 sentences giving a balanced view of working from home."
+   },
+   "must_include": [
+    {
+     "label": "利点",
+     "match": [
+      "利点の一つ"
+     ]
+    },
+    {
+     "label": "一方",
+     "match": [
+      "一方"
+     ]
+    },
+    {
+     "label": "全体として",
+     "match": [
+      "全体として"
+     ]
+    }
+   ],
+   "model": "在宅勤務の利点の一つは、通勤時間を節約できることです。一方、欠点は同僚との接触が減ることです。支持者は効率が上がると主張しますが、反対者は孤立を心配します。全体として、両方を組み合わせるのがいちばんだと思います。",
+   "model_trans": {
+    "ko": "재택근무의 장점은 출퇴근 시간을 절약하는 것입니다. 한편 단점은 동료와의 소통이 줄어드는 것입니다. 찬성하는 사람들은 업무 효율이 높아진다고 주장하지만 반대하는 사람들은 고립감을 걱정합니다. 전반적으로 두 가지를 섞은 방식이 가장 좋다고 생각합니다.",
+    "en": "One advantage of working from home is saving commuting time. On the other hand, a disadvantage is less contact with colleagues. Supporters argue that efficiency rises, whereas opponents worry about isolation. Overall, I think a mix of the two is best."
+   }
+  }
+ }
+}

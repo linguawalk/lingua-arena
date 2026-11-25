@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u14",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 14,
+  "concept": "B2.U14",
+  "status": "live",
+  "title": {
+   "target": "くらべる",
+   "ko": "비교 표현 심화",
+   "en": "Advanced comparisons"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "ますます",
+   "pos": "adv",
+   "read": "ますます",
+   "ko": "점점",
+   "en": "increasingly",
+   "ex": {
+    "t": "ますます忙しくなりました。",
+    "read": "ますますいそがしくなりました。",
+    "ko": "도시는 점점 더 붐비고 있어요.",
+    "en": "Cities are becoming increasingly crowded."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "はるかに",
+   "pos": "adv",
+   "read": "はるかに",
+   "ko": "훨씬",
+   "en": "far",
+   "ex": {
+    "t": "こちらのほうがはるかに効率的です。",
+    "read": "こちらのほうがはるかにこうりつてきです。",
+    "ko": "이 방법이 훨씬 효율적이에요.",
+    "en": "This method is far more efficient."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "匹敵する",
+   "pos": "adj",
+   "read": "ひってきする",
+   "ko": "비슷한",
+   "en": "comparable",
+   "ex": {
+    "t": "彼の実力はプロに匹敵します。",
+    "read": "かれのじつりょくはプロにひってきします。",
+    "ko": "두 제품의 성능은 비슷해요.",
+    "en": "The two products have comparable performance."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "著しい",
+   "pos": "adj",
+   "read": "いちじるしい",
+   "ko": "현저한",
+   "en": "significant",
+   "ex": {
+    "t": "著しい変化が見られます。",
+    "read": "いちじるしいへんかがみられます。",
+    "ko": "현저한 차이가 있어요.",
+    "en": "There is a significant difference."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "わずかに",
+   "pos": "adv",
+   "read": "わずかに",
+   "ko": "약간",
+   "en": "slightly",
+   "ex": {
+    "t": "価格がわずかに上がりました。",
+    "read": "かかくがわずかにあがりました。",
+    "ko": "가격이 약간 올랐어요.",
+    "en": "The price has risen slightly."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "二倍",
+   "pos": "phrase",
+   "read": "にばい",
+   "ko": "두 배",
+   "en": "twice as",
+   "ex": {
+    "t": "あの建物はこれの二倍の高さです。",
+    "read": "あのたてものはこれのにばいのたかさです。",
+    "ko": "그 건물은 이 건물의 두 배 높아요.",
+    "en": "That building is twice as tall as this one."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "比べる",
+   "pos": "verb",
+   "read": "くらべる",
+   "ko": "비교하다",
+   "en": "compare",
+   "ex": {
+    "t": "二つの都市を比べます。",
+    "read": "ふたつのとしをくらべます。",
+    "ko": "두 도시를 비교해 보세요.",
+    "en": "Compare the two cities."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "格差",
+   "pos": "noun",
+   "read": "かくさ",
+   "ko": "격차",
+   "en": "gap",
+   "ex": {
+    "t": "都市と農村の格差が広がっています。",
+    "read": "としとのうそんのかくさがひろがっています。",
+    "ko": "빈부 격차가 커지고 있어요.",
+    "en": "The gap between rich and poor is widening."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "圧倒的に",
+   "pos": "phrase",
+   "read": "あっとうてきに",
+   "ko": "최고의",
+   "en": "by far the best",
+   "ex": {
+    "t": "それが圧倒的にいちばんいい選択です。",
+    "read": "それがあっとうてきにいちばんいいせんたくです。",
+    "ko": "그것이 단연 최고의 선택이에요.",
+    "en": "That is by far the best choice."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "〜に対して",
+   "pos": "conj",
+   "read": "〜にたいして",
+   "ko": "반면에",
+   "en": "whereas",
+   "ex": {
+    "t": "彼は外向的なのに対して、弟は内気です。",
+    "read": "かれはがいこうてきなのにたいして、おとうとはうちきです。",
+    "ko": "그는 외향적인 반면 동생은 내성적이에요.",
+    "en": "He is outgoing, whereas his brother is shy."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "比較の発展：〜ば〜ほど・〜の二倍・はるかに〜・圧倒的に〜・〜に対して",
+   "en": "Advanced comparison: 〜ば〜ほど / 〜の二倍 / はるかに〜 / 圧倒的に〜 / 〜に対して"
+  },
+  "explain": {
+   "ko": "比例する変化は「〜ば〜ほど」：「練習すればするほど、上手になります。」倍数は「〜の二倍／三倍」：「あの建物はこれの二倍の高さです。」差が大きいときは「はるかに」、小さいときは「わずかに」。最上級の強調は「圧倒的に」「断然」。対比は「〜に対して」：「兄は外向的なのに対して、弟は内気です。」「〜に比べて」も使います。",
+   "en": "Proportional change uses 「〜ば〜ほど」: 「練習すればするほど、上手になります。」 Multiples are 「〜の二倍／三倍」: 「あの建物はこれの二倍の高さです。」 A large gap is 「はるかに」, a small one 「わずかに」. Strong superlatives use 「圧倒的に／断然」. Contrast is 「〜に対して」: 「兄は外向的なのに対して、弟は内気です。」 「〜に比べて」 is also common."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "比例 / Proportion",
+     "〜ば〜ほど",
+     "練習すればするほど上手になる。"
+    ],
+    [
+     "倍数 / Multiple",
+     "〜の二倍",
+     "これの二倍の高さです。"
+    ],
+    [
+     "差 / Difference",
+     "はるかに・わずかに",
+     "はるかに効率的です。"
+    ],
+    [
+     "対比 / Contrast",
+     "〜に対して",
+     "兄は外向的なのに対して、弟は内気です。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜ば〜ほど」は同じ動詞を二回使います：なればなるほど。",
+    "en": "「〜ば〜ほど」 repeats the same verb: なればなるほど."
+   },
+   {
+    "ko": "「二倍」は元の数を含む「二倍」で、「二倍増える」と「二倍になる」は意味が近いです。",
+    "en": "「二倍」 includes the base number."
+   },
+   {
+    "ko": "「〜に対して」は二つの違うものを並べるとき、「〜に比べて」は差を言うときに使います。",
+    "en": "「〜に対して」 sets two things side by side; 「〜に比べて」 states a difference."
+   }
+  ],
+  "examples": [
+   {
+    "t": "練習すればするほど、上手になります。",
+    "read": "れんしゅうすればするほど、じょうずになります。",
+    "ko": "더 많이 연습할수록 더 잘하게 돼요.",
+    "en": "The more you practise, the better you get."
+   },
+   {
+    "t": "あの建物はこれの二倍の高さです。",
+    "read": "あのたてものはこれのにばいのたかさです。",
+    "ko": "그 건물은 이 건물의 두 배 높아요.",
+    "en": "That building is twice as tall as this one."
+   },
+   {
+    "t": "この方法のほうがはるかに効率的です。",
+    "read": "このほうほうのほうがはるかにこうりつてきです。",
+    "ko": "이 방법이 훨씬 효율적이에요.",
+    "en": "This method is far more efficient."
+   },
+   {
+    "t": "価格がわずかに上がりました。",
+    "read": "かかくがわずかにあがりました。",
+    "ko": "그것이 단연 최고의 선택이에요.",
+    "en": "That is by far the best choice."
+   },
+   {
+    "t": "兄は外向的なのに対して、弟は内気です。",
+    "read": "あにはがいこうてきなのにたいして、おとうとはうちきです。",
+    "ko": "그는 외향적인 반면 동생은 내성적이에요.",
+    "en": "He is outgoing, whereas his brother is shy."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "練習すれば___ほど、上手になります。",
+    "options": [
+     "する",
+     "した",
+     "して"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "あの建物はこれの___の高さです。",
+    "options": [
+     "二倍",
+     "二度",
+     "二回"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "この方法のほうが___効率的です。",
+    "options": [
+     "はるかに",
+     "わずかに",
+     "ときどき"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "兄は外向的な___、弟は内気です。",
+    "options": [
+     "のに対して",
+     "ので",
+     "ながら"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "二つの都市のうち、どちらのほうが住みやすいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 두 도시 중 어디가 더 살기 좋아요?",
+     "en": "(Question) Which of the two cities is better to live in?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "ソウルのほうがはるかに混んでいます。",
+       "来週の月曜日です。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新しい製品は古いものとどう違いますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 새 제품과 이전 제품은 어떻게 달라요?",
+     "en": "(Question) How does the new product differ from the old one?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "わずかに軽く、電池が二倍長持ちします。",
+       "ずっと古いです。",
+       "昨日買いました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ソウルとプサン、どっちが住みやすい？"
+      },
+      {
+       "s": "B",
+       "t": "ソウルのほうがはるかに混んでいて、家賃も高いよ。でも仕事の数は圧倒的にソウルだね。"
+      },
+      {
+       "s": "A",
+       "t": "人口はどのくらい違うの？"
+      },
+      {
+       "s": "B",
+       "t": "ソウルはプサンの約三倍だよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 서울과 부산 중 어디가 살기 좋아?\nB: 서울이 훨씬 붐비고 집값도 더 비싸. 하지만 일자리는 서울이 단연 많아.\nA: 인구는 얼마나 달라?\nB: 서울이 부산의 약 세 배야.",
+     "en": "A: Which is better to live in, Seoul or Busan?\nB: Seoul is far more crowded and housing is more expensive. But Seoul has by far the most jobs.\nA: How different are the populations?\nB: Seoul's is about three times as large as Busan's."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ソウルの人口はプサンのどのくらいですか。",
+      "options": [
+       "約三倍",
+       "約二倍",
+       "約半分"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新しいモデルは古いものよりわずかに軽く、電池は二倍長持ちします。価格は高いですが、性能ははるかに上です。使えば使うほど、その違いがよく分かります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "새 모델은 이전 모델보다 약간 가벼워졌고, 배터리는 두 배 오래 갑니다. 가격은 더 비싸지만 성능은 훨씬 좋아졌습니다. 많이 쓸수록 차이를 더 크게 느끼게 됩니다.",
+     "en": "The new model is slightly lighter than the old one, and its battery lasts twice as long. The price is higher, but performance is far better. The more you use it, the more you notice the difference."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "新しいモデルの電池はどうですか。",
+      "options": [
+       "二倍長持ちする",
+       "半分しかもたない",
+       "同じ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "電器店です。"
+      },
+      {
+       "s": "B",
+       "t": "二つのモデルのうち、どちらがいいですか。"
+      },
+      {
+       "s": "A",
+       "t": "新しいほうがはるかに速くて、電池も二倍長持ちします。"
+      },
+      {
+       "s": "B",
+       "t": "値段はどのくらい違いますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 전자제품 매장입니다.\n손님: 두 모델 중 어느 쪽이 더 좋아요?\n직원: 새 모델이 훨씬 빠르고 배터리도 두 배 오래 갑니다.\n손님: 가격은 얼마나 차이가 나요?",
+     "en": "Staff: Electronics shop.\nGuest: Which of the two models is better?\nStaff: The new one is far faster and its battery lasts twice as long.\nGuest: How big is the price difference?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "新しいほうがはるかに______です",
+      "answers": [
+       "速"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "電池は______長持ちします",
+      "answers": [
+       "二倍"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 練習すれば___ほど、上手になります。\n2) あの建物はこれの___の高さです。\n3) この方法のほうが___効率的です。",
+    "trans": {
+     "ko": "1) 더 많이 연습할수록 더 잘하게 돼요. 2) 그 건물은 이 건물의 두 배 높아요. 3) 그것이 단연 최고의 선택이에요.",
+     "en": "1) The more you practise, the better you get. 2) That building is twice as tall as this one. 3) That is by far the best choice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "練習すれば___ほど、上手になります。",
+      "options": [
+       "する",
+       "した",
+       "して"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "あの建物はこれの___の高さです。",
+      "options": [
+       "二倍",
+       "二度",
+       "二回"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "この方法のほうが___効率的です。",
+      "options": [
+       "はるかに",
+       "わずかに",
+       "ときどき"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "ソウルはプサンよりはるかに(1)、物価も高いです。ソウルの人口はプサンの約(2)です。都市が大きく(3)なるほど、家賃は高くなります。",
+    "trans": {
+     "ko": "새 모델은 이전 모델보다 약간 가벼워졌고, 배터리는 두 배 오래 갑니다. 가격은 더 비싸지만 성능은 훨씬 좋아졌습니다. 많이 쓸수록 차이를 더 크게 느끼게 됩니다.",
+     "en": "The new model is slightly lighter than the old one, and its battery lasts twice as long. The price is higher, but performance is far better. The more you use it, the more you notice the difference."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "混雑していて",
+       "静かで",
+       "小さくて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "三倍",
+       "半分",
+       "三回"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "なれば",
+       "なって",
+       "なった"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "レポート\nこの十年で、この町の人口は二倍になりました。人口が増えれば増えるほど、交通は悪くなりました。一方、農村地域はわずかに減少しました。二つの地域の格差は、今後さらに広がると見られています。",
+    "trans": {
+     "ko": "보고서\n지난 10년간 도시의 인구는 두 배로 늘었다. 인구가 늘수록 교통 혼잡도 심해졌다. 반면 농촌 지역의 인구는 약간 줄었다. 두 지역 사이의 격차는 앞으로 더 커질 것으로 보인다.",
+     "en": "REPORT\nOver the last ten years the city's population has doubled. The more the population grew, the worse the traffic became. Rural areas, whereas, lost slightly. The gap between the two areas is expected to widen further."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この十年で人口はどうなりましたか。",
+      "options": [
+       "二倍になった",
+       "半分になった",
+       "変わらない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "二つの地域の格差はどうなると見られていますか。",
+      "options": [
+       "さらに広がる",
+       "なくなる",
+       "少し小さくなる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ウンジさんは姉よりはるかに外向的です。姉は静かなのに対して、ウンジさんは人と話すのが大好きです。二人は違いますが、とても仲がいいです。",
+    "trans": {
+     "ko": "은지는 언니보다 훨씬 외향적이에요. 언니는 조용한 반면 은지는 사람들과 이야기하는 것을 좋아해요. 둘은 서로 다르지만 사이가 매우 좋아요.",
+     "en": "Eunji is much more outgoing than her sister. Her sister is quiet, whereas Eunji loves talking to people. They are different but get on very well."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ウンジさんは姉より外向的です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "姉はウンジさんよりおしゃべりです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "二人はソウルに住んでいます。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "二つの都市のうち、どちらが住みやすいですか。",
+    "read": "ふたつのとしのうち、どちらがすみやすいですか。",
+    "ko": "두 도시 중 어디가 더 살기 좋아요?",
+    "en": "Which of the two cities is better to live in?",
+    "situation": {
+     "ko": "비교를 물을 때",
+     "en": "Asking for a comparison"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "練習すればするほど、上手になります。",
+    "read": "れんしゅうすればするほど、じょうずになります。",
+    "ko": "더 많이 연습할수록 더 잘하게 돼요.",
+    "en": "The more you practise, the better you get.",
+    "situation": {
+     "ko": "비례 관계를 말할 때",
+     "en": "Proportional change"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "あの建物はこれの二倍の高さです。",
+    "read": "あのたてものはこれのにばいのたかさです。",
+    "ko": "그 건물은 이 건물의 두 배 높아요.",
+    "en": "That building is twice as tall as this one.",
+    "situation": {
+     "ko": "배수를 비교할 때",
+     "en": "Comparing by a multiple"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "この方法のほうがはるかに効率的です。",
+    "read": "このほうほうのほうがはるかにこうりつてきです。",
+    "ko": "이 방법이 훨씬 효율적이에요.",
+    "en": "This method is far more efficient.",
+    "situation": {
+     "ko": "차이를 강조할 때",
+     "en": "Emphasising a difference"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "価格がわずかに上がりました。",
+    "read": "かかくがわずかにあがりました。",
+    "ko": "가격이 약간 올랐어요.",
+    "en": "The price has risen slightly.",
+    "situation": {
+     "ko": "작은 변화를 말할 때",
+     "en": "Describing a small change"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "それが圧倒的にいちばんいい選択です。",
+    "read": "それがあっとうてきにいちばんいいせんたくです。",
+    "ko": "그것이 단연 최고의 선택이에요.",
+    "en": "That is by far the best choice.",
+    "situation": {
+     "ko": "최상급을 강조할 때",
+     "en": "Emphasising a superlative"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "彼は外向的なのに対して、弟は内気です。",
+    "read": "かれはがいこうてきなのにたいして、おとうとはうちきです。",
+    "ko": "그는 외향적인 반면 동생은 내성적이에요.",
+    "en": "He is outgoing, whereas his brother is shy.",
+    "situation": {
+     "ko": "대조를 말할 때",
+     "en": "Contrasting"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "全体として、この方法をお勧めします。",
+    "read": "ぜんたいとして、このほうほうをおすすめします。",
+    "ko": "종합하면 이 방법을 추천해요.",
+    "en": "On balance, I recommend this method.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜ば〜ほど、〜。",
+    "read": "〜ば〜ほど、〜。",
+    "ko": "~할수록 더 ~하다.",
+    "en": "The + comparative …, the + comparative …"
+   },
+   {
+    "id": "w2",
+    "t": "〜の二倍の〜。",
+    "read": "〜のにばいの〜。",
+    "ko": "~의 두 배",
+    "en": "twice / three times as + adj + as …"
+   },
+   {
+    "id": "w3",
+    "t": "はるかに〜。",
+    "read": "はるかに〜。",
+    "ko": "훨씬 더 ~",
+    "en": "far / much / a great deal + comparative."
+   },
+   {
+    "id": "w4",
+    "t": "圧倒的に〜。",
+    "read": "あっとうてきに〜。",
+    "ko": "단연 가장 ~",
+    "en": "by far the + superlative."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "두 도시나 두 제품을 비교하는 4문장을 써 보세요. the more … the more와 배수 비교를 하나씩 쓰세요.",
+    "en": "Write 4 sentences comparing two cities or products. Use the more … the more once and a multiple comparison once."
+   },
+   "must_include": [
+    {
+     "label": "はるかに",
+     "match": [
+      "はるかに"
+     ]
+    },
+    {
+     "label": "三倍",
+     "match": [
+      "約三倍"
+     ]
+    },
+    {
+     "label": "なるほど",
+     "match": [
+      "なればなるほど"
+     ]
+    }
+   ],
+   "model": "ソウルはプサンよりはるかに混雑していて、物価も高いです。ソウルの人口はプサンの約三倍です。都市が大きくなればなるほど、家賃は高くなります。でも仕事の数では、ソウルが圧倒的に一番です。",
+   "model_trans": {
+    "ko": "서울은 부산보다 훨씬 붐비고 물가도 높아요. 서울의 인구는 부산의 약 세 배예요. 도시가 커질수록 집값은 더 비싸져요. 하지만 일자리 면에서는 서울이 단연 가장 좋아요.",
+    "en": "Seoul is far more crowded than Busan and prices are higher. Seoul's population is about three times as large as Busan's. The bigger a city gets, the more expensive housing becomes. But in terms of jobs, Seoul is by far the best."
+   }
+  }
+ }
+}

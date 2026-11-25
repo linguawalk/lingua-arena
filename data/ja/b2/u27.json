@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u27",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 27,
+  "concept": "B2.U27",
+  "status": "live",
+  "title": {
+   "target": "グラフを説明する",
+   "ko": "그래프와 추세 설명",
+   "en": "Describing graphs and trends"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "上がる",
+   "pos": "verb",
+   "read": "あがる",
+   "ko": "증가하다",
+   "en": "rise",
+   "ex": {
+    "t": "売り上げが着実に上がりました。",
+    "read": "うりあげがちゃくじつにあがりました。",
+    "ko": "판매량이 꾸준히 증가했어요.",
+    "en": "Sales rose steadily."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "下がる",
+   "pos": "verb",
+   "read": "さがる",
+   "ko": "감소하다",
+   "en": "fall",
+   "ex": {
+    "t": "価格が急激に下がりました。",
+    "read": "かかくがきゅうげきにさがりました。",
+    "ko": "가격이 급격히 하락했어요.",
+    "en": "Prices fell sharply."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "急激に",
+   "pos": "adv",
+   "read": "きゅうげきに",
+   "ko": "급격히",
+   "en": "sharply",
+   "ex": {
+    "t": "失業率が急激に下がりました。",
+    "read": "しつぎょうりつがきゅうげきにさがりました。",
+    "ko": "수치가 급격히 올랐어요.",
+    "en": "The figure went up sharply."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "着実に",
+   "pos": "adv",
+   "read": "ちゃくじつに",
+   "ko": "꾸준히",
+   "en": "steadily",
+   "ex": {
+    "t": "着実に増えています。",
+    "read": "ちゃくじつにふえています。",
+    "ko": "인구는 꾸준히 늘고 있어요.",
+    "en": "The population is growing steadily."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "横ばい",
+   "pos": "phrase",
+   "read": "よこばい",
+   "ko": "안정적으로 유지되다",
+   "en": "remain stable",
+   "ex": {
+    "t": "失業率は横ばいです。",
+    "read": "しつぎょうりつはよこばいです。",
+    "ko": "실업률은 안정적으로 유지됐어요.",
+    "en": "The unemployment rate remained stable."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "ピーク",
+   "pos": "verb",
+   "read": "ピーク",
+   "ko": "정점에 이르다",
+   "en": "peak",
+   "ex": {
+    "t": "観光客数は八月にピークに達しました。",
+    "read": "かんこうきゃくかずははちがつにピークにたっしました。",
+    "ko": "관광객 수는 8월에 정점에 이르렀어요.",
+    "en": "The number of tourists peaked in August."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "変動する",
+   "pos": "verb",
+   "read": "へんどうする",
+   "ko": "변동하다",
+   "en": "fluctuate",
+   "ex": {
+    "t": "価格は変動しています。",
+    "read": "かかくはへんどうしています。",
+    "ko": "환율은 하루 동안 변동했어요.",
+    "en": "The exchange rate fluctuated during the day."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "わずかに",
+   "pos": "adv",
+   "read": "わずかに",
+   "ko": "약간",
+   "en": "slightly",
+   "ex": {
+    "t": "わずかに増えました。",
+    "read": "わずかにふえました。",
+    "ko": "기온이 약간 올랐어요.",
+    "en": "The temperature rose slightly."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "〜から〜へ",
+   "pos": "phrase",
+   "read": "〜から〜へ",
+   "ko": "~에서 ~으로",
+   "en": "from … to …",
+   "ex": {
+    "t": "三十パーセントから四十五パーセントへ増えました。",
+    "read": "さんじゅうパーセントからしじゅうごパーセントへふえました。",
+    "ko": "30%에서 45%로 늘었어요.",
+    "en": "It rose from 30% to 45%."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "傾向",
+   "pos": "noun",
+   "read": "けいこう",
+   "ko": "추세",
+   "en": "trend",
+   "ex": {
+    "t": "全体の傾向は上昇です。",
+    "read": "ぜんたいのけいこうはじょうしょうです。",
+    "ko": "전반적인 추세는 상승이에요.",
+    "en": "The overall trend is upward."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "グラフの説明：〜から〜へ・急激に・着実に・〜にピークに達する",
+   "en": "Describing graphs: 〜から〜へ / 急激に / 着実に / ピークに達する"
+  },
+  "explain": {
+   "ko": "グラフは「このグラフは〜を示しています」で紹介します。増減は「増えた／上がった」「減った／下がった」、始まりと終わりは「〜から〜へ」：「三十パーセントから四十五パーセントへ増えました。」速さは「急激に」「着実に」「わずかに」、変化がないときは「横ばい」を使います。いちばん高い点は「ピークに達した」、全体は「全体の傾向は上昇です」とまとめます。",
+   "en": "Introduce a graph with 「このグラフは〜を示しています」. Increases and decreases: 「増えた／上がった」「減った／下がった」; start and end: 「〜から〜へ」: 「三十パーセントから四十五パーセントへ増えました。」 Speed uses 「急激に」「着実に」「わずかに」, and no change is 「横ばい」. The highest point is 「ピークに達した」, and the overall picture 「全体の傾向は上昇です」."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "増加 / Increase",
+     "増えた・上がった",
+     "売り上げが着実に上がった。"
+    ],
+    [
+     "減少 / Decrease",
+     "減った・下がった",
+     "価格が急激に下がった。"
+    ],
+    [
+     "範囲 / Range",
+     "〜から〜へ",
+     "三十%から四十五%へ増えた。"
+    ],
+    [
+     "安定 / Stable",
+     "横ばい・安定している",
+     "失業率は横ばいです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜から〜へ」は変化の始まりと終わりを示します。",
+    "en": "「〜から〜へ」 gives start and end of a change."
+   },
+   {
+    "ko": "「急激に」は速い変化、「徐々に」は遅い変化です。",
+    "en": "「急激に」 is fast; 「徐々に」 is slow."
+   },
+   {
+    "ko": "グラフの説明は過去形、グラフそのものは現在形で書きます。",
+    "en": "Past events use the past tense; the graph itself the present."
+   }
+  ],
+  "examples": [
+   {
+    "t": "売り上げが着実に上がりました。",
+    "read": "うりあげがちゃくじつにあがりました。",
+    "ko": "판매량이 꾸준히 증가했어요.",
+    "en": "Sales rose steadily."
+   },
+   {
+    "t": "価格が急激に下がりました。",
+    "read": "かかくがきゅうげきにさがりました。",
+    "ko": "가격이 급격히 하락했어요.",
+    "en": "Prices fell sharply."
+   },
+   {
+    "t": "三十パーセントから四十五パーセントへ増えました。",
+    "read": "さんじゅうパーセントからしじゅうごパーセントへふえました。",
+    "ko": "30%에서 45%로 늘었어요.",
+    "en": "It rose from 30% to 45%."
+   },
+   {
+    "t": "観光客数は八月にピークに達しました。",
+    "read": "かんこうきゃくかずははちがつにピークにたっしました。",
+    "ko": "관광객 수는 8월에 정점에 이르렀어요.",
+    "en": "The number of tourists peaked in August."
+   },
+   {
+    "t": "失業率は横ばいです。",
+    "read": "しつぎょうりつはよこばいです。",
+    "ko": "실업률은 안정적으로 유지됐어요.",
+    "en": "The unemployment rate remained stable."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "売り上げが___上がりました。",
+    "options": [
+     "着実に",
+     "決して",
+     "昨日"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "価格が___下がりました。",
+    "options": [
+     "急激に",
+     "決して",
+     "昨日"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "観光客数は八月に___に達しました。",
+    "options": [
+     "ピーク",
+     "ゼロ",
+     "昨日"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "三十パーセント___四十五パーセントへ増えました。",
+    "options": [
+     "から",
+     "まで",
+     "ほど"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このグラフは何を示していますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그래프는 무엇을 보여 줘요?",
+     "en": "(Question) What does the graph show?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "観光客数を示しています。",
+       "何も示していません。",
+       "昨日撮りました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "売り上げはどう変化しましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 전체적인 추세는 어땠어요?",
+     "en": "(Question) What was the overall trend?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "着実に上がりました。",
+       "急に消えました。",
+       "昨日始まりました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "観光客数はいつピークに達したの？"
+      },
+      {
+       "s": "B",
+       "t": "2020年だよ。そのあと急激に減ったんだ。"
+      },
+      {
+       "s": "A",
+       "t": "最近は？"
+      },
+      {
+       "s": "B",
+       "t": "この二年間は横ばいだよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그래프를 설명해 봐.\nB: 관광객 수가 처음 5년 동안 꾸준히 늘어 2020년에 정점에 이르렀어.\nA: 그다음은?\nB: 급격히 감소했고 마지막 두 해에는 안정적으로 유지됐어.",
+     "en": "A: Describe the graph.\nB: The number of tourists rose steadily for the first five years and peaked in 2020.\nA: And then?\nB: It fell sharply and remained stable in the last two years."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "観光客数はいつピークに達しましたか。",
+      "options": [
+       "2020年",
+       "2015年",
+       "2022年"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このグラフは、この十年間の観光客数を示しています。最初の五年間は着実に増えて、2020年にピークに達しました。その後は急激に減少し、最近の二年間は横ばいです。全体の傾向は上昇です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 그래프는 한 도시의 인구 변화를 보여 줍니다. 1990년에 인구는 30만 명이었고 2020년에는 45만 명으로 증가했습니다. 증가 속도는 2000년 이후 약간 느려졌습니다. 전체적인 추세는 상승입니다.",
+     "en": "This graph shows population change in a city. In 1990 the population was three hundred thousand and by 2020 it had risen to four hundred and fifty thousand. The speed of growth slowed slightly after 2000. The overall trend is upward."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "全体の傾向はどうですか。",
+      "options": [
+       "上昇",
+       "下降",
+       "安定"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ニュース解説です。"
+      },
+      {
+       "s": "B",
+       "t": "このグラフのとおり、失業率は昨年急激に下がりました。"
+      },
+      {
+       "s": "A",
+       "t": "今年は？"
+      },
+      {
+       "s": "B",
+       "t": "横ばいが続いています。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "진행자: 뉴스 해설입니다.\n전문가: 이 그래프를 보시면 실업률이 지난해 급격히 떨어졌습니다.\n진행자: 올해는 어땠나요?\n전문가: 안정적으로 유지되고 있습니다.",
+     "en": "Presenter: News analysis.\nExpert: As you can see in this graph, the unemployment rate fell sharply last year.\nPresenter: And this year?\nExpert: It is remaining stable."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "______は昨年急激に下がりました",
+      "answers": [
+       "失業率"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "今年は______が続いています",
+      "answers": [
+       "横ばい"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 売り上げが___上がりました。\n2) 価格が___下がりました。\n3) 観光客数は八月に___に達しました。",
+    "trans": {
+     "ko": "1) 판매량이 꾸준히 증가했어요. 2) 가격이 급격히 하락했어요. 3) 관광객 수는 8월에 정점에 이르렀어요.",
+     "en": "1) Sales rose steadily. 2) Prices fell sharply. 3) The number of tourists peaked in August."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "売り上げが___上がりました。",
+      "options": [
+       "着実に",
+       "決して",
+       "昨日"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "価格が___下がりました。",
+      "options": [
+       "急激に",
+       "決して",
+       "昨日"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "観光客数は八月に___に達しました。",
+      "options": [
+       "ピーク",
+       "ゼロ",
+       "昨日"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "このグラフは、ある町の人口の変化を示しています。1990年に三十万人だった人口は、2020年には四十五万人へ(1)。増えるスピードは2000年以降、わずかに(2)。全体の傾向は(3)です。",
+    "trans": {
+     "ko": "이 그래프는 한 도시의 인구 변화를 보여 줍니다. 1990년에 인구는 30만 명이었고 2020년에는 45만 명으로 증가했습니다. 증가 속도는 2000년 이후 약간 느려졌습니다. 전체적인 추세는 상승입니다.",
+     "en": "This graph shows population change in a city. In 1990 the population was three hundred thousand and by 2020 it had risen to four hundred and fifty thousand. The speed of growth slowed slightly after 2000. The overall trend is upward."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "増えました",
+       "減りました",
+       "消えました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "遅くなりました",
+       "速くなりました",
+       "止まりました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "上昇",
+       "下降",
+       "停止"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "グラフの解説\n電気自動車の販売は、2%から20%へ増えました。一方、ディーゼル車の販売は、40%から15%へ減りました。全体の傾向は、電気自動車への移行です。",
+    "trans": {
+     "ko": "보고서\n전기차 판매는 2015년 2%에서 2023년 20%로 증가했다. 2018년까지는 완만하게 늘었으나 이후 급격히 상승했다. 반대로 경유차 판매는 같은 기간에 40%에서 15%로 감소했다.",
+     "en": "REPORT\nElectric car sales rose from 2% in 2015 to 20% in 2023. They grew gradually until 2018 and then rose sharply. By contrast, diesel car sales fell from 40% to 15% over the same period."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "電気自動車の販売はどう変わりましたか。",
+      "options": [
+       "2%から20%へ増えた",
+       "20%から2%へ減った",
+       "変わらない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ディーゼル車の販売はどうなりましたか。",
+      "options": [
+       "40%から15%へ減った",
+       "さらに増えた",
+       "同じだった"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ウンジさんの体重は、最初の六か月間は着実に減りました。その後は横ばいになりました。ウンジさんは、この傾向がこれからも続くことを期待しています。",
+    "trans": {
+     "ko": "은지는 지난 1년간의 체중 변화를 그래프로 그렸어요. 처음 6개월은 꾸준히 줄었고 이후에는 안정적이었어요.",
+     "en": "Eunji drew a graph of her weight over the last year. It fell steadily for the first six months and was then stable."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ウンジさんの体重は最初の六か月間着実に減りました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ウンジさんの体重は急激に増えました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ウンジさんは先生です。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "このグラフは何を示していますか。",
+    "read": "このグラフはなにをしめしていますか。",
+    "ko": "그래프는 무엇을 보여 줘요?",
+    "en": "What does the graph show?",
+    "situation": {
+     "ko": "그래프를 설명할 때",
+     "en": "Introducing a graph"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "売り上げは着実に上がりました。",
+    "read": "うりあげはちゃくじつにあがりました。",
+    "ko": "판매량이 꾸준히 증가했어요.",
+    "en": "Sales rose steadily.",
+    "situation": {
+     "ko": "증가를 말할 때",
+     "en": "Describing an increase"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "価格は急激に下がりました。",
+    "read": "かかくはきゅうげきにさがりました。",
+    "ko": "가격이 급격히 하락했어요.",
+    "en": "Prices fell sharply.",
+    "situation": {
+     "ko": "감소를 말할 때",
+     "en": "Describing a decrease"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "三十パーセントから四十五パーセントへ増えました。",
+    "read": "さんじゅうパーセントからしじゅうごパーセントへふえました。",
+    "ko": "30%에서 45%로 늘었어요.",
+    "en": "It rose from 30% to 45%.",
+    "situation": {
+     "ko": "수치 변화를 말할 때",
+     "en": "Giving figures"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "観光客数は八月にピークに達しました。",
+    "read": "かんこうきゃくかずははちがつにピークにたっしました。",
+    "ko": "관광객 수는 8월에 정점에 이르렀어요.",
+    "en": "The number of tourists peaked in August.",
+    "situation": {
+     "ko": "최고점을 말할 때",
+     "en": "Describing a peak"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "失業率は横ばいでした。",
+    "read": "しつぎょうりつはよこばいでした。",
+    "ko": "실업률은 안정적으로 유지됐어요.",
+    "en": "The unemployment rate remained stable.",
+    "situation": {
+     "ko": "변화 없음을 말할 때",
+     "en": "Describing stability"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "全体の傾向は上昇です。",
+    "read": "ぜんたいのけいこうはじょうしょうです。",
+    "ko": "전반적인 추세는 상승이에요.",
+    "en": "The overall trend is upward.",
+    "situation": {
+     "ko": "전체를 요약할 때",
+     "en": "Summarising the trend"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "この傾向は今後も続くと見られています。",
+    "read": "このけいこうはこんごもつづくとみられています。",
+    "ko": "앞으로도 이 추세가 계속될 것으로 보여요.",
+    "en": "This trend is expected to continue.",
+    "situation": {
+     "ko": "전망을 말할 때",
+     "en": "Making a forecast"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜から〜へ増えました。",
+    "read": "〜から〜へふえました。",
+    "ko": "~에서 ~으로 올랐다.",
+    "en": "rose / increased from … to …"
+   },
+   {
+    "id": "w2",
+    "t": "〜は急激に下がりました。",
+    "read": "〜はきゅうげきにさがりました。",
+    "ko": "~만큼 하락했다.",
+    "en": "fell / dropped by …"
+   },
+   {
+    "id": "w3",
+    "t": "〜にピークに達しました。",
+    "read": "〜にピークにたっしました。",
+    "ko": "~에 이르렀다.",
+    "en": "reached a peak of … / peaked at …"
+   },
+   {
+    "id": "w4",
+    "t": "〜は横ばいでした。",
+    "read": "〜はよこばいでした。",
+    "ko": "거의 변하지 않았다.",
+    "en": "remained stable / levelled off."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가상의 그래프를 설명하는 4문장을 써 보세요. 증가, 감소, 정점, 유지를 하나씩 쓰세요.",
+    "en": "Write 4 sentences describing an imaginary graph, including a rise, a fall, a peak and a period of stability."
+   },
+   "must_include": [
+    {
+     "label": "グラフ",
+     "match": [
+      "このグラフ"
+     ]
+    },
+    {
+     "label": "ピーク",
+     "match": [
+      "ピークに達しました"
+     ]
+    },
+    {
+     "label": "横ばい",
+     "match": [
+      "横ばい"
+     ]
+    }
+   ],
+   "model": "このグラフは過去十年間の観光客数を示しています。最初の五年間は着実に増えて、2020年にピークに達しました。その後は急激に減少しました。最近の二年間は横ばいです。",
+   "model_trans": {
+    "ko": "그래프는 지난 10년간 관광객 수를 보여 줍니다. 처음 5년 동안 수는 꾸준히 증가하여 2020년에 정점에 이르렀습니다. 그 후 급격히 감소했습니다. 마지막 두 해에는 안정적으로 유지되었습니다.",
+    "en": "The graph shows the number of tourists over the last ten years. In the first five years the number rose steadily and peaked in 2020. After that it fell sharply. In the last two years it remained stable."
+   }
+  }
+ }
+}

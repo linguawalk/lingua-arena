@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_b2_u24",
+  "lang": "ja",
+  "family": "asia",
+  "level": "b2",
+  "unit": 24,
+  "concept": "B2.U24",
+  "status": "live",
+  "title": {
+   "target": "報告書を書く",
+   "ko": "보고서 쓰기",
+   "en": "Writing a report"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "調査結果",
+   "pos": "noun",
+   "read": "ちょうさけっか",
+   "ko": "조사 결과",
+   "en": "finding",
+   "ex": {
+    "t": "調査結果をまとめます。",
+    "read": "ちょうさけっかをまとめます。",
+    "ko": "조사 결과 직원 만족도는 높았어요.",
+    "en": "The findings show that staff satisfaction was high."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "提言",
+   "pos": "noun",
+   "read": "ていげん",
+   "ko": "권고",
+   "en": "recommendation",
+   "ex": {
+    "t": "報告書の提言を読みました。",
+    "read": "ほうこくしょのていげんをよみました。",
+    "ko": "아래에 몇 가지 권고를 드립니다.",
+    "en": "Some recommendations are given below."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "目的",
+   "pos": "noun",
+   "read": "もくてき",
+   "ko": "목적",
+   "en": "purpose",
+   "ex": {
+    "t": "本報告書の目的は評価することです。",
+    "read": "ほんほうこくかきのもくてきはひょうかすることです。",
+    "ko": "이 보고서의 목적은 상황을 평가하는 것입니다.",
+    "en": "The purpose of this report is to assess the situation."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "調査",
+   "pos": "noun",
+   "read": "ちょうさ",
+   "ko": "설문 조사",
+   "en": "survey",
+   "ex": {
+    "t": "学生に調査を行いました。",
+    "read": "がくせいにちょうさをおこないました。",
+    "ko": "설문 조사에는 100명이 참여했어요.",
+    "en": "One hundred people took part in the survey."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "提案する",
+   "pos": "verb",
+   "read": "ていあんする",
+   "ko": "제안하다",
+   "en": "propose",
+   "ex": {
+    "t": "新しい制度の導入を提案します。",
+    "read": "あたらしいせいどのどうにゅうをていあんします。",
+    "ko": "새 시스템 도입을 제안합니다.",
+    "en": "I propose introducing a new system."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "改善",
+   "pos": "noun",
+   "read": "かいぜん",
+   "ko": "개선",
+   "en": "improvement",
+   "ex": {
+    "t": "待ち時間の改善が必要です。",
+    "read": "まちじかんのかいぜんがひつようです。",
+    "ko": "서비스 개선이 필요해요.",
+    "en": "An improvement in service is needed."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "弱点",
+   "pos": "noun",
+   "read": "じゃくてん",
+   "ko": "약점",
+   "en": "weakness",
+   "ex": {
+    "t": "主な弱点は待ち時間です。",
+    "read": "おもなじゃくてんはまちじかんです。",
+    "ko": "가장 큰 약점은 대기 시간이에요.",
+    "en": "The main weakness is the waiting time."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "強み",
+   "pos": "noun",
+   "read": "つよみ",
+   "ko": "강점",
+   "en": "strength",
+   "ex": {
+    "t": "強みはスタッフの親切さです。",
+    "read": "つよみはスタッフのしんせつさです。",
+    "ko": "강점은 직원의 친절함이에요.",
+    "en": "A strength is the friendliness of staff."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "〜によると",
+   "pos": "phrase",
+   "read": "〜によると",
+   "ko": "~에 따르면",
+   "en": "according to",
+   "ex": {
+    "t": "調査によると、六割が満足しています。",
+    "read": "ちょうさによると、ろくわりがまんぞくしています。",
+    "ko": "설문 조사에 따르면 60%가 만족해요.",
+    "en": "According to the survey, 60% are satisfied."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "結論づける",
+   "pos": "verb",
+   "read": "けつろんづける",
+   "ko": "결론짓다",
+   "en": "conclude",
+   "ex": {
+    "t": "改善が必要だと結論づけられます。",
+    "read": "かいぜんがひつようだとけつろんづけられます。",
+    "ko": "결론적으로 개선이 필요합니다.",
+    "en": "It can be concluded that improvement is needed."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "報告書の書き方：本報告書の目的は〜ことです・〜によると・〜することを提案します",
+   "en": "Writing reports: 本報告書の目的は〜ことです / 〜によると / 〜することを提案します"
+  },
+  "explain": {
+   "ko": "報告書は客観的で、私的な表現を避けます。目的は「本報告書の目的は〜ことです」、根拠は「調査によると〜」、結果は「〜という結果になりました」で述べます。提言は「〜することを提案します／勧めます」、結論は「したがって〜」「以上から、〜と結論づけられます」。見出しは「目的」「調査結果」「提言」のように分けます。",
+   "en": "Reports are objective and avoid personal language. State the purpose with 「本報告書の目的は〜ことです」, evidence with 「調査によると〜」, and results with 「〜という結果になりました」. Recommendations are 「〜することを提案します／勧めます」 and conclusions 「したがって〜」「以上から、〜と結論づけられます」. Divide with headings: 目的, 調査結果, 提言."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "目的 / Purpose",
+     "本報告書の目的は〜ことです",
+     "目的はサービスを評価することです。"
+    ],
+    [
+     "根拠 / Evidence",
+     "調査によると〜",
+     "調査によると、七割が不満です。"
+    ],
+    [
+     "提言 / Recommendation",
+     "〜することを提案します",
+     "レジを増やすことを提案します。"
+    ],
+    [
+     "結論 / Conclusion",
+     "したがって・以上から",
+     "したがって、改善が必要です。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "報告書では「私は」を使わず、「本報告書は」などにします。",
+    "en": "Avoid 「私は」; use 「本報告書は」."
+   },
+   {
+    "ko": "数字は「六十パーセント」など、正確に書きます。",
+    "en": "Write figures exactly, like 「六十パーセント」."
+   },
+   {
+    "ko": "「強み」「弱点」は、評価の項目を分けるときに使います。",
+    "en": "「強み」「弱点」 organize evaluation items."
+   }
+  ],
+  "examples": [
+   {
+    "t": "本報告書の目的は、学生食堂のサービスを評価することです。",
+    "read": "ほんほうこくかきのもくてきは、がくせいしょくどうのサービスをひょうかすることです。",
+    "ko": "이 보고서의 목적은 상황을 평가하는 것입니다.",
+    "en": "The purpose of this report is to assess the situation."
+   },
+   {
+    "t": "調査によると、七割の学生が待ち時間に不満を持っています。",
+    "read": "ちょうさによると、しちわりのがくせいがまちじかんにふまんをもっています。",
+    "ko": "설문 조사에 따르면 60%가 만족해요.",
+    "en": "According to the survey, 60% are satisfied."
+   },
+   {
+    "t": "主な弱点は、レジが一つしかないことです。",
+    "read": "おもなじゃくてんは、レジがひとつしかないことです。",
+    "ko": "가장 큰 약점은 대기 시간이에요.",
+    "en": "The main weakness is the waiting time."
+   },
+   {
+    "t": "レジを増やすことを提案します。",
+    "read": "レジをふやすことをていあんします。",
+    "ko": "새 시스템 도입을 제안합니다.",
+    "en": "I propose introducing a new system."
+   },
+   {
+    "t": "したがって、改善が必要だと結論づけられます。",
+    "read": "したがって、かいぜんがひつようだとけつろんづけられます。",
+    "ko": "결론적으로 개선이 필요합니다.",
+    "en": "It can be concluded that improvement is needed."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "本報告書の___は、サービスを評価することです。",
+    "options": [
+     "目的",
+     "理由",
+     "結果"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "調査に___、六割が満足しています。",
+    "options": [
+     "よると",
+     "ついて",
+     "かけて"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "新しい制度の導入を___。",
+    "options": [
+     "提案します",
+     "断ります",
+     "忘れます"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "閲覧室を広げることを___。",
+    "options": [
+     "提案します",
+     "禁止します",
+     "忘れます"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "報告書はどう始めますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 보고서는 어떻게 시작해요?",
+     "en": "(Question) How should the report begin?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "目的を書きます。",
+       "冗談から始めます。",
+       "結論だけ書きます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "調査では何が分かりましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 조사 결과는 어땠어요?",
+     "en": "(Question) What did the survey show?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "七割が待ち時間に不満です。",
+       "誰も不満ではありません。",
+       "料理がおいしいです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "食堂の報告書には、何を書けばいい？"
+      },
+      {
+       "s": "B",
+       "t": "まず目的を書いて、調査結果を示すんだ。"
+      },
+      {
+       "s": "A",
+       "t": "提言は？"
+      },
+      {
+       "s": "B",
+       "t": "たとえば、レジを一つ増やすことを提案するといいよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 보고서의 목적이 뭐예요?\nB: 학생 식당의 서비스를 평가하는 거예요. 설문 조사에 따르면 70%가 대기 시간에 불만이에요.\nA: 권고는요?\nB: 계산대를 한 개 더 설치하는 것을 권고합니다.",
+     "en": "A: What is the purpose of the report?\nB: To evaluate the service in the canteen. According to the survey, 70% are dissatisfied with the waiting time.\nA: And your recommendation?\nB: I recommend installing a second till."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人はどんな提言をすすめていますか。",
+      "options": [
+       "レジを一つ増やす",
+       "食堂を閉める",
+       "値段を下げる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "本報告書の目的は、図書館の利用状況を評価することです。調査によると、学生の六割が満足しています。主な弱点は座席が足りないことです。閲覧室を広げることを提案します。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 보고서는 도서관 이용 현황을 조사한 것입니다. 100명의 학생이 설문 조사에 참여했습니다. 가장 큰 강점은 조용한 환경이고 약점은 좌석 부족입니다. 열람실을 확장할 것을 권고합니다.",
+     "en": "This report looks at how the library is used. One hundred students took part in the survey. The main strength is the quiet environment and the weakness is the shortage of seats. It is recommended that the reading room be extended."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "閲覧室についてどんな提案をしていますか。",
+      "options": [
+       "広げる",
+       "閉める",
+       "移す"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "学生課です。"
+      },
+      {
+       "s": "B",
+       "t": "報告書の提言を知りたいのですが。"
+      },
+      {
+       "s": "A",
+       "t": "二つ目のレジを設置することです。"
+      },
+      {
+       "s": "B",
+       "t": "ありがとうございます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 학생처입니다.\n학생: 보고서의 권고 사항을 알고 싶어요.\n직원: 계산대를 한 개 더 설치하는 것입니다.\n학생: 감사합니다.",
+     "en": "Staff: Student office.\nStudent: I'd like to know the report's recommendations.\nStaff: To install a second till.\nStudent: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "学生は報告書の______を知りたいです",
+      "answers": [
+       "提言"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "提言は二つ目の______を設置することです",
+      "answers": [
+       "レジ"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 本報告書の___は、サービスを評価することです。\n2) 調査に___、六割が満足しています。\n3) 新しい制度の導入を___。",
+    "trans": {
+     "ko": "1) 이 보고서의 목적은 상황을 평가하는 것입니다. 2) 설문 조사에 따르면 60%가 만족해요. 3) 새 시스템 도입을 제안합니다.",
+     "en": "1) The purpose of this report is to assess the situation. 2) According to the survey, 60% are satisfied. 3) I propose introducing a new system."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "本報告書の___は、サービスを評価することです。",
+      "options": [
+       "目的",
+       "理由",
+       "結果"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "調査に___、六割が満足しています。",
+      "options": [
+       "よると",
+       "ついて",
+       "かけて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "新しい制度の導入を___。",
+      "options": [
+       "提案します",
+       "断ります",
+       "忘れます"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "本報告書は、図書館の利用状況を(1)ことが目的です。百人の学生が調査に参加しました。最大の強みは静かな環境で、(2)は座席が足りないことです。閲覧室を広げることを(3)。",
+    "trans": {
+     "ko": "이 보고서는 도서관 이용 현황을 조사한 것입니다. 100명의 학생이 설문 조사에 참여했습니다. 가장 큰 강점은 조용한 환경이고 약점은 좌석 부족입니다. 열람실을 확장할 것을 권고합니다.",
+     "en": "This report looks at how the library is used. One hundred students took part in the survey. The main strength is the quiet environment and the weakness is the shortage of seats. It is recommended that the reading room be extended."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "調べる",
+       "忘れる",
+       "売る"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "弱点",
+       "強み",
+       "目的"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "提案します",
+       "断ります",
+       "忘れます"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "報告書\n社員の八割が、昼休みが短すぎると答えました。また、休憩室も足りません。昼休みを三十分延ばすことを提案します。したがって、社員の満足度は上がると考えられます。",
+    "trans": {
+     "ko": "보고서\n1. 소개\n이 보고서는 직원 식당의 이용 현황을 조사한 것입니다.\n2. 조사 결과\n직원의 80%가 점심시간이 너무 짧다고 응답했습니다.\n3. 권고\n점심시간을 30분 연장할 것을 권고합니다.",
+     "en": "REPORT\n1. Introduction\nThis report examines how the staff canteen is used.\n2. Findings\n80% of staff said lunchtime is too short.\n3. Recommendation\nIt is recommended that lunchtime be extended by thirty minutes."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "社員の八割は何が短すぎると答えましたか。",
+      "options": [
+       "昼休み",
+       "休暇",
+       "勤務時間"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "報告書は何を提案していますか。",
+      "options": [
+       "昼休みを三十分延ばす",
+       "食堂を閉める",
+       "給料を上げる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "ジウンさんはチームプロジェクトについての報告書を書きました。目的、調査結果、提言の順に、客観的にまとめました。最後に、改善のための提案も入れました。",
+    "trans": {
+     "ko": "지은은 팀 프로젝트에 대한 보고서를 썼어요. 제목을 나누고 결과를 표로 정리했어요. 마지막에 개선 방법을 두 가지 권고했어요.",
+     "en": "Jieun wrote a report on the team project. She used headings and put the results in a table. At the end she recommended two ways to improve."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ジウンさんは報告書を書きました。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "報告書に提言は入っていません。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "プロジェクトは旅行についてです。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "報告書はどう始めますか。",
+    "read": "ほうこくしょはどうはじめますか。",
+    "ko": "보고서는 어떻게 시작해요?",
+    "en": "How should the report begin?",
+    "situation": {
+     "ko": "형식을 물을 때",
+     "en": "Asking about format"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "本報告書の目的は、状況を評価することです。",
+    "read": "ほんほうこくかきのもくてきは、じょうきょうをひょうかすることです。",
+    "ko": "이 보고서의 목적은 상황을 평가하는 것입니다.",
+    "en": "The purpose of this report is to assess the situation.",
+    "situation": {
+     "ko": "목적을 밝힐 때",
+     "en": "Stating the purpose"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "調査によると、六割が満足しています。",
+    "read": "ちょうさによると、ろくわりがまんぞくしています。",
+    "ko": "설문 조사에 따르면 60%가 만족해요.",
+    "en": "According to the survey, 60% are satisfied.",
+    "situation": {
+     "ko": "근거를 제시할 때",
+     "en": "Giving evidence"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "主な弱点は待ち時間です。",
+    "read": "おもなじゃくてんはまちじかんです。",
+    "ko": "가장 큰 약점은 대기 시간이에요.",
+    "en": "The main weakness is the waiting time.",
+    "situation": {
+     "ko": "문제점을 말할 때",
+     "en": "Describing a problem"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "強みはスタッフの親切さです。",
+    "read": "つよみはスタッフのしんせつさです。",
+    "ko": "강점은 직원의 친절함이에요.",
+    "en": "A strength is the friendliness of staff.",
+    "situation": {
+     "ko": "강점을 말할 때",
+     "en": "Describing a strength"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "新しい制度の導入を提案します。",
+    "read": "あたらしいせいどのどうにゅうをていあんします。",
+    "ko": "새 시스템 도입을 제안합니다.",
+    "en": "I propose introducing a new system.",
+    "situation": {
+     "ko": "권고할 때",
+     "en": "Recommending"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "したがって、改善が必要だと結論づけられます。",
+    "read": "したがって、かいぜんがひつようだとけつろんづけられます。",
+    "ko": "결론적으로 개선이 필요합니다.",
+    "en": "It can be concluded that improvement is needed.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "詳細は以下のとおりです。",
+    "read": "しょうさいはいかのとおりです。",
+    "ko": "아래에 자세한 내용이 있습니다.",
+    "en": "Details are given below.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Referring to details"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "本報告書の目的は〜ことです。",
+    "read": "ほんほうこくかきのもくてきは〜ことです。",
+    "ko": "~할 목적으로",
+    "en": "The purpose of this report is to + verb."
+   },
+   {
+    "id": "w2",
+    "t": "調査によると、〜。",
+    "read": "ちょうさによると、〜。",
+    "ko": "~에 따르면",
+    "en": "According to … / The survey shows that …"
+   },
+   {
+    "id": "w3",
+    "t": "〜ことを提案します。",
+    "read": "〜ことをていあんします。",
+    "ko": "~을 권고한다.",
+    "en": "It is recommended that + clause / I recommend + -ing."
+   },
+   {
+    "id": "w4",
+    "t": "したがって、〜。",
+    "read": "したがって、〜。",
+    "ko": "~라고 결론지을 수 있다.",
+    "en": "It can be concluded that …"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "카페 서비스에 대한 보고서의 목적, 조사 결과, 권고를 4문장으로 써 보세요.",
+    "en": "Write 4 sentences of a report on a café's service: purpose, findings and recommendation."
+   },
+   "must_include": [
+    {
+     "label": "目的",
+     "match": [
+      "目的は"
+     ]
+    },
+    {
+     "label": "調査によると",
+     "match": [
+      "調査によると"
+     ]
+    },
+    {
+     "label": "提案",
+     "match": [
+      "提案します"
+     ]
+    }
+   ],
+   "model": "本報告書の目的は、学生食堂のサービスを評価することです。調査によると、学生の七十パーセントが待ち時間に不満を持っています。主な弱点は、レジが一つしかないことです。したがって、二つ目のレジを設置することを提案します。",
+   "model_trans": {
+    "ko": "이 보고서의 목적은 학생 식당의 서비스를 평가하는 것입니다. 설문 조사에 따르면 학생의 70%가 대기 시간에 불만을 가지고 있습니다. 가장 큰 약점은 계산대가 하나뿐이라는 점입니다. 따라서 계산대를 한 개 더 설치할 것을 권고합니다.",
+    "en": "The purpose of this report is to evaluate the service in the student canteen. According to the survey, 70% of students are dissatisfied with the waiting time. The main weakness is that there is only one till. It is therefore recommended that a second till be installed."
+   }
+  }
+ }
+}
