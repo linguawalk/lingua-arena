@@ -1,0 +1,787 @@
+{
+ "meta": {
+  "id": "ko_b2_u01",
+  "lang": "ko",
+  "family": "asia",
+  "level": "b2",
+  "unit": 1,
+  "concept": "B2.U01",
+  "status": "live",
+  "title": {
+   "target": "혼합 조건문",
+   "ko": "혼합 조건문",
+   "en": "Mixed conditionals"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "결정",
+   "pos": "noun",
+   "read": "gyeoljeong",
+   "en": "decision",
+   "ex": {
+    "t": "그 결정이 내 인생을 바꿔 놓았어요.",
+    "read": "geu gyeoljeongi nae insaengeul bakkwo noasseoyo.",
+    "en": "That decision changed my life."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "후회",
+   "pos": "noun",
+   "read": "huhoe",
+   "en": "regret",
+   "ex": {
+    "t": "그는 그 선택을 평생 후회했어요.",
+    "read": "geuneun geu seontaegeul pyeongsaeng huhoehaesseoyo.",
+    "en": "He regretted that choice for the rest of his life."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "영향을 미치다",
+   "pos": "verb",
+   "read": "yeonghyangeul michida",
+   "en": "affect",
+   "ex": {
+    "t": "어린 시절의 경험은 성격에 영향을 미쳐요.",
+    "read": "eorin sijeorui gyeongheomeun seonggyeoge yeonghyangeul michyeoyo.",
+    "en": "Childhood experiences affect your personality."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "결과",
+   "pos": "noun",
+   "read": "gyeolgwa",
+   "en": "consequence",
+   "ex": {
+    "t": "모든 선택에는 결과가 따라요.",
+    "read": "modeun seontaegeneun gyeolgwaga ttarayo.",
+    "en": "Every choice has consequences."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "직업을 바꾸다",
+   "pos": "phrase",
+   "read": "jigeobeul bakkuda",
+   "en": "change careers",
+   "ex": {
+    "t": "그녀는 마흔에 직업을 바꿨어요.",
+    "read": "geunyeoneun maheune jigeobeul bakkwosseoyo.",
+    "en": "She changed careers at forty."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "투자하다",
+   "pos": "verb",
+   "read": "tujahada",
+   "en": "invest",
+   "ex": {
+    "t": "일찍 투자했더라면 지금 부자였을 거예요.",
+    "read": "iljjik tujahaetdeoramyeon jigeum bujayeosseul geoyeyo.",
+    "en": "If I had invested early, I would be rich now."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "재능",
+   "pos": "noun",
+   "read": "jaeneung",
+   "en": "talent",
+   "ex": {
+    "t": "그는 음악에 재능이 있어요.",
+    "read": "geuneun eumage jaeneungi isseoyo.",
+    "en": "He has a talent for music."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "철저히 준비하다",
+   "pos": "phrase",
+   "read": "cheoljeohi junbihada",
+   "en": "prepare thoroughly",
+   "ex": {
+    "t": "철저히 준비했더라면 합격했을 거예요.",
+    "read": "cheoljeohi junbihaetdeoramyeon hapgyeokaesseul geoyeyo.",
+    "en": "If I had prepared thoroughly, I would have passed."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "외향적인",
+   "pos": "adj",
+   "read": "oehyangjeogin",
+   "en": "outgoing",
+   "ex": {
+    "t": "내가 더 외향적이라면 그 모임에 갔을 거예요.",
+    "read": "naega deo oehyangjeogiramyeon geu moime gasseul geoyeyo.",
+    "en": "If I were more outgoing, I would have gone to the party."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "상황이 달라지다",
+   "pos": "phrase",
+   "read": "sanghwangi dallajida",
+   "en": "make a difference",
+   "ex": {
+    "t": "작은 선택이 큰 차이를 만들 수 있어요.",
+    "read": "jageun seontaegi keun chaireul mandeul su isseoyo.",
+    "en": "A small choice can make a big difference."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "-았/었더라면 ~ -(으)ㄹ 거예요, -(이)라면 ~ -았/었을 거예요",
+   "en": "-았/었더라면 ~ -(으)ㄹ 거예요, -(이)라면 ~ -았/었을 거예요 (mixed conditionals)"
+  },
+  "explain": {
+   "ko": "과거의 일이 지금에 미친 영향은 '-았/었더라면 지금 ~ -(으)ㄹ 거예요'로 말합니다: '그때 투자했더라면 지금 부자였을 거예요.' 지금의 성격이나 상태가 과거 행동에 미친 영향은 '-(이)라면 그때 ~ -았/었을 거예요'로 말합니다: '내가 더 외향적이라면 그 모임에 갔을 거예요.' 이루지 못한 일에 대한 아쉬움은 '-았/었더라면 좋았을 텐데요'로 표현합니다. 부정은 '-지 않았더라면', '-지 않을 거예요'를 씁니다.",
+   "en": "To say how a past event affects the present, use '-았/었더라면 지금 ~ -(으)ㄹ 거예요': '그때 투자했더라면 지금 부자였을 거예요.' To say how a present trait affected a past action, use '-(이)라면 그때 ~ -았/었을 거예요': '내가 더 외향적이라면 그 모임에 갔을 거예요.' Regret about something not done is '-았/었더라면 좋았을 텐데요'. Negatives use '-지 않았더라면' and '-지 않을 거예요'."
+  },
+  "table": {
+   "head": [
+    "용도 / Use",
+    "형태 / Form",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "과거 → 현재 / Past → present",
+     "-았/었더라면 지금 -(으)ㄹ 거예요",
+     "투자했더라면 지금 부자였을 거예요."
+    ],
+    [
+     "현재 → 과거 / Present → past",
+     "-(이)라면 그때 -았/었을 거예요",
+     "외향적이라면 갔을 거예요."
+    ],
+    [
+     "부정 / Negative",
+     "-지 않았더라면 -지 않을 거예요",
+     "결정하지 않았더라면 여기 없을 거예요."
+    ],
+    [
+     "아쉬움 / Regret",
+     "-았/었더라면 좋았을 텐데요",
+     "일찍 시작했더라면 좋았을 텐데요."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'-더라면'은 과거에 이루어지지 않은 일을 가정할 때 씁니다.",
+    "en": "'-더라면' is used to suppose something that did not happen in the past."
+   },
+   {
+    "ko": "'-(이)라면'은 현재의 상태나 성격을 가정합니다.",
+    "en": "'-(이)라면' supposes a present state or trait."
+   },
+   {
+    "ko": "뒤 절의 '-(으)ㄹ 거예요 / -았/었을 거예요'로 추측의 결과를 나타냅니다.",
+    "en": "The result clause with '-(으)ㄹ 거예요 / -았/었을 거예요' shows the supposed outcome."
+   }
+  ],
+  "examples": [
+   {
+    "t": "그때 투자했더라면 지금 부자였을 거예요.",
+    "read": "geuttae tujahaetdeoramyeon jigeum bujayeosseul geoyeyo.",
+    "en": "If I had invested back then, I would be rich now."
+   },
+   {
+    "t": "내가 더 외향적이라면 그 모임에 갔을 거예요.",
+    "read": "naega deo oehyangjeogiramyeon geu moime gasseul geoyeyo.",
+    "en": "If I were more outgoing, I would have gone to the party."
+   },
+   {
+    "t": "그가 더 신중한 사람이었다면 그런 실수는 하지 않았을 거예요.",
+    "read": "geuga deo sinjunghan saramieotdamyeon geureon silsuneun haji anasseul geoyeyo.",
+    "en": "If he were a more careful person, he wouldn't have made that mistake."
+   },
+   {
+    "t": "시험을 철저히 준비했더라면 지금 다른 학교에 다니고 있을 거예요.",
+    "read": "siheomeul cheoljeohi junbihaetdeoramyeon jigeum dareun hakgyoe danigo isseul geoyeyo.",
+    "en": "If I had prepared thoroughly for the exam, I would be at a different school now."
+   },
+   {
+    "t": "그 결정을 내리지 않았더라면 지금 이 도시에 살지 않을 거예요.",
+    "read": "geu gyeoljeongeul naeriji anatdeoramyeon jigeum i dosie salji aneul geoyeyo.",
+    "en": "If I hadn't made that decision, I wouldn't be living in this city now."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "그때 투자했더라면 지금 부자___.",
+    "options": [
+     "였을 거예요",
+     "예요",
+     "일 거예요"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "내가 더 외향적이라면 그 모임에 ___.",
+    "options": [
+     "갔을 거예요",
+     "가요",
+     "가고 있어요"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "일찍 시작했더라면 ___.",
+    "options": [
+     "좋았을 텐데요",
+     "좋아요 지금",
+     "좋을 때예요"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "그 결정을 내리지 ___ 지금 여기 없을 거예요.",
+    "options": [
+     "않았더라면",
+     "않으니까",
+     "않는데"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "그때 다른 결정을 했다면 지금 어떻게 살고 있을 것 같아요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) If you had made a different decision back then, how do you think you'd be living now?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "아마 해외에서 일하고 있을 거예요.",
+       "어제 도착했어요.",
+       "지금 바빠요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "더 외향적인 사람이라면 어땠을 것 같아요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What would you have done if you were more outgoing?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "그 모임에 갔을 거예요.",
+       "지금 공부하고 있어요.",
+       "내일 출발해요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "대학 때 유학을 갔더라면 지금 뭘 하고 있을까?"
+      },
+      {
+       "s": "B",
+       "t": "아마 해외에서 일하고 있을 거야. 하지만 내가 그렇게 모험심이 강한 사람은 아니라서 안 갔지."
+      },
+      {
+       "s": "A",
+       "t": "후회돼?"
+      },
+      {
+       "s": "B",
+       "t": "가끔은. 그래도 그 선택 덕분에 지금의 가족을 만났으니까."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: If you had studied abroad at university, what would you be doing now?\nB: I'd probably be working overseas. But I'm not that adventurous, so I didn't go.\nA: Do you regret it?\nB: Sometimes. But because of that choice I met my family."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "대학 때 유학을 갔더라면 B는 지금 무엇을 하고 있을 거예요?",
+      "options": [
+       "해외에서 일하고 있을 거예요",
+       "한국에서 공부할 거예요",
+       "가족과 쉬고 있을 거예요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "제 친구 민수는 작년에 주식에 투자했어요. 그는 말해요. 만약 5년 전에 시작했더라면 지금쯤 훨씬 더 벌었을 거라고요. 하지만 그때는 돈이 없었고 위험이 두려웠어요. 지금은 신중하게 조금씩 투자하고 있어요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "My friend Minsu started investing in shares last year. He says that if he had started five years ago, he would have earned much more by now. But he had no money then and he was afraid of the risk. Now he invests a little at a time, carefully."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "민수는 왜 5년 전에 투자를 시작하지 못했어요?",
+      "options": [
+       "돈이 없었고 위험이 두려웠어요",
+       "시간이 없었어요",
+       "투자를 몰랐어요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "진로 상담입니다."
+      },
+      {
+       "s": "B",
+       "t": "지금 일에 만족하지 못해요. 그때 전공을 바꿨더라면 좋았을 텐데요."
+      },
+      {
+       "s": "A",
+       "t": "그랬다면 지금쯤 어떤 일을 하고 있을까요?"
+      },
+      {
+       "s": "B",
+       "t": "디자이너가 되어 있을 거예요. 저는 그림에 재능이 있거든요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Counsellor: Career advice.\nGuest: I'm not satisfied with my job now. I wish I had changed my major.\nCounsellor: What would you be doing now if you had?\nGuest: I'd be a designer. I have a talent for drawing."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "바꾸고 싶었던 것: ______",
+      "answers": [
+       "전공"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "되고 싶은 직업: ______",
+      "answers": [
+       "디자이너"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 그때 투자했더라면 지금 부자___.\n2) 내가 더 외향적이라면 그 모임에 ___.\n3) 그 결정을 내리지 않았더라면 지금 이 도시에 살지 ___.",
+    "trans": {
+     "en": "1) If I had invested back then, I would be rich now. 2) If I were more outgoing, I would have gone to the party. 3) If I hadn't made that decision, I wouldn't be living in this city now."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "그때 투자했더라면 지금 부자___.",
+      "options": [
+       "였을 거예요",
+       "예요",
+       "일 거예요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "내가 더 외향적이라면 그 모임에 ___.",
+      "options": [
+       "갔을 거예요",
+       "가요",
+       "가고 있어요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "그 결정을 내리지 않았더라면 지금 이 도시에 살지 ___.",
+      "options": [
+       "않을 거예요",
+       "않았어요",
+       "않아요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "스무 살 때 나는 해외 어학연수를 갈 수 있었어요. 하지만 돈이 부족해서 (1). 가끔 상상해 봐요. 그때 갔더라면 지금 얼마나 유창하게 (2) 하고요. 그래도 그 선택 덕분에 일찍 일을 시작했고 지금의 경력을 (3).",
+    "trans": {
+     "en": "When I was twenty I could have gone abroad to study a language. But I didn't have enough money, so I gave up. Sometimes I imagine how fluent I would be now if I had gone. Still, because of that choice I started work early and built the career I have today."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "포기했어요",
+       "포기할 거예요",
+       "포기하고 있어요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "말하고 있을까",
+       "말했을까 어제",
+       "말하지 않을까"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "쌓을 수 있었어요",
+       "쌓지 못했어요",
+       "쌓고 싶어요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "인터뷰\n한 사업가의 이야기\n그는 대학을 중퇴하고 작은 가게를 열었다. 처음 3년은 적자였다. 그는 말한다. 그때 포기했더라면 지금의 회사는 없었을 것이라고. 하지만 동시에 그때 학위를 마쳤더라면 더 안정적인 삶을 살고 있을지도 모른다고 인정한다.",
+    "trans": {
+     "en": "INTERVIEW\nA businessman's story\nHe dropped out of university and opened a small shop. For the first three years it made a loss. He says that if he had given up then, his company wouldn't exist now. But he also admits that if he had finished his degree, he might have a more stable life."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "그 사업가는 처음 3년 동안 어땠어요?",
+      "options": [
+       "적자였어요",
+       "흑자였어요",
+       "가게를 닫았어요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "그는 그때 포기했더라면 어땠을 것이라고 말해요?",
+      "options": [
+       "지금의 회사는 없었을 것이라고",
+       "더 부자였을 것이라고",
+       "학위를 땄을 것이라고"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "지은은 대학 때 교환학생 기회를 거절했어요. 지금 그녀는 번역가로 일하지만 외국어 실력이 부족하다고 느껴요. 그래서 야간 수업을 듣기 시작했어요.",
+    "trans": {
+     "en": "Jieun turned down an exchange-student chance at university. She now works as a translator but feels her foreign-language skills are not strong enough. So she has started evening classes."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "지은은 교환학생 기회를 거절했어요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "지은은 지금 외국어 실력에 아주 만족해요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "지은은 서울에서 일해요.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "만약 그때 다른 결정을 했다면 지금 어떻게 살고 있을 것 같아요?",
+    "read": "manyak geuttae dareun gyeoljeongeul haetdamyeon jigeum eotteoke salgo isseul geot gatayo?",
+    "en": "If you had made a different decision, how do you think you'd be living now?",
+    "situation": {
+     "ko": "과거 선택의 현재 영향을 물을 때",
+     "en": "Asking how a past choice affects the present"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "그때 투자했더라면 지금 부자였을 거예요.",
+    "read": "geuttae tujahaetdeoramyeon jigeum bujayeosseul geoyeyo.",
+    "en": "If I had invested back then, I would be rich now.",
+    "situation": {
+     "ko": "과거 사실이 현재 결과를 바꿨을 때",
+     "en": "A past event with a present result"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "내가 더 외향적이라면 그 모임에 갔을 거예요.",
+    "read": "naega deo oehyangjeogiramyeon geu moime gasseul geoyeyo.",
+    "en": "If I were more outgoing, I would have gone to the party.",
+    "situation": {
+     "ko": "현재 성격이 과거 행동에 영향을 줄 때",
+     "en": "A present trait with a past result"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "그 직장을 선택하지 않았더라면 지금 여기 없을 거예요.",
+    "read": "geu jikjangeul seontaekaji anatdeoramyeon jigeum yeogi eopseul geoyeyo.",
+    "en": "If I hadn't taken that job, I wouldn't be here now.",
+    "situation": {
+     "ko": "인생의 전환점을 말할 때",
+     "en": "Describing a turning point"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "더 일찍 시작했다면 지금쯤 훨씬 잘했을 거예요.",
+    "read": "deo iljjik sijakaetdamyeon jigeumjjeum hwolssin jalhaesseul geoyeyo.",
+    "en": "If I had started earlier, I would be much better by now.",
+    "situation": {
+     "ko": "아쉬움을 말할 때",
+     "en": "Expressing a regret"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "그런 사람이라면 애초에 그렇게 말하지 않았을 거예요.",
+    "read": "geureon saramiramyeon aechoe geureoke malhaji anasseul geoyeyo.",
+    "en": "If he were that sort of person, he wouldn't have said it in the first place.",
+    "situation": {
+     "ko": "성격으로 행동을 추론할 때",
+     "en": "Reasoning from character"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "솔직히 말하면 지금의 나는 그 선택 덕분이에요.",
+    "read": "soljiki malhamyeon jigeumui naneun geu seontaek deokbunieyo.",
+    "en": "Honestly, I am who I am today because of that choice.",
+    "situation": {
+     "ko": "선택의 의미를 정리할 때",
+     "en": "Reflecting on a choice"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "과거는 바꿀 수 없지만 지금은 선택할 수 있어요.",
+    "read": "gwageoneun bakkul su eopjiman jigeumeun seontaekal su isseoyo.",
+    "en": "We can't change the past, but we can choose now.",
+    "situation": {
+     "ko": "마무리하며 격려할 때",
+     "en": "Ending on an encouraging note"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "만약 ~했더라면, 지금 ~일 거예요.",
+    "read": "manyak ~haetdeoramyeon, jigeum ~il geoyeyo.",
+    "en": "If I had ~, I would be ~ now."
+   },
+   {
+    "id": "w2",
+    "t": "만약 내가 ~라면, ~했을 거예요.",
+    "read": "manyak naega ~ramyeon, ~haesseul geoyeyo.",
+    "en": "If I were ~, I would have ~."
+   },
+   {
+    "id": "w3",
+    "t": "~하지 않았더라면, 지금 ~하지 않을 거예요.",
+    "read": "~haji anatdeoramyeon, jigeum ~haji aneul geoyeyo.",
+    "en": "If I hadn't ~, I wouldn't be ~ now."
+   },
+   {
+    "id": "w4",
+    "t": "지금 ~이어서 그때 ~했을 거예요.",
+    "read": "jigeum ~ieoseo geuttae ~haesseul geoyeyo.",
+    "en": "If ~ (present), I would have ~ (past)."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "과거의 선택이 지금에 미친 영향을 혼합 조건문으로 4문장 써 보세요.",
+    "en": "Write 4 sentences about how a past choice affects your life now, using mixed conditionals."
+   },
+   "must_include": [
+    {
+     "label": "~했더라면 지금 ~일 거예요",
+     "match": [
+      "더라면"
+     ]
+    },
+    {
+     "label": "~라면 ~했을 거예요",
+     "match": [
+      "사람이라면"
+     ]
+    },
+    {
+     "label": "후회 / 결정",
+     "match": [
+      "결정"
+     ]
+    }
+   ],
+   "model": "그때 대학원에 진학했더라면 지금 연구자가 되어 있을 거예요. 하지만 취직을 선택했기 때문에 지금은 회사에서 일하고 있어요. 내가 더 모험심이 강한 사람이라면 그때 해외로 떠났을 거예요. 그래도 그 결정을 후회하지는 않아요.",
+   "model_trans": {
+    "ko": "그때 대학원에 진학했더라면 지금 연구자가 되어 있을 거예요. 하지만 취직을 선택했기 때문에 지금은 회사에서 일하고 있어요. 내가 더 모험심이 강한 사람이라면 그때 해외로 떠났을 거예요. 그래도 그 결정을 후회하지는 않아요.",
+    "en": "If I had gone to graduate school, I would be a researcher now. But I chose a job, so I work for a company. If I were more adventurous, I would have moved abroad back then. Still, I don't regret that decision."
+   }
+  }
+ }
+}
