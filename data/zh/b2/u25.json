@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u25",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 25,
+  "concept": "B2.U25",
+  "status": "live",
+  "title": {
+   "target": "写影评",
+   "ko": "리뷰 쓰기",
+   "en": "Writing reviews"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "情节",
+   "pos": "noun",
+   "read": "qíng jié",
+   "ko": "줄거리",
+   "en": "plot",
+   "ex": {
+    "t": "情节很简单，但是很吸引人。",
+    "read": "Qíng jié hěn jiǎn dān, dànshì hěn xī yǐn rén.",
+    "ko": "줄거리는 단순하지만 흥미로워요.",
+    "en": "The plot is simple but gripping."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "背景",
+   "pos": "noun",
+   "read": "bèi jǐng",
+   "ko": "배경",
+   "en": "setting",
+   "ex": {
+    "t": "故事以十九世纪的巴黎为背景。",
+    "read": "Gù shì yǐ shíjiǔ shì jì de Bālí wèi bèi jǐng.",
+    "ko": "배경은 19세기 파리예요.",
+    "en": "The setting is nineteenth-century Paris."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "表演",
+   "pos": "noun",
+   "read": "biǎo yǎn",
+   "ko": "연기",
+   "en": "performance",
+   "ex": {
+    "t": "男主角的表演非常出色。",
+    "read": "Nán zhǔ jué de biǎo yǎn fēicháng chū sè.",
+    "ko": "주연 배우의 연기가 훌륭해요.",
+    "en": "The lead actor's performance is excellent."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "令人印象深刻",
+   "pos": "adj",
+   "read": "lìng rén yìn xiàng shēn kè",
+   "ko": "인상적인",
+   "en": "impressive",
+   "ex": {
+    "t": "画面令人印象深刻。",
+    "read": "Huà miàn lìng rén yìn xiàng shēn kè.",
+    "ko": "영상미가 인상적이에요.",
+    "en": "The visuals are impressive."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "乏味",
+   "pos": "adj",
+   "read": "fá wèi",
+   "ko": "지루한",
+   "en": "tedious",
+   "ex": {
+    "t": "中间部分有点乏味。",
+    "read": "Zhōngjiān bù fēn yǒu diǎn fá wèi.",
+    "ko": "중반부는 다소 지루해요.",
+    "en": "The middle section is rather tedious."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "感人",
+   "pos": "adj",
+   "read": "gǎn rén",
+   "ko": "감동적인",
+   "en": "moving",
+   "ex": {
+    "t": "结局非常感人。",
+    "read": "Jié jú fēicháng gǎn rén.",
+    "ko": "결말이 매우 감동적이에요.",
+    "en": "The ending is deeply moving."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "推荐",
+   "pos": "verb",
+   "read": "tuī jiàn",
+   "ko": "추천하다",
+   "en": "recommend",
+   "ex": {
+    "t": "我向朋友推荐这部电影。",
+    "read": "Wǒ xiàng péngyou tuī jiàn zhè bù diànyǐng.",
+    "ko": "이 영화를 강력히 추천해요.",
+    "en": "I strongly recommend this film."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "让人想起",
+   "pos": "phrase",
+   "read": "ràng rén xiǎng qǐ",
+   "ko": "~를 연상시키다",
+   "en": "be reminiscent of",
+   "ex": {
+    "t": "气氛让人想起经典电影。",
+    "read": "Qì fēn ràng rén xiǎng qǐ jīng diǎn diànyǐng.",
+    "ko": "분위기가 고전 영화를 연상시켜요.",
+    "en": "The atmosphere is reminiscent of classic films."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "缺点",
+   "pos": "noun",
+   "read": "quē diǎn",
+   "ko": "단점",
+   "en": "drawback",
+   "ex": {
+    "t": "唯一的缺点是太长了。",
+    "read": "Wéi yī de quē diǎn shì tài cháng le.",
+    "ko": "유일한 단점은 길이예요.",
+    "en": "The only drawback is the length."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "评分",
+   "pos": "noun",
+   "read": "píng fēn",
+   "ko": "평점",
+   "en": "rating",
+   "ex": {
+    "t": "这部电影的评分很高。",
+    "read": "Zhè bù diànyǐng de píng fēn hěn gāo.",
+    "ko": "이 영화는 별 네 개를 받았어요.",
+    "en": "The film got a four-star rating."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "影评：令人印象深刻、让人想起、唯一的缺点是、强烈推荐",
+   "en": "Reviews: 令人印象深刻 / 让人想起 / 唯一的缺点是 / 强烈推荐"
+  },
+  "explain": {
+   "ko": "影评一般用现在时，先介绍背景和情节：这是一个以十九世纪巴黎为背景的爱情故事。再评价：情节很简单，但是男主角的表演非常出色。比较用“让人想起……”：气氛让人想起经典电影。缺点用“唯一的缺点是……”，最后推荐：强烈推荐给喜欢爱情片的人。不要透露结局。",
+   "en": "A review states setting and plot first: 这是一个以十九世纪巴黎为背景的爱情故事. Then evaluates: 情节很简单，但是男主角的表演非常出色. Compare with 让人想起……: 气氛让人想起经典电影. Name flaws with 唯一的缺点是……, and recommend: 强烈推荐给喜欢爱情片的人. Do not reveal the ending."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "背景 / Setting",
+     "以……为背景",
+     "以十九世纪巴黎为背景。"
+    ],
+    [
+     "评价 / Evaluation",
+     "……很……，但是……",
+     "情节简单，但是表演出色。"
+    ],
+    [
+     "缺点 / Flaw",
+     "唯一的缺点是……",
+     "唯一的缺点是太长了。"
+    ],
+    [
+     "推荐 / Recommend",
+     "强烈推荐……",
+     "强烈推荐给喜欢爱情片的人。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“以……为背景”表示故事发生的地方或时代。",
+    "en": "以……为背景 names the place or era of the story."
+   },
+   {
+    "ko": "“值得一看”常用来推荐电影。",
+    "en": "值得一看 commonly recommends a film."
+   },
+   {
+    "ko": "“有点、稍微”可以使批评更委婉。",
+    "en": "有点 and 稍微 soften criticism."
+   }
+  ],
+  "examples": [
+   {
+    "t": "这是一个以十九世纪巴黎为背景的爱情故事。",
+    "read": "Zhè shì yí ge yǐ shíjiǔ shì jì Bālí wèi bèi jǐng de ài qíng gù shì.",
+    "ko": "줄거리는 단순하지만 흥미로워요.",
+    "en": "The plot is simple but gripping."
+   },
+   {
+    "t": "情节很简单，但是男主角的表演非常出色。",
+    "read": "Qíng jié hěn jiǎn dān, dànshì nán zhǔ jué de biǎo yǎn fēicháng chū sè.",
+    "ko": "주연 배우의 연기가 훌륭해요.",
+    "en": "The lead actor's performance is excellent."
+   },
+   {
+    "t": "中间部分有点乏味。",
+    "read": "Zhōngjiān bù fēn yǒu diǎn fá wèi.",
+    "ko": "중반부는 다소 지루해요.",
+    "en": "The middle section is rather tedious."
+   },
+   {
+    "t": "唯一的缺点是太长了。",
+    "read": "Wéi yī de quē diǎn shì tài cháng le.",
+    "ko": "이 영화를 강력히 추천해요.",
+    "en": "I strongly recommend this film."
+   },
+   {
+    "t": "我强烈推荐这部电影。",
+    "read": "Wǒ qiáng liè tuī jiàn zhè bù diànyǐng.",
+    "ko": "유일한 단점은 길이예요.",
+    "en": "The only drawback is the length."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "情节很简单，___男主角的表演非常出色。",
+    "options": [
+     "但是",
+     "因为",
+     "所以"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "中间部分___乏味。",
+    "options": [
+     "有点",
+     "决不",
+     "刚刚"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "唯一的___是太长了。",
+    "options": [
+     "缺点",
+     "优点",
+     "朋友"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我___推荐这部电影。",
+    "options": [
+     "强烈",
+     "决不",
+     "刚刚"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这部电影怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 영화 어땠어요?",
+     "en": "(Question) What was the film like?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "情节简单，但是表演出色。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你会向别人推荐这本书吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 책을 추천하시겠어요?",
+     "en": "(Question) Would you recommend this book?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "会，我强烈推荐。",
+       "不，我昨天读了。",
+       "我不知道。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "那部电影怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "情节简单，但是男主角的表演很出色。"
+      },
+      {
+       "s": "A",
+       "t": "有什么缺点吗？"
+      },
+      {
+       "s": "B",
+       "t": "中间有点乏味，不过我强烈推荐。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 본 영화 어땠어?\nB: 줄거리는 단순하지만 연기가 정말 인상적이었어. 유일한 단점은 중반부가 조금 지루했다는 거야.\nA: 추천해?\nB: 응, 로맨스를 좋아하면 강력히 추천해.",
+     "en": "A: What was the film like yesterday?\nB: The plot was simple but the acting was really impressive. The only drawback was that the middle was a bit tedious.\nA: Would you recommend it?\nB: Yes, I strongly recommend it if you like romance."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的说的缺点是什么？",
+      "options": [
+       "中间有点乏味",
+       "结局太悲伤",
+       "音乐太吵"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这部小说以十九世纪的巴黎为背景。情节很复杂，但是文笔优美，非常吸引人。结局很感人，让人久久难忘。我向所有读者推荐。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 소설은 19세기 파리를 배경으로 합니다. 줄거리는 복잡하지만 문체가 아름다워서 몰입하게 됩니다. 결말은 감동적이며 오래 기억에 남습니다. 저는 이 책을 모든 독자에게 추천합니다.",
+     "en": "This novel is set in nineteenth-century Paris. The plot is complex, but the style is beautiful and draws you in. The ending is moving and stays in the memory. I recommend this book to all readers."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "小说的背景是哪儿？",
+      "options": [
+       "十九世纪的巴黎",
+       "现代的首尔",
+       "未来的太空"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "书店，请讲。"
+      },
+      {
+       "s": "B",
+       "t": "能推荐一本小说吗？"
+      },
+      {
+       "s": "A",
+       "t": "这本情节很吸引人，结局也很感人。"
+      },
+      {
+       "s": "B",
+       "t": "好，我买这本。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 서점입니다.\n손님: 추천해 주실 소설이 있나요?\n직원: 이 책은 줄거리가 흥미롭고 결말이 감동적이에요.\n손님: 그 책으로 할게요.",
+     "en": "Staff: Bookshop.\nGuest: Can you recommend a novel?\nStaff: This one has a gripping plot and a moving ending.\nGuest: I'll take it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "这本______很吸引人",
+      "answers": [
+       "情节"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "结局也很______",
+      "answers": [
+       "感人"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 情节很简单，___男主角的表演非常出色。\n2) 中间部分___乏味。\n3) 我___推荐这部电影。",
+    "trans": {
+     "ko": "1) 줄거리는 단순하지만 흥미로워요. 2) 중반부는 다소 지루해요. 3) 이 영화를 강력히 추천해요.",
+     "en": "1) The plot is simple but gripping. 2) The middle section is rather tedious. 3) I strongly recommend this film."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "情节很简单，___男主角的表演非常出色。",
+      "options": [
+       "但是",
+       "因为",
+       "所以"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "中间部分___乏味。",
+      "options": [
+       "有点",
+       "决不",
+       "刚刚"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我___推荐这部电影。",
+      "options": [
+       "强烈",
+       "决不",
+       "刚刚"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这部小说以十九世纪的巴黎为背景。情节很复杂，但是文笔(1)，非常吸引人。结局很(2)，让人久久难忘。我向所有读者(3)。",
+    "trans": {
+     "ko": "이 소설은 19세기 파리를 배경으로 합니다. 줄거리는 복잡하지만 문체가 아름다워서 몰입하게 됩니다. 결말은 감동적이며 오래 기억에 남습니다. 저는 이 책을 모든 독자에게 추천합니다.",
+     "en": "This novel is set in nineteenth-century Paris. The plot is complex, but the style is beautiful and draws you in. The ending is moving and stays in the memory. I recommend this book to all readers."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "优美",
+       "难看",
+       "糟糕"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "感人",
+       "无聊",
+       "可怕"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "推荐",
+       "反对",
+       "忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "影评\n这部电影讲了一个男孩和一条狗的友情。画面非常美，音乐也令人印象深刻。唯一的缺点是后半部分发展有点快。不过，它很值得一家人一起去看。",
+    "trans": {
+     "ko": "영화 리뷰\n이 영화는 한 소년과 개의 우정을 그립니다. 영상미가 아름답고 음악도 인상적입니다. 다만 후반부의 전개가 다소 급합니다. 가족이 함께 보기에 좋은 영화로 추천합니다.",
+     "en": "FILM REVIEW\nThis film portrays the friendship between a boy and a dog. The visuals are beautiful and the music is impressive. However, the pace of the final section is a little rushed. I recommend it as a good film for families to watch together."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "电影讲了什么？",
+      "options": [
+       "男孩和狗的友情",
+       "战争",
+       "太空旅行"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "电影的缺点是什么？",
+      "options": [
+       "后半部分发展有点快",
+       "音乐太吵",
+       "画面太暗"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "志浩给新开的餐厅写了评论。他说菜非常好吃，不过服务有点慢。他还是想把这家餐厅推荐给朋友。",
+    "trans": {
+     "ko": "준호는 새 레스토랑에 대한 리뷰를 썼어요. 음식은 훌륭하지만 서비스가 느리다고 평가했어요. 그래도 별 네 개를 주었어요.",
+     "en": "Junho wrote a review of a new restaurant. He judged the food excellent but the service slow. Even so, he gave it four stars."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "志浩觉得菜很好吃。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "志浩觉得服务很快。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "餐厅在济州岛。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "这部电影怎么样？",
+    "read": "Zhè bù diànyǐng zěnmeyàng?",
+    "ko": "그 영화 어땠어요?",
+    "en": "What was the film like?",
+    "situation": {
+     "ko": "평가를 물을 때",
+     "en": "Asking for an evaluation"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "情节很简单，但是很吸引人。",
+    "read": "Qíng jié hěn jiǎn dān, dànshì hěn xī yǐn rén.",
+    "ko": "줄거리는 단순하지만 흥미로워요.",
+    "en": "The plot is simple but gripping.",
+    "situation": {
+     "ko": "줄거리를 평가할 때",
+     "en": "Evaluating the plot"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "男主角的表演非常出色。",
+    "read": "Nán zhǔ jué de biǎo yǎn fēicháng chū sè.",
+    "ko": "주연 배우의 연기가 훌륭해요.",
+    "en": "The lead actor's performance is excellent.",
+    "situation": {
+     "ko": "연기를 평가할 때",
+     "en": "Evaluating acting"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "画面令人印象深刻。",
+    "read": "Huà miàn lìng rén yìn xiàng shēn kè.",
+    "ko": "영상미가 인상적이에요.",
+    "en": "The visuals are impressive.",
+    "situation": {
+     "ko": "장점을 말할 때",
+     "en": "Praising"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "中间部分有点乏味。",
+    "read": "Zhōngjiān bù fēn yǒu diǎn fá wèi.",
+    "ko": "중반부는 다소 지루해요.",
+    "en": "The middle section is rather tedious.",
+    "situation": {
+     "ko": "비판할 때",
+     "en": "Criticising"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "唯一的缺点是太长了。",
+    "read": "Wéi yī de quē diǎn shì tài cháng le.",
+    "ko": "유일한 단점은 길이예요.",
+    "en": "The only drawback is the length.",
+    "situation": {
+     "ko": "단점을 말할 때",
+     "en": "Mentioning a drawback"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "气氛让人想起经典电影。",
+    "read": "Qì fēn ràng rén xiǎng qǐ jīng diǎn diànyǐng.",
+    "ko": "분위기가 고전 영화를 연상시켜요.",
+    "en": "The atmosphere is reminiscent of classic films.",
+    "situation": {
+     "ko": "비교할 때",
+     "en": "Making a comparison"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我强烈推荐这部电影。",
+    "read": "Wǒ qiáng liè tuī jiàn zhè bù diànyǐng.",
+    "ko": "이 영화를 강력히 추천해요.",
+    "en": "I strongly recommend this film.",
+    "situation": {
+     "ko": "추천할 때",
+     "en": "Recommending"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "以……为背景。",
+    "read": "Yǐ … wèi bèi jǐng.",
+    "ko": "줄거리는 ~예요.",
+    "en": "The plot is + adjective / revolves around …"
+   },
+   {
+    "id": "w2",
+    "t": "……，但是……。",
+    "read": "…, Dànshì ….",
+    "ko": "연기가 ~해요.",
+    "en": "The performance / acting is + adjective."
+   },
+   {
+    "id": "w3",
+    "t": "唯一的缺点是……。",
+    "read": "Wéi yī de quē diǎn shì ….",
+    "ko": "~를 연상시킨다.",
+    "en": "It is reminiscent of … / It reminds me of …"
+   },
+   {
+    "id": "w4",
+    "t": "我强烈推荐……。",
+    "read": "Wǒ qiáng liè tuī jiàn ….",
+    "ko": "추천해요.",
+    "en": "I would recommend this to … / It is well worth seeing."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "최근에 본 영화나 책에 대한 리뷰를 4문장으로 써 보세요. 현재시제를 사용하세요.",
+    "en": "Write 4 sentences reviewing a recent film or book, using the present tense."
+   },
+   "must_include": [
+    {
+     "label": "背景",
+     "match": [
+      "为背景"
+     ]
+    },
+    {
+     "label": "缺点",
+     "match": [
+      "缺点"
+     ]
+    },
+    {
+     "label": "推荐",
+     "match": [
+      "推荐"
+     ]
+    }
+   ],
+   "model": "这部电影以十九世纪的巴黎为背景，是一个爱情故事。情节很简单，但是男主角的表演非常出色。唯一的缺点是中间有点乏味。我强烈推荐给喜欢爱情片的人。",
+   "model_trans": {
+    "ko": "이 영화는 19세기 파리를 배경으로 한 사랑 이야기입니다. 줄거리는 단순하지만 주연 배우의 연기가 매우 인상적입니다. 유일한 단점은 중반부가 다소 지루하다는 점입니다. 그래도 로맨스를 좋아하는 사람에게 강력히 추천합니다.",
+    "en": "This film is a love story set in nineteenth-century Paris. The plot is simple, but the lead actor's performance is very impressive. The only drawback is that the middle section is rather tedious. Still, I strongly recommend it to anyone who likes romance."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u02",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 2,
+  "concept": "B2.U02",
+  "status": "live",
+  "title": {
+   "target": "愿望和假设",
+   "ko": "소망과 가정: wish · if only",
+   "en": "Wishes and hypotheses"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "不满",
+   "pos": "noun",
+   "read": "bù mǎn",
+   "ko": "불만",
+   "en": "dissatisfaction",
+   "ex": {
+    "t": "我对现在的生活有点不满。",
+    "read": "Wǒ duì xiànzài de shēnghuó yǒu diǎn bù mǎn.",
+    "ko": "그의 불만이 점점 커졌어요.",
+    "en": "His dissatisfaction grew steadily."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "希望",
+   "pos": "verb",
+   "read": "xīwàng",
+   "ko": "바라다",
+   "en": "wish",
+   "ex": {
+    "t": "我希望有更多的时间。",
+    "read": "Wǒ xīwàng yǒu gèng duō de shíjiān.",
+    "ko": "더 일찍 시작했더라면 좋았을 텐데요.",
+    "en": "I wish I had started earlier."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "烦恼",
+   "pos": "noun",
+   "read": "fán nǎo",
+   "ko": "짜증",
+   "en": "annoyance",
+   "ex": {
+    "t": "他的抱怨让我很烦恼。",
+    "read": "Tā de bào yuàn ràng wǒ hěn fán nǎo.",
+    "ko": "소음이 그녀의 짜증을 불러왔어요.",
+    "en": "The noise caused her annoyance."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "抱怨",
+   "pos": "verb",
+   "read": "bào yuàn",
+   "ko": "불평하다",
+   "en": "complain",
+   "ex": {
+    "t": "他总是抱怨工作太累。",
+    "read": "Tā zǒngshì bào yuàn gōngzuò tài lèi.",
+    "ko": "그는 늘 날씨에 대해 불평해요.",
+    "en": "He is always complaining about the weather."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "宁可",
+   "pos": "phrase",
+   "read": "níng kě",
+   "ko": "~하는 편이 낫다",
+   "en": "would rather",
+   "ex": {
+    "t": "我宁可在家休息。",
+    "read": "Wǒ níng kě zài jiā xiūxi.",
+    "ko": "저는 집에 있는 편이 낫겠어요.",
+    "en": "I'd rather stay at home."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "早就该",
+   "pos": "phrase",
+   "read": "zǎo jiù gāi",
+   "ko": "~할 때가 됐다",
+   "en": "It's high time",
+   "ex": {
+    "t": "我们早就该做决定了。",
+    "read": "Wǒmen zǎo jiù gāi zuò juédìng le.",
+    "ko": "이제 결정할 때가 됐어요.",
+    "en": "It's high time we made a decision."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "改变",
+   "pos": "noun",
+   "read": "gǎibiàn",
+   "ko": "변화",
+   "en": "change",
+   "ex": {
+    "t": "我想改变一下我的习惯。",
+    "read": "Wǒ xiǎng gǎibiàn yíxià wǒ de xíguàn.",
+    "ko": "작은 변화가 큰 효과를 낳았어요.",
+    "en": "A small change had a big effect."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "改善",
+   "pos": "verb",
+   "read": "gǎi shàn",
+   "ko": "개선하다",
+   "en": "improve",
+   "ex": {
+    "t": "关系慢慢改善了。",
+    "read": "Guān xì mànmàn gǎi shàn le.",
+    "ko": "서비스를 개선했으면 좋겠어요.",
+    "en": "I wish they would improve the service."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "现实",
+   "pos": "adj",
+   "read": "xiàn shí",
+   "ko": "현실적인",
+   "en": "realistic",
+   "ex": {
+    "t": "我们要现实一点。",
+    "read": "Wǒmen yào xiàn shí yìdiǎn.",
+    "ko": "현실적인 목표를 세워야 해요.",
+    "en": "You need to set realistic goals."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "遗憾",
+   "pos": "phrase",
+   "read": "yí hàn",
+   "ko": "아쉬워하다",
+   "en": "feel sorry about",
+   "ex": {
+    "t": "我对这件事很遗憾。",
+    "read": "Wǒ duì zhè jiàn shì hěn yí hàn.",
+    "ko": "그 기회를 놓친 것을 아쉬워해요.",
+    "en": "I feel sorry about missing that chance."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "表达愿望：希望、要是……就好了、但愿、宁可、该……了",
+   "en": "Wishes: 希望 / 要是……就好了 / 但愿 / 宁可 / 该……了"
+  },
+  "explain": {
+   "ko": "表示现在难以实现的愿望，用“要是……就好了”：要是我有更多时间就好了。对过去的遗憾，用“要是当时……就好了”：要是当时早点开始就好了。希望别人改变，用“希望你……”：希望他别再抱怨了。“宁可……也不……”表示选择：我宁可在家，也不想出去。“该……了”表示早该做的事：我们早就该做决定了。",
+   "en": "A wish hard to realise uses 要是……就好了: 要是我有更多时间就好了. Regret about the past: 要是当时早点开始就好了. Wanting someone to change: 希望你……: 希望他别再抱怨了. 宁可……也不…… states a preference: 我宁可在家，也不想出去. 该……了 marks something overdue: 我们早就该做决定了."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "现在的愿望 / Present wish",
+     "要是……就好了",
+     "要是我有更多时间就好了。"
+    ],
+    [
+     "过去的遗憾 / Regret",
+     "要是当时……就好了",
+     "要是当时早点开始就好了。"
+    ],
+    [
+     "希望别人 / Wish for others",
+     "希望你……",
+     "希望他别再抱怨了。"
+    ],
+    [
+     "选择 / Preference",
+     "宁可……也不……",
+     "宁可在家，也不出去。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“要是……就好了”表示一个不太可能实现的愿望。",
+    "en": "要是……就好了 expresses an unlikely wish."
+   },
+   {
+    "ko": "“早就该……了”带有批评或着急的语气。",
+    "en": "早就该……了 carries criticism or urgency."
+   },
+   {
+    "ko": "“但愿”用于真诚的美好愿望：但愿一切顺利。",
+    "en": "但愿 is for sincere hopes: 但愿一切顺利."
+   }
+  ],
+  "examples": [
+   {
+    "t": "要是我有更多时间就好了。",
+    "read": "Yào shì wǒ yǒu gèng duō shíjiān jiù hǎo le.",
+    "ko": "더 일찍 시작했더라면 좋았을 텐데요.",
+    "en": "I wish I had started earlier."
+   },
+   {
+    "t": "要是当时早点开始就好了。",
+    "read": "Yào shì dāngshí zǎo diǎn kāishǐ jiù hǎo le.",
+    "ko": "지금 시간이 더 있으면 좋겠어요.",
+    "en": "I wish I had more time now."
+   },
+   {
+    "t": "希望他别再抱怨了。",
+    "read": "Xīwàng tā bié zài bào yuàn le.",
+    "ko": "그가 불평을 그만두면 좋겠어요.",
+    "en": "I wish he would stop complaining."
+   },
+   {
+    "t": "我宁可在家，也不想出去。",
+    "read": "Wǒ níng kě zài jiā, yě bù xiǎng chū qù.",
+    "ko": "저는 영화를 보러 가는 것보다 집에 있는 편이 낫겠어요.",
+    "en": "I'd rather stay at home than go to the cinema."
+   },
+   {
+    "t": "我们早就该做决定了。",
+    "read": "Wǒmen zǎo jiù gāi zuò juédìng le.",
+    "ko": "이제 결정할 때가 됐어요.",
+    "en": "It's high time we made a decision."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "要是我有更多时间___了。",
+    "options": [
+     "就好",
+     "没有",
+     "不会"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "要是当时早点开始就___了。",
+    "options": [
+     "好",
+     "坏",
+     "对"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我宁可在家，___不想出去。",
+    "options": [
+     "也",
+     "就",
+     "才"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我们早就___做决定了。",
+    "options": [
+     "该",
+     "能",
+     "要"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你现在有什么愿望？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 지금 가장 바라는 게 뭐예요?",
+     "en": "(Question) What do you wish for most at the moment?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "希望有更多的时间。",
+       "我昨天去了。",
+       "在桌子上。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你想在家还是出去？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 오늘 저녁에 뭘 하는 편이 낫겠어요?",
+     "en": "(Question) What would you rather do this evening?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我宁可在家休息。",
+       "是的，我去过。",
+       "三点钟。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你最近怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "不太好。要是我有更多时间就好了。"
+      },
+      {
+       "s": "A",
+       "t": "为什么？"
+      },
+      {
+       "s": "B",
+       "t": "这样我就能每天运动。要是当时早点开始就好了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 요즘 너무 바빠서 쉴 시간이 없어.\nB: 나도 시간이 더 있으면 좋겠어. 그러면 매일 운동할 텐데.\nA: 이제 일정을 조정할 때가 됐어.\nB: 맞아. 차라리 주말에 일을 줄이는 편이 낫겠어.",
+     "en": "A: I'm so busy these days that I have no time to rest.\nB: I wish I had more time too. Then I'd exercise every day.\nA: It's high time we organised our schedules.\nB: You're right. I'd rather work less at the weekend."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的希望什么？",
+      "options": [
+       "有更多时间",
+       "有更多钱",
+       "有一辆车"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我最近很烦恼。我希望有更多时间，那样就可以每天运动了。要是大学时认真学外语就好了，现在会方便很多。我们早就该做个决定了，我想养成一个新习惯。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 옆집에는 개가 있는데 밤마다 짖어요. 저는 그 개가 조용했으면 좋겠어요. 이웃에게 직접 이야기하는 편이 낫겠다는 생각도 해요. 이제 문제를 해결할 때가 됐어요.",
+     "en": "Our neighbour has a dog that barks every night. I wish it would be quiet. I think I'd rather talk to the neighbour in person. It's high time we solved the problem."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人想养成什么？",
+      "options": [
+       "一个新习惯",
+       "一个新工作",
+       "一个新朋友"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "移民咨询处。"
+      },
+      {
+       "s": "B",
+       "t": "我想去国外生活，但是有很多现实问题。"
+      },
+      {
+       "s": "A",
+       "t": "现在最让你担心的是什么？"
+      },
+      {
+       "s": "B",
+       "t": "费用。要是我很有钱就好了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "상담사: 이민 상담입니다.\n손님: 해외에서 살고 싶은데 현실적인 걱정이 많아요.\n상담사: 지금 가장 걱정되는 게 뭔가요?\n손님: 비용이에요. 제가 부자라면 좋을 텐데요.",
+     "en": "Adviser: Emigration advice.\nGuest: I'd like to live abroad, but I have a lot of realistic worries.\nAdviser: What worries you most right now?\nGuest: The cost. I wish I were rich."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "让顾客担心的是______",
+      "answers": [
+       "费用"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "要是我很______就好了",
+      "answers": [
+       "有钱"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 要是我有更多时间___了。\n2) 要是当时早点开始就___了。\n3) 我宁可在家，___不想出去。",
+    "trans": {
+     "ko": "1) 더 일찍 시작했더라면 좋았을 텐데요. 2) 그가 불평을 그만두면 좋겠어요. 3) 이제 결정할 때가 됐어요.",
+     "en": "1) I wish I had started earlier. 2) I wish he would stop complaining. 3) It's high time we made a decision."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "要是我有更多时间___了。",
+      "options": [
+       "就好",
+       "没有",
+       "不会"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "要是当时早点开始就___了。",
+      "options": [
+       "好",
+       "坏",
+       "对"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我宁可在家，___不想出去。",
+      "options": [
+       "也",
+       "就",
+       "才"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我最近有点(1)。我希望有更多时间，那样就可以每天运动了。要是大学时认真学外语就(2)了，现在会方便很多。我们早就(3)做个决定了。",
+    "trans": {
+     "ko": "저는 요즘 집에서 일하고 있는데 사무실이 그리워요. 사무실에 있으면 동료와 쉽게 이야기할 수 있을 텐데요. 하지만 출퇴근에 두 시간이 걸려서 집에서 일하는 편이 낫긴 해요. 회사가 선택권을 주면 좋겠어요.",
+     "en": "I'm working from home these days and I miss the office. If I were there I could chat to colleagues easily. But the commute takes two hours, so I'd rather work from home. I wish the company would give us a choice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "烦恼",
+       "高兴",
+       "骄傲"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "好",
+       "坏",
+       "懒"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "该",
+       "能",
+       "要"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "信\n亲爱的小林：你好！我现在在一家银行工作，但是我并不喜欢这份工作。我宁可做老师，可是工资太低。要是我当时选了师范专业就好了。你有什么建议吗？",
+    "trans": {
+     "ko": "독자 편지\n저는 회사가 점심시간을 30분으로 줄인 것에 불만이 있습니다. 직원들은 충분히 쉴 수 없습니다. 이제 회사가 직원의 건강을 생각할 때가 되었다고 생각합니다. 저는 점심시간을 한 시간으로 되돌리면 좋겠습니다.",
+     "en": "READER'S LETTER\nI am dissatisfied that the company has cut lunch breaks to thirty minutes. Staff can't rest enough. I think it's high time the company thought about its employees' health. I wish they would restore the one-hour lunch break."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "写信人现在的工作是什么？",
+      "options": [
+       "在银行工作",
+       "当老师",
+       "做设计"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "写信人为什么没做老师？",
+      "options": [
+       "工资太低",
+       "没有时间",
+       "太远"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "宇镇总是抱怨工作太累。他的同事希望他能多休息，也希望他别再抱怨了。宇镇说，他宁可多干活，也不愿意被老板批评。",
+    "trans": {
+     "ko": "준호는 지난 학기에 공부를 열심히 하지 않았어요. 성적이 나빠서 이제 후회하고 있어요. 그는 시간을 되돌릴 수 있으면 좋겠다고 말해요.",
+     "en": "Junho didn't study hard last term. His grades are poor and now he regrets it. He says he wishes he could turn back time."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "宇镇总是抱怨工作太累。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "宇镇不抱怨。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "宇镇在大邱工作。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你现在有什么愿望？",
+    "read": "Nǐ xiànzài yǒu shénme yuànwàng?",
+    "ko": "지금 뭘 바라고 있나요?",
+    "en": "What do you wish for at the moment?",
+    "situation": {
+     "ko": "소망을 물을 때",
+     "en": "Asking about a wish"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "要是我有更多时间就好了。",
+    "read": "Yào shì wǒ yǒu gèng duō shíjiān jiù hǎo le.",
+    "ko": "더 일찍 시작했더라면 좋았을 텐데요.",
+    "en": "I wish I had started earlier.",
+    "situation": {
+     "ko": "과거에 대한 후회를 말할 때",
+     "en": "Regretting something in the past"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "要是当时早点开始就好了。",
+    "read": "Yào shì dāngshí zǎo diǎn kāishǐ jiù hǎo le.",
+    "ko": "지금 시간이 더 있으면 좋겠어요.",
+    "en": "I wish I had more time now.",
+    "situation": {
+     "ko": "현재 상황에 불만일 때",
+     "en": "Wishing the present were different"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "希望他别再抱怨了。",
+    "read": "Xīwàng tā bié zài bào yuàn le.",
+    "ko": "그가 불평을 그만두면 좋겠어요.",
+    "en": "I wish he would stop complaining.",
+    "situation": {
+     "ko": "다른 사람의 행동이 짜증날 때",
+     "en": "Expressing annoyance at a habit"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我宁可在家，也不想出去。",
+    "read": "Wǒ níng kě zài jiā, yě bù xiǎng chū qù.",
+    "ko": "저는 집에 있는 편이 낫겠어요.",
+    "en": "I'd rather stay at home.",
+    "situation": {
+     "ko": "선호를 말할 때",
+     "en": "Stating a preference"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我们早就该做决定了。",
+    "read": "Wǒmen zǎo jiù gāi zuò juédìng le.",
+    "ko": "차라리 그가 직접 말하는 편이 나아요.",
+    "en": "I'd rather he told me himself.",
+    "situation": {
+     "ko": "상대의 행동에 대한 바람",
+     "en": "A preference about someone else"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我们要现实一点。",
+    "read": "Wǒmen yào xiàn shí yìdiǎn.",
+    "ko": "이제 결정할 때가 됐어요.",
+    "en": "It's high time we made a decision.",
+    "situation": {
+     "ko": "행동을 촉구할 때",
+     "en": "Urging action"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我想改变一下我的习惯。",
+    "read": "Wǒ xiǎng gǎibiàn yíxià wǒ de xíguàn.",
+    "ko": "현실적으로 생각해 보세요.",
+    "en": "Let's be realistic.",
+    "situation": {
+     "ko": "현실을 짚어 줄 때",
+     "en": "Bringing the conversation back to reality"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "要是我……就好了。",
+    "read": "Yào shì wǒ … jiù hǎo le.",
+    "ko": "~하면 좋겠어요 (현재).",
+    "en": "I wish I had ~ / I wish I were ~."
+   },
+   {
+    "id": "w2",
+    "t": "要是当时……就好了。",
+    "read": "Yào shì dāngshí … jiù hǎo le.",
+    "ko": "~했더라면 좋았을 텐데요.",
+    "en": "I wish / If only I had + p.p."
+   },
+   {
+    "id": "w3",
+    "t": "希望你……。",
+    "read": "Xīwàng nǐ ….",
+    "ko": "~하면 좋겠어요 (상대의 행동).",
+    "en": "I wish you would ~."
+   },
+   {
+    "id": "w4",
+    "t": "我宁可……，也不……。",
+    "read": "Wǒ níng kě …, yě bù ….",
+    "ko": "~하는 편이 낫겠어요.",
+    "en": "I'd rather + base verb / I'd rather you + past."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "현재와 과거에 대한 소망을 wish와 if only를 써서 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about wishes for the present and the past, using wish and if only."
+   },
+   "must_include": [
+    {
+     "label": "就好了",
+     "match": [
+      "就好了"
+     ]
+    },
+    {
+     "label": "早就该",
+     "match": [
+      "早就该"
+     ]
+    },
+    {
+     "label": "宁可",
+     "match": [
+      "宁可"
+     ]
+    }
+   ],
+   "model": "要是我有更多时间就好了，那样我就能每天运动。要是大学时认真学外语就好了。我们早就该做个决定了，我想养成一个新习惯。我宁可早起，也不想晚睡。",
+   "model_trans": {
+    "ko": "시간이 더 있으면 좋겠어요. 그러면 매일 운동할 수 있을 텐데요. 대학생 때 외국어를 더 열심히 공부했더라면 좋았을 텐데요. 이제 새로운 습관을 만들 때가 됐어요.",
+    "en": "I wish I had more time. Then I could exercise every day. If only I had studied languages harder at university. It's high time I made a new habit."
+   }
+  }
+ }
+}

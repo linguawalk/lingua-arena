@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u04",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 4,
+  "concept": "B2.U04",
+  "status": "live",
+  "title": {
+   "target": "使役和被动",
+   "ko": "사역과 have/get something done 심화",
+   "en": "Causative structures"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "修理",
+   "pos": "verb",
+   "read": "xiūlǐ",
+   "ko": "수리하다",
+   "en": "repair",
+   "ex": {
+    "t": "我把电脑修好了。",
+    "read": "Wǒ bǎ diànnǎo xiū hǎo le.",
+    "ko": "저는 컴퓨터를 수리받았어요.",
+    "en": "I had my computer repaired."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "安装",
+   "pos": "verb",
+   "read": "ān zhuāng",
+   "ko": "설치하다",
+   "en": "install",
+   "ex": {
+    "t": "我们请人装了新空调。",
+    "read": "Wǒmen qǐng rén zhuāng le xīn kōng tiáo.",
+    "ko": "우리는 새 에어컨을 설치했어요.",
+    "en": "We had a new air conditioner installed."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "检查",
+   "pos": "verb",
+   "read": "jiǎn chá",
+   "ko": "점검하다",
+   "en": "inspect",
+   "ex": {
+    "t": "工程师来检查空调。",
+    "read": "Gōngchéngshī lái jiǎn chá kōng tiáo.",
+    "ko": "엔지니어가 기계를 점검해요.",
+    "en": "An engineer inspects the machine."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "维修中心",
+   "pos": "noun",
+   "read": "wéi xiū zhōng xīn",
+   "ko": "서비스 센터",
+   "en": "service centre",
+   "ex": {
+    "t": "我去了维修中心。",
+    "read": "Wǒ qù le wéi xiū zhōng xīn.",
+    "ko": "서비스 센터는 월요일에 열어요.",
+    "en": "The service centre opens on Mondays."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "打扫",
+   "pos": "verb",
+   "read": "dǎsǎo",
+   "ko": "청소하다",
+   "en": "clean",
+   "ex": {
+    "t": "我找人打扫了房间。",
+    "read": "Wǒ zhǎo rén dǎsǎo le fángjiān.",
+    "ko": "집을 전문 업체에 청소받았어요.",
+    "en": "We had the house cleaned by professionals."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "允许",
+   "pos": "verb",
+   "read": "yǔnxǔ",
+   "ko": "허락하다",
+   "en": "allow",
+   "ex": {
+    "t": "爸爸允许我晚点回家。",
+    "read": "Bàba yǔnxǔ wǒ wǎn diǎn huíjiā.",
+    "ko": "부모님은 제가 늦게까지 놀게 허락하세요.",
+    "en": "My parents let me stay out late."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "强迫",
+   "pos": "verb",
+   "read": "qiǎng pò",
+   "ko": "강요하다",
+   "en": "force",
+   "ex": {
+    "t": "他强迫我签字。",
+    "read": "Tā qiǎng pò wǒ qiān zì.",
+    "ko": "아무도 그에게 서명을 강요하지 않았어요.",
+    "en": "Nobody forced him to sign."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "说服",
+   "pos": "verb",
+   "read": "shuō fú",
+   "ko": "설득하다",
+   "en": "persuade",
+   "ex": {
+    "t": "她说服我跟她一起去。",
+    "read": "Tā shuō fú wǒ gēn tā yìqǐ qù.",
+    "ko": "그녀가 나를 설득해서 함께 가게 했어요.",
+    "en": "She got me to go with her."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "让",
+   "pos": "phrase",
+   "read": "ràng",
+   "ko": "하게 하다",
+   "en": "make sb do",
+   "ex": {
+    "t": "这部电影让我哭了。",
+    "read": "Zhè bù diànyǐng ràng wǒ kū le.",
+    "ko": "그 영화는 나를 울게 했어요.",
+    "en": "The film made me cry."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "定做",
+   "pos": "phrase",
+   "read": "dìng zuò",
+   "ko": "주문 제작하다",
+   "en": "have made to order",
+   "ex": {
+    "t": "这件衣服是定做的。",
+    "read": "Zhè jiàn yīfu shì dìng zuò de.",
+    "ko": "그 재킷은 주문 제작했어요.",
+    "en": "I had the jacket made to order."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "让、叫、使、请、把……修好、找人……",
+   "en": "Causatives: 让 / 叫 / 使 / 请 / 把……修好 / 找人……"
+  },
+  "explain": {
+   "ko": "“让／叫／使”表示使别人做某事：这部电影让我哭了。“请”比较客气：我请他帮忙。“把＋东西＋动词”表示对东西做了处理：我把电脑修好了。请别人做某事用“找人／请人”：我找人修了电脑，我们请人装了空调。“允许”是同意别人做，“强迫”是不顾别人愿意。",
+   "en": "让／叫／使 make someone do something: 这部电影让我哭了. 请 is more polite: 我请他帮忙. 把 + object + verb handles an object: 我把电脑修好了. To have someone else do a job use 找人／请人: 我找人修了电脑, 我们请人装了空调. 允许 means to permit, 强迫 to force."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "使某人 / Make",
+     "让／叫／使＋人＋动词",
+     "这部电影让我哭了。"
+    ],
+    [
+     "请人 / Have done",
+     "找人／请人＋动词",
+     "我找人修了电脑。"
+    ],
+    [
+     "处理 / Handle",
+     "把＋东西＋动词",
+     "我把电脑修好了。"
+    ],
+    [
+     "允许 / Allow",
+     "允许／让＋人＋动词",
+     "爸爸让我晚点回家。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“让”和“叫”常用于口语，“使”常用于书面语。",
+    "en": "让 and 叫 are colloquial; 使 is written."
+   },
+   {
+    "ko": "“把”后面的东西必须是明确的。",
+    "en": "The object after 把 must be definite."
+   },
+   {
+    "ko": "找人做的事，说话人自己没有动手。",
+    "en": "With 找人, the speaker did not do the job personally."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我找人修了电脑。",
+    "read": "Wǒ zhǎo rén xiū le diànnǎo.",
+    "ko": "저는 컴퓨터를 수리받았어요.",
+    "en": "I had my computer repaired."
+   },
+   {
+    "t": "我们请人装了新空调。",
+    "read": "Wǒmen qǐng rén zhuāng le xīn kōng tiáo.",
+    "ko": "우리는 새 에어컨을 설치했어요.",
+    "en": "We got a new air conditioner installed."
+   },
+   {
+    "t": "这部电影让我哭了。",
+    "read": "Zhè bù diànyǐng ràng wǒ kū le.",
+    "ko": "그 영화는 나를 울게 했어요.",
+    "en": "The film made me cry."
+   },
+   {
+    "t": "爸爸让我晚点回家。",
+    "read": "Bàba ràng wǒ wǎn diǎn huíjiā.",
+    "ko": "부모님은 제가 늦게까지 놀게 허락하세요.",
+    "en": "My parents let me stay out late."
+   },
+   {
+    "t": "她说服我跟她一起去。",
+    "read": "Tā shuō fú wǒ gēn tā yìqǐ qù.",
+    "ko": "그녀가 나를 설득해서 함께 가게 했어요.",
+    "en": "She got me to go with her."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我___人修了电脑。",
+    "options": [
+     "找",
+     "看",
+     "吃"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "这部电影___我哭了。",
+    "options": [
+     "让",
+     "和",
+     "在"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我___电脑修好了。",
+    "options": [
+     "把",
+     "被",
+     "对"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "爸爸___我晚点回家。",
+    "options": [
+     "让",
+     "给",
+     "跟"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你的电脑坏了，你怎么办的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 컴퓨터가 고장 나면 어떻게 하세요?",
+     "en": "(Question) What do you do when your computer breaks down?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我找人修好了。",
+       "我昨天去了。",
+       "在桌子上。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这部电影怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 머리는 얼마나 자주 자르세요?",
+     "en": "(Question) How often do you have your hair cut?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "很感人，让我哭了。",
+       "三点开始。",
+       "我没有时间。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你的空调是新的吗？"
+      },
+      {
+       "s": "B",
+       "t": "是的，我们请人装了一台新的。"
+      },
+      {
+       "s": "A",
+       "t": "多少钱？"
+      },
+      {
+       "s": "B",
+       "t": "安装加上机器一共三千块。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 노트북이 고장 났어.\nB: 서비스 센터에서 고치게 하는 게 좋아. 나도 지난주에 수리받았어.\nA: 얼마나 걸렸어?\nB: 하루 만에 점검하고 고쳐 줬어. 수리비는 좀 들었지만.",
+     "en": "A: My laptop is broken.\nB: You should have it repaired at the service centre. I had mine repaired last week.\nA: How long did it take?\nB: They inspected and fixed it in one day. It cost a bit, though."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "空调是怎么装的？",
+      "options": [
+       "请人装的",
+       "自己装的",
+       "朋友送的"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "上个星期，我的笔记本电脑坏了。我父母让我把它送到维修中心，而不是自己修。工程师检查后，一天就修好了。下次我也会这样做。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리는 지난달에 집을 전문 업체에 맡겨 청소받았어요. 새 에어컨도 설치했고 창문도 교체받았어요. 직접 하기에는 너무 힘들었기 때문이에요. 모든 일이 일주일 안에 끝났어요.",
+     "en": "Last month we had the house cleaned by professionals. We also had a new air conditioner installed and the windows replaced. It would have been too difficult to do ourselves. Everything was finished within a week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "笔记本电脑是谁修的？",
+      "options": [
+       "维修中心的工程师",
+       "说话人自己",
+       "说话人的朋友"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "维修中心，请讲。"
+      },
+      {
+       "s": "B",
+       "t": "我想请人检查一下我的空调。"
+      },
+      {
+       "s": "A",
+       "t": "星期三工程师可以上门。"
+      },
+      {
+       "s": "B",
+       "t": "需要多少钱？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 서비스 센터입니다.\n손님: 제 에어컨을 점검받고 싶어요.\n직원: 수요일에 엔지니어가 방문할 수 있습니다.\n손님: 비용은 얼마인가요?",
+     "en": "Staff: Service centre.\nGuest: I'd like to have my air conditioner inspected.\nStaff: An engineer can visit on Wednesday.\nGuest: How much will it cost?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "我想请人检查一下我的______",
+      "answers": [
+       "空调"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "星期______工程师可以上门",
+      "answers": [
+       "三"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我___人修了电脑。\n2) 这部电影___我哭了。\n3) 爸爸___我晚点回家。",
+    "trans": {
+     "ko": "1) 저는 컴퓨터를 수리받았어요. 2) 그 영화는 나를 울게 했어요. 3) 그녀가 나를 설득해서 함께 가게 했어요.",
+     "en": "1) I had my computer repaired. 2) The film made me cry. 3) She got me to go with her."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我___人修了电脑。",
+      "options": [
+       "找",
+       "看",
+       "吃"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这部电影___我哭了。",
+      "options": [
+       "让",
+       "和",
+       "在"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "爸爸___我晚点回家。",
+      "options": [
+       "让",
+       "给",
+       "跟"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "上个星期，我的笔记本电脑坏了。我父母(1)我把它送到维修中心，而不是自己修。工程师检查后，一天就(2)好了。下次我也会这样(3)。",
+    "trans": {
+     "ko": "우리는 지난달에 집을 전문 업체에 맡겨 청소받았어요. 새 에어컨도 설치했고 창문도 교체받았어요. 직접 하기에는 너무 힘들었기 때문이에요. 모든 일이 일주일 안에 끝났어요.",
+     "en": "Last month we had the house cleaned by professionals. We also had a new air conditioner installed and the windows replaced. It would have been too difficult to do ourselves. Everything was finished within a week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "让",
+       "和",
+       "跟"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "修",
+       "写",
+       "买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "做",
+       "忘",
+       "丢"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "通知\n本小区将于下周三上午九点到十二点检查电梯。检查期间电梯停止使用。需要搬家具的住户，请提前找人帮忙，或者与物业联系。",
+    "trans": {
+     "ko": "공지\n오는 금요일에 엔지니어가 건물의 엘리베이터를 점검할 예정입니다. 입주민 여러분은 그날 오전 10시부터 오후 2시까지 계단을 이용해 주세요. 불편을 드려 죄송합니다.",
+     "en": "NOTICE\nAn engineer will inspect the building's lift this Friday. Residents are asked to use the stairs from 10 a.m. to 2 p.m. that day. We apologise for the inconvenience."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "什么时候检查电梯？",
+      "options": [
+       "下周三上午",
+       "下周三下午",
+       "下周五上午"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "需要搬家具的住户应该怎么办？",
+      "options": [
+       "提前找人帮忙",
+       "自己搬",
+       "不要搬"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "美京每个月请人打扫一次房间。她工作很忙，没有时间做家务。这个月她还让朋友帮忙修了窗户。",
+    "trans": {
+     "ko": "수미는 친구를 설득해서 함께 요리 수업에 등록하게 했어요. 처음에 친구는 망설였지만 첫 수업 후 즐거워했어요. 지금은 둘이 매주 함께 가요.",
+     "en": "Sumi got her friend to sign up for a cooking class with her. At first the friend hesitated but enjoyed the first class. Now they go together every week."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "美京每个月请人打扫一次房间。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "美京自己打扫房间。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "美京住在釜山。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你的电脑坏了，你怎么办的？",
+    "read": "Nǐ de diànnǎo huài le, nǐ zěnme bàn de?",
+    "ko": "컴퓨터가 고장 났는데 어떻게 하셨어요?",
+    "en": "Your computer broke down. What did you do?",
+    "situation": {
+     "ko": "문제 해결 방식을 물을 때",
+     "en": "Asking how a problem was solved"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我找人修了电脑。",
+    "read": "Wǒ zhǎo rén xiū le diànnǎo.",
+    "ko": "저는 컴퓨터를 수리받았어요.",
+    "en": "I had my computer repaired.",
+    "situation": {
+     "ko": "서비스를 받았을 때",
+     "en": "Saying you received a service"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我们请人装了新空调。",
+    "read": "Wǒmen qǐng rén zhuāng le xīn kōng tiáo.",
+    "ko": "우리는 새 에어컨을 설치했어요.",
+    "en": "We got a new air conditioner installed.",
+    "situation": {
+     "ko": "업체에 맡겼을 때",
+     "en": "Using a professional"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "这部电影让我哭了。",
+    "read": "Zhè bù diànyǐng ràng wǒ kū le.",
+    "ko": "그 영화는 나를 울게 했어요.",
+    "en": "The film made me cry.",
+    "situation": {
+     "ko": "감정을 유발했을 때",
+     "en": "Saying what caused a reaction"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "爸爸让我晚点回家。",
+    "read": "Bàba ràng wǒ wǎn diǎn huíjiā.",
+    "ko": "부모님은 제가 늦게까지 놀게 허락하세요.",
+    "en": "My parents let me stay out late.",
+    "situation": {
+     "ko": "허락을 말할 때",
+     "en": "Saying what is allowed"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "她说服我跟她一起去。",
+    "read": "Tā shuō fú wǒ gēn tā yìqǐ qù.",
+    "ko": "그녀가 나를 설득해서 함께 가게 했어요.",
+    "en": "She got me to go with her.",
+    "situation": {
+     "ko": "설득의 결과를 말할 때",
+     "en": "Describing persuasion"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我每个月理一次发。",
+    "read": "Wǒ měi gè yuè lǐ yí cì fā.",
+    "ko": "저는 머리를 한 달에 한 번 자르게 해요.",
+    "en": "I have my hair cut once a month.",
+    "situation": {
+     "ko": "정기적인 서비스를 말할 때",
+     "en": "Talking about regular services"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "修理一共花了多少钱？",
+    "read": "Xiūlǐ yígòng huā le duōshao qián?",
+    "ko": "수리비는 얼마나 들었어요?",
+    "en": "How much did the repair cost?",
+    "situation": {
+     "ko": "비용을 물을 때",
+     "en": "Asking about the cost"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我找人……了……。",
+    "read": "Wǒ zhǎo rén … le ….",
+    "ko": "~을 (남에게) ~받다.",
+    "en": "have + object + past participle."
+   },
+   {
+    "id": "w2",
+    "t": "……让我……。",
+    "read": "… Ràng wǒ ….",
+    "ko": "~하게 만들다.",
+    "en": "make + person + base verb."
+   },
+   {
+    "id": "w3",
+    "t": "我把……修好了。",
+    "read": "Wǒ bǎ … xiū hǎo le.",
+    "ko": "~하게 허락하다.",
+    "en": "let + person + base verb."
+   },
+   {
+    "id": "w4",
+    "t": "我请人……。",
+    "read": "Wǒ qǐng rén ….",
+    "ko": "~하도록 설득하다/시키다.",
+    "en": "get + person + to + base verb."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "서비스를 받은 일이나 누군가에게 시킨 일을 사역 구조로 4문장 써 보세요.",
+    "en": "Write 4 sentences about services you had done or things you got people to do, using causative structures."
+   },
+   "must_include": [
+    {
+     "label": "找人",
+     "match": [
+      "找人"
+     ]
+    },
+    {
+     "label": "让我",
+     "match": [
+      "让我"
+     ]
+    },
+    {
+     "label": "修好",
+     "match": [
+      "修好"
+     ]
+    }
+   ],
+   "model": "上个星期，我找人修了我的笔记本电脑。维修中心的工程师检查后，一天就修好了。我父母让我把它交给专业的人，而不是自己修。下次我也会这样做。",
+   "model_trans": {
+    "ko": "지난주에 저는 노트북을 수리받았어요. 서비스 센터에서 하루 만에 점검하고 고쳐 줬어요. 부모님은 제가 직접 고치려 하지 않고 전문가에게 맡기게 하셨어요. 그래서 저는 다음에도 이렇게 하려고 해요.",
+    "en": "Last week I had my laptop repaired. The service centre inspected and fixed it in one day. My parents made me leave it to the experts rather than fix it myself. So I'll do the same next time."
+   }
+  }
+ }
+}

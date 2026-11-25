@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u48",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 48,
+  "concept": "B2.U48",
+  "status": "live",
+  "title": {
+   "target": "伦理和辩论",
+   "ko": "윤리와 토론",
+   "en": "Ethics and debate"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "伦理",
+   "pos": "adj",
+   "read": "lún lǐ",
+   "ko": "윤리적",
+   "en": "ethical",
+   "ex": {
+    "t": "这是一个伦理问题。",
+    "read": "Zhè shì yí ge lún lǐ wèntí.",
+    "ko": "그것은 윤리적인 문제예요.",
+    "en": "That is an ethical issue."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "道德",
+   "pos": "noun",
+   "read": "dào dé",
+   "ko": "도덕",
+   "en": "morality",
+   "ex": {
+    "t": "我在思考道德问题。",
+    "read": "Wǒ zài sī kǎo dào dé wèntí.",
+    "ko": "도덕은 사회마다 달라요.",
+    "en": "Morality differs from society to society."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "诚实",
+   "pos": "noun",
+   "read": "chéng shí",
+   "ko": "정직",
+   "en": "honesty",
+   "ex": {
+    "t": "诚实是信任的基础。",
+    "read": "Chéng shí shì xìn rèn de jī chǔ.",
+    "ko": "정직은 신뢰의 기본이에요.",
+    "en": "Honesty is the basis of trust."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "公平",
+   "pos": "adj",
+   "read": "gōng píng",
+   "ko": "공정한",
+   "en": "fair",
+   "ex": {
+    "t": "需要公平的判断。",
+    "read": "Xūyào gōng píng de pàn duàn.",
+    "ko": "모든 사람을 공정하게 대해야 해요.",
+    "en": "Everyone should be treated fairly."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "辩论",
+   "pos": "noun",
+   "read": "biàn lùn",
+   "ko": "논쟁",
+   "en": "debate",
+   "ex": {
+    "t": "我参加了辩论会。",
+    "read": "Wǒ cānjiā le biàn lùn huì.",
+    "ko": "그 주제는 논쟁이 많아요.",
+    "en": "The topic is much debated."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "主张",
+   "pos": "verb",
+   "read": "zhǔ zhāng",
+   "ko": "주장하다",
+   "en": "claim",
+   "ex": {
+    "t": "他主张自己是对的。",
+    "read": "Tā zhǔ zhāng zìjǐ shì duì de.",
+    "ko": "그는 자신이 옳다고 주장해요.",
+    "en": "He claims he is right."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "反驳",
+   "pos": "verb",
+   "read": "fǎn bó",
+   "ko": "반박하다",
+   "en": "refute",
+   "ex": {
+    "t": "她反驳了这个说法。",
+    "read": "Tā fǎn bó le zhège shuō fǎ.",
+    "ko": "그녀는 그 주장을 반박했어요.",
+    "en": "She refuted the claim."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "两难",
+   "pos": "noun",
+   "read": "liǎng nán",
+   "ko": "딜레마",
+   "en": "dilemma",
+   "ex": {
+    "t": "我遇到了两难的选择。",
+    "read": "Wǒ yù dào le liǎng nán de xuǎn zé.",
+    "ko": "그는 윤리적 딜레마에 빠졌어요.",
+    "en": "He faced an ethical dilemma."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "后果",
+   "pos": "noun",
+   "read": "hòu guǒ",
+   "ko": "결과",
+   "en": "consequence",
+   "ex": {
+    "t": "行为有后果。",
+    "read": "Xíng wéi yǒu hòu guǒ.",
+    "ko": "행동에는 결과가 따라요.",
+    "en": "Actions have consequences."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "原则",
+   "pos": "noun",
+   "read": "yuán zé",
+   "ko": "원칙",
+   "en": "principle",
+   "ex": {
+    "t": "把诚实作为原则。",
+    "read": "Bǎ chéng shí zuò wéi yuán zé.",
+    "ko": "그는 원칙을 지켜요.",
+    "en": "He sticks to his principles."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "主张与反驳：认为、反对、即使……也……、只要……就……",
+   "en": "Claims and rebuttals: 认为 / 反对 / 即使……也…… / 只要……就……"
+  },
+  "explain": {
+   "ko": "辩论时，表达意见用“认为／主张”，反对用“反对”。让步用“即使……也……”：即使是善意的谎言，也可能带来意想不到的后果。条件用“只要……就……”：只要诚实，信任就能保住。反驳用“但是／然而”，结论用“因此”。",
+   "en": "In debate: 认为／主张 for views, 反对 for opposition. Concession: 即使……也……: 即使是善意的谎言，也可能带来意想不到的后果. Condition: 只要……就……: 只要诚实，信任就能保住. Rebut with 但是／然而, conclude with 因此."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "主张 / Claim",
+     "认为／主张……",
+     "有人主张谎言有时必要。"
+    ],
+    [
+     "反对 / Oppose",
+     "反对＋名词",
+     "我反对说谎。"
+    ],
+    [
+     "让步 / Concession",
+     "即使……也……",
+     "即使是善意的谎言，也有后果。"
+    ],
+    [
+     "条件 / Condition",
+     "只要……就……",
+     "只要诚实，信任就能保住。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“即使”表示假设的让步。",
+    "en": "即使 marks a hypothetical concession."
+   },
+   {
+    "ko": "“只要……就……”表示充分条件。",
+    "en": "只要……就…… marks a sufficient condition."
+   },
+   {
+    "ko": "发表意见时要附上理由。",
+    "en": "Give a reason with an opinion."
+   }
+  ],
+  "examples": [
+   {
+    "t": "他主张自己是对的。",
+    "read": "Tā zhǔ zhāng zìjǐ shì duì de.",
+    "ko": "그것은 윤리적인 문제예요.",
+    "en": "That is an ethical issue."
+   },
+   {
+    "t": "我反对说谎。",
+    "read": "Wǒ fǎnduì shuō huǎng.",
+    "ko": "정직은 신뢰의 기본이에요.",
+    "en": "Honesty is the basis of trust."
+   },
+   {
+    "t": "诚实是信任的基础。",
+    "read": "Chéng shí shì xìn rèn de jī chǔ.",
+    "ko": "그는 자신이 옳다고 주장해요.",
+    "en": "He claims he is right."
+   },
+   {
+    "t": "即使是善意的谎言，也可能带来意想不到的后果。",
+    "read": "Jí shǐ shì shàn yì de huǎng yán, yě kěnéng dài lái yì xiǎng bú dào de hòu guǒ.",
+    "ko": "그녀는 그 주장을 반박했어요.",
+    "en": "She refuted the claim."
+   },
+   {
+    "t": "行为有后果。",
+    "read": "Xíng wéi yǒu hòu guǒ.",
+    "ko": "행동에는 결과가 따라요.",
+    "en": "Actions have consequences."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "他___自己是对的。",
+    "options": [
+     "主张",
+     "忘记",
+     "撕掉"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我___说谎。",
+    "options": [
+     "反对",
+     "赞成了",
+     "知道"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "即使是善意的谎言，___可能带来后果。",
+    "options": [
+     "也",
+     "才",
+     "就是"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "诚实是信任的___。",
+    "options": [
+     "基础",
+     "反对",
+     "价格"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你对这个问题怎么看？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 문제에 대해 어떻게 생각해요?",
+     "en": "(Question) What do you think about this issue?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我觉得这是伦理问题。",
+       "昨天看的。",
+       "我不知道。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你赞成说谎吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 거짓말은 언제나 잘못일까요?",
+     "en": "(Question) Is lying always wrong?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "不，我反对。",
+       "昨天到的。",
+       "很贵。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你对这个问题怎么看？"
+      },
+      {
+       "s": "B",
+       "t": "我觉得这是个伦理问题，我反对说谎。"
+      },
+      {
+       "s": "A",
+       "t": "为什么？"
+      },
+      {
+       "s": "B",
+       "t": "因为诚实是信任的基础。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 선의의 거짓말은 괜찮을까?\nB: 일부 사람들은 때로는 필요하다고 주장해. 하지만 나는 정직이 신뢰의 기본이라고 생각해.\nA: 그래도 상처를 줄 수 있잖아.\nB: 맞아. 하지만 결과가 더 큰 문제를 낳을 수도 있어.",
+     "en": "A: Is a white lie acceptable?\nB: Some people claim it is sometimes necessary. But I think honesty is the basis of trust.\nA: Still, the truth can hurt.\nB: True. But the consequences of lying may cause bigger problems."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的为什么反对说谎？",
+      "options": [
+       "诚实是信任的基础",
+       "说谎没意思",
+       "说谎累"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "有人主张谎言有时是必要的。但是诚实是信任的基础，所以我认为谎言大多是不对的。即使是善意的谎言，也可能带来意想不到的后果。因此，应该把诚实作为我们的原则。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의사는 환자에게 나쁜 소식을 숨겨야 할까요? 일부 사람들은 환자의 희망을 위해 숨겨야 한다고 주장합니다. 반면 반대하는 사람들은 환자가 진실을 알 권리가 있다고 말합니다. 이 문제는 윤리적 딜레마의 대표적인 예입니다.",
+     "en": "Should a doctor hide bad news from a patient? Some people claim it should be hidden for the patient's hope. Opponents, on the other hand, say patients have the right to know the truth. This is a typical example of an ethical dilemma."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人认为应该把什么作为原则？",
+      "options": [
+       "诚实",
+       "金钱",
+       "速度"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "辩论节目。"
+      },
+      {
+       "s": "B",
+       "t": "我反对说谎。"
+      },
+      {
+       "s": "A",
+       "t": "为什么？"
+      },
+      {
+       "s": "B",
+       "t": "因为诚实是信任的基础。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "진행자: 토론 방송입니다.\n손님: 저는 거짓말에 반대합니다.\n진행자: 이유가 뭔가요?\n손님: 정직은 신뢰의 기본이기 때문입니다.",
+     "en": "Host: Debate programme.\nGuest: I am opposed to lying.\nHost: Why?\nGuest: Because honesty is the basis of trust."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "嘉宾反对______",
+      "answers": [
+       "说谎"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "诚实是______的基础",
+      "answers": [
+       "信任"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 他___自己是对的。\n2) 我___说谎。\n3) 诚实是信任的___。",
+    "trans": {
+     "ko": "1) 그것은 윤리적인 문제예요. 2) 정직은 신뢰의 기본이에요. 3) 행동에는 결과가 따라요.",
+     "en": "1) That is an ethical issue. 2) Honesty is the basis of trust. 3) Actions have consequences."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他___自己是对的。",
+      "options": [
+       "主张",
+       "忘记",
+       "撕掉"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我___说谎。",
+      "options": [
+       "反对",
+       "赞成了",
+       "知道"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "诚实是信任的___。",
+      "options": [
+       "基础",
+       "反对",
+       "价格"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "有人(1)谎言有时是必要的。但是诚实是信任的基础，所以我认为谎言大多是不对的。即使是善意的谎言，(2)可能带来意想不到的后果。因此，应该把诚实作为我们的(3)。",
+    "trans": {
+     "ko": "의사는 환자에게 나쁜 소식을 숨겨야 할까요? 일부 사람들은 환자의 희망을 위해 숨겨야 한다고 주장합니다. 반면 반대하는 사람들은 환자가 진실을 알 권리가 있다고 말합니다. 이 문제는 윤리적 딜레마의 대표적인 예입니다.",
+     "en": "Should a doctor hide bad news from a patient? Some people claim it should be hidden for the patient's hope. Opponents, on the other hand, say patients have the right to know the truth. This is a typical example of an ethical dilemma."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "主张",
+       "忘记",
+       "拒绝"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "也",
+       "才",
+       "就是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "原则",
+       "价格",
+       "天气"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "专栏\n朋友的新发型不好看，应该说实话吗？很多人回答说，为了不伤害对方，会说谎。但是专家认为，带着关心说实话，长远来看更能加深信任。",
+    "trans": {
+     "ko": "토론 입장문\n저는 동물 실험에 반대합니다. 동물도 고통을 느끼기 때문입니다. 물론 의학 발전에 기여했다는 주장도 있습니다. 그러나 대체 방법이 있는 한 동물 실험은 줄여야 한다고 생각합니다.",
+     "en": "DEBATE POSITION\nI am opposed to animal testing. Animals also feel pain. Of course, some claim that it has contributed to medical progress. However, as long as alternatives exist, I believe animal testing should be reduced."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "很多人为什么会说谎？",
+      "options": [
+       "为了不伤害对方",
+       "为了自己得利",
+       "好玩"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "专家认为什么能加深信任？",
+      "options": [
+       "带着关心说实话",
+       "沉默",
+       "说谎"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "民秀在辩论会上反对取消作业，理由是要养成自己学习的习惯。对方主张，作业的负担太重。",
+    "trans": {
+     "ko": "지민은 시험에서 친구의 답을 보고 싶었지만 원칙을 지키기로 했어요. 그녀는 정직이 결과보다 중요하다고 생각해요. 시험 점수는 낮았지만 후회하지 않았어요.",
+     "en": "Jimin wanted to look at a friend's answers in the exam but decided to stick to her principles. She thinks honesty matters more than results. Her mark was low but she didn't regret it."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "民秀反对取消作业。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "民秀赞成取消作业。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "辩论会在光州举办。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你对这个问题怎么看？",
+    "read": "Nǐ duì zhège wèntí zěnme kàn?",
+    "ko": "이 문제에 대해 어떻게 생각해요?",
+    "en": "What do you think about this issue?",
+    "situation": {
+     "ko": "의견을 물을 때",
+     "en": "Asking for an opinion"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "这是一个伦理问题。",
+    "read": "Zhè shì yí ge lún lǐ wèntí.",
+    "ko": "그것은 윤리적인 문제예요.",
+    "en": "That is an ethical issue.",
+    "situation": {
+     "ko": "문제를 정의할 때",
+     "en": "Defining a problem"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "诚实是信任的基础。",
+    "read": "Chéng shí shì xìn rèn de jī chǔ.",
+    "ko": "정직은 신뢰의 기본이에요.",
+    "en": "Honesty is the basis of trust.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "他主张自己是对的。",
+    "read": "Tā zhǔ zhāng zìjǐ shì duì de.",
+    "ko": "그는 자신이 옳다고 주장해요.",
+    "en": "He claims he is right.",
+    "situation": {
+     "ko": "주장을 소개할 때",
+     "en": "Reporting a claim"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我不能赞成这个主张。",
+    "read": "Wǒ bùnéng zànchéng zhège zhǔ zhāng.",
+    "ko": "그 주장에는 동의하기 어려워요.",
+    "en": "I find it hard to agree with that claim.",
+    "situation": {
+     "ko": "정중히 반박할 때",
+     "en": "Politely disagreeing"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "她反驳了这个说法。",
+    "read": "Tā fǎn bó le zhège shuō fǎ.",
+    "ko": "그녀는 그 주장을 반박했어요.",
+    "en": "She refuted the claim.",
+    "situation": {
+     "ko": "반론을 소개할 때",
+     "en": "Presenting a counterargument"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "行为有后果。",
+    "read": "Xíng wéi yǒu hòu guǒ.",
+    "ko": "행동에는 결과가 따라요.",
+    "en": "Actions have consequences.",
+    "situation": {
+     "ko": "결과를 말할 때",
+     "en": "Describing consequences"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "需要平衡的看法。",
+    "read": "Xūyào píng héng de kàn fǎ.",
+    "ko": "균형 잡힌 시각이 필요해요.",
+    "en": "A balanced view is needed.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我认为……。",
+    "read": "Wǒ rènwéi ….",
+    "ko": "~라고 주장하다",
+    "en": "claim / argue that + clause."
+   },
+   {
+    "id": "w2",
+    "t": "我反对……。",
+    "read": "Wǒ fǎnduì ….",
+    "ko": "~에 반대하다",
+    "en": "be opposed to + noun / -ing."
+   },
+   {
+    "id": "w3",
+    "t": "即使……，也……。",
+    "read": "Jí shǐ …, yě ….",
+    "ko": "~라고 해도",
+    "en": "even if / even though + clause."
+   },
+   {
+    "id": "w4",
+    "t": "只要……，就……。",
+    "read": "Zhī yào …, jiù ….",
+    "ko": "~하는 한",
+    "en": "as long as / provided that + clause."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "윤리적 딜레마에 대한 찬반 의견을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences for and against an ethical dilemma."
+   },
+   "must_include": [
+    {
+     "label": "主张",
+     "match": [
+      "主张"
+     ]
+    },
+    {
+     "label": "信任",
+     "match": [
+      "信任的基础"
+     ]
+    },
+    {
+     "label": "原则",
+     "match": [
+      "原则"
+     ]
+    }
+   ],
+   "model": "有人主张谎言有时是必要的。但是诚实是信任的基础，所以我认为谎言大多是不对的。即使是善意的谎言，也可能带来意想不到的后果。因此，我相信应该把诚实作为我们的原则。",
+   "model_trans": {
+    "ko": "일부 사람들은 거짓말이 때로는 필요하다고 주장합니다. 그러나 정직은 신뢰의 기본이므로 거짓말은 대부분 옳지 않다고 생각합니다. 비록 선의의 거짓말일지라도 결과는 예상 밖일 수 있습니다. 따라서 저는 정직을 원칙으로 삼아야 한다고 생각합니다.",
+    "en": "Some people claim that lying is sometimes necessary. However, honesty is the basis of trust, so I think lying is mostly wrong. Even a well-meant lie may have unexpected consequences. Therefore I believe honesty should be our principle."
+   }
+  }
+ }
+}

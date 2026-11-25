@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u27",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 27,
+  "concept": "B2.U27",
+  "status": "live",
+  "title": {
+   "target": "描述图表",
+   "ko": "그래프와 추세 설명",
+   "en": "Describing graphs and trends"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "上升",
+   "pos": "verb",
+   "read": "shàng shēng",
+   "ko": "증가하다",
+   "en": "rise",
+   "ex": {
+    "t": "销售额稳步上升。",
+    "read": "Xiāo shòu é wěn bù shàng shēng.",
+    "ko": "판매량이 꾸준히 증가했어요.",
+    "en": "Sales rose steadily."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "下降",
+   "pos": "verb",
+   "read": "xià jiàng",
+   "ko": "감소하다",
+   "en": "fall",
+   "ex": {
+    "t": "价格急剧下降。",
+    "read": "Jiàgé jí jù xià jiàng.",
+    "ko": "가격이 급격히 하락했어요.",
+    "en": "Prices fell sharply."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "急剧",
+   "pos": "adv",
+   "read": "jí jù",
+   "ko": "급격히",
+   "en": "sharply",
+   "ex": {
+    "t": "失业率急剧下降。",
+    "read": "Shī yè lǜ jí jù xià jiàng.",
+    "ko": "수치가 급격히 올랐어요.",
+    "en": "The figure went up sharply."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "稳步",
+   "pos": "adv",
+   "read": "wěn bù",
+   "ko": "꾸준히",
+   "en": "steadily",
+   "ex": {
+    "t": "游客人数稳步增加。",
+    "read": "Yóu kèrén shù wěn bù zēng jiā.",
+    "ko": "인구는 꾸준히 늘고 있어요.",
+    "en": "The population is growing steadily."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "保持稳定",
+   "pos": "phrase",
+   "read": "bǎochí wěn dìng",
+   "ko": "안정적으로 유지되다",
+   "en": "remain stable",
+   "ex": {
+    "t": "失业率保持稳定。",
+    "read": "Shī yè lǜ bǎochí wěn dìng.",
+    "ko": "실업률은 안정적으로 유지됐어요.",
+    "en": "The unemployment rate remained stable."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "高峰",
+   "pos": "verb",
+   "read": "gāo fēng",
+   "ko": "정점에 이르다",
+   "en": "peak",
+   "ex": {
+    "t": "游客人数在八月达到高峰。",
+    "read": "Yóu kèrén shù zài bā yuè dá dào gāo fēng.",
+    "ko": "관광객 수는 8월에 정점에 이르렀어요.",
+    "en": "The number of tourists peaked in August."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "波动",
+   "pos": "verb",
+   "read": "bō dòng",
+   "ko": "변동하다",
+   "en": "fluctuate",
+   "ex": {
+    "t": "价格一直在波动。",
+    "read": "Jiàgé yìzhí zài bō dòng.",
+    "ko": "환율은 하루 동안 변동했어요.",
+    "en": "The exchange rate fluctuated during the day."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "略微",
+   "pos": "adv",
+   "read": "lüè wēi",
+   "ko": "약간",
+   "en": "slightly",
+   "ex": {
+    "t": "略微增加了一点。",
+    "read": "Lüè wēi zēng jiā le yìdiǎn.",
+    "ko": "기온이 약간 올랐어요.",
+    "en": "The temperature rose slightly."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "从……到……",
+   "pos": "phrase",
+   "read": "cóng … dào … ",
+   "ko": "~에서 ~으로",
+   "en": "from … to …",
+   "ex": {
+    "t": "从百分之三十增加到百分之四十五。",
+    "read": "Cóng bǎi fēn zhī sānshí zēng jiā dào bǎi fēn zhī sìshíwǔ.",
+    "ko": "30%에서 45%로 늘었어요.",
+    "en": "It rose from 30% to 45%."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "趋势",
+   "pos": "noun",
+   "read": "qū shì",
+   "ko": "추세",
+   "en": "trend",
+   "ex": {
+    "t": "总的趋势是上升。",
+    "read": "Zǒng de qū shì shì shàng shēng.",
+    "ko": "전반적인 추세는 상승이에요.",
+    "en": "The overall trend is upward."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "图表描述：从……到……、急剧、稳步、达到高峰、保持稳定",
+   "en": "Describing graphs: 从……到…… / 急剧 / 稳步 / 达到高峰 / 保持稳定"
+  },
+  "explain": {
+   "ko": "描述图表，先说明“这张图表显示了……”。上升和下降用“上升／增加”“下降／减少”，起点和终点用“从……到……”：从百分之三十增加到百分之四十五。速度用“急剧、稳步、略微”，没有变化用“保持稳定”。最高点用“达到高峰”，整体用“总的趋势是上升”。",
+   "en": "Introduce with 这张图表显示了……. Rises and falls: 上升／增加, 下降／减少; start and end: 从……到……: 从百分之三十增加到百分之四十五. Speed: 急剧／稳步／略微; no change: 保持稳定. The top: 达到高峰; overall: 总的趋势是上升."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "增加 / Increase",
+     "上升／增加",
+     "销售额稳步上升。"
+    ],
+    [
+     "减少 / Decrease",
+     "下降／减少",
+     "价格急剧下降。"
+    ],
+    [
+     "范围 / Range",
+     "从……到……",
+     "从30%增加到45%。"
+    ],
+    [
+     "稳定 / Stable",
+     "保持稳定",
+     "失业率保持稳定。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“从……到……”表示变化的起点和终点。",
+    "en": "从……到…… gives the start and end of a change."
+   },
+   {
+    "ko": "“急剧”表示快速变化，“逐渐”表示慢速变化。",
+    "en": "急剧 is fast; 逐渐 is slow."
+   },
+   {
+    "ko": "描述过去的数据，可以加时间词。",
+    "en": "Add time words for past data."
+   }
+  ],
+  "examples": [
+   {
+    "t": "销售额稳步上升。",
+    "read": "Xiāo shòu é wěn bù shàng shēng.",
+    "ko": "판매량이 꾸준히 증가했어요.",
+    "en": "Sales rose steadily."
+   },
+   {
+    "t": "价格急剧下降。",
+    "read": "Jiàgé jí jù xià jiàng.",
+    "ko": "가격이 급격히 하락했어요.",
+    "en": "Prices fell sharply."
+   },
+   {
+    "t": "从百分之三十增加到百分之四十五。",
+    "read": "Cóng bǎi fēn zhī sānshí zēng jiā dào bǎi fēn zhī sìshíwǔ.",
+    "ko": "30%에서 45%로 늘었어요.",
+    "en": "It rose from 30% to 45%."
+   },
+   {
+    "t": "游客人数在八月达到高峰。",
+    "read": "Yóu kèrén shù zài bā yuè dá dào gāo fēng.",
+    "ko": "관광객 수는 8월에 정점에 이르렀어요.",
+    "en": "The number of tourists peaked in August."
+   },
+   {
+    "t": "失业率保持稳定。",
+    "read": "Shī yè lǜ bǎochí wěn dìng.",
+    "ko": "실업률은 안정적으로 유지됐어요.",
+    "en": "The unemployment rate remained stable."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "销售额___上升。",
+    "options": [
+     "稳步",
+     "决不",
+     "昨天"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "价格___下降。",
+    "options": [
+     "急剧",
+     "决不",
+     "昨天"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "游客人数在八月达到___。",
+    "options": [
+     "高峰",
+     "零",
+     "昨天"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "从百分之三十增加___百分之四十五。",
+    "options": [
+     "到",
+     "在",
+     "对"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这张图表显示了什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그래프는 무엇을 보여 줘요?",
+     "en": "(Question) What does the graph show?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "显示了游客人数。",
+       "什么也没有。",
+       "我昨天拍的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "销售额的变化怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 전체적인 추세는 어땠어요?",
+     "en": "(Question) What was the overall trend?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "稳步上升。",
+       "突然消失了。",
+       "昨天开始的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "游客人数什么时候达到高峰？"
+      },
+      {
+       "s": "B",
+       "t": "2020年。然后急剧下降。"
+      },
+      {
+       "s": "A",
+       "t": "最近呢？"
+      },
+      {
+       "s": "B",
+       "t": "最近两年保持稳定。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그래프를 설명해 봐.\nB: 관광객 수가 처음 5년 동안 꾸준히 늘어 2020년에 정점에 이르렀어.\nA: 그다음은?\nB: 급격히 감소했고 마지막 두 해에는 안정적으로 유지됐어.",
+     "en": "A: Describe the graph.\nB: The number of tourists rose steadily for the first five years and peaked in 2020.\nA: And then?\nB: It fell sharply and remained stable in the last two years."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "游客人数什么时候达到高峰？",
+      "options": [
+       "2020年",
+       "2015年",
+       "2022年"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这张图表显示了近十年的游客人数。前五年稳步增加，2020年达到高峰。之后急剧减少，最近两年保持稳定。总的趋势是上升。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 그래프는 한 도시의 인구 변화를 보여 줍니다. 1990년에 인구는 30만 명이었고 2020년에는 45만 명으로 증가했습니다. 증가 속도는 2000년 이후 약간 느려졌습니다. 전체적인 추세는 상승입니다.",
+     "en": "This graph shows population change in a city. In 1990 the population was three hundred thousand and by 2020 it had risen to four hundred and fifty thousand. The speed of growth slowed slightly after 2000. The overall trend is upward."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "总的趋势是什么？",
+      "options": [
+       "上升",
+       "下降",
+       "稳定"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新闻分析。"
+      },
+      {
+       "s": "B",
+       "t": "正如这张图表所示，去年失业率急剧下降。"
+      },
+      {
+       "s": "A",
+       "t": "今年呢？"
+      },
+      {
+       "s": "B",
+       "t": "保持稳定。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "진행자: 뉴스 해설입니다.\n전문가: 이 그래프를 보시면 실업률이 지난해 급격히 떨어졌습니다.\n진행자: 올해는 어땠나요?\n전문가: 안정적으로 유지되고 있습니다.",
+     "en": "Presenter: News analysis.\nExpert: As you can see in this graph, the unemployment rate fell sharply last year.\nPresenter: And this year?\nExpert: It is remaining stable."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "去年______急剧下降",
+      "answers": [
+       "失业率"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "今年______稳定",
+      "answers": [
+       "保持"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 销售额___上升。\n2) 价格___下降。\n3) 游客人数在八月达到___。",
+    "trans": {
+     "ko": "1) 판매량이 꾸준히 증가했어요. 2) 가격이 급격히 하락했어요. 3) 관광객 수는 8월에 정점에 이르렀어요.",
+     "en": "1) Sales rose steadily. 2) Prices fell sharply. 3) The number of tourists peaked in August."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "销售额___上升。",
+      "options": [
+       "稳步",
+       "决不",
+       "昨天"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "价格___下降。",
+      "options": [
+       "急剧",
+       "决不",
+       "昨天"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "游客人数在八月达到___。",
+      "options": [
+       "高峰",
+       "零",
+       "昨天"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这张图表显示了某个城市人口的变化。1990年人口为三十万，到2020年(1)到四十五万。增加的速度在2000年以后(2)变慢。总的趋势是(3)。",
+    "trans": {
+     "ko": "이 그래프는 한 도시의 인구 변화를 보여 줍니다. 1990년에 인구는 30만 명이었고 2020년에는 45만 명으로 증가했습니다. 증가 속도는 2000년 이후 약간 느려졌습니다. 전체적인 추세는 상승입니다.",
+     "en": "This graph shows population change in a city. In 1990 the population was three hundred thousand and by 2020 it had risen to four hundred and fifty thousand. The speed of growth slowed slightly after 2000. The overall trend is upward."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "增加",
+       "减少",
+       "消失"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "略微",
+       "急剧",
+       "突然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "上升",
+       "下降",
+       "停止"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "图表说明\n电动汽车的销量从百分之二增加到百分之二十。同时，柴油车的销量从百分之四十下降到百分之十五。总的趋势是向电动汽车转移。",
+    "trans": {
+     "ko": "보고서\n전기차 판매는 2015년 2%에서 2023년 20%로 증가했다. 2018년까지는 완만하게 늘었으나 이후 급격히 상승했다. 반대로 경유차 판매는 같은 기간에 40%에서 15%로 감소했다.",
+     "en": "REPORT\nElectric car sales rose from 2% in 2015 to 20% in 2023. They grew gradually until 2018 and then rose sharply. By contrast, diesel car sales fell from 40% to 15% over the same period."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "电动汽车销量怎么变化？",
+      "options": [
+       "从2%增加到20%",
+       "从20%减少到2%",
+       "没有变化"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "柴油车销量怎么样？",
+      "options": [
+       "从40%下降到15%",
+       "继续增加",
+       "没变"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "恩智的体重在前六个月稳步下降，之后保持稳定。恩智希望这个趋势能继续下去。",
+    "trans": {
+     "ko": "은지는 지난 1년간의 체중 변화를 그래프로 그렸어요. 처음 6개월은 꾸준히 줄었고 이후에는 안정적이었어요.",
+     "en": "Eunji drew a graph of her weight over the last year. It fell steadily for the first six months and was then stable."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "恩智的体重在前六个月稳步下降。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "恩智的体重急剧增加。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "恩智是老师。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "这张图表显示了什么？",
+    "read": "Zhè zhāng tú biǎo xiǎn shì le shénme?",
+    "ko": "그래프는 무엇을 보여 줘요?",
+    "en": "What does the graph show?",
+    "situation": {
+     "ko": "그래프를 설명할 때",
+     "en": "Introducing a graph"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "销售额稳步上升。",
+    "read": "Xiāo shòu é wěn bù shàng shēng.",
+    "ko": "판매량이 꾸준히 증가했어요.",
+    "en": "Sales rose steadily.",
+    "situation": {
+     "ko": "증가를 말할 때",
+     "en": "Describing an increase"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "价格急剧下降。",
+    "read": "Jiàgé jí jù xià jiàng.",
+    "ko": "가격이 급격히 하락했어요.",
+    "en": "Prices fell sharply.",
+    "situation": {
+     "ko": "감소를 말할 때",
+     "en": "Describing a decrease"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "从百分之三十增加到百分之四十五。",
+    "read": "Cóng bǎi fēn zhī sānshí zēng jiā dào bǎi fēn zhī sìshíwǔ.",
+    "ko": "30%에서 45%로 늘었어요.",
+    "en": "It rose from 30% to 45%.",
+    "situation": {
+     "ko": "수치 변화를 말할 때",
+     "en": "Giving figures"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "游客人数在八月达到高峰。",
+    "read": "Yóu kèrén shù zài bā yuè dá dào gāo fēng.",
+    "ko": "관광객 수는 8월에 정점에 이르렀어요.",
+    "en": "The number of tourists peaked in August.",
+    "situation": {
+     "ko": "최고점을 말할 때",
+     "en": "Describing a peak"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "失业率保持稳定。",
+    "read": "Shī yè lǜ bǎochí wěn dìng.",
+    "ko": "실업률은 안정적으로 유지됐어요.",
+    "en": "The unemployment rate remained stable.",
+    "situation": {
+     "ko": "변화 없음을 말할 때",
+     "en": "Describing stability"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "总的趋势是上升。",
+    "read": "Zǒng de qū shì shì shàng shēng.",
+    "ko": "전반적인 추세는 상승이에요.",
+    "en": "The overall trend is upward.",
+    "situation": {
+     "ko": "전체를 요약할 때",
+     "en": "Summarising the trend"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "这个趋势预计会继续。",
+    "read": "Zhège qū shì yù jì huì jìxù.",
+    "ko": "앞으로도 이 추세가 계속될 것으로 보여요.",
+    "en": "This trend is expected to continue.",
+    "situation": {
+     "ko": "전망을 말할 때",
+     "en": "Making a forecast"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "从……增加到……。",
+    "read": "Cóng … zēng jiā dào ….",
+    "ko": "~에서 ~으로 올랐다.",
+    "en": "rose / increased from … to …"
+   },
+   {
+    "id": "w2",
+    "t": "……急剧下降。",
+    "read": "… Jí jù xià jiàng.",
+    "ko": "~만큼 하락했다.",
+    "en": "fell / dropped by …"
+   },
+   {
+    "id": "w3",
+    "t": "……达到高峰。",
+    "read": "… Dá dào gāo fēng.",
+    "ko": "~에 이르렀다.",
+    "en": "reached a peak of … / peaked at …"
+   },
+   {
+    "id": "w4",
+    "t": "……保持稳定。",
+    "read": "… Bǎochí wěn dìng.",
+    "ko": "거의 변하지 않았다.",
+    "en": "remained stable / levelled off."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가상의 그래프를 설명하는 4문장을 써 보세요. 증가, 감소, 정점, 유지를 하나씩 쓰세요.",
+    "en": "Write 4 sentences describing an imaginary graph, including a rise, a fall, a peak and a period of stability."
+   },
+   "must_include": [
+    {
+     "label": "图表",
+     "match": [
+      "这张图表"
+     ]
+    },
+    {
+     "label": "高峰",
+     "match": [
+      "高峰"
+     ]
+    },
+    {
+     "label": "稳定",
+     "match": [
+      "稳定"
+     ]
+    }
+   ],
+   "model": "这张图表显示了过去十年的游客人数。前五年稳步增加，2020年达到高峰。之后急剧减少。最近两年保持稳定。",
+   "model_trans": {
+    "ko": "그래프는 지난 10년간 관광객 수를 보여 줍니다. 처음 5년 동안 수는 꾸준히 증가하여 2020년에 정점에 이르렀습니다. 그 후 급격히 감소했습니다. 마지막 두 해에는 안정적으로 유지되었습니다.",
+    "en": "The graph shows the number of tourists over the last ten years. In the first five years the number rose steadily and peaked in 2020. After that it fell sharply. In the last two years it remained stable."
+   }
+  }
+ }
+}

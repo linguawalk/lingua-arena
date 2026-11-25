@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u24",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 24,
+  "concept": "B2.U24",
+  "status": "live",
+  "title": {
+   "target": "写报告",
+   "ko": "보고서 쓰기",
+   "en": "Writing a report"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "发现",
+   "pos": "noun",
+   "read": "fāxiàn",
+   "ko": "조사 결과",
+   "en": "finding",
+   "ex": {
+    "t": "调查有几个重要发现。",
+    "read": "Diào chá yǒu jǐ gè zhòng yào fāxiàn.",
+    "ko": "조사 결과 직원 만족도는 높았어요.",
+    "en": "The findings show that staff satisfaction was high."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "建议",
+   "pos": "noun",
+   "read": "jiànyì",
+   "ko": "권고",
+   "en": "recommendation",
+   "ex": {
+    "t": "我们建议增设一个收银台。",
+    "read": "Wǒmen jiànyì zēng shè yí ge shōu yín tái.",
+    "ko": "아래에 몇 가지 권고를 드립니다.",
+    "en": "Some recommendations are given below."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "目的",
+   "pos": "noun",
+   "read": "mù de",
+   "ko": "목적",
+   "en": "purpose",
+   "ex": {
+    "t": "本报告的目的是评估现状。",
+    "read": "Běn bàogào de mù de shì píng gū xiàn zhuàng.",
+    "ko": "이 보고서의 목적은 상황을 평가하는 것입니다.",
+    "en": "The purpose of this report is to assess the situation."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "调查",
+   "pos": "noun",
+   "read": "diào chá",
+   "ko": "설문 조사",
+   "en": "survey",
+   "ex": {
+    "t": "根据调查，百分之六十的人满意。",
+    "read": "Gēn jù diào chá, bǎi fēn zhī liùshí de rén mǎn yì.",
+    "ko": "설문 조사에는 100명이 참여했어요.",
+    "en": "One hundred people took part in the survey."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "提出",
+   "pos": "verb",
+   "read": "tí chū",
+   "ko": "제안하다",
+   "en": "propose",
+   "ex": {
+    "t": "报告提出了三个建议。",
+    "read": "Bàogào tí chū le sān gè jiànyì.",
+    "ko": "새 시스템 도입을 제안합니다.",
+    "en": "I propose introducing a new system."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "改进",
+   "pos": "noun",
+   "read": "gǎi jìn",
+   "ko": "개선",
+   "en": "improvement",
+   "ex": {
+    "t": "这个系统需要改进。",
+    "read": "Zhège xì tǒng xūyào gǎi jìn.",
+    "ko": "서비스 개선이 필요해요.",
+    "en": "An improvement in service is needed."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "不足",
+   "pos": "noun",
+   "read": "bù zú",
+   "ko": "약점",
+   "en": "weakness",
+   "ex": {
+    "t": "主要不足是等待时间太长。",
+    "read": "Zhǔ yào bù zú shì děng dài shíjiān tài cháng.",
+    "ko": "가장 큰 약점은 대기 시간이에요.",
+    "en": "The main weakness is the waiting time."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "优点",
+   "pos": "noun",
+   "read": "yōu diǎn",
+   "ko": "강점",
+   "en": "strength",
+   "ex": {
+    "t": "优点是服务态度好。",
+    "read": "Yōu diǎn shì fúwù tài dù hǎo.",
+    "ko": "강점은 직원의 친절함이에요.",
+    "en": "A strength is the friendliness of staff."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "根据",
+   "pos": "phrase",
+   "read": "gēn jù",
+   "ko": "~에 따르면",
+   "en": "according to",
+   "ex": {
+    "t": "根据数据，销售额增加了。",
+    "read": "Gēn jù shù jù, xiāo shòu é zēng jiā le.",
+    "ko": "설문 조사에 따르면 60%가 만족해요.",
+    "en": "According to the survey, 60% are satisfied."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "综上所述",
+   "pos": "verb",
+   "read": "zōng shàng suǒ shù",
+   "ko": "결론짓다",
+   "en": "conclude",
+   "ex": {
+    "t": "综上所述，需要改进。",
+    "read": "Zōng shàng suǒ shù, xūyào gǎi jìn.",
+    "ko": "결론적으로 개선이 필요합니다.",
+    "en": "It can be concluded that improvement is needed."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "报告：本报告旨在……、根据调查、建议、综上所述、……如下",
+   "en": "Reports: 本报告旨在…… / 根据调查 / 建议 / 综上所述 / ……如下"
+  },
+  "explain": {
+   "ko": "报告用客观的书面语，不用第一人称。开头说明目的：本报告旨在评估学生食堂的服务。引用数据用“根据调查／数据显示”：根据调查，百分之七十的学生对等待时间不满意。指出问题用“主要不足是……”，提出建议用“建议……”：建议增设一个收银台。结论用“综上所述……”。内容分条列出，用“如下”引出。",
+   "en": "Reports use objective written style, rarely 'I'. State the purpose: 本报告旨在评估学生食堂的服务. Cite data with 根据调查／数据显示: 根据调查，百分之七十的学生对等待时间不满意. Name problems with 主要不足是……, give recommendations with 建议……: 建议增设一个收银台. Conclude with 综上所述…… and list items after 如下."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "目的 / Purpose",
+     "本报告旨在……",
+     "本报告旨在评估食堂的服务。"
+    ],
+    [
+     "数据 / Data",
+     "根据调查／数据显示……",
+     "根据调查，百分之七十不满意。"
+    ],
+    [
+     "建议 / Recommendation",
+     "建议＋动词",
+     "建议增设一个收银台。"
+    ],
+    [
+     "结论 / Conclusion",
+     "综上所述，……",
+     "综上所述，需要改进。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "报告尽量用“本报告”“我们”，少用“我”。",
+    "en": "Prefer 本报告／我们 over 我."
+   },
+   {
+    "ko": "“如下”后面通常用冒号。",
+    "en": "如下 is normally followed by a colon."
+   },
+   {
+    "ko": "数字要写清楚来源。",
+    "en": "Name the source of figures."
+   }
+  ],
+  "examples": [
+   {
+    "t": "本报告旨在评估学生食堂的服务。",
+    "read": "Běn bàogào zhǐ zài píng gū xuésheng shí táng de fúwù.",
+    "ko": "이 보고서의 목적은 상황을 평가하는 것입니다.",
+    "en": "The purpose of this report is to assess the situation."
+   },
+   {
+    "t": "根据调查，百分之七十的学生对等待时间不满意。",
+    "read": "Gēn jù diào chá, bǎi fēn zhī qīshí de xuésheng duì děng dài shíjiān bù mǎn yì.",
+    "ko": "설문 조사에 따르면 60%가 만족해요.",
+    "en": "According to the survey, 60% are satisfied."
+   },
+   {
+    "t": "主要不足是只有一个收银台。",
+    "read": "Zhǔ yào bù zú shì zhī yǒu yí ge shōu yín tái.",
+    "ko": "가장 큰 약점은 대기 시간이에요.",
+    "en": "The main weakness is the waiting time."
+   },
+   {
+    "t": "建议增设一个收银台。",
+    "read": "Jiànyì zēng shè yí ge shōu yín tái.",
+    "ko": "새 시스템 도입을 제안합니다.",
+    "en": "I propose introducing a new system."
+   },
+   {
+    "t": "综上所述，服务需要改进。",
+    "read": "Zōng shàng suǒ shù, fúwù xūyào gǎi jìn.",
+    "ko": "결론적으로 개선이 필요합니다.",
+    "en": "It can be concluded that improvement is needed."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "本报告___评估学生食堂的服务。",
+    "options": [
+     "旨在",
+     "忘记",
+     "喜欢"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___调查，百分之七十的学生不满意。",
+    "options": [
+     "根据",
+     "因为",
+     "虽然"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "主要___是只有一个收银台。",
+    "options": [
+     "不足",
+     "优点",
+     "开心"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___增设一个收银台。",
+    "options": [
+     "建议",
+     "忘记",
+     "购买"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "报告应该怎么开头？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 보고서는 어떻게 시작해요?",
+     "en": "(Question) How should the report begin?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "先说明报告的目的。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "调查的结果怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 조사 결과는 어땠어요?",
+     "en": "(Question) What did the survey show?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "百分之六十的人满意。",
+       "是的，我喜欢。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "报告应该怎么开头？"
+      },
+      {
+       "s": "B",
+       "t": "先说明目的：本报告旨在评估现状。"
+      },
+      {
+       "s": "A",
+       "t": "调查结果怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "根据调查，百分之六十的人满意，主要不足是等待时间。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 보고서의 목적이 뭐예요?\nB: 학생 식당의 서비스를 평가하는 거예요. 설문 조사에 따르면 70%가 대기 시간에 불만이에요.\nA: 권고는요?\nB: 계산대를 한 개 더 설치하는 것을 권고합니다.",
+     "en": "A: What is the purpose of the report?\nB: To evaluate the service in the canteen. According to the survey, 70% are dissatisfied with the waiting time.\nA: And your recommendation?\nB: I recommend installing a second till."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "主要不足是什么？",
+      "options": [
+       "等待时间",
+       "价格",
+       "味道"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "本报告旨在评估学生食堂的服务。根据调查，百分之七十的学生对等待时间不满意。主要不足是只有一个收银台。因此建议增设一个收银台。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 보고서는 도서관 이용 현황을 조사한 것입니다. 100명의 학생이 설문 조사에 참여했습니다. 가장 큰 강점은 조용한 환경이고 약점은 좌석 부족입니다. 열람실을 확장할 것을 권고합니다.",
+     "en": "This report looks at how the library is used. One hundred students took part in the survey. The main strength is the quiet environment and the weakness is the shortage of seats. It is recommended that the reading room be extended."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "报告建议做什么？",
+      "options": [
+       "增设一个收银台",
+       "关闭食堂",
+       "涨价"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "学生处，请讲。"
+      },
+      {
+       "s": "B",
+       "t": "我想知道报告的建议是什么。"
+      },
+      {
+       "s": "A",
+       "t": "建议增设一个收银台。"
+      },
+      {
+       "s": "B",
+       "t": "谢谢。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 학생처입니다.\n학생: 보고서의 권고 사항을 알고 싶어요.\n직원: 계산대를 한 개 더 설치하는 것입니다.\n학생: 감사합니다.",
+     "en": "Staff: Student office.\nStudent: I'd like to know the report's recommendations.\nStaff: To install a second till.\nStudent: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "报告的建议是增设一个______",
+      "answers": [
+       "收银台"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "我想知道报告的______",
+      "answers": [
+       "建议"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 本报告___评估学生食堂的服务。\n2) ___调查，百分之七十的学生不满意。\n3) 主要___是只有一个收银台。",
+    "trans": {
+     "ko": "1) 이 보고서의 목적은 상황을 평가하는 것입니다. 2) 설문 조사에 따르면 60%가 만족해요. 3) 새 시스템 도입을 제안합니다.",
+     "en": "1) The purpose of this report is to assess the situation. 2) According to the survey, 60% are satisfied. 3) I propose introducing a new system."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "本报告___评估学生食堂的服务。",
+      "options": [
+       "旨在",
+       "忘记",
+       "喜欢"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___调查，百分之七十的学生不满意。",
+      "options": [
+       "根据",
+       "因为",
+       "虽然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "主要___是只有一个收银台。",
+      "options": [
+       "不足",
+       "优点",
+       "开心"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "本报告旨在评估学生食堂的服务。根据(1)，百分之七十的学生对等待时间不满意。主要(2)是只有一个收银台。因此建议(3)一个收银台。",
+    "trans": {
+     "ko": "이 보고서는 도서관 이용 현황을 조사한 것입니다. 100명의 학생이 설문 조사에 참여했습니다. 가장 큰 강점은 조용한 환경이고 약점은 좌석 부족입니다. 열람실을 확장할 것을 권고합니다.",
+     "en": "This report looks at how the library is used. One hundred students took part in the survey. The main strength is the quiet environment and the weakness is the shortage of seats. It is recommended that the reading room be extended."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "调查",
+       "天气",
+       "电影"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "不足",
+       "优点",
+       "快乐"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "增设",
+       "关闭",
+       "忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "报告摘要\n本报告对本市公共自行车系统进行了调查。结果显示：百分之八十的用户满意，主要优点是方便。主要不足是车辆数量不足。建议增加车辆，并在地铁站附近增设停车点。",
+    "trans": {
+     "ko": "보고서\n1. 소개\n이 보고서는 직원 식당의 이용 현황을 조사한 것입니다.\n2. 조사 결과\n직원의 80%가 점심시간이 너무 짧다고 응답했습니다.\n3. 권고\n점심시간을 30분 연장할 것을 권고합니다.",
+     "en": "REPORT\n1. Introduction\nThis report examines how the staff canteen is used.\n2. Findings\n80% of staff said lunchtime is too short.\n3. Recommendation\nIt is recommended that lunchtime be extended by thirty minutes."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "百分之几的用户满意？",
+      "options": [
+       "百分之八十",
+       "百分之三十",
+       "百分之五十"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "报告建议什么？",
+      "options": [
+       "增加车辆和停车点",
+       "取消系统",
+       "涨价"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "明哲完成了关于办公室环境的报告。报告指出，噪音是最大的问题，建议安装隔音板。老板看了以后，同意了他的建议。",
+    "trans": {
+     "ko": "지은은 팀 프로젝트에 대한 보고서를 썼어요. 제목을 나누고 결과를 표로 정리했어요. 마지막에 개선 방법을 두 가지 권고했어요.",
+     "en": "Jieun wrote a report on the team project. She used headings and put the results in a table. At the end she recommended two ways to improve."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "明哲的报告提出了建议。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "老板拒绝了建议。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "明哲的公司在仁川。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "报告应该怎么开头？",
+    "read": "Bàogào yīnggāi zěnme kāi tóu?",
+    "ko": "보고서는 어떻게 시작해요?",
+    "en": "How should the report begin?",
+    "situation": {
+     "ko": "형식을 물을 때",
+     "en": "Asking about format"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "本报告旨在评估现状。",
+    "read": "Běn bàogào zhǐ zài píng gū xiàn zhuàng.",
+    "ko": "이 보고서의 목적은 상황을 평가하는 것입니다.",
+    "en": "The purpose of this report is to assess the situation.",
+    "situation": {
+     "ko": "목적을 밝힐 때",
+     "en": "Stating the purpose"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "根据调查，百分之六十的人满意。",
+    "read": "Gēn jù diào chá, bǎi fēn zhī liùshí de rén mǎn yì.",
+    "ko": "설문 조사에 따르면 60%가 만족해요.",
+    "en": "According to the survey, 60% are satisfied.",
+    "situation": {
+     "ko": "근거를 제시할 때",
+     "en": "Giving evidence"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "主要不足是等待时间。",
+    "read": "Zhǔ yào bù zú shì děng dài shíjiān.",
+    "ko": "가장 큰 약점은 대기 시간이에요.",
+    "en": "The main weakness is the waiting time.",
+    "situation": {
+     "ko": "문제점을 말할 때",
+     "en": "Describing a problem"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "优点是服务态度好。",
+    "read": "Yōu diǎn shì fúwù tài dù hǎo.",
+    "ko": "강점은 직원의 친절함이에요.",
+    "en": "A strength is the friendliness of staff.",
+    "situation": {
+     "ko": "강점을 말할 때",
+     "en": "Describing a strength"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我们建议增设一个收银台。",
+    "read": "Wǒmen jiànyì zēng shè yí ge shōu yín tái.",
+    "ko": "새 시스템 도입을 제안합니다.",
+    "en": "I propose introducing a new system.",
+    "situation": {
+     "ko": "권고할 때",
+     "en": "Recommending"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "综上所述，需要改进。",
+    "read": "Zōng shàng suǒ shù, xūyào gǎi jìn.",
+    "ko": "결론적으로 개선이 필요합니다.",
+    "en": "It can be concluded that improvement is needed.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "详细情况如下。",
+    "read": "Xiáng xì qíng kuàng rú xià.",
+    "ko": "아래에 자세한 내용이 있습니다.",
+    "en": "Details are given below.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Referring to details"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "本报告旨在……。",
+    "read": "Běn bàogào zhǐ zài ….",
+    "ko": "~할 목적으로",
+    "en": "The purpose of this report is to + verb."
+   },
+   {
+    "id": "w2",
+    "t": "根据调查，……。",
+    "read": "Gēn jù diào chá, ….",
+    "ko": "~에 따르면",
+    "en": "According to … / The survey shows that …"
+   },
+   {
+    "id": "w3",
+    "t": "主要不足是……。",
+    "read": "Zhǔ yào bù zú shì ….",
+    "ko": "~을 권고한다.",
+    "en": "It is recommended that + clause / I recommend + -ing."
+   },
+   {
+    "id": "w4",
+    "t": "建议……。",
+    "read": "Jiànyì ….",
+    "ko": "~라고 결론지을 수 있다.",
+    "en": "It can be concluded that …"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "카페 서비스에 대한 보고서의 목적, 조사 결과, 권고를 4문장으로 써 보세요.",
+    "en": "Write 4 sentences of a report on a café's service: purpose, findings and recommendation."
+   },
+   "must_include": [
+    {
+     "label": "旨在",
+     "match": [
+      "旨在"
+     ]
+    },
+    {
+     "label": "根据",
+     "match": [
+      "根据调查"
+     ]
+    },
+    {
+     "label": "建议",
+     "match": [
+      "建议"
+     ]
+    }
+   ],
+   "model": "本报告旨在评估学生食堂的服务。根据调查，百分之七十的学生对等待时间不满意。主要不足是只有一个收银台。因此建议增设一个收银台。",
+   "model_trans": {
+    "ko": "이 보고서의 목적은 학생 식당의 서비스를 평가하는 것입니다. 설문 조사에 따르면 학생의 70%가 대기 시간에 불만을 가지고 있습니다. 가장 큰 약점은 계산대가 하나뿐이라는 점입니다. 따라서 계산대를 한 개 더 설치할 것을 권고합니다.",
+    "en": "The purpose of this report is to evaluate the service in the student canteen. According to the survey, 70% of students are dissatisfied with the waiting time. The main weakness is that there is only one till. It is therefore recommended that a second till be installed."
+   }
+  }
+ }
+}

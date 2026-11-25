@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u15",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 15,
+  "concept": "B2.U15",
+  "status": "live",
+  "title": {
+   "target": "转折和让步",
+   "ko": "대조와 양보의 연결어",
+   "en": "Contrast and concession"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "虽然",
+   "pos": "adv",
+   "read": "suīrán",
+   "ko": "그럼에도 불구하고",
+   "en": "nevertheless",
+   "ex": {
+    "t": "虽然他很有钱，但是不快乐。",
+    "read": "Suīrán tā hěn yǒu qián, dànshì bú kuài lè.",
+    "ko": "그럼에도 불구하고 그는 포기하지 않았어요.",
+    "en": "Nevertheless, he did not give up."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "尽管",
+   "pos": "phrase",
+   "read": "jǐnguǎn",
+   "ko": "반대로",
+   "en": "on the other hand",
+   "ex": {
+    "t": "尽管下雨，我们还是出发了。",
+    "read": "Jǐnguǎn xiàyǔ, wǒmen hái shì chūfā le.",
+    "ko": "반대로 그 일은 위험하기도 해요.",
+    "en": "On the other hand, the job is also risky."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "然而",
+   "pos": "prep",
+   "read": "rán'ér",
+   "ko": "~에도 불구하고",
+   "en": "despite",
+   "ex": {
+    "t": "工作很难，然而他完成了。",
+    "read": "Gōngzuò hěn nán, rán'ér tā wán chéng le.",
+    "ko": "비가 오는데도 우리는 출발했어요.",
+    "en": "Despite the rain, we set off."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "相反",
+   "pos": "conj",
+   "read": "xiāng fǎn",
+   "ko": "~이긴 하지만",
+   "en": "although",
+   "ex": {
+    "t": "他不生气，相反很高兴。",
+    "read": "Tā bù shēngqì, xiāng fǎn hěn gāoxìng.",
+    "ko": "그는 부유하지만 행복하지 않아요.",
+    "en": "Although he is rich, he isn't happy."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "即使",
+   "pos": "conj",
+   "read": "jí shǐ",
+   "ko": "반면에",
+   "en": "whereas",
+   "ex": {
+    "t": "即使很难，我也要试一试。",
+    "read": "Jí shǐ hěn nán, wǒ yě yào shì yí shì.",
+    "ko": "나는 아침형인 반면 동생은 저녁형이에요.",
+    "en": "I am a morning person, whereas my brother is a night person."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "不过",
+   "pos": "phrase",
+   "read": "bùguò",
+   "ko": "그렇긴 해도",
+   "en": "even so",
+   "ex": {
+    "t": "这个提议不错，不过有点贵。",
+    "read": "Zhège tí yì bú cuò, bùguò yǒu diǎn guì.",
+    "ko": "그렇긴 해도 계획은 계속 진행해요.",
+    "en": "Even so, we will go ahead with the plan."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "事实上",
+   "pos": "phrase",
+   "read": "shì shí shàng",
+   "ko": "사실",
+   "en": "in fact",
+   "ex": {
+    "t": "事实上，我并不同意。",
+    "read": "Shì shí shàng, wǒ bìng bù tóngyì.",
+    "ko": "사실 저는 그 일이 마음에 들었어요.",
+    "en": "In fact, I liked the job."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "承认",
+   "pos": "adv",
+   "read": "chéngrèn",
+   "ko": "그래도",
+   "en": "still",
+   "ex": {
+    "t": "我承认，但是我还是赞成。",
+    "read": "Wǒ chéngrèn, dànshì wǒ hái shì zànchéng.",
+    "ko": "힘들어도 그래도 해 볼게요.",
+    "en": "It's hard, but I'll still try."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "反对",
+   "pos": "verb",
+   "read": "fǎnduì",
+   "ko": "인정하다",
+   "en": "admit",
+   "ex": {
+    "t": "我反对这个计划。",
+    "read": "Wǒ fǎnduì zhège jìhuà.",
+    "ko": "문제가 있다는 것은 인정해요.",
+    "en": "I admit there is a problem."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "仍然",
+   "pos": "phrase",
+   "read": "réng rán",
+   "ko": "반박하다",
+   "en": "argue against",
+   "ex": {
+    "t": "他仍然很高兴。",
+    "read": "Tā réng rán hěn gāoxìng.",
+    "ko": "그는 그 의견에 반박했어요.",
+    "en": "He argued against that opinion."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "转折：虽然……但是……、尽管、然而、即使……也……、不过",
+   "en": "Contrast: 虽然……但是…… / 尽管 / 然而 / 即使……也…… / 不过"
+  },
+  "explain": {
+   "ko": "“虽然……但是……”是最常见的转折结构：虽然城市很方便，但是很吵。“尽管……还是……”语气更强：尽管房价很高，很多人还是想住在城市。“然而”“不过”用于句首：工作很难，然而他完成了。“即使……也……”表示让步：即使很难，我也要试一试。对比两个事物用“而”：城市工作机会多，而乡下空气好。",
+   "en": "虽然……但是…… is the commonest contrast: 虽然城市很方便，但是很吵. 尽管……还是…… is stronger: 尽管房价很高，很多人还是想住在城市. 然而 and 不过 begin a clause: 工作很难，然而他完成了. 即使……也…… concedes: 即使很难，我也要试一试. Contrast two things with 而: 城市工作机会多，而乡下空气好."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "转折 / Contrast",
+     "虽然……但是……",
+     "虽然很方便，但是很吵。"
+    ],
+    [
+     "让步 / Concession",
+     "尽管……还是……",
+     "尽管房价高，很多人还是想住。"
+    ],
+    [
+     "假设让步 / Even if",
+     "即使……也……",
+     "即使很难，我也要试。"
+    ],
+    [
+     "对比 / Opposition",
+     "……，而……",
+     "城市工作多，而乡下空气好。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“虽然”和“但是”可以一起用，也可以只用一个。",
+    "en": "虽然 and 但是 may be used together or alone."
+   },
+   {
+    "ko": "“即使”表示假设的让步，“尽管”表示已有的事实。",
+    "en": "即使 is hypothetical; 尽管 is factual."
+   },
+   {
+    "ko": "“然而”比“但是”更书面。",
+    "en": "然而 is more literary than 但是."
+   }
+  ],
+  "examples": [
+   {
+    "t": "虽然城市很方便，但是很吵。",
+    "read": "Suīrán chéngshì hěn fāngbiàn, dànshì hěn chǎo.",
+    "ko": "비가 오는데도 우리는 출발했어요.",
+    "en": "Despite the rain, we set off."
+   },
+   {
+    "t": "尽管房价很高，很多人还是想住在城市。",
+    "read": "Jǐnguǎn fáng jià hěn gāo, hěn duō rén hái shì xiǎng zhùzài chéngshì.",
+    "ko": "그는 부유하지만 행복하지 않아요.",
+    "en": "Although he is rich, he isn't happy."
+   },
+   {
+    "t": "城市工作机会多，而乡下空气好。",
+    "read": "Chéngshì gōngzuò jī huì duō, ér xiāngxià kōng qì hǎo.",
+    "ko": "나는 아침형인 반면 동생은 저녁형이에요.",
+    "en": "I am a morning person, whereas my brother is a night person."
+   },
+   {
+    "t": "工作很难，然而他完成了。",
+    "read": "Gōngzuò hěn nán, rán'ér tā wán chéng le.",
+    "ko": "그 일은 힘들었다. 그럼에도 불구하고 그는 끝까지 해냈다.",
+    "en": "The work was hard. Nevertheless, he finished it."
+   },
+   {
+    "t": "即使如此，我还是喜欢城市生活。",
+    "read": "Jí shǐ rú cǐ, wǒ hái shì xǐhuan chéngshì shēnghuó.",
+    "ko": "피곤했음에도 불구하고 그는 일을 계속했어요.",
+    "en": "In spite of being tired, he carried on working."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___城市很方便，但是很吵。",
+    "options": [
+     "虽然",
+     "因为",
+     "如果"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "尽管房价很高，很多人___想住在城市。",
+    "options": [
+     "还是",
+     "就是",
+     "才是"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "城市工作机会多，___乡下空气好。",
+    "options": [
+     "而",
+     "和",
+     "跟"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "工作很难，___他完成了。",
+    "options": [
+     "然而",
+     "因为",
+     "所以"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你对这个计划怎么看？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 도시 생활과 농촌 생활 중 어느 쪽이 더 좋아요?",
+     "en": "(Question) Which do you prefer, city life or country life?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "不错，不过有点贵。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你为什么想去国外工作？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 비가 오는데도 갔어요?",
+     "en": "(Question) Did you go even though it was raining?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "因为工资比较高。",
+       "是的，我喜欢。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你想去国外工作吗？"
+      },
+      {
+       "s": "B",
+       "t": "想，不过我有点担心。"
+      },
+      {
+       "s": "A",
+       "t": "担心什么？"
+      },
+      {
+       "s": "B",
+       "t": "语言。不过那儿的工资比韩国高。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 직장에 지원할까 고민 중이야.\nB: 급여는 높지만 근무 시간이 길어. 반대로 복지는 좋아.\nA: 그래도 해 볼 가치는 있겠지?\nB: 힘들긴 해도 경력에는 도움이 될 거야.",
+     "en": "A: I'm thinking of applying for this job.\nB: The salary is high but the hours are long. On the other hand, the benefits are good.\nA: Even so, it's worth trying, isn't it?\nB: Although it's hard, it will help your career."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女的担心什么？",
+      "options": [
+       "语言",
+       "工资",
+       "天气"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "虽然这个城市很方便，但是很吵。尽管房价很高，很多人还是想住在这儿。城市工作机会多，而乡下空气好。不过，我还是更喜欢城市生活。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "비가 오는데도 우리는 산에 올랐어요. 길은 미끄러웠지만 경치는 아름다웠어요. 친구들은 지쳐 있었지만 정상에서 웃었어요. 그럼에도 불구하고 다시 가고 싶다는 사람은 많지 않았어요.",
+     "en": "We climbed the mountain despite the rain. The path was slippery, but the scenery was beautiful. My friends were exhausted but smiled at the top. Even so, not many wanted to go again."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人更喜欢什么？",
+      "options": [
+       "城市生活",
+       "乡下生活",
+       "国外生活"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "职业咨询处。"
+      },
+      {
+       "s": "B",
+       "t": "我在考虑去国外工作，但是有点担心。"
+      },
+      {
+       "s": "A",
+       "t": "最让你担心的是什么？"
+      },
+      {
+       "s": "B",
+       "t": "语言。不过那儿的工资比韩国高。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "상담사: 진로 상담입니다.\n손님: 해외 취업을 고려 중인데 걱정이 많아요.\n상담사: 어떤 점이 가장 걱정되세요?\n손님: 언어예요. 하지만 급여는 한국보다 높아요.",
+     "en": "Adviser: Career advice.\nGuest: I'm considering working abroad but I'm worried.\nAdviser: What worries you most?\nGuest: The language. But the salary is higher than in Korea."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "最让我担心的是______",
+      "answers": [
+       "语言"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "那儿的______比韩国高",
+      "answers": [
+       "工资"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___城市很方便，但是很吵。\n2) 尽管房价很高，很多人___想住在城市。\n3) 城市工作机会多，___乡下空气好。",
+    "trans": {
+     "ko": "1) 비가 오는데도 우리는 출발했어요. 2) 그는 부유하지만 행복하지 않아요. 3) 나는 아침형인 반면 동생은 저녁형이에요.",
+     "en": "1) Despite the rain, we set off. 2) Although he is rich, he isn't happy. 3) I am a morning person, whereas my brother is a night person."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___城市很方便，但是很吵。",
+      "options": [
+       "虽然",
+       "因为",
+       "如果"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "尽管房价很高，很多人___想住在城市。",
+      "options": [
+       "还是",
+       "就是",
+       "才是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "城市工作机会多，___乡下空气好。",
+      "options": [
+       "而",
+       "和",
+       "跟"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "虽然这个城市很(1)，但是很吵。尽管房价很高，很多人(2)想住在这儿。城市工作机会多，而乡下空气好。不过，我(3)更喜欢城市生活。",
+    "trans": {
+     "ko": "비가 오는데도 우리는 산에 올랐어요. 길은 미끄러웠지만 경치는 아름다웠어요. 친구들은 지쳐 있었지만 정상에서 웃었어요. 그럼에도 불구하고 다시 가고 싶다는 사람은 많지 않았어요.",
+     "en": "We climbed the mountain despite the rain. The path was slippery, but the scenery was beautiful. My friends were exhausted but smiled at the top. Even so, not many wanted to go again."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "方便",
+       "安静",
+       "远"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "还是",
+       "就是",
+       "才是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "还是",
+       "已经",
+       "刚刚"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "评论\n虽然这部电影的预算不高，但是拍得很精彩。演员的表演也很自然。然而，故事的结尾有点仓促。尽管如此，我还是推荐大家去看一看。",
+    "trans": {
+     "ko": "기사\n전기차는 환경에 좋은 것으로 알려져 있지만 가격이 높다. 정부가 보조금을 지급함에도 불구하고 판매는 기대만큼 늘지 않았다. 반면 충전소는 빠르게 늘고 있다. 그럼에도 불구하고 전문가들은 낙관적이다.",
+     "en": "ARTICLE\nElectric cars are known to be good for the environment, but they are expensive. Despite government subsidies, sales have not grown as much as expected. Charging stations, on the other hand, are increasing rapidly. Nevertheless, experts are optimistic."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这部电影的预算怎么样？",
+      "options": [
+       "不高",
+       "很高",
+       "没有"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "作者觉得电影哪里不够好？",
+      "options": [
+       "结尾有点仓促",
+       "演员不自然",
+       "画面不好"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "志英虽然很累，但是还是坚持去跑步。他说，即使下雨，他也不会放弃。他承认这很辛苦，不过他仍然很享受。",
+    "trans": {
+     "ko": "지후는 시험이 어려웠음에도 불구하고 합격했어요. 반면 그의 친구는 열심히 준비했지만 떨어졌어요. 그래도 둘은 서로 격려해 주었어요.",
+     "en": "Jihu passed the exam although it was hard. His friend, on the other hand, prepared hard but failed. Even so, they encouraged each other."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "志英虽然很累，但是坚持去跑步。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "志英因为下雨没有去跑步。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "志英住在济州岛。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你对这个计划怎么看？",
+    "read": "Nǐ duì zhège jìhuà zěnme kàn?",
+    "ko": "그 계획에 대해 어떻게 생각해요?",
+    "en": "What do you think about the plan?",
+    "situation": {
+     "ko": "의견을 물을 때",
+     "en": "Asking for an opinion"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "虽然他很有钱，但是不快乐。",
+    "read": "Suīrán tā hěn yǒu qián, dànshì bú kuài lè.",
+    "ko": "비가 오는데도 우리는 출발했어요.",
+    "en": "Despite the rain, we set off.",
+    "situation": {
+     "ko": "방해에도 행동할 때",
+     "en": "Acting in spite of difficulty"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "尽管下雨，我们还是出发了。",
+    "read": "Jǐnguǎn xiàyǔ, wǒmen hái shì chūfā le.",
+    "ko": "그는 부유하지만 행복하지 않아요.",
+    "en": "Although he is rich, he isn't happy.",
+    "situation": {
+     "ko": "예상과 다른 상황",
+     "en": "An unexpected contrast"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "他很早起，而他哥哥很晚起。",
+    "read": "Tā hěn zǎo qǐ, ér tā gēge hěn wǎn qǐ.",
+    "ko": "나는 아침형인 반면 동생은 저녁형이에요.",
+    "en": "I am a morning person, whereas my brother is a night person.",
+    "situation": {
+     "ko": "두 대상을 대조할 때",
+     "en": "Contrasting two things"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这个提议不错，不过有点贵。",
+    "read": "Zhège tí yì bú cuò, bùguò yǒu diǎn guì.",
+    "ko": "그 일은 힘들었다. 그럼에도 불구하고 끝까지 해냈다.",
+    "en": "The work was hard. Nevertheless, he finished it.",
+    "situation": {
+     "ko": "격식 있는 글",
+     "en": "Formal writing"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "即使如此，还是值得试一试。",
+    "read": "Jí shǐ rú cǐ, hái shì zhí děi shì yí shì.",
+    "ko": "그 제안은 좋지만, 반대로 비용이 많이 들어요.",
+    "en": "The offer is good; on the other hand, it is expensive.",
+    "situation": {
+     "ko": "장단점을 말할 때",
+     "en": "Weighing pros and cons"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我承认，但是我还是赞成。",
+    "read": "Wǒ chéngrèn, dànshì wǒ hái shì zànchéng.",
+    "ko": "그렇긴 해도 시도해 볼 가치는 있어요.",
+    "en": "Even so, it's worth trying.",
+    "situation": {
+     "ko": "양보 후 결론",
+     "en": "Conceding and concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "事实上，我并不同意。",
+    "read": "Shì shí shàng, wǒ bìng bù tóngyì.",
+    "ko": "인정하지만 저는 여전히 찬성해요.",
+    "en": "I admit that, but I'm still in favour.",
+    "situation": {
+     "ko": "의견을 마무리할 때",
+     "en": "Closing an opinion"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "虽然……，但是……。",
+    "read": "Suīrán …, dànshì ….",
+    "ko": "~에도 불구하고 (절)",
+    "en": "although / even though / though + clause."
+   },
+   {
+    "id": "w2",
+    "t": "尽管……，还是……。",
+    "read": "Jǐnguǎn …, hái shì ….",
+    "ko": "~에도 불구하고 (명사)",
+    "en": "despite / in spite of + noun / -ing."
+   },
+   {
+    "id": "w3",
+    "t": "……，而……。",
+    "read": "…, Ér ….",
+    "ko": "~인 반면",
+    "en": "whereas / while + clause."
+   },
+   {
+    "id": "w4",
+    "t": "即使……，也……。",
+    "read": "Jí shǐ …, yě ….",
+    "ko": "그럼에도 불구하고",
+    "en": "However, / Nevertheless, / Even so, + clause."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "although, despite, whereas, however를 모두 써서 장단점을 말하는 4문장을 써 보세요.",
+    "en": "Write 4 sentences giving pros and cons, using although, despite, whereas and however."
+   },
+   "must_include": [
+    {
+     "label": "虽然",
+     "match": [
+      "虽然"
+     ]
+    },
+    {
+     "label": "尽管",
+     "match": [
+      "尽管"
+     ]
+    },
+    {
+     "label": "不过",
+     "match": [
+      "不过"
+     ]
+    }
+   ],
+   "model": "虽然这个城市很方便，但是很吵。尽管房价很高，很多人还是想住在这儿。这儿有很多工作机会，而乡下空气好。不过，我还是更喜欢城市生活。",
+   "model_trans": {
+    "ko": "도시는 편리하지만 소음이 심해요. 높은 집값에도 불구하고 많은 사람이 도시에 살고 싶어 해요. 도시는 일자리가 많은 반면 농촌은 공기가 맑아요. 그러나 저는 아직 도시 생활이 더 좋아요.",
+    "en": "Although the city is convenient, it is very noisy. Despite high housing prices, many people want to live in the city. The city has many jobs, whereas the countryside has clean air. However, I still prefer city life."
+   }
+  }
+ }
+}

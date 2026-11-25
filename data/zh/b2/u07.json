@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u07",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 7,
+  "concept": "B2.U07",
+  "status": "live",
+  "title": {
+   "target": "强调结构",
+   "ko": "강조 구문 (분열문)",
+   "en": "Cleft sentences"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "原因",
+   "pos": "noun",
+   "read": "yuányīn",
+   "ko": "원인",
+   "en": "cause",
+   "ex": {
+    "t": "迟到的原因是堵车。",
+    "read": "Chídào de yuányīn shì dǔ chē.",
+    "ko": "문제의 원인을 찾아야 해요.",
+    "en": "We need to find the cause of the problem."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "理由",
+   "pos": "noun",
+   "read": "lǐ yóu",
+   "ko": "이유",
+   "en": "reason",
+   "ex": {
+    "t": "他离开的理由是工资。",
+    "read": "Tā líkāi de lǐ yóu shì gōng zī.",
+    "ko": "그가 떠난 이유는 아무도 몰라요.",
+    "en": "Nobody knows the reason why he left."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "需要",
+   "pos": "verb",
+   "read": "xūyào",
+   "ko": "필요로 하다",
+   "en": "require",
+   "ex": {
+    "t": "我最需要的是休息。",
+    "read": "Wǒ zuì xūyào de shì xiūxi.",
+    "ko": "이 일은 많은 인내를 필요로 해요.",
+    "en": "This job requires a lot of patience."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "重点",
+   "pos": "noun",
+   "read": "zhòng diǎn",
+   "ko": "초점",
+   "en": "focus",
+   "ex": {
+    "t": "这次会议的重点是时间管理。",
+    "read": "Zhè cì huìyì de zhòng diǎn shì shíjiān guǎn lǐ.",
+    "ko": "회의의 초점은 비용 절감이에요.",
+    "en": "The focus of the meeting is cost reduction."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "明确",
+   "pos": "phrase",
+   "read": "míng què",
+   "ko": "분명히 하다",
+   "en": "make clear",
+   "ex": {
+    "t": "我想明确我的立场。",
+    "read": "Wǒ xiǎng míng què wǒ de lì chǎng.",
+    "ko": "제 입장을 분명히 하고 싶어요.",
+    "en": "I'd like to make my position clear."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "真正",
+   "pos": "adv",
+   "read": "zhēn zhèng",
+   "ko": "정말로",
+   "en": "genuinely",
+   "ex": {
+    "t": "我真正讨厌的是说谎。",
+    "read": "Wǒ zhēn zhèng tǎoyàn de shì shuō huǎng.",
+    "ko": "저는 그 일을 정말로 좋아해요.",
+    "en": "I genuinely enjoy that work."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "批评",
+   "pos": "verb",
+   "read": "pī píng",
+   "ko": "비판하다",
+   "en": "criticise",
+   "ex": {
+    "t": "老师批评了他。",
+    "read": "Lǎoshī pī píng le tā.",
+    "ko": "그는 정부의 정책을 비판했어요.",
+    "en": "He criticised the government's policy."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "优先",
+   "pos": "noun",
+   "read": "yōu xiān",
+   "ko": "우선순위",
+   "en": "priority",
+   "ex": {
+    "t": "健康是第一位的。",
+    "read": "Jiànkāng shì dì yí wèi de.",
+    "ko": "건강이 가장 중요한 우선순위예요.",
+    "en": "Health is the top priority."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "意识到",
+   "pos": "verb",
+   "read": "yìshídào",
+   "ko": "깨닫다",
+   "en": "realise",
+   "ex": {
+    "t": "我意识到自己错了。",
+    "read": "Wǒ yìshídào zìjǐ cuò le.",
+    "ko": "나는 그제야 내 잘못을 깨달았어요.",
+    "en": "Only then did I realise my mistake."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "强调",
+   "pos": "noun",
+   "read": "qiáng diào",
+   "ko": "강조",
+   "en": "emphasis",
+   "ex": {
+    "t": "我想强调这一点。",
+    "read": "Wǒ xiǎng qiáng diào zhè yìdiǎn.",
+    "ko": "그 보고서는 안전에 강조를 두었어요.",
+    "en": "The report put emphasis on safety."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "是……的、最……的是、之所以……是因为……、正是",
+   "en": "Cleft structures: 是……的 / 最……的是 / 之所以……是因为…… / 正是"
+  },
+  "explain": {
+   "ko": "汉语强调时间、地点、人物或方式，用“是……的”：我是在这家咖啡馆认识他的。强调某人做了某事，用“是……的”：是金先生解决了问题。强调“最……”的内容，用“最……的是……”：我最需要的是休息。说明原因，用“之所以……是因为……”：他之所以离开，是因为工资太低。“正是”表示强调：正是那场大病让我这样想。",
+   "en": "To stress time, place, person or manner use 是……的: 我是在这家咖啡馆认识他的. Naming who did it: 是金先生解决了问题. To stress the thing: 最……的是……: 我最需要的是休息. For reasons: 之所以……是因为……: 他之所以离开，是因为工资太低. 正是 emphasises: 正是那场大病让我这样想."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "强调地点 / Place",
+     "是在……的",
+     "我是在这家咖啡馆认识他的。"
+    ],
+    [
+     "强调人 / Person",
+     "是……的",
+     "是金先生解决了问题。"
+    ],
+    [
+     "强调内容 / Thing",
+     "最……的是……",
+     "我最需要的是休息。"
+    ],
+    [
+     "原因 / Reason",
+     "之所以……是因为……",
+     "他之所以离开，是因为工资低。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“是……的”用于已经发生的事。",
+    "en": "是……的 is used for completed events."
+   },
+   {
+    "ko": "“之所以”和“是因为”要一起用。",
+    "en": "之所以 and 是因为 go together."
+   },
+   {
+    "ko": "“最……的是”后面是名词或名词性短语。",
+    "en": "The part after 最……的是 is a noun phrase."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我是在这家咖啡馆认识他的。",
+    "read": "Wǒ shì zài zhè jiā kāfēi guǎn rènshi tā de.",
+    "ko": "내가 필요한 것은 충분한 휴식이에요.",
+    "en": "What I need is enough rest."
+   },
+   {
+    "t": "是金先生解决了问题。",
+    "read": "Shì jīn xiānsheng jiě jué le wèntí.",
+    "ko": "그 문제를 해결한 사람은 바로 김 선생님이에요.",
+    "en": "It was Mr Kim who solved the problem."
+   },
+   {
+    "t": "我最需要的是休息。",
+    "read": "Wǒ zuì xūyào de shì xiūxi.",
+    "ko": "내가 가장 걱정하는 것은 비용이에요.",
+    "en": "What worries me most is the cost."
+   },
+   {
+    "t": "他之所以离开，是因为工资太低。",
+    "read": "Tā zhī suǒyǐ líkāi, shì yīnwèi gōng zī tài dī.",
+    "ko": "우리가 만난 곳은 바로 이 카페였어요.",
+    "en": "It was in this café that we met."
+   },
+   {
+    "t": "我真正讨厌的是说谎。",
+    "read": "Wǒ zhēn zhèng tǎoyàn de shì shuō huǎng.",
+    "ko": "그가 떠난 이유는 급여 때문이에요.",
+    "en": "The reason why he left was the pay."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我___在这家咖啡馆认识他的。",
+    "options": [
+     "是",
+     "有",
+     "在"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我最需要___是休息。",
+    "options": [
+     "的",
+     "地",
+     "得"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "他之所以离开，___因为工资太低。",
+    "options": [
+     "是",
+     "不",
+     "没"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我真正讨厌的是___。",
+    "options": [
+     "说谎",
+     "谢谢",
+     "你好"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你最需要什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 가장 필요한 게 뭐예요?",
+     "en": "(Question) What do you need most?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我最需要的是休息。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你为什么现在工作？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 그 직장을 그만뒀어요?",
+     "en": "(Question) Why did you leave that job?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "之所以工作，是因为要养家。",
+       "我昨天去了。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你现在最看重什么？"
+      },
+      {
+       "s": "B",
+       "t": "我最看重的是健康。"
+      },
+      {
+       "s": "A",
+       "t": "为什么？"
+      },
+      {
+       "s": "B",
+       "t": "去年的一场大病让我这样想。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이번 회의에서 가장 중요한 건 뭐야?\nB: 내가 걱정하는 것은 비용이야. 회사가 정말 필요로 하는 건 절감 계획이지.\nA: 그 계획을 짠 사람은 누구야?\nB: 바로 김 부장님이야. 그분이 문제의 원인을 찾았어.",
+     "en": "A: What's the most important thing in this meeting?\nB: What worries me is the cost. What the company really needs is a savings plan.\nA: Who made the plan?\nB: It was Mr Kim who made it. He found the cause of the problem."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的为什么最看重健康？",
+      "options": [
+       "去年得了大病",
+       "喜欢运动",
+       "工作太累"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我最看重的是健康。是去年的一场大病让我有了这样的想法。我现在之所以努力工作，是因为要养家。所以我真正需要的是一份稳定的工作。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제가 이 회사를 그만둔 이유는 급여 때문이 아니에요. 제가 정말 원했던 것은 새로운 도전이었어요. 저에게 이 결심을 하게 만든 것은 바로 지난해의 해외 출장이었어요. 이제 제 우선순위는 배움이에요.",
+     "en": "The reason why I left this company wasn't the pay. What I really wanted was a new challenge. It was last year's business trip abroad that made me decide. Now my priority is learning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人现在为什么努力工作？",
+      "options": [
+       "要养家",
+       "为了旅行",
+       "为了买车"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "职业咨询处。"
+      },
+      {
+       "s": "B",
+       "t": "我真正想要的是一份稳定的工作。"
+      },
+      {
+       "s": "A",
+       "t": "现在最让你担心的是什么？"
+      },
+      {
+       "s": "B",
+       "t": "工资。我之所以担心，是因为要养家。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "상담사: 직업 상담입니다.\n손님: 제가 정말 원하는 것은 안정된 일이에요.\n상담사: 지금 가장 걱정되는 게 무엇인가요?\n손님: 급여예요. 이유는 가족을 지켜야 하기 때문이에요.",
+     "en": "Adviser: Career advice.\nGuest: What I really want is a stable job.\nAdviser: What worries you most at the moment?\nGuest: The pay. The reason is that I must support my family."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "我真正想要的是一份______的工作",
+      "answers": [
+       "稳定"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "让我担心的是______",
+      "answers": [
+       "工资"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我___在这家咖啡馆认识他的。\n2) 我最需要___是休息。\n3) 他之所以离开，___因为工资太低。",
+    "trans": {
+     "ko": "1) 내가 필요한 것은 충분한 휴식이에요. 2) 그 문제를 해결한 사람은 바로 김 선생님이에요. 3) 우리가 만난 곳은 바로 이 카페였어요.",
+     "en": "1) What I need is enough rest. 2) It was Mr Kim who solved the problem. 3) It was in this café that we met."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我___在这家咖啡馆认识他的。",
+      "options": [
+       "是",
+       "有",
+       "在"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我最需要___是休息。",
+      "options": [
+       "的",
+       "地",
+       "得"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他之所以离开，___因为工资太低。",
+      "options": [
+       "是",
+       "不",
+       "没"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我最看重的是(1)。是去年的一场大病让我有了这样的想法。我现在之所以努力工作，是因为要(2)。所以我真正需要的是一份(3)的工作。",
+    "trans": {
+     "ko": "제가 이 회사를 그만둔 이유는 급여 때문이 아니에요. 제가 정말 원했던 것은 새로운 도전이었어요. 저에게 이 결심을 하게 만든 것은 바로 지난해의 해외 출장이었어요. 이제 제 우선순위는 배움이에요.",
+     "en": "The reason why I left this company wasn't the pay. What I really wanted was a new challenge. It was last year's business trip abroad that made me decide. Now my priority is learning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "健康",
+       "金钱",
+       "名声"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "养家",
+       "旅行",
+       "睡觉"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "稳定",
+       "危险",
+       "轻松"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "采访\n记者问：成功的关键是什么？她回答说：最重要的是坚持。我之所以能有今天，是因为我从来没放弃过。正是那些困难的日子，让我变得更坚强。",
+    "trans": {
+     "ko": "신문 칼럼\n많은 사람이 도시의 문제는 교통이라고 말한다. 그러나 내가 보기에 더 큰 문제는 주택이다. 시민들이 정말 필요로 하는 것은 값싼 집이다. 시가 우선순위로 삼아야 하는 것도 바로 이 문제다.",
+     "en": "NEWSPAPER COLUMN\nMany people say that the city's problem is traffic. But in my view the bigger problem is housing. What citizens really need is affordable homes. And it is this issue that the city should make its priority."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "她认为成功的关键是什么？",
+      "options": [
+       "坚持",
+       "运气",
+       "金钱"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "是什么让她变得更坚强？",
+      "options": [
+       "困难的日子",
+       "朋友",
+       "家人"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "东河是在大学的咖啡馆里认识妻子的。他之所以选择这家咖啡馆，是因为那儿离图书馆很近。他最难忘的是第一次一起喝咖啡的那天。",
+    "trans": {
+     "ko": "지민은 새 직장에 만족하지 않았어요. 그녀가 정말 원한 것은 자유로운 근무 시간이었어요. 그래서 프리랜서로 일하기로 했어요.",
+     "en": "Jimin was not satisfied with her new job. What she really wanted was flexible working hours. So she decided to work as a freelancer."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "东河是在咖啡馆认识妻子的。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "东河是在公司认识妻子的。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "东河的妻子是医生。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你最需要什么？",
+    "read": "Nǐ zuì xūyào shénme?",
+    "ko": "가장 필요한 게 뭐예요?",
+    "en": "What do you need most?",
+    "situation": {
+     "ko": "필요한 것을 물을 때",
+     "en": "Asking what is needed"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我最需要的是休息。",
+    "read": "Wǒ zuì xūyào de shì xiūxi.",
+    "ko": "내가 필요한 것은 충분한 휴식이에요.",
+    "en": "What I need is enough rest.",
+    "situation": {
+     "ko": "필요를 강조할 때",
+     "en": "Emphasising what you need"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "是金先生解决了问题。",
+    "read": "Shì jīn xiānsheng jiě jué le wèntí.",
+    "ko": "그 문제를 해결한 사람은 바로 김 선생님이에요.",
+    "en": "It was Mr Kim who solved the problem.",
+    "situation": {
+     "ko": "사람을 강조할 때",
+     "en": "Emphasising a person"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我是在这家咖啡馆认识他的。",
+    "read": "Wǒ shì zài zhè jiā kāfēi guǎn rènshi tā de.",
+    "ko": "우리가 만난 곳은 바로 이 카페였어요.",
+    "en": "It was in this café that we met.",
+    "situation": {
+     "ko": "장소를 강조할 때",
+     "en": "Emphasising a place"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "他之所以离开，是因为工资太低。",
+    "read": "Tā zhī suǒyǐ líkāi, shì yīnwèi gōng zī tài dī.",
+    "ko": "그가 떠난 이유는 급여 때문이에요.",
+    "en": "The reason why he left was the pay.",
+    "situation": {
+     "ko": "이유를 강조할 때",
+     "en": "Emphasising a reason"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我真正讨厌的是说谎。",
+    "read": "Wǒ zhēn zhèng tǎoyàn de shì shuō huǎng.",
+    "ko": "내가 정말 싫어하는 것은 거짓말이에요.",
+    "en": "What I really dislike is lying.",
+    "situation": {
+     "ko": "감정을 강조할 때",
+     "en": "Emphasising a feeling"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "开会最重要的是时间管理。",
+    "read": "Kāi huì zuì zhòng yào de shì shíjiān guǎn lǐ.",
+    "ko": "회의에서 중요한 것은 시간 관리예요.",
+    "en": "What matters in a meeting is time management.",
+    "situation": {
+     "ko": "핵심을 짚을 때",
+     "en": "Pointing to the key issue"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我想明确我的立场。",
+    "read": "Wǒ xiǎng míng què wǒ de lì chǎng.",
+    "ko": "제 입장을 분명히 하고 싶어요.",
+    "en": "I'd like to make my position clear.",
+    "situation": {
+     "ko": "의견을 마무리할 때",
+     "en": "Clarifying your view"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我最……的是……。",
+    "read": "Wǒ zuì … de shì ….",
+    "ko": "~하는 것은 ~이다.",
+    "en": "What + subject + verb + is …"
+   },
+   {
+    "id": "w2",
+    "t": "是……的。",
+    "read": "Shì … de.",
+    "ko": "~한 사람은 바로 ~이다.",
+    "en": "It was + person + who …"
+   },
+   {
+    "id": "w3",
+    "t": "之所以……，是因为……。",
+    "read": "Zhī suǒyǐ …, shì yīnwèi ….",
+    "ko": "~한 곳은 바로 ~이다.",
+    "en": "It was + place + that …"
+   },
+   {
+    "id": "w4",
+    "t": "我真正……的是……。",
+    "read": "Wǒ zhēn zhèng … de shì ….",
+    "ko": "~한 이유는 ~이다.",
+    "en": "The reason why … is …"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "분열문을 사용해 자신의 가치관을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about your values, using cleft sentences."
+   },
+   "must_include": [
+    {
+     "label": "最",
+     "match": [
+      "最看重的是"
+     ]
+    },
+    {
+     "label": "之所以",
+     "match": [
+      "之所以"
+     ]
+    },
+    {
+     "label": "真正",
+     "match": [
+      "真正"
+     ]
+    }
+   ],
+   "model": "我最看重的是健康。是去年的一场大病让我这样想。我现在之所以努力工作，是因为要养家。所以我真正需要的是一份稳定的工作。",
+   "model_trans": {
+    "ko": "제가 가장 중요하게 생각하는 것은 건강이에요. 이 생각을 하게 만든 것은 바로 지난해의 큰 병이었어요. 제가 지금 일하는 이유는 가족을 지키기 위해서예요. 그래서 제가 정말 필요로 하는 것은 안정된 직장이에요.",
+    "en": "What I value most is health. It was last year's serious illness that made me think this way. The reason why I work now is to support my family. So what I really need is a stable job."
+   }
+  }
+ }
+}

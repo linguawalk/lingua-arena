@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u13",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 13,
+  "concept": "B2.U13",
+  "status": "live",
+  "title": {
+   "target": "量词和限定词",
+   "ko": "관사와 한정사 심화",
+   "en": "Articles and determiners"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "信息",
+   "pos": "noun",
+   "read": "xìn xī",
+   "ko": "정보",
+   "en": "information",
+   "ex": {
+    "t": "我需要一些信息。",
+    "read": "Wǒ xūyào yìxiē xìn xī.",
+    "ko": "그 웹사이트에는 유용한 정보가 많아요.",
+    "en": "The website has a lot of useful information."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "建议",
+   "pos": "noun",
+   "read": "jiànyì",
+   "ko": "조언",
+   "en": "advice",
+   "ex": {
+    "t": "我给你一条建议。",
+    "read": "Wǒ gěi nǐ yì tiáo jiànyì.",
+    "ko": "조언을 하나 드릴게요.",
+    "en": "Let me give you a piece of advice."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "家具",
+   "pos": "noun",
+   "read": "jiā jù",
+   "ko": "가구",
+   "en": "furniture",
+   "ex": {
+    "t": "我买了一套新家具。",
+    "read": "Wǒ mǎi le yí tào xīn jiā jù.",
+    "ko": "새 가구를 샀어요.",
+    "en": "We bought some new furniture."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "消息",
+   "pos": "noun",
+   "read": "xiāo xī",
+   "ko": "뉴스",
+   "en": "news",
+   "ex": {
+    "t": "我有一个好消息。",
+    "read": "Wǒ yǒu yí ge hǎo xiāo xī.",
+    "ko": "좋은 소식이 있어요.",
+    "en": "I have some good news."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "每",
+   "pos": "det",
+   "read": "měi",
+   "ko": "각각의",
+   "en": "each",
+   "ex": {
+    "t": "每个学生都得到了一本书。",
+    "read": "Měi gè xuésheng dōu dé dào le yì běn shū.",
+    "ko": "각 학생은 책을 한 권씩 받았어요.",
+    "en": "Each student received a book."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "所有",
+   "pos": "det",
+   "read": "suǒyǒu",
+   "ko": "모든",
+   "en": "every",
+   "ex": {
+    "t": "所有的学生都通过了考试。",
+    "read": "Suǒyǒu de xuésheng dōu tōng guo le kǎoshì.",
+    "ko": "모든 사람이 그 소식을 들었어요.",
+    "en": "Everyone has heard the news."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "几乎没有",
+   "pos": "phrase",
+   "read": "jǐ hū méiyǒu",
+   "ko": "거의 없는",
+   "en": "hardly any",
+   "ex": {
+    "t": "几乎没有时间了。",
+    "read": "Jǐ hū méiyǒu shíjiān le.",
+    "ko": "남은 시간이 거의 없어요.",
+    "en": "There is hardly any time left."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "足够",
+   "pos": "det",
+   "read": "zúgòu",
+   "ko": "충분한",
+   "en": "enough",
+   "ex": {
+    "t": "我的钱不够。",
+    "read": "Wǒ de qián bú gòu.",
+    "ko": "충분한 돈이 없어요.",
+    "en": "I don't have enough money."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "两个都",
+   "pos": "det",
+   "read": "liǎng ge dōu",
+   "ko": "둘 다",
+   "en": "both",
+   "ex": {
+    "t": "两个都是好选择。",
+    "read": "Liǎng ge dōu shì hǎo xuǎn zé.",
+    "ko": "둘 다 좋은 선택이에요.",
+    "en": "Both are good choices."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "都不",
+   "pos": "det",
+   "read": "dōu bù",
+   "ko": "어느 쪽도 아닌",
+   "en": "neither",
+   "ex": {
+    "t": "两个都不合适。",
+    "read": "Liǎng ge dōu bù héshì.",
+    "ko": "어느 쪽도 맞지 않아요.",
+    "en": "Neither answer is correct."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "名词前的词：一条、一些、每、所有、几乎没有、足够、都",
+   "en": "Quantifiers: 一条 / 一些 / 每 / 所有 / 几乎没有 / 足够 / 都"
+  },
+  "explain": {
+   "ko": "汉语的名词前常有量词：一条建议、一个消息、一套家具、一些信息。“每＋量词＋名词＋都……”表示一个不漏：每个学生都得到了一本书。“所有的＋名词”表示全部。数量少用“几乎没有、很少”，足够用“够、足够”：我的钱不够。“两个都……”表示两个全部，“两个都不……”表示两个都否定。",
+   "en": "Chinese nouns take measure words: 一条建议, 一个消息, 一套家具, 一些信息. 每 + MW + noun + 都 means every one: 每个学生都得到了一本书. 所有的 + noun means all. Scarcity: 几乎没有／很少; sufficiency: 够／足够: 我的钱不够. 两个都…… means both; 两个都不…… means neither."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "量词 / Measure word",
+     "数词＋量词＋名词",
+     "一条建议、一套家具。"
+    ],
+    [
+     "每个 / Every",
+     "每＋量词＋名词＋都",
+     "每个学生都得到了一本书。"
+    ],
+    [
+     "所有 / All",
+     "所有的＋名词",
+     "所有的学生都通过了。"
+    ],
+    [
+     "两个 / Both·Neither",
+     "两个都／两个都不",
+     "两个都是好选择。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“一条建议”“一个消息”：建议、消息用不同的量词。",
+    "en": "建议 and 消息 take different measure words."
+   },
+   {
+    "ko": "“每”后面一定要有量词。",
+    "en": "每 must be followed by a measure word."
+   },
+   {
+    "ko": "“都”总是放在动词前面。",
+    "en": "都 always sits before the verb."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我给你一条建议。",
+    "read": "Wǒ gěi nǐ yì tiáo jiànyì.",
+    "ko": "그 웹사이트에는 유용한 정보가 많아요.",
+    "en": "The website has a lot of useful information."
+   },
+   {
+    "t": "我有一个好消息。",
+    "read": "Wǒ yǒu yí ge hǎo xiāo xī.",
+    "ko": "조언을 하나 드릴게요.",
+    "en": "Let me give you a piece of advice."
+   },
+   {
+    "t": "每个学生都得到了一本书。",
+    "read": "Měi gè xuésheng dōu dé dào le yì běn shū.",
+    "ko": "각 학생은 책을 한 권씩 받았어요.",
+    "en": "Each student received a book."
+   },
+   {
+    "t": "所有的学生都通过了考试。",
+    "read": "Suǒyǒu de xuésheng dōu tōng guo le kǎoshì.",
+    "ko": "모든 학생이 시험을 통과했어요.",
+    "en": "All the students passed the exam."
+   },
+   {
+    "t": "我的钱不够。",
+    "read": "Wǒ de qián bú gòu.",
+    "ko": "남은 시간이 거의 없어요.",
+    "en": "There is hardly any time left."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我给你一___建议。",
+    "options": [
+     "条",
+     "个",
+     "本"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "每个学生___得到了一本书。",
+    "options": [
+     "都",
+     "才",
+     "就"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___的学生都通过了考试。",
+    "options": [
+     "所有",
+     "一个",
+     "几乎"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我的钱___。",
+    "options": [
+     "不够",
+     "太多",
+     "很大"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你需要什么吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 뭐 필요한 거 있어요?",
+     "en": "(Question) Do you need anything?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我需要一些信息。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你的预算够吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 소식 들었어요?",
+     "en": "(Question) Have you heard the news?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "不太够。",
+       "是的，我喜欢。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你需要什么吗？"
+      },
+      {
+       "s": "B",
+       "t": "我想买一套卧室家具，能给我一些建议吗？"
+      },
+      {
+       "s": "A",
+       "t": "当然。你的预算是多少？"
+      },
+      {
+       "s": "B",
+       "t": "不太多，可能不够。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 좋은 소식이 있어.\nB: 뭔데?\nA: 새 집에 가구가 모두 들어왔어. 각 방마다 필요한 물건이 있었는데 충분히 샀어.\nB: 정말 잘됐다. 조언이 필요하면 말해.",
+     "en": "A: I have some good news.\nB: What is it?\nA: All the furniture has come to the new house. Each room needed something and we bought enough.\nB: That's great. Let me know if you need any advice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女的想买什么？",
+      "options": [
+       "卧室家具",
+       "厨房用品",
+       "衣服"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨天我买了一些新家具。店员给了我很多建议。每个房间需要的东西不一样。我的钱不够，所以决定以后再买几件。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 반 학생들은 모두 시험을 통과했어요. 각 학생은 선생님께 조언을 받았고, 많은 학생이 정보를 인터넷에서도 찾았어요. 하지만 시간이 거의 없어서 마지막 주에는 아무도 놀지 못했어요.",
+     "en": "All the students in our class passed the exam. Each student received advice from the teacher, and many students also found information on the internet. But there was hardly any time, so nobody could play in the final week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人为什么以后再买？",
+      "options": [
+       "钱不够",
+       "不喜欢",
+       "太大"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "家具店，请讲。"
+      },
+      {
+       "s": "B",
+       "t": "我想买卧室家具，能给我一些建议吗？"
+      },
+      {
+       "s": "A",
+       "t": "当然。您的预算是多少？"
+      },
+      {
+       "s": "B",
+       "t": "不太多，可能不够。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 가구점입니다.\n손님: 침실용 가구를 찾고 있어요. 조언을 좀 주실 수 있나요?\n직원: 물론이죠. 예산이 얼마나 되시나요?\n손님: 많지는 않아요. 충분하지 않을지도 몰라요.",
+     "en": "Staff: Furniture shop.\nGuest: I'm looking for bedroom furniture. Could you give me some advice?\nStaff: Of course. What is your budget?\nGuest: Not much. It may not be enough."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "我想买______家具",
+      "answers": [
+       "卧室"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "您的______是多少",
+      "answers": [
+       "预算"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我给你一___建议。\n2) 每个学生___得到了一本书。\n3) ___的学生都通过了考试。",
+    "trans": {
+     "ko": "1) 그 웹사이트에는 유용한 정보가 많아요. 2) 각 학생은 책을 한 권씩 받았어요. 3) 남은 시간이 거의 없어요.",
+     "en": "1) The website has a lot of useful information. 2) Each student received a book. 3) There is hardly any time left."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我给你一___建议。",
+      "options": [
+       "条",
+       "个",
+       "本"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "每个学生___得到了一本书。",
+      "options": [
+       "都",
+       "才",
+       "就"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___的学生都通过了考试。",
+      "options": [
+       "所有",
+       "一个",
+       "几乎"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "昨天我买了一些新(1)。店员给了我很多(2)。每个房间需要的东西不一样。我的钱(3)，所以决定以后再买几件。",
+    "trans": {
+     "ko": "우리 반 학생들은 모두 시험을 통과했어요. 각 학생은 선생님께 조언을 받았고, 많은 학생이 정보를 인터넷에서도 찾았어요. 하지만 시간이 거의 없어서 마지막 주에는 아무도 놀지 못했어요.",
+     "en": "All the students in our class passed the exam. Each student received advice from the teacher, and many students also found information on the internet. But there was hardly any time, so nobody could play in the final week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "家具",
+       "衣服",
+       "水果"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "建议",
+       "钱",
+       "电影"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "不够",
+       "很多",
+       "太大"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "广告\n本店所有家具八折，每位顾客还可得到一份小礼物。数量有限，几乎没有库存的商品，请提前预订。欢迎各位光临。",
+    "trans": {
+     "ko": "광고\n새 가구 매장이 문을 열었습니다. 모든 제품은 20% 할인됩니다. 각 고객에게 사은품을 한 개씩 드립니다. 충분한 재고가 있으니 서두르지 않아도 됩니다. 두 가지 이상 구입하시면 배송이 무료입니다.",
+     "en": "ADVERT\nA new furniture store has opened. All items are 20% off. Each customer gets a free gift. There is enough stock, so there is no need to rush. If you buy two or more items, delivery is free."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "所有家具打几折？",
+      "options": [
+       "八折",
+       "五折",
+       "九折"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "每位顾客可以得到什么？",
+      "options": [
+       "一份小礼物",
+       "一张票",
+       "一杯茶"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "安娜有一个好消息。她通过了考试，而且所有的科目都是优秀。她想给朋友们一些建议，因为她认为学习方法很重要。",
+    "trans": {
+     "ko": "민수는 새 직장에서 많은 정보를 받았지만 조언은 거의 받지 못했어요. 그는 선배에게 몇 가지 질문을 했고, 선배는 기꺼이 도와주었어요.",
+     "en": "Minsu received a lot of information at his new job but hardly any advice. He asked his senior colleague a few questions, and the colleague was happy to help."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "安娜通过了考试。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "安娜没有通过考试。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "安娜住在上海。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你需要什么吗？",
+    "read": "Nǐ xūyào shénme ma?",
+    "ko": "뭐 필요한 거 있어요?",
+    "en": "Do you need anything?",
+    "situation": {
+     "ko": "필요를 물을 때",
+     "en": "Asking about needs"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我给你一条建议。",
+    "read": "Wǒ gěi nǐ yì tiáo jiànyì.",
+    "ko": "조언을 하나 드릴게요.",
+    "en": "Let me give you a piece of advice.",
+    "situation": {
+     "ko": "조언을 할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我有一个好消息。",
+    "read": "Wǒ yǒu yí ge hǎo xiāo xī.",
+    "ko": "좋은 소식이 있어요.",
+    "en": "I have some good news.",
+    "situation": {
+     "ko": "소식을 전할 때",
+     "en": "Sharing news"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "每个学生都得到了一本书。",
+    "read": "Měi gè xuésheng dōu dé dào le yì běn shū.",
+    "ko": "각 학생은 책을 한 권씩 받았어요.",
+    "en": "Each student received a book.",
+    "situation": {
+     "ko": "개별 항목을 말할 때",
+     "en": "Talking about individuals"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "所有的学生都通过了考试。",
+    "read": "Suǒyǒu de xuésheng dōu tōng guo le kǎoshì.",
+    "ko": "모든 학생이 시험을 통과했어요.",
+    "en": "All the students passed the exam.",
+    "situation": {
+     "ko": "전체를 말할 때",
+     "en": "Talking about a whole group"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "几乎没有时间了。",
+    "read": "Jǐ hū méiyǒu shíjiān le.",
+    "ko": "남은 시간이 거의 없어요.",
+    "en": "There is hardly any time left.",
+    "situation": {
+     "ko": "부족함을 말할 때",
+     "en": "Talking about scarcity"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我的钱不够。",
+    "read": "Wǒ de qián bú gòu.",
+    "ko": "충분한 돈이 없어요.",
+    "en": "I don't have enough money.",
+    "situation": {
+     "ko": "부족을 표현할 때",
+     "en": "Expressing a shortage"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "两个都是好选择。",
+    "read": "Liǎng ge dōu shì hǎo xuǎn zé.",
+    "ko": "둘 다 좋은 선택이에요.",
+    "en": "Both are good choices.",
+    "situation": {
+     "ko": "두 가지를 비교할 때",
+     "en": "Comparing two options"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "一条／一个／一套……。",
+    "read": "Yì tiáo ／ yí ge ／ yí tào ….",
+    "ko": "셀 수 없는 명사 + some / any / much",
+    "en": "some / any / much + uncountable noun."
+   },
+   {
+    "id": "w2",
+    "t": "每个……都……。",
+    "read": "Měi gè … dōu ….",
+    "ko": "셀 수 있는 복수 + many / a few / several",
+    "en": "many / a few / several + plural noun."
+   },
+   {
+    "id": "w3",
+    "t": "所有的……。",
+    "read": "Suǒyǒu de ….",
+    "ko": "각각 / 모든",
+    "en": "each + singular / every + singular / all + plural."
+   },
+   {
+    "id": "w4",
+    "t": "我的……不够。",
+    "read": "Wǒ de … bú gòu.",
+    "ko": "둘 중",
+    "en": "both / either / neither + noun."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "셀 수 없는 명사와 한정사를 써서 요즘 겪은 일을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about something that happened recently, using uncountable nouns and determiners."
+   },
+   "must_include": [
+    {
+     "label": "家具",
+     "match": [
+      "家具"
+     ]
+    },
+    {
+     "label": "建议",
+     "match": [
+      "建议"
+     ]
+    },
+    {
+     "label": "每个",
+     "match": [
+      "每个"
+     ]
+    }
+   ],
+   "model": "昨天我买了一些新家具。店员给了我很多建议。每个房间需要的东西不一样。我的钱不够，所以决定以后再买几件。",
+   "model_trans": {
+    "ko": "저는 어제 새 가구를 샀어요. 점원이 조언을 많이 해 줬어요. 각 방마다 필요한 물건이 달랐어요. 충분한 돈이 없어서 몇 가지는 다음에 사기로 했어요.",
+    "en": "I bought some new furniture yesterday. The shop assistant gave me a lot of advice. Each room needed different things. I didn't have enough money, so I decided to buy a few things later."
+   }
+  }
+ }
+}

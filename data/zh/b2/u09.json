@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u09",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 9,
+  "concept": "B2.U09",
+  "status": "live",
+  "title": {
+   "target": "复杂的定语",
+   "ko": "관계절 심화",
+   "en": "Advanced relative clauses"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "同事",
+   "pos": "noun",
+   "read": "tóngshì",
+   "ko": "동료",
+   "en": "colleague",
+   "ex": {
+    "t": "和我一起工作的同事很友善。",
+    "read": "Hé wǒ yìqǐ gōngzuò de tóngshì hěn yǒu shàn.",
+    "ko": "함께 일하는 동료는 매우 친절해요.",
+    "en": "The colleague with whom I work is very kind."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "贡献",
+   "pos": "verb",
+   "read": "gòng xiàn",
+   "ko": "기여하다",
+   "en": "contribute",
+   "ex": {
+    "t": "他对公司贡献很大。",
+    "read": "Tā duì gōngsī gòng xiàn hěn dà.",
+    "ko": "그는 프로젝트에 크게 기여했어요.",
+    "en": "He contributed greatly to the project."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "依靠",
+   "pos": "phrase",
+   "read": "yī kào",
+   "ko": "의존하다",
+   "en": "depend on",
+   "ex": {
+    "t": "我们依靠大家的帮助。",
+    "read": "Wǒmen yī kào dàjiā de bāngzhù.",
+    "ko": "그 결과는 날씨에 달려 있어요.",
+    "en": "The result depends on the weather."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "影响",
+   "pos": "noun",
+   "read": "yǐng xiǎng",
+   "ko": "영향",
+   "en": "influence",
+   "ex": {
+    "t": "这本书影响了很多人。",
+    "read": "Zhè běn shū yǐng xiǎng le hěn duō rén.",
+    "ko": "내가 존경하는 사람의 영향을 받았어요.",
+    "en": "I was influenced by the person I admire."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "优秀",
+   "pos": "adj",
+   "read": "yōu xiù",
+   "ko": "최고의",
+   "en": "outstanding",
+   "ex": {
+    "t": "他是一位优秀的工程师。",
+    "read": "Tā shì yí wèi yōu xiù de gōngchéngshī.",
+    "ko": "그는 최고의 성과를 냈어요.",
+    "en": "He achieved outstanding results."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "代表",
+   "pos": "verb",
+   "read": "dài biǎo",
+   "ko": "대표하다",
+   "en": "represent",
+   "ex": {
+    "t": "她代表公司参加了会议。",
+    "read": "Tā dài biǎo gōngsī cānjiā le huìyì.",
+    "ko": "그녀는 우리 팀을 대표해요.",
+    "en": "She represents our team."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "提议",
+   "pos": "verb",
+   "read": "tí yì",
+   "ko": "제안하다",
+   "en": "propose",
+   "ex": {
+    "t": "他提议下周再开会。",
+    "read": "Tā tí yì xià zhōu zài kāi huì.",
+    "ko": "그가 제안한 계획은 좋아요.",
+    "en": "The plan he proposed is good."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "参加者",
+   "pos": "noun",
+   "read": "cānjiā zhě",
+   "ko": "참가자",
+   "en": "participant",
+   "ex": {
+    "t": "参加考试的学生请在外面等候。",
+    "read": "Cānjiā kǎoshì de xuésheng qǐng zài wàimian děng hòu.",
+    "ko": "참가자들은 모두 학생이에요.",
+    "en": "The participants are all students."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "有天赋",
+   "pos": "adj",
+   "read": "yǒu tiān fù",
+   "ko": "재능 있는",
+   "en": "gifted",
+   "ex": {
+    "t": "他是我认识的最有天赋的人。",
+    "read": "Tā shì wǒ rènshi de zuì yǒu tiān fù de rén.",
+    "ko": "재능 있는 학생이 많아요.",
+    "en": "There are many gifted students."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "创立",
+   "pos": "verb",
+   "read": "chuàng lì",
+   "ko": "설립하다",
+   "en": "found",
+   "ex": {
+    "t": "这家公司创立于1990年。",
+    "read": "Zhè jiā gōngsī chuàng lì yú yì jiǔ jiǔ líng nián.",
+    "ko": "그 회사는 1990년에 설립되었어요.",
+    "en": "The company was founded in 1990."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "定语：……的＋名词、与……一起……的、……了的、的字短语",
+   "en": "Attributives: …的 + noun / 与……一起……的 / …了的 / 的-phrases"
+  },
+  "explain": {
+   "ko": "汉语的修饰语放在名词前面，用“的”连接，所以关系从句很长也不会放在名词后面。我工作的公司创立于1990年。和我一起工作的同事都很友善。上个月退休的教授很有名。参加考试的学生请在外面等候。需要加介词时，把整个短语放在“的”前面：我们昨天谈到的那个计划很好。",
+   "en": "In Chinese a modifier precedes the noun and is joined by 的, so a long relative clause never follows the noun. 我工作的公司创立于1990年. 和我一起工作的同事都很友善. 上个月退休的教授很有名. 参加考试的学生请在外面等候. Prepositional phrases go before 的: 我们昨天谈到的那个计划很好."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "动词短语 / Verb phrase",
+     "动词短语＋的＋名词",
+     "上个月退休的教授很有名。"
+    ],
+    [
+     "介词短语 / Prep. phrase",
+     "跟／和……一起……的＋名词",
+     "和我一起工作的同事很友善。"
+    ],
+    [
+     "谈到的 / Mentioned",
+     "……谈到的＋名词",
+     "我们昨天谈到的计划很好。"
+    ],
+    [
+     "最…的 / Superlative",
+     "最……的＋名词",
+     "他是我认识的最有天赋的人。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "定语再长，也要放在名词前面。",
+    "en": "However long, the modifier stays before the noun."
+   },
+   {
+    "ko": "“的”前面是整个短语，后面是被修饰的名词。",
+    "en": "The whole phrase precedes 的; the noun follows."
+   },
+   {
+    "ko": "名词不用重复，也不需要关系代词。",
+    "en": "There are no relative pronouns in Chinese."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我工作的公司创立于1990年。",
+    "read": "Wǒ gōngzuò de gōngsī chuàng lì yú yì jiǔ jiǔ líng nián.",
+    "ko": "함께 일하는 동료는 매우 친절해요.",
+    "en": "The colleague with whom I work is very kind."
+   },
+   {
+    "t": "和我一起工作的同事都很友善。",
+    "read": "Hé wǒ yìqǐ gōngzuò de tóngshì dōu hěn yǒu shàn.",
+    "ko": "우리가 어제 이야기한 계획은 훌륭해요.",
+    "en": "The plan (that) we talked about yesterday is excellent."
+   },
+   {
+    "t": "我们上星期讨论的项目很快就要开始了。",
+    "read": "Wǒmen shàng xīngqī tǎo lùn de xiàng mù hěn kuài jiù yào kāishǐ le.",
+    "ko": "지난달 퇴직한 교수는 유명해요.",
+    "en": "The professor who retired last month is famous."
+   },
+   {
+    "t": "上个月退休的教授很有名。",
+    "read": "Shàng ge yuè tuìxiū de jiào shòu hěn yǒu míng.",
+    "ko": "시험을 보는 학생들은 교실 밖에서 기다리세요.",
+    "en": "Students taking the exam should wait outside."
+   },
+   {
+    "t": "他是我认识的最有天赋的人。",
+    "read": "Tā shì wǒ rènshi de zuì yǒu tiān fù de rén.",
+    "ko": "그 사람은 내가 존경하는 분이에요.",
+    "en": "He is someone (whom) I respect."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "和我一起工作___同事都很友善。",
+    "options": [
+     "的",
+     "地",
+     "得"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我们上星期讨论的___很快就要开始了。",
+    "options": [
+     "项目",
+     "已经",
+     "非常"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "上个月退休的___很有名。",
+    "options": [
+     "教授",
+     "非常",
+     "已经"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "他是我认识___最有天赋的人。",
+    "options": [
+     "的",
+     "地",
+     "得"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你和谁一起工作？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 누구랑 같이 일해요?",
+     "en": "(Question) Who do you work with?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "和一些友善的同事一起。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你说的是哪位教授？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어떤 사람을 존경해요?",
+     "en": "(Question) What kind of person do you admire?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "上个月退休的那一位。",
+       "是的，我喜欢。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你和谁一起工作？"
+      },
+      {
+       "s": "B",
+       "t": "和我一起工作的同事都很友善。"
+      },
+      {
+       "s": "A",
+       "t": "你们的项目怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "上周讨论的那个项目，很快就要开始了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 새 직장은 어때?\nB: 함께 일하는 동료들이 모두 재능 있는 사람들이야.\nA: 우리가 지난주에 얘기한 프로젝트는 어떻게 됐어?\nB: 곧 시작돼. 지난달에 합류한 신입이 벌써 큰 도움이 돼.",
+     "en": "A: How is your new job?\nB: The colleagues I work with are all gifted people.\nA: What happened to the project we talked about last week?\nB: It starts soon. The new employee who joined last month is already a big help."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "上周讨论的项目怎么样了？",
+      "options": [
+       "很快就要开始",
+       "已经结束",
+       "取消了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我工作的公司创立于1990年。和我一起工作的同事都是很有天赋的人。我们上星期讨论的项目很快就要开始了。上个月加入我们的新员工，已经做出了很大的贡献。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제 상사는 제가 가장 존경하는 사람입니다. 그는 회사를 설립한 사람으로, 30년 넘게 일해 왔습니다. 그가 제안한 계획 덕분에 회사는 크게 성장했습니다. 저는 그에게서 많은 영향을 받았습니다.",
+     "en": "My boss is the person I admire most. He is the man who founded the company and has worked for over thirty years. The plan he proposed made the company grow greatly. I have been strongly influenced by him."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "新员工怎么样？",
+      "options": [
+       "贡献很大",
+       "刚毕业",
+       "要离开"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "人事部，请讲。"
+      },
+      {
+       "s": "B",
+       "t": "我想找上个月退休的教授。"
+      },
+      {
+       "s": "A",
+       "t": "是哪一位？"
+      },
+      {
+       "s": "B",
+       "t": "是创立我们系的那一位。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 인사팀입니다.\n손님: 지난달에 퇴직한 교수님과 이야기하고 싶어요.\n직원: 어떤 분이세요?\n손님: 우리 학과를 설립하신 분이에요.",
+     "en": "Staff: Human resources.\nGuest: I'd like to speak to the professor who retired last month.\nStaff: Which one is that?\nGuest: The one who founded our department."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "想找上个月______的教授",
+      "answers": [
+       "退休"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "是创立我们______的那一位",
+      "answers": [
+       "系"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 和我一起工作___同事都很友善。\n2) 我们上星期讨论的___很快就要开始了。\n3) 上个月退休的___很有名。",
+    "trans": {
+     "ko": "1) 함께 일하는 동료는 매우 친절해요. 2) 우리가 어제 이야기한 계획은 훌륭해요. 3) 지난달 퇴직한 교수는 유명해요.",
+     "en": "1) The colleague with whom I work is very kind. 2) The plan we talked about yesterday is excellent. 3) The professor who retired last month is famous."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "和我一起工作___同事都很友善。",
+      "options": [
+       "的",
+       "地",
+       "得"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我们上星期讨论的___很快就要开始了。",
+      "options": [
+       "项目",
+       "已经",
+       "非常"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "上个月退休的___很有名。",
+      "options": [
+       "教授",
+       "非常",
+       "已经"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我工作的公司(1)于1990年。和我一起工作的同事都是很有(2)的人。我们上星期讨论的项目很快就要开始了。上个月加入我们的新员工，已经做出了很大的(3)。",
+    "trans": {
+     "ko": "제 상사는 제가 가장 존경하는 사람입니다. 그는 회사를 설립한 사람으로, 30년 넘게 일해 왔습니다. 그가 제안한 계획 덕분에 회사는 크게 성장했습니다. 저는 그에게서 많은 영향을 받았습니다.",
+     "en": "My boss is the person I admire most. He is the man who founded the company and has worked for over thirty years. The plan he proposed made the company grow greatly. I have been strongly influenced by him."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "创立",
+       "停止",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "天赋",
+       "钱",
+       "书"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "贡献",
+       "错误",
+       "梦"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "介绍\n王教授是我们大学最有名的教授之一。他创立的实验室，培养了很多优秀的学生。与他一起研究过的同事都说，他是最认真的人。他上个月刚刚退休。",
+    "trans": {
+     "ko": "대학 소개\n우리 대학은 1950년에 설립되었습니다. 이곳에서 공부하는 학생은 약 이만 명입니다. 졸업생들 중 일부는 세계 각지에서 활약하고 있으며, 그들 가운데 몇몇은 노벨상을 받았습니다.",
+     "en": "UNIVERSITY PROFILE\nOur university was founded in 1950. The students studying here number about twenty thousand. Some of the graduates are active all over the world, and a few of whom have won Nobel Prizes."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "王教授创立了什么？",
+      "options": [
+       "实验室",
+       "公司",
+       "学校"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "王教授什么时候退休的？",
+      "options": [
+       "上个月",
+       "去年",
+       "十年前"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "美善介绍了她的新同事。她说，他是她认识的最优秀的工程师，而且代表公司参加过很多国际会议。她很高兴能和他一起工作。",
+    "trans": {
+     "ko": "지은은 그녀가 일하는 도서관을 좋아해요. 도서관을 설립한 사람은 그녀의 할아버지예요. 도서관에서 일하는 사람들은 모두 책을 좋아해요.",
+     "en": "Jieun likes the library where she works. The person who founded the library is her grandfather. The people working in the library all love books."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "美善的新同事是工程师。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "美善不喜欢她的同事。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "美善的公司在首尔。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你和谁一起工作？",
+    "read": "Nǐ hé shéi yìqǐ gōngzuò?",
+    "ko": "누구랑 같이 일하세요?",
+    "en": "Who do you work with?",
+    "situation": {
+     "ko": "함께하는 사람을 물을 때",
+     "en": "Asking about a colleague"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "和我一起工作的同事很友善。",
+    "read": "Hé wǒ yìqǐ gōngzuò de tóngshì hěn yǒu shàn.",
+    "ko": "함께 일하는 동료는 매우 친절해요.",
+    "en": "The colleague with whom I work is very kind.",
+    "situation": {
+     "ko": "격식 있게 말할 때",
+     "en": "Speaking formally"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我们昨天谈到的计划很好。",
+    "read": "Wǒmen zuótiān tán dào de jìhuà hěn hǎo.",
+    "ko": "우리가 어제 이야기한 계획은 훌륭해요.",
+    "en": "The plan (that) we talked about yesterday is excellent.",
+    "situation": {
+     "ko": "목적격 관계사를 생략할 때",
+     "en": "Omitting the relative pronoun"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "上个月退休的教授很有名。",
+    "read": "Shàng ge yuè tuìxiū de jiào shòu hěn yǒu míng.",
+    "ko": "지난달 퇴직한 교수는 유명해요.",
+    "en": "The professor who retired last month is famous.",
+    "situation": {
+     "ko": "사람을 설명할 때",
+     "en": "Describing a person"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "参加考试的学生请在外面等候。",
+    "read": "Cānjiā kǎoshì de xuésheng qǐng zài wàimian děng hòu.",
+    "ko": "시험을 보는 학생들은 밖에서 기다리세요.",
+    "en": "Students taking the exam should wait outside.",
+    "situation": {
+     "ko": "관계절을 줄일 때",
+     "en": "Reducing a relative clause"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "这家公司创立于1990年。",
+    "read": "Zhè jiā gōngsī chuàng lì yú yì jiǔ jiǔ líng nián.",
+    "ko": "그 회사는 1990년에 설립되어서 지금도 성장하고 있어요.",
+    "en": "The company, founded in 1990, is still growing.",
+    "situation": {
+     "ko": "삽입절로 설명할 때",
+     "en": "Adding information with commas"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "他是我认识的最有天赋的人。",
+    "read": "Tā shì wǒ rènshi de zuì yǒu tiān fù de rén.",
+    "ko": "그는 내가 아는 가장 재능 있는 사람이에요.",
+    "en": "He is the most gifted person (that) I know.",
+    "situation": {
+     "ko": "최상급과 함께 쓸 때",
+     "en": "After a superlative"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "那就是我跟你说过的人。",
+    "read": "Nà jiù shì wǒ gēn nǐ shuō guo de rén.",
+    "ko": "그 사람이 바로 제가 이야기한 사람이에요.",
+    "en": "That's the person I was telling you about.",
+    "situation": {
+     "ko": "대화에서 가볍게 말할 때",
+     "en": "Informal speech"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……的＋名词。",
+    "read": "… De ＋ míngcí.",
+    "ko": "~와 함께 ~하는 …",
+    "en": "The + noun + with whom / with which …"
+   },
+   {
+    "id": "w2",
+    "t": "和……一起……的＋名词。",
+    "read": "Hé … yìqǐ … de ＋ míngcí.",
+    "ko": "~한 …",
+    "en": "The + noun + (that) + subject + verb."
+   },
+   {
+    "id": "w3",
+    "t": "最……的＋名词。",
+    "read": "Zuì … de ＋ míngcí.",
+    "ko": "~하는 …",
+    "en": "The + noun + -ing / p.p. …"
+   },
+   {
+    "id": "w4",
+    "t": "……创立于……。",
+    "read": "… Chuàng lì yú ….",
+    "ko": "~, 그리고 그것은 …",
+    "en": "…, which …"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "관계절을 사용해 자신의 직장이나 학교를 4문장으로 소개해 보세요.",
+    "en": "Write 4 sentences introducing your workplace or school, using relative clauses."
+   },
+   "must_include": [
+    {
+     "label": "的",
+     "match": [
+      "的"
+     ]
+    },
+    {
+     "label": "同事",
+     "match": [
+      "同事"
+     ]
+    },
+    {
+     "label": "公司",
+     "match": [
+      "公司"
+     ]
+    }
+   ],
+   "model": "我工作的公司创立于1990年。和我一起工作的同事都是很有天赋的人。我们上星期讨论的项目很快就要开始了。上个月加入我们的新员工已经贡献很大。",
+   "model_trans": {
+    "ko": "제가 일하는 회사는 1990년에 설립되었어요. 함께 일하는 동료들은 모두 재능이 있는 사람들이에요. 우리가 지난주에 이야기한 프로젝트는 곧 시작됩니다. 지난달에 합류한 신입 사원은 벌써 큰 기여를 하고 있어요.",
+    "en": "The company I work for was founded in 1990. The colleagues with whom I work are all gifted people. The project we discussed last week will begin soon. The new employee who joined last month is already contributing a lot."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u16",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 16,
+  "concept": "B2.U16",
+  "status": "live",
+  "title": {
+   "target": "原因和结果",
+   "ko": "원인과 결과의 연결어",
+   "en": "Cause and result"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "原因",
+   "pos": "noun",
+   "read": "yuányīn",
+   "ko": "원인",
+   "en": "cause",
+   "ex": {
+    "t": "迟到的原因是堵车。",
+    "read": "Chídào de yuányīn shì dǔ chē.",
+    "ko": "사고의 원인은 아직 몰라요.",
+    "en": "The cause of the accident is still unknown."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "结果",
+   "pos": "noun",
+   "read": "jié guǒ",
+   "ko": "결과",
+   "en": "result",
+   "ex": {
+    "t": "结果销量上升了。",
+    "read": "Jié guǒ xiāo liàng shàng shēng le.",
+    "ko": "그 결과 매출이 늘었어요.",
+    "en": "As a result, sales increased."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "由于",
+   "pos": "prep",
+   "read": "yóu yú",
+   "ko": "~ 때문에",
+   "en": "owing to",
+   "ex": {
+    "t": "由于大雪，航班被取消了。",
+    "read": "Yóu yú dà xuě, hángbān bèi qǔxiāo le.",
+    "ko": "악천후 때문에 비행기가 지연됐어요.",
+    "en": "Owing to bad weather, the flight was delayed."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "因此",
+   "pos": "adv",
+   "read": "yīn cǐ",
+   "ko": "따라서",
+   "en": "consequently",
+   "ex": {
+    "t": "因此，我们改变了计划。",
+    "read": "Yīn cǐ, wǒmen gǎibiàn le jìhuà.",
+    "ko": "따라서 우리는 계획을 바꿨어요.",
+    "en": "Consequently, we changed the plan."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "导致",
+   "pos": "phrase",
+   "read": "dǎo zhì",
+   "ko": "~로 이어지다",
+   "en": "lead to",
+   "ex": {
+    "t": "压力会导致健康问题。",
+    "read": "Yālì huì dǎo zhì jiànkāng wèntí.",
+    "ko": "스트레스는 건강 문제로 이어질 수 있어요.",
+    "en": "Stress can lead to health problems."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "造成",
+   "pos": "phrase",
+   "read": "zào chéng",
+   "ko": "초래하다",
+   "en": "result in",
+   "ex": {
+    "t": "这场事故造成了严重的损失。",
+    "read": "Zhè chǎng shì gù zào chéng le yán zhòng de sǔn shī.",
+    "ko": "그 실수는 큰 손실을 초래했어요.",
+    "en": "The mistake resulted in a big loss."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "影响",
+   "pos": "phrase",
+   "read": "yǐng xiǎng",
+   "ko": "~ 때문이다",
+   "en": "be due to",
+   "ex": {
+    "t": "天气影响了比赛。",
+    "read": "Tiānqì yǐng xiǎng le bǐsài.",
+    "ko": "지연은 파업 때문이에요.",
+    "en": "The delay is due to a strike."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "所以",
+   "pos": "adv",
+   "read": "suǒyǐ",
+   "ko": "그래서",
+   "en": "therefore",
+   "ex": {
+    "t": "所以我们决定早点走。",
+    "read": "Suǒyǐ wǒmen juédìng zǎo diǎn zǒu.",
+    "ko": "그래서 우리는 일찍 출발했어요.",
+    "en": "Therefore we left early."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "太……以至于",
+   "pos": "noun",
+   "read": "tài … yǐ zhì yú",
+   "ko": "영향",
+   "en": "effect",
+   "ex": {
+    "t": "我太累了，以至于一躺下就睡着了。",
+    "read": "Wǒ tài lèi le, yǐ zhì yú yì tǎng xià jiù shuì zhe le.",
+    "ko": "약의 부작용이 있어요.",
+    "en": "The medicine has side effects."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "罢工",
+   "pos": "phrase",
+   "read": "bà gōng",
+   "ko": "매우 ~해서 …하다",
+   "en": "so … that",
+   "ex": {
+    "t": "由于罢工，列车停运了。",
+    "read": "Yóu yú bà gōng, liè chē tíng yùn le.",
+    "ko": "너무 피곤해서 바로 잠들었어요.",
+    "en": "I was so tired that I fell asleep at once."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "因果：因为、由于、因此、结果、所以、导致、以至于",
+   "en": "Cause and result: 因为 / 由于 / 因此 / 结果 / 所以 / 导致 / 以至于"
+  },
+  "explain": {
+   "ko": "汉语表示原因用“因为、由于”：由于大雪，航班被取消了。表示结果用“所以、因此、结果”：因此，我们改变了计划。“导致、造成”表示不好的后果：压力会导致健康问题。“太……以至于……”表示程度和结果：我太累了，以至于一躺下就睡着了。口语里“因为……所以……”常常只用一个。",
+   "en": "Reasons use 因为／由于: 由于大雪，航班被取消了. Results use 所以／因此／结果: 因此，我们改变了计划. 导致 and 造成 mark negative consequences: 压力会导致健康问题. 太……以至于…… links degree and result: 我太累了，以至于一躺下就睡着了. In speech, 因为……所以…… often keeps only one half."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "原因 / Reason",
+     "因为／由于＋原因",
+     "由于大雪，航班取消了。"
+    ],
+    [
+     "结果 / Result",
+     "所以／因此＋结果",
+     "因此，我们改变了计划。"
+    ],
+    [
+     "后果 / Consequence",
+     "导致／造成＋结果",
+     "压力会导致健康问题。"
+    ],
+    [
+     "程度 / Degree",
+     "太……以至于……",
+     "太累了，以至于一躺下就睡着了。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“由于”比“因为”更正式。",
+    "en": "由于 is more formal than 因为."
+   },
+   {
+    "ko": "“因此”用在句首，引出结果。",
+    "en": "因此 opens the result clause."
+   },
+   {
+    "ko": "“导致”多用于坏结果。",
+    "en": "导致 is mostly for bad outcomes."
+   }
+  ],
+  "examples": [
+   {
+    "t": "由于大雪，航班被取消了。",
+    "read": "Yóu yú dà xuě, hángbān bèi qǔxiāo le.",
+    "ko": "악천후 때문에 비행기가 지연됐어요.",
+    "en": "Owing to bad weather, the flight was delayed."
+   },
+   {
+    "t": "雪太大了，以至于机场关闭了。",
+    "read": "Xuě tài dà le, yǐ zhì yú jīchǎng guān bì le.",
+    "ko": "지연은 파업 때문이에요.",
+    "en": "The delay is due to a strike."
+   },
+   {
+    "t": "结果，成千上万的乘客在机场过夜。",
+    "read": "Jié guǒ, chéng qiān shàng wàn de chéng kè zài jīchǎng guo yè.",
+    "ko": "너무 피곤해서 바로 잠들었어요.",
+    "en": "I was so tired that I fell asleep at once."
+   },
+   {
+    "t": "因此，航空公司今天增加了航班。",
+    "read": "Yīn cǐ, háng kōng gōngsī jīntiān zēng jiā le hángbān.",
+    "ko": "그 결과 매출이 늘었어요.",
+    "en": "As a result, sales increased."
+   },
+   {
+    "t": "压力会导致健康问题。",
+    "read": "Yālì huì dǎo zhì jiànkāng wèntí.",
+    "ko": "스트레스는 건강 문제로 이어질 수 있어요.",
+    "en": "Stress can lead to health problems."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___大雪，航班被取消了。",
+    "options": [
+     "由于",
+     "虽然",
+     "如果"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "雪太大了，___机场关闭了。",
+    "options": [
+     "以至于",
+     "不过",
+     "而且"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "压力会___健康问题。",
+    "options": [
+     "导致",
+     "喜欢",
+     "买"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___，航空公司今天增加了航班。",
+    "options": [
+     "因此",
+     "虽然",
+     "即使"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "航班为什么延误了？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 비행기가 지연됐어요?",
+     "en": "(Question) Why was the flight delayed?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "由于大雪。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你为什么早点走？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 사고의 결과는 어땠어요?",
+     "en": "(Question) What was the result of the accident?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "因为路上会堵车。",
+       "是的，我喜欢。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "航班为什么延误了？"
+      },
+      {
+       "s": "B",
+       "t": "由于大雪，机场关闭了。"
+      },
+      {
+       "s": "A",
+       "t": "乘客怎么办？"
+      },
+      {
+       "s": "B",
+       "t": "因此，航空公司增加了今天的航班。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 왜 이렇게 늦었어?\nB: 폭설 때문에 버스가 지연됐어. 눈이 너무 많이 와서 길이 막혔어.\nA: 그래서 회의에 못 왔구나.\nB: 응. 그 결과 중요한 발표를 놓쳤어.",
+     "en": "A: Why are you so late?\nB: The bus was delayed owing to heavy snow. It snowed so much that the roads were blocked.\nA: So that's why you missed the meeting.\nB: Yes. As a result, I missed the important presentation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "航空公司怎么处理的？",
+      "options": [
+       "增加了今天的航班",
+       "取消了所有航班",
+       "退钱"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "由于大雪，昨天很多航班被取消了。雪太大了，以至于机场关闭了。结果，成千上万的乘客在机场过夜。因此，航空公司今天增加了航班。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어제 공항은 폭설 때문에 문을 닫았습니다. 그 결과 많은 항공편이 취소되었고 수천 명의 승객이 공항에서 밤을 보냈습니다. 따라서 항공사는 오늘 추가 편을 마련했습니다.",
+     "en": "The airport closed yesterday owing to heavy snow. As a result, many flights were cancelled and thousands of passengers spent the night there. Consequently, the airline has arranged extra flights today."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "乘客在哪儿过夜？",
+      "options": [
+       "机场",
+       "酒店",
+       "火车站"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "航空公司客服中心。"
+      },
+      {
+       "s": "B",
+       "t": "我的航班为什么取消了？"
+      },
+      {
+       "s": "A",
+       "t": "由于大雪，机场关闭了。"
+      },
+      {
+       "s": "B",
+       "t": "那请帮我改成明天的航班。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 항공사 고객 센터입니다.\n손님: 제 비행기가 왜 취소됐나요?\n직원: 폭설 때문에 공항이 문을 닫았습니다.\n손님: 그럼 내일 비행기로 바꿔 주세요.",
+     "en": "Staff: Airline customer centre.\nGuest: Why was my flight cancelled?\nStaff: The airport closed owing to heavy snow.\nGuest: Then please change me to tomorrow's flight."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "由于______，机场关闭了",
+      "answers": [
+       "大雪"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "请帮我改成______的航班",
+      "answers": [
+       "明天"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___大雪，航班被取消了。\n2) 雪太大了，___机场关闭了。\n3) 压力会___健康问题。",
+    "trans": {
+     "ko": "1) 악천후 때문에 비행기가 지연됐어요. 2) 지연은 파업 때문이에요. 3) 너무 피곤해서 바로 잠들었어요.",
+     "en": "1) Owing to bad weather, the flight was delayed. 2) The delay is due to a strike. 3) I was so tired that I fell asleep at once."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___大雪，航班被取消了。",
+      "options": [
+       "由于",
+       "虽然",
+       "如果"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "雪太大了，___机场关闭了。",
+      "options": [
+       "以至于",
+       "不过",
+       "而且"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "压力会___健康问题。",
+      "options": [
+       "导致",
+       "喜欢",
+       "买"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "由于大雪，昨天很多航班被(1)了。雪太大了，以至于机场关闭了。结果，成千上万的乘客在机场(2)。因此，航空公司今天(3)了航班。",
+    "trans": {
+     "ko": "어제 공항은 폭설 때문에 문을 닫았습니다. 그 결과 많은 항공편이 취소되었고 수천 명의 승객이 공항에서 밤을 보냈습니다. 따라서 항공사는 오늘 추가 편을 마련했습니다.",
+     "en": "The airport closed yesterday owing to heavy snow. As a result, many flights were cancelled and thousands of passengers spent the night there. Consequently, the airline has arranged extra flights today."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "取消",
+       "增加",
+       "表扬"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "过夜",
+       "跑步",
+       "购物"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "增加",
+       "取消",
+       "忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "新闻\n由于连续三天的大雨，南部地区发生了严重的洪水。洪水造成了数百户人家被淹，农田也受到了严重损失。因此，政府宣布该地区为灾区，并提供紧急援助。",
+    "trans": {
+     "ko": "기사\n지난해 도시의 대기 오염이 심해지면서 호흡기 질환 환자가 늘었다. 전문가들은 이것이 자동차 증가 때문이라고 말한다. 그 결과 시는 도심 운행 제한을 도입했고, 따라서 올해 오염 수치는 크게 낮아졌다.",
+     "en": "ARTICLE\nLast year air pollution worsened in the city and the number of patients with breathing problems rose. Experts say this is due to the increase in cars. As a result, the city introduced restrictions in the centre, and consequently pollution levels have fallen sharply this year."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "洪水是什么原因造成的？",
+      "options": [
+       "连续三天的大雨",
+       "地震",
+       "火灾"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "政府做了什么？",
+      "options": [
+       "宣布灾区并提供援助",
+       "没有表示",
+       "取消救援"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "允浩昨晚熬夜工作，所以今天早上起晚了。结果上班迟到了，被老板批评。因此，他决定以后早点睡。",
+    "trans": {
+     "ko": "지은은 너무 긴장해서 시험에서 실수를 했어요. 그 결과 성적이 낮았어요. 따라서 다음에는 충분히 쉬고 가기로 했어요.",
+     "en": "Jieun was so nervous that she made mistakes in the exam. As a result her grade was low. Therefore she decided to rest well before the next one."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "允浩今天早上起晚了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "允浩今天很早到公司。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "允浩的老板是外国人。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "航班为什么延误了？",
+    "read": "Hángbān wèishénme yán wù le?",
+    "ko": "왜 비행기가 지연됐어요?",
+    "en": "Why was the flight delayed?",
+    "situation": {
+     "ko": "원인을 물을 때",
+     "en": "Asking for a cause"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "由于大雪，航班被取消了。",
+    "read": "Yóu yú dà xuě, hángbān bèi qǔxiāo le.",
+    "ko": "악천후 때문에 지연됐어요.",
+    "en": "It was delayed owing to bad weather.",
+    "situation": {
+     "ko": "원인을 밝힐 때",
+     "en": "Giving a cause"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "雪太大了，以至于机场关闭了。",
+    "read": "Xuě tài dà le, yǐ zhì yú jīchǎng guān bì le.",
+    "ko": "지연은 파업 때문이에요.",
+    "en": "The delay is due to a strike.",
+    "situation": {
+     "ko": "공식적으로 원인을 말할 때",
+     "en": "A formal cause"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "结果，销量上升了。",
+    "read": "Jié guǒ, xiāo liàng shàng shēng le.",
+    "ko": "너무 피곤해서 바로 잠들었어요.",
+    "en": "I was so tired that I fell asleep at once.",
+    "situation": {
+     "ko": "정도와 결과를 말할 때",
+     "en": "Degree and result"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "因此，我们改变了计划。",
+    "read": "Yīn cǐ, wǒmen gǎibiàn le jìhuà.",
+    "ko": "그 결과 매출이 늘었어요.",
+    "en": "As a result, sales increased.",
+    "situation": {
+     "ko": "결과를 말할 때",
+     "en": "Stating a result"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "压力会导致健康问题。",
+    "read": "Yālì huì dǎo zhì jiànkāng wèntí.",
+    "ko": "따라서 우리는 계획을 바꿨어요.",
+    "en": "Consequently, we changed the plan.",
+    "situation": {
+     "ko": "격식 있는 결론",
+     "en": "A formal consequence"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "所以我们决定早点走。",
+    "read": "Suǒyǐ wǒmen juédìng zǎo diǎn zǒu.",
+    "ko": "스트레스는 건강 문제로 이어질 수 있어요.",
+    "en": "Stress can lead to health problems.",
+    "situation": {
+     "ko": "일반적 인과를 말할 때",
+     "en": "A general link"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "迟到的原因是堵车。",
+    "read": "Chídào de yuányīn shì dǔ chē.",
+    "ko": "그래서 일찍 출발하기로 했어요.",
+    "en": "That's why we decided to leave early.",
+    "situation": {
+     "ko": "결과를 마무리할 때",
+     "en": "Wrapping up"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "由于……，……。",
+    "read": "Yóu yú …, ….",
+    "ko": "~ 때문에 (명사)",
+    "en": "because of / due to / owing to + noun."
+   },
+   {
+    "id": "w2",
+    "t": "……，以至于……。",
+    "read": "…, Yǐ zhì yú ….",
+    "ko": "~ 때문에 (절)",
+    "en": "because / since / as + clause."
+   },
+   {
+    "id": "w3",
+    "t": "结果，……。",
+    "read": "Jié guǒ, ….",
+    "ko": "그 결과",
+    "en": "As a result, / Consequently, / Therefore, + clause."
+   },
+   {
+    "id": "w4",
+    "t": "因此，……。",
+    "read": "Yīn cǐ, ….",
+    "ko": "너무 ~해서 …",
+    "en": "so + adj + that / such + noun + that."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "원인과 결과를 연결하는 표현을 써서 어떤 사건을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about an event, linking causes and results."
+   },
+   "must_include": [
+    {
+     "label": "由于",
+     "match": [
+      "由于"
+     ]
+    },
+    {
+     "label": "以至于",
+     "match": [
+      "以至于"
+     ]
+    },
+    {
+     "label": "因此",
+     "match": [
+      "因此"
+     ]
+    }
+   ],
+   "model": "由于大雪，昨天很多航班被取消了。雪太大了，以至于机场关闭了。结果，成千上万的乘客在机场过夜。因此，航空公司今天增加了航班。",
+   "model_trans": {
+    "ko": "폭설 때문에 어제 많은 항공편이 취소되었습니다. 눈이 너무 많이 와서 공항이 문을 닫았습니다. 그 결과 수천 명의 승객이 공항에서 밤을 보냈습니다. 따라서 항공사는 오늘 추가 편을 마련했습니다.",
+    "en": "Owing to heavy snow, many flights were cancelled yesterday. It snowed so much that the airport closed. As a result, thousands of passengers spent the night at the airport. Consequently, the airline has arranged extra flights today."
+   }
+  }
+ }
+}

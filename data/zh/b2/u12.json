@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u12",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 12,
+  "concept": "B2.U12",
+  "status": "live",
+  "title": {
+   "target": "动词的连用和补语",
+   "ko": "동명사와 to부정사 심화",
+   "en": "Gerunds and infinitives in depth"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "忘记",
+   "pos": "verb",
+   "read": "wàng jì",
+   "ko": "잊다",
+   "en": "forget",
+   "ex": {
+    "t": "我忘了带钥匙。",
+    "read": "Wǒ wàng le dài yàoshi.",
+    "ko": "열쇠를 가져오는 것을 잊었어요.",
+    "en": "I forgot to bring my key."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "记得",
+   "pos": "verb",
+   "read": "jìde",
+   "ko": "기억하다",
+   "en": "remember",
+   "ex": {
+    "t": "我记得在那个公园里玩过。",
+    "read": "Wǒ jìde zài nàge gōngyuán lǐ wán guo.",
+    "ko": "그 책을 읽었던 것을 기억해요.",
+    "en": "I remember reading that book."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "停止",
+   "pos": "verb",
+   "read": "tíng zhǐ",
+   "ko": "그만두다",
+   "en": "stop",
+   "ex": {
+    "t": "他不再抽烟了。",
+    "read": "Tā bú zài chōuyān le.",
+    "ko": "그는 담배를 끊었어요.",
+    "en": "He stopped smoking."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "试着",
+   "pos": "verb",
+   "read": "shì zhe",
+   "ko": "시도하다",
+   "en": "try",
+   "ex": {
+    "t": "我试着用新方法。",
+    "read": "Wǒ shì zhe yòng xīn fāng fǎ.",
+    "ko": "새로운 방법을 써 봤어요.",
+    "en": "I tried using a new method."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "后悔",
+   "pos": "verb",
+   "read": "hòuhuǐ",
+   "ko": "후회하다",
+   "en": "regret",
+   "ex": {
+    "t": "我不后悔做了这个决定。",
+    "read": "Wǒ bú hòuhuǐ zuò le zhège juédìng.",
+    "ko": "나는 그 말을 한 것을 후회해요.",
+    "en": "I regret saying that."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "继续",
+   "pos": "phrase",
+   "read": "jìxù",
+   "ko": "계속하다",
+   "en": "go on",
+   "ex": {
+    "t": "他继续工作。",
+    "read": "Tā jìxù gōngzuò.",
+    "ko": "그는 설명을 계속했어요.",
+    "en": "He went on explaining."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "重要",
+   "pos": "verb",
+   "read": "zhòng yào",
+   "ko": "중요하다",
+   "en": "matter",
+   "ex": {
+    "t": "这并不重要。",
+    "read": "Zhè bìng bú zhòng yào.",
+    "ko": "시간을 지키는 것이 중요해요.",
+    "en": "Being on time matters."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "习惯",
+   "pos": "phrase",
+   "read": "xíguàn",
+   "ko": "익숙하다",
+   "en": "be used to",
+   "ex": {
+    "t": "我习惯早起了。",
+    "read": "Wǒ xíguàn zǎo qǐ le.",
+    "ko": "저는 일찍 일어나는 것에 익숙해요.",
+    "en": "I'm used to getting up early."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "盼望",
+   "pos": "phrase",
+   "read": "pàn wàng",
+   "ko": "기대하다",
+   "en": "look forward to",
+   "ex": {
+    "t": "我盼望见到你。",
+    "read": "Wǒ pàn wàng jiàndào nǐ.",
+    "ko": "만나 뵙기를 기대하고 있어요.",
+    "en": "I look forward to meeting you."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "反对",
+   "pos": "phrase",
+   "read": "fǎnduì",
+   "ko": "반대하다",
+   "en": "object to",
+   "ex": {
+    "t": "我反对这个计划。",
+    "read": "Wǒ fǎnduì zhège jìhuà.",
+    "ko": "그는 계획을 변경하는 것에 반대했어요.",
+    "en": "He objected to changing the plan."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "记得、忘了、不再、试着、后悔、继续、习惯、盼望",
+   "en": "Verb sequences: 记得 / 忘了 / 不再 / 试着 / 后悔 / 继续 / 习惯 / 盼望"
+  },
+  "explain": {
+   "ko": "汉语里，动词加动词的意思常由助词决定。“记得＋动词＋过”表示记得做过的事：我记得在那个公园里玩过。“忘了＋动词”表示忘记要做的事：我忘了带钥匙。“不再＋动词”表示停止做某事：他不再抽烟了。“停下来＋动词”表示为了做另一件事：他停下来休息。“试着＋动词”：我试着用新方法。“习惯＋动词”：我习惯早起了。",
+   "en": "In Chinese, the sense of verb + verb is shown by particles. 记得 + verb + 过 recalls something done: 我记得在那个公园里玩过. 忘了 + verb means forgetting to do: 我忘了带钥匙. 不再 + verb means stopping a habit: 他不再抽烟了. 停下来 + verb means pausing to do something: 他停下来休息. 试着 + verb: 我试着用新方法. 习惯 + verb: 我习惯早起了."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "记得做过 / Recall",
+     "记得＋动词＋过",
+     "我记得去过那个公园。"
+    ],
+    [
+     "忘了做 / Forget",
+     "忘了＋动词",
+     "我忘了带钥匙。"
+    ],
+    [
+     "不再 / Stop",
+     "不再＋动词",
+     "他不再抽烟了。"
+    ],
+    [
+     "停下来 / Pause to",
+     "停下来＋动词",
+     "他停下来休息。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“记得去”是记得要去，“记得去过”是记得曾经去过。",
+    "en": "记得去 = remember to go; 记得去过 = remember having gone."
+   },
+   {
+    "ko": "“不再”表示以后不继续做。",
+    "en": "不再 means no longer."
+   },
+   {
+    "ko": "“习惯”后面可以直接接动词。",
+    "en": "习惯 can be followed directly by a verb."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我记得在那个公园里玩过。",
+    "read": "Wǒ jìde zài nàge gōngyuán lǐ wán guo.",
+    "ko": "열쇠를 가져오는 것을 잊었어요.",
+    "en": "I forgot to bring my key."
+   },
+   {
+    "t": "昨天我忘了买牛奶。",
+    "read": "Zuótiān wǒ wàng le mǎi niúnǎi.",
+    "ko": "그 책을 읽었던 것을 기억해요.",
+    "en": "I remember reading that book."
+   },
+   {
+    "t": "去年我不再喝咖啡了。",
+    "read": "Qùnián wǒ bú zài hē kāfēi le.",
+    "ko": "그는 담배를 끊었어요.",
+    "en": "He stopped smoking."
+   },
+   {
+    "t": "今天我停下来休息，喝了一杯茶。",
+    "read": "Jīntiān wǒ tíngxiàlái xiūxi, hē le yì bēi chá.",
+    "ko": "그는 쉬려고 멈췄어요.",
+    "en": "He stopped to rest."
+   },
+   {
+    "t": "我习惯早起了。",
+    "read": "Wǒ xíguàn zǎo qǐ le.",
+    "ko": "저는 일찍 일어나는 것에 익숙해요.",
+    "en": "I'm used to getting up early."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "昨天我___买牛奶。",
+    "options": [
+     "忘了",
+     "忘记过",
+     "记住过"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "去年我___喝咖啡了。",
+    "options": [
+     "不再",
+     "没有",
+     "还没"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "今天我停下来___，喝了一杯茶。",
+    "options": [
+     "休息",
+     "吃饭",
+     "买书"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我记得在那个公园里玩___。",
+    "options": [
+     "过",
+     "着",
+     "了"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你还记得你的童年吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어릴 때 뭘 하고 놀았는지 기억해요?",
+     "en": "(Question) Do you remember what you used to play as a child?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我记得在公园里玩过。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你为什么不再喝咖啡了？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 걸음을 멈췄어요?",
+     "en": "(Question) Why did you stop walking?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "因为对睡眠不好。",
+       "是的，我喜欢。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你还抽烟吗？"
+      },
+      {
+       "s": "B",
+       "t": "不，我不再抽烟了。"
+      },
+      {
+       "s": "A",
+       "t": "怎么戒的？"
+      },
+      {
+       "s": "B",
+       "t": "我试着嚼口香糖，医生也建议我这样。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 우유 사 왔어?\nB: 아니, 사 오는 것을 잊었어. 미안.\nA: 괜찮아. 지금 가서 사 올게.\nB: 가는 길에 빵도 사 오는 것을 기억해 줘.",
+     "en": "A: Did you buy milk yesterday?\nB: No, I forgot to buy it. Sorry.\nA: It's fine. I'll go now.\nB: Remember to buy bread on the way."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的怎么样了？",
+      "options": [
+       "不再抽烟了",
+       "还在抽烟",
+       "刚开始抽烟"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我记得小时候在那个公园里玩过。昨天我忘了买牛奶。去年我不再喝咖啡了。今天我停下来休息，喝了一杯茶。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 작년에 커피를 끊었어요. 처음에는 힘들었지만 지금은 차를 마시는 것에 익숙해요. 가끔 길을 가다가 카페 앞에서 멈춰 향기를 맡곤 해요. 그래도 다시 마시려고 하지는 않아요.",
+     "en": "I gave up coffee last year. It was hard at first, but now I'm used to drinking tea. Sometimes I stop in front of a café to smell it. Still, I don't try to drink it again."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "今天说话人做了什么？",
+      "options": [
+       "停下来休息",
+       "买牛奶",
+       "喝咖啡"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "健康咨询处。"
+      },
+      {
+       "s": "B",
+       "t": "我想戒烟，但是很难。"
+      },
+      {
+       "s": "A",
+       "t": "你试着嚼口香糖了吗？"
+      },
+      {
+       "s": "B",
+       "t": "试过了，但还是很难。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의사: 건강 상담입니다.\n손님: 담배를 끊고 싶은데 잘 안 돼요.\n의사: 껌을 씹어 보셨나요?\n손님: 네, 그래도 힘들어요.",
+     "en": "Doctor: Health advice.\nGuest: I want to stop smoking but it's difficult.\nDoctor: Have you tried chewing gum?\nGuest: Yes, but it's still hard."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "我想______烟",
+      "answers": [
+       "戒"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "你试着嚼______了吗",
+      "answers": [
+       "口香糖"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 昨天我___买牛奶。\n2) 去年我___喝咖啡了。\n3) 今天我停下来___，喝了一杯茶。",
+    "trans": {
+     "ko": "1) 열쇠를 가져오는 것을 잊었어요. 2) 그 책을 읽었던 것을 기억해요. 3) 저는 일찍 일어나는 것에 익숙해요.",
+     "en": "1) I forgot to bring my key. 2) I remember reading that book. 3) I'm used to getting up early."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "昨天我___买牛奶。",
+      "options": [
+       "忘了",
+       "忘记过",
+       "记住过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "去年我___喝咖啡了。",
+      "options": [
+       "不再",
+       "没有",
+       "还没"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "今天我停下来___，喝了一杯茶。",
+      "options": [
+       "休息",
+       "吃饭",
+       "买书"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我记得小时候在那个公园里(1)过。昨天我忘了买牛奶。去年我(2)喝咖啡了。今天我停下来(3)，喝了一杯茶。",
+    "trans": {
+     "ko": "저는 작년에 커피를 끊었어요. 처음에는 힘들었지만 지금은 차를 마시는 것에 익숙해요. 가끔 길을 가다가 카페 앞에서 멈춰 향기를 맡곤 해요. 그래도 다시 마시려고 하지는 않아요.",
+     "en": "I gave up coffee last year. It was hard at first, but now I'm used to drinking tea. Sometimes I stop in front of a café to smell it. Still, I don't try to drink it again."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "玩",
+       "吃",
+       "买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "不再",
+       "已经",
+       "常常"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "休息",
+       "工作",
+       "跑步"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "日记\n我记得小时候，爸爸每天都带我去公园。现在我习惯了早起，每天早上也去跑步。我试着改变自己的生活方式，并不后悔。我盼望明年能参加马拉松。",
+    "trans": {
+     "ko": "건강 칼럼\n금연은 쉽지 않다. 많은 사람이 담배를 끊으려고 노력하지만 몇 달 뒤에는 다시 피운다. 전문가들은 껌을 씹어 보거나 운동을 해 보라고 권한다. 가장 중요한 것은 자신이 왜 끊고 싶었는지를 기억하는 것이다.",
+     "en": "HEALTH COLUMN\nQuitting smoking is not easy. Many people try to give up cigarettes but start again after a few months. Experts recommend trying chewing gum or exercise. The most important thing is remembering why you wanted to stop."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "作者小时候经常去哪儿？",
+      "options": [
+       "公园",
+       "学校",
+       "商店"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "作者盼望什么？",
+      "options": [
+       "参加马拉松",
+       "去旅行",
+       "买房子"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "敏珠忘了带伞，所以淋湿了。她停下来躲雨，想起小时候也有一次这样的经历。她决定以后每天都带伞。",
+    "trans": {
+     "ko": "준호는 열쇠를 가져오는 것을 잊었어요. 그래서 문 앞에서 한 시간 기다렸어요. 다음부터는 가방에 열쇠를 꼭 넣는 것을 기억하겠다고 말했어요.",
+     "en": "Junho forgot to bring his key. So he waited at the door for an hour. He said he would remember to put his key in his bag next time."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "敏珠忘了带伞。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "敏珠带了伞。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "敏珠住在光州。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你还记得你的童年吗？",
+    "read": "Nǐ hái jìde nǐ de tóng nián ma?",
+    "ko": "어릴 때를 기억하세요?",
+    "en": "Do you remember your childhood?",
+    "situation": {
+     "ko": "기억을 물을 때",
+     "en": "Asking about a memory"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我记得在那个公园里玩过。",
+    "read": "Wǒ jìde zài nàge gōngyuán lǐ wán guo.",
+    "ko": "그 책을 읽었던 것을 기억해요.",
+    "en": "I remember reading that book.",
+    "situation": {
+     "ko": "과거의 행동을 기억할 때",
+     "en": "Remembering a past action"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我忘了带钥匙。",
+    "read": "Wǒ wàng le dài yàoshi.",
+    "ko": "열쇠를 가져오는 것을 잊었어요.",
+    "en": "I forgot to bring my key.",
+    "situation": {
+     "ko": "해야 할 일을 잊었을 때",
+     "en": "Forgetting a task"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "他不再抽烟了。",
+    "read": "Tā bú zài chōuyān le.",
+    "ko": "그는 담배를 끊었어요.",
+    "en": "He stopped smoking.",
+    "situation": {
+     "ko": "습관을 그만두었을 때",
+     "en": "Giving up a habit"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "他停下来休息。",
+    "read": "Tā tíngxiàlái xiūxi.",
+    "ko": "그는 쉬려고 멈췄어요.",
+    "en": "He stopped to rest.",
+    "situation": {
+     "ko": "목적을 말할 때",
+     "en": "Giving a purpose"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我试着用新方法。",
+    "read": "Wǒ shì zhe yòng xīn fāng fǎ.",
+    "ko": "새로운 방법을 써 봤어요.",
+    "en": "I tried using a new method.",
+    "situation": {
+     "ko": "실험해 보았을 때",
+     "en": "Trying something as an experiment"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我习惯早起了。",
+    "read": "Wǒ xíguàn zǎo qǐ le.",
+    "ko": "저는 일찍 일어나는 것에 익숙해요.",
+    "en": "I'm used to getting up early.",
+    "situation": {
+     "ko": "익숙함을 말할 때",
+     "en": "Talking about familiarity"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我盼望见到你。",
+    "read": "Wǒ pàn wàng jiàndào nǐ.",
+    "ko": "만나 뵙기를 기대하고 있어요.",
+    "en": "I look forward to meeting you.",
+    "situation": {
+     "ko": "편지를 끝낼 때",
+     "en": "Ending a letter"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我记得……过。",
+    "read": "Wǒ jìde … guo.",
+    "ko": "~했던 것을 기억하다.",
+    "en": "remember + -ing."
+   },
+   {
+    "id": "w2",
+    "t": "我忘了……。",
+    "read": "Wǒ wàng le ….",
+    "ko": "~할 것을 기억하다.",
+    "en": "remember + to + verb."
+   },
+   {
+    "id": "w3",
+    "t": "我不再……了。",
+    "read": "Wǒ bú zài … le.",
+    "ko": "~하는 것을 멈추다.",
+    "en": "stop + -ing."
+   },
+   {
+    "id": "w4",
+    "t": "我停下来……。",
+    "read": "Wǒ tíngxiàlái ….",
+    "ko": "~하려고 멈추다.",
+    "en": "stop + to + verb."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "기억하다, 잊다, 멈추다 중 두 가지 이상을 써서 -ing와 to의 차이를 보이는 4문장을 써 보세요.",
+    "en": "Write 4 sentences using at least two of remember, forget, stop, try to show the difference between -ing and to."
+   },
+   "must_include": [
+    {
+     "label": "记得",
+     "match": [
+      "我记得"
+     ]
+    },
+    {
+     "label": "忘了",
+     "match": [
+      "忘了"
+     ]
+    },
+    {
+     "label": "不再",
+     "match": [
+      "不再"
+     ]
+    }
+   ],
+   "model": "我记得小时候在那个公园里玩过。昨天我忘了买牛奶。去年我不再喝咖啡了。今天我停下来休息，喝了一杯茶。",
+   "model_trans": {
+    "ko": "저는 어릴 때 그 공원에서 놀았던 것을 기억해요. 어제는 우유를 사 오는 것을 잊었어요. 작년에 저는 커피를 끊었어요. 오늘은 쉬려고 잠시 멈춰서 차를 마셨어요.",
+    "en": "I remember playing in that park as a child. Yesterday I forgot to buy milk. Last year I stopped drinking coffee. Today I stopped to rest and had a cup of tea."
+   }
+  }
+ }
+}

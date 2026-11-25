@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u01",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 1,
+  "concept": "B2.U01",
+  "status": "live",
+  "title": {
+   "target": "混合条件句",
+   "ko": "혼합 조건문",
+   "en": "Mixed conditionals"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "决定",
+   "pos": "noun",
+   "read": "juédìng",
+   "ko": "결정",
+   "en": "decision",
+   "ex": {
+    "t": "这个决定改变了我的生活。",
+    "read": "Zhège juédìng gǎibiàn le wǒ de shēnghuó.",
+    "ko": "그 결정이 내 인생을 바꿔 놓았어요.",
+    "en": "That decision changed my life."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "后悔",
+   "pos": "noun",
+   "read": "hòuhuǐ",
+   "ko": "후회",
+   "en": "regret",
+   "ex": {
+    "t": "我一点也不后悔。",
+    "read": "Wǒ yìdiǎn yě bú hòuhuǐ.",
+    "ko": "그는 그 선택을 평생 후회했어요.",
+    "en": "He regretted that choice for the rest of his life."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "影响",
+   "pos": "verb",
+   "read": "yǐng xiǎng",
+   "ko": "영향을 미치다",
+   "en": "affect",
+   "ex": {
+    "t": "那次经历影响了我的选择。",
+    "read": "Nà cì jīnglì yǐng xiǎng le wǒ de xuǎn zé.",
+    "ko": "어린 시절의 경험은 성격에 영향을 미쳐요.",
+    "en": "Childhood experiences affect your personality."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "结果",
+   "pos": "noun",
+   "read": "jié guǒ",
+   "ko": "결과",
+   "en": "consequence",
+   "ex": {
+    "t": "结果比我想的好。",
+    "read": "Jié guǒ bǐ wǒ xiǎng de hǎo.",
+    "ko": "모든 선택에는 결과가 따라요.",
+    "en": "Every choice has consequences."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "转行",
+   "pos": "phrase",
+   "read": "zhuǎn háng",
+   "ko": "직업을 바꾸다",
+   "en": "change careers",
+   "ex": {
+    "t": "他三年前转行做设计了。",
+    "read": "Tā sān nián qián zhuǎn háng zuò shè jì le.",
+    "ko": "그녀는 마흔에 직업을 바꿨어요.",
+    "en": "She changed careers at forty."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "投资",
+   "pos": "verb",
+   "read": "tóu zī",
+   "ko": "투자하다",
+   "en": "invest",
+   "ex": {
+    "t": "要是当时投资，现在就发财了。",
+    "read": "Yào shì dāngshí tóu zī, xiànzài jiù fā cái le.",
+    "ko": "일찍 투자했더라면 지금 부자였을 거예요.",
+    "en": "If I had invested early, I would be rich now."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "才能",
+   "pos": "noun",
+   "read": "cái néng",
+   "ko": "재능",
+   "en": "talent",
+   "ex": {
+    "t": "她有画画的才能。",
+    "read": "Tā yǒu huàhuà de cái néng.",
+    "ko": "그는 음악에 재능이 있어요.",
+    "en": "He has a talent for music."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "准备充分",
+   "pos": "phrase",
+   "read": "zhǔn bèi chōng fēn",
+   "ko": "철저히 준비하다",
+   "en": "prepare thoroughly",
+   "ex": {
+    "t": "要是准备充分，就不会紧张了。",
+    "read": "Yào shì zhǔn bèi chōng fēn, jiù búhuì jǐn zhāng le.",
+    "ko": "철저히 준비했더라면 합격했을 거예요.",
+    "en": "If I had prepared thoroughly, I would have passed."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "外向",
+   "pos": "adj",
+   "read": "wàixiàng",
+   "ko": "외향적인",
+   "en": "outgoing",
+   "ex": {
+    "t": "要是我更外向，就去参加聚会了。",
+    "read": "Yào shì wǒ gèng wàixiàng, jiù qù cānjiā jùhuì le.",
+    "ko": "내가 더 외향적이라면 그 모임에 갔을 거예요.",
+    "en": "If I were more outgoing, I would have gone to the party."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "改变",
+   "pos": "phrase",
+   "read": "gǎibiàn",
+   "ko": "상황이 달라지다",
+   "en": "make a difference",
+   "ex": {
+    "t": "一个决定可以改变很多事。",
+    "read": "Yí ge juédìng kěyǐ gǎibiàn hěn duō shì.",
+    "ko": "작은 선택이 큰 차이를 만들 수 있어요.",
+    "en": "A small choice can make a big difference."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "假设和现在的结果：如果……就……、要是……早就……、假如",
+   "en": "Mixed conditionals: 如果……就 / 要是……早就 / 假如"
+  },
+  "explain": {
+   "ko": "汉语的假设句用“如果／要是／假如……就……”。过去没有发生的事，常用“要是当时……，现在就……了”：要是当时我去读研究生，现在就是研究员了。现在的情况影响过去的行为时，用“要是我……，当时就……了”：要是我更外向，当时就去参加聚会了。“早就”表示本来早该发生，“就”连接条件和结果。",
+   "en": "Chinese conditionals use 如果／要是／假如……就……. For unreal past events, 要是当时……，现在就……了: 要是当时我去读研究生，现在就是研究员了. For a present trait that affected a past action: 要是我更外向，当时就去参加聚会了. 早就 means 'long ago', and 就 links condition and result."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "过去→现在 / Past → now",
+     "要是当时……，现在就……了",
+     "要是当时投资了，现在就发财了。"
+    ],
+    [
+     "现在→过去 / Present → past",
+     "要是我……，当时就……了",
+     "要是我更外向，当时就去了。"
+    ],
+    [
+     "否定 / Negative",
+     "要是没有……，就不会……",
+     "要是没换工作，我就不在这儿了。"
+    ],
+    [
+     "假设 / Supposition",
+     "假如……，就……",
+     "假如他知道，就不会这么说。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“要是”比“如果”更口语化。",
+    "en": "要是 is more colloquial than 如果."
+   },
+   {
+    "ko": "句末的“了”表示情况和现在不同。",
+    "en": "Final 了 marks a changed situation."
+   },
+   {
+    "ko": "“当时”说明假设的是过去的事。",
+    "en": "当时 signals that the supposition is about the past."
+   }
+  ],
+  "examples": [
+   {
+    "t": "要是当时投资了，我现在就发财了。",
+    "read": "Yào shì dāngshí tóu zī le, wǒ xiànzài jiù fā cái le.",
+    "ko": "그때 투자했더라면 지금 부자였을 거예요.",
+    "en": "If I had invested back then, I would be rich now."
+   },
+   {
+    "t": "要是我更外向，当时就去参加聚会了。",
+    "read": "Yào shì wǒ gèng wàixiàng, dāngshí jiù qù cānjiā jùhuì le.",
+    "ko": "내가 더 외향적이라면 그 모임에 갔을 거예요.",
+    "en": "If I were more outgoing, I would have gone to the party."
+   },
+   {
+    "t": "要是没接受那份工作，我就不会在这儿了。",
+    "read": "Yào shì méi jiē shòu nà fèn gōngzuò, wǒ jiù búhuì zài zhèr le.",
+    "ko": "그가 더 신중한 사람이었다면 그런 실수는 하지 않았을 거예요.",
+    "en": "If he were a more careful person, he wouldn't have made that mistake."
+   },
+   {
+    "t": "要是早点开始，我现在就好多了。",
+    "read": "Yào shì zǎo diǎn kāishǐ, wǒ xiànzài jiù hǎo duō le.",
+    "ko": "시험을 철저히 준비했더라면 지금 다른 학교에 다니고 있을 거예요.",
+    "en": "If I had prepared thoroughly for the exam, I would be at a different school now."
+   },
+   {
+    "t": "假如他是那种人，当初就不会说了。",
+    "read": "Jiǎ rú tā shì nà zhǒng rén, dāng chū jiù búhuì shuō le.",
+    "ko": "그 결정을 내리지 않았더라면 지금 이 도시에 살지 않을 거예요.",
+    "en": "If I hadn't made that decision, I wouldn't be living in this city now."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___当时投资了，我现在就发财了。",
+    "options": [
+     "要是",
+     "虽然",
+     "因为"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "要是我更外向，当时___去参加聚会了。",
+    "options": [
+     "就",
+     "才",
+     "却"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "要是没接受那份工作，我___不会在这儿了。",
+    "options": [
+     "就",
+     "也许",
+     "还"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "要是早点开始，我现在___好多了。",
+    "options": [
+     "就",
+     "才",
+     "但"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要是你当时做了别的决定，你现在会怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그때 다른 결정을 했다면 지금 어떻게 살고 있을 것 같아요?",
+     "en": "(Question) If you had made a different decision back then, how do you think you'd be living now?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我可能是研究员。",
+       "我昨天去了。",
+       "我不知道路。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你后悔那个决定吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 더 외향적인 사람이라면 어땠을 것 같아요?",
+     "en": "(Question) What would you have done if you were more outgoing?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "不后悔，我学到了很多。",
+       "是的，在三楼。",
+       "我明天去。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你对现在的工作满意吗？"
+      },
+      {
+       "s": "B",
+       "t": "不太满意。要是当时换了专业就好了。"
+      },
+      {
+       "s": "A",
+       "t": "那你现在会做什么？"
+      },
+      {
+       "s": "B",
+       "t": "我会当设计师，我有画画的才能。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 대학 때 유학을 갔더라면 지금 뭘 하고 있을까?\nB: 아마 해외에서 일하고 있을 거야. 하지만 내가 그렇게 모험심이 강한 사람은 아니라서 안 갔지.\nA: 후회돼?\nB: 가끔은. 그래도 그 선택 덕분에 지금의 가족을 만났으니까.",
+     "en": "A: If you had studied abroad at university, what would you be doing now?\nB: I'd probably be working overseas. But I'm not that adventurous, so I didn't go.\nA: Do you regret it?\nB: Sometimes. But because of that choice I met my family."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女的为什么不满意现在的工作？",
+      "options": [
+       "当时没换专业",
+       "工资太低",
+       "离家太远"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我大学毕业时，有两个选择：去读研究生，或者马上工作。我选择了工作，现在在一家公司上班。要是当时去读研究生，我现在可能是研究员。不过，我并不后悔，因为这个决定让我学到了很多东西。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "제 친구 민수는 작년에 주식에 투자했어요. 그는 말해요. 만약 5년 전에 시작했더라면 지금쯤 훨씬 더 벌었을 거라고요. 하지만 그때는 돈이 없었고 위험이 두려웠어요. 지금은 신중하게 조금씩 투자하고 있어요.",
+     "en": "My friend Minsu started investing in shares last year. He says that if he had started five years ago, he would have earned much more by now. But he had no money then and he was afraid of the risk. Now he invests a little at a time, carefully."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人毕业时选择了什么？",
+      "options": [
+       "马上工作",
+       "去读研究生",
+       "出国旅行"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "职业咨询处，请讲。"
+      },
+      {
+       "s": "B",
+       "t": "我对现在的工作不满意。要是当时换了专业就好了。"
+      },
+      {
+       "s": "A",
+       "t": "要是换了，你现在会做什么？"
+      },
+      {
+       "s": "B",
+       "t": "我会当设计师。我有画画的才能。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "상담사: 진로 상담입니다.\n학생: 지금 일에 만족하지 못해요. 그때 전공을 바꿨더라면 좋았을 텐데요.\n상담사: 그랬다면 지금쯤 어떤 일을 하고 있을까요?\n학생: 디자이너가 되어 있을 거예요. 저는 그림에 재능이 있거든요.",
+     "en": "Counsellor: Career advice.\nGuest: I'm not satisfied with my job now. I wish I had changed my major.\nCounsellor: What would you be doing now if you had?\nGuest: I'd be a designer. I have a talent for drawing."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "要是换了专业，我会当______",
+      "answers": [
+       "设计师"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "我有画画的______",
+      "answers": [
+       "才能"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___当时投资了，我现在就发财了。\n2) 要是我更外向，当时___去参加聚会了。\n3) 要是没接受那份工作，我___不会在这儿了。",
+    "trans": {
+     "ko": "1) 그때 투자했더라면 지금 부자였을 거예요. 2) 내가 더 외향적이라면 그 모임에 갔을 거예요. 3) 그 결정을 내리지 않았더라면 지금 이 도시에 살지 않을 거예요.",
+     "en": "1) If I had invested back then, I would be rich now. 2) If I were more outgoing, I would have gone to the party. 3) If I hadn't made that decision, I wouldn't be living in this city now."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___当时投资了，我现在就发财了。",
+      "options": [
+       "要是",
+       "虽然",
+       "因为"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "要是我更外向，当时___去参加聚会了。",
+      "options": [
+       "就",
+       "才",
+       "却"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "要是没接受那份工作，我___不会在这儿了。",
+      "options": [
+       "就",
+       "也许",
+       "还"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我大学毕业时有两个选择，我选择了(1)。要是当时去读研究生，我现在可能是(2)。不过我并不后悔，因为这个决定让我(3)了很多东西。",
+    "trans": {
+     "ko": "스무 살 때 나는 해외 어학연수를 갈 수 있었어요. 하지만 돈이 부족해서 포기했어요. 가끔 상상해 봐요. 그때 갔더라면 지금 얼마나 유창하게 말하고 있을까 하고요. 그래도 그 선택 덕분에 일찍 일을 시작했고 지금의 경력을 쌓을 수 있었어요.",
+     "en": "When I was twenty I could have gone abroad to study a language. But I didn't have enough money, so I gave up. Sometimes I imagine how fluent I would be now if I had gone. Still, because of that choice I started work early and built the career I have today."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "工作",
+       "旅行",
+       "睡觉"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "研究员",
+       "司机",
+       "厨师"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "学到",
+       "忘记",
+       "丢掉"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "博客\n三年前，我放弃了稳定的工作，开始自己做生意。刚开始很辛苦，但是现在生意越来越好。要是当时没有冒这个险，我现在可能还在做不喜欢的工作。",
+    "trans": {
+     "ko": "인터뷰\n한 사업가의 이야기\n그는 대학을 중퇴하고 작은 가게를 열었다. 처음 3년은 적자였다. 그는 말한다. 그때 포기했더라면 지금의 회사는 없었을 것이라고. 하지만 동시에 그때 학위를 마쳤더라면 더 안정적인 삶을 살고 있을지도 모른다고 인정한다.",
+     "en": "INTERVIEW\nA businessman's story\nHe dropped out of university and opened a small shop. For the first three years it made a loss. He says that if he had given up then, his company wouldn't exist now. But he also admits that if he had finished his degree, he might have a more stable life."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "作者三年前做了什么？",
+      "options": [
+       "放弃工作开始做生意",
+       "去国外留学",
+       "买了房子"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "要是没冒险，作者现在会怎么样？",
+      "options": [
+       "还在做不喜欢的工作",
+       "更有钱",
+       "住在国外"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "志浩没有参加大学入学考试，直接去了一家公司工作。现在他是部门经理，收入不错。不过他有时会想，要是当时上了大学，也许会有不同的生活。",
+    "trans": {
+     "ko": "지은은 대학 때 교환학생 기회를 거절했어요. 지금 그녀는 번역가로 일하지만 외국어 실력이 부족하다고 느껴요. 그래서 야간 수업을 듣기 시작했어요.",
+     "en": "Jieun turned down an exchange-student chance at university. She now works as a translator but feels her foreign-language skills are not strong enough. So she has started evening classes."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "志浩直接去工作了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "志浩上了大学。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "志浩的公司在釜山。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "要是你当时做了别的决定，你现在会怎么样？",
+    "read": "Yào shì nǐ dāngshí zuò le bié de juédìng, nǐ xiànzài huì zěnmeyàng?",
+    "ko": "만약 그때 다른 결정을 했다면 지금 어떻게 살고 있을 것 같아요?",
+    "en": "If you had made a different decision, how do you think you'd be living now?",
+    "situation": {
+     "ko": "과거 선택의 현재 영향을 물을 때",
+     "en": "Asking how a past choice affects the present"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "要是当时投资了，我现在就发财了。",
+    "read": "Yào shì dāngshí tóu zī le, wǒ xiànzài jiù fā cái le.",
+    "ko": "그때 투자했더라면 지금 부자였을 거예요.",
+    "en": "If I had invested back then, I would be rich now.",
+    "situation": {
+     "ko": "과거 사실이 현재 결과를 바꿨을 때",
+     "en": "A past event with a present result"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "要是我更外向，当时就去了。",
+    "read": "Yào shì wǒ gèng wàixiàng, dāngshí jiù qù le.",
+    "ko": "내가 더 외향적이라면 그 모임에 갔을 거예요.",
+    "en": "If I were more outgoing, I would have gone to the party.",
+    "situation": {
+     "ko": "현재 성격이 과거 행동에 영향을 줄 때",
+     "en": "A present trait with a past result"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "要是没接受那份工作，我就不会在这儿。",
+    "read": "Yào shì méi jiē shòu nà fèn gōngzuò, wǒ jiù búhuì zài zhèr.",
+    "ko": "그 직장을 선택하지 않았더라면 지금 여기 없을 거예요.",
+    "en": "If I hadn't taken that job, I wouldn't be here now.",
+    "situation": {
+     "ko": "인생의 전환점을 말할 때",
+     "en": "Describing a turning point"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "要是早点开始，我现在就好多了。",
+    "read": "Yào shì zǎo diǎn kāishǐ, wǒ xiànzài jiù hǎo duō le.",
+    "ko": "더 일찍 시작했다면 지금쯤 훨씬 잘했을 거예요.",
+    "en": "If I had started earlier, I would be much better by now.",
+    "situation": {
+     "ko": "아쉬움을 말할 때",
+     "en": "Expressing a regret"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "假如他是那种人，当初就不会说了。",
+    "read": "Jiǎ rú tā shì nà zhǒng rén, dāng chū jiù búhuì shuō le.",
+    "ko": "그런 사람이라면 애초에 그렇게 말하지 않았을 거예요.",
+    "en": "If he were that sort of person, he wouldn't have said it in the first place.",
+    "situation": {
+     "ko": "성격으로 행동을 추론할 때",
+     "en": "Reasoning from character"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我不后悔那个决定。",
+    "read": "Wǒ bú hòuhuǐ nàge juédìng.",
+    "ko": "솔직히 말하면 지금의 나는 그 선택 덕분이에요.",
+    "en": "Honestly, I am who I am today because of that choice.",
+    "situation": {
+     "ko": "선택의 의미를 정리할 때",
+     "en": "Reflecting on a choice"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "一个决定可以改变很多事。",
+    "read": "Yí ge juédìng kěyǐ gǎibiàn hěn duō shì.",
+    "ko": "과거는 바꿀 수 없지만 지금은 선택할 수 있어요.",
+    "en": "We can't change the past, but we can choose now.",
+    "situation": {
+     "ko": "마무리하며 격려할 때",
+     "en": "Ending on an encouraging note"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "要是当时……，现在就……了。",
+    "read": "Yào shì dāngshí …, xiànzài jiù … le.",
+    "ko": "만약 ~했더라면, 지금 ~일 거예요.",
+    "en": "If I had ~, I would be ~ now."
+   },
+   {
+    "id": "w2",
+    "t": "要是我……，当时就……了。",
+    "read": "Yào shì wǒ …, dāngshí jiù … le.",
+    "ko": "만약 내가 ~라면, ~했을 거예요.",
+    "en": "If I were ~, I would have ~."
+   },
+   {
+    "id": "w3",
+    "t": "要是没……，就不会……。",
+    "read": "Yào shì méi …, jiù búhuì ….",
+    "ko": "~하지 않았더라면, 지금 ~하지 않을 거예요.",
+    "en": "If I hadn't ~, I wouldn't be ~ now."
+   },
+   {
+    "id": "w4",
+    "t": "我不后悔……。",
+    "read": "Wǒ bú hòuhuǐ ….",
+    "ko": "지금 ~이어서 그때 ~했을 거예요.",
+    "en": "If ~ (present), I would have ~ (past)."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "과거의 선택이 지금에 미친 영향을 혼합 조건문으로 4문장 써 보세요.",
+    "en": "Write 4 sentences about how a past choice affects your life now, using mixed conditionals."
+   },
+   "must_include": [
+    {
+     "label": "要是",
+     "match": [
+      "要是"
+     ]
+    },
+    {
+     "label": "就",
+     "match": [
+      "就"
+     ]
+    },
+    {
+     "label": "不后悔",
+     "match": [
+      "不后悔"
+     ]
+    }
+   ],
+   "model": "要是当时我去读研究生，现在就是研究员了。可是我选择了工作，所以在一家公司上班。要是我更爱冒险，当时就出国了。不过我并不后悔，所以我不后悔那个决定。",
+   "model_trans": {
+    "ko": "그때 대학원에 진학했더라면 지금 연구자가 되어 있을 거예요. 하지만 취직을 선택했기 때문에 지금은 회사에서 일하고 있어요. 내가 더 모험심이 강한 사람이라면 그때 해외로 떠났을 거예요. 그래도 그 결정을 후회하지는 않아요.",
+    "en": "If I had gone to graduate school, I would be a researcher now. But I chose a job, so I work for a company. If I were more adventurous, I would have moved abroad back then. Still, I don't regret that decision."
+   }
+  }
+ }
+}

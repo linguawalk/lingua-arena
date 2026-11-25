@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u18",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 18,
+  "concept": "B2.U18",
+  "status": "live",
+  "title": {
+   "target": "委婉的说法",
+   "ko": "완곡하게 말하기",
+   "en": "Hedging and tentative language"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "似乎",
+   "pos": "verb",
+   "read": "sì hū",
+   "ko": "~인 것 같다",
+   "en": "seem",
+   "ex": {
+    "t": "这个计划似乎有问题。",
+    "read": "Zhège jìhuà sì hū yǒu wèntí.",
+    "ko": "그 계획에는 문제가 있는 것 같아요.",
+    "en": "There seems to be a problem with the plan."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "往往",
+   "pos": "phrase",
+   "read": "wǎng wǎng",
+   "ko": "~하는 경향이 있다",
+   "en": "tend to",
+   "ex": {
+    "t": "人们往往不喜欢变化。",
+    "read": "Rén men wǎng wǎng bù xǐhuan biànhuà.",
+    "ko": "사람들은 변화를 싫어하는 경향이 있어요.",
+    "en": "People tend to dislike change."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "大概",
+   "pos": "adv",
+   "read": "dàgài",
+   "ko": "아마",
+   "en": "probably",
+   "ex": {
+    "t": "明天大概会下雨。",
+    "read": "Míngtiān dàgài huì xiàyǔ.",
+    "ko": "아마 내일 비가 올 거예요.",
+    "en": "It will probably rain tomorrow."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "有点",
+   "pos": "phrase",
+   "read": "yǒu diǎn",
+   "ko": "어느 정도",
+   "en": "to some extent",
+   "ex": {
+    "t": "这个解释有点难。",
+    "read": "Zhège jiěshì yǒu diǎn nán.",
+    "ko": "어느 정도는 맞는 말이에요.",
+    "en": "That is true to some extent."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "不知道",
+   "pos": "adv",
+   "read": "bù zhīdào",
+   "ko": "일반적으로",
+   "en": "generally",
+   "ex": {
+    "t": "不知道你能不能帮我。",
+    "read": "Bù zhīdào nǐ néng bùnéng bāng wǒ.",
+    "ko": "일반적으로 그 방법이 효과적이에요.",
+    "en": "Generally, that method is effective."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "某种程度上",
+   "pos": "phrase",
+   "read": "mǒu zhǒng chéng dù shàng",
+   "ko": "약간",
+   "en": "a bit",
+   "ex": {
+    "t": "在某种程度上这是对的。",
+    "read": "Zài mǒu zhǒng chéng dù shàng zhè shì duì de.",
+    "ko": "그 설명은 약간 어려웠어요.",
+    "en": "The explanation was a bit difficult."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "一般来说",
+   "pos": "verb",
+   "read": "yìbān lái shuō",
+   "ko": "~일지도 모른다",
+   "en": "might",
+   "ex": {
+    "t": "一般来说，人们喜欢熟悉的东西。",
+    "read": "Yìbān lái shuō, rén men xǐhuan shú xī de dōngxi.",
+    "ko": "그가 이미 떠났을지도 몰라요.",
+    "en": "He might already have left."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "可能",
+   "pos": "verb",
+   "read": "kěnéng",
+   "ko": "~라고 생각하다",
+   "en": "suggest",
+   "ex": {
+    "t": "费用可能有点高。",
+    "read": "Fèi yòng kěnéng yǒu diǎn gāo.",
+    "ko": "연구는 이 방법이 효과적임을 시사해요.",
+    "en": "Research suggests that this method is effective."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "暗示",
+   "pos": "verb",
+   "read": "àn shì",
+   "ko": "제안하다",
+   "en": "suggest",
+   "ex": {
+    "t": "这个结果暗示需要改进。",
+    "read": "Zhège jié guǒ àn shì xūyào gǎi jìn.",
+    "ko": "다른 방법을 제안드려도 될까요?",
+    "en": "May I suggest another way?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "不太确定",
+   "pos": "phrase",
+   "read": "bú tài què dìng",
+   "ko": "확신하지 못하다",
+   "en": "be unsure",
+   "ex": {
+    "t": "我不太确定。",
+    "read": "Wǒ bú tài què dìng.",
+    "ko": "저는 그 결과를 확신하지 못해요.",
+    "en": "I'm unsure about the result."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "委婉：似乎、好像、往往、大概、有点、不知道……能不能……",
+   "en": "Hedging: 似乎 / 好像 / 往往 / 大概 / 有点 / 不知道……能不能……"
+  },
+  "explain": {
+   "ko": "汉语里说话不绝对，会用委婉的说法。表示推测用“似乎、好像、大概”：这个计划似乎有问题。表示常常这样用“往往”：人们往往不喜欢变化。减轻语气用“有点、稍微”：这个解释有点难。请求别人帮忙用“不知道你能不能……”：不知道你能不能帮我。“在某种程度上”和“一般来说”也是常用的委婉说法。",
+   "en": "Chinese softens statements with hedges. Inference: 似乎／好像／大概: 这个计划似乎有问题. Tendency: 往往: 人们往往不喜欢变化. Softeners: 有点／稍微: 这个解释有点难. Polite requests: 不知道你能不能……: 不知道你能不能帮我. 在某种程度上 and 一般来说 are common hedges too."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "推测 / Inference",
+     "似乎／好像／大概",
+     "这个计划似乎有问题。"
+    ],
+    [
+     "倾向 / Tendency",
+     "往往＋动词",
+     "人们往往不喜欢变化。"
+    ],
+    [
+     "减轻 / Soften",
+     "有点／稍微＋形容词",
+     "这个解释有点难。"
+    ],
+    [
+     "请求 / Request",
+     "不知道你能不能……",
+     "不知道你能不能帮我。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“有点”多用于不太满意的事。",
+    "en": "有点 is mostly for mildly negative things."
+   },
+   {
+    "ko": "“似乎”比“好像”更书面。",
+    "en": "似乎 is more literary than 好像."
+   },
+   {
+    "ko": "“不知道……吗”使请求更客气。",
+    "en": "不知道……吗 makes a request more polite."
+   }
+  ],
+  "examples": [
+   {
+    "t": "这个计划似乎有问题。",
+    "read": "Zhège jìhuà sì hū yǒu wèntí.",
+    "ko": "그 계획에는 문제가 있는 것 같아요.",
+    "en": "There seems to be a problem with the plan."
+   },
+   {
+    "t": "人们往往不喜欢变化。",
+    "read": "Rén men wǎng wǎng bù xǐhuan biànhuà.",
+    "ko": "사람들은 변화를 싫어하는 경향이 있어요.",
+    "en": "People tend to dislike change."
+   },
+   {
+    "t": "明天大概会下雨。",
+    "read": "Míngtiān dàgài huì xiàyǔ.",
+    "ko": "아마 내일 비가 올 거예요.",
+    "en": "It will probably rain tomorrow."
+   },
+   {
+    "t": "这个解释有点难。",
+    "read": "Zhège jiěshì yǒu diǎn nán.",
+    "ko": "그 설명은 약간 어려웠어요.",
+    "en": "The explanation was a bit difficult."
+   },
+   {
+    "t": "不知道你能不能帮我。",
+    "read": "Bù zhīdào nǐ néng bùnéng bāng wǒ.",
+    "ko": "도와주실 수 있는지 궁금해서요.",
+    "en": "I was wondering if you could help me."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "这个计划___有问题。",
+    "options": [
+     "似乎",
+     "已经",
+     "刚才"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "人们___不喜欢变化。",
+    "options": [
+     "往往",
+     "决不",
+     "刚刚"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "这个解释___难。",
+    "options": [
+     "有点",
+     "很少",
+     "决不"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "不知道你___帮我。",
+    "options": [
+     "能不能",
+     "会不会不",
+     "有没有不"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你觉得这个计划怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 계획에 대해 어떻게 생각하세요?",
+     "en": "(Question) What do you think of this plan?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "似乎有点问题。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你能帮我看看这份文件吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 도움을 요청할 때 어떻게 말하면 좋을까요?",
+     "en": "(Question) How can I ask for help politely?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "当然可以，请给我看看。",
+       "是的，我喜欢。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你觉得这个计划怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "似乎有几个好的想法，不过费用可能有点高。"
+      },
+      {
+       "s": "A",
+       "t": "用户会接受吗？"
+      },
+      {
+       "s": "B",
+       "t": "人们往往不喜欢新方法，所以大概需要说明一下。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 계획에 대해 어떻게 생각해?\nB: 좋은 점이 몇 가지 있는 것 같아. 다만 비용이 약간 높을 수도 있어.\nA: 그럼 어떻게 하면 좋을까?\nB: 먼저 작게 시험해 보는 것은 어떨까?",
+     "en": "A: What do you think about this plan?\nB: There seem to be a few good points. However, the cost might be a bit high.\nA: What should we do?\nB: How about trying it on a small scale first?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的觉得用户会怎么样？",
+      "options": [
+       "往往不喜欢新方法",
+       "非常喜欢",
+       "不在意"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个想法似乎有几个优点。不过，费用可能有点高。用户往往不喜欢新的方法，所以大概需要一些解释。不如先小规模试一试？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "연구에 따르면 사람들은 새로운 방식을 싫어하는 경향이 있는 것으로 보입니다. 아마 처음에는 불편함을 느낄 수 있습니다. 하지만 일반적으로 두세 달이 지나면 대부분 적응하는 것 같습니다.",
+     "en": "Research suggests that people tend to dislike new methods. They may feel uncomfortable at first. However, generally most people appear to adapt after two or three months."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人建议怎么做？",
+      "options": [
+       "先小规模试一试",
+       "马上推广",
+       "放弃"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "办公室，请讲。"
+      },
+      {
+       "s": "B",
+       "t": "不知道你能不能再审查一下这份文件？"
+      },
+      {
+       "s": "A",
+       "t": "当然可以。有什么问题吗？"
+      },
+      {
+       "s": "B",
+       "t": "数字似乎有点不对。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "손님: 사무실입니다.\n직원: 저는 이 서류를 다시 검토해 주실 수 있는지 궁금해서요.\n손님: 물론입니다. 어떤 부분이 문제인가요?\n직원: 숫자가 약간 틀린 것 같아요.",
+     "en": "Staff: Office.\nColleague: I was wondering if you could review this document again.\nStaff: Of course. What seems to be the problem?\nColleague: The figures seem to be a bit wrong."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "不知道你能不能再审查一下这份______",
+      "answers": [
+       "文件"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "数字似乎有点______",
+      "answers": [
+       "不对"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 这个计划___有问题。\n2) 人们___不喜欢变化。\n3) 这个解释___难。",
+    "trans": {
+     "ko": "1) 그 계획에는 문제가 있는 것 같아요. 2) 사람들은 변화를 싫어하는 경향이 있어요. 3) 아마 내일 비가 올 거예요.",
+     "en": "1) There seems to be a problem with the plan. 2) People tend to dislike change. 3) It will probably rain tomorrow."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这个计划___有问题。",
+      "options": [
+       "似乎",
+       "已经",
+       "刚才"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "人们___不喜欢变化。",
+      "options": [
+       "往往",
+       "决不",
+       "刚刚"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这个解释___难。",
+      "options": [
+       "有点",
+       "很少",
+       "决不"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这个想法(1)有几个优点。不过，费用可能有点高。用户往往不喜欢新的方法，所以大概需要一些(2)。不如先小规模(3)一试？",
+    "trans": {
+     "ko": "연구에 따르면 사람들은 새로운 방식을 싫어하는 경향이 있는 것으로 보입니다. 아마 처음에는 불편함을 느낄 수 있습니다. 하지만 일반적으로 두세 달이 지나면 대부분 적응하는 것 같습니다.",
+     "en": "Research suggests that people tend to dislike new methods. They may feel uncomfortable at first. However, generally most people appear to adapt after two or three months."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "似乎",
+       "已经",
+       "刚才"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "解释",
+       "钱",
+       "书"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "试",
+       "吃",
+       "买"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "邮件\n您好！我对新的会议安排有一点想法。似乎星期三的会议时间有点紧，一般来说，大家往往更喜欢早上开会。不知道能不能调整一下？谢谢您的理解。",
+    "trans": {
+     "ko": "이메일\n안녕하세요. 지난주 보고서를 검토했는데 몇 가지 숫자가 약간 틀린 것 같습니다. 제가 잘못 보았을 수도 있지만 다시 확인해 주실 수 있을지 궁금합니다. 시간이 되실 때 알려 주세요.",
+     "en": "EMAIL\nHello. I reviewed last week's report and some of the figures seem to be a bit wrong. I may have misread them, but I was wondering if you could check again. Please let me know when you have time."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "作者觉得什么有点紧？",
+      "options": [
+       "星期三的会议时间",
+       "项目预算",
+       "交通"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "作者想怎么调整？",
+      "options": [
+       "改到早上",
+       "取消",
+       "改到晚上"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "英培说话总是很委婉。他不说“我不同意”，而是说“这个想法似乎有一点问题”。同事们觉得这样很容易接受。",
+    "trans": {
+     "ko": "민호는 새 계획이 좋은 것 같다고 말했어요. 하지만 비용이 약간 높을지도 모른다고 덧붙였어요. 그는 먼저 작게 시험해 보자고 제안했어요.",
+     "en": "Minho said the new plan seemed good. But he added that the cost might be a bit high. He suggested trying it on a small scale first."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "英培说话很委婉。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "英培说话很直接。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "英培在银行工作。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你觉得这个计划怎么样？",
+    "read": "Nǐ juéde zhège jìhuà zěnmeyàng?",
+    "ko": "이 계획에 대해 어떻게 생각하세요?",
+    "en": "What do you think of this plan?",
+    "situation": {
+     "ko": "의견을 물을 때",
+     "en": "Asking for an opinion"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "这个计划似乎有问题。",
+    "read": "Zhège jìhuà sì hū yǒu wèntí.",
+    "ko": "그 계획에는 문제가 있는 것 같아요.",
+    "en": "There seems to be a problem with the plan.",
+    "situation": {
+     "ko": "부드럽게 문제를 말할 때",
+     "en": "Raising a problem gently"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "人们往往不喜欢变化。",
+    "read": "Rén men wǎng wǎng bù xǐhuan biànhuà.",
+    "ko": "사람들은 변화를 싫어하는 경향이 있어요.",
+    "en": "People tend to dislike change.",
+    "situation": {
+     "ko": "일반화할 때",
+     "en": "Making a generalisation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "明天大概会下雨。",
+    "read": "Míngtiān dàgài huì xiàyǔ.",
+    "ko": "아마 내일 비가 올 거예요.",
+    "en": "It will probably rain tomorrow.",
+    "situation": {
+     "ko": "확실하지 않을 때",
+     "en": "Showing uncertainty"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这个解释有点难。",
+    "read": "Zhège jiěshì yǒu diǎn nán.",
+    "ko": "그 설명은 약간 어려웠어요.",
+    "en": "The explanation was a bit difficult.",
+    "situation": {
+     "ko": "비판을 완화할 때",
+     "en": "Softening criticism"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "不知道你能不能帮我。",
+    "read": "Bù zhīdào nǐ néng bùnéng bāng wǒ.",
+    "ko": "도와주실 수 있는지 궁금해서요.",
+    "en": "I was wondering if you could help me.",
+    "situation": {
+     "ko": "정중하게 부탁할 때",
+     "en": "A polite request"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "在某种程度上这是对的。",
+    "read": "Zài mǒu zhǒng chéng dù shàng zhè shì duì de.",
+    "ko": "어느 정도는 맞는 말이에요.",
+    "en": "That is true to some extent.",
+    "situation": {
+     "ko": "부분적으로 동의할 때",
+     "en": "Partial agreement"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我不太确定。",
+    "read": "Wǒ bú tài què dìng.",
+    "ko": "제가 틀릴 수도 있지만 이렇게 생각해요.",
+    "en": "I may be wrong, but I think so.",
+    "situation": {
+     "ko": "의견을 내놓을 때",
+     "en": "Giving an opinion tentatively"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……似乎……。",
+    "read": "… Sì hū ….",
+    "ko": "~인 것 같다.",
+    "en": "It seems / appears that … / S + seems to + verb."
+   },
+   {
+    "id": "w2",
+    "t": "……往往……。",
+    "read": "… Wǎng wǎng ….",
+    "ko": "~하는 경향이 있다.",
+    "en": "S + tends to + verb."
+   },
+   {
+    "id": "w3",
+    "t": "……有点……。",
+    "read": "… Yǒu diǎn ….",
+    "ko": "아마 ~일 것이다.",
+    "en": "S + will probably / may well + verb."
+   },
+   {
+    "id": "w4",
+    "t": "不知道你能不能……。",
+    "read": "Bù zhīdào nǐ néng bùnéng ….",
+    "ko": "~해 주실 수 있을까요?",
+    "en": "I was wondering if you could …"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "완곡 표현을 사용해 동료의 아이디어에 의견을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences giving your view on a colleague's idea, using hedging language."
+   },
+   "must_include": [
+    {
+     "label": "似乎",
+     "match": [
+      "似乎"
+     ]
+    },
+    {
+     "label": "往往",
+     "match": [
+      "往往"
+     ]
+    },
+    {
+     "label": "有点",
+     "match": [
+      "有点"
+     ]
+    }
+   ],
+   "model": "这个想法似乎有几个优点。不过，费用可能有点高。用户往往不喜欢新方法，所以大概需要一些解释。不如先小规模试一试？",
+   "model_trans": {
+    "ko": "그 아이디어에는 몇 가지 좋은 점이 있는 것 같아요. 다만 비용이 약간 높을 수 있어요. 사용자들은 새 방식을 싫어하는 경향이 있으니 아마 설명이 필요할 거예요. 먼저 작게 시험해 보는 것은 어떨까요?",
+    "en": "There seem to be a few good points in the idea. However, the cost might be a bit high. Users tend to dislike new methods, so some explanation will probably be needed. How about trying it on a small scale first?"
+   }
+  }
+ }
+}

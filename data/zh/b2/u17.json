@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u17",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 17,
+  "concept": "B2.U17",
+  "status": "live",
+  "title": {
+   "target": "目的和条件",
+   "ko": "목적·조건의 연결어",
+   "en": "Purpose and condition linkers"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "目的",
+   "pos": "noun",
+   "read": "mù de",
+   "ko": "목적",
+   "en": "purpose",
+   "ex": {
+    "t": "他这样做的目的是省钱。",
+    "read": "Tā zhè yàng zuò de mù de shì shěng qián.",
+    "ko": "이 회의의 목적은 계획을 정하는 거예요.",
+    "en": "The purpose of this meeting is to decide the plan."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "条件",
+   "pos": "noun",
+   "read": "tiáo jiàn",
+   "ko": "조건",
+   "en": "condition",
+   "ex": {
+    "t": "这是一个重要的条件。",
+    "read": "Zhè shì yí ge zhòng yào de tiáo jiàn.",
+    "ko": "계약의 조건을 확인하세요.",
+    "en": "Check the conditions of the contract."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "为了",
+   "pos": "phrase",
+   "read": "wèile",
+   "ko": "~하기 위해",
+   "en": "in order to",
+   "ex": {
+    "t": "为了买票，我去得很早。",
+    "read": "Wèile mǎi piào, wǒ qù de hěn zǎo.",
+    "ko": "표를 사기 위해 일찍 갔어요.",
+    "en": "I went early in order to buy a ticket."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "以便",
+   "pos": "phrase",
+   "read": "yǐ biàn",
+   "ko": "~하도록",
+   "en": "so that",
+   "ex": {
+    "t": "我大声说话，以便大家都能听见。",
+    "read": "Wǒ dà shēng shuōhuà, yǐ biàn dàjiā dōu néng tīng jiàn.",
+    "ko": "모두가 들을 수 있도록 크게 말했어요.",
+    "en": "I spoke loudly so that everyone could hear."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "只要",
+   "pos": "phrase",
+   "read": "zhī yào",
+   "ko": "~하는 한",
+   "en": "as long as",
+   "ex": {
+    "t": "只要你守信用，我就帮你。",
+    "read": "Zhī yào nǐ shǒu xìn yòng, wǒ jiù bāng nǐ.",
+    "ko": "약속을 지키는 한 도와줄게요.",
+    "en": "I'll help as long as you keep your promise."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "除非",
+   "pos": "phrase",
+   "read": "chú fēi",
+   "ko": "~라는 조건으로",
+   "en": "provided that",
+   "ex": {
+    "t": "除非你快点，否则会迟到。",
+    "read": "Chú fēi nǐ kuàidiǎn, fǒuzé huì chídào.",
+    "ko": "제때 오는 조건으로 허락할게요.",
+    "en": "I'll allow it provided that you come on time."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "否则",
+   "pos": "conj",
+   "read": "fǒuzé",
+   "ko": "~하지 않으면",
+   "en": "unless",
+   "ex": {
+    "t": "快点，否则要迟到了。",
+    "read": "Kuàidiǎn, fǒuzé yào chídào le.",
+    "ko": "서두르지 않으면 늦을 거예요.",
+    "en": "Unless you hurry, you'll be late."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "万一",
+   "pos": "adv",
+   "read": "wàn yī",
+   "ko": "그렇지 않으면",
+   "en": "otherwise",
+   "ex": {
+    "t": "带上伞，万一下雨呢。",
+    "read": "Dàishang sǎn, wàn yíxià yǔ ne.",
+    "ko": "서둘러요. 그렇지 않으면 늦어요.",
+    "en": "Hurry up; otherwise you'll be late."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "假如",
+   "pos": "phrase",
+   "read": "jiǎ rú",
+   "ko": "~에 대비해",
+   "en": "in case",
+   "ex": {
+    "t": "假如你同意，我们就开始。",
+    "read": "Jiǎ rú nǐ tóngyì, wǒmen jiù kāishǐ.",
+    "ko": "비가 올 경우에 대비해 우산을 가져가요.",
+    "en": "Take an umbrella in case it rains."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "保险",
+   "pos": "verb",
+   "read": "bǎo xiǎn",
+   "ko": "가정하다",
+   "en": "suppose",
+   "ex": {
+    "t": "我买了旅游保险。",
+    "read": "Wǒ mǎi le lǚ yóu bǎo xiǎn.",
+    "ko": "만약 실패한다면 어떻게 하죠?",
+    "en": "Suppose we fail, what then?"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "目的与条件：为了、以便、只要、除非、否则、万一",
+   "en": "Purpose and condition: 为了 / 以便 / 只要 / 除非 / 否则 / 万一"
+  },
+  "explain": {
+   "ko": "目的用“为了”和“以便”：为了买票，我去得很早。我大声说话，以便大家都能听见。条件用“只要……就……”和“除非……否则……”：只要你守信用，我就帮你。除非你快点，否则会迟到。“否则”也可以单独用：快点，否则要迟到了。“万一”用于预防不好的事：带上伞，万一下雨呢。",
+   "en": "Purpose uses 为了 and 以便: 为了买票，我去得很早。我大声说话，以便大家都能听见. Conditions use 只要……就…… and 除非……否则……: 只要你守信用，我就帮你。除非你快点，否则会迟到. 否则 can stand alone: 快点，否则要迟到了. 万一 guards against the unwanted: 带上伞，万一下雨呢."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "目的 / Purpose",
+     "为了＋动词，……",
+     "为了买票，我去得很早。"
+    ],
+    [
+     "结果目的 / So that",
+     "……，以便＋动词",
+     "大声说话，以便大家都能听见。"
+    ],
+    [
+     "条件 / Condition",
+     "只要……就……",
+     "只要你守信用，我就帮你。"
+    ],
+    [
+     "否则 / Otherwise",
+     "除非……，否则……",
+     "除非你快点，否则会迟到。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“为了”放在句首或动词前。",
+    "en": "为了 goes at the start of the clause or before the verb."
+   },
+   {
+    "ko": "“只要……就……”表示充分条件。",
+    "en": "只要……就…… marks a sufficient condition."
+   },
+   {
+    "ko": "“万一”只用于不希望发生的事。",
+    "en": "万一 is for unwanted events."
+   }
+  ],
+  "examples": [
+   {
+    "t": "为了买票，我去得很早。",
+    "read": "Wèile mǎi piào, wǒ qù de hěn zǎo.",
+    "ko": "표를 사기 위해 일찍 갔어요.",
+    "en": "I went early in order to buy a ticket."
+   },
+   {
+    "t": "我大声说话，以便大家都能听见。",
+    "read": "Wǒ dà shēng shuōhuà, yǐ biàn dàjiā dōu néng tīng jiàn.",
+    "ko": "모두가 들을 수 있도록 크게 말했어요.",
+    "en": "I spoke loudly so that everyone could hear."
+   },
+   {
+    "t": "只要你守信用，我就帮你。",
+    "read": "Zhī yào nǐ shǒu xìn yòng, wǒ jiù bāng nǐ.",
+    "ko": "약속을 지키는 한 도와줄게요.",
+    "en": "I'll help as long as you keep your promise."
+   },
+   {
+    "t": "除非你快点，否则会迟到。",
+    "read": "Chú fēi nǐ kuàidiǎn, fǒuzé huì chídào.",
+    "ko": "서두르지 않으면 늦을 거예요.",
+    "en": "Unless you hurry, you'll be late."
+   },
+   {
+    "t": "带上伞，万一下雨呢。",
+    "read": "Dàishang sǎn, wàn yíxià yǔ ne.",
+    "ko": "비가 올 경우에 대비해 우산을 가져가요.",
+    "en": "Take an umbrella in case it rains."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___买票，我去得很早。",
+    "options": [
+     "为了",
+     "虽然",
+     "因为"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "只要你守信用，我___帮你。",
+    "options": [
+     "就",
+     "才",
+     "却"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "除非你快点，___会迟到。",
+    "options": [
+     "否则",
+     "所以",
+     "而且"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "带上伞，___下雨呢。",
+    "options": [
+     "万一",
+     "已经",
+     "刚才"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你为什么去得这么早？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 아르바이트를 해요?",
+     "en": "(Question) Why do you work part-time?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "为了买到票。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你什么时候肯帮我？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어떤 조건으로 허락하셨어요?",
+     "en": "(Question) On what condition did they allow it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "只要你守信用。",
+       "是的，我喜欢。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我可以免费取消预订吗？"
+      },
+      {
+       "s": "B",
+       "t": "只要提前三天取消，就不收费。"
+      },
+      {
+       "s": "A",
+       "t": "好的，那我再买保险，万一下雨呢。"
+      },
+      {
+       "s": "B",
+       "t": "好的，我这就给您办。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 왜 주말마다 일해?\nB: 여행 경비를 모으기 위해서야. 부모님은 성적을 유지하는 한 허락해 주셨어.\nA: 우비는 샀어?\nB: 응. 비가 올 경우에 대비해서. 서두르지 않으면 표가 매진될 거야.",
+     "en": "A: Why do you work every weekend?\nB: In order to save money for my trip. My parents agreed as long as I keep up my grades.\nA: Did you buy a raincoat?\nB: Yes, in case it rains. Unless I hurry, the tickets will sell out."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "提前几天取消不收费？",
+      "options": [
+       "三天",
+       "一天",
+       "七天"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我周末打工，是为了存钱去旅行。我父母同意了，只要我保持成绩。我还买了雨衣，万一下雨呢。除非我快点，否则票就卖完了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 회사의 목적은 고객이 더 쉽게 쓸 수 있도록 제품을 개선하는 것입니다. 우리는 비용을 줄이기 위해 새 시스템을 도입했습니다. 직원들이 교육을 받는 한 문제는 없을 것입니다. 그렇지 않으면 오류가 늘 수 있습니다.",
+     "en": "The aim of this company is to improve products so that customers can use them more easily. We introduced a new system in order to cut costs. There will be no problem as long as staff are trained; otherwise errors may increase."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人为什么周末打工？",
+      "options": [
+       "为了存钱去旅行",
+       "为了买衣服",
+       "为了学习"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "旅行社，请讲。"
+      },
+      {
+       "s": "B",
+       "t": "我可以免费取消预订吗？"
+      },
+      {
+       "s": "A",
+       "t": "只要提前三天取消，就不收费。"
+      },
+      {
+       "s": "B",
+       "t": "好的。我再买保险，万一下雨呢。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 여행사입니다.\n손님: 취소 수수료 없이 예약할 수 있나요?\n직원: 3일 전에 취소하시면 수수료가 없습니다.\n손님: 알겠습니다. 비가 올 경우에 대비해 보험도 넣을게요.",
+     "en": "Staff: Travel agency.\nGuest: Can I book without a cancellation fee?\nStaff: If you cancel three days before, there is no fee.\nGuest: Fine. I'll add insurance in case it rains."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "只要提前三天取消，就不收______",
+      "answers": [
+       "费"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "我再买保险，万一______呢",
+      "answers": [
+       "下雨"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___买票，我去得很早。\n2) 只要你守信用，我___帮你。\n3) 除非你快点，___会迟到。",
+    "trans": {
+     "ko": "1) 표를 사기 위해 일찍 갔어요. 2) 약속을 지키는 한 도와줄게요. 3) 서두르지 않으면 늦을 거예요.",
+     "en": "1) I went early in order to buy a ticket. 2) I'll help as long as you keep your promise. 3) Unless you hurry, you'll be late."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___买票，我去得很早。",
+      "options": [
+       "为了",
+       "虽然",
+       "因为"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "只要你守信用，我___帮你。",
+      "options": [
+       "就",
+       "才",
+       "却"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "除非你快点，___会迟到。",
+      "options": [
+       "否则",
+       "所以",
+       "而且"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我周末打工，是为了(1)去旅行。我父母同意了，只要我保持成绩。我还买了雨衣，万一(2)呢。除非我快点，(3)票就卖完了。",
+    "trans": {
+     "ko": "이 회사의 목적은 고객이 더 쉽게 쓸 수 있도록 제품을 개선하는 것입니다. 우리는 비용을 줄이기 위해 새 시스템을 도입했습니다. 직원들이 교육을 받는 한 문제는 없을 것입니다. 그렇지 않으면 오류가 늘 수 있습니다.",
+     "en": "The aim of this company is to improve products so that customers can use them more easily. We introduced a new system in order to cut costs. There will be no problem as long as staff are trained; otherwise errors may increase."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "存钱",
+       "睡觉",
+       "吃饭"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "下雨",
+       "晴天",
+       "开心"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "否则",
+       "所以",
+       "而且"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "规定\n图书馆的书可以借阅两个星期。只要在期限内续借，就不会收取罚款。除非有人预约，否则可以续借两次。为了方便大家，图书馆星期天也开放。",
+    "trans": {
+     "ko": "이용 안내\n도서관 회원은 신분증을 지참하는 조건으로 책을 빌릴 수 있습니다. 대출 기간은 2주이며, 연체하지 않는 한 연장이 가능합니다. 책을 훼손할 경우를 대비해 보증금이 필요합니다.",
+     "en": "USER GUIDE\nLibrary members may borrow books provided that they bring ID. The loan period is two weeks and can be extended as long as the book is not overdue. A deposit is required in case a book is damaged."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "书可以借多长时间？",
+      "options": [
+       "两个星期",
+       "一个月",
+       "三天"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "什么情况下可以续借两次？",
+      "options": [
+       "没有人预约",
+       "付钱",
+       "周末"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "素贤为了准备考试，每天早起学习。她说，只要坚持下去，就一定会成功。万一失败了，她也会再试一次。",
+    "trans": {
+     "ko": "준호는 시험에 합격하기 위해 매일 공부해요. 부모님은 그가 건강을 지키는 한 응원하세요. 서두르지 않으면 접수가 끝나므로 오늘 신청하려고 해요.",
+     "en": "Junho studies every day in order to pass the exam. His parents support him as long as he stays healthy. Unless he hurries, registration will close, so he plans to apply today."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "素贤每天早起学习。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "素贤已经放弃了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "素贤的考试在冬天。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你为什么去得这么早？",
+    "read": "Nǐ wèishénme qù děi zhè me zǎo?",
+    "ko": "왜 그렇게 일찍 갔어요?",
+    "en": "Why did you go so early?",
+    "situation": {
+     "ko": "목적을 물을 때",
+     "en": "Asking about a purpose"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "为了买票，我去得很早。",
+    "read": "Wèile mǎi piào, wǒ qù de hěn zǎo.",
+    "ko": "표를 사기 위해 일찍 갔어요.",
+    "en": "I went early in order to buy a ticket.",
+    "situation": {
+     "ko": "목적을 말할 때",
+     "en": "Stating a purpose"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我大声说话，以便大家都能听见。",
+    "read": "Wǒ dà shēng shuōhuà, yǐ biàn dàjiā dōu néng tīng jiàn.",
+    "ko": "모두가 들을 수 있도록 크게 말했어요.",
+    "en": "I spoke loudly so that everyone could hear.",
+    "situation": {
+     "ko": "결과적 목적을 말할 때",
+     "en": "A purpose with a clause"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "只要你守信用，我就帮你。",
+    "read": "Zhī yào nǐ shǒu xìn yòng, wǒ jiù bāng nǐ.",
+    "ko": "약속을 지키는 한 도와줄게요.",
+    "en": "I'll help as long as you keep your promise.",
+    "situation": {
+     "ko": "조건을 말할 때",
+     "en": "Setting a condition"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "除非你快点，否则会迟到。",
+    "read": "Chú fēi nǐ kuàidiǎn, fǒuzé huì chídào.",
+    "ko": "제때 오는 조건으로 허락할게요.",
+    "en": "I'll allow it provided that you come on time.",
+    "situation": {
+     "ko": "격식 있는 조건",
+     "en": "A formal condition"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "快点，否则要迟到了。",
+    "read": "Kuàidiǎn, fǒuzé yào chídào le.",
+    "ko": "서두르지 않으면 늦을 거예요.",
+    "en": "Unless you hurry, you'll be late.",
+    "situation": {
+     "ko": "부정 조건을 말할 때",
+     "en": "A negative condition"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "带上伞，万一下雨呢。",
+    "read": "Dàishang sǎn, wàn yíxià yǔ ne.",
+    "ko": "서둘러요. 그렇지 않으면 늦어요.",
+    "en": "Hurry up; otherwise you'll be late.",
+    "situation": {
+     "ko": "경고할 때",
+     "en": "Warning"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我买了旅游保险。",
+    "read": "Wǒ mǎi le lǚ yóu bǎo xiǎn.",
+    "ko": "비가 올 경우에 대비해 우산을 가져가요.",
+    "en": "Take an umbrella in case it rains.",
+    "situation": {
+     "ko": "대비할 때",
+     "en": "Preparing for a possibility"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "为了……，……。",
+    "read": "Wèile …, ….",
+    "ko": "~하기 위해",
+    "en": "(in order) to + verb / so as to + verb."
+   },
+   {
+    "id": "w2",
+    "t": "……，以便……。",
+    "read": "…, Yǐ biàn ….",
+    "ko": "~하도록",
+    "en": "so that + clause (can / could / will / would)."
+   },
+   {
+    "id": "w3",
+    "t": "只要……，就……。",
+    "read": "Zhī yào …, jiù ….",
+    "ko": "~하는 한 / ~라는 조건으로",
+    "en": "as long as / provided that + clause."
+   },
+   {
+    "id": "w4",
+    "t": "除非……，否则……。",
+    "read": "Chú fēi …, fǒuzé ….",
+    "ko": "~하지 않으면",
+    "en": "unless + clause / otherwise + clause."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "목적과 조건을 나타내는 표현을 써서 계획을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about a plan, using purpose and condition linkers."
+   },
+   "must_include": [
+    {
+     "label": "为了",
+     "match": [
+      "为了"
+     ]
+    },
+    {
+     "label": "只要",
+     "match": [
+      "只要"
+     ]
+    },
+    {
+     "label": "万一",
+     "match": [
+      "万一"
+     ]
+    }
+   ],
+   "model": "我周末打工，是为了存钱去旅行。我父母同意了，只要我保持成绩。我还买了雨衣，万一下雨呢。除非我快点，否则票就卖完了。",
+   "model_trans": {
+    "ko": "저는 여행 경비를 모으기 위해 주말에 아르바이트를 해요. 부모님은 제가 학교 성적을 유지하는 한 여행을 허락하셨어요. 비가 올 경우에 대비해 우비도 샀어요. 서두르지 않으면 표가 매진될 거예요.",
+    "en": "I work part-time at weekends in order to save money for my trip. My parents allowed it as long as I keep up my grades. I also bought a raincoat in case it rains. Unless I hurry, the tickets will sell out."
+   }
+  }
+ }
+}

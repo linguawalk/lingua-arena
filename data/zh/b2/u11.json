@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u11",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 11,
+  "concept": "B2.U11",
+  "status": "live",
+  "title": {
+   "target": "进一步的将来表达",
+   "ko": "미래 표현 심화",
+   "en": "Advanced future forms"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "日程",
+   "pos": "noun",
+   "read": "rì chéng",
+   "ko": "일정",
+   "en": "schedule",
+   "ex": {
+    "t": "下周的日程已经排好了。",
+    "read": "Xià zhōu de rì chéng yǐjīng pái hǎo le.",
+    "ko": "내일 일정이 꽉 차 있어요.",
+    "en": "Tomorrow's schedule is full."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "截止日期",
+   "pos": "noun",
+   "read": "jié zhǐ rìqī",
+   "ko": "마감",
+   "en": "deadline",
+   "ex": {
+    "t": "截止日期是星期五。",
+    "read": "Jié zhǐ rìqī shì xīngqīwǔ.",
+    "ko": "마감은 금요일이에요.",
+    "en": "The deadline is on Friday."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "预计",
+   "pos": "phrase",
+   "read": "yù jì",
+   "ko": "도착 예정이다",
+   "en": "be due to arrive",
+   "ex": {
+    "t": "预计火车六点到达。",
+    "read": "Yù jì huǒchē liù diǎn dàodá.",
+    "ko": "기차는 6시에 도착할 예정이에요.",
+    "en": "The train is due to arrive at six."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "快要",
+   "pos": "phrase",
+   "read": "kuài yào",
+   "ko": "막 ~하려던 참이다",
+   "en": "be about to",
+   "ex": {
+    "t": "天快要黑了。",
+    "read": "Tiān kuài yào hēi le.",
+    "ko": "저는 막 나가려던 참이었어요.",
+    "en": "I was just about to leave."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "到时候",
+   "pos": "phrase",
+   "read": "dào shíhou",
+   "ko": "그때쯤이면",
+   "en": "by then",
+   "ex": {
+    "t": "到时候我再联系你。",
+    "read": "Dào shíhou wǒ zài lián xì nǐ.",
+    "ko": "그때쯤이면 일이 끝나 있을 거예요.",
+    "en": "By then the work will have finished."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "前景",
+   "pos": "noun",
+   "read": "qián jǐng",
+   "ko": "전망",
+   "en": "prospect",
+   "ex": {
+    "t": "这个行业前景很好。",
+    "read": "Zhège háng yè qián jǐng hěn hǎo.",
+    "ko": "취업 전망이 밝아요.",
+    "en": "The job prospects are bright."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "计划",
+   "pos": "verb",
+   "read": "jìhuà",
+   "ko": "계획하다",
+   "en": "plan",
+   "ex": {
+    "t": "我们计划下周搬家。",
+    "read": "Wǒmen jìhuà xià zhōu bān jiā.",
+    "ko": "그들은 다음 달에 이사할 계획이에요.",
+    "en": "They plan to move next month."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "预测",
+   "pos": "verb",
+   "read": "yù cè",
+   "ko": "예측하다",
+   "en": "predict",
+   "ex": {
+    "t": "专家预测经济会增长。",
+    "read": "Zhuān jiā yù cè jīng jì huì zēng cháng.",
+    "ko": "전문가들은 경기 회복을 예측해요.",
+    "en": "Experts predict an economic recovery."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "即将",
+   "pos": "phrase",
+   "read": "jí jiāng",
+   "ko": "바로 ~할 것이다",
+   "en": "be on the point of",
+   "ex": {
+    "t": "会议即将开始。",
+    "read": "Huìyì jí jiāng kāishǐ.",
+    "ko": "그는 막 사임하려는 참이에요.",
+    "en": "He is on the point of resigning."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "长远来看",
+   "pos": "phrase",
+   "read": "cháng yuǎn lái kàn",
+   "ko": "장기적으로",
+   "en": "in the long run",
+   "ex": {
+    "t": "长远来看，这笔投资很划算。",
+    "read": "Cháng yuǎn lái kàn, zhè bǐ tóu zī hěn huá suàn.",
+    "ko": "장기적으로 그 투자는 이익이 될 거예요.",
+    "en": "In the long run the investment will pay off."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "将来：将要、快要……了、即将、到时候、到……就……了",
+   "en": "The future: 将要 / 快要……了 / 即将 / 到时候 / 到……就……了"
+  },
+  "explain": {
+   "ko": "汉语没有将来时，用“会、要、将”和时间词表示将来。快发生的事，用“快要……了、就要……了、即将……”：会议即将开始，天快要黑了。预定的事用“预计、计划、定于”：预计火车六点到达。到某个时间时的状态用“到……就……了”：到下个月，我就在这儿工作五年了。“明天这个时候，我将在飞往巴黎的飞机上”表示将来某时正在进行的事。",
+   "en": "Chinese has no future tense; 会, 要, 将 and time words mark future. Imminent events: 快要……了／就要……了／即将……: 会议即将开始, 天快要黑了. Scheduled events: 预计／计划／定于: 预计火车六点到达. A state by a time: 到……就……了: 到下个月，我就在这儿工作五年了. 明天这个时候，我将在飞往巴黎的飞机上."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "快要发生 / Imminent",
+     "快要／就要／即将……了",
+     "会议即将开始。"
+    ],
+    [
+     "预计 / Expected",
+     "预计／将＋动词",
+     "预计火车六点到达。"
+    ],
+    [
+     "到某时 / By then",
+     "到……就……了",
+     "到下个月，我就工作五年了。"
+    ],
+    [
+     "长远 / Long run",
+     "长远来看……",
+     "长远来看，这笔投资很划算。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“快要……了”常用来表示马上就要发生的事。",
+    "en": "快要……了 often marks something about to happen."
+   },
+   {
+    "ko": "“即将”比较正式。",
+    "en": "即将 is more formal."
+   },
+   {
+    "ko": "“预计”表示有根据的推测。",
+    "en": "预计 expresses an informed forecast."
+   }
+  ],
+  "examples": [
+   {
+    "t": "明天这个时候，我将在飞往巴黎的飞机上。",
+    "read": "Míngtiān zhège shíhou, wǒ jiāng zài fēi wǎng Bālí de fēijī shàng.",
+    "ko": "내일 이 시간에 저는 비행기 안에 있을 거예요.",
+    "en": "This time tomorrow I will be flying."
+   },
+   {
+    "t": "到下个月，我就在这儿工作五年了。",
+    "read": "Dào xià ge yuè, wǒ jiù zài zhèr gōngzuò wǔ nián le.",
+    "ko": "다음 달이면 저는 여기서 5년째 일하게 돼요.",
+    "en": "By next month I will have worked here for five years."
+   },
+   {
+    "t": "预计火车六点到达。",
+    "read": "Yù jì huǒchē liù diǎn dàodá.",
+    "ko": "기차는 6시에 도착할 예정이에요.",
+    "en": "The train is due to arrive at six."
+   },
+   {
+    "t": "我正要出门。",
+    "read": "Wǒ zhèng yào chūmén.",
+    "ko": "저는 막 나가려던 참이었어요.",
+    "en": "I was just about to leave."
+   },
+   {
+    "t": "长远来看，这笔投资很划算。",
+    "read": "Cháng yuǎn lái kàn, zhè bǐ tóu zī hěn huá suàn.",
+    "ko": "우리는 다음 주에 새 사무실로 이사할 거예요.",
+    "en": "We are moving to a new office next week."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "明天这个时候，我___在飞往巴黎的飞机上。",
+    "options": [
+     "将",
+     "曾",
+     "刚"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "到下个月，我___在这儿工作五年了。",
+    "options": [
+     "就",
+     "才",
+     "却"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "预计火车六点___。",
+    "options": [
+     "到达",
+     "出发了",
+     "想念"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "会议___开始。",
+    "options": [
+     "即将",
+     "已经",
+     "曾经"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明天这个时候你在做什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 내일 이 시간에 뭘 하고 있을 것 같아요?",
+     "en": "(Question) What will you be doing this time tomorrow?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我将在飞机上。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你什么时候联系我？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 기차는 몇 시에 도착할 예정인가요?",
+     "en": "(Question) What time is the train due to arrive?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "到时候我再联系你。",
+       "昨天联系了。",
+       "我不知道。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明天这个时候你在做什么？"
+      },
+      {
+       "s": "B",
+       "t": "我将在飞往巴黎的飞机上。"
+      },
+      {
+       "s": "A",
+       "t": "你什么时候回来？"
+      },
+      {
+       "s": "B",
+       "t": "到下个月，我在这家公司就工作五年了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 내일 오후에 시간 있어?\nB: 아니, 이 시간에 나는 비행기를 타고 있을 거야.\nA: 그럼 다음 주는?\nB: 다음 주 이맘때면 이미 출장을 마치고 돌아와 있을 거야.",
+     "en": "A: Are you free tomorrow afternoon?\nB: No, this time tomorrow I'll be flying.\nA: What about next week?\nB: By this time next week I will have come back from the business trip."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "到下个月，他在这家公司工作多久了？",
+      "options": [
+       "五年",
+       "一年",
+       "十年"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明天这个时候，我将在飞往巴黎的飞机上。到下个月，这个项目就结束了。会议定于下午三点开始。长远来看，这个计划会给公司带来好处。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "회사는 다음 달에 새 사무실로 이사할 예정입니다. 이사는 금요일 오후에 시작되어 일요일까지는 끝나 있을 것입니다. 월요일 아침에 직원들은 새 건물에서 일하고 있을 것입니다.",
+     "en": "The company is moving to a new office next month. The move is due to begin on Friday afternoon and will have finished by Sunday. On Monday morning staff will be working in the new building."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "会议定于什么时候开始？",
+      "options": [
+       "下午三点",
+       "上午九点",
+       "晚上七点"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "铁路问询处。"
+      },
+      {
+       "s": "B",
+       "t": "开往巴黎的火车几点到达？"
+      },
+      {
+       "s": "A",
+       "t": "预计六点到达。不过可能会晚十分钟左右。"
+      },
+      {
+       "s": "B",
+       "t": "知道了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 철도 안내입니다.\n손님: 파리행 기차는 몇 시에 도착할 예정인가요?\n직원: 6시에 도착할 예정입니다. 하지만 약 10분 늦을 수 있습니다.\n손님: 알겠습니다.",
+     "en": "Staff: Rail information.\nGuest: What time is the Paris train due to arrive?\nStaff: It is due at six. But it may be about ten minutes late.\nGuest: I see."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "开往______的火车几点到达",
+      "answers": [
+       "巴黎"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "预计______点到达",
+      "answers": [
+       "六"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 明天这个时候，我___在飞往巴黎的飞机上。\n2) 到下个月，我___在这儿工作五年了。\n3) 预计火车六点___。",
+    "trans": {
+     "ko": "1) 내일 이 시간에 저는 비행기 안에 있을 거예요. 2) 다음 달이면 저는 여기서 5년째 일하게 돼요. 3) 기차는 6시에 도착할 예정이에요.",
+     "en": "1) This time tomorrow I will be flying. 2) By next month I will have worked here for five years. 3) The train is due to arrive at six."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "明天这个时候，我___在飞往巴黎的飞机上。",
+      "options": [
+       "将",
+       "曾",
+       "刚"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "到下个月，我___在这儿工作五年了。",
+      "options": [
+       "就",
+       "才",
+       "却"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "预计火车六点___。",
+      "options": [
+       "到达",
+       "出发了",
+       "想念"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "明天这个时候，我将在飞往巴黎的(1)上。到下个月，这个项目就(2)了。会议定于下午三点开始。长远来看，这个计划会给公司带来(3)。",
+    "trans": {
+     "ko": "회사는 다음 달에 새 사무실로 이사할 예정입니다. 이사는 금요일 오후에 시작되어 일요일까지는 끝나 있을 것입니다. 월요일 아침에 직원들은 새 건물에서 일하고 있을 것입니다.",
+     "en": "The company is moving to a new office next month. The move is due to begin on Friday afternoon and will have finished by Sunday. On Monday morning staff will be working in the new building."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "飞机",
+       "火车",
+       "船"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "结束",
+       "开始",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "好处",
+       "坏处",
+       "麻烦"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "通知\n由于施工，下个月一号起，二号线地铁将暂时停运一个月。预计到月底，施工就会完成。请乘客提前安排好出行时间，也可以乘坐临时公共汽车。",
+    "trans": {
+     "ko": "공지\n다음 주 월요일부터 도서관은 새로운 시스템을 사용할 예정입니다. 금요일 저녁에는 서버가 점검되고, 토요일까지는 모든 자료가 옮겨져 있을 것입니다. 이용자 여러분은 월요일에 새 로그인 방법을 사용하게 될 것입니다.",
+     "en": "NOTICE\nFrom next Monday the library will use a new system. The server will be checked on Friday evening, and by Saturday all the data will have been moved. On Monday users will be logging in in a new way."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "地铁什么时候停运？",
+      "options": [
+       "下个月一号起",
+       "这个月底",
+       "明天"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "乘客可以怎么办？",
+      "options": [
+       "乘坐临时公共汽车",
+       "走路",
+       "不出门"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "英秀快要毕业了。到明年这个时候，他就已经在公司工作半年了。他预计，长远来看，这个专业的前景会很好。",
+    "trans": {
+     "ko": "지민은 다음 달에 대학을 졸업해요. 그때쯤이면 그녀는 4년 동안 공부를 마쳤을 거예요. 졸업 후에는 파리에서 일할 계획이에요.",
+     "en": "Jimin graduates next month. By then she will have finished four years of study. After graduation she plans to work in Paris."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "英秀快要毕业了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "英秀已经毕业三年了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "英秀的专业是医学。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "明天这个时候你在做什么？",
+    "read": "Míngtiān zhège shíhou nǐ zài zuò shénme?",
+    "ko": "내일 이 시간에 뭘 하고 있을 것 같아요?",
+    "en": "What will you be doing this time tomorrow?",
+    "situation": {
+     "ko": "미래 진행을 물을 때",
+     "en": "Asking about a future activity"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "明天这个时候我将在飞机上。",
+    "read": "Míngtiān zhège shíhou wǒ jiāng zài fēijī shàng.",
+    "ko": "내일 이 시간에 저는 비행기 안에 있을 거예요.",
+    "en": "This time tomorrow I will be flying.",
+    "situation": {
+     "ko": "미래의 한 시점의 진행",
+     "en": "An action in progress at a future time"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "到下个月，我就工作五年了。",
+    "read": "Dào xià ge yuè, wǒ jiù gōngzuò wǔ nián le.",
+    "ko": "다음 달이면 저는 여기서 5년째 일하게 돼요.",
+    "en": "By next month I will have worked here for five years.",
+    "situation": {
+     "ko": "미래 시점까지의 완료",
+     "en": "Completion by a future time"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "预计火车六点到达。",
+    "read": "Yù jì huǒchē liù diǎn dàodá.",
+    "ko": "기차는 6시에 도착할 예정이에요.",
+    "en": "The train is due to arrive at six.",
+    "situation": {
+     "ko": "공식 일정을 말할 때",
+     "en": "Talking about a timetable"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我正要出门。",
+    "read": "Wǒ zhèng yào chūmén.",
+    "ko": "저는 막 나가려던 참이었어요.",
+    "en": "I was just about to leave.",
+    "situation": {
+     "ko": "임박한 행동을 말할 때",
+     "en": "An action about to happen"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我们下周搬家。",
+    "read": "Wǒmen xià zhōu bān jiā.",
+    "ko": "우리는 다음 주에 새 사무실로 이사할 거예요.",
+    "en": "We are moving to a new office next week.",
+    "situation": {
+     "ko": "확정된 계획",
+     "en": "A fixed arrangement"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "长远来看，这笔投资很划算。",
+    "read": "Cháng yuǎn lái kàn, zhè bǐ tóu zī hěn huá suàn.",
+    "ko": "장기적으로 그 투자는 이익이 될 거예요.",
+    "en": "In the long run the investment will pay off.",
+    "situation": {
+     "ko": "예측을 말할 때",
+     "en": "Making a prediction"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "到时候我再联系你。",
+    "read": "Dào shíhou wǒ zài lián xì nǐ.",
+    "ko": "그때 다시 연락드릴게요.",
+    "en": "I'll get back to you by then.",
+    "situation": {
+     "ko": "대화를 마무리할 때",
+     "en": "Ending a call"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "明天这个时候，我将……。",
+    "read": "Míngtiān zhège shíhou, wǒ jiāng ….",
+    "ko": "~하고 있을 것이다.",
+    "en": "will be + -ing."
+   },
+   {
+    "id": "w2",
+    "t": "到……，我就……了。",
+    "read": "Dào …, wǒ jiù … le.",
+    "ko": "~해 있을 것이다.",
+    "en": "will have + p.p."
+   },
+   {
+    "id": "w3",
+    "t": "预计……。",
+    "read": "Yù jì ….",
+    "ko": "~할 예정이다.",
+    "en": "be due to / be to + verb."
+   },
+   {
+    "id": "w4",
+    "t": "……即将……。",
+    "read": "… Jí jiāng ….",
+    "ko": "막 ~하려 하다.",
+    "en": "be about to + verb."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "미래의 계획과 예측을 4문장으로 써 보세요. will be -ing와 will have + p.p.를 하나씩 쓰세요.",
+    "en": "Write 4 sentences about future plans and predictions. Use will be -ing and will have + past participle once each."
+   },
+   "must_include": [
+    {
+     "label": "将",
+     "match": [
+      "将"
+     ]
+    },
+    {
+     "label": "到",
+     "match": [
+      "到"
+     ]
+    },
+    {
+     "label": "快要",
+     "match": [
+      "快要"
+     ]
+    }
+   ],
+   "model": "明天这个时候，我将在飞往巴黎的飞机上。到下个月，这个项目就结束了。会议快要开始了。长远来看，这个计划对公司有好处。",
+   "model_trans": {
+    "ko": "내일 이 시간에 저는 파리행 비행기를 타고 있을 거예요. 다음 달이면 이 프로젝트는 끝나 있을 거예요. 회의는 3시에 시작할 예정이에요. 장기적으로는 이 계획이 회사에 이익이 될 거예요.",
+    "en": "This time tomorrow I will be flying to Paris. By next month this project will have finished. The meeting is due to start at three. In the long run this plan will pay off for the company."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u10",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 10,
+  "concept": "B2.U10",
+  "status": "live",
+  "title": {
+   "target": "转述和间接引语",
+   "ko": "간접화법 심화",
+   "en": "Reported speech in depth"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "坚持",
+   "pos": "verb",
+   "read": "jiān chí",
+   "ko": "주장하다",
+   "en": "insist",
+   "ex": {
+    "t": "他坚持说自己是对的。",
+    "read": "Tā jiān chí shuō zìjǐ shì duì de.",
+    "ko": "그는 자기가 옳다고 주장했어요.",
+    "en": "He insisted that he was right."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "建议",
+   "pos": "verb",
+   "read": "jiànyì",
+   "ko": "제안하다",
+   "en": "suggest",
+   "ex": {
+    "t": "她建议早点走。",
+    "read": "Tā jiànyì zǎo diǎn zǒu.",
+    "ko": "그녀는 일찍 출발하자고 제안했어요.",
+    "en": "She suggested leaving early."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "承认",
+   "pos": "verb",
+   "read": "chéngrèn",
+   "ko": "인정하다",
+   "en": "admit",
+   "ex": {
+    "t": "他承认自己犯了错误。",
+    "read": "Tā chéngrèn zìjǐ fàn le cuòwù.",
+    "ko": "그는 실수를 인정했어요.",
+    "en": "He admitted making a mistake."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "否认",
+   "pos": "verb",
+   "read": "fǒu rèn",
+   "ko": "부인하다",
+   "en": "deny",
+   "ex": {
+    "t": "他否认说过那句话。",
+    "read": "Tā fǒu rèn shuō guo nà jù huà.",
+    "ko": "그녀는 그 돈을 가져가지 않았다고 부인했어요.",
+    "en": "She denied taking the money."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "警告",
+   "pos": "verb",
+   "read": "jǐng gào",
+   "ko": "경고하다",
+   "en": "warn",
+   "ex": {
+    "t": "医生警告他少喝酒。",
+    "read": "Yīshēng jǐng gào tā shǎo hē jiǔ.",
+    "ko": "의사는 그에게 술을 줄이라고 경고했어요.",
+    "en": "The doctor warned him to cut down on alcohol."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "答应",
+   "pos": "verb",
+   "read": "dāying",
+   "ko": "약속하다",
+   "en": "promise",
+   "ex": {
+    "t": "他答应明天做完。",
+    "read": "Tā dāying míngtiān zuò wán.",
+    "ko": "그는 일찍 오겠다고 약속했어요.",
+    "en": "He promised to come early."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "解释",
+   "pos": "verb",
+   "read": "jiěshì",
+   "ko": "설명하다",
+   "en": "explain",
+   "ex": {
+    "t": "她向大家解释了原因。",
+    "read": "Tā xiàng dàjiā jiěshì le yuányīn.",
+    "ko": "그녀는 문제의 원인을 설명했어요.",
+    "en": "She explained the cause of the problem."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "抱怨",
+   "pos": "verb",
+   "read": "bào yuàn",
+   "ko": "불평하다",
+   "en": "complain",
+   "ex": {
+    "t": "他抱怨工作太多。",
+    "read": "Tā bào yuàn gōngzuò tài duō.",
+    "ko": "손님은 서비스가 느리다고 불평했어요.",
+    "en": "The customer complained that the service was slow."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "通知",
+   "pos": "verb",
+   "read": "tōngzhī",
+   "ko": "알려 주다",
+   "en": "inform",
+   "ex": {
+    "t": "公司通知我们下周开会。",
+    "read": "Gōngsī tōngzhī wǒmen xià zhōu kāi huì.",
+    "ko": "그들은 우리에게 결과를 알려 주었어요.",
+    "en": "They informed us of the results."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "转告",
+   "pos": "verb",
+   "read": "zhuǎn gào",
+   "ko": "전하다",
+   "en": "relay",
+   "ex": {
+    "t": "请你转告他这件事。",
+    "read": "Qǐng nǐ zhuǎn gào tā zhè jiàn shì.",
+    "ko": "그가 한 말을 제가 전해 드릴게요.",
+    "en": "I'll relay what he said."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "转述：他说、坚持说、建议、承认、否认、警告、答应",
+   "en": "Reported speech: 他说 / 坚持说 / 建议 / 承认 / 否认 / 警告 / 答应"
+  },
+  "explain": {
+   "ko": "汉语转述别人的话，动词不需要变形，时间词和人称要根据说话的情况改变：他说，他昨天来过这里。转述的动词有“说、建议、承认、否认、警告、答应”等：医生警告他少喝酒，他答应明天做完。“请你转告他”表示请别人传话。“向……解释”用于说明原因。",
+   "en": "To report speech, verbs do not change; adjust time words and pronouns: 他说，他昨天来过这里. Reporting verbs include 说, 建议, 承认, 否认, 警告, 答应: 医生警告他少喝酒，他答应明天做完. 请你转告他 asks someone to pass on a message. 向……解释 gives reasons."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "陈述 / Statement",
+     "他说＋句子",
+     "他说他昨天来过这里。"
+    ],
+    [
+     "建议 / Suggestion",
+     "建议＋动词／句子",
+     "她建议早点走。"
+    ],
+    [
+     "警告 / Warning",
+     "警告＋人＋动词",
+     "医生警告他少喝酒。"
+    ],
+    [
+     "承诺 / Promise",
+     "答应＋动词",
+     "他答应明天做完。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "转述时，“我”常变成“他／她”。",
+    "en": "In reported speech 我 often becomes 他/她."
+   },
+   {
+    "ko": "“今天”变成“当天”，“明天”变成“第二天”。",
+    "en": "今天 becomes 当天, 明天 becomes 第二天."
+   },
+   {
+    "ko": "“说”后面可以直接接句子，不需要“that”。",
+    "en": "说 can be followed directly by a clause."
+   }
+  ],
+  "examples": [
+   {
+    "t": "他坚持说自己是对的。",
+    "read": "Tā jiān chí shuō zìjǐ shì duì de.",
+    "ko": "그는 자기가 옳다고 주장했어요.",
+    "en": "He insisted that he was right."
+   },
+   {
+    "t": "她建议早点走。",
+    "read": "Tā jiànyì zǎo diǎn zǒu.",
+    "ko": "그녀는 일찍 출발하자고 제안했어요.",
+    "en": "She suggested leaving early."
+   },
+   {
+    "t": "他承认自己犯了错误。",
+    "read": "Tā chéngrèn zìjǐ fàn le cuòwù.",
+    "ko": "그는 실수를 인정했어요.",
+    "en": "He admitted making a mistake."
+   },
+   {
+    "t": "医生警告他少喝酒。",
+    "read": "Yīshēng jǐng gào tā shǎo hē jiǔ.",
+    "ko": "의사는 그에게 술을 줄이라고 경고했어요.",
+    "en": "The doctor warned him to cut down on alcohol."
+   },
+   {
+    "t": "他答应第二天做完。",
+    "read": "Tā dāying dì èr tiān zuò wán.",
+    "ko": "그는 어제 이곳에 왔다고 말했어요.",
+    "en": "He said he had come here the day before."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "他___自己犯了错误。",
+    "options": [
+     "承认",
+     "喜欢",
+     "买"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "医生___他少喝酒。",
+    "options": [
+     "警告",
+     "祝贺",
+     "借"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "他___第二天做完。",
+    "options": [
+     "答应",
+     "忘记",
+     "看见"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "她___早点走。",
+    "options": [
+     "建议",
+     "吃",
+     "住"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "他说了什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 뭐라고 했어요?",
+     "en": "(Question) What did he say?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "他说他是对的。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "医生对他说了什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 의사가 뭐라고 경고했어요?",
+     "en": "(Question) What did the doctor warn him about?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "医生警告他少喝酒。",
+       "是的，我喜欢。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "他说了什么？"
+      },
+      {
+       "s": "B",
+       "t": "他坚持说自己是对的。"
+      },
+      {
+       "s": "A",
+       "t": "你的看法呢？"
+      },
+      {
+       "s": "B",
+       "t": "我建议他先承认错误。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 부장님이 뭐라고 하셨어?\nB: 보고서가 늦어서 걱정이라고 하셨어. 일찍 제출하라고 요청하셨고.\nA: 그래서 뭐라고 대답했어?\nB: 내일까지 끝내겠다고 약속했어.",
+     "en": "A: What did the manager say yesterday?\nB: She said she was worried because the report was late. She asked us to submit it early.\nA: What did you answer?\nB: I promised to finish it by the next day."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女的建议他做什么？",
+      "options": [
+       "先承认错误",
+       "辞职",
+       "出去旅行"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "上个星期，我朋友说他在新公司工作得很辛苦。他抱怨老板给他的工作太多。我建议他和老板谈一谈。他答应下个星期去谈。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의사는 환자에게 술을 줄이라고 경고했어요. 또한 매일 걷기를 제안했어요. 환자는 그렇게 하겠다고 약속했어요. 그는 지난해 건강을 소홀히 했던 것을 인정했어요.",
+     "en": "The doctor warned the patient to cut down on alcohol. She also suggested walking every day. The patient promised to do so. He admitted that he had neglected his health the year before."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "朋友答应做什么？",
+      "options": [
+       "和老板谈一谈",
+       "辞职",
+       "加班"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "客服中心，请讲。"
+      },
+      {
+       "s": "B",
+       "t": "我告诉过你们，我上星期买的产品坏了，但是一直没有人回复。"
+      },
+      {
+       "s": "A",
+       "t": "对不起，负责的人答应明天联系您。"
+      },
+      {
+       "s": "B",
+       "t": "好的。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 고객 센터입니다.\n손님: 지난주에 산 제품이 고장 났다고 말씀드렸는데 아직 답이 없어요.\n직원: 죄송합니다. 담당자가 내일 연락드리겠다고 약속했습니다.\n손님: 알겠습니다.",
+     "en": "Staff: Customer centre.\nGuest: I told you the product I bought last week was broken, but I've had no reply.\nStaff: I'm sorry. The person in charge promised to contact you tomorrow.\nGuest: All right."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "我上星期买的______坏了",
+      "answers": [
+       "产品"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "负责的人答应______联系您",
+      "answers": [
+       "明天"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 他___自己犯了错误。\n2) 医生___他少喝酒。\n3) 他___第二天做完。",
+    "trans": {
+     "ko": "1) 그는 자기가 옳다고 주장했어요. 2) 그녀는 일찍 출발하자고 제안했어요. 3) 그는 실수를 인정했어요.",
+     "en": "1) He insisted that he was right. 2) She suggested leaving early. 3) He admitted making a mistake."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他___自己犯了错误。",
+      "options": [
+       "承认",
+       "喜欢",
+       "买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "医生___他少喝酒。",
+      "options": [
+       "警告",
+       "祝贺",
+       "借"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他___第二天做完。",
+      "options": [
+       "答应",
+       "忘记",
+       "看见"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "上个星期，我朋友说他在新公司工作得很(1)。他抱怨老板给他的工作太多。我(2)他和老板谈一谈。他答应下个星期去(3)。",
+    "trans": {
+     "ko": "의사는 환자에게 술을 줄이라고 경고했어요. 또한 매일 걷기를 제안했어요. 환자는 그렇게 하겠다고 약속했어요. 그는 지난해 건강을 소홀히 했던 것을 인정했어요.",
+     "en": "The doctor warned the patient to cut down on alcohol. She also suggested walking every day. The patient promised to do so. He admitted that he had neglected his health the year before."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "辛苦",
+       "轻松",
+       "容易"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "建议",
+       "喜欢",
+       "买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "谈",
+       "睡",
+       "吃"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "邮件\n您好！关于您上星期反映的问题，经理说公司已经收到了您的意见。经理答应，下个星期三以前给您回复。他还建议您保留购买发票，以便处理。",
+    "trans": {
+     "ko": "뉴스\n시장은 어제 기자 회견에서 내년에 세금을 올리지 않겠다고 약속했다. 그는 예산이 부족하다는 비판에 대해 효율적으로 쓰겠다고 주장했다. 반대 의원들은 구체적인 계획을 요구했다.",
+     "en": "NEWS\nAt yesterday's press conference the mayor promised not to raise taxes the following year. In response to criticism that the budget was short, he insisted that it would be used efficiently. Opposition members asked for a detailed plan."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "经理答应什么时候回复？",
+      "options": [
+       "下个星期三以前",
+       "明天",
+       "这个星期五"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "经理建议顾客做什么？",
+      "options": [
+       "保留发票",
+       "再买一个",
+       "不要联系"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "志勋说他昨天看到了那起事故。警察问他，当时是几点。志勋回答说，大概是晚上八点。警察要求他明天去警察局做笔录。",
+    "trans": {
+     "ko": "지후는 회의에서 새 프로젝트를 제안했어요. 몇몇 동료는 비용을 걱정한다고 말했어요. 결국 그들은 한 달 동안 시험해 보기로 합의했어요.",
+     "en": "Jihu proposed a new project at the meeting. Some colleagues said they were worried about the cost. In the end they agreed to try it for a month."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "志勋说他昨天看到了事故。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "志勋没有看到事故。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "事故发生在首尔。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "他说了什么？",
+    "read": "Tā shuō le shénme?",
+    "ko": "그가 뭐라고 했어요?",
+    "en": "What did he say?",
+    "situation": {
+     "ko": "남의 말을 물을 때",
+     "en": "Asking what someone said"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "他坚持说自己是对的。",
+    "read": "Tā jiān chí shuō zìjǐ shì duì de.",
+    "ko": "그는 자기가 옳다고 주장했어요.",
+    "en": "He insisted that he was right.",
+    "situation": {
+     "ko": "주장을 전할 때",
+     "en": "Reporting an insistence"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "她建议早点走。",
+    "read": "Tā jiànyì zǎo diǎn zǒu.",
+    "ko": "그녀는 일찍 출발하자고 제안했어요.",
+    "en": "She suggested leaving early.",
+    "situation": {
+     "ko": "제안을 전할 때",
+     "en": "Reporting a suggestion"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "他承认自己犯了错误。",
+    "read": "Tā chéngrèn zìjǐ fàn le cuòwù.",
+    "ko": "그는 실수를 인정했어요.",
+    "en": "He admitted making a mistake.",
+    "situation": {
+     "ko": "인정을 전할 때",
+     "en": "Reporting an admission"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "医生警告他少喝酒。",
+    "read": "Yīshēng jǐng gào tā shǎo hē jiǔ.",
+    "ko": "의사는 술을 줄이라고 경고했어요.",
+    "en": "The doctor warned him to cut down on alcohol.",
+    "situation": {
+     "ko": "경고를 전할 때",
+     "en": "Reporting a warning"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "他答应第二天做完。",
+    "read": "Tā dāying dì èr tiān zuò wán.",
+    "ko": "그는 어제 이곳에 왔다고 말했어요.",
+    "en": "He said he had come here the day before.",
+    "situation": {
+     "ko": "시제를 바꿔 전할 때",
+     "en": "Changing tenses"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "他说他昨天来过这里。",
+    "read": "Tā shuō tā zuótiān lái guo zhèlǐ.",
+    "ko": "그는 그 일을 내일 끝내겠다고 약속했어요.",
+    "en": "He promised to finish it the next day.",
+    "situation": {
+     "ko": "약속을 전할 때",
+     "en": "Reporting a promise"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "他会自己告诉你细节。",
+    "read": "Tā huì zìjǐ gàosu nǐ xì jié.",
+    "ko": "자세한 내용은 그가 직접 말해 줄 거예요.",
+    "en": "He will tell you the details himself.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Ending"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "他说……。",
+    "read": "Tā shuō ….",
+    "ko": "~라고 말했다.",
+    "en": "S + said (that) + backshifted clause."
+   },
+   {
+    "id": "w2",
+    "t": "我建议……。",
+    "read": "Wǒ jiànyì ….",
+    "ko": "~하자고 제안했다.",
+    "en": "S + suggested + -ing / that + S + should + verb."
+   },
+   {
+    "id": "w3",
+    "t": "他承认……。",
+    "read": "Tā chéngrèn ….",
+    "ko": "~라고 인정했다.",
+    "en": "S + admitted + -ing."
+   },
+   {
+    "id": "w4",
+    "t": "他答应……。",
+    "read": "Tā dāying ….",
+    "ko": "~하라고 경고했다.",
+    "en": "S + warned + O + to + verb."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "친구에게 들은 이야기를 간접화법과 다양한 전달 동사를 써서 4문장으로 써 보세요.",
+    "en": "Write 4 sentences retelling what a friend said, using reported speech and varied reporting verbs."
+   },
+   "must_include": [
+    {
+     "label": "说",
+     "match": [
+      "说"
+     ]
+    },
+    {
+     "label": "建议",
+     "match": [
+      "建议"
+     ]
+    },
+    {
+     "label": "答应",
+     "match": [
+      "答应"
+     ]
+    }
+   ],
+   "model": "上个星期，我朋友说他在新公司工作得很辛苦。他抱怨老板给他的工作太多。我建议他和老板谈一谈。他答应下个星期去谈。",
+   "model_trans": {
+    "ko": "친구는 지난주에 새 직장에서 힘들었다고 말했어요. 그는 상사가 너무 많은 일을 시킨다고 불평했어요. 저는 그에게 상사와 이야기해 보라고 조언했어요. 그는 다음 주에 그렇게 하겠다고 약속했어요.",
+    "en": "My friend said last week that he had had a hard time at his new job. He complained that his boss gave him too much work. I advised him to talk to his boss. He promised to do so the following week."
+   }
+  }
+ }
+}

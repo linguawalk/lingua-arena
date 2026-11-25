@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u47",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 47,
+  "concept": "B2.U47",
+  "status": "live",
+  "title": {
+   "target": "化解矛盾",
+   "ko": "대인 관계와 갈등 해결",
+   "en": "Relationships and conflict resolution"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "矛盾",
+   "pos": "noun",
+   "read": "máo dùn",
+   "ko": "갈등",
+   "en": "conflict",
+   "ex": {
+    "t": "我和家人有矛盾。",
+    "read": "Wǒ hé jiārén yǒu máo dùn.",
+    "ko": "그들 사이에 갈등이 있어요.",
+    "en": "There is conflict between them."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "解开误会",
+   "pos": "phrase",
+   "read": "jiě kāi wù huì",
+   "ko": "오해를 풀다",
+   "en": "clear up a misunderstanding",
+   "ex": {
+    "t": "我们解开了误会。",
+    "read": "Wǒmen jiě kāi le wù huì.",
+    "ko": "우리는 오해를 풀었어요.",
+    "en": "We cleared up the misunderstanding."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "道歉",
+   "pos": "verb",
+   "read": "dào qiàn",
+   "ko": "사과하다",
+   "en": "apologise",
+   "ex": {
+    "t": "他诚恳地道歉了。",
+    "read": "Tā chéng kěn dì dào qiàn le.",
+    "ko": "그는 진심으로 사과했어요.",
+    "en": "He apologised sincerely."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "原谅",
+   "pos": "verb",
+   "read": "yuán liàng",
+   "ko": "용서하다",
+   "en": "forgive",
+   "ex": {
+    "t": "我原谅了朋友。",
+    "read": "Wǒ yuán liàng le péngyou.",
+    "ko": "그녀는 그를 용서했어요.",
+    "en": "She forgave him."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "妥协",
+   "pos": "verb",
+   "read": "tuǒ xié",
+   "ko": "타협하다",
+   "en": "compromise",
+   "ex": {
+    "t": "我们互相妥协吧。",
+    "read": "Wǒmen hù xiāng tuǒ xié ba.",
+    "ko": "우리는 서로 타협했어요.",
+    "en": "We compromised."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "理解",
+   "pos": "verb",
+   "read": "lǐ jiě",
+   "ko": "공감하다",
+   "en": "empathise",
+   "ex": {
+    "t": "我理解你的心情。",
+    "read": "Wǒ lǐ jiě nǐ de xīn qíng.",
+    "ko": "상대방에게 공감하려고 노력했어요.",
+    "en": "I tried to empathise with the other person."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "倾听",
+   "pos": "phrase",
+   "read": "qīng tīng",
+   "ko": "경청하다",
+   "en": "listen carefully",
+   "ex": {
+    "t": "我认真倾听对方的话。",
+    "read": "Wǒ rèn zhēn qīng tīng duì fāng de huà.",
+    "ko": "상대의 말을 경청하세요.",
+    "en": "Listen carefully to the other person."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "承担责任",
+   "pos": "phrase",
+   "read": "chéng dān zé rèn",
+   "ko": "책임을 지다",
+   "en": "take responsibility",
+   "ex": {
+    "t": "我来承担自己的责任。",
+    "read": "Wǒ lái chéng dān zìjǐ de zé rèn.",
+    "ko": "그는 책임을 졌어요.",
+    "en": "He took responsibility."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "和好",
+   "pos": "verb",
+   "read": "hé hǎo",
+   "ko": "화해하다",
+   "en": "reconcile",
+   "ex": {
+    "t": "他们和好了。",
+    "read": "Tāmen hé hǎo le.",
+    "ko": "그들은 마침내 화해했어요.",
+    "en": "They finally reconciled."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "调解",
+   "pos": "verb",
+   "read": "tiáo jiě",
+   "ko": "중재하다",
+   "en": "mediate",
+   "ex": {
+    "t": "朋友出面调解了。",
+    "read": "Péngyou chū miàn tiáo jiě le.",
+    "ko": "친구가 둘 사이를 중재했어요.",
+    "en": "A friend mediated between them."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "和好的话：为……道歉、承担责任、我理解你的心情、……好不好",
+   "en": "Resolving conflict: 为……道歉 / 承担责任 / 我理解你的心情 / ……好不好"
+  },
+  "explain": {
+   "ko": "化解矛盾，首先要“认真倾听对方的话”。道歉用“为……道歉／对不起”，责任用“我来承担责任”。表示理解用“我理解你的心情”，提议用“……好不好／……吧”：我们互相妥协，好不好？误会用“解开误会”，之后“和好”。",
+   "en": "To resolve conflict, first 认真倾听对方的话. Apologise with 为……道歉／对不起, take responsibility with 我来承担责任. Empathise with 我理解你的心情, suggest with ……好不好／……吧: 我们互相妥协，好不好？ Misunderstandings: 解开误会, then 和好."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "道歉 / Apology",
+     "为……道歉",
+     "为迟到道歉。"
+    ],
+    [
+     "责任 / Responsibility",
+     "承担责任",
+     "我来承担责任。"
+    ],
+    [
+     "理解 / Empathy",
+     "我理解你的心情",
+     "我理解你的心情。"
+    ],
+    [
+     "提议 / Suggestion",
+     "……好不好？",
+     "互相妥协，好不好？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“……好不好”是温和的提议。",
+    "en": "……好不好 is a gentle suggestion."
+   },
+   {
+    "ko": "“道歉”是动词，“道歉信”是名词短语。",
+    "en": "道歉 is a verb; 道歉信 is a noun phrase."
+   },
+   {
+    "ko": "“原谅”表示不再责怪。",
+    "en": "原谅 means no longer blaming."
+   }
+  ],
+  "examples": [
+   {
+    "t": "他诚恳地道歉了。",
+    "read": "Tā chéng kěn dì dào qiàn le.",
+    "ko": "그는 진심으로 사과했어요.",
+    "en": "He apologised sincerely."
+   },
+   {
+    "t": "我来承担自己的责任。",
+    "read": "Wǒ lái chéng dān zìjǐ de zé rèn.",
+    "ko": "우리는 오해를 풀었어요.",
+    "en": "We cleared up the misunderstanding."
+   },
+   {
+    "t": "我理解你的心情。",
+    "read": "Wǒ lǐ jiě nǐ de xīn qíng.",
+    "ko": "상대의 말을 경청하세요.",
+    "en": "Listen carefully to the other person."
+   },
+   {
+    "t": "我们互相妥协，好不好？",
+    "read": "Wǒmen hù xiāng tuǒ xié, hǎo bù hǎo?",
+    "ko": "그는 자신의 실수에 책임을 졌어요.",
+    "en": "He took responsibility for his mistake."
+   },
+   {
+    "t": "解开误会以后，两个人和好了。",
+    "read": "Jiě kāi wù huì yǐhòu, liǎng ge rén hé hǎo le.",
+    "ko": "친구가 둘 사이를 중재했어요.",
+    "en": "A friend mediated between them."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "他诚恳地___了。",
+    "options": [
+     "道歉",
+     "忘记",
+     "撕掉"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我来承担自己的___。",
+    "options": [
+     "责任",
+     "天气",
+     "计划"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我___你的心情。",
+    "options": [
+     "理解",
+     "忘记",
+     "撕掉"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我们互相妥协，___？",
+    "options": [
+     "好不好",
+     "是不是不",
+     "有没有不"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "和朋友吵架了，你怎么办？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 친구와 다투면 어떻게 해요?",
+     "en": "(Question) What do you do when you argue with a friend?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "先认真倾听。",
+       "不理他。",
+       "马上走。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你为什么不跟家人说话？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 사과했어요?",
+     "en": "(Question) Why did you apologise?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "因为有了误会。",
+       "要去旅行。",
+       "没有钱。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "和朋友吵架了，你怎么办？"
+      },
+      {
+       "s": "B",
+       "t": "我先认真倾听他的话。"
+      },
+      {
+       "s": "A",
+       "t": "道歉呢？"
+      },
+      {
+       "s": "B",
+       "t": "觉得自己不对，就先道歉，然后提议互相妥协。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 친구랑 싸웠어.\nB: 먼저 상대의 말을 경청해 봐. 그리고 네 실수가 있으면 사과해.\nA: 하지만 화가 나.\nB: 기분은 이해해. 그래도 오해를 풀면 더 가까워질 거야.",
+     "en": "A: I had a fight with my friend.\nB: First listen carefully to him. And if you made a mistake, apologise.\nA: But I'm angry.\nB: I understand how you feel. Still, clearing up the misunderstanding will bring you closer."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的觉得自己不对，会怎么做？",
+      "options": [
+       "先道歉",
+       "沉默",
+       "回家"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我和朋友因为一个计划吵了起来。一开始我们都很生气，但是我认真倾听了他的话。我先诚恳地道歉，解开了误会。现在我们比以前更亲近了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직장에서 갈등이 생기면 먼저 감정을 가라앉히는 것이 중요합니다. 상대의 말을 경청하고 공감하려고 노력해야 합니다. 필요하면 제3자가 중재할 수 있습니다. 서로 타협할 때 관계는 더 단단해집니다.",
+     "en": "When conflict arises at work it is important to calm down first. You should listen carefully and try to empathise. If necessary, a third person can mediate. Relationships become stronger when both sides compromise."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人为什么和朋友更亲近了？",
+      "options": [
+       "道歉解开了误会",
+       "得到了钱",
+       "搬家了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "咨询中心，请讲。"
+      },
+      {
+       "s": "B",
+       "t": "我和家人有矛盾。"
+      },
+      {
+       "s": "A",
+       "t": "发生了什么？"
+      },
+      {
+       "s": "B",
+       "t": "有了误会，我们互相不说话。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "상담사: 상담 센터입니다.\n손님: 가족과 갈등이 있어요.\n상담사: 어떤 일이 있었나요?\n손님: 오해가 생겨서 서로 말을 안 하고 있어요.",
+     "en": "Counsellor: Counselling centre.\nGuest: I'm in conflict with my family.\nCounsellor: What happened?\nGuest: There was a misunderstanding and we aren't speaking to each other."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "顾客和______有矛盾",
+      "answers": [
+       "家人"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "有了______，互相不说话",
+      "answers": [
+       "误会"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 他诚恳地___了。\n2) 我来承担自己的___。\n3) 我们互相妥协，___？",
+    "trans": {
+     "ko": "1) 그는 진심으로 사과했어요. 2) 우리는 오해를 풀었어요. 3) 친구가 둘 사이를 중재했어요.",
+     "en": "1) He apologised sincerely. 2) We cleared up the misunderstanding. 3) A friend mediated between them."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他诚恳地___了。",
+      "options": [
+       "道歉",
+       "忘记",
+       "撕掉"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我来承担自己的___。",
+      "options": [
+       "责任",
+       "天气",
+       "计划"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我们互相妥协，___？",
+      "options": [
+       "好不好",
+       "是不是不",
+       "有没有不"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我和朋友因为一个计划吵了起来。一开始我们都很生气，但是我认真(1)了他的话。我先(2)地道歉，解开了误会。现在我们比以前更(3)了。",
+    "trans": {
+     "ko": "직장에서 갈등이 생기면 먼저 감정을 가라앉히는 것이 중요합니다. 상대의 말을 경청하고 공감하려고 노력해야 합니다. 필요하면 제3자가 중재할 수 있습니다. 서로 타협할 때 관계는 더 단단해집니다.",
+     "en": "When conflict arises at work it is important to calm down first. You should listen carefully and try to empathise. If necessary, a third person can mediate. Relationships become stronger when both sides compromise."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "倾听",
+       "忘记",
+       "撕掉"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "诚恳",
+       "随便",
+       "生气"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "亲近",
+       "疏远",
+       "安静"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "咨询专栏\n和家人意见不合时，先让自己冷静下来。然后听对方把话说完，表示理解。接着一起想一个大家都可以妥协的办法。",
+    "trans": {
+     "ko": "조언 칼럼\n질문: 친구와 사소한 일로 다퉜는데 어떻게 해야 할까요?\n답변: 먼저 시간을 두고 감정을 가라앉히세요. 그런 다음 직접 연락해 솔직하게 사과하고 상대의 입장을 들어 보세요.",
+     "en": "ADVICE COLUMN\nQuestion: I fell out with a friend over something small. What should I do?\nAnswer: First give yourself time to calm down. Then contact him directly, apologise honestly and listen to his side."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "首先应该做什么？",
+      "options": [
+       "让自己冷静",
+       "指责对方",
+       "离家"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "最后一起想什么？",
+      "options": [
+       "大家都可以妥协的办法",
+       "分手的方法",
+       "赢的方法"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "志豪和朋友因为比赛结果吵架了。几天后，志豪打电话向朋友道歉。两人很快就和好了，现在比以前更要好。",
+    "trans": {
+     "ko": "민호는 동료와 일하는 방식이 달라 갈등이 생겼어요. 그는 감정적으로 말하지 않고 차분하게 의견을 이야기했어요. 결국 두 사람은 서로 타협했어요.",
+     "en": "Minho had a conflict with a colleague over their ways of working. He didn't speak emotionally but stated his view calmly. In the end the two compromised."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "志豪打电话向朋友道歉了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "志豪没有道歉。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "比赛在大邱。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "和朋友吵架了，你怎么办？",
+    "read": "Hé péngyou chǎo jià le, nǐ zěnme bàn?",
+    "ko": "친구와 다투면 어떻게 해요?",
+    "en": "What do you do when you argue with a friend?",
+    "situation": {
+     "ko": "방법을 물을 때",
+     "en": "Asking about a method"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我认真倾听对方的话。",
+    "read": "Wǒ rèn zhēn qīng tīng duì fāng de huà.",
+    "ko": "먼저 상대의 말을 경청해요.",
+    "en": "I first listen carefully to the other person.",
+    "situation": {
+     "ko": "방법을 말할 때",
+     "en": "Describing a method"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "他诚恳地道歉了。",
+    "read": "Tā chéng kěn dì dào qiàn le.",
+    "ko": "그는 진심으로 사과했어요.",
+    "en": "He apologised sincerely.",
+    "situation": {
+     "ko": "사과를 말할 때",
+     "en": "Describing an apology"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我来承担自己的责任。",
+    "read": "Wǒ lái chéng dān zìjǐ de zé rèn.",
+    "ko": "제 실수에 책임을 지겠습니다.",
+    "en": "I'll take responsibility for my mistake.",
+    "situation": {
+     "ko": "책임을 질 때",
+     "en": "Taking responsibility"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我理解你的心情。",
+    "read": "Wǒ lǐ jiě nǐ de xīn qíng.",
+    "ko": "당신 기분을 이해해요.",
+    "en": "I understand how you feel.",
+    "situation": {
+     "ko": "공감할 때",
+     "en": "Showing empathy"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我们解开了误会。",
+    "read": "Wǒmen jiě kāi le wù huì.",
+    "ko": "우리는 오해를 풀었어요.",
+    "en": "We cleared up the misunderstanding.",
+    "situation": {
+     "ko": "해결을 말할 때",
+     "en": "Describing a resolution"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "朋友出面调解了。",
+    "read": "Péngyou chū miàn tiáo jiě le.",
+    "ko": "친구가 둘 사이를 중재했어요.",
+    "en": "A friend mediated between them.",
+    "situation": {
+     "ko": "중재를 말할 때",
+     "en": "Describing mediation"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我们互相妥协，好不好？",
+    "read": "Wǒmen hù xiāng tuǒ xié, hǎo bù hǎo?",
+    "ko": "서로 타협해 보면 어떨까요?",
+    "en": "How about we compromise?",
+    "situation": {
+     "ko": "제안할 때",
+     "en": "Suggesting"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "为……道歉。",
+    "read": "Wèi … dào qiàn.",
+    "ko": "~에 대해 사과하다",
+    "en": "apologise for + noun / -ing."
+   },
+   {
+    "id": "w2",
+    "t": "我来承担……。",
+    "read": "Wǒ lái chéng dān ….",
+    "ko": "~에 책임을 지다",
+    "en": "take responsibility for + noun."
+   },
+   {
+    "id": "w3",
+    "t": "我理解……。",
+    "read": "Wǒ lǐ jiě ….",
+    "ko": "~을 이해해요",
+    "en": "I understand how you feel / why you are upset."
+   },
+   {
+    "id": "w4",
+    "t": "……好不好？",
+    "read": "… Hǎo bù hǎo?",
+    "ko": "~하면 어때요?",
+    "en": "How about + -ing / Why don't we …?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "친구와 다툰 일과 해결 방법을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about an argument with a friend and how it was resolved."
+   },
+   "must_include": [
+    {
+     "label": "道歉",
+     "match": [
+      "道歉"
+     ]
+    },
+    {
+     "label": "误会",
+     "match": [
+      "解开了误会"
+     ]
+    },
+    {
+     "label": "倾听",
+     "match": [
+      "认真倾听"
+     ]
+    }
+   ],
+   "model": "我和朋友因为一个计划吵了起来。一开始我们都很生气，但是我认真倾听了他的话。我先诚恳地道歉，所以解开了误会。现在我们比以前更亲近了。",
+   "model_trans": {
+    "ko": "저는 친구와 약속 문제로 다퉜어요. 처음에는 서로 화가 났지만 상대의 말을 경청했어요. 제가 먼저 진심으로 사과했고 오해를 풀었어요. 지금은 이전보다 더 가까워졌어요.",
+    "en": "I argued with a friend about a plan. At first we were both angry, but I listened carefully to him. I apologised sincerely first and we cleared up the misunderstanding. Now we are closer than before."
+   }
+  }
+ }
+}

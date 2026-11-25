@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_b2_u19",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 19,
+  "concept": "B2.U19",
+  "status": "live",
+  "title": {
+   "target": "表达看法和委婉反对",
+   "ko": "의견 말하기와 정중한 반박",
+   "en": "Opinions and diplomatic disagreement"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "依我看",
+   "pos": "phrase",
+   "read": "yī wǒ kàn",
+   "ko": "내 생각에는",
+   "en": "in my view",
+   "ex": {
+    "t": "依我看，这个计划更好。",
+    "read": "Yī wǒ kàn, zhège jìhuà gèng hǎo.",
+    "ko": "제 생각에는 이 계획이 더 낫습니다.",
+    "en": "In my view, this plan is better."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "说实话",
+   "pos": "phrase",
+   "read": "shuō shí huà",
+   "ko": "솔직히",
+   "en": "to be honest",
+   "ex": {
+    "t": "说实话，我不太相信。",
+    "read": "Shuō shí huà, wǒ bú tài xiāng xìn.",
+    "ko": "솔직히 저는 확신이 서지 않아요.",
+    "en": "To be honest, I'm not convinced."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "明白",
+   "pos": "phrase",
+   "read": "míngbai",
+   "ko": "이해하다",
+   "en": "see your point",
+   "ex": {
+    "t": "我明白你的意思。",
+    "read": "Wǒ míngbai nǐ de yìsi.",
+    "ko": "말씀하신 요점은 이해합니다.",
+    "en": "I see your point."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "同意",
+   "pos": "verb",
+   "read": "tóngyì",
+   "ko": "동의하다",
+   "en": "agree",
+   "ex": {
+    "t": "我完全同意这一点。",
+    "read": "Wǒ wán quán tóngyì zhè yìdiǎn.",
+    "ko": "그 점에는 전적으로 동의해요.",
+    "en": "I completely agree on that point."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "反对",
+   "pos": "verb",
+   "read": "fǎnduì",
+   "ko": "동의하지 않다",
+   "en": "disagree",
+   "ex": {
+    "t": "我不太同意这个看法。",
+    "read": "Wǒ bú tài tóngyì zhège kàn fǎ.",
+    "ko": "그 의견에는 동의하기 어려워요.",
+    "en": "I find it hard to agree with that view."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "说服",
+   "pos": "phrase",
+   "read": "shuō fú",
+   "ko": "설득되다",
+   "en": "be convinced",
+   "ex": {
+    "t": "这个证据说服不了我。",
+    "read": "Zhège zhèngjù shuō fú bù le wǒ.",
+    "ko": "그 근거로는 설득되지 않아요.",
+    "en": "I'm not convinced by that evidence."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "反驳",
+   "pos": "noun",
+   "read": "fǎn bó",
+   "ko": "반론",
+   "en": "counterargument",
+   "ex": {
+    "t": "他反驳了这个说法。",
+    "read": "Tā fǎn bó le zhège shuō fǎ.",
+    "ko": "그 반론도 일리가 있어요.",
+    "en": "That counterargument has some merit."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "证据",
+   "pos": "noun",
+   "read": "zhèngjù",
+   "ko": "근거",
+   "en": "evidence",
+   "ex": {
+    "t": "这个说法缺乏证据。",
+    "read": "Zhège shuō fǎ quē fá zhèngjù.",
+    "ko": "그 주장에는 근거가 부족해요.",
+    "en": "The claim lacks evidence."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "折中",
+   "pos": "verb",
+   "read": "zhé zhōng",
+   "ko": "타협하다",
+   "en": "compromise",
+   "ex": {
+    "t": "我们折中一下吧。",
+    "read": "Wǒmen zhé zhōng yíxià ba.",
+    "ko": "우리는 중간에서 타협했어요.",
+    "en": "We compromised halfway."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "角度",
+   "pos": "noun",
+   "read": "jiǎo dù",
+   "ko": "견해",
+   "en": "perspective",
+   "ex": {
+    "t": "我想听听别的角度。",
+    "read": "Wǒ xiǎng tīng tīng bié de jiǎo dù.",
+    "ko": "다른 견해도 들어 보고 싶어요.",
+    "en": "I'd like to hear other perspectives."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "看法与反对：依我看、我明白你的意思，但是、说实话、我不太相信",
+   "en": "Opinions and polite disagreement: 依我看 / 我明白你的意思，但是 / 说实话 / 我不太相信"
+  },
+  "explain": {
+   "ko": "表达看法用“依我看、我认为、在我看来”：依我看，这个计划更好。委婉反对先肯定对方，再用“不过、但是”转折：我明白你的意思，但是费用是个问题。“说实话”表示坦率：说实话，我不太相信这个计划能成功。“我同意一部分，但是……”表示部分同意。建议折中用“不如……吧”：不如折中一下吧。",
+   "en": "State a view with 依我看／我认为／在我看来: 依我看，这个计划更好. Disagree politely by acknowledging first, then turning with 不过／但是: 我明白你的意思，但是费用是个问题. 说实话 signals candour: 说实话，我不太相信这个计划能成功. 我同意一部分，但是…… is partial agreement. Suggest compromise with 不如……吧: 不如折中一下吧."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "看法 / View",
+     "依我看，……",
+     "依我看，这个计划更好。"
+    ],
+    [
+     "委婉反对 / Polite No",
+     "我明白……，但是……",
+     "我明白你的意思，但是费用是个问题。"
+    ],
+    [
+     "坦率 / Candid",
+     "说实话，……",
+     "说实话，我不太相信。"
+    ],
+    [
+     "折中 / Compromise",
+     "不如……吧",
+     "不如折中一下吧。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“但是”前面先肯定，语气更委婉。",
+    "en": "Acknowledge first, then 但是, to stay polite."
+   },
+   {
+    "ko": "“我不太同意”比“我不同意”更委婉。",
+    "en": "我不太同意 is softer than 我不同意."
+   },
+   {
+    "ko": "“不如”引出更好的办法。",
+    "en": "不如 introduces a better option."
+   }
+  ],
+  "examples": [
+   {
+    "t": "依我看，这个计划更好。",
+    "read": "Yī wǒ kàn, zhège jìhuà gèng hǎo.",
+    "ko": "제 생각에는 이 계획이 더 낫습니다.",
+    "en": "In my view, this plan is better."
+   },
+   {
+    "t": "我明白你的意思，但是费用是个问题。",
+    "read": "Wǒ míngbai nǐ de yìsi, dànshì fèi yòng shì gè wèntí.",
+    "ko": "말씀하신 요점은 이해하지만 비용이 문제예요.",
+    "en": "I see your point, but the cost is a problem."
+   },
+   {
+    "t": "说实话，我不太相信这个计划能成功。",
+    "read": "Shuō shí huà, wǒ bú tài xiāng xìn zhège jìhuà néng chéng gōng.",
+    "ko": "솔직히 저는 확신이 서지 않아요.",
+    "en": "To be honest, I'm not convinced."
+   },
+   {
+    "t": "我完全同意这一点，不过我有一个担心。",
+    "read": "Wǒ wán quán tóngyì zhè yìdiǎn, bùguò wǒ yǒu yí ge dānxīn.",
+    "ko": "그 점에는 전적으로 동의하지만 한 가지 우려가 있어요.",
+    "en": "I completely agree on that point, but I have one concern."
+   },
+   {
+    "t": "不如折中一下吧。",
+    "read": "Bù rú zhé zhōng yíxià ba.",
+    "ko": "다른 견해도 들어 보고 싶어요.",
+    "en": "I'd like to hear other perspectives."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___我看，这个计划更好。",
+    "options": [
+     "依",
+     "对",
+     "和"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我明白你的意思，___费用是个问题。",
+    "options": [
+     "但是",
+     "因为",
+     "如果"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___，我不太相信这个计划能成功。",
+    "options": [
+     "说实话",
+     "因为",
+     "虽然"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "不如折中一下___。",
+    "options": [
+     "吧",
+     "了",
+     "的"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你觉得这个提议怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 제안에 대해 어떻게 생각해요?",
+     "en": "(Question) What do you think of this proposal?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "依我看，这个提议不错。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你同意他的看法吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 반대하세요?",
+     "en": "(Question) Why do you disagree?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我明白，但是不完全同意。",
+       "是的，我喜欢。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你觉得新政策怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "依我看这个政策不错，不过证据有点少。"
+      },
+      {
+       "s": "A",
+       "t": "你想要什么证据？"
+      },
+      {
+       "s": "B",
+       "t": "请再发一些数据给我。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 새 계획에 찬성해?\nB: 말씀하신 요점은 이해하지만 비용이 걱정돼.\nA: 그럼 작게 시험해 볼까?\nB: 좋아. 그렇다면 찬성해.",
+     "en": "A: Do you support the new plan?\nB: I see your point, but I'm worried about the cost.\nA: Shall we test it on a small scale?\nB: Good. In that case, I agree."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的觉得新政策缺什么？",
+      "options": [
+       "证据",
+       "资金",
+       "时间"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我明白你的意思，但是我担心费用。说实话，我不太相信这个计划能成功。依我看，先小规模试一试更安全。不过，我还是想听听别的角度。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "회의에서 한 동료가 새 시스템을 도입하자고 제안했습니다. 저는 그 점에는 동의하지만 직원 교육에 필요한 비용이 걱정된다고 말했습니다. 솔직히 저는 지금 도입하는 것에 확신이 서지 않았습니다.",
+     "en": "At the meeting a colleague proposed introducing a new system. I said I agreed on that point but was worried about the cost of staff training. To be honest, I wasn't convinced about introducing it now."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人担心什么？",
+      "options": [
+       "费用",
+       "时间",
+       "天气"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "规划组，请讲。"
+      },
+      {
+       "s": "B",
+       "t": "我想听听你对新政策的看法。"
+      },
+      {
+       "s": "A",
+       "t": "依我看是个好政策，不过证据有点少。"
+      },
+      {
+       "s": "B",
+       "t": "请再发一些数据给我。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 기획팀입니다.\n손님: 새 정책에 대한 의견을 듣고 싶어요.\n직원: 제 생각에는 좋은 정책이지만 근거가 약간 부족해요.\n손님: 더 자료를 보내 주세요.",
+     "en": "Staff: Planning team.\nGuest: I'd like your opinion on the new policy.\nStaff: In my view it's a good policy, but the evidence is a bit thin.\nGuest: Please send more data."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "依我看是个好______",
+      "answers": [
+       "政策"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "请再发一些______给我",
+      "answers": [
+       "数据"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___我看，这个计划更好。\n2) 我明白你的意思，___费用是个问题。\n3) ___，我不太相信这个计划能成功。",
+    "trans": {
+     "ko": "1) 제 생각에는 이 계획이 더 낫습니다. 2) 말씀하신 요점은 이해하지만 비용이 문제예요. 3) 솔직히 저는 확신이 서지 않아요.",
+     "en": "1) In my view, this plan is better. 2) I see your point, but the cost is a problem. 3) To be honest, I'm not convinced."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___我看，这个计划更好。",
+      "options": [
+       "依",
+       "对",
+       "和"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我明白你的意思，___费用是个问题。",
+      "options": [
+       "但是",
+       "因为",
+       "如果"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___，我不太相信这个计划能成功。",
+      "options": [
+       "说实话",
+       "因为",
+       "虽然"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我明白你的意思，但是我担心(1)。说实话，我不太相信这个计划能成功。依我看，先小规模(2)一试更安全。不过，我还是想听听别的(3)。",
+    "trans": {
+     "ko": "회의에서 한 동료가 새 시스템을 도입하자고 제안했습니다. 저는 그 점에는 동의하지만 직원 교육에 필요한 비용이 걱정된다고 말했습니다. 솔직히 저는 지금 도입하는 것에 확신이 서지 않았습니다.",
+     "en": "At the meeting a colleague proposed introducing a new system. I said I agreed on that point but was worried about the cost of staff training. To be honest, I wasn't convinced about introducing it now."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "费用",
+       "天气",
+       "颜色"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "试",
+       "吃",
+       "买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "角度",
+       "水果",
+       "书"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "讨论\n小王说：依我看，我们应该增加预算。小李说：我明白你的意思，但是目前公司的资金有限。小王说：说实话，我不太同意。最后经理提议折中：先增加一部分。",
+    "trans": {
+     "ko": "독자 투고\n저는 학교에 휴대전화 사용을 금지하자는 의견에 일부 동의합니다. 수업 집중도에는 도움이 될 수 있기 때문입니다. 하지만 위급 상황에서 연락할 수단이 없다는 점은 우려됩니다. 따라서 저는 전면 금지보다는 제한적 허용을 제안합니다.",
+     "en": "LETTER TO THE EDITOR\nI agree up to a point with banning mobile phones in schools. It could help concentration in lessons. However, having no means of contact in an emergency is a concern. I therefore suggest limited permission rather than a total ban."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "小李为什么不赞成增加预算？",
+      "options": [
+       "公司资金有限",
+       "没有时间",
+       "没有人"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "经理提议怎么办？",
+      "options": [
+       "先增加一部分",
+       "完全不增加",
+       "全部增加"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "彩云不同意这个方案，但是她没有直接说“不”。她说：“我明白你的意思，不过我有一点不同的看法。”大家都愿意听她说下去。",
+    "trans": {
+     "ko": "은지는 팀 회의에서 새 아이디어를 제안했어요. 동료는 그 점은 이해하지만 시간이 부족하다고 반대했어요. 결국 둘은 일정을 조금 늦추는 것으로 타협했어요.",
+     "en": "Eunji proposed a new idea at the team meeting. A colleague said he saw her point but there was not enough time. In the end they compromised by delaying the schedule slightly."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "彩云委婉地表达了不同意。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "彩云直接拒绝了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "彩云是经理。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你觉得这个提议怎么样？",
+    "read": "Nǐ juéde zhège tí yì zěnmeyàng?",
+    "ko": "이 제안에 대해 어떻게 생각해요?",
+    "en": "What do you think of this proposal?",
+    "situation": {
+     "ko": "의견을 물을 때",
+     "en": "Asking for an opinion"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "依我看，这个计划更好。",
+    "read": "Yī wǒ kàn, zhège jìhuà gèng hǎo.",
+    "ko": "제 생각에는 이 계획이 더 낫습니다.",
+    "en": "In my view, this plan is better.",
+    "situation": {
+     "ko": "의견을 말할 때",
+     "en": "Stating an opinion"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我明白你的意思，但是费用是个问题。",
+    "read": "Wǒ míngbai nǐ de yìsi, dànshì fèi yòng shì gè wèntí.",
+    "ko": "말씀하신 요점은 이해하지만 비용이 문제예요.",
+    "en": "I see your point, but the cost is a problem.",
+    "situation": {
+     "ko": "정중하게 반박할 때",
+     "en": "Disagreeing politely"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "说实话，我不太相信。",
+    "read": "Shuō shí huà, wǒ bú tài xiāng xìn.",
+    "ko": "솔직히 저는 확신이 서지 않아요.",
+    "en": "To be honest, I'm not convinced.",
+    "situation": {
+     "ko": "솔직하게 말할 때",
+     "en": "Being frank"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我完全同意这一点，不过我有一个担心。",
+    "read": "Wǒ wán quán tóngyì zhè yìdiǎn, bùguò wǒ yǒu yí ge dānxīn.",
+    "ko": "그 점에는 전적으로 동의하지만 한 가지 우려가 있어요.",
+    "en": "I completely agree on that point, but I have one concern.",
+    "situation": {
+     "ko": "부분 동의할 때",
+     "en": "Partial agreement"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我觉得这个说法缺乏证据。",
+    "read": "Wǒ juéde zhège shuō fǎ quē fá zhèngjù.",
+    "ko": "그 주장에는 근거가 부족한 것 같아요.",
+    "en": "I think the claim lacks evidence.",
+    "situation": {
+     "ko": "근거를 요구할 때",
+     "en": "Asking for evidence"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我想听听别的角度。",
+    "read": "Wǒ xiǎng tīng tīng bié de jiǎo dù.",
+    "ko": "다른 견해도 들어 보고 싶어요.",
+    "en": "I'd like to hear other perspectives.",
+    "situation": {
+     "ko": "논의를 열 때",
+     "en": "Opening the discussion"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "不如折中一下吧。",
+    "read": "Bù rú zhé zhōng yíxià ba.",
+    "ko": "중간에서 타협해 보면 어때요?",
+    "en": "How about compromising halfway?",
+    "situation": {
+     "ko": "대안을 낼 때",
+     "en": "Suggesting a compromise"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "依我看，……。",
+    "read": "Yī wǒ kàn, ….",
+    "ko": "제 생각에는 ~",
+    "en": "In my view / As I see it, + clause."
+   },
+   {
+    "id": "w2",
+    "t": "我明白你的意思，但是……。",
+    "read": "Wǒ míngbai nǐ de yìsi, dànshì ….",
+    "ko": "말씀은 이해하지만 ~",
+    "en": "I see your point, but + clause."
+   },
+   {
+    "id": "w3",
+    "t": "说实话，……。",
+    "read": "Shuō shí huà, ….",
+    "ko": "~에 설득되지 않는다.",
+    "en": "I'm not convinced that / by …"
+   },
+   {
+    "id": "w4",
+    "t": "不如……吧。",
+    "read": "Bù rú … ba.",
+    "ko": "~에는 동의하지만 ~",
+    "en": "I agree up to a point, but …"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "정중하게 반대 의견을 말하는 대화를 4문장으로 써 보세요.",
+    "en": "Write 4 sentences disagreeing with a proposal politely."
+   },
+   "must_include": [
+    {
+     "label": "但是",
+     "match": [
+      "但是"
+     ]
+    },
+    {
+     "label": "说实话",
+     "match": [
+      "说实话"
+     ]
+    },
+    {
+     "label": "依我看",
+     "match": [
+      "依我看"
+     ]
+    }
+   ],
+   "model": "我明白你的意思，但是我担心费用。说实话，我不太相信这个计划能成功。依我看，先小规模试一试更安全。不过，我还是想听听别的角度。",
+   "model_trans": {
+    "ko": "말씀하신 요점은 이해하지만 비용 문제가 걱정됩니다. 솔직히 저는 그 계획이 효과가 있을지 확신이 서지 않아요. 제 생각에는 먼저 작게 시험하는 편이 안전합니다. 그래도 다른 견해도 들어 보고 싶습니다.",
+    "en": "I see your point, but I'm worried about the cost. To be honest, I'm not convinced the plan will work. In my view, it is safer to test it on a small scale first. Still, I'd like to hear other perspectives."
+   }
+  }
+ }
+}

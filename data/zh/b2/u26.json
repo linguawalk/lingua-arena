@@ -1,0 +1,837 @@
+{
+ "meta": {
+  "id": "zh_b2_u26",
+  "lang": "zh",
+  "family": "asia",
+  "level": "b2",
+  "unit": 26,
+  "concept": "B2.U26",
+  "status": "live",
+  "title": {
+   "target": "概括和改写",
+   "ko": "요약과 바꿔 쓰기",
+   "en": "Summarising and paraphrasing"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "概括",
+   "pos": "verb",
+   "read": "gài kuò",
+   "ko": "요약하다",
+   "en": "summarise",
+   "ex": {
+    "t": "请用三句话概括这篇文章。",
+    "read": "Qǐng yòng sān jù huà gài kuò zhè piān wén zhāng.",
+    "ko": "기사를 세 문장으로 요약하세요.",
+    "en": "Summarise the article in three sentences."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "改写",
+   "pos": "verb",
+   "read": "gǎi xiě",
+   "ko": "바꿔 쓰다",
+   "en": "paraphrase",
+   "ex": {
+    "t": "我把这句话改写一下。",
+    "read": "Wǒ bǎ zhè jù huà gǎi xiě yíxià.",
+    "ko": "문장을 자신의 말로 바꿔 쓰세요.",
+    "en": "Paraphrase the sentence in your own words."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "主旨",
+   "pos": "noun",
+   "read": "zhǔ zhǐ",
+   "ko": "핵심",
+   "en": "main idea",
+   "ex": {
+    "t": "这篇文章的主旨是什么？",
+    "read": "Zhè piān wén zhāng de zhǔ zhǐ shì shénme?",
+    "ko": "각 단락의 핵심을 찾으세요.",
+    "en": "Find the main idea of each paragraph."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "细节",
+   "pos": "noun",
+   "read": "xì jié",
+   "ko": "세부 사항",
+   "en": "detail",
+   "ex": {
+    "t": "不必要的细节要省略。",
+    "read": "Bú bì yào de xì jié yào shěng lüè.",
+    "ko": "불필요한 세부 사항은 빼세요.",
+    "en": "Leave out unnecessary details."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "同义词",
+   "pos": "noun",
+   "read": "tóng yì cí",
+   "ko": "동의어",
+   "en": "synonym",
+   "ex": {
+    "t": "用同义词可以改变句子。",
+    "read": "Yòng tóng yì cí kěyǐ gǎibiàn jù zi.",
+    "ko": "동의어를 사용하면 문장을 바꿀 수 있어요.",
+    "en": "Using synonyms lets you change the sentence."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "指出",
+   "pos": "verb",
+   "read": "zhǐ chū",
+   "ko": "~라고 말하다",
+   "en": "state",
+   "ex": {
+    "t": "作者指出费用是问题。",
+    "read": "Zuò zhě zhǐ chū fèi yòng shì wèntí.",
+    "ko": "저자는 비용이 문제라고 말해요.",
+    "en": "The author states that cost is the problem."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "强调",
+   "pos": "verb",
+   "read": "qiáng diào",
+   "ko": "강조하다",
+   "en": "stress",
+   "ex": {
+    "t": "作者强调安全的重要。",
+    "read": "Zuò zhě qiáng diào ān quán de zhòng yào.",
+    "ko": "그는 안전을 강조해요.",
+    "en": "He stresses safety."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "大意",
+   "pos": "noun",
+   "read": "dà yì",
+   "ko": "요점",
+   "en": "gist",
+   "ex": {
+    "t": "我来说说大意。",
+    "read": "Wǒ lái shuō shuō dà yì.",
+    "ko": "먼저 요점을 파악하세요.",
+    "en": "First get the gist."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "抄袭",
+   "pos": "noun",
+   "read": "chāo xí",
+   "ko": "표절",
+   "en": "plagiarism",
+   "ex": {
+    "t": "严禁抄袭。",
+    "read": "Yán jìn chāo xí.",
+    "ko": "표절은 엄격히 금지돼요.",
+    "en": "Plagiarism is strictly forbidden."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "简洁",
+   "pos": "adv",
+   "read": "jiǎn jié",
+   "ko": "간결하게",
+   "en": "concisely",
+   "ex": {
+    "t": "请简洁地总结。",
+    "read": "Qǐng jiǎn jié dì zǒng jié.",
+    "ko": "간결하게 쓰세요.",
+    "en": "Write concisely."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "概括与改写：指出、认为、换句话说、总之、根据",
+   "en": "Summarising and paraphrasing: 指出 / 认为 / 换句话说 / 总之 / 根据"
+  },
+  "explain": {
+   "ko": "概括是把文章的主要内容简短地写出来，不加自己的意见；改写是用不同的词和结构表达同一个意思。引用作者的话用“作者指出／认为……”“根据……”。改写时用“换句话说”，总结时用“总之”。方法有：用同义词、改变句子结构、主动变被动、动词变名词。概括的长度大约是原文的三分之一，要注明出处，避免抄袭。",
+   "en": "A summary condenses the main content without opinion; paraphrasing says the same in different words and structure. Attribute with 作者指出／认为……, 根据……. 换句话说 restates; 总之 concludes. Methods: synonyms, restructuring, active↔passive, verbs to nouns. A summary is about one third of the original and cites the source."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "出处 / Attribution",
+     "作者指出……",
+     "作者指出费用是问题。"
+    ],
+    [
+     "根据 / According to",
+     "根据……",
+     "根据研究，走路对健康有益。"
+    ],
+    [
+     "换句话说 / Restate",
+     "换句话说，……",
+     "换句话说，走路对健康有益。"
+    ],
+    [
+     "总结 / Summarise",
+     "总之，……",
+     "总之，走路对心脏有益。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "概括时少用连接词，保留主要信息。",
+    "en": "Use fewer linkers in a summary; keep the key facts."
+   },
+   {
+    "ko": "不注明出处的抄写叫“抄袭”。",
+    "en": "Copying without a source is 抄袭."
+   },
+   {
+    "ko": "概括中不能加自己的意见。",
+    "en": "Do not add your own view to a summary."
+   }
+  ],
+  "examples": [
+   {
+    "t": "请用三句话概括这篇文章。",
+    "read": "Qǐng yòng sān jù huà gài kuò zhè piān wén zhāng.",
+    "ko": "기사를 세 문장으로 요약하세요.",
+    "en": "Summarise the article in three sentences."
+   },
+   {
+    "t": "作者指出费用是问题。",
+    "read": "Zuò zhě zhǐ chū fèi yòng shì wèntí.",
+    "ko": "저자는 비용이 문제라고 말해요.",
+    "en": "The author states that cost is the problem."
+   },
+   {
+    "t": "不必要的细节要省略。",
+    "read": "Bú bì yào de xì jié yào shěng lüè.",
+    "ko": "불필요한 세부 사항은 빼세요.",
+    "en": "Leave out unnecessary details."
+   },
+   {
+    "t": "换句话说，运动对睡眠有益。",
+    "read": "Huàn jù huà shuō, yùndòng duì shuì mián yǒu yì.",
+    "ko": "동의어를 사용하면 문장을 바꿀 수 있어요.",
+    "en": "Using synonyms lets you change the sentence."
+   },
+   {
+    "t": "为了避免抄袭，必须注明出处。",
+    "read": "Wèile bìmiǎn chāo xí, bìxū zhù míng chū chǔ.",
+    "ko": "표절은 엄격히 금지돼요.",
+    "en": "Plagiarism is strictly forbidden."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "请用三句话___这篇文章。",
+    "options": [
+     "概括",
+     "忘记",
+     "撕掉"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "作者___费用是问题。",
+    "options": [
+     "指出",
+     "忘记",
+     "喜欢"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "不必要的___要省略。",
+    "options": [
+     "细节",
+     "天气",
+     "名字"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "为了避免抄袭，必须注明___。",
+    "options": [
+     "出处",
+     "天气",
+     "名字"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这篇文章的大意是什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 글의 요점이 뭐예요?",
+     "en": "(Question) What is the gist of this text?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "运动对健康有益。",
+       "三点开始。",
+       "我昨天买的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "怎么改写句子？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 문장을 어떻게 바꿔 쓸 수 있어요?",
+     "en": "(Question) How can I paraphrase a sentence?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "用同义词，改变结构。",
+       "原样抄写。",
+       "把词删掉。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "概括的时候，细节怎么处理？"
+      },
+      {
+       "s": "B",
+       "t": "不必要的细节要省略。"
+      },
+      {
+       "s": "A",
+       "t": "长度大约多少？"
+      },
+      {
+       "s": "B",
+       "t": "大约是原文的三分之一，要简洁。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 기사를 요약해야 해.\nB: 먼저 각 단락의 핵심을 찾아. 불필요한 세부 사항은 빼.\nA: 문장은 어떻게 바꿔?\nB: 동의어를 쓰고 문장 구조도 바꿔. 마지막에 출처를 밝혀.",
+     "en": "A: I have to summarise this article.\nB: First find the main idea of each paragraph. Leave out unnecessary details.\nA: How do I change the sentences?\nB: Use synonyms and change the structure. Acknowledge the source at the end."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "不必要的细节怎么办？",
+      "options": [
+       "省略",
+       "增加",
+       "记住"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "概括就是简洁地写出原文的要点。改写时，要用同义词，改变句子结构。为了避免抄袭，一定要注明出处。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "요약은 원문의 약 3분의 1 길이가 좋습니다. 핵심만 간결하게 쓰고 자신의 의견은 넣지 않습니다. 바꿔 쓸 때는 원문의 단어를 그대로 쓰지 않고 동의어와 다른 구조를 사용합니다. 마지막으로 출처를 밝힙니다.",
+     "en": "A summary is best about a third of the original's length. Write only the main points concisely and add no opinion of your own. When paraphrasing, don't copy the original words; use synonyms and a different structure. Finally, acknowledge the source."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "概括的长度大约是多少？",
+      "options": [
+       "原文的三分之一",
+       "和原文一样",
+       "原文的两倍"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "写作课，请讲。"
+      },
+      {
+       "s": "B",
+       "t": "我要概括一篇文章，从哪儿开始？"
+      },
+      {
+       "s": "A",
+       "t": "先找出要点句。"
+      },
+      {
+       "s": "B",
+       "t": "怎么避免抄袭？"
+      },
+      {
+       "s": "A",
+       "t": "用自己的话写，并注明出处。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "선생님: 작문 수업입니다.\n학생: 기사를 요약해야 하는데 어디서 시작해야 하나요?\n선생님: 먼저 핵심 문장을 찾으세요.\n학생: 표절하지 않으려면요?\n선생님: 자신의 말로 쓰고 출처를 밝히세요.",
+     "en": "Teacher: Writing class.\nStudent: I have to summarise an article. Where do I start?\nTeacher: First find the key sentences.\nStudent: How do I avoid plagiarism?\nTeacher: Use your own words and acknowledge the source."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "先找出______句",
+      "answers": [
+       "要点"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "并注明______",
+      "answers": [
+       "出处"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 请用三句话___这篇文章。\n2) 作者___费用是问题。\n3) 不必要的___要省略。",
+    "trans": {
+     "ko": "1) 기사를 세 문장으로 요약하세요. 2) 저자는 비용이 문제라고 말해요. 3) 불필요한 세부 사항은 빼세요.",
+     "en": "1) Summarise the article in three sentences. 2) The author states that cost is the problem. 3) Leave out unnecessary details."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "请用三句话___这篇文章。",
+      "options": [
+       "概括",
+       "忘记",
+       "撕掉"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "作者___费用是问题。",
+      "options": [
+       "指出",
+       "忘记",
+       "喜欢"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "不必要的___要省略。",
+      "options": [
+       "细节",
+       "天气",
+       "名字"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "概括的长度大约是原文的三分之一。只简洁地写出(1)，不加自己的意见。改写时，不要照抄原文，要用(2)和别的结构。最后要注明(3)。",
+    "trans": {
+     "ko": "요약은 원문의 약 3분의 1 길이가 좋습니다. 핵심만 간결하게 쓰고 자신의 의견은 넣지 않습니다. 바꿔 쓸 때는 원문의 단어를 그대로 쓰지 않고 동의어와 다른 구조를 사용합니다. 마지막으로 출처를 밝힙니다.",
+     "en": "A summary is best about a third of the original's length. Write only the main points concisely and add no opinion of your own. When paraphrasing, don't copy the original words; use synonyms and a different structure. Finally, acknowledge the source."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "要点",
+       "细节",
+       "玩笑"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "同义词",
+       "反义词",
+       "数字"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "出处",
+       "名字",
+       "天气"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "原文\n有研究表明，每天走三十分钟的人，患心脏病的概率较低。根据这项研究，与不运动的人相比，风险低三成。\n概括：走路对心脏健康有益。",
+    "trans": {
+     "ko": "원문\n연구에 따르면 매일 30분씩 걷는 사람은 그렇지 않은 사람보다 심장병에 걸릴 확률이 낮다.\n바꿔 쓴 문장\n하루 30분씩 걷는 습관은 심장 질환의 위험을 줄여 준다고 한다.\n요약\n걷기는 심장 건강에 좋다.",
+     "en": "ORIGINAL\nAccording to research, people who walk for thirty minutes a day are less likely to develop heart disease than people who don't.\nPARAPHRASE\nA habit of walking half an hour daily is said to reduce the risk of heart disease.\nSUMMARY\nWalking is good for the heart."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "原文说什么人患心脏病的概率较低？",
+      "options": [
+       "每天走三十分钟的人",
+       "不运动的人",
+       "孩子"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "概括怎么说？",
+      "options": [
+       "走路对心脏有益",
+       "走路很辛苦",
+       "心脏不重要"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "民秀把文章的要点概括成三点。他用自己的话写，并注明了出处。老师说，这是一个简洁而且很好的概括。",
+    "trans": {
+     "ko": "민수는 기사를 읽고 핵심을 세 가지로 정리했어요. 그다음 자신의 말로 한 문단으로 요약했어요. 마지막에 기사 출처를 적어 두었어요.",
+     "en": "Minsu read the article and noted three main points. Then he summarised it in one paragraph in his own words. At the end he wrote down the source of the article."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "民秀把要点概括成三点。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "民秀把文章原样抄了下来。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章是关于体育的。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "这篇文章的大意是什么？",
+    "read": "Zhè piān wén zhāng de dà yì shì shénme?",
+    "ko": "이 글의 요점이 뭐예요?",
+    "en": "What is the gist of this text?",
+    "situation": {
+     "ko": "요점을 물을 때",
+     "en": "Asking for the gist"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "作者指出费用是问题。",
+    "read": "Zuò zhě zhǐ chū fèi yòng shì wèntí.",
+    "ko": "저자는 비용이 문제라고 말해요.",
+    "en": "The author states that cost is the problem.",
+    "situation": {
+     "ko": "저자의 의견을 전할 때",
+     "en": "Reporting the author's view"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "请用三句话概括这篇文章。",
+    "read": "Qǐng yòng sān jù huà gài kuò zhè piān wén zhāng.",
+    "ko": "기사를 세 문장으로 요약하세요.",
+    "en": "Summarise the article in three sentences.",
+    "situation": {
+     "ko": "과제를 줄 때",
+     "en": "Setting a task"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "不必要的细节要省略。",
+    "read": "Bú bì yào de xì jié yào shěng lüè.",
+    "ko": "불필요한 세부 사항은 빼세요.",
+    "en": "Leave out unnecessary details.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "用同义词可以改变句子。",
+    "read": "Yòng tóng yì cí kěyǐ gǎibiàn jù zi.",
+    "ko": "동의어를 사용하면 문장을 바꿀 수 있어요.",
+    "en": "Using synonyms lets you change the sentence.",
+    "situation": {
+     "ko": "바꿔 쓰는 방법",
+     "en": "How to paraphrase"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我把这句话改写一下。",
+    "read": "Wǒ bǎ zhè jù huà gǎi xiě yíxià.",
+    "ko": "저는 이 문장을 이렇게 바꿔 쓰겠어요.",
+    "en": "I would paraphrase this sentence like this.",
+    "situation": {
+     "ko": "예를 보여 줄 때",
+     "en": "Showing an example"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "严禁抄袭。",
+    "read": "Yán jìn chāo xí.",
+    "ko": "표절은 엄격히 금지돼요.",
+    "en": "Plagiarism is strictly forbidden.",
+    "situation": {
+     "ko": "규칙을 말할 때",
+     "en": "Stating a rule"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "一定要注明出处。",
+    "read": "Yí dìng yào zhù míng chū chǔ.",
+    "ko": "출처를 반드시 밝히세요.",
+    "en": "Always acknowledge your source.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Ending"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "作者指出……。",
+    "read": "Zuò zhě zhǐ chū ….",
+    "ko": "저자는 ~라고 말한다.",
+    "en": "The author states / argues / points out that …"
+   },
+   {
+    "id": "w2",
+    "t": "根据……，……。",
+    "read": "Gēn jù …, ….",
+    "ko": "~에 따르면",
+    "en": "According to the text, …"
+   },
+   {
+    "id": "w3",
+    "t": "换句话说，……。",
+    "read": "Huàn jù huà shuō, ….",
+    "ko": "다른 말로 하면",
+    "en": "In other words, … / That is to say, …"
+   },
+   {
+    "id": "w4",
+    "t": "总之，……。",
+    "read": "Zǒngzhī, ….",
+    "ko": "요약하면",
+    "en": "In short, / In summary, …"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "아래 문장을 바꿔 쓰고 한 문장으로 요약해 보세요. ‘Many people believe that exercise helps them sleep better.’",
+    "en": "Paraphrase and summarise the sentence: 'Many people believe that exercise helps them sleep better.'"
+   },
+   "must_include": [
+    {
+     "label": "总之",
+     "match": [
+      "总之"
+     ]
+    },
+    {
+     "label": "作者",
+     "match": [
+      "作者"
+     ]
+    },
+    {
+     "label": "出处",
+     "match": [
+      "出处"
+     ]
+    }
+   ],
+   "model": "改写：很多人认为运动能提高睡眠质量。总之，运动有助于睡好觉。作者也提供了证据。因此，为了避免抄袭，应该注明出处。",
+   "model_trans": {
+    "ko": "바꿔 쓰기: 많은 사람이 운동이 수면의 질을 높인다고 생각합니다. 요약하면, 운동은 잠을 더 잘 자게 해 줍니다. 저자는 이를 뒷받침할 근거도 제시합니다. 그러므로 표절을 피하려면 출처를 밝혀야 합니다.",
+    "en": "Paraphrase: Many people think that exercise improves the quality of their sleep. In summary, exercise helps you sleep better. The author also provides evidence for this. Therefore, to avoid plagiarism you should acknowledge the source."
+   }
+  }
+ }
+}
