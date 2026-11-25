@@ -1,0 +1,803 @@
+{
+ "meta": {
+  "id": "de_b2_u05",
+  "lang": "de",
+  "family": "europe",
+  "level": "b2",
+  "unit": 5,
+  "concept": "B2.U05",
+  "status": "live",
+  "title": {
+   "target": "Vermutungen in Gegenwart und Vergangenheit: muss … sein, kann nicht … gewesen sein",
+   "ko": "과거·현재 추측 심화",
+   "en": "Deduction in the past and present"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "der Hinweis",
+   "pos": "noun",
+   "ko": "단서",
+   "en": "clue",
+   "ex": {
+    "t": "Die Polizei fand am Tatort einen Hinweis.",
+    "ko": "경찰은 현장에서 단서를 찾았어요.",
+    "en": "The police found a clue at the scene."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "der Beweis",
+   "pos": "noun",
+   "ko": "증거",
+   "en": "evidence",
+   "ex": {
+    "t": "Es gibt keinen Beweis, ihn zu verdächtigen.",
+    "ko": "그를 의심할 증거가 없어요.",
+    "en": "There is no evidence to suspect him."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "schlussfolgern",
+   "pos": "verb",
+   "ko": "추측하다",
+   "en": "deduce",
+   "ex": {
+    "t": "Sie schloss die Antwort aus den Fakten.",
+    "ko": "그녀는 그 사실에서 결론을 추측했어요.",
+    "en": "She deduced the answer from the facts."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "bestimmt",
+   "pos": "adv",
+   "ko": "틀림없이",
+   "en": "definitely",
+   "ex": {
+    "t": "Er lügt bestimmt.",
+    "ko": "그는 틀림없이 거짓말을 하고 있어요.",
+    "en": "He is definitely lying."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "die Möglichkeit",
+   "pos": "noun",
+   "ko": "가능성",
+   "en": "possibility",
+   "ex": {
+    "t": "Es besteht die Möglichkeit von Regen.",
+    "ko": "비가 올 가능성이 있어요.",
+    "en": "There is a possibility of rain."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "überraschenderweise",
+   "pos": "adv",
+   "ko": "놀랍게도",
+   "en": "surprisingly",
+   "ex": {
+    "t": "Überraschenderweise wusste sie nichts.",
+    "ko": "놀랍게도 그녀는 아무것도 몰랐어요.",
+    "en": "Surprisingly, she knew nothing."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "erklären",
+   "pos": "verb",
+   "ko": "설명하다",
+   "en": "explain",
+   "ex": {
+    "t": "Bitte erklären Sie, was passiert ist.",
+    "ko": "어떻게 된 일인지 설명해 주세요.",
+    "en": "Please explain what happened."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "vermuten",
+   "pos": "verb",
+   "ko": "의심하다",
+   "en": "suspect",
+   "ex": {
+    "t": "Ich vermute, dass er das Geheimnis kennt.",
+    "ko": "나는 그가 비밀을 알고 있다고 의심해요.",
+    "en": "I suspect he knows the secret."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "verschwinden",
+   "pos": "verb",
+   "ko": "사라지다",
+   "en": "disappear",
+   "ex": {
+    "t": "Mein Portemonnaie ist gestern verschwunden.",
+    "ko": "내 지갑이 어제 사라졌어요.",
+    "en": "My wallet disappeared yesterday."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "logisch",
+   "pos": "adj",
+   "ko": "합리적인",
+   "en": "logical",
+   "ex": {
+    "t": "Das ist die logischste Erklärung.",
+    "ko": "그것이 가장 합리적인 설명이에요.",
+    "en": "That is the most logical explanation."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "müssen / können / dürften + Infinitiv Perfekt · müssen + Infinitiv (Vermutung) · vielleicht · wahrscheinlich",
+   "en": "Deduction: muss + Infinitiv · muss … gehabt haben · kann nicht … gewesen sein · könnte … sein"
+  },
+  "explain": {
+   "ko": "추측은 정도에 따라 조동사를 달리 씁니다. 거의 확실: muss + Infinitiv (Sie müssen gerade eine Besprechung haben). 불가능: kann nicht + Infinitiv (Er kann nicht zu Hause sein). 가능성: könnte / dürfte / mag + Infinitiv. 과거에 대한 추측은 조동사 + Partizip II + haben / sein: Er muss zu Hause gewesen sein. Sie kann ihre Schlüssel nicht vergessen haben. Der Dieb könnte hier entkommen sein. 부사 vielleicht, wahrscheinlich, bestimmt, sicher로도 확신도를 조절합니다. 진행 중인 일은 gerade를 함께 씁니다.",
+   "en": "Deduction uses modal verbs by degree of certainty. Almost sure: muss + infinitive (Sie müssen gerade eine Besprechung haben). Impossible: kann nicht + infinitive (Er kann nicht zu Hause sein). Possibility: könnte / dürfte / mag + infinitive. For the past use modal + Partizip II + haben / sein: Er muss zu Hause gewesen sein. Sie kann ihre Schlüssel nicht vergessen haben. Der Dieb könnte hier entkommen sein. Adverbs such as vielleicht, wahrscheinlich, bestimmt, sicher also set the certainty. Ongoing events add gerade."
+  },
+  "table": {
+   "head": [
+    "확신도 / Sicherheit",
+    "형태 / Form",
+    "예문 / Beispiel"
+   ],
+   "rows": [
+    [
+     "sicher",
+     "muss + Infinitiv / muss … gewesen sein",
+     "Er muss zu Hause gewesen sein."
+    ],
+    [
+     "unmöglich",
+     "kann nicht + Infinitiv / kann nicht … gewesen sein",
+     "Er kann nicht zu Hause gewesen sein."
+    ],
+    [
+     "möglich",
+     "könnte / dürfte + Infinitiv Perfekt",
+     "Sie könnte die Schlüssel verloren haben."
+    ],
+    [
+     "gerade jetzt",
+     "müssen + Infinitiv + gerade",
+     "Sie müssen gerade eine Besprechung haben."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "kann nicht + Infinitiv Perfekt는 ‘~했을 리 없다’입니다.",
+    "en": "Kann nicht + perfect infinitive = 'cannot have'."
+   },
+   {
+    "ko": "müssen을 ‘~해야 한다’와 ‘~임에 틀림없다’로 구별하세요.",
+    "en": "Distinguish müssen (obligation) from müssen (deduction)."
+   },
+   {
+    "ko": "Infinitiv Perfekt: Partizip II + haben / sein.",
+    "en": "Perfect infinitive: Partizip II + haben / sein."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Er kann nicht zu Hause gewesen sein. Das Licht war aus.",
+    "ko": "그는 틀림없이 집에 없었어요. 불이 꺼져 있었으니까요.",
+    "en": "He can't have been at home. The lights were off."
+   },
+   {
+    "t": "Sie könnte ihre Schlüssel irgendwo vergessen haben.",
+    "ko": "그녀는 열쇠를 어딘가에 두고 왔을 수도 있어요.",
+    "en": "She might have left her keys somewhere."
+   },
+   {
+    "t": "Sie müssen gerade eine Besprechung haben.",
+    "ko": "그들은 지금 회의 중임이 틀림없어요.",
+    "en": "They must be having a meeting now."
+   },
+   {
+    "t": "Er kann gestern nicht früh gegangen sein.",
+    "ko": "그는 어제 일찍 퇴근했을 리가 없어요.",
+    "en": "He can't have left early yesterday."
+   },
+   {
+    "t": "Der Dieb könnte hier entkommen sein.",
+    "ko": "범인이 이 길로 도망쳤을 수도 있어요.",
+    "en": "The thief could have escaped this way."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Er ___ nicht zu Hause gewesen sein.",
+    "options": [
+     "kann",
+     "muss",
+     "soll"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Sie ___ ihre Schlüssel vergessen haben.",
+    "options": [
+     "könnte",
+     "kann nicht",
+     "wollte"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Sie müssen gerade eine Besprechung ___.",
+    "options": [
+     "haben",
+     "gehabt",
+     "hatten"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Das ist die ___ Erklärung.",
+    "options": [
+     "logischste",
+     "logisch",
+     "logischer"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Wo ist Ihrer Meinung nach mein Portemonnaie geblieben?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 내 지갑이 어디로 갔을까요?",
+     "en": "(Question) Where do you think my wallet went?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Du könntest es im Bus vergessen haben.",
+       "Du kannst es im Bus vergessen hast.",
+       "Du vergessen könntest Bus."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Warum ist er Ihrer Meinung nach noch nicht angekommen?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 왜 아직 안 왔을까요?",
+     "en": "(Question) Why do you think he hasn't arrived yet?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Er muss im Stau stehen.",
+       "Er musste im Stau stehen gewesen.",
+       "Er stehen im Stau muss."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Mein Portemonnaie ist verschwunden. Wo könnte es sein?"
+      },
+      {
+       "s": "B",
+       "t": "Du könntest es im Bus vergessen haben."
+      },
+      {
+       "s": "A",
+       "t": "Das kann nicht sein. Ich habe es ganz sicher in die Tasche gesteckt."
+      },
+      {
+       "s": "B",
+       "t": "Dann muss es jemand genommen haben. Lass uns die Polizei rufen."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 내 지갑이 사라졌어. 어디로 갔을까?\nB: 버스에 두고 내렸을지도 몰라.\nA: 그럴 리 없어. 분명히 가방에 넣었어.\nB: 그럼 누군가 가져갔음이 틀림없어. 경찰에 신고하자.",
+     "en": "A: My wallet has disappeared. Where could it be?\nB: You might have left it on the bus.\nA: I can't have. I definitely put it in my bag.\nB: Then someone must have taken it. Let's report it to the police."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Wo vermutet B das Portemonnaie?",
+      "options": [
+       "Im Bus vergessen",
+       "Zu Hause",
+       "Im Auto"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Gestern Nacht gab es einen Diebstahl in einem Geschäft. Die Polizei sagt, der Dieb muss durch die Hintertür hereingekommen sein, denn die Vordertür war verschlossen. Es gibt zu wenige Hinweise, deshalb weiß man noch nicht, wer es war."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "어젯밤 가게에서 도난 사건이 일어났어요. 경찰은 도둑이 뒷문으로 들어왔음이 틀림없다고 말해요. 앞문은 잠겨 있었기 때문이에요. 단서가 너무 적어서 아직 범인을 알 수 없어요.",
+     "en": "A theft took place at a shop last night. The police say the thief must have come in through the back door, because the front door was locked. There are too few clues, so they don't yet know who it was."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Wie ist der Dieb hereingekommen?",
+      "options": [
+       "Durch die Hintertür",
+       "Durch das Fenster",
+       "Durch die Vordertür"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Fundbüro."
+      },
+      {
+       "s": "B",
+       "t": "Mein Portemonnaie ist gestern verschwunden."
+      },
+      {
+       "s": "A",
+       "t": "Wo haben Sie es zuletzt gesehen?"
+      },
+      {
+       "s": "B",
+       "t": "Im Bus. Aber ich habe es in die Tasche gesteckt, also kann ich es nicht verloren haben."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "경찰: 분실물 신고 센터입니다.\n손님: 지갑이 어제 사라졌어요.\n경찰: 마지막으로 본 곳이 어디예요?\n손님: 버스 안이에요. 하지만 가방에 넣었으니 두고 내렸을 리는 없어요.",
+     "en": "Police: Lost property reporting.\nGuest: My wallet disappeared yesterday.\nPolice: Where did you last see it?\nGuest: On the bus. But I put it in my bag, so I can't have left it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Das Portemonnaie ist gestern ______",
+      "answers": [
+       "verschwunden"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Der Gast hat es zuletzt im ______ gesehen",
+      "answers": [
+       "bus"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Er kann nicht zu Hause ___ sein.\n2) Sie könnte ihre Schlüssel irgendwo vergessen ___.\n3) Sie müssen gerade eine Besprechung ___.",
+    "trans": {
+     "ko": "1) 그는 틀림없이 집에 없었어요. 2) 그녀는 열쇠를 어딘가에 두고 왔을 수도 있어요. 3) 그들은 지금 회의 중임이 틀림없어요.",
+     "en": "1) He can't have been at home. 2) She might have left her keys somewhere. 3) They must be having a meeting now."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Er kann nicht zu Hause ___ sein.",
+      "options": [
+       "gewesen",
+       "gehabt",
+       "war"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Sie könnte ihre Schlüssel irgendwo vergessen ___.",
+      "options": [
+       "haben",
+       "hat",
+       "gehabt"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Sie müssen gerade eine Besprechung ___.",
+      "options": [
+       "haben",
+       "hat",
+       "gehabt"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Gestern Nacht gab es einen Diebstahl in einem Geschäft. Die Polizei sagt, der Dieb muss durch die (1) hereingekommen sein, denn die Vordertür war (2). Es gibt zu wenige Hinweise, deshalb weiß man noch nicht, (3) es war.",
+    "trans": {
+     "ko": "어젯밤 가게에서 도난 사건이 일어났어요. 경찰은 도둑이 뒷문으로 들어왔음이 틀림없다고 말해요. 앞문은 잠겨 있었기 때문이에요. 단서가 너무 적어서 아직 범인을 알 수 없어요.",
+     "en": "A theft took place at a shop last night. The police say the thief must have come in through the back door, because the front door was locked. There are too few clues, so they don't yet know who it was."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "Hintertür",
+       "Hintertüren",
+       "Hinterhaus"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "verschlossen",
+       "verschließen",
+       "verschloss"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "wer",
+       "was",
+       "wo"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "EINE RÄTSELHAFTE GESCHICHTE\nAm Morgen stellten die Dorfbewohner fest, dass der Brunnen auf dem Platz verschwunden war. Niemand soll nachts ein Geräusch gehört haben. Manche behaupten, Außerirdische hätten ihn mitgenommen, andere meinen, jemand müsse ihn mit einem Lastwagen weggebracht haben.",
+    "trans": {
+     "ko": "수수께끼 이야기\n아침에 마을 사람들은 광장의 분수가 사라진 것을 발견했다. 밤새 아무 소리도 들리지 않았다고 한다. 어떤 사람은 외계인이 가져갔다고 주장하고, 다른 사람은 누군가 트럭으로 옮겼음이 틀림없다고 말한다.",
+     "en": "A MYSTERY STORY\nIn the morning villagers found that the fountain in the square had disappeared. Nobody is said to have heard any noise during the night. Some claim aliens took it, while others say someone must have moved it by truck."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was fehlte am Morgen?",
+      "options": [
+       "Der Brunnen",
+       "Das Rathaus",
+       "Die Kirche"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Was meinen manche Leute?",
+      "options": [
+       "Jemand muss ihn mit einem Lastwagen weggebracht haben",
+       "Der Brunnen ist eingestürzt",
+       "Es war ein Unfall"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Minho kam eine Stunde zu spät zum Termin. Seine Freunde meinten, er könnte im Stau gestanden haben. Minho aber sagte, er habe das Auto zu Hause gelassen, was alle überraschte.",
+    "trans": {
+     "ko": "민호는 약속에 한 시간 늦었어요. 친구들은 그가 교통 체증에 걸렸을지도 모른다고 말했어요. 하지만 민호는 차를 두고 왔다고 해서 모두 놀랐어요.",
+     "en": "Minho was an hour late for the appointment. His friends said he might have got stuck in traffic. But Minho said he had left his car at home, which surprised everyone."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Minho kam zu spät.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Minho kam mit dem Auto.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Minho wohnt in Köln.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Wo ist Ihrer Meinung nach mein Portemonnaie geblieben?",
+    "ko": "지갑이 어디로 갔을까요?",
+    "en": "Where do you think my wallet went?",
+    "situation": {
+     "ko": "원인을 추측할 때",
+     "en": "Guessing what happened"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Er kann nicht zu Hause gewesen sein.",
+    "ko": "그는 틀림없이 집에 없었어요.",
+    "en": "He can't have been at home.",
+    "situation": {
+     "ko": "확신하는 부정 추측",
+     "en": "A strong negative deduction"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Sie könnte ihre Schlüssel irgendwo vergessen haben.",
+    "ko": "그녀는 열쇠를 어딘가에 두고 왔을 수도 있어요.",
+    "en": "She might have left her keys somewhere.",
+    "situation": {
+     "ko": "가능성을 말할 때",
+     "en": "A possibility"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Sie müssen gerade eine Besprechung haben.",
+    "ko": "그들은 지금 회의 중임이 틀림없어요.",
+    "en": "They must be having a meeting now.",
+    "situation": {
+     "ko": "지금 상황 추측",
+     "en": "A deduction about now"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Das ist die logischste Erklärung.",
+    "ko": "그것이 가장 합리적인 설명이에요.",
+    "en": "That is the most logical explanation.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Es gibt zu wenige Hinweise.",
+    "ko": "단서가 너무 적어서 확신할 수 없어요.",
+    "en": "There are too few clues to be sure.",
+    "situation": {
+     "ko": "불확실함을 말할 때",
+     "en": "Expressing doubt"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Er kann nicht gelogen haben.",
+    "ko": "그가 거짓말을 했을 리가 없어요.",
+    "en": "He can't have lied.",
+    "situation": {
+     "ko": "신뢰를 표현할 때",
+     "en": "Defending someone"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Wir brauchen mehr Beweise.",
+    "ko": "증거가 더 필요해요.",
+    "en": "We need more evidence.",
+    "situation": {
+     "ko": "추가 정보를 요구할 때",
+     "en": "Asking for more information"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "muss + Infinitiv / Partizip II + haben / sein.",
+    "ko": "~했음이 틀림없다.",
+    "en": "must have + p.p."
+   },
+   {
+    "id": "w2",
+    "t": "kann nicht + Infinitiv Perfekt.",
+    "ko": "~했을 리가 없다.",
+    "en": "can't / couldn't have + p.p."
+   },
+   {
+    "id": "w3",
+    "t": "könnte / dürfte + Infinitiv Perfekt.",
+    "ko": "~했을지도 모른다.",
+    "en": "might / may / could have + p.p."
+   },
+   {
+    "id": "w4",
+    "t": "gerade + müssen + Infinitiv.",
+    "ko": "지금 ~하고 있음이 틀림없다.",
+    "en": "must be + -ing."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "미스터리한 사건에 대해 과거와 현재 추측 표현을 써서 4문장 써 보세요.",
+    "en": "Write 4 sentences about a mystery, using modals of deduction for the past and the present."
+   },
+   "must_include": [
+    {
+     "label": "könnte … haben",
+     "match": [
+      "könnte es im bus gelassen haben",
+      "könnte es"
+     ]
+    },
+    {
+     "label": "kann nicht",
+     "match": [
+      "kann ich es nicht"
+     ]
+    },
+    {
+     "label": "muss … haben",
+     "match": [
+      "muss es jemand genommen haben"
+     ]
+    },
+    {
+     "label": "Hinweise",
+     "match": [
+      "tasche"
+     ]
+    }
+   ],
+   "model": "Mein Portemonnaie ist gestern verschwunden. Ich könnte es im Bus gelassen haben. Aber ich habe es in die Tasche gesteckt, also kann ich es nicht verloren haben. Es muss es jemand genommen haben.",
+   "model_trans": {
+    "ko": "내 지갑이 어제 사라졌어요. 나는 버스에 두고 내렸을지도 몰라요. 하지만 가방 안에 넣었으니 그럴 리는 없어요. 누군가 가져갔음이 틀림없어요.",
+    "en": "My wallet disappeared yesterday. I might have left it on the bus. But I put it in my bag, so I can't have. Someone must have taken it."
+   }
+  }
+ }
+}

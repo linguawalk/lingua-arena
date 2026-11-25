@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "de_b2_u13",
+  "lang": "de",
+  "family": "europe",
+  "level": "b2",
+  "unit": 13,
+  "concept": "B2.U13",
+  "status": "live",
+  "title": {
+   "target": "Artikel und Begleiter: der / ein / kein Artikel · einige / viele / jeder / alle",
+   "ko": "관사와 한정사 심화",
+   "en": "Articles and determiners"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "die Information",
+   "pos": "noun",
+   "ko": "정보",
+   "en": "information",
+   "ex": {
+    "t": "Die Website enthält viele nützliche Informationen.",
+    "ko": "그 웹사이트에는 유용한 정보가 많아요.",
+    "en": "The website has a lot of useful information."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "der Rat",
+   "pos": "noun",
+   "ko": "조언",
+   "en": "advice",
+   "ex": {
+    "t": "Lassen Sie mich Ihnen einen Rat geben.",
+    "ko": "조언을 하나 드릴게요.",
+    "en": "Let me give you a piece of advice."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "die Möbel",
+   "pos": "noun",
+   "ko": "가구",
+   "en": "furniture",
+   "ex": {
+    "t": "Wir haben neue Möbel gekauft.",
+    "ko": "새 가구를 샀어요.",
+    "en": "We bought some new furniture."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "die Neuigkeit",
+   "pos": "noun",
+   "ko": "뉴스",
+   "en": "news",
+   "ex": {
+    "t": "Ich habe eine gute Neuigkeit.",
+    "ko": "좋은 소식이 있어요.",
+    "en": "I have some good news."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "jeder",
+   "pos": "det",
+   "ko": "각각의",
+   "en": "each",
+   "ex": {
+    "t": "Jeder Schüler erhielt ein Buch.",
+    "ko": "각 학생은 책을 한 권씩 받았어요.",
+    "en": "Each student received a book."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "alle",
+   "pos": "det",
+   "ko": "모든",
+   "en": "every",
+   "ex": {
+    "t": "Alle haben die Nachricht gehört.",
+    "ko": "모든 사람이 그 소식을 들었어요.",
+    "en": "Everyone has heard the news."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "kaum",
+   "pos": "phrase",
+   "ko": "거의 없는",
+   "en": "hardly any",
+   "ex": {
+    "t": "Es bleibt kaum Zeit.",
+    "ko": "남은 시간이 거의 없어요.",
+    "en": "There is hardly any time left."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "genug",
+   "pos": "det",
+   "ko": "충분한",
+   "en": "enough",
+   "ex": {
+    "t": "Ich habe nicht genug Geld.",
+    "ko": "충분한 돈이 없어요.",
+    "en": "I don't have enough money."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "beide",
+   "pos": "det",
+   "ko": "둘 다",
+   "en": "both",
+   "ex": {
+    "t": "Beide sind gute Entscheidungen.",
+    "ko": "둘 다 좋은 선택이에요.",
+    "en": "Both are good choices."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "keiner von beiden",
+   "pos": "det",
+   "ko": "어느 쪽도 아닌",
+   "en": "neither",
+   "ex": {
+    "t": "Keine der beiden Antworten ist richtig.",
+    "ko": "어느 쪽도 맞지 않아요.",
+    "en": "Neither answer is correct."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "bestimmter / unbestimmter / Nullartikel · einige, wenige, viele, jede(r), alle · beide / keiner von beiden",
+   "en": "Articles and determiners: definite / indefinite / zero article · einige, viele, jeder, alle · beide"
+  },
+  "explain": {
+   "ko": "독일어 관사는 성·수·격에 따라 변합니다. 정관사(der / die / das)는 이미 알려진 대상, 부정관사(ein / eine)는 처음 언급되는 대상, 무관사는 복수나 물질명사의 일반 의미입니다: Ich brauche Rat. Möbel sind teuer. 수량 표현: einige / viele / wenige + 복수, viel / wenig / etwas + 물질명사 (viel Zeit, wenig Geld). jeder / jede / jedes + 단수, alle + 복수(alle Schüler), beide + 복수. 부정은 kein-: Ich habe keine Zeit. 비교: keiner von beiden. Information, Rat, Möbel, Neuigkeiten 같은 명사는 수를 세는 법이 다르므로 ein Stück Rat, eine Information처럼 주의하세요.",
+   "en": "German articles change with gender, number and case. The definite article (der / die / das) marks something known; the indefinite (ein / eine) introduces something new; the zero article is used for general plurals and mass nouns: Ich brauche Rat. Möbel sind teuer. Quantifiers: einige / viele / wenige + plural, viel / wenig / etwas + mass noun (viel Zeit, wenig Geld). jeder / jede / jedes + singular, alle + plural (alle Schüler), beide + plural. Negation uses kein-: Ich habe keine Zeit. Of two: keiner von beiden. Nouns such as Information, Rat, Möbel, Neuigkeiten count differently, so watch ein Stück Rat, eine Information."
+  },
+  "table": {
+   "head": [
+    "구조 / Struktur",
+    "형태 / Form",
+    "예문 / Beispiel"
+   ],
+   "rows": [
+    [
+     "bestimmt / unbestimmt",
+     "der / die / das · ein / eine",
+     "Ich habe eine gute Neuigkeit."
+    ],
+    [
+     "Nullartikel",
+     "ohne Artikel + Plural / Stoffname",
+     "Möbel sind teuer."
+    ],
+    [
+     "Mengenangaben",
+     "einige / viele / wenige · viel / wenig",
+     "Es bleibt wenig Zeit."
+    ],
+    [
+     "jeder / alle / beide",
+     "jeder + Singular · alle / beide + Plural",
+     "Alle Schüler haben bestanden."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "Neuigkeit, Information은 단수·복수 모두 가능합니다.",
+    "en": "Neuigkeit, Information can be singular or plural."
+   },
+   {
+    "ko": "jeder 뒤에는 단수, alle 뒤에는 복수가 옵니다.",
+    "en": "Jeder + singular; alle + plural."
+   },
+   {
+    "ko": "부정은 nicht 대신 kein-으로 명사를 부정합니다.",
+    "en": "Negate nouns with kein-, not nicht."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Die Website enthält viele nützliche Informationen.",
+    "ko": "그 웹사이트에는 유용한 정보가 많아요.",
+    "en": "The website has a lot of useful information."
+   },
+   {
+    "t": "Lassen Sie mich Ihnen einen Rat geben.",
+    "ko": "조언을 하나 드릴게요.",
+    "en": "Let me give you a piece of advice."
+   },
+   {
+    "t": "Jeder Schüler erhielt ein Buch.",
+    "ko": "각 학생은 책을 한 권씩 받았어요.",
+    "en": "Each student received a book."
+   },
+   {
+    "t": "Alle Schüler haben die Prüfung bestanden.",
+    "ko": "모든 학생이 시험을 통과했어요.",
+    "en": "All the students passed the exam."
+   },
+   {
+    "t": "Es bleibt kaum Zeit.",
+    "ko": "남은 시간이 거의 없어요.",
+    "en": "There is hardly any time left."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Die Website enthält ___ nützliche Informationen.",
+    "options": [
+     "viele",
+     "viel",
+     "jeder"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___ Schüler erhielt ein Buch.",
+    "options": [
+     "Jeder",
+     "Alle",
+     "Beide"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Ich habe ___ Zeit.",
+    "options": [
+     "keine",
+     "kein",
+     "nicht"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___ sind gute Entscheidungen.",
+    "options": [
+     "Beide",
+     "Jeder",
+     "Keiner"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Brauchen Sie etwas?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 뭐 필요한 거 있어요?",
+     "en": "(Question) Do you need anything?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Ich brauche einen Rat.",
+       "Ich brauche Rat einen.",
+       "Ich brauche der Rat."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Haben Sie die Neuigkeit gehört?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 소식 들었어요?",
+     "en": "(Question) Have you heard the news?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Nein, was ist es?",
+       "Nein, was ist sie ist?",
+       "Nein, ist was es?"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Ich habe eine gute Neuigkeit."
+      },
+      {
+       "s": "B",
+       "t": "Was ist es?"
+      },
+      {
+       "s": "A",
+       "t": "Alle Möbel sind im neuen Haus angekommen. Jedes Zimmer brauchte etwas, und wir haben genug gekauft."
+      },
+      {
+       "s": "B",
+       "t": "Toll. Sag Bescheid, wenn du einen Rat brauchst."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 좋은 소식이 있어.\nB: 뭔데?\nA: 새 집에 가구가 모두 들어왔어. 각 방마다 필요한 물건이 있었는데 충분히 샀어.\nB: 정말 잘됐다. 조언이 필요하면 말해.",
+     "en": "A: I have some good news.\nB: What is it?\nA: All the furniture has come to the new house. Each room needed something and we bought enough.\nB: That's great. Let me know if you need any advice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist angekommen?",
+      "options": [
+       "Alle Möbel",
+       "Alle Bücher",
+       "Alle Freunde"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Alle Schüler unserer Klasse haben die Prüfung bestanden. Jeder Schüler bekam Rat vom Lehrer, und viele fanden zusätzlich Informationen im Internet. Es blieb aber kaum Zeit, deshalb konnte in der letzten Woche niemand spielen."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 반 학생들은 모두 시험을 통과했어요. 각 학생은 선생님께 조언을 받았고, 많은 학생이 정보를 인터넷에서도 찾았어요. 하지만 시간이 거의 없어서 마지막 주에는 아무도 놀지 못했어요.",
+     "en": "All the students in our class passed the exam. Each student received advice from the teacher, and many students also found information on the internet. But there was hardly any time, so nobody could play in the final week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Warum konnte niemand spielen?",
+      "options": [
+       "Es blieb kaum Zeit",
+       "Es regnete",
+       "Alle waren krank"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Möbelhaus."
+      },
+      {
+       "s": "B",
+       "t": "Ich suche Schlafzimmermöbel. Können Sie mir einen Rat geben?"
+      },
+      {
+       "s": "A",
+       "t": "Gern. Wie hoch ist Ihr Budget?"
+      },
+      {
+       "s": "B",
+       "t": "Nicht hoch. Es reicht vielleicht nicht."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 가구점입니다.\n손님: 침실용 가구를 찾고 있어요. 조언을 좀 주실 수 있나요?\n직원: 물론이죠. 예산이 얼마나 되시나요?\n손님: 많지는 않아요. 충분하지 않을지도 몰라요.",
+     "en": "Staff: Furniture shop.\nGuest: I'm looking for bedroom furniture. Could you give me some advice?\nStaff: Of course. What is your budget?\nGuest: Not much. It may not be enough."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Der Gast sucht ______ für das Schlafzimmer",
+      "answers": [
+       "möbel"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Er hat nicht viel ______",
+      "answers": [
+       "budget"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Die Website enthält ___ nützliche Informationen.\n2) ___ Schüler erhielt ein Buch.\n3) Es bleibt ___ Zeit.",
+    "trans": {
+     "ko": "1) 그 웹사이트에는 유용한 정보가 많아요. 2) 각 학생은 책을 한 권씩 받았어요. 3) 남은 시간이 거의 없어요.",
+     "en": "1) The website has a lot of useful information. 2) Each student received a book. 3) There is hardly any time left."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Die Website enthält ___ nützliche Informationen.",
+      "options": [
+       "viele",
+       "viel",
+       "jeder"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___ Schüler erhielt ein Buch.",
+      "options": [
+       "Jeder",
+       "Alle",
+       "Beide"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Es bleibt ___ Zeit.",
+      "options": [
+       "kaum",
+       "keine",
+       "nicht"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Alle Schüler unserer Klasse haben die Prüfung bestanden. Jeder Schüler bekam (1) vom Lehrer, und viele fanden zusätzlich (2) im Internet. Es blieb aber kaum (3), deshalb konnte in der letzten Woche niemand spielen.",
+    "trans": {
+     "ko": "우리 반 학생들은 모두 시험을 통과했어요. 각 학생은 선생님께 조언을 받았고, 많은 학생이 정보를 인터넷에서도 찾았어요. 하지만 시간이 거의 없어서 마지막 주에는 아무도 놀지 못했어요.",
+     "en": "All the students in our class passed the exam. Each student received advice from the teacher, and many students also found information on the internet. But there was hardly any time, so nobody could play in the final week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "Rat",
+       "Räten",
+       "Ratte"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "Informationen",
+       "Information",
+       "informiert"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "Zeit",
+       "Zeiten",
+       "zeitlich"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "WERBUNG\nEin neues Möbelhaus hat eröffnet. Alle Artikel sind um 20 % reduziert. Jeder Kunde erhält ein kostenloses Geschenk. Es sind genug Waren da, also besteht kein Grund zur Eile. Ab zwei Artikeln ist die Lieferung kostenlos.",
+    "trans": {
+     "ko": "광고\n새 가구 매장이 문을 열었습니다. 모든 제품은 20% 할인됩니다. 각 고객에게 사은품을 한 개씩 드립니다. 충분한 재고가 있으니 서두르지 않아도 됩니다. 두 가지 이상 구입하시면 배송이 무료입니다.",
+     "en": "ADVERT\nA new furniture store has opened. All items are 20% off. Each customer gets a free gift. There is enough stock, so there is no need to rush. If you buy two or more items, delivery is free."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Wie viel Rabatt gibt es?",
+      "options": [
+       "20 %",
+       "10 %",
+       "50 %"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Wann ist die Lieferung kostenlos?",
+      "options": [
+       "Ab zwei Artikeln",
+       "Immer",
+       "Nie"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Minsu bekam in seinem neuen Job viele Informationen, aber kaum Rat. Er stellte seinem älteren Kollegen einige Fragen, und der Kollege half gern.",
+    "trans": {
+     "ko": "민수는 새 직장에서 많은 정보를 받았지만 조언은 거의 받지 못했어요. 그는 선배에게 몇 가지 질문을 했고, 선배는 기꺼이 도와주었어요.",
+     "en": "Minsu received a lot of information at his new job but hardly any advice. He asked his senior colleague a few questions, and the colleague was happy to help."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Minsu bekam kaum Rat.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Minsu bekam keine Informationen.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Der Kollege wohnt in Berlin.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Brauchen Sie etwas?",
+    "ko": "뭐 필요한 거 있어요?",
+    "en": "Do you need anything?",
+    "situation": {
+     "ko": "필요를 물을 때",
+     "en": "Asking about needs"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Lassen Sie mich Ihnen einen Rat geben.",
+    "ko": "조언을 하나 드릴게요.",
+    "en": "Let me give you a piece of advice.",
+    "situation": {
+     "ko": "조언을 할 때",
+     "en": "Giving advice"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Ich habe eine gute Neuigkeit.",
+    "ko": "좋은 소식이 있어요.",
+    "en": "I have some good news.",
+    "situation": {
+     "ko": "소식을 전할 때",
+     "en": "Sharing news"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Jeder Schüler erhielt ein Buch.",
+    "ko": "각 학생은 책을 한 권씩 받았어요.",
+    "en": "Each student received a book.",
+    "situation": {
+     "ko": "개별 항목을 말할 때",
+     "en": "Talking about individuals"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Alle Schüler haben die Prüfung bestanden.",
+    "ko": "모든 학생이 시험을 통과했어요.",
+    "en": "All the students passed the exam.",
+    "situation": {
+     "ko": "전체를 말할 때",
+     "en": "Talking about a whole group"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Es bleibt kaum Zeit.",
+    "ko": "남은 시간이 거의 없어요.",
+    "en": "There is hardly any time left.",
+    "situation": {
+     "ko": "부족함을 말할 때",
+     "en": "Talking about scarcity"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Ich habe nicht genug Geld.",
+    "ko": "충분한 돈이 없어요.",
+    "en": "I don't have enough money.",
+    "situation": {
+     "ko": "부족을 표현할 때",
+     "en": "Expressing a shortage"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Beide sind gute Entscheidungen.",
+    "ko": "둘 다 좋은 선택이에요.",
+    "en": "Both are good choices.",
+    "situation": {
+     "ko": "두 가지를 비교할 때",
+     "en": "Comparing two options"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "viel / wenig + Stoffname · viele / wenige + Plural.",
+    "ko": "셀 수 없는 명사 + some / any / much",
+    "en": "some / any / much + uncountable noun."
+   },
+   {
+    "id": "w2",
+    "t": "jeder + Singular · alle / beide + Plural.",
+    "ko": "셀 수 있는 복수 + many / a few / several",
+    "en": "many / a few / several + plural noun."
+   },
+   {
+    "id": "w3",
+    "t": "kein- statt nicht bei Nomen.",
+    "ko": "각각 / 모든",
+    "en": "each + singular / every + singular / all + plural."
+   },
+   {
+    "id": "w4",
+    "t": "Nullartikel bei Plural und Stoffnamen.",
+    "ko": "둘 중",
+    "en": "both / either / neither + noun."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "셀 수 없는 명사와 한정사를 써서 요즘 겪은 일을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about something that happened recently, using uncountable nouns and determiners."
+   },
+   "must_include": [
+    {
+     "label": "einige / viele / jeder",
+     "match": [
+      "einige neue möbel"
+     ]
+    },
+    {
+     "label": "Rat",
+     "match": [
+      "einen rat"
+     ]
+    },
+    {
+     "label": "jedes Zimmer",
+     "match": [
+      "jedes zimmer"
+     ]
+    },
+    {
+     "label": "nicht genug",
+     "match": [
+      "nicht genug geld"
+     ]
+    }
+   ],
+   "model": "Gestern habe ich einige neue Möbel gekauft. Der Verkäufer gab mir viele Ratschläge, und er gab mir einen Rat. Jedes Zimmer brauchte etwas anderes. Ich hatte nicht genug Geld, deshalb beschloss ich, einige Sachen später zu kaufen.",
+   "model_trans": {
+    "ko": "저는 어제 새 가구를 샀어요. 점원이 조언을 많이 해 줬어요. 각 방마다 필요한 물건이 달랐어요. 충분한 돈이 없어서 몇 가지는 다음에 사기로 했어요.",
+    "en": "I bought some new furniture yesterday. The shop assistant gave me a lot of advice. Each room needed different things. I didn't have enough money, so I decided to buy a few things later."
+   }
+  }
+ }
+}
