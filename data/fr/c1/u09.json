@@ -1,0 +1,804 @@
+{
+ "meta": {
+  "id": "fr_c1_u09",
+  "lang": "fr",
+  "family": "europe",
+  "level": "c1",
+  "unit": 9,
+  "concept": "C1.U09",
+  "status": "live",
+  "title": {
+   "target": "Les constructions absolues et les propositions réduites",
+   "ko": "독립 분사구문과 간결한 문장",
+   "en": "Absolute and reduced clauses"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "le temps le permettant",
+   "pos": "phrase",
+   "ko": "날씨가 허락한다면",
+   "en": "weather permitting",
+   "ex": {
+    "t": "Le temps le permettant, nous partirons demain.",
+    "ko": "날씨가 허락한다면 내일 출발해요.",
+    "en": "Weather permitting, we leave tomorrow."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "tout bien considéré",
+   "pos": "phrase",
+   "ko": "모든 것을 고려하면",
+   "en": "all things considered",
+   "ex": {
+    "t": "Tout bien considéré, c'est un bon résultat.",
+    "ko": "모든 것을 고려하면 좋은 결과예요.",
+    "en": "All things considered, it's a good result."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "terminé",
+   "pos": "verb",
+   "ko": "완료하다",
+   "en": "complete",
+   "ex": {
+    "t": "Le travail terminé, nous sommes rentrés.",
+    "ko": "일을 끝낸 뒤 우리는 집으로 갔어요.",
+    "en": "The work completed, we went home."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "sans fin",
+   "pos": "adv",
+   "ko": "끝없이",
+   "en": "endlessly",
+   "ex": {
+    "t": "Ils ont discuté sans fin.",
+    "ko": "그들은 끝없이 논쟁을 벌였어요.",
+    "en": "They argued endlessly."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "par contraste",
+   "pos": "phrase",
+   "ko": "대조적으로",
+   "en": "by contrast",
+   "ex": {
+    "t": "Par contraste, B est bien meilleur.",
+    "ko": "대조적으로 B는 훨씬 나아요.",
+    "en": "By contrast, B is much better."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "en somme",
+   "pos": "phrase",
+   "ko": "종합하면",
+   "en": "all in all",
+   "ex": {
+    "t": "En somme, l'événement a été un succès.",
+    "ko": "종합하면 성공적인 행사였어요.",
+    "en": "All in all, it was a successful event."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "tendu",
+   "pos": "adj",
+   "ko": "긴장된",
+   "en": "tense",
+   "ex": {
+    "t": "L'atmosphère était tendue.",
+    "ko": "분위기가 긴장되어 있었어요.",
+    "en": "The atmosphere was tense."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "interrompu",
+   "pos": "verb",
+   "ko": "방해받다",
+   "en": "be interrupted",
+   "ex": {
+    "t": "La réunion a été interrompue au milieu.",
+    "ko": "회의가 도중에 중단되었어요.",
+    "en": "The meeting was interrupted midway."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "si possible",
+   "pos": "phrase",
+   "ko": "가능하다면",
+   "en": "if possible",
+   "ex": {
+    "t": "Venez tôt si possible.",
+    "ko": "가능하면 일찍 오세요.",
+    "en": "Come early if possible."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "condenser",
+   "pos": "verb",
+   "ko": "압축하다",
+   "en": "condense",
+   "ex": {
+    "t": "J'ai condensé le long texte.",
+    "ko": "긴 글을 짧게 압축했어요.",
+    "en": "I condensed the long text."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "le participe absolu : le travail terminé, le temps le permettant, tout bien considéré",
+   "en": "Absolute clauses: le travail terminé, le temps le permettant, tout bien considéré"
+  },
+  "explain": {
+   "ko": "절대 분사구문(proposition participiale)은 주어가 주절과 다른 분사구문으로, 이유·시간·조건을 간결하게 나타냅니다. ① 과거분사 + 명사: Le travail terminé, nous sommes rentrés. (일이 끝나자) ② 현재분사 + 명사: Le temps le permettant, nous partirons. (날씨가 허락하면) ③ 형용사·명사 구 : Tout bien considéré, ...; Les yeux fermés, elle écoutait la musique. 주절의 주어와 분사의 주어가 다릅니다. 같으면 일반 분사구문(Ayant fini le travail, nous ...)을 씁니다.",
+   "en": "The absolute (participial) clause has its own subject, different from the main clause, and expresses time, cause or condition concisely. First, past participle + noun: Le travail terminé, nous sommes rentrés. Second, present participle + noun: Le temps le permettant, nous partirons. Third, phrases such as Tout bien considéré, …; Les yeux fermés, elle écoutait la musique. The participle's subject differs from the main subject; if it is the same, use an ordinary participial clause (Ayant fini le travail, nous …)."
+  },
+  "table": {
+   "head": [
+    "유형 / Type",
+    "형태 / Forme",
+    "예문 / Exemple"
+   ],
+   "rows": [
+    [
+     "과거분사 / participe passé",
+     "nom + participe passé, …",
+     "La réunion terminée, tous sont partis."
+    ],
+    [
+     "현재분사 / participe présent",
+     "nom + participe présent, …",
+     "Le temps le permettant, nous partirons."
+    ],
+    [
+     "관용구 / locution",
+     "tout bien considéré, …",
+     "Tout bien considéré, c'est un succès."
+    ],
+    [
+     "상태 / état",
+     "les yeux fermés, …",
+     "Les yeux fermés, elle écoutait."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "절대 분사구문의 주어는 주절의 주어와 다릅니다.",
+    "en": "The subject of an absolute clause differs from the main subject."
+   },
+   {
+    "ko": "과거분사는 앞의 명사와 성·수가 일치합니다.",
+    "en": "The past participle agrees with its noun."
+   },
+   {
+    "ko": "구어에서는 거의 쓰이지 않고 문어에서 많이 씁니다.",
+    "en": "Mostly written style, rare in speech."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Le temps le permettant, nous irons pique-niquer demain.",
+    "ko": "날씨가 허락한다면 내일 소풍을 갈 거예요.",
+    "en": "Weather permitting, we will go on a picnic tomorrow."
+   },
+   {
+    "t": "Le travail terminé, nous sommes rentrés.",
+    "ko": "일을 마치고 우리는 집으로 돌아갔어요.",
+    "en": "The work done, we went home."
+   },
+   {
+    "t": "Tout bien considéré, ce résultat est assez bon.",
+    "ko": "모든 것을 고려하면 이번 결과는 꽤 좋아요.",
+    "en": "All things considered, this result is quite good."
+   },
+   {
+    "t": "Les jambes croisées, il lisait le journal.",
+    "ko": "다리를 꼰 채 그는 신문을 읽었어요.",
+    "en": "His legs crossed, he read the newspaper."
+   },
+   {
+    "t": "La porte étant fermée à clé, nous n'avons pas pu entrer.",
+    "ko": "문이 잠겨 있어서 우리는 들어갈 수 없었어요.",
+    "en": "The door being locked, we couldn't get in."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Le temps le ___, nous irons pique-niquer demain.",
+    "options": [
+     "permettant",
+     "permet",
+     "permis"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Le travail ___, nous sommes rentrés.",
+    "options": [
+     "terminé",
+     "terminer",
+     "terminant"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Tout bien ___, ce résultat est assez bon.",
+    "options": [
+     "considéré",
+     "considérant",
+     "considérer"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "La porte étant ___, nous n'avons pas pu entrer.",
+    "options": [
+     "fermée",
+     "fermé",
+     "fermer"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Que se passera-t-il pour le pique-nique de demain ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 내일 소풍은 어떻게 될까요?",
+     "en": "(Question) What will happen with tomorrow's picnic?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Le temps le permettant, nous irons.",
+       "Le temps permet, nous irons hier.",
+       "Permettant temps nous."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Que pensez-vous de cette décision ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 결정에 대해 어떻게 생각해요?",
+     "en": "(Question) What do you think of the decision?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Tout bien considéré, c'était sage.",
+       "Tout bien considérer, c'est sage hier.",
+       "Considéré sage tout."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "L'événement de demain en plein air aura lieu ?"
+      },
+      {
+       "s": "B",
+       "t": "Le temps le permettant. S'il pleut, nous passerons à l'intérieur."
+      },
+      {
+       "s": "A",
+       "t": "Les préparatifs terminés, à quelle heure cela commencera ?"
+      },
+      {
+       "s": "B",
+       "t": "À dix heures."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 내일 야외 행사는 예정대로 진행하나요?\nB: 날씨가 허락하면요. 비가 오면 실내로 옮길 거예요.\nA: 준비가 모두 끝나면 몇 시에 시작해요?\nB: 열 시에 시작할 거예요.",
+     "en": "A: Is tomorrow's outdoor event going ahead?\nB: Weather permitting. If it rains, we'll move indoors.\nA: The preparations done, what time will it start?\nB: At ten."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que se passe-t-il s'il pleut ?",
+      "options": [
+       "L'événement a lieu à l'intérieur",
+       "L'événement est annulé",
+       "L'événement est reporté d'un an"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "La réunion vient de se terminer. Tout bien considéré, ce fut un succès. Les prochaines étapes décidées et le calendrier confirmé, nous nous reverrons si nécessaire la semaine prochaine."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "회의가 막 끝났습니다. 모든 것을 고려하면 이번 회의는 성공적이었습니다. 다음 단계가 정해졌고 일정도 확정되었습니다. 필요하다면 다음 주에 한 번 더 모이겠습니다.",
+     "en": "The meeting has just finished. All things considered, it was a success. The next steps decided, and the schedule confirmed. If necessary, we will meet once more next week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Comment le locuteur décrit-il la réunion ?",
+      "options": [
+       "Un succès",
+       "Un échec",
+       "Une perte de temps"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Voici la visite du musée."
+      },
+      {
+       "s": "B",
+       "t": "Et si le temps se gâte ?"
+      },
+      {
+       "s": "A",
+       "t": "Le temps ne le permettant pas, nous passons à l'exposition intérieure."
+      },
+      {
+       "s": "B",
+       "t": "D'accord."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안내원: 박물관 투어입니다.\n관광객: 날씨가 나빠지면 어떻게 되나요?\n안내원: 날씨가 허락하지 않으면 실내 전시로 바꿉니다.\n관광객: 알겠습니다.",
+     "en": "Guide: This is the museum tour.\nTourist: What happens if the weather turns bad?\nGuide: Weather not permitting, we switch to the indoor exhibition.\nTourist: I see."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Si le temps se gâte, on passe à l'exposition ______",
+      "answers": [
+       "intérieure"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Le guide dit : le temps ne le ______ pas",
+      "answers": [
+       "permettant"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Le temps le ___, nous irons pique-niquer demain.\n2) Le travail ___, nous sommes rentrés.\n3) Tout bien ___, le résultat est assez bon.",
+    "trans": {
+     "ko": "1) 날씨가 허락한다면 내일 소풍을 갈 거예요. 2) 일을 마치고 우리는 집으로 돌아갔어요. 3) 모든 것을 고려하면 결과는 꽤 좋아요.",
+     "en": "1) Weather permitting, we will go on a picnic tomorrow. 2) The work done, we went home. 3) All things considered, the result is quite good."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Le temps le ___, nous irons pique-niquer demain.",
+      "options": [
+       "permettant",
+       "permet",
+       "permis"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Le travail ___, nous sommes rentrés.",
+      "options": [
+       "terminé",
+       "terminer",
+       "terminant"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Tout bien ___, le résultat est assez bon.",
+      "options": [
+       "considéré",
+       "considérant",
+       "considérer"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Avis d'événement. Le temps le (1), la fête aura lieu dans le parc. Tous les participants (2) arrivés, la cérémonie d'ouverture commencera. Le temps étant (3), les discours seront brefs.",
+    "trans": {
+     "ko": "행사 안내입니다. 날씨가 허락한다면 행사는 공원에서 열립니다. 모든 참가자가 도착한 후에 개막식이 시작됩니다. 시간이 한정되어 있으므로 연설은 짧게 진행됩니다.",
+     "en": "Event notice. Weather permitting, the event will be held in the park. All participants having arrived, the opening ceremony will begin. Time being limited, the speeches will be brief."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "permettant",
+       "permet",
+       "permis"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "étant",
+       "été",
+       "être"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "limité",
+       "limiter",
+       "limitant"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "BLOG\nCompte rendu de voyage\nLe vol retardé, nous sommes arrivés en pleine nuit. Les bagages récupérés, nous avons gagné l'hôtel, et la réception étant fermée, nous avons longtemps attendu. Tout bien considéré, le voyage fut tout de même agréable.",
+    "trans": {
+     "ko": "블로그\n여행 후기\n비행기가 연착되어 우리는 한밤중에 도착했다. 짐을 찾은 뒤 호텔로 이동했고, 프런트가 문을 닫은 상태여서 한참을 기다렸다. 모든 것을 고려하면 그래도 즐거운 여행이었다.",
+     "en": "BLOG\nTravel review\nThe flight delayed, we arrived in the middle of the night. Our luggage collected, we headed to the hotel, and the reception being closed, we waited for a long time. All things considered, it was still an enjoyable trip."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Pourquoi sont-ils arrivés en pleine nuit ?",
+      "options": [
+       "Le vol était retardé",
+       "Ils ont raté le train",
+       "Ils se sont perdus"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Comment l'auteur juge-t-il le voyage ?",
+      "options": [
+       "Tout de même agréable",
+       "Désastreux",
+       "Sans intérêt"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Le vol de l'auteur a été retardé. La réception de l'hôtel était ouverte. L'auteur dit que le voyage fut tout de même agréable.",
+    "trans": {
+     "ko": "글쓴이의 비행기는 연착되었다. 호텔 프런트는 열려 있었다. 글쓴이는 그래도 여행이 즐거웠다고 말한다.",
+     "en": "The writer's flight was delayed. The hotel reception was open. The writer says the trip was still enjoyable."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Le vol a été retardé.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "La réception était ouverte.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "L'auteur voyageait seul.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Le temps le permettant, l'événement aura lieu en plein air.",
+    "ko": "날씨가 허락한다면 행사는 야외에서 열릴 거예요.",
+    "en": "Weather permitting, the event will be held outdoors.",
+    "situation": {
+     "ko": "조건을 간결하게 말할 때",
+     "en": "Stating a condition concisely"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Tout bien considéré, la décision était sage.",
+    "ko": "모든 것을 고려하면 이번 결정은 현명했어요.",
+    "en": "All things considered, the decision was wise.",
+    "situation": {
+     "ko": "평가를 정리할 때",
+     "en": "Summing up an evaluation"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "La réunion terminée, tout le monde est parti.",
+    "ko": "회의가 끝나자 모두 자리를 떠났어요.",
+    "en": "The meeting over, everyone left.",
+    "situation": {
+     "ko": "연속된 상황을 말할 때",
+     "en": "Describing sequence"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Les yeux fermés, elle écoutait la musique.",
+    "ko": "눈을 감은 채 그녀는 음악을 들었어요.",
+    "en": "Her eyes closed, she listened to the music.",
+    "situation": {
+     "ko": "동시에 일어나는 동작을 묘사할 때",
+     "en": "Describing a simultaneous state"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Le temps étant court, nous avons dû réduire le plan.",
+    "ko": "시간이 부족해서 우리는 계획을 줄여야 했어요.",
+    "en": "Time being short, we had to reduce the plan.",
+    "situation": {
+     "ko": "이유를 간결하게 말할 때",
+     "en": "Giving a reason concisely"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Si possible, envoyez-le avant vendredi.",
+    "ko": "가능하다면 금요일까지 보내 주세요.",
+    "en": "If possible, send it by Friday.",
+    "situation": {
+     "ko": "요청을 간결하게 할 때",
+     "en": "A concise request"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Le travail une fois fini, nous nous sommes reposés.",
+    "ko": "그 일을 마친 뒤에 우리는 휴식을 취했어요.",
+    "en": "Having finished the job, we took a rest.",
+    "situation": {
+     "ko": "완료 후의 행동을 말할 때",
+     "en": "Action after completion"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "En somme, le projet a été un succès.",
+    "ko": "종합하면 그 프로젝트는 성공적이었어요.",
+    "en": "All in all, the project was a success.",
+    "situation": {
+     "ko": "마무리 평가를 할 때",
+     "en": "A closing evaluation"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Le temps le permettant, ...",
+    "ko": "~가 허락한다면.",
+    "en": "Weather/Time permitting, ..."
+   },
+   {
+    "id": "w2",
+    "t": "Le travail terminé, ...",
+    "ko": "~가 끝난 뒤.",
+    "en": "The work done/over, ..."
+   },
+   {
+    "id": "w3",
+    "t": "Les yeux fermés, elle ...",
+    "ko": "~인 채로 ~했다.",
+    "en": "Her eyes closed, she ..."
+   },
+   {
+    "id": "w4",
+    "t": "Tout bien considéré, ...",
+    "ko": "모든 것을 고려하면.",
+    "en": "All things considered, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "독립 분사구문을 사용해 하루의 일과나 계획을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about a day or a plan using absolute constructions."
+   },
+   "must_include": [
+    {
+     "label": "le temps le permettant",
+     "match": [
+      "le temps le permettant"
+     ]
+    },
+    {
+     "label": "terminé",
+     "match": [
+      "terminés",
+      "terminé",
+      "terminée"
+     ]
+    },
+    {
+     "label": "étant court",
+     "match": [
+      "étant court"
+     ]
+    },
+    {
+     "label": "tout bien considéré",
+     "match": [
+      "tout bien considéré"
+     ]
+    }
+   ],
+   "model": "Le temps le permettant, nous irons à la plage demain. Les préparatifs terminés, nous partirons tôt le matin. Le temps du déjeuner étant court, nous emporterons un repas simple. Tout bien considéré, c'est un bon plan.",
+   "model_trans": {
+    "ko": "날씨가 허락한다면 우리는 내일 해변에 갈 것입니다. 준비가 끝나면 아침 일찍 출발할 것입니다. 점심시간이 짧아서 우리는 간단한 도시락을 준비할 것입니다. 모든 것을 고려하면 좋은 계획입니다.",
+    "en": "Weather permitting, we will go to the beach tomorrow. The preparations finished, we will set off early in the morning. Lunchtime being short, we will pack a simple lunch. All things considered, it is a good plan."
+   }
+  }
+ }
+}

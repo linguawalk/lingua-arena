@@ -1,0 +1,803 @@
+{
+ "meta": {
+  "id": "fr_c1_u02",
+  "lang": "fr",
+  "family": "europe",
+  "level": "c1",
+  "unit": 2,
+  "concept": "C1.U02",
+  "status": "live",
+  "title": {
+   "target": "Le subjonctif et les structures formelles",
+   "ko": "가정법 현재와 격식 구문",
+   "en": "The subjunctive and formal structures"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "exiger",
+   "pos": "verb",
+   "ko": "요구하다",
+   "en": "demand",
+   "ex": {
+    "t": "Ils ont exigé une action immédiate.",
+    "ko": "그들은 즉각적인 조치를 요구했어요.",
+    "en": "They demanded immediate action."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "recommander",
+   "pos": "verb",
+   "ko": "권고하다",
+   "en": "recommend",
+   "ex": {
+    "t": "Le médecin a recommandé qu'il se repose.",
+    "ko": "의사는 그가 쉬도록 권고했어요.",
+    "en": "The doctor recommended that he rest."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "essentiel",
+   "pos": "adj",
+   "ko": "필수적인",
+   "en": "essential",
+   "ex": {
+    "t": "Il est essentiel d'être ponctuel.",
+    "ko": "시간을 지키는 것은 필수적이에요.",
+    "en": "It is essential to be punctual."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "une demande",
+   "pos": "noun",
+   "ko": "요청",
+   "en": "request",
+   "ex": {
+    "t": "La demande a été officiellement rejetée.",
+    "ko": "그 요청은 공식적으로 거절되었어요.",
+    "en": "The request was formally turned down."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "insister",
+   "pos": "verb",
+   "ko": "주장하다",
+   "en": "insist",
+   "ex": {
+    "t": "Elle a insisté pour y aller en personne.",
+    "ko": "그녀는 직접 가겠다고 주장했어요.",
+    "en": "She insisted on going in person."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "une obligation",
+   "pos": "noun",
+   "ko": "의무",
+   "en": "obligation",
+   "ex": {
+    "t": "Nous devons remplir nos obligations légales.",
+    "ko": "법적 의무를 다해야 합니다.",
+    "en": "We must fulfil our legal obligations."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "proposer",
+   "pos": "verb",
+   "ko": "제안하다",
+   "en": "propose",
+   "ex": {
+    "t": "Le comité a proposé que la règle soit modifiée.",
+    "ko": "위원회는 규정을 바꾸자고 제안했어요.",
+    "en": "The committee proposed that the rule be changed."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "impératif",
+   "pos": "adj",
+   "ko": "긴급한",
+   "en": "imperative",
+   "ex": {
+    "t": "Il est impératif que nous agissions maintenant.",
+    "ko": "지금 행동하는 것이 절대적으로 중요해요.",
+    "en": "It is imperative that we act now."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "un règlement",
+   "pos": "noun",
+   "ko": "규정",
+   "en": "regulation",
+   "ex": {
+    "t": "Le nouveau règlement entre en vigueur le mois prochain.",
+    "ko": "새 규정이 다음 달에 시행돼요.",
+    "en": "The new regulation takes effect next month."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "se conformer",
+   "pos": "verb",
+   "ko": "이행하다",
+   "en": "comply",
+   "ex": {
+    "t": "Toutes les entreprises doivent se conformer à ce règlement.",
+    "ko": "모든 회사는 이 규정을 따라야 해요.",
+    "en": "All firms must comply with this regulation."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "le subjonctif après exiger, proposer, il faut que, il est essentiel que",
+   "en": "The subjunctive: exiger que, proposer que, il est essentiel que + subjonctif"
+  },
+  "explain": {
+   "ko": "격식 있는 요구·제안·필요 표현 뒤의 종속절에는 접속법(subjonctif)을 씁니다. ① 요구·제안 동사: exiger que, demander que, proposer que, recommander que, insister pour que + subjonctif. ② 필요·중요 표현: il faut que, il est essentiel que, il est impératif que, il est vital que + subjonctif. ③ 부정과 수동을 함께 쓰면 문체가 더 공식적입니다: il est essentiel que les demandes soient déposées. ④ 가정: Sans lui, ... / Si ce n'était lui, ... 같은 표현으로 '~이 없었다면'을 나타냅니다.",
+   "en": "In formal requests, proposals and statements of necessity, the subordinate clause takes the subjonctif. First, verbs of request and suggestion: exiger que, demander que, proposer que, recommander que, insister pour que + subjonctif. Second, expressions of necessity: il faut que, il est essentiel que, il est impératif que, il est vital que + subjonctif. Third, combining with the passive makes the style more official: il est essentiel que les demandes soient déposées. Fourth, 'were it not for' can be rendered by Sans lui, ... or Si ce n'était lui, ...."
+  },
+  "table": {
+   "head": [
+    "표현 / Expression",
+    "형태 / Forme",
+    "예문 / Exemple"
+   ],
+   "rows": [
+    [
+     "요구 / demande",
+     "exiger que + subjonctif",
+     "J'exige que le dossier soit complet."
+    ],
+    [
+     "제안 / proposition",
+     "proposer que + subjonctif",
+     "Je propose que nous commencions."
+    ],
+    [
+     "필요 / nécessité",
+     "il est essentiel que + subjonctif",
+     "Il est essentiel que tous soient là."
+    ],
+    [
+     "가정 / hypothèse",
+     "Sans lui, … / Si ce n'était lui, …",
+     "Sans lui, ce serait impossible."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "exiger, proposer 뒤의 que 절은 직설법이 아니라 접속법입니다.",
+    "en": "After exiger and proposer, the que clause takes the subjonctif, not the indicative."
+   },
+   {
+    "ko": "주어가 같으면 접속법 대신 부정사를 씁니다: Il faut partir.",
+    "en": "When the subject is the same, use the infinitive: Il faut partir."
+   },
+   {
+    "ko": "수동 접속법(soit + 과거분사)은 공문에서 자주 쓰입니다.",
+    "en": "The passive subjunctive (soit + past participle) is common in official texts."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Le médecin a recommandé qu'il se repose.",
+    "ko": "의사는 그가 쉬어야 한다고 권고했어요.",
+    "en": "The doctor recommended that he rest."
+   },
+   {
+    "t": "Il est essentiel que chaque employé soit présent.",
+    "ko": "모든 직원이 참석하는 것이 필수적이에요.",
+    "en": "It is essential that every employee attend."
+   },
+   {
+    "t": "Elle a insisté pour qu'elle y aille elle-même.",
+    "ko": "그녀는 직접 가야 한다고 주장했어요.",
+    "en": "She insisted that she go in person."
+   },
+   {
+    "t": "Le comité a proposé que la règle soit modifiée.",
+    "ko": "위원회는 규정이 개정되어야 한다고 제안했어요.",
+    "en": "The committee proposed that the rule be amended."
+   },
+   {
+    "t": "Je voudrais que tu sois là.",
+    "ko": "제가 그 자리에 있었더라면 좋았을 텐데요.",
+    "en": "I wish I were there."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Le médecin a recommandé qu'il se ___.",
+    "options": [
+     "repose",
+     "reposera",
+     "reposait"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Il est essentiel que chaque employé ___ présent.",
+    "options": [
+     "soit",
+     "est",
+     "sera"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Elle a insisté pour qu'elle y ___ elle-même.",
+    "options": [
+     "aille",
+     "va",
+     "ira"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Le comité a proposé que la règle ___ modifiée.",
+    "options": [
+     "soit",
+     "est",
+     "sera"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Qu'est-ce que le comité a exigé ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 위원회는 무엇을 요구했나요?",
+     "en": "(Question) What did the committee demand?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Que toutes les candidatures soient remises avant vendredi.",
+       "Que toutes les candidatures sont remises vendredi.",
+       "Que remettre candidatures vendredi."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Pourquoi a-t-elle insisté pour y aller en personne ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 그가 직접 가야 한다고 주장했나요?",
+     "en": "(Question) Why did she insist on going in person?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Elle a insisté pour y aller elle-même.",
+       "Elle a insisté qu'elle va elle-même hier.",
+       "Elle insister elle-même."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Qu'a dit le médecin ?"
+      },
+      {
+       "s": "B",
+       "t": "Elle a recommandé que je me repose une semaine."
+      },
+      {
+       "s": "A",
+       "t": "Et le voyage d'affaires ?"
+      },
+      {
+       "s": "B",
+       "t": "Le directeur a proposé que quelqu'un d'autre y aille à ma place."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 의사 선생님이 뭐라고 하셨어?\nB: 내가 일주일 동안 쉬어야 한다고 권고하셨어.\nA: 그럼 출장은 어떻게 해?\nB: 팀장님이 다른 사람이 대신 가야 한다고 제안하셨어.",
+     "en": "A: What did the doctor say?\nB: She recommended that I rest for a week.\nA: What about the business trip?\nB: The manager suggested that someone else go instead."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qu'a proposé le directeur ?",
+      "options": [
+       "Que quelqu'un d'autre fasse le voyage",
+       "Que le médecin vienne",
+       "Que le voyage soit annulé"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Un nouveau règlement de sécurité entre en vigueur le mois prochain. Il est essentiel que chaque employé suive la formation. Les chefs de service doivent veiller à ce que le calendrier soit communiqué. Les équipes qui ne s'y conforment pas feront l'objet d'un contrôle."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "새 안전 규정이 다음 달부터 시행됩니다. 모든 직원이 교육을 이수하는 것이 필수적입니다. 부서장은 교육 일정이 공유되도록 해야 합니다. 이 규정을 따르지 않는 팀은 감사를 받게 됩니다.",
+     "en": "A new safety regulation takes effect next month. It is essential that every employee complete the training. Department heads must ensure that the schedule be shared. Teams that fail to comply will be audited."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qu'est-ce qui est essentiel selon le nouveau règlement ?",
+      "options": [
+       "Chaque employé suit la formation",
+       "Chaque employé change de poste",
+       "Chaque service ferme"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Il s'agit de votre demande de remboursement."
+      },
+      {
+       "s": "B",
+       "t": "J'exige que le remboursement soit traité dans la semaine."
+      },
+      {
+       "s": "A",
+       "t": "Je vais vérifier. Il est essentiel que le reçu soit joint."
+      },
+      {
+       "s": "B",
+       "t": "Compris. Je vous l'envoie tout de suite."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 환불 요청 건입니다.\n고객: 환불이 일주일 안에 처리되기를 요구합니다.\n직원: 확인해 보겠습니다. 영수증이 첨부되는 것이 필수적입니다.\n고객: 알겠습니다. 지금 보내겠습니다.",
+     "en": "Clerk: This is about your refund request.\nCustomer: I demand that the refund be processed within a week.\nClerk: I'll check. It is essential that the receipt be attached.\nCustomer: Understood. I'll send it now."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Le client exige que le remboursement soit ______ dans la semaine",
+      "answers": [
+       "traité"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Il est essentiel que le ______ soit joint",
+      "answers": [
+       "reçu"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Le comité a proposé que la règle ___ modifiée.\n2) Il est essentiel que chacun ___ présent.\n3) Je voudrais que tu ___ là.",
+    "trans": {
+     "ko": "1) 위원회는 규정이 바뀌어야 한다고 제안했어요. 2) 모두 참석하는 것이 필수적이에요. 3) 제가 그 자리에 있었더라면 좋았을 텐데요.",
+     "en": "1) The committee proposed that the rule be changed. 2) It is essential that everyone attend. 3) I wish I were there."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Le comité a proposé que la règle ___ modifiée.",
+      "options": [
+       "soit",
+       "est",
+       "sera"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Il est essentiel que chacun ___ présent.",
+      "options": [
+       "soit",
+       "est",
+       "sera"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Je voudrais que tu ___ là.",
+      "options": [
+       "sois",
+       "es",
+       "seras"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Le conseil municipal a approuvé un nouveau règlement environnemental. Il est essentiel que chaque entreprise de construction (1) ses émissions. Il a été recommandé au service de veiller à ce que la règle (2) strictement appliquée. Les entreprises qui ne s'y (3) pas devront payer une amende.",
+    "trans": {
+     "ko": "시 의회는 새 환경 규정을 승인했습니다. 모든 건설 회사가 오염 물질 배출을 줄이는 것이 필수적입니다. 담당 부서는 규정이 철저히 지켜지는지 확인하라는 권고를 받았습니다. 이를 지키지 않는 회사는 벌금을 내야 합니다.",
+     "en": "The city council has approved a new environmental regulation. It is essential that every construction firm reduce its emissions. The department was recommended to ensure the rule is strictly followed. Companies that fail to comply must pay a fine."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "réduise",
+       "réduit",
+       "réduira"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "soit",
+       "est",
+       "sera"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "conforment",
+       "conformeraient",
+       "conformaient"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "AVIS\nChangement des horaires de la bibliothèque\nÀ partir du mois prochain, les horaires de la bibliothèque seront prolongés. Il est essentiel que les usagers présentent leur carte d'identité. La bibliothèque demande que tous les usagers rendent les livres à temps. Pour plus de détails, adressez-vous à l'accueil.",
+    "trans": {
+     "ko": "공지\n도서관 운영 변경\n다음 달부터 도서관 이용 시간이 연장된다. 이용자는 신분증을 지참하는 것이 필수적이다. 도서관은 모든 이용자가 대출 기한을 지킬 것을 요청하고 있다. 자세한 내용은 안내 데스크에 문의하라.",
+     "en": "NOTICE\nChanges to library opening\nFrom next month library hours will be extended. It is essential that users bring an ID card. The library requests that all users return books on time. Please ask at the information desk for details."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qu'est-ce qui est essentiel pour les usagers ?",
+      "options": [
+       "Présenter leur carte d'identité",
+       "Payer une cotisation",
+       "Réserver à l'avance"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Que demande la bibliothèque ?",
+      "options": [
+       "Que les livres soient rendus à temps",
+       "Que les usagers parlent moins fort",
+       "Que les enfants soient accompagnés"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Sumi doit suivre la formation prévue par le nouveau règlement. Elle s'est plainte que le calendrier soit trop chargé. La formation n'est proposée qu'en ligne.",
+    "trans": {
+     "ko": "수미는 새 규정에 따라 교육을 이수해야 한다. 그녀는 일정이 너무 빡빡하다고 불평했다. 교육은 온라인으로만 제공된다.",
+     "en": "Sumi must complete training under the new regulation. She complained that the schedule is too tight. The training is offered online only."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Sumi doit suivre une formation.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "La formation est proposée en présentiel uniquement.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Sumi a déjà terminé la formation.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Nous demandons que tous les chefs d'équipe assistent à la réunion.",
+    "ko": "회의에 모든 팀장이 참석할 것을 요청드립니다.",
+    "en": "We request that every team leader attend the meeting.",
+    "situation": {
+     "ko": "격식 있는 요청",
+     "en": "A formal request"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Il est essentiel que les dossiers soient déposés avant vendredi.",
+    "ko": "신청서는 금요일까지 제출되어야 합니다.",
+    "en": "It is essential that applications be submitted by Friday.",
+    "situation": {
+     "ko": "필수 조건을 알릴 때",
+     "en": "Stating a requirement"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Je suggère que le contrat soit examiné par un avocat.",
+    "ko": "저라면 계약서를 변호사에게 검토받도록 하겠어요.",
+    "en": "I suggest that the contract be reviewed by a lawyer.",
+    "situation": {
+     "ko": "정중한 제안",
+     "en": "A polite suggestion"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Certains insistent pour qu'il s'excuse en personne.",
+    "ko": "그가 직접 사과해야 한다고 주장하는 사람들도 있어요.",
+    "en": "Some insist that he apologise in person.",
+    "situation": {
+     "ko": "강한 입장 표명",
+     "en": "A strong stance"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Il est vital que chacun respecte cette règle.",
+    "ko": "이 규정은 모두가 따라야 한다는 것이 중요해요.",
+    "en": "It is vital that everyone comply with this rule.",
+    "situation": {
+     "ko": "중요성을 강조할 때",
+     "en": "Emphasising importance"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Sans lui, cela aurait été impossible.",
+    "ko": "그가 아니었다면 이 일은 불가능했을 거예요.",
+    "en": "Were it not for him, this would have been impossible.",
+    "situation": {
+     "ko": "격식 있는 가정",
+     "en": "A formal hypothetical"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "J'ai demandé que toutes les remarques soient consignées.",
+    "ko": "모든 의견이 기록되도록 요청했습니다.",
+    "en": "I asked that all comments be recorded.",
+    "situation": {
+     "ko": "공식 요청을 설명할 때",
+     "en": "Reporting a formal request"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Dans ce cas, je propose que nous procédions ainsi.",
+    "ko": "그럼 그렇게 진행하도록 하겠습니다.",
+    "en": "Then I propose that we proceed accordingly.",
+    "situation": {
+     "ko": "결정을 마무리할 때",
+     "en": "Closing a decision"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Nous demandons que ~ (subjonctif).",
+    "ko": "~가 ~하도록 요청합니다.",
+    "en": "We request that ~ (base verb)."
+   },
+   {
+    "id": "w2",
+    "t": "Il est essentiel que ~ (subjonctif).",
+    "ko": "~하는 것이 필수적입니다.",
+    "en": "It is essential that ~ (base verb)."
+   },
+   {
+    "id": "w3",
+    "t": "Je propose / suggère que ~ (subjonctif).",
+    "ko": "~가 ~해야 한다고 제안합니다.",
+    "en": "I propose/suggest that ~ (base verb)."
+   },
+   {
+    "id": "w4",
+    "t": "Sans ~, ...",
+    "ko": "~이 아니었다면 ~했을 것이다.",
+    "en": "Were it not for ~, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "격식 있는 요청이나 제안을 가정법 현재를 써서 4문장으로 써 보세요.",
+    "en": "Write 4 sentences making formal requests or suggestions using the subjunctive."
+   },
+   "must_include": [
+    {
+     "label": "exiger / demander que",
+     "match": [
+      "demandé que",
+      "exigé que"
+     ]
+    },
+    {
+     "label": "il est essentiel que",
+     "match": [
+      "il est essentiel que"
+     ]
+    },
+    {
+     "label": "proposer que",
+     "match": [
+      "je propose que"
+     ]
+    },
+    {
+     "label": "se conformer",
+     "match": [
+      "se conforme"
+     ]
+    }
+   ],
+   "model": "Le comité a exigé que toutes les candidatures soient remises avant vendredi. Il est essentiel que le responsable vérifie le délai en personne. Je propose que les documents soient examinés à l'avance. Chaque service doit se conformer à ce règlement.",
+   "model_trans": {
+    "ko": "위원회는 모든 신청서가 금요일까지 제출되어야 한다고 요구했습니다. 담당자가 마감일을 직접 확인하는 것이 필수적입니다. 저는 지원 서류를 사전에 검토하도록 제안합니다. 모든 부서가 이 규정을 따라야 합니다.",
+    "en": "The committee demanded that all applications be submitted by Friday. It is essential that the officer check the deadline in person. I propose that the documents be reviewed in advance. Every department must comply with this regulation."
+   }
+  }
+ }
+}

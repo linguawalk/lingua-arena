@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "fr_c1_u28",
+  "lang": "fr",
+  "family": "europe",
+  "level": "c1",
+  "unit": 28,
+  "concept": "C1.U28",
+  "status": "live",
+  "title": {
+   "target": "Analyser des données en profondeur",
+   "ko": "자료 분석 심화",
+   "en": "Analysing data in depth"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "la corrélation",
+   "pos": "noun",
+   "ko": "상관관계",
+   "en": "correlation",
+   "ex": {
+    "t": "Il existe une forte corrélation entre les deux variables.",
+    "ko": "두 변수 사이에 강한 상관관계가 있어요.",
+    "en": "There is a strong correlation between the two variables."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "représenter",
+   "pos": "phrase",
+   "ko": "차지하다",
+   "en": "account for",
+   "ex": {
+    "t": "Les femmes représentent soixante pour cent des participants.",
+    "ko": "여성이 전체 참가자의 60퍼센트를 차지해요.",
+    "en": "Women account for sixty per cent of participants."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "un écart",
+   "pos": "noun",
+   "ko": "격차",
+   "en": "disparity",
+   "ex": {
+    "t": "L'écart de revenus se creuse.",
+    "ko": "소득 격차가 커지고 있어요.",
+    "en": "The income disparity is widening."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "la grande majorité",
+   "pos": "phrase",
+   "ko": "압도적 다수",
+   "en": "the vast majority",
+   "ex": {
+    "t": "La grande majorité a soutenu la politique.",
+    "ko": "대다수가 이 정책에 찬성했어요.",
+    "en": "The vast majority supported the policy."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "une valeur aberrante",
+   "pos": "noun",
+   "ko": "이상치",
+   "en": "outlier",
+   "ex": {
+    "t": "Cette valeur ressemble à une valeur aberrante.",
+    "ko": "이 값은 이상치로 보여요.",
+    "en": "This value looks like an outlier."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "la tendance",
+   "pos": "noun",
+   "ko": "추세",
+   "en": "trend",
+   "ex": {
+    "t": "La tendance à la hausse se poursuit.",
+    "ko": "상승 추세가 이어지고 있어요.",
+    "en": "The upward trend continues."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "marqué",
+   "pos": "adj",
+   "ko": "두드러진",
+   "en": "pronounced",
+   "ex": {
+    "t": "Les différences régionales sont marquées.",
+    "ko": "지역 간 차이가 두드러져요.",
+    "en": "Regional differences are pronounced."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "être proportionnel à",
+   "pos": "phrase",
+   "ko": "비례하다",
+   "en": "be proportional to",
+   "ex": {
+    "t": "Le revenu est proportionnel au niveau d'études.",
+    "ko": "소득은 학력에 비례해요.",
+    "en": "Income is proportional to education."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "la fluctuation",
+   "pos": "noun",
+   "ko": "변동",
+   "en": "fluctuation",
+   "ex": {
+    "t": "Les fluctuations de prix sont importantes.",
+    "ko": "가격 변동이 심해요.",
+    "en": "Price fluctuations are large."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "l'interprétation",
+   "pos": "noun",
+   "ko": "해석",
+   "en": "interpretation",
+   "ex": {
+    "t": "L'interprétation des données doit être prudente.",
+    "ko": "자료 해석은 신중해야 해요.",
+    "en": "Interpretation of data must be careful."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "être corrélé à, représenter, un écart marqué, la grande majorité",
+   "en": "Analysing data: être corrélé à, représenter, un écart marqué, la grande majorité"
+  },
+  "explain": {
+   "ko": "자료 분석 글에서는 수치를 정확하고 신중하게 해석합니다. ① 상관: Il existe une forte corrélation entre A et B. ② 비율: représenter, constituer (Les femmes représentent 60 % ...). ③ 격차: un écart marqué, une disparité. ④ 다수: la grande majorité, une minorité. ⑤ 이상치: une valeur aberrante. ⑥ 주의: Corrélation n'est pas causalité. Les résultats doivent être interprétés avec prudence. 수치 앞에는 environ, près de, plus de 같은 어휘로 정확도를 조절합니다.",
+   "en": "Data analysis interprets figures accurately and cautiously. First, correlation: Il existe une forte corrélation entre A et B. Second, proportions: représenter, constituer (Les femmes représentent 60 % …). Third, gaps: un écart marqué, une disparité. Fourth, majority: la grande majorité, une minorité. Fifth, outlier: une valeur aberrante. Sixth, caution: Corrélation n'est pas causalité; results must be interpreted with caution. Adjust precision with environ, près de, plus de."
+  },
+  "table": {
+   "head": [
+    "기능 / Fonction",
+    "표현 / Expressions",
+    "예문 / Exemple"
+   ],
+   "rows": [
+    [
+     "상관 / corrélation",
+     "il existe une corrélation entre …",
+     "Il existe une corrélation entre revenu et études."
+    ],
+    [
+     "비율 / proportion",
+     "représenter · constituer",
+     "Elles représentent 60 %."
+    ],
+    [
+     "격차 / écart",
+     "un écart marqué",
+     "L'écart est marqué."
+    ],
+    [
+     "주의 / prudence",
+     "corrélation n'est pas causalité",
+     "Il faut interpréter avec prudence."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "상관관계는 인과관계를 뜻하지 않습니다.",
+    "en": "Correlation does not mean causation."
+   },
+   {
+    "ko": "표본 크기를 항상 확인하세요.",
+    "en": "Always check the sample size."
+   },
+   {
+    "ko": "수치에는 단위와 기준(%, 연도)을 함께 쓰세요.",
+    "en": "State units and reference (%, year) with figures."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Il existe une forte corrélation entre ces deux variables.",
+    "ko": "이 두 변수 사이에는 강한 상관관계가 있어요.",
+    "en": "There is a strong correlation between these two variables."
+   },
+   {
+    "t": "Les femmes représentent soixante pour cent de l'ensemble.",
+    "ko": "여성이 전체의 60퍼센트를 차지해요.",
+    "en": "Women account for sixty per cent of the total."
+   },
+   {
+    "t": "L'écart de revenus entre les régions est marqué.",
+    "ko": "지역 간 소득 격차가 두드러져요.",
+    "en": "The income disparity between regions is pronounced."
+   },
+   {
+    "t": "La grande majorité a soutenu le nouveau système.",
+    "ko": "대다수가 새 제도에 찬성했어요.",
+    "en": "The vast majority supported the new system."
+   },
+   {
+    "t": "Corrélation n'est pas causalité.",
+    "ko": "상관관계가 인과 관계를 의미하는 것은 아니에요.",
+    "en": "Correlation does not imply causation."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Il existe une forte ___ entre ces deux variables.",
+    "options": [
+     "corrélation",
+     "corréler",
+     "corrélé"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Les femmes ___ soixante pour cent de l'ensemble.",
+    "options": [
+     "représentent",
+     "représenter",
+     "représenté"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "L'écart de revenus entre les régions est ___.",
+    "options": [
+     "marqué",
+     "marquer",
+     "marquant"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "La grande ___ a soutenu le nouveau système.",
+    "options": [
+     "majorité",
+     "majeur",
+     "majorer"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Que montrent ces données ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 자료는 무엇을 보여 주나요?",
+     "en": "(Question) What does this data show?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Elles montrent une forte corrélation.",
+       "Elles montre corrélation fort.",
+       "Corrélation forte elles."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Que pense la grande majorité ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 대다수는 어떤 의견인가요?",
+     "en": "(Question) What do the vast majority think?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "La grande majorité est pour.",
+       "Grande majorité pour est la.",
+       "Majorité la grande est."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Ce graphique montre une corrélation entre revenu et dépenses."
+      },
+      {
+       "s": "B",
+       "t": "Mais cela ne prouve pas la causalité."
+      },
+      {
+       "s": "A",
+       "t": "C'est vrai, il faut l'interpréter avec prudence."
+      },
+      {
+       "s": "B",
+       "t": "Il faut une analyse plus poussée."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 그래프 보면 소득과 소비 사이에 상관관계가 있어.\nB: 그렇다고 인과 관계라고 할 수는 없지.\nA: 맞아, 조심스럽게 해석해야 해.\nB: 추가 분석이 필요하겠어.",
+     "en": "A: This graph shows a correlation between income and spending.\nB: But that doesn't prove causation.\nA: Right, it must be interpreted carefully.\nB: We need further analysis."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que dit l'homme de la corrélation ?",
+      "options": [
+       "Elle ne prouve pas la causalité",
+       "Elle prouve tout",
+       "Elle est fausse"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Je vais présenter les résultats de l'enquête. Soixante-dix pour cent des répondants ont déclaré utiliser les transports en commun. Par âge, les vingtenaires représentaient la part la plus importante. Les différences entre régions n'étaient pas grandes."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "조사 결과를 발표하겠습니다. 응답자의 70퍼센트가 대중교통을 이용한다고 답했습니다. 연령대별로는 20대가 가장 큰 비중을 차지했습니다. 지역 간 차이는 크지 않았습니다.",
+     "en": "I'll present the survey results. Seventy per cent of respondents said they use public transport. By age, people in their twenties accounted for the largest share. Differences between regions were not large."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qui représentait la part la plus importante ?",
+      "options": [
+       "Les vingtenaires",
+       "Les retraités",
+       "Les enfants"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Regardez ce graphique."
+      },
+      {
+       "s": "B",
+       "t": "Une valeur est anormalement élevée."
+      },
+      {
+       "s": "A",
+       "t": "C'est peut-être une valeur aberrante ; je la vérifierai séparément."
+      },
+      {
+       "s": "B",
+       "t": "Oui, tirons les conclusions ensuite."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "분석가: 이 그래프를 보세요.\n동료: 값 하나가 유난히 높네요.\n분석가: 이상치일 수 있으니 따로 확인하겠습니다.\n동료: 네, 결론은 그 뒤에 내리죠.",
+     "en": "Analyst: Look at this graph.\nColleague: One value is unusually high.\nAnalyst: It may be an outlier; I'll check it separately.\nColleague: Yes, let's draw conclusions afterwards."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Une valeur est anormalement ______",
+      "answers": [
+       "élevée"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "L'analyste la vérifiera ______",
+      "answers": [
+       "séparément"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Il existe une forte ___ entre ces deux variables.\n2) Les femmes ___ soixante pour cent de l'ensemble.\n3) L'écart de revenus entre les régions est ___.",
+    "trans": {
+     "ko": "1) 이 두 변수 사이에는 강한 상관관계가 있어요. 2) 여성이 전체의 60퍼센트를 차지해요. 3) 지역 간 소득 격차가 두드러져요.",
+     "en": "1) There is a strong correlation between these two variables. 2) Women account for sixty per cent of the total. 3) The income disparity between regions is pronounced."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Il existe une forte ___ entre ces deux variables.",
+      "options": [
+       "corrélation",
+       "corréler",
+       "corrélé"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Les femmes ___ soixante pour cent de l'ensemble.",
+      "options": [
+       "représentent",
+       "représenter",
+       "représenté"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "L'écart de revenus entre les régions est ___.",
+      "options": [
+       "marqué",
+       "marquer",
+       "marquant"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Ce rapport a analysé l'écart de revenus entre les zones urbaines et rurales. Le revenu urbain moyen était (1) celui des zones rurales. Un niveau d'études plus élevé (2) à aller de pair avec un revenu plus élevé, mais cela ne signifie pas nécessairement une relation de (3).",
+    "trans": {
+     "ko": "이 보고서는 도시와 농촌의 소득 격차를 분석했습니다. 도시 지역의 평균 소득은 농촌의 두 배에 달했습니다. 학력이 높을수록 소득도 높은 경향이 있었지만, 이것이 곧 인과 관계를 뜻하지는 않습니다.",
+     "en": "This report analysed the income gap between urban and rural areas. Average urban income was twice the rural figure. Higher education tended to go with higher income, but this does not necessarily mean causation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "le double de",
+       "deux de",
+       "doublé"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "tendait",
+       "tendant",
+       "tendre"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "causalité",
+       "cause",
+       "causer"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "RAPPORT\nEnquête sur les habitudes de lecture\nDans une enquête auprès de mille adultes, quarante pour cent ont déclaré ne lire aucun livre dans le mois. Les vingtenaires lisaient le moins et les sexagénaires le plus. Il n'y avait pas de corrélation nette entre le revenu et le volume de lecture.",
+    "trans": {
+     "ko": "보고서\n독서 습관 조사\n성인 천 명을 대상으로 한 조사에서 응답자의 40퍼센트는 한 달에 책을 한 권도 읽지 않는다고 답했다. 20대의 독서량이 가장 적었고 60대가 가장 많았다. 소득과 독서량 사이에는 뚜렷한 상관관계가 없었다.",
+     "en": "REPORT\nReading habits survey\nIn a survey of one thousand adults, forty per cent said they read no books in a month. Readers in their twenties read the least and those in their sixties the most. There was no clear correlation between income and reading volume."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Combien d'adultes ont été interrogés ?",
+      "options": [
+       "Mille",
+       "Cent",
+       "Dix mille"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Qu'en est-il de la corrélation revenu-lecture ?",
+      "options": [
+       "Il n'y en a pas de nette",
+       "Elle est très forte",
+       "Elle est négative"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Mille adultes ont participé. Les vingtenaires lisaient le plus. Il n'y avait pas de corrélation nette entre le revenu et la lecture.",
+    "trans": {
+     "ko": "조사에는 성인 천 명이 참여했다. 20대의 독서량이 가장 많았다. 소득과 독서량 사이에는 뚜렷한 상관관계가 없었다.",
+     "en": "One thousand adults took part. Those in their twenties read the most. There was no clear correlation between income and reading."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Mille adultes ont participé.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Les vingtenaires lisaient le plus.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "L'enquête a eu lieu à Paris.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Les données montrent une forte corrélation entre les deux variables.",
+    "ko": "이 자료는 두 변수 사이의 강한 상관관계를 보여 줍니다.",
+    "en": "The data show a strong correlation between the two variables.",
+    "situation": {
+     "ko": "관계를 분석할 때",
+     "en": "Analysing a relationship"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Les femmes représentent soixante pour cent des répondants.",
+    "ko": "여성이 전체 응답자의 60퍼센트를 차지합니다.",
+    "en": "Women account for sixty per cent of respondents.",
+    "situation": {
+     "ko": "비율을 설명할 때",
+     "en": "Explaining proportions"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "L'écart entre les régions est marqué.",
+    "ko": "지역 간 격차가 두드러집니다.",
+    "en": "The disparity between regions is pronounced.",
+    "situation": {
+     "ko": "차이를 지적할 때",
+     "en": "Pointing out a gap"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "La grande majorité a soutenu la nouvelle politique.",
+    "ko": "압도적 다수가 새 정책에 찬성했습니다.",
+    "en": "The vast majority supported the new policy.",
+    "situation": {
+     "ko": "다수를 말할 때",
+     "en": "Describing a majority"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Cette valeur semble aberrante et devrait être analysée séparément.",
+    "ko": "이 값은 이상치로 보이므로 별도로 분석해야 합니다.",
+    "en": "This value appears to be an outlier and should be analysed separately.",
+    "situation": {
+     "ko": "예외를 처리할 때",
+     "en": "Handling an exception"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Corrélation n'est pas nécessairement causalité.",
+    "ko": "상관관계가 곧 인과 관계는 아닙니다.",
+    "en": "Correlation does not necessarily imply causation.",
+    "situation": {
+     "ko": "해석을 경계할 때",
+     "en": "Cautioning about interpretation"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "La tendance à la hausse devrait se poursuivre.",
+    "ko": "상승 추세가 이어질 것으로 보입니다.",
+    "en": "The upward trend is likely to continue.",
+    "situation": {
+     "ko": "추세를 전망할 때",
+     "en": "Forecasting a trend"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Ces résultats doivent être interprétés avec prudence.",
+    "ko": "이 결과는 조심스럽게 해석해야 합니다.",
+    "en": "These results must be interpreted with caution.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Il existe une corrélation entre ~ et ...",
+    "ko": "~와 ~ 사이에 상관관계가 있다.",
+    "en": "There is a correlation between ~ and ..."
+   },
+   {
+    "id": "w2",
+    "t": "~ représente(nt) ...",
+    "ko": "~가 ~를 차지한다.",
+    "en": "~ account(s) for ..."
+   },
+   {
+    "id": "w3",
+    "t": "L'écart de ~ est marqué.",
+    "ko": "~의 격차가 두드러진다.",
+    "en": "The disparity in ~ is pronounced."
+   },
+   {
+    "id": "w4",
+    "t": "la grande majorité de ...",
+    "ko": "대다수.",
+    "en": "the vast majority of ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가상의 설문 자료를 분석해 비율·상관관계·차이·해석 순으로 4문장으로 써 보세요.",
+    "en": "Analyse an imaginary survey in 4 sentences: proportion, correlation, difference, interpretation."
+   },
+   "must_include": [
+    {
+     "label": "représentent",
+     "match": [
+      "représentent"
+     ]
+    },
+    {
+     "label": "corrélation",
+     "match": [
+      "corrélation"
+     ]
+    },
+    {
+     "label": "marquées",
+     "match": [
+      "marquées"
+     ]
+    },
+    {
+     "label": "prudence",
+     "match": [
+      "prudence"
+     ]
+    }
+   ],
+   "model": "Les usagers des transports en commun représentent soixante-dix pour cent des répondants. Une corrélation est apparue entre un revenu plus élevé et un usage plus important de la voiture. Les différences entre les tranches d'âge n'étaient pas marquées. Cependant, l'échantillon est petit, donc les résultats doivent être interprétés avec prudence.",
+   "model_trans": {
+    "ko": "대중교통 이용자가 전체 응답자의 70퍼센트를 차지했습니다. 소득이 높을수록 자가용 이용률이 높은 상관관계가 나타났습니다. 연령대 간 차이는 두드러지지 않았습니다. 다만 표본이 작으므로 신중한 해석이 필요합니다.",
+    "en": "Public transport users account for seventy per cent of respondents. A correlation emerged between higher income and greater car use. Differences between age groups were not pronounced. However, the sample is small, so the results must be interpreted with caution."
+   }
+  }
+ }
+}
