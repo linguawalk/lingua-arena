@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u11",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 11,
+  "concept": "C1.U11",
+  "status": "live",
+  "title": {
+   "target": "论证中的高级连接",
+   "ko": "논증 연결어 심화",
+   "en": "Advanced linking in argument"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "而且",
+   "pos": "adv",
+   "read": "érqiě",
+   "ko": "게다가",
+   "en": "moreover",
+   "ex": {
+    "t": "而且，这个计划很贵。",
+    "read": "Érqiě, zhège jìhuà hěn guì.",
+    "ko": "게다가 그 계획은 비용도 많이 들어요.",
+    "en": "Moreover, the plan is expensive."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "因此",
+   "pos": "adv",
+   "read": "yīn cǐ",
+   "ko": "따라서",
+   "en": "consequently",
+   "ex": {
+    "t": "因此，我们不得不改变计划。",
+    "read": "Yīn cǐ, wǒmen bù dé bù gǎibiàn jìhuà.",
+    "ko": "따라서 우리는 계획을 바꿔야 했어요.",
+    "en": "Consequently, we had to change the plan."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "然而",
+   "pos": "adv",
+   "read": "rán'ér",
+   "ko": "그럼에도 불구하고",
+   "en": "nevertheless",
+   "ex": {
+    "t": "然而，他依然不断尝试。",
+    "read": "Rán'ér, tā yī rán bú duàn cháng shì.",
+    "ko": "그럼에도 불구하고 그는 계속 노력했어요.",
+    "en": "Nevertheless, he kept trying."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "鉴于",
+   "pos": "phrase",
+   "read": "jiàn yú",
+   "ko": "~을 고려하면",
+   "en": "in view of",
+   "ex": {
+    "t": "鉴于目前的情况，最好推迟。",
+    "read": "Jiàn yú mù qián de qíng kuàng, zuì hǎo tuī chí.",
+    "ko": "상황을 고려하면 연기하는 것이 좋겠어요.",
+    "en": "In view of the situation, it's best to postpone."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "考虑到",
+   "pos": "conj",
+   "read": "kǎolǜ dào",
+   "ko": "~임을 감안하면",
+   "en": "given that",
+   "ex": {
+    "t": "考虑到他是新人，这个结果令人印象深刻。",
+    "read": "Kǎolǜ dào tā shì xīn rén, zhège jié guǒ lìng rén yìn xiàng shēn kè.",
+    "ko": "경험이 부족함을 감안하면 결과는 놀라워요.",
+    "en": "Given that he is inexperienced, the result is impressive."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "结果",
+   "pos": "phrase",
+   "read": "jié guǒ",
+   "ko": "결과적으로",
+   "en": "as a result",
+   "ex": {
+    "t": "结果，销量下降了。",
+    "read": "Jié guǒ, xiāo liàng xià jiàng le.",
+    "ko": "결과적으로 매출이 감소했어요.",
+    "en": "As a result, sales fell."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "相反",
+   "pos": "adv",
+   "read": "xiāng fǎn",
+   "ko": "이와 반대로",
+   "en": "conversely",
+   "ex": {
+    "t": "相反，其他地区的需求增加了。",
+    "read": "Xiāng fǎn, qí tā dì qū de xū qiú zēng jiā le.",
+    "ko": "반대로 다른 지역은 성장했어요.",
+    "en": "Conversely, other regions grew."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "总之",
+   "pos": "phrase",
+   "read": "zǒngzhī",
+   "ko": "요컨대",
+   "en": "in sum",
+   "ex": {
+    "t": "总之，这项政策失败了。",
+    "read": "Zǒngzhī, zhè xiàng zhèng cè shī bài le.",
+    "ko": "요컨대 이 정책은 실패했어요.",
+    "en": "In sum, the policy failed."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "理由是",
+   "pos": "phrase",
+   "read": "lǐ yóu shì",
+   "ko": "~을 근거로",
+   "en": "on the grounds that",
+   "ex": {
+    "t": "他们反对，理由是费用太高。",
+    "read": "Tāmen fǎnduì, lǐ yóu shì fèi yòng tài gāo.",
+    "ko": "비용이 많이 든다는 이유로 반대했어요.",
+    "en": "They objected on the grounds that it was costly."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "否则",
+   "pos": "adv",
+   "read": "fǒuzé",
+   "ko": "그렇지 않으면",
+   "en": "otherwise",
+   "ex": {
+    "t": "快点，否则就来不及了。",
+    "read": "Kuàidiǎn, fǒuzé jiù lái bù jí le.",
+    "ko": "서둘러요. 그렇지 않으면 놓칠 거예요.",
+    "en": "Hurry; otherwise, you'll miss it."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "而且／因此／然而／鉴于／考虑到／结果／总之",
+   "en": "Linking: 而且 / 因此 / 然而 / 鉴于 / 考虑到 / 总之"
+  },
+  "explain": {
+   "ko": "论证中，连接词让逻辑清楚。“而且／此外／更重要的是”表示递进；“然而／不过／尽管如此”表示转折；“因此／所以／结果”表示结果；“鉴于／考虑到”引出前提；“总之／综上所述”做总结。例如：这个计划很贵，而且效果不确定。他缺乏经验，然而取得了很好的成绩。鉴于目前的情况，会议推迟了。",
+   "en": "Linkers make logic clear. 而且／此外 add; 然而／不过 contrast; 因此／结果 give consequences; 鉴于／考虑到 introduce premises; 总之／综上所述 sum up. 这个计划很贵，而且效果不确定. 他缺乏经验，然而取得了很好的成绩. 鉴于目前的情况，会议推迟了."
+  },
+  "table": {
+   "head": [
+    "功能 / Function",
+    "连接词 / Linker",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "递进 / Addition",
+     "而且／此外",
+     "这个政策很贵，而且效果不确定。"
+    ],
+    [
+     "转折 / Contrast",
+     "然而／不过",
+     "他缺乏经验，然而成绩很好。"
+    ],
+    [
+     "结果 / Result",
+     "因此／结果",
+     "结果，销量下降了两成。"
+    ],
+    [
+     "前提 / Premise",
+     "鉴于／考虑到",
+     "鉴于情况，会议推迟了。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“然而”比“但是”更书面。",
+    "en": "然而 is more formal than 但是."
+   },
+   {
+    "ko": "“总之”用在段落或文章的结尾。",
+    "en": "总之 closes a paragraph or text."
+   },
+   {
+    "ko": "连接词不要滥用，每个都要有逻辑作用。",
+    "en": "Don't overuse linkers; each needs a logical role."
+   }
+  ],
+  "examples": [
+   {
+    "t": "这个政策很贵，而且效果不确定。",
+    "read": "Zhège zhèng cè hěn guì, érqiě xiào guǒ bú què dìng.",
+    "ko": "게다가 그 계획은 환경에도 해로워요.",
+    "en": "Moreover, the plan is harmful to the environment."
+   },
+   {
+    "t": "他缺乏经验，然而取得了优异的成绩。",
+    "read": "Tā quē fá jīng yàn, rán'ér qǔ děi le yōu yì de chéng jì.",
+    "ko": "그는 경험이 부족하지만 그럼에도 훌륭한 결과를 냈어요.",
+    "en": "He lacks experience; nevertheless, he achieved excellent results."
+   },
+   {
+    "t": "鉴于目前的情况，会议推迟了。",
+    "read": "Jiàn yú mù qián de qíng kuàng, huìyì tuī chí le.",
+    "ko": "상황을 고려해서 회의는 연기되었어요.",
+    "en": "In view of the situation, the meeting was postponed."
+   },
+   {
+    "t": "考虑到她是新人，这个结果令人印象深刻。",
+    "read": "Kǎolǜ dào tā shì xīn rén, zhège jié guǒ lìng rén yìn xiàng shēn kè.",
+    "ko": "경험이 부족함을 감안하면 이 결과는 놀라워요.",
+    "en": "Given that she is inexperienced, this result is impressive."
+   },
+   {
+    "t": "结果，销量下降了百分之二十。",
+    "read": "Jié guǒ, xiāo liàng xià jiàng le bǎi fēn zhī èrshí.",
+    "ko": "결과적으로 매출이 20퍼센트 감소했어요.",
+    "en": "As a result, sales fell by twenty per cent."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "这个计划很贵，___效果不确定。",
+    "options": [
+     "而且",
+     "但是",
+     "如果"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "他缺乏经验，___取得了优异的成绩。",
+    "options": [
+     "然而",
+     "而且",
+     "因为"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___目前的情况，会议推迟了。",
+    "options": [
+     "鉴于",
+     "虽然",
+     "尽管"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___，我们今年的目标是稳定。",
+    "options": [
+     "总之",
+     "例如",
+     "同样"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "远程办公有哪些好处？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 재택근무에 대해 어떤 장점이 있나요?",
+     "en": "(Question) What are the advantages of remote working?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "能提高效率，而且节省时间。",
+       "我昨天去了。",
+       "我不知道路。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你为什么仍然反对？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그럼에도 불구하고 왜 반대하나요?",
+     "en": "(Question) Why do you object nevertheless?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "然而，我仍然有疑问。",
+       "我很喜欢。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你支持这个提议吗？"
+      },
+      {
+       "s": "B",
+       "t": "部分支持。费用会减少，而且员工满意度会提高。"
+      },
+      {
+       "s": "A",
+       "t": "然而，有些人反对，对吧？"
+      },
+      {
+       "s": "B",
+       "t": "对，他们担心团队合作会减弱。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이번 제안에 찬성이야?\nB: 부분적으로는 찬성이야. 비용이 줄어드는 것은 사실이지만 게다가 직원 만족도도 오를 거야.\nA: 그럼에도 불구하고 반대하는 사람도 있지 않아?\nB: 있지. 팀워크가 약해질까 걱정하거든.",
+     "en": "A: Do you support the proposal?\nB: In part. Costs will fall, and moreover staff satisfaction will rise.\nA: Nevertheless, some people object, don't they?\nB: Yes, they worry that teamwork will weaken."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "有些人担心什么？",
+      "options": [
+       "团队合作会减弱",
+       "费用会增加",
+       "效率会降低"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "上个季度销量大幅下降，因此我们不得不制订削减成本的计划。鉴于竞争激烈，这个下降是预料之中的。总之，我们今年的目标是稳定。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "지난 분기 매출이 크게 감소했습니다. 결과적으로 우리는 비용 절감 계획을 세워야 했습니다. 경쟁이 치열했음을 감안하면 이 정도 하락은 예상된 것입니다. 요컨대 올해는 안정이 목표입니다.",
+     "en": "Sales fell sharply last quarter. As a result, we had to draw up a cost-cutting plan. Given that competition was fierce, this decline was expected. In sum, our aim this year is stability."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "为什么这个下降是预料之中的？",
+      "options": [
+       "竞争激烈",
+       "天气不好",
+       "员工太少"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我想听听大家对这一项的意见。"
+      },
+      {
+       "s": "B",
+       "t": "这个方案费用很高，而且效果不确定。"
+      },
+      {
+       "s": "A",
+       "t": "那你反对吗？"
+      },
+      {
+       "s": "B",
+       "t": "是的，最好先推迟。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의장: 이 안건에 대한 의견을 듣겠습니다.\n위원: 이 계획은 비용이 많이 듭니다. 게다가 효과도 불확실합니다.\n의장: 그럼 반대하시는 건가요?\n위원: 네, 지금은 연기하는 것이 좋겠습니다.",
+     "en": "Chair: I'd like to hear views on this item.\nMember: This plan is costly. Moreover, its effect is uncertain.\nChair: So you are opposed?\nMember: Yes, it would be better to postpone it for now."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "方案费用很高，而且效果______",
+      "answers": [
+       "不确定"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "委员认为最好先______",
+      "answers": [
+       "推迟"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 这个计划对环境有害，___费用也很高。\n2) 他缺乏经验，___取得了优异的成绩。\n3) ___，销量下降了。",
+    "trans": {
+     "ko": "1) 게다가 그 계획은 환경에도 해로워요. 2) 그는 경험이 부족하지만 그럼에도 훌륭한 결과를 냈어요. 3) 결과적으로 매출이 감소했어요.",
+     "en": "1) Moreover, the plan is harmful to the environment. 2) He lacks experience; nevertheless, he achieved excellent results. 3) As a result, sales fell."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这个计划对环境有害，___费用也很高。",
+      "options": [
+       "而且",
+       "但是",
+       "如果"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他缺乏经验，___取得了优异的成绩。",
+      "options": [
+       "然而",
+       "而且",
+       "因为"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___，销量下降了。",
+      "options": [
+       "结果",
+       "例如",
+       "同样"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "扩建城市自行车道对环境有益，(1)，市民的健康也会改善。(2)，一些店主反对，因为停车位会减少。(3)，需要进行充分的协商。",
+    "trans": {
+     "ko": "도시의 자전거 도로 확대는 환경에 도움이 됩니다. 게다가 시민의 건강도 개선됩니다. 그럼에도 불구하고 일부 상점 주인은 주차 공간이 줄어든다고 반대합니다. 요컨대 충분한 협의가 필요합니다.",
+     "en": "Expanding the city's cycle lanes benefits the environment. Moreover, citizens' health improves. Nevertheless, some shop owners object that parking spaces will be reduced. In sum, adequate consultation is needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "而且",
+       "然而",
+       "如果"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "然而",
+       "而且",
+       "因此"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "总之",
+       "例如",
+       "同样"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "社论\n缩短课时\n有人提议缩短课时。鉴于学生的注意力，这有一定道理。然而，也有人担心教师没有足够时间讲完内容。因此，需要进行充分的试点。",
+    "trans": {
+     "ko": "사설\n수업 시간 단축\n수업 시간을 줄이자는 제안이 나왔다. 학생의 집중력을 고려하면 일리가 있다. 하지만 교사가 모든 내용을 가르치기에 시간이 부족하다는 우려도 있다. 따라서 충분한 시범 운영이 필요하다.",
+     "en": "EDITORIAL\nShorter lessons\nA proposal to shorten lessons has emerged. In view of students' concentration, it makes some sense. However, there is also concern that teachers will lack time to cover everything. Consequently, a thorough trial is needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "提议缩短课时的理由是什么？",
+      "options": [
+       "学生的注意力",
+       "教师的工资",
+       "学校的费用"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "社论认为需要什么？",
+      "options": [
+       "充分的试点",
+       "立即实施",
+       "完全取消"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "社论认为缩短课时的提议有一定道理。所有教师都支持这个提议。社论建议进行试点。",
+    "trans": {
+     "ko": "사설은 수업 시간 단축 제안에 일리가 있다고 본다. 교사는 모두 이 제안에 찬성한다. 사설은 시범 운영을 권한다.",
+     "en": "The editorial thinks the proposal to shorten lessons has some merit. All teachers support the proposal. The editorial recommends a trial."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "社论认为缩短课时的提议有一定道理。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "所有教师都支持这个提议。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "社论建议进行试点。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "而且，这项政策费用很高。",
+    "read": "Érqiě, zhè xiàng zhèng cè fèi yòng hěn gāo.",
+    "ko": "게다가 이 정책은 비용도 많이 듭니다.",
+    "en": "Moreover, this policy is costly.",
+    "situation": {
+     "ko": "논거를 덧붙일 때",
+     "en": "Adding a further argument"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "然而，他没有放弃这个计划。",
+    "read": "Rán'ér, tā méiyǒu fàngqì zhège jìhuà.",
+    "ko": "그럼에도 불구하고 그는 계획을 포기하지 않았어요.",
+    "en": "Nevertheless, he did not abandon the plan.",
+    "situation": {
+     "ko": "반론을 인정하며 반박할 때",
+     "en": "Conceding yet pushing on"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "鉴于目前的情况，需要谨慎的态度。",
+    "read": "Jiàn yú mù qián de qíng kuàng, xūyào jǐn shèn de tài dù.",
+    "ko": "현 상황을 고려할 때 신중한 접근이 필요합니다.",
+    "en": "In view of the current situation, a cautious approach is needed.",
+    "situation": {
+     "ko": "근거를 제시할 때",
+     "en": "Giving grounds"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "考虑到他是新人，这个结果很出色。",
+    "read": "Kǎolǜ dào tā shì xīn rén, zhège jié guǒ hěn chū sè.",
+    "ko": "그가 신입이라는 점을 감안하면 결과는 훌륭해요.",
+    "en": "Given that he is new, the result is excellent.",
+    "situation": {
+     "ko": "맥락을 감안해 평가할 때",
+     "en": "Evaluating in context"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "结果，市场份额下降了。",
+    "read": "Jié guǒ, shìchǎng fèn é xià jiàng le.",
+    "ko": "결과적으로 시장 점유율이 하락했습니다.",
+    "en": "As a result, market share declined.",
+    "situation": {
+     "ko": "결과를 제시할 때",
+     "en": "Presenting a result"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "相反，一些地区的需求上升了。",
+    "read": "Xiāng fǎn, yìxiē dì qū de xū qiú shàng shēng le.",
+    "ko": "반대로 일부 지역에서는 수요가 증가했어요.",
+    "en": "Conversely, demand rose in some regions.",
+    "situation": {
+     "ko": "대조를 제시할 때",
+     "en": "Presenting a contrast"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "这个方案被否决了，理由是费用太高。",
+    "read": "Zhège fāng àn bèi fǒu jué le, lǐ yóu shì fèi yòng tài gāo.",
+    "ko": "비용이 지나치게 크다는 이유로 계획은 거부되었어요.",
+    "en": "The plan was rejected on the grounds that it was too costly.",
+    "situation": {
+     "ko": "이유를 밝힐 때",
+     "en": "Stating grounds"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "总之，如果现在不行动，就来不及了。",
+    "read": "Zǒngzhī, rúguǒ xiànzài bù xíng dòng, jiù lái bù jí le.",
+    "ko": "요컨대 지금 행동하지 않으면 늦을 것입니다.",
+    "en": "In sum, if we do not act now, it will be too late.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……，而且……。",
+    "read": "…, Érqiě ….",
+    "ko": "게다가 ~",
+    "en": "Moreover/Furthermore/What is more, ..."
+   },
+   {
+    "id": "w2",
+    "t": "……，然而……。",
+    "read": "…, Rán'ér ….",
+    "ko": "그럼에도 불구하고 ~",
+    "en": "Nevertheless/Nonetheless/Even so, ..."
+   },
+   {
+    "id": "w3",
+    "t": "鉴于……，……。",
+    "read": "Jiàn yú …, ….",
+    "ko": "~을 고려하면 ~",
+    "en": "In view of/Given that ..., ..."
+   },
+   {
+    "id": "w4",
+    "t": "总之，……。",
+    "read": "Zǒngzhī, ….",
+    "ko": "결과적으로 ~",
+    "en": "As a result/Consequently, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "연결어를 사용해 한 가지 주장을 뒷받침하는 논증 단락을 4문장으로 써 보세요.",
+    "en": "Write a four-sentence argument paragraph using advanced linkers."
+   },
+   "must_include": [
+    {
+     "label": "而且",
+     "match": [
+      "而且"
+     ]
+    },
+    {
+     "label": "然而",
+     "match": [
+      "然而"
+     ]
+    },
+    {
+     "label": "总之",
+     "match": [
+      "总之"
+     ]
+    }
+   ],
+   "model": "远程办公可以提高效率，而且通勤时间的缩短提高了员工满意度。然而，有人担心团队合作会减弱。总之，公司应该实行混合办公制度。",
+   "model_trans": {
+    "ko": "재택근무는 생산성을 높일 수 있습니다. 게다가 통근 시간이 줄어 직원의 만족도도 높아집니다. 그럼에도 불구하고 팀워크가 약해질 수 있다는 우려가 있습니다. 요컨대 회사는 혼합 근무 제도를 도입해야 합니다.",
+    "en": "Remote working can raise productivity. Moreover, shorter commuting times improve staff satisfaction. Nevertheless, there is concern that teamwork may weaken. In sum, companies should introduce a hybrid working system."
+   }
+  }
+ }
+}

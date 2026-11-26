@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u24",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 24,
+  "concept": "C1.U24",
+  "status": "live",
+  "title": {
+   "target": "得体而坚定的投诉与正式信函",
+   "ko": "정중하고 단호한 항의",
+   "en": "Diplomatic complaints and formal correspondence"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "不满",
+   "pos": "noun",
+   "read": "bù mǎn",
+   "ko": "불만",
+   "en": "grievance",
+   "ex": {
+    "t": "顾客提出了长期的不满。",
+    "read": "Gù kè tí chū le cháng qī de bù mǎn.",
+    "ko": "고객은 오랜 불만을 제기했어요.",
+    "en": "The customer raised a long-standing grievance."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "遗憾的是",
+   "pos": "adv",
+   "read": "yí hàn de shì",
+   "ko": "유감스럽게도",
+   "en": "regrettably",
+   "ex": {
+    "t": "遗憾的是，服务被延误了。",
+    "read": "Yí hàn de shì, fúwù bèi yán wù le.",
+    "ko": "유감스럽게도 서비스가 지연되었어요.",
+    "en": "Regrettably, the service was delayed."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "赔偿",
+   "pos": "noun",
+   "read": "péi cháng",
+   "ko": "보상",
+   "en": "compensation",
+   "ex": {
+    "t": "顾客要求赔偿。",
+    "read": "Gù kè yào qiú péi cháng.",
+    "ko": "고객은 보상을 요구했어요.",
+    "en": "The customer demanded compensation."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "未达期望",
+   "pos": "phrase",
+   "read": "wèi dá qī wàng",
+   "ko": "기대에 못 미치다",
+   "en": "fall below expectations",
+   "ex": {
+    "t": "服务未达到期望。",
+    "read": "Fúwù wèi dá dào qī wàng.",
+    "ko": "서비스가 기대에 못 미쳤어요.",
+    "en": "The service fell below expectations."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "及时处理",
+   "pos": "phrase",
+   "read": "jí shí chǔ lǐ",
+   "ko": "신속한 조치",
+   "en": "prompt action",
+   "ex": {
+    "t": "恳请您及时处理。",
+    "read": "Kěn qǐng nín jí shí chǔ lǐ.",
+    "ko": "신속한 조치를 부탁드립니다.",
+    "en": "We would appreciate prompt action."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "不便",
+   "pos": "noun",
+   "read": "bú biàn",
+   "ko": "불편",
+   "en": "inconvenience",
+   "ex": {
+    "t": "对由此造成的不便，我们深表歉意。",
+    "read": "Duì yóu cǐ zào chéng de bú biàn, wǒmen shēn biǎo qiàn yì.",
+    "ko": "불편을 드려 죄송합니다.",
+    "en": "We apologise for the inconvenience."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "解释",
+   "pos": "noun",
+   "read": "jiěshì",
+   "ko": "해명",
+   "en": "explanation",
+   "ex": {
+    "t": "我要求对这次延误作出解释。",
+    "read": "Wǒ yào qiú duì zhè cì yán wù zuò chū jiěshì.",
+    "ko": "이 지연에 대한 해명을 요구합니다.",
+    "en": "I request an explanation for this delay."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "提出异议",
+   "pos": "verb",
+   "read": "tí chū yì yì",
+   "ko": "이의를 제기하다",
+   "en": "dispute",
+   "ex": {
+    "t": "我要对这张发票提出异议。",
+    "read": "Wǒ yào duì zhè zhāng fā piào tí chū yì yì.",
+    "ko": "청구서에 이의를 제기하고 싶어요.",
+    "en": "I wish to dispute the invoice."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "法律途径",
+   "pos": "phrase",
+   "read": "fǎ lǜ tú jìng",
+   "ko": "법적 조치",
+   "en": "legal action",
+   "ex": {
+    "t": "如未解决，我将诉诸法律途径。",
+    "read": "Rú wèi jiě jué, wǒ jiāng sù zhū fǎ lǜ tú jìng.",
+    "ko": "해결되지 않으면 법적 조치를 취하겠습니다.",
+    "en": "If unresolved, I will take legal action."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "不可接受",
+   "pos": "adj",
+   "read": "bù kě jiē shòu",
+   "ko": "불쾌한",
+   "en": "unacceptable",
+   "ex": {
+    "t": "这样的服务是不可接受的。",
+    "read": "Zhè yàng de fúwù shì bù kě jiē shòu de.",
+    "ko": "이런 서비스는 받아들일 수 없습니다.",
+    "en": "Such service is unacceptable."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "特此致函，对……表示不满／恳请……／要求……／如未能解决，……",
+   "en": "Formal complaints: 特此致函 / 恳请 / 要求 / 如未能解决"
+  },
+  "explain": {
+   "ko": "正式的投诉信要礼貌而坚定。写明目的：“特此致函，对贵公司的服务表示不满。”客观陈述事实：“遗憾的是，服务未达到期望。”提出要求：“要求全额退款”；礼貌地请求：“恳请及时处理”。最后表明立场：“如未能解决，我将考虑采取其他措施。”",
+   "en": "A formal complaint is polite but firm. Purpose: 特此致函，对贵公司的服务表示不满. Facts, objectively: 遗憾的是，服务未达到期望. Demand: 要求全额退款; polite request: 恳请及时处理. Firm close: 如未能解决，我将考虑采取其他措施."
+  },
+  "table": {
+   "head": [
+    "功能 / Function",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "目的 / Purpose",
+     "特此致函……",
+     "特此致函，表示不满。"
+    ],
+    [
+     "遗憾 / Regret",
+     "遗憾的是……",
+     "遗憾的是，服务未达期望。"
+    ],
+    [
+     "请求 / Request",
+     "恳请……",
+     "恳请及时处理。"
+    ],
+    [
+     "要求 / Demand",
+     "要求……",
+     "要求全额退款。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "避免带感情的话，客观陈述事实。",
+    "en": "Avoid emotive wording; state facts."
+   },
+   {
+    "ko": "设定期限会更有效。",
+    "en": "A deadline is more effective."
+   },
+   {
+    "ko": "结尾要写礼貌的结束语。",
+    "en": "Close with a polite ending."
+   }
+  ],
+  "examples": [
+   {
+    "t": "特此致函，对这次服务表示不满。",
+    "read": "Tè cǐ zhì hán, duì zhè cì fúwù biǎo shì bù mǎn.",
+    "ko": "이 서비스에 대한 불만을 알리고자 편지를 씁니다.",
+    "en": "I am writing to express my dissatisfaction with this service."
+   },
+   {
+    "t": "恳请您及时处理。",
+    "read": "Kěn qǐng nín jí shí chǔ lǐ.",
+    "ko": "조치를 취해 주시면 감사하겠습니다.",
+    "en": "I would appreciate it if you could take action."
+   },
+   {
+    "t": "遗憾的是，服务未达到我的期望。",
+    "read": "Yí hàn de shì, fúwù wèi dá dào wǒ de qī wàng.",
+    "ko": "유감스럽게도 서비스는 기대에 못 미쳤습니다.",
+    "en": "Regrettably, the service fell below my expectations."
+   },
+   {
+    "t": "我要对这张发票提出异议。",
+    "read": "Wǒ yào duì zhè zhāng fā piào tí chū yì yì.",
+    "ko": "이 청구서에 이의를 제기합니다.",
+    "en": "I wish to dispute this invoice."
+   },
+   {
+    "t": "如未能解决，我将考虑采取其他措施。",
+    "read": "Rú wèi néng jiě jué, wǒ jiāng kǎolǜ cǎi qǔ qí tā cuò shī.",
+    "ko": "해결되지 않으면 다른 조치를 고려할 수밖에 없습니다.",
+    "en": "Should this remain unresolved, I will have to consider other action."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "特此___，对这次服务表示不满。",
+    "options": [
+     "致函",
+     "休息",
+     "旅行"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___您及时处理。",
+    "options": [
+     "恳请",
+     "不想",
+     "忘记"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___，服务未达到我的期望。",
+    "options": [
+     "遗憾的是",
+     "幸运的是",
+     "例如"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我要对这张发票提出___。",
+    "options": [
+     "异议",
+     "意识",
+     "移动"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你为什么写投诉信？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 항의 편지를 쓰고 있나요?",
+     "en": "(Question) Why are you writing a letter of complaint?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "因为我的订单被延误了。",
+       "因为商品很满意。",
+       "因为我想再订一件。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你要求什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 무엇을 요구하고 있나요?",
+     "en": "(Question) What are you requesting?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我要求退款并作出解释。",
+       "我想再住一晚。",
+       "什么都不要。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我想给那家酒店写一封投诉邮件。"
+      },
+      {
+       "s": "B",
+       "t": "怎么开头？"
+      },
+      {
+       "s": "A",
+       "t": "“特此致函，对贵酒店的服务表示不满。”"
+      },
+      {
+       "s": "B",
+       "t": "不错，还应该要求退款。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그 호텔에 항의 메일을 쓰려고 해.\nB: 어떻게 시작할 거야?\nA: '서비스에 대한 불만을 알리고자 합니다'로 시작할 거야.\nB: 좋아. 환불도 요구하는 게 좋겠어.",
+     "en": "A: I'm going to write a complaint email to that hotel.\nB: How will you start?\nA: 'I am writing to express my dissatisfaction with the service.'\nB: Good. You should also request a refund."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女的建议什么？",
+      "options": [
+       "还应该要求退款",
+       "什么都不要求",
+       "打电话"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我们向顾客致歉。对于上周末服务中断给大家造成的不便，我们深表歉意。我们正在调查原因，并考虑赔偿。结果将于本周内通知您。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "고객 여러분께 사과드립니다. 지난 주말 서비스 중단으로 불편을 끼쳐 드린 점 진심으로 죄송합니다. 원인을 조사하고 있으며 보상 방안도 검토하고 있습니다. 결과는 이번 주 안에 안내해 드리겠습니다.",
+     "en": "We apologise to our customers. We sincerely regret the inconvenience caused by last weekend's service disruption. We are investigating the cause and considering compensation. We will inform you of the outcome this week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "公司在做什么？",
+      "options": [
+       "调查原因并考虑赔偿",
+       "什么都没做",
+       "涨价"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我觉得发票有问题。"
+      },
+      {
+       "s": "B",
+       "t": "请问是什么问题？"
+      },
+      {
+       "s": "A",
+       "t": "被重复收费了两次，我要提出异议。"
+      },
+      {
+       "s": "B",
+       "t": "我会核实，并及时处理。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "고객: 청구서가 잘못된 것 같습니다.\n직원: 어떤 점이 문제인가요?\n고객: 이중으로 청구되었습니다. 이의를 제기하고 싶습니다.\n직원: 확인한 뒤 신속히 조치하겠습니다.",
+     "en": "Customer: I think my invoice is wrong.\nStaff: What is the problem?\nCustomer: I was charged twice. I wish to dispute it.\nStaff: I'll check and act promptly."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "顾客说被______收费了两次",
+      "answers": [
+       "重复"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "职员会核实，并______处理",
+      "answers": [
+       "及时"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 特此___，对这次服务表示不满。\n2) ___您及时处理。\n3) 我要对这张发票提出___。",
+    "trans": {
+     "ko": "1) 이 서비스에 대한 불만을 알리고자 편지를 씁니다. 2) 조치를 취해 주시면 감사하겠습니다. 3) 이 청구서에 이의를 제기합니다.",
+     "en": "1) I am writing to express my dissatisfaction with this service. 2) I would appreciate it if you could take action. 3) I wish to dispute this invoice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "特此___，对这次服务表示不满。",
+      "options": [
+       "致函",
+       "休息",
+       "旅行"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___您及时处理。",
+      "options": [
+       "恳请",
+       "不想",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我要对这张发票提出___。",
+      "options": [
+       "异议",
+       "意识",
+       "移动"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "上个月我入住了贵酒店，但服务远远(1)了我的期望。房间没有打扫，员工也不愿意帮忙。因此，我(2)对此作出解释，并(3)部分住宿费。",
+    "trans": {
+     "ko": "지난달 귀사의 호텔에 묵었으나 서비스가 기대에 크게 못 미쳤습니다. 객실이 청소되지 않았고 직원들은 도움을 주지 않았습니다. 이에 대해 해명을 요청하며 숙박비의 일부 환불을 요구합니다.",
+     "en": "I stayed at your hotel last month, but the service fell far below my expectations. The room was not cleaned and the staff were unhelpful. I therefore request an explanation and a partial refund of my accommodation fee."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "低于",
+       "超过",
+       "达到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "要求",
+       "拒绝",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "退还",
+       "拿走",
+       "忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "邮件\n关于订单4521\n我两周前订购的笔记本电脑至今没有送到，特此来函。已经超过承诺的送达日期，却没有收到任何通知。如三天内仍未解决，我将取消订单并要求全额退款。",
+    "trans": {
+     "ko": "이메일\n주문 번호 4521에 대하여\n저는 2주 전 주문한 노트북의 배송이 아직 이루어지지 않아 편지를 씁니다. 약속한 배송일이 지났음에도 아무런 안내가 없었습니다. 이 문제가 3일 이내에 해결되지 않는다면 주문을 취소하고 전액 환불을 요구하겠습니다.",
+     "en": "EMAIL\nRegarding order number 4521\nI am writing because the laptop I ordered two weeks ago has still not been delivered. Despite the promised delivery date having passed, I have received no notification. Should this not be resolved within three days, I will cancel the order and demand a full refund."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "作者为什么写信？",
+      "options": [
+       "笔记本电脑没有送到",
+       "电脑坏了",
+       "价格上涨了"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "如三天内未解决，作者会怎么做？",
+      "options": [
+       "取消订单并要求退款",
+       "继续等待",
+       "买别的商品"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "作者两周前订购了笔记本电脑。电脑已经送到了。作者说如果三天内未解决就取消订单。",
+    "trans": {
+     "ko": "글쓴이는 2주 전 노트북을 주문했다. 노트북은 이미 배송되었다. 글쓴이는 문제가 3일 안에 해결되지 않으면 주문을 취소하겠다고 말한다.",
+     "en": "The writer ordered a laptop two weeks ago. The laptop has already been delivered. The writer says they will cancel the order if the problem is not solved within three days."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "作者两周前订购了笔记本电脑。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "电脑已经送到了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "作者说如果三天内未解决就取消订单。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "特此致函，对这次服务表示不满。",
+    "read": "Tè cǐ zhì hán, duì zhè cì fúwù biǎo shì bù mǎn.",
+    "ko": "이 서비스에 대한 불만을 알리고자 이 편지를 씁니다.",
+    "en": "I am writing to express my dissatisfaction with this service.",
+    "situation": {
+     "ko": "항의 편지를 시작할 때",
+     "en": "Opening a complaint letter"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "遗憾的是，送货比承诺的晚了一个星期。",
+    "read": "Yí hàn de shì, sòng huò bǐ chéng nuò de wǎn le yí ge xīngqī.",
+    "ko": "유감스럽게도 배송은 약속한 날보다 일주일 늦었습니다.",
+    "en": "Regrettably, the delivery arrived a week later than promised.",
+    "situation": {
+     "ko": "문제를 설명할 때",
+     "en": "Describing the problem"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "恳请您对这个问题作出解释。",
+    "read": "Kěn qǐng nín duì zhège wèntí zuò chū jiěshì.",
+    "ko": "이 문제에 대한 해명을 요청드립니다.",
+    "en": "I should be grateful for an explanation of this problem.",
+    "situation": {
+     "ko": "해명을 요구할 때",
+     "en": "Requesting an explanation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "恳请您及时处理。",
+    "read": "Kěn qǐng nín jí shí chǔ lǐ.",
+    "ko": "신속한 조치를 취해 주시면 감사하겠습니다.",
+    "en": "I would appreciate it if you could take prompt action.",
+    "situation": {
+     "ko": "조치를 요청할 때",
+     "en": "Requesting action"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我坚持要求全额退款。",
+    "read": "Wǒ jiān chí yào qiú quán'é tuìkuǎn.",
+    "ko": "전액 환불을 요구하는 바입니다.",
+    "en": "I must insist on a full refund.",
+    "situation": {
+     "ko": "단호하게 요구할 때",
+     "en": "Insisting firmly"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "如未能解决，我将考虑其他办法。",
+    "read": "Rú wèi néng jiě jué, wǒ jiāng kǎolǜ qí tā bànfǎ.",
+    "ko": "이 문제가 해결되지 않으면 다른 방법을 고려해야 합니다.",
+    "en": "Should this remain unresolved, I shall have to consider other options.",
+    "situation": {
+     "ko": "경고할 때",
+     "en": "Warning"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "对由此造成的不便，深表歉意。",
+    "read": "Duì yóu cǐ zào chéng de bú biàn, shēn biǎo qiàn yì.",
+    "ko": "불편을 끼쳐 드려 죄송하다고 말씀드립니다.",
+    "en": "We apologise for any inconvenience caused.",
+    "situation": {
+     "ko": "사과할 때",
+     "en": "Apologising"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "期待您的及时答复。",
+    "read": "Qīdài nín de jí shí dá fù.",
+    "ko": "빠른 답변을 기대합니다.",
+    "en": "I look forward to your prompt response.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Closing"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "特此致函，对……表示不满。",
+    "read": "Tè cǐ zhì hán, duì … biǎo shì bù mǎn.",
+    "ko": "~에 대한 불만을 알리고자 합니다.",
+    "en": "I am writing to express my dissatisfaction with ..."
+   },
+   {
+    "id": "w2",
+    "t": "恳请……。",
+    "read": "Kěn qǐng ….",
+    "ko": "~해 주시면 감사하겠습니다.",
+    "en": "I would appreciate it if you could ..."
+   },
+   {
+    "id": "w3",
+    "t": "我要求……。",
+    "read": "Wǒ yào qiú ….",
+    "ko": "~을 요구합니다.",
+    "en": "I must insist on ..."
+   },
+   {
+    "id": "w4",
+    "t": "如未能解决，……。",
+    "read": "Rú wèi néng jiě jué, ….",
+    "ko": "~이 해결되지 않으면.",
+    "en": "Should this remain unresolved, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "정중하면서도 단호한 항의 편지를 상황·요구·마무리를 포함해 4문장으로 써 보세요.",
+    "en": "Write a polite but firm complaint in 4 sentences covering situation, demand and closing."
+   },
+   "must_include": [
+    {
+     "label": "特此致函",
+     "match": [
+      "特此致函"
+     ]
+    },
+    {
+     "label": "遗憾的是",
+     "match": [
+      "遗憾的是"
+     ]
+    },
+    {
+     "label": "要求",
+     "match": [
+      "要求"
+     ]
+    }
+   ],
+   "model": "特此致函，对订单送货延误表示不满。遗憾的是，货物比承诺的晚了一个星期才到。因此，我要求作出解释，并退还运费。期待您的及时答复。",
+   "model_trans": {
+    "ko": "저는 주문한 제품의 배송 지연에 대한 불만을 알리고자 이 편지를 씁니다. 유감스럽게도 약속한 날짜보다 일주일 늦게 도착했습니다. 이에 대한 해명과 함께 배송비의 환불을 요구합니다. 신속한 답변을 기대합니다.",
+    "en": "I am writing to express my dissatisfaction with the delay in delivery of my order. Regrettably, it arrived a week later than promised. I would therefore appreciate an explanation and a refund of the delivery charge. I look forward to your prompt response."
+   }
+  }
+ }
+}

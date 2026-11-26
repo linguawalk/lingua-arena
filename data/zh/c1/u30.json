@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u30",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 30,
+  "concept": "C1.U30",
+  "status": "live",
+  "title": {
+   "target": "谈判与说服",
+   "ko": "협상과 설득",
+   "en": "Negotiating and persuading"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "谈判",
+   "pos": "verb",
+   "read": "tán pàn",
+   "ko": "협상하다",
+   "en": "negotiate",
+   "ex": {
+    "t": "我们就价格进行了谈判。",
+    "read": "Wǒmen jiù jiàgé jìn xíng le tán pàn.",
+    "ko": "우리는 가격을 협상했어요.",
+    "en": "We negotiated the price."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "条件",
+   "pos": "noun",
+   "read": "tiáo jiàn",
+   "ko": "조건",
+   "en": "condition",
+   "ex": {
+    "t": "在这个条件下，我们可以签约。",
+    "read": "Zài zhège tiáo jiàn xià, wǒmen kěyǐ qiān yuē.",
+    "ko": "이 조건이라면 계약할 수 있어요.",
+    "en": "On this condition, we can sign."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "各让一步",
+   "pos": "phrase",
+   "read": "gè ràng yí bù",
+   "ko": "절충하다",
+   "en": "meet halfway",
+   "ex": {
+    "t": "我们各让一步，达成了协议。",
+    "read": "Wǒmen gè ràng yí bù, dá chéng le xié yì.",
+    "ko": "서로 절충해서 합의했어요.",
+    "en": "We met halfway and reached an agreement."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "让步",
+   "pos": "noun",
+   "read": "ràng bù",
+   "ko": "양보",
+   "en": "concession",
+   "ex": {
+    "t": "双方都做出了让步。",
+    "read": "Shuāng fāng dōu zuò chū le ràng bù.",
+    "ko": "양쪽 모두 양보했어요.",
+    "en": "Both sides made concessions."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "底线",
+   "pos": "noun",
+   "read": "dǐ xiàn",
+   "ko": "결정적인 한계선",
+   "en": "bottom line",
+   "ex": {
+    "t": "我们的底线是九折。",
+    "read": "Wǒmen de dǐ xiàn shì jiǔ zhé.",
+    "ko": "저희의 최저선은 10퍼센트 할인이에요.",
+    "en": "Our bottom line is a ten per cent discount."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "协议",
+   "pos": "noun",
+   "read": "xié yì",
+   "ko": "합의",
+   "en": "agreement",
+   "ex": {
+    "t": "我们达成了协议。",
+    "read": "Wǒmen dá chéng le xié yì.",
+    "ko": "합의에 이르렀어요.",
+    "en": "We reached an agreement."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "说服",
+   "pos": "verb",
+   "read": "shuō fú",
+   "ko": "설득하다",
+   "en": "persuade",
+   "ex": {
+    "t": "他说服了我。",
+    "read": "Tā shuō fú le wǒ.",
+    "ko": "그는 나를 설득했어요.",
+    "en": "He persuaded me."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "报价",
+   "pos": "noun",
+   "read": "bào jià",
+   "ko": "제안",
+   "en": "offer",
+   "ex": {
+    "t": "我不能接受这个报价。",
+    "read": "Wǒ bùnéng jiē shòu zhège bào jià.",
+    "ko": "그 제안을 받아들일 수 없어요.",
+    "en": "I cannot accept that offer."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "灵活",
+   "pos": "adj",
+   "read": "líng huó",
+   "ko": "유연한",
+   "en": "flexible",
+   "ex": {
+    "t": "时间上我们可以灵活处理。",
+    "read": "Shíjiān shàng wǒmen kěyǐ líng huó chǔ lǐ.",
+    "ko": "저희는 일정에 대해 유연해요.",
+    "en": "We're flexible on the timing."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "双赢",
+   "pos": "adj",
+   "read": "shuāng yíng",
+   "ko": "서로 이익이 되는",
+   "en": "mutually beneficial",
+   "ex": {
+    "t": "让我们找一个双赢的方案。",
+    "read": "Ràng wǒmen zhǎo yí ge shuāng yíng de fāng àn.",
+    "ko": "서로에게 이익이 되는 방법을 찾아요.",
+    "en": "Let's find a mutually beneficial solution."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "如果……的话，我愿意……／以……为条件／各让一步／底线",
+   "en": "Negotiation: 如果……的话 / 以……为条件 / 各让一步 / 底线"
+  },
+  "explain": {
+   "ko": "谈判时要把条件和让步说清楚。用“如果打九折的话，我们就签约”提出条件，用“以提前一周交货为条件”附加条件。意见不同时，提议“我们各让一步吧”，拒绝时委婉地说“这个条件我们很难接受”。事先要想好底线，争取“双赢”的协议。",
+   "en": "In negotiation state conditions and concessions clearly. Condition: 如果打九折的话，我们就签约; add one with 以提前一周交货为条件. Propose 我们各让一步吧; decline politely: 这个条件我们很难接受. Know your bottom line and aim for a win-win deal."
+  },
+  "table": {
+   "head": [
+    "功能 / Function",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "条件 / Condition",
+     "如果……的话，……",
+     "如果打九折的话，我们签约。"
+    ],
+    [
+     "附加条件 / Proviso",
+     "以……为条件",
+     "以提前交货为条件。"
+    ],
+    [
+     "折中 / Compromise",
+     "各让一步",
+     "我们各让一步吧。"
+    ],
+    [
+     "婉拒 / Decline",
+     "很难接受",
+     "这个条件我们很难接受。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "从对方的利益谈起，更容易说服。",
+    "en": "Starting with their benefit persuades more easily."
+   },
+   {
+    "ko": "区分能让步和不能让步的东西。",
+    "en": "Separate what you can and cannot concede."
+   },
+   {
+    "ko": "最后确认协议内容。",
+    "en": "Confirm the agreement at the end."
+   }
+  ],
+  "examples": [
+   {
+    "t": "如果打九折的话，我们就签约。",
+    "read": "Rúguǒ dǎ jiǔ zhé de huà, wǒmen jiù qiān yuē.",
+    "ko": "우리는 서로 절충해서 합의에 이르렀어요.",
+    "en": "We met halfway and reached an agreement."
+   },
+   {
+    "t": "以提前一周交货为条件，我们可以接受。",
+    "read": "Yǐ tíqián yì zhōu jiāo huò wèi tiáo jiàn, wǒmen kěyǐ jiē shòu.",
+    "ko": "이 조건이라면 계약할 용의가 있어요.",
+    "en": "I'd be willing to sign on this condition."
+   },
+   {
+    "t": "我们各让一步吧。",
+    "read": "Wǒmen gè ràng yí bù ba.",
+    "ko": "저희의 최저선은 10퍼센트 할인입니다.",
+    "en": "Our bottom line is a ten per cent discount."
+   },
+   {
+    "t": "这个条件我们很难接受。",
+    "read": "Zhège tiáo jiàn wǒmen hěn nán jiē shòu.",
+    "ko": "일정에 대해서는 유연하게 대응할 수 있어요.",
+    "en": "We're flexible on the timing."
+   },
+   {
+    "t": "我们希望达成双赢的协议。",
+    "read": "Wǒmen xīwàng dá chéng shuāng yíng de xié yì.",
+    "ko": "서로에게 이익이 되는 방안을 찾아봅시다.",
+    "en": "Let's look for a mutually beneficial solution."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___打九折的话，我们就签约。",
+    "options": [
+     "如果",
+     "虽然",
+     "因为"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "以提前交货___条件，我们可以接受。",
+    "options": [
+     "为",
+     "是",
+     "有"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我们各___一步吧。",
+    "options": [
+     "让",
+     "走",
+     "买"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "这个条件我们很难___。",
+    "options": [
+     "接受",
+     "忘记",
+     "购买"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你在价格上有什么提议？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 가격에 대해 어떤 제안을 하겠습니까?",
+     "en": "(Question) What offer would you make on price?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "如果打九折的话，我们就签约。",
+       "我对价格不感兴趣。",
+       "下周一。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "条件是什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 조건은 무엇인가요?",
+     "en": "(Question) What is the condition?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "以提前交货为条件。",
+       "没有条件。",
+       "要涨价。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "能打九折吗？"
+      },
+      {
+       "s": "B",
+       "t": "可以，但是要以提前交货为条件。"
+      },
+      {
+       "s": "A",
+       "t": "提前十天交货，打九五折怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "各让一步，好，就这样。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 10퍼센트 할인이 가능할까요?\nB: 납기를 앞당겨 주신다면 가능합니다.\nA: 열흘 앞당기고 5퍼센트 할인은 어떠세요?\nB: 서로 절충하는 것이 좋겠네요. 그렇게 하죠.",
+     "en": "A: Is a ten per cent discount possible?\nB: It is, on condition that you deliver earlier.\nA: How about delivery ten days earlier and five per cent off?\nB: Meeting halfway sounds good. Let's do that."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他们在什么上达成一致？",
+      "options": [
+       "各让一步",
+       "涨价",
+       "取消合同"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "谈判中最重要的是知道自己的底线，并理解对方的立场。首先强调对对方有利的地方。然后区分哪些能让步，哪些不能。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "협상에서 가장 중요한 것은 자신의 최저선을 알고 상대의 입장을 이해하는 것입니다. 먼저 상대에게 이익이 되는 점을 강조하세요. 그리고 양보할 수 있는 부분과 없는 부분을 구분하세요.",
+     "en": "The most important thing in negotiating is to know your bottom line and understand the other side's position. First emphasise what benefits them. Then distinguish what you can concede from what you cannot."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "谈判中最重要的是什么？",
+      "options": [
+       "知道自己的底线",
+       "大声说话",
+       "马上拒绝"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "价格太高了。"
+      },
+      {
+       "s": "B",
+       "t": "您觉得多少合适？"
+      },
+      {
+       "s": "A",
+       "t": "至少要打九折。"
+      },
+      {
+       "s": "B",
+       "t": "我最多只能打九五折。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "구매자: 가격이 너무 높습니다.\n판매자: 얼마가 적당하다고 생각하시나요?\n구매자: 10퍼센트는 할인해 주셔야 합니다.\n판매자: 5퍼센트까지는 가능합니다.",
+     "en": "Buyer: The price is too high.\nSeller: What do you think is reasonable?\nBuyer: You need to give at least ten per cent off.\nSeller: I can go up to five per cent."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "买方说价格太______",
+      "answers": [
+       "高"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "卖方最多只能打______",
+      "answers": [
+       "九五折"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___打九折的话，我们就签约。\n2) 以提前交货___条件，我们可以接受。\n3) 我们各___一步吧。",
+    "trans": {
+     "ko": "1) 우리는 서로 절충해서 합의에 이르렀어요. 2) 이 조건이라면 계약할 용의가 있어요. 3) 저희의 최저선은 10퍼센트 할인입니다.",
+     "en": "1) We met halfway and reached an agreement. 2) I'd be willing to sign on this condition. 3) Our bottom line is a ten per cent discount."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___打九折的话，我们就签约。",
+      "options": [
+       "如果",
+       "虽然",
+       "因为"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "以提前交货___条件，我们可以接受。",
+      "options": [
+       "为",
+       "是",
+       "有"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我们各___一步吧。",
+      "options": [
+       "让",
+       "走",
+       "买"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "成功的谈判，是找到对双方都(1)的方案的过程。首先要明确自己的目标和底线。然后了解对方的需要，找出双方都可以(2)的部分，各让一步。这样，(3)的协议才有可能达成。",
+    "trans": {
+     "ko": "성공적인 협상은 서로에게 이익이 되는 해결책을 찾는 과정입니다. 먼저 자신의 목표와 최저선을 분명히 하세요. 그다음 상대의 필요를 파악하고 서로 양보할 수 있는 부분을 찾아 절충해야 합니다.",
+     "en": "A successful negotiation is a process of finding a mutually beneficial solution. First clarify your goal and your bottom line. Then identify the other side's needs and find areas where both can concede in order to meet halfway."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "有利",
+       "不利",
+       "无关"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "让步",
+       "生气",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "双赢",
+       "单方",
+       "无效"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "邮件\n商谈合同条款\n感谢您的报价。不过，目前的价格超出了我们的预算。如果能降价百分之五，我们愿意签订长期合同。如有可能，希望本周内得到答复。",
+    "trans": {
+     "ko": "이메일\n계약 조건 협의\n귀사의 제안은 감사히 받았습니다. 다만 현재의 가격은 저희 예산을 초과합니다. 가격을 5퍼센트 낮춰 주시면 장기 계약을 체결할 용의가 있습니다. 가능하다면 이번 주 안에 답변 주시면 감사하겠습니다.",
+     "en": "EMAIL\nDiscussing contract terms\nThank you for your offer. However, the current price exceeds our budget. We would be willing to sign a long-term contract if you could reduce the price by five per cent. We would appreciate a reply within this week, if possible."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "作者认为什么有问题？",
+      "options": [
+       "价格超出预算",
+       "交货期太长",
+       "质量不好"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "作者以什么为条件签长期合同？",
+      "options": [
+       "降价百分之五",
+       "缩短交货期",
+       "延期付款"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "作者说目前的价格超出了预算。作者说如果降价就愿意签长期合同。对方已经接受了报价。",
+    "trans": {
+     "ko": "글쓴이는 현재 가격이 예산을 초과한다고 말한다. 글쓴이는 가격을 낮추면 장기 계약을 하겠다고 제안한다. 상대방은 이미 제안을 수락했다.",
+     "en": "The writer says the current price exceeds the budget. The writer offers a long-term contract if the price is lowered. The other party has already accepted the offer."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "作者说目前的价格超出了预算。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "作者说如果降价就愿意签长期合同。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "对方已经接受了报价。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "价格上有调整的余地吗？",
+    "read": "Jiàgé shàng yǒu tiáo zhěng de yú dì ma?",
+    "ko": "가격은 조금 조정할 수 있을까요?",
+    "en": "Is there any room for adjusting the price?",
+    "situation": {
+     "ko": "가격 협상을 시작할 때",
+     "en": "Opening a price negotiation"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "如果打九折的话，我们就签约。",
+    "read": "Rúguǒ dǎ jiǔ zhé de huà, wǒmen jiù qiān yuē.",
+    "ko": "저희는 10퍼센트 할인이면 계약할 용의가 있습니다.",
+    "en": "We would be willing to sign for a ten per cent discount.",
+    "situation": {
+     "ko": "조건을 제시할 때",
+     "en": "Making an offer"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "以提前一周交货为条件。",
+    "read": "Yǐ tíqián yì zhōu jiāo huò wèi tiáo jiàn.",
+    "ko": "대신 납기를 한 주 앞당겨 주셔야 합니다.",
+    "en": "On condition that you deliver one week earlier.",
+    "situation": {
+     "ko": "조건부로 말할 때",
+     "en": "Making a conditional offer"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我想我们应该各让一步。",
+    "read": "Wǒ xiǎng wǒmen yīnggāi gè ràng yí bù.",
+    "ko": "서로 절충하는 것이 좋을 것 같습니다.",
+    "en": "I think we should meet halfway.",
+    "situation": {
+     "ko": "타협을 제안할 때",
+     "en": "Proposing a compromise"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这个条件我们很难接受。",
+    "read": "Zhège tiáo jiàn wǒmen hěn nán jiē shòu.",
+    "ko": "그 조건은 저희로서는 받아들이기 어렵습니다.",
+    "en": "That condition is difficult for us to accept.",
+    "situation": {
+     "ko": "정중하게 거절할 때",
+     "en": "Declining politely"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我们的最终报价如下。",
+    "read": "Wǒmen de zuì zhōng bào jià rú xià.",
+    "ko": "저희의 최종 제안은 이렇습니다.",
+    "en": "Our final offer is as follows.",
+    "situation": {
+     "ko": "마지막 제안을 말할 때",
+     "en": "Making a final offer"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "希望我们能达成双赢的协议。",
+    "read": "Xīwàng wǒmen néng dá chéng shuāng yíng de xié yì.",
+    "ko": "서로에게 이익이 되는 합의에 이르렀으면 합니다.",
+    "en": "I hope we can reach a mutually beneficial agreement.",
+    "situation": {
+     "ko": "합의를 유도할 때",
+     "en": "Steering towards agreement"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "那样的话，我们就按这些条件进行。",
+    "read": "Nà yàng de huà, wǒmen jiù àn zhèxiē tiáo jiàn jìn xíng.",
+    "ko": "그럼 이 조건으로 진행하겠습니다.",
+    "en": "In that case, we'll proceed on these terms.",
+    "situation": {
+     "ko": "합의를 마무리할 때",
+     "en": "Concluding an agreement"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "如果……的话，我们愿意……。",
+    "read": "Rúguǒ … de huà, wǒmen yuàn yì ….",
+    "ko": "~할 용의가 있다.",
+    "en": "I'd be willing to ..."
+   },
+   {
+    "id": "w2",
+    "t": "以……为条件。",
+    "read": "Yǐ … wèi tiáo jiàn.",
+    "ko": "~라는 조건으로.",
+    "en": "on condition that ..."
+   },
+   {
+    "id": "w3",
+    "t": "我们各让一步吧。",
+    "read": "Wǒmen gè ràng yí bù ba.",
+    "ko": "서로 절충하다.",
+    "en": "meet halfway / split the difference"
+   },
+   {
+    "id": "w4",
+    "t": "我们的底线是……。",
+    "read": "Wǒmen de dǐ xiàn shì ….",
+    "ko": "최저선은 ~이다.",
+    "en": "Our bottom line is ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "협상 장면에서 제안·조건·절충·합의 순으로 4문장을 써 보세요.",
+    "en": "Write four sentences in a negotiation: offer, condition, compromise, agreement."
+   },
+   "must_include": [
+    {
+     "label": "打九折",
+     "match": [
+      "九折"
+     ]
+    },
+    {
+     "label": "条件",
+     "match": [
+      "条件"
+     ]
+    },
+    {
+     "label": "各让一步",
+     "match": [
+      "各让一步"
+     ]
+    }
+   ],
+   "model": "如果打九折的话，我们就签约，条件是提前一周交货。我们各让一步吧，打九五折并提前十天交货怎么样？那样的话，我们就按这些条件进行。",
+   "model_trans": {
+    "ko": "저희는 10퍼센트 할인이면 계약할 용의가 있습니다. 대신 납기를 한 주 앞당겨 주셔야 합니다. 서로 절충해서 5퍼센트 할인과 열흘 앞당기는 것은 어떻습니까? 그럼 이 조건으로 진행하겠습니다.",
+    "en": "We would be willing to sign for a ten per cent discount. On condition that you deliver one week earlier. Why don't we meet halfway with a five per cent discount and delivery ten days earlier? In that case, we'll proceed on these terms."
+   }
+  }
+ }
+}

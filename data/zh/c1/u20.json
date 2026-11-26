@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u20",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 20,
+  "concept": "C1.U20",
+  "status": "live",
+  "title": {
+   "target": "学术论文的论证结构",
+   "ko": "학술 에세이의 논증 구조",
+   "en": "Argument structure in academic essays"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "论点",
+   "pos": "noun",
+   "read": "lùn diǎn",
+   "ko": "논지",
+   "en": "thesis statement",
+   "ex": {
+    "t": "要在引言中明确陈述论点。",
+    "read": "Yào zài yǐn yán zhōng míng què chén shù lùn diǎn.",
+    "ko": "서론에서 논지를 분명히 밝히세요.",
+    "en": "State your thesis clearly in the introduction."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "主题句",
+   "pos": "noun",
+   "read": "zhǔ tí jù",
+   "ko": "주제문",
+   "en": "topic sentence",
+   "ex": {
+    "t": "每段以主题句开头。",
+    "read": "Měi duàn yǐ zhǔ tí jù kāi tóu.",
+    "ko": "각 단락은 주제문으로 시작해요.",
+    "en": "Each paragraph begins with a topic sentence."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "反方观点",
+   "pos": "noun",
+   "read": "fǎn fāng guān diǎn",
+   "ko": "반론",
+   "en": "counter-argument",
+   "ex": {
+    "t": "承认反方观点，然后加以反驳。",
+    "read": "Chéngrèn fǎn fāng guān diǎn, ránhòu jiā yǐ fǎn bó.",
+    "ko": "반론을 인정한 뒤 반박하세요.",
+    "en": "Acknowledge a counter-argument and then refute it."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "反驳",
+   "pos": "noun",
+   "read": "fǎn bó",
+   "ko": "반박",
+   "en": "refutation",
+   "ex": {
+    "t": "他的反驳很有说服力。",
+    "read": "Tā de fǎn bó hěn yǒu shuō fú lì.",
+    "ko": "그의 반박은 설득력 있었어요.",
+    "en": "His refutation was convincing."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "支持",
+   "pos": "verb",
+   "read": "zhī chí",
+   "ko": "뒷받침하다",
+   "en": "support",
+   "ex": {
+    "t": "用证据支持你的观点。",
+    "read": "Yòng zhèngjù zhī chí nǐ de guān diǎn.",
+    "ko": "근거로 주장을 뒷받침하세요.",
+    "en": "Support your claim with evidence."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "证据",
+   "pos": "noun",
+   "read": "zhèngjù",
+   "ko": "근거",
+   "en": "evidence",
+   "ex": {
+    "t": "需要充分的证据。",
+    "read": "Xūyào chōng fēn de zhèngjù.",
+    "ko": "충분한 근거가 필요해요.",
+    "en": "Sufficient evidence is needed."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "连贯",
+   "pos": "adj",
+   "read": "lián guàn",
+   "ko": "일관된",
+   "en": "coherent",
+   "ex": {
+    "t": "逻辑必须连贯。",
+    "read": "Luó jí bìxū lián guàn.",
+    "ko": "논리가 일관되어야 해요.",
+    "en": "The logic must be coherent."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "前提",
+   "pos": "noun",
+   "read": "qián tí",
+   "ko": "전제",
+   "en": "premise",
+   "ex": {
+    "t": "这个论证的前提有缺陷。",
+    "read": "Zhège lùn zhèng de qián tí yǒu quē xiàn.",
+    "ko": "그 주장의 전제는 잘못되었어요.",
+    "en": "The premise of the argument is flawed."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "结论",
+   "pos": "noun",
+   "read": "jié lùn",
+   "ko": "결론",
+   "en": "conclusion",
+   "ex": {
+    "t": "结论回到论点。",
+    "read": "Jié lùn huí dào lùn diǎn.",
+    "ko": "결론은 서론의 논지로 돌아가요.",
+    "en": "The conclusion returns to the thesis."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "矛盾",
+   "pos": "noun",
+   "read": "máo dùn",
+   "ko": "모순",
+   "en": "contradiction",
+   "ex": {
+    "t": "这个逻辑中有矛盾。",
+    "read": "Zhège luó jí zhōng yǒu máo dùn.",
+    "ko": "논지에 모순이 있어요.",
+    "en": "There is a contradiction in the argument."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "本文认为……／有人认为……，但……／这一点得到……的支持／总之",
+   "en": "Argument structure: 本文认为 / 有人认为……，但…… / 得到……支持 / 总之"
+  },
+  "explain": {
+   "ko": "好的学术文章包括引言、主体和结论。引言用“本文认为……”提出论点，主体各段以主题句开头。反方观点用“有人认为……”引出，再用“但是”反驳。证据用“这一点得到……的支持”。结论用“总之／综上所述”回到论点。",
+   "en": "A good essay has an introduction, body and conclusion. The introduction states the thesis: 本文认为……; each body paragraph begins with a topic sentence. A counter-argument is introduced with 有人认为……, refuted with 但是. Evidence: 这一点得到……的支持. The conclusion opens with 总之／综上所述 and restates the thesis."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "论点 / Thesis",
+     "本文认为……",
+     "本文认为远程办公提高效率。"
+    ],
+    [
+     "反方 / Counter",
+     "有人认为……",
+     "有人认为团队合作会减弱。"
+    ],
+    [
+     "反驳 / Refute",
+     "但是……",
+     "但是，研究表明……"
+    ],
+    [
+     "结论 / Conclusion",
+     "总之……",
+     "总之，公司应该实行灵活办公。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "论点要在引言中说清楚。",
+    "en": "State the thesis clearly in the introduction."
+   },
+   {
+    "ko": "承认反方观点后，一定要反驳。",
+    "en": "Admit the counter-argument, then refute it."
+   },
+   {
+    "ko": "结论要回到引言的论点。",
+    "en": "The conclusion returns to the thesis."
+   }
+  ],
+  "examples": [
+   {
+    "t": "要在引言中明确陈述论点。",
+    "read": "Yào zài yǐn yán zhōng míng què chén shù lùn diǎn.",
+    "ko": "서론에서 논지를 분명히 밝혀야 해요.",
+    "en": "You should state your thesis clearly in the introduction."
+   },
+   {
+    "t": "每一段都要以主题句开头。",
+    "read": "Měi yí duàn dōu yào yǐ zhǔ tí jù kāi tóu.",
+    "ko": "각 단락은 주제문으로 시작해야 해요.",
+    "en": "Each paragraph should begin with a topic sentence."
+   },
+   {
+    "t": "先承认反方观点，再加以反驳，很有效。",
+    "read": "Xiān chéngrèn fǎn fāng guān diǎn, zài jiā yǐ fǎn bó, hěn yǒu xiào.",
+    "ko": "반론을 인정한 뒤 반박하는 것이 효과적이에요.",
+    "en": "It is effective to acknowledge a counter-argument and then refute it."
+   },
+   {
+    "t": "充分的证据支持这个观点。",
+    "read": "Chōng fēn de zhèngjù zhī chí zhège guān diǎn.",
+    "ko": "충분한 근거가 주장을 뒷받침해요.",
+    "en": "Sufficient evidence supports the claim."
+   },
+   {
+    "t": "结论必须回到引言的论点。",
+    "read": "Jié lùn bìxū huí dào yǐn yán de lùn diǎn.",
+    "ko": "결론은 서론의 논지로 돌아가야 해요.",
+    "en": "The conclusion should return to the thesis."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "要在引言中明确陈述___。",
+    "options": [
+     "论点",
+     "笑话",
+     "问候"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "每一段都要以___开头。",
+    "options": [
+     "主题句",
+     "问题",
+     "引用"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "先承认反方观点，再加以___，很有效。",
+    "options": [
+     "反驳",
+     "取消",
+     "省略"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___，企业应该实行灵活办公。",
+    "options": [
+     "总之",
+     "例如",
+     "相反"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这篇文章的论点是什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 에세이의 논지는 무엇인가요?",
+     "en": "(Question) What is the thesis of this essay?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "远程办公提高效率。",
+       "禁止远程办公。",
+       "需要办公室。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "怎样反驳反方观点？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 반론은 어떻게 반박하나요?",
+     "en": "(Question) How is the counter-argument refuted?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "引用最近的研究。",
+       "忽视反方观点。",
+       "只在结论中提。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我写了引言，论点清楚吗？"
+      },
+      {
+       "s": "B",
+       "t": "“本文认为远程办公提高效率”，很清楚。"
+      },
+      {
+       "s": "A",
+       "t": "要不要加反方观点？"
+      },
+      {
+       "s": "B",
+       "t": "要，提出来再反驳，更有说服力。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 에세이 서론을 썼는데 논지가 분명한지 봐 줄래?\nB: '이 글은 재택근무가 생산성을 높인다고 주장한다'가 논지구나. 명확해.\nA: 반론도 넣어야 할까?\nB: 응, 반론을 소개하고 반박하면 더 설득력 있어.",
+     "en": "A: I've written my introduction; is my thesis clear?\nB: 'This essay argues that remote working boosts productivity' — that's clear.\nA: Should I include a counter-argument?\nB: Yes, introducing and refuting one makes it more convincing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的建议什么？",
+      "options": [
+       "提出反方观点再反驳",
+       "不要反方观点",
+       "加长引言"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "好的学术文章包括引言、主体和结论。引言提出论点，主体各段以主题句开头。承认并反驳反方观点，能使论证更有力。结论重述论点。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "좋은 학술 에세이는 서론, 본론, 결론으로 구성됩니다. 서론에서는 논지를 밝히고, 본론의 각 단락은 주제문으로 시작합니다. 반론을 인정하고 반박하면 논증이 더 탄탄해집니다. 결론에서는 논지를 다시 정리합니다.",
+     "en": "A good academic essay has an introduction, body and conclusion. The introduction states the thesis, and each body paragraph starts with a topic sentence. Acknowledging and refuting a counter-argument strengthens the argument. The conclusion restates the thesis."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "结论应该做什么？",
+      "options": [
+       "重述论点",
+       "提出新话题",
+       "提问"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我看了你的文章。"
+      },
+      {
+       "s": "B",
+       "t": "您觉得怎么样？"
+      },
+      {
+       "s": "A",
+       "t": "论点很清楚，但是没有反方观点。"
+      },
+      {
+       "s": "B",
+       "t": "我加上，再反驳它。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 에세이를 읽었습니다.\n학생: 어땠나요?\n교수: 논지는 분명하지만 반론이 없습니다.\n학생: 반론을 추가하고 반박하겠습니다.",
+     "en": "Professor: I read your essay.\nStudent: What did you think?\nProfessor: The thesis is clear, but there's no counter-argument.\nStudent: I'll add one and refute it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "教授说论点很______",
+      "answers": [
+       "清楚"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "学生说加上反方观点，再______它",
+      "answers": [
+       "反驳"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 要在引言中明确陈述___。\n2) 每一段都要以___开头。\n3) 先承认反方观点，再加以___，很有效。",
+    "trans": {
+     "ko": "1) 서론에서 논지를 분명히 밝혀야 해요. 2) 각 단락은 주제문으로 시작해야 해요. 3) 반론을 인정한 뒤 반박하는 것이 효과적이에요.",
+     "en": "1) You should state your thesis clearly in the introduction. 2) Each paragraph should begin with a topic sentence. 3) It is effective to acknowledge a counter-argument and then refute it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "要在引言中明确陈述___。",
+      "options": [
+       "论点",
+       "笑话",
+       "问候"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "每一段都要以___开头。",
+      "options": [
+       "主题句",
+       "问题",
+       "引用"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "先承认反方观点，再加以___，很有效。",
+      "options": [
+       "反驳",
+       "取消",
+       "省略"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "本文认为，扩建城市自行车道对环境有益。有人反对，认为(1)太高。(2)，从长远看，拥堵和污染会减少，带来的利益超过成本。(3)，城市应该推进这个计划。",
+    "trans": {
+     "ko": "이 에세이는 도시의 자전거 도로 확대가 환경에 도움이 된다고 주장합니다. 일부는 비용이 너무 크다고 반대합니다. 그러나 장기적으로는 교통 정체와 오염이 줄어들어 비용을 상회하는 이익이 생깁니다. 따라서 도시는 계획을 추진해야 합니다.",
+     "en": "This essay argues that expanding urban cycle lanes benefits the environment. Some object that the cost is too high. In the long term, however, congestion and pollution fall, producing benefits that outweigh the cost. Therefore cities should go ahead with the plan."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "成本",
+       "速度",
+       "颜色"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "但是",
+       "而且",
+       "例如"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "因此",
+       "但是",
+       "同时"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "学习指南\n论证文章\n好的论证文章以明确的论点开头。主体用证据支持论点，并提出反方观点。反方观点必须被反驳。结论回到论点，总结要点。",
+    "trans": {
+     "ko": "학습 가이드\n논증 에세이\n좋은 논증 에세이는 분명한 논지로 시작한다. 본론에서는 근거로 논지를 뒷받침하고 반론을 소개한다. 반론은 반드시 반박되어야 한다. 결론은 논지로 돌아가 핵심을 정리한다.",
+     "en": "STUDY GUIDE\nArgument essays\nA good argument essay starts with a clear thesis. The body supports the thesis with evidence and introduces counter-arguments. Counter-arguments must be refuted. The conclusion returns to the thesis and summarises key points."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "好的论证文章以什么开头？",
+      "options": [
+       "明确的论点",
+       "长长的引用",
+       "笑话"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "反方观点必须怎么办？",
+      "options": [
+       "被反驳",
+       "不提",
+       "忽略"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "论证文章以明确的论点开头。不必提出反方观点。结论总结要点。",
+    "trans": {
+     "ko": "논증 에세이는 분명한 논지로 시작한다. 반론은 소개하지 않아도 된다. 결론은 핵심을 정리한다.",
+     "en": "An argument essay starts with a clear thesis. Counter-arguments need not be introduced. The conclusion summarises the key points."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "论证文章以明确的论点开头。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "不必提出反方观点。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "结论总结要点。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "这篇文章的论点是：远程办公提高效率。",
+    "read": "Zhè piān wén zhāng de lùn diǎn shì: yuǎn chéng bàn gōng tígāo xiào lǜ.",
+    "ko": "이 에세이의 논지는 재택근무가 생산성을 높인다는 것입니다.",
+    "en": "The thesis of this essay is that remote working boosts productivity.",
+    "situation": {
+     "ko": "논지를 소개할 때",
+     "en": "Introducing the thesis"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "第一段着重谈节约成本。",
+    "read": "Dì yí duàn zhuó zhòng tán jié yuē chéng běn.",
+    "ko": "첫째 단락은 비용 절감에 초점을 맞춥니다.",
+    "en": "The first paragraph focuses on cost savings.",
+    "situation": {
+     "ko": "단락 구조를 안내할 때",
+     "en": "Signposting"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "有人认为团队合作会减弱。",
+    "read": "Yǒu rén rènwéi tuán duì hé zuò huì jiǎn ruò.",
+    "ko": "일부는 팀워크가 약해진다고 주장합니다.",
+    "en": "Some argue that teamwork is weakened.",
+    "situation": {
+     "ko": "반론을 소개할 때",
+     "en": "Introducing a counter-argument"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "但是，最近的研究推翻了这一看法。",
+    "read": "Dànshì, zuìjìn de yán jiū tuī fān le zhè yí kàn fǎ.",
+    "ko": "그러나 이 주장은 최근 연구에 의해 반박됩니다.",
+    "en": "However, this claim is refuted by recent research.",
+    "situation": {
+     "ko": "반박할 때",
+     "en": "Refuting"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "有两项研究支持这一点。",
+    "read": "Yǒu liǎng xiàng yán jiū zhī chí zhè yìdiǎn.",
+    "ko": "이를 뒷받침하는 근거로 두 가지 연구를 들 수 있습니다.",
+    "en": "Two studies can be cited in support of this.",
+    "situation": {
+     "ko": "근거를 제시할 때",
+     "en": "Providing evidence"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "这个逻辑中有矛盾。",
+    "read": "Zhège luó jí zhōng yǒu máo dùn.",
+    "ko": "이 논리에는 모순이 있습니다.",
+    "en": "There is a contradiction in this logic.",
+    "situation": {
+     "ko": "논리를 비판할 때",
+     "en": "Criticising logic"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "总之，远程办公的好处大于缺点。",
+    "read": "Zǒngzhī, yuǎn chéng bàn gōng de hǎo chù dà yú quē diǎn.",
+    "ko": "종합하면 재택근무의 이점이 단점을 상회합니다.",
+    "en": "In sum, the benefits of remote working outweigh the drawbacks.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "因此，企业应该实行灵活的办公方式。",
+    "read": "Yīn cǐ, qǐ yè yīnggāi shí xíng líng huó de bàn gōng fāng shì.",
+    "ko": "따라서 기업은 유연한 근무 제도를 도입해야 합니다.",
+    "en": "Therefore, companies should introduce flexible working arrangements.",
+    "situation": {
+     "ko": "제안으로 마무리할 때",
+     "en": "Ending with a recommendation"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "本文认为……。",
+    "read": "Běn wén rènwéi ….",
+    "ko": "이 에세이는 ~라고 주장한다.",
+    "en": "This essay argues that ..."
+   },
+   {
+    "id": "w2",
+    "t": "有人认为……，但是……。",
+    "read": "Yǒu rén rènwéi …, dànshì ….",
+    "ko": "일부는 ~라고 주장하지만 ~",
+    "en": "Some claim that ..., but ..."
+   },
+   {
+    "id": "w3",
+    "t": "这一点得到……的支持。",
+    "read": "Zhè yìdiǎn dé dào … de zhī chí.",
+    "ko": "이를 뒷받침하는 근거는 ~이다.",
+    "en": "This is supported by ..."
+   },
+   {
+    "id": "w4",
+    "t": "总之，……。",
+    "read": "Zǒngzhī, ….",
+    "ko": "종합하면 ~이다.",
+    "en": "In sum / On balance, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "논지·반론·반박·결론이 모두 들어간 4문장의 논증 에세이 요약을 써 보세요.",
+    "en": "Write a four-sentence summary of an argument essay that includes thesis, counter-argument, refutation and conclusion."
+   },
+   "must_include": [
+    {
+     "label": "认为",
+     "match": [
+      "认为"
+     ]
+    },
+    {
+     "label": "但是",
+     "match": [
+      "但是"
+     ]
+    },
+    {
+     "label": "总之",
+     "match": [
+      "总之"
+     ]
+    }
+   ],
+   "model": "本文认为远程办公可以提高效率。有人认为团队合作会减弱。但是，最近的研究表明，线上协作工具可以大大减少这个问题。总之，企业应该实行灵活的办公方式。",
+   "model_trans": {
+    "ko": "이 에세이는 재택근무가 생산성을 높인다고 주장합니다. 일부는 팀워크가 약해진다고 주장합니다. 그러나 최근 연구는 온라인 협업 도구가 이 문제를 줄인다는 것을 보여 줍니다. 종합하면 기업은 유연한 근무 제도를 도입해야 합니다.",
+    "en": "This essay argues that remote working boosts productivity. Some claim that teamwork is weakened. However, recent studies show that online collaboration tools reduce this problem. In sum, companies should introduce flexible working arrangements."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u23",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 23,
+  "concept": "C1.U23",
+  "status": "live",
+  "title": {
+   "target": "提案与建议书",
+   "ko": "제안서와 권고안",
+   "en": "Proposals and recommendations"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "提案",
+   "pos": "noun",
+   "read": "tí àn",
+   "ko": "제안서",
+   "en": "proposal",
+   "ex": {
+    "t": "提案应包括目标和费用。",
+    "read": "Tí àn yīng bāo kuò mù biāo hé fèi yòng.",
+    "ko": "제안서는 목적과 비용을 포함해야 해요.",
+    "en": "A proposal should include aims and costs."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "建议",
+   "pos": "noun",
+   "read": "jiànyì",
+   "ko": "권고",
+   "en": "recommendation",
+   "ex": {
+    "t": "委员会提出了几条建议。",
+    "read": "Wěi yuán huì tí chū le jǐ tiáo jiànyì.",
+    "ko": "위원회는 몇 가지 권고를 했어요.",
+    "en": "The committee made several recommendations."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "可行性",
+   "pos": "noun",
+   "read": "kě xíng xìng",
+   "ko": "타당성",
+   "en": "feasibility",
+   "ex": {
+    "t": "需要进行可行性研究。",
+    "read": "Xūyào jìn xíng kě xíng xìng yán jiū.",
+    "ko": "타당성 조사가 필요해요.",
+    "en": "A feasibility study is needed."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "预算",
+   "pos": "noun",
+   "read": "yù suàn",
+   "ko": "예산",
+   "en": "budget",
+   "ex": {
+    "t": "预算有限。",
+    "read": "Yù suàn yǒu xiàn.",
+    "ko": "예산은 한정되어 있어요.",
+    "en": "The budget is limited."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "目标",
+   "pos": "noun",
+   "read": "mù biāo",
+   "ko": "목표",
+   "en": "objective",
+   "ex": {
+    "t": "目标是降低成本。",
+    "read": "Mù biāo shì jiàng dī chéng běn.",
+    "ko": "목표는 비용 절감이에요.",
+    "en": "The objective is cost reduction."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "可行的",
+   "pos": "adj",
+   "read": "kě xíng de",
+   "ko": "실행 가능한",
+   "en": "viable",
+   "ex": {
+    "t": "这个方案看起来可行。",
+    "read": "Zhège fāng àn kànqǐlái kě xíng.",
+    "ko": "이 방안은 실행 가능해 보여요.",
+    "en": "This option looks viable."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "益处",
+   "pos": "noun",
+   "read": "yì chù",
+   "ko": "이점",
+   "en": "benefit",
+   "ex": {
+    "t": "这个计划的益处很明显。",
+    "read": "Zhège jìhuà de yì chù hěn míng xiǎn.",
+    "ko": "이 계획의 이점은 분명해요.",
+    "en": "The benefits of this plan are clear."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "风险因素",
+   "pos": "noun",
+   "read": "fēng xiǎn yīn sù",
+   "ko": "위험 요소",
+   "en": "risk factor",
+   "ex": {
+    "t": "必须事先找出风险因素。",
+    "read": "Bìxū shì xiān zhǎo chū fēng xiǎn yīn sù.",
+    "ko": "위험 요소를 미리 파악해야 해요.",
+    "en": "Risk factors must be identified in advance."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "实施",
+   "pos": "verb",
+   "read": "shí shī",
+   "ko": "이행하다",
+   "en": "implement",
+   "ex": {
+    "t": "我们将分阶段实施计划。",
+    "read": "Wǒmen jiāng fēn jiē duàn shí shī jìhuà.",
+    "ko": "계획을 단계적으로 이행할 거예요.",
+    "en": "We will implement the plan in stages."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "首要任务",
+   "pos": "noun",
+   "read": "shǒu yào rèn wù",
+   "ko": "우선순위",
+   "en": "priority",
+   "ex": {
+    "t": "安全是首要任务。",
+    "read": "Ān quán shì shǒu yào rèn wù.",
+    "ko": "안전이 최우선이에요.",
+    "en": "Safety is the top priority."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "建议……／本提案旨在……／鉴于……，建议……／如获批准……",
+   "en": "Proposals: 建议 / 本提案旨在 / 如获批准"
+  },
+  "explain": {
+   "ko": "提案要写清目标、方法、费用和风险。目标用“本提案旨在……”，提议用“建议引进……”，建议用“建议分阶段实施”，条件用“如获批准，将于明年年初启动”。预算有限时，说“鉴于预算有限，建议分阶段实施”，同时要说明风险和对策。",
+   "en": "A proposal states aim, method, cost and risk. Aim: 本提案旨在……; proposal: 建议引进……; recommendation: 建议分阶段实施. Condition: 如获批准，将于明年年初启动. With a limited budget: 鉴于预算有限，建议分阶段实施. State risks and responses too."
+  },
+  "table": {
+   "head": [
+    "功能 / Function",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "目的 / Aim",
+     "本提案旨在……",
+     "本提案旨在降低成本。"
+    ],
+    [
+     "提议 / Propose",
+     "建议引进……",
+     "建议引进新的培训项目。"
+    ],
+    [
+     "建议 / Recommend",
+     "建议分阶段……",
+     "建议分阶段实施。"
+    ],
+    [
+     "条件 / Condition",
+     "如获批准，……",
+     "如获批准，将于明年启动。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“建议”比“提议”语气更正式。",
+    "en": "建议 is more formal than 提议."
+   },
+   {
+    "ko": "风险因素和优先顺序也要写出。",
+    "en": "Present risks and priorities."
+   },
+   {
+    "ko": "用数字使目标具体。",
+    "en": "Make aims concrete with figures."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我们建议引进新的培训项目。",
+    "read": "Wǒmen jiànyì yǐn jìn xīn de péi xùn xiàng mù.",
+    "ko": "우리는 새로운 교육 프로그램의 도입을 제안합니다.",
+    "en": "We propose the introduction of a new training programme."
+   },
+   {
+    "t": "鉴于预算有限，建议分阶段实施。",
+    "read": "Jiàn yú yù suàn yǒu xiàn, jiànyì fēn jiē duàn shí shī.",
+    "ko": "예산이 한정되어 있으므로 단계적으로 이행할 것을 권고합니다.",
+    "en": "As the budget is limited, it is recommended that the plan be implemented in stages."
+   },
+   {
+    "t": "本提案旨在把成本降低百分之二十。",
+    "read": "Běn tí àn zhǐ zài bǎ chéng běn jiàng dī bǎi fēn zhī èrshí.",
+    "ko": "이 제안은 비용을 20퍼센트 줄이는 것을 목표로 합니다.",
+    "en": "This proposal aims to cut costs by twenty per cent."
+   },
+   {
+    "t": "应该首先进行可行性研究。",
+    "read": "Yīnggāi shǒu xiān jìn xíng kě xíng xìng yán jiū.",
+    "ko": "타당성 조사가 먼저 이루어져야 합니다.",
+    "en": "A feasibility study should be carried out first."
+   },
+   {
+    "t": "必须把安全放在首位。",
+    "read": "Bìxū bǎ ān quán fàng zài shǒu wèi.",
+    "ko": "안전을 최우선으로 해야 합니다.",
+    "en": "Safety must be the top priority."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我们___引进新的培训项目。",
+    "options": [
+     "建议",
+     "反对",
+     "忘记"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "鉴于预算有限，建议___实施。",
+    "options": [
+     "分阶段",
+     "一次性",
+     "随便"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "本提案___把成本降低百分之二十。",
+    "options": [
+     "旨在",
+     "忘了",
+     "不想"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___获批准，将于明年启动。",
+    "options": [
+     "如",
+     "虽",
+     "因"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这份提案的目的是什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 제안서의 목표는 무엇인가요?",
+     "en": "(Question) What is the aim of this proposal?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "旨在改进公司培训。",
+       "增加假期。",
+       "没有目的。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "最大的风险是什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 가장 큰 위험은 무엇인가요?",
+     "en": "(Question) What is the main risk?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "员工参与度低。",
+       "预算太多。",
+       "没有风险。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你看了新培训项目的提案吗？"
+      },
+      {
+       "s": "B",
+       "t": "看了，目标和费用都写得很清楚。"
+      },
+      {
+       "s": "A",
+       "t": "提到风险了吗？"
+      },
+      {
+       "s": "B",
+       "t": "提到了员工参与度低，建议事先做问卷调查。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 새 교육 프로그램 제안서 봤어?\nB: 응, 목표와 비용이 잘 정리돼 있어.\nA: 위험 요소도 있어?\nB: 참여율 저하가 위험이래. 사전 설문을 권고하고 있어.",
+     "en": "A: Have you seen the proposal for the new training programme?\nB: Yes, the aims and costs are well laid out.\nA: Does it cover risks?\nB: It names low participation and recommends a prior survey."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B为什么建议事先做问卷调查？",
+      "options": [
+       "防止参与度低",
+       "增加费用",
+       "取消培训"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个提案旨在减少办公室的能耗。我们建议安装带传感器的照明系统。初期费用较高，但长期可以节省费用。如获批准，我们将在明年年初启动。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이번 제안은 사무실의 에너지 사용을 줄이기 위한 것입니다. 우리는 센서가 달린 조명 시스템의 설치를 제안합니다. 초기 비용은 높지만 장기적으로는 비용을 절감할 수 있습니다. 승인된다면 내년 초에 시행하겠습니다.",
+     "en": "This proposal aims to reduce energy use in the office. We propose installing a sensor-based lighting system. The initial cost is high, but it will save money in the long term. Should it be approved, we will start early next year."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "提案的益处是什么？",
+      "options": [
+       "长期可以节省费用",
+       "初期费用低",
+       "实施简单"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我审阅了提案。"
+      },
+      {
+       "s": "B",
+       "t": "您觉得怎么样？"
+      },
+      {
+       "s": "A",
+       "t": "看起来可行，但是预算有问题。"
+      },
+      {
+       "s": "B",
+       "t": "我会通过分阶段实施来减轻负担。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "위원장: 제안서를 검토했습니다.\n담당자: 어떻게 생각하시나요?\n위원장: 실행 가능해 보이지만 예산 문제가 있습니다.\n담당자: 단계적 이행으로 부담을 줄이겠습니다.",
+     "en": "Chair: I've reviewed the proposal.\nOfficer: What do you think?\nChair: It looks viable, but there's a budget problem.\nOfficer: I'll reduce the burden through phased implementation."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "主席说看起来______",
+      "answers": [
+       "可行"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "负责人会通过______实施来减轻负担",
+      "answers": [
+       "分阶段"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我们___引进新的培训项目。\n2) 鉴于预算有限，建议___实施。\n3) 本提案___把成本降低百分之二十。",
+    "trans": {
+     "ko": "1) 우리는 새로운 교육 프로그램의 도입을 제안합니다. 2) 단계적으로 이행할 것을 권고합니다. 3) 이 제안은 비용을 20퍼센트 줄이는 것을 목표로 합니다.",
+     "en": "1) We propose the introduction of a new training programme. 2) It is recommended that the plan be implemented in stages. 3) This proposal aims to cut costs by twenty per cent."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我们___引进新的培训项目。",
+      "options": [
+       "建议",
+       "反对",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "鉴于预算有限，建议___实施。",
+      "options": [
+       "分阶段",
+       "一次性",
+       "随便"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "本提案___把成本降低百分之二十。",
+      "options": [
+       "旨在",
+       "忘了",
+       "不想"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这份提案提出了提高学校图书馆使用率的办法。我们(1)把开放时间延长一小时。虽然会增加人员费用，但是预计学生满意度会(2)。因此，建议(3)试行。",
+    "trans": {
+     "ko": "본 제안서는 학교 도서관의 이용률을 높이는 방안을 제시합니다. 우리는 개관 시간을 한 시간 연장할 것을 제안합니다. 추가 인건비가 발생하지만 학생 만족도가 높아질 것으로 기대합니다. 따라서 시범 운영을 권고합니다.",
+     "en": "This proposal presents ways to raise use of the school library. We propose extending opening hours by one hour. Additional staff costs will arise, but student satisfaction is expected to rise. A trial is therefore recommended."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "建议",
+       "禁止",
+       "推迟"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "提高",
+       "下降",
+       "不变"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "先",
+       "不",
+       "永远"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "提案\n开设公司内部咖啡厅\n为给员工提供休息场所，建议开设公司内部咖啡厅。初期费用约一千万韩元，可以通过运营收入在两年内收回。最大的风险是员工使用率可能较低。为此，建议事先进行需求调查。",
+    "trans": {
+     "ko": "제안서\n사내 카페 개설\n직원들의 휴식 공간을 마련하기 위해 사내 카페 개설을 제안한다. 초기 비용은 약 천만 원이며 운영 수익으로 2년 안에 회수할 수 있다. 가장 큰 위험은 직원들의 이용률이 낮을 가능성이다. 이를 막기 위해 사전 수요 조사를 권고한다.",
+     "en": "PROPOSAL\nOpening an in-house cafe\nWe propose opening an in-house cafe to provide staff with a place to relax. The initial cost is around ten million won and can be recovered within two years from operating income. The main risk is that staff use may be low. To prevent this, we recommend a demand survey beforehand."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "初期费用怎么收回？",
+      "options": [
+       "通过运营收入两年内收回",
+       "靠政府补贴",
+       "靠员工工资"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "最大的风险是什么？",
+      "options": [
+       "员工使用率可能较低",
+       "费用超支",
+       "场地不足"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "提案建议开设公司内部咖啡厅。初期费用无法收回。建议事先进行需求调查。",
+    "trans": {
+     "ko": "제안서는 사내 카페 개설을 제안한다. 초기 비용은 회수할 수 없다. 사전 수요 조사가 권고된다.",
+     "en": "The proposal suggests opening an in-house cafe. The initial cost cannot be recovered. A prior demand survey is recommended."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "提案建议开设公司内部咖啡厅。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "初期费用无法收回。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "建议事先进行需求调查。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我们建议引进新的培训项目。",
+    "read": "Wǒmen jiànyì yǐn jìn xīn de péi xùn xiàng mù.",
+    "ko": "저희는 새로운 교육 프로그램의 도입을 제안합니다.",
+    "en": "We propose the introduction of a new training programme.",
+    "situation": {
+     "ko": "제안을 시작할 때",
+     "en": "Opening a proposal"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "这份提案的目标是提高效率。",
+    "read": "Zhè fèn tí àn de mù biāo shì tígāo xiào lǜ.",
+    "ko": "이 제안의 목표는 업무 효율을 높이는 것입니다.",
+    "en": "The objective of this proposal is to improve efficiency.",
+    "situation": {
+     "ko": "목표를 밝힐 때",
+     "en": "Stating objectives"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "鉴于预算有限，建议分阶段实施。",
+    "read": "Jiàn yú yù suàn yǒu xiàn, jiànyì fēn jiē duàn shí shī.",
+    "ko": "예산이 한정되어 있으므로 단계적 이행을 권고합니다.",
+    "en": "Given the limited budget, we recommend phased implementation.",
+    "situation": {
+     "ko": "권고안을 제시할 때",
+     "en": "Giving a recommendation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "这个方案在费用和效果上都是可行的。",
+    "read": "Zhège fāng àn zài fèi yòng hé xiào guǒ shàng dōu shì kě xíng de.",
+    "ko": "이 방안은 비용과 효과 면에서 실행 가능합니다.",
+    "en": "This option is viable in terms of cost and effect.",
+    "situation": {
+     "ko": "타당성을 설명할 때",
+     "en": "Explaining feasibility"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "主要风险是日程延误。",
+    "read": "Zhǔ yào fēng xiǎn shì rì chéng yán wù.",
+    "ko": "가장 큰 위험은 일정 지연입니다.",
+    "en": "The main risk is delay to the schedule.",
+    "situation": {
+     "ko": "위험을 밝힐 때",
+     "en": "Identifying risk"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "应该首先进行可行性研究。",
+    "read": "Yīnggāi shǒu xiān jìn xíng kě xíng xìng yán jiū.",
+    "ko": "사전에 타당성 조사를 실시해야 합니다.",
+    "en": "A feasibility study should first be carried out.",
+    "situation": {
+     "ko": "절차를 제안할 때",
+     "en": "Proposing a procedure"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "如获批准，计划可以在明年年初启动。",
+    "read": "Rú huò pī zhǔn, jìhuà kěyǐ zài míngnián nián chū qǐ dòng.",
+    "ko": "이 계획이 승인된다면 내년 초에 시행할 수 있습니다.",
+    "en": "Should the plan be approved, it can start early next year.",
+    "situation": {
+     "ko": "일정을 말할 때",
+     "en": "Giving a timeline"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "感谢您的审阅。",
+    "read": "Gǎn xiè nín de shěn yuè.",
+    "ko": "검토해 주셔서 감사합니다.",
+    "en": "Thank you for your consideration.",
+    "situation": {
+     "ko": "제안서를 마무리할 때",
+     "en": "Closing a proposal"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "建议引进……。",
+    "read": "Jiànyì yǐn jìn ….",
+    "ko": "~의 도입을 제안한다.",
+    "en": "We propose the introduction of ..."
+   },
+   {
+    "id": "w2",
+    "t": "本提案旨在……。",
+    "read": "Běn tí àn zhǐ zài ….",
+    "ko": "~할 것을 권고한다.",
+    "en": "It is recommended that ..."
+   },
+   {
+    "id": "w3",
+    "t": "鉴于……，建议……。",
+    "read": "Jiàn yú …, jiànyì ….",
+    "ko": "~를 목표로 한다.",
+    "en": "The proposal aims to ..."
+   },
+   {
+    "id": "w4",
+    "t": "如获批准，……。",
+    "read": "Rú huò pī zhǔn, ….",
+    "ko": "~이 승인된다면 ~할 수 있다.",
+    "en": "Should the plan be approved, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "직장이나 학교의 개선안을 목적·방안·위험·권고 순으로 4문장으로 써 보세요.",
+    "en": "Write a four-sentence proposal for a workplace or school improvement: aim, option, risk, recommendation."
+   },
+   "must_include": [
+    {
+     "label": "提案",
+     "match": [
+      "提案"
+     ]
+    },
+    {
+     "label": "建议",
+     "match": [
+      "建议"
+     ]
+    },
+    {
+     "label": "风险",
+     "match": [
+      "风险"
+     ]
+    }
+   ],
+   "model": "本提案旨在改进公司内部培训项目。建议每月举办一次线上研讨会。最大的风险是员工参与度低，因此需要事先做问卷调查。鉴于预算，建议先试点，再分阶段扩大。",
+   "model_trans": {
+    "ko": "본 제안서는 사내 교육 프로그램의 개선을 목표로 합니다. 우리는 월 1회 온라인 워크숍의 도입을 제안합니다. 가장 큰 위험은 직원의 참여율 저하이므로 사전 설문이 필요합니다. 예산을 고려하여 시범 운영 후 단계적으로 확대할 것을 권고합니다.",
+    "en": "This proposal aims to improve the in-house training programme. We propose the introduction of a monthly online workshop. The main risk is low staff participation, so a prior survey is needed. Given the budget, we recommend a pilot followed by phased expansion."
+   }
+  }
+ }
+}

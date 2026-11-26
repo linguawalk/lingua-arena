@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u04",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 4,
+  "concept": "C1.U04",
+  "status": "live",
+  "title": {
+   "target": "省略与替代",
+   "ko": "생략과 대용",
+   "en": "Ellipsis and substitution"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "重复",
+   "pos": "noun",
+   "read": "chóng fù",
+   "ko": "반복",
+   "en": "repetition",
+   "ex": {
+    "t": "写作中要避免不必要的重复。",
+    "read": "Xiě zuò zhōng yào bìmiǎn bú bì yào de chóng fù.",
+    "ko": "글에서 불필요한 반복을 피하세요.",
+    "en": "Avoid unnecessary repetition in writing."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "简洁",
+   "pos": "adj",
+   "read": "jiǎn jié",
+   "ko": "간결한",
+   "en": "concise",
+   "ex": {
+    "t": "简洁的句子更有说服力。",
+    "read": "Jiǎn jié de jù zi gèng yǒu shuō fú lì.",
+    "ko": "간결한 문장이 더 설득력이 있어요.",
+    "en": "Concise sentences are more persuasive."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "省略",
+   "pos": "verb",
+   "read": "shěng lüè",
+   "ko": "생략하다",
+   "en": "omit",
+   "ex": {
+    "t": "上下文清楚的词可以省略。",
+    "read": "Shàng xià wén qīng chǔ de cí kěyǐ shěng lüè.",
+    "ko": "문맥으로 알 수 있으면 단어를 생략해도 돼요.",
+    "en": "You may omit words that are clear from context."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "代替",
+   "pos": "verb",
+   "read": "dài tì",
+   "ko": "대신하다",
+   "en": "substitute",
+   "ex": {
+    "t": "代词可以代替名词。",
+    "read": "Dài cí kěyǐ dài tì míngcí.",
+    "ko": "대명사가 명사를 대신해요.",
+    "en": "A pronoun substitutes for a noun."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "语境",
+   "pos": "noun",
+   "read": "yǔ jìng",
+   "ko": "문맥",
+   "en": "context",
+   "ex": {
+    "t": "语境不同，意思也不同。",
+    "read": "Yǔ jìng bù tóng, yìsi yě bù tóng.",
+    "ko": "문맥에 따라 뜻이 달라져요.",
+    "en": "The meaning changes with context."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "澄清",
+   "pos": "verb",
+   "read": "chéng qīng",
+   "ko": "명확하게 하다",
+   "en": "clarify",
+   "ex": {
+    "t": "她澄清了这个问题。",
+    "read": "Tā chéng qīng le zhège wèntí.",
+    "ko": "그녀는 질문을 명확히 했어요.",
+    "en": "She clarified the question."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "上述",
+   "pos": "adj",
+   "read": "shàng shù",
+   "ko": "앞서 언급한",
+   "en": "aforementioned",
+   "ex": {
+    "t": "我们必须解决上述问题。",
+    "read": "Wǒmen bìxū jiě jué shàng shù wèntí.",
+    "ko": "앞서 언급한 문제를 해결해야 해요.",
+    "en": "We must resolve the aforementioned issue."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "分别",
+   "pos": "adv",
+   "read": "fēn bié",
+   "ko": "각각",
+   "en": "respectively",
+   "ex": {
+    "t": "他们分别是医生和律师。",
+    "read": "Tāmen fēn bié shì yīshēng hé lǜ shī.",
+    "ko": "두 사람은 각각 의사와 변호사예요.",
+    "en": "They are a doctor and a lawyer respectively."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "估计",
+   "pos": "verb",
+   "read": "gū jì",
+   "ko": "추측하다",
+   "en": "presume",
+   "ex": {
+    "t": "我估计他会来。",
+    "read": "Wǒ gū jì tā huì lái.",
+    "ko": "나는 그가 올 거라고 추측해요.",
+    "en": "I presume that he will come."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "换句话说",
+   "pos": "phrase",
+   "read": "huàn jù huà shuō",
+   "ko": "다시 말해",
+   "en": "in other words",
+   "ex": {
+    "t": "换句话说，我们必须改变方向。",
+    "read": "Huàn jù huà shuō, wǒmen bìxū gǎibiàn fāng xiàng.",
+    "ko": "다시 말해 우리는 계획을 바꿔야 해요.",
+    "en": "In other words, we need to change the plan."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "这样／那样／前者……后者……／分别／其／该／各",
+   "en": "Ellipsis and substitution: 这样 / 前者…后者 / 分别 / 其 / 该 / 各"
+  },
+  "explain": {
+   "ko": "汉语常用省略和代替避免重复。回答问题时可以说“我想是这样”“我想不会”。“这个／那个”代替前面提到的东西：我更喜欢蓝的，不喜欢红的。“前者……后者……”分别指前后两项；“分别”表示各自对应：他们分别是医生和律师。书面语中用“该”“其”“上述”指代前文：该问题，其原因。",
+   "en": "Chinese avoids repetition with ellipsis and substitution. Answers: 我想是这样／我想不会. Demonstratives replace nouns: 我更喜欢蓝的. 前者……后者…… refers to the first and second; 分别 means 'respectively'. Written style: 该／其／上述 refer back: 该问题，其原因."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "例子 / Example",
+    "意思 / Meaning"
+   ],
+   "rows": [
+    [
+     "这样／不会 / So",
+     "我想是这样。／我想不会。",
+     "I think so / I don't think so"
+    ],
+    [
+     "前者／后者 / Former, latter",
+     "前者便宜，后者快。",
+     "The former…, the latter…"
+    ],
+    [
+     "分别 / Respectively",
+     "他们分别是医生和律师。",
+     "respectively"
+    ],
+    [
+     "该／其 / This／its",
+     "该问题的原因",
+     "this issue, its cause"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“该”只用于书面语，指前面提到过的对象。",
+    "en": "该 is written style, pointing back to something mentioned."
+   },
+   {
+    "ko": "口语中可以省略重复的主语。",
+    "en": "In speech a repeated subject can be omitted."
+   },
+   {
+    "ko": "“分别”要求前后项一一对应。",
+    "en": "分别 requires one-to-one correspondence."
+   }
+  ],
+  "examples": [
+   {
+    "t": "你觉得他会来吗？——我想是这样。",
+    "read": "Nǐ juéde tā huì lái ma? — Wǒ xiǎng shì zhè yàng.",
+    "ko": "그가 올 것 같아요? — 그럴 것 같아요.",
+    "en": "Do you think he'll come? — I think so."
+   },
+   {
+    "t": "我卖了旧车，买了新的。",
+    "read": "Wǒ mài le jiù chē, mǎi le xīn de.",
+    "ko": "낡은 차는 팔고 새 것을 샀어요.",
+    "en": "I sold my old car and bought a new one."
+   },
+   {
+    "t": "他们分别是医生和律师。",
+    "read": "Tāmen fēn bié shì yīshēng hé lǜ shī.",
+    "ko": "원하는 대로 하셔도 됩니다.",
+    "en": "You may do as you wish."
+   },
+   {
+    "t": "我告诉他去，可他不想去。",
+    "read": "Wǒ gàosu tā qù, kě tā bù xiǎng qù.",
+    "ko": "가라고 했지만 그는 가지 않으려 했어요.",
+    "en": "I told him to go, but he didn't want to."
+   },
+   {
+    "t": "如上所述，日程已经改变。",
+    "read": "Rú shàng suǒ shù, rì chéng yǐjīng gǎibiàn.",
+    "ko": "A는 의사이고 B는 변호사예요, 각각.",
+    "en": "A and B are a doctor and a lawyer respectively."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "你觉得他会来吗？——我想___。",
+    "options": [
+     "是这样",
+     "刚才",
+     "昨天"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我卖了旧车，买了___的。",
+    "options": [
+     "新",
+     "好吃",
+     "忙"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "他们___是医生和律师。",
+    "options": [
+     "分别",
+     "已经",
+     "立刻"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "如___所述，日程已经改变。",
+    "options": [
+     "上",
+     "下",
+     "左"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你买了哪台笔记本电脑？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 새 노트북은 어떤 것을 샀어요?",
+     "en": "(Question) Which laptop did you buy?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "买了屏幕大的那台黑色的。",
+       "我昨天去了。",
+       "我不知道路。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你觉得他会来开会吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 회의에 올 것 같아요?",
+     "en": "(Question) Do you think he'll come to the meeting?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我想不会。",
+       "我喜欢红色。",
+       "在三楼。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "蓝衬衫和白的，哪件好看？"
+      },
+      {
+       "s": "B",
+       "t": "我觉得蓝的好看。"
+      },
+      {
+       "s": "A",
+       "t": "其实我更喜欢白的。"
+      },
+      {
+       "s": "B",
+       "t": "那就都买吧，正在打折。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 파란 셔츠랑 흰 셔츠 중에 뭐가 나아?\nB: 나는 파란 것이 더 좋아 보여.\nA: 사실 나는 흰 것이 더 끌려.\nB: 그럼 두 개 다 사지 그래? 할인 중이야.",
+     "en": "A: Which looks better, the blue shirt or the white one?\nB: I think the blue one looks better.\nA: Actually, I prefer the white one.\nB: Why not buy both? They're on sale."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的建议什么？",
+      "options": [
+       "两件都买",
+       "只买白色的",
+       "都不买"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "关于会议的通知：如上所述，会议改到周五。如果不能参加，请提前告诉我们；如果不能这样做，请派代表。详细信息将通过邮件发送。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "회의 일정에 대해 안내드립니다. 앞서 언급한 대로 회의는 금요일로 옮겨졌습니다. 참석이 어려운 분은 미리 알려 주시고, 그렇게 하실 수 없으면 대리인을 보내 주세요. 자세한 내용은 이메일로 보내 드리겠습니다.",
+     "en": "A note about the meeting. As mentioned above, the meeting has moved to Friday. If you can't attend, please let us know in advance; if you can't do so, send a representative. Details will follow by email."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "会议改到了哪天？",
+      "options": [
+       "周五",
+       "周一",
+       "周三"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "您要点什么？"
+      },
+      {
+       "s": "B",
+       "t": "一份大份的沙拉，一份小份的汤。"
+      },
+      {
+       "s": "A",
+       "t": "要喝点什么？"
+      },
+      {
+       "s": "B",
+       "t": "我喝茶，我朋友喝咖啡。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 주문하시겠어요?\n손님: 샐러드는 큰 것으로, 수프는 작은 것으로 주세요.\n직원: 음료는요?\n손님: 저는 차를, 친구는 커피를 마실게요.",
+     "en": "Waiter: Would you like to order?\nCustomer: A large salad and a small soup, please.\nWaiter: Anything to drink?\nCustomer: I'll have tea and my friend coffee."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "顾客要一份大份的______",
+      "answers": [
+       "沙拉"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "朋友喝______",
+      "answers": [
+       "咖啡"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 你觉得他会来吗？——我想___。\n2) 我卖了旧车，买了___的。\n3) 我告诉他去，可他不___。",
+    "trans": {
+     "ko": "1) 그가 올 것 같아요? — 그럴 것 같아요. 2) 낡은 차는 팔고 새 것을 샀어요. 3) 가라고 했지만 그는 가고 싶어 하지 않았어요.",
+     "en": "1) Do you think he'll come? — I think so. 2) I sold my old car and bought a new one. 3) I told him to go, but he didn't want to."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "你觉得他会来吗？——我想___。",
+      "options": [
+       "是这样",
+       "刚才",
+       "昨天"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我卖了旧车，买了___的。",
+      "options": [
+       "新",
+       "好吃",
+       "忙"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我告诉他去，可他不___。",
+      "options": [
+       "想",
+       "是",
+       "该"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "我们看了两个方案。前者(1)，后者快。如果让我选，我会选前者。我认为这样做，从(2)来看更划算。因此我建议(3)前者。",
+    "trans": {
+     "ko": "우리는 두 개의 제안을 검토했습니다. 첫 번째는 비용이 적게 들고 두 번째는 시간이 적게 걸립니다. 어느 쪽을 선택할지 묻는다면 저는 첫 번째 것이라고 대답하겠습니다. 그렇게 하는 것이 장기적으로 더 이익이라고 생각합니다.",
+     "en": "We reviewed two proposals. The first is cheaper and the second quicker. If asked which to choose, I would say the first one. I believe doing so is more profitable in the long term."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "便宜",
+       "麻烦",
+       "危险"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "长远",
+       "昨天",
+       "附近"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "采用",
+       "拒绝",
+       "忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "邮件\n项目更新\n如上所述，项目的截止日期已经延长。各位成员应各自提交报告。两位负责人分别负责设计和开发。如有问题，请告诉我们。",
+    "trans": {
+     "ko": "이메일\n프로젝트 변경 안내\n앞서 언급한 대로 프로젝트 마감이 연장되었습니다. 팀원은 각자 자신의 보고서를 제출해 주세요. 담당자 두 명은 각각 디자인과 개발을 맡습니다. 궁금한 점이 있으면 그렇게 해 주세요.",
+     "en": "EMAIL\nProject update\nAs mentioned above, the project deadline has been extended. Team members should submit their own reports. The two leads will handle design and development respectively. If you have questions, please let us know."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "项目的截止日期怎么样了？",
+      "options": [
+       "已经延长",
+       "已经提前",
+       "没有变化"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "两位负责人分别负责什么？",
+      "options": [
+       "设计和开发",
+       "销售和宣传",
+       "财务和人事"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "项目的截止日期已经延长。成员必须提交共同的报告。有两位负责人。",
+    "trans": {
+     "ko": "프로젝트 마감이 연장되었다. 팀원들은 보고서를 함께 제출해야 한다. 담당자는 두 명이다.",
+     "en": "The project deadline has been extended. Team members must submit a joint report. There are two people in charge."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "项目的截止日期已经延长。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "成员必须提交共同的报告。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "有两位负责人。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你觉得会下雨吗？——我想不会。",
+    "read": "Nǐ juéde huì xiàyǔ ma? — Wǒ xiǎng búhuì.",
+    "ko": "비가 올까요? — 그렇지 않을 거예요.",
+    "en": "Will it rain? — I don't think so.",
+    "situation": {
+     "ko": "대답에서 so/not을 쓸 때",
+     "en": "Using so/not in an answer"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我更喜欢蓝的，不喜欢红的。",
+    "read": "Wǒ gèng xǐhuan lán de, bù xǐhuan hóng de.",
+    "ko": "저는 빨간 것보다 파란 것이 더 좋아요.",
+    "en": "I prefer the blue one to the red one.",
+    "situation": {
+     "ko": "one/ones로 반복을 피할 때",
+     "en": "Avoiding repetition with one/ones"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "她想去，可我不想去。",
+    "read": "Tā xiǎng qù, kě wǒ bù xiǎng qù.",
+    "ko": "그녀는 가고 싶어 했지만 저는 그러고 싶지 않았어요.",
+    "en": "She wanted to go, but I didn't want to.",
+    "situation": {
+     "ko": "to로 동사구를 생략할 때",
+     "en": "Omitting a verb phrase after to"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "你可以这样做，但不是非做不可。",
+    "read": "Nǐ kěyǐ zhè yàng zuò, dàn bú shì fēi zuò bù kě.",
+    "ko": "그렇게 해도 되지만 굳이 그럴 필요는 없어요.",
+    "en": "You can do so, but you needn't.",
+    "situation": {
+     "ko": "do so로 반복을 피할 때",
+     "en": "Using do so"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "如上所述，日程已经改变。",
+    "read": "Rú shàng suǒ shù, rì chéng yǐjīng gǎibiàn.",
+    "ko": "앞서 언급한 대로 일정이 변경되었습니다.",
+    "en": "As mentioned above, the schedule has changed.",
+    "situation": {
+     "ko": "공식 글에서 앞 내용을 가리킬 때",
+     "en": "Referring back in formal text"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我喝了咖啡，他喝了茶。",
+    "read": "Wǒ hē le kāfēi, tā hē le chá.",
+    "ko": "저는 커피를, 그는 차를 마셨어요.",
+    "en": "I had coffee and he tea.",
+    "situation": {
+     "ko": "gapping으로 간결하게 쓸 때",
+     "en": "Gapping for concision"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "请尽早到达，如果可能的话。",
+    "read": "Qǐng jǐn zǎo dàodá, rúguǒ kěnéng de huà.",
+    "ko": "가능하면 일찍 오세요.",
+    "en": "Come early if possible.",
+    "situation": {
+     "ko": "문장 일부를 생략할 때",
+     "en": "Reducing a clause"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "换句话说，我们必须改变方向。",
+    "read": "Huàn jù huà shuō, wǒmen bìxū gǎibiàn fāng xiàng.",
+    "ko": "다시 말해, 우리는 방향을 바꿔야 합니다.",
+    "en": "In other words, we must change direction.",
+    "situation": {
+     "ko": "요약해서 정리할 때",
+     "en": "Rephrasing to summarise"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我想是这样。／我想不会。",
+    "read": "Wǒ xiǎng shì zhè yàng. ／ Wǒ xiǎng búhuì.",
+    "ko": "~라고 생각해요 (so).",
+    "en": "I think/hope/suppose so."
+   },
+   {
+    "id": "w2",
+    "t": "……的那个。",
+    "read": "… De nàge.",
+    "ko": "~하지 않을 것 같아요 (not).",
+    "en": "I hope/suppose/guess not."
+   },
+   {
+    "id": "w3",
+    "t": "他们分别是……。",
+    "read": "Tāmen fēn bié shì ….",
+    "ko": "그것 (one/ones).",
+    "en": "the red one / the blue ones"
+   },
+   {
+    "id": "w4",
+    "t": "如上所述，……。",
+    "read": "Rú shàng suǒ shù, ….",
+    "ko": "그렇게 하다 (do so).",
+    "en": "You may do so."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "대용 표현과 생략을 써서 반복을 줄인 글을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences that avoid repetition using substitution and ellipsis."
+   },
+   "must_include": [
+    {
+     "label": "较大",
+     "match": [
+      "大的"
+     ]
+    },
+    {
+     "label": "分别",
+     "match": [
+      "分别"
+     ]
+    },
+    {
+     "label": "不",
+     "match": [
+      "不会"
+     ]
+    }
+   ],
+   "model": "我选了两间办公室中大的那间。同事们说小的那间更安静，可我不这样想。想搬的人可以这样做。两间办公室分别在三楼和四楼。我想我不会搬。",
+   "model_trans": {
+    "ko": "저는 두 개의 사무실 중 더 큰 것을 선택했어요. 동료들은 작은 것이 더 조용하다고 했지만 저는 그렇게 생각하지 않았어요. 원하는 사람은 옮겨도 됩니다. 두 사무실은 각각 3층과 4층에 있어요. 저는 그러지 않을 것 같아요.",
+    "en": "I chose the larger of the two offices. My colleagues said the smaller one was quieter, but I didn't think so. Those who wish to move may do so. The two offices are on the third and fourth floors respectively. I don't think I will."
+   }
+  }
+ }
+}

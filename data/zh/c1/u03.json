@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u03",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 3,
+  "concept": "C1.U03",
+  "status": "live",
+  "title": {
+   "target": "强调与倒装",
+   "ko": "부정어 도치 심화",
+   "en": "Advanced inversion"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "很少",
+   "pos": "adv",
+   "read": "hěnshǎo",
+   "ko": "좀처럼 ~하지 않는",
+   "en": "seldom",
+   "ex": {
+    "t": "他很少抱怨。",
+    "read": "Tā hěnshǎo bào yuàn.",
+    "ko": "그는 좀처럼 불평하지 않아요.",
+    "en": "Seldom does he complain."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "刚……就……",
+   "pos": "adv",
+   "read": "gāng … jiù … ",
+   "ko": "~하자마자",
+   "en": "no sooner",
+   "ex": {
+    "t": "我们刚到，天就下雨了。",
+    "read": "Wǒmen gāng dào, tiān jiù xiàyǔ le.",
+    "ko": "도착하자마자 비가 내리기 시작했어요.",
+    "en": "No sooner had we arrived than it began to rain."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "决不",
+   "pos": "phrase",
+   "read": "jué bù",
+   "ko": "결코 ~않다",
+   "en": "under no circumstances",
+   "ex": {
+    "t": "任何情况下都决不能打开这扇门。",
+    "read": "Rènhé qíng kuàng xià dōu jué bùnéng dǎ kāi zhè shàn mén.",
+    "ko": "어떤 경우에도 문을 열어서는 안 돼요.",
+    "en": "Under no circumstances should the door be opened."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "惊人",
+   "pos": "adj",
+   "read": "jīng rén",
+   "ko": "놀라운",
+   "en": "remarkable",
+   "ex": {
+    "t": "他的恢复速度惊人。",
+    "read": "Tā de huī fù sù dù jīng rén.",
+    "ko": "그의 회복은 놀라웠어요.",
+    "en": "His recovery was remarkable."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "完成",
+   "pos": "verb",
+   "read": "wán chéng",
+   "ko": "성취하다",
+   "en": "accomplish",
+   "ex": {
+    "t": "她完成了看似不可能的事。",
+    "read": "Tā wán chéng le kàn shì bù kěnéng de shì.",
+    "ko": "그녀는 불가능해 보이던 일을 해냈어요.",
+    "en": "She accomplished what seemed impossible."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "不仅",
+   "pos": "phrase",
+   "read": "bù jǐn",
+   "ko": "~뿐만 아니라",
+   "en": "not only",
+   "ex": {
+    "t": "他不仅聪明，而且善良。",
+    "read": "Tā bù jǐn cōng míng, érqiě shàn liáng.",
+    "ko": "그는 똑똑할 뿐만 아니라 친절해요.",
+    "en": "Not only is he clever, but he is also kind."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "刚",
+   "pos": "adv",
+   "read": "gāng",
+   "ko": "거의 ~않다",
+   "en": "hardly",
+   "ex": {
+    "t": "我们刚开始，电就停了。",
+    "read": "Wǒmen gāng kāishǐ, diàn jiù tíng le.",
+    "ko": "거의 시작하자마자 정전이 되었어요.",
+    "en": "Hardly had we started when the power failed."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "直到",
+   "pos": "phrase",
+   "read": "zhí dào",
+   "ko": "그제서야",
+   "en": "only then",
+   "ex": {
+    "t": "直到那时，我才明白情况。",
+    "read": "Zhí dào nà shí, wǒ cái míngbai qíng kuàng.",
+    "ko": "그제서야 나는 상황을 이해했어요.",
+    "en": "Only then did I understand the situation."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "无一例外",
+   "pos": "phrase",
+   "read": "wú yí lì wài",
+   "ko": "예외 없이",
+   "en": "without exception",
+   "ex": {
+    "t": "所有学生都必须出席，无一例外。",
+    "read": "Suǒyǒu xuésheng dōu bìxū chū xí, wú yí lì wài.",
+    "ko": "예외 없이 모든 학생이 참석해야 해요.",
+    "en": "All students must attend without exception."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "强调",
+   "pos": "verb",
+   "read": "qiáng diào",
+   "ko": "강조하다",
+   "en": "emphasise",
+   "ex": {
+    "t": "她特别强调了这一点。",
+    "read": "Tā tè bié qiáng diào le zhè yìdiǎn.",
+    "ko": "그녀는 이 점을 강조했어요.",
+    "en": "She emphasised this point."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "从未／从来没有……过／一……就……／不仅……而且……／只有……才……／直到……才……",
+   "en": "Emphasis: 从未 / 一……就…… / 不仅……而且…… / 只有……才…… / 直到……才……"
+  },
+  "explain": {
+   "ko": "汉语用固定结构强调时间和条件。“从未／从来没有……过”强调从来没有的经历：我从未见过这么美的地方。“一……就……”表示前一动作刚发生，后一动作马上发生：我们一到，天就下雨了。“不仅……而且……”表示递进；“只有……才……”表示唯一条件；“直到……才……”表示很晚才发生。“绝不／决不”表示强烈否定。",
+   "en": "Chinese emphasises time and condition with set patterns. 从未／从来没有……过 stresses a never-experienced event. 一……就…… = as soon as. 不仅……而且…… adds; 只有……才…… = only if; 直到……才…… = not until. 绝不／决不 is strong negation."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "从未 / Never",
+     "从未／从来没有……过",
+     "我从未见过这么美的地方。"
+    ],
+    [
+     "一……就 / As soon as",
+     "一……就……",
+     "我们一到，天就下雨了。"
+    ],
+    [
+     "递进 / Not only",
+     "不仅……而且……",
+     "他不仅聪明，而且善良。"
+    ],
+    [
+     "条件 / Only if",
+     "只有……才……",
+     "只有努力，才能成功。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“从未”比“没有”更书面。",
+    "en": "从未 is more formal than 没有."
+   },
+   {
+    "ko": "“直到……才……”强调动作发生得晚。",
+    "en": "直到……才…… stresses lateness."
+   },
+   {
+    "ko": "“绝不”用于强烈的禁止。",
+    "en": "绝不 expresses a strong prohibition."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我从未见过这么美的地方。",
+    "read": "Wǒ cóng wèi jiàn guo zhè me měi de dìfang.",
+    "ko": "그렇게 아름다운 곳은 본 적이 없어요.",
+    "en": "Never have I seen such a beautiful place."
+   },
+   {
+    "t": "我们一到，天就下雨了。",
+    "read": "Wǒmen yí dào, tiān jiù xiàyǔ le.",
+    "ko": "도착하자마자 비가 내리기 시작했어요.",
+    "en": "No sooner had we arrived than it began to rain."
+   },
+   {
+    "t": "他不仅聪明，而且善良。",
+    "read": "Tā bù jǐn cōng míng, érqiě shàn liáng.",
+    "ko": "그는 똑똑할 뿐만 아니라 친절하기도 해요.",
+    "en": "Not only is he clever, but he is also kind."
+   },
+   {
+    "t": "任何情况下都绝不能打开这扇门。",
+    "read": "Rènhé qíng kuàng xià dōu jué bùnéng dǎ kāi zhè shàn mén.",
+    "ko": "어떤 경우에도 이 문을 열면 안 됩니다.",
+    "en": "Under no circumstances should this door be opened."
+   },
+   {
+    "t": "直到截止日期过了，他才发现自己的错误。",
+    "read": "Zhí dào jié zhǐ rìqī guo le, tā cái fāxiàn zìjǐ de cuòwù.",
+    "ko": "마감일이 지나서야 그는 실수를 깨달았어요.",
+    "en": "Only after the deadline had passed did he realise his mistake."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我___见过这么美的地方。",
+    "options": [
+     "从未",
+     "刚才",
+     "马上"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我们一到，天___下雨了。",
+    "options": [
+     "就",
+     "才",
+     "却"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "他___聪明，而且善良。",
+    "options": [
+     "不仅",
+     "虽然",
+     "如果"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___努力，才能成功。",
+    "options": [
+     "只有",
+     "即使",
+     "虽然"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你以前见过这么美的地方吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그렇게 아름다운 곳을 본 적이 있나요?",
+     "en": "(Question) Have you ever seen such a beautiful place?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我从未见过这样的地方。",
+       "我昨天去了。",
+       "我不知道路。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你们一到就发生了什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 도착하자마자 무슨 일이 있었나요?",
+     "en": "(Question) What happened as soon as you arrived?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我们一到，天就下雨了。",
+       "我喜欢吃面。",
+       "我明天去。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨天的音乐会怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "太棒了，我从未听过这么精彩的演出。"
+      },
+      {
+       "s": "A",
+       "t": "你们一到就开始了吗？"
+      },
+      {
+       "s": "B",
+       "t": "不是，我们刚坐下，灯就灭了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 콘서트 어땠어?\nB: 정말 최고였어. 그렇게 훌륭한 공연은 처음 봤어.\nA: 도착하자마자 시작했어?\nB: 아니, 우리가 자리에 앉자마자 불이 꺼졌어.",
+     "en": "A: How was the concert yesterday?\nB: Fantastic. Never have I seen such a brilliant performance.\nA: Did it start as soon as you arrived?\nB: No, no sooner had we sat down than the lights went out."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他们刚坐下发生了什么？",
+      "options": [
+       "灯灭了",
+       "演出结束了",
+       "下雨了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我们团队在这个项目中取得了惊人的成绩。我们不仅按时完成，而且节约了费用。这样的成绩很少见。感谢团队的每一位成员。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 팀은 이번 프로젝트에서 놀라운 성과를 냈습니다. 일정을 맞췄을 뿐만 아니라 예산도 절약했습니다. 좀처럼 이런 결과를 보기 어렵습니다. 팀원 모두에게 감사드립니다.",
+     "en": "Our team achieved remarkable results in this project. Not only did we meet the schedule, but we also saved money. Rarely do we see such results. Thank you to everyone on the team."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "团队取得了什么成绩？",
+      "options": [
+       "按时完成并节约了费用",
+       "延期完成",
+       "超出了预算"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这是博物馆的规定。"
+      },
+      {
+       "s": "B",
+       "t": "可以拍照吗？"
+      },
+      {
+       "s": "A",
+       "t": "展厅里任何情况下都绝不能用闪光灯。"
+      },
+      {
+       "s": "B",
+       "t": "明白了。用手机可以吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안내원: 박물관 규칙입니다.\n손님: 사진을 찍어도 되나요?\n안내원: 전시실에서는 어떤 경우에도 플래시를 사용하시면 안 됩니다.\n손님: 알겠습니다. 휴대전화는 괜찮나요?",
+     "en": "Guide: These are the museum rules.\nVisitor: May I take photos?\nGuide: Under no circumstances may you use a flash in the galleries.\nVisitor: Understood. Is a phone fine?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "展厅里绝不能用______",
+      "answers": [
+       "闪光灯"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "游客问用______可以吗",
+      "answers": [
+       "手机"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我___见过这么美的地方。\n2) 我们一到，天___下雨了。\n3) 他___聪明，而且善良。",
+    "trans": {
+     "ko": "1) 그렇게 아름다운 곳은 본 적이 없어요. 2) 도착하자마자 비가 내리기 시작했어요. 3) 그는 똑똑할 뿐만 아니라 친절해요.",
+     "en": "1) Never have I seen such a beautiful place. 2) No sooner had we arrived than it began to rain. 3) Not only is he clever, but he is also kind."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我___见过这么美的地方。",
+      "options": [
+       "从未",
+       "刚才",
+       "马上"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我们一到，天___下雨了。",
+      "options": [
+       "就",
+       "才",
+       "却"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他___聪明，而且善良。",
+      "options": [
+       "不仅",
+       "虽然",
+       "如果"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这座城市很少下雪。今年冬天，突然下了一场大雪。雪一(1)，交通就瘫痪了，直到那时，居民们才(2)情况的严重。结果，很多人(3)上班。",
+    "trans": {
+     "ko": "그 도시는 좀처럼 눈이 오지 않는 곳입니다. 올겨울에는 어떤 경우에도 예상하지 못한 폭설이 내렸습니다. 눈이 쌓이자마자 교통이 마비되었고, 그제서야 시민들은 사태의 심각성을 깨달았습니다.",
+     "en": "The city is a place where snow seldom falls. This winter, an unexpected heavy snowfall hit. No sooner had the snow settled than traffic was paralysed, and only then did residents grasp how serious the situation was."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "停",
+       "走",
+       "来"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "意识到",
+       "忘记",
+       "否认"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "无法",
+       "愿意",
+       "喜欢"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "博客\n我的第一次马拉松\n我一冲过终点线，就哭了起来。我从未跑过这么辛苦的比赛。不仅身体疼痛，而且意志也动摇过。但是我很自豪，因为我坚持跑到了最后。",
+    "trans": {
+     "ko": "블로그\n나의 첫 마라톤\n나는 결승선을 통과하자마자 눈물이 났다. 그렇게 힘든 경주는 처음이었다. 몸이 아팠을 뿐만 아니라 마음도 흔들렸다. 그러나 끝까지 달려낸 것이 자랑스럽다.",
+     "en": "BLOG\nMy first marathon\nNo sooner had I crossed the finish line than I burst into tears. Never had I run such a hard race. Not only did my body ache, but my mind wavered. But I am proud that I ran to the end."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "作者冲过终点线后怎么样了？",
+      "options": [
+       "哭了起来",
+       "笑了起来",
+       "睡着了"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "作者为什么自豪？",
+      "options": [
+       "坚持跑到了最后",
+       "跑得最快",
+       "得了第一名"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "志浩跑了他的第一次马拉松。他在终点线前放弃了。这篇文章发表在个人博客上。",
+    "trans": {
+     "ko": "에밀리는 처음으로 마라톤을 뛰었다. 그녀는 결승선 앞에서 포기했다. 이 글은 개인 블로그에 올라와 있다.",
+     "en": "Emily ran her first marathon. She gave up just before the finish line. This text is posted on a personal blog."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "志浩跑了他的第一次马拉松。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "志浩在终点线前放弃了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "这篇文章发表在个人博客上。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我从未参加过这么难的考试。",
+    "read": "Wǒ cóng wèi cānjiā guo zhè me nán de kǎoshì.",
+    "ko": "저는 그렇게 어려운 시험을 본 적이 없어요.",
+    "en": "Never have I taken such a difficult exam.",
+    "situation": {
+     "ko": "경험을 강조할 때",
+     "en": "Emphasising an experience"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我们刚走，就下雪了。",
+    "read": "Wǒmen gāng zǒu, jiù xiàxuě le.",
+    "ko": "우리가 나가자마자 눈이 오기 시작했어요.",
+    "en": "No sooner had we left than it started to snow.",
+    "situation": {
+     "ko": "연속된 두 사건을 말할 때",
+     "en": "Two events in quick succession"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "他不仅没有道歉，而且否认了责任。",
+    "read": "Tā bù jǐn méiyǒu dào qiàn, érqiě fǒu rèn le zé rèn.",
+    "ko": "그는 사과하지 않았을 뿐만 아니라 책임도 부인했어요.",
+    "en": "Not only did he not apologise, but he also denied responsibility.",
+    "situation": {
+     "ko": "의외의 사실을 덧붙일 때",
+     "en": "Adding a surprising fact"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "这样的事很少发生。",
+    "read": "Zhè yàng de shì hěnshǎo fāshēng.",
+    "ko": "그런 일은 좀처럼 일어나지 않아요.",
+    "en": "Rarely does such a thing happen.",
+    "situation": {
+     "ko": "드문 일을 말할 때",
+     "en": "Describing something rare"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "任何情况下，都绝不能告诉别人你的密码。",
+    "read": "Rènhé qíng kuàng xià, dōu jué bùnéng gàosu bié rén nǐ de mìmǎ.",
+    "ko": "어떤 이유로도 비밀번호를 알려 주면 안 돼요.",
+    "en": "On no account must you give out your password.",
+    "situation": {
+     "ko": "금지를 강하게 말할 때",
+     "en": "A strong prohibition"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "直到那时，我才知道自己错得多厉害。",
+    "read": "Zhí dào nà shí, wǒ cái zhīdào zìjǐ cuò de duō lì hài.",
+    "ko": "그제서야 나는 내가 얼마나 틀렸는지 깨달았어요.",
+    "en": "Only then did I realise how wrong I had been.",
+    "situation": {
+     "ko": "깨달음을 말할 때",
+     "en": "Describing a realisation"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我很少听到这么鼓舞人心的演讲。",
+    "read": "Wǒ hěnshǎo tīng dào zhè me gǔ wǔ rén xīn de yǎn jiǎng.",
+    "ko": "그렇게 훌륭한 연설은 처음 들었어요.",
+    "en": "Seldom have I heard such an inspiring speech.",
+    "situation": {
+     "ko": "감탄을 표현할 때",
+     "en": "Expressing admiration"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "这一点怎么强调都不过分。",
+    "read": "Zhè yìdiǎn zěnme qiáng diào dōu bùguò fēn.",
+    "ko": "이 점은 아무리 강조해도 지나치지 않아요.",
+    "en": "This point cannot be emphasised enough.",
+    "situation": {
+     "ko": "결론에서 강조할 때",
+     "en": "Emphasising a conclusion"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我从未……过。",
+    "read": "Wǒ cóng wèi … guo.",
+    "ko": "~한 적이 없다 (Never have I ~).",
+    "en": "Never have I ~."
+   },
+   {
+    "id": "w2",
+    "t": "一……就……。",
+    "read": "Yī … jiù ….",
+    "ko": "~하자마자 ~했다.",
+    "en": "No sooner had ~ than ..."
+   },
+   {
+    "id": "w3",
+    "t": "不仅……而且……。",
+    "read": "Bù jǐn … érqiě ….",
+    "ko": "~뿐만 아니라 ~도.",
+    "en": "Not only did/is ~, but ... also ..."
+   },
+   {
+    "id": "w4",
+    "t": "直到……才……。",
+    "read": "Zhí dào … cái ….",
+    "ko": "~해서야 비로소 ~했다.",
+    "en": "Only when/after ~ did ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "부정어 도치를 사용해 인상 깊었던 경험이나 놀라운 사건을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about a striking experience or surprising event using negative inversion."
+   },
+   "must_include": [
+    {
+     "label": "从未",
+     "match": [
+      "从未"
+     ]
+    },
+    {
+     "label": "一",
+     "match": [
+      "一到"
+     ]
+    },
+    {
+     "label": "不仅",
+     "match": [
+      "不仅"
+     ]
+    }
+   ],
+   "model": "我从未见过这么美的日出。我们一到山顶，云就散开了。不仅景色迷人，而且空气格外清新。直到那时，我才觉得艰苦的攀登是值得的。",
+   "model_trans": {
+    "ko": "그렇게 아름다운 일출은 본 적이 없었어요. 정상에 도착하자마자 구름이 걷히기 시작했어요. 풍경이 아름다웠을 뿐만 아니라 공기도 아주 맑았어요. 그제서야 오르기 힘들었던 시간이 보상받는 느낌이었어요.",
+    "en": "Never had I seen such a beautiful sunrise. No sooner had we reached the summit than the clouds began to clear. Not only was the view stunning, but the air was also remarkably clear. Only then did the hard climb feel rewarded."
+   }
+  }
+ }
+}

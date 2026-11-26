@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u06",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 6,
+  "concept": "C1.U06",
+  "status": "live",
+  "title": {
+   "target": "非人称表达与客观文体",
+   "ko": "비인칭 수동과 객관적 서술",
+   "en": "Impersonal passives and objective style"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "众所周知",
+   "pos": "adj",
+   "read": "zhòng suǒ zhōu zhī",
+   "ko": "널리 알려진",
+   "en": "widely known",
+   "ex": {
+    "t": "这个理论众所周知。",
+    "read": "Zhège lǐ lùn zhòng suǒ zhōu zhī.",
+    "ko": "그 이론은 널리 알려져 있어요.",
+    "en": "The theory is widely known."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "据估计",
+   "pos": "verb",
+   "read": "jù gū jì",
+   "ko": "추정하다",
+   "en": "estimate",
+   "ex": {
+    "t": "据估计，损失达数亿韩元。",
+    "read": "Jù gū jì, sǔn shī dá shù yì hán yuán.",
+    "ko": "피해액은 수억 원으로 추정돼요.",
+    "en": "Damage is estimated at hundreds of millions of won."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "据报道",
+   "pos": "verb",
+   "read": "jù bào dào",
+   "ko": "보고되다",
+   "en": "be reported",
+   "ex": {
+    "t": "据报道，没有人员伤亡。",
+    "read": "Jù bào dào, méiyǒu rén yuán shāng wáng.",
+    "ko": "사상자는 없는 것으로 보고되었어요.",
+    "en": "No casualties were reported."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "据传",
+   "pos": "verb",
+   "read": "jù chuán",
+   "ko": "알려지다",
+   "en": "be reputed",
+   "ex": {
+    "t": "据传这家餐厅非常好。",
+    "read": "Jù chuán zhè jiā cāntīng fēicháng hǎo.",
+    "ko": "그 식당은 맛이 좋기로 알려져 있어요.",
+    "en": "The restaurant is reputed to be excellent."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "普遍认为",
+   "pos": "verb",
+   "read": "pǔ biàn rènwéi",
+   "ko": "가정하다",
+   "en": "assume",
+   "ex": {
+    "t": "大家都以为他是负责人。",
+    "read": "Dàjiā dōu yǐ wèi tā shì fù zé rén.",
+    "ko": "모두가 그가 책임자라고 가정했어요.",
+    "en": "Everyone assumed he was in charge."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "传闻",
+   "pos": "verb",
+   "read": "chuán wén",
+   "ko": "전해지다",
+   "en": "be rumoured",
+   "ex": {
+    "t": "传闻他要辞职。",
+    "read": "Chuán wén tā yào cízhí.",
+    "ko": "그가 사임할 것이라는 소문이 있어요.",
+    "en": "He is rumoured to be resigning."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "未经证实",
+   "pos": "adj",
+   "read": "wèi jīng zhèng shí",
+   "ko": "확인되지 않은",
+   "en": "unconfirmed",
+   "ex": {
+    "t": "未经证实的消息正在传播。",
+    "read": "Wèi jīng zhèng shí de xiāo xī zhèngzài chuán bō.",
+    "ko": "확인되지 않은 정보가 퍼지고 있어요.",
+    "en": "Unconfirmed information is spreading."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "声称",
+   "pos": "noun",
+   "read": "shēng chēng",
+   "ko": "주장",
+   "en": "claim",
+   "ex": {
+    "t": "他的说法缺乏证据。",
+    "read": "Tā de shuō fǎ quē fá zhèngjù.",
+    "ko": "그의 주장은 증거가 부족해요.",
+    "en": "His claim lacks evidence."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "据称",
+   "pos": "verb",
+   "read": "jù chēng",
+   "ko": "발견되다",
+   "en": "be found",
+   "ex": {
+    "t": "据称已经发现了新证据。",
+    "read": "Jù chēng yǐjīng fāxiàn le xīn zhèngjù.",
+    "ko": "새로운 증거가 발견된 것으로 알려졌어요.",
+    "en": "New evidence is said to have been found."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "客观",
+   "pos": "adj",
+   "read": "kè guān",
+   "ko": "객관적인",
+   "en": "objective",
+   "ex": {
+    "t": "文章应该客观地写。",
+    "read": "Wén zhāng yīnggāi kè guān dì xiě.",
+    "ko": "기사는 객관적으로 써야 해요.",
+    "en": "Articles should be written objectively."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "据说／据称／据报道／被认为／据估计／据推测",
+   "en": "Impersonal style: 据说 / 据称 / 据报道 / 被认为 / 据估计 / 据推测"
+  },
+  "explain": {
+   "ko": "新闻和学术文章常用“据说／据报道／据估计／据推测”引出不是亲眼所见的信息：据说他快要辞职了。“被认为／被推测为”表示一般看法：这场火灾被认为是电线短路引起的。“……是……的”也可以表示客观评价：该公司据信已濒临破产。没有确认的信息要加“据称”“未经证实”，以示谨慎。",
+   "en": "News and academic writing use 据说／据报道／据估计／据推测 to introduce second-hand information: 据说他快要辞职了. 被认为／被推测为 states a general view: 这场火灾被认为是电线短路引起的. Unconfirmed information takes 据称／未经证实 for caution."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "据说 / It is said",
+     "据说＋句子",
+     "据说他快要辞职了。"
+    ],
+    [
+     "据报道 / Reported",
+     "据报道＋句子",
+     "据报道，没有人员伤亡。"
+    ],
+    [
+     "据估计 / Estimated",
+     "据估计＋数字",
+     "据估计，约有两百件幸存。"
+    ],
+    [
+     "被认为 / Is thought",
+     "被认为＋是／已经……",
+     "火灾被认为是短路引起的。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“据”后面常接信息来源，如“据报道”“据专家说”。",
+    "en": "据 is followed by the source, e.g. 据报道, 据专家说."
+   },
+   {
+    "ko": "“据说”比“据报道”更口语、更不确定。",
+    "en": "据说 is more colloquial and less certain than 据报道."
+   },
+   {
+    "ko": "没有证实的消息，应保留判断。",
+    "en": "Reserve judgement on unconfirmed information."
+   }
+  ],
+  "examples": [
+   {
+    "t": "据说他快要辞职了。",
+    "read": "Jù shuō tā kuài yào cízhí le.",
+    "ko": "그가 사임할 것이라고들 해요.",
+    "en": "It is said that he will resign."
+   },
+   {
+    "t": "这家公司据说已经濒临破产。",
+    "read": "Zhè jiā gōngsī jù shuō yǐjīng bīn lín pò chǎn.",
+    "ko": "그 회사는 파산 위기에 처한 것으로 여겨져요.",
+    "en": "The company is believed to be on the brink of bankruptcy."
+   },
+   {
+    "t": "这位画家被认为出生在巴黎。",
+    "read": "Zhè wèi huà jiā bèi rènwéi chūshēng zài Bālí.",
+    "ko": "그 화가는 파리에서 태어난 것으로 알려져 있어요.",
+    "en": "The painter is thought to have been born in Paris."
+   },
+   {
+    "t": "据报道，没有人员伤亡。",
+    "read": "Jù bào dào, méiyǒu rén yuán shāng wáng.",
+    "ko": "피해자가 없는 것으로 보고되었어요.",
+    "en": "No victims have been reported."
+   },
+   {
+    "t": "据估计，数十人受伤。",
+    "read": "Jù gū jì, shù shí rén shòu shāng.",
+    "ko": "수십 명이 다친 것으로 추정돼요.",
+    "en": "Dozens of people are estimated to have been injured."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___他快要辞职了。",
+    "options": [
+     "据说",
+     "刚才",
+     "已经"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___，没有人员伤亡。",
+    "options": [
+     "据报道",
+     "据此外",
+     "据我们"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "这场火灾___是电线短路引起的。",
+    "options": [
+     "被认为",
+     "被拒绝",
+     "被忘记"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___，约有两百件作品幸存。",
+    "options": [
+     "据估计",
+     "据我吃",
+     "据说话"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "据说这家公司正面临什么情况？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 회사가 어떤 상황에 있다고 알려져 있나요?",
+     "en": "(Question) What is the company said to be going through?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "据说面临财务困难。",
+       "我昨天去了。",
+       "我不知道路。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "据认为这场火灾的原因是什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 화재의 원인은 무엇으로 알려져 있나요?",
+     "en": "(Question) What is the cause of the fire believed to be?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "被认为是电线短路。",
+       "是有人故意的。",
+       "还不清楚有没有火。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你看新闻了吗？据说总经理要辞职了。"
+      },
+      {
+       "s": "B",
+       "t": "还没证实吧？这种传闻我不太相信。"
+      },
+      {
+       "s": "A",
+       "t": "报纸报道说他正在谈判。"
+      },
+      {
+       "s": "B",
+       "t": "还是等官方公布吧。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 뉴스 봤어? 사장님이 사임한다고 하더라.\nB: 확인된 건 아니지? 그런 소문은 믿기 어려워.\nA: 신문에는 협상 중인 것으로 보도됐어.\nB: 그래도 공식 발표를 기다려 보자.",
+     "en": "A: Did you see the news? The CEO is said to be resigning.\nB: It's not confirmed, is it? I find such rumours hard to believe.\nA: The paper reports that he is in negotiations.\nB: Still, let's wait for an official announcement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的想怎么做？",
+      "options": [
+       "等官方公布",
+       "马上辞职",
+       "去问总经理"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今天的新闻。据报道，凌晨港口附近的一个仓库发生了火灾。火灾被认为是电线短路引起的，目前没有人员伤亡的报道。具体原因正在调查中。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "오늘 뉴스입니다. 오늘 새벽 항구 근처 창고에서 불이 난 것으로 알려졌습니다. 화재는 전기 합선으로 시작된 것으로 추정되며, 다친 사람은 없는 것으로 보고되었습니다. 정확한 원인은 조사 중입니다.",
+     "en": "Today's news. A fire is reported to have broken out at a warehouse near the port in the early hours. The fire is thought to have been caused by an electrical short, and no injuries are reported. The exact cause is under investigation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "火灾被认为是什么引起的？",
+      "options": [
+       "电线短路",
+       "天气炎热",
+       "人为纵火"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "关于这位画家，我们知道什么？"
+      },
+      {
+       "s": "B",
+       "t": "他被认为出生在巴黎，但不能确定。"
+      },
+      {
+       "s": "A",
+       "t": "有多少作品留存下来？"
+      },
+      {
+       "s": "B",
+       "t": "据估计约有两百件幸存。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 그 화가에 대해 어떤 점이 알려져 있나요?\n전문가: 그는 파리에서 태어난 것으로 알려져 있지만, 확실하지 않습니다.\n기자: 작품은 몇 점이나 남아 있나요?\n전문가: 약 이백 점으로 추정됩니다.",
+     "en": "Reporter: What is known about the painter?\nExpert: He is thought to have been born in Paris, but it's not certain.\nReporter: How many works survive?\nExpert: About two hundred are estimated to survive."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "画家被认为出生在______",
+      "answers": [
+       "巴黎"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "据估计约有两百件______",
+      "answers": [
+       "幸存"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___他快要辞职了。\n2) 这家公司___已经濒临破产。\n3) 这位画家___出生在巴黎。",
+    "trans": {
+     "ko": "1) 그가 사임할 것이라고들 해요. 2) 그 회사는 파산 위기에 처한 것으로 여겨져요. 3) 그 화가는 파리에서 태어난 것으로 알려져 있어요.",
+     "en": "1) It is said that he will resign. 2) The company is believed to be on the brink of bankruptcy. 3) The painter is thought to have been born in Paris."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___他快要辞职了。",
+      "options": [
+       "据说",
+       "刚才",
+       "已经"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这家公司___已经濒临破产。",
+      "options": [
+       "据说",
+       "据吃",
+       "据看"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这位画家___出生在巴黎。",
+      "options": [
+       "被认为",
+       "被拒绝",
+       "被忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "据说这个湖深达两百米。人们认为湖里有(1)的鱼，据估计它们的数量正在(2)。不过，能证明这一点的可靠(3)仍然不足。",
+    "trans": {
+     "ko": "그 호수는 깊이가 이백 미터에 이르는 것으로 알려져 있습니다. 호수에는 희귀한 물고기가 서식하는 것으로 여겨지며, 그 수는 줄어들고 있는 것으로 추정됩니다. 그러나 이를 뒷받침할 확실한 자료는 아직 부족합니다.",
+     "en": "The lake is known to be as deep as two hundred metres. Rare fish are believed to live there, and their number is estimated to be declining. However, solid data to support this is still lacking."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "稀有",
+       "常见",
+       "便宜"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "减少",
+       "增加",
+       "不变"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "数据",
+       "故事",
+       "照片"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "报道\n失踪的渔船\n上周在东海失踪的一艘渔船，被认为在暴风雨中沉没。据报道，船上有六名船员。海警仍在继续搜救，但目前没有任何确认的消息。",
+    "trans": {
+     "ko": "기사\n실종된 배\n지난주 동해에서 실종된 어선은 폭풍 속에서 침몰한 것으로 추정된다. 선원 여섯 명이 탑승했던 것으로 알려졌다. 해경은 수색을 이어 가고 있으나 확인된 사실은 없다.",
+     "en": "ARTICLE\nMissing boat\nA fishing boat missing in the East Sea last week is thought to have sunk in a storm. Six crew members are reported to have been aboard. The coast guard continues its search, but nothing has been confirmed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "渔船被认为怎么了？",
+      "options": [
+       "在暴风雨中沉没",
+       "顺利返航",
+       "被扣留"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "船上有多少名船员？",
+      "options": [
+       "六名",
+       "十名",
+       "三名"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "这艘船被认为在暴风雨中沉没。船上有十名船员。海警正在继续搜救。",
+    "trans": {
+     "ko": "어선은 폭풍 속에서 침몰한 것으로 추정된다. 선원은 열 명이었다. 해경은 수색을 계속하고 있다.",
+     "en": "The boat is thought to have sunk in a storm. There were ten crew members. The coast guard is continuing the search."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "这艘船被认为在暴风雨中沉没。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "船上有十名船员。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "海警正在继续搜救。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "据说他很快就会辞职。",
+    "read": "Jù shuō tā hěn kuài jiù huì cízhí.",
+    "ko": "그가 곧 사임할 것이라고들 해요.",
+    "en": "It is said that he will resign soon.",
+    "situation": {
+     "ko": "소문을 전할 때",
+     "en": "Reporting a rumour"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "火灾被认为是电线故障引起的。",
+    "read": "Huǒ zāi bèi rènwéi shì diàn xiàn gù zhàng yǐn qǐ de.",
+    "ko": "그 화재는 전기 문제 때문에 시작된 것으로 알려져 있어요.",
+    "en": "The fire is believed to have been caused by an electrical fault.",
+    "situation": {
+     "ko": "원인을 객관적으로 밝힐 때",
+     "en": "Stating a cause objectively"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "据报道，这家公司今年亏损严重。",
+    "read": "Jù bào dào, zhè jiā gōngsī jīn nián kuī sǔn yán zhòng.",
+    "ko": "그 기업은 올해 큰 손실을 본 것으로 보도되었어요.",
+    "en": "The firm is reported to have made a large loss this year.",
+    "situation": {
+     "ko": "뉴스 문체",
+     "en": "News style"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "据估计，损失将达数亿韩元。",
+    "read": "Jù gū jì, sǔn shī jiāng dá shù yì hán yuán.",
+    "ko": "피해액은 수억 원에 이를 것으로 추정돼요.",
+    "en": "Damage is estimated to reach hundreds of millions of won.",
+    "situation": {
+     "ko": "수치를 추정할 때",
+     "en": "Estimating figures"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "他被认为已经离开了这个国家。",
+    "read": "Tā bèi rènwéi yǐjīng líkāi le zhège guójiā.",
+    "ko": "그는 이미 나라를 떠난 것으로 생각돼요.",
+    "en": "He is thought to have already left the country.",
+    "situation": {
+     "ko": "과거 사실을 추측할 때",
+     "en": "Speculating about the past"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "这个问题据说已经被广泛讨论。",
+    "read": "Zhège wèntí jù shuō yǐjīng bèi guǎng fàn tǎo lùn.",
+    "ko": "이 문제는 널리 논의되어 온 것으로 알려져 있어요.",
+    "en": "The issue is known to have been widely discussed.",
+    "situation": {
+     "ko": "배경을 설명할 때",
+     "en": "Giving background"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "由于消息未经证实，需要谨慎。",
+    "read": "Yóu yú xiāo xī wèi jīng zhèng shí, xūyào jǐn shèn.",
+    "ko": "확인되지 않은 정보이므로 신중해야 해요.",
+    "en": "As the information is unconfirmed, caution is advised.",
+    "situation": {
+     "ko": "주의를 줄 때",
+     "en": "Advising caution"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "在核实所有事实之前，我保留判断。",
+    "read": "Zài hé shí suǒyǒu shì shí zhī qián, wǒ bǎo liú pàn duàn.",
+    "ko": "모든 사실이 검증되기 전까지는 판단을 보류하겠습니다.",
+    "en": "I will reserve judgement until all the facts are verified.",
+    "situation": {
+     "ko": "입장을 정리할 때",
+     "en": "Taking a measured position"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "据说……。",
+    "read": "Jù shuō ….",
+    "ko": "~라고 한다.",
+    "en": "It is said/believed/thought that ..."
+   },
+   {
+    "id": "w2",
+    "t": "……被认为是……。",
+    "read": "… Bèi rènwéi shì ….",
+    "ko": "~인 것으로 알려져 있다.",
+    "en": "He/She/It is said/known to ..."
+   },
+   {
+    "id": "w3",
+    "t": "据报道，……。",
+    "read": "Jù bào dào, ….",
+    "ko": "~했던 것으로 여겨진다.",
+    "en": "He is thought to have + p.p."
+   },
+   {
+    "id": "w4",
+    "t": "据估计，……。",
+    "read": "Jù gū jì, ….",
+    "ko": "~인 것으로 추정된다.",
+    "en": "It is estimated that ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "뉴스 기사 문체로 인물이나 사건에 대해 비인칭 수동태를 써서 4문장을 써 보세요.",
+    "en": "Write 4 sentences in news style about a person or event using impersonal passives."
+   },
+   "must_include": [
+    {
+     "label": "据",
+     "match": [
+      "据"
+     ]
+    },
+    {
+     "label": "被认为",
+     "match": [
+      "被认为"
+     ]
+    },
+    {
+     "label": "尚未",
+     "match": [
+      "尚未"
+     ]
+    }
+   ],
+   "model": "据说这座古城建于三千年前。据估计它的人口约有一万。它被认为是因为气候变化而突然被废弃的。不过，确切的原因尚未确认。",
+   "model_trans": {
+    "ko": "그 고대 도시는 3000년 전에 세워진 것으로 알려져 있습니다. 주민의 수는 약 만 명으로 추정됩니다. 도시가 갑자기 버려진 이유에 대해서는 기후 변화 때문이라고 여겨지고 있습니다. 그러나 정확한 원인은 확인되지 않았습니다.",
+    "en": "The ancient city is believed to have been built 3,000 years ago. Its population is estimated at around ten thousand. It is thought that it was abandoned suddenly because of climate change. However, the exact cause has not been confirmed."
+   }
+  }
+ }
+}

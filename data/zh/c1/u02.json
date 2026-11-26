@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u02",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 2,
+  "concept": "C1.U02",
+  "status": "live",
+  "title": {
+   "target": "正式的建议与要求",
+   "ko": "가정법 현재와 격식 구문",
+   "en": "The subjunctive and formal structures"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "要求",
+   "pos": "verb",
+   "read": "yào qiú",
+   "ko": "요구하다",
+   "en": "demand",
+   "ex": {
+    "t": "他们要求立即采取行动。",
+    "read": "Tāmen yào qiú lì jí cǎi qǔ xíng dòng.",
+    "ko": "그들은 즉각적인 조치를 요구했어요.",
+    "en": "They demanded immediate action."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "建议",
+   "pos": "verb",
+   "read": "jiànyì",
+   "ko": "권고하다",
+   "en": "recommend",
+   "ex": {
+    "t": "医生建议他多休息。",
+    "read": "Yīshēng jiànyì tā duō xiūxi.",
+    "ko": "의사는 그가 쉬도록 권고했어요.",
+    "en": "The doctor recommended that he rest."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "务必",
+   "pos": "adj",
+   "read": "wù bì",
+   "ko": "필수적인",
+   "en": "essential",
+   "ex": {
+    "t": "请务必准时到达。",
+    "read": "Qǐng wù bì zhǔn shí dàodá.",
+    "ko": "시간을 지키는 것은 필수적이에요.",
+    "en": "It is essential to be punctual."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "申请",
+   "pos": "noun",
+   "read": "shēn qǐng",
+   "ko": "요청",
+   "en": "request",
+   "ex": {
+    "t": "这份申请被正式驳回了。",
+    "read": "Zhè fèn shēn qǐng bèi zhèng shì bó huí le.",
+    "ko": "그 요청은 공식적으로 거절되었어요.",
+    "en": "The request was formally turned down."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "坚持",
+   "pos": "verb",
+   "read": "jiān chí",
+   "ko": "주장하다",
+   "en": "insist",
+   "ex": {
+    "t": "她坚持亲自去一趟。",
+    "read": "Tā jiān chí qīn zì qù yí tàng.",
+    "ko": "그녀는 직접 가겠다고 주장했어요.",
+    "en": "She insisted on going in person."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "义务",
+   "pos": "noun",
+   "read": "yìwù",
+   "ko": "의무",
+   "en": "obligation",
+   "ex": {
+    "t": "我们必须履行法定义务。",
+    "read": "Wǒmen bìxū lǚ xíng fǎ dìng yìwù.",
+    "ko": "법적 의무를 다해야 합니다.",
+    "en": "We must fulfil our legal obligations."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "提议",
+   "pos": "verb",
+   "read": "tí yì",
+   "ko": "제안하다",
+   "en": "propose",
+   "ex": {
+    "t": "委员会提议修改这条规定。",
+    "read": "Wěi yuán huì tí yì xiū gǎi zhè tiáo guīdìng.",
+    "ko": "위원회는 규정을 바꾸자고 제안했어요.",
+    "en": "The committee proposed that the rule be changed."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "紧迫",
+   "pos": "adj",
+   "read": "jǐn pò",
+   "ko": "긴급한",
+   "en": "imperative",
+   "ex": {
+    "t": "现在情况非常紧迫，必须马上行动。",
+    "read": "Xiànzài qíng kuàng fēicháng jǐn pò, bìxū mǎshàng xíng dòng.",
+    "ko": "지금 행동하는 것이 절대적으로 중요해요.",
+    "en": "It is imperative that we act now."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "规定",
+   "pos": "noun",
+   "read": "guīdìng",
+   "ko": "규정",
+   "en": "regulation",
+   "ex": {
+    "t": "新规定下个月开始实施。",
+    "read": "Xīn guīdìng xià ge yuè kāishǐ shí shī.",
+    "ko": "새 규정이 다음 달에 시행돼요.",
+    "en": "The new regulation takes effect next month."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "遵守",
+   "pos": "verb",
+   "read": "zūnshǒu",
+   "ko": "이행하다",
+   "en": "comply",
+   "ex": {
+    "t": "所有公司都必须遵守这项规定。",
+    "read": "Suǒyǒu gōngsī dōu bìxū zūnshǒu zhè xiàng guīdìng.",
+    "ko": "모든 회사는 이 규정을 따라야 해요.",
+    "en": "All firms must comply with this regulation."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "要求／建议／务必／须／应当／应予……",
+   "en": "Formal requests: 要求 / 建议 / 务必 / 须 / 应当 / 应予"
+  },
+  "explain": {
+   "ko": "正式场合表达要求和建议，常用“要求／建议／请务必／须／应当”。“我们要求每位组长出席会议”“建议由律师审查合同”。书面语中常用“须”“应”“应予”：申请须在周五前提交。“务必”语气很强，表示一定要做。如果事情已经成为现实的反面，用“要不是……，就……”：要不是他，这件事不可能完成。",
+   "en": "Formal requests and suggestions use 要求／建议／请务必／须／应当. 我们要求每位组长出席会议; 建议由律师审查合同. Written style uses 须／应／应予: 申请须在周五前提交. 务必 is strong: 'be sure to'. Contrary to fact: 要不是……，就……: 要不是他，这件事不可能完成."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "要求 / Demand",
+     "要求＋人＋动词",
+     "我们要求每位组长出席。"
+    ],
+    [
+     "建议 / Suggest",
+     "建议＋（由）……＋动词",
+     "建议由律师审查合同。"
+    ],
+    [
+     "必须 / Must",
+     "须／务必＋动词",
+     "申请须在周五前提交。"
+    ],
+    [
+     "假设 / Contrary to fact",
+     "要不是……，就……",
+     "要不是他，就不可能完成。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“须”和“应”多用于书面和公告。",
+    "en": "须 and 应 are common in writing and notices."
+   },
+   {
+    "ko": "“务必”比“一定”更正式。",
+    "en": "务必 is more formal than 一定."
+   },
+   {
+    "ko": "“建议”后面常跟被动或“由”字结构。",
+    "en": "建议 is often followed by a passive or 由-structure."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我们要求每位组长出席会议。",
+    "read": "Wǒmen yào qiú měi wèi zǔ cháng chū xí huìyì.",
+    "ko": "의사는 그가 쉬어야 한다고 권고했어요.",
+    "en": "The doctor recommended that he rest."
+   },
+   {
+    "t": "申请须在周五前提交。",
+    "read": "Shēn qǐng xū zài zhōu wǔ qián tí jiāo.",
+    "ko": "모든 직원이 참석하는 것이 필수적이에요.",
+    "en": "It is essential that every employee attend."
+   },
+   {
+    "t": "我建议由律师审查这份合同。",
+    "read": "Wǒ jiànyì yóu lǜ shī shěn chá zhè fèn hé tóng.",
+    "ko": "그녀는 직접 가야 한다고 주장했어요.",
+    "en": "She insisted that she go in person."
+   },
+   {
+    "t": "有人坚持要他当面道歉。",
+    "read": "Yǒu rén jiān chí yào tā dāng miàn dào qiàn.",
+    "ko": "위원회는 규정이 개정되어야 한다고 제안했어요.",
+    "en": "The committee proposed that the rule be amended."
+   },
+   {
+    "t": "请大家务必遵守这项规定。",
+    "read": "Qǐng dàjiā wù bì zūnshǒu zhè xiàng guīdìng.",
+    "ko": "제가 그 자리에 있었더라면 좋았을 텐데요.",
+    "en": "I wish I were there."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我们___每位组长出席会议。",
+    "options": [
+     "要求",
+     "喜欢",
+     "忘记"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "申请___在周五前提交。",
+    "options": [
+     "须",
+     "曾",
+     "刚"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我建议___律师审查这份合同。",
+    "options": [
+     "由",
+     "把",
+     "被"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "请大家___遵守这项规定。",
+    "options": [
+     "务必",
+     "偶尔",
+     "也许"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "委员会提出了什么要求？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 위원회는 무엇을 요구했나요?",
+     "en": "(Question) What did the committee demand?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "要求所有申请在周五前提交。",
+       "我昨天去了。",
+       "我不知道路。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "她为什么坚持亲自去？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 그가 직접 가야 한다고 주장했나요?",
+     "en": "(Question) Why did she insist on going in person?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "她坚持要亲自去。",
+       "她不想去。",
+       "她没有时间。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "医生怎么说？"
+      },
+      {
+       "s": "B",
+       "t": "她建议我休息一个星期。"
+      },
+      {
+       "s": "A",
+       "t": "那出差怎么办？"
+      },
+      {
+       "s": "B",
+       "t": "经理建议由别人代替我去。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 의사 선생님이 뭐라고 하셨어?\nB: 내가 일주일 동안 쉬어야 한다고 권고하셨어.\nA: 그럼 출장은 어떻게 해?\nB: 팀장님이 다른 사람이 대신 가야 한다고 제안하셨어.",
+     "en": "A: What did the doctor say?\nB: She recommended that I rest for a week.\nA: What about the business trip?\nB: The manager suggested that someone else go instead."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "经理建议什么？",
+      "options": [
+       "由别人代替去出差",
+       "取消出差",
+       "延期一周"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新的安全规定下个月开始实施。每位员工务必完成培训。各部门负责人须保证日程已经通知到位。没有遵守规定的团队将接受检查。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "새 안전 규정이 다음 달부터 시행됩니다. 모든 직원이 교육을 이수하는 것이 필수적입니다. 부서장은 교육 일정이 공유되도록 해야 합니다. 이 규정을 따르지 않는 팀은 감사를 받게 됩니다.",
+     "en": "A new safety regulation takes effect next month. It is essential that every employee complete the training. Department heads must ensure that the schedule be shared. Teams that fail to comply will be audited."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "新规定要求每位员工做什么？",
+      "options": [
+       "完成培训",
+       "加班",
+       "提交报告"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "您好，这是关于您的退款申请。"
+      },
+      {
+       "s": "B",
+       "t": "我要求在一周内办理退款。"
+      },
+      {
+       "s": "A",
+       "t": "我来查一下，务必附上收据。"
+      },
+      {
+       "s": "B",
+       "t": "好的，我现在就发给您。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 환불 요청 건입니다.\n고객: 환불이 일주일 안에 처리되기를 요구합니다.\n직원: 확인해 보겠습니다. 영수증이 첨부되는 것이 필수적입니다.\n고객: 알겠습니다. 지금 보내겠습니다.",
+     "en": "Clerk: This is about your refund request.\nCustomer: I demand that the refund be processed within a week.\nClerk: I'll check. It is essential that the receipt be attached.\nCustomer: Understood. I'll send it now."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "顾客要求在一周内办理______",
+      "answers": [
+       "退款"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "务必附上______",
+      "answers": [
+       "收据"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 委员会___修改这条规定。\n2) 请大家___出席。\n3) 我希望我___在那儿。",
+    "trans": {
+     "ko": "1) 위원회는 규정이 바뀌어야 한다고 제안했어요. 2) 모두 참석하는 것이 필수적이에요. 3) 제가 그 자리에 있었더라면 좋았을 텐데요.",
+     "en": "1) The committee proposed that the rule be changed. 2) It is essential that everyone attend. 3) I wish I were there."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "委员会___修改这条规定。",
+      "options": [
+       "提议",
+       "忘记",
+       "拒绝"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "请大家___出席。",
+      "options": [
+       "务必",
+       "偶尔",
+       "也许"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我希望我___在那儿。",
+      "options": [
+       "能",
+       "曾",
+       "刚"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "市议会批准了一项新的环保规定。每家建筑公司(1)减少排放。有关部门被要求保证规定得到(2)执行。没有遵守的公司必须(3)罚款。",
+    "trans": {
+     "ko": "시 의회는 새 환경 규정을 승인했습니다. 모든 건설 회사가 오염 물질 배출을 줄이는 것이 필수적입니다. 담당 부서는 규정이 철저히 지켜지는지 확인하라는 권고를 받았습니다. 이를 지키지 않는 회사는 벌금을 내야 합니다.",
+     "en": "The city council has approved a new environmental regulation. It is essential that every construction firm reduce its emissions. The department was recommended to ensure the rule is strictly followed. Companies that fail to comply must pay a fine."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "必须",
+       "偶尔",
+       "刚好"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "严格",
+       "随便",
+       "偶然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "缴纳",
+       "领取",
+       "借用"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "通知\n图书馆开放时间调整\n从下个月起，图书馆延长开放时间。读者务必携带证件。图书馆要求所有读者按时还书。详情请到服务台咨询。",
+    "trans": {
+     "ko": "공지\n도서관 운영 변경\n다음 달부터 도서관 이용 시간이 연장된다. 이용자는 신분증을 지참하는 것이 필수적이다. 도서관은 모든 이용자가 대출 기한을 지킬 것을 요청하고 있다. 자세한 내용은 안내 데스크에 문의하라.",
+     "en": "NOTICE\nChanges to library opening\nFrom next month library hours will be extended. It is essential that users bring an ID card. The library requests that all users return books on time. Please ask at the information desk for details."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "读者务必带什么？",
+      "options": [
+       "证件",
+       "雨伞",
+       "笔记本"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "图书馆要求读者做什么？",
+      "options": [
+       "按时还书",
+       "提前预约",
+       "保持安静"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "秀珍必须根据新规定完成培训。她抱怨日程太紧。培训只能在网上进行。",
+    "trans": {
+     "ko": "수미는 새 규정에 따라 교육을 이수해야 한다. 그녀는 일정이 너무 빡빡하다고 불평했다. 교육은 온라인으로만 제공된다.",
+     "en": "Sumi must complete training under the new regulation. She complained that the schedule is too tight. The training is offered online only."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "秀珍必须完成培训。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "秀珍觉得日程很宽松。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "培训只能在网上进行。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我们要求每位组长出席会议。",
+    "read": "Wǒmen yào qiú měi wèi zǔ cháng chū xí huìyì.",
+    "ko": "회의에 모든 팀장이 참석할 것을 요청드립니다.",
+    "en": "We request that every team leader attend the meeting.",
+    "situation": {
+     "ko": "격식 있는 요청",
+     "en": "A formal request"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "申请须在周五前提交。",
+    "read": "Shēn qǐng xū zài zhōu wǔ qián tí jiāo.",
+    "ko": "신청서는 금요일까지 제출되어야 합니다.",
+    "en": "It is essential that applications be submitted by Friday.",
+    "situation": {
+     "ko": "필수 조건을 알릴 때",
+     "en": "Stating a requirement"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我建议由律师审查这份合同。",
+    "read": "Wǒ jiànyì yóu lǜ shī shěn chá zhè fèn hé tóng.",
+    "ko": "저라면 계약서를 변호사에게 검토받도록 하겠어요.",
+    "en": "I suggest that the contract be reviewed by a lawyer.",
+    "situation": {
+     "ko": "정중한 제안",
+     "en": "A polite suggestion"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "有人坚持要他当面道歉。",
+    "read": "Yǒu rén jiān chí yào tā dāng miàn dào qiàn.",
+    "ko": "그가 직접 사과해야 한다고 주장하는 사람들도 있어요.",
+    "en": "Some insist that he apologise in person.",
+    "situation": {
+     "ko": "강한 입장 표명",
+     "en": "A strong stance"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "请大家务必遵守这项规定。",
+    "read": "Qǐng dàjiā wù bì zūnshǒu zhè xiàng guīdìng.",
+    "ko": "이 규정은 모두가 따라야 한다는 것이 중요해요.",
+    "en": "It is vital that everyone comply with this rule.",
+    "situation": {
+     "ko": "중요성을 강조할 때",
+     "en": "Emphasising importance"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "要不是他，这件事不可能完成。",
+    "read": "Yào bú shì tā, zhè jiàn shì bù kěnéng wán chéng.",
+    "ko": "그가 아니었다면 이 일은 불가능했을 거예요.",
+    "en": "Were it not for him, this would have been impossible.",
+    "situation": {
+     "ko": "격식 있는 가정",
+     "en": "A formal hypothetical"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我要求把所有意见都记录下来。",
+    "read": "Wǒ yào qiú bǎ suǒyǒu yì jiàn dōu jì lù xià lái.",
+    "ko": "모든 의견이 기록되도록 요청했습니다.",
+    "en": "I asked that all comments be recorded.",
+    "situation": {
+     "ko": "공식 요청을 설명할 때",
+     "en": "Reporting a formal request"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "那么我提议，我们就这样办。",
+    "read": "Nà me wǒ tí yì, wǒmen jiù zhè yàng bàn.",
+    "ko": "그럼 그렇게 진행하도록 하겠습니다.",
+    "en": "Then I propose that we proceed accordingly.",
+    "situation": {
+     "ko": "결정을 마무리할 때",
+     "en": "Closing a decision"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我们要求……。",
+    "read": "Wǒmen yào qiú ….",
+    "ko": "~가 ~하도록 요청합니다.",
+    "en": "We request that ~ (base verb)."
+   },
+   {
+    "id": "w2",
+    "t": "……须在……前提交。",
+    "read": "… Xū zài … qián tí jiāo.",
+    "ko": "~하는 것이 필수적입니다.",
+    "en": "It is essential that ~ (base verb)."
+   },
+   {
+    "id": "w3",
+    "t": "我建议由……。",
+    "read": "Wǒ jiànyì yóu ….",
+    "ko": "~가 ~해야 한다고 제안합니다.",
+    "en": "I propose/suggest that ~ (base verb)."
+   },
+   {
+    "id": "w4",
+    "t": "请务必……。",
+    "read": "Qǐng wù bì ….",
+    "ko": "~이 아니었다면 ~했을 것이다.",
+    "en": "Were it not for ~, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "격식 있는 요청이나 제안을 가정법 현재를 써서 4문장으로 써 보세요.",
+    "en": "Write 4 sentences making formal requests or suggestions using the subjunctive."
+   },
+   "must_include": [
+    {
+     "label": "要求",
+     "match": [
+      "要求"
+     ]
+    },
+    {
+     "label": "务必",
+     "match": [
+      "务必"
+     ]
+    },
+    {
+     "label": "建议",
+     "match": [
+      "建议"
+     ]
+    }
+   ],
+   "model": "委员会要求所有申请在周五前提交。负责人务必当面核对截止日期。我建议由律师提前审查文件。各部门都必须遵守这项规定。",
+   "model_trans": {
+    "ko": "위원회는 모든 신청서가 금요일까지 제출되어야 한다고 요구했습니다. 담당자가 마감일을 직접 확인하는 것이 필수적입니다. 저는 지원 서류를 사전에 검토하도록 제안합니다. 모든 부서가 이 규정을 따라야 합니다.",
+    "en": "The committee demanded that all applications be submitted by Friday. It is essential that the officer check the deadline in person. I propose that the documents be reviewed in advance. Every department must comply with this regulation."
+   }
+  }
+ }
+}

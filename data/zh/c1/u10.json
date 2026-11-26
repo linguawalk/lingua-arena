@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u10",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 10,
+  "concept": "C1.U10",
+  "status": "live",
+  "title": {
+   "target": "复杂名词短语（长定语）",
+   "ko": "복합 명사구와 전치 수식",
+   "en": "Complex noun phrases"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "战略",
+   "pos": "noun",
+   "read": "zhàn lüè",
+   "ko": "전략",
+   "en": "strategy",
+   "ex": {
+    "t": "需要一个新的营销战略。",
+    "read": "Xūyào yí ge xīn de yíng xiāo zhàn lüè.",
+    "ko": "새로운 마케팅 전략이 필요해요.",
+    "en": "A new marketing strategy is needed."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "方法",
+   "pos": "noun",
+   "read": "fāng fǎ",
+   "ko": "접근법",
+   "en": "approach",
+   "ex": {
+    "t": "这个问题需要不同的方法。",
+    "read": "Zhège wèntí xūyào bù tóng de fāng fǎ.",
+    "ko": "이 문제에는 다른 접근법이 필요해요.",
+    "en": "This problem needs a different approach."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "因素",
+   "pos": "noun",
+   "read": "yīn sù",
+   "ko": "요인",
+   "en": "factor",
+   "ex": {
+    "t": "几个因素影响了结果。",
+    "read": "Jǐ gè yīn sù yǐng xiǎng le jié guǒ.",
+    "ko": "여러 요인이 결과에 영향을 미쳤어요.",
+    "en": "Several factors influenced the result."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "决策者",
+   "pos": "noun",
+   "read": "jué cè zhě",
+   "ko": "정책 입안자",
+   "en": "policymaker",
+   "ex": {
+    "t": "决策者已经意识到这个问题。",
+    "read": "Jué cè zhě yǐjīng yìshídào zhège wèntí.",
+    "ko": "정책 입안자들은 이 문제를 알고 있어요.",
+    "en": "Policymakers are aware of this issue."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "扩大",
+   "pos": "verb",
+   "read": "kuò dà",
+   "ko": "확대하다",
+   "en": "expand",
+   "ex": {
+    "t": "公司扩大了海外市场。",
+    "read": "Gōngsī kuò dà le hǎi wài shìchǎng.",
+    "ko": "회사는 해외 시장으로 사업을 확대했어요.",
+    "en": "The company expanded into overseas markets."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "长期",
+   "pos": "adj",
+   "read": "cháng qī",
+   "ko": "장기적인",
+   "en": "long-term",
+   "ex": {
+    "t": "需要一个长期的计划。",
+    "read": "Xūyào yí ge cháng qī de jìhuà.",
+    "ko": "장기적인 계획이 필요해요.",
+    "en": "A long-term plan is needed."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "受影响的",
+   "pos": "adj",
+   "read": "shòu yǐng xiǎng de",
+   "ko": "영향을 받은",
+   "en": "affected",
+   "ex": {
+    "t": "受影响的地区正在恢复。",
+    "read": "Shòu yǐng xiǎng de dì qū zhèngzài huī fù.",
+    "ko": "영향을 받은 지역은 복구 중이에요.",
+    "en": "The affected areas are recovering."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "复杂的",
+   "pos": "adj",
+   "read": "fù zá de",
+   "ko": "복잡한",
+   "en": "complex",
+   "ex": {
+    "t": "复杂的问题没有简单的答案。",
+    "read": "Fù zá de wèntí méiyǒu jiǎn dān de dá àn.",
+    "ko": "복잡한 문제에는 단순한 해답이 없어요.",
+    "en": "Complex problems have no simple answers."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "系统性的",
+   "pos": "adj",
+   "read": "xì tǒng xìng de",
+   "ko": "체계적인",
+   "en": "systematic",
+   "ex": {
+    "t": "需要系统性的分析。",
+    "read": "Xūyào xì tǒng xìng de fēn xī.",
+    "ko": "체계적인 분석이 필요해요.",
+    "en": "Systematic analysis is required."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "框架",
+   "pos": "noun",
+   "read": "kuāng jià",
+   "ko": "틀",
+   "en": "framework",
+   "ex": {
+    "t": "这个框架可以应用于很多领域。",
+    "read": "Zhège kuāng jià kěyǐ yìngyòng yú hěn duō lǐng yù.",
+    "ko": "이 틀은 여러 분야에 적용될 수 있어요.",
+    "en": "This framework can be applied to many fields."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "……的＋名词／对……的影响／能够……的＋名词／……地区的居民",
+   "en": "Complex noun phrases: long modifiers + 的 + noun"
+  },
+  "explain": {
+   "ko": "汉语的定语放在名词前面，用“的”连接，可以很长。“政府最近公布的新环境政策引起了争议。”“城市房价的上涨是一个严重的问题。”“受影响地区的居民要求补偿。”“我们需要一个能够解决这个问题的长期战略。”定语越长，越要注意层次，避免读者迷路。",
+   "en": "Chinese modifiers precede the noun, linked by 的, and can be long. 政府最近公布的新环境政策引起了争议. 城市房价的上涨是一个严重的问题. 受影响地区的居民要求补偿. 我们需要一个能够解决这个问题的长期战略. The longer the modifier, the more careful the layering must be."
+  },
+  "table": {
+   "head": [
+    "结构 / Structure",
+    "例子 / Example",
+    "意思 / Meaning"
+   ],
+   "rows": [
+    [
+     "动词短语＋的＋名词",
+     "政府最近公布的新政策",
+     "the new policy recently announced"
+    ],
+    [
+     "名词＋的＋名词",
+     "城市房价的上涨",
+     "the rise in urban housing prices"
+    ],
+    [
+     "能够……的＋名词",
+     "能够解决问题的战略",
+     "a strategy capable of solving"
+    ],
+    [
+     "地区＋的＋名词",
+     "受影响地区的居民",
+     "residents of affected areas"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "定语太长时，可以拆成两个句子。",
+    "en": "If a modifier is too long, split into two sentences."
+   },
+   {
+    "ko": "多个“的”连用要注意清楚。",
+    "en": "Several 的 in a row must stay clear."
+   },
+   {
+    "ko": "学术文章常用长定语使句子紧凑。",
+    "en": "Academic writing uses long modifiers for compactness."
+   }
+  ],
+  "examples": [
+   {
+    "t": "政府最近公布的新政策引起了争议。",
+    "read": "Zhèng fǔ zuìjìn gōng bù de xīn zhèng cè yǐn qǐ le zhēng yì.",
+    "ko": "정부가 최근 발표한 새로운 환경 정책이 논란이 되고 있어요.",
+    "en": "The new environmental policy recently announced by the government is controversial."
+   },
+   {
+    "t": "城市房价的上涨是一个严重的问题。",
+    "read": "Chéngshì fáng jià de shàng zhǎng shì yí ge yán zhòng de wèntí.",
+    "ko": "여러 요인이 복합적으로 작용했어요.",
+    "en": "A combination of several factors was at work."
+   },
+   {
+    "t": "受影响地区的居民要求补偿。",
+    "read": "Shòu yǐng xiǎng dì qū de jū mín yào qiú bǔ cháng.",
+    "ko": "도시 재개발 사업은 주민의 반발을 샀어요.",
+    "en": "The urban redevelopment project met with resistance from residents."
+   },
+   {
+    "t": "我们需要一个能够解决这个问题的长期战略。",
+    "read": "Wǒmen xūyào yí ge néng gòu jiě jué zhège wèntí de cháng qī zhàn lüè.",
+    "ko": "이 연구는 어린이 건강 증진 프로그램의 효과를 조사했어요.",
+    "en": "This study examined the effectiveness of child health improvement programmes."
+   },
+   {
+    "t": "报告分析了气候变化对农业生产力的影响。",
+    "read": "Bàogào fēn xī le qì hòu biànhuà duì nóng yè shēngchǎn lì de yǐng xiǎng.",
+    "ko": "체계적인 분석이 가능한 틀이 필요해요.",
+    "en": "A framework that allows systematic analysis is needed."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "政府最近公布的新政策___了争议。",
+    "options": [
+     "引起",
+     "忘记",
+     "禁止"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "城市房价的上涨是一个___的问题。",
+    "options": [
+     "严重",
+     "快乐",
+     "透明"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "受影响地区的居民要求___。",
+    "options": [
+     "补偿",
+     "休息",
+     "旅行"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我们需要一个能够解决这个问题的___战略。",
+    "options": [
+     "长期",
+     "昨天",
+     "附近"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你觉得这项新政策怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 새로운 정책에 대해 어떻게 생각하세요?",
+     "en": "(Question) What do you think of the new policy?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "政府最近公布的新政策有争议。",
+       "我昨天去了。",
+       "我不知道路。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "为什么城市房价上涨是个问题？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 도시 주택 가격 상승이 왜 문제인가요?",
+     "en": "(Question) Why is the rise in urban housing prices a problem?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "房价上涨加重了年轻人的负担。",
+       "天气越来越热。",
+       "我不太清楚。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这份报告的重点是什么？"
+      },
+      {
+       "s": "B",
+       "t": "气候变化对农业生产力的影响。"
+      },
+      {
+       "s": "A",
+       "t": "有解决办法吗？"
+      },
+      {
+       "s": "B",
+       "t": "有，提出了一个长期的、系统性的方法。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이번 보고서의 핵심이 뭐야?\nB: 기후 변화가 농업 생산성에 미치는 영향이야.\nA: 해결책도 제시했어?\nB: 응, 장기적이고 체계적인 접근법을 제안했어.",
+     "en": "A: What is the main point of this report?\nB: The impact of climate change on agricultural productivity.\nA: Does it offer a solution?\nB: Yes, it proposes a long-term, systematic approach."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "报告提出了什么？",
+      "options": [
+       "长期、系统性的方法",
+       "短期的补贴",
+       "新的法律"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "关于政府最近公布的城市改造计划，召开了一次公开会议。受影响地区的居民提出了补偿问题。政府表示，将建立一个有各方参与的协商框架。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "정부가 최근 발표한 도시 재개발 계획에 대한 주민 설명회가 열렸습니다. 영향을 받은 지역의 주민들은 보상 문제를 제기했습니다. 정부는 이해관계자 모두가 참여하는 협의 틀을 마련하겠다고 밝혔습니다.",
+     "en": "A public meeting was held on the urban redevelopment plan recently announced by the government. Residents of the affected areas raised the issue of compensation. The government said it will set up a consultation framework involving all stakeholders."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "居民提出了什么问题？",
+      "options": [
+       "补偿问题",
+       "交通问题",
+       "教育问题"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这项研究的重点是什么？"
+      },
+      {
+       "s": "B",
+       "t": "研究了儿童健康改善项目的效果。"
+      },
+      {
+       "s": "A",
+       "t": "结果怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "参加儿童的健康显著改善。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 이번 연구의 요점은 무엇입니까?\n연구자: 어린이 건강 증진 프로그램의 효과를 조사했습니다.\n기자: 결과는요?\n연구자: 프로그램 참여 어린이의 건강 상태가 뚜렷이 개선되었습니다.",
+     "en": "Reporter: What is the main point of the study?\nResearcher: It examined the effectiveness of child health improvement programmes.\nReporter: What were the results?\nResearcher: The health of participating children improved markedly."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "研究了儿童健康改善项目的______",
+      "answers": [
+       "效果"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "参加儿童的健康______改善",
+      "answers": [
+       "显著"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 政府最近公布的新政策___了争议。\n2) 城市房价的上涨是一个___的问题。\n3) 受影响地区的居民要求___。",
+    "trans": {
+     "ko": "1) 정부가 최근 발표한 새로운 정책이 논란이 되고 있어요. 2) 도시 지역의 주택 가격 상승은 심각한 문제예요. 3) 영향을 받은 지역의 주민들은 보상을 요구하고 있어요.",
+     "en": "1) The new policy recently announced by the government is controversial. 2) The rise in urban housing prices is a serious problem. 3) Residents of the affected areas are demanding compensation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "政府最近公布的新政策___了争议。",
+      "options": [
+       "引起",
+       "忘记",
+       "禁止"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "城市房价的上涨是一个___的问题。",
+      "options": [
+       "严重",
+       "快乐",
+       "透明"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "受影响地区的居民要求___。",
+      "options": [
+       "补偿",
+       "休息",
+       "旅行"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这份报告分析了城市空气污染的主要原因。交通量的(1)和工业活动被认为是关键因素。作者(2)决策者制订一个(3)的计划。",
+    "trans": {
+     "ko": "이 보고서는 도시 대기 오염의 주요 원인을 분석했습니다. 교통량의 증가와 산업 활동이 주요 요인으로 지적되었습니다. 저자들은 정책 입안자들이 장기적인 계획을 세워야 한다고 권고했습니다.",
+     "en": "This report analysed the main causes of urban air pollution. An increase in traffic and industrial activity were identified as key factors. The authors recommended that policymakers draw up a long-term plan."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "增加",
+       "减少",
+       "停止"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "建议",
+       "拒绝",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "长期",
+       "昨天",
+       "附近"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "评论\n城市住房问题\n城市房价的急剧上涨，给年轻一代带来了沉重的负担。政府最近出台的政策，可能只有短期效果。要找到可持续的解决办法，需要包括扩大供应和完善租赁制度在内的综合措施。",
+    "trans": {
+     "ko": "논평\n도시 주택 문제\n도시 지역의 주택 가격 급등은 젊은 세대에게 심각한 부담이다. 정부가 최근 내놓은 정책은 단기적인 효과만 있을 가능성이 크다. 지속 가능한 해결을 위해서는 공급 확대와 임대 제도 개선을 포함한 종합적 접근이 필요하다.",
+     "en": "COMMENT\nThe urban housing problem\nThe sharp rise in urban housing prices places a serious burden on the younger generation. The policy recently introduced by the government is likely to have only short-term effects. A sustainable solution requires a comprehensive approach including expanded supply and an improved rental system."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "房价上涨给谁带来了负担？",
+      "options": [
+       "年轻一代",
+       "老年人",
+       "外国人"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "可持续的解决办法需要什么？",
+      "options": [
+       "综合措施",
+       "短期补贴",
+       "增加税收"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "作者认为房价上涨是年轻人的负担。政府的新政策被认为有长期效果。作者说需要综合措施。",
+    "trans": {
+     "ko": "글쓴이는 주택 가격 상승이 젊은 세대에게 부담이 된다고 본다. 정부의 새 정책은 장기적인 효과가 있다고 평가된다. 글쓴이는 종합적인 접근이 필요하다고 말한다.",
+     "en": "The writer sees rising housing prices as a burden on the young. The government's new policy is judged to have long-term effects. The writer says a comprehensive approach is needed."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "作者认为房价上涨是年轻人的负担。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "政府的新政策被认为有长期效果。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "作者说需要综合措施。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "政府最近公布的新政策引起了争议。",
+    "read": "Zhèng fǔ zuìjìn gōng bù de xīn zhèng cè yǐn qǐ le zhēng yì.",
+    "ko": "정부가 최근 발표한 새로운 정책이 논란이 되고 있어요.",
+    "en": "The new policy recently announced by the government is controversial.",
+    "situation": {
+     "ko": "정보를 압축해 말할 때",
+     "en": "Compressing information"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "城市房价的上涨是一个严重的问题。",
+    "read": "Chéngshì fáng jià de shàng zhǎng shì yí ge yán zhòng de wèntí.",
+    "ko": "도시 지역의 주택 가격 상승은 심각한 문제예요.",
+    "en": "The rise in urban housing prices is a serious problem.",
+    "situation": {
+     "ko": "명사구로 주제를 소개할 때",
+     "en": "Introducing a topic in a noun phrase"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "健康生活方式改善项目正在扩大。",
+    "read": "Jiànkāng shēnghuó fāng shì gǎi shàn xiàng mù zhèngzài kuò dà.",
+    "ko": "건강한 생활 습관 개선 프로그램이 확대되고 있어요.",
+    "en": "Healthy lifestyle improvement programmes are expanding.",
+    "situation": {
+     "ko": "명사 + 명사 구조를 쓸 때",
+     "en": "Using noun + noun structures"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我们需要一个能够解决这个问题的长期战略。",
+    "read": "Wǒmen xūyào yí ge néng gòu jiě jué zhège wèntí de cháng qī zhàn lüè.",
+    "ko": "이 문제를 해결할 수 있는 장기적인 전략이 필요해요.",
+    "en": "We need a long-term strategy capable of solving this problem.",
+    "situation": {
+     "ko": "후치수식을 쓸 때",
+     "en": "Using post-modification"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "受影响地区的居民要求补偿。",
+    "read": "Shòu yǐng xiǎng dì qū de jū mín yào qiú bǔ cháng.",
+    "ko": "영향을 받은 지역의 주민들은 보상을 요구하고 있어요.",
+    "en": "Residents of the affected areas are demanding compensation.",
+    "situation": {
+     "ko": "과거분사 수식을 쓸 때",
+     "en": "Using a past participle modifier"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "这份报告分析了气候变化对农业生产力的影响。",
+    "read": "Zhè fèn bàogào fēn xī le qì hòu biànhuà duì nóng yè shēngchǎn lì de yǐng xiǎng.",
+    "ko": "그 보고서는 기후 변화가 농업 생산성에 미치는 영향을 분석했어요.",
+    "en": "The report analysed the impact of climate change on agricultural productivity.",
+    "situation": {
+     "ko": "학술적 명사구",
+     "en": "An academic noun phrase"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "复杂而相互关联的因素解释了这一现象。",
+    "read": "Fù zá ér xiāng hù guān lián de yīn sù jiěshì le zhè yí xiàn xiàng.",
+    "ko": "복잡하고 서로 얽힌 요인들이 이 현상을 설명해요.",
+    "en": "Complex and interrelated factors explain this phenomenon.",
+    "situation": {
+     "ko": "형용사를 나열할 때",
+     "en": "Stacking adjectives"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "更系统的方法可以提高这项政策的效果。",
+    "read": "Gèng xì tǒng de fāng fǎ kěyǐ tígāo zhè xiàng zhèng cè de xiào guǒ.",
+    "ko": "더 체계적인 접근법이 정책의 효과를 높일 수 있어요.",
+    "en": "A more systematic approach could improve the policy's effectiveness.",
+    "situation": {
+     "ko": "의견을 압축해 말할 때",
+     "en": "Stating an opinion concisely"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……最近公布的新……。",
+    "read": "… Zuìjìn gōng bù de xīn ….",
+    "ko": "최근 ~가 발표한 새로운 ~",
+    "en": "The new ~ recently announced by ..."
+   },
+   {
+    "id": "w2",
+    "t": "……对……的影响。",
+    "read": "… Duì … de yǐng xiǎng.",
+    "ko": "~가 ~에 미치는 영향",
+    "en": "The impact of ~ on ..."
+   },
+   {
+    "id": "w3",
+    "t": "能够……的长期……。",
+    "read": "Néng gòu … de cháng qī ….",
+    "ko": "~할 수 있는 장기적인 ~",
+    "en": "A long-term ~ capable of ..."
+   },
+   {
+    "id": "w4",
+    "t": "受影响地区的居民。",
+    "read": "Shòu yǐng xiǎng dì qū de jū mín.",
+    "ko": "영향을 받은 지역의 ~",
+    "en": "Residents of the affected ~"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "복합 명사구를 써서 사회 문제나 정책을 설명하는 4문장을 써 보세요.",
+    "en": "Write 4 sentences describing a social issue or policy using complex noun phrases."
+   },
+   "must_include": [
+    {
+     "label": "政策",
+     "match": [
+      "政策"
+     ]
+    },
+    {
+     "label": "上涨",
+     "match": [
+      "上涨"
+     ]
+    },
+    {
+     "label": "系统",
+     "match": [
+      "系统"
+     ]
+    }
+   ],
+   "model": "政府最近公布的新住房政策引起了争议。城市房价的上涨给年轻一代的生活带来了沉重的负担。要找到长期的解决办法，需要更系统的方法。受影响地区的居民也应该有机会表达意见。",
+   "model_trans": {
+    "ko": "정부가 최근 발표한 새로운 주택 정책은 논란을 일으키고 있습니다. 도시 지역의 주택 가격 상승은 젊은 세대의 생활에 큰 부담을 줍니다. 장기적인 해결을 위해서는 더 체계적인 접근법이 필요합니다. 영향을 받은 지역의 주민들도 의견을 낼 수 있어야 합니다.",
+    "en": "The new housing policy recently announced by the government is causing controversy. The rise in urban housing prices places a heavy burden on the lives of the younger generation. A more systematic approach is needed for a long-term solution. Residents of the affected areas should also be able to voice their opinions."
+   }
+  }
+ }
+}

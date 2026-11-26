@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u26",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 26,
+  "concept": "C1.U26",
+  "status": "live",
+  "title": {
+   "target": "演讲稿写作",
+   "ko": "연설문 쓰기",
+   "en": "Writing speeches"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "听众",
+   "pos": "noun",
+   "read": "tīng zhòng",
+   "ko": "청중",
+   "en": "audience",
+   "ex": {
+    "t": "听众专注地听着。",
+    "read": "Tīng zhòng zhuān zhù dì tīng zhe.",
+    "ko": "청중은 연설에 귀를 기울였어요.",
+    "en": "The audience listened intently."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "致辞",
+   "pos": "noun",
+   "read": "zhì cí",
+   "ko": "연설",
+   "en": "address",
+   "ex": {
+    "t": "总统的致辞很感人。",
+    "read": "Zǒng tǒng de zhì cí hěn gǎn rén.",
+    "ko": "총장의 연설이 감동적이었어요.",
+    "en": "The president's address was moving."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "激励",
+   "pos": "verb",
+   "read": "jī lì",
+   "ko": "영감을 주다",
+   "en": "inspire",
+   "ex": {
+    "t": "他的故事激励了很多人。",
+    "read": "Tā de gù shì jī lì le hěn duō rén.",
+    "ko": "그의 이야기는 많은 사람에게 영감을 줬어요.",
+    "en": "His story inspired many people."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "呼吁",
+   "pos": "noun",
+   "read": "hū yù",
+   "ko": "호소",
+   "en": "appeal",
+   "ex": {
+    "t": "他呼吁团结。",
+    "read": "Tā hū yù tuán jié.",
+    "ko": "그는 단합을 호소했어요.",
+    "en": "He made an appeal for unity."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "挑战",
+   "pos": "noun",
+   "read": "tiǎo zhàn",
+   "ko": "도전",
+   "en": "challenge",
+   "ex": {
+    "t": "我们面临巨大的挑战。",
+    "read": "Wǒmen miàn lín jù dà de tiǎo zhàn.",
+    "ko": "우리는 큰 도전에 직면해 있어요.",
+    "en": "We face a great challenge."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "携手",
+   "pos": "adv",
+   "read": "xié shǒu",
+   "ko": "함께",
+   "en": "together",
+   "ex": {
+    "t": "只要携手，我们就能做到。",
+    "read": "Zhī yào xié shǒu, wǒmen jiù néng zuò dào.",
+    "ko": "우리가 함께라면 해낼 수 있어요.",
+    "en": "Together, we can do it."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "遗产",
+   "pos": "noun",
+   "read": "yí chǎn",
+   "ko": "유산",
+   "en": "legacy",
+   "ex": {
+    "t": "他留下了宝贵的遗产。",
+    "read": "Tā liú xià le bǎo guì de yí chǎn.",
+    "ko": "그는 뛰어난 유산을 남겼어요.",
+    "en": "He left a remarkable legacy."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "勇气",
+   "pos": "noun",
+   "read": "yǒng qì",
+   "ko": "용기",
+   "en": "courage",
+   "ex": {
+    "t": "她做出了勇敢的决定。",
+    "read": "Tā zuò chū le yǒng gǎn de juédìng.",
+    "ko": "그녀는 용기 있는 결정을 내렸어요.",
+    "en": "She made a courageous decision."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "转折点",
+   "pos": "noun",
+   "read": "zhuǎn zhé diǎn",
+   "ko": "전환점",
+   "en": "turning point",
+   "ex": {
+    "t": "这一刻将成为转折点。",
+    "read": "Zhè yí kè jiāng chéng wéi zhuǎn zhé diǎn.",
+    "ko": "이 순간이 전환점이 될 거예요.",
+    "en": "This moment will be a turning point."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "最后",
+   "pos": "adv",
+   "read": "zuìhòu",
+   "ko": "마지막으로",
+   "en": "finally",
+   "ex": {
+    "t": "最后，我想表示感谢。",
+    "read": "Zuìhòu, wǒ xiǎng biǎo shì gǎn xiè.",
+    "ko": "마지막으로 감사의 말씀을 드립니다.",
+    "en": "Finally, I would like to say thank you."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "各位……／不是……而是……／现在正是……的时候／最后……",
+   "en": "Speeches: 各位 / 不是……而是…… / 现在正是……的时候 / 最后"
+  },
+  "explain": {
+   "ko": "演讲稿以对听众的称呼开始：“各位来宾，感谢大家今天来到这里。”把三个要点并列（三段式）使人印象深刻。用提问吸引听众：“如果我们现在不行动，谁来行动？”用对比：“这不是……的问题，而是……的问题。”用号召：“现在正是行动的时候。”最后用“最后……”结束。",
+   "en": "A speech opens by addressing the audience: 各位来宾，感谢大家今天来到这里. Three points stay in memory (rule of three). Questions engage listeners: 如果我们现在不行动，谁来行动？ Contrast: 这不是……的问题，而是……的问题. Call to action: 现在正是行动的时候. Close with 最后……."
+  },
+  "table": {
+   "head": [
+    "技巧 / Device",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "称呼 / Address",
+     "各位……",
+     "各位来宾，大家好。"
+    ],
+    [
+     "三段式 / Three",
+     "……、……和……",
+     "过去、现在和未来。"
+    ],
+    [
+     "对比 / Contrast",
+     "不是……而是……",
+     "这是勇气和责任的问题。"
+    ],
+    [
+     "号召 / Action",
+     "现在正是……的时候",
+     "现在正是行动的时候。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "用短句，清楚地说。",
+    "en": "Use short, clear sentences."
+   },
+   {
+    "ko": "提问能吸引听众。",
+    "en": "Questions pull the audience in."
+   },
+   {
+    "ko": "结尾用号召行动结束。",
+    "en": "End with a call to action."
+   }
+  ],
+  "examples": [
+   {
+    "t": "各位来宾，感谢大家今天来到这里。",
+    "read": "Gè wèi lái bīn, gǎn xiè dàjiā jīntiān lái dào zhèlǐ.",
+    "ko": "신사 숙녀 여러분, 오늘 이 자리에 와 주셔서 감사합니다.",
+    "en": "Ladies and gentlemen, thank you for being here today."
+   },
+   {
+    "t": "我们面临巨大的挑战，但只要携手，就能克服。",
+    "read": "Wǒmen miàn lín jù dà de tiǎo zhàn, dàn zhī yào xié shǒu, jiù néng kè fú.",
+    "ko": "우리는 큰 도전에 직면해 있지만 함께라면 해낼 수 있습니다.",
+    "en": "We face a great challenge, but together we can meet it."
+   },
+   {
+    "t": "如果我们现在不行动，谁来行动？",
+    "read": "Rúguǒ wǒmen xiànzài bù xíng dòng, shéi lái xíng dòng?",
+    "ko": "우리가 지금 행동하지 않으면 누가 하겠습니까?",
+    "en": "If we do not act now, who will?"
+   },
+   {
+    "t": "这一刻将成为我们历史的转折点。",
+    "read": "Zhè yí kè jiāng chéng wéi wǒmen lìshǐ de zhuǎn zhé diǎn.",
+    "ko": "이 순간은 우리 역사의 전환점이 될 것입니다.",
+    "en": "This moment will be a turning point in our history."
+   },
+   {
+    "t": "最后，我向大家表示衷心的感谢。",
+    "read": "Zuìhòu, wǒ xiàng dàjiā biǎo shì zhōng xīn de gǎn xiè.",
+    "ko": "마지막으로 모두에게 감사드립니다.",
+    "en": "Finally, I thank you all."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___来宾，感谢大家今天来到这里。",
+    "options": [
+     "各位",
+     "他们",
+     "我"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我们面临巨大的___。",
+    "options": [
+     "挑战",
+     "风景",
+     "约定"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "如果我们现在不行动，___来行动？",
+    "options": [
+     "谁",
+     "什么",
+     "哪儿"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___，我向大家表示衷心的感谢。",
+    "options": [
+     "最后",
+     "最初",
+     "例如"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你怎样开始演讲？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 연설을 어떻게 시작하겠습니까?",
+     "en": "(Question) How would you start the speech?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "各位来宾，感谢大家来到这里。",
+       "下周一。",
+       "在车站旁边。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你怎样说服听众？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 청중을 어떻게 설득하겠습니까?",
+     "en": "(Question) How would you persuade the audience?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "如果我们现在不行动，谁来行动？",
+       "什么都不说。",
+       "已经结束了。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我在准备毕业典礼的演讲。"
+      },
+      {
+       "s": "B",
+       "t": "你怎么开头？"
+      },
+      {
+       "s": "A",
+       "t": "用“各位来宾，感谢大家”开头，然后介绍三个主题。"
+      },
+      {
+       "s": "B",
+       "t": "最后用号召行动结束。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 졸업 연설을 준비 중이야.\nB: 어떻게 시작할 거야?\nA: '신사 숙녀 여러분, 감사합니다'로 시작해서 세 가지 주제를 소개할 거야.\nB: 마지막에는 행동을 호소하면 좋겠어.",
+     "en": "A: I'm preparing a graduation speech.\nB: How will you begin?\nA: With 'Ladies and gentlemen, thank you', then I'll introduce three themes.\nB: End with a call to action."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的建议什么？",
+      "options": [
+       "用号召行动结束",
+       "用提问开头",
+       "缩短"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "好的演讲使用几种技巧。首先，三段式把三个要点并列。其次，提问直接对听众说话。最后，结尾号召行动。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "좋은 연설에는 몇 가지 기술이 있습니다. 첫째, 세 가지 요점을 반복하는 3의 법칙이 있습니다. 둘째, 청중에게 질문을 던지는 수사 의문문이 있습니다. 셋째, 행동을 호소하는 마무리가 있습니다.",
+     "en": "Good speeches use several techniques. First, the rule of three repeats three points. Second, rhetorical questions address the audience. Third, a call to action in the ending."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "三段式是什么？",
+      "options": [
+       "并列三个要点",
+       "说三遍",
+       "三个人说"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我来介绍今天的演讲者。"
+      },
+      {
+       "s": "B",
+       "t": "各位来宾，感谢大家今天来到这里。"
+      },
+      {
+       "s": "A",
+       "t": "今天的主题是什么？"
+      },
+      {
+       "s": "B",
+       "t": "我想谈谈我们面临的挑战，以及如何应对。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "사회자: 오늘의 연사를 소개합니다.\n연사: 여러분, 오늘 이 자리에 와 주셔서 감사합니다.\n사회자: 오늘의 주제는 무엇인가요?\n연사: 우리가 직면한 도전과 그 해결에 대해 이야기하겠습니다.",
+     "en": "Host: Let me introduce today's speaker.\nSpeaker: Thank you all for being here today.\nHost: What is today's theme?\nSpeaker: I'll talk about the challenges we face and how to meet them."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "演讲者感谢大家今天来到______",
+      "answers": [
+       "这里"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "我想谈谈我们面临的______",
+      "answers": [
+       "挑战"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___来宾，感谢大家今天来到这里。\n2) 我们面临巨大的___。\n3) 如果我们现在不行动，___来行动？",
+    "trans": {
+     "ko": "1) 신사 숙녀 여러분, 오늘 이 자리에 와 주셔서 감사합니다. 2) 우리는 큰 도전에 직면해 있지만 함께라면 해낼 수 있습니다. 3) 우리가 지금 행동하지 않으면 누가 하겠습니까?",
+     "en": "1) Ladies and gentlemen, thank you for being here today. 2) We face a great challenge, but together we can meet it. 3) If we do not act now, who will?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___来宾，感谢大家今天来到这里。",
+      "options": [
+       "各位",
+       "他们",
+       "我"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我们面临巨大的___。",
+      "options": [
+       "挑战",
+       "风景",
+       "约定"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "如果我们现在不行动，___来行动？",
+      "options": [
+       "谁",
+       "什么",
+       "哪儿"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "今天我想谈三件事：我们走过的路、我们所处的位置，以及(1)。这条路并不平坦，但是只要有勇气和(2)，我们就会一步一步地(3)。",
+    "trans": {
+     "ko": "오늘 저는 세 가지를 말씀드리고자 합니다. 우리가 걸어온 길, 우리가 서 있는 곳, 그리고 우리가 향할 곳입니다. 이 길은 쉽지 않지만 우리는 용기와 책임감으로 한 걸음씩 나아갈 것입니다.",
+     "en": "Today I'd like to speak about three things: the road we have travelled, where we stand, and where we are heading. The road is not easy, but with courage and responsibility we will move forward step by step."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "我们要去的未来",
+       "过去的失败",
+       "昨天的天气"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "责任",
+       "玩笑",
+       "偶然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "前进",
+       "停下",
+       "后退"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "演讲节选\n毕业典礼致辞\n同学们，你们现在站在一个新的起点上。每当遇到困难，请回想你们在这里度过的日子。并且问问自己：今天我学到了什么？明天我要做什么？",
+    "trans": {
+     "ko": "연설문 발췌\n졸업식 축사\n졸업생 여러분, 여러분은 이제 새로운 출발선에 서 있습니다. 앞으로 어려움이 닥칠 때마다 이곳에서의 시간을 기억하십시오. 그리고 자신에게 물어보십시오. 나는 오늘 무엇을 배웠는가? 나는 내일 무엇을 할 것인가?",
+     "en": "SPEECH EXTRACT\nGraduation address\nGraduates, you now stand at a new starting line. Whenever hardship comes, remember your time here. And ask yourselves: what did I learn today? What will I do tomorrow?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "同学们现在站在哪里？",
+      "options": [
+       "新的起点",
+       "终点",
+       "教室"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "遇到困难时，他们应该怎么做？",
+      "options": [
+       "回想在这里度过的日子",
+       "放弃",
+       "求助"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "这次演讲是在毕业典礼上发表的。演讲者让毕业生遇到困难时回想在这里度过的日子。演讲者是一位多年任教的老师。",
+    "trans": {
+     "ko": "연설은 졸업식에서 이루어졌다. 연설자는 졸업생에게 어려움이 닥치면 이곳에서의 시간을 기억하라고 말한다. 연설자는 학교의 오랜 교사이다.",
+     "en": "The speech was given at a graduation. The speaker tells graduates to remember their time here when hardship comes. The speaker is a long-serving teacher."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "这次演讲是在毕业典礼上发表的。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "演讲者让毕业生遇到困难时回想在这里度过的日子。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "演讲者是一位多年任教的老师。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "各位来宾，感谢大家今天来到这里。",
+    "read": "Gè wèi lái bīn, gǎn xiè dàjiā jīntiān lái dào zhèlǐ.",
+    "ko": "신사 숙녀 여러분, 오늘 이 자리에 모여 주셔서 감사합니다.",
+    "en": "Ladies and gentlemen, thank you for gathering here today.",
+    "situation": {
+     "ko": "청중에게 인사할 때",
+     "en": "Greeting the audience"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "今天我想谈三件事：过去、现在和未来。",
+    "read": "Jīntiān wǒ xiǎng tán sān jiàn shì: guo qù, xiànzài hé wèi lái.",
+    "ko": "우리는 오늘 세 가지를 말씀드리려 합니다: 과거, 현재, 그리고 미래입니다.",
+    "en": "Today I want to speak about three things: the past, the present and the future.",
+    "situation": {
+     "ko": "구성을 소개할 때",
+     "en": "Signposting a speech"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "如果我们现在不行动，谁来行动？",
+    "read": "Rúguǒ wǒmen xiànzài bù xíng dòng, shéi lái xíng dòng?",
+    "ko": "우리가 지금 행동하지 않으면 누가 하겠습니까?",
+    "en": "If we do not act now, who will?",
+    "situation": {
+     "ko": "수사 의문문을 쓸 때",
+     "en": "Using a rhetorical question"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "这是勇气、责任和未来的问题。",
+    "read": "Zhè shì yǒng qì, zé rèn hé wèi lái de wèntí.",
+    "ko": "이것은 용기의 문제이고, 책임의 문제이며, 미래의 문제입니다.",
+    "en": "This is a matter of courage, of responsibility and of the future.",
+    "situation": {
+     "ko": "3의 법칙을 쓸 때",
+     "en": "Using the rule of three"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我们不会逃避这个挑战。",
+    "read": "Wǒmen búhuì táo bì zhège tiǎo zhàn.",
+    "ko": "우리는 이 도전에서 물러서지 않을 것입니다.",
+    "en": "We will not back away from this challenge.",
+    "situation": {
+     "ko": "결의를 밝힐 때",
+     "en": "Declaring resolve"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "只要携手，我们就能做到。",
+    "read": "Zhī yào xié shǒu, wǒmen jiù néng zuò dào.",
+    "ko": "함께라면 우리는 해낼 수 있습니다.",
+    "en": "Together, we can do it.",
+    "situation": {
+     "ko": "단합을 호소할 때",
+     "en": "Appealing for unity"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "现在正是我们行动的时候。",
+    "read": "Xiànzài zhèng shì wǒmen xíng dòng de shíhou.",
+    "ko": "이제 우리가 행동할 때입니다.",
+    "en": "Now is the time for us to act.",
+    "situation": {
+     "ko": "행동을 촉구할 때",
+     "en": "Calling for action"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "最后，感谢大家的聆听。",
+    "read": "Zuìhòu, gǎn xiè dàjiā de líng tīng.",
+    "ko": "마지막으로, 경청해 주셔서 감사합니다.",
+    "en": "Finally, thank you for listening.",
+    "situation": {
+     "ko": "연설을 마무리할 때",
+     "en": "Closing a speech"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "各位……。",
+    "read": "Gè wèi ….",
+    "ko": "여러분, ~합시다.",
+    "en": "Let us ... together."
+   },
+   {
+    "id": "w2",
+    "t": "这不是……而是……。",
+    "read": "Zhè bú shì … ér shì ….",
+    "ko": "~가 아니라 ~입니다.",
+    "en": "This is not ..., but ..."
+   },
+   {
+    "id": "w3",
+    "t": "现在正是……的时候。",
+    "read": "Xiànzài zhèng shì … de shíhou.",
+    "ko": "~할 때입니다.",
+    "en": "Now is the time to ..."
+   },
+   {
+    "id": "w4",
+    "t": "最后，……。",
+    "read": "Zuìhòu, ….",
+    "ko": "마지막으로 ~.",
+    "en": "Finally, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "졸업식이나 기념식 연설의 핵심 문장을 인사·문제·호소·마무리 순으로 4문장으로 써 보세요.",
+    "en": "Write four key sentences of a graduation or commemoration speech: greeting, problem, appeal, closing."
+   },
+   "must_include": [
+    {
+     "label": "各位",
+     "match": [
+      "各位"
+     ]
+    },
+    {
+     "label": "不行动",
+     "match": [
+      "不行动"
+     ]
+    },
+    {
+     "label": "携手",
+     "match": [
+      "携手"
+     ]
+    }
+   ],
+   "model": "各位来宾，感谢大家今天来到这里。我们面临巨大的挑战，但我们不会放弃。如果我们现在不行动，谁来行动？让我们携手，一定能做到。",
+   "model_trans": {
+    "ko": "신사 숙녀 여러분, 오늘 이 자리에 와 주셔서 감사합니다. 우리는 큰 도전에 직면해 있지만 포기하지 않을 것입니다. 우리가 지금 행동하지 않으면 누가 하겠습니까? 함께라면 우리는 해낼 수 있습니다.",
+    "en": "Ladies and gentlemen, thank you for being here today. We face a great challenge, but we will not give up. If we do not act now, who will? Together, we can do it."
+   }
+  }
+ }
+}

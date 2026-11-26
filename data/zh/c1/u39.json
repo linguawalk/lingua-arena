@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u39",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 39,
+  "concept": "C1.U39",
+  "status": "live",
+  "title": {
+   "target": "法律与司法",
+   "ko": "법과 정의",
+   "en": "Law and justice"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "被判有罪",
+   "pos": "phrase",
+   "read": "bèi pàn yǒu zuì",
+   "ko": "유죄를 선고받다",
+   "en": "be convicted of",
+   "ex": {
+    "t": "他被判犯有诈骗罪。",
+    "read": "Tā bèi pàn fàn yǒu zhà piàn zuì.",
+    "ko": "그는 사기죄로 유죄를 선고받았어요.",
+    "en": "He was convicted of fraud."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "认罪",
+   "pos": "phrase",
+   "read": "rèn zuì",
+   "ko": "유죄를 인정하다",
+   "en": "plead guilty",
+   "ex": {
+    "t": "被告人认了罪。",
+    "read": "Bèi gào rén rèn le zuì.",
+    "ko": "피고인은 유죄를 인정했어요.",
+    "en": "The defendant pleaded guilty."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "排除合理怀疑",
+   "pos": "phrase",
+   "read": "pái chú hé lǐ huái yí",
+   "ko": "합리적 의심의 여지 없이",
+   "en": "beyond reasonable doubt",
+   "ex": {
+    "t": "检方必须排除合理怀疑。",
+    "read": "Jiǎn fāng bìxū pái chú hé lǐ huái yí.",
+    "ko": "검찰은 합리적 의심의 여지 없이 입증해야 해요.",
+    "en": "The prosecution must prove it beyond reasonable doubt."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "维持原判",
+   "pos": "phrase",
+   "read": "wéi chí yuán pàn",
+   "ko": "판결을 유지하다",
+   "en": "uphold a ruling",
+   "ex": {
+    "t": "上诉法院维持了原判。",
+    "read": "Shàng sù fǎ yuàn wéi chí le yuán pàn.",
+    "ko": "항소 법원은 판결을 유지했어요.",
+    "en": "The appeal court upheld the ruling."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "被告人",
+   "pos": "noun",
+   "read": "bèi gào rén",
+   "ko": "피고인",
+   "en": "defendant",
+   "ex": {
+    "t": "被告人声称无罪。",
+    "read": "Bèi gào rén shēng chēng wú zuì.",
+    "ko": "피고인은 무죄를 주장했어요.",
+    "en": "The defendant claimed innocence."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "证据",
+   "pos": "noun",
+   "read": "zhèngjù",
+   "ko": "증거",
+   "en": "evidence",
+   "ex": {
+    "t": "证据不足。",
+    "read": "Zhèngjù bù zú.",
+    "ko": "증거가 충분하지 않았어요.",
+    "en": "The evidence was insufficient."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "上诉",
+   "pos": "verb",
+   "read": "shàng sù",
+   "ko": "항소하다",
+   "en": "appeal",
+   "ex": {
+    "t": "他对判决提出了上诉。",
+    "read": "Tā duì pàn jué tí chū le shàng sù.",
+    "ko": "그는 판결에 항소했어요.",
+    "en": "He appealed against the verdict."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "宣告无罪",
+   "pos": "verb",
+   "read": "xuān gào wú zuì",
+   "ko": "무죄를 선고하다",
+   "en": "acquit",
+   "ex": {
+    "t": "陪审团宣告他无罪。",
+    "read": "Péi shěn tuán xuān gào tā wú zuì.",
+    "ko": "배심원단은 그를 무죄로 판결했어요.",
+    "en": "The jury acquitted him."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "刑期",
+   "pos": "noun",
+   "read": "xíng qī",
+   "ko": "형량",
+   "en": "sentence",
+   "ex": {
+    "t": "刑期为五年。",
+    "read": "Xíng qī wèi wǔ nián.",
+    "ko": "형량은 5년이었어요.",
+    "en": "The sentence was five years."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "公正审判",
+   "pos": "noun",
+   "read": "gōng zhèng shěn pàn",
+   "ko": "공정한 재판",
+   "en": "fair trial",
+   "ex": {
+    "t": "每个人都有权获得公正审判。",
+    "read": "Měi gè rén dōu yǒu quán huò děi gōng zhèng shěn pàn.",
+    "ko": "모든 사람은 공정한 재판을 받을 권리가 있어요.",
+    "en": "Everyone has the right to a fair trial."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "被判……罪／认罪／排除合理怀疑／维持原判",
+   "en": "Law: 被判……罪 / 认罪 / 排除合理怀疑 / 维持原判"
+  },
+  "explain": {
+   "ko": "法律文体用固定的表达。被告人“被判犯有诈骗罪”，“不认罪”，检方必须“排除合理怀疑”证明有罪。证据不足时“宣告无罪”。对判决不服可以“提出上诉”，上诉法院可以“维持原判”。“公正审判”是法治的核心。",
+   "en": "Legal style uses fixed expressions. The defendant 被判犯有诈骗罪 or 不认罪; the prosecution must 排除合理怀疑 to prove guilt. With insufficient evidence: 宣告无罪. A verdict can be appealed (提出上诉); an appeal court may 维持原判. 公正审判 is central to the rule of law."
+  },
+  "table": {
+   "head": [
+    "表达 / Expression",
+    "意思 / Meaning",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "被判犯有……罪",
+     "be convicted of",
+     "他被判犯有诈骗罪。"
+    ],
+    [
+     "排除合理怀疑",
+     "beyond reasonable doubt",
+     "检方必须排除合理怀疑。"
+    ],
+    [
+     "提出上诉",
+     "appeal",
+     "他对判决提出了上诉。"
+    ],
+    [
+     "维持原判",
+     "uphold the ruling",
+     "上诉法院维持了原判。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "无罪推定是基本原则。",
+    "en": "Presumption of innocence is basic."
+   },
+   {
+    "ko": "证据不足就不能判有罪。",
+    "en": "Insufficient evidence means no conviction."
+   },
+   {
+    "ko": "要区分检方和辩方。",
+    "en": "Distinguish prosecution and defence."
+   }
+  ],
+  "examples": [
+   {
+    "t": "他被判犯有诈骗罪。",
+    "read": "Tā bèi pàn fàn yǒu zhà piàn zuì.",
+    "ko": "그는 사기죄로 유죄를 선고받았어요.",
+    "en": "He was convicted of fraud."
+   },
+   {
+    "t": "被告人没有认罪。",
+    "read": "Bèi gào rén méiyǒu rèn zuì.",
+    "ko": "피고인은 유죄를 인정했어요.",
+    "en": "The defendant pleaded guilty."
+   },
+   {
+    "t": "检方必须排除合理怀疑，证明其有罪。",
+    "read": "Jiǎn fāng bìxū pái chú hé lǐ huái yí, zhèng míng qí yǒu zuì.",
+    "ko": "검찰은 합리적 의심의 여지 없이 입증해야 해요.",
+    "en": "The prosecution must prove it beyond reasonable doubt."
+   },
+   {
+    "t": "由于证据不足，他被宣告无罪。",
+    "read": "Yóu yú zhèngjù bù zú, tā bèi xuān gào wú zuì.",
+    "ko": "항소 법원은 원심을 유지했어요.",
+    "en": "The appeal court upheld the original ruling."
+   },
+   {
+    "t": "上诉法院维持了原判。",
+    "read": "Shàng sù fǎ yuàn wéi chí le yuán pàn.",
+    "ko": "모든 사람은 공정한 재판을 받을 권리가 있어요.",
+    "en": "Everyone has a right to a fair trial."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "他被判犯有诈骗___。",
+    "options": [
+     "罪",
+     "球",
+     "路"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "被告人没有___罪。",
+    "options": [
+     "认",
+     "买",
+     "借"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "检方必须排除合理___。",
+    "options": [
+     "怀疑",
+     "天气",
+     "费用"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "上诉法院___了原判。",
+    "options": [
+     "维持",
+     "忘记",
+     "买"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "被告人被指控什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 피고인은 어떤 혐의를 받았나요?",
+     "en": "(Question) What was the defendant accused of?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "他被指控诈骗。",
+       "他被指控迟到。",
+       "他没有被指控。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "上诉法院怎么判的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 항소 법원은 어떻게 판결했나요?",
+     "en": "(Question) How did the appeal court rule?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "维持了原判。",
+       "改判无罪。",
+       "没有判决。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你听说审判结果了吗？"
+      },
+      {
+       "s": "B",
+       "t": "听说了，他被判犯有诈骗罪。"
+      },
+      {
+       "s": "A",
+       "t": "他会上诉吗？"
+      },
+      {
+       "s": "B",
+       "t": "他已经上诉了，上诉法院维持了原判。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그 재판 결과 들었어?\nB: 응, 사기죄로 유죄 판결을 받았대.\nA: 항소할까?\nB: 이미 했는데 항소 법원이 원심을 유지했어.",
+     "en": "A: Did you hear the trial result?\nB: Yes, he was convicted of fraud.\nA: Will he appeal?\nB: He already did, and the appeal court upheld the ruling."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "上诉法院做了什么？",
+      "options": [
+       "维持原判",
+       "改判",
+       "撤销案件"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "在刑事审判中，检方必须排除合理怀疑，证明被告人有罪。如果证据不足，被告人会被宣告无罪。这一原则保护无辜的人。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "형사 재판에서 검찰은 합리적 의심의 여지 없이 피고인의 유죄를 입증해야 합니다. 증거가 충분하지 않으면 피고인은 무죄가 선고됩니다. 이 원칙은 무고한 사람을 보호하기 위한 것입니다.",
+     "en": "In a criminal trial, the prosecution must prove the defendant's guilt beyond reasonable doubt. If the evidence is insufficient, the defendant is acquitted. This principle protects the innocent."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "检方必须证明什么？",
+      "options": [
+       "排除合理怀疑的有罪",
+       "被告人的年龄",
+       "法官的意见"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "判决出来了。"
+      },
+      {
+       "s": "B",
+       "t": "我的当事人声称无罪，但被判有罪。"
+      },
+      {
+       "s": "A",
+       "t": "你们会上诉吗？"
+      },
+      {
+       "s": "B",
+       "t": "会的，我们打算上诉。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 판결이 나왔습니다.\n변호사: 의뢰인은 무죄를 주장했지만 유죄가 선고되었습니다.\n기자: 항소할 예정인가요?\n변호사: 네, 항소할 계획입니다.",
+     "en": "Reporter: A verdict has come in.\nLawyer: My client claimed innocence but was convicted.\nReporter: Will you appeal?\nLawyer: Yes, we plan to appeal."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "当事人声称______",
+      "answers": [
+       "无罪"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "律师打算______",
+      "answers": [
+       "上诉"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 他被判犯有诈骗___。\n2) 被告人没有___罪。\n3) 每个人都有权获得公正___。",
+    "trans": {
+     "ko": "1) 그는 사기죄로 유죄를 선고받았어요. 2) 피고인은 유죄를 인정했어요. 3) 모든 사람은 공정한 재판을 받을 권리가 있어요.",
+     "en": "1) He was convicted of fraud. 2) The defendant pleaded guilty. 3) Everyone has the right to a fair trial."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他被判犯有诈骗___。",
+      "options": [
+       "罪",
+       "球",
+       "路"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "被告人没有___罪。",
+      "options": [
+       "认",
+       "买",
+       "借"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "每个人都有权获得公正___。",
+      "options": [
+       "审判",
+       "旅行",
+       "购物"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "庭审中，检方提出了被告人当时在现场的(1)。然而，辩方认为这只是间接证据。陪审团认为仍存在合理(2)，作出了(3)的裁决。",
+    "trans": {
+     "ko": "재판에서 검찰은 피고인이 범행 장소에 있었다는 증거를 제시했습니다. 그러나 변호인단은 증거가 간접적이라고 주장했습니다. 배심원단은 합리적 의심이 남는다고 판단하여 피고인에게 무죄를 평결했습니다.",
+     "en": "At trial, the prosecution presented evidence that the defendant had been at the scene. The defence, however, argued that the evidence was circumstantial. The jury found reasonable doubt remained and returned a verdict of not guilty."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "证据",
+       "礼物",
+       "照片"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "怀疑",
+       "快乐",
+       "朋友"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "无罪",
+       "有罪",
+       "延期"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "新闻\n上诉判决\n上诉法院今天维持了原判。法官表示，证据已排除合理怀疑地证明了被告人有罪。辩方打算向最高法院上诉。",
+    "trans": {
+     "ko": "뉴스\n항소심 판결\n항소 법원은 오늘 원심 판결을 유지했다. 재판부는 증거가 합리적 의심의 여지 없이 피고인의 유죄를 입증한다고 밝혔다. 피고인 측은 대법원에 상고할 방침이다.",
+     "en": "NEWS\nAppeal decision\nThe appeal court today upheld the original ruling. The bench said the evidence proved the defendant's guilt beyond reasonable doubt. The defence intends to appeal to the Supreme Court."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "上诉法院做了什么？",
+      "options": [
+       "维持了原判",
+       "改判无罪",
+       "撤销案件"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "辩方打算做什么？",
+      "options": [
+       "向最高法院上诉",
+       "认罪",
+       "放弃"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "上诉法院维持了原判。被告人被释放了。辩方打算向最高法院上诉。",
+    "trans": {
+     "ko": "항소 법원은 원심 판결을 유지했다. 피고인은 석방되었다. 피고인 측은 대법원에 상고할 계획이다.",
+     "en": "The appeal court upheld the original ruling. The defendant was released. The defence plans to appeal to the Supreme Court."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "上诉法院维持了原判。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "被告人被释放了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "辩方打算向最高法院上诉。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "他被判犯有诈骗罪。",
+    "read": "Tā bèi pàn fàn yǒu zhà piàn zuì.",
+    "ko": "그는 사기죄로 유죄를 선고받았습니다.",
+    "en": "He was convicted of fraud.",
+    "situation": {
+     "ko": "판결을 보도할 때",
+     "en": "Reporting a verdict"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "被告人没有认罪。",
+    "read": "Bèi gào rén méiyǒu rèn zuì.",
+    "ko": "피고인은 유죄를 인정하지 않았습니다.",
+    "en": "The defendant did not plead guilty.",
+    "situation": {
+     "ko": "법정 절차를 말할 때",
+     "en": "Describing court procedure"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "检方必须排除合理怀疑，证明其有罪。",
+    "read": "Jiǎn fāng bìxū pái chú hé lǐ huái yí, zhèng míng qí yǒu zuì.",
+    "ko": "검찰은 합리적 의심의 여지 없이 입증해야 합니다.",
+    "en": "The prosecution must prove guilt beyond reasonable doubt.",
+    "situation": {
+     "ko": "원칙을 설명할 때",
+     "en": "Explaining a principle"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "由于证据不足，他被宣告无罪。",
+    "read": "Yóu yú zhèngjù bù zú, tā bèi xuān gào wú zuì.",
+    "ko": "증거가 충분하지 않아 무죄가 선고되었습니다.",
+    "en": "He was acquitted because the evidence was insufficient.",
+    "situation": {
+     "ko": "무죄 사유를 설명할 때",
+     "en": "Explaining an acquittal"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "他对判决提出了上诉。",
+    "read": "Tā duì pàn jué tí chū le shàng sù.",
+    "ko": "그는 판결에 불복해 항소했습니다.",
+    "en": "He appealed against the verdict.",
+    "situation": {
+     "ko": "항소를 말할 때",
+     "en": "Mentioning an appeal"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "法院维持了原判。",
+    "read": "Fǎ yuàn wéi chí le yuán pàn.",
+    "ko": "법원은 원심 판결을 유지했습니다.",
+    "en": "The court upheld the original ruling.",
+    "situation": {
+     "ko": "항소 결과를 말할 때",
+     "en": "Reporting an appeal result"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "这一刑期被批评为过轻。",
+    "read": "Zhè yì xíng qī bèi pī píng wèi guo qīng.",
+    "ko": "형량이 지나치게 가볍다는 비판이 있습니다.",
+    "en": "The sentence has been criticised as too lenient.",
+    "situation": {
+     "ko": "형량을 평가할 때",
+     "en": "Evaluating a sentence"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "公正审判是法治的核心。",
+    "read": "Gōng zhèng shěn pàn shì fǎ zhì de hé xīn.",
+    "ko": "공정한 재판은 법치의 핵심입니다.",
+    "en": "A fair trial is at the heart of the rule of law.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "被判犯有……罪。",
+    "read": "Bèi pàn fàn yǒu … zuì.",
+    "ko": "~죄로 유죄를 선고받다.",
+    "en": "be convicted of ..."
+   },
+   {
+    "id": "w2",
+    "t": "……没有认罪。",
+    "read": "… Méiyǒu rèn zuì.",
+    "ko": "유죄를 인정하다.",
+    "en": "plead guilty (to ...)"
+   },
+   {
+    "id": "w3",
+    "t": "排除合理怀疑。",
+    "read": "Pái chú hé lǐ huái yí.",
+    "ko": "합리적 의심의 여지 없이.",
+    "en": "beyond reasonable doubt"
+   },
+   {
+    "id": "w4",
+    "t": "维持原判。",
+    "read": "Wéi chí yuán pàn.",
+    "ko": "판결을 유지하다.",
+    "en": "uphold a ruling"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가상의 재판 사건을 사건·증거·판결·항소 순으로 4문장으로 써 보세요.",
+    "en": "Write four sentences on an imaginary court case: the charge, evidence, verdict, appeal."
+   },
+   "must_include": [
+    {
+     "label": "认罪",
+     "match": [
+      "认罪"
+     ]
+    },
+    {
+     "label": "合理怀疑",
+     "match": [
+      "合理怀疑"
+     ]
+    },
+    {
+     "label": "维持原判",
+     "match": [
+      "维持原判"
+     ]
+    }
+   ],
+   "model": "被告人被控诈骗，但没有认罪。检方提出了排除合理怀疑的证据。法院判他有罪，处三年有期徒刑。他提出了上诉，但上诉法院决定维持原判。",
+   "model_trans": {
+    "ko": "피고인은 사기 혐의로 기소되었으나 유죄를 인정하지 않았습니다. 검찰은 합리적 의심의 여지 없는 증거를 제시했습니다. 법원은 그에게 유죄를 선고하고 징역 3년을 선고했습니다. 피고인은 항소했지만 항소 법원은 원심을 유지했습니다.",
+    "en": "The defendant was charged with fraud but did not plead guilty. The prosecution presented evidence beyond reasonable doubt. The court convicted him and sentenced him to three years in prison. He appealed, but the appeal court upheld the original ruling."
+   }
+  }
+ }
+}

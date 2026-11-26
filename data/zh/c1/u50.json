@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u50",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 50,
+  "concept": "C1.U50",
+  "status": "live",
+  "title": {
+   "target": "C1总复习：写一篇有深度的议论文",
+   "ko": "C1 종합: 정교한 논증 에세이",
+   "en": "C1 review: writing a sophisticated argued essay"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "缜密",
+   "pos": "adj",
+   "read": "zhěn mì",
+   "ko": "정교한",
+   "en": "sophisticated",
+   "ex": {
+    "t": "他的论证很缜密。",
+    "read": "Tā de lùn zhèng hěn zhěn mì.",
+    "ko": "그의 논증은 정교해요.",
+    "en": "His argument is sophisticated."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "综合",
+   "pos": "verb",
+   "read": "zōng hé",
+   "ko": "종합하다",
+   "en": "synthesise",
+   "ex": {
+    "t": "她综合多种资料得出了结论。",
+    "read": "Tā zōng hé duō zhǒng zī liào děi chū le jié lùn.",
+    "ko": "여러 자료를 종합해 결론을 냈어요.",
+    "en": "She synthesised several sources into a conclusion."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "微妙",
+   "pos": "noun",
+   "read": "wēi miào",
+   "ko": "미묘한 차이",
+   "en": "nuance",
+   "ex": {
+    "t": "这个问题有微妙之处。",
+    "read": "Zhège wèntí yǒu wēi miào zhī chù.",
+    "ko": "이 문제에는 미묘한 차이가 있어요.",
+    "en": "There is nuance in this issue."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "严格来说",
+   "pos": "phrase",
+   "read": "yángé lái shuō",
+   "ko": "엄밀히 말해서",
+   "en": "strictly speaking",
+   "ex": {
+    "t": "严格来说，这不对。",
+    "read": "Yángé lái shuō, zhè bú duì.",
+    "ko": "엄밀히 말해서 그건 사실이 아니에요.",
+    "en": "Strictly speaking, that isn't true."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "一方面",
+   "pos": "phrase",
+   "read": "yì fāngmiàn",
+   "ko": "한편으로는",
+   "en": "on the one hand",
+   "ex": {
+    "t": "一方面是机遇，另一方面是风险。",
+    "read": "Yì fāngmiàn shì jī yù, lìng yì fāngmiàn shì fēng xiǎn.",
+    "ko": "한편으로는 기회이고 다른 한편으로는 위험이에요.",
+    "en": "On the one hand it is an opportunity; on the other, a risk."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "主张",
+   "pos": "verb",
+   "read": "zhǔ zhāng",
+   "ko": "단언하다",
+   "en": "assert",
+   "ex": {
+    "t": "他主张自己的观点。",
+    "read": "Tā zhǔ zhāng zìjǐ de guān diǎn.",
+    "ko": "그는 자신의 주장을 단언했어요.",
+    "en": "He asserted his claim."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "反驳",
+   "pos": "verb",
+   "read": "fǎn bó",
+   "ko": "반박하다",
+   "en": "rebut",
+   "ex": {
+    "t": "他反驳了批评。",
+    "read": "Tā fǎn bó le pī píng.",
+    "ko": "그는 비판을 반박했어요.",
+    "en": "He rebutted the criticism."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "启示",
+   "pos": "noun",
+   "read": "qǐ shì",
+   "ko": "함의",
+   "en": "implication",
+   "ex": {
+    "t": "这个结果有重要的启示。",
+    "read": "Zhège jié guǒ yǒu zhòng yào de qǐ shì.",
+    "ko": "이 결과에는 중요한 함의가 있어요.",
+    "en": "The result has important implications."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "有说服力",
+   "pos": "adj",
+   "read": "yǒu shuō fú lì",
+   "ko": "설득력 있는",
+   "en": "compelling",
+   "ex": {
+    "t": "这个论证很有说服力。",
+    "read": "Zhège lùn zhèng hěn yǒu shuō fú lì.",
+    "ko": "그 논거는 설득력이 있어요.",
+    "en": "The argument is compelling."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "总的来看",
+   "pos": "phrase",
+   "read": "zǒng de lái kàn",
+   "ko": "종합적으로 볼 때",
+   "en": "on balance",
+   "ex": {
+    "t": "总的来看，利大于弊。",
+    "read": "Zǒng de lái kàn, lì dà yú bì.",
+    "ko": "종합적으로 볼 때 이득이 더 커요.",
+    "en": "On balance, the gains outweigh the losses."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "本文认为……／一方面……另一方面……／倘若……就……／总的来看",
+   "en": "C1 review: 本文认为 / 一方面……另一方面 / 倘若 / 总的来看"
+  },
+  "explain": {
+   "ko": "议论文要有论点、论据、反方观点、反驳和结论。论点：“本文认为远程办公提高效率。”权衡：“一方面成本降低，另一方面协作可能削弱。”假设：“倘若准备充分，结果就会不同。”让步与反驳：“诚然……，然而……。”结论：“总的来看，利大于弊，因此企业应采用灵活办公。”",
+   "en": "An argued essay has thesis, evidence, counter-argument, rebuttal and conclusion. Thesis: 本文认为远程办公提高效率. Weighing: 一方面成本降低，另一方面协作可能削弱. Hypothetical: 倘若准备充分，结果就会不同. Concession and rebuttal: 诚然……，然而……. Conclusion: 总的来看，利大于弊，因此企业应采用灵活办公."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "论点 / Thesis",
+     "本文认为……",
+     "本文认为远程办公提高效率。"
+    ],
+    [
+     "权衡 / Weigh",
+     "一方面……另一方面……",
+     "一方面成本降低，另一方面协作削弱。"
+    ],
+    [
+     "让步 / Concede",
+     "诚然……，然而……",
+     "诚然方便，然而可能削弱专注。"
+    ],
+    [
+     "结论 / Conclude",
+     "总的来看，……",
+     "总的来看，利大于弊。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "复杂的结构用得太多会使读者困惑。",
+    "en": "Overly complex structure confuses readers."
+   },
+   {
+    "ko": "要有平衡感，也要有明确的立场。",
+    "en": "Balance, yet take a clear stance."
+   },
+   {
+    "ko": "结论要回应论点。",
+    "en": "The conclusion should answer the thesis."
+   }
+  ],
+  "examples": [
+   {
+    "t": "本文认为远程办公提高了效率。",
+    "read": "Běn wén rènwéi yuǎn chéng bàn gōng tígāo le xiào lǜ.",
+    "ko": "종합적으로 볼 때 이득이 더 커요.",
+    "en": "On balance, the gains outweigh the losses."
+   },
+   {
+    "t": "一方面成本降低，另一方面协作可能削弱。",
+    "read": "Yì fāngmiàn chéng běn jiàng dī, lìng yì fāngmiàn xié zuò kěnéng xuē ruò.",
+    "ko": "한편으로는 기회지만 다른 한편으로는 위험이에요.",
+    "en": "On the one hand it is an opportunity; on the other, a risk."
+   },
+   {
+    "t": "倘若准备充分，结果就会不同。",
+    "read": "Tǎng ruò zhǔn bèi chōng fēn, jié guǒ jiù huì bù tóng.",
+    "ko": "그가 더 신중했더라면 그런 실수는 하지 않았을 거예요.",
+    "en": "Had he been more careful, he would not have made that mistake."
+   },
+   {
+    "t": "然而，近期研究反驳了这一说法。",
+    "read": "Rán'ér, jìn qī yán jiū fǎn bó le zhè yì shuō fǎ.",
+    "ko": "그런 상황은 좀처럼 일어나지 않아요.",
+    "en": "Rarely does such a situation occur."
+   },
+   {
+    "t": "总的来看，利大于弊。",
+    "read": "Zǒng de lái kàn, lì dà yú bì.",
+    "ko": "이 결과는 중요한 함의를 지니는 것으로 보여요.",
+    "en": "The result appears to have important implications."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "本文___远程办公提高了效率。",
+    "options": [
+     "认为",
+     "忘记",
+     "购买"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___成本降低，另一方面协作可能削弱。",
+    "options": [
+     "一方面",
+     "首先",
+     "例如"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___准备充分，结果就会不同。",
+    "options": [
+     "倘若",
+     "虽然",
+     "因为"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___，利大于弊。",
+    "options": [
+     "总的来看",
+     "相反",
+     "偶然"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这篇文章的论点是什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 에세이의 논지는 무엇인가요?",
+     "en": "(Question) What is the thesis of this essay?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "远程办公提高效率。",
+       "没有论点。",
+       "我不认识作者。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "反方观点是怎样处理的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 반론은 어떻게 다루었나요?",
+     "en": "(Question) How was the counter-argument handled?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "用研究来反驳。",
+       "忽略了它。",
+       "没有提到。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我写完文章了，你觉得怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "论点很清楚，但反方观点比较弱。"
+      },
+      {
+       "s": "A",
+       "t": "要不要加一段反驳？"
+      },
+      {
+       "s": "B",
+       "t": "要，用“总的来看”会使结论更有说服力。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 에세이를 다 썼는데 어때?\nB: 논지는 분명한데 반론이 약해.\nA: 반박도 넣어야 할까?\nB: 응, 종합적으로 볼 때를 쓰면 결론이 더 설득력 있어.",
+     "en": "A: I've finished the essay; what do you think?\nB: The thesis is clear but the counter-argument is weak.\nA: Should I add a rebuttal?\nB: Yes, and using 'on balance' makes the conclusion more convincing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的建议什么？",
+      "options": [
+       "加反驳，用“总的来看”",
+       "删除结论",
+       "缩短论点"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "有深度的议论文由论点、论据、反方观点、反驳和结论构成。适当使用假设、倒装和委婉的表达，可以使文风更精练。但是结构过于复杂会使读者困惑，所以要注意平衡。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "정교한 논증 에세이는 논지, 근거, 반론, 반박, 결론으로 이루어집니다. 가정법과 도치, 완곡한 표현을 적절히 쓰면 문체가 한층 세련됩니다. 그러나 지나치게 복잡한 구조는 독자를 혼란스럽게 하므로 균형이 필요합니다.",
+     "en": "A sophisticated argued essay consists of thesis, evidence, counter-argument, rebuttal and conclusion. Using hypotheticals, inversion and hedging appropriately refines the style. But overly complex structures confuse readers, so balance is needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "议论文有哪些部分？",
+      "options": [
+       "论点、论据、反方观点、反驳、结论",
+       "只有结论",
+       "只有论据"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我读了你的论文初稿。"
+      },
+      {
+       "s": "B",
+       "t": "您觉得怎么样？"
+      },
+      {
+       "s": "A",
+       "t": "论点很清楚，但对反方观点的反驳不足。"
+      },
+      {
+       "s": "B",
+       "t": "我会补充反驳，并改进结论。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 에세이 초안을 읽었습니다.\n학생: 어땠나요?\n교수: 논지는 분명하지만 반론에 대한 반박이 부족합니다.\n학생: 반박을 추가하고 결론을 다듬겠습니다.",
+     "en": "Professor: I read your essay draft.\nStudent: What did you think?\nProfessor: The thesis is clear, but the rebuttal of the counter-argument is lacking.\nStudent: I'll add a rebuttal and refine the conclusion."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "论点很清楚，但______不足",
+      "answers": [
+       "反驳"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "学生会改进______",
+      "answers": [
+       "结论"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 总的来看，利___于弊。\n2) ___成本降低，另一方面协作可能削弱。\n3) ___准备充分，结果就会不同。",
+    "trans": {
+     "ko": "1) 종합적으로 볼 때 이득이 더 커요. 2) 한편으로는 기회지만 다른 한편으로는 위험이에요. 3) 그가 더 신중했더라면 그런 실수는 하지 않았을 거예요.",
+     "en": "1) On balance, the gains outweigh the losses. 2) On the one hand it is an opportunity; on the other, a risk. 3) Had he been more careful, he would not have made that mistake."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "总的来看，利___于弊。",
+      "options": [
+       "大",
+       "小",
+       "无"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___成本降低，另一方面协作可能削弱。",
+      "options": [
+       "一方面",
+       "首先",
+       "例如"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___准备充分，结果就会不同。",
+      "options": [
+       "倘若",
+       "虽然",
+       "因为"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "本文认为，应当减少城市里的汽车使用。有人反对说，这会(1)经济活动。然而，有证据表明，改善公共交通反而可能刺激地方经济。(2)，限制汽车使用的政策是(3)的。",
+    "trans": {
+     "ko": "이 에세이는 도시의 자동차 사용을 줄여야 한다고 주장합니다. 일부는 이것이 경제 활동을 위축시킨다고 반대합니다. 그러나 대중교통이 개선되면 오히려 지역 경제가 활성화될 수 있다는 증거가 있습니다. 종합적으로 볼 때 자동차 억제 정책은 정당화됩니다.",
+     "en": "This essay argues that car use in cities should be reduced. Some object that this dampens economic activity. However, there is evidence that improving public transport may actually stimulate the local economy. On balance, policies to curb car use are justified."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "抑制",
+       "促进",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "总的来看",
+       "相反",
+       "偶然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "合理",
+       "错误",
+       "无关"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "论文摘要\n数字时代的阅读\n本文认为，数字设备妨碍深度阅读。诚然，获取更方便了。然而，屏幕阅读可能削弱专注力。因此，建议有意识地留出时间阅读纸质书。",
+    "trans": {
+     "ko": "에세이 요약\n디지털 시대의 독서\n이 글은 디지털 기기가 깊은 독서를 방해한다고 주장한다. 물론 접근성이 높아졌다는 장점은 있다. 그러나 화면 독서는 집중력을 떨어뜨릴 수 있다. 따라서 의도적으로 종이책을 읽는 시간을 갖는 것이 바람직하다.",
+     "en": "ESSAY SUMMARY\nReading in the digital age\nThis essay argues that digital devices hinder deep reading. Admittedly, access has improved. However, screen reading may weaken concentration. It is therefore advisable to set aside time deliberately to read paper books."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "本文认为什么？",
+      "options": [
+       "数字设备妨碍深度阅读",
+       "数字设备促进阅读",
+       "纸质书没有价值"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "本文建议什么？",
+      "options": [
+       "留出时间读纸质书",
+       "不再读书",
+       "多用手机"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "本文认为数字设备妨碍深度阅读。本文否认数字设备获取更方便。本文建议留出时间读纸质书。",
+    "trans": {
+     "ko": "글은 디지털 기기가 깊은 독서를 방해한다고 주장한다. 글은 디지털 기기의 접근성 장점을 부정한다. 글은 종이책 독서 시간을 권한다.",
+     "en": "The essay argues that digital devices hinder deep reading. The essay denies the accessibility advantage of digital devices. The essay recommends time for reading paper books."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "本文认为数字设备妨碍深度阅读。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "本文否认数字设备获取更方便。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "本文建议留出时间读纸质书。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "本文认为远程办公提高了效率。",
+    "read": "Běn wén rènwéi yuǎn chéng bàn gōng tígāo le xiào lǜ.",
+    "ko": "이 에세이는 재택근무가 생산성을 높인다고 주장합니다.",
+    "en": "This essay argues that remote working boosts productivity.",
+    "situation": {
+     "ko": "논지를 밝힐 때",
+     "en": "Stating a thesis"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "一方面成本降低，另一方面协作可能削弱。",
+    "read": "Yì fāngmiàn chéng běn jiàng dī, lìng yì fāngmiàn xié zuò kěnéng xuē ruò.",
+    "ko": "한편으로는 비용이 절감되지만 다른 한편으로는 협업이 약해질 수 있습니다.",
+    "en": "On the one hand costs fall; on the other, collaboration may weaken.",
+    "situation": {
+     "ko": "양면을 제시할 때",
+     "en": "Presenting both sides"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "并非所有员工的工作方式都相同。",
+    "read": "Bìng fēi suǒyǒu yuán gōng de gōngzuò fāng shì dōu xiāng tóng.",
+    "ko": "좀처럼 모든 직원이 같은 방식으로 일하지는 않습니다.",
+    "en": "Rarely do all employees work in the same way.",
+    "situation": {
+     "ko": "도치를 쓸 때",
+     "en": "Using inversion"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "倘若准备充分，结果就会不同。",
+    "read": "Tǎng ruò zhǔn bèi chōng fēn, jié guǒ jiù huì bù tóng.",
+    "ko": "충분히 준비했더라면 결과가 달랐을 것입니다.",
+    "en": "Had we prepared thoroughly, the result would have been different.",
+    "situation": {
+     "ko": "가정을 쓸 때",
+     "en": "Using a hypothetical"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这一结果似乎有重要的启示。",
+    "read": "Zhè yì jié guǒ sì hū yǒu zhòng yào de qǐ shì.",
+    "ko": "이 결과는 중요한 함의를 지니는 것으로 보입니다.",
+    "en": "The result appears to have important implications.",
+    "situation": {
+     "ko": "헤징할 때",
+     "en": "Hedging"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "然而，近期研究反驳了这一说法。",
+    "read": "Rán'ér, jìn qī yán jiū fǎn bó le zhè yì shuō fǎ.",
+    "ko": "그러나 이 주장은 최근 연구에 의해 반박됩니다.",
+    "en": "However, this claim is rebutted by recent research.",
+    "situation": {
+     "ko": "반박할 때",
+     "en": "Rebutting"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "总的来看，利大于弊。",
+    "read": "Zǒng de lái kàn, lì dà yú bì.",
+    "ko": "종합적으로 볼 때 이점이 단점을 상회합니다.",
+    "en": "On balance, the benefits outweigh the drawbacks.",
+    "situation": {
+     "ko": "결론을 쓸 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "因此，企业应采用灵活办公。",
+    "read": "Yīn cǐ, qǐ yè yīng cǎi yòng líng huó bàn gōng.",
+    "ko": "따라서 기업은 유연한 근무 방식을 도입해야 합니다.",
+    "en": "Companies should therefore adopt flexible working arrangements.",
+    "situation": {
+     "ko": "제안으로 마무리할 때",
+     "en": "Ending with a recommendation"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "本文认为……。",
+    "read": "Běn wén rènwéi ….",
+    "ko": "이 글은 ~라고 주장한다.",
+    "en": "This essay argues that ..."
+   },
+   {
+    "id": "w2",
+    "t": "一方面……，另一方面……。",
+    "read": "Yì fāngmiàn …, lìng yì fāngmiàn ….",
+    "ko": "한편으로는 ~, 다른 한편으로는 ~.",
+    "en": "On the one hand ..., on the other ..."
+   },
+   {
+    "id": "w3",
+    "t": "总的来看，……。",
+    "read": "Zǒng de lái kàn, ….",
+    "ko": "종합적으로 볼 때 ~.",
+    "en": "On balance, ..."
+   },
+   {
+    "id": "w4",
+    "t": "倘若……，……就……。",
+    "read": "Tǎng ruò …, … jiù ….",
+    "ko": "~했더라면 ~했을 것이다.",
+    "en": "Had ..., ... would have ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "논지·반론·반박·결론을 모두 포함한 정교한 논증 에세이 요약을 4문장으로 써 보세요.",
+    "en": "Write a four-sentence summary of a sophisticated argued essay with thesis, counter-argument, rebuttal and conclusion."
+   },
+   "must_include": [
+    {
+     "label": "本文认为",
+     "match": [
+      "本文认为"
+     ]
+    },
+    {
+     "label": "一方面",
+     "match": [
+      "一方面"
+     ]
+    },
+    {
+     "label": "总的来看",
+     "match": [
+      "总的来看"
+     ]
+    }
+   ],
+   "model": "本文认为远程办公提高了效率。一方面成本降低，另一方面协作可能削弱。然而，研究表明在线协作工具大大缓解了这一问题。总的来看，企业应当采用灵活办公。",
+   "model_trans": {
+    "ko": "이 에세이는 재택근무가 생산성을 높인다고 주장합니다. 한편으로는 비용이 절감되지만 다른 한편으로는 협업이 약해질 수 있다는 우려가 있습니다. 그러나 온라인 협업 도구가 이 문제를 크게 줄인다는 연구 결과가 있습니다. 종합적으로 볼 때 기업은 유연한 근무 방식을 도입해야 합니다.",
+    "en": "This essay argues that remote working boosts productivity. On the one hand costs fall; on the other, there is concern that collaboration may weaken. However, research shows that online collaboration tools greatly reduce this problem. On balance, companies should adopt flexible working arrangements."
+   }
+  }
+ }
+}

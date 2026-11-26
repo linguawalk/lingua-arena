@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u01",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 1,
+  "concept": "C1.U01",
+  "status": "live",
+  "title": {
+   "target": "过去的情态：批评、后悔与必要性",
+   "ko": "과거 조동사: 비판·후회·불필요",
+   "en": "Past modals: criticism, regret and necessity"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "责备",
+   "pos": "verb",
+   "read": "zé bèi",
+   "ko": "비난하다",
+   "en": "reproach",
+   "ex": {
+    "t": "他用责备的眼神看着我。",
+    "read": "Tā yòng zé bèi de yǎn shén kàn zhe wǒ.",
+    "ko": "그는 나를 비난하는 눈빛으로 쳐다봤어요.",
+    "en": "He gave me a reproachful look."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "疏忽",
+   "pos": "noun",
+   "read": "shū hū",
+   "ko": "부주의",
+   "en": "negligence",
+   "ex": {
+    "t": "这起事故完全是由疏忽造成的。",
+    "read": "Zhè qǐ shì gù wán quán shì yóu shū hū zào chéng de.",
+    "ko": "사고는 명백한 부주의 때문이었어요.",
+    "en": "The accident was caused by sheer negligence."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "遗憾",
+   "pos": "adj",
+   "read": "yí hàn",
+   "ko": "후회스러운",
+   "en": "regrettable",
+   "ex": {
+    "t": "那个决定是个遗憾的错误。",
+    "read": "Nàge juédìng shì gè yí hàn de cuòwù.",
+    "ko": "그 결정은 후회스러운 실수였어요.",
+    "en": "That decision was a regrettable mistake."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "多余",
+   "pos": "adj",
+   "read": "duō yú",
+   "ko": "불필요한",
+   "en": "unnecessary",
+   "ex": {
+    "t": "那样匆忙完全是多余的。",
+    "read": "Nà yàng cōng máng wán quán shì duō yú de.",
+    "ko": "그렇게까지 서두를 필요는 없었어요.",
+    "en": "There was no need for such unnecessary haste."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "避免",
+   "pos": "verb",
+   "read": "bìmiǎn",
+   "ko": "예방하다",
+   "en": "prevent",
+   "ex": {
+    "t": "稍微小心一点，本来可以避免事故。",
+    "read": "Shāowēi xiǎoxīn yìdiǎn, běn lái kěyǐ bìmiǎn shì gù.",
+    "ko": "조금만 주의했더라면 사고를 예방할 수 있었을 거예요.",
+    "en": "A little care could have prevented the accident."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "承担责任",
+   "pos": "phrase",
+   "read": "chéng dān zé rèn",
+   "ko": "책임을 지다",
+   "en": "take responsibility",
+   "ex": {
+    "t": "她主动为这个错误承担责任。",
+    "read": "Tā zhǔ dòng wèi zhège cuòwù chéng dān zé rèn.",
+    "ko": "그녀는 실수에 대한 책임을 졌어요.",
+    "en": "She took responsibility for the error."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "鲁莽",
+   "pos": "adj",
+   "read": "lǔ mǎng",
+   "ko": "경솔한",
+   "en": "reckless",
+   "ex": {
+    "t": "那样做太鲁莽了。",
+    "read": "Nà yàng zuò tài lǔ mǎng le.",
+    "ko": "그건 경솔한 행동이었어요.",
+    "en": "That was a reckless thing to do."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "后知后觉",
+   "pos": "phrase",
+   "read": "hòu zhī hòu jué",
+   "ko": "뒤늦게 깨닫다",
+   "en": "realise too late",
+   "ex": {
+    "t": "我后知后觉，发现自己错了。",
+    "read": "Wǒ hòu zhī hòu jué, fāxiàn zìjǐ cuò le.",
+    "ko": "나는 뒤늦게 내가 틀렸다는 것을 깨달았어요.",
+    "en": "I realised too late that I was wrong."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "借口",
+   "pos": "noun",
+   "read": "jiè kǒu",
+   "ko": "변명",
+   "en": "excuse",
+   "ex": {
+    "t": "他的借口让人难以信服。",
+    "read": "Tā de jiè kǒu ràng rén nán yǐ xìn fú.",
+    "ko": "그의 변명은 설득력이 없었어요.",
+    "en": "His excuse was unconvincing."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "教训",
+   "pos": "noun",
+   "read": "jiào xùn",
+   "ko": "교훈",
+   "en": "lesson",
+   "ex": {
+    "t": "我从这件事中吸取了宝贵的教训。",
+    "read": "Wǒ cóng zhè jiàn shì zhōng xī qǔ le bǎo guì de jiào xùn.",
+    "ko": "이번 일에서 큰 교훈을 얻었어요.",
+    "en": "I learned a valuable lesson from this."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "本该……／早该……／不该……／本来可以……／用不着……",
+   "en": "Past modals: 本该 / 早该 / 不该 / 本来可以 / 用不着"
+  },
+  "explain": {
+   "ko": "表示“事情本来应该这样，但实际没有”，常用“本该／早该／应该……（却没有）”：你本该提前打电话。“不该”表示做了不应该做的事：我不该那样说。“本来可以……”说明错失的机会：稍微小心一点，本来可以避免。“用不着／不必……（可是做了）”表示多余：你用不着来这么早。",
+   "en": "To say something should have happened but did not: 本该／早该／应该……（却没有）: 你本该提前打电话. 不该 marks doing what one should not have: 我不该那样说. 本来可以…… shows a missed chance. 用不着／不必…… (yet it was done) marks the unnecessary: 你用不着来这么早."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "本该 / Should have",
+     "本该／早该＋动词",
+     "你本该提前通知我。"
+    ],
+    [
+     "不该 / Shouldn't have",
+     "不该＋动词",
+     "我不该那样说。"
+    ],
+    [
+     "本来可以 / Could have",
+     "本来可以＋动词",
+     "早点出发，本来可以不迟到。"
+    ],
+    [
+     "用不着 / Needn't have",
+     "用不着＋动词",
+     "你用不着熬夜。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“本来”表示事实与原先的预想不同。",
+    "en": "本来 marks that reality differed from the original expectation."
+   },
+   {
+    "ko": "“早该”带有责备或遗憾的语气。",
+    "en": "早该 carries a tone of reproach or regret."
+   },
+   {
+    "ko": "“用不着”常用在口语中，意思和“不必”相同。",
+    "en": "用不着 is colloquial and means the same as 不必."
+   }
+  ],
+  "examples": [
+   {
+    "t": "你本该提前给我打电话。",
+    "read": "Nǐ běn gāi tíqián gěi wǒ dǎ diànhuà.",
+    "ko": "미리 전화했어야 했는데요.",
+    "en": "You ought to have phoned in advance."
+   },
+   {
+    "t": "你用不着来这么早。",
+    "read": "Nǐ yòng bù zhe lái zhè me zǎo.",
+    "ko": "그렇게 일찍 올 필요는 없었어요.",
+    "en": "You needn't have come so early."
+   },
+   {
+    "t": "稍微小心一点，本来可以避免这起事故。",
+    "read": "Shāowēi xiǎoxīn yìdiǎn, běn lái kěyǐ bìmiǎn zhè qǐ shì gù.",
+    "ko": "조금만 조심했더라면 막을 수 있었을 거예요.",
+    "en": "With a little care, it could have been avoided."
+   },
+   {
+    "t": "他本该参加会议，却一直没有出现。",
+    "read": "Tā běn gāi cānjiā huìyì, què yìzhí méiyǒu chū xiàn.",
+    "ko": "그가 회의에 오기로 되어 있었는데 나타나지 않았어요.",
+    "en": "He was supposed to attend the meeting but never showed up."
+   },
+   {
+    "t": "我不该那样说。",
+    "read": "Wǒ bù gāi nà yàng shuō.",
+    "ko": "그렇게 말하지 말았어야 했어요.",
+    "en": "I shouldn't have said that."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "你___提前给我打电话。",
+    "options": [
+     "本该",
+     "用不着",
+     "从来"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "你___来这么早，会议还没开始呢。",
+    "options": [
+     "用不着",
+     "本该",
+     "一定"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "稍微小心一点，本来___避免这起事故。",
+    "options": [
+     "可以",
+     "必须",
+     "不能"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我___那样说，实在对不起。",
+    "options": [
+     "不该",
+     "本来",
+     "可以"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这起事故本来怎样才能避免？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 사고는 어떻게 예방할 수 있었을까요?",
+     "en": "(Question) How could the accident have been prevented?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "稍微小心一点，本来可以避免。",
+       "我昨天去了。",
+       "我不知道路。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你开会迟到了，打算怎么说？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 회의에 늦은 것에 대해 뭐라고 말하겠어요?",
+     "en": "(Question) What would you say about being late for the meeting?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我本该早点出发。",
+       "在三楼。",
+       "我明天去。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你不是知道报告昨天要交吗？"
+      },
+      {
+       "s": "B",
+       "t": "我知道，可是发错了文件，我本该再检查一遍。"
+      },
+      {
+       "s": "A",
+       "t": "没关系，你用不着这么担心，经理又给了我们一天。"
+      },
+      {
+       "s": "B",
+       "t": "真的吗？那我昨晚就用不着熬夜了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 보고서 마감인 걸 몰랐어?\nB: 알고 있었는데 파일을 잘못 보냈어. 다시 확인했어야 했어.\nA: 괜찮아, 그렇게 걱정할 필요는 없었어. 팀장님이 하루 더 주셨거든.\nB: 정말? 그럼 밤새 쓸 필요도 없었네.",
+     "en": "A: Didn't you know the report was due yesterday?\nB: I did, but I sent the wrong file. I should have checked again.\nA: It's fine. You needn't have worried so much. The manager gave us another day.\nB: Really? Then I needn't have stayed up all night."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女的为什么用不着担心？",
+      "options": [
+       "截止日期延长了",
+       "报告已经交了",
+       "经理出差了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个项目进度落后了很多。我们本该在一开始就检查风险，也本该更经常地向团队通报进展。不过，这次经历会帮助我们更好地管理下一个项目。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이번 프로젝트는 일정이 많이 늦어졌습니다. 우리는 초기에 위험 요소를 점검했어야 했습니다. 팀원들에게 더 자주 상황을 공유할 수도 있었고요. 그래도 이번 경험으로 다음 프로젝트는 더 잘 관리할 수 있을 것입니다.",
+     "en": "This project ran well behind schedule. We should have checked the risks at the start. We could also have updated the team more often. Still, this experience will help us manage the next project better."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人对项目有什么看法？",
+      "options": [
+       "一开始就该检查风险",
+       "进度非常顺利",
+       "不需要团队合作"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今天的话题是后悔。"
+      },
+      {
+       "s": "B",
+       "t": "我觉得我小时候本该坚持学乐器。"
+      },
+      {
+       "s": "A",
+       "t": "现在开始学还来得及吗？"
+      },
+      {
+       "s": "B",
+       "t": "来得及，我只是当时不该放弃。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "진행자: 오늘의 주제는 후회입니다.\n손님: 저는 젊을 때 악기를 계속 배웠어야 했다고 생각해요.\n진행자: 지금 시작하기엔 늦었을까요?\n손님: 아니요, 늦지 않았어요. 다만 그때 포기하지 말았어야 했죠.",
+     "en": "Host: Today's topic is regret.\nGuest: I think I should have kept learning an instrument when I was young.\nHost: Is it too late to start now?\nGuest: No, it isn't. I just shouldn't have given up back then."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "嘉宾觉得小时候本该坚持学______",
+      "answers": [
+       "乐器"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "嘉宾认为现在还______",
+      "answers": [
+       "来得及"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 你___提前给我打电话。\n2) 你___这么着急。\n3) 他___来，可是一直没有出现。",
+    "trans": {
+     "ko": "1) 너는 더 일찍 전화했어야 했어. 2) 그렇게 서두를 필요는 없었어. 3) 그는 오기로 되어 있었는데 나타나지 않았어.",
+     "en": "1) You ought to have phoned earlier. 2) You needn't have hurried so much. 3) He was supposed to come, but he never turned up."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "你___提前给我打电话。",
+      "options": [
+       "本该",
+       "用不着",
+       "从来"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "你___这么着急。",
+      "options": [
+       "用不着",
+       "本该",
+       "一定"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他___来，可是一直没有出现。",
+      "options": [
+       "本该",
+       "不该",
+       "用不着"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "上个月我们团队错过了一份重要的合同。现在回想起来，我们本该更(1)地检查文件。我们用不着在截止日期前熬夜修改，可是(2)让我们停不下来。现在我觉得这个错误是宝贵的(3)。",
+    "trans": {
+     "ko": "지난달 우리 팀은 중요한 계약을 놓쳤어요. 돌이켜 보면 서류를 좀 더 꼼꼼히 검토했어야 했어요. 마감 전날 밤새 수정할 필요는 없었지만, 불안해서 멈출 수 없었어요. 지금은 이 실수가 소중한 교훈이 되었다고 생각해요.",
+     "en": "Last month our team missed an important contract. Looking back, we should have reviewed the documents more carefully. We needn't have revised them all night before the deadline, but anxiety kept us going. Now I think this mistake was a valuable lesson."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "仔细",
+       "随便",
+       "匆忙"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "焦虑",
+       "快乐",
+       "休息"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "教训",
+       "礼物",
+       "借口"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "公司新闻\n停电事故报告\n上周末机房停电，服务中断了三个小时。检查发现，原因是备用电源的旧电池。负责人承认，本该提前检查更换日期。公司将加强定期检查制度。",
+    "trans": {
+     "ko": "사내 소식\n정전 사고 보고\n지난 주말 서버실의 정전으로 서비스가 세 시간 중단되었다. 점검 결과 백업 전원 장치의 배터리가 오래된 것이 원인이었다. 담당자는 교체 시기를 미리 확인했어야 했다고 인정했다. 회사는 앞으로 정기 점검 일정을 강화하기로 했다.",
+     "en": "COMPANY NEWS\nPower failure report\nA power cut in the server room last weekend stopped the service for three hours. Checks showed the cause was an old battery in the backup power unit. The person in charge admitted they should have checked the replacement date in advance. The company will now strengthen its regular inspection schedule."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "服务中断了多长时间？",
+      "options": [
+       "三个小时",
+       "一天",
+       "十分钟"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "负责人承认了什么？",
+      "options": [
+       "本该提前检查更换日期",
+       "没有备用电源",
+       "不知道停电"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "志浩在演讲前一晚熬了夜。现在他后悔没有早点开始准备。一位同事主动提出帮忙，但他拒绝了。",
+    "trans": {
+     "ko": "마이클은 발표 전날 밤을 새웠다. 그는 지금 더 일찍 시작했어야 했다고 후회한다. 그의 동료 한 명이 도와주겠다고 했지만 그는 거절했다.",
+     "en": "Michael stayed up all night before his presentation. Now he regrets not starting earlier. One colleague offered to help, but he refused."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "志浩在演讲前一晚熬了夜。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "志浩现在不后悔。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "同事是他的哥哥。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "你本该提前告诉我。",
+    "read": "Nǐ běn gāi tíqián gàosu wǒ.",
+    "ko": "미리 알려 줬어야 했어요.",
+    "en": "You should have told me in advance.",
+    "situation": {
+     "ko": "상대의 잘못을 비판할 때",
+     "en": "Criticising someone's mistake"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "你用不着这么着急。",
+    "read": "Nǐ yòng bù zhe zhè me zháojí.",
+    "ko": "그렇게까지 서두를 필요는 없었어요.",
+    "en": "You needn't have rushed that much.",
+    "situation": {
+     "ko": "불필요했던 행동을 말할 때",
+     "en": "Saying an action was unnecessary"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我本该更小心一点，对不起。",
+    "read": "Wǒ běn gāi gèng xiǎoxīn yìdiǎn, duìbuqǐ.",
+    "ko": "제가 좀 더 신중했어야 했는데, 정말 죄송합니다.",
+    "en": "I ought to have been more careful, and I apologise.",
+    "situation": {
+     "ko": "자신의 잘못을 인정할 때",
+     "en": "Admitting your own fault"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "早点出发，我们本来可以不迟到。",
+    "read": "Zǎo diǎn chūfā, wǒmen běn lái kěyǐ bù chídào.",
+    "ko": "조금만 일찍 출발했더라면 늦지 않았을 거예요.",
+    "en": "We could have avoided being late if we'd left earlier.",
+    "situation": {
+     "ko": "다른 방법이 있었음을 말할 때",
+     "en": "Pointing to a missed alternative"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "他一定知道，可是什么也没说。",
+    "read": "Tā yí dìng zhīdào, kě shì shénme yě méi shuō.",
+    "ko": "그 사람은 분명히 알고 있었을 텐데도 말하지 않았어요.",
+    "en": "He must have known, yet he said nothing.",
+    "situation": {
+     "ko": "과거에 대해 확신하며 추측할 때",
+     "en": "Confident past deduction"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "也许那样反而更好，谁知道呢？",
+    "read": "Yě xǔ nà yàng fǎn ér gèng hǎo, shéi zhīdào ne?",
+    "ko": "그게 최선이었을 수도 있어요. 우리가 어떻게 알겠어요?",
+    "en": "It may well have been for the best; how could we know?",
+    "situation": {
+     "ko": "비판을 누그러뜨릴 때",
+     "en": "Softening criticism"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "要是当时知道，我就不会那样做了。",
+    "read": "Yào shì dāngshí zhīdào, wǒ jiù búhuì nà yàng zuò le.",
+    "ko": "그때 더 잘 알았더라면 달리 행동했을 거예요.",
+    "en": "Had I known better, I would have acted differently.",
+    "situation": {
+     "ko": "후회를 격식 있게 말할 때",
+     "en": "A formal regret"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我吸取了教训，下次不会了。",
+    "read": "Wǒ xī qǔ le jiào xùn, xià cì búhuì le.",
+    "ko": "이번 일에서 교훈을 얻었으니 다음에는 다를 거예요.",
+    "en": "I've learned my lesson; next time will be different.",
+    "situation": {
+     "ko": "다짐으로 마무리할 때",
+     "en": "Closing with a resolution"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我本该……，可是没有。",
+    "read": "Wǒ běn gāi …, kě shì méiyǒu.",
+    "ko": "~했어야 했는데 (하지 못했다).",
+    "en": "I should have ~ (but I didn't)."
+   },
+   {
+    "id": "w2",
+    "t": "你用不着……，可是你……了。",
+    "read": "Nǐ yòng bù zhe …, kě shì nǐ … le.",
+    "ko": "~할 필요는 없었어요 (했지만).",
+    "en": "You needn't have ~ (but you did)."
+   },
+   {
+    "id": "w3",
+    "t": "我们本来可以……，可是没有。",
+    "read": "Wǒmen běn lái kěyǐ …, kě shì méiyǒu.",
+    "ko": "~할 수도 있었는데 (하지 않았다).",
+    "en": "We could have ~ (but we didn't)."
+   },
+   {
+    "id": "w4",
+    "t": "他本该……。",
+    "read": "Tā běn gāi ….",
+    "ko": "~하기로 되어 있었는데.",
+    "en": "He was supposed to ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "과거의 실수를 되돌아보며 should have, needn't have, could have를 사용해 4문장을 써 보세요.",
+    "en": "Reflect on a past mistake and write 4 sentences using should have, needn't have and could have."
+   },
+   "must_include": [
+    {
+     "label": "本该",
+     "match": [
+      "本该"
+     ]
+    },
+    {
+     "label": "用不着",
+     "match": [
+      "用不着"
+     ]
+    },
+    {
+     "label": "教训",
+     "match": [
+      "教训"
+     ]
+    }
+   ],
+   "model": "我在演讲前一晚才准备，本该早点开始的。我用不着熬夜修改，可是我很焦虑。我本来可以请同事帮忙，可是没有。我从这件事中吸取了宝贵的教训。",
+   "model_trans": {
+    "ko": "저는 프레젠테이션 자료를 전날 밤에야 준비했어요. 더 일찍 시작했어야 했어요. 밤새 수정할 필요는 없었는데 불안해서 그랬어요. 동료에게 도움을 청할 수도 있었지만 그러지 않았어요. 이번 일에서 큰 교훈을 얻었어요.",
+    "en": "I only prepared my presentation the night before. I should have started earlier. I needn't have stayed up all night revising, but I was anxious. I could have asked a colleague for help, but I didn't. I learned a valuable lesson from this."
+   }
+  }
+ }
+}

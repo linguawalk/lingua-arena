@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u40",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 40,
+  "concept": "C1.U40",
+  "status": "live",
+  "title": {
+   "target": "宏观经济与全球化",
+   "ko": "거시경제와 세계화",
+   "en": "Macroeconomics and globalisation"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "通货膨胀",
+   "pos": "noun",
+   "read": "tōng huò péng zhàng",
+   "ko": "인플레이션",
+   "en": "inflation",
+   "ex": {
+    "t": "通货膨胀给家庭带来压力。",
+    "read": "Tōng huò péng zhàng gěi jiātíng dài lái yālì.",
+    "ko": "인플레이션이 가계를 압박해요.",
+    "en": "Inflation puts pressure on households."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "财政政策",
+   "pos": "noun",
+   "read": "cái zhèng zhèng cè",
+   "ko": "재정 정책",
+   "en": "fiscal policy",
+   "ex": {
+    "t": "政府通过财政政策刺激经济。",
+    "read": "Zhèng fǔ tōng guo cái zhèng zhèng cè cì jī jīng jì.",
+    "ko": "정부는 재정 정책으로 경기를 부양했어요.",
+    "en": "The government stimulated the economy through fiscal policy."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "贸易逆差",
+   "pos": "noun",
+   "read": "mào yì nì chà",
+   "ko": "무역 적자",
+   "en": "trade deficit",
+   "ex": {
+    "t": "贸易逆差正在扩大。",
+    "read": "Mào yì nì chà zhèngzài kuò dà.",
+    "ko": "무역 적자가 커지고 있어요.",
+    "en": "The trade deficit is widening."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "紧缩",
+   "pos": "noun",
+   "read": "jǐn suō",
+   "ko": "긴축",
+   "en": "austerity",
+   "ex": {
+    "t": "政府实行了紧缩政策。",
+    "read": "Zhèng fǔ shí xíng le jǐn suō zhèng cè.",
+    "ko": "정부는 긴축 정책을 시행했어요.",
+    "en": "The government imposed austerity."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "衰退",
+   "pos": "noun",
+   "read": "shuāi tuì",
+   "ko": "경기 침체",
+   "en": "recession",
+   "ex": {
+    "t": "经济陷入了衰退。",
+    "read": "Jīng jì xiàn rù le shuāi tuì.",
+    "ko": "경제가 경기 침체에 빠졌어요.",
+    "en": "The economy fell into recession."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "供应链",
+   "pos": "noun",
+   "read": "gōng yìng liàn",
+   "ko": "공급망",
+   "en": "supply chain",
+   "ex": {
+    "t": "供应链被打乱了。",
+    "read": "Gōng yìng liàn bèi dǎ luàn le.",
+    "ko": "공급망이 교란되었어요.",
+    "en": "The supply chain was disrupted."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "受……影响",
+   "pos": "phrase",
+   "read": "shòu … yǐng xiǎng",
+   "ko": "~에 노출되다",
+   "en": "be exposed to",
+   "ex": {
+    "t": "出口企业容易受汇率波动影响。",
+    "read": "Chū kǒu qǐ yè róng yì shòu huì lǜ bō dòng yǐng xiǎng.",
+    "ko": "수출 기업은 환율 변동에 노출돼요.",
+    "en": "Exporters are exposed to exchange-rate swings."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "全球化",
+   "pos": "noun",
+   "read": "quán qiú huà",
+   "ko": "세계화",
+   "en": "globalisation",
+   "ex": {
+    "t": "全球化扩大了贸易。",
+    "read": "Quán qiú huà kuò dà le mào yì.",
+    "ko": "세계화는 무역을 확대했어요.",
+    "en": "Globalisation expanded trade."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "国内生产总值",
+   "pos": "noun",
+   "read": "guó nèi shēngchǎn zǒng zhí",
+   "ko": "국내총생산",
+   "en": "GDP",
+   "ex": {
+    "t": "国内生产总值增长了百分之二。",
+    "read": "Guó nèi shēngchǎn zǒng zhí zēng cháng le bǎi fēn zhī èr.",
+    "ko": "GDP가 2퍼센트 성장했어요.",
+    "en": "GDP grew by two per cent."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "失业率",
+   "pos": "noun",
+   "read": "shī yè lǜ",
+   "ko": "실업률",
+   "en": "unemployment rate",
+   "ex": {
+    "t": "失业率下降了。",
+    "read": "Shī yè lǜ xià jiàng le.",
+    "ko": "실업률이 하락했어요.",
+    "en": "The unemployment rate fell."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "给……带来压力／受……影响／差距扩大／平衡……与……",
+   "en": "Macroeconomics: 带来压力 / 受……影响 / 差距扩大 / 平衡……与……"
+  },
+  "explain": {
+   "ko": "宏观经济报道要准确用词。通货膨胀“给家庭预算带来压力”，出口企业“受汇率波动影响”，贸易逆差“正在扩大”，全球化“扩大了贸易，也拉大了差距”。政策制定者需要“平衡增长与稳定”。这些表达常见于新闻与分析。",
+   "en": "Macroeconomic reporting needs precise wording. Inflation 给家庭预算带来压力; exporters 受汇率波动影响; the trade deficit 正在扩大; globalisation 扩大了贸易，也拉大了差距. Policymakers must 平衡增长与稳定. Common in news and analysis."
+  },
+  "table": {
+   "head": [
+    "表达 / Expression",
+    "意思 / Meaning",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "给……带来压力",
+     "put pressure on",
+     "通胀给家庭带来压力。"
+    ],
+    [
+     "受……影响",
+     "be exposed to",
+     "出口企业受汇率影响。"
+    ],
+    [
+     "正在扩大",
+     "widening",
+     "贸易逆差正在扩大。"
+    ],
+    [
+     "平衡……与……",
+     "balance ... and ...",
+     "平衡增长与稳定。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "增长和通胀常常同时出现。",
+    "en": "Growth and inflation often appear together."
+   },
+   {
+    "ko": "国内生产总值常简称“GDP”。",
+    "en": "国内生产总值 is often abbreviated GDP."
+   },
+   {
+    "ko": "要用数字说明变化。",
+    "en": "Use figures to describe change."
+   }
+  ],
+  "examples": [
+   {
+    "t": "通货膨胀正在给家庭预算带来压力。",
+    "read": "Tōng huò péng zhàng zhèngzài gěi jiātíng yù suàn dài lái yālì.",
+    "ko": "인플레이션이 가계를 압박하고 있어요.",
+    "en": "Inflation is putting pressure on households."
+   },
+   {
+    "t": "政府想通过财政政策刺激增长。",
+    "read": "Zhèng fǔ xiǎng tōng guo cái zhèng zhèng cè cì jī zēng cháng.",
+    "ko": "정부는 재정 정책으로 경기를 부양하려 했어요.",
+    "en": "The government tried to boost the economy through fiscal policy."
+   },
+   {
+    "t": "贸易逆差比去年扩大了。",
+    "read": "Mào yì nì chà bǐ qùnián kuò dà le.",
+    "ko": "무역 적자가 지난해보다 커졌어요.",
+    "en": "The trade deficit widened compared with last year."
+   },
+   {
+    "t": "出口企业很容易受汇率波动影响。",
+    "read": "Chū kǒu qǐ yè hěn róng yì shòu huì lǜ bō dòng yǐng xiǎng.",
+    "ko": "수출 기업은 환율 변동에 노출돼 있어요.",
+    "en": "Exporters are exposed to exchange-rate swings."
+   },
+   {
+    "t": "全球化扩大了贸易，也拉大了差距。",
+    "read": "Quán qiú huà kuò dà le mào yì, yě lā dà le chà jù.",
+    "ko": "세계화는 무역을 확대했지만 불평등도 키웠어요.",
+    "en": "Globalisation expanded trade but also widened inequality."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "通货膨胀正在给家庭带来___。",
+    "options": [
+     "压力",
+     "快乐",
+     "朋友"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "出口企业很容易___汇率波动影响。",
+    "options": [
+     "受",
+     "找",
+     "买"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "贸易逆差正在___。",
+    "options": [
+     "扩大",
+     "睡觉",
+     "回家"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "要平衡增长___稳定。",
+    "options": [
+     "与",
+     "把",
+     "被"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "经济怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 경제 상황이 어떤가요?",
+     "en": "(Question) How is the economy?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "通货膨胀正在给家庭带来压力。",
+       "天气很好。",
+       "我不知道。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "物价为什么上涨？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 물가가 왜 올랐나요?",
+     "en": "(Question) Why have prices risen?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "因为供应链被打乱了。",
+       "因为下雨。",
+       "因为放假。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "最近物价太高，家庭预算很紧。"
+      },
+      {
+       "s": "B",
+       "t": "据说是因为供应链被打乱和能源价格上涨。"
+      },
+      {
+       "s": "A",
+       "t": "政府怎么应对？"
+      },
+      {
+       "s": "B",
+       "t": "通过财政政策扩大支持。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 요즘 물가가 너무 올라서 가계가 힘들어.\nB: 공급망 교란과 에너지 가격 때문이래.\nA: 정부는 어떻게 대응하고 있어?\nB: 재정 정책으로 지원금을 늘리고 있어.",
+     "en": "A: Prices are so high these days that household budgets are strained.\nB: They say it's because of supply-chain disruption and energy prices.\nA: How is the government responding?\nB: It is expanding support through fiscal policy."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "政府怎么应对？",
+      "options": [
+       "通过财政政策扩大支持",
+       "加税",
+       "什么也不做"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "经济新闻。上个季度国内生产总值增长了百分之二，但通货膨胀抵消了增长。失业率下降了，但贸易逆差扩大了。专家警告可能出现衰退。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "경제 뉴스입니다. 지난 분기 GDP는 2퍼센트 성장했지만 인플레이션이 이를 상쇄했습니다. 실업률은 하락했으나 무역 적자는 확대되었습니다. 전문가들은 경기 침체 가능성을 경고하고 있습니다.",
+     "en": "Economic news. GDP grew two per cent last quarter, but inflation offset it. The unemployment rate fell, but the trade deficit widened. Experts warn of a possible recession."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "上个季度国内生产总值怎么样？",
+      "options": [
+       "增长了百分之二",
+       "下降了",
+       "没有变化"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "全球化对经济有什么影响？"
+      },
+      {
+       "s": "B",
+       "t": "贸易大大增长，但差距也扩大了。"
+      },
+      {
+       "s": "A",
+       "t": "该怎么应对？"
+      },
+      {
+       "s": "B",
+       "t": "必须在增长和分配之间找到平衡。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 세계화가 경제에 미친 영향은 무엇입니까?\n경제학자: 무역은 크게 늘었지만 불평등도 커졌습니다.\n기자: 어떻게 대응해야 할까요?\n경제학자: 성장과 분배 사이에서 균형을 찾아야 합니다.",
+     "en": "Reporter: What has been globalisation's effect on the economy?\nEconomist: Trade has grown greatly but inequality has also widened.\nReporter: How should we respond?\nEconomist: We must find a balance between growth and distribution."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "贸易增长了，但______也扩大了",
+      "answers": [
+       "差距"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "要在增长和______之间找到平衡",
+      "answers": [
+       "分配"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 通货膨胀正在给家庭带来___。\n2) 政府想通过财政政策___经济。\n3) 出口企业很容易___汇率波动影响。",
+    "trans": {
+     "ko": "1) 인플레이션이 가계를 압박하고 있어요. 2) 정부는 재정 정책으로 경기를 부양하려 했어요. 3) 수출 기업은 환율 변동에 노출돼 있어요.",
+     "en": "1) Inflation is putting pressure on households. 2) The government tried to boost the economy through fiscal policy. 3) Exporters are exposed to exchange-rate swings."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "通货膨胀正在给家庭带来___。",
+      "options": [
+       "压力",
+       "快乐",
+       "朋友"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "政府想通过财政政策___经济。",
+      "options": [
+       "刺激",
+       "忘记",
+       "反对"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "出口企业很容易___汇率波动影响。",
+      "options": [
+       "受",
+       "找",
+       "买"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "全球化把各国经济(1)在一起。一个国家的金融危机很容易(2)到其他国家。因此，各国政府正在加强国际(3)，以防范风险。",
+    "trans": {
+     "ko": "세계화는 각국 경제를 서로 연결했습니다. 한 나라의 금융 위기는 곧 다른 나라로 번지기 쉽습니다. 그 결과 각국 정부는 위험에 대비하기 위해 국제 협력을 강화하고 있습니다.",
+     "en": "Globalisation has linked national economies. A financial crisis in one country can easily spread to others. As a result, governments are strengthening international cooperation to prepare for risk."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "联系",
+       "分开",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "蔓延",
+       "消失",
+       "停止"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "合作",
+       "竞争",
+       "冲突"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "分析\n紧缩还是增长？\n政府为减少财政赤字实行了紧缩政策。但是经济学家警告，紧缩可能使衰退加深。反过来，增加支出又有可能使通货膨胀恶化。决策者面临艰难的选择。",
+    "trans": {
+     "ko": "분석\n긴축이냐 성장이냐\n정부는 재정 적자를 줄이기 위해 긴축 정책을 시행했다. 그러나 경제학자들은 긴축이 경기 침체를 심화시킬 수 있다고 경고한다. 반대로 지출을 늘리면 인플레이션이 악화될 위험이 있다. 정책 입안자들은 어려운 선택에 직면해 있다.",
+     "en": "ANALYSIS\nAusterity or growth?\nThe government imposed austerity to reduce the fiscal deficit. But economists warn that austerity may deepen the recession. Conversely, raising spending risks worsening inflation. Policymakers face a difficult choice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "经济学家担心紧缩会怎么样？",
+      "options": [
+       "使衰退加深",
+       "使失业减少",
+       "使物价下降"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "增加支出的风险是什么？",
+      "options": [
+       "通货膨胀恶化",
+       "赤字减少",
+       "贸易增加"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "政府实行了紧缩政策。所有经济学家都支持紧缩。增加支出可能使通货膨胀恶化。",
+    "trans": {
+     "ko": "정부는 긴축 정책을 시행했다. 경제학자들은 모두 긴축을 지지한다. 지출을 늘리면 인플레이션이 악화될 수 있다.",
+     "en": "The government imposed austerity. All economists support austerity. Raising spending may worsen inflation."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "政府实行了紧缩政策。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "所有经济学家都支持紧缩。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "增加支出可能使通货膨胀恶化。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "通货膨胀正在挤压家庭预算。",
+    "read": "Tōng huò péng zhàng zhèngzài jǐ yā jiātíng yù suàn.",
+    "ko": "인플레이션이 가계를 압박하고 있습니다.",
+    "en": "Inflation is squeezing household budgets.",
+    "situation": {
+     "ko": "경제 상황을 말할 때",
+     "en": "Describing the economy"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "政府想通过财政政策刺激增长。",
+    "read": "Zhèng fǔ xiǎng tōng guo cái zhèng zhèng cè cì jī zēng cháng.",
+    "ko": "정부는 재정 정책으로 경기를 부양하려 합니다.",
+    "en": "The government aims to stimulate growth through fiscal policy.",
+    "situation": {
+     "ko": "정책을 설명할 때",
+     "en": "Explaining policy"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "贸易逆差比去年扩大了。",
+    "read": "Mào yì nì chà bǐ qùnián kuò dà le.",
+    "ko": "무역 적자가 지난해보다 커졌습니다.",
+    "en": "The trade deficit has widened since last year.",
+    "situation": {
+     "ko": "추세를 보고할 때",
+     "en": "Reporting a trend"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "出口企业很容易受汇率波动影响。",
+    "read": "Chū kǒu qǐ yè hěn róng yì shòu huì lǜ bō dòng yǐng xiǎng.",
+    "ko": "수출 기업은 환율 변동에 크게 노출되어 있습니다.",
+    "en": "Exporters are highly exposed to exchange-rate swings.",
+    "situation": {
+     "ko": "위험을 설명할 때",
+     "en": "Explaining risk"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "供应链中断推高了物价。",
+    "read": "Gōng yìng liàn zhōng duàn tuī gāo le wù jià.",
+    "ko": "공급망 교란으로 물가가 올랐습니다.",
+    "en": "Supply-chain disruption pushed prices up.",
+    "situation": {
+     "ko": "원인을 설명할 때",
+     "en": "Explaining a cause"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "全球化扩大了贸易，也拉大了差距。",
+    "read": "Quán qiú huà kuò dà le mào yì, yě lā dà le chà jù.",
+    "ko": "세계화는 무역을 확대했지만 불평등도 키웠습니다.",
+    "en": "Globalisation expanded trade but also widened inequality.",
+    "situation": {
+     "ko": "양면을 말할 때",
+     "en": "Showing both sides"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "出现了衰退的迹象。",
+    "read": "Chū xiàn le shuāi tuì de jì xiàng.",
+    "ko": "경기 침체의 징후가 나타나고 있습니다.",
+    "en": "There are signs of a recession.",
+    "situation": {
+     "ko": "전망을 말할 때",
+     "en": "Forecasting"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "决策者必须平衡增长与稳定。",
+    "read": "Jué cè zhě bìxū píng héng zēng cháng yǔ wěn dìng.",
+    "ko": "정책 입안자들은 성장과 안정 사이에서 균형을 찾아야 합니다.",
+    "en": "Policymakers must balance growth and stability.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……给……带来压力。",
+    "read": "… Gěi … dài lái yālì.",
+    "ko": "~가 ~을 압박하다.",
+    "en": "... puts pressure on ... / squeezes ..."
+   },
+   {
+    "id": "w2",
+    "t": "受……影响。",
+    "read": "Shòu … yǐng xiǎng.",
+    "ko": "~에 노출되다.",
+    "en": "be exposed to ..."
+   },
+   {
+    "id": "w3",
+    "t": "……正在扩大。",
+    "read": "… Zhèngzài kuò dà.",
+    "ko": "~가 확대되고 있다.",
+    "en": "... is widening"
+   },
+   {
+    "id": "w4",
+    "t": "平衡……与……。",
+    "read": "Píng héng … yǔ ….",
+    "ko": "~와 ~ 사이의 균형.",
+    "en": "balance ... and ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "한 나라의 경제 상황을 현황·원인·영향·전망 순으로 4문장으로 써 보세요.",
+    "en": "Write four sentences on a country's economy: current situation, cause, impact, outlook."
+   },
+   "must_include": [
+    {
+     "label": "通货膨胀",
+     "match": [
+      "通货膨胀"
+     ]
+    },
+    {
+     "label": "受",
+     "match": [
+      "受"
+     ]
+    },
+    {
+     "label": "平衡",
+     "match": [
+      "平衡"
+     ]
+    }
+   ],
+   "model": "通货膨胀正在挤压家庭预算。供应链中断和能源价格上涨是主要原因。出口企业容易受汇率波动影响，处境艰难。决策者必须平衡增长与稳定。",
+   "model_trans": {
+    "ko": "인플레이션이 가계를 압박하고 있습니다. 공급망 교란과 에너지 가격 상승이 주요 원인입니다. 수출 기업은 환율 변동에 노출되어 어려움을 겪고 있습니다. 정책 입안자들은 성장과 안정 사이에서 균형을 찾아야 합니다.",
+    "en": "Inflation is squeezing household budgets. Supply-chain disruption and rising energy prices are the main causes. Exporters are exposed to exchange-rate swings and are struggling. Policymakers must balance growth and stability."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u18",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 18,
+  "concept": "C1.U18",
+  "status": "live",
+  "title": {
+   "target": "感情色彩与词义细微差别",
+   "ko": "뉘앙스와 함축의미",
+   "en": "Connotation and shades of meaning"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "感情色彩",
+   "pos": "noun",
+   "read": "gǎn qíng sè cǎi",
+   "ko": "함축",
+   "en": "connotation",
+   "ex": {
+    "t": "这个词带有贬义。",
+    "read": "Zhège cí dài yǒu biǎn yì.",
+    "ko": "그 단어는 부정적인 함축이 있어요.",
+    "en": "The word has negative connotations."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "固执",
+   "pos": "adj",
+   "read": "gù zhí",
+   "ko": "고집 센",
+   "en": "stubborn",
+   "ex": {
+    "t": "他很固执，从不改变主意。",
+    "read": "Tā hěn gù zhí, cóngbù gǎibiàn zhǔ yì.",
+    "ko": "그는 고집이 세서 의견을 바꾸지 않아요.",
+    "en": "He is stubborn and never changes his mind."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "执着",
+   "pos": "adj",
+   "read": "zhí zhuó",
+   "ko": "끈기 있는",
+   "en": "persistent",
+   "ex": {
+    "t": "她执着地追求自己的目标。",
+    "read": "Tā zhí zhuó dì zhuī qiú zìjǐ de mù biāo.",
+    "ko": "그녀는 끈기 있게 목표를 추구했어요.",
+    "en": "She pursued her goal persistently."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "节俭",
+   "pos": "adj",
+   "read": "jié jiǎn",
+   "ko": "검소한",
+   "en": "frugal",
+   "ex": {
+    "t": "他生活很节俭。",
+    "read": "Tā shēnghuó hěn jié jiǎn.",
+    "ko": "그는 검소하게 살아요.",
+    "en": "He lives frugally."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "吝啬",
+   "pos": "adj",
+   "read": "lìn sè",
+   "ko": "인색한",
+   "en": "stingy",
+   "ex": {
+    "t": "他很吝啬，从不给小费。",
+    "read": "Tā hěn lìn sè, cóngbù gěi xiǎo fèi.",
+    "ko": "그는 인색해서 팁을 주지 않아요.",
+    "en": "He is stingy and never tips."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "好奇",
+   "pos": "adj",
+   "read": "hǎo qí",
+   "ko": "호기심 많은",
+   "en": "curious",
+   "ex": {
+    "t": "孩子们很好奇。",
+    "read": "Háizimen hěn hǎo qí.",
+    "ko": "아이들은 호기심이 많아요.",
+    "en": "Children are curious."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "爱管闲事",
+   "pos": "adj",
+   "read": "ài guǎn xián shì",
+   "ko": "참견하는",
+   "en": "nosy",
+   "ex": {
+    "t": "邻居太爱管闲事了。",
+    "read": "Línjū tài ài guǎn xián shì le.",
+    "ko": "이웃이 너무 참견해요.",
+    "en": "The neighbour is too nosy."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "苗条",
+   "pos": "adj",
+   "read": "miáo tiáo",
+   "ko": "날씬한",
+   "en": "slim",
+   "ex": {
+    "t": "他看起来苗条又健康。",
+    "read": "Tā kànqǐlái miáo tiáo yòu jiànkāng.",
+    "ko": "그는 날씬하고 건강해 보여요.",
+    "en": "He looks slim and healthy."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "瘦弱",
+   "pos": "adj",
+   "read": "shòu ruò",
+   "ko": "말라 보이는",
+   "en": "skinny",
+   "ex": {
+    "t": "他看起来太瘦弱了。",
+    "read": "Tā kànqǐlái tài shòu ruò le.",
+    "ko": "그는 너무 말라 보여요.",
+    "en": "He looks too skinny."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "中性",
+   "pos": "adj",
+   "read": "zhōng xìng",
+   "ko": "중립적인",
+   "en": "neutral",
+   "ex": {
+    "t": "文章应使用中性的词。",
+    "read": "Wén zhāng yīng shǐ yòng zhōng xìng de cí.",
+    "ko": "기사는 중립적인 어휘를 써야 해요.",
+    "en": "Articles should use neutral words."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "褒义／贬义／不是……而是……／……是夸奖，……是批评",
+   "en": "Connotation: 褒义 / 贬义 / 不是……而是…… / ……是夸奖"
+  },
+  "explain": {
+   "ko": "意思相近的词，感情色彩可能不同。“执着、节俭、好奇、苗条”是褒义，“固执、吝啬、爱管闲事、瘦弱”是贬义。比较时用“他不是固执，而是执着”。同一个人，用不同的词形容，给人的印象就不同，所以要选“中性”的词，或者考虑感情色彩。",
+   "en": "Similar words can differ in connotation. 执着、节俭、好奇、苗条 are positive; 固执、吝啬、爱管闲事、瘦弱 are negative. Compare with 他不是固执，而是执着. The same person gives a different impression by the word used, so choose neutral wording or weigh connotation."
+  },
+  "table": {
+   "head": [
+    "褒义 / Positive",
+    "贬义 / Negative",
+    "中性 / Neutral"
+   ],
+   "rows": [
+    [
+     "执着",
+     "固执",
+     "意志坚定"
+    ],
+    [
+     "节俭",
+     "吝啬",
+     "省钱"
+    ],
+    [
+     "好奇",
+     "爱管闲事",
+     "关心"
+    ],
+    [
+     "苗条",
+     "瘦弱",
+     "体型较瘦"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“不是……而是……”用来纠正前一种说法。",
+    "en": "不是……而是…… corrects the first wording."
+   },
+   {
+    "ko": "同一个人，用词不同，印象也不同。",
+    "en": "The same person gives a different impression by word."
+   },
+   {
+    "ko": "要同时考虑意图和感情色彩。",
+    "en": "Consider intention and connotation together."
+   }
+  ],
+  "examples": [
+   {
+    "t": "他不是固执，而是执着。",
+    "read": "Tā bú shì gù zhí, ér shì zhí zhuó.",
+    "ko": "그는 고집이 세다기보다 끈기 있는 사람이에요.",
+    "en": "He's not stubborn so much as persistent."
+   },
+   {
+    "t": "节俭的人和吝啬的人不一样。",
+    "read": "Jié jiǎn de rén hé lìn sè de rén bù yíyàng.",
+    "ko": "검소한 사람과 인색한 사람은 달라요.",
+    "en": "A frugal person is different from a stingy one."
+   },
+   {
+    "t": "这个词带有贬义。",
+    "read": "Zhège cí dài yǒu biǎn yì.",
+    "ko": "그 단어에는 부정적인 함축이 있어요.",
+    "en": "That word carries negative connotations."
+   },
+   {
+    "t": "孩子好奇，邻居有时爱管闲事。",
+    "read": "Háizi hǎo qí, línjū yǒushí ài guǎn xián shì.",
+    "ko": "아이들은 호기심이 많지만 이웃은 참견이 많아요.",
+    "en": "Children are curious but neighbours can be nosy."
+   },
+   {
+    "t": "说“苗条”比说“瘦弱”印象好。",
+    "read": "Shuō \" miáo tiáo \" bǐ shuō \" shòu ruò \" yìn xiàng hǎo.",
+    "ko": "날씬하다고 말하는 것이 말랐다고 말하는 것보다 나아요.",
+    "en": "Saying someone is slim is better than saying they're skinny."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "他不是固执，___执着。",
+    "options": [
+     "而是",
+     "所以",
+     "但是"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "节俭的人和___的人不一样。",
+    "options": [
+     "吝啬",
+     "善良",
+     "聪明"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "这个词带有___。",
+    "options": [
+     "贬义",
+     "习惯",
+     "噪音"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "孩子很___，邻居有时爱管闲事。",
+    "options": [
+     "好奇",
+     "吝啬",
+     "固执"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你怎样形容他？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그를 어떻게 표현하겠어요?",
+     "en": "(Question) How would you describe him?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "他不是固执，而是执着。",
+       "下周一。",
+       "在车站旁边。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "“节俭”和“吝啬”有什么不同？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) '검소한'과 '인색한'은 무엇이 다른가요?",
+     "en": "(Question) What's the difference between 'frugal' and 'stingy'?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "节俭是夸奖，吝啬是批评。",
+       "完全一样。",
+       "两个都是坏话。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "他很固执。"
+      },
+      {
+       "s": "B",
+       "t": "我想说他很执着，他从不放弃目标。"
+      },
+      {
+       "s": "A",
+       "t": "同一个人，词不同啊。"
+      },
+      {
+       "s": "B",
+       "t": "对，用什么词会改变印象。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그 사람은 고집이 세.\nB: 나는 끈기가 있다고 말하고 싶은데. 목표를 포기하지 않잖아.\nA: 같은 사람인데 단어가 다르구나.\nB: 맞아, 어떤 단어를 쓰느냐에 따라 인상이 달라져.",
+     "en": "A: He's stubborn.\nB: I'd say persistent. He never gives up on his goals.\nA: Same person, different word.\nB: Right, the word changes the impression."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的为什么想说“执着”？",
+      "options": [
+       "他不放弃目标",
+       "他爱管闲事",
+       "他节约钱"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "英语中有很多意思相近但感觉不同的词。slim和skinny都表示瘦，但slim是褒义，skinny有点贬义。这种差别叫作感情色彩。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "영어에는 뜻이 비슷해도 느낌이 다른 단어가 많습니다. slim과 skinny는 모두 마른 것을 뜻하지만 slim은 긍정적이고 skinny는 다소 부정적입니다. 이런 차이를 함축의미라고 합니다.",
+     "en": "English has many words with similar meanings but different feelings. Slim and skinny both mean thin, but slim is positive and skinny is somewhat negative. Such differences are called connotation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "slim和skinny有什么区别？",
+      "options": [
+       "slim是褒义，skinny有点贬义",
+       "完全相同",
+       "slim更负面"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个人物该怎么写？"
+      },
+      {
+       "s": "B",
+       "t": "“吝啬”太负面了。"
+      },
+      {
+       "s": "A",
+       "t": "改成“节俭”怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "好，这样能突出人物的优点。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "작가: 이 인물을 어떻게 묘사할까요?\n편집자: '인색하다'는 너무 부정적이에요.\n작가: 그럼 '검소하다'로 바꿀까요?\n편집자: 네, 그게 인물의 장점을 살려 줄 거예요.",
+     "en": "Writer: How should I describe this character?\nEditor: 'Stingy' is too negative.\nWriter: Shall I change it to 'frugal'?\nEditor: Yes, that will bring out the character's strengths."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "编辑认为“吝啬”太______了",
+      "answers": [
+       "负面"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "改成“______”能突出优点",
+      "answers": [
+       "节俭"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 他不是固执，___执着。\n2) 节俭的人和___的人不一样。\n3) 这个词带有___。",
+    "trans": {
+     "ko": "1) 그는 고집이 세다기보다 끈기 있는 사람이에요. 2) 검소한 사람과 인색한 사람은 달라요. 3) 그 단어에는 부정적인 함축이 있어요.",
+     "en": "1) He's not stubborn so much as persistent. 2) A frugal person is different from a stingy one. 3) That word carries negative connotations."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他不是固执，___执着。",
+      "options": [
+       "而是",
+       "所以",
+       "但是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "节俭的人和___的人不一样。",
+      "options": [
+       "吝啬",
+       "善良",
+       "聪明"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这个词带有___。",
+      "options": [
+       "贬义",
+       "习惯",
+       "噪音"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "意思相近的词，感情色彩可能(1)。例如，“好奇”表示正面的好奇心，“爱管闲事”表示过分的(2)。所以要(3)地选择适合场合的词。",
+    "trans": {
+     "ko": "비슷한 뜻의 단어라도 함축의미는 다를 수 있습니다. 예를 들어 curious는 긍정적인 호기심을 뜻하지만 nosy는 지나친 참견을 뜻합니다. 따라서 어떤 단어가 상황에 맞는지 신중히 선택해야 합니다.",
+     "en": "Words with similar meanings can differ in connotation. For example, curious suggests positive curiosity, while nosy suggests excessive prying. So choose carefully which word fits the situation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "不同",
+       "相同",
+       "没有"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "干涉",
+       "称赞",
+       "问候"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "谨慎",
+       "随便",
+       "匆忙"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "博客\n词语的力量\n同一个人，怎么称呼，给人的印象会完全不同。自信的人可能被说成傲慢，谨慎的人可能被说成胆小。选词的时候，要同时考虑意图和感情色彩。",
+    "trans": {
+     "ko": "블로그\n단어의 힘\n같은 사람도 어떻게 부르느냐에 따라 전혀 다른 인상을 준다. 자신감 있는 사람은 건방진 사람이 될 수 있고, 신중한 사람은 소심한 사람으로 불릴 수 있다. 말을 고를 때는 의도와 함축을 함께 고려해야 한다.",
+     "en": "BLOG\nThe power of words\nThe same person can give a completely different impression depending on how they're described. A confident person may be called arrogant, and a careful person may be called timid. When choosing words, consider both intention and connotation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "同一个人会因为什么给人不同的印象？",
+      "options": [
+       "怎么称呼",
+       "身高",
+       "住处"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "选词时要考虑什么？",
+      "options": [
+       "意图和感情色彩",
+       "词的长度",
+       "流行"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "同一个人，称呼不同，印象不同。谨慎的人总是被说成胆小。作者认为选词很重要。",
+    "trans": {
+     "ko": "같은 사람이라도 부르는 말에 따라 인상이 달라진다. 신중한 사람은 항상 소심하다고 불린다. 글쓴이는 단어 선택이 중요하다고 본다.",
+     "en": "The same person gives a different impression depending on the word used. A careful person is always called timid. The writer sees word choice as important."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "同一个人，称呼不同，印象不同。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "谨慎的人总是被说成胆小。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "作者认为选词很重要。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "他不是固执，而是执着。",
+    "read": "Tā bú shì gù zhí, ér shì zhí zhuó.",
+    "ko": "그는 고집이 센 것이 아니라 끈기가 있는 거예요.",
+    "en": "He's not stubborn, he's persistent.",
+    "situation": {
+     "ko": "긍정적 표현으로 바꿔 말할 때",
+     "en": "Reframing positively"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "这个词有一点贬义。",
+    "read": "Zhège cí yǒu yìdiǎn biǎn yì.",
+    "ko": "그 말은 약간 부정적인 느낌이 있어요.",
+    "en": "That word has slightly negative connotations.",
+    "situation": {
+     "ko": "단어의 느낌을 설명할 때",
+     "en": "Explaining a word's feel"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "节俭是夸奖，吝啬是批评。",
+    "read": "Jié jiǎn shì kuā jiǎng, lìn sè shì pī píng.",
+    "ko": "검소하다고 하면 칭찬이고 인색하다고 하면 비난이에요.",
+    "en": "Frugal is praise; stingy is criticism.",
+    "situation": {
+     "ko": "유의어를 구별할 때",
+     "en": "Distinguishing near-synonyms"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我觉得最好用中性的说法。",
+    "read": "Wǒ juéde zuì hǎo yòng zhōng xìng de shuō fǎ.",
+    "ko": "중립적인 표현을 쓰는 것이 좋을 것 같아요.",
+    "en": "I think it's better to use a neutral expression.",
+    "situation": {
+     "ko": "표현을 조정할 때",
+     "en": "Adjusting wording"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这样说可能会被误解。",
+    "read": "Zhè yàng shuō kěnéng huì bèi wù jiě.",
+    "ko": "그런 표현은 오해를 살 수 있어요.",
+    "en": "That kind of wording could be misunderstood.",
+    "situation": {
+     "ko": "주의를 줄 때",
+     "en": "Cautioning"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "她不是爱管闲事，而是在关心别人。",
+    "read": "Tā bú shì ài guǎn xián shì, ér shì zài guān xīn bié rén.",
+    "ko": "그녀는 참견한 게 아니라 관심을 보인 거예요.",
+    "en": "She wasn't being nosy; she was showing interest.",
+    "situation": {
+     "ko": "의도를 변호할 때",
+     "en": "Defending intent"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "意思相同，印象却不同。",
+    "read": "Yìsi xiāng tóng, yìn xiàng què bù tóng.",
+    "ko": "같은 뜻이라도 단어에 따라 인상이 달라요.",
+    "en": "The same meaning gives a different impression depending on the word.",
+    "situation": {
+     "ko": "관찰을 말할 때",
+     "en": "Making an observation"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "选词的时候，也要考虑感情色彩。",
+    "read": "Xuǎn cí de shíhou, yě yào kǎolǜ gǎn qíng sè cǎi.",
+    "ko": "단어를 고를 때는 함축의미까지 생각해야 해요.",
+    "en": "When choosing words, consider connotations too.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "他不是……，而是……。",
+    "read": "Tā bú shì …, ér shì ….",
+    "ko": "~보다는 ~이다.",
+    "en": "He's not ~, he's ~."
+   },
+   {
+    "id": "w2",
+    "t": "带有……色彩。",
+    "read": "Dài yǒu … sè cǎi.",
+    "ko": "~한 느낌이 있다.",
+    "en": "It has ... connotations."
+   },
+   {
+    "id": "w3",
+    "t": "……是夸奖，……是批评。",
+    "read": "… Shì kuā jiǎng, … shì pī píng.",
+    "ko": "~라고 하면 칭찬이다.",
+    "en": "~ is praise; ~ is criticism."
+   },
+   {
+    "id": "w4",
+    "t": "中性的说法。",
+    "read": "Zhōng xìng de shuō fǎ.",
+    "ko": "중립적인 표현.",
+    "en": "a neutral expression"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "함축의미가 다른 유의어를 비교해 4문장으로 써 보세요.",
+    "en": "Compare near-synonyms with different connotations in 4 sentences."
+   },
+   "must_include": [
+    {
+     "label": "节俭",
+     "match": [
+      "节俭"
+     ]
+    },
+    {
+     "label": "执着",
+     "match": [
+      "执着"
+     ]
+    },
+    {
+     "label": "感情色彩",
+     "match": [
+      "感情色彩"
+     ]
+    }
+   ],
+   "model": "说一个人节俭是夸奖，说他吝啬是批评。固执是贬义，执着是褒义。同一个人，怎么称呼，印象就不同。所以选词时，要谨慎考虑感情色彩。",
+   "model_trans": {
+    "ko": "검소하다는 말은 칭찬이지만 인색하다는 말은 비난입니다. 고집이 세다는 말은 부정적이지만 끈기 있다는 말은 긍정적입니다. 같은 사람을 어떻게 부르느냐에 따라 인상이 달라집니다. 그래서 단어를 고를 때는 함축의미를 신중히 고려해야 합니다.",
+    "en": "Calling someone frugal is praise, while calling them stingy is criticism. Stubborn sounds negative, whereas persistent sounds positive. The impression changes depending on how you describe the same person. So when choosing words, connotations must be considered carefully."
+   }
+  }
+ }
+}

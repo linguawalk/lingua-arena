@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u44",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 44,
+  "concept": "C1.U44",
+  "status": "live",
+  "title": {
+   "target": "哲学与思想",
+   "ko": "철학과 사상",
+   "en": "Philosophy and ideas"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "以……为前提",
+   "pos": "verb",
+   "read": "yǐ … wèi qián tí",
+   "ko": "전제하다",
+   "en": "presuppose",
+   "ex": {
+    "t": "这个主张以自由意志为前提。",
+    "read": "Zhège zhǔ zhāng yǐ zì yóu yì zhì wèi qián tí.",
+    "ko": "이 주장은 자유 의지를 전제해요.",
+    "en": "This claim presupposes free will."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "由此可见",
+   "pos": "phrase",
+   "read": "yóu cǐ kě jiàn",
+   "ko": "따라서 ~이다",
+   "en": "it follows that",
+   "ex": {
+    "t": "由此可见，人人平等。",
+    "read": "Yóu cǐ kě jiàn, rén rén píng děng.",
+    "ko": "따라서 모든 사람은 평등해요.",
+    "en": "It follows that all people are equal."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "从定义上说",
+   "pos": "phrase",
+   "read": "cóng dìng yì shàng shuō",
+   "ko": "정의상",
+   "en": "by definition",
+   "ex": {
+    "t": "从定义上说，这是不可能的。",
+    "read": "Cóng dìng yì shàng shuō, zhè shì bù kěnéng de.",
+    "ko": "정의상 그것은 불가능해요.",
+    "en": "By definition, that is impossible."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "一个例子",
+   "pos": "phrase",
+   "read": "yí ge lì zi",
+   "ko": "좋은 사례",
+   "en": "a case in point",
+   "ex": {
+    "t": "这就是一个例子。",
+    "read": "Zhè jiù shì yí ge lì zi.",
+    "ko": "이것이 그 좋은 사례예요.",
+    "en": "This is a case in point."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "假设",
+   "pos": "noun",
+   "read": "jiǎshè",
+   "ko": "가정",
+   "en": "assumption",
+   "ex": {
+    "t": "这个假设尚未经过检验。",
+    "read": "Zhège jiǎshè shàng wèi jīngguò jiǎn yàn.",
+    "ko": "그 가정은 검증되지 않았어요.",
+    "en": "That assumption is untested."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "矛盾",
+   "pos": "noun",
+   "read": "máo dùn",
+   "ko": "모순",
+   "en": "contradiction",
+   "ex": {
+    "t": "他的逻辑中有矛盾。",
+    "read": "Tā de luó jí zhōng yǒu máo dùn.",
+    "ko": "그의 논리에는 모순이 있어요.",
+    "en": "There is a contradiction in his logic."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "自由意志",
+   "pos": "noun",
+   "read": "zì yóu yì zhì",
+   "ko": "자유 의지",
+   "en": "free will",
+   "ex": {
+    "t": "自由意志是古老的哲学问题。",
+    "read": "Zì yóu yì zhì shì gǔ lǎo de zhé xué wèntí.",
+    "ko": "자유 의지는 오래된 철학 문제예요.",
+    "en": "Free will is an old philosophical problem."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "道德",
+   "pos": "adj",
+   "read": "dào dé",
+   "ko": "도덕적",
+   "en": "moral",
+   "ex": {
+    "t": "道德判断因文化而异。",
+    "read": "Dào dé pàn duàn yīn wén huà ér yì.",
+    "ko": "도덕적 판단은 문화에 따라 달라요.",
+    "en": "Moral judgements vary by culture."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "抽象",
+   "pos": "adj",
+   "read": "chōu xiàng",
+   "ko": "추상적인",
+   "en": "abstract",
+   "ex": {
+    "t": "抽象概念很难理解。",
+    "read": "Chōu xiàng gài niàn hěn nán lǐ jiě.",
+    "ko": "추상적인 개념은 이해하기 어려워요.",
+    "en": "Abstract concepts are hard to grasp."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "逻辑上",
+   "pos": "adv",
+   "read": "luó jí shàng",
+   "ko": "논리적으로",
+   "en": "logically",
+   "ex": {
+    "t": "逻辑上思考。",
+    "read": "Luó jí shàng sī kǎo.",
+    "ko": "논리적으로 생각해 보세요.",
+    "en": "Think logically."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "以……为前提／由此可见／从定义上说／……就是一个例子",
+   "en": "Philosophy: 以……为前提 / 由此可见 / 从定义上说 / 就是一个例子"
+  },
+  "explain": {
+   "ko": "哲学论述要把前提、推理和结论分清楚。前提：“这个主张以自由意志的存在为前提。”推理：“由此可见，人人平等。”定义：“从定义上说，这是矛盾的。”举例：“他的例子就是一个例证。”还要承认假设：“这个假设尚未得到检验。”",
+   "en": "Philosophical argument separates premise, inference and conclusion. Premise: 这个主张以自由意志的存在为前提. Inference: 由此可见，人人平等. Definition: 从定义上说，这是矛盾的. Example: 他的例子就是一个例证. Admit assumptions: 这个假设尚未得到检验."
+  },
+  "table": {
+   "head": [
+    "功能 / Function",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "前提 / Premise",
+     "以……为前提",
+     "以自由意志为前提。"
+    ],
+    [
+     "推理 / Inference",
+     "由此可见……",
+     "由此可见，人人平等。"
+    ],
+    [
+     "定义 / Definition",
+     "从定义上说……",
+     "从定义上说，这是矛盾的。"
+    ],
+    [
+     "举例 / Example",
+     "……就是一个例证",
+     "他的例子就是一个例证。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "要查明论证隐藏的前提。",
+    "en": "Find the argument's hidden premises."
+   },
+   {
+    "ko": "前提真实且逻辑有效，结论才成立。",
+    "en": "True premises plus valid logic yield truth."
+   },
+   {
+    "ko": "最后取决于我们重视什么。",
+    "en": "Ultimately it depends on what we value."
+   }
+  ],
+  "examples": [
+   {
+    "t": "这个主张以自由意志的存在为前提。",
+    "read": "Zhège zhǔ zhāng yǐ zì yóu yì zhì de cún zài wèi qián tí.",
+    "ko": "이 주장은 자유 의지를 전제하고 있어요.",
+    "en": "This claim presupposes free will."
+   },
+   {
+    "t": "由此可见，人人平等。",
+    "read": "Yóu cǐ kě jiàn, rén rén píng děng.",
+    "ko": "따라서 모든 사람은 평등하다는 결론이 나와요.",
+    "en": "It follows that all people are equal."
+   },
+   {
+    "t": "从定义上说，这是矛盾的。",
+    "read": "Cóng dìng yì shàng shuō, zhè shì máo dùn de.",
+    "ko": "정의상 그것은 불가능해요.",
+    "en": "By definition, that is impossible."
+   },
+   {
+    "t": "他的例子就是一个例证。",
+    "read": "Tā de lì zi jiù shì yí ge lì zhèng.",
+    "ko": "이것이 그 좋은 사례예요.",
+    "en": "This is a case in point."
+   },
+   {
+    "t": "这个假设尚未得到检验。",
+    "read": "Zhège jiǎshè shàng wèi dé dào jiǎn yàn.",
+    "ko": "그의 논리에는 모순이 있어요.",
+    "en": "There is a contradiction in his logic."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "这个主张以自由意志为___。",
+    "options": [
+     "前提",
+     "晚餐",
+     "天气"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___可见，人人平等。",
+    "options": [
+     "由此",
+     "从前",
+     "例如"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "从___上说，这是矛盾的。",
+    "options": [
+     "定义",
+     "地图",
+     "天气"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "他的例子就是一个___。",
+    "options": [
+     "例证",
+     "梦",
+     "故事"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个主张以什么为前提？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 주장은 무엇을 전제하나요?",
+     "en": "(Question) What does this claim presuppose?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "以自由意志为前提。",
+       "以天气为前提。",
+       "没有前提。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个结论是怎么得出的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 결론은 어떻게 도출되나요?",
+     "en": "(Question) How is that conclusion drawn?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "由此可见，人人平等。",
+       "我不知道。",
+       "在昨天。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "道德责任不是需要自由意志吗？"
+      },
+      {
+       "s": "B",
+       "t": "对，由此可见，没有自由意志就没有责任。"
+      },
+      {
+       "s": "A",
+       "t": "那法律怎么运作？"
+      },
+      {
+       "s": "B",
+       "t": "那正是哲学争论的核心。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 도덕적 책임이 있으려면 자유 의지가 있어야 하지 않을까?\nB: 맞아, 그렇다면 자유 의지가 없을 때 책임도 없다는 결론이 나오지.\nA: 그럼 법이 어떻게 작동하지?\nB: 그게 바로 철학적 논쟁의 핵심이야.",
+     "en": "A: Doesn't moral responsibility require free will?\nB: Right, so it follows that without free will there is no responsibility.\nA: Then how does the law work?\nB: That is the heart of the philosophical debate."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "争论的核心是什么？",
+      "options": [
+       "没有自由意志时法律如何运作",
+       "天气",
+       "价格"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "在哲学中，找出论证的前提很重要。如果前提真实，逻辑有效，结论就成立。但前提被隐藏时，论证容易出错。所以我们要经常问：它以什么为前提？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "철학에서는 주장의 전제를 확인하는 것이 중요합니다. 전제가 참이고 논리가 타당하면 결론은 참입니다. 그러나 전제가 숨겨져 있을 때 논증은 쉽게 오류에 빠집니다. 그래서 우리는 항상 무엇이 전제되어 있는지 물어야 합니다.",
+     "en": "In philosophy, it is important to identify an argument's premises. If the premises are true and the logic valid, the conclusion is true. But when premises are hidden, arguments easily go wrong. So we should always ask what is being presupposed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我们应该经常问什么？",
+      "options": [
+       "它以什么为前提",
+       "它多少钱",
+       "它在哪里"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今天的问题是自由意志。"
+      },
+      {
+       "s": "B",
+       "t": "如果没有自由意志，就没有责任吗？"
+      },
+      {
+       "s": "A",
+       "t": "可以这样推论。"
+      },
+      {
+       "s": "B",
+       "t": "那法律怎么得到证明呢？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 오늘의 질문은 자유 의지입니다.\n학생: 자유 의지가 없다면 책임도 없는 것인가요?\n교수: 그렇게 결론 내릴 수도 있습니다.\n학생: 그러면 법은 어떻게 정당화되나요?",
+     "en": "Professor: Today's question is free will.\nStudent: If there is no free will, is there no responsibility?\nProfessor: One may conclude so.\nStudent: Then how is the law justified?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "今天的问题是自由______",
+      "answers": [
+       "意志"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "学生问法律怎么得到______",
+      "answers": [
+       "证明"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 这个主张以自由意志为___。\n2) ___可见，人人平等。\n3) 从___上说，这是不可能的。",
+    "trans": {
+     "ko": "1) 이 주장은 자유 의지를 전제하고 있어요. 2) 따라서 모든 사람은 평등하다는 결론이 나와요. 3) 정의상 그것은 불가능해요.",
+     "en": "1) This claim presupposes free will. 2) It follows that all people are equal. 3) By definition, that is impossible."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这个主张以自由意志为___。",
+      "options": [
+       "前提",
+       "晚餐",
+       "天气"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___可见，人人平等。",
+      "options": [
+       "由此",
+       "从前",
+       "例如"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "从___上说，这是不可能的。",
+      "options": [
+       "定义",
+       "地图",
+       "天气"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "哲学家长期争论什么是“美好的生活”。有人主张幸福是目标，也有人认为(1)更重要。两种观点都有道理，最终取决于我们(2)什么。这是一个(3)的问题。",
+    "trans": {
+     "ko": "철학자들은 ‘좋은 삶’이란 무엇인지에 대해 오래 논쟁해 왔습니다. 어떤 이들은 행복이 목적이라고 주장하고, 다른 이들은 덕이 더 중요하다고 주장합니다. 두 견해 모두 일리가 있으며, 결국 우리가 무엇을 가치 있다고 보느냐에 달려 있습니다.",
+     "en": "Philosophers have long debated what a 'good life' is. Some claim happiness is the goal, while others claim virtue matters more. Both views have merit, and ultimately it depends on what we value."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "美德",
+       "金钱",
+       "天气"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "重视",
+       "忘记",
+       "购买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "开放",
+       "已解决",
+       "无聊"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "随笔\n道德直觉的局限\n我们常常凭直觉判断对错。但直觉因文化和经验而异。由此可见，仅靠道德直觉无法确立普遍原则。",
+    "trans": {
+     "ko": "에세이\n도덕적 직관의 한계\n우리는 직관으로 옳고 그름을 판단하는 경우가 많다. 그러나 직관은 문화와 경험에 따라 달라진다. 따라서 도덕적 직관만으로는 보편적인 원칙을 세울 수 없다.",
+     "en": "ESSAY\nThe limits of moral intuition\nWe often judge right and wrong by intuition. But intuition varies with culture and experience. It follows that moral intuition alone cannot establish universal principles."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我们常常凭什么判断对错？",
+      "options": [
+       "直觉",
+       "法律",
+       "金钱"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "由此可见什么？",
+      "options": [
+       "仅靠直觉无法确立普遍原则",
+       "直觉总是正确",
+       "文化不重要"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "作者说我们常常凭直觉判断对错。直觉不论文化都是一样的。作者认为很难确立普遍原则。",
+    "trans": {
+     "ko": "필자는 직관으로 옳고 그름을 판단하는 경우가 많다고 한다. 직관은 문화에 상관없이 같다. 필자는 보편적 원칙을 세우기 어렵다고 본다.",
+     "en": "The writer says we often judge right and wrong by intuition. Intuition is the same regardless of culture. The writer thinks universal principles are hard to establish."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "作者说我们常常凭直觉判断对错。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "直觉不论文化都是一样的。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "作者认为很难确立普遍原则。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "这个主张以自由意志的存在为前提。",
+    "read": "Zhège zhǔ zhāng yǐ zì yóu yì zhì de cún zài wèi qián tí.",
+    "ko": "이 주장은 자유 의지의 존재를 전제합니다.",
+    "en": "This claim presupposes the existence of free will.",
+    "situation": {
+     "ko": "전제를 밝힐 때",
+     "en": "Revealing a premise"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "由此可见，人人平等。",
+    "read": "Yóu cǐ kě jiàn, rén rén píng děng.",
+    "ko": "따라서 모든 사람은 평등하다는 결론이 나옵니다.",
+    "en": "It follows that all people are equal.",
+    "situation": {
+     "ko": "결론을 도출할 때",
+     "en": "Drawing a conclusion"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "从定义上说，这是矛盾的。",
+    "read": "Cóng dìng yì shàng shuō, zhè shì máo dùn de.",
+    "ko": "정의상 그것은 모순입니다.",
+    "en": "By definition, that is a contradiction.",
+    "situation": {
+     "ko": "정의로 논증할 때",
+     "en": "Arguing from definition"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "他的例子就是一个例证。",
+    "read": "Tā de lì zi jiù shì yí ge lì zhèng.",
+    "ko": "그의 사례가 바로 그 좋은 예입니다.",
+    "en": "His example is a case in point.",
+    "situation": {
+     "ko": "예를 들 때",
+     "en": "Giving an example"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这个假设尚未得到检验。",
+    "read": "Zhège jiǎshè shàng wèi dé dào jiǎn yàn.",
+    "ko": "그 가정은 아직 검증되지 않았습니다.",
+    "en": "That assumption has yet to be tested.",
+    "situation": {
+     "ko": "가정을 비판할 때",
+     "en": "Questioning an assumption"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "道德判断可能因文化而异。",
+    "read": "Dào dé pàn duàn kěnéng yīn wén huà ér yì.",
+    "ko": "도덕적 판단은 문화에 따라 달라질 수 있습니다.",
+    "en": "Moral judgements may vary across cultures.",
+    "situation": {
+     "ko": "상대주의를 말할 때",
+     "en": "Stating relativism"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "逻辑上，相反的主张也可能成立。",
+    "read": "Luó jí shàng, xiāng fǎn de zhǔ zhāng yě kěnéng chéng lì.",
+    "ko": "논리적으로 반대 주장도 성립할 수 있습니다.",
+    "en": "Logically, the opposing claim could also hold.",
+    "situation": {
+     "ko": "반론을 고려할 때",
+     "en": "Considering a counter-claim"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "最终，这场争论取决于我们重视什么。",
+    "read": "Zuì zhōng, zhè chǎng zhēng lùn qǔ jué yú wǒmen zhòng shì shénme.",
+    "ko": "이 논의는 결국 우리가 무엇을 가치 있다고 보느냐에 달려 있습니다.",
+    "en": "Ultimately this debate depends on what we value.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "以……为前提。",
+    "read": "Yǐ … wèi qián tí.",
+    "ko": "~을 전제하다.",
+    "en": "presuppose ..."
+   },
+   {
+    "id": "w2",
+    "t": "由此可见，……。",
+    "read": "Yóu cǐ kě jiàn, ….",
+    "ko": "따라서 ~이다.",
+    "en": "It follows that ..."
+   },
+   {
+    "id": "w3",
+    "t": "从定义上说，……。",
+    "read": "Cóng dìng yì shàng shuō, ….",
+    "ko": "정의상 ~이다.",
+    "en": "By definition, ..."
+   },
+   {
+    "id": "w4",
+    "t": "……就是一个例证。",
+    "read": "… Jiù shì yí ge lì zhèng.",
+    "ko": "이것이 좋은 사례다.",
+    "en": "... is a case in point."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "철학적 주장을 전제·논증·사례·반론 순으로 4문장으로 써 보세요.",
+    "en": "Write a philosophical argument in four sentences: premise, argument, example, objection."
+   },
+   "must_include": [
+    {
+     "label": "前提",
+     "match": [
+      "前提"
+     ]
+    },
+    {
+     "label": "由此可见",
+     "match": [
+      "由此可见"
+     ]
+    },
+    {
+     "label": "例证",
+     "match": [
+      "例证"
+     ]
+    }
+   ],
+   "model": "一切道德责任都以自由意志为前提。由此可见，如果没有自由意志，就不能责怪任何人。对精神病被告的法律处理就是一个例证。然而，决定论者可能反驳说，自由意志是幻觉。",
+   "model_trans": {
+    "ko": "모든 도덕적 책임은 자유 의지를 전제합니다. 따라서 자유 의지가 없다면 누구도 비난받을 수 없다는 결론이 나옵니다. 정신 질환자에 대한 법적 판단이 그 좋은 사례입니다. 그러나 결정론자는 자유 의지가 환상이라고 반박할 수 있습니다.",
+    "en": "All moral responsibility presupposes free will. It follows that if there is no free will, no one can be blamed. The legal treatment of mentally ill defendants is a case in point. However, determinists may object that free will is an illusion."
+   }
+  }
+ }
+}

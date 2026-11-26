@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u35",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 35,
+  "concept": "C1.U35",
+  "status": "live",
+  "title": {
+   "target": "叙事的时态与讲故事",
+   "ko": "서사 시제와 이야기하기",
+   "en": "Narrative tenses and storytelling"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "展开",
+   "pos": "verb",
+   "read": "zhǎn kāi",
+   "ko": "이야기를 풀어내다",
+   "en": "unfold",
+   "ex": {
+    "t": "故事慢慢展开了。",
+    "read": "Gù shì mànmàn zhǎn kāi le.",
+    "ko": "이야기는 천천히 펼쳐졌어요.",
+    "en": "The story unfolded slowly."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "突然",
+   "pos": "phrase",
+   "read": "tūrán",
+   "ko": "갑자기",
+   "en": "all of a sudden",
+   "ex": {
+    "t": "突然，灯灭了。",
+    "read": "Tūrán, dēng miè le.",
+    "ko": "갑자기 불이 꺼졌어요.",
+    "en": "All of a sudden the lights went out."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "到那时",
+   "pos": "phrase",
+   "read": "dào nà shí",
+   "ko": "그때까지",
+   "en": "by then",
+   "ex": {
+    "t": "到那时大家都已经走了。",
+    "read": "Dào nà shí dàjiā dōu yǐjīng zǒu le.",
+    "ko": "그때쯤에는 모두 떠난 뒤였어요.",
+    "en": "By then everyone had left."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "最终",
+   "pos": "adv",
+   "read": "zuì zhōng",
+   "ko": "마침내",
+   "en": "eventually",
+   "ex": {
+    "t": "最终我们找到了路。",
+    "read": "Zuì zhōng wǒmen zhǎo dào le lù.",
+    "ko": "마침내 우리는 길을 찾았어요.",
+    "en": "Eventually we found the way."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "有一天",
+   "pos": "phrase",
+   "read": "yǒu yì tiān",
+   "ko": "그러던 어느 날",
+   "en": "one day",
+   "ex": {
+    "t": "有一天，一封信寄来了。",
+    "read": "Yǒu yì tiān, yì fēng xìn jì lái le.",
+    "ko": "그러던 어느 날 편지가 왔어요.",
+    "en": "One day a letter arrived."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "悬念",
+   "pos": "noun",
+   "read": "xuán niàn",
+   "ko": "긴장감",
+   "en": "suspense",
+   "ex": {
+    "t": "这部电影充满悬念。",
+    "read": "Zhè bù diànyǐng chōng mǎn xuán niàn.",
+    "ko": "그 영화는 긴장감이 넘쳐요.",
+    "en": "The film is full of suspense."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "回想",
+   "pos": "verb",
+   "read": "huí xiǎng",
+   "ko": "기억하다",
+   "en": "recall",
+   "ex": {
+    "t": "我清楚地回想起那一幕。",
+    "read": "Wǒ qīng chǔ dì huí xiǎng qǐ nà yí mù.",
+    "ko": "그 장면을 생생히 기억해요.",
+    "en": "I vividly recall that scene."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "背景",
+   "pos": "noun",
+   "read": "bèi jǐng",
+   "ko": "배경",
+   "en": "setting",
+   "ex": {
+    "t": "背景是一个小村庄。",
+    "read": "Bèi jǐng shì yí ge xiǎo cūn zhuāng.",
+    "ko": "이야기의 배경은 작은 마을이에요.",
+    "en": "The setting is a small village."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "转折",
+   "pos": "noun",
+   "read": "zhuǎn zhé",
+   "ko": "예상치 못한 전개",
+   "en": "twist",
+   "ex": {
+    "t": "结局有一个转折。",
+    "read": "Jié jú yǒu yí ge zhuǎn zhé.",
+    "ko": "결말에 반전이 있어요.",
+    "en": "There is a twist in the ending."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "此时",
+   "pos": "phrase",
+   "read": "cǐ shí",
+   "ko": "그 순간",
+   "en": "at that moment",
+   "ex": {
+    "t": "此时电话响了。",
+    "read": "Cǐ shí diànhuà xiǎng le.",
+    "ko": "그 순간 전화가 울렸어요.",
+    "en": "At that moment the phone rang."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "当……时，已经……了／正在……时／常常……／最终／此时",
+   "en": "Narrative: 已经……了 / 正在……时 / 常常 / 最终 / 此时"
+  },
+  "explain": {
+   "ko": "讲故事时要区分时间关系。中文没有时态变化，要靠词语表示：“已经……了”表示更早发生的事，“正在……时”表示背景，“常常／总是”表示过去的习惯，“有一天／突然／此时”引出主要事件，“最终”表示结果。",
+   "en": "Chinese has no tense inflection, so storytelling uses words: 已经……了 marks an earlier event, 正在……时 background, 常常／总是 past habit, 有一天／突然／此时 introduce main events, 最终 the outcome."
+  },
+  "table": {
+   "head": [
+    "功能 / Function",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "更早 / Earlier",
+     "已经……了",
+     "我们到时雨已经停了。"
+    ],
+    [
+     "背景 / Background",
+     "正在……时",
+     "我正在走路时有人叫我。"
+    ],
+    [
+     "习惯 / Habit",
+     "常常……",
+     "小时候我们常常去海边。"
+    ],
+    [
+     "事件 / Event",
+     "有一天／突然／此时",
+     "此时电话响了。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "时间词承担时态的作用。",
+    "en": "Time words do the work of tense."
+   },
+   {
+    "ko": "“了”“过”“着”表示体。",
+    "en": "了／过／着 mark aspect."
+   },
+   {
+    "ko": "用“最终”交代结果。",
+    "en": "Use 最终 for the outcome."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我们到的时候，雨已经停了。",
+    "read": "Wǒmen dào de shíhou, yǔ yǐjīng tíng le.",
+    "ko": "우리가 도착했을 때 비는 이미 그쳤어요.",
+    "en": "When we arrived, the rain had already stopped."
+   },
+   {
+    "t": "我正在街上走，有人叫了我的名字。",
+    "read": "Wǒ zhèngzài jiē shàng zǒu, yǒu rén jiào le wǒ de míngzi.",
+    "ko": "나는 걷고 있었는데 갑자기 누군가 내 이름을 불렀어요.",
+    "en": "I was walking when someone called my name."
+   },
+   {
+    "t": "小时候，我们每年夏天都去海边。",
+    "read": "Xiǎoshíhou, wǒmen měinián xiàtiān dōu qù hǎibiān.",
+    "ko": "어렸을 때 우리는 매년 여름 바다에 가곤 했어요.",
+    "en": "As children, we would go to the sea every summer."
+   },
+   {
+    "t": "最终，他知道了全部真相。",
+    "read": "Zuì zhōng, tā zhīdào le quán bù zhēn xiāng.",
+    "ko": "마침내 그는 진실을 알게 되었어요.",
+    "en": "Eventually he learned the truth."
+   },
+   {
+    "t": "此时电话响了。",
+    "read": "Cǐ shí diànhuà xiǎng le.",
+    "ko": "그 순간 전화가 울렸어요.",
+    "en": "At that moment the phone rang."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我们到的时候，雨___停了。",
+    "options": [
+     "已经",
+     "将要",
+     "从不"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我___在街上走，有人叫我。",
+    "options": [
+     "正",
+     "刚才",
+     "再"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "小时候，我们___去海边。",
+    "options": [
+     "常常",
+     "刚刚",
+     "忽然"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___，他知道了全部真相。",
+    "options": [
+     "最终",
+     "首先",
+     "例如"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "小时候夏天你做什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어릴 때 여름에 무엇을 했나요?",
+     "en": "(Question) What did you do in summer as a child?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我们每年夏天都去海边。",
+       "我不喜欢夏天。",
+       "明天下雨。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "电话响的时候你在做什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 전화가 울렸을 때 무엇을 하고 있었나요?",
+     "en": "(Question) What were you doing when the phone rang?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我正在做饭。",
+       "我昨天买了书。",
+       "我明年去。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨天发生了什么？"
+      },
+      {
+       "s": "B",
+       "t": "我正在街上走，有人叫了我的名字，是一位老朋友。"
+      },
+      {
+       "s": "A",
+       "t": "真的？多久没见了？"
+      },
+      {
+       "s": "B",
+       "t": "十年了，自上次见面后一直没联系。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 무슨 일이 있었어?\nB: 길을 걷고 있었는데 누군가 내 이름을 불렀어. 돌아보니 오래된 친구였어.\nA: 정말? 얼마 만이야?\nB: 십 년 만이었어. 우리는 마지막으로 만난 이후 한 번도 연락하지 않았거든.",
+     "en": "A: What happened yesterday?\nB: I was walking down the street when someone called my name. It was an old friend.\nA: Really? How long had it been?\nB: Ten years. We hadn't been in touch since we last met."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他们多久没见了？",
+      "options": [
+       "十年",
+       "一年",
+       "三个月"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "讲故事时要区分时间关系。主要事件用一般的叙述，背景用“正在”，更早的事用“已经”。过去的习惯用“常常”，有时用现在的口气增加生动感。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이야기를 할 때는 시제를 구분해야 합니다. 주요 사건은 과거형, 배경은 과거진행형, 앞선 일은 과거완료로 나타냅니다. 과거의 습관은 would나 used to를 쓰고, 생생하게 전달하고 싶을 때는 현재형을 쓰기도 합니다.",
+     "en": "When telling a story, distinguish the tenses. Use the past simple for main events, the past continuous for background, and the past perfect for earlier events. Use would or used to for past habits, and sometimes the present tense for vividness."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "什么表示背景？",
+      "options": [
+       "正在",
+       "已经",
+       "常常"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "故事怎么开头好？"
+      },
+      {
+       "s": "B",
+       "t": "先写背景。那天下着雨，街上空无一人。"
+      },
+      {
+       "s": "A",
+       "t": "然后呢？"
+      },
+      {
+       "s": "B",
+       "t": "写门突然开了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "작가: 이야기의 시작을 어떻게 할까요?\n편집자: 배경부터 보여 주세요. 비가 오고 있었고 거리에는 사람이 없었다고요.\n작가: 그다음에는요?\n편집자: 갑자기 문이 열렸다고 쓰세요.",
+     "en": "Writer: How should I begin the story?\nEditor: Show the setting first. It was raining and the street was empty.\nWriter: And then?\nEditor: Write that suddenly the door opened."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "那天下着雨，街上______",
+      "answers": [
+       "空无一人"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "然后写门突然______",
+      "answers": [
+       "开了"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我们到的时候，雨___停了。\n2) 我___在街上走，有人叫我。\n3) 小时候，我们___去海边。",
+    "trans": {
+     "ko": "1) 우리가 도착했을 때 비는 이미 그쳤어요. 2) 나는 걷고 있었는데 갑자기 누군가 내 이름을 불렀어요. 3) 어렸을 때 우리는 매년 여름 바다에 가곤 했어요.",
+     "en": "1) When we arrived, the rain had already stopped. 2) I was walking when someone called my name. 3) As children, we would go to the sea every summer."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我们到的时候，雨___停了。",
+      "options": [
+       "已经",
+       "将要",
+       "从不"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我___在街上走，有人叫我。",
+      "options": [
+       "正",
+       "刚才",
+       "再"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "小时候，我们___去海边。",
+      "options": [
+       "常常",
+       "刚刚",
+       "忽然"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "一天早上，我像往常一样(1)上班。地铁里(2)挤满了人。这时，一个孩子指着我的包笑了。直到那时，我才发现包(3)是开着的。",
+    "trans": {
+     "ko": "어느 날 아침, 나는 평소처럼 출근하고 있었다. 지하철 안은 이미 사람들로 가득 차 있었다. 그때 한 아이가 내 가방을 가리키며 웃었다. 나는 그제서야 가방이 열려 있었다는 것을 알았다.",
+     "en": "One morning, I was commuting as usual. The train was already full of people. Then a child pointed at my bag and laughed. Only then did I realise it had been open."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "正在",
+       "已经",
+       "明天"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "已经",
+       "将要",
+       "从不"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "一直",
+       "再也",
+       "永远"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "短篇小说\n丢失的钥匙\n那天夜里下着雨。到了门口，我找钥匙，却发现已经把它落在什么地方了。这时，邻居打开窗户喊了一声。直到那时，我才发现钥匙一直在口袋里。",
+    "trans": {
+     "ko": "단편\n잃어버린 열쇠\n그날 밤 비가 내리고 있었다. 나는 문 앞에서 열쇠를 찾았지만 이미 어디엔가 두고 온 뒤였다. 그때 이웃이 창문을 열고 외쳤다. 그제서야 나는 열쇠가 주머니에 있었음을 알았다.",
+     "en": "SHORT STORY\nThe lost key\nIt was raining that night. At the door I searched for my key, but I had already left it somewhere. Then a neighbour opened a window and called out. Only then did I realise the key had been in my pocket."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "小说发生在什么时候？",
+      "options": [
+       "下雨的夜里",
+       "晴朗的早晨",
+       "冬天的中午"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "钥匙最后在哪里？",
+      "options": [
+       "口袋里",
+       "门口",
+       "邻居家"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "故事发生在下雨的夜里。作者真的把钥匙落在了什么地方。邻居打开窗户喊了一声。",
+    "trans": {
+     "ko": "이야기는 비 오는 밤에 일어난다. 글쓴이는 열쇠를 정말 어딘가에 두고 왔다. 이웃이 창문을 열고 외쳤다.",
+     "en": "The story takes place on a rainy night. The writer really did leave the key somewhere. A neighbour opened a window and called out."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "故事发生在下雨的夜里。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "作者真的把钥匙落在了什么地方。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "邻居打开窗户喊了一声。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我们到的时候，雨已经停了。",
+    "read": "Wǒmen dào de shíhou, yǔ yǐjīng tíng le.",
+    "ko": "우리가 도착했을 때 비는 이미 그쳐 있었어요.",
+    "en": "When we arrived, the rain had already stopped.",
+    "situation": {
+     "ko": "앞선 사건을 말할 때",
+     "en": "Describing an earlier event"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我正在街上走，有人叫了我的名字。",
+    "read": "Wǒ zhèngzài jiē shàng zǒu, yǒu rén jiào le wǒ de míngzi.",
+    "ko": "나는 길을 걷고 있었는데 누군가 내 이름을 불렀어요.",
+    "en": "I was walking down the street when someone called my name.",
+    "situation": {
+     "ko": "배경과 사건을 함께 말할 때",
+     "en": "Combining background and event"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "小时候，我们每年夏天都去海边。",
+    "read": "Xiǎoshíhou, wǒmen měinián xiàtiān dōu qù hǎibiān.",
+    "ko": "어릴 때 우리는 매년 여름 바다에 가곤 했어요.",
+    "en": "As children, we would go to the sea every summer.",
+    "situation": {
+     "ko": "과거 습관을 말할 때",
+     "en": "Describing past habits"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "有一天，一封陌生的信寄来了。",
+    "read": "Yǒu yì tiān, yì fēng mò shēng de xìn jì lái le.",
+    "ko": "그러던 어느 날 낯선 편지가 도착했어요.",
+    "en": "One day an unfamiliar letter arrived.",
+    "situation": {
+     "ko": "사건을 도입할 때",
+     "en": "Introducing an event"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "此时电话响了，一切都变了。",
+    "read": "Cǐ shí diànhuà xiǎng le, yí qiè dōu biàn le.",
+    "ko": "그 순간 전화가 울리고 모든 것이 바뀌었어요.",
+    "en": "At that moment the phone rang and everything changed.",
+    "situation": {
+     "ko": "전환점을 말할 때",
+     "en": "Describing a turning point"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "最终，他知道了全部真相。",
+    "read": "Zuì zhōng, tā zhīdào le quán bù zhēn xiāng.",
+    "ko": "마침내 그는 모든 진실을 알게 되었어요.",
+    "en": "Eventually he learned the whole truth.",
+    "situation": {
+     "ko": "결말을 향해 갈 때",
+     "en": "Moving to the ending"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "他打开门，门外一个人也没有。",
+    "read": "Tā dǎ kāi mén, mén wài yí ge rén yě méiyǒu.",
+    "ko": "그가 문을 열자 아무도 없었어요.",
+    "en": "He opens the door, and there's nobody there.",
+    "situation": {
+     "ko": "생생하게 현재형으로 말할 때",
+     "en": "Using the historic present"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "回头看，那是我们人生的转折点。",
+    "read": "Huí tóu kàn, nà shì wǒmen rén shēng de zhuǎn zhé diǎn.",
+    "ko": "돌이켜보면 그건 우리 인생의 전환점이었어요.",
+    "en": "Looking back, it was a turning point in our lives.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Concluding a story"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……的时候，……已经……了。",
+    "read": "… De shíhou, … yǐjīng … le.",
+    "ko": "~했을 때 이미 ~했다.",
+    "en": "When ..., ... had already ..."
+   },
+   {
+    "id": "w2",
+    "t": "我正在……时，……。",
+    "read": "Wǒ zhèngzài … shí, ….",
+    "ko": "~하고 있었는데 ~했다.",
+    "en": "I was -ing when ..."
+   },
+   {
+    "id": "w3",
+    "t": "小时候，我们常常……。",
+    "read": "Xiǎoshíhou, wǒmen chángcháng ….",
+    "ko": "어릴 때 ~하곤 했다.",
+    "en": "As a child, I would/used to ..."
+   },
+   {
+    "id": "w4",
+    "t": "最终，……。",
+    "read": "Zuì zhōng, ….",
+    "ko": "마침내 ~.",
+    "en": "Eventually, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "과거의 한 사건을 배경·전개·전환점·결말이 있는 4문장 이야기로 써 보세요.",
+    "en": "Tell a past event in 4 sentences: setting, development, turning point, ending."
+   },
+   "must_include": [
+    {
+     "label": "已经",
+     "match": [
+      "已经"
+     ]
+    },
+    {
+     "label": "此时",
+     "match": [
+      "此时"
+     ]
+    },
+    {
+     "label": "最终",
+     "match": [
+      "最终"
+     ]
+    }
+   ],
+   "model": "一个冬夜，我正在站台上一边等车一边看书。到那时，站台上的人已经都走了。此时，一位老人走过来，递给我一封旧信。最终，我认出那是我很久以前丢失的信。",
+   "model_trans": {
+    "ko": "어느 겨울 저녁, 나는 기차를 기다리며 책을 읽고 있었습니다. 승강장에는 이미 사람들이 모두 떠난 뒤였습니다. 그 순간 한 노인이 다가와 낡은 편지 한 통을 건넸습니다. 마침내 나는 그 편지가 오래전 잃어버린 내 것이었음을 알게 되었습니다.",
+    "en": "One winter evening, I was reading a book while waiting for a train. By then, everyone on the platform had already left. At that moment an old man approached and handed me a worn letter. Eventually, I realised it was one I had lost long ago."
+   }
+  }
+ }
+}

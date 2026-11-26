@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u32",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 32,
+  "concept": "C1.U32",
+  "status": "live",
+  "title": {
+   "target": "领导力面试",
+   "ko": "리더십 면접",
+   "en": "Leadership interviews"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "主动",
+   "pos": "phrase",
+   "read": "zhǔ dòng",
+   "ko": "주도권을 잡다",
+   "en": "take the initiative",
+   "ex": {
+    "t": "我主动解决了问题。",
+    "read": "Wǒ zhǔ dòng jiě jué le wèntí.",
+    "ko": "저는 주도적으로 문제를 해결했습니다.",
+    "en": "I took the initiative to solve the problem."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "以身作则",
+   "pos": "phrase",
+   "read": "yǐ shēn zuò zé",
+   "ko": "모범을 보이다",
+   "en": "lead by example",
+   "ex": {
+    "t": "我以身作则带领团队。",
+    "read": "Wǒ yǐ shēn zuò zé dài lǐng tuán duì.",
+    "ko": "저는 모범을 보이며 팀을 이끌었습니다.",
+    "en": "I led the team by example."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "负责",
+   "pos": "phrase",
+   "read": "fù zé",
+   "ko": "책임지다",
+   "en": "be accountable for",
+   "ex": {
+    "t": "我对结果负责。",
+    "read": "Wǒ duì jié guǒ fù zé.",
+    "ko": "저는 결과에 책임을 집니다.",
+    "en": "I am accountable for the results."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "授权",
+   "pos": "verb",
+   "read": "shòu quán",
+   "ko": "위임하다",
+   "en": "delegate",
+   "ex": {
+    "t": "我适当地授权给团队。",
+    "read": "Wǒ shì dàng dì shòu quán gěi tuán duì.",
+    "ko": "저는 업무를 적절히 위임했습니다.",
+    "en": "I delegated tasks appropriately."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "激励",
+   "pos": "verb",
+   "read": "jī lì",
+   "ko": "동기를 부여하다",
+   "en": "motivate",
+   "ex": {
+    "t": "我激励了团队成员。",
+    "read": "Wǒ jī lì le tuán duì chéng yuán.",
+    "ko": "저는 팀원들에게 동기를 부여했습니다.",
+    "en": "I motivated team members."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "化解矛盾",
+   "pos": "phrase",
+   "read": "huà jiě máo dùn",
+   "ko": "갈등을 해결하다",
+   "en": "resolve a conflict",
+   "ex": {
+    "t": "我化解了两个团队的矛盾。",
+    "read": "Wǒ huà jiě le liǎng ge tuán duì de máo dùn.",
+    "ko": "저는 팀 간 갈등을 해결했습니다.",
+    "en": "I resolved a conflict between teams."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "取得成果",
+   "pos": "phrase",
+   "read": "qǔ děi chéng guǒ",
+   "ko": "성과를 내다",
+   "en": "deliver results",
+   "ex": {
+    "t": "他不断取得成果。",
+    "read": "Tā bú duàn qǔ děi chéng guǒ.",
+    "ko": "그는 꾸준히 성과를 냅니다.",
+    "en": "He consistently delivers results."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "愿景",
+   "pos": "noun",
+   "read": "yuàn jǐng",
+   "ko": "비전",
+   "en": "vision",
+   "ex": {
+    "t": "领导者需要明确的愿景。",
+    "read": "Lǐng dǎo zhě xūyào míng què de yuàn jǐng.",
+    "ko": "리더는 명확한 비전이 필요해요.",
+    "en": "A leader needs a clear vision."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "克服挫折",
+   "pos": "phrase",
+   "read": "kè fú cuò zhé",
+   "ko": "어려움을 극복하다",
+   "en": "overcome setbacks",
+   "ex": {
+    "t": "我们克服了几次挫折。",
+    "read": "Wǒmen kè fú le jǐ cì cuò zhé.",
+    "ko": "우리는 여러 차질을 극복했습니다.",
+    "en": "We overcame several setbacks."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "凭借",
+   "pos": "phrase",
+   "read": "píng jiè",
+   "ko": "~에 근거해",
+   "en": "on the strength of",
+   "ex": {
+    "t": "他凭借经验被选中。",
+    "read": "Tā píng jiè jīng yàn bèi xuǎn zhōng.",
+    "ko": "그는 경력에 근거해 선발되었어요.",
+    "en": "He was selected on the strength of his experience."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "我主动……／以身作则／对……负责／凭借……",
+   "en": "Leadership interviews: 主动 / 以身作则 / 负责 / 凭借"
+  },
+  "explain": {
+   "ko": "回答领导力问题时，要具体说明“我”做了什么：“我主动召开了团队会议。”表达领导风格：“我以身作则。”表达责任：“我对结果负责。”表达依据：“凭借这次经验，我相信自己能胜任这个职位。”要按“情况、行动、结果”的顺序说明。",
+   "en": "On leadership, say specifically what 我 did: 我主动召开了团队会议. Style: 我以身作则. Responsibility: 我对结果负责. Basis: 凭借这次经验，我相信自己能胜任这个职位. Order your case: situation, action, result."
+  },
+  "table": {
+   "head": [
+    "功能 / Function",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "主动 / Initiative",
+     "我主动……",
+     "我主动召开了会议。"
+    ],
+    [
+     "风格 / Style",
+     "以身作则",
+     "我以身作则带领团队。"
+    ],
+    [
+     "责任 / Responsibility",
+     "对……负责",
+     "我对结果负责。"
+    ],
+    [
+     "依据 / Basis",
+     "凭借……",
+     "凭借这次经验，我能胜任。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "要说“我”做了什么，而不只是“我们”。",
+    "en": "Say what 我 did, not only 我们."
+   },
+   {
+    "ko": "要用数字和结果说明。",
+    "en": "Use figures and results."
+   },
+   {
+    "ko": "谈到失败时要承担责任。",
+    "en": "Accept responsibility for failure."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我主动解决了这个问题。",
+    "read": "Wǒ zhǔ dòng jiě jué le zhège wèntí.",
+    "ko": "저는 주도적으로 문제를 해결했습니다.",
+    "en": "I took the initiative to solve the problem."
+   },
+   {
+    "t": "我以身作则带领团队。",
+    "read": "Wǒ yǐ shēn zuò zé dài lǐng tuán duì.",
+    "ko": "저는 모범을 보이며 팀을 이끌었습니다.",
+    "en": "I led my team by example."
+   },
+   {
+    "t": "我对结果负责。",
+    "read": "Wǒ duì jié guǒ fù zé.",
+    "ko": "저는 결과에 대한 책임을 집니다.",
+    "en": "I am accountable for the results."
+   },
+   {
+    "t": "我适当地授权，培养了团队的能力。",
+    "read": "Wǒ shì dàng dì shòu quán, péi yǎng le tuán duì de nénglì.",
+    "ko": "저는 업무를 적절히 위임해 팀의 역량을 키웠습니다.",
+    "en": "I delegated tasks appropriately and developed the team's skills."
+   },
+   {
+    "t": "凭借这次经验，我相信自己能胜任这个职位。",
+    "read": "Píng jiè zhè cì jīng yàn, wǒ xiāng xìn zìjǐ néng shèng rèn zhège zhí wèi.",
+    "ko": "그는 경력에 근거해 선발되었어요.",
+    "en": "He was chosen on the strength of his experience."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我___解决了这个问题。",
+    "options": [
+     "主动",
+     "被动",
+     "偶然"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "我以身___带领团队。",
+    "options": [
+     "作则",
+     "作乐",
+     "作业"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我对结果___。",
+    "options": [
+     "负责",
+     "反对",
+     "忘记"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___这次经验，我相信自己能胜任。",
+    "options": [
+     "凭借",
+     "除了",
+     "关于"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "谈谈你的领导经验。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 리더십 경험을 말해 주세요.",
+     "en": "(Question) Tell me about your leadership experience."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我主动解决过一个问题。",
+       "我没有经验。",
+       "我不喜欢工作。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你是怎样激励团队的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어떻게 팀에 동기를 부여했나요?",
+     "en": "(Question) How did you motivate your team?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我以身作则带领团队。",
+       "我什么也没做。",
+       "我没有团队。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你有化解矛盾的经验吗？"
+      },
+      {
+       "s": "B",
+       "t": "有，我调解过两个团队之间的分歧。"
+      },
+      {
+       "s": "A",
+       "t": "你是怎么解决的？"
+      },
+      {
+       "s": "B",
+       "t": "我弄清了双方的立场，提出了折中方案。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 갈등을 해결한 경험이 있나요?\nB: 네, 두 팀 사이의 의견 충돌을 중재했습니다.\nA: 어떻게 해결했나요?\nB: 양쪽의 입장을 정리하고 서로 절충안을 제안했습니다.",
+     "en": "A: Do you have experience resolving conflict?\nB: Yes, I mediated a disagreement between two teams.\nA: How did you resolve it?\nB: I clarified both positions and proposed a compromise."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的做了什么？",
+      "options": [
+       "调解了两个团队",
+       "辞职了",
+       "换了部门"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "对领导者来说，重要的是责任。好的成果归功于团队，不好的结果自己承担。表示信任和适当授权也很重要。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "리더에게 중요한 것은 책임감입니다. 결과가 좋을 때는 팀의 공으로 돌리고, 나쁠 때는 스스로 책임을 져야 합니다. 또한 팀원에게 신뢰를 보여 주고 적절히 업무를 위임하는 것도 중요합니다.",
+     "en": "What matters for a leader is accountability. Credit the team for good results and take responsibility yourself for bad ones. Showing trust and delegating appropriately are also important."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "对领导者来说什么重要？",
+      "options": [
+       "责任",
+       "金钱",
+       "年龄"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你的领导风格是什么？"
+      },
+      {
+       "s": "B",
+       "t": "我以身作则。"
+      },
+      {
+       "s": "A",
+       "t": "能举一个具体的例子吗？"
+      },
+      {
+       "s": "B",
+       "t": "工期紧张时，我自己加班，提高了士气。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "면접관: 당신의 리더십 스타일은 무엇입니까?\n지원자: 모범을 보이며 팀을 이끄는 스타일입니다.\n면접관: 구체적인 사례가 있습니까?\n지원자: 마감이 촉박할 때 직접 야근하며 팀의 사기를 높였습니다.",
+     "en": "Interviewer: What is your leadership style?\nCandidate: I lead by example.\nInterviewer: Can you give a specific case?\nCandidate: When a deadline was tight, I worked late myself and lifted morale."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "应聘者以身______",
+      "answers": [
+       "作则"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "他加班提高了______",
+      "answers": [
+       "士气"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我___解决了这个问题。\n2) 我以身___带领团队。\n3) 我对结果___。",
+    "trans": {
+     "ko": "1) 저는 주도적으로 문제를 해결했습니다. 2) 저는 모범을 보이며 팀을 이끌었습니다. 3) 저는 결과에 대한 책임을 집니다.",
+     "en": "1) I took the initiative to solve the problem. 2) I led my team by example. 3) I am accountable for the results."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我___解决了这个问题。",
+      "options": [
+       "主动",
+       "被动",
+       "偶然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我以身___带领团队。",
+      "options": [
+       "作则",
+       "作乐",
+       "作业"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我对结果___。",
+      "options": [
+       "负责",
+       "反对",
+       "忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "在面试中谈领导力时，最有效的是按“情况、行动、结果”的顺序(1)具体事例。例如：“项目(2)时，我召开了团队会议，结果按期完成。”最后，补充(3)的东西，会更好。",
+    "trans": {
+     "ko": "면접에서 리더십을 보여 줄 때는 구체적인 사례를 상황, 행동, 결과의 순서로 설명하는 것이 효과적입니다. 예를 들어 '프로젝트가 지연되었을 때, 제가 팀 회의를 소집했고, 그 결과 제때 마쳤습니다'처럼 말합니다. 마지막으로 배운 점을 덧붙이면 좋습니다.",
+     "en": "When showing leadership in an interview, it is effective to explain a specific case in the order situation, action, result. For example: 'When the project was delayed, I called a team meeting, and as a result we finished on time.' Finally, it helps to add what you learned."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "说明",
+       "隐藏",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "延误",
+       "成功",
+       "开始"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "学到",
+       "失去",
+       "忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "面试指南\n如何回答领导力问题\n回答领导力问题时，要明确说“我”做了什么，而不只是“我们”。要说明团队的成果，也要具体解释自己做出了什么决定。被问到失败时，要承担责任并说明学到了什么。",
+    "trans": {
+     "ko": "면접 가이드\n리더십 질문 답변법\n리더십 질문에서는 ‘우리’보다 ‘나’의 역할을 분명히 말하라. 팀의 성과를 말하되 자신이 어떤 결정을 했는지 구체적으로 설명하라. 실패 사례를 묻는 질문에는 책임을 인정하고 배운 점을 말하라.",
+     "en": "INTERVIEW GUIDE\nAnswering leadership questions\nIn leadership questions, state clearly what 'I' did rather than only 'we'. Describe the team's results but explain concretely what decisions you made. For questions about failure, accept responsibility and say what you learned."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "要明确说什么？",
+      "options": [
+       "“我”做了什么",
+       "只说“我们”",
+       "别人做了什么"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "被问到失败时怎么做？",
+      "options": [
+       "承担责任并说明学到了什么",
+       "找借口",
+       "避而不谈"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "指南建议明确说“我”做了什么。被问到失败时应该找借口。这份指南用于面试准备。",
+    "trans": {
+     "ko": "가이드는 ‘나’의 역할을 분명히 말하라고 조언한다. 실패 사례를 묻는 질문에는 변명해야 한다. 이 가이드는 면접 준비용이다.",
+     "en": "The guide advises stating clearly what 'I' did. For questions about failure you should make excuses. This guide is for interview preparation."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "指南建议明确说“我”做了什么。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "被问到失败时应该找借口。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "这份指南用于面试准备。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我有主动解决问题的经验。",
+    "read": "Wǒ yǒu zhǔ dòng jiě jué wèntí de jīng yàn.",
+    "ko": "저는 주도적으로 문제를 해결한 경험이 있습니다.",
+    "en": "I have experience taking the initiative to solve problems.",
+    "situation": {
+     "ko": "리더십 경험을 말할 때",
+     "en": "Describing leadership experience"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "我尽量以身作则带领团队。",
+    "read": "Wǒ jǐnliàng yǐ shēn zuò zé dài lǐng tuán duì.",
+    "ko": "저는 모범을 보이며 팀을 이끌려고 합니다.",
+    "en": "I try to lead my team by example.",
+    "situation": {
+     "ko": "리더십 스타일을 말할 때",
+     "en": "Describing leadership style"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我适当授权，帮助团队成员成长。",
+    "read": "Wǒ shì dàng shòu quán, bāngzhù tuán duì chéng yuán chéng cháng.",
+    "ko": "저는 업무를 적절히 위임해 팀원의 성장을 돕습니다.",
+    "en": "I delegate appropriately to help team members grow.",
+    "situation": {
+     "ko": "위임 방식을 설명할 때",
+     "en": "Explaining delegation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我对结果负责。",
+    "read": "Wǒ duì jié guǒ fù zé.",
+    "ko": "저는 결과에 대한 책임을 집니다.",
+    "en": "I am accountable for the results.",
+    "situation": {
+     "ko": "책임감을 보여 줄 때",
+     "en": "Showing accountability"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我调解了两个团队的矛盾，促成了协议。",
+    "read": "Wǒ tiáo jiě le liǎng ge tuán duì de máo dùn, cù chéng le xié yì.",
+    "ko": "팀 간 갈등을 중재해 합의를 이끌어 냈습니다.",
+    "en": "I mediated a conflict between teams and brokered an agreement.",
+    "situation": {
+     "ko": "갈등 해결 경험을 말할 때",
+     "en": "Describing conflict resolution"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我们克服了几次挫折，按期完成。",
+    "read": "Wǒmen kè fú le jǐ cì cuò zhé, àn qī wán chéng.",
+    "ko": "여러 차질을 극복하고 프로젝트를 제때 마쳤습니다.",
+    "en": "We overcame several setbacks and finished on time.",
+    "situation": {
+     "ko": "어려움을 극복한 사례를 말할 때",
+     "en": "Describing resilience"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我努力与团队分享明确的愿景。",
+    "read": "Wǒ nǔlì yǔ tuán duì fēn xiǎng míng què de yuàn jǐng.",
+    "ko": "저는 팀에 명확한 비전을 공유하려고 노력합니다.",
+    "en": "I try to share a clear vision with my team.",
+    "situation": {
+     "ko": "비전을 말할 때",
+     "en": "Talking about vision"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "凭借这次经验，我相信自己能胜任这个职位。",
+    "read": "Píng jiè zhè cì jīng yàn, wǒ xiāng xìn zìjǐ néng shèng rèn zhège zhí wèi.",
+    "ko": "이러한 경험을 바탕으로 이 직책에 기여할 수 있다고 생각합니다.",
+    "en": "On the strength of this experience, I believe I can contribute to this role.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Closing"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我主动……。",
+    "read": "Wǒ zhǔ dòng ….",
+    "ko": "저는 주도적으로 ~했습니다.",
+    "en": "I took the initiative to ..."
+   },
+   {
+    "id": "w2",
+    "t": "我对……负责。",
+    "read": "Wǒ duì … fù zé.",
+    "ko": "저는 ~에 책임을 집니다.",
+    "en": "I am accountable for ..."
+   },
+   {
+    "id": "w3",
+    "t": "我们克服了……。",
+    "read": "Wǒmen kè fú le ….",
+    "ko": "~을 극복했습니다.",
+    "en": "We overcame ..."
+   },
+   {
+    "id": "w4",
+    "t": "凭借……。",
+    "read": "Píng jiè ….",
+    "ko": "~에 근거해서.",
+    "en": "On the strength of ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "리더십 면접 답변을 상황·행동·결과·배운 점 순으로 4문장으로 써 보세요.",
+    "en": "Write a four-sentence interview answer: situation, action, result, lesson."
+   },
+   "must_include": [
+    {
+     "label": "主动",
+     "match": [
+      "主动"
+     ]
+    },
+    {
+     "label": "授权",
+     "match": [
+      "授权"
+     ]
+    },
+    {
+     "label": "以身作则",
+     "match": [
+      "以身作则"
+     ]
+    }
+   ],
+   "model": "项目落后两周时，我主动召开了团队会议。我重新分配了工作，适当授权，并以身作则。结果，我们按期完成了项目。我学到，清晰的沟通最重要。",
+   "model_trans": {
+    "ko": "프로젝트가 일정보다 두 주 늦어졌을 때 저는 주도적으로 팀 회의를 소집했습니다. 업무를 재배치해 적절히 위임했고 직접 모범을 보였습니다. 그 결과 프로젝트를 제때 마칠 수 있었습니다. 이 경험을 통해 명확한 소통이 가장 중요하다는 것을 배웠습니다.",
+    "en": "When a project fell two weeks behind schedule, I took the initiative and called a team meeting. I reorganised the workload, delegated appropriately and led by example. As a result, we completed the project on time. I learned that clear communication matters most."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u28",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 28,
+  "concept": "C1.U28",
+  "status": "live",
+  "title": {
+   "target": "深入分析数据",
+   "ko": "자료 분석 심화",
+   "en": "Analysing data in depth"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "相关性",
+   "pos": "noun",
+   "read": "xiāng guān xìng",
+   "ko": "상관관계",
+   "en": "correlation",
+   "ex": {
+    "t": "两个变量之间有很强的相关性。",
+    "read": "Liǎng ge biàn liàng zhī jiān yǒu hěn qiáng de xiāng guān xìng.",
+    "ko": "두 변수 사이에 강한 상관관계가 있어요.",
+    "en": "There is a strong correlation between the two variables."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "占",
+   "pos": "phrase",
+   "read": "zhàn",
+   "ko": "차지하다",
+   "en": "account for",
+   "ex": {
+    "t": "女性占参与者的百分之六十。",
+    "read": "Nǚ xìng zhàn cān yù zhě de bǎi fēn zhī liùshí.",
+    "ko": "여성이 전체 참가자의 60퍼센트를 차지해요.",
+    "en": "Women account for sixty per cent of participants."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "差距",
+   "pos": "noun",
+   "read": "chà jù",
+   "ko": "격차",
+   "en": "disparity",
+   "ex": {
+    "t": "收入差距正在扩大。",
+    "read": "Shōu rù chà jù zhèngzài kuò dà.",
+    "ko": "소득 격차가 커지고 있어요.",
+    "en": "The income disparity is widening."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "绝大多数",
+   "pos": "phrase",
+   "read": "jué dà duō shù",
+   "ko": "압도적 다수",
+   "en": "the vast majority",
+   "ex": {
+    "t": "绝大多数人支持这项政策。",
+    "read": "Jué dà duō shù rén zhī chí zhè xiàng zhèng cè.",
+    "ko": "대다수가 이 정책에 찬성했어요.",
+    "en": "The vast majority supported the policy."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "异常值",
+   "pos": "noun",
+   "read": "yì cháng zhí",
+   "ko": "이상치",
+   "en": "outlier",
+   "ex": {
+    "t": "这个数值看起来是异常值。",
+    "read": "Zhège shù zhí kànqǐlái shì yì cháng zhí.",
+    "ko": "이 값은 이상치로 보여요.",
+    "en": "This value looks like an outlier."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "趋势",
+   "pos": "noun",
+   "read": "qū shì",
+   "ko": "추세",
+   "en": "trend",
+   "ex": {
+    "t": "上升趋势仍在继续。",
+    "read": "Shàng shēng qū shì réng zài jìxù.",
+    "ko": "상승 추세가 이어지고 있어요.",
+    "en": "The upward trend continues."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "明显",
+   "pos": "adj",
+   "read": "míng xiǎn",
+   "ko": "두드러진",
+   "en": "pronounced",
+   "ex": {
+    "t": "地区差异很明显。",
+    "read": "Dì qū chà yì hěn míng xiǎn.",
+    "ko": "지역 간 차이가 두드러져요.",
+    "en": "Regional differences are pronounced."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "成正比",
+   "pos": "phrase",
+   "read": "chéng zhèng bǐ",
+   "ko": "비례하다",
+   "en": "be proportional to",
+   "ex": {
+    "t": "收入与教育程度成正比。",
+    "read": "Shōu rù yǔ jiào yù chéng dù chéng zhèng bǐ.",
+    "ko": "소득은 학력에 비례해요.",
+    "en": "Income is proportional to education."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "波动",
+   "pos": "noun",
+   "read": "bō dòng",
+   "ko": "변동",
+   "en": "fluctuation",
+   "ex": {
+    "t": "价格波动很大。",
+    "read": "Jiàgé bō dòng hěn dà.",
+    "ko": "가격 변동이 심해요.",
+    "en": "Price fluctuations are large."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "解读",
+   "pos": "noun",
+   "read": "jiě dú",
+   "ko": "해석",
+   "en": "interpretation",
+   "ex": {
+    "t": "数据的解读必须谨慎。",
+    "read": "Shù jù de jiě dú bìxū jǐn shèn.",
+    "ko": "자료 해석은 신중해야 해요.",
+    "en": "Interpretation of data must be careful."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "与……相关／占……／差距明显／绝大多数",
+   "en": "Data analysis: 与……相关 / 占…… / 差距明显 / 绝大多数"
+  },
+  "explain": {
+   "ko": "分析数据时，要准确说明关系和比例。关系：“这两个变量之间有很强的相关性。”比例：“女性占百分之六十。”差距：“地区之间的差距很明显。”多数：“绝大多数人赞成。”但是“相关不一定意味着因果”，所以要谨慎解读结果，异常值要另外分析。",
+   "en": "Data analysis states relationships and shares precisely. Relationship: 这两个变量之间有很强的相关性; share: 女性占百分之六十; gap: 地区之间的差距很明显; majority: 绝大多数人赞成. But 相关不一定意味着因果, so interpret cautiously and analyse outliers separately."
+  },
+  "table": {
+   "head": [
+    "表达 / Expression",
+    "意思 / Meaning",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "……之间有相关性",
+     "correlation",
+     "收入与消费之间有相关性。"
+    ],
+    [
+     "占……",
+     "account for",
+     "女性占百分之六十。"
+    ],
+    [
+     "差距明显",
+     "marked disparity",
+     "地区差距很明显。"
+    ],
+    [
+     "绝大多数",
+     "vast majority",
+     "绝大多数人赞成。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“不一定”可以避免绝对的说法。",
+    "en": "不一定 avoids absolutes."
+   },
+   {
+    "ko": "异常值要另外分析。",
+    "en": "Analyse outliers separately."
+   },
+   {
+    "ko": "数字要带上单位和范围。",
+    "en": "Add units and scope to numbers."
+   }
+  ],
+  "examples": [
+   {
+    "t": "数据显示两个变量之间有很强的相关性。",
+    "read": "Shù jù xiǎn shì liǎng ge biàn liàng zhī jiān yǒu hěn qiáng de xiāng guān xìng.",
+    "ko": "이 두 변수 사이에는 강한 상관관계가 있어요.",
+    "en": "There is a strong correlation between these two variables."
+   },
+   {
+    "t": "女性占受访者的百分之六十。",
+    "read": "Nǚ xìng zhàn shòu fǎng zhě de bǎi fēn zhī liùshí.",
+    "ko": "여성이 전체의 60퍼센트를 차지해요.",
+    "en": "Women account for sixty per cent of the total."
+   },
+   {
+    "t": "地区之间的差距很明显。",
+    "read": "Dì qū zhī jiān de chà jù hěn míng xiǎn.",
+    "ko": "지역 간 소득 격차가 두드러져요.",
+    "en": "The income disparity between regions is pronounced."
+   },
+   {
+    "t": "绝大多数人支持新政策。",
+    "read": "Jué dà duō shù rén zhī chí xīn zhèng cè.",
+    "ko": "대다수가 새 제도에 찬성했어요.",
+    "en": "The vast majority supported the new system."
+   },
+   {
+    "t": "相关不一定意味着因果。",
+    "read": "Xiāng guān bù yí dìng yì wèi zhe yīn guǒ.",
+    "ko": "상관관계가 인과 관계를 의미하는 것은 아니에요.",
+    "en": "Correlation does not imply causation."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "两个变量之间有很强的___。",
+    "options": [
+     "相关性",
+     "约定",
+     "习惯"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "女性___受访者的百分之六十。",
+    "options": [
+     "占",
+     "运",
+     "找"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "地区之间的差距很___。",
+    "options": [
+     "明显",
+     "小",
+     "一样"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "相关不___意味着因果。",
+    "options": [
+     "一定",
+     "已经",
+     "曾经"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这些数据说明了什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 자료는 무엇을 보여 주나요?",
+     "en": "(Question) What does this data show?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "显示了很强的相关性。",
+       "什么也没显示。",
+       "没有数据。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "绝大多数人怎么想？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 대다수는 어떤 의견인가요?",
+     "en": "(Question) What do the vast majority think?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "绝大多数人赞成。",
+       "没有人赞成。",
+       "一半一半。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这张图显示收入和消费之间有相关性。"
+      },
+      {
+       "s": "B",
+       "t": "可是这并不能证明因果关系。"
+      },
+      {
+       "s": "A",
+       "t": "对，要谨慎解读。"
+      },
+      {
+       "s": "B",
+       "t": "需要进一步分析。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 그래프 보면 소득과 소비 사이에 상관관계가 있어.\nB: 그렇다고 인과 관계라고 할 수는 없지.\nA: 맞아, 조심스럽게 해석해야 해.\nB: 추가 분석이 필요하겠어.",
+     "en": "A: This graph shows a correlation between income and spending.\nB: But that doesn't prove causation.\nA: Right, it must be interpreted carefully.\nB: We need further analysis."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的怎么看相关性？",
+      "options": [
+       "不能证明因果关系",
+       "有因果关系",
+       "没有关系"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我来汇报调查结果。百分之七十的受访者说他们使用公共交通。按年龄看，二十多岁的人占比最大。地区之间的差别不大。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "조사 결과를 발표하겠습니다. 응답자의 70퍼센트가 대중교통을 이용한다고 답했습니다. 연령대별로는 20대가 가장 큰 비중을 차지했습니다. 지역 간 차이는 크지 않았습니다.",
+     "en": "I'll present the survey results. Seventy per cent of respondents said they use public transport. By age, people in their twenties accounted for the largest share. Differences between regions were not large."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "谁占比最大？",
+      "options": [
+       "二十多岁的人",
+       "六十多岁的人",
+       "十多岁的人"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请看这张图。"
+      },
+      {
+       "s": "B",
+       "t": "有一个值异常高。"
+      },
+      {
+       "s": "A",
+       "t": "可能是异常值，我另外核实。"
+      },
+      {
+       "s": "B",
+       "t": "好，结论等之后再下。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "분석가: 이 그래프를 보세요.\n동료: 값 하나가 유난히 높네요.\n분석가: 이상치일 수 있으니 따로 확인하겠습니다.\n동료: 네, 결론은 그 뒤에 내리죠.",
+     "en": "Analyst: Look at this graph.\nColleague: One value is unusually high.\nAnalyst: It may be an outlier; I'll check it separately.\nColleague: Yes, let's draw conclusions afterwards."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "有一个值异常______",
+      "answers": [
+       "高"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "分析员会______核实",
+      "answers": [
+       "另外"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 两个变量之间有很强的___。\n2) 女性___受访者的百分之六十。\n3) 地区之间的差距很___。",
+    "trans": {
+     "ko": "1) 이 두 변수 사이에는 강한 상관관계가 있어요. 2) 여성이 전체의 60퍼센트를 차지해요. 3) 지역 간 소득 격차가 두드러져요.",
+     "en": "1) There is a strong correlation between these two variables. 2) Women account for sixty per cent of the total. 3) The income disparity between regions is pronounced."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "两个变量之间有很强的___。",
+      "options": [
+       "相关性",
+       "约定",
+       "习惯"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "女性___受访者的百分之六十。",
+      "options": [
+       "占",
+       "运",
+       "找"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "地区之间的差距很___。",
+      "options": [
+       "明显",
+       "小",
+       "一样"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这份报告分析了城乡收入差距。城市的平均收入是农村的两倍。学历越高，收入往往越高，但是这(1)意味着因果关系。因此，结果需要(2)解读，(3)进一步分析。",
+    "trans": {
+     "ko": "이 보고서는 도시와 농촌의 소득 격차를 분석했습니다. 도시 지역의 평균 소득은 농촌의 두 배에 달했습니다. 학력이 높을수록 소득도 높은 경향이 있었지만, 이것이 곧 인과 관계를 뜻하지는 않습니다.",
+     "en": "This report analysed the income gap between urban and rural areas. Average urban income was twice the rural figure. Higher education tended to go with higher income, but this does not necessarily mean causation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "不一定",
+       "一定",
+       "总是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "谨慎",
+       "匆忙",
+       "随便"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "并做",
+       "而不",
+       "或者"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "报告\n阅读习惯调查\n在一项对一千名成年人的调查中，百分之四十的人表示一个月一本书也不读。二十多岁的人读得最少，六十多岁的人读得最多。收入和阅读量之间没有明显的相关性。",
+    "trans": {
+     "ko": "보고서\n독서 습관 조사\n성인 천 명을 대상으로 한 조사에서 응답자의 40퍼센트는 한 달에 책을 한 권도 읽지 않는다고 답했다. 20대의 독서량이 가장 적었고 60대가 가장 많았다. 소득과 독서량 사이에는 뚜렷한 상관관계가 없었다.",
+     "en": "REPORT\nReading habits survey\nIn a survey of one thousand adults, forty per cent said they read no books in a month. Readers in their twenties read the least and those in their sixties the most. There was no clear correlation between income and reading volume."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "百分之四十的人怎么回答？",
+      "options": [
+       "一个月一本书也不读",
+       "每天读书",
+       "一个月读十本"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "收入与阅读量的关系怎么样？",
+      "options": [
+       "没有明显的相关性",
+       "有很强的相关性",
+       "有相反的相关性"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "一千名成年人参加了调查。二十多岁的人读得最多。收入和阅读之间没有明显的相关性。",
+    "trans": {
+     "ko": "조사에는 성인 천 명이 참여했다. 20대의 독서량이 가장 많았다. 소득과 독서량 사이에는 뚜렷한 상관관계가 없었다.",
+     "en": "One thousand adults took part. Those in their twenties read the most. There was no clear correlation between income and reading."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "一千名成年人参加了调查。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "二十多岁的人读得最多。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "收入和阅读之间没有明显的相关性。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "数据显示这两个变量之间有很强的相关性。",
+    "read": "Shù jù xiǎn shì zhè liǎng ge biàn liàng zhī jiān yǒu hěn qiáng de xiāng guān xìng.",
+    "ko": "이 자료는 두 변수 사이의 강한 상관관계를 보여 줍니다.",
+    "en": "The data show a strong correlation between the two variables.",
+    "situation": {
+     "ko": "관계를 분석할 때",
+     "en": "Analysing a relationship"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "女性占受访者的百分之六十。",
+    "read": "Nǚ xìng zhàn shòu fǎng zhě de bǎi fēn zhī liùshí.",
+    "ko": "여성이 전체 응답자의 60퍼센트를 차지합니다.",
+    "en": "Women account for sixty per cent of respondents.",
+    "situation": {
+     "ko": "비율을 설명할 때",
+     "en": "Explaining proportions"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "地区之间的差距很明显。",
+    "read": "Dì qū zhī jiān de chà jù hěn míng xiǎn.",
+    "ko": "지역 간 격차가 두드러집니다.",
+    "en": "The disparity between regions is pronounced.",
+    "situation": {
+     "ko": "차이를 지적할 때",
+     "en": "Pointing out a gap"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "绝大多数人支持这项新政策。",
+    "read": "Jué dà duō shù rén zhī chí zhè xiàng xīn zhèng cè.",
+    "ko": "압도적 다수가 새 정책에 찬성했습니다.",
+    "en": "The vast majority supported the new policy.",
+    "situation": {
+     "ko": "다수를 말할 때",
+     "en": "Describing a majority"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这个数值像是异常值，应该另外分析。",
+    "read": "Zhège shù zhí xiàng shì yì cháng zhí, yīnggāi lìng wài fēn xī.",
+    "ko": "이 값은 이상치로 보이므로 별도로 분석해야 합니다.",
+    "en": "This value appears to be an outlier and should be analysed separately.",
+    "situation": {
+     "ko": "예외를 처리할 때",
+     "en": "Handling an exception"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "相关不一定意味着因果。",
+    "read": "Xiāng guān bù yí dìng yì wèi zhe yīn guǒ.",
+    "ko": "상관관계가 곧 인과 관계는 아닙니다.",
+    "en": "Correlation does not necessarily imply causation.",
+    "situation": {
+     "ko": "해석을 경계할 때",
+     "en": "Cautioning about interpretation"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "上升趋势很可能会持续。",
+    "read": "Shàng shēng qū shì hěn kěnéng huì chí xù.",
+    "ko": "상승 추세가 이어질 것으로 보입니다.",
+    "en": "The upward trend is likely to continue.",
+    "situation": {
+     "ko": "추세를 전망할 때",
+     "en": "Forecasting a trend"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "必须谨慎解读这些结果。",
+    "read": "Bìxū jǐn shèn jiě dú zhèxiē jié guǒ.",
+    "ko": "이 결과는 조심스럽게 해석해야 합니다.",
+    "en": "These results must be interpreted with caution.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……与……之间有相关性。",
+    "read": "… Yǔ … zhī jiān yǒu xiāng guān xìng.",
+    "ko": "~와 ~ 사이에 상관관계가 있다.",
+    "en": "There is a correlation between ~ and ..."
+   },
+   {
+    "id": "w2",
+    "t": "……占……。",
+    "read": "… Zhàn ….",
+    "ko": "~가 ~를 차지한다.",
+    "en": "~ account(s) for ..."
+   },
+   {
+    "id": "w3",
+    "t": "……的差距很明显。",
+    "read": "… De chà jù hěn míng xiǎn.",
+    "ko": "~의 격차가 두드러진다.",
+    "en": "The disparity in ~ is pronounced."
+   },
+   {
+    "id": "w4",
+    "t": "绝大多数……。",
+    "read": "Jué dà duō shù ….",
+    "ko": "대다수.",
+    "en": "the vast majority of ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가상의 설문 자료를 분석해 비율·상관관계·차이·해석 순으로 4문장으로 써 보세요.",
+    "en": "Analyse an imaginary survey in 4 sentences: proportion, correlation, difference, interpretation."
+   },
+   "must_include": [
+    {
+     "label": "占",
+     "match": [
+      "占"
+     ]
+    },
+    {
+     "label": "相关",
+     "match": [
+      "相关"
+     ]
+    },
+    {
+     "label": "谨慎",
+     "match": [
+      "谨慎"
+     ]
+    }
+   ],
+   "model": "使用公共交通的人占受访者的百分之七十。收入越高，开车越多，二者之间出现了相关性。年龄组之间的差别不明显。不过，样本较小，结果必须谨慎解读。",
+   "model_trans": {
+    "ko": "대중교통 이용자가 전체 응답자의 70퍼센트를 차지했습니다. 소득이 높을수록 자가용 이용률이 높은 상관관계가 나타났습니다. 연령대 간 차이는 두드러지지 않았습니다. 다만 표본이 작으므로 신중한 해석이 필요합니다.",
+    "en": "Public transport users account for seventy per cent of respondents. A correlation emerged between higher income and greater car use. Differences between age groups were not pronounced. However, the sample is small, so the results must be interpreted with caution."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u47",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 47,
+  "concept": "C1.U47",
+  "status": "live",
+  "title": {
+   "target": "历史与记忆",
+   "ko": "역사와 기억",
+   "en": "History and memory"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "纪念",
+   "pos": "verb",
+   "read": "jì niàn",
+   "ko": "기념하다",
+   "en": "commemorate",
+   "ex": {
+    "t": "我们纪念那一天。",
+    "read": "Wǒmen jì niàn nà yì tiān.",
+    "ko": "우리는 그날을 기념해요.",
+    "en": "We commemorate that day."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "回过头看",
+   "pos": "phrase",
+   "read": "huí guo tóu kàn",
+   "ko": "돌이켜보면",
+   "en": "in retrospect",
+   "ex": {
+    "t": "回过头看，那是一个大错误。",
+    "read": "Huí guo tóu kàn, nà shì yí ge dà cuòwù.",
+    "ko": "돌이켜보면 그건 큰 실수였어요.",
+    "en": "In retrospect, it was a big mistake."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "被铭记",
+   "pos": "phrase",
+   "read": "bèi míng jì",
+   "ko": "~로 기억되다",
+   "en": "be remembered as",
+   "ex": {
+    "t": "他被铭记为一位改革者。",
+    "read": "Tā bèi míng jì wèi yí wèi gǎi gé zhě.",
+    "ko": "그는 개혁가로 기억돼요.",
+    "en": "He is remembered as a reformer."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "见证",
+   "pos": "phrase",
+   "read": "jiàn zhèng",
+   "ko": "증언하다",
+   "en": "bear witness",
+   "ex": {
+    "t": "幸存者见证了历史。",
+    "read": "Xìng cún zhě jiàn zhèng le lìshǐ.",
+    "ko": "생존자들이 역사를 증언했어요.",
+    "en": "Survivors bore witness to history."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "遗产",
+   "pos": "noun",
+   "read": "yí chǎn",
+   "ko": "유산",
+   "en": "legacy",
+   "ex": {
+    "t": "那个时代的遗产依然存在。",
+    "read": "Nàge shí dài de yí chǎn yī rán cún zài.",
+    "ko": "그 시대의 유산은 지금도 남아 있어요.",
+    "en": "The legacy of that era remains."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "集体记忆",
+   "pos": "noun",
+   "read": "jí tǐ jì yì",
+   "ko": "집단 기억",
+   "en": "collective memory",
+   "ex": {
+    "t": "集体记忆塑造认同。",
+    "read": "Jí tǐ jì yì sù zào rèn tóng.",
+    "ko": "집단 기억은 정체성을 형성해요.",
+    "en": "Collective memory shapes identity."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "记录",
+   "pos": "noun",
+   "read": "jì lù",
+   "ko": "기록",
+   "en": "record",
+   "ex": {
+    "t": "历史记录是重要的证据。",
+    "read": "Lìshǐ jì lù shì zhòng yào de zhèngjù.",
+    "ko": "역사적 기록은 중요한 증거예요.",
+    "en": "Historical records are important evidence."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "歪曲",
+   "pos": "verb",
+   "read": "wāi qū",
+   "ko": "왜곡하다",
+   "en": "distort",
+   "ex": {
+    "t": "历史不能被歪曲。",
+    "read": "Lìshǐ bùnéng bèi wāi qū.",
+    "ko": "역사를 왜곡해서는 안 돼요.",
+    "en": "History must not be distorted."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "和解",
+   "pos": "noun",
+   "read": "hé jiě",
+   "ko": "화해",
+   "en": "reconciliation",
+   "ex": {
+    "t": "和解始于直面过去。",
+    "read": "Hé jiě shǐ yú zhí miàn guo qù.",
+    "ko": "화해는 과거를 직시하는 데서 시작해요.",
+    "en": "Reconciliation begins by facing the past."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "转折点",
+   "pos": "noun",
+   "read": "zhuǎn zhé diǎn",
+   "ko": "전환점",
+   "en": "turning point",
+   "ex": {
+    "t": "那一事件是历史的转折点。",
+    "read": "Nà yí shì jiàn shì lìshǐ de zhuǎn zhé diǎn.",
+    "ko": "그 사건은 역사의 전환점이었어요.",
+    "en": "That event was a turning point in history."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "纪念／回过头看／被铭记为／见证",
+   "en": "History and memory: 纪念 / 回过头看 / 被铭记为 / 见证"
+  },
+  "explain": {
+   "ko": "谈历史与记忆时，要用庄重的表达。纪念：“我们每年纪念那一天。”回顾：“回过头看，那是历史的转折点。”评价：“他被铭记为一位改革者。”见证：“幸存者见证了那天发生的事。”还要强调“历史不能被歪曲”“和解始于直面过去”。",
+   "en": "On history and memory use a solemn register. Commemoration: 我们每年纪念那一天. Retrospect: 回过头看，那是历史的转折点. Judgement: 他被铭记为一位改革者. Witness: 幸存者见证了那天发生的事. Stress 历史不能被歪曲 and 和解始于直面过去."
+  },
+  "table": {
+   "head": [
+    "表达 / Expression",
+    "意思 / Meaning",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "纪念……",
+     "commemorate",
+     "我们每年纪念那一天。"
+    ],
+    [
+     "回过头看",
+     "in retrospect",
+     "回过头看，那是转折点。"
+    ],
+    [
+     "被铭记为……",
+     "be remembered as",
+     "他被铭记为改革者。"
+    ],
+    [
+     "见证……",
+     "bear witness to",
+     "幸存者见证了那天。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "集体记忆有时与事实不同，要批判地审视。",
+    "en": "Collective memory may differ from fact; examine it critically."
+   },
+   {
+    "ko": "要同时参考记录和证言。",
+    "en": "Use records and testimony together."
+   },
+   {
+    "ko": "记住过去是对未来的责任。",
+    "en": "Remembering is a responsibility for the future."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我们每年纪念那一天。",
+    "read": "Wǒmen měinián jì niàn nà yì tiān.",
+    "ko": "우리는 매년 그날을 기념해요.",
+    "en": "We commemorate that day every year."
+   },
+   {
+    "t": "回过头看，那是历史的转折点。",
+    "read": "Huí guo tóu kàn, nà shì lìshǐ de zhuǎn zhé diǎn.",
+    "ko": "돌이켜보면 그건 역사의 전환점이었어요.",
+    "en": "In retrospect, it was a turning point in history."
+   },
+   {
+    "t": "他被铭记为一位改革者。",
+    "read": "Tā bèi míng jì wèi yí wèi gǎi gé zhě.",
+    "ko": "그는 개혁가로 기억돼요.",
+    "en": "He is remembered as a reformer."
+   },
+   {
+    "t": "幸存者见证了那天发生的事。",
+    "read": "Xìng cún zhě jiàn zhèng le nà tiān fāshēng de shì.",
+    "ko": "생존자들은 그날의 참상을 증언했어요.",
+    "en": "Survivors bore witness to the horrors of that day."
+   },
+   {
+    "t": "集体记忆塑造一个社会的认同。",
+    "read": "Jí tǐ jì yì sù zào yí ge shè huì de rèn tóng.",
+    "ko": "집단 기억은 정체성을 형성해요.",
+    "en": "Collective memory shapes identity."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我们每年___那一天。",
+    "options": [
+     "纪念",
+     "忘记",
+     "购买"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___看，那是历史的转折点。",
+    "options": [
+     "回过头",
+     "从前",
+     "向前"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "他被___为一位改革者。",
+    "options": [
+     "铭记",
+     "忘记",
+     "借"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "幸存者___了那天发生的事。",
+    "options": [
+     "见证",
+     "购买",
+     "忘记"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你们怎样纪念那一天？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그날을 어떻게 기념하나요?",
+     "en": "(Question) How do you commemorate that day?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我们每年举行仪式。",
+       "我们不纪念。",
+       "我们去了商店。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你回过头看怎么评价那一事件？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 사건을 돌이켜보면 어떻게 평가하나요?",
+     "en": "(Question) How do you assess that event in retrospect?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "回过头看，那是转折点。",
+       "我不知道什么是历史。",
+       "我不喜欢。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这周你去参加纪念活动吗？"
+      },
+      {
+       "s": "B",
+       "t": "去，我觉得记住那一天很重要。"
+      },
+      {
+       "s": "A",
+       "t": "听说幸存者会来见证。"
+      },
+      {
+       "s": "B",
+       "t": "听亲历者讲述是最好的教训。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이번 주 기념식에 갈 거야?\nB: 응, 그날을 기억하는 건 중요하다고 생각해.\nA: 생존자들이 증언한다고 하더라.\nB: 직접 듣는 게 가장 큰 교훈이지.",
+     "en": "A: Are you going to the commemoration this week?\nB: Yes, I think remembering that day is important.\nA: Survivors will bear witness, apparently.\nB: Hearing it first-hand is the greatest lesson."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "幸存者会做什么？",
+      "options": [
+       "见证",
+       "离开",
+       "沉默"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "历史由记录和记忆构成。记录以文件的形式留存，而记忆则通过人们的讲述传承。集体记忆有时与事实不同，必须批判性地审视。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "역사는 기록과 기억으로 이루어집니다. 기록은 문서로 남지만 기억은 사람들의 이야기로 전해집니다. 때때로 집단 기억은 사실과 다를 수 있으므로 비판적으로 살펴보아야 합니다.",
+     "en": "History is made of records and memory. Records remain as documents, while memory is passed on through people's stories. Collective memory can sometimes differ from fact, so it must be examined critically."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "记忆是怎样传承的？",
+      "options": [
+       "通过人们的讲述",
+       "通过价格",
+       "通过天气"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这座博物馆纪念什么？"
+      },
+      {
+       "s": "B",
+       "t": "纪念这座城市在战争中经历的一切。"
+      },
+      {
+       "s": "A",
+       "t": "你想对参观者说什么？"
+      },
+      {
+       "s": "B",
+       "t": "想让大家记住过去，思考和解。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "진행자: 이 박물관은 무엇을 기념하나요?\n해설사: 도시가 전쟁 중 겪은 일을 기념합니다.\n진행자: 방문객에게 무엇을 전하고 싶나요?\n해설사: 과거를 기억하고 화해를 생각해 보라는 메시지입니다.",
+     "en": "Host: What does this museum commemorate?\nGuide: It commemorates what the city went through in the war.\nHost: What do you want to tell visitors?\nGuide: The message is to remember the past and think about reconciliation."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "博物馆纪念这座城市在______中经历的一切",
+      "answers": [
+       "战争"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "想让大家思考______",
+      "answers": [
+       "和解"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我们每年___那一天。\n2) ___看，那是历史的转折点。\n3) 他被___为一位改革者。",
+    "trans": {
+     "ko": "1) 우리는 매년 그날을 기념해요. 2) 돌이켜보면 그건 역사의 전환점이었어요. 3) 그는 개혁가로 기억돼요.",
+     "en": "1) We commemorate that day every year. 2) In retrospect, it was a turning point in history. 3) He is remembered as a reformer."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我们每年___那一天。",
+      "options": [
+       "纪念",
+       "忘记",
+       "购买"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___看，那是历史的转折点。",
+      "options": [
+       "回过头",
+       "从前",
+       "向前"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他被___为一位改革者。",
+      "options": [
+       "铭记",
+       "忘记",
+       "借"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "历史学家对把过去简化为单一的故事持(1)态度。这是因为同一事件，不同地区和阶层的记忆是不同的。所以，必须同时考察多种(2)和(3)。",
+    "trans": {
+     "ko": "역사학자들은 과거를 하나의 이야기로 단순화하는 것을 경계합니다. 같은 사건도 지역과 계층에 따라 다르게 기억되기 때문입니다. 따라서 다양한 증언과 기록을 함께 살펴보아야 합니다.",
+     "en": "Historians are wary of simplifying the past into a single story. This is because the same event is remembered differently by region and class. So diverse testimonies and records must be examined together."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "谨慎",
+       "热情",
+       "无所谓"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "证言",
+       "天气",
+       "价格"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "记录",
+       "笑话",
+       "游戏"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "专栏\n记忆的政治\n建立纪念碑是记住过去的一种方式，但也是选择记住什么。有的纪念英雄，有的铭记受害者。平衡的记忆，始于倾听不同的声音。",
+    "trans": {
+     "ko": "칼럼\n기억의 정치\n기념비를 세우는 것은 과거를 기억하는 방법이지만 무엇을 기억할지 선택하는 일이기도 하다. 어떤 이들은 영웅을 기념하고, 다른 이들은 피해자를 기억한다. 균형 잡힌 기억은 서로 다른 목소리에 귀를 기울이는 데서 시작한다.",
+     "en": "COLUMN\nThe politics of memory\nBuilding a monument is a way of remembering the past, but it is also choosing what to remember. Some commemorate heroes, others remember victims. Balanced memory begins by listening to different voices."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "建立纪念碑意味着什么？",
+      "options": [
+       "也是选择记住什么",
+       "一定忘记过去",
+       "只纪念英雄"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "平衡的记忆始于什么？",
+      "options": [
+       "倾听不同的声音",
+       "删除记录",
+       "停止纪念"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "建立纪念碑也是选择记住什么。每个人纪念的都是同样的东西。专栏说要倾听不同的声音。",
+    "trans": {
+     "ko": "기념비를 세우는 것은 무엇을 기억할지 선택하는 일이기도 하다. 모든 사람은 같은 대상을 기념한다. 칼럼은 서로 다른 목소리를 들으라고 말한다.",
+     "en": "Building a monument is also choosing what to remember. Everyone commemorates the same thing. The column says to listen to different voices."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "建立纪念碑也是选择记住什么。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "每个人纪念的都是同样的东西。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "专栏说要倾听不同的声音。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我们每年纪念那一天。",
+    "read": "Wǒmen měinián jì niàn nà yì tiān.",
+    "ko": "우리는 매년 그날을 기념합니다.",
+    "en": "We commemorate that day every year.",
+    "situation": {
+     "ko": "기념을 말할 때",
+     "en": "Mentioning commemoration"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "回过头看，那是历史的转折点。",
+    "read": "Huí guo tóu kàn, nà shì lìshǐ de zhuǎn zhé diǎn.",
+    "ko": "돌이켜보면 그것은 역사의 전환점이었습니다.",
+    "en": "In retrospect, it was a turning point in history.",
+    "situation": {
+     "ko": "회고할 때",
+     "en": "Looking back"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "他被铭记为一位改革者。",
+    "read": "Tā bèi míng jì wèi yí wèi gǎi gé zhě.",
+    "ko": "그는 개혁가로 기억됩니다.",
+    "en": "He is remembered as a reformer.",
+    "situation": {
+     "ko": "평가를 말할 때",
+     "en": "Describing legacy"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "幸存者见证了那天发生的事。",
+    "read": "Xìng cún zhě jiàn zhèng le nà tiān fāshēng de shì.",
+    "ko": "생존자들은 그날의 참상을 증언했습니다.",
+    "en": "Survivors bore witness to the events of that day.",
+    "situation": {
+     "ko": "증언을 말할 때",
+     "en": "Describing testimony"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "集体记忆塑造一个社会的认同。",
+    "read": "Jí tǐ jì yì sù zào yí ge shè huì de rèn tóng.",
+    "ko": "집단 기억은 한 사회의 정체성을 형성합니다.",
+    "en": "Collective memory shapes a society's identity.",
+    "situation": {
+     "ko": "개념을 설명할 때",
+     "en": "Explaining a concept"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "历史不能被歪曲。",
+    "read": "Lìshǐ bùnéng bèi wāi qū.",
+    "ko": "역사를 왜곡해서는 안 됩니다.",
+    "en": "History must not be distorted.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "和解始于直面过去。",
+    "read": "Hé jiě shǐ yú zhí miàn guo qù.",
+    "ko": "화해는 과거를 직시하는 데서 시작됩니다.",
+    "en": "Reconciliation begins by facing the past.",
+    "situation": {
+     "ko": "해법을 제안할 때",
+     "en": "Proposing a solution"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "记住过去是对未来的责任。",
+    "read": "Jì zhùguo qù shì duì wèi lái de zé rèn.",
+    "ko": "과거를 기억하는 것은 미래를 위한 책임입니다.",
+    "en": "Remembering the past is a responsibility for the future.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我们纪念……。",
+    "read": "Wǒmen jì niàn ….",
+    "ko": "~을 기념하다.",
+    "en": "commemorate ..."
+   },
+   {
+    "id": "w2",
+    "t": "回过头看，……。",
+    "read": "Huí guo tóu kàn, ….",
+    "ko": "돌이켜보면 ~.",
+    "en": "In retrospect, ..."
+   },
+   {
+    "id": "w3",
+    "t": "被铭记为……。",
+    "read": "Bèi míng jì wèi ….",
+    "ko": "~로 기억되다.",
+    "en": "be remembered as ..."
+   },
+   {
+    "id": "w4",
+    "t": "见证……。",
+    "read": "Jiàn zhèng ….",
+    "ko": "~을 증언하다.",
+    "en": "bear witness to ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "한 역사적 사건을 기념·회고·평가·교훈 순으로 4문장으로 써 보세요.",
+    "en": "Write four sentences on a historical event: commemoration, retrospect, assessment, lesson."
+   },
+   "must_include": [
+    {
+     "label": "纪念",
+     "match": [
+      "纪念"
+     ]
+    },
+    {
+     "label": "转折点",
+     "match": [
+      "转折点"
+     ]
+    },
+    {
+     "label": "铭记",
+     "match": [
+      "铭记"
+     ]
+    }
+   ],
+   "model": "每年我们纪念那一天，悼念受害者。回过头看，那一事件是极大改变社会的转折点。那个时代的领导人被铭记为一位改革者，但评价仍有分歧。直面过去是和解的起点。",
+   "model_trans": {
+    "ko": "우리는 매년 그날을 기념하며 희생자를 기립니다. 돌이켜보면 그 사건은 사회가 크게 바뀌는 전환점이었습니다. 그 시대의 지도자는 개혁가로 기억되지만 평가는 여전히 엇갈립니다. 과거를 직시하는 것이 화해의 출발점입니다.",
+    "en": "Every year we commemorate that day and honour the victims. In retrospect, the event was a turning point that changed society greatly. The leader of that era is remembered as a reformer, but opinion is still divided. Facing the past is the starting point of reconciliation."
+   }
+  }
+ }
+}

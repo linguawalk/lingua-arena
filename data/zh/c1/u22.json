@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c1_u22",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c1",
+  "unit": 22,
+  "concept": "C1.U22",
+  "status": "live",
+  "title": {
+   "target": "评论文章的写法",
+   "ko": "비평문 쓰기",
+   "en": "Writing critical reviews"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "引人入胜",
+   "pos": "adj",
+   "read": "yǐn rén rù shèng",
+   "ko": "인상적인",
+   "en": "compelling",
+   "ex": {
+    "t": "这部小说引人入胜。",
+    "read": "Zhè bù xiǎo shuō yǐn rén rù shèng.",
+    "ko": "그 소설은 설득력 있고 인상적이었어요.",
+    "en": "The novel was compelling."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "深刻",
+   "pos": "adj",
+   "read": "shēn kè",
+   "ko": "깊이 있는",
+   "en": "profound",
+   "ex": {
+    "t": "这部电影的主题很深刻。",
+    "read": "Zhè bù diànyǐng de zhǔ tí hěn shēn kè.",
+    "ko": "그 영화는 깊이 있는 주제를 다뤄요.",
+    "en": "The film deals with a profound theme."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "老套",
+   "pos": "adj",
+   "read": "lǎo tào",
+   "ko": "진부한",
+   "en": "clichéd",
+   "ex": {
+    "t": "情节很老套。",
+    "read": "Qíng jié hěn lǎo tào.",
+    "ko": "줄거리가 진부했어요.",
+    "en": "The plot was clichéd."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "细腻",
+   "pos": "adj",
+   "read": "xì nì",
+   "ko": "미묘한",
+   "en": "subtle",
+   "ex": {
+    "t": "他的表演很细腻。",
+    "read": "Tā de biǎo yǎn hěn xì nì.",
+    "ko": "그의 연기는 미묘했어요.",
+    "en": "His performance was subtle."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "缺点",
+   "pos": "noun",
+   "read": "quē diǎn",
+   "ko": "결함",
+   "en": "flaw",
+   "ex": {
+    "t": "这部作品的缺点是结尾。",
+    "read": "Zhè bù zuò pǐn de quē diǎn shì jié wěi.",
+    "ko": "이 작품의 결함은 결말이에요.",
+    "en": "The flaw of this work is its ending."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "出色",
+   "pos": "adj",
+   "read": "chū sè",
+   "ko": "탁월한",
+   "en": "outstanding",
+   "ex": {
+    "t": "她的表演非常出色。",
+    "read": "Tā de biǎo yǎn fēicháng chū sè.",
+    "ko": "그녀는 탁월한 연기를 보여 줬어요.",
+    "en": "She gave an outstanding performance."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "过于煽情",
+   "pos": "adj",
+   "read": "guo yú shān qíng",
+   "ko": "지나치게 감상적인",
+   "en": "sentimental",
+   "ex": {
+    "t": "最后一幕过于煽情。",
+    "read": "Zuìhòu yí mù guo yú shān qíng.",
+    "ko": "마지막 장면은 지나치게 감상적이었어요.",
+    "en": "The final scene was overly sentimental."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "总体而言",
+   "pos": "phrase",
+   "read": "zǒng tǐ ér yán",
+   "ko": "전반적으로",
+   "en": "on the whole",
+   "ex": {
+    "t": "总体而言，这是一部佳作。",
+    "read": "Zǒng tǐ ér yán, zhè shì yí bù jiā zuò.",
+    "ko": "전반적으로 훌륭한 작품이에요.",
+    "en": "On the whole, it is a fine work."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "强烈推荐",
+   "pos": "phrase",
+   "read": "qiáng liè tuī jiàn",
+   "ko": "강력히 추천하다",
+   "en": "highly recommend",
+   "ex": {
+    "t": "我强烈推荐这本书。",
+    "read": "Wǒ qiáng liè tuī jiàn zhè běn shū.",
+    "ko": "이 책을 강력히 추천해요.",
+    "en": "I highly recommend this book."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "略显不足",
+   "pos": "phrase",
+   "read": "lüè xiǎn bù zú",
+   "ko": "한계를 드러내다",
+   "en": "fall short",
+   "ex": {
+    "t": "后半部分略显不足。",
+    "read": "Hòu bàn bù fēn lüè xiǎn bù zú.",
+    "ko": "후반부는 기대에 미치지 못해요.",
+    "en": "The second half falls short."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "以……见长／然而……略显不足／总体而言／强烈推荐",
+   "en": "Reviews: 以……见长 / 然而……略显不足 / 总体而言 / 强烈推荐"
+  },
+  "explain": {
+   "ko": "评论文章要用评价词语，结构要平衡。先说优点：“主题深刻，令人信服”；再说缺点：“然而，结尾略显不足”。好的评价词有“引人入胜／细腻／出色”，不好的有“老套／煽情”。最后用“总体而言……”“强烈推荐……”总结判断。",
+   "en": "Reviews use evaluative words and a balanced structure. Praise first: 主题深刻，令人信服; then: 然而，结尾略显不足. Positive words: 引人入胜／细腻／出色; negative: 老套／煽情. End with 总体而言……／强烈推荐……."
+  },
+  "table": {
+   "head": [
+    "功能 / Function",
+    "表达 / Expression",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "优点 / Strength",
+     "以……见长",
+     "这部小说以主题深刻见长。"
+    ],
+    [
+     "缺点 / Weakness",
+     "然而……略显不足",
+     "然而结尾略显不足。"
+    ],
+    [
+     "总评 / Overall",
+     "总体而言……",
+     "总体而言，是一部佳作。"
+    ],
+    [
+     "推荐 / Recommend",
+     "强烈推荐……",
+     "强烈推荐这部作品。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "既写优点又写缺点，更有说服力。",
+    "en": "Covering both strengths and weaknesses persuades more."
+   },
+   {
+    "ko": "“略显”“稍微”可以缓和批评。",
+    "en": "略显 and 稍微 soften criticism."
+   },
+   {
+    "ko": "说明推荐给哪类读者，更具体。",
+    "en": "Name the audience for specificity."
+   }
+  ],
+  "examples": [
+   {
+    "t": "这部电影主题深刻，但结尾很老套。",
+    "read": "Zhè bù diànyǐng zhǔ tí shēn kè, dàn jié wěi hěn lǎo tào.",
+    "ko": "이 영화는 깊이 있는 주제를 다루지만 결말이 진부해요.",
+    "en": "The film tackles a profound theme but has a clichéd ending."
+   },
+   {
+    "t": "她的表演细腻而且出色。",
+    "read": "Tā de biǎo yǎn xì nì érqiě chū sè.",
+    "ko": "그녀의 연기는 미묘하면서도 탁월했어요.",
+    "en": "Her performance was both subtle and outstanding."
+   },
+   {
+    "t": "后半部分略显不足。",
+    "read": "Hòu bàn bù fēn lüè xiǎn bù zú.",
+    "ko": "후반부는 기대에 미치지 못했어요.",
+    "en": "The second half fell short of expectations."
+   },
+   {
+    "t": "总体而言，我认为这是一部佳作。",
+    "read": "Zǒng tǐ ér yán, wǒ rènwéi zhè shì yí bù jiā zuò.",
+    "ko": "전반적으로 훌륭한 작품이라고 생각해요.",
+    "en": "On the whole, I think it is a fine work."
+   },
+   {
+    "t": "我强烈推荐这本书。",
+    "read": "Wǒ qiáng liè tuī jiàn zhè běn shū.",
+    "ko": "이 책을 강력히 추천합니다.",
+    "en": "I highly recommend this book."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "这部电影主题___，但结尾很老套。",
+    "options": [
+     "深刻",
+     "短暂",
+     "冷淡"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "她的表演细腻而且___。",
+    "options": [
+     "出色",
+     "差劲",
+     "陌生"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___，我认为这是一部佳作。",
+    "options": [
+     "总体而言",
+     "相反",
+     "偶然"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "我___推荐这本书。",
+    "options": [
+     "强烈",
+     "稍微",
+     "险些"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "那部电影怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 영화는 어땠나요?",
+     "en": "(Question) What was the film like?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "演技出色，但情节老套。",
+       "什么感觉都没有。",
+       "我没看过。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这本书的缺点是什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 책의 단점은 무엇인가요?",
+     "en": "(Question) What is the weakness of this book?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "后半部分略显不足。",
+       "没有缺点。",
+       "文字太短。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨天看的电影怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "演技很出色，不过情节有点老套。"
+      },
+      {
+       "s": "A",
+       "t": "还推荐吗？"
+      },
+      {
+       "s": "B",
+       "t": "总体而言值得一看，有缺点，但我强烈推荐。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 본 영화 어땠어?\nB: 연기는 탁월했는데 줄거리가 좀 진부했어.\nA: 그래도 추천해?\nB: 전반적으로는 볼 만해. 결점은 있지만 강력히 추천해.",
+     "en": "A: How was the film you saw yesterday?\nB: The acting was outstanding, but the plot was a bit clichéd.\nA: Still recommend it?\nB: On the whole, yes. It has flaws, but I highly recommend it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男的最后怎么说？",
+      "options": [
+       "有缺点但强烈推荐",
+       "不推荐",
+       "让别人别看"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我来评一评这本新小说。它的主题深刻，文字优美。不过，中段以后叙事有些松散，有点可惜。总体而言，这是一本值得一读的书。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "신간 소설에 대한 리뷰를 말씀드리겠습니다. 이 작품은 깊이 있는 주제를 다루며 문장이 아름답습니다. 그러나 중반 이후 서사가 느슨해지는 아쉬움이 있습니다. 전반적으로 읽을 가치가 충분한 책입니다.",
+     "en": "Let me review the new novel. It handles a profound theme and its prose is beautiful. However, the narrative slackens after the middle, which is a pity. On the whole, it is a book well worth reading."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这本书可惜的地方是什么？",
+      "options": [
+       "中段以后叙事松散",
+       "文字不自然",
+       "没有主题"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "来听听今天的影评。"
+      },
+      {
+       "s": "B",
+       "t": "这部电影以细腻的表演见长。"
+      },
+      {
+       "s": "A",
+       "t": "有什么不足吗？"
+      },
+      {
+       "s": "B",
+       "t": "结尾有些煽情。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "진행자: 오늘의 영화 평을 들어 보겠습니다.\n평론가: 이 영화는 미묘한 연기가 돋보입니다.\n진행자: 단점도 있나요?\n평론가: 결말이 다소 감상적이라는 점입니다.",
+     "en": "Host: Let's hear today's film review.\nCritic: The film stands out for its subtle acting.\nHost: Any weaknesses?\nCritic: The ending is somewhat sentimental."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "这部电影以______的表演见长",
+      "answers": [
+       "细腻"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "结尾有些______",
+      "answers": [
+       "煽情"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 这部电影主题___，但结尾很老套。\n2) 她的表演细腻而且___。\n3) 后半部分___不足。",
+    "trans": {
+     "ko": "1) 이 영화는 깊이 있는 주제를 다루지만 결말이 진부해요. 2) 그녀의 연기는 미묘하면서도 탁월했어요. 3) 후반부는 기대에 미치지 못했어요.",
+     "en": "1) The film tackles a profound theme but has a clichéd ending. 2) Her performance was both subtle and outstanding. 3) The second half fell short of expectations."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这部电影主题___，但结尾很老套。",
+      "options": [
+       "深刻",
+       "短暂",
+       "冷淡"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "她的表演细腻而且___。",
+      "options": [
+       "出色",
+       "差劲",
+       "陌生"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "后半部分___不足。",
+      "options": [
+       "略显",
+       "毫无",
+       "刚刚"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这个展览广泛展示了当代艺术的潮流。特别是第一个展厅的装置作品，令人(1)。然而，说明文字不足，观众很难了解作品的背景。(2)，这个展览很值得一看。(3)。",
+    "trans": {
+     "ko": "이 전시회는 현대 미술의 흐름을 폭넓게 보여 줍니다. 특히 첫 번째 전시실의 설치 작품은 인상적입니다. 그러나 해설이 부족해 관람객이 작품의 맥락을 이해하기 어렵습니다. 전반적으로 방문할 가치가 충분합니다.",
+     "en": "This exhibition offers a broad view of contemporary art. The installation in the first room is particularly striking. However, the lack of commentary makes it hard for visitors to grasp the context. On the whole, it is well worth a visit."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "印象深刻",
+       "老套",
+       "不快"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "总体而言",
+       "相反",
+       "偶然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "强烈推荐",
+       "不推荐",
+       "无所谓"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "书评\n消失的村庄\n这部小说以一个因重建而逐渐消失的村庄为背景，探讨记忆与身份。文字简洁而富有诗意。然而，中段叙事略显拖沓。尽管如此，最后一幕的余韵久久不散。",
+    "trans": {
+     "ko": "서평\n사라진 마을\n이 소설은 재개발로 사라지는 마을을 배경으로 기억과 정체성을 탐구한다. 문장은 간결하면서도 서정적이다. 다만 중반의 서사는 다소 늘어진다. 그럼에도 불구하고 마지막 장면의 여운은 오래 남는다.",
+     "en": "BOOK REVIEW\nThe Vanished Village\nSet in a village disappearing due to redevelopment, this novel explores memory and identity. The prose is spare yet lyrical. The narrative sags somewhat in the middle. Nevertheless, the lingering effect of the final scene stays with you."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这部小说以什么为背景？",
+      "options": [
+       "因重建而消失的村庄",
+       "城市博物馆",
+       "遥远的太空"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "书评者对最后一幕怎么看？",
+      "options": [
+       "余韵久久不散",
+       "很无聊",
+       "很难理解"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "小说以因重建而消失的村庄为背景。书评者说文字过于啰嗦。这部小说很快就要被拍成电影。",
+    "trans": {
+     "ko": "소설은 재개발로 사라지는 마을을 배경으로 한다. 서평자는 문장이 지나치게 장황하다고 말한다. 이 소설은 곧 영화로 제작된다.",
+     "en": "The novel is set in a village vanishing through redevelopment. The reviewer says the prose is too wordy. The novel will soon be made into a film."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "小说以因重建而消失的村庄为背景。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "书评者说文字过于啰嗦。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "这部小说很快就要被拍成电影。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "这部小说以深刻的主题和令人信服的描写见长。",
+    "read": "Zhè bù xiǎo shuō yǐ shēn kè de zhǔ tí hé lìng rén xìn fú de miáo xiě jiàn cháng.",
+    "ko": "이 소설은 깊이 있는 주제를 설득력 있게 다룹니다.",
+    "en": "The novel handles a profound theme compellingly.",
+    "situation": {
+     "ko": "장점을 평가할 때",
+     "en": "Praising strengths"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "然而，后半部分变得相当老套。",
+    "read": "Rán'ér, hòu bàn bù fēn biàn děi xiāng dāng lǎo tào.",
+    "ko": "다만 후반부는 다소 진부하게 흘러갑니다.",
+    "en": "However, the second half becomes rather clichéd.",
+    "situation": {
+     "ko": "단점을 지적할 때",
+     "en": "Pointing out weaknesses"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "主演的表演细腻而出色。",
+    "read": "Zhǔ yǎn de biǎo yǎn xì nì ér chū sè.",
+    "ko": "주연 배우의 연기는 미묘하고 탁월합니다.",
+    "en": "The lead actor's performance is subtle and outstanding.",
+    "situation": {
+     "ko": "연기를 평가할 때",
+     "en": "Evaluating acting"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "结尾显得过于煽情。",
+    "read": "Jié wěi xiǎn děi guo yú shān qíng.",
+    "ko": "결말은 지나치게 감상적이라는 느낌을 줍니다.",
+    "en": "The ending feels overly sentimental.",
+    "situation": {
+     "ko": "결말을 비평할 때",
+     "en": "Criticising an ending"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "总体而言，这是一部不负期待的作品。",
+    "read": "Zǒng tǐ ér yán, zhè shì yí bù bú fù qīdài de zuò pǐn.",
+    "ko": "전반적으로 보면 기대를 충족하는 작품입니다.",
+    "en": "On the whole, it is a work that lives up to expectations.",
+    "situation": {
+     "ko": "종합 평가를 할 때",
+     "en": "Giving an overall evaluation"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "这本书让人深思。",
+    "read": "Zhè běn shū ràng rén shēn sī.",
+    "ko": "이 책은 독자의 생각을 깊이 있게 자극합니다.",
+    "en": "This book stimulates thought in a profound way.",
+    "situation": {
+     "ko": "작품의 효과를 말할 때",
+     "en": "Describing the effect"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我强烈推荐这部作品。",
+    "read": "Wǒ qiáng liè tuī jiàn zhè bù zuò pǐn.",
+    "ko": "이 작품을 강력히 추천합니다.",
+    "en": "I highly recommend this work.",
+    "situation": {
+     "ko": "추천할 때",
+     "en": "Recommending"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "不过，它并非没有缺点。",
+    "read": "Bùguò, tā bìng fēi méiyǒu quē diǎn.",
+    "ko": "그러나 결점이 없는 것은 아닙니다.",
+    "en": "It is not, however, without its flaws.",
+    "situation": {
+     "ko": "균형 잡힌 평가를 할 때",
+     "en": "Balancing the evaluation"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "以……见长。",
+    "read": "Yǐ … jiàn cháng.",
+    "ko": "~을 설득력 있게 다룬다.",
+    "en": "It handles ~ compellingly."
+   },
+   {
+    "id": "w2",
+    "t": "然而，……略显不足。",
+    "read": "Rán'ér, … lüè xiǎn bù zú.",
+    "ko": "다만 ~는 아쉽다.",
+    "en": "However, ~ falls short."
+   },
+   {
+    "id": "w3",
+    "t": "总体而言，……。",
+    "read": "Zǒng tǐ ér yán, ….",
+    "ko": "전반적으로 ~이다.",
+    "en": "On the whole, ..."
+   },
+   {
+    "id": "w4",
+    "t": "强烈推荐……。",
+    "read": "Qiáng liè tuī jiàn ….",
+    "ko": "~을 강력히 추천한다.",
+    "en": "I highly recommend ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "최근 본 영화나 책에 대한 비평을 장점·단점·종합 평가·추천 순으로 4문장으로 써 보세요.",
+    "en": "Write a four-sentence critical review of a recent film or book: strength, weakness, overall verdict, recommendation."
+   },
+   "must_include": [
+    {
+     "label": "见长",
+     "match": [
+      "见长"
+     ]
+    },
+    {
+     "label": "老套",
+     "match": [
+      "老套"
+     ]
+    },
+    {
+     "label": "强烈推荐",
+     "match": [
+      "强烈推荐"
+     ]
+    }
+   ],
+   "model": "这部小说以记忆与失去这样深刻的主题见长。然而，后半部分略显老套，结尾也过于煽情。总体而言，虽有缺点，仍然值得一读。我强烈推荐给喜爱文学的读者。",
+   "model_trans": {
+    "ko": "이 소설은 기억과 상실이라는 깊이 있는 주제를 설득력 있게 다룹니다. 다만 후반부는 다소 진부하게 흘러가고 결말도 지나치게 감상적입니다. 전반적으로 보면 결점이 있지만 충분히 가치 있는 작품입니다. 문학을 좋아하는 독자에게 강력히 추천합니다.",
+    "en": "The novel handles the profound themes of memory and loss compellingly. However, the second half becomes rather clichéd and the ending is overly sentimental. On the whole, it is flawed but well worth reading. I highly recommend it to lovers of literature."
+   }
+  }
+ }
+}
