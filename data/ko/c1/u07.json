@@ -1,0 +1,787 @@
+{
+ "meta": {
+  "id": "ko_c1_u07",
+  "lang": "ko",
+  "family": "asia",
+  "level": "c1",
+  "unit": 7,
+  "concept": "C1.U07",
+  "status": "live",
+  "title": {
+   "target": "가정·조건 구문 심화",
+   "ko": "도치 조건문",
+   "en": "Inverted conditionals"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "긴급한 경우",
+   "pos": "phrase",
+   "read": "gingeupan gyeongu",
+   "en": "in case of emergency",
+   "ex": {
+    "t": "긴급한 경우에는 이 번호로 전화하세요.",
+    "read": "gingeupan gyeongueneun i beonhoro jeonhwahaseyo.",
+    "en": "In case of emergency, call this number."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "미리 알다",
+   "pos": "phrase",
+   "read": "miri alda",
+   "en": "know in advance",
+   "ex": {
+    "t": "미리 알았더라면 준비했을 거예요.",
+    "read": "miri aratdeoramyeon junbihaesseul geoyeyo.",
+    "en": "Had I known in advance, I would have prepared."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "조건",
+   "pos": "noun",
+   "read": "jogeon",
+   "en": "condition",
+   "ex": {
+    "t": "이 조건이 충족되면 계약이 성립해요.",
+    "read": "i jogeoni chungjokdoemyeon gyeyagi seongnipaeyo.",
+    "en": "The contract takes effect if this condition is met."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "필요하다면",
+   "pos": "phrase",
+   "read": "piryohadamyeon",
+   "en": "should you need",
+   "ex": {
+    "t": "필요하시면 언제든 연락 주세요.",
+    "read": "piryohasimyeon eonjedeun yeollak juseyo.",
+    "en": "Should you need anything, please get in touch."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "취소하다",
+   "pos": "verb",
+   "read": "chwisohada",
+   "en": "cancel",
+   "ex": {
+    "t": "행사가 취소되면 알려 드릴게요.",
+    "read": "haengsaga chwisodoemyeon allyeo deurilgeyo.",
+    "en": "We will inform you should the event be cancelled."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "가정",
+   "pos": "noun",
+   "read": "gajeong",
+   "en": "hypothesis",
+   "ex": {
+    "t": "이 가정은 아직 검증되지 않았어요.",
+    "read": "i gajeongeun ajik geomjeungdoeji anasseoyo.",
+    "en": "This hypothesis hasn't been tested yet."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "만약의 경우",
+   "pos": "noun",
+   "read": "manyagui gyeongu",
+   "en": "contingency",
+   "ex": {
+    "t": "만약의 경우를 대비한 계획이 필요해요.",
+    "read": "manyagui gyeongureul daebihan gyehoegi piryohaeyo.",
+    "en": "A contingency plan is needed."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "피할 수 있었던",
+   "pos": "adj",
+   "read": "pihal su isseotdeon",
+   "en": "avoidable",
+   "ex": {
+    "t": "그 사고는 충분히 피할 수 있었어요.",
+    "read": "geu sagoneun chungbunhi pihal su isseosseoyo.",
+    "en": "The accident was entirely avoidable."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "확신하다",
+   "pos": "verb",
+   "read": "hwaksinhada",
+   "en": "be convinced",
+   "ex": {
+    "t": "그녀가 맞았다고 확신해요.",
+    "read": "geunyeoga majatdago hwaksinhaeyo.",
+    "en": "I am convinced she was right."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "재앙",
+   "pos": "noun",
+   "read": "jaeang",
+   "en": "disaster",
+   "ex": {
+    "t": "대비하지 않으면 재앙이 될 수 있어요.",
+    "read": "daebihaji aneumyeon jaeangi doel su isseoyo.",
+    "en": "It could end in disaster if we don't prepare."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "-았/었더라면, -(으)ㄴ다면, -(으)시면, -(으)ㄴ다 해도",
+   "en": "-았/었더라면, -(으)ㄴ다면, -(으)시면, -(으)ㄴ다 해도 (advanced conditionals)"
+  },
+  "explain": {
+   "ko": "과거에 대한 가정은 '-았/었더라면 ~ -았/었을 거예요'로 말합니다: '미리 알았더라면 준비했을 거예요.' 앞으로의 가능성은 '-(으)ㄴ다면 ~ -겠습니다'로 씁니다: '계획이 바뀐다면 알려 드리겠습니다.' 정중한 안내문에서는 '필요하시면 언제든 연락 주세요'처럼 '-(으)시면'을 씁니다. 양보의 가정은 '-(으)ㄴ다 해도 ~ 않을 거예요'로 표현합니다. 만일의 경우는 '-(으)ㄹ 경우'를 씁니다.",
+   "en": "A hypothesis about the past is '-았/었더라면 ~ -았/었을 거예요': '미리 알았더라면 준비했을 거예요.' Future possibility is '-(으)ㄴ다면 ~ -겠습니다': '계획이 바뀐다면 알려 드리겠습니다.' Polite notices use '-(으)시면', as in '필요하시면 언제든 연락 주세요'. Concessive suppositions are '-(으)ㄴ다 해도 ~ 않을 거예요'. A contingency is '-(으)ㄹ 경우'."
+  },
+  "table": {
+   "head": [
+    "용도 / Use",
+    "형태 / Form",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "과거 가정 / Past",
+     "-았/었더라면 ~ -았/었을 거예요",
+     "알았더라면 준비했을 거예요."
+    ],
+    [
+     "미래 가능성 / Future",
+     "-(으)ㄴ다면 ~ -겠습니다",
+     "바뀐다면 알려 드리겠습니다."
+    ],
+    [
+     "정중한 조건 / Polite",
+     "-(으)시면",
+     "필요하시면 연락 주세요."
+    ],
+    [
+     "양보 가정 / Even if",
+     "-(으)ㄴ다 해도",
+     "사과한다 해도 용서 못 해요."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'-더라면'은 이루어지지 않은 과거를 가정합니다.",
+    "en": "'-더라면' supposes an unrealised past."
+   },
+   {
+    "ko": "공식 안내문에서는 '-(으)시면'으로 정중하게 조건을 나타냅니다.",
+    "en": "Formal notices use '-(으)시면' for polite conditions."
+   },
+   {
+    "ko": "'-(으)ㄹ 경우'는 만일의 상황을 가리킵니다.",
+    "en": "'-(으)ㄹ 경우' points to a contingency."
+   }
+  ],
+  "examples": [
+   {
+    "t": "미리 알았더라면 준비했을 거예요.",
+    "read": "miri aratdeoramyeon junbihaesseul geoyeyo.",
+    "en": "Had I known, I would have prepared."
+   },
+   {
+    "t": "필요하시면 언제든 연락 주세요.",
+    "read": "piryohasimyeon eonjedeun yeollak juseyo.",
+    "en": "Should you need any help, please contact us."
+   },
+   {
+    "t": "그가 사과한다 해도 저는 용서하지 않을 거예요.",
+    "read": "geuga sagwahanda haedo jeoneun yongseohaji aneul geoyeyo.",
+    "en": "Were he to apologise, I still wouldn't forgive him."
+   },
+   {
+    "t": "그 소식을 들었더라면 오지 않았을 거예요.",
+    "read": "geu sosigeul deureotdeoramyeon oji anasseul geoyeyo.",
+    "en": "Had we heard the news, we wouldn't have come."
+   },
+   {
+    "t": "계획이 바뀐다면 알려 드리겠습니다.",
+    "read": "gyehoegi bakkwindamyeon allyeo deurigetseumnida.",
+    "en": "Should the plan change, we will let you know."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "미리 알았___ 준비했을 거예요.",
+    "options": [
+     "더라면",
+     "으니까",
+     "는데"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "필요하___ 언제든 연락 주세요.",
+    "options": [
+     "시면",
+     "시고",
+     "시지만"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "그가 사과한다 ___ 저는 용서하지 않을 거예요.",
+    "options": [
+     "해도",
+     "하면서",
+     "하러"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "계획이 바뀐___ 알려 드리겠습니다.",
+    "options": [
+     "다면",
+     "다고",
+     "다가"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "미리 알았더라면 어떻게 하셨을까요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What would you have done had you known in advance?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "더 철저히 준비했을 거예요.",
+       "내일 알아볼 거예요.",
+       "이미 끝났어요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "일정이 바뀌면 어떻게 해야 하나요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What should I do if the schedule changes?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "바로 담당자에게 연락해 주세요.",
+       "그냥 기다리세요.",
+       "아무것도 안 해도 돼요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "그 행사가 취소된다는 걸 알았더라면 호텔을 예약하지 않았을 텐데."
+      },
+      {
+       "s": "B",
+       "t": "환불은 받을 수 있어?"
+      },
+      {
+       "s": "A",
+       "t": "취소가 확정되면 전액 환불해 준대."
+      },
+      {
+       "s": "B",
+       "t": "그럼 연락을 기다려 보자."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: Had I known the event would be cancelled, I wouldn't have booked the hotel.\nB: Can you get a refund?\nA: Should the cancellation be confirmed, they'll refund in full.\nB: Then let's wait to hear from them."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "환불은 언제 받을 수 있어요?",
+      "options": [
+       "취소가 확정되면 전액 받을 수 있어요",
+       "지금 바로 받을 수 있어요",
+       "받을 수 없어요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "직원 여러분께 안내드립니다. 비상 상황이 발생하면 즉시 안내 방송을 따라 주세요. 엘리베이터를 사용하지 마시고 계단으로 이동하세요. 도움이 필요하시면 가까운 직원에게 알려 주세요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Attention all staff. Should an emergency occur, follow the announcements at once. Do not use the lifts; use the stairs. Should you need help, tell the nearest member of staff."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "비상 상황에서 어떻게 이동해야 해요?",
+      "options": [
+       "계단으로 이동해야 해요",
+       "엘리베이터를 타야 해요",
+       "건물에 머물러야 해요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "호텔 프런트입니다."
+      },
+      {
+       "s": "B",
+       "t": "방을 바꾸고 싶은데요."
+      },
+      {
+       "s": "A",
+       "t": "다른 방이 필요하시면 말씀해 주세요. 가능한 방을 확인해 드리겠습니다."
+      },
+      {
+       "s": "B",
+       "t": "감사합니다. 조용한 방이면 좋겠어요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Receptionist: Front desk.\nGuest: I'd like to change my room.\nReceptionist: Should you need another room, just say so. I'll check what's available.\nGuest: Thank you. A quiet room would be great."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "손님은 다른 ______이 필요해요",
+      "answers": [
+       "방"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "손님은 ______ 방이면 좋겠다고 해요",
+      "answers": [
+       "조용한"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 미리 알았___ 준비했을 거예요.\n2) 필요하___ 언제든 연락 주세요.\n3) 그가 사과한다 ___ 저는 용서하지 않을 거예요.",
+    "trans": {
+     "en": "1) Had I known, I would have prepared. 2) Should you need any help, please contact us. 3) Were he to apologise, I still wouldn't forgive him."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "미리 알았___ 준비했을 거예요.",
+      "options": [
+       "더라면",
+       "으니까",
+       "는데"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "필요하___ 언제든 연락 주세요.",
+      "options": [
+       "시면",
+       "시고",
+       "시지만"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "그가 사과한다 ___ 저는 용서하지 않을 거예요.",
+      "options": [
+       "해도",
+       "하면서",
+       "하러"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "그 도시에 폭우가 내렸을 때 많은 주민이 피해를 입었다. 경보가 조금만 일찍 발령되었(1) 피해는 줄었을 것이다. 앞으로 비슷한 폭우가 다시 온(2) 시는 더 빠르게 대피령을 내릴 (3)이다. 주민은 알림 서비스에 가입해야 한다.",
+    "trans": {
+     "en": "Many residents suffered when heavy rain hit the city. Had the warning been issued a little earlier, the damage would have been smaller. Should similar rain return, the city plans to issue evacuation orders more quickly. Residents are advised to register for the alert service."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "더라면",
+       "으니",
+       "고"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "다면",
+       "다고",
+       "다가"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "계획",
+       "후회",
+       "질문"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "이메일\n계약 변경 안내\n귀하께서 계약 조건을 변경하기를 원하시면 이번 주 금요일까지 서면으로 알려 주십시오. 변경 요청이 접수되지 않는다면 기존 조건이 유지됩니다. 추가 문의가 있으시면 연락 주십시오.",
+    "trans": {
+     "en": "EMAIL\nContract changes\nShould you wish to change the contract terms, please inform us in writing by this Friday. Were no request to be received, the existing terms will remain. Should you have further questions, please contact us."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "계약 조건을 변경하려면 어떻게 해야 해요?",
+      "options": [
+       "금요일까지 서면으로 알려야 해요",
+       "전화로만 알리면 돼요",
+       "아무것도 안 해도 돼요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "변경 요청이 접수되지 않으면 어떻게 돼요?",
+      "options": [
+       "기존 조건이 유지돼요",
+       "계약이 취소돼요",
+       "새 조건이 적용돼요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "고객은 금요일까지 서면으로 변경을 요청해야 한다. 요청이 없으면 계약 조건이 바뀐다. 문의가 있으면 연락할 수 있다.",
+    "trans": {
+     "en": "The customer must request changes in writing by Friday. If there is no request, the terms change. Customers can contact the company with questions."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "고객은 금요일까지 서면으로 변경을 요청해야 한다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "요청이 없으면 계약 조건이 바뀐다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "문의가 있으면 연락할 수 있다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "미리 알았더라면 다르게 준비했을 거예요.",
+    "read": "miri aratdeoramyeon dareuge junbihaesseul geoyeyo.",
+    "en": "Had I known earlier, I would have prepared differently.",
+    "situation": {
+     "ko": "과거 가정을 격식 있게 말할 때",
+     "en": "A formal past hypothesis"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "필요하시면 언제든지 연락 주세요.",
+    "read": "piryohasimyeon eonjedeunji yeollak juseyo.",
+    "en": "Should you need any assistance, please do not hesitate to contact us.",
+    "situation": {
+     "ko": "이메일 마무리",
+     "en": "Closing an email"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "그가 지금 사직한다면 회사는 큰 손실을 입을 거예요.",
+    "read": "geuga jigeum sajikandamyeon hoesaneun keun sonsireul ibeul geoyeyo.",
+    "en": "Were he to resign now, the company would suffer a major loss.",
+    "situation": {
+     "ko": "가능성이 낮은 가정",
+     "en": "An unlikely hypothesis"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "그 사실이 알려졌더라면 결과는 달랐을 거예요.",
+    "read": "geu sasiri allyeojyeotdeoramyeon gyeolgwaneun dallasseul geoyeyo.",
+    "en": "Had that fact been known, the outcome would have been different.",
+    "situation": {
+     "ko": "역사적 가정",
+     "en": "A historical hypothesis"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "행사가 취소되면 즉시 알려 드리겠습니다.",
+    "read": "haengsaga chwisodoemyeon jeuksi allyeo deurigetseumnida.",
+    "en": "Should the event be cancelled, we will notify you immediately.",
+    "situation": {
+     "ko": "공지문",
+     "en": "A notice"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "그런 일이 일어났다면 우리는 큰 곤란을 겪었을 거예요.",
+    "read": "geureon iri ireonatdamyeon urineun keun gollaneul gyeokkeosseul geoyeyo.",
+    "en": "Had that happened, we would have been in serious trouble.",
+    "situation": {
+     "ko": "아슬아슬했던 상황을 말할 때",
+     "en": "Describing a narrow escape"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "조금만 더 신중했더라면 피할 수 있었을 거예요.",
+    "read": "jogeumman deo sinjunghaetdeoramyeon pihal su isseosseul geoyeyo.",
+    "en": "Had we been a little more careful, it could have been avoided.",
+    "situation": {
+     "ko": "아쉬움을 정중하게 말할 때",
+     "en": "Politely expressing regret"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "만일 그렇게 된다면 그때 다시 논의합시다.",
+    "read": "manil geureoke doendamyeon geuttae dasi nonuihapsida.",
+    "en": "Should that happen, let us discuss it again then.",
+    "situation": {
+     "ko": "회의를 마무리할 때",
+     "en": "Wrapping up a meeting"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~했더라면 ~했을 것이다.",
+    "read": "~haetdeoramyeon ~haesseul geosida.",
+    "en": "Had I/we ~, I/we would have ..."
+   },
+   {
+    "id": "w2",
+    "t": "만약 ~한다면 ~할 것이다.",
+    "read": "manyak ~handamyeon ~hal geosida.",
+    "en": "Should you/it ~, please/we will ..."
+   },
+   {
+    "id": "w3",
+    "t": "만약 ~라면 ~일 것이다.",
+    "read": "manyak ~ramyeon ~il geosida.",
+    "en": "Were he/it to ~, ... would ..."
+   },
+   {
+    "id": "w4",
+    "t": "~가 아니었다면 ~했을 것이다.",
+    "read": "~ga anieotdamyeon ~haesseul geosida.",
+    "en": "Had it not been for ~, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "도치 조건문(Had, Should, Were)을 사용해 공식적인 안내문이나 후회를 4문장으로 써 보세요.",
+    "en": "Write 4 sentences using inverted conditionals (Had, Should, Were) in a formal notice or a regret."
+   },
+   "must_include": [
+    {
+     "label": "-았/었더라면",
+     "match": [
+      "더라면"
+     ]
+    },
+    {
+     "label": "-(으)ㄴ다면",
+     "match": [
+      "바뀐다면"
+     ]
+    },
+    {
+     "label": "-(으)시면",
+     "match": [
+      "하시면"
+     ]
+    }
+   ],
+   "model": "미리 알았더라면 더 철저히 준비했을 것입니다. 일정이 바뀐다면 즉시 알려 드리겠습니다. 지원이 필요하시면 언제든지 연락 주세요. 그런 일이 다시 일어난다면 우리는 다른 방식으로 대응할 것입니다.",
+   "model_trans": {
+    "ko": "미리 알았더라면 더 철저히 준비했을 것입니다. 일정이 바뀐다면 즉시 알려 드리겠습니다. 지원이 필요하시면 언제든지 연락 주세요. 그런 일이 다시 일어난다면 우리는 다른 방식으로 대응할 것입니다.",
+    "en": "Had I known, I would have prepared more thoroughly. Should the schedule change, we will let you know immediately. Should you need support, please contact us at any time. Were that to happen again, we would respond in a different way."
+   }
+  }
+ }
+}

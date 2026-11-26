@@ -1,0 +1,787 @@
+{
+ "meta": {
+  "id": "ko_c1_u01",
+  "lang": "ko",
+  "family": "asia",
+  "level": "c1",
+  "unit": 1,
+  "concept": "C1.U01",
+  "status": "live",
+  "title": {
+   "target": "과거에 대한 비판·후회·불필요",
+   "ko": "과거 조동사: 비판·후회·불필요",
+   "en": "Past modals: criticism, regret and necessity"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "비난하다",
+   "pos": "verb",
+   "read": "binanhada",
+   "en": "reproach",
+   "ex": {
+    "t": "그는 나를 비난하는 눈빛으로 쳐다봤어요.",
+    "read": "geuneun nareul binanhaneun nunbicheuro chyeodabwasseoyo.",
+    "en": "He gave me a reproachful look."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "부주의",
+   "pos": "noun",
+   "read": "bujuui",
+   "en": "negligence",
+   "ex": {
+    "t": "사고는 명백한 부주의 때문이었어요.",
+    "read": "sagoneun myeongbaekan bujuui ttaemunieosseoyo.",
+    "en": "The accident was caused by sheer negligence."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "후회스러운",
+   "pos": "adj",
+   "read": "huhoeseureoun",
+   "en": "regrettable",
+   "ex": {
+    "t": "그 결정은 후회스러운 실수였어요.",
+    "read": "geu gyeoljeongeun huhoeseureoun silsuyeosseoyo.",
+    "en": "That decision was a regrettable mistake."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "불필요한",
+   "pos": "adj",
+   "read": "bulpiryohan",
+   "en": "unnecessary",
+   "ex": {
+    "t": "그렇게까지 서두를 필요는 없었어요.",
+    "read": "geureokekkaji seodureul piryoneun eopseosseoyo.",
+    "en": "There was no need for such unnecessary haste."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "예방하다",
+   "pos": "verb",
+   "read": "yebanghada",
+   "en": "prevent",
+   "ex": {
+    "t": "조금만 주의했더라면 사고를 예방할 수 있었을 거예요.",
+    "read": "jogeumman juuihaetdeoramyeon sagoreul yebanghal su isseosseul geoyeyo.",
+    "en": "A little care could have prevented the accident."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "책임을 지다",
+   "pos": "phrase",
+   "read": "chaegimeul jida",
+   "en": "take responsibility",
+   "ex": {
+    "t": "그녀는 실수에 대한 책임을 졌어요.",
+    "read": "geunyeoneun silsue daehan chaegimeul jyeosseoyo.",
+    "en": "She took responsibility for the error."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "경솔한",
+   "pos": "adj",
+   "read": "gyeongsolhan",
+   "en": "reckless",
+   "ex": {
+    "t": "그건 경솔한 행동이었어요.",
+    "read": "geugeon gyeongsolhan haengdongieosseoyo.",
+    "en": "That was a reckless thing to do."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "뒤늦게 깨닫다",
+   "pos": "phrase",
+   "read": "dwineutge kkaedatda",
+   "en": "realise too late",
+   "ex": {
+    "t": "나는 뒤늦게 내가 틀렸다는 것을 깨달았어요.",
+    "read": "naneun dwineutge naega teullyeotdaneun geoseul kkaedarasseoyo.",
+    "en": "I realised too late that I was wrong."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "변명",
+   "pos": "noun",
+   "read": "byeonmyeong",
+   "en": "excuse",
+   "ex": {
+    "t": "그의 변명은 설득력이 없었어요.",
+    "read": "geuui byeonmyeongeun seoldeungnyeogi eopseosseoyo.",
+    "en": "His excuse was unconvincing."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "교훈",
+   "pos": "noun",
+   "read": "gyohun",
+   "en": "lesson",
+   "ex": {
+    "t": "이번 일에서 큰 교훈을 얻었어요.",
+    "read": "ibeon ireseo keun gyohuneul eodeosseoyo.",
+    "en": "I learned a valuable lesson from this."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "-았/었어야 했는데, -(으)ㄹ 필요는 없었는데, -(으)ㄹ 수도 있었는데, -기로 되어 있었는데",
+   "en": "-았/었어야 했는데, -(으)ㄹ 필요는 없었는데, -(으)ㄹ 수도 있었는데, -기로 되어 있었는데 (past modals)"
+  },
+  "explain": {
+   "ko": "과거에 하지 못한 일에 대한 아쉬움이나 비판은 '-았/었어야 했는데'로 말합니다: '미리 전화했어야 했는데요.' 하지 않아도 되었던 일은 '-(으)ㄹ 필요는 없었는데'로 말합니다: '그렇게 서두를 필요는 없었어요.' 가능했지만 하지 않은 일은 '-(으)ㄹ 수도 있었는데'로, 예정되었던 일은 '-기로 되어 있었는데'로 표현합니다. 하지 말았어야 할 일은 '-지 말았어야 했어요'를 씁니다.",
+   "en": "To criticise or regret something not done in the past, use '-았/었어야 했는데': '미리 전화했어야 했는데요.' For something that was not necessary, use '-(으)ㄹ 필요는 없었는데': '그렇게 서두를 필요는 없었어요.' Something possible but not done is '-(으)ㄹ 수도 있었는데'; a planned event is '-기로 되어 있었는데'. Something you should not have done is '-지 말았어야 했어요'."
+  },
+  "table": {
+   "head": [
+    "용도 / Use",
+    "형태 / Form",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "비판·후회 / Criticism, regret",
+     "-았/었어야 했는데",
+     "미리 전화했어야 했는데요."
+    ],
+    [
+     "불필요 / Unnecessary",
+     "-(으)ㄹ 필요는 없었는데",
+     "서두를 필요는 없었어요."
+    ],
+    [
+     "가능성 / Missed chance",
+     "-(으)ㄹ 수도 있었는데",
+     "막을 수도 있었는데요."
+    ],
+    [
+     "예정 / Scheduled",
+     "-기로 되어 있었는데",
+     "오기로 되어 있었는데 안 왔어요."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'-았/었어야 했는데'는 하지 않아서 생긴 아쉬움을 나타냅니다.",
+    "en": "'-았/었어야 했는데' expresses regret for what was not done."
+   },
+   {
+    "ko": "'-(으)ㄹ 필요는 없었는데'는 사실은 했던 일에 대해 쓸 때가 많습니다.",
+    "en": "'-(으)ㄹ 필요는 없었는데' is often used about something that was in fact done."
+   },
+   {
+    "ko": "부정의 후회는 '-지 말았어야 했어요'로 말합니다.",
+    "en": "Regret about something done is '-지 말았어야 했어요'."
+   }
+  ],
+  "examples": [
+   {
+    "t": "미리 전화했어야 했는데요.",
+    "read": "miri jeonhwahaesseoya haenneundeyo.",
+    "en": "You ought to have phoned in advance."
+   },
+   {
+    "t": "그렇게 일찍 올 필요는 없었어요.",
+    "read": "geureoke iljjik ol piryoneun eopseosseoyo.",
+    "en": "You needn't have come so early."
+   },
+   {
+    "t": "조금만 조심했더라면 막을 수 있었을 거예요.",
+    "read": "jogeumman josimhaetdeoramyeon mageul su isseosseul geoyeyo.",
+    "en": "With a little care, it could have been avoided."
+   },
+   {
+    "t": "그가 회의에 오기로 되어 있었는데 나타나지 않았어요.",
+    "read": "geuga hoeuie ogiro doeeo isseonneunde natanaji anasseoyo.",
+    "en": "He was supposed to attend the meeting but never showed up."
+   },
+   {
+    "t": "그렇게 말하지 말았어야 했어요.",
+    "read": "geureoke malhaji marasseoya haesseoyo.",
+    "en": "I shouldn't have said that."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "너는 더 일찍 전화___ 했어.",
+    "options": [
+     "했어야",
+     "하면",
+     "하러"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "그렇게 서두를 ___ 없었어요.",
+    "options": [
+     "필요는",
+     "때문에",
+     "수록"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "그는 오기로 ___ 있었는데 나타나지 않았어요.",
+    "options": [
+     "되어",
+     "해서",
+     "하는데"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "그런 말은 하지 ___ 했어요.",
+    "options": [
+     "말았어야",
+     "않으면",
+     "않아서"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "그 사고는 어떻게 예방할 수 있었을까요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) How could the accident have been prevented?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "조금만 조심했더라면 막을 수 있었을 거예요.",
+       "내일 다시 확인해 볼 거예요.",
+       "벌써 끝났어요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "회의에 늦은 것에 대해 뭐라고 말하겠어요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What would you say about being late for the meeting?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "미리 연락했어야 했는데 죄송합니다.",
+       "회의는 내일이에요.",
+       "저도 가고 싶어요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "어제 보고서 마감인 걸 몰랐어?"
+      },
+      {
+       "s": "B",
+       "t": "알고 있었는데 파일을 잘못 보냈어. 다시 확인했어야 했어."
+      },
+      {
+       "s": "A",
+       "t": "괜찮아, 그렇게 걱정할 필요는 없었어. 팀장님이 하루 더 주셨거든."
+      },
+      {
+       "s": "B",
+       "t": "정말? 그럼 밤새 쓸 필요도 없었네."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: Didn't you know the report was due yesterday?\nB: I did, but I sent the wrong file. I should have checked again.\nA: It's fine. You needn't have worried so much. The manager gave us another day.\nB: Really? Then I needn't have stayed up all night."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B는 무엇을 후회해요?",
+      "options": [
+       "파일을 다시 확인하지 않은 것",
+       "마감을 몰랐던 것",
+       "밤을 새운 것"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이번 프로젝트는 일정이 많이 늦어졌습니다. 우리는 초기에 위험 요소를 점검했어야 했습니다. 팀원들에게 더 자주 상황을 공유할 수도 있었고요. 그래도 이번 경험으로 다음 프로젝트는 더 잘 관리할 수 있을 것입니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "This project ran well behind schedule. We should have checked the risks at the start. We could also have updated the team more often. Still, this experience will help us manage the next project better."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "팀은 초기에 무엇을 했어야 했어요?",
+      "options": [
+       "위험 요소를 점검했어야 했어요",
+       "일정을 연장했어야 했어요",
+       "팀원을 늘렸어야 했어요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "오늘의 주제는 후회입니다."
+      },
+      {
+       "s": "B",
+       "t": "저는 젊을 때 악기를 계속 배웠어야 했다고 생각해요."
+      },
+      {
+       "s": "A",
+       "t": "지금 시작하기엔 늦었을까요?"
+      },
+      {
+       "s": "B",
+       "t": "아니요, 늦지 않았어요. 다만 그때 포기하지 말았어야 했죠."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Host: Today's topic is regret.\nGuest: I think I should have kept learning an instrument when I was young.\nHost: Is it too late to start now?\nGuest: No, it isn't. I just shouldn't have given up back then."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "손님이 젊을 때 계속 배웠어야 했다고 하는 것: ______",
+      "answers": [
+       "악기"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "그때 ______ 말았어야 했다고 해요",
+      "answers": [
+       "포기하지"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 너는 더 일찍 ___ 했어.\n2) 그렇게 서두를 ___ 없었어.\n3) 그는 오기로 ___ 있었는데 나타나지 않았어.",
+    "trans": {
+     "en": "1) You ought to have phoned earlier. 2) You needn't have hurried so much. 3) He was supposed to come, but he never turned up."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "너는 더 일찍 ___ 했어.",
+      "options": [
+       "전화했어야",
+       "전화할까",
+       "전화하는데"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "그렇게 서두를 ___ 없었어.",
+      "options": [
+       "필요는",
+       "때문에",
+       "만큼"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "그는 오기로 ___ 있었는데 나타나지 않았어.",
+      "options": [
+       "되어",
+       "해서",
+       "하고"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "지난달 우리 팀은 중요한 계약을 놓쳤어요. 돌이켜 보면 서류를 좀 더 꼼꼼히 (1). 마감 전날 밤새 수정할 (2) 없었지만, 불안해서 멈출 수 없었어요. 지금은 이 실수가 소중한 (3)이 되었다고 생각해요.",
+    "trans": {
+     "en": "Last month our team missed an important contract. Looking back, we should have reviewed the documents more carefully. We needn't have revised them all night before the deadline, but anxiety kept us going. Now I think this mistake was a valuable lesson."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "검토했어야 했어요",
+       "검토할 거예요",
+       "검토하고 있어요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "필요는",
+       "수도",
+       "때문에"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "교훈",
+       "변명",
+       "비난"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "사내 소식\n정전 사고 보고\n지난 주말 서버실의 정전으로 서비스가 세 시간 중단되었다. 점검 결과 백업 전원 장치의 배터리가 오래된 것이 원인이었다. 담당자는 교체 시기를 미리 확인했어야 했다고 인정했다. 회사는 앞으로 정기 점검 일정을 강화하기로 했다.",
+    "trans": {
+     "en": "COMPANY NEWS\nPower failure report\nA power cut in the server room last weekend stopped the service for three hours. Checks showed the cause was an old battery in the backup power unit. The person in charge admitted they should have checked the replacement date in advance. The company will now strengthen its regular inspection schedule."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "정전의 원인은 무엇이었어요?",
+      "options": [
+       "백업 전원 장치의 배터리가 오래된 것",
+       "서버가 고장 난 것",
+       "직원의 실수"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "담당자는 무엇을 인정했어요?",
+      "options": [
+       "교체 시기를 미리 확인했어야 했다고",
+       "예산이 부족했다고",
+       "점검을 했다고"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "마이클은 발표 전날 밤을 새웠다. 그는 지금 더 일찍 시작했어야 했다고 후회한다. 그의 동료 한 명이 도와주겠다고 했지만 그는 거절했다.",
+    "trans": {
+     "en": "Michael stayed up all night before his presentation. Now he regrets not starting earlier. One colleague offered to help, but he refused."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "마이클은 발표 전날 밤을 새웠다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "마이클은 더 늦게 시작한 것에 만족한다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "마이클은 팀장이다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "미리 알려 줬어야 했어요.",
+    "read": "miri allyeo jwosseoya haesseoyo.",
+    "en": "You should have told me in advance.",
+    "situation": {
+     "ko": "상대의 잘못을 비판할 때",
+     "en": "Criticising someone's mistake"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "그렇게까지 서두를 필요는 없었어요.",
+    "read": "geureokekkaji seodureul piryoneun eopseosseoyo.",
+    "en": "You needn't have rushed that much.",
+    "situation": {
+     "ko": "불필요했던 행동을 말할 때",
+     "en": "Saying an action was unnecessary"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "제가 좀 더 신중했어야 했는데, 정말 죄송합니다.",
+    "read": "jega jom deo sinjunghaesseoya haenneunde, jeongmal joesonghamnida.",
+    "en": "I ought to have been more careful, and I apologise.",
+    "situation": {
+     "ko": "자신의 잘못을 인정할 때",
+     "en": "Admitting your own fault"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "조금만 일찍 출발했더라면 늦지 않았을 거예요.",
+    "read": "jogeumman iljjik chulbalhaetdeoramyeon neutji anasseul geoyeyo.",
+    "en": "We could have avoided being late if we'd left earlier.",
+    "situation": {
+     "ko": "다른 방법이 있었음을 말할 때",
+     "en": "Pointing to a missed alternative"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "그 사람은 분명히 알고 있었을 텐데도 말하지 않았어요.",
+    "read": "geu sarameun bunmyeonghi algo isseosseul tendedo malhaji anasseoyo.",
+    "en": "He must have known, yet he said nothing.",
+    "situation": {
+     "ko": "과거에 대해 확신하며 추측할 때",
+     "en": "Confident past deduction"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "그게 최선이었을 수도 있어요. 우리가 어떻게 알겠어요?",
+    "read": "geuge choeseonieosseul sudo isseoyo. uriga eotteoke algesseoyo?",
+    "en": "It may well have been for the best; how could we know?",
+    "situation": {
+     "ko": "비판을 누그러뜨릴 때",
+     "en": "Softening criticism"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "그때 더 잘 알았더라면 달리 행동했을 거예요.",
+    "read": "geuttae deo jal aratdeoramyeon dalli haengdonghaesseul geoyeyo.",
+    "en": "Had I known better, I would have acted differently.",
+    "situation": {
+     "ko": "후회를 격식 있게 말할 때",
+     "en": "A formal regret"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "이번 일에서 교훈을 얻었으니 다음에는 다를 거예요.",
+    "read": "ibeon ireseo gyohuneul eodeosseuni daeumeneun dareul geoyeyo.",
+    "en": "I've learned my lesson; next time will be different.",
+    "situation": {
+     "ko": "다짐으로 마무리할 때",
+     "en": "Closing with a resolution"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~했어야 했는데 (하지 못했다).",
+    "read": "~haesseoya haenneunde (haji motaetda).",
+    "en": "I should have ~ (but I didn't)."
+   },
+   {
+    "id": "w2",
+    "t": "~할 필요는 없었어요 (했지만).",
+    "read": "~hal piryoneun eopseosseoyo (haetjiman).",
+    "en": "You needn't have ~ (but you did)."
+   },
+   {
+    "id": "w3",
+    "t": "~할 수도 있었는데 (하지 않았다).",
+    "read": "~hal sudo isseonneunde (haji anatda).",
+    "en": "We could have ~ (but we didn't)."
+   },
+   {
+    "id": "w4",
+    "t": "~하기로 되어 있었는데.",
+    "read": "~hagiro doeeo isseonneunde.",
+    "en": "He was supposed to ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "과거의 실수를 되돌아보며 should have, needn't have, could have를 사용해 4문장을 써 보세요.",
+    "en": "Reflect on a past mistake and write 4 sentences using should have, needn't have and could have."
+   },
+   "must_include": [
+    {
+     "label": "~했어야 했는데",
+     "match": [
+      "했어야 했"
+     ]
+    },
+    {
+     "label": "~할 필요는 없었는데",
+     "match": [
+      "필요는 없었"
+     ]
+    },
+    {
+     "label": "~할 수도 있었는데",
+     "match": [
+      "수도 있었"
+     ]
+    }
+   ],
+   "model": "저는 프레젠테이션 자료를 전날 밤에야 준비했어요. 더 일찍 시작했어야 했어요. 밤새 수정할 필요는 없었는데 불안해서 그랬어요. 동료에게 도움을 청할 수도 있었지만 그러지 않았어요. 이번 일에서 큰 교훈을 얻었어요.",
+   "model_trans": {
+    "ko": "저는 프레젠테이션 자료를 전날 밤에야 준비했어요. 더 일찍 시작했어야 했어요. 밤새 수정할 필요는 없었는데 불안해서 그랬어요. 동료에게 도움을 청할 수도 있었지만 그러지 않았어요. 이번 일에서 큰 교훈을 얻었어요.",
+    "en": "I only prepared my presentation the night before. I should have started earlier. I needn't have stayed up all night revising, but I was anxious. I could have asked a colleague for help, but I didn't. I learned a valuable lesson from this."
+   }
+  }
+ }
+}

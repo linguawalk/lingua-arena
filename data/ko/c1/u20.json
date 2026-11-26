@@ -1,0 +1,787 @@
+{
+ "meta": {
+  "id": "ko_c1_u20",
+  "lang": "ko",
+  "family": "asia",
+  "level": "c1",
+  "unit": 20,
+  "concept": "C1.U20",
+  "status": "live",
+  "title": {
+   "target": "학술 에세이의 논증 구조",
+   "ko": "학술 에세이의 논증 구조",
+   "en": "Argument structure in academic essays"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "논지",
+   "pos": "noun",
+   "read": "nonji",
+   "en": "thesis statement",
+   "ex": {
+    "t": "서론에서 논지를 분명히 밝히세요.",
+    "read": "seoroneseo nonjireul bunmyeonghi balkiseyo.",
+    "en": "State your thesis clearly in the introduction."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "주제문",
+   "pos": "noun",
+   "read": "jujemun",
+   "en": "topic sentence",
+   "ex": {
+    "t": "각 단락은 주제문으로 시작해요.",
+    "read": "gak dallageun jujemuneuro sijakaeyo.",
+    "en": "Each paragraph begins with a topic sentence."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "반론",
+   "pos": "noun",
+   "read": "ballon",
+   "en": "counter-argument",
+   "ex": {
+    "t": "반론을 인정한 뒤 반박하세요.",
+    "read": "balloneul injeonghan dwi banbakaseyo.",
+    "en": "Acknowledge a counter-argument and then refute it."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "반박",
+   "pos": "noun",
+   "read": "banbak",
+   "en": "refutation",
+   "ex": {
+    "t": "그의 반박은 설득력 있었어요.",
+    "read": "geuui banbageun seoldeungnyeok isseosseoyo.",
+    "en": "His refutation was convincing."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "뒷받침하다",
+   "pos": "verb",
+   "read": "dwitbatchimhada",
+   "en": "support",
+   "ex": {
+    "t": "근거로 주장을 뒷받침하세요.",
+    "read": "geungeoro jujangeul dwitbatchimhaseyo.",
+    "en": "Support your claim with evidence."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "근거",
+   "pos": "noun",
+   "read": "geungeo",
+   "en": "evidence",
+   "ex": {
+    "t": "충분한 근거가 필요해요.",
+    "read": "chungbunhan geungeoga piryohaeyo.",
+    "en": "Sufficient evidence is needed."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "일관된",
+   "pos": "adj",
+   "read": "ilgwandoen",
+   "en": "coherent",
+   "ex": {
+    "t": "논리가 일관되어야 해요.",
+    "read": "nolliga ilgwandoeeoya haeyo.",
+    "en": "The logic must be coherent."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "전제",
+   "pos": "noun",
+   "read": "jeonje",
+   "en": "premise",
+   "ex": {
+    "t": "그 주장의 전제는 잘못되었어요.",
+    "read": "geu jujangui jeonjeneun jalmotdoeeosseoyo.",
+    "en": "The premise of the argument is flawed."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "결론",
+   "pos": "noun",
+   "read": "gyeollon",
+   "en": "conclusion",
+   "ex": {
+    "t": "결론은 서론의 논지로 돌아가요.",
+    "read": "gyeolloneun seoronui nonjiro doragayo.",
+    "en": "The conclusion returns to the thesis."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "모순",
+   "pos": "noun",
+   "read": "mosun",
+   "en": "contradiction",
+   "ex": {
+    "t": "논지에 모순이 있어요.",
+    "read": "nonjie mosuni isseoyo.",
+    "en": "There is a contradiction in the argument."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "-라고 주장한다, -지만 ~, -을 뒷받침하다, 종합하면",
+   "en": "-라고 주장한다, -지만 ~, -을 뒷받침하다, 종합하면 (essay structure)"
+  },
+  "explain": {
+   "ko": "좋은 학술 에세이는 서론·본론·결론으로 구성됩니다. 서론에서는 '이 글은 ~라고 주장한다'로 논지를 밝히고, 본론의 단락은 주제문으로 시작합니다. 반론은 '일부는 ~라고 주장하지만'으로 소개한 뒤 '그러나'로 반박합니다. 근거는 '이를 뒷받침하는 근거는 ~이다'로 제시합니다. 결론은 '종합하면'으로 시작해 논지를 다시 정리합니다.",
+   "en": "A good essay has an introduction, body and conclusion. The introduction states the thesis with '이 글은 ~라고 주장한다'; each body paragraph begins with a topic sentence. A counter-argument is introduced with '일부는 ~라고 주장하지만' and refuted with '그러나'. Evidence: '이를 뒷받침하는 근거는 ~이다'. The conclusion opens with '종합하면' and restates the thesis."
+  },
+  "table": {
+   "head": [
+    "부분 / Part",
+    "표현 / Expression",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "논지 / Thesis",
+     "이 글은 ~라고 주장한다",
+     "생산성을 높인다고 주장한다."
+    ],
+    [
+     "반론 / Counter",
+     "일부는 ~라고 주장하지만",
+     "일부는 반대하지만"
+    ],
+    [
+     "반박 / Refutation",
+     "그러나 ~",
+     "그러나 연구는 다르게 보여 준다."
+    ],
+    [
+     "결론 / Conclusion",
+     "종합하면 ~",
+     "종합하면 도입해야 한다."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "논지는 서론에서 분명히 밝힙니다.",
+    "en": "State the thesis clearly in the introduction."
+   },
+   {
+    "ko": "반론은 인정한 뒤 반드시 반박합니다.",
+    "en": "Admit the counter-argument, then refute it."
+   },
+   {
+    "ko": "결론은 서론의 논지로 돌아갑니다.",
+    "en": "The conclusion returns to the thesis."
+   }
+  ],
+  "examples": [
+   {
+    "t": "서론에서 논지를 분명히 밝혀야 해요.",
+    "read": "seoroneseo nonjireul bunmyeonghi balkyeoya haeyo.",
+    "en": "You should state your thesis clearly in the introduction."
+   },
+   {
+    "t": "각 단락은 주제문으로 시작해야 해요.",
+    "read": "gak dallageun jujemuneuro sijakaeya haeyo.",
+    "en": "Each paragraph should begin with a topic sentence."
+   },
+   {
+    "t": "반론을 인정한 뒤 반박하는 것이 효과적이에요.",
+    "read": "balloneul injeonghan dwi banbakaneun geosi hyogwajeogieyo.",
+    "en": "It is effective to acknowledge a counter-argument and then refute it."
+   },
+   {
+    "t": "충분한 근거가 주장을 뒷받침해요.",
+    "read": "chungbunhan geungeoga jujangeul dwitbatchimhaeyo.",
+    "en": "Sufficient evidence supports the claim."
+   },
+   {
+    "t": "결론은 서론의 논지로 돌아가야 해요.",
+    "read": "gyeolloneun seoronui nonjiro doragaya haeyo.",
+    "en": "The conclusion should return to the thesis."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "서론에서 ___를 분명히 밝혀야 해요.",
+    "options": [
+     "논지",
+     "농담",
+     "인사"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "각 단락은 ___으로 시작해야 해요.",
+    "options": [
+     "주제문",
+     "질문",
+     "인용문"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "반론을 인정한 뒤 ___하는 것이 효과적이에요.",
+    "options": [
+     "반박",
+     "취소",
+     "생략"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___ 기업은 유연한 근무를 도입해야 합니다.",
+    "options": [
+     "종합하면",
+     "예를 들어",
+     "반대로"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이 에세이의 논지는 무엇인가요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What is the thesis of this essay?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "이 에세이의 논지는 무엇이에요?",
+      "options": [
+       "재택근무가 생산성을 높인다는 것",
+       "재택근무를 금지해야 한다는 것",
+       "사무실이 필요하다는 것"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "반론은 어떻게 반박하나요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) How is the counter-argument refuted?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "반론을 소개한 뒤 근거로 반박해요.",
+       "반론을 무시해요.",
+       "결론에서만 말해요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "에세이 서론을 썼는데 논지가 분명한지 봐 줄래?"
+      },
+      {
+       "s": "B",
+       "t": "'이 글은 재택근무가 생산성을 높인다고 주장한다'가 논지구나. 명확해."
+      },
+      {
+       "s": "A",
+       "t": "반론도 넣어야 할까?"
+      },
+      {
+       "s": "B",
+       "t": "응, 반론을 소개하고 반박하면 더 설득력 있어."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: I've written my introduction; is my thesis clear?\nB: 'This essay argues that remote working boosts productivity' — that's clear.\nA: Should I include a counter-argument?\nB: Yes, introducing and refuting one makes it more convincing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B는 왜 반론을 넣으라고 해요?",
+      "options": [
+       "더 설득력이 있어서",
+       "분량을 채우려고",
+       "교수가 요구해서"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "좋은 학술 에세이는 서론, 본론, 결론으로 구성됩니다. 서론에서는 논지를 밝히고, 본론의 각 단락은 주제문으로 시작합니다. 반론을 인정하고 반박하면 논증이 더 탄탄해집니다. 결론에서는 논지를 다시 정리합니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A good academic essay has an introduction, body and conclusion. The introduction states the thesis, and each body paragraph starts with a topic sentence. Acknowledging and refuting a counter-argument strengthens the argument. The conclusion restates the thesis."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "본론의 각 단락은 무엇으로 시작해요?",
+      "options": [
+       "주제문",
+       "결론",
+       "질문"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "에세이를 읽었습니다."
+      },
+      {
+       "s": "B",
+       "t": "어땠나요?"
+      },
+      {
+       "s": "A",
+       "t": "논지는 분명하지만 반론이 없습니다."
+      },
+      {
+       "s": "B",
+       "t": "반론을 추가하고 반박하겠습니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Professor: I read your essay.\nStudent: What did you think?\nProfessor: The thesis is clear, but there's no counter-argument.\nStudent: I'll add one and refute it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "교수는 ______는 분명하지만 반론이 없다고 해요",
+      "answers": [
+       "논지"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "학생은 ______을 추가하고 반박하겠다고 해요",
+      "answers": [
+       "반론"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 서론에서 ___를 분명히 밝혀야 해요.\n2) 각 단락은 ___으로 시작해야 해요.\n3) 반론을 인정한 뒤 ___하는 것이 효과적이에요.",
+    "trans": {
+     "en": "1) You should state your thesis clearly in the introduction. 2) Each paragraph should begin with a topic sentence. 3) It is effective to acknowledge a counter-argument and then refute it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "서론에서 ___를 분명히 밝혀야 해요.",
+      "options": [
+       "논지",
+       "농담",
+       "인사"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "각 단락은 ___으로 시작해야 해요.",
+      "options": [
+       "주제문",
+       "질문",
+       "인용문"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "반론을 인정한 뒤 ___하는 것이 효과적이에요.",
+      "options": [
+       "반박",
+       "취소",
+       "생략"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "이 에세이는 도시의 자전거 도로 확대가 환경에 도움이 된다고 (1). 일부는 비용이 너무 크다고 반대합니다. (2) 장기적으로는 교통 정체와 오염이 줄어들어 이익이 생깁니다. (3) 도시는 계획을 추진해야 합니다.",
+    "trans": {
+     "en": "This essay argues that expanding urban cycle lanes benefits the environment. Some object that the cost is too high. In the long term, however, congestion and pollution fall, producing benefits that outweigh the cost. Therefore cities should go ahead with the plan."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "주장합니다",
+       "질문합니다",
+       "거절합니다"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "그러나",
+       "그리고",
+       "예를 들어"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "따라서",
+       "그러나",
+       "반면"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "학습 가이드\n논증 에세이\n좋은 논증 에세이는 분명한 논지로 시작한다. 본론에서는 근거로 논지를 뒷받침하고 반론을 소개한다. 반론은 반드시 반박되어야 한다. 결론은 논지로 돌아가 핵심을 정리한다.",
+    "trans": {
+     "en": "STUDY GUIDE\nArgument essays\nA good argument essay starts with a clear thesis. The body supports the thesis with evidence and introduces counter-arguments. Counter-arguments must be refuted. The conclusion returns to the thesis and summarises key points."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "좋은 논증 에세이는 무엇으로 시작해요?",
+      "options": [
+       "분명한 논지",
+       "긴 인용",
+       "농담"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "반론은 어떻게 해야 해요?",
+      "options": [
+       "반드시 반박해야 해요",
+       "소개하지 않아야 해요",
+       "무시해야 해요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "논증 에세이는 분명한 논지로 시작한다. 반론은 소개하지 않아도 된다. 결론은 핵심을 정리한다.",
+    "trans": {
+     "en": "An argument essay starts with a clear thesis. Counter-arguments need not be introduced. The conclusion summarises the key points."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "논증 에세이는 분명한 논지로 시작한다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "반론은 소개하지 않아도 된다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "결론은 핵심을 정리한다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "이 에세이의 논지는 재택근무가 생산성을 높인다는 것입니다.",
+    "read": "i eseiui nonjineun jaetaekgeunmuga saengsanseongeul nopindaneun geosimnida.",
+    "en": "The thesis of this essay is that remote working boosts productivity.",
+    "situation": {
+     "ko": "논지를 소개할 때",
+     "en": "Introducing the thesis"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "첫째 단락은 비용 절감에 초점을 맞춥니다.",
+    "read": "cheotjjae dallageun biyong jeolgame chojeomeul matchumnida.",
+    "en": "The first paragraph focuses on cost savings.",
+    "situation": {
+     "ko": "단락 구조를 안내할 때",
+     "en": "Signposting"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "일부는 팀워크가 약해진다고 주장합니다.",
+    "read": "ilbuneun timwokeuga yakaejindago jujanghamnida.",
+    "en": "Some argue that teamwork is weakened.",
+    "situation": {
+     "ko": "반론을 소개할 때",
+     "en": "Introducing a counter-argument"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "그러나 이 주장은 최근 연구에 의해 반박됩니다.",
+    "read": "geureona i jujangeun choegeun yeongue uihae banbakdoemnida.",
+    "en": "However, this claim is refuted by recent research.",
+    "situation": {
+     "ko": "반박할 때",
+     "en": "Refuting"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "이를 뒷받침하는 근거로 두 가지 연구를 들 수 있습니다.",
+    "read": "ireul dwitbatchimhaneun geungeoro du gaji yeongureul deul su itseumnida.",
+    "en": "Two studies can be cited in support of this.",
+    "situation": {
+     "ko": "근거를 제시할 때",
+     "en": "Providing evidence"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "이 논리에는 모순이 있습니다.",
+    "read": "i nollieneun mosuni itseumnida.",
+    "en": "There is a contradiction in this logic.",
+    "situation": {
+     "ko": "논리를 비판할 때",
+     "en": "Criticising logic"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "종합하면 재택근무의 이점이 단점을 상회합니다.",
+    "read": "jonghapamyeon jaetaekgeunmuui ijeomi danjeomeul sanghoehamnida.",
+    "en": "In sum, the benefits of remote working outweigh the drawbacks.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "따라서 기업은 유연한 근무 제도를 도입해야 합니다.",
+    "read": "ttaraseo gieobeun yuyeonhan geunmu jedoreul doipaeya hamnida.",
+    "en": "Therefore, companies should introduce flexible working arrangements.",
+    "situation": {
+     "ko": "제안으로 마무리할 때",
+     "en": "Ending with a recommendation"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "이 에세이는 ~라고 주장한다.",
+    "read": "i eseineun ~rago jujanghanda.",
+    "en": "This essay argues that ..."
+   },
+   {
+    "id": "w2",
+    "t": "일부는 ~라고 주장하지만 ~",
+    "read": "ilbuneun ~rago jujanghajiman ~",
+    "en": "Some claim that ..., but ..."
+   },
+   {
+    "id": "w3",
+    "t": "이를 뒷받침하는 근거는 ~이다.",
+    "read": "ireul dwitbatchimhaneun geungeoneun ~ida.",
+    "en": "This is supported by ..."
+   },
+   {
+    "id": "w4",
+    "t": "종합하면 ~이다.",
+    "read": "jonghapamyeon ~ida.",
+    "en": "In sum / On balance, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "논지·반론·반박·결론이 모두 들어간 4문장의 논증 에세이 요약을 써 보세요.",
+    "en": "Write a four-sentence summary of an argument essay that includes thesis, counter-argument, refutation and conclusion."
+   },
+   "must_include": [
+    {
+     "label": "~라고 주장하다",
+     "match": [
+      "주장합니다"
+     ]
+    },
+    {
+     "label": "반박",
+     "match": [
+      "그러나"
+     ]
+    },
+    {
+     "label": "종합하면",
+     "match": [
+      "종합하면"
+     ]
+    }
+   ],
+   "model": "이 에세이는 재택근무가 생산성을 높인다고 주장합니다. 일부는 팀워크가 약해진다고 주장합니다. 그러나 최근 연구는 온라인 협업 도구가 이 문제를 줄인다는 것을 보여 줍니다. 종합하면 기업은 유연한 근무 제도를 도입해야 합니다.",
+   "model_trans": {
+    "ko": "이 에세이는 재택근무가 생산성을 높인다고 주장합니다. 일부는 팀워크가 약해진다고 주장합니다. 그러나 최근 연구는 온라인 협업 도구가 이 문제를 줄인다는 것을 보여 줍니다. 종합하면 기업은 유연한 근무 제도를 도입해야 합니다.",
+    "en": "This essay argues that remote working boosts productivity. Some claim that teamwork is weakened. However, recent studies show that online collaboration tools reduce this problem. In sum, companies should introduce flexible working arrangements."
+   }
+  }
+ }
+}

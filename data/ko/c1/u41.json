@@ -1,0 +1,787 @@
+{
+ "meta": {
+  "id": "ko_c1_u41",
+  "lang": "ko",
+  "family": "asia",
+  "level": "c1",
+  "unit": 41,
+  "concept": "C1.U41",
+  "status": "live",
+  "title": {
+   "target": "과학 윤리와 인공지능",
+   "ko": "과학 윤리와 인공지능",
+   "en": "Science ethics and AI"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "윤리적",
+   "pos": "adj",
+   "read": "yullijeok",
+   "en": "ethical",
+   "ex": {
+    "t": "이 실험은 윤리적 문제가 있어요.",
+    "read": "i silheomeun yullijeok munjega isseoyo.",
+    "en": "This experiment raises ethical issues."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "편향",
+   "pos": "noun",
+   "read": "pyeonhyang",
+   "en": "bias",
+   "ex": {
+    "t": "알고리즘에는 편향이 있을 수 있어요.",
+    "read": "algorijeumeneun pyeonhyangi isseul su isseoyo.",
+    "en": "Algorithms can contain bias."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "사전 동의",
+   "pos": "noun",
+   "read": "sajeon dongui",
+   "en": "informed consent",
+   "ex": {
+    "t": "참가자의 사전 동의가 필요해요.",
+    "read": "chamgajaui sajeon donguiga piryohaeyo.",
+    "en": "Participants' informed consent is required."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "규제하다",
+   "pos": "verb",
+   "read": "gyujehada",
+   "en": "regulate",
+   "ex": {
+    "t": "정부는 인공지능을 규제하려 해요.",
+    "read": "jeongbuneun ingongjineungeul gyujeharyeo haeyo.",
+    "en": "The government wants to regulate AI."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "투명성",
+   "pos": "noun",
+   "read": "tumyeongseong",
+   "en": "transparency",
+   "ex": {
+    "t": "알고리즘의 투명성이 중요해요.",
+    "read": "algorijeumui tumyeongseongi jungyohaeyo.",
+    "en": "Algorithmic transparency matters."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "개인정보",
+   "pos": "noun",
+   "read": "gaeinjeongbo",
+   "en": "personal data",
+   "ex": {
+    "t": "개인정보를 보호해야 해요.",
+    "read": "gaeinjeongboreul bohohaeya haeyo.",
+    "en": "Personal data must be protected."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "책임",
+   "pos": "noun",
+   "read": "chaegim",
+   "en": "accountability",
+   "ex": {
+    "t": "AI의 결정에 대한 책임이 필요해요.",
+    "read": "AIui gyeoljeonge daehan chaegimi piryohaeyo.",
+    "en": "Accountability is needed for AI decisions."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "감시",
+   "pos": "noun",
+   "read": "gamsi",
+   "en": "surveillance",
+   "ex": {
+    "t": "대규모 감시가 우려돼요.",
+    "read": "daegyumo gamsiga uryeodwaeyo.",
+    "en": "Mass surveillance is a concern."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "자동화",
+   "pos": "noun",
+   "read": "jadonghwa",
+   "en": "automation",
+   "ex": {
+    "t": "자동화가 일자리를 바꿔요.",
+    "read": "jadonghwaga iljarireul bakkwoyo.",
+    "en": "Automation is changing jobs."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "신중한",
+   "pos": "adj",
+   "read": "sinjunghan",
+   "en": "cautious",
+   "ex": {
+    "t": "신중한 접근이 필요해요.",
+    "read": "sinjunghan jeopgeuni piryohaeyo.",
+    "en": "A cautious approach is needed."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "-에 대한 우려를 낳다, -을/를 규제하다, 사전 동의, -ㄹ 수 있다",
+   "en": "-에 대한 우려를 낳다, -을/를 규제하다, 사전 동의, -ㄹ 수 있다 (science ethics and AI)"
+  },
+  "explain": {
+   "ko": "과학 윤리 기사에서는 우려와 원칙을 객관적으로 말합니다. 문제 제기는 '윤리적 우려를 낳고 있다', 한계는 '알고리즘에 편향이 있을 수 있다', 원칙은 '참가자의 사전 동의가 필요하다'로 씁니다. 정부의 대응은 '인공지능을 규제하려고 한다', 균형은 '혁신과 안전 사이에서 신중한 균형이 필요하다'로 나타냅니다. 투명성과 책임은 늘 함께 언급됩니다.",
+   "en": "Science-ethics reports state concerns and principles objectively. Raising an issue: '윤리적 우려를 낳고 있다'; a limitation: '알고리즘에 편향이 있을 수 있다'; a principle: '참가자의 사전 동의가 필요하다'. Government response: '인공지능을 규제하려고 한다'; balance: '혁신과 안전 사이에서 신중한 균형이 필요하다'. Transparency and accountability are usually mentioned together."
+  },
+  "table": {
+   "head": [
+    "기능 / Function",
+    "표현 / Expression",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "우려 / Concern",
+     "-에 대한 우려를 낳다",
+     "윤리적 우려를 낳고 있다."
+    ],
+    [
+     "한계 / Limit",
+     "-이 있을 수 있다",
+     "편향이 있을 수 있다."
+    ],
+    [
+     "원칙 / Principle",
+     "-이 필요하다",
+     "사전 동의가 필요하다."
+    ],
+    [
+     "대응 / Response",
+     "-을 규제하다",
+     "인공지능을 규제하려 한다."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'-ㄹ 수 있다'로 가능성을 신중하게 말합니다.",
+    "en": "'-ㄹ 수 있다' states possibility with care."
+   },
+   {
+    "ko": "개인정보 보호는 연구 윤리의 기본입니다.",
+    "en": "Privacy is basic to research ethics."
+   },
+   {
+    "ko": "규제와 혁신의 균형을 함께 고려합니다.",
+    "en": "Weigh regulation and innovation together."
+   }
+  ],
+  "examples": [
+   {
+    "t": "이 기술은 윤리적 우려를 낳고 있어요.",
+    "read": "i gisureun yullijeok uryeoreul nako isseoyo.",
+    "en": "This technology is raising ethical concerns."
+   },
+   {
+    "t": "알고리즘에 편향이 있을 수 있어요.",
+    "read": "algorijeume pyeonhyangi isseul su isseoyo.",
+    "en": "Algorithms may contain bias."
+   },
+   {
+    "t": "참가자의 사전 동의가 필요해요.",
+    "read": "chamgajaui sajeon donguiga piryohaeyo.",
+    "en": "Informed consent from participants is required."
+   },
+   {
+    "t": "정부는 인공지능을 규제하려고 해요.",
+    "read": "jeongbuneun ingongjineungeul gyujeharyeogo haeyo.",
+    "en": "The government intends to regulate artificial intelligence."
+   },
+   {
+    "t": "신중한 접근이 필요해요.",
+    "read": "sinjunghan jeopgeuni piryohaeyo.",
+    "en": "A cautious approach is needed."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "이 기술은 윤리적 ___를 낳고 있어요.",
+    "options": [
+     "우려",
+     "우승",
+     "우유"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "알고리즘에 ___이 있을 수 있어요.",
+    "options": [
+     "편향",
+     "편의",
+     "편지"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "참가자의 사전 ___가 필요해요.",
+    "options": [
+     "동의",
+     "동물",
+     "동전"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "정부는 인공지능을 ___하려고 해요.",
+    "options": [
+     "규제",
+     "응원",
+     "축하"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "인공지능에 대해 어떤 우려가 있나요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What concerns are there about AI?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "개인정보와 편향에 대한 우려가 있어요.",
+       "아무 우려가 없어요.",
+       "기술이 없어요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "연구에서 가장 중요한 윤리 원칙은 무엇인가요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What is the most important ethical principle in research?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "참가자의 사전 동의예요.",
+       "연구비 절약이에요.",
+       "빠른 발표예요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "AI 채용 시스템에 편향이 있다는 기사 읽었어?"
+      },
+      {
+       "s": "B",
+       "t": "응, 학습 데이터 때문이래."
+      },
+      {
+       "s": "A",
+       "t": "규제가 필요하지 않을까?"
+      },
+      {
+       "s": "B",
+       "t": "투명성과 책임을 높이는 법이 필요해."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: Did you read the article about bias in AI hiring systems?\nB: Yes, it's due to the training data.\nA: Shouldn't it be regulated?\nB: We need laws that improve transparency and accountability."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "AI 채용 시스템에 편향이 생긴 이유는 무엇이에요?",
+      "options": [
+       "학습 데이터 때문에",
+       "직원의 실수 때문에",
+       "예산 부족 때문에"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "과학 윤리에서는 사전 동의가 가장 기본적인 원칙입니다. 연구자는 참가자에게 목적과 위험을 충분히 알리고 동의를 받아야 합니다. 또한 개인정보는 철저히 보호되어야 합니다. 이를 어기면 연구는 윤리적으로 인정받을 수 없습니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "In science ethics, informed consent is the most basic principle. Researchers must fully tell participants the aims and risks and obtain consent. Personal data must also be protected rigorously. A study that breaks this cannot be ethically approved."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "연구자는 참가자에게 무엇을 알려야 해요?",
+      "options": [
+       "목적과 위험",
+       "연구비",
+       "연구자의 나이"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "인공지능 규제에 대해 어떻게 생각하세요?"
+      },
+      {
+       "s": "B",
+       "t": "규제는 필요하지만 혁신을 막아서는 안 됩니다."
+      },
+      {
+       "s": "A",
+       "t": "어떻게 균형을 맞출 수 있을까요?"
+      },
+      {
+       "s": "B",
+       "t": "투명성과 책임을 중심으로 접근해야 합니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Reporter: What do you think of regulating AI?\nExpert: Regulation is needed but must not stifle innovation.\nReporter: How can the balance be struck?\nExpert: The approach should centre on transparency and accountability."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "전문가는 ______는 필요하지만 혁신을 막아서는 안 된다고 해요",
+      "answers": [
+       "규제"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______과 책임을 중심으로 접근해야 한다고 해요",
+      "answers": [
+       "투명성"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 이 기술은 윤리적 ___를 낳고 있어요.\n2) 알고리즘에 ___이 있을 수 있어요.\n3) 참가자의 사전 ___가 필요해요.",
+    "trans": {
+     "en": "1) This technology is raising ethical concerns. 2) Algorithms may contain bias. 3) Informed consent from participants is required."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "이 기술은 윤리적 ___를 낳고 있어요.",
+      "options": [
+       "우려",
+       "우승",
+       "우유"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "알고리즘에 ___이 있을 수 있어요.",
+      "options": [
+       "편향",
+       "편의",
+       "편지"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "참가자의 사전 ___가 필요해요.",
+      "options": [
+       "동의",
+       "동물",
+       "동전"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "자율 주행 자동차는 사고 시 누가 책임을 져야 하는지에 대한 (1) 질문을 던집니다. 제조사, 소유자, 소프트웨어 개발자 중 누구에게 책임이 있는지 법적으로 아직 (2) 않습니다. 이 문제를 해결하려면 명확한 (3)가 필요합니다.",
+    "trans": {
+     "en": "Self-driving cars raise ethical questions about who should be responsible in an accident. It is not yet legally clear whether the manufacturer, owner or software developer is liable. Clear regulation is needed to resolve this."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "윤리적",
+       "경제적",
+       "미적"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "명확하지",
+       "명확하게",
+       "명확한"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "규제",
+       "응원",
+       "휴가"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "기사\n유전자 편집 논란\n과학자들은 유전 질환을 치료할 수 있는 유전자 편집 기술을 개발했다. 그러나 이 기술을 사람에게 적용하는 것은 윤리적 논란을 낳고 있다. 많은 전문가는 엄격한 규제와 국제적 합의가 필요하다고 주장한다.",
+    "trans": {
+     "en": "ARTICLE\nGene-editing controversy\nScientists have developed gene-editing technology that could treat genetic diseases. However, applying it to humans is provoking ethical controversy. Many experts argue that strict regulation and international agreement are needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "과학자들이 개발한 것은 무엇이에요?",
+      "options": [
+       "유전자 편집 기술",
+       "새 로봇",
+       "백신"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "전문가들은 무엇이 필요하다고 주장해요?",
+      "options": [
+       "엄격한 규제와 국제적 합의",
+       "자유로운 사용",
+       "연구 중단"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "과학자들은 유전자 편집 기술을 개발했다. 이 기술은 이미 사람에게 널리 쓰이고 있다. 전문가들은 엄격한 규제를 요구한다.",
+    "trans": {
+     "en": "Scientists have developed gene-editing technology. The technology is already widely used on humans. Experts call for strict regulation."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "과학자들은 유전자 편집 기술을 개발했다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "이 기술은 이미 사람에게 널리 쓰이고 있다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "전문가들은 엄격한 규제를 요구한다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "이 기술은 심각한 윤리적 우려를 낳고 있습니다.",
+    "read": "i gisureun simgakan yullijeok uryeoreul nako itseumnida.",
+    "en": "This technology is raising serious ethical concerns.",
+    "situation": {
+     "ko": "우려를 제기할 때",
+     "en": "Raising concerns"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "알고리즘에 편향이 있을 수 있다는 점을 인정해야 합니다.",
+    "read": "algorijeume pyeonhyangi isseul su itdaneun jeomeul injeonghaeya hamnida.",
+    "en": "We must acknowledge that algorithms may contain bias.",
+    "situation": {
+     "ko": "문제를 인정할 때",
+     "en": "Acknowledging a problem"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "연구에는 참가자의 사전 동의가 필수입니다.",
+    "read": "yeongueneun chamgajaui sajeon donguiga pilsuimnida.",
+    "en": "Informed consent from participants is essential for research.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "정부는 인공지능을 규제하는 법을 준비하고 있습니다.",
+    "read": "jeongbuneun ingongjineungeul gyujehaneun beobeul junbihago itseumnida.",
+    "en": "The government is preparing legislation to regulate AI.",
+    "situation": {
+     "ko": "정책을 보도할 때",
+     "en": "Reporting a policy"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "개인정보는 철저히 보호되어야 합니다.",
+    "read": "gaeinjeongboneun cheoljeohi bohodoeeoya hamnida.",
+    "en": "Personal data must be protected rigorously.",
+    "situation": {
+     "ko": "요구를 말할 때",
+     "en": "Stating a demand"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "AI의 결정에 대한 책임이 분명해야 합니다.",
+    "read": "AIui gyeoljeonge daehan chaegimi bunmyeonghaeya hamnida.",
+    "en": "Responsibility for AI decisions must be clear.",
+    "situation": {
+     "ko": "책임을 말할 때",
+     "en": "Stating accountability"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "자동화는 일자리를 위협하는 동시에 새로운 일자리를 만듭니다.",
+    "read": "jadonghwaneun iljarireul wihyeopaneun dongsie saeroun iljarireul mandeumnida.",
+    "en": "Automation threatens some jobs while creating others.",
+    "situation": {
+     "ko": "양면을 말할 때",
+     "en": "Showing both sides"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "혁신과 안전 사이의 균형이 중요합니다.",
+    "read": "hyeoksingwa anjeon saiui gyunhyeongi jungyohamnida.",
+    "en": "Balance between innovation and safety is key.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~에 대한 우려를 제기하다.",
+    "read": "~e daehan uryeoreul jegihada.",
+    "en": "raise ethical concerns about ..."
+   },
+   {
+    "id": "w2",
+    "t": "~을 규제하다.",
+    "read": "~eul gyujehada.",
+    "en": "regulate ..."
+   },
+   {
+    "id": "w3",
+    "t": "~의 사전 동의.",
+    "read": "~ui sajeon dongui.",
+    "en": "informed consent from ..."
+   },
+   {
+    "id": "w4",
+    "t": "~ 사이의 균형.",
+    "read": "~ saiui gyunhyeong.",
+    "en": "balance between ... and ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "인공지능이나 과학 연구의 윤리 문제를 우려·원인·해결책·결론 순으로 4문장으로 써 보세요.",
+    "en": "Write four sentences on an ethical issue in AI or science: concern, cause, solution, conclusion."
+   },
+   "must_include": [
+    {
+     "label": "윤리적 우려",
+     "match": [
+      "윤리적 우려"
+     ]
+    },
+    {
+     "label": "투명성",
+     "match": [
+      "투명성을 높이고"
+     ]
+    },
+    {
+     "label": "균형",
+     "match": [
+      "신중한 균형"
+     ]
+    }
+   ],
+   "model": "인공지능의 확산은 개인정보와 편향에 대한 윤리적 우려를 낳고 있습니다. 이는 학습 데이터에 이미 편향이 포함되어 있기 때문입니다. 정부는 투명성을 높이고 책임을 분명히 하는 법을 마련해야 합니다. 혁신과 안전 사이에서 신중한 균형이 필요합니다.",
+   "model_trans": {
+    "ko": "인공지능의 확산은 개인정보와 편향에 대한 윤리적 우려를 낳고 있습니다. 이는 학습 데이터에 이미 편향이 포함되어 있기 때문입니다. 정부는 투명성을 높이고 책임을 분명히 하는 법을 마련해야 합니다. 혁신과 안전 사이에서 신중한 균형이 필요합니다.",
+    "en": "The spread of artificial intelligence is raising ethical concerns about privacy and bias. This is because the training data already contain bias. Governments should introduce laws that increase transparency and clarify accountability. A careful balance between innovation and safety is needed."
+   }
+  }
+ }
+}

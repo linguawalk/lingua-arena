@@ -1,0 +1,787 @@
+{
+ "meta": {
+  "id": "ko_c1_u09",
+  "lang": "ko",
+  "family": "asia",
+  "level": "c1",
+  "unit": 9,
+  "concept": "C1.U09",
+  "status": "live",
+  "title": {
+   "target": "압축 표현과 조건·시간 구문",
+   "ko": "독립 분사구문과 간결한 문장",
+   "en": "Absolute and reduced clauses"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "날씨가 허락한다면",
+   "pos": "phrase",
+   "read": "nalssiga heorakandamyeon",
+   "en": "weather permitting",
+   "ex": {
+    "t": "날씨가 허락한다면 내일 출발해요.",
+    "read": "nalssiga heorakandamyeon naeil chulbalhaeyo.",
+    "en": "Weather permitting, we leave tomorrow."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "모든 것을 고려하면",
+   "pos": "phrase",
+   "read": "modeun geoseul goryeohamyeon",
+   "en": "all things considered",
+   "ex": {
+    "t": "모든 것을 고려하면 좋은 결과예요.",
+    "read": "modeun geoseul goryeohamyeon joeun gyeolgwayeyo.",
+    "en": "All things considered, it's a good result."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "완료하다",
+   "pos": "verb",
+   "read": "wallyohada",
+   "en": "complete",
+   "ex": {
+    "t": "일을 끝낸 뒤 우리는 집으로 갔어요.",
+    "read": "ireul kkeunnaen dwi urineun jibeuro gasseoyo.",
+    "en": "The work completed, we went home."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "끝없이",
+   "pos": "adv",
+   "read": "kkeuteopsi",
+   "en": "endlessly",
+   "ex": {
+    "t": "그들은 끝없이 논쟁을 벌였어요.",
+    "read": "geudeureun kkeuteopsi nonjaengeul beoryeosseoyo.",
+    "en": "They argued endlessly."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "대조적으로",
+   "pos": "phrase",
+   "read": "daejojeogeuro",
+   "en": "by contrast",
+   "ex": {
+    "t": "대조적으로 B는 훨씬 나아요.",
+    "read": "daejojeogeuro Bneun hwolssin naayo.",
+    "en": "By contrast, B is much better."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "종합하면",
+   "pos": "phrase",
+   "read": "jonghapamyeon",
+   "en": "all in all",
+   "ex": {
+    "t": "종합하면 성공적인 행사였어요.",
+    "read": "jonghapamyeon seonggongjeogin haengsayeosseoyo.",
+    "en": "All in all, it was a successful event."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "긴장된",
+   "pos": "adj",
+   "read": "ginjangdoen",
+   "en": "tense",
+   "ex": {
+    "t": "분위기가 긴장되어 있었어요.",
+    "read": "bunwigiga ginjangdoeeo isseosseoyo.",
+    "en": "The atmosphere was tense."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "방해받다",
+   "pos": "verb",
+   "read": "banghaebatda",
+   "en": "be interrupted",
+   "ex": {
+    "t": "회의가 도중에 중단되었어요.",
+    "read": "hoeuiga dojunge jungdandoeeosseoyo.",
+    "en": "The meeting was interrupted midway."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "가능하다면",
+   "pos": "phrase",
+   "read": "ganeunghadamyeon",
+   "en": "if possible",
+   "ex": {
+    "t": "가능하면 일찍 오세요.",
+    "read": "ganeunghamyeon iljjik oseyo.",
+    "en": "Come early if possible."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "압축하다",
+   "pos": "verb",
+   "read": "apchukada",
+   "en": "condense",
+   "ex": {
+    "t": "긴 글을 짧게 압축했어요.",
+    "read": "gin geureul jjalge apchukaesseoyo.",
+    "en": "I condensed the long text."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "-(으)ㄴ다면, -(으)ㄴ 뒤(에), -(으)ㄴ 채(로), 모든 것을 고려하면",
+   "en": "-(으)ㄴ다면, -(으)ㄴ 뒤(에), -(으)ㄴ 채(로), 모든 것을 고려하면 (condensed clauses)"
+  },
+  "explain": {
+   "ko": "문장을 간결하게 압축하는 표현을 익힙니다. 조건은 '날씨가 허락한다면'처럼 '-(으)ㄴ다면'으로, 순서는 '일을 마치고'·'도착한 뒤에'처럼 '-고'·'-(으)ㄴ 뒤(에)'로 나타냅니다. 상태가 유지되는 동안의 동작은 '-(으)ㄴ 채(로)'로 말합니다: '다리를 꼰 채 신문을 읽었어요.' 이유는 '-아/어서'·'-(으)므로'로 줄입니다: '문이 잠겨 있어서 들어갈 수 없었어요.' 평가를 모을 때는 '모든 것을 고려하면'을 씁니다.",
+   "en": "Learn expressions that condense a sentence. A condition is '-(으)ㄴ다면', as in '날씨가 허락한다면'; sequence is '-고' or '-(으)ㄴ 뒤(에)', as in '일을 마치고' or '도착한 뒤에'. An action done while a state continues is '-(으)ㄴ 채(로)': '다리를 꼰 채 신문을 읽었어요.' Reasons are shortened with '-아/어서' or '-(으)므로': '문이 잠겨 있어서 들어갈 수 없었어요.' To sum up an assessment use '모든 것을 고려하면'."
+  },
+  "table": {
+   "head": [
+    "용도 / Use",
+    "형태 / Form",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "조건 / Condition",
+     "-(으)ㄴ다면",
+     "날씨가 허락한다면 갈 거예요."
+    ],
+    [
+     "순서 / Sequence",
+     "-고, -(으)ㄴ 뒤(에)",
+     "일을 마치고 돌아갔어요."
+    ],
+    [
+     "상태 유지 / While in state",
+     "-(으)ㄴ 채(로)",
+     "다리를 꼰 채 읽었어요."
+    ],
+    [
+     "종합 / Overall",
+     "모든 것을 고려하면",
+     "모든 것을 고려하면 좋아요."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'-(으)ㄴ 채'는 앞 상태가 끝나지 않은 채 뒤 동작이 이어질 때 씁니다.",
+    "en": "'-(으)ㄴ 채' is used when the earlier state continues during the later action."
+   },
+   {
+    "ko": "'-(으)므로'는 격식 있는 글에서 이유를 나타냅니다.",
+    "en": "'-(으)므로' gives a reason in formal writing."
+   },
+   {
+    "ko": "압축한 표현은 문장을 짧고 객관적으로 만듭니다.",
+    "en": "Condensed forms make sentences short and objective."
+   }
+  ],
+  "examples": [
+   {
+    "t": "날씨가 허락한다면 내일 소풍을 갈 거예요.",
+    "read": "nalssiga heorakandamyeon naeil sopungeul gal geoyeyo.",
+    "en": "Weather permitting, we will go on a picnic tomorrow."
+   },
+   {
+    "t": "일을 마치고 우리는 집으로 돌아갔어요.",
+    "read": "ireul machigo urineun jibeuro doragasseoyo.",
+    "en": "The work done, we went home."
+   },
+   {
+    "t": "모든 것을 고려하면 이번 결과는 꽤 좋아요.",
+    "read": "modeun geoseul goryeohamyeon ibeon gyeolgwaneun kkwae joayo.",
+    "en": "All things considered, this result is quite good."
+   },
+   {
+    "t": "다리를 꼰 채 그는 신문을 읽었어요.",
+    "read": "darireul kkon chae geuneun sinmuneul ilgeosseoyo.",
+    "en": "His legs crossed, he read the newspaper."
+   },
+   {
+    "t": "문이 잠겨 있어서 우리는 들어갈 수 없었어요.",
+    "read": "muni jamgyeo isseoseo urineun deureogal su eopseosseoyo.",
+    "en": "The door being locked, we couldn't get in."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "날씨가 ___ 내일 소풍을 갈 거예요.",
+    "options": [
+     "허락한다면",
+     "허락해서",
+     "허락하고"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "일을 ___ 우리는 집으로 돌아갔어요.",
+    "options": [
+     "마치고",
+     "마치면",
+     "마칠까"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "다리를 꼰 ___ 그는 신문을 읽었어요.",
+    "options": [
+     "채",
+     "때",
+     "후"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "모든 것을 ___ 결과는 꽤 좋아요.",
+    "options": [
+     "고려하면",
+     "고려해서",
+     "고려하는"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "내일 소풍은 어떻게 될까요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What will happen with tomorrow's picnic?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "날씨가 허락하면 갈 거예요.",
+       "벌써 다녀왔어요.",
+       "가지 않을 거예요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이 결정에 대해 어떻게 생각해요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What do you think of the decision?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "모든 것을 고려하면 좋은 결정이에요.",
+       "전혀 모르겠어요.",
+       "내일 알려 줄게요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "내일 야외 행사는 예정대로 진행하나요?"
+      },
+      {
+       "s": "B",
+       "t": "날씨가 허락하면요. 비가 오면 실내로 옮길 거예요."
+      },
+      {
+       "s": "A",
+       "t": "준비가 모두 끝나면 몇 시에 시작해요?"
+      },
+      {
+       "s": "B",
+       "t": "열 시에 시작할 거예요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: Is tomorrow's outdoor event going ahead?\nB: Weather permitting. If it rains, we'll move indoors.\nA: The preparations done, what time will it start?\nB: At ten."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "행사는 몇 시에 시작해요?",
+      "options": [
+       "열 시",
+       "아홉 시",
+       "열한 시"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "회의가 막 끝났습니다. 모든 것을 고려하면 이번 회의는 성공적이었습니다. 다음 단계가 정해졌고 일정도 확정되었습니다. 필요하다면 다음 주에 한 번 더 모이겠습니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "The meeting has just finished. All things considered, it was a success. The next steps decided, and the schedule confirmed. If necessary, we will meet once more next week."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "이번 회의는 어땠어요?",
+      "options": [
+       "성공적이었어요",
+       "실패했어요",
+       "취소되었어요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "박물관 투어입니다."
+      },
+      {
+       "s": "B",
+       "t": "날씨가 나빠지면 어떻게 되나요?"
+      },
+      {
+       "s": "A",
+       "t": "날씨가 허락하지 않으면 실내 전시로 바꿉니다."
+      },
+      {
+       "s": "B",
+       "t": "알겠습니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Guide: This is the museum tour.\nTourist: What happens if the weather turns bad?\nGuide: Weather not permitting, we switch to the indoor exhibition.\nTourist: I see."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "날씨가 ______ 않으면 실내 전시로 바꿔요",
+      "answers": [
+       "허락하지"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "날씨가 나쁘면 ______ 전시로 바꿔요",
+      "answers": [
+       "실내"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 날씨가 ___ 내일 소풍을 갈 거예요.\n2) 일을 ___ 우리는 집으로 돌아갔어요.\n3) 모든 것을 ___ 결과는 꽤 좋아요.",
+    "trans": {
+     "en": "1) Weather permitting, we will go on a picnic tomorrow. 2) The work done, we went home. 3) All things considered, the result is quite good."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "날씨가 ___ 내일 소풍을 갈 거예요.",
+      "options": [
+       "허락한다면",
+       "허락해서",
+       "허락하고"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "일을 ___ 우리는 집으로 돌아갔어요.",
+      "options": [
+       "마치고",
+       "마치면",
+       "마칠까"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "모든 것을 ___ 결과는 꽤 좋아요.",
+      "options": [
+       "고려하면",
+       "고려해서",
+       "고려하는"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "행사 안내입니다. 날씨가 (1) 행사는 공원에서 열립니다. 모든 참가자가 도착한 (2) 개막식이 시작됩니다. 시간이 한정되어 있(3) 연설은 짧게 진행됩니다.",
+    "trans": {
+     "en": "Event notice. Weather permitting, the event will be held in the park. All participants having arrived, the opening ceremony will begin. Time being limited, the speeches will be brief."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "허락한다면",
+       "허락해서",
+       "허락하고"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "후에",
+       "전에",
+       "동안"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "으므로",
+       "지만",
+       "는데도"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "블로그\n여행 후기\n비행기가 연착되어 우리는 한밤중에 도착했다. 짐을 찾은 뒤 호텔로 이동했고, 프런트가 문을 닫은 상태여서 한참을 기다렸다. 모든 것을 고려하면 그래도 즐거운 여행이었다.",
+    "trans": {
+     "en": "BLOG\nTravel review\nThe flight delayed, we arrived in the middle of the night. Our luggage collected, we headed to the hotel, and the reception being closed, we waited for a long time. All things considered, it was still an enjoyable trip."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "글쓴이는 언제 도착했어요?",
+      "options": [
+       "한밤중에",
+       "아침에",
+       "점심때"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "호텔 프런트는 어떤 상태였어요?",
+      "options": [
+       "문을 닫은 상태였어요",
+       "손님으로 붐볐어요",
+       "새로 열었어요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "글쓴이의 비행기는 연착되었다. 호텔 프런트는 열려 있었다. 글쓴이는 그래도 여행이 즐거웠다고 말한다.",
+    "trans": {
+     "en": "The writer's flight was delayed. The hotel reception was open. The writer says the trip was still enjoyable."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "글쓴이의 비행기는 연착되었다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "호텔 프런트는 열려 있었다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "글쓴이는 그래도 여행이 즐거웠다고 말한다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "날씨가 허락한다면 행사는 야외에서 열릴 거예요.",
+    "read": "nalssiga heorakandamyeon haengsaneun yaoeeseo yeollil geoyeyo.",
+    "en": "Weather permitting, the event will be held outdoors.",
+    "situation": {
+     "ko": "조건을 간결하게 말할 때",
+     "en": "Stating a condition concisely"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "모든 것을 고려하면 이번 결정은 현명했어요.",
+    "read": "modeun geoseul goryeohamyeon ibeon gyeoljeongeun hyeonmyeonghaesseoyo.",
+    "en": "All things considered, the decision was wise.",
+    "situation": {
+     "ko": "평가를 정리할 때",
+     "en": "Summing up an evaluation"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "회의가 끝나자 모두 자리를 떠났어요.",
+    "read": "hoeuiga kkeunnaja modu jarireul tteonasseoyo.",
+    "en": "The meeting over, everyone left.",
+    "situation": {
+     "ko": "연속된 상황을 말할 때",
+     "en": "Describing sequence"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "눈을 감은 채 그녀는 음악을 들었어요.",
+    "read": "nuneul gameun chae geunyeoneun eumageul deureosseoyo.",
+    "en": "Her eyes closed, she listened to the music.",
+    "situation": {
+     "ko": "동시에 일어나는 동작을 묘사할 때",
+     "en": "Describing a simultaneous state"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "시간이 부족해서 우리는 계획을 줄여야 했어요.",
+    "read": "sigani bujokaeseo urineun gyehoegeul juryeoya haesseoyo.",
+    "en": "Time being short, we had to reduce the plan.",
+    "situation": {
+     "ko": "이유를 간결하게 말할 때",
+     "en": "Giving a reason concisely"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "가능하다면 금요일까지 보내 주세요.",
+    "read": "ganeunghadamyeon geumyoilkkaji bonae juseyo.",
+    "en": "If possible, send it by Friday.",
+    "situation": {
+     "ko": "요청을 간결하게 할 때",
+     "en": "A concise request"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "그 일을 마친 뒤에 우리는 휴식을 취했어요.",
+    "read": "geu ireul machin dwie urineun hyusigeul chwihaesseoyo.",
+    "en": "Having finished the job, we took a rest.",
+    "situation": {
+     "ko": "완료 후의 행동을 말할 때",
+     "en": "Action after completion"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "종합하면 그 프로젝트는 성공적이었어요.",
+    "read": "jonghapamyeon geu peurojekteuneun seonggongjeogieosseoyo.",
+    "en": "All in all, the project was a success.",
+    "situation": {
+     "ko": "마무리 평가를 할 때",
+     "en": "A closing evaluation"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~가 허락한다면.",
+    "read": "~ga heorakandamyeon.",
+    "en": "Weather/Time permitting, ..."
+   },
+   {
+    "id": "w2",
+    "t": "~가 끝난 뒤.",
+    "read": "~ga kkeunnan dwi.",
+    "en": "The work done/over, ..."
+   },
+   {
+    "id": "w3",
+    "t": "~인 채로 ~했다.",
+    "read": "~in chaero ~haetda.",
+    "en": "Her eyes closed, she ..."
+   },
+   {
+    "id": "w4",
+    "t": "모든 것을 고려하면.",
+    "read": "modeun geoseul goryeohamyeon.",
+    "en": "All things considered, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "독립 분사구문을 사용해 하루의 일과나 계획을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about a day or a plan using absolute constructions."
+   },
+   "must_include": [
+    {
+     "label": "-(으)ㄴ다면",
+     "match": [
+      "허락한다면"
+     ]
+    },
+    {
+     "label": "-(으)면 (종료)",
+     "match": [
+      "끝나면"
+     ]
+    },
+    {
+     "label": "모든 것을 고려하면",
+     "match": [
+      "모든 것을 고려하면"
+     ]
+    }
+   ],
+   "model": "날씨가 허락한다면 우리는 내일 해변에 갈 것입니다. 준비가 끝나면 아침 일찍 출발할 것입니다. 점심시간이 짧아서 우리는 간단한 도시락을 준비할 것입니다. 모든 것을 고려하면 좋은 계획입니다.",
+   "model_trans": {
+    "ko": "날씨가 허락한다면 우리는 내일 해변에 갈 것입니다. 준비가 끝나면 아침 일찍 출발할 것입니다. 점심시간이 짧아서 우리는 간단한 도시락을 준비할 것입니다. 모든 것을 고려하면 좋은 계획입니다.",
+    "en": "Weather permitting, we will go to the beach tomorrow. The preparations finished, we will set off early in the morning. Lunchtime being short, we will pack a simple lunch. All things considered, it is a good plan."
+   }
+  }
+ }
+}
