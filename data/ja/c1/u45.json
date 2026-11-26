@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u45",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 45,
+  "concept": "C1.U45",
+  "status": "live",
+  "title": {
+   "target": "メディアと誤情報",
+   "ko": "미디어와 가짜 정보",
+   "en": "Media and misinformation"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "誤情報",
+   "pos": "noun",
+   "read": "ごじょうほう",
+   "ko": "가짜 정보",
+   "en": "misinformation",
+   "ex": {
+    "t": "誤情報は急速に広がります。",
+    "read": "ごじょうほうはきゅうそくにひろがります。",
+    "ko": "가짜 정보는 빠르게 퍼져요.",
+    "en": "Misinformation spreads quickly."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "事実確認する",
+   "pos": "verb",
+   "read": "じじつかくにんする",
+   "ko": "사실 확인하다",
+   "en": "fact-check",
+   "ex": {
+    "t": "記事を共有する前に事実確認しましょう。",
+    "read": "きじをきょうゆうするまえにじじつかくにんしましょう。",
+    "ko": "기사를 공유하기 전에 사실 확인을 하세요.",
+    "en": "Fact-check before sharing an article."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "否定する",
+   "pos": "verb",
+   "read": "ひていする",
+   "ko": "바로잡다",
+   "en": "debunk",
+   "ex": {
+    "t": "専門家はそのうわさを否定しました。",
+    "read": "せんもんかはそのうわさをひていしました。",
+    "ko": "전문가들은 그 소문을 바로잡았어요.",
+    "en": "Experts debunked the rumour."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "信頼できる情報源",
+   "pos": "noun",
+   "read": "しんらいできるじょうほうげん",
+   "ko": "신뢰할 수 있는 출처",
+   "en": "reliable source",
+   "ex": {
+    "t": "信頼できる情報源を確認しましょう。",
+    "read": "しんらいできるじょうほうげんをかくにんしましょう。",
+    "ko": "신뢰할 수 있는 출처를 확인하세요.",
+    "en": "Check for reliable sources."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "誤解を招く",
+   "pos": "adj",
+   "read": "ごかいをまねく",
+   "ko": "오해를 부르는",
+   "en": "misleading",
+   "ex": {
+    "t": "その見出しは誤解を招きます。",
+    "read": "そのみだしはごかいをまねきます。",
+    "ko": "그 제목은 오해를 불러일으켜요.",
+    "en": "The headline is misleading."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "扇情的な",
+   "pos": "adj",
+   "read": "せんじょうてきな",
+   "ko": "선동적인",
+   "en": "sensational",
+   "ex": {
+    "t": "その記事は扇情的です。",
+    "read": "そのきじはせんじょうてきです。",
+    "ko": "그 기사는 선동적이에요.",
+    "en": "The article is sensational."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "偏った",
+   "pos": "adj",
+   "read": "かたよった",
+   "ko": "편향된",
+   "en": "biased",
+   "ex": {
+    "t": "その報道は偏っています。",
+    "read": "そのほうどうはかたよっています。",
+    "ko": "그 보도는 편향되어 있어요.",
+    "en": "The coverage is biased."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "アルゴリズム",
+   "pos": "noun",
+   "read": "アルゴリズム",
+   "ko": "알고리즘",
+   "en": "algorithm",
+   "ex": {
+    "t": "アルゴリズムが表示される内容を決めます。",
+    "read": "アルゴリズムがひょうじされるないようをきめます。",
+    "ko": "알고리즘이 보여 주는 콘텐츠를 결정해요.",
+    "en": "Algorithms determine what you see."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "出典を示す",
+   "pos": "verb",
+   "read": "しゅってんをしめす",
+   "ko": "출처를 밝히다",
+   "en": "attribute",
+   "ex": {
+    "t": "引用には出典を示す必要があります。",
+    "read": "いんようにはしゅってんをしめすひつようがあります。",
+    "ko": "인용문은 출처를 밝혀야 해요.",
+    "en": "Quotes must be attributed."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "批判的に読む",
+   "pos": "phrase",
+   "read": "ひはんてきによむ",
+   "ko": "비판적으로 읽다",
+   "en": "read critically",
+   "ex": {
+    "t": "ニュースは批判的に読むべきです。",
+    "read": "ニュースはひはんてきによむべきです。",
+    "ko": "뉴스를 비판적으로 읽어야 해요.",
+    "en": "News should be read critically."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "事実確認する／〜の誤解を招く／〜は信頼できる情報源だ／批判的に読む",
+   "en": "Media: 事実確認する / 誤解を招く / 信頼できる情報源 / 批判的に読む"
+  },
+  "explain": {
+   "ko": "メディアリテラシーとは、情報を批判的に読み、評価する力です。記事を共有する前に「事実確認する」、見出しが「誤解を招く」かを疑い、「信頼できる情報源」かを確かめます。専門家は誤ったうわさを「否定する」ことがあります。アルゴリズムは見る内容を決めるので、偏った情報を信じがちになります。ニュースは批判的に読みましょう。",
+   "en": "Media literacy is the ability to read and evaluate information critically. Before sharing 「事実確認する」, question whether a headline is 「誤解を招く」, and check for a 「信頼できる情報源」. Experts may 「否定する」 false rumours. Algorithms decide what you see, so you tend to believe biased information. Read the news critically."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "事実確認する",
+     "fact-check",
+     "共有前に事実確認する。"
+    ],
+    [
+     "誤解を招く",
+     "be misleading",
+     "見出しは誤解を招く。"
+    ],
+    [
+     "信頼できる情報源",
+     "reliable source",
+     "情報源を確かめる。"
+    ],
+    [
+     "批判的に読む",
+     "read critically",
+     "ニュースは批判的に読む。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "感情に訴える見出しほど、慎重になりましょう。",
+    "en": "The more a headline stirs emotion, the more cautious to be."
+   },
+   {
+    "ko": "一つの報道に頼らず、複数を比べます。",
+    "en": "Compare several reports rather than one."
+   },
+   {
+    "ko": "出典がわからない情報は、まず疑います。",
+    "en": "Doubt information with an unclear source first."
+   }
+  ],
+  "examples": [
+   {
+    "t": "誤情報はSNSで急速に広がります。",
+    "read": "ごじょうほうはSNSできゅうそくにひろがります。",
+    "ko": "가짜 정보는 소셜 미디어에서 빠르게 퍼져요.",
+    "en": "Misinformation spreads quickly on social media."
+   },
+   {
+    "t": "共有する前に事実確認するべきです。",
+    "read": "きょうゆうするまえにじじつかくにんするべきです。",
+    "ko": "공유하기 전에 사실 확인을 하세요.",
+    "en": "Fact-check before sharing."
+   },
+   {
+    "t": "その見出しは誤解を招きます。",
+    "read": "そのみだしはごかいをまねきます。",
+    "ko": "그 제목은 오해를 불러일으켜요.",
+    "en": "That headline is misleading."
+   },
+   {
+    "t": "まず、情報源が信頼できるか確かめましょう。",
+    "read": "まず、じょうほうげんがしんらいできるかたしかめましょう。",
+    "ko": "신뢰할 수 있는 출처를 확인하세요.",
+    "en": "Check for reliable sources."
+   },
+   {
+    "t": "ニュースは批判的に読む習慣が必要です。",
+    "read": "ニュースはひはんてきによむしゅうかんがひつようです。",
+    "ko": "뉴스를 비판적으로 읽는 습관이 필요해요.",
+    "en": "A habit of reading news critically is needed."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "共有する前に___するべきです。",
+    "options": [
+     "事実確認",
+     "宣伝",
+     "削除"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "その見出しは誤解を___ます。",
+    "options": [
+     "招き",
+     "解き",
+     "売り"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "まず、情報源が___か確かめましょう。",
+    "options": [
+     "信頼できる",
+     "高い",
+     "短い"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "ニュースは___に読む習慣が必要です。",
+    "options": [
+     "批判的",
+     "感情的",
+     "偶然"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "なぜ誤情報は速く広がるのですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 가짜 정보는 왜 빠르게 퍼질까요?",
+     "en": "(Question) Why does misinformation spread so fast?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "アルゴリズムが扇情的な内容を優先するからです。",
+       "誰も読まないからです。",
+       "新聞が少ないからです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "記事を共有する前に何をするべきですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 기사를 공유하기 전에 무엇을 해야 하나요?",
+     "en": "(Question) What should you do before sharing an article?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "まず事実確認するべきです。",
+       "すぐ共有します。",
+       "無視します。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この記事、本当？見出しがすごく扇情的だよ。"
+      },
+      {
+       "s": "B",
+       "t": "情報源を確認してみて。信頼できる？"
+      },
+      {
+       "s": "A",
+       "t": "このサイト、見たことないんだ。"
+      },
+      {
+       "s": "B",
+       "t": "じゃあ、共有する前に事実確認したほうがいいよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 기사 정말일까? 제목이 너무 자극적이야.\nB: 출처를 확인해 봐. 신뢰할 수 있는 곳인지.\nA: 처음 보는 사이트인데.\nB: 그럼 공유하기 전에 사실 확인부터 해.",
+     "en": "A: Is this article true? The headline is so sensational.\nB: Check the source. Is it reliable?\nA: I've never seen this site.\nB: Then fact-check before you share."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女の人は何を勧めていますか。",
+      "options": [
+       "共有する前に事実確認すること",
+       "すぐ共有すること",
+       "記事を消すこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "メディアリテラシーとは、情報を批判的に読み、評価する力です。情報源は誰か、根拠はあるか、ほかでも確認できるかを問いましょう。見出しが感情を刺激するほど、慎重になるべきです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "미디어 리터러시는 정보를 비판적으로 읽고 평가하는 능력입니다. 출처가 누구인지, 증거가 있는지, 다른 곳에서도 확인되는지를 따져 보세요. 감정을 자극하는 제목일수록 더 신중해야 합니다.",
+     "en": "Media literacy is the ability to read and evaluate information critically. Ask who the source is, whether there is evidence, and whether it is confirmed elsewhere. The more a headline stirs emotion, the more cautious you should be."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "メディアリテラシーとは何ですか。",
+      "options": [
+       "情報を批判的に読み評価する力",
+       "速く読む力",
+       "たくさん書く力"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このうわさは本当ですか。"
+      },
+      {
+       "s": "B",
+       "t": "いいえ、すでに否定された誤情報です。"
+      },
+      {
+       "s": "A",
+       "t": "どうやって確認しましたか。"
+      },
+      {
+       "s": "B",
+       "t": "信頼できる情報源を三つ照らし合わせました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 이 소문은 사실입니까?\n전문가: 아니요, 이미 바로잡힌 허위 정보입니다.\n기자: 어떻게 확인했나요?\n전문가: 신뢰할 수 있는 출처 세 곳을 대조했습니다.",
+     "en": "Reporter: Is this rumour true?\nExpert: No, it's misinformation that has already been debunked.\nReporter: How did you verify it?\nExpert: I cross-checked three reliable sources."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "うわさはすでに______された誤情報です",
+      "answers": [
+       "否定"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "専門家は信頼できる情報源を______照らし合わせました",
+      "answers": [
+       "三つ"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 共有する前に___するべきです。\n2) その見出しは誤解を___ます。\n3) まず、情報源が___か確かめましょう。",
+    "trans": {
+     "ko": "1) 가짜 정보는 소셜 미디어에서 빠르게 퍼져요. 2) 공유하기 전에 사실 확인을 하세요. 3) 그 제목은 오해를 불러일으켜요.",
+     "en": "1) Misinformation spreads quickly on social media. 2) Fact-check before sharing. 3) That headline is misleading."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "共有する前に___するべきです。",
+      "options": [
+       "事実確認",
+       "宣伝",
+       "削除"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "その見出しは誤解を___ます。",
+      "options": [
+       "招き",
+       "解き",
+       "売り"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "まず、情報源が___か確かめましょう。",
+      "options": [
+       "信頼できる",
+       "高い",
+       "短い"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "SNSのアルゴリズムは、利用者の興味に合った内容を表示します。その結果、人は似た意見だけを見る「フィルターバブル」に(1)がちです。これは偏りを(2)、他の見方への理解を(3)可能性があります。",
+    "trans": {
+     "ko": "소셜 미디어의 알고리즘은 사용자의 관심에 맞는 콘텐츠를 보여 줍니다. 그 결과 사람들은 자신과 비슷한 의견만 접하는 필터 버블에 갇히기 쉽습니다. 이는 편견을 강화하고 다른 관점에 대한 이해를 줄일 수 있습니다.",
+     "en": "Social media algorithms show content that matches users' interests. As a result, people are prone to being trapped in a filter bubble where they see only similar views. This can reinforce bias and reduce understanding of other perspectives."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "閉じ込められ",
+       "広がり",
+       "消え"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "強め",
+       "弱め",
+       "忘れ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "減らす",
+       "増やす",
+       "広げる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "コラム\nニュースの読み方\nすべての記事が同じように信頼できるわけではありません。出典が不明確だったり、感情的な表現が多かったりする記事は、まず疑ってみるべきです。そして、一つの報道に頼らず、複数の媒体を比べる習慣をつけましょう。",
+    "trans": {
+     "ko": "칼럼\n뉴스를 읽는 법\n모든 기사가 같은 수준의 신뢰를 가지는 것은 아니다. 출처가 불분명하거나 감정적인 표현이 많은 기사는 일단 의심해야 한다. 그리고 하나의 보도만 믿지 말고 여러 매체를 비교하는 습관이 필요하다.",
+     "en": "COLUMN\nHow to read the news\nNot all articles are equally trustworthy. Articles with unclear sources or heavy emotional language should be viewed with suspicion at first. And rather than relying on a single report, build a habit of comparing several outlets."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "どんな記事をまず疑うべきですか。",
+      "options": [
+       "出典が不明確で感情的な表現が多い記事",
+       "短い記事",
+       "古い記事"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "どんな習慣をつけるよう勧めていますか。",
+      "options": [
+       "複数の媒体を比べる",
+       "一つだけ読む",
+       "読まない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "すべての記事が同じように信頼できるわけではありません。感情的な表現が多い記事はいつも本当です。コラムは複数の媒体を比べるよう勧めています。",
+    "trans": {
+     "ko": "모든 기사가 같은 수준의 신뢰를 가지는 것은 아니다. 감정적인 표현이 많은 기사는 항상 사실이다. 칼럼은 여러 매체를 비교하라고 권한다.",
+     "en": "Not all articles are equally trustworthy. Articles with much emotional language are always true. The column recommends comparing several outlets."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "すべての記事が同じように信頼できるわけではない。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "感情的な表現が多い記事はいつも本当である。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "コラムは複数の媒体を比べるよう勧めている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "誤情報はSNSで急速に広がります。",
+    "read": "ごじょうほうはSNSできゅうそくにひろがります。",
+    "ko": "가짜 정보는 소셜 미디어에서 빠르게 퍼집니다.",
+    "en": "Misinformation spreads quickly on social media.",
+    "situation": {
+     "ko": "문제를 설명할 때",
+     "en": "Describing the problem"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "共有する前に事実確認するべきです。",
+    "read": "きょうゆうするまえにじじつかくにんするべきです。",
+    "ko": "공유하기 전에 먼저 사실 확인을 해야 합니다.",
+    "en": "You should fact-check before sharing.",
+    "situation": {
+     "ko": "행동을 권할 때",
+     "en": "Recommending action"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "その見出しは誤解を招きます。",
+    "read": "そのみだしはごかいをまねきます。",
+    "ko": "그 제목은 오해를 불러일으킵니다.",
+    "en": "That headline is misleading.",
+    "situation": {
+     "ko": "보도를 비판할 때",
+     "en": "Criticising coverage"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "まず、情報源が信頼できるか確かめましょう。",
+    "read": "まず、じょうほうげんがしんらいできるかたしかめましょう。",
+    "ko": "신뢰할 수 있는 출처인지 먼저 확인하세요.",
+    "en": "First check whether the source is reliable.",
+    "situation": {
+     "ko": "조언할 때",
+     "en": "Advising"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "専門家はそのうわさを否定しました。",
+    "read": "せんもんかはそのうわさをひていしました。",
+    "ko": "전문가들은 그 소문을 바로잡았습니다.",
+    "en": "Experts debunked the rumour.",
+    "situation": {
+     "ko": "정정을 보도할 때",
+     "en": "Reporting a debunking"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "アルゴリズムが私たちの見る内容を決めます。",
+    "read": "アルゴリズムがわたしたちのみるないようをきめます。",
+    "ko": "알고리즘은 우리가 무엇을 보는지 결정합니다.",
+    "en": "Algorithms determine what we see.",
+    "situation": {
+     "ko": "원인을 설명할 때",
+     "en": "Explaining a cause"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "ニュースは批判的に読むべきです。",
+    "read": "ニュースはひはんてきによむべきです。",
+    "ko": "뉴스는 비판적으로 읽어야 합니다.",
+    "en": "News should be read critically.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "メディアリテラシーは民主主義の土台です。",
+    "read": "メディアリテラシーはみんしゅしゅぎのどだいです。",
+    "ko": "미디어 리터러시는 민주주의의 기초입니다.",
+    "en": "Media literacy is the foundation of democracy.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜を事実確認する。",
+    "read": "〜をじじつかくにんする。",
+    "ko": "~을 사실 확인하다.",
+    "en": "fact-check ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜は誤解を招く。",
+    "read": "〜はごかいをまねく。",
+    "ko": "~는 오해를 부른다.",
+    "en": "... is misleading"
+   },
+   {
+    "id": "w3",
+    "t": "信頼できる情報源。",
+    "read": "しんらいできるじょうほうげん。",
+    "ko": "~은 신뢰할 수 있는 출처다.",
+    "en": "... is a reliable source"
+   },
+   {
+    "id": "w4",
+    "t": "〜を批判的に読む。",
+    "read": "〜をひはんてきによむ。",
+    "ko": "~는 비판적으로 읽어야 한다.",
+    "en": "... should be read critically"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가짜 정보 문제를 현상·원인·영향·대처 순으로 4문장으로 써 보세요.",
+    "en": "Write four sentences on misinformation: phenomenon, cause, effect, response."
+   },
+   "must_include": [
+    {
+     "label": "誤情報",
+     "match": [
+      "誤情報"
+     ]
+    },
+    {
+     "label": "信頼できる",
+     "match": [
+      "信頼できる"
+     ]
+    },
+    {
+     "label": "事実確認",
+     "match": [
+      "事実確認"
+     ]
+    }
+   ],
+   "model": "誤情報はSNSで急速に広がります。アルゴリズムが扇情的な内容を多く表示するためです。その結果、人は偏った情報を事実と信じるようになります。ですから、共有する前に、信頼できる情報源を確認し、事実確認するべきです。",
+   "model_trans": {
+    "ko": "가짜 정보는 소셜 미디어에서 빠르게 퍼집니다. 알고리즘이 자극적인 콘텐츠를 더 많이 보여 주기 때문입니다. 그 결과 사람들은 편향된 정보를 사실로 믿게 됩니다. 따라서 공유하기 전에 신뢰할 수 있는 출처를 확인하고 사실 확인을 해야 합니다.",
+    "en": "Misinformation spreads quickly on social media. This is because algorithms show more sensational content. As a result, people come to believe biased information as fact. So before sharing, check reliable sources and fact-check."
+   }
+  }
+ }
+}

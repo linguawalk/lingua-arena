@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u33",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 33,
+  "concept": "C1.U33",
+  "status": "live",
+  "title": {
+   "target": "学術セミナーでの質問",
+   "ko": "학술 세미나 질문",
+   "en": "Questions in academic seminars"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "詳しく説明する",
+   "pos": "verb",
+   "read": "くわしくせつめいする",
+   "ko": "자세히 설명하다",
+   "en": "elaborate",
+   "ex": {
+    "t": "その点について詳しくご説明いただけますか。",
+    "read": "そのてんについてくわしくごせつめいいただけますか。",
+    "ko": "그 점을 더 자세히 설명해 주시겠어요?",
+    "en": "Could you elaborate on that point?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "どの程度",
+   "pos": "phrase",
+   "read": "どのていど",
+   "ko": "어느 정도",
+   "en": "to what extent",
+   "ex": {
+    "t": "結果はどの程度一般化できますか。",
+    "read": "けっかはどのていどいっぱんかできますか。",
+    "ko": "이 결과는 어느 정도 일반화할 수 있나요?",
+    "en": "To what extent can the results be generalised?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "意味合い",
+   "pos": "noun",
+   "read": "いみあい",
+   "ko": "함의",
+   "en": "implication",
+   "ex": {
+    "t": "この発見の意味合いは何ですか。",
+    "read": "このはっけんのいみあいはなんですか。",
+    "ko": "이 발견은 어떤 함의를 지니나요?",
+    "en": "What are the implications of this finding?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "前提",
+   "pos": "noun",
+   "read": "ぜんてい",
+   "ko": "전제",
+   "en": "assumption",
+   "ex": {
+    "t": "その前提は妥当ですか。",
+    "read": "そのぜんていはだとうですか。",
+    "ko": "그 전제가 타당한가요?",
+    "en": "Is that assumption valid?"
+   }
+  },
+  {
+   "id": "v5",
+   "t": "限界",
+   "pos": "noun",
+   "read": "げんかい",
+   "ko": "한계",
+   "en": "limitation",
+   "ex": {
+    "t": "この研究の限界は何ですか。",
+    "read": "このけんきゅうのげんかいはなんですか。",
+    "ko": "연구의 한계는 무엇인가요?",
+    "en": "What are the limitations of the study?"
+   }
+  },
+  {
+   "id": "v6",
+   "t": "異議を唱える",
+   "pos": "verb",
+   "read": "いぎをとなえる",
+   "ko": "반론을 제기하다",
+   "en": "challenge",
+   "ex": {
+    "t": "その主張に異議を唱えたいです。",
+    "read": "そのしゅちょうにいぎをとなえたいです。",
+    "ko": "그 주장에 반론을 제기하고 싶어요.",
+    "en": "I'd like to challenge that claim."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "確認する",
+   "pos": "verb",
+   "read": "かくにんする",
+   "ko": "확인하다",
+   "en": "clarify",
+   "ex": {
+    "t": "一点確認したいことがあります。",
+    "read": "いってんかくにんしたいことがあります。",
+    "ko": "한 가지만 확인하고 싶어요.",
+    "en": "I'd like to clarify one thing."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "研究方法",
+   "pos": "noun",
+   "read": "けんきゅうほうほう",
+   "ko": "방법론",
+   "en": "methodology",
+   "ex": {
+    "t": "研究方法について質問があります。",
+    "read": "けんきゅうほうほうについてしつもんがあります。",
+    "ko": "방법론에 대해 질문이 있어요.",
+    "en": "I have a question about the methodology."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "〜と比べる",
+   "pos": "phrase",
+   "read": "〜とくらべる",
+   "ko": "비교하다",
+   "en": "compare with",
+   "ex": {
+    "t": "ほかの研究と比べてどうですか。",
+    "read": "ほかのけんきゅうとくらべてどうですか。",
+    "ko": "다른 연구와 어떻게 비교되나요?",
+    "en": "How does it compare with other studies?"
+   }
+  },
+  {
+   "id": "v10",
+   "t": "おっしゃることはわかる",
+   "pos": "phrase",
+   "read": "おっしゃることはわかる",
+   "ko": "지적을 받아들이다",
+   "en": "take your point",
+   "ex": {
+    "t": "おっしゃることはわかります。",
+    "read": "おっしゃることはわかります。",
+    "ko": "말씀하신 점은 이해합니다.",
+    "en": "I take your point."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜について詳しく／どの程度〜／〜の意味合い／〜はわかりますが",
+   "en": "Seminar questions: 〜について詳しく / どの程度〜 / 〜の意味合い / 〜はわかりますが"
+  },
+  "explain": {
+   "ko": "セミナーの質問は、具体的で建設的であるべきです。まず「ご発表、ありがとうございました。質問が一つあります」と述べ、「その点について詳しくご説明いただけますか」「結果はどの程度一般化できますか」と聞きます。反論するときは「おっしゃることはわかりますが、別の解釈もあるのではないでしょうか」と、相手の意見を認めてから述べます。",
+   "en": "Seminar questions should be specific and constructive. Open with 「ご発表、ありがとうございました。質問が一つあります」, then ask 「その点について詳しくご説明いただけますか」「結果はどの程度一般化できますか」. To challenge: 「おっしゃることはわかりますが、別の解釈もあるのではないでしょうか」, acknowledging the other view first."
+  },
+  "table": {
+   "head": [
+    "機能 / Function",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "説明要求 / Elaborate",
+     "詳しくご説明いただけますか",
+     "その点を詳しくお願いします。"
+    ],
+    [
+     "程度 / Extent",
+     "どの程度〜",
+     "どの程度一般化できますか。"
+    ],
+    [
+     "意味合い / Implications",
+     "〜の意味合いは何ですか",
+     "この発見の意味合いは何ですか。"
+    ],
+    [
+     "反論 / Challenge",
+     "〜はわかりますが",
+     "おっしゃることはわかりますが、〜。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "最初に発表への感謝を述べます。",
+    "en": "Thank the speaker first."
+   },
+   {
+    "ko": "反論は、根拠を示し、人を批判しません。",
+    "en": "Give evidence; don't criticise the person."
+   },
+   {
+    "ko": "時間が限られるので、質問は一つにします。",
+    "en": "Time is limited; keep to one question."
+   }
+  ],
+  "examples": [
+   {
+    "t": "その点について詳しくご説明いただけますか。",
+    "read": "そのてんについてくわしくごせつめいいただけますか。",
+    "ko": "그 점을 더 자세히 설명해 주시겠어요?",
+    "en": "Could you elaborate on that point?"
+   },
+   {
+    "t": "結果はどの程度一般化できるのでしょうか。",
+    "read": "けっかはどのていどいっぱんかできるのでしょうか。",
+    "ko": "이 결과는 어느 정도 일반화할 수 있나요?",
+    "en": "To what extent can the results be generalised?"
+   },
+   {
+    "t": "この発見の政策への意味合いは何ですか。",
+    "read": "このはっけんのせいさくへのいみあいはなんですか。",
+    "ko": "이 발견의 함의는 무엇인가요?",
+    "en": "What are the implications of this finding?"
+   },
+   {
+    "t": "研究方法について質問があります。",
+    "read": "けんきゅうほうほうについてしつもんがあります。",
+    "ko": "방법론에 대해 질문이 있습니다.",
+    "en": "I have a question about the methodology."
+   },
+   {
+    "t": "おっしゃることはわかりますが、完全には賛成できません。",
+    "read": "おっしゃることはわかりますが、かんぜんにはさんせいできません。",
+    "ko": "말씀하신 점은 이해하지만 동의하지 않습니다.",
+    "en": "I take your point, but I don't fully agree."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "その点について___ご説明いただけますか。",
+    "options": [
+     "詳しく",
+     "短く",
+     "急いで"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "結果は___一般化できるのでしょうか。",
+    "options": [
+     "どの程度",
+     "いつ",
+     "誰が"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "この発見の___は何ですか。",
+    "options": [
+     "意味合い",
+     "天気",
+     "値段"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "おっしゃることは___が、完全には賛成できません。",
+    "options": [
+     "わかります",
+     "知りません",
+     "忘れます"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "発表者にどんな質問をしますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 발표자에게 어떤 질문을 하겠습니까?",
+     "en": "(Question) What question would you ask the speaker?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "研究方法について詳しく教えていただけますか。",
+       "何も質問しません。",
+       "来週にします。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "結果はどの程度一般化できますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 결과는 어느 정도까지 일반화할 수 있나요?",
+     "en": "(Question) To what extent can the results be generalised?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "ある程度は可能ですが、注意が必要です。",
+       "完全に可能です。",
+       "まったく無理です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ご発表、ありがとうございました。標本の大きさについて質問してもよろしいですか。"
+      },
+      {
+       "s": "B",
+       "t": "どうぞ。"
+      },
+      {
+       "s": "A",
+       "t": "百人で、結果を一般化できますか。"
+      },
+      {
+       "s": "B",
+       "t": "ごもっともな指摘です。限界があることは認めます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 발표 잘 들었습니다. 표본 크기에 대해 질문해도 될까요?\nB: 네, 말씀하세요.\nA: 표본이 백 명인데, 결과를 일반화할 수 있을까요?\nB: 좋은 지적입니다. 한계가 있음을 인정합니다.",
+     "en": "A: Thank you for the talk. May I ask about the sample size?\nB: Please do.\nA: With one hundred people, can the results be generalised?\nB: A fair point. I accept there are limitations."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人の懸念は何ですか。",
+      "options": [
+       "標本の大きさ",
+       "発表の長さ",
+       "日程"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "よいセミナーの質問は、具体的で建設的です。まず発表者に感謝し、次に説明や根拠を求めます。丁寧に反論し、相手の意見を認めると、よい印象を与えます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "세미나에서 좋은 질문은 구체적이고 건설적입니다. 먼저 발표에 감사하고, 이어서 설명이나 근거를 요청하세요. 반론은 정중하게 하고, 상대의 관점도 인정하면 좋은 인상을 줍니다.",
+     "en": "A good seminar question is specific and constructive. First thank the speaker, then ask for explanation or evidence. Challenge politely and acknowledge the other's view to make a good impression."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "反論するときはどうしますか。",
+      "options": [
+       "丁寧に、相手の意見を認めて",
+       "強い口調で",
+       "黙って"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ご発表、ありがとうございました。質問が一つあります。"
+      },
+      {
+       "s": "B",
+       "t": "どうぞ。"
+      },
+      {
+       "s": "A",
+       "t": "この結果は、ほかの年齢層にも当てはまりますか。"
+      },
+      {
+       "s": "B",
+       "t": "今のデータでは、確認するのは難しいです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "학생: 발표 감사합니다. 한 가지 질문이 있습니다.\n발표자: 네, 말씀하세요.\n학생: 이 결과는 다른 연령대에도 적용될 수 있을까요?\n발표자: 현재 자료로는 확인하기 어렵습니다.",
+     "en": "Student: Thank you for the talk. I have one question.\nSpeaker: Please go ahead.\nStudent: Could these results apply to other age groups?\nSpeaker: It's hard to confirm from the current data."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "学生はほかの年齢______にも当てはまるか聞きます",
+      "answers": [
+       "層"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "今の______では確認するのは難しいです",
+      "answers": [
+       "データ"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) その点について___ご説明いただけますか。\n2) 結果は___一般化できるのでしょうか。\n3) この発見の___は何ですか。",
+    "trans": {
+     "ko": "1) 그 점을 더 자세히 설명해 주시겠어요? 2) 이 결과는 어느 정도 일반화할 수 있나요? 3) 이 발견의 함의는 무엇인가요?",
+     "en": "1) Could you elaborate on that point? 2) To what extent can the results be generalised? 3) What are the implications of this finding?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "その点について___ご説明いただけますか。",
+      "options": [
+       "詳しく",
+       "短く",
+       "急いで"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "結果は___一般化できるのでしょうか。",
+      "options": [
+       "どの程度",
+       "いつ",
+       "誰が"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "この発見の___は何ですか。",
+      "options": [
+       "意味合い",
+       "天気",
+       "値段"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "セミナーの質問は、単なる好奇心を超えて、研究についての批判的思考を示します。研究方法の質問は標本・道具・(1)を、解釈の質問は(2)可能性を提示します。質問するときは、丁寧な言い方で研究者への(3)を示しましょう。",
+    "trans": {
+     "ko": "세미나 질문은 단순한 의문을 넘어 연구에 대한 비판적 사고를 보여 줍니다. 방법론에 대한 질문은 표본, 측정 도구, 한계를 겨냥하고, 해석에 대한 질문은 다른 가능성을 제시합니다. 질문을 할 때는 정중한 표현으로 상대의 연구를 존중하세요.",
+     "en": "Seminar questions go beyond simple curiosity to show critical thinking about the research. Methodology questions target sample, instruments and limitations, while interpretation questions offer other possibilities. When asking, respect the researcher with polite phrasing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "限界",
+       "冗談",
+       "天気"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "別の",
+       "同じ",
+       "無関係な"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "敬意",
+       "不満",
+       "疑い"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "お知らせ\nセミナーでの質問のマナー\n質問は簡潔にし、最初に発表者への感謝を述べてください。反論するときは根拠を示し、人を批判しないよう注意します。時間が限られているので、質問は一つに絞ってください。",
+    "trans": {
+     "ko": "안내문\n학술 세미나 질문 예절\n질문은 간결하게 하되 먼저 발표에 감사를 표하라. 반론을 제기할 때는 근거를 함께 제시하고, 개인에 대한 비판이 되지 않도록 주의하라. 시간이 한정되어 있으므로 하나의 질문에 집중하라.",
+     "en": "NOTICE\nSeminar question etiquette\nKeep questions brief and begin by thanking the speaker. When challenging, give your evidence and take care not to criticise the person. Time is limited, so focus on one question."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "質問の最初に何を述べますか。",
+      "options": [
+       "発表者への感謝",
+       "反論",
+       "自己紹介"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "質問はいくつに絞りますか。",
+      "options": [
+       "一つ",
+       "三つ",
+       "五つ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "質問の前に、発表者に感謝するべきです。反論は根拠なしにしてもかまいません。質問は一つに絞るほうがよいです。",
+    "trans": {
+     "ko": "질문 전에는 발표자에게 감사해야 한다. 반론은 근거 없이 제기해도 된다. 질문은 하나에 집중하는 것이 좋다.",
+     "en": "You should thank the speaker before asking. Challenges may be made without evidence. It is better to focus on one question."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "質問の前に発表者に感謝するべきである。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "反論は根拠なしにしてもかまわない。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "質問は一つに絞るほうがよい。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "ご発表、ありがとうございました。質問が一つあります。",
+    "read": "ごはっぴょう、ありがとうございました。しつもんがひとつあります。",
+    "ko": "발표 감사합니다. 한 가지 질문이 있습니다.",
+    "en": "Thank you for the presentation. I have one question.",
+    "situation": {
+     "ko": "질문을 시작할 때",
+     "en": "Opening a question"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "その点について、もう少し詳しくご説明いただけますか。",
+    "read": "そのてんについて、もうすこしくわしくごせつめいいただけますか。",
+    "ko": "그 점을 조금 더 자세히 설명해 주시겠어요?",
+    "en": "Could you elaborate on that point a little?",
+    "situation": {
+     "ko": "설명을 요청할 때",
+     "en": "Asking for elaboration"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "結果はどの程度一般化できるのでしょうか。",
+    "read": "けっかはどのていどいっぱんかできるのでしょうか。",
+    "ko": "결과를 어느 정도까지 일반화할 수 있습니까?",
+    "en": "To what extent can the results be generalised?",
+    "situation": {
+     "ko": "범위를 물을 때",
+     "en": "Asking about scope"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "この発見の政策への意味合いは何でしょうか。",
+    "read": "このはっけんのせいさくへのいみあいはなんでしょうか。",
+    "ko": "이 발견의 정책적 함의는 무엇입니까?",
+    "en": "What are the policy implications of this finding?",
+    "situation": {
+     "ko": "의미를 물을 때",
+     "en": "Asking about implications"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "研究方法の標本の大きさが気になります。",
+    "read": "けんきゅうほうほうのひょうほんのおおきさがきになります。",
+    "ko": "방법론에서 표본 크기에 대한 우려가 있습니다.",
+    "en": "I have a concern about the sample size in the methodology.",
+    "situation": {
+     "ko": "우려를 말할 때",
+     "en": "Voicing a concern"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "おっしゃることはわかりますが、別の解釈もあるのではないでしょうか。",
+    "read": "おっしゃることはわかりますが、べつのかいしゃくもあるのではないでしょうか。",
+    "ko": "말씀하신 점은 이해하지만 다른 해석도 가능하지 않을까요?",
+    "en": "I take your point, but couldn't there be another interpretation?",
+    "situation": {
+     "ko": "정중하게 반론할 때",
+     "en": "Challenging politely"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "以前の研究と比べて、どうでしょうか。",
+    "read": "いぜんのけんきゅうとくらべて、どうでしょうか。",
+    "ko": "다른 선행 연구와 어떻게 비교됩니까?",
+    "en": "How does this compare with earlier studies?",
+    "situation": {
+     "ko": "비교를 요청할 때",
+     "en": "Requesting comparison"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "興味深いご発表でした。ありがとうございました。",
+    "read": "きょうみぶかいごはっぴょうでした。ありがとうございました。",
+    "ko": "흥미로운 발표였습니다. 감사합니다.",
+    "en": "It was an interesting presentation. Thank you.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Closing"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜について詳しくご説明いただけますか。",
+    "read": "〜についてくわしくごせつめいいただけますか。",
+    "ko": "~을 더 설명해 주시겠어요?",
+    "en": "Could you elaborate on ...?"
+   },
+   {
+    "id": "w2",
+    "t": "どの程度〜でしょうか。",
+    "read": "どのていど〜でしょうか。",
+    "ko": "어느 정도까지 ~?",
+    "en": "To what extent ...?"
+   },
+   {
+    "id": "w3",
+    "t": "〜の意味合いは何でしょうか。",
+    "read": "〜のいみあいはなんでしょうか。",
+    "ko": "~의 함의는?",
+    "en": "What are the implications of ...?"
+   },
+   {
+    "id": "w4",
+    "t": "おっしゃることはわかりますが、〜。",
+    "read": "おっしゃることはわかりますが、〜。",
+    "ko": "말씀은 이해하지만 ~.",
+    "en": "I take your point, but ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "세미나 발표 후 하는 질문 4개를 써 보세요(설명 요청, 범위, 함의, 정중한 반론).",
+    "en": "Write four questions after a seminar talk (elaboration, scope, implications, polite challenge)."
+   },
+   "must_include": [
+    {
+     "label": "詳しく",
+     "match": [
+      "詳しく"
+     ]
+    },
+    {
+     "label": "どの程度",
+     "match": [
+      "どの程度"
+     ]
+    },
+    {
+     "label": "わかりますが",
+     "match": [
+      "わかりますが"
+     ]
+    }
+   ],
+   "model": "その点について、詳しくご説明いただけますか。結果はどの程度一般化できるのでしょうか。この発見の政策への意味合いは何でしょうか。おっしゃることはわかりますが、別の解釈もあるのではないでしょうか。",
+   "model_trans": {
+    "ko": "그 점을 조금 더 설명해 주시겠어요? 결과를 어느 정도까지 일반화할 수 있습니까? 이 발견의 정책적 함의는 무엇입니까? 말씀하신 점은 이해하지만 다른 해석도 가능하지 않을까요?",
+    "en": "Could you elaborate on that point? To what extent can the results be generalised? What are the policy implications of this finding? I take your point, but couldn't there be another interpretation?"
+   }
+  }
+ }
+}

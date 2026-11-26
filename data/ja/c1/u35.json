@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u35",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 35,
+  "concept": "C1.U35",
+  "status": "live",
+  "title": {
+   "target": "物語の時制と語り",
+   "ko": "서사 시제와 이야기하기",
+   "en": "Narrative tenses and storytelling"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "展開する",
+   "pos": "verb",
+   "read": "てんかいする",
+   "ko": "이야기를 풀어내다",
+   "en": "unfold",
+   "ex": {
+    "t": "物語はゆっくり展開しました。",
+    "read": "ものがたりはゆっくりてんかいしました。",
+    "ko": "이야기는 천천히 펼쳐졌어요.",
+    "en": "The story unfolded slowly."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "突然",
+   "pos": "phrase",
+   "read": "とつぜん",
+   "ko": "갑자기",
+   "en": "all of a sudden",
+   "ex": {
+    "t": "突然、電気が消えました。",
+    "read": "とつぜん、でんきがきえました。",
+    "ko": "갑자기 불이 꺼졌어요.",
+    "en": "All of a sudden the lights went out."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "そのころには",
+   "pos": "phrase",
+   "read": "そのころには",
+   "ko": "그때까지",
+   "en": "by then",
+   "ex": {
+    "t": "そのころには、みんな帰っていました。",
+    "read": "そのころには、みんなかえっていました。",
+    "ko": "그때쯤에는 모두 떠난 뒤였어요.",
+    "en": "By then everyone had left."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "やがて",
+   "pos": "adv",
+   "read": "やがて",
+   "ko": "마침내",
+   "en": "eventually",
+   "ex": {
+    "t": "やがて、道が見つかりました。",
+    "read": "やがて、みちがみつかりました。",
+    "ko": "마침내 우리는 길을 찾았어요.",
+    "en": "Eventually we found the way."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "ある日",
+   "pos": "phrase",
+   "read": "あるにち",
+   "ko": "그러던 어느 날",
+   "en": "one day",
+   "ex": {
+    "t": "ある日、手紙が届きました。",
+    "read": "あるにち、てがみがとどきました。",
+    "ko": "그러던 어느 날 편지가 왔어요.",
+    "en": "One day a letter arrived."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "緊張感",
+   "pos": "noun",
+   "read": "きんちょうかん",
+   "ko": "긴장감",
+   "en": "suspense",
+   "ex": {
+    "t": "その映画は緊張感に満ちています。",
+    "read": "そのえいがはきんちょうかんにみちています。",
+    "ko": "그 영화는 긴장감이 넘쳐요.",
+    "en": "The film is full of suspense."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "思い出す",
+   "pos": "verb",
+   "read": "おもいだす",
+   "ko": "기억하다",
+   "en": "recall",
+   "ex": {
+    "t": "あの場面を鮮明に思い出します。",
+    "read": "あのばめんをせんめいにおもいだします。",
+    "ko": "그 장면을 생생히 기억해요.",
+    "en": "I vividly recall that scene."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "舞台",
+   "pos": "noun",
+   "read": "ぶたい",
+   "ko": "배경",
+   "en": "setting",
+   "ex": {
+    "t": "舞台は小さな村です。",
+    "read": "ぶたいはちいさなむらです。",
+    "ko": "이야기의 배경은 작은 마을이에요.",
+    "en": "The setting is a small village."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "どんでん返し",
+   "pos": "noun",
+   "read": "どんでんかえし",
+   "ko": "예상치 못한 전개",
+   "en": "twist",
+   "ex": {
+    "t": "結末にどんでん返しがあります。",
+    "read": "けつまつにどんでんかえしがあります。",
+    "ko": "결말에 반전이 있어요.",
+    "en": "There is a twist in the ending."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "そのとき",
+   "pos": "phrase",
+   "read": "そのとき",
+   "ko": "그 순간",
+   "en": "at that moment",
+   "ex": {
+    "t": "そのとき、電話が鳴りました。",
+    "read": "そのとき、でんわがなりました。",
+    "ko": "그 순간 전화가 울렸어요.",
+    "en": "At that moment the phone rang."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜ていた／〜たところ／〜ものだ／〜てしまっていた／〜と、〜（歴史的現在）",
+   "en": "Narrative tenses: 〜ていた / 〜たところ / 〜ものだ / 〜てしまっていた / 〜と、〜"
+  },
+  "explain": {
+   "ko": "物語では、時制を使い分けます。中心の出来事は「〜た」、背景は「〜ていた」、前にあったことは「〜てしまっていた」、「〜たときには、すでに〜ていた」と言います。昔の習慣は「〜ものだった」、「よく〜たものだ」で表し、生き生きと語るときは、現在形（「ドアを開けると、誰もいない」）を使うこともあります。",
+   "en": "Narratives distinguish tenses. Main events: 「〜た」; background: 「〜ていた」; earlier events: 「〜てしまっていた」「〜たときには、すでに〜ていた」. Past habits: 「〜ものだった」「よく〜たものだ」. For vividness the present can be used (「ドアを開けると、誰もいない」)."
+  },
+  "table": {
+   "head": [
+    "機能 / Function",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "出来事 / Main event",
+     "〜た",
+     "手紙が届いた。"
+    ],
+    [
+     "背景 / Background",
+     "〜ていた",
+     "雨が降っていた。"
+    ],
+    [
+     "先の出来事 / Earlier",
+     "すでに〜ていた",
+     "すでに雨はやんでいた。"
+    ],
+    [
+     "習慣 / Habit",
+     "〜ものだった",
+     "夏は海に行ったものだ。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜たところ」は、意外な結果を述べるときに使います。",
+    "en": "「〜たところ」 states an unexpected result."
+   },
+   {
+    "ko": "背景の「〜ていた」と、出来事の「〜た」を区別します。",
+    "en": "Distinguish background 「〜ていた」 from event 「〜た」."
+   },
+   {
+    "ko": "現在形は、場面を生き生きと見せます。",
+    "en": "The present tense makes a scene vivid."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私たちが着いたとき、雨はすでにやんでいました。",
+    "read": "わたしたちがついたとき、あめはすでにやんでいました。",
+    "ko": "우리가 도착했을 때 비는 이미 그쳤어요.",
+    "en": "When we arrived, the rain had already stopped."
+   },
+   {
+    "t": "道を歩いていたとき、誰かが私の名前を呼びました。",
+    "read": "みちをあるいていたとき、だれかがわたしのなまえをよびました。",
+    "ko": "나는 걷고 있었는데 갑자기 누군가 내 이름을 불렀어요.",
+    "en": "I was walking when someone called my name."
+   },
+   {
+    "t": "子どものころ、毎年夏は海に行ったものです。",
+    "read": "こどものころ、まいとしなつはうみにいったものです。",
+    "ko": "어렸을 때 우리는 매년 여름 바다에 가곤 했어요.",
+    "en": "As children, we would go to the sea every summer."
+   },
+   {
+    "t": "ある日、見知らぬ手紙が届きました。",
+    "read": "あるにち、みしらぬてがみがとどきました。",
+    "ko": "마침내 그는 진실을 알게 되었어요.",
+    "en": "Eventually he learned the truth."
+   },
+   {
+    "t": "そのとき電話が鳴り、すべてが変わりました。",
+    "read": "そのときでんわがなり、すべてがかわりました。",
+    "ko": "그 순간 전화가 울렸어요.",
+    "en": "At that moment the phone rang."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私たちが着いたとき、雨はすでに___。",
+    "options": [
+     "やんでいました",
+     "降ります",
+     "降りたいです"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "道を歩いて___とき、誰かが私の名前を呼びました。",
+    "options": [
+     "いた",
+     "いる",
+     "いて"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "子どものころ、毎年夏は海に行った___です。",
+    "options": [
+     "もの",
+     "こと",
+     "ところ"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___、電話が鳴り、すべてが変わりました。",
+    "options": [
+     "そのとき",
+     "もし",
+     "たとえば"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "子どものころ、夏は何をしましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어릴 때 여름에 무엇을 했나요?",
+     "en": "(Question) What did you do in summer as a child?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "毎年夏は海に行ったものです。",
+       "来週の月曜日です。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "電話が鳴ったとき、何をしていましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 전화가 울렸을 때 무엇을 하고 있었나요?",
+     "en": "(Question) What were you doing when the phone rang?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "料理をしていました。",
+       "明日行きます。",
+       "知りません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日、何があったの？"
+      },
+      {
+       "s": "B",
+       "t": "道を歩いていたら、誰かが私の名前を呼んだんだ。昔の友達だった。"
+      },
+      {
+       "s": "A",
+       "t": "へえ、何年ぶり？"
+      },
+      {
+       "s": "B",
+       "t": "十年ぶり。最後に会ってから、ずっと連絡していなかったんだ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 무슨 일이 있었어?\nB: 길을 걷고 있었는데 누군가 내 이름을 불렀어. 돌아보니 오래된 친구였어.\nA: 정말? 얼마 만이야?\nB: 십 년 만이었어. 우리는 마지막으로 만난 이후 한 번도 연락하지 않았거든.",
+     "en": "A: What happened yesterday?\nB: I was walking down the street when someone called my name. It was an old friend.\nA: Really? How long had it been?\nB: Ten years. We hadn't been in touch since we last met."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最後に会ってから何年ぶりですか。",
+      "options": [
+       "十年",
+       "一年",
+       "三年"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "物語を語るときは、時制を使い分けます。中心の出来事は過去形、背景は「〜ていた」、先に起きたことは「〜ていた」「〜てしまっていた」です。昔の習慣には「ものだ」を使い、現在形を使うこともあります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이야기를 할 때는 시제를 구분해야 합니다. 주요 사건은 과거형, 배경은 과거진행형, 앞선 일은 과거완료로 나타냅니다. 과거의 습관은 would나 used to를 쓰고, 생생하게 전달하고 싶을 때는 현재형을 쓰기도 합니다.",
+     "en": "When telling a story, distinguish the tenses. Use the past simple for main events, the past continuous for background, and the past perfect for earlier events. Use would or used to for past habits, and sometimes the present tense for vividness."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "背景を表すのはどの形ですか。",
+      "options": [
+       "〜ていた",
+       "〜た",
+       "〜ものだ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "物語はどう始めましょうか。"
+      },
+      {
+       "s": "B",
+       "t": "まず、舞台を見せてください。雨が降っていて、通りには誰もいませんでした。"
+      },
+      {
+       "s": "A",
+       "t": "それから？"
+      },
+      {
+       "s": "B",
+       "t": "突然、ドアが開いたと書きましょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "작가: 이야기의 시작을 어떻게 할까요?\n편집자: 배경부터 보여 주세요. 비가 오고 있었고 거리에는 사람이 없었다고요.\n작가: 그다음에는요?\n편집자: 갑자기 문이 열렸다고 쓰세요.",
+     "en": "Writer: How should I begin the story?\nEditor: Show the setting first. It was raining and the street was empty.\nWriter: And then?\nEditor: Write that suddenly the door opened."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "編集者は雨が降っていて、通りには______と言います",
+      "answers": [
+       "誰もいませんでした"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "次に______ドアが開いたと書くよう言います",
+      "answers": [
+       "突然"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私たちが着いたとき、雨はすでに___。\n2) 道を歩いて___とき、誰かが私の名前を呼びました。\n3) 子どものころ、毎年夏は海に行った___です。",
+    "trans": {
+     "ko": "1) 우리가 도착했을 때 비는 이미 그쳤어요. 2) 나는 걷고 있었는데 갑자기 누군가 내 이름을 불렀어요. 3) 어렸을 때 우리는 매년 여름 바다에 가곤 했어요.",
+     "en": "1) When we arrived, the rain had already stopped. 2) I was walking when someone called my name. 3) As children, we would go to the sea every summer."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私たちが着いたとき、雨はすでに___。",
+      "options": [
+       "やんでいました",
+       "降ります",
+       "降りたいです"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "道を歩いて___とき、誰かが私の名前を呼びました。",
+      "options": [
+       "いた",
+       "いる",
+       "いて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "子どものころ、毎年夏は海に行った___です。",
+      "options": [
+       "もの",
+       "こと",
+       "ところ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "ある朝、私はいつものように通勤していました。電車はすでに人でいっぱい(1)。そのとき、子どもが私のかばんを指さして笑いました。そこで(2)、かばんが開いて(3)ことに気づきました。",
+    "trans": {
+     "ko": "어느 날 아침, 나는 평소처럼 출근하고 있었다. 지하철 안은 이미 사람들로 가득 차 있었다. 그때 한 아이가 내 가방을 가리키며 웃었다. 나는 그제서야 가방이 열려 있었다는 것을 알았다.",
+     "en": "One morning, I was commuting as usual. The train was already full of people. Then a child pointed at my bag and laughed. Only then did I realise it had been open."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "でした",
+       "です",
+       "でしょう"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "はじめて",
+       "ふたたび",
+       "すでに"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "いた",
+       "いる",
+       "いて"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "短編\n消えた鍵\nその夜は雨が降っていた。玄関で鍵を探したが、どこかに置いてきてしまっていた。そのとき、隣人が窓を開けて声をかけた。そこではじめて、鍵がポケットに入っていたことに気づいた。",
+    "trans": {
+     "ko": "단편\n잃어버린 열쇠\n그날 밤 비가 내리고 있었다. 나는 문 앞에서 열쇠를 찾았지만 이미 어디엔가 두고 온 뒤였다. 그때 이웃이 창문을 열고 외쳤다. 그제서야 나는 열쇠가 주머니에 있었음을 알았다.",
+     "en": "SHORT STORY\nThe lost key\nIt was raining that night. At the door I searched for my key, but I had already left it somewhere. Then a neighbour opened a window and called out. Only then did I realise the key had been in my pocket."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "その夜は何が降っていましたか。",
+      "options": [
+       "雨",
+       "雪",
+       "雹"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "鍵はどこにありましたか。",
+      "options": [
+       "ポケットの中",
+       "玄関",
+       "隣人の家"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "物語は雨の夜の出来事です。筆者は本当に鍵をどこかに置いてきました。隣人が窓を開けて声をかけました。",
+    "trans": {
+     "ko": "이야기는 비 오는 밤에 일어난다. 글쓴이는 열쇠를 정말 어딘가에 두고 왔다. 이웃이 창문을 열고 외쳤다.",
+     "en": "The story takes place on a rainy night. The writer really did leave the key somewhere. A neighbour opened a window and called out."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "物語は雨の夜の出来事である。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "筆者は本当に鍵をどこかに置いてきた。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "隣人が窓を開けて声をかけた。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "私たちが着いたとき、雨はすでにやんでいました。",
+    "read": "わたしたちがついたとき、あめはすでにやんでいました。",
+    "ko": "우리가 도착했을 때 비는 이미 그쳐 있었어요.",
+    "en": "When we arrived, the rain had already stopped.",
+    "situation": {
+     "ko": "앞선 사건을 말할 때",
+     "en": "Describing an earlier event"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "道を歩いていたとき、誰かが私の名前を呼びました。",
+    "read": "みちをあるいていたとき、だれかがわたしのなまえをよびました。",
+    "ko": "나는 길을 걷고 있었는데 누군가 내 이름을 불렀어요.",
+    "en": "I was walking down the street when someone called my name.",
+    "situation": {
+     "ko": "배경과 사건을 함께 말할 때",
+     "en": "Combining background and event"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "子どものころ、毎年夏は海に行ったものです。",
+    "read": "こどものころ、まいとしなつはうみにいったものです。",
+    "ko": "어릴 때 우리는 매년 여름 바다에 가곤 했어요.",
+    "en": "As children, we would go to the sea every summer.",
+    "situation": {
+     "ko": "과거 습관을 말할 때",
+     "en": "Describing past habits"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "ある日、見知らぬ手紙が届きました。",
+    "read": "あるにち、みしらぬてがみがとどきました。",
+    "ko": "그러던 어느 날 낯선 편지가 도착했어요.",
+    "en": "One day an unfamiliar letter arrived.",
+    "situation": {
+     "ko": "사건을 도입할 때",
+     "en": "Introducing an event"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "そのとき電話が鳴り、すべてが変わりました。",
+    "read": "そのときでんわがなり、すべてがかわりました。",
+    "ko": "그 순간 전화가 울리고 모든 것이 바뀌었어요.",
+    "en": "At that moment the phone rang and everything changed.",
+    "situation": {
+     "ko": "전환점을 말할 때",
+     "en": "Describing a turning point"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "やがて、彼はすべての真実を知りました。",
+    "read": "やがて、かれはすべてのしんじつをしりました。",
+    "ko": "마침내 그는 모든 진실을 알게 되었어요.",
+    "en": "Eventually he learned the whole truth.",
+    "situation": {
+     "ko": "결말을 향해 갈 때",
+     "en": "Moving to the ending"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "ドアを開けると、そこには誰もいません。",
+    "read": "ドアをあけると、そこにはだれもいません。",
+    "ko": "그가 문을 열자 아무도 없었어요.",
+    "en": "He opens the door, and there's nobody there.",
+    "situation": {
+     "ko": "생생하게 현재형으로 말할 때",
+     "en": "Using the historic present"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "振り返ると、あれは私たちの人生の転機でした。",
+    "read": "ふりかえると、あれはわたしたちのひとうのてんきでした。",
+    "ko": "돌이켜보면 그건 우리 인생의 전환점이었어요.",
+    "en": "Looking back, it was a turning point in our lives.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Concluding a story"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜たとき、すでに〜ていました。",
+    "read": "〜たとき、すでに〜ていました。",
+    "ko": "~했을 때 이미 ~했다.",
+    "en": "When ..., ... had already ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜ていたとき、〜。",
+    "read": "〜ていたとき、〜。",
+    "ko": "~하고 있었는데 ~했다.",
+    "en": "I was -ing when ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜ものでした。",
+    "read": "〜ものでした。",
+    "ko": "어릴 때 ~하곤 했다.",
+    "en": "As a child, I would/used to ..."
+   },
+   {
+    "id": "w4",
+    "t": "やがて、〜。",
+    "read": "やがて、〜。",
+    "ko": "마침내 ~.",
+    "en": "Eventually, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "과거의 한 사건을 배경·전개·전환점·결말이 있는 4문장 이야기로 써 보세요.",
+    "en": "Tell a past event in 4 sentences: setting, development, turning point, ending."
+   },
+   "must_include": [
+    {
+     "label": "ていました",
+     "match": [
+      "ていました"
+     ]
+    },
+    {
+     "label": "そのとき",
+     "match": [
+      "そのとき"
+     ]
+    },
+    {
+     "label": "やがて",
+     "match": [
+      "やがて"
+     ]
+    }
+   ],
+   "model": "冬の夕方、私は電車を待ちながら本を読んでいました。そのころには、ホームの人はみんな帰っていました。そのとき、一人の老人が近づいて、古い手紙を渡しました。やがて、それがずっと前になくした手紙だと気づきました。",
+   "model_trans": {
+    "ko": "어느 겨울 저녁, 나는 기차를 기다리며 책을 읽고 있었습니다. 승강장에는 이미 사람들이 모두 떠난 뒤였습니다. 그 순간 한 노인이 다가와 낡은 편지 한 통을 건넸습니다. 마침내 나는 그 편지가 오래전 잃어버린 내 것이었음을 알게 되었습니다.",
+    "en": "One winter evening, I was reading a book while waiting for a train. By then, everyone on the platform had already left. At that moment an old man approached and handed me a worn letter. Eventually, I realised it was one I had lost long ago."
+   }
+  }
+ }
+}

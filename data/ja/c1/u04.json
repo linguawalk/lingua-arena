@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u04",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 4,
+  "concept": "C1.U04",
+  "status": "live",
+  "title": {
+   "target": "省略と代用表現",
+   "ko": "생략과 대용",
+   "en": "Ellipsis and substitution"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "繰り返し",
+   "pos": "noun",
+   "read": "くりかえし",
+   "ko": "반복",
+   "en": "repetition",
+   "ex": {
+    "t": "文章では不必要な繰り返しを避けましょう。",
+    "read": "ぶんしょうではふひつようなくりかえしをさけましょう。",
+    "ko": "글에서 불필요한 반복을 피하세요.",
+    "en": "Avoid unnecessary repetition in writing."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "簡潔な",
+   "pos": "adj",
+   "read": "かんけつな",
+   "ko": "간결한",
+   "en": "concise",
+   "ex": {
+    "t": "簡潔な文のほうが説得力があります。",
+    "read": "かんけつなぶんのほうがせっとくりょくがあります。",
+    "ko": "간결한 문장이 더 설득력이 있어요.",
+    "en": "Concise sentences are more persuasive."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "省く",
+   "pos": "verb",
+   "read": "はぶく",
+   "ko": "생략하다",
+   "en": "omit",
+   "ex": {
+    "t": "文脈でわかる言葉は省いてもかまいません。",
+    "read": "ぶんみゃくでわかることばははぶいてもかまいません。",
+    "ko": "문맥으로 알 수 있으면 단어를 생략해도 돼요.",
+    "en": "You may omit words that are clear from context."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "代わりをする",
+   "pos": "verb",
+   "read": "かわりをする",
+   "ko": "대신하다",
+   "en": "substitute",
+   "ex": {
+    "t": "代名詞は名詞の代わりをします。",
+    "read": "だいめいしはめいしのかわりをします。",
+    "ko": "대명사가 명사를 대신해요.",
+    "en": "A pronoun substitutes for a noun."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "文脈",
+   "pos": "noun",
+   "read": "ぶんみゃく",
+   "ko": "문맥",
+   "en": "context",
+   "ex": {
+    "t": "文脈によって意味が変わります。",
+    "read": "ぶんみゃくによっていみがかわります。",
+    "ko": "문맥에 따라 뜻이 달라져요.",
+    "en": "The meaning changes with context."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "明らかにする",
+   "pos": "verb",
+   "read": "あきらかにする",
+   "ko": "명확하게 하다",
+   "en": "clarify",
+   "ex": {
+    "t": "彼女は質問の意味を明らかにしました。",
+    "read": "かのじょはしつもんのいみをあきらかにしました。",
+    "ko": "그녀는 질문을 명확히 했어요.",
+    "en": "She clarified the question."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "前述の",
+   "pos": "adj",
+   "read": "ぜんじゅつの",
+   "ko": "앞서 언급한",
+   "en": "aforementioned",
+   "ex": {
+    "t": "前述の問題を解決しなければなりません。",
+    "read": "ぜんじゅつのもんだいをかいけつしなければなりません。",
+    "ko": "앞서 언급한 문제를 해결해야 해요.",
+    "en": "We must resolve the aforementioned issue."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "それぞれ",
+   "pos": "adv",
+   "read": "それぞれ",
+   "ko": "각각",
+   "en": "respectively",
+   "ex": {
+    "t": "二人はそれぞれ医者と弁護士です。",
+    "read": "ふたりはそれぞれいしゃとべんごしです。",
+    "ko": "두 사람은 각각 의사와 변호사예요.",
+    "en": "They are a doctor and a lawyer respectively."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "〜と思われる",
+   "pos": "verb",
+   "read": "〜とおもわれる",
+   "ko": "추측하다",
+   "en": "presume",
+   "ex": {
+    "t": "彼は来ると思われます。",
+    "read": "かれはくるとおもわれます。",
+    "ko": "나는 그가 올 거라고 추측해요.",
+    "en": "I presume that he will come."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "言い換えれば",
+   "pos": "phrase",
+   "read": "いいかえれば",
+   "ko": "다시 말해",
+   "en": "in other words",
+   "ex": {
+    "t": "言い換えれば、計画を変える必要があります。",
+    "read": "いいかえれば、けいかくをかえるひつようがあります。",
+    "ko": "다시 말해 우리는 계획을 바꿔야 해요.",
+    "en": "In other words, we need to change the plan."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "そう／そうしない／〜の（代用）／省略",
+   "en": "Ellipsis and substitution: そう / そうする / 〜の / omitting known words"
+  },
+  "explain": {
+   "ko": "日本語は、文脈でわかることを省くのが自然です。質問に答えるときは「彼は来ると思う？」「そう思います。」と「そう」で代用します。名詞の繰り返しは「の」で避けます：「古い車を売って、新しいのを買いました。」否定は「そうは思いません」。「それぞれ」は二人以上のことを順番に示します。",
+   "en": "Japanese naturally omits what context makes clear. In answers, 「そう」 substitutes: 「彼は来ると思う？」「そう思います。」 「の」 avoids repeating a noun: 「古い車を売って、新しいのを買いました。」 Negatives: 「そうは思いません」. 「それぞれ」 assigns items in order."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "代用 / Substitute",
+     "そう思う／そうしたい",
+     "来ると思う？—そう思います。"
+    ],
+    [
+     "名詞の代わり / Noun",
+     "〜の",
+     "青いのより白いのが好きです。"
+    ],
+    [
+     "否定 / Negative",
+     "そうは思わない",
+     "雨が降る？—そうは思いません。"
+    ],
+    [
+     "それぞれ / Respectively",
+     "それぞれ",
+     "二人はそれぞれ医者と弁護士です。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「の」は名詞の代わりで、「ここにあるの」のように使います。",
+    "en": "「の」 stands in for a noun, as in 「ここにあるの」."
+   },
+   {
+    "ko": "省略しすぎると意味が不明になるので、読む人を考えましょう。",
+    "en": "Omit too much and meaning is lost; think of the reader."
+   },
+   {
+    "ko": "「前述の」「言い換えれば」は書き言葉で便利な表現です。",
+    "en": "「前述の」 and 「言い換えれば」 are handy in writing."
+   }
+  ],
+  "examples": [
+   {
+    "t": "彼は来ると思う？—そう思います。",
+    "read": "かれはくるとおもう？—そうおもいます。",
+    "ko": "그가 올 것 같아요? — 그럴 것 같아요.",
+    "en": "Do you think he'll come? — I think so."
+   },
+   {
+    "t": "古い車を売って、新しいのを買いました。",
+    "read": "ふるいくるまをうって、あたらしいのをかいました。",
+    "ko": "낡은 차는 팔고 새 것을 샀어요.",
+    "en": "I sold my old car and bought a new one."
+   },
+   {
+    "t": "好きなようにしてもかまいません。",
+    "read": "すきなようにしてもかまいません。",
+    "ko": "원하는 대로 하셔도 됩니다.",
+    "en": "You may do as you wish."
+   },
+   {
+    "t": "行くように言いましたが、彼は行きたくないようでした。",
+    "read": "いくようにいいましたが、かれはいきたくないようでした。",
+    "ko": "가라고 했지만 그는 가지 않으려 했어요.",
+    "en": "I told him to go, but he didn't want to."
+   },
+   {
+    "t": "AさんとBさんは、それぞれ医者と弁護士です。",
+    "read": "AさんとBさんは、それぞれいしゃとべんごしです。",
+    "ko": "A는 의사이고 B는 변호사예요, 각각.",
+    "en": "A and B are a doctor and a lawyer respectively."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "彼は来ると思う？—___思います。",
+    "options": [
+     "そう",
+     "どう",
+     "こう"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "古い車を売って、新しい___を買いました。",
+    "options": [
+     "の",
+     "こと",
+     "もの"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "雨が降る？—そうは思い___。",
+    "options": [
+     "ません",
+     "ました",
+     "ます"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "二人は___医者と弁護士です。",
+    "options": [
+     "それぞれ",
+     "ときどき",
+     "ずっと"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どのパソコンを買いましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 새 노트북은 어떤 것을 샀어요?",
+     "en": "(Question) Which laptop did you buy?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "画面が大きいほうの黒いのです。",
+       "来週の月曜日です。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "彼は会議に来ると思いますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 회의에 올 것 같아요?",
+     "en": "(Question) Do you think he'll come to the meeting?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "そうは思いません。",
+       "三階に住んでいます。",
+       "昨日買いました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "青いシャツと白いのと、どっちがいい？"
+      },
+      {
+       "s": "B",
+       "t": "青いほうがいいと思う。"
+      },
+      {
+       "s": "A",
+       "t": "実は白いのが好きなんだ。"
+      },
+      {
+       "s": "B",
+       "t": "じゃあ、両方買えば？セールだよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 파란 셔츠랑 흰 셔츠 중에 뭐가 나아?\nB: 나는 파란 것이 더 좋아 보여.\nA: 사실 나는 흰 것이 더 끌려.\nB: 그럼 두 개 다 사지 그래? 할인 중이야.",
+     "en": "A: Which looks better, the blue shirt or the white one?\nB: I think the blue one looks better.\nA: Actually, I prefer the white one.\nB: Why not buy both? They're on sale."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人は何を提案していますか。",
+      "options": [
+       "両方のシャツを買うこと",
+       "何も買わないこと",
+       "白いのを返すこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "会議についてのお知らせです。前述のとおり、会議は金曜日に変更になりました。出席できない場合は事前にお知らせください。それも難しい場合は、代理の方を出してください。詳細はメールでお送りします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "회의 일정에 대해 안내드립니다. 앞서 언급한 대로 회의는 금요일로 옮겨졌습니다. 참석이 어려운 분은 미리 알려 주시고, 그렇게 하실 수 없으면 대리인을 보내 주세요. 자세한 내용은 이메일로 보내 드리겠습니다.",
+     "en": "A note about the meeting. As mentioned above, the meeting has moved to Friday. If you can't attend, please let us know in advance; if you can't do so, send a representative. Details will follow by email."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "会議はいつに変更になりましたか。",
+      "options": [
+       "金曜日",
+       "月曜日",
+       "来月"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ご注文はお決まりですか。"
+      },
+      {
+       "s": "B",
+       "t": "大きいサラダと小さいスープをお願いします。"
+      },
+      {
+       "s": "A",
+       "t": "お飲み物は？"
+      },
+      {
+       "s": "B",
+       "t": "私は紅茶、友達はコーヒーにします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 주문하시겠어요?\n손님: 샐러드는 큰 것으로, 수프는 작은 것으로 주세요.\n직원: 음료는요?\n손님: 저는 차를, 친구는 커피를 마실게요.",
+     "en": "Waiter: Would you like to order?\nCustomer: A large salad and a small soup, please.\nWaiter: Anything to drink?\nCustomer: I'll have tea and my friend coffee."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さんは大きい______を注文します",
+      "answers": [
+       "サラダ"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "友達は______を飲みます",
+      "answers": [
+       "コーヒー"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 彼は来ると思う？—___思います。\n2) 古い車を売って、新しい___を買いました。\n3) 二人は___医者と弁護士です。",
+    "trans": {
+     "ko": "1) 그가 올 것 같아요? — 그럴 것 같아요. 2) 낡은 차는 팔고 새 것을 샀어요. 3) 가라고 했지만 그는 가고 싶어 하지 않았어요.",
+     "en": "1) Do you think he'll come? — I think so. 2) I sold my old car and bought a new one. 3) I told him to go, but he didn't want to."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "彼は来ると思う？—___思います。",
+      "options": [
+       "そう",
+       "どう",
+       "こう"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "古い車を売って、新しい___を買いました。",
+      "options": [
+       "の",
+       "こと",
+       "もの"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "二人は___医者と弁護士です。",
+      "options": [
+       "それぞれ",
+       "ときどき",
+       "ずっと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私たちは二つの提案を検討しました。最初のは安く、二つ目は早く(1)。どちらがいいかと聞かれたら、最初のを選ぶと(2)。長い目で見れば、そのほうが得だと(3)。",
+    "trans": {
+     "ko": "우리는 두 개의 제안을 검토했습니다. 첫 번째는 비용이 적게 들고 두 번째는 시간이 적게 걸립니다. 어느 쪽을 선택할지 묻는다면 저는 첫 번째 것이라고 대답하겠습니다. 그렇게 하는 것이 장기적으로 더 이익이라고 생각합니다.",
+     "en": "We reviewed two proposals. The first is cheaper and the second quicker. If asked which to choose, I would say the first one. I believe doing so is more profitable in the long term."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "終わります",
+       "高いです",
+       "小さいです"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "答えます",
+       "忘れます",
+       "売ります"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "思います",
+       "遅いです",
+       "短いです"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "メール\nプロジェクトの連絡\n前述のとおり、プロジェクトの締め切りは延長されました。チームのメンバーはそれぞれ自分の報告書を提出してください。二人のリーダーは、それぞれデザインと開発を担当します。質問があればお知らせください。",
+    "trans": {
+     "ko": "이메일\n프로젝트 변경 안내\n앞서 언급한 대로 프로젝트 마감이 연장되었습니다. 팀원은 각자 자신의 보고서를 제출해 주세요. 담당자 두 명은 각각 디자인과 개발을 맡습니다. 궁금한 점이 있으면 그렇게 해 주세요.",
+     "en": "EMAIL\nProject update\nAs mentioned above, the project deadline has been extended. Team members should submit their own reports. The two leads will handle design and development respectively. If you have questions, please let us know."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "締め切りはどうなりましたか。",
+      "options": [
+       "延長された",
+       "短縮された",
+       "変わらない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "二人のリーダーは何を担当しますか。",
+      "options": [
+       "それぞれデザインと開発",
+       "どちらも営業",
+       "二人とも経理"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "プロジェクトの締め切りは延長されました。メンバーは共同の報告書を出さなければなりません。担当者は二人います。",
+    "trans": {
+     "ko": "프로젝트 마감이 연장되었다. 팀원들은 보고서를 함께 제출해야 한다. 담당자는 두 명이다.",
+     "en": "The project deadline has been extended. Team members must submit a joint report. There are two people in charge."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "プロジェクトの締め切りは延長された。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "メンバーは共同の報告書を出す。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "プロジェクトは来年終わる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "雨が降りますか。—そうは思いません。",
+    "read": "あめがおりますか。—そうはおもいません。",
+    "ko": "비가 올까요? — 그렇지 않을 거예요.",
+    "en": "Will it rain? — I don't think so.",
+    "situation": {
+     "ko": "대답에서 so/not을 쓸 때",
+     "en": "Using so/not in an answer"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "赤いのより青いのが好きです。",
+    "read": "あかいのよりあおいのがすきです。",
+    "ko": "저는 빨간 것보다 파란 것이 더 좋아요.",
+    "en": "I prefer the blue one to the red one.",
+    "situation": {
+     "ko": "one/ones로 반복을 피할 때",
+     "en": "Avoiding repetition with one/ones"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "彼女は行きたがりましたが、私は行きたくありませんでした。",
+    "read": "かのじょはいきたがりましたが、わたしはいきたくありませんでした。",
+    "ko": "그녀는 가고 싶어 했지만 저는 그러고 싶지 않았어요.",
+    "en": "She wanted to go, but I didn't want to.",
+    "situation": {
+     "ko": "to로 동사구를 생략할 때",
+     "en": "Omitting a verb phrase after to"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "そうしてもかまいませんが、その必要はありません。",
+    "read": "そうしてもかまいませんが、そのひつようはありません。",
+    "ko": "그렇게 해도 되지만 굳이 그럴 필요는 없어요.",
+    "en": "You can do so, but you needn't.",
+    "situation": {
+     "ko": "do so로 반복을 피할 때",
+     "en": "Using do so"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "前述のとおり、日程が変わりました。",
+    "read": "ぜんじゅつのとおり、にっていがかわりました。",
+    "ko": "앞서 언급한 대로 일정이 변경되었습니다.",
+    "en": "As mentioned above, the schedule has changed.",
+    "situation": {
+     "ko": "공식 글에서 앞 내용을 가리킬 때",
+     "en": "Referring back in formal text"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "私はコーヒー、彼は紅茶にしました。",
+    "read": "わたしはコーヒー、かれはこうちゃにしました。",
+    "ko": "저는 커피를, 그는 차를 마셨어요.",
+    "en": "I had coffee and he tea.",
+    "situation": {
+     "ko": "gapping으로 간결하게 쓸 때",
+     "en": "Gapping for concision"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "できれば早く来てください。",
+    "read": "できればはやくきてください。",
+    "ko": "가능하면 일찍 오세요.",
+    "en": "Come early if possible.",
+    "situation": {
+     "ko": "문장 일부를 생략할 때",
+     "en": "Reducing a clause"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "言い換えれば、方向を変える必要があります。",
+    "read": "いいかえれば、ほうこうをかえるひつようがあります。",
+    "ko": "다시 말해, 우리는 방향을 바꿔야 합니다.",
+    "en": "In other words, we must change direction.",
+    "situation": {
+     "ko": "요약해서 정리할 때",
+     "en": "Rephrasing to summarise"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "そう思います／そうは思いません。",
+    "read": "そうおもいます／そうはおもいません。",
+    "ko": "~라고 생각해요 (so).",
+    "en": "I think/hope/suppose so."
+   },
+   {
+    "id": "w2",
+    "t": "赤いの／青いのがいいです。",
+    "read": "あかいの／あおいのがいいです。",
+    "ko": "~하지 않을 것 같아요 (not).",
+    "en": "I hope/suppose/guess not."
+   },
+   {
+    "id": "w3",
+    "t": "そうしてもかまいません。",
+    "read": "そうしてもかまいません。",
+    "ko": "그것 (one/ones).",
+    "en": "the red one / the blue ones"
+   },
+   {
+    "id": "w4",
+    "t": "それぞれ〜です。",
+    "read": "それぞれ〜です。",
+    "ko": "그렇게 하다 (do so).",
+    "en": "You may do so."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "대용 표현과 생략을 써서 반복을 줄인 글을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences that avoid repetition using substitution and ellipsis."
+   },
+   "must_include": [
+    {
+     "label": "そう",
+     "match": [
+      "そう"
+     ]
+    },
+    {
+     "label": "それぞれ",
+     "match": [
+      "それぞれ"
+     ]
+    },
+    {
+     "label": "思いません",
+     "match": [
+      "思いません"
+     ]
+    }
+   ],
+   "model": "私は二つのオフィスのうち、広いほうを選びました。同僚は狭いほうが静かだと言いましたが、私はそうは思いませんでした。移りたい人はそうしてもかまいません。二つのオフィスは、それぞれ三階と四階にあります。私は移るつもりはありません。",
+   "model_trans": {
+    "ko": "저는 두 개의 사무실 중 더 큰 것을 선택했어요. 동료들은 작은 것이 더 조용하다고 했지만 저는 그렇게 생각하지 않았어요. 원하는 사람은 옮겨도 됩니다. 두 사무실은 각각 3층과 4층에 있어요. 저는 그러지 않을 것 같아요.",
+    "en": "I chose the larger of the two offices. My colleagues said the smaller one was quieter, but I didn't think so. Those who wish to move may do so. The two offices are on the third and fourth floors respectively. I don't think I will."
+   }
+  }
+ }
+}

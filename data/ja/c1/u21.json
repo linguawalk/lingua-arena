@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u21",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 21,
+  "concept": "C1.U21",
+  "status": "live",
+  "title": {
+   "target": "要旨と研究の要約",
+   "ko": "초록과 연구 요약",
+   "en": "Abstracts and research summaries"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "要旨",
+   "pos": "noun",
+   "read": "ようし",
+   "ko": "초록",
+   "en": "abstract",
+   "ex": {
+    "t": "要旨は百五十語以内にまとめます。",
+    "read": "ようしはひゃくごじゅうごいないにまとめます。",
+    "ko": "논문 초록은 150단어 이내로 쓰세요.",
+    "en": "Keep the abstract within 150 words."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "方法論",
+   "pos": "noun",
+   "read": "ほうほうろん",
+   "ko": "방법론",
+   "en": "methodology",
+   "ex": {
+    "t": "方法論は明確に説明する必要があります。",
+    "read": "ほうほうろんはめいかくにせつめいするひつようがあります。",
+    "ko": "방법론이 명확히 설명되어야 해요.",
+    "en": "The methodology should be clearly explained."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "標本",
+   "pos": "noun",
+   "read": "ひょうほん",
+   "ko": "표본",
+   "en": "sample",
+   "ex": {
+    "t": "標本が小さすぎます。",
+    "read": "ひょうほんがちいさすぎます。",
+    "ko": "표본이 너무 작아요.",
+    "en": "The sample is too small."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "調査する",
+   "pos": "verb",
+   "read": "ちょうさする",
+   "ko": "조사하다",
+   "en": "investigate",
+   "ex": {
+    "t": "この研究は睡眠と記憶の関係を調査しました。",
+    "read": "このけんきゅうはすいみんときおくのかんけいをちょうさしました。",
+    "ko": "이 연구는 수면과 기억의 관계를 조사했어요.",
+    "en": "This study investigated the link between sleep and memory."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "結果",
+   "pos": "noun",
+   "read": "けっか",
+   "ko": "결과",
+   "en": "findings",
+   "ex": {
+    "t": "結果は仮説を支持しました。",
+    "read": "けっかはかせつをしじしました。",
+    "ko": "연구 결과는 가설을 지지했어요.",
+    "en": "The findings supported the hypothesis."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "示唆",
+   "pos": "noun",
+   "read": "しさ",
+   "ko": "시사점",
+   "en": "implication",
+   "ex": {
+    "t": "政策への示唆があります。",
+    "read": "せいさくへのしさがあります。",
+    "ko": "정책에 대한 시사점이 있어요.",
+    "en": "There are implications for policy."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "変数",
+   "pos": "noun",
+   "read": "へんすう",
+   "ko": "변수",
+   "en": "variable",
+   "ex": {
+    "t": "二つの変数の関係を分析しました。",
+    "read": "ふたつのへんすうのかんけいをぶんせきしました。",
+    "ko": "두 변수의 관계를 분석했어요.",
+    "en": "We analysed the relationship between two variables."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "有意な",
+   "pos": "adj",
+   "read": "ゆういな",
+   "ko": "유의미한",
+   "en": "significant",
+   "ex": {
+    "t": "統計的に有意な差がありました。",
+    "read": "とうけいてきにゆういなさがありました。",
+    "ko": "통계적으로 유의미한 차이가 있었어요.",
+    "en": "There was a statistically significant difference."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "提案する",
+   "pos": "verb",
+   "read": "ていあんする",
+   "ko": "제안하다",
+   "en": "propose",
+   "ex": {
+    "t": "著者らは新しいモデルを提案しました。",
+    "read": "ちょしゃらはあたらしいモデルをていあんしました。",
+    "ko": "저자들은 새로운 모델을 제안했어요.",
+    "en": "The authors proposed a new model."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "さらなる研究",
+   "pos": "noun",
+   "read": "さらなるけんきゅう",
+   "ko": "추가 연구",
+   "en": "further research",
+   "ex": {
+    "t": "さらなる研究が必要です。",
+    "read": "さらなるけんきゅうがひつようです。",
+    "ko": "추가 연구가 필요해요.",
+    "en": "Further research is needed."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜を調査した／〜ことを示している／〜が必要である",
+   "en": "Abstracts: 〜を調査した / 〜ことを示している / 〜が必要である"
+  },
+  "explain": {
+   "ko": "要旨は論文全体を短くまとめた文章です。目的は「本研究は〜を調査した」、方法は「〜を対象に調査を行った」、結果は「結果は〜ことを示している」、結論は「さらなる研究が必要である」と書きます。日本語の論文では「〜した／〜である」のような常体を使い、「私」は使いません。分量は一般に四百字から六百字ほどです。",
+   "en": "An abstract summarises the whole paper briefly. Purpose: 「本研究は〜を調査した」; method: 「〜を対象に調査を行った」; result: 「結果は〜ことを示している」; conclusion: 「さらなる研究が必要である」. Japanese papers use the plain 「〜した／〜である」 style and avoid 「私」. Length is typically 400–600 characters."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "目的 / Aim",
+     "本研究は〜を調査した",
+     "睡眠と記憶の関係を調査した。"
+    ],
+    [
+     "方法 / Method",
+     "〜を対象に〜を行った",
+     "百人を対象に調査を行った。"
+    ],
+    [
+     "結果 / Result",
+     "結果は〜ことを示している",
+     "差があることを示している。"
+    ],
+    [
+     "結論 / Conclusion",
+     "〜が必要である",
+     "さらなる研究が必要である。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "要旨には、目的・方法・結果・結論を順に入れます。",
+    "en": "Include aim, method, result and conclusion in order."
+   },
+   {
+    "ko": "限界と示唆を一緒に書きます。",
+    "en": "State limits and implications together."
+   },
+   {
+    "ko": "「私」や感情的な表現は避けます。",
+    "en": "Avoid 「私」 and emotive wording."
+   }
+  ],
+  "examples": [
+   {
+    "t": "本研究は、睡眠と記憶の関係を調査した。",
+    "read": "ほんけんきゅうは、すいみんときおくのかんけいをちょうさした。",
+    "ko": "이 연구는 수면과 기억의 관계를 조사했어요.",
+    "en": "This study investigates the relationship between sleep and memory."
+   },
+   {
+    "t": "結果は仮説を支持した。",
+    "read": "けっかはかせつをしじした。",
+    "ko": "연구 결과는 가설을 지지했어요.",
+    "en": "The findings support the hypothesis."
+   },
+   {
+    "t": "標本が小さいため、一般化には限界がある。",
+    "read": "ひょうほんがちいさいため、いっぱんかにはげんかいがある。",
+    "ko": "표본이 작아서 일반화에 한계가 있어요.",
+    "en": "The small sample limits generalisability."
+   },
+   {
+    "t": "統計的に有意な差が確認された。",
+    "read": "とうけいてきにゆういなさがかくにんされた。",
+    "ko": "통계적으로 유의미한 차이가 확인되었어요.",
+    "en": "A statistically significant difference was found."
+   },
+   {
+    "t": "さらなる研究が必要であると結論づけた。",
+    "read": "さらなるけんきゅうがひつようであるとけつろんづけた。",
+    "ko": "추가 연구가 필요하다고 결론지었어요.",
+    "en": "It is concluded that further research is needed."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "本研究は、睡眠と記憶の関係を___した。",
+    "options": [
+     "調査",
+     "反対",
+     "中止"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "結果は仮説を___した。",
+    "options": [
+     "支持",
+     "禁止",
+     "延期"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "標本が小さいため、一般化には___がある。",
+    "options": [
+     "限界",
+     "利益",
+     "規則"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___研究が必要であると結論づけた。",
+    "options": [
+     "さらなる",
+     "過去の",
+     "偶然の"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この研究は何を調べていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 연구는 무엇을 조사하나요?",
+     "en": "(Question) What does this study examine?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "睡眠と学業成績の関係を調べます。",
+       "食事と運動を調べます。",
+       "何も調べません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "研究の方法は何でしたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 연구 방법은 무엇이었나요?",
+     "en": "(Question) What was the research method?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "アンケート調査を行いました。",
+       "実験はしませんでした。",
+       "本だけ読みました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "論文の要旨を書いたんだけど、読んでくれる？"
+      },
+      {
+       "s": "B",
+       "t": "目的、方法、結果、結論が全部入っているね。"
+      },
+      {
+       "s": "A",
+       "t": "長さは大丈夫？"
+      },
+      {
+       "s": "B",
+       "t": "百五十語以内だから、ちょうどいいよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 논문 초록을 썼는데 읽어 봐 줄래?\nB: 목적, 방법, 결과, 결론이 다 들어 있네.\nA: 분량은 괜찮아?\nB: 150단어 이내라서 적당해.",
+     "en": "A: I've written the abstract; could you read it?\nB: It has aim, method, results and conclusion.\nA: Is the length OK?\nB: It's under 150 words, so it's fine."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "要旨の長さはどうですか。",
+      "options": [
+       "百五十語以内で適当",
+       "長すぎる",
+       "短すぎる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要旨は論文全体を短くまとめた文章です。研究の目的、方法、主な結果、結論を順に入れなければなりません。現在形と過去形を使い分け、受け身もよく使います。分量は普通、百五十語以内です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "초록은 논문 전체를 짧게 요약한 글입니다. 연구 목적, 방법, 주요 결과, 결론이 순서대로 들어가야 합니다. 현재 시제와 과거 시제를 구분해 쓰고, 수동태를 자주 사용합니다. 분량은 보통 백오십 단어 이내입니다.",
+     "en": "An abstract is a short summary of a whole paper. It should present the aim, method, main results and conclusion in order. Present and past tenses are distinguished, and the passive is often used. The length is normally within 150 words."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "要旨には何が順に入りますか。",
+      "options": [
+       "目的・方法・結果・結論",
+       "あいさつ・冗談・結論",
+       "参考文献だけ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要旨の結論が弱い気がします。"
+      },
+      {
+       "s": "B",
+       "t": "示唆と限界を一緒に書いてください。"
+      },
+      {
+       "s": "A",
+       "t": "さらなる研究が必要だという一言も入れましょうか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、それがいいです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "학생: 제 초록의 결론이 약한 것 같아요.\n교수: 시사점과 한계를 함께 쓰세요.\n학생: 추가 연구가 필요하다는 말도 넣을까요?\n교수: 네, 그게 좋습니다.",
+     "en": "Student: I think the conclusion in my abstract is weak.\nProfessor: Add the implications and limitations together.\nStudent: Should I add that further research is needed?\nProfessor: Yes, that would be good."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "学生は要旨の______が弱いと思っています",
+      "answers": [
+       "結論"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "教授は示唆と______を一緒に書くよう言います",
+      "answers": [
+       "限界"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 本研究は、睡眠と記憶の関係を___した。\n2) 結果は仮説を___した。\n3) 標本が小さいため、一般化には___がある。",
+    "trans": {
+     "ko": "1) 이 연구는 수면과 기억의 관계를 조사했어요. 2) 연구 결과는 가설을 지지했어요. 3) 표본이 작아서 일반화에 한계가 있어요.",
+     "en": "1) This study investigates the relationship between sleep and memory. 2) The findings support the hypothesis. 3) The small sample limits generalisability."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "本研究は、睡眠と記憶の関係を___した。",
+      "options": [
+       "調査",
+       "反対",
+       "中止"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "結果は仮説を___した。",
+      "options": [
+       "支持",
+       "禁止",
+       "延期"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "標本が小さいため、一般化には___がある。",
+      "options": [
+       "限界",
+       "利益",
+       "規則"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "本論文は、ソーシャルメディアの利用時間と青少年の抑うつ感の関係を(1)。千人の青少年を(2)にアンケート調査を行った。分析の結果、利用時間が長いほど抑うつ感が高い傾向が見られた。ただし、因果関係を断定することは(3)。",
+    "trans": {
+     "ko": "이 논문은 소셜 미디어 사용 시간과 청소년의 우울감 사이의 관계를 조사했다. 천 명의 청소년을 대상으로 설문 조사를 실시했다. 분석 결과, 사용 시간이 길수록 우울감이 높은 경향이 나타났다. 다만 인과 관계를 단정할 수는 없다.",
+     "en": "This paper investigated the relationship between social media use and depressive feelings among teenagers. A survey was carried out with one thousand teenagers. The analysis showed a tendency for longer use to be associated with higher depression. However, a causal relationship cannot be asserted."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "調査した",
+       "無視した",
+       "隠した"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "対象",
+       "目的",
+       "主題"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "できない",
+       "できる",
+       "多い"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "論文の要旨\n都市の緑地と健康\n本研究は、都市の緑地面積と住民の健康との関係を分析した。ソウル市民五百人を対象に、アンケートと健康診断のデータを収集した。結果は、緑地が広いほどストレスが低いことを示している。これは都市計画への示唆を与える。",
+    "trans": {
+     "ko": "논문 초록\n도시 녹지와 건강\n이 연구는 도시 녹지 면적과 주민 건강 사이의 관계를 분석했다. 서울 시민 오백 명을 대상으로 설문과 건강 검진 자료를 수집했다. 결과는 녹지가 넓을수록 스트레스 수준이 낮음을 보여 준다. 이는 도시 계획에 대한 시사점을 제공한다.",
+     "en": "ABSTRACT\nUrban green space and health\nThis study analysed the relationship between urban green space and residents' health. Survey and health-check data were collected from five hundred Seoul residents. The results show that more green space is associated with lower stress. This has implications for urban planning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この研究は何の関係を分析しましたか。",
+      "options": [
+       "都市の緑地面積と住民の健康",
+       "交通量と騒音",
+       "収入と教育"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "結果は何を示していますか。",
+      "options": [
+       "緑地が広いほどストレスが低いこと",
+       "緑地が広いほどストレスが高いこと",
+       "関係がないこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "研究はソウル市民五百人を調べました。緑地が広いほどストレスが高いです。研究は都市計画への示唆を与えます。",
+    "trans": {
+     "ko": "연구는 서울 시민 오백 명을 조사했다. 녹지가 넓을수록 스트레스 수준이 높다. 연구는 도시 계획에 시사점을 준다.",
+     "en": "The study surveyed five hundred Seoul residents. More green space means higher stress. The study has implications for urban planning."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "研究はソウル市民五百人を調べた。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "緑地が広いほどストレスが高い。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "研究は都市計画への示唆を与える。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "本研究は、睡眠と学業成績の関係を調査する。",
+    "read": "ほんけんきゅうは、すいみんとがくぎょうせいせきのかんけいをちょうさする。",
+    "ko": "이 연구는 수면 시간과 학업 성취의 관계를 조사합니다.",
+    "en": "This study examines the relationship between sleep and academic achievement.",
+    "situation": {
+     "ko": "초록 첫 문장",
+     "en": "Opening an abstract"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "百人の学生を対象にアンケート調査を行った。",
+    "read": "ひゃくにんのがくせいをたいしょうにアンケートちょうさをいった。",
+    "ko": "백 명의 학생을 대상으로 설문 조사를 실시했습니다.",
+    "en": "A survey was conducted with one hundred students.",
+    "situation": {
+     "ko": "방법을 설명할 때",
+     "en": "Describing the method"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "結果は、睡眠が長いほど成績が高い傾向を示している。",
+    "read": "けっかは、すいみんがながいほどせいせきがたかいけいこうをしめしている。",
+    "ko": "결과는 수면 시간이 길수록 성적이 높음을 보여 줍니다.",
+    "en": "The findings indicate that longer sleep is associated with higher grades.",
+    "situation": {
+     "ko": "결과를 요약할 때",
+     "en": "Summarising results"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "この差は統計的に有意であった。",
+    "read": "このさはとうけいてきにゆういであった。",
+    "ko": "이 차이는 통계적으로 유의미했습니다.",
+    "en": "This difference was statistically significant.",
+    "situation": {
+     "ko": "수치를 보고할 때",
+     "en": "Reporting figures"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "標本が小さいため、結果を一般化するのは難しい。",
+    "read": "ひょうほんがちいさいため、けっかをいっぱんかするのはむずかしい。",
+    "ko": "표본이 작았기 때문에 결과를 일반화하기는 어렵습니다.",
+    "en": "Because the sample was small, the results are difficult to generalise.",
+    "situation": {
+     "ko": "한계를 말할 때",
+     "en": "Stating limitations"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "これらの結果は教育政策に重要な示唆を与える。",
+    "read": "これらのけっかはきょういくせいさくにじゅうようなしさをあたえる。",
+    "ko": "이 결과는 교육 정책에 중요한 시사점을 제공합니다.",
+    "en": "These results have important implications for education policy.",
+    "situation": {
+     "ko": "의미를 말할 때",
+     "en": "Stating implications"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "さらなる研究が必要であると結論づけられる。",
+    "read": "さらなるけんきゅうがひつようであるとけつろんづけられる。",
+    "ko": "추가 연구가 필요하다고 결론지을 수 있습니다.",
+    "en": "It can be concluded that further research is needed.",
+    "situation": {
+     "ko": "결론을 제시할 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "キーワード：睡眠、記憶、学業成績",
+    "read": "キーワード：すいみん、きおく、がくぎょうせいせき",
+    "ko": "키워드: 수면, 기억, 학업 성취",
+    "en": "Keywords: sleep, memory, academic achievement",
+    "situation": {
+     "ko": "핵심어를 제시할 때",
+     "en": "Listing keywords"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "本研究は〜を調査する。",
+    "read": "ほんけんきゅうは〜をちょうさする。",
+    "ko": "이 연구는 ~을 조사한다.",
+    "en": "This study examines/investigates ..."
+   },
+   {
+    "id": "w2",
+    "t": "結果は〜ことを示している。",
+    "read": "けっかは〜ことをしめしている。",
+    "ko": "결과는 ~임을 보여 준다.",
+    "en": "The findings indicate/suggest that ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜についてさらなる研究が必要である。",
+    "read": "〜についてさらなるけんきゅうがひつようである。",
+    "ko": "~이 필요하다.",
+    "en": "Further research is needed on ..."
+   },
+   {
+    "id": "w4",
+    "t": "これらの結果は〜に示唆を与える。",
+    "read": "これらのけっかは〜にしさをあたえる。",
+    "ko": "~에 시사점이 있다.",
+    "en": "These results have implications for ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가상의 연구에 대한 초록을 목적·방법·결과·결론 순서로 4문장으로 써 보세요.",
+    "en": "Write a four-sentence abstract of an imaginary study in the order aim, method, results, conclusion."
+   },
+   "must_include": [
+    {
+     "label": "調査",
+     "match": [
+      "調査"
+     ]
+    },
+    {
+     "label": "示している",
+     "match": [
+      "示している"
+     ]
+    },
+    {
+     "label": "さらなる研究",
+     "match": [
+      "さらなる研究"
+     ]
+    }
+   ],
+   "model": "本研究は、睡眠時間と学業成績の関係を調査する。大学生百人を対象にアンケート調査を行った。結果は、睡眠が長いほど成績が高い傾向を示している。標本は小さいが、教育政策に重要な示唆を与えるものであり、さらなる研究が必要である。",
+   "model_trans": {
+    "ko": "이 연구는 수면 시간과 학업 성취의 관계를 조사한다. 백 명의 대학생을 대상으로 설문 조사를 실시하였다. 결과는 수면 시간이 길수록 성적이 높은 경향이 있음을 보여 준다. 표본이 작지만 교육 정책에 중요한 시사점을 제공하며 추가 연구가 필요하다.",
+    "en": "This study examines the relationship between sleep duration and academic achievement. A survey was conducted with one hundred university students. The findings indicate that longer sleep tends to be associated with higher grades. Although the sample is small, the results have important implications for education policy, and further research is needed."
+   }
+  }
+ }
+}

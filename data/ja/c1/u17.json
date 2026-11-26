@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u17",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 17,
+  "concept": "C1.U17",
+  "status": "live",
+  "title": {
+   "target": "文体とトーン",
+   "ko": "문체와 어조",
+   "en": "Register and tone"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "改まった",
+   "pos": "adj",
+   "read": "あらたまった",
+   "ko": "격식을 갖춘",
+   "en": "formal",
+   "ex": {
+    "t": "それは改まった手紙です。",
+    "read": "それはあらたまったてがみです。",
+    "ko": "그것은 격식을 갖춘 편지예요.",
+    "en": "That is a formal letter."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "くだけた",
+   "pos": "adj",
+   "read": "くだけた",
+   "ko": "격식 없는",
+   "en": "informal",
+   "ex": {
+    "t": "友達にはくだけた話し方を使います。",
+    "read": "ともだちにはくだけたはなしかたをつかいます。",
+    "ko": "친구에게는 격식 없는 말투를 써요.",
+    "en": "You use an informal tone with friends."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "丁寧な",
+   "pos": "adj",
+   "read": "ていねいな",
+   "ko": "정중한",
+   "en": "courteous",
+   "ex": {
+    "t": "彼はいつも丁寧に話します。",
+    "read": "かれはいつもていねいにはなします。",
+    "ko": "그는 항상 정중하게 말해요.",
+    "en": "He always speaks courteously."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "そっけない",
+   "pos": "adj",
+   "read": "そっけない",
+   "ko": "퉁명스러운",
+   "en": "curt",
+   "ex": {
+    "t": "彼の返事はそっけなかったです。",
+    "read": "かれのへんじはそっけなかったです。",
+    "ko": "그의 답장은 퉁명스러웠어요.",
+    "en": "His reply was curt."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "口調",
+   "pos": "noun",
+   "read": "くちょう",
+   "ko": "어조",
+   "en": "tone",
+   "ex": {
+    "t": "口調が冷たすぎました。",
+    "read": "くちょうがつめたすぎました。",
+    "ko": "어조가 너무 차가웠어요.",
+    "en": "The tone was too cold."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "ふさわしい",
+   "pos": "adj",
+   "read": "ふさわしい",
+   "ko": "적절한",
+   "en": "appropriate",
+   "ex": {
+    "t": "場面にふさわしい言葉を選びましょう。",
+    "read": "ばめんにふさわしいことばをえらびましょう。",
+    "ko": "상황에 적절한 표현을 쓰세요.",
+    "en": "Use language appropriate to the situation."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "やわらげる",
+   "pos": "verb",
+   "read": "やわらげる",
+   "ko": "부드럽게 하다",
+   "en": "soften",
+   "ex": {
+    "t": "彼は批判をやわらげました。",
+    "read": "かれはひはんをやわらげました。",
+    "ko": "그는 비판을 부드럽게 말했어요.",
+    "en": "He softened his criticism."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "率直な",
+   "pos": "adj",
+   "read": "そっちょくな",
+   "ko": "직설적인",
+   "en": "blunt",
+   "ex": {
+    "t": "彼女はとても率直です。",
+    "read": "かのじょはとてもそっちょくです。",
+    "ko": "그녀는 아주 직설적이에요.",
+    "en": "She is very blunt."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "礼儀",
+   "pos": "noun",
+   "read": "れいぎ",
+   "ko": "공손함",
+   "en": "politeness",
+   "ex": {
+    "t": "礼儀は人間関係を円滑にします。",
+    "read": "れいぎはひとかんかんけいをえんかつにします。",
+    "ko": "공손함은 관계를 부드럽게 해요.",
+    "en": "Politeness smooths relationships."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "気配りのある",
+   "pos": "adj",
+   "read": "きくばりのある",
+   "ko": "예의 바른",
+   "en": "tactful",
+   "ex": {
+    "t": "彼は言い方に気配りがありました。",
+    "read": "かれはいいかたにきくばりがありました。",
+    "ko": "그는 눈치 있게 말했어요.",
+    "en": "He was tactful in what he said."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "です・ます体／だ体／敬語／〜ていただけますか／やわらかい言い方",
+   "en": "Register and tone: です・ます体 / だ体 / 敬語 / 〜ていただけますか / softened wording"
+  },
+  "explain": {
+   "ko": "日本語は文末と敬語で改まり具合を決めます。改まった場面は「申し訳ございません」「〜いたします」、くだけた場面は「ごめん」「〜するね」です。目上の人やお客様には「〜ていただけますか」「〜でしょうか」、友達には「〜してくれる？」を使います。率直な言い方は「〜していただけると幸いです」のようにやわらげます。場面にふさわしい口調を選ぶことが大切です。",
+   "en": "Japanese sets formality with endings and honorifics. Formal: 「申し訳ございません」「〜いたします」; casual: 「ごめん」「〜するね」. To superiors or customers use 「〜ていただけますか」「〜でしょうか」; to friends 「〜してくれる？」. Soften bluntness: 「〜していただけると幸いです」. Choosing the right tone for the situation matters."
+  },
+  "table": {
+   "head": [
+    "口調 / Tone",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "改まった / Formal",
+     "〜いたします／ございます",
+     "出席できず申し訳ございません。"
+    ],
+    [
+     "丁寧 / Polite",
+     "です・ます",
+     "すみません、行けません。"
+    ],
+    [
+     "くだけた / Casual",
+     "だ・ね",
+     "ごめん、行けないんだ。"
+    ],
+    [
+     "やわらかい依頼 / Soft request",
+     "〜ていただけますか",
+     "確認していただけますか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "最初のメールは丁寧に書きます。",
+    "en": "Write the first email politely."
+   },
+   {
+    "ko": "軽すぎる口調は信頼を下げることがあります。",
+    "en": "A tone that is too casual can lower trust."
+   },
+   {
+    "ko": "改まった文章では、省略形や口語表現を避けます。",
+    "en": "Avoid contractions and colloquialisms in formal writing."
+   }
+  ],
+  "examples": [
+   {
+    "t": "会議に出席できず、申し訳ございません。",
+    "read": "かいぎにしゅっせきできず、もうしわけございません。",
+    "ko": "그 편지는 너무 격식이 없었어요.",
+    "en": "The letter was too informal."
+   },
+   {
+    "t": "資料を確認していただけますか。",
+    "read": "しりょうをかくにんしていただけますか。",
+    "ko": "그의 답장은 다소 퉁명스러웠어요.",
+    "en": "His reply was rather curt."
+   },
+   {
+    "t": "そのお手紙は少しくだけすぎていました。",
+    "read": "そのおてがみはすこしくだけすぎていました。",
+    "ko": "상황에 적절한 어조를 선택해야 해요.",
+    "en": "You should choose a tone appropriate to the situation."
+   },
+   {
+    "t": "彼の返事は、やや冷たい口調でした。",
+    "read": "かれのへんじは、ややつめたいくちょうでした。",
+    "ko": "그녀는 비판을 눈치 있게 전했어요.",
+    "en": "She delivered the criticism tactfully."
+   },
+   {
+    "t": "友達には「ごめん、行けない」と言います。",
+    "read": "ともだちには「ごめん、いけない」といいます。",
+    "ko": "직설적이지만 무례하지는 않았어요.",
+    "en": "He was blunt but not rude."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "会議に出席できず、___。",
+    "options": [
+     "申し訳ございません",
+     "ごめん",
+     "知らない"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "資料を確認し___か。",
+    "options": [
+     "ていただけます",
+     "てくれる",
+     "てやる"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "友達には「ごめん、行け___」と言います。",
+    "options": [
+     "ない",
+     "ません",
+     "ございません"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "彼の返事はやや___口調でした。",
+    "options": [
+     "そっけない",
+     "丁寧な",
+     "やわらかい"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このメールの口調はどうですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 이메일 어조가 어떤가요?",
+     "en": "(Question) How is the tone of this email?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "お客様には少しくだけすぎています。",
+       "来週の月曜日です。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "これをもっと丁寧に言い換えてください。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 표현을 더 정중하게 바꿔 보세요.",
+     "en": "(Question) Rephrase this more courteously."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "金曜日までにお送りいただけますでしょうか。",
+       "金曜日までに送れ。",
+       "知らない。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このメール、どう？社長宛てなんだ。"
+      },
+      {
+       "s": "B",
+       "t": "口調がくだけすぎだよ。もっと丁寧にしないと。"
+      },
+      {
+       "s": "A",
+       "t": "たとえば？"
+      },
+      {
+       "s": "B",
+       "t": "「やあ」を「いつもお世話になっております」に変えて、省略した言い方は避けて。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 메일 어때? 사장님께 보낼 거야.\nB: 어조가 너무 격식이 없어. 좀 더 정중하게 써야 해.\nA: 예를 들면?\nB: '안녕'을 '안녕하십니까'로 바꾸고 축약형을 피해.",
+     "en": "A: How's this email? It's for the boss.\nB: The tone is too informal. You need to be more courteous.\nA: For example?\nB: Change 'Hi' to 'Dear Sir' and avoid contractions."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女の人は何を勧めていますか。",
+      "options": [
+       "もっと丁寧に書くこと",
+       "もっと短く書くこと",
+       "絵文字を使うこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "発表では、聞き手に合った口調が大切です。同僚には打ち解けた話し方がよいですが、お客様には丁寧で改まった表現が必要です。そっけない口調は誤解を生むことがあるので、気をつけてください。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "발표에서는 청중에 맞는 어조가 중요합니다. 동료에게는 편안한 말투가 좋지만 고객에게는 정중하고 격식 있는 표현이 필요합니다. 퉁명스러운 어조는 오해를 낳을 수 있으므로 조심하세요.",
+     "en": "In presentations, tone should suit the audience. A relaxed tone suits colleagues, but clients need courteous, formal language. A curt tone can cause misunderstanding, so be careful."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "そっけない口調は何を生むことがありますか。",
+      "options": [
+       "誤解",
+       "笑い",
+       "友情"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "報告書を読みました。"
+      },
+      {
+       "s": "B",
+       "t": "いかがでしたか。"
+      },
+      {
+       "s": "A",
+       "t": "内容はよいのですが、ところどころ口調が率直すぎます。"
+      },
+      {
+       "s": "B",
+       "t": "わかりました。もう少しやわらかく直します。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "상사: 보고서를 봤어요.\n직원: 어땠나요?\n상사: 내용은 좋지만 몇 군데 어조가 너무 직설적이에요.\n직원: 알겠습니다. 좀 더 부드럽게 고치겠습니다.",
+     "en": "Manager: I read your report.\nStaff: What did you think?\nManager: The content is good, but in places the tone is too blunt.\nStaff: Understood. I'll soften it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "上司は口調が______すぎると言います",
+      "answers": [
+       "率直"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "社員はもう少し______直すと言います",
+      "answers": [
+       "やわらかく"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) その手紙は___がありませんでした。\n2) 彼の返事はやや___口調でした。\n3) 彼女は批判を___伝えました。",
+    "trans": {
+     "ko": "1) 그 편지는 너무 격식이 없었어요. 2) 그의 답장은 다소 퉁명스러웠어요. 3) 그녀는 비판을 눈치 있게 전했어요.",
+     "en": "1) The letter was too informal. 2) His reply was rather curt. 3) She delivered the criticism tactfully."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "その手紙は___がありませんでした。",
+      "options": [
+       "改まり",
+       "予算",
+       "料理"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼の返事はやや___口調でした。",
+      "options": [
+       "そっけない",
+       "丁寧な",
+       "やわらかい"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼女は批判を___伝えました。",
+      "options": [
+       "気配りをもって",
+       "怒って",
+       "急いで"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "口調は文章の印象を大きく左右します。友達に書くメールはくだけていてもかまいませんが、面接官に送るメールは(1)でなければなりません。同じ内容でも、口調によって受け取られ方が(2)。ですから、場面に(3)口調を選ぶことが大切です。",
+    "trans": {
+     "ko": "어조는 글의 인상을 크게 좌우합니다. 친구에게 쓰는 메일은 격식이 없어도 되지만 면접관에게 보내는 메일은 정중해야 합니다. 같은 내용이라도 어조에 따라 받아들여지는 방식이 다릅니다.",
+     "en": "Tone greatly shapes the impression of a text. An email to a friend may be informal, but one to an interviewer should be courteous. The same content may be received differently depending on tone."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "丁寧",
+       "失礼",
+       "そっけない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "違います",
+       "同じです",
+       "ありません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "ふさわしい",
+       "関係ない",
+       "反する"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "アドバイス\nメールの口調\n仕事のメールでは、相手との関係と目的に応じて口調を選びます。最初のメールは丁寧に書き、相手がくだけた話し方なら、少しずつ合わせてもかまいません。ただし、軽すぎる口調は信頼を下げることがあります。",
+    "trans": {
+     "ko": "조언\n이메일 어조\n업무 이메일에서는 상대와의 관계와 목적에 따라 어조를 선택해야 한다. 첫 메일은 정중하게 쓰고, 상대가 편한 말투를 쓰면 점차 맞출 수 있다. 하지만 너무 가벼운 어조는 신뢰를 떨어뜨릴 수 있다.",
+     "en": "ADVICE\nEmail tone\nIn work emails, choose a tone according to your relationship with the reader and your purpose. Write the first email courteously; if the other person is casual, you can gradually match them. But a tone that is too light can reduce trust."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最初のメールはどう書くように勧めていますか。",
+      "options": [
+       "丁寧に",
+       "軽く",
+       "短く"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "軽すぎる口調は何を下げることがありますか。",
+      "options": [
+       "信頼",
+       "速度",
+       "分量"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "仕事のメールの口調は、相手との関係で決まります。最初のメールは軽く書くのがよいです。筆者はマーケティングの専門家です。",
+    "trans": {
+     "ko": "업무 이메일의 어조는 상대와의 관계에 따라 정한다. 첫 메일은 가볍게 쓰는 것이 좋다. 글쓴이는 마케팅 전문가이다.",
+     "en": "The tone of a work email depends on your relationship with the reader. The first email should be light. The writer is a marketing specialist."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "仕事のメールの口調は相手との関係で決まる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "最初のメールは軽く書くのがよい。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "筆者はマーケティングの専門家である。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "このメールの口調は少しくだけすぎていると思います。",
+    "read": "このメールのくちょうはすこしくだけすぎているとおもいます。",
+    "ko": "이 이메일의 어조가 너무 격식이 없는 것 같아요.",
+    "en": "I think the tone of this email is too informal.",
+    "situation": {
+     "ko": "문체를 지적할 때",
+     "en": "Pointing out register"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "もっと丁寧な言い方にしたほうがよいでしょう。",
+    "read": "もっとていねいないいかたにしたほうがよいでしょう。",
+    "ko": "조금 더 정중하게 표현하면 좋겠어요.",
+    "en": "It would be better to phrase it more courteously.",
+    "situation": {
+     "ko": "수정을 제안할 때",
+     "en": "Suggesting a revision"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "率直すぎてすみません。",
+    "read": "そっちょくすぎてすみません。",
+    "ko": "제가 직설적으로 말씀드려서 죄송합니다.",
+    "en": "I apologise for being so blunt.",
+    "situation": {
+     "ko": "사과할 때",
+     "en": "Apologising"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "批判を少しやわらげられませんか。",
+    "read": "ひはんをすこしやわらげられませんか。",
+    "ko": "좀 더 부드럽게 비판할 수는 없을까요?",
+    "en": "Could we soften the criticism a bit?",
+    "situation": {
+     "ko": "완곡하게 요청할 때",
+     "en": "Requesting a softer tone"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "改まった手紙では、くだけた言い方は避けます。",
+    "read": "あらたまったてがみでは、くだけたいいかたはさけます。",
+    "ko": "격식 있는 편지에서는 축약형을 피하세요.",
+    "en": "Avoid contractions in a formal letter.",
+    "situation": {
+     "ko": "문체 규칙을 말할 때",
+     "en": "Stating a style rule"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "彼はそっけないですが、悪気はありません。",
+    "read": "かれはそっけないですが、わるぎはありません。",
+    "ko": "그의 말투는 퉁명스럽지만 악의는 없어요.",
+    "en": "His manner is curt, but he means no harm.",
+    "situation": {
+     "ko": "오해를 풀 때",
+     "en": "Resolving a misunderstanding"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "友達にはくだけて、上司には丁寧に話します。",
+    "read": "ともだちにはくだけて、じょうしにはていねいにはなします。",
+    "ko": "친구에게는 편하게, 상사에게는 정중하게 말해요.",
+    "en": "I speak casually to friends and courteously to my boss.",
+    "situation": {
+     "ko": "상황별로 말을 바꿀 때",
+     "en": "Adapting by audience"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "口調が全体の印象を決めることもあります。",
+    "read": "くちょうがぜんたいのいんしょうをきめることもあります。",
+    "ko": "어조가 모든 인상을 좌우할 수 있어요.",
+    "en": "Tone can shape the whole impression.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "口調が〜すぎます。",
+    "read": "くちょうが〜すぎます。",
+    "ko": "너무 ~한 어조다.",
+    "en": "The tone is too formal/informal/curt."
+   },
+   {
+    "id": "w2",
+    "t": "もっと〜言い方にします。",
+    "read": "もっと〜いいかたにします。",
+    "ko": "더 ~하게 표현하다.",
+    "en": "phrase it more courteously/tactfully"
+   },
+   {
+    "id": "w3",
+    "t": "〜をやわらげます。",
+    "read": "〜をやわらげます。",
+    "ko": "~을 부드럽게 하다.",
+    "en": "soften ~"
+   },
+   {
+    "id": "w4",
+    "t": "〜にふさわしい。",
+    "read": "〜にふさわしい。",
+    "ko": "~에 적절한.",
+    "en": "appropriate to ~"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "같은 내용을 격식 있게, 격식 없이 각각 2문장씩 써서 4문장으로 만들어 보세요.",
+    "en": "Write the same message formally and informally, two sentences each, to make 4 sentences."
+   },
+   "must_include": [
+    {
+     "label": "申し訳ございません",
+     "match": [
+      "申し訳ございません"
+     ]
+    },
+    {
+     "label": "やむを得ず",
+     "match": [
+      "やむを得ず"
+     ]
+    },
+    {
+     "label": "ごめん",
+     "match": [
+      "ごめん"
+     ]
+    }
+   ],
+   "model": "丁寧な表現：会議に出席できず、申し訳ございません。予定が重なり、やむを得ず欠席いたします。くだけた表現：ごめん、会議に行けない。予定がかぶっちゃった。",
+   "model_trans": {
+    "ko": "격식 있는 표현: 회의에 참석하지 못하게 되어 죄송합니다. 일정이 겹쳐 불가피하게 불참하게 되었습니다. 격식 없는 표현: 미안해, 회의에 못 가. 일정이 겹쳤어.",
+    "en": "Formal: I regret that I will be unable to attend the meeting. A scheduling conflict makes my absence unavoidable. Informal: Sorry, I can't make the meeting. Something's come up."
+   }
+  }
+ }
+}

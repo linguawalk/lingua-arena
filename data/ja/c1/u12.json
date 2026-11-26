@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u12",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 12,
+  "concept": "C1.U12",
+  "status": "live",
+  "title": {
+   "target": "学術的なぼかし表現と立場の示し方",
+   "ko": "학술적 완곡 표현과 입장 표명",
+   "en": "Academic hedging and stance"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "傾向がある",
+   "pos": "phrase",
+   "read": "けいこうがある",
+   "ko": "~인 경향이 있다",
+   "en": "tend to",
+   "ex": {
+    "t": "学生は試験前に不安になる傾向があります。",
+    "read": "がくせいはしけんまえにふあんになるけいこうがあります。",
+    "ko": "학생들은 시험 전에 불안해지는 경향이 있어요.",
+    "en": "Students tend to feel anxious before exams."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "示唆する",
+   "pos": "verb",
+   "read": "しさする",
+   "ko": "시사하다",
+   "en": "suggest",
+   "ex": {
+    "t": "この結果は新しい可能性を示唆しています。",
+    "read": "このけっかはあたらしいかのうせいをしさしています。",
+    "ko": "이 결과는 새로운 가능성을 시사해요.",
+    "en": "These results suggest a new possibility."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "おおむね",
+   "pos": "phrase",
+   "read": "おおむね",
+   "ko": "대체로",
+   "en": "by and large",
+   "ex": {
+    "t": "おおむね、結果は満足できるものです。",
+    "read": "おおむね、けっかはまんぞくできるものです。",
+    "ko": "대체로 결과는 만족스러워요.",
+    "en": "By and large, the results are satisfactory."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "可能性が高い",
+   "pos": "phrase",
+   "read": "かのうせいがたかい",
+   "ko": "~일 가능성이 높다",
+   "en": "be likely to",
+   "ex": {
+    "t": "その政策は効果がある可能性が高いです。",
+    "read": "そのせいさくはこうかがあるかのうせいがたかいです。",
+    "ko": "그 정책은 효과가 있을 가능성이 높아요.",
+    "en": "The policy is likely to be effective."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "ある程度",
+   "pos": "phrase",
+   "read": "あるていど",
+   "ko": "어느 정도",
+   "en": "to some extent",
+   "ex": {
+    "t": "彼の主張はある程度妥当です。",
+    "read": "かれのしゅちょうはあるていどだとうです。",
+    "ko": "그의 주장은 어느 정도 타당해요.",
+    "en": "His argument is valid to some extent."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "〜と思われる",
+   "pos": "phrase",
+   "read": "〜とおもわれる",
+   "ko": "~으로 보인다",
+   "en": "appear to",
+   "ex": {
+    "t": "その方法は効果的だと思われます。",
+    "read": "そのほうほうはこうかてきだとおもわれます。",
+    "ko": "그 방법은 효과적인 것으로 보여요.",
+    "en": "The method appears to be effective."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "実証する",
+   "pos": "verb",
+   "read": "じっしょうする",
+   "ko": "입증하다",
+   "en": "demonstrate",
+   "ex": {
+    "t": "この研究は仮説を実証できませんでした。",
+    "read": "このけんきゅうはかせつをじっしょうできませんでした。",
+    "ko": "연구는 이 가설을 입증하지 못했어요.",
+    "en": "The study failed to demonstrate this hypothesis."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "決定的でない",
+   "pos": "adj",
+   "read": "けっていてきでない",
+   "ko": "확정적이지 않은",
+   "en": "inconclusive",
+   "ex": {
+    "t": "証拠は決定的ではありません。",
+    "read": "しょうこはけっていてきではありません。",
+    "ko": "증거는 확정적이지 않아요.",
+    "en": "The evidence is inconclusive."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "限界",
+   "pos": "noun",
+   "read": "げんかい",
+   "ko": "한계",
+   "en": "limitation",
+   "ex": {
+    "t": "この研究にはいくつかの限界があります。",
+    "read": "このけんきゅうにはいくつかのげんかいがあります。",
+    "ko": "이 연구에는 몇 가지 한계가 있어요.",
+    "en": "This study has some limitations."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "議論を呼ぶ",
+   "pos": "adj",
+   "read": "ぎろんをよぶ",
+   "ko": "논쟁적인",
+   "en": "contentious",
+   "ex": {
+    "t": "この問題は議論を呼んでいます。",
+    "read": "このもんだいはぎろんをよんでいます。",
+    "ko": "이 문제는 논쟁적이에요.",
+    "en": "This issue is contentious."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜と思われる／〜傾向がある／ある程度／〜と言えるだろう",
+   "en": "Academic hedging: 〜と思われる / 〜傾向がある / ある程度 / 〜と言えるだろう"
+  },
+  "explain": {
+   "ko": "学術的な文章では、証拠の強さに合わせて断定を避けます。推測は「〜と思われる」「〜ようだ」：「この結果は新しい可能性を示唆していると思われる。」傾向は「〜傾向がある」、程度は「ある程度」「おおむね」で弱めます。控えめな主張は「〜と言えるだろう」、証拠が足りないときは「決定的ではない」を使います。最後に限界と今後の研究を述べます。",
+   "en": "Academic writing avoids flat claims in proportion to the evidence. Supposition: 「〜と思われる」「〜ようだ」. Tendency: 「〜傾向がある」; degree: 「ある程度」「おおむね」. A cautious claim: 「〜と言えるだろう」; weak evidence: 「決定的ではない」. Close with limits and further research."
+  },
+  "table": {
+   "head": [
+    "機能 / Function",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "推測 / Suppose",
+     "〜と思われる",
+     "効果があると思われる。"
+    ],
+    [
+     "傾向 / Tendency",
+     "〜傾向がある",
+     "不安になる傾向がある。"
+    ],
+    [
+     "程度 / Degree",
+     "ある程度／おおむね",
+     "ある程度妥当だ。"
+    ],
+    [
+     "控えめな主張 / Claim",
+     "〜と言えるだろう",
+     "効果的だと言えるだろう。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜だろう」「〜と思われる」は、断定を避けるときの定番です。",
+    "en": "「〜だろう」 and 「〜と思われる」 are standard for avoiding a flat claim."
+   },
+   {
+    "ko": "研究の限界と今後の課題を一緒に述べましょう。",
+    "en": "State limits and future work together."
+   },
+   {
+    "ko": "ぼかしすぎると、主張が弱くなります。",
+    "en": "Too much hedging weakens the claim."
+   }
+  ],
+  "examples": [
+   {
+    "t": "この結果は新しい可能性を示唆していると思われます。",
+    "read": "このけっかはあたらしいかのうせいをしさしているとおもわれます。",
+    "ko": "이 결과는 새로운 가능성을 시사하는 것으로 보여요.",
+    "en": "These results appear to suggest a new possibility."
+   },
+   {
+    "t": "彼の主張は、ある程度は妥当かもしれません。",
+    "read": "かれのしゅちょうは、あるていどはだとうかもしれません。",
+    "ko": "그의 주장은 어느 정도 타당할 수도 있어요.",
+    "en": "His argument may be valid to some extent."
+   },
+   {
+    "t": "証拠が決定的ではないので、慎重になる必要があります。",
+    "read": "しょうこがけっていてきではないので、しんちょうになるひつようがあります。",
+    "ko": "증거가 확정적이지 않기 때문에 신중해야 해요.",
+    "en": "As the evidence is inconclusive, caution is needed."
+   },
+   {
+    "t": "学生は試験前に不安になる傾向があります。",
+    "read": "がくせいはしけんまえにふあんになるけいこうがあります。",
+    "ko": "학생들은 시험 전에 불안해지는 경향이 있어요.",
+    "en": "Students tend to feel anxious before exams."
+   },
+   {
+    "t": "この政策は効果がある可能性が高いと言えるでしょう。",
+    "read": "このせいさくはこうかがあるかのうせいがたかいといえるでしょう。",
+    "ko": "이 정책은 효과가 있을 가능성이 높다고 주장할 수 있어요.",
+    "en": "It could be argued that this policy is likely to be effective."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "この結果は新しい可能性を示唆している___思われます。",
+    "options": [
+     "と",
+     "を",
+     "が"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "彼の主張は___妥当かもしれません。",
+    "options": [
+     "ある程度",
+     "決して",
+     "全然"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "学生は試験前に不安になる___があります。",
+    "options": [
+     "傾向",
+     "習慣を",
+     "必要"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "効果がある可能性が高いと___でしょう。",
+    "options": [
+     "言える",
+     "言わない",
+     "言った"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この研究結果をどう解釈できますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 연구 결과를 어떻게 해석할 수 있나요?",
+     "en": "(Question) How can these findings be interpreted?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "関連があることを示唆していると思われます。",
+       "来週の月曜日です。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "その主張に賛成ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 주장에 동의하시나요?",
+     "en": "(Question) Do you agree with that claim?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "ある程度は賛成です。",
+       "三階に住んでいます。",
+       "昨日買いました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "結果は確実なの？"
+      },
+      {
+       "s": "B",
+       "t": "まだ決定的ではないよ。効果はあるように思われるけど、サンプルが少ないんだ。"
+      },
+      {
+       "s": "A",
+       "t": "じゃあ、どう解釈すればいい？"
+      },
+      {
+       "s": "B",
+       "t": "ある程度の可能性があると言うくらいが安全だね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 연구 결과가 확실한가요?\nB: 아직은 확정적이지 않아요. 효과가 있는 것으로 보이지만 표본이 작아요.\nA: 그럼 어떻게 해석하는 게 좋을까요?\nB: 어느 정도 가능성이 있다고만 말하는 게 안전해요.",
+     "en": "A: Are the findings certain?\nB: Not yet conclusive. The effect appears to exist, but the sample is small.\nA: How should we interpret it?\nB: It's safest to say it is possible to some extent."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "結果はなぜ確実ではありませんか。",
+      "options": [
+       "サンプルが少ないから",
+       "データがないから",
+       "著者が疑っているから"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この講義では、学術的な文章で断定を避ける方法を扱います。研究者はおおむね、「かもしれない」「傾向がある」などの表現を使います。そうすることで、主張が誇張されず、反論の余地も残せます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 강의에서는 학술적 글쓰기에서 단정을 피하는 방법을 다룹니다. 학자들은 대체로 can, may, tend to 같은 표현을 사용합니다. 이렇게 하면 주장이 과장되지 않고, 반론 가능성도 열어 둘 수 있습니다.",
+     "en": "This lecture covers how to avoid categorical claims in academic writing. Scholars by and large use expressions such as can, may and tend to. This keeps claims from being exaggerated and leaves room for counter-arguments."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "研究者はなぜ断定を避けますか。",
+      "options": [
+       "主張が誇張されないようにするため",
+       "文章を長くするため",
+       "間違いを隠すため"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "論文の結論はどう書けばいいですか。"
+      },
+      {
+       "s": "B",
+       "t": "あまり断定的に書かないでください。「効果があると思われる」のように書いてください。"
+      },
+      {
+       "s": "A",
+       "t": "限界にも触れるべきですか。"
+      },
+      {
+       "s": "B",
+       "t": "もちろんです。サンプルサイズなどの限界をはっきり書いてください。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "학생: 제 논문의 결론을 어떻게 쓸까요?\n교수: 너무 단정적으로 쓰지 마세요. '효과가 있는 것으로 보인다'처럼 쓰세요.\n학생: 한계도 언급해야 하나요?\n교수: 물론이죠. 표본 크기 같은 한계를 분명히 쓰세요.",
+     "en": "Student: How should I write my conclusion?\nProfessor: Don't be too categorical. Write something like 'appears to be effective'.\nStudent: Should I mention limitations as well?\nProfessor: Of course. State limitations such as sample size clearly."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "教授はあまり______に書かないでと言います",
+      "answers": [
+       "断定的"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "サンプル______などの限界を書くよう言います",
+      "answers": [
+       "サイズ"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) この結果は新しい可能性を示唆している___思われます。\n2) 彼の主張は___妥当かもしれません。\n3) 学生は試験前に不安になる___があります。",
+    "trans": {
+     "ko": "1) 이 결과는 새로운 가능성을 시사하는 것으로 보여요. 2) 그의 주장은 어느 정도 타당할 수도 있어요. 3) 학생들은 시험 전에 불안해지는 경향이 있어요.",
+     "en": "1) These results appear to suggest a new possibility. 2) His argument may be valid to some extent. 3) Students tend to feel anxious before exams."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この結果は新しい可能性を示唆している___思われます。",
+      "options": [
+       "と",
+       "を",
+       "が"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼の主張は___妥当かもしれません。",
+      "options": [
+       "ある程度",
+       "決して",
+       "全然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "学生は試験前に不安になる___があります。",
+      "options": [
+       "傾向",
+       "習慣を",
+       "必要"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "この研究は、睡眠時間が短いほど集中力が下がる(1)があることを示唆しています。しかし、サンプルが小さかったので、結果を一般化するのは(2)。さらに研究が行われるまでは、(3)な解釈が必要です。",
+    "trans": {
+     "ko": "이 연구는 수면 시간이 짧을수록 집중력이 낮아지는 경향이 있음을 시사합니다. 그러나 표본이 작았기 때문에 결과를 일반화하기는 어렵습니다. 추가 연구가 이루어질 때까지는 신중한 해석이 필요합니다.",
+     "en": "This study suggests that shorter sleep tends to lower concentration. However, as the sample was small, it is difficult to generalise the results. Until further research is carried out, cautious interpretation is needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "傾向",
+       "能力",
+       "機会"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "難しいです",
+       "簡単です",
+       "必要ありません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "慎重",
+       "軽率",
+       "急ぎ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "報告書\n研究の限界\nこの研究は一つの都市の学生百人だけを対象にしました。したがって、結果を他の地域に当てはめるのは難しいです。それでも、運動が集中力を高める可能性が示唆されました。今後の研究ではサンプルを広げるべきです。",
+    "trans": {
+     "ko": "보고서\n연구의 한계\n이 연구는 한 도시의 학생 백 명만 대상으로 했다. 따라서 결과를 다른 지역에 적용하기는 어렵다. 그럼에도 불구하고 결과는 운동이 집중력을 높일 가능성이 있음을 시사한다. 후속 연구에서는 표본을 확대해야 할 것이다.",
+     "en": "REPORT\nLimitations of the study\nThis study involved only a hundred students in one city. Consequently, it is hard to apply the results elsewhere. Nevertheless, the findings suggest that exercise may improve concentration. Future research should enlarge the sample."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この研究は誰を対象にしましたか。",
+      "options": [
+       "一つの都市の学生百人",
+       "全国の学生千人",
+       "教師十人"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "結果は何を示唆していますか。",
+      "options": [
+       "運動が集中力を高める可能性",
+       "運動が集中力を下げる可能性",
+       "睡眠は不要だということ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この研究は一つの都市の学生百人を調べました。結果は世界中に当てはまります。今後の研究ではサンプルを増やす必要があります。",
+    "trans": {
+     "ko": "이 연구는 한 도시의 학생 백 명을 조사했다. 결과는 전 세계에 적용될 수 있다. 후속 연구는 표본을 늘릴 필요가 있다.",
+     "en": "This study examined one hundred students in one city. The results can be applied worldwide. Future research needs to enlarge the sample."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "この研究は一つの都市の学生百人を調べた。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "結果は世界中に当てはまる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "今後の研究ではサンプルを増やす必要がある。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "この結果は新しい可能性を示唆していると思われます。",
+    "read": "このけっかはあたらしいかのうせいをしさしているとおもわれます。",
+    "ko": "이 결과는 새로운 가능성을 시사하는 것으로 보입니다.",
+    "en": "These results seem to suggest a new possibility.",
+    "situation": {
+     "ko": "결과를 신중하게 해석할 때",
+     "en": "Interpreting results cautiously"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "学生は試験前に緊張する傾向があります。",
+    "read": "がくせいはしけんまえにきんちょうするけいこうがあります。",
+    "ko": "학생들은 시험 전에 긴장하는 경향이 있습니다.",
+    "en": "Students tend to feel nervous before exams.",
+    "situation": {
+     "ko": "일반화를 완곡하게 말할 때",
+     "en": "Softening a generalisation"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "この主張はある程度妥当だと考えられます。",
+    "read": "このしゅちょうはあるていどだとうだとかんがえられます。",
+    "ko": "이 주장은 어느 정도 타당하다고 볼 수 있습니다.",
+    "en": "This claim can be considered valid to some extent.",
+    "situation": {
+     "ko": "부분적으로 동의할 때",
+     "en": "Partial agreement"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "政策は効果的かもしれないと言えるでしょう。",
+    "read": "せいさくはこうかてきかもしれないといえるでしょう。",
+    "ko": "정책이 효과적일 수도 있다고 주장할 수 있습니다.",
+    "en": "It could be argued that the policy might be effective.",
+    "situation": {
+     "ko": "입장을 조심스럽게 밝힐 때",
+     "en": "Stating a position cautiously"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "証拠が決定的ではないので、結論を出すのは早いです。",
+    "read": "しょうこがけっていてきではないので、けつろんをだすのははやいです。",
+    "ko": "증거가 확정적이지 않아서 결론을 내리기는 이릅니다.",
+    "en": "The evidence is inconclusive, so it is too early to draw conclusions.",
+    "situation": {
+     "ko": "결론을 보류할 때",
+     "en": "Withholding conclusions"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "この研究にはいくつかの限界があります。",
+    "read": "このけんきゅうにはいくつかのげんかいがあります。",
+    "ko": "이 연구에는 몇 가지 한계가 있습니다.",
+    "en": "This study has a number of limitations.",
+    "situation": {
+     "ko": "한계를 인정할 때",
+     "en": "Admitting limitations"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "おおむね、結果は仮説を支持しているようです。",
+    "read": "おおむね、けっかはかせつをしじしているようです。",
+    "ko": "대체로 결과는 가설을 지지하는 것으로 보입니다.",
+    "en": "By and large, the findings appear to support the hypothesis.",
+    "situation": {
+     "ko": "전체적인 경향을 말할 때",
+     "en": "Describing an overall trend"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "さらに研究が行われるまでは、慎重な対応が望ましいです。",
+    "read": "さらにけんきゅうがおこなわれるまでは、しんちょうなたいおうがのぞましいです。",
+    "ko": "추가 연구가 이루어질 때까지는 신중해야 합니다.",
+    "en": "Caution is advisable until further research is carried out.",
+    "situation": {
+     "ko": "결론에서 신중함을 권고할 때",
+     "en": "Advising caution"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜ように思われる。",
+    "read": "〜ようにおもわれる。",
+    "ko": "~으로 보인다.",
+    "en": "It appears/seems that ... / ... appears to ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜傾向がある。",
+    "read": "〜けいこうがある。",
+    "ko": "~인 경향이 있다.",
+    "en": "... tend(s) to ..."
+   },
+   {
+    "id": "w3",
+    "t": "ある程度〜。",
+    "read": "あるていど〜。",
+    "ko": "어느 정도 ~이다.",
+    "en": "... to some extent / to a certain degree"
+   },
+   {
+    "id": "w4",
+    "t": "〜と言えるだろう。",
+    "read": "〜といえるだろう。",
+    "ko": "~라고 주장할 수 있다.",
+    "en": "It could be argued that ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "학술적 헤징을 사용해 연구 결과나 사회 현상에 대한 주장을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences giving cautious claims about research findings or a social phenomenon using hedging."
+   },
+   "must_include": [
+    {
+     "label": "と思われ",
+     "match": [
+      "と思われ"
+     ]
+    },
+    {
+     "label": "傾向",
+     "match": [
+      "傾向"
+     ]
+    },
+    {
+     "label": "ある程度",
+     "match": [
+      "ある程度"
+     ]
+    }
+   ],
+   "model": "この研究結果は、運動が学習能力を高める可能性を示唆していると思われます。学生は、規則的に運動すると集中力が高まる傾向があります。ただし、サンプルが小さいので、結果はある程度慎重に解釈する必要があります。さらなる研究が必要だと言えるでしょう。",
+   "model_trans": {
+    "ko": "이 연구 결과는 운동이 학습 능력을 높일 수 있음을 시사하는 것으로 보입니다. 학생들은 규칙적으로 운동할 때 집중력이 높아지는 경향이 있습니다. 그러나 표본이 작기 때문에 결과를 어느 정도 조심스럽게 해석해야 합니다. 추가 연구가 필요하다고 주장할 수 있습니다.",
+    "en": "The findings appear to suggest that exercise can improve learning. Students tend to concentrate better when they exercise regularly. However, because the sample is small, the results should be interpreted with caution to some extent. It could be argued that further research is needed."
+   }
+  }
+ }
+}

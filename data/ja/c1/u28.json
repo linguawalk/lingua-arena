@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u28",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 28,
+  "concept": "C1.U28",
+  "status": "live",
+  "title": {
+   "target": "データを深く分析する",
+   "ko": "자료 분석 심화",
+   "en": "Analysing data in depth"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "相関",
+   "pos": "noun",
+   "read": "そうかん",
+   "ko": "상관관계",
+   "en": "correlation",
+   "ex": {
+    "t": "二つの変数には強い相関があります。",
+    "read": "ふたつのへんすうにはつよいそうかんがあります。",
+    "ko": "두 변수 사이에 강한 상관관계가 있어요.",
+    "en": "There is a strong correlation between the two variables."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "占める",
+   "pos": "phrase",
+   "read": "しめる",
+   "ko": "차지하다",
+   "en": "account for",
+   "ex": {
+    "t": "女性が参加者の六割を占めます。",
+    "read": "じょせいがさんかしゃのろくわりをしめます。",
+    "ko": "여성이 전체 참가자의 60퍼센트를 차지해요.",
+    "en": "Women account for sixty per cent of participants."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "格差",
+   "pos": "noun",
+   "read": "かくさ",
+   "ko": "격차",
+   "en": "disparity",
+   "ex": {
+    "t": "所得格差が広がっています。",
+    "read": "しょとくかくさがひろがっています。",
+    "ko": "소득 격차가 커지고 있어요.",
+    "en": "The income disparity is widening."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "大多数",
+   "pos": "phrase",
+   "read": "だいたすう",
+   "ko": "압도적 다수",
+   "en": "the vast majority",
+   "ex": {
+    "t": "大多数がその政策を支持しました。",
+    "read": "だいたすうがそのせいさくをしじしました。",
+    "ko": "대다수가 이 정책에 찬성했어요.",
+    "en": "The vast majority supported the policy."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "外れ値",
+   "pos": "noun",
+   "read": "はずれあたい",
+   "ko": "이상치",
+   "en": "outlier",
+   "ex": {
+    "t": "この値は外れ値のようです。",
+    "read": "このあたいははずれあたいのようです。",
+    "ko": "이 값은 이상치로 보여요.",
+    "en": "This value looks like an outlier."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "傾向",
+   "pos": "noun",
+   "read": "けいこう",
+   "ko": "추세",
+   "en": "trend",
+   "ex": {
+    "t": "上昇傾向が続いています。",
+    "read": "じょうしょうけいこうがつづいています。",
+    "ko": "상승 추세가 이어지고 있어요.",
+    "en": "The upward trend continues."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "顕著な",
+   "pos": "adj",
+   "read": "けんちょな",
+   "ko": "두드러진",
+   "en": "pronounced",
+   "ex": {
+    "t": "地域差は顕著です。",
+    "read": "ちいきさはけんちょです。",
+    "ko": "지역 간 차이가 두드러져요.",
+    "en": "Regional differences are pronounced."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "比例する",
+   "pos": "phrase",
+   "read": "ひれいする",
+   "ko": "비례하다",
+   "en": "be proportional to",
+   "ex": {
+    "t": "所得は教育に比例します。",
+    "read": "しょとくはきょういくにひれいします。",
+    "ko": "소득은 학력에 비례해요.",
+    "en": "Income is proportional to education."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "変動",
+   "pos": "noun",
+   "read": "へんどう",
+   "ko": "변동",
+   "en": "fluctuation",
+   "ex": {
+    "t": "価格の変動が大きいです。",
+    "read": "かかくのへんどうがおおきいです。",
+    "ko": "가격 변동이 심해요.",
+    "en": "Price fluctuations are large."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "解釈",
+   "pos": "noun",
+   "read": "かいしゃく",
+   "ko": "해석",
+   "en": "interpretation",
+   "ex": {
+    "t": "データの解釈は慎重に行う必要があります。",
+    "read": "データのかいしゃくはしんちょうにおこなうひつようがあります。",
+    "ko": "자료 해석은 신중해야 해요.",
+    "en": "Interpretation of data must be careful."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜と相関がある／〜を占める／著しい差／大多数",
+   "en": "Data analysis: 〜と相関がある / 〜を占める / 著しい差 / 大多数"
+  },
+  "explain": {
+   "ko": "データの分析では、関係や割合を正確に述べます。関係は「〜と〜には強い相関がある」、割合は「女性が六割を占める」、差は「地域間の格差は顕著である」、多数は「大多数が賛成した」と言います。ただし「相関があっても、必ずしも因果関係があるとは限らない」ので、結果は慎重に解釈します。外れ値は別に分析します。",
+   "en": "Data analysis states relationships and shares precisely. Relationship: 「〜には強い相関がある」; share: 「女性が六割を占める」; gap: 「地域間の格差は顕著である」; majority: 「大多数が賛成した」. But 「相関があっても、必ずしも因果関係があるとは限らない」, so interpret cautiously and analyse outliers separately."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜と相関がある",
+     "関係がある / correlated",
+     "収入と支出には相関がある。"
+    ],
+    [
+     "〜を占める",
+     "割合 / account for",
+     "女性が六割を占める。"
+    ],
+    [
+     "格差が顕著だ",
+     "差が大きい / marked gap",
+     "地域間の格差は顕著だ。"
+    ],
+    [
+     "大多数",
+     "ほとんどの人 / vast majority",
+     "大多数が賛成した。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「必ずしも〜とは限らない」で、断定を避けます。",
+    "en": "「必ずしも〜とは限らない」 avoids absolutes."
+   },
+   {
+    "ko": "外れ値は別に分析します。",
+    "en": "Analyse outliers separately."
+   },
+   {
+    "ko": "数字には単位と範囲を添えます。",
+    "en": "Add units and scope to numbers."
+   }
+  ],
+  "examples": [
+   {
+    "t": "この二つの変数には強い相関があります。",
+    "read": "このふたつのへんすうにはつよいそうかんがあります。",
+    "ko": "이 두 변수 사이에는 강한 상관관계가 있어요.",
+    "en": "There is a strong correlation between these two variables."
+   },
+   {
+    "t": "女性が全体の六割を占めます。",
+    "read": "じょせいがぜんたいのろくわりをしめます。",
+    "ko": "여성이 전체의 60퍼센트를 차지해요.",
+    "en": "Women account for sixty per cent of the total."
+   },
+   {
+    "t": "地域間の所得格差は顕著です。",
+    "read": "ちいきかんのしょとくかくさはけんちょです。",
+    "ko": "지역 간 소득 격차가 두드러져요.",
+    "en": "The income disparity between regions is pronounced."
+   },
+   {
+    "t": "大多数が新しい制度を支持しました。",
+    "read": "だいたすうがあたらしいせいどをしじしました。",
+    "ko": "대다수가 새 제도에 찬성했어요.",
+    "en": "The vast majority supported the new system."
+   },
+   {
+    "t": "相関があっても、必ずしも因果関係があるとは限りません。",
+    "read": "そうかんがあっても、かならずしもいんがかんけいがあるとはかぎりません。",
+    "ko": "상관관계가 인과 관계를 의미하는 것은 아니에요.",
+    "en": "Correlation does not imply causation."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "この二つの変数には強い___があります。",
+    "options": [
+     "相関",
+     "約束",
+     "習慣"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "女性が全体の六割を___。",
+    "options": [
+     "占めます",
+     "運びます",
+     "探します"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "地域間の格差は___です。",
+    "options": [
+     "顕著",
+     "小さい",
+     "同じ"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "相関があっても、必ずしも因果関係があるとは___ません。",
+    "options": [
+     "限り",
+     "考え",
+     "言い"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このデータは何を示していますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 자료는 무엇을 보여 주나요?",
+     "en": "(Question) What does this data show?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "強い相関を示しています。",
+       "何も示していません。",
+       "データがありません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "大多数の人はどう考えていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 대다수는 어떤 의견인가요?",
+     "en": "(Question) What do the vast majority think?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "大多数が賛成しています。",
+       "誰も賛成していません。",
+       "半々です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このグラフは、収入と支出の間に相関があることを示しているね。"
+      },
+      {
+       "s": "B",
+       "t": "でも、それだけでは因果関係の証明にならないよ。"
+      },
+      {
+       "s": "A",
+       "t": "そうだね、慎重に解釈しないと。"
+      },
+      {
+       "s": "B",
+       "t": "さらに分析が必要だね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 그래프 보면 소득과 소비 사이에 상관관계가 있어.\nB: 그렇다고 인과 관계라고 할 수는 없지.\nA: 맞아, 조심스럽게 해석해야 해.\nB: 추가 분석이 필요하겠어.",
+     "en": "A: This graph shows a correlation between income and spending.\nB: But that doesn't prove causation.\nA: Right, it must be interpreted carefully.\nB: We need further analysis."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人は相関についてどう言っていますか。",
+      "options": [
+       "因果関係の証明にならない",
+       "因果関係がある",
+       "関係がない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "調査の結果を発表します。回答者の七割が、公共交通機関を利用していると答えました。年代別では、二十代が最も大きな割合を占めました。地域による違いは、大きくありませんでした。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "조사 결과를 발표하겠습니다. 응답자의 70퍼센트가 대중교통을 이용한다고 답했습니다. 연령대별로는 20대가 가장 큰 비중을 차지했습니다. 지역 간 차이는 크지 않았습니다.",
+     "en": "I'll present the survey results. Seventy per cent of respondents said they use public transport. By age, people in their twenties accounted for the largest share. Differences between regions were not large."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最も大きな割合を占めたのは誰ですか。",
+      "options": [
+       "二十代",
+       "六十代",
+       "十代"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このグラフを見てください。"
+      },
+      {
+       "s": "B",
+       "t": "一つだけ値が異常に高いですね。"
+      },
+      {
+       "s": "A",
+       "t": "外れ値かもしれません。別に確認します。"
+      },
+      {
+       "s": "B",
+       "t": "はい、結論はそのあとにしましょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "분석가: 이 그래프를 보세요.\n동료: 값 하나가 유난히 높네요.\n분석가: 이상치일 수 있으니 따로 확인하겠습니다.\n동료: 네, 결론은 그 뒤에 내리죠.",
+     "en": "Analyst: Look at this graph.\nColleague: One value is unusually high.\nAnalyst: It may be an outlier; I'll check it separately.\nColleague: Yes, let's draw conclusions afterwards."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "一つだけ値が異常に______です",
+      "answers": [
+       "高い"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "分析者は______に確認すると言います",
+      "answers": [
+       "別"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) この二つの変数には強い___があります。\n2) 女性が全体の六割を___。\n3) 地域間の格差は___です。",
+    "trans": {
+     "ko": "1) 이 두 변수 사이에는 강한 상관관계가 있어요. 2) 여성이 전체의 60퍼센트를 차지해요. 3) 지역 간 소득 격차가 두드러져요.",
+     "en": "1) There is a strong correlation between these two variables. 2) Women account for sixty per cent of the total. 3) The income disparity between regions is pronounced."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この二つの変数には強い___があります。",
+      "options": [
+       "相関",
+       "約束",
+       "習慣"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "女性が全体の六割を___。",
+      "options": [
+       "占めます",
+       "運びます",
+       "探します"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "地域間の格差は___です。",
+      "options": [
+       "顕著",
+       "小さい",
+       "同じ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "この報告書は、都市と農村の所得格差を分析した。都市の平均所得は農村の二倍であった。学歴が高いほど所得が高い(1)が見られたが、これが必ずしも因果関係を(2)わけではない。したがって、結果は(3)解釈する必要がある。",
+    "trans": {
+     "ko": "이 보고서는 도시와 농촌의 소득 격차를 분석했습니다. 도시 지역의 평균 소득은 농촌의 두 배에 달했습니다. 학력이 높을수록 소득도 높은 경향이 있었지만, 이것이 곧 인과 관계를 뜻하지는 않습니다.",
+     "en": "This report analysed the income gap between urban and rural areas. Average urban income was twice the rural figure. Higher education tended to go with higher income, but this does not necessarily mean causation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "傾向",
+       "習慣",
+       "祝日"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "意味する",
+       "禁じる",
+       "忘れる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "慎重に",
+       "急いで",
+       "適当に"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "報告書\n読書習慣の調査\n成人千人を対象にした調査で、四割が一か月に一冊も本を読まないと答えた。二十代の読書量が最も少なく、六十代が最も多かった。収入と読書量の間には、明確な相関は見られなかった。",
+    "trans": {
+     "ko": "보고서\n독서 습관 조사\n성인 천 명을 대상으로 한 조사에서 응답자의 40퍼센트는 한 달에 책을 한 권도 읽지 않는다고 답했다. 20대의 독서량이 가장 적었고 60대가 가장 많았다. 소득과 독서량 사이에는 뚜렷한 상관관계가 없었다.",
+     "en": "REPORT\nReading habits survey\nIn a survey of one thousand adults, forty per cent said they read no books in a month. Readers in their twenties read the least and those in their sixties the most. There was no clear correlation between income and reading volume."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "四割の人はどう答えましたか。",
+      "options": [
+       "一か月に一冊も読まない",
+       "毎日読む",
+       "月に十冊読む"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "収入と読書量の関係はどうでしたか。",
+      "options": [
+       "明確な相関は見られなかった",
+       "強い相関があった",
+       "反対の相関があった"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "調査には成人千人が参加しました。二十代の読書量が最も多かったです。収入と読書の間には明確な相関はありませんでした。",
+    "trans": {
+     "ko": "조사에는 성인 천 명이 참여했다. 20대의 독서량이 가장 많았다. 소득과 독서량 사이에는 뚜렷한 상관관계가 없었다.",
+     "en": "One thousand adults took part. Those in their twenties read the most. There was no clear correlation between income and reading."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "調査には成人千人が参加した。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "二十代の読書量が最も多かった。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "収入と読書の間には明確な相関はなかった。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "データは二つの変数の強い相関を示しています。",
+    "read": "データはふたつのへんすうのつよいそうかんをしめしています。",
+    "ko": "이 자료는 두 변수 사이의 강한 상관관계를 보여 줍니다.",
+    "en": "The data show a strong correlation between the two variables.",
+    "situation": {
+     "ko": "관계를 분석할 때",
+     "en": "Analysing a relationship"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "女性が回答者の六割を占めます。",
+    "read": "じょせいがかいとうしゃのろくわりをしめます。",
+    "ko": "여성이 전체 응답자의 60퍼센트를 차지합니다.",
+    "en": "Women account for sixty per cent of respondents.",
+    "situation": {
+     "ko": "비율을 설명할 때",
+     "en": "Explaining proportions"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "地域間の格差は顕著です。",
+    "read": "ちいきかんのかくさはけんちょです。",
+    "ko": "지역 간 격차가 두드러집니다.",
+    "en": "The disparity between regions is pronounced.",
+    "situation": {
+     "ko": "차이를 지적할 때",
+     "en": "Pointing out a gap"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "大多数が新しい政策を支持しました。",
+    "read": "だいたすうがあたらしいせいさくをしじしました。",
+    "ko": "압도적 다수가 새 정책에 찬성했습니다.",
+    "en": "The vast majority supported the new policy.",
+    "situation": {
+     "ko": "다수를 말할 때",
+     "en": "Describing a majority"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "この値は外れ値のようなので、別に分析するべきです。",
+    "read": "このあたいははずれあたいのようなので、べつにぶんせきするべきです。",
+    "ko": "이 값은 이상치로 보이므로 별도로 분석해야 합니다.",
+    "en": "This value appears to be an outlier and should be analysed separately.",
+    "situation": {
+     "ko": "예외를 처리할 때",
+     "en": "Handling an exception"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "相関があっても、必ずしも因果関係があるとは限りません。",
+    "read": "そうかんがあっても、かならずしもいんがかんけいがあるとはかぎりません。",
+    "ko": "상관관계가 곧 인과 관계는 아닙니다.",
+    "en": "Correlation does not necessarily imply causation.",
+    "situation": {
+     "ko": "해석을 경계할 때",
+     "en": "Cautioning about interpretation"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "上昇傾向は続くと思われます。",
+    "read": "じょうしょうけいこうはつづくとおもわれます。",
+    "ko": "상승 추세가 이어질 것으로 보입니다.",
+    "en": "The upward trend is likely to continue.",
+    "situation": {
+     "ko": "추세를 전망할 때",
+     "en": "Forecasting a trend"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "この結果は、慎重に解釈する必要があります。",
+    "read": "このけっかは、しんちょうにかいしゃくするひつようがあります。",
+    "ko": "이 결과는 조심스럽게 해석해야 합니다.",
+    "en": "These results must be interpreted with caution.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜と〜には相関がある。",
+    "read": "〜と〜にはそうかんがある。",
+    "ko": "~와 ~ 사이에 상관관계가 있다.",
+    "en": "There is a correlation between ~ and ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜が〜を占める。",
+    "read": "〜が〜をしめる。",
+    "ko": "~가 ~를 차지한다.",
+    "en": "~ account(s) for ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜の格差は顕著である。",
+    "read": "〜のかくさはけんちょである。",
+    "ko": "~의 격차가 두드러진다.",
+    "en": "The disparity in ~ is pronounced."
+   },
+   {
+    "id": "w4",
+    "t": "大多数の〜。",
+    "read": "だいたすうの〜。",
+    "ko": "대다수.",
+    "en": "the vast majority of ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가상의 설문 자료를 분석해 비율·상관관계·차이·해석 순으로 4문장으로 써 보세요.",
+    "en": "Analyse an imaginary survey in 4 sentences: proportion, correlation, difference, interpretation."
+   },
+   "must_include": [
+    {
+     "label": "占め",
+     "match": [
+      "占め"
+     ]
+    },
+    {
+     "label": "相関",
+     "match": [
+      "相関"
+     ]
+    },
+    {
+     "label": "慎重に",
+     "match": [
+      "慎重に"
+     ]
+    }
+   ],
+   "model": "公共交通機関の利用者が回答者の七割を占めます。収入が高いほど自動車の利用が多いという相関が見られました。年代による違いは顕著ではありませんでした。ただし、標本が小さいため、結果は慎重に解釈する必要があります。",
+   "model_trans": {
+    "ko": "대중교통 이용자가 전체 응답자의 70퍼센트를 차지했습니다. 소득이 높을수록 자가용 이용률이 높은 상관관계가 나타났습니다. 연령대 간 차이는 두드러지지 않았습니다. 다만 표본이 작으므로 신중한 해석이 필요합니다.",
+    "en": "Public transport users account for seventy per cent of respondents. A correlation emerged between higher income and greater car use. Differences between age groups were not pronounced. However, the sample is small, so the results must be interpreted with caution."
+   }
+  }
+ }
+}

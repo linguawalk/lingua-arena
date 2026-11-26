@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u20",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 20,
+  "concept": "C1.U20",
+  "status": "live",
+  "title": {
+   "target": "学術エッセイの論証構造",
+   "ko": "학술 에세이의 논증 구조",
+   "en": "Argument structure in academic essays"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "主題",
+   "pos": "noun",
+   "read": "しゅだい",
+   "ko": "논지",
+   "en": "thesis statement",
+   "ex": {
+    "t": "序論で主題をはっきり述べましょう。",
+    "read": "じょろんでしゅだいをはっきりのべましょう。",
+    "ko": "서론에서 논지를 분명히 밝히세요.",
+    "en": "State your thesis clearly in the introduction."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "トピックセンテンス",
+   "pos": "noun",
+   "read": "トピックセンテンス",
+   "ko": "주제문",
+   "en": "topic sentence",
+   "ex": {
+    "t": "各段落はトピックセンテンスで始めます。",
+    "read": "かくだんらくはトピックセンテンスではじめます。",
+    "ko": "각 단락은 주제문으로 시작해요.",
+    "en": "Each paragraph begins with a topic sentence."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "反論",
+   "pos": "noun",
+   "read": "はんろん",
+   "ko": "반론",
+   "en": "counter-argument",
+   "ex": {
+    "t": "反論を認めたうえで、それに反駁します。",
+    "read": "はんろんをみとめたうえで、それにはんばくします。",
+    "ko": "반론을 인정한 뒤 반박하세요.",
+    "en": "Acknowledge a counter-argument and then refute it."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "反駁",
+   "pos": "noun",
+   "read": "はんばく",
+   "ko": "반박",
+   "en": "refutation",
+   "ex": {
+    "t": "彼の反駁は説得力がありました。",
+    "read": "かれのはんばくはせっとくりょくがありました。",
+    "ko": "그의 반박은 설득력 있었어요.",
+    "en": "His refutation was convincing."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "裏づける",
+   "pos": "verb",
+   "read": "うらづける",
+   "ko": "뒷받침하다",
+   "en": "support",
+   "ex": {
+    "t": "十分な証拠が主張を裏づけます。",
+    "read": "じゅうぶんなしょうこがしゅちょうをうらづけます。",
+    "ko": "근거로 주장을 뒷받침하세요.",
+    "en": "Support your claim with evidence."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "証拠",
+   "pos": "noun",
+   "read": "しょうこ",
+   "ko": "근거",
+   "en": "evidence",
+   "ex": {
+    "t": "十分な証拠が必要です。",
+    "read": "じゅうぶんなしょうこがひつようです。",
+    "ko": "충분한 근거가 필요해요.",
+    "en": "Sufficient evidence is needed."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "一貫した",
+   "pos": "adj",
+   "read": "いっかんした",
+   "ko": "일관된",
+   "en": "coherent",
+   "ex": {
+    "t": "論理は一貫していなければなりません。",
+    "read": "ろんりはいっかんしていなければなりません。",
+    "ko": "논리가 일관되어야 해요.",
+    "en": "The logic must be coherent."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "前提",
+   "pos": "noun",
+   "read": "ぜんてい",
+   "ko": "전제",
+   "en": "premise",
+   "ex": {
+    "t": "その議論の前提には欠陥があります。",
+    "read": "そのぎろんのぜんていにはけっかんがあります。",
+    "ko": "그 주장의 전제는 잘못되었어요.",
+    "en": "The premise of the argument is flawed."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "結論",
+   "pos": "noun",
+   "read": "けつろん",
+   "ko": "결론",
+   "en": "conclusion",
+   "ex": {
+    "t": "結論は主題に戻ります。",
+    "read": "けつろんはしゅだいにもどります。",
+    "ko": "결론은 서론의 논지로 돌아가요.",
+    "en": "The conclusion returns to the thesis."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "矛盾",
+   "pos": "noun",
+   "read": "むじゅん",
+   "ko": "모순",
+   "en": "contradiction",
+   "ex": {
+    "t": "その議論には矛盾があります。",
+    "read": "そのぎろんにはむじゅんがあります。",
+    "ko": "논지에 모순이 있어요.",
+    "en": "There is a contradiction in the argument."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜と主張する／〜が、〜／〜を裏づける／総合すると",
+   "en": "Argument structure: 〜と主張する / 〜が、〜 / 〜を裏づける / 総合すると"
+  },
+  "explain": {
+   "ko": "よい学術エッセイは、序論・本論・結論でできています。序論では「このエッセイは〜と主張する」と主題を述べ、本論の各段落はトピックセンテンスで始めます。反論は「一部は〜と主張するが」と紹介して、「しかし」で反駁します。根拠は「これを裏づける証拠は〜である」と示します。結論は「総合すると」で始めて、主題を整理します。",
+   "en": "A good essay has an introduction, body and conclusion. The introduction states the thesis: 「このエッセイは〜と主張する」; each body paragraph begins with a topic sentence. A counter-argument is introduced 「一部は〜と主張するが」 and refuted 「しかし」. Evidence: 「これを裏づける証拠は〜である」. The conclusion opens with 「総合すると」 and restates the thesis."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "主題 / Thesis",
+     "このエッセイは〜と主張する",
+     "生産性が上がると主張する。"
+    ],
+    [
+     "反論 / Counter",
+     "一部は〜と主張するが",
+     "一部は反対するが、〜。"
+    ],
+    [
+     "反駁 / Refutation",
+     "しかし〜",
+     "しかし、研究は違う結果を示す。"
+    ],
+    [
+     "結論 / Conclusion",
+     "総合すると〜",
+     "総合すると導入すべきだ。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "主題は序論ではっきり述べます。",
+    "en": "State the thesis clearly in the introduction."
+   },
+   {
+    "ko": "反論は、認めたうえで必ず反駁します。",
+    "en": "Admit the counter-argument, then refute it."
+   },
+   {
+    "ko": "結論は序論の主題に戻ります。",
+    "en": "The conclusion returns to the thesis."
+   }
+  ],
+  "examples": [
+   {
+    "t": "序論で主題をはっきり述べなければなりません。",
+    "read": "じょろんでしゅだいをはっきりのべなければなりません。",
+    "ko": "서론에서 논지를 분명히 밝혀야 해요.",
+    "en": "You should state your thesis clearly in the introduction."
+   },
+   {
+    "t": "各段落はトピックセンテンスで始めなければなりません。",
+    "read": "かくだんらくはトピックセンテンスではじめなければなりません。",
+    "ko": "각 단락은 주제문으로 시작해야 해요.",
+    "en": "Each paragraph should begin with a topic sentence."
+   },
+   {
+    "t": "反論を認めてから反駁するのが効果的です。",
+    "read": "はんろんをみとめてからはんばくするのがこうかてきです。",
+    "ko": "반론을 인정한 뒤 반박하는 것이 효과적이에요.",
+    "en": "It is effective to acknowledge a counter-argument and then refute it."
+   },
+   {
+    "t": "十分な証拠が主張を裏づけます。",
+    "read": "じゅうぶんなしょうこがしゅちょうをうらづけます。",
+    "ko": "충분한 근거가 주장을 뒷받침해요.",
+    "en": "Sufficient evidence supports the claim."
+   },
+   {
+    "t": "結論は序論の主題に戻らなければなりません。",
+    "read": "けつろんはじょろんのしゅだいにもどらなければなりません。",
+    "ko": "결론은 서론의 논지로 돌아가야 해요.",
+    "en": "The conclusion should return to the thesis."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "序論で___をはっきり述べなければなりません。",
+    "options": [
+     "主題",
+     "冗談",
+     "挨拶"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "各段落は___で始めなければなりません。",
+    "options": [
+     "トピックセンテンス",
+     "質問",
+     "引用"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "反論を認めてから___するのが効果的です。",
+    "options": [
+     "反駁",
+     "取り消し",
+     "省略"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___、企業は柔軟な働き方を導入すべきです。",
+    "options": [
+     "総合すると",
+     "たとえば",
+     "逆に"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このエッセイの主題は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 에세이의 논지는 무엇인가요?",
+     "en": "(Question) What is the thesis of this essay?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "在宅勤務が生産性を高めるということです。",
+       "在宅勤務を禁止するということです。",
+       "事務所が必要だということです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "反論はどのように反駁しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 반론은 어떻게 반박하나요?",
+     "en": "(Question) How is the counter-argument refuted?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "最近の研究を挙げて反駁します。",
+       "反論を無視します。",
+       "結論でだけ述べます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "序論を書いたんだけど、主題ははっきりしてる？"
+      },
+      {
+       "s": "B",
+       "t": "「このエッセイは、在宅勤務が生産性を高めると主張する」が主題だね。明確だよ。"
+      },
+      {
+       "s": "A",
+       "t": "反論も入れたほうがいい？"
+      },
+      {
+       "s": "B",
+       "t": "うん、反論を紹介して反駁すると、もっと説得力が出るよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 에세이 서론을 썼는데 논지가 분명한지 봐 줄래?\nB: '이 글은 재택근무가 생산성을 높인다고 주장한다'가 논지구나. 명확해.\nA: 반론도 넣어야 할까?\nB: 응, 반론을 소개하고 반박하면 더 설득력 있어.",
+     "en": "A: I've written my introduction; is my thesis clear?\nB: 'This essay argues that remote working boosts productivity' — that's clear.\nA: Should I include a counter-argument?\nB: Yes, introducing and refuting one makes it more convincing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人は何を勧めていますか。",
+      "options": [
+       "反論を紹介して反駁すること",
+       "反論を入れないこと",
+       "序論を長くすること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "よい学術エッセイは、序論、本論、結論でできています。序論で主題を述べ、本論の各段落はトピックセンテンスで始めます。反論を認めて反駁すると、論証がしっかりします。結論では主題をもう一度まとめます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "좋은 학술 에세이는 서론, 본론, 결론으로 구성됩니다. 서론에서는 논지를 밝히고, 본론의 각 단락은 주제문으로 시작합니다. 반론을 인정하고 반박하면 논증이 더 탄탄해집니다. 결론에서는 논지를 다시 정리합니다.",
+     "en": "A good academic essay has an introduction, body and conclusion. The introduction states the thesis, and each body paragraph starts with a topic sentence. Acknowledging and refuting a counter-argument strengthens the argument. The conclusion restates the thesis."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "結論は何をするべきですか。",
+      "options": [
+       "主題をもう一度まとめる",
+       "新しい話題を出す",
+       "質問をする"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "エッセイを読みました。"
+      },
+      {
+       "s": "B",
+       "t": "いかがでしたか。"
+      },
+      {
+       "s": "A",
+       "t": "主題ははっきりしていますが、反論がありません。"
+      },
+      {
+       "s": "B",
+       "t": "反論を加えて、反駁します。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 에세이를 읽었습니다.\n학생: 어땠나요?\n교수: 논지는 분명하지만 반론이 없습니다.\n학생: 반론을 추가하고 반박하겠습니다.",
+     "en": "Professor: I read your essay.\nStudent: What did you think?\nProfessor: The thesis is clear, but there's no counter-argument.\nStudent: I'll add one and refute it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "教授は______ははっきりしていると言います",
+      "answers": [
+       "主題"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "学生は______を加えて反駁すると言います",
+      "answers": [
+       "反論"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 序論で___をはっきり述べなければなりません。\n2) 各段落は___で始めなければなりません。\n3) 反論を認めてから___するのが効果的です。",
+    "trans": {
+     "ko": "1) 서론에서 논지를 분명히 밝혀야 해요. 2) 각 단락은 주제문으로 시작해야 해요. 3) 반론을 인정한 뒤 반박하는 것이 효과적이에요.",
+     "en": "1) You should state your thesis clearly in the introduction. 2) Each paragraph should begin with a topic sentence. 3) It is effective to acknowledge a counter-argument and then refute it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "序論で___をはっきり述べなければなりません。",
+      "options": [
+       "主題",
+       "冗談",
+       "挨拶"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "各段落は___で始めなければなりません。",
+      "options": [
+       "トピックセンテンス",
+       "質問",
+       "引用"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "反論を認めてから___するのが効果的です。",
+      "options": [
+       "反駁",
+       "取り消し",
+       "省略"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "このエッセイは、都市の自転車道の拡大が環境によいと(1)。一部は費用が高すぎると反対します。(2)、長い目で見れば渋滞と汚染が減り、費用を上回る利益が生まれます。(3)、市は計画を進めるべきです。",
+    "trans": {
+     "ko": "이 에세이는 도시의 자전거 도로 확대가 환경에 도움이 된다고 주장합니다. 일부는 비용이 너무 크다고 반대합니다. 그러나 장기적으로는 교통 정체와 오염이 줄어들어 비용을 상회하는 이익이 생깁니다. 따라서 도시는 계획을 추진해야 합니다.",
+     "en": "This essay argues that expanding urban cycle lanes benefits the environment. Some object that the cost is too high. In the long term, however, congestion and pollution fall, producing benefits that outweigh the cost. Therefore cities should go ahead with the plan."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "主張しています",
+       "質問しています",
+       "断っています"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "しかし",
+       "そして",
+       "たとえば"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "したがって",
+       "しかし",
+       "一方"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "学習ガイド\n論証エッセイ\nよい論証エッセイは、はっきりした主題で始まります。本論では証拠で主題を裏づけ、反論を紹介します。反論は必ず反駁しなければなりません。結論は主題に戻り、要点をまとめます。",
+    "trans": {
+     "ko": "학습 가이드\n논증 에세이\n좋은 논증 에세이는 분명한 논지로 시작한다. 본론에서는 근거로 논지를 뒷받침하고 반론을 소개한다. 반론은 반드시 반박되어야 한다. 결론은 논지로 돌아가 핵심을 정리한다.",
+     "en": "STUDY GUIDE\nArgument essays\nA good argument essay starts with a clear thesis. The body supports the thesis with evidence and introduces counter-arguments. Counter-arguments must be refuted. The conclusion returns to the thesis and summarises key points."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "よい論証エッセイは何で始まりますか。",
+      "options": [
+       "はっきりした主題",
+       "長い引用",
+       "冗談"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "反論はどうしなければなりませんか。",
+      "options": [
+       "必ず反駁する",
+       "紹介しない",
+       "無視する"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "論証エッセイははっきりした主題で始まります。反論は紹介しなくてもかまいません。結論は要点をまとめます。",
+    "trans": {
+     "ko": "논증 에세이는 분명한 논지로 시작한다. 반론은 소개하지 않아도 된다. 결론은 핵심을 정리한다.",
+     "en": "An argument essay starts with a clear thesis. Counter-arguments need not be introduced. The conclusion summarises the key points."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "論証エッセイははっきりした主題で始まる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "反論は紹介しなくてもかまわない。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "結論は要点をまとめる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "このエッセイの主題は、在宅勤務が生産性を高めるということです。",
+    "read": "このエッセイのしゅだいは、ざいたくきんむがせいさんせいをたかめるということです。",
+    "ko": "이 에세이의 논지는 재택근무가 생산성을 높인다는 것입니다.",
+    "en": "The thesis of this essay is that remote working boosts productivity.",
+    "situation": {
+     "ko": "논지를 소개할 때",
+     "en": "Introducing the thesis"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "最初の段落はコスト削減に焦点を当てます。",
+    "read": "さいしょのだんらくはコストさくげんにしょうてんをあてます。",
+    "ko": "첫째 단락은 비용 절감에 초점을 맞춥니다.",
+    "en": "The first paragraph focuses on cost savings.",
+    "situation": {
+     "ko": "단락 구조를 안내할 때",
+     "en": "Signposting"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "チームワークが弱まると主張する人もいます。",
+    "read": "チームワークがよわまるとしゅちょうするひともいます。",
+    "ko": "일부는 팀워크가 약해진다고 주장합니다.",
+    "en": "Some argue that teamwork is weakened.",
+    "situation": {
+     "ko": "반론을 소개할 때",
+     "en": "Introducing a counter-argument"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "しかし、最近の研究はこの主張を覆しています。",
+    "read": "しかし、さいきんのけんきゅうはこのしゅちょうをくつがえしています。",
+    "ko": "그러나 이 주장은 최근 연구에 의해 반박됩니다.",
+    "en": "However, this claim is refuted by recent research.",
+    "situation": {
+     "ko": "반박할 때",
+     "en": "Refuting"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "これを裏づける研究が二つあります。",
+    "read": "これをうらづけるけんきゅうがふたつあります。",
+    "ko": "이를 뒷받침하는 근거로 두 가지 연구를 들 수 있습니다.",
+    "en": "Two studies can be cited in support of this.",
+    "situation": {
+     "ko": "근거를 제시할 때",
+     "en": "Providing evidence"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "この論理には矛盾があります。",
+    "read": "このろんりにはむじゅんがあります。",
+    "ko": "이 논리에는 모순이 있습니다.",
+    "en": "There is a contradiction in this logic.",
+    "situation": {
+     "ko": "논리를 비판할 때",
+     "en": "Criticising logic"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "総合すると、在宅勤務の利点は欠点を上回ります。",
+    "read": "そうごうすると、ざいたくきんむのりてんはけってんをうわまわります。",
+    "ko": "종합하면 재택근무의 이점이 단점을 상회합니다.",
+    "en": "In sum, the benefits of remote working outweigh the drawbacks.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "したがって、企業は柔軟な働き方を導入すべきです。",
+    "read": "したがって、きぎょうはじゅうなんなはたらきほうをどうにゅうすべきです。",
+    "ko": "따라서 기업은 유연한 근무 제도를 도입해야 합니다.",
+    "en": "Therefore, companies should introduce flexible working arrangements.",
+    "situation": {
+     "ko": "제안으로 마무리할 때",
+     "en": "Ending with a recommendation"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "このエッセイは〜と主張します。",
+    "read": "このエッセイは〜としゅちょうします。",
+    "ko": "이 에세이는 ~라고 주장한다.",
+    "en": "This essay argues that ..."
+   },
+   {
+    "id": "w2",
+    "t": "一部は〜と主張しますが、〜。",
+    "read": "いちぶは〜としゅちょうしますが、〜。",
+    "ko": "일부는 ~라고 주장하지만 ~",
+    "en": "Some claim that ..., but ..."
+   },
+   {
+    "id": "w3",
+    "t": "これは〜によって裏づけられます。",
+    "read": "これは〜によってうらづけられます。",
+    "ko": "이를 뒷받침하는 근거는 ~이다.",
+    "en": "This is supported by ..."
+   },
+   {
+    "id": "w4",
+    "t": "総合すると、〜。",
+    "read": "そうごうすると、〜。",
+    "ko": "종합하면 ~이다.",
+    "en": "In sum / On balance, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "논지·반론·반박·결론이 모두 들어간 4문장의 논증 에세이 요약을 써 보세요.",
+    "en": "Write a four-sentence summary of an argument essay that includes thesis, counter-argument, refutation and conclusion."
+   },
+   "must_include": [
+    {
+     "label": "主張",
+     "match": [
+      "主張"
+     ]
+    },
+    {
+     "label": "しかし",
+     "match": [
+      "しかし"
+     ]
+    },
+    {
+     "label": "総合すると",
+     "match": [
+      "総合すると"
+     ]
+    }
+   ],
+   "model": "このエッセイは、在宅勤務が生産性を高めると主張します。一部はチームワークが弱まると主張します。しかし、最近の研究は、オンラインの協働ツールがこの問題を減らすことを示しています。総合すると、企業は柔軟な働き方を導入すべきです。",
+   "model_trans": {
+    "ko": "이 에세이는 재택근무가 생산성을 높인다고 주장합니다. 일부는 팀워크가 약해진다고 주장합니다. 그러나 최근 연구는 온라인 협업 도구가 이 문제를 줄인다는 것을 보여 줍니다. 종합하면 기업은 유연한 근무 제도를 도입해야 합니다.",
+    "en": "This essay argues that remote working boosts productivity. Some claim that teamwork is weakened. However, recent studies show that online collaboration tools reduce this problem. In sum, companies should introduce flexible working arrangements."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u50",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 50,
+  "concept": "C1.U50",
+  "status": "live",
+  "title": {
+   "target": "C1総復習：洗練された論証エッセイを書く",
+   "ko": "C1 종합: 정교한 논증 에세이",
+   "en": "C1 review: writing a sophisticated argued essay"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "洗練された",
+   "pos": "adj",
+   "read": "せんれんされた",
+   "ko": "정교한",
+   "en": "sophisticated",
+   "ex": {
+    "t": "彼の議論は洗練されています。",
+    "read": "かれのぎろんはせんれんされています。",
+    "ko": "그의 논증은 정교해요.",
+    "en": "His argument is sophisticated."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "統合する",
+   "pos": "verb",
+   "read": "とうごうする",
+   "ko": "종합하다",
+   "en": "synthesise",
+   "ex": {
+    "t": "彼女は複数の資料を統合して結論を出しました。",
+    "read": "かのじょはふくすうのしりょうをとうごうしてけつろんをだしました。",
+    "ko": "여러 자료를 종합해 결론을 냈어요.",
+    "en": "She synthesised several sources into a conclusion."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "ニュアンス",
+   "pos": "noun",
+   "read": "ニュアンス",
+   "ko": "미묘한 차이",
+   "en": "nuance",
+   "ex": {
+    "t": "この問題にはニュアンスがあります。",
+    "read": "このもんだいにはニュアンスがあります。",
+    "ko": "이 문제에는 미묘한 차이가 있어요.",
+    "en": "There is nuance in this issue."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "厳密に言えば",
+   "pos": "phrase",
+   "read": "げんみつにいえば",
+   "ko": "엄밀히 말해서",
+   "en": "strictly speaking",
+   "ex": {
+    "t": "厳密に言えば、それは正しくありません。",
+    "read": "げんみつにいえば、それはただしくありません。",
+    "ko": "엄밀히 말해서 그건 사실이 아니에요.",
+    "en": "Strictly speaking, that isn't true."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "一方では〜、他方では〜",
+   "pos": "phrase",
+   "read": "いっぽうでは〜、たほうでは〜",
+   "ko": "한편으로는",
+   "en": "on the one hand",
+   "ex": {
+    "t": "一方では好機であり、他方では危険です。",
+    "read": "いっぽうではこうきであり、たほうではきけんです。",
+    "ko": "한편으로는 기회이고 다른 한편으로는 위험이에요.",
+    "en": "On the one hand it is an opportunity; on the other, a risk."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "主張する",
+   "pos": "verb",
+   "read": "しゅちょうする",
+   "ko": "단언하다",
+   "en": "assert",
+   "ex": {
+    "t": "彼は自分の主張を述べました。",
+    "read": "かれはじぶんのしゅちょうをのべました。",
+    "ko": "그는 자신의 주장을 단언했어요.",
+    "en": "He asserted his claim."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "反駁する",
+   "pos": "verb",
+   "read": "はんばくする",
+   "ko": "반박하다",
+   "en": "rebut",
+   "ex": {
+    "t": "彼は批判に反駁しました。",
+    "read": "かれはひはんにはんばくしました。",
+    "ko": "그는 비판을 반박했어요.",
+    "en": "He rebutted the criticism."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "示唆",
+   "pos": "noun",
+   "read": "しさ",
+   "ko": "함의",
+   "en": "implication",
+   "ex": {
+    "t": "その結果には重要な示唆があります。",
+    "read": "そのけっかにはじゅうようなしさがあります。",
+    "ko": "이 결과에는 중요한 함의가 있어요.",
+    "en": "The result has important implications."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "説得力のある",
+   "pos": "adj",
+   "read": "せっとくりょくのある",
+   "ko": "설득력 있는",
+   "en": "compelling",
+   "ex": {
+    "t": "その議論は説得力があります。",
+    "read": "そのぎろんはせっとくりょくがあります。",
+    "ko": "그 논거는 설득력이 있어요.",
+    "en": "The argument is compelling."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "総合的に見て",
+   "pos": "phrase",
+   "read": "そうごうてきにみて",
+   "ko": "종합적으로 볼 때",
+   "en": "on balance",
+   "ex": {
+    "t": "総合的に見て、利益のほうが大きいです。",
+    "read": "そうごうてきにみて、りえきのほうがおおきいです。",
+    "ko": "종합적으로 볼 때 이득이 더 커요.",
+    "en": "On balance, the gains outweigh the losses."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "仮定／倒置的強調／ぼかし／接続表現",
+   "en": "C1 review: hypotheticals, emphasis, hedging and linkers in an argued essay"
+  },
+  "explain": {
+   "ko": "洗練された論証エッセイは、主題・証拠・反論・反駁・結論でできています。主題は「本稿は〜と主張する」、対比は「一方では〜、他方では〜」、仮定は「もっと慎重であれば、あの間違いは避けられただろう」、控えめな推定は「〜と思われる」で表します。反論は「しかし、最近の研究によって反駁されている」と述べ、「総合的に見て」で結論を出します。複雑すぎる構造は読者を混乱させるので、バランスが必要です。",
+   "en": "A polished argued essay has thesis, evidence, counter-argument, rebuttal and conclusion. Thesis: 「本稿は〜と主張する」; contrast: 「一方では〜、他方では〜」; hypothetical: 「もっと慎重であれば、あの間違いは避けられただろう」; hedge: 「〜と思われる」. Rebut: 「しかし、最近の研究によって反駁されている」; conclude: 「総合的に見て」. Overly complex structures confuse readers; keep balance."
+  },
+  "table": {
+   "head": [
+    "機能 / Function",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "主題 / Thesis",
+     "本稿は〜と主張する",
+     "本稿は在宅勤務が生産性を高めると主張する。"
+    ],
+    [
+     "対比 / Contrast",
+     "一方では〜、他方では〜",
+     "一方では費用が減り、他方では〜。"
+    ],
+    [
+     "仮定 / Hypothetical",
+     "〜ば、〜ただろう",
+     "準備すれば、結果は違っただろう。"
+    ],
+    [
+     "結論 / Conclusion",
+     "総合的に見て〜",
+     "総合的に見て、利益が大きい。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "主張には証拠を、反論には反駁を添えます。",
+    "en": "Back claims with evidence and counter-arguments with rebuttals."
+   },
+   {
+    "ko": "ぼかし表現で、断定しすぎないようにします。",
+    "en": "Hedge to avoid over-asserting."
+   },
+   {
+    "ko": "最後に主題に戻って結論をまとめます。",
+    "en": "Return to the thesis in the conclusion."
+   }
+  ],
+  "examples": [
+   {
+    "t": "総合的に見て、利益のほうが損失より大きいです。",
+    "read": "そうごうてきにみて、りえきのほうがそんしつよりおおきいです。",
+    "ko": "종합적으로 볼 때 이득이 더 커요.",
+    "en": "On balance, the gains outweigh the losses."
+   },
+   {
+    "t": "一方では好機であり、他方では危険です。",
+    "read": "いっぽうではこうきであり、たほうではきけんです。",
+    "ko": "한편으로는 기회지만 다른 한편으로는 위험이에요.",
+    "en": "On the one hand it is an opportunity; on the other, a risk."
+   },
+   {
+    "t": "もっと慎重であれば、あの間違いは避けられたでしょう。",
+    "read": "もっとしんちょうであれば、あのあいだちがいはさけられたでしょう。",
+    "ko": "그가 더 신중했더라면 그런 실수는 하지 않았을 거예요.",
+    "en": "Had he been more careful, he would not have made that mistake."
+   },
+   {
+    "t": "そのような状況は、めったに起こりません。",
+    "read": "そのようなじょうきょうは、めったにおこりません。",
+    "ko": "그런 상황은 좀처럼 일어나지 않아요.",
+    "en": "Rarely does such a situation occur."
+   },
+   {
+    "t": "その結果には、重要な示唆があると思われます。",
+    "read": "そのけっかには、じゅうようなしさがあるとおもわれます。",
+    "ko": "이 결과는 중요한 함의를 지니는 것으로 보여요.",
+    "en": "The result appears to have important implications."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___、利益のほうが損失より大きいです。",
+    "options": [
+     "総合的に見て",
+     "たとえば",
+     "逆に"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___は好機であり、他方では危険です。",
+    "options": [
+     "一方で",
+     "最初",
+     "偶然"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "もっと慎重であれ___、あの間違いは避けられたでしょう。",
+    "options": [
+     "ば",
+     "ても",
+     "のに"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "その結果には重要な示唆が___。",
+    "options": [
+     "あると思われます",
+     "ありません",
+     "あります"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このエッセイの主題は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 에세이의 논지는 무엇인가요?",
+     "en": "(Question) What is the thesis of this essay?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "在宅勤務が生産性を高めることです。",
+       "在宅勤務を禁止することです。",
+       "主題はありません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "反論はどう扱いましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 반론은 어떻게 다루었나요?",
+     "en": "(Question) How was the counter-argument handled?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "研究を挙げて反駁しました。",
+       "無視しました。",
+       "触れませんでした。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "エッセイが書けたよ。どう思う？"
+      },
+      {
+       "s": "B",
+       "t": "主題は明確だけど、反論が弱いね。"
+      },
+      {
+       "s": "A",
+       "t": "反駁を加えたほうがいい？"
+      },
+      {
+       "s": "B",
+       "t": "うん、「総合的に見て」で結論を締めると、もっと説得力が出るよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 에세이를 다 썼는데 어때?\nB: 논지는 분명한데 반론이 약해.\nA: 반박도 넣어야 할까?\nB: 응, 종합적으로 볼 때를 쓰면 결론이 더 설득력 있어.",
+     "en": "A: I've finished the essay; what do you think?\nB: The thesis is clear but the counter-argument is weak.\nA: Should I add a rebuttal?\nB: Yes, and using 'on balance' makes the conclusion more convincing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人は何を勧めていますか。",
+      "options": [
+       "反駁を加え、総合的に見てで結ぶこと",
+       "反論を減らすこと",
+       "短くすること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "洗練された論証エッセイは、主題、証拠、反論、反駁、結論でできています。仮定やぼかし表現を適切に使うと、文体が洗練されます。ただし、複雑な構造を使いすぎると読者が混乱するので、バランスが必要です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "정교한 논증 에세이는 논지, 근거, 반론, 반박, 결론으로 이루어집니다. 가정법과 도치, 완곡한 표현을 적절히 쓰면 문체가 한층 세련됩니다. 그러나 지나치게 복잡한 구조는 독자를 혼란스럽게 하므로 균형이 필요합니다.",
+     "en": "A sophisticated argued essay consists of thesis, evidence, counter-argument, rebuttal and conclusion. Using hypotheticals, inversion and hedging appropriately refines the style. But overly complex structures confuse readers, so balance is needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "論証エッセイは何でできていますか。",
+      "options": [
+       "主題・証拠・反論・反駁・結論",
+       "あいさつと冗談",
+       "引用だけ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "エッセイの草稿を読みました。"
+      },
+      {
+       "s": "B",
+       "t": "いかがでしたか。"
+      },
+      {
+       "s": "A",
+       "t": "主題は明確ですが、反論への反駁が足りません。"
+      },
+      {
+       "s": "B",
+       "t": "反駁を加えて、結論を磨きます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 에세이 초안을 읽었습니다.\n학생: 어땠나요?\n교수: 논지는 분명하지만 반론에 대한 반박이 부족합니다.\n학생: 반박을 추가하고 결론을 다듬겠습니다.",
+     "en": "Professor: I read your essay draft.\nStudent: What did you think?\nProfessor: The thesis is clear, but the rebuttal of the counter-argument is lacking.\nStudent: I'll add a rebuttal and refine the conclusion."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "主題は明確ですが、______が足りません",
+      "answers": [
+       "反駁"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "学生は______を磨くと言います",
+      "answers": [
+       "結論"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___、利益のほうが損失より大きいです。\n2) ___は好機であり、他方では危険です。\n3) もっと慎重であれ___、あの間違いは避けられたでしょう。",
+    "trans": {
+     "ko": "1) 종합적으로 볼 때 이득이 더 커요. 2) 한편으로는 기회지만 다른 한편으로는 위험이에요. 3) 그가 더 신중했더라면 그런 실수는 하지 않았을 거예요.",
+     "en": "1) On balance, the gains outweigh the losses. 2) On the one hand it is an opportunity; on the other, a risk. 3) Had he been more careful, he would not have made that mistake."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___、利益のほうが損失より大きいです。",
+      "options": [
+       "総合的に見て",
+       "たとえば",
+       "逆に"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___は好機であり、他方では危険です。",
+      "options": [
+       "一方で",
+       "最初",
+       "偶然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "もっと慎重であれ___、あの間違いは避けられたでしょう。",
+      "options": [
+       "ば",
+       "ても",
+       "のに"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "本稿は、都市での自動車の利用を減らすべきだと主張する。経済活動が弱まるという反対意見もある。しかし、公共交通を改善すると、かえって地域経済が(1)という証拠がある。総合的に見て、自動車の利用を(2)政策は(3)。",
+    "trans": {
+     "ko": "이 에세이는 도시의 자동차 사용을 줄여야 한다고 주장합니다. 일부는 이것이 경제 활동을 위축시킨다고 반대합니다. 그러나 대중교통이 개선되면 오히려 지역 경제가 활성화될 수 있다는 증거가 있습니다. 종합적으로 볼 때 자동차 억제 정책은 정당화됩니다.",
+     "en": "This essay argues that car use in cities should be reduced. Some object that this dampens economic activity. However, there is evidence that improving public transport may actually stimulate the local economy. On balance, policies to curb car use are justified."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "活性化する",
+       "弱まる",
+       "止まる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "抑える",
+       "増やす",
+       "忘れる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "正当化される",
+       "間違っている",
+       "不要である"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "エッセイの要約\nデジタル時代の読書\n本稿は、デジタル機器が深い読書を妨げると主張する。たしかに、アクセスのしやすさは向上した。しかし、画面での読書は集中力を弱める恐れがある。したがって、紙の本を読む時間を意識的に確保することが望ましい。",
+    "trans": {
+     "ko": "에세이 요약\n디지털 시대의 독서\n이 글은 디지털 기기가 깊은 독서를 방해한다고 주장한다. 물론 접근성이 높아졌다는 장점은 있다. 그러나 화면 독서는 집중력을 떨어뜨릴 수 있다. 따라서 의도적으로 종이책을 읽는 시간을 갖는 것이 바람직하다.",
+     "en": "ESSAY SUMMARY\nReading in the digital age\nThis essay argues that digital devices hinder deep reading. Admittedly, access has improved. However, screen reading may weaken concentration. It is therefore advisable to set aside time deliberately to read paper books."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "本稿は何を主張していますか。",
+      "options": [
+       "デジタル機器が深い読書を妨げる",
+       "紙の本は不要だ",
+       "読書は役に立たない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "筆者は何をするのが望ましいと言っていますか。",
+      "options": [
+       "紙の本を読む時間を確保する",
+       "画面で読む",
+       "読書をやめる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "本稿は、デジタル機器が深い読書を妨げると主張しています。本稿は、デジタル機器のアクセスのしやすさという利点を否定しています。本稿は、紙の本を読む時間を勧めています。",
+    "trans": {
+     "ko": "글은 디지털 기기가 깊은 독서를 방해한다고 주장한다. 글은 디지털 기기의 접근성 장점을 부정한다. 글은 종이책 독서 시간을 권한다.",
+     "en": "The essay argues that digital devices hinder deep reading. The essay denies the accessibility advantage of digital devices. The essay recommends time for reading paper books."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "本稿はデジタル機器が深い読書を妨げると主張している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "本稿はアクセスのしやすさという利点を否定している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "本稿は紙の本を読む時間を勧めている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "本稿は、在宅勤務が生産性を高めると主張します。",
+    "read": "ほんこうは、ざいたくきんむがせいさんせいをたかめるとしゅちょうします。",
+    "ko": "이 에세이는 재택근무가 생산성을 높인다고 주장합니다.",
+    "en": "This essay argues that remote working boosts productivity.",
+    "situation": {
+     "ko": "논지를 밝힐 때",
+     "en": "Stating a thesis"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "一方では費用が減り、他方では協働が弱まる可能性があります。",
+    "read": "いっぽうではひようがへり、たほうではきょうどうがよわまるかのうせいがあります。",
+    "ko": "한편으로는 비용이 절감되지만 다른 한편으로는 협업이 약해질 수 있습니다.",
+    "en": "On the one hand costs fall; on the other, collaboration may weaken.",
+    "situation": {
+     "ko": "양면을 제시할 때",
+     "en": "Presenting both sides"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "すべての社員が同じように働くことは、めったにありません。",
+    "read": "すべてのしゃいんがおなじようにはたらくことは、めったにありません。",
+    "ko": "좀처럼 모든 직원이 같은 방식으로 일하지는 않습니다.",
+    "en": "Rarely do all employees work in the same way.",
+    "situation": {
+     "ko": "도치를 쓸 때",
+     "en": "Using inversion"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "もし十分に準備していれば、結果は違っていたでしょう。",
+    "read": "もしじゅうぶんにじゅんびしていれば、けっかはちがっていたでしょう。",
+    "ko": "충분히 준비했더라면 결과가 달랐을 것입니다.",
+    "en": "Had we prepared thoroughly, the result would have been different.",
+    "situation": {
+     "ko": "가정을 쓸 때",
+     "en": "Using a hypothetical"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "その結果には重要な示唆があると思われます。",
+    "read": "そのけっかにはじゅうようなしさがあるとおもわれます。",
+    "ko": "이 결과는 중요한 함의를 지니는 것으로 보입니다.",
+    "en": "The result appears to have important implications.",
+    "situation": {
+     "ko": "헤징할 때",
+     "en": "Hedging"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "しかし、この主張は最近の研究によって反駁されています。",
+    "read": "しかし、このしゅちょうはさいきんのけんきゅうによってはんばくされています。",
+    "ko": "그러나 이 주장은 최근 연구에 의해 반박됩니다.",
+    "en": "However, this claim is rebutted by recent research.",
+    "situation": {
+     "ko": "반박할 때",
+     "en": "Rebutting"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "総合的に見て、利点のほうが欠点を上回ります。",
+    "read": "そうごうてきにみて、りてんのほうがけってんをうわまわります。",
+    "ko": "종합적으로 볼 때 이점이 단점을 상회합니다.",
+    "en": "On balance, the benefits outweigh the drawbacks.",
+    "situation": {
+     "ko": "결론을 쓸 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "したがって、企業は柔軟な働き方を導入すべきです。",
+    "read": "したがって、きぎょうはじゅうなんなはたらきほうをどうにゅうすべきです。",
+    "ko": "따라서 기업은 유연한 근무 방식을 도입해야 합니다.",
+    "en": "Companies should therefore adopt flexible working arrangements.",
+    "situation": {
+     "ko": "제안으로 마무리할 때",
+     "en": "Ending with a recommendation"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "本稿は〜と主張する。",
+    "read": "ほんこうは〜としゅちょうする。",
+    "ko": "이 글은 ~라고 주장한다.",
+    "en": "This essay argues that ..."
+   },
+   {
+    "id": "w2",
+    "t": "一方では〜、他方では〜。",
+    "read": "いっぽうでは〜、たほうでは〜。",
+    "ko": "한편으로는 ~, 다른 한편으로는 ~.",
+    "en": "On the one hand ..., on the other ..."
+   },
+   {
+    "id": "w3",
+    "t": "総合的に見て、〜。",
+    "read": "そうごうてきにみて、〜。",
+    "ko": "종합적으로 볼 때 ~.",
+    "en": "On balance, ..."
+   },
+   {
+    "id": "w4",
+    "t": "〜ば、〜ただろう。",
+    "read": "〜ば、〜ただろう。",
+    "ko": "~했더라면 ~했을 것이다.",
+    "en": "Had ..., ... would have ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "논지·반론·반박·결론을 모두 포함한 정교한 논증 에세이 요약을 4문장으로 써 보세요.",
+    "en": "Write a four-sentence summary of a sophisticated argued essay with thesis, counter-argument, rebuttal and conclusion."
+   },
+   "must_include": [
+    {
+     "label": "主張",
+     "match": [
+      "主張"
+     ]
+    },
+    {
+     "label": "一方では",
+     "match": [
+      "一方では"
+     ]
+    },
+    {
+     "label": "総合的に見て",
+     "match": [
+      "総合的に見て"
+     ]
+    }
+   ],
+   "model": "本稿は、在宅勤務が生産性を高めると主張します。一方では費用が減り、他方では協働が弱まる懸念があります。しかし、研究は、オンラインの協働ツールがこの問題を大きく減らすことを示しています。総合的に見て、企業は柔軟な働き方を導入すべきです。",
+   "model_trans": {
+    "ko": "이 에세이는 재택근무가 생산성을 높인다고 주장합니다. 한편으로는 비용이 절감되지만 다른 한편으로는 협업이 약해질 수 있다는 우려가 있습니다. 그러나 온라인 협업 도구가 이 문제를 크게 줄인다는 연구 결과가 있습니다. 종합적으로 볼 때 기업은 유연한 근무 방식을 도입해야 합니다.",
+    "en": "This essay argues that remote working boosts productivity. On the one hand costs fall; on the other, there is concern that collaboration may weaken. However, research shows that online collaboration tools greatly reduce this problem. On balance, companies should adopt flexible working arrangements."
+   }
+  }
+ }
+}

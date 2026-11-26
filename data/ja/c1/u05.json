@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u05",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 5,
+  "concept": "C1.U05",
+  "status": "live",
+  "title": {
+   "target": "名詞化と学術的な文体",
+   "ko": "명사화와 학술 문체",
+   "en": "Nominalisation and academic style"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "増加",
+   "pos": "noun",
+   "read": "ぞうか",
+   "ko": "증가",
+   "en": "increase",
+   "ex": {
+    "t": "需要の急激な増加が見られます。",
+    "read": "じゅようのきゅうげきなぞうかがみられます。",
+    "ko": "수요가 크게 증가했어요.",
+    "en": "There has been a sharp increase in demand."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "分析",
+   "pos": "noun",
+   "read": "ぶんせき",
+   "ko": "분석",
+   "en": "analysis",
+   "ex": {
+    "t": "この分析で新しいことがわかります。",
+    "read": "このぶんせきであたらしいことがわかります。",
+    "ko": "이 분석은 새로운 사실을 보여 줘요.",
+    "en": "This analysis reveals something new."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "発展",
+   "pos": "noun",
+   "read": "はってん",
+   "ko": "발전",
+   "en": "development",
+   "ex": {
+    "t": "技術の発展が社会を変えました。",
+    "read": "ぎじゅつのはってんがしゃかいをかえました。",
+    "ko": "기술의 발전이 사회를 바꿨어요.",
+    "en": "Technological development has changed society."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "失敗",
+   "pos": "noun",
+   "read": "しっぱい",
+   "ko": "실패",
+   "en": "failure",
+   "ex": {
+    "t": "計画の失敗は予想できました。",
+    "read": "けいかくのしっぱいはよそうできました。",
+    "ko": "그 계획의 실패는 예견된 일이었어요.",
+    "en": "The failure of the plan was predictable."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "決定",
+   "pos": "noun",
+   "read": "けってい",
+   "ko": "결정",
+   "en": "determination",
+   "ex": {
+    "t": "原因の決定が重要です。",
+    "read": "げんいんのけっていがじゅうようです。",
+    "ko": "원인 규명이 중요해요.",
+    "en": "The determination of the cause is important."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "導入",
+   "pos": "noun",
+   "read": "どうにゅう",
+   "ko": "도입",
+   "en": "introduction",
+   "ex": {
+    "t": "新システムの導入は議論を呼びました。",
+    "read": "しんシステムのどうにゅうはぎろんをよびました。",
+    "ko": "새 제도의 도입이 논란을 불러왔어요.",
+    "en": "The introduction of the new system caused controversy."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "応用",
+   "pos": "noun",
+   "read": "おうよう",
+   "ko": "적용",
+   "en": "application",
+   "ex": {
+    "t": "この理論の応用範囲は広いです。",
+    "read": "このりろんのおうようはんいはひろいです。",
+    "ko": "이 이론의 적용 범위는 넓어요.",
+    "en": "The application of this theory is wide."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "改善",
+   "pos": "noun",
+   "read": "かいぜん",
+   "ko": "개선",
+   "en": "improvement",
+   "ex": {
+    "t": "サービスの改善が必要です。",
+    "read": "サービスのかいぜんがひつようです。",
+    "ko": "서비스의 개선이 필요해요.",
+    "en": "Improvement of the service is needed."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "影響",
+   "pos": "noun",
+   "read": "えいきょう",
+   "ko": "영향력",
+   "en": "influence",
+   "ex": {
+    "t": "メディアの影響が大きくなりました。",
+    "read": "メディアのえいきょうがおおきくなりました。",
+    "ko": "미디어의 영향력은 커졌어요.",
+    "en": "The influence of the media has grown."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "抽象的な",
+   "pos": "adj",
+   "read": "ちゅうしょうてきな",
+   "ko": "추상적인",
+   "en": "abstract",
+   "ex": {
+    "t": "抽象的な概念は理解しにくいです。",
+    "read": "ちゅうしょうてきながいねんはりかいしにくいです。",
+    "ko": "추상적인 개념은 이해하기 어려워요.",
+    "en": "Abstract concepts are hard to grasp."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜の増加／〜の導入／〜の分析（動詞を名詞にする）",
+   "en": "Nominalisation: verbs → nouns (〜の増加 / 〜の導入 / 〜の分析)"
+  },
+  "explain": {
+   "ko": "学術的な文章では、動詞や形容詞を名詞にして、文をまとめます。「需要が急に増えたので、価格が上がった」は「需要の急増が価格の上昇を招いた」となります。「〜の増加」「〜の導入」「〜の分析」のように「名詞＋の＋名詞」の形が基本です。客観的で簡潔になりますが、使いすぎると読みにくくなります。",
+   "en": "Academic writing turns verbs and adjectives into nouns to compress sentences. 「需要が急に増えたので価格が上がった」 becomes 「需要の急増が価格の上昇を招いた」. The base shape is 「名詞＋の＋名詞」: 「〜の増加」「〜の導入」「〜の分析」. It sounds objective and concise, but overuse hurts readability."
+  },
+  "table": {
+   "head": [
+    "元の文 / Original",
+    "名詞化 / Nominalised",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "需要が増えた",
+     "需要の増加",
+     "需要の増加が価格を上げた。"
+    ],
+    [
+     "政策を導入した",
+     "政策の導入",
+     "政策の導入が議論を呼んだ。"
+    ],
+    [
+     "結果を分析した",
+     "結果の分析",
+     "分析は強い関連を示した。"
+    ],
+    [
+     "計画に失敗した",
+     "計画の失敗",
+     "失敗の原因を調べる。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜こと」「〜の」「〜さ」「〜化」も名詞化に使えます。",
+    "en": "「〜こと」「〜の」「〜さ」「〜化」 also nominalise."
+   },
+   {
+    "ko": "名詞化すると主語が省かれ、客観的な印象になります。",
+    "en": "Nominalising drops the subject and sounds objective."
+   },
+   {
+    "ko": "動詞と名詞のバランスを考えて、読みやすくしましょう。",
+    "en": "Balance verbs and nouns for readability."
+   }
+  ],
+  "examples": [
+   {
+    "t": "需要の急激な増加が価格の上昇を招きました。",
+    "read": "じゅようのきゅうげきなぞうかがかかくのじょうしょうをまねきました。",
+    "ko": "수요가 급증했기 때문에 가격이 올랐어요.",
+    "en": "The sharp increase in demand caused prices to rise."
+   },
+   {
+    "t": "新しい政策の導入は大きな議論を呼びました。",
+    "read": "あたらしいせいさくのどうにゅうはおおきなぎろんをよびました。",
+    "ko": "정부가 새 정책을 도입하자 논란이 일었어요.",
+    "en": "The introduction of the new policy caused controversy."
+   },
+   {
+    "t": "技術の急速な発展が社会を変えました。",
+    "read": "ぎじゅつのきゅうそくなはってんがしゃかいをかえました。",
+    "ko": "기술이 빠르게 발전해서 사회가 변했어요.",
+    "en": "Rapid technological development has transformed society."
+   },
+   {
+    "t": "彼らの計画の不備は驚くことではありません。",
+    "read": "かれらのけいかくのふびはおどろくことではありません。",
+    "ko": "그들이 계획에 실패한 것은 놀랍지 않아요.",
+    "en": "Their failure to plan is not surprising."
+   },
+   {
+    "t": "研究者は結果の詳しい分析を行いました。",
+    "read": "けんきゅうしゃはけっかのくわしいぶんせきをおこないました。",
+    "ko": "연구자들은 결과를 신중하게 분석했어요.",
+    "en": "The researchers carried out a careful analysis of the results."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "需要の急激な___が価格を上げました。",
+    "options": [
+     "増加",
+     "増える",
+     "増えた"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "新しい政策の___は議論を呼びました。",
+    "options": [
+     "導入",
+     "導入する",
+     "導入した"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "結果の___が必要です。",
+    "options": [
+     "分析",
+     "分析する",
+     "分析して"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "サービスの___が求められています。",
+    "options": [
+     "改善",
+     "改善する",
+     "改善して"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "これを、もっと学術的にどう言い換えられますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 문장을 학술적으로 바꿔 말해 보세요.",
+     "en": "(Question) How would you say this in a more academic way?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "需要の急激な増加が価格の上昇を招きました。",
+       "来週の月曜日です。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "需要が増えたことで、何が起こりましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 수요 증가는 무엇을 초래했나요?",
+     "en": "(Question) What did the rise in demand cause?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "価格が上がりました。",
+       "天気が悪くなりました。",
+       "店が閉まりました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "レポートに「町が急に大きくなったので、問題が出てきた」と書いたんだ。"
+      },
+      {
+       "s": "B",
+       "t": "「町の急速な拡大が問題を生んだ」のほうが学術的だよ。"
+      },
+      {
+       "s": "A",
+       "t": "ああ、名詞の形にするってことか。"
+      },
+      {
+       "s": "B",
+       "t": "そう。簡潔で改まった感じになるよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 보고서에 '도시가 빠르게 성장해서 문제가 생겼다'라고 썼어.\nB: 조금 더 학술적으로 쓰면 '도시의 급속한 성장은 문제를 초래했다'가 낫겠어.\nA: 아, 명사로 바꾸라는 거구나.\nB: 맞아. 훨씬 간결하고 격식 있게 들려.",
+     "en": "A: In my report I wrote 'The city grew quickly, so problems appeared'.\nB: It would sound more academic as 'The rapid growth of the city led to problems'.\nA: Oh, you mean turn it into a noun phrase.\nB: Exactly. It sounds more concise and formal."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "女の人は何を直すように勧めていますか。",
+      "options": [
+       "動詞を名詞の形にすること",
+       "文を長くすること",
+       "題名を変えること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今日の講義は名詞化についてです。学術的な文章では動詞の代わりに名詞がよく使われます。たとえば「政府が導入した」の代わりに「政府の導入」と書きます。こうすると文が圧縮され、客観的になります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 강의에서는 명사화에 대해 다룹니다. 학술적인 글에서는 동사 대신 명사를 사용하는 경우가 많습니다. 예를 들어 '정부가 도입했다' 대신 '정부의 도입'이라고 씁니다. 이렇게 하면 문장이 더 압축되고 객관적으로 보입니다.",
+     "en": "This lecture covers nominalisation. Academic writing often uses nouns instead of verbs. For example, instead of 'the government introduced', we write 'the government's introduction'. This makes sentences more compressed and objective."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "名詞化するとどうなりますか。",
+      "options": [
+       "文が圧縮され客観的になる",
+       "文が長くなる",
+       "文が感情的になる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "序論を読みました。"
+      },
+      {
+       "s": "B",
+       "t": "どこを直せばいいですか。"
+      },
+      {
+       "s": "A",
+       "t": "動詞が多すぎます。もっと名詞を使ってみてください。"
+      },
+      {
+       "s": "B",
+       "t": "たとえば、「増えた」を「増加」にするのですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 논문 서론을 봤습니다.\n학생: 어디를 고쳐야 할까요?\n교수: 동사가 너무 많아요. 명사 중심으로 바꿔 보세요.\n학생: 예를 들면 '늘었다'를 '증가'로요?",
+     "en": "Professor: I read your introduction.\nStudent: What should I change?\nProfessor: There are too many verbs. Try using more nouns.\nStudent: For example, 'increased' to 'an increase'?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "教授は______が多すぎると言います",
+      "answers": [
+       "動詞"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "「増えた」を「______」にするか学生は聞きます",
+      "answers": [
+       "増加"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 需要の急激な___が価格を上げました。\n2) 新しい政策の___は議論を呼びました。\n3) 技術の急速な___が社会を変えました。",
+    "trans": {
+     "ko": "1) 수요가 급증해서 가격이 올랐어요. 2) 새 정책을 도입해서 논란이 일었어요. 3) 기술이 빠르게 발전해서 사회가 변했어요.",
+     "en": "1) The sharp increase in demand caused prices to rise. 2) The introduction of the new policy caused controversy. 3) Rapid technological development has transformed society."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "需要の急激な___が価格を上げました。",
+      "options": [
+       "増加",
+       "増える",
+       "増えた"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "新しい政策の___は議論を呼びました。",
+      "options": [
+       "導入",
+       "導入する",
+       "導入した"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "技術の急速な___が社会を変えました。",
+      "options": [
+       "発展",
+       "発展する",
+       "発展した"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "名詞化は学術的な文体の大きな特徴です。たとえば「政府が政策を導入すると、市場が反応した」は「政策の導入が市場の(1)を招いた」となります。このような文は(2)ですが、読みにくくなることもあります。ですから、必要な(3)使いましょう。",
+    "trans": {
+     "ko": "명사화는 학술 문체의 핵심 특징입니다. 예를 들어 ‘정부가 정책을 도입하자 시장이 반응했다’는 ‘정책의 도입은 시장의 반응을 불러왔다’로 바뀝니다. 이런 문장은 정보가 압축되어 있지만 읽기 어려울 수 있습니다. 따라서 필요한 만큼만 사용해야 합니다.",
+     "en": "Nominalisation is a key feature of academic style. For example, 'When the government introduced the policy, the market reacted' becomes 'The introduction of the policy provoked a market reaction'. Such sentences are compressed but can be hard to read. So use it only as much as needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "反応",
+       "反応する",
+       "反応した"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "簡潔",
+       "複雑",
+       "感情的"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "だけ",
+       "ほど",
+       "より"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "学習のヒント\n名詞化の長所と短所\n名詞化は文を簡潔で客観的にします。しかし使いすぎると、文章が堅く抽象的になります。読む人がついてこられるように、動詞と名詞のバランスを取りましょう。",
+    "trans": {
+     "ko": "학술 팁\n명사화의 장단점\n명사화는 문장을 간결하고 객관적으로 만든다. 하지만 지나치면 글이 딱딱하고 추상적으로 변한다. 독자가 쉽게 이해할 수 있도록 동사와 명사를 균형 있게 써야 한다.",
+     "en": "STUDY TIP\nPros and cons of nominalisation\nNominalisation makes sentences concise and objective. But overuse makes writing stiff and abstract. Balance verbs and nouns so readers can follow easily."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "名詞化の長所は何ですか。",
+      "options": [
+       "文が簡潔で客観的になる",
+       "文が長くなる",
+       "文が楽しくなる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "使いすぎるとどうなりますか。",
+      "options": [
+       "文章が堅く抽象的になる",
+       "文章が短くなる",
+       "文章が優しくなる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "名詞化は学術的な文章でよく使われます。名詞化を使うと、文章はいつも読みやすくなります。この文章は大学の教授が書きました。",
+    "trans": {
+     "ko": "명사화는 학술 글쓰기에서 흔하다. 명사화를 쓰면 글이 항상 읽기 쉬워진다. 이 글은 대학 교수가 썼다.",
+     "en": "Nominalisation is common in academic writing. Using nominalisation always makes writing easier to read. This text was written by a university professor."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "名詞化は学術的な文章でよく使われる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "名詞化を使うと文章はいつも読みやすくなる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "この文章は大学の教授が書いた。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "需要の急激な増加が価格の上昇につながりました。",
+    "read": "じゅようのきゅうげきなぞうかがかかくのじょうしょうにつながりました。",
+    "ko": "수요가 급증한 것이 가격 상승의 원인이었어요.",
+    "en": "A sharp increase in demand led to higher prices.",
+    "situation": {
+     "ko": "동사를 명사구로 바꿀 때",
+     "en": "Turning a verb into a noun phrase"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "政策の導入は多くの議論を引き起こしました。",
+    "read": "せいさくのどうにゅうはおおくのぎろんをひきおこしました。",
+    "ko": "그 정책의 도입은 많은 논란을 불러왔어요.",
+    "en": "The introduction of the policy provoked much controversy.",
+    "situation": {
+     "ko": "공식적인 보고서 문체",
+     "en": "A formal report style"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "分析の結果、二つの変数の強い関連がわかりました。",
+    "read": "ぶんせきのけっか、ふたつのへんすうのつよいかんれんがわかりました。",
+    "ko": "분석 결과, 두 변수 사이에는 강한 연관이 있었어요.",
+    "en": "Analysis showed a strong link between the two variables.",
+    "situation": {
+     "ko": "연구 결과를 보고할 때",
+     "en": "Reporting research findings"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "急速な社会の変化が新しい課題を生みました。",
+    "read": "きゅうそくなしゃかいのへんかがあたらしいかだいをうみました。",
+    "ko": "사회의 급속한 변화는 새로운 도전을 낳았어요.",
+    "en": "Rapid social change has created new challenges.",
+    "situation": {
+     "ko": "추상적인 주제를 말할 때",
+     "en": "Discussing an abstract topic"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "失敗の原因の調査が進められています。",
+    "read": "しっぱいのげんいんのちょうさがすすめられています。",
+    "ko": "실패의 원인에 대한 조사가 진행 중이에요.",
+    "en": "An investigation into the causes of failure is under way.",
+    "situation": {
+     "ko": "공식 발표에서",
+     "en": "In an official statement"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "彼らの反対は理解できます。",
+    "read": "かれらのはんたいはりかいできます。",
+    "ko": "그들의 반대는 이해할 만해요.",
+    "en": "Their opposition is understandable.",
+    "situation": {
+     "ko": "의견을 객관적으로 쓸 때",
+     "en": "Stating an opinion objectively"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "改善の必要な点がいくつか明らかになりました。",
+    "read": "かいぜんのひつようなてんがいくつかあきらかになりました。",
+    "ko": "개선이 필요한 영역이 몇 가지 확인되었어요.",
+    "en": "Several areas in need of improvement have been identified.",
+    "situation": {
+     "ko": "결과를 요약할 때",
+     "en": "Summarising findings"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "これらの要因の相互作用が結果を決めます。",
+    "read": "これらのよういんのそうごさようがけっかをきめます。",
+    "ko": "이러한 요인의 상호작용이 결과를 결정해요.",
+    "en": "The interaction of these factors determines the outcome.",
+    "situation": {
+     "ko": "결론을 쓸 때",
+     "en": "Concluding an argument"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜の増加／減少が〜を招いた。",
+    "read": "〜のぞうか／げんしょうが〜をまねいた。",
+    "ko": "~의 증가/감소는 ~을 초래했다.",
+    "en": "The increase/decrease in ~ led to ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜の導入が〜をもたらした。",
+    "read": "〜のどうにゅうが〜をもたらした。",
+    "ko": "~의 도입은 ~을 가져왔다.",
+    "en": "The introduction of ~ brought about ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜の分析は〜を示している。",
+    "read": "〜のぶんせきは〜をしめしている。",
+    "ko": "~에 대한 분석은 ~을 보여 준다.",
+    "en": "An analysis of ~ shows ..."
+   },
+   {
+    "id": "w4",
+    "t": "〜の失敗は〜による。",
+    "read": "〜のしっぱいは〜による。",
+    "ko": "~의 실패는 ~ 때문이다.",
+    "en": "The failure of ~ is due to ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "동사와 형용사를 명사로 바꿔 학술적인 문체로 4문장을 써 보세요.",
+    "en": "Rewrite ideas using nouns instead of verbs and adjectives to write 4 sentences in an academic style."
+   },
+   "must_include": [
+    {
+     "label": "増加",
+     "match": [
+      "増加"
+     ]
+    },
+    {
+     "label": "導入",
+     "match": [
+      "導入"
+     ]
+    },
+    {
+     "label": "分析",
+     "match": [
+      "分析"
+     ]
+    }
+   ],
+   "model": "人々が都市に集まったので、住宅の価格が上がりました。名詞の形で言えば、都市の人口の急激な増加が住宅価格の上昇を招きました。新しい政策の導入は問題を一部やわらげました。しかし、長期的な改善にはさらなる分析が必要です。",
+   "model_trans": {
+    "ko": "도시에 사람이 빠르게 몰리면서 주택 가격이 올랐습니다. 이를 명사화하면 도시 인구의 급격한 증가는 주택 가격의 상승으로 이어졌습니다. 새로운 정책의 도입은 이 문제를 일부 완화했습니다. 그러나 장기적인 개선을 위해서는 추가 분석이 필요합니다.",
+    "en": "As people crowded into the city, housing prices rose. In nominal form: a sharp increase in the urban population led to a rise in housing prices. The introduction of a new policy partly eased the problem. However, further analysis is needed for long-term improvement."
+   }
+  }
+ }
+}

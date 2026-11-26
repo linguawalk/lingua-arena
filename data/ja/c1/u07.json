@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u07",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 7,
+  "concept": "C1.U07",
+  "status": "live",
+  "title": {
+   "target": "仮定・条件の改まった言い方",
+   "ko": "도치 조건문",
+   "en": "Inverted conditionals"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "緊急の場合",
+   "pos": "phrase",
+   "read": "きんきゅうのばあい",
+   "ko": "긴급한 경우",
+   "en": "in case of emergency",
+   "ex": {
+    "t": "緊急の場合は、この番号に電話してください。",
+    "read": "きんきゅうのばあいは、このばんごうにでんわしてください。",
+    "ko": "긴급한 경우에는 이 번호로 전화하세요.",
+    "en": "In case of emergency, call this number."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "前もって知る",
+   "pos": "phrase",
+   "read": "まえもってしる",
+   "ko": "미리 알다",
+   "en": "know in advance",
+   "ex": {
+    "t": "前もって知っていれば、準備しました。",
+    "read": "まえもってしっていれば、じゅんびしました。",
+    "ko": "미리 알았더라면 준비했을 거예요.",
+    "en": "Had I known in advance, I would have prepared."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "条件",
+   "pos": "noun",
+   "read": "じょうけん",
+   "ko": "조건",
+   "en": "condition",
+   "ex": {
+    "t": "この条件が満たされれば、契約は有効になります。",
+    "read": "このじょうけんがみたされれば、けいやくはゆうこうになります。",
+    "ko": "이 조건이 충족되면 계약이 성립해요.",
+    "en": "The contract takes effect if this condition is met."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "必要でしたら",
+   "pos": "phrase",
+   "read": "ひつようでしたら",
+   "ko": "필요하다면",
+   "en": "should you need",
+   "ex": {
+    "t": "必要でしたら、ご連絡ください。",
+    "read": "ひつようでしたら、ごれんらくください。",
+    "ko": "필요하시면 언제든 연락 주세요.",
+    "en": "Should you need anything, please get in touch."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "中止になる",
+   "pos": "verb",
+   "read": "ちゅうしになる",
+   "ko": "취소하다",
+   "en": "cancel",
+   "ex": {
+    "t": "行事が中止になる場合はお知らせします。",
+    "read": "ぎょうじがちゅうしになるばあいはおしらせします。",
+    "ko": "행사가 취소되면 알려 드릴게요.",
+    "en": "We will inform you should the event be cancelled."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "仮説",
+   "pos": "noun",
+   "read": "かせつ",
+   "ko": "가정",
+   "en": "hypothesis",
+   "ex": {
+    "t": "この仮説はまだ検証されていません。",
+    "read": "このかせつはまだけんしょうされていません。",
+    "ko": "이 가정은 아직 검증되지 않았어요.",
+    "en": "This hypothesis hasn't been tested yet."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "非常時の計画",
+   "pos": "noun",
+   "read": "ひじょうじのけいかく",
+   "ko": "만약의 경우",
+   "en": "contingency",
+   "ex": {
+    "t": "非常時の計画が必要です。",
+    "read": "ひじょうじのけいかくがひつようです。",
+    "ko": "만약의 경우를 대비한 계획이 필요해요.",
+    "en": "A contingency plan is needed."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "避けられた",
+   "pos": "adj",
+   "read": "さけられた",
+   "ko": "피할 수 있었던",
+   "en": "avoidable",
+   "ex": {
+    "t": "その事故は避けられたはずです。",
+    "read": "そのじこはさけられたはずです。",
+    "ko": "그 사고는 충분히 피할 수 있었어요.",
+    "en": "The accident was entirely avoidable."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "確信する",
+   "pos": "verb",
+   "read": "かくしんする",
+   "ko": "확신하다",
+   "en": "be convinced",
+   "ex": {
+    "t": "彼女が正しかったと確信しています。",
+    "read": "かのじょがただしかったとかくしんしています。",
+    "ko": "그녀가 맞았다고 확신해요.",
+    "en": "I am convinced she was right."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "大惨事",
+   "pos": "noun",
+   "read": "だいさんじ",
+   "ko": "재앙",
+   "en": "disaster",
+   "ex": {
+    "t": "準備しなければ大惨事になりかねません。",
+    "read": "じゅんびしなければだいさんじになりかねません。",
+    "ko": "대비하지 않으면 재앙이 될 수 있어요.",
+    "en": "It could end in disaster if we don't prepare."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜ていれば／〜ようなことがあれば／〜場合は／〜としても",
+   "en": "Formal conditionals: 〜ていれば / 〜ようなことがあれば / 〜場合は / 〜としても"
+  },
+  "explain": {
+   "ko": "改まった場面の条件は、過去の仮定「〜ていれば、〜ていたでしょう」、丁寧な案内「〜でしたら／〜場合は」、譲歩「〜としても」で表します：「前もって知っていれば、準備しました。」「必要でしたら、いつでもご連絡ください。」「彼が謝るとしても、許しません。」案内文では「〜場合は、〜」がよく使われます。",
+   "en": "Formal conditions use 「〜ていれば、〜ていたでしょう」 for the past, 「〜でしたら／〜場合は」 for polite notices, and 「〜としても」 for concession: 「前もって知っていれば、準備しました。」「必要でしたら、いつでもご連絡ください。」「彼が謝るとしても、許しません。」 Notices often use 「〜場合は、〜」."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "過去の仮定 / Past",
+     "〜ていれば、〜たでしょう",
+     "知っていれば、準備しました。"
+    ],
+    [
+     "丁寧な案内 / Polite",
+     "〜でしたら／〜場合は",
+     "必要でしたらご連絡ください。"
+    ],
+    [
+     "譲歩 / Even if",
+     "〜としても",
+     "謝るとしても許さない。"
+    ],
+    [
+     "非常時 / Contingency",
+     "万一〜場合は",
+     "万一中止の場合はお知らせします。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「万一」「もしも」は、起こる可能性が低いことを表します。",
+    "en": "「万一」 and 「もしも」 mark low-probability events."
+   },
+   {
+    "ko": "案内文では「〜場合は」が一番よく使われます。",
+    "en": "「〜場合は」 is the most common in notices."
+   },
+   {
+    "ko": "「〜としても」は、実際に起こるかどうかは別の問題だという含みがあります。",
+    "en": "「〜としても」 implies it is a separate matter whether it actually happens."
+   }
+  ],
+  "examples": [
+   {
+    "t": "前もって知っていれば、準備したでしょう。",
+    "read": "まえもってしっていれば、じゅんびしたでしょう。",
+    "ko": "미리 알았더라면 준비했을 거예요.",
+    "en": "Had I known, I would have prepared."
+   },
+   {
+    "t": "ご不明な点がございましたら、ご連絡ください。",
+    "read": "ごふめいなてんがございましたら、ごれんらくください。",
+    "ko": "필요하시면 언제든 연락 주세요.",
+    "en": "Should you need any help, please contact us."
+   },
+   {
+    "t": "彼が謝るとしても、私は許さないでしょう。",
+    "read": "かれがあやまるとしても、わたしはゆるさないでしょう。",
+    "ko": "그가 사과한다 해도 저는 용서하지 않을 거예요.",
+    "en": "Were he to apologise, I still wouldn't forgive him."
+   },
+   {
+    "t": "その知らせを聞いていれば、来なかったでしょう。",
+    "read": "そのしらせをきいていれば、こなかったでしょう。",
+    "ko": "그 소식을 들었더라면 오지 않았을 거예요.",
+    "en": "Had we heard the news, we wouldn't have come."
+   },
+   {
+    "t": "計画が変わった場合は、お知らせします。",
+    "read": "けいかくがかわったばあいは、おしらせします。",
+    "ko": "계획이 바뀐다면 알려 드리겠습니다.",
+    "en": "Should the plan change, we will let you know."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "前もって知っ___、準備しました。",
+    "options": [
+     "ていれば",
+     "ていても",
+     "ているが"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "必要___、いつでもご連絡ください。",
+    "options": [
+     "でしたら",
+     "なのに",
+     "ですが"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "彼が謝る___、許しません。",
+    "options": [
+     "としても",
+     "ように",
+     "ために"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "計画が変わった___は、お知らせします。",
+    "options": [
+     "場合",
+     "ほう",
+     "ほど"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "前もって知っていたら、何をしましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 미리 알았더라면 어떻게 하셨을까요?",
+     "en": "(Question) What would you have done had you known in advance?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "もっと念入りに準備したでしょう。",
+       "来週の月曜日です。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "予定が変わった場合は、どうすればいいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 일정이 바뀌면 어떻게 해야 하나요?",
+     "en": "(Question) What should I do if the schedule changes?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "変わった場合は、すぐにお知らせします。",
+       "三階に住んでいます。",
+       "昨日買いました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "行事が中止になると知っていれば、ホテルを予約しなかったのに。"
+      },
+      {
+       "s": "B",
+       "t": "返金してもらえるの？"
+      },
+      {
+       "s": "A",
+       "t": "中止が確定した場合は、全額返金されるって。"
+      },
+      {
+       "s": "B",
+       "t": "じゃあ、連絡を待とう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그 행사가 취소된다는 걸 알았더라면 호텔을 예약하지 않았을 텐데.\nB: 환불은 받을 수 있어?\nA: 취소가 확정되면 전액 환불해 준대.\nB: 그럼 연락을 기다려 보자.",
+     "en": "A: Had I known the event would be cancelled, I wouldn't have booked the hotel.\nB: Can you get a refund?\nA: Should the cancellation be confirmed, they'll refund in full.\nB: Then let's wait to hear from them."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "全額返金されるのはどんな場合ですか。",
+      "options": [
+       "中止が確定した場合",
+       "行事が行われた場合",
+       "部屋を変えた場合"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "社員のみなさんにお知らせします。万一、緊急事態が発生した場合は、放送の指示にただちに従ってください。エレベーターは使わず、階段で避難してください。助けが必要な場合は、近くの社員にお申し出ください。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원 여러분께 안내드립니다. 비상 상황이 발생하면 즉시 안내 방송을 따라 주세요. 엘리베이터를 사용하지 마시고 계단으로 이동하세요. 도움이 필요하시면 가까운 직원에게 알려 주세요.",
+     "en": "Attention all staff. Should an emergency occur, follow the announcements at once. Do not use the lifts; use the stairs. Should you need help, tell the nearest member of staff."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "緊急事態のとき、どうしますか。",
+      "options": [
+       "放送に従い階段で避難する",
+       "エレベーターで避難する",
+       "建物に残る"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "フロントです。"
+      },
+      {
+       "s": "B",
+       "t": "部屋を変えたいのですが。"
+      },
+      {
+       "s": "A",
+       "t": "別のお部屋が必要でしたら、おっしゃってください。空き状況を確認します。"
+      },
+      {
+       "s": "B",
+       "t": "ありがとうございます。静かな部屋だとうれしいです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 호텔 프런트입니다.\n손님: 방을 바꾸고 싶은데요.\n직원: 다른 방이 필요하시면 말씀해 주세요. 가능한 방을 확인해 드리겠습니다.\n손님: 감사합니다. 조용한 방이면 좋겠어요.",
+     "en": "Receptionist: Front desk.\nGuest: I'd like to change my room.\nReceptionist: Should you need another room, just say so. I'll check what's available.\nGuest: Thank you. A quiet room would be great."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "宿泊客は______を変えたいと言います",
+      "answers": [
+       "部屋"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______部屋だとうれしいと言います",
+      "answers": [
+       "静かな"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 前もって知っ___、準備しました。\n2) 必要___、いつでもご連絡ください。\n3) 彼が謝る___、私は許さないでしょう。",
+    "trans": {
+     "ko": "1) 미리 알았더라면 준비했을 거예요. 2) 필요하시면 언제든 연락 주세요. 3) 그가 사과한다 해도 저는 용서하지 않을 거예요.",
+     "en": "1) Had I known, I would have prepared. 2) Should you need any help, please contact us. 3) Were he to apologise, I still wouldn't forgive him."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "前もって知っ___、準備しました。",
+      "options": [
+       "ていれば",
+       "ていても",
+       "ているが"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "必要___、いつでもご連絡ください。",
+      "options": [
+       "でしたら",
+       "なのに",
+       "ですが"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼が謝る___、私は許さないでしょう。",
+      "options": [
+       "としても",
+       "ように",
+       "ために"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "大雨が降ったとき、多くの住民が被害を受けました。警報がもう少し早く出されて(1)、被害は小さかったでしょう。今後、同じような大雨が(2)場合、市はより早く避難指示を出す予定です。住民は通知サービスに(3)ことが勧められています。",
+    "trans": {
+     "ko": "그 도시에 폭우가 내렸을 때 많은 주민이 피해를 입었다. 경보가 조금만 일찍 발령되었더라면 피해는 줄었을 것이다. 앞으로 비슷한 폭우가 다시 온다면 시는 더 빠르게 대피령을 내릴 계획이다. 주민은 알림 서비스에 가입해야 한다.",
+     "en": "Many residents suffered when heavy rain hit the city. Had the warning been issued a little earlier, the damage would have been smaller. Should similar rain return, the city plans to issue evacuation orders more quickly. Residents are advised to register for the alert service."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "いれば",
+       "いても",
+       "いるが"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "来る",
+       "来た",
+       "来ない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "登録する",
+       "反対する",
+       "無視する"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "メール\n契約条件の変更\n契約条件を変更されたい場合は、今週の金曜日までに書面でご連絡ください。ご連絡がない場合は、現在の条件がそのまま続きます。ご不明な点がございましたら、お問い合わせください。",
+    "trans": {
+     "ko": "이메일\n계약 변경 안내\n귀하께서 계약 조건을 변경하기를 원하시면 이번 주 금요일까지 서면으로 알려 주십시오. 변경 요청이 접수되지 않는다면 기존 조건이 유지됩니다. 추가 문의가 있으시면 연락 주십시오.",
+     "en": "EMAIL\nContract changes\nShould you wish to change the contract terms, please inform us in writing by this Friday. Were no request to be received, the existing terms will remain. Should you have further questions, please contact us."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "条件を変えたい場合、どうしますか。",
+      "options": [
+       "金曜日までに書面で連絡する",
+       "電話だけで連絡する",
+       "何もしない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "連絡がない場合はどうなりますか。",
+      "options": [
+       "現在の条件が続く",
+       "契約が終わる",
+       "新しい条件になる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "お客様は金曜日までに書面で変更を申し込まなければなりません。申し込みがなければ、契約条件が変わります。質問があれば連絡できます。",
+    "trans": {
+     "ko": "고객은 금요일까지 서면으로 변경을 요청해야 한다. 요청이 없으면 계약 조건이 바뀐다. 문의가 있으면 연락할 수 있다.",
+     "en": "The customer must request changes in writing by Friday. If there is no request, the terms change. Customers can contact the company with questions."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "変更は書面で申し込む必要がある。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "申し込みがなければ契約条件が変わる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "連絡は電話だけで受け付ける。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "前もって知っていれば、もっと念入りに準備したでしょう。",
+    "read": "まえもってしっていれば、もっとねんいりにじゅんびしたでしょう。",
+    "ko": "미리 알았더라면 다르게 준비했을 거예요.",
+    "en": "Had I known earlier, I would have prepared differently.",
+    "situation": {
+     "ko": "과거 가정을 격식 있게 말할 때",
+     "en": "A formal past hypothesis"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "ご不明な点がございましたら、お気軽にご連絡ください。",
+    "read": "ごふめいなてんがございましたら、おきがるにごれんらくください。",
+    "ko": "필요하시면 언제든지 연락 주세요.",
+    "en": "Should you need any assistance, please do not hesitate to contact us.",
+    "situation": {
+     "ko": "이메일 마무리",
+     "en": "Closing an email"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "彼が今辞めるとしたら、会社は大きな損失を受けるでしょう。",
+    "read": "かれがいまやめるとしたら、かいしゃはおおきなそんしつをうけるでしょう。",
+    "ko": "그가 지금 사직한다면 회사는 큰 손실을 입을 거예요.",
+    "en": "Were he to resign now, the company would suffer a major loss.",
+    "situation": {
+     "ko": "가능성이 낮은 가정",
+     "en": "An unlikely hypothesis"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "その事実が知られていれば、結果は違っていたでしょう。",
+    "read": "そのじじつがしられていれば、けっかはちがっていたでしょう。",
+    "ko": "그 사실이 알려졌더라면 결과는 달랐을 거예요.",
+    "en": "Had that fact been known, the outcome would have been different.",
+    "situation": {
+     "ko": "역사적 가정",
+     "en": "A historical hypothesis"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "行事が中止になった場合は、すぐにお知らせします。",
+    "read": "ぎょうじがちゅうしになったばあいは、すぐにおしらせします。",
+    "ko": "행사가 취소되면 즉시 알려 드리겠습니다.",
+    "en": "Should the event be cancelled, we will notify you immediately.",
+    "situation": {
+     "ko": "공지문",
+     "en": "A notice"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "もしそうなっていたら、深刻な事態になっていたでしょう。",
+    "read": "もしそうなっていたら、しんこくなじたいになっていたでしょう。",
+    "ko": "그런 일이 일어났다면 우리는 큰 곤란을 겪었을 거예요.",
+    "en": "Had that happened, we would have been in serious trouble.",
+    "situation": {
+     "ko": "아슬아슬했던 상황을 말할 때",
+     "en": "Describing a narrow escape"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "もう少し注意していれば、避けられたはずです。",
+    "read": "もうすこしちゅういしていれば、さけられたはずです。",
+    "ko": "조금만 더 신중했더라면 피할 수 있었을 거예요.",
+    "en": "Had we been a little more careful, it could have been avoided.",
+    "situation": {
+     "ko": "아쉬움을 정중하게 말할 때",
+     "en": "Politely expressing regret"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "そうなった場合は、そのときにまた話し合いましょう。",
+    "read": "そうなったばあいは、そのときにまたはなしあいましょう。",
+    "ko": "만일 그렇게 된다면 그때 다시 논의합시다.",
+    "en": "Should that happen, let us discuss it again then.",
+    "situation": {
+     "ko": "회의를 마무리할 때",
+     "en": "Wrapping up a meeting"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜ていれば、〜たでしょう。",
+    "read": "〜ていれば、〜たでしょう。",
+    "ko": "~했더라면 ~했을 것이다.",
+    "en": "Had I/we ~, I/we would have ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜でしたら、〜てください。",
+    "read": "〜でしたら、〜てください。",
+    "ko": "만약 ~한다면 ~할 것이다.",
+    "en": "Should you/it ~, please/we will ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜としても、〜。",
+    "read": "〜としても、〜。",
+    "ko": "만약 ~라면 ~일 것이다.",
+    "en": "Were he/it to ~, ... would ..."
+   },
+   {
+    "id": "w4",
+    "t": "〜場合は、〜。",
+    "read": "〜ばあいは、〜。",
+    "ko": "~가 아니었다면 ~했을 것이다.",
+    "en": "Had it not been for ~, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "도치 조건문(Had, Should, Were)을 사용해 공식적인 안내문이나 후회를 4문장으로 써 보세요.",
+    "en": "Write 4 sentences using inverted conditionals (Had, Should, Were) in a formal notice or a regret."
+   },
+   "must_include": [
+    {
+     "label": "ていれば",
+     "match": [
+      "ていれば"
+     ]
+    },
+    {
+     "label": "場合は",
+     "match": [
+      "場合は"
+     ]
+    },
+    {
+     "label": "でしたら",
+     "match": [
+      "でしたら"
+     ]
+    }
+   ],
+   "model": "前もって知っていれば、もっと念入りに準備したでしょう。予定が変わった場合は、すぐにお知らせします。必要でしたら、いつでもご連絡ください。もう一度同じことが起きるとしても、違う方法で対応します。",
+   "model_trans": {
+    "ko": "미리 알았더라면 더 철저히 준비했을 것입니다. 일정이 바뀐다면 즉시 알려 드리겠습니다. 지원이 필요하시면 언제든지 연락 주세요. 그런 일이 다시 일어난다면 우리는 다른 방식으로 대응할 것입니다.",
+    "en": "Had I known, I would have prepared more thoroughly. Should the schedule change, we will let you know immediately. Should you need support, please contact us at any time. Were that to happen again, we would respond in a different way."
+   }
+  }
+ }
+}

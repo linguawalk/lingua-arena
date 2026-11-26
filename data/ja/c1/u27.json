@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u27",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 27,
+  "concept": "C1.U27",
+  "status": "live",
+  "title": {
+   "target": "修辞技法",
+   "ko": "수사법",
+   "en": "Rhetorical devices"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "隠喩",
+   "pos": "noun",
+   "read": "いんゆ",
+   "ko": "은유",
+   "en": "metaphor",
+   "ex": {
+    "t": "「時は金なり」は隠喩です。",
+    "read": "「ときはきんなり」はいんゆです。",
+    "ko": "시간은 돈이라는 은유가 있어요.",
+    "en": "'Time is money' is a metaphor."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "直喩",
+   "pos": "noun",
+   "read": "ちょくゆ",
+   "ko": "직유",
+   "en": "simile",
+   "ex": {
+    "t": "「花のように美しい」は直喩です。",
+    "read": "「はなのようにうつくしい」はちょくゆです。",
+    "ko": "'꽃처럼 아름답다'는 직유예요.",
+    "en": "'Beautiful as a flower' is a simile."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "対比法",
+   "pos": "noun",
+   "read": "たいひほう",
+   "ko": "대조법",
+   "en": "antithesis",
+   "ex": {
+    "t": "そのスピーチは対比法を使いました。",
+    "read": "そのスピーチはたいひほうをつかいました。",
+    "ko": "그 연설은 대조법을 사용했어요.",
+    "en": "The speech used antithesis."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "誇張法",
+   "pos": "noun",
+   "read": "こちょうほう",
+   "ko": "과장법",
+   "en": "hyperbole",
+   "ex": {
+    "t": "「百万回言った」は誇張法です。",
+    "read": "「ひゃくまんかいいった」はこちょうほうです。",
+    "ko": "'백만 번 말했어'는 과장법이에요.",
+    "en": "'I've told you a million times' is hyperbole."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "反復",
+   "pos": "noun",
+   "read": "はんぷく",
+   "ko": "병렬 구조",
+   "en": "parallelism",
+   "ex": {
+    "t": "反復には強調の効果があります。",
+    "read": "はんぷくにはきょうちょうのこうかがあります。",
+    "ko": "병렬 구조는 리듬을 만들어요.",
+    "en": "Parallelism creates rhythm."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "擬人法",
+   "pos": "noun",
+   "read": "ぎじんほう",
+   "ko": "반복",
+   "en": "repetition",
+   "ex": {
+    "t": "「風がささやいた」は擬人法です。",
+    "read": "「かぜがささやいた」はぎじんほうです。",
+    "ko": "반복은 강조의 효과가 있어요.",
+    "en": "Repetition has the effect of emphasis."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "鮮やかな",
+   "pos": "noun",
+   "read": "せんやかな",
+   "ko": "의인화",
+   "en": "personification",
+   "ex": {
+    "t": "その描写はとても鮮やかでした。",
+    "read": "そのびょうしゃはとてもせんやかでした。",
+    "ko": "'바람이 속삭였다'는 의인화예요.",
+    "en": "'The wind whispered' is personification."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "効果的な",
+   "pos": "adj",
+   "read": "こうかてきな",
+   "ko": "생생한",
+   "en": "vivid",
+   "ex": {
+    "t": "比喩は効果的な道具です。",
+    "read": "ひゆはこうかてきなどうぐです。",
+    "ko": "그 묘사는 매우 생생했어요.",
+    "en": "The description was very vivid."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "対句",
+   "pos": "adj",
+   "read": "ついく",
+   "ko": "효과적인",
+   "en": "effective",
+   "ex": {
+    "t": "対句はリズムを生みます。",
+    "read": "ついくはリズムをうみます。",
+    "ko": "비유는 효과적인 도구예요.",
+    "en": "Figurative language is an effective tool."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "逆説",
+   "pos": "noun",
+   "read": "ぎゃくせつ",
+   "ko": "역설",
+   "en": "paradox",
+   "ex": {
+    "t": "「急がば回れ」は逆説です。",
+    "read": "「いそがばまわれ」はぎゃくせつです。",
+    "ko": "'적게 먹는 것이 더 많이 먹는 것'은 역설이에요.",
+    "en": "'Less is more' is a paradox."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜は〜だ（隠喩）／〜のようだ（直喩）／擬人法／誇張",
+   "en": "Rhetorical devices: 〜は〜だ (metaphor) / 〜のようだ (simile) / personification / hyperbole"
+  },
+  "explain": {
+   "ko": "修辞技法は文章に力とイメージを与えます。隠喩は「〜は〜だ」と直接言い、直喩は「〜のようだ」「〜みたいだ」で比べます。擬人法は物に人の行動を与えます（「風がささやいた」）。誇張法は大げさに言い（「かばんが一トンもある」）、対比法は反対のものを並べます。対句はリズムをつくります。",
+   "en": "Rhetorical devices give writing force and imagery. A metaphor says 「〜は〜だ」 directly; a simile compares with 「〜のようだ」「〜みたいだ」. Personification gives things human actions (「風がささやいた」). Hyperbole exaggerates (「かばんが一トンもある」); antithesis sets opposites together. Parallelism creates rhythm."
+  },
+  "table": {
+   "head": [
+    "技法 / Device",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "隠喩 / Metaphor",
+     "〜は〜だ",
+     "時は流れる川だ。"
+    ],
+    [
+     "直喩 / Simile",
+     "〜のようだ",
+     "声が絹のようだ。"
+    ],
+    [
+     "擬人法 / Personification",
+     "物＋人の行動",
+     "風がささやいた。"
+    ],
+    [
+     "誇張法 / Hyperbole",
+     "大げさな数・量",
+     "かばんが一トンもある。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "隠喩は「〜のようだ」を使いません。",
+    "en": "A metaphor does not use 「〜のようだ」."
+   },
+   {
+    "ko": "比喩を使いすぎると、不自然になります。",
+    "en": "Too many figures feel artificial."
+   },
+   {
+    "ko": "意味と効果を一緒に考えましょう。",
+    "en": "Consider meaning and effect together."
+   }
+  ],
+  "examples": [
+   {
+    "t": "彼女の声は絹のようになめらかでした。",
+    "read": "かのじょのこえはきぬのようになめらかでした。",
+    "ko": "그녀의 목소리는 비단처럼 부드러웠어요.",
+    "en": "Her voice was as smooth as silk."
+   },
+   {
+    "t": "時は流れる川です。",
+    "read": "ときはながれるかわです。",
+    "ko": "시간은 흐르는 강이에요.",
+    "en": "Time is a flowing river."
+   },
+   {
+    "t": "私たちは生まれ、育ち、戦いました。",
+    "read": "わたしたちはうまれ、そだち、たたかいました。",
+    "ko": "우리는 태어났고, 우리는 자랐고, 우리는 싸웠어요.",
+    "en": "We were born, we grew, we fought."
+   },
+   {
+    "t": "急がば回れ。",
+    "read": "いそがばまわれ。",
+    "ko": "적게 먹는 것이 많이 먹는 것이에요.",
+    "en": "Less is more."
+   },
+   {
+    "t": "このかばんは一トンもあります。",
+    "read": "このかばんはいちトンもあります。",
+    "ko": "가방이 천 킬로그램은 되는 것 같아요.",
+    "en": "My bag weighs a ton."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "彼女の声は絹の___になめらかでした。",
+    "options": [
+     "ように",
+     "ために",
+     "ので"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "時は流れる___です。",
+    "options": [
+     "川",
+     "音",
+     "靴"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "「風がささやいた」は___です。",
+    "options": [
+     "擬人法",
+     "誇張法",
+     "直喩"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "このかばんは一トン___あります。",
+    "options": [
+     "も",
+     "が",
+     "を"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "「時は流れる川だ」は何という技法ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 문장은 어떤 수사법인가요? '시간은 흐르는 강이다.'",
+     "en": "(Question) What device is this? 'Time is a flowing river.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "隠喩です。",
+       "誇張法です。",
+       "擬人法です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "「かばんが一トンもある」は何という技法ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 문장은 어떤 수사법인가요? '내 가방이 천 킬로그램은 돼.'",
+     "en": "(Question) What device is this? 'My bag weighs a ton.'"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "誇張法です。",
+       "隠喩です。",
+       "直喩です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "「風がささやいた」は何の技法？"
+      },
+      {
+       "s": "B",
+       "t": "擬人法だよ。風に人の行動を与えているんだ。"
+      },
+      {
+       "s": "A",
+       "t": "「花のように美しい」は？"
+      },
+      {
+       "s": "B",
+       "t": "それは直喩。「ように」で比べているんだ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: '바람이 속삭였다'는 무슨 수사법이야?\nB: 의인화야. 바람에 사람의 행동을 부여한 거지.\nA: '꽃처럼 아름답다'는?\nB: 그건 직유야. like나 as를 쓰는 비유지.",
+     "en": "A: What device is 'the wind whispered'?\nB: Personification. It gives the wind a human action.\nA: And 'beautiful as a flower'?\nB: That's a simile, a comparison with like or as."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "「風がささやいた」は何ですか。",
+      "options": [
+       "擬人法",
+       "直喩",
+       "逆説"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "修辞技法は、文章に力とイメージを与えます。隠喩は「AはBだ」と直接言い、直喩は「ように」で比べます。誇張法は大げさに言い、対比法は反対のものを並べます。上手に使えば、文章はずっと鮮やかになります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "수사법은 글에 힘과 이미지를 줍니다. 은유는 A는 B이다라고 직접 말하고, 직유는 like나 as를 씁니다. 과장법은 실제보다 크게 말하고, 대조법은 반대되는 것을 나란히 놓습니다. 이를 적절히 쓰면 글이 훨씬 생생해집니다.",
+     "en": "Rhetorical devices give writing force and imagery. A metaphor says A is B directly, while a simile uses like or as. Hyperbole exaggerates, and antithesis sets opposites side by side. Used well, they make writing far more vivid."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "誇張法は何をしますか。",
+      "options": [
+       "大げさに言う",
+       "反対のものを並べる",
+       "直接比べる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この詩の技法を探してみましょう。"
+      },
+      {
+       "s": "B",
+       "t": "「夜は黒いコートだ」は隠喩です。"
+      },
+      {
+       "s": "A",
+       "t": "そうです。ほかには？"
+      },
+      {
+       "s": "B",
+       "t": "「星がささやく」は擬人法です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교사: 이 시의 수사법을 찾아봅시다.\n학생: '밤은 검은 외투다'는 은유입니다.\n교사: 맞아요. 또 있나요?\n학생: '별이 속삭인다'는 의인화입니다.",
+     "en": "Teacher: Let's find the devices in this poem.\nStudent: 'Night is a black coat' is a metaphor.\nTeacher: Right. Any more?\nStudent: 'The stars whisper' is personification."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "「夜は黒い______だ」は隠喩です",
+      "answers": [
+       "コート"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "「星がささやく」は______です",
+      "answers": [
+       "擬人法"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 彼女の声は絹の___になめらかでした。\n2) 時は流れる___です。\n3) 「風がささやいた」は___です。",
+    "trans": {
+     "ko": "1) 그녀의 목소리는 비단처럼 부드러웠어요. 2) 시간은 흐르는 강이에요. 3) 적게 먹는 것이 많이 먹는 것이에요.",
+     "en": "1) Her voice was as smooth as silk. 2) Time is a flowing river. 3) Less is more."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "彼女の声は絹の___になめらかでした。",
+      "options": [
+       "ように",
+       "ために",
+       "ので"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "時は流れる___です。",
+      "options": [
+       "川",
+       "音",
+       "靴"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "「風がささやいた」は___です。",
+      "options": [
+       "擬人法",
+       "誇張法",
+       "直喩"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "修辞技法は文章を鮮やかにします。たとえば、「この街は眠らない大きな機械だ」は(1)です。「彼女は雪のように白い」は(2)で、「百万回言った」は(3)です。こうした表現は、読者の想像力を刺激します。",
+    "trans": {
+     "ko": "수사법은 글을 생생하게 만듭니다. 예를 들어 ‘도시는 잠들지 않는 거대한 기계다’는 은유입니다. ‘그녀는 눈처럼 하얗다’는 직유이고, ‘나는 백만 번 말했어’는 과장입니다. 이러한 표현은 독자의 상상력을 자극합니다.",
+     "en": "Rhetorical devices make writing vivid. For example, 'The city is a giant machine that never sleeps' is a metaphor. 'She is as white as snow' is a simile, and 'I've told you a million times' is hyperbole. Such expressions stimulate the reader's imagination."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "隠喩",
+       "直喩",
+       "誇張法"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "直喩",
+       "隠喩",
+       "擬人法"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "誇張法",
+       "隠喩",
+       "直喩"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "評論\n修辞の効果\n修辞技法は、単なる飾りではありません。隠喩は、なじみのないものをなじみのあるイメージで説明し、対句は記憶に残るリズムをつくります。しかし、修辞を使いすぎると、文章が不自然に見えるので、適切に使う必要があります。",
+    "trans": {
+     "ko": "해설\n수사법의 효과\n수사법은 단순한 장식이 아니다. 은유는 낯선 개념을 익숙한 이미지로 설명하고, 병렬 구조는 리듬을 만들어 기억에 남게 한다. 다만 과도한 수사는 글을 인위적으로 보이게 하므로 적절히 사용해야 한다.",
+     "en": "COMMENTARY\nThe effect of rhetoric\nRhetorical devices are not mere decoration. Metaphor explains unfamiliar ideas through familiar images, and parallelism creates rhythm that sticks in the memory. However, excessive rhetoric makes writing look artificial, so use it appropriately."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "隠喩は何をしますか。",
+      "options": [
+       "なじみのないものをなじみのあるイメージで説明する",
+       "文章を長くする",
+       "意味をぼかす"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "修辞を使いすぎるとどうなりますか。",
+      "options": [
+       "文章が不自然に見える",
+       "読みやすくなる",
+       "短くなる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "修辞技法は単なる飾りではありません。対句は文章を退屈にします。筆者は修辞の使いすぎを戒めています。",
+    "trans": {
+     "ko": "수사법은 단순한 장식이 아니다. 병렬 구조는 글을 지루하게 만든다. 해설자는 수사의 과도한 사용을 경고한다.",
+     "en": "Rhetorical devices are not mere decoration. Parallelism makes writing boring. The commentator warns against excessive use of rhetoric."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "修辞技法は単なる飾りではない。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "対句は文章を退屈にする。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "筆者は修辞の使いすぎを戒めている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "この街は眠らない大きな機械です。",
+    "read": "このまちはねむらないおおきなきかいです。",
+    "ko": "시간은 흐르는 강이에요. (은유)",
+    "en": "Time is a flowing river. (metaphor)",
+    "situation": {
+     "ko": "은유를 쓸 때",
+     "en": "Using a metaphor"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "地下鉄は川のように人を吐き出します。",
+    "read": "ちかてつはかわのようにひとをはきだします。",
+    "ko": "그녀의 목소리는 비단처럼 부드러웠어요. (직유)",
+    "en": "Her voice was as smooth as silk. (simile)",
+    "situation": {
+     "ko": "직유를 쓸 때",
+     "en": "Using a simile"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "私たちは走り、疲れ、また立ち上がります。",
+    "read": "わたしたちははしり、つかれ、またたちあがります。",
+    "ko": "우리는 오고, 우리는 보고, 우리는 이겼다. (병렬)",
+    "en": "We came, we saw, we conquered. (parallelism)",
+    "situation": {
+     "ko": "병렬로 리듬을 만들 때",
+     "en": "Creating rhythm"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "この街の騒音は百万の声のようです。",
+    "read": "このまちのそうおんはひゃくまんのこえのようです。",
+    "ko": "적은 것이 많은 것이다. (역설)",
+    "en": "Less is more. (paradox)",
+    "situation": {
+     "ko": "역설을 쓸 때",
+     "en": "Using a paradox"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "彼女の声は絹のようになめらかです。",
+    "read": "かのじょのこえはきぬのようになめらかです。",
+    "ko": "가방이 천 킬로그램은 되는 것 같아요. (과장)",
+    "en": "My bag weighs a ton. (hyperbole)",
+    "situation": {
+     "ko": "과장을 쓸 때",
+     "en": "Using hyperbole"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "風が窓辺でささやきました。",
+    "read": "かぜがまどべでささやきました。",
+    "ko": "바람이 창문에서 속삭였어요. (의인화)",
+    "en": "The wind whispered at the window. (personification)",
+    "situation": {
+     "ko": "의인화를 쓸 때",
+     "en": "Using personification"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "この比喩のおかげで、描写が鮮やかになります。",
+    "read": "このひゆのおかげで、びょうしゃがせんやかになります。",
+    "ko": "이 비유는 이미지를 생생하게 해 줍니다.",
+    "en": "This image makes the description vivid.",
+    "situation": {
+     "ko": "효과를 설명할 때",
+     "en": "Explaining the effect"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "修辞技法は文章を説得力のあるものにします。",
+    "read": "しゅうじぎほうはぶんしょうをせっとくりょくのあるものにします。",
+    "ko": "수사법은 글을 더 설득력 있게 만듭니다.",
+    "en": "Rhetorical devices make writing more persuasive.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜は〜です（隠喩）。",
+    "read": "〜は〜です（いんゆ）。",
+    "ko": "~은 ~이다 (은유).",
+    "en": "X is Y. (metaphor)"
+   },
+   {
+    "id": "w2",
+    "t": "〜のようです（直喩）。",
+    "read": "〜のようです（ちょくゆ）。",
+    "ko": "~처럼 ~ (직유).",
+    "en": "as ... as / like ... (simile)"
+   },
+   {
+    "id": "w3",
+    "t": "〜が〜ました（擬人法）。",
+    "read": "〜が〜ました（ぎじんほう）。",
+    "ko": "~도 ~도 ~ (병렬).",
+    "en": "A, B and C (parallelism)"
+   },
+   {
+    "id": "w4",
+    "t": "百万の〜。",
+    "read": "ひゃくまんの〜。",
+    "ko": "~는 ~이다 (역설).",
+    "en": "Less is more. (paradox)"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "은유, 직유, 병렬 구조, 과장법을 각각 사용해 한 장면을 4문장으로 묘사해 보세요.",
+    "en": "Describe one scene in 4 sentences using metaphor, simile, parallelism and hyperbole."
+   },
+   "must_include": [
+    {
+     "label": "機械",
+     "match": [
+      "機械"
+     ]
+    },
+    {
+     "label": "ように",
+     "match": [
+      "ように"
+     ]
+    },
+    {
+     "label": "百万",
+     "match": [
+      "百万"
+     ]
+    }
+   ],
+   "model": "この街は、眠らない大きな機械です。地下鉄は、川のように人を吐き出します。私たちは走り、疲れ、また立ち上がります。この街の騒音は、百万の声のようです。",
+   "model_trans": {
+    "ko": "도시는 잠들지 않는 거대한 기계입니다. 지하철은 강물처럼 사람들을 쏟아 냅니다. 우리는 달리고, 우리는 지치고, 우리는 다시 일어섭니다. 이 도시의 소음은 백만 개의 목소리처럼 들립니다.",
+    "en": "The city is a giant machine that never sleeps. The subway pours people out like a river. We run, we tire, we rise again. The noise of this city sounds like a million voices."
+   }
+  }
+ }
+}

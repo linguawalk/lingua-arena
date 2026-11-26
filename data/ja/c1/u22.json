@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u22",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 22,
+  "concept": "C1.U22",
+  "status": "live",
+  "title": {
+   "target": "批評文の書き方",
+   "ko": "비평문 쓰기",
+   "en": "Writing critical reviews"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "引き込まれる",
+   "pos": "adj",
+   "read": "ひきこまれる",
+   "ko": "인상적인",
+   "en": "compelling",
+   "ex": {
+    "t": "その小説は引き込まれる作品でした。",
+    "read": "そのしょうせつはひきこまれるさくひんでした。",
+    "ko": "그 소설은 설득력 있고 인상적이었어요.",
+    "en": "The novel was compelling."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "深みのある",
+   "pos": "adj",
+   "read": "ふかみのある",
+   "ko": "깊이 있는",
+   "en": "profound",
+   "ex": {
+    "t": "その映画は深みのあるテーマを扱っています。",
+    "read": "そのえいがはふかみのあるテーマをあつかっています。",
+    "ko": "그 영화는 깊이 있는 주제를 다뤄요.",
+    "en": "The film deals with a profound theme."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "ありきたりな",
+   "pos": "adj",
+   "read": "ありきたりな",
+   "ko": "진부한",
+   "en": "clichéd",
+   "ex": {
+    "t": "筋書きがありきたりでした。",
+    "read": "すじがきがありきたりでした。",
+    "ko": "줄거리가 진부했어요.",
+    "en": "The plot was clichéd."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "繊細な",
+   "pos": "adj",
+   "read": "せんさいな",
+   "ko": "미묘한",
+   "en": "subtle",
+   "ex": {
+    "t": "彼の演技は繊細でした。",
+    "read": "かれのえんぎはせんさいでした。",
+    "ko": "그의 연기는 미묘했어요.",
+    "en": "His performance was subtle."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "欠点",
+   "pos": "noun",
+   "read": "けってん",
+   "ko": "결함",
+   "en": "flaw",
+   "ex": {
+    "t": "この作品の欠点は結末です。",
+    "read": "このさくひんのけってんはけつまつです。",
+    "ko": "이 작품의 결함은 결말이에요.",
+    "en": "The flaw of this work is its ending."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "卓越した",
+   "pos": "adj",
+   "read": "たくえつした",
+   "ko": "탁월한",
+   "en": "outstanding",
+   "ex": {
+    "t": "彼女は卓越した演技を見せました。",
+    "read": "かのじょはたくえつしたえんぎをみせました。",
+    "ko": "그녀는 탁월한 연기를 보여 줬어요.",
+    "en": "She gave an outstanding performance."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "感傷的すぎる",
+   "pos": "adj",
+   "read": "かんしょうてきすぎる",
+   "ko": "지나치게 감상적인",
+   "en": "sentimental",
+   "ex": {
+    "t": "最後の場面は感傷的すぎました。",
+    "read": "さいごのばめんはかんしょうてきすぎました。",
+    "ko": "마지막 장면은 지나치게 감상적이었어요.",
+    "en": "The final scene was overly sentimental."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "全体として",
+   "pos": "phrase",
+   "read": "ぜんたいとして",
+   "ko": "전반적으로",
+   "en": "on the whole",
+   "ex": {
+    "t": "全体として、すばらしい作品です。",
+    "read": "ぜんたいとして、すばらしいさくひんです。",
+    "ko": "전반적으로 훌륭한 작품이에요.",
+    "en": "On the whole, it is a fine work."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "強くお勧めする",
+   "pos": "phrase",
+   "read": "つよくおすすめする",
+   "ko": "강력히 추천하다",
+   "en": "highly recommend",
+   "ex": {
+    "t": "この本を強くお勧めします。",
+    "read": "このほんをつよくおすすめします。",
+    "ko": "이 책을 강력히 추천해요.",
+    "en": "I highly recommend this book."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "期待に届かない",
+   "pos": "phrase",
+   "read": "きたいにとどかない",
+   "ko": "한계를 드러내다",
+   "en": "fall short",
+   "ex": {
+    "t": "後半は期待に届きませんでした。",
+    "read": "のちはんはきたいにとどきませんでした。",
+    "ko": "후반부는 기대에 미치지 못해요.",
+    "en": "The second half falls short."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜を説得力をもって描く／ただし〜は物足りない／全体として／〜を強くお勧めする",
+   "en": "Critical reviews: 〜を説得力をもって描く / ただし〜は物足りない / 全体として / 〜を強くお勧めする"
+  },
+  "explain": {
+   "ko": "批評文は、評価の言葉とバランスのよい構成で書きます。まず長所を「深みのあるテーマを説得力をもって描いている」と述べ、「ただし〜は物足りない」で短所を指摘します。評価の言葉は「印象的な」「卓越した」「繊細な」のようなよい語と、「ありきたりな」「感傷的な」のような悪い語を区別して使います。最後は「全体として〜」「〜を強くお勧めする」で判断をまとめます。",
+   "en": "Reviews use evaluative vocabulary and a balanced structure. Praise first: 「深みのあるテーマを説得力をもって描いている」; then flag weaknesses with 「ただし〜は物足りない」. Use positive words such as 「印象的な」「卓越した」「繊細な」 and negative ones such as 「ありきたりな」「感傷的な」. End with a verdict: 「全体として〜」「〜を強くお勧めする」."
+  },
+  "table": {
+   "head": [
+    "機能 / Function",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "長所 / Strength",
+     "〜を説得力をもって描く",
+     "主題を説得力をもって描く。"
+    ],
+    [
+     "短所 / Weakness",
+     "ただし〜は物足りない",
+     "ただし結末は物足りない。"
+    ],
+    [
+     "総合 / Overall",
+     "全体として〜",
+     "全体として優れた作品だ。"
+    ],
+    [
+     "推薦 / Recommend",
+     "〜を強くお勧めする",
+     "強くお勧めする。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "長所と短所の両方を書くと、説得力が増します。",
+    "en": "Covering strengths and weaknesses is more convincing."
+   },
+   {
+    "ko": "「やや」「少し」で批判をやわらげられます。",
+    "en": "「やや」 and 「少し」 soften criticism."
+   },
+   {
+    "ko": "お勧めする相手を示すと、より具体的になります。",
+    "en": "Naming the audience makes it specific."
+   }
+  ],
+  "examples": [
+   {
+    "t": "この映画は深みのあるテーマを扱っていますが、結末はありきたりです。",
+    "read": "このえいがはふかみのあるテーマをあつかっていますが、けつまつはありきたりです。",
+    "ko": "이 영화는 깊이 있는 주제를 다루지만 결말이 진부해요.",
+    "en": "The film tackles a profound theme but has a clichéd ending."
+   },
+   {
+    "t": "彼女の演技は繊細で、しかも卓越していました。",
+    "read": "かのじょのえんぎはせんさいで、しかもたくえつしていました。",
+    "ko": "그녀의 연기는 미묘하면서도 탁월했어요.",
+    "en": "Her performance was both subtle and outstanding."
+   },
+   {
+    "t": "後半は期待に届きませんでした。",
+    "read": "のちはんはきたいにとどきませんでした。",
+    "ko": "후반부는 기대에 미치지 못했어요.",
+    "en": "The second half fell short of expectations."
+   },
+   {
+    "t": "全体として、すばらしい作品だと思います。",
+    "read": "ぜんたいとして、すばらしいさくひんだとおもいます。",
+    "ko": "전반적으로 훌륭한 작품이라고 생각해요.",
+    "en": "On the whole, I think it is a fine work."
+   },
+   {
+    "t": "この本を強くお勧めします。",
+    "read": "このほんをつよくおすすめします。",
+    "ko": "이 책을 강력히 추천합니다.",
+    "en": "I highly recommend this book."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "この映画は___のあるテーマを扱っていますが、結末がありきたりです。",
+    "options": [
+     "深み",
+     "高さ",
+     "広さ"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "彼女の演技は繊細で、しかも___でした。",
+    "options": [
+     "卓越",
+     "未熟",
+     "失礼"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___、すばらしい作品だと思います。",
+    "options": [
+     "全体として",
+     "反対に",
+     "偶然"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "この本を___お勧めします。",
+    "options": [
+     "強く",
+     "弱く",
+     "ぎりぎり"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "その映画はどうでしたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 영화는 어땠나요?",
+     "en": "(Question) What was the film like?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "演技は卓越していましたが、筋書きはありきたりでした。",
+       "何も感じませんでした。",
+       "見ませんでした。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この本の弱点は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 책의 단점은 무엇인가요?",
+     "en": "(Question) What is the weakness of this book?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "後半が期待に届きません。",
+       "欠点はまったくありません。",
+       "文章が短すぎます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日見た映画、どうだった？"
+      },
+      {
+       "s": "B",
+       "t": "演技は卓越していたけど、筋書きはちょっとありきたりだったな。"
+      },
+      {
+       "s": "A",
+       "t": "それでもお勧め？"
+      },
+      {
+       "s": "B",
+       "t": "全体としては見る価値あるよ。欠点はあるけど、強くお勧めする。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 본 영화 어땠어?\nB: 연기는 탁월했는데 줄거리가 좀 진부했어.\nA: 그래도 추천해?\nB: 전반적으로는 볼 만해. 결점은 있지만 강력히 추천해.",
+     "en": "A: How was the film you saw yesterday?\nB: The acting was outstanding, but the plot was a bit clichéd.\nA: Still recommend it?\nB: On the whole, yes. It has flaws, but I highly recommend it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人は結局その映画をどうしますか。",
+      "options": [
+       "欠点はあるが強くお勧めする",
+       "お勧めしない",
+       "見ないよう言う"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新刊の小説の書評をします。この作品は深みのあるテーマを扱っていて、文章も美しいです。ただ、中盤以降は物語がゆるむのが残念です。全体として、読む価値の十分にある本です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "신간 소설에 대한 리뷰를 말씀드리겠습니다. 이 작품은 깊이 있는 주제를 다루며 문장이 아름답습니다. 그러나 중반 이후 서사가 느슨해지는 아쉬움이 있습니다. 전반적으로 읽을 가치가 충분한 책입니다.",
+     "en": "Let me review the new novel. It handles a profound theme and its prose is beautiful. However, the narrative slackens after the middle, which is a pity. On the whole, it is a book well worth reading."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この本の残念な点は何ですか。",
+      "options": [
+       "中盤以降に物語がゆるむこと",
+       "文章が不自然なこと",
+       "テーマがないこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今日の映画評を聞きましょう。"
+      },
+      {
+       "s": "B",
+       "t": "この映画は繊細な演技が際立っています。"
+      },
+      {
+       "s": "A",
+       "t": "弱点はありますか。"
+      },
+      {
+       "s": "B",
+       "t": "結末がやや感傷的なところです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "진행자: 오늘의 영화 평을 들어 보겠습니다.\n평론가: 이 영화는 미묘한 연기가 돋보입니다.\n진행자: 단점도 있나요?\n평론가: 결말이 다소 감상적이라는 점입니다.",
+     "en": "Host: Let's hear today's film review.\nCritic: The film stands out for its subtle acting.\nHost: Any weaknesses?\nCritic: The ending is somewhat sentimental."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "評論家は______演技が際立っていると言います",
+      "answers": [
+       "繊細な"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "結末がやや______だと言います",
+      "answers": [
+       "感傷的"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) この映画は___のあるテーマを扱っていますが、結末がありきたりです。\n2) 彼女の演技は繊細で、しかも___でした。\n3) 後半は期待に___ませんでした。",
+    "trans": {
+     "ko": "1) 이 영화는 깊이 있는 주제를 다루지만 결말이 진부해요. 2) 그녀의 연기는 미묘하면서도 탁월했어요. 3) 후반부는 기대에 미치지 못했어요.",
+     "en": "1) The film tackles a profound theme but has a clichéd ending. 2) Her performance was both subtle and outstanding. 3) The second half fell short of expectations."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この映画は___のあるテーマを扱っていますが、結末がありきたりです。",
+      "options": [
+       "深み",
+       "高さ",
+       "広さ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼女の演技は繊細で、しかも___でした。",
+      "options": [
+       "卓越",
+       "未熟",
+       "失礼"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "後半は期待に___ませんでした。",
+      "options": [
+       "届き",
+       "近づき",
+       "あふれ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "この展覧会は、現代美術の流れを幅広く見せてくれます。特に、第一展示室のインスタレーションは(1)です。しかし、解説が不足していて、来場者が作品の背景を理解するのは(2)。(3)、訪れる価値は十分にあります。",
+    "trans": {
+     "ko": "이 전시회는 현대 미술의 흐름을 폭넓게 보여 줍니다. 특히 첫 번째 전시실의 설치 작품은 인상적입니다. 그러나 해설이 부족해 관람객이 작품의 맥락을 이해하기 어렵습니다. 전반적으로 방문할 가치가 충분합니다.",
+     "en": "This exhibition offers a broad view of contemporary art. The installation in the first room is particularly striking. However, the lack of commentary makes it hard for visitors to grasp the context. On the whole, it is well worth a visit."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "印象的",
+       "ありきたり",
+       "不快"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "難しいです",
+       "簡単です",
+       "よいです"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "全体として",
+       "反対に",
+       "偶然"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "書評\n消えた村\nこの小説は、再開発で消えていく村を舞台に、記憶とアイデンティティを探る。文章は簡潔でありながら叙情的である。ただし、中盤の物語はやや間延びしている。それでも、最後の場面の余韻は長く残る。",
+    "trans": {
+     "ko": "서평\n사라진 마을\n이 소설은 재개발로 사라지는 마을을 배경으로 기억과 정체성을 탐구한다. 문장은 간결하면서도 서정적이다. 다만 중반의 서사는 다소 늘어진다. 그럼에도 불구하고 마지막 장면의 여운은 오래 남는다.",
+     "en": "BOOK REVIEW\nThe Vanished Village\nSet in a village disappearing due to redevelopment, this novel explores memory and identity. The prose is spare yet lyrical. The narrative sags somewhat in the middle. Nevertheless, the lingering effect of the final scene stays with you."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この小説は何を舞台にしていますか。",
+      "options": [
+       "再開発で消えていく村",
+       "都市の博物館",
+       "遠い宇宙"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "書評者は最後の場面についてどう言っていますか。",
+      "options": [
+       "余韻が長く残る",
+       "退屈だ",
+       "理解しにくい"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "小説は再開発で消えていく村を舞台にしています。書評者は文章があまりに冗長だと言っています。この小説はもうすぐ映画になります。",
+    "trans": {
+     "ko": "소설은 재개발로 사라지는 마을을 배경으로 한다. 서평자는 문장이 지나치게 장황하다고 말한다. 이 소설은 곧 영화로 제작된다.",
+     "en": "The novel is set in a village vanishing through redevelopment. The reviewer says the prose is too wordy. The novel will soon be made into a film."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "小説は再開発で消えていく村を舞台にしている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "書評者は文章があまりに冗長だと言っている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "この小説はもうすぐ映画になる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "この小説は、深みのあるテーマを説得力をもって描いています。",
+    "read": "このしょうせつは、ふかみのあるテーマをせっとくりょくをもってえがいています。",
+    "ko": "이 소설은 깊이 있는 주제를 설득력 있게 다룹니다.",
+    "en": "The novel handles a profound theme compellingly.",
+    "situation": {
+     "ko": "장점을 평가할 때",
+     "en": "Praising strengths"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "ただし、後半はかなりありきたりになります。",
+    "read": "ただし、のちはんはかなりありきたりになります。",
+    "ko": "다만 후반부는 다소 진부하게 흘러갑니다.",
+    "en": "However, the second half becomes rather clichéd.",
+    "situation": {
+     "ko": "단점을 지적할 때",
+     "en": "Pointing out weaknesses"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "主演俳優の演技は繊細で卓越しています。",
+    "read": "しゅえんはいゆうのえんぎはせんさいでたくえつしています。",
+    "ko": "주연 배우의 연기는 미묘하고 탁월합니다.",
+    "en": "The lead actor's performance is subtle and outstanding.",
+    "situation": {
+     "ko": "연기를 평가할 때",
+     "en": "Evaluating acting"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "結末は感傷的すぎるように感じます。",
+    "read": "けつまつはかんしょうてきすぎるようにかんじます。",
+    "ko": "결말은 지나치게 감상적이라는 느낌을 줍니다.",
+    "en": "The ending feels overly sentimental.",
+    "situation": {
+     "ko": "결말을 비평할 때",
+     "en": "Criticising an ending"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "全体として、期待に応える作品です。",
+    "read": "ぜんたいとして、きたいにこたえるさくひんです。",
+    "ko": "전반적으로 보면 기대를 충족하는 작품입니다.",
+    "en": "On the whole, it is a work that lives up to expectations.",
+    "situation": {
+     "ko": "종합 평가를 할 때",
+     "en": "Giving an overall evaluation"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "この本は深く考えさせられます。",
+    "read": "このほんはふかくかんがえさせられます。",
+    "ko": "이 책은 독자의 생각을 깊이 있게 자극합니다.",
+    "en": "This book stimulates thought in a profound way.",
+    "situation": {
+     "ko": "작품의 효과를 말할 때",
+     "en": "Describing the effect"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "この作品を強くお勧めします。",
+    "read": "このさくひんをつよくおすすめします。",
+    "ko": "이 작품을 강력히 추천합니다.",
+    "en": "I highly recommend this work.",
+    "situation": {
+     "ko": "추천할 때",
+     "en": "Recommending"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "ただし、欠点がないわけではありません。",
+    "read": "ただし、けってんがないわけではありません。",
+    "ko": "그러나 결점이 없는 것은 아닙니다.",
+    "en": "It is not, however, without its flaws.",
+    "situation": {
+     "ko": "균형 잡힌 평가를 할 때",
+     "en": "Balancing the evaluation"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜を説得力をもって描いている。",
+    "read": "〜をせっとくりょくをもってえがいている。",
+    "ko": "~을 설득력 있게 다룬다.",
+    "en": "It handles ~ compellingly."
+   },
+   {
+    "id": "w2",
+    "t": "ただし、〜は物足りない。",
+    "read": "ただし、〜はものたりない。",
+    "ko": "다만 ~는 아쉽다.",
+    "en": "However, ~ falls short."
+   },
+   {
+    "id": "w3",
+    "t": "全体として、〜。",
+    "read": "ぜんたいとして、〜。",
+    "ko": "전반적으로 ~이다.",
+    "en": "On the whole, ..."
+   },
+   {
+    "id": "w4",
+    "t": "〜を強くお勧めする。",
+    "read": "〜をつよくおすすめする。",
+    "ko": "~을 강력히 추천한다.",
+    "en": "I highly recommend ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "최근 본 영화나 책에 대한 비평을 장점·단점·종합 평가·추천 순으로 4문장으로 써 보세요.",
+    "en": "Write a four-sentence critical review of a recent film or book: strength, weakness, overall verdict, recommendation."
+   },
+   "must_include": [
+    {
+     "label": "説得力",
+     "match": [
+      "説得力"
+     ]
+    },
+    {
+     "label": "ありきたり",
+     "match": [
+      "ありきたり"
+     ]
+    },
+    {
+     "label": "強くお勧め",
+     "match": [
+      "強くお勧め"
+     ]
+    }
+   ],
+   "model": "この小説は、記憶と喪失という深みのあるテーマを説得力をもって描いています。ただし、後半はややありきたりになり、結末も感傷的すぎます。全体として、欠点はあるものの十分に価値のある作品です。文学が好きな読者に強くお勧めします。",
+   "model_trans": {
+    "ko": "이 소설은 기억과 상실이라는 깊이 있는 주제를 설득력 있게 다룹니다. 다만 후반부는 다소 진부하게 흘러가고 결말도 지나치게 감상적입니다. 전반적으로 보면 결점이 있지만 충분히 가치 있는 작품입니다. 문학을 좋아하는 독자에게 강력히 추천합니다.",
+    "en": "The novel handles the profound themes of memory and loss compellingly. However, the second half becomes rather clichéd and the ending is overly sentimental. On the whole, it is flawed but well worth reading. I highly recommend it to lovers of literature."
+   }
+  }
+ }
+}

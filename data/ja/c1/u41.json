@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u41",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 41,
+  "concept": "C1.U41",
+  "status": "live",
+  "title": {
+   "target": "科学倫理とAI",
+   "ko": "과학 윤리와 인공지능",
+   "en": "Science ethics and AI"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "倫理的な",
+   "pos": "adj",
+   "read": "りんりてきな",
+   "ko": "윤리적",
+   "en": "ethical",
+   "ex": {
+    "t": "この実験は倫理的な問題を提起します。",
+    "read": "このじっけんはりんりてきなもんだいをていきします。",
+    "ko": "이 실험은 윤리적 문제가 있어요.",
+    "en": "This experiment raises ethical issues."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "偏り",
+   "pos": "noun",
+   "read": "かたより",
+   "ko": "편향",
+   "en": "bias",
+   "ex": {
+    "t": "アルゴリズムには偏りがあることがあります。",
+    "read": "アルゴリズムにはかたよりがあることがあります。",
+    "ko": "알고리즘에는 편향이 있을 수 있어요.",
+    "en": "Algorithms can contain bias."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "インフォームド・コンセント",
+   "pos": "noun",
+   "read": "いんふぉーむど・こんせんと",
+   "ko": "사전 동의",
+   "en": "informed consent",
+   "ex": {
+    "t": "参加者のインフォームド・コンセントが必要です。",
+    "read": "さんかしゃのいんふぉーむど・こんせんとがひつようです。",
+    "ko": "참가자의 사전 동의가 필요해요.",
+    "en": "Participants' informed consent is required."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "規制する",
+   "pos": "verb",
+   "read": "きせいする",
+   "ko": "규제하다",
+   "en": "regulate",
+   "ex": {
+    "t": "政府はAIを規制したいと考えています。",
+    "read": "せいふはAIをきせいしたいとかんがえています。",
+    "ko": "정부는 인공지능을 규제하려 해요.",
+    "en": "The government wants to regulate AI."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "透明性",
+   "pos": "noun",
+   "read": "とうめいせい",
+   "ko": "투명성",
+   "en": "transparency",
+   "ex": {
+    "t": "アルゴリズムの透明性が重要です。",
+    "read": "アルゴリズムのとうめいせいがじゅうようです。",
+    "ko": "알고리즘의 투명성이 중요해요.",
+    "en": "Algorithmic transparency matters."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "個人情報",
+   "pos": "noun",
+   "read": "こじんじょうほう",
+   "ko": "개인정보",
+   "en": "personal data",
+   "ex": {
+    "t": "個人情報は守られなければなりません。",
+    "read": "こじんじょうほうはまもられなければなりません。",
+    "ko": "개인정보를 보호해야 해요.",
+    "en": "Personal data must be protected."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "説明責任",
+   "pos": "noun",
+   "read": "せつめいせきにん",
+   "ko": "책임",
+   "en": "accountability",
+   "ex": {
+    "t": "AIの判断には説明責任が必要です。",
+    "read": "AIのはんだんにはせつめいせきにんがひつようです。",
+    "ko": "AI의 결정에 대한 책임이 필요해요.",
+    "en": "Accountability is needed for AI decisions."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "監視",
+   "pos": "noun",
+   "read": "かんし",
+   "ko": "감시",
+   "en": "surveillance",
+   "ex": {
+    "t": "大規模な監視が懸念されています。",
+    "read": "だいきぼなかんしがけねんされています。",
+    "ko": "대규모 감시가 우려돼요.",
+    "en": "Mass surveillance is a concern."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "自動化",
+   "pos": "noun",
+   "read": "じどうか",
+   "ko": "자동화",
+   "en": "automation",
+   "ex": {
+    "t": "自動化が仕事を変えています。",
+    "read": "じどうかがしごとをかえています。",
+    "ko": "자동화가 일자리를 바꿔요.",
+    "en": "Automation is changing jobs."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "慎重な",
+   "pos": "adj",
+   "read": "しんちょうな",
+   "ko": "신중한",
+   "en": "cautious",
+   "ex": {
+    "t": "慎重な対応が必要です。",
+    "read": "しんちょうなたいおうがひつようです。",
+    "ko": "신중한 접근이 필요해요.",
+    "en": "A cautious approach is needed."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜という倫理的懸念を呼ぶ／〜を規制する／〜の同意／〜のバランス",
+   "en": "Science ethics and AI: 倫理的懸念を呼ぶ / 規制する / インフォームド・コンセント / バランス"
+  },
+  "explain": {
+   "ko": "科学技術の倫理を語るときは、「この技術は倫理的な懸念を呼んでいる」「アルゴリズムには偏りが含まれることがある」と述べます。研究では「参加者の同意（インフォームド・コンセント）が不可欠」で、個人情報は厳しく守ります。政府は「AIを規制する法案を準備している」一方、「革新を妨げない」ことも大切です。革新と安全のバランスを取ることが課題です。",
+   "en": "On science ethics: 「この技術は倫理的な懸念を呼んでいる」「アルゴリズムには偏りが含まれることがある」. In research 「参加者の同意が不可欠」 and personal data is strictly protected. Governments 「AIを規制する法案を準備している」 yet must not stifle innovation. Balancing innovation and safety is the challenge."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "倫理的懸念を呼ぶ",
+     "raise ethical concerns",
+     "AIが倫理的懸念を呼ぶ。"
+    ],
+    [
+     "〜を規制する",
+     "regulate",
+     "AIを規制する法案。"
+    ],
+    [
+     "参加者の同意",
+     "informed consent",
+     "同意が不可欠だ。"
+    ],
+    [
+     "〜のバランスを取る",
+     "balance",
+     "革新と安全のバランス。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "偏りは、学習データから生じることがあります。",
+    "en": "Bias can arise from training data."
+   },
+   {
+    "ko": "説明責任は、AIの判断の責任の所在を明確にします。",
+    "en": "Accountability clarifies who answers for AI decisions."
+   },
+   {
+    "ko": "規制は、革新を妨げない範囲で行います。",
+    "en": "Regulate without stifling innovation."
+   }
+  ],
+  "examples": [
+   {
+    "t": "この技術は深刻な倫理的懸念を呼んでいます。",
+    "read": "このぎじゅつはしんこくなりんりてきけねんをよんでいます。",
+    "ko": "이 기술은 윤리적 우려를 낳고 있어요.",
+    "en": "This technology is raising ethical concerns."
+   },
+   {
+    "t": "アルゴリズムには偏りが含まれることを認めなければなりません。",
+    "read": "アルゴリズムにはかたよりがふくまれることをみとめなければなりません。",
+    "ko": "알고리즘에 편향이 있을 수 있어요.",
+    "en": "Algorithms may contain bias."
+   },
+   {
+    "t": "研究には参加者の同意が不可欠です。",
+    "read": "けんきゅうにはさんかしゃのどういがふかけつです。",
+    "ko": "참가자의 사전 동의가 필요해요.",
+    "en": "Informed consent from participants is required."
+   },
+   {
+    "t": "政府はAIを規制する法案を準備しています。",
+    "read": "せいふはAIをきせいするほうあんをじゅんびしています。",
+    "ko": "정부는 인공지능을 규제하려고 해요.",
+    "en": "The government intends to regulate artificial intelligence."
+   },
+   {
+    "t": "個人情報は厳しく守られなければなりません。",
+    "read": "こじんじょうほうはいかめしくまもられなければなりません。",
+    "ko": "신중한 접근이 필요해요.",
+    "en": "A cautious approach is needed."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "この技術は倫理的な___を呼んでいます。",
+    "options": [
+     "懸念",
+     "習慣",
+     "景色"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "アルゴリズムには___が含まれることがあります。",
+    "options": [
+     "偏り",
+     "季節",
+     "地図"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "研究には参加者の___が不可欠です。",
+    "options": [
+     "同意",
+     "天気",
+     "値段"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "政府はAIを___する法案を準備しています。",
+    "options": [
+     "規制",
+     "宣伝",
+     "輸入"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "AIについてどんな懸念がありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 인공지능에 대해 어떤 우려가 있나요?",
+     "en": "(Question) What concerns are there about AI?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "偏りやプライバシーの懸念があります。",
+       "懸念はまったくありません。",
+       "高すぎるという懸念です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "研究でいちばん大切な倫理原則は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 연구에서 가장 중요한 윤리 원칙은 무엇인가요?",
+     "en": "(Question) What is the most important ethical principle in research?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "インフォームド・コンセントです。",
+       "利益を出すことです。",
+       "速さです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "AI採用システムの偏りについての記事、読んだ？"
+      },
+      {
+       "s": "B",
+       "t": "うん、学習データのせいなんだって。"
+      },
+      {
+       "s": "A",
+       "t": "規制すべきじゃない？"
+      },
+      {
+       "s": "B",
+       "t": "透明性と説明責任を高める法律が必要だね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: AI 채용 시스템에 편향이 있다는 기사 읽었어?\nB: 응, 학습 데이터 때문이래.\nA: 규제가 필요하지 않을까?\nB: 투명성과 책임을 높이는 법이 필요해.",
+     "en": "A: Did you read the article about bias in AI hiring systems?\nB: Yes, it's due to the training data.\nA: Shouldn't it be regulated?\nB: We need laws that improve transparency and accountability."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "AI採用の偏りはなぜ生じますか。",
+      "options": [
+       "学習データのせい",
+       "人間が関わるから",
+       "コストが高いから"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "科学倫理で最も基本的な原則は、インフォームド・コンセントです。研究者は、目的とリスクを十分に説明して、同意を得なければなりません。個人情報も厳しく守る必要があります。これを守らない研究は、倫理的に承認されません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "과학 윤리에서는 사전 동의가 가장 기본적인 원칙입니다. 연구자는 참가자에게 목적과 위험을 충분히 알리고 동의를 받아야 합니다. 또한 개인정보는 철저히 보호되어야 합니다. 이를 어기면 연구는 윤리적으로 인정받을 수 없습니다.",
+     "en": "In science ethics, informed consent is the most basic principle. Researchers must fully tell participants the aims and risks and obtain consent. Personal data must also be protected rigorously. A study that breaks this cannot be ethically approved."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "研究者は何をしなければなりませんか。",
+      "options": [
+       "説明して同意を得る",
+       "結果を隠す",
+       "費用を減らす"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "AIの規制についてどう思いますか。"
+      },
+      {
+       "s": "B",
+       "t": "規制は必要ですが、革新を妨げてはいけません。"
+      },
+      {
+       "s": "A",
+       "t": "どうやってバランスを取りますか。"
+      },
+      {
+       "s": "B",
+       "t": "透明性と説明責任を中心にすべきです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 인공지능 규제에 대해 어떻게 생각하세요?\n전문가: 규제는 필요하지만 혁신을 막아서는 안 됩니다.\n기자: 어떻게 균형을 맞출 수 있을까요?\n전문가: 투명성과 책임을 중심으로 접근해야 합니다.",
+     "en": "Reporter: What do you think of regulating AI?\nExpert: Regulation is needed but must not stifle innovation.\nReporter: How can the balance be struck?\nExpert: The approach should centre on transparency and accountability."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "規制は______を妨げてはいけないと言います",
+      "answers": [
+       "革新"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "透明性と______を中心にすべきだと言います",
+      "answers": [
+       "説明責任"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) この技術は倫理的な___を呼んでいます。\n2) アルゴリズムには___が含まれることがあります。\n3) 研究には参加者の___が不可欠です。",
+    "trans": {
+     "ko": "1) 이 기술은 윤리적 우려를 낳고 있어요. 2) 알고리즘에 편향이 있을 수 있어요. 3) 참가자의 사전 동의가 필요해요.",
+     "en": "1) This technology is raising ethical concerns. 2) Algorithms may contain bias. 3) Informed consent from participants is required."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この技術は倫理的な___を呼んでいます。",
+      "options": [
+       "懸念",
+       "習慣",
+       "景色"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "アルゴリズムには___が含まれることがあります。",
+      "options": [
+       "偏り",
+       "季節",
+       "地図"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "研究には参加者の___が不可欠です。",
+      "options": [
+       "同意",
+       "天気",
+       "値段"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "自動運転車は、事故のときに誰が(1)を負うべきかという倫理的な問いを提起します。製造者、所有者、ソフトウェア開発者のうち誰に責任があるのかは、法的にまだ(2)。これを解決するには、明確な(3)が必要です。",
+    "trans": {
+     "ko": "자율 주행 자동차는 사고 시 누가 책임을 져야 하는지에 대한 윤리적 질문을 던집니다. 제조사, 소유자, 소프트웨어 개발자 중 누구에게 책임이 있는지 법적으로 아직 명확하지 않습니다. 이 문제를 해결하려면 명확한 규제가 필요합니다.",
+     "en": "Self-driving cars raise ethical questions about who should be responsible in an accident. It is not yet legally clear whether the manufacturer, owner or software developer is liable. Clear regulation is needed to resolve this."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "責任",
+       "利益",
+       "景色"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "明確ではありません",
+       "明確です",
+       "簡単です"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "規制",
+       "宣伝",
+       "輸入"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "記事\n遺伝子編集をめぐる論争\n科学者たちは、遺伝性の病気を治療できる遺伝子編集技術を開発した。しかし、人間への適用は倫理的な論争を引き起こしている。多くの専門家は、厳しい規制と国際的な合意が必要だと主張している。",
+    "trans": {
+     "ko": "기사\n유전자 편집 논란\n과학자들은 유전 질환을 치료할 수 있는 유전자 편집 기술을 개발했다. 그러나 이 기술을 사람에게 적용하는 것은 윤리적 논란을 낳고 있다. 많은 전문가는 엄격한 규제와 국제적 합의가 필요하다고 주장한다.",
+     "en": "ARTICLE\nGene-editing controversy\nScientists have developed gene-editing technology that could treat genetic diseases. However, applying it to humans is provoking ethical controversy. Many experts argue that strict regulation and international agreement are needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "科学者たちは何を開発しましたか。",
+      "options": [
+       "遺伝子編集技術",
+       "新しい薬",
+       "新しい機械"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "多くの専門家は何が必要だと言っていますか。",
+      "options": [
+       "厳しい規制と国際的な合意",
+       "もっと研究費",
+       "宣伝"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "科学者たちは遺伝子編集技術を開発しました。この技術はすでに人間に広く使われています。専門家は厳しい規制を求めています。",
+    "trans": {
+     "ko": "과학자들은 유전자 편집 기술을 개발했다. 이 기술은 이미 사람에게 널리 쓰이고 있다. 전문가들은 엄격한 규제를 요구한다.",
+     "en": "Scientists have developed gene-editing technology. The technology is already widely used on humans. Experts call for strict regulation."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "科学者たちは遺伝子編集技術を開発した。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "この技術はすでに人間に広く使われている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "専門家は厳しい規制を求めている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "この技術は深刻な倫理的懸念を呼んでいます。",
+    "read": "このぎじゅつはしんこくなりんりてきけねんをよんでいます。",
+    "ko": "이 기술은 심각한 윤리적 우려를 낳고 있습니다.",
+    "en": "This technology is raising serious ethical concerns.",
+    "situation": {
+     "ko": "우려를 제기할 때",
+     "en": "Raising concerns"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "アルゴリズムに偏りがある可能性を認める必要があります。",
+    "read": "アルゴリズムにかたよりがあるかのうせいをみとめるひつようがあります。",
+    "ko": "알고리즘에 편향이 있을 수 있다는 점을 인정해야 합니다.",
+    "en": "We must acknowledge that algorithms may contain bias.",
+    "situation": {
+     "ko": "문제를 인정할 때",
+     "en": "Acknowledging a problem"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "研究では参加者のインフォームド・コンセントが不可欠です。",
+    "read": "けんきゅうではさんかしゃのいんふぉーむど・こんせんとがふかけつです。",
+    "ko": "연구에는 참가자의 사전 동의가 필수입니다.",
+    "en": "Informed consent from participants is essential for research.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "政府はAIを規制する法案を準備しています。",
+    "read": "せいふはAIをきせいするほうあんをじゅんびしています。",
+    "ko": "정부는 인공지능을 규제하는 법을 준비하고 있습니다.",
+    "en": "The government is preparing legislation to regulate AI.",
+    "situation": {
+     "ko": "정책을 보도할 때",
+     "en": "Reporting a policy"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "個人情報は厳しく守られなければなりません。",
+    "read": "こじんじょうほうはいかめしくまもられなければなりません。",
+    "ko": "개인정보는 철저히 보호되어야 합니다.",
+    "en": "Personal data must be protected rigorously.",
+    "situation": {
+     "ko": "요구를 말할 때",
+     "en": "Stating a demand"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "AIの判断の責任の所在は明確でなければなりません。",
+    "read": "AIのはんだんのせきにんのしょざいはめいかくでなければなりません。",
+    "ko": "AI의 결정에 대한 책임이 분명해야 합니다.",
+    "en": "Responsibility for AI decisions must be clear.",
+    "situation": {
+     "ko": "책임을 말할 때",
+     "en": "Stating accountability"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "自動化は一部の仕事を脅かし、別の仕事を生みます。",
+    "read": "じどうかはいちぶのしごとをきょうかし、べつのしごとをうみます。",
+    "ko": "자동화는 일자리를 위협하는 동시에 새로운 일자리를 만듭니다.",
+    "en": "Automation threatens some jobs while creating others.",
+    "situation": {
+     "ko": "양면을 말할 때",
+     "en": "Showing both sides"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "革新と安全のバランスが重要です。",
+    "read": "かくしんとあんぜんのバランスがじゅうようです。",
+    "ko": "혁신과 안전 사이의 균형이 중요합니다.",
+    "en": "Balance between innovation and safety is key.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜は倫理的懸念を呼んでいる。",
+    "read": "〜はりんりてきけねんをよんでいる。",
+    "ko": "~에 대한 우려를 제기하다.",
+    "en": "raise ethical concerns about ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜を規制する。",
+    "read": "〜をきせいする。",
+    "ko": "~을 규제하다.",
+    "en": "regulate ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜の同意が不可欠である。",
+    "read": "〜のどういがふかけつである。",
+    "ko": "~의 사전 동의.",
+    "en": "informed consent from ..."
+   },
+   {
+    "id": "w4",
+    "t": "〜と〜のバランス。",
+    "read": "〜と〜のバランス。",
+    "ko": "~ 사이의 균형.",
+    "en": "balance between ... and ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "인공지능이나 과학 연구의 윤리 문제를 우려·원인·해결책·결론 순으로 4문장으로 써 보세요.",
+    "en": "Write four sentences on an ethical issue in AI or science: concern, cause, solution, conclusion."
+   },
+   "must_include": [
+    {
+     "label": "懸念",
+     "match": [
+      "懸念"
+     ]
+    },
+    {
+     "label": "説明責任",
+     "match": [
+      "説明責任"
+     ]
+    },
+    {
+     "label": "バランス",
+     "match": [
+      "バランス"
+     ]
+    }
+   ],
+   "model": "人工知能の普及は、プライバシーや偏りについての倫理的懸念を呼んでいます。学習データにすでに偏りがあるためです。政府は、透明性を高め、説明責任を明確にする法律を導入すべきです。革新と安全の慎重なバランスが必要です。",
+   "model_trans": {
+    "ko": "인공지능의 확산은 개인정보와 편향에 대한 윤리적 우려를 낳고 있습니다. 이는 학습 데이터에 이미 편향이 포함되어 있기 때문입니다. 정부는 투명성을 높이고 책임을 분명히 하는 법을 마련해야 합니다. 혁신과 안전 사이에서 신중한 균형이 필요합니다.",
+    "en": "The spread of artificial intelligence is raising ethical concerns about privacy and bias. This is because the training data already contain bias. Governments should introduce laws that increase transparency and clarify accountability. A careful balance between innovation and safety is needed."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u39",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 39,
+  "concept": "C1.U39",
+  "status": "live",
+  "title": {
+   "target": "法と司法",
+   "ko": "법과 정의",
+   "en": "Law and justice"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "有罪となる",
+   "pos": "phrase",
+   "read": "ゆうざいとなる",
+   "ko": "유죄를 선고받다",
+   "en": "be convicted of",
+   "ex": {
+    "t": "彼は詐欺罪で有罪となりました。",
+    "read": "かれはさぎざいでゆうざいとなりました。",
+    "ko": "그는 사기죄로 유죄를 선고받았어요.",
+    "en": "He was convicted of fraud."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "罪を認める",
+   "pos": "phrase",
+   "read": "つみをみとめる",
+   "ko": "유죄를 인정하다",
+   "en": "plead guilty",
+   "ex": {
+    "t": "被告は罪を認めました。",
+    "read": "ひこくはつみをみとめました。",
+    "ko": "피고인은 유죄를 인정했어요.",
+    "en": "The defendant pleaded guilty."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "合理的な疑い",
+   "pos": "phrase",
+   "read": "ごうりてきなうたがい",
+   "ko": "합리적 의심의 여지 없이",
+   "en": "beyond reasonable doubt",
+   "ex": {
+    "t": "検察は合理的な疑いを超えて証明しなければなりません。",
+    "read": "けんさつはごうりてきなうたがいをこえてしょうめいしなければなりません。",
+    "ko": "검찰은 합리적 의심의 여지 없이 입증해야 해요.",
+    "en": "The prosecution must prove it beyond reasonable doubt."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "判決を支持する",
+   "pos": "phrase",
+   "read": "はんけつをしじする",
+   "ko": "판결을 유지하다",
+   "en": "uphold a ruling",
+   "ex": {
+    "t": "控訴審は判決を支持しました。",
+    "read": "こうそしんははんけつをしじしました。",
+    "ko": "항소 법원은 판결을 유지했어요.",
+    "en": "The appeal court upheld the ruling."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "被告",
+   "pos": "noun",
+   "read": "ひこく",
+   "ko": "피고인",
+   "en": "defendant",
+   "ex": {
+    "t": "被告は無実を主張しました。",
+    "read": "ひこくはむじつをしゅちょうしました。",
+    "ko": "피고인은 무죄를 주장했어요.",
+    "en": "The defendant claimed innocence."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "証拠",
+   "pos": "noun",
+   "read": "しょうこ",
+   "ko": "증거",
+   "en": "evidence",
+   "ex": {
+    "t": "証拠は不十分でした。",
+    "read": "しょうこはふじゅうぶんでした。",
+    "ko": "증거가 충분하지 않았어요.",
+    "en": "The evidence was insufficient."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "控訴する",
+   "pos": "verb",
+   "read": "こうそする",
+   "ko": "항소하다",
+   "en": "appeal",
+   "ex": {
+    "t": "彼は判決に控訴しました。",
+    "read": "かれははんけつにこうそしました。",
+    "ko": "그는 판결에 항소했어요.",
+    "en": "He appealed against the verdict."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "無罪とする",
+   "pos": "verb",
+   "read": "むざいとする",
+   "ko": "무죄를 선고하다",
+   "en": "acquit",
+   "ex": {
+    "t": "陪審は彼を無罪としました。",
+    "read": "ばいしんはかれをむざいとしました。",
+    "ko": "배심원단은 그를 무죄로 판결했어요.",
+    "en": "The jury acquitted him."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "刑",
+   "pos": "noun",
+   "read": "けい",
+   "ko": "형량",
+   "en": "sentence",
+   "ex": {
+    "t": "刑は懲役五年でした。",
+    "read": "けいはちょうえきごねんでした。",
+    "ko": "형량은 5년이었어요.",
+    "en": "The sentence was five years."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "公正な裁判",
+   "pos": "noun",
+   "read": "こうせいなさいばん",
+   "ko": "공정한 재판",
+   "en": "fair trial",
+   "ex": {
+    "t": "すべての人に公正な裁判を受ける権利があります。",
+    "read": "すべてのひとにこうせいなさいばんをうけるけんりがあります。",
+    "ko": "모든 사람은 공정한 재판을 받을 권리가 있어요.",
+    "en": "Everyone has the right to a fair trial."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜の罪で有罪となる／罪を認める／合理的な疑いを超えて／判決を支持する",
+   "en": "Law: 〜の罪で有罪となる / 罪を認める / 合理的な疑いを超えて / 判決を支持する"
+  },
+  "explain": {
+   "ko": "刑事裁判では、検察が被告の罪を「合理的な疑いを超えて」証明しなければなりません。証拠が不十分なら「無罪」となり、無実の人を守ります。有罪になった場合、被告は「罪を認める」か、「無実を主張する」か選びます。判決に不服なら「控訴する」ことができ、控訴審は「判決を支持する」か変更します。公正な裁判は法の支配の中心です。",
+   "en": "In a criminal trial the prosecution must prove guilt 「合理的な疑いを超えて」. If evidence is insufficient the verdict is 「無罪」, protecting the innocent. A defendant may 「罪を認める」 or 「無実を主張する」. If dissatisfied one can 「控訴する」, and the appeal court 「判決を支持する」 or changes it. A fair trial is at the heart of the rule of law."
+  },
+  "table": {
+   "head": [
+    "表現 / Expression",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜の罪で有罪となる",
+     "be convicted of",
+     "詐欺罪で有罪となった。"
+    ],
+    [
+     "罪を認める",
+     "plead guilty",
+     "被告は罪を認めた。"
+    ],
+    [
+     "合理的な疑いを超えて",
+     "beyond reasonable doubt",
+     "疑いを超えて証明する。"
+    ],
+    [
+     "判決を支持する",
+     "uphold a ruling",
+     "控訴審は判決を支持した。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「有罪」と「無罪」は、裁判の結果を表します。",
+    "en": "「有罪」 and 「無罪」 are trial outcomes."
+   },
+   {
+    "ko": "「控訴」は、判決に不服なときに行います。",
+    "en": "「控訴」 is made when dissatisfied with a verdict."
+   },
+   {
+    "ko": "「疑わしきは被告人の利益に」という原則があります。",
+    "en": "The principle is that doubt benefits the accused."
+   }
+  ],
+  "examples": [
+   {
+    "t": "彼は詐欺罪で有罪となりました。",
+    "read": "かれはさぎざいでゆうざいとなりました。",
+    "ko": "그는 사기죄로 유죄를 선고받았어요.",
+    "en": "He was convicted of fraud."
+   },
+   {
+    "t": "被告は罪を認めませんでした。",
+    "read": "ひこくはつみをみとめませんでした。",
+    "ko": "피고인은 유죄를 인정했어요.",
+    "en": "The defendant pleaded guilty."
+   },
+   {
+    "t": "検察は有罪を合理的な疑いを超えて証明しなければなりません。",
+    "read": "けんさつはゆうざいをごうりてきなうたがいをこえてしょうめいしなければなりません。",
+    "ko": "검찰은 합리적 의심의 여지 없이 입증해야 해요.",
+    "en": "The prosecution must prove it beyond reasonable doubt."
+   },
+   {
+    "t": "控訴審は原判決を支持しました。",
+    "read": "こうそしんはげんはんけつをしじしました。",
+    "ko": "항소 법원은 원심을 유지했어요.",
+    "en": "The appeal court upheld the original ruling."
+   },
+   {
+    "t": "公正な裁判を受けることは、法の支配の中心です。",
+    "read": "こうせいなさいばんをうけることは、ほうのしはいのちゅうしんです。",
+    "ko": "모든 사람은 공정한 재판을 받을 권리가 있어요.",
+    "en": "Everyone has a right to a fair trial."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "彼は詐欺罪で___となりました。",
+    "options": [
+     "有罪",
+     "無料",
+     "有名"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "被告は罪を___。",
+    "options": [
+     "認めました",
+     "忘れました",
+     "買いました"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "検察は合理的な___を超えて証明しなければなりません。",
+    "options": [
+     "疑い",
+     "天気",
+     "景色"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "控訴審は原判決を___しました。",
+    "options": [
+     "支持",
+     "禁止",
+     "延期"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "被告は何の罪に問われましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 피고인은 어떤 혐의를 받았나요?",
+     "en": "(Question) What was the defendant accused of?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "詐欺の罪に問われました。",
+       "交通違反です。",
+       "何もしていません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "控訴審はどう判断しましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 항소 법원은 어떻게 판결했나요?",
+     "en": "(Question) How did the appeal court rule?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "原判決を支持しました。",
+       "判決を取り消しました。",
+       "裁判をやめました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "裁判の結果、聞いた？"
+      },
+      {
+       "s": "B",
+       "t": "うん、詐欺罪で有罪になったよ。"
+      },
+      {
+       "s": "A",
+       "t": "控訴するのかな？"
+      },
+      {
+       "s": "B",
+       "t": "もうしたよ。でも、控訴審は判決を支持したんだ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그 재판 결과 들었어?\nB: 응, 사기죄로 유죄 판결을 받았대.\nA: 항소할까?\nB: 이미 했는데 항소 법원이 원심을 유지했어.",
+     "en": "A: Did you hear the trial result?\nB: Yes, he was convicted of fraud.\nA: Will he appeal?\nB: He already did, and the appeal court upheld the ruling."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "控訴審は何をしましたか。",
+      "options": [
+       "判決を支持した",
+       "判決を変えた",
+       "審理を拒否した"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "刑事裁判では、検察が被告の有罪を合理的な疑いを超えて証明しなければなりません。証拠が不十分なら、被告は無罪になります。この原則は、無実の人を守ります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "형사 재판에서 검찰은 합리적 의심의 여지 없이 피고인의 유죄를 입증해야 합니다. 증거가 충분하지 않으면 피고인은 무죄가 선고됩니다. 이 원칙은 무고한 사람을 보호하기 위한 것입니다.",
+     "en": "In a criminal trial, the prosecution must prove the defendant's guilt beyond reasonable doubt. If the evidence is insufficient, the defendant is acquitted. This principle protects the innocent."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "検察は何を証明しなければなりませんか。",
+      "options": [
+       "合理的な疑いを超えた有罪",
+       "被告の過去",
+       "裁判所の費用"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "判決が出ました。"
+      },
+      {
+       "s": "B",
+       "t": "依頼人は無実を主張しましたが、有罪になりました。"
+      },
+      {
+       "s": "A",
+       "t": "控訴しますか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、控訴する予定です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 판결이 나왔습니다.\n변호사: 의뢰인은 무죄를 주장했지만 유죄가 선고되었습니다.\n기자: 항소할 예정인가요?\n변호사: 네, 항소할 계획입니다.",
+     "en": "Reporter: A verdict has come in.\nLawyer: My client claimed innocence but was convicted.\nReporter: Will you appeal?\nLawyer: Yes, we plan to appeal."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "依頼人は______を主張しましたと言います",
+      "answers": [
+       "無実"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "弁護士は______する予定だと言います",
+      "answers": [
+       "控訴"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 彼は詐欺罪で___となりました。\n2) 被告は罪を___。\n3) すべての人に___裁判を受ける権利があります。",
+    "trans": {
+     "ko": "1) 그는 사기죄로 유죄를 선고받았어요. 2) 피고인은 유죄를 인정했어요. 3) 모든 사람은 공정한 재판을 받을 권리가 있어요.",
+     "en": "1) He was convicted of fraud. 2) The defendant pleaded guilty. 3) Everyone has the right to a fair trial."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "彼は詐欺罪で___となりました。",
+      "options": [
+       "有罪",
+       "無料",
+       "有名"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "被告は罪を___。",
+      "options": [
+       "認めました",
+       "忘れました",
+       "買いました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "すべての人に___裁判を受ける権利があります。",
+      "options": [
+       "公正な",
+       "高価な",
+       "速い"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "裁判で、検察は被告が現場にいたという証拠を示しました。しかし、弁護側は、その証拠は(1)だと主張しました。陪審は、合理的な疑いが(2)と判断し、(3)の評決を出しました。",
+    "trans": {
+     "ko": "재판에서 검찰은 피고인이 범행 장소에 있었다는 증거를 제시했습니다. 그러나 변호인단은 증거가 간접적이라고 주장했습니다. 배심원단은 합리적 의심이 남는다고 판단하여 피고인에게 무죄를 평결했습니다.",
+     "en": "At trial, the prosecution presented evidence that the defendant had been at the scene. The defence, however, argued that the evidence was circumstantial. The jury found reasonable doubt remained and returned a verdict of not guilty."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "状況証拠にすぎない",
+       "決定的",
+       "完全"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "残っている",
+       "ない",
+       "忘れられた"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "無罪",
+       "有罪",
+       "延期"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ニュース\n控訴審の判断\n控訴審は本日、原判決を支持しました。裁判所は、証拠が被告の有罪を合理的な疑いを超えて証明していると述べました。弁護側は最高裁に上告する意向です。",
+    "trans": {
+     "ko": "뉴스\n항소심 판결\n항소 법원은 오늘 원심 판결을 유지했다. 재판부는 증거가 합리적 의심의 여지 없이 피고인의 유죄를 입증한다고 밝혔다. 피고인 측은 대법원에 상고할 방침이다.",
+     "en": "NEWS\nAppeal decision\nThe appeal court today upheld the original ruling. The bench said the evidence proved the defendant's guilt beyond reasonable doubt. The defence intends to appeal to the Supreme Court."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "控訴審は何をしましたか。",
+      "options": [
+       "原判決を支持した",
+       "原判決を取り消した",
+       "審理を延期した"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "弁護側は何をする意向ですか。",
+      "options": [
+       "最高裁に上告する",
+       "罪を認める",
+       "何もしない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "控訴審は原判決を支持しました。被告は釈放されました。弁護側は最高裁に上告する意向です。",
+    "trans": {
+     "ko": "항소 법원은 원심 판결을 유지했다. 피고인은 석방되었다. 피고인 측은 대법원에 상고할 계획이다.",
+     "en": "The appeal court upheld the original ruling. The defendant was released. The defence plans to appeal to the Supreme Court."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "控訴審は原判決を支持した。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "被告は釈放された。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "弁護側は最高裁に上告する意向である。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "彼は詐欺罪で有罪となりました。",
+    "read": "かれはさぎざいでゆうざいとなりました。",
+    "ko": "그는 사기죄로 유죄를 선고받았습니다.",
+    "en": "He was convicted of fraud.",
+    "situation": {
+     "ko": "판결을 보도할 때",
+     "en": "Reporting a verdict"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "被告は罪を認めませんでした。",
+    "read": "ひこくはつみをみとめませんでした。",
+    "ko": "피고인은 유죄를 인정하지 않았습니다.",
+    "en": "The defendant did not plead guilty.",
+    "situation": {
+     "ko": "법정 절차를 말할 때",
+     "en": "Describing court procedure"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "検察は合理的な疑いを超えて有罪を証明しなければなりません。",
+    "read": "けんさつはごうりてきなうたがいをこえてゆうざいをしょうめいしなければなりません。",
+    "ko": "검찰은 합리적 의심의 여지 없이 입증해야 합니다.",
+    "en": "The prosecution must prove guilt beyond reasonable doubt.",
+    "situation": {
+     "ko": "원칙을 설명할 때",
+     "en": "Explaining a principle"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "証拠が不十分だったため、彼は無罪となりました。",
+    "read": "しょうこがふじゅうぶんだったため、かれはむざいとなりました。",
+    "ko": "증거가 충분하지 않아 무죄가 선고되었습니다.",
+    "en": "He was acquitted because the evidence was insufficient.",
+    "situation": {
+     "ko": "무죄 사유를 설명할 때",
+     "en": "Explaining an acquittal"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "彼は判決に控訴しました。",
+    "read": "かれははんけつにこうそしました。",
+    "ko": "그는 판결에 불복해 항소했습니다.",
+    "en": "He appealed against the verdict.",
+    "situation": {
+     "ko": "항소를 말할 때",
+     "en": "Mentioning an appeal"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "裁判所は原判決を支持しました。",
+    "read": "さいばんしょはげんはんけつをしじしました。",
+    "ko": "법원은 원심 판결을 유지했습니다.",
+    "en": "The court upheld the original ruling.",
+    "situation": {
+     "ko": "항소 결과를 말할 때",
+     "en": "Reporting an appeal result"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "その刑は軽すぎると批判されています。",
+    "read": "そのけいはかるすぎるとひはんされています。",
+    "ko": "형량이 지나치게 가볍다는 비판이 있습니다.",
+    "en": "The sentence has been criticised as too lenient.",
+    "situation": {
+     "ko": "형량을 평가할 때",
+     "en": "Evaluating a sentence"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "公正な裁判は法の支配の中心です。",
+    "read": "こうせいなさいばんはほうのしはいのちゅうしんです。",
+    "ko": "공정한 재판은 법치의 핵심입니다.",
+    "en": "A fair trial is at the heart of the rule of law.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜の罪で有罪となる。",
+    "read": "〜のつみでゆうざいとなる。",
+    "ko": "~죄로 유죄를 선고받다.",
+    "en": "be convicted of ..."
+   },
+   {
+    "id": "w2",
+    "t": "罪を認める。",
+    "read": "つみをみとめる。",
+    "ko": "유죄를 인정하다.",
+    "en": "plead guilty (to ...)"
+   },
+   {
+    "id": "w3",
+    "t": "合理的な疑いを超えて〜。",
+    "read": "ごうりてきなうたがいをこえて〜。",
+    "ko": "합리적 의심의 여지 없이.",
+    "en": "beyond reasonable doubt"
+   },
+   {
+    "id": "w4",
+    "t": "判決を支持する。",
+    "read": "はんけつをしじする。",
+    "ko": "판결을 유지하다.",
+    "en": "uphold a ruling"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가상의 재판 사건을 사건·증거·판결·항소 순으로 4문장으로 써 보세요.",
+    "en": "Write four sentences on an imaginary court case: the charge, evidence, verdict, appeal."
+   },
+   "must_include": [
+    {
+     "label": "罪",
+     "match": [
+      "罪"
+     ]
+    },
+    {
+     "label": "証拠",
+     "match": [
+      "証拠"
+     ]
+    },
+    {
+     "label": "控訴",
+     "match": [
+      "控訴"
+     ]
+    }
+   ],
+   "model": "被告は詐欺の罪に問われましたが、罪を認めませんでした。検察は、合理的な疑いを超えて証拠を示しました。裁判所は彼を有罪とし、懲役三年を言い渡しました。彼は控訴しましたが、控訴審は原判決を支持しました。",
+   "model_trans": {
+    "ko": "피고인은 사기 혐의로 기소되었으나 유죄를 인정하지 않았습니다. 검찰은 합리적 의심의 여지 없는 증거를 제시했습니다. 법원은 그에게 유죄를 선고하고 징역 3년을 선고했습니다. 피고인은 항소했지만 항소 법원은 원심을 유지했습니다.",
+    "en": "The defendant was charged with fraud but did not plead guilty. The prosecution presented evidence beyond reasonable doubt. The court convicted him and sentenced him to three years in prison. He appealed, but the appeal court upheld the original ruling."
+   }
+  }
+ }
+}

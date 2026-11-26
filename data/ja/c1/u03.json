@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u03",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 3,
+  "concept": "C1.U03",
+  "status": "live",
+  "title": {
+   "target": "強調の倒置的表現",
+   "ko": "부정어 도치 심화",
+   "en": "Advanced inversion"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "めったに〜ない",
+   "pos": "adv",
+   "read": "めったに〜ない",
+   "ko": "좀처럼 ~하지 않는",
+   "en": "seldom",
+   "ex": {
+    "t": "彼はめったに文句を言いません。",
+    "read": "かれはめったにもんくをいいません。",
+    "ko": "그는 좀처럼 불평하지 않아요.",
+    "en": "Seldom does he complain."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜やいなや",
+   "pos": "adv",
+   "read": "〜やいなや",
+   "ko": "~하자마자",
+   "en": "no sooner",
+   "ex": {
+    "t": "着くやいなや、雨が降り出しました。",
+    "read": "つくやいなや、あめがおりだしました。",
+    "ko": "도착하자마자 비가 내리기 시작했어요.",
+    "en": "No sooner had we arrived than it began to rain."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "決して〜ない",
+   "pos": "phrase",
+   "read": "けっして〜ない",
+   "ko": "결코 ~않다",
+   "en": "under no circumstances",
+   "ex": {
+    "t": "決してこのドアを開けてはいけません。",
+    "read": "けっしてこのドアをあけてはいけません。",
+    "ko": "어떤 경우에도 문을 열어서는 안 돼요.",
+    "en": "Under no circumstances should the door be opened."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "目覚ましい",
+   "pos": "adj",
+   "read": "めざましい",
+   "ko": "놀라운",
+   "en": "remarkable",
+   "ex": {
+    "t": "彼の回復は目覚ましいものでした。",
+    "read": "かれのかいふくはめざましいものでした。",
+    "ko": "그의 회복은 놀라웠어요.",
+    "en": "His recovery was remarkable."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "成し遂げる",
+   "pos": "verb",
+   "read": "なしとげる",
+   "ko": "성취하다",
+   "en": "accomplish",
+   "ex": {
+    "t": "彼女は不可能に思えたことを成し遂げました。",
+    "read": "かのじょはふかのうにおもえたことをなしとげました。",
+    "ko": "그녀는 불가능해 보이던 일을 해냈어요.",
+    "en": "She accomplished what seemed impossible."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "〜ばかりか",
+   "pos": "phrase",
+   "read": "〜ばかりか",
+   "ko": "~뿐만 아니라",
+   "en": "not only",
+   "ex": {
+    "t": "彼は賢いばかりか、親切でもあります。",
+    "read": "かれはかしこいばかりか、しんせつでもあります。",
+    "ko": "그는 똑똑할 뿐만 아니라 친절해요.",
+    "en": "Not only is he clever, but he is also kind."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "〜たとたん",
+   "pos": "adv",
+   "read": "〜たとたん",
+   "ko": "거의 ~않다",
+   "en": "hardly",
+   "ex": {
+    "t": "始めたとたんに停電になりました。",
+    "read": "はじめたとたんにていでんになりました。",
+    "ko": "거의 시작하자마자 정전이 되었어요.",
+    "en": "Hardly had we started when the power failed."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "〜てはじめて",
+   "pos": "phrase",
+   "read": "〜てはじめて",
+   "ko": "그제서야",
+   "en": "only then",
+   "ex": {
+    "t": "説明されてはじめて状況がわかりました。",
+    "read": "せつめいされてはじめてじょうきょうがわかりました。",
+    "ko": "그제서야 나는 상황을 이해했어요.",
+    "en": "Only then did I understand the situation."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "例外なく",
+   "pos": "phrase",
+   "read": "れいがいなく",
+   "ko": "예외 없이",
+   "en": "without exception",
+   "ex": {
+    "t": "学生は例外なく出席しなければなりません。",
+    "read": "がくせいはれいがいなくしゅっせきしなければなりません。",
+    "ko": "예외 없이 모든 학생이 참석해야 해요.",
+    "en": "All students must attend without exception."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "強調する",
+   "pos": "verb",
+   "read": "きょうちょうする",
+   "ko": "강조하다",
+   "en": "emphasise",
+   "ex": {
+    "t": "彼女はこの点を強調しました。",
+    "read": "かのじょはこのてんをきょうちょうしました。",
+    "ko": "그녀는 이 점을 강조했어요.",
+    "en": "She emphasised this point."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜たことがない／〜ばかりか／〜やいなや／〜てはじめて",
+   "en": "Emphatic patterns: 〜たことがない / 〜ばかりか / 〜やいなや / 〜てはじめて"
+  },
+  "explain": {
+   "ko": "日本語で強調するときは、文型を使います。経験の否定は「〜たことがない」：「こんなに美しい所は見たことがありません。」直後の出来事は「〜やいなや／〜たとたん」：「着くやいなや雨が降りました。」追加は「〜ばかりか〜も」、遅い気づきは「〜てはじめて」：「失敗してはじめて理解しました。」禁止の強調は「決して〜てはいけません」です。",
+   "en": "Japanese gets emphasis through set patterns. Never experienced: 「〜たことがない」: 「こんなに美しい所は見たことがありません。」 Immediately after: 「〜やいなや／〜たとたん」. Addition: 「〜ばかりか〜も」. Late realisation: 「〜てはじめて」. Strong prohibition: 「決して〜てはいけません」."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "未経験 / Never",
+     "〜たことがない",
+     "こんな所は見たことがない。"
+    ],
+    [
+     "直後 / As soon as",
+     "〜やいなや／〜たとたん",
+     "着くやいなや雨が降った。"
+    ],
+    [
+     "追加 / Not only",
+     "〜ばかりか〜も",
+     "賢いばかりか親切だ。"
+    ],
+    [
+     "気づき / Only then",
+     "〜てはじめて",
+     "失敗してはじめてわかった。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜やいなや」は書き言葉的で、改まった話し方にも合います。",
+    "en": "「〜やいなや」 is literary and suits formal speech."
+   },
+   {
+    "ko": "「〜ばかりか」の後には、さらに強い内容が続きます。",
+    "en": "After 「〜ばかりか」 comes something even stronger."
+   },
+   {
+    "ko": "「決して」は必ず否定の表現と一緒に使います。",
+    "en": "「決して」 always goes with a negative."
+   }
+  ],
+  "examples": [
+   {
+    "t": "こんなに美しい所は見たことがありません。",
+    "read": "こんなにうつくしいところはみたことがありません。",
+    "ko": "그렇게 아름다운 곳은 본 적이 없어요.",
+    "en": "Never have I seen such a beautiful place."
+   },
+   {
+    "t": "着くやいなや、雨が降り出しました。",
+    "read": "つくやいなや、あめがおりだしました。",
+    "ko": "도착하자마자 비가 내리기 시작했어요.",
+    "en": "No sooner had we arrived than it began to rain."
+   },
+   {
+    "t": "彼は賢いばかりか、親切でもあります。",
+    "read": "かれはかしこいばかりか、しんせつでもあります。",
+    "ko": "그는 똑똑할 뿐만 아니라 친절하기도 해요.",
+    "en": "Not only is he clever, but he is also kind."
+   },
+   {
+    "t": "このドアは決して開けてはいけません。",
+    "read": "このドアはけっしてあけてはいけません。",
+    "ko": "어떤 경우에도 이 문을 열면 안 됩니다.",
+    "en": "Under no circumstances should this door be opened."
+   },
+   {
+    "t": "期限が過ぎてはじめて、彼は間違いに気づきました。",
+    "read": "きげんがすぎてはじめて、かれはあいだちがいにきづきました。",
+    "ko": "마감일이 지나서야 그는 실수를 깨달았어요.",
+    "en": "Only after the deadline had passed did he realise his mistake."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "こんなに美しい所は見た___がありません。",
+    "options": [
+     "こと",
+     "もの",
+     "はず"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "着く___、雨が降り出しました。",
+    "options": [
+     "やいなや",
+     "ながら",
+     "ように"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "彼は賢い___、親切でもあります。",
+    "options": [
+     "ばかりか",
+     "くせに",
+     "ところ"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "失敗し___はじめて理解しました。",
+    "options": [
+     "て",
+     "た",
+     "に"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "こんなに美しい所を見たことがありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그렇게 아름다운 곳을 본 적이 있나요?",
+     "en": "(Question) Have you ever seen such a beautiful place?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "こんな所は見たことがありません。",
+       "来週の月曜日です。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "着いたとき、何が起こりましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 도착하자마자 무슨 일이 있었나요?",
+     "en": "(Question) What happened as soon as you arrived?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "着くやいなや雨が降り出しました。",
+       "三階に住んでいます。",
+       "明日行きます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日のコンサートはどうだった？"
+      },
+      {
+       "s": "B",
+       "t": "すばらしかった。あんなに見事な演奏は聞いたことがないよ。"
+      },
+      {
+       "s": "A",
+       "t": "着いてすぐ始まったの？"
+      },
+      {
+       "s": "B",
+       "t": "ううん、座るやいなや、電気が消えたんだ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 콘서트 어땠어?\nB: 정말 최고였어. 그렇게 훌륭한 공연은 처음 봤어.\nA: 도착하자마자 시작했어?\nB: 아니, 우리가 자리에 앉자마자 불이 꺼졌어.",
+     "en": "A: How was the concert yesterday?\nB: Fantastic. Never have I seen such a brilliant performance.\nA: Did it start as soon as you arrived?\nB: No, no sooner had we sat down than the lights went out."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "座ったとき、何が起こりましたか。",
+      "options": [
+       "電気が消えた",
+       "演奏が始まった",
+       "雨が降った"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "このプロジェクトで私たちのチームは目覚ましい成果を上げました。予定どおりに終わったばかりか、費用も節約できました。こんな結果はめったにありません。チームのみなさん、ありがとうございました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 팀은 이번 프로젝트에서 놀라운 성과를 냈습니다. 일정을 맞췄을 뿐만 아니라 예산도 절약했습니다. 좀처럼 이런 결과를 보기 어렵습니다. 팀원 모두에게 감사드립니다.",
+     "en": "Our team achieved remarkable results in this project. Not only did we meet the schedule, but we also saved money. Rarely do we see such results. Thank you to everyone on the team."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "チームはどんな成果を上げましたか。",
+      "options": [
+       "予定どおり終わり、費用も節約した",
+       "予定より遅れた",
+       "費用が増えた"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "博物館のルールです。"
+      },
+      {
+       "s": "B",
+       "t": "写真を撮ってもいいですか。"
+      },
+      {
+       "s": "A",
+       "t": "展示室ではフラッシュは決して使わないでください。"
+      },
+      {
+       "s": "B",
+       "t": "わかりました。携帯電話はいいですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안내원: 박물관 규칙입니다.\n손님: 사진을 찍어도 되나요?\n안내원: 전시실에서는 어떤 경우에도 플래시를 사용하시면 안 됩니다.\n손님: 알겠습니다. 휴대전화는 괜찮나요?",
+     "en": "Guide: These are the museum rules.\nVisitor: May I take photos?\nGuide: Under no circumstances may you use a flash in the galleries.\nVisitor: Understood. Is a phone fine?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "展示室では______は決して使わないでください",
+      "answers": [
+       "フラッシュ"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "見学者は______はいいかと聞きます",
+      "answers": [
+       "携帯電話"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) こんなに美しい所は見た___がありません。\n2) 着く___、雨が降り出しました。\n3) 彼は賢い___、親切でもあります。",
+    "trans": {
+     "ko": "1) 그렇게 아름다운 곳은 본 적이 없어요. 2) 도착하자마자 비가 내리기 시작했어요. 3) 그는 똑똑할 뿐만 아니라 친절해요.",
+     "en": "1) Never have I seen such a beautiful place. 2) No sooner had we arrived than it began to rain. 3) Not only is he clever, but he is also kind."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "こんなに美しい所は見た___がありません。",
+      "options": [
+       "こと",
+       "もの",
+       "はず"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "着く___、雨が降り出しました。",
+      "options": [
+       "やいなや",
+       "ながら",
+       "ように"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼は賢い___、親切でもあります。",
+      "options": [
+       "ばかりか",
+       "くせに",
+       "ところ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "その町では雪がめったに(1)。この冬、思いがけない大雪が降りました。雪が積もるやいなや交通が(2)、住民は(3)状況の深刻さを理解しました。",
+    "trans": {
+     "ko": "그 도시는 좀처럼 눈이 오지 않는 곳입니다. 올겨울에는 어떤 경우에도 예상하지 못한 폭설이 내렸습니다. 눈이 쌓이자마자 교통이 마비되었고, 그제서야 시민들은 사태의 심각성을 깨달았습니다.",
+     "en": "The city is a place where snow seldom falls. This winter, an unexpected heavy snowfall hit. No sooner had the snow settled than traffic was paralysed, and only then did residents grasp how serious the situation was."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "降りません",
+       "降ります",
+       "降りました"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "止まり",
+       "増え",
+       "良くなり"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "そのときはじめて",
+       "すぐに",
+       "もう"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ブログ\n初めてのマラソン\nゴールを越えるやいなや、私は泣き出しました。こんなに苦しいレースは走ったことがありませんでした。体が痛いばかりか、気持ちも揺れました。でも最後まで走り切ったことを誇りに思います。",
+    "trans": {
+     "ko": "블로그\n나의 첫 마라톤\n나는 결승선을 통과하자마자 눈물이 났다. 그렇게 힘든 경주는 처음이었다. 몸이 아팠을 뿐만 아니라 마음도 흔들렸다. 그러나 끝까지 달려낸 것이 자랑스럽다.",
+     "en": "BLOG\nMy first marathon\nNo sooner had I crossed the finish line than I burst into tears. Never had I run such a hard race. Not only did my body ache, but my mind wavered. But I am proud that I ran to the end."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ゴールしたとき、筆者はどうしましたか。",
+      "options": [
+       "泣き出した",
+       "笑った",
+       "眠った"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "筆者は何を誇りに思っていますか。",
+      "options": [
+       "最後まで走り切ったこと",
+       "一番になったこと",
+       "早く走ったこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "エミリーさんは初めてマラソンを走りました。ゴールの直前であきらめました。この文章は個人のブログに載っています。",
+    "trans": {
+     "ko": "에밀리는 처음으로 마라톤을 뛰었다. 그녀는 결승선 앞에서 포기했다. 이 글은 개인 블로그에 올라와 있다.",
+     "en": "Emily ran her first marathon. She gave up just before the finish line. This text is posted on a personal blog."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "エミリーさんは初めてマラソンを走った。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "エミリーさんはゴールの直前であきらめた。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "エミリーさんは来年も走る予定だ。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "こんなに難しい試験を受けたことがありません。",
+    "read": "こんなにむずかしいしけんをうけたことがありません。",
+    "ko": "저는 그렇게 어려운 시험을 본 적이 없어요.",
+    "en": "Never have I taken such a difficult exam.",
+    "situation": {
+     "ko": "경험을 강조할 때",
+     "en": "Emphasising an experience"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "出かけるやいなや、雪が降り出しました。",
+    "read": "でかけるやいなや、ゆきがおりだしました。",
+    "ko": "우리가 나가자마자 눈이 오기 시작했어요.",
+    "en": "No sooner had we left than it started to snow.",
+    "situation": {
+     "ko": "연속된 두 사건을 말할 때",
+     "en": "Two events in quick succession"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "彼は謝らなかったばかりか、責任も否定しました。",
+    "read": "かれはあやまらなかったばかりか、せきにんもひていしました。",
+    "ko": "그는 사과하지 않았을 뿐만 아니라 책임도 부인했어요.",
+    "en": "Not only did he not apologise, but he also denied responsibility.",
+    "situation": {
+     "ko": "의외의 사실을 덧붙일 때",
+     "en": "Adding a surprising fact"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "そんなことはめったに起こりません。",
+    "read": "そんなことはめったにおこりません。",
+    "ko": "그런 일은 좀처럼 일어나지 않아요.",
+    "en": "Rarely does such a thing happen.",
+    "situation": {
+     "ko": "드문 일을 말할 때",
+     "en": "Describing something rare"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "パスワードは決して教えてはいけません。",
+    "read": "パスワードはけっしておしえてはいけません。",
+    "ko": "어떤 이유로도 비밀번호를 알려 주면 안 돼요.",
+    "en": "On no account must you give out your password.",
+    "situation": {
+     "ko": "금지를 강하게 말할 때",
+     "en": "A strong prohibition"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "そのときはじめて、自分がどれほど間違っていたかわかりました。",
+    "read": "そのときはじめて、じぶんがどれほどあいだちがっていたかわかりました。",
+    "ko": "그제서야 나는 내가 얼마나 틀렸는지 깨달았어요.",
+    "en": "Only then did I realise how wrong I had been.",
+    "situation": {
+     "ko": "깨달음을 말할 때",
+     "en": "Describing a realisation"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "こんなに心に響くスピーチは聞いたことがありません。",
+    "read": "こんなにこころにひびくスピーチはきいたことがありません。",
+    "ko": "그렇게 훌륭한 연설은 처음 들었어요.",
+    "en": "Seldom have I heard such an inspiring speech.",
+    "situation": {
+     "ko": "감탄을 표현할 때",
+     "en": "Expressing admiration"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "この点はいくら強調しても足りません。",
+    "read": "このてんはいくらきょうちょうしてもたりません。",
+    "ko": "이 점은 아무리 강조해도 지나치지 않아요.",
+    "en": "This point cannot be emphasised enough.",
+    "situation": {
+     "ko": "결론에서 강조할 때",
+     "en": "Emphasising a conclusion"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜たことがありません。",
+    "read": "〜たことがありません。",
+    "ko": "~한 적이 없다 (Never have I ~).",
+    "en": "Never have I ~."
+   },
+   {
+    "id": "w2",
+    "t": "〜やいなや、〜。",
+    "read": "〜やいなや、〜。",
+    "ko": "~하자마자 ~했다.",
+    "en": "No sooner had ~ than ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜ばかりか、〜も。",
+    "read": "〜ばかりか、〜も。",
+    "ko": "~뿐만 아니라 ~도.",
+    "en": "Not only did/is ~, but ... also ..."
+   },
+   {
+    "id": "w4",
+    "t": "〜てはじめて、〜。",
+    "read": "〜てはじめて、〜。",
+    "ko": "~해서야 비로소 ~했다.",
+    "en": "Only when/after ~ did ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "부정어 도치를 사용해 인상 깊었던 경험이나 놀라운 사건을 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about a striking experience or surprising event using negative inversion."
+   },
+   "must_include": [
+    {
+     "label": "見たことがありません",
+     "match": [
+      "見たことがありません"
+     ]
+    },
+    {
+     "label": "やいなや",
+     "match": [
+      "やいなや"
+     ]
+    },
+    {
+     "label": "ばかりか",
+     "match": [
+      "ばかりか"
+     ]
+    }
+   ],
+   "model": "こんなに美しい日の出は見たことがありません。山頂に着くやいなや、雲が晴れ始めました。景色がすばらしいばかりか、空気も驚くほど澄んでいました。そのときはじめて、厳しい登山が報われたと感じました。",
+   "model_trans": {
+    "ko": "그렇게 아름다운 일출은 본 적이 없었어요. 정상에 도착하자마자 구름이 걷히기 시작했어요. 풍경이 아름다웠을 뿐만 아니라 공기도 아주 맑았어요. 그제서야 오르기 힘들었던 시간이 보상받는 느낌이었어요.",
+    "en": "Never had I seen such a beautiful sunrise. No sooner had we reached the summit than the clouds began to clear. Not only was the view stunning, but the air was also remarkably clear. Only then did the hard climb feel rewarded."
+   }
+  }
+ }
+}

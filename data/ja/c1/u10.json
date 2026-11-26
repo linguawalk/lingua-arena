@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u10",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 10,
+  "concept": "C1.U10",
+  "status": "live",
+  "title": {
+   "target": "長い名詞句の組み立て",
+   "ko": "복합 명사구와 전치 수식",
+   "en": "Complex noun phrases"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "戦略",
+   "pos": "noun",
+   "read": "せんりゃく",
+   "ko": "전략",
+   "en": "strategy",
+   "ex": {
+    "t": "新しいマーケティング戦略が必要です。",
+    "read": "あたらしいマーケティングせんりゃくがひつようです。",
+    "ko": "새로운 마케팅 전략이 필요해요.",
+    "en": "A new marketing strategy is needed."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "取り組み方",
+   "pos": "noun",
+   "read": "とりくみほう",
+   "ko": "접근법",
+   "en": "approach",
+   "ex": {
+    "t": "この問題には違う取り組み方が必要です。",
+    "read": "このもんだいにはちがうとりくみほうがひつようです。",
+    "ko": "이 문제에는 다른 접근법이 필요해요.",
+    "en": "This problem needs a different approach."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "要因",
+   "pos": "noun",
+   "read": "よういん",
+   "ko": "요인",
+   "en": "factor",
+   "ex": {
+    "t": "いくつかの要因が結果に影響しました。",
+    "read": "いくつかのよういんがけっかにえいきょうしました。",
+    "ko": "여러 요인이 결과에 영향을 미쳤어요.",
+    "en": "Several factors influenced the result."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "政策担当者",
+   "pos": "noun",
+   "read": "せいさくたんとうしゃ",
+   "ko": "정책 입안자",
+   "en": "policymaker",
+   "ex": {
+    "t": "政策担当者はこの問題を認識しています。",
+    "read": "せいさくたんとうしゃはこのもんだいをにんしきしています。",
+    "ko": "정책 입안자들은 이 문제를 알고 있어요.",
+    "en": "Policymakers are aware of this issue."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "拡大する",
+   "pos": "verb",
+   "read": "かくだいする",
+   "ko": "확대하다",
+   "en": "expand",
+   "ex": {
+    "t": "会社は海外市場に拡大しました。",
+    "read": "かいしゃはかいがいしじょうにかくだいしました。",
+    "ko": "회사는 해외 시장으로 사업을 확대했어요.",
+    "en": "The company expanded into overseas markets."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "長期的な",
+   "pos": "adj",
+   "read": "ちょうきてきな",
+   "ko": "장기적인",
+   "en": "long-term",
+   "ex": {
+    "t": "長期的な計画が必要です。",
+    "read": "ちょうきてきなけいかくがひつようです。",
+    "ko": "장기적인 계획이 필요해요.",
+    "en": "A long-term plan is needed."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "被害を受けた",
+   "pos": "adj",
+   "read": "ひがいをうけた",
+   "ko": "영향을 받은",
+   "en": "affected",
+   "ex": {
+    "t": "被害を受けた地域は回復しつつあります。",
+    "read": "ひがいをうけたちいきはかいふくしつつあります。",
+    "ko": "영향을 받은 지역은 복구 중이에요.",
+    "en": "The affected areas are recovering."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "複雑な",
+   "pos": "adj",
+   "read": "ふくざつな",
+   "ko": "복잡한",
+   "en": "complex",
+   "ex": {
+    "t": "複雑な問題には単純な答えがありません。",
+    "read": "ふくざつなもんだいにはたんじゅんなこたえがありません。",
+    "ko": "복잡한 문제에는 단순한 해답이 없어요.",
+    "en": "Complex problems have no simple answers."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "体系的な",
+   "pos": "adj",
+   "read": "たいけいてきな",
+   "ko": "체계적인",
+   "en": "systematic",
+   "ex": {
+    "t": "体系的な分析が必要です。",
+    "read": "たいけいてきなぶんせきがひつようです。",
+    "ko": "체계적인 분석이 필요해요.",
+    "en": "Systematic analysis is required."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "枠組み",
+   "pos": "noun",
+   "read": "わくぐみ",
+   "ko": "틀",
+   "en": "framework",
+   "ex": {
+    "t": "この枠組みは多くの分野に応用できます。",
+    "read": "このわくぐみはおおくのぶんやにおうようできます。",
+    "ko": "이 틀은 여러 분야에 적용될 수 있어요.",
+    "en": "This framework can be applied to many fields."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "連体修飾（〜する＋名詞）／名詞＋の＋名詞／〜に関する",
+   "en": "Complex noun phrases: relative modifiers / noun + の + noun / 〜に関する"
+  },
+  "explain": {
+   "ko": "日本語は修飾語が名詞の前に来ます。連体修飾は「政府が最近発表した新しい環境政策」のように、動詞の普通形で名詞を詳しくします。名詞を重ねるときは「名詞＋の＋名詞」：「都市の住宅価格の上昇」。「〜に関する」「〜への影響」などで関係を表します：「気候変動が農業に及ぼす影響」。長くなりすぎないよう、順序に気をつけましょう。",
+   "en": "Japanese puts modifiers before the noun. A relative modifier uses the plain verb form: 「政府が最近発表した新しい環境政策」. Stack nouns with 「名詞＋の＋名詞」: 「都市の住宅価格の上昇」. Relations are expressed with 「〜に関する」「〜への影響」: 「気候変動が農業に及ぼす影響」. Mind the order so phrases stay readable."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "連体修飾 / Relative",
+     "動詞（普通形）＋名詞",
+     "政府が最近発表した政策"
+    ],
+    [
+     "名詞連結 / Noun chain",
+     "名詞＋の＋名詞",
+     "都市の住宅価格の上昇"
+    ],
+    [
+     "関連 / About",
+     "〜に関する＋名詞",
+     "環境に関する報告"
+    ],
+    [
+     "影響 / Influence",
+     "〜が〜に及ぼす影響",
+     "気候変動が農業に及ぼす影響"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "修飾が長いときは、読点で区切ると読みやすくなります。",
+    "en": "Use a comma to break long modifiers."
+   },
+   {
+    "ko": "「の」を三回以上つなげると読みにくくなるので気をつけましょう。",
+    "en": "Chains of three or more 「の」 become hard to read."
+   },
+   {
+    "ko": "名詞の前の修飾は、時制を普通形で表します。",
+    "en": "A prenominal clause uses the plain form for tense."
+   }
+  ],
+  "examples": [
+   {
+    "t": "政府が最近発表した新しい環境政策は、議論を呼んでいます。",
+    "read": "せいふがさいきんはっぴょうしたあたらしいかんきょうせいさくは、ぎろんをよんでいます。",
+    "ko": "정부가 최근 발표한 새로운 환경 정책이 논란이 되고 있어요.",
+    "en": "The new environmental policy recently announced by the government is controversial."
+   },
+   {
+    "t": "いくつかの要因が複合的に働いていました。",
+    "read": "いくつかのよういんがふくごうてきにはたらいていました。",
+    "ko": "여러 요인이 복합적으로 작용했어요.",
+    "en": "A combination of several factors was at work."
+   },
+   {
+    "t": "都市の再開発事業は、住民の反発を受けました。",
+    "read": "としのさいかいはつじぎょうは、じゅうみんのはんぱつをうけました。",
+    "ko": "도시 재개발 사업은 주민의 반발을 샀어요.",
+    "en": "The urban redevelopment project met with resistance from residents."
+   },
+   {
+    "t": "この研究は、子どもの健康改善プログラムの効果を調べました。",
+    "read": "このけんきゅうは、こどものけんこうかいぜんプログラムのこうかをしらべました。",
+    "ko": "이 연구는 어린이 건강 증진 프로그램의 효과를 조사했어요.",
+    "en": "This study examined the effectiveness of child health improvement programmes."
+   },
+   {
+    "t": "体系的な分析を可能にする枠組みが必要です。",
+    "read": "たいけいてきなぶんせきをかのうにするわくぐみがひつようです。",
+    "ko": "체계적인 분석이 가능한 틀이 필요해요.",
+    "en": "A framework that allows systematic analysis is needed."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "政府が最近___新しい政策は、議論を呼んでいます。",
+    "options": [
+     "発表した",
+     "発表して",
+     "発表する"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "都市の住宅価格の___は深刻な問題です。",
+    "options": [
+     "上昇",
+     "上昇する",
+     "上昇した"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "被害を___地域の住民は補償を求めています。",
+    "options": [
+     "受けた",
+     "受けて",
+     "受ける"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "気候変動が農業に___影響",
+    "options": [
+     "及ぼす",
+     "及ぼし",
+     "及ぼして"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新しい政策についてどう思いますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 새로운 정책에 대해 어떻게 생각하세요?",
+     "en": "(Question) What do you think of the new policy?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "政府が最近発表した政策は議論を呼んでいます。",
+       "来週の月曜日です。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "都市の住宅価格の上昇はなぜ問題なのですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 도시 주택 가격 상승이 왜 문제인가요?",
+     "en": "(Question) Why is the rise in urban housing prices a problem?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "若い世代の大きな負担になるからです。",
+       "家が多すぎるからです。",
+       "価格が下がったからです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この報告書の主な内容は何？"
+      },
+      {
+       "s": "B",
+       "t": "気候変動が農業の生産性に及ぼす影響についてだよ。"
+      },
+      {
+       "s": "A",
+       "t": "解決策は出ている？"
+      },
+      {
+       "s": "B",
+       "t": "うん、長期的で体系的な取り組みを提案している。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이번 보고서의 핵심이 뭐야?\nB: 기후 변화가 농업 생산성에 미치는 영향이야.\nA: 해결책도 제시했어?\nB: 응, 장기적이고 체계적인 접근법을 제안했어.",
+     "en": "A: What is the main point of this report?\nB: The impact of climate change on agricultural productivity.\nA: Does it offer a solution?\nB: Yes, it proposes a long-term, systematic approach."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "報告書は何を提案していますか。",
+      "options": [
+       "長期的で体系的な取り組み",
+       "短期的な対策",
+       "調査の中止"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "政府が最近発表した都市再開発計画について、住民説明会が開かれました。被害を受けた地域の住民は補償の問題を提起しました。政府はすべての関係者が参加する協議の枠組みを設けると述べました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "정부가 최근 발표한 도시 재개발 계획에 대한 주민 설명회가 열렸습니다. 영향을 받은 지역의 주민들은 보상 문제를 제기했습니다. 정부는 이해관계자 모두가 참여하는 협의 틀을 마련하겠다고 밝혔습니다.",
+     "en": "A public meeting was held on the urban redevelopment plan recently announced by the government. Residents of the affected areas raised the issue of compensation. The government said it will set up a consultation framework involving all stakeholders."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "住民は何を提起しましたか。",
+      "options": [
+       "補償の問題",
+       "騒音の問題",
+       "交通の問題"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この研究の中心は何ですか。"
+      },
+      {
+       "s": "B",
+       "t": "子どもの健康改善プログラムの効果を調べました。"
+      },
+      {
+       "s": "A",
+       "t": "結果はどうでしたか。"
+      },
+      {
+       "s": "B",
+       "t": "参加した子どもの健康は目に見えて改善しました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 이번 연구의 요점은 무엇입니까?\n연구자: 어린이 건강 증진 프로그램의 효과를 조사했습니다.\n기자: 결과는요?\n연구자: 프로그램 참여 어린이의 건강 상태가 뚜렷이 개선되었습니다.",
+     "en": "Reporter: What is the main point of the study?\nResearcher: It examined the effectiveness of child health improvement programmes.\nReporter: What were the results?\nResearcher: The health of participating children improved markedly."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "研究は子どもの______改善プログラムの効果を調べました",
+      "answers": [
+       "健康"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "参加した子どもの健康は目に見えて______しました",
+      "answers": [
+       "改善"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 政府が最近___新しい政策は、議論を呼んでいます。\n2) 都市の住宅価格の___は深刻な問題です。\n3) 被害を___地域の住民は補償を求めています。",
+    "trans": {
+     "ko": "1) 정부가 최근 발표한 새로운 정책이 논란이 되고 있어요. 2) 도시 지역의 주택 가격 상승은 심각한 문제예요. 3) 영향을 받은 지역의 주민들은 보상을 요구하고 있어요.",
+     "en": "1) The new policy recently announced by the government is controversial. 2) The rise in urban housing prices is a serious problem. 3) Residents of the affected areas are demanding compensation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "政府が最近___新しい政策は、議論を呼んでいます。",
+      "options": [
+       "発表した",
+       "発表して",
+       "発表する"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "都市の住宅価格の___は深刻な問題です。",
+      "options": [
+       "上昇",
+       "上昇する",
+       "上昇した"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "被害を___地域の住民は補償を求めています。",
+      "options": [
+       "受けた",
+       "受けて",
+       "受ける"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "この報告書は、都市の大気汚染の主な(1)を分析しました。交通量の増加と産業活動が主な要因として(2)されました。著者らは、政策担当者が長期的な(3)を立てるよう勧めています。",
+    "trans": {
+     "ko": "이 보고서는 도시 대기 오염의 주요 원인을 분석했습니다. 교통량의 증가와 산업 활동이 주요 요인으로 지적되었습니다. 저자들은 정책 입안자들이 장기적인 계획을 세워야 한다고 권고했습니다.",
+     "en": "This report analysed the main causes of urban air pollution. An increase in traffic and industrial activity were identified as key factors. The authors recommended that policymakers draw up a long-term plan."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "原因",
+       "結果",
+       "解決"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "指摘",
+       "禁止",
+       "決定"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "計画",
+       "言い訳",
+       "質問"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "コメント\n都市の住宅問題\n都市の住宅価格の急上昇は、若い世代に重い負担をかけています。政府が最近導入した政策は、短期的な効果にとどまる可能性が高いです。持続可能な解決には、供給の拡大と賃貸制度の改善を含む総合的な取り組みが必要です。",
+    "trans": {
+     "ko": "논평\n도시 주택 문제\n도시 지역의 주택 가격 급등은 젊은 세대에게 심각한 부담이다. 정부가 최근 내놓은 정책은 단기적인 효과만 있을 가능성이 크다. 지속 가능한 해결을 위해서는 공급 확대와 임대 제도 개선을 포함한 종합적 접근이 필요하다.",
+     "en": "COMMENT\nThe urban housing problem\nThe sharp rise in urban housing prices places a serious burden on the younger generation. The policy recently introduced by the government is likely to have only short-term effects. A sustainable solution requires a comprehensive approach including expanded supply and an improved rental system."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "住宅価格の急上昇は誰に負担をかけていますか。",
+      "options": [
+       "若い世代",
+       "高齢者",
+       "建設会社"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "総合的な取り組みに含まれるものは何ですか。",
+      "options": [
+       "供給の拡大と賃貸制度の改善",
+       "金利の引き上げ",
+       "税金の引き下げ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "筆者は住宅価格の上昇が若い世代の負担になると考えています。政府の新しい政策は長期的な効果があると評価されています。筆者は総合的な取り組みが必要だと言っています。",
+    "trans": {
+     "ko": "글쓴이는 주택 가격 상승이 젊은 세대에게 부담이 된다고 본다. 정부의 새 정책은 장기적인 효과가 있다고 평가된다. 글쓴이는 종합적인 접근이 필요하다고 말한다.",
+     "en": "The writer sees rising housing prices as a burden on the young. The government's new policy is judged to have long-term effects. The writer says a comprehensive approach is needed."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "住宅価格の上昇は若い世代の負担になる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "政府の新しい政策は長期的な効果が大きいと評価されている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "筆者は総合的な取り組みが必要だと言っている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "政府が最近発表した新しい政策は議論を呼んでいます。",
+    "read": "せいふがさいきんはっぴょうしたあたらしいせいさくはぎろんをよんでいます。",
+    "ko": "정부가 최근 발표한 새로운 정책이 논란이 되고 있어요.",
+    "en": "The new policy recently announced by the government is controversial.",
+    "situation": {
+     "ko": "정보를 압축해 말할 때",
+     "en": "Compressing information"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "都市の住宅価格の上昇は深刻な問題です。",
+    "read": "としのじゅうたくかかくのじょうしょうはしんこくなもんだいです。",
+    "ko": "도시 지역의 주택 가격 상승은 심각한 문제예요.",
+    "en": "The rise in urban housing prices is a serious problem.",
+    "situation": {
+     "ko": "명사구로 주제를 소개할 때",
+     "en": "Introducing a topic in a noun phrase"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "健康的な生活習慣の改善プログラムが広がっています。",
+    "read": "けんこうてきなせいかつしゅうかんのかいぜんプログラムがひろがっています。",
+    "ko": "건강한 생활 습관 개선 프로그램이 확대되고 있어요.",
+    "en": "Healthy lifestyle improvement programmes are expanding.",
+    "situation": {
+     "ko": "명사 + 명사 구조를 쓸 때",
+     "en": "Using noun + noun structures"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "この問題を解決できる長期的な戦略が必要です。",
+    "read": "このもんだいをかいけつできるちょうきてきなせんりゃくがひつようです。",
+    "ko": "이 문제를 해결할 수 있는 장기적인 전략이 필요해요.",
+    "en": "We need a long-term strategy capable of solving this problem.",
+    "situation": {
+     "ko": "후치수식을 쓸 때",
+     "en": "Using post-modification"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "被害を受けた地域の住民は補償を求めています。",
+    "read": "ひがいをうけたちいきのじゅうみんはほしょうをもとめています。",
+    "ko": "영향을 받은 지역의 주민들은 보상을 요구하고 있어요.",
+    "en": "Residents of the affected areas are demanding compensation.",
+    "situation": {
+     "ko": "과거분사 수식을 쓸 때",
+     "en": "Using a past participle modifier"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "報告書は気候変動が農業生産性に及ぼす影響を分析しました。",
+    "read": "ほうこくしょはきこうへんどうがのうぎょうせいさんせいにおよぼすえいきょうをぶんせきしました。",
+    "ko": "그 보고서는 기후 변화가 농업 생산성에 미치는 영향을 분석했어요.",
+    "en": "The report analysed the impact of climate change on agricultural productivity.",
+    "situation": {
+     "ko": "학술적 명사구",
+     "en": "An academic noun phrase"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "複雑で相互に関連する要因がこの現象を説明します。",
+    "read": "ふくざつでそうごにかんれんするよういんがこのげんしょうをせつめいします。",
+    "ko": "복잡하고 서로 얽힌 요인들이 이 현상을 설명해요.",
+    "en": "Complex and interrelated factors explain this phenomenon.",
+    "situation": {
+     "ko": "형용사를 나열할 때",
+     "en": "Stacking adjectives"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "より体系的な取り組みが政策の効果を高めるでしょう。",
+    "read": "よりたいけいてきなとりくみがせいさくのこうかをたかめるでしょう。",
+    "ko": "더 체계적인 접근법이 정책의 효과를 높일 수 있어요.",
+    "en": "A more systematic approach could improve the policy's effectiveness.",
+    "situation": {
+     "ko": "의견을 압축해 말할 때",
+     "en": "Stating an opinion concisely"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "政府が最近発表した〜。",
+    "read": "せいふがさいきんはっぴょうした〜。",
+    "ko": "최근 ~가 발표한 새로운 ~",
+    "en": "The new ~ recently announced by ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜が〜に及ぼす影響。",
+    "read": "〜が〜におよぼすえいきょう。",
+    "ko": "~가 ~에 미치는 영향",
+    "en": "The impact of ~ on ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜を可能にする長期的な〜。",
+    "read": "〜をかのうにするちょうきてきな〜。",
+    "ko": "~할 수 있는 장기적인 ~",
+    "en": "A long-term ~ capable of ..."
+   },
+   {
+    "id": "w4",
+    "t": "被害を受けた〜の住民。",
+    "read": "ひがいをうけた〜のじゅうみん。",
+    "ko": "영향을 받은 지역의 ~",
+    "en": "Residents of the affected ~"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "복합 명사구를 써서 사회 문제나 정책을 설명하는 4문장을 써 보세요.",
+    "en": "Write 4 sentences describing a social issue or policy using complex noun phrases."
+   },
+   "must_include": [
+    {
+     "label": "最近発表した",
+     "match": [
+      "最近発表した"
+     ]
+    },
+    {
+     "label": "体系的",
+     "match": [
+      "体系的"
+     ]
+    },
+    {
+     "label": "被害を受けた",
+     "match": [
+      "被害を受けた"
+     ]
+    }
+   ],
+   "model": "政府が最近発表した新しい住宅政策は議論を呼んでいます。都市の住宅価格の上昇は、若い世代の生活に重い負担をかけています。長期的な解決には、より体系的な取り組みが必要です。被害を受けた地域の住民も意見を述べられるようにするべきです。",
+   "model_trans": {
+    "ko": "정부가 최근 발표한 새로운 주택 정책은 논란을 일으키고 있습니다. 도시 지역의 주택 가격 상승은 젊은 세대의 생활에 큰 부담을 줍니다. 장기적인 해결을 위해서는 더 체계적인 접근법이 필요합니다. 영향을 받은 지역의 주민들도 의견을 낼 수 있어야 합니다.",
+    "en": "The new housing policy recently announced by the government is causing controversy. The rise in urban housing prices places a heavy burden on the lives of the younger generation. A more systematic approach is needed for a long-term solution. Residents of the affected areas should also be able to voice their opinions."
+   }
+  }
+ }
+}

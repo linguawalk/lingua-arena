@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u26",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 26,
+  "concept": "C1.U26",
+  "status": "live",
+  "title": {
+   "target": "スピーチを書く",
+   "ko": "연설문 쓰기",
+   "en": "Writing speeches"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "聴衆",
+   "pos": "noun",
+   "read": "ちょうしゅう",
+   "ko": "청중",
+   "en": "audience",
+   "ex": {
+    "t": "聴衆は熱心に耳を傾けました。",
+    "read": "ちょうしゅうはねっしんにみみをかたむけました。",
+    "ko": "청중은 연설에 귀를 기울였어요.",
+    "en": "The audience listened intently."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "式辞",
+   "pos": "noun",
+   "read": "しきじ",
+   "ko": "연설",
+   "en": "address",
+   "ex": {
+    "t": "大統領の式辞は感動的でした。",
+    "read": "だいとうりょうのしきじはかんどうてきでした。",
+    "ko": "총장의 연설이 감동적이었어요.",
+    "en": "The president's address was moving."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "奮い立たせる",
+   "pos": "verb",
+   "read": "ふんいたたせる",
+   "ko": "영감을 주다",
+   "en": "inspire",
+   "ex": {
+    "t": "彼の話は多くの人を奮い立たせました。",
+    "read": "かれのはなしはおおくのひとをふんいたたせました。",
+    "ko": "그의 이야기는 많은 사람에게 영감을 줬어요.",
+    "en": "His story inspired many people."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "呼びかけ",
+   "pos": "noun",
+   "read": "よびかけ",
+   "ko": "호소",
+   "en": "appeal",
+   "ex": {
+    "t": "彼は団結を呼びかけました。",
+    "read": "かれはだんけつをよびかけました。",
+    "ko": "그는 단합을 호소했어요.",
+    "en": "He made an appeal for unity."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "課題",
+   "pos": "noun",
+   "read": "かだい",
+   "ko": "도전",
+   "en": "challenge",
+   "ex": {
+    "t": "私たちは大きな課題に直面しています。",
+    "read": "わたしたちはおおきなかだいにちょくめんしています。",
+    "ko": "우리는 큰 도전에 직면해 있어요.",
+    "en": "We face a great challenge."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "ともに",
+   "pos": "adv",
+   "read": "ともに",
+   "ko": "함께",
+   "en": "together",
+   "ex": {
+    "t": "ともになら、できます。",
+    "read": "ともになら、できます。",
+    "ko": "우리가 함께라면 해낼 수 있어요.",
+    "en": "Together, we can do it."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "遺産",
+   "pos": "noun",
+   "read": "いさん",
+   "ko": "유산",
+   "en": "legacy",
+   "ex": {
+    "t": "彼はすばらしい遺産を残しました。",
+    "read": "かれはすばらしいいさんをのこしました。",
+    "ko": "그는 뛰어난 유산을 남겼어요.",
+    "en": "He left a remarkable legacy."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "勇気",
+   "pos": "noun",
+   "read": "ゆうき",
+   "ko": "용기",
+   "en": "courage",
+   "ex": {
+    "t": "彼女は勇気ある決断をしました。",
+    "read": "かのじょはゆうきあるけつだんをしました。",
+    "ko": "그녀는 용기 있는 결정을 내렸어요.",
+    "en": "She made a courageous decision."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "転機",
+   "pos": "noun",
+   "read": "てんき",
+   "ko": "전환점",
+   "en": "turning point",
+   "ex": {
+    "t": "この瞬間は転機になるでしょう。",
+    "read": "このしゅんかんはてんきになるでしょう。",
+    "ko": "이 순간이 전환점이 될 거예요.",
+    "en": "This moment will be a turning point."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "最後に",
+   "pos": "adv",
+   "read": "さいごに",
+   "ko": "마지막으로",
+   "en": "finally",
+   "ex": {
+    "t": "最後に、感謝を申し上げます。",
+    "read": "さいごに、かんしゃをもうしあげます。",
+    "ko": "마지막으로 감사의 말씀을 드립니다.",
+    "en": "Finally, I would like to say thank you."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "皆様／〜ではなく〜です／今こそ〜／最後に",
+   "en": "Speeches: 皆様 / 〜ではなく〜です / 今こそ〜 / 最後に"
+  },
+  "explain": {
+   "ko": "スピーチは、聴衆への呼びかけで始めます：「皆様、本日はお集まりいただき、ありがとうございます」。三つの要点を並べると印象に残ります（三部構成）。「誰がやるのか」のような問いかけで聴衆を引き込みます。「これは〜ではなく、〜の問題です」と対比し、「今こそ行動するときです」と呼びかけて、「最後に〜」で結びます。",
+   "en": "A speech opens by addressing the audience: 「皆様、本日はお集まりいただき、ありがとうございます」. Three points stay in memory (rule of three). Questions engage listeners. Contrast: 「これは〜ではなく、〜の問題です」; call to action: 「今こそ行動するときです」; close with 「最後に〜」."
+  },
+  "table": {
+   "head": [
+    "技法 / Device",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "呼びかけ / Address",
+     "皆様、〜",
+     "皆様、本日はありがとうございます。"
+    ],
+    [
+     "三部構成 / Three",
+     "〜、〜、そして〜",
+     "過去、現在、そして未来。"
+    ],
+    [
+     "対比 / Contrast",
+     "〜ではなく、〜です",
+     "勇気と責任の問題です。"
+    ],
+    [
+     "行動 / Action",
+     "今こそ〜",
+     "今こそ行動するときです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "短い文で、はっきりと話します。",
+    "en": "Use short, clear sentences."
+   },
+   {
+    "ko": "問いかけは聴衆を引き込みます。",
+    "en": "Questions pull the audience in."
+   },
+   {
+    "ko": "結びは行動への呼びかけで終えます。",
+    "en": "End with a call to action."
+   }
+  ],
+  "examples": [
+   {
+    "t": "皆様、本日はお集まりいただき、ありがとうございます。",
+    "read": "みなさま、ほんじつはおあつまりいただき、ありがとうございます。",
+    "ko": "신사 숙녀 여러분, 오늘 이 자리에 와 주셔서 감사합니다.",
+    "en": "Ladies and gentlemen, thank you for being here today."
+   },
+   {
+    "t": "私たちは大きな課題に直面していますが、ともに乗り越えられます。",
+    "read": "わたしたちはおおきなかだいにちょくめんしていますが、ともにのりこえられます。",
+    "ko": "우리는 큰 도전에 직면해 있지만 함께라면 해낼 수 있습니다.",
+    "en": "We face a great challenge, but together we can meet it."
+   },
+   {
+    "t": "今行動しなければ、いつ行動するのでしょうか。",
+    "read": "いまこうどうしなければ、いつこうどうするのでしょうか。",
+    "ko": "우리가 지금 행동하지 않으면 누가 하겠습니까?",
+    "en": "If we do not act now, who will?"
+   },
+   {
+    "t": "この瞬間は、私たちの歴史の転機になるでしょう。",
+    "read": "このしゅんかんは、わたしたちのれきしのてんきになるでしょう。",
+    "ko": "이 순간은 우리 역사의 전환점이 될 것입니다.",
+    "en": "This moment will be a turning point in our history."
+   },
+   {
+    "t": "最後に、皆様に心から感謝いたします。",
+    "read": "さいごに、みなさまにこころからかんしゃいたします。",
+    "ko": "마지막으로 모두에게 감사드립니다.",
+    "en": "Finally, I thank you all."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___、本日はお集まりいただき、ありがとうございます。",
+    "options": [
+     "皆様",
+     "彼ら",
+     "私"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "私たちは大きな___に直面しています。",
+    "options": [
+     "課題",
+     "景色",
+     "約束"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "今行動しなければ、いつ行動する___でしょうか。",
+    "options": [
+     "の",
+     "と",
+     "も"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___、皆様に心から感謝いたします。",
+    "options": [
+     "最後に",
+     "最初に",
+     "たとえば"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "スピーチをどのように始めますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 연설을 어떻게 시작하겠습니까?",
+     "en": "(Question) How would you start the speech?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "皆様、お集まりいただき、ありがとうございます。",
+       "来週の月曜日です。",
+       "駅の近くです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どのように聴衆を説得しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 청중을 어떻게 설득하겠습니까?",
+     "en": "(Question) How would you persuade the audience?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "今行動しなければ、いつ行動するのでしょうか。",
+       "何も言いません。",
+       "もう終わりです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "卒業式のスピーチを準備しているんだ。"
+      },
+      {
+       "s": "B",
+       "t": "どう始めるの？"
+      },
+      {
+       "s": "A",
+       "t": "「皆様、ありがとうございます」で始めて、三つのテーマを紹介するつもり。"
+      },
+      {
+       "s": "B",
+       "t": "最後は行動への呼びかけで結ぶといいよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 졸업 연설을 준비 중이야.\nB: 어떻게 시작할 거야?\nA: '신사 숙녀 여러분, 감사합니다'로 시작해서 세 가지 주제를 소개할 거야.\nB: 마지막에는 행동을 호소하면 좋겠어.",
+     "en": "A: I'm preparing a graduation speech.\nB: How will you begin?\nA: With 'Ladies and gentlemen, thank you', then I'll introduce three themes.\nB: End with a call to action."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "男の人は何を勧めていますか。",
+      "options": [
+       "行動への呼びかけで結ぶこと",
+       "質問で始めること",
+       "短くすること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "よいスピーチは、いくつかの技法を使います。まず、三部構成は、三つの要点を並べます。次に、問いかけは聴衆に直接呼びかけます。そして、結びでは行動を呼びかけます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "좋은 연설에는 몇 가지 기술이 있습니다. 첫째, 세 가지 요점을 반복하는 3의 법칙이 있습니다. 둘째, 청중에게 질문을 던지는 수사 의문문이 있습니다. 셋째, 행동을 호소하는 마무리가 있습니다.",
+     "en": "Good speeches use several techniques. First, the rule of three repeats three points. Second, rhetorical questions address the audience. Third, a call to action in the ending."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "三部構成とは何ですか。",
+      "options": [
+       "三つの要点を並べること",
+       "三回話すこと",
+       "三人で話すこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今日の講演者をご紹介します。"
+      },
+      {
+       "s": "B",
+       "t": "皆様、本日はお集まりいただき、ありがとうございます。"
+      },
+      {
+       "s": "A",
+       "t": "今日のテーマは何ですか。"
+      },
+      {
+       "s": "B",
+       "t": "私たちが直面する課題と、その乗り越え方についてお話しします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "사회자: 오늘의 연사를 소개합니다.\n연사: 여러분, 오늘 이 자리에 와 주셔서 감사합니다.\n사회자: 오늘의 주제는 무엇인가요?\n연사: 우리가 직면한 도전과 그 해결에 대해 이야기하겠습니다.",
+     "en": "Host: Let me introduce today's speaker.\nSpeaker: Thank you all for being here today.\nHost: What is today's theme?\nSpeaker: I'll talk about the challenges we face and how to meet them."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "講演者は本日お集まりいただき______と言います",
+      "answers": [
+       "ありがとうございます"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "私たちが直面する______についてお話しします",
+      "answers": [
+       "課題"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___、本日はお集まりいただき、ありがとうございます。\n2) 私たちは大きな___に直面しています。\n3) 今行動しなければ、いつ行動する___でしょうか。",
+    "trans": {
+     "ko": "1) 신사 숙녀 여러분, 오늘 이 자리에 와 주셔서 감사합니다. 2) 우리는 큰 도전에 직면해 있지만 함께라면 해낼 수 있습니다. 3) 우리가 지금 행동하지 않으면 누가 하겠습니까?",
+     "en": "1) Ladies and gentlemen, thank you for being here today. 2) We face a great challenge, but together we can meet it. 3) If we do not act now, who will?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___、本日はお集まりいただき、ありがとうございます。",
+      "options": [
+       "皆様",
+       "彼ら",
+       "私"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私たちは大きな___に直面しています。",
+      "options": [
+       "課題",
+       "景色",
+       "約束"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "今行動しなければ、いつ行動する___でしょうか。",
+      "options": [
+       "の",
+       "と",
+       "も"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "本日は三つのことについてお話しします。私たちが歩んできた道、今いる場所、そして(1)です。道は平らではありませんが、勇気と(2)をもって、一歩ずつ(3)。",
+    "trans": {
+     "ko": "오늘 저는 세 가지를 말씀드리고자 합니다. 우리가 걸어온 길, 우리가 서 있는 곳, 그리고 우리가 향할 곳입니다. 이 길은 쉽지 않지만 우리는 용기와 책임감으로 한 걸음씩 나아갈 것입니다.",
+     "en": "Today I'd like to speak about three things: the road we have travelled, where we stand, and where we are heading. The road is not easy, but with courage and responsibility we will move forward step by step."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "これから進む未来",
+       "過去の失敗",
+       "昨日の天気"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "責任",
+       "冗談",
+       "偶然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "進んでいきます",
+       "止まります",
+       "戻ります"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "スピーチの抜粋\n卒業式の式辞\n卒業生の皆さん、あなた方は今、新しい出発点に立っています。困難に出会ったときは、ここで過ごした日々を思い出してください。そして、自分に問いかけてください。今日、何を学んだか。明日、何をするのか。",
+    "trans": {
+     "ko": "연설문 발췌\n졸업식 축사\n졸업생 여러분, 여러분은 이제 새로운 출발선에 서 있습니다. 앞으로 어려움이 닥칠 때마다 이곳에서의 시간을 기억하십시오. 그리고 자신에게 물어보십시오. 나는 오늘 무엇을 배웠는가? 나는 내일 무엇을 할 것인가?",
+     "en": "SPEECH EXTRACT\nGraduation address\nGraduates, you now stand at a new starting line. Whenever hardship comes, remember your time here. And ask yourselves: what did I learn today? What will I do tomorrow?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "卒業生は今どこに立っていますか。",
+      "options": [
+       "新しい出発点",
+       "ゴール",
+       "教室"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "困難に出会ったとき、何をするよう言っていますか。",
+      "options": [
+       "ここで過ごした日々を思い出す",
+       "あきらめる",
+       "助けを求める"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "スピーチは卒業式で行われました。話し手は、困難なときはここで過ごした日々を思い出すよう言っています。話し手は長年勤めた教師です。",
+    "trans": {
+     "ko": "연설은 졸업식에서 이루어졌다. 연설자는 졸업생에게 어려움이 닥치면 이곳에서의 시간을 기억하라고 말한다. 연설자는 학교의 오랜 교사이다.",
+     "en": "The speech was given at a graduation. The speaker tells graduates to remember their time here when hardship comes. The speaker is a long-serving teacher."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "スピーチは卒業式で行われた。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "話し手は困難なときはここで過ごした日々を思い出すよう言っている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "話し手は長年勤めた教師である。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "皆様、本日はお集まりいただき、ありがとうございます。",
+    "read": "みなさま、ほんじつはおあつまりいただき、ありがとうございます。",
+    "ko": "신사 숙녀 여러분, 오늘 이 자리에 모여 주셔서 감사합니다.",
+    "en": "Ladies and gentlemen, thank you for gathering here today.",
+    "situation": {
+     "ko": "청중에게 인사할 때",
+     "en": "Greeting the audience"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "今日は、過去、現在、そして未来の三つについてお話しします。",
+    "read": "きょうは、かこ、げんざい、そしてみらいのみっつについておはなしします。",
+    "ko": "우리는 오늘 세 가지를 말씀드리려 합니다: 과거, 현재, 그리고 미래입니다.",
+    "en": "Today I want to speak about three things: the past, the present and the future.",
+    "situation": {
+     "ko": "구성을 소개할 때",
+     "en": "Signposting a speech"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "今行動しなければ、いつ行動するのでしょうか。",
+    "read": "いまこうどうしなければ、いつこうどうするのでしょうか。",
+    "ko": "우리가 지금 행동하지 않으면 누가 하겠습니까?",
+    "en": "If we do not act now, who will?",
+    "situation": {
+     "ko": "수사 의문문을 쓸 때",
+     "en": "Using a rhetorical question"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "これは勇気と、責任と、未来の問題です。",
+    "read": "これはゆうきと、せきにんと、みらいのもんだいです。",
+    "ko": "이것은 용기의 문제이고, 책임의 문제이며, 미래의 문제입니다.",
+    "en": "This is a matter of courage, of responsibility and of the future.",
+    "situation": {
+     "ko": "3의 법칙을 쓸 때",
+     "en": "Using the rule of three"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "私たちはこの課題から逃げません。",
+    "read": "わたしたちはこのかだいからにげません。",
+    "ko": "우리는 이 도전에서 물러서지 않을 것입니다.",
+    "en": "We will not back away from this challenge.",
+    "situation": {
+     "ko": "결의를 밝힐 때",
+     "en": "Declaring resolve"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "ともになら、できます。",
+    "read": "ともになら、できます。",
+    "ko": "함께라면 우리는 해낼 수 있습니다.",
+    "en": "Together, we can do it.",
+    "situation": {
+     "ko": "단합을 호소할 때",
+     "en": "Appealing for unity"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "今こそ行動するときです。",
+    "read": "いまこそこうどうするときです。",
+    "ko": "이제 우리가 행동할 때입니다.",
+    "en": "Now is the time for us to act.",
+    "situation": {
+     "ko": "행동을 촉구할 때",
+     "en": "Calling for action"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "最後に、お聞きくださり、ありがとうございました。",
+    "read": "さいごに、おききくださり、ありがとうございました。",
+    "ko": "마지막으로, 경청해 주셔서 감사합니다.",
+    "en": "Finally, thank you for listening.",
+    "situation": {
+     "ko": "연설을 마무리할 때",
+     "en": "Closing a speech"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "皆様、〜。",
+    "read": "みなさま、〜。",
+    "ko": "여러분, ~합시다.",
+    "en": "Let us ... together."
+   },
+   {
+    "id": "w2",
+    "t": "これは〜ではなく、〜の問題です。",
+    "read": "これは〜ではなく、〜のもんだいです。",
+    "ko": "~가 아니라 ~입니다.",
+    "en": "This is not ..., but ..."
+   },
+   {
+    "id": "w3",
+    "t": "今こそ〜ときです。",
+    "read": "いまこそ〜ときです。",
+    "ko": "~할 때입니다.",
+    "en": "Now is the time to ..."
+   },
+   {
+    "id": "w4",
+    "t": "最後に、〜。",
+    "read": "さいごに、〜。",
+    "ko": "마지막으로 ~.",
+    "en": "Finally, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "졸업식이나 기념식 연설의 핵심 문장을 인사·문제·호소·마무리 순으로 4문장으로 써 보세요.",
+    "en": "Write four key sentences of a graduation or commemoration speech: greeting, problem, appeal, closing."
+   },
+   "must_include": [
+    {
+     "label": "皆様",
+     "match": [
+      "皆様"
+     ]
+    },
+    {
+     "label": "今行動しなければ",
+     "match": [
+      "今行動しなければ"
+     ]
+    },
+    {
+     "label": "ともに",
+     "match": [
+      "ともに"
+     ]
+    }
+   ],
+   "model": "皆様、本日はお集まりいただき、ありがとうございます。私たちは大きな課題に直面していますが、あきらめません。今行動しなければ、いつ行動するのでしょうか。ともに、必ずやり遂げましょう。",
+   "model_trans": {
+    "ko": "신사 숙녀 여러분, 오늘 이 자리에 와 주셔서 감사합니다. 우리는 큰 도전에 직면해 있지만 포기하지 않을 것입니다. 우리가 지금 행동하지 않으면 누가 하겠습니까? 함께라면 우리는 해낼 수 있습니다.",
+    "en": "Ladies and gentlemen, thank you for being here today. We face a great challenge, but we will not give up. If we do not act now, who will? Together, we can do it."
+   }
+  }
+ }
+}

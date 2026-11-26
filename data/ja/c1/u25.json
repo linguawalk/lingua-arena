@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u25",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 25,
+  "concept": "C1.U25",
+  "status": "live",
+  "title": {
+   "target": "上級の応募書類と志望動機書",
+   "ko": "고급 지원서와 자기소개서",
+   "en": "Senior-level applications and cover letters"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "実績",
+   "pos": "noun",
+   "read": "じっせき",
+   "ko": "경력",
+   "en": "track record",
+   "ex": {
+    "t": "私には確かな実績があります。",
+    "read": "わたしにはたしかなじっせきがあります。",
+    "ko": "저는 성공적인 경력을 쌓아 왔습니다.",
+    "en": "I have a successful track record."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "専門性",
+   "pos": "noun",
+   "read": "せんもんせい",
+   "ko": "전문성",
+   "en": "expertise",
+   "ex": {
+    "t": "彼は金融の専門性があります。",
+    "read": "かれはきんゆうのせんもんせいがあります。",
+    "ko": "그는 금융 분야의 전문성이 있어요.",
+    "en": "He has expertise in finance."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "主導する",
+   "pos": "verb",
+   "read": "しゅどうする",
+   "ko": "주도하다",
+   "en": "spearhead",
+   "ex": {
+    "t": "私はそのプロジェクトを主導しました。",
+    "read": "わたしはそのプロジェクトをしゅどうしました。",
+    "ko": "저는 그 프로젝트를 주도했습니다.",
+    "en": "I spearheaded the project."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "成果",
+   "pos": "noun",
+   "read": "せいか",
+   "ko": "성과",
+   "en": "achievement",
+   "ex": {
+    "t": "最大の成果は売上三十パーセント増です。",
+    "read": "さいだいのせいかはうりあげさんじゅうパーセントぞうです。",
+    "ko": "가장 큰 성과는 매출 30퍼센트 증가입니다.",
+    "en": "My greatest achievement was a 30% rise in sales."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "統括する",
+   "pos": "verb",
+   "read": "とうかつする",
+   "ko": "관리하다",
+   "en": "oversee",
+   "ex": {
+    "t": "私は十人のチームを統括しました。",
+    "read": "わたしはじゅうにんのチームをとうかつしました。",
+    "ko": "저는 열 명의 팀을 관리했습니다.",
+    "en": "I oversaw a team of ten."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "貢献する",
+   "pos": "verb",
+   "read": "こうけんする",
+   "ko": "기여하다",
+   "en": "contribute",
+   "ex": {
+    "t": "御社の成長に貢献したいです。",
+    "read": "おんしゃのせいちょうにこうけんしたいです。",
+    "ko": "귀사의 성장에 기여하고 싶습니다.",
+    "en": "I would like to contribute to your growth."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "戦略的な",
+   "pos": "adj",
+   "read": "せんりゃくてきな",
+   "ko": "전략적인",
+   "en": "strategic",
+   "ex": {
+    "t": "戦略的な思考が求められます。",
+    "read": "せんりゃくてきなしこうがもとめられます。",
+    "ko": "전략적 사고가 필요해요.",
+    "en": "Strategic thinking is required."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "適している",
+   "pos": "phrase",
+   "read": "てきしている",
+   "ko": "적합한",
+   "en": "well suited",
+   "ex": {
+    "t": "私はこの職に適していると考えます。",
+    "read": "わたしはこのしょくにてきしているとかんがえます。",
+    "ko": "저는 이 직책에 적합하다고 생각합니다.",
+    "en": "I believe I am well suited to the role."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "率いる",
+   "pos": "verb",
+   "read": "ひきいる",
+   "ko": "이끌다",
+   "en": "lead",
+   "ex": {
+    "t": "私はチームを率いてきました。",
+    "read": "わたしはチームをひきいてきました。",
+    "ko": "저는 팀을 이끌어 왔습니다.",
+    "en": "I have led teams."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "機会",
+   "pos": "noun",
+   "read": "きかい",
+   "ko": "기회",
+   "en": "opportunity",
+   "ex": {
+    "t": "機会をいただければ幸いです。",
+    "read": "きかいをいただければさいわいです。",
+    "ko": "이 기회를 주시면 감사하겠습니다.",
+    "en": "I would welcome the opportunity."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜に応募いたします／〜経験があります／〜と確信しております／〜機会をいただければ幸いです",
+   "en": "Senior applications: 〜に応募いたします / 〜経験があります / 〜と確信しております / 機会をいただければ幸いです"
+  },
+  "explain": {
+   "ko": "上級の応募書類は、志望動機・経験・成果を簡潔に書きます。冒頭は「貴社の取締役職に応募いたします」で始めます。経験は「十人のチームを率いた経験があります」、成果は「プロジェクトを主導し、売上を三十パーセント高めました」のように数字で書きます。自信は「この職に適していると確信しております」、結びは「面接の機会をいただければ幸いです」です。",
+   "en": "A senior application covers motivation, experience and results concisely. Open with 「貴社の取締役職に応募いたします」. Experience: 「十人のチームを率いた経験があります」; results in figures: 「プロジェクトを主導し、売上を三十パーセント高めました」. Confidence: 「この職に適していると確信しております」; closing: 「面接の機会をいただければ幸いです」."
+  },
+  "table": {
+   "head": [
+    "部分 / Part",
+    "表現 / Expression",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "応募 / Apply",
+     "〜職に応募いたします",
+     "取締役職に応募いたします。"
+    ],
+    [
+     "経験 / Experience",
+     "〜経験があります",
+     "チームを率いた経験があります。"
+    ],
+    [
+     "成果 / Result",
+     "〜を主導し、〜を高めました",
+     "主導し、売上を高めました。"
+    ],
+    [
+     "結び / Closing",
+     "機会をいただければ幸いです",
+     "面接の機会をいただければ幸いです。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "成果は数字で具体的に書きます。",
+    "en": "State results concretely in numbers."
+   },
+   {
+    "ko": "会社の必要と自分の専門性を結びつけます。",
+    "en": "Link the company's need to your expertise."
+   },
+   {
+    "ko": "誇張せず事実を書きます。",
+    "en": "Don't exaggerate; state facts."
+   }
+  ],
+  "examples": [
+   {
+    "t": "十人のチームを率いた経験があります。",
+    "read": "じゅうにんのチームをひきいたけいけんがあります。",
+    "ko": "저는 열 명의 팀을 이끈 경험이 있습니다.",
+    "en": "I have experience leading a team of ten."
+   },
+   {
+    "t": "この職に適していると確信しております。",
+    "read": "このしょくにてきしているとかくしんしております。",
+    "ko": "제가 이 직책에 적합하다고 확신합니다.",
+    "en": "I am confident that I am well suited to this role."
+   },
+   {
+    "t": "プロジェクトを主導し、売上を三十パーセント高めました。",
+    "read": "プロジェクトをしゅどうし、うりあげをさんじゅうパーセントたかめました。",
+    "ko": "프로젝트를 주도해 매출을 30퍼센트 높였습니다.",
+    "en": "I spearheaded the project, raising sales by thirty per cent."
+   },
+   {
+    "t": "面接の機会をいただければ幸いです。",
+    "read": "めんせつのきかいをいただければさいわいです。",
+    "ko": "면접 기회를 주신다면 감사하겠습니다.",
+    "en": "I would welcome the opportunity to attend an interview."
+   },
+   {
+    "t": "御社の成長に貢献したいと考えております。",
+    "read": "おんしゃのせいちょうにこうけんしたいとかんがえております。",
+    "ko": "귀사의 성장에 기여하고 싶습니다.",
+    "en": "I would like to contribute to your company's growth."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "貴社の取締役職に応募___。",
+    "options": [
+     "いたします",
+     "なさいます",
+     "されます"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "私は十人のチームを率いた___があります。",
+    "options": [
+     "経験",
+     "景色",
+     "競争"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "この職に適していると___しております。",
+    "options": [
+     "確信",
+     "疑問",
+     "記憶"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "面接の機会を___ば幸いです。",
+    "options": [
+     "いただけれ",
+     "あげれ",
+     "さしあげれ"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "どの職に応募しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 어떤 직책에 지원하나요?",
+     "en": "(Question) What position are you applying for?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "取締役職に応募いたします。",
+       "どこにも応募しません。",
+       "来月です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いちばん大きな成果は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 가장 큰 성과는 무엇인가요?",
+     "en": "(Question) What is your greatest achievement?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "売上を三十パーセント高めたことです。",
+       "成果はありません。",
+       "転職したことです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "応募書類を書いてるんだ。どう始めたらいいかな。"
+      },
+      {
+       "s": "B",
+       "t": "「貴社の取締役職に応募いたします」で始めて、経験を強調するといいよ。"
+      },
+      {
+       "s": "A",
+       "t": "成果はどう書く？"
+      },
+      {
+       "s": "B",
+       "t": "数字で書くのがいいよ。「売上三十パーセント増」のようにね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 지원서를 쓰고 있어. 어떻게 시작하면 좋을까?\nB: '귀사의 이사직에 지원하고자 합니다'로 시작하고 경력을 강조해.\nA: 성과는 어떻게 쓰지?\nB: 숫자로 쓰는 게 좋아. '매출 30퍼센트 증가'처럼.",
+     "en": "A: I'm writing an application. How should I begin?\nB: Start with 'I wish to apply for the position of director' and highlight your experience.\nA: How do I present achievements?\nB: Use numbers, like 'a thirty per cent rise in sales'."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは成果をどう書くよう勧めていますか。",
+      "options": [
+       "数字で",
+       "長い説明で",
+       "書かない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "面接の準備についてお話しします。まず、自分の経歴でいちばん大きな成果を数字とともに整理してください。そして、応募する会社の戦略と自分の専門性がどう結びつくかを説明できるよう準備してください。最後に質問を用意しておくと、よい印象を与えます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "면접 준비에 대해 말씀드리겠습니다. 먼저 자신의 경력에서 가장 큰 성과를 수치와 함께 정리하세요. 그리고 지원하는 회사의 전략과 자신의 전문성이 어떻게 연결되는지 설명할 준비를 하세요. 마지막으로 질문을 준비해 가면 좋은 인상을 줍니다.",
+     "en": "Let me talk about preparing for interviews. First, organise your greatest achievement with figures. Then prepare to explain how the company's strategy connects with your expertise. Finally, bring questions with you; it makes a good impression."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "面接の準備でまず何をするよう言っていますか。",
+      "options": [
+       "最大の成果を数字とともに整理する",
+       "服を選ぶ",
+       "給料を決める"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "いちばん大きな成果は何ですか。"
+      },
+      {
+       "s": "B",
+       "t": "新規市場への進出を主導し、売上を三十パーセント高めました。"
+      },
+      {
+       "s": "A",
+       "t": "チームの規模はどのくらいでしたか。"
+      },
+      {
+       "s": "B",
+       "t": "十人のチームを率いました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "면접관: 가장 큰 성과는 무엇입니까?\n지원자: 신규 시장 진출을 주도해 매출을 30퍼센트 높였습니다.\n면접관: 팀 규모는 어땠나요?\n지원자: 열 명의 팀을 이끌었습니다.",
+     "en": "Interviewer: What is your greatest achievement?\nCandidate: I spearheaded entry into a new market and raised sales by thirty per cent.\nInterviewer: How large was the team?\nCandidate: I led a team of ten."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "応募者は新規市場への進出を______し、売上を高めたと言います",
+      "answers": [
+       "主導"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______のチームを率いたと言います",
+      "answers": [
+       "十人"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は十人のチームを率いた___があります。\n2) この職に適していると___しております。\n3) プロジェクトを___、売上を三十パーセント高めました。",
+    "trans": {
+     "ko": "1) 저는 열 명의 팀을 이끈 경험이 있습니다. 2) 제가 이 직책에 적합하다고 확신합니다. 3) 프로젝트를 주도해 매출을 30퍼센트 높였습니다.",
+     "en": "1) I have experience leading a team of ten. 2) I am confident that I am well suited to this role. 3) I spearheaded the project, raising sales by thirty per cent."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は十人のチームを率いた___があります。",
+      "options": [
+       "経験",
+       "景色",
+       "競争"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "この職に適していると___しております。",
+      "options": [
+       "確信",
+       "疑問",
+       "記憶"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "プロジェクトを___、売上を三十パーセント高めました。",
+      "options": [
+       "主導し",
+       "放棄し",
+       "延期し"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "貴社の人事部長職の募集を拝見し、応募いたしました。私は十二年間、人事業務に携わり、組織文化の改善を(1)てまいりました。社員の離職率を二年で二十パーセント減らしたことが最大の(2)です。貴社の成長に(3)できれば幸いです。",
+    "trans": {
+     "ko": "귀사의 인사팀장직 공고를 보고 지원하게 되었습니다. 저는 십이 년 동안 인사 업무를 맡으며 조직 문화 개선을 이끌어 왔습니다. 직원 이직률을 이 년 만에 이십 퍼센트 줄인 것이 가장 큰 성과입니다. 귀사의 성장에 기여할 수 있기를 바랍니다.",
+     "en": "I am applying in response to your advertisement for Head of HR. Over twelve years in HR I have led improvements to organisational culture. My greatest achievement was reducing staff turnover by twenty per cent in two years. I hope to contribute to your company's growth."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "率い",
+       "放棄し",
+       "延期し"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "成果",
+       "失敗",
+       "心配"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "貢献",
+       "反対",
+       "無視"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "志望動機書\nプロジェクトマネージャー職への応募\n貴社のプロジェクトマネージャー職に応募いたします。この五年間、私は複数の大規模プロジェクトを予定どおりに完了させました。特に昨年は、予算を十パーセント節約してプロジェクトを終えました。面接の機会をいただければ幸いです。",
+    "trans": {
+     "ko": "커버 레터\n프로젝트 매니저직 지원\n저는 귀사의 프로젝트 매니저직에 지원하고자 합니다. 지난 오 년간 저는 여러 대형 프로젝트를 일정 내에 마무리했습니다. 특히 지난해에는 예산의 십 퍼센트를 절감하며 프로젝트를 완료했습니다. 면접 기회를 주신다면 감사하겠습니다.",
+     "en": "COVER LETTER\nApplication for Project Manager\nI wish to apply for the position of Project Manager at your company. Over the past five years I have completed several large projects on schedule. Last year in particular I completed a project while saving ten per cent of the budget. I would welcome the opportunity to attend an interview."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "筆者はどの職に応募しますか。",
+      "options": [
+       "プロジェクトマネージャー",
+       "営業取締役",
+       "人事部長"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "昨年、どんな成果を出しましたか。",
+      "options": [
+       "予算を十パーセント節約した",
+       "売上を二倍にした",
+       "チームを新設した"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "筆者はプロジェクトマネージャー職に応募します。筆者は昨年、予算の二十パーセントを節約しました。筆者は面接の機会を求めています。",
+    "trans": {
+     "ko": "글쓴이는 프로젝트 매니저직에 지원한다. 글쓴이는 지난해 예산의 이십 퍼센트를 절감했다. 글쓴이는 면접 기회를 요청한다.",
+     "en": "The writer is applying for a Project Manager post. Last year the writer saved twenty per cent of the budget. The writer requests an interview."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "筆者はプロジェクトマネージャー職に応募する。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "筆者は昨年、予算の二十パーセントを節約した。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "筆者は面接の機会を求めている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "マーケティング部長職に応募いたします。",
+    "read": "マーケティングぶちょうしょくにおうぼいたします。",
+    "ko": "저는 귀사의 마케팅 이사직에 지원하고자 합니다.",
+    "en": "I wish to apply for the position of Marketing Director.",
+    "situation": {
+     "ko": "지원 의사를 밝힐 때",
+     "en": "Stating the application"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "十年間チームを率いて、確かな実績があります。",
+    "read": "じゅうねんかんチームをひきいて、たしかなじっせきがあります。",
+    "ko": "저는 십 년간 팀을 이끌며 성과를 입증해 왔습니다.",
+    "en": "I have a proven track record leading teams over ten years.",
+    "situation": {
+     "ko": "경력을 강조할 때",
+     "en": "Highlighting experience"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "新規市場への進出プロジェクトを主導しました。",
+    "read": "しんきしじょうへのしんしゅつプロジェクトをしゅどうしました。",
+    "ko": "저는 신규 시장 진출 프로젝트를 주도했습니다.",
+    "en": "I spearheaded the project to enter a new market.",
+    "situation": {
+     "ko": "주도적 역할을 말할 때",
+     "en": "Describing a leading role"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "その結果、売上が三十パーセント高まりました。",
+    "read": "そのけっか、うりあがさんじゅうパーセントたかまりました。",
+    "ko": "그 결과 매출이 30퍼센트 증가했습니다.",
+    "en": "As a result, sales rose by thirty per cent.",
+    "situation": {
+     "ko": "성과를 수치로 말할 때",
+     "en": "Quantifying results"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "この職に適していると確信しております。",
+    "read": "このしょくにてきしているとかくしんしております。",
+    "ko": "저는 이 직책에 매우 적합하다고 확신합니다.",
+    "en": "I am confident that I am well suited to this role.",
+    "situation": {
+     "ko": "적합성을 밝힐 때",
+     "en": "Stating suitability"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "貴社の戦略的な成長に貢献したいと考えております。",
+    "read": "きしゃのせんりゃくてきなせいちょうにこうけんしたいとかんがえております。",
+    "ko": "귀사의 전략적 성장에 기여하고 싶습니다.",
+    "en": "I would like to contribute to your strategic growth.",
+    "situation": {
+     "ko": "동기를 말할 때",
+     "en": "Stating motivation"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "応募について、お話しする機会をいただければ幸いです。",
+    "read": "おうぼについて、おはなしするきかいをいただければさいわいです。",
+    "ko": "면접 기회를 주신다면 감사하겠습니다.",
+    "en": "I would welcome the opportunity to discuss my application.",
+    "situation": {
+     "ko": "면접을 요청할 때",
+     "en": "Requesting an interview"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "応募書類をご検討くださり、ありがとうございます。",
+    "read": "おうぼしょるいをごけんとうくださり、ありがとうございます。",
+    "ko": "검토해 주셔서 감사합니다.",
+    "en": "Thank you for considering my application.",
+    "situation": {
+     "ko": "마무리할 때",
+     "en": "Closing"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜職に応募いたします。",
+    "read": "〜しょくにおうぼいたします。",
+    "ko": "~직에 지원하고자 합니다.",
+    "en": "I wish to apply for the position of ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜を率いた経験があります。",
+    "read": "〜をひきいたけいけんがあります。",
+    "ko": "~를 이끈 경험이 있습니다.",
+    "en": "I have experience leading ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜と確信しております。",
+    "read": "〜とかくしんしております。",
+    "ko": "~라고 확신합니다.",
+    "en": "I am confident that ..."
+   },
+   {
+    "id": "w4",
+    "t": "〜機会をいただければ幸いです。",
+    "read": "〜きかいをいただければさいわいです。",
+    "ko": "기회를 주신다면 감사하겠습니다.",
+    "en": "I would welcome the opportunity to ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "고급 직책 지원서의 핵심 문장을 지원·경력·성과·마무리 순으로 4문장으로 써 보세요.",
+    "en": "Write four key sentences for a senior-level job application: application, experience, achievement, closing."
+   },
+   "must_include": [
+    {
+     "label": "応募いたします",
+     "match": [
+      "応募いたします"
+     ]
+    },
+    {
+     "label": "成果",
+     "match": [
+      "成果"
+     ]
+    },
+    {
+     "label": "いただければ幸い",
+     "match": [
+      "いただければ幸い"
+     ]
+    }
+   ],
+   "model": "貴社の営業取締役職に応募いたします。私は十年間チームを率いて、実績を重ねてまいりました。最大の成果は、新規市場への進出プロジェクトを主導し、売上を三十パーセント高めたことです。面接の機会をいただければ幸いです。",
+   "model_trans": {
+    "ko": "저는 귀사의 영업 이사직에 지원하고자 합니다. 저는 십 년간 팀을 이끌며 성과를 입증해 왔습니다. 가장 큰 성과는 신규 시장 진출 프로젝트를 주도해 매출을 30퍼센트 높인 것입니다. 면접 기회를 주신다면 감사하겠습니다.",
+    "en": "I wish to apply for the position of Sales Director. I have a proven track record leading teams over ten years. My greatest achievement was spearheading a project to enter a new market, which raised sales by thirty per cent. I would welcome the opportunity to attend an interview."
+   }
+  }
+ }
+}

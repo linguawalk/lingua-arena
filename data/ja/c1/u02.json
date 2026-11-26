@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c1_u02",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c1",
+  "unit": 2,
+  "concept": "C1.U02",
+  "status": "live",
+  "title": {
+   "target": "接続法と改まった表現",
+   "ko": "가정법 현재와 격식 구문",
+   "en": "The subjunctive and formal structures"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "要求する",
+   "pos": "verb",
+   "read": "ようきゅうする",
+   "ko": "요구하다",
+   "en": "demand",
+   "ex": {
+    "t": "彼らは直ちに対応するよう要求しました。",
+    "read": "かれらはただちにたいおうするようようきゅうしました。",
+    "ko": "그들은 즉각적인 조치를 요구했어요.",
+    "en": "They demanded immediate action."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "勧める",
+   "pos": "verb",
+   "read": "すすめる",
+   "ko": "권고하다",
+   "en": "recommend",
+   "ex": {
+    "t": "医者は彼に休むよう勧めました。",
+    "read": "いしゃはかれにやすむようすすめました。",
+    "ko": "의사는 그가 쉬도록 권고했어요.",
+    "en": "The doctor recommended that he rest."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "不可欠な",
+   "pos": "adj",
+   "read": "ふかけつな",
+   "ko": "필수적인",
+   "en": "essential",
+   "ex": {
+    "t": "時間を守ることは不可欠です。",
+    "read": "じかんをまもることはふかけつです。",
+    "ko": "시간을 지키는 것은 필수적이에요.",
+    "en": "It is essential to be punctual."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "要請",
+   "pos": "noun",
+   "read": "ようせい",
+   "ko": "요청",
+   "en": "request",
+   "ex": {
+    "t": "その要請は正式に断られました。",
+    "read": "そのようせいはせいしきにことわられました。",
+    "ko": "그 요청은 공식적으로 거절되었어요.",
+    "en": "The request was formally turned down."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "主張する",
+   "pos": "verb",
+   "read": "しゅちょうする",
+   "ko": "주장하다",
+   "en": "insist",
+   "ex": {
+    "t": "彼女は自分で行くと主張しました。",
+    "read": "かのじょはじぶんでいくとしゅちょうしました。",
+    "ko": "그녀는 직접 가겠다고 주장했어요.",
+    "en": "She insisted on going in person."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "義務",
+   "pos": "noun",
+   "read": "ぎむ",
+   "ko": "의무",
+   "en": "obligation",
+   "ex": {
+    "t": "私たちは法的な義務を果たさなければなりません。",
+    "read": "わたしたちはほうてきなぎむをはたさなければなりません。",
+    "ko": "법적 의무를 다해야 합니다.",
+    "en": "We must fulfil our legal obligations."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "提案する",
+   "pos": "verb",
+   "read": "ていあんする",
+   "ko": "제안하다",
+   "en": "propose",
+   "ex": {
+    "t": "委員会は規則の変更を提案しました。",
+    "read": "いいんかいはきそくのへんこうをていあんしました。",
+    "ko": "위원회는 규정을 바꾸자고 제안했어요.",
+    "en": "The committee proposed that the rule be changed."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "急務の",
+   "pos": "adj",
+   "read": "きゅうむの",
+   "ko": "긴급한",
+   "en": "imperative",
+   "ex": {
+    "t": "今すぐ行動することが急務です。",
+    "read": "いますぐこうどうすることがきゅうむです。",
+    "ko": "지금 행동하는 것이 절대적으로 중요해요.",
+    "en": "It is imperative that we act now."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "規則",
+   "pos": "noun",
+   "read": "きそく",
+   "ko": "규정",
+   "en": "regulation",
+   "ex": {
+    "t": "新しい規則は来月から施行されます。",
+    "read": "あたらしいきそくはらいげつからしこうされます。",
+    "ko": "새 규정이 다음 달에 시행돼요.",
+    "en": "The new regulation takes effect next month."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "従う",
+   "pos": "verb",
+   "read": "したがう",
+   "ko": "이행하다",
+   "en": "comply",
+   "ex": {
+    "t": "すべての企業がこの規則に従わなければなりません。",
+    "read": "すべてのきぎょうがこのきそくにしたがわなければなりません。",
+    "ko": "모든 회사는 이 규정을 따라야 해요.",
+    "en": "All firms must comply with this regulation."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜するよう要請する／〜ことが不可欠だ／〜ことを求める",
+   "en": "Formal requests and necessity: 〜よう要請する / 〜ことが不可欠だ / 〜ことを求める"
+  },
+  "explain": {
+   "ko": "改まった場面では、要求・提案・必要性を「〜よう要請する」「〜ことを求める」「〜ことが不可欠だ」で表します：「全員が出席するよう要請します。」「申請書は金曜日までに提出されることが不可欠です。」「〜でなければ」は「〜なければ、〜できなかった」と事実と反対のことを表します。",
+   "en": "In formal settings, requests, proposals and necessity use 「〜よう要請する」「〜ことを求める」「〜ことが不可欠だ」: 「全員が出席するよう要請します。」「申請書は金曜日までに提出されることが不可欠です。」「〜なければ、〜できなかった」 expresses a counterfactual."
+  },
+  "table": {
+   "head": [
+    "用法 / Use",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "要請 / Request",
+     "〜よう要請する",
+     "出席するよう要請します。"
+    ],
+    [
+     "必要 / Necessity",
+     "〜ことが不可欠だ",
+     "提出することが不可欠です。"
+    ],
+    [
+     "提案 / Proposal",
+     "〜ことを提案する",
+     "規則を変えることを提案します。"
+    ],
+    [
+     "仮定 / Counterfactual",
+     "〜なければ、〜できなかった",
+     "彼がいなければ無理でした。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜よう」は直接の命令より丁寧で、公式の文書によく使われます。",
+    "en": "「〜よう」 is more polite than a direct order and common in official documents."
+   },
+   {
+    "ko": "「不可欠」「急務」は書き言葉でよく使われる強い表現です。",
+    "en": "「不可欠」 and 「急務」 are strong expressions common in writing."
+   },
+   {
+    "ko": "受け身を使うと、行為者を示さず客観的に聞こえます。",
+    "en": "The passive makes the sentence sound objective by leaving out the agent."
+   }
+  ],
+  "examples": [
+   {
+    "t": "医者は彼に休むよう勧めました。",
+    "read": "いしゃはかれにやすむようすすめました。",
+    "ko": "의사는 그가 쉬어야 한다고 권고했어요.",
+    "en": "The doctor recommended that he rest."
+   },
+   {
+    "t": "全員が出席することが不可欠です。",
+    "read": "ぜんいんがしゅっせきすることがふかけつです。",
+    "ko": "모든 직원이 참석하는 것이 필수적이에요.",
+    "en": "It is essential that every employee attend."
+   },
+   {
+    "t": "彼女は自分で行くと主張しました。",
+    "read": "かのじょはじぶんでいくとしゅちょうしました。",
+    "ko": "그녀는 직접 가야 한다고 주장했어요.",
+    "en": "She insisted that she go in person."
+   },
+   {
+    "t": "委員会は規則を改めるよう提案しました。",
+    "read": "いいんかいはきそくをあらためるようていあんしました。",
+    "ko": "위원회는 규정이 개정되어야 한다고 제안했어요.",
+    "en": "The committee proposed that the rule be amended."
+   },
+   {
+    "t": "彼がいなければ、これは不可能だったでしょう。",
+    "read": "かれがいなければ、これはふかのうだったでしょう。",
+    "ko": "제가 그 자리에 있었더라면 좋았을 텐데요.",
+    "en": "I wish I were there."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "医者は彼に休む___勧めました。",
+    "options": [
+     "よう",
+     "ほど",
+     "くらい"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "全員が出席する___が不可欠です。",
+    "options": [
+     "こと",
+     "もの",
+     "よう"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "申請書は金曜日までに提出される___が不可欠です。",
+    "options": [
+     "こと",
+     "ため",
+     "ほど"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "彼が___、これは不可能でした。",
+    "options": [
+     "いなければ",
+     "いるなら",
+     "いたので"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "委員会は何を要求しましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 위원회는 무엇을 요구했나요?",
+     "en": "(Question) What did the committee demand?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "申請書が金曜日までに提出されることです。",
+       "駅の近くです。",
+       "来年の春です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "彼女はなぜ自分で行くと主張したのですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 왜 그가 직접 가야 한다고 주장했나요?",
+     "en": "(Question) Why did she insist on going in person?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "自分で行くべきだと主張しました。",
+       "雨だったからです。",
+       "三階に住んでいます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "医者は何て言ってた？"
+      },
+      {
+       "s": "B",
+       "t": "一週間休むよう勧められたよ。"
+      },
+      {
+       "s": "A",
+       "t": "出張はどうするの？"
+      },
+      {
+       "s": "B",
+       "t": "部長が、代わりに誰かが行くことを提案してくれた。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 의사 선생님이 뭐라고 하셨어?\nB: 내가 일주일 동안 쉬어야 한다고 권고하셨어.\nA: 그럼 출장은 어떻게 해?\nB: 팀장님이 다른 사람이 대신 가야 한다고 제안하셨어.",
+     "en": "A: What did the doctor say?\nB: She recommended that I rest for a week.\nA: What about the business trip?\nB: The manager suggested that someone else go instead."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "部長は何を提案しましたか。",
+      "options": [
+       "代わりに誰かが出張に行くこと",
+       "出張を中止すること",
+       "全員で行くこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新しい安全規則が来月から施行されます。すべての社員が研修を受けることが不可欠です。部長は日程が共有されるようにしなければなりません。従わないチームは監査を受けます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "새 안전 규정이 다음 달부터 시행됩니다. 모든 직원이 교육을 이수하는 것이 필수적입니다. 부서장은 교육 일정이 공유되도록 해야 합니다. 이 규정을 따르지 않는 팀은 감사를 받게 됩니다.",
+     "en": "A new safety regulation takes effect next month. It is essential that every employee complete the training. Department heads must ensure that the schedule be shared. Teams that fail to comply will be audited."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "新しい規則で不可欠なことは何ですか。",
+      "options": [
+       "全員が研修を受けること",
+       "日程を変えること",
+       "会社を休むこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "返金のご依頼についてですね。"
+      },
+      {
+       "s": "B",
+       "t": "一週間以内に返金されるよう求めます。"
+      },
+      {
+       "s": "A",
+       "t": "確認します。領収書が添付されていることが不可欠です。"
+      },
+      {
+       "s": "B",
+       "t": "わかりました。今すぐ送ります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 환불 요청 건입니다.\n고객: 환불이 일주일 안에 처리되기를 요구합니다.\n직원: 확인해 보겠습니다. 영수증이 첨부되는 것이 필수적입니다.\n고객: 알겠습니다. 지금 보내겠습니다.",
+     "en": "Clerk: This is about your refund request.\nCustomer: I demand that the refund be processed within a week.\nClerk: I'll check. It is essential that the receipt be attached.\nCustomer: Understood. I'll send it now."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "お客さんは一週間以内に______されるよう求めます",
+      "answers": [
+       "返金"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "______が添付されていることが不可欠です",
+      "answers": [
+       "領収書"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 委員会は規則を改める___提案しました。\n2) 全員が出席する___が不可欠です。\n3) 彼が来られれば、よかったの___。",
+    "trans": {
+     "ko": "1) 위원회는 규정이 바뀌어야 한다고 제안했어요. 2) 모두 참석하는 것이 필수적이에요. 3) 제가 그 자리에 있었더라면 좋았을 텐데요.",
+     "en": "1) The committee proposed that the rule be changed. 2) It is essential that everyone attend. 3) I wish I were there."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "委員会は規則を改める___提案しました。",
+      "options": [
+       "よう",
+       "ほど",
+       "くらい"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "全員が出席する___が不可欠です。",
+      "options": [
+       "こと",
+       "もの",
+       "よう"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼が来られれば、よかったの___。",
+      "options": [
+       "ですが",
+       "ですか",
+       "でした"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "市議会は新しい環境規則を承認しました。すべての建設会社が排出量を(1)ことが不可欠です。担当部署は規則が確実に守られるよう(2)ように勧められました。従わない会社は罰金を(3)なければなりません。",
+    "trans": {
+     "ko": "시 의회는 새 환경 규정을 승인했습니다. 모든 건설 회사가 오염 물질 배출을 줄이는 것이 필수적입니다. 담당 부서는 규정이 철저히 지켜지는지 확인하라는 권고를 받았습니다. 이를 지키지 않는 회사는 벌금을 내야 합니다.",
+     "en": "The city council has approved a new environmental regulation. It is essential that every construction firm reduce its emissions. The department was recommended to ensure the rule is strictly followed. Companies that fail to comply must pay a fine."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "減らす",
+       "増やす",
+       "忘れる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "確認する",
+       "無視する",
+       "反対する"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "払わ",
+       "もらわ",
+       "返さ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "お知らせ\n図書館の開館時間の変更\n来月から図書館の開館時間が延長されます。利用者は身分証明書を持参することが不可欠です。図書館は、すべての利用者が期限までに本を返却するよう求めています。詳しくは受付でお尋ねください。",
+    "trans": {
+     "ko": "공지\n도서관 운영 변경\n다음 달부터 도서관 이용 시간이 연장된다. 이용자는 신분증을 지참하는 것이 필수적이다. 도서관은 모든 이용자가 대출 기한을 지킬 것을 요청하고 있다. 자세한 내용은 안내 데스크에 문의하라.",
+     "en": "NOTICE\nChanges to library opening\nFrom next month library hours will be extended. It is essential that users bring an ID card. The library requests that all users return books on time. Please ask at the information desk for details."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "利用者は何を持ってくる必要がありますか。",
+      "options": [
+       "身分証明書",
+       "本",
+       "地図"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "図書館は利用者に何を求めていますか。",
+      "options": [
+       "期限までに本を返すこと",
+       "長く滞在すること",
+       "寄付すること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "スミさんは新しい規則のもとで研修を受けなければなりません。彼女は日程が厳しすぎると不満を言いました。研修はオンラインだけです。",
+    "trans": {
+     "ko": "수미는 새 규정에 따라 교육을 이수해야 한다. 그녀는 일정이 너무 빡빡하다고 불평했다. 교육은 온라인으로만 제공된다.",
+     "en": "Sumi must complete training under the new regulation. She complained that the schedule is too tight. The training is offered online only."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "スミさんは研修を受けなければならない。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "スミさんは日程に満足している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "研修は来月から始まる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "すべての班長が会議に出席するよう要請します。",
+    "read": "すべてのはんちょうがかいぎにしゅっせきするようようせいします。",
+    "ko": "회의에 모든 팀장이 참석할 것을 요청드립니다.",
+    "en": "We request that every team leader attend the meeting.",
+    "situation": {
+     "ko": "격식 있는 요청",
+     "en": "A formal request"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "申請書は金曜日までに提出されることが不可欠です。",
+    "read": "しんせいしょはきんようびまでにていしゅつされることがふかけつです。",
+    "ko": "신청서는 금요일까지 제출되어야 합니다.",
+    "en": "It is essential that applications be submitted by Friday.",
+    "situation": {
+     "ko": "필수 조건을 알릴 때",
+     "en": "Stating a requirement"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "契約書を弁護士に確認してもらうことを提案します。",
+    "read": "けいやくしょをべんごしにかくにんしてもらうことをていあんします。",
+    "ko": "저라면 계약서를 변호사에게 검토받도록 하겠어요.",
+    "en": "I suggest that the contract be reviewed by a lawyer.",
+    "situation": {
+     "ko": "정중한 제안",
+     "en": "A polite suggestion"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "本人が直接謝るべきだと主張する人もいます。",
+    "read": "ほんにんがちょくせつあやまるべきだとしゅちょうするひともいます。",
+    "ko": "그가 직접 사과해야 한다고 주장하는 사람들도 있어요.",
+    "en": "Some insist that he apologise in person.",
+    "situation": {
+     "ko": "강한 입장 표명",
+     "en": "A strong stance"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "全員がこの規則に従うことが重要です。",
+    "read": "ぜんいんがこのきそくにしたがうことがじゅうようです。",
+    "ko": "이 규정은 모두가 따라야 한다는 것이 중요해요.",
+    "en": "It is vital that everyone comply with this rule.",
+    "situation": {
+     "ko": "중요성을 강조할 때",
+     "en": "Emphasising importance"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "彼がいなければ、これは不可能だったでしょう。",
+    "read": "かれがいなければ、これはふかのうだったでしょう。",
+    "ko": "그가 아니었다면 이 일은 불가능했을 거예요.",
+    "en": "Were it not for him, this would have been impossible.",
+    "situation": {
+     "ko": "격식 있는 가정",
+     "en": "A formal hypothetical"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "すべての意見が記録されるよう求めました。",
+    "read": "すべてのいけんがきろくされるようもとめました。",
+    "ko": "모든 의견이 기록되도록 요청했습니다.",
+    "en": "I asked that all comments be recorded.",
+    "situation": {
+     "ko": "공식 요청을 설명할 때",
+     "en": "Reporting a formal request"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "では、それに沿って進めることを提案します。",
+    "read": "では、それにそってすすめることをていあんします。",
+    "ko": "그럼 그렇게 진행하도록 하겠습니다.",
+    "en": "Then I propose that we proceed accordingly.",
+    "situation": {
+     "ko": "결정을 마무리할 때",
+     "en": "Closing a decision"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜よう要請します。",
+    "read": "〜ようようせいします。",
+    "ko": "~가 ~하도록 요청합니다.",
+    "en": "We request that ~ (base verb)."
+   },
+   {
+    "id": "w2",
+    "t": "〜ことが不可欠です。",
+    "read": "〜ことがふかけつです。",
+    "ko": "~하는 것이 필수적입니다.",
+    "en": "It is essential that ~ (base verb)."
+   },
+   {
+    "id": "w3",
+    "t": "〜ことを提案します。",
+    "read": "〜ことをていあんします。",
+    "ko": "~가 ~해야 한다고 제안합니다.",
+    "en": "I propose/suggest that ~ (base verb)."
+   },
+   {
+    "id": "w4",
+    "t": "〜がなければ、〜でしょう。",
+    "read": "〜がなければ、〜でしょう。",
+    "ko": "~이 아니었다면 ~했을 것이다.",
+    "en": "Were it not for ~, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "격식 있는 요청이나 제안을 가정법 현재를 써서 4문장으로 써 보세요.",
+    "en": "Write 4 sentences making formal requests or suggestions using the subjunctive."
+   },
+   "must_include": [
+    {
+     "label": "要請",
+     "match": [
+      "要請"
+     ]
+    },
+    {
+     "label": "不可欠",
+     "match": [
+      "不可欠"
+     ]
+    },
+    {
+     "label": "提案",
+     "match": [
+      "提案"
+     ]
+    }
+   ],
+   "model": "委員会はすべての申請書が金曜日までに提出されるよう要請しました。担当者が期限を自分で確認することが不可欠です。書類は事前に確認されるよう提案します。すべての部署がこの規則に従わなければなりません。",
+   "model_trans": {
+    "ko": "위원회는 모든 신청서가 금요일까지 제출되어야 한다고 요구했습니다. 담당자가 마감일을 직접 확인하는 것이 필수적입니다. 저는 지원 서류를 사전에 검토하도록 제안합니다. 모든 부서가 이 규정을 따라야 합니다.",
+    "en": "The committee demanded that all applications be submitted by Friday. It is essential that the officer check the deadline in person. I propose that the documents be reviewed in advance. Every department must comply with this regulation."
+   }
+  }
+ }
+}
