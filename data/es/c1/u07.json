@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "es_c1_u07",
+  "lang": "es",
+  "family": "europe",
+  "level": "c1",
+  "unit": 7,
+  "concept": "C1.U07",
+  "status": "live",
+  "title": {
+   "target": "Condicionales invertidas",
+   "ko": "도치 조건문",
+   "en": "Inverted conditionals"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "en caso de emergencia",
+   "pos": "phrase",
+   "ko": "긴급한 경우",
+   "en": "in case of emergency",
+   "ex": {
+    "t": "En caso de emergencia, llame a este número.",
+    "ko": "긴급한 경우에는 이 번호로 전화하세요.",
+    "en": "In case of emergency, call this number."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "saber de antemano",
+   "pos": "phrase",
+   "ko": "미리 알다",
+   "en": "know in advance",
+   "ex": {
+    "t": "De haberlo sabido de antemano, me habría preparado.",
+    "ko": "미리 알았더라면 준비했을 거예요.",
+    "en": "Had I known in advance, I would have prepared."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "la condición",
+   "pos": "noun",
+   "ko": "조건",
+   "en": "condition",
+   "ex": {
+    "t": "El contrato entra en vigor si se cumple esta condición.",
+    "ko": "이 조건이 충족되면 계약이 성립해요.",
+    "en": "The contract takes effect if this condition is met."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "en caso de necesitar",
+   "pos": "phrase",
+   "ko": "필요하다면",
+   "en": "should you need",
+   "ex": {
+    "t": "En caso de necesitar algo, póngase en contacto.",
+    "ko": "필요하시면 언제든 연락 주세요.",
+    "en": "Should you need anything, please get in touch."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "cancelar",
+   "pos": "verb",
+   "ko": "취소하다",
+   "en": "cancel",
+   "ex": {
+    "t": "Le avisaremos si se cancela el evento.",
+    "ko": "행사가 취소되면 알려 드릴게요.",
+    "en": "We will inform you should the event be cancelled."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "la hipótesis",
+   "pos": "noun",
+   "ko": "가정",
+   "en": "hypothesis",
+   "ex": {
+    "t": "Esta hipótesis aún no se ha comprobado.",
+    "ko": "이 가정은 아직 검증되지 않았어요.",
+    "en": "This hypothesis hasn't been tested yet."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "el plan de contingencia",
+   "pos": "noun",
+   "ko": "만약의 경우",
+   "en": "contingency",
+   "ex": {
+    "t": "Hace falta un plan de contingencia.",
+    "ko": "만약의 경우를 대비한 계획이 필요해요.",
+    "en": "A contingency plan is needed."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "evitable",
+   "pos": "adj",
+   "ko": "피할 수 있었던",
+   "en": "avoidable",
+   "ex": {
+    "t": "El accidente era totalmente evitable.",
+    "ko": "그 사고는 충분히 피할 수 있었어요.",
+    "en": "The accident was entirely avoidable."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "estar convencido",
+   "pos": "verb",
+   "ko": "확신하다",
+   "en": "be convinced",
+   "ex": {
+    "t": "Estoy convencida de que ella tenía razón.",
+    "ko": "그녀가 맞았다고 확신해요.",
+    "en": "I am convinced she was right."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "el desastre",
+   "pos": "noun",
+   "ko": "재앙",
+   "en": "disaster",
+   "ex": {
+    "t": "Podría acabar en desastre si no nos preparamos.",
+    "ko": "대비하지 않으면 재앙이 될 수 있어요.",
+    "en": "It could end in disaster if we don't prepare."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "de haberlo sabido, … · en caso de necesitar …, … · de + infinitivo, …",
+   "en": "Inverted conditionals: Had I known, Were he to, Should you need"
+  },
+  "explain": {
+   "ko": "si 없이 조건을 만드는 방법이 있습니다. ① 비현실 과거: De haberlo sabido, me habría preparado. (= Si lo hubiera sabido) ② 가능성: En caso de necesitar ayuda, no dude en contactarnos. (= Si necesitara) ③ 현재·미래 가정: De dimitir ahora, la empresa sufriría una gran pérdida. ④ 확인: De cancelarse el evento, se lo comunicaremos de inmediato. ⑤ 부정: De no haber sido por él, … ⑥ 조언: De ocurrir eso, lo hablaremos entonces. de + 부정사/완료 부정사는 공식 문서에서 자주 쓰입니다.",
+   "en": "There are ways to form conditions without si. First, unreal past: De haberlo sabido, me habría preparado. (= Si lo hubiera sabido) Second, possibility: En caso de necesitar ayuda, no dude en contactarnos. (= Si necesitara) Third, present or future: De dimitir ahora, la empresa sufriría una gran pérdida. Fourth, confirmation: De cancelarse el evento, se lo comunicaremos de inmediato. Fifth, negation: De no haber sido por él, … Sixth, advice: De ocurrir eso, lo hablaremos entonces. De + infinitive or perfect infinitive is frequent in formal writing."
+  },
+  "table": {
+   "head": [
+    "기능 / Función",
+    "표현 / Expresión",
+    "예문 / Ejemplo"
+   ],
+   "rows": [
+    [
+     "비현실 과거 / Irreal",
+     "de + haber + part.",
+     "De haberlo sabido, habría ido."
+    ],
+    [
+     "가능성 / Posibilidad",
+     "en caso de + 부정사",
+     "En caso de necesitar ayuda, llame."
+    ],
+    [
+     "가정 / Hipótesis",
+     "de + 부정사",
+     "De dimitir, la empresa perdería."
+    ],
+    [
+     "부정 / Negación",
+     "de no + 부정사",
+     "De no ser por él, …"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "de + 부정사의 주어는 주절과 같거나 문맥으로 분명해야 합니다.",
+    "en": "The subject should be clear from context."
+   },
+   {
+    "ko": "주절에는 condicional을 씁니다.",
+    "en": "The main clause takes the conditional."
+   },
+   {
+    "ko": "격식체이므로 일상 대화에서는 si를 쓰세요.",
+    "en": "Use si in everyday speech."
+   }
+  ],
+  "examples": [
+   {
+    "t": "De haberlo sabido, me habría preparado.",
+    "ko": "미리 알았더라면 준비했을 거예요.",
+    "en": "Had I known, I would have prepared."
+   },
+   {
+    "t": "En caso de necesitar ayuda, póngase en contacto con nosotros.",
+    "ko": "필요하시면 언제든 연락 주세요.",
+    "en": "Should you need any help, please contact us."
+   },
+   {
+    "t": "De pedir perdón, aun así no lo perdonaría.",
+    "ko": "그가 사과한다 해도 저는 용서하지 않을 거예요.",
+    "en": "Were he to apologise, I still wouldn't forgive him."
+   },
+   {
+    "t": "De haber oído la noticia, no habríamos venido.",
+    "ko": "그 소식을 들었더라면 오지 않았을 거예요.",
+    "en": "Had we heard the news, we wouldn't have come."
+   },
+   {
+    "t": "De cambiar el plan, se lo comunicaremos.",
+    "ko": "계획이 바뀐다면 알려 드리겠습니다.",
+    "en": "Should the plan change, we will let you know."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "De ___ sabido, me habría preparado.",
+    "options": [
+     "haberlo",
+     "habiendo",
+     "haber"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "En ___ de necesitar ayuda, contacte con nosotros.",
+    "options": [
+     "caso",
+     "casa",
+     "cosa"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "De ___ el evento, se lo diremos.",
+    "options": [
+     "cancelarse",
+     "cancelado",
+     "cancelaría"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "De no ___ por él, habría sido imposible.",
+    "options": [
+     "ser",
+     "sido",
+     "es"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Qué habría hecho de haberlo sabido de antemano?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 미리 알았더라면 어떻게 하셨을까요?",
+     "en": "(Question) What would you have done had you known in advance?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "De haberlo sabido, me habría preparado más.",
+       "Haber sabido de me habría preparado.",
+       "De saber habría haberlo más."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Qué debo hacer si cambia el horario?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 일정이 바뀌면 어떻게 해야 하나요?",
+     "en": "(Question) What should I do if the schedule changes?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "De cambiar, se lo diré.",
+       "Cambiar de se lo diré.",
+       "De se cambiar lo diré."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "De haber sabido que cancelarían el evento, no habría reservado el hotel."
+      },
+      {
+       "s": "B",
+       "t": "¿Pueden devolverte el dinero?"
+      },
+      {
+       "s": "A",
+       "t": "De confirmarse la cancelación, lo reembolsarán todo."
+      },
+      {
+       "s": "B",
+       "t": "Entonces esperemos a que nos digan algo."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그 행사가 취소된다는 걸 알았더라면 호텔을 예약하지 않았을 텐데.\nB: 환불은 받을 수 있어?\nA: 취소가 확정되면 전액 환불해 준대.\nB: 그럼 연락을 기다려 보자.",
+     "en": "A: Had I known the event would be cancelled, I wouldn't have booked the hotel.\nB: Can you get a refund?\nA: Should the cancellation be confirmed, they'll refund in full.\nB: Then let's wait to hear from them."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuándo reembolsarán todo?",
+      "options": [
+       "Si se confirma la cancelación",
+       "Si no hay quejas",
+       "Nunca"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Atención a todo el personal. En caso de producirse una emergencia, siga de inmediato los avisos. No utilice los ascensores; use las escaleras. En caso de necesitar ayuda, avise al miembro del personal más cercano."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원 여러분께 안내드립니다. 비상 상황이 발생하면 즉시 안내 방송을 따라 주세요. 엘리베이터를 사용하지 마시고 계단으로 이동하세요. 도움이 필요하시면 가까운 직원에게 알려 주세요.",
+     "en": "Attention all staff. Should an emergency occur, follow the announcements at once. Do not use the lifts; use the stairs. Should you need help, tell the nearest member of staff."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Qué debe hacer el personal en una emergencia?",
+      "options": [
+       "Seguir los avisos y usar las escaleras",
+       "Usar los ascensores",
+       "Salir corriendo"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Recepción, dígame."
+      },
+      {
+       "s": "B",
+       "t": "Quisiera cambiar de habitación."
+      },
+      {
+       "s": "A",
+       "t": "En caso de necesitar otra, dígamelo. Miraré qué hay disponible."
+      },
+      {
+       "s": "B",
+       "t": "Gracias. Me vendría bien una habitación tranquila."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 호텔 프런트입니다.\n손님: 방을 바꾸고 싶은데요.\n직원: 다른 방이 필요하시면 말씀해 주세요. 가능한 방을 확인해 드리겠습니다.\n손님: 감사합니다. 조용한 방이면 좋겠어요.",
+     "en": "Receptionist: Front desk.\nGuest: I'd like to change my room.\nReceptionist: Should you need another room, just say so. I'll check what's available.\nGuest: Thank you. A quiet room would be great."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "El huésped quiere cambiar de ______",
+      "answers": [
+       "habitación"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Le gustaría una habitación ______",
+      "answers": [
+       "tranquila"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) De ___ sabido, me habría preparado.\n2) En caso de ___ ayuda, contacte con nosotros.\n3) De pedir perdón, aun así no lo ___.",
+    "trans": {
+     "ko": "1) 미리 알았더라면 준비했을 거예요. 2) 필요하시면 언제든 연락 주세요. 3) 그가 사과한다 해도 저는 용서하지 않을 거예요.",
+     "en": "1) Had I known, I would have prepared. 2) Should you need any help, please contact us. 3) Were he to apologise, I still wouldn't forgive him."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "De ___ sabido, me habría preparado.",
+      "options": [
+       "haberlo",
+       "habiendo",
+       "haber"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "En caso de ___ ayuda, contacte con nosotros.",
+      "options": [
+       "necesitar",
+       "necesito",
+       "necesitado"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "De pedir perdón, aun así no lo ___.",
+      "options": [
+       "perdonaría",
+       "perdonó",
+       "perdone"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Muchos vecinos sufrieron cuando una fuerte lluvia golpeó la ciudad. De haberse emitido la alerta un poco antes, los daños habrían sido menores. De volver a producirse una lluvia similar, el ayuntamiento prevé dictar las órdenes de evacuación con más (1). Se (2) a los vecinos que se registren en el servicio de (3).",
+    "trans": {
+     "ko": "그 도시에 폭우가 내렸을 때 많은 주민이 피해를 입었다. 경보가 조금만 일찍 발령되었더라면 피해는 줄었을 것이다. 앞으로 비슷한 폭우가 다시 온다면 시는 더 빠르게 대피령을 내릴 계획이다. 주민은 알림 서비스에 가입해야 한다.",
+     "en": "Many residents suffered when heavy rain hit the city. Had the warning been issued a little earlier, the damage would have been smaller. Should similar rain return, the city plans to issue evacuation orders more quickly. Residents are advised to register for the alert service."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "rapidez",
+       "rápido",
+       "rápidamente a"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "aconseja",
+       "aconsejar",
+       "aconsejo"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "alertas",
+       "alertar",
+       "alertó"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "CORREO\nCambios en el contrato\nEn caso de querer modificar las condiciones del contrato, le rogamos que nos lo comunique por escrito antes de este viernes. De no recibirse ninguna petición, se mantendrán las condiciones actuales. En caso de tener más preguntas, póngase en contacto con nosotros.",
+    "trans": {
+     "ko": "이메일\n계약 변경 안내\n귀하께서 계약 조건을 변경하기를 원하시면 이번 주 금요일까지 서면으로 알려 주십시오. 변경 요청이 접수되지 않는다면 기존 조건이 유지됩니다. 추가 문의가 있으시면 연락 주십시오.",
+     "en": "EMAIL\nContract changes\nShould you wish to change the contract terms, please inform us in writing by this Friday. Were no request to be received, the existing terms will remain. Should you have further questions, please contact us."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cómo debe pedir el cliente los cambios?",
+      "options": [
+       "Por escrito",
+       "Por teléfono",
+       "En persona"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "¿Qué pasa si no hay ninguna petición?",
+      "options": [
+       "Se mantienen las condiciones actuales",
+       "Se cancela el contrato",
+       "Cambian las condiciones"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "El cliente debe solicitar los cambios por escrito antes del viernes. Si no hay petición, las condiciones cambian. Los clientes pueden contactar con la empresa si tienen preguntas.",
+    "trans": {
+     "ko": "고객은 금요일까지 서면으로 변경을 요청해야 한다. 요청이 없으면 계약 조건이 바뀐다. 문의가 있으면 연락할 수 있다.",
+     "en": "The customer must request changes in writing by Friday. If there is no request, the terms change. Customers can contact the company with questions."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "El cliente debe solicitar los cambios por escrito antes del viernes.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Si no hay petición, las condiciones cambian.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Los clientes pueden contactar con la empresa si tienen preguntas.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "De haberlo sabido antes, me habría preparado de otra manera.",
+    "ko": "미리 알았더라면 다르게 준비했을 거예요.",
+    "en": "Had I known earlier, I would have prepared differently.",
+    "situation": {
+     "ko": "과거 가정을 격식 있게 말할 때",
+     "en": "A formal past hypothesis"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "En caso de necesitar cualquier ayuda, no dude en ponerse en contacto con nosotros.",
+    "ko": "필요하시면 언제든지 연락 주세요.",
+    "en": "Should you need any assistance, please do not hesitate to contact us.",
+    "situation": {
+     "ko": "이메일 마무리",
+     "en": "Closing an email"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "De dimitir ahora, la empresa sufriría una gran pérdida.",
+    "ko": "그가 지금 사직한다면 회사는 큰 손실을 입을 거예요.",
+    "en": "Were he to resign now, the company would suffer a major loss.",
+    "situation": {
+     "ko": "가능성이 낮은 가정",
+     "en": "An unlikely hypothesis"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "De haberse conocido ese hecho, el resultado habría sido distinto.",
+    "ko": "그 사실이 알려졌더라면 결과는 달랐을 거예요.",
+    "en": "Had that fact been known, the outcome would have been different.",
+    "situation": {
+     "ko": "역사적 가정",
+     "en": "A historical hypothesis"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "De cancelarse el evento, se lo comunicaremos de inmediato.",
+    "ko": "행사가 취소되면 즉시 알려 드리겠습니다.",
+    "en": "Should the event be cancelled, we will notify you immediately.",
+    "situation": {
+     "ko": "공지문",
+     "en": "A notice"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "De haber ocurrido eso, habríamos tenido graves problemas.",
+    "ko": "그런 일이 일어났다면 우리는 큰 곤란을 겪었을 거예요.",
+    "en": "Had that happened, we would have been in serious trouble.",
+    "situation": {
+     "ko": "아슬아슬했던 상황을 말할 때",
+     "en": "Describing a narrow escape"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "De haber sido algo más cuidadosos, se habría podido evitar.",
+    "ko": "조금만 더 신중했더라면 피할 수 있었을 거예요.",
+    "en": "Had we been a little more careful, it could have been avoided.",
+    "situation": {
+     "ko": "아쉬움을 정중하게 말할 때",
+     "en": "Politely expressing regret"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "De ocurrir eso, lo hablaremos de nuevo entonces.",
+    "ko": "만일 그렇게 된다면 그때 다시 논의합시다.",
+    "en": "Should that happen, let us discuss it again then.",
+    "situation": {
+     "ko": "회의를 마무리할 때",
+     "en": "Wrapping up a meeting"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "De haber + participio, habría …",
+    "ko": "~했더라면 ~했을 것이다.",
+    "en": "Had I/we ~, I/we would have ..."
+   },
+   {
+    "id": "w2",
+    "t": "En caso de + infinitivo, …",
+    "ko": "만약 ~한다면 ~할 것이다.",
+    "en": "Should you/it ~, please/we will ..."
+   },
+   {
+    "id": "w3",
+    "t": "De + infinitivo, … + condicional",
+    "ko": "만약 ~라면 ~일 것이다.",
+    "en": "Were he/it to ~, ... would ..."
+   },
+   {
+    "id": "w4",
+    "t": "De no ser por …, …",
+    "ko": "~가 아니었다면 ~했을 것이다.",
+    "en": "Had it not been for ~, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "도치 조건문(Had, Should, Were)을 사용해 공식적인 안내문이나 후회를 4문장으로 써 보세요.",
+    "en": "Write 4 sentences using inverted conditionals (Had, Should, Were) in a formal notice or a regret."
+   },
+   "must_include": [
+    {
+     "label": "de haberlo sabido",
+     "match": [
+      "de haberlo sabido"
+     ]
+    },
+    {
+     "label": "de cambiar",
+     "match": [
+      "de cambiar el calendario"
+     ]
+    },
+    {
+     "label": "en caso de necesitar",
+     "match": [
+      "en caso de necesitar"
+     ]
+    },
+    {
+     "label": "de ocurrir",
+     "match": [
+      "de ocurrir de nuevo"
+     ]
+    }
+   ],
+   "model": "De haberlo sabido, me habría preparado con más detalle. De cambiar el calendario, se lo comunicaremos de inmediato. En caso de necesitar apoyo, póngase en contacto con nosotros en cualquier momento. De ocurrir de nuevo, responderíamos de otra manera.",
+   "model_trans": {
+    "ko": "미리 알았더라면 더 철저히 준비했을 것입니다. 일정이 바뀐다면 즉시 알려 드리겠습니다. 지원이 필요하시면 언제든지 연락 주세요. 그런 일이 다시 일어난다면 우리는 다른 방식으로 대응할 것입니다.",
+    "en": "Had I known, I would have prepared more thoroughly. Should the schedule change, we will let you know immediately. Should you need support, please contact us at any time. Were that to happen again, we would respond in a different way."
+   }
+  }
+ }
+}

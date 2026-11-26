@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "es_c1_u11",
+  "lang": "es",
+  "family": "europe",
+  "level": "c1",
+  "unit": 11,
+  "concept": "C1.U11",
+  "status": "live",
+  "title": {
+   "target": "Conectores avanzados en la argumentación",
+   "ko": "논증 연결어 심화",
+   "en": "Advanced linking in argument"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "además",
+   "pos": "adv",
+   "ko": "게다가",
+   "en": "moreover",
+   "ex": {
+    "t": "Además, el plan es caro.",
+    "ko": "게다가 그 계획은 비용도 많이 들어요.",
+    "en": "Moreover, the plan is expensive."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "por consiguiente",
+   "pos": "adv",
+   "ko": "따라서",
+   "en": "consequently",
+   "ex": {
+    "t": "Por consiguiente, tuvimos que cambiar el plan.",
+    "ko": "따라서 우리는 계획을 바꿔야 했어요.",
+    "en": "Consequently, we had to change the plan."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "no obstante",
+   "pos": "adv",
+   "ko": "그럼에도 불구하고",
+   "en": "nevertheless",
+   "ex": {
+    "t": "No obstante, siguió intentándolo.",
+    "ko": "그럼에도 불구하고 그는 계속 노력했어요.",
+    "en": "Nevertheless, he kept trying."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "en vista de",
+   "pos": "phrase",
+   "ko": "~을 고려하면",
+   "en": "in view of",
+   "ex": {
+    "t": "En vista de la situación, es mejor aplazarlo.",
+    "ko": "상황을 고려하면 연기하는 것이 좋겠어요.",
+    "en": "In view of the situation, it's best to postpone."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "dado que",
+   "pos": "conj",
+   "ko": "~임을 감안하면",
+   "en": "given that",
+   "ex": {
+    "t": "Dado que carece de experiencia, el resultado es impresionante.",
+    "ko": "경험이 부족함을 감안하면 결과는 놀라워요.",
+    "en": "Given that he is inexperienced, the result is impressive."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "como resultado",
+   "pos": "phrase",
+   "ko": "결과적으로",
+   "en": "as a result",
+   "ex": {
+    "t": "Como resultado, las ventas cayeron.",
+    "ko": "결과적으로 매출이 감소했어요.",
+    "en": "As a result, sales fell."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "por el contrario",
+   "pos": "adv",
+   "ko": "이와 반대로",
+   "en": "conversely",
+   "ex": {
+    "t": "Por el contrario, otras regiones crecieron.",
+    "ko": "반대로 다른 지역은 성장했어요.",
+    "en": "Conversely, other regions grew."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "en suma",
+   "pos": "phrase",
+   "ko": "요컨대",
+   "en": "in sum",
+   "ex": {
+    "t": "En suma, la política fracasó.",
+    "ko": "요컨대 이 정책은 실패했어요.",
+    "en": "In sum, the policy failed."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "alegando que",
+   "pos": "phrase",
+   "ko": "~을 근거로",
+   "en": "on the grounds that",
+   "ex": {
+    "t": "Se opusieron alegando que era costoso.",
+    "ko": "비용이 많이 든다는 이유로 반대했어요.",
+    "en": "They objected on the grounds that it was costly."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "de lo contrario",
+   "pos": "adv",
+   "ko": "그렇지 않으면",
+   "en": "otherwise",
+   "ex": {
+    "t": "Date prisa; de lo contrario, lo perderás.",
+    "ko": "서둘러요. 그렇지 않으면 놓칠 거예요.",
+    "en": "Hurry; otherwise, you'll miss it."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "además · por consiguiente · no obstante · en vista de que · dado que · en suma",
+   "en": "Advanced linkers in argument: moreover, consequently, nevertheless, in view of, given that"
+  },
+  "explain": {
+   "ko": "논증에서는 연결어로 주장의 흐름을 만듭니다. ① 추가: Además / Asimismo, esta política es costosa. ② 양보·대립: No obstante / Sin embargo, no abandonó el plan. ③ 근거: En vista de la situación actual, hace falta prudencia. / Dado que es nuevo, el resultado es excelente. ④ 결과: Como resultado / Por consiguiente, bajó la cuota de mercado. ⑤ 대조: Por el contrario, la demanda subió en algunas regiones. ⑥ 이유 제시: Se rechazó alegando que era demasiado caro. ⑦ 요약: En suma, si no actuamos ahora, será tarde.",
+   "en": "Linkers build the flow of an argument. First, addition: Además / Asimismo, esta política es costosa. Second, contrast: No obstante / Sin embargo, no abandonó el plan. Third, grounds: En vista de la situación actual, hace falta prudencia. / Dado que es nuevo, el resultado es excelente. Fourth, result: Como resultado / Por consiguiente, bajó la cuota de mercado. Fifth, opposition: Por el contrario, la demanda subió en algunas regiones. Sixth, stated reason: Se rechazó alegando que era demasiado caro. Seventh, summary: En suma, si no actuamos ahora, será tarde."
+  },
+  "table": {
+   "head": [
+    "기능 / Función",
+    "연결어 / Conectores",
+    "예문 / Ejemplo"
+   ],
+   "rows": [
+    [
+     "추가 / Adición",
+     "además · asimismo",
+     "Además, es caro."
+    ],
+    [
+     "대립 / Contraste",
+     "no obstante · sin embargo",
+     "No obstante, lo logró."
+    ],
+    [
+     "결과 / Consecuencia",
+     "por consiguiente · como resultado",
+     "Por consiguiente, bajaron las ventas."
+    ],
+    [
+     "요약 / Cierre",
+     "en suma · en definitiva",
+     "En suma, hay que actuar."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "dado que, en vista de que는 이미 알려진 사실에 근거를 제시합니다.",
+    "en": "Dado que / en vista de que present known grounds."
+   },
+   {
+    "ko": "문두 연결어 뒤에는 쉼표를 씁니다.",
+    "en": "Use a comma after sentence-initial linkers."
+   },
+   {
+    "ko": "같은 연결어를 반복하지 말고 다양하게 쓰세요.",
+    "en": "Vary your linkers."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Además, el plan es perjudicial para el medio ambiente.",
+    "ko": "게다가 그 계획은 환경에도 해로워요.",
+    "en": "Moreover, the plan is harmful to the environment."
+   },
+   {
+    "t": "Carece de experiencia; no obstante, obtuvo excelentes resultados.",
+    "ko": "그는 경험이 부족하지만 그럼에도 훌륭한 결과를 냈어요.",
+    "en": "He lacks experience; nevertheless, he achieved excellent results."
+   },
+   {
+    "t": "En vista de la situación, se aplazó la reunión.",
+    "ko": "상황을 고려해서 회의는 연기되었어요.",
+    "en": "In view of the situation, the meeting was postponed."
+   },
+   {
+    "t": "Dado que es novata, este resultado es impresionante.",
+    "ko": "경험이 부족함을 감안하면 이 결과는 놀라워요.",
+    "en": "Given that she is inexperienced, this result is impressive."
+   },
+   {
+    "t": "Como resultado, las ventas cayeron un veinte por ciento.",
+    "ko": "결과적으로 매출이 20퍼센트 감소했어요.",
+    "en": "As a result, sales fell by twenty per cent."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___, el plan es perjudicial para el medio ambiente.",
+    "options": [
+     "Además",
+     "Sin",
+     "Aunque"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Carece de experiencia; ___, obtuvo excelentes resultados.",
+    "options": [
+     "no obstante",
+     "porque",
+     "así que"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___ la situación, se aplazó la reunión.",
+    "options": [
+     "En vista de",
+     "Por culpa",
+     "A pesar"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___ que es novata, el resultado es impresionante.",
+    "options": [
+     "Dado",
+     "Aunque",
+     "Si"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Cuáles son las ventajas del teletrabajo?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 재택근무에 대해 어떤 장점이 있나요?",
+     "en": "(Question) What are the advantages of remote working?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "Aumenta la productividad. Además, ahorra tiempo.",
+       "Productividad además aumenta tiempo ahorra.",
+       "Aumenta además ahorra productividad."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Por qué se opone usted aun así?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그럼에도 불구하고 왜 반대하나요?",
+     "en": "(Question) Why do you object nevertheless?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "No obstante, sigo teniendo dudas.",
+       "Obstante no dudas sigo teniendo.",
+       "Dudas no obstante tengo sigo."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Apoyas la propuesta?"
+      },
+      {
+       "s": "B",
+       "t": "En parte. Bajarán los costes y, además, aumentará la satisfacción del personal."
+      },
+      {
+       "s": "A",
+       "t": "No obstante, hay quien se opone, ¿no?"
+      },
+      {
+       "s": "B",
+       "t": "Sí, temen que se debilite el trabajo en equipo."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이번 제안에 찬성이야?\nB: 부분적으로는 찬성이야. 비용이 줄어드는 것은 사실이지만 게다가 직원 만족도도 오를 거야.\nA: 그럼에도 불구하고 반대하는 사람도 있지 않아?\nB: 있지. 팀워크가 약해질까 걱정하거든.",
+     "en": "A: Do you support the proposal?\nB: In part. Costs will fall, and moreover staff satisfaction will rise.\nA: Nevertheless, some people object, don't they?\nB: Yes, they worry that teamwork will weaken."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Qué temen algunos?",
+      "options": [
+       "Que se debilite el trabajo en equipo",
+       "Que suban los costes",
+       "Que se pierda el empleo"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Las ventas cayeron mucho el trimestre pasado. Como resultado, tuvimos que preparar un plan de reducción de costes. Dado que la competencia era feroz, se esperaba este descenso. En suma, nuestro objetivo este año es la estabilidad."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "지난 분기 매출이 크게 감소했습니다. 결과적으로 우리는 비용 절감 계획을 세워야 했습니다. 경쟁이 치열했음을 감안하면 이 정도 하락은 예상된 것입니다. 요컨대 올해는 안정이 목표입니다.",
+     "en": "Sales fell sharply last quarter. As a result, we had to draw up a cost-cutting plan. Given that competition was fierce, this decline was expected. In sum, our aim this year is stability."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Por qué se esperaba el descenso?",
+      "options": [
+       "La competencia era feroz",
+       "Hubo poca demanda",
+       "Hubo una huelga"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Quisiera escuchar opiniones sobre este punto."
+      },
+      {
+       "s": "B",
+       "t": "Este plan es costoso. Además, su efecto es incierto."
+      },
+      {
+       "s": "A",
+       "t": "¿Es decir, se opone?"
+      },
+      {
+       "s": "B",
+       "t": "Sí, sería mejor aplazarlo por ahora."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의장: 이 안건에 대한 의견을 듣겠습니다.\n위원: 이 계획은 비용이 많이 듭니다. 게다가 효과도 불확실합니다.\n의장: 그럼 반대하시는 건가요?\n위원: 네, 지금은 연기하는 것이 좋겠습니다.",
+     "en": "Chair: I'd like to hear views on this item.\nMember: This plan is costly. Moreover, its effect is uncertain.\nChair: So you are opposed?\nMember: Yes, it would be better to postpone it for now."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "El plan es costoso y su efecto es ______",
+      "answers": [
+       "incierto"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "El miembro cree que es mejor ______ el plan",
+      "answers": [
+       "aplazarlo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___, el plan es perjudicial para el medio ambiente.\n2) Carece de experiencia; ___, obtuvo excelentes resultados.\n3) ___, las ventas cayeron.",
+    "trans": {
+     "ko": "1) 게다가 그 계획은 환경에도 해로워요. 2) 그는 경험이 부족하지만 그럼에도 훌륭한 결과를 냈어요. 3) 결과적으로 매출이 감소했어요.",
+     "en": "1) Moreover, the plan is harmful to the environment. 2) He lacks experience; nevertheless, he achieved excellent results. 3) As a result, sales fell."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___, el plan es perjudicial para el medio ambiente.",
+      "options": [
+       "Además",
+       "Sin",
+       "Aunque"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Carece de experiencia; ___, obtuvo excelentes resultados.",
+      "options": [
+       "no obstante",
+       "porque",
+       "así que"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___, las ventas cayeron.",
+      "options": [
+       "Como resultado",
+       "Porque",
+       "Si bien"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Ampliar los carriles bici de la ciudad beneficia al medio ambiente. Además, mejora la (1) de los ciudadanos. No obstante, algunos comerciantes se oponen (2) que se reducirán las plazas de aparcamiento. En suma, hace falta una consulta (3).",
+    "trans": {
+     "ko": "도시의 자전거 도로 확대는 환경에 도움이 됩니다. 게다가 시민의 건강도 개선됩니다. 그럼에도 불구하고 일부 상점 주인은 주차 공간이 줄어든다고 반대합니다. 요컨대 충분한 협의가 필요합니다.",
+     "en": "Expanding the city's cycle lanes benefits the environment. Moreover, citizens' health improves. Nevertheless, some shop owners object that parking spaces will be reduced. In sum, adequate consultation is needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "salud",
+       "sano",
+       "sanar"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "alegando",
+       "alegar",
+       "alegado"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "adecuada",
+       "adecuado",
+       "adecuar"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "EDITORIAL\nClases más cortas\nHa surgido una propuesta para acortar las clases. En vista de la concentración de los alumnos, tiene cierto sentido. Sin embargo, también preocupa que los profesores no tengan tiempo para cubrir todo el temario. Por consiguiente, hace falta una prueba piloto rigurosa.",
+    "trans": {
+     "ko": "사설\n수업 시간 단축\n수업 시간을 줄이자는 제안이 나왔다. 학생의 집중력을 고려하면 일리가 있다. 하지만 교사가 모든 내용을 가르치기에 시간이 부족하다는 우려도 있다. 따라서 충분한 시범 운영이 필요하다.",
+     "en": "EDITORIAL\nShorter lessons\nA proposal to shorten lessons has emerged. In view of students' concentration, it makes some sense. However, there is also concern that teachers will lack time to cover everything. Consequently, a thorough trial is needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Qué propuesta ha surgido?",
+      "options": [
+       "Acortar las clases",
+       "Alargar las clases",
+       "Eliminar los exámenes"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "¿Qué hace falta según el editorial?",
+      "options": [
+       "Una prueba piloto rigurosa",
+       "Aprobar ya la medida",
+       "Rechazar la medida"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "El editorial cree que la propuesta de acortar las clases tiene cierto mérito. Todos los profesores apoyan la propuesta. El editorial recomienda una prueba piloto.",
+    "trans": {
+     "ko": "사설은 수업 시간 단축 제안에 일리가 있다고 본다. 교사는 모두 이 제안에 찬성한다. 사설은 시범 운영을 권한다.",
+     "en": "The editorial thinks the proposal to shorten lessons has some merit. All teachers support the proposal. The editorial recommends a trial."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "El editorial cree que la propuesta de acortar las clases tiene cierto mérito.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Todos los profesores apoyan la propuesta.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "El editorial recomienda una prueba piloto.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 0
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Además, esta política es costosa.",
+    "ko": "게다가 이 정책은 비용도 많이 듭니다.",
+    "en": "Moreover, this policy is costly.",
+    "situation": {
+     "ko": "논거를 덧붙일 때",
+     "en": "Adding a further argument"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "No obstante, no abandonó el plan.",
+    "ko": "그럼에도 불구하고 그는 계획을 포기하지 않았어요.",
+    "en": "Nevertheless, he did not abandon the plan.",
+    "situation": {
+     "ko": "반론을 인정하며 반박할 때",
+     "en": "Conceding yet pushing on"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "En vista de la situación actual, hace falta un enfoque prudente.",
+    "ko": "현 상황을 고려할 때 신중한 접근이 필요합니다.",
+    "en": "In view of the current situation, a cautious approach is needed.",
+    "situation": {
+     "ko": "근거를 제시할 때",
+     "en": "Giving grounds"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Dado que es nuevo, el resultado es excelente.",
+    "ko": "그가 신입이라는 점을 감안하면 결과는 훌륭해요.",
+    "en": "Given that he is new, the result is excellent.",
+    "situation": {
+     "ko": "맥락을 감안해 평가할 때",
+     "en": "Evaluating in context"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Como resultado, bajó la cuota de mercado.",
+    "ko": "결과적으로 시장 점유율이 하락했습니다.",
+    "en": "As a result, market share declined.",
+    "situation": {
+     "ko": "결과를 제시할 때",
+     "en": "Presenting a result"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Por el contrario, la demanda subió en algunas regiones.",
+    "ko": "반대로 일부 지역에서는 수요가 증가했어요.",
+    "en": "Conversely, demand rose in some regions.",
+    "situation": {
+     "ko": "대조를 제시할 때",
+     "en": "Presenting a contrast"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Se rechazó el plan alegando que era demasiado costoso.",
+    "ko": "비용이 지나치게 크다는 이유로 계획은 거부되었어요.",
+    "en": "The plan was rejected on the grounds that it was too costly.",
+    "situation": {
+     "ko": "이유를 밝힐 때",
+     "en": "Stating grounds"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "En suma, si no actuamos ahora, será demasiado tarde.",
+    "ko": "요컨대 지금 행동하지 않으면 늦을 것입니다.",
+    "en": "In sum, if we do not act now, it will be too late.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Además / Asimismo, …",
+    "ko": "게다가 ~",
+    "en": "Moreover/Furthermore/What is more, ..."
+   },
+   {
+    "id": "w2",
+    "t": "No obstante / Sin embargo, …",
+    "ko": "그럼에도 불구하고 ~",
+    "en": "Nevertheless/Nonetheless/Even so, ..."
+   },
+   {
+    "id": "w3",
+    "t": "En vista de / Dado que …, …",
+    "ko": "~을 고려하면 ~",
+    "en": "In view of/Given that ..., ..."
+   },
+   {
+    "id": "w4",
+    "t": "Como resultado / Por consiguiente, …",
+    "ko": "결과적으로 ~",
+    "en": "As a result/Consequently, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "연결어를 사용해 한 가지 주장을 뒷받침하는 논증 단락을 4문장으로 써 보세요.",
+    "en": "Write a four-sentence argument paragraph using advanced linkers."
+   },
+   "must_include": [
+    {
+     "label": "además",
+     "match": [
+      "además"
+     ]
+    },
+    {
+     "label": "no obstante",
+     "match": [
+      "no obstante"
+     ]
+    },
+    {
+     "label": "en suma",
+     "match": [
+      "en suma"
+     ]
+    },
+    {
+     "label": "híbrido",
+     "match": [
+      "híbrido"
+     ]
+    }
+   ],
+   "model": "El teletrabajo puede aumentar la productividad. Además, los desplazamientos más cortos mejoran la satisfacción del personal. No obstante, preocupa que se debilite el trabajo en equipo. En suma, las empresas deberían introducir un sistema de trabajo híbrido.",
+   "model_trans": {
+    "ko": "재택근무는 생산성을 높일 수 있습니다. 게다가 통근 시간이 줄어 직원의 만족도도 높아집니다. 그럼에도 불구하고 팀워크가 약해질 수 있다는 우려가 있습니다. 요컨대 회사는 혼합 근무 제도를 도입해야 합니다.",
+    "en": "Remote working can raise productivity. Moreover, shorter commuting times improve staff satisfaction. Nevertheless, there is concern that teamwork may weaken. In sum, companies should introduce a hybrid working system."
+   }
+  }
+ }
+}
