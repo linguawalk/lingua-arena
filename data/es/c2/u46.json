@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "es_c2_u46",
+  "lang": "es",
+  "family": "europe",
+  "level": "c2",
+  "unit": 46,
+  "concept": "C2.U46",
+  "status": "live",
+  "title": {
+   "target": "Edición: concisión y estilo",
+   "ko": "간결한 문장과 문체 다듬기",
+   "en": "Editing for concision and style"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "recortar",
+   "pos": "noun",
+   "ko": "군더더기",
+   "en": "redundancy",
+   "ex": {
+    "t": "Hay que recortar el texto.",
+    "ko": "문장에서 군더더기를 줄이세요.",
+    "en": "Cut the redundancy from your sentence."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "tachar",
+   "pos": "noun",
+   "ko": "장황함",
+   "en": "wordiness",
+   "ex": {
+    "t": "Tache los adjetivos superfluos.",
+    "ko": "장황함은 독자를 지치게 해요.",
+    "en": "Wordiness tires the reader."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "la muletilla",
+   "pos": "phrase",
+   "ko": "능동태",
+   "en": "active voice",
+   "ex": {
+    "t": "Una muletilla no aporta nada.",
+    "ko": "능동태가 더 힘 있어요.",
+    "en": "The active voice is more forceful."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "el gazapo",
+   "pos": "noun",
+   "ko": "명사화",
+   "en": "nominalisation",
+   "ex": {
+    "t": "Este gazapo es involuntariamente cómico.",
+    "ko": "명사화는 문장을 무겁게 해요.",
+    "en": "Nominalisation makes a sentence heavy."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "la sintaxis",
+   "pos": "noun",
+   "ko": "병렬 구조",
+   "en": "parallelism",
+   "ex": {
+    "t": "La sintaxis es demasiado enrevesada.",
+    "ko": "병렬 구조는 리듬을 만들어요.",
+    "en": "Parallelism creates rhythm."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "conciso",
+   "pos": "verb",
+   "ko": "간결하게 하다",
+   "en": "tighten",
+   "ex": {
+    "t": "El título es conciso.",
+    "ko": "문장을 간결하게 다듬으세요.",
+    "en": "Tighten your sentences."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "revisar",
+   "pos": "adj",
+   "ko": "불필요한",
+   "en": "superfluous",
+   "ex": {
+    "t": "Revisa el borrador.",
+    "ko": "불필요한 단어를 지우세요.",
+    "en": "Delete superfluous words."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "la repetición",
+   "pos": "adj",
+   "ko": "명료한",
+   "en": "lucid",
+   "ex": {
+    "t": "Evite las repeticiones.",
+    "ko": "그의 글은 명료해요.",
+    "en": "His writing is lucid."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "la oración subordinada",
+   "pos": "verb",
+   "ko": "교정하다",
+   "en": "revise",
+   "ex": {
+    "t": "Esta oración está llena de subordinadas.",
+    "ko": "초고를 여러 번 교정했어요.",
+    "en": "I revised the draft several times."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "ir al grano",
+   "pos": "adj",
+   "ko": "어색한",
+   "en": "clumsy",
+   "ex": {
+    "t": "Vaya usted al grano.",
+    "ko": "그 문장은 어색해요.",
+    "en": "That sentence is clumsy."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "recortar · tachar · muletilla · gazapo · sintaxis · conciso",
+   "en": "Editing: recortar, tachar, muletilla, gazapo, sintaxis, conciso"
+  },
+  "explain": {
+   "ko": "편집(edición)은 글을 간결하고 명료하게 다듬는 일입니다. 기법: recortar(압축하다), tachar(삭제하다), muletillas(군더더기 표현: pues, o sea, digamos) 제거, repeticiones 피하기, 긴 복합문 나누기, 명사화 대신 동사 쓰기. 목표는 conciso(간결하고 명확)한 문장입니다. 예: «Se procedió a la realización de la entrega» → «Se entregó». 편집 후에는 소리 내어 읽으며 리듬을 점검하세요.",
+   "en": "Editing makes writing concise and clear. Techniques: recortar, tachar, remove muletillas (pues, o sea, digamos), avoid repeticiones, split tangled sentences, prefer verbs to nominalisations. The goal is conciso prose. Example: «Se procedió a la realización de la entrega» → «Se entregó». Read aloud afterwards to check rhythm."
+  },
+  "table": {
+   "head": [
+    "문제 / Problema",
+    "해결 / Solución",
+    "예문 / Ejemplo"
+   ],
+   "rows": [
+    [
+     "muletilla",
+     "삭제 / tachar",
+     "Pues, o sea, es importante → Es importante."
+    ],
+    [
+     "oración enrevesada",
+     "나누기 / dividir",
+     "Dos oraciones cortas."
+    ],
+    [
+     "nominalización",
+     "동사로 / verbos",
+     "Se entregó."
+    ],
+    [
+     "repetición",
+     "다양화 / variar",
+     "Usar sinónimos."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "불필요한 단어를 먼저 지우세요.",
+    "en": "Cut needless words first."
+   },
+   {
+    "ko": "긴 문장은 둘로 나누세요.",
+    "en": "Split long sentences."
+   },
+   {
+    "ko": "소리 내어 읽어 보세요.",
+    "en": "Read aloud."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Hay que recortar el texto.",
+    "ko": "문장에서 군더더기를 줄이세요.",
+    "en": "Cut the redundancy from your sentence."
+   },
+   {
+    "t": "Tache los adjetivos superfluos.",
+    "ko": "능동태가 더 힘 있어요.",
+    "en": "The active voice is more forceful."
+   },
+   {
+    "t": "Una muletilla no aporta nada.",
+    "ko": "명사화는 문장을 무겁게 해요.",
+    "en": "Nominalisation makes a sentence heavy."
+   },
+   {
+    "t": "El título es conciso.",
+    "ko": "불필요한 단어를 지우세요.",
+    "en": "Delete superfluous words."
+   },
+   {
+    "t": "Evite las repeticiones.",
+    "ko": "그의 글은 명료해요.",
+    "en": "His writing is lucid."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Hay que ___ el texto.",
+    "options": [
+     "recortar",
+     "recorte",
+     "recortado"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___ los adjetivos superfluos.",
+    "options": [
+     "Tache",
+     "Tacha",
+     "Tachar"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Una ___ no aporta nada.",
+    "options": [
+     "muletilla",
+     "muleta",
+     "mulata"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "El título es ___.",
+    "options": [
+     "conciso",
+     "concisión",
+     "concretar"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Qué hay que hacer con el texto?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 명사화란 무엇인가요?",
+     "en": "(Question) What is nominalisation?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "Recortarlo.",
+       "Alargarlo.",
+       "Esconderlo."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Qué es una muletilla?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 간결한 글을 쓰려면 어떻게 해야 하나요?",
+     "en": "(Question) How do you write concisely?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "Una palabra sin contenido real.",
+       "Una palabra larga.",
+       "Una palabra extranjera."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Tu texto es demasiado largo."
+      },
+      {
+       "s": "B",
+       "t": "Tengo que recortarlo."
+      },
+      {
+       "s": "A",
+       "t": "Tacha las muletillas y divide las oraciones enrevesadas."
+      },
+      {
+       "s": "B",
+       "t": "Así quedará más conciso."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 문장은 너무 장황해.\nB: 어떻게 고치면 좋을까?\nA: 능동태로 바꾸고 불필요한 단어를 지워.\nB: 알겠어. 소리 내어 읽어 보면서 고쳐 볼게.",
+     "en": "A: This sentence is too wordy.\nB: How should I fix it?\nA: Switch to the active voice and delete superfluous words.\nB: OK. I'll revise it by reading aloud."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Qué le pasará al texto?",
+      "options": [
+       "Quedará más conciso",
+       "Será más largo",
+       "Será prohibido"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Editar significa hacer un texto más legible. Se tachan las palabras superfluas, se dividen las oraciones largas y se cambian las nominalizaciones abstractas por verbos. Cada palabra debe aportar algo. Al final se lee el texto en voz alta para comprobar el ritmo."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "간결한 글쓰기는 독자의 시간을 존중하는 일입니다. 군더더기를 줄이고, 능동태와 구체적인 동사를 쓰며, 명사화를 피하면 문장이 선명해집니다. 병렬 구조는 정보를 균형 있게 정리하고 리듬을 만들어 줍니다.",
+     "en": "Concise writing respects the reader's time. Cutting redundancy, using the active voice and concrete verbs, and avoiding nominalisation make sentences clear. Parallelism arranges information in balance and creates rhythm."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Qué se hace al final?",
+      "options": [
+       "Leer el texto en voz alta",
+       "Añadir palabras",
+       "Tirarlo"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Dónde ve problemas?"
+      },
+      {
+       "s": "B",
+       "t": "Las repeticiones y la sintaxis enrevesada."
+      },
+      {
+       "s": "A",
+       "t": "Entonces recortamos primero la introducción."
+      },
+      {
+       "s": "B",
+       "t": "De acuerdo."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "작가: 이 단락을 줄이고 싶습니다.\n편집자: 군더더기를 먼저 지우세요.\n작가: 그다음은요?\n편집자: 병렬 구조로 다듬으세요.",
+     "en": "Writer: I want to shorten this paragraph.\nEditor: First delete the redundancy.\nWriter: And then?\nEditor: Tighten it with parallel structure."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "las repeticiones y la sintaxis ______",
+      "answers": [
+       "enrevesada"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "recortamos primero la ______",
+      "answers": [
+       "introducción"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Hay que ___ el texto.\n2) ___ los adjetivos superfluos.\n3) El título es ___.",
+    "trans": {
+     "ko": "1) 문장에서 군더더기를 줄이세요. 2) 능동태가 더 힘 있어요. 3) 그의 글은 명료해요.",
+     "en": "1) Cut the redundancy from your sentence. 2) The active voice is more forceful. 3) His writing is lucid."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Hay que ___ el texto.",
+      "options": [
+       "recortar",
+       "recorte",
+       "recortado"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___ los adjetivos superfluos.",
+      "options": [
+       "Tache",
+       "Tacha",
+       "Tachar"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "El título es ___.",
+      "options": [
+       "conciso",
+       "concisión",
+       "concretar"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Él (1) el borrador. Esta oración es (2) y difícil de leer. Evite las (3).",
+    "trans": {
+     "ko": "그는 초고를 여러 번 교정했다. 장황한 문장을 능동태로 바꾸고 불필요한 단어를 지웠다. 결국 글은 훨씬 명료해졌다.",
+     "en": "He revised the draft several times. He changed wordy sentences to the active voice and deleted superfluous words. In the end, the writing became much more lucid."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "revisa",
+       "revisar",
+       "revisión"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "enrevesada",
+       "enredo",
+       "revés"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "repeticiones",
+       "repetir",
+       "repetido"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "CONSEJOS\nEscribir es tachar\nLos buenos autores revisan sus textos varias veces. Tachan muletillas, dividen oraciones enrevesadas y sustituyen palabras vagas por otras exactas. El resultado es más breve y claro. Quien tacha respeta el tiempo del lector.",
+    "trans": {
+     "ko": "글쓰기 강의\n간결함의 기술\n간결한 글은 독자의 시간을 존중합니다. 군더더기를 줄이고 능동태를 쓰세요. 마지막으로 소리 내어 읽어 어색한 부분을 찾아내세요.",
+     "en": "WRITING LECTURE\nThe art of concision\nConcise writing respects the reader's time. Cut redundancy and use the active voice. Finally, read aloud to find clumsy passages."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Qué hacen los buenos autores?",
+      "options": [
+       "Revisan varias veces",
+       "Nunca reescriben",
+       "Evitan los verbos"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "¿Qué respeta quien tacha?",
+      "options": [
+       "El tiempo del lector",
+       "La editorial",
+       "El precio"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Julia devolvió su borrador. La editora había marcado muchas muletillas. Ella recortó el texto un tercio.",
+    "trans": {
+     "ko": "강의는 간결한 글이 독자의 시간을 존중한다고 본다. 강의는 수동태를 항상 쓰라고 한다. 강의는 소리 내어 읽어 어색한 부분을 찾으라고 한다.",
+     "en": "The lecture says concise writing respects the reader's time. The lecture says to always use the passive. The lecture says to read aloud to find clumsy passages."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Julia recortó el texto.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "El texto se alargó.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "La editora vive en Hamburgo.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Hay que recortar el texto.",
+    "ko": "'과거의 역사'에서 '과거의'는 군더더기입니다.",
+    "en": "In 'past history', 'past' is redundant.",
+    "situation": {
+     "ko": "군더더기를 지적할 때",
+     "en": "Pointing out redundancy"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Tache los adjetivos superfluos.",
+    "ko": "'결정이 이루어졌다' 대신 '우리가 결정했다'라고 쓰세요.",
+    "en": "Write 'We decided' instead of 'A decision was made'.",
+    "situation": {
+     "ko": "능동태를 권할 때",
+     "en": "Recommending the active voice"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Una muletilla no aporta nada.",
+    "ko": "'검토를 수행했다'보다 '검토했다'가 더 간결합니다.",
+    "en": "'We reviewed' is tighter than 'We carried out a review'.",
+    "situation": {
+     "ko": "명사화를 줄일 때",
+     "en": "Reducing nominalisation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "El título es conciso.",
+    "ko": "병렬 구조는 문장에 균형과 리듬을 줍니다.",
+    "en": "Parallelism gives a sentence balance and rhythm.",
+    "situation": {
+     "ko": "병렬을 설명할 때",
+     "en": "Explaining parallelism"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "La sintaxis es demasiado enrevesada.",
+    "ko": "장황한 문장은 핵심을 가립니다.",
+    "en": "A wordy sentence obscures the point.",
+    "situation": {
+     "ko": "장황함을 비판할 때",
+     "en": "Criticising wordiness"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Revisa el borrador.",
+    "ko": "초고를 소리 내어 읽으면 어색한 부분이 들립니다.",
+    "en": "Reading a draft aloud lets you hear clumsy passages.",
+    "situation": {
+     "ko": "교정 요령",
+     "en": "A revision tip"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Evite las repeticiones.",
+    "ko": "명료한 글은 불필요한 단어가 없는 글입니다.",
+    "en": "Lucid writing is writing without superfluous words.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Vaya usted al grano.",
+    "ko": "간결함이 단순함을 뜻하는 것은 아닙니다.",
+    "en": "Concision does not mean simplicity.",
+    "situation": {
+     "ko": "오해를 바로잡을 때",
+     "en": "Correcting a misconception"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "recortar / tachar.",
+    "ko": "~ 대신 ~라고 쓰다.",
+    "en": "write ... instead of ..."
+   },
+   {
+    "id": "w2",
+    "t": "la muletilla.",
+    "ko": "불필요한 단어를 지우다.",
+    "en": "delete superfluous words"
+   },
+   {
+    "id": "w3",
+    "t": "la sintaxis enrevesada.",
+    "ko": "소리 내어 읽다.",
+    "en": "read aloud"
+   },
+   {
+    "id": "w4",
+    "t": "conciso.",
+    "ko": "간결하게 다듬다.",
+    "en": "tighten"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "장황한 문장 한 개를 간결하게 고쳐 쓰고, 어떤 원칙을 적용했는지 4문장으로 설명해 보세요.",
+    "en": "Rewrite one wordy sentence concisely and explain in four sentences which principles you applied."
+   },
+   "must_include": [
+    {
+     "label": "recortar",
+     "match": [
+      "recortar"
+     ]
+    },
+    {
+     "label": "muletilla",
+     "match": [
+      "muletilla"
+     ]
+    },
+    {
+     "label": "enrevesada",
+     "match": [
+      "enrevesada"
+     ]
+    },
+    {
+     "label": "conciso",
+     "match": [
+      "conciso"
+     ]
+    }
+   ],
+   "model": "Hay que recortar el texto. Tache cada muletilla y divida la sintaxis enrevesada. Así será conciso.",
+   "model_trans": {
+    "ko": "원문은 '결정이 이루어졌다'였지만 '우리가 결정했다'로 고쳤어요. 능동태로 바꾸어 문장이 힘 있어졌어요. 불필요한 단어도 지웠어요. 간결함은 단순함이 아니라 명료함을 위한 것이에요.",
+    "en": "The original was 'A decision was made', but I changed it to 'We decided'. Switching to the active voice made the sentence more forceful. I also deleted superfluous words. Concision is for lucidity, not for simplicity."
+   }
+  }
+ }
+}

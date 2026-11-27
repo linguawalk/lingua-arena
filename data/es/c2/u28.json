@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "es_c2_u28",
+  "lang": "es",
+  "family": "europe",
+  "level": "c2",
+  "unit": 28,
+  "concept": "C2.U28",
+  "status": "live",
+  "title": {
+   "target": "Voz narrativa y estilo indirecto libre",
+   "ko": "서술 시점과 자유간접화법",
+   "en": "Narrative voice and free indirect discourse"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "el narrador",
+   "pos": "noun",
+   "ko": "서술자",
+   "en": "narrator",
+   "ex": {
+    "t": "El narrador cuenta su propia historia.",
+    "ko": "서술자는 사건을 회상해요.",
+    "en": "The narrator recalls the events."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "el punto de vista",
+   "pos": "phrase",
+   "ko": "시점",
+   "en": "point of view",
+   "ex": {
+    "t": "El punto de vista cambia en el tercer capítulo.",
+    "ko": "이 소설은 1인칭 시점이에요.",
+    "en": "The novel is in the first-person point of view."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "omnisciente",
+   "pos": "adj",
+   "ko": "전지적인",
+   "en": "omniscient",
+   "ex": {
+    "t": "El narrador omnisciente conoce todos los pensamientos.",
+    "ko": "전지적 서술자는 모든 인물의 속마음을 알아요.",
+    "en": "An omniscient narrator knows every character's mind."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "no fiable",
+   "pos": "phrase",
+   "ko": "신뢰할 수 없는 서술자",
+   "en": "unreliable narrator",
+   "ex": {
+    "t": "Un narrador no fiable engaña al lector.",
+    "ko": "그는 신뢰할 수 없는 서술자예요.",
+    "en": "He is an unreliable narrator."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "el estilo indirecto libre",
+   "pos": "phrase",
+   "ko": "자유간접화법",
+   "en": "free indirect discourse",
+   "ex": {
+    "t": "El estilo indirecto libre mezcla voz y pensamiento.",
+    "ko": "작가는 자유간접화법을 즐겨 써요.",
+    "en": "The author favours free indirect discourse."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "la focalización",
+   "pos": "phrase",
+   "ko": "내적 독백",
+   "en": "interior monologue",
+   "ex": {
+    "t": "La focalización interna sigue a un personaje.",
+    "ko": "그 장면은 내적 독백으로 이루어져 있어요.",
+    "en": "The scene is made of interior monologue."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "en primera persona",
+   "pos": "noun",
+   "ko": "초점 인물",
+   "en": "focaliser",
+   "ex": {
+    "t": "La novela está narrada en primera persona.",
+    "ko": "초점 인물은 장면을 해석해요.",
+    "en": "The focaliser interprets the scene."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "el imperfecto",
+   "pos": "verb",
+   "ko": "거리를 두다",
+   "en": "distance",
+   "ex": {
+    "t": "El imperfecto domina este pasaje.",
+    "ko": "서술자는 인물과 거리를 두고 있어요.",
+    "en": "The narrator keeps a distance from the character."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "el monólogo interior",
+   "pos": "verb",
+   "ko": "은연중에 드러나다",
+   "en": "betray",
+   "ex": {
+    "t": "El monólogo interior muestra sus dudas.",
+    "ko": "그의 말은 불안을 은연중에 드러냈어요.",
+    "en": "His words betrayed anxiety."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "el relato",
+   "pos": "phrase",
+   "ko": "이중적 목소리",
+   "en": "double voice",
+   "ex": {
+    "t": "El relato procede de un testigo.",
+    "ko": "이 문장에는 이중적 목소리가 있어요.",
+    "en": "This sentence has a double voice."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "narrador en primera persona · narrador omnisciente · narrador no fiable · estilo indirecto libre",
+   "en": "Narrative voice: narrador en primera persona, omnisciente, no fiable, estilo indirecto libre"
+  },
+  "explain": {
+   "ko": "서술 시점은 누가 이야기를 전하는가를 정합니다. narrador en primera persona(1인칭), en tercera persona(3인칭), omnisciente(전지적), no fiable(신뢰할 수 없는). focalización(초점화): interna(한 인물의 시각), externa(밖에서 관찰), cero(전지). estilo indirecto libre(자유간접화법)는 도입어 없이 인물의 생각을 3인칭 과거 서술에 섞습니다: Dudó. ¿Por qué había aceptado? 의문·감탄은 유지되고 시제·대명사는 서술자 기준으로 바뀝니다.",
+   "en": "Narrative voice decides who tells the story: first person, third person, omnisciente, no fiable. Focalización: interna (one character's view), externa (from outside), cero (omniscient). Estilo indirecto libre blends a character's thoughts into third-person past narration without an introductory verb: Dudó. ¿Por qué había aceptado? Questions and exclamations are kept; tense and pronouns shift to the narrator's frame."
+  },
+  "table": {
+   "head": [
+    "개념 / Concepto",
+    "특징 / Rasgo",
+    "예문 / Ejemplo"
+   ],
+   "rows": [
+    [
+     "primera persona",
+     "인물이 서술 / el personaje narra",
+     "Yo vi el mar."
+    ],
+    [
+     "omnisciente",
+     "모든 것을 앎 / lo sabe todo",
+     "Sabía que ella mentía."
+    ],
+    [
+     "no fiable",
+     "독자를 속임 / engaña",
+     "Yo no vi nada, juró."
+    ],
+    [
+     "indirecto libre",
+     "도입어 없음 / sin verbo introductor",
+     "Dudó. ¿Para qué todo aquello?"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "자유간접화법은 도입어 없이 생각을 섞습니다.",
+    "en": "Free indirect style has no introducer."
+   },
+   {
+    "ko": "불완료과거가 인물의 내면을 보여 줍니다.",
+    "en": "The imperfect shows inner life."
+   },
+   {
+    "ko": "의문·감탄은 그대로 유지됩니다.",
+    "en": "Questions and exclamations stay."
+   }
+  ],
+  "examples": [
+   {
+    "t": "El narrador cuenta su propia historia.",
+    "ko": "서술자는 사건을 회상해요.",
+    "en": "The narrator recalls the events."
+   },
+   {
+    "t": "Un narrador no fiable engaña al lector.",
+    "ko": "이 소설은 1인칭 시점이에요.",
+    "en": "The novel is in the first-person point of view."
+   },
+   {
+    "t": "Dudó. ¿Por qué había aceptado?",
+    "ko": "그는 신뢰할 수 없는 서술자예요.",
+    "en": "He is an unreliable narrator."
+   },
+   {
+    "t": "La novela está narrada en primera persona.",
+    "ko": "작가는 자유간접화법을 즐겨 써요.",
+    "en": "The author favours free indirect discourse."
+   },
+   {
+    "t": "El monólogo interior muestra sus dudas.",
+    "ko": "서술자는 인물과 거리를 두고 있어요.",
+    "en": "The narrator keeps a distance from the character."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Un narrador no ___ engaña al lector.",
+    "options": [
+     "fiable",
+     "fiado",
+     "fía"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "La novela está narrada en primera ___.",
+    "options": [
+     "persona",
+     "voz",
+     "vista"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "El estilo indirecto ___ mezcla voz y pensamiento.",
+    "options": [
+     "libre",
+     "libro",
+     "liberar"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "La focalización ___ sigue a un personaje.",
+    "options": [
+     "interna",
+     "interno",
+     "internar"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Quién narra esta novela?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 신뢰할 수 없는 서술자란 무엇인가요?",
+     "en": "(Question) What is an unreliable narrator?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "Un narrador en primera persona.",
+       "Un narrador omnisciente.",
+       "Un testigo externo."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Qué es el estilo indirecto libre?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 자유간접화법이란 무엇인가요?",
+     "en": "(Question) What is free indirect discourse?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cuál es la mejor respuesta?",
+      "options": [
+       "Una mezcla de relato y pensamientos.",
+       "Una frase en futuro.",
+       "Una cita entre comillas."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "La novela tiene un narrador en primera persona."
+      },
+      {
+       "s": "B",
+       "t": "Quizá no sea fiable."
+      },
+      {
+       "s": "A",
+       "t": "Sí, oculta la verdad hasta el último capítulo."
+      },
+      {
+       "s": "B",
+       "t": "Entonces hay que releerlo todo."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 소설은 누구의 시점이야?\nB: 1인칭 서술자야.\nA: 그가 믿을 만해?\nB: 아니, 신뢰할 수 없는 서술자여서 독자를 오도해.",
+     "en": "A: Whose point of view is this novel?\nB: A first-person narrator.\nA: Is he reliable?\nB: No, he is an unreliable narrator who misleads the reader."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Qué oculta el narrador?",
+      "options": [
+       "La verdad",
+       "Su nombre",
+       "Su edad"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "En esta novela la focalización es interna: vemos todo con los ojos del héroe. El estilo indirecto libre acerca sus dudas al lector. ¿Por qué había mentido? ¿Para qué seguir? Estas preguntas no las plantea el narrador, sino el personaje."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "서술의 시점은 독자의 이해를 좌우합니다. 1인칭은 친밀하지만 제한적이고, 전지적 시점은 모든 것을 알지만 거리가 있습니다. 자유간접화법은 서술자와 인물의 목소리를 섞어 인물의 생각을 직접 따옴표 없이 전달합니다.",
+     "en": "The choice of narrative viewpoint shapes the reader's understanding. First person is intimate but limited, and the omniscient viewpoint knows everything but is distant. Free indirect discourse blends the voices of narrator and character, conveying a character's thoughts directly without quotation marks."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Con los ojos de quién se ve todo?",
+      "options": [
+       "Del héroe",
+       "Del lector",
+       "Del autor"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "¿Quién habla en este pasaje?"
+      },
+      {
+       "s": "B",
+       "t": "El narrador, pero también se oye al héroe."
+      },
+      {
+       "s": "A",
+       "t": "¿Es estilo indirecto libre?"
+      },
+      {
+       "s": "B",
+       "t": "Sí, los pensamientos se funden con el relato."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 이 문장은 누구의 목소리인가요?\n학생: 서술자와 인물의 목소리가 섞여 있습니다.\n교수: 그렇죠. 무엇이라고 부르나요?\n학생: 자유간접화법입니다.",
+     "en": "Professor: Whose voice is this sentence?\nStudent: The narrator's and character's voices are blended.\nProfessor: Right. What is it called?\nStudent: Free indirect discourse."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "pero también se oye al ______",
+      "answers": [
+       "héroe"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "se funden con el ______",
+      "answers": [
+       "relato"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Un narrador no ___ engaña al lector.\n2) La novela está narrada en primera ___.\n3) El estilo indirecto ___ mezcla voz y pensamiento.",
+    "trans": {
+     "ko": "1) 서술자는 사건을 회상해요. 2) 이 소설은 1인칭 시점이에요. 3) 그는 신뢰할 수 없는 서술자예요.",
+     "en": "1) The narrator recalls the events. 2) The novel is in the first-person point of view. 3) He is an unreliable narrator."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Un narrador no ___ engaña al lector.",
+      "options": [
+       "fiable",
+       "fiado",
+       "fía"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "La novela está narrada en primera ___.",
+      "options": [
+       "persona",
+       "voz",
+       "vista"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "El estilo indirecto ___ mezcla voz y pensamiento.",
+      "options": [
+       "libre",
+       "libro",
+       "liberar"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "El narrador (1) conoce todos los pensamientos. La (2) interna sigue a un solo personaje. El (3) interior muestra sus dudas.",
+    "trans": {
+     "ko": "그녀는 편지를 열어 보았다. 이게 정말 가능한 일인가? 이 문장에는 서술자와 인물의 이중적 목소리가 있다. 독자는 그녀의 생각을 직접 따라간다.",
+     "en": "She opened the letter. Could this really be possible? This sentence has the double voice of narrator and character. The reader follows her thoughts directly."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "omnisciente",
+       "omnipotente",
+       "omnívoro"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "focalización",
+       "foco",
+       "focal"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "monólogo",
+       "monólogos",
+       "monótono"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ANÁLISIS\nUna voz engañosa\nEn esta novela narra un personaje cuyo relato es poco fiable. Omite hechos y se contradice. El lector comprende poco a poco que la verdad está en otra parte. El estilo indirecto libre refuerza esa ambigüedad.",
+    "trans": {
+     "ko": "문학 칼럼\n누구의 목소리인가\n자유간접화법은 서술자와 인물의 경계를 흐린다. 따옴표 없이 인물의 생각이 서술에 스며들기 때문이다. 그래서 독자는 누구의 판단인지 끊임없이 질문하게 된다.",
+     "en": "LITERARY COLUMN\nWhose voice is it?\nFree indirect discourse blurs the boundary between narrator and character. A character's thoughts seep into the narration without quotation marks. So readers keep asking whose judgement it is."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "¿Cómo es el narrador?",
+      "options": [
+       "Poco fiable",
+       "Omnisciente",
+       "Ausente"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "¿Qué refuerza el estilo indirecto libre?",
+      "options": [
+       "La ambigüedad",
+       "El ritmo",
+       "El humor"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "En este pasaje Luisa dudó. ¿Por qué había aceptado? Ya era tarde. El lector oye sus pensamientos sin comillas.",
+    "trans": {
+     "ko": "칼럼은 자유간접화법이 서술자와 인물의 경계를 흐린다고 본다. 칼럼은 자유간접화법이 따옴표를 반드시 쓴다고 한다. 칼럼은 독자가 누구의 판단인지 질문하게 된다고 본다.",
+     "en": "The column says free indirect discourse blurs the boundary between narrator and character. The column says free indirect discourse always uses quotation marks. The column says readers ask whose judgement it is."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "El pasaje usa estilo indirecto libre.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Luisa está segura.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Luisa vive en Ginebra.",
+      "options": [
+       "Verdadero",
+       "Falso",
+       "No se menciona"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "El narrador cuenta su propia historia.",
+    "ko": "이 소설은 1인칭 서술자의 시점으로 전개됩니다.",
+    "en": "The novel unfolds from the point of view of a first-person narrator.",
+    "situation": {
+     "ko": "시점을 설명할 때",
+     "en": "Explaining point of view"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Un narrador no fiable engaña al lector.",
+    "ko": "전지적 서술자는 모든 인물의 속마음을 압니다.",
+    "en": "An omniscient narrator knows the inner thoughts of every character.",
+    "situation": {
+     "ko": "전지적 시점",
+     "en": "Omniscient narration"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "La novela está narrada en primera persona.",
+    "ko": "신뢰할 수 없는 서술자는 독자를 오도합니다.",
+    "en": "An unreliable narrator misleads the reader.",
+    "situation": {
+     "ko": "서술자의 한계",
+     "en": "Limits of the narrator"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "El estilo indirecto libre mezcla voz y pensamiento.",
+    "ko": "자유간접화법은 서술자와 인물의 목소리를 섞습니다.",
+    "en": "Free indirect discourse blends the narrator's and character's voices.",
+    "situation": {
+     "ko": "자유간접화법 설명",
+     "en": "Explaining free indirect discourse"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "La focalización interna sigue a un personaje.",
+    "ko": "그녀는 이제 어떻게 해야 하나? 이런 곤란한 처지에 빠지다니.",
+    "en": "What was she to do now? What a predicament to find herself in.",
+    "situation": {
+     "ko": "자유간접화법 예",
+     "en": "Example of free indirect discourse"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "El monólogo interior muestra sus dudas.",
+    "ko": "서술자는 인물과 거리를 두며 아이러니를 만들어 냅니다.",
+    "en": "The narrator keeps a distance from the character and creates irony.",
+    "situation": {
+     "ko": "거리와 아이러니",
+     "en": "Distance and irony"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "El punto de vista cambia en el tercer capítulo.",
+    "ko": "그의 변명은 오히려 불안을 은연중에 드러냈습니다.",
+    "en": "His excuses rather betrayed his anxiety.",
+    "situation": {
+     "ko": "서술을 분석할 때",
+     "en": "Analysing narration"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "El imperfecto domina este pasaje.",
+    "ko": "시점의 선택은 독자의 이해를 좌우합니다.",
+    "en": "The choice of viewpoint shapes the reader's understanding.",
+    "situation": {
+     "ko": "핵심을 말할 때",
+     "en": "Stating the point"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "primera / tercera persona.",
+    "ko": "~의 시점에서.",
+    "en": "from the point of view of ..."
+   },
+   {
+    "id": "w2",
+    "t": "narrador omnisciente.",
+    "ko": "서술자와 인물의 목소리를 섞다.",
+    "en": "blend the narrator's and character's voices"
+   },
+   {
+    "id": "w3",
+    "t": "narrador no fiable.",
+    "ko": "독자를 오도하다.",
+    "en": "mislead the reader"
+   },
+   {
+    "id": "w4",
+    "t": "estilo indirecto libre.",
+    "ko": "거리를 두다.",
+    "en": "keep a distance from ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "같은 장면을 1인칭, 3인칭, 자유간접화법으로 나누어 3문장 + 설명 1문장으로 써 보세요.",
+    "en": "Write the same scene in first person, third person and free indirect discourse (three sentences plus one explanatory sentence)."
+   },
+   "must_include": [
+    {
+     "label": "narrador",
+     "match": [
+      "narrador"
+     ]
+    },
+    {
+     "label": "focalización",
+     "match": [
+      "focalización"
+     ]
+    },
+    {
+     "label": "estilo indirecto libre",
+     "match": [
+      "estilo indirecto libre"
+     ]
+    },
+    {
+     "label": "no fiable",
+     "match": [
+      "no fiable"
+     ]
+    }
+   ],
+   "model": "El narrador habla en primera persona, pero es no fiable. La focalización es interna. El estilo indirecto libre mezcla sus pensamientos con el relato.",
+   "model_trans": {
+    "ko": "1인칭: 나는 편지를 열어 보고 숨을 멈췄다. 3인칭: 그녀는 편지를 열어 보고 숨을 멈췄다. 자유간접화법: 그녀는 편지를 열어 보았다. 이게 정말 가능한 일인가? 서술자와 인물의 목소리가 섞이는 방식이다.",
+    "en": "First person: I opened the letter and held my breath. Third person: She opened the letter and held her breath. Free indirect discourse: She opened the letter. Could this really be possible? The narrator's and character's voices blend."
+   }
+  }
+ }
+}
