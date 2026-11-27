@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "de_c2_u08",
+  "lang": "de",
+  "family": "europe",
+  "level": "c2",
+  "unit": 8,
+  "concept": "C2.U08",
+  "status": "live",
+  "title": {
+   "target": "Auslassung und Ersatzformen",
+   "ko": "구어의 생략과 대용",
+   "en": "Ellipsis and substitution in speech"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "gern",
+   "pos": "phrase",
+   "ko": "그렇게 하다",
+   "en": "do so",
+   "ex": {
+    "t": "Kaffee? Gern.",
+    "ko": "원하는 사람은 그렇게 하셔도 좋아요.",
+    "en": "Anyone who wishes may do so."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "ebenso",
+   "pos": "phrase",
+   "ko": "그렇다고 생각하다",
+   "en": "I suppose so",
+   "ex": {
+    "t": "Ich auch, ebenso wie du.",
+    "ko": "그럴 것 같아요.",
+    "en": "I suppose so."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "so",
+   "pos": "phrase",
+   "ko": "그러지 않기를 바라다",
+   "en": "I hope not",
+   "ex": {
+    "t": "Er hofft es, ich glaube nicht so.",
+    "ko": "비가 오지 않기를 바라요.",
+    "en": "I hope not."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "darauf",
+   "pos": "adj",
+   "ko": "암시된",
+   "en": "implicit",
+   "ex": {
+    "t": "Ich verlasse mich darauf.",
+    "ko": "그의 말에는 암시된 비판이 있었어요.",
+    "en": "There was an implicit criticism in his words."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "dabei",
+   "pos": "phrase",
+   "ko": "말하지 않고도 통하다",
+   "en": "go without saying",
+   "ex": {
+    "t": "Er war dabei, als es geschah.",
+    "ko": "그건 말할 필요도 없어요.",
+    "en": "That goes without saying."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "das",
+   "pos": "noun",
+   "ko": "생략",
+   "en": "omission",
+   "ex": {
+    "t": "Das hat er mir nicht gesagt.",
+    "ko": "그 문장에는 몇 가지 생략이 있어요.",
+    "en": "The sentence contains several omissions."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "derselbe",
+   "pos": "noun",
+   "ko": "대용어",
+   "en": "pro-form",
+   "ex": {
+    "t": "Wir haben dasselbe Problem.",
+    "ko": "do so는 대동사 대용어예요.",
+    "en": "'Do so' is a verb pro-form."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "keineswegs",
+   "pos": "phrase",
+   "ko": "눈치채다",
+   "en": "pick up on",
+   "ex": {
+    "t": "Ich auch nicht, keineswegs.",
+    "ko": "그는 암시를 곧 눈치챘어요.",
+    "en": "He picked up on the hint at once."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "beides",
+   "pos": "adj",
+   "ko": "미완의",
+   "en": "unfinished",
+   "ex": {
+    "t": "Ich mag beides.",
+    "ko": "그의 문장은 미완으로 끝났어요.",
+    "en": "His sentence was left unfinished."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "jedenfalls",
+   "pos": "adv",
+   "ko": "당연히",
+   "en": "naturally",
+   "ex": {
+    "t": "Jedenfalls kommen wir.",
+    "ko": "당연히 나도 갈 거예요.",
+    "en": "Naturally, I'll go too."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "Ellipse · Pro-Formen (darauf, dabei, so) · Pronominaladverbien · Gapping · Satzersatz",
+   "en": "Ellipsis and substitution: Ellipse, pro-forms (darauf, dabei, so), pronominal adverbs, gapping"
+  },
+  "explain": {
+   "ko": "독일어도 반복을 피하기 위해 생략과 대용을 씁니다. Ellipse: Kaffee? Gern. / Wohin? Nach Hause. Gapping: Er trinkt Tee, sie Kaffee(동사 생략). 대용어: so(그렇게: Ich glaube es nicht so), das, es. 전치사 + 대명사 대신 Pronominaladverb를 씁니다: darauf, dabei, davon, dafür: Ich verlasse mich darauf. 사람에게는 auf ihn, 사물에는 darauf입니다. 두 요소 모두를 beides, 같은 것은 dasselbe, 동의는 ebenso, 마찬가지로로 줄여 말합니다.",
+   "en": "German avoids repetition through ellipsis and substitution. Ellipsis: Kaffee? Gern. Wohin? Nach Hause. Gapping: Er trinkt Tee, sie Kaffee. Pro-forms: so, das, es. For things use pronominal adverbs instead of preposition + pronoun: darauf, dabei, davon, dafür: Ich verlasse mich darauf. For persons: auf ihn. Beides, dasselbe and ebenso shorten repeated content."
+  },
+  "table": {
+   "head": [
+    "유형 / Typ",
+    "예 / Beispiel",
+    "설명 / Erklärung"
+   ],
+   "rows": [
+    [
+     "Ellipse",
+     "Kaffee? Gern.",
+     "동사 생략 / Verb weggelassen"
+    ],
+    [
+     "Gapping",
+     "Er trinkt Tee, sie Kaffee.",
+     "반복 동사 생략 / Verb ausgelassen"
+    ],
+    [
+     "Pronominaladverb",
+     "Ich verlasse mich darauf.",
+     "사물 대용 / für Dinge"
+    ],
+    [
+     "Pro-Form",
+     "Ich glaube es nicht so.",
+     "so로 대체 / Ersatz"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "사물은 darauf, 사람은 auf ihn을 씁니다.",
+    "en": "Things: darauf; persons: auf ihn."
+   },
+   {
+    "ko": "모음으로 시작하는 전치사는 dar-를 씁니다.",
+    "en": "Prepositions starting with a vowel take dar-."
+   },
+   {
+    "ko": "생략은 문맥이 분명할 때만 쓰세요.",
+    "en": "Elide only when context is clear."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Kaffee? Gern.",
+    "ko": "누가 차를 마실래요? — 저요, 부탁해요.",
+    "en": "Anyone for tea? — Yes, please."
+   },
+   {
+    "t": "Er trinkt Tee, sie Kaffee.",
+    "ko": "올 수 있어요? — 가고 싶지만 안 돼요.",
+    "en": "Can you come? — I'd love to, but I can't."
+   },
+   {
+    "t": "Ich verlasse mich darauf.",
+    "ko": "그가 올까요? — 그럴 것 같아요.",
+    "en": "Will he come? — I suppose so."
+   },
+   {
+    "t": "Wir haben dasselbe Problem.",
+    "ko": "나는 파란 셔츠가 마음에 들어요. 당신은 빨간 걸 좋아하죠?",
+    "en": "I like the blue shirt. You prefer the red one, don't you?"
+   },
+   {
+    "t": "Ich mag beides.",
+    "ko": "원하시는 분은 그렇게 하셔도 좋습니다.",
+    "en": "Anyone who wishes to may do so."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Ich verlasse mich ___.",
+    "options": [
+     "darauf",
+     "auf es",
+     "daran"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Er trinkt Tee, sie ___.",
+    "options": [
+     "Kaffee",
+     "trinkt Kaffee sie",
+     "Kaffee trinkt"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Wir haben ___ Problem.",
+    "options": [
+     "dasselbe",
+     "derselbe",
+     "dieselbe"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Ich mag ___.",
+    "options": [
+     "beides",
+     "beide",
+     "beiden"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Möchten Sie einen Kaffee?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 오늘 저녁에 함께 가실래요?",
+     "en": "(Question) Would you like to join us tonight?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Gern.",
+       "Gerne sein.",
+       "Ich gern habe."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Worauf verlassen Sie sich?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 사과할까요?",
+     "en": "(Question) Will he apologise?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was ist die beste Antwort?",
+      "options": [
+       "Ich verlasse mich darauf.",
+       "Ich verlasse mich auf es.",
+       "Ich verlasse darauf mich."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Tee oder Kaffee?"
+      },
+      {
+       "s": "B",
+       "t": "Beides ist mir recht."
+      },
+      {
+       "s": "A",
+       "t": "Ich nehme Tee, du Kaffee?"
+      },
+      {
+       "s": "B",
+       "t": "Genau, und dazu etwas Kuchen."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 오늘 저녁 같이 갈래?\nB: 가고 싶지만 일이 남았어.\nA: 그럼 내일은?\nB: 그건 괜찮을 것 같아.",
+     "en": "A: Will you join us tonight?\nB: I'd love to, but I've got work left.\nA: What about tomorrow?\nB: I think that should be fine."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was trinkt die Frau?",
+      "options": [
+       "Kaffee",
+       "Tee",
+       "Wasser"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Wir haben dasselbe Problem wie letztes Jahr. Der Chef verlässt sich darauf, dass wir es lösen. Ich bin dabei, eine Lösung zu suchen. Er trinkt Tee, sie Kaffee, und beide warten auf das Ergebnis."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "구어에서는 이미 알려진 정보를 반복하지 않고 생략하거나 so, not, one 같은 대용어로 바꿉니다. 이렇게 하면 말이 자연스럽고 간결해집니다. 그러나 격식 있는 글에서는 의미가 분명하도록 가능한 한 완전한 형태를 쓰세요.",
+     "en": "In speech, known information is not repeated but omitted or replaced with substitutes such as so, not and one. This makes speech natural and concise. In formal writing, however, use full forms where possible so the meaning is clear."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Worauf verlässt sich der Chef?",
+      "options": [
+       "Darauf, dass sie es lösen",
+       "Darauf, dass er gewinnt",
+       "Auf Glück"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Verlassen Sie sich auf das Team?"
+      },
+      {
+       "s": "B",
+       "t": "Ja, ich verlasse mich darauf."
+      },
+      {
+       "s": "A",
+       "t": "Auch in Krisen?"
+      },
+      {
+       "s": "B",
+       "t": "Gerade dann, ebenso wie sie auf mich."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "주인: 차 드실래요?\n손님: 좋죠, 부탁해요.\n주인: 설탕은요?\n손님: 아니요, 괜찮아요. 우유만 조금요.",
+     "en": "Host: Would you like some tea?\nGuest: Yes, please.\nHost: And sugar?\nGuest: No, thanks. Just a little milk."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Ja, ich verlasse mich ______",
+      "answers": [
+       "darauf"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Gerade dann, ebenso wie ______ auf mich",
+      "answers": [
+       "sie"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Ich verlasse mich ___.\n2) Er trinkt Tee, sie ___.\n3) Wir haben ___ Problem.",
+    "trans": {
+     "ko": "1) 누가 차를 마실래요? 2) 올 수 있어요? — 가고 싶지만 안 돼요. 3) 그가 올까요? — 그럴 것 같아요.",
+     "en": "1) Anyone for tea? 2) Can you come? — I'd love to, but I can't. 3) Will he come? — I suppose so."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Ich verlasse mich ___.",
+      "options": [
+       "darauf",
+       "auf es",
+       "daran"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Er trinkt Tee, sie ___.",
+      "options": [
+       "Kaffee",
+       "trinkt Kaffee sie",
+       "Kaffee trinkt"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Wir haben ___ Problem.",
+      "options": [
+       "dasselbe",
+       "derselbe",
+       "dieselbe"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Ich glaube nicht, dass er kommt, und (1) sie auch nicht. Er hat (2) vorgeschlagen, wir sollten (3) verlassen.",
+    "trans": {
+     "ko": "그는 오래된 소파가 마음에 들지 않았다. 새 것을 사고 싶어 했다. 아내에게 의견을 묻자 \"그렇게 하세요\"라고 했다. 둘 다 말하지 않았지만 서로의 뜻을 이미 알고 있었다.",
+     "en": "He did not like the old sofa. He wanted to buy a new one. When he asked his wife's opinion she said, \"Do so.\" Neither said it aloud, but each already knew the other's meaning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "sie",
+       "es sie",
+       "dazu sie"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "das",
+       "dass",
+       "es es"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "uns darauf",
+       "uns auf es",
+       "uns dafür"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "RATGEBER\nNicht wiederholen\nGute Texte vermeiden unnötige Wiederholungen. Statt das Subjekt jedes Mal zu nennen, nutzt man Pronomen und Auslassungen: Er trinkt Tee, sie Kaffee. Statt einer Präposition mit Pronomen steht oft ein Pronominaladverb wie darauf oder dabei. So bleibt der Text kompakt und lesbar.",
+    "trans": {
+     "ko": "블로그\n자연스러운 대화의 비결\n원어민은 말을 줄입니다. 'Do you want to come?' 대신 'Want to come?'이라고 하죠. 'I'd love to'처럼 앞에 나온 동사를 생략하는 습관도 흔합니다. 이런 생략을 익히면 훨씬 자연스럽게 들립니다.",
+     "en": "BLOG\nSecrets of natural conversation\nNative speakers cut their speech short. Instead of 'Do you want to come?', they say 'Want to come?'. They also commonly omit repeated verbs, as in 'I'd love to'. Mastering such ellipsis makes you sound much more natural."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Was vermeiden gute Texte?",
+      "options": [
+       "Unnötige Wiederholungen",
+       "Lange Wörter",
+       "Pronomen"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Was bleibt dadurch erhalten?",
+      "options": [
+       "Kompaktheit und Lesbarkeit",
+       "Spannung",
+       "Humor"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Jonas mag Kaffee, Lena Tee. Beides gibt es im Café. Sie bestellen dasselbe Gebäck.",
+    "trans": {
+     "ko": "글은 원어민이 말을 줄인다고 설명한다. 글은 생략이 비문법적이라고 비판한다. 글은 생략을 익히면 자연스러워진다고 말한다.",
+     "en": "The text explains that native speakers shorten speech. The text criticises ellipsis as ungrammatical. The text says mastering ellipsis sounds more natural."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Jonas und Lena bestellen dasselbe Gebäck.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Beide trinken Kaffee.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Das Café liegt am Marktplatz.",
+      "options": [
+       "Richtig",
+       "Falsch",
+       "Nicht angegeben"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Kaffee? Gern.",
+    "ko": "올 수 있어요? — 가고 싶지만 일이 있어서요.",
+    "en": "Can you join us? — I'd love to, but I have work.",
+    "situation": {
+     "ko": "to 뒤 반복을 생략할 때",
+     "en": "Dropping the repeated verb after 'to'"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Er trinkt Tee, sie Kaffee.",
+    "ko": "다른 후보도 지원했나요? — 그런 것 같아요.",
+    "en": "Did other candidates apply? — I believe so.",
+    "situation": {
+     "ko": "so로 앞말을 대신할 때",
+     "en": "Substituting with 'so'"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Ich verlasse mich darauf.",
+    "ko": "비가 올까요? — 그러지 않기를 바랍니다.",
+    "en": "Will it rain? — I hope not.",
+    "situation": {
+     "ko": "not으로 부정할 때",
+     "en": "Substituting with 'not'"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Wir haben dasselbe Problem.",
+    "ko": "저는 작은 것이 마음에 드는데, 큰 것은 비싸서요.",
+    "en": "I like the small one; the big one is too expensive.",
+    "situation": {
+     "ko": "one으로 명사를 대신할 때",
+     "en": "Substituting a noun with 'one'"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Ich mag beides.",
+    "ko": "원하시는 분은 그렇게 하셔도 됩니다.",
+    "en": "Anyone who wishes to may do so.",
+    "situation": {
+     "ko": "do so로 동사구를 대신할 때",
+     "en": "Substituting a verb phrase"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Er war dabei, als es geschah.",
+    "ko": "물론 그 사실은 말할 필요도 없습니다.",
+    "en": "That fact, of course, goes without saying.",
+    "situation": {
+     "ko": "당연한 것을 말할 때",
+     "en": "Stating the obvious"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Jedenfalls kommen wir.",
+    "ko": "그런 일을 하신 적 있나요? — 한 번도 없었습니다.",
+    "en": "Have you ever done that? — Never.",
+    "situation": {
+     "ko": "짧은 답으로 말할 때",
+     "en": "Short responses"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Ich glaube es nicht so.",
+    "ko": "저녁 어때요? — 좋죠, 몇 시에요?",
+    "en": "Dinner? — Sure, what time?",
+    "situation": {
+     "ko": "구어의 간결한 질문",
+     "en": "Clipped spoken questions"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Gern. / Natürlich.",
+    "ko": "~하고 싶지만 …할 수 없다.",
+    "en": "I'd love to, but ..."
+   },
+   {
+    "id": "w2",
+    "t": "Er …, sie …",
+    "ko": "그렇게 생각한다/아니길 바란다.",
+    "en": "I think/suppose so. / I hope not."
+   },
+   {
+    "id": "w3",
+    "t": "darauf / dabei / dafür",
+    "ko": "그것(들) 대신 one(s).",
+    "en": "the red one / the ones I mentioned"
+   },
+   {
+    "id": "w4",
+    "t": "dasselbe / beides",
+    "ko": "그렇게 하다.",
+    "en": "do so / do the same"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "구어에서 쓰이는 생략과 대용(do so, so/not, one)을 사용해 4문장 대화를 써 보세요.",
+    "en": "Write a four-line dialogue using spoken ellipsis and substitution (do so, so/not, one)."
+   },
+   "must_include": [
+    {
+     "label": "gern",
+     "match": [
+      "gern"
+     ]
+    },
+    {
+     "label": "sie",
+     "match": [
+      "sie"
+     ]
+    },
+    {
+     "label": "darauf",
+     "match": [
+      "darauf"
+     ]
+    },
+    {
+     "label": "dasselbe",
+     "match": [
+      "dasselbe"
+     ]
+    }
+   ],
+   "model": "Kaffee? Gern. Er trinkt Tee, sie Kaffee. Ich verlasse mich darauf, dass wir dasselbe Ziel haben.",
+   "model_trans": {
+    "ko": "커피 마실래요? — 좋죠. 새 카페에 가 볼까요? — 가고 싶지만 시간이 없어요. 파란 컵과 빨간 컵 중에 어느 걸 쓰시겠어요? — 빨간 걸로요. 그가 올까요? — 그럴 것 같아요.",
+    "en": "Coffee? — I'd love some. Shall we try the new café? — I'd love to, but I haven't time. Which cup will you use, the blue or the red one? — The red one. Will he come? — I suppose so."
+   }
+  }
+ }
+}
