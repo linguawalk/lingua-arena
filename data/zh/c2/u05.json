@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u05",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 5,
+  "concept": "C2.U05",
+  "status": "live",
+  "title": {
+   "target": "叙事连接：时间顺序、因果与转折",
+   "ko": "분사구문과 문학적 산문",
+   "en": "Participle and absolute constructions in literary prose"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "起初",
+   "pos": "phrase",
+   "read": "qǐ chū",
+   "ko": "마침내",
+   "en": "at long last",
+   "ex": {
+    "t": "起初，大家都不相信这个消息。",
+    "read": "Qǐ chū, dàjiā dōu bù xiāng xìn zhège xiāo xī.",
+    "ko": "마침내 그들은 정상에 도착했어요.",
+    "en": "At long last they reached the summit."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "随后",
+   "pos": "adv",
+   "read": "suí hòu",
+   "ko": "조용히",
+   "en": "quietly",
+   "ex": {
+    "t": "随后，会议正式开始。",
+    "read": "Suí hòu, huìyì zhèng shì kāishǐ.",
+    "ko": "그녀는 조용히 문을 닫았어요.",
+    "en": "She quietly closed the door."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "与此同时",
+   "pos": "verb",
+   "read": "yǔ cǐ tóng shí",
+   "ko": "멈추어 서다",
+   "en": "pause",
+   "ex": {
+    "t": "与此同时，另一个队伍也出发了。",
+    "read": "Yǔ cǐ tóng shí, lìng yí ge duì wǔ yě chūfā le.",
+    "ko": "그는 잠시 멈추어 숨을 골랐어요.",
+    "en": "He paused to catch his breath."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "于是",
+   "pos": "verb",
+   "read": "yú shì",
+   "ko": "주저하다",
+   "en": "hesitate",
+   "ex": {
+    "t": "天黑了，于是我们决定回去。",
+    "read": "Tiān hēi le, yú shì wǒmen juédìng huí qù.",
+    "ko": "그는 대답하기 전에 주저했어요.",
+    "en": "He hesitated before answering."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "然而",
+   "pos": "phrase",
+   "read": "rán'ér",
+   "ko": "뒤돌아보다",
+   "en": "glance back",
+   "ex": {
+    "t": "然而，事情并没有那么简单。",
+    "read": "Rán'ér, shìqing bìng méiyǒu nà me jiǎn dān.",
+    "ko": "그녀는 떠나며 한 번 뒤돌아보았어요.",
+    "en": "She glanced back as she left."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "终于",
+   "pos": "phrase",
+   "read": "zhōng yú",
+   "ko": "~을 고려하면",
+   "en": "all things considered",
+   "ex": {
+    "t": "经过三年努力，他终于成功了。",
+    "read": "Jīngguò sān nián nǔlì, tā zhōng yú chéng gōng le.",
+    "ko": "모든 것을 고려하면 훌륭한 성과예요.",
+    "en": "All things considered, it is a fine result."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "犹豫",
+   "pos": "phrase",
+   "read": "yóu yù",
+   "ko": "~에 따라",
+   "en": "depending on",
+   "ex": {
+    "t": "她犹豫了一下才开口。",
+    "read": "Tā yóu yù le yíxià cái kāi kǒu.",
+    "ko": "날씨에 따라 계획이 바뀔 수 있어요.",
+    "en": "Plans may change depending on the weather."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "回头",
+   "pos": "conj",
+   "read": "huí tóu",
+   "ko": "~하기 때문에",
+   "en": "given that",
+   "ex": {
+    "t": "他回头看了一眼。",
+    "read": "Tā huí tóu kàn le yì yǎn.",
+    "ko": "그가 경험이 많다는 점을 감안하면 믿을 만해요.",
+    "en": "Given that he is experienced, he is reliable."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "悄悄",
+   "pos": "phrase",
+   "read": "qiāo qiāo",
+   "ko": "어둠 속에서",
+   "en": "in the half-light",
+   "ex": {
+    "t": "她悄悄地离开了房间。",
+    "read": "Tā qiāo qiāo dì líkāi le fángjiān.",
+    "ko": "어스름 속에서 그는 길을 찾았어요.",
+    "en": "In the half-light he found the path."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "专注",
+   "pos": "adj",
+   "read": "zhuān zhù",
+   "ko": "집중한",
+   "en": "intent",
+   "ex": {
+    "t": "他专注地盯着屏幕。",
+    "read": "Tā zhuān zhù dì dīng zhe píng mù.",
+    "ko": "그는 책에 몰두해 있었어요.",
+    "en": "He was intent on his book."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "起初／随后／与此同时／于是／然而／终于",
+   "en": "Narrative linking: 起初 / 随后 / 与此同时 / 于是 / 然而 / 终于"
+  },
+  "explain": {
+   "ko": "讲故事时，要用连接词让情节自然推进。表示时间顺序：起初、随后、接着、最后；表示同时：与此同时、一边……一边……；表示结果：于是、因此；表示转折：然而、可是、不料；表示长期努力后的结果：终于。合理使用这些词，故事就不会显得零散。",
+   "en": "To move a story along, use linking words. Sequence: 起初、随后、接着、最后. Simultaneity: 与此同时、一边……一边……. Result: 于是、因此. Contrast: 然而、可是、不料. A long-awaited result: 终于. Used well, they keep a narrative from feeling disjointed."
+  },
+  "table": {
+   "head": [
+    "功能 / Function",
+    "词语 / Word",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "顺序 / Sequence",
+     "起初、随后",
+     "起初没人相信。"
+    ],
+    [
+     "同时 / Simultaneity",
+     "与此同时",
+     "与此同时，他出发了。"
+    ],
+    [
+     "结果 / Result",
+     "于是、因此",
+     "天黑了，于是回家。"
+    ],
+    [
+     "转折 / Contrast",
+     "然而、不料",
+     "然而，事情变了。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“于是”表示前一个事件引起后一个行动。",
+    "en": "于是 shows an earlier event prompting an action."
+   },
+   {
+    "ko": "“不料”表示出乎意料。",
+    "en": "不料 means unexpectedly."
+   },
+   {
+    "ko": "“终于”带有等待已久的感觉。",
+    "en": "终于 carries the sense of long waiting."
+   }
+  ],
+  "examples": [
+   {
+    "t": "起初，大家都不相信这个消息。",
+    "read": "Qǐ chū, dàjiā dōu bù xiāng xìn zhège xiāo xī.",
+    "ko": "편지를 다 쓰고 나서 그녀는 창가로 갔어요.",
+    "en": "Having finished the letter, she went to the window."
+   },
+   {
+    "t": "随后，会议正式开始。",
+    "read": "Suí hòu, huìyì zhèng shì kāishǐ.",
+    "ko": "문이 열려 있어서 바람이 들어왔어요.",
+    "en": "The door being open, the wind blew in."
+   },
+   {
+    "t": "天黑了，于是我们决定回去。",
+    "read": "Tiān hēi le, yú shì wǒmen juédìng huí qù.",
+    "ko": "날씨가 허락한다면 우리는 내일 떠날 거예요.",
+    "en": "Weather permitting, we will leave tomorrow."
+   },
+   {
+    "t": "然而，事情并没有那么简单。",
+    "read": "Rán'ér, shìqing bìng méiyǒu nà me jiǎn dān.",
+    "ko": "잠시 멈춘 뒤 그는 천천히 대답했어요.",
+    "en": "Pausing for a moment, he answered slowly."
+   },
+   {
+    "t": "经过三年努力，他终于成功了。",
+    "read": "Jīngguò sān nián nǔlì, tā zhōng yú chéng gōng le.",
+    "ko": "모든 것을 고려하면 그것은 훌륭한 결과예요.",
+    "en": "All things considered, it is an excellent result."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___，大家都不相信这个消息。",
+    "options": [
+     "起初",
+     "终于",
+     "然而"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "天黑了，___我们决定回去。",
+    "options": [
+     "于是",
+     "然而",
+     "起初"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___，事情并没有那么简单。",
+    "options": [
+     "然而",
+     "随后",
+     "于是"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "经过三年努力，他___成功了。",
+    "options": [
+     "终于",
+     "起初",
+     "随后"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你们是怎么发现这个问题的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 회의가 끝난 뒤 무엇을 했나요?",
+     "en": "(Question) What did you do after the meeting?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "起初是客户投诉，随后我们检查了系统。",
+       "我不知道。",
+       "我昨天很忙。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "事情后来怎么样了？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 소풍은 어떻게 되나요?",
+     "en": "(Question) What about the picnic?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "一周后，问题终于解决了。",
+       "我不喜欢这个。",
+       "今天是周五。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "起初你为什么不想参加？"
+      },
+      {
+       "s": "B",
+       "t": "我担心时间不够，于是一直犹豫。"
+      },
+      {
+       "s": "A",
+       "t": "后来呢？"
+      },
+      {
+       "s": "B",
+       "t": "随后朋友鼓励了我，我终于决定参加了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 보고서를 다 읽었어?\nB: 응, 다 읽고 나서 의견을 정리했어.\nA: 그럼 내일 회의에서 발표할 수 있겠네.\nB: 날씨가 나빠서 교통이 막히지 않는다면 말이야.",
+     "en": "A: Have you read the report?\nB: Yes; having read it, I organised my views.\nA: So you can present at tomorrow's meeting.\nB: Traffic permitting, that is."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B为什么终于决定参加？",
+      "options": [
+       "朋友鼓励了他",
+       "老师要求",
+       "时间变多了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "起初，没有人注意到这个小问题。随后，问题越来越严重。与此同时，客户的投诉也开始增加。于是公司决定紧急处理，终于在一周后解决了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "분사구문은 문장을 간결하게 만들고 문학적 산문에 우아한 흐름을 줍니다. 완료 분사구문(having + 과거분사)은 앞선 행동을 나타내고, 독립 분사구문은 주어가 다른 분사구를 이끕니다. 주어를 분명히 하여 오해를 피하세요.",
+     "en": "Participle clauses make sentences concise and give literary prose an elegant flow. A perfect participle clause (having + past participle) shows an earlier action, and an absolute construction introduces a participle phrase with its own subject. Make the subject clear to avoid misreading."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "公司后来怎么处理问题？",
+      "options": [
+       "紧急处理，一周后解决",
+       "没有处理",
+       "关闭了公司"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "事故是怎么发生的？"
+      },
+      {
+       "s": "B",
+       "t": "起初一切正常，随后突然听到一声巨响。"
+      },
+      {
+       "s": "A",
+       "t": "然后呢？"
+      },
+      {
+       "s": "B",
+       "t": "于是大家跑了出去，幸好没有人受伤。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "작가: 이 장면의 문장이 너무 길어요.\n편집자: 분사구문으로 줄여 보세요.\n작가: 예를 들면요?\n편집자: '문을 닫고 나서, 그는 조용히 떠났다'처럼요.",
+     "en": "Writer: The sentences in this scene are too long.\nEditor: Try shortening them with participle clauses.\nWriter: For example?\nEditor: Something like 'Having closed the door, he left quietly.'"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "目击者说随后突然听到一声______",
+      "answers": [
+       "巨响"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "幸好没有人______",
+      "answers": [
+       "受伤"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___，大家都不相信这个消息。\n2) 天黑了，___我们决定回去。\n3) ___，事情并没有那么简单。",
+    "trans": {
+     "ko": "1) 편지를 다 쓰고 나서 그녀는 창가로 갔어요. 2) 문이 열려 있어서 바람이 들어왔어요. 3) 날씨가 허락한다면 내일 떠날 거예요.",
+     "en": "1) Having finished the letter, she went to the window. 2) The door being open, the wind blew in. 3) Weather permitting, we will leave tomorrow."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___，大家都不相信这个消息。",
+      "options": [
+       "起初",
+       "终于",
+       "然而"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "天黑了，___我们决定回去。",
+      "options": [
+       "于是",
+       "然而",
+       "起初"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___，事情并没有那么简单。",
+      "options": [
+       "然而",
+       "随后",
+       "于是"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "她(1)地离开了房间，没有惊动任何人。走到门口，她回头看了一眼，(2)了一下，然后还是走了出去。与此同时，屋里的人正专注地(3)着电视。",
+    "trans": {
+     "ko": "문이 열리자 그는 어둠 속으로 걸음을 옮겼다. 잠시 멈추어 귀를 기울인 뒤, 그는 천천히 앞으로 나아갔다. 모든 것을 감안하면 그것은 현명한 선택이었다.",
+     "en": "The door having opened, he stepped into the dark. Pausing to listen, he moved slowly forward. All things considered, it was a wise choice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "悄悄",
+       "大声",
+       "快速"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "犹豫",
+       "鼓掌",
+       "睡觉"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "盯",
+       "忘",
+       "扔"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "小说节选\n雨夜\n起初，雨只是轻轻地下。随后，风越来越大。与此同时，远处传来了钟声。他犹豫了一下，于是推开了门。然而，门外空无一人，只有一封被雨水打湿的信。",
+    "trans": {
+     "ko": "단편 소설\n귀향\n오랜 여행을 마치고 그는 마침내 고향에 돌아왔다. 어스름 속에서 낯익은 길을 더듬으며 그는 집으로 향했다. 문이 열려 있었다. 숨을 고르며 그는 천천히 안으로 들어갔다.",
+     "en": "SHORT STORY\nHomecoming\nHaving ended a long journey, he at long last returned to his hometown. Feeling his way along the familiar path in the half-light, he headed home. The door was open. Catching his breath, he stepped slowly inside."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他推开门以后看到了什么？",
+      "options": [
+       "一封被雨水打湿的信",
+       "一个陌生人",
+       "一只狗"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "远处传来了什么？",
+      "options": [
+       "钟声",
+       "歌声",
+       "喊声"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "雨越下越大，远处传来钟声。他推开门，发现门外没有人，只有一封湿了的信。",
+    "trans": {
+     "ko": "이야기의 주인공은 긴 여행을 마치고 돌아왔다. 문은 잠겨 있었다. 그는 천천히 안으로 들어갔다.",
+     "en": "The protagonist returned after a long journey. The door was locked. He stepped slowly inside."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "门外有一封信。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "门外站着一个人。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "他是一位邮递员。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "起初，大家都不相信这个消息。",
+    "read": "Qǐ chū, dàjiā dōu bù xiāng xìn zhège xiāo xī.",
+    "ko": "보고서를 다 읽고 나서 그는 결론을 내렸습니다.",
+    "en": "Having read the report, he reached a conclusion.",
+    "situation": {
+     "ko": "완료된 행동 뒤의 행동을 말할 때",
+     "en": "An action after a completed one"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "随后，会议正式开始。",
+    "read": "Suí hòu, huìyì zhèng shì kāishǐ.",
+    "ko": "문이 닫혀 있었기 때문에 우리는 뒷문으로 들어갔습니다.",
+    "en": "The front door being locked, we entered by the back.",
+    "situation": {
+     "ko": "독립 분사구문으로 이유를 말할 때",
+     "en": "Absolute construction for reason"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "天黑了，于是我们决定回去。",
+    "read": "Tiān hēi le, yú shì wǒmen juédìng huí qù.",
+    "ko": "날씨가 허락한다면 행사는 야외에서 열립니다.",
+    "en": "Weather permitting, the event will be held outdoors.",
+    "situation": {
+     "ko": "조건을 간결하게 나타낼 때",
+     "en": "A concise condition"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "然而，事情并没有那么简单。",
+    "read": "Rán'ér, shìqing bìng méiyǒu nà me jiǎn dān.",
+    "ko": "발걸음을 멈춘 채 그녀는 뒤를 돌아보았습니다.",
+    "en": "Stopping in her tracks, she glanced back.",
+    "situation": {
+     "ko": "동시 동작을 묘사할 때",
+     "en": "Describing simultaneous action"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "经过三年努力，他终于成功了。",
+    "read": "Jīngguò sān nián nǔlì, tā zhōng yú chéng gōng le.",
+    "ko": "모든 것을 감안하면 우리의 선택은 옳았습니다.",
+    "en": "All things considered, our choice was the right one.",
+    "situation": {
+     "ko": "종합 판단을 나타낼 때",
+     "en": "A summing-up judgement"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "与此同时，另一个队伍也出发了。",
+    "read": "Yǔ cǐ tóng shí, lìng yí ge duì wǔ yě chūfā le.",
+    "ko": "어스름 속에서 길을 더듬으며 그는 걸음을 옮겼습니다.",
+    "en": "Feeling his way through the half-light, he moved on.",
+    "situation": {
+     "ko": "문학적 묘사를 할 때",
+     "en": "Literary description"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "她悄悄地离开了房间。",
+    "read": "Tā qiāo qiāo dì líkāi le fángjiān.",
+    "ko": "경험이 풍부하기 때문에 그는 신뢰받았습니다.",
+    "en": "Being experienced, he was trusted.",
+    "situation": {
+     "ko": "이유를 간결하게 나타낼 때",
+     "en": "A brief reason"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "他回头看了一眼。",
+    "read": "Tā huí tóu kàn le yì yǎn.",
+    "ko": "위기를 넘기고 나서야 그들은 안도했습니다.",
+    "en": "The crisis having passed, they finally relaxed.",
+    "situation": {
+     "ko": "완료 후 상태를 묘사할 때",
+     "en": "A state after completion"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "起初……。",
+    "read": "Qǐ chū ….",
+    "ko": "~하고 나서 ~했다.",
+    "en": "Having p.p., S + V."
+   },
+   {
+    "id": "w2",
+    "t": "随后……。",
+    "read": "Suí hòu ….",
+    "ko": "~이 ~하기 때문에 ~.",
+    "en": "N + being/p.p., S + V."
+   },
+   {
+    "id": "w3",
+    "t": "于是……。",
+    "read": "Yú shì ….",
+    "ko": "~이 허락한다면.",
+    "en": "Weather/Time permitting, ..."
+   },
+   {
+    "id": "w4",
+    "t": "然而……，终于……。",
+    "read": "Rán'ér …, zhōng yú ….",
+    "ko": "~하며 ~했다.",
+    "en": "-ing, S + V."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "완료 분사구문과 독립 분사구문을 사용해 한 장면을 4문장으로 묘사해 보세요.",
+    "en": "Describe a scene in four sentences using perfect participle and absolute constructions."
+   },
+   "must_include": [
+    {
+     "label": "起初",
+     "match": [
+      "起初"
+     ]
+    },
+    {
+     "label": "然而",
+     "match": [
+      "然而"
+     ]
+    },
+    {
+     "label": "终于",
+     "match": [
+      "终于"
+     ]
+    }
+   ],
+   "model": "起初，我不想参加这个活动。随后，朋友鼓励了我。然而，我还是有些犹豫。后来，我终于决定去试一试。",
+   "model_trans": {
+    "ko": "편지를 다 쓰고 나서 그녀는 창가로 갔어요. 비가 그쳐서 거리는 고요했어요. 잠시 멈추어 숨을 고른 뒤 그녀는 문을 열었어요. 날씨가 허락한다면 산책을 나갈 생각이었어요.",
+    "en": "Having finished the letter, she went to the window. The rain having stopped, the street was still. Pausing to catch her breath, she opened the door. Weather permitting, she meant to go for a walk."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u33",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 33,
+  "concept": "C2.U33",
+  "status": "live",
+  "title": {
+   "target": "反驳与让步：构建论证",
+   "ko": "토론: 반박과 양보",
+   "en": "Debate: rebuttal and concession"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "反驳",
+   "pos": "noun",
+   "read": "fǎn bó",
+   "ko": "반박",
+   "en": "rebuttal",
+   "ex": {
+    "t": "反驳需要依据。",
+    "read": "Fǎn bó xūyào yī jù.",
+    "ko": "그는 짧고 날카로운 반박을 했어요.",
+    "en": "He gave a short, sharp rebuttal."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "承认",
+   "pos": "verb",
+   "read": "chéngrèn",
+   "ko": "인정하다(양보)",
+   "en": "concede",
+   "ex": {
+    "t": "他承认对方有一部分道理。",
+    "read": "Tā chéngrèn duì fāng yǒu yí bù fēn dào lǐ.",
+    "ko": "저는 그 점을 인정합니다.",
+    "en": "I concede that point."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "假设",
+   "pos": "verb",
+   "read": "jiǎshè",
+   "ko": "가정하다",
+   "en": "grant",
+   "ex": {
+    "t": "即使假设成立，结论也不变。",
+    "read": "Jí shǐ jiǎshè chéng lì, jié lùn yě bú biàn.",
+    "ko": "그 점이 맞다고 치더라도, 결론은 달라지지 않아요.",
+    "en": "Granted that point, the conclusion does not change."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "即使",
+   "pos": "phrase",
+   "read": "jí shǐ",
+   "ko": "그렇다 하더라도",
+   "en": "be that as it may",
+   "ex": {
+    "t": "即使费用较高，也值得做。",
+    "read": "Jí shǐ fèi yòng jiào gāo, yě zhí děi zuò.",
+    "ko": "그렇다 하더라도 비용이 문제예요.",
+    "en": "Be that as it may, the cost is a problem."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "尽管",
+   "pos": "prep",
+   "read": "jǐnguǎn",
+   "ko": "~에도 불구하고",
+   "en": "notwithstanding",
+   "ex": {
+    "t": "尽管反对声不断，计划仍然推进。",
+    "read": "Jǐnguǎn fǎnduì shēng bú duàn, jìhuà réng rán tuī jìn.",
+    "ko": "비판에도 불구하고 계획은 진행됐어요.",
+    "en": "The plan went ahead notwithstanding the criticism."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "总的来看",
+   "pos": "phrase",
+   "read": "zǒng de lái kàn",
+   "ko": "종합적으로 보면",
+   "en": "on balance",
+   "ex": {
+    "t": "总的来看，这个方案最好。",
+    "read": "Zǒng de lái kàn, zhège fāng àn zuì hǎo.",
+    "ko": "종합적으로 보면 이 정책은 유익해요.",
+    "en": "On balance, this policy is beneficial."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "依据",
+   "pos": "noun",
+   "read": "yī jù",
+   "ko": "논거",
+   "en": "argument",
+   "ex": {
+    "t": "请拿出可靠的依据。",
+    "read": "Qǐng ná chū kě kào de yī jù.",
+    "ko": "그의 논거는 탄탄해요.",
+    "en": "His argument is solid."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "弱点",
+   "pos": "noun",
+   "read": "ruò diǎn",
+   "ko": "약점",
+   "en": "weakness",
+   "ex": {
+    "t": "指出对方论证的弱点。",
+    "read": "Zhǐ chū duì fāng lùn zhèng de ruò diǎn.",
+    "ko": "상대 논증의 약점을 짚었어요.",
+    "en": "I pointed out the weakness of the opposing argument."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "提出异议",
+   "pos": "phrase",
+   "read": "tí chū yì yì",
+   "ko": "반론을 제기하다",
+   "en": "raise an objection",
+   "ex": {
+    "t": "她提出了异议。",
+    "read": "Tā tí chū le yì yì.",
+    "ko": "저는 한 가지 반론을 제기하겠습니다.",
+    "en": "I will raise one objection."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "有说服力",
+   "pos": "adj",
+   "read": "yǒu shuō fú lì",
+   "ko": "설득력 있는",
+   "en": "compelling",
+   "ex": {
+    "t": "有说服力的论证包含让步。",
+    "read": "Yǒu shuō fú lì de lùn zhèng bāo hán ràng bù.",
+    "ko": "그의 증거는 설득력 있어요.",
+    "en": "His evidence is compelling."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "固然……但是……／即使……也……／尽管……仍然……／假如……／总的来看",
+   "en": "Counterargument and concession: 固然……但是…… / 即使……也…… / 尽管……仍然…… / 总的来看"
+  },
+  "explain": {
+   "ko": "有说服力的论证不无视反对意见，而是处理它。先承认对方有道理（让步）：“固然……”，再用“但是”提出自己的观点。“即使……也……”表示假设让步后结论不变，“尽管……仍然……”表示承认反面事实仍然前进。最后用“总的来看”做总结。",
+   "en": "A persuasive argument deals with opposing views rather than ignoring them. First concede: 固然……, then 但是 states your claim. 即使……也…… shows the conclusion holds even granting an assumption; 尽管……仍然…… acknowledges contrary facts yet moves on. Close with 总的来看."
+  },
+  "table": {
+   "head": [
+    "功能 / Function",
+    "表达 / Phrase",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "让步",
+     "固然……但是……",
+     "费用固然高，但值得。"
+    ],
+    [
+     "假设",
+     "即使……也……",
+     "即使延迟，也要保证质量。"
+    ],
+    [
+     "对比",
+     "尽管……仍然……",
+     "尽管反对，计划仍推进。"
+    ],
+    [
+     "总结",
+     "总的来看",
+     "总的来看，赞成。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "先让步再主张更有说服力。",
+    "en": "Conceding first persuades more."
+   },
+   {
+    "ko": "承认对方最强的一点。",
+    "en": "Concede the opponent's strongest point."
+   },
+   {
+    "ko": "结论要简洁明确。",
+    "en": "Keep the conclusion brief and clear."
+   }
+  ],
+  "examples": [
+   {
+    "t": "费用固然高，但是值得。",
+    "read": "Fèi yòng gù rán gāo, dànshì zhí děi.",
+    "ko": "그는 짧고 날카로운 반박을 했어요.",
+    "en": "He gave a short, sharp rebuttal."
+   },
+   {
+    "t": "即使延迟，也要保证质量。",
+    "read": "Jí shǐ yán chí, yě yào bǎo zhèng zhìliàng.",
+    "ko": "저는 그 점을 인정합니다.",
+    "en": "I concede that point."
+   },
+   {
+    "t": "尽管反对声不断，计划仍然推进。",
+    "read": "Jǐnguǎn fǎnduì shēng bú duàn, jìhuà réng rán tuī jìn.",
+    "ko": "그렇다 하더라도 비용이 문제예요.",
+    "en": "Be that as it may, the cost is a problem."
+   },
+   {
+    "t": "即使假设成立，结论也不变。",
+    "read": "Jí shǐ jiǎshè chéng lì, jié lùn yě bú biàn.",
+    "ko": "종합적으로 보면 이 정책은 유익해요.",
+    "en": "On balance, this policy is beneficial."
+   },
+   {
+    "t": "总的来看，这个方案最好。",
+    "read": "Zǒng de lái kàn, zhège fāng àn zuì hǎo.",
+    "ko": "그의 증거는 설득력 있어요.",
+    "en": "His evidence is compelling."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "费用___高，但是值得。",
+    "options": [
+     "固然",
+     "决不",
+     "因为"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___延迟，也要保证质量。",
+    "options": [
+     "即使",
+     "因为",
+     "于是"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___反对声不断，计划仍然推进。",
+    "options": [
+     "尽管",
+     "因为",
+     "如果"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___，这个方案最好。",
+    "options": [
+     "总的来看",
+     "比如",
+     "顺便"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个方案有反对意见吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 상대의 주장을 어떻게 일부 인정하며 반박할 수 있나요?",
+     "en": "(Question) How can you rebut a claim while conceding part of it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "费用固然高，但效果大。",
+       "不听反对意见。",
+       "没有计划。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你怎么下结论？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 'on balance'는 언제 쓰나요?",
+     "en": "(Question) When do you use 'on balance'?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "总的来看，这个方案最好。",
+       "我定不下来。",
+       "换个话题。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个计划费用太高了。"
+      },
+      {
+       "s": "B",
+       "t": "费用固然高，但从长远看有利。"
+      },
+      {
+       "s": "A",
+       "t": "即使失败了呢？"
+      },
+      {
+       "s": "B",
+       "t": "总的来看，我认为值得做。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그의 비판을 어떻게 생각해?\nB: 비용 문제는 인정하지만, 그렇다 하더라도 이익이 더 커.\nA: 증거는 있어?\nB: 응, 설득력 있는 자료가 있어.",
+     "en": "A: What do you think of his criticism?\nB: I concede the cost issue, but, be that as it may, the benefits are greater.\nA: Is there evidence?\nB: Yes, there is compelling data."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B的结论是什么？",
+      "options": [
+       "值得做",
+       "应该停止",
+       "再等等"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "有说服力的论证不无视反对意见。先承认对方有道理，再提出自己的主张。“即使……也……”表示承认假设后结论仍不变。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "좋은 토론은 상대를 이기는 것이 아니라 논점을 명확히 하는 것입니다. 상대의 좋은 점을 인정한 뒤 약점을 짚으면 신뢰를 얻습니다. 마지막에는 종합적으로 판단해 결론을 제시합니다.",
+     "en": "A good debate is not about defeating the opponent but about clarifying the points. Conceding the opponent's good points before pointing out weaknesses wins trust. In the end, you present a conclusion based on an overall judgement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "有说服力的论证先做什么？",
+      "options": [
+       "承认对方有道理",
+       "无视对方",
+       "只说结论"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "有反对意见吗？"
+      },
+      {
+       "s": "B",
+       "t": "费用固然较高，但效果很大。"
+      },
+      {
+       "s": "A",
+       "t": "即使预算不够也做吗？"
+      },
+      {
+       "s": "B",
+       "t": "是的，总的来看值得做。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의장: 반박해 주시겠습니까?\n토론자: 상대방의 지적을 일부 인정합니다.\n의장: 그렇다면 결론은요?\n토론자: 종합적으로 보면 여전히 찬성입니다.",
+     "en": "Chair: Would you like to respond?\nDebater: I concede part of the opponent's point.\nChair: Then what is your conclusion?\nDebater: On balance, I am still in favour."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "委员说费用固然较______",
+      "answers": [
+       "高"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "总的来看______做",
+      "answers": [
+       "值得"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 费用___高，但是值得。\n2) ___延迟，也要保证质量。\n3) ___，这个方案最好。",
+    "trans": {
+     "ko": "1) 그는 짧고 날카로운 반박을 했어요. 2) 저는 그 점을 인정합니다. 3) 종합적으로 보면 이 정책은 유익해요.",
+     "en": "1) He gave a short, sharp rebuttal. 2) I concede that point. 3) On balance, this policy is beneficial."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "费用___高，但是值得。",
+      "options": [
+       "固然",
+       "决不",
+       "因为"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___延迟，也要保证质量。",
+      "options": [
+       "即使",
+       "因为",
+       "于是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___，这个方案最好。",
+      "options": [
+       "总的来看",
+       "比如",
+       "顺便"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "尽管有人(1)，计划仍然推进。即使失败，我们得到的(2)也很大，委员这样(3)。",
+    "trans": {
+     "ko": "비판에도 불구하고 계획은 진행되었다. 의원은 비용 문제를 인정했지만, 장기적 이익이 더 크다고 주장했다. 그의 증거는 설득력 있었다.",
+     "en": "The plan went ahead notwithstanding the criticism. The councillor conceded the cost issue but argued that the long-term benefits were greater. His evidence was compelling."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "反对",
+       "同意",
+       "沉默"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "经验",
+       "天气",
+       "地图"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "表示",
+       "破坏",
+       "忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "论文写作\n处理反对意见\n优秀的论文不无视反对意见。先承认对方最强的一点，再说明自己的主张为什么成立。这叫让步，是增强说服力的基本手法。",
+    "trans": {
+     "ko": "토론 가이드\n품위 있는 반박\n반박하기 전에 상대의 논점을 정확히 요약하세요. 인정할 부분은 인정하고, 그렇다 하더라도 왜 결론이 달라지지 않는지 설명하세요. 마지막에는 종합적으로 판단한 결론을 제시하세요.",
+     "en": "DEBATE GUIDE\nGraceful rebuttal\nBefore rebutting, summarise the opponent's point accurately. Concede what should be conceded, and explain why, be that as it may, the conclusion does not change. At the end, give a conclusion based on an overall judgement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "优秀论文怎样处理反对意见？",
+      "options": [
+       "先承认再说明",
+       "完全无视",
+       "立刻否定"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "让步有什么作用？",
+      "options": [
+       "增强说服力",
+       "让文章变长",
+       "惹读者生气"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "文章说优秀论文不无视反对意见，让步是增强说服力的基本手法。",
+    "trans": {
+     "ko": "가이드는 반박 전에 상대의 논점을 요약하라고 한다. 가이드는 상대의 주장을 절대 인정하지 말라고 한다. 가이드는 종합적인 결론을 제시하라고 한다.",
+     "en": "The guide says to summarise the opponent's point before rebutting. The guide says never to concede the opponent's claim. The guide says to give an overall conclusion."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "让步可增强说服力。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "让步削弱论证。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章介绍某篇论文。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "费用固然高，但效果大。",
+    "read": "Fèi yòng gù rán gāo, dàn xiào guǒ dà.",
+    "ko": "저는 상대방의 지적을 일부 인정합니다.",
+    "en": "I concede part of my opponent's point.",
+    "situation": {
+     "ko": "양보할 때",
+     "en": "Making a concession"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "总的来看，这个方案最好。",
+    "read": "Zǒng de lái kàn, zhège fāng àn zuì hǎo.",
+    "ko": "그 점이 맞다고 치더라도, 결론은 달라지지 않습니다.",
+    "en": "Granted that point, the conclusion does not change.",
+    "situation": {
+     "ko": "양보 후 반박",
+     "en": "Rebuttal after concession"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "即使延迟，也要保证质量。",
+    "read": "Jí shǐ yán chí, yě yào bǎo zhèng zhìliàng.",
+    "ko": "그렇다 하더라도 비용 문제는 남습니다.",
+    "en": "Be that as it may, the problem of cost remains.",
+    "situation": {
+     "ko": "반전을 말할 때",
+     "en": "Turning the argument"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "尽管反对声不断，计划仍然推进。",
+    "read": "Jǐnguǎn fǎnduì shēng bú duàn, jìhuà réng rán tuī jìn.",
+    "ko": "비판에도 불구하고 계획은 진행되었습니다.",
+    "en": "The plan went ahead notwithstanding the criticism.",
+    "situation": {
+     "ko": "양보를 말할 때",
+     "en": "Expressing concession"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "即使假设成立，结论也不变。",
+    "read": "Jí shǐ jiǎshè chéng lì, jié lùn yě bú biàn.",
+    "ko": "저는 상대 논증의 약점 한 가지를 짚겠습니다.",
+    "en": "I will point out one weakness in the opposing argument.",
+    "situation": {
+     "ko": "반박을 시작할 때",
+     "en": "Starting a rebuttal"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "请拿出可靠的依据。",
+    "read": "Qǐng ná chū kě kào de yī jù.",
+    "ko": "저는 한 가지 반론을 제기하고 싶습니다.",
+    "en": "I would like to raise one objection.",
+    "situation": {
+     "ko": "이의를 제기할 때",
+     "en": "Raising an objection"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "指出对方论证的弱点。",
+    "read": "Zhǐ chū duì fāng lùn zhèng de ruò diǎn.",
+    "ko": "종합적으로 보면 이 정책의 이익이 비용보다 큽니다.",
+    "en": "On balance, the benefits of this policy outweigh its costs.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "让步能增强说服力。",
+    "read": "Ràng bù néng zēng qiáng shuō fú lì.",
+    "ko": "좋은 토론자는 상대의 좋은 논점을 인정할 줄 압니다.",
+    "en": "A good debater can acknowledge the opponent's good points.",
+    "situation": {
+     "ko": "태도를 말할 때",
+     "en": "Describing attitude"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……固然……，但是……。",
+    "read": "… Gù rán …, dànshì ….",
+    "ko": "~를 인정하다.",
+    "en": "concede ..."
+   },
+   {
+    "id": "w2",
+    "t": "即使……也……。",
+    "read": "Jí shǐ … yě ….",
+    "ko": "~라고 치더라도.",
+    "en": "granted that ..."
+   },
+   {
+    "id": "w3",
+    "t": "尽管……仍然……。",
+    "read": "Jǐnguǎn … réng rán ….",
+    "ko": "~에도 불구하고.",
+    "en": "notwithstanding ..."
+   },
+   {
+    "id": "w4",
+    "t": "总的来看，……。",
+    "read": "Zǒng de lái kàn, ….",
+    "ko": "종합적으로 보면.",
+    "en": "on balance"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "상대 주장을 일부 인정하고 반박한 뒤 결론을 말하는 4문장을 써 보세요.",
+    "en": "Write four sentences that concede part of an opponent's claim, rebut it and conclude."
+   },
+   "must_include": [
+    {
+     "label": "固然",
+     "match": [
+      "固然"
+     ]
+    },
+    {
+     "label": "即使",
+     "match": [
+      "即使"
+     ]
+    },
+    {
+     "label": "总的来看",
+     "match": [
+      "总的来看"
+     ]
+    }
+   ],
+   "model": "费用固然高，但从长远看是值得的。即使遇到困难，我们也能解决。尽管有人反对，我仍然支持。总的来看，这个方案最好。",
+   "model_trans": {
+    "ko": "저는 비용이 크다는 점은 인정합니다. 그렇다 하더라도 장기적 이익은 그 비용을 넘어섭니다. 비판에도 불구하고 증거는 설득력 있습니다. 종합적으로 보면 이 정책을 채택해야 합니다.",
+    "en": "I concede that the cost is high. Be that as it may, the long-term benefits outweigh that cost. Notwithstanding the criticism, the evidence is compelling. On balance, this policy should be adopted."
+   }
+  }
+ }
+}

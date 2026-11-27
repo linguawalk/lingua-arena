@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u39",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 39,
+  "concept": "C2.U39",
+  "status": "live",
+  "title": {
+   "target": "法律与合同用语",
+   "ko": "법률 영어: 계약과 조항",
+   "en": "Legal English: contracts and clauses"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "甲方",
+   "pos": "adv",
+   "read": "jiǎ fāng",
+   "ko": "이하",
+   "en": "hereinafter",
+   "ex": {
+    "t": "甲方是出租人。",
+    "read": "Jiǎ fāng shì chū zū rén.",
+    "ko": "이하 '매도인'이라 한다.",
+    "en": "Hereinafter referred to as the Seller."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "乙方",
+   "pos": "noun",
+   "read": "yǐ fāng",
+   "ko": "당사자",
+   "en": "party",
+   "ex": {
+    "t": "乙方是承租人。",
+    "read": "Yǐ fāng shì chéng zū rén.",
+    "ko": "계약 당사자는 두 곳이에요.",
+    "en": "There are two parties to the contract."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "应当",
+   "pos": "modal",
+   "read": "yīng dāng",
+   "ko": "~해야 한다 (의무)",
+   "en": "shall",
+   "ex": {
+    "t": "乙方应当按时支付租金。",
+    "read": "Yǐ fāng yīng dāng ànshí zhī fù zū jīn.",
+    "ko": "매도인은 상품을 인도해야 한다.",
+    "en": "The Seller shall deliver the goods."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "不得",
+   "pos": "verb",
+   "read": "bù děi",
+   "ko": "면책하다",
+   "en": "indemnify",
+   "ex": {
+    "t": "未经同意，不得转租。",
+    "read": "Wèi jīng tóngyì, bù děi zhuǎn zū.",
+    "ko": "매도인은 구매자를 면책해야 한다.",
+    "en": "The Seller shall indemnify the Buyer."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "免责",
+   "pos": "phrase",
+   "read": "miǎn zé",
+   "ko": "불가항력",
+   "en": "force majeure",
+   "ex": {
+    "t": "甲方对此不承担责任，予以免责。",
+    "read": "Jiǎ fāng duì cǐ bù chéng dān zé rèn, yǔ yǐ miǎn zé.",
+    "ko": "불가항력 사유는 면책돼요.",
+    "en": "Force majeure events are excused."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "不可抗力",
+   "pos": "phrase",
+   "read": "bù kě kàng lì",
+   "ko": "준거법",
+   "en": "governing law",
+   "ex": {
+    "t": "因不可抗力造成的损失，双方均不承担责任。",
+    "read": "Yīn bù kě kàng lì zào chéng de sǔn shī, shuāng fāng jūn bù chéng dān zé rèn.",
+    "ko": "준거법은 한국법이에요.",
+    "en": "The governing law is Korean law."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "适用法律",
+   "pos": "noun",
+   "read": "shì yòng fǎ lǜ",
+   "ko": "계약 위반",
+   "en": "breach",
+   "ex": {
+    "t": "本合同适用中国法律。",
+    "read": "Běn hé tóng shì yòng Zhōngguó fǎ lǜ.",
+    "ko": "계약 위반은 해지 사유예요.",
+    "en": "A breach is grounds for termination."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "违约",
+   "pos": "verb",
+   "read": "wéi yuē",
+   "ko": "해지하다",
+   "en": "terminate",
+   "ex": {
+    "t": "一方违约，另一方有权解除合同。",
+    "read": "Yì fāng wéi yuē, lìng yì fāng yǒu quán jiě chú hé tóng.",
+    "ko": "당사자는 계약을 해지할 수 있어요.",
+    "en": "A party may terminate the contract."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "解除",
+   "pos": "prep",
+   "read": "jiě chú",
+   "ko": "~에도 불구하고",
+   "en": "notwithstanding",
+   "ex": {
+    "t": "提前三十天通知可以解除合同。",
+    "read": "Tíqián sānshí tiān tōngzhī kěyǐ jiě chú hé tóng.",
+    "ko": "다른 규정에도 불구하고 이 조항이 우선해요.",
+    "en": "Notwithstanding any other provision, this clause prevails."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "具有约束力",
+   "pos": "adj",
+   "read": "jù yǒu yuē shù lì",
+   "ko": "구속력 있는",
+   "en": "binding",
+   "ex": {
+    "t": "本合同对双方具有约束力。",
+    "read": "Běn hé tóng duì shuāng fāng jù yǒu yuē shù lì.",
+    "ko": "이 계약은 구속력이 있어요.",
+    "en": "This agreement is binding."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "甲方乙方／应当／不得／免责／不可抗力／适用法律",
+   "en": "Legal and contract language: 甲方乙方 / 应当 / 不得 / 免责 / 不可抗力 / 适用法律"
+  },
+  "explain": {
+   "ko": "合同用词要求准确。签约人叫“当事人”，常称“甲方、乙方”。“应当”表示义务，“有权”表示权利，“不得”表示禁止。“免责”指不承担责任，“不可抗力”指人力无法抵抗的事件，“适用法律”指依据哪国法律。要逐字准确阅读，避免含糊。",
+   "en": "Contract wording must be exact. Parties are 当事人, often 甲方、乙方. 应当 expresses obligation, 有权 a right, 不得 prohibition. 免责 is freedom from liability, 不可抗力 events beyond human control, 适用法律 the governing law. Read each word exactly and avoid ambiguity."
+  },
+  "table": {
+   "head": [
+    "术语 / Term",
+    "意思 / Meaning",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "甲方／乙方",
+     "合同当事人",
+     "甲方出租。"
+    ],
+    [
+     "应当",
+     "义务",
+     "乙方应当付款。"
+    ],
+    [
+     "不得",
+     "禁止",
+     "不得转租。"
+    ],
+    [
+     "不可抗力",
+     "无法抗拒",
+     "地震是不可抗力。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "逐字读，不能漏。",
+    "en": "Read each word exactly."
+   },
+   {
+    "ko": "区分义务与权利。",
+    "en": "Distinguish obligations from rights."
+   },
+   {
+    "ko": "避免含糊词。",
+    "en": "Avoid ambiguous words."
+   }
+  ],
+  "examples": [
+   {
+    "t": "乙方应当按时支付租金。",
+    "read": "Yǐ fāng yīng dāng ànshí zhī fù zū jīn.",
+    "ko": "계약 당사자는 두 곳이에요.",
+    "en": "There are two parties to the contract."
+   },
+   {
+    "t": "未经同意，不得转租。",
+    "read": "Wèi jīng tóngyì, bù děi zhuǎn zū.",
+    "ko": "매도인은 상품을 인도해야 한다.",
+    "en": "The Seller shall deliver the goods."
+   },
+   {
+    "t": "因不可抗力造成的损失，双方均不承担责任。",
+    "read": "Yīn bù kě kàng lì zào chéng de sǔn shī, shuāng fāng jūn bù chéng dān zé rèn.",
+    "ko": "불가항력 사유는 면책돼요.",
+    "en": "Force majeure events are excused."
+   },
+   {
+    "t": "本合同适用中国法律。",
+    "read": "Běn hé tóng shì yòng Zhōngguó fǎ lǜ.",
+    "ko": "준거법은 한국법이에요.",
+    "en": "The governing law is Korean law."
+   },
+   {
+    "t": "一方违约，另一方有权解除合同。",
+    "read": "Yì fāng wéi yuē, lìng yì fāng yǒu quán jiě chú hé tóng.",
+    "ko": "이 계약은 구속력이 있어요.",
+    "en": "This agreement is binding."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "乙方___按时支付租金。",
+    "options": [
+     "应当",
+     "可以",
+     "也许"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "未经同意，___转租。",
+    "options": [
+     "不得",
+     "必须",
+     "可以"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "因___造成的损失，双方不承担责任。",
+    "options": [
+     "不可抗力",
+     "天气",
+     "休假"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "本合同适用中国___。",
+    "options": [
+     "法律",
+     "地图",
+     "食物"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "合同的当事人是谁？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 계약서에서 shall은 무엇을 뜻하나요?",
+     "en": "(Question) What does 'shall' mean in a contract?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "甲方和乙方两方。",
+       "三方。",
+       "没有。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "什么是不可抗力？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 면책 조항이란 무엇인가요?",
+     "en": "(Question) What is an indemnity clause?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "人力无法抗拒的事件。",
+       "合同名称。",
+       "公司名称。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "合同里的“甲方”是谁？"
+      },
+      {
+       "s": "B",
+       "t": "是出租人。"
+      },
+      {
+       "s": "A",
+       "t": "“乙方”呢？"
+      },
+      {
+       "s": "B",
+       "t": "是承租人。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 계약서의 준거법은 어느 나라 법이야?\nB: 대한민국 법이야.\nA: 불가항력 조항도 있어?\nB: 응, 불가항력 사유로 인한 지연은 책임이 면제돼.",
+     "en": "A: Which country's law governs this contract?\nB: The laws of the Republic of Korea.\nA: Is there a force majeure clause too?\nB: Yes, delay caused by force majeure carries no liability."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "乙方是谁？",
+      "options": [
+       "承租人",
+       "出租人",
+       "律师"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "合同用词要求准确。“应当”表示义务，“有权”表示权利，“不得”表示禁止。阅读时要逐字准确，避免含糊。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "법률 영어는 정확성과 모호함의 회피를 최우선으로 합니다. shall은 의무를, may는 권리를 나타내고, hereinafter, notwithstanding 같은 전통적 어휘가 쓰입니다. 계약서는 해석의 다툼을 줄이도록 문장이 길고 구조가 엄격합니다.",
+     "en": "Legal English gives first priority to precision and avoidance of ambiguity. Shall expresses obligation and may expresses right, and traditional vocabulary such as hereinafter and notwithstanding is used. Contracts have long sentences and strict structure so as to reduce disputes over interpretation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "读合同要怎样？",
+      "options": [
+       "逐字准确阅读",
+       "快速读",
+       "只读开头"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请仔细读这一条。"
+      },
+      {
+       "s": "B",
+       "t": "因不可抗力造成的损失，双方不承担责任。"
+      },
+      {
+       "s": "A",
+       "t": "对，适用法律是中国法律。"
+      },
+      {
+       "s": "B",
+       "t": "明白了，我签字。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "고객: 계약서를 먼저 검토해도 될까요?\n변호사: 물론입니다. 제3조를 보세요.\n고객: 이 조항은 무슨 뜻인가요?\n변호사: 위반 시 계약을 해지할 수 있다는 뜻입니다.",
+     "en": "Client: May I review the contract first?\nLawyer: Of course. Look at Clause 3.\nClient: What does this clause mean?\nLawyer: It means the contract may be terminated in case of breach."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "双方不承担______",
+      "answers": [
+       "责任"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "适用法律是中国______",
+      "answers": [
+       "法律"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 乙方___按时支付租金。\n2) 未经同意，___转租。\n3) 因___造成的损失，双方不承担责任。",
+    "trans": {
+     "ko": "1) 계약 당사자는 두 곳이에요. 2) 매도인은 상품을 인도해야 한다. 3) 이 계약은 구속력이 있어요.",
+     "en": "1) There are two parties to the contract. 2) The Seller shall deliver the goods. 3) This agreement is binding."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "乙方___按时支付租金。",
+      "options": [
+       "应当",
+       "可以",
+       "也许"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "未经同意，___转租。",
+      "options": [
+       "不得",
+       "必须",
+       "可以"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "因___造成的损失，双方不承担责任。",
+      "options": [
+       "不可抗力",
+       "天气",
+       "休假"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "根据合同，乙方(1)按时付款。但因地震等(2)造成的损失，双方均不承担责任。本合同(3)中国法律。",
+    "trans": {
+     "ko": "매도인은 약정된 기일까지 상품을 인도해야 한다. 불가항력 사유로 인한 지연은 책임이 면제된다. 계약 위반 시 상대방은 계약을 해지할 수 있다.",
+     "en": "The Seller shall deliver the goods by the agreed date. Delay caused by force majeure shall not give rise to liability. In the event of breach, the other party may terminate this Agreement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "应当",
+       "可以",
+       "也许"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "不可抗力",
+       "天气",
+       "休假"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "适用",
+       "忘记",
+       "购买"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "法律基础\n怎样读合同\n合同中，一个词常常意义重大。“应当”和“可以”表示完全不同的义务与权利。要避免含糊，逐字准确阅读。",
+    "trans": {
+     "ko": "법률 가이드\n계약서 읽는 법\n계약서는 정의 조항으로 시작해 의무, 권리, 면책, 해지, 준거법 순으로 이어집니다. shall은 의무를, may는 권리를 나타냅니다. 모호한 표현은 분쟁의 원인이 되므로 서명 전에 반드시 확인하세요.",
+     "en": "LEGAL GUIDE\nHow to read a contract\nA contract starts with definition clauses and continues with obligations, rights, indemnity, termination and governing law. Shall expresses obligation and may expresses right. Ambiguous wording can cause disputes, so always check it before signing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "合同中什么意义重大？",
+      "options": [
+       "一个词",
+       "插图",
+       "页码颜色"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "“应当”表示什么？",
+      "options": [
+       "义务",
+       "权利",
+       "自由"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "文章说合同中一个词意义重大，“应当”表示义务。",
+    "trans": {
+     "ko": "가이드는 계약서가 정의 조항으로 시작한다고 본다. 가이드는 may가 의무를 나타낸다고 본다. 가이드는 서명 전에 모호한 표현을 확인하라고 한다.",
+     "en": "The guide says a contract starts with definition clauses. The guide says may expresses obligation. The guide says to check ambiguous wording before signing."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "合同一个词意义重大。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "合同越含糊越好。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章介绍合同价格。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "甲方和乙方两方。",
+    "read": "Jiǎ fāng hé yǐ fāng liǎng fāng.",
+    "ko": "본 계약의 당사자는 이하 '매도인'과 '매수인'이라 한다.",
+    "en": "The parties to this Agreement are hereinafter referred to as the Seller and the Buyer.",
+    "situation": {
+     "ko": "정의 조항",
+     "en": "Definition clause"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "人力无法抗拒的事件。",
+    "read": "Rén lì wú fǎ kàng jù de shì jiàn.",
+    "ko": "매도인은 약정된 기일까지 상품을 인도해야 한다.",
+    "en": "The Seller shall deliver the goods by the agreed date.",
+    "situation": {
+     "ko": "의무 조항",
+     "en": "Obligation clause"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "乙方应当按时支付租金。",
+    "read": "Yǐ fāng yīng dāng ànshí zhī fù zū jīn.",
+    "ko": "매도인은 매수인에게 발생한 손실을 면책해야 한다.",
+    "en": "The Seller shall indemnify the Buyer against any loss incurred.",
+    "situation": {
+     "ko": "면책 조항",
+     "en": "Indemnity clause"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "未经同意，不得转租。",
+    "read": "Wèi jīng tóngyì, bù děi zhuǎn zū.",
+    "ko": "불가항력 사유로 인한 지연은 책임이 면제된다.",
+    "en": "Delay caused by force majeure shall not give rise to liability.",
+    "situation": {
+     "ko": "불가항력 조항",
+     "en": "Force majeure clause"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "本合同适用中国法律。",
+    "read": "Běn hé tóng shì yòng Zhōngguó fǎ lǜ.",
+    "ko": "다른 규정에도 불구하고 이 조항이 우선한다.",
+    "en": "Notwithstanding any other provision, this clause shall prevail.",
+    "situation": {
+     "ko": "우선 조항",
+     "en": "Priority clause"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "一方违约，另一方有权解除合同。",
+    "read": "Yì fāng wéi yuē, lìng yì fāng yǒu quán jiě chú hé tóng.",
+    "ko": "계약 위반 시 상대방은 계약을 해지할 수 있다.",
+    "en": "In the event of breach, the other party may terminate this Agreement.",
+    "situation": {
+     "ko": "해지 조항",
+     "en": "Termination clause"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "提前三十天通知可以解除合同。",
+    "read": "Tíqián sānshí tiān tōngzhī kěyǐ jiě chú hé tóng.",
+    "ko": "본 계약의 준거법은 대한민국 법으로 한다.",
+    "en": "This Agreement shall be governed by the laws of the Republic of Korea.",
+    "situation": {
+     "ko": "준거법 조항",
+     "en": "Governing law clause"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "本合同对双方具有约束力。",
+    "read": "Běn hé tóng duì shuāng fāng jù yǒu yuē shù lì.",
+    "ko": "계약서는 모호함 없이 정확하게 써야 합니다.",
+    "en": "A contract must be drafted precisely and without ambiguity.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "甲方……，乙方……。",
+    "read": "Jiǎ fāng …, yǐ fāng ….",
+    "ko": "이하 ~라 한다.",
+    "en": "hereinafter referred to as ..."
+   },
+   {
+    "id": "w2",
+    "t": "应当……。",
+    "read": "Yīng dāng ….",
+    "ko": "~에도 불구하고.",
+    "en": "notwithstanding ..."
+   },
+   {
+    "id": "w3",
+    "t": "不得……。",
+    "read": "Bù děi ….",
+    "ko": "~해야 한다 (의무).",
+    "en": "shall ..."
+   },
+   {
+    "id": "w4",
+    "t": "不可抗力。",
+    "read": "Bù kě kàng lì.",
+    "ko": "~의 법에 따른다.",
+    "en": "be governed by the laws of ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "계약 조항 형식으로 의무, 면책, 준거법을 포함한 4문장을 써 보세요.",
+    "en": "Write four sentences in contract-clause style including an obligation, an indemnity and a governing-law clause."
+   },
+   "must_include": [
+    {
+     "label": "应当",
+     "match": [
+      "应当"
+     ]
+    },
+    {
+     "label": "不可抗力",
+     "match": [
+      "不可抗力"
+     ]
+    },
+    {
+     "label": "适用",
+     "match": [
+      "适用"
+     ]
+    }
+   ],
+   "model": "乙方应当按时支付租金。因不可抗力造成的损失，双方不承担责任。本合同适用中国法律，对双方都有约束力。",
+   "model_trans": {
+    "ko": "매도인은 약정된 기일까지 상품을 인도해야 한다. 매도인은 매수인이 입은 손실을 면책해야 한다. 불가항력 사유로 인한 지연은 책임을 지지 아니한다. 본 계약은 대한민국 법의 적용을 받는다.",
+    "en": "The Seller shall deliver the goods by the agreed date. The Seller shall indemnify the Buyer against any loss suffered. Delay caused by force majeure shall not give rise to liability. This Agreement shall be governed by the laws of the Republic of Korea."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u41",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 41,
+  "concept": "C2.U41",
+  "status": "live",
+  "title": {
+   "target": "谈判与折中",
+   "ko": "협상과 외교적 완곡함",
+   "en": "Negotiation and diplomatic tact"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "共同点",
+   "pos": "phrase",
+   "read": "gòng tóng diǎn",
+   "ko": "공통점",
+   "en": "common ground",
+   "ex": {
+    "t": "先找出双方的共同点。",
+    "read": "Xiān zhǎo chū shuāng fāng de gòng tóng diǎn.",
+    "ko": "우리는 공통점을 찾았어요.",
+    "en": "We found common ground."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "折中",
+   "pos": "phrase",
+   "read": "zhé zhōng",
+   "ko": "중간에서 만나다",
+   "en": "meet halfway",
+   "ex": {
+    "t": "我们各让一步，折中处理。",
+    "read": "Wǒmen gè ràng yí bù, zhé zhōng chǔ lǐ.",
+    "ko": "양쪽이 중간에서 만나야 해요.",
+    "en": "Both sides must meet halfway."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "底线",
+   "pos": "phrase",
+   "read": "dǐ xiàn",
+   "ko": "넘어서는 안 되는 선",
+   "en": "red line",
+   "ex": {
+    "t": "这是我们的底线。",
+    "read": "Zhè shì wǒmen de dǐ xiàn.",
+    "ko": "이것은 우리의 넘어서는 안 될 선이에요.",
+    "en": "This is our red line."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "让步",
+   "pos": "noun",
+   "read": "ràng bù",
+   "ko": "양보",
+   "en": "concession",
+   "ex": {
+    "t": "我们做出了部分让步。",
+    "read": "Wǒmen zuò chū le bù fēn ràng bù.",
+    "ko": "그들은 큰 양보를 했어요.",
+    "en": "They made a major concession."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "外交辞令",
+   "pos": "adj",
+   "read": "wài jiāo cí lìng",
+   "ko": "외교적인",
+   "en": "diplomatic",
+   "ex": {
+    "t": "他用外交辞令婉拒了。",
+    "read": "Tā yòng wài jiāo cí lìng wǎn jù le.",
+    "ko": "그는 외교적으로 대답했어요.",
+    "en": "He answered diplomatically."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "僵局",
+   "pos": "noun",
+   "read": "jiāng jú",
+   "ko": "교착 상태",
+   "en": "deadlock",
+   "ex": {
+    "t": "谈判陷入僵局。",
+    "read": "Tán pàn xiàn rù jiāng jú.",
+    "ko": "협상은 교착 상태에 빠졌어요.",
+    "en": "The negotiation reached a deadlock."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "妥协",
+   "pos": "noun",
+   "read": "tuǒ xié",
+   "ko": "타협",
+   "en": "compromise",
+   "ex": {
+    "t": "妥协并不容易。",
+    "read": "Tuǒ xié bìng bù róng yì.",
+    "ko": "타협이 필요해요.",
+    "en": "A compromise is necessary."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "提议",
+   "pos": "phrase",
+   "read": "tí yì",
+   "ko": "제안하다",
+   "en": "put forward",
+   "ex": {
+    "t": "我提议一个新方案。",
+    "read": "Wǒ tí yì yí ge xīn fāng àn.",
+    "ko": "새 제안을 내놓았어요.",
+    "en": "We put forward a new proposal."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "担忧",
+   "pos": "noun",
+   "read": "dān yōu",
+   "ko": "우려",
+   "en": "reservation",
+   "ex": {
+    "t": "我对价格有些担忧。",
+    "read": "Wǒ duì jiàgé yǒu xiē dān yōu.",
+    "ko": "저는 약간의 우려가 있어요.",
+    "en": "I have some reservations."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "达成共识",
+   "pos": "phrase",
+   "read": "dá chéng gòng shí",
+   "ko": "합의에 이르다",
+   "en": "reach an agreement",
+   "ex": {
+    "t": "双方终于达成共识。",
+    "read": "Shuāng fāng zhōng yú dá chéng gòng shí.",
+    "ko": "마침내 합의에 이르렀어요.",
+    "en": "We finally reached an agreement."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "寻找共同点／底线／以……为条件／各让一步／僵局／达成共识",
+   "en": "Negotiation: 寻找共同点 / 底线 / 以……为条件 / 各让一步 / 僵局 / 达成共识"
+  },
+  "explain": {
+   "ko": "谈判中，先寻找共同点，再各让一步，折中处理。要先明确自己的“底线”，其余可以让步。“以……为条件”“如果……的话”表示条件，“我们担忧……”礼貌地表示顾虑。陷入僵局时，用外交辞令提出新方案。最后确认“达成共识”。",
+   "en": "In negotiation, first seek common ground, then each give a little and compromise. Clarify your 底线 and concede elsewhere. 以……为条件 and 如果……的话 state conditions; 我们担忧…… voices worry politely. When deadlocked, propose another idea diplomatically. Finally confirm 达成共识."
+  },
+  "table": {
+   "head": [
+    "阶段 / Stage",
+    "表达 / Phrase",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "共同点",
+     "寻找共同点",
+     "先找共同点。"
+    ],
+    [
+     "条件",
+     "以……为条件",
+     "以交货期为条件。"
+    ],
+    [
+     "顾虑",
+     "担忧……",
+     "担忧价格。"
+    ],
+    [
+     "共识",
+     "达成共识",
+     "双方达成共识。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "先明确底线。",
+    "en": "Clarify the red line first."
+   },
+   {
+    "ko": "有条件地让步。",
+    "en": "Concede with conditions."
+   },
+   {
+    "ko": "最后确认协议内容。",
+    "en": "Confirm the agreement at the end."
+   }
+  ],
+  "examples": [
+   {
+    "t": "先找出双方的共同点。",
+    "read": "Xiān zhǎo chū shuāng fāng de gòng tóng diǎn.",
+    "ko": "우리는 공통점을 찾았어요.",
+    "en": "We found common ground."
+   },
+   {
+    "t": "我们以交货期为条件接受。",
+    "read": "Wǒmen yǐ jiāo huò qī wèi tiáo jiàn jiē shòu.",
+    "ko": "양쪽이 중간에서 만나야 해요.",
+    "en": "Both sides must meet halfway."
+   },
+   {
+    "t": "我对价格有些担忧。",
+    "read": "Wǒ duì jiàgé yǒu xiē dān yōu.",
+    "ko": "이것은 우리의 넘어서는 안 될 선이에요.",
+    "en": "This is our red line."
+   },
+   {
+    "t": "我们各让一步。",
+    "read": "Wǒmen gè ràng yí bù.",
+    "ko": "협상은 교착 상태에 빠졌어요.",
+    "en": "The negotiation reached a deadlock."
+   },
+   {
+    "t": "双方终于达成共识。",
+    "read": "Shuāng fāng zhōng yú dá chéng gòng shí.",
+    "ko": "마침내 합의에 이르렀어요.",
+    "en": "We finally reached an agreement."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "先找出双方的___。",
+    "options": [
+     "共同点",
+     "天气",
+     "地图"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "以交货期___条件接受。",
+    "options": [
+     "为",
+     "是",
+     "给"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "我对价格有些___。",
+    "options": [
+     "担忧",
+     "料理",
+     "照片"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "双方终于达成___。",
+    "options": [
+     "共识",
+     "后悔",
+     "停止"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "谈判时首先做什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 정중하게 이견을 말하려면 어떻게 하나요?",
+     "en": "(Question) How do you disagree politely?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "先寻找共同点。",
+       "激怒对方。",
+       "什么也不做。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "陷入僵局怎么办？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 'red line'은 무엇인가요?",
+     "en": "(Question) What is a 'red line'?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "用外交辞令提出新方案。",
+       "离开会场。",
+       "大声说话。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "价格方面有难度，不过交货期可以调整。"
+      },
+      {
+       "s": "B",
+       "t": "那就以延长一周交货期为条件，降低价格。"
+      },
+      {
+       "s": "A",
+       "t": "看来可以折中。"
+      },
+      {
+       "s": "B",
+       "t": "是的，应该能达成共识。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 조건은 받아들이기 어렵습니다.\nB: 이해합니다. 그러나 중간에서 만날 수 있을지 궁금합니다.\nA: 한 가지 양보는 가능합니다.\nB: 좋습니다. 그러면 합의에 이를 수 있을 것 같습니다.",
+     "en": "A: This condition is hard for us to accept.\nB: I understand. But I wonder whether we could meet halfway.\nA: One concession is possible.\nB: Good. Then I think we can reach an agreement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "双方以什么为条件降价？",
+      "options": [
+       "延长一周交货期",
+       "提前付款",
+       "提高质量"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "谈判中，先寻找共同点，各让一步，折中处理。先明确底线，其余可以让步。陷入僵局时，要用外交辞令提出新方案。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "외교적 협상에서는 직접적인 거절 대신 완곡한 표현을 씁니다. With respect, I wonder whether 같은 표현은 이견을 정중하게 전달합니다. 공통점을 먼저 확인하고, 넘어서는 안 되는 선을 분명히 한 뒤, 서로 양보할 부분을 찾는 것이 일반적인 순서입니다.",
+     "en": "In diplomatic negotiation, tactful expressions are used instead of direct refusal. Expressions such as With respect and I wonder whether convey disagreement politely. The usual order is to confirm common ground first, make clear the red lines, and then look for areas where each side can make concessions."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "谈判首先做什么？",
+      "options": [
+       "寻找共同点",
+       "增加要求",
+       "沉默"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请大家谈谈意见。"
+      },
+      {
+       "s": "B",
+       "t": "价格方面我们有些担忧，但以交货期为条件，可以接受。"
+      },
+      {
+       "s": "A",
+       "t": "谢谢。"
+      },
+      {
+       "s": "B",
+       "t": "我想这样就达成共识了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "대표: 이 조항에는 우려가 있습니다.\n상대: 어떤 점이 걱정이십니까?\n대표: 위험이 너무 크다고 생각합니다.\n상대: 그렇다면 조항을 수정하겠습니다.",
+     "en": "Representative: We have some reservations about this clause.\nCounterpart: What concerns you?\nRepresentative: I think the risk is too great.\nCounterpart: Then we will amend the clause."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "代表对价格有些______",
+      "answers": [
+       "担忧"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "这样就达成______了",
+      "answers": [
+       "共识"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 先找出双方的___。\n2) 以交货期___条件接受。\n3) 我对价格有些___。",
+    "trans": {
+     "ko": "1) 우리는 공통점을 찾았어요. 2) 양쪽이 중간에서 만나야 해요. 3) 마침내 합의에 이르렀어요.",
+     "en": "1) We found common ground. 2) Both sides must meet halfway. 3) We finally reached an agreement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "先找出双方的___。",
+      "options": [
+       "共同点",
+       "天气",
+       "地图"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "以交货期___条件接受。",
+      "options": [
+       "为",
+       "是",
+       "给"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我对价格有些___。",
+      "options": [
+       "担忧",
+       "料理",
+       "照片"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "两家公司经过长时间谈判，互相(1)。价格上做出了让步，交货期上守住了(2)。终于达成(3)。",
+    "trans": {
+     "ko": "협상은 교착 상태에 빠졌다. 그러나 한쪽이 양보를 제안했다. 양쪽은 마침내 중간에서 만나 합의에 이르렀다.",
+     "en": "The negotiation reached a deadlock. But one side proposed a concession. The two sides finally met halfway and reached an agreement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "让步",
+       "生气",
+       "逃避"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "底线",
+       "歌曲",
+       "颜色"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "共识",
+       "后悔",
+       "停止"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "谈判技巧\n折中的诀窍\n好的谈判不是输赢。先找共同点，确定自己的底线，其他方面有条件地让步。最后，以书面形式确认协议内容。",
+    "trans": {
+     "ko": "외교 가이드\n협상의 기술\n협상에서는 먼저 공통점을 찾고, 넘어서는 안 되는 선을 분명히 하세요. 그리고 직접적인 거절 대신 '존경을 담아' 같은 표현으로 이견을 전하세요. 서로 이익이 되는 합의를 찾는 것이 목표입니다.",
+     "en": "DIPLOMATIC GUIDE\nThe art of negotiation\nIn negotiation, first find common ground and make your red lines clear. And convey disagreement with phrases such as 'with respect' instead of direct refusal. The aim is to find an agreement that benefits both sides."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "好的谈判不是什么？",
+      "options": [
+       "输赢",
+       "沟通",
+       "共识"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "最后要做什么？",
+      "options": [
+       "书面确认协议",
+       "离开",
+       "提高要求"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "文章说好的谈判不是输赢，最后要书面确认协议。",
+    "trans": {
+     "ko": "가이드는 먼저 공통점을 찾으라고 한다. 가이드는 직접적인 거절이 가장 좋다고 한다. 가이드는 서로 이익이 되는 합의가 목표라고 본다.",
+     "en": "The guide says to find common ground first. The guide says direct refusal is best. The guide says the aim is an agreement that benefits both sides."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "谈判不是输赢。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "谈判中不能让步。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章点了谈判专家。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "先寻找共同点。",
+    "read": "Xiān xún zhǎo gòng tóng diǎn.",
+    "ko": "존경을 담아 말씀드리지만, 저는 다른 견해를 가지고 있습니다.",
+    "en": "With respect, I take a different view.",
+    "situation": {
+     "ko": "정중히 이견을 말할 때",
+     "en": "Politely disagreeing"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "用外交辞令提出新方案。",
+    "read": "Yòng wài jiāo cí lìng tí chū xīn fāng àn.",
+    "ko": "제안을 조금 수정하는 것은 어떨까 합니다.",
+    "en": "I wonder whether we might modify the proposal slightly.",
+    "situation": {
+     "ko": "완곡하게 제안할 때",
+     "en": "Suggesting tactfully"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我们以交货期为条件接受。",
+    "read": "Wǒmen yǐ jiāo huò qī wèi tiáo jiàn jiē shòu.",
+    "ko": "우리는 먼저 공통점을 찾아야 합니다.",
+    "en": "We should first look for common ground.",
+    "situation": {
+     "ko": "접점을 찾을 때",
+     "en": "Seeking common ground"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我对价格有些担忧。",
+    "read": "Wǒ duì jiàgé yǒu xiē dān yōu.",
+    "ko": "양쪽이 중간에서 만나야 합니다.",
+    "en": "Both sides must meet halfway.",
+    "situation": {
+     "ko": "타협을 요청할 때",
+     "en": "Asking for compromise"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这是我们的底线。",
+    "read": "Zhè shì wǒmen de dǐ xiàn.",
+    "ko": "이 조건은 우리에게 넘어서는 안 될 선입니다.",
+    "en": "This condition is a red line for us.",
+    "situation": {
+     "ko": "한계를 밝힐 때",
+     "en": "Stating a limit"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我们各让一步。",
+    "read": "Wǒmen gè ràng yí bù.",
+    "ko": "우리는 이 점에서 한 가지 양보를 할 수 있습니다.",
+    "en": "We can make one concession on this point.",
+    "situation": {
+     "ko": "양보할 때",
+     "en": "Making a concession"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "双方终于达成共识。",
+    "read": "Shuāng fāng zhōng yú dá chéng gòng shí.",
+    "ko": "저는 몇 가지 우려가 있음을 말씀드리고 싶습니다.",
+    "en": "I should like to say that I have some reservations.",
+    "situation": {
+     "ko": "우려를 표명할 때",
+     "en": "Expressing reservations"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "确认协议内容。",
+    "read": "Quèrèn xié yì nèi róng.",
+    "ko": "협상은 이기는 것이 아니라 서로에게 이익이 되는 합의를 찾는 일입니다.",
+    "en": "Negotiation is not about winning but about finding a mutually beneficial agreement.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "寻找共同点。",
+    "read": "Xún zhǎo gòng tóng diǎn.",
+    "ko": "존경을 담아, ~.",
+    "en": "With respect, ..."
+   },
+   {
+    "id": "w2",
+    "t": "以……为条件。",
+    "read": "Yǐ … wèi tiáo jiàn.",
+    "ko": "~일지 궁금합니다.",
+    "en": "I wonder whether ..."
+   },
+   {
+    "id": "w3",
+    "t": "担忧……。",
+    "read": "Dān yōu ….",
+    "ko": "양보를 하다.",
+    "en": "make a concession"
+   },
+   {
+    "id": "w4",
+    "t": "达成共识。",
+    "read": "Dá chéng gòng shí.",
+    "ko": "합의에 이르다.",
+    "en": "reach an agreement"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "정중한 이견, 공통점, 양보, 합의를 포함해 협상 발언 4문장을 써 보세요.",
+    "en": "Write four sentences of negotiation speech including polite disagreement, common ground, a concession and agreement."
+   },
+   "must_include": [
+    {
+     "label": "共同点",
+     "match": [
+      "共同点"
+     ]
+    },
+    {
+     "label": "条件",
+     "match": [
+      "为条件"
+     ]
+    },
+    {
+     "label": "共识",
+     "match": [
+      "达成共识"
+     ]
+    }
+   ],
+   "model": "谈判时先寻找共同点。我们以交货期为条件，在价格上做出了让步。双方各让一步，最终达成共识。",
+   "model_trans": {
+    "ko": "존경을 담아 말씀드리지만, 저는 약간 다른 견해를 가지고 있습니다. 그러나 우리는 중요한 공통점을 공유하고 있습니다. 우리는 이 점에서 한 가지 양보를 할 용의가 있습니다. 이렇게 하면 합의에 이를 수 있을 것입니다.",
+    "en": "With respect, I take a slightly different view. However, we share important common ground. We are prepared to make one concession on this point. In this way, we should be able to reach an agreement."
+   }
+  }
+ }
+}

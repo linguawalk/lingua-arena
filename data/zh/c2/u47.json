@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u47",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 47,
+  "concept": "C2.U47",
+  "status": "live",
+  "title": {
+   "target": "翻译的局限与对等",
+   "ko": "번역과 번역 불가능한 뉘앙스",
+   "en": "Translation and untranslatable nuance"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "直译",
+   "pos": "noun",
+   "read": "zhí yì",
+   "ko": "대응어",
+   "en": "equivalent",
+   "ex": {
+    "t": "直译有时不自然。",
+    "read": "Zhí yì yǒushí bú zì rán.",
+    "ko": "한 단어로 된 대응어가 없어요.",
+    "en": "There is no one-word equivalent."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "意译",
+   "pos": "phrase",
+   "read": "yì yì",
+   "ko": "번역 중 사라지다",
+   "en": "lost in translation",
+   "ex": {
+    "t": "意译更自然地传达意思。",
+    "read": "Yì yì gèng zì rán dì chuán dá yìsi.",
+    "ko": "뉘앙스가 번역 중 사라졌어요.",
+    "en": "The nuance was lost in translation."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "忠实",
+   "pos": "noun",
+   "read": "zhōng shí",
+   "ko": "함축 의미",
+   "en": "connotation",
+   "ex": {
+    "t": "翻译要忠实于原文。",
+    "read": "Fān yì yào zhōng shí yú yuán wén.",
+    "ko": "그 단어는 부정적 함축이 있어요.",
+    "en": "That word has negative connotations."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "对等",
+   "pos": "noun",
+   "read": "duì děng",
+   "ko": "뉘앙스",
+   "en": "nuance",
+   "ex": {
+    "t": "没有完全对等的词。",
+    "read": "Méiyǒu wán quán duì děng de cí.",
+    "ko": "미묘한 뉘앙스를 놓쳤어요.",
+    "en": "I missed the subtle nuance."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "内涵",
+   "pos": "verb",
+   "read": "nèi hán",
+   "ko": "옮기다",
+   "en": "render",
+   "ex": {
+    "t": "这个词有特殊的内涵。",
+    "read": "Zhège cí yǒu tè shū de nèi hán.",
+    "ko": "그는 시를 영어로 옮겼어요.",
+    "en": "He rendered the poem into English."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "韵味",
+   "pos": "adj",
+   "read": "yùn wèi",
+   "ko": "원문에 충실한",
+   "en": "faithful",
+   "ex": {
+    "t": "翻译中丢失了韵味。",
+    "read": "Fān yì zhōng diū shī le yùn wèi.",
+    "ko": "번역은 원문에 충실해요.",
+    "en": "The translation is faithful to the original."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "难译",
+   "pos": "phrase",
+   "read": "nán yì",
+   "ko": "직역",
+   "en": "literal translation",
+   "ex": {
+    "t": "这个词很难翻译。",
+    "read": "Zhège cí hěn nán fān yì.",
+    "ko": "직역은 어색하게 들려요.",
+    "en": "A literal translation sounds awkward."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "文化背景",
+   "pos": "phrase",
+   "read": "wén huà bèi jǐng",
+   "ko": "의역",
+   "en": "free translation",
+   "ex": {
+    "t": "要了解文化背景。",
+    "read": "Yào le jiě wén huà bèi jǐng.",
+    "ko": "의역이 더 자연스러워요.",
+    "en": "A free translation is more natural."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "翻译",
+   "pos": "adj",
+   "read": "fān yì",
+   "ko": "번역 불가능한",
+   "en": "untranslatable",
+   "ex": {
+    "t": "翻译不能损害原意。",
+    "read": "Fān yì bùnéng sǔn hài yuán yì.",
+    "ko": "그 단어는 번역 불가능해요.",
+    "en": "That word is untranslatable."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "相当于",
+   "pos": "phrase",
+   "read": "xiāng dāng yú",
+   "ko": "문화적 맥락",
+   "en": "cultural context",
+   "ex": {
+    "t": "这相当于英语的“home”。",
+    "read": "Zhè xiāng dāng yú yīngyǔ de \" h o m e \".",
+    "ko": "문화적 맥락을 고려하세요.",
+    "en": "Consider the cultural context."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "直译／意译／忠实于原文／翻译中丢失／文化背景／相当于",
+   "en": "Translation and equivalence: 直译 / 意译 / 忠实于原文 / 文化背景 / 相当于"
+  },
+  "explain": {
+   "ko": "翻译有“直译”和“意译”：直译贴近原文的形式，意译自然地传达意思。哪个更好，取决于目的。“缘分”“含蓄”等词在别的语言里很难找到完全对等的词，翻译中会丢失韵味和内涵。“相当于”指出相近的词。了解文化背景，能拓宽翻译的选择。",
+   "en": "Translation includes 直译, close to the original's form, and 意译, which conveys meaning naturally. Which is better depends on purpose. Words like 缘分 and 含蓄 often have no exact equivalent, so flavour and connotation are lost. 相当于 points to the nearest word. Cultural background widens choices."
+  },
+  "table": {
+   "head": [
+    "种类 / Type",
+    "特点 / Feature",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "直译",
+     "贴近原文",
+     "word for word"
+    ],
+    [
+     "意译",
+     "自然传达",
+     "重意思"
+    ],
+    [
+     "相当于",
+     "近似",
+     "相当于“home”"
+    ],
+    [
+     "丢失",
+     "韵味",
+     "缘分"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "按目的选直译或意译。",
+    "en": "Choose by purpose."
+   },
+   {
+    "ko": "难译的词可加注释。",
+    "en": "Add notes for hard-to-translate words."
+   },
+   {
+    "ko": "了解文化背景。",
+    "en": "Know the cultural background."
+   }
+  ],
+  "examples": [
+   {
+    "t": "直译有时不自然。",
+    "read": "Zhí yì yǒushí bú zì rán.",
+    "ko": "한 단어로 된 대응어가 없어요.",
+    "en": "There is no one-word equivalent."
+   },
+   {
+    "t": "意译更自然地传达意思。",
+    "read": "Yì yì gèng zì rán dì chuán dá yìsi.",
+    "ko": "뉘앙스가 번역 중 사라졌어요.",
+    "en": "The nuance was lost in translation."
+   },
+   {
+    "t": "没有完全对等的词。",
+    "read": "Méiyǒu wán quán duì děng de cí.",
+    "ko": "그 단어는 부정적 함축이 있어요.",
+    "en": "That word has negative connotations."
+   },
+   {
+    "t": "翻译中丢失了韵味。",
+    "read": "Fān yì zhōng diū shī le yùn wèi.",
+    "ko": "직역은 어색하게 들려요.",
+    "en": "A literal translation sounds awkward."
+   },
+   {
+    "t": "这相当于英语的“home”。",
+    "read": "Zhè xiāng dāng yú yīngyǔ de \" h o m e \".",
+    "ko": "문화적 맥락을 고려하세요.",
+    "en": "Consider the cultural context."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___有时不自然。",
+    "options": [
+     "直译",
+     "意译",
+     "朗读"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___更自然地传达意思。",
+    "options": [
+     "意译",
+     "直译",
+     "背诵"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "没有完全___的词。",
+    "options": [
+     "对等",
+     "昂贵",
+     "便宜"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "翻译中___了韵味。",
+    "options": [
+     "丢失",
+     "增加",
+     "看见"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "直译和意译有什么不同？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 번역 불가능한 단어란 무엇인가요?",
+     "en": "(Question) What is an untranslatable word?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "直译贴近原文，意译自然传达意思。",
+       "两者相同。",
+       "都错。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "“缘分”怎么翻译？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 직역과 의역의 차이는 무엇인가요?",
+     "en": "(Question) What is the difference between literal and free translation?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "没有完全对等的词，近似“fate”。",
+       "完全不能翻译。",
+       "译成“happy”。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "“缘分”用英语怎么翻译？"
+      },
+      {
+       "s": "B",
+       "t": "没有完全对等的词。"
+      },
+      {
+       "s": "A",
+       "t": "那怎么办？"
+      },
+      {
+       "s": "B",
+       "t": "加注释，或者意译。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 시는 번역하기 어렵지?\nB: 응, 뉘앙스가 번역 중에 사라지거든.\nA: 어떻게 옮기면 좋을까?\nB: 문화적 맥락을 고려해서 의역해야 해.",
+     "en": "A: Is this poem hard to translate?\nB: Yes, the nuance gets lost in translation.\nA: How should I render it?\nB: Consider the cultural context and use a free translation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B怎么处理？",
+      "options": [
+       "加注释或意译",
+       "原样翻",
+       "不翻译"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "翻译有贴近原文的直译，也有自然传达意思的意译。哪个更好取决于目的。没有完全对等的词时，韵味会丢失。了解文化背景，能拓宽选择。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "번역자는 원문에 충실함과 자연스러움 사이에서 균형을 잡아야 합니다. 직역은 원문의 구조를 살리지만 어색할 수 있고, 의역은 자연스럽지만 원문에서 멀어질 수 있습니다. 번역하기 어려운 단어는 문화적 맥락을 이해해야 제대로 옮길 수 있습니다.",
+     "en": "A translator must balance fidelity to the original with naturalness. A literal translation preserves the structure of the original but may sound awkward, while a free translation is natural but may drift from the original. Hard-to-translate words can be rendered properly only by understanding the cultural context."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "没有对等的词时丢失什么？",
+      "options": [
+       "韵味",
+       "字数",
+       "页码"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个词很难翻译。"
+      },
+      {
+       "s": "B",
+       "t": "怎么办？"
+      },
+      {
+       "s": "A",
+       "t": "意译并加注释。"
+      },
+      {
+       "s": "B",
+       "t": "好，不损害原意。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "번역가: 이 단어는 한 단어로 옮길 수 없습니다.\n편집자: 어떻게 하실 건가요?\n번역가: 주석을 달아 설명하겠습니다.\n편집자: 좋은 생각입니다.",
+     "en": "Translator: This word cannot be rendered in a single word.\nEditor: What will you do?\nTranslator: I will explain it with a note.\nEditor: That's a good idea."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "译者说意译并加______",
+      "answers": [
+       "注释"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "编辑说不损害______",
+      "answers": [
+       "原意"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___有时不自然。\n2) ___更自然地传达意思。\n3) 没有完全___的词。",
+    "trans": {
+     "ko": "1) 한 단어로 된 대응어가 없어요. 2) 뉘앙스가 번역 중 사라졌어요. 3) 직역은 어색하게 들려요.",
+     "en": "1) There is no one-word equivalent. 2) The nuance was lost in translation. 3) A literal translation sounds awkward."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___有时不自然。",
+      "options": [
+       "直译",
+       "意译",
+       "朗读"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___更自然地传达意思。",
+      "options": [
+       "意译",
+       "直译",
+       "背诵"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "没有完全___的词。",
+      "options": [
+       "对等",
+       "昂贵",
+       "便宜"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这个词与中国(1)联系很深，所以很难翻译。因为没有完全对等的词，所以容易丢失(2)。译者加了(3)来补充。",
+    "trans": {
+     "ko": "그는 시를 영어로 충실하게 옮겼다. 그러나 한 단어는 대응어가 없어 주석을 달았다. 번역 불가능해 보이는 단어는 문화를 잘 보여 준다.",
+     "en": "He rendered the poem faithfully into English. But one word had no equivalent, so he added a note. Words that seem untranslatable show a culture well."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "文化",
+       "天气",
+       "料理"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "韵味",
+       "文字",
+       "页码"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "注释",
+       "声音",
+       "金钱"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "翻译论\n不可译的词\n像“缘分”这样的词，其他语言中没有完全对等的词。翻译中，韵味的丢失难以避免。但加上说明文化背景的注释，可以在一定程度上保护原文的丰富。",
+    "trans": {
+     "ko": "번역 칼럼\n번역의 딜레마\n번역자는 원문에 충실함과 자연스러움 사이에서 갈등한다. 직역은 어색하고 의역은 원문에서 멀어질 수 있다. 훌륭한 번역은 문화적 맥락을 이해하는 데서 시작한다.",
+     "en": "TRANSLATION COLUMN\nThe translator's dilemma\nA translator is torn between fidelity to the original and naturalness. A literal translation is awkward and a free translation may drift from the original. A fine translation begins with understanding cultural context."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "“缘分”这样的词怎么样？",
+      "options": [
+       "没有完全对等的词",
+       "很容易翻译",
+       "不必翻译"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "加注释能保护什么？",
+      "options": [
+       "原文的丰富",
+       "翻译速度",
+       "书的价格"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "文章说“缘分”没有完全对等的词，加注释可在一定程度上保护原文的丰富。",
+    "trans": {
+     "ko": "칼럼은 번역자가 충실함과 자연스러움 사이에서 갈등한다고 본다. 칼럼은 직역이 언제나 자연스럽다고 한다. 칼럼은 훌륭한 번역이 문화적 맥락 이해에서 시작한다고 본다.",
+     "en": "The column says translators are torn between fidelity and naturalness. The column says literal translation is always natural. The column says a fine translation begins with understanding cultural context."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "没有完全对等的词。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "翻译不会丢失韵味。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章介绍某位译者。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "直译贴近原文，意译自然传达意思。",
+    "read": "Zhí yì tiē jìn yuán wén, yì yì zì rán chuán dá yìsi.",
+    "ko": "한국어의 '정'에는 영어에 정확한 대응어가 없습니다.",
+    "en": "The Korean word 'jeong' has no exact English equivalent.",
+    "situation": {
+     "ko": "번역의 한계",
+     "en": "A limit of translation"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "没有完全对等的词，近似“fate”。",
+    "read": "Méiyǒu wán quán duì děng de cí, jìn shì \" f a t e \".",
+    "ko": "시의 뉘앙스는 번역 중에 쉽게 사라집니다.",
+    "en": "The nuance of a poem is easily lost in translation.",
+    "situation": {
+     "ko": "번역의 어려움",
+     "en": "Difficulty of translation"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "没有完全对等的词。",
+    "read": "Méiyǒu wán quán duì děng de cí.",
+    "ko": "두 단어는 뜻은 같지만 함축 의미가 다릅니다.",
+    "en": "The two words mean the same but differ in connotation.",
+    "situation": {
+     "ko": "함축을 비교할 때",
+     "en": "Comparing connotation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "翻译中丢失了韵味。",
+    "read": "Fān yì zhōng diū shī le yùn wèi.",
+    "ko": "직역은 어색하므로 의역이 필요할 때가 있습니다.",
+    "en": "A literal translation sounds awkward, so a free translation is sometimes needed.",
+    "situation": {
+     "ko": "번역 방식",
+     "en": "Translation strategy"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "意译并加注释。",
+    "read": "Yì yì bìng jiā zhù shì.",
+    "ko": "번역자는 원문의 의미와 자연스러움 사이에서 균형을 잡아야 합니다.",
+    "en": "A translator must balance fidelity to the original with naturalness.",
+    "situation": {
+     "ko": "번역자의 과제",
+     "en": "The translator's task"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "翻译不能损害原意。",
+    "read": "Fān yì bùnéng sǔn hài yuán yì.",
+    "ko": "문화적 맥락을 이해하지 못하면 오역하기 쉽습니다.",
+    "en": "Without understanding the cultural context, one easily mistranslates.",
+    "situation": {
+     "ko": "맥락의 중요성",
+     "en": "Importance of context"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "要了解文化背景。",
+    "read": "Yào le jiě wén huà bèi jǐng.",
+    "ko": "그는 시를 영어로 충실하게 옮겼습니다.",
+    "en": "He rendered the poem faithfully into English.",
+    "situation": {
+     "ko": "번역을 묘사할 때",
+     "en": "Describing a translation"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "这相当于英语的“home”。",
+    "read": "Zhè xiāng dāng yú yīngyǔ de \" h o m e \".",
+    "ko": "번역 불가능해 보이는 단어일수록 문화를 잘 보여 줍니다.",
+    "en": "The more untranslatable a word seems, the better it shows a culture.",
+    "situation": {
+     "ko": "흥미로운 점을 말할 때",
+     "en": "Making an interesting point"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "直译和意译。",
+    "read": "Zhí yì hé yì yì.",
+    "ko": "~에 대응어가 없다.",
+    "en": "have no equivalent in ..."
+   },
+   {
+    "id": "w2",
+    "t": "相当于……。",
+    "read": "Xiāng dāng yú ….",
+    "ko": "~에 충실하다.",
+    "en": "be faithful to ..."
+   },
+   {
+    "id": "w3",
+    "t": "丢失韵味。",
+    "read": "Diū shī yùn wèi.",
+    "ko": "번역 중 사라지다.",
+    "en": "be lost in translation"
+   },
+   {
+    "id": "w4",
+    "t": "文化背景。",
+    "read": "Wén huà bèi jǐng.",
+    "ko": "문화적 맥락.",
+    "en": "cultural context"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "번역하기 어려운 단어를 하나 골라 그 뉘앙스와 번역 전략을 4문장으로 설명해 보세요.",
+    "en": "Choose a hard-to-translate word and explain its nuance and a translation strategy in four sentences."
+   },
+   "must_include": [
+    {
+     "label": "直译",
+     "match": [
+      "直译"
+     ]
+    },
+    {
+     "label": "意译",
+     "match": [
+      "意译"
+     ]
+    },
+    {
+     "label": "对等",
+     "match": [
+      "对等"
+     ]
+    }
+   ],
+   "model": "直译贴近原文，意译自然传达意思。像“缘分”这样的词，没有完全对等的词。我会加注释，补充文化背景。",
+   "model_trans": {
+    "ko": "한국어의 '정'에는 영어에 정확한 대응어가 없습니다. 이 단어에는 애정과 유대의 함축이 담겨 있습니다. 직역하면 뉘앙스가 번역 중에 사라지므로 의역이나 주석이 필요합니다. 번역자는 문화적 맥락을 고려해야 합니다.",
+    "en": "The Korean word 'jeong' has no exact English equivalent. It carries connotations of affection and bonds. A literal translation means the nuance is lost in translation, so a free translation or a note is needed. The translator must consider the cultural context."
+   }
+  }
+ }
+}

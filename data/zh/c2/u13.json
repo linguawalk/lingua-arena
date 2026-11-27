@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u13",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 13,
+  "concept": "C2.U13",
+  "status": "live",
+  "title": {
+   "target": "动补结构：结果补语与趋向补语",
+   "ko": "관용구: 신체와 자연",
+   "en": "Idioms: body and nature"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "想起来",
+   "pos": "idiom",
+   "read": "xiǎng qǐ lái",
+   "ko": "지켜보다",
+   "en": "keep an eye on",
+   "ex": {
+    "t": "我突然想起来今天有会。",
+    "read": "Wǒ tūrán xiǎng qǐ lái jīntiān yǒu huì.",
+    "ko": "아이를 좀 지켜봐 주세요.",
+    "en": "Please keep an eye on the children."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "坚持下去",
+   "pos": "idiom",
+   "read": "jiān chí xià qù",
+   "ko": "엄청나게 비싸다",
+   "en": "cost an arm and a leg",
+   "ex": {
+    "t": "只要坚持下去，就会成功。",
+    "read": "Zhī yào jiān chí xià qù, jiù huì chéng gōng.",
+    "ko": "그 차는 엄청나게 비쌌어요.",
+    "en": "The car cost an arm and a leg."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "看出来",
+   "pos": "idiom",
+   "read": "kàn chū lái",
+   "ko": "몸이 좋지 않다",
+   "en": "under the weather",
+   "ex": {
+    "t": "我一眼就看出来他在撒谎。",
+    "read": "Wǒ yì yǎn jiù kàn chū lái tā zài sā huǎng.",
+    "ko": "오늘은 몸이 좀 안 좋아요.",
+    "en": "I'm a bit under the weather today."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "走出来",
+   "pos": "idiom",
+   "read": "zǒu chū lái",
+   "ko": "찻잔 속의 태풍",
+   "en": "a storm in a teacup",
+   "ex": {
+    "t": "她终于从悲伤中走出来了。",
+    "read": "Tā zhōng yú cóng bēi shāng zhōng zǒu chū lái le.",
+    "ko": "그 논란은 찻잔 속의 태풍이었어요.",
+    "en": "The controversy was a storm in a teacup."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "听懂",
+   "pos": "idiom",
+   "read": "tīng dǒng",
+   "ko": "주목을 독차지하다",
+   "en": "steal the show",
+   "ex": {
+    "t": "他的话我完全听懂了。",
+    "read": "Tā de huà wǒ wán quán tīng dǒng le.",
+    "ko": "그 아이가 공연의 주인공이 됐어요.",
+    "en": "The child stole the show."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "取消",
+   "pos": "idiom",
+   "read": "qǔxiāo",
+   "ko": "기분 좋게 하다",
+   "en": "break the ice",
+   "ex": {
+    "t": "因为下雨，活动被取消了。",
+    "read": "Yīnwèi xiàyǔ, huó dòng bèi qǔxiāo le.",
+    "ko": "그는 농담으로 어색함을 깼어요.",
+    "en": "He broke the ice with a joke."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "完成",
+   "pos": "idiom",
+   "read": "wán chéng",
+   "ko": "고개를 숙이다",
+   "en": "eat humble pie",
+   "ex": {
+    "t": "他提前完成了任务。",
+    "read": "Tā tíqián wán chéng le rèn wù.",
+    "ko": "그는 결국 실수를 인정해야 했어요.",
+    "en": "He had to eat humble pie."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "熬过去",
+   "pos": "idiom",
+   "read": "áo guo qù",
+   "ko": "두 마리 토끼를 잡다",
+   "en": "kill two birds with one stone",
+   "ex": {
+    "t": "再难的日子也能熬过去。",
+    "read": "Zài nán de rìzi yě néng áo guo qù.",
+    "ko": "한 번에 두 가지를 해결했어요.",
+    "en": "I killed two birds with one stone."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "说服",
+   "pos": "idiom",
+   "read": "shuō fú",
+   "ko": "고비를 넘기다",
+   "en": "weather the storm",
+   "ex": {
+    "t": "我终于说服了他。",
+    "read": "Wǒ zhōng yú shuō fú le tā.",
+    "ko": "회사는 위기를 무사히 넘겼어요.",
+    "en": "The company weathered the storm."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "放下",
+   "pos": "idiom",
+   "read": "fàng xià",
+   "ko": "눈이 높다",
+   "en": "have a good eye for",
+   "ex": {
+    "t": "有些事情，只有放下才能轻松。",
+    "read": "Yǒu xiē shìqing, zhī yǒu fàng xià cái néng qīng sōng.",
+    "ko": "그녀는 예술을 보는 눈이 높아요.",
+    "en": "She has a good eye for art."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "看清／听懂／做完／想起来／坚持下去／走出来／看出来",
+   "en": "Complement structures: 看清 / 听懂 / 做完 / 想起来 / 坚持下去 / 走出来 / 看出来"
+  },
+  "explain": {
+   "ko": "汉语动词后常带补语，说明结果或方向。结果补语：看清、听懂、做完、说服；趋向补语：走出来、想起来、坚持下去。“看出来”表示通过观察发现；“熬过去”表示经过艰难后顺利度过。补语让动作的结果更明确，用错会让句子不自然。",
+   "en": "Chinese verbs take complements for result or direction. Result: 看清、听懂、做完、说服; directional: 走出来、想起来、坚持下去. 看出来 means discerning by observation; 熬过去 means getting through hardship. Complements make outcomes explicit; misuse sounds unnatural."
+  },
+  "table": {
+   "head": [
+    "类型 / Type",
+    "例子 / Example",
+    "意思 / Meaning"
+   ],
+   "rows": [
+    [
+     "结果补语",
+     "听懂了",
+     "听了并明白"
+    ],
+    [
+     "趋向补语",
+     "走出来",
+     "from inside to outside"
+    ],
+    [
+     "引申义",
+     "想起来",
+     "recall"
+    ],
+    [
+     "引申义",
+     "坚持下去",
+     "keep going"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“了”放在补语后面。",
+    "en": "了 goes after the complement."
+   },
+   {
+    "ko": "否定用“没＋动补”或“V不C”。",
+    "en": "Negate with 没 or V不C."
+   },
+   {
+    "ko": "引申义要整体记忆。",
+    "en": "Extended meanings are learned as wholes."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我突然想起来今天有会。",
+    "read": "Wǒ tūrán xiǎng qǐ lái jīntiān yǒu huì.",
+    "ko": "그 시계는 엄청나게 비쌌어요.",
+    "en": "That watch cost an arm and a leg."
+   },
+   {
+    "t": "只要坚持下去，就会成功。",
+    "read": "Zhī yào jiān chí xià qù, jiù huì chéng gōng.",
+    "ko": "오늘은 몸이 좀 안 좋아요.",
+    "en": "I'm feeling a bit under the weather today."
+   },
+   {
+    "t": "我一眼就看出来他在撒谎。",
+    "read": "Wǒ yì yǎn jiù kàn chū lái tā zài sā huǎng.",
+    "ko": "그 논란은 찻잔 속의 태풍이었어요.",
+    "en": "The controversy was a storm in a teacup."
+   },
+   {
+    "t": "她终于从悲伤中走出来了。",
+    "read": "Tā zhōng yú cóng bēi shāng zhōng zǒu chū lái le.",
+    "ko": "그 신인 배우가 공연의 주인공이 되었어요.",
+    "en": "The newcomer stole the show."
+   },
+   {
+    "t": "他的话我完全听懂了。",
+    "read": "Tā de huà wǒ wán quán tīng dǒng le.",
+    "ko": "회사는 위기를 무사히 넘겼어요.",
+    "en": "The company weathered the storm."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我突然想___今天有会。",
+    "options": [
+     "起来",
+     "出去",
+     "下来"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "只要坚持___，就会成功。",
+    "options": [
+     "下去",
+     "起来",
+     "出来"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "她终于从悲伤中走___了。",
+    "options": [
+     "出来",
+     "进去",
+     "回去"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "他的话我听___了。",
+    "options": [
+     "懂",
+     "好",
+     "坏"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "遇到困难时，你怎么办？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 오늘 컨디션이 어때요?",
+     "en": "(Question) How are you feeling today?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我会想办法坚持下去。",
+       "我昨天去了。",
+       "我不喜欢。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你怎么发现这个问题的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 차는 얼마였나요?",
+     "en": "(Question) How much was that car?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我一眼就看出来有问题。",
+       "我不知道。",
+       "我不吃饭。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你做完报告了吗？"
+      },
+      {
+       "s": "B",
+       "t": "还差一点，但我想起来还有一个数据没查。"
+      },
+      {
+       "s": "A",
+       "t": "别担心，你一定能做完。"
+      },
+      {
+       "s": "B",
+       "t": "谢谢，我会坚持下去的。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 파티에서 누가 가장 눈길을 끌었어?\nB: 신인 가수가 주인공이 됐어.\nA: 그 가수는 몸이 안 좋다고 하지 않았어?\nB: 그랬지만 무대에 올라서는 그런 기색이 전혀 없었어.",
+     "en": "A: Who stole the show at yesterday's party?\nB: The newcomer singer did.\nA: Didn't she say she was under the weather?\nB: She did, but on stage there was no sign of it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B想起来什么？",
+      "options": [
+       "还有一个数据没查",
+       "忘了带钥匙",
+       "没吃早饭"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "生活中总有困难的时候。有人坚持不下去，有人却能熬过去。关键在于，遇到问题时，要想办法走出来，而不是一直停留在原地。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "관용구는 낱말 뜻의 합이 아니라 전체가 하나의 뜻을 이룹니다. 신체와 자연을 이용한 관용구는 일상 대화와 뉴스에서 흔합니다. 상황에 맞지 않게 쓰면 부자연스러우므로 예문과 함께 익히세요.",
+     "en": "An idiom's meaning is not the sum of its words; the whole expression forms one meaning. Idioms using the body and nature are common in conversation and news. They sound unnatural if used out of place, so learn them with examples."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人认为关键是什么？",
+      "options": [
+       "想办法走出来",
+       "停留在原地",
+       "等待"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你最近睡得怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "有些失眠，总是想起来很多事。"
+      },
+      {
+       "s": "A",
+       "t": "慢慢来，你会走出来的。"
+      },
+      {
+       "s": "B",
+       "t": "谢谢医生，我会坚持下去的。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 위기를 어떻게 넘기셨나요?\n사장: 직원들이 서로를 믿고 함께 견뎠습니다.\n기자: 이번 일이 큰 논란이었나요?\n사장: 아니요, 찻잔 속의 태풍에 불과했습니다.",
+     "en": "Reporter: How did you weather the crisis?\nPresident: The staff trusted one another and bore it together.\nReporter: Was this a big controversy?\nPresident: No, it was just a storm in a teacup."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "病人总是想起来很多______",
+      "answers": [
+       "事"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "医生说他会走______的",
+      "answers": [
+       "出来"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我突然想___今天有会。\n2) 只要坚持___，就会成功。\n3) 他的话我听___了。",
+    "trans": {
+     "ko": "1) 그 시계는 엄청나게 비쌌어요. 2) 오늘은 몸이 좀 안 좋아요. 3) 그 논란은 찻잔 속의 태풍이었어요.",
+     "en": "1) That watch cost an arm and a leg. 2) I'm feeling a bit under the weather today. 3) The controversy was a storm in a teacup."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我突然想___今天有会。",
+      "options": [
+       "起来",
+       "出去",
+       "下来"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "只要坚持___，就会成功。",
+      "options": [
+       "下去",
+       "起来",
+       "出来"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他的话我听___了。",
+      "options": [
+       "懂",
+       "好",
+       "坏"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "遇到困难的时候，很多人都觉得自己(1)不下去。可是只要换一种想法，就能慢慢(2)出来。再难的日子，也能(3)过去。",
+    "trans": {
+     "ko": "그 가수는 몸이 좀 안 좋았지만 무대에 올랐다. 그녀의 공연은 단연 주인공이었다. 입장권은 엄청나게 비쌌지만 관객들은 만족했다.",
+     "en": "The singer was a bit under the weather but took the stage. Her performance stole the show. Tickets cost an arm and a leg, but the audience was satisfied."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "坚持",
+       "逃",
+       "停"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "走",
+       "睡",
+       "坐"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "熬",
+       "忘",
+       "买"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "生活随笔\n走出来\n去年冬天，我失去了一份很喜欢的工作。起初我什么也不想做。后来，朋友鼓励我多出去走走。慢慢地，我想起了自己的兴趣，也看清了自己真正想做的事。",
+    "trans": {
+     "ko": "블로그\n위기를 넘기는 법\n모든 회사는 한 번쯤 위기를 맞습니다. 이를 무사히 넘기려면 서로를 믿는 팀워크가 필요합니다. 사소한 일을 크게 키우지 말고, 찻잔 속의 태풍은 가볍게 넘기세요.",
+     "en": "BLOG\nHow to weather a crisis\nEvery company faces a crisis at some point. To weather it, teamwork built on trust is needed. Don't blow small things out of proportion; let a storm in a teacup pass lightly."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "她失去了什么？",
+      "options": [
+       "一份工作",
+       "一个朋友",
+       "一部手机"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "朋友鼓励她做什么？",
+      "options": [
+       "多出去走走",
+       "马上找工作",
+       "留在家里"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "她失去工作后很消沉，在朋友鼓励下，慢慢想起了自己的兴趣，看清了想做的事。",
+    "trans": {
+     "ko": "글은 모든 회사가 한 번쯤 위기를 맞는다고 본다. 글은 신뢰에 기반한 팀워크가 필요 없다고 한다. 글은 사소한 일은 가볍게 넘기라고 한다.",
+     "en": "The text says every company faces a crisis at some point. The text says teamwork built on trust is unnecessary. The text says to let small things pass lightly."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "朋友鼓励了她。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "她马上找到了新工作。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "她搬到了国外。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我突然想起来今天有会。",
+    "read": "Wǒ tūrán xiǎng qǐ lái jīntiān yǒu huì.",
+    "ko": "잠깐 가방 좀 지켜봐 주실래요?",
+    "en": "Could you keep an eye on my bag for a moment?",
+    "situation": {
+     "ko": "부탁할 때",
+     "en": "Making a request"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "只要坚持下去，就会成功。",
+    "read": "Zhī yào jiān chí xià qù, jiù huì chéng gōng.",
+    "ko": "새 노트북이 엄청나게 비싸서 놀랐어요.",
+    "en": "The new laptop cost an arm and a leg, to my surprise.",
+    "situation": {
+     "ko": "비싸다고 말할 때",
+     "en": "Saying something is expensive"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我一眼就看出来他在撒谎。",
+    "read": "Wǒ yì yǎn jiù kàn chū lái tā zài sā huǎng.",
+    "ko": "오늘은 몸이 좀 안 좋아서 쉬려고 해요.",
+    "en": "I'm a bit under the weather, so I'll take a rest.",
+    "situation": {
+     "ko": "몸 상태를 말할 때",
+     "en": "Describing health"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "她终于从悲伤中走出来了。",
+    "read": "Tā zhōng yú cóng bēi shāng zhōng zǒu chū lái le.",
+    "ko": "그 소동은 사실 찻잔 속의 태풍에 불과했습니다.",
+    "en": "The fuss was really nothing more than a storm in a teacup.",
+    "situation": {
+     "ko": "사소한 일을 말할 때",
+     "en": "Calling something trivial"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "他的话我完全听懂了。",
+    "read": "Tā de huà wǒ wán quán tīng dǒng le.",
+    "ko": "신인 배우가 오늘 무대의 주인공이 되었습니다.",
+    "en": "The newcomer stole the show at tonight's performance.",
+    "situation": {
+     "ko": "주목을 받을 때",
+     "en": "Taking the spotlight"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "再难的日子也能熬过去。",
+    "read": "Zài nán de rìzi yě néng áo guo qù.",
+    "ko": "한 번의 출장으로 두 가지 일을 해결했습니다.",
+    "en": "I killed two birds with one stone on a single trip.",
+    "situation": {
+     "ko": "효율을 말할 때",
+     "en": "Describing efficiency"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "我终于说服了他。",
+    "read": "Wǒ zhōng yú shuō fú le tā.",
+    "ko": "회사는 위기를 무사히 넘겼습니다.",
+    "en": "The firm weathered the storm.",
+    "situation": {
+     "ko": "위기를 극복했을 때",
+     "en": "Surviving a crisis"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "他提前完成了任务。",
+    "read": "Tā tíqián wán chéng le rèn wù.",
+    "ko": "그는 결국 실수를 인정해야 했습니다.",
+    "en": "In the end he had to eat humble pie.",
+    "situation": {
+     "ko": "굴욕을 감수할 때",
+     "en": "Admitting a mistake"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我想起来……。",
+    "read": "Wǒ xiǎng qǐ lái ….",
+    "ko": "~을 지켜보다.",
+    "en": "keep an eye on ..."
+   },
+   {
+    "id": "w2",
+    "t": "坚持下去，……。",
+    "read": "Jiān chí xià qù, ….",
+    "ko": "엄청나게 비싸다.",
+    "en": "cost an arm and a leg"
+   },
+   {
+    "id": "w3",
+    "t": "我看出来……。",
+    "read": "Wǒ kàn chū lái ….",
+    "ko": "몸이 안 좋다.",
+    "en": "be under the weather"
+   },
+   {
+    "id": "w4",
+    "t": "走出来……。",
+    "read": "Zǒu chū lái ….",
+    "ko": "위기를 넘기다.",
+    "en": "weather the storm"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "신체·자연 관용구 4개를 사용해 짧은 이야기를 4문장으로 써 보세요.",
+    "en": "Write a four-sentence story using four body and nature idioms."
+   },
+   "must_include": [
+    {
+     "label": "想起来",
+     "match": [
+      "想起来"
+     ]
+    },
+    {
+     "label": "坚持下去",
+     "match": [
+      "坚持下去"
+     ]
+    },
+    {
+     "label": "走出来",
+     "match": [
+      "走了出来"
+     ]
+    }
+   ],
+   "model": "昨天我突然想起来，还有一份报告没写完。我告诉自己，只要坚持下去，就能做完。写完以后，我终于从紧张的心情中走了出来。",
+   "model_trans": {
+    "ko": "오늘은 몸이 좀 안 좋았지만 새 전시회에 갔어요. 입장권이 엄청나게 비쌌지만 한 번의 방문으로 두 가지 일을 해결할 수 있었어요. 신인 작가의 그림이 단연 눈길을 끌었어요. 아이들은 제가 잘 지켜보았어요.",
+    "en": "I was a bit under the weather today, but I went to the new exhibition. The ticket cost an arm and a leg, but I killed two birds with one stone. A newcomer's painting stole the show. I kept an eye on the children."
+   }
+  }
+ }
+}

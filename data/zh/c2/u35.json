@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u35",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 35,
+  "concept": "C2.U35",
+  "status": "live",
+  "title": {
+   "target": "概括与改写：抓住要点",
+   "ko": "복잡한 글 요약과 바꿔 쓰기",
+   "en": "Summarising and paraphrasing complex texts"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "要点",
+   "pos": "noun",
+   "read": "yào diǎn",
+   "ko": "요지",
+   "en": "gist",
+   "ex": {
+    "t": "抓住文章的要点。",
+    "read": "Zhuā zhù wén zhāng de yào diǎn.",
+    "ko": "그 글의 요지를 파악했어요.",
+    "en": "I grasped the gist of the text."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "本质上",
+   "pos": "phrase",
+   "read": "běn zhì shàng",
+   "ko": "본질적으로",
+   "en": "in essence",
+   "ex": {
+    "t": "本质上，这是时间问题。",
+    "read": "Běn zhì shàng, zhè shì shíjiān wèntí.",
+    "ko": "본질적으로 이 글은 변화를 주장해요.",
+    "en": "In essence, the text argues for change."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "改写",
+   "pos": "verb",
+   "read": "gǎi xiě",
+   "ko": "다시 말하다",
+   "en": "restate",
+   "ex": {
+    "t": "把难词改写成简单的话。",
+    "read": "Bǎ nán cí gǎi xiě chéng jiǎn dān de huà.",
+    "ko": "요점을 다시 말해 주세요.",
+    "en": "Please restate the main point."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "压缩",
+   "pos": "verb",
+   "read": "yā suō",
+   "ko": "압축하다",
+   "en": "condense",
+   "ex": {
+    "t": "把长文压缩成短文。",
+    "read": "Bǎ cháng wén yā suō chéng duǎn wén.",
+    "ko": "긴 글을 세 문장으로 압축했어요.",
+    "en": "I condensed the long text into three sentences."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "中心论点",
+   "pos": "verb",
+   "read": "zhōng xīn lùn diǎn",
+   "ko": "핵심을 추출하다",
+   "en": "distil",
+   "ex": {
+    "t": "找出作者的中心论点。",
+    "read": "Zhǎo chū zuò zhě de zhōng xīn lùn diǎn.",
+    "ko": "그는 논문에서 핵심을 추출했어요.",
+    "en": "He distilled the essence from the paper."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "细节",
+   "pos": "verb",
+   "read": "xì jié",
+   "ko": "바꿔 쓰다",
+   "en": "paraphrase",
+   "ex": {
+    "t": "概括时省略细节。",
+    "read": "Gài kuò shí shěng lüè xì jié.",
+    "ko": "원문을 자신의 말로 바꿔 쓰세요.",
+    "en": "Paraphrase the original in your own words."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "抄袭",
+   "pos": "noun",
+   "read": "chāo xí",
+   "ko": "표절",
+   "en": "plagiarism",
+   "ex": {
+    "t": "抄袭是绝对不允许的。",
+    "read": "Chāo xí shì juéduì bù yǔnxǔ de.",
+    "ko": "표절은 심각한 문제예요.",
+    "en": "Plagiarism is a serious problem."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "概括",
+   "pos": "noun",
+   "read": "gài kuò",
+   "ko": "요약",
+   "en": "summary",
+   "ex": {
+    "t": "概括比原文短。",
+    "read": "Gài kuò bǐ yuán wén duǎn.",
+    "ko": "요약은 원문보다 짧아야 해요.",
+    "en": "A summary must be shorter than the original."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "简而言之",
+   "pos": "phrase",
+   "read": "jiǎn ér yán zhī",
+   "ko": "핵심 논지",
+   "en": "central argument",
+   "ex": {
+    "t": "简而言之，应该尽早开始。",
+    "read": "Jiǎn ér yán zhī, yīnggāi jǐn zǎo kāishǐ.",
+    "ko": "필자의 핵심 논지를 찾으세요.",
+    "en": "Find the writer's central argument."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "提炼",
+   "pos": "noun",
+   "read": "tí liàn",
+   "ko": "세부 사항",
+   "en": "detail",
+   "ex": {
+    "t": "提炼出重要的部分。",
+    "read": "Tí liàn chū zhòng yào de bù fēn.",
+    "ko": "세부 사항은 생략하세요.",
+    "en": "Leave out the details."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "总之／简而言之／本质上／概括／转述／抄袭",
+   "en": "Summary and paraphrase: 总之 / 简而言之 / 本质上 / 概括 / 转述 / 抄袭"
+  },
+  "explain": {
+   "ko": "概括是用自己的话简短地重写原文要点。先找中心论点，省略细节。“总之、简而言之、本质上”用来引出归纳。改写时不要照抄原文的词语和语序，要用自己的话。把别人的文章原样当作自己的，就是抄袭，绝对不允许。",
+   "en": "To summarise is to rewrite key points briefly in your own words. Find the central claim and omit detail. 总之、简而言之、本质上 introduce the gist. When paraphrasing, don't copy wording or order; use your own words. Passing off others' text as your own is plagiarism, never allowed."
+  },
+  "table": {
+   "head": [
+    "表达 / Phrase",
+    "作用 / Function",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "总之",
+     "归纳",
+     "总之，应尽早开始。"
+    ],
+    [
+     "简而言之",
+     "概括",
+     "简而言之，时间不够。"
+    ],
+    [
+     "本质上",
+     "点明核心",
+     "本质上是钱的问题。"
+    ],
+    [
+     "抄袭",
+     "不允许",
+     "照抄原文。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "不要照抄原文词语。",
+    "en": "Do not copy original wording."
+   },
+   {
+    "ko": "练习用一句话概括主张。",
+    "en": "Practise one-sentence summaries."
+   },
+   {
+    "ko": "概括比原文短。",
+    "en": "A summary is shorter than the original."
+   }
+  ],
+  "examples": [
+   {
+    "t": "总之，应该尽早开始。",
+    "read": "Zǒngzhī, yīnggāi jǐn zǎo kāishǐ.",
+    "ko": "그 글의 요지를 파악했어요.",
+    "en": "I grasped the gist of the text."
+   },
+   {
+    "t": "简而言之，时间不够。",
+    "read": "Jiǎn ér yán zhī, shíjiān bú gòu.",
+    "ko": "긴 글을 세 문장으로 압축했어요.",
+    "en": "I condensed the long text into three sentences."
+   },
+   {
+    "t": "本质上，这是钱的问题。",
+    "read": "Běn zhì shàng, zhè shì qián de wèntí.",
+    "ko": "원문을 자신의 말로 바꿔 쓰세요.",
+    "en": "Paraphrase the original in your own words."
+   },
+   {
+    "t": "概括时要省略细节。",
+    "read": "Gài kuò shí yào shěng lüè xì jié.",
+    "ko": "필자의 핵심 논지를 찾으세요.",
+    "en": "Find the writer's central argument."
+   },
+   {
+    "t": "照抄别人的文章就是抄袭。",
+    "read": "Zhào chāo bié rén de wén zhāng jiù shì chāo xí.",
+    "ko": "표절은 심각한 문제예요.",
+    "en": "Plagiarism is a serious problem."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___，应该尽早开始。",
+    "options": [
+     "总之",
+     "比如",
+     "顺便"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___，时间不够。",
+    "options": [
+     "简而言之",
+     "起初",
+     "忽然"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___上，这是钱的问题。",
+    "options": [
+     "本质",
+     "表面",
+     "时间"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "照抄别人的文章就是___。",
+    "options": [
+     "抄袭",
+     "概括",
+     "翻译"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这篇文章的要点是什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 요약과 바꿔 쓰기의 차이는 무엇인가요?",
+     "en": "(Question) What is the difference between summarising and paraphrasing?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "要尽早采取措施。",
+       "文章很长。",
+       "没有内容。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "概括时要注意什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 좋은 요약의 기준은 무엇인가요?",
+     "en": "(Question) What are the criteria of a good summary?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "用自己的话，不照抄原文。",
+       "照抄原文。",
+       "写得越长越好。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这篇长文，总之说了什么？"
+      },
+      {
+       "s": "B",
+       "t": "简而言之，要尽早采取措施。"
+      },
+      {
+       "s": "A",
+       "t": "具体数字呢？"
+      },
+      {
+       "s": "B",
+       "t": "概括时可以省略。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 논문을 세 문장으로 요약해 줄래?\nB: 본질적으로 기술이 교육을 바꾼다는 주장이야.\nA: 근거는?\nB: 학습 데이터가 크게 늘었다는 점이야.",
+     "en": "A: Could you summarise this paper in three sentences?\nB: In essence, it argues that technology is changing education.\nA: And the evidence?\nB: The big growth in learning data."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "具体数字在概括中怎么办？",
+      "options": [
+       "可以省略",
+       "必须全部写",
+       "全部重复"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "概括是用自己的话简短地重写原文要点。先找中心论点，再省略细节。改写时不要照抄原文，直接使用别人的文章是抄袭。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "요약은 원문의 핵심 논지와 근거를 짧게 줄이는 것이고, 바꿔 쓰기는 원문의 의미를 자신의 말로 다시 표현하는 것입니다. 둘 다 원문의 의미를 정확히 이해해야 가능하며, 출처를 밝히지 않으면 표절이 됩니다.",
+     "en": "Summarising shortens the central argument and evidence of the original, while paraphrasing restates the meaning of the original in your own words. Both require an accurate understanding of the original, and without acknowledging the source they become plagiarism."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "直接使用别人的文章叫什么？",
+      "options": [
+       "抄袭",
+       "概括",
+       "引用"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请用两句话概括这篇文章。"
+      },
+      {
+       "s": "B",
+       "t": "城市人口增加，交通拥挤。"
+      },
+      {
+       "s": "A",
+       "t": "也就是说，需要什么？"
+      },
+      {
+       "s": "B",
+       "t": "需要改善公共交通。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 이 단락을 바꿔 쓸 수 있나요?\n학생: 어휘와 구조를 바꿔 보겠습니다.\n교수: 출처도 밝혀야 합니다.\n학생: 알겠습니다. 인용 표시를 하겠습니다.",
+     "en": "Professor: Can you paraphrase this paragraph?\nStudent: I will change the vocabulary and structure.\nProfessor: You must acknowledge the source too.\nStudent: Understood. I will add a citation."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "学生说城市______增加",
+      "answers": [
+       "人口"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "需要改善公共______",
+      "answers": [
+       "交通"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___，应该尽早开始。\n2) ___，时间不够。\n3) 照抄别人的文章就是___。",
+    "trans": {
+     "ko": "1) 그 글의 요지를 파악했어요. 2) 긴 글을 세 문장으로 압축했어요. 3) 원문을 자신의 말로 바꿔 쓰세요.",
+     "en": "1) I grasped the gist of the text. 2) I condensed the long text into three sentences. 3) Paraphrase the original in your own words."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___，应该尽早开始。",
+      "options": [
+       "总之",
+       "比如",
+       "顺便"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___，时间不够。",
+      "options": [
+       "简而言之",
+       "起初",
+       "忽然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "照抄别人的文章就是___。",
+      "options": [
+       "抄袭",
+       "概括",
+       "翻译"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "写概括时，先找出作者的(1)论点。再省略(2)，压缩成短文。最后，用自己的话(3)原文，不照抄词语。",
+    "trans": {
+     "ko": "본질적으로 이 글은 교육 개혁을 주장한다. 필자는 기술의 발달로 학습 데이터가 크게 늘었다고 말한다. 따라서 교사의 역할이 다시 정의되어야 한다고 결론짓는다.",
+     "en": "In essence, this text argues for educational reform. The writer says that learning data has grown greatly as technology has advanced. He therefore concludes that the teacher's role must be redefined."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "中心",
+       "小",
+       "旧"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "细节",
+       "标题",
+       "结论"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "改写",
+       "抄写",
+       "隐藏"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "写作课\n好的概括\n好的概括在保持原文要点的同时，用自己的话重写。省略细节，只保留中心论点。照抄原文词语会构成抄袭，必须避免。",
+    "trans": {
+     "ko": "학습 가이드\n요약하는 방법\n먼저 글을 정독하고 핵심 논지를 찾으세요. 세부 사항과 예시는 생략하고 근거만 남기세요. 마지막으로 자신의 말로 다시 쓰고 원문과 비교해 의미가 바뀌지 않았는지 확인하세요.",
+     "en": "STUDY GUIDE\nHow to summarise\nFirst read the text closely and find the central argument. Omit details and examples and keep only the evidence. Finally, rewrite it in your own words and compare it with the original to check that the meaning has not changed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "好的概括保持什么？",
+      "options": [
+       "原文要点",
+       "原文所有词",
+       "原文数字"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "照抄会怎样？",
+      "options": [
+       "构成抄袭",
+       "概括更好",
+       "更短"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "文章说好的概括用自己的话重写，照抄会构成抄袭。",
+    "trans": {
+     "ko": "가이드는 먼저 정독해 핵심 논지를 찾으라고 한다. 가이드는 세부 사항을 모두 포함하라고 한다. 가이드는 마지막에 의미가 바뀌지 않았는지 확인하라고 한다.",
+     "en": "The guide says to read closely and find the central argument first. The guide says to include all details. The guide says to check at the end that the meaning has not changed."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "好概括用自己的话。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "概括比原文长。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章介绍概括软件。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "要尽早采取措施。",
+    "read": "Yào jǐn zǎo cǎi qǔ cuò shī.",
+    "ko": "본질적으로 이 글은 교육 제도의 개혁을 주장합니다.",
+    "en": "In essence, the text argues for reform of the education system.",
+    "situation": {
+     "ko": "요지를 말할 때",
+     "en": "Stating the gist"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "用自己的话，不照抄原文。",
+    "read": "Yòng zìjǐ de huà, bú zhào chāo yuán wén.",
+    "ko": "필자의 핵심 논지는 기술이 교육을 바꾼다는 것입니다.",
+    "en": "The writer's central argument is that technology is changing education.",
+    "situation": {
+     "ko": "핵심 논지 파악",
+     "en": "Identifying the central argument"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "总之，应该尽早开始。",
+    "read": "Zǒngzhī, yīnggāi jǐn zǎo kāishǐ.",
+    "ko": "저는 세 쪽 분량의 논문을 세 문장으로 압축했습니다.",
+    "en": "I condensed a three-page paper into three sentences.",
+    "situation": {
+     "ko": "요약을 말할 때",
+     "en": "Describing a summary"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "本质上，这是钱的问题。",
+    "read": "Běn zhì shàng, zhè shì qián de wèntí.",
+    "ko": "요약에서는 세부 사항과 예시를 생략합니다.",
+    "en": "In a summary, details and examples are omitted.",
+    "situation": {
+     "ko": "요약 원칙",
+     "en": "Summary principle"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "概括时要省略细节。",
+    "read": "Gài kuò shí yào shěng lüè xì jié.",
+    "ko": "바꿔 쓸 때는 어휘와 구조를 모두 바꿔야 합니다.",
+    "en": "When paraphrasing, both vocabulary and structure must change.",
+    "situation": {
+     "ko": "바꿔 쓰기 원칙",
+     "en": "Paraphrase principle"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "找出作者的中心论点。",
+    "read": "Zhǎo chū zuò zhě de zhōng xīn lùn diǎn.",
+    "ko": "원문을 거의 그대로 옮기는 것은 표절입니다.",
+    "en": "Copying the original almost word for word is plagiarism.",
+    "situation": {
+     "ko": "표절을 경고할 때",
+     "en": "Warning of plagiarism"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "抄袭是绝对不允许的。",
+    "read": "Chāo xí shì juéduì bù yǔnxǔ de.",
+    "ko": "원문의 의미는 바꾸지 않고 자신의 말로 다시 표현하세요.",
+    "en": "Restate it in your own words without changing the original meaning.",
+    "situation": {
+     "ko": "지시할 때",
+     "en": "Instructing"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "概括比原文短。",
+    "read": "Gài kuò bǐ yuán wén duǎn.",
+    "ko": "좋은 요약은 핵심 논지와 근거를 정확하고 간결하게 담습니다.",
+    "en": "A good summary captures the central argument and evidence accurately and concisely.",
+    "situation": {
+     "ko": "기준을 말할 때",
+     "en": "Stating the standard"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "总之，……。",
+    "read": "Zǒngzhī, ….",
+    "ko": "본질적으로.",
+    "en": "in essence"
+   },
+   {
+    "id": "w2",
+    "t": "简而言之，……。",
+    "read": "Jiǎn ér yán zhī, ….",
+    "ko": "자신의 말로 바꿔 쓰다.",
+    "en": "paraphrase in one's own words"
+   },
+   {
+    "id": "w3",
+    "t": "本质上，……。",
+    "read": "Běn zhì shàng, ….",
+    "ko": "세부 사항을 생략하다.",
+    "en": "omit details"
+   },
+   {
+    "id": "w4",
+    "t": "用自己的话改写。",
+    "read": "Yòng zìjǐ de huà gǎi xiě.",
+    "ko": "정확하고 간결하게.",
+    "en": "accurately and concisely"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가상의 논문을 세 문장으로 요약하고, 한 문장은 바꿔 쓰기로 다시 써 보세요.",
+    "en": "Summarise an imaginary paper in three sentences, then paraphrase one sentence."
+   },
+   "must_include": [
+    {
+     "label": "总之",
+     "match": [
+      "总之"
+     ]
+    },
+    {
+     "label": "中心论点",
+     "match": [
+      "中心论点"
+     ]
+    },
+    {
+     "label": "改写",
+     "match": [
+      "改写"
+     ]
+    }
+   ],
+   "model": "总之，这篇文章讲的是交通拥挤的问题。作者的中心论点是需要改善公共交通。我没有照抄原文，而是用自己的话改写。",
+   "model_trans": {
+    "ko": "본질적으로 이 논문은 기술이 교육을 바꾼다고 주장해요. 핵심 근거는 학습 데이터의 증가예요. 그러므로 필자는 교사의 역할 재정립을 요구해요. 바꿔 쓰면, 필자는 교사의 역할이 다시 정의되어야 한다고 말해요.",
+    "en": "In essence, this paper argues that technology is changing education. The key evidence is the growth in learning data. The writer therefore calls for the role of teachers to be redefined. Paraphrased, the writer says the teacher's role must be defined anew."
+   }
+  }
+ }
+}

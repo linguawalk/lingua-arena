@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u03",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 3,
+  "concept": "C2.U03",
+  "status": "live",
+  "title": {
+   "target": "强调与焦点：是……的、正是、不过是",
+   "ko": "분열문과 의사분열문으로 초점 두기",
+   "en": "Cleft and pseudo-cleft focus"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "关键",
+   "pos": "adj",
+   "read": "guān jiàn",
+   "ko": "결정적인",
+   "en": "decisive",
+   "ex": {
+    "t": "这次谈判的关键是信任。",
+    "read": "Zhè cì tán pàn de guān jiàn shì xìn rèn.",
+    "ko": "그것이 결정적인 요인이었어요.",
+    "en": "That was the decisive factor."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "强调",
+   "pos": "verb",
+   "read": "qiáng diào",
+   "ko": "강조하다",
+   "en": "stress",
+   "ex": {
+    "t": "他特别强调安全问题。",
+    "read": "Tā tè bié qiáng diào ān quán wèntí.",
+    "ko": "그는 정직의 중요성을 강조했어요.",
+    "en": "He stressed the importance of honesty."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "恰恰",
+   "pos": "phrase",
+   "read": "qià qià",
+   "ko": "원인이 되다",
+   "en": "give rise to",
+   "ex": {
+    "t": "恰恰相反，问题出在管理上。",
+    "read": "Qià qià xiāng fǎn, wèntí chū zài guǎn lǐ shàng.",
+    "ko": "그 사건이 논란을 낳았어요.",
+    "en": "The incident gave rise to controversy."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "不过是",
+   "pos": "noun",
+   "read": "bùguò shì",
+   "ko": "핵심",
+   "en": "crux",
+   "ex": {
+    "t": "这不过是个小误会。",
+    "read": "Zhè bùguò shì gè xiǎo wù huì.",
+    "ko": "문제의 핵심은 신뢰예요.",
+    "en": "The crux of the matter is trust."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "无非",
+   "pos": "phrase",
+   "read": "wú fēi",
+   "ko": "~에 불과하다",
+   "en": "amount to nothing more than",
+   "ex": {
+    "t": "他这样做无非是想引起注意。",
+    "read": "Tā zhè yàng zuò wú fēi shì xiǎng yǐn qǐ zhù yì.",
+    "ko": "그건 변명에 불과해요.",
+    "en": "That amounts to nothing more than an excuse."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "正是",
+   "pos": "adv",
+   "read": "zhèng shì",
+   "ko": "정확히",
+   "en": "precisely",
+   "ex": {
+    "t": "正是你的坚持让我们成功了。",
+    "read": "Zhèng shì nǐ de jiān chí ràng wǒmen chéng gōng le.",
+    "ko": "정확히 그 점이 문제예요.",
+    "en": "That is precisely the problem."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "误会",
+   "pos": "verb",
+   "read": "wù huì",
+   "ko": "의도하다",
+   "en": "intend",
+   "ex": {
+    "t": "这件事是一场误会。",
+    "read": "Zhè jiàn shì shì yì chǎng wù huì.",
+    "ko": "나는 상처를 줄 의도는 없었어요.",
+    "en": "I never intended to hurt anyone."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "本意",
+   "pos": "noun",
+   "read": "běn yì",
+   "ko": "오해",
+   "en": "misunderstanding",
+   "ex": {
+    "t": "我的本意并不是批评你。",
+    "read": "Wǒ de běn yì bìng bú shì pī píng nǐ.",
+    "ko": "그건 단순한 오해였어요.",
+    "en": "It was merely a misunderstanding."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "明明",
+   "pos": "adv",
+   "read": "míng míng",
+   "ko": "명백히",
+   "en": "unmistakably",
+   "ex": {
+    "t": "他明明知道，却装作不知道。",
+    "read": "Tā míng míng zhīdào, què zhuāng zuò bù zhīdào.",
+    "ko": "그의 의도는 명백히 드러났어요.",
+    "en": "His intention was unmistakably clear."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "根源",
+   "pos": "phrase",
+   "read": "gēn yuán",
+   "ko": "바로 그",
+   "en": "the very",
+   "ex": {
+    "t": "矛盾的根源在于沟通不足。",
+    "read": "Máo dùn de gēn yuán zài yú gōu tōng bù zú.",
+    "ko": "바로 그 사람이 나를 도왔어요.",
+    "en": "It was the very person who helped me."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "是……的／正是／恰恰／不过是／无非是",
+   "en": "Emphasis and focus: 是……的 / 正是 / 恰恰 / 不过是 / 无非是"
+  },
+  "explain": {
+   "ko": "“是……的”强调时间、地点、方式等：我是昨天来的。“正是／恰恰”强调某个人或某件事：正是你的坚持让我们成功。“不过是／无非是”把事情说得很轻：这不过是个小误会。“明明”表示事实很清楚，却出现相反的情况。选择不同的强调方式，能让说话的重点更明确。",
+   "en": "「是……的」 stresses time, place or manner: 我是昨天来的. 「正是／恰恰」 stresses a particular person or fact: 正是你的坚持让我们成功. 「不过是／无非是」 plays something down: 这不过是个小误会. 「明明」 marks something obvious yet contradicted. The choice of emphasis clarifies the point."
+  },
+  "table": {
+   "head": [
+    "结构 / Form",
+    "作用 / Function",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "是……的",
+     "强调时间地点",
+     "我是在北京认识他的。"
+    ],
+    [
+     "正是／恰恰",
+     "强调人或事",
+     "正是你的帮助。"
+    ],
+    [
+     "不过是／无非是",
+     "淡化",
+     "这不过是个小误会。"
+    ],
+    [
+     "明明",
+     "事实与结果相反",
+     "他明明知道。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“是……的”强调的是已经发生的事。",
+    "en": "是……的 stresses past events."
+   },
+   {
+    "ko": "“恰恰”常带有“与预想相反”的意思。",
+    "en": "恰恰 often means 'contrary to expectation'."
+   },
+   {
+    "ko": "“明明”常用来表示责备或不满。",
+    "en": "明明 often expresses blame or dissatisfaction."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我是在北京认识他的。",
+    "read": "Wǒ shì zài Běijīng rènshi tā de.",
+    "ko": "나를 놀라게 한 것은 그의 침착함이었어요.",
+    "en": "What surprised me was his calm."
+   },
+   {
+    "t": "正是你的坚持让我们成功了。",
+    "read": "Zhèng shì nǐ de jiān chí ràng wǒmen chéng gōng le.",
+    "ko": "우리를 구한 것은 바로 그녀의 빠른 판단이었어요.",
+    "en": "It was her quick judgement that saved us."
+   },
+   {
+    "t": "这不过是个小误会。",
+    "read": "Zhè bùguò shì gè xiǎo wù huì.",
+    "ko": "내가 한 일은 질문 하나뿐이었어요.",
+    "en": "All I did was ask one question."
+   },
+   {
+    "t": "他明明知道，却装作不知道。",
+    "read": "Tā míng míng zhīdào, què zhuāng zuò bù zhīdào.",
+    "ko": "그가 떠난 이유는 돈이 아니라 존중 때문이었어요.",
+    "en": "The reason he left was not money but respect."
+   },
+   {
+    "t": "恰恰相反，问题出在管理上。",
+    "read": "Qià qià xiāng fǎn, wèntí chū zài guǎn lǐ shàng.",
+    "ko": "내가 정말 원하는 것은 평화와 고요예요.",
+    "en": "What I really want is peace and quiet."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我___在北京认识他的。",
+    "options": [
+     "是",
+     "正",
+     "不过"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___你的坚持让我们成功了。",
+    "options": [
+     "正是",
+     "明明",
+     "不过是"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "这___是个小误会。",
+    "options": [
+     "不过",
+     "恰恰",
+     "明明"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "他___知道，却装作不知道。",
+    "options": [
+     "明明",
+     "正是",
+     "无非"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你是什么时候认识他的？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 프로젝트가 성공한 결정적 요인은 무엇이었나요?",
+     "en": "(Question) What was the decisive factor in the project's success?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我是去年在北京认识他的。",
+       "我喜欢北京。",
+       "他很高。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这次成功的关键是什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 왜 사임했나요?",
+     "en": "(Question) Why did he resign?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "关键是大家的信任与合作。",
+       "我没有成功。",
+       "我明天出发。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你是怎么知道这件事的？"
+      },
+      {
+       "s": "B",
+       "t": "是小王告诉我的。"
+      },
+      {
+       "s": "A",
+       "t": "他明明答应保密的。"
+      },
+      {
+       "s": "B",
+       "t": "别生气，这不过是个小失误。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이번 위기를 구한 사람이 누구야?\nB: 바로 신입 직원이었어. 그녀의 빠른 판단이 우리를 구했어.\nA: 그럼 너는 뭘 했어?\nB: 나는 그냥 팀에 알린 것뿐이야.",
+     "en": "A: Who saved us in this crisis?\nB: It was the new employee. Her quick judgement is what saved us.\nA: And what did you do?\nB: All I did was let the team know."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "A为什么生气？",
+      "options": [
+       "小王没有保密",
+       "迟到了",
+       "忘了带书"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "很多人认为成功靠运气，其实恰恰相反，成功的关键往往是长期的坚持。运气不过是一个小小的因素，真正重要的是每天的努力。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "영어는 분열문으로 강조하고 싶은 부분에 청중의 주의를 집중시킵니다. It was ... that은 특정 요소를, What ... is는 핵심을 강조합니다. 이런 구문은 연설과 에세이에서 특히 효과적이지만 너무 자주 쓰면 문체가 무거워집니다.",
+     "en": "English uses cleft sentences to focus attention on the part you want to stress. It was ... that stresses a particular element, and What ... is stresses the core. These structures are especially effective in speeches and essays, but overuse makes the style heavy."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人认为成功靠什么？",
+      "options": [
+       "长期的坚持",
+       "运气",
+       "金钱"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你的成功靠什么？"
+      },
+      {
+       "s": "B",
+       "t": "正是父母的支持，让我坚持下来。"
+      },
+      {
+       "s": "A",
+       "t": "你遇到过困难吗？"
+      },
+      {
+       "s": "B",
+       "t": "当然，不过那无非是成长的一部分。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "면접관: 회사를 떠난 이유가 무엇인가요?\n지원자: 돈 때문이 아니라 성장의 기회 때문이었어요.\n면접관: 그 점을 좀 더 말해 주시겠어요?\n지원자: 제가 정말 원한 것은 새로운 도전이었어요.",
+     "en": "Interviewer: What was the reason you left the company?\nCandidate: It was not money but a chance to grow.\nInterviewer: Could you say more about that?\nCandidate: What I really wanted was a new challenge."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "嘉宾说正是______的支持让他坚持下来",
+      "answers": [
+       "父母"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "困难无非是成长的一______",
+      "answers": [
+       "部分"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我___去年在北京认识他的。\n2) ___你的坚持让我们成功了。\n3) 这___是个小误会。",
+    "trans": {
+     "ko": "1) 나를 놀라게 한 것은 그의 침착함이었어요. 2) 우리를 구한 것은 그녀의 판단이었어요. 3) 내가 한 일은 질문 하나뿐이에요.",
+     "en": "1) What surprised me was his calm. 2) It was her judgement that saved us. 3) All I did was ask one question."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我___去年在北京认识他的。",
+      "options": [
+       "是",
+       "正",
+       "不过"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___你的坚持让我们成功了。",
+      "options": [
+       "正是",
+       "明明",
+       "不过是"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这___是个小误会。",
+      "options": [
+       "不过",
+       "恰恰",
+       "明明"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这场争论的根源，其实是一场(1)。他的本意并不是批评你，他(2)是想提醒你注意安全。然而，他的话被理解得完全不同，结果(3)了关系。",
+    "trans": {
+     "ko": "논란을 낳은 것은 정책 자체가 아니라 그 발표 방식이었다. 시민들이 분노한 것은 사전 설명이 전혀 없었다는 점이다. 정부가 이제 해야 할 일은 신뢰를 회복하는 것뿐이다.",
+     "en": "What gave rise to controversy was not the policy itself but the way it was announced. What angered citizens was that there had been no prior explanation. All the government has to do now is restore trust."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "误会",
+       "旅行",
+       "考试"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "无非",
+       "明明",
+       "从来"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "伤害",
+       "改善",
+       "忘记"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "评论\n成功的关键\n人们常说，机会决定成败。恰恰相反，真正的差别往往来自于准备。机会不过是一扇门，能不能走进去，取决于平时的积累。正是这种积累，把普通人和成功者分开。",
+    "trans": {
+     "ko": "사설\n신뢰의 문제\n이 사태의 핵심은 정보 부족이 아니라 신뢰의 붕괴다. 시민들이 요구하는 것은 사과가 아니라 책임 있는 행동이다. 바로 그 점을 정부는 깨달아야 한다.",
+     "en": "EDITORIAL\nA question of trust\nThe crux of this affair is not a lack of information but a collapse of trust. What citizens demand is not an apology but responsible action. That is precisely what the government must realise."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "作者认为差别来自哪里？",
+      "options": [
+       "准备",
+       "运气",
+       "关系"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "机会被比作什么？",
+      "options": [
+       "一扇门",
+       "一座山",
+       "一条河"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "作者认为成败的差别来自准备。机会不过是一扇门，能否走进去取决于平时的积累。",
+    "trans": {
+     "ko": "사설은 사태의 핵심이 신뢰의 붕괴라고 본다. 사설은 시민들이 사과를 가장 원한다고 본다. 사설은 정부가 이 점을 깨달아야 한다고 본다.",
+     "en": "The editorial sees a collapse of trust as the crux. The editorial thinks citizens mainly want an apology. The editorial thinks the government must realise this."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "作者强调平时积累的重要性。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "作者认为运气最重要。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "作者是一位企业家。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我是在北京认识他的。",
+    "read": "Wǒ shì zài Běijīng rènshi tā de.",
+    "ko": "우리를 가장 놀라게 한 것은 그의 태도였습니다.",
+    "en": "What surprised us most was his attitude.",
+    "situation": {
+     "ko": "의사분열문으로 초점을 둘 때",
+     "en": "Focusing with a pseudo-cleft"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "正是你的坚持让我们成功了。",
+    "read": "Zhèng shì nǐ de jiān chí ràng wǒmen chéng gōng le.",
+    "ko": "계획을 구한 것은 바로 마지막 순간의 결정이었습니다.",
+    "en": "It was a last-minute decision that saved the plan.",
+    "situation": {
+     "ko": "분열문으로 주어를 강조할 때",
+     "en": "Cleft focus on the subject"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "这不过是个小误会。",
+    "read": "Zhè bùguò shì gè xiǎo wù huì.",
+    "ko": "그가 사임한 것은 바로 지난주였어요.",
+    "en": "It was only last week that he resigned.",
+    "situation": {
+     "ko": "시간을 강조할 때",
+     "en": "Focusing time"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "他明明知道，却装作不知道。",
+    "read": "Tā míng míng zhīdào, què zhuāng zuò bù zhīdào.",
+    "ko": "내가 한 일이라고는 사실을 말한 것뿐이에요.",
+    "en": "All I did was tell the truth.",
+    "situation": {
+     "ko": "행동을 축소해서 말할 때",
+     "en": "Minimising an action"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "恰恰相反，问题出在管理上。",
+    "read": "Qià qià xiāng fǎn, wèntí chū zài guǎn lǐ shàng.",
+    "ko": "우리가 실패한 이유는 준비 부족 때문입니다.",
+    "en": "The reason we failed is that we were poorly prepared.",
+    "situation": {
+     "ko": "이유를 강조할 때",
+     "en": "Highlighting a reason"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "他这样做无非是想引起注意。",
+    "read": "Tā zhè yàng zuò wú fēi shì xiǎng yǐn qǐ zhù yì.",
+    "ko": "정말 필요한 것은 더 많은 시간이 아니라 더 나은 계획입니다.",
+    "en": "What we really need is not more time but a better plan.",
+    "situation": {
+     "ko": "대조로 초점을 둘 때",
+     "en": "Contrastive focus"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "矛盾的根源在于沟通不足。",
+    "read": "Máo dùn de gēn yuán zài yú gōu tōng bù zú.",
+    "ko": "누구인지가 중요한 것이 아니라 무엇을 했느냐가 중요합니다.",
+    "en": "It is not who you are but what you do that matters.",
+    "situation": {
+     "ko": "기준을 바꿔 말할 때",
+     "en": "Redefining the criterion"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我的本意并不是批评你。",
+    "read": "Wǒ de běn yì bìng bú shì pī píng nǐ.",
+    "ko": "바로 그 점이 우리가 다시 생각해야 할 부분입니다.",
+    "en": "That is precisely what we need to rethink.",
+    "situation": {
+     "ko": "핵심을 짚을 때",
+     "en": "Pinpointing the crux"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "我是……的。",
+    "read": "Wǒ shì … de.",
+    "ko": "~한 것은 …이다.",
+    "en": "What ... is ..."
+   },
+   {
+    "id": "w2",
+    "t": "正是……。",
+    "read": "Zhèng shì ….",
+    "ko": "…한 것은 바로 ~이다.",
+    "en": "It was ... that ..."
+   },
+   {
+    "id": "w3",
+    "t": "这不过是……。",
+    "read": "Zhè bùguò shì ….",
+    "ko": "내가 한 일은 ~뿐이다.",
+    "en": "All I did was (to) ..."
+   },
+   {
+    "id": "w4",
+    "t": "他明明……，却……。",
+    "read": "Tā míng míng …, què ….",
+    "ko": "~한 이유는 …이다.",
+    "en": "The reason ... is that ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "분열문과 의사분열문을 사용해 어떤 사건에서 가장 중요했던 것을 4문장으로 써 보세요.",
+    "en": "Write four sentences about what mattered most in an event, using cleft and pseudo-cleft sentences."
+   },
+   "must_include": [
+    {
+     "label": "正是",
+     "match": [
+      "正是"
+     ]
+    },
+    {
+     "label": "不过是",
+     "match": [
+      "不过是"
+     ]
+    },
+    {
+     "label": "明明",
+     "match": [
+      "明明"
+     ]
+    }
+   ],
+   "model": "我是在去年认识他的。正是他的帮助，让我度过了难关。这不过是个小忙，他总是这样说。可他明明工作很忙，却总是愿意帮我。",
+   "model_trans": {
+    "ko": "그날 가장 인상 깊었던 것은 팀원들의 침착함이었어요. 상황을 바꾼 것은 한 동료의 짧은 제안이었어요. 내가 한 일이라고는 그 제안을 지지한 것뿐이에요. 우리가 성공한 이유는 서로를 믿었기 때문이에요.",
+    "en": "What impressed me most that day was the team's calm. It was a colleague's short suggestion that changed the situation. All I did was back that suggestion. The reason we succeeded is that we trusted one another."
+   }
+  }
+ }
+}

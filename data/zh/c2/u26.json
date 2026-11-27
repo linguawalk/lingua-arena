@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u26",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 26,
+  "concept": "C2.U26",
+  "status": "live",
+  "title": {
+   "target": "比喻：明喻、暗喻与死喻",
+   "ko": "은유와 개념적 은유",
+   "en": "Metaphor and conceptual metaphor"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "明喻",
+   "pos": "noun",
+   "read": "míng yù",
+   "ko": "은유",
+   "en": "metaphor",
+   "ex": {
+    "t": "“她的声音像银铃”是明喻。",
+    "read": "\" Tā de shēng yīn xiàng yín líng \" shì míng yù.",
+    "ko": "시인은 풍부한 은유를 썼어요.",
+    "en": "The poet used rich metaphors."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "暗喻",
+   "pos": "noun",
+   "read": "àn yù",
+   "ko": "직유",
+   "en": "simile",
+   "ex": {
+    "t": "“他是我们家的太阳”是暗喻。",
+    "read": "\" Tā shì wǒmen jiā de tài yáng \" shì àn yù.",
+    "ko": "'장미 같은'은 직유예요.",
+    "en": "'Like a rose' is a simile."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "比作",
+   "pos": "noun",
+   "read": "bǐ zuò",
+   "ko": "비유의 본뜻",
+   "en": "tenor",
+   "ex": {
+    "t": "人们常把人生比作旅程。",
+    "read": "Rén men cháng bǎ rén shēng bǐ zuò lǚ chéng.",
+    "ko": "본뜻과 매개를 구분하세요.",
+    "en": "Distinguish the tenor from the vehicle."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "好比",
+   "pos": "noun",
+   "read": "hǎo bǐ",
+   "ko": "비유의 매개",
+   "en": "vehicle",
+   "ex": {
+    "t": "时间好比流水。",
+    "read": "Shíjiān hǎo bǐ liú shuǐ.",
+    "ko": "이 은유의 매개는 여행이에요.",
+    "en": "The vehicle of this metaphor is a journey."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "死喻",
+   "pos": "phrase",
+   "read": "sǐ yù",
+   "ko": "죽은 은유",
+   "en": "dead metaphor",
+   "ex": {
+    "t": "“桌子腿”是一个死喻。",
+    "read": "\" Zhuōzi tuǐ \" shì yí ge sǐ yù.",
+    "ko": "'table leg'는 죽은 은유예요.",
+    "en": "'Table leg' is a dead metaphor."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "概念隐喻",
+   "pos": "phrase",
+   "read": "gài niàn yǐn yù",
+   "ko": "개념적 은유",
+   "en": "conceptual metaphor",
+   "ex": {
+    "t": "把辩论看作战争是概念隐喻。",
+    "read": "Bǎ biàn lùn kàn zuò zhàn zhēng shì gài niàn yǐn yù.",
+    "ko": "'시간은 돈이다'는 개념적 은유예요.",
+    "en": "'Time is money' is a conceptual metaphor."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "混合",
+   "pos": "phrase",
+   "read": "hùn hé",
+   "ko": "혼합 은유",
+   "en": "mixed metaphor",
+   "ex": {
+    "t": "混合的比喻容易让读者困惑。",
+    "read": "Hùn hé de bǐ yù róng yì ràng dú zhě kùn huò.",
+    "ko": "그 연설은 혼합 은유로 가득했어요.",
+    "en": "The speech was full of mixed metaphors."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "陈词滥调",
+   "pos": "adj",
+   "read": "chén cí làn diào",
+   "ko": "상투적인",
+   "en": "clichéd",
+   "ex": {
+    "t": "陈词滥调的比喻缺乏新意。",
+    "read": "Chén cí làn diào de bǐ yù quē fá xīn yì.",
+    "ko": "그 표현은 상투적이에요.",
+    "en": "That expression is clichéd."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "暗示",
+   "pos": "verb",
+   "read": "àn shì",
+   "ko": "함축하다",
+   "en": "evoke",
+   "ex": {
+    "t": "这个比喻暗示了孤独。",
+    "read": "Zhège bǐ yù àn shì le gū dú.",
+    "ko": "그 이미지는 향수를 불러일으켜요.",
+    "en": "The image evokes nostalgia."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "唤起",
+   "pos": "adv",
+   "read": "huàn qǐ",
+   "ko": "비유적으로",
+   "en": "figuratively",
+   "ex": {
+    "t": "这个比喻唤起了强烈的印象。",
+    "read": "Zhège bǐ yù huàn qǐ le qiáng liè de yìn xiàng.",
+    "ko": "그 말은 비유적으로 쓰였어요.",
+    "en": "The word was used figuratively."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "像……一样／仿佛／是／把……比作／好比／借喻",
+   "en": "Metaphor and simile: 像……一样 / 仿佛 / 是 / 把……比作 / 好比"
+  },
+  "explain": {
+   "ko": "比喻有明喻和暗喻。明喻用“像、好像、仿佛、如同”：她的声音像银铃。暗喻直接说甲是乙：他是我们家的太阳。“桌子腿”这样已不再被觉得是比喻的，叫死喻。“辩论是战争”这类概念隐喻会塑造我们的思维。把两个比喻混在一起，形象会冲突，要注意。",
+   "en": "Metaphors include similes and implied metaphors. A simile uses 像、好像、仿佛、如同: 她的声音像银铃. A metaphor equates directly: 他是我们家的太阳. Words like 桌子腿 are dead metaphors, no longer felt as figures. Conceptual metaphors like 辩论是战争 shape thinking. Mixed metaphors clash."
+  },
+  "table": {
+   "head": [
+    "类型 / Type",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "明喻",
+     "甲像乙",
+     "雪像盐一样白。"
+    ],
+    [
+     "暗喻",
+     "甲是乙",
+     "他是家里的太阳。"
+    ],
+    [
+     "死喻",
+     "不再被察觉",
+     "桌子腿。"
+    ],
+    [
+     "概念隐喻",
+     "塑造思维",
+     "辩论是战争。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "明喻用“像”，暗喻不用。",
+    "en": "Similes use 像; metaphors do not."
+   },
+   {
+    "ko": "避免陈词滥调的比喻。",
+    "en": "Avoid clichéd metaphors."
+   },
+   {
+    "ko": "比喻要前后一致。",
+    "en": "Keep metaphors consistent."
+   }
+  ],
+  "examples": [
+   {
+    "t": "她的声音像银铃。",
+    "read": "Tā de shēng yīn xiàng yín líng.",
+    "ko": "시인은 풍부한 은유를 썼어요.",
+    "en": "The poet used rich metaphors."
+   },
+   {
+    "t": "他是我们家的太阳。",
+    "read": "Tā shì wǒmen jiā de tài yáng.",
+    "ko": "'시간은 돈이다'는 개념적 은유예요.",
+    "en": "'Time is money' is a conceptual metaphor."
+   },
+   {
+    "t": "人们常把人生比作旅程。",
+    "read": "Rén men cháng bǎ rén shēng bǐ zuò lǚ chéng.",
+    "ko": "'장미 같은'은 직유예요.",
+    "en": "'Like a rose' is a simile."
+   },
+   {
+    "t": "“桌子腿”是死喻。",
+    "read": "\" Zhuōzi tuǐ \" shì sǐ yù.",
+    "ko": "그 표현은 상투적이에요.",
+    "en": "That expression is clichéd."
+   },
+   {
+    "t": "时间好比流水。",
+    "read": "Shíjiān hǎo bǐ liú shuǐ.",
+    "ko": "그 말은 비유적으로 쓰였어요.",
+    "en": "The word was used figuratively."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "她的声音___银铃。",
+    "options": [
+     "像",
+     "比",
+     "和"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "他是我们家的___。",
+    "options": [
+     "太阳",
+     "天气",
+     "道路"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "人们常把人生___旅程。",
+    "options": [
+     "比作",
+     "放在",
+     "喜欢"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "“桌子腿”是___喻。",
+    "options": [
+     "死",
+     "新",
+     "美"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你把人生比作什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) '시간은 돈이다'는 어떤 은유인가요?",
+     "en": "(Question) What kind of metaphor is 'time is money'?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "我把人生比作旅程。",
+       "我没有人生。",
+       "人生很短。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "明喻和暗喻有什么不同？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 은유의 본뜻과 매개란 무엇인가요?",
+     "en": "(Question) What are the tenor and vehicle of a metaphor?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "明喻用“像”，暗喻不用。",
+       "两者一样。",
+       "暗喻用“像”。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "“他是我们家的太阳”是明喻还是暗喻？"
+      },
+      {
+       "s": "B",
+       "t": "没有“像”，是暗喻。"
+      },
+      {
+       "s": "A",
+       "t": "“雪像盐一样白”呢？"
+      },
+      {
+       "s": "B",
+       "t": "那是明喻。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: '논쟁은 전쟁이다'가 무슨 뜻이야?\nB: 우리가 논쟁을 전쟁처럼 말한다는 뜻이야.\nA: 예를 들면?\nB: 입장을 공격하고 방어한다고 하지.",
+     "en": "A: What does 'argument is war' mean?\nB: It means we talk about argument as if it were war.\nA: For example?\nB: We say we attack and defend positions."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "“雪像盐一样白”是什么？",
+      "options": [
+       "明喻",
+       "暗喻",
+       "死喻"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "比喻有明喻和暗喻。明喻用“像”，暗喻不用。“桌子腿”这样不再被察觉的叫死喻。陈词滥调的比喻不会给读者留下印象。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "개념적 은유 이론에 따르면 은유는 단순한 장식이 아니라 사고의 방식입니다. 우리는 시간을 돈처럼, 논쟁을 전쟁처럼 이해합니다. 이런 은유는 일상 언어에 깊이 스며들어 있어서 대부분 의식하지 못합니다.",
+     "en": "According to conceptual metaphor theory, metaphor is not mere decoration but a way of thinking. We understand time as money and argument as war. Such metaphors are so deeply embedded in everyday language that we mostly do not notice them."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "陈词滥调的比喻怎么样？",
+      "options": [
+       "不会留下印象",
+       "非常深刻",
+       "必须使用"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个比喻有点老套。"
+      },
+      {
+       "s": "B",
+       "t": "你有什么好建议？"
+      },
+      {
+       "s": "A",
+       "t": "“悲伤像雾一样”怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "好，我用明喻试试。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교사: 이 시의 은유를 분석해 봅시다.\n학생: 본뜻은 삶이고 매개는 강입니다.\n교사: 그 이미지는 무엇을 불러일으키나요?\n학생: 흐름과 변화를 불러일으킵니다.",
+     "en": "Teacher: Let's analyse the metaphor in this poem.\nStudent: The tenor is life and the vehicle is a river.\nTeacher: What does the image evoke?\nStudent: It evokes flow and change."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "编辑说这个比喻有点______",
+      "answers": [
+       "老套"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "作家用______试试",
+      "answers": [
+       "明喻"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 她的声音___银铃。\n2) 人们常把人生___旅程。\n3) “桌子腿”是___喻。",
+    "trans": {
+     "ko": "1) 시인은 풍부한 은유를 썼어요. 2) '시간은 돈이다'는 개념적 은유예요. 3) 그 표현은 상투적이에요.",
+     "en": "1) The poet used rich metaphors. 2) 'Time is money' is a conceptual metaphor. 3) That expression is clichéd."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "她的声音___银铃。",
+      "options": [
+       "像",
+       "比",
+       "和"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "人们常把人生___旅程。",
+      "options": [
+       "比作",
+       "放在",
+       "喜欢"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "“桌子腿”是___喻。",
+      "options": [
+       "死",
+       "新",
+       "美"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "人们说他是我们家的(1)，这是(2)。这个比喻强烈地(3)了他给家人带来的温暖。",
+    "trans": {
+     "ko": "연설은 혼합 은유로 가득했다. 정치인은 배를 이끌면서 동시에 불을 끄겠다고 말했다. 청중은 이미지가 흐려졌다고 느꼈다.",
+     "en": "The speech was full of mixed metaphors. The politician said he would steer the ship and put out fires at the same time. The audience felt the image was blurred."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "太阳",
+       "天气",
+       "道路"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "暗喻",
+       "明喻",
+       "事实"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "唤起",
+       "忘记",
+       "删除"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "语言专栏\n比喻的力量\n我们用比喻来思考。把辩论比作战争，就会自然地出现“进攻”“防守”这样的词。比喻不是装饰，而是塑造思维的工具。",
+    "trans": {
+     "ko": "언어 칼럼\n은유로 생각하기\n우리는 시간을 돈처럼 쓰고 아낀다. 이런 은유는 일상 언어에 너무 깊이 스며 있어 대부분 의식하지 못한다. 그러나 은유를 의식하면 사고의 틀을 비판적으로 살필 수 있다.",
+     "en": "LANGUAGE COLUMN\nThinking in metaphor\nWe spend and save time as if it were money. Such metaphors are so deeply embedded in daily language that we mostly fail to notice them. But once we notice metaphor, we can examine our frames of thought critically."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "把辩论比作战争，会出现什么词？",
+      "options": [
+       "进攻、防守",
+       "唱歌、跳舞",
+       "阅读、写作"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "比喻是什么？",
+      "options": [
+       "塑造思维的工具",
+       "只是装饰",
+       "错误"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "专栏说我们用比喻来思考，比喻是塑造思维的工具。",
+    "trans": {
+     "ko": "칼럼은 우리가 시간을 돈처럼 쓰고 아낀다고 본다. 칼럼은 우리가 은유를 항상 의식한다고 본다. 칼럼은 은유를 의식하면 사고의 틀을 살필 수 있다고 본다.",
+     "en": "The column says we spend and save time as if it were money. The column says we always notice metaphors. The column says noticing metaphor lets us examine frames of thought."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "比喻塑造思维。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "比喻只用于文学。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "专栏举了诗人的名字。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "我把人生比作旅程。",
+    "read": "Wǒ bǎ rén shēng bǐ zuò lǚ chéng.",
+    "ko": "우리는 시간을 돈처럼 쓰고 아끼고 낭비합니다.",
+    "en": "We spend, save and waste time as if it were money.",
+    "situation": {
+     "ko": "개념적 은유를 설명할 때",
+     "en": "Explaining a conceptual metaphor"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "明喻用“像”，暗喻不用。",
+    "read": "Míng yù yòng \" xiàng \", àn yù búyòng.",
+    "ko": "논쟁에서 우리는 입장을 공격하고 방어합니다.",
+    "en": "In an argument we attack and defend positions.",
+    "situation": {
+     "ko": "논쟁은 전쟁이라는 은유",
+     "en": "The argument-is-war metaphor"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "他是我们家的太阳。",
+    "read": "Tā shì wǒmen jiā de tài yáng.",
+    "ko": "은유의 본뜻과 매개를 구분해야 합니다.",
+    "en": "One must distinguish the tenor of a metaphor from its vehicle.",
+    "situation": {
+     "ko": "분석할 때",
+     "en": "Analysing a metaphor"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "她的声音像银铃。",
+    "read": "Tā de shēng yīn xiàng yín líng.",
+    "ko": "table leg는 이미 죽은 은유가 되었습니다.",
+    "en": "'Table leg' has become a dead metaphor.",
+    "situation": {
+     "ko": "죽은 은유를 말할 때",
+     "en": "Speaking of dead metaphors"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "“桌子腿”是死喻。",
+    "read": "\" Zhuōzi tuǐ \" shì sǐ yù.",
+    "ko": "혼합 은유는 이미지를 흐리게 합니다.",
+    "en": "Mixed metaphors blur the image.",
+    "situation": {
+     "ko": "문체를 비판할 때",
+     "en": "Criticising style"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "把辩论看作战争是概念隐喻。",
+    "read": "Bǎ biàn lùn kàn zuò zhàn zhēng shì gài niàn yǐn yù.",
+    "ko": "그 상투적인 은유는 더 이상 효과가 없습니다.",
+    "en": "That clichéd metaphor no longer has any effect.",
+    "situation": {
+     "ko": "상투성을 비판할 때",
+     "en": "Criticising cliché"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "陈词滥调的比喻缺乏新意。",
+    "read": "Chén cí làn diào de bǐ yù quē fá xīn yì.",
+    "ko": "그 이미지는 상실감을 불러일으킵니다.",
+    "en": "The image evokes a sense of loss.",
+    "situation": {
+     "ko": "효과를 말할 때",
+     "en": "Describing effect"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "比喻要前后一致。",
+    "read": "Bǐ yù yào qián hòu yí zhì.",
+    "ko": "은유는 단순한 장식이 아니라 사고의 방식입니다.",
+    "en": "Metaphor is not mere decoration but a way of thinking.",
+    "situation": {
+     "ko": "핵심 주장을 말할 때",
+     "en": "Stating a key claim"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……像……一样。",
+    "read": "… Xiàng … yíyàng.",
+    "ko": "A는 B이다.",
+    "en": "A is B"
+   },
+   {
+    "id": "w2",
+    "t": "……是……。",
+    "read": "… Shì ….",
+    "ko": "본뜻과 매개.",
+    "en": "tenor and vehicle"
+   },
+   {
+    "id": "w3",
+    "t": "把……比作……。",
+    "read": "Bǎ … bǐ zuò ….",
+    "ko": "죽은 은유.",
+    "en": "dead metaphor"
+   },
+   {
+    "id": "w4",
+    "t": "……好比……。",
+    "read": "… Hǎo bǐ ….",
+    "ko": "비유적으로 쓰이다.",
+    "en": "be used figuratively"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "은유를 사용해 4문장을 쓰고, 마지막 문장에서 본뜻과 매개를 밝혀 보세요.",
+    "en": "Write four sentences using a metaphor and identify its tenor and vehicle in the last sentence."
+   },
+   "must_include": [
+    {
+     "label": "暗喻",
+     "match": [
+      "暗喻"
+     ]
+    },
+    {
+     "label": "明喻",
+     "match": [
+      "明喻"
+     ]
+    },
+    {
+     "label": "比作",
+     "match": [
+      "比作"
+     ]
+    }
+   ],
+   "model": "我喜欢把人生比作旅程，这是暗喻。如果说“人生像旅程”，就是明喻。两种都会让我们想起路和相遇。为了避免陈词滥调，我想找新的比喻。",
+   "model_trans": {
+    "ko": "인생은 긴 여행이에요. 우리는 길을 잃기도 하고 지름길을 찾기도 해요. 그 이미지는 방향을 찾는 삶을 불러일으켜요. 이 은유에서 본뜻은 인생이고 매개는 여행이에요.",
+    "en": "Life is a long journey. We lose our way and sometimes find shortcuts. The image evokes a life searching for direction. In this metaphor the tenor is life and the vehicle is the journey."
+   }
+  }
+ }
+}

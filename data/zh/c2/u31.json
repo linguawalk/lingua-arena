@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u31",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 31,
+  "concept": "C2.U31",
+  "status": "live",
+  "title": {
+   "target": "修辞学与说服技巧",
+   "ko": "정치 수사학: 에토스·파토스·로고스",
+   "en": "Political rhetoric: ethos, pathos, logos"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "修辞",
+   "pos": "noun",
+   "read": "xiū cí",
+   "ko": "수사학",
+   "en": "rhetoric",
+   "ex": {
+    "t": "修辞是说服的艺术。",
+    "read": "Xiū cí shì shuō fú de yì shù.",
+    "ko": "그는 수사학의 대가예요.",
+    "en": "He is a master of rhetoric."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "反问",
+   "pos": "noun",
+   "read": "fǎn wèn",
+   "ko": "신뢰(에토스)",
+   "en": "ethos",
+   "ex": {
+    "t": "反问句不需要回答。",
+    "read": "Fǎn wèn jù bù xūyào huídá.",
+    "ko": "연설자는 에토스로 신뢰를 얻어요.",
+    "en": "The speaker gains trust through ethos."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "排比",
+   "pos": "noun",
+   "read": "pái bǐ",
+   "ko": "감정 호소(파토스)",
+   "en": "pathos",
+   "ex": {
+    "t": "排比使演讲气势磅礴。",
+    "read": "Pái bǐ shǐ yǎn jiǎng qì shì páng bó.",
+    "ko": "파토스는 청중의 감정에 호소해요.",
+    "en": "Pathos appeals to the audience's emotions."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "重复",
+   "pos": "noun",
+   "read": "chóng fù",
+   "ko": "논리(로고스)",
+   "en": "logos",
+   "ex": {
+    "t": "重复能加深印象。",
+    "read": "Chóng fù néng jiā shēn yìn xiàng.",
+    "ko": "로고스는 논리와 증거에 의존해요.",
+    "en": "Logos relies on logic and evidence."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "说服",
+   "pos": "phrase",
+   "read": "shuō fú",
+   "ko": "수사 의문문",
+   "en": "rhetorical question",
+   "ex": {
+    "t": "说服听众并不容易。",
+    "read": "Shuō fú tīng zhòng bìng bù róng yì.",
+    "ko": "수사 의문문은 답을 요구하지 않아요.",
+    "en": "A rhetorical question does not demand an answer."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "煽动",
+   "pos": "noun",
+   "read": "shān dòng",
+   "ko": "어구 반복",
+   "en": "anaphora",
+   "ex": {
+    "t": "煽动性的演讲要小心。",
+    "read": "Shān dòng xìng de yǎn jiǎng yào xiǎoxīn.",
+    "ko": "연설은 어구 반복으로 힘을 얻어요.",
+    "en": "The speech gains force through anaphora."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "呼吁",
+   "pos": "noun",
+   "read": "hū yù",
+   "ko": "3항 구조",
+   "en": "tricolon",
+   "ex": {
+    "t": "他呼吁大家关注环境。",
+    "read": "Tā hū yù dàjiā guān zhù huán jìng.",
+    "ko": "3항 구조는 리듬을 만들어요.",
+    "en": "A tricolon creates rhythm."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "感染力",
+   "pos": "verb",
+   "read": "gǎn rǎn lì",
+   "ko": "설득하다",
+   "en": "persuade",
+   "ex": {
+    "t": "这篇演说很有感染力。",
+    "read": "Zhè piān yǎn shuō hěn yǒu gǎn rǎn lì.",
+    "ko": "그는 청중을 설득했어요.",
+    "en": "He persuaded the audience."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "论据",
+   "pos": "adj",
+   "read": "lùn jù",
+   "ko": "선동적인",
+   "en": "inflammatory",
+   "ex": {
+    "t": "有力的论据是说服的基础。",
+    "read": "Yǒu lì de lùn jù shì shuō fú de jī chǔ.",
+    "ko": "그의 말은 선동적이었어요.",
+    "en": "His words were inflammatory."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "信誉",
+   "pos": "phrase",
+   "read": "xìn yù",
+   "ko": "호소하다",
+   "en": "appeal to",
+   "ex": {
+    "t": "说话者的信誉很重要。",
+    "read": "Shuōhuà zhě de xìn yù hěn zhòng yào.",
+    "ko": "그는 청중의 양심에 호소했어요.",
+    "en": "He appealed to the audience's conscience."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "诉诸信誉／诉诸情感／诉诸逻辑／反问／排比／三段式",
+   "en": "Rhetoric and persuasion: 诉诸信誉 / 诉诸情感 / 诉诸逻辑 / 反问 / 排比"
+  },
+  "explain": {
+   "ko": "修辞学是说服他人的艺术。古人讲三种方法：靠说话者的信誉、靠听者的情感、靠逻辑论据。此外，反问（难道我们能沉默吗？）、排比（自由、平等、博爱）、重复，都能增强演讲的力量。能识别这些手法，就不会被华丽的语言带着走。",
+   "en": "Rhetoric is the art of persuasion. Three classic appeals: the speaker's credibility, the listener's feeling, logical grounds. Rhetorical questions (难道我们能沉默吗？), parallelism (自由、平等、博爱) and repetition strengthen speeches. Recognising them keeps you from being swept along by fine words."
+  },
+  "table": {
+   "head": [
+    "方法 / Appeal",
+    "内容 / Content",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "信誉",
+     "说话者可信",
+     "我教了二十年。"
+    ],
+    [
+     "情感",
+     "触动听者",
+     "为了孩子的未来。"
+    ],
+    [
+     "逻辑",
+     "论据",
+     "数据显示……。"
+    ],
+    [
+     "反问",
+     "无需回答",
+     "难道能沉默吗？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "三种方法结合更有力。",
+    "en": "Combining the three is stronger."
+   },
+   {
+    "ko": "警惕煽动性语言。",
+    "en": "Beware inflammatory language."
+   },
+   {
+    "ko": "读演讲时找修辞手法。",
+    "en": "Look for devices when reading speeches."
+   }
+  ],
+  "examples": [
+   {
+    "t": "我教了二十年书。",
+    "read": "Wǒ jiào le èrshí nián shū.",
+    "ko": "그는 수사학의 대가예요.",
+    "en": "He is a master of rhetoric."
+   },
+   {
+    "t": "为了孩子的未来，让我们行动起来。",
+    "read": "Wèile háizi de wèi lái, ràng wǒmen xíng dòng qǐ lái.",
+    "ko": "파토스는 청중의 감정에 호소해요.",
+    "en": "Pathos appeals to the audience's emotions."
+   },
+   {
+    "t": "数据清楚地显示了这一点。",
+    "read": "Shù jù qīng chǔ dì xiǎn shì le zhè yìdiǎn.",
+    "ko": "로고스는 논리와 증거에 의존해요.",
+    "en": "Logos relies on logic and evidence."
+   },
+   {
+    "t": "难道我们能保持沉默吗？",
+    "read": "Nándào wǒmen néng bǎochí chén mò ma?",
+    "ko": "3항 구조는 리듬을 만들어요.",
+    "en": "A tricolon creates rhythm."
+   },
+   {
+    "t": "自由、平等、博爱。",
+    "read": "Zì yóu, píng děng, bó ài.",
+    "ko": "그는 청중의 양심에 호소했어요.",
+    "en": "He appealed to the audience's conscience."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "我教了___年书。",
+    "options": [
+     "二十",
+     "二十个",
+     "二十位"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "数据清楚地___了这一点。",
+    "options": [
+     "显示",
+     "忘记",
+     "拒绝"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___我们能保持沉默吗？",
+    "options": [
+     "难道",
+     "即使",
+     "因为"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "为了孩子的未来，让我们___起来。",
+    "options": [
+     "行动",
+     "后悔",
+     "停止"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "那场演讲怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 에토스, 파토스, 로고스는 각각 무엇인가요?",
+     "en": "(Question) What are ethos, pathos and logos?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "情感和逻辑都用到了，很打动人。",
+       "太短了。",
+       "没听到。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "什么是反问？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 수사 의문문의 효과는 무엇인가요?",
+     "en": "(Question) What is the effect of a rhetorical question?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "不需要回答，用来加强语气的问句。",
+       "必须回答的问题。",
+       "考试题。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "那场演讲为什么打动人？"
+      },
+      {
+       "s": "B",
+       "t": "它诉诸了孩子们的未来。"
+      },
+      {
+       "s": "A",
+       "t": "也用了数据。"
+      },
+      {
+       "s": "B",
+       "t": "对，情感和逻辑都用到了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그 연설이 왜 설득력 있었을까?\nB: 통계로 논리를 세우고 아이들 이야기로 감정에 호소했거든.\nA: 에토스는?\nB: 연설자가 오랜 경험을 이야기해서 신뢰를 얻었어.",
+     "en": "A: Why was that speech so persuasive?\nB: It built logic with statistics and appealed to emotion with stories about children.\nA: And ethos?\nB: The speaker gained trust by talking about long experience."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B认为演讲为什么打动人？",
+      "options": [
+       "情感和逻辑都用到了",
+       "很长",
+       "说话者有名"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "修辞学是说服他人的艺术。说话者的信誉、听者的情感、逻辑论据是三种方法。反问、排比、重复增强演讲的力量。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "아리스토텔레스는 설득의 세 가지 수단을 제시했습니다. 에토스는 화자의 신뢰성, 파토스는 청중의 감정, 로고스는 논리와 증거입니다. 좋은 정치 연설은 이 세 가지를 균형 있게 사용하며, 수사 의문문과 어구 반복 같은 장치로 효과를 높입니다.",
+     "en": "Aristotle set out three means of persuasion. Ethos is the speaker's credibility, pathos is the audience's emotion, and logos is logic and evidence. A good political speech uses all three in balance, and heightens its effect through devices such as rhetorical questions and anaphora."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "三种方法不包括什么？",
+      "options": [
+       "声音大",
+       "信誉",
+       "逻辑"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "难道我们能保持沉默吗？"
+      },
+      {
+       "s": "B",
+       "t": "不能！"
+      },
+      {
+       "s": "A",
+       "t": "为了孩子们的未来，让我们行动起来。"
+      },
+      {
+       "s": "B",
+       "t": "好！"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 이 연설의 특징은 무엇인가요?\n분석가: 어구 반복이 리듬을 만듭니다.\n기자: 감정에 대한 호소는요?\n분석가: 아이들 이야기가 파토스입니다.",
+     "en": "Reporter: What is distinctive about this speech?\nAnalyst: Anaphora creates the rhythm.\nReporter: And the appeal to emotion?\nAnalyst: The stories about children are the pathos."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "议员问：难道我们能保持______吗？",
+      "answers": [
+       "沉默"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "为了孩子们的______行动起来",
+      "answers": [
+       "未来"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 我教了___年书。\n2) 数据清楚地___了这一点。\n3) ___我们能保持沉默吗？",
+    "trans": {
+     "ko": "1) 그는 수사학의 대가예요. 2) 파토스는 청중의 감정에 호소해요. 3) 로고스는 논리와 증거에 의존해요.",
+     "en": "1) He is a master of rhetoric. 2) Pathos appeals to the audience's emotions. 3) Logos relies on logic and evidence."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "我教了___年书。",
+      "options": [
+       "二十",
+       "二十个",
+       "二十位"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "数据清楚地___了这一点。",
+      "options": [
+       "显示",
+       "忘记",
+       "拒绝"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___我们能保持沉默吗？",
+      "options": [
+       "难道",
+       "即使",
+       "因为"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这位大臣的演讲诉诸(1)，得到了广泛支持。他多次使用(2)，如“我们要做什么？”演讲的节奏很有(3)。",
+    "trans": {
+     "ko": "연설자는 오랜 경험으로 에토스를 쌓았다. 그는 감동적인 이야기로 청중의 감정에 호소했다. 마지막으로 통계로 논리를 세웠다.",
+     "en": "The speaker built ethos through long experience. He appealed to the audience's emotions with a moving story. Finally, he built logic with statistics."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "情感",
+       "天气",
+       "价格"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "反问",
+       "计算式",
+       "广告"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "力量",
+       "重量",
+       "颜色"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "专栏\n语言的魔力\n优秀的演讲者善于结合信誉、情感和逻辑。但煽动性的演讲也可能把人引向危险的方向。我们需要识别修辞手法的能力。",
+    "trans": {
+     "ko": "정치 칼럼\n수사의 힘\n말은 힘이다. 좋은 연설은 신뢰, 감정, 논리를 균형 있게 사용한다. 그러나 감정만 자극하는 선동적 수사는 논리를 가릴 수 있으므로 청중은 비판적으로 들어야 한다.",
+     "en": "POLITICAL COLUMN\nThe power of rhetoric\nWords are power. A good speech uses credibility, emotion and logic in balance. But inflammatory rhetoric that only stirs emotion can obscure logic, so audiences must listen critically."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "优秀演讲者结合什么？",
+      "options": [
+       "信誉、情感、逻辑",
+       "音乐、灯光、服装",
+       "金钱、名声、权力"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "我们需要什么能力？",
+      "options": [
+       "识别修辞手法",
+       "记忆",
+       "体力"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "专栏说优秀演讲者结合信誉、情感、逻辑，煽动性演讲可能危险。",
+    "trans": {
+     "ko": "칼럼은 좋은 연설이 신뢰, 감정, 논리를 균형 있게 사용한다고 본다. 칼럼은 선동적 수사가 항상 논리를 강화한다고 본다. 칼럼은 청중이 비판적으로 들어야 한다고 본다.",
+     "en": "The column says a good speech uses credibility, emotion and logic in balance. The column says inflammatory rhetoric always strengthens logic. The column says audiences must listen critically."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "演讲者结合三种方法。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "演讲总是安全的。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "专栏点名了演讲家。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "情感和逻辑都用到了，很打动人。",
+    "read": "Qíng gǎn hé luó jí dōu yòng dào le, hěn dǎ dòng rén.",
+    "ko": "연설자는 경험과 평판으로 에토스를 쌓습니다.",
+    "en": "A speaker builds ethos through experience and reputation.",
+    "situation": {
+     "ko": "에토스를 설명할 때",
+     "en": "Explaining ethos"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "不需要回答，用来加强语气的问句。",
+    "read": "Bù xūyào huídá, yòng lái jiā qiáng yǔ qì de wèn jù.",
+    "ko": "파토스는 청중의 감정에 직접 호소합니다.",
+    "en": "Pathos appeals directly to the audience's emotions.",
+    "situation": {
+     "ko": "파토스를 설명할 때",
+     "en": "Explaining pathos"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "我教了二十年书。",
+    "read": "Wǒ jiào le èrshí nián shū.",
+    "ko": "로고스는 논리적 근거와 증거에 의존합니다.",
+    "en": "Logos depends on logical reasoning and evidence.",
+    "situation": {
+     "ko": "로고스를 설명할 때",
+     "en": "Explaining logos"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "数据清楚地显示了这一点。",
+    "read": "Shù jù qīng chǔ dì xiǎn shì le zhè yìdiǎn.",
+    "ko": "그는 수사 의문문으로 청중이 스스로 답을 찾게 했습니다.",
+    "en": "He used rhetorical questions to let the audience find the answer themselves.",
+    "situation": {
+     "ko": "수사 장치",
+     "en": "A rhetorical device"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "难道我们能保持沉默吗？",
+    "read": "Nándào wǒmen néng bǎochí chén mò ma?",
+    "ko": "어구 반복은 연설에 힘과 리듬을 더합니다.",
+    "en": "Anaphora adds force and rhythm to a speech.",
+    "situation": {
+     "ko": "수사 장치",
+     "en": "A rhetorical device"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "重复能加深印象。",
+    "read": "Chóng fù néng jiā shēn yìn xiàng.",
+    "ko": "3항 구조는 기억에 남는 인상을 줍니다.",
+    "en": "A tricolon leaves a memorable impression.",
+    "situation": {
+     "ko": "수사 장치",
+     "en": "A rhetorical device"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "要有识别手法的能力。",
+    "read": "Yào yǒu shí bié shǒu fǎ de nénglì.",
+    "ko": "그의 선동적인 말은 청중을 흥분시켰습니다.",
+    "en": "His inflammatory words stirred up the audience.",
+    "situation": {
+     "ko": "연설을 비판할 때",
+     "en": "Criticising a speech"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "煽动性的演讲要小心。",
+    "read": "Shān dòng xìng de yǎn jiǎng yào xiǎoxīn.",
+    "ko": "좋은 연설은 세 가지 호소를 균형 있게 사용합니다.",
+    "en": "A good speech uses the three appeals in balance.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "诉诸……。",
+    "read": "Sù zhū ….",
+    "ko": "~에 호소하다.",
+    "en": "appeal to ..."
+   },
+   {
+    "id": "w2",
+    "t": "难道……吗？",
+    "read": "Nándào … ma?",
+    "ko": "~을 쌓다.",
+    "en": "build ..."
+   },
+   {
+    "id": "w3",
+    "t": "排比。",
+    "read": "Pái bǐ.",
+    "ko": "균형 있게 사용하다.",
+    "en": "use in balance"
+   },
+   {
+    "id": "w4",
+    "t": "重复。",
+    "read": "Chóng fù.",
+    "ko": "청중을 설득하다.",
+    "en": "persuade the audience"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "에토스, 파토스, 로고스를 각각 한 문장씩 사용한 설득 연설을 4문장으로 써 보세요.",
+    "en": "Write a four-sentence persuasive speech using ethos, pathos and logos in one sentence each."
+   },
+   "must_include": [
+    {
+     "label": "诉诸",
+     "match": [
+      "诉诸"
+     ]
+    },
+    {
+     "label": "反问",
+     "match": [
+      "反问"
+     ]
+    },
+    {
+     "label": "重复",
+     "match": [
+      "重复"
+     ]
+    }
+   ],
+   "model": "那场演讲诉诸情感和逻辑。演讲者使用了反问，也用了重复，加深了印象。我们应当有识别修辞手法的能力。",
+   "model_trans": {
+    "ko": "저는 20년간 이 지역에서 일해 왔습니다. 아이들이 위험에 처해 있다는 사실을 외면할 수 없습니다. 통계는 사고가 해마다 늘고 있음을 보여 줍니다. 그러니 지금 행동해야 하지 않겠습니까?",
+    "en": "I have worked in this community for twenty years. We cannot turn away from the fact that our children are in danger. The statistics show that accidents are rising every year. So shouldn't we act now?"
+   }
+  }
+ }
+}

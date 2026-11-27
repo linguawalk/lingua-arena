@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u01",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 1,
+  "concept": "C2.U01",
+  "status": "live",
+  "title": {
+   "target": "确定程度：推测、断定与怀疑",
+   "ko": "미묘한 양태와 인식적 태도",
+   "en": "Subtle modality and epistemic stance"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "毫无疑问",
+   "pos": "adj",
+   "read": "háo wú yí wèn",
+   "ko": "그럴 법한",
+   "en": "plausible",
+   "ex": {
+    "t": "这件事毫无疑问是他做的。",
+    "read": "Zhè jiàn shì háo wú yí wèn shì tā zuò de.",
+    "ko": "그의 설명은 그럴 법하게 들려요.",
+    "en": "His explanation sounds plausible."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "可信",
+   "pos": "adv",
+   "read": "kě xìn",
+   "ko": "의심할 여지 없이",
+   "en": "undoubtedly",
+   "ex": {
+    "t": "这个解释听起来很可信。",
+    "read": "Zhège jiěshì tīng qǐ lái hěn kě xìn.",
+    "ko": "그녀는 의심할 여지 없이 가장 유능한 후보예요.",
+    "en": "She is undoubtedly the most capable candidate."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "推测",
+   "pos": "adj",
+   "read": "tuī cè",
+   "ko": "개연성이 높은",
+   "en": "probable",
+   "ex": {
+    "t": "我们只能根据线索来推测。",
+    "read": "Wǒmen zhī néng gēn jù xiàn suǒ lái tuī cè.",
+    "ko": "합의에 이를 가능성이 높아요.",
+    "en": "An agreement is highly probable."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "断言",
+   "pos": "verb",
+   "read": "duàn yán",
+   "ko": "추측하다",
+   "en": "surmise",
+   "ex": {
+    "t": "她断言这个计划一定会成功。",
+    "read": "Tā duàn yán zhège jìhuà yí dìng huì chéng gōng.",
+    "ko": "나는 그가 이미 떠났다고 추측했어요.",
+    "en": "I surmised that he had already left."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "未必",
+   "pos": "phrase",
+   "read": "wèi bì",
+   "ko": "~일 수밖에 없다",
+   "en": "be bound to",
+   "ex": {
+    "t": "贵的东西未必就是好的。",
+    "read": "Guì de dōngxi wèi bì jiù shì hǎo de.",
+    "ko": "이렇게 노력했으니 성공할 수밖에 없어요.",
+    "en": "With this much effort, she is bound to succeed."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "可疑",
+   "pos": "phrase",
+   "read": "kě yí",
+   "ko": "~일 리가 없다",
+   "en": "can't possibly",
+   "ex": {
+    "t": "他的说法有些可疑。",
+    "read": "Tā de shuō fǎ yǒu xiē kě yí.",
+    "ko": "그가 그 사실을 알았을 리가 없어요.",
+    "en": "He can't possibly have known."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "不可能",
+   "pos": "phrase",
+   "read": "bù kěnéng",
+   "ko": "단정하다",
+   "en": "conclude with certainty",
+   "ex": {
+    "t": "他不可能不知道这件事。",
+    "read": "Tā bù kěnéng bù zhīdào zhè jiàn shì.",
+    "ko": "증거만으로 단정할 수는 없어요.",
+    "en": "One cannot conclude with certainty from the evidence alone."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "八成",
+   "pos": "phrase",
+   "read": "bā chéng",
+   "ko": "충분히 ~할 만하다",
+   "en": "might well",
+   "ex": {
+    "t": "天这么阴，八成要下雨。",
+    "read": "Tiān zhè me yīn, bā chéng yào xiàyǔ.",
+    "ko": "그 제안은 거절당할 만도 해요.",
+    "en": "The proposal might well be rejected."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "确信",
+   "pos": "adj",
+   "read": "què xìn",
+   "ko": "미심쩍은",
+   "en": "dubious",
+   "ex": {
+    "t": "我确信他会按时到。",
+    "read": "Wǒ què xìn tā huì ànshí dào.",
+    "ko": "그 통계는 출처가 미심쩍어요.",
+    "en": "The statistics come from a dubious source."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "难免",
+   "pos": "noun",
+   "read": "nán miǎn",
+   "ko": "단호한 확신",
+   "en": "conviction",
+   "ex": {
+    "t": "第一次做，出错在所难免。",
+    "read": "Dì yí cì zuò, chū cuò zài suǒ nán miǎn.",
+    "ko": "그녀는 확신을 갖고 말했어요.",
+    "en": "She spoke with conviction."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "一定／肯定／不可能／未必／八成／难道",
+   "en": "Degrees of certainty: 一定 / 肯定 / 不可能 / 未必 / 八成 / 难道"
+  },
+  "explain": {
+   "ko": "汉语用不同的词表示把握的大小：“一定／肯定”表示很有把握，“八成／大概／多半”表示比较有把握，“也许／或许”表示不太确定，“未必”表示不一定，“不可能”表示几乎没有可能。“难道……吗？”是反问，表示不相信。选词要看证据有多强。",
+   "en": "Chinese signals confidence with different words: 一定／肯定 (very sure), 八成／大概／多半 (fairly sure), 也许／或许 (unsure), 未必 (not necessarily), 不可能 (almost impossible). 难道……吗？ is a rhetorical question showing disbelief. Choose the word by the strength of the evidence."
+  },
+  "table": {
+   "head": [
+    "把握 / Certainty",
+    "词语 / Word",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "很高 / High",
+     "一定／肯定",
+     "他一定到了。"
+    ],
+    [
+     "较高 / Fairly high",
+     "八成／多半",
+     "八成要下雨。"
+    ],
+    [
+     "较低 / Low",
+     "也许／或许",
+     "他或许不知道。"
+    ],
+    [
+     "否定 / Negative",
+     "未必／不可能",
+     "他不可能知道。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“未必”是“不一定”，语气比“不”委婉。",
+    "en": "未必 means 不一定, gentler than 不."
+   },
+   {
+    "ko": "“难道……吗”表示反问，语气较强。",
+    "en": "难道……吗 is a strong rhetorical question."
+   },
+   {
+    "ko": "证据不足时，用“也许”比“肯定”更稳妥。",
+    "en": "With weak evidence, 也许 is safer than 肯定."
+   }
+  ],
+  "examples": [
+   {
+    "t": "他肯定已经出发了。",
+    "read": "Tā kěndìng yǐjīng chūfā le.",
+    "ko": "그녀는 지금쯤 도착했을 법해요.",
+    "en": "She ought to have arrived by now."
+   },
+   {
+    "t": "天这么阴，八成要下雨。",
+    "read": "Tiān zhè me yīn, bā chéng yào xiàyǔ.",
+    "ko": "그가 그 일을 혼자 했을 리가 없어요.",
+    "en": "He can't possibly have done it alone."
+   },
+   {
+    "t": "贵的东西未必就是好的。",
+    "read": "Guì de dōngxi wèi bì jiù shì hǎo de.",
+    "ko": "그 계획은 실패할 수밖에 없어요.",
+    "en": "The plan is bound to fail."
+   },
+   {
+    "t": "他不可能不知道这件事。",
+    "read": "Tā bù kěnéng bù zhīdào zhè jiàn shì.",
+    "ko": "그 소문은 사실일 수도 있어요.",
+    "en": "The rumour might well be true."
+   },
+   {
+    "t": "难道你不觉得这很奇怪吗？",
+    "read": "Nándào nǐ bù juéde zhè hěn qí guài ma?",
+    "ko": "그들은 이미 결정을 내렸을 거예요.",
+    "en": "They will have made their decision by now."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "他___已经出发了，我刚才看见他的车。",
+    "options": [
+     "肯定",
+     "未必",
+     "难道"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "贵的东西___就是好的。",
+    "options": [
+     "未必",
+     "肯定",
+     "一定"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "他___不知道这件事，因为他一直在场。",
+    "options": [
+     "不可能",
+     "八成",
+     "也许"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "天这么阴，___要下雨。",
+    "options": [
+     "八成",
+     "绝不",
+     "从来"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你觉得明天会下雨吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 왜 아직 도착하지 않았을까요?",
+     "en": "(Question) Why hasn't he arrived yet?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "八成会下，天这么阴。",
+       "我昨天去了。",
+       "我不喜欢雨。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你相信这个消息吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 소문이 사실일까요?",
+     "en": "(Question) Could the rumour be true?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "未必可信，我想再核实一下。",
+       "我今天很忙。",
+       "我没有伞。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "他怎么还没来？"
+      },
+      {
+       "s": "B",
+       "t": "路上八成堵车了。"
+      },
+      {
+       "s": "A",
+       "t": "也许他忘了今天的会议。"
+      },
+      {
+       "s": "B",
+       "t": "不可能，他昨天还提醒过我呢。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 보고서가 아직 안 왔어.\nB: 지금쯤이면 도착했어야 하는데.\nA: 메일이 스팸함에 들어갔을 수도 있어.\nB: 그럴 만도 해. 확인해 볼게.",
+     "en": "A: The report hasn't come yet.\nB: It ought to have arrived by now.\nA: It might well have gone into the spam folder.\nB: That's quite possible. I'll check."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B为什么说“不可能”？",
+      "options": [
+       "他昨天提醒过自己",
+       "他住得很远",
+       "他生病了"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "判断一件事的可信程度，要看证据。证据很充分，可以说“肯定”；证据不太足，只能说“也许”或“八成”。如果没有证据却轻易断言，很可能会出错。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "확신의 정도를 구별하는 것은 정확한 영어의 핵심입니다. 확실할 때는 must나 be bound to를, 가능성을 열어 둘 때는 might well을, 불가능하다고 볼 때는 can't possibly를 씁니다. 근거가 약하다면 단정하지 말고 신중하게 표현하세요.",
+     "en": "Distinguishing degrees of certainty is central to precise English. Use must or be bound to when you are sure, might well when you leave a possibility open, and can't possibly when you rule something out. If the evidence is weak, avoid asserting and express yourself cautiously."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "证据不太足时应该怎么说？",
+      "options": [
+       "也许或八成",
+       "肯定",
+       "绝对"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你认为这个计划会成功吗？"
+      },
+      {
+       "s": "B",
+       "t": "我想八成会成功。"
+      },
+      {
+       "s": "A",
+       "t": "为什么这么说？"
+      },
+      {
+       "s": "B",
+       "t": "因为前期的数据非常有利，不过也未必万无一失。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 이번 합의가 실현될까요?\n전문가: 협상 분위기를 보면 곧 발표될 가능성이 높습니다.\n기자: 반대 의견은 없나요?\n전문가: 일부 반발은 있을 수 있지만 막을 수는 없을 겁니다.",
+     "en": "Reporter: Will this agreement actually happen?\nExpert: Judging by the mood of the talks, an announcement is highly probable.\nReporter: Is there no opposition?\nExpert: Some resistance is possible, but it cannot stop it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "专家想八成会______",
+      "answers": [
+       "成功"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "前期的数据非常______",
+      "answers": [
+       "有利"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 他___已经到了，我看见他的车。\n2) 贵的东西___就是好的。\n3) 他___不知道，因为他一直在场。",
+    "trans": {
+     "ko": "1) 그녀는 지금쯤 도착했을 법해요. 2) 그가 혼자 했을 리가 없어요. 3) 그 계획은 실패할 수밖에 없어요.",
+     "en": "1) She ought to have arrived by now. 2) He can't possibly have done it alone. 3) The plan is bound to fail."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他___已经到了，我看见他的车。",
+      "options": [
+       "肯定",
+       "未必",
+       "难道"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "贵的东西___就是好的。",
+      "options": [
+       "未必",
+       "肯定",
+       "一定"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他___不知道，因为他一直在场。",
+      "options": [
+       "不可能",
+       "八成",
+       "也许"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这起事件的原因还不清楚。警方说，目前只能(1)，因为证据不足。有人认为是意外，也有人觉得其中有(2)的地方。无论如何，我们不能轻易(3)。",
+    "trans": {
+     "ko": "그 연구자는 새 이론이 의심할 여지 없이 기존 가설보다 설득력 있다고 주장했다. 그러나 동료들은 자료의 출처가 미심쩍다고 반박했다. 어느 쪽이 옳든 논쟁은 한동안 계속될 수밖에 없을 것이다.",
+     "en": "The researcher claimed that the new theory was undoubtedly more persuasive than the old hypothesis. Colleagues, however, retorted that the source of the data was dubious. Whichever side is right, the debate is bound to continue for some time."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "推测",
+       "拒绝",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "可疑",
+       "快乐",
+       "简单"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "断言",
+       "道歉",
+       "出发"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "科技新闻\n新手机的传闻\n网上流传，某公司下个月将发布新手机。有人说价格会降低，也有人说会涨价。公司至今没有回应。专家提醒，传闻未必可靠，应以官方消息为准。",
+    "trans": {
+     "ko": "분석 기사\n합의의 가능성\n협상이 막바지에 접어들면서 최종 합의의 가능성이 높아지고 있다. 일부 의원들이 반대할 수는 있으나 과반을 막기는 어려울 것이다. 다만 세부 조항이 바뀔 수도 있어 단정은 이르다.",
+     "en": "ANALYSIS\nThe prospects for agreement\nAs the talks enter their final stage, the likelihood of a final agreement is rising. Some legislators may object, but blocking a majority will be difficult. Even so, details may still change, so it is too early to be certain."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "传闻说公司将做什么？",
+      "options": [
+       "发布新手机",
+       "关闭工厂",
+       "更换总经理"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "专家提醒什么？",
+      "options": [
+       "传闻未必可靠",
+       "价格一定降低",
+       "公司已经回应"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "小李认为这个消息八成是真的，但没有证据。他决定先不告诉别人，等官方确认以后再说。",
+    "trans": {
+     "ko": "기사는 최종 합의 가능성이 높아지고 있다고 본다. 기사는 합의가 이미 서명되었다고 말한다. 기사는 세부 조항이 바뀔 수 있다고 본다.",
+     "en": "The article thinks a final agreement is becoming more likely. The article says the agreement has already been signed. The article thinks details may still change."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "小李认为消息八成是真的。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "小李马上告诉了所有人。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "小李是记者。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "他肯定已经出发了。",
+    "read": "Tā kěndìng yǐjīng chūfā le.",
+    "ko": "그 합의는 곧 발표될 것으로 보입니다.",
+    "en": "The agreement is likely to be announced shortly.",
+    "situation": {
+     "ko": "가능성이 높다고 말할 때",
+     "en": "Saying something is likely"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "八成要下雨。",
+    "read": "Bā chéng yào xiàyǔ.",
+    "ko": "그가 그런 실수를 했을 리가 없어요.",
+    "en": "He can't possibly have made such a mistake.",
+    "situation": {
+     "ko": "강한 부정 추론을 할 때",
+     "en": "Strong negative deduction"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "这个消息未必可靠。",
+    "read": "Zhège xiāo xī wèi bì kě kào.",
+    "ko": "이 정도 준비라면 그들은 성공할 수밖에 없어요.",
+    "en": "With this much preparation, they are bound to succeed.",
+    "situation": {
+     "ko": "필연적 결과를 말할 때",
+     "en": "Stating an inevitable result"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "他不可能不知道。",
+    "read": "Tā bù kěnéng bù zhīdào.",
+    "ko": "그 제안은 충분히 거절당할 만합니다.",
+    "en": "The proposal might well be rejected.",
+    "situation": {
+     "ko": "가능성을 인정하되 단정하지 않을 때",
+     "en": "Allowing a possibility without asserting"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "难道你不觉得奇怪吗？",
+    "read": "Nándào nǐ bù juéde qí guài ma?",
+    "ko": "지금쯤이면 소식이 왔어야 하는데요.",
+    "en": "We ought to have heard something by now.",
+    "situation": {
+     "ko": "기대에 비추어 추론할 때",
+     "en": "Reasoning from expectation"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "我们只能根据线索推测。",
+    "read": "Wǒmen zhī néng gēn jù xiàn suǒ tuī cè.",
+    "ko": "증거만으로 단정하기는 어렵습니다.",
+    "en": "It is difficult to be certain on the evidence alone.",
+    "situation": {
+     "ko": "신중하게 판단을 유보할 때",
+     "en": "Withholding judgement"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "证据很充分，所以我确信。",
+    "read": "Zhèngjù hěn chōng fēn, suǒyǐ wǒ què xìn.",
+    "ko": "그것은 단순한 우연이 아니었을지도 모릅니다.",
+    "en": "It may not have been mere coincidence.",
+    "situation": {
+     "ko": "과거에 대한 가능성을 제시할 때",
+     "en": "Suggesting a past possibility"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "也许他忘了今天的会议。",
+    "read": "Yě xǔ tā wàng le jīntiān de huìyì.",
+    "ko": "그의 말이 사실이라면 상황은 훨씬 심각합니다.",
+    "en": "If what he says is true, the situation is far graver.",
+    "situation": {
+     "ko": "조건으로 확신을 조정할 때",
+     "en": "Adjusting certainty with a condition"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "他肯定……。",
+    "read": "Tā kěndìng ….",
+    "ko": "~일 수밖에 없다.",
+    "en": "... is bound to ..."
+   },
+   {
+    "id": "w2",
+    "t": "八成……。",
+    "read": "Bā chéng ….",
+    "ko": "~했을 리가 없다.",
+    "en": "... can't possibly have ..."
+   },
+   {
+    "id": "w3",
+    "t": "未必……。",
+    "read": "Wèi bì ….",
+    "ko": "~일 만도 하다.",
+    "en": "... might well ..."
+   },
+   {
+    "id": "w4",
+    "t": "不可能……。",
+    "read": "Bù kěnéng ….",
+    "ko": "지금쯤 ~했어야 한다.",
+    "en": "... ought to have ... by now."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "확신의 정도를 달리하는 조동사를 사용해 어떤 사건의 원인에 대한 추론을 4문장으로 써 보세요.",
+    "en": "Write four sentences reasoning about the cause of an event, using modals of different degrees of certainty."
+   },
+   "must_include": [
+    {
+     "label": "肯定",
+     "match": [
+      "肯定"
+     ]
+    },
+    {
+     "label": "八成",
+     "match": [
+      "八成"
+     ]
+    },
+    {
+     "label": "未必",
+     "match": [
+      "未必"
+     ]
+    }
+   ],
+   "model": "我肯定他已经出发了，因为我看见了他的车。路上八成会堵车。不过，他未必能准时到。我们先等一等。",
+   "model_trans": {
+    "ko": "서버가 갑자기 멈췄어요. 업데이트가 원인일 수도 있어요. 하지만 개발팀이 테스트를 건너뛰었을 리는 없어요. 로그를 확인하면 곧 원인이 드러날 수밖에 없어요. 지금쯤 담당자가 알고 있어야 하는데요.",
+    "en": "The server stopped suddenly. The update might well be the cause. But the developers can't possibly have skipped the tests. Once we check the logs, the cause is bound to emerge. Whoever is in charge ought to know by now."
+   }
+  }
+ }
+}

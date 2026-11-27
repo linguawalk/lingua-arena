@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u08",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 8,
+  "concept": "C2.U08",
+  "status": "live",
+  "title": {
+   "target": "信息结构：话题、对比与篇章衔接",
+   "ko": "구어의 생략과 대용",
+   "en": "Ellipsis and substitution in speech"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "至于",
+   "pos": "phrase",
+   "read": "zhì yú",
+   "ko": "그렇게 하다",
+   "en": "do so",
+   "ex": {
+    "t": "至于价格，我们下次再谈。",
+    "read": "Zhì yú jiàgé, wǒmen xià cì zài tán.",
+    "ko": "원하는 사람은 그렇게 하셔도 좋아요.",
+    "en": "Anyone who wishes may do so."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "关于",
+   "pos": "phrase",
+   "read": "guānyú",
+   "ko": "그렇다고 생각하다",
+   "en": "I suppose so",
+   "ex": {
+    "t": "关于这个问题，大家有不同看法。",
+    "read": "Guānyú zhège wèntí, dàjiā yǒu bù tóng kàn fǎ.",
+    "ko": "그럴 것 같아요.",
+    "en": "I suppose so."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "换句话说",
+   "pos": "phrase",
+   "read": "huàn jù huà shuō",
+   "ko": "그러지 않기를 바라다",
+   "en": "I hope not",
+   "ex": {
+    "t": "换句话说，我们需要更多时间。",
+    "read": "Huàn jù huà shuō, wǒmen xūyào gèng duō shíjiān.",
+    "ko": "비가 오지 않기를 바라요.",
+    "en": "I hope not."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "总之",
+   "pos": "adj",
+   "read": "zǒngzhī",
+   "ko": "암시된",
+   "en": "implicit",
+   "ex": {
+    "t": "总之，这个方案是可行的。",
+    "read": "Zǒngzhī, zhège fāng àn shì kě xíng de.",
+    "ko": "그의 말에는 암시된 비판이 있었어요.",
+    "en": "There was an implicit criticism in his words."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "前面提到",
+   "pos": "phrase",
+   "read": "qiánmian tí dào",
+   "ko": "말하지 않고도 통하다",
+   "en": "go without saying",
+   "ex": {
+    "t": "前面提到的问题已经解决了。",
+    "read": "Qiánmian tí dào de wèntí yǐjīng jiě jué le.",
+    "ko": "그건 말할 필요도 없어요.",
+    "en": "That goes without saying."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "因此",
+   "pos": "noun",
+   "read": "yīn cǐ",
+   "ko": "생략",
+   "en": "omission",
+   "ex": {
+    "t": "数据不足，因此无法得出结论。",
+    "read": "Shù jù bù zú, yīn cǐ wú fǎ děi chū jié lùn.",
+    "ko": "그 문장에는 몇 가지 생략이 있어요.",
+    "en": "The sentence contains several omissions."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "焦点",
+   "pos": "noun",
+   "read": "jiāo diǎn",
+   "ko": "대용어",
+   "en": "pro-form",
+   "ex": {
+    "t": "这次讨论的焦点是成本。",
+    "read": "Zhè cì tǎo lùn de jiāo diǎn shì chéng běn.",
+    "ko": "do so는 대동사 대용어예요.",
+    "en": "'Do so' is a verb pro-form."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "补充",
+   "pos": "phrase",
+   "read": "bǔchōng",
+   "ko": "눈치채다",
+   "en": "pick up on",
+   "ex": {
+    "t": "我想补充一点。",
+    "read": "Wǒ xiǎng bǔchōng yìdiǎn.",
+    "ko": "그는 암시를 곧 눈치챘어요.",
+    "en": "He picked up on the hint at once."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "归根结底",
+   "pos": "adj",
+   "read": "guī gēn jié dǐ",
+   "ko": "미완의",
+   "en": "unfinished",
+   "ex": {
+    "t": "归根结底，这是信任问题。",
+    "read": "Guī gēn jié dǐ, zhè shì xìn rèn wèntí.",
+    "ko": "그의 문장은 미완으로 끝났어요.",
+    "en": "His sentence was left unfinished."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "概括",
+   "pos": "adv",
+   "read": "gài kuò",
+   "ko": "당연히",
+   "en": "naturally",
+   "ex": {
+    "t": "请你简单概括一下。",
+    "read": "Qǐng nǐ jiǎn dān gài kuò yíxià.",
+    "ko": "당연히 나도 갈 거예요.",
+    "en": "Naturally, I'll go too."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "至于……／关于……／换句话说／总之／前面提到的／因此",
+   "en": "Information structure: 至于…… / 关于…… / 换句话说 / 总之 / 前面提到的 / 因此"
+  },
+  "explain": {
+   "ko": "连贯的文章需要清楚的信息结构。“关于／至于”引出话题；“换句话说”用另一种方式解释；“前面提到的”指回已说过的内容；“因此／所以”表示结论；“总之／归根结底”做总结。把旧信息放在前面，新信息放在后面，读者就更容易跟上。",
+   "en": "Coherent writing needs clear information structure. 关于／至于 introduce a topic; 换句话说 restates; 前面提到的 points back; 因此／所以 give a conclusion; 总之／归根结底 sum up. Put old information first and new information last so readers can follow."
+  },
+  "table": {
+   "head": [
+    "功能 / Function",
+    "词语 / Word",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "引出话题",
+     "关于／至于",
+     "至于价格，下次再谈。"
+    ],
+    [
+     "换种说法",
+     "换句话说",
+     "换句话说，要更多时间。"
+    ],
+    [
+     "指回",
+     "前面提到的",
+     "前面提到的问题。"
+    ],
+    [
+     "总结",
+     "总之／归根结底",
+     "总之，方案可行。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“至于”常用来转向一个新的话题。",
+    "en": "至于 often shifts to a new topic."
+   },
+   {
+    "ko": "“换句话说”后面的内容意思不变。",
+    "en": "What follows 换句话说 keeps the same meaning."
+   },
+   {
+    "ko": "“归根结底”表示追究到根本原因。",
+    "en": "归根结底 reaches the root cause."
+   }
+  ],
+  "examples": [
+   {
+    "t": "关于这个问题，大家有不同看法。",
+    "read": "Guānyú zhège wèntí, dàjiā yǒu bù tóng kàn fǎ.",
+    "ko": "누가 차를 마실래요? — 저요, 부탁해요.",
+    "en": "Anyone for tea? — Yes, please."
+   },
+   {
+    "t": "至于价格，我们下次再谈。",
+    "read": "Zhì yú jiàgé, wǒmen xià cì zài tán.",
+    "ko": "올 수 있어요? — 가고 싶지만 안 돼요.",
+    "en": "Can you come? — I'd love to, but I can't."
+   },
+   {
+    "t": "换句话说，我们需要更多时间。",
+    "read": "Huàn jù huà shuō, wǒmen xūyào gèng duō shíjiān.",
+    "ko": "그가 올까요? — 그럴 것 같아요.",
+    "en": "Will he come? — I suppose so."
+   },
+   {
+    "t": "前面提到的问题已经解决了。",
+    "read": "Qiánmian tí dào de wèntí yǐjīng jiě jué le.",
+    "ko": "나는 파란 셔츠가 마음에 들어요. 당신은 빨간 걸 좋아하죠?",
+    "en": "I like the blue shirt. You prefer the red one, don't you?"
+   },
+   {
+    "t": "总之，这个方案是可行的。",
+    "read": "Zǒngzhī, zhège fāng àn shì kě xíng de.",
+    "ko": "원하시는 분은 그렇게 하셔도 좋습니다.",
+    "en": "Anyone who wishes to may do so."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___价格，我们下次再谈。",
+    "options": [
+     "至于",
+     "总之",
+     "因此"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___，我们需要更多时间。",
+    "options": [
+     "换句话说",
+     "至于",
+     "起初"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "数据不足，___无法得出结论。",
+    "options": [
+     "因此",
+     "至于",
+     "关于"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___，这个方案是可行的。",
+    "options": [
+     "总之",
+     "至于",
+     "于是"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你怎么总结这次讨论？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 오늘 저녁에 함께 가실래요?",
+     "en": "(Question) Would you like to join us tonight?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "总之，大家同意继续讨论。",
+       "我昨天去了。",
+       "我没有意见。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你怎么看这个问题？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 사과할까요?",
+     "en": "(Question) Will he apologise?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "关于这一点，我有不同看法。",
+       "天气很好。",
+       "我不饿。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "关于预算，你有什么看法？"
+      },
+      {
+       "s": "B",
+       "t": "预算有些紧张。换句话说，我们需要削减开支。"
+      },
+      {
+       "s": "A",
+       "t": "至于人员呢？"
+      },
+      {
+       "s": "B",
+       "t": "总之，人员不变，其他再讨论。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 오늘 저녁 같이 갈래?\nB: 가고 싶지만 일이 남았어.\nA: 그럼 내일은?\nB: 그건 괜찮을 것 같아.",
+     "en": "A: Will you join us tonight?\nB: I'd love to, but I've got work left.\nA: What about tomorrow?\nB: I think that should be fine."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B对预算的看法是什么？",
+      "options": [
+       "需要削减开支",
+       "预算很充足",
+       "不用讨论"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "关于这个问题，大家有不同意见。有人认为成本太高，有人认为收益更重要。换句话说，分歧的焦点是短期还是长期。总之，我们需要更多数据才能做出决定。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "구어에서는 이미 알려진 정보를 반복하지 않고 생략하거나 so, not, one 같은 대용어로 바꿉니다. 이렇게 하면 말이 자연스럽고 간결해집니다. 그러나 격식 있는 글에서는 의미가 분명하도록 가능한 한 완전한 형태를 쓰세요.",
+     "en": "In speech, known information is not repeated but omitted or replaced with substitutes such as so, not and one. This makes speech natural and concise. In formal writing, however, use full forms where possible so the meaning is clear."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "分歧的焦点是什么？",
+      "options": [
+       "短期还是长期",
+       "价格",
+       "时间"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "前面提到的方案，你们怎么看？"
+      },
+      {
+       "s": "B",
+       "t": "关于可行性，我认为没问题。"
+      },
+      {
+       "s": "A",
+       "t": "至于成本呢？"
+      },
+      {
+       "s": "B",
+       "t": "总之，只要预算足够，就值得做。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "주인: 차 드실래요?\n손님: 좋죠, 부탁해요.\n주인: 설탕은요?\n손님: 아니요, 괜찮아요. 우유만 조금요.",
+     "en": "Host: Would you like some tea?\nGuest: Yes, please.\nHost: And sugar?\nGuest: No, thanks. Just a little milk."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "专家认为可行性没______",
+      "answers": [
+       "问题"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "只要预算______，就值得做",
+      "answers": [
+       "足够"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___价格，我们下次再谈。\n2) ___，我们需要更多时间。\n3) 数据不足，___无法得出结论。",
+    "trans": {
+     "ko": "1) 누가 차를 마실래요? 2) 올 수 있어요? — 가고 싶지만 안 돼요. 3) 그가 올까요? — 그럴 것 같아요.",
+     "en": "1) Anyone for tea? 2) Can you come? — I'd love to, but I can't. 3) Will he come? — I suppose so."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___价格，我们下次再谈。",
+      "options": [
+       "至于",
+       "总之",
+       "因此"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___，我们需要更多时间。",
+      "options": [
+       "换句话说",
+       "至于",
+       "起初"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "数据不足，___无法得出结论。",
+      "options": [
+       "因此",
+       "至于",
+       "关于"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这次讨论的(1)是成本问题。前面提到的两个方案，各有优缺点。(2)，选择哪一个，要看我们更重视短期还是长期。(3)，我们还需要进一步调查。",
+    "trans": {
+     "ko": "그는 오래된 소파가 마음에 들지 않았다. 새 것을 사고 싶어 했다. 아내에게 의견을 묻자 \"그렇게 하세요\"라고 했다. 둘 다 말하지 않았지만 서로의 뜻을 이미 알고 있었다.",
+     "en": "He did not like the old sofa. He wanted to buy a new one. When he asked his wife's opinion she said, \"Do so.\" Neither said it aloud, but each already knew the other's meaning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "焦点",
+       "天气",
+       "颜色"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "换句话说",
+       "起初",
+       "与此同时"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "总之",
+       "从前",
+       "忽然"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "评论\n如何写好总结\n好的总结，首先要抓住主要内容，而不是重复所有细节。换句话说，要舍得删掉次要的信息。其次，要有清楚的结论。总之，简洁而完整，是总结的基本要求。",
+    "trans": {
+     "ko": "블로그\n자연스러운 대화의 비결\n원어민은 말을 줄입니다. 'Do you want to come?' 대신 'Want to come?'이라고 하죠. 'I'd love to'처럼 앞에 나온 동사를 생략하는 습관도 흔합니다. 이런 생략을 익히면 훨씬 자연스럽게 들립니다.",
+     "en": "BLOG\nSecrets of natural conversation\nNative speakers cut their speech short. Instead of 'Do you want to come?', they say 'Want to come?'. They also commonly omit repeated verbs, as in 'I'd love to'. Mastering such ellipsis makes you sound much more natural."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "好的总结首先要做什么？",
+      "options": [
+       "抓住主要内容",
+       "重复所有细节",
+       "增加新信息"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "总结的基本要求是什么？",
+      "options": [
+       "简洁而完整",
+       "越长越好",
+       "充满感情"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "好的总结要抓住主要内容，舍得删去次要信息，并有清楚的结论。",
+    "trans": {
+     "ko": "글은 원어민이 말을 줄인다고 설명한다. 글은 생략이 비문법적이라고 비판한다. 글은 생략을 익히면 자연스러워진다고 말한다.",
+     "en": "The text explains that native speakers shorten speech. The text criticises ellipsis as ungrammatical. The text says mastering ellipsis sounds more natural."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "好的总结要有清楚的结论。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "总结应重复所有细节。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "作者是一位老师。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "关于这个问题，大家有不同看法。",
+    "read": "Guānyú zhège wèntí, dàjiā yǒu bù tóng kàn fǎ.",
+    "ko": "올 수 있어요? — 가고 싶지만 일이 있어서요.",
+    "en": "Can you join us? — I'd love to, but I have work.",
+    "situation": {
+     "ko": "to 뒤 반복을 생략할 때",
+     "en": "Dropping the repeated verb after 'to'"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "至于价格，我们下次再谈。",
+    "read": "Zhì yú jiàgé, wǒmen xià cì zài tán.",
+    "ko": "다른 후보도 지원했나요? — 그런 것 같아요.",
+    "en": "Did other candidates apply? — I believe so.",
+    "situation": {
+     "ko": "so로 앞말을 대신할 때",
+     "en": "Substituting with 'so'"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "换句话说，我们需要更多时间。",
+    "read": "Huàn jù huà shuō, wǒmen xūyào gèng duō shíjiān.",
+    "ko": "비가 올까요? — 그러지 않기를 바랍니다.",
+    "en": "Will it rain? — I hope not.",
+    "situation": {
+     "ko": "not으로 부정할 때",
+     "en": "Substituting with 'not'"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "前面提到的问题已经解决了。",
+    "read": "Qiánmian tí dào de wèntí yǐjīng jiě jué le.",
+    "ko": "저는 작은 것이 마음에 드는데, 큰 것은 비싸서요.",
+    "en": "I like the small one; the big one is too expensive.",
+    "situation": {
+     "ko": "one으로 명사를 대신할 때",
+     "en": "Substituting a noun with 'one'"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "数据不足，因此无法得出结论。",
+    "read": "Shù jù bù zú, yīn cǐ wú fǎ děi chū jié lùn.",
+    "ko": "원하시는 분은 그렇게 하셔도 됩니다.",
+    "en": "Anyone who wishes to may do so.",
+    "situation": {
+     "ko": "do so로 동사구를 대신할 때",
+     "en": "Substituting a verb phrase"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "总之，这个方案是可行的。",
+    "read": "Zǒngzhī, zhège fāng àn shì kě xíng de.",
+    "ko": "물론 그 사실은 말할 필요도 없습니다.",
+    "en": "That fact, of course, goes without saying.",
+    "situation": {
+     "ko": "당연한 것을 말할 때",
+     "en": "Stating the obvious"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "归根结底，这是信任问题。",
+    "read": "Guī gēn jié dǐ, zhè shì xìn rèn wèntí.",
+    "ko": "그런 일을 하신 적 있나요? — 한 번도 없었습니다.",
+    "en": "Have you ever done that? — Never.",
+    "situation": {
+     "ko": "짧은 답으로 말할 때",
+     "en": "Short responses"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我想补充一点。",
+    "read": "Wǒ xiǎng bǔchōng yìdiǎn.",
+    "ko": "저녁 어때요? — 좋죠, 몇 시에요?",
+    "en": "Dinner? — Sure, what time?",
+    "situation": {
+     "ko": "구어의 간결한 질문",
+     "en": "Clipped spoken questions"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "关于……。",
+    "read": "Guānyú ….",
+    "ko": "~하고 싶지만 …할 수 없다.",
+    "en": "I'd love to, but ..."
+   },
+   {
+    "id": "w2",
+    "t": "至于……。",
+    "read": "Zhì yú ….",
+    "ko": "그렇게 생각한다/아니길 바란다.",
+    "en": "I think/suppose so. / I hope not."
+   },
+   {
+    "id": "w3",
+    "t": "换句话说，……。",
+    "read": "Huàn jù huà shuō, ….",
+    "ko": "그것(들) 대신 one(s).",
+    "en": "the red one / the ones I mentioned"
+   },
+   {
+    "id": "w4",
+    "t": "总之，……。",
+    "read": "Zǒngzhī, ….",
+    "ko": "그렇게 하다.",
+    "en": "do so / do the same"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "구어에서 쓰이는 생략과 대용(do so, so/not, one)을 사용해 4문장 대화를 써 보세요.",
+    "en": "Write a four-line dialogue using spoken ellipsis and substitution (do so, so/not, one)."
+   },
+   "must_include": [
+    {
+     "label": "关于",
+     "match": [
+      "关于"
+     ]
+    },
+    {
+     "label": "换句话说",
+     "match": [
+      "换句话说"
+     ]
+    },
+    {
+     "label": "总之",
+     "match": [
+      "总之"
+     ]
+    }
+   ],
+   "model": "关于这个计划，大家的意见不太一致。换句话说，我们还没有找到最好的办法。至于预算，下次再讨论。总之，我们需要更多时间。",
+   "model_trans": {
+    "ko": "커피 마실래요? — 좋죠. 새 카페에 가 볼까요? — 가고 싶지만 시간이 없어요. 파란 컵과 빨간 컵 중에 어느 걸 쓰시겠어요? — 빨간 걸로요. 그가 올까요? — 그럴 것 같아요.",
+    "en": "Coffee? — I'd love some. Shall we try the new café? — I'd love to, but I haven't time. Which cup will you use, the blue or the red one? — The red one. Will he come? — I suppose so."
+   }
+  }
+ }
+}

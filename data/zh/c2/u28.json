@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u28",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 28,
+  "concept": "C2.U28",
+  "status": "live",
+  "title": {
+   "target": "叙述者与视角",
+   "ko": "서술 시점과 자유간접화법",
+   "en": "Narrative voice and free indirect discourse"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "叙述者",
+   "pos": "noun",
+   "read": "xù shù zhě",
+   "ko": "서술자",
+   "en": "narrator",
+   "ex": {
+    "t": "这部小说的叙述者是个孩子。",
+    "read": "Zhè bù xiǎo shuō de xù shù zhě shì gè háizi.",
+    "ko": "서술자는 사건을 회상해요.",
+    "en": "The narrator recalls the events."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "视角",
+   "pos": "phrase",
+   "read": "shì jiǎo",
+   "ko": "시점",
+   "en": "point of view",
+   "ex": {
+    "t": "视角在中途发生了转换。",
+    "read": "Shì jiǎo zài zhōng tú fāshēng le zhuǎn huàn.",
+    "ko": "이 소설은 1인칭 시점이에요.",
+    "en": "The novel is in the first-person point of view."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "全知",
+   "pos": "adj",
+   "read": "quán zhī",
+   "ko": "전지적인",
+   "en": "omniscient",
+   "ex": {
+    "t": "全知叙述者了解所有人物的心理。",
+    "read": "Quán zhī xù shù zhě le jiě suǒyǒu rén wù de xīn lǐ.",
+    "ko": "전지적 서술자는 모든 인물의 속마음을 알아요.",
+    "en": "An omniscient narrator knows every character's mind."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "不可靠",
+   "pos": "phrase",
+   "read": "bù kě kào",
+   "ko": "신뢰할 수 없는 서술자",
+   "en": "unreliable narrator",
+   "ex": {
+    "t": "不可靠的叙述者让故事变得扑朔迷离。",
+    "read": "Bù kě kào de xù shù zhě ràng gù shì biàn děi pū shuò mí lí.",
+    "ko": "그는 신뢰할 수 없는 서술자예요.",
+    "en": "He is an unreliable narrator."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "自由间接引语",
+   "pos": "phrase",
+   "read": "zì yóu jiàn jiē yǐn yǔ",
+   "ko": "자유간접화법",
+   "en": "free indirect discourse",
+   "ex": {
+    "t": "自由间接引语把人物的内心融入叙述。",
+    "read": "Zì yóu jiàn jiē yǐn yǔ bǎ rén wù de nèi xīn róng rù xù shù.",
+    "ko": "작가는 자유간접화법을 즐겨 써요.",
+    "en": "The author favours free indirect discourse."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "内心独白",
+   "pos": "phrase",
+   "read": "nèi xīn dú bái",
+   "ko": "내적 독백",
+   "en": "interior monologue",
+   "ex": {
+    "t": "内心独白占了很大篇幅。",
+    "read": "Nèi xīn dú bái zhàn le hěn dà piān fú.",
+    "ko": "그 장면은 내적 독백으로 이루어져 있어요.",
+    "en": "The scene is made of interior monologue."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "聚焦",
+   "pos": "noun",
+   "read": "jù jiāo",
+   "ko": "초점 인물",
+   "en": "focaliser",
+   "ex": {
+    "t": "故事通过聚焦人物的眼睛展开。",
+    "read": "Gù shì tōng guo jù jiāo rén wù de yǎnjing zhǎn kāi.",
+    "ko": "초점 인물은 장면을 해석해요.",
+    "en": "The focaliser interprets the scene."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "距离",
+   "pos": "verb",
+   "read": "jù lí",
+   "ko": "거리를 두다",
+   "en": "distance",
+   "ex": {
+    "t": "叙述者与人物保持距离。",
+    "read": "Xù shù zhě yǔ rén wù bǎochí jù lí.",
+    "ko": "서술자는 인물과 거리를 두고 있어요.",
+    "en": "The narrator keeps a distance from the character."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "流露",
+   "pos": "verb",
+   "read": "liú lù",
+   "ko": "은연중에 드러나다",
+   "en": "betray",
+   "ex": {
+    "t": "叙述者的偏见不经意地流露出来。",
+    "read": "Xù shù zhě de piān jiàn bù jīng yì dì liú lù chū lái.",
+    "ko": "그의 말은 불안을 은연중에 드러냈어요.",
+    "en": "His words betrayed anxiety."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "双重声音",
+   "pos": "phrase",
+   "read": "shuāng zhòng shēng yīn",
+   "ko": "이중적 목소리",
+   "en": "double voice",
+   "ex": {
+    "t": "双重声音产生了讽刺。",
+    "read": "Shuāng zhòng shēng yīn chǎn shēng le fěng cì.",
+    "ko": "이 문장에는 이중적 목소리가 있어요.",
+    "en": "This sentence has a double voice."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "第一人称／第三人称／全知视角／不可靠叙述者／内心独白／通过……的眼睛",
+   "en": "Narrator and point of view: 第一人称 / 第三人称 / 全知视角 / 不可靠叙述者 / 内心独白"
+  },
+  "explain": {
+   "ko": "故事总有一个讲述的声音。第一人称叙述者用“我”讲述；第三人称叙述者从外部讲述。全知叙述者了解所有人物的内心，而“不可靠叙述者”会歪曲事实或判断失误。“自由间接引语”把人物内心融入叙述，产生双重声音。思考“故事通过谁的眼睛讲述”，能使阅读更深入。",
+   "en": "Stories have a narrating voice. A first-person narrator uses 我; a third-person narrator speaks from outside. An omniscient narrator knows every mind; an unreliable narrator distorts or misjudges. Free indirect discourse blends character thought into narration, yielding a double voice. Asking through whose eyes the story is told deepens reading."
+  },
+  "table": {
+   "head": [
+    "类型 / Type",
+    "特点 / Feature",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "第一人称",
+     "“我”讲述",
+     "我望着窗外。"
+    ],
+    [
+     "全知",
+     "了解所有内心",
+     "她很难过。"
+    ],
+    [
+     "不可靠",
+     "歪曲事实",
+     "我什么也没看见。"
+    ],
+    [
+     "自由间接",
+     "融入内心",
+     "她怎么还不来？"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "思考故事通过谁的眼睛讲述。",
+    "en": "Ask through whose eyes it is told."
+   },
+   {
+    "ko": "不可靠叙述者需谨慎。",
+    "en": "Be careful with unreliable narrators."
+   },
+   {
+    "ko": "视角变化改变印象。",
+    "en": "A change of viewpoint changes impression."
+   }
+  ],
+  "examples": [
+   {
+    "t": "这部小说的叙述者是个孩子。",
+    "read": "Zhè bù xiǎo shuō de xù shù zhě shì gè háizi.",
+    "ko": "서술자는 사건을 회상해요.",
+    "en": "The narrator recalls the events."
+   },
+   {
+    "t": "全知叙述者了解所有人物的心理。",
+    "read": "Quán zhī xù shù zhě le jiě suǒyǒu rén wù de xīn lǐ.",
+    "ko": "이 소설은 1인칭 시점이에요.",
+    "en": "The novel is in the first-person point of view."
+   },
+   {
+    "t": "不可靠的叙述者让故事扑朔迷离。",
+    "read": "Bù kě kào de xù shù zhě ràng gù shì pū shuò mí lí.",
+    "ko": "그는 신뢰할 수 없는 서술자예요.",
+    "en": "He is an unreliable narrator."
+   },
+   {
+    "t": "自由间接引语融入人物的内心。",
+    "read": "Zì yóu jiàn jiē yǐn yǔ róng rù rén wù de nèi xīn.",
+    "ko": "작가는 자유간접화법을 즐겨 써요.",
+    "en": "The author favours free indirect discourse."
+   },
+   {
+    "t": "故事通过聚焦人物的眼睛展开。",
+    "read": "Gù shì tōng guo jù jiāo rén wù de yǎnjing zhǎn kāi.",
+    "ko": "서술자는 인물과 거리를 두고 있어요.",
+    "en": "The narrator keeps a distance from the character."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "这部小说的___是个孩子。",
+    "options": [
+     "叙述者",
+     "作者",
+     "读者"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___叙述者了解所有人物的心理。",
+    "options": [
+     "全知",
+     "不可靠",
+     "年幼"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___引语把人物的内心融入叙述。",
+    "options": [
+     "自由间接",
+     "直接",
+     "间接"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "故事通过聚焦人物的眼睛___。",
+    "options": [
+     "展开",
+     "避开",
+     "忘记"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这部小说是谁的视角？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 신뢰할 수 없는 서술자란 무엇인가요?",
+     "en": "(Question) What is an unreliable narrator?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "是一个孩子的“我”。",
+       "是神。",
+       "没有视角。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "什么是不可靠叙述者？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 자유간접화법이란 무엇인가요?",
+     "en": "(Question) What is free indirect discourse?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "会歪曲事实或判断失误的叙述者。",
+       "总是正确的叙述者。",
+       "没有名字的叙述者。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这部小说是谁在讲？"
+      },
+      {
+       "s": "B",
+       "t": "是一个孩子的“我”。"
+      },
+      {
+       "s": "A",
+       "t": "那他不可能了解所有事吧。"
+      },
+      {
+       "s": "B",
+       "t": "对，所以读者要读出言外之意。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 소설은 누구의 시점이야?\nB: 1인칭 서술자야.\nA: 그가 믿을 만해?\nB: 아니, 신뢰할 수 없는 서술자여서 독자를 오도해.",
+     "en": "A: Whose point of view is this novel?\nB: A first-person narrator.\nA: Is he reliable?\nB: No, he is an unreliable narrator who misleads the reader."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "读者要做什么？",
+      "options": [
+       "读出言外之意",
+       "忽略叙述者",
+       "改变结局"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "叙述者的类型不同，故事给人的印象也不同。全知叙述者了解一切，而不可靠的叙述者会歪曲事实或判断失误。思考“故事通过谁的眼睛讲述”，能让阅读更深入。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "서술의 시점은 독자의 이해를 좌우합니다. 1인칭은 친밀하지만 제한적이고, 전지적 시점은 모든 것을 알지만 거리가 있습니다. 자유간접화법은 서술자와 인물의 목소리를 섞어 인물의 생각을 직접 따옴표 없이 전달합니다.",
+     "en": "The choice of narrative viewpoint shapes the reader's understanding. First person is intimate but limited, and the omniscient viewpoint knows everything but is distant. Free indirect discourse blends the voices of narrator and character, conveying a character's thoughts directly without quotation marks."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "思考谁的眼睛能让什么加深？",
+      "options": [
+       "阅读",
+       "字数",
+       "页数"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这一段的叙述者是谁？"
+      },
+      {
+       "s": "B",
+       "t": "是女孩的“我”。"
+      },
+      {
+       "s": "A",
+       "t": "她说的话可靠吗？"
+      },
+      {
+       "s": "B",
+       "t": "有些地方似乎看错了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 이 문장은 누구의 목소리인가요?\n학생: 서술자와 인물의 목소리가 섞여 있습니다.\n교수: 그렇죠. 무엇이라고 부르나요?\n학생: 자유간접화법입니다.",
+     "en": "Professor: Whose voice is this sentence?\nStudent: The narrator's and character's voices are blended.\nProfessor: Right. What is it called?\nStudent: Free indirect discourse."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "学生说叙述者是女孩的“______”",
+      "answers": [
+       "我"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "她有些地方似乎看______了",
+      "answers": [
+       "错"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 这部小说的___是个孩子。\n2) ___叙述者了解所有人物的心理。\n3) ___引语把人物的内心融入叙述。",
+    "trans": {
+     "ko": "1) 서술자는 사건을 회상해요. 2) 이 소설은 1인칭 시점이에요. 3) 그는 신뢰할 수 없는 서술자예요.",
+     "en": "1) The narrator recalls the events. 2) The novel is in the first-person point of view. 3) He is an unreliable narrator."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这部小说的___是个孩子。",
+      "options": [
+       "叙述者",
+       "作者",
+       "读者"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___叙述者了解所有人物的心理。",
+      "options": [
+       "全知",
+       "不可靠",
+       "年幼"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___引语把人物的内心融入叙述。",
+      "options": [
+       "自由间接",
+       "直接",
+       "间接"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这部小说通过女孩的眼睛(1)。可她有时会(2)事实。因此读者需要(3)言外之意。",
+    "trans": {
+     "ko": "그녀는 편지를 열어 보았다. 이게 정말 가능한 일인가? 이 문장에는 서술자와 인물의 이중적 목소리가 있다. 독자는 그녀의 생각을 직접 따라간다.",
+     "en": "She opened the letter. Could this really be possible? This sentence has the double voice of narrator and character. The reader follows her thoughts directly."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "展开",
+       "避开",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "歪曲",
+       "守护",
+       "知道"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "读出",
+       "删去",
+       "跳过"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "书评\n谁在讲述\n这部作品的魅力在于叙述的双重性。叙述者通过女孩的眼睛展示世界，但她的话有时并不可靠。读者会发现她所见与实际发生之间的差距。",
+    "trans": {
+     "ko": "문학 칼럼\n누구의 목소리인가\n자유간접화법은 서술자와 인물의 경계를 흐린다. 따옴표 없이 인물의 생각이 서술에 스며들기 때문이다. 그래서 독자는 누구의 판단인지 끊임없이 질문하게 된다.",
+     "en": "LITERARY COLUMN\nWhose voice is it?\nFree indirect discourse blurs the boundary between narrator and character. A character's thoughts seep into the narration without quotation marks. So readers keep asking whose judgement it is."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "魅力在于什么？",
+      "options": [
+       "叙述的双重性",
+       "人物很多",
+       "篇幅短"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "读者会发现什么？",
+      "options": [
+       "所见与实际的差距",
+       "作者的名字",
+       "出版年份"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "书评认为作品魅力在于叙述的双重性，读者会发现女孩所见与实际的差距。",
+    "trans": {
+     "ko": "칼럼은 자유간접화법이 서술자와 인물의 경계를 흐린다고 본다. 칼럼은 자유간접화법이 따옴표를 반드시 쓴다고 한다. 칼럼은 독자가 누구의 판단인지 질문하게 된다고 본다.",
+     "en": "The column says free indirect discourse blurs the boundary between narrator and character. The column says free indirect discourse always uses quotation marks. The column says readers ask whose judgement it is."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "书评称赞叙述的双重性。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "书评认为叙述者总是正确。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "书评提到作者年龄。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "是一个孩子的“我”。",
+    "read": "Shì yí ge háizi de \" wǒ \".",
+    "ko": "이 소설은 1인칭 서술자의 시점으로 전개됩니다.",
+    "en": "The novel unfolds from the point of view of a first-person narrator.",
+    "situation": {
+     "ko": "시점을 설명할 때",
+     "en": "Explaining point of view"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "会歪曲事实或判断失误的叙述者。",
+    "read": "Huì wāi qū shì shí huò pàn duàn shī wù de xù shù zhě.",
+    "ko": "전지적 서술자는 모든 인물의 속마음을 압니다.",
+    "en": "An omniscient narrator knows the inner thoughts of every character.",
+    "situation": {
+     "ko": "전지적 시점",
+     "en": "Omniscient narration"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "全知叙述者了解所有人物的心理。",
+    "read": "Quán zhī xù shù zhě le jiě suǒyǒu rén wù de xīn lǐ.",
+    "ko": "신뢰할 수 없는 서술자는 독자를 오도합니다.",
+    "en": "An unreliable narrator misleads the reader.",
+    "situation": {
+     "ko": "서술자의 한계",
+     "en": "Limits of the narrator"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "自由间接引语把人物的内心融入叙述。",
+    "read": "Zì yóu jiàn jiē yǐn yǔ bǎ rén wù de nèi xīn róng rù xù shù.",
+    "ko": "자유간접화법은 서술자와 인물의 목소리를 섞습니다.",
+    "en": "Free indirect discourse blends the narrator's and character's voices.",
+    "situation": {
+     "ko": "자유간접화법 설명",
+     "en": "Explaining free indirect discourse"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "叙述者的偏见不经意地流露出来。",
+    "read": "Xù shù zhě de piān jiàn bù jīng yì dì liú lù chū lái.",
+    "ko": "그녀는 이제 어떻게 해야 하나? 이런 곤란한 처지에 빠지다니.",
+    "en": "What was she to do now? What a predicament to find herself in.",
+    "situation": {
+     "ko": "자유간접화법 예",
+     "en": "Example of free indirect discourse"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "故事通过谁的眼睛讲述？",
+    "read": "Gù shì tōng guo shéi de yǎnjing jiǎng shù?",
+    "ko": "서술자는 인물과 거리를 두며 아이러니를 만들어 냅니다.",
+    "en": "The narrator keeps a distance from the character and creates irony.",
+    "situation": {
+     "ko": "거리와 아이러니",
+     "en": "Distance and irony"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "视角变化，印象也会变化。",
+    "read": "Shì jiǎo biànhuà, yìn xiàng yě huì biànhuà.",
+    "ko": "그의 변명은 오히려 불안을 은연중에 드러냈습니다.",
+    "en": "His excuses rather betrayed his anxiety.",
+    "situation": {
+     "ko": "서술을 분석할 때",
+     "en": "Analysing narration"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "读者要读出言外之意。",
+    "read": "Dú zhě yào dú chū yán wài zhī yì.",
+    "ko": "시점의 선택은 독자의 이해를 좌우합니다.",
+    "en": "The choice of viewpoint shapes the reader's understanding.",
+    "situation": {
+     "ko": "핵심을 말할 때",
+     "en": "Stating the point"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "叙述者通过……的眼睛……。",
+    "read": "Xù shù zhě tōng guo … de yǎnjing ….",
+    "ko": "~의 시점에서.",
+    "en": "from the point of view of ..."
+   },
+   {
+    "id": "w2",
+    "t": "全知叙述者……。",
+    "read": "Quán zhī xù shù zhě ….",
+    "ko": "서술자와 인물의 목소리를 섞다.",
+    "en": "blend the narrator's and character's voices"
+   },
+   {
+    "id": "w3",
+    "t": "不可靠叙述者……。",
+    "read": "Bù kě kào xù shù zhě ….",
+    "ko": "독자를 오도하다.",
+    "en": "mislead the reader"
+   },
+   {
+    "id": "w4",
+    "t": "自由间接引语……。",
+    "read": "Zì yóu jiàn jiē yǐn yǔ ….",
+    "ko": "거리를 두다.",
+    "en": "keep a distance from ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "같은 장면을 1인칭, 3인칭, 자유간접화법으로 나누어 3문장 + 설명 1문장으로 써 보세요.",
+    "en": "Write the same scene in first person, third person and free indirect discourse (three sentences plus one explanatory sentence)."
+   },
+   "must_include": [
+    {
+     "label": "叙述者",
+     "match": [
+      "叙述者"
+     ]
+    },
+    {
+     "label": "不可靠",
+     "match": [
+      "不可靠"
+     ]
+    },
+    {
+     "label": "言外之意",
+     "match": [
+      "言外之意"
+     ]
+    }
+   ],
+   "model": "这部小说的叙述者通过女孩的眼睛展示世界。她是不可靠的叙述者，有时会看错事实。读者要读出言外之意，思考真正发生了什么。",
+   "model_trans": {
+    "ko": "1인칭: 나는 편지를 열어 보고 숨을 멈췄다. 3인칭: 그녀는 편지를 열어 보고 숨을 멈췄다. 자유간접화법: 그녀는 편지를 열어 보았다. 이게 정말 가능한 일인가? 서술자와 인물의 목소리가 섞이는 방식이다.",
+    "en": "First person: I opened the letter and held my breath. Third person: She opened the letter and held her breath. Free indirect discourse: She opened the letter. Could this really be possible? The narrator's and character's voices blend."
+   }
+  }
+ }
+}

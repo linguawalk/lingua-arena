@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u43",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 43,
+  "concept": "C2.U43",
+  "status": "live",
+  "title": {
+   "target": "应对尖锐的提问",
+   "ko": "공격적인 질문 대응",
+   "en": "Handling hostile questions"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "尖锐",
+   "pos": "adj",
+   "read": "jiān ruì",
+   "ko": "공격적인",
+   "en": "hostile",
+   "ex": {
+    "t": "即使问题很尖锐，也要冷静回答。",
+    "read": "Jí shǐ wèntí hěn jiān ruì, yě yào lěng jìng huídá.",
+    "ko": "청중의 질문은 공격적이었어요.",
+    "en": "The question from the audience was hostile."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "诱导性",
+   "pos": "phrase",
+   "read": "yòu dǎo xìng",
+   "ko": "유도 질문",
+   "en": "loaded question",
+   "ex": {
+    "t": "不要被诱导性问题带偏。",
+    "read": "Bú yào bèi yòu dǎo xìng wèntí dài piān.",
+    "ko": "그건 유도 질문이에요.",
+    "en": "That is a loaded question."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "澄清",
+   "pos": "verb",
+   "read": "chéng qīng",
+   "ko": "분명히 하다",
+   "en": "clarify",
+   "ex": {
+    "t": "请允许我先澄清论点。",
+    "read": "Qǐng yǔnxǔ wǒ xiān chéng qīng lùn diǎn.",
+    "ko": "제 입장을 분명히 하겠습니다.",
+    "en": "Let me clarify my position."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "反驳",
+   "pos": "phrase",
+   "read": "fǎn bó",
+   "ko": "반박하다",
+   "en": "push back",
+   "ex": {
+    "t": "我依据事实反驳。",
+    "read": "Wǒ yī jù shì shí fǎn bó.",
+    "ko": "저는 그 전제에 반박하겠습니다.",
+    "en": "I would push back on that premise."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "冷静",
+   "pos": "noun",
+   "read": "lěng jìng",
+   "ko": "침착함",
+   "en": "composure",
+   "ex": {
+    "t": "保持冷静很重要。",
+    "read": "Bǎochí lěng jìng hěn zhòng yào.",
+    "ko": "그는 침착함을 유지했어요.",
+    "en": "He kept his composure."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "防御",
+   "pos": "adj",
+   "read": "fáng yù",
+   "ko": "방어적인",
+   "en": "defensive",
+   "ex": {
+    "t": "防御性的回答会让印象变差。",
+    "read": "Fáng yù xìng de huídá huì ràng yìn xiàng biàn chà.",
+    "ko": "방어적으로 들리지 않게 하세요.",
+    "en": "Avoid sounding defensive."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "换种说法",
+   "pos": "verb",
+   "read": "huàn zhǒng shuō fǎ",
+   "ko": "질문을 재구성하다",
+   "en": "reframe",
+   "ex": {
+    "t": "我把问题换种说法确认一下。",
+    "read": "Wǒ bǎ wèntí huàn zhǒng shuō fǎ quèrèn yíxià.",
+    "ko": "질문을 중립적으로 재구성했어요.",
+    "en": "She reframed the question neutrally."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "回避",
+   "pos": "verb",
+   "read": "huí bì",
+   "ko": "회피하다",
+   "en": "deflect",
+   "ex": {
+    "t": "回避问题并不好。",
+    "read": "Huí bì wèntí bìng bù hǎo.",
+    "ko": "그는 질문을 회피했어요.",
+    "en": "He deflected the question."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "毫无根据",
+   "pos": "adj",
+   "read": "háo wú gēn jù",
+   "ko": "근거 없는",
+   "en": "unfounded",
+   "ex": {
+    "t": "毫无根据的指责要用事实回应。",
+    "read": "Háo wú gēn jù de zhǐ zé yào yòng shì shí huí yìng.",
+    "ko": "그 주장은 근거가 없어요.",
+    "en": "That claim is unfounded."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "谅解",
+   "pos": "verb",
+   "read": "liàng jiě",
+   "ko": "이해를 구하다",
+   "en": "acknowledge",
+   "ex": {
+    "t": "请大家谅解。",
+    "read": "Qǐng dàjiā liàng jiě.",
+    "ko": "저는 우려를 인정합니다.",
+    "en": "I acknowledge your concern."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "这个前提不成立／换个说法／保持冷静／毫无根据／请允许我澄清",
+   "en": "Handling hostile questions: 这个前提不成立 / 保持冷静 / 毫无根据 / 请允许我澄清"
+  },
+  "explain": {
+   "ko": "遇到尖锐的提问，要保持冷静。先把问题“换种说法”确认论点：“您的意思是……对吗？”对诱导性的问题要礼貌地指出“这个前提不成立”。对毫无根据的指责，用事实反驳。防御或回避，反而让印象变差。",
+   "en": "Under sharp questions, stay calm. First restate the question: 您的意思是……对吗？ Politely point out 这个前提不成立 for leading questions. Rebut groundless accusations with facts. Defensiveness or evasion worsens the impression."
+  },
+  "table": {
+   "head": [
+    "场合 / Situation",
+    "表达 / Phrase",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "确认",
+     "您的意思是……",
+     "您的意思是费用？"
+    ],
+    [
+     "纠正",
+     "前提不成立",
+     "这个前提不成立。"
+    ],
+    [
+     "反驳",
+     "用事实",
+     "数据显示……。"
+    ],
+    [
+     "谅解",
+     "请大家谅解",
+     "请大家谅解。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "先换种说法确认。",
+    "en": "First restate to confirm."
+   },
+   {
+    "ko": "不要情绪化。",
+    "en": "Do not react emotionally."
+   },
+   {
+    "ko": "用事实回答。",
+    "en": "Answer with facts."
+   }
+  ],
+  "examples": [
+   {
+    "t": "您的意思是，费用的问题，对吗？",
+    "read": "Nín de yìsi shì, fèi yòng de wèntí, duì ma?",
+    "ko": "청중의 질문은 공격적이었어요.",
+    "en": "The question from the audience was hostile."
+   },
+   {
+    "t": "这个前提不成立。",
+    "read": "Zhège qián tí bù chéng lì.",
+    "ko": "그건 유도 질문이에요.",
+    "en": "That is a loaded question."
+   },
+   {
+    "t": "数据显示并没有这种情况。",
+    "read": "Shù jù xiǎn shì bìng méiyǒu zhè zhǒng qíng kuàng.",
+    "ko": "제 입장을 분명히 하겠습니다.",
+    "en": "Let me clarify my position."
+   },
+   {
+    "t": "请允许我先澄清一下。",
+    "read": "Qǐng yǔnxǔ wǒ xiān chéng qīng yíxià.",
+    "ko": "그는 침착함을 유지했어요.",
+    "en": "He kept his composure."
+   },
+   {
+    "t": "请大家谅解。",
+    "read": "Qǐng dàjiā liàng jiě.",
+    "ko": "저는 우려를 인정합니다.",
+    "en": "I acknowledge your concern."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "您的___是，费用的问题，对吗？",
+    "options": [
+     "意思",
+     "颜色",
+     "声音"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "这个前提___成立。",
+    "options": [
+     "不",
+     "也",
+     "都"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "请允许我先___一下。",
+    "options": [
+     "澄清",
+     "跑步",
+     "唱歌"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "请大家___。",
+    "options": [
+     "谅解",
+     "反对",
+     "忘记"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "怎样回答尖锐的提问？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 공격적인 질문에는 어떻게 시작하나요?",
+     "en": "(Question) How do you begin to answer a hostile question?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "冷静地用事实回答。",
+       "生气地回答。",
+       "不回答。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "遇到诱导性问题怎么办？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 유도 질문에는 어떻게 대응하나요?",
+     "en": "(Question) How do you respond to a loaded question?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "礼貌地指出前提不成立。",
+       "照单全收。",
+       "离开。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "公司为什么要推卸责任？"
+      },
+      {
+       "s": "B",
+       "t": "说我们推卸责任，这个前提不成立。"
+      },
+      {
+       "s": "A",
+       "t": "那为什么反应这么慢？"
+      },
+      {
+       "s": "B",
+       "t": "因为调查需要时间。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 기자가 공격적으로 질문하면 어떻게 하지?\nB: 먼저 침착하게 질문에 감사하고 전제를 짚어 봐.\nA: 반박은 어떻게 해?\nB: 사실을 들어 정중히 반박해.",
+     "en": "A: What should I do when a journalist asks aggressively?\nB: First thank them calmly and examine the premise.\nA: How do I rebut?\nB: Politely, with facts."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B说反应慢的原因是什么？",
+      "options": [
+       "调查需要时间",
+       "忘记了",
+       "太忙"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "遇到尖锐的提问，要保持冷静。先换种说法确认论点，对诱导性问题要礼貌地指出前提的错误。对毫无根据的指责，用事实反驳。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "공격적인 질문에 감정적으로 대응하면 방어적으로 보입니다. 질문에 감사하고, 전제를 짚고, 사실로 답한 뒤 핵심 메시지로 돌아오면 침착함과 신뢰를 유지할 수 있습니다. 유도 질문은 전제를 거부하며 재구성하는 것이 효과적입니다.",
+     "en": "Responding emotionally to a hostile question makes you look defensive. Thanking the questioner, examining the premise, answering with facts and returning to your key message maintains composure and credibility. With a loaded question, it is effective to reject the premise and reframe."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "防御性回答会让印象怎样？",
+      "options": [
+       "变差",
+       "变好",
+       "不变"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "为什么一直隐瞒事实？"
+      },
+      {
+       "s": "B",
+       "t": "隐瞒这个前提不成立。"
+      },
+      {
+       "s": "A",
+       "t": "那是什么时候公布的？"
+      },
+      {
+       "s": "B",
+       "t": "是调查结束的昨天。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 이 정책은 실패 아닙니까?\n장관: 좋은 질문입니다. 저는 그 전제에 반박하겠습니다.\n기자: 근거가 있나요?\n장관: 네, 확인된 자료가 있습니다.",
+     "en": "Journalist: Isn't this policy a failure?\nMinister: Good question. I would push back on that premise.\nJournalist: What is your evidence?\nMinister: Yes, we have verified data."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "社长说隐瞒这个______不成立",
+      "answers": [
+       "前提"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "公布是在调查结束的______",
+      "answers": [
+       "昨天"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 您的___是，费用的问题，对吗？\n2) 这个前提___成立。\n3) 请允许我先___一下。",
+    "trans": {
+     "ko": "1) 청중의 질문은 공격적이었어요. 2) 그건 유도 질문이에요. 3) 그는 침착함을 유지했어요.",
+     "en": "1) The question from the audience was hostile. 2) That is a loaded question. 3) He kept his composure."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "您的___是，费用的问题，对吗？",
+      "options": [
+       "意思",
+       "颜色",
+       "声音"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这个前提___成立。",
+      "options": [
+       "不",
+       "也",
+       "都"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "请允许我先___一下。",
+      "options": [
+       "澄清",
+       "跑步",
+       "唱歌"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "记者提出了尖锐的问题，社长(1)地回答。对于毫无(2)的指责，他用事实(3)。",
+    "trans": {
+     "ko": "기자의 질문은 공격적이었다. 장관은 침착함을 유지하며 전제에 반박했다. 그는 확인된 자료로 질문에 답했다.",
+     "en": "The journalist's question was hostile. The minister kept his composure and pushed back on the premise. He answered with verified data."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "冷静",
+       "粗暴",
+       "含糊"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "根据",
+       "道理",
+       "感情"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "反驳",
+       "道歉",
+       "鼓掌"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "公关技巧\n回答尖锐问题\n越是尖锐的问题，越要冷静。先换种说法确认论点，再依据事实回答。防御或转移话题，会失去信任。",
+    "trans": {
+     "ko": "언론 대응 가이드\n공격적인 질문에 답하는 법\n먼저 심호흡하고 질문에 감사하세요. 전제를 짚어 반박하되 감정적으로 대응하지 마세요. 마지막에는 핵심 메시지로 돌아오세요.",
+     "en": "MEDIA RESPONSE GUIDE\nAnswering hostile questions\nFirst take a deep breath and thank the questioner. Examine the premise and rebut it, but do not respond emotionally. At the end, return to your key message."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "越尖锐越要怎样？",
+      "options": [
+       "冷静",
+       "大声",
+       "长篇"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "防御会怎样？",
+      "options": [
+       "失去信任",
+       "增加信任",
+       "无变化"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "文章说越尖锐的问题越要冷静，防御或转移话题会失去信任。",
+    "trans": {
+     "ko": "가이드는 먼저 질문에 감사하라고 한다. 가이드는 감정적으로 대응하라고 한다. 가이드는 핵심 메시지로 돌아오라고 한다.",
+     "en": "The guide says to thank the questioner first. The guide says to respond emotionally. The guide says to return to the key message."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "要冷静。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "可以不回答。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章举了企业事件。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "冷静地用事实回答。",
+    "read": "Lěng jìng dì yòng shì shí huídá.",
+    "ko": "좋은 질문 감사합니다. 분명히 말씀드리겠습니다.",
+    "en": "I appreciate the question. Let me be clear.",
+    "situation": {
+     "ko": "차분히 시작할 때",
+     "en": "Starting calmly"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "礼貌地指出前提不成立。",
+    "read": "Lǐmào dì zhǐ chū qián tí bù chéng lì.",
+    "ko": "제 입장을 분명히 하겠습니다.",
+    "en": "Let me clarify my position.",
+    "situation": {
+     "ko": "입장을 밝힐 때",
+     "en": "Stating a position"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "您的意思是费用的问题，对吗？",
+    "read": "Nín de yìsi shì fèi yòng de wèntí, duì ma?",
+    "ko": "그 전제에는 동의하지 않습니다.",
+    "en": "I would push back on that premise.",
+    "situation": {
+     "ko": "전제를 반박할 때",
+     "en": "Challenging a premise"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "这个前提不成立。",
+    "read": "Zhège qián tí bù chéng lì.",
+    "ko": "그것은 이미 결론을 전제한 유도 질문입니다.",
+    "en": "That is a loaded question that presupposes the conclusion.",
+    "situation": {
+     "ko": "유도 질문에 대응할 때",
+     "en": "Answering a loaded question"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "我把问题换种说法确认一下。",
+    "read": "Wǒ bǎ wèntí huàn zhǒng shuō fǎ quèrèn yíxià.",
+    "ko": "저는 질문을 조금 다르게 표현해 보겠습니다.",
+    "en": "Let me reframe the question slightly.",
+    "situation": {
+     "ko": "질문을 재구성할 때",
+     "en": "Reframing a question"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "毫无根据的指责要用事实回应。",
+    "read": "Háo wú gēn jù de zhǐ zé yào yòng shì shí huí yìng.",
+    "ko": "저는 우려를 인정하지만 그 주장은 근거가 없습니다.",
+    "en": "I acknowledge your concern, but the claim is unfounded.",
+    "situation": {
+     "ko": "인정과 반박",
+     "en": "Acknowledgement and rebuttal"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "保持冷静很重要。",
+    "read": "Bǎochí lěng jìng hěn zhòng yào.",
+    "ko": "그는 침착함을 잃지 않고 질문에 답했습니다.",
+    "en": "He answered without losing his composure.",
+    "situation": {
+     "ko": "태도를 말할 때",
+     "en": "Describing manner"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "请大家谅解。",
+    "read": "Qǐng dàjiā liàng jiě.",
+    "ko": "공격적인 질문에도 사실로 대응하는 것이 가장 강력합니다.",
+    "en": "Responding to hostile questions with facts is the most powerful approach.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "您的意思是……，对吗？",
+    "read": "Nín de yìsi shì …, duì ma?",
+    "ko": "좋은 질문 감사합니다.",
+    "en": "I appreciate the question."
+   },
+   {
+    "id": "w2",
+    "t": "……前提不成立。",
+    "read": "… Qián tí bù chéng lì.",
+    "ko": "그 전제에 반박하다.",
+    "en": "push back on that premise"
+   },
+   {
+    "id": "w3",
+    "t": "毫无根据的……。",
+    "read": "Háo wú gēn jù de ….",
+    "ko": "침착함을 유지하다.",
+    "en": "keep one's composure"
+   },
+   {
+    "id": "w4",
+    "t": "请大家谅解。",
+    "read": "Qǐng dàjiā liàng jiě.",
+    "ko": "질문을 재구성하다.",
+    "en": "reframe the question"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "공격적인 질문에 침착하게 답하는 4문장을 써 보세요. (질문 인정, 반박, 사실, 마무리)",
+    "en": "Write four sentences calmly answering a hostile question (acknowledge, push back, facts, close)."
+   },
+   "must_include": [
+    {
+     "label": "换种说法",
+     "match": [
+      "换种说法"
+     ]
+    },
+    {
+     "label": "前提",
+     "match": [
+      "前提"
+     ]
+    },
+    {
+     "label": "事实",
+     "match": [
+      "事实"
+     ]
+    }
+   ],
+   "model": "遇到尖锐的提问，先换种说法确认论点。如果前提有错，就礼貌地指出。对毫无根据的指责，则冷静地用事实回答。",
+   "model_trans": {
+    "ko": "좋은 질문 감사합니다. 다만 저는 그 전제에는 동의하지 않습니다. 확인된 자료에 따르면 비용은 오히려 감소했습니다. 분명히 말씀드리면, 우리는 투명성을 약속합니다.",
+    "en": "I appreciate the question. However, I would push back on that premise. According to verified data, costs have actually fallen. To be clear, we are committed to transparency."
+   }
+  }
+ }
+}

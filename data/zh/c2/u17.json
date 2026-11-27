@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u17",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 17,
+  "concept": "C2.U17",
+  "status": "live",
+  "title": {
+   "target": "含蓄表达与双重否定",
+   "ko": "절제와 완서법",
+   "en": "Understatement and litotes"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "不无道理",
+   "pos": "phrase",
+   "read": "bù wú dào lǐ",
+   "ko": "나쁘지 않은",
+   "en": "not bad",
+   "ex": {
+    "t": "他的批评不无道理。",
+    "read": "Tā de pī píng bù wú dào lǐ.",
+    "ko": "이 계획 나쁘지 않아요.",
+    "en": "This plan isn't bad."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "未尝不可",
+   "pos": "phrase",
+   "read": "wèi cháng bù kě",
+   "ko": "약간 문제",
+   "en": "a bit of a problem",
+   "ex": {
+    "t": "换个办法也未尝不可。",
+    "read": "Huàn gè bànfǎ yě wèi cháng bù kě.",
+    "ko": "마감이 약간 문제예요.",
+    "en": "The deadline is a bit of a problem."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "不得不",
+   "pos": "phrase",
+   "read": "bù dé bù",
+   "ko": "~와 다르지 않은",
+   "en": "not unlike",
+   "ex": {
+    "t": "因为下雨，我们不得不取消活动。",
+    "read": "Yīnwèi xiàyǔ, wǒmen bù dé bù qǔxiāo huó dòng.",
+    "ko": "그의 방식은 내 방식과 다르지 않아요.",
+    "en": "His method is not unlike mine."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "不能不",
+   "pos": "phrase",
+   "read": "bùnéng bù",
+   "ko": "없는 것보다 낫다",
+   "en": "not without",
+   "ex": {
+    "t": "出了这样的事，不能不引起重视。",
+    "read": "Chū le zhè yàng de shì, bùnéng bù yǐn qǐ zhòng shì.",
+    "ko": "그 계획은 위험이 없지 않아요.",
+    "en": "The plan is not without risk."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "并不差",
+   "pos": "phrase",
+   "read": "bìng bú chà",
+   "ko": "거절하지 않다",
+   "en": "I wouldn't say no",
+   "ex": {
+    "t": "这个计划并不差。",
+    "read": "Zhège jìhuà bìng bú chà.",
+    "ko": "커피 한잔 마다하지 않을게요.",
+    "en": "I wouldn't say no to a coffee."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "有点",
+   "pos": "adj",
+   "read": "yǒu diǎn",
+   "ko": "상당한",
+   "en": "considerable",
+   "ex": {
+    "t": "时间有点紧。",
+    "read": "Shíjiān yǒu diǎn jǐn.",
+    "ko": "상당한 노력이 필요했어요.",
+    "en": "It took considerable effort."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "不容忽视",
+   "pos": "adj",
+   "read": "bù róng hū shì",
+   "ko": "절제된",
+   "en": "restrained",
+   "ex": {
+    "t": "这个问题不容忽视。",
+    "read": "Zhège wèntí bù róng hū shì.",
+    "ko": "그의 반응은 절제되어 있었어요.",
+    "en": "His reaction was restrained."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "相当",
+   "pos": "phrase",
+   "read": "xiāng dāng",
+   "ko": "꽤 괜찮은",
+   "en": "rather good",
+   "ex": {
+    "t": "他相当满意。",
+    "read": "Tā xiāng dāng mǎn yì.",
+    "ko": "결과는 꽤 괜찮았어요.",
+    "en": "The result was rather good."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "不乏",
+   "pos": "phrase",
+   "read": "bù fá",
+   "ko": "조금도 ~않다",
+   "en": "not in the least",
+   "ex": {
+    "t": "这座城市不乏机会。",
+    "read": "Zhè zuò chéngshì bù fá jī huì.",
+    "ko": "나는 조금도 놀라지 않았어요.",
+    "en": "I was not in the least surprised."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "无可厚非",
+   "pos": "phrase",
+   "read": "wú kě hòu fēi",
+   "ko": "무시할 수 없는",
+   "en": "not negligible",
+   "ex": {
+    "t": "他这样做无可厚非。",
+    "read": "Tā zhè yàng zuò wú kě hòu fēi.",
+    "ko": "그 비용은 무시할 수 없어요.",
+    "en": "The cost is not negligible."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "不无道理／未尝不可／不得不／不能不／并不差／有点问题",
+   "en": "Understatement and double negation: 不无道理 / 未尝不可 / 不得不 / 不能不 / 并不差"
+  },
+  "explain": {
+   "ko": "含蓄表达通过压低语气，反而加强意思：“并不差”可能是“相当好”，“有点问题”可能是“问题很大”。双重否定如“不无道理、未尝不可、不得不、不能不、无可厚非”，表示谨慎的肯定，比直接肯定更委婉。要结合语气和情境理解其真正含义。",
+   "en": "Understatement lowers tone yet strengthens meaning: 并不差 may mean quite good; 有点问题 may mean a big problem. Double negatives such as 不无道理、未尝不可、不得不、不能不、无可厚非 give cautious affirmation, gentler than direct affirmation. Read with tone and context."
+  },
+  "table": {
+   "head": [
+    "表达 / Phrase",
+    "意思 / Meaning",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "不无道理",
+     "有一定道理",
+     "他的批评不无道理。"
+    ],
+    [
+     "未尝不可",
+     "也可以",
+     "换个办法未尝不可。"
+    ],
+    [
+     "不得不",
+     "只好",
+     "不得不取消活动。"
+    ],
+    [
+     "不乏",
+     "有不少",
+     "这里不乏机会。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "双重否定比直接肯定委婉。",
+    "en": "Double negation is gentler than direct affirmation."
+   },
+   {
+    "ko": "“有点”可能掩盖大问题。",
+    "en": "有点 may hide a big problem."
+   },
+   {
+    "ko": "注意语气。",
+    "en": "Mind intonation."
+   }
+  ],
+  "examples": [
+   {
+    "t": "他的批评不无道理。",
+    "read": "Tā de pī píng bù wú dào lǐ.",
+    "ko": "이 계획은 나쁘지 않아요.",
+    "en": "This plan isn't bad."
+   },
+   {
+    "t": "换个办法也未尝不可。",
+    "read": "Huàn gè bànfǎ yě wèi cháng bù kě.",
+    "ko": "마감이 약간 문제예요.",
+    "en": "The deadline is a bit of a problem."
+   },
+   {
+    "t": "因为下雨，我们不得不取消活动。",
+    "read": "Yīnwèi xiàyǔ, wǒmen bù dé bù qǔxiāo huó dòng.",
+    "ko": "그 계획은 위험이 없지 않아요.",
+    "en": "The plan is not without risk."
+   },
+   {
+    "t": "这座城市不乏机会。",
+    "read": "Zhè zuò chéngshì bù fá jī huì.",
+    "ko": "커피 한잔 마다하지 않을게요.",
+    "en": "I wouldn't say no to a coffee."
+   },
+   {
+    "t": "他这样做无可厚非。",
+    "read": "Tā zhè yàng zuò wú kě hòu fēi.",
+    "ko": "그 비용은 무시할 수 없어요.",
+    "en": "The cost is not negligible."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "他的批评___道理。",
+    "options": [
+     "不无",
+     "没有",
+     "全无"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "换个办法也___不可。",
+    "options": [
+     "未尝",
+     "未来",
+     "未必"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "因为下雨，我们___取消活动。",
+    "options": [
+     "不得不",
+     "不必",
+     "不用"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "这座城市___机会。",
+    "options": [
+     "不乏",
+     "缺乏",
+     "没有"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你觉得这次演讲怎么样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 발표가 어땠나요?",
+     "en": "(Question) How was the presentation?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "并不差，只是时间有点紧。",
+       "明天开始。",
+       "我没去。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新的日程可以吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 새 일정은 괜찮을까요?",
+     "en": "(Question) Is the new schedule okay?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "未尝不可，但有点风险。",
+       "没有日程。",
+       "不知道。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "那个报告怎么样？"
+      },
+      {
+       "s": "B",
+       "t": "不差，只是时间有点紧。"
+      },
+      {
+       "s": "A",
+       "t": "有风险吗？"
+      },
+      {
+       "s": "B",
+       "t": "风险不是没有，但结果还不错。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그 발표 어땠어?\nB: 나쁘지 않았어. 다만 시간이 약간 문제였지.\nA: 위험은 없었어?\nB: 위험이 없지는 않았지만, 결과는 꽤 괜찮았어.",
+     "en": "A: How was that presentation?\nB: Not bad. The timing was a bit of a problem, though.\nA: Were there any risks?\nB: It wasn't without risk, but the result was rather good."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B觉得结果怎么样？",
+      "options": [
+       "还不错",
+       "很差",
+       "不知道"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "有些人喜欢含蓄地表达。“并不差”可能是相当好的意思，“有点问题”可能是问题很大。像“不无道理”这样的双重否定，是谨慎肯定的方式。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "영국식 영어는 절제를 즐깁니다. not bad는 매우 좋다는 뜻일 수 있고, a bit of a problem은 큰 문제를 뜻할 수 있습니다. 이중 부정인 not unlike나 not without는 단정을 피하면서 신중하게 말하는 방법입니다.",
+     "en": "British English enjoys understatement. Not bad can mean very good, and a bit of a problem can mean a serious one. Double negatives such as not unlike and not without are ways of speaking cautiously while avoiding assertion."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "双重否定有什么作用？",
+      "options": [
+       "谨慎肯定",
+       "强烈反对",
+       "缩短句子"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你怎么看这个建议？"
+      },
+      {
+       "s": "B",
+       "t": "并不差，不无道理。"
+      },
+      {
+       "s": "A",
+       "t": "费用呢？"
+      },
+      {
+       "s": "B",
+       "t": "费用不容忽视，并不低。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "상사: 이 제안은 어떻게 생각하세요?\n직원: 나쁘지 않다고 생각합니다. 다만 비용이 문제입니다.\n상사: 비용이 무시할 수 없나요?\n직원: 네, 결코 작지 않습니다.",
+     "en": "Boss: What do you think of this proposal?\nStaff member: I think it's not bad. The cost is a problem, though.\nBoss: Is the cost not negligible?\nStaff member: Yes, it's by no means small."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "下属认为建议并不差，不无______",
+      "answers": [
+       "道理"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "费用不容______",
+      "answers": [
+       "忽视"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 他的批评___道理。\n2) 换个办法也___不可。\n3) 因为下雨，我们___取消活动。",
+    "trans": {
+     "ko": "1) 이 계획은 나쁘지 않아요. 2) 마감이 약간 문제예요. 3) 그 계획은 위험이 없지 않아요.",
+     "en": "1) This plan isn't bad. 2) The deadline is a bit of a problem. 3) The plan is not without risk."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他的批评___道理。",
+      "options": [
+       "不无",
+       "没有",
+       "全无"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "换个办法也___不可。",
+      "options": [
+       "未尝",
+       "未来",
+       "未必"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "因为下雨，我们___取消活动。",
+      "options": [
+       "不得不",
+       "不必",
+       "不用"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "他的反应(1)冷静。他说结果还(2)，可是他的表情显示他非常(3)。",
+    "trans": {
+     "ko": "그의 반응은 놀라울 만큼 절제되어 있었다. 그는 결과가 꽤 괜찮다고만 말했다. 그러나 그의 표정은 그가 매우 기뻐하고 있음을 보여 주었다.",
+     "en": "His reaction was remarkably restrained. He only said the result was rather good. His expression, however, showed he was very pleased."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "出奇地",
+       "非常热情",
+       "很吵"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "可以",
+       "糟糕",
+       "混乱"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "失望",
+       "兴奋",
+       "骄傲"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "文化\n英国人的含蓄\n英国人常常压低语气说话。“不错”有时其实是夸奖。外国人往往不容易理解这种含蓄，需要结合语气和情境来判断。",
+    "trans": {
+     "ko": "영국 문화\n말하지 않는 기술\n영국인은 흔히 감정을 줄여 말한다. '나쁘지 않다'는 사실상 극찬일 수 있다. 외국인은 이 완서법을 이해하기 어려울 수 있으므로 억양과 맥락을 함께 살펴야 한다.",
+     "en": "BRITISH CULTURE\nThe art of saying less\nThe British often understate their feelings. 'Not bad' can in effect be high praise. Foreigners may find this understatement hard to grasp, so tone and context must be read together."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "英国人常怎样说话？",
+      "options": [
+       "压低语气",
+       "大声",
+       "只写字"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "外国人需要结合什么判断？",
+      "options": [
+       "语气和情境",
+       "年龄",
+       "职业"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "作者说英国人说话常常含蓄，“不错”有时是夸奖。",
+    "trans": {
+     "ko": "글은 영국인이 흔히 감정을 줄여 말한다고 본다. 글은 '나쁘지 않다'가 항상 비판이라고 한다. 글은 억양과 맥락을 함께 살펴야 한다고 본다.",
+     "en": "The text says the British often understate their feelings. The text says 'Not bad' is always criticism. The text says tone and context must be read together."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "英国人说话常含蓄。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "“不错”总是批评。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "作者喜欢喝茶。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "并不差，只是时间有点紧。",
+    "read": "Bìng bú chà, zhī shì shíjiān yǒu diǎn jǐn.",
+    "ko": "이 계획은 나쁘지 않습니다.",
+    "en": "This plan isn't at all bad.",
+    "situation": {
+     "ko": "완곡한 칭찬을 할 때",
+     "en": "Understated praise"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "未尝不可，但有点风险。",
+    "read": "Wèi cháng bù kě, dàn yǒu diǎn fēng xiǎn.",
+    "ko": "납기가 약간 문제가 될 수 있습니다.",
+    "en": "The delivery date could be a bit of a problem.",
+    "situation": {
+     "ko": "문제를 가볍게 말할 때",
+     "en": "Understating a problem"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "他的批评不无道理。",
+    "read": "Tā de pī píng bù wú dào lǐ.",
+    "ko": "그 계획에는 위험이 없지 않습니다.",
+    "en": "The plan is not without risk.",
+    "situation": {
+     "ko": "이중 부정으로 말할 때",
+     "en": "Using a double negative"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "我们不得不取消活动。",
+    "read": "Wǒmen bù dé bù qǔxiāo huó dòng.",
+    "ko": "그의 반응은 놀라울 만큼 절제되어 있었습니다.",
+    "en": "His reaction was remarkably restrained.",
+    "situation": {
+     "ko": "절제된 반응을 말할 때",
+     "en": "Describing restraint"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "这个问题不容忽视。",
+    "read": "Zhège wèntí bù róng hū shì.",
+    "ko": "그 비용은 결코 무시할 수 없습니다.",
+    "en": "The cost is by no means negligible.",
+    "situation": {
+     "ko": "중요함을 에둘러 말할 때",
+     "en": "Indirectly stressing importance"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "这座城市不乏机会。",
+    "read": "Zhè zuò chéngshì bù fá jī huì.",
+    "ko": "저는 휴가를 마다하지 않겠습니다.",
+    "en": "I wouldn't say no to a holiday.",
+    "situation": {
+     "ko": "속마음을 재치 있게 말할 때",
+     "en": "Expressing desire wittily"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "他这样做无可厚非。",
+    "read": "Tā zhè yàng zuò wú kě hòu fēi.",
+    "ko": "그의 말투는 내 말투와 다르지 않습니다.",
+    "en": "His tone is not unlike mine.",
+    "situation": {
+     "ko": "유사성을 에둘러 말할 때",
+     "en": "Indirect similarity"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "换个办法也未尝不可。",
+    "read": "Huàn gè bànfǎ yě wèi cháng bù kě.",
+    "ko": "그 결과는 꽤 괜찮았습니다.",
+    "en": "The result was rather good.",
+    "situation": {
+     "ko": "칭찬을 줄여 말할 때",
+     "en": "Moderate praise"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "并不差。",
+    "read": "Bìng bú chà.",
+    "ko": "나쁘지 않다.",
+    "en": "not bad / not at all bad"
+   },
+   {
+    "id": "w2",
+    "t": "有点……。",
+    "read": "Yǒu diǎn ….",
+    "ko": "~이 없지 않다.",
+    "en": "not without ..."
+   },
+   {
+    "id": "w3",
+    "t": "不无道理。",
+    "read": "Bù wú dào lǐ.",
+    "ko": "~와 다르지 않다.",
+    "en": "not unlike ..."
+   },
+   {
+    "id": "w4",
+    "t": "未尝不可。",
+    "read": "Wèi cháng bù kě.",
+    "ko": "~을 마다하지 않겠다.",
+    "en": "I wouldn't say no to ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "절제와 완서법을 사용해 평가를 4문장으로 써 보세요.",
+    "en": "Write a four-sentence evaluation using understatement and litotes."
+   },
+   "must_include": [
+    {
+     "label": "并不差",
+     "match": [
+      "并不差"
+     ]
+    },
+    {
+     "label": "有点",
+     "match": [
+      "有点"
+     ]
+    },
+    {
+     "label": "不无道理",
+     "match": [
+      "不无道理"
+     ]
+    }
+   ],
+   "model": "总体上，这个计划并不差。只是日程有点紧。他的担心不无道理。我觉得试一试未尝不可。",
+   "model_trans": {
+    "ko": "전반적으로 그 계획은 나쁘지 않아요. 다만 일정이 약간 문제예요. 위험이 없지 않지만, 득이 더 커 보여요. 저는 시도해 보는 것을 마다하지 않겠어요.",
+    "en": "Overall, the plan isn't bad. The schedule, though, is a bit of a problem. It is not without risk, but the gains seem greater. I wouldn't say no to giving it a try."
+   }
+  }
+ }
+}

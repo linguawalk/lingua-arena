@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u02",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 2,
+  "concept": "C2.U02",
+  "status": "live",
+  "title": {
+   "target": "混合假设：回顾与推想",
+   "ko": "혼합 조건문과 암시된 조건",
+   "en": "Mixed conditionals and implied conditions"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "假如",
+   "pos": "phrase",
+   "read": "jiǎ rú",
+   "ko": "~이 아니었다면",
+   "en": "but for",
+   "ex": {
+    "t": "假如当时我选了另一条路，现在会怎样？",
+    "read": "Jiǎ rú dāngshí wǒ xuǎn le lìng yì tiáo lù, xiànzài huì zěn yàng?",
+    "ko": "당신의 도움이 아니었다면 실패했을 거예요.",
+    "en": "But for your help, we would have failed."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "倘若",
+   "pos": "adv",
+   "read": "tǎng ruò",
+   "ko": "그렇지 않았다면",
+   "en": "otherwise",
+   "ex": {
+    "t": "倘若没有他的帮助，我们早就失败了。",
+    "read": "Tǎng ruò méiyǒu tā de bāngzhù, wǒmen zǎo jiù shī bài le.",
+    "ko": "서둘러야 해요. 그렇지 않으면 놓칠 거예요.",
+    "en": "We must hurry; otherwise we'll miss it."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "除非",
+   "pos": "conj",
+   "read": "chú fēi",
+   "ko": "~라고 가정하면",
+   "en": "supposing",
+   "ex": {
+    "t": "除非有人反对，否则计划就这样定了。",
+    "read": "Chú fēi yǒu rén fǎnduì, fǒuzé jìhuà jiù zhè yàng dìng le.",
+    "ko": "비가 온다고 가정하면 어떻게 하죠?",
+    "en": "Supposing it rains, what shall we do?"
+   }
+  },
+  {
+   "id": "v4",
+   "t": "只要",
+   "pos": "conj",
+   "read": "zhī yào",
+   "ko": "~하는 한",
+   "en": "provided that",
+   "ex": {
+    "t": "只要努力，就有机会。",
+    "read": "Zhī yào nǔlì, jiù yǒu jī huì.",
+    "ko": "비용을 낸다면 사용해도 좋아요.",
+    "en": "You may use it provided that you pay the costs."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "要不是",
+   "pos": "phrase",
+   "read": "yào bú shì",
+   "ko": "만약 ~이 없었다면",
+   "en": "were it not for",
+   "ex": {
+    "t": "要不是下雨，我们早就出发了。",
+    "read": "Yào bú shì xiàyǔ, wǒmen zǎo jiù chūfā le.",
+    "ko": "그의 지원이 없다면 우리는 문을 닫았을 거예요.",
+    "en": "Were it not for his support, we would have closed."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "后果",
+   "pos": "noun",
+   "read": "hòu guǒ",
+   "ko": "결과",
+   "en": "consequence",
+   "ex": {
+    "t": "这个决定的后果影响至今。",
+    "read": "Zhège juédìng de hòu guǒ yǐng xiǎng zhì jīn.",
+    "ko": "그 결정은 심각한 결과를 낳았어요.",
+    "en": "The decision had serious consequences."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "回想",
+   "pos": "adj",
+   "read": "huí xiǎng",
+   "ko": "가정적인",
+   "en": "hypothetical",
+   "ex": {
+    "t": "回想起来，那次机会很难得。",
+    "read": "Huí xiǎng qǐ lái, nà cì jī huì hěn nán děi.",
+    "ko": "그건 순전히 가정적인 질문이에요.",
+    "en": "That is a purely hypothetical question."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "错过",
+   "pos": "phrase",
+   "read": "cuò guo",
+   "ko": "돌이켜 보면",
+   "en": "in hindsight",
+   "ex": {
+    "t": "他错过了最好的机会。",
+    "read": "Tā cuò guo le zuì hǎo de jī huì.",
+    "ko": "돌이켜 보면 그 계약은 실수였어요.",
+    "en": "In hindsight, the contract was a mistake."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "假设",
+   "pos": "adj",
+   "read": "jiǎshè",
+   "ko": "오늘날까지 이어지는",
+   "en": "lingering",
+   "ex": {
+    "t": "我们先假设条件已经满足。",
+    "read": "Wǒmen xiān jiǎshè tiáo jiàn yǐjīng mǎn zú.",
+    "ko": "그 사건의 영향은 지금도 남아 있어요.",
+    "en": "The effects of that event are still lingering."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "至今",
+   "pos": "phrase",
+   "read": "zhì jīn",
+   "ko": "기회를 놓치다",
+   "en": "miss the boat",
+   "ex": {
+    "t": "那次选择的影响至今还在。",
+    "read": "Nà cì xuǎn zé de yǐng xiǎng zhì jīn hái zài.",
+    "ko": "그때 투자하지 않아서 기회를 놓쳤어요.",
+    "en": "I missed the boat by not investing then."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "要是……就……／如果不是……／倘若……／除非……／只要……",
+   "en": "Mixed conditionals: 要是……就…… / 如果不是…… / 倘若…… / 除非…… / 只要……"
+  },
+  "explain": {
+   "ko": "汉语用“如果／要是／假如／倘若……就……”表示假设。表示与事实相反：“要不是／如果不是……，就……”，如：要不是你提醒，我早就忘了。“除非……否则……”说明唯一的条件；“只要……就……”表示充分条件；“只有……才……”表示必要条件。回顾过去、推想现在，常用“早就／现在才”。",
+   "en": "Chinese forms hypotheticals with 如果／要是／假如／倘若……就……. Counterfactual: 要不是／如果不是……，就…… (要不是你提醒，我早就忘了). 除非……否则…… gives the only condition; 只要……就…… sufficient; 只有……才…… necessary. Mixing past and present often uses 早就／现在才."
+  },
+  "table": {
+   "head": [
+    "类型 / Type",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "假设 / Hypothetical",
+     "如果……就……",
+     "如果你来，我就高兴。"
+    ],
+    [
+     "与事实相反 / Counterfactual",
+     "要不是……，就……",
+     "要不是下雨，早去了。"
+    ],
+    [
+     "唯一条件 / Only if",
+     "除非……否则……",
+     "除非你道歉，否则我不原谅。"
+    ],
+    [
+     "充分条件 / Sufficient",
+     "只要……就……",
+     "只要努力就行。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“只要”和“只有”不能互换。",
+    "en": "只要 and 只有 are not interchangeable."
+   },
+   {
+    "ko": "“要不是”常带有庆幸或遗憾。",
+    "en": "要不是 often carries relief or regret."
+   },
+   {
+    "ko": "“除非”后面常跟“否则”。",
+    "en": "除非 is usually followed by 否则."
+   }
+  ],
+  "examples": [
+   {
+    "t": "要不是你提醒，我早就忘了。",
+    "read": "Yào bú shì nǐ tí xǐng, wǒ zǎo jiù wàng le.",
+    "ko": "그때 그 직장을 받아들였다면 지금 런던에 살고 있을 거예요.",
+    "en": "If I had taken that job, I would be living in London now."
+   },
+   {
+    "t": "如果当时选了另一条路，现在会不一样。",
+    "read": "Rúguǒ dāngshí xuǎn le lìng yì tiáo lù, xiànzài huì bù yíyàng.",
+    "ko": "당신의 도움이 아니었다면 우리는 실패했을 거예요.",
+    "en": "But for your help, we would have failed."
+   },
+   {
+    "t": "除非有人反对，否则就这样决定。",
+    "read": "Chú fēi yǒu rén fǎnduì, fǒuzé jiù zhè yàng juédìng.",
+    "ko": "그의 지원이 없다면 우리는 지금 문을 닫았을 거예요.",
+    "en": "Were it not for his support, we would have closed by now."
+   },
+   {
+    "t": "只要努力，就有机会。",
+    "read": "Zhī yào nǔlì, jiù yǒu jī huì.",
+    "ko": "서둘러요. 그렇지 않으면 기차를 놓칠 거예요.",
+    "en": "Hurry up; otherwise we'll miss the train."
+   },
+   {
+    "t": "倘若没有他的帮助，我们早就失败了。",
+    "read": "Tǎng ruò méiyǒu tā de bāngzhù, wǒmen zǎo jiù shī bài le.",
+    "ko": "비가 온다고 가정하면, 행사를 안으로 옮겨야 할까요?",
+    "en": "Supposing it rains, should we move the event indoors?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___你提醒，我早就忘了。",
+    "options": [
+     "要不是",
+     "只有",
+     "除非"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___有人反对，否则就这样决定。",
+    "options": [
+     "除非",
+     "要是",
+     "只要"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___努力，就有机会。",
+    "options": [
+     "只要",
+     "除非",
+     "要不是"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "倘若没有他的帮助，我们___失败了。",
+    "options": [
+     "早就",
+     "刚刚",
+     "从来"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "如果你当时选了另一条路，现在会怎样？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 결정을 돌이켜 보면 어떻게 생각하세요?",
+     "en": "(Question) How do you see that decision in hindsight?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "现在的生活会完全不同。",
+       "我昨天睡得很好。",
+       "我不喜欢这条路。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你什么情况下会改变计划？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그때 투자했다면 어떻게 됐을까요?",
+     "en": "(Question) What would have happened if you had invested then?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "除非有人反对，否则我不会改变。",
+       "我今天去买东西。",
+       "我已经改了。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你为什么搬到这个城市？"
+      },
+      {
+       "s": "B",
+       "t": "要不是那份工作，我现在可能还在老家。"
+      },
+      {
+       "s": "A",
+       "t": "如果没有搬来，你会遇见你的妻子吗？"
+      },
+      {
+       "s": "B",
+       "t": "恐怕不会，真是命运的安排。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그때 그 회사에 들어갔다면 지금 어땠을까?\nB: 아마 해외에서 일하고 있겠지.\nA: 하지만 네 친구가 말려 주지 않았다면?\nB: 그랬다면 큰 실수를 했을 거야.",
+     "en": "A: What if you had joined that company back then?\nB: I'd probably be working abroad now.\nA: But if your friend hadn't talked you out of it?\nB: Then I would have made a big mistake."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B为什么搬到这个城市？",
+      "options": [
+       "因为一份工作",
+       "因为天气",
+       "因为朋友"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "回想起来，一个小小的决定可能改变一生。假如当年我选了另一所大学，现在的生活会完全不同。不过，只要认真对待每个选择，就不必为过去后悔。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "혼합 조건문은 과거의 조건이 현재에 영향을 줄 때 씁니다. 형식은 if + 과거완료, would + 동사원형입니다. 또한 but for나 were it not for, otherwise처럼 if 없이 조건을 암시하는 표현도 자주 쓰입니다.",
+     "en": "Mixed conditionals are used when a past condition affects the present. The form is if + past perfect, would + base verb. Expressions that imply a condition without if, such as but for, were it not for and otherwise, are also common."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "说话人认为不必为过去后悔的条件是什么？",
+      "options": [
+       "认真对待每个选择",
+       "改变过去",
+       "不再选择"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你成功的关键是什么？"
+      },
+      {
+       "s": "B",
+       "t": "要不是那次失败，我不会明白自己真正想要什么。"
+      },
+      {
+       "s": "A",
+       "t": "你后悔过吗？"
+      },
+      {
+       "s": "B",
+       "t": "没有，只要从中学到东西，就值得。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "상담사: 그때 이직을 거절했던 걸 후회하세요?\n의뢰인: 돌이켜 보면 그랬던 것 같아요.\n상담사: 그 결정이 지금에 영향을 주었나요?\n의뢰인: 그렇죠. 받아들였다면 지금 승진했을 거예요.",
+     "en": "Counsellor: Do you regret refusing that job change?\nClient: In hindsight, I think I do.\nCounsellor: Has that decision affected you today?\nClient: Yes. Had I accepted, I would have been promoted by now."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "企业家说要不是那次______，不会明白想要什么",
+      "answers": [
+       "失败"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "只要从中学到______，就值得",
+      "answers": [
+       "东西"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___你提醒，我早就忘了。\n2) ___有人反对，否则就这样决定。\n3) ___努力，就有机会。",
+    "trans": {
+     "ko": "1) 그때 그 직장을 받아들였다면 지금 런던에 살 거예요. 2) 당신의 도움이 아니었다면 실패했을 거예요. 3) 서둘러요. 그렇지 않으면 놓칠 거예요.",
+     "en": "1) If I had taken that job, I would be living in London now. 2) But for your help, we would have failed. 3) Hurry up; otherwise we'll miss it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___你提醒，我早就忘了。",
+      "options": [
+       "要不是",
+       "只有",
+       "除非"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___有人反对，否则就这样决定。",
+      "options": [
+       "除非",
+       "要是",
+       "只要"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___努力，就有机会。",
+      "options": [
+       "只要",
+       "除非",
+       "要不是"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "回想那次选择，他觉得影响一直(1)到今天。要不是那个机会，他的生活会完全不同。不过，他已经不再(2)，因为他明白，只要认真生活，就不会(3)。",
+    "trans": {
+     "ko": "그 회사는 오래전에 폐업했을 것이다. 그러나 창업자의 끈질긴 노력이 없었다면 지금의 성공은 불가능했을 것이다. 돌이켜 보면 그 위기가 오히려 회사를 단단하게 만들었다.",
+     "en": "The company would have shut down long ago. But for the founder's persistence, today's success would have been impossible. In hindsight, that crisis actually made the company stronger."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "持续",
+       "消失",
+       "停止"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "后悔",
+       "高兴",
+       "出发"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "浪费",
+       "成功",
+       "回家"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "人物故事\n一个小决定\n三十年前，她在车站放弃了一张去南方的车票，留在了家乡。她说，要不是那个决定，她就不会开这家书店，也遇不到现在的丈夫。她说，只要不回头看，每一条路都是对的。",
+    "trans": {
+     "ko": "칼럼\n선택의 무게\n우리는 가끔 다른 선택을 했더라면 삶이 어땠을지 상상한다. 그러나 가정은 현실을 바꾸지 못한다. 중요한 것은 과거의 선택을 이해하고 현재의 선택에 책임을 지는 것이다.",
+     "en": "COLUMN\nThe weight of choice\nWe sometimes imagine how our lives would have turned out had we chosen otherwise. But supposition does not change reality. What matters is understanding past choices and taking responsibility for present ones."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "三十年前她放弃了什么？",
+      "options": [
+       "一张去南方的车票",
+       "一份工作",
+       "一所大学"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "她认为什么就是对的？",
+      "options": [
+       "每一条路",
+       "只有第一条路",
+       "没有路"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "这家书店是她三十年前留在家乡之后开的。她认为，只要不回头看，每一条路都是对的。",
+    "trans": {
+     "ko": "필자는 다른 선택을 상상하곤 한다고 말한다. 필자는 가정이 현실을 바꾼다고 믿는다. 필자는 현재의 선택에 책임지라고 한다.",
+     "en": "The writer says we sometimes imagine other choices. The writer believes supposition changes reality. The writer urges taking responsibility for present choices."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "她在家乡开了书店。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "她后悔留在家乡。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "她的丈夫是书店老板。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "要不是你提醒，我早就忘了。",
+    "read": "Yào bú shì nǐ tí xǐng, wǒ zǎo jiù wàng le.",
+    "ko": "그때 더 열심히 공부했다면 지금 의사가 되어 있을 거예요.",
+    "en": "If I had studied harder then, I would be a doctor now.",
+    "situation": {
+     "ko": "과거 조건과 현재 결과를 연결할 때",
+     "en": "Past condition, present result"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "只要努力，就有机会。",
+    "read": "Zhī yào nǔlì, jiù yǒu jī huì.",
+    "ko": "그 투자가 없었다면 회사는 지금 존재하지 않을 거예요.",
+    "en": "But for that investment, the company wouldn't exist today.",
+    "situation": {
+     "ko": "~이 아니었다면을 쓸 때",
+     "en": "Using 'but for'"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "除非有人反对，否则就这样定了。",
+    "read": "Chú fēi yǒu rén fǎnduì, fǒuzé jiù zhè yàng dìng le.",
+    "ko": "지도를 가져왔어야 해요. 그렇지 않으면 길을 잃을 거예요.",
+    "en": "We should take a map; otherwise we'll get lost.",
+    "situation": {
+     "ko": "암시된 조건 otherwise",
+     "en": "Implied condition with 'otherwise'"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "假如当时选了另一条路，会怎样？",
+    "read": "Jiǎ rú dāngshí xuǎn le lìng yì tiáo lù, huì zěn yàng?",
+    "ko": "비용을 부담하신다면 시설을 사용하셔도 좋습니다.",
+    "en": "You may use the facilities provided that you cover the costs.",
+    "situation": {
+     "ko": "조건을 제한할 때",
+     "en": "Setting a condition"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "倘若没有他的帮助，我们早就失败了。",
+    "read": "Tǎng ruò méiyǒu tā de bāngzhù, wǒmen zǎo jiù shī bài le.",
+    "ko": "가정해 보세요. 모두가 같은 시간에 퇴근한다면 어떻게 될까요?",
+    "en": "Supposing everyone left at the same time, what would happen?",
+    "situation": {
+     "ko": "가정을 제시할 때",
+     "en": "Posing a supposition"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "回想起来，那次机会很难得。",
+    "read": "Huí xiǎng qǐ lái, nà cì jī huì hěn nán děi.",
+    "ko": "그가 더 신중했더라면 지금쯤 팀장일 텐데요.",
+    "en": "Had he been more careful, he would be team leader by now.",
+    "situation": {
+     "ko": "도치 조건문",
+     "en": "An inverted conditional"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "那次选择的影响至今还在。",
+    "read": "Nà cì xuǎn zé de yǐng xiǎng zhì jīn hái zài.",
+    "ko": "돌이켜 보면 그 결정이 지금의 문제를 낳은 거예요.",
+    "en": "In hindsight, that decision is what created today's problems.",
+    "situation": {
+     "ko": "후회와 현재 영향을 연결할 때",
+     "en": "Linking regret to present effect"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "我们先假设条件已经满足。",
+    "read": "Wǒmen xiān jiǎshè tiáo jiàn yǐjīng mǎn zú.",
+    "ko": "당신이 말해 주지 않았다면 저는 영원히 몰랐을 거예요.",
+    "en": "Had you not told me, I would never have known.",
+    "situation": {
+     "ko": "부정 조건을 쓸 때",
+     "en": "A negative condition"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "要不是……，我就……。",
+    "read": "Yào bú shì …, wǒ jiù ….",
+    "ko": "~했더라면 지금 ~일 텐데.",
+    "en": "If I had ..., I would be ... now."
+   },
+   {
+    "id": "w2",
+    "t": "只要……，就……。",
+    "read": "Zhī yào …, jiù ….",
+    "ko": "~이 아니었다면 ~했을 것이다.",
+    "en": "But for ..., ... would have ..."
+   },
+   {
+    "id": "w3",
+    "t": "除非……，否则……。",
+    "read": "Chú fēi …, fǒuzé ….",
+    "ko": "~하지 않으면 ~할 것이다.",
+    "en": "..., otherwise ..."
+   },
+   {
+    "id": "w4",
+    "t": "假如……，就……。",
+    "read": "Jiǎ rú …, jiù ….",
+    "ko": "~라고 가정하면 ~?",
+    "en": "Supposing ..., ...?"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "혼합 조건문과 but for / otherwise를 사용해 과거의 선택과 현재의 결과를 4문장으로 써 보세요.",
+    "en": "Write four sentences about a past choice and its present result, using mixed conditionals and but for / otherwise."
+   },
+   "must_include": [
+    {
+     "label": "要不是",
+     "match": [
+      "要不是"
+     ]
+    },
+    {
+     "label": "只要",
+     "match": [
+      "只要"
+     ]
+    },
+    {
+     "label": "除非",
+     "match": [
+      "除非"
+     ]
+    }
+   ],
+   "model": "要不是那次失败，我不会明白自己想要什么。只要认真对待每个选择，就不必后悔。除非有人反对，否则我会继续这样做。",
+   "model_trans": {
+    "ko": "그때 대학원에 진학했다면 지금 연구자가 되어 있을 거예요. 하지만 선배의 조언이 없었다면 저는 취업을 선택했을 거예요. 지금은 이 일이 만족스러워요. 다만 시간을 더 배워 두었어야 해요. 그렇지 않으면 이 자리에 없었을 거예요.",
+    "en": "If I had gone to graduate school, I would be a researcher now. But for my senior's advice, I would have chosen a job. I am content with this work now. Still, I had to learn more in time; otherwise I wouldn't be here."
+   }
+  }
+ }
+}

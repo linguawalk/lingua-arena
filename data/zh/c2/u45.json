@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u45",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 45,
+  "concept": "C2.U45",
+  "status": "live",
+  "title": {
+   "target": "新闻文体与标题",
+   "ko": "저널리즘 문체: 헤드라인과 리드",
+   "en": "Journalistic style: headlines and ledes"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "标题",
+   "pos": "noun",
+   "read": "biāo tí",
+   "ko": "헤드라인",
+   "en": "headline",
+   "ex": {
+    "t": "标题要简短有力。",
+    "read": "Biāo tí yào jiǎn duǎn yǒu lì.",
+    "ko": "헤드라인은 짧고 강해야 해요.",
+    "en": "A headline must be short and strong."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "导语",
+   "pos": "noun",
+   "read": "dǎo yǔ",
+   "ko": "리드(첫 문단)",
+   "en": "lede",
+   "ex": {
+    "t": "导语概括要点。",
+    "read": "Dǎo yǔ gài kuò yào diǎn.",
+    "ko": "리드는 핵심을 담아요.",
+    "en": "The lede contains the essentials."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "倒金字塔",
+   "pos": "phrase",
+   "read": "dào jīn zì tǎ",
+   "ko": "역피라미드",
+   "en": "inverted pyramid",
+   "ex": {
+    "t": "新闻采用倒金字塔结构。",
+    "read": "Xīn wén cǎi yòng dào jīn zì tǎ jié gòu.",
+    "ko": "뉴스는 역피라미드 구조예요.",
+    "en": "News follows the inverted pyramid structure."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "拟于",
+   "pos": "phrase",
+   "read": "nǐ yú",
+   "ko": "~할 예정이다",
+   "en": "is set to",
+   "ex": {
+    "t": "公司拟于下月发布。",
+    "read": "Gōngsī nǐ yú xià yuè fā bù.",
+    "ko": "총리는 사임할 예정이에요.",
+    "en": "The prime minister is set to resign."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "谴责",
+   "pos": "verb",
+   "read": "qiǎn zé",
+   "ko": "맹비난하다",
+   "en": "slam",
+   "ex": {
+    "t": "首相强烈谴责这一做法。",
+    "read": "Shǒu xiàng qiáng liè qiǎn zé zhè yí zuò fǎ.",
+    "ko": "야당은 정책을 맹비난했어요.",
+    "en": "The opposition slammed the policy."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "据悉",
+   "pos": "phrase",
+   "read": "jù xī",
+   "ko": "소식통에 따르면",
+   "en": "sources said",
+   "ex": {
+    "t": "据悉，计划已经取消。",
+    "read": "Jù xī, jìhuà yǐjīng qǔxiāo.",
+    "ko": "소식통에 따르면 협상이 결렬됐어요.",
+    "en": "Sources said the talks have collapsed."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "快讯",
+   "pos": "phrase",
+   "read": "kuài xùn",
+   "ko": "속보",
+   "en": "breaking news",
+   "ex": {
+    "t": "快讯：事故发生。",
+    "read": "Kuài xùn: shì gù fāshēng.",
+    "ko": "속보를 전해 드립니다.",
+    "en": "Here is the breaking news."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "编辑",
+   "pos": "noun",
+   "read": "biān jí",
+   "ko": "편집자",
+   "en": "editor",
+   "ex": {
+    "t": "编辑核实报道。",
+    "read": "Biān jí hé shí bào dào.",
+    "ko": "편집자가 헤드라인을 고쳤어요.",
+    "en": "The editor revised the headline."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "报道",
+   "pos": "verb",
+   "read": "bào dào",
+   "ko": "보도하다",
+   "en": "report",
+   "ex": {
+    "t": "报纸大篇幅报道了此事。",
+    "read": "Bào zhǐ dà piān fú bào dào le cǐ shì.",
+    "ko": "신문은 사건을 보도했어요.",
+    "en": "The newspaper reported the incident."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "夸大",
+   "pos": "verb",
+   "read": "kuā dà",
+   "ko": "과장하다",
+   "en": "sensationalise",
+   "ex": {
+    "t": "标题夸大了内容。",
+    "read": "Biāo tí kuā dà le nèi róng.",
+    "ko": "일부 매체는 사건을 과장해요.",
+    "en": "Some outlets sensationalise events."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "据悉／据……报道／有关人士透露／快讯／标题／倒金字塔",
+   "en": "News style: 据悉 / 据……报道 / 有关人士透露 / 快讯 / 标题 / 倒金字塔"
+  },
+  "explain": {
+   "ko": "新闻语言简洁客观。标题要简短有力，导语（第一段）概括最重要的信息，这就是“倒金字塔”结构。“据悉”“据……报道”“有关人士透露”“拟于”等词，既避免断言，又表明消息来源。标题可能夸大内容，要读正文再判断。",
+   "en": "News writing is concise and objective. Headlines are short and strong; the lead packs key facts — the inverted pyramid. 据悉、据……报道、有关人士透露、拟于 avoid assertion and signal the source. Headlines may exaggerate; read the body before judging."
+  },
+  "table": {
+   "head": [
+    "表达 / Phrase",
+    "作用 / Function",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "据悉",
+     "转述消息",
+     "据悉，计划取消。"
+    ],
+    [
+     "据……报道",
+     "标明来源",
+     "据新华社报道。"
+    ],
+    [
+     "有关人士透露",
+     "未公开来源",
+     "有关人士透露。"
+    ],
+    [
+     "拟于",
+     "计划",
+     "拟于下月发布。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "导语放最重要的信息。",
+    "en": "Put key facts in the lead."
+   },
+   {
+    "ko": "不要只看标题。",
+    "en": "Do not judge by headline alone."
+   },
+   {
+    "ko": "注意消息来源的可靠性。",
+    "en": "Mind source reliability."
+   }
+  ],
+  "examples": [
+   {
+    "t": "据悉，计划已经取消。",
+    "read": "Jù xī, jìhuà yǐjīng qǔxiāo.",
+    "ko": "헤드라인은 짧고 강해야 해요.",
+    "en": "A headline must be short and strong."
+   },
+   {
+    "t": "据新华社报道，事故已得到控制。",
+    "read": "Jù xīn huá shè bào dào, shì gù yǐ dé dào kòng zhì.",
+    "ko": "리드는 핵심을 담아요.",
+    "en": "The lede contains the essentials."
+   },
+   {
+    "t": "公司拟于下月发布新产品。",
+    "read": "Gōngsī nǐ yú xià yuè fā bù xīn chǎn pǐn.",
+    "ko": "뉴스는 역피라미드 구조예요.",
+    "en": "News follows the inverted pyramid structure."
+   },
+   {
+    "t": "有关人士透露，价格将下调。",
+    "read": "Yǒu guān rén shì tòu lù, jiàgé jiāng xià tiáo.",
+    "ko": "총리는 사임할 예정이에요.",
+    "en": "The prime minister is set to resign."
+   },
+   {
+    "t": "快讯：事故发生。",
+    "read": "Kuài xùn: shì gù fāshēng.",
+    "ko": "야당은 정책을 맹비난했어요.",
+    "en": "The opposition slammed the policy."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___，计划已经取消。",
+    "options": [
+     "据悉",
+     "假如",
+     "然而"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "据新华社___，事故已得到控制。",
+    "options": [
+     "报道",
+     "报告",
+     "报销"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "公司___于下月发布新产品。",
+    "options": [
+     "拟",
+     "刚",
+     "曾"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "有关人士___，价格将下调。",
+    "options": [
+     "透露",
+     "忘记",
+     "禁止"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新闻语言有什么特点？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 리드란 무엇인가요?",
+     "en": "(Question) What is a lede?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "简洁、客观。",
+       "很长很感性。",
+       "像诗一样。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "“据悉”表示什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 역피라미드 구조란 무엇인가요?",
+     "en": "(Question) What is the inverted pyramid structure?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "转述消息，避免断言。",
+       "表示绝对确定。",
+       "表示假消息。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个标题用词很强烈。"
+      },
+      {
+       "s": "B",
+       "t": "读正文就会发现内容温和得多。"
+      },
+      {
+       "s": "A",
+       "t": "是夸大吗？"
+      },
+      {
+       "s": "B",
+       "t": "不要只看标题就下判断。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 헤드라인은 왜 짧고 현재 시제야?\nB: 독자의 눈을 사로잡고 긴박감을 주려는 거야.\nA: 리드는 어디에 있어?\nB: 첫 문단에 있고 핵심을 다 담고 있어.",
+     "en": "A: Why is this headline short and in the present tense?\nB: To catch the reader's eye and create urgency.\nA: Where is the lede?\nB: In the first paragraph, containing all the essentials."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B对标题有什么看法？",
+      "options": [
+       "不能只看标题",
+       "标题就是全部",
+       "不用读正文"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新闻语言简洁客观。标题简短有力，导语概括最重要的信息。标题有时会夸大内容，所以要读正文来核实。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "신문 기사는 가장 중요한 정보를 먼저 쓰는 역피라미드 구조를 따릅니다. 헤드라인은 짧은 단어와 현재 시제를 쓰고, 리드는 핵심을 한 문장에 담습니다. 기자는 출처를 밝히고 사실과 의견을 구분해야 합니다.",
+     "en": "News articles follow the inverted pyramid, putting the most important information first. Headlines use short words and the present tense, and the lede packs the essentials into one sentence. Reporters must name their sources and separate fact from opinion."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "导语放什么？",
+      "options": [
+       "最重要的信息",
+       "细节",
+       "广告"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "据悉，计划已被取消。"
+      },
+      {
+       "s": "B",
+       "t": "来源可靠吗？"
+      },
+      {
+       "s": "A",
+       "t": "可靠，几位有关人士都证实了。"
+      },
+      {
+       "s": "B",
+       "t": "那就当快讯发吧。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "편집자: 헤드라인이 너무 깁니다.\n기자: 어떻게 줄일까요?\n편집자: 동사를 현재 시제로 바꾸고 관사를 빼세요.\n기자: 알겠습니다. 짧게 고치겠습니다.",
+     "en": "Editor: The headline is too long.\nReporter: How should I shorten it?\nEditor: Put the verb in the present tense and drop the articles.\nReporter: Understood. I'll shorten it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "记者说据悉计划被______",
+      "answers": [
+       "取消"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "几位有关人士都______了",
+      "answers": [
+       "证实"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___，计划已经取消。\n2) 据新华社___，事故已得到控制。\n3) 公司___于下月发布新产品。",
+    "trans": {
+     "ko": "1) 헤드라인은 짧고 강해야 해요. 2) 리드는 핵심을 담아요. 3) 뉴스는 역피라미드 구조예요.",
+     "en": "1) A headline must be short and strong. 2) The lede contains the essentials. 3) News follows the inverted pyramid structure."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___，计划已经取消。",
+      "options": [
+       "据悉",
+       "假如",
+       "然而"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "据新华社___，事故已得到控制。",
+      "options": [
+       "报道",
+       "报告",
+       "报销"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "公司___于下月发布新产品。",
+      "options": [
+       "拟",
+       "刚",
+       "曾"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "这家报纸用(1)的标题报道了此事。读过正文后会发现，标题(2)了内容。读者不要只凭标题(3)。",
+    "trans": {
+     "ko": "총리는 다음 주 사임할 예정이라고 소식통이 전했다. 야당은 정부의 최근 정책을 맹비난해 왔다. 후임자는 아직 발표되지 않았다.",
+     "en": "The prime minister is set to resign next week, sources said. The opposition has slammed the government's recent policy. No successor has yet been announced."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "醒目",
+       "安静",
+       "短小"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "夸大",
+       "删除",
+       "翻译"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "判断",
+       "料理",
+       "运动"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "媒介入门\n怎样读新闻\n新闻把最重要的信息放在最前面，这就是倒金字塔结构。“据悉”“有关人士透露”表示消息来源有限。不要只看标题，也要读正文。",
+    "trans": {
+     "ko": "저널리즘 강의\n좋은 기사 쓰기\n기사는 중요한 정보를 먼저 쓰는 역피라미드 구조를 따릅니다. 헤드라인은 짧고 강하게, 리드는 누가, 무엇을, 언제, 어디서를 담도록 쓰세요. 출처를 밝히고 사실과 의견을 구분하는 것이 신뢰의 기본입니다.",
+     "en": "JOURNALISM LECTURE\nWriting a good article\nAn article follows the inverted pyramid, putting the most important information first. Write headlines short and strong, and ledes to contain who, what, when and where. Naming sources and separating fact from opinion are the basis of trust."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "新闻把什么放在最前？",
+      "options": [
+       "最重要的信息",
+       "最小的信息",
+       "广告"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "“有关人士透露”说明什么？",
+      "options": [
+       "消息来源有限",
+       "确定事实",
+       "个人意见"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "文章说新闻采用倒金字塔，“有关人士透露”表示来源有限。",
+    "trans": {
+     "ko": "강의는 기사가 중요한 정보를 먼저 쓰는 구조를 따른다고 본다. 강의는 헤드라인이 길수록 좋다고 한다. 강의는 출처를 밝히는 것이 신뢰의 기본이라고 본다.",
+     "en": "The lecture says an article puts the most important information first. The lecture says the longer a headline the better. The lecture says naming sources is the basis of trust."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "新闻采用倒金字塔。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "读标题就够了。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章推荐某报纸。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "简洁、客观。",
+    "read": "Jiǎn jié, kè guān.",
+    "ko": "헤드라인은 현재 시제와 짧은 단어를 즐겨 씁니다.",
+    "en": "Headlines favour the present tense and short words.",
+    "situation": {
+     "ko": "헤드라인 문체",
+     "en": "Headline style"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "转述消息，避免断言。",
+    "read": "Zhuǎn shù xiāo xī, bìmiǎn duàn yán.",
+    "ko": "리드는 누가, 무엇을, 언제, 어디서를 한 문장에 담습니다.",
+    "en": "The lede packs who, what, when and where into one sentence.",
+    "situation": {
+     "ko": "리드를 설명할 때",
+     "en": "Explaining the lede"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "据悉，计划已经取消。",
+    "read": "Jù xī, jìhuà yǐjīng qǔxiāo.",
+    "ko": "뉴스는 중요한 정보를 먼저 쓰는 역피라미드 구조를 따릅니다.",
+    "en": "News follows the inverted pyramid, putting the most important information first.",
+    "situation": {
+     "ko": "구조를 설명할 때",
+     "en": "Explaining structure"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "公司拟于下月发布新产品。",
+    "read": "Gōngsī nǐ yú xià yuè fā bù xīn chǎn pǐn.",
+    "ko": "총리는 다음 주 사임할 예정이라고 소식통이 전했습니다.",
+    "en": "The prime minister is set to resign next week, sources said.",
+    "situation": {
+     "ko": "보도 문체",
+     "en": "Reporting style"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "有关人士透露，价格将下调。",
+    "read": "Yǒu guān rén shì tòu lù, jiàgé jiāng xià tiáo.",
+    "ko": "야당은 정부의 새 정책을 맹비난했습니다.",
+    "en": "The opposition slammed the government's new policy.",
+    "situation": {
+     "ko": "헤드라인 어휘",
+     "en": "Headline vocabulary"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "不要只看标题就判断。",
+    "read": "Bú yào zhī kàn biāo tí jiù pàn duàn.",
+    "ko": "일부 매체는 클릭을 위해 사건을 과장합니다.",
+    "en": "Some outlets sensationalise events to attract clicks.",
+    "situation": {
+     "ko": "비판할 때",
+     "en": "Criticising"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "导语概括要点。",
+    "read": "Dǎo yǔ gài kuò yào diǎn.",
+    "ko": "좋은 기자는 출처를 밝히고 사실과 의견을 구분합니다.",
+    "en": "A good reporter names sources and separates fact from opinion.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "快讯：事故发生。",
+    "read": "Kuài xùn: shì gù fāshēng.",
+    "ko": "편집자는 헤드라인을 짧고 정확하게 다듬습니다.",
+    "en": "Editors polish headlines to be short and accurate.",
+    "situation": {
+     "ko": "편집을 설명할 때",
+     "en": "Describing editing"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "据悉，……。",
+    "read": "Jù xī, ….",
+    "ko": "~할 예정이다.",
+    "en": "be set to ..."
+   },
+   {
+    "id": "w2",
+    "t": "据……报道，……。",
+    "read": "Jù … bào dào, ….",
+    "ko": "소식통에 따르면.",
+    "en": "sources said"
+   },
+   {
+    "id": "w3",
+    "t": "拟于……。",
+    "read": "Nǐ yú ….",
+    "ko": "가장 중요한 것을 먼저.",
+    "en": "most important first"
+   },
+   {
+    "id": "w4",
+    "t": "有关人士透露，……。",
+    "read": "Yǒu guān rén shì tòu lù, ….",
+    "ko": "사실과 의견을 구분하다.",
+    "en": "separate fact from opinion"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "기사 한 건의 헤드라인과 리드, 그리고 보충 문장 2개를 역피라미드 구조로 써 보세요.",
+    "en": "Write one headline, a lede and two supporting sentences in inverted-pyramid structure."
+   },
+   "must_include": [
+    {
+     "label": "据悉",
+     "match": [
+      "据悉"
+     ]
+    },
+    {
+     "label": "标题",
+     "match": [
+      "标题"
+     ]
+    },
+    {
+     "label": "报道",
+     "match": [
+      "报道"
+     ]
+    }
+   ],
+   "model": "据悉，计划已经取消。我不只看标题，还读了正文和报道的来源，然后才做判断。",
+   "model_trans": {
+    "ko": "총리, 다음 주 사임 예정. 총리는 다음 주 사임할 예정이라고 소식통이 전했다. 야당은 정부의 최근 정책을 맹비난해 왔다. 후임자는 아직 발표되지 않았다.",
+    "en": "PM set to resign next week. The prime minister is set to resign next week, sources said. The opposition has slammed the government's recent policy. No successor has yet been announced."
+   }
+  }
+ }
+}

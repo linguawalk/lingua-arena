@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u07",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 7,
+  "concept": "C2.U07",
+  "status": "live",
+  "title": {
+   "target": "被动、使役与转述：被、让、据说",
+   "ko": "가정법과 격식체: lest, were it to",
+   "en": "Subjunctive and formal registers"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "据报道",
+   "pos": "conj",
+   "read": "jù bào dào",
+   "ko": "~하지 않도록",
+   "en": "lest",
+   "ex": {
+    "t": "据报道，那座桥将于明年修好。",
+    "read": "Jù bào dào, nà zuò qiáo jiāng yú míngnián xiū hǎo.",
+    "ko": "그는 실수하지 않도록 조심했어요.",
+    "en": "He took care lest he make a mistake."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "据悉",
+   "pos": "verb",
+   "read": "jù xī",
+   "ko": "제안하다",
+   "en": "propose",
+   "ex": {
+    "t": "据悉，两国领导人将会面。",
+    "read": "Jù xī, liǎng guó lǐng dǎo rén jiāng huì miàn.",
+    "ko": "나는 회의를 연기할 것을 제안합니다.",
+    "en": "I propose that the meeting be postponed."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "被动",
+   "pos": "verb",
+   "read": "bèi dòng",
+   "ko": "요구하다",
+   "en": "stipulate",
+   "ex": {
+    "t": "被动的句子强调受影响的人。",
+    "read": "Bèi dòng de jù zi qiáng diào shòu yǐng xiǎng de rén.",
+    "ko": "계약은 기한 내 납품을 요구합니다.",
+    "en": "The contract stipulates that delivery be made on time."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "使",
+   "pos": "adj",
+   "read": "shǐ",
+   "ko": "필수적인",
+   "en": "imperative",
+   "ex": {
+    "t": "这个消息使大家非常兴奋。",
+    "read": "Zhège xiāo xī shǐ dàjiā fēicháng xīng fèn.",
+    "ko": "속도를 줄이는 것이 필수적이에요.",
+    "en": "It is imperative that we reduce speed."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "让",
+   "pos": "phrase",
+   "read": "ràng",
+   "ko": "~이라고 말해 두자",
+   "en": "suffice it to say",
+   "ex": {
+    "t": "老师让我们提前预习。",
+    "read": "Lǎoshī ràng wǒmen tíqián yù xí.",
+    "ko": "결과가 좋지 않았다고만 말해 두죠.",
+    "en": "Suffice it to say the results were disappointing."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "遭到",
+   "pos": "phrase",
+   "read": "zāo dào",
+   "ko": "~할 필요가 있다",
+   "en": "be advisable that",
+   "ex": {
+    "t": "这个计划遭到了强烈反对。",
+    "read": "Zhège jìhuà zāo dào le qiáng liè fǎnduì.",
+    "ko": "미리 예약하는 것이 바람직해요.",
+    "en": "It is advisable that you book in advance."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "受到",
+   "pos": "noun",
+   "read": "shòu dào",
+   "ko": "의무",
+   "en": "obligation",
+   "ex": {
+    "t": "他受到了公司的表扬。",
+    "read": "Tā shòu dào le gōngsī de biǎo yáng.",
+    "ko": "그들은 법적 의무가 있어요.",
+    "en": "They have a legal obligation."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "据说",
+   "pos": "phrase",
+   "read": "jù shuō",
+   "ko": "부득이하게",
+   "en": "of necessity",
+   "ex": {
+    "t": "据说这家餐厅很有名。",
+    "read": "Jù shuō zhè jiā cāntīng hěn yǒu míng.",
+    "ko": "그는 부득이하게 결정을 내려야 했어요.",
+    "en": "He had to decide of necessity."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "请",
+   "pos": "verb",
+   "read": "qǐng",
+   "ko": "강력히 요구하다",
+   "en": "insist",
+   "ex": {
+    "t": "公司请专家来讲课。",
+    "read": "Gōngsī qǐng zhuān jiā lái jiǎng kè.",
+    "ko": "그녀는 그가 사과해야 한다고 강력히 요구했어요.",
+    "en": "She insisted that he apologise."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "引起",
+   "pos": "phrase",
+   "read": "yǐn qǐ",
+   "ko": "예외 없이",
+   "en": "without exception",
+   "ex": {
+    "t": "那番话引起了广泛关注。",
+    "read": "Nà fān huà yǐn qǐ le guǎng fàn guān zhù.",
+    "ko": "예외 없이 모두 참석해야 해요.",
+    "en": "Everyone must attend without exception."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "被……／让／使／据说／据报道／据悉",
+   "en": "Passive, causative and reporting: 被…… / 让 / 使 / 据说 / 据报道 / 据悉"
+  },
+  "explain": {
+   "ko": "被动句常用“被／叫／让／给”：窗户被风吹开了。书面语里还有“受到／遭到”：他受到了表扬，计划遭到了反对。使役句用“让／使／叫”：这个消息使大家非常兴奋。转述消息用“据说／据报道／据悉”，说明消息不是自己的判断，带有客观色彩。",
+   "en": "Passives use 被／叫／让／给: 窗户被风吹开了. Written style adds 受到／遭到: 他受到了表扬, 计划遭到了反对. Causatives use 让／使／叫: 这个消息使大家非常兴奋. Reporting uses 据说／据报道／据悉, signalling the information is not one's own judgement, adding objectivity."
+  },
+  "table": {
+   "head": [
+    "类型 / Type",
+    "结构 / Form",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "被动 / Passive",
+     "A被B＋动词",
+     "窗户被风吹开了。"
+    ],
+    [
+     "书面被动 / Written",
+     "受到／遭到＋名词",
+     "他受到了表扬。"
+    ],
+    [
+     "使役 / Causative",
+     "让／使＋人＋动词",
+     "这使大家兴奋。"
+    ],
+    [
+     "转述 / Reporting",
+     "据说／据报道",
+     "据报道，桥将修好。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "“遭到”多用于不好的事情。",
+    "en": "遭到 is mostly for bad things."
+   },
+   {
+    "ko": "“使”多用于书面语，“让”多用于口语。",
+    "en": "使 is written; 让 is spoken."
+   },
+   {
+    "ko": "“据悉”比“据说”更正式。",
+    "en": "据悉 is more formal than 据说."
+   }
+  ],
+  "examples": [
+   {
+    "t": "窗户被风吹开了。",
+    "read": "Chuānghu bèi fēng chuī kāi le.",
+    "ko": "그는 실수하지 않도록 아주 조심했어요.",
+    "en": "He took great care lest he make a mistake."
+   },
+   {
+    "t": "他受到了公司的表扬。",
+    "read": "Tā shòu dào le gōngsī de biǎo yáng.",
+    "ko": "나는 회의를 연기할 것을 제안합니다.",
+    "en": "I propose that the meeting be postponed."
+   },
+   {
+    "t": "这个消息使大家非常兴奋。",
+    "read": "Zhège xiāo xī shǐ dàjiā fēicháng xīng fèn.",
+    "ko": "그들이 사과해야 한다고 강력히 요구했어요.",
+    "en": "They insisted that he apologise."
+   },
+   {
+    "t": "据报道，那座桥将于明年修好。",
+    "read": "Jù bào dào, nà zuò qiáo jiāng yú míngnián xiū hǎo.",
+    "ko": "결과가 실망스러웠다고만 말해 둡시다.",
+    "en": "Suffice it to say the outcome was disappointing."
+   },
+   {
+    "t": "这个计划遭到了强烈反对。",
+    "read": "Zhège jìhuà zāo dào le qiáng liè fǎnduì.",
+    "ko": "필요하다면 우리가 모두 협력하는 것이 필수적이에요.",
+    "en": "It is imperative that we all cooperate if necessary."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "窗户___风吹开了。",
+    "options": [
+     "被",
+     "把",
+     "比"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "这个计划___到了强烈反对。",
+    "options": [
+     "遭",
+     "受",
+     "有"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "这个消息___大家非常兴奋。",
+    "options": [
+     "使",
+     "被",
+     "把"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___报道，那座桥将于明年修好。",
+    "options": [
+     "据",
+     "按",
+     "靠"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你最近看到什么新闻？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 회의를 어떻게 하자고 제안하시겠습니까?",
+     "en": "(Question) What would you propose for the meeting?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "据报道，公司下个月要搬家。",
+       "我昨天去了。",
+       "我不看新闻。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这个消息让你有什么感觉？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 왜 그렇게 조심했나요?",
+     "en": "(Question) Why was he so careful?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "这个消息让我非常高兴。",
+       "我没有手机。",
+       "我不认识他。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你听说了吗？据说公司要搬家了。"
+      },
+      {
+       "s": "B",
+       "t": "真的吗？是谁告诉你的？"
+      },
+      {
+       "s": "A",
+       "t": "据报道，下个月就要搬到新大楼。"
+      },
+      {
+       "s": "B",
+       "t": "这个消息让大家都很兴奋。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 위원회는 어떻게 하라고 요구했나요?\nB: 즉시 점검을 시행하라고 요구했어요.\nA: 아무도 반대하지 않았나요?\nB: 문제가 반복되지 않도록 모두 동의했어요.",
+     "en": "A: What did the committee demand?\nB: It insisted that an inspection be carried out immediately.\nA: Did nobody object?\nB: Everyone agreed, lest the problem recur."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "据报道，公司什么时候搬家？",
+      "options": [
+       "下个月",
+       "明年",
+       "后天"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "据报道，这座古桥将被重新修复。工程预计需要两年。当地居民对这个决定表示欢迎，因为这座桥已经使用了几百年，受到了很多人的喜爱。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "격식 있는 영어는 제안, 요구, 필요를 나타내는 동사 뒤에서 that절에 동사원형을 씁니다. 이것을 가정법 현재라고 합니다. 또한 lest 뒤에는 should가 있거나 동사원형이 옵니다. 이런 구문은 법률, 공문, 학술 글에서 흔합니다.",
+     "en": "Formal English uses the base form in that-clauses after verbs of proposing, demanding and necessity. This is the present subjunctive. After lest, either should or the base form follows. Such structures are common in legal, official and academic writing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "这座桥为什么受到喜爱？",
+      "options": [
+       "已使用几百年",
+       "刚刚建成",
+       "非常宽"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "请问计划为什么遭到反对？"
+      },
+      {
+       "s": "B",
+       "t": "据说费用太高，让很多人担心。"
+      },
+      {
+       "s": "A",
+       "t": "政府有回应吗？"
+      },
+      {
+       "s": "B",
+       "t": "据悉，下周将举行听证会。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의장: 안건을 말씀드립니다. 회의 연기를 제안합니다.\n위원: 이유가 무엇입니까?\n의장: 자료가 아직 충분하지 않습니다.\n위원: 그렇다면 연기하는 것이 바람직합니다.",
+     "en": "Chair: I will state the item. I propose that the meeting be postponed.\nMember: What is the reason?\nChair: The material is not yet sufficient.\nMember: Then it is advisable that it be postponed."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "计划遭到反对，据说是因为费用太______",
+      "answers": [
+       "高"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "下周将举行______会",
+      "answers": [
+       "听证"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 窗户___风吹开了。\n2) 这个计划___到了强烈反对。\n3) 这个消息___大家非常兴奋。",
+    "trans": {
+     "ko": "1) 그는 실수하지 않도록 조심했어요. 2) 나는 회의를 연기할 것을 제안합니다. 3) 결과가 실망스러웠다고만 말해 둡시다.",
+     "en": "1) He took care lest he make a mistake. 2) I propose that the meeting be postponed. 3) Suffice it to say the results were disappointing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "窗户___风吹开了。",
+      "options": [
+       "被",
+       "把",
+       "比"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这个计划___到了强烈反对。",
+      "options": [
+       "遭",
+       "受",
+       "有"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "这个消息___大家非常兴奋。",
+      "options": [
+       "使",
+       "被",
+       "把"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "(1)，这家公司将在下个月裁员。消息一出，立刻(2)了员工们的广泛关注。许多人担心自己会(3)解雇。",
+    "trans": {
+     "ko": "위원회는 모든 회사가 예외 없이 규정을 따를 것을 요구했다. 속도를 줄이는 것이 필수적이라고 강조했다. 결과가 좋지 않았다고만 말해 두겠다.",
+     "en": "The committee insisted that all companies follow the rules without exception. It stressed that it is imperative that speed be reduced. Suffice it to say the results were not good."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "据悉",
+       "按照",
+       "靠着"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "引起",
+       "拒绝",
+       "忘记"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "被",
+       "把",
+       "让"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "社会新闻\n老街将被改造\n据报道，市政府计划对老街进行改造。方案公布后，受到了部分居民的欢迎，也遭到了一些商户的反对。他们担心改造会使租金上涨。",
+    "trans": {
+     "ko": "공문\n안전 점검 안내\n최근 사고가 반복되지 않도록 모든 부서는 점검을 받아야 합니다. 점검은 예외 없이 이번 달 안에 완료되어야 합니다. 비가 올 경우, 일정은 연기될 것입니다.",
+     "en": "NOTICE\nSafety inspection guidance\nTo ensure recent accidents do not recur, all departments must undergo inspection. The inspection must be completed this month without exception. Should it rain, the schedule will be postponed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "谁欢迎改造方案？",
+      "options": [
+       "部分居民",
+       "所有商户",
+       "政府官员"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "商户担心什么？",
+      "options": [
+       "租金上涨",
+       "房屋倒塌",
+       "没有顾客"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "市政府计划改造老街。部分居民欢迎，一些商户担心租金上涨而反对。",
+    "trans": {
+     "ko": "공문은 모든 부서가 점검을 받아야 한다고 한다. 일부 부서는 점검에서 제외된다. 비가 오면 일정이 연기된다.",
+     "en": "The notice says all departments must be inspected. Some departments are exempt. If it rains, the schedule is postponed."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "有些商户反对改造。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "所有人都欢迎改造。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "改造方案由商户提出。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "窗户被风吹开了。",
+    "read": "Chuānghu bèi fēng chuī kāi le.",
+    "ko": "의장은 회의를 연기해야 한다고 제안했습니다.",
+    "en": "The chair proposed that the meeting be postponed.",
+    "situation": {
+     "ko": "공식 제안을 할 때",
+     "en": "A formal proposal"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "他受到了公司的表扬。",
+    "read": "Tā shòu dào le gōngsī de biǎo yáng.",
+    "ko": "그녀는 사실이 아닌 것을 말하지 않도록 조심했습니다.",
+    "en": "She took care lest she say anything untrue.",
+    "situation": {
+     "ko": "lest로 걱정을 나타낼 때",
+     "en": "Expressing concern with lest"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "这个消息使大家非常兴奋。",
+    "read": "Zhège xiāo xī shǐ dàjiā fēicháng xīng fèn.",
+    "ko": "계약은 납품이 기한 내에 이루어져야 한다고 명시합니다.",
+    "en": "The contract stipulates that delivery be made within the deadline.",
+    "situation": {
+     "ko": "계약 조건을 말할 때",
+     "en": "Stating contract terms"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "据说这家餐厅很有名。",
+    "read": "Jù shuō zhè jiā cāntīng hěn yǒu míng.",
+    "ko": "속도를 줄이는 것이 필수적입니다.",
+    "en": "It is imperative that speed be reduced.",
+    "situation": {
+     "ko": "절박함을 나타낼 때",
+     "en": "Expressing urgency"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "据报道，那座桥将于明年修好。",
+    "read": "Jù bào dào, nà zuò qiáo jiāng yú míngnián xiū hǎo.",
+    "ko": "결과가 기대에 못 미쳤다고만 말씀드리겠습니다.",
+    "en": "Suffice it to say the result fell short of expectations.",
+    "situation": {
+     "ko": "세부 설명을 생략할 때",
+     "en": "Skipping detail tactfully"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "这个计划遭到了强烈反对。",
+    "read": "Zhège jìhuà zāo dào le qiáng liè fǎnduì.",
+    "ko": "그가 지금 알았더라면 달리 행동했을 것입니다.",
+    "en": "Were he to know now, he would act differently.",
+    "situation": {
+     "ko": "가정법 도치",
+     "en": "Inverted hypothetical"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "老师让我们提前预习。",
+    "read": "Lǎoshī ràng wǒmen tíqián yù xí.",
+    "ko": "비가 온다면 행사는 실내로 옮겨질 것입니다.",
+    "en": "Should it rain, the event will be moved indoors.",
+    "situation": {
+     "ko": "should 도치 조건문",
+     "en": "Should-inversion"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "那番话引起了广泛关注。",
+    "read": "Nà fān huà yǐn qǐ le guǎng fàn guān zhù.",
+    "ko": "모든 직원은 예외 없이 규정을 따라야 합니다.",
+    "en": "All staff must follow the rules without exception.",
+    "situation": {
+     "ko": "예외 없는 의무를 말할 때",
+     "en": "A rule with no exceptions"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……被……。",
+    "read": "… Bèi ….",
+    "ko": "~하지 않도록.",
+    "en": "lest + subject + (should) + base verb"
+   },
+   {
+    "id": "w2",
+    "t": "……受到……。",
+    "read": "… Shòu dào ….",
+    "ko": "~할 것을 제안/요구하다.",
+    "en": "propose/insist/demand that + base verb"
+   },
+   {
+    "id": "w3",
+    "t": "这使……。",
+    "read": "Zhè shǐ ….",
+    "ko": "~이라고만 해 두자.",
+    "en": "Suffice it to say (that) ..."
+   },
+   {
+    "id": "w4",
+    "t": "据报道，……。",
+    "read": "Jù bào dào, ….",
+    "ko": "~라면 (격식).",
+    "en": "Were ... to ..., ... / Should ..., ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "lest, were it to, suffice it to say를 사용해 격식 있는 공지문 4문장을 써 보세요.",
+    "en": "Write four sentences of a formal notice using lest, were it to and suffice it to say."
+   },
+   "must_include": [
+    {
+     "label": "被",
+     "match": [
+      "被"
+     ]
+    },
+    {
+     "label": "据报道",
+     "match": [
+      "据报道"
+     ]
+    },
+    {
+     "label": "使",
+     "match": [
+      "使"
+     ]
+    }
+   ],
+   "model": "据报道，这座老桥将被重新修复。这个消息使当地居民非常高兴。这座桥已经用了几百年，一直被人们喜爱。",
+   "model_trans": {
+    "ko": "이번 사고가 반복되지 않도록 모든 직원은 규정을 지켜야 합니다. 조사 결과가 기대에 못 미쳤다고만 말씀드리겠습니다. 위원회는 안전 점검을 즉시 시행할 것을 요구합니다. 비가 온다면 행사는 실내로 옮겨질 것입니다.",
+    "en": "All staff must follow the rules, lest this accident recur. Suffice it to say the investigation results fell short of expectations. The committee insists that a safety inspection be carried out immediately. Should it rain, the event will be moved indoors."
+   }
+  }
+ }
+}

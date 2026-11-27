@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u09",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 9,
+  "concept": "C2.U09",
+  "status": "live",
+  "title": {
+   "target": "省略与替代：口语中的简省",
+   "ko": "정보 구조와 문장 균형",
+   "en": "Information structure and end-weight"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "省略",
+   "pos": "noun",
+   "read": "shěng lüè",
+   "ko": "이미 알려진 정보",
+   "en": "given information",
+   "ex": {
+    "t": "口语里常常省略主语。",
+    "read": "Kǒu yǔ lǐ chángcháng shěng lüè zhǔ yǔ.",
+    "ko": "문장은 보통 이미 알려진 정보로 시작해요.",
+    "en": "A sentence usually starts with given information."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "代替",
+   "pos": "noun",
+   "read": "dài tì",
+   "ko": "새 정보",
+   "en": "new information",
+   "ex": {
+    "t": "“那样”可以代替前面说的整件事。",
+    "read": "\" Nà yàng \" kěyǐ dài tì qiánmian shuō de zhěng jiàn shì.",
+    "ko": "새 정보는 문장 끝에 오는 경향이 있어요.",
+    "en": "New information tends to come at the end."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "语气词",
+   "pos": "noun",
+   "read": "yǔ qì cí",
+   "ko": "문미 중점",
+   "en": "end-weight",
+   "ex": {
+    "t": "语气词让语气更自然。",
+    "read": "Yǔ qì cí ràng yǔ qì gèng zì rán.",
+    "ko": "긴 구는 문미 중점 원칙에 따라 뒤로 가요.",
+    "en": "Long phrases move to the end by end-weight."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "的话",
+   "pos": "verb",
+   "read": "de huà",
+   "ko": "후치하다",
+   "en": "extrapose",
+   "ex": {
+    "t": "如果你有空的话，一起去吧。",
+    "read": "Rúguǒ nǐ yǒukòng de huà, yìqǐ qù ba.",
+    "ko": "긴 주어를 뒤로 보내면 읽기 쉬워져요.",
+    "en": "Extraposing a long subject makes it easier to read."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "吧",
+   "pos": "adj",
+   "read": "ba",
+   "ko": "정돈된",
+   "en": "well-ordered",
+   "ex": {
+    "t": "咱们走吧。",
+    "read": "Zán men zǒu ba.",
+    "ko": "잘 정돈된 글은 읽기 쉬워요.",
+    "en": "A well-ordered text is easy to read."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "嘛",
+   "pos": "noun",
+   "read": "ma",
+   "ko": "강조점",
+   "en": "focal point",
+   "ex": {
+    "t": "这不是很简单嘛。",
+    "read": "Zhè bú shì hěn jiǎn dān ma.",
+    "ko": "문장의 강조점은 끝에 있어요.",
+    "en": "The focal point of a sentence lies at the end."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "默契",
+   "pos": "adj",
+   "read": "mò qì",
+   "ko": "앞서 말한",
+   "en": "aforementioned",
+   "ex": {
+    "t": "他们之间很有默契。",
+    "read": "Tāmen zhī jiān hěn yǒu mò qì.",
+    "ko": "앞서 말한 문제를 다시 보죠.",
+    "en": "Let us revisit the aforementioned problem."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "重复",
+   "pos": "phrase",
+   "read": "chóng fù",
+   "ko": "유도하다",
+   "en": "lead into",
+   "ex": {
+    "t": "不必重复已经说过的话。",
+    "read": "Bú bì chóng fù yǐjīng shuō guo de huà.",
+    "ko": "서론은 본론으로 이끌어요.",
+    "en": "The introduction leads into the main body."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "言外之意",
+   "pos": "noun",
+   "read": "yán wài zhī yì",
+   "ko": "전환",
+   "en": "transition",
+   "ex": {
+    "t": "他话里有言外之意。",
+    "read": "Tā huà lǐ yǒu yán wài zhī yì.",
+    "ko": "단락 사이의 전환이 매끄러워요.",
+    "en": "The transition between paragraphs is smooth."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "简洁",
+   "pos": "noun",
+   "read": "jiǎn jié",
+   "ko": "비약",
+   "en": "leap",
+   "ex": {
+    "t": "口语的表达通常很简洁。",
+    "read": "Kǒu yǔ de biǎo dá tōngcháng hěn jiǎn jié.",
+    "ko": "논리에 비약이 있어요.",
+    "en": "There is a leap in the logic."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "省略主语／这么／那样／的话／……吧／嘛",
+   "en": "Ellipsis and substitution: dropped subjects / 这么 / 那样 / 的话 / 吧 / 嘛"
+  },
+  "explain": {
+   "ko": "汉语口语中，上下文清楚时常省略主语或宾语：（你）吃了吗？“这么／那样／这样”可代替前面说的内容：别那样说。语气词“吧、嘛、呢、啊”表示建议、不满或确认：咱们走吧。“……的话”表示假设：有空的话，来坐坐。省略能让话更简洁，但要保证对方听得懂。",
+   "en": "In spoken Chinese, subjects and objects are often dropped when context is clear: （你）吃了吗？ 这么／那样／这样 can replace what was just said: 别那样说. Particles 吧、嘛、呢、啊 mark suggestion, impatience or confirmation: 咱们走吧. 「……的话」 marks a hypothetical. Ellipsis makes speech concise, as long as it stays understandable."
+  },
+  "table": {
+   "head": [
+    "现象 / Feature",
+    "例子 / Example",
+    "说明 / Note"
+   ],
+   "rows": [
+    [
+     "省略主语",
+     "吃了吗？",
+     "上下文清楚时"
+    ],
+    [
+     "代替",
+     "别那样说。",
+     "指前面的内容"
+    ],
+    [
+     "吧",
+     "咱们走吧。",
+     "建议"
+    ],
+    [
+     "嘛",
+     "这不是很简单嘛。",
+     "显而易见"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "语气词会改变整句话的感觉。",
+    "en": "Particles change the whole feel of a sentence."
+   },
+   {
+    "ko": "书面语中很少省略主语。",
+    "en": "Subjects are rarely dropped in writing."
+   },
+   {
+    "ko": "“的话”可以放在分句末尾。",
+    "en": "的话 goes at the end of a clause."
+   }
+  ],
+  "examples": [
+   {
+    "t": "（你）吃了吗？",
+    "read": "(Nǐ) chī le ma?",
+    "ko": "그가 돌아오지 않았다는 사실은 놀라웠어요.",
+    "en": "It was surprising that he had not returned."
+   },
+   {
+    "t": "别那样说。",
+    "read": "Bié nà yàng shuō.",
+    "ko": "그 정책이 실패한 이유는 여러 가지가 있어요.",
+    "en": "There are several reasons why the policy failed."
+   },
+   {
+    "t": "有空的话，来坐坐。",
+    "read": "Yǒukòng de huà, lái zuò zuò.",
+    "ko": "선생님이 학생들에게 흥미로운 책 한 권을 추천했어요.",
+    "en": "The teacher recommended to the students an interesting book on linguistics."
+   },
+   {
+    "t": "咱们走吧。",
+    "read": "Zán men zǒu ba.",
+    "ko": "그들이 모든 서류를 제출할 필요가 있다는 점은 분명해요.",
+    "en": "It is clear that they need to submit all the documents."
+   },
+   {
+    "t": "这不是很简单嘛。",
+    "read": "Zhè bú shì hěn jiǎn dān ma.",
+    "ko": "이 논문의 장점은 그 방법론의 정교함에 있어요.",
+    "en": "The strength of this paper lies in the sophistication of its methodology."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "有空的___，来坐坐。",
+    "options": [
+     "话",
+     "是",
+     "吗"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "咱们走___。",
+    "options": [
+     "吧",
+     "嘛",
+     "的"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "别___说，这样不好。",
+    "options": [
+     "那样",
+     "那么多",
+     "那天"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "这不是很简单___。",
+    "options": [
+     "嘛",
+     "吧",
+     "呢"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "你吃过饭了吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 계획의 문제는 무엇인가요?",
+     "en": "(Question) What is the problem with this plan?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "吃过了，你呢？",
+       "我是学生。",
+       "明天见。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "周末有空的话，想一起去吗？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 논문의 장점은 무엇인가요?",
+     "en": "(Question) What is the strength of this paper?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "好啊，有空的话就去。",
+       "我昨天去了。",
+       "我不认识。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "吃了吗？"
+      },
+      {
+       "s": "B",
+       "t": "吃过了。你呢？"
+      },
+      {
+       "s": "A",
+       "t": "还没呢，一起去吧。"
+      },
+      {
+       "s": "B",
+       "t": "好嘛，去楼下那家。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 글을 읽기 어려워. 왜 그럴까?\nB: 주어가 너무 길어서 그래. 긴 부분은 뒤로 보내 봐.\nA: 예를 들면?\nB: 'That he left surprised us' 대신 'It surprised us that he left'처럼.",
+     "en": "A: This text is hard to read. Why?\nB: The subject is too long. Try moving the long part to the end.\nA: For example?\nB: Like 'It surprised us that he left' instead of 'That he left surprised us'."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "A还没做什么？",
+      "options": [
+       "吃饭",
+       "睡觉",
+       "上班"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "汉语口语常常很简洁。上下文清楚的时候，说话人会省略主语或宾语，还会用“吧、嘛、呢”等语气词。这些小词看起来不重要，却让语气更自然。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "영어 문장은 대체로 이미 아는 정보에서 새 정보로 흐릅니다. 긴 구는 문장 뒤로 옮기는 문미 중점 원칙을 따릅니다. 존재문 there is나 후치 It is ... that은 새로운 정보를 효과적으로 도입합니다.",
+     "en": "English sentences generally flow from known to new information. Long phrases move to the end by the end-weight principle. Existential there is and extraposed It is ... that introduce new information effectively."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "语气词有什么作用？",
+      "options": [
+       "让语气更自然",
+       "没有作用",
+       "让句子更长"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "有空的话，一起吃饭吧。"
+      },
+      {
+       "s": "B",
+       "t": "好啊，去哪儿？"
+      },
+      {
+       "s": "A",
+       "t": "就楼下那家吧。"
+      },
+      {
+       "s": "B",
+       "t": "行嘛，我正好也饿了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 논문의 구조를 설명해 주세요.\n학생: 서론은 문제를 소개하고 본론으로 이끕니다.\n교수: 전환은 매끄럽습니까?\n학생: 네, 각 단락은 앞선 정보에서 새로운 정보로 이어집니다.",
+     "en": "Professor: Please explain the structure of your paper.\nStudent: The introduction presents the problem and leads into the main body.\nProfessor: Are the transitions smooth?\nStudent: Yes, each paragraph moves from given to new information."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "同事甲建议一起______",
+      "answers": [
+       "吃饭"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "他们决定去楼下那______",
+      "answers": [
+       "家"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 有空的___，来坐坐。\n2) 咱们走___。\n3) 别___说，这样不好。",
+    "trans": {
+     "ko": "1) 그가 돌아오지 않았다는 건 놀라웠어요. 2) 그 정책이 실패한 이유는 여러 가지예요. 3) 이 논문의 장점은 방법론의 정교함에 있어요.",
+     "en": "1) It was surprising that he had not returned. 2) There are several reasons why the policy failed. 3) The strength of this paper lies in the sophistication of its methodology."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "有空的___，来坐坐。",
+      "options": [
+       "话",
+       "是",
+       "吗"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "咱们走___。",
+      "options": [
+       "吧",
+       "嘛",
+       "的"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "别___说，这样不好。",
+      "options": [
+       "那样",
+       "那么多",
+       "那天"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "朋友问我：“(1)了吗？”我说：“还没呢。”他说：“那一起去(2)。”我们很有(3)，不需要说太多，就知道对方的意思。",
+    "trans": {
+     "ko": "이 보고서에는 몇 가지 문제가 있다. 가장 큰 문제는 자료의 출처가 불분명하다는 점이다. 앞서 말한 문제는 결론의 신뢰성을 해칠 수 있다. 따라서 자료를 다시 확인하는 것이 필요하다.",
+     "en": "There are several problems in this report. The biggest lies in the unclear source of the data. The aforementioned problem may undermine the reliability of the conclusion. It is therefore necessary to recheck the data."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "吃",
+       "睡",
+       "跑"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "吧",
+       "嘛",
+       "的"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "默契",
+       "麻烦",
+       "借口"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "语言小课堂\n说话为什么要省略\n汉语里，常常可以省略不言自明的成分。比如“吃了吗”，没有人会问“你吃了饭了吗”。这样既简洁，又自然。但在正式的文章里，通常要把主语写完整。",
+    "trans": {
+     "ko": "글쓰기 팁\n읽기 쉬운 문장\n독자는 이미 아는 정보에서 새로운 정보로 흐르는 글을 쉽게 읽습니다. 긴 주어는 뒤로 보내고, 핵심은 문장 끝에 두세요. 이렇게 하면 문장이 균형 잡히고 명확해집니다.",
+     "en": "WRITING TIP\nSentences that read easily\nReaders find it easy to follow text that moves from given to new information. Move long subjects to the end and place the key point last. This makes sentences balanced and clear."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "口语中常省略什么？",
+      "options": [
+       "不言自明的成分",
+       "所有的名词",
+       "全部动词"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "正式文章中通常怎么做？",
+      "options": [
+       "把主语写完整",
+       "全部省略",
+       "不用主语"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "汉语口语常省略不言自明的成分，使表达简洁自然。正式的文章则需要写完整主语。",
+    "trans": {
+     "ko": "글은 독자가 이미 아는 정보에서 새 정보로 흐르는 글을 읽기 쉽다고 말한다. 글은 긴 주어를 앞에 두라고 권한다. 글은 핵심을 문장 끝에 두라고 권한다.",
+     "en": "The text says readers find given-to-new text easy to follow. The text advises keeping long subjects at the start. The text advises placing the key point at the end."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "正式文章要写完整主语。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "口语不能省略任何成分。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "作者是外国人。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "吃了吗？",
+    "read": "Chī le ma?",
+    "ko": "그가 제안을 거절했다는 사실은 놀라웠습니다.",
+    "en": "It was surprising that he turned down the proposal.",
+    "situation": {
+     "ko": "긴 주어를 후치할 때",
+     "en": "Extraposing a long subject"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "咱们走吧。",
+    "read": "Zán men zǒu ba.",
+    "ko": "이 문제에는 여러 가지 원인이 있습니다.",
+    "en": "There are several causes of this problem.",
+    "situation": {
+     "ko": "존재문으로 새 정보를 도입할 때",
+     "en": "Introducing new information with 'there'"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "有空的话，来坐坐。",
+    "read": "Yǒukòng de huà, lái zuò zuò.",
+    "ko": "이 연구의 가치는 새로운 데이터를 제시했다는 점에 있습니다.",
+    "en": "The value of this study lies in the new data it presents.",
+    "situation": {
+     "ko": "문미에 핵심을 둘 때",
+     "en": "Placing the key point last"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "这不是很简单嘛。",
+    "read": "Zhè bú shì hěn jiǎn dān ma.",
+    "ko": "그는 팀 전체에 매우 중요한 정보를 전달했습니다.",
+    "en": "He passed on to the whole team some information of great importance.",
+    "situation": {
+     "ko": "긴 목적어를 뒤로 보낼 때",
+     "en": "Moving a long object to the end"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "别那样说，这样不好。",
+    "read": "Bié nà yàng shuō, zhè yàng bù hǎo.",
+    "ko": "앞서 언급한 문제로 돌아가 보겠습니다.",
+    "en": "Let us return to the aforementioned problem.",
+    "situation": {
+     "ko": "앞선 정보를 가리킬 때",
+     "en": "Referring back to given information"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "他话里有言外之意。",
+    "read": "Tā huà lǐ yǒu yán wài zhī yì.",
+    "ko": "이 접근법에는 한 가지 심각한 결점이 있습니다.",
+    "en": "There is one serious flaw in this approach.",
+    "situation": {
+     "ko": "새 정보를 도입할 때",
+     "en": "Introducing a new point"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "不必重复已经说过的话。",
+    "read": "Bú bì chóng fù yǐjīng shuō guo de huà.",
+    "ko": "그 문제를 해결한 것은 바로 이 새로운 방법이었습니다.",
+    "en": "It was this new method that solved the problem.",
+    "situation": {
+     "ko": "분열문으로 초점을 줄 때",
+     "en": "Using a cleft for focus"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "口语的表达通常很简洁。",
+    "read": "Kǒu yǔ de biǎo dá tōngcháng hěn jiǎn jié.",
+    "ko": "이 글의 목적은 두 가지 접근을 비교하는 것입니다.",
+    "en": "The aim of this essay is to compare the two approaches.",
+    "situation": {
+     "ko": "문미에 중요한 정보를 두는 구조",
+     "en": "A balanced, end-focused structure"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "……吧。",
+    "read": "… Ba.",
+    "ko": "~라는 것은 …이다 (후치).",
+    "en": "It is ... that ..."
+   },
+   {
+    "id": "w2",
+    "t": "……的话，……。",
+    "read": "… De huà, ….",
+    "ko": "~이(가) 있다 (존재).",
+    "en": "There is/are ..."
+   },
+   {
+    "id": "w3",
+    "t": "……嘛。",
+    "read": "… Ma.",
+    "ko": "가치/문제는 ~에 있다.",
+    "en": "The strength/problem lies in ..."
+   },
+   {
+    "id": "w4",
+    "t": "别那样……。",
+    "read": "Bié nà yàng ….",
+    "ko": "앞서 말한 ~.",
+    "en": "the aforementioned ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "정보 구조(문미 중점, 후치, there is)를 사용해 문제를 분석하는 4문장을 써 보세요.",
+    "en": "Write four sentences analysing a problem, using information structure (end-weight, extraposition, there is)."
+   },
+   "must_include": [
+    {
+     "label": "吧",
+     "match": [
+      "吧"
+     ]
+    },
+    {
+     "label": "的话",
+     "match": [
+      "的话"
+     ]
+    },
+    {
+     "label": "嘛",
+     "match": [
+      "嘛"
+     ]
+    }
+   ],
+   "model": "有空的话，我们一起去吃饭吧。别想太多嘛，随便吃点就行。我正好也饿了，走吧。",
+   "model_trans": {
+    "ko": "이 계획에는 한 가지 심각한 결점이 있어요. 비용이 예상보다 훨씬 높아질 수 있다는 점은 분명해요. 문제의 핵심은 일정이 지나치게 빡빡하다는 데 있어요. 앞서 말한 위험을 줄이려면 단계별로 진행하는 것이 바람직해요.",
+    "en": "There is one serious flaw in this plan. It is clear that costs could rise far above expectation. The crux of the problem lies in the schedule being too tight. To reduce the aforementioned risk, it is advisable to proceed in stages."
+   }
+  }
+ }
+}

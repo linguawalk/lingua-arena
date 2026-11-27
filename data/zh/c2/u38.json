@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "zh_c2_u38",
+  "lang": "zh",
+  "family": "asia",
+  "level": "c2",
+  "unit": 38,
+  "concept": "C2.U38",
+  "status": "live",
+  "title": {
+   "target": "引用与出处的写法",
+   "ko": "인용과 출처 표기",
+   "en": "Citing and attributing sources"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "引用",
+   "pos": "phrase",
+   "read": "yǐn yòng",
+   "ko": "~에 따르면",
+   "en": "according to",
+   "ex": {
+    "t": "引用张教授的文章。",
+    "read": "Yǐn yòng zhāng jiào shòu de wén zhāng.",
+    "ko": "연구에 따르면 수면은 중요해요.",
+    "en": "According to the study, sleep matters."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "直接引用",
+   "pos": "verb",
+   "read": "zhí jiē yǐn yòng",
+   "ko": "인용하다(출처를 밝히다)",
+   "en": "cite",
+   "ex": {
+    "t": "直接引用要加引号。",
+    "read": "Zhí jiē yǐn yòng yào jiā yǐn hào.",
+    "ko": "논문에서는 출처를 인용해야 해요.",
+    "en": "Papers must cite their sources."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "间接引用",
+   "pos": "verb",
+   "read": "jiàn jiē yǐn yòng",
+   "ko": "직접 인용하다",
+   "en": "quote",
+   "ex": {
+    "t": "间接引用要用自己的话。",
+    "read": "Jiàn jiē yǐn yòng yào yòng zìjǐ de huà.",
+    "ko": "그는 원문을 직접 인용했어요.",
+    "en": "He quoted the original directly."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "注明出处",
+   "pos": "phrase",
+   "read": "zhù míng chū chǔ",
+   "ko": "~의 표현을 빌리면",
+   "en": "in the words of",
+   "ex": {
+    "t": "务必注明出处。",
+    "read": "Wù bì zhù míng chū chǔ.",
+    "ko": "그녀의 표현을 빌리면 변화는 느려요.",
+    "en": "In the words of the author, change is slow."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "参考文献",
+   "pos": "phrase",
+   "read": "cān kǎo wén xiàn",
+   "ko": "~가 지적했듯",
+   "en": "as noted by",
+   "ex": {
+    "t": "参考文献列在文末。",
+    "read": "Cān kǎo wén xiàn liè zài wén mò.",
+    "ko": "스미스가 지적했듯 이 개념은 모호해요.",
+    "en": "As noted by Smith, the concept is vague."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "注释",
+   "pos": "noun",
+   "read": "zhù shì",
+   "ko": "참고문헌",
+   "en": "bibliography",
+   "ex": {
+    "t": "用注释补充说明。",
+    "read": "Yòng zhù shì bǔchōng shuō míng.",
+    "ko": "참고문헌을 마지막에 정리하세요.",
+    "en": "List the bibliography at the end."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "二手资料",
+   "pos": "noun",
+   "read": "èr shǒu zī liào",
+   "ko": "각주",
+   "en": "footnote",
+   "ex": {
+    "t": "二手资料是对一手资料的解释。",
+    "read": "Èr shǒu zī liào shì duì yì shǒu zī liào de jiěshì.",
+    "ko": "각주에 출처를 적었어요.",
+    "en": "I gave the source in a footnote."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "正如",
+   "pos": "verb",
+   "read": "zhèng rú",
+   "ko": "출처를 밝히다",
+   "en": "acknowledge",
+   "ex": {
+    "t": "正如李教授所指出，问题很多。",
+    "read": "Zhèng rú lǐ jiào shòu suǒ zhǐ chū, wèntí hěn duō.",
+    "ko": "출처를 반드시 밝혀야 해요.",
+    "en": "You must acknowledge your sources."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "借用",
+   "pos": "phrase",
+   "read": "jiè yòng",
+   "ko": "2차 자료",
+   "en": "secondary source",
+   "ex": {
+    "t": "借用他的话说，这是一场革命。",
+    "read": "Jiè yòng tā de huà shuō, zhè shì yì chǎng gé mìng.",
+    "ko": "2차 자료는 1차 자료를 해석해요.",
+    "en": "A secondary source interprets a primary source."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "格式",
+   "pos": "phrase",
+   "read": "gé shì",
+   "ko": "인용 형식",
+   "en": "citation style",
+   "ex": {
+    "t": "引用格式因学科而异。",
+    "read": "Yǐn yòng gé shì yīn xué kē ér yì.",
+    "ko": "학과의 인용 형식을 따르세요.",
+    "en": "Follow the department's citation style."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "据……／正如……所指出／借用……的话说／参考文献／注释",
+   "en": "Citation and sources: 据…… / 正如……所指出 / 参考文献 / 注释"
+  },
+  "explain": {
+   "ko": "学术写作中，用别人的想法一定要注明出处。常用“据……”“正如……所指出”“借用……的话说”。原样照抄的是直接引用，要加引号；用自己的话改写的是间接引用，也要标出处。文末列出参考文献，补充说明放在注释里。不注明出处就是抄袭。",
+   "en": "In academic writing, always cite sources. Phrases: 据……、正如……所指出、借用……的话说. Verbatim copying is direct quotation and needs quotation marks; own-word rewriting is indirect and also needs a source. List references at the end; put supplements in notes. Without sources it is plagiarism."
+  },
+  "table": {
+   "head": [
+    "类型 / Type",
+    "表达 / Phrase",
+    "例子 / Example"
+   ],
+   "rows": [
+    [
+     "出处",
+     "据……",
+     "据张教授。"
+    ],
+    [
+     "指出",
+     "正如……所指出",
+     "正如李教授所指出。"
+    ],
+    [
+     "借用",
+     "借用……的话说",
+     "借用他的话说。"
+    ],
+    [
+     "参考",
+     "参考文献",
+     "文末列出。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "直接引用要加引号。",
+    "en": "Direct quotes need quotation marks."
+   },
+   {
+    "ko": "间接引用也要出处。",
+    "en": "Indirect quotes need sources too."
+   },
+   {
+    "ko": "格式按学科。",
+    "en": "Follow field style."
+   }
+  ],
+  "examples": [
+   {
+    "t": "据张教授介绍，问题很多。",
+    "read": "Jù zhāng jiào shòu jièshào, wèntí hěn duō.",
+    "ko": "연구에 따르면 수면은 중요해요.",
+    "en": "According to the study, sleep matters."
+   },
+   {
+    "t": "正如李教授所指出，时间不够。",
+    "read": "Zhèng rú lǐ jiào shòu suǒ zhǐ chū, shíjiān bú gòu.",
+    "ko": "논문에서는 출처를 인용해야 해요.",
+    "en": "Papers must cite their sources."
+   },
+   {
+    "t": "借用他的话说，这是一场革命。",
+    "read": "Jiè yòng tā de huà shuō, zhè shì yì chǎng gé mìng.",
+    "ko": "그는 원문을 직접 인용했어요.",
+    "en": "He quoted the original directly."
+   },
+   {
+    "t": "务必注明出处。",
+    "read": "Wù bì zhù míng chū chǔ.",
+    "ko": "스미스가 지적했듯 이 개념은 모호해요.",
+    "en": "As noted by Smith, the concept is vague."
+   },
+   {
+    "t": "参考文献列在文末。",
+    "read": "Cān kǎo wén xiàn liè zài wén mò.",
+    "ko": "학과의 인용 형식을 따르세요.",
+    "en": "Follow the department's citation style."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___张教授介绍，问题很多。",
+    "options": [
+     "据",
+     "把",
+     "被"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___李教授所指出，时间不够。",
+    "options": [
+     "正如",
+     "假如",
+     "虽然"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "借用他的话___，这是一场革命。",
+    "options": [
+     "说",
+     "唱",
+     "写"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "务必注明___。",
+    "options": [
+     "出处",
+     "天气",
+     "年龄"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "引用时要注意什么？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 직접 인용과 간접 인용의 차이는 무엇인가요?",
+     "en": "(Question) What is the difference between direct and indirect quotation?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "一定要注明出处。",
+       "不需要出处。",
+       "隐藏出处。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "直接引用和间接引用有什么区别？"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 참고문헌은 왜 필요한가요?",
+     "en": "(Question) Why is a bibliography necessary?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "最好的回答是什么？",
+      "options": [
+       "直接引用原样，间接引用用自己的话。",
+       "两者相同。",
+       "都不需要出处。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "我可以用张教授的文章吗？"
+      },
+      {
+       "s": "B",
+       "t": "引用可以，但一定要注明出处。"
+      },
+      {
+       "s": "A",
+       "t": "原样写的话？"
+      },
+      {
+       "s": "B",
+       "t": "要加引号，还要写出处。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 문장은 출처를 밝혀야 할까?\nB: 응, 다른 사람의 아이디어니까 반드시 밝혀야 해.\nA: 어떻게 쓰면 돼?\nB: 'According to Smith'로 시작하고 참고문헌에 넣어.",
+     "en": "A: Do I need to cite a source for this sentence?\nB: Yes, it's someone else's idea, so you must.\nA: How do I write it?\nB: Begin with 'According to Smith' and add it to the bibliography."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "原样写时怎么办？",
+      "options": [
+       "加引号并写出处",
+       "什么都不加",
+       "不写出处"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "学术写作中，使用别人的想法一定要注明出处。直接引用要加引号，间接引用也要写出处。文末列出参考文献，补充说明放在注释里。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "출처를 밝히는 것은 학문적 정직성의 기본입니다. 직접 인용은 원문 그대로 따옴표 안에 쓰고, 간접 인용은 자신의 말로 바꾸어 쓰되 출처를 밝힙니다. 마지막에는 일관된 형식으로 참고문헌을 정리해야 합니다.",
+     "en": "Acknowledging sources is the basis of academic honesty. A direct quotation is written in the original words inside quotation marks, while an indirect one is put in your own words with the source acknowledged. At the end, the bibliography must be arranged in a consistent style."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "补充说明放在哪里？",
+      "options": [
+       "注释",
+       "标题",
+       "封底"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "这段话的出处是哪里？"
+      },
+      {
+       "s": "B",
+       "t": "是张教授的书。"
+      },
+      {
+       "s": "A",
+       "t": "列入参考文献了吗？"
+      },
+      {
+       "s": "B",
+       "t": "列在文末了。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "편집자: 이 단락의 출처가 없습니다.\n저자: 어디에 넣어야 하나요?\n편집자: 문장 끝에 각주를 다세요.\n저자: 알겠습니다. 참고문헌에도 추가하겠습니다.",
+     "en": "Editor: This paragraph has no source.\nAuthor: Where should I put it?\nEditor: Add a footnote at the end of the sentence.\nAuthor: Understood. I'll add it to the bibliography too."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "学生说出处是张教授的______",
+      "answers": [
+       "书"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "参考文献列在______",
+      "answers": [
+       "文末"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___张教授介绍，问题很多。\n2) ___李教授所指出，时间不够。\n3) 务必注明___。",
+    "trans": {
+     "ko": "1) 연구에 따르면 수면은 중요해요. 2) 논문에서는 출처를 인용해야 해요. 3) 스미스가 지적했듯 이 개념은 모호해요.",
+     "en": "1) According to the study, sleep matters. 2) Papers must cite their sources. 3) As noted by Smith, the concept is vague."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___张教授介绍，问题很多。",
+      "options": [
+       "据",
+       "把",
+       "被"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___李教授所指出，时间不够。",
+      "options": [
+       "正如",
+       "假如",
+       "虽然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "务必注明___。",
+      "options": [
+       "出处",
+       "天气",
+       "年龄"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "写论文时，使用别人的想法要注明(1)。原样照抄的内容属于(2)，要加引号。文末要列出(3)。",
+    "trans": {
+     "ko": "그는 원문을 직접 인용했다. 그녀의 표현을 빌리면 변화는 느리다. 모든 출처는 참고문헌에 밝혀야 한다.",
+     "en": "He quoted the original directly. In the words of the author, change is slow. All sources must be acknowledged in the bibliography."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "出处",
+       "颜色",
+       "声音"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "直接引用",
+       "翻译",
+       "宣传"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "参考文献",
+       "目录",
+       "广告"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "学术伦理\n注明出处\n不注明出处使用他人的想法或文字，就是抄袭。直接引用要加引号，间接引用也要写出处。参考文献要准确，让读者能找到原始资料。",
+    "trans": {
+     "ko": "대학 지침\n표절을 피하는 법\n다른 사람의 아이디어나 문장을 쓸 때는 반드시 출처를 밝히세요. 직접 인용은 따옴표를 쓰고, 바꿔 쓰기는 의미를 바꾸지 마세요. 학과가 요구하는 인용 형식을 일관되게 따르세요.",
+     "en": "UNIVERSITY GUIDELINES\nHow to avoid plagiarism\nWhen using other people's ideas or sentences, always acknowledge the source. Use quotation marks for direct quotation, and do not change the meaning when paraphrasing. Follow the citation style your department requires consistently."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "不注明出处使用叫什么？",
+      "options": [
+       "抄袭",
+       "引用",
+       "翻译"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "参考文献为什么要准确？",
+      "options": [
+       "让读者找到原始资料",
+       "使文章变长",
+       "突出作者"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "文章说不注明出处就是抄袭，参考文献要准确让读者找到原始资料。",
+    "trans": {
+     "ko": "지침은 다른 사람의 아이디어를 쓸 때 출처를 밝히라고 한다. 지침은 직접 인용에 따옴표를 쓰지 말라고 한다. 지침은 인용 형식을 일관되게 따르라고 한다.",
+     "en": "The guidelines say to acknowledge the source when using others' ideas. The guidelines say not to use quotation marks for direct quotation. The guidelines say to follow the citation style consistently."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "不注明出处是抄袭。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "间接引用不需要出处。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章批评某篇论文。",
+      "options": [
+       "对",
+       "错",
+       "没有提到"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "一定要注明出处。",
+    "read": "Yí dìng yào zhù míng chū chǔ.",
+    "ko": "연구에 따르면 수면 부족은 집중력을 떨어뜨립니다.",
+    "en": "According to the study, lack of sleep reduces concentration.",
+    "situation": {
+     "ko": "출처를 밝힐 때",
+     "en": "Attributing a claim"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "直接引用原样，间接引用用自己的话。",
+    "read": "Zhí jiē yǐn yòng yuán yàng, jiàn jiē yǐn yòng yòng zìjǐ de huà.",
+    "ko": "저는 그의 논문을 참고문헌에 인용했습니다.",
+    "en": "I cited his paper in the bibliography.",
+    "situation": {
+     "ko": "인용을 말할 때",
+     "en": "Citing"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "据张教授介绍，问题很多。",
+    "read": "Jù zhāng jiào shòu jièshào, wèntí hěn duō.",
+    "ko": "그는 원문을 큰따옴표로 직접 인용했습니다.",
+    "en": "He quoted the original directly in double quotation marks.",
+    "situation": {
+     "ko": "직접 인용",
+     "en": "Direct quotation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "正如李教授所指出，时间不够。",
+    "read": "Zhèng rú lǐ jiào shòu suǒ zhǐ chū, shíjiān bú gòu.",
+    "ko": "스미스가 지적했듯 이 개념은 모호합니다.",
+    "en": "As noted by Smith, the concept is vague.",
+    "situation": {
+     "ko": "간접 인용",
+     "en": "Indirect attribution"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "借用他的话说，这是一场革命。",
+    "read": "Jiè yòng tā de huà shuō, zhè shì yì chǎng gé mìng.",
+    "ko": "그녀의 표현을 빌리면 변화는 느립니다.",
+    "en": "In the words of the author, change is slow.",
+    "situation": {
+     "ko": "표현을 빌릴 때",
+     "en": "Borrowing a phrase"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "参考文献列在文末。",
+    "read": "Cān kǎo wén xiàn liè zài wén mò.",
+    "ko": "다른 사람의 아이디어를 쓸 때는 반드시 출처를 밝히세요.",
+    "en": "When you use someone else's ideas, always acknowledge the source.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "用注释补充说明。",
+    "read": "Yòng zhù shì bǔchōng shuō míng.",
+    "ko": "2차 자료는 1차 자료를 해석한 것입니다.",
+    "en": "A secondary source is an interpretation of a primary source.",
+    "situation": {
+     "ko": "자료를 구분할 때",
+     "en": "Distinguishing sources"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "引用格式因学科而异。",
+    "read": "Yǐn yòng gé shì yīn xué kē ér yì.",
+    "ko": "학과가 요구하는 인용 형식을 일관되게 따르세요.",
+    "en": "Follow the citation style your department requires consistently.",
+    "situation": {
+     "ko": "형식을 말할 때",
+     "en": "Stating a requirement"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "据……。",
+    "read": "Jù ….",
+    "ko": "~에 따르면.",
+    "en": "according to ..."
+   },
+   {
+    "id": "w2",
+    "t": "正如……所指出。",
+    "read": "Zhèng rú … suǒ zhǐ chū.",
+    "ko": "~가 지적했듯.",
+    "en": "as noted by ..."
+   },
+   {
+    "id": "w3",
+    "t": "借用……的话说。",
+    "read": "Jiè yòng … de huà shuō.",
+    "ko": "출처를 밝히다.",
+    "en": "acknowledge the source"
+   },
+   {
+    "id": "w4",
+    "t": "注明出处。",
+    "read": "Zhù míng chū chǔ.",
+    "ko": "일관되게 따르다.",
+    "en": "follow consistently"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "출처를 밝히는 표현을 세 가지 이상 사용해 4문장을 써 보세요.",
+    "en": "Write four sentences using at least three attribution expressions."
+   },
+   "must_include": [
+    {
+     "label": "据",
+     "match": [
+      "据张教授"
+     ]
+    },
+    {
+     "label": "正如",
+     "match": [
+      "正如"
+     ]
+    },
+    {
+     "label": "参考文献",
+     "match": [
+      "参考文献"
+     ]
+    }
+   ],
+   "model": "据张教授介绍，这个问题很严重。正如李教授所指出，对策十分紧迫。我注明了所有的出处，并把参考文献列在文末。",
+   "model_trans": {
+    "ko": "연구에 따르면 수면 부족은 집중력을 떨어뜨립니다. 스미스가 지적했듯 이 효과는 청소년에게 특히 큽니다. 한 학자의 표현을 빌리면 수면은 학습의 기초입니다. 모든 출처는 참고문헌에 밝혀야 합니다.",
+    "en": "According to the study, lack of sleep reduces concentration. As noted by Smith, this effect is especially large in adolescents. In the words of one scholar, sleep is the foundation of learning. All sources must be acknowledged in the bibliography."
+   }
+  }
+ }
+}
