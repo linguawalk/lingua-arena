@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u05",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 5,
+  "concept": "C2.U05",
+  "status": "live",
+  "title": {
+   "target": "接続表現で文をつなぐ：連用形・〜て・〜ながら",
+   "ko": "분사구문과 문학적 산문",
+   "en": "Participle and absolute constructions in literary prose"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "ついに",
+   "pos": "phrase",
+   "read": "ついに",
+   "ko": "마침내",
+   "en": "at long last",
+   "ex": {
+    "t": "長い旅のあと、ついに故郷に着きました。",
+    "read": "ながいたびのあと、ついにこきょうにつきました。",
+    "ko": "마침내 그들은 정상에 도착했어요.",
+    "en": "At long last they reached the summit."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "静かに",
+   "pos": "adv",
+   "read": "しずかに",
+   "ko": "조용히",
+   "en": "quietly",
+   "ex": {
+    "t": "彼は静かにドアを閉めました。",
+    "read": "かれはしずかにドアをしめました。",
+    "ko": "그녀는 조용히 문을 닫았어요.",
+    "en": "She quietly closed the door."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "立ち止まる",
+   "pos": "verb",
+   "read": "たちとまる",
+   "ko": "멈추어 서다",
+   "en": "pause",
+   "ex": {
+    "t": "彼は暗闇の中で立ち止まりました。",
+    "read": "かれはくらやみのなかでたちどまりました。",
+    "ko": "그는 잠시 멈추어 숨을 골랐어요.",
+    "en": "He paused to catch his breath."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "ためらう",
+   "pos": "verb",
+   "read": "ためらう",
+   "ko": "주저하다",
+   "en": "hesitate",
+   "ex": {
+    "t": "彼は答えるのをためらいました。",
+    "read": "かれはこたえるのをためらいました。",
+    "ko": "그는 대답하기 전에 주저했어요.",
+    "en": "He hesitated before answering."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "振り返る",
+   "pos": "phrase",
+   "read": "ふりかえる",
+   "ko": "뒤돌아보다",
+   "en": "glance back",
+   "ex": {
+    "t": "彼女は一度振り返ってから歩き出しました。",
+    "read": "かのじょはいちどふりかえってからあるきだしました。",
+    "ko": "그녀는 떠나며 한 번 뒤돌아보았어요.",
+    "en": "She glanced back as she left."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "〜を考えると",
+   "pos": "phrase",
+   "read": "〜をかんがえると",
+   "ko": "~을 고려하면",
+   "en": "all things considered",
+   "ex": {
+    "t": "全体を考えると、それは賢い選択でした。",
+    "read": "ぜんたいをかんがえると、それはかしこいせんたくでした。",
+    "ko": "모든 것을 고려하면 훌륭한 성과예요.",
+    "en": "All things considered, it is a fine result."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "〜に応じて",
+   "pos": "phrase",
+   "read": "〜におうじて",
+   "ko": "~에 따라",
+   "en": "depending on",
+   "ex": {
+    "t": "状況に応じて対応を変えます。",
+    "read": "じょうきょうにおうじてたいおうをかえます。",
+    "ko": "날씨에 따라 계획이 바뀔 수 있어요.",
+    "en": "Plans may change depending on the weather."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "〜ので",
+   "pos": "conj",
+   "read": "〜ので",
+   "ko": "~하기 때문에",
+   "en": "given that",
+   "ex": {
+    "t": "窓が開いていたので、風が入ってきました。",
+    "read": "まどがひらいていたので、かぜがいっってきました。",
+    "ko": "그가 경험이 많다는 점을 감안하면 믿을 만해요.",
+    "en": "Given that he is experienced, he is reliable."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "暗闇の中で",
+   "pos": "phrase",
+   "read": "くらやみのなかで",
+   "ko": "어둠 속에서",
+   "en": "in the half-light",
+   "ex": {
+    "t": "暗闇の中で、彼は手探りで進みました。",
+    "read": "くらやみのなかで、かれはてさぐりですすみました。",
+    "ko": "어스름 속에서 그는 길을 찾았어요.",
+    "en": "In the half-light he found the path."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "集中した",
+   "pos": "adj",
+   "read": "しゅうちゅうした",
+   "ko": "집중한",
+   "en": "intent",
+   "ex": {
+    "t": "彼は集中した様子で本を読んでいました。",
+    "read": "かれはしゅうちゅうしたようすでほんをよんでいました。",
+    "ko": "그는 책에 몰두해 있었어요.",
+    "en": "He was intent on his book."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜てから／〜ながら／〜ので／〜としたら／〜なか",
+   "en": "Linking forms: 〜てから / 〜ながら / 〜ので / 〜としたら / 〜なか"
+  },
+  "explain": {
+   "ko": "日本語は接続の形で長い文を簡潔につなぎます。先の動作は「〜てから」：「手紙を書き終えてから、彼女は窓辺に行きました。」同時の動作は「〜ながら」、理由は「〜ので」、条件は「〜としたら」、背景は「〜なか」を使います：「雨の中、彼は出発しました。」主語が変わるときは文を分けて、誤解を避けましょう。",
+   "en": "Japanese links long sentences concisely with connecting forms. An earlier action: 「〜てから」: 「手紙を書き終えてから、彼女は窓辺に行きました。」 Simultaneous action: 「〜ながら」; reason: 「〜ので」; condition: 「〜としたら」; background: 「〜なか」. When the subject changes, split the sentence to avoid confusion."
+  },
+  "table": {
+   "head": [
+    "機能 / Function",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "前後 / Sequence",
+     "〜てから",
+     "書き終えてから窓辺へ行った。"
+    ],
+    [
+     "同時 / Simultaneous",
+     "〜ながら",
+     "息を整えながら入った。"
+    ],
+    [
+     "理由 / Reason",
+     "〜ので",
+     "窓が開いていたので風が入った。"
+    ],
+    [
+     "条件 / Condition",
+     "〜としたら",
+     "天気がよいとしたら出発する。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜てから」は、前の動作が終わったあとを表します。",
+    "en": "「〜てから」 marks what follows a completed action."
+   },
+   {
+    "ko": "「〜ながら」の前後は同じ主語にします。",
+    "en": "「〜ながら」 needs the same subject on both sides."
+   },
+   {
+    "ko": "長い文は接続を減らして分けましょう。",
+    "en": "Split long sentences."
+   }
+  ],
+  "examples": [
+   {
+    "t": "手紙を書き終えてから、彼女は窓辺へ行きました。",
+    "read": "てがみをかきおえてから、かのじょはまどべへいきました。",
+    "ko": "편지를 다 쓰고 나서 그녀는 창가로 갔어요.",
+    "en": "Having finished the letter, she went to the window."
+   },
+   {
+    "t": "窓が開いていたので、風が入ってきました。",
+    "read": "まどがひらいていたので、かぜがいっってきました。",
+    "ko": "문이 열려 있어서 바람이 들어왔어요.",
+    "en": "The door being open, the wind blew in."
+   },
+   {
+    "t": "息を整えながら、彼はゆっくり中に入りました。",
+    "read": "いきをととのえながら、かれはゆっくりなかにいりました。",
+    "ko": "날씨가 허락한다면 우리는 내일 떠날 거예요.",
+    "en": "Weather permitting, we will leave tomorrow."
+   },
+   {
+    "t": "天気がよいとしたら、明日出発します。",
+    "read": "てんきがよいとしたら、あしたしゅっぱつします。",
+    "ko": "잠시 멈춘 뒤 그는 천천히 대답했어요.",
+    "en": "Pausing for a moment, he answered slowly."
+   },
+   {
+    "t": "雨の中、彼は静かに歩き出しました。",
+    "read": "あめのなか、かれはしずかにあるきだしました。",
+    "ko": "모든 것을 고려하면 그것은 훌륭한 결과예요.",
+    "en": "All things considered, it is an excellent result."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "手紙を書き終え___、彼女は窓辺へ行きました。",
+    "options": [
+     "てから",
+     "ながら",
+     "ように"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "窓が開いていた___、風が入ってきました。",
+    "options": [
+     "ので",
+     "から",
+     "なら"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "息を整え___、ゆっくり入りました。",
+    "options": [
+     "ながら",
+     "てから",
+     "ので"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "天気がよい___、明日出発します。",
+    "options": [
+     "としたら",
+     "ために",
+     "ながら"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "会議のあと、何をしましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 회의가 끝난 뒤 무엇을 했나요?",
+     "en": "(Question) What did you do after the meeting?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "報告書をまとめてから帰りました。",
+       "明日会議があります。",
+       "まだ食べていません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ピクニックはどうなりますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 소풍은 어떻게 되나요?",
+     "en": "(Question) What about the picnic?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "天気がよければ行きます。",
+       "ピクニックは昨日でした。",
+       "ピクニックは好きではありません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "報告書は全部読んだ？"
+      },
+      {
+       "s": "B",
+       "t": "うん、読み終えてから意見をまとめたよ。"
+      },
+      {
+       "s": "A",
+       "t": "じゃあ、明日の会議で発表できるね。"
+      },
+      {
+       "s": "B",
+       "t": "天気が悪くて電車が遅れなければね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 보고서를 다 읽었어?\nB: 응, 다 읽고 나서 의견을 정리했어.\nA: 그럼 내일 회의에서 발표할 수 있겠네.\nB: 날씨가 나빠서 교통이 막히지 않는다면 말이야.",
+     "en": "A: Have you read the report?\nB: Yes; having read it, I organised my views.\nA: So you can present at tomorrow's meeting.\nB: Traffic permitting, that is."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bが言った条件は何ですか。",
+      "options": [
+       "電車が遅れないこと",
+       "天気がよいこと",
+       "会議が早く終わること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "接続の形は、文を簡潔にし、文章に優雅な流れを与えます。「〜てから」は先の動作を、「〜ながら」は同時の動作を表します。ただし、主語がはっきりしないと誤解を招くので、必要なときは文を分けましょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "분사구문은 문장을 간결하게 만들고 문학적 산문에 우아한 흐름을 줍니다. 완료 분사구문(having + 과거분사)은 앞선 행동을 나타내고, 독립 분사구문은 주어가 다른 분사구를 이끕니다. 주어를 분명히 하여 오해를 피하세요.",
+     "en": "Participle clauses make sentences concise and give literary prose an elegant flow. A perfect participle clause (having + past participle) shows an earlier action, and an absolute construction introduces a participle phrase with its own subject. Make the subject clear to avoid misreading."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "接続の形は文にどんな効果を与えますか。",
+      "options": [
+       "簡潔で優雅な流れを与える",
+       "文を長くする",
+       "意味を隠す"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この場面の文が長すぎます。"
+      },
+      {
+       "s": "B",
+       "t": "「〜てから」で短くしてみましょう。"
+      },
+      {
+       "s": "A",
+       "t": "たとえば？"
+      },
+      {
+       "s": "B",
+       "t": "「ドアを閉めてから、彼は静かに去った」のように。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "작가: 이 장면의 문장이 너무 길어요.\n편집자: 분사구문으로 줄여 보세요.\n작가: 예를 들면요?\n편집자: '문을 닫고 나서, 그는 조용히 떠났다'처럼요.",
+     "en": "Writer: The sentences in this scene are too long.\nEditor: Try shortening them with participle clauses.\nWriter: For example?\nEditor: Something like 'Having closed the door, he left quietly.'"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "編集者は文が長すぎるので______で短くしようと言います",
+      "answers": [
+       "てから"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "「ドアを閉めてから、彼は______去った」",
+      "answers": [
+       "静かに"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 手紙を書き終え___、彼女は窓辺へ行きました。\n2) 窓が開いていた___、風が入ってきました。\n3) 天気がよい___、明日出発します。",
+    "trans": {
+     "ko": "1) 편지를 다 쓰고 나서 그녀는 창가로 갔어요. 2) 문이 열려 있어서 바람이 들어왔어요. 3) 날씨가 허락한다면 내일 떠날 거예요.",
+     "en": "1) Having finished the letter, she went to the window. 2) The door being open, the wind blew in. 3) Weather permitting, we will leave tomorrow."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "手紙を書き終え___、彼女は窓辺へ行きました。",
+      "options": [
+       "てから",
+       "ながら",
+       "ように"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "窓が開いていた___、風が入ってきました。",
+      "options": [
+       "ので",
+       "から",
+       "なら"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "天気がよい___、明日出発します。",
+      "options": [
+       "としたら",
+       "ために",
+       "ながら"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "ドアが開くと、彼は暗闇の(1)へ歩き出しました。少し立ち止まって耳を(2)から、ゆっくり進みました。全体を(3)と、それは賢い選択でした。",
+    "trans": {
+     "ko": "문이 열리자 그는 어둠 속으로 걸음을 옮겼다. 잠시 멈추어 귀를 기울인 뒤, 그는 천천히 앞으로 나아갔다. 모든 것을 감안하면 그것은 현명한 선택이었다.",
+     "en": "The door having opened, he stepped into the dark. Pausing to listen, he moved slowly forward. All things considered, it was a wise choice."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "中",
+       "上",
+       "横"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "澄ませて",
+       "澄ませる",
+       "澄ませた"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "考える",
+       "考えた",
+       "考えて"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "短編小説\n帰郷\n長い旅を終えて、彼はついに故郷に戻った。夕暮れの中、見慣れた道をたどりながら、家へ向かった。ドアは開いていた。息を整えながら、彼はゆっくり中に入った。",
+    "trans": {
+     "ko": "단편 소설\n귀향\n오랜 여행을 마치고 그는 마침내 고향에 돌아왔다. 어스름 속에서 낯익은 길을 더듬으며 그는 집으로 향했다. 문이 열려 있었다. 숨을 고르며 그는 천천히 안으로 들어갔다.",
+     "en": "SHORT STORY\nHomecoming\nHaving ended a long journey, he at long last returned to his hometown. Feeling his way along the familiar path in the half-light, he headed home. The door was open. Catching his breath, he stepped slowly inside."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "主人公はどこに戻りましたか。",
+      "options": [
+       "故郷",
+       "会社",
+       "学校"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ドアはどんな状態でしたか。",
+      "options": [
+       "開いていた",
+       "閉まっていた",
+       "壊れていた"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "物語の主人公は、長い旅を終えて故郷に戻ってきました。家に着くと、ドアが開いていたので、ゆっくり中に入りました。",
+    "trans": {
+     "ko": "이야기의 주인공은 긴 여행을 마치고 돌아왔다. 문은 잠겨 있었다. 그는 천천히 안으로 들어갔다.",
+     "en": "The protagonist returned after a long journey. The door was locked. He stepped slowly inside."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "主人公は長い旅を終えて戻ってきた。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ドアは閉まっていた。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "故郷には家族が住んでいる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "報告書をまとめてから帰りました。",
+    "read": "ほうこくしょをまとめてからかえりました。",
+    "ko": "보고서를 다 읽고 나서 그는 결론을 내렸습니다.",
+    "en": "Having read the report, he reached a conclusion.",
+    "situation": {
+     "ko": "완료된 행동 뒤의 행동을 말할 때",
+     "en": "An action after a completed one"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "天気がよければ行きます。",
+    "read": "てんきがよければいきます。",
+    "ko": "문이 닫혀 있었기 때문에 우리는 뒷문으로 들어갔습니다.",
+    "en": "The front door being locked, we entered by the back.",
+    "situation": {
+     "ko": "독립 분사구문으로 이유를 말할 때",
+     "en": "Absolute construction for reason"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "手紙を書き終えてから窓辺へ行きました。",
+    "read": "てがみをかきおえてからまどべへいきました。",
+    "ko": "날씨가 허락한다면 행사는 야외에서 열립니다.",
+    "en": "Weather permitting, the event will be held outdoors.",
+    "situation": {
+     "ko": "조건을 간결하게 나타낼 때",
+     "en": "A concise condition"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "窓が開いていたので風が入ってきました。",
+    "read": "まどがひらいていたのでかぜがいっってきました。",
+    "ko": "발걸음을 멈춘 채 그녀는 뒤를 돌아보았습니다.",
+    "en": "Stopping in her tracks, she glanced back.",
+    "situation": {
+     "ko": "동시 동작을 묘사할 때",
+     "en": "Describing simultaneous action"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "息を整えながら、ゆっくり入りました。",
+    "read": "いきをととのえながら、ゆっくりいりました。",
+    "ko": "모든 것을 감안하면 우리의 선택은 옳았습니다.",
+    "en": "All things considered, our choice was the right one.",
+    "situation": {
+     "ko": "종합 판단을 나타낼 때",
+     "en": "A summing-up judgement"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "雨の中、彼は静かに歩き出しました。",
+    "read": "あめのなか、かれはしずかにあるきだしました。",
+    "ko": "어스름 속에서 길을 더듬으며 그는 걸음을 옮겼습니다.",
+    "en": "Feeling his way through the half-light, he moved on.",
+    "situation": {
+     "ko": "문학적 묘사를 할 때",
+     "en": "Literary description"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "状況に応じて対応を変えます。",
+    "read": "じょうきょうにおうじてたいおうをかえます。",
+    "ko": "경험이 풍부하기 때문에 그는 신뢰받았습니다.",
+    "en": "Being experienced, he was trusted.",
+    "situation": {
+     "ko": "이유를 간결하게 나타낼 때",
+     "en": "A brief reason"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "暗闇の中で、彼は立ち止まりました。",
+    "read": "くらやみのなかで、かれはたちどまりました。",
+    "ko": "위기를 넘기고 나서야 그들은 안도했습니다.",
+    "en": "The crisis having passed, they finally relaxed.",
+    "situation": {
+     "ko": "완료 후 상태를 묘사할 때",
+     "en": "A state after completion"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜てから〜。",
+    "read": "〜てから〜。",
+    "ko": "~하고 나서 ~했다.",
+    "en": "Having p.p., S + V."
+   },
+   {
+    "id": "w2",
+    "t": "〜ながら〜。",
+    "read": "〜ながら〜。",
+    "ko": "~이 ~하기 때문에 ~.",
+    "en": "N + being/p.p., S + V."
+   },
+   {
+    "id": "w3",
+    "t": "〜ので〜。",
+    "read": "〜ので〜。",
+    "ko": "~이 허락한다면.",
+    "en": "Weather/Time permitting, ..."
+   },
+   {
+    "id": "w4",
+    "t": "〜としたら〜。",
+    "read": "〜としたら〜。",
+    "ko": "~하며 ~했다.",
+    "en": "-ing, S + V."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "완료 분사구문과 독립 분사구문을 사용해 한 장면을 4문장으로 묘사해 보세요.",
+    "en": "Describe a scene in four sentences using perfect participle and absolute constructions."
+   },
+   "must_include": [
+    {
+     "label": "てから",
+     "match": [
+      "書き終えてから"
+     ]
+    },
+    {
+     "label": "ので",
+     "match": [
+      "静かだったので"
+     ]
+    },
+    {
+     "label": "ながら",
+     "match": [
+      "整えながら"
+     ]
+    }
+   ],
+   "model": "手紙を書き終えてから、彼女は窓辺に行きました。雨がやんで通りが静かだったので、窓を開けました。少し立ち止まって息を整えながら、ドアを開けました。天気がよいとしたら、散歩に出るつもりでした。",
+   "model_trans": {
+    "ko": "편지를 다 쓰고 나서 그녀는 창가로 갔어요. 비가 그쳐서 거리는 고요했어요. 잠시 멈추어 숨을 고른 뒤 그녀는 문을 열었어요. 날씨가 허락한다면 산책을 나갈 생각이었어요.",
+    "en": "Having finished the letter, she went to the window. The rain having stopped, the street was still. Pausing to catch her breath, she opened the door. Weather permitting, she meant to go for a walk."
+   }
+  }
+ }
+}

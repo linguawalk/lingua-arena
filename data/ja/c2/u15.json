@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u15",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 15,
+  "concept": "C2.U15",
+  "status": "live",
+  "title": {
+   "target": "ことわざと格言",
+   "ko": "속담과 격언",
+   "en": "Proverbs and sayings"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "言うは易く行うは難し",
+   "pos": "proverb",
+   "read": "いうはやすくおこなうはむずかし",
+   "ko": "행동이 말보다 낫다",
+   "en": "Actions speak louder than words",
+   "ex": {
+    "t": "言うは易く行うは難しと言います。",
+    "read": "いうはやすくおこなうはむずかしといいます。",
+    "ko": "행동이 말보다 중요해요.",
+    "en": "Actions speak louder than words."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "不幸中の幸い",
+   "pos": "proverb",
+   "read": "ふこうちゅうのさいわい",
+   "ko": "불행 중 다행",
+   "en": "Every cloud has a silver lining",
+   "ex": {
+    "t": "けががなかったのは不幸中の幸いでした。",
+    "read": "けががなかったのはふこうちゅうのさいわいでした。",
+    "ko": "불행 중 다행이라고 하잖아요.",
+    "en": "Every cloud has a silver lining."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "取らぬ狸の皮算用",
+   "pos": "proverb",
+   "read": "とらぬたぬきのかわざんよう",
+   "ko": "김칫국부터 마시지 마라",
+   "en": "Don't count your chickens before they hatch",
+   "ex": {
+    "t": "結果が出る前から計算するのは取らぬ狸の皮算用です。",
+    "read": "けっかがでるぜんからけいさんするのはとらぬたぬきのかわざんようです。",
+    "ko": "결과가 나오기 전에 장담하지 마세요.",
+    "en": "Don't count your chickens before they hatch."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "後の祭り",
+   "pos": "proverb",
+   "read": "のちのまつり",
+   "ko": "호미로 막을 걸 가래로 막는다",
+   "en": "A stitch in time saves nine",
+   "ex": {
+    "t": "あとで悔やんでも後の祭りです。",
+    "read": "あとでくやんでものちのまつりです。",
+    "ko": "제때 손보면 큰 일을 막아요.",
+    "en": "A stitch in time saves nine."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "急がば回れ",
+   "pos": "proverb",
+   "read": "いそがばまわれ",
+   "ko": "소 잃고 외양간 고친다",
+   "en": "Closing the stable door after the horse has bolted",
+   "ex": {
+    "t": "急がば回れと言うように、慎重に進めましょう。",
+    "read": "いそがばまわれというように、しんちょうにすすめましょう。",
+    "ko": "이제 와서 고치는 건 늦었어요.",
+    "en": "It is closing the stable door after the horse has bolted."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "蒔かぬ種は生えぬ",
+   "pos": "proverb",
+   "read": "まかぬたねははえぬ",
+   "ko": "뿌린 대로 거둔다",
+   "en": "As you sow, so shall you reap",
+   "ex": {
+    "t": "蒔かぬ種は生えぬ、努力なしに成果はありません。",
+    "read": "まかぬたねははえぬ、どりょくなしにせいかはありません。",
+    "ko": "뿌린 대로 거두는 법이에요.",
+    "en": "As you sow, so shall you reap."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "備えあれば憂いなし",
+   "pos": "proverb",
+   "read": "そなえあればうれいなし",
+   "ko": "서두르면 일을 망친다",
+   "en": "Haste makes waste",
+   "ex": {
+    "t": "備えあれば憂いなしで、準備が大切です。",
+    "read": "そなえあればうれいなしで、じゅんびがたいせつです。",
+    "ko": "서두르면 일을 망쳐요.",
+    "en": "Haste makes waste."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "ことわざ",
+   "pos": "noun",
+   "read": "ことわざ",
+   "ko": "속담",
+   "en": "proverb",
+   "ex": {
+    "t": "祖父はことわざが好きでした。",
+    "read": "そふはことわざがすきでした。",
+    "ko": "그 속담은 오래된 지혜를 담고 있어요.",
+    "en": "That proverb contains ancient wisdom."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "格言",
+   "pos": "noun",
+   "read": "かくげん",
+   "ko": "격언",
+   "en": "maxim",
+   "ex": {
+    "t": "この格言は長い経験から生まれました。",
+    "read": "このかくげんはながいけいけんからうまれました。",
+    "ko": "그는 격언을 즐겨 인용해요.",
+    "en": "He likes quoting maxims."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "知恵",
+   "pos": "noun",
+   "read": "ちえ",
+   "ko": "지혜",
+   "en": "wisdom",
+   "ex": {
+    "t": "昔の人の知恵に学びます。",
+    "read": "むかしのひとのちえにまなびます。",
+    "ko": "속담은 세대를 거친 지혜예요.",
+    "en": "Proverbs are wisdom passed down generations."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "百聞は一見にしかず／不幸中の幸い／取らぬ狸の皮算用／急がば回れ／ことわざ",
+   "en": "Proverbs: 百聞は一見にしかず / 不幸中の幸い / 取らぬ狸の皮算用 / 急がば回れ"
+  },
+  "explain": {
+   "ko": "ことわざは、長い経験から生まれた知恵を短く表した言葉です。「言うは易く行うは難し」「不幸中の幸い」「取らぬ狸の皮算用」（結果が出る前に当てにするな）「急がば回れ」（急ぐときほど慎重に）のように使います。会話やスピーチで適切に使うと表現が生き生きしますが、使いすぎるとありきたりになります。場面に合わせて慎重に選びましょう。",
+   "en": "Proverbs pack wisdom from long experience into a short phrase: 「言うは易く行うは難し」(easier said than done), 「不幸中の幸い」(a blessing in disguise), 「取らぬ狸の皮算用」(don't count your chickens), 「急がば回れ」(haste makes waste). Used well they make speech vivid; overused they become stale. Choose them to fit the situation."
+  },
+  "table": {
+   "head": [
+    "ことわざ / Proverb",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "言うは易く行うは難し",
+     "easier said than done",
+     "計画は立てても実行は難しい。"
+    ],
+    [
+     "不幸中の幸い",
+     "silver lining",
+     "けががなくて不幸中の幸いだ。"
+    ],
+    [
+     "取らぬ狸の皮算用",
+     "don't count your chickens",
+     "結果が出る前に決めつけない。"
+    ],
+    [
+     "急がば回れ",
+     "haste makes waste",
+     "慎重に進めよう。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "ことわざは場面に合うときだけ使いましょう。",
+    "en": "Use proverbs only when they fit."
+   },
+   {
+    "ko": "ことわざは文字どおりではなく、たとえとして理解します。",
+    "en": "Read proverbs figuratively."
+   },
+   {
+    "ko": "ことわざが互いに矛盾することもあります。",
+    "en": "Proverbs can contradict each other."
+   }
+  ],
+  "examples": [
+   {
+    "t": "言うは易く行うは難しと言います。",
+    "read": "いうはやすくおこなうはむずかしといいます。",
+    "ko": "행동이 말보다 더 많은 것을 말해 줘요.",
+    "en": "Actions speak louder than words."
+   },
+   {
+    "t": "けががなくて、不幸中の幸いでした。",
+    "read": "けががなくて、ふこうちゅうのさいわいでした。",
+    "ko": "불행 중에도 다행이 있게 마련이에요.",
+    "en": "Every cloud has a silver lining."
+   },
+   {
+    "t": "結果が出る前から計算するのは、取らぬ狸の皮算用です。",
+    "read": "けっかがでるぜんからけいさんするのは、とらぬたぬきのかわざんようです。",
+    "ko": "결과가 나오기 전에 장담하지 마세요.",
+    "en": "Don't count your chickens before they hatch."
+   },
+   {
+    "t": "急がば回れと言うように、慎重に進めましょう。",
+    "read": "いそがばまわれというように、しんちょうにすすめましょう。",
+    "ko": "제때 손보면 훗날 큰일을 막을 수 있어요.",
+    "en": "A stitch in time saves nine."
+   },
+   {
+    "t": "備えあれば憂いなしで、準備が大切です。",
+    "read": "そなえあればうれいなしで、じゅんびがたいせつです。",
+    "ko": "서두르면 일을 망치기 쉬워요.",
+    "en": "Haste makes waste."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "言うは___行うは難し。",
+    "options": [
+     "易く",
+     "難し",
+     "多く"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "けががなくて___の幸いでした。",
+    "options": [
+     "不幸中",
+     "不幸後",
+     "幸福中"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "結果が出る前から計算するのは取らぬ___の皮算用です。",
+    "options": [
+     "狸",
+     "猫",
+     "犬"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "急がば___と言います。",
+    "options": [
+     "回れ",
+     "走れ",
+     "止まれ"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新しい事業はうまくいきそうですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 새 사업이 잘될 것 같지 않나요?",
+     "en": "(Question) Doesn't the new business look promising?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "結果が出る前に決めつけないでください。",
+       "私は事業をしていません。",
+       "明日始めます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "問題をどうやって防げるでしょうか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 문제를 어떻게 예방할 수 있을까요?",
+     "en": "(Question) How can the problem be prevented?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "備えがあれば大きな問題を防げます。",
+       "問題はありません。",
+       "わかりません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今回の試験は絶対に合格すると思う。"
+      },
+      {
+       "s": "B",
+       "t": "結果が出る前に決めつけないで。急がば回れって言うでしょ。"
+      },
+      {
+       "s": "A",
+       "t": "そうだね。最後まで見直すよ。"
+      },
+      {
+       "s": "B",
+       "t": "備えがあれば、大きなミスは防げるよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이번 시험은 분명히 합격할 거야.\nB: 결과가 나오기 전에 장담하지 마. 서두르면 일을 망쳐.\nA: 그렇지. 마지막까지 점검할게.\nB: 제때 확인하면 큰 실수를 막을 수 있어.",
+     "en": "A: I'll definitely pass this exam.\nB: Don't count your chickens before they hatch. Haste makes waste.\nA: True. I'll check right up to the end.\nB: A stitch in time saves nine."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは試験の結果が出る前に何をしないよう言いましたか。",
+      "options": [
+       "決めつけること",
+       "勉強を続けること",
+       "早く寝ること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ことわざは、長い経験から生まれた知恵を短く表した言葉です。会話やスピーチで適切に使うと、考えが生き生きと伝わりますが、使いすぎるとありきたりになります。場面に合わせて慎重に選びましょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "속담은 오랜 경험에서 나온 지혜를 짧게 담은 표현입니다. 대화와 연설에서 적절히 쓰면 생각을 생생하게 전달하지만, 너무 자주 쓰면 진부해집니다. 속담은 상황에 맞게 신중히 고르세요.",
+     "en": "Proverbs are short expressions of wisdom drawn from long experience. Used well in conversation and speeches they convey ideas vividly, but too many sound clichéd. Choose a proverb carefully to suit the situation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ことわざを使いすぎるとどうなりますか。",
+      "options": [
+       "ありきたりになる",
+       "より正確になる",
+       "より短くなる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "急がば回れって言うのよ。"
+      },
+      {
+       "s": "B",
+       "t": "わかってる。でも時間がないんだ。"
+      },
+      {
+       "s": "A",
+       "t": "それでも、備えがあれば大きなミスを防げるのよ。"
+      },
+      {
+       "s": "B",
+       "t": "心に留めておくよ、おばあちゃん。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "할머니: 서두르면 일을 망친단다.\n손자: 알아요. 하지만 시간이 없어요.\n할머니: 그래도 제때 하면 큰일을 막는단다.\n손자: 명심할게요, 할머니.",
+     "en": "Grandmother: Haste makes waste, dear.\nGrandson: I know, but I don't have time.\nGrandmother: Still, a stitch in time saves nine.\nGrandson: I'll remember that, Grandma."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "祖母は______がば回れと言います",
+      "answers": [
+       "急"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "備えがあれば大きな______を防げると言います",
+      "answers": [
+       "ミス"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 言うは___行うは難し。\n2) けががなくて___の幸いでした。\n3) 結果が出る前から計算するのは取らぬ___の皮算用です。",
+    "trans": {
+     "ko": "1) 행동이 말보다 낫다. 2) 불행 중 다행이다. 3) 결과가 나오기 전에 장담하지 마라.",
+     "en": "1) Actions speak louder than words. 2) Every cloud has a silver lining. 3) Don't count your chickens before they hatch."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "言うは___行うは難し。",
+      "options": [
+       "易く",
+       "難し",
+       "多く"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "けががなくて___の幸いでした。",
+      "options": [
+       "不幸中",
+       "不幸後",
+       "幸福中"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "結果が出る前から計算するのは取らぬ___の皮算用です。",
+      "options": [
+       "狸",
+       "猫",
+       "犬"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "私の祖父はことわざが好きでした。彼はいつも、(1)と言っていました。そして、備えがあれば大きな問題を(2)とも、よく(3)。",
+    "trans": {
+     "ko": "우리 할아버지는 속담을 좋아하셨다. 그는 항상 서두르면 일을 망친다고 말씀하셨다. 그리고 제때 손보면 큰일을 막을 수 있다는 말도 자주 하셨다.",
+     "en": "My grandfather loved proverbs. He always said that haste makes waste. He also often said that a stitch in time saves nine."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "急がば回れ",
+       "急げば回れ",
+       "回らば急げ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "防げる",
+       "作れる",
+       "忘れる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "話していました",
+       "笑っていました",
+       "怒っていました"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "コラム\nことわざの力\nことわざは短いが、長い経験を含んでいる。「百聞は一見にしかず」は、聞くより見ることの大切さを教える。しかし、ことわざが互いに矛盾することもあるので、場面に合わせて慎重に使うべきだ。",
+    "trans": {
+     "ko": "칼럼\n속담의 힘\n속담은 짧지만 오랜 경험을 담고 있다. 'Actions speak louder than words'는 말보다 행동의 중요성을 일깨운다. 그러나 속담이 서로 모순될 때도 있으므로 상황에 맞게 신중히 써야 한다.",
+     "en": "COLUMN\nThe power of proverbs\nProverbs are short but carry long experience. 'Actions speak louder than words' reminds us of the importance of deeds over words. But proverbs sometimes contradict one another, so they must be used carefully to suit the situation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ことわざは何を含んでいますか。",
+      "options": [
+       "長い経験",
+       "最新の流行",
+       "法律"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ことわざをどう使うべきですか。",
+      "options": [
+       "場面に合わせて慎重に",
+       "できるだけ多く",
+       "絶対に使わない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "このコラムは、ことわざが長い経験を含んでいると述べています。ことわざは互いに矛盾することもあるので、場面に合わせて使うべきだと言います。",
+    "trans": {
+     "ko": "칼럼은 속담이 오랜 경험을 담고 있다고 본다. 칼럼은 속담이 서로 모순될 수 없다고 한다. 칼럼은 속담을 상황에 맞게 써야 한다고 본다.",
+     "en": "The column says proverbs carry long experience. The column says proverbs cannot contradict one another. The column says proverbs must be used to suit the situation."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "コラムはことわざが長い経験を含むと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "コラムはことわざが互いに矛盾しないと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "コラムはことわざ辞典を紹介している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "結果が出る前に決めつけないでください。",
+    "read": "けっかがでるまえにきめつけないでください。",
+    "ko": "약속보다 행동이 더 중요합니다. 행동이 말보다 강하니까요.",
+    "en": "Actions matter more than promises; they speak louder than words.",
+    "situation": {
+     "ko": "행동의 중요성을 말할 때",
+     "en": "Stressing action"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "備えがあれば大きな問題を防げます。",
+    "read": "そなえがあればおおきなもんだいをふせげます。",
+    "ko": "실직은 힘들었지만 불행 중 다행으로 새로운 길을 찾았습니다.",
+    "en": "Losing the job was hard, but every cloud has a silver lining: I found a new path.",
+    "situation": {
+     "ko": "위로할 때",
+     "en": "Consoling"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "急がば回れと言いますから、慎重にいきましょう。",
+    "read": "いそがばまわれといいますから、しんちょうにいきましょう。",
+    "ko": "결과가 나오기 전에 장담하지 마세요.",
+    "en": "Don't count your chickens before they hatch.",
+    "situation": {
+     "ko": "성급한 낙관을 말릴 때",
+     "en": "Cautioning against optimism"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "けががなくて、不幸中の幸いでした。",
+    "read": "けががなくて、ふこうちゅうのさいわいでした。",
+    "ko": "작은 문제를 제때 해결하면 큰 비용을 막을 수 있습니다.",
+    "en": "A stitch in time saves nine when it comes to small problems.",
+    "situation": {
+     "ko": "예방을 강조할 때",
+     "en": "Stressing prevention"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "あとで悔やんでも後の祭りです。",
+    "read": "あとでくやんでものちのまつりです。",
+    "ko": "서두르면 일을 망치니 천천히 합시다.",
+    "en": "Haste makes waste, so let's take it slowly.",
+    "situation": {
+     "ko": "신중함을 권할 때",
+     "en": "Urging care"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "昔の人の知恵に学びます。",
+    "read": "むかしのひとのちえにまなびます。",
+    "ko": "그는 뿌린 대로 거두었습니다.",
+    "en": "He reaped what he had sown.",
+    "situation": {
+     "ko": "결과를 말할 때",
+     "en": "Describing consequences"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "言うは易く行うは難しです。",
+    "read": "いうはやすくおこなうはむずかしです。",
+    "ko": "그 속담은 오래된 지혜를 담고 있습니다.",
+    "en": "That proverb contains ancient wisdom.",
+    "situation": {
+     "ko": "속담을 설명할 때",
+     "en": "Explaining a proverb"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "ことわざは場面に合わせて使いましょう。",
+    "read": "ことわざはばめんにあわせてつかいましょう。",
+    "ko": "속담은 상황에 맞게 신중하게 인용해야 합니다.",
+    "en": "Proverbs should be quoted carefully to suit the situation.",
+    "situation": {
+     "ko": "사용 원칙을 말할 때",
+     "en": "A rule for using proverbs"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜と言うように〜。",
+    "read": "〜というように〜。",
+    "ko": "행동이 말보다 낫다.",
+    "en": "Actions speak louder than words."
+   },
+   {
+    "id": "w2",
+    "t": "不幸中の幸い。",
+    "read": "ふこうちゅうのさいわい。",
+    "ko": "불행 중 다행이다.",
+    "en": "Every cloud has a silver lining."
+   },
+   {
+    "id": "w3",
+    "t": "急がば回れ。",
+    "read": "いそがばまわれ。",
+    "ko": "~하기 전에 장담하지 마라.",
+    "en": "Don't count your chickens (before they hatch)."
+   },
+   {
+    "id": "w4",
+    "t": "備えあれば憂いなし。",
+    "read": "そなえあればうれいなし。",
+    "ko": "제때 하면 큰일을 막는다.",
+    "en": "A stitch in time saves nine."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "속담 2개를 인용해 한 상황에 대한 조언을 4문장으로 써 보세요.",
+    "en": "Write four sentences of advice on a situation quoting two proverbs."
+   },
+   "must_include": [
+    {
+     "label": "決めつけない",
+     "match": [
+      "決めつけないでください"
+     ]
+    },
+    {
+     "label": "急がば回れ",
+     "match": [
+      "急がば回れ"
+     ]
+    },
+    {
+     "label": "不幸中の幸い",
+     "match": [
+      "不幸中の幸い"
+     ]
+    }
+   ],
+   "model": "新しい事業はうまくいきそうですが、結果が出る前に決めつけないでください。急がば回れと言いますから、計画を一つずつ見直してください。小さな問題を早めに直せば、大きな費用を防げます。不幸中の幸いで、失敗しても学べることは必ずあります。",
+   "model_trans": {
+    "ko": "새 사업이 잘될 것 같지만 결과가 나오기 전에 장담하지는 마세요. 서두르면 일을 망치니 계획을 차근차근 점검하세요. 작은 문제를 제때 해결하면 큰 비용을 막을 수 있어요. 불행 중 다행으로, 실패해도 배울 점은 반드시 있어요.",
+    "en": "Your new business looks promising, but don't count your chickens before they hatch. Haste makes waste, so check the plan step by step. A stitch in time saves nine when it comes to small problems. Every cloud has a silver lining: even failure always teaches something."
+   }
+  }
+ }
+}

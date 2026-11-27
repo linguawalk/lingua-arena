@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u41",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 41,
+  "concept": "C2.U41",
+  "status": "live",
+  "title": {
+   "target": "交渉と歩み寄り",
+   "ko": "협상과 외교적 완곡함",
+   "en": "Negotiation and diplomatic tact"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "共通点",
+   "pos": "phrase",
+   "read": "きょうつうてん",
+   "ko": "공통점",
+   "en": "common ground",
+   "ex": {
+    "t": "まず共通点を探しましょう。",
+    "read": "まずきょうつうてんをさがしましょう。",
+    "ko": "우리는 공통점을 찾았어요.",
+    "en": "We found common ground."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "歩み寄る",
+   "pos": "phrase",
+   "read": "あゆみよる",
+   "ko": "중간에서 만나다",
+   "en": "meet halfway",
+   "ex": {
+    "t": "お互いに歩み寄る必要があります。",
+    "read": "おたがいにあゆみよるひつようがあります。",
+    "ko": "양쪽이 중간에서 만나야 해요.",
+    "en": "Both sides must meet halfway."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "譲れない線",
+   "pos": "phrase",
+   "read": "ゆずれないせん",
+   "ko": "넘어서는 안 되는 선",
+   "en": "red line",
+   "ex": {
+    "t": "これは譲れない線です。",
+    "read": "これはゆずれないせんです。",
+    "ko": "이것은 우리의 넘어서는 안 될 선이에요.",
+    "en": "This is our red line."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "譲歩",
+   "pos": "noun",
+   "read": "じょうほ",
+   "ko": "양보",
+   "en": "concession",
+   "ex": {
+    "t": "私たちは一部譲歩しました。",
+    "read": "わたしたちはいちぶじょうほしました。",
+    "ko": "그들은 큰 양보를 했어요.",
+    "en": "They made a major concession."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "外交的な",
+   "pos": "adj",
+   "read": "がいこうてきな",
+   "ko": "외교적인",
+   "en": "diplomatic",
+   "ex": {
+    "t": "外交的な言い方で断りました。",
+    "read": "がいこうてきないいかたでことわりました。",
+    "ko": "그는 외교적으로 대답했어요.",
+    "en": "He answered diplomatically."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "行き詰まり",
+   "pos": "noun",
+   "read": "いきつまり",
+   "ko": "교착 상태",
+   "en": "deadlock",
+   "ex": {
+    "t": "交渉は行き詰まりました。",
+    "read": "こうしょうはいきつまりました。",
+    "ko": "협상은 교착 상태에 빠졌어요.",
+    "en": "The negotiation reached a deadlock."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "折り合い",
+   "pos": "noun",
+   "read": "おりあい",
+   "ko": "타협",
+   "en": "compromise",
+   "ex": {
+    "t": "折り合いをつけるのは簡単ではありません。",
+    "read": "おりあいをつけるのはかんたんではありません。",
+    "ko": "타협이 필요해요.",
+    "en": "A compromise is necessary."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "提案する",
+   "pos": "phrase",
+   "read": "ていあんする",
+   "ko": "제안하다",
+   "en": "put forward",
+   "ex": {
+    "t": "新しい案を提案します。",
+    "read": "あたらしいあんをていあんします。",
+    "ko": "새 제안을 내놓았어요.",
+    "en": "We put forward a new proposal."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "懸念",
+   "pos": "noun",
+   "read": "けねん",
+   "ko": "우려",
+   "en": "reservation",
+   "ex": {
+    "t": "価格に懸念があります。",
+    "read": "かかくにけねんがあります。",
+    "ko": "저는 약간의 우려가 있어요.",
+    "en": "I have some reservations."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "合意に至る",
+   "pos": "phrase",
+   "read": "ごういにいたる",
+   "ko": "합의에 이르다",
+   "en": "reach an agreement",
+   "ex": {
+    "t": "ようやく合意に至りました。",
+    "read": "ようやくごういにいたりました。",
+    "ko": "마침내 합의에 이르렀어요.",
+    "en": "We finally reached an agreement."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "共通点を探る／譲れない線／〜を条件に／折り合いをつける／行き詰まり",
+   "en": "Negotiation: 共通点を探る / 譲れない線 / 〜を条件に / 折り合いをつける / 行き詰まり"
+  },
+  "explain": {
+   "ko": "交渉では、まず共通点を探し、お互いに歩み寄って折り合いをつけます。「譲れない線」をはっきりさせ、それ以外では譲歩します。「〜を条件に」「〜であれば」は条件を示す表現で、「懸念しています」は不安を丁寧に伝えます。行き詰まったときは、外交的な言い方で別の案を出しましょう。最後に「合意に至りました」と確認します。",
+   "en": "In negotiation, first seek common ground, move toward each other and reach a compromise. Make your 「譲れない線」 clear and concede elsewhere. 「〜を条件に」「〜であれば」 state conditions; 「懸念しています」 voices worry politely. When stuck, propose another idea diplomatically. Finally confirm 「合意に至りました」."
+  },
+  "table": {
+   "head": [
+    "場面 / Stage",
+    "表現 / Phrase",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "共通点",
+     "共通点を探る",
+     "まず共通点を探そう。"
+    ],
+    [
+     "条件",
+     "〜を条件に",
+     "納期を条件に承諾する。"
+    ],
+    [
+     "懸念",
+     "〜を懸念している",
+     "価格を懸念している。"
+    ],
+    [
+     "合意",
+     "合意に至る",
+     "合意に至った。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "譲れない線をはっきりさせましょう。",
+    "en": "Be clear about your red lines."
+   },
+   {
+    "ko": "条件をつけて譲歩しましょう。",
+    "en": "Concede with conditions."
+   },
+   {
+    "ko": "合意内容を最後に確認します。",
+    "en": "Confirm the agreement at the end."
+   }
+  ],
+  "examples": [
+   {
+    "t": "まず共通点を探しましょう。",
+    "read": "まずきょうつうてんをさがしましょう。",
+    "ko": "우리는 공통점을 찾았어요.",
+    "en": "We found common ground."
+   },
+   {
+    "t": "納期を条件に承諾します。",
+    "read": "のうきをじょうけんにしょうだくします。",
+    "ko": "양쪽이 중간에서 만나야 해요.",
+    "en": "Both sides must meet halfway."
+   },
+   {
+    "t": "価格に懸念があります。",
+    "read": "かかくにけねんがあります。",
+    "ko": "이것은 우리의 넘어서는 안 될 선이에요.",
+    "en": "This is our red line."
+   },
+   {
+    "t": "お互いに歩み寄る必要があります。",
+    "read": "おたがいにあゆみよるひつようがあります。",
+    "ko": "협상은 교착 상태에 빠졌어요.",
+    "en": "The negotiation reached a deadlock."
+   },
+   {
+    "t": "ようやく合意に至りました。",
+    "read": "ようやくごういにいたりました。",
+    "ko": "마침내 합의에 이르렀어요.",
+    "en": "We finally reached an agreement."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "まず___を探しましょう。",
+    "options": [
+     "共通点",
+     "天気",
+     "地図"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "納期を___に承諾します。",
+    "options": [
+     "条件",
+     "反対",
+     "秘密"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "価格に___があります。",
+    "options": [
+     "懸念",
+     "料理",
+     "写真"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "ようやく___に至りました。",
+    "options": [
+     "合意",
+     "後悔",
+     "停止"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "交渉でまず何をしますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 정중하게 이견을 말하려면 어떻게 하나요?",
+     "en": "(Question) How do you disagree politely?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "まず共通点を探します。",
+       "相手を怒らせます。",
+       "何もしません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "行き詰まったらどうしますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 'red line'은 무엇인가요?",
+     "en": "(Question) What is a 'red line'?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "別の案を外交的に出します。",
+       "席を立ちます。",
+       "大声で話します。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "価格は難しいですが、納期なら調整できます。"
+      },
+      {
+       "s": "B",
+       "t": "では、納期を一週間延ばすことを条件に、価格を下げましょう。"
+      },
+      {
+       "s": "A",
+       "t": "折り合いがつきそうですね。"
+      },
+      {
+       "s": "B",
+       "t": "ええ、合意に至りそうです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 조건은 받아들이기 어렵습니다.\nB: 이해합니다. 그러나 중간에서 만날 수 있을지 궁금합니다.\nA: 한 가지 양보는 가능합니다.\nB: 좋습니다. 그러면 합의에 이를 수 있을 것 같습니다.",
+     "en": "A: This condition is hard for us to accept.\nB: I understand. But I wonder whether we could meet halfway.\nA: One concession is possible.\nB: Good. Then I think we can reach an agreement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "二人は何を条件に価格を下げることにしましたか。",
+      "options": [
+       "納期を一週間延ばすこと",
+       "代金の前払い",
+       "品質の向上"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "交渉では、まず共通点を探し、お互いに歩み寄って折り合いをつけます。譲れない線をはっきりさせ、それ以外では譲歩します。行き詰まったときは、外交的な言い方で別の案を出します。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "외교적 협상에서는 직접적인 거절 대신 완곡한 표현을 씁니다. With respect, I wonder whether 같은 표현은 이견을 정중하게 전달합니다. 공통점을 먼저 확인하고, 넘어서는 안 되는 선을 분명히 한 뒤, 서로 양보할 부분을 찾는 것이 일반적인 순서입니다.",
+     "en": "In diplomatic negotiation, tactful expressions are used instead of direct refusal. Expressions such as With respect and I wonder whether convey disagreement politely. The usual order is to confirm common ground first, make clear the red lines, and then look for areas where each side can make concessions."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "交渉でまずすることは何ですか。",
+      "options": [
+       "共通点を探すこと",
+       "要求を増やすこと",
+       "沈黙すること"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "提案についてご意見をお願いします。"
+      },
+      {
+       "s": "B",
+       "t": "価格に懸念がありますが、納期を条件に受け入れます。"
+      },
+      {
+       "s": "A",
+       "t": "ありがとうございます。"
+      },
+      {
+       "s": "B",
+       "t": "これで合意に至ったと思います。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "대표: 이 조항에는 우려가 있습니다.\n상대: 어떤 점이 걱정이십니까?\n대표: 위험이 너무 크다고 생각합니다.\n상대: 그렇다면 조항을 수정하겠습니다.",
+     "en": "Representative: We have some reservations about this clause.\nCounterpart: What concerns you?\nRepresentative: I think the risk is too great.\nCounterpart: Then we will amend the clause."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "代表は価格に______があると言います",
+      "answers": [
+       "懸念"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "代表はこれで______に至ったと思うと言います",
+      "answers": [
+       "合意"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) まず___を探しましょう。\n2) 納期を___に承諾します。\n3) 価格に___があります。",
+    "trans": {
+     "ko": "1) 우리는 공통점을 찾았어요. 2) 양쪽이 중간에서 만나야 해요. 3) 마침내 합의에 이르렀어요.",
+     "en": "1) We found common ground. 2) Both sides must meet halfway. 3) We finally reached an agreement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "まず___を探しましょう。",
+      "options": [
+       "共通点",
+       "天気",
+       "地図"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "納期を___に承諾します。",
+      "options": [
+       "条件",
+       "反対",
+       "秘密"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "価格に___があります。",
+      "options": [
+       "懸念",
+       "料理",
+       "写真"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "両社は長い交渉の末、お互いに(1)ました。価格については譲歩し、納期については(2)を譲れませんでした。ようやく(3)に至りました。",
+    "trans": {
+     "ko": "협상은 교착 상태에 빠졌다. 그러나 한쪽이 양보를 제안했다. 양쪽은 마침내 중간에서 만나 합의에 이르렀다.",
+     "en": "The negotiation reached a deadlock. But one side proposed a concession. The two sides finally met halfway and reached an agreement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "歩み寄り",
+       "怒り",
+       "逃げ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "線",
+       "歌",
+       "色"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "合意",
+       "後悔",
+       "停止"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "交渉術\n歩み寄りのコツ\n良い交渉は、勝ち負けではない。まず共通点を探し、自分の譲れない線を決める。そして、それ以外の点では条件をつけて譲歩する。最後に、合意の内容を文書で確認することが大切だ。",
+    "trans": {
+     "ko": "외교 가이드\n협상의 기술\n협상에서는 먼저 공통점을 찾고, 넘어서는 안 되는 선을 분명히 하세요. 그리고 직접적인 거절 대신 '존경을 담아' 같은 표현으로 이견을 전하세요. 서로 이익이 되는 합의를 찾는 것이 목표입니다.",
+     "en": "DIPLOMATIC GUIDE\nThe art of negotiation\nIn negotiation, first find common ground and make your red lines clear. And convey disagreement with phrases such as 'with respect' instead of direct refusal. The aim is to find an agreement that benefits both sides."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "良い交渉は何ではありませんか。",
+      "options": [
+       "勝ち負け",
+       "話し合い",
+       "合意"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "最後に何をすることが大切ですか。",
+      "options": [
+       "合意を文書で確認する",
+       "席を立つ",
+       "要求を増やす"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、良い交渉が勝ち負けではないと述べています。最後に合意を文書で確認するようすすめています。",
+    "trans": {
+     "ko": "가이드는 먼저 공통점을 찾으라고 한다. 가이드는 직접적인 거절이 가장 좋다고 한다. 가이드는 서로 이익이 되는 합의가 목표라고 본다.",
+     "en": "The guide says to find common ground first. The guide says direct refusal is best. The guide says the aim is an agreement that benefits both sides."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章は良い交渉が勝ち負けではないと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章は交渉で譲歩してはいけないと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章は有名な交渉人の名前を挙げている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "まず共通点を探します。",
+    "read": "まずきょうつうてんをさがします。",
+    "ko": "존경을 담아 말씀드리지만, 저는 다른 견해를 가지고 있습니다.",
+    "en": "With respect, I take a different view.",
+    "situation": {
+     "ko": "정중히 이견을 말할 때",
+     "en": "Politely disagreeing"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "別の案を外交的に出します。",
+    "read": "べつのあんをがいこうてきにだします。",
+    "ko": "제안을 조금 수정하는 것은 어떨까 합니다.",
+    "en": "I wonder whether we might modify the proposal slightly.",
+    "situation": {
+     "ko": "완곡하게 제안할 때",
+     "en": "Suggesting tactfully"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "納期を条件に承諾します。",
+    "read": "のうきをじょうけんにしょうだくします。",
+    "ko": "우리는 먼저 공통점을 찾아야 합니다.",
+    "en": "We should first look for common ground.",
+    "situation": {
+     "ko": "접점을 찾을 때",
+     "en": "Seeking common ground"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "価格に懸念があります。",
+    "read": "かかくにけねんがあります。",
+    "ko": "양쪽이 중간에서 만나야 합니다.",
+    "en": "Both sides must meet halfway.",
+    "situation": {
+     "ko": "타협을 요청할 때",
+     "en": "Asking for compromise"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "これは譲れない線です。",
+    "read": "これはゆずれないせんです。",
+    "ko": "이 조건은 우리에게 넘어서는 안 될 선입니다.",
+    "en": "This condition is a red line for us.",
+    "situation": {
+     "ko": "한계를 밝힐 때",
+     "en": "Stating a limit"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "お互いに歩み寄る必要があります。",
+    "read": "おたがいにあゆみよるひつようがあります。",
+    "ko": "우리는 이 점에서 한 가지 양보를 할 수 있습니다.",
+    "en": "We can make one concession on this point.",
+    "situation": {
+     "ko": "양보할 때",
+     "en": "Making a concession"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "ようやく合意に至りました。",
+    "read": "ようやくごういにいたりました。",
+    "ko": "저는 몇 가지 우려가 있음을 말씀드리고 싶습니다.",
+    "en": "I should like to say that I have some reservations.",
+    "situation": {
+     "ko": "우려를 표명할 때",
+     "en": "Expressing reservations"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "合意の内容を確認しましょう。",
+    "read": "ごういのないようをかくにんしましょう。",
+    "ko": "협상은 이기는 것이 아니라 서로에게 이익이 되는 합의를 찾는 일입니다.",
+    "en": "Negotiation is not about winning but about finding a mutually beneficial agreement.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "共通点を探る。",
+    "read": "きょうつうてんをさぐる。",
+    "ko": "존경을 담아, ~.",
+    "en": "With respect, ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜を条件に〜。",
+    "read": "〜をじょうけんに〜。",
+    "ko": "~일지 궁금합니다.",
+    "en": "I wonder whether ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜に懸念がある。",
+    "read": "〜にけねんがある。",
+    "ko": "양보를 하다.",
+    "en": "make a concession"
+   },
+   {
+    "id": "w4",
+    "t": "合意に至る。",
+    "read": "ごういにいたる。",
+    "ko": "합의에 이르다.",
+    "en": "reach an agreement"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "정중한 이견, 공통점, 양보, 합의를 포함해 협상 발언 4문장을 써 보세요.",
+    "en": "Write four sentences of negotiation speech including polite disagreement, common ground, a concession and agreement."
+   },
+   "must_include": [
+    {
+     "label": "共通点",
+     "match": [
+      "共通点"
+     ]
+    },
+    {
+     "label": "条件",
+     "match": [
+      "条件に"
+     ]
+    },
+    {
+     "label": "合意",
+     "match": [
+      "合意に至"
+     ]
+    }
+   ],
+   "model": "交渉ではまず共通点を探します。私たちは納期を条件に、価格について譲歩しました。お互いに歩み寄った結果、ようやく合意に至りました。",
+   "model_trans": {
+    "ko": "존경을 담아 말씀드리지만, 저는 약간 다른 견해를 가지고 있습니다. 그러나 우리는 중요한 공통점을 공유하고 있습니다. 우리는 이 점에서 한 가지 양보를 할 용의가 있습니다. 이렇게 하면 합의에 이를 수 있을 것입니다.",
+    "en": "With respect, I take a slightly different view. However, we share important common ground. We are prepared to make one concession on this point. In this way, we should be able to reach an agreement."
+   }
+  }
+ }
+}

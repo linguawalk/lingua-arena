@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u08",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 8,
+  "concept": "C2.U08",
+  "status": "live",
+  "title": {
+   "target": "省略と代用表現",
+   "ko": "구어의 생략과 대용",
+   "en": "Ellipsis and substitution in speech"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "そうする",
+   "pos": "phrase",
+   "read": "そうする",
+   "ko": "그렇게 하다",
+   "en": "do so",
+   "ex": {
+    "t": "彼女はそうするしかありませんでした。",
+    "read": "かのじょはそうするしかありませんでした。",
+    "ko": "원하는 사람은 그렇게 하셔도 좋아요.",
+    "en": "Anyone who wishes may do so."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "そう思う",
+   "pos": "phrase",
+   "read": "そうおもう",
+   "ko": "그렇다고 생각하다",
+   "en": "I suppose so",
+   "ex": {
+    "t": "彼は来ると思いますか。はい、そう思います。",
+    "read": "かれはくるとおもいますか。はい、そうおもいます。",
+    "ko": "그럴 것 같아요.",
+    "en": "I suppose so."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "そうでないといい",
+   "pos": "phrase",
+   "read": "そうでないといい",
+   "ko": "그러지 않기를 바라다",
+   "en": "I hope not",
+   "ex": {
+    "t": "雨になるでしょうか。そうでないといいですが。",
+    "read": "あめになるでしょうか。そうでないといいですが。",
+    "ko": "비가 오지 않기를 바라요.",
+    "en": "I hope not."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "ほのめかされた",
+   "pos": "adj",
+   "read": "ほのめかされた",
+   "ko": "암시된",
+   "en": "implicit",
+   "ex": {
+    "t": "ほのめかされた意味に気づきました。",
+    "read": "ほのめかされたいみにきづきました。",
+    "ko": "그의 말에는 암시된 비판이 있었어요.",
+    "en": "There was an implicit criticism in his words."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "言わなくても通じる",
+   "pos": "phrase",
+   "read": "いわなくてもつうじる",
+   "ko": "말하지 않고도 통하다",
+   "en": "go without saying",
+   "ex": {
+    "t": "言わなくても通じる仲です。",
+    "read": "いわなくてもつうじるなかです。",
+    "ko": "그건 말할 필요도 없어요.",
+    "en": "That goes without saying."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "省略",
+   "pos": "noun",
+   "read": "しょうりゃく",
+   "ko": "생략",
+   "en": "omission",
+   "ex": {
+    "t": "日常会話では主語の省略がよくあります。",
+    "read": "にちじょうかいわではしゅごのしょうりゃくがよくあります。",
+    "ko": "그 문장에는 몇 가지 생략이 있어요.",
+    "en": "The sentence contains several omissions."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "代名詞",
+   "pos": "noun",
+   "read": "だいめいし",
+   "ko": "대용어",
+   "en": "pro-form",
+   "ex": {
+    "t": "「それ」は代名詞です。",
+    "read": "「それ」はだいめいしです。",
+    "ko": "do so는 대동사 대용어예요.",
+    "en": "'Do so' is a verb pro-form."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "察する",
+   "pos": "phrase",
+   "read": "さっする",
+   "ko": "눈치채다",
+   "en": "pick up on",
+   "ex": {
+    "t": "彼は相手の気持ちを察しました。",
+    "read": "かれはあいてのきもちをさしました。",
+    "ko": "그는 암시를 곧 눈치챘어요.",
+    "en": "He picked up on the hint at once."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "未完の",
+   "pos": "adj",
+   "read": "みかんの",
+   "ko": "미완의",
+   "en": "unfinished",
+   "ex": {
+    "t": "その話は未完のままです。",
+    "read": "そのはなしはみかんのままです。",
+    "ko": "그의 문장은 미완으로 끝났어요.",
+    "en": "His sentence was left unfinished."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "もちろん",
+   "pos": "adv",
+   "read": "もちろん",
+   "ko": "당연히",
+   "en": "naturally",
+   "ex": {
+    "t": "もちろん、手伝います。",
+    "read": "もちろん、てつだいます。",
+    "ko": "당연히 나도 갈 거예요.",
+    "en": "Naturally, I'll go too."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜たいけど／〜と思う／〜のでは／それ・そう",
+   "en": "Ellipsis and substitution: 〜たいけど / そう思う / そうでないといい / の・ほう"
+  },
+  "explain": {
+   "ko": "会話では、すでにわかっている情報を繰り返さず、省略したり代用したりします。「来られますか。」には「行きたいけど、ちょっと…」と答えます。「彼は来るでしょうか。」には「そう思います」「そうでないといいですが」と言い、名詞は「の」「ほう」に置き換えます：「赤いのにします。」改まった文章では、意味がはっきりするよう、できるだけ省略しないで書きましょう。",
+   "en": "In speech, known information is dropped or replaced. To 'Can you come?' answer 「行きたいけど、ちょっと…」. To 'Will he come?' reply 「そう思います」「そうでないといいですが」; nouns are replaced by 「の」「ほう」: 「赤いのにします。」 In formal writing use fuller forms so the meaning stays clear."
+  },
+  "table": {
+   "head": [
+    "機能 / Function",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "省略 / Ellipsis",
+     "〜たいけど",
+     "行きたいけど、時間がない。"
+    ],
+    [
+     "同意 / Agree",
+     "そう思う",
+     "彼は来ますか。そう思います。"
+    ],
+    [
+     "願い / Hope not",
+     "そうでないといい",
+     "雨？そうでないといいね。"
+    ],
+    [
+     "代用 / Replace",
+     "〜の",
+     "赤いのにします。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "質問に出た言葉は答えで省略します。",
+    "en": "Drop words already in the question."
+   },
+   {
+    "ko": "「そう」は前の文全体を受けます。",
+    "en": "「そう」 refers to the whole previous clause."
+   },
+   {
+    "ko": "改まった文章では省略を減らしましょう。",
+    "en": "Reduce ellipsis in formal writing."
+   }
+  ],
+  "examples": [
+   {
+    "t": "行きたいけど、時間がありません。",
+    "read": "いきたいけど、じかんがありません。",
+    "ko": "누가 차를 마실래요? — 저요, 부탁해요.",
+    "en": "Anyone for tea? — Yes, please."
+   },
+   {
+    "t": "彼は来ると思いますか。——そう思います。",
+    "read": "かれはくるとおもいますか。——そうおもいます。",
+    "ko": "올 수 있어요? — 가고 싶지만 안 돼요.",
+    "en": "Can you come? — I'd love to, but I can't."
+   },
+   {
+    "t": "雨になるでしょうか。——そうでないといいですが。",
+    "read": "あめになるでしょうか。——そうでないといいですが。",
+    "ko": "그가 올까요? — 그럴 것 같아요.",
+    "en": "Will he come? — I suppose so."
+   },
+   {
+    "t": "青いカップと赤いカップ、どちらにしますか。——赤いのにします。",
+    "read": "あおいカップとあかいカップ、どちらにしますか。——あかいのにします。",
+    "ko": "나는 파란 셔츠가 마음에 들어요. 당신은 빨간 걸 좋아하죠?",
+    "en": "I like the blue shirt. You prefer the red one, don't you?"
+   },
+   {
+    "t": "もちろん、手伝います。",
+    "read": "もちろん、てつだいます。",
+    "ko": "원하시는 분은 그렇게 하셔도 좋습니다.",
+    "en": "Anyone who wishes to may do so."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "行き___けど、時間がありません。",
+    "options": [
+     "たい",
+     "た",
+     "に"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "彼は来ますか。——そう___ます。",
+    "options": [
+     "思い",
+     "言い",
+     "見え"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "青いカップと赤いカップ、どちらにしますか。——赤い___にします。",
+    "options": [
+     "の",
+     "こと",
+     "もの"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "雨になるでしょうか。——そうで___といいですが。",
+    "options": [
+     "ない",
+     "あった",
+     "する"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今晩、いっしょに行きませんか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 오늘 저녁에 함께 가실래요?",
+     "en": "(Question) Would you like to join us tonight?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "行きたいけど、仕事が残っています。",
+       "夕ご飯を食べました。",
+       "私は学生です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "彼は謝るでしょうか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 사과할까요?",
+     "en": "(Question) Will he apologise?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "そう思います。",
+       "知らない人です。",
+       "昨日行きました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今晩、いっしょに行かない？"
+      },
+      {
+       "s": "B",
+       "t": "行きたいけど、仕事が残ってるんだ。"
+      },
+      {
+       "s": "A",
+       "t": "じゃあ、明日は？"
+      },
+      {
+       "s": "B",
+       "t": "それなら大丈夫そう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 오늘 저녁 같이 갈래?\nB: 가고 싶지만 일이 남았어.\nA: 그럼 내일은?\nB: 그건 괜찮을 것 같아.",
+     "en": "A: Will you join us tonight?\nB: I'd love to, but I've got work left.\nA: What about tomorrow?\nB: I think that should be fine."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bが大丈夫そうだと言ったのはいつですか。",
+      "options": [
+       "明日",
+       "今晩",
+       "先週"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "会話では、すでにわかっている情報を繰り返さず、省略したり、「そう」「の」などの代用表現を使ったりします。こうすると話が自然で簡潔になります。ただし、改まった文章では、意味がはっきりするよう、できるだけ省略しないで書きましょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "구어에서는 이미 알려진 정보를 반복하지 않고 생략하거나 so, not, one 같은 대용어로 바꿉니다. 이렇게 하면 말이 자연스럽고 간결해집니다. 그러나 격식 있는 글에서는 의미가 분명하도록 가능한 한 완전한 형태를 쓰세요.",
+     "en": "In speech, known information is not repeated but omitted or replaced with substitutes such as so, not and one. This makes speech natural and concise. In formal writing, however, use full forms where possible so the meaning is clear."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "改まった文章ではどうしたほうがよいですか。",
+      "options": [
+       "できるだけ省略しないで書く",
+       "できるだけ省略する",
+       "代用表現だけを使う"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "お茶、いかがですか。"
+      },
+      {
+       "s": "B",
+       "t": "ええ、お願いします。"
+      },
+      {
+       "s": "A",
+       "t": "お砂糖は？"
+      },
+      {
+       "s": "B",
+       "t": "いえ、結構です。牛乳だけ少しお願いします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "주인: 차 드실래요?\n손님: 좋죠, 부탁해요.\n주인: 설탕은요?\n손님: 아니요, 괜찮아요. 우유만 조금요.",
+     "en": "Host: Would you like some tea?\nGuest: Yes, please.\nHost: And sugar?\nGuest: No, thanks. Just a little milk."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "客は砂糖はいらず、______だけ少し頼みます",
+      "answers": [
+       "牛乳"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "主人は客に______はいかがですかと聞きます",
+      "answers": [
+       "お茶"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 誰がお茶を飲みますか。——私が飲み___。\n2) 来られますか。——行き___けど、無理です。\n3) 彼は来ますか。——そう___ます。",
+    "trans": {
+     "ko": "1) 누가 차를 마실래요? 2) 올 수 있어요? — 가고 싶지만 안 돼요. 3) 그가 올까요? — 그럴 것 같아요.",
+     "en": "1) Anyone for tea? 2) Can you come? — I'd love to, but I can't. 3) Will he come? — I suppose so."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "誰がお茶を飲みますか。——私が飲み___。",
+      "options": [
+       "ます",
+       "たい",
+       "そう"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "来られますか。——行き___けど、無理です。",
+      "options": [
+       "たい",
+       "ます",
+       "ない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼は来ますか。——そう___ます。",
+      "options": [
+       "思い",
+       "言い",
+       "見え"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "彼は古いソファが気に入りませんでした。新しいのを買い(1)と思っていました。妻に意見を聞くと、「そう(2)」と言いました。二人とも口には出しませんでしたが、お互いの気持ちを(3)いました。",
+    "trans": {
+     "ko": "그는 오래된 소파가 마음에 들지 않았다. 새 것을 사고 싶어 했다. 아내에게 의견을 묻자 \"그렇게 하세요\"라고 했다. 둘 다 말하지 않았지만 서로의 뜻을 이미 알고 있었다.",
+     "en": "He did not like the old sofa. He wanted to buy a new one. When he asked his wife's opinion she said, \"Do so.\" Neither said it aloud, but each already knew the other's meaning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "たい",
+       "ます",
+       "ない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "しなさい",
+       "しない",
+       "したくない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "察して",
+       "忘れて",
+       "疑って"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ブログ\n自然な会話のコツ\nネイティブは言葉を省略します。「来たいですか」の代わりに「来る？」と言います。前に出た動詞を省くのもよくある習慣です。こうした省略に慣れると、ぐっと自然に聞こえます。",
+    "trans": {
+     "ko": "블로그\n자연스러운 대화의 비결\n원어민은 말을 줄입니다. 'Do you want to come?' 대신 'Want to come?'이라고 하죠. 'I'd love to'처럼 앞에 나온 동사를 생략하는 습관도 흔합니다. 이런 생략을 익히면 훨씬 자연스럽게 들립니다.",
+     "en": "BLOG\nSecrets of natural conversation\nNative speakers cut their speech short. Instead of 'Do you want to come?', they say 'Want to come?'. They also commonly omit repeated verbs, as in 'I'd love to'. Mastering such ellipsis makes you sound much more natural."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ネイティブはどうしますか。",
+      "options": [
+       "言葉を省略する",
+       "言葉を増やす",
+       "ゆっくり話す"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "省略に慣れるとどう聞こえますか。",
+      "options": [
+       "ぐっと自然に",
+       "ぎこちなく",
+       "改まって"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "このブログは、ネイティブが言葉を省略すると説明しています。省略に慣れると、会話が自然に聞こえると言います。",
+    "trans": {
+     "ko": "글은 원어민이 말을 줄인다고 설명한다. 글은 생략이 비문법적이라고 비판한다. 글은 생략을 익히면 자연스러워진다고 말한다.",
+     "en": "The text explains that native speakers shorten speech. The text criticises ellipsis as ungrammatical. The text says mastering ellipsis sounds more natural."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ブログはネイティブが言葉を省略すると説明している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ブログは省略が文法的に間違いだと批判している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ブログは省略を教える学校を紹介している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "行きたいけど、仕事が残っています。",
+    "read": "いきたいけど、しごとがのこっています。",
+    "ko": "올 수 있어요? — 가고 싶지만 일이 있어서요.",
+    "en": "Can you join us? — I'd love to, but I have work.",
+    "situation": {
+     "ko": "to 뒤 반복을 생략할 때",
+     "en": "Dropping the repeated verb after 'to'"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "そう思います。",
+    "read": "そうおもいます。",
+    "ko": "다른 후보도 지원했나요? — 그런 것 같아요.",
+    "en": "Did other candidates apply? — I believe so.",
+    "situation": {
+     "ko": "so로 앞말을 대신할 때",
+     "en": "Substituting with 'so'"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "そうでないといいですが。",
+    "read": "そうでないといいですが。",
+    "ko": "비가 올까요? — 그러지 않기를 바랍니다.",
+    "en": "Will it rain? — I hope not.",
+    "situation": {
+     "ko": "not으로 부정할 때",
+     "en": "Substituting with 'not'"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "赤いのにします。",
+    "read": "あかいのにします。",
+    "ko": "저는 작은 것이 마음에 드는데, 큰 것은 비싸서요.",
+    "en": "I like the small one; the big one is too expensive.",
+    "situation": {
+     "ko": "one으로 명사를 대신할 때",
+     "en": "Substituting a noun with 'one'"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "もちろん、手伝います。",
+    "read": "もちろん、てつだいます。",
+    "ko": "원하시는 분은 그렇게 하셔도 됩니다.",
+    "en": "Anyone who wishes to may do so.",
+    "situation": {
+     "ko": "do so로 동사구를 대신할 때",
+     "en": "Substituting a verb phrase"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "彼は相手の気持ちを察しました。",
+    "read": "かれはあいてのきもちをさしました。",
+    "ko": "물론 그 사실은 말할 필요도 없습니다.",
+    "en": "That fact, of course, goes without saying.",
+    "situation": {
+     "ko": "당연한 것을 말할 때",
+     "en": "Stating the obvious"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "言わなくても通じる仲です。",
+    "read": "いわなくてもつうじるなかです。",
+    "ko": "그런 일을 하신 적 있나요? — 한 번도 없었습니다.",
+    "en": "Have you ever done that? — Never.",
+    "situation": {
+     "ko": "짧은 답으로 말할 때",
+     "en": "Short responses"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "改まった文章では省略しないほうがいいです。",
+    "read": "あらたまったぶんしょうではしょうりゃくしないほうがいいです。",
+    "ko": "저녁 어때요? — 좋죠, 몇 시에요?",
+    "en": "Dinner? — Sure, what time?",
+    "situation": {
+     "ko": "구어의 간결한 질문",
+     "en": "Clipped spoken questions"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜たいけど、〜。",
+    "read": "〜たいけど、〜。",
+    "ko": "~하고 싶지만 …할 수 없다.",
+    "en": "I'd love to, but ..."
+   },
+   {
+    "id": "w2",
+    "t": "そう思う／そうでないといい。",
+    "read": "そうおもう／そうでないといい。",
+    "ko": "그렇게 생각한다/아니길 바란다.",
+    "en": "I think/suppose so. / I hope not."
+   },
+   {
+    "id": "w3",
+    "t": "〜の（代用）。",
+    "read": "〜の（だいよう）。",
+    "ko": "그것(들) 대신 one(s).",
+    "en": "the red one / the ones I mentioned"
+   },
+   {
+    "id": "w4",
+    "t": "それ・そう。",
+    "read": "それ・そう。",
+    "ko": "그렇게 하다.",
+    "en": "do so / do the same"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "구어에서 쓰이는 생략과 대용(do so, so/not, one)을 사용해 4문장 대화를 써 보세요.",
+    "en": "Write a four-line dialogue using spoken ellipsis and substitution (do so, so/not, one)."
+   },
+   "must_include": [
+    {
+     "label": "たいけど",
+     "match": [
+      "行きたいけど"
+     ]
+    },
+    {
+     "label": "そう",
+     "match": [
+      "そう思います"
+     ]
+    },
+    {
+     "label": "のに",
+     "match": [
+      "赤いのに"
+     ]
+    }
+   ],
+   "model": "コーヒー、飲みますか。——いいですね。新しいカフェに行ってみませんか。——行きたいけど、時間がないんです。青いカップと赤いカップ、どちらにしますか。——赤いのにします。彼は来ますか。——そう思います。",
+   "model_trans": {
+    "ko": "커피 마실래요? — 좋죠. 새 카페에 가 볼까요? — 가고 싶지만 시간이 없어요. 파란 컵과 빨간 컵 중에 어느 걸 쓰시겠어요? — 빨간 걸로요. 그가 올까요? — 그럴 것 같아요.",
+    "en": "Coffee? — I'd love some. Shall we try the new café? — I'd love to, but I haven't time. Which cup will you use, the blue or the red one? — The red one. Will he come? — I suppose so."
+   }
+  }
+ }
+}

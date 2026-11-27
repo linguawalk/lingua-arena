@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u33",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 33,
+  "concept": "C2.U33",
+  "status": "live",
+  "title": {
+   "target": "反論と譲歩：議論を組み立てる",
+   "ko": "토론: 반박과 양보",
+   "en": "Debate: rebuttal and concession"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "反論",
+   "pos": "noun",
+   "read": "はんろん",
+   "ko": "반박",
+   "en": "rebuttal",
+   "ex": {
+    "t": "反論には根拠が必要です。",
+    "read": "はんろんにはこんきょがひつようです。",
+    "ko": "그는 짧고 날카로운 반박을 했어요.",
+    "en": "He gave a short, sharp rebuttal."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "認める",
+   "pos": "verb",
+   "read": "みとめる",
+   "ko": "인정하다(양보)",
+   "en": "concede",
+   "ex": {
+    "t": "彼は相手の点を一部認めました。",
+    "read": "かれはあいてのてんをいちぶみとめました。",
+    "ko": "저는 그 점을 인정합니다.",
+    "en": "I concede that point."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "仮定する",
+   "pos": "verb",
+   "read": "かていする",
+   "ko": "가정하다",
+   "en": "grant",
+   "ex": {
+    "t": "仮にそうだとしても、結論は変わりません。",
+    "read": "かりにそうだとしても、けつろんはかわりません。",
+    "ko": "그 점이 맞다고 치더라도, 결론은 달라지지 않아요.",
+    "en": "Granted that point, the conclusion does not change."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "たとえ〜としても",
+   "pos": "phrase",
+   "read": "たとえ〜としても",
+   "ko": "그렇다 하더라도",
+   "en": "be that as it may",
+   "ex": {
+    "t": "たとえ費用がかかるとしても、やる価値があります。",
+    "read": "たとえひようがかかるとしても、やるかちがあります。",
+    "ko": "그렇다 하더라도 비용이 문제예요.",
+    "en": "Be that as it may, the cost is a problem."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜にもかかわらず",
+   "pos": "prep",
+   "read": "〜にもかかわらず",
+   "ko": "~에도 불구하고",
+   "en": "notwithstanding",
+   "ex": {
+    "t": "反対があるにもかかわらず、計画は進みました。",
+    "read": "はんたいがあるにもかかわらず、けいかくはすすみました。",
+    "ko": "비판에도 불구하고 계획은 진행됐어요.",
+    "en": "The plan went ahead notwithstanding the criticism."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "総合的に見て",
+   "pos": "phrase",
+   "read": "そうごうてきにみて",
+   "ko": "종합적으로 보면",
+   "en": "on balance",
+   "ex": {
+    "t": "総合的に見て、この案が最善です。",
+    "read": "そうごうてきにみて、このあんがさいぜんです。",
+    "ko": "종합적으로 보면 이 정책은 유익해요.",
+    "en": "On balance, this policy is beneficial."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "根拠",
+   "pos": "noun",
+   "read": "こんきょ",
+   "ko": "논거",
+   "en": "argument",
+   "ex": {
+    "t": "確かな根拠を示しましょう。",
+    "read": "たしかなこんきょをしめしましょう。",
+    "ko": "그의 논거는 탄탄해요.",
+    "en": "His argument is solid."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "弱点",
+   "pos": "noun",
+   "read": "じゃくてん",
+   "ko": "약점",
+   "en": "weakness",
+   "ex": {
+    "t": "相手の議論の弱点を指摘します。",
+    "read": "あいてのぎろんのじゃくてんをしてきします。",
+    "ko": "상대 논증의 약점을 짚었어요.",
+    "en": "I pointed out the weakness of the opposing argument."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "反論を提起する",
+   "pos": "phrase",
+   "read": "はんろんをていきする",
+   "ko": "반론을 제기하다",
+   "en": "raise an objection",
+   "ex": {
+    "t": "彼女は反論を提起しました。",
+    "read": "かのじょははんろんをていきしました。",
+    "ko": "저는 한 가지 반론을 제기하겠습니다.",
+    "en": "I will raise one objection."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "説得力のある",
+   "pos": "adj",
+   "read": "せっとくりょくのある",
+   "ko": "설득력 있는",
+   "en": "compelling",
+   "ex": {
+    "t": "説得力のある議論には譲歩が含まれます。",
+    "read": "せっとくりょくのあるぎろんにはじょうほがふくまれます。",
+    "ko": "그의 증거는 설득력 있어요.",
+    "en": "His evidence is compelling."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "確かに〜が、しかし／たとえ〜としても／〜にもかかわらず／仮に〜としたら／総合的に見て",
+   "en": "Counterargument and concession: 確かに〜が、しかし / たとえ〜としても / 〜にもかかわらず / 総合的に見て"
+  },
+  "explain": {
+   "ko": "説得力のある議論は、反対意見を無視せず、扱います。まず「確かに〜という意見もある」と相手の点を認め（譲歩）、次に「しかし」で自分の主張を述べます。「たとえ〜としても」「仮に〜だとしても」は、仮定を認めた上でも結論が変わらないと示します。「〜にもかかわらず」は、反対の事情を認めながら進む様子を表します。最後に「総合的に見て」でまとめます。",
+   "en": "A persuasive argument deals with opposing views rather than ignoring them. First concede with 「確かに〜という意見もある」, then state your own claim with 「しかし」. 「たとえ〜としても」「仮に〜だとしても」 show the conclusion holds even granting an assumption. 「〜にもかかわらず」 acknowledges contrary circumstances while moving on. Close with 「総合的に見て」."
+  },
+  "table": {
+   "head": [
+    "機能 / Function",
+    "表現 / Phrase",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "譲歩",
+     "確かに〜が",
+     "確かに費用はかかるが。"
+    ],
+    [
+     "仮定",
+     "たとえ〜としても",
+     "たとえ遅れても、やる価値がある。"
+    ],
+    [
+     "対比",
+     "〜にもかかわらず",
+     "反対にもかかわらず進んだ。"
+    ],
+    [
+     "結論",
+     "総合的に見て",
+     "総合的に見て、賛成だ。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "譲歩してから主張すると説得力が増します。",
+    "en": "Conceding first adds persuasiveness."
+   },
+   {
+    "ko": "相手の最も強い点を認めましょう。",
+    "en": "Acknowledge the opponent's strongest point."
+   },
+   {
+    "ko": "結論は短く明確に書きます。",
+    "en": "State the conclusion briefly and clearly."
+   }
+  ],
+  "examples": [
+   {
+    "t": "確かに費用はかかりますが、やる価値があります。",
+    "read": "たしかにひようはかかりますが、やるかちがあります。",
+    "ko": "그는 짧고 날카로운 반박을 했어요.",
+    "en": "He gave a short, sharp rebuttal."
+   },
+   {
+    "t": "たとえ遅れても、品質を優先すべきです。",
+    "read": "たとえおくれても、ひんしつをゆうせんすべきです。",
+    "ko": "저는 그 점을 인정합니다.",
+    "en": "I concede that point."
+   },
+   {
+    "t": "反対があるにもかかわらず、計画は進みました。",
+    "read": "はんたいがあるにもかかわらず、けいかくはすすみました。",
+    "ko": "그렇다 하더라도 비용이 문제예요.",
+    "en": "Be that as it may, the cost is a problem."
+   },
+   {
+    "t": "仮にそうだとしても、結論は変わりません。",
+    "read": "かりにそうだとしても、けつろんはかわりません。",
+    "ko": "종합적으로 보면 이 정책은 유익해요.",
+    "en": "On balance, this policy is beneficial."
+   },
+   {
+    "t": "総合的に見て、この案が最善です。",
+    "read": "そうごうてきにみて、このあんがさいぜんです。",
+    "ko": "그의 증거는 설득력 있어요.",
+    "en": "His evidence is compelling."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___費用はかかりますが、やる価値があります。",
+    "options": [
+     "確かに",
+     "決して",
+     "なぜなら"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___遅れても、品質を優先すべきです。",
+    "options": [
+     "たとえ",
+     "なぜ",
+     "いつも"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "反対がある___、計画は進みました。",
+    "options": [
+     "にもかかわらず",
+     "ので",
+     "から"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___、この案が最善です。",
+    "options": [
+     "総合的に見て",
+     "たとえば",
+     "ところで"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この案に反対意見はありますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 상대의 주장을 어떻게 일부 인정하며 반박할 수 있나요?",
+     "en": "(Question) How can you rebut a claim while conceding part of it?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "確かに費用の問題はありますが、効果は大きいです。",
+       "反対意見は聞きません。",
+       "計画はありません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "あなたはどう結論づけますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 'on balance'는 언제 쓰나요?",
+     "en": "(Question) When do you use 'on balance'?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "総合的に見て、この案が最善です。",
+       "決められません。",
+       "別の話をします。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この計画、費用が高すぎないかな。"
+      },
+      {
+       "s": "B",
+       "t": "確かに高いけど、長い目で見れば得だよ。"
+      },
+      {
+       "s": "A",
+       "t": "たとえ失敗したらどうする？"
+      },
+      {
+       "s": "B",
+       "t": "総合的に見て、やる価値があると思う。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그의 비판을 어떻게 생각해?\nB: 비용 문제는 인정하지만, 그렇다 하더라도 이익이 더 커.\nA: 증거는 있어?\nB: 응, 설득력 있는 자료가 있어.",
+     "en": "A: What do you think of his criticism?\nB: I concede the cost issue, but, be that as it may, the benefits are greater.\nA: Is there evidence?\nB: Yes, there is compelling data."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bの結論は何ですか。",
+      "options": [
+       "やる価値がある",
+       "やめるべきだ",
+       "もう少し待つ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "説得力のある議論は、反対意見を無視せず、扱います。まず相手の点を認め、それから自分の主張を述べます。「たとえ〜としても」は、仮定を認めた上でも結論が変わらないことを示します。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "좋은 토론은 상대를 이기는 것이 아니라 논점을 명확히 하는 것입니다. 상대의 좋은 점을 인정한 뒤 약점을 짚으면 신뢰를 얻습니다. 마지막에는 종합적으로 판단해 결론을 제시합니다.",
+     "en": "A good debate is not about defeating the opponent but about clarifying the points. Conceding the opponent's good points before pointing out weaknesses wins trust. In the end, you present a conclusion based on an overall judgement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "説得力のある議論でまず何をしますか。",
+      "options": [
+       "相手の点を認める",
+       "相手を無視する",
+       "結論だけ言う"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "反対の意見はありますか。"
+      },
+      {
+       "s": "B",
+       "t": "確かに費用はかかりますが、効果は大きいと思います。"
+      },
+      {
+       "s": "A",
+       "t": "たとえ予算が足りなくても進めますか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、総合的に見て、やる価値があります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의장: 반박해 주시겠습니까?\n토론자: 상대방의 지적을 일부 인정합니다.\n의장: 그렇다면 결론은요?\n토론자: 종합적으로 보면 여전히 찬성입니다.",
+     "en": "Chair: Would you like to respond?\nDebater: I concede part of the opponent's point.\nChair: Then what is your conclusion?\nDebater: On balance, I am still in favour."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "委員は確かに______はかかりますが効果は大きいと言います",
+      "answers": [
+       "費用"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "委員は______に見て、やる価値があると言います",
+      "answers": [
+       "総合的"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___費用はかかりますが、やる価値があります。\n2) ___遅れても、品質を優先すべきです。\n3) ___、この案が最善です。",
+    "trans": {
+     "ko": "1) 그는 짧고 날카로운 반박을 했어요. 2) 저는 그 점을 인정합니다. 3) 종합적으로 보면 이 정책은 유익해요.",
+     "en": "1) He gave a short, sharp rebuttal. 2) I concede that point. 3) On balance, this policy is beneficial."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___費用はかかりますが、やる価値があります。",
+      "options": [
+       "確かに",
+       "決して",
+       "なぜなら"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___遅れても、品質を優先すべきです。",
+      "options": [
+       "たとえ",
+       "なぜ",
+       "いつも"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___、この案が最善です。",
+      "options": [
+       "総合的に見て",
+       "たとえば",
+       "ところで"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "反対意見が(1)にもかかわらず、計画は進められました。仮に失敗したとしても、得られる(2)は大きいと、委員は(3)ました。",
+    "trans": {
+     "ko": "비판에도 불구하고 계획은 진행되었다. 의원은 비용 문제를 인정했지만, 장기적 이익이 더 크다고 주장했다. 그의 증거는 설득력 있었다.",
+     "en": "The plan went ahead notwithstanding the criticism. The councillor conceded the cost issue but argued that the long-term benefits were greater. His evidence was compelling."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "ある",
+       "ない",
+       "弱い"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "経験",
+       "天気",
+       "地図"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "述べ",
+       "壊し",
+       "忘れ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "論文の書き方\n反論を扱う\n優れた論文は、反対意見を無視しない。まず相手の最も強い点を認め、そのあとで自分の主張が妥当である理由を示す。これを譲歩といい、説得力を増すための基本の技法である。",
+    "trans": {
+     "ko": "토론 가이드\n품위 있는 반박\n반박하기 전에 상대의 논점을 정확히 요약하세요. 인정할 부분은 인정하고, 그렇다 하더라도 왜 결론이 달라지지 않는지 설명하세요. 마지막에는 종합적으로 판단한 결론을 제시하세요.",
+     "en": "DEBATE GUIDE\nGraceful rebuttal\nBefore rebutting, summarise the opponent's point accurately. Concede what should be conceded, and explain why, be that as it may, the conclusion does not change. At the end, give a conclusion based on an overall judgement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "優れた論文は反対意見をどう扱いますか。",
+      "options": [
+       "無視せず、まず認める",
+       "完全に無視する",
+       "すぐに否定する"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "譲歩は何のための技法ですか。",
+      "options": [
+       "説得力を増すため",
+       "文を長くするため",
+       "読者を怒らせるため"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、優れた論文が反対意見を無視しないと述べています。譲歩は説得力を増す基本の技法だと言います。",
+    "trans": {
+     "ko": "가이드는 반박 전에 상대의 논점을 요약하라고 한다. 가이드는 상대의 주장을 절대 인정하지 말라고 한다. 가이드는 종합적인 결론을 제시하라고 한다.",
+     "en": "The guide says to summarise the opponent's point before rebutting. The guide says never to concede the opponent's claim. The guide says to give an overall conclusion."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章は優れた論文が反対意見を無視しないと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章は譲歩が議論を弱くすると述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章は有名な論文を紹介している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "確かに費用の問題はありますが、効果は大きいです。",
+    "read": "たしかにひようのもんだいはありますが、こうかはおおきいです。",
+    "ko": "저는 상대방의 지적을 일부 인정합니다.",
+    "en": "I concede part of my opponent's point.",
+    "situation": {
+     "ko": "양보할 때",
+     "en": "Making a concession"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "総合的に見て、この案が最善です。",
+    "read": "そうごうてきにみて、このあんがさいぜんです。",
+    "ko": "그 점이 맞다고 치더라도, 결론은 달라지지 않습니다.",
+    "en": "Granted that point, the conclusion does not change.",
+    "situation": {
+     "ko": "양보 후 반박",
+     "en": "Rebuttal after concession"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "たとえ遅れても、品質を優先すべきです。",
+    "read": "たとえおくれても、ひんしつをゆうせんすべきです。",
+    "ko": "그렇다 하더라도 비용 문제는 남습니다.",
+    "en": "Be that as it may, the problem of cost remains.",
+    "situation": {
+     "ko": "반전을 말할 때",
+     "en": "Turning the argument"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "反対があるにもかかわらず、進めました。",
+    "read": "はんたいがあるにもかかわらず、すすめました。",
+    "ko": "비판에도 불구하고 계획은 진행되었습니다.",
+    "en": "The plan went ahead notwithstanding the criticism.",
+    "situation": {
+     "ko": "양보를 말할 때",
+     "en": "Expressing concession"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "仮にそうだとしても、結論は変わりません。",
+    "read": "かりにそうだとしても、けつろんはかわりません。",
+    "ko": "저는 상대 논증의 약점 한 가지를 짚겠습니다.",
+    "en": "I will point out one weakness in the opposing argument.",
+    "situation": {
+     "ko": "반박을 시작할 때",
+     "en": "Starting a rebuttal"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "確かな根拠を示しましょう。",
+    "read": "たしかなこんきょをしめしましょう。",
+    "ko": "저는 한 가지 반론을 제기하고 싶습니다.",
+    "en": "I would like to raise one objection.",
+    "situation": {
+     "ko": "이의를 제기할 때",
+     "en": "Raising an objection"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "相手の弱点を指摘します。",
+    "read": "あいてのじゃくてんをしてきします。",
+    "ko": "종합적으로 보면 이 정책의 이익이 비용보다 큽니다.",
+    "en": "On balance, the benefits of this policy outweigh its costs.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "譲歩すると説得力が増します。",
+    "read": "じょうほするとせっとくりょくがまします。",
+    "ko": "좋은 토론자는 상대의 좋은 논점을 인정할 줄 압니다.",
+    "en": "A good debater can acknowledge the opponent's good points.",
+    "situation": {
+     "ko": "태도를 말할 때",
+     "en": "Describing attitude"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "確かに〜が、しかし〜。",
+    "read": "たしかに〜が、しかし〜。",
+    "ko": "~를 인정하다.",
+    "en": "concede ..."
+   },
+   {
+    "id": "w2",
+    "t": "たとえ〜としても。",
+    "read": "たとえ〜としても。",
+    "ko": "~라고 치더라도.",
+    "en": "granted that ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜にもかかわらず。",
+    "read": "〜にもかかわらず。",
+    "ko": "~에도 불구하고.",
+    "en": "notwithstanding ..."
+   },
+   {
+    "id": "w4",
+    "t": "総合的に見て。",
+    "read": "そうごうてきにみて。",
+    "ko": "종합적으로 보면.",
+    "en": "on balance"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "상대 주장을 일부 인정하고 반박한 뒤 결론을 말하는 4문장을 써 보세요.",
+    "en": "Write four sentences that concede part of an opponent's claim, rebut it and conclude."
+   },
+   "must_include": [
+    {
+     "label": "確かに",
+     "match": [
+      "確かに"
+     ]
+    },
+    {
+     "label": "たとえ",
+     "match": [
+      "たとえ"
+     ]
+    },
+    {
+     "label": "総合的",
+     "match": [
+      "総合的に見て"
+     ]
+    }
+   ],
+   "model": "確かに費用はかかります。たとえ初期の効果が小さくても、長い目で見れば得になります。反対意見があるにもかかわらず、私は進めるべきだと考えます。総合的に見て、この案が最善です。",
+   "model_trans": {
+    "ko": "저는 비용이 크다는 점은 인정합니다. 그렇다 하더라도 장기적 이익은 그 비용을 넘어섭니다. 비판에도 불구하고 증거는 설득력 있습니다. 종합적으로 보면 이 정책을 채택해야 합니다.",
+    "en": "I concede that the cost is high. Be that as it may, the long-term benefits outweigh that cost. Notwithstanding the criticism, the evidence is compelling. On balance, this policy should be adopted."
+   }
+  }
+ }
+}

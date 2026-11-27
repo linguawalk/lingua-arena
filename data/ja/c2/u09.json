@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u09",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 9,
+  "concept": "C2.U09",
+  "status": "live",
+  "title": {
+   "target": "情報構造と文のバランス",
+   "ko": "정보 구조와 문장 균형",
+   "en": "Information structure and end-weight"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "既知の情報",
+   "pos": "noun",
+   "read": "きちのじょうほう",
+   "ko": "이미 알려진 정보",
+   "en": "given information",
+   "ex": {
+    "t": "既知の情報から新しい情報へ流れる文が読みやすいです。",
+    "read": "きちのじょうほうからあたらしいじょうほうへながれるぶんがよみやすいです。",
+    "ko": "문장은 보통 이미 알려진 정보로 시작해요.",
+    "en": "A sentence usually starts with given information."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "新情報",
+   "pos": "noun",
+   "read": "しんじょうほう",
+   "ko": "새 정보",
+   "en": "new information",
+   "ex": {
+    "t": "文末に新情報を置くと、わかりやすくなります。",
+    "read": "ぶんまつにしんじょうほうをおくと、わかりやすくなります。",
+    "ko": "새 정보는 문장 끝에 오는 경향이 있어요.",
+    "en": "New information tends to come at the end."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "文末に重点を置く",
+   "pos": "noun",
+   "read": "ぶんまつにじゅうてんをおく",
+   "ko": "문미 중점",
+   "en": "end-weight",
+   "ex": {
+    "t": "長い主語は後ろに回して、文末に重点を置きます。",
+    "read": "ながいしゅごはうしろにまわして、ぶんまつにじゅうてんをおきます。",
+    "ko": "긴 구는 문미 중점 원칙에 따라 뒤로 가요.",
+    "en": "Long phrases move to the end by end-weight."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "整った",
+   "pos": "verb",
+   "read": "ととのった",
+   "ko": "후치하다",
+   "en": "extrapose",
+   "ex": {
+    "t": "整った文章は読みやすいです。",
+    "read": "ととのったぶんしょうはよみやすいです。",
+    "ko": "긴 주어를 뒤로 보내면 읽기 쉬워져요.",
+    "en": "Extraposing a long subject makes it easier to read."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "強調点",
+   "pos": "adj",
+   "read": "きょうちょうてん",
+   "ko": "정돈된",
+   "en": "well-ordered",
+   "ex": {
+    "t": "この文の強調点はどこにありますか。",
+    "read": "このぶんのきょうちょうてんはどこにありますか。",
+    "ko": "잘 정돈된 글은 읽기 쉬워요.",
+    "en": "A well-ordered text is easy to read."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "先に述べた",
+   "pos": "noun",
+   "read": "さきにのべた",
+   "ko": "강조점",
+   "en": "focal point",
+   "ex": {
+    "t": "先に述べた問題が再び起こりました。",
+    "read": "さきにのべたもんだいがふたたびおこりました。",
+    "ko": "문장의 강조점은 끝에 있어요.",
+    "en": "The focal point of a sentence lies at the end."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "導く",
+   "pos": "adj",
+   "read": "みちびく",
+   "ko": "앞서 말한",
+   "en": "aforementioned",
+   "ex": {
+    "t": "この表現は次の説明へ導きます。",
+    "read": "このひょうげんはつぎのせつめいへみちびきます。",
+    "ko": "앞서 말한 문제를 다시 보죠.",
+    "en": "Let us revisit the aforementioned problem."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "つなぎ",
+   "pos": "phrase",
+   "read": "つなぎ",
+   "ko": "유도하다",
+   "en": "lead into",
+   "ex": {
+    "t": "段落のつなぎがなめらかです。",
+    "read": "だんらくのつなぎがなめらかです。",
+    "ko": "서론은 본론으로 이끌어요.",
+    "en": "The introduction leads into the main body."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "飛躍",
+   "pos": "noun",
+   "read": "ひやく",
+   "ko": "전환",
+   "en": "transition",
+   "ex": {
+    "t": "論理に飛躍があります。",
+    "read": "ろんりにひやくがあります。",
+    "ko": "단락 사이의 전환이 매끄러워요.",
+    "en": "The transition between paragraphs is smooth."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "したがって",
+   "pos": "noun",
+   "read": "したがって",
+   "ko": "비약",
+   "en": "leap",
+   "ex": {
+    "t": "したがって、データをもう一度確認する必要があります。",
+    "read": "したがって、データをもういちどかくにんするひつようがあります。",
+    "ko": "논리에 비약이 있어요.",
+    "en": "There is a leap in the logic."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜ということは／〜点にある／先に述べた／したがって",
+   "en": "Information structure: 〜ということは / 〜点にある / 先に述べた / したがって"
+  },
+  "explain": {
+   "ko": "文章は、すでにわかっている情報から新しい情報へ流れると読みやすくなります。長い主語は「〜ということは／〜点は」でまとめて前に置き、核心を文末に置きます：「この論文の長所は、方法論の精緻さにあります。」問題を示すときは「問題は〜にある」を使います。前の内容は「先に述べた」で受けて、「したがって」で続けます。こうすると文のバランスがよくなり、明確になります。",
+   "en": "Text reads easily when it flows from known to new information. Wrap a long subject with 「〜ということは／〜点は」 and keep the key point at the end: 「この論文の長所は、方法論の精緻さにあります。」 Present problems with 「問題は〜にある」. Pick up earlier points with 「先に述べた」 and continue with 「したがって」."
+  },
+  "table": {
+   "head": [
+    "機能 / Function",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "主題 / Topic",
+     "〜ということは",
+     "彼が戻らないということは驚きだ。"
+    ],
+    [
+     "核心 / Key point",
+     "〜は〜にある",
+     "長所は方法論にある。"
+    ],
+    [
+     "前の内容 / Back-ref",
+     "先に述べた〜",
+     "先に述べた危険を減らす。"
+    ],
+    [
+     "結論 / Result",
+     "したがって",
+     "したがって、確認が必要だ。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "核心の情報は文末に置きます。",
+    "en": "Put key information at the end."
+   },
+   {
+    "ko": "長い主語は「〜ということ」でまとめます。",
+    "en": "Pack a long subject with 「〜ということ」."
+   },
+   {
+    "ko": "「したがって」は前の内容の結果を導きます。",
+    "en": "「したがって」 introduces a consequence."
+   }
+  ],
+  "examples": [
+   {
+    "t": "彼が戻らなかったということは、驚きでした。",
+    "read": "かれがもどらなかったということは、おどろきでした。",
+    "ko": "그가 돌아오지 않았다는 사실은 놀라웠어요.",
+    "en": "It was surprising that he had not returned."
+   },
+   {
+    "t": "この論文の長所は、方法論の精緻さにあります。",
+    "read": "このろんぶんのちょうしょは、ほうほうろんのせいちさにあります。",
+    "ko": "그 정책이 실패한 이유는 여러 가지가 있어요.",
+    "en": "There are several reasons why the policy failed."
+   },
+   {
+    "t": "先に述べた問題が、結論の信頼性を損なうことがあります。",
+    "read": "さきにのべたもんだいが、けつろんのしんらいせいをそこなうことがあります。",
+    "ko": "선생님이 학생들에게 흥미로운 책 한 권을 추천했어요.",
+    "en": "The teacher recommended to the students an interesting book on linguistics."
+   },
+   {
+    "t": "したがって、データをもう一度確認する必要があります。",
+    "read": "したがって、データをもういちどかくにんするひつようがあります。",
+    "ko": "그들이 모든 서류를 제출할 필요가 있다는 점은 분명해요.",
+    "en": "It is clear that they need to submit all the documents."
+   },
+   {
+    "t": "問題の核心は、日程が厳しすぎる点にあります。",
+    "read": "もんだいのかくしんは、にっていがいかめしすぎるてんにあります。",
+    "ko": "이 논문의 장점은 그 방법론의 정교함에 있어요.",
+    "en": "The strength of this paper lies in the sophistication of its methodology."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "彼が戻らなかった___ことは、驚きでした。",
+    "options": [
+     "という",
+     "ような",
+     "ほど"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "この論文の長所は、方法論の精緻さ___あります。",
+    "options": [
+     "に",
+     "を",
+     "が"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___述べた問題が再び起こりました。",
+    "options": [
+     "先に",
+     "後で",
+     "次に"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___、データをもう一度確認する必要があります。",
+    "options": [
+     "したがって",
+     "しかし",
+     "もし"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この計画の問題は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 계획의 문제는 무엇인가요?",
+     "en": "(Question) What is the problem with this plan?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "問題は、費用が高すぎる点にあります。",
+       "計画はありません。",
+       "明日始めます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この論文の長所は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 논문의 장점은 무엇인가요?",
+     "en": "(Question) What is the strength of this paper?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "方法論の精緻さにあります。",
+       "昨日出しました。",
+       "読んでいません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この文章、読みにくいんだけど、どうしてかな。"
+      },
+      {
+       "s": "B",
+       "t": "主語が長すぎるからだよ。長いところは後ろに回してみて。"
+      },
+      {
+       "s": "A",
+       "t": "たとえば？"
+      },
+      {
+       "s": "B",
+       "t": "「彼が去ったことは私たちを驚かせた」じゃなくて、「私たちを驚かせたのは、彼が去ったことだ」のように。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 글을 읽기 어려워. 왜 그럴까?\nB: 주어가 너무 길어서 그래. 긴 부분은 뒤로 보내 봐.\nA: 예를 들면?\nB: 'That he left surprised us' 대신 'It surprised us that he left'처럼.",
+     "en": "A: This text is hard to read. Why?\nB: The subject is too long. Try moving the long part to the end.\nA: For example?\nB: Like 'It surprised us that he left' instead of 'That he left surprised us'."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bはなぜ読みにくいと言いましたか。",
+      "options": [
+       "主語が長すぎるから",
+       "単語が簡単だから",
+       "文が短いから"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "文は、すでに知っている情報から新しい情報へと流れるのが基本です。長い部分は文末に回します。「〜ということは」や「問題は〜にある」のような構文は、新しい情報を効果的に導入します。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "영어 문장은 대체로 이미 아는 정보에서 새 정보로 흐릅니다. 긴 구는 문장 뒤로 옮기는 문미 중점 원칙을 따릅니다. 존재문 there is나 후치 It is ... that은 새로운 정보를 효과적으로 도입합니다.",
+     "en": "English sentences generally flow from known to new information. Long phrases move to the end by the end-weight principle. Existential there is and extraposed It is ... that introduce new information effectively."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "文は基本的にどう流れますか。",
+      "options": [
+       "既知の情報から新しい情報へ",
+       "新しい情報から既知の情報へ",
+       "ばらばらに"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "論文の構成を説明してください。"
+      },
+      {
+       "s": "B",
+       "t": "序論は問題を紹介し、本論へ導きます。"
+      },
+      {
+       "s": "A",
+       "t": "つなぎはなめらかですか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、各段落は先の情報から新しい情報へつながっています。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 논문의 구조를 설명해 주세요.\n학생: 서론은 문제를 소개하고 본론으로 이끕니다.\n교수: 전환은 매끄럽습니까?\n학생: 네, 각 단락은 앞선 정보에서 새로운 정보로 이어집니다.",
+     "en": "Professor: Please explain the structure of your paper.\nStudent: The introduction presents the problem and leads into the main body.\nProfessor: Are the transitions smooth?\nStudent: Yes, each paragraph moves from given to new information."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "序論は問題を紹介し、______へ導きます",
+      "answers": [
+       "本論"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "各段落は先の情報から______情報へつながっています",
+      "answers": [
+       "新しい"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 彼が戻らなかった___ことは、驚きでした。\n2) その政策が失敗した___は、いくつもあります。\n3) この論文の長所は、方法論の精緻さ___あります。",
+    "trans": {
+     "ko": "1) 그가 돌아오지 않았다는 건 놀라웠어요. 2) 그 정책이 실패한 이유는 여러 가지예요. 3) 이 논문의 장점은 방법론의 정교함에 있어요.",
+     "en": "1) It was surprising that he had not returned. 2) There are several reasons why the policy failed. 3) The strength of this paper lies in the sophistication of its methodology."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "彼が戻らなかった___ことは、驚きでした。",
+      "options": [
+       "という",
+       "ような",
+       "ほど"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "その政策が失敗した___は、いくつもあります。",
+      "options": [
+       "理由",
+       "場所",
+       "時間"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "この論文の長所は、方法論の精緻さ___あります。",
+      "options": [
+       "に",
+       "を",
+       "が"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "この報告書にはいくつか問題があります。最大の問題は、資料の出所が(1)点です。(2)述べた問題は、結論の信頼性を損なうことがあります。(3)、資料をもう一度確認する必要があります。",
+    "trans": {
+     "ko": "이 보고서에는 몇 가지 문제가 있다. 가장 큰 문제는 자료의 출처가 불분명하다는 점이다. 앞서 말한 문제는 결론의 신뢰성을 해칠 수 있다. 따라서 자료를 다시 확인하는 것이 필요하다.",
+     "en": "There are several problems in this report. The biggest lies in the unclear source of the data. The aforementioned problem may undermine the reliability of the conclusion. It is therefore necessary to recheck the data."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "不明確な",
+       "明確な",
+       "豊富な"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "先に",
+       "後で",
+       "次に"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "したがって",
+       "しかし",
+       "もし"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "文章の書き方\n読みやすい文\n読者は、すでに知っている情報から新しい情報へ流れる文章を読みやすいと感じます。長い主語は後ろに回し、核心は文末に置きましょう。そうすると、文のバランスがよくなり、はっきりします。",
+    "trans": {
+     "ko": "글쓰기 팁\n읽기 쉬운 문장\n독자는 이미 아는 정보에서 새로운 정보로 흐르는 글을 쉽게 읽습니다. 긴 주어는 뒤로 보내고, 핵심은 문장 끝에 두세요. 이렇게 하면 문장이 균형 잡히고 명확해집니다.",
+     "en": "WRITING TIP\nSentences that read easily\nReaders find it easy to follow text that moves from given to new information. Move long subjects to the end and place the key point last. This makes sentences balanced and clear."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "読者はどんな文章を読みやすいと感じますか。",
+      "options": [
+       "既知から新情報へ流れる文章",
+       "短い文章",
+       "絵が多い文章"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "核心はどこに置きますか。",
+      "options": [
+       "文末",
+       "文頭",
+       "題名"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、読者が既知の情報から新しい情報へ流れる文章を読みやすいと感じると説明しています。また、核心は文末に置くとよいと勧めています。",
+    "trans": {
+     "ko": "글은 독자가 이미 아는 정보에서 새 정보로 흐르는 글을 읽기 쉽다고 말한다. 글은 긴 주어를 앞에 두라고 권한다. 글은 핵심을 문장 끝에 두라고 권한다.",
+     "en": "The text says readers find given-to-new text easy to follow. The text advises keeping long subjects at the start. The text advises placing the key point at the end."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章は既知から新情報へ流れる文が読みやすいと言っている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章は長い主語を文頭に置くよう勧めている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章は段落を短くするよう勧めている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "問題は、費用が高すぎる点にあります。",
+    "read": "もんだいは、ひようがたかすぎるてんにあります。",
+    "ko": "그가 제안을 거절했다는 사실은 놀라웠습니다.",
+    "en": "It was surprising that he turned down the proposal.",
+    "situation": {
+     "ko": "긴 주어를 후치할 때",
+     "en": "Extraposing a long subject"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "方法論の精緻さにあります。",
+    "read": "ほうほうろんのせいちさにあります。",
+    "ko": "이 문제에는 여러 가지 원인이 있습니다.",
+    "en": "There are several causes of this problem.",
+    "situation": {
+     "ko": "존재문으로 새 정보를 도입할 때",
+     "en": "Introducing new information with 'there'"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "彼が戻らなかったということは驚きでした。",
+    "read": "かれがもどらなかったということはおどろきでした。",
+    "ko": "이 연구의 가치는 새로운 데이터를 제시했다는 점에 있습니다.",
+    "en": "The value of this study lies in the new data it presents.",
+    "situation": {
+     "ko": "문미에 핵심을 둘 때",
+     "en": "Placing the key point last"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "先に述べた危険を減らしましょう。",
+    "read": "さきにのべたきけんをへらしましょう。",
+    "ko": "그는 팀 전체에 매우 중요한 정보를 전달했습니다.",
+    "en": "He passed on to the whole team some information of great importance.",
+    "situation": {
+     "ko": "긴 목적어를 뒤로 보낼 때",
+     "en": "Moving a long object to the end"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "したがって、確認が必要です。",
+    "read": "したがって、かくにんがひつようです。",
+    "ko": "앞서 언급한 문제로 돌아가 보겠습니다.",
+    "en": "Let us return to the aforementioned problem.",
+    "situation": {
+     "ko": "앞선 정보를 가리킬 때",
+     "en": "Referring back to given information"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "長い主語は後ろに回します。",
+    "read": "ながいしゅごはうしろにまわします。",
+    "ko": "이 접근법에는 한 가지 심각한 결점이 있습니다.",
+    "en": "There is one serious flaw in this approach.",
+    "situation": {
+     "ko": "새 정보를 도입할 때",
+     "en": "Introducing a new point"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "論理に飛躍があります。",
+    "read": "ろんりにひやくがあります。",
+    "ko": "그 문제를 해결한 것은 바로 이 새로운 방법이었습니다.",
+    "en": "It was this new method that solved the problem.",
+    "situation": {
+     "ko": "분열문으로 초점을 줄 때",
+     "en": "Using a cleft for focus"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "文末に重点を置きます。",
+    "read": "ぶんまつにじゅうてんをおきます。",
+    "ko": "이 글의 목적은 두 가지 접근을 비교하는 것입니다.",
+    "en": "The aim of this essay is to compare the two approaches.",
+    "situation": {
+     "ko": "문미에 중요한 정보를 두는 구조",
+     "en": "A balanced, end-focused structure"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜ということは〜。",
+    "read": "〜ということは〜。",
+    "ko": "~라는 것은 …이다 (후치).",
+    "en": "It is ... that ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜は〜にある。",
+    "read": "〜は〜にある。",
+    "ko": "~이(가) 있다 (존재).",
+    "en": "There is/are ..."
+   },
+   {
+    "id": "w3",
+    "t": "先に述べた〜。",
+    "read": "さきにのべた〜。",
+    "ko": "가치/문제는 ~에 있다.",
+    "en": "The strength/problem lies in ..."
+   },
+   {
+    "id": "w4",
+    "t": "したがって〜。",
+    "read": "したがって〜。",
+    "ko": "앞서 말한 ~.",
+    "en": "the aforementioned ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "정보 구조(문미 중점, 후치, there is)를 사용해 문제를 분석하는 4문장을 써 보세요.",
+    "en": "Write four sentences analysing a problem, using information structure (end-weight, extraposition, there is)."
+   },
+   "must_include": [
+    {
+     "label": "点にある",
+     "match": [
+      "という点にあります"
+     ]
+    },
+    {
+     "label": "核心",
+     "match": [
+      "問題の核心は"
+     ]
+    },
+    {
+     "label": "先に述べた",
+     "match": [
+      "先に述べた危険"
+     ]
+    }
+   ],
+   "model": "この計画には一つ重大な欠点があります。費用が予想よりずっと高くなる可能性があるという点は明らかです。問題の核心は、日程が厳しすぎるという点にあります。先に述べた危険を減らすには、段階的に進めるのが望ましいです。",
+   "model_trans": {
+    "ko": "이 계획에는 한 가지 심각한 결점이 있어요. 비용이 예상보다 훨씬 높아질 수 있다는 점은 분명해요. 문제의 핵심은 일정이 지나치게 빡빡하다는 데 있어요. 앞서 말한 위험을 줄이려면 단계별로 진행하는 것이 바람직해요.",
+    "en": "There is one serious flaw in this plan. It is clear that costs could rise far above expectation. The crux of the problem lies in the schedule being too tight. To reduce the aforementioned risk, it is advisable to proceed in stages."
+   }
+  }
+ }
+}

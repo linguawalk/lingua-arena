@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u45",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 45,
+  "concept": "C2.U45",
+  "status": "live",
+  "title": {
+   "target": "ニュースの文体と見出し",
+   "ko": "저널리즘 문체: 헤드라인과 리드",
+   "en": "Journalistic style: headlines and ledes"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "見出し",
+   "pos": "noun",
+   "read": "みだし",
+   "ko": "헤드라인",
+   "en": "headline",
+   "ex": {
+    "t": "見出しは短く強い言葉を使います。",
+    "read": "みだしはみじかくつよいことばをつかいます。",
+    "ko": "헤드라인은 짧고 강해야 해요.",
+    "en": "A headline must be short and strong."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "リード",
+   "pos": "noun",
+   "read": "リード",
+   "ko": "리드(첫 문단)",
+   "en": "lede",
+   "ex": {
+    "t": "リードに要点をまとめます。",
+    "read": "リードにようてんをまとめます。",
+    "ko": "리드는 핵심을 담아요.",
+    "en": "The lede contains the essentials."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "逆ピラミッド",
+   "pos": "phrase",
+   "read": "ぎゃくピラミッド",
+   "ko": "역피라미드",
+   "en": "inverted pyramid",
+   "ex": {
+    "t": "ニュースは逆ピラミッドの構造です。",
+    "read": "ニュースはぎゃくピラミッドのこうぞうです。",
+    "ko": "뉴스는 역피라미드 구조예요.",
+    "en": "News follows the inverted pyramid structure."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜する予定だ",
+   "pos": "phrase",
+   "read": "〜するよていだ",
+   "ko": "~할 예정이다",
+   "en": "is set to",
+   "ex": {
+    "t": "来月発表する予定だ。",
+    "read": "らいげつはっぴょうするよていだ。",
+    "ko": "총리는 사임할 예정이에요.",
+    "en": "The prime minister is set to resign."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "非難する",
+   "pos": "verb",
+   "read": "ひなんする",
+   "ko": "맹비난하다",
+   "en": "slam",
+   "ex": {
+    "t": "首相は批判を強く非難した。",
+    "read": "しゅしょうはひはんをつよくひなんした。",
+    "ko": "야당은 정책을 맹비난했어요.",
+    "en": "The opposition slammed the policy."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "関係者によると",
+   "pos": "phrase",
+   "read": "かんけいしゃによると",
+   "ko": "소식통에 따르면",
+   "en": "sources said",
+   "ex": {
+    "t": "関係者によると、計画は中止された。",
+    "read": "かんけいしゃによると、けいかくはちゅうしされた。",
+    "ko": "소식통에 따르면 협상이 결렬됐어요.",
+    "en": "Sources said the talks have collapsed."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "速報",
+   "pos": "phrase",
+   "read": "そくほう",
+   "ko": "속보",
+   "en": "breaking news",
+   "ex": {
+    "t": "速報が入りました。",
+    "read": "そくほうがいりました。",
+    "ko": "속보를 전해 드립니다.",
+    "en": "Here is the breaking news."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "編集者",
+   "pos": "noun",
+   "read": "へんしゅうしゃ",
+   "ko": "편집자",
+   "en": "editor",
+   "ex": {
+    "t": "編集者が記事を確認します。",
+    "read": "へんしゅうしゃがきじをかくにんします。",
+    "ko": "편집자가 헤드라인을 고쳤어요.",
+    "en": "The editor revised the headline."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "報じる",
+   "pos": "verb",
+   "read": "ほうじる",
+   "ko": "보도하다",
+   "en": "report",
+   "ex": {
+    "t": "新聞は事件を大きく報じた。",
+    "read": "しんぶんはじけんをおおきくほうじた。",
+    "ko": "신문은 사건을 보도했어요.",
+    "en": "The newspaper reported the incident."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "誇張する",
+   "pos": "verb",
+   "read": "こちょうする",
+   "ko": "과장하다",
+   "en": "sensationalise",
+   "ex": {
+    "t": "見出しが内容を誇張しています。",
+    "read": "みだしがないようをこちょうしています。",
+    "ko": "일부 매체는 사건을 과장해요.",
+    "en": "Some outlets sensationalise events."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜することが分かった／〜と見られる／関係者によると／速報／見出し",
+   "en": "News style: 〜することが分かった / 〜と見られる / 関係者によると / 速報 / 見出し"
+  },
+  "explain": {
+   "ko": "ニュースの文は、簡潔で客観的に書かれます。見出しは短く強い言葉を使い、リード（第一段落）に最も重要な情報をまとめる「逆ピラミッド」の構造です。「〜と見られる」「〜することが分かった」「関係者によると」は、断定を避けて情報の確かさを示す表現です。ただし、見出しは内容を誇張することもあるので、本文も読んで確かめましょう。",
+   "en": "News writing is concise and objective. Headlines use short, strong words, and the lead (first paragraph) packs the key information in an 「逆ピラミッド」 structure. 「〜と見られる」「〜することが分かった」「関係者によると」 avoid assertion and signal the certainty of information. Headlines may exaggerate, so read the body to verify."
+  },
+  "table": {
+   "head": [
+    "表現 / Phrase",
+    "働き / Function",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "〜と見られる",
+     "断定を避ける",
+     "中止と見られる。"
+    ],
+    [
+     "〜ことが分かった",
+     "判明した事実",
+     "原因が分かった。"
+    ],
+    [
+     "関係者によると",
+     "情報源を示す",
+     "関係者によると、〜。"
+    ],
+    [
+     "速報",
+     "最新情報",
+     "速報が入った。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "リードに最も重要な情報を置きます。",
+    "en": "Put the key information in the lead."
+   },
+   {
+    "ko": "見出しだけで判断しないようにします。",
+    "en": "Do not judge by headline alone."
+   },
+   {
+    "ko": "情報源の確かさに注意しましょう。",
+    "en": "Watch the certainty of the source."
+   }
+  ],
+  "examples": [
+   {
+    "t": "関係者によると、計画は中止された。",
+    "read": "かんけいしゃによると、けいかくはちゅうしされた。",
+    "ko": "헤드라인은 짧고 강해야 해요.",
+    "en": "A headline must be short and strong."
+   },
+   {
+    "t": "原因は老朽化と見られる。",
+    "read": "げんいんはろうきゅうかとみられる。",
+    "ko": "리드는 핵심을 담아요.",
+    "en": "The lede contains the essentials."
+   },
+   {
+    "t": "調査で新たな事実が分かった。",
+    "read": "ちょうさであらたなじじつがわかった。",
+    "ko": "뉴스는 역피라미드 구조예요.",
+    "en": "News follows the inverted pyramid structure."
+   },
+   {
+    "t": "首相は来月発表する予定だ。",
+    "read": "しゅしょうはらいげつはっぴょうするよていだ。",
+    "ko": "총리는 사임할 예정이에요.",
+    "en": "The prime minister is set to resign."
+   },
+   {
+    "t": "速報が入りました。",
+    "read": "そくほうがいりました。",
+    "ko": "야당은 정책을 맹비난했어요.",
+    "en": "The opposition slammed the policy."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___によると、計画は中止された。",
+    "options": [
+     "関係者",
+     "天気",
+     "料理"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "原因は老朽化と___。",
+    "options": [
+     "見られる",
+     "歌える",
+     "走れる"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "調査で新たな事実が___。",
+    "options": [
+     "分かった",
+     "忘れた",
+     "売れた"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "首相は来月発表する___だ。",
+    "options": [
+     "予定",
+     "趣味",
+     "天気"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ニュースの文の特徴は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 리드란 무엇인가요?",
+     "en": "(Question) What is a lede?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "簡潔で客観的に書かれています。",
+       "とても長くて感情的です。",
+       "詩のように書かれています。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "「〜と見られる」は何を示しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 역피라미드 구조란 무엇인가요?",
+     "en": "(Question) What is the inverted pyramid structure?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "断定を避け、情報の確かさを示します。",
+       "完全に確実だと示します。",
+       "うそだと示します。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この見出し、すごく強い言葉だね。"
+      },
+      {
+       "s": "B",
+       "t": "本文を読むと、内容はもっと控えめなんだよ。"
+      },
+      {
+       "s": "A",
+       "t": "誇張しているの？"
+      },
+      {
+       "s": "B",
+       "t": "見出しだけで判断しないほうがいいね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 헤드라인은 왜 짧고 현재 시제야?\nB: 독자의 눈을 사로잡고 긴박감을 주려는 거야.\nA: 리드는 어디에 있어?\nB: 첫 문단에 있고 핵심을 다 담고 있어.",
+     "en": "A: Why is this headline short and in the present tense?\nB: To catch the reader's eye and create urgency.\nA: Where is the lede?\nB: In the first paragraph, containing all the essentials."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは見出しについてどう言いましたか。",
+      "options": [
+       "見出しだけで判断しないほうがいい",
+       "見出しがすべてだ",
+       "本文は読まなくていい"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "ニュースの文は、簡潔で客観的に書かれます。見出しは短く強い言葉を使い、リードに最も重要な情報をまとめます。ただし、見出しは内容を誇張することもあるので、本文も読んで確かめましょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "신문 기사는 가장 중요한 정보를 먼저 쓰는 역피라미드 구조를 따릅니다. 헤드라인은 짧은 단어와 현재 시제를 쓰고, 리드는 핵심을 한 문장에 담습니다. 기자는 출처를 밝히고 사실과 의견을 구분해야 합니다.",
+     "en": "News articles follow the inverted pyramid, putting the most important information first. Headlines use short words and the present tense, and the lede packs the essentials into one sentence. Reporters must name their sources and separate fact from opinion."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "リードにはどんな情報を置きますか。",
+      "options": [
+       "最も重要な情報",
+       "細かい補足",
+       "広告"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "関係者によると、計画は中止された模様です。"
+      },
+      {
+       "s": "B",
+       "t": "情報源は確かですか。"
+      },
+      {
+       "s": "A",
+       "t": "はい、複数の関係者から確認しました。"
+      },
+      {
+       "s": "B",
+       "t": "では、速報として出しましょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "편집자: 헤드라인이 너무 깁니다.\n기자: 어떻게 줄일까요?\n편집자: 동사를 현재 시제로 바꾸고 관사를 빼세요.\n기자: 알겠습니다. 짧게 고치겠습니다.",
+     "en": "Editor: The headline is too long.\nReporter: How should I shorten it?\nEditor: Put the verb in the present tense and drop the articles.\nReporter: Understood. I'll shorten it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "記者は関係者によると計画は______された模様だと言います",
+      "answers": [
+       "中止"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "記者は______の関係者から確認したと言います",
+      "answers": [
+       "複数"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___によると、計画は中止された。\n2) 原因は老朽化と___。\n3) 調査で新たな事実が___。",
+    "trans": {
+     "ko": "1) 헤드라인은 짧고 강해야 해요. 2) 리드는 핵심을 담아요. 3) 뉴스는 역피라미드 구조예요.",
+     "en": "1) A headline must be short and strong. 2) The lede contains the essentials. 3) News follows the inverted pyramid structure."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___によると、計画は中止された。",
+      "options": [
+       "関係者",
+       "天気",
+       "料理"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "原因は老朽化と___。",
+      "options": [
+       "見られる",
+       "歌える",
+       "走れる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "調査で新たな事実が___。",
+      "options": [
+       "分かった",
+       "忘れた",
+       "売れた"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "その新聞は、事件を(1)で報じました。しかし、本文を読むと、見出しが内容を(2)していることがわかりました。読者は、見出しだけで(3)しないほうがよいでしょう。",
+    "trans": {
+     "ko": "총리는 다음 주 사임할 예정이라고 소식통이 전했다. 야당은 정부의 최근 정책을 맹비난해 왔다. 후임자는 아직 발표되지 않았다.",
+     "en": "The prime minister is set to resign next week, sources said. The opposition has slammed the government's recent policy. No successor has yet been announced."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "大きな見出し",
+       "小さな声",
+       "短い手紙"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "誇張",
+       "削除",
+       "翻訳"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "判断",
+       "料理",
+       "運動"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "メディア入門\nニュースの読み方\nニュースは、最も重要な情報を最初に置く逆ピラミッドの形で書かれる。「〜と見られる」や「関係者によると」という表現は、情報の確かさに限界があることを示している。見出しだけでなく、本文も読もう。",
+    "trans": {
+     "ko": "저널리즘 강의\n좋은 기사 쓰기\n기사는 중요한 정보를 먼저 쓰는 역피라미드 구조를 따릅니다. 헤드라인은 짧고 강하게, 리드는 누가, 무엇을, 언제, 어디서를 담도록 쓰세요. 출처를 밝히고 사실과 의견을 구분하는 것이 신뢰의 기본입니다.",
+     "en": "JOURNALISM LECTURE\nWriting a good article\nAn article follows the inverted pyramid, putting the most important information first. Write headlines short and strong, and ledes to contain who, what, when and where. Naming sources and separating fact from opinion are the basis of trust."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ニュースは何を最初に置きますか。",
+      "options": [
+       "最も重要な情報",
+       "最も小さな情報",
+       "広告"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "「関係者によると」は何を示しますか。",
+      "options": [
+       "情報の確かさに限界があること",
+       "確実な事実",
+       "個人の意見"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、ニュースが最も重要な情報を最初に置く逆ピラミッドの形で書かれると述べています。「関係者によると」は情報の確かさに限界があることを示すと言います。",
+    "trans": {
+     "ko": "강의는 기사가 중요한 정보를 먼저 쓰는 구조를 따른다고 본다. 강의는 헤드라인이 길수록 좋다고 한다. 강의는 출처를 밝히는 것이 신뢰의 기본이라고 본다.",
+     "en": "The lecture says an article puts the most important information first. The lecture says the longer a headline the better. The lecture says naming sources is the basis of trust."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章はニュースが逆ピラミッドで書かれると述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章は見出しだけ読めば十分だと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章は特定の新聞を推薦している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "簡潔で客観的に書かれています。",
+    "read": "かんけつできゃっかんてきにかかれています。",
+    "ko": "헤드라인은 현재 시제와 짧은 단어를 즐겨 씁니다.",
+    "en": "Headlines favour the present tense and short words.",
+    "situation": {
+     "ko": "헤드라인 문체",
+     "en": "Headline style"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "断定を避け、情報の確かさを示します。",
+    "read": "だんていをさけ、じょうほうのたしかさをしめします。",
+    "ko": "리드는 누가, 무엇을, 언제, 어디서를 한 문장에 담습니다.",
+    "en": "The lede packs who, what, when and where into one sentence.",
+    "situation": {
+     "ko": "리드를 설명할 때",
+     "en": "Explaining the lede"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "関係者によると、計画は中止されました。",
+    "read": "かんけいしゃによると、けいかくはちゅうしされました。",
+    "ko": "뉴스는 중요한 정보를 먼저 쓰는 역피라미드 구조를 따릅니다.",
+    "en": "News follows the inverted pyramid, putting the most important information first.",
+    "situation": {
+     "ko": "구조를 설명할 때",
+     "en": "Explaining structure"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "原因は老朽化と見られます。",
+    "read": "げんいんはろうきゅうかとみられます。",
+    "ko": "총리는 다음 주 사임할 예정이라고 소식통이 전했습니다.",
+    "en": "The prime minister is set to resign next week, sources said.",
+    "situation": {
+     "ko": "보도 문체",
+     "en": "Reporting style"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "調査で新たな事実が分かりました。",
+    "read": "ちょうさであらたなじじつがわかりました。",
+    "ko": "야당은 정부의 새 정책을 맹비난했습니다.",
+    "en": "The opposition slammed the government's new policy.",
+    "situation": {
+     "ko": "헤드라인 어휘",
+     "en": "Headline vocabulary"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "見出しだけで判断しないようにします。",
+    "read": "みだしだけではんだんしないようにします。",
+    "ko": "일부 매체는 클릭을 위해 사건을 과장합니다.",
+    "en": "Some outlets sensationalise events to attract clicks.",
+    "situation": {
+     "ko": "비판할 때",
+     "en": "Criticising"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "リードに要点をまとめます。",
+    "read": "リードにようてんをまとめます。",
+    "ko": "좋은 기자는 출처를 밝히고 사실과 의견을 구분합니다.",
+    "en": "A good reporter names sources and separates fact from opinion.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "速報が入りました。",
+    "read": "そくほうがいりました。",
+    "ko": "편집자는 헤드라인을 짧고 정확하게 다듬습니다.",
+    "en": "Editors polish headlines to be short and accurate.",
+    "situation": {
+     "ko": "편집을 설명할 때",
+     "en": "Describing editing"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "関係者によると〜。",
+    "read": "かんけいしゃによると〜。",
+    "ko": "~할 예정이다.",
+    "en": "be set to ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜と見られる。",
+    "read": "〜とみられる。",
+    "ko": "소식통에 따르면.",
+    "en": "sources said"
+   },
+   {
+    "id": "w3",
+    "t": "〜が分かった。",
+    "read": "〜がわかった。",
+    "ko": "가장 중요한 것을 먼저.",
+    "en": "most important first"
+   },
+   {
+    "id": "w4",
+    "t": "〜する予定だ。",
+    "read": "〜するよていだ。",
+    "ko": "사실과 의견을 구분하다.",
+    "en": "separate fact from opinion"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "기사 한 건의 헤드라인과 리드, 그리고 보충 문장 2개를 역피라미드 구조로 써 보세요.",
+    "en": "Write one headline, a lede and two supporting sentences in inverted-pyramid structure."
+   },
+   "must_include": [
+    {
+     "label": "関係者",
+     "match": [
+      "関係者によると"
+     ]
+    },
+    {
+     "label": "見られる",
+     "match": [
+      "見られます"
+     ]
+    },
+    {
+     "label": "見出し",
+     "match": [
+      "見出し"
+     ]
+    }
+   ],
+   "model": "関係者によると、計画は中止されました。原因は老朽化と見られます。私は見出しだけで判断せず、本文も読んで確かめます。",
+   "model_trans": {
+    "ko": "총리, 다음 주 사임 예정. 총리는 다음 주 사임할 예정이라고 소식통이 전했다. 야당은 정부의 최근 정책을 맹비난해 왔다. 후임자는 아직 발표되지 않았다.",
+    "en": "PM set to resign next week. The prime minister is set to resign next week, sources said. The opposition has slammed the government's recent policy. No successor has yet been announced."
+   }
+  }
+ }
+}

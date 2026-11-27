@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u10",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 10,
+  "concept": "C2.U10",
+  "status": "live",
+  "title": {
+   "target": "学術的なぼかし表現",
+   "ko": "학술적 헤징과 신중한 주장",
+   "en": "Scholarly hedging and tentative claims"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "示唆する",
+   "pos": "verb",
+   "read": "しさする",
+   "ko": "시사하다",
+   "en": "suggest",
+   "ex": {
+    "t": "この結果は、効果があることを示唆しています。",
+    "read": "このけっかは、こうかがあることをしさしています。",
+    "ko": "이 결과는 인과 관계를 시사해요.",
+    "en": "The results suggest a causal link."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "〜ようだ",
+   "pos": "phrase",
+   "read": "〜ようだ",
+   "ko": "~인 듯하다",
+   "en": "it would seem",
+   "ex": {
+    "t": "原因は複数あるようです。",
+    "read": "げんいんはふくすうあるようです。",
+    "ko": "원인은 복합적인 듯해요.",
+    "en": "It would seem the causes are complex."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "ある程度",
+   "pos": "phrase",
+   "read": "あるていど",
+   "ko": "어느 정도",
+   "en": "to some extent",
+   "ex": {
+    "t": "この仮説はある程度妥当です。",
+    "read": "このかせつはあるていどだとうです。",
+    "ko": "이 주장은 어느 정도 타당해요.",
+    "en": "The claim is valid to some extent."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜傾向がある",
+   "pos": "phrase",
+   "read": "〜けいこうがある",
+   "ko": "경향이 있다",
+   "en": "tend to",
+   "ex": {
+    "t": "人は変化を避ける傾向があります。",
+    "read": "にんはへんかをさけるけいこうがあります。",
+    "ko": "학생들은 마감 직전에 공부하는 경향이 있어요.",
+    "en": "Students tend to study just before deadlines."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜と言える",
+   "pos": "phrase",
+   "read": "〜といえる",
+   "ko": "주장할 수 있다",
+   "en": "it can be argued",
+   "ex": {
+    "t": "この点は重要だと言えるでしょう。",
+    "read": "このてんはじゅうようだといえるでしょう。",
+    "ko": "이것은 잘못된 해석이라고 주장할 수 있어요.",
+    "en": "It can be argued that this is a misreading."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "裏づける",
+   "pos": "phrase",
+   "read": "うらづける",
+   "ko": "뒷받침하다",
+   "en": "lend support to",
+   "ex": {
+    "t": "データがこの仮説を裏づけています。",
+    "read": "データがこのかせつをうらづけています。",
+    "ko": "이 자료는 가설을 뒷받침해요.",
+    "en": "The data lend support to the hypothesis."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "断定できない",
+   "pos": "adj",
+   "read": "だんていできない",
+   "ko": "확정적이지 않은",
+   "en": "inconclusive",
+   "ex": {
+    "t": "原因を断定することはできません。",
+    "read": "げんいんをだんていすることはできません。",
+    "ko": "증거는 아직 결정적이지 않아요.",
+    "en": "The evidence remains inconclusive."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "むやみに一般化する",
+   "pos": "verb",
+   "read": "むやみにいっぱんかする",
+   "ko": "함부로 일반화하다",
+   "en": "overgeneralise",
+   "ex": {
+    "t": "少ない例からむやみに一般化してはいけません。",
+    "read": "すくないれいからむやみにいっぱんかしてはいけません。",
+    "ko": "표본이 작아서 일반화하면 안 돼요.",
+    "en": "With such a small sample, we mustn't overgeneralise."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "限界",
+   "pos": "noun",
+   "read": "げんかい",
+   "ko": "제한점",
+   "en": "caveat",
+   "ex": {
+    "t": "この研究にはいくつかの限界があります。",
+    "read": "このけんきゅうにはいくつかのげんかいがあります。",
+    "ko": "한 가지 제한점이 있어요.",
+    "en": "There is one caveat."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "関連する",
+   "pos": "adj",
+   "read": "かんれんする",
+   "ko": "관련되는",
+   "en": "pertinent",
+   "ex": {
+    "t": "睡眠と記憶は関連しているようです。",
+    "read": "すいみんときおくはかんれんしているようです。",
+    "ko": "이 질문은 매우 관련성이 높아요.",
+    "en": "This question is highly pertinent."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜と示唆される／〜ようだ／ある程度／〜傾向がある／〜と言える",
+   "en": "Academic hedging: 〜と示唆される / 〜ようだ / ある程度 / 〜傾向がある / 〜と言える"
+  },
+  "explain": {
+   "ko": "学術的な文章では、断定を避け、証拠の強さに合わせて主張します。「この結果は効果があることを示唆している」「原因は複数あるようだ」「ある程度妥当だ」「〜傾向がある」「〜と言える」のように、やわらかく書きます。ただし、使いすぎると主張が弱くなるので、バランスが必要です。標本が小さいときは「一般化するのは難しい」と限界も述べましょう。",
+   "en": "Academic writing avoids certainty and matches claims to the strength of evidence: 「効果があることを示唆している」(suggests), 「複数あるようだ」(seems), 「ある程度」(to some extent), 「〜傾向がある」(tends to), 「〜と言える」(can be said). Overuse weakens the claim, so balance is needed. State limits too, e.g. a small sample."
+  },
+  "table": {
+   "head": [
+    "機能 / Function",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "示唆 / Suggest",
+     "〜ことを示唆する",
+     "効果があることを示唆する。"
+    ],
+    [
+     "推測 / Seem",
+     "〜ようだ",
+     "原因は複数あるようだ。"
+    ],
+    [
+     "程度 / Degree",
+     "ある程度",
+     "ある程度妥当だ。"
+    ],
+    [
+     "傾向 / Tendency",
+     "〜傾向がある",
+     "避ける傾向がある。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「示唆する」は証拠が確定的でないときに使います。",
+    "en": "「示唆する」 fits inconclusive evidence."
+   },
+   {
+    "ko": "ぼかし表現を使いすぎないようにしましょう。",
+    "en": "Do not overuse hedges."
+   },
+   {
+    "ko": "限界も一緒に述べると信頼が高まります。",
+    "en": "Stating limits increases credibility."
+   }
+  ],
+  "examples": [
+   {
+    "t": "この結果は、効果があることを示唆しています。",
+    "read": "このけっかは、こうかがあることをしさしています。",
+    "ko": "이 결과는 효과가 있음을 시사합니다.",
+    "en": "These results suggest an effect."
+   },
+   {
+    "t": "原因は複数あるようです。",
+    "read": "げんいんはふくすうあるようです。",
+    "ko": "원인은 복합적인 것으로 보입니다.",
+    "en": "It would seem that the causes are complex."
+   },
+   {
+    "t": "この仮説はある程度妥当です。",
+    "read": "このかせつはあるていどだとうです。",
+    "ko": "이 가설은 어느 정도 타당합니다.",
+    "en": "The hypothesis is valid to some extent."
+   },
+   {
+    "t": "人は変化を避ける傾向があります。",
+    "read": "にんはへんかをさけるけいこうがあります。",
+    "ko": "이 점이 오해라고 주장할 수도 있습니다.",
+    "en": "It can be argued that this is a misreading."
+   },
+   {
+    "t": "標本が小さいので、一般化するのは難しいです。",
+    "read": "ひょうほんがちいさいので、いっぱんかするのはむずかしいです。",
+    "ko": "이 자료는 가설을 뒷받침하지만 결정적이지는 않습니다.",
+    "en": "The data lend support to the hypothesis, but are not conclusive."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "この結果は、効果があることを___しています。",
+    "options": [
+     "示唆",
+     "反対",
+     "否定"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "原因は複数ある___です。",
+    "options": [
+     "よう",
+     "べき",
+     "ため"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "この仮説は___程度妥当です。",
+    "options": [
+     "ある",
+     "どの",
+     "この"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "標本が小さいので、一般化するのは___です。",
+    "options": [
+     "難しい",
+     "簡単",
+     "上手"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この結果をどう解釈しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 결과를 어떻게 해석하시겠어요?",
+     "en": "(Question) How would you interpret these results?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "二つの要因が関連していることを示唆しています。",
+       "結果は見ていません。",
+       "明日発表します。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この仮説は正しいと言えるでしょうか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 가설이 맞다고 말할 수 있을까요?",
+     "en": "(Question) Can we say the hypothesis is correct?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "ある程度は正しいですが、断定は難しいです。",
+       "必ず正しいです。",
+       "全くわかりません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この結果は因果関係を証明していますか。"
+      },
+      {
+       "s": "B",
+       "t": "そうとは断定できません。関連があることを示唆しているだけです。"
+      },
+      {
+       "s": "A",
+       "t": "標本が小さいからですか。"
+      },
+      {
+       "s": "B",
+       "t": "ええ、ある程度は。ほかの要因もありえます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 결과가 인과 관계를 증명하나요?\nB: 그렇게 단정하기는 어려워요. 연관이 있음을 시사할 뿐이죠.\nA: 표본이 작아서 그런가요?\nB: 네, 어느 정도는 그래요. 다른 요인도 있을 수 있고요.",
+     "en": "A: Do these results prove a causal link?\nB: It is difficult to say so. They merely suggest an association.\nA: Is it because the sample is small?\nB: To some extent, yes. There may also be other factors."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは結果が何を示唆していると言いましたか。",
+      "options": [
+       "関連があること",
+       "因果関係が証明されたこと",
+       "標本が十分なこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "学術的な文章では、断定を避け、証拠の強さに合わせて主張します。「示唆する」「傾向がある」のようなぼかし表現を使うと、控えめで慎重な印象になります。ただし、使いすぎると主張が弱くなるので、バランスが大切です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "학술 글쓰기에서는 단정을 피하고 증거의 강도에 맞게 주장을 조절합니다. suggest, tend to, it would seem 같은 헤징 표현을 쓰면 겸손하고 신중한 어조가 됩니다. 그러나 헤징을 과도하게 쓰면 주장이 약해지므로 균형이 필요합니다.",
+     "en": "In academic writing you avoid certainty and calibrate your claims to the strength of the evidence. Hedging expressions such as suggest, tend to and it would seem give a modest, cautious tone. However, too much hedging weakens the claim, so balance is needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ぼかし表現を使いすぎるとどうなりますか。",
+      "options": [
+       "主張が弱くなる",
+       "より正確になる",
+       "より長くなる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "結果は効果があることを示唆しているとのことですが。"
+      },
+      {
+       "s": "B",
+       "t": "はい、因果関係とは断定していません。"
+      },
+      {
+       "s": "A",
+       "t": "いいですね。その点は慎重ですね。"
+      },
+      {
+       "s": "B",
+       "t": "ありがとうございます。今後の研究で確かめます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "참석자: 결과가 효과가 있음을 시사한다고 하셨는데요.\n발표자: 네, 인과 관계라고 단정하지는 않았습니다.\n참석자: 좋습니다. 그 점은 신중하신 것 같습니다.\n발표자: 감사합니다. 후속 연구에서 확인하겠습니다.",
+     "en": "Attendee: You said the results suggest an effect.\nPresenter: Yes, I did not assert a causal relationship.\nAttendee: Fine. You seem to be cautious on that point.\nPresenter: Thank you. I will confirm it in follow-up research."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "発表者は因果関係とは______していないと言います",
+      "answers": [
+       "断定"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "今後の研究で______と言います",
+      "answers": [
+       "確かめます"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) この結果は、効果があることを___しています。\n2) 原因は複数ある___です。\n3) この仮説は___程度妥当です。",
+    "trans": {
+     "ko": "1) 이 결과는 효과가 있음을 시사합니다. 2) 원인은 복합적인 듯합니다. 3) 이 가설은 어느 정도 타당합니다.",
+     "en": "1) These results suggest an effect. 2) It would seem that the causes are complex. 3) The hypothesis is valid to some extent."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この結果は、効果があることを___しています。",
+      "options": [
+       "示唆",
+       "反対",
+       "否定"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "原因は複数ある___です。",
+      "options": [
+       "よう",
+       "べき",
+       "ため"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "この仮説は___程度妥当です。",
+      "options": [
+       "ある",
+       "どの",
+       "この"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "この研究は、カフェインの摂取が集中力を高めることを(1)。しかし、標本が小さいので、結果を一般化するのは(2)。この点はある程度(3)として認めなければなりません。",
+    "trans": {
+     "ko": "이 연구는 카페인 섭취가 집중력을 높인다고 시사한다. 그러나 표본이 작아서 결과를 일반화하기는 어렵다. 이 점은 어느 정도 한계로 인정해야 한다. 더 큰 표본에서의 후속 연구가 필요할 것이다.",
+     "en": "This study suggests that caffeine intake improves concentration. However, given the small sample, the findings are difficult to generalise. This must be accepted as a limitation to some extent. Follow-up studies with larger samples will be needed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "示唆しています",
+       "証明しています",
+       "否定しています"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "難しいです",
+       "簡単です",
+       "必要ありません"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "限界",
+       "長所",
+       "目標"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "論文の一部\n考察\nこの結果は、都市の緑が人のストレスを減らすという仮説を裏づけている。しかし、これを因果関係と解釈するのは早計かもしれない。収入などほかの要因が影響した可能性も否定できない。",
+    "trans": {
+     "ko": "논문 일부\n논의\n이 결과는 도시 녹지가 스트레스를 줄인다는 가설을 뒷받침한다. 그러나 이를 인과 관계로 해석하는 것은 성급할 수 있다. 소득 같은 다른 요인이 영향을 주었을 가능성도 배제할 수 없다.",
+     "en": "EXCERPT\nDiscussion\nThese results lend support to the hypothesis that urban green space reduces stress. However, interpreting this as a causal relationship may be premature. The possibility that other factors such as income played a role cannot be ruled out."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "結果はどんな仮説を裏づけていますか。",
+      "options": [
+       "都市の緑がストレスを減らす",
+       "収入がストレスを増やす",
+       "運動が睡眠を助ける"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "因果関係と解釈するのはどうですか。",
+      "options": [
+       "早計かもしれない",
+       "確実だ",
+       "不可能だ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この論文は、結果が仮説を裏づけていると見ています。ただし、因果関係とするのは早く、収入などほかの要因の可能性も否定できないとしています。",
+    "trans": {
+     "ko": "논문은 결과가 녹지가 스트레스를 줄인다는 가설을 뒷받침한다고 본다. 논문은 이를 확실한 인과 관계로 규정한다. 논문은 소득 같은 다른 요인을 배제할 수 없다고 본다.",
+     "en": "The paper sees the results as supporting the hypothesis that green space reduces stress. The paper establishes this as a definite causal relationship. The paper thinks other factors such as income cannot be ruled out."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "論文は結果が仮説を裏づけていると見ている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "論文はこれを確実な因果関係と断定している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "論文は調査対象が千人だったと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "この結果は効果があることを示唆しています。",
+    "read": "このけっかはこうかがあることをしさしています。",
+    "ko": "이 결과는 두 요인 사이에 관련이 있음을 시사합니다.",
+    "en": "These findings suggest a link between the two factors.",
+    "situation": {
+     "ko": "단정을 피할 때",
+     "en": "Avoiding certainty"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "ある程度は正しいですが、断定は難しいです。",
+    "read": "あるていどはただしいですが、だんていはむずかしいです。",
+    "ko": "원인은 복합적인 것으로 보입니다.",
+    "en": "It would seem that the causes are complex.",
+    "situation": {
+     "ko": "신중하게 추정할 때",
+     "en": "A tentative assessment"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "原因は複数あるようです。",
+    "read": "げんいんはふくすうあるようです。",
+    "ko": "이 주장은 어느 정도 타당하지만 한계가 있습니다.",
+    "en": "The claim is valid to some extent, but it has limits.",
+    "situation": {
+     "ko": "범위를 제한할 때",
+     "en": "Limiting scope"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "人は変化を避ける傾向があります。",
+    "read": "にんはへんかをさけるけいこうがあります。",
+    "ko": "학생들은 마감 직전에 공부하는 경향이 있습니다.",
+    "en": "Students tend to study just before deadlines.",
+    "situation": {
+     "ko": "경향을 나타낼 때",
+     "en": "Stating a tendency"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "データがこの仮説を裏づけています。",
+    "read": "データがこのかせつをうらづけています。",
+    "ko": "이는 오해라고 주장할 수도 있습니다.",
+    "en": "It could be argued that this is a misunderstanding.",
+    "situation": {
+     "ko": "다른 해석을 제시할 때",
+     "en": "Offering another reading"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "少ない例からむやみに一般化してはいけません。",
+    "read": "すくないれいからむやみにいっぱんかしてはいけません。",
+    "ko": "표본이 작아 결과를 일반화하기는 어렵습니다.",
+    "en": "Given the small sample, the results are difficult to generalise.",
+    "situation": {
+     "ko": "한계를 인정할 때",
+     "en": "Admitting limits"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "この研究にはいくつかの限界があります。",
+    "read": "このけんきゅうにはいくつかのげんかいがあります。",
+    "ko": "이 자료는 가설을 뒷받침하지만 아직 확정적이지는 않습니다.",
+    "en": "The data lend support to the hypothesis but remain inconclusive.",
+    "situation": {
+     "ko": "증거의 강도를 조절할 때",
+     "en": "Calibrating evidence"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "この点は重要だと言えるでしょう。",
+    "read": "このてんはじゅうようだといえるでしょう。",
+    "ko": "다만 한 가지 제한점을 지적해야 합니다.",
+    "en": "One caveat should, however, be noted.",
+    "situation": {
+     "ko": "제한점을 짚을 때",
+     "en": "Pointing out a caveat"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜ことを示唆する。",
+    "read": "〜ことをしさする。",
+    "ko": "~을 시사한다.",
+    "en": "... suggest(s) that ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜ようだ。",
+    "read": "〜ようだ。",
+    "ko": "~인 듯하다.",
+    "en": "It would seem that ..."
+   },
+   {
+    "id": "w3",
+    "t": "ある程度〜。",
+    "read": "あるていど〜。",
+    "ko": "어느 정도 / 대체로.",
+    "en": "to some extent / by and large"
+   },
+   {
+    "id": "w4",
+    "t": "〜と言える。",
+    "read": "〜といえる。",
+    "ko": "~라고 주장할 수 있다.",
+    "en": "It can be argued that ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "헤징 표현을 사용해 연구 결과를 신중하게 서술하는 4문장을 써 보세요.",
+    "en": "Write four sentences describing research findings cautiously using hedging expressions."
+   },
+   "must_include": [
+    {
+     "label": "示唆",
+     "match": [
+      "示唆しています"
+     ]
+    },
+    {
+     "label": "ようだ",
+     "match": [
+      "複合的なようです"
+     ]
+    },
+    {
+     "label": "ある程度",
+     "match": [
+      "ある程度妥当"
+     ]
+    }
+   ],
+   "model": "この結果は、睡眠と記憶の間に関連があることを示唆しています。原因は複合的なようです。この仮説はある程度妥当ですが、標本が小さいので一般化するのは難しいです。ただし、一つ限界があります。",
+   "model_trans": {
+    "ko": "이 결과는 수면과 기억 사이에 관련이 있음을 시사해요. 원인은 복합적인 듯해요. 이 가설은 어느 정도 타당하지만 표본이 작아서 일반화하기는 어려워요. 다만 한 가지 제한점이 있어요.",
+    "en": "These results suggest a link between sleep and memory. It would seem that the causes are complex. The hypothesis is valid to some extent, but with such a small sample it is difficult to generalise. One caveat, however, should be noted."
+   }
+  }
+ }
+}

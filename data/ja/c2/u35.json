@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u35",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 35,
+  "concept": "C2.U35",
+  "status": "live",
+  "title": {
+   "target": "要約と言い換え：要点を抜き出す",
+   "ko": "복잡한 글 요약과 바꿔 쓰기",
+   "en": "Summarising and paraphrasing complex texts"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "要点",
+   "pos": "noun",
+   "read": "ようてん",
+   "ko": "요지",
+   "en": "gist",
+   "ex": {
+    "t": "文章の要点をつかみます。",
+    "read": "ぶんしょうのようてんをつかみます。",
+    "ko": "그 글의 요지를 파악했어요.",
+    "en": "I grasped the gist of the text."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "本質的に",
+   "pos": "phrase",
+   "read": "ほんしつてきに",
+   "ko": "본질적으로",
+   "en": "in essence",
+   "ex": {
+    "t": "本質的には、これは時間の問題です。",
+    "read": "ほんしつてきには、これはじかんのもんだいです。",
+    "ko": "본질적으로 이 글은 변화를 주장해요.",
+    "en": "In essence, the text argues for change."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "言い換える",
+   "pos": "verb",
+   "read": "いいかえる",
+   "ko": "다시 말하다",
+   "en": "restate",
+   "ex": {
+    "t": "難しい語を簡単に言い換えます。",
+    "read": "むずかしいごをかんたんにいいかえます。",
+    "ko": "요점을 다시 말해 주세요.",
+    "en": "Please restate the main point."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "圧縮する",
+   "pos": "verb",
+   "read": "あっしゅくする",
+   "ko": "압축하다",
+   "en": "condense",
+   "ex": {
+    "t": "長い文章を短く圧縮します。",
+    "read": "ながいぶんしょうをみじかくあっしゅくします。",
+    "ko": "긴 글을 세 문장으로 압축했어요.",
+    "en": "I condensed the long text into three sentences."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "中心的な主張",
+   "pos": "verb",
+   "read": "ちゅうしんてきなしゅちょう",
+   "ko": "핵심을 추출하다",
+   "en": "distil",
+   "ex": {
+    "t": "筆者の中心的な主張を探します。",
+    "read": "ひっしゃのちゅうしんてきなしゅちょうをさがします。",
+    "ko": "그는 논문에서 핵심을 추출했어요.",
+    "en": "He distilled the essence from the paper."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "細部",
+   "pos": "verb",
+   "read": "さいぶ",
+   "ko": "바꿔 쓰다",
+   "en": "paraphrase",
+   "ex": {
+    "t": "細部は省いて要約します。",
+    "read": "さいぶははぶいてようやくします。",
+    "ko": "원문을 자신의 말로 바꿔 쓰세요.",
+    "en": "Paraphrase the original in your own words."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "剽窃",
+   "pos": "noun",
+   "read": "ひょうせつ",
+   "ko": "표절",
+   "en": "plagiarism",
+   "ex": {
+    "t": "剽窃は決してしてはいけません。",
+    "read": "ひょうせつはけっしてしてはいけません。",
+    "ko": "표절은 심각한 문제예요.",
+    "en": "Plagiarism is a serious problem."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "要約",
+   "pos": "noun",
+   "read": "ようやく",
+   "ko": "요약",
+   "en": "summary",
+   "ex": {
+    "t": "要約は原文より短くします。",
+    "read": "ようやくはげんぶんよりみじかくします。",
+    "ko": "요약은 원문보다 짧아야 해요.",
+    "en": "A summary must be shorter than the original."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "要するに",
+   "pos": "phrase",
+   "read": "ようするに",
+   "ko": "핵심 논지",
+   "en": "central argument",
+   "ex": {
+    "t": "要するに、早く始めるべきです。",
+    "read": "ようするに、はやくはじめるべきです。",
+    "ko": "필자의 핵심 논지를 찾으세요.",
+    "en": "Find the writer's central argument."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "取り出す",
+   "pos": "noun",
+   "read": "とりだす",
+   "ko": "세부 사항",
+   "en": "detail",
+   "ex": {
+    "t": "重要な部分を取り出します。",
+    "read": "じゅうようなぶぶんをとりだします。",
+    "ko": "세부 사항은 생략하세요.",
+    "en": "Leave out the details."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "要するに／つまり／本質的には／〜を一言で言えば／要点を抜き出す",
+   "en": "Summary and paraphrase: 要するに / つまり / 本質的には / 要点を抜き出す"
+  },
+  "explain": {
+   "ko": "要約とは、原文の要点を短い自分の言葉で書き直すことです。まず中心的な主張を探し、細部を省きます。「要するに」「つまり」「本質的には」は、言いたいことをまとめる表現です。言い換えるときは、原文の語順や語をそのまま写さず、自分の言葉にします。他人の文章をそのまま使って自分のものにするのは剽窃で、してはいけません。",
+   "en": "To summarise is to rewrite a text's key points briefly in your own words. Find the central claim and omit detail. 「要するに」「つまり」「本質的には」 introduce the gist. When paraphrasing, do not copy the original's words or order; put it in your own words. Passing off someone else's text as your own is plagiarism and must not be done."
+  },
+  "table": {
+   "head": [
+    "表現 / Phrase",
+    "働き / Function",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "要するに",
+     "まとめる",
+     "要するに、早く始めるべきだ。"
+    ],
+    [
+     "つまり",
+     "言い換える",
+     "つまり、時間がないのだ。"
+    ],
+    [
+     "本質的には",
+     "核心を言う",
+     "本質的には、お金の問題だ。"
+    ],
+    [
+     "剽窃",
+     "してはいけない",
+     "原文のまま写すこと。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "原文の語をそのまま写してはいけません。",
+    "en": "Do not copy the original's words."
+   },
+   {
+    "ko": "一文で主張をまとめる練習をしましょう。",
+    "en": "Practise stating the claim in one sentence."
+   },
+   {
+    "ko": "要約は原文より短くします。",
+    "en": "A summary is shorter than the original."
+   }
+  ],
+  "examples": [
+   {
+    "t": "要するに、早く始めるべきです。",
+    "read": "ようするに、はやくはじめるべきです。",
+    "ko": "그 글의 요지를 파악했어요.",
+    "en": "I grasped the gist of the text."
+   },
+   {
+    "t": "つまり、時間がないということです。",
+    "read": "つまり、じかんがないということです。",
+    "ko": "긴 글을 세 문장으로 압축했어요.",
+    "en": "I condensed the long text into three sentences."
+   },
+   {
+    "t": "本質的には、お金の問題です。",
+    "read": "ほんしつてきには、おきんのもんだいです。",
+    "ko": "원문을 자신의 말로 바꿔 쓰세요.",
+    "en": "Paraphrase the original in your own words."
+   },
+   {
+    "t": "この文章を一文に要約します。",
+    "read": "このぶんしょうをいちぶんにようやくします。",
+    "ko": "필자의 핵심 논지를 찾으세요.",
+    "en": "Find the writer's central argument."
+   },
+   {
+    "t": "他人の文をそのまま写すのは剽窃です。",
+    "read": "たにんのぶんをそのままうつすのはひょうせつです。",
+    "ko": "표절은 심각한 문제예요.",
+    "en": "Plagiarism is a serious problem."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___、早く始めるべきです。",
+    "options": [
+     "要するに",
+     "ところで",
+     "たとえば"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___、時間がないということです。",
+    "options": [
+     "つまり",
+     "しかし",
+     "もし"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___は、お金の問題です。",
+    "options": [
+     "本質的に",
+     "全然",
+     "ちょっと"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "他人の文をそのまま写すのは___です。",
+    "options": [
+     "剽窃",
+     "要約",
+     "翻訳"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この記事を一言で言えば何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 요약과 바꿔 쓰기의 차이는 무엇인가요?",
+     "en": "(Question) What is the difference between summarising and paraphrasing?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "早く対策をしないと間に合わないということです。",
+       "記事は長いです。",
+       "何もありません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要約するときに何に注意しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 좋은 요약의 기준은 무엇인가요?",
+     "en": "(Question) What are the criteria of a good summary?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "原文の言葉を写さず、自分の言葉にすることです。",
+       "原文をそのまま写すことです。",
+       "長く書くことです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この長い記事、要するに何が言いたいの？"
+      },
+      {
+       "s": "B",
+       "t": "つまり、早く対策をしないと間に合わないということだよ。"
+      },
+      {
+       "s": "A",
+       "t": "細かい数字は？"
+      },
+      {
+       "s": "B",
+       "t": "要約では省いていいよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 논문을 세 문장으로 요약해 줄래?\nB: 본질적으로 기술이 교육을 바꾼다는 주장이야.\nA: 근거는?\nB: 학습 데이터가 크게 늘었다는 점이야.",
+     "en": "A: Could you summarise this paper in three sentences?\nB: In essence, it argues that technology is changing education.\nA: And the evidence?\nB: The big growth in learning data."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "細かい数字は要約でどうしますか。",
+      "options": [
+       "省いてよい",
+       "必ず入れる",
+       "全部入れる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "要約とは、原文の要点を短い自分の言葉で書き直すことです。まず中心的な主張を探し、細部を省きます。言い換えるときは、原文の言葉をそのまま写さないようにしましょう。他人の文章をそのまま使うのは剽窃です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "요약은 원문의 핵심 논지와 근거를 짧게 줄이는 것이고, 바꿔 쓰기는 원문의 의미를 자신의 말로 다시 표현하는 것입니다. 둘 다 원문의 의미를 정확히 이해해야 가능하며, 출처를 밝히지 않으면 표절이 됩니다.",
+     "en": "Summarising shortens the central argument and evidence of the original, while paraphrasing restates the meaning of the original in your own words. Both require an accurate understanding of the original, and without acknowledging the source they become plagiarism."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "他人の文章をそのまま使うことを何と言いますか。",
+      "options": [
+       "剽窃",
+       "要約",
+       "引用"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この記事を二文で要約してください。"
+      },
+      {
+       "s": "B",
+       "t": "都市の人口が増え、交通が混雑しています。"
+      },
+      {
+       "s": "A",
+       "t": "つまり、何が必要ですか。"
+      },
+      {
+       "s": "B",
+       "t": "公共交通の改善が必要だということです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 이 단락을 바꿔 쓸 수 있나요?\n학생: 어휘와 구조를 바꿔 보겠습니다.\n교수: 출처도 밝혀야 합니다.\n학생: 알겠습니다. 인용 표시를 하겠습니다.",
+     "en": "Professor: Can you paraphrase this paragraph?\nStudent: I will change the vocabulary and structure.\nProfessor: You must acknowledge the source too.\nStudent: Understood. I will add a citation."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "学生は都市の______が増えていると要約します",
+      "answers": [
+       "人口"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "必要なのは公共交通の______だと言います",
+      "answers": [
+       "改善"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___、早く始めるべきです。\n2) ___、時間がないということです。\n3) 他人の文をそのまま写すのは___です。",
+    "trans": {
+     "ko": "1) 그 글의 요지를 파악했어요. 2) 긴 글을 세 문장으로 압축했어요. 3) 원문을 자신의 말로 바꿔 쓰세요.",
+     "en": "1) I grasped the gist of the text. 2) I condensed the long text into three sentences. 3) Paraphrase the original in your own words."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___、早く始めるべきです。",
+      "options": [
+       "要するに",
+       "ところで",
+       "たとえば"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___、時間がないということです。",
+      "options": [
+       "つまり",
+       "しかし",
+       "もし"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "他人の文をそのまま写すのは___です。",
+      "options": [
+       "剽窃",
+       "要約",
+       "翻訳"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "要約を書くときは、まず筆者の(1)主張を探します。次に細部を(2)、短くまとめます。最後に、原文の言葉を(3)自分の言葉で書き直します。",
+    "trans": {
+     "ko": "본질적으로 이 글은 교육 개혁을 주장한다. 필자는 기술의 발달로 학습 데이터가 크게 늘었다고 말한다. 따라서 교사의 역할이 다시 정의되어야 한다고 결론짓는다.",
+     "en": "In essence, this text argues for educational reform. The writer says that learning data has grown greatly as technology has advanced. He therefore concludes that the teacher's role must be redefined."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "中心的な",
+       "小さな",
+       "古い"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "省いて",
+       "増やして",
+       "壊して"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "写さず",
+       "写して",
+       "隠して"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ライティング講座\n上手な要約\n上手な要約は、原文の要点を保ちながら、自分の言葉で書き直したものだ。細部を省き、中心的な主張だけを残す。原文の言葉を写すのは、剽窃になるので避けなければならない。",
+    "trans": {
+     "ko": "학습 가이드\n요약하는 방법\n먼저 글을 정독하고 핵심 논지를 찾으세요. 세부 사항과 예시는 생략하고 근거만 남기세요. 마지막으로 자신의 말로 다시 쓰고 원문과 비교해 의미가 바뀌지 않았는지 확인하세요.",
+     "en": "STUDY GUIDE\nHow to summarise\nFirst read the text closely and find the central argument. Omit details and examples and keep only the evidence. Finally, rewrite it in your own words and compare it with the original to check that the meaning has not changed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "上手な要約は何を保ちますか。",
+      "options": [
+       "原文の要点",
+       "原文のすべての言葉",
+       "原文の数字だけ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "原文の言葉を写すとどうなりますか。",
+      "options": [
+       "剽窃になる",
+       "要約が上手になる",
+       "短くなる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この講座は、上手な要約が原文の要点を保ちつつ自分の言葉で書き直したものだと述べています。原文の言葉を写すのは剽窃になると言います。",
+    "trans": {
+     "ko": "가이드는 먼저 정독해 핵심 논지를 찾으라고 한다. 가이드는 세부 사항을 모두 포함하라고 한다. 가이드는 마지막에 의미가 바뀌지 않았는지 확인하라고 한다.",
+     "en": "The guide says to read closely and find the central argument first. The guide says to include all details. The guide says to check at the end that the meaning has not changed."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "講座は要約が自分の言葉で書き直したものだと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "講座は要約が原文より長いと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "講座は要約ソフトの値段を紹介している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "早く対策をしないと間に合わないということです。",
+    "read": "はやくたいさくをしないとまにあわないということです。",
+    "ko": "본질적으로 이 글은 교육 제도의 개혁을 주장합니다.",
+    "en": "In essence, the text argues for reform of the education system.",
+    "situation": {
+     "ko": "요지를 말할 때",
+     "en": "Stating the gist"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "原文の言葉を写さず、自分の言葉にすることです。",
+    "read": "げんぶんのことばをうつさず、じぶんのことばにすることです。",
+    "ko": "필자의 핵심 논지는 기술이 교육을 바꾼다는 것입니다.",
+    "en": "The writer's central argument is that technology is changing education.",
+    "situation": {
+     "ko": "핵심 논지 파악",
+     "en": "Identifying the central argument"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "要するに、早く始めるべきです。",
+    "read": "ようするに、はやくはじめるべきです。",
+    "ko": "저는 세 쪽 분량의 논문을 세 문장으로 압축했습니다.",
+    "en": "I condensed a three-page paper into three sentences.",
+    "situation": {
+     "ko": "요약을 말할 때",
+     "en": "Describing a summary"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "本質的には、お金の問題です。",
+    "read": "ほんしつてきには、おきんのもんだいです。",
+    "ko": "요약에서는 세부 사항과 예시를 생략합니다.",
+    "en": "In a summary, details and examples are omitted.",
+    "situation": {
+     "ko": "요약 원칙",
+     "en": "Summary principle"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "細部は省いて要約します。",
+    "read": "さいぶははぶいてようやくします。",
+    "ko": "바꿔 쓸 때는 어휘와 구조를 모두 바꿔야 합니다.",
+    "en": "When paraphrasing, both vocabulary and structure must change.",
+    "situation": {
+     "ko": "바꿔 쓰기 원칙",
+     "en": "Paraphrase principle"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "筆者の中心的な主張を探します。",
+    "read": "ひっしゃのちゅうしんてきなしゅちょうをさがします。",
+    "ko": "원문을 거의 그대로 옮기는 것은 표절입니다.",
+    "en": "Copying the original almost word for word is plagiarism.",
+    "situation": {
+     "ko": "표절을 경고할 때",
+     "en": "Warning of plagiarism"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "剽窃は決してしてはいけません。",
+    "read": "ひょうせつはけっしてしてはいけません。",
+    "ko": "원문의 의미는 바꾸지 않고 자신의 말로 다시 표현하세요.",
+    "en": "Restate it in your own words without changing the original meaning.",
+    "situation": {
+     "ko": "지시할 때",
+     "en": "Instructing"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "要約は原文より短くします。",
+    "read": "ようやくはげんぶんよりみじかくします。",
+    "ko": "좋은 요약은 핵심 논지와 근거를 정확하고 간결하게 담습니다.",
+    "en": "A good summary captures the central argument and evidence accurately and concisely.",
+    "situation": {
+     "ko": "기준을 말할 때",
+     "en": "Stating the standard"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "要するに〜。",
+    "read": "ようするに〜。",
+    "ko": "본질적으로.",
+    "en": "in essence"
+   },
+   {
+    "id": "w2",
+    "t": "つまり〜。",
+    "read": "つまり〜。",
+    "ko": "자신의 말로 바꿔 쓰다.",
+    "en": "paraphrase in one's own words"
+   },
+   {
+    "id": "w3",
+    "t": "本質的には〜。",
+    "read": "ほんしつてきには〜。",
+    "ko": "세부 사항을 생략하다.",
+    "en": "omit details"
+   },
+   {
+    "id": "w4",
+    "t": "要点を抜き出す。",
+    "read": "ようてんをぬきだす。",
+    "ko": "정확하고 간결하게.",
+    "en": "accurately and concisely"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가상의 논문을 세 문장으로 요약하고, 한 문장은 바꿔 쓰기로 다시 써 보세요.",
+    "en": "Summarise an imaginary paper in three sentences, then paraphrase one sentence."
+   },
+   "must_include": [
+    {
+     "label": "要するに",
+     "match": [
+      "要するに"
+     ]
+    },
+    {
+     "label": "中心的",
+     "match": [
+      "中心的な主張"
+     ]
+    },
+    {
+     "label": "言い換",
+     "match": [
+      "言い換え"
+     ]
+    }
+   ],
+   "model": "要するに、この記事は交通の混雑が問題だと述べています。筆者の中心的な主張は、公共交通の改善が必要だということです。私は原文の言葉を写さず、自分の言い換えで書きました。",
+   "model_trans": {
+    "ko": "본질적으로 이 논문은 기술이 교육을 바꾼다고 주장해요. 핵심 근거는 학습 데이터의 증가예요. 그러므로 필자는 교사의 역할 재정립을 요구해요. 바꿔 쓰면, 필자는 교사의 역할이 다시 정의되어야 한다고 말해요.",
+    "en": "In essence, this paper argues that technology is changing education. The key evidence is the growth in learning data. The writer therefore calls for the role of teachers to be redefined. Paraphrased, the writer says the teacher's role must be defined anew."
+   }
+  }
+ }
+}

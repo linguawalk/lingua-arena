@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u40",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 40,
+  "concept": "C2.U40",
+  "status": "live",
+  "title": {
+   "target": "報告書の言葉：要旨・提言・見通し",
+   "ko": "비즈니스 영어: 보고서와 요약",
+   "en": "Business English: reports and executive summaries"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "要旨",
+   "pos": "phrase",
+   "read": "ようし",
+   "ko": "경영진 요약",
+   "en": "executive summary",
+   "ex": {
+    "t": "報告書の冒頭に要旨を置きます。",
+    "read": "ほうこくしょのぼうとうにようしをおきます。",
+    "ko": "보고서는 경영진 요약으로 시작해요.",
+    "en": "The report begins with an executive summary."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "主な発見",
+   "pos": "phrase",
+   "read": "おもなはっけん",
+   "ko": "주요 발견",
+   "en": "key findings",
+   "ex": {
+    "t": "主な発見を三つ述べます。",
+    "read": "おもなはっけんをみっつのべます。",
+    "ko": "주요 발견을 정리했어요.",
+    "en": "I summarised the key findings."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "提言する",
+   "pos": "verb",
+   "read": "ていげんする",
+   "ko": "권고하다",
+   "en": "recommend",
+   "ex": {
+    "t": "対策の強化を提言します。",
+    "read": "たいさくのきょうかをていげんします。",
+    "ko": "저는 비용 절감을 권고해요.",
+    "en": "I recommend cutting costs."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "見通し",
+   "pos": "noun",
+   "read": "みとおし",
+   "ko": "전망",
+   "en": "forecast",
+   "ex": {
+    "t": "今後の見通しは明るいです。",
+    "read": "こんごのみとおしはあかるいです。",
+    "ko": "내년 매출 전망은 밝아요.",
+    "en": "The sales forecast for next year is bright."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "利害関係者",
+   "pos": "noun",
+   "read": "りがいかんけいしゃ",
+   "ko": "이해관계자",
+   "en": "stakeholders",
+   "ex": {
+    "t": "利害関係者の意見を集めます。",
+    "read": "りがいかんけいしゃのいけんをあつめます。",
+    "ko": "이해관계자와 소통하세요.",
+    "en": "Communicate with stakeholders."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "実行可能な",
+   "pos": "adj",
+   "read": "じっこうかのうな",
+   "ko": "실행 가능한",
+   "en": "actionable",
+   "ex": {
+    "t": "実行可能な案を示します。",
+    "read": "じっこうかのうなあんをしめします。",
+    "ko": "실행 가능한 제안이 필요해요.",
+    "en": "We need actionable proposals."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "業績",
+   "pos": "noun",
+   "read": "ぎょうせき",
+   "ko": "실적",
+   "en": "performance",
+   "ex": {
+    "t": "今期の業績は好調でした。",
+    "read": "こんきのぎょうせきはこうちょうでした。",
+    "ko": "분기 실적이 개선됐어요.",
+    "en": "Quarterly performance improved."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "傾向",
+   "pos": "noun",
+   "read": "けいこう",
+   "ko": "추세",
+   "en": "trend",
+   "ex": {
+    "t": "売上は上昇傾向にあります。",
+    "read": "うりあげはじょうしょうけいこうにあります。",
+    "ko": "매출은 상승 추세예요.",
+    "en": "Sales are on an upward trend."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "リスク要因",
+   "pos": "phrase",
+   "read": "リスクよういん",
+   "ko": "위험 요소",
+   "en": "risk factor",
+   "ex": {
+    "t": "リスク要因を分析します。",
+    "read": "リスクよういんをぶんせきします。",
+    "ko": "주요 위험 요소를 파악했어요.",
+    "en": "We identified the main risk factors."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "今後の対応",
+   "pos": "phrase",
+   "read": "こんごのたいおう",
+   "ko": "후속 조치",
+   "en": "next steps",
+   "ex": {
+    "t": "今後の対応を決めます。",
+    "read": "こんごのたいおうをきめます。",
+    "ko": "후속 조치를 정리했어요.",
+    "en": "I outlined the next steps."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "要旨／主な発見／〜を提言する／今後の見通し／利害関係者／実行可能な",
+   "en": "Report language: 要旨 / 主な発見 / 〜を提言する / 今後の見通し / 利害関係者 / 実行可能な"
+  },
+  "explain": {
+   "ko": "報告書は、忙しい読者がすぐ要点をつかめるように書きます。冒頭に「要旨」を置き、「主な発見」「傾向」を述べ、「〜を提言する」で行動を勧めます。見通しやリスク要因、利害関係者への影響にも触れます。提言は、実行可能で、根拠があるものにしましょう。最後に今後の対応をまとめると、読者が行動しやすくなります。",
+   "en": "Reports are written so busy readers can grasp the main points quickly. Put a 「要旨」 first, state 「主な発見」 and trends, and recommend action with 「〜を提言する」. Touch on outlook, risk factors and effects on stakeholders. Recommendations should be practicable and grounded. Ending with next steps helps readers act."
+  },
+  "table": {
+   "head": [
+    "項目 / Part",
+    "表現 / Phrase",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "要旨",
+     "要旨",
+     "要旨を冒頭に置く。"
+    ],
+    [
+     "発見",
+     "主な発見",
+     "主な発見は三つある。"
+    ],
+    [
+     "提言",
+     "〜を提言する",
+     "強化を提言する。"
+    ],
+    [
+     "見通し",
+     "今後の見通し",
+     "見通しは明るい。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "要旨は最後に書いても冒頭に置きます。",
+    "en": "The summary goes first even if written last."
+   },
+   {
+    "ko": "提言は実行可能にします。",
+    "en": "Recommendations should be practicable."
+   },
+   {
+    "ko": "根拠を数字で示しましょう。",
+    "en": "Support with figures."
+   }
+  ],
+  "examples": [
+   {
+    "t": "報告書の冒頭に要旨を置きます。",
+    "read": "ほうこくしょのぼうとうにようしをおきます。",
+    "ko": "보고서는 경영진 요약으로 시작해요.",
+    "en": "The report begins with an executive summary."
+   },
+   {
+    "t": "主な発見は三つあります。",
+    "read": "おもなはっけんはみっつあります。",
+    "ko": "주요 발견을 정리했어요.",
+    "en": "I summarised the key findings."
+   },
+   {
+    "t": "対策の強化を提言します。",
+    "read": "たいさくのきょうかをていげんします。",
+    "ko": "저는 비용 절감을 권고해요.",
+    "en": "I recommend cutting costs."
+   },
+   {
+    "t": "売上は上昇傾向にあります。",
+    "read": "うりあげはじょうしょうけいこうにあります。",
+    "ko": "매출은 상승 추세예요.",
+    "en": "Sales are on an upward trend."
+   },
+   {
+    "t": "今後の見通しは明るいです。",
+    "read": "こんごのみとおしはあかるいです。",
+    "ko": "후속 조치를 정리했어요.",
+    "en": "I outlined the next steps."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "報告書の冒頭に___を置きます。",
+    "options": [
+     "要旨",
+     "写真",
+     "広告"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___を三つ述べます。",
+    "options": [
+     "主な発見",
+     "天気",
+     "趣味"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "対策の強化を___します。",
+    "options": [
+     "提言",
+     "拒否",
+     "忘却"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "売上は上昇___にあります。",
+    "options": [
+     "傾向",
+     "場所",
+     "名前"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "報告書の主な発見は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 경영진 요약에는 무엇이 들어가나요?",
+     "en": "(Question) What goes into an executive summary?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "売上が上昇傾向にあることです。",
+       "何もありません。",
+       "社員が増えたことだけです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "あなたは何を提言しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 보고서의 권고는 어떻게 써야 하나요?",
+     "en": "(Question) How should recommendations in a report be written?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "人員の強化を提言します。",
+       "会社を閉めます。",
+       "何も提言しません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "報告書の要旨を読んだ？"
+      },
+      {
+       "s": "B",
+       "t": "うん、売上が上昇傾向にあると書いてあったよ。"
+      },
+      {
+       "s": "A",
+       "t": "提言は？"
+      },
+      {
+       "s": "B",
+       "t": "人員の強化を勧めていたね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 보고서의 주요 발견이 뭐야?\nB: 매출이 3분기 연속 상승했다는 거야.\nA: 위험 요소는?\nB: 원자재 가격이 가장 큰 위험 요소야.",
+     "en": "A: What is the key finding of the report?\nB: Sales have risen for three consecutive quarters.\nA: And the risks?\nB: Raw material prices are the main risk factor."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "報告書の提言は何でしたか。",
+      "options": [
+       "人員の強化",
+       "価格の引き下げ",
+       "工場の閉鎖"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "報告書は、忙しい読者がすぐ要点をつかめるように書きます。冒頭に要旨を置き、主な発見を述べ、提言をします。見通しやリスク要因、利害関係者への影響にも触れます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "경영진 요약은 바쁜 의사결정자가 보고서의 핵심만 빠르게 파악하도록 돕습니다. 주요 발견, 위험, 권고, 후속 조치를 간결하게 담고, 권고는 실행 가능하게 구체적으로 써야 합니다. 숫자와 근거를 함께 제시하면 설득력이 높아집니다.",
+     "en": "An executive summary helps busy decision-makers grasp the essence of a report quickly. It concisely contains key findings, risks, recommendations and next steps, and recommendations must be specific enough to be actionable. Presenting figures and evidence together raises persuasiveness."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "報告書の冒頭には何を置きますか。",
+      "options": [
+       "要旨",
+       "謝辞",
+       "年表"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今期の業績はどうでしたか。"
+      },
+      {
+       "s": "B",
+       "t": "好調で、売上は上昇傾向です。"
+      },
+      {
+       "s": "A",
+       "t": "リスク要因は？"
+      },
+      {
+       "s": "B",
+       "t": "原材料価格の上昇です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "임원: 이 보고서의 결론은 무엇인가요?\n분석가: 우리는 공급처 다변화를 권고합니다.\n임원: 후속 조치는요?\n분석가: 다음 달까지 담당자가 계획을 제출합니다.",
+     "en": "Executive: What is the conclusion of this report?\nAnalyst: We recommend diversifying suppliers.\nExecutive: And the next steps?\nAnalyst: The person responsible will submit a plan by next month."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "担当者は今期の______が好調だったと言います",
+      "answers": [
+       "業績"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "リスク要因は原材料______の上昇だと言います",
+      "answers": [
+       "価格"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 報告書の冒頭に___を置きます。\n2) ___を三つ述べます。\n3) 対策の強化を___します。",
+    "trans": {
+     "ko": "1) 보고서는 경영진 요약으로 시작해요. 2) 저는 비용 절감을 권고해요. 3) 매출은 상승 추세예요.",
+     "en": "1) The report begins with an executive summary. 2) I recommend cutting costs. 3) Sales are on an upward trend."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "報告書の冒頭に___を置きます。",
+      "options": [
+       "要旨",
+       "写真",
+       "広告"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___を三つ述べます。",
+      "options": [
+       "主な発見",
+       "天気",
+       "趣味"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "対策の強化を___します。",
+      "options": [
+       "提言",
+       "拒否",
+       "忘却"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "この報告書は、売上が上昇(1)にあると述べています。一方で、原材料価格の上昇という(2)要因も指摘しています。著者は、実行可能な対策を(3)しています。",
+    "trans": {
+     "ko": "내년 매출 전망은 낙관적이다. 주요 위험 요소는 원자재 가격이다. 이해관계자들에게 결과를 정기적으로 공유해야 한다.",
+     "en": "The sales forecast for next year is optimistic. The main risk factor is raw material prices. Results must be shared with stakeholders regularly."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "傾向",
+       "場所",
+       "名前"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "リスク",
+       "天気",
+       "趣味"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "提言",
+       "拒否",
+       "忘却"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ビジネス文書\n報告書の書き方\n優れた報告書は、読者の時間を大切にする。冒頭の要旨で結論を先に述べ、本文で根拠を示し、最後に実行可能な提言をまとめる。数字や図を使って、主張を裏づけよう。",
+    "trans": {
+     "ko": "경영 가이드\n좋은 보고서의 조건\n좋은 보고서는 결론을 먼저 말합니다. 경영진 요약에는 주요 발견과 권고를 담고, 본문에서 근거를 자세히 설명합니다. 마지막에는 담당자와 기한이 포함된 후속 조치를 제시하세요.",
+     "en": "MANAGEMENT GUIDE\nThe marks of a good report\nA good report gives its conclusion first. Put the key findings and recommendations in the executive summary, and explain the evidence in detail in the body. At the end, present next steps that include the person responsible and the deadline."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "優れた報告書は何を大切にしますか。",
+      "options": [
+       "読者の時間",
+       "著者の自己紹介",
+       "長さ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "主張は何で裏づけますか。",
+      "options": [
+       "数字や図",
+       "感想",
+       "噂"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、優れた報告書が読者の時間を大切にすると述べています。冒頭の要旨で結論を先に述べ、数字や図で裏づけるようすすめています。",
+    "trans": {
+     "ko": "가이드는 좋은 보고서가 결론을 먼저 말한다고 본다. 가이드는 경영진 요약에 근거만 담으라고 한다. 가이드는 후속 조치에 담당자와 기한을 포함하라고 한다.",
+     "en": "The guide says a good report gives its conclusion first. The guide says to put only evidence in the executive summary. The guide says next steps should include the person responsible and the deadline."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章は結論を先に述べるようすすめている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章は報告書を長く書くようすすめている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章は特定の企業の名前を挙げている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "売上が上昇傾向にあることです。",
+    "read": "うりあがじょうしょうけいこうにあることです。",
+    "ko": "경영진 요약은 보고서의 핵심을 한 쪽에 담아야 합니다.",
+    "en": "The executive summary should capture the essence of the report on one page.",
+    "situation": {
+     "ko": "요약을 말할 때",
+     "en": "Describing a summary"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "人員の強化を提言します。",
+    "read": "じんいんのきょうかをていげんします。",
+    "ko": "주요 발견은 매출이 3분기 연속 상승했다는 것입니다.",
+    "en": "The key finding is that sales have risen for three consecutive quarters.",
+    "situation": {
+     "ko": "발견을 보고할 때",
+     "en": "Reporting a finding"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "今期の業績は好調でした。",
+    "read": "こんきのぎょうせきはこうちょうでした。",
+    "ko": "우리는 비용 절감을 권고합니다.",
+    "en": "We recommend cutting costs.",
+    "situation": {
+     "ko": "권고할 때",
+     "en": "Making a recommendation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "主な発見を三つ述べます。",
+    "read": "おもなはっけんをみっつのべます。",
+    "ko": "내년 매출 전망은 낙관적입니다.",
+    "en": "The sales forecast for next year is optimistic.",
+    "situation": {
+     "ko": "전망을 말할 때",
+     "en": "Stating a forecast"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "今後の見通しは明るいです。",
+    "read": "こんごのみとおしはあかるいです。",
+    "ko": "주요 위험 요소는 원자재 가격입니다.",
+    "en": "The main risk factor is the price of raw materials.",
+    "situation": {
+     "ko": "위험을 말할 때",
+     "en": "Noting risk"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "リスク要因を分析します。",
+    "read": "リスクよういんをぶんせきします。",
+    "ko": "이해관계자들에게 결과를 정기적으로 공유해야 합니다.",
+    "en": "Results must be shared with stakeholders regularly.",
+    "situation": {
+     "ko": "소통을 말할 때",
+     "en": "Speaking of communication"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "利害関係者の意見を集めます。",
+    "read": "りがいかんけいしゃのいけんをあつめます。",
+    "ko": "보고서는 실행 가능한 제안으로 끝나야 합니다.",
+    "en": "The report should end with actionable proposals.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "実行可能な案を示します。",
+    "read": "じっこうかのうなあんをしめします。",
+    "ko": "후속 조치는 담당자와 기한을 함께 적어야 합니다.",
+    "en": "Next steps should list the person responsible and the deadline.",
+    "situation": {
+     "ko": "후속 조치를 말할 때",
+     "en": "Stating next steps"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "要旨は〜だ。",
+    "read": "ようしは〜だ。",
+    "ko": "~에 대한 전망.",
+    "en": "the forecast for ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜を提言する。",
+    "read": "〜をていげんする。",
+    "ko": "~을 권고하다.",
+    "en": "recommend ..."
+   },
+   {
+    "id": "w3",
+    "t": "今後の見通し。",
+    "read": "こんごのみとおし。",
+    "ko": "상승 추세에 있다.",
+    "en": "be on an upward trend"
+   },
+   {
+    "id": "w4",
+    "t": "〜傾向にある。",
+    "read": "〜けいこうにある。",
+    "ko": "후속 조치.",
+    "en": "next steps"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "경영진 요약 형식으로 발견, 위험, 권고, 후속 조치를 4문장으로 써 보세요.",
+    "en": "Write four sentences in executive-summary style covering a finding, a risk, a recommendation and next steps."
+   },
+   "must_include": [
+    {
+     "label": "要旨",
+     "match": [
+      "要旨"
+     ]
+    },
+    {
+     "label": "提言",
+     "match": [
+      "提言します"
+     ]
+    },
+    {
+     "label": "見通し",
+     "match": [
+      "見通し"
+     ]
+    }
+   ],
+   "model": "要旨：今期の業績は好調で、売上は上昇傾向にあります。主な発見は三つです。私は人員の強化を提言します。今後の見通しは明るいですが、原材料価格の上昇というリスク要因に注意が必要です。",
+   "model_trans": {
+    "ko": "주요 발견은 매출이 3분기 연속 상승했다는 것입니다. 주요 위험 요소는 원자재 가격입니다. 우리는 공급처 다변화를 권고합니다. 후속 조치로 다음 달까지 담당자가 계획을 제출해야 합니다.",
+    "en": "The key finding is that sales have risen for three consecutive quarters. The main risk factor is raw material prices. We recommend diversifying suppliers. As next steps, the person responsible should submit a plan by next month."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u31",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 31,
+  "concept": "C2.U31",
+  "status": "live",
+  "title": {
+   "target": "修辞学と説得の技術",
+   "ko": "정치 수사학: 에토스·파토스·로고스",
+   "en": "Political rhetoric: ethos, pathos, logos"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "修辞学",
+   "pos": "noun",
+   "read": "しゅうじがく",
+   "ko": "수사학",
+   "en": "rhetoric",
+   "ex": {
+    "t": "修辞学は説得の技術を研究します。",
+    "read": "しゅうじがくはせっとくのぎじゅつをけんきゅうします。",
+    "ko": "그는 수사학의 대가예요.",
+    "en": "He is a master of rhetoric."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "信頼に訴える",
+   "pos": "noun",
+   "read": "しんらいにうったえる",
+   "ko": "신뢰(에토스)",
+   "en": "ethos",
+   "ex": {
+    "t": "話し手は信頼に訴えて説得します。",
+    "read": "はなしてはしんらいにうったえてせっとくします。",
+    "ko": "연설자는 에토스로 신뢰를 얻어요.",
+    "en": "The speaker gains trust through ethos."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "感情に訴える",
+   "pos": "noun",
+   "read": "かんじょうにうったえる",
+   "ko": "감정 호소(파토스)",
+   "en": "pathos",
+   "ex": {
+    "t": "感情に訴える演説が人を動かしました。",
+    "read": "かんじょうにうったえるえんぜつがひとをうごかしました。",
+    "ko": "파토스는 청중의 감정에 호소해요.",
+    "en": "Pathos appeals to the audience's emotions."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "論理に訴える",
+   "pos": "noun",
+   "read": "ろんりにうったえる",
+   "ko": "논리(로고스)",
+   "en": "logos",
+   "ex": {
+    "t": "論理に訴えるには根拠が必要です。",
+    "read": "ろんりにうったえるにはこんきょがひつようです。",
+    "ko": "로고스는 논리와 증거에 의존해요.",
+    "en": "Logos relies on logic and evidence."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "修辞疑問",
+   "pos": "phrase",
+   "read": "しゅうじぎもん",
+   "ko": "수사 의문문",
+   "en": "rhetorical question",
+   "ex": {
+    "t": "修辞疑問は答えを求めない問いです。",
+    "read": "しゅうじぎもんはこたえをもとめないといです。",
+    "ko": "수사 의문문은 답을 요구하지 않아요.",
+    "en": "A rhetorical question does not demand an answer."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "繰り返し",
+   "pos": "noun",
+   "read": "くりかえし",
+   "ko": "어구 반복",
+   "en": "anaphora",
+   "ex": {
+    "t": "同じ語の繰り返しが強い印象を与えます。",
+    "read": "おなじごのくりかえしがつよいいんしょうをあたえます。",
+    "ko": "연설은 어구 반복으로 힘을 얻어요.",
+    "en": "The speech gains force through anaphora."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "三つの並べ方",
+   "pos": "noun",
+   "read": "みっつのならべほう",
+   "ko": "3항 구조",
+   "en": "tricolon",
+   "ex": {
+    "t": "三つの並べ方はリズムを生みます。",
+    "read": "みっつのならべかたはリズムをうみます。",
+    "ko": "3항 구조는 리듬을 만들어요.",
+    "en": "A tricolon creates rhythm."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "説得する",
+   "pos": "verb",
+   "read": "せっとくする",
+   "ko": "설득하다",
+   "en": "persuade",
+   "ex": {
+    "t": "聴衆を説得するのは簡単ではありません。",
+    "read": "ちょうしゅうをせっとくするのはかんたんではありません。",
+    "ko": "그는 청중을 설득했어요.",
+    "en": "He persuaded the audience."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "扇動的な",
+   "pos": "adj",
+   "read": "せんどうてきな",
+   "ko": "선동적인",
+   "en": "inflammatory",
+   "ex": {
+    "t": "扇動的な演説には注意が必要です。",
+    "read": "せんどうてきなえんぜつにはちゅういがひつようです。",
+    "ko": "그의 말은 선동적이었어요.",
+    "en": "His words were inflammatory."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "訴える",
+   "pos": "phrase",
+   "read": "うったえる",
+   "ko": "호소하다",
+   "en": "appeal to",
+   "ex": {
+    "t": "彼は平和を訴えました。",
+    "read": "かれはへいわをうったえました。",
+    "ko": "그는 청중의 양심에 호소했어요.",
+    "en": "He appealed to the audience's conscience."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "信頼・感情・論理／修辞疑問／繰り返し／三つの並べ方／〜に訴える",
+   "en": "Rhetoric and persuasion: 信頼・感情・論理 / 修辞疑問 / 繰り返し / 三つの並べ方 / 〜に訴える"
+  },
+  "explain": {
+   "ko": "修辞学は、人を説得する技術です。古くからの三つの方法があります：話し手への信頼に訴える（信頼）、聞き手の気持ちに訴える（感情）、論理的な根拠に訴える（論理）。さらに「〜ではないでしょうか」のような修辞疑問、同じ語の繰り返し、三つの並べ方（「自由、平等、友愛」）が、演説にリズムと力を与えます。技法を見分けられると、巧みな言葉に流されずに済みます。",
+   "en": "Rhetoric is the art of persuasion. Three classic appeals: to the speaker's credibility, to the listener's feelings, and to logical grounds. Rhetorical questions such as 「〜ではないでしょうか」, repetition of a word, and groups of three (「自由、平等、友愛」) give speeches rhythm and force. Recognising these techniques keeps you from being swept along by clever words."
+  },
+  "table": {
+   "head": [
+    "方法 / Appeal",
+    "内容 / Content",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "信頼",
+     "話し手への信頼",
+     "私は二十年教えてきました。"
+    ],
+    [
+     "感情",
+     "聞き手の気持ち",
+     "子どもたちの未来のために。"
+    ],
+    [
+     "論理",
+     "根拠",
+     "データが示しています。"
+    ],
+    [
+     "修辞疑問",
+     "答えを求めない問い",
+     "私たちは黙っていてよいのか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "三つの方法を組み合わせると強くなります。",
+    "en": "Combining the three appeals is stronger."
+   },
+   {
+    "ko": "扇動的な言葉には注意しましょう。",
+    "en": "Beware inflammatory language."
+   },
+   {
+    "ko": "演説の技法を探しながら読みます。",
+    "en": "Look for devices as you read speeches."
+   }
+  ],
+  "examples": [
+   {
+    "t": "私は二十年この仕事をしてきました。",
+    "read": "わたしはにじゅうねんこのしごとをしてきました。",
+    "ko": "그는 수사학의 대가예요.",
+    "en": "He is a master of rhetoric."
+   },
+   {
+    "t": "子どもたちの未来のために行動しましょう。",
+    "read": "こどもたちのみらいのためにこうどうしましょう。",
+    "ko": "파토스는 청중의 감정에 호소해요.",
+    "en": "Pathos appeals to the audience's emotions."
+   },
+   {
+    "t": "データがはっきり示しています。",
+    "read": "データがはっきりしめしています。",
+    "ko": "로고스는 논리와 증거에 의존해요.",
+    "en": "Logos relies on logic and evidence."
+   },
+   {
+    "t": "私たちは黙っていてよいのでしょうか。",
+    "read": "わたしたちはだまっていてよいのでしょうか。",
+    "ko": "3항 구조는 리듬을 만들어요.",
+    "en": "A tricolon creates rhythm."
+   },
+   {
+    "t": "自由、平等、友愛。",
+    "read": "じゆう、びょうどう、ゆうあい。",
+    "ko": "그는 청중의 양심에 호소했어요.",
+    "en": "He appealed to the audience's conscience."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "私は二十年この仕事を___きました。",
+    "options": [
+     "して",
+     "休んで",
+     "忘れて"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "データが___示しています。",
+    "options": [
+     "はっきり",
+     "ぼんやり",
+     "決して"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "私たちは黙っていてよい___。",
+    "options": [
+     "のでしょうか",
+     "ですよ",
+     "でしょう"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "子どもたちの未来のために___しましょう。",
+    "options": [
+     "行動",
+     "後悔",
+     "停止"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "あの演説はどうでしたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 에토스, 파토스, 로고스는 각각 무엇인가요?",
+     "en": "(Question) What are ethos, pathos and logos?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "感情と論理の両方に訴える、よい演説でした。",
+       "短すぎました。",
+       "何も聞こえませんでした。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "修辞疑問とは何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 수사 의문문의 효과는 무엇인가요?",
+     "en": "(Question) What is the effect of a rhetorical question?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "答えを求めない、効果のための問いです。",
+       "答えが必要な質問です。",
+       "試験の問題です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "あの演説、どうして心に響いたんだろう。"
+      },
+      {
+       "s": "B",
+       "t": "子どもたちの未来に訴えたからじゃない？"
+      },
+      {
+       "s": "A",
+       "t": "データも使っていたね。"
+      },
+      {
+       "s": "B",
+       "t": "うん、感情と論理の両方に訴えていたね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그 연설이 왜 설득력 있었을까?\nB: 통계로 논리를 세우고 아이들 이야기로 감정에 호소했거든.\nA: 에토스는?\nB: 연설자가 오랜 경험을 이야기해서 신뢰를 얻었어.",
+     "en": "A: Why was that speech so persuasive?\nB: It built logic with statistics and appealed to emotion with stories about children.\nA: And ethos?\nB: The speaker gained trust by talking about long experience."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは演説がなぜ響いたと言いましたか。",
+      "options": [
+       "感情と論理の両方に訴えたから",
+       "とても長かったから",
+       "有名な人だったから"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "修辞学は、人を説得する技術です。話し手への信頼、聞き手の感情、論理的な根拠という三つの方法があります。修辞疑問や繰り返し、三つの並べ方が、演説にリズムと力を与えます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "아리스토텔레스는 설득의 세 가지 수단을 제시했습니다. 에토스는 화자의 신뢰성, 파토스는 청중의 감정, 로고스는 논리와 증거입니다. 좋은 정치 연설은 이 세 가지를 균형 있게 사용하며, 수사 의문문과 어구 반복 같은 장치로 효과를 높입니다.",
+     "en": "Aristotle set out three means of persuasion. Ethos is the speaker's credibility, pathos is the audience's emotion, and logos is logic and evidence. A good political speech uses all three in balance, and heightens its effect through devices such as rhetorical questions and anaphora."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "修辞学の三つの方法に含まれないものはどれですか。",
+      "options": [
+       "声の大きさ",
+       "信頼",
+       "論理"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "私たちは、黙っていてよいのでしょうか。"
+      },
+      {
+       "s": "B",
+       "t": "いいえ！"
+      },
+      {
+       "s": "A",
+       "t": "子どもたちの未来のために、行動しましょう。"
+      },
+      {
+       "s": "B",
+       "t": "そうだ！"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 이 연설의 특징은 무엇인가요?\n분석가: 어구 반복이 리듬을 만듭니다.\n기자: 감정에 대한 호소는요?\n분석가: 아이들 이야기가 파토스입니다.",
+     "en": "Reporter: What is distinctive about this speech?\nAnalyst: Anaphora creates the rhythm.\nReporter: And the appeal to emotion?\nAnalyst: The stories about children are the pathos."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "議員は私たちが______いてよいのかと問います",
+      "answers": [
+       "黙って"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "議員は子どもたちの______のために行動しようと言います",
+      "answers": [
+       "未来"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 私は二十年この仕事を___きました。\n2) データが___示しています。\n3) 私たちは黙っていてよい___。",
+    "trans": {
+     "ko": "1) 그는 수사학의 대가예요. 2) 파토스는 청중의 감정에 호소해요. 3) 로고스는 논리와 증거에 의존해요.",
+     "en": "1) He is a master of rhetoric. 2) Pathos appeals to the audience's emotions. 3) Logos relies on logic and evidence."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "私は二十年この仕事を___きました。",
+      "options": [
+       "して",
+       "休んで",
+       "忘れて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "データが___示しています。",
+      "options": [
+       "はっきり",
+       "ぼんやり",
+       "決して"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私たちは黙っていてよい___。",
+      "options": [
+       "のでしょうか",
+       "ですよ",
+       "でしょう"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "その大臣の演説は、(1)に訴えたため、広く支持されました。彼は「私たちは何をすべきか」という(2)を何度も使いました。演説には(3)のあるリズムがありました。",
+    "trans": {
+     "ko": "연설자는 오랜 경험으로 에토스를 쌓았다. 그는 감동적인 이야기로 청중의 감정에 호소했다. 마지막으로 통계로 논리를 세웠다.",
+     "en": "The speaker built ethos through long experience. He appealed to the audience's emotions with a moving story. Finally, he built logic with statistics."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "感情",
+       "天気",
+       "価格"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "修辞疑問",
+       "計算式",
+       "広告"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "力",
+       "重さ",
+       "色"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "コラム\n言葉の魔力\n優れた演説家は、話し手への信頼、聞き手の感情、論理の三つを巧みに組み合わせる。しかし、扇動的な演説は、人々を危険な方向へ導くこともある。技法を見分ける力が必要だ。",
+    "trans": {
+     "ko": "정치 칼럼\n수사의 힘\n말은 힘이다. 좋은 연설은 신뢰, 감정, 논리를 균형 있게 사용한다. 그러나 감정만 자극하는 선동적 수사는 논리를 가릴 수 있으므로 청중은 비판적으로 들어야 한다.",
+     "en": "POLITICAL COLUMN\nThe power of rhetoric\nWords are power. A good speech uses credibility, emotion and logic in balance. But inflammatory rhetoric that only stirs emotion can obscure logic, so audiences must listen critically."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "優れた演説家は何を組み合わせますか。",
+      "options": [
+       "信頼・感情・論理",
+       "音楽・照明・衣装",
+       "金・名声・権力"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私たちには何が必要ですか。",
+      "options": [
+       "技法を見分ける力",
+       "暗記力",
+       "体力"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "このコラムは、優れた演説家が信頼、感情、論理を組み合わせると述べています。扇動的な演説は危険な方向へ導くことがあると言います。",
+    "trans": {
+     "ko": "칼럼은 좋은 연설이 신뢰, 감정, 논리를 균형 있게 사용한다고 본다. 칼럼은 선동적 수사가 항상 논리를 강화한다고 본다. 칼럼은 청중이 비판적으로 들어야 한다고 본다.",
+     "en": "The column says a good speech uses credibility, emotion and logic in balance. The column says inflammatory rhetoric always strengthens logic. The column says audiences must listen critically."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "コラムは優れた演説家が三つを組み合わせると述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "コラムは演説がいつも安全だと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "コラムは特定の演説家の名前を挙げている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "感情と論理の両方に訴える、よい演説でした。",
+    "read": "かんじょうとろんりのりょうほうにうったえる、よいえんぜつでした。",
+    "ko": "연설자는 경험과 평판으로 에토스를 쌓습니다.",
+    "en": "A speaker builds ethos through experience and reputation.",
+    "situation": {
+     "ko": "에토스를 설명할 때",
+     "en": "Explaining ethos"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "答えを求めない、効果のための問いです。",
+    "read": "こたえをもとめない、こうかのためのといです。",
+    "ko": "파토스는 청중의 감정에 직접 호소합니다.",
+    "en": "Pathos appeals directly to the audience's emotions.",
+    "situation": {
+     "ko": "파토스를 설명할 때",
+     "en": "Explaining pathos"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "私は二十年この仕事をしてきました。",
+    "read": "わたしはにじゅうねんこのしごとをしてきました。",
+    "ko": "로고스는 논리적 근거와 증거에 의존합니다.",
+    "en": "Logos depends on logical reasoning and evidence.",
+    "situation": {
+     "ko": "로고스를 설명할 때",
+     "en": "Explaining logos"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "データがはっきり示しています。",
+    "read": "データがはっきりしめしています。",
+    "ko": "그는 수사 의문문으로 청중이 스스로 답을 찾게 했습니다.",
+    "en": "He used rhetorical questions to let the audience find the answer themselves.",
+    "situation": {
+     "ko": "수사 장치",
+     "en": "A rhetorical device"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "私たちは黙っていてよいのでしょうか。",
+    "read": "わたしたちはだまっていてよいのでしょうか。",
+    "ko": "어구 반복은 연설에 힘과 리듬을 더합니다.",
+    "en": "Anaphora adds force and rhythm to a speech.",
+    "situation": {
+     "ko": "수사 장치",
+     "en": "A rhetorical device"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "同じ語の繰り返しが印象を与えます。",
+    "read": "おなじごのくりかえしがいんしょうをあたえます。",
+    "ko": "3항 구조는 기억에 남는 인상을 줍니다.",
+    "en": "A tricolon leaves a memorable impression.",
+    "situation": {
+     "ko": "수사 장치",
+     "en": "A rhetorical device"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "技法を見分ける力が必要です。",
+    "read": "ぎほうをみわけるちからがひつようです。",
+    "ko": "그의 선동적인 말은 청중을 흥분시켰습니다.",
+    "en": "His inflammatory words stirred up the audience.",
+    "situation": {
+     "ko": "연설을 비판할 때",
+     "en": "Criticising a speech"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "扇動的な演説には注意が必要です。",
+    "read": "せんどうてきなえんぜつにはちゅういがひつようです。",
+    "ko": "좋은 연설은 세 가지 호소를 균형 있게 사용합니다.",
+    "en": "A good speech uses the three appeals in balance.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜に訴える。",
+    "read": "〜にうったえる。",
+    "ko": "~에 호소하다.",
+    "en": "appeal to ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜ではないでしょうか。",
+    "read": "〜ではないでしょうか。",
+    "ko": "~을 쌓다.",
+    "en": "build ..."
+   },
+   {
+    "id": "w3",
+    "t": "繰り返しの効果。",
+    "read": "くりかえしのこうか。",
+    "ko": "균형 있게 사용하다.",
+    "en": "use in balance"
+   },
+   {
+    "id": "w4",
+    "t": "三つの並べ方。",
+    "read": "みっつのならべほう。",
+    "ko": "청중을 설득하다.",
+    "en": "persuade the audience"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "에토스, 파토스, 로고스를 각각 한 문장씩 사용한 설득 연설을 4문장으로 써 보세요.",
+    "en": "Write a four-sentence persuasive speech using ethos, pathos and logos in one sentence each."
+   },
+   "must_include": [
+    {
+     "label": "訴え",
+     "match": [
+      "訴えて"
+     ]
+    },
+    {
+     "label": "修辞疑問",
+     "match": [
+      "修辞疑問"
+     ]
+    },
+    {
+     "label": "繰り返し",
+     "match": [
+      "繰り返し"
+     ]
+    }
+   ],
+   "model": "その演説は、感情と論理の両方に訴えていました。話し手は修辞疑問を使い、同じ言葉の繰り返しで印象を強めました。私たちは、技法を見分ける力を持たなければなりません。",
+   "model_trans": {
+    "ko": "저는 20년간 이 지역에서 일해 왔습니다. 아이들이 위험에 처해 있다는 사실을 외면할 수 없습니다. 통계는 사고가 해마다 늘고 있음을 보여 줍니다. 그러니 지금 행동해야 하지 않겠습니까?",
+    "en": "I have worked in this community for twenty years. We cannot turn away from the fact that our children are in danger. The statistics show that accidents are rising every year. So shouldn't we act now?"
+   }
+  }
+ }
+}

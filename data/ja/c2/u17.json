@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u17",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 17,
+  "concept": "C2.U17",
+  "status": "live",
+  "title": {
+   "target": "控えめな表現と二重否定",
+   "ko": "절제와 완서법",
+   "en": "Understatement and litotes"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "悪くない",
+   "pos": "phrase",
+   "read": "わるくない",
+   "ko": "나쁘지 않은",
+   "en": "not bad",
+   "ex": {
+    "t": "この計画は悪くありません。",
+    "read": "このけいかくはわるくありません。",
+    "ko": "이 계획 나쁘지 않아요.",
+    "en": "This plan isn't bad."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "少々問題",
+   "pos": "phrase",
+   "read": "しょうしょうもんだい",
+   "ko": "약간 문제",
+   "en": "a bit of a problem",
+   "ex": {
+    "t": "締め切りが少々問題です。",
+    "read": "しめきりがしょうしょうもんだいです。",
+    "ko": "마감이 약간 문제예요.",
+    "en": "The deadline is a bit of a problem."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "〜と変わらない",
+   "pos": "phrase",
+   "read": "〜とかわらない",
+   "ko": "~와 다르지 않은",
+   "en": "not unlike",
+   "ex": {
+    "t": "結果は期待と変わりません。",
+    "read": "けっかはきたいとかわりません。",
+    "ko": "그의 방식은 내 방식과 다르지 않아요.",
+    "en": "His method is not unlike mine."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "ないよりまし",
+   "pos": "phrase",
+   "read": "ないよりまし",
+   "ko": "없는 것보다 낫다",
+   "en": "not without",
+   "ex": {
+    "t": "ないよりましだと思います。",
+    "read": "ないよりましだとおもいます。",
+    "ko": "그 계획은 위험이 없지 않아요.",
+    "en": "The plan is not without risk."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "断らない",
+   "pos": "phrase",
+   "read": "ことわらない",
+   "ko": "거절하지 않다",
+   "en": "I wouldn't say no",
+   "ex": {
+    "t": "お誘いは断りません。",
+    "read": "おさそいはことわりません。",
+    "ko": "커피 한잔 마다하지 않을게요.",
+    "en": "I wouldn't say no to a coffee."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "かなりの",
+   "pos": "adj",
+   "read": "かなりの",
+   "ko": "상당한",
+   "en": "considerable",
+   "ex": {
+    "t": "かなりの費用がかかります。",
+    "read": "かなりのひようがかかります。",
+    "ko": "상당한 노력이 필요했어요.",
+    "en": "It took considerable effort."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "抑えた",
+   "pos": "adj",
+   "read": "おさえた",
+   "ko": "절제된",
+   "en": "restrained",
+   "ex": {
+    "t": "彼の反応は驚くほど抑えたものでした。",
+    "read": "かれのはんのうはおどろくほどおさえたものでした。",
+    "ko": "그의 반응은 절제되어 있었어요.",
+    "en": "His reaction was restrained."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "まずまず",
+   "pos": "phrase",
+   "read": "まずまず",
+   "ko": "꽤 괜찮은",
+   "en": "rather good",
+   "ex": {
+    "t": "結果はまずまずです。",
+    "read": "けっかはまずまずです。",
+    "ko": "결과는 꽤 괜찮았어요.",
+    "en": "The result was rather good."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "少しも〜ない",
+   "pos": "phrase",
+   "read": "すこしも〜ない",
+   "ko": "조금도 ~않다",
+   "en": "not in the least",
+   "ex": {
+    "t": "彼は少しも疑いませんでした。",
+    "read": "かれはすこしもうたがいませんでした。",
+    "ko": "나는 조금도 놀라지 않았어요.",
+    "en": "I was not in the least surprised."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "無視できない",
+   "pos": "phrase",
+   "read": "むしできない",
+   "ko": "무시할 수 없는",
+   "en": "not negligible",
+   "ex": {
+    "t": "無視できない問題です。",
+    "read": "むしできないもんだいです。",
+    "ko": "그 비용은 무시할 수 없어요.",
+    "en": "The cost is not negligible."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜ないでもない／少々問題／〜とは言えない／〜かねない／悪くない",
+   "en": "Understatement and double negatives: 悪くない / 少々問題 / 〜ないでもない / 〜ざるを得ない"
+  },
+  "explain": {
+   "ko": "控えめな表現は、言葉を抑えることで、かえって意味を強めます。「悪くない」は「とてもよい」を、「少々問題だ」は「大きな問題だ」を意味することがあります。二重否定の「〜ないでもない」「〜なくはない」「〜ことは否めない」は、断定を避けて慎重に述べる方法です。声の調子や状況も合わせて読むと、本当の意味がわかります。",
+   "en": "Understatement shortens speech and strengthens meaning. 「悪くない」 may mean very good, and 「少々問題だ」 may mean a big problem. Double negatives such as 「〜ないでもない」「〜なくはない」「〜ことは否めない」 avoid assertion while speaking carefully. Read tone and context for the real meaning."
+  },
+  "table": {
+   "head": [
+    "表現 / Phrase",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "悪くない",
+     "pretty good",
+     "この計画は悪くない。"
+    ],
+    [
+     "少々問題",
+     "a real problem",
+     "締め切りが少々問題だ。"
+    ],
+    [
+     "〜なくはない",
+     "there is some",
+     "危険がなくはない。"
+    ],
+    [
+     "断らない",
+     "gladly",
+     "試すのは断らない。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "二重否定は肯定より弱い意味になります。",
+    "en": "A double negative is weaker than a plain positive."
+   },
+   {
+    "ko": "「少々」が大きな問題を隠すことがあります。",
+    "en": "「少々」 may hide a big problem."
+   },
+   {
+    "ko": "声の調子に注意しましょう。",
+    "en": "Pay attention to intonation."
+   }
+  ],
+  "examples": [
+   {
+    "t": "この計画は悪くありません。",
+    "read": "このけいかくはわるくありません。",
+    "ko": "이 계획은 나쁘지 않아요.",
+    "en": "This plan isn't bad."
+   },
+   {
+    "t": "締め切りが少々問題です。",
+    "read": "しめきりがしょうしょうもんだいです。",
+    "ko": "마감이 약간 문제예요.",
+    "en": "The deadline is a bit of a problem."
+   },
+   {
+    "t": "その計画は危険がなくはありません。",
+    "read": "そのけいかくはきけんがなくはありません。",
+    "ko": "그 계획은 위험이 없지 않아요.",
+    "en": "The plan is not without risk."
+   },
+   {
+    "t": "試してみるのは断りません。",
+    "read": "ためしてみるのはことわりません。",
+    "ko": "커피 한잔 마다하지 않을게요.",
+    "en": "I wouldn't say no to a coffee."
+   },
+   {
+    "t": "結果はまずまずでした。",
+    "read": "けっかはまずまずでした。",
+    "ko": "그 비용은 무시할 수 없어요.",
+    "en": "The cost is not negligible."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "この計画は悪___ありません。",
+    "options": [
+     "く",
+     "い",
+     "さ"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "締め切りが___問題です。",
+    "options": [
+     "少々",
+     "大変",
+     "全然"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "その計画は危険が___はありません。",
+    "options": [
+     "なく",
+     "ある",
+     "多い"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "試してみるのは___ません。",
+    "options": [
+     "断り",
+     "好き",
+     "嫌い"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "発表はどうでしたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 발표가 어땠나요?",
+     "en": "(Question) How was the presentation?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "悪くなかったです。ただ時間が少々問題でした。",
+       "発表は明日です。",
+       "私は参加しませんでした。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "新しい日程は大丈夫でしょうか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 새 일정은 괜찮을까요?",
+     "en": "(Question) Is the new schedule okay?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "危険がなくはありませんが、大丈夫だと思います。",
+       "日程はありません。",
+       "わかりません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "あの発表、どうだった？"
+      },
+      {
+       "s": "B",
+       "t": "悪くなかったよ。ただ、時間が少々問題だったね。"
+      },
+      {
+       "s": "A",
+       "t": "危険はなかった？"
+      },
+      {
+       "s": "B",
+       "t": "危険がなくはなかったけど、結果はかなりよかった。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그 발표 어땠어?\nB: 나쁘지 않았어. 다만 시간이 약간 문제였지.\nA: 위험은 없었어?\nB: 위험이 없지는 않았지만, 결과는 꽤 괜찮았어.",
+     "en": "A: How was that presentation?\nB: Not bad. The timing was a bit of a problem, though.\nA: Were there any risks?\nB: It wasn't without risk, but the result was rather good."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは結果をどう言いましたか。",
+      "options": [
+       "かなりよかった",
+       "とても悪かった",
+       "わからなかった"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "控えめな表現を好む人は多くいます。「悪くない」は非常によいという意味になることがあり、「少々問題」は大きな問題を意味することがあります。「〜ないでもない」のような二重否定は、断定を避けて慎重に伝える方法です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "영국식 영어는 절제를 즐깁니다. not bad는 매우 좋다는 뜻일 수 있고, a bit of a problem은 큰 문제를 뜻할 수 있습니다. 이중 부정인 not unlike나 not without는 단정을 피하면서 신중하게 말하는 방법입니다.",
+     "en": "British English enjoys understatement. Not bad can mean very good, and a bit of a problem can mean a serious one. Double negatives such as not unlike and not without are ways of speaking cautiously while avoiding assertion."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "二重否定はどんな効果がありますか。",
+      "options": [
+       "断定を避けて慎重に伝える",
+       "いつも強く断定する",
+       "文を短くする"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この提案をどう思いますか。"
+      },
+      {
+       "s": "B",
+       "t": "悪くないと思います。ただ、費用が問題です。"
+      },
+      {
+       "s": "A",
+       "t": "費用は無視できませんか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、決して小さくありません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "상사: 이 제안은 어떻게 생각하세요?\n직원: 나쁘지 않다고 생각합니다. 다만 비용이 문제입니다.\n상사: 비용이 무시할 수 없나요?\n직원: 네, 결코 작지 않습니다.",
+     "en": "Boss: What do you think of this proposal?\nStaff member: I think it's not bad. The cost is a problem, though.\nBoss: Is the cost not negligible?\nStaff member: Yes, it's by no means small."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "部下は提案が______ないと思うと言います",
+      "answers": [
+       "悪く"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "費用は決して______ないと言います",
+      "answers": [
+       "小さく"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) この計画は悪___ありません。\n2) 締め切りが___問題です。\n3) その計画は危険が___はありません。",
+    "trans": {
+     "ko": "1) 이 계획은 나쁘지 않아요. 2) 마감이 약간 문제예요. 3) 그 계획은 위험이 없지 않아요.",
+     "en": "1) This plan isn't bad. 2) The deadline is a bit of a problem. 3) The plan is not without risk."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この計画は悪___ありません。",
+      "options": [
+       "く",
+       "い",
+       "さ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "締め切りが___問題です。",
+      "options": [
+       "少々",
+       "大変",
+       "全然"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "その計画は危険が___はありません。",
+      "options": [
+       "なく",
+       "ある",
+       "多い"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "彼の反応は驚くほど(1)ものでした。彼は結果がまずまずだと(2)言いました。しかし、彼の表情は、彼がとても(3)いることを示していました。",
+    "trans": {
+     "ko": "그의 반응은 놀라울 만큼 절제되어 있었다. 그는 결과가 꽤 괜찮다고만 말했다. 그러나 그의 표정은 그가 매우 기뻐하고 있음을 보여 주었다.",
+     "en": "His reaction was remarkably restrained. He only said the result was rather good. His expression, however, showed he was very pleased."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "抑えた",
+       "大げさな",
+       "隠れた"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "だけ",
+       "ばかり",
+       "ほど"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "喜んで",
+       "悲しんで",
+       "怒って"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "イギリス文化\n言わない技術\nイギリス人はよく感情を抑えて話す。「悪くない」は、実はほめ言葉であることがある。外国人はこの控えめな表現を理解しにくいので、声の調子と状況も合わせて見る必要がある。",
+    "trans": {
+     "ko": "영국 문화\n말하지 않는 기술\n영국인은 흔히 감정을 줄여 말한다. '나쁘지 않다'는 사실상 극찬일 수 있다. 외국인은 이 완서법을 이해하기 어려울 수 있으므로 억양과 맥락을 함께 살펴야 한다.",
+     "en": "BRITISH CULTURE\nThe art of saying less\nThe British often understate their feelings. 'Not bad' can in effect be high praise. Foreigners may find this understatement hard to grasp, so tone and context must be read together."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "イギリス人はよく感情をどうしますか。",
+      "options": [
+       "抑えて話す",
+       "大きく話す",
+       "書いてだけ伝える"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "外国人は何を合わせて見るべきですか。",
+      "options": [
+       "声の調子と状況",
+       "年齢",
+       "職業"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、イギリス人がよく感情を抑えて話すと述べています。「悪くない」が実はほめ言葉のことがあると説明しています。",
+    "trans": {
+     "ko": "글은 영국인이 흔히 감정을 줄여 말한다고 본다. 글은 '나쁘지 않다'가 항상 비판이라고 한다. 글은 억양과 맥락을 함께 살펴야 한다고 본다.",
+     "en": "The text says the British often understate their feelings. The text says 'Not bad' is always criticism. The text says tone and context must be read together."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章はイギリス人がよく感情を抑えると述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章は「悪くない」がいつも批判だと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章はイギリス人がお茶を好むと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "悪くなかったです。ただ時間が少々問題でした。",
+    "read": "わるくなかったです。ただじかんがしょうしょうもんだいでした。",
+    "ko": "이 계획은 나쁘지 않습니다.",
+    "en": "This plan isn't at all bad.",
+    "situation": {
+     "ko": "완곡한 칭찬을 할 때",
+     "en": "Understated praise"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "危険がなくはありませんが、大丈夫だと思います。",
+    "read": "きけんがなくはありませんが、だいじょうぶだとおもいます。",
+    "ko": "납기가 약간 문제가 될 수 있습니다.",
+    "en": "The delivery date could be a bit of a problem.",
+    "situation": {
+     "ko": "문제를 가볍게 말할 때",
+     "en": "Understating a problem"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "結果はまずまずでした。",
+    "read": "けっかはまずまずでした。",
+    "ko": "그 계획에는 위험이 없지 않습니다.",
+    "en": "The plan is not without risk.",
+    "situation": {
+     "ko": "이중 부정으로 말할 때",
+     "en": "Using a double negative"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "試してみるのは断りません。",
+    "read": "ためしてみるのはことわりません。",
+    "ko": "그의 반응은 놀라울 만큼 절제되어 있었습니다.",
+    "en": "His reaction was remarkably restrained.",
+    "situation": {
+     "ko": "절제된 반응을 말할 때",
+     "en": "Describing restraint"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "全体的に、その計画は悪くありません。",
+    "read": "ぜんたいてきに、そのけいかくはわるくありません。",
+    "ko": "그 비용은 결코 무시할 수 없습니다.",
+    "en": "The cost is by no means negligible.",
+    "situation": {
+     "ko": "중요함을 에둘러 말할 때",
+     "en": "Indirectly stressing importance"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "無視できない問題です。",
+    "read": "むしできないもんだいです。",
+    "ko": "저는 휴가를 마다하지 않겠습니다.",
+    "en": "I wouldn't say no to a holiday.",
+    "situation": {
+     "ko": "속마음을 재치 있게 말할 때",
+     "en": "Expressing desire wittily"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "かなりの費用がかかります。",
+    "read": "かなりのひようがかかります。",
+    "ko": "그의 말투는 내 말투와 다르지 않습니다.",
+    "en": "His tone is not unlike mine.",
+    "situation": {
+     "ko": "유사성을 에둘러 말할 때",
+     "en": "Indirect similarity"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "彼の反応は抑えたものでした。",
+    "read": "かれのはんのうはおさえたものでした。",
+    "ko": "그 결과는 꽤 괜찮았습니다.",
+    "en": "The result was rather good.",
+    "situation": {
+     "ko": "칭찬을 줄여 말할 때",
+     "en": "Moderate praise"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "悪くない。",
+    "read": "わるくない。",
+    "ko": "나쁘지 않다.",
+    "en": "not bad / not at all bad"
+   },
+   {
+    "id": "w2",
+    "t": "少々問題だ。",
+    "read": "しょうしょうもんだいだ。",
+    "ko": "~이 없지 않다.",
+    "en": "not without ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜なくはない。",
+    "read": "〜なくはない。",
+    "ko": "~와 다르지 않다.",
+    "en": "not unlike ..."
+   },
+   {
+    "id": "w4",
+    "t": "断らない。",
+    "read": "ことわらない。",
+    "ko": "~을 마다하지 않겠다.",
+    "en": "I wouldn't say no to ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "절제와 완서법을 사용해 평가를 4문장으로 써 보세요.",
+    "en": "Write a four-sentence evaluation using understatement and litotes."
+   },
+   "must_include": [
+    {
+     "label": "悪くない",
+     "match": [
+      "悪くありません"
+     ]
+    },
+    {
+     "label": "少々問題",
+     "match": [
+      "少々問題です"
+     ]
+    },
+    {
+     "label": "なくはない",
+     "match": [
+      "なくはないが"
+     ]
+    }
+   ],
+   "model": "全体的に、その計画は悪くありません。ただ、日程が少々問題です。危険がなくはないが、得のほうが大きく見えます。私は試してみるのは断りません。",
+   "model_trans": {
+    "ko": "전반적으로 그 계획은 나쁘지 않아요. 다만 일정이 약간 문제예요. 위험이 없지 않지만, 득이 더 커 보여요. 저는 시도해 보는 것을 마다하지 않겠어요.",
+    "en": "Overall, the plan isn't bad. The schedule, though, is a bit of a problem. It is not without risk, but the gains seem greater. I wouldn't say no to giving it a try."
+   }
+  }
+ }
+}

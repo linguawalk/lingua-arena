@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u01",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 1,
+  "concept": "C2.U01",
+  "status": "live",
+  "title": {
+   "target": "確信度の使い分け：推量と疑い",
+   "ko": "미묘한 양태와 인식적 태도",
+   "en": "Subtle modality and epistemic stance"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "もっともらしい",
+   "pos": "adj",
+   "read": "もっともらしい",
+   "ko": "그럴 법한",
+   "en": "plausible",
+   "ex": {
+    "t": "彼の説明はもっともらしく聞こえます。",
+    "read": "かれのせつめいはもっともらしくきこえます。",
+    "ko": "그의 설명은 그럴 법하게 들려요.",
+    "en": "His explanation sounds plausible."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "疑いなく",
+   "pos": "adv",
+   "read": "うたがいなく",
+   "ko": "의심할 여지 없이",
+   "en": "undoubtedly",
+   "ex": {
+    "t": "彼女は疑いなく最も有能な候補者です。",
+    "read": "かのじょはうたがいなくもっともゆうのうなこうほしゃです。",
+    "ko": "그녀는 의심할 여지 없이 가장 유능한 후보예요.",
+    "en": "She is undoubtedly the most capable candidate."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "可能性が高い",
+   "pos": "adj",
+   "read": "かのうせいがたかい",
+   "ko": "개연성이 높은",
+   "en": "probable",
+   "ex": {
+    "t": "合意は近く発表される可能性が高いです。",
+    "read": "ごういはちかくはっぴょうされるかのうせいがたかいです。",
+    "ko": "합의에 이를 가능성이 높아요.",
+    "en": "An agreement is highly probable."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "推測する",
+   "pos": "verb",
+   "read": "すいそくする",
+   "ko": "추측하다",
+   "en": "surmise",
+   "ex": {
+    "t": "原因については推測するしかありません。",
+    "read": "げんいんについてはすいそくするしかありません。",
+    "ko": "나는 그가 이미 떠났다고 추측했어요.",
+    "en": "I surmised that he had already left."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜ざるを得ない",
+   "pos": "phrase",
+   "read": "〜ざるをえない",
+   "ko": "~일 수밖에 없다",
+   "en": "be bound to",
+   "ex": {
+    "t": "この計画は失敗せざるを得ません。",
+    "read": "このけいかくはしっぱいせざるをえません。",
+    "ko": "이렇게 노력했으니 성공할 수밖에 없어요.",
+    "en": "With this much effort, she is bound to succeed."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "〜はずがない",
+   "pos": "phrase",
+   "read": "〜はずがない",
+   "ko": "~일 리가 없다",
+   "en": "can't possibly",
+   "ex": {
+    "t": "彼が一人でやったはずがありません。",
+    "read": "かれがひとりでやったはずがありません。",
+    "ko": "그가 그 사실을 알았을 리가 없어요.",
+    "en": "He can't possibly have known."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "断定する",
+   "pos": "phrase",
+   "read": "だんていする",
+   "ko": "단정하다",
+   "en": "conclude with certainty",
+   "ex": {
+    "t": "証拠がないのに断定してはいけません。",
+    "read": "しょうこがないのにだんていしてはいけません。",
+    "ko": "증거만으로 단정할 수는 없어요.",
+    "en": "One cannot conclude with certainty from the evidence alone."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "〜だけのことはある",
+   "pos": "phrase",
+   "read": "〜だけのことはある",
+   "ko": "충분히 ~할 만하다",
+   "en": "might well",
+   "ex": {
+    "t": "あの成績なら自信があるのも当然です。",
+    "read": "あのせいせきならじしんがあるのもとうぜんです。",
+    "ko": "그 제안은 거절당할 만도 해요.",
+    "en": "The proposal might well be rejected."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "疑わしい",
+   "pos": "adj",
+   "read": "うたがわしい",
+   "ko": "미심쩍은",
+   "en": "dubious",
+   "ex": {
+    "t": "データの出所が疑わしいと思います。",
+    "read": "データのしゅっしょがうたがわしいとおもいます。",
+    "ko": "그 통계는 출처가 미심쩍어요.",
+    "en": "The statistics come from a dubious source."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "確信",
+   "pos": "noun",
+   "read": "かくしん",
+   "ko": "단호한 확신",
+   "en": "conviction",
+   "ex": {
+    "t": "彼は揺るぎない確信を持って話しました。",
+    "read": "かれはゆるぎないかくしんをもってはなしました。",
+    "ko": "그녀는 확신을 갖고 말했어요.",
+    "en": "She spoke with conviction."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜に違いない／〜はずがない／〜かもしれない／〜ざるを得ない",
+   "en": "Degrees of certainty: 〜に違いない / 〜はずがない / 〜かもしれない / 〜ざるを得ない"
+  },
+  "explain": {
+   "ko": "確信の度合いは表現ごとに違います。ほぼ確実なときは「〜に違いない」「〜ざるを得ない」：「この計画は失敗せざるを得ません。」不可能だと考えるときは「〜はずがない」：「彼がそんなミスをするはずがありません。」可能性を残すときは「〜かもしれない」「〜かねない」を使います。もう着いているはずのことは「今ごろは〜はずだ」と言います。",
+   "en": "Certainty differs by expression. Near certainty: 「〜に違いない」「〜ざるを得ない」: 「この計画は失敗せざるを得ません。」 Impossibility: 「〜はずがない」. An open possibility: 「〜かもしれない」「〜かねない」. Something that should have happened by now: 「今ごろは〜はずだ」."
+  },
+  "table": {
+   "head": [
+    "確信度 / Degree",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "ほぼ確実 / Near certain",
+     "〜に違いない／〜ざるを得ない",
+     "計画は失敗せざるを得ない。"
+    ],
+    [
+     "不可能 / Impossible",
+     "〜はずがない",
+     "彼がやったはずがない。"
+    ],
+    [
+     "もっともらしい / Plausible",
+     "〜ても不思議ではない",
+     "もう着いていても不思議ではない。"
+    ],
+    [
+     "可能性 / Possible",
+     "〜かもしれない",
+     "噂は本当かもしれない。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜はずがない」は強い否定の推量です。",
+    "en": "「〜はずがない」 is a strong negative inference."
+   },
+   {
+    "ko": "「〜ざるを得ない」は、ほかに選択肢がないという意味です。",
+    "en": "「〜ざるを得ない」 means there is no other option."
+   },
+   {
+    "ko": "根拠が弱いときは断定せず「〜かもしれない」を使います。",
+    "en": "With weak evidence, avoid certainty and use 「〜かもしれない」."
+   }
+  ],
+  "examples": [
+   {
+    "t": "彼女は今ごろ着いていても不思議ではありません。",
+    "read": "かのじょはいまごろついていてもふしぎではありません。",
+    "ko": "그녀는 지금쯤 도착했을 법해요.",
+    "en": "She ought to have arrived by now."
+   },
+   {
+    "t": "彼が一人でやったはずがありません。",
+    "read": "かれがひとりでやったはずがありません。",
+    "ko": "그가 그 일을 혼자 했을 리가 없어요.",
+    "en": "He can't possibly have done it alone."
+   },
+   {
+    "t": "この計画は失敗せざるを得ません。",
+    "read": "このけいかくはしっぱいせざるをえません。",
+    "ko": "그 계획은 실패할 수밖에 없어요.",
+    "en": "The plan is bound to fail."
+   },
+   {
+    "t": "その噂は本当かもしれません。",
+    "read": "そのうわさはほんとうかもしれません。",
+    "ko": "그 소문은 사실일 수도 있어요.",
+    "en": "The rumour might well be true."
+   },
+   {
+    "t": "合意は近く発表される可能性が高いです。",
+    "read": "ごういはちかくはっぴょうされるかのうせいがたかいです。",
+    "ko": "그들은 이미 결정을 내렸을 거예요.",
+    "en": "They will have made their decision by now."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "この計画は失敗せ___を得ません。",
+    "options": [
+     "ざる",
+     "ない",
+     "ず"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "彼が一人でやった___がありません。",
+    "options": [
+     "はず",
+     "べき",
+     "つもり"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "彼女は今ごろ着いていても___ではありません。",
+    "options": [
+     "不思議",
+     "確か",
+     "大変"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "今ごろは担当者が知っている___です。",
+    "options": [
+     "はず",
+     "べき",
+     "つもり"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "彼はなぜまだ着かないのでしょうか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 왜 아직 도착하지 않았을까요?",
+     "en": "(Question) Why hasn't he arrived yet?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "道が混んでいて遅れているのかもしれません。",
+       "来週の月曜日です。",
+       "コーヒーが好きです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "その噂は本当だと思いますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 소문이 사실일까요?",
+     "en": "(Question) Could the rumour be true?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "そんなはずはないと思います。",
+       "もう昼ご飯を食べました。",
+       "来週行きます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "報告書がまだ届かないんだけど。"
+      },
+      {
+       "s": "B",
+       "t": "今ごろは届いているはずなのにね。"
+      },
+      {
+       "s": "A",
+       "t": "迷惑メールに入っているかもしれないよ。"
+      },
+      {
+       "s": "B",
+       "t": "そうかもしれない。確認してみる。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 보고서가 아직 안 왔어.\nB: 지금쯤이면 도착했어야 하는데.\nA: 메일이 스팸함에 들어갔을 수도 있어.\nB: 그럴 만도 해. 확인해 볼게.",
+     "en": "A: The report hasn't come yet.\nB: It ought to have arrived by now.\nA: It might well have gone into the spam folder.\nB: That's quite possible. I'll check."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bはこのあと何をしますか。",
+      "options": [
+       "メールを確認する",
+       "報告書を書き直す",
+       "会議を中止する"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "確信の度合いを使い分けることは、正確な表現の基本です。確実なときは「に違いない」や「ざるを得ない」を、可能性を残すときは「かもしれない」を、ありえないと考えるときは「はずがない」を使います。根拠が弱いときは、断定せずに慎重に述べましょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "확신의 정도를 구별하는 것은 정확한 영어의 핵심입니다. 확실할 때는 must나 be bound to를, 가능성을 열어 둘 때는 might well을, 불가능하다고 볼 때는 can't possibly를 씁니다. 근거가 약하다면 단정하지 말고 신중하게 표현하세요.",
+     "en": "Distinguishing degrees of certainty is central to precise English. Use must or be bound to when you are sure, might well when you leave a possibility open, and can't possibly when you rule something out. If the evidence is weak, avoid asserting and express yourself cautiously."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "根拠が弱いときはどうすればよいですか。",
+      "options": [
+       "断定せずに慎重に述べる",
+       "必ず断定する",
+       "何も言わない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今回の合意は実現するでしょうか。"
+      },
+      {
+       "s": "B",
+       "t": "交渉の雰囲気からすると、近く発表される可能性が高いです。"
+      },
+      {
+       "s": "A",
+       "t": "反対意見はないのですか。"
+      },
+      {
+       "s": "B",
+       "t": "一部の反発はあっても、止めることはできないでしょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 이번 합의가 실현될까요?\n전문가: 협상 분위기를 보면 곧 발표될 가능성이 높습니다.\n기자: 반대 의견은 없나요?\n전문가: 일부 반발은 있을 수 있지만 막을 수는 없을 겁니다.",
+     "en": "Reporter: Will this agreement actually happen?\nExpert: Judging by the mood of the talks, an announcement is highly probable.\nReporter: Is there no opposition?\nExpert: Some resistance is possible, but it cannot stop it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "専門家は合意が近く______可能性が高いと言います",
+      "answers": [
+       "発表される"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "一部の反発があっても______ことはできないと言います",
+      "answers": [
+       "止める"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 彼女は今ごろ着いていても___ではありません。\n2) 彼が一人でやった___がありません。\n3) この計画は失敗せ___を得ません。",
+    "trans": {
+     "ko": "1) 그녀는 지금쯤 도착했을 법해요. 2) 그가 혼자 했을 리가 없어요. 3) 그 계획은 실패할 수밖에 없어요.",
+     "en": "1) She ought to have arrived by now. 2) He can't possibly have done it alone. 3) The plan is bound to fail."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "彼女は今ごろ着いていても___ではありません。",
+      "options": [
+       "不思議",
+       "確か",
+       "大変"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼が一人でやった___がありません。",
+      "options": [
+       "はず",
+       "べき",
+       "つもり"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "この計画は失敗せ___を得ません。",
+      "options": [
+       "ざる",
+       "ない",
+       "ず"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "事件の原因はまだ(1)。担当者は設備の不具合が原因である(2)と話しましたが、確実ではないので(3)しませんでした。",
+    "trans": {
+     "ko": "그 연구자는 새 이론이 의심할 여지 없이 기존 가설보다 설득력 있다고 주장했다. 그러나 동료들은 자료의 출처가 미심쩍다고 반박했다. 어느 쪽이 옳든 논쟁은 한동안 계속될 수밖에 없을 것이다.",
+     "en": "The researcher claimed that the new theory was undoubtedly more persuasive than the old hypothesis. Colleagues, however, retorted that the source of the data was dubious. Whichever side is right, the debate is bound to continue for some time."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "わかっていません",
+       "わかりました",
+       "わかるでしょう"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "可能性もある",
+       "はずがない",
+       "べきだ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "断定",
+       "賛成",
+       "報告"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "分析記事\n合意の可能性\n交渉が大詰めを迎え、最終合意の可能性が高まっている。一部の議員が反対する可能性はあるが、過半数を阻止するのは難しいだろう。ただし細部が変わるかもしれず、断定は早い。",
+    "trans": {
+     "ko": "분석 기사\n합의의 가능성\n협상이 막바지에 접어들면서 최종 합의의 가능성이 높아지고 있다. 일부 의원들이 반대할 수는 있으나 과반을 막기는 어려울 것이다. 다만 세부 조항이 바뀔 수도 있어 단정은 이르다.",
+     "en": "ANALYSIS\nThe prospects for agreement\nAs the talks enter their final stage, the likelihood of a final agreement is rising. Some legislators may object, but blocking a majority will be difficult. Even so, details may still change, so it is too early to be certain."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "合意の可能性はどうなっていますか。",
+      "options": [
+       "高まっている",
+       "低くなっている",
+       "わからない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "記事は何が変わるかもしれないと言っていますか。",
+      "options": [
+       "細部",
+       "日程",
+       "参加者"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "記事は、最終合意の可能性が高まっていると見ています。ただし細部が変わるかもしれないので、断定は早いと述べています。",
+    "trans": {
+     "ko": "기사는 최종 합의 가능성이 높아지고 있다고 본다. 기사는 합의가 이미 서명되었다고 말한다. 기사는 세부 조항이 바뀔 수 있다고 본다.",
+     "en": "The article thinks a final agreement is becoming more likely. The article says the agreement has already been signed. The article thinks details may still change."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "記事は最終合意の可能性が高まっていると見ている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "記事は合意がすでに署名されたと言っている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "交渉はソウルで開かれている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "彼は道が混んでいて遅れているのかもしれません。",
+    "read": "かれはみちがこんでいておくれているのかもしれません。",
+    "ko": "그 합의는 곧 발표될 것으로 보입니다.",
+    "en": "The agreement is likely to be announced shortly.",
+    "situation": {
+     "ko": "가능성이 높다고 말할 때",
+     "en": "Saying something is likely"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "そんなはずはないと思います。",
+    "read": "そんなはずはないとおもいます。",
+    "ko": "그가 그런 실수를 했을 리가 없어요.",
+    "en": "He can't possibly have made such a mistake.",
+    "situation": {
+     "ko": "강한 부정 추론을 할 때",
+     "en": "Strong negative deduction"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "合意は近く発表される可能性が高いです。",
+    "read": "ごういはちかくはっぴょうされるかのうせいがたかいです。",
+    "ko": "이 정도 준비라면 그들은 성공할 수밖에 없어요.",
+    "en": "With this much preparation, they are bound to succeed.",
+    "situation": {
+     "ko": "필연적 결과를 말할 때",
+     "en": "Stating an inevitable result"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "彼がそんなミスをするはずがありません。",
+    "read": "かれがそんなミスをするはずがありません。",
+    "ko": "그 제안은 충분히 거절당할 만합니다.",
+    "en": "The proposal might well be rejected.",
+    "situation": {
+     "ko": "가능성을 인정하되 단정하지 않을 때",
+     "en": "Allowing a possibility without asserting"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "この計画は失敗せざるを得ません。",
+    "read": "このけいかくはしっぱいせざるをえません。",
+    "ko": "지금쯤이면 소식이 왔어야 하는데요.",
+    "en": "We ought to have heard something by now.",
+    "situation": {
+     "ko": "기대에 비추어 추론할 때",
+     "en": "Reasoning from expectation"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "もう着いていても不思議ではありません。",
+    "read": "もうついていてもふしぎではありません。",
+    "ko": "증거만으로 단정하기는 어렵습니다.",
+    "en": "It is difficult to be certain on the evidence alone.",
+    "situation": {
+     "ko": "신중하게 판단을 유보할 때",
+     "en": "Withholding judgement"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "断定は避けたほうがいいでしょう。",
+    "read": "だんていはさけたほうがいいでしょう。",
+    "ko": "그것은 단순한 우연이 아니었을지도 모릅니다.",
+    "en": "It may not have been mere coincidence.",
+    "situation": {
+     "ko": "과거에 대한 가능성을 제시할 때",
+     "en": "Suggesting a past possibility"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "今ごろは担当者が知っているはずです。",
+    "read": "いまごろはたんとうしゃがしっているはずです。",
+    "ko": "그의 말이 사실이라면 상황은 훨씬 심각합니다.",
+    "en": "If what he says is true, the situation is far graver.",
+    "situation": {
+     "ko": "조건으로 확신을 조정할 때",
+     "en": "Adjusting certainty with a condition"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜せざるを得ない。",
+    "read": "〜せざるをえない。",
+    "ko": "~일 수밖에 없다.",
+    "en": "... is bound to ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜はずがない。",
+    "read": "〜はずがない。",
+    "ko": "~했을 리가 없다.",
+    "en": "... can't possibly have ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜かもしれない。",
+    "read": "〜かもしれない。",
+    "ko": "~일 만도 하다.",
+    "en": "... might well ..."
+   },
+   {
+    "id": "w4",
+    "t": "今ごろは〜はずだ。",
+    "read": "いまごろは〜はずだ。",
+    "ko": "지금쯤 ~했어야 한다.",
+    "en": "... ought to have ... by now."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "확신의 정도를 달리하는 조동사를 사용해 어떤 사건의 원인에 대한 추론을 4문장으로 써 보세요.",
+    "en": "Write four sentences reasoning about the cause of an event, using modals of different degrees of certainty."
+   },
+   "must_include": [
+    {
+     "label": "ざるを得ない",
+     "match": [
+      "ざるを得ません"
+     ]
+    },
+    {
+     "label": "はずがない",
+     "match": [
+      "はずがありません"
+     ]
+    },
+    {
+     "label": "かもしれない",
+     "match": [
+      "かもしれません"
+     ]
+    }
+   ],
+   "model": "サーバーが突然止まりました。更新が原因かもしれません。しかし、開発チームがテストを省いたはずがありません。ログを確認すれば、原因はすぐにわからざるを得ません。今ごろは担当者が知っているはずです。",
+   "model_trans": {
+    "ko": "서버가 갑자기 멈췄어요. 업데이트가 원인일 수도 있어요. 하지만 개발팀이 테스트를 건너뛰었을 리는 없어요. 로그를 확인하면 곧 원인이 드러날 수밖에 없어요. 지금쯤 담당자가 알고 있어야 하는데요.",
+    "en": "The server stopped suddenly. The update might well be the cause. But the developers can't possibly have skipped the tests. Once we check the logs, the cause is bound to emerge. Whoever is in charge ought to know by now."
+   }
+  }
+ }
+}

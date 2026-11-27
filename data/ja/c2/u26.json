@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u26",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 26,
+  "concept": "C2.U26",
+  "status": "live",
+  "title": {
+   "target": "比喩：隠喩・直喩・死んだ比喩",
+   "ko": "은유와 개념적 은유",
+   "en": "Metaphor and conceptual metaphor"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "隠喩",
+   "pos": "noun",
+   "read": "いんゆ",
+   "ko": "은유",
+   "en": "metaphor",
+   "ex": {
+    "t": "「時は金なり」は隠喩です。",
+    "read": "「ときはきんなり」はいんゆです。",
+    "ko": "시인은 풍부한 은유를 썼어요.",
+    "en": "The poet used rich metaphors."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "直喩",
+   "pos": "noun",
+   "read": "ちょくゆ",
+   "ko": "직유",
+   "en": "simile",
+   "ex": {
+    "t": "「雪のように白い」は直喩です。",
+    "read": "「ゆきのようにしろい」はちょくゆです。",
+    "ko": "'장미 같은'은 직유예요.",
+    "en": "'Like a rose' is a simile."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "たとえる",
+   "pos": "noun",
+   "read": "たとえる",
+   "ko": "비유의 본뜻",
+   "en": "tenor",
+   "ex": {
+    "t": "人生を旅にたとえます。",
+    "read": "じんせいをたびにたとえます。",
+    "ko": "본뜻과 매개를 구분하세요.",
+    "en": "Distinguish the tenor from the vehicle."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "比喩的に",
+   "pos": "noun",
+   "read": "ひゆてきに",
+   "ko": "비유의 매개",
+   "en": "vehicle",
+   "ex": {
+    "t": "この語は比喩的に使われています。",
+    "read": "このごはひゆてきにつかわれています。",
+    "ko": "이 은유의 매개는 여행이에요.",
+    "en": "The vehicle of this metaphor is a journey."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "死んだ比喩",
+   "pos": "phrase",
+   "read": "しんだひゆ",
+   "ko": "죽은 은유",
+   "en": "dead metaphor",
+   "ex": {
+    "t": "「机の脚」は死んだ比喩です。",
+    "read": "「つくえのあし」はしんだひゆです。",
+    "ko": "'table leg'는 죽은 은유예요.",
+    "en": "'Table leg' is a dead metaphor."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "概念的な比喩",
+   "pos": "phrase",
+   "read": "がいねんてきなひゆ",
+   "ko": "개념적 은유",
+   "en": "conceptual metaphor",
+   "ex": {
+    "t": "議論を戦争にたとえるのは概念的な比喩です。",
+    "read": "ぎろんをせんそうにたとえるのはがいねんてきなひゆです。",
+    "ko": "'시간은 돈이다'는 개념적 은유예요.",
+    "en": "'Time is money' is a conceptual metaphor."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "混ざった比喩",
+   "pos": "phrase",
+   "read": "まざったひゆ",
+   "ko": "혼합 은유",
+   "en": "mixed metaphor",
+   "ex": {
+    "t": "混ざった比喩は読者を混乱させます。",
+    "read": "まざったひゆはどくしゃをこんらんさせます。",
+    "ko": "그 연설은 혼합 은유로 가득했어요.",
+    "en": "The speech was full of mixed metaphors."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "ありきたりな",
+   "pos": "adj",
+   "read": "ありきたりな",
+   "ko": "상투적인",
+   "en": "clichéd",
+   "ex": {
+    "t": "ありきたりな比喩は印象に残りません。",
+    "read": "ありきたりなひゆはいんしょうにのこりません。",
+    "ko": "그 표현은 상투적이에요.",
+    "en": "That expression is clichéd."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "含意する",
+   "pos": "verb",
+   "read": "がんいする",
+   "ko": "함축하다",
+   "en": "evoke",
+   "ex": {
+    "t": "この比喩は孤独を含意しています。",
+    "read": "このひゆはこどくをがんいしています。",
+    "ko": "그 이미지는 향수를 불러일으켜요.",
+    "en": "The image evokes nostalgia."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "喚起する",
+   "pos": "adv",
+   "read": "かんきする",
+   "ko": "비유적으로",
+   "en": "figuratively",
+   "ex": {
+    "t": "その比喩は強い印象を喚起します。",
+    "read": "そのひゆはつよいいんしょうをかんきします。",
+    "ko": "그 말은 비유적으로 쓰였어요.",
+    "en": "The word was used figuratively."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "AはBだ（隠喩）／AはBのようだ（直喩）／〜にたとえる／比喩的に",
+   "en": "Metaphor and simile: AはBだ / AはBのようだ / 〜にたとえる / 比喩的に"
+  },
+  "explain": {
+   "ko": "比喩には、「ようだ」を使う直喩と、使わずに直接結びつける隠喩があります：「彼女の声は鈴のようだ」（直喩）、「彼は我が家の太陽だ」（隠喩）。「机の脚」のように、もう比喩だと意識されない語を死んだ比喩と呼びます。「議論は戦争だ」のように、考え方そのものを形づくる概念的な比喩もあります。二つの比喩を混ぜると、イメージがぶつかるので注意しましょう。",
+   "en": "A simile uses 「ようだ」; a metaphor links without it: 「彼女の声は鈴のようだ」(simile), 「彼は我が家の太陽だ」(metaphor). Words like 「机の脚」 are dead metaphors, no longer felt as figures. Conceptual metaphors such as 「議論は戦争だ」 shape thinking itself. Mixing two metaphors clashes the images, so beware."
+  },
+  "table": {
+   "head": [
+    "種類 / Type",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "直喩",
+     "AはBのようだ",
+     "雪のように白い。"
+    ],
+    [
+     "隠喩",
+     "AはBだ",
+     "彼は我が家の太陽だ。"
+    ],
+    [
+     "死んだ比喩",
+     "意識されない",
+     "机の脚。"
+    ],
+    [
+     "概念的比喩",
+     "考え方を形づくる",
+     "議論は戦争だ。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "直喩は「ようだ」を使います。",
+    "en": "A simile uses 「ようだ」."
+   },
+   {
+    "ko": "ありきたりな比喩は避けましょう。",
+    "en": "Avoid cliché metaphors."
+   },
+   {
+    "ko": "比喩は一貫させましょう。",
+    "en": "Keep metaphors consistent."
+   }
+  ],
+  "examples": [
+   {
+    "t": "彼女の声は鈴のようです。",
+    "read": "かのじょのこえはすずのようです。",
+    "ko": "시인은 풍부한 은유를 썼어요.",
+    "en": "The poet used rich metaphors."
+   },
+   {
+    "t": "彼は我が家の太陽です。",
+    "read": "かれはわがやのたいようです。",
+    "ko": "'시간은 돈이다'는 개념적 은유예요.",
+    "en": "'Time is money' is a conceptual metaphor."
+   },
+   {
+    "t": "人生を旅にたとえます。",
+    "read": "じんせいをたびにたとえます。",
+    "ko": "'장미 같은'은 직유예요.",
+    "en": "'Like a rose' is a simile."
+   },
+   {
+    "t": "「机の脚」は死んだ比喩です。",
+    "read": "「つくえのあし」はしんだひゆです。",
+    "ko": "그 표현은 상투적이에요.",
+    "en": "That expression is clichéd."
+   },
+   {
+    "t": "議論を戦争にたとえることがあります。",
+    "read": "ぎろんをせんそうにたとえることがあります。",
+    "ko": "그 말은 비유적으로 쓰였어요.",
+    "en": "The word was used figuratively."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "彼女の声は鈴の___です。",
+    "options": [
+     "よう",
+     "ため",
+     "はず"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "彼は我が家の___です。",
+    "options": [
+     "太陽",
+     "天気",
+     "道"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "人生を旅に___ます。",
+    "options": [
+     "たとえ",
+     "食べ",
+     "会い"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "「机の脚」は___比喩です。",
+    "options": [
+     "死んだ",
+     "新しい",
+     "美しい"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "人生を何にたとえますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) '시간은 돈이다'는 어떤 은유인가요?",
+     "en": "(Question) What kind of metaphor is 'time is money'?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "人生を旅にたとえます。",
+       "人生は学校です。",
+       "人生はありません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "直喩と隠喩はどう違いますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 은유의 본뜻과 매개란 무엇인가요?",
+     "en": "(Question) What are the tenor and vehicle of a metaphor?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "直喩は「ようだ」を使い、隠喩は使いません。",
+       "二つは同じです。",
+       "隠喩は「ようだ」を使います。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "「彼は我が家の太陽だ」って、直喩？隠喩？"
+      },
+      {
+       "s": "B",
+       "t": "「ようだ」がないから、隠喩だよ。"
+      },
+      {
+       "s": "A",
+       "t": "じゃあ「雪のように白い」は？"
+      },
+      {
+       "s": "B",
+       "t": "それは直喩だね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: '논쟁은 전쟁이다'가 무슨 뜻이야?\nB: 우리가 논쟁을 전쟁처럼 말한다는 뜻이야.\nA: 예를 들면?\nB: 입장을 공격하고 방어한다고 하지.",
+     "en": "A: What does 'argument is war' mean?\nB: It means we talk about argument as if it were war.\nA: For example?\nB: We say we attack and defend positions."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "「雪のように白い」は何ですか。",
+      "options": [
+       "直喩",
+       "隠喩",
+       "死んだ比喩"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "比喩には、「ようだ」を使う直喩と、使わずに直接結びつける隠喩があります。「机の脚」のように、もう比喩として意識されない語を死んだ比喩と呼びます。ありきたりな比喩は、読者の印象に残りません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "개념적 은유 이론에 따르면 은유는 단순한 장식이 아니라 사고의 방식입니다. 우리는 시간을 돈처럼, 논쟁을 전쟁처럼 이해합니다. 이런 은유는 일상 언어에 깊이 스며들어 있어서 대부분 의식하지 못합니다.",
+     "en": "According to conceptual metaphor theory, metaphor is not mere decoration but a way of thinking. We understand time as money and argument as war. Such metaphors are so deeply embedded in everyday language that we mostly do not notice them."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ありきたりな比喩はどうですか。",
+      "options": [
+       "印象に残らない",
+       "とても印象的",
+       "必須"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この文の比喩は、少しありきたりですね。"
+      },
+      {
+       "s": "B",
+       "t": "何かいい案はありますか。"
+      },
+      {
+       "s": "A",
+       "t": "「悲しみは霧のようだ」はどうでしょう。"
+      },
+      {
+       "s": "B",
+       "t": "いいですね。直喩で書いてみます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교사: 이 시의 은유를 분석해 봅시다.\n학생: 본뜻은 삶이고 매개는 강입니다.\n교사: 그 이미지는 무엇을 불러일으키나요?\n학생: 흐름과 변화를 불러일으킵니다.",
+     "en": "Teacher: Let's analyse the metaphor in this poem.\nStudent: The tenor is life and the vehicle is a river.\nTeacher: What does the image evoke?\nStudent: It evokes flow and change."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "編集者は比喩が少し______だと言います",
+      "answers": [
+       "ありきたり"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "作家は______で書いてみると言います",
+      "answers": [
+       "直喩"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 彼女の声は鈴の___です。\n2) 人生を旅に___ます。\n3) 「机の脚」は___比喩です。",
+    "trans": {
+     "ko": "1) 시인은 풍부한 은유를 썼어요. 2) '시간은 돈이다'는 개념적 은유예요. 3) 그 표현은 상투적이에요.",
+     "en": "1) The poet used rich metaphors. 2) 'Time is money' is a conceptual metaphor. 3) That expression is clichéd."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "彼女の声は鈴の___です。",
+      "options": [
+       "よう",
+       "ため",
+       "はず"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "人生を旅に___ます。",
+      "options": [
+       "たとえ",
+       "食べ",
+       "会い"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "「机の脚」は___比喩です。",
+      "options": [
+       "死んだ",
+       "新しい",
+       "美しい"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "彼は我が家の(1)だと言われます。これは(2)です。この言葉は、彼の(3)を強く印象づけます。",
+    "trans": {
+     "ko": "연설은 혼합 은유로 가득했다. 정치인은 배를 이끌면서 동시에 불을 끄겠다고 말했다. 청중은 이미지가 흐려졌다고 느꼈다.",
+     "en": "The speech was full of mixed metaphors. The politician said he would steer the ship and put out fires at the same time. The audience felt the image was blurred."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "太陽",
+       "天気",
+       "道"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "隠喩",
+       "直喩",
+       "事実"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "明るさ",
+       "重さ",
+       "高さ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "言語コラム\n比喩の力\n私たちは比喩を使って考える。議論を戦争にたとえれば、「攻める」「守る」という言葉が自然に出てくる。比喩は飾りではなく、考え方を形づくる道具である。",
+    "trans": {
+     "ko": "언어 칼럼\n은유로 생각하기\n우리는 시간을 돈처럼 쓰고 아낀다. 이런 은유는 일상 언어에 너무 깊이 스며 있어 대부분 의식하지 못한다. 그러나 은유를 의식하면 사고의 틀을 비판적으로 살필 수 있다.",
+     "en": "LANGUAGE COLUMN\nThinking in metaphor\nWe spend and save time as if it were money. Such metaphors are so deeply embedded in daily language that we mostly fail to notice them. But once we notice metaphor, we can examine our frames of thought critically."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "議論を戦争にたとえると、どんな言葉が出てきますか。",
+      "options": [
+       "攻める、守る",
+       "歌う、踊る",
+       "読む、書く"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "比喩は何だと言っていますか。",
+      "options": [
+       "考え方を形づくる道具",
+       "ただの飾り",
+       "間違い"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "このコラムは、私たちが比喩を使って考えると述べています。比喩は飾りではなく、考え方を形づくる道具だと言います。",
+    "trans": {
+     "ko": "칼럼은 우리가 시간을 돈처럼 쓰고 아낀다고 본다. 칼럼은 우리가 은유를 항상 의식한다고 본다. 칼럼은 은유를 의식하면 사고의 틀을 살필 수 있다고 본다.",
+     "en": "The column says we spend and save time as if it were money. The column says we always notice metaphors. The column says noticing metaphor lets us examine frames of thought."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "コラムは比喩が考え方を形づくると述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "コラムは比喩が文学にしか使われないと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "コラムは有名な詩人の名前を挙げている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "人生を旅にたとえます。",
+    "read": "じんせいをたびにたとえます。",
+    "ko": "우리는 시간을 돈처럼 쓰고 아끼고 낭비합니다.",
+    "en": "We spend, save and waste time as if it were money.",
+    "situation": {
+     "ko": "개념적 은유를 설명할 때",
+     "en": "Explaining a conceptual metaphor"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "直喩は「ようだ」を使い、隠喩は使いません。",
+    "read": "ちょくゆは「ようだ」をつかい、いんゆはつかいません。",
+    "ko": "논쟁에서 우리는 입장을 공격하고 방어합니다.",
+    "en": "In an argument we attack and defend positions.",
+    "situation": {
+     "ko": "논쟁은 전쟁이라는 은유",
+     "en": "The argument-is-war metaphor"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "彼は我が家の太陽です。",
+    "read": "かれはわがやのたいようです。",
+    "ko": "은유의 본뜻과 매개를 구분해야 합니다.",
+    "en": "One must distinguish the tenor of a metaphor from its vehicle.",
+    "situation": {
+     "ko": "분석할 때",
+     "en": "Analysing a metaphor"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "彼女の声は鈴のようです。",
+    "read": "かのじょのこえはすずのようです。",
+    "ko": "table leg는 이미 죽은 은유가 되었습니다.",
+    "en": "'Table leg' has become a dead metaphor.",
+    "situation": {
+     "ko": "죽은 은유를 말할 때",
+     "en": "Speaking of dead metaphors"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "「机の脚」は死んだ比喩です。",
+    "read": "「つくえのあし」はしんだひゆです。",
+    "ko": "혼합 은유는 이미지를 흐리게 합니다.",
+    "en": "Mixed metaphors blur the image.",
+    "situation": {
+     "ko": "문체를 비판할 때",
+     "en": "Criticising style"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "議論を戦争にたとえることがあります。",
+    "read": "ぎろんをせんそうにたとえることがあります。",
+    "ko": "그 상투적인 은유는 더 이상 효과가 없습니다.",
+    "en": "That clichéd metaphor no longer has any effect.",
+    "situation": {
+     "ko": "상투성을 비판할 때",
+     "en": "Criticising cliché"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "ありきたりな比喩は印象に残りません。",
+    "read": "ありきたりなひゆはいんしょうにのこりません。",
+    "ko": "그 이미지는 상실감을 불러일으킵니다.",
+    "en": "The image evokes a sense of loss.",
+    "situation": {
+     "ko": "효과를 말할 때",
+     "en": "Describing effect"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "比喩は一貫させましょう。",
+    "read": "ひゆはいっかんさせましょう。",
+    "ko": "은유는 단순한 장식이 아니라 사고의 방식입니다.",
+    "en": "Metaphor is not mere decoration but a way of thinking.",
+    "situation": {
+     "ko": "핵심 주장을 말할 때",
+     "en": "Stating a key claim"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "AはBのようだ。",
+    "read": "AはBのようだ。",
+    "ko": "A는 B이다.",
+    "en": "A is B"
+   },
+   {
+    "id": "w2",
+    "t": "AはBだ（隠喩）。",
+    "read": "AはBだ（いんゆ）。",
+    "ko": "본뜻과 매개.",
+    "en": "tenor and vehicle"
+   },
+   {
+    "id": "w3",
+    "t": "〜にたとえる。",
+    "read": "〜にたとえる。",
+    "ko": "죽은 은유.",
+    "en": "dead metaphor"
+   },
+   {
+    "id": "w4",
+    "t": "死んだ比喩。",
+    "read": "しんだひゆ。",
+    "ko": "비유적으로 쓰이다.",
+    "en": "be used figuratively"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "은유를 사용해 4문장을 쓰고, 마지막 문장에서 본뜻과 매개를 밝혀 보세요.",
+    "en": "Write four sentences using a metaphor and identify its tenor and vehicle in the last sentence."
+   },
+   "must_include": [
+    {
+     "label": "隠喩",
+     "match": [
+      "隠喩"
+     ]
+    },
+    {
+     "label": "直喩",
+     "match": [
+      "直喩"
+     ]
+    },
+    {
+     "label": "たとえる",
+     "match": [
+      "たとえる"
+     ]
+    }
+   ],
+   "model": "私は人生を旅にたとえるのが好きです。これは隠喩です。「人生は旅のようだ」と言えば直喩です。どちらも道のりと出会いを思い出させます。ありきたりにならないよう、新しい比喩を探したいです。",
+   "model_trans": {
+    "ko": "인생은 긴 여행이에요. 우리는 길을 잃기도 하고 지름길을 찾기도 해요. 그 이미지는 방향을 찾는 삶을 불러일으켜요. 이 은유에서 본뜻은 인생이고 매개는 여행이에요.",
+    "en": "Life is a long journey. We lose our way and sometimes find shortcuts. The image evokes a life searching for direction. In this metaphor the tenor is life and the vehicle is the journey."
+   }
+  }
+ }
+}

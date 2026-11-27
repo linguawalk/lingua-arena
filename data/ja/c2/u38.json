@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u38",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 38,
+  "concept": "C2.U38",
+  "status": "live",
+  "title": {
+   "target": "引用と出典の書き方",
+   "ko": "인용과 출처 표기",
+   "en": "Citing and attributing sources"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "引用する",
+   "pos": "phrase",
+   "read": "いんようする",
+   "ko": "~에 따르면",
+   "en": "according to",
+   "ex": {
+    "t": "田中の文章を引用します。",
+    "read": "たなかのぶんしょうをいんようします。",
+    "ko": "연구에 따르면 수면은 중요해요.",
+    "en": "According to the study, sleep matters."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "直接引用",
+   "pos": "verb",
+   "read": "ちょくせついんよう",
+   "ko": "인용하다(출처를 밝히다)",
+   "en": "cite",
+   "ex": {
+    "t": "直接引用には引用符を付けます。",
+    "read": "ちょくせついんようにはいんようふをつけます。",
+    "ko": "논문에서는 출처를 인용해야 해요.",
+    "en": "Papers must cite their sources."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "間接引用",
+   "pos": "verb",
+   "read": "かんせついんよう",
+   "ko": "직접 인용하다",
+   "en": "quote",
+   "ex": {
+    "t": "間接引用は自分の言葉で書き換えます。",
+    "read": "かんせついんようはじぶんのことばでかきかえます。",
+    "ko": "그는 원문을 직접 인용했어요.",
+    "en": "He quoted the original directly."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "出典を明記する",
+   "pos": "phrase",
+   "read": "しゅってんをめいきする",
+   "ko": "~의 표현을 빌리면",
+   "en": "in the words of",
+   "ex": {
+    "t": "出典を必ず明記しましょう。",
+    "read": "しゅってんをかならずめいきしましょう。",
+    "ko": "그녀의 표현을 빌리면 변화는 느려요.",
+    "en": "In the words of the author, change is slow."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "参考文献",
+   "pos": "phrase",
+   "read": "さんこうぶんけん",
+   "ko": "~가 지적했듯",
+   "en": "as noted by",
+   "ex": {
+    "t": "参考文献を末尾に並べます。",
+    "read": "さんこうぶんけんをまつびにならべます。",
+    "ko": "스미스가 지적했듯 이 개념은 모호해요.",
+    "en": "As noted by Smith, the concept is vague."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "脚注",
+   "pos": "noun",
+   "read": "きゃくちゅう",
+   "ko": "참고문헌",
+   "en": "bibliography",
+   "ex": {
+    "t": "脚注で補足の説明を加えます。",
+    "read": "きゃくちゅうでほそくのせつめいをくわえます。",
+    "ko": "참고문헌을 마지막에 정리하세요.",
+    "en": "List the bibliography at the end."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "二次資料",
+   "pos": "noun",
+   "read": "にじしりょう",
+   "ko": "각주",
+   "en": "footnote",
+   "ex": {
+    "t": "二次資料は一次資料の解釈です。",
+    "read": "にじしりょうはいちじしりょうのかいしゃくです。",
+    "ko": "각주에 출처를 적었어요.",
+    "en": "I gave the source in a footnote."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "〜が指摘するように",
+   "pos": "verb",
+   "read": "〜がしてきするように",
+   "ko": "출처를 밝히다",
+   "en": "acknowledge",
+   "ex": {
+    "t": "田中が指摘するように、課題は多いです。",
+    "read": "たなかがしてきするように、かだいはおおいです。",
+    "ko": "출처를 반드시 밝혀야 해요.",
+    "en": "You must acknowledge your sources."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "〜の言葉を借りれば",
+   "pos": "phrase",
+   "read": "〜のことばをかりれば",
+   "ko": "2차 자료",
+   "en": "secondary source",
+   "ex": {
+    "t": "彼の言葉を借りれば、これは革命です。",
+    "read": "かれのことばをかりれば、これはかくめいです。",
+    "ko": "2차 자료는 1차 자료를 해석해요.",
+    "en": "A secondary source interprets a primary source."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "引用形式",
+   "pos": "phrase",
+   "read": "いんようけいしき",
+   "ko": "인용 형식",
+   "en": "citation style",
+   "ex": {
+    "t": "引用形式は分野ごとに違います。",
+    "read": "いんようけいしきはぶんやごとにちがいます。",
+    "ko": "학과의 인용 형식을 따르세요.",
+    "en": "Follow the department's citation style."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜によると／〜の言葉を借りれば／〜が指摘するように／参考文献／脚注",
+   "en": "Citation and sources: 〜によると / 〜の言葉を借りれば / 〜が指摘するように / 参考文献 / 脚注"
+  },
+  "explain": {
+   "ko": "学術的な文章では、他の人の考えを使うときに必ず出典を示します。「〜によると」「〜が指摘するように」「〜の言葉を借りれば」が代表的な表現です。そのまま写す直接引用には引用符を付け、自分の言葉で書き直す間接引用でも出典を書きます。文末には参考文献を並べ、補足は脚注に書きます。出典を示さないと剽窃になります。",
+   "en": "In academic writing, always cite the source when using others' ideas. Typical phrases: 「〜によると」「〜が指摘するように」「〜の言葉を借りれば」. Direct quotation needs quotation marks; indirect quotation in your own words still needs a source. List references at the end and put supplementary notes in footnotes. Without sources, it is plagiarism."
+  },
+  "table": {
+   "head": [
+    "種類 / Type",
+    "表現 / Phrase",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "出典",
+     "〜によると",
+     "田中によると、〜。"
+    ],
+    [
+     "指摘",
+     "〜が指摘するように",
+     "佐藤が指摘するように、〜。"
+    ],
+    [
+     "引用",
+     "〜の言葉を借りれば",
+     "彼の言葉を借りれば、〜。"
+    ],
+    [
+     "参考",
+     "参考文献",
+     "末尾に並べる。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "直接引用には引用符を付けます。",
+    "en": "Put quotation marks around direct quotes."
+   },
+   {
+    "ko": "間接引用にも出典が必要です。",
+    "en": "Indirect quotes also need sources."
+   },
+   {
+    "ko": "引用形式は分野に従います。",
+    "en": "Follow your field's style."
+   }
+  ],
+  "examples": [
+   {
+    "t": "田中によると、課題は多いです。",
+    "read": "たなかによると、かだいはおおいです。",
+    "ko": "연구에 따르면 수면은 중요해요.",
+    "en": "According to the study, sleep matters."
+   },
+   {
+    "t": "佐藤が指摘するように、時間が足りません。",
+    "read": "さとうがしてきするように、じかんがたりません。",
+    "ko": "논문에서는 출처를 인용해야 해요.",
+    "en": "Papers must cite their sources."
+   },
+   {
+    "t": "彼の言葉を借りれば、これは革命です。",
+    "read": "かれのことばをかりれば、これはかくめいです。",
+    "ko": "그는 원문을 직접 인용했어요.",
+    "en": "He quoted the original directly."
+   },
+   {
+    "t": "引用の出典を必ず明記します。",
+    "read": "いんようのしゅってんをかならずめいきします。",
+    "ko": "스미스가 지적했듯 이 개념은 모호해요.",
+    "en": "As noted by Smith, the concept is vague."
+   },
+   {
+    "t": "参考文献を末尾に並べます。",
+    "read": "さんこうぶんけんをまつびにならべます。",
+    "ko": "학과의 인용 형식을 따르세요.",
+    "en": "Follow the department's citation style."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "田中___、課題は多いです。",
+    "options": [
+     "によると",
+     "について",
+     "のため"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "佐藤が___ように、時間が足りません。",
+    "options": [
+     "指摘する",
+     "買う",
+     "歩く"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "彼の言葉を___、これは革命です。",
+    "options": [
+     "借りれば",
+     "貸せば",
+     "買えば"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "出典を必ず___します。",
+    "options": [
+     "明記",
+     "削除",
+     "無視"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "引用するとき何に注意しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 직접 인용과 간접 인용의 차이는 무엇인가요?",
+     "en": "(Question) What is the difference between direct and indirect quotation?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "出典を必ず明記します。",
+       "出典は不要です。",
+       "出典を隠します。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "直接引用と間接引用の違いは何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 참고문헌은 왜 필요한가요?",
+     "en": "(Question) Why is a bibliography necessary?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "直接引用はそのまま、間接引用は自分の言葉で書きます。",
+       "二つは同じです。",
+       "どちらも出典はいりません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "田中さんの文章を使ってもいい？"
+      },
+      {
+       "s": "B",
+       "t": "引用なら大丈夫だけど、出典を必ず書いてね。"
+      },
+      {
+       "s": "A",
+       "t": "そのまま写す場合は？"
+      },
+      {
+       "s": "B",
+       "t": "引用符を付けて、出典も書くんだよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 문장은 출처를 밝혀야 할까?\nB: 응, 다른 사람의 아이디어니까 반드시 밝혀야 해.\nA: 어떻게 쓰면 돼?\nB: 'According to Smith'로 시작하고 참고문헌에 넣어.",
+     "en": "A: Do I need to cite a source for this sentence?\nB: Yes, it's someone else's idea, so you must.\nA: How do I write it?\nB: Begin with 'According to Smith' and add it to the bibliography."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "そのまま写すときはどうしますか。",
+      "options": [
+       "引用符を付けて出典を書く",
+       "何も付けない",
+       "出典は書かない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "学術的な文章では、他の人の考えを使うときに必ず出典を示します。直接引用には引用符を付け、間接引用でも出典を書きます。文末に参考文献を並べ、補足は脚注に書きます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "출처를 밝히는 것은 학문적 정직성의 기본입니다. 직접 인용은 원문 그대로 따옴표 안에 쓰고, 간접 인용은 자신의 말로 바꾸어 쓰되 출처를 밝힙니다. 마지막에는 일관된 형식으로 참고문헌을 정리해야 합니다.",
+     "en": "Acknowledging sources is the basis of academic honesty. A direct quotation is written in the original words inside quotation marks, while an indirect one is put in your own words with the source acknowledged. At the end, the bibliography must be arranged in a consistent style."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "補足の説明はどこに書きますか。",
+      "options": [
+       "脚注",
+       "題名",
+       "裏表紙"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この文章の出典はどこですか。"
+      },
+      {
+       "s": "B",
+       "t": "田中の本です。"
+      },
+      {
+       "s": "A",
+       "t": "参考文献に入れましたか。"
+      },
+      {
+       "s": "B",
+       "t": "はい、末尾に並べてあります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "편집자: 이 단락의 출처가 없습니다.\n저자: 어디에 넣어야 하나요?\n편집자: 문장 끝에 각주를 다세요.\n저자: 알겠습니다. 참고문헌에도 추가하겠습니다.",
+     "en": "Editor: This paragraph has no source.\nAuthor: Where should I put it?\nEditor: Add a footnote at the end of the sentence.\nAuthor: Understood. I'll add it to the bibliography too."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "出典は田中の______だと学生は言います",
+      "answers": [
+       "本"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "参考文献は______に並べてあると言います",
+      "answers": [
+       "末尾"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 田中___、課題は多いです。\n2) 佐藤が___ように、時間が足りません。\n3) 出典を必ず___します。",
+    "trans": {
+     "ko": "1) 연구에 따르면 수면은 중요해요. 2) 논문에서는 출처를 인용해야 해요. 3) 스미스가 지적했듯 이 개념은 모호해요.",
+     "en": "1) According to the study, sleep matters. 2) Papers must cite their sources. 3) As noted by Smith, the concept is vague."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "田中___、課題は多いです。",
+      "options": [
+       "によると",
+       "について",
+       "のため"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "佐藤が___ように、時間が足りません。",
+      "options": [
+       "指摘する",
+       "買う",
+       "歩く"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "出典を必ず___します。",
+      "options": [
+       "明記",
+       "削除",
+       "無視"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "論文を書くときは、他の人の考えを使うときに必ず(1)を示します。そのまま写す(2)には引用符を付けます。文末には(3)を並べます。",
+    "trans": {
+     "ko": "그는 원문을 직접 인용했다. 그녀의 표현을 빌리면 변화는 느리다. 모든 출처는 참고문헌에 밝혀야 한다.",
+     "en": "He quoted the original directly. In the words of the author, change is slow. All sources must be acknowledged in the bibliography."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "出典",
+       "色",
+       "音"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "直接引用",
+       "翻訳",
+       "宣伝"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "参考文献",
+       "目次",
+       "広告"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "研究倫理\n出典を示す\n他人の考えや文章を、出典を示さずに使うことは剽窃である。直接引用には引用符を付け、間接引用でも出典を書く。参考文献は、読者が元の資料にたどり着けるように、正確に書く。",
+    "trans": {
+     "ko": "대학 지침\n표절을 피하는 법\n다른 사람의 아이디어나 문장을 쓸 때는 반드시 출처를 밝히세요. 직접 인용은 따옴표를 쓰고, 바꿔 쓰기는 의미를 바꾸지 마세요. 학과가 요구하는 인용 형식을 일관되게 따르세요.",
+     "en": "UNIVERSITY GUIDELINES\nHow to avoid plagiarism\nWhen using other people's ideas or sentences, always acknowledge the source. Use quotation marks for direct quotation, and do not change the meaning when paraphrasing. Follow the citation style your department requires consistently."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "出典を示さずに使うことを何と言いますか。",
+      "options": [
+       "剽窃",
+       "引用",
+       "翻訳"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "参考文献は何のために正確に書きますか。",
+      "options": [
+       "読者が元の資料にたどり着くため",
+       "文章を長くするため",
+       "著者の名前を目立たせるため"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、出典を示さずに他人の考えを使うことを剽窃と呼んでいます。参考文献は読者が元の資料にたどり着けるように正確に書くべきだと言います。",
+    "trans": {
+     "ko": "지침은 다른 사람의 아이디어를 쓸 때 출처를 밝히라고 한다. 지침은 직접 인용에 따옴표를 쓰지 말라고 한다. 지침은 인용 형식을 일관되게 따르라고 한다.",
+     "en": "The guidelines say to acknowledge the source when using others' ideas. The guidelines say not to use quotation marks for direct quotation. The guidelines say to follow the citation style consistently."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章は出典を示さない使用を剽窃と呼んでいる。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章は間接引用に出典がいらないと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章は特定の論文を批判している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "出典を必ず明記します。",
+    "read": "しゅってんをかならずめいきします。",
+    "ko": "연구에 따르면 수면 부족은 집중력을 떨어뜨립니다.",
+    "en": "According to the study, lack of sleep reduces concentration.",
+    "situation": {
+     "ko": "출처를 밝힐 때",
+     "en": "Attributing a claim"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "直接引用はそのまま、間接引用は自分の言葉で書きます。",
+    "read": "ちょくせついんようはそのまま、かんせついんようはじぶんのことばでかきます。",
+    "ko": "저는 그의 논문을 참고문헌에 인용했습니다.",
+    "en": "I cited his paper in the bibliography.",
+    "situation": {
+     "ko": "인용을 말할 때",
+     "en": "Citing"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "田中によると、課題は多いです。",
+    "read": "たなかによると、かだいはおおいです。",
+    "ko": "그는 원문을 큰따옴표로 직접 인용했습니다.",
+    "en": "He quoted the original directly in double quotation marks.",
+    "situation": {
+     "ko": "직접 인용",
+     "en": "Direct quotation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "佐藤が指摘するように、時間が足りません。",
+    "read": "さとうがしてきするように、じかんがたりません。",
+    "ko": "스미스가 지적했듯 이 개념은 모호합니다.",
+    "en": "As noted by Smith, the concept is vague.",
+    "situation": {
+     "ko": "간접 인용",
+     "en": "Indirect attribution"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "彼の言葉を借りれば、これは革命です。",
+    "read": "かれのことばをかりれば、これはかくめいです。",
+    "ko": "그녀의 표현을 빌리면 변화는 느립니다.",
+    "en": "In the words of the author, change is slow.",
+    "situation": {
+     "ko": "표현을 빌릴 때",
+     "en": "Borrowing a phrase"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "参考文献を末尾に並べます。",
+    "read": "さんこうぶんけんをまつびにならべます。",
+    "ko": "다른 사람의 아이디어를 쓸 때는 반드시 출처를 밝히세요.",
+    "en": "When you use someone else's ideas, always acknowledge the source.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "脚注で補足の説明を加えます。",
+    "read": "きゃくちゅうでほそくのせつめいをくわえます。",
+    "ko": "2차 자료는 1차 자료를 해석한 것입니다.",
+    "en": "A secondary source is an interpretation of a primary source.",
+    "situation": {
+     "ko": "자료를 구분할 때",
+     "en": "Distinguishing sources"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "引用形式は分野ごとに違います。",
+    "read": "いんようけいしきはぶんやごとにちがいます。",
+    "ko": "학과가 요구하는 인용 형식을 일관되게 따르세요.",
+    "en": "Follow the citation style your department requires consistently.",
+    "situation": {
+     "ko": "형식을 말할 때",
+     "en": "Stating a requirement"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜によると、〜。",
+    "read": "〜によると、〜。",
+    "ko": "~에 따르면.",
+    "en": "according to ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜が指摘するように。",
+    "read": "〜がしてきするように。",
+    "ko": "~가 지적했듯.",
+    "en": "as noted by ..."
+   },
+   {
+    "id": "w3",
+    "t": "〜の言葉を借りれば。",
+    "read": "〜のことばをかりれば。",
+    "ko": "출처를 밝히다.",
+    "en": "acknowledge the source"
+   },
+   {
+    "id": "w4",
+    "t": "出典を明記する。",
+    "read": "しゅってんをめいきする。",
+    "ko": "일관되게 따르다.",
+    "en": "follow consistently"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "출처를 밝히는 표현을 세 가지 이상 사용해 4문장을 써 보세요.",
+    "en": "Write four sentences using at least three attribution expressions."
+   },
+   "must_include": [
+    {
+     "label": "によると",
+     "match": [
+      "によると"
+     ]
+    },
+    {
+     "label": "指摘",
+     "match": [
+      "指摘するように"
+     ]
+    },
+    {
+     "label": "参考文献",
+     "match": [
+      "参考文献"
+     ]
+    }
+   ],
+   "model": "田中によると、この問題は深刻です。佐藤が指摘するように、対策は急務です。私は出典をすべて明記し、参考文献を末尾に並べました。",
+   "model_trans": {
+    "ko": "연구에 따르면 수면 부족은 집중력을 떨어뜨립니다. 스미스가 지적했듯 이 효과는 청소년에게 특히 큽니다. 한 학자의 표현을 빌리면 수면은 학습의 기초입니다. 모든 출처는 참고문헌에 밝혀야 합니다.",
+    "en": "According to the study, lack of sleep reduces concentration. As noted by Smith, this effect is especially large in adolescents. In the words of one scholar, sleep is the foundation of learning. All sources must be acknowledged in the bibliography."
+   }
+  }
+ }
+}

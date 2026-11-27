@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u16",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 16,
+  "concept": "C2.U16",
+  "status": "live",
+  "title": {
+   "target": "決まった組み合わせと副詞",
+   "ko": "고정 짝 표현",
+   "en": "Binomials and fixed pairs"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "おおむね",
+   "pos": "phrase",
+   "read": "おおむね",
+   "ko": "대체로",
+   "en": "by and large",
+   "ex": {
+    "t": "計画はおおむね順調でした。",
+    "read": "けいかくはおおむねじゅんちょうでした。",
+    "ko": "대체로 그 계획은 성공적이었어요.",
+    "en": "By and large, the plan was a success."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "がらくた",
+   "pos": "phrase",
+   "read": "がらくた",
+   "ko": "잡동사니",
+   "en": "odds and ends",
+   "ex": {
+    "t": "引き出しはがらくたでいっぱいでした。",
+    "read": "ひきだしはがらくたでいっぱいでした。",
+    "ko": "서랍에는 잡동사니가 가득했어요.",
+    "en": "The drawer was full of odds and ends."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "粗削りだが使える",
+   "pos": "phrase",
+   "read": "そけずりだがつかえる",
+   "ko": "거칠지만 쓸 만한",
+   "en": "rough and ready",
+   "ex": {
+    "t": "粗削りだが使えるアイデアです。",
+    "read": "そけずりだがつかえるアイデアです。",
+    "ko": "임시방편이지만 쓸 만한 해결책이에요.",
+    "en": "It's a rough and ready solution."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "あちこち",
+   "pos": "phrase",
+   "read": "あちこち",
+   "ko": "이리저리",
+   "en": "to and fro",
+   "ex": {
+    "t": "あちこち探しましたが、見つかりません。",
+    "read": "あちこちさがしましたが、みつかりません。",
+    "ko": "그는 방 안을 이리저리 걸었어요.",
+    "en": "He paced to and fro in the room."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "いずれ",
+   "pos": "phrase",
+   "read": "いずれ",
+   "ko": "조만간",
+   "en": "sooner or later",
+   "ex": {
+    "t": "いずれ真実が明らかになるでしょう。",
+    "read": "いずれしんじつがあきらかになるでしょう。",
+    "ko": "조만간 진실이 드러날 거예요.",
+    "en": "Sooner or later the truth will come out."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "紆余曲折",
+   "pos": "phrase",
+   "read": "うよきょくせつ",
+   "ko": "우여곡절",
+   "en": "ups and downs",
+   "ex": {
+    "t": "紆余曲折を経て、計画は完成しました。",
+    "read": "うよきょくせつをへて、けいかくはかんせいしました。",
+    "ko": "그 결혼은 우여곡절을 겪었어요.",
+    "en": "The marriage had its ups and downs."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "無事に",
+   "pos": "phrase",
+   "read": "ぶじに",
+   "ko": "안전하게",
+   "en": "safe and sound",
+   "ex": {
+    "t": "全員が無事に戻りました。",
+    "read": "ぜんいんがぶじにもどりました。",
+    "ko": "그들은 무사히 도착했어요.",
+    "en": "They arrived safe and sound."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "あれこれ",
+   "pos": "phrase",
+   "read": "あれこれ",
+   "ko": "이러니저러니",
+   "en": "this and that",
+   "ex": {
+    "t": "あれこれ言っても始まりません。",
+    "read": "あれこれいってもはじまりません。",
+    "ko": "우리는 이것저것 이야기했어요.",
+    "en": "We talked about this and that."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "あの手この手",
+   "pos": "phrase",
+   "read": "あのてこのて",
+   "ko": "요모조모",
+   "en": "pros and cons",
+   "ex": {
+    "t": "あの手この手で説得しました。",
+    "read": "あのてこのてでせっとくしました。",
+    "ko": "장단점을 따져 봅시다.",
+    "en": "Let's weigh up the pros and cons."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "一長一短",
+   "pos": "phrase",
+   "read": "いっちょういったん",
+   "ko": "확실하고 분명한",
+   "en": "loud and clear",
+   "ex": {
+    "t": "どちらの案も一長一短です。",
+    "read": "どちらのあんもいっちょういったんです。",
+    "ko": "메시지는 분명히 전달됐어요.",
+    "en": "The message came across loud and clear."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "おおむね／いずれ／一長一短／紆余曲折／あれこれ",
+   "en": "Fixed pairs and adverbs: おおむね / いずれ / 一長一短 / 紆余曲折 / あれこれ"
+  },
+  "explain": {
+   "ko": "日本語には、二つの語が組み合わさって固まった表現が多くあります：「一長一短」「紆余曲折」「あれこれ」「あの手この手」。語順は決まっていて、順番を変えると不自然です。「おおむね」は全体として、「いずれ」はそのうちに、「無事に」は問題なく、という意味です。これらは話し言葉でも書き言葉でもリズムがよく、自然に聞こえます。",
+   "en": "Japanese has many fixed pairs: 「一長一短」(pros and cons), 「紆余曲折」(ups and downs), 「あれこれ」, 「あの手この手」(every angle). The order is fixed, so reversing it sounds wrong. 「おおむね」 means by and large, 「いずれ」 sooner or later, 「無事に」 safely. These give speech and writing a natural rhythm."
+  },
+  "table": {
+   "head": [
+    "表現 / Phrase",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "おおむね",
+     "by and large",
+     "おおむね順調だった。"
+    ],
+    [
+     "いずれ",
+     "sooner or later",
+     "いずれ決める。"
+    ],
+    [
+     "一長一短",
+     "pros and cons",
+     "どちらも一長一短だ。"
+    ],
+    [
+     "紆余曲折",
+     "ups and downs",
+     "紆余曲折を経た。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "決まった組み合わせは順番を変えません。",
+    "en": "Do not reverse the order of fixed pairs."
+   },
+   {
+    "ko": "「いずれ」は近い未来を指します。",
+    "en": "「いずれ」 points to the near future."
+   },
+   {
+    "ko": "組み合わせは丸ごと覚えましょう。",
+    "en": "Learn pairs as a whole."
+   }
+  ],
+  "examples": [
+   {
+    "t": "計画はおおむね順調でした。",
+    "read": "けいかくはおおむねじゅんちょうでした。",
+    "ko": "대체로 그 계획은 성공적이었어요.",
+    "en": "By and large, the plan was a success."
+   },
+   {
+    "t": "引き出しはがらくたでいっぱいでした。",
+    "read": "ひきだしはがらくたでいっぱいでした。",
+    "ko": "서랍에는 잡동사니가 가득했어요.",
+    "en": "The drawer was full of odds and ends."
+   },
+   {
+    "t": "いずれ真実が明らかになるでしょう。",
+    "read": "いずれしんじつがあきらかになるでしょう。",
+    "ko": "조만간 진실이 드러날 거예요.",
+    "en": "Sooner or later the truth will come out."
+   },
+   {
+    "t": "どちらの案も一長一短です。",
+    "read": "どちらのあんもいっちょういったんです。",
+    "ko": "우리는 장단점을 따져 봤어요.",
+    "en": "We weighed up the pros and cons."
+   },
+   {
+    "t": "彼らは紆余曲折を経て成功しました。",
+    "read": "かれらはうよきょくせつをへてせいこうしました。",
+    "ko": "그들은 무사히 도착했어요.",
+    "en": "They arrived safe and sound."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "計画は___順調でした。",
+    "options": [
+     "おおむね",
+     "あちこち",
+     "無事に"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___真実が明らかになるでしょう。",
+    "options": [
+     "いずれ",
+     "あれこれ",
+     "あの手この手"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "どちらの案も___です。",
+    "options": [
+     "一長一短",
+     "短長一短",
+     "一短一長"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "彼らは___を経て成功しました。",
+    "options": [
+     "紆余曲折",
+     "がらくた",
+     "あちこち"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "プロジェクトは全体としてどうでしたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 프로젝트는 전체적으로 어땠나요?",
+     "en": "(Question) How was the project overall?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "紆余曲折はありましたが、おおむねよかったです。",
+       "プロジェクトはありませんでした。",
+       "明日始まります。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "その問題はいつ解決するでしょうか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 문제가 언제 해결될까요?",
+     "en": "(Question) When will the problem be solved?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "いずれ解決するでしょう。",
+       "昨日解決しました。",
+       "わかりません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "旅行はどうだった？"
+      },
+      {
+       "s": "B",
+       "t": "紆余曲折はあったけど、おおむねよかったよ。"
+      },
+      {
+       "s": "A",
+       "t": "無事に帰ってこられてよかった。"
+      },
+      {
+       "s": "B",
+       "t": "うん。いずれまた行きたい。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 여행은 어땠어?\nB: 우여곡절이 있었지만 대체로 좋았어.\nA: 무사히 돌아와서 다행이다.\nB: 맞아. 조만간 다시 가고 싶어.",
+     "en": "A: How was the trip?\nB: It had its ups and downs but, by and large, it was good.\nA: I'm glad you got back safe and sound.\nB: Yes. Sooner or later I'd like to go again."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは旅行についてどう言いましたか。",
+      "options": [
+       "紆余曲折はあったがおおむねよかった",
+       "とても悪かった",
+       "行かなかった"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "日本語には、二つの言葉が決まった形で組み合わさった表現がたくさんあります。順番が決まっているので、「一短一長」のように変えると不自然です。こうした表現は、話し言葉でも書き言葉でも、リズムがよく自然な印象を与えます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "영어에는 and, or로 연결된 고정 짝 표현이 많습니다. 순서가 고정되어 있어서 odds and ends를 ends and odds라고 하면 어색합니다. 이런 표현은 구어와 문어에서 리듬감 있고 자연스러운 느낌을 줍니다.",
+     "en": "English has many fixed pairs linked by and or or. The order is fixed, so saying ends and odds instead of odds and ends sounds odd. Such pairs give speech and writing a rhythmic, natural feel."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "決まった組み合わせの順番を変えるとどう聞こえますか。",
+      "options": [
+       "不自然に聞こえる",
+       "より自然に聞こえる",
+       "より丁寧に聞こえる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今回のことを要約していただけますか。"
+      },
+      {
+       "s": "B",
+       "t": "おおむね順調でしたが、紆余曲折もありました。"
+      },
+      {
+       "s": "A",
+       "t": "次の計画は？"
+      },
+      {
+       "s": "B",
+       "t": "一長一短を検討して、いずれ決めるつもりです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "진행자: 이번 일을 요약해 주시겠어요?\n손님: 대체로 순조로웠지만 우여곡절도 있었죠.\n진행자: 다음 계획은요?\n손님: 장단점을 따져 보고 조만간 결정할 겁니다.",
+     "en": "Host: Could you sum up this affair?\nGuest: By and large it went smoothly, though there were ups and downs.\nHost: What's the next plan?\nGuest: We'll weigh the pros and cons and decide sooner or later."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "ゲストはおおむね順調でしたが、______もあったと言います",
+      "answers": [
+       "紆余曲折"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "一長一短を検討して、______決めるつもりだと言います",
+      "answers": [
+       "いずれ"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___計画は成功でした。\n2) 引き出しは___でいっぱいでした。\n3) ___真実が明らかになるでしょう。",
+    "trans": {
+     "ko": "1) 대체로 그 계획은 성공적이었어요. 2) 서랍에는 잡동사니가 가득했어요. 3) 조만간 진실이 드러날 거예요.",
+     "en": "1) By and large, the plan was a success. 2) The drawer was full of odds and ends. 3) Sooner or later the truth will come out."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___計画は成功でした。",
+      "options": [
+       "おおむね",
+       "あちこち",
+       "無事に"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "引き出しは___でいっぱいでした。",
+      "options": [
+       "がらくた",
+       "紆余曲折",
+       "一長一短"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___真実が明らかになるでしょう。",
+      "options": [
+       "いずれ",
+       "あれこれ",
+       "あの手この手"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "その会社は(1)を経験しましたが、おおむね成功しました。役員たちは新製品の(2)を検討しました。(3)、決定が下されるでしょう。",
+    "trans": {
+     "ko": "그 회사는 우여곡절을 겪었지만 대체로 성공했다. 임원들은 신제품의 장단점을 따져 보았다. 조만간 결정이 내려질 것이다.",
+     "en": "The company had its ups and downs but, by and large, succeeded. The executives weighed the pros and cons of the new product. Sooner or later a decision will be made."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "紆余曲折",
+       "がらくた",
+       "あちこち"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "一長一短",
+       "短長一短",
+       "一短一長"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "いずれ",
+       "あれこれ",
+       "無事に"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ブログ\n片づけの技術\n引き出しの中のがらくたは、いずれ問題になります。いらない物は、一長一短を考えて整理しましょう。おおむね、私たちは必要以上に多くの物を持っています。",
+    "trans": {
+     "ko": "블로그\n정리의 기술\n서랍 속 잡동사니는 조만간 문제가 됩니다. 불필요한 물건은 장단점을 따져 정리하세요. 대체로 우리는 필요 이상으로 많이 갖고 있습니다.",
+     "en": "BLOG\nThe art of tidying\nOdds and ends in your drawer will sooner or later become a problem. Weigh the pros and cons and clear out what's unnecessary. By and large, we own more than we need."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "引き出しのがらくたはどうなると言っていますか。",
+      "options": [
+       "いずれ問題になる",
+       "自然になくなる",
+       "価値が上がる"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "いらない物はどうしますか。",
+      "options": [
+       "一長一短を考えて整理する",
+       "すべて取っておく",
+       "人にあげる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "このブログは、引き出しのがらくたがいずれ問題になると言っています。私たちは必要以上に物を持っていると見ています。",
+    "trans": {
+     "ko": "글은 서랍 속 잡동사니가 조만간 문제가 된다고 본다. 글은 불필요한 물건을 모두 간직하라고 한다. 글은 대체로 우리가 필요 이상으로 많이 갖고 있다고 본다.",
+     "en": "The text says odds and ends in a drawer will sooner or later become a problem. The text says to keep all unnecessary items. The text says we generally own more than we need."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "ブログはがらくたがいずれ問題になると言っている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "ブログはいらない物をすべて取っておくよう言っている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "ブログは片づけ用品を販売している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "紆余曲折はありましたが、おおむねよかったです。",
+    "read": "うよきょくせつはありましたが、おおむねよかったです。",
+    "ko": "대체로 직원들은 새 제도에 만족하고 있습니다.",
+    "en": "By and large, staff are satisfied with the new system.",
+    "situation": {
+     "ko": "전반적 평가를 말할 때",
+     "en": "A general assessment"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "いずれ解決するでしょう。",
+    "read": "いずれかいけつするでしょう。",
+    "ko": "그의 서랍에는 온갖 잡동사니가 들어 있었습니다.",
+    "en": "His drawer held all sorts of odds and ends.",
+    "situation": {
+     "ko": "잡다한 물건을 말할 때",
+     "en": "Mentioning assorted items"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "どちらの案も一長一短です。",
+    "read": "どちらのあんもいっちょういったんです。",
+    "ko": "조만간 이 문제는 해결되어야 합니다.",
+    "en": "Sooner or later this problem must be solved.",
+    "situation": {
+     "ko": "불가피함을 말할 때",
+     "en": "Stating inevitability"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "全員が無事に戻りました。",
+    "read": "ぜんいんがぶじにもどりました。",
+    "ko": "우리는 선택의 장단점을 신중히 따져 보았습니다.",
+    "en": "We weighed up the pros and cons of each option carefully.",
+    "situation": {
+     "ko": "비교할 때",
+     "en": "Weighing options"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "あの手この手で説得しました。",
+    "read": "あのてこのてでせっとくしました。",
+    "ko": "그들은 폭풍 속에서도 무사히 돌아왔습니다.",
+    "en": "They returned safe and sound even through the storm.",
+    "situation": {
+     "ko": "무사함을 말할 때",
+     "en": "Stating safety"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "あちこち探しましたが、見つかりません。",
+    "read": "あちこちさがしましたが、みつかりません。",
+    "ko": "그 해결책은 거칠지만 현장에서는 충분히 쓸 만했습니다.",
+    "en": "The solution was rough and ready, but good enough in the field.",
+    "situation": {
+     "ko": "임시방편을 말할 때",
+     "en": "Describing a makeshift solution"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "あれこれ言っても始まりません。",
+    "read": "あれこれいってもはじまりません。",
+    "ko": "우리의 우여곡절 끝에 마침내 성공했습니다.",
+    "en": "After many ups and downs, we finally succeeded.",
+    "situation": {
+     "ko": "과정을 요약할 때",
+     "en": "Summing up a journey"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "彼らは紆余曲折を経て成功しました。",
+    "read": "かれらはうよきょくせつをへてせいこうしました。",
+    "ko": "당신의 메시지는 분명하게 전달되었습니다.",
+    "en": "Your message came across loud and clear.",
+    "situation": {
+     "ko": "의사 전달을 확인할 때",
+     "en": "Confirming a message"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "おおむね〜。",
+    "read": "おおむね〜。",
+    "ko": "대체로 / 조만간.",
+    "en": "by and large / sooner or later"
+   },
+   {
+    "id": "w2",
+    "t": "いずれ〜。",
+    "read": "いずれ〜。",
+    "ko": "장단점.",
+    "en": "pros and cons"
+   },
+   {
+    "id": "w3",
+    "t": "一長一短。",
+    "read": "いっちょういったん。",
+    "ko": "무사히.",
+    "en": "safe and sound"
+   },
+   {
+    "id": "w4",
+    "t": "紆余曲折。",
+    "read": "うよきょくせつ。",
+    "ko": "우여곡절.",
+    "en": "ups and downs"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "고정 짝 표현(by and large, sooner or later, pros and cons, ups and downs)을 사용해 4문장을 써 보세요.",
+    "en": "Write four sentences using binomials (by and large, sooner or later, pros and cons, ups and downs)."
+   },
+   "must_include": [
+    {
+     "label": "紆余曲折",
+     "match": [
+      "紆余曲折が多かった"
+     ]
+    },
+    {
+     "label": "おおむね",
+     "match": [
+      "おおむねうまく"
+     ]
+    },
+    {
+     "label": "いずれ",
+     "match": [
+      "いずれ新しい"
+     ]
+    }
+   ],
+   "model": "私たちのチームは紆余曲折が多かったですが、おおむねうまくやり遂げました。いずれ新しいプロジェクトが始まります。その前に、一長一短を検討しなければなりません。みんなが無事に終えられるといいと思います。",
+   "model_trans": {
+    "ko": "우리 팀은 우여곡절이 많았지만 대체로 잘 해냈어요. 조만간 새 프로젝트가 시작될 거예요. 그 전에 장단점을 따져 봐야 해요. 모두 무사히 마무리하면 좋겠어요.",
+    "en": "Our team had many ups and downs but, by and large, did well. Sooner or later a new project will begin. Before that, we need to weigh the pros and cons. I hope everyone finishes safe and sound."
+   }
+  }
+ }
+}

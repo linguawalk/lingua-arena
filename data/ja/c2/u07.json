@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u07",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 7,
+  "concept": "C2.U07",
+  "status": "live",
+  "title": {
+   "target": "提案・要求と改まった表現",
+   "ko": "가정법과 격식체: lest, were it to",
+   "en": "Subjunctive and formal registers"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "提案する",
+   "pos": "conj",
+   "read": "ていあんする",
+   "ko": "~하지 않도록",
+   "en": "lest",
+   "ex": {
+    "t": "会議を延期することを提案します。",
+    "read": "かいぎをえんきすることをていあんします。",
+    "ko": "그는 실수하지 않도록 조심했어요.",
+    "en": "He took care lest he make a mistake."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "要求する",
+   "pos": "verb",
+   "read": "ようきゅうする",
+   "ko": "제안하다",
+   "en": "propose",
+   "ex": {
+    "t": "委員会は即時の点検を要求しました。",
+    "read": "いいんかいはそくじのてんけんをようきゅうしました。",
+    "ko": "나는 회의를 연기할 것을 제안합니다.",
+    "en": "I propose that the meeting be postponed."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "必須の",
+   "pos": "verb",
+   "read": "ひっすの",
+   "ko": "요구하다",
+   "en": "stipulate",
+   "ex": {
+    "t": "全員の参加が必須です。",
+    "read": "ぜんいんのさんかがひっすです。",
+    "ko": "계약은 기한 내 납품을 요구합니다.",
+    "en": "The contract stipulates that delivery be made on time."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "〜にとどめる",
+   "pos": "adj",
+   "read": "〜にとどめる",
+   "ko": "필수적인",
+   "en": "imperative",
+   "ex": {
+    "t": "結果が期待に届かなかったと言うにとどめます。",
+    "read": "けっかがきたいにとどかなかったというにとどめます。",
+    "ko": "속도를 줄이는 것이 필수적이에요.",
+    "en": "It is imperative that we reduce speed."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "〜ないように",
+   "pos": "phrase",
+   "read": "〜ないように",
+   "ko": "~이라고 말해 두자",
+   "en": "suffice it to say",
+   "ex": {
+    "t": "同じ事故が起きないように、規則を守ってください。",
+    "read": "おなじじこがおきないように、きそくをまもってください。",
+    "ko": "결과가 좋지 않았다고만 말해 두죠.",
+    "en": "Suffice it to say the results were disappointing."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "義務",
+   "pos": "phrase",
+   "read": "ぎむ",
+   "ko": "~할 필요가 있다",
+   "en": "be advisable that",
+   "ex": {
+    "t": "安全点検を受けるのは全部署の義務です。",
+    "read": "あんぜんてんけんをうけるのはぜんぶしょのぎむです。",
+    "ko": "미리 예약하는 것이 바람직해요.",
+    "en": "It is advisable that you book in advance."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "やむを得ず",
+   "pos": "noun",
+   "read": "やむをえず",
+   "ko": "의무",
+   "en": "obligation",
+   "ex": {
+    "t": "やむを得ず日程を変更しました。",
+    "read": "やむをえずにっていをへんこうしました。",
+    "ko": "그들은 법적 의무가 있어요.",
+    "en": "They have a legal obligation."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "強く求める",
+   "pos": "phrase",
+   "read": "つよくもとめる",
+   "ko": "부득이하게",
+   "en": "of necessity",
+   "ex": {
+    "t": "市民は説明を強く求めています。",
+    "read": "しみんはせつめいをつよくもとめています。",
+    "ko": "그는 부득이하게 결정을 내려야 했어요.",
+    "en": "He had to decide of necessity."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "例外なく",
+   "pos": "verb",
+   "read": "れいがいなく",
+   "ko": "강력히 요구하다",
+   "en": "insist",
+   "ex": {
+    "t": "例外なく、全員がこの規則に従います。",
+    "read": "れいがいなく、ぜんいんがこのきそくにしたがいます。",
+    "ko": "그녀는 그가 사과해야 한다고 강력히 요구했어요.",
+    "en": "She insisted that he apologise."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "〜べきである",
+   "pos": "phrase",
+   "read": "〜べきである",
+   "ko": "예외 없이",
+   "en": "without exception",
+   "ex": {
+    "t": "手続きは簡潔であるべきです。",
+    "read": "てつづきはかんけつであるべきです。",
+    "ko": "예외 없이 모두 참석해야 해요.",
+    "en": "Everyone must attend without exception."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜ないように／〜ことを提案する／〜ことを求める／〜にとどめる／〜ば",
+   "en": "Formal proposals and demands: 〜ないように / 〜ことを提案する / 〜ことを求める / 〜にとどめる / 〜ば"
+  },
+  "explain": {
+   "ko": "改まった文章では、提案・要求・必要を表す動詞の前に「〜ことを」を使います：「会議を延期することを提案します。」目的は「〜ないように」で表します：「ミスをしないように注意しました。」多くを語らないときは「〜と言うにとどめる」、義務は「〜なければならない」、例外がないときは「例外なく」を使います。法律、公文書、学術文でよく見られます。",
+   "en": "Formal Japanese uses 「〜ことを」 before verbs of proposing, demanding or needing: 「会議を延期することを提案します。」 Purpose: 「〜ないように」: 「ミスをしないように注意しました。」 To say no more than necessary: 「〜と言うにとどめる」. Obligation: 「〜なければならない」; no exceptions: 「例外なく」. Common in legal, official and academic writing."
+  },
+  "table": {
+   "head": [
+    "機能 / Function",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "提案 / Proposal",
+     "〜ことを提案する",
+     "延期することを提案します。"
+    ],
+    [
+     "要求 / Demand",
+     "〜ことを求める",
+     "点検を求めます。"
+    ],
+    [
+     "目的 / Purpose",
+     "〜ないように",
+     "繰り返さないように。"
+    ],
+    [
+     "控えめ / Restraint",
+     "〜と言うにとどめる",
+     "残念だったと言うにとどめます。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「〜ことを」は提案・要求の動詞の前に来ます。",
+    "en": "「〜ことを」 precedes proposal and demand verbs."
+   },
+   {
+    "ko": "「〜ないように」は防止の目的を表します。",
+    "en": "「〜ないように」 marks prevention."
+   },
+   {
+    "ko": "公文書では「です・ます」より「だ・である」も使います。",
+    "en": "Official documents may use 「だ・である」 as well."
+   }
+  ],
+  "examples": [
+   {
+    "t": "ミスをしないように、注意しました。",
+    "read": "ミスをしないように、ちゅういしました。",
+    "ko": "그는 실수하지 않도록 아주 조심했어요.",
+    "en": "He took great care lest he make a mistake."
+   },
+   {
+    "t": "私は会議を延期することを提案します。",
+    "read": "わたしはかいぎをえんきすることをていあんします。",
+    "ko": "나는 회의를 연기할 것을 제안합니다.",
+    "en": "I propose that the meeting be postponed."
+   },
+   {
+    "t": "結果は残念だったと言うにとどめます。",
+    "read": "けっかはざんねんだったというにとどめます。",
+    "ko": "그들이 사과해야 한다고 강력히 요구했어요.",
+    "en": "They insisted that he apologise."
+   },
+   {
+    "t": "全部署は例外なく点検を受けなければなりません。",
+    "read": "ぜんぶしょはれいがいなくてんけんをうけなければなりません。",
+    "ko": "결과가 실망스러웠다고만 말해 둡시다.",
+    "en": "Suffice it to say the outcome was disappointing."
+   },
+   {
+    "t": "同じ事故が起きないように、規則を守ってください。",
+    "read": "おなじじこがおきないように、きそくをまもってください。",
+    "ko": "필요하다면 우리가 모두 협력하는 것이 필수적이에요.",
+    "en": "It is imperative that we all cooperate if necessary."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "ミスを___ように注意しました。",
+    "options": [
+     "しない",
+     "した",
+     "する"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "会議を延期する___を提案します。",
+    "options": [
+     "こと",
+     "もの",
+     "ところ"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "結果は残念だったと言う___とどめます。",
+    "options": [
+     "に",
+     "を",
+     "が"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "全部署は___なく点検を受けなければなりません。",
+    "options": [
+     "例外",
+     "条件",
+     "予定"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "会議についてどのように提案しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 회의를 어떻게 하자고 제안하시겠습니까?",
+     "en": "(Question) What would you propose for the meeting?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "会議を来週に延期することを提案します。",
+       "会議はもう終わりました。",
+       "昼ご飯を食べました。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "彼はなぜあんなに注意したのですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그가 왜 그렇게 조심했나요?",
+     "en": "(Question) Why was he so careful?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "同じミスが起きないように、注意したのです。",
+       "天気がよかったです。",
+       "彼は知りませんでした。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "委員会は何を求めたのですか。"
+      },
+      {
+       "s": "B",
+       "t": "即時に点検を実施することを求めました。"
+      },
+      {
+       "s": "A",
+       "t": "反対した人はいなかったの？"
+      },
+      {
+       "s": "B",
+       "t": "問題が繰り返されないように、全員が賛成しました。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 위원회는 어떻게 하라고 요구했나요?\nB: 즉시 점검을 시행하라고 요구했어요.\nA: 아무도 반대하지 않았나요?\nB: 문제가 반복되지 않도록 모두 동의했어요.",
+     "en": "A: What did the committee demand?\nB: It insisted that an inspection be carried out immediately.\nA: Did nobody object?\nB: Everyone agreed, lest the problem recur."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "委員会は何を求めましたか。",
+      "options": [
+       "即時に点検を実施すること",
+       "会議を中止すること",
+       "社員を減らすこと"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "改まった表現では、提案・要求・必要を表す動詞の前に「〜ことを」を使います。目的は「〜ないように」で表します。これらの構文は、法律や公文書、学術的な文章でよく使われます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "격식 있는 영어는 제안, 요구, 필요를 나타내는 동사 뒤에서 that절에 동사원형을 씁니다. 이것을 가정법 현재라고 합니다. 또한 lest 뒤에는 should가 있거나 동사원형이 옵니다. 이런 구문은 법률, 공문, 학술 글에서 흔합니다.",
+     "en": "Formal English uses the base form in that-clauses after verbs of proposing, demanding and necessity. This is the present subjunctive. After lest, either should or the base form follows. Such structures are common in legal, official and academic writing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この表現はどこでよく使われますか。",
+      "options": [
+       "法律や公文書、学術的な文章",
+       "友だちとのメッセージ",
+       "歌の歌詞"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "議題をご説明します。会議の延期を提案します。"
+      },
+      {
+       "s": "B",
+       "t": "理由は何ですか。"
+      },
+      {
+       "s": "A",
+       "t": "資料がまだ十分ではありません。"
+      },
+      {
+       "s": "B",
+       "t": "それなら、延期するのが望ましいですね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "의장: 안건을 말씀드립니다. 회의 연기를 제안합니다.\n위원: 이유가 무엇입니까?\n의장: 자료가 아직 충분하지 않습니다.\n위원: 그렇다면 연기하는 것이 바람직합니다.",
+     "en": "Chair: I will state the item. I propose that the meeting be postponed.\nMember: What is the reason?\nChair: The material is not yet sufficient.\nMember: Then it is advisable that it be postponed."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "議長は会議の______を提案します",
+      "answers": [
+       "延期"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "資料がまだ______ではないと言います",
+      "answers": [
+       "十分"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ミスを___ように注意しました。\n2) 会議を延期する___を提案します。\n3) 結果は残念だったと言う___とどめます。",
+    "trans": {
+     "ko": "1) 그는 실수하지 않도록 조심했어요. 2) 나는 회의를 연기할 것을 제안합니다. 3) 결과가 실망스러웠다고만 말해 둡시다.",
+     "en": "1) He took care lest he make a mistake. 2) I propose that the meeting be postponed. 3) Suffice it to say the results were disappointing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ミスを___ように注意しました。",
+      "options": [
+       "しない",
+       "した",
+       "する"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "会議を延期する___を提案します。",
+      "options": [
+       "こと",
+       "もの",
+       "ところ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "結果は残念だったと言う___とどめます。",
+      "options": [
+       "に",
+       "を",
+       "が"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "委員会は、全社が(1)なく規則に従うことを求めました。速度を落とすことが(2)だと強調しました。結果が良くなかったと言う(3)とどめます。",
+    "trans": {
+     "ko": "위원회는 모든 회사가 예외 없이 규정을 따를 것을 요구했다. 속도를 줄이는 것이 필수적이라고 강조했다. 결과가 좋지 않았다고만 말해 두겠다.",
+     "en": "The committee insisted that all companies follow the rules without exception. It stressed that it is imperative that speed be reduced. Suffice it to say the results were not good."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "例外",
+       "条件",
+       "予定"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "必須",
+       "自由",
+       "一時的"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "に",
+       "を",
+       "が"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "通知\n安全点検のお知らせ\n最近の事故が繰り返されないように、全部署は点検を受けなければなりません。点検は例外なく今月中に完了させます。雨の場合は、日程を延期します。",
+    "trans": {
+     "ko": "공문\n안전 점검 안내\n최근 사고가 반복되지 않도록 모든 부서는 점검을 받아야 합니다. 점검은 예외 없이 이번 달 안에 완료되어야 합니다. 비가 올 경우, 일정은 연기될 것입니다.",
+     "en": "NOTICE\nSafety inspection guidance\nTo ensure recent accidents do not recur, all departments must undergo inspection. The inspection must be completed this month without exception. Should it rain, the schedule will be postponed."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "点検はいつまでに終わらせますか。",
+      "options": [
+       "今月中",
+       "来年",
+       "明日の朝"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "雨の場合はどうなりますか。",
+      "options": [
+       "日程が延期される",
+       "点検が中止される",
+       "予定どおり行われる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "通知によると、全部署が安全点検を受けなければなりません。雨が降った場合は、日程が延期されます。",
+    "trans": {
+     "ko": "공문은 모든 부서가 점검을 받아야 한다고 한다. 일부 부서는 점검에서 제외된다. 비가 오면 일정이 연기된다.",
+     "en": "The notice says all departments must be inspected. Some departments are exempt. If it rains, the schedule is postponed."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "通知は全部署が点検を受けるよう求めている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "一部の部署は点検を受けなくてもよい。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "点検は外部の会社が行う。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "会議を来週に延期することを提案します。",
+    "read": "かいぎをらいしゅうにえんきすることをていあんします。",
+    "ko": "의장은 회의를 연기해야 한다고 제안했습니다.",
+    "en": "The chair proposed that the meeting be postponed.",
+    "situation": {
+     "ko": "공식 제안을 할 때",
+     "en": "A formal proposal"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "同じミスが起きないように、注意しました。",
+    "read": "おなじミスがおきないように、ちゅういしました。",
+    "ko": "그녀는 사실이 아닌 것을 말하지 않도록 조심했습니다.",
+    "en": "She took care lest she say anything untrue.",
+    "situation": {
+     "ko": "lest로 걱정을 나타낼 때",
+     "en": "Expressing concern with lest"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "結果は残念だったと言うにとどめます。",
+    "read": "けっかはざんねんだったというにとどめます。",
+    "ko": "계약은 납품이 기한 내에 이루어져야 한다고 명시합니다.",
+    "en": "The contract stipulates that delivery be made within the deadline.",
+    "situation": {
+     "ko": "계약 조건을 말할 때",
+     "en": "Stating contract terms"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "委員会は即時の点検を要求しています。",
+    "read": "いいんかいはそくじのてんけんをようきゅうしています。",
+    "ko": "속도를 줄이는 것이 필수적입니다.",
+    "en": "It is imperative that speed be reduced.",
+    "situation": {
+     "ko": "절박함을 나타낼 때",
+     "en": "Expressing urgency"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "全員の参加が必須です。",
+    "read": "ぜんいんのさんかがひっすです。",
+    "ko": "결과가 기대에 못 미쳤다고만 말씀드리겠습니다.",
+    "en": "Suffice it to say the result fell short of expectations.",
+    "situation": {
+     "ko": "세부 설명을 생략할 때",
+     "en": "Skipping detail tactfully"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "例外なく、規則に従ってください。",
+    "read": "れいがいなく、きそくにしたがってください。",
+    "ko": "그가 지금 알았더라면 달리 행동했을 것입니다.",
+    "en": "Were he to know now, he would act differently.",
+    "situation": {
+     "ko": "가정법 도치",
+     "en": "Inverted hypothetical"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "雨が降る場合は、行事を屋内に移します。",
+    "read": "あめがふるばあいは、ぎょうじをおくないにうつします。",
+    "ko": "비가 온다면 행사는 실내로 옮겨질 것입니다.",
+    "en": "Should it rain, the event will be moved indoors.",
+    "situation": {
+     "ko": "should 도치 조건문",
+     "en": "Should-inversion"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "手続きは簡潔であるべきです。",
+    "read": "てつづきはかんけつであるべきです。",
+    "ko": "모든 직원은 예외 없이 규정을 따라야 합니다.",
+    "en": "All staff must follow the rules without exception.",
+    "situation": {
+     "ko": "예외 없는 의무를 말할 때",
+     "en": "A rule with no exceptions"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜ないように。",
+    "read": "〜ないように。",
+    "ko": "~하지 않도록.",
+    "en": "lest + subject + (should) + base verb"
+   },
+   {
+    "id": "w2",
+    "t": "〜ことを提案する／求める。",
+    "read": "〜ことをていあんする／もとめる。",
+    "ko": "~할 것을 제안/요구하다.",
+    "en": "propose/insist/demand that + base verb"
+   },
+   {
+    "id": "w3",
+    "t": "〜と言うにとどめる。",
+    "read": "〜というにとどめる。",
+    "ko": "~이라고만 해 두자.",
+    "en": "Suffice it to say (that) ..."
+   },
+   {
+    "id": "w4",
+    "t": "〜ば〜（改まった）。",
+    "read": "〜ば〜（あらたまった）。",
+    "ko": "~라면 (격식).",
+    "en": "Were ... to ..., ... / Should ..., ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "lest, were it to, suffice it to say를 사용해 격식 있는 공지문 4문장을 써 보세요.",
+    "en": "Write four sentences of a formal notice using lest, were it to and suffice it to say."
+   },
+   "must_include": [
+    {
+     "label": "ないように",
+     "match": [
+      "繰り返されないように"
+     ]
+    },
+    {
+     "label": "にとどめる",
+     "match": [
+      "言うにとどめます"
+     ]
+    },
+    {
+     "label": "ことを",
+     "match": [
+      "実施することを"
+     ]
+    }
+   ],
+   "model": "今回の事故が繰り返されないように、全社員は規則を守らなければなりません。調査結果が期待に届かなかったと言うにとどめます。委員会は安全点検を即時に実施することを求めます。雨が降れば、行事は屋内に移します。",
+   "model_trans": {
+    "ko": "이번 사고가 반복되지 않도록 모든 직원은 규정을 지켜야 합니다. 조사 결과가 기대에 못 미쳤다고만 말씀드리겠습니다. 위원회는 안전 점검을 즉시 시행할 것을 요구합니다. 비가 온다면 행사는 실내로 옮겨질 것입니다.",
+    "en": "All staff must follow the rules, lest this accident recur. Suffice it to say the investigation results fell short of expectations. The committee insists that a safety inspection be carried out immediately. Should it rain, the event will be moved indoors."
+   }
+  }
+ }
+}

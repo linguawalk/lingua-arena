@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u11",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 11,
+  "concept": "C2.U11",
+  "status": "live",
+  "title": {
+   "target": "自然な連語（コロケーション）",
+   "ko": "강한 연어와 기능 동사",
+   "en": "Strong collocations and delexical verbs"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "苦い失望",
+   "pos": "phrase",
+   "read": "にがいしつぼう",
+   "ko": "쓰라린 실망",
+   "en": "bitter disappointment",
+   "ex": {
+    "t": "彼らは苦い失望を味わいました。",
+    "read": "かれらはにがいしつぼうをあじわいました。",
+    "ko": "결과는 쓰라린 실망을 안겼어요.",
+    "en": "The result brought bitter disappointment."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "激しい議論",
+   "pos": "phrase",
+   "read": "はげしいぎろん",
+   "ko": "열띤 논쟁",
+   "en": "heated debate",
+   "ex": {
+    "t": "予算をめぐって激しい議論が起こりました。",
+    "read": "よさんをめぐってはげしいぎろんがおこりました。",
+    "ko": "예산을 두고 열띤 논쟁이 벌어졌어요.",
+    "en": "There was a heated debate over the budget."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "心から賛成する",
+   "pos": "phrase",
+   "read": "こころからさんせいする",
+   "ko": "진심으로 동의하다",
+   "en": "wholeheartedly agree",
+   "ex": {
+    "t": "私はその提案に心から賛成します。",
+    "read": "わたしはそのていあんにこころからさんせいします。",
+    "ko": "나는 그 의견에 진심으로 동의해요.",
+    "en": "I wholeheartedly agree with that view."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "決断を下す",
+   "pos": "phrase",
+   "read": "けつだんをくだす",
+   "ko": "결정을 내리다",
+   "en": "reach a decision",
+   "ex": {
+    "t": "委員会はついに決断を下しました。",
+    "read": "いいんかいはついにけつだんをくだしました。",
+    "ko": "위원회는 마침내 결정을 내렸어요.",
+    "en": "The committee finally reached a decision."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "大いに助ける",
+   "pos": "phrase",
+   "read": "おおいにたすける",
+   "ko": "큰 도움을 주다",
+   "en": "render assistance",
+   "ex": {
+    "t": "彼の助言は私を大いに助けてくれました。",
+    "read": "かれのじょげんはわたしをおおいにたすけてくれました。",
+    "ko": "그는 어려운 시기에 큰 도움을 주었어요.",
+    "en": "He rendered great assistance in difficult times."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "危険を冒す",
+   "pos": "phrase",
+   "read": "きけんをおかす",
+   "ko": "위험을 무릅쓰다",
+   "en": "run a risk",
+   "ex": {
+    "t": "彼は危険を冒して川を渡りました。",
+    "read": "かれはきけんをおかしてかわをわたりました。",
+    "ko": "그렇게 하면 큰 위험을 감수하게 돼요.",
+    "en": "Doing so runs a considerable risk."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "深い印象を残す",
+   "pos": "phrase",
+   "read": "ふかいいんしょうをのこす",
+   "ko": "깊은 인상을 주다",
+   "en": "make a lasting impression",
+   "ex": {
+    "t": "その映画は観客に深い印象を残しました。",
+    "read": "そのえいがはかんきゃくにふかいいんしょうをのこしました。",
+    "ko": "그녀는 면접관에게 깊은 인상을 남겼어요.",
+    "en": "She made a lasting impression on the interviewers."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "強く主張する",
+   "pos": "phrase",
+   "read": "つよくしゅちょうする",
+   "ko": "강력히 주장하다",
+   "en": "argue forcefully",
+   "ex": {
+    "t": "議員は改革が必要だと強く主張しました。",
+    "read": "ぎいんはかいかくがひつようだとつよくしゅちょうしました。",
+    "ko": "그는 개혁이 필요하다고 강력히 주장했어요.",
+    "en": "He argued forcefully that reform was needed."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "重大な欠陥",
+   "pos": "phrase",
+   "read": "じゅうだいなけっかん",
+   "ko": "심각한 결점",
+   "en": "serious flaw",
+   "ex": {
+    "t": "その計画には重大な欠陥があります。",
+    "read": "そのけいかくにはじゅうだいなけっかんがあります。",
+    "ko": "그 설계에는 심각한 결점이 있어요.",
+    "en": "There is a serious flaw in the design."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "基本原則",
+   "pos": "phrase",
+   "read": "きほんげんそく",
+   "ko": "기본 원칙",
+   "en": "guiding principle",
+   "ex": {
+    "t": "公平は私たちの基本原則です。",
+    "read": "こうへいはわたしたちのきほんげんそくです。",
+    "ko": "신뢰가 우리의 기본 원칙이에요.",
+    "en": "Trust is our guiding principle."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "激しい議論／苦い失望／決断を下す／心から賛成する／深い印象を残す",
+   "en": "Collocations: 激しい議論 / 苦い失望 / 決断を下す / 心から賛成する / 深い印象を残す"
+  },
+  "explain": {
+   "ko": "流暢な日本語は、言葉の自然な組み合わせから生まれます。「議論」には「激しい」、「失望」には「苦い」、「決断」には「下す」、「賛成」には「心から」、「印象」には「深い〜を残す」が合います。組み合わせが合わないと、文法は正しくても不自然に聞こえます。新しい言葉は、相性のよい言葉と一緒に覚えましょう。",
+   "en": "Fluent Japanese comes from pairing words naturally: 「激しい議論」(heated debate), 「苦い失望」(bitter disappointment), 「決断を下す」(reach a decision), 「心から賛成する」(fully agree), 「深い印象を残す」(leave a deep impression). A wrong pairing sounds odd even if grammatical. Learn new words with their partners."
+  },
+  "table": {
+   "head": [
+    "名詞 / Noun",
+    "相性のよい語 / Partner",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "議論",
+     "激しい",
+     "激しい議論が起こった。"
+    ],
+    [
+     "失望",
+     "苦い",
+     "苦い失望を味わった。"
+    ],
+    [
+     "決断",
+     "下す",
+     "決断を下した。"
+    ],
+    [
+     "印象",
+     "深い〜を残す",
+     "深い印象を残した。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "「決断」には「する」より「下す」が自然です。",
+    "en": "「下す」 sounds more natural than 「する」 with 決断."
+   },
+   {
+    "ko": "「賛成」には「心から」を付けて強めます。",
+    "en": "Add 「心から」 to stress agreement."
+   },
+   {
+    "ko": "組み合わせは辞書の例文で確かめましょう。",
+    "en": "Check pairs in dictionary examples."
+   }
+  ],
+  "examples": [
+   {
+    "t": "予算をめぐって激しい議論が起こりました。",
+    "read": "よさんをめぐってはげしいぎろんがおこりました。",
+    "ko": "그들은 결과에 쓰라린 실망을 느꼈어요.",
+    "en": "They felt bitter disappointment at the outcome."
+   },
+   {
+    "t": "彼らは苦い失望を味わいました。",
+    "read": "かれらはにがいしつぼうをあじわいました。",
+    "ko": "예산을 두고 열띤 논쟁이 벌어졌어요.",
+    "en": "A heated debate broke out over the budget."
+   },
+   {
+    "t": "委員会はついに決断を下しました。",
+    "read": "いいんかいはついにけつだんをくだしました。",
+    "ko": "나는 당신의 의견에 진심으로 동의해요.",
+    "en": "I wholeheartedly agree with your view."
+   },
+   {
+    "t": "私はその提案に心から賛成します。",
+    "read": "わたしはそのていあんにこころからさんせいします。",
+    "ko": "위원회는 오랜 논의 끝에 결정을 내렸어요.",
+    "en": "After lengthy discussion, the committee reached a decision."
+   },
+   {
+    "t": "その映画は観客に深い印象を残しました。",
+    "read": "そのえいがはかんきゃくにふかいいんしょうをのこしました。",
+    "ko": "그 연설은 청중에게 깊은 인상을 남겼어요.",
+    "en": "The speech made a lasting impression on the audience."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "予算をめぐって___議論が起こりました。",
+    "options": [
+     "激しい",
+     "冷たい",
+     "小さい"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "彼らは___失望を味わいました。",
+    "options": [
+     "苦い",
+     "甘い",
+     "軽い"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "委員会は決断を___ました。",
+    "options": [
+     "下し",
+     "食べ",
+     "言い"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "私は___賛成します。",
+    "options": [
+     "心から",
+     "やっと",
+     "静かに"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "会議の雰囲気はどうでしたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 회의 분위기는 어땠나요?",
+     "en": "(Question) What was the atmosphere at the meeting?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "激しい議論になりました。",
+       "とても静かでした。",
+       "会議はありませんでした。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "その提案に賛成ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그 제안에 동의하세요?",
+     "en": "(Question) Do you agree with the proposal?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "はい、心から賛成します。",
+       "いいえ、雨でした。",
+       "わかりません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日の予算会議はどうだった？"
+      },
+      {
+       "s": "B",
+       "t": "激しい議論になったよ。でも結局、決断を下した。"
+      },
+      {
+       "s": "A",
+       "t": "結果には満足してる？"
+      },
+      {
+       "s": "B",
+       "t": "心から賛成してる。苦い失望は避けられたからね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 예산 회의는 어땠어?\nB: 열띤 논쟁이 벌어졌어. 하지만 결국 결정을 내렸어.\nA: 결과에 만족해?\nB: 진심으로 동의해. 쓰라린 실망은 피했으니까.",
+     "en": "A: How was yesterday's budget meeting?\nB: There was a heated debate, but in the end they reached a decision.\nA: Are you happy with the result?\nB: I wholeheartedly agree. We avoided bitter disappointment."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bはなぜ満足していると言いましたか。",
+      "options": [
+       "苦い失望を避けられたから",
+       "予算が増えたから",
+       "会議が短かったから"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "流暢な日本語は、言葉を自然に組み合わせることから生まれます。たとえば、「激しい議論」や「決断を下す」のような組み合わせです。相性の合わない言葉を使うと、文法は正しくても不自然に聞こえます。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "유창한 영어는 단어를 자연스럽게 짝지어 쓰는 데서 나옵니다. 예를 들어 열띤 논쟁은 heated debate이고, 결정을 내리다는 reach a decision입니다. 짝이 맞지 않는 표현은 문법적으로 옳아도 어색하게 들립니다.",
+     "en": "Fluent English comes from pairing words naturally. For example, a heated debate is a heated debate, and making a decision is reach a decision. Pairings that do not match sound awkward even if they are grammatical."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "相性の合わない言葉を使うとどう聞こえますか。",
+      "options": [
+       "文法は正しくても不自然に聞こえる",
+       "より正確に聞こえる",
+       "より丁寧に聞こえる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "最も印象に残った経験は何ですか。"
+      },
+      {
+       "s": "B",
+       "t": "激しい議論の末に、チームが決断を下したときです。"
+      },
+      {
+       "s": "A",
+       "t": "その経験はどうでしたか。"
+      },
+      {
+       "s": "B",
+       "t": "お互いを尊重することを学んだ、深い印象を残す経験でした。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "면접관: 가장 인상 깊었던 경험은 무엇인가요?\n지원자: 열띤 논쟁 끝에 팀이 결정을 내렸던 때입니다.\n면접관: 그 경험이 어땠나요?\n지원자: 서로를 존중하는 법을 배운 깊은 인상을 남겼습니다.",
+     "en": "Interviewer: What was your most memorable experience?\nCandidate: When the team reached a decision after a heated debate.\nInterviewer: What was that experience like?\nCandidate: It made a lasting impression on me about respecting one another."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "応募者は激しい議論の末にチームが______を下したときだと言います",
+      "answers": [
+       "決断"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "お互いを______ことを学んだと言います",
+      "answers": [
+       "尊重する"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 彼らは___失望を味わいました。\n2) 予算をめぐって___議論が起こりました。\n3) 私は___賛成します。",
+    "trans": {
+     "ko": "1) 그들은 쓰라린 실망을 느꼈어요. 2) 예산을 두고 열띤 논쟁이 벌어졌어요. 3) 나는 진심으로 동의해요.",
+     "en": "1) They felt bitter disappointment. 2) A heated debate broke out over the budget. 3) I wholeheartedly agree."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "彼らは___失望を味わいました。",
+      "options": [
+       "苦い",
+       "甘い",
+       "軽い"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "予算をめぐって___議論が起こりました。",
+      "options": [
+       "激しい",
+       "冷たい",
+       "小さい"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "私は___賛成します。",
+      "options": [
+       "心から",
+       "やっと",
+       "静かに"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "その政策をめぐって(1)議論が起こりました。ある議員は、改革が必要だと(2)主張しました。委員会はついに決断を(3)、多くの人が心から賛成しました。",
+    "trans": {
+     "ko": "그 정책을 두고 열띤 논쟁이 벌어졌다. 한 의원은 개혁이 필요하다고 강력히 주장했다. 위원회는 마침내 결정을 내렸고, 많은 이들이 그 결정에 진심으로 동의했다.",
+     "en": "A heated debate broke out over the policy. One legislator argued forcefully that reform was needed. The committee finally reached a decision, and many wholeheartedly agreed with it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "激しい",
+       "冷たい",
+       "小さい"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "強く",
+       "軽く",
+       "こっそり"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "下し",
+       "食べ",
+       "言い"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "レビュー\n新作映画\nこの映画は観客に深い印象を残す。演出は緻密だが、結末は苦い失望を与えた。それでも、主演俳優の演技は強くおすすめできる。",
+    "trans": {
+     "ko": "리뷰\n신작 영화\n이 영화는 관객에게 깊은 인상을 남긴다. 연출은 정교하지만 결말은 쓰라린 실망을 안겼다. 그럼에도 주연 배우의 연기는 강력히 추천할 만하다.",
+     "en": "REVIEW\nNew film\nThis film makes a lasting impression on audiences. The direction is sophisticated, but the ending brought bitter disappointment. Even so, the lead actor's performance is highly commendable."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "映画は観客に何を残しますか。",
+      "options": [
+       "深い印象",
+       "苦い失望",
+       "長い会話"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "強くおすすめできるものは何ですか。",
+      "options": [
+       "主演俳優の演技",
+       "結末",
+       "音楽"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "レビューは、この映画が観客に深い印象を残すと見ています。結末には失望しましたが、主演の演技はおすすめだと述べています。",
+    "trans": {
+     "ko": "리뷰는 영화가 관객에게 깊은 인상을 남긴다고 본다. 리뷰는 결말을 매우 훌륭하다고 본다. 리뷰는 주연의 연기를 추천할 만하다고 본다.",
+     "en": "The review says the film makes a lasting impression. The review thinks the ending is excellent. The review finds the lead actor's performance commendable."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "レビューは映画が深い印象を残すと見ている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "レビューは結末をとても素晴らしいと見ている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "レビューは映画が来月公開されると述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "激しい議論になりました。",
+    "read": "はげしいぎろんになりました。",
+    "ko": "이번 결과는 우리에게 쓰라린 실망을 안겼습니다.",
+    "en": "The result brought us bitter disappointment.",
+    "situation": {
+     "ko": "감정을 강하게 말할 때",
+     "en": "Stating strong feelings"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "はい、心から賛成します。",
+    "read": "はい、こころからさんせいします。",
+    "ko": "정책을 둘러싸고 열띤 논쟁이 이어졌습니다.",
+    "en": "A heated debate over the policy continued.",
+    "situation": {
+     "ko": "격한 논의를 묘사할 때",
+     "en": "Describing fierce discussion"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "委員会はついに決断を下しました。",
+    "read": "いいんかいはついにけつだんをくだしました。",
+    "ko": "저는 그 제안에 진심으로 동의합니다.",
+    "en": "I wholeheartedly agree with the proposal.",
+    "situation": {
+     "ko": "강한 동의를 표할 때",
+     "en": "Strong agreement"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "その映画は深い印象を残しました。",
+    "read": "そのえいがはふかいいんしょうをのこしました。",
+    "ko": "위원회는 오랜 숙고 끝에 결정을 내렸습니다.",
+    "en": "After careful deliberation, the committee reached a decision.",
+    "situation": {
+     "ko": "결정의 과정을 말할 때",
+     "en": "Describing a decision process"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "苦い失望を味わいました。",
+    "read": "にがいしつぼうをあじわいました。",
+    "ko": "그의 첫 발표는 청중에게 깊은 인상을 남겼습니다.",
+    "en": "His first presentation made a lasting impression on the audience.",
+    "situation": {
+     "ko": "인상을 말할 때",
+     "en": "Describing an impression"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "議員は改革が必要だと強く主張しました。",
+    "read": "ぎいんはかいかくがひつようだとつよくしゅちょうしました。",
+    "ko": "그 설계에는 심각한 결점이 있었습니다.",
+    "en": "There was a serious flaw in the design.",
+    "situation": {
+     "ko": "문제를 지적할 때",
+     "en": "Pointing out a problem"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "彼の助言は大いに助けになりました。",
+    "read": "かれのじょげんはおおいにたすけになりました。",
+    "ko": "그 단체는 어려운 시기에 큰 도움을 주었습니다.",
+    "en": "The group rendered great assistance in difficult times.",
+    "situation": {
+     "ko": "도움을 격식 있게 말할 때",
+     "en": "Formal reference to help"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "公平は私たちの基本原則です。",
+    "read": "こうへいはわたしたちのきほんげんそくです。",
+    "ko": "신뢰가 우리 조직의 기본 원칙입니다.",
+    "en": "Trust is the guiding principle of our organisation.",
+    "situation": {
+     "ko": "원칙을 선언할 때",
+     "en": "Declaring a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "激しい議論。",
+    "read": "はげしいぎろん。",
+    "ko": "쓰라린 실망/열띤 논쟁.",
+    "en": "bitter disappointment / heated debate"
+   },
+   {
+    "id": "w2",
+    "t": "心から賛成する。",
+    "read": "こころからさんせいする。",
+    "ko": "진심으로 동의하다.",
+    "en": "wholeheartedly agree"
+   },
+   {
+    "id": "w3",
+    "t": "決断を下す。",
+    "read": "けつだんをくだす。",
+    "ko": "결정을 내리다.",
+    "en": "reach / come to / make a decision"
+   },
+   {
+    "id": "w4",
+    "t": "深い印象を残す。",
+    "read": "ふかいいんしょうをのこす。",
+    "ko": "깊은 인상을 남기다.",
+    "en": "make a lasting impression"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "강한 연어(bitter disappointment, heated debate, reach a decision 등)를 사용해 한 사건을 4문장으로 써 보세요.",
+    "en": "Write four sentences about an event using strong collocations (bitter disappointment, heated debate, reach a decision, etc.)."
+   },
+   "must_include": [
+    {
+     "label": "激しい議論",
+     "match": [
+      "激しい議論が起こりました"
+     ]
+    },
+    {
+     "label": "決断を下す",
+     "match": [
+      "決断を下しました"
+     ]
+    },
+    {
+     "label": "心から賛成する",
+     "match": [
+      "心から賛成しました"
+     ]
+    }
+   ],
+   "model": "予算をめぐって激しい議論が起こりました。最初は意見が分かれましたが、委員会は結局、決断を下しました。私はその決断に心から賛成しました。結果的に、苦い失望は避けることができました。",
+   "model_trans": {
+    "ko": "예산을 두고 열띤 논쟁이 벌어졌어요. 처음에는 의견이 갈렸지만 위원회는 결국 결정을 내렸어요. 저는 그 결정에 진심으로 동의했어요. 결과적으로 쓰라린 실망은 피할 수 있었어요.",
+    "en": "A heated debate broke out over the budget. Opinions were divided at first, but the committee eventually reached a decision. I wholeheartedly agreed with that decision. As a result, bitter disappointment was avoided."
+   }
+  }
+ }
+}

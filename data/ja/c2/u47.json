@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u47",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 47,
+  "concept": "C2.U47",
+  "status": "live",
+  "title": {
+   "target": "翻訳の限界と等価",
+   "ko": "번역과 번역 불가능한 뉘앙스",
+   "en": "Translation and untranslatable nuance"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "直訳",
+   "pos": "noun",
+   "read": "ちょくやく",
+   "ko": "대응어",
+   "en": "equivalent",
+   "ex": {
+    "t": "直訳は不自然になることがあります。",
+    "read": "ちょくやくはふしぜんになることがあります。",
+    "ko": "한 단어로 된 대응어가 없어요.",
+    "en": "There is no one-word equivalent."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "意訳",
+   "pos": "phrase",
+   "read": "いやく",
+   "ko": "번역 중 사라지다",
+   "en": "lost in translation",
+   "ex": {
+    "t": "意訳は意味を自然に伝えます。",
+    "read": "いやくはいみをしぜんにつたえます。",
+    "ko": "뉘앙스가 번역 중 사라졌어요.",
+    "en": "The nuance was lost in translation."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "原文に忠実な",
+   "pos": "noun",
+   "read": "げんぶんにちゅうじつな",
+   "ko": "함축 의미",
+   "en": "connotation",
+   "ex": {
+    "t": "原文に忠実な翻訳を目指します。",
+    "read": "げんぶんにちゅうじつなほんやくをめざします。",
+    "ko": "그 단어는 부정적 함축이 있어요.",
+    "en": "That word has negative connotations."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "等価",
+   "pos": "noun",
+   "read": "とうか",
+   "ko": "뉘앙스",
+   "en": "nuance",
+   "ex": {
+    "t": "完全に等価な語はありません。",
+    "read": "かんぜんにとうかなごはありません。",
+    "ko": "미묘한 뉘앙스를 놓쳤어요.",
+    "en": "I missed the subtle nuance."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "含意",
+   "pos": "verb",
+   "read": "がんい",
+   "ko": "옮기다",
+   "en": "render",
+   "ex": {
+    "t": "この語は特別な含意を持ちます。",
+    "read": "このごはとくべつながんいをもちます。",
+    "ko": "그는 시를 영어로 옮겼어요.",
+    "en": "He rendered the poem into English."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "ニュアンス",
+   "pos": "adj",
+   "read": "ニュアンス",
+   "ko": "원문에 충실한",
+   "en": "faithful",
+   "ex": {
+    "t": "ニュアンスが失われました。",
+    "read": "ニュアンスがうしなわれました。",
+    "ko": "번역은 원문에 충실해요.",
+    "en": "The translation is faithful to the original."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "訳しにくい",
+   "pos": "phrase",
+   "read": "やくしにくい",
+   "ko": "직역",
+   "en": "literal translation",
+   "ex": {
+    "t": "この語は訳しにくいです。",
+    "read": "このごはやくしにくいです。",
+    "ko": "직역은 어색하게 들려요.",
+    "en": "A literal translation sounds awkward."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "文化的背景",
+   "pos": "phrase",
+   "read": "ぶんかてきはいけい",
+   "ko": "의역",
+   "en": "free translation",
+   "ex": {
+    "t": "文化的背景を知る必要があります。",
+    "read": "ぶんかてきはいけいをしるひつようがあります。",
+    "ko": "의역이 더 자연스러워요.",
+    "en": "A free translation is more natural."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "訳す",
+   "pos": "adj",
+   "read": "やくす",
+   "ko": "번역 불가능한",
+   "en": "untranslatable",
+   "ex": {
+    "t": "原文の意味を損なわずに訳します。",
+    "read": "げんぶんのいみをそこなわずにやくします。",
+    "ko": "그 단어는 번역 불가능해요.",
+    "en": "That word is untranslatable."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "相当する",
+   "pos": "phrase",
+   "read": "そうとうする",
+   "ko": "문화적 맥락",
+   "en": "cultural context",
+   "ex": {
+    "t": "これは英語の「home」に相当します。",
+    "read": "これはえいごの「home」にそうとうします。",
+    "ko": "문화적 맥락을 고려하세요.",
+    "en": "Consider the cultural context."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "直訳／意訳／原文に忠実な／翻訳で失われる／文化的な背景／〜に相当する",
+   "en": "Translation and equivalence: 直訳 / 意訳 / 原文に忠実な / 翻訳で失われる / 文化的背景"
+  },
+  "explain": {
+   "ko": "翻訳には、原文の語順や形に近い「直訳」と、意味を自然に伝える「意訳」があります。どちらが良いかは目的によります。「わびさび」「もったいない」のように、他の言語に完全に等価な語がないことも多く、翻訳でニュアンスや含意が失われます。「〜に相当する」は、近いものを示す表現です。文化的背景を知ると、訳し方の選択肢が広がります。",
+   "en": "Translation includes 「直訳」, close to the original's order and form, and 「意訳」, which conveys meaning naturally. Which is better depends on purpose. Words like 「わびさび」「もったいない」 often have no exact equivalent, so nuance and connotation are lost. 「〜に相当する」 points to the nearest thing. Knowing cultural background widens choices."
+  },
+  "table": {
+   "head": [
+    "種類 / Type",
+    "特徴 / Feature",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "直訳",
+     "原文に近い",
+     "word-for-word。"
+    ],
+    [
+     "意訳",
+     "自然に伝える",
+     "意味重視。"
+    ],
+    [
+     "相当する",
+     "近いものを示す",
+     "「home」に相当する。"
+    ],
+    [
+     "失われる",
+     "ニュアンス",
+     "もったいない。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "目的によって直訳か意訳かを選びます。",
+    "en": "Choose by purpose."
+   },
+   {
+    "ko": "訳しにくい語は注を付けます。",
+    "en": "Add a note for untranslatable words."
+   },
+   {
+    "ko": "文化的背景を調べましょう。",
+    "en": "Research cultural background."
+   }
+  ],
+  "examples": [
+   {
+    "t": "直訳は不自然になることがあります。",
+    "read": "ちょくやくはふしぜんになることがあります。",
+    "ko": "한 단어로 된 대응어가 없어요.",
+    "en": "There is no one-word equivalent."
+   },
+   {
+    "t": "意訳は意味を自然に伝えます。",
+    "read": "いやくはいみをしぜんにつたえます。",
+    "ko": "뉘앙스가 번역 중 사라졌어요.",
+    "en": "The nuance was lost in translation."
+   },
+   {
+    "t": "完全に等価な語はありません。",
+    "read": "かんぜんにとうかなごはありません。",
+    "ko": "그 단어는 부정적 함축이 있어요.",
+    "en": "That word has negative connotations."
+   },
+   {
+    "t": "ニュアンスが翻訳で失われました。",
+    "read": "ニュアンスがほんやくでうしなわれました。",
+    "ko": "직역은 어색하게 들려요.",
+    "en": "A literal translation sounds awkward."
+   },
+   {
+    "t": "これは英語の「home」に相当します。",
+    "read": "これはえいごの「home」にそうとうします。",
+    "ko": "문화적 맥락을 고려하세요.",
+    "en": "Consider the cultural context."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___は不自然になることがあります。",
+    "options": [
+     "直訳",
+     "意訳",
+     "朗読"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___は意味を自然に伝えます。",
+    "options": [
+     "意訳",
+     "直訳",
+     "暗記"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "完全に___な語はありません。",
+    "options": [
+     "等価",
+     "高価",
+     "安価"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "ニュアンスが翻訳で___ました。",
+    "options": [
+     "失われ",
+     "増え",
+     "見え"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "直訳と意訳はどう違いますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 번역 불가능한 단어란 무엇인가요?",
+     "en": "(Question) What is an untranslatable word?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "直訳は原文に近く、意訳は意味を自然に伝えます。",
+       "二つは同じです。",
+       "どちらも間違いです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "「もったいない」は英語でどう訳せますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 직역과 의역의 차이는 무엇인가요?",
+     "en": "(Question) What is the difference between literal and free translation?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "完全に等価な語はなく、「wasteful」に近いです。",
+       "まったく訳せません。",
+       "「happy」と訳します。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "「わびさび」って英語でどう訳す？"
+      },
+      {
+       "s": "B",
+       "t": "完全に等価な語はないんだ。"
+      },
+      {
+       "s": "A",
+       "t": "じゃあどうするの？"
+      },
+      {
+       "s": "B",
+       "t": "注を付けるか、意訳するしかないね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 시는 번역하기 어렵지?\nB: 응, 뉘앙스가 번역 중에 사라지거든.\nA: 어떻게 옮기면 좋을까?\nB: 문화적 맥락을 고려해서 의역해야 해.",
+     "en": "A: Is this poem hard to translate?\nB: Yes, the nuance gets lost in translation.\nA: How should I render it?\nB: Consider the cultural context and use a free translation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは「わびさび」の翻訳についてどう言いましたか。",
+      "options": [
+       "注を付けるか意訳する",
+       "そのまま訳す",
+       "訳さない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "翻訳には、原文に近い直訳と、意味を自然に伝える意訳があります。どちらが良いかは目的によります。他の言語に完全に等価な語がない場合は、ニュアンスが失われます。文化的背景を知ると、訳し方の選択肢が広がります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "번역자는 원문에 충실함과 자연스러움 사이에서 균형을 잡아야 합니다. 직역은 원문의 구조를 살리지만 어색할 수 있고, 의역은 자연스럽지만 원문에서 멀어질 수 있습니다. 번역하기 어려운 단어는 문화적 맥락을 이해해야 제대로 옮길 수 있습니다.",
+     "en": "A translator must balance fidelity to the original with naturalness. A literal translation preserves the structure of the original but may sound awkward, while a free translation is natural but may drift from the original. Hard-to-translate words can be rendered properly only by understanding the cultural context."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "等価な語がないときに何が失われますか。",
+      "options": [
+       "ニュアンス",
+       "文字数",
+       "ページ"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この語は訳しにくいですね。"
+      },
+      {
+       "s": "B",
+       "t": "どう訳しますか。"
+      },
+      {
+       "s": "A",
+       "t": "意訳して、注を付けましょう。"
+      },
+      {
+       "s": "B",
+       "t": "いいですね。原文の意味を損ないません。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "번역가: 이 단어는 한 단어로 옮길 수 없습니다.\n편집자: 어떻게 하실 건가요?\n번역가: 주석을 달아 설명하겠습니다.\n편집자: 좋은 생각입니다.",
+     "en": "Translator: This word cannot be rendered in a single word.\nEditor: What will you do?\nTranslator: I will explain it with a note.\nEditor: That's a good idea."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "翻訳者は意訳して、______を付けようと言います",
+      "answers": [
+       "注"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "編集者は原文の意味を______ないと言います",
+      "answers": [
+       "損な"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ___は不自然になることがあります。\n2) ___は意味を自然に伝えます。\n3) 完全に___な語はありません。",
+    "trans": {
+     "ko": "1) 한 단어로 된 대응어가 없어요. 2) 뉘앙스가 번역 중 사라졌어요. 3) 직역은 어색하게 들려요.",
+     "en": "1) There is no one-word equivalent. 2) The nuance was lost in translation. 3) A literal translation sounds awkward."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "___は不自然になることがあります。",
+      "options": [
+       "直訳",
+       "意訳",
+       "朗読"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___は意味を自然に伝えます。",
+      "options": [
+       "意訳",
+       "直訳",
+       "暗記"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "完全に___な語はありません。",
+      "options": [
+       "等価",
+       "高価",
+       "安価"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "この語は日本の(1)と深く結びついているので、翻訳が難しいです。完全に等価な語がないため、(2)が失われやすいです。翻訳者は(3)を付けて補いました。",
+    "trans": {
+     "ko": "그는 시를 영어로 충실하게 옮겼다. 그러나 한 단어는 대응어가 없어 주석을 달았다. 번역 불가능해 보이는 단어는 문화를 잘 보여 준다.",
+     "en": "He rendered the poem faithfully into English. But one word had no equivalent, so he added a note. Words that seem untranslatable show a culture well."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "文化",
+       "天気",
+       "料理"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "ニュアンス",
+       "文字",
+       "ページ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "注",
+       "音",
+       "金"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "翻訳論\n訳せない言葉\n「わびさび」のような言葉は、他の言語に完全に等価な語がない。翻訳では、ニュアンスが失われることが避けられない。しかし、文化的背景を伝える注を付けることで、原文の豊かさをある程度は守れる。",
+    "trans": {
+     "ko": "번역 칼럼\n번역의 딜레마\n번역자는 원문에 충실함과 자연스러움 사이에서 갈등한다. 직역은 어색하고 의역은 원문에서 멀어질 수 있다. 훌륭한 번역은 문화적 맥락을 이해하는 데서 시작한다.",
+     "en": "TRANSLATION COLUMN\nThe translator's dilemma\nA translator is torn between fidelity to the original and naturalness. A literal translation is awkward and a free translation may drift from the original. A fine translation begins with understanding cultural context."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "「わびさび」のような言葉はどうですか。",
+      "options": [
+       "完全に等価な語がない",
+       "簡単に訳せる",
+       "訳す必要がない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "注を付けると何を守れますか。",
+      "options": [
+       "原文の豊かさ",
+       "翻訳の速さ",
+       "本の値段"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、「わびさび」のような言葉に完全に等価な語がないと述べています。注を付けることで原文の豊かさをある程度守れると言います。",
+    "trans": {
+     "ko": "칼럼은 번역자가 충실함과 자연스러움 사이에서 갈등한다고 본다. 칼럼은 직역이 언제나 자연스럽다고 한다. 칼럼은 훌륭한 번역이 문화적 맥락 이해에서 시작한다고 본다.",
+     "en": "The column says translators are torn between fidelity and naturalness. The column says literal translation is always natural. The column says a fine translation begins with understanding cultural context."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章は完全に等価な語がないと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章は翻訳でニュアンスが失われないと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章は特定の翻訳者を紹介している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "直訳は原文に近く、意訳は意味を自然に伝えます。",
+    "read": "ちょくやくはげんぶんにちかく、いやくはいみをしぜんにつたえます。",
+    "ko": "한국어의 '정'에는 영어에 정확한 대응어가 없습니다.",
+    "en": "The Korean word 'jeong' has no exact English equivalent.",
+    "situation": {
+     "ko": "번역의 한계",
+     "en": "A limit of translation"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "完全に等価な語はなく、「wasteful」に近いです。",
+    "read": "かんぜんにとうかなごはなく、「wasteful」にちかいです。",
+    "ko": "시의 뉘앙스는 번역 중에 쉽게 사라집니다.",
+    "en": "The nuance of a poem is easily lost in translation.",
+    "situation": {
+     "ko": "번역의 어려움",
+     "en": "Difficulty of translation"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "完全に等価な語はありません。",
+    "read": "かんぜんにとうかなごはありません。",
+    "ko": "두 단어는 뜻은 같지만 함축 의미가 다릅니다.",
+    "en": "The two words mean the same but differ in connotation.",
+    "situation": {
+     "ko": "함축을 비교할 때",
+     "en": "Comparing connotation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "ニュアンスが失われました。",
+    "read": "ニュアンスがうしなわれました。",
+    "ko": "직역은 어색하므로 의역이 필요할 때가 있습니다.",
+    "en": "A literal translation sounds awkward, so a free translation is sometimes needed.",
+    "situation": {
+     "ko": "번역 방식",
+     "en": "Translation strategy"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "意訳して、注を付けましょう。",
+    "read": "いやくして、ちゅうをつけましょう。",
+    "ko": "번역자는 원문의 의미와 자연스러움 사이에서 균형을 잡아야 합니다.",
+    "en": "A translator must balance fidelity to the original with naturalness.",
+    "situation": {
+     "ko": "번역자의 과제",
+     "en": "The translator's task"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "原文の意味を損なわずに訳します。",
+    "read": "げんぶんのいみをそこなわずにやくします。",
+    "ko": "문화적 맥락을 이해하지 못하면 오역하기 쉽습니다.",
+    "en": "Without understanding the cultural context, one easily mistranslates.",
+    "situation": {
+     "ko": "맥락의 중요성",
+     "en": "Importance of context"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "文化的背景を知る必要があります。",
+    "read": "ぶんかてきはいけいをしるひつようがあります。",
+    "ko": "그는 시를 영어로 충실하게 옮겼습니다.",
+    "en": "He rendered the poem faithfully into English.",
+    "situation": {
+     "ko": "번역을 묘사할 때",
+     "en": "Describing a translation"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "これは英語の「home」に相当します。",
+    "read": "これはえいごの「home」にそうとうします。",
+    "ko": "번역 불가능해 보이는 단어일수록 문화를 잘 보여 줍니다.",
+    "en": "The more untranslatable a word seems, the better it shows a culture.",
+    "situation": {
+     "ko": "흥미로운 점을 말할 때",
+     "en": "Making an interesting point"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "直訳と意訳。",
+    "read": "ちょくやくといやく。",
+    "ko": "~에 대응어가 없다.",
+    "en": "have no equivalent in ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜に相当する。",
+    "read": "〜にそうとうする。",
+    "ko": "~에 충실하다.",
+    "en": "be faithful to ..."
+   },
+   {
+    "id": "w3",
+    "t": "ニュアンスが失われる。",
+    "read": "ニュアンスがうしなわれる。",
+    "ko": "번역 중 사라지다.",
+    "en": "be lost in translation"
+   },
+   {
+    "id": "w4",
+    "t": "文化的背景。",
+    "read": "ぶんかてきはいけい。",
+    "ko": "문화적 맥락.",
+    "en": "cultural context"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "번역하기 어려운 단어를 하나 골라 그 뉘앙스와 번역 전략을 4문장으로 설명해 보세요.",
+    "en": "Choose a hard-to-translate word and explain its nuance and a translation strategy in four sentences."
+   },
+   "must_include": [
+    {
+     "label": "直訳",
+     "match": [
+      "直訳"
+     ]
+    },
+    {
+     "label": "意訳",
+     "match": [
+      "意訳"
+     ]
+    },
+    {
+     "label": "等価",
+     "match": [
+      "等価な"
+     ]
+    }
+   ],
+   "model": "直訳は原文に近く、意訳は意味を自然に伝えます。「わびさび」のような言葉には、完全に等価な語がありません。私は注を付けて、文化的背景を補います。",
+   "model_trans": {
+    "ko": "한국어의 '정'에는 영어에 정확한 대응어가 없습니다. 이 단어에는 애정과 유대의 함축이 담겨 있습니다. 직역하면 뉘앙스가 번역 중에 사라지므로 의역이나 주석이 필요합니다. 번역자는 문화적 맥락을 고려해야 합니다.",
+    "en": "The Korean word 'jeong' has no exact English equivalent. It carries connotations of affection and bonds. A literal translation means the nuance is lost in translation, so a free translation or a note is needed. The translator must consider the cultural context."
+   }
+  }
+ }
+}

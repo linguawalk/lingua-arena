@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u39",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 39,
+  "concept": "C2.U39",
+  "status": "live",
+  "title": {
+   "target": "法律・契約の言葉",
+   "ko": "법률 영어: 계약과 조항",
+   "en": "Legal English: contracts and clauses"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "以下",
+   "pos": "adv",
+   "read": "いか",
+   "ko": "이하",
+   "en": "hereinafter",
+   "ex": {
+    "t": "以下「甲」と呼びます。",
+    "read": "いか「かぶと」とよびます。",
+    "ko": "이하 '매도인'이라 한다.",
+    "en": "Hereinafter referred to as the Seller."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "当事者",
+   "pos": "noun",
+   "read": "とうじしゃ",
+   "ko": "당사자",
+   "en": "party",
+   "ex": {
+    "t": "契約の当事者は二者です。",
+    "read": "けいやくのとうじしゃはにしゃです。",
+    "ko": "계약 당사자는 두 곳이에요.",
+    "en": "There are two parties to the contract."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "義務を負う",
+   "pos": "modal",
+   "read": "ぎむをおう",
+   "ko": "~해야 한다 (의무)",
+   "en": "shall",
+   "ex": {
+    "t": "乙は代金を支払う義務を負います。",
+    "read": "おつはだいきんをしはらうぎむをおいます。",
+    "ko": "매도인은 상품을 인도해야 한다.",
+    "en": "The Seller shall deliver the goods."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "免責される",
+   "pos": "verb",
+   "read": "めんせきされる",
+   "ko": "면책하다",
+   "en": "indemnify",
+   "ex": {
+    "t": "甲は責任を免責されます。",
+    "read": "かぶとはせきにんをめんせきされます。",
+    "ko": "매도인은 구매자를 면책해야 한다.",
+    "en": "The Seller shall indemnify the Buyer."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "不可抗力",
+   "pos": "phrase",
+   "read": "ふかこうりょく",
+   "ko": "불가항력",
+   "en": "force majeure",
+   "ex": {
+    "t": "不可抗力の場合は責任を負いません。",
+    "read": "ふかこうりょくのばあいはせきにんをおいません。",
+    "ko": "불가항력 사유는 면책돼요.",
+    "en": "Force majeure events are excused."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "準拠法",
+   "pos": "phrase",
+   "read": "じゅんきょほう",
+   "ko": "준거법",
+   "en": "governing law",
+   "ex": {
+    "t": "準拠法は日本法とします。",
+    "read": "じゅんきょほうはにほんほうとします。",
+    "ko": "준거법은 한국법이에요.",
+    "en": "The governing law is Korean law."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "契約違反",
+   "pos": "noun",
+   "read": "けいやくいはん",
+   "ko": "계약 위반",
+   "en": "breach",
+   "ex": {
+    "t": "契約違反があった場合は解除できます。",
+    "read": "けいやくいはんがあったばあいはかいじょできます。",
+    "ko": "계약 위반은 해지 사유예요.",
+    "en": "A breach is grounds for termination."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "解約する",
+   "pos": "verb",
+   "read": "かいやくする",
+   "ko": "해지하다",
+   "en": "terminate",
+   "ex": {
+    "t": "三十日前に通知すれば解約できます。",
+    "read": "さんじゅうにちまえにつうちすればかいやくできます。",
+    "ko": "당사자는 계약을 해지할 수 있어요.",
+    "en": "A party may terminate the contract."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "〜にもかかわらず",
+   "pos": "prep",
+   "read": "〜にもかかわらず",
+   "ko": "~에도 불구하고",
+   "en": "notwithstanding",
+   "ex": {
+    "t": "通知があったにもかかわらず、支払われませんでした。",
+    "read": "つうちがあったにもかかわらず、しはらわれませんでした。",
+    "ko": "다른 규정에도 불구하고 이 조항이 우선해요.",
+    "en": "Notwithstanding any other provision, this clause prevails."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "拘束力のある",
+   "pos": "adj",
+   "read": "こうそくりょくのある",
+   "ko": "구속력 있는",
+   "en": "binding",
+   "ex": {
+    "t": "この契約は拘束力があります。",
+    "read": "このけいやくはこうそくりょくがあります。",
+    "ko": "이 계약은 구속력이 있어요.",
+    "en": "This agreement is binding."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "以下／甲・乙／〜しなければならない／免責／不可抗力／準拠法",
+   "en": "Legal and contract language: 以下 / 甲・乙 / 〜しなければならない / 免責 / 不可抗力 / 準拠法"
+  },
+  "explain": {
+   "ko": "契約書は、正確さのために特別な言葉を使います。契約する人は「当事者」と呼び、「以下『甲』という」のように略称を定めます。「〜しなければならない」は義務を、「〜することができる」は権利を表します。「免責」は責任を負わないこと、「不可抗力」は人の力ではどうにもならない事態、「準拠法」はどの国の法律に従うかを示します。曖昧な語は避け、一語ずつ正確に読みましょう。",
+   "en": "Contracts use special language for precision. The contracting persons are 「当事者」, abbreviated like 「以下『甲』という」. 「〜しなければならない」 expresses obligation, 「〜することができる」 a right. 「免責」 is freedom from liability, 「不可抗力」 events beyond human control, 「準拠法」 the governing law. Avoid ambiguity and read each word exactly."
+  },
+  "table": {
+   "head": [
+    "用語 / Term",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "当事者",
+     "契約する人",
+     "甲と乙。"
+    ],
+    [
+     "義務",
+     "〜しなければならない",
+     "乙は支払う義務を負う。"
+    ],
+    [
+     "不可抗力",
+     "避けられない事態",
+     "地震は不可抗力だ。"
+    ],
+    [
+     "準拠法",
+     "従う法律",
+     "日本法とする。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "一語ずつ正確に読みましょう。",
+    "en": "Read each word exactly."
+   },
+   {
+    "ko": "義務と権利を区別しましょう。",
+    "en": "Distinguish obligations from rights."
+   },
+   {
+    "ko": "曖昧な語は避けます。",
+    "en": "Avoid ambiguous words."
+   }
+  ],
+  "examples": [
+   {
+    "t": "乙は代金を支払う義務を負います。",
+    "read": "おつはだいきんをしはらうぎむをおいます。",
+    "ko": "계약 당사자는 두 곳이에요.",
+    "en": "There are two parties to the contract."
+   },
+   {
+    "t": "不可抗力の場合は責任を負いません。",
+    "read": "ふかこうりょくのばあいはせきにんをおいません。",
+    "ko": "매도인은 상품을 인도해야 한다.",
+    "en": "The Seller shall deliver the goods."
+   },
+   {
+    "t": "準拠法は日本法とします。",
+    "read": "じゅんきょほうはにほんほうとします。",
+    "ko": "불가항력 사유는 면책돼요.",
+    "en": "Force majeure events are excused."
+   },
+   {
+    "t": "契約違反があった場合は解除できます。",
+    "read": "けいやくいはんがあったばあいはかいじょできます。",
+    "ko": "준거법은 한국법이에요.",
+    "en": "The governing law is Korean law."
+   },
+   {
+    "t": "三十日前に通知すれば解約できます。",
+    "read": "さんじゅうにちまえにつうちすればかいやくできます。",
+    "ko": "이 계약은 구속력이 있어요.",
+    "en": "This agreement is binding."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "乙は代金を支払う___を負います。",
+    "options": [
+     "義務",
+     "趣味",
+     "景色"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___の場合は責任を負いません。",
+    "options": [
+     "不可抗力",
+     "天気",
+     "休日"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___は日本法とします。",
+    "options": [
+     "準拠法",
+     "名前",
+     "年齢"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "契約違反があった場合は___できます。",
+    "options": [
+     "解除",
+     "忘却",
+     "旅行"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "契約の当事者は誰ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 계약서에서 shall은 무엇을 뜻하나요?",
+     "en": "(Question) What does 'shall' mean in a contract?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "甲と乙の二者です。",
+       "三者です。",
+       "いません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "不可抗力とは何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 면책 조항이란 무엇인가요?",
+     "en": "(Question) What is an indemnity clause?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "人の力ではどうにもならない事態です。",
+       "契約の名前です。",
+       "会社の名前です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この契約書の「甲」って誰のこと？"
+      },
+      {
+       "s": "B",
+       "t": "以下、貸す側のことだよ。"
+      },
+      {
+       "s": "A",
+       "t": "「乙」は？"
+      },
+      {
+       "s": "B",
+       "t": "借りる側だね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 계약서의 준거법은 어느 나라 법이야?\nB: 대한민국 법이야.\nA: 불가항력 조항도 있어?\nB: 응, 불가항력 사유로 인한 지연은 책임이 면제돼.",
+     "en": "A: Which country's law governs this contract?\nB: The laws of the Republic of Korea.\nA: Is there a force majeure clause too?\nB: Yes, delay caused by force majeure carries no liability."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "「乙」は誰ですか。",
+      "options": [
+       "借りる側",
+       "貸す側",
+       "弁護士"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "契約書は、正確さのために特別な言葉を使います。「〜しなければならない」は義務を、「〜することができる」は権利を表します。曖昧な語を避け、一語ずつ正確に読む必要があります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "법률 영어는 정확성과 모호함의 회피를 최우선으로 합니다. shall은 의무를, may는 권리를 나타내고, hereinafter, notwithstanding 같은 전통적 어휘가 쓰입니다. 계약서는 해석의 다툼을 줄이도록 문장이 길고 구조가 엄격합니다.",
+     "en": "Legal English gives first priority to precision and avoidance of ambiguity. Shall expresses obligation and may expresses right, and traditional vocabulary such as hereinafter and notwithstanding is used. Contracts have long sentences and strict structure so as to reduce disputes over interpretation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "契約書を読むときに大切なことは何ですか。",
+      "options": [
+       "一語ずつ正確に読む",
+       "速く読む",
+       "最初だけ読む"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この条項をよく読んでください。"
+      },
+      {
+       "s": "B",
+       "t": "不可抗力の場合は責任を負わないと書いてありますね。"
+      },
+      {
+       "s": "A",
+       "t": "はい、準拠法は日本法です。"
+      },
+      {
+       "s": "B",
+       "t": "わかりました。署名します。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "고객: 계약서를 먼저 검토해도 될까요?\n변호사: 물론입니다. 제3조를 보세요.\n고객: 이 조항은 무슨 뜻인가요?\n변호사: 위반 시 계약을 해지할 수 있다는 뜻입니다.",
+     "en": "Client: May I review the contract first?\nLawyer: Of course. Look at Clause 3.\nClient: What does this clause mean?\nLawyer: It means the contract may be terminated in case of breach."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "不可抗力の場合は______を負わないと依頼人は言います",
+      "answers": [
+       "責任"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "準拠法は______法だと弁護士は言います",
+      "answers": [
+       "日本"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 乙は代金を支払う___を負います。\n2) ___の場合は責任を負いません。\n3) ___は日本法とします。",
+    "trans": {
+     "ko": "1) 계약 당사자는 두 곳이에요. 2) 매도인은 상품을 인도해야 한다. 3) 이 계약은 구속력이 있어요.",
+     "en": "1) There are two parties to the contract. 2) The Seller shall deliver the goods. 3) This agreement is binding."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "乙は代金を支払う___を負います。",
+      "options": [
+       "義務",
+       "趣味",
+       "景色"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___の場合は責任を負いません。",
+      "options": [
+       "不可抗力",
+       "天気",
+       "休日"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___は日本法とします。",
+      "options": [
+       "準拠法",
+       "名前",
+       "年齢"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "この契約では、乙が代金を支払う(1)を負います。ただし、地震のような(2)の場合は責任を負いません。争いがあった場合の(3)は日本法です。",
+    "trans": {
+     "ko": "매도인은 약정된 기일까지 상품을 인도해야 한다. 불가항력 사유로 인한 지연은 책임이 면제된다. 계약 위반 시 상대방은 계약을 해지할 수 있다.",
+     "en": "The Seller shall deliver the goods by the agreed date. Delay caused by force majeure shall not give rise to liability. In the event of breach, the other party may terminate this Agreement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "義務",
+       "趣味",
+       "景色"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "不可抗力",
+       "天気",
+       "休日"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "準拠法",
+       "名前",
+       "年齢"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "法律の基礎\n契約書の読み方\n契約書では、一つの語が大きな意味を持つ。「しなければならない」と「することができる」は、義務と権利という全く違う意味を表す。曖昧な語を避け、正確に読まなければならない。",
+    "trans": {
+     "ko": "법률 가이드\n계약서 읽는 법\n계약서는 정의 조항으로 시작해 의무, 권리, 면책, 해지, 준거법 순으로 이어집니다. shall은 의무를, may는 권리를 나타냅니다. 모호한 표현은 분쟁의 원인이 되므로 서명 전에 반드시 확인하세요.",
+     "en": "LEGAL GUIDE\nHow to read a contract\nA contract starts with definition clauses and continues with obligations, rights, indemnity, termination and governing law. Shall expresses obligation and may expresses right. Ambiguous wording can cause disputes, so always check it before signing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "契約書では何が大きな意味を持ちますか。",
+      "options": [
+       "一つの語",
+       "挿絵",
+       "ページの色"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "「しなければならない」は何を表しますか。",
+      "options": [
+       "義務",
+       "権利",
+       "自由"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、契約書では一つの語が大きな意味を持つと述べています。「しなければならない」は義務を表すと言います。",
+    "trans": {
+     "ko": "가이드는 계약서가 정의 조항으로 시작한다고 본다. 가이드는 may가 의무를 나타낸다고 본다. 가이드는 서명 전에 모호한 표현을 확인하라고 한다.",
+     "en": "The guide says a contract starts with definition clauses. The guide says may expresses obligation. The guide says to check ambiguous wording before signing."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章は契約書では一つの語が大きな意味を持つと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章は契約書の言葉が曖昧なほどよいと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章は契約書の値段を伝えている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "甲と乙の二者です。",
+    "read": "かぶととおつのにしゃです。",
+    "ko": "본 계약의 당사자는 이하 '매도인'과 '매수인'이라 한다.",
+    "en": "The parties to this Agreement are hereinafter referred to as the Seller and the Buyer.",
+    "situation": {
+     "ko": "정의 조항",
+     "en": "Definition clause"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "人の力ではどうにもならない事態です。",
+    "read": "にんのちからではどうにもならないじたいです。",
+    "ko": "매도인은 약정된 기일까지 상품을 인도해야 한다.",
+    "en": "The Seller shall deliver the goods by the agreed date.",
+    "situation": {
+     "ko": "의무 조항",
+     "en": "Obligation clause"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "乙は代金を支払う義務を負います。",
+    "read": "おつはだいきんをしはらうぎむをおいます。",
+    "ko": "매도인은 매수인에게 발생한 손실을 면책해야 한다.",
+    "en": "The Seller shall indemnify the Buyer against any loss incurred.",
+    "situation": {
+     "ko": "면책 조항",
+     "en": "Indemnity clause"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "不可抗力の場合は責任を負いません。",
+    "read": "ふかこうりょくのばあいはせきにんをおいません。",
+    "ko": "불가항력 사유로 인한 지연은 책임이 면제된다.",
+    "en": "Delay caused by force majeure shall not give rise to liability.",
+    "situation": {
+     "ko": "불가항력 조항",
+     "en": "Force majeure clause"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "準拠法は日本法とします。",
+    "read": "じゅんきょほうはにほんほうとします。",
+    "ko": "다른 규정에도 불구하고 이 조항이 우선한다.",
+    "en": "Notwithstanding any other provision, this clause shall prevail.",
+    "situation": {
+     "ko": "우선 조항",
+     "en": "Priority clause"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "契約違反があった場合は解除できます。",
+    "read": "けいやくいはんがあったばあいはかいじょできます。",
+    "ko": "계약 위반 시 상대방은 계약을 해지할 수 있다.",
+    "en": "In the event of breach, the other party may terminate this Agreement.",
+    "situation": {
+     "ko": "해지 조항",
+     "en": "Termination clause"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "三十日前に通知すれば解約できます。",
+    "read": "さんじゅうにちまえにつうちすればかいやくできます。",
+    "ko": "본 계약의 준거법은 대한민국 법으로 한다.",
+    "en": "This Agreement shall be governed by the laws of the Republic of Korea.",
+    "situation": {
+     "ko": "준거법 조항",
+     "en": "Governing law clause"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "この契約は拘束力があります。",
+    "read": "このけいやくはこうそくりょくがあります。",
+    "ko": "계약서는 모호함 없이 정확하게 써야 합니다.",
+    "en": "A contract must be drafted precisely and without ambiguity.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "以下「甲」という。",
+    "read": "いか「かぶと」という。",
+    "ko": "이하 ~라 한다.",
+    "en": "hereinafter referred to as ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜しなければならない。",
+    "read": "〜しなければならない。",
+    "ko": "~에도 불구하고.",
+    "en": "notwithstanding ..."
+   },
+   {
+    "id": "w3",
+    "t": "不可抗力。",
+    "read": "ふかこうりょく。",
+    "ko": "~해야 한다 (의무).",
+    "en": "shall ..."
+   },
+   {
+    "id": "w4",
+    "t": "準拠法。",
+    "read": "じゅんきょほう。",
+    "ko": "~의 법에 따른다.",
+    "en": "be governed by the laws of ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "계약 조항 형식으로 의무, 면책, 준거법을 포함한 4문장을 써 보세요.",
+    "en": "Write four sentences in contract-clause style including an obligation, an indemnity and a governing-law clause."
+   },
+   "must_include": [
+    {
+     "label": "義務",
+     "match": [
+      "義務を負"
+     ]
+    },
+    {
+     "label": "不可抗力",
+     "match": [
+      "不可抗力"
+     ]
+    },
+    {
+     "label": "準拠法",
+     "match": [
+      "準拠法"
+     ]
+    }
+   ],
+   "model": "乙は代金を支払う義務を負います。ただし、不可抗力の場合は責任を負いません。この契約の準拠法は日本法とします。双方は契約書に署名しました。",
+   "model_trans": {
+    "ko": "매도인은 약정된 기일까지 상품을 인도해야 한다. 매도인은 매수인이 입은 손실을 면책해야 한다. 불가항력 사유로 인한 지연은 책임을 지지 아니한다. 본 계약은 대한민국 법의 적용을 받는다.",
+    "en": "The Seller shall deliver the goods by the agreed date. The Seller shall indemnify the Buyer against any loss suffered. Delay caused by force majeure shall not give rise to liability. This Agreement shall be governed by the laws of the Republic of Korea."
+   }
+  }
+ }
+}

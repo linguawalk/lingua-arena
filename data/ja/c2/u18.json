@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u18",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 18,
+  "concept": "C2.U18",
+  "status": "live",
+  "title": {
+   "target": "皮肉と風刺",
+   "ko": "반어와 풍자",
+   "en": "Irony and sarcasm"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "皮肉",
+   "pos": "noun",
+   "read": "ひにく",
+   "ko": "반어",
+   "en": "irony",
+   "ex": {
+    "t": "それは明らかな皮肉でした。",
+    "read": "それはあきらかなひにくでした。",
+    "ko": "그 상황의 반어가 웃음을 자아냈어요.",
+    "en": "The irony of the situation made everyone smile."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "嫌味な",
+   "pos": "adj",
+   "read": "いやみな",
+   "ko": "비꼬는",
+   "en": "sarcastic",
+   "ex": {
+    "t": "彼は嫌味な言い方をしました。",
+    "read": "かれはいやみないいかたをしました。",
+    "ko": "그의 비꼬는 말투가 거슬렸어요.",
+    "en": "His sarcastic tone was irritating."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "辛辣な",
+   "pos": "adj",
+   "read": "しんらつな",
+   "ko": "신랄한",
+   "en": "scathing",
+   "ex": {
+    "t": "辛辣な批評が出ました。",
+    "read": "しんらつなひひょうがでました。",
+    "ko": "그 비평은 신랄했어요.",
+    "en": "The review was scathing."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "あざ笑う",
+   "pos": "phrase",
+   "read": "あざわらう",
+   "ko": "비웃다",
+   "en": "scoff at",
+   "ex": {
+    "t": "彼は私たちをあざ笑いました。",
+    "read": "かれはわたしたちをあざわらいました。",
+    "ko": "그는 우리의 계획을 비웃었어요.",
+    "en": "He scoffed at our plan."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "苦笑い",
+   "pos": "phrase",
+   "read": "にがわらい",
+   "ko": "쓴웃음",
+   "en": "wry smile",
+   "ex": {
+    "t": "彼は苦笑いをして言いました。",
+    "read": "かれはにがわらいをしていいました。",
+    "ko": "그녀는 쓴웃음을 지었어요.",
+    "en": "She gave a wry smile."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "本心でない",
+   "pos": "phrase",
+   "read": "ほんしんでない",
+   "ko": "진담이 아닌",
+   "en": "tongue in cheek",
+   "ex": {
+    "t": "それは本心ではない言葉でした。",
+    "read": "それはほんしんではないことばでした。",
+    "ko": "그는 반쯤 농담으로 말했어요.",
+    "en": "He said it tongue in cheek."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "正反対のことを言う",
+   "pos": "phrase",
+   "read": "せいはんたいのことをいう",
+   "ko": "정반대로 말하다",
+   "en": "say the opposite of what one means",
+   "ex": {
+    "t": "彼は正反対のことを言いました。",
+    "read": "かれはせいはんたいのことをいいました。",
+    "ko": "그는 일부러 정반대로 말했어요.",
+    "en": "He deliberately said the opposite of what he meant."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "わざとらしい",
+   "pos": "adv",
+   "read": "わざとらしい",
+   "ko": "눈에 띄게 어색한",
+   "en": "pointedly",
+   "ex": {
+    "t": "わざとらしい丁寧さが気になりました。",
+    "read": "わざとらしいていねいさがきになりました。",
+    "ko": "그는 일부러 그녀를 못 본 체했어요.",
+    "en": "He pointedly ignored her."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "棘のある言葉",
+   "pos": "phrase",
+   "read": "なつめのあることば",
+   "ko": "뼈 있는 말",
+   "en": "barbed remark",
+   "ex": {
+    "t": "棘のある言葉に誰もが気づきました。",
+    "read": "なつめのあることばにだれもがきづきました。",
+    "ko": "그의 말에는 뼈가 있었어요.",
+    "en": "There was a barbed remark in his words."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "予想外の",
+   "pos": "adj",
+   "read": "よそうがいの",
+   "ko": "예상 밖의",
+   "en": "unexpected",
+   "ex": {
+    "t": "予想外の答えに皆が驚きました。",
+    "read": "よそうがいのこたえにみながおどろきました。",
+    "ko": "결과는 정말 반어적이었어요.",
+    "en": "The result was ironic indeed."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "皮肉る／まさか／苦笑い／棘のある言葉／風刺",
+   "en": "Irony and sarcasm: 皮肉る / まさか / 苦笑い / 棘のある言葉 / 風刺"
+  },
+  "explain": {
+   "ko": "皮肉は、言葉の意味と本当の意図が反対の表現です：傘がない雨の日に「ああ、いいお天気ですね。」声の調子や状況が意図を教えてくれます。風刺は、社会や人を批判する鋭い皮肉で、ユーモアで大切な役割を果たします。「棘のある言葉」は、表面はやわらかくても中に鋭い意味のある言葉です。書くときは、読者が気づける手がかりを与えましょう。",
+   "en": "Irony says the opposite of what is meant: on a rainy day with no umbrella, 「ああ、いいお天気ですね。」 Tone and situation reveal the intent. Satire is sharp irony that criticises society or people and plays a big role in humour. 「棘のある言葉」 is a remark that sounds mild but has a sharp point. In writing, give readers clues."
+  },
+  "table": {
+   "head": [
+    "表現 / Phrase",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "ありがとう（皮肉）",
+     "(sarcastic) thanks a lot",
+     "わざと無視して、ありがとう。"
+    ],
+    [
+     "いいお天気ですね",
+     "(sarcastic) lovely",
+     "雨なのに、いいお天気ですね。"
+    ],
+    [
+     "苦笑い",
+     "wry smile",
+     "苦笑いをした。"
+    ],
+    [
+     "棘のある言葉",
+     "pointed remark",
+     "その言葉には棘があった。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "皮肉は声の調子がないと誤解されやすいです。",
+    "en": "Irony is easily misread without tone."
+   },
+   {
+    "ko": "風刺は批判を含みます。",
+    "en": "Satire carries criticism."
+   },
+   {
+    "ko": "文章では手がかりを与えましょう。",
+    "en": "Give clues in writing."
+   }
+  ],
+  "examples": [
+   {
+    "t": "傘がないのに、ああ、いいお天気ですね。",
+    "read": "かさがないのに、ああ、いいおてんきですね。",
+    "ko": "정말 고맙군요. (비꼬는 뜻)",
+    "en": "Thanks a lot. (sarcastic)"
+   },
+   {
+    "t": "彼は苦笑いをして、ありがとう、と言いました。",
+    "read": "かれはにがわらいをして、ありがとう、といいました。",
+    "ko": "아, 정말 잘됐네요. (비꼬는 뜻)",
+    "en": "Oh great, that's all we needed. (sarcastic)"
+   },
+   {
+    "t": "その言葉には棘がありました。",
+    "read": "そのことばにはなつめがありました。",
+    "ko": "그 비평은 신랄했어요.",
+    "en": "The review was scathing."
+   },
+   {
+    "t": "皆が彼の本当の意図に気づきました。",
+    "read": "みながかれのほんとうのいとにきづきました。",
+    "ko": "그녀는 쓴웃음을 지었어요.",
+    "en": "She gave a wry smile."
+   },
+   {
+    "t": "その批評は辛辣でした。",
+    "read": "そのひひょうはしんらつでした。",
+    "ko": "그는 일부러 그녀를 못 본 체했어요.",
+    "en": "He pointedly ignored her."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "傘がないのに、ああ、いい___ですね。",
+    "options": [
+     "お天気",
+     "お金",
+     "お酒"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "彼は___をして言いました。",
+    "options": [
+     "苦笑い",
+     "大笑い",
+     "お辞儀"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "その言葉には___がありました。",
+    "options": [
+     "棘",
+     "骨折",
+     "夢"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "その批評は___でした。",
+    "options": [
+     "辛辣",
+     "穏やか",
+     "静か"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "彼の話し方をどう感じましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 그의 말투를 어떻게 느꼈나요?",
+     "en": "(Question) How did his tone strike you?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "皮肉な言い方に聞こえました。",
+       "とても優しかったです。",
+       "声が小さかったです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "雨の日に傘がないとき、皮肉をこめて何と言いますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 비 오는 날 우산이 없다면 어떻게 말할까요?",
+     "en": "(Question) What would you say if you had no umbrella on a rainy day?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "ああ、いいお天気ですね。",
+       "傘がたくさんあります。",
+       "雨が好きです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "昨日の会議で、彼が「ありがとう」って言ったんだ。"
+      },
+      {
+       "s": "B",
+       "t": "皮肉な言い方だった？"
+      },
+      {
+       "s": "A",
+       "t": "うん、わざと私を無視したからね。"
+      },
+      {
+       "s": "B",
+       "t": "苦笑いが出るね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 어제 회의에서 그가 정말 고맙다고 했어.\nB: 비꼬는 말투였어?\nA: 응, 그는 일부러 나를 못 본 체했거든.\nB: 쓴웃음이 나오네.",
+     "en": "A: He said thanks a lot at yesterday's meeting.\nB: Was he sarcastic?\nA: Yes, he pointedly ignored me.\nB: That brings a wry smile."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Aはなぜ苦笑いが出ましたか。",
+      "options": [
+       "彼がわざと無視したから",
+       "会議が中止だったから",
+       "賞をもらったから"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "皮肉は、言葉の意味と実際の意図が反対になる表現です。声の調子や状況が、その意図を教えてくれます。風刺は、社会や人を批判する鋭い皮肉で、ユーモアで重要な役割を果たします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "반어는 말하는 의미와 실제 의도가 반대인 표현입니다. 억양과 상황이 그 의도를 알려 줍니다. 풍자는 사회나 사람을 비판하는 날카로운 반어로, 영국과 미국의 유머에서 중요한 역할을 합니다.",
+     "en": "Irony is an expression in which the stated meaning and the real intention are opposite. Tone and situation reveal the intention. Sarcasm is a sharp, critical irony aimed at society or people, and plays a major role in British and American humour."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "皮肉は何が意図を教えてくれますか。",
+      "options": [
+       "声の調子と状況",
+       "辞書",
+       "正確な時間"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "今日も残業とは、本当によかったですね。"
+      },
+      {
+       "s": "B",
+       "t": "皮肉なの？"
+      },
+      {
+       "s": "A",
+       "t": "もちろんです。本当にありがとうございます、課長。"
+      },
+      {
+       "s": "B",
+       "t": "苦笑いが出ますね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 오늘도 야근이라니 정말 잘됐네요.\n동료: 비꼬는 거야?\n직원: 당연하죠. 정말 고마워요, 팀장님.\n동료: 쓴웃음이 나오네요.",
+     "en": "Employee: Working late again, oh great.\nColleague: Are you being sarcastic?\nEmployee: Of course. Thanks a lot, boss.\nColleague: That makes me smile wryly."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "同僚は______なのと聞きます",
+      "answers": [
+       "皮肉"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "同僚の最後の反応は______が出るということです",
+      "answers": [
+       "苦笑い"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) ありがとう。（___の意味）\n2) ああ、いい___ですね。\n3) その批評は___でした。",
+    "trans": {
+     "ko": "1) 정말 고맙군요. (비꼬는 뜻) 2) 아, 정말 잘됐네요. 3) 그 비평은 신랄했어요.",
+     "en": "1) Thanks a lot. (sarcastic) 2) Oh great, that's all we needed. 3) The review was scathing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "ありがとう。（___の意味）",
+      "options": [
+       "皮肉",
+       "感謝",
+       "喜び"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ああ、いい___ですね。",
+      "options": [
+       "お天気",
+       "お金",
+       "お酒"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "その批評は___でした。",
+      "options": [
+       "辛辣",
+       "穏やか",
+       "静か"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "彼は(1)をして言いました。「ありがとう」。しかし、その言葉には(2)がありました。皆が彼の本当の(3)に気づきました。",
+    "trans": {
+     "ko": "그는 쓴웃음을 지으며 말했다. 정말 고맙군요. 그러나 그 말에는 뼈가 있었다. 모두가 그의 진짜 의도를 알아차렸다.",
+     "en": "He said with a wry smile, Thanks a lot. But there was a barbed remark in his words. Everyone picked up on his real intention."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "苦笑い",
+       "大笑い",
+       "お辞儀"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "棘",
+       "骨折",
+       "夢"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "意図",
+       "かばん",
+       "年齢"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "コラム\n風刺の技術\n風刺は、権力を批判する古い方法だ。しかし、皮肉は声の調子や状況がなければ、誤解を生みやすい。文章で風刺を使うときは、読者が意図に気づけるように、手がかりを与えなければならない。",
+    "trans": {
+     "ko": "칼럼\n풍자의 기술\n풍자는 권력을 비판하는 오래된 방법이다. 그러나 반어는 억양과 상황이 없으면 오해를 낳기 쉽다. 글에서 풍자를 쓸 때는 독자가 의도를 알아차릴 수 있도록 단서를 주어야 한다.",
+     "en": "COLUMN\nThe art of satire\nSatire is an old way of criticising power. But irony can easily be misunderstood without tone and situation. When using satire in writing, give readers clues so that they can pick up the intention."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "風刺は何を批判する古い方法ですか。",
+      "options": [
+       "権力",
+       "天気",
+       "食べ物"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "風刺を書くとき、読者に何を与えますか。",
+      "options": [
+       "意図に気づく手がかり",
+       "商品",
+       "アンケート"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "このコラムは、風刺が権力を批判する古い方法だと述べています。皮肉は誤解されやすいので、手がかりが必要だと言います。",
+    "trans": {
+     "ko": "칼럼은 풍자를 권력을 비판하는 오래된 방법이라고 본다. 칼럼은 반어가 언제나 오해되지 않는다고 한다. 칼럼은 독자에게 단서를 주어야 한다고 본다.",
+     "en": "The column sees satire as an old way of criticising power. The column says irony is never misunderstood. The column says readers must be given clues."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "コラムは風刺が権力を批判する古い方法だと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "コラムは皮肉がいつも正しく理解されると述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "コラムは風刺作家の名前を紹介している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "皮肉な言い方に聞こえました。",
+    "read": "ひにくないいかたにきこえました。",
+    "ko": "아, 정말 고맙군요. 아주 도움이 되었어요.",
+    "en": "Oh, thanks a lot. That was really helpful.",
+    "situation": {
+     "ko": "비꼬는 감사를 할 때",
+     "en": "Sarcastic thanks"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "ああ、いいお天気ですね。",
+    "read": "ああ、いいおてんきですね。",
+    "ko": "그 상황의 반어가 사람들을 웃게 했습니다.",
+    "en": "The irony of the situation made people smile.",
+    "situation": {
+     "ko": "상황 반어를 말할 때",
+     "en": "Situational irony"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "彼は苦笑いをしました。",
+    "read": "かれはにがわらいをしました。",
+    "ko": "그는 비꼬는 말투로 우리의 계획을 비웃었습니다.",
+    "en": "He scoffed at our plan in a sarcastic tone.",
+    "situation": {
+     "ko": "비웃음을 묘사할 때",
+     "en": "Describing mockery"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "その言葉には棘がありました。",
+    "read": "そのことばにはなつめがありました。",
+    "ko": "그 비평은 작품을 신랄하게 비판했습니다.",
+    "en": "The review criticised the work scathingly.",
+    "situation": {
+     "ko": "혹평을 묘사할 때",
+     "en": "Describing harsh criticism"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "辛辣な批評が出ました。",
+    "read": "しんらつなひひょうがでました。",
+    "ko": "그녀는 쓴웃음을 지으며 고개를 저었습니다.",
+    "en": "She shook her head with a wry smile.",
+    "situation": {
+     "ko": "쓴웃음을 묘사할 때",
+     "en": "Describing a wry smile"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "わざとらしい丁寧さが気になりました。",
+    "read": "わざとらしいていねいさがきになりました。",
+    "ko": "물론 그가 도와줄 거라고요. 그럴 리가요.",
+    "en": "Oh, he'll help, I'm sure. As if.",
+    "situation": {
+     "ko": "믿지 않음을 비꼴 때",
+     "en": "Sarcastic disbelief"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "彼は正反対のことを言いました。",
+    "read": "かれはせいはんたいのことをいいました。",
+    "ko": "그는 일부러 그녀를 못 본 체했습니다.",
+    "en": "He pointedly ignored her.",
+    "situation": {
+     "ko": "의도적인 무시를 말할 때",
+     "en": "Deliberate snub"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "予想外の答えに皆が驚きました。",
+    "read": "よそうがいのこたえにみながおどろきました。",
+    "ko": "저는 반어를 쓰되 상대에게 상처가 되지 않게 조심합니다.",
+    "en": "I use irony, but take care not to hurt the listener.",
+    "situation": {
+     "ko": "배려를 말할 때",
+     "en": "Showing consideration"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "ああ、いいお天気ですね。（皮肉）",
+    "read": "ああ、いいおてんきですね。（ひにく）",
+    "ko": "정말 고맙군. (비꼼)",
+    "en": "Thanks a lot. / How very kind."
+   },
+   {
+    "id": "w2",
+    "t": "まさか。",
+    "read": "まさか。",
+    "ko": "그럴 리가.",
+    "en": "As if. / I'm sure."
+   },
+   {
+    "id": "w3",
+    "t": "皮肉と風刺。",
+    "read": "ひにくとふうし。",
+    "ko": "반어와 풍자.",
+    "en": "irony / sarcasm"
+   },
+   {
+    "id": "w4",
+    "t": "苦笑い。",
+    "read": "にがわらい。",
+    "ko": "쓴웃음.",
+    "en": "a wry smile"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "반어와 풍자를 사용해 대화 4문장을 써 보세요. 화자의 진짜 의도가 드러나도록 하세요.",
+    "en": "Write a four-line dialogue using irony and sarcasm so that the speaker's true intention shows."
+   },
+   "must_include": [
+    {
+     "label": "いいお天気",
+     "match": [
+      "いいお天気ですね"
+     ]
+    },
+    {
+     "label": "苦笑い",
+     "match": [
+      "苦笑いをしました"
+     ]
+    },
+    {
+     "label": "ありがとう",
+     "match": [
+      "ありがとうと"
+     ]
+    }
+   ],
+   "model": "雨が降っているのに傘がありません。ああ、いいお天気ですね。こうなると思っていました。友だちが笑って言いました。ありがとうと。彼は苦笑いをしました。",
+   "model_trans": {
+    "ko": "비가 오는데 우산이 없어요. 아, 정말 잘됐네요. 이럴 줄 알았죠. 친구가 웃으며 말했어요. 정말 고맙군요. 그는 쓴웃음을 지었어요.",
+    "en": "It's raining and I have no umbrella. Oh great, that's all I needed. I knew it would happen. My friend laughed and said, Thanks a lot. He gave a wry smile."
+   }
+  }
+ }
+}

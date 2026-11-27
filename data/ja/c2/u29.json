@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u29",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 29,
+  "concept": "C2.U29",
+  "status": "live",
+  "title": {
+   "target": "行間とほのめかし",
+   "ko": "소설 속 대화와 함축",
+   "en": "Dialogue and subtext in fiction"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "含み",
+   "pos": "noun",
+   "read": "ふくみ",
+   "ko": "함축된 의미",
+   "en": "subtext",
+   "ex": {
+    "t": "その返事には含みがありました。",
+    "read": "そのへんじにはふくみがありました。",
+    "ko": "대화의 함축은 침묵에 숨어 있어요.",
+    "en": "The subtext of the dialogue lies in the silences."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "言葉を濁す",
+   "pos": "noun",
+   "read": "ことばをにごす",
+   "ko": "얼버무림",
+   "en": "evasion",
+   "ex": {
+    "t": "彼は質問に言葉を濁しました。",
+    "read": "かれはしつもんにことばをにごしました。",
+    "ko": "그의 대답은 얼버무림이었어요.",
+    "en": "His answer was an evasion."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "言いかける",
+   "pos": "verb",
+   "read": "いいかける",
+   "ko": "말을 끊다",
+   "en": "interrupt",
+   "ex": {
+    "t": "彼女は何か言いかけてやめました。",
+    "read": "かのじょはなにかいいかけてやめました。",
+    "ko": "그녀는 그의 말을 끊었어요.",
+    "en": "She interrupted him."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "行間を読む",
+   "pos": "phrase",
+   "read": "ぎょうかんをよむ",
+   "ko": "말끝을 흐리다",
+   "en": "trail off",
+   "ex": {
+    "t": "行間を読むと本心がわかります。",
+    "read": "ぎょうかんをよむとほんしんがわかります。",
+    "ko": "그는 말끝을 흐렸어요.",
+    "en": "He trailed off."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "気まずい沈黙",
+   "pos": "phrase",
+   "read": "きまずいちんもく",
+   "ko": "행간을 읽다",
+   "en": "read between the lines",
+   "ex": {
+    "t": "気まずい沈黙が流れました。",
+    "read": "きまずいちんもくがながれました。",
+    "ko": "행간을 읽어야 해요.",
+    "en": "You have to read between the lines."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "ほのめかす",
+   "pos": "phrase",
+   "read": "ほのめかす",
+   "ko": "어색한 침묵",
+   "en": "awkward silence",
+   "ex": {
+    "t": "彼はやめるつもりだとほのめかしました。",
+    "read": "かれはやめるつもりだとほのめかしました。",
+    "ko": "어색한 침묵이 흘렀어요.",
+    "en": "An awkward silence fell."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "はぐらかす",
+   "pos": "verb",
+   "read": "はぐらかす",
+   "ko": "암시하다",
+   "en": "imply",
+   "ex": {
+    "t": "彼は話をはぐらかしました。",
+    "read": "かれははなしをはぐらかしました。",
+    "ko": "그의 말은 불만을 암시했어요.",
+    "en": "His words implied discontent."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "抑えた",
+   "pos": "phrase",
+   "read": "おさえた",
+   "ko": "딴청을 피우다",
+   "en": "change the subject",
+   "ex": {
+    "t": "抑えた声で彼女は答えました。",
+    "read": "おさえたこえでかのじょはこたえました。",
+    "ko": "그는 화제를 돌렸어요.",
+    "en": "He changed the subject."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "せりふ",
+   "pos": "adj",
+   "read": "せりふ",
+   "ko": "억눌린",
+   "en": "suppressed",
+   "ex": {
+    "t": "そのせりふには別の意味がありました。",
+    "read": "そのせりふにはべつのいみがありました。",
+    "ko": "억눌린 분노가 느껴졌어요.",
+    "en": "Suppressed anger was palpable."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "さりげなく",
+   "pos": "noun",
+   "read": "さりげなく",
+   "ko": "대사",
+   "en": "line",
+   "ex": {
+    "t": "彼女はさりげなく話題を変えました。",
+    "read": "かのじょはさりげなくわだいをかえました。",
+    "ko": "그 대사는 인상적이었어요.",
+    "en": "That line was memorable."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "言いかける／言葉を濁す／行間を読む／〜とは言わないが／含みのある",
+   "en": "Subtext and implication: 言いかける / 言葉を濁す / 行間を読む / 含みのある"
+  },
+  "explain": {
+   "ko": "会話では、言葉に出さない意味が重要なことがあります。言葉を濁したり、言いかけてやめたり、気まずい沈黙を置いたりすると、本心が行間にあらわれます。小説や劇では、せりふの裏にある意味を「行間」と呼びます。「〜とは言わないが、〜と思っている」というように、はっきり言わずにほのめかす表現を読み取りましょう。",
+   "en": "In conversation, unspoken meaning can matter. Hedging, breaking off mid-sentence, or an awkward silence lets the real feeling emerge in what lies between the lines. In fiction and drama, meaning behind a line is called 「行間」. Learn to read implication — 「〜とは言わないが、〜と思っている」 — where something is hinted but not stated."
+  },
+  "table": {
+   "head": [
+    "表現 / Phrase",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "言葉を濁す",
+     "はっきり言わない",
+     "彼は言葉を濁した。"
+    ],
+    [
+     "言いかける",
+     "言いかけてやめる",
+     "彼女は言いかけてやめた。"
+    ],
+    [
+     "気まずい沈黙",
+     "awkward silence",
+     "気まずい沈黙が流れた。"
+    ],
+    [
+     "ほのめかす",
+     "hint",
+     "やめるとほのめかした。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "沈黙も意味を持ちます。",
+    "en": "Silence also carries meaning."
+   },
+   {
+    "ko": "「〜とは言わないが」は含みを表します。",
+    "en": "「〜とは言わないが」 signals implication."
+   },
+   {
+    "ko": "文脈と声の調子を合わせて読みます。",
+    "en": "Read context with tone."
+   }
+  ],
+  "examples": [
+   {
+    "t": "彼は質問に言葉を濁しました。",
+    "read": "かれはしつもんにことばをにごしました。",
+    "ko": "대화의 함축은 침묵에 숨어 있어요.",
+    "en": "The subtext of the dialogue lies in the silences."
+   },
+   {
+    "t": "彼女は何か言いかけてやめました。",
+    "read": "かのじょはなにかいいかけてやめました。",
+    "ko": "그는 말끝을 흐렸어요.",
+    "en": "He trailed off."
+   },
+   {
+    "t": "気まずい沈黙が流れました。",
+    "read": "きまずいちんもくがながれました。",
+    "ko": "행간을 읽어야 해요.",
+    "en": "You have to read between the lines."
+   },
+   {
+    "t": "彼はやめるつもりだとほのめかしました。",
+    "read": "かれはやめるつもりだとほのめかしました。",
+    "ko": "그는 화제를 돌렸어요.",
+    "en": "He changed the subject."
+   },
+   {
+    "t": "行間を読むと本心がわかります。",
+    "read": "ぎょうかんをよむとほんしんがわかります。",
+    "ko": "어색한 침묵이 흘렀어요.",
+    "en": "An awkward silence fell."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "彼は質問に___ました。",
+    "options": [
+     "言葉を濁し",
+     "大声で笑い",
+     "走り"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "彼女は何か___やめました。",
+    "options": [
+     "言いかけて",
+     "読み終えて",
+     "食べ終えて"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "気まずい___が流れました。",
+    "options": [
+     "沈黙",
+     "音楽",
+     "光"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___を読むと本心がわかります。",
+    "options": [
+     "行間",
+     "辞書",
+     "地図"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "彼は質問にどう答えましたか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 대화의 함축이란 무엇인가요?",
+     "en": "(Question) What is subtext in dialogue?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "言葉を濁して、はっきり答えませんでした。",
+       "大声で答えました。",
+       "何も聞こえませんでした。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "気まずい沈黙の理由は何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 인물이 화제를 돌리면 무엇을 알 수 있나요?",
+     "en": "(Question) What can we tell when a character changes the subject?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "二人とも本心を言わなかったからです。",
+       "音楽が大きかったからです。",
+       "雨が降っていたからです。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "彼、返事をするとき言葉を濁してたよね。"
+      },
+      {
+       "s": "B",
+       "t": "うん。何か隠しているんじゃないかな。"
+      },
+      {
+       "s": "A",
+       "t": "彼女も言いかけてやめたし。"
+      },
+      {
+       "s": "B",
+       "t": "行間を読むと、二人ともやめたいんだと思う。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 장면에서 그녀는 왜 화제를 돌렸을까?\nB: 진실을 말하고 싶지 않았기 때문이야.\nA: 어색한 침묵도 있었어.\nB: 그게 바로 함축된 의미지.",
+     "en": "A: Why did she change the subject in this scene?\nB: Because she did not want to tell the truth.\nA: There was an awkward silence too.\nB: That is exactly the subtext."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは二人についてどう思いましたか。",
+      "options": [
+       "二人ともやめたいと思っている",
+       "二人とも続けたいと思っている",
+       "二人は怒っている"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "会話では、言葉に出さない意味が重要なことがあります。言葉を濁したり、言いかけてやめたり、沈黙を置いたりすると、本心が行間にあらわれます。小説や劇では、せりふの裏にある意味を読み取ることが大切です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "소설에서 대화는 인물이 말하는 것과 실제로 의미하는 것이 다를 때 가장 흥미로워집니다. 말끝을 흐리거나 화제를 돌리는 것은 숨은 감정을 드러냅니다. 독자는 행간을 읽으며 인물의 진짜 마음에 다가갑니다.",
+     "en": "Dialogue in fiction is most interesting when what characters say differs from what they mean. Trailing off or changing the subject reveals hidden feeling. Readers read between the lines to approach the characters' true feelings."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "本心はどこにあらわれますか。",
+      "options": [
+       "行間",
+       "題名",
+       "目次"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "最近、仕事はどう？"
+      },
+      {
+       "s": "B",
+       "t": "まあ、普通かな。"
+      },
+      {
+       "s": "A",
+       "t": "何か言いたいことがあるの？"
+      },
+      {
+       "s": "B",
+       "t": "ううん……なんでもない。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "작가: 이 대화에는 함축이 부족합니다.\n편집자: 인물이 직접 감정을 말하고 있어요.\n작가: 그럼 화제를 돌리게 하면 어떨까요?\n편집자: 좋아요. 침묵도 넣어 보세요.",
+     "en": "Writer: This dialogue lacks subtext.\nEditor: The characters state their feelings directly.\nWriter: Then how about having them change the subject?\nEditor: Good. Try adding a silence too."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "彼女は仕事が______かなと答えます",
+      "answers": [
+       "普通"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "彼女は最後に「ううん……______」と言います",
+      "answers": [
+       "なんでもない"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 彼は質問に___ました。\n2) 彼女は何か___やめました。\n3) 気まずい___が流れました。",
+    "trans": {
+     "ko": "1) 대화의 함축은 침묵에 숨어 있어요. 2) 그는 말끝을 흐렸어요. 3) 행간을 읽어야 해요.",
+     "en": "1) The subtext of the dialogue lies in the silences. 2) He trailed off. 3) You have to read between the lines."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "彼は質問に___ました。",
+      "options": [
+       "言葉を濁し",
+       "大声で笑い",
+       "走り"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼女は何か___やめました。",
+      "options": [
+       "言いかけて",
+       "読み終えて",
+       "食べ終えて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "気まずい___が流れました。",
+      "options": [
+       "沈黙",
+       "音楽",
+       "光"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "彼女は笑顔で「大丈夫」と言いましたが、その声は(1)ました。彼は彼女が何かを(2)いることに気づきました。彼は行間を(3)、そっと隣に座りました。",
+    "trans": {
+     "ko": "그녀는 그의 말을 끊었다. 그는 화제를 돌렸고 어색한 침묵이 흘렀다. 두 사람은 아무것도 말하지 않았지만 억눌린 분노가 분명했다.",
+     "en": "She interrupted him. He changed the subject and an awkward silence fell. Neither said anything, but the suppressed anger was clear."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "震え",
+       "走り",
+       "歌い"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "隠して",
+       "売って",
+       "借りて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "読んで",
+       "無視して",
+       "壊して"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "戯曲の読み方\nせりふの裏を読む\n舞台では、せりふだけでなく、間や沈黙が意味を持つ。登場人物が言わなかったことが、言ったことよりも重要な場合もある。読者は、行間を読む力が求められる。",
+    "trans": {
+     "ko": "글쓰기 가이드\n함축이 있는 대화\n인물이 감정을 직접 말하게 하지 마세요. 대신 화제를 돌리거나 말끝을 흐리게 하면 독자가 행간을 읽게 됩니다. 이런 대화는 인물에 깊이를 더해 줍니다.",
+     "en": "WRITING GUIDE\nDialogue with subtext\nDon't have characters state their feelings directly. Having them change the subject or trail off instead makes readers read between the lines. Such dialogue adds depth to characters."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "舞台では何が意味を持ちますか。",
+      "options": [
+       "間や沈黙",
+       "照明の色",
+       "席の数"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "読者には何が求められますか。",
+      "options": [
+       "行間を読む力",
+       "暗記力",
+       "速く読む力"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、舞台では間や沈黙が意味を持つと述べています。登場人物が言わなかったことが、言ったことより重要なことがあると言います。",
+    "trans": {
+     "ko": "가이드는 인물이 감정을 직접 말하게 하지 말라고 한다. 가이드는 화제를 돌리는 것이 항상 좋지 않다고 한다. 가이드는 이런 대화가 인물에 깊이를 더한다고 본다.",
+     "en": "The guide says not to have characters state their feelings directly. The guide says changing the subject is never good. The guide says such dialogue adds depth to characters."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章は間や沈黙が意味を持つと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章はせりふだけが大切だと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章は有名な劇作家を紹介している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "言葉を濁して、はっきり答えませんでした。",
+    "read": "ことばをにごして、はっきりこたえませんでした。",
+    "ko": "대화의 진짜 의미는 말하지 않은 곳에 있습니다.",
+    "en": "The real meaning of the dialogue lies in what is not said.",
+    "situation": {
+     "ko": "함축을 설명할 때",
+     "en": "Explaining subtext"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "二人とも本心を言わなかったからです。",
+    "read": "ふたりともほんしんをいわなかったからです。",
+    "ko": "그녀는 대답하는 대신 화제를 돌렸습니다.",
+    "en": "Instead of answering, she changed the subject.",
+    "situation": {
+     "ko": "회피를 묘사할 때",
+     "en": "Describing evasion"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "彼女は何か言いかけてやめました。",
+    "read": "かのじょはなにかいいかけてやめました。",
+    "ko": "그는 말을 시작하다가 말끝을 흐렸습니다.",
+    "en": "He began to speak but trailed off.",
+    "situation": {
+     "ko": "머뭇거림을 묘사할 때",
+     "en": "Describing hesitation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "気まずい沈黙が流れました。",
+    "read": "きまずいちんもくがながれました。",
+    "ko": "그녀는 그의 말을 끊고 억눌린 분노를 드러냈습니다.",
+    "en": "She interrupted him, betraying suppressed anger.",
+    "situation": {
+     "ko": "감정을 묘사할 때",
+     "en": "Describing emotion"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "行間を読むと本心がわかります。",
+    "read": "ぎょうかんをよむとほんしんがわかります。",
+    "ko": "어색한 침묵이 두 사람 사이에 흘렀습니다.",
+    "en": "An awkward silence fell between the two.",
+    "situation": {
+     "ko": "긴장을 묘사할 때",
+     "en": "Describing tension"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "彼はやめるつもりだとほのめかしました。",
+    "read": "かれはやめるつもりだとほのめかしました。",
+    "ko": "독자는 행간을 읽어 진짜 감정을 파악합니다.",
+    "en": "Readers read between the lines to grasp the real feeling.",
+    "situation": {
+     "ko": "독자의 역할",
+     "en": "The reader's role"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "彼女はさりげなく話題を変えました。",
+    "read": "かのじょはさりげなくわだいをかえました。",
+    "ko": "그의 말은 겉으로는 칭찬이지만 불만을 암시합니다.",
+    "en": "His words seem like praise but imply discontent.",
+    "situation": {
+     "ko": "분석할 때",
+     "en": "Analysing"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "そのせりふには含みがありました。",
+    "read": "そのせりふにはふくみがありました。",
+    "ko": "좋은 대화는 인물이 말하지 않는 것을 드러냅니다.",
+    "en": "Good dialogue reveals what the characters do not say.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "言いかけてやめる。",
+    "read": "いいかけてやめる。",
+    "ko": "말하지 않은 것.",
+    "en": "what is not said"
+   },
+   {
+    "id": "w2",
+    "t": "言葉を濁す。",
+    "read": "ことばをにごす。",
+    "ko": "화제를 돌리다.",
+    "en": "change the subject"
+   },
+   {
+    "id": "w3",
+    "t": "行間を読む。",
+    "read": "ぎょうかんをよむ。",
+    "ko": "말끝을 흐리다.",
+    "en": "trail off"
+   },
+   {
+    "id": "w4",
+    "t": "含みがある。",
+    "read": "ふくみがある。",
+    "ko": "행간을 읽다.",
+    "en": "read between the lines"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "함축이 있는 대화 4줄을 써 보고 마지막에 함축된 의미를 한 문장으로 설명하세요.",
+    "en": "Write four lines of dialogue with subtext, then explain the subtext in one sentence."
+   },
+   "must_include": [
+    {
+     "label": "言葉を濁",
+     "match": [
+      "言葉を濁しました"
+     ]
+    },
+    {
+     "label": "行間",
+     "match": [
+      "行間を読"
+     ]
+    },
+    {
+     "label": "沈黙",
+     "match": [
+      "沈黙が流れ"
+     ]
+    }
+   ],
+   "model": "彼は私の質問に言葉を濁しました。そのあと、気まずい沈黙が流れました。行間を読むと、彼は何かを隠していると感じました。でも、私は何も言わずに待ちました。",
+   "model_trans": {
+    "ko": "A: 저녁은 먹었어? B: 늦게까지 일했어. A: 항상 그렇지. B: 오늘 일찍 올 수 있었는데... 말끝을 흐렸어요. 이 대화의 함축은 서로에 대한 서운함이에요.",
+    "en": "A: Have you eaten? B: I worked late. A: As always. B: I could have come home early today... he trailed off. The subtext of this dialogue is mutual resentment."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u28",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 28,
+  "concept": "C2.U28",
+  "status": "live",
+  "title": {
+   "target": "語り手と視点",
+   "ko": "서술 시점과 자유간접화법",
+   "en": "Narrative voice and free indirect discourse"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "語り手",
+   "pos": "noun",
+   "read": "かたりて",
+   "ko": "서술자",
+   "en": "narrator",
+   "ex": {
+    "t": "この小説の語り手は子どもです。",
+    "read": "このしょうせつのかたりてはこどもです。",
+    "ko": "서술자는 사건을 회상해요.",
+    "en": "The narrator recalls the events."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "視点",
+   "pos": "phrase",
+   "read": "してん",
+   "ko": "시점",
+   "en": "point of view",
+   "ex": {
+    "t": "視点が途中で変わります。",
+    "read": "してんがとちゅうでかわります。",
+    "ko": "이 소설은 1인칭 시점이에요.",
+    "en": "The novel is in the first-person point of view."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "全知の",
+   "pos": "adj",
+   "read": "ぜんちの",
+   "ko": "전지적인",
+   "en": "omniscient",
+   "ex": {
+    "t": "全知の語り手はすべてを知っています。",
+    "read": "ぜんちのかたりてはすべてをしっています。",
+    "ko": "전지적 서술자는 모든 인물의 속마음을 알아요.",
+    "en": "An omniscient narrator knows every character's mind."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "信頼できない語り手",
+   "pos": "phrase",
+   "read": "しんらいできないかたりて",
+   "ko": "신뢰할 수 없는 서술자",
+   "en": "unreliable narrator",
+   "ex": {
+    "t": "信頼できない語り手が物語を混乱させます。",
+    "read": "しんらいできないかたりてがものがたりをこんらんさせます。",
+    "ko": "그는 신뢰할 수 없는 서술자예요.",
+    "en": "He is an unreliable narrator."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "自由間接話法",
+   "pos": "phrase",
+   "read": "じゆうかんせつわほう",
+   "ko": "자유간접화법",
+   "en": "free indirect discourse",
+   "ex": {
+    "t": "自由間接話法で心の声を伝えます。",
+    "read": "じゆうかんせつわほうでこころのこえをつたえます。",
+    "ko": "작가는 자유간접화법을 즐겨 써요.",
+    "en": "The author favours free indirect discourse."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "内的独白",
+   "pos": "phrase",
+   "read": "ないてきどくはく",
+   "ko": "내적 독백",
+   "en": "interior monologue",
+   "ex": {
+    "t": "内的独白が長く続きます。",
+    "read": "ないてきどくはくがながくつづきます。",
+    "ko": "그 장면은 내적 독백으로 이루어져 있어요.",
+    "en": "The scene is made of interior monologue."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "焦点人物",
+   "pos": "noun",
+   "read": "しょうてんじんぶつ",
+   "ko": "초점 인물",
+   "en": "focaliser",
+   "ex": {
+    "t": "焦点人物を通して世界が描かれます。",
+    "read": "しょうてんじんぶつをとうしてせかいがえがかれます。",
+    "ko": "초점 인물은 장면을 해석해요.",
+    "en": "The focaliser interprets the scene."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "距離を置く",
+   "pos": "verb",
+   "read": "きょりをおく",
+   "ko": "거리를 두다",
+   "en": "distance",
+   "ex": {
+    "t": "語り手は登場人物と距離を置いています。",
+    "read": "かたりてはとうじょうじんぶつときょりをおいています。",
+    "ko": "서술자는 인물과 거리를 두고 있어요.",
+    "en": "The narrator keeps a distance from the character."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "透けて見える",
+   "pos": "verb",
+   "read": "すけてみえる",
+   "ko": "은연중에 드러나다",
+   "en": "betray",
+   "ex": {
+    "t": "語り手の偏見が透けて見えます。",
+    "read": "かたりてのへんけんがすけてみえます。",
+    "ko": "그의 말은 불안을 은연중에 드러냈어요.",
+    "en": "His words betrayed anxiety."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "二重の声",
+   "pos": "phrase",
+   "read": "にじゅうのこえ",
+   "ko": "이중적 목소리",
+   "en": "double voice",
+   "ex": {
+    "t": "二重の声が皮肉を生みます。",
+    "read": "にじゅうのこえがひにくをうみます。",
+    "ko": "이 문장에는 이중적 목소리가 있어요.",
+    "en": "This sentence has a double voice."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "一人称・三人称／全知の語り手／信頼できない語り手／内的独白／〜を通して",
+   "en": "Narrator and point of view: 一人称・三人称 / 全知の語り手 / 信頼できない語り手 / 内的独白"
+  },
+  "explain": {
+   "ko": "物語には誰かが語る声があります。一人称の語り手は「私」として語り、三人称の語り手は外から語ります。全知の語り手はすべての登場人物の心を知っていますが、「信頼できない語り手」は事実を偽ったり、思い違いをしたりします。「自由間接話法」は、地の文の中に登場人物の心の声をまぜる方法で、語り手と人物の声が二重に響きます。誰の目を通して語られているかを考えると、読みが深まります。",
+   "en": "Stories have a voice that narrates. A first-person narrator says 「私」; a third-person narrator speaks from outside. An omniscient narrator knows every character's mind, but an unreliable narrator misreports or misjudges. 「自由間接話法」 blends a character's inner voice into narration, so two voices sound together. Asking through whose eyes a story is told deepens reading."
+  },
+  "table": {
+   "head": [
+    "種類 / Type",
+    "特徴 / Feature",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "一人称",
+     "「私」が語る",
+     "私は窓の外を見た。"
+    ],
+    [
+     "三人称全知",
+     "すべての心を知る",
+     "彼女は悲しかった。"
+    ],
+    [
+     "信頼できない",
+     "事実を偽る",
+     "私は何も見なかった。"
+    ],
+    [
+     "自由間接",
+     "心の声がまざる",
+     "どうして彼女は来ないのか。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "誰の目を通して語られるかを考えましょう。",
+    "en": "Ask through whose eyes it is told."
+   },
+   {
+    "ko": "信頼できない語り手には注意が必要です。",
+    "en": "Be careful with unreliable narrators."
+   },
+   {
+    "ko": "視点が変わると印象が変わります。",
+    "en": "A change of viewpoint changes the impression."
+   }
+  ],
+  "examples": [
+   {
+    "t": "この小説の語り手は子どもです。",
+    "read": "このしょうせつのかたりてはこどもです。",
+    "ko": "서술자는 사건을 회상해요.",
+    "en": "The narrator recalls the events."
+   },
+   {
+    "t": "全知の語り手はすべてを知っています。",
+    "read": "ぜんちのかたりてはすべてをしっています。",
+    "ko": "이 소설은 1인칭 시점이에요.",
+    "en": "The novel is in the first-person point of view."
+   },
+   {
+    "t": "信頼できない語り手が物語を混乱させます。",
+    "read": "しんらいできないかたりてがものがたりをこんらんさせます。",
+    "ko": "그는 신뢰할 수 없는 서술자예요.",
+    "en": "He is an unreliable narrator."
+   },
+   {
+    "t": "自由間接話法で心の声を伝えます。",
+    "read": "じゆうかんせつわほうでこころのこえをつたえます。",
+    "ko": "작가는 자유간접화법을 즐겨 써요.",
+    "en": "The author favours free indirect discourse."
+   },
+   {
+    "t": "焦点人物を通して世界が描かれます。",
+    "read": "しょうてんじんぶつをとうしてせかいがえがかれます。",
+    "ko": "서술자는 인물과 거리를 두고 있어요.",
+    "en": "The narrator keeps a distance from the character."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "この小説の___は子どもです。",
+    "options": [
+     "語り手",
+     "作者",
+     "読者"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___語り手はすべてを知っています。",
+    "options": [
+     "全知の",
+     "信頼できない",
+     "幼い"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___話法で心の声を伝えます。",
+    "options": [
+     "自由間接",
+     "直接",
+     "間接"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "焦点人物を___世界が描かれます。",
+    "options": [
+     "通して",
+     "避けて",
+     "忘れて"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この小説は誰の視点で語られていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 신뢰할 수 없는 서술자란 무엇인가요?",
+     "en": "(Question) What is an unreliable narrator?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "子どもの「私」の視点で語られています。",
+       "神様の視点です。",
+       "視点はありません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "信頼できない語り手とは何ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 자유간접화법이란 무엇인가요?",
+     "en": "(Question) What is free indirect discourse?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "事実を偽ったり、思い違いをしたりする語り手です。",
+       "いつも正しい語り手です。",
+       "名前のない語り手です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この小説、誰が語っているの？"
+      },
+      {
+       "s": "B",
+       "t": "子どもの「私」だよ。"
+      },
+      {
+       "s": "A",
+       "t": "じゃあ全部を知っているわけじゃないね。"
+      },
+      {
+       "s": "B",
+       "t": "そう、だから読者が行間を読む必要があるんだ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 소설은 누구의 시점이야?\nB: 1인칭 서술자야.\nA: 그가 믿을 만해?\nB: 아니, 신뢰할 수 없는 서술자여서 독자를 오도해.",
+     "en": "A: Whose point of view is this novel?\nB: A first-person narrator.\nA: Is he reliable?\nB: No, he is an unreliable narrator who misleads the reader."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "読者は何をする必要がありますか。",
+      "options": [
+       "行間を読む",
+       "語り手を無視する",
+       "結末を変える"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "語り手の種類によって、物語の印象は変わります。全知の語り手はすべてを知っていますが、信頼できない語り手は事実を偽ったり、思い違いをしたりします。誰の目を通して語られているかを考えると、読みが深まります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "서술의 시점은 독자의 이해를 좌우합니다. 1인칭은 친밀하지만 제한적이고, 전지적 시점은 모든 것을 알지만 거리가 있습니다. 자유간접화법은 서술자와 인물의 목소리를 섞어 인물의 생각을 직접 따옴표 없이 전달합니다.",
+     "en": "The choice of narrative viewpoint shapes the reader's understanding. First person is intimate but limited, and the omniscient viewpoint knows everything but is distant. Free indirect discourse blends the voices of narrator and character, conveying a character's thoughts directly without quotation marks."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "誰の目を通して語られているかを考えると何が深まりますか。",
+      "options": [
+       "読み",
+       "文字数",
+       "ページ数"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この場面の語り手は誰ですか。"
+      },
+      {
+       "s": "B",
+       "t": "少女の「私」です。"
+      },
+      {
+       "s": "A",
+       "t": "彼女の言うことは信頼できますか。"
+      },
+      {
+       "s": "B",
+       "t": "ところどころ、思い違いをしているようです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 이 문장은 누구의 목소리인가요?\n학생: 서술자와 인물의 목소리가 섞여 있습니다.\n교수: 그렇죠. 무엇이라고 부르나요?\n학생: 자유간접화법입니다.",
+     "en": "Professor: Whose voice is this sentence?\nStudent: The narrator's and character's voices are blended.\nProfessor: Right. What is it called?\nStudent: Free indirect discourse."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "学生は語り手が少女の「______」だと言います",
+      "answers": [
+       "私"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "彼女はところどころ______をしているようだと言います",
+      "answers": [
+       "思い違い"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) この小説の___は子どもです。\n2) ___語り手はすべてを知っています。\n3) ___話法で心の声を伝えます。",
+    "trans": {
+     "ko": "1) 서술자는 사건을 회상해요. 2) 이 소설은 1인칭 시점이에요. 3) 그는 신뢰할 수 없는 서술자예요.",
+     "en": "1) The narrator recalls the events. 2) The novel is in the first-person point of view. 3) He is an unreliable narrator."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この小説の___は子どもです。",
+      "options": [
+       "語り手",
+       "作者",
+       "読者"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___語り手はすべてを知っています。",
+      "options": [
+       "全知の",
+       "信頼できない",
+       "幼い"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___話法で心の声を伝えます。",
+      "options": [
+       "自由間接",
+       "直接",
+       "間接"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "この小説は、少女の目を(1)語られます。しかし彼女は事実を(2)いることがあります。読者はそのため、行間を(3)必要があります。",
+    "trans": {
+     "ko": "그녀는 편지를 열어 보았다. 이게 정말 가능한 일인가? 이 문장에는 서술자와 인물의 이중적 목소리가 있다. 독자는 그녀의 생각을 직접 따라간다.",
+     "en": "She opened the letter. Could this really be possible? This sentence has the double voice of narrator and character. The reader follows her thoughts directly."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "通して",
+       "避けて",
+       "忘れて"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "偽って",
+       "守って",
+       "知って"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "読む",
+       "消す",
+       "飛ばす"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "書評\n誰が語るのか\nこの作品の魅力は、語りの二重性にある。語り手は少女の目を通して世界を見せるが、その言葉はときに信頼できない。読者は、彼女の見たことと、実際に起きたことの間のずれに気づく。",
+    "trans": {
+     "ko": "문학 칼럼\n누구의 목소리인가\n자유간접화법은 서술자와 인물의 경계를 흐린다. 따옴표 없이 인물의 생각이 서술에 스며들기 때문이다. 그래서 독자는 누구의 판단인지 끊임없이 질문하게 된다.",
+     "en": "LITERARY COLUMN\nWhose voice is it?\nFree indirect discourse blurs the boundary between narrator and character. A character's thoughts seep into the narration without quotation marks. So readers keep asking whose judgement it is."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この作品の魅力は何にありますか。",
+      "options": [
+       "語りの二重性",
+       "登場人物の数",
+       "文章の短さ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "読者は何に気づきますか。",
+      "options": [
+       "見たことと実際のずれ",
+       "作者の名前",
+       "出版年"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この書評は、作品の魅力が語りの二重性にあると述べています。読者は、少女が見たことと実際に起きたことのずれに気づくと言います。",
+    "trans": {
+     "ko": "칼럼은 자유간접화법이 서술자와 인물의 경계를 흐린다고 본다. 칼럼은 자유간접화법이 따옴표를 반드시 쓴다고 한다. 칼럼은 독자가 누구의 판단인지 질문하게 된다고 본다.",
+     "en": "The column says free indirect discourse blurs the boundary between narrator and character. The column says free indirect discourse always uses quotation marks. The column says readers ask whose judgement it is."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "書評は語りの二重性が魅力だと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "書評は語り手がいつも正しいと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "書評は作者の年齢に触れている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "子どもの「私」の視点で語られています。",
+    "read": "こどもの「わたし」のしてんでかたられています。",
+    "ko": "이 소설은 1인칭 서술자의 시점으로 전개됩니다.",
+    "en": "The novel unfolds from the point of view of a first-person narrator.",
+    "situation": {
+     "ko": "시점을 설명할 때",
+     "en": "Explaining point of view"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "事実を偽ったり、思い違いをしたりする語り手です。",
+    "read": "じじつをにせったり、おもいちがいをしたりするかたりてです。",
+    "ko": "전지적 서술자는 모든 인물의 속마음을 압니다.",
+    "en": "An omniscient narrator knows the inner thoughts of every character.",
+    "situation": {
+     "ko": "전지적 시점",
+     "en": "Omniscient narration"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "全知の語り手はすべてを知っています。",
+    "read": "ぜんちのかたりてはすべてをしっています。",
+    "ko": "신뢰할 수 없는 서술자는 독자를 오도합니다.",
+    "en": "An unreliable narrator misleads the reader.",
+    "situation": {
+     "ko": "서술자의 한계",
+     "en": "Limits of the narrator"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "自由間接話法で心の声を伝えます。",
+    "read": "じゆうかんせつわほうでこころのこえをつたえます。",
+    "ko": "자유간접화법은 서술자와 인물의 목소리를 섞습니다.",
+    "en": "Free indirect discourse blends the narrator's and character's voices.",
+    "situation": {
+     "ko": "자유간접화법 설명",
+     "en": "Explaining free indirect discourse"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "語り手の偏見が透けて見えます。",
+    "read": "かたりてのへんけんがすけてみえます。",
+    "ko": "그녀는 이제 어떻게 해야 하나? 이런 곤란한 처지에 빠지다니.",
+    "en": "What was she to do now? What a predicament to find herself in.",
+    "situation": {
+     "ko": "자유간접화법 예",
+     "en": "Example of free indirect discourse"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "誰の目を通して語られていますか。",
+    "read": "だれのめをとうしてかたられていますか。",
+    "ko": "서술자는 인물과 거리를 두며 아이러니를 만들어 냅니다.",
+    "en": "The narrator keeps a distance from the character and creates irony.",
+    "situation": {
+     "ko": "거리와 아이러니",
+     "en": "Distance and irony"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "視点が変わると印象も変わります。",
+    "read": "してんがかわるといんしょうもかわります。",
+    "ko": "그의 변명은 오히려 불안을 은연중에 드러냈습니다.",
+    "en": "His excuses rather betrayed his anxiety.",
+    "situation": {
+     "ko": "서술을 분석할 때",
+     "en": "Analysing narration"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "読者は行間を読む必要があります。",
+    "read": "どくしゃはぎょうかんをよむひつようがあります。",
+    "ko": "시점의 선택은 독자의 이해를 좌우합니다.",
+    "en": "The choice of viewpoint shapes the reader's understanding.",
+    "situation": {
+     "ko": "핵심을 말할 때",
+     "en": "Stating the point"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "語り手が〜を通して語る。",
+    "read": "かたりてが〜をとうしてかたる。",
+    "ko": "~의 시점에서.",
+    "en": "from the point of view of ..."
+   },
+   {
+    "id": "w2",
+    "t": "全知の語り手。",
+    "read": "ぜんちのかたりて。",
+    "ko": "서술자와 인물의 목소리를 섞다.",
+    "en": "blend the narrator's and character's voices"
+   },
+   {
+    "id": "w3",
+    "t": "信頼できない語り手。",
+    "read": "しんらいできないかたりて。",
+    "ko": "독자를 오도하다.",
+    "en": "mislead the reader"
+   },
+   {
+    "id": "w4",
+    "t": "自由間接話法。",
+    "read": "じゆうかんせつわほう。",
+    "ko": "거리를 두다.",
+    "en": "keep a distance from ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "같은 장면을 1인칭, 3인칭, 자유간접화법으로 나누어 3문장 + 설명 1문장으로 써 보세요.",
+    "en": "Write the same scene in first person, third person and free indirect discourse (three sentences plus one explanatory sentence)."
+   },
+   "must_include": [
+    {
+     "label": "語り手",
+     "match": [
+      "語り手は"
+     ]
+    },
+    {
+     "label": "信頼でき",
+     "match": [
+      "信頼できない"
+     ]
+    },
+    {
+     "label": "通して",
+     "match": [
+      "通して"
+     ]
+    }
+   ],
+   "model": "この小説の語り手は、少女の目を通して世界を見せます。ただ、彼女は信頼できない語り手で、事実を思い違いしていることがあります。読者は行間を読んで、本当に何が起きたのかを考えなければなりません。",
+   "model_trans": {
+    "ko": "1인칭: 나는 편지를 열어 보고 숨을 멈췄다. 3인칭: 그녀는 편지를 열어 보고 숨을 멈췄다. 자유간접화법: 그녀는 편지를 열어 보았다. 이게 정말 가능한 일인가? 서술자와 인물의 목소리가 섞이는 방식이다.",
+    "en": "First person: I opened the letter and held my breath. Third person: She opened the letter and held her breath. Free indirect discourse: She opened the letter. Could this really be possible? The narrator's and character's voices blend."
+   }
+  }
+ }
+}

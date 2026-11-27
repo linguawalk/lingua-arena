@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u43",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 43,
+  "concept": "C2.U43",
+  "status": "live",
+  "title": {
+   "target": "厳しい質問への対応",
+   "ko": "공격적인 질문 대응",
+   "en": "Handling hostile questions"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "攻撃的な",
+   "pos": "adj",
+   "read": "こうげきてきな",
+   "ko": "공격적인",
+   "en": "hostile",
+   "ex": {
+    "t": "攻撃的な質問にも冷静に答えます。",
+    "read": "こうげきてきなしつもんにもれいせいにこたえます。",
+    "ko": "청중의 질문은 공격적이었어요.",
+    "en": "The question from the audience was hostile."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "誘導尋問",
+   "pos": "phrase",
+   "read": "ゆうどうじんもん",
+   "ko": "유도 질문",
+   "en": "loaded question",
+   "ex": {
+    "t": "誘導尋問に乗らないようにします。",
+    "read": "ゆうどうじんもんにのらないようにします。",
+    "ko": "그건 유도 질문이에요.",
+    "en": "That is a loaded question."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "明確にする",
+   "pos": "verb",
+   "read": "めいかくにする",
+   "ko": "분명히 하다",
+   "en": "clarify",
+   "ex": {
+    "t": "まず論点を明確にします。",
+    "read": "まずろんてんをめいかくにします。",
+    "ko": "제 입장을 분명히 하겠습니다.",
+    "en": "Let me clarify my position."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "反論する",
+   "pos": "phrase",
+   "read": "はんろんする",
+   "ko": "반박하다",
+   "en": "push back",
+   "ex": {
+    "t": "根拠を挙げて反論します。",
+    "read": "こんきょをあげてはんろんします。",
+    "ko": "저는 그 전제에 반박하겠습니다.",
+    "en": "I would push back on that premise."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "冷静さ",
+   "pos": "noun",
+   "read": "れいせいさ",
+   "ko": "침착함",
+   "en": "composure",
+   "ex": {
+    "t": "冷静さを保つことが大切です。",
+    "read": "れいせいさをたもつことがたいせつです。",
+    "ko": "그는 침착함을 유지했어요.",
+    "en": "He kept his composure."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "防御的な",
+   "pos": "adj",
+   "read": "ぼうぎょてきな",
+   "ko": "방어적인",
+   "en": "defensive",
+   "ex": {
+    "t": "防御的な答えは印象を悪くします。",
+    "read": "ぼうぎょてきなこたえはいんしょうをわるくします。",
+    "ko": "방어적으로 들리지 않게 하세요.",
+    "en": "Avoid sounding defensive."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "言い換える",
+   "pos": "verb",
+   "read": "いいかえる",
+   "ko": "질문을 재구성하다",
+   "en": "reframe",
+   "ex": {
+    "t": "質問を言い換えて確認します。",
+    "read": "しつもんをいいかえてかくにんします。",
+    "ko": "질문을 중립적으로 재구성했어요.",
+    "en": "She reframed the question neutrally."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "はぐらかす",
+   "pos": "verb",
+   "read": "はぐらかす",
+   "ko": "회피하다",
+   "en": "deflect",
+   "ex": {
+    "t": "質問をはぐらかすのはよくありません。",
+    "read": "しつもんをはぐらかすのはよくありません。",
+    "ko": "그는 질문을 회피했어요.",
+    "en": "He deflected the question."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "根拠のない",
+   "pos": "adj",
+   "read": "こんきょのない",
+   "ko": "근거 없는",
+   "en": "unfounded",
+   "ex": {
+    "t": "根拠のない非難には事実で答えます。",
+    "read": "こんきょのないひなんにはじじつでこたえます。",
+    "ko": "그 주장은 근거가 없어요.",
+    "en": "That claim is unfounded."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "理解を求める",
+   "pos": "verb",
+   "read": "りかいをもとめる",
+   "ko": "이해를 구하다",
+   "en": "acknowledge",
+   "ex": {
+    "t": "ご理解をお願いします。",
+    "read": "ごりかいをおねがいします。",
+    "ko": "저는 우려를 인정합니다.",
+    "en": "I acknowledge your concern."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜という前提は誤りです／質問を言い換える／冷静に答える／根拠のない／確認させてください",
+   "en": "Handling hostile questions: 〜という前提は誤りです / 質問を言い換える / 冷静に / 根拠のない / 確認させてください"
+  },
+  "explain": {
+   "ko": "厳しい質問を受けても、冷静に答えることが大切です。まず「質問を言い換えて」論点を確認します：「つまり〜というご質問ですね。」誘導尋問には「その前提は誤りです」と丁寧に訂正します。根拠のない非難には、事実を挙げて反論しましょう。防御的になったり、はぐらかしたりすると、かえって印象が悪くなります。",
+   "en": "Even under hard questions, answer calmly. First restate the question to confirm the point: 「つまり〜というご質問ですね。」 Politely correct a leading question with 「その前提は誤りです」. Meet groundless accusations with facts. Defensiveness or evasion only worsens the impression."
+  },
+  "table": {
+   "head": [
+    "場面 / Situation",
+    "表現 / Phrase",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "確認",
+     "つまり〜ですね",
+     "つまり、費用のことですね。"
+    ],
+    [
+     "訂正",
+     "前提は誤りです",
+     "その前提は誤りです。"
+    ],
+    [
+     "反論",
+     "事実を挙げる",
+     "データでは〜です。"
+    ],
+    [
+     "理解",
+     "ご理解をお願いします",
+     "ご理解をお願いします。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "まず質問を言い換えて確認します。",
+    "en": "First restate to confirm."
+   },
+   {
+    "ko": "感情的に反応しないようにします。",
+    "en": "Do not react emotionally."
+   },
+   {
+    "ko": "事実で答えましょう。",
+    "en": "Answer with facts."
+   }
+  ],
+  "examples": [
+   {
+    "t": "つまり、費用についてのご質問ですね。",
+    "read": "つまり、ひようについてのごしつもんですね。",
+    "ko": "청중의 질문은 공격적이었어요.",
+    "en": "The question from the audience was hostile."
+   },
+   {
+    "t": "その前提は誤りだと考えます。",
+    "read": "そのぜんていはあやまりだとかんがえます。",
+    "ko": "그건 유도 질문이에요.",
+    "en": "That is a loaded question."
+   },
+   {
+    "t": "データでは、そのような事実はありません。",
+    "read": "データでは、そのようなじじつはありません。",
+    "ko": "제 입장을 분명히 하겠습니다.",
+    "en": "Let me clarify my position."
+   },
+   {
+    "t": "ご質問の趣旨を確認させてください。",
+    "read": "ごしつもんのしゅしをかくにんさせてください。",
+    "ko": "그는 침착함을 유지했어요.",
+    "en": "He kept his composure."
+   },
+   {
+    "t": "ご理解をお願いします。",
+    "read": "ごりかいをおねがいします。",
+    "ko": "저는 우려를 인정합니다.",
+    "en": "I acknowledge your concern."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "つまり、費用に___のご質問ですね。",
+    "options": [
+     "ついて",
+     "よって",
+     "ように"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "その前提は___だと考えます。",
+    "options": [
+     "誤り",
+     "正しい",
+     "嬉しい"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "ご質問の趣旨を___させてください。",
+    "options": [
+     "確認",
+     "無視",
+     "否定"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "ご___をお願いします。",
+    "options": [
+     "理解",
+     "反対",
+     "無視"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "攻撃的な質問にどう答えますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 공격적인 질문에는 어떻게 시작하나요?",
+     "en": "(Question) How do you begin to answer a hostile question?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "冷静に、事実を挙げて答えます。",
+       "怒って答えます。",
+       "答えません。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "誘導尋問にはどう対応しますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 유도 질문에는 어떻게 대응하나요?",
+     "en": "(Question) How do you respond to a loaded question?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "前提の誤りを丁寧に指摘します。",
+       "そのまま受け入れます。",
+       "席を立ちます。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "なぜ会社は責任を逃れようとしているのですか。"
+      },
+      {
+       "s": "B",
+       "t": "責任を逃れようとしているというのは、事実ではありません。"
+      },
+      {
+       "s": "A",
+       "t": "では、なぜ対応が遅れたのですか。"
+      },
+      {
+       "s": "B",
+       "t": "調査に時間がかかったためです。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 기자가 공격적으로 질문하면 어떻게 하지?\nB: 먼저 침착하게 질문에 감사하고 전제를 짚어 봐.\nA: 반박은 어떻게 해?\nB: 사실을 들어 정중히 반박해.",
+     "en": "A: What should I do when a journalist asks aggressively?\nB: First thank them calmly and examine the premise.\nA: How do I rebut?\nB: Politely, with facts."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは対応が遅れた理由を何と言いましたか。",
+      "options": [
+       "調査に時間がかかった",
+       "忘れていた",
+       "忙しかった"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "厳しい質問を受けても、冷静に答えることが大切です。まず質問を言い換えて論点を確認し、誘導尋問には前提の誤りを丁寧に指摘します。根拠のない非難には、事実を挙げて反論しましょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "공격적인 질문에 감정적으로 대응하면 방어적으로 보입니다. 질문에 감사하고, 전제를 짚고, 사실로 답한 뒤 핵심 메시지로 돌아오면 침착함과 신뢰를 유지할 수 있습니다. 유도 질문은 전제를 거부하며 재구성하는 것이 효과적입니다.",
+     "en": "Responding emotionally to a hostile question makes you look defensive. Thanking the questioner, examining the premise, answering with facts and returning to your key message maintains composure and credibility. With a loaded question, it is effective to reject the premise and reframe."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "防御的な答えは印象をどうしますか。",
+      "options": [
+       "悪くする",
+       "よくする",
+       "変えない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "なぜ事実を隠していたのですか。"
+      },
+      {
+       "s": "B",
+       "t": "隠していたという前提は誤りです。"
+      },
+      {
+       "s": "A",
+       "t": "では、いつ公表したのですか。"
+      },
+      {
+       "s": "B",
+       "t": "調査が終わった昨日です。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 이 정책은 실패 아닙니까?\n장관: 좋은 질문입니다. 저는 그 전제에 반박하겠습니다.\n기자: 근거가 있나요?\n장관: 네, 확인된 자료가 있습니다.",
+     "en": "Journalist: Isn't this policy a failure?\nMinister: Good question. I would push back on that premise.\nJournalist: What is your evidence?\nMinister: Yes, we have verified data."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "社長は隠していたという______は誤りだと言います",
+      "answers": [
+       "前提"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "公表したのは調査が終わった______だと言います",
+      "answers": [
+       "昨日"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) つまり、費用に___のご質問ですね。\n2) その前提は___だと考えます。\n3) ご質問の趣旨を___させてください。",
+    "trans": {
+     "ko": "1) 청중의 질문은 공격적이었어요. 2) 그건 유도 질문이에요. 3) 그는 침착함을 유지했어요.",
+     "en": "1) The question from the audience was hostile. 2) That is a loaded question. 3) He kept his composure."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "つまり、費用に___のご質問ですね。",
+      "options": [
+       "ついて",
+       "よって",
+       "ように"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "その前提は___だと考えます。",
+      "options": [
+       "誤り",
+       "正しい",
+       "嬉しい"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "ご質問の趣旨を___させてください。",
+      "options": [
+       "確認",
+       "無視",
+       "否定"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "記者は攻撃的な質問をしましたが、社長は(1)に答えました。そして、根拠のない(2)には、事実を挙げて(3)しました。",
+    "trans": {
+     "ko": "기자의 질문은 공격적이었다. 장관은 침착함을 유지하며 전제에 반박했다. 그는 확인된 자료로 질문에 답했다.",
+     "en": "The journalist's question was hostile. The minister kept his composure and pushed back on the premise. He answered with verified data."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "冷静",
+       "乱暴",
+       "曖昧"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "非難",
+       "料理",
+       "写真"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "反論",
+       "謝罪",
+       "拍手"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "広報のコツ\n厳しい質問に答える\n厳しい質問ほど、冷静さが大切だ。まず質問を言い換えて論点を確認し、それから事実に基づいて答える。防御的になったり、話をそらしたりすると、信頼を失う。",
+    "trans": {
+     "ko": "언론 대응 가이드\n공격적인 질문에 답하는 법\n먼저 심호흡하고 질문에 감사하세요. 전제를 짚어 반박하되 감정적으로 대응하지 마세요. 마지막에는 핵심 메시지로 돌아오세요.",
+     "en": "MEDIA RESPONSE GUIDE\nAnswering hostile questions\nFirst take a deep breath and thank the questioner. Examine the premise and rebut it, but do not respond emotionally. At the end, return to your key message."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "厳しい質問ほど何が大切ですか。",
+      "options": [
+       "冷静さ",
+       "声の大きさ",
+       "長い説明"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "防御的になるとどうなりますか。",
+      "options": [
+       "信頼を失う",
+       "信頼が増す",
+       "何も変わらない"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、厳しい質問ほど冷静さが大切だと述べています。防御的になったり、話をそらしたりすると信頼を失うと言います。",
+    "trans": {
+     "ko": "가이드는 먼저 질문에 감사하라고 한다. 가이드는 감정적으로 대응하라고 한다. 가이드는 핵심 메시지로 돌아오라고 한다.",
+     "en": "The guide says to thank the questioner first. The guide says to respond emotionally. The guide says to return to the key message."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章は冷静さが大切だと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章は質問に答えなくてよいと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章は特定の企業の事件を紹介している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "冷静に、事実を挙げて答えます。",
+    "read": "れいせいに、じじつをあげてこたえます。",
+    "ko": "좋은 질문 감사합니다. 분명히 말씀드리겠습니다.",
+    "en": "I appreciate the question. Let me be clear.",
+    "situation": {
+     "ko": "차분히 시작할 때",
+     "en": "Starting calmly"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "前提の誤りを丁寧に指摘します。",
+    "read": "ぜんていのあやまりをていねいにしてきします。",
+    "ko": "제 입장을 분명히 하겠습니다.",
+    "en": "Let me clarify my position.",
+    "situation": {
+     "ko": "입장을 밝힐 때",
+     "en": "Stating a position"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "つまり、費用のご質問ですね。",
+    "read": "つまり、ひようのごしつもんですね。",
+    "ko": "그 전제에는 동의하지 않습니다.",
+    "en": "I would push back on that premise.",
+    "situation": {
+     "ko": "전제를 반박할 때",
+     "en": "Challenging a premise"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "その前提は誤りだと考えます。",
+    "read": "そのぜんていはあやまりだとかんがえます。",
+    "ko": "그것은 이미 결론을 전제한 유도 질문입니다.",
+    "en": "That is a loaded question that presupposes the conclusion.",
+    "situation": {
+     "ko": "유도 질문에 대응할 때",
+     "en": "Answering a loaded question"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "質問を言い換えて確認します。",
+    "read": "しつもんをいいかえてかくにんします。",
+    "ko": "저는 질문을 조금 다르게 표현해 보겠습니다.",
+    "en": "Let me reframe the question slightly.",
+    "situation": {
+     "ko": "질문을 재구성할 때",
+     "en": "Reframing a question"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "根拠のない非難には事実で答えます。",
+    "read": "こんきょのないひなんにはじじつでこたえます。",
+    "ko": "저는 우려를 인정하지만 그 주장은 근거가 없습니다.",
+    "en": "I acknowledge your concern, but the claim is unfounded.",
+    "situation": {
+     "ko": "인정과 반박",
+     "en": "Acknowledgement and rebuttal"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "冷静さを保つことが大切です。",
+    "read": "れいせいさをたもつことがたいせつです。",
+    "ko": "그는 침착함을 잃지 않고 질문에 답했습니다.",
+    "en": "He answered without losing his composure.",
+    "situation": {
+     "ko": "태도를 말할 때",
+     "en": "Describing manner"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "ご理解をお願いします。",
+    "read": "ごりかいをおねがいします。",
+    "ko": "공격적인 질문에도 사실로 대응하는 것이 가장 강력합니다.",
+    "en": "Responding to hostile questions with facts is the most powerful approach.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "つまり〜というご質問ですね。",
+    "read": "つまり〜というごしつもんですね。",
+    "ko": "좋은 질문 감사합니다.",
+    "en": "I appreciate the question."
+   },
+   {
+    "id": "w2",
+    "t": "〜という前提は誤りです。",
+    "read": "〜というぜんていはあやまりです。",
+    "ko": "그 전제에 반박하다.",
+    "en": "push back on that premise"
+   },
+   {
+    "id": "w3",
+    "t": "根拠のない〜。",
+    "read": "こんきょのない〜。",
+    "ko": "침착함을 유지하다.",
+    "en": "keep one's composure"
+   },
+   {
+    "id": "w4",
+    "t": "ご理解をお願いします。",
+    "read": "ごりかいをおねがいします。",
+    "ko": "질문을 재구성하다.",
+    "en": "reframe the question"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "공격적인 질문에 침착하게 답하는 4문장을 써 보세요. (질문 인정, 반박, 사실, 마무리)",
+    "en": "Write four sentences calmly answering a hostile question (acknowledge, push back, facts, close)."
+   },
+   "must_include": [
+    {
+     "label": "言い換",
+     "match": [
+      "言い換えて"
+     ]
+    },
+    {
+     "label": "前提",
+     "match": [
+      "前提"
+     ]
+    },
+    {
+     "label": "事実",
+     "match": [
+      "事実"
+     ]
+    }
+   ],
+   "model": "厳しい質問を受けたら、まず質問を言い換えて論点を確認します。その前提に誤りがあれば、丁寧に指摘します。そして、根拠のない非難には、冷静に事実を挙げて答えます。",
+   "model_trans": {
+    "ko": "좋은 질문 감사합니다. 다만 저는 그 전제에는 동의하지 않습니다. 확인된 자료에 따르면 비용은 오히려 감소했습니다. 분명히 말씀드리면, 우리는 투명성을 약속합니다.",
+    "en": "I appreciate the question. However, I would push back on that premise. According to verified data, costs have actually fallen. To be clear, we are committed to transparency."
+   }
+  }
+ }
+}

@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u30",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 30,
+  "concept": "C2.U30",
+  "status": "live",
+  "title": {
+   "target": "詩の言葉：連・韻・イメージ",
+   "ko": "시 분석 용어",
+   "en": "Terms for analysing poetry"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "連",
+   "pos": "noun",
+   "read": "れん",
+   "ko": "연",
+   "en": "stanza",
+   "ex": {
+    "t": "この詩は四つの連でできています。",
+    "read": "このしはよつのれんでできています。",
+    "ko": "이 시는 네 개의 연으로 이루어져 있어요.",
+    "en": "The poem consists of four stanzas."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "韻",
+   "pos": "noun",
+   "read": "いん",
+   "ko": "운",
+   "en": "rhyme",
+   "ex": {
+    "t": "詩は韻を踏むことがあります。",
+    "read": "しはいんをふむことがあります。",
+    "ko": "각 연은 규칙적인 운을 가져요.",
+    "en": "Each stanza has a regular rhyme."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "リズム",
+   "pos": "noun",
+   "read": "リズム",
+   "ko": "운율",
+   "en": "meter",
+   "ex": {
+    "t": "七五調のリズムが心地よいです。",
+    "read": "しちごちょうのリズムがここちよいです。",
+    "ko": "시의 운율은 약강 5보격이에요.",
+    "en": "The poem's meter is iambic pentameter."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "行またぎ",
+   "pos": "noun",
+   "read": "ぎょうまたぎ",
+   "ko": "행걸침",
+   "en": "enjambment",
+   "ex": {
+    "t": "行またぎが意味を宙に浮かせます。",
+    "read": "ぎょうまたぎがいみをちゅうにうかせます。",
+    "ko": "행걸침은 흐름을 만들어요.",
+    "en": "Enjambment creates flow."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "頭韻",
+   "pos": "noun",
+   "read": "とういん",
+   "ko": "두운",
+   "en": "alliteration",
+   "ex": {
+    "t": "頭韻は同じ音で始まる語を重ねます。",
+    "read": "とういんはおなじおとではじまるごをおもねます。",
+    "ko": "두운은 소리의 효과를 높여요.",
+    "en": "Alliteration heightens the sound effect."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "イメージ",
+   "pos": "noun",
+   "read": "イメージ",
+   "ko": "이미지",
+   "en": "imagery",
+   "ex": {
+    "t": "詩は鮮やかなイメージを作ります。",
+    "read": "しはせんやかなイメージをつくります。",
+    "ko": "시는 풍부한 이미지를 써요.",
+    "en": "The poem uses rich imagery."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "話者",
+   "pos": "noun",
+   "read": "わしゃ",
+   "ko": "화자",
+   "en": "speaker",
+   "ex": {
+    "t": "詩の話者は誰でしょうか。",
+    "read": "しのわしゃはだれでしょうか。",
+    "ko": "시의 화자는 늙은 어부예요.",
+    "en": "The speaker of the poem is an old fisherman."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "口調",
+   "pos": "noun",
+   "read": "くちょう",
+   "ko": "어조",
+   "en": "tone",
+   "ex": {
+    "t": "皮肉な口調で書かれています。",
+    "read": "ひにくなくちょうでかかれています。",
+    "ko": "시의 어조는 애잔해요.",
+    "en": "The tone of the poem is wistful."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "象徴",
+   "pos": "noun",
+   "read": "しょうちょう",
+   "ko": "상징",
+   "en": "symbol",
+   "ex": {
+    "t": "鳥は自由の象徴です。",
+    "read": "とりはじゆうのしょうちょうです。",
+    "ko": "장미는 사랑의 상징이에요.",
+    "en": "The rose is a symbol of love."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "擬人化",
+   "pos": "noun",
+   "read": "ぎじんか",
+   "ko": "의인화",
+   "en": "personification",
+   "ex": {
+    "t": "月が擬人化されています。",
+    "read": "がつがぎじんかされています。",
+    "ko": "바람이 속삭이는 것은 의인화예요.",
+    "en": "The wind whispering is personification."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "連／リズム／行またぎ／頭韻／語り手の声／象徴",
+   "en": "The language of poetry: 連 / リズム / 行またぎ / 頭韻 / 語り手の声 / 象徴"
+  },
+  "explain": {
+   "ko": "詩は、散文より凝縮された言葉で書かれます。詩の行のまとまりを「連」と呼び、七五調のようなリズムや、同じ音の繰り返し（頭韻・脚韻）が音楽性を作ります。文の途中で行を変える「行またぎ」は、意味を宙に浮かせる効果があります。鳥が自由を、月が孤独を表すように、イメージは象徴にもなります。詩を読むときは、話者は誰か、どんな口調かも考えましょう。",
+   "en": "Poetry uses more condensed language than prose. A group of lines is a 「連」; rhythm such as 七五調 and repeated sounds (alliteration, rhyme) create musicality. 「行またぎ」 (breaking a line mid-sentence) leaves meaning hanging. A bird may symbolise freedom, the moon loneliness. When reading, ask who the speaker is and what the tone is."
+  },
+  "table": {
+   "head": [
+    "用語 / Term",
+    "意味 / Meaning",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "連",
+     "stanza",
+     "四つの連の詩。"
+    ],
+    [
+     "リズム",
+     "rhythm",
+     "七五調。"
+    ],
+    [
+     "象徴",
+     "symbol",
+     "鳥は自由の象徴。"
+    ],
+    [
+     "擬人化",
+     "personification",
+     "月がほほえむ。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "リズムを声に出して確かめましょう。",
+    "en": "Test rhythm aloud."
+   },
+   {
+    "ko": "話者と作者は同じとは限りません。",
+    "en": "Speaker and poet are not always the same."
+   },
+   {
+    "ko": "イメージは象徴にもなります。",
+    "en": "Images can become symbols."
+   }
+  ],
+  "examples": [
+   {
+    "t": "この詩は四つの連でできています。",
+    "read": "このしはよつのれんでできています。",
+    "ko": "이 시는 네 개의 연으로 이루어져 있어요.",
+    "en": "The poem consists of four stanzas."
+   },
+   {
+    "t": "七五調のリズムが心地よいです。",
+    "read": "しちごちょうのリズムがここちよいです。",
+    "ko": "시의 운율은 약강 5보격이에요.",
+    "en": "The poem's meter is iambic pentameter."
+   },
+   {
+    "t": "鳥は自由の象徴です。",
+    "read": "とりはじゆうのしょうちょうです。",
+    "ko": "행걸침은 흐름을 만들어요.",
+    "en": "Enjambment creates flow."
+   },
+   {
+    "t": "月がほほえんでいるように見えます。",
+    "read": "がつがほほえんでいるようにみえます。",
+    "ko": "시의 어조는 애잔해요.",
+    "en": "The tone of the poem is wistful."
+   },
+   {
+    "t": "詩の話者は誰でしょうか。",
+    "read": "しのわしゃはだれでしょうか。",
+    "ko": "바람이 속삭이는 것은 의인화예요.",
+    "en": "The wind whispering is personification."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "この詩は四つの___でできています。",
+    "options": [
+     "連",
+     "章",
+     "段"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "七五調の___が心地よいです。",
+    "options": [
+     "リズム",
+     "値段",
+     "言葉"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "鳥は自由の___です。",
+    "options": [
+     "象徴",
+     "原因",
+     "結果"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "月が___されています。",
+    "options": [
+     "擬人化",
+     "計算",
+     "宣伝"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この詩はいくつの連でできていますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 행걸침이란 무엇인가요?",
+     "en": "(Question) What is enjambment?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "四つの連でできています。",
+       "一つもありません。",
+       "百の連があります。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "鳥は何の象徴ですか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 약강 5보격이란 무엇인가요?",
+     "en": "(Question) What is iambic pentameter?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "自由の象徴です。",
+       "怒りの象徴です。",
+       "お金の象徴です。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この詩の最後の連、月がほほえむって書いてあるね。"
+      },
+      {
+       "s": "B",
+       "t": "擬人化だね。月が人のように描かれている。"
+      },
+      {
+       "s": "A",
+       "t": "どうして月なんだろう。"
+      },
+      {
+       "s": "B",
+       "t": "孤独の象徴かもしれないね。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 시는 몇 개의 연으로 되어 있어?\nB: 네 개의 연이고 ABAB의 운이야.\nA: 어조는 어때?\nB: 애잔해. 화자가 상실을 회상하거든.",
+     "en": "A: How many stanzas does this poem have?\nB: Four, with an ABAB rhyme scheme.\nA: What about the tone?\nB: Wistful. The speaker recalls a loss."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは月をどう解釈しましたか。",
+      "options": [
+       "孤独の象徴かもしれない",
+       "太陽と同じ",
+       "ただの背景"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "詩は、散文より凝縮された言葉で書かれます。リズムや同じ音の繰り返しが音楽性を作り、イメージが象徴にもなります。詩を読むときは、話者が誰か、どんな口調かも考えましょう。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "시를 분석할 때는 형식과 내용을 함께 살펴보아야 합니다. 연, 운, 운율, 행걸침 같은 형식 요소가 이미지와 어조를 통해 의미를 만들어 냅니다. 소리 장치인 두운도 시의 리듬과 분위기에 기여합니다.",
+     "en": "When analysing a poem, one must examine form and content together. Formal elements such as stanza, rhyme, meter and enjambment create meaning through imagery and tone. Sound devices such as alliteration also contribute to the poem's rhythm and mood."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "詩を読むときに何を考えますか。",
+      "options": [
+       "話者と口調",
+       "出版社の名前",
+       "ページ数"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "この詩の話者はどんな人でしょうか。"
+      },
+      {
+       "s": "B",
+       "t": "旅に出る少年だと思います。"
+      },
+      {
+       "s": "A",
+       "t": "口調はどうですか。"
+      },
+      {
+       "s": "B",
+       "t": "少し寂しそうですが、希望もあります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 이 시의 두운을 찾아보세요.\n학생: 'silver streams softly sing'입니다.\n교수: 어떤 효과가 있나요?\n학생: 부드러운 소리가 평온함을 만듭니다.",
+     "en": "Professor: Find the alliteration in this poem.\nStudent: 'silver streams softly sing'.\nProfessor: What effect does it have?\nStudent: The soft sounds create calm."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "学生は詩の話者が旅に出る______だと思います",
+      "answers": [
+       "少年"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "口調は少し寂しそうですが、______もあると言います",
+      "answers": [
+       "希望"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) この詩は四つの___でできています。\n2) 七五調の___が心地よいです。\n3) 鳥は自由の___です。",
+    "trans": {
+     "ko": "1) 이 시는 네 개의 연으로 이루어져 있어요. 2) 시의 운율은 약강 5보격이에요. 3) 시의 어조는 애잔해요.",
+     "en": "1) The poem consists of four stanzas. 2) The poem's meter is iambic pentameter. 3) The tone of the poem is wistful."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "この詩は四つの___でできています。",
+      "options": [
+       "連",
+       "章",
+       "段"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "七五調の___が心地よいです。",
+      "options": [
+       "リズム",
+       "値段",
+       "言葉"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "鳥は自由の___です。",
+      "options": [
+       "象徴",
+       "原因",
+       "結果"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "この詩では、月が人のように(1)されています。それは孤独の(2)かもしれません。詩の最後の連は、(3)を残して終わります。",
+    "trans": {
+     "ko": "이 시는 풍부한 이미지를 쓴다. 바람이 속삭이는 것은 의인화이고 장미는 사랑의 상징이다. 형식과 내용이 함께 의미를 만들어 낸다.",
+     "en": "This poem uses rich imagery. The wind whispering is personification, and the rose is a symbol of love. Form and content together create meaning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "擬人化",
+       "計算",
+       "宣伝"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "象徴",
+       "原因",
+       "結果"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "余韻",
+       "値段",
+       "地図"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "詩の読み方\n声に出して読む\n詩は、目で読むだけでなく、声に出して読むとよい。リズムや音の重なりが、体で感じられるからだ。また、話者は作者と同じとは限らない。誰が語っているのかを考えてみよう。",
+    "trans": {
+     "ko": "시 비평\n형식이 말하는 것\n행걸침은 문장이 행을 넘어 흐르게 하여 끊어지지 않는 생각의 느낌을 준다. 반면 짧은 행은 숨을 멈추는 효과를 낸다. 형식은 의미를 만들어 내는 도구다.",
+     "en": "POETRY CRITICISM\nWhat form says\nEnjambment lets a sentence run over the line, giving the feel of an unbroken thought. Short lines, by contrast, create the effect of holding one's breath. Form is a tool for making meaning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "詩はどのように読むとよいですか。",
+      "options": [
+       "声に出して読む",
+       "速く読む",
+       "一度だけ読む"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "話者について何と言っていますか。",
+      "options": [
+       "作者と同じとは限らない",
+       "いつも作者",
+       "いつも子ども"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、詩を声に出して読むようすすめています。話者は作者と同じとは限らないとも言います。",
+    "trans": {
+     "ko": "비평은 행걸침이 끊어지지 않는 생각의 느낌을 준다고 본다. 비평은 짧은 행이 흐름을 만든다고 본다. 비평은 형식이 의미를 만드는 도구라고 본다.",
+     "en": "The criticism says enjambment gives the feel of an unbroken thought. The criticism says short lines create flow. The criticism says form is a tool for making meaning."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章は声に出して読むようすすめている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章は話者がいつも作者だと述べている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章は有名な詩人を三人紹介している。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "四つの連でできています。",
+    "read": "よつのれんでできています。",
+    "ko": "이 시는 네 개의 연으로 이루어져 있습니다.",
+    "en": "The poem consists of four stanzas.",
+    "situation": {
+     "ko": "구조를 말할 때",
+     "en": "Describing structure"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "自由の象徴です。",
+    "read": "じゆうのしょうちょうです。",
+    "ko": "각 연은 ABAB의 운을 따릅니다.",
+    "en": "Each stanza follows an ABAB rhyme scheme.",
+    "situation": {
+     "ko": "운을 설명할 때",
+     "en": "Explaining rhyme"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "月が人のように描かれています。",
+    "read": "がつがひとのようにえがかれています。",
+    "ko": "시의 운율은 약강 5보격입니다.",
+    "en": "The meter of the poem is iambic pentameter.",
+    "situation": {
+     "ko": "운율을 설명할 때",
+     "en": "Explaining meter"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "七五調のリズムが心地よいです。",
+    "read": "しちごちょうのリズムがここちよいです。",
+    "ko": "행걸침은 문장이 행을 넘어 흐르게 합니다.",
+    "en": "Enjambment lets a sentence run over the line break.",
+    "situation": {
+     "ko": "행걸침을 설명할 때",
+     "en": "Explaining enjambment"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "詩は鮮やかなイメージを作ります。",
+    "read": "しはせんやかなイメージをつくります。",
+    "ko": "두운은 비슷한 소리를 반복해 리듬을 만듭니다.",
+    "en": "Alliteration repeats similar sounds to create rhythm.",
+    "situation": {
+     "ko": "소리 장치를 설명할 때",
+     "en": "Explaining sound devices"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "話者は誰でしょうか。",
+    "read": "わしゃはだれでしょうか。",
+    "ko": "바람이 속삭이는 것은 의인화입니다.",
+    "en": "The wind whispering is personification.",
+    "situation": {
+     "ko": "수사법을 설명할 때",
+     "en": "Explaining a figure"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "声に出して読んでみましょう。",
+    "read": "こえにだしてよんでみましょう。",
+    "ko": "시의 어조는 애잔하고 화자는 상실을 회상합니다.",
+    "en": "The tone is wistful and the speaker recalls a loss.",
+    "situation": {
+     "ko": "분석할 때",
+     "en": "Analysing"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "鳥は自由の象徴です。",
+    "read": "とりはじゆうのしょうちょうです。",
+    "ko": "시를 분석할 때는 형식이 의미에 어떻게 기여하는지 살펴보세요.",
+    "en": "When analysing a poem, consider how form contributes to meaning.",
+    "situation": {
+     "ko": "분석 원칙",
+     "en": "Analytical principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜の連でできている。",
+    "read": "〜のれんでできている。",
+    "ko": "~로 이루어져 있다.",
+    "en": "consist of ..."
+   },
+   {
+    "id": "w2",
+    "t": "リズムが心地よい。",
+    "read": "リズムがここちよい。",
+    "ko": "운율을 따르다.",
+    "en": "follow a rhyme scheme"
+   },
+   {
+    "id": "w3",
+    "t": "〜の象徴だ。",
+    "read": "〜のしょうちょうだ。",
+    "ko": "형식이 의미에 기여하다.",
+    "en": "form contributes to meaning"
+   },
+   {
+    "id": "w4",
+    "t": "擬人化されている。",
+    "read": "ぎじんかされている。",
+    "ko": "어조가 ~하다.",
+    "en": "The tone is ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "시의 형식 요소 세 가지를 사용해 가상의 시를 4문장으로 분석해 보세요.",
+    "en": "Analyse an imaginary poem in four sentences using three formal elements."
+   },
+   "must_include": [
+    {
+     "label": "連",
+     "match": [
+      "連でできて"
+     ]
+    },
+    {
+     "label": "象徴",
+     "match": [
+      "象徴"
+     ]
+    },
+    {
+     "label": "擬人化",
+     "match": [
+      "擬人化"
+     ]
+    }
+   ],
+   "model": "この詩は三つの連でできています。月が擬人化されていて、孤独の象徴だと思います。リズムも心地よく、声に出して読むと、イメージが鮮やかに伝わります。",
+   "model_trans": {
+    "ko": "이 시는 네 개의 연으로 이루어져 있고 ABAB의 운을 따라요. 행걸침이 흐름을 만들고 두운이 리듬을 더해요. 시의 어조는 애잔해요. 이처럼 형식이 의미에 기여해요.",
+    "en": "This poem consists of four stanzas and follows an ABAB rhyme scheme. Enjambment creates flow and alliteration adds rhythm. The tone of the poem is wistful. In this way, form contributes to meaning."
+   }
+  }
+ }
+}

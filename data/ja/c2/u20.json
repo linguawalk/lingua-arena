@@ -1,0 +1,833 @@
+{
+ "meta": {
+  "id": "ja_c2_u20",
+  "lang": "ja",
+  "family": "asia",
+  "level": "c2",
+  "unit": 20,
+  "concept": "C2.U20",
+  "status": "live",
+  "title": {
+   "target": "敬体・常体・口語の使い分け",
+   "ko": "문체 전환: 격식·비격식·속어",
+   "en": "Register shifting"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "改まった文体",
+   "pos": "noun",
+   "read": "あらたまったぶんたい",
+   "ko": "격식체",
+   "en": "formal register",
+   "ex": {
+    "t": "改まった文体で手紙を書きました。",
+    "read": "あらたまったぶんたいでてがみをかきました。",
+    "ko": "그 편지는 격식체로 쓰였어요.",
+    "en": "The letter was written in a formal register."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "口語体",
+   "pos": "adj",
+   "read": "こうごたい",
+   "ko": "구어체",
+   "en": "colloquial",
+   "ex": {
+    "t": "メールで口語体を使いすぎました。",
+    "read": "メールでこうごたいをつかいすぎました。",
+    "ko": "그는 구어체 표현을 자주 써요.",
+    "en": "He often uses colloquial expressions."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "口調",
+   "pos": "noun",
+   "read": "くちょう",
+   "ko": "어조",
+   "en": "tone",
+   "ex": {
+    "t": "口調によって印象が大きく変わります。",
+    "read": "くちょうによっていんしょうがおおきくかわります。",
+    "ko": "편지의 어조가 너무 딱딱했어요.",
+    "en": "The tone of the letter was too stiff."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "ふさわしい",
+   "pos": "adj",
+   "read": "ふさわしい",
+   "ko": "적절한",
+   "en": "appropriate",
+   "ex": {
+    "t": "場面にふさわしい言葉を選びます。",
+    "read": "ばめんにふさわしいことばをえらびます。",
+    "ko": "그 표현은 이 자리에 적절하지 않아요.",
+    "en": "That expression is not appropriate here."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "かしこまりすぎる",
+   "pos": "phrase",
+   "read": "かしこまりすぎる",
+   "ko": "쓸데없이 격식을 차리는",
+   "en": "overly formal",
+   "ex": {
+    "t": "かしこまりすぎる必要はありません。",
+    "read": "かしこまりすぎるひつようはありません。",
+    "ko": "그의 이메일은 지나치게 격식을 차렸어요.",
+    "en": "His email was overly formal."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "親しみやすい",
+   "pos": "adj",
+   "read": "したしみやすい",
+   "ko": "친근한",
+   "en": "informal",
+   "ex": {
+    "t": "親しみやすい文章を心がけます。",
+    "read": "したしみやすいぶんしょうをこころがけます。",
+    "ko": "친근한 어조로 이야기했어요.",
+    "en": "We spoke in an informal tone."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "丁寧に断る",
+   "pos": "phrase",
+   "read": "ていねいにことわる",
+   "ko": "정중하게 거절하다",
+   "en": "decline politely",
+   "ex": {
+    "t": "招待を丁寧に断りました。",
+    "read": "しょうたいをていねいにことわりました。",
+    "ko": "그녀는 초대를 정중하게 거절했어요.",
+    "en": "She declined the invitation politely."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "率直な",
+   "pos": "adj",
+   "read": "そっちょくな",
+   "ko": "직접적인",
+   "en": "direct",
+   "ex": {
+    "t": "率直な言い方は友だち同士でよく使います。",
+    "read": "そっちょくないいかたはともだちどうしでよくつかいます。",
+    "ko": "그의 요청은 매우 직접적이었어요.",
+    "en": "His request was very direct."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "格式を整える",
+   "pos": "phrase",
+   "read": "かくしきをととのえる",
+   "ko": "격식을 갖추다",
+   "en": "observe protocol",
+   "ex": {
+    "t": "挨拶の格式を整えました。",
+    "read": "あいさつのかくしきをととのえました。",
+    "ko": "공식 행사에서는 격식을 갖춰야 해요.",
+    "en": "You must observe protocol at official events."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "手紙調",
+   "pos": "adj",
+   "read": "てがみちょう",
+   "ko": "편지 투",
+   "en": "epistolary",
+   "ex": {
+    "t": "手紙調の表現を使います。",
+    "read": "てがみちょうのひょうげんをつかいます。",
+    "ko": "그의 글은 편지 투가 강해요.",
+    "en": "His writing has an epistolary quality."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "〜ていただけますか／〜てくれる？／丁寧に断る／口調／改まった",
+   "en": "Register: 〜ていただけますか / 〜てもらえますか / 〜てくれる？ / 丁寧に断る"
+  },
+  "explain": {
+   "ko": "丁寧さには段階があります。改まった文体は「〜ていただけますでしょうか」のような長く丁寧な文を、中立的な文体は「〜てもらえますか」を、口語体は「〜てくれる？」と短い形を使います。同じ内容でも口調によって印象が大きく変わるので、相手と場面に合わせて選びます。先生や上司には改まった文体を、友だちには口語体を使います。招待は「丁寧に」断りましょう。",
+   "en": "Formality has levels. The formal style uses long polite sentences like 「〜ていただけますでしょうか」, the neutral style 「〜てもらえますか」, the casual style short forms like 「〜てくれる？」. The same content makes a very different impression by tone, so choose to fit the person and situation. Use formal style with teachers or bosses and casual with friends. Decline invitations politely."
+  },
+  "table": {
+   "head": [
+    "段階 / Level",
+    "形 / Form",
+    "例 / Example"
+   ],
+   "rows": [
+    [
+     "改まった / Formal",
+     "〜ていただけますでしょうか",
+     "調整していただけますでしょうか。"
+    ],
+    [
+     "中立 / Neutral",
+     "〜てもらえますか",
+     "変えてもらえますか。"
+    ],
+    [
+     "口語 / Casual",
+     "〜てくれる？",
+     "変えてくれる？"
+    ],
+    [
+     "断り / Decline",
+     "丁寧に〜",
+     "招待を丁寧に断った。"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "先生には口語体を使いません。",
+    "en": "Do not use casual style with a teacher."
+   },
+   {
+    "ko": "学術的な文章では省略形を避けます。",
+    "en": "Avoid contractions in academic writing."
+   },
+   {
+    "ko": "同じ内容を別の文体で書く練習をしましょう。",
+    "en": "Practise one message in several registers."
+   }
+  ],
+  "examples": [
+   {
+    "t": "会議の日程を調整していただけますでしょうか。",
+    "read": "かいぎのひほどをちょうせいしていただけますでしょうか。",
+    "ko": "그 편지는 격식체로 쓰였어요.",
+    "en": "The letter was written in a formal register."
+   },
+   {
+    "t": "会議の日程を変えてもらえますか。",
+    "read": "かいぎのひほどをかえてもらえますか。",
+    "ko": "그의 이메일은 지나치게 격식을 차렸어요.",
+    "en": "His email was overly formal."
+   },
+   {
+    "t": "会議の時間、ちょっと変えてくれる？",
+    "read": "かいぎのじかん、ちょっとかえてくれる？",
+    "ko": "그녀는 초대를 정중하게 거절했어요.",
+    "en": "She declined the invitation politely."
+   },
+   {
+    "t": "彼女は招待を丁寧に断りました。",
+    "read": "かのじょはしょうたいをていねいにことわりました。",
+    "ko": "그 표현은 이 자리에 적절하지 않아요.",
+    "en": "That expression is not appropriate here."
+   },
+   {
+    "t": "場面と相手に合わせて口調を選びましょう。",
+    "read": "ばめんとあいてにあわせてくちょうをえらびましょう。",
+    "ko": "친구에게는 친근한 어조로 쓰세요.",
+    "en": "Use an informal tone with friends."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "会議の日程を調整して___ますでしょうか。",
+    "options": [
+     "いただけ",
+     "くれ",
+     "あげ"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "会議の日程を変えて___ますか。",
+    "options": [
+     "もらえ",
+     "いただけ",
+     "くださり"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "会議の時間、ちょっと変えて___？",
+    "options": [
+     "くれる",
+     "いただけます",
+     "くださいます"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "彼女は招待を___断りました。",
+    "options": [
+     "丁寧に",
+     "乱暴に",
+     "急いで"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "上司に日程の変更をどのようにお願いしますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 상사에게 일정 변경을 어떻게 요청하시겠어요?",
+     "en": "(Question) How would you ask your boss to change a schedule?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "日程を調整していただけますでしょうか。",
+       "日程変えてくれる？",
+       "日程は何？"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "友だちの招待をどう断りますか。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 친구의 초대를 어떻게 거절하시겠어요?",
+     "en": "(Question) How would you decline a friend's invitation?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "いちばんよい答えはどれですか。",
+      "options": [
+       "お誘いありがとう。でも、今回は難しいんだ。",
+       "いやだ、行かない。",
+       "知らない。"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "先生にメールを書くんだけど、「やあ」で始めてもいいかな。"
+      },
+      {
+       "s": "B",
+       "t": "だめだよ、口語すぎる。「先生へ」で始めて。"
+      },
+      {
+       "s": "A",
+       "t": "省略形も使わないほうがいい？"
+      },
+      {
+       "s": "B",
+       "t": "改まった文章では避けたほうがいいよ。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 교수님께 이메일을 쓰는데 '안녕'이라고 써도 될까?\nB: 아니, 너무 구어체야. 'Dear Professor'로 시작해.\nA: 줄임말도 쓰면 안 돼?\nB: 격식 있는 글에서는 피하는 게 좋아.",
+     "en": "A: I'm writing to my professor. Can I begin with 'Hi'?\nB: No, that's too colloquial. Start with 'Dear Professor'.\nA: And shouldn't I use contractions?\nB: In formal writing it's better to avoid them."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Bは先生へのメールについてどう言いましたか。",
+      "options": [
+       "口語は避けるべき",
+       "省略形を使うべき",
+       "絵文字を使うべき"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "丁寧さには段階があります。改まった文体は長くて丁寧な文を、中立的な文体は普通の表現を、口語体は省略形やくだけた言葉を使います。同じ内容でも口調で印象が大きく変わるので、相手と場面に合わせて選ぶ必要があります。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "격식에는 단계가 있습니다. 격식체는 길고 정중한 문장을, 중립체는 보통의 표현을, 구어체는 줄임말과 속어를 씁니다. 같은 내용이라도 어조에 따라 인상이 크게 달라지므로 상대와 상황에 맞게 선택해야 합니다.",
+     "en": "Formality has levels. A formal register uses long, polite sentences, a neutral register uses ordinary expressions, and a colloquial register uses contractions and slang. The same content leaves a very different impression depending on tone, so choose to suit the person and situation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "口調によって何が大きく変わりますか。",
+      "options": [
+       "印象",
+       "文の長さだけ",
+       "文字の数"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "先生、提出期限を延ばしていただけますでしょうか。"
+      },
+      {
+       "s": "B",
+       "t": "どんな事情ですか。"
+      },
+      {
+       "s": "A",
+       "t": "入院することになりまして。"
+      },
+      {
+       "s": "B",
+       "t": "わかりました。二日延ばします。"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "학생: 교수님, 제출 기한을 연장해 주실 수 있을까요?\n교수: 어떤 사정이 있나요?\n학생: 병원에 입원하게 되어서요.\n교수: 알겠습니다. 이틀 연장하겠습니다.",
+     "en": "Student: Professor, would it be possible to extend the deadline?\nProfessor: What is the circumstance?\nStudent: I had to be admitted to hospital.\nProfessor: I see. I'll extend it by two days."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "学生は提出期限を______いただきたいと頼みます",
+      "answers": [
+       "延ばして"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "学生は______することになったと言います",
+      "answers": [
+       "入院"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) その手紙は___文体で書かれました。\n2) 彼のメールは___格式ばっていました。\n3) 彼女は招待を___断りました。",
+    "trans": {
+     "ko": "1) 그 편지는 격식체로 쓰였어요. 2) 그의 이메일은 지나치게 격식을 차렸어요. 3) 그녀는 초대를 정중하게 거절했어요.",
+     "en": "1) The letter was written in a formal register. 2) His email was overly formal. 3) She declined the invitation politely."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "その手紙は___文体で書かれました。",
+      "options": [
+       "改まった",
+       "くだけた",
+       "短い"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼のメールは___格式ばっていました。",
+      "options": [
+       "過度に",
+       "少し",
+       "全く"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "彼女は招待を___断りました。",
+      "options": [
+       "丁寧に",
+       "乱暴に",
+       "急いで"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "友だちに送るメッセージと、先生に送るメールは、(1)が違わなければなりません。口語体は友だちとの会話では自然ですが、学術的な文章では(2)ありません。場面と相手に合わせて文体を(3)ことが大切です。",
+    "trans": {
+     "ko": "친구에게 보내는 문자와 교수님께 보내는 이메일은 어조가 달라야 한다. 구어체 표현은 친구와의 대화에서는 자연스럽지만, 학술 글에서는 적절하지 않다. 상황과 상대에 맞게 문체를 선택하는 것이 중요하다.",
+     "en": "A text to a friend and an email to a professor should differ in tone. Colloquial expressions are natural in conversation with friends, but are not appropriate in academic writing. It is important to choose a register to suit the person and situation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "口調",
+       "色",
+       "大きさ"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "ふさわしく",
+       "必要で",
+       "似て"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "選ぶ",
+       "捨てる",
+       "忘れる"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "文章の書き方\n文体の選び方\n改まった文章では、省略形や俗語を避け、文を完全に書きましょう。一方、友だちに送る文章は、気楽な口調が自然です。同じ内容を二つの文体で書いてみる練習が役に立ちます。",
+    "trans": {
+     "ko": "글쓰기 가이드\n문체 선택\n격식 있는 글에서는 줄임말과 속어를 피하고, 문장은 완전하게 쓰세요. 반면 친구에게 보내는 글은 편안한 어조가 자연스럽습니다. 같은 내용을 두 가지 문체로 써 보는 연습이 도움이 됩니다.",
+     "en": "WRITING GUIDE\nChoosing a register\nIn formal writing, avoid contractions and slang and write complete sentences. In writing to friends, a relaxed tone is natural. Practising the same content in two registers helps."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "改まった文章では何を避けますか。",
+      "options": [
+       "省略形と俗語",
+       "完全な文",
+       "挨拶"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "どんな練習が役に立ちますか。",
+      "options": [
+       "同じ内容を二つの文体で書く",
+       "暗記する",
+       "声に出して読む"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "この文章は、改まった文章では省略形や俗語を避けるよう言っています。また、同じ内容を二つの文体で書く練習をすすめています。",
+    "trans": {
+     "ko": "가이드는 격식 있는 글에서 줄임말을 피하라고 한다. 가이드는 친구에게는 항상 격식을 갖추라고 한다. 가이드는 같은 내용을 두 가지 문체로 써 보라고 한다.",
+     "en": "The guide says to avoid contractions in formal writing. The guide says always to be formal with friends. The guide says to try the same content in two registers."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "文章は改まった文章で省略形を避けるよう言っている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "文章は友だちにもいつも改まるよう言っている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "文章はメールの書式をダウンロードするよう言っている。",
+      "options": [
+       "正しい",
+       "間違い",
+       "書いていない"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "日程を調整していただけますでしょうか。",
+    "read": "にっていをちょうせいしていただけますでしょうか。",
+    "ko": "저는 정중하게 초대를 거절했습니다.",
+    "en": "I declined the invitation politely.",
+    "situation": {
+     "ko": "정중한 거절",
+     "en": "A polite refusal"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "お誘いありがとう。でも、今回は難しいんだ。",
+    "read": "おさそいありがとう。でも、こんかいはむずかしいんだ。",
+    "ko": "친구에게는 가벼운 어조로 문자를 보냈습니다.",
+    "en": "I texted my friend in a light tone.",
+    "situation": {
+     "ko": "친근한 어조",
+     "en": "An informal tone"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "かしこまりすぎる必要はありません。",
+    "read": "かしこまりすぎるひつようはありません。",
+    "ko": "격식 있는 이메일에서는 줄임말을 쓰지 않습니다.",
+    "en": "In formal emails, contractions are avoided.",
+    "situation": {
+     "ko": "격식체 규칙",
+     "en": "A rule of formal style"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "場面に合わせて口調を選びましょう。",
+    "read": "ばめんにあわせてくちょうをえらびましょう。",
+    "ko": "그의 요청은 매우 직접적이어서 불쾌했습니다.",
+    "en": "His request was so direct that it felt rude.",
+    "situation": {
+     "ko": "어조의 문제",
+     "en": "A tone problem"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "招待を丁寧に断りました。",
+    "read": "しょうたいをていねいにことわりました。",
+    "ko": "공식 행사에서는 격식을 갖춰야 합니다.",
+    "en": "At official events, one must observe protocol.",
+    "situation": {
+     "ko": "격식을 말할 때",
+     "en": "Speaking of protocol"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "先生には改まった文体を使います。",
+    "read": "せんせいにはあらたまったぶんたいをつかいます。",
+    "ko": "그 표현은 구어에서는 쓰지만 보고서에서는 부적절합니다.",
+    "en": "That expression is fine in speech but inappropriate in a report.",
+    "situation": {
+     "ko": "문체를 구분할 때",
+     "en": "Distinguishing registers"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "友だちには口語体で話します。",
+    "read": "ともだちにはこうごたいではなします。",
+    "ko": "저는 상대와 상황에 맞게 어조를 바꿉니다.",
+    "en": "I adjust my tone to the person and situation.",
+    "situation": {
+     "ko": "유연성을 말할 때",
+     "en": "Showing flexibility"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "親しみやすい文章を心がけます。",
+    "read": "したしみやすいぶんしょうをこころがけます。",
+    "ko": "좋은 필자는 문체를 의식적으로 선택합니다.",
+    "en": "A good writer chooses register consciously.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "〜ていただけますでしょうか。",
+    "read": "〜ていただけますでしょうか。",
+    "ko": "~에게는 ~한 어조로.",
+    "en": "in a ... tone with ..."
+   },
+   {
+    "id": "w2",
+    "t": "〜てもらえますか。",
+    "read": "〜てもらえますか。",
+    "ko": "격식체/구어체.",
+    "en": "formal / colloquial register"
+   },
+   {
+    "id": "w3",
+    "t": "〜てくれる？",
+    "read": "〜てくれる？",
+    "ko": "정중하게 ~하다.",
+    "en": "politely decline / request"
+   },
+   {
+    "id": "w4",
+    "t": "丁寧に断る。",
+    "read": "ていねいにことわる。",
+    "ko": "~에 적절하지 않다.",
+    "en": "be inappropriate for ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "같은 요청을 격식·중립·구어의 세 문체로 써 보세요. (3문장 + 설명 1문장)",
+    "en": "Write the same request in formal, neutral and colloquial registers (three sentences plus one explanatory sentence)."
+   },
+   "must_include": [
+    {
+     "label": "改まった",
+     "match": [
+      "格式:"
+     ]
+    },
+    {
+     "label": "中立",
+     "match": [
+      "中立:"
+     ]
+    },
+    {
+     "label": "口語",
+     "match": [
+      "口語:"
+     ]
+    }
+   ],
+   "model": "格式: 差し支えなければ、会議の日程を調整していただけますでしょうか。中立: 会議の日程を変えてもらえますか。口語: 会議の時間、ちょっと変えてくれる？ 場面と相手に合わせて口調を選びましょう。",
+   "model_trans": {
+    "ko": "격식: 괜찮으시다면 회의 일정을 조정해 주시겠습니까? 중립: 회의 일정을 바꿔 줄 수 있나요? 구어: 회의 시간 좀 바꿔 줄래? 상황과 상대에 맞게 어조를 선택하세요.",
+    "en": "Formal: Would you be so kind as to reschedule the meeting? Neutral: Could you change the meeting time? Colloquial: Can you shift the meeting? Choose your register to suit the person and situation."
+   }
+  }
+ }
+}
