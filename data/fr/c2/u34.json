@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "fr_c2_u34",
+  "lang": "fr",
+  "family": "europe",
+  "level": "c2",
+  "unit": 34,
+  "concept": "C2.U34",
+  "status": "live",
+  "title": {
+   "target": "La lecture critique : biais, ton et sous-entendus",
+   "ko": "비판적 읽기: 편향·어조·함축",
+   "en": "Critical reading: bias, tone, implication"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "un biais",
+   "pos": "noun",
+   "ko": "편향",
+   "en": "bias",
+   "ex": {
+    "t": "Cet article présente un biais évident.",
+    "ko": "그 기사에는 편향이 있어요.",
+    "en": "The article shows bias."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "le ton",
+   "pos": "noun",
+   "ko": "어조",
+   "en": "tone",
+   "ex": {
+    "t": "Le ton est ironique.",
+    "ko": "글의 어조는 비판적이에요.",
+    "en": "The tone of the text is critical."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "un mot connoté",
+   "pos": "phrase",
+   "ko": "감정적 어휘",
+   "en": "loaded language",
+   "ex": {
+    "t": "« Régime » est un mot connoté.",
+    "ko": "감정적 어휘는 독자를 유도해요.",
+    "en": "Loaded language steers the reader."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "sous-entendre",
+   "pos": "verb",
+   "ko": "암시하다",
+   "en": "imply",
+   "ex": {
+    "t": "Il sous-entend que c'est la faute du maire.",
+    "ko": "필자는 정부가 거짓말한다고 암시해요.",
+    "en": "The writer implies the government is lying."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "déduire",
+   "pos": "verb",
+   "ko": "추론하다",
+   "en": "infer",
+   "ex": {
+    "t": "On peut déduire qu'il est contre.",
+    "ko": "독자는 의도를 추론해요.",
+    "en": "The reader infers the intention."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "une omission",
+   "pos": "noun",
+   "ko": "누락",
+   "en": "omission",
+   "ex": {
+    "t": "L'omission des chiffres est significative.",
+    "ko": "중요한 사실의 누락이 편향을 만들어요.",
+    "en": "The omission of key facts creates bias."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "partial",
+   "pos": "adj",
+   "ko": "객관적인",
+   "en": "objective",
+   "ex": {
+    "t": "Ce journaliste est partial.",
+    "ko": "그 보도는 객관적이었어요.",
+    "en": "The report was objective."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "neutre",
+   "pos": "adj",
+   "ko": "선택적인",
+   "en": "selective",
+   "ex": {
+    "t": "Le ton reste neutre.",
+    "ko": "그는 선택적으로 인용했어요.",
+    "en": "He quoted selectively."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "l'angle",
+   "pos": "noun",
+   "ko": "속뜻",
+   "en": "undertone",
+   "ex": {
+    "t": "L'angle choisi oriente la lecture.",
+    "ko": "그의 말에는 비난의 속뜻이 있어요.",
+    "en": "His words carry an undertone of blame."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "tendancieux",
+   "pos": "noun",
+   "ko": "출처",
+   "en": "provenance",
+   "ex": {
+    "t": "Ce titre est tendancieux.",
+    "ko": "자료의 출처를 확인하세요.",
+    "en": "Check the provenance of the source."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "lecture critique : biais · ton · vocabulaire connoté · sous-entendre · déduire · omission",
+   "en": "Critical reading: biais, ton, vocabulaire connoté, sous-entendre, déduire, omission"
+  },
+  "explain": {
+   "ko": "비판적 읽기는 글이 말하는 것뿐 아니라 어떻게 말하는지를 살핍니다. biais(편향), ton(어조: neutre, ironique, alarmiste), vocabulaire connoté(함축적 어휘), omission(누락), angle(관점). sous-entendre(암시하다)는 글쓴이가, déduire(추론하다)는 독자가 합니다. tendancieux(편향적인), partial(편파적인) 같은 평가어를 쓰되 근거를 텍스트에서 제시하세요: « Le choix du mot ... révèle ... »",
+   "en": "Critical reading examines not only what a text says but how: biais (bias), ton (tone: neutre, ironique, alarmiste), vocabulaire connoté (loaded language), omission, angle (slant). The writer sous-entend (implies); the reader déduit (infers). Use evaluative words such as tendancieux and partial, but ground them in the text: Le choix du mot ... révèle ..."
+  },
+  "table": {
+   "head": [
+    "개념 / Notion",
+    "질문 / Question",
+    "예문 / Exemple"
+   ],
+   "rows": [
+    [
+     "biais",
+     "누가 이득? / qui y gagne ?",
+     "Cet article est partial."
+    ],
+    [
+     "ton",
+     "어떤 어조? / quelle attitude ?",
+     "Un ton ironique."
+    ],
+    [
+     "vocabulaire connoté",
+     "함축 / connotation",
+     "« Régime » vs « gouvernement »."
+    ],
+    [
+     "omission",
+     "무엇이 빠짐? / que manque-t-il ?",
+     "Les chiffres sont omis."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "글쓴이가 sous-entendre하고 독자가 déduire합니다.",
+    "en": "Writers imply, readers infer."
+   },
+   {
+    "ko": "평가는 텍스트의 근거로 뒷받침하세요.",
+    "en": "Ground judgments in the text."
+   },
+   {
+    "ko": "누락된 정보도 분석 대상입니다.",
+    "en": "What is omitted matters too."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Cet article présente un biais évident.",
+    "ko": "그 기사에는 편향이 있어요.",
+    "en": "The article shows bias."
+   },
+   {
+    "t": "Le ton est ironique.",
+    "ko": "감정적 어휘는 독자를 유도해요.",
+    "en": "Loaded language steers the reader."
+   },
+   {
+    "t": "Il sous-entend que c'est la faute du maire.",
+    "ko": "필자는 정부가 거짓말한다고 암시해요.",
+    "en": "The writer implies the government is lying."
+   },
+   {
+    "t": "On peut déduire qu'il est contre.",
+    "ko": "중요한 사실의 누락이 편향을 만들어요.",
+    "en": "The omission of key facts creates bias."
+   },
+   {
+    "t": "Ce titre est tendancieux.",
+    "ko": "그는 선택적으로 인용했어요.",
+    "en": "He quoted selectively."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Cet article présente un ___ évident.",
+    "options": [
+     "biais",
+     "bien",
+     "biaiser"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Le ___ est ironique.",
+    "options": [
+     "ton",
+     "thon",
+     "tond"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Il ___ que c'est la faute du maire.",
+    "options": [
+     "sous-entend",
+     "sous-entendre",
+     "sous-entendu"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Ce titre est ___.",
+    "options": [
+     "tendancieux",
+     "tendancier",
+     "tendance"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Quel est le ton de cet article ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 감정적 어휘란 무엇인가요?",
+     "en": "(Question) What is loaded language?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Il est ironique.",
+       "Il est sec.",
+       "Il est joyeux."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Que sous-entend le journaliste ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) imply와 infer의 차이는 무엇인가요?",
+     "en": "(Question) What is the difference between imply and infer?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Que le maire est responsable.",
+       "Que le maire est innocent.",
+       "Que le maire déménage."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Ce titre est tendancieux, tu ne trouves pas ?"
+      },
+      {
+       "s": "B",
+       "t": "Oui, il sous-entend que le maire est coupable."
+      },
+      {
+       "s": "A",
+       "t": "Et l'article omet les chiffres officiels."
+      },
+      {
+       "s": "B",
+       "t": "Cette omission est significative."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 기사는 객관적일까?\nB: 아니, 한쪽 입장만 소개하고 감정적 어휘를 써.\nA: 누락된 사실도 있어?\nB: 응, 중요한 통계가 빠져 있어.",
+     "en": "A: Is this article objective?\nB: No, it introduces only one side and uses loaded language.\nA: Are any facts omitted?\nB: Yes, key statistics are missing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que remarque-t-on dans l'article ?",
+      "options": [
+       "L'omission des chiffres",
+       "Un excès de chiffres",
+       "Une erreur de date"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Pour lire un article avec un esprit critique, on se demande d'abord qui parle et dans quel but. On repère ensuite le ton, les mots connotés et les omissions. Un journaliste peut sous-entendre sans affirmer. Au lecteur de déduire, en s'appuyant sur le texte."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "비판적 읽기는 글이 무엇을 말하는지뿐 아니라 어떻게, 왜 말하는지를 살피는 일입니다. 편향, 어조, 감정적 어휘, 누락을 분석하면 필자가 직접 말하지 않은 함축까지 추론할 수 있습니다. 출처와 목적을 확인하는 것이 출발점입니다.",
+     "en": "Critical reading is examining not only what a text says but how and why it says it. By analysing bias, tone, loaded language and omission, you can infer implications the writer did not state directly. Checking the source and purpose is the starting point."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Sur quoi doit s'appuyer le lecteur ?",
+      "options": [
+       "Sur le texte",
+       "Sur une rumeur",
+       "Sur son humeur"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Quel est le biais de ce texte ?"
+      },
+      {
+       "s": "B",
+       "t": "Il ne présente qu'un seul point de vue."
+      },
+      {
+       "s": "A",
+       "t": "Comment le voit-on ?"
+      },
+      {
+       "s": "B",
+       "t": "Par le vocabulaire connoté du titre."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교사: 이 글의 어조를 어떻게 보나요?\n학생: 겉으로는 중립이지만 비판적입니다.\n교사: 그 근거는요?\n학생: 감정적 어휘와 선택적 인용입니다.",
+     "en": "Teacher: How do you read the tone of this text?\nStudent: It is outwardly neutral but critical.\nTeacher: What is your evidence?\nStudent: The loaded language and selective quotation."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Il ne présente qu'un seul point de ______",
+      "answers": [
+       "vue"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Par le vocabulaire ______ du titre",
+      "answers": [
+       "connoté"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Cet article présente un ___ évident.\n2) Le ___ est ironique.\n3) Ce titre est ___.",
+    "trans": {
+     "ko": "1) 그 기사에는 편향이 있어요. 2) 감정적 어휘는 독자를 유도해요. 3) 중요한 사실의 누락이 편향을 만들어요.",
+     "en": "1) The article shows bias. 2) Loaded language steers the reader. 3) The omission of key facts creates bias."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Cet article présente un ___ évident.",
+      "options": [
+       "biais",
+       "bien",
+       "biaiser"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Le ___ est ironique.",
+      "options": [
+       "ton",
+       "thon",
+       "tond"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Ce titre est ___.",
+      "options": [
+       "tendancieux",
+       "tendancier",
+       "tendance"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Le journaliste (1) que le maire a menti. Le lecteur (2) qu'il est hostile. L'(3) des chiffres est révélatrice.",
+    "trans": {
+     "ko": "필자는 직접 말하지 않고 암시한다. 그는 자신에게 유리한 부분만 선택적으로 인용한다. 독자는 필자의 의도를 추론해야 한다.",
+     "en": "The writer does not say it directly but implies it. He quotes selectively only the parts that favour him. The reader must infer the writer's intention."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "sous-entend",
+       "sous-entendre",
+       "sous-entendu"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "déduit",
+       "déduire",
+       "déduction"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "omission",
+       "omettre",
+       "omis"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "MÉTHODE\nLire entre les lignes\nUn lecteur critique interroge la source, observe le ton et repère les mots connotés. Il compare avec d'autres articles pour détecter les omissions. Il distingue ce que le texte affirme de ce qu'il suggère. Cette vigilance protège contre la manipulation.",
+    "trans": {
+     "ko": "미디어 리터러시\n뉴스를 비판적으로 읽기\n뉴스는 완전히 객관적이지 않을 수 있습니다. 같은 사건도 어떤 단어를 쓰고 무엇을 빼느냐에 따라 다른 인상을 줍니다. 출처와 목적을 확인하고 여러 매체를 비교하세요.",
+     "en": "MEDIA LITERACY\nReading the news critically\nNews may not be perfectly objective. The same event gives different impressions depending on which words are used and what is left out. Check the source and purpose, and compare several outlets."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que fait un lecteur critique ?",
+      "options": [
+       "Il interroge la source",
+       "Il copie le texte",
+       "Il résume sans lire"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Contre quoi protège cette vigilance ?",
+      "options": [
+       "La manipulation",
+       "La fatigue",
+       "Les erreurs d'orthographe"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Nadia a lu deux articles sur le même événement. Le premier est neutre. Le second est tendancieux et omet plusieurs faits.",
+    "trans": {
+     "ko": "글은 뉴스가 완전히 객관적이지 않을 수 있다고 본다. 글은 한 매체만 믿으라고 권한다. 글은 여러 매체를 비교하라고 한다.",
+     "en": "The text says news may not be perfectly objective. The text advises trusting one outlet only. The text says to compare several outlets."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Le second article est tendancieux.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Les deux articles sont neutres.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Nadia a rencontré le journaliste.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Cet article présente un biais évident.",
+    "ko": "그 기사는 한쪽 입장만 소개해 편향을 드러냅니다.",
+    "en": "The article introduces only one side and so reveals bias.",
+    "situation": {
+     "ko": "편향을 지적할 때",
+     "en": "Pointing out bias"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Le ton est ironique.",
+    "ko": "'폭도'와 '시위대'는 같은 사람들을 다르게 부릅니다.",
+    "en": "'Mob' and 'protesters' name the same people differently.",
+    "situation": {
+     "ko": "감정적 어휘",
+     "en": "Loaded language"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "« Régime » est un mot connoté.",
+    "ko": "필자는 직접 말하지 않고 암시합니다.",
+    "en": "The writer does not say it directly but implies it.",
+    "situation": {
+     "ko": "암시를 설명할 때",
+     "en": "Explaining implication"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Il sous-entend que c'est la faute du maire.",
+    "ko": "독자는 글에서 필자의 의도를 추론합니다.",
+    "en": "The reader infers the writer's intention from the text.",
+    "situation": {
+     "ko": "추론을 설명할 때",
+     "en": "Explaining inference"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "On peut déduire qu'il est contre.",
+    "ko": "중요한 사실이 누락되면 인상이 왜곡됩니다.",
+    "en": "When key facts are omitted, the impression is distorted.",
+    "situation": {
+     "ko": "누락을 지적할 때",
+     "en": "Pointing out omission"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "L'omission des chiffres est significative.",
+    "ko": "그는 자신의 입장에 유리한 부분만 선택적으로 인용했습니다.",
+    "en": "He quoted only the parts that favoured his position.",
+    "situation": {
+     "ko": "선택적 인용",
+     "en": "Selective quotation"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Ce titre est tendancieux.",
+    "ko": "글의 어조는 비판적이지만 겉으로는 중립을 가장합니다.",
+    "en": "The tone of the text is critical but outwardly feigns neutrality.",
+    "situation": {
+     "ko": "어조를 분석할 때",
+     "en": "Analysing tone"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "L'angle choisi oriente la lecture.",
+    "ko": "비판적 독자는 출처와 목적을 먼저 확인합니다.",
+    "en": "A critical reader first checks the source and purpose.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "le biais.",
+    "ko": "직접 말하지 않고 암시하다.",
+    "en": "imply rather than state"
+   },
+   {
+    "id": "w2",
+    "t": "le ton.",
+    "ko": "~에서 ~을 추론하다.",
+    "en": "infer ... from ..."
+   },
+   {
+    "id": "w3",
+    "t": "le vocabulaire connoté.",
+    "ko": "선택적으로 인용하다.",
+    "en": "quote selectively"
+   },
+   {
+    "id": "w4",
+    "t": "sous-entendre / déduire.",
+    "ko": "출처를 확인하다.",
+    "en": "check the source"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "가상의 기사의 편향, 어조, 누락을 분석하는 4문장을 써 보세요.",
+    "en": "Write four sentences analysing the bias, tone and omissions of an imaginary article."
+   },
+   "must_include": [
+    {
+     "label": "biais",
+     "match": [
+      "biais"
+     ]
+    },
+    {
+     "label": "ton",
+     "match": [
+      "ton"
+     ]
+    },
+    {
+     "label": "connot",
+     "match": [
+      "connot"
+     ]
+    },
+    {
+     "label": "omission",
+     "match": [
+      "omission"
+     ]
+    }
+   ],
+   "model": "Cet article présente un biais. Son ton est ironique et son vocabulaire est connoté. L'omission des chiffres est significative.",
+   "model_trans": {
+    "ko": "그 기사는 한쪽 입장만 소개해 편향을 드러내요. 감정적 어휘를 써서 독자를 유도해요. 중요한 통계를 누락해서 인상이 왜곡돼요. 비판적 독자는 출처를 먼저 확인해야 해요.",
+    "en": "The article introduces only one side and so reveals bias. It uses loaded language to steer the reader. By omitting key statistics, it distorts the impression. A critical reader should first check the source."
+   }
+  }
+ }
+}

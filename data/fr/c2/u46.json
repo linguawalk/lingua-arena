@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "fr_c2_u46",
+  "lang": "fr",
+  "family": "europe",
+  "level": "c2",
+  "unit": 46,
+  "concept": "C2.U46",
+  "status": "live",
+  "title": {
+   "target": "Concision et mise au point du style",
+   "ko": "간결한 문장과 문체 다듬기",
+   "en": "Editing for concision and style"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "une redondance",
+   "pos": "noun",
+   "ko": "군더더기",
+   "en": "redundancy",
+   "ex": {
+    "t": "« Monter en haut » est une redondance.",
+    "ko": "문장에서 군더더기를 줄이세요.",
+    "en": "Cut the redundancy from your sentence."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "la voix active",
+   "pos": "noun",
+   "ko": "장황함",
+   "en": "wordiness",
+   "ex": {
+    "t": "Préférez la voix active.",
+    "ko": "장황함은 독자를 지치게 해요.",
+    "en": "Wordiness tires the reader."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "la nominalisation",
+   "pos": "phrase",
+   "ko": "능동태",
+   "en": "active voice",
+   "ex": {
+    "t": "La nominalisation alourdit la phrase.",
+    "ko": "능동태가 더 힘 있어요.",
+    "en": "The active voice is more forceful."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "la verbosité",
+   "pos": "noun",
+   "ko": "명사화",
+   "en": "nominalisation",
+   "ex": {
+    "t": "Sa verbosité lasse le lecteur.",
+    "ko": "명사화는 문장을 무겁게 해요.",
+    "en": "Nominalisation makes a sentence heavy."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "le parallélisme",
+   "pos": "noun",
+   "ko": "병렬 구조",
+   "en": "parallelism",
+   "ex": {
+    "t": "Le parallélisme rend la phrase élégante.",
+    "ko": "병렬 구조는 리듬을 만들어요.",
+    "en": "Parallelism creates rhythm."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "resserrer",
+   "pos": "verb",
+   "ko": "간결하게 하다",
+   "en": "tighten",
+   "ex": {
+    "t": "Resserrez ce paragraphe.",
+    "ko": "문장을 간결하게 다듬으세요.",
+    "en": "Tighten your sentences."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "alléger",
+   "pos": "adj",
+   "ko": "불필요한",
+   "en": "superfluous",
+   "ex": {
+    "t": "Allégez cette phrase.",
+    "ko": "불필요한 단어를 지우세요.",
+    "en": "Delete superfluous words."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "un pléonasme",
+   "pos": "adj",
+   "ko": "명료한",
+   "en": "lucid",
+   "ex": {
+    "t": "« Un faux mensonge » est un pléonasme.",
+    "ko": "그의 글은 명료해요.",
+    "en": "His writing is lucid."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "aller droit au but",
+   "pos": "verb",
+   "ko": "교정하다",
+   "en": "revise",
+   "ex": {
+    "t": "Allez droit au but.",
+    "ko": "초고를 여러 번 교정했어요.",
+    "en": "I revised the draft several times."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "épurer",
+   "pos": "adj",
+   "ko": "어색한",
+   "en": "clumsy",
+   "ex": {
+    "t": "Épurez votre style.",
+    "ko": "그 문장은 어색해요.",
+    "en": "That sentence is clumsy."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "concision et style : supprimer les redondances · voix active · nominalisation · verbosité · parallélisme · resserrer",
+   "en": "Concision and style: supprimer les redondances, voix active, nominalisation, verbosité, parallélisme, resserrer"
+  },
+  "explain": {
+   "ko": "간결한 문장은 독자의 시간을 존중합니다. 중복(redondance·pléonasme: monter en haut)을 지우고, 능동태(la voix active)를 선호하며, 명사화(nominalisation: la réalisation de → réaliser)는 과도하면 문장이 무거워집니다. 장황함(la verbosité)을 resserrer(압축)하고, 병렬 구조(parallélisme)로 리듬과 명확성을 확보합니다. 퇴고는 한 문장씩 « 이 단어가 꼭 필요한가? »를 묻는 과정입니다.",
+   "en": "Concise prose respects the reader's time. Cut redundancy (redondance, pléonasme: monter en haut), prefer the voix active, and limit nominalisation (la réalisation de → réaliser), which weighs sentences down. Tighten verbosity with resserrer and use parallélisme for rhythm and clarity. Editing means asking of each word: is it needed?"
+  },
+  "table": {
+   "head": [
+    "문제 / Problème",
+    "수정 / Correction",
+    "예 / Exemple"
+   ],
+   "rows": [
+    [
+     "redondance",
+     "삭제 / supprimer",
+     "monter en haut → monter"
+    ],
+    [
+     "수동태 / passif",
+     "능동 / actif",
+     "Le rapport a été rédigé par... → X a rédigé..."
+    ],
+    [
+     "명사화 / nominalisation",
+     "동사로 / verbe",
+     "la réalisation de → réaliser"
+    ],
+    [
+     "장황 / verbosité",
+     "압축 / resserrer",
+     "Allez droit au but."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "불필요한 단어를 지우세요.",
+    "en": "Delete unnecessary words."
+   },
+   {
+    "ko": "능동태가 더 직접적입니다.",
+    "en": "Active voice is more direct."
+   },
+   {
+    "ko": "병렬 구조를 점검하세요.",
+    "en": "Check parallel structure."
+   }
+  ],
+  "examples": [
+   {
+    "t": "« Monter en haut » est une redondance.",
+    "ko": "문장에서 군더더기를 줄이세요.",
+    "en": "Cut the redundancy from your sentence."
+   },
+   {
+    "t": "Préférez la voix active.",
+    "ko": "능동태가 더 힘 있어요.",
+    "en": "The active voice is more forceful."
+   },
+   {
+    "t": "Sa verbosité lasse le lecteur.",
+    "ko": "명사화는 문장을 무겁게 해요.",
+    "en": "Nominalisation makes a sentence heavy."
+   },
+   {
+    "t": "Le parallélisme rend la phrase élégante.",
+    "ko": "불필요한 단어를 지우세요.",
+    "en": "Delete superfluous words."
+   },
+   {
+    "t": "Resserrez ce paragraphe.",
+    "ko": "그의 글은 명료해요.",
+    "en": "His writing is lucid."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "« Monter en haut » est une ___.",
+    "options": [
+     "redondance",
+     "redonder",
+     "redevance"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Préférez la voix ___.",
+    "options": [
+     "active",
+     "actif",
+     "activité"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___ ce paragraphe.",
+    "options": [
+     "Resserrez",
+     "Resserrer",
+     "Resserré"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Allez droit au ___.",
+    "options": [
+     "but",
+     "bout",
+     "bus"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Que faut-il supprimer dans un texte ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 명사화란 무엇인가요?",
+     "en": "(Question) What is nominalisation?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Les redondances.",
+       "Les titres.",
+       "Les verbes."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Quelle voix faut-il préférer ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 간결한 글을 쓰려면 어떻게 해야 하나요?",
+     "en": "(Question) How do you write concisely?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "La voix active.",
+       "La voix passive.",
+       "Aucune."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Ton texte est trop long, resserre-le."
+      },
+      {
+       "s": "B",
+       "t": "Je dois supprimer les redondances ?"
+      },
+      {
+       "s": "A",
+       "t": "Oui, et préfère la voix active."
+      },
+      {
+       "s": "B",
+       "t": "Et le parallélisme dans la liste ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 문장은 너무 장황해.\nB: 어떻게 고치면 좋을까?\nA: 능동태로 바꾸고 불필요한 단어를 지워.\nB: 알겠어. 소리 내어 읽어 보면서 고쳐 볼게.",
+     "en": "A: This sentence is too wordy.\nB: How should I fix it?\nA: Switch to the active voice and delete superfluous words.\nB: OK. I'll revise it by reading aloud."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que conseille la femme ?",
+      "options": [
+       "Resserrer et supprimer",
+       "Allonger",
+       "Traduire"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Écrire concis, c'est aller droit au but. On supprime les redondances, on allège les phrases et on évite les pléonasmes. La voix active est plus directe que le passif. Le parallélisme, enfin, donne de l'élégance et de la clarté."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "간결한 글쓰기는 독자의 시간을 존중하는 일입니다. 군더더기를 줄이고, 능동태와 구체적인 동사를 쓰며, 명사화를 피하면 문장이 선명해집니다. 병렬 구조는 정보를 균형 있게 정리하고 리듬을 만들어 줍니다.",
+     "en": "Concise writing respects the reader's time. Cutting redundancy, using the active voice and concrete verbs, and avoiding nominalisation make sentences clear. Parallelism arranges information in balance and creates rhythm."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qu'apporte le parallélisme ?",
+      "options": [
+       "De l'élégance et de la clarté",
+       "De la longueur",
+       "De la rime"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Votre chapitre est trop verbeux."
+      },
+      {
+       "s": "B",
+       "t": "Que dois-je faire ?"
+      },
+      {
+       "s": "A",
+       "t": "Resserrez et épurez."
+      },
+      {
+       "s": "B",
+       "t": "Je commence par les redondances."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "작가: 이 단락을 줄이고 싶습니다.\n편집자: 군더더기를 먼저 지우세요.\n작가: 그다음은요?\n편집자: 병렬 구조로 다듬으세요.",
+     "en": "Writer: I want to shorten this paragraph.\nEditor: First delete the redundancy.\nWriter: And then?\nEditor: Tighten it with parallel structure."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Resserrez et ______",
+      "answers": [
+       "épurez"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Je commence par les ______",
+      "answers": [
+       "redondances"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) « Monter en haut » est une ___.\n2) Préférez la voix ___.\n3) ___ ce paragraphe.",
+    "trans": {
+     "ko": "1) 문장에서 군더더기를 줄이세요. 2) 능동태가 더 힘 있어요. 3) 그의 글은 명료해요.",
+     "en": "1) Cut the redundancy from your sentence. 2) The active voice is more forceful. 3) His writing is lucid."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "« Monter en haut » est une ___.",
+      "options": [
+       "redondance",
+       "redonder",
+       "redevance"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Préférez la voix ___.",
+      "options": [
+       "active",
+       "actif",
+       "activité"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___ ce paragraphe.",
+      "options": [
+       "Resserrez",
+       "Resserrer",
+       "Resserré"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Sa (1) lasse le lecteur. Il faut aller (2) au but. Le (3) rend la phrase élégante.",
+    "trans": {
+     "ko": "그는 초고를 여러 번 교정했다. 장황한 문장을 능동태로 바꾸고 불필요한 단어를 지웠다. 결국 글은 훨씬 명료해졌다.",
+     "en": "He revised the draft several times. He changed wordy sentences to the active voice and deleted superfluous words. In the end, the writing became much more lucid."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "verbosité",
+       "verbal",
+       "verbeux"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "droit",
+       "droite",
+       "droiture"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "parallélisme",
+       "parallèle",
+       "parallélépipède"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ATELIER\nÉcrire court\nLa concision n'est pas la sécheresse. Elle consiste à garder l'essentiel et à supprimer le superflu. Une phrase active, un verbe précis et un exemple concret valent mieux qu'un long développement. Relisez à voix haute pour repérer les lourdeurs.",
+    "trans": {
+     "ko": "글쓰기 강의\n간결함의 기술\n간결한 글은 독자의 시간을 존중합니다. 군더더기를 줄이고 능동태를 쓰세요. 마지막으로 소리 내어 읽어 어색한 부분을 찾아내세요.",
+     "en": "WRITING LECTURE\nThe art of concision\nConcise writing respects the reader's time. Cut redundancy and use the active voice. Finally, read aloud to find clumsy passages."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que consiste la concision ?",
+      "options": [
+       "À garder l'essentiel",
+       "À supprimer les verbes",
+       "À écrire vite"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Comment repérer les lourdeurs ?",
+      "options": [
+       "En relisant à voix haute",
+       "En comptant les mots",
+       "En lisant le dictionnaire"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Édouard a réduit son rapport de dix à six pages. Il a supprimé les redondances et préféré la voix active. Son directeur l'a félicité.",
+    "trans": {
+     "ko": "강의는 간결한 글이 독자의 시간을 존중한다고 본다. 강의는 수동태를 항상 쓰라고 한다. 강의는 소리 내어 읽어 어색한 부분을 찾으라고 한다.",
+     "en": "The lecture says concise writing respects the reader's time. The lecture says to always use the passive. The lecture says to read aloud to find clumsy passages."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Le rapport est passé à six pages.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Le directeur a critiqué le rapport.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Édouard travaille à Nantes.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "« Monter en haut » est une redondance.",
+    "ko": "'과거의 역사'에서 '과거의'는 군더더기입니다.",
+    "en": "In 'past history', 'past' is redundant.",
+    "situation": {
+     "ko": "군더더기를 지적할 때",
+     "en": "Pointing out redundancy"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Préférez la voix active.",
+    "ko": "'결정이 이루어졌다' 대신 '우리가 결정했다'라고 쓰세요.",
+    "en": "Write 'We decided' instead of 'A decision was made'.",
+    "situation": {
+     "ko": "능동태를 권할 때",
+     "en": "Recommending the active voice"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "La nominalisation alourdit la phrase.",
+    "ko": "'검토를 수행했다'보다 '검토했다'가 더 간결합니다.",
+    "en": "'We reviewed' is tighter than 'We carried out a review'.",
+    "situation": {
+     "ko": "명사화를 줄일 때",
+     "en": "Reducing nominalisation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Sa verbosité lasse le lecteur.",
+    "ko": "병렬 구조는 문장에 균형과 리듬을 줍니다.",
+    "en": "Parallelism gives a sentence balance and rhythm.",
+    "situation": {
+     "ko": "병렬을 설명할 때",
+     "en": "Explaining parallelism"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Le parallélisme rend la phrase élégante.",
+    "ko": "장황한 문장은 핵심을 가립니다.",
+    "en": "A wordy sentence obscures the point.",
+    "situation": {
+     "ko": "장황함을 비판할 때",
+     "en": "Criticising wordiness"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Resserrez ce paragraphe.",
+    "ko": "초고를 소리 내어 읽으면 어색한 부분이 들립니다.",
+    "en": "Reading a draft aloud lets you hear clumsy passages.",
+    "situation": {
+     "ko": "교정 요령",
+     "en": "A revision tip"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "« Un faux mensonge » est un pléonasme.",
+    "ko": "명료한 글은 불필요한 단어가 없는 글입니다.",
+    "en": "Lucid writing is writing without superfluous words.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Allez droit au but.",
+    "ko": "간결함이 단순함을 뜻하는 것은 아닙니다.",
+    "en": "Concision does not mean simplicity.",
+    "situation": {
+     "ko": "오해를 바로잡을 때",
+     "en": "Correcting a misconception"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "supprimer les redondances.",
+    "ko": "~ 대신 ~라고 쓰다.",
+    "en": "write ... instead of ..."
+   },
+   {
+    "id": "w2",
+    "t": "la voix active.",
+    "ko": "불필요한 단어를 지우다.",
+    "en": "delete superfluous words"
+   },
+   {
+    "id": "w3",
+    "t": "resserrer / alléger.",
+    "ko": "소리 내어 읽다.",
+    "en": "read aloud"
+   },
+   {
+    "id": "w4",
+    "t": "le parallélisme.",
+    "ko": "간결하게 다듬다.",
+    "en": "tighten"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "장황한 문장 한 개를 간결하게 고쳐 쓰고, 어떤 원칙을 적용했는지 4문장으로 설명해 보세요.",
+    "en": "Rewrite one wordy sentence concisely and explain in four sentences which principles you applied."
+   },
+   "must_include": [
+    {
+     "label": "redondance",
+     "match": [
+      "redondance"
+     ]
+    },
+    {
+     "label": "voix active",
+     "match": [
+      "voix active"
+     ]
+    },
+    {
+     "label": "resserr",
+     "match": [
+      "resserr"
+     ]
+    },
+    {
+     "label": "parallélisme",
+     "match": [
+      "parallélisme"
+     ]
+    }
+   ],
+   "model": "Supprimez les redondances. Préférez la voix active. Resserrez vos phrases et soignez le parallélisme.",
+   "model_trans": {
+    "ko": "원문은 '결정이 이루어졌다'였지만 '우리가 결정했다'로 고쳤어요. 능동태로 바꾸어 문장이 힘 있어졌어요. 불필요한 단어도 지웠어요. 간결함은 단순함이 아니라 명료함을 위한 것이에요.",
+    "en": "The original was 'A decision was made', but I changed it to 'We decided'. Switching to the active voice made the sentence more forceful. I also deleted superfluous words. Concision is for lucidity, not for simplicity."
+   }
+  }
+ }
+}

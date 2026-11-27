@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "fr_c2_u30",
+  "lang": "fr",
+  "family": "europe",
+  "level": "c2",
+  "unit": 30,
+  "concept": "C2.U30",
+  "status": "live",
+  "title": {
+   "target": "Le vocabulaire de l'analyse poétique",
+   "ko": "시 분석 용어",
+   "en": "Terms for analysing poetry"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "une strophe",
+   "pos": "noun",
+   "ko": "연",
+   "en": "stanza",
+   "ex": {
+    "t": "Ce poème compte quatre strophes.",
+    "ko": "이 시는 네 개의 연으로 이루어져 있어요.",
+    "en": "The poem consists of four stanzas."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "la rime",
+   "pos": "noun",
+   "ko": "운",
+   "en": "rhyme",
+   "ex": {
+    "t": "La rime relie les vers.",
+    "ko": "각 연은 규칙적인 운을 가져요.",
+    "en": "Each stanza has a regular rhyme."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "un alexandrin",
+   "pos": "noun",
+   "ko": "운율",
+   "en": "meter",
+   "ex": {
+    "t": "L'alexandrin compte douze syllabes.",
+    "ko": "시의 운율은 약강 5보격이에요.",
+    "en": "The poem's meter is iambic pentameter."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "un enjambement",
+   "pos": "noun",
+   "ko": "행걸침",
+   "en": "enjambment",
+   "ex": {
+    "t": "Un enjambement prolonge la phrase au vers suivant.",
+    "ko": "행걸침은 흐름을 만들어요.",
+    "en": "Enjambment creates flow."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "une allitération",
+   "pos": "noun",
+   "ko": "두운",
+   "en": "alliteration",
+   "ex": {
+    "t": "Une allitération répète des consonnes.",
+    "ko": "두운은 소리의 효과를 높여요.",
+    "en": "Alliteration heightens the sound effect."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "une assonance",
+   "pos": "noun",
+   "ko": "이미지",
+   "en": "imagery",
+   "ex": {
+    "t": "L'assonance répète des voyelles.",
+    "ko": "시는 풍부한 이미지를 써요.",
+    "en": "The poem uses rich imagery."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "un vers",
+   "pos": "noun",
+   "ko": "화자",
+   "en": "speaker",
+   "ex": {
+    "t": "Ce vers est célèbre.",
+    "ko": "시의 화자는 늙은 어부예요.",
+    "en": "The speaker of the poem is an old fisherman."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "la césure",
+   "pos": "noun",
+   "ko": "어조",
+   "en": "tone",
+   "ex": {
+    "t": "La césure divise l'alexandrin.",
+    "ko": "시의 어조는 애잔해요.",
+    "en": "The tone of the poem is wistful."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "le registre lyrique",
+   "pos": "noun",
+   "ko": "상징",
+   "en": "symbol",
+   "ex": {
+    "t": "Le registre lyrique exprime les sentiments.",
+    "ko": "장미는 사랑의 상징이에요.",
+    "en": "The rose is a symbol of love."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "une image",
+   "pos": "noun",
+   "ko": "의인화",
+   "en": "personification",
+   "ex": {
+    "t": "Les images du poème sont saisissantes.",
+    "ko": "바람이 속삭이는 것은 의인화예요.",
+    "en": "The wind whispering is personification."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "analyse de poème : strophe · rime · mètre · enjambement · allitération · image",
+   "en": "Poetry analysis: strophe, rime, mètre, enjambement, allitération, image"
+  },
+  "explain": {
+   "ko": "시 분석 용어: strophe(연), vers(행), rime(운), mètre(음절 수), alexandrin(12음절 시행), césure(중간 휴지), enjambement(행간 걸침), allitération(자음 반복)·assonance(모음 반복), image(이미지), registre lyrique(서정적 어조). 분석은 형식(strophe·rime·mètre)에서 의미(image·registre)로 나아갑니다. 이런 요소가 시의 리듬과 정서에 어떻게 기여하는지 설명하세요.",
+   "en": "Poetry terms: strophe (stanza), vers (line), rime, mètre (syllable count), alexandrin (twelve-syllable line), césure (caesura), enjambement, allitération (repeated consonants), assonance (repeated vowels), image, registre lyrique. Analysis moves from form (stanza, rhyme, metre) to meaning (imagery, register). Explain how each feature contributes to rhythm and emotion."
+  },
+  "table": {
+   "head": [
+    "용어 / Terme",
+    "정의 / Définition",
+    "효과 / Effet"
+   ],
+   "rows": [
+    [
+     "strophe",
+     "시의 연 / groupe de vers",
+     "구조 / structure"
+    ],
+    [
+     "rime",
+     "끝소리 반복 / sons finaux",
+     "음악성 / musicalité"
+    ],
+    [
+     "enjambement",
+     "문장이 다음 행으로 / phrase qui déborde",
+     "리듬 / rythme"
+    ],
+    [
+     "allitération",
+     "자음 반복 / consonnes répétées",
+     "분위기 / ambiance"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "형식에서 의미로 분석을 진행하세요.",
+    "en": "Move from form to meaning."
+   },
+   {
+    "ko": "각 요소의 효과를 구체적으로 설명하세요.",
+    "en": "State the effect of each device."
+   },
+   {
+    "ko": "알렉상드랭은 12음절입니다.",
+    "en": "The alexandrin has twelve syllables."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Ce poème compte quatre strophes.",
+    "ko": "이 시는 네 개의 연으로 이루어져 있어요.",
+    "en": "The poem consists of four stanzas."
+   },
+   {
+    "t": "La rime relie les vers.",
+    "ko": "시의 운율은 약강 5보격이에요.",
+    "en": "The poem's meter is iambic pentameter."
+   },
+   {
+    "t": "L'alexandrin compte douze syllabes.",
+    "ko": "행걸침은 흐름을 만들어요.",
+    "en": "Enjambment creates flow."
+   },
+   {
+    "t": "Un enjambement prolonge la phrase au vers suivant.",
+    "ko": "시의 어조는 애잔해요.",
+    "en": "The tone of the poem is wistful."
+   },
+   {
+    "t": "Une allitération répète des consonnes.",
+    "ko": "바람이 속삭이는 것은 의인화예요.",
+    "en": "The wind whispering is personification."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Ce poème compte quatre ___.",
+    "options": [
+     "strophes",
+     "rimes",
+     "vers"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "L'___ compte douze syllabes.",
+    "options": [
+     "alexandrin",
+     "octosyllabe",
+     "enjambement"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Une ___ répète des consonnes.",
+    "options": [
+     "allitération",
+     "assonance",
+     "rime"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Un ___ prolonge la phrase au vers suivant.",
+    "options": [
+     "enjambement",
+     "alexandrin",
+     "refrain"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Combien de strophes compte ce poème ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 행걸침이란 무엇인가요?",
+     "en": "(Question) What is enjambment?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Il compte quatre strophes.",
+       "Il compte douze rimes.",
+       "Il compte cent vers."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Qu'est-ce qu'une allitération ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 약강 5보격이란 무엇인가요?",
+     "en": "(Question) What is iambic pentameter?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "La répétition de consonnes.",
+       "La répétition de voyelles.",
+       "La répétition d'un mot."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Ce poème est composé en alexandrins."
+      },
+      {
+       "s": "B",
+       "t": "Oui, et la césure divise chaque vers en deux."
+      },
+      {
+       "s": "A",
+       "t": "Les rimes sont croisées, n'est-ce pas ?"
+      },
+      {
+       "s": "B",
+       "t": "Exactement, et l'enjambement donne du rythme."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 시는 몇 개의 연으로 되어 있어?\nB: 네 개의 연이고 ABAB의 운이야.\nA: 어조는 어때?\nB: 애잔해. 화자가 상실을 회상하거든.",
+     "en": "A: How many stanzas does this poem have?\nB: Four, with an ABAB rhyme scheme.\nA: What about the tone?\nB: Wistful. The speaker recalls a loss."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quel mètre est utilisé ?",
+      "options": [
+       "L'alexandrin",
+       "L'octosyllabe",
+       "Le décasyllabe"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Pour analyser un poème, on observe d'abord sa forme : le nombre de strophes, le mètre, les rimes. On repère ensuite les procédés sonores comme l'allitération et l'assonance. Enfin, on interprète les images et le registre. Chaque procédé doit être relié à un effet."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "시를 분석할 때는 형식과 내용을 함께 살펴보아야 합니다. 연, 운, 운율, 행걸침 같은 형식 요소가 이미지와 어조를 통해 의미를 만들어 냅니다. 소리 장치인 두운도 시의 리듬과 분위기에 기여합니다.",
+     "en": "When analysing a poem, one must examine form and content together. Formal elements such as stanza, rhyme, meter and enjambment create meaning through imagery and tone. Sound devices such as alliteration also contribute to the poem's rhythm and mood."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que doit-on relier à un effet ?",
+      "options": [
+       "Chaque procédé",
+       "Chaque rime",
+       "Chaque titre"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Quel procédé voyez-vous au vers trois ?"
+      },
+      {
+       "s": "B",
+       "t": "Un enjambement."
+      },
+      {
+       "s": "A",
+       "t": "Quel effet produit-il ?"
+      },
+      {
+       "s": "B",
+       "t": "Il accélère le rythme et prolonge l'émotion."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 이 시의 두운을 찾아보세요.\n학생: 'silver streams softly sing'입니다.\n교수: 어떤 효과가 있나요?\n학생: 부드러운 소리가 평온함을 만듭니다.",
+     "en": "Professor: Find the alliteration in this poem.\nStudent: 'silver streams softly sing'.\nProfessor: What effect does it have?\nStudent: The soft sounds create calm."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Un ______",
+      "answers": [
+       "enjambement"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Il accélère le rythme et prolonge l'______",
+      "answers": [
+       "émotion"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Ce poème compte quatre ___.\n2) L'___ compte douze syllabes.\n3) Une ___ répète des consonnes.",
+    "trans": {
+     "ko": "1) 이 시는 네 개의 연으로 이루어져 있어요. 2) 시의 운율은 약강 5보격이에요. 3) 시의 어조는 애잔해요.",
+     "en": "1) The poem consists of four stanzas. 2) The poem's meter is iambic pentameter. 3) The tone of the poem is wistful."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Ce poème compte quatre ___.",
+      "options": [
+       "strophes",
+       "rimes",
+       "vers"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "L'___ compte douze syllabes.",
+      "options": [
+       "alexandrin",
+       "octosyllabe",
+       "enjambement"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Une ___ répète des consonnes.",
+      "options": [
+       "allitération",
+       "assonance",
+       "rime"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "La (1) divise l'alexandrin en deux hémistiches. Un (2) prolonge la phrase au vers suivant. Le registre (3) exprime les sentiments.",
+    "trans": {
+     "ko": "이 시는 풍부한 이미지를 쓴다. 바람이 속삭이는 것은 의인화이고 장미는 사랑의 상징이다. 형식과 내용이 함께 의미를 만들어 낸다.",
+     "en": "This poem uses rich imagery. The wind whispering is personification, and the rose is a symbol of love. Form and content together create meaning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "césure",
+       "ceinture",
+       "censure"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "enjambement",
+       "alexandrin",
+       "refrain"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "lyrique",
+       "épique",
+       "comique"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "COMMENTAIRE\nMusique et sens\nDans ce sonnet, les allitérations en [s] imitent le murmure de l'eau. Les rimes embrassées donnent une impression de symétrie. L'enjambement du vers cinq prolonge l'émotion. Ainsi la forme sert le sens.",
+    "trans": {
+     "ko": "시 비평\n형식이 말하는 것\n행걸침은 문장이 행을 넘어 흐르게 하여 끊어지지 않는 생각의 느낌을 준다. 반면 짧은 행은 숨을 멈추는 효과를 낸다. 형식은 의미를 만들어 내는 도구다.",
+     "en": "POETRY CRITICISM\nWhat form says\nEnjambment lets a sentence run over the line, giving the feel of an unbroken thought. Short lines, by contrast, create the effect of holding one's breath. Form is a tool for making meaning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que miment les allitérations en [s] ?",
+      "options": [
+       "Le murmure de l'eau",
+       "Le vent",
+       "Le tonnerre"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "À quoi sert la forme ?",
+      "options": [
+       "Au sens",
+       "À l'ornement seul",
+       "À la rapidité"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Le poète utilise l'alexandrin dans trois de ses poèmes. Il aime les enjambements. Ses allitérations créent une musique douce.",
+    "trans": {
+     "ko": "비평은 행걸침이 끊어지지 않는 생각의 느낌을 준다고 본다. 비평은 짧은 행이 흐름을 만든다고 본다. 비평은 형식이 의미를 만드는 도구라고 본다.",
+     "en": "The criticism says enjambment gives the feel of an unbroken thought. The criticism says short lines create flow. The criticism says form is a tool for making meaning."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Le poète aime l'enjambement.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Il refuse l'alexandrin.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Il est né à Paris.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Ce poème compte quatre strophes.",
+    "ko": "이 시는 네 개의 연으로 이루어져 있습니다.",
+    "en": "The poem consists of four stanzas.",
+    "situation": {
+     "ko": "구조를 말할 때",
+     "en": "Describing structure"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "La rime relie les vers.",
+    "ko": "각 연은 ABAB의 운을 따릅니다.",
+    "en": "Each stanza follows an ABAB rhyme scheme.",
+    "situation": {
+     "ko": "운을 설명할 때",
+     "en": "Explaining rhyme"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "L'alexandrin compte douze syllabes.",
+    "ko": "시의 운율은 약강 5보격입니다.",
+    "en": "The meter of the poem is iambic pentameter.",
+    "situation": {
+     "ko": "운율을 설명할 때",
+     "en": "Explaining meter"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Un enjambement prolonge la phrase.",
+    "ko": "행걸침은 문장이 행을 넘어 흐르게 합니다.",
+    "en": "Enjambment lets a sentence run over the line break.",
+    "situation": {
+     "ko": "행걸침을 설명할 때",
+     "en": "Explaining enjambment"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Une allitération répète des consonnes.",
+    "ko": "두운은 비슷한 소리를 반복해 리듬을 만듭니다.",
+    "en": "Alliteration repeats similar sounds to create rhythm.",
+    "situation": {
+     "ko": "소리 장치를 설명할 때",
+     "en": "Explaining sound devices"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "L'assonance répète des voyelles.",
+    "ko": "바람이 속삭이는 것은 의인화입니다.",
+    "en": "The wind whispering is personification.",
+    "situation": {
+     "ko": "수사법을 설명할 때",
+     "en": "Explaining a figure"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "La césure divise l'alexandrin.",
+    "ko": "시의 어조는 애잔하고 화자는 상실을 회상합니다.",
+    "en": "The tone is wistful and the speaker recalls a loss.",
+    "situation": {
+     "ko": "분석할 때",
+     "en": "Analysing"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Les images du poème sont saisissantes.",
+    "ko": "시를 분석할 때는 형식이 의미에 어떻게 기여하는지 살펴보세요.",
+    "en": "When analysing a poem, consider how form contributes to meaning.",
+    "situation": {
+     "ko": "분석 원칙",
+     "en": "Analytical principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "strophe / vers.",
+    "ko": "~로 이루어져 있다.",
+    "en": "consist of ..."
+   },
+   {
+    "id": "w2",
+    "t": "rime / mètre.",
+    "ko": "운율을 따르다.",
+    "en": "follow a rhyme scheme"
+   },
+   {
+    "id": "w3",
+    "t": "enjambement.",
+    "ko": "형식이 의미에 기여하다.",
+    "en": "form contributes to meaning"
+   },
+   {
+    "id": "w4",
+    "t": "allitération / assonance.",
+    "ko": "어조가 ~하다.",
+    "en": "The tone is ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "시의 형식 요소 세 가지를 사용해 가상의 시를 4문장으로 분석해 보세요.",
+    "en": "Analyse an imaginary poem in four sentences using three formal elements."
+   },
+   "must_include": [
+    {
+     "label": "strophe",
+     "match": [
+      "strophe"
+     ]
+    },
+    {
+     "label": "rime",
+     "match": [
+      "rime"
+     ]
+    },
+    {
+     "label": "enjambement",
+     "match": [
+      "enjambement"
+     ]
+    },
+    {
+     "label": "allitération",
+     "match": [
+      "allitération"
+     ]
+    }
+   ],
+   "model": "Ce poème compte quatre strophes. La rime est croisée. L'enjambement prolonge la phrase et l'allitération crée une musique douce.",
+   "model_trans": {
+    "ko": "이 시는 네 개의 연으로 이루어져 있고 ABAB의 운을 따라요. 행걸침이 흐름을 만들고 두운이 리듬을 더해요. 시의 어조는 애잔해요. 이처럼 형식이 의미에 기여해요.",
+    "en": "This poem consists of four stanzas and follows an ABAB rhyme scheme. Enjambment creates flow and alliteration adds rhythm. The tone of the poem is wistful. In this way, form contributes to meaning."
+   }
+  }
+ }
+}

@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "fr_c2_u31",
+  "lang": "fr",
+  "family": "europe",
+  "level": "c2",
+  "unit": 31,
+  "concept": "C2.U31",
+  "status": "live",
+  "title": {
+   "target": "La rhétorique politique : ethos, pathos, logos",
+   "ko": "정치 수사학: 에토스·파토스·로고스",
+   "en": "Political rhetoric: ethos, pathos, logos"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "l'ethos",
+   "pos": "noun",
+   "ko": "수사학",
+   "en": "rhetoric",
+   "ex": {
+    "t": "L'ethos établit la crédibilité de l'orateur.",
+    "ko": "그는 수사학의 대가예요.",
+    "en": "He is a master of rhetoric."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "le pathos",
+   "pos": "noun",
+   "ko": "신뢰(에토스)",
+   "en": "ethos",
+   "ex": {
+    "t": "Le pathos touche les émotions.",
+    "ko": "연설자는 에토스로 신뢰를 얻어요.",
+    "en": "The speaker gains trust through ethos."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "le logos",
+   "pos": "noun",
+   "ko": "감정 호소(파토스)",
+   "en": "pathos",
+   "ex": {
+    "t": "Le logos s'appuie sur la raison.",
+    "ko": "파토스는 청중의 감정에 호소해요.",
+    "en": "Pathos appeals to the audience's emotions."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "une question rhétorique",
+   "pos": "noun",
+   "ko": "논리(로고스)",
+   "en": "logos",
+   "ex": {
+    "t": "Une question rhétorique n'attend pas de réponse.",
+    "ko": "로고스는 논리와 증거에 의존해요.",
+    "en": "Logos relies on logic and evidence."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "une anaphore",
+   "pos": "phrase",
+   "ko": "수사 의문문",
+   "en": "rhetorical question",
+   "ex": {
+    "t": "L'anaphore répète un mot en début de phrase.",
+    "ko": "수사 의문문은 답을 요구하지 않아요.",
+    "en": "A rhetorical question does not demand an answer."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "une gradation",
+   "pos": "noun",
+   "ko": "어구 반복",
+   "en": "anaphora",
+   "ex": {
+    "t": "La gradation intensifie le propos.",
+    "ko": "연설은 어구 반복으로 힘을 얻어요.",
+    "en": "The speech gains force through anaphora."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "un orateur",
+   "pos": "noun",
+   "ko": "3항 구조",
+   "en": "tricolon",
+   "ex": {
+    "t": "L'orateur a captivé la salle.",
+    "ko": "3항 구조는 리듬을 만들어요.",
+    "en": "A tricolon creates rhythm."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "haranguer",
+   "pos": "verb",
+   "ko": "설득하다",
+   "en": "persuade",
+   "ex": {
+    "t": "Il harangue la foule.",
+    "ko": "그는 청중을 설득했어요.",
+    "en": "He persuaded the audience."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "convaincre",
+   "pos": "adj",
+   "ko": "선동적인",
+   "en": "inflammatory",
+   "ex": {
+    "t": "Il cherche à convaincre l'auditoire.",
+    "ko": "그의 말은 선동적이었어요.",
+    "en": "His words were inflammatory."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "persuader",
+   "pos": "phrase",
+   "ko": "호소하다",
+   "en": "appeal to",
+   "ex": {
+    "t": "Elle a persuadé les indécis.",
+    "ko": "그는 청중의 양심에 호소했어요.",
+    "en": "He appealed to the audience's conscience."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "rhétorique politique : ethos · pathos · logos · question rhétorique · anaphore · tricolon",
+   "en": "Political rhetoric: ethos, pathos, logos, question rhétorique, anaphore, tricolon"
+  },
+  "explain": {
+   "ko": "아리스토텔레스의 설득 3요소: ethos(화자의 신뢰성), pathos(청중의 감정), logos(이성·논리). 연설의 수사 기법: question rhétorique(답을 기대하지 않는 질문), anaphore(문장 첫머리의 반복), gradation(점층), tricolon(3항 병렬). convaincre는 이성에, persuader는 감정과 의지에 호소하는 뉘앙스가 있습니다. 정치 연설은 이 요소를 결합하므로, 분석할 때는 각 수단의 효과를 구분하세요.",
+   "en": "Aristotle's three appeals: ethos (the speaker's credibility), pathos (the audience's emotions), logos (reason). Devices: question rhétorique (no answer expected), anaphore (repetition at the start of clauses), gradation (build-up), tricolon (triple structure). Convaincre appeals to reason, persuader to feeling and will. Political speeches combine them; when analysing, distinguish the effect of each."
+  },
+  "table": {
+   "head": [
+    "수단 / Moyen",
+    "대상 / Cible",
+    "예문 / Exemple"
+   ],
+   "rows": [
+    [
+     "ethos",
+     "신뢰 / crédibilité",
+     "Je me suis battu pour vous."
+    ],
+    [
+     "pathos",
+     "감정 / émotion",
+     "Pensez à vos enfants."
+    ],
+    [
+     "logos",
+     "논리 / raison",
+     "Les chiffres le prouvent."
+    ],
+    [
+     "anaphore",
+     "리듬 / rythme",
+     "Moi président, je..."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "ethos·pathos·logos는 대부분 함께 쓰입니다.",
+    "en": "The three appeals usually combine."
+   },
+   {
+    "ko": "수사 의문문은 청중을 참여시킵니다.",
+    "en": "Rhetorical questions involve the audience."
+   },
+   {
+    "ko": "분석할 때 수단과 효과를 연결하세요.",
+    "en": "Link each device to its effect."
+   }
+  ],
+  "examples": [
+   {
+    "t": "L'ethos établit la crédibilité de l'orateur.",
+    "ko": "그는 수사학의 대가예요.",
+    "en": "He is a master of rhetoric."
+   },
+   {
+    "t": "Le pathos touche les émotions.",
+    "ko": "파토스는 청중의 감정에 호소해요.",
+    "en": "Pathos appeals to the audience's emotions."
+   },
+   {
+    "t": "Une question rhétorique n'attend pas de réponse.",
+    "ko": "로고스는 논리와 증거에 의존해요.",
+    "en": "Logos relies on logic and evidence."
+   },
+   {
+    "t": "L'anaphore répète un mot en début de phrase.",
+    "ko": "3항 구조는 리듬을 만들어요.",
+    "en": "A tricolon creates rhythm."
+   },
+   {
+    "t": "Il harangue la foule.",
+    "ko": "그는 청중의 양심에 호소했어요.",
+    "en": "He appealed to the audience's conscience."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "L'___ établit la crédibilité de l'orateur.",
+    "options": [
+     "ethos",
+     "pathos",
+     "logos"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Le ___ touche les émotions.",
+    "options": [
+     "pathos",
+     "logos",
+     "ethos"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Une question ___ n'attend pas de réponse.",
+    "options": [
+     "rhétorique",
+     "retorique",
+     "rhétorie"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "L'___ répète un mot en début de phrase.",
+    "options": [
+     "anaphore",
+     "épiphore",
+     "gradation"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Que touche le pathos ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 에토스, 파토스, 로고스는 각각 무엇인가요?",
+     "en": "(Question) What are ethos, pathos and logos?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Les émotions du public.",
+       "La raison du public.",
+       "La mémoire du public."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Qu'est-ce qu'une anaphore ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 수사 의문문의 효과는 무엇인가요?",
+     "en": "(Question) What is the effect of a rhetorical question?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Une répétition en début de phrase.",
+       "Une question sans réponse.",
+       "Une métaphore longue."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Dans ce discours, le président s'adresse aux familles."
+      },
+      {
+       "s": "B",
+       "t": "C'est du pathos : il touche les émotions."
+      },
+      {
+       "s": "A",
+       "t": "Puis il cite des chiffres précis."
+      },
+      {
+       "s": "B",
+       "t": "Là, c'est du logos."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그 연설이 왜 설득력 있었을까?\nB: 통계로 논리를 세우고 아이들 이야기로 감정에 호소했거든.\nA: 에토스는?\nB: 연설자가 오랜 경험을 이야기해서 신뢰를 얻었어.",
+     "en": "A: Why was that speech so persuasive?\nB: It built logic with statistics and appealed to emotion with stories about children.\nA: And ethos?\nB: The speaker gained trust by talking about long experience."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qu'est-ce qui relève du logos ?",
+      "options": [
+       "Les chiffres précis",
+       "Les familles",
+       "Le ton"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Aristote distingue trois moyens de persuader : l'ethos, le pathos et le logos. L'orateur doit d'abord paraître crédible, puis toucher les émotions de l'auditoire, enfin appuyer son propos sur des arguments. Les anaphores et les questions rhétoriques renforcent l'effet. Ces techniques sont courantes dans les discours politiques."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "아리스토텔레스는 설득의 세 가지 수단을 제시했습니다. 에토스는 화자의 신뢰성, 파토스는 청중의 감정, 로고스는 논리와 증거입니다. 좋은 정치 연설은 이 세 가지를 균형 있게 사용하며, 수사 의문문과 어구 반복 같은 장치로 효과를 높입니다.",
+     "en": "Aristotle set out three means of persuasion. Ethos is the speaker's credibility, pathos is the audience's emotion, and logos is logic and evidence. A good political speech uses all three in balance, and heightens its effect through devices such as rhetorical questions and anaphora."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quels sont les trois moyens d'Aristote ?",
+      "options": [
+       "Ethos, pathos, logos",
+       "Rime, vers, strophe",
+       "Passé, présent, futur"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Quel est l'effet de cette anaphore ?"
+      },
+      {
+       "s": "B",
+       "t": "Elle crée un rythme et marque l'insistance."
+      },
+      {
+       "s": "A",
+       "t": "Et la question rhétorique ?"
+      },
+      {
+       "s": "B",
+       "t": "Elle implique le public sans attendre de réponse."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "기자: 이 연설의 특징은 무엇인가요?\n분석가: 어구 반복이 리듬을 만듭니다.\n기자: 감정에 대한 호소는요?\n분석가: 아이들 이야기가 파토스입니다.",
+     "en": "Reporter: What is distinctive about this speech?\nAnalyst: Anaphora creates the rhythm.\nReporter: And the appeal to emotion?\nAnalyst: The stories about children are the pathos."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Elle crée un rythme et marque l'______",
+      "answers": [
+       "insistance"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "sans attendre de ______",
+      "answers": [
+       "réponse"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) L'___ établit la crédibilité de l'orateur.\n2) Le ___ touche les émotions.\n3) Une question ___ n'attend pas de réponse.",
+    "trans": {
+     "ko": "1) 그는 수사학의 대가예요. 2) 파토스는 청중의 감정에 호소해요. 3) 로고스는 논리와 증거에 의존해요.",
+     "en": "1) He is a master of rhetoric. 2) Pathos appeals to the audience's emotions. 3) Logos relies on logic and evidence."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "L'___ établit la crédibilité de l'orateur.",
+      "options": [
+       "ethos",
+       "pathos",
+       "logos"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Le ___ touche les émotions.",
+      "options": [
+       "pathos",
+       "logos",
+       "ethos"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Une question ___ n'attend pas de réponse.",
+      "options": [
+       "rhétorique",
+       "retorique",
+       "rhétorie"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "L'orateur veut (1) l'auditoire. Il emploie une (2) pour créer un rythme. Il cherche enfin à (3) les indécis.",
+    "trans": {
+     "ko": "연설자는 오랜 경험으로 에토스를 쌓았다. 그는 감동적인 이야기로 청중의 감정에 호소했다. 마지막으로 통계로 논리를 세웠다.",
+     "en": "The speaker built ethos through long experience. He appealed to the audience's emotions with a moving story. Finally, he built logic with statistics."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "convaincre",
+       "convaincu",
+       "convainc"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "anaphore",
+       "épiphore",
+       "mesure"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "persuader",
+       "persuadé",
+       "persuade"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ANALYSE\nUn discours habile\nLe discours du ministre mêle ethos, pathos et logos. Il rappelle d'abord son parcours, puis évoque les familles touchées, enfin cite des statistiques. Les anaphores donnent un rythme soutenu. L'ensemble convainc sans paraître manipulateur.",
+    "trans": {
+     "ko": "정치 칼럼\n수사의 힘\n말은 힘이다. 좋은 연설은 신뢰, 감정, 논리를 균형 있게 사용한다. 그러나 감정만 자극하는 선동적 수사는 논리를 가릴 수 있으므로 청중은 비판적으로 들어야 한다.",
+     "en": "POLITICAL COLUMN\nThe power of rhetoric\nWords are power. A good speech uses credibility, emotion and logic in balance. But inflammatory rhetoric that only stirs emotion can obscure logic, so audiences must listen critically."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que rappelle d'abord le ministre ?",
+      "options": [
+       "Son parcours",
+       "Les statistiques",
+       "Ses adversaires"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Que donnent les anaphores ?",
+      "options": [
+       "Un rythme soutenu",
+       "Un ton comique",
+       "Un style sec"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Camille prépare un discours. Elle choisit une anaphore pour marquer l'insistance. Elle ajoute une question rhétorique pour impliquer le public.",
+    "trans": {
+     "ko": "칼럼은 좋은 연설이 신뢰, 감정, 논리를 균형 있게 사용한다고 본다. 칼럼은 선동적 수사가 항상 논리를 강화한다고 본다. 칼럼은 청중이 비판적으로 들어야 한다고 본다.",
+     "en": "The column says a good speech uses credibility, emotion and logic in balance. The column says inflammatory rhetoric always strengthens logic. The column says audiences must listen critically."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Camille emploie une anaphore.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Elle refuse les questions rhétoriques.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Elle prononcera le discours à Lyon.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "L'ethos établit la crédibilité de l'orateur.",
+    "ko": "연설자는 경험과 평판으로 에토스를 쌓습니다.",
+    "en": "A speaker builds ethos through experience and reputation.",
+    "situation": {
+     "ko": "에토스를 설명할 때",
+     "en": "Explaining ethos"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Le pathos touche les émotions.",
+    "ko": "파토스는 청중의 감정에 직접 호소합니다.",
+    "en": "Pathos appeals directly to the audience's emotions.",
+    "situation": {
+     "ko": "파토스를 설명할 때",
+     "en": "Explaining pathos"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Le logos s'appuie sur la raison.",
+    "ko": "로고스는 논리적 근거와 증거에 의존합니다.",
+    "en": "Logos depends on logical reasoning and evidence.",
+    "situation": {
+     "ko": "로고스를 설명할 때",
+     "en": "Explaining logos"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Une question rhétorique n'attend pas de réponse.",
+    "ko": "그는 수사 의문문으로 청중이 스스로 답을 찾게 했습니다.",
+    "en": "He used rhetorical questions to let the audience find the answer themselves.",
+    "situation": {
+     "ko": "수사 장치",
+     "en": "A rhetorical device"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "L'anaphore répète un mot en début de phrase.",
+    "ko": "어구 반복은 연설에 힘과 리듬을 더합니다.",
+    "en": "Anaphora adds force and rhythm to a speech.",
+    "situation": {
+     "ko": "수사 장치",
+     "en": "A rhetorical device"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "La gradation intensifie le propos.",
+    "ko": "3항 구조는 기억에 남는 인상을 줍니다.",
+    "en": "A tricolon leaves a memorable impression.",
+    "situation": {
+     "ko": "수사 장치",
+     "en": "A rhetorical device"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Il harangue la foule.",
+    "ko": "그의 선동적인 말은 청중을 흥분시켰습니다.",
+    "en": "His inflammatory words stirred up the audience.",
+    "situation": {
+     "ko": "연설을 비판할 때",
+     "en": "Criticising a speech"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Elle a persuadé les indécis.",
+    "ko": "좋은 연설은 세 가지 호소를 균형 있게 사용합니다.",
+    "en": "A good speech uses the three appeals in balance.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "l'ethos.",
+    "ko": "~에 호소하다.",
+    "en": "appeal to ..."
+   },
+   {
+    "id": "w2",
+    "t": "le pathos.",
+    "ko": "~을 쌓다.",
+    "en": "build ..."
+   },
+   {
+    "id": "w3",
+    "t": "le logos.",
+    "ko": "균형 있게 사용하다.",
+    "en": "use in balance"
+   },
+   {
+    "id": "w4",
+    "t": "l'anaphore et la question rhétorique.",
+    "ko": "청중을 설득하다.",
+    "en": "persuade the audience"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "에토스, 파토스, 로고스를 각각 한 문장씩 사용한 설득 연설을 4문장으로 써 보세요.",
+    "en": "Write a four-sentence persuasive speech using ethos, pathos and logos in one sentence each."
+   },
+   "must_include": [
+    {
+     "label": "ethos",
+     "match": [
+      "ethos"
+     ]
+    },
+    {
+     "label": "pathos",
+     "match": [
+      "pathos"
+     ]
+    },
+    {
+     "label": "logos",
+     "match": [
+      "logos"
+     ]
+    },
+    {
+     "label": "anaphore",
+     "match": [
+      "anaphore"
+     ]
+    }
+   ],
+   "model": "Ce discours mêle l'ethos, le pathos et le logos. L'anaphore donne un rythme, et la question rhétorique implique le public.",
+   "model_trans": {
+    "ko": "저는 20년간 이 지역에서 일해 왔습니다. 아이들이 위험에 처해 있다는 사실을 외면할 수 없습니다. 통계는 사고가 해마다 늘고 있음을 보여 줍니다. 그러니 지금 행동해야 하지 않겠습니까?",
+    "en": "I have worked in this community for twenty years. We cannot turn away from the fact that our children are in danger. The statistics show that accidents are rising every year. So shouldn't we act now?"
+   }
+  }
+ }
+}

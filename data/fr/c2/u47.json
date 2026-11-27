@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "fr_c2_u47",
+  "lang": "fr",
+  "family": "europe",
+  "level": "c2",
+  "unit": 47,
+  "concept": "C2.U47",
+  "status": "live",
+  "title": {
+   "target": "La traduction et les nuances intraduisibles",
+   "ko": "번역과 번역 불가능한 뉘앙스",
+   "en": "Translation and untranslatable nuance"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "un équivalent",
+   "pos": "noun",
+   "ko": "대응어",
+   "en": "equivalent",
+   "ex": {
+    "t": "Il n'existe pas d'équivalent exact.",
+    "ko": "한 단어로 된 대응어가 없어요.",
+    "en": "There is no one-word equivalent."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "perdu dans la traduction",
+   "pos": "phrase",
+   "ko": "번역 중 사라지다",
+   "en": "lost in translation",
+   "ex": {
+    "t": "Le sens est perdu dans la traduction.",
+    "ko": "뉘앙스가 번역 중 사라졌어요.",
+    "en": "The nuance was lost in translation."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "la connotation",
+   "pos": "noun",
+   "ko": "함축 의미",
+   "en": "connotation",
+   "ex": {
+    "t": "La connotation diffère selon les langues.",
+    "ko": "그 단어는 부정적 함축이 있어요.",
+    "en": "That word has negative connotations."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "la nuance",
+   "pos": "noun",
+   "ko": "뉘앙스",
+   "en": "nuance",
+   "ex": {
+    "t": "Cette nuance est difficile à rendre.",
+    "ko": "미묘한 뉘앙스를 놓쳤어요.",
+    "en": "I missed the subtle nuance."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "rendre",
+   "pos": "verb",
+   "ko": "옮기다",
+   "en": "render",
+   "ex": {
+    "t": "Comment rendre ce mot en coréen ?",
+    "ko": "그는 시를 영어로 옮겼어요.",
+    "en": "He rendered the poem into English."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "fidèle",
+   "pos": "adj",
+   "ko": "원문에 충실한",
+   "en": "faithful",
+   "ex": {
+    "t": "Une traduction fidèle respecte le sens.",
+    "ko": "번역은 원문에 충실해요.",
+    "en": "The translation is faithful to the original."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "intraduisible",
+   "pos": "phrase",
+   "ko": "직역",
+   "en": "literal translation",
+   "ex": {
+    "t": "« Dépaysement » est presque intraduisible.",
+    "ko": "직역은 어색하게 들려요.",
+    "en": "A literal translation sounds awkward."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "littéral",
+   "pos": "phrase",
+   "ko": "의역",
+   "en": "free translation",
+   "ex": {
+    "t": "Une traduction littérale sonne faux.",
+    "ko": "의역이 더 자연스러워요.",
+    "en": "A free translation is more natural."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "le faux ami",
+   "pos": "adj",
+   "ko": "번역 불가능한",
+   "en": "untranslatable",
+   "ex": {
+    "t": "« Actuellement » est un faux ami.",
+    "ko": "그 단어는 번역 불가능해요.",
+    "en": "That word is untranslatable."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "adapter",
+   "pos": "phrase",
+   "ko": "문화적 맥락",
+   "en": "cultural context",
+   "ex": {
+    "t": "Le traducteur adapte l'expression.",
+    "ko": "문화적 맥락을 고려하세요.",
+    "en": "Consider the cultural context."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "traduction : équivalent · se perdre dans la traduction · connotation · nuance · rendre · fidèle",
+   "en": "Translation: équivalent, perdu dans la traduction, connotation, nuance, rendre, fidèle"
+  },
+  "explain": {
+   "ko": "번역에서는 단어가 아니라 의미와 뉘앙스를 옮깁니다. un équivalent(대응어), la connotation(함축), la nuance, rendre(옮기다), fidèle(충실한), littéral(직역의). 번역에서 의미가 사라지는 것을 perdu dans la traduction이라 하고, 정확한 대응어가 없는 말은 intraduisible(번역하기 어려운)입니다. 직역보다 자연스러운 표현(adaptation)이 좋은 경우가 많으며, 영어 actually/프랑스어 actuellement 같은 faux amis(가짜 친구)에 주의하세요.",
+   "en": "Translation conveys meaning and nuance, not just words. Un équivalent, la connotation, la nuance, rendre (render), fidèle (faithful), littéral. When meaning disappears it is perdu dans la traduction; a word without an exact counterpart is intraduisible. Adaptation often beats literal rendering, and beware faux amis such as actually vs actuellement."
+  },
+  "table": {
+   "head": [
+    "개념 / Notion",
+    "설명 / Explication",
+    "예 / Exemple"
+   ],
+   "rows": [
+    [
+     "équivalent",
+     "대응어 / correspondance",
+     "Pas d'équivalent exact."
+    ],
+    [
+     "connotation",
+     "함축 / valeur associée",
+     "« Régime » ≠ « diet »"
+    ],
+    [
+     "faux ami",
+     "형태 유사 / ressemblance trompeuse",
+     "actuellement ≠ actually"
+    ],
+    [
+     "adaptation",
+     "자연스럽게 / naturel",
+     "Adapter l'expression."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "직역보다 의미와 어조를 우선하세요.",
+    "en": "Prioritise meaning and tone."
+   },
+   {
+    "ko": "faux ami에 주의하세요.",
+    "en": "Watch out for false friends."
+   },
+   {
+    "ko": "문화적 맥락도 번역 대상입니다.",
+    "en": "Culture is part of translation."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Il n'existe pas d'équivalent exact.",
+    "ko": "한 단어로 된 대응어가 없어요.",
+    "en": "There is no one-word equivalent."
+   },
+   {
+    "t": "Le sens est perdu dans la traduction.",
+    "ko": "뉘앙스가 번역 중 사라졌어요.",
+    "en": "The nuance was lost in translation."
+   },
+   {
+    "t": "Cette nuance est difficile à rendre.",
+    "ko": "그 단어는 부정적 함축이 있어요.",
+    "en": "That word has negative connotations."
+   },
+   {
+    "t": "Une traduction fidèle respecte le sens.",
+    "ko": "직역은 어색하게 들려요.",
+    "en": "A literal translation sounds awkward."
+   },
+   {
+    "t": "« Actuellement » est un faux ami.",
+    "ko": "문화적 맥락을 고려하세요.",
+    "en": "Consider the cultural context."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Il n'existe pas d'___ exact.",
+    "options": [
+     "équivalent",
+     "équivalence",
+     "égal"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Le sens est perdu dans la ___.",
+    "options": [
+     "traduction",
+     "traduire",
+     "traducteur"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Cette ___ est difficile à rendre.",
+    "options": [
+     "nuance",
+     "nuage",
+     "nue"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "« Actuellement » est un faux ___.",
+    "options": [
+     "ami",
+     "amie",
+     "amis"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Y a-t-il un équivalent exact ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 번역 불가능한 단어란 무엇인가요?",
+     "en": "(Question) What is an untranslatable word?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Non, pas d'équivalent exact.",
+       "Oui, un seul.",
+       "Oui, deux."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Qu'est-ce qu'un faux ami ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 직역과 의역의 차이는 무엇인가요?",
+     "en": "(Question) What is the difference between literal and free translation?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Un mot qui ressemble mais diffère.",
+       "Un ami imaginaire.",
+       "Un synonyme."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Comment traduire ce mot en coréen ?"
+      },
+      {
+       "s": "B",
+       "t": "Il n'existe pas d'équivalent exact."
+      },
+      {
+       "s": "A",
+       "t": "La nuance se perd, alors ?"
+      },
+      {
+       "s": "B",
+       "t": "Oui, il faut adapter l'expression."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 시는 번역하기 어렵지?\nB: 응, 뉘앙스가 번역 중에 사라지거든.\nA: 어떻게 옮기면 좋을까?\nB: 문화적 맥락을 고려해서 의역해야 해.",
+     "en": "A: Is this poem hard to translate?\nB: Yes, the nuance gets lost in translation.\nA: How should I render it?\nB: Consider the cultural context and use a free translation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que faut-il faire ?",
+      "options": [
+       "Adapter l'expression",
+       "Abandonner",
+       "Traduire mot à mot"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Traduire, ce n'est pas remplacer un mot par un autre. Il faut rendre le sens, le ton et les connotations. Une traduction littérale sonne souvent faux. Certaines expressions sont presque intraduisibles et demandent une adaptation."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "번역자는 원문에 충실함과 자연스러움 사이에서 균형을 잡아야 합니다. 직역은 원문의 구조를 살리지만 어색할 수 있고, 의역은 자연스럽지만 원문에서 멀어질 수 있습니다. 번역하기 어려운 단어는 문화적 맥락을 이해해야 제대로 옮길 수 있습니다.",
+     "en": "A translator must balance fidelity to the original with naturalness. A literal translation preserves the structure of the original but may sound awkward, while a free translation is natural but may drift from the original. Hard-to-translate words can be rendered properly only by understanding the cultural context."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que sonne souvent faux ?",
+      "options": [
+       "Une traduction littérale",
+       "Une adaptation",
+       "Une paraphrase"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Ce passage est difficile à rendre."
+      },
+      {
+       "s": "B",
+       "t": "Pourquoi ?"
+      },
+      {
+       "s": "A",
+       "t": "La connotation n'existe pas dans l'autre langue."
+      },
+      {
+       "s": "B",
+       "t": "Alors adaptez, mais restez fidèle."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "번역가: 이 단어는 한 단어로 옮길 수 없습니다.\n편집자: 어떻게 하실 건가요?\n번역가: 주석을 달아 설명하겠습니다.\n편집자: 좋은 생각입니다.",
+     "en": "Translator: This word cannot be rendered in a single word.\nEditor: What will you do?\nTranslator: I will explain it with a note.\nEditor: That's a good idea."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "La ______ n'existe pas",
+      "answers": [
+       "connotation"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "restez ______",
+      "answers": [
+       "fidèle"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Il n'existe pas d'___ exact.\n2) Le sens est perdu dans la ___.\n3) Cette ___ est difficile à rendre.",
+    "trans": {
+     "ko": "1) 한 단어로 된 대응어가 없어요. 2) 뉘앙스가 번역 중 사라졌어요. 3) 직역은 어색하게 들려요.",
+     "en": "1) There is no one-word equivalent. 2) The nuance was lost in translation. 3) A literal translation sounds awkward."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Il n'existe pas d'___ exact.",
+      "options": [
+       "équivalent",
+       "équivalence",
+       "égal"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Le sens est perdu dans la ___.",
+      "options": [
+       "traduction",
+       "traduire",
+       "traducteur"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Cette ___ est difficile à rendre.",
+      "options": [
+       "nuance",
+       "nuage",
+       "nue"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Une traduction (1) respecte le sens. Une traduction (2) sonne faux. « Actuellement » est un (3) ami.",
+    "trans": {
+     "ko": "그는 시를 영어로 충실하게 옮겼다. 그러나 한 단어는 대응어가 없어 주석을 달았다. 번역 불가능해 보이는 단어는 문화를 잘 보여 준다.",
+     "en": "He rendered the poem faithfully into English. But one word had no equivalent, so he added a note. Words that seem untranslatable show a culture well."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "fidèle",
+       "fidèlement",
+       "fidélité"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "littérale",
+       "littéraire",
+       "lettre"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "faux",
+       "fausse",
+       "fous"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ESSAI\nCe que la traduction ne peut pas dire\nCertains mots portent une histoire entière. Leur sens littéral est facile à traduire, leur connotation ne l'est pas. Le traducteur doit alors choisir : être fidèle à la lettre ou à l'esprit. Les meilleures traductions assument ce choix.",
+    "trans": {
+     "ko": "번역 칼럼\n번역의 딜레마\n번역자는 원문에 충실함과 자연스러움 사이에서 갈등한다. 직역은 어색하고 의역은 원문에서 멀어질 수 있다. 훌륭한 번역은 문화적 맥락을 이해하는 데서 시작한다.",
+     "en": "TRANSLATION COLUMN\nThe translator's dilemma\nA translator is torn between fidelity to the original and naturalness. A literal translation is awkward and a free translation may drift from the original. A fine translation begins with understanding cultural context."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la difficulté majeure ?",
+      "options": [
+       "La connotation",
+       "L'orthographe",
+       "La ponctuation"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Que doit choisir le traducteur ?",
+      "options": [
+       "Entre la lettre et l'esprit",
+       "Entre deux éditeurs",
+       "Entre deux livres"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Zoé traduit un roman coréen. Elle hésite sur un mot intraduisible. Elle choisit finalement une expression plus naturelle.",
+    "trans": {
+     "ko": "칼럼은 번역자가 충실함과 자연스러움 사이에서 갈등한다고 본다. 칼럼은 직역이 언제나 자연스럽다고 한다. 칼럼은 훌륭한 번역이 문화적 맥락 이해에서 시작한다고 본다.",
+     "en": "The column says translators are torn between fidelity and naturalness. The column says literal translation is always natural. The column says a fine translation begins with understanding cultural context."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Zoé a choisi une expression naturelle.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Elle a laissé le mot en coréen.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Le roman est de 1950.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Il n'existe pas d'équivalent exact.",
+    "ko": "한국어의 '정'에는 영어에 정확한 대응어가 없습니다.",
+    "en": "The Korean word 'jeong' has no exact English equivalent.",
+    "situation": {
+     "ko": "번역의 한계",
+     "en": "A limit of translation"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Le sens est perdu dans la traduction.",
+    "ko": "시의 뉘앙스는 번역 중에 쉽게 사라집니다.",
+    "en": "The nuance of a poem is easily lost in translation.",
+    "situation": {
+     "ko": "번역의 어려움",
+     "en": "Difficulty of translation"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "La connotation diffère selon les langues.",
+    "ko": "두 단어는 뜻은 같지만 함축 의미가 다릅니다.",
+    "en": "The two words mean the same but differ in connotation.",
+    "situation": {
+     "ko": "함축을 비교할 때",
+     "en": "Comparing connotation"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Cette nuance est difficile à rendre.",
+    "ko": "직역은 어색하므로 의역이 필요할 때가 있습니다.",
+    "en": "A literal translation sounds awkward, so a free translation is sometimes needed.",
+    "situation": {
+     "ko": "번역 방식",
+     "en": "Translation strategy"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Une traduction fidèle respecte le sens.",
+    "ko": "번역자는 원문의 의미와 자연스러움 사이에서 균형을 잡아야 합니다.",
+    "en": "A translator must balance fidelity to the original with naturalness.",
+    "situation": {
+     "ko": "번역자의 과제",
+     "en": "The translator's task"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Une traduction littérale sonne faux.",
+    "ko": "문화적 맥락을 이해하지 못하면 오역하기 쉽습니다.",
+    "en": "Without understanding the cultural context, one easily mistranslates.",
+    "situation": {
+     "ko": "맥락의 중요성",
+     "en": "Importance of context"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "« Actuellement » est un faux ami.",
+    "ko": "그는 시를 영어로 충실하게 옮겼습니다.",
+    "en": "He rendered the poem faithfully into English.",
+    "situation": {
+     "ko": "번역을 묘사할 때",
+     "en": "Describing a translation"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Le traducteur adapte l'expression.",
+    "ko": "번역 불가능해 보이는 단어일수록 문화를 잘 보여 줍니다.",
+    "en": "The more untranslatable a word seems, the better it shows a culture.",
+    "situation": {
+     "ko": "흥미로운 점을 말할 때",
+     "en": "Making an interesting point"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "un équivalent.",
+    "ko": "~에 대응어가 없다.",
+    "en": "have no equivalent in ..."
+   },
+   {
+    "id": "w2",
+    "t": "perdu dans la traduction.",
+    "ko": "~에 충실하다.",
+    "en": "be faithful to ..."
+   },
+   {
+    "id": "w3",
+    "t": "la connotation / la nuance.",
+    "ko": "번역 중 사라지다.",
+    "en": "be lost in translation"
+   },
+   {
+    "id": "w4",
+    "t": "fidèle / littéral.",
+    "ko": "문화적 맥락.",
+    "en": "cultural context"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "번역하기 어려운 단어를 하나 골라 그 뉘앙스와 번역 전략을 4문장으로 설명해 보세요.",
+    "en": "Choose a hard-to-translate word and explain its nuance and a translation strategy in four sentences."
+   },
+   "must_include": [
+    {
+     "label": "équivalent",
+     "match": [
+      "équivalent"
+     ]
+    },
+    {
+     "label": "perdu dans la traduction",
+     "match": [
+      "perdu dans la traduction"
+     ]
+    },
+    {
+     "label": "connotation",
+     "match": [
+      "connotation"
+     ]
+    },
+    {
+     "label": "fidèle",
+     "match": [
+      "fidèle"
+     ]
+    }
+   ],
+   "model": "Il n'existe pas d'équivalent exact. Le sens est perdu dans la traduction. Une connotation est difficile à rendre, mais il faut rester fidèle.",
+   "model_trans": {
+    "ko": "한국어의 '정'에는 영어에 정확한 대응어가 없습니다. 이 단어에는 애정과 유대의 함축이 담겨 있습니다. 직역하면 뉘앙스가 번역 중에 사라지므로 의역이나 주석이 필요합니다. 번역자는 문화적 맥락을 고려해야 합니다.",
+    "en": "The Korean word 'jeong' has no exact English equivalent. It carries connotations of affection and bonds. A literal translation means the nuance is lost in translation, so a free translation or a note is needed. The translator must consider the cultural context."
+   }
+  }
+ }
+}

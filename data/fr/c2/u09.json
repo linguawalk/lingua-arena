@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "fr_c2_u09",
+  "lang": "fr",
+  "family": "europe",
+  "level": "c2",
+  "unit": 9,
+  "concept": "C2.U09",
+  "status": "live",
+  "title": {
+   "target": "La structure de l'information et la place des mots",
+   "ko": "정보 구조와 문장 균형",
+   "en": "Information structure and end-weight"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "le thème",
+   "pos": "noun",
+   "ko": "이미 알려진 정보",
+   "en": "given information",
+   "ex": {
+    "t": "Le thème de la phrase est connu du lecteur.",
+    "ko": "문장은 보통 이미 알려진 정보로 시작해요.",
+    "en": "A sentence usually starts with given information."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "le rhème",
+   "pos": "noun",
+   "ko": "새 정보",
+   "en": "new information",
+   "ex": {
+    "t": "Le rhème apporte l'information nouvelle.",
+    "ko": "새 정보는 문장 끝에 오는 경향이 있어요.",
+    "en": "New information tends to come at the end."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "la dislocation",
+   "pos": "noun",
+   "ko": "문미 중점",
+   "en": "end-weight",
+   "ex": {
+    "t": "La dislocation : Ce livre, je l'ai lu.",
+    "ko": "긴 구는 문미 중점 원칙에 따라 뒤로 가요.",
+    "en": "Long phrases move to the end by end-weight."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "le présentatif",
+   "pos": "verb",
+   "ko": "후치하다",
+   "en": "extrapose",
+   "ex": {
+    "t": "Voici un présentatif.",
+    "ko": "긴 주어를 뒤로 보내면 읽기 쉬워져요.",
+    "en": "Extraposing a long subject makes it easier to read."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "mettre en avant",
+   "pos": "adj",
+   "ko": "정돈된",
+   "en": "well-ordered",
+   "ex": {
+    "t": "Cette tournure met l'information en avant.",
+    "ko": "잘 정돈된 글은 읽기 쉬워요.",
+    "en": "A well-ordered text is easy to read."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "de manière générale",
+   "pos": "noun",
+   "ko": "강조점",
+   "en": "focal point",
+   "ex": {
+    "t": "De manière générale, l'information nouvelle vient à la fin.",
+    "ko": "문장의 강조점은 끝에 있어요.",
+    "en": "The focal point of a sentence lies at the end."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "la syntaxe",
+   "pos": "adj",
+   "ko": "앞서 말한",
+   "en": "aforementioned",
+   "ex": {
+    "t": "La syntaxe française est souple.",
+    "ko": "앞서 말한 문제를 다시 보죠.",
+    "en": "Let us revisit the aforementioned problem."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "clarifier",
+   "pos": "phrase",
+   "ko": "유도하다",
+   "en": "lead into",
+   "ex": {
+    "t": "Le texte clarifie l'idée.",
+    "ko": "서론은 본론으로 이끌어요.",
+    "en": "The introduction leads into the main body."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "l'ordre des mots",
+   "pos": "noun",
+   "ko": "전환",
+   "en": "transition",
+   "ex": {
+    "t": "L'ordre des mots influence le sens.",
+    "ko": "단락 사이의 전환이 매끄러워요.",
+    "en": "The transition between paragraphs is smooth."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "la proposition relative",
+   "pos": "noun",
+   "ko": "비약",
+   "en": "leap",
+   "ex": {
+    "t": "La proposition relative termine la phrase.",
+    "ko": "논리에 비약이 있어요.",
+    "en": "There is a leap in the logic."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "structure de l'information : thème-rhème · dislocation · il y a ... qui · présentatifs · poids final",
+   "en": "Information structure: thème/rhème, dislocation, présentatifs (voici, voilà, il y a), end-weight"
+  },
+  "explain": {
+   "ko": "프랑스어에서도 알려진 정보(thème)가 먼저, 새 정보(rhème)가 나중에 오는 경향이 있습니다. ① 전위·후위 dislocation: Ce livre, je l'ai lu. / Je l'ai lu, ce livre. ② 소개 구문: il y a ... qui(Il y a un homme qui t'attend), voici/voilà. ③ 무거운 주어·보어는 문미에: Il est arrivé un accident très grave. 정보 구조를 활용하면 문장이 자연스럽고 설득력 있게 읽힙니다.",
+   "en": "French also tends to put known information (thème) first and new information (rhème) last. Dislocation: Ce livre, je l'ai lu. / Je l'ai lu, ce livre. Presentatives: il y a ... qui (Il y a un homme qui t'attend), voici, voilà. Heavy subjects and complements move to the end: Il est arrivé un accident très grave. Using information structure makes sentences natural and persuasive."
+  },
+  "table": {
+   "head": [
+    "기법 / Technique",
+    "구조 / Structure",
+    "예문 / Exemple"
+   ],
+   "rows": [
+    [
+     "전위 / dislocation à gauche",
+     "N, + pronom",
+     "Ce livre, je l'ai lu."
+    ],
+    [
+     "후위 / dislocation à droite",
+     "pronom + N",
+     "Je l'ai lu, ce livre."
+    ],
+    [
+     "présentatif",
+     "il y a ... qui",
+     "Il y a un homme qui t'attend."
+    ],
+    [
+     "poids final",
+     "가벼운 앞, 무거운 뒤",
+     "Il est arrivé un grave accident."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "dislocation에서는 대명사가 명사를 다시 받습니다.",
+    "en": "In dislocation, a pronoun takes up the noun."
+   },
+   {
+    "ko": "새 정보는 문미에 두는 것이 자연스럽습니다.",
+    "en": "New information naturally goes at the end."
+   },
+   {
+    "ko": "voici는 가까운 것, voilà는 먼 것에 씁니다.",
+    "en": "Voici is for near things, voilà for far."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Ce livre, je l'ai lu.",
+    "ko": "그가 돌아오지 않았다는 사실은 놀라웠어요.",
+    "en": "It was surprising that he had not returned."
+   },
+   {
+    "t": "Je l'ai lu, ce livre.",
+    "ko": "그 정책이 실패한 이유는 여러 가지가 있어요.",
+    "en": "There are several reasons why the policy failed."
+   },
+   {
+    "t": "Il y a un homme qui t'attend.",
+    "ko": "선생님이 학생들에게 흥미로운 책 한 권을 추천했어요.",
+    "en": "The teacher recommended to the students an interesting book on linguistics."
+   },
+   {
+    "t": "Voilà ce que je voulais dire.",
+    "ko": "그들이 모든 서류를 제출할 필요가 있다는 점은 분명해요.",
+    "en": "It is clear that they need to submit all the documents."
+   },
+   {
+    "t": "Il est arrivé un accident très grave hier.",
+    "ko": "이 논문의 장점은 그 방법론의 정교함에 있어요.",
+    "en": "The strength of this paper lies in the sophistication of its methodology."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Ce livre, je ___ ai lu.",
+    "options": [
+     "l'",
+     "le",
+     "lui"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Il y a un homme ___ t'attend.",
+    "options": [
+     "qui",
+     "que",
+     "dont"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "___ ce que je voulais dire.",
+    "options": [
+     "Voilà",
+     "Voir",
+     "Vu"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Il est arrivé un accident ___.",
+    "options": [
+     "très grave",
+     "grave très",
+     "très gravement"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Avez-vous lu ce livre ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 계획의 문제는 무엇인가요?",
+     "en": "(Question) What is the problem with this plan?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Ce livre, je l'ai lu.",
+       "Ce livre, je lui ai lu.",
+       "Ce livre, j'ai lu le."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Qui vous attend ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 논문의 장점은 무엇인가요?",
+     "en": "(Question) What is the strength of this paper?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Il y a un homme qui m'attend.",
+       "Il y a un homme que attend.",
+       "Il y a un homme dont attend."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Ce film, tu l'as vu ?"
+      },
+      {
+       "s": "B",
+       "t": "Oui, je l'ai vu, ce film. Il y a une scène qui m'a marqué."
+      },
+      {
+       "s": "A",
+       "t": "Voilà ce que je trouve aussi !"
+      },
+      {
+       "s": "B",
+       "t": "Le réalisateur, lui, a fait un travail remarquable."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 글을 읽기 어려워. 왜 그럴까?\nB: 주어가 너무 길어서 그래. 긴 부분은 뒤로 보내 봐.\nA: 예를 들면?\nB: 'That he left surprised us' 대신 'It surprised us that he left'처럼.",
+     "en": "A: This text is hard to read. Why?\nB: The subject is too long. Try moving the long part to the end.\nA: For example?\nB: Like 'It surprised us that he left' instead of 'That he left surprised us'."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qu'est-ce qui a marqué le speaker ?",
+      "options": [
+       "Une scène du film",
+       "Le prix du billet",
+       "L'actrice"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Les phrases françaises placent souvent l'information connue au début et l'information nouvelle à la fin. Ce livre, je l'ai lu cet été. Il y a un point qui m'a frappé : la structure du récit. Voilà précisément ce que je voulais souligner."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "영어 문장은 대체로 이미 아는 정보에서 새 정보로 흐릅니다. 긴 구는 문장 뒤로 옮기는 문미 중점 원칙을 따릅니다. 존재문 there is나 후치 It is ... that은 새로운 정보를 효과적으로 도입합니다.",
+     "en": "English sentences generally flow from known to new information. Long phrases move to the end by the end-weight principle. Existential there is and extraposed It is ... that introduce new information effectively."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Où place-t-on l'information nouvelle ?",
+      "options": [
+       "À la fin",
+       "Au début",
+       "Au milieu"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Qu'est-ce que la dislocation ?"
+      },
+      {
+       "s": "B",
+       "t": "C'est une façon de mettre un élément en avant : Ce livre, je l'ai lu."
+      },
+      {
+       "s": "A",
+       "t": "Et la dislocation à droite ?"
+      },
+      {
+       "s": "B",
+       "t": "Je l'ai lu, ce livre."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 논문의 구조를 설명해 주세요.\n학생: 서론은 문제를 소개하고 본론으로 이끕니다.\n교수: 전환은 매끄럽습니까?\n학생: 네, 각 단락은 앞선 정보에서 새로운 정보로 이어집니다.",
+     "en": "Professor: Please explain the structure of your paper.\nStudent: The introduction presents the problem and leads into the main body.\nProfessor: Are the transitions smooth?\nStudent: Yes, each paragraph moves from given to new information."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "C'est une façon de mettre un élément en ______",
+      "answers": [
+       "avant"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Je l'ai lu, ce ______",
+      "answers": [
+       "livre"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Ce livre, je ___ ai lu.\n2) Il y a un homme ___ t'attend.\n3) ___ ce que je voulais dire.",
+    "trans": {
+     "ko": "1) 그가 돌아오지 않았다는 건 놀라웠어요. 2) 그 정책이 실패한 이유는 여러 가지예요. 3) 이 논문의 장점은 방법론의 정교함에 있어요.",
+     "en": "1) It was surprising that he had not returned. 2) There are several reasons why the policy failed. 3) The strength of this paper lies in the sophistication of its methodology."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Ce livre, je ___ ai lu.",
+      "options": [
+       "l'",
+       "le",
+       "lui"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Il y a un homme ___ t'attend.",
+      "options": [
+       "qui",
+       "que",
+       "dont"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___ ce que je voulais dire.",
+      "options": [
+       "Voilà",
+       "Voir",
+       "Vu"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "En français, le (1) est souvent placé en début de phrase. L'information (2) vient à la fin. La (3) permet de mettre un élément en avant.",
+    "trans": {
+     "ko": "이 보고서에는 몇 가지 문제가 있다. 가장 큰 문제는 자료의 출처가 불분명하다는 점이다. 앞서 말한 문제는 결론의 신뢰성을 해칠 수 있다. 따라서 자료를 다시 확인하는 것이 필요하다.",
+     "en": "There are several problems in this report. The biggest lies in the unclear source of the data. The aforementioned problem may undermine the reliability of the conclusion. It is therefore necessary to recheck the data."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "thème",
+       "rhème",
+       "verbe"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "nouvelle",
+       "ancienne",
+       "connue"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "dislocation",
+       "disposition",
+       "distraction"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "ARTICLE DE LINGUISTIQUE\nL'ordre des mots\nL'ordre des mots français est relativement fixe, mais la dislocation offre une souplesse. Ce livre, je l'ai lu : le thème vient d'abord. Ainsi, la phrase met en avant ce qui est connu avant d'introduire ce qui est nouveau. Cette stratégie facilite la compréhension du lecteur.",
+    "trans": {
+     "ko": "글쓰기 팁\n읽기 쉬운 문장\n독자는 이미 아는 정보에서 새로운 정보로 흐르는 글을 쉽게 읽습니다. 긴 주어는 뒤로 보내고, 핵심은 문장 끝에 두세요. 이렇게 하면 문장이 균형 잡히고 명확해집니다.",
+     "en": "WRITING TIP\nSentences that read easily\nReaders find it easy to follow text that moves from given to new information. Move long subjects to the end and place the key point last. This makes sentences balanced and clear."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qu'offre la dislocation ?",
+      "options": [
+       "Une souplesse",
+       "Une rigidité",
+       "Une longueur"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Que facilite cette stratégie ?",
+      "options": [
+       "La compréhension du lecteur",
+       "La ponctuation",
+       "L'orthographe"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Camille a lu ce roman cet été. Il y a un chapitre qui l'a particulièrement touchée. Elle le recommande à tous ses amis.",
+    "trans": {
+     "ko": "글은 독자가 이미 아는 정보에서 새 정보로 흐르는 글을 읽기 쉽다고 말한다. 글은 긴 주어를 앞에 두라고 권한다. 글은 핵심을 문장 끝에 두라고 권한다.",
+     "en": "The text says readers find given-to-new text easy to follow. The text advises keeping long subjects at the start. The text advises placing the key point at the end."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Camille a lu ce roman cet été.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Elle n'a pas aimé le livre.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Le roman est un policier.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Ce livre, je l'ai lu.",
+    "ko": "그가 제안을 거절했다는 사실은 놀라웠습니다.",
+    "en": "It was surprising that he turned down the proposal.",
+    "situation": {
+     "ko": "긴 주어를 후치할 때",
+     "en": "Extraposing a long subject"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Je l'ai lu, ce livre.",
+    "ko": "이 문제에는 여러 가지 원인이 있습니다.",
+    "en": "There are several causes of this problem.",
+    "situation": {
+     "ko": "존재문으로 새 정보를 도입할 때",
+     "en": "Introducing new information with 'there'"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Il y a un homme qui t'attend.",
+    "ko": "이 연구의 가치는 새로운 데이터를 제시했다는 점에 있습니다.",
+    "en": "The value of this study lies in the new data it presents.",
+    "situation": {
+     "ko": "문미에 핵심을 둘 때",
+     "en": "Placing the key point last"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Voilà ce que je voulais dire.",
+    "ko": "그는 팀 전체에 매우 중요한 정보를 전달했습니다.",
+    "en": "He passed on to the whole team some information of great importance.",
+    "situation": {
+     "ko": "긴 목적어를 뒤로 보낼 때",
+     "en": "Moving a long object to the end"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Il est arrivé un accident très grave.",
+    "ko": "앞서 언급한 문제로 돌아가 보겠습니다.",
+    "en": "Let us return to the aforementioned problem.",
+    "situation": {
+     "ko": "앞선 정보를 가리킬 때",
+     "en": "Referring back to given information"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Le thème est connu du lecteur.",
+    "ko": "이 접근법에는 한 가지 심각한 결점이 있습니다.",
+    "en": "There is one serious flaw in this approach.",
+    "situation": {
+     "ko": "새 정보를 도입할 때",
+     "en": "Introducing a new point"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Le rhème apporte l'information nouvelle.",
+    "ko": "그 문제를 해결한 것은 바로 이 새로운 방법이었습니다.",
+    "en": "It was this new method that solved the problem.",
+    "situation": {
+     "ko": "분열문으로 초점을 줄 때",
+     "en": "Using a cleft for focus"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "De manière générale, l'information nouvelle vient à la fin.",
+    "ko": "이 글의 목적은 두 가지 접근을 비교하는 것입니다.",
+    "en": "The aim of this essay is to compare the two approaches.",
+    "situation": {
+     "ko": "문미에 중요한 정보를 두는 구조",
+     "en": "A balanced, end-focused structure"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Ce livre, je l'ai lu (dislocation).",
+    "ko": "~라는 것은 …이다 (후치).",
+    "en": "It is ... that ..."
+   },
+   {
+    "id": "w2",
+    "t": "Il y a ... qui.",
+    "ko": "~이(가) 있다 (존재).",
+    "en": "There is/are ..."
+   },
+   {
+    "id": "w3",
+    "t": "Voici / voilà.",
+    "ko": "가치/문제는 ~에 있다.",
+    "en": "The strength/problem lies in ..."
+   },
+   {
+    "id": "w4",
+    "t": "Information nouvelle en fin de phrase.",
+    "ko": "앞서 말한 ~.",
+    "en": "the aforementioned ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "정보 구조(문미 중점, 후치, there is)를 사용해 문제를 분석하는 4문장을 써 보세요.",
+    "en": "Write four sentences analysing a problem, using information structure (end-weight, extraposition, there is)."
+   },
+   "must_include": [
+    {
+     "label": "dislocation",
+     "match": [
+      "dislocation"
+     ]
+    },
+    {
+     "label": "il y a",
+     "match": [
+      "il y a"
+     ]
+    },
+    {
+     "label": "voilà",
+     "match": [
+      "voilà"
+     ]
+    },
+    {
+     "label": "l'ai lu",
+     "match": [
+      "l'ai lu"
+     ]
+    }
+   ],
+   "model": "La dislocation permet de mettre un élément en avant. Ce livre, je l'ai lu. Il y a un détail qui m'a frappé. Voilà ce que je voulais expliquer.",
+   "model_trans": {
+    "ko": "이 계획에는 한 가지 심각한 결점이 있어요. 비용이 예상보다 훨씬 높아질 수 있다는 점은 분명해요. 문제의 핵심은 일정이 지나치게 빡빡하다는 데 있어요. 앞서 말한 위험을 줄이려면 단계별로 진행하는 것이 바람직해요.",
+    "en": "There is one serious flaw in this plan. It is clear that costs could rise far above expectation. The crux of the problem lies in the schedule being too tight. To reduce the aforementioned risk, it is advisable to proceed in stages."
+   }
+  }
+ }
+}

@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "fr_c2_u32",
+  "lang": "fr",
+  "family": "europe",
+  "level": "c2",
+  "unit": 32,
+  "concept": "C2.U32",
+  "status": "live",
+  "title": {
+   "target": "La persuasion et les sophismes",
+   "ko": "설득과 논리적 오류",
+   "en": "Persuasion and logical fallacies"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "un sophisme",
+   "pos": "phrase",
+   "ko": "허수아비 논증",
+   "en": "straw man",
+   "ex": {
+    "t": "Cet argument est un sophisme.",
+    "ko": "그는 허수아비 논증을 사용했어요.",
+    "en": "He used a straw man argument."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "l'homme de paille",
+   "pos": "phrase",
+   "ko": "인신공격",
+   "en": "ad hominem",
+   "ex": {
+    "t": "Il attaque un homme de paille.",
+    "ko": "인신공격은 논점을 흐려요.",
+    "en": "An ad hominem attack distracts from the point."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "ad hominem",
+   "pos": "phrase",
+   "ko": "미끄러운 경사",
+   "en": "slippery slope",
+   "ex": {
+    "t": "Une attaque ad hominem vise la personne.",
+    "ko": "그건 미끄러운 경사 논증이에요.",
+    "en": "That is a slippery slope argument."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "la pente glissante",
+   "pos": "phrase",
+   "ko": "흑백 논리",
+   "en": "false dilemma",
+   "ex": {
+    "t": "Il invoque la pente glissante.",
+    "ko": "흑백 논리는 선택지를 제한해요.",
+    "en": "A false dilemma limits the choices."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "un faux dilemme",
+   "pos": "phrase",
+   "ko": "논점 선취",
+   "en": "begging the question",
+   "ex": {
+    "t": "C'est un faux dilemme.",
+    "ko": "그 주장은 논점을 선취해요.",
+    "en": "That claim begs the question."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "la pétition de principe",
+   "pos": "noun",
+   "ko": "오류",
+   "en": "fallacy",
+   "ex": {
+    "t": "La pétition de principe suppose ce qu'elle doit prouver.",
+    "ko": "그 주장에는 오류가 있어요.",
+    "en": "The argument contains a fallacy."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "généraliser",
+   "pos": "noun",
+   "ko": "전제",
+   "en": "premise",
+   "ex": {
+    "t": "Il généralise à partir d'un seul cas.",
+    "ko": "전제가 틀리면 결론도 틀려요.",
+    "en": "If the premise is false, the conclusion fails."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "réfuter",
+   "pos": "adj",
+   "ko": "타당한",
+   "en": "valid",
+   "ex": {
+    "t": "Elle a réfuté son argument.",
+    "ko": "그 추론은 타당해요.",
+    "en": "The reasoning is valid."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "une prémisse",
+   "pos": "verb",
+   "ko": "반박하다",
+   "en": "refute",
+   "ex": {
+    "t": "La prémisse est fausse.",
+    "ko": "그는 주장을 반박했어요.",
+    "en": "He refuted the claim."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "fallacieux",
+   "pos": "adj",
+   "ko": "교묘한",
+   "en": "specious",
+   "ex": {
+    "t": "Ce raisonnement est fallacieux.",
+    "ko": "그건 그럴듯하지만 교묘한 주장이에요.",
+    "en": "It is a plausible but specious argument."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "persuasion et sophismes : homme de paille · attaque personnelle · pente glissante · faux dilemme · pétition de principe",
+   "en": "Persuasion and fallacies: homme de paille, attaque ad hominem, pente glissante, faux dilemme, pétition de principe"
+  },
+  "explain": {
+   "ko": "논리적 오류(sophisme): homme de paille(허수아비 논증, 상대 주장을 왜곡해 공격), attaque ad hominem(인신공격), pente glissante(연쇄 비약), faux dilemme(양자택일의 오류), pétition de principe(선결문제 요구). 그 밖에 généralisation hâtive(성급한 일반화). 반박(réfuter)할 때는 어떤 전제(prémisse)나 추론이 잘못되었는지 짚습니다. 'Ce raisonnement est fallacieux'처럼 정확한 용어를 쓰세요.",
+   "en": "Logical fallacies (sophismes): homme de paille (straw man), attaque ad hominem, pente glissante (slippery slope), faux dilemme (false dilemma), pétition de principe (begging the question), plus généralisation hâtive (hasty generalisation). To refute (réfuter), identify the false premise or step. Use precise terms: Ce raisonnement est fallacieux."
+  },
+  "table": {
+   "head": [
+    "오류 / Sophisme",
+    "정의 / Définition",
+    "예문 / Exemple"
+   ],
+   "rows": [
+    [
+     "homme de paille",
+     "주장을 왜곡 / déformer",
+     "Vous voulez donc tout interdire ?"
+    ],
+    [
+     "ad hominem",
+     "사람 공격 / viser la personne",
+     "Il est trop jeune pour parler."
+    ],
+    [
+     "pente glissante",
+     "연쇄 비약 / enchaînement abusif",
+     "Si on cède, tout s'effondrera."
+    ],
+    [
+     "faux dilemme",
+     "양자택일 / deux options seulement",
+     "Avec nous ou contre nous."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "오류의 이름을 알면 반박이 정확해집니다.",
+    "en": "Naming the fallacy sharpens the rebuttal."
+   },
+   {
+    "ko": "오류가 있다고 결론이 반드시 거짓은 아닙니다.",
+    "en": "A fallacy does not make the conclusion false."
+   },
+   {
+    "ko": "출처의 평판과 논증의 타당성은 별개입니다.",
+    "en": "The speaker and the argument are different."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Cet argument est un sophisme.",
+    "ko": "그는 허수아비 논증을 사용했어요.",
+    "en": "He used a straw man argument."
+   },
+   {
+    "t": "Il attaque un homme de paille.",
+    "ko": "인신공격은 논점을 흐려요.",
+    "en": "An ad hominem attack distracts from the point."
+   },
+   {
+    "t": "Une attaque ad hominem vise la personne.",
+    "ko": "흑백 논리는 선택지를 제한해요.",
+    "en": "A false dilemma limits the choices."
+   },
+   {
+    "t": "C'est un faux dilemme.",
+    "ko": "그 주장은 논점을 선취해요.",
+    "en": "That claim begs the question."
+   },
+   {
+    "t": "Ce raisonnement est fallacieux.",
+    "ko": "그는 그 주장을 반박했어요.",
+    "en": "He refuted the claim."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Cet argument est un ___.",
+    "options": [
+     "sophisme",
+     "syllogisme",
+     "paradoxe"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Il attaque un homme de ___.",
+    "options": [
+     "paille",
+     "bois",
+     "fer"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "C'est un faux ___.",
+    "options": [
+     "dilemme",
+     "dilemmes",
+     "dilemma"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Ce raisonnement est ___.",
+    "options": [
+     "fallacieux",
+     "fallacieuse",
+     "falacieux"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Pourquoi cet argument est-il fallacieux ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 허수아비 논증이란 무엇인가요?",
+     "en": "(Question) What is a straw man argument?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Parce qu'il contient une erreur de logique.",
+       "Parce qu'il est long.",
+       "Parce qu'il est ancien."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Qu'est-ce qu'un homme de paille ?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 흑백 논리란 무엇인가요?",
+     "en": "(Question) What is a false dilemma?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quelle est la meilleure réponse ?",
+      "options": [
+       "Déformer la thèse adverse.",
+       "Citer un expert.",
+       "Répéter un mot."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Il dit que si on autorise cela, tout sera permis."
+      },
+      {
+       "s": "B",
+       "t": "C'est une pente glissante."
+      },
+      {
+       "s": "A",
+       "t": "Et il présente deux choix seulement."
+      },
+      {
+       "s": "B",
+       "t": "Un faux dilemme, en plus."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그는 상대의 말을 왜곡해서 비판했어.\nB: 허수아비 논증이네.\nA: 그리고 상대를 인신공격까지 했어.\nB: 그렇다면 논점은 전혀 반박하지 못한 거야.",
+     "en": "A: He distorted his opponent's words and then criticised them.\nB: That is a straw man.\nA: And he even attacked the person.\nB: Then he never refuted the actual point."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que présente l'orateur ?",
+      "options": [
+       "Deux choix seulement",
+       "Dix options",
+       "Aucune option"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Un sophisme est un raisonnement qui paraît valide mais qui ne l'est pas. L'homme de paille déforme la thèse adverse pour mieux l'attaquer. L'attaque ad hominem vise la personne plutôt que son argument. Savoir nommer ces erreurs aide à réfuter précisément."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "논리적 오류는 그럴듯해 보이지만 타당하지 않은 추론입니다. 허수아비 논증은 상대의 주장을 왜곡하고, 인신공격은 사람을 공격하며, 흑백 논리는 선택지를 두 개로 제한합니다. 오류를 알면 남의 설득을 비판적으로 평가하고 내 논증도 점검할 수 있습니다.",
+     "en": "Logical fallacies are reasonings that seem plausible but are not valid. A straw man distorts the opponent's claim, an ad hominem attacks the person, and a false dilemma limits the choices to two. Knowing fallacies lets you evaluate others' persuasion critically and check your own arguments."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que vise l'attaque ad hominem ?",
+      "options": [
+       "La personne",
+       "L'argument",
+       "Le lieu"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Votre adversaire a-t-il tort ?"
+      },
+      {
+       "s": "B",
+       "t": "Il attaque un homme de paille."
+      },
+      {
+       "s": "A",
+       "t": "C'est-à-dire ?"
+      },
+      {
+       "s": "B",
+       "t": "Il déforme ma position pour la réfuter facilement."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "사회자: 이 주장에서 어떤 오류가 보이나요?\n패널: 논점을 선취하고 있습니다.\n사회자: 어떤 의미인가요?\n패널: 증명할 결론을 이미 전제로 삼고 있다는 뜻입니다.",
+     "en": "Moderator: Which fallacy do you see in this claim?\nPanelist: It begs the question.\nModerator: What does that mean?\nPanelist: It already takes the conclusion to be proved as its premise."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Il attaque un homme de ______",
+      "answers": [
+       "paille"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Il déforme ma ______",
+      "answers": [
+       "position"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Cet argument est un ___.\n2) Il attaque un homme de ___.\n3) C'est un faux ___.",
+    "trans": {
+     "ko": "1) 그는 허수아비 논증을 사용했어요. 2) 인신공격은 논점을 흐려요. 3) 흑백 논리는 선택지를 제한해요.",
+     "en": "1) He used a straw man argument. 2) An ad hominem attack distracts from the point. 3) A false dilemma limits the choices."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Cet argument est un ___.",
+      "options": [
+       "sophisme",
+       "syllogisme",
+       "paradoxe"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Il attaque un homme de ___.",
+      "options": [
+       "paille",
+       "bois",
+       "fer"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "C'est un faux ___.",
+      "options": [
+       "dilemme",
+       "dilemmes",
+       "dilemma"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Il (1) à partir d'un seul cas. Son (2) est fallacieux. Elle a (3) son argument.",
+    "trans": {
+     "ko": "그 주장은 그럴듯하지만 교묘하다. 전제는 증명되지 않았고 결론은 이미 전제에 들어 있다. 이런 논점 선취는 설득력을 떨어뜨린다.",
+     "en": "The claim is plausible but specious. The premise has not been proved, and the conclusion is already contained in it. Such begging the question weakens the persuasion."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "généralise",
+       "généraliser",
+       "général"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "raisonnement",
+       "raisonnable",
+       "raison"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "réfuté",
+       "réfuter",
+       "réfute"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "MANUEL\nReconnaître les sophismes\nLa pente glissante prétend qu'un premier pas mène inévitablement à un désastre. Le faux dilemme réduit un débat à deux options. La pétition de principe suppose ce qu'elle devrait prouver. Connaître ces pièges permet d'analyser un argument avec rigueur.",
+    "trans": {
+     "ko": "논리 칼럼\n오류를 알아보는 눈\n미끄러운 경사 논증은 작은 양보가 곧 재앙을 부른다고 주장한다. 그러나 각 단계가 실제로 일어나는지 증명하지 않는다면 그것은 오류다. 비판적 독자는 연결 고리를 하나씩 확인한다.",
+     "en": "LOGIC COLUMN\nAn eye for fallacies\nA slippery slope argument claims that a small concession will soon bring disaster. But if it does not show that each step will actually occur, it is a fallacy. A critical reader checks the links one by one."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que prétend la pente glissante ?",
+      "options": [
+       "Qu'un premier pas mène au désastre",
+       "Que tout est possible",
+       "Que rien ne change"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Que permet de connaître ces pièges ?",
+      "options": [
+       "Analyser avec rigueur",
+       "Écrire plus vite",
+       "Parler plus fort"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Dans un débat, Eva a accusé son adversaire d'attaquer un homme de paille. Il avait déformé sa position. Le public a applaudi.",
+    "trans": {
+     "ko": "칼럼은 미끄러운 경사 논증이 작은 양보가 재앙을 부른다고 주장한다고 본다. 칼럼은 그 논증이 항상 타당하다고 본다. 칼럼은 비판적 독자가 연결 고리를 하나씩 확인한다고 본다.",
+     "en": "The column says a slippery slope argument claims a small concession will bring disaster. The column says such arguments are always valid. The column says a critical reader checks the links one by one."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Eva a accusé son adversaire.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Le public a protesté.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Le débat portait sur l'écologie.",
+      "options": [
+       "Vrai",
+       "Faux",
+       "Non mentionné"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Cet argument est un sophisme.",
+    "ko": "그는 상대의 주장을 왜곡해 허수아비 논증을 만들었습니다.",
+    "en": "He distorted his opponent's claim to create a straw man.",
+    "situation": {
+     "ko": "허수아비 논증",
+     "en": "Straw man"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Il attaque un homme de paille.",
+    "ko": "그의 비판은 논점이 아니라 사람을 공격하는 인신공격입니다.",
+    "en": "His criticism attacks the person, not the point: an ad hominem.",
+    "situation": {
+     "ko": "인신공격",
+     "en": "Ad hominem"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Une attaque ad hominem vise la personne.",
+    "ko": "그 논증은 작은 양보가 곧 재앙이 된다는 미끄러운 경사입니다.",
+    "en": "That argument is a slippery slope: a small concession leads to disaster.",
+    "situation": {
+     "ko": "미끄러운 경사",
+     "en": "Slippery slope"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Il invoque la pente glissante.",
+    "ko": "그는 찬성 아니면 반대라는 흑백 논리를 폈습니다.",
+    "en": "He presented a false dilemma: either for or against.",
+    "situation": {
+     "ko": "흑백 논리",
+     "en": "False dilemma"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "C'est un faux dilemme.",
+    "ko": "그 주장은 증명해야 할 결론을 전제에 이미 담고 있습니다.",
+    "en": "The claim assumes in its premise the conclusion it must prove.",
+    "situation": {
+     "ko": "논점 선취",
+     "en": "Begging the question"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "La pétition de principe suppose ce qu'elle doit prouver.",
+    "ko": "전제가 틀리면 아무리 타당한 추론도 결론이 틀립니다.",
+    "en": "If a premise is false, even valid reasoning yields a false conclusion.",
+    "situation": {
+     "ko": "논증을 평가할 때",
+     "en": "Evaluating arguments"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Elle a réfuté son argument.",
+    "ko": "그럴듯해 보이지만 그 주장은 교묘합니다.",
+    "en": "The claim seems plausible but is specious.",
+    "situation": {
+     "ko": "비판할 때",
+     "en": "Criticising"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Ce raisonnement est fallacieux.",
+    "ko": "논증을 반박할 때는 오류의 유형을 구체적으로 지적하세요.",
+    "en": "When refuting an argument, name the specific type of fallacy.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "homme de paille.",
+    "ko": "논점이 아니라 사람을 공격하다.",
+    "en": "attack the person, not the point"
+   },
+   {
+    "id": "w2",
+    "t": "attaque ad hominem.",
+    "ko": "전제가 틀리면 결론도 틀리다.",
+    "en": "If the premise is false, the conclusion fails"
+   },
+   {
+    "id": "w3",
+    "t": "pente glissante.",
+    "ko": "선택지를 제한하다.",
+    "en": "limit the choices"
+   },
+   {
+    "id": "w4",
+    "t": "faux dilemme.",
+    "ko": "오류를 지적하다.",
+    "en": "point out a fallacy"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "논리적 오류를 두 가지 이상 지적하며 한 주장을 4문장으로 반박해 보세요.",
+    "en": "Refute a claim in four sentences, pointing out at least two logical fallacies."
+   },
+   "must_include": [
+    {
+     "label": "homme de paille",
+     "match": [
+      "homme de paille"
+     ]
+    },
+    {
+     "label": "ad hominem",
+     "match": [
+      "ad hominem"
+     ]
+    },
+    {
+     "label": "pente glissante",
+     "match": [
+      "pente glissante"
+     ]
+    },
+    {
+     "label": "faux dilemme",
+     "match": [
+      "faux dilemme"
+     ]
+    }
+   ],
+   "model": "Cet argument est un homme de paille. L'autre est une attaque ad hominem. Le troisième invoque la pente glissante, et le dernier est un faux dilemme.",
+   "model_trans": {
+    "ko": "그의 주장에는 두 가지 오류가 있어요. 우선 그는 반대자를 공격하는 인신공격을 했어요. 또한 찬성 아니면 반대라는 흑백 논리를 폈어요. 오류의 유형을 지적해야 반박이 명확해져요.",
+    "en": "His argument contains two fallacies. First, he made an ad hominem attack on his opponent. Second, he presented a false dilemma: either for or against. Naming the type of fallacy makes the refutation clear."
+   }
+  }
+ }
+}
