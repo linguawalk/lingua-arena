@@ -1,0 +1,787 @@
+{
+ "meta": {
+  "id": "ko_c2_u26",
+  "lang": "ko",
+  "family": "asia",
+  "level": "c2",
+  "unit": 26,
+  "concept": "C2.U26",
+  "status": "live",
+  "title": {
+   "target": "은유와 직유",
+   "ko": "은유와 개념적 은유",
+   "en": "Metaphor and conceptual metaphor"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "은유",
+   "pos": "noun",
+   "read": "eunyu",
+   "en": "metaphor",
+   "ex": {
+    "t": "시인은 풍부한 은유를 썼어요.",
+    "read": "siineun pungbuhan eunyureul sseosseoyo.",
+    "en": "The poet used rich metaphors."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "직유",
+   "pos": "noun",
+   "read": "jigyu",
+   "en": "simile",
+   "ex": {
+    "t": "'장미 같은'은 직유예요.",
+    "read": "'jangmi gateun'eun jigyuyeyo.",
+    "en": "'Like a rose' is a simile."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "비유의 본뜻",
+   "pos": "noun",
+   "read": "biyuui bontteut",
+   "en": "tenor",
+   "ex": {
+    "t": "본뜻과 매개를 구분하세요.",
+    "read": "bontteutgwa maegaereul gubunhaseyo.",
+    "en": "Distinguish the tenor from the vehicle."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "비유의 매개",
+   "pos": "noun",
+   "read": "biyuui maegae",
+   "en": "vehicle",
+   "ex": {
+    "t": "이 은유의 매개는 여행이에요.",
+    "read": "i eunyuui maegaeneun yeohaengieyo.",
+    "en": "The vehicle of this metaphor is a journey."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "죽은 은유",
+   "pos": "phrase",
+   "read": "jugeun eunyu",
+   "en": "dead metaphor",
+   "ex": {
+    "t": "'table leg'는 죽은 은유예요.",
+    "read": "'table leg'neun jugeun eunyuyeyo.",
+    "en": "'Table leg' is a dead metaphor."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "개념적 은유",
+   "pos": "phrase",
+   "read": "gaenyeomjeok eunyu",
+   "en": "conceptual metaphor",
+   "ex": {
+    "t": "'시간은 돈이다'는 개념적 은유예요.",
+    "read": "'siganeun donida'neun gaenyeomjeok eunyuyeyo.",
+    "en": "'Time is money' is a conceptual metaphor."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "혼합 은유",
+   "pos": "phrase",
+   "read": "honhap eunyu",
+   "en": "mixed metaphor",
+   "ex": {
+    "t": "그 연설은 혼합 은유로 가득했어요.",
+    "read": "geu yeonseoreun honhap eunyuro gadeukaesseoyo.",
+    "en": "The speech was full of mixed metaphors."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "상투적인",
+   "pos": "adj",
+   "read": "sangtujeogin",
+   "en": "clichéd",
+   "ex": {
+    "t": "그 표현은 상투적이에요.",
+    "read": "geu pyohyeoneun sangtujeogieyo.",
+    "en": "That expression is clichéd."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "함축하다",
+   "pos": "verb",
+   "read": "hamchukada",
+   "en": "evoke",
+   "ex": {
+    "t": "그 이미지는 향수를 불러일으켜요.",
+    "read": "geu imijineun hyangsureul bulleoireukyeoyo.",
+    "en": "The image evokes nostalgia."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "비유적으로",
+   "pos": "adv",
+   "read": "biyujeogeuro",
+   "en": "figuratively",
+   "ex": {
+    "t": "그 말은 비유적으로 쓰였어요.",
+    "read": "geu mareun biyujeogeuro sseuyeosseoyo.",
+    "en": "The word was used figuratively."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "A는 B이다, 본뜻과 매개, 죽은 은유, 비유적으로, -처럼",
+   "en": "A는 B이다, 본뜻과 매개, 죽은 은유, 비유적으로, -처럼 (metaphor and simile)"
+  },
+  "explain": {
+   "ko": "은유는 'A는 B이다'처럼 하나를 다른 것으로 말하는 비유이고, 직유는 'A는 B 같다·-처럼'으로 견주는 비유입니다. 은유에서 말하려는 대상을 '본뜻', 빌려 온 이미지를 '매개'라고 합니다: '인생은 긴 여행이다'에서 본뜻은 인생, 매개는 여행입니다. 개념적 은유 이론에 따르면 은유는 장식이 아니라 사고의 방식입니다. 상투적인 '죽은 은유'와 어색한 '혼합 은유'는 피하세요.",
+   "en": "A metaphor says one thing is another ('A는 B이다'); a simile compares ('A는 B 같다 / -처럼'). The subject is the 'tenor' (본뜻) and the borrowed image the 'vehicle' (매개): in 'Life is a long journey' the tenor is life, the vehicle journey. Conceptual metaphor theory sees metaphor as a way of thinking, not decoration. Avoid dead metaphors and mixed metaphors."
+  },
+  "table": {
+   "head": [
+    "유형 / Type",
+    "형태 / Form",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "은유 / Metaphor",
+     "A는 B이다",
+     "시간은 돈이다."
+    ],
+    [
+     "직유 / Simile",
+     "A는 B처럼",
+     "시간을 돈처럼 아껴요."
+    ],
+    [
+     "본뜻 / Tenor",
+     "말하려는 대상",
+     "인생"
+    ],
+    [
+     "매개 / Vehicle",
+     "빌려 온 이미지",
+     "여행"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "은유는 일상 언어에 깊이 스며 있습니다.",
+    "en": "Metaphors pervade everyday language."
+   },
+   {
+    "ko": "죽은 은유는 상투적이 되어 의식되지 않습니다.",
+    "en": "Dead metaphors go unnoticed."
+   },
+   {
+    "ko": "혼합 은유는 이미지를 흐립니다.",
+    "en": "Mixed metaphors blur the image."
+   }
+  ],
+  "examples": [
+   {
+    "t": "시인은 풍부한 은유를 썼어요.",
+    "read": "siineun pungbuhan eunyureul sseosseoyo.",
+    "en": "The poet used rich metaphors."
+   },
+   {
+    "t": "'시간은 돈이다'는 개념적 은유예요.",
+    "read": "'siganeun donida'neun gaenyeomjeok eunyuyeyo.",
+    "en": "'Time is money' is a conceptual metaphor."
+   },
+   {
+    "t": "'장미 같은'은 직유예요.",
+    "read": "'jangmi gateun'eun jigyuyeyo.",
+    "en": "'Like a rose' is a simile."
+   },
+   {
+    "t": "그 표현은 상투적이에요.",
+    "read": "geu pyohyeoneun sangtujeogieyo.",
+    "en": "That expression is clichéd."
+   },
+   {
+    "t": "그 말은 비유적으로 쓰였어요.",
+    "read": "geu mareun biyujeogeuro sseuyeosseoyo.",
+    "en": "The word was used figuratively."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "시간___ 돈이다.",
+    "options": [
+     "은",
+     "을",
+     "에"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "시간을 돈___ 아껴요.",
+    "options": [
+     "처럼",
+     "이다",
+     "부터"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "'인생은 여행이다'에서 본뜻은 ___이에요.",
+    "options": [
+     "인생",
+     "여행",
+     "길"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "'인생은 여행이다'에서 ___는 여행이에요.",
+    "options": [
+     "매개",
+     "본뜻",
+     "운율"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "'시간은 돈이다'는 어떤 은유인가요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What kind of metaphor is 'time is money'?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "시간을 돈처럼 보는 은유예요.",
+       "시간을 물로 보는 직유예요.",
+       "비유가 아니에요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "은유의 본뜻과 매개란 무엇인가요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What are the tenor and vehicle of a metaphor?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "본뜻은 말하려는 대상, 매개는 빌려 온 이미지예요.",
+       "둘은 같은 말이에요.",
+       "둘 다 소리를 뜻해요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "'논쟁은 전쟁이다'가 무슨 뜻이야?"
+      },
+      {
+       "s": "B",
+       "t": "우리가 논쟁을 전쟁처럼 말한다는 뜻이야."
+      },
+      {
+       "s": "A",
+       "t": "예를 들면?"
+      },
+      {
+       "s": "B",
+       "t": "입장을 공격하고 방어한다고 하지."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: What does 'argument is war' mean?\nB: It means we talk about argument as if it were war.\nA: For example?\nB: We say we attack and defend positions."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "'논쟁은 전쟁이다'는 무슨 뜻이에요?",
+      "options": [
+       "논쟁을 전쟁처럼 말한다는 뜻",
+       "전쟁이 논쟁을 일으킨다는 뜻",
+       "논쟁이 없다는 뜻"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "개념적 은유 이론에 따르면 은유는 단순한 장식이 아니라 사고의 방식입니다. 우리는 시간을 돈처럼, 논쟁을 전쟁처럼 이해합니다. 이런 은유는 일상 언어에 깊이 스며들어 있어서 대부분 의식하지 못합니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "According to conceptual metaphor theory, metaphor is not mere decoration but a way of thinking. We understand time as money and argument as war. Such metaphors are so deeply embedded in everyday language that we mostly do not notice them."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "개념적 은유 이론에 따르면 은유는 무엇이에요?",
+      "options": [
+       "사고의 방식",
+       "단순한 장식",
+       "문법 오류"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이 시의 은유를 분석해 봅시다."
+      },
+      {
+       "s": "B",
+       "t": "본뜻은 삶이고 매개는 강입니다."
+      },
+      {
+       "s": "A",
+       "t": "그 이미지는 무엇을 불러일으키나요?"
+      },
+      {
+       "s": "B",
+       "t": "흐름과 변화를 불러일으킵니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Teacher: Let's analyse the metaphor in this poem.\nStudent: The tenor is life and the vehicle is a river.\nTeacher: What does the image evoke?\nStudent: It evokes flow and change."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "학생은 본뜻이 ______이라고 해요",
+      "answers": [
+       "삶"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "그 이미지는 ______과 변화를 불러일으킨다고 해요",
+      "answers": [
+       "흐름"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 시인은 풍부한 ___을 썼어요.\n2) '시간은 돈이다'는 ___ 은유예요.\n3) 그 표현은 ___이에요.",
+    "trans": {
+     "en": "1) The poet used rich metaphors. 2) 'Time is money' is a conceptual metaphor. 3) That expression is clichéd."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "시인은 풍부한 ___을 썼어요.",
+      "options": [
+       "은유",
+       "자음",
+       "발음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "'시간은 돈이다'는 ___ 은유예요.",
+      "options": [
+       "개념적",
+       "물리적",
+       "기계적"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "그 표현은 ___이에요.",
+      "options": [
+       "상투적",
+       "새로운",
+       "독창적"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "연설은 (1) 은유로 가득했습니다. 정치인은 배를 이끌면서 동시에 불을 끄겠다고 말했습니다. 청중은 이미지가 (2) 느꼈습니다. 이런 표현은 (3) 피해야 합니다.",
+    "trans": {
+     "en": "The speech was full of mixed metaphors. The politician said he would steer the ship and put out fires at the same time. The audience felt the image was blurred."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "혼합",
+       "분명한",
+       "단순한"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "흐려졌다고",
+       "선명해졌다고",
+       "늘었다고"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "반드시",
+       "가끔",
+       "일부러"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "언어 칼럼\n은유로 생각하기\n우리는 시간을 돈처럼 쓰고 아낀다. 이런 은유는 일상 언어에 너무 깊이 스며 있어 대부분 의식하지 못한다. 그러나 은유를 의식하면 사고의 틀을 비판적으로 살필 수 있다.",
+    "trans": {
+     "en": "LANGUAGE COLUMN\nThinking in metaphor\nWe spend and save time as if it were money. Such metaphors are so deeply embedded in daily language that we mostly fail to notice them. But once we notice metaphor, we can examine our frames of thought critically."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "우리는 시간을 무엇처럼 써요?",
+      "options": [
+       "돈",
+       "물",
+       "바람"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "은유를 의식하면 무엇을 살필 수 있어요?",
+      "options": [
+       "사고의 틀",
+       "철자",
+       "발음"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "칼럼은 우리가 시간을 돈처럼 쓰고 아낀다고 본다. 칼럼은 우리가 은유를 항상 의식한다고 본다. 칼럼은 은유를 의식하면 사고의 틀을 살필 수 있다고 본다.",
+    "trans": {
+     "en": "The column says we spend and save time as if it were money. The column says we always notice metaphors. The column says noticing metaphor lets us examine frames of thought."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "칼럼은 우리가 시간을 돈처럼 쓰고 아낀다고 본다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "칼럼은 우리가 은유를 항상 의식한다고 본다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "칼럼은 은유가 영어에만 있다고 한다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "우리는 시간을 돈처럼 쓰고 아끼고 낭비합니다.",
+    "read": "urineun siganeul doncheoreom sseugo akkigo nangbihamnida.",
+    "en": "We spend, save and waste time as if it were money.",
+    "situation": {
+     "ko": "개념적 은유를 설명할 때",
+     "en": "Explaining a conceptual metaphor"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "논쟁에서 우리는 입장을 공격하고 방어합니다.",
+    "read": "nonjaengeseo urineun ipjangeul gonggyeokago bangeohamnida.",
+    "en": "In an argument we attack and defend positions.",
+    "situation": {
+     "ko": "논쟁은 전쟁이라는 은유",
+     "en": "The argument-is-war metaphor"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "은유의 본뜻과 매개를 구분해야 합니다.",
+    "read": "eunyuui bontteutgwa maegaereul gubunhaeya hamnida.",
+    "en": "One must distinguish the tenor of a metaphor from its vehicle.",
+    "situation": {
+     "ko": "분석할 때",
+     "en": "Analysing a metaphor"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "table leg는 이미 죽은 은유가 되었습니다.",
+    "read": "table legneun imi jugeun eunyuga doeeotseumnida.",
+    "en": "'Table leg' has become a dead metaphor.",
+    "situation": {
+     "ko": "죽은 은유를 말할 때",
+     "en": "Speaking of dead metaphors"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "혼합 은유는 이미지를 흐리게 합니다.",
+    "read": "honhap eunyuneun imijireul heurige hamnida.",
+    "en": "Mixed metaphors blur the image.",
+    "situation": {
+     "ko": "문체를 비판할 때",
+     "en": "Criticising style"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "그 상투적인 은유는 더 이상 효과가 없습니다.",
+    "read": "geu sangtujeogin eunyuneun deo isang hyogwaga eopseumnida.",
+    "en": "That clichéd metaphor no longer has any effect.",
+    "situation": {
+     "ko": "상투성을 비판할 때",
+     "en": "Criticising cliché"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "그 이미지는 상실감을 불러일으킵니다.",
+    "read": "geu imijineun sangsilgameul bulleoireukimnida.",
+    "en": "The image evokes a sense of loss.",
+    "situation": {
+     "ko": "효과를 말할 때",
+     "en": "Describing effect"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "은유는 단순한 장식이 아니라 사고의 방식입니다.",
+    "read": "eunyuneun dansunhan jangsigi anira sagoui bangsigimnida.",
+    "en": "Metaphor is not mere decoration but a way of thinking.",
+    "situation": {
+     "ko": "핵심 주장을 말할 때",
+     "en": "Stating a key claim"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "A는 B이다.",
+    "read": "Aneun Bida.",
+    "en": "A is B"
+   },
+   {
+    "id": "w2",
+    "t": "본뜻과 매개.",
+    "read": "bontteutgwa maegae.",
+    "en": "tenor and vehicle"
+   },
+   {
+    "id": "w3",
+    "t": "죽은 은유.",
+    "read": "jugeun eunyu.",
+    "en": "dead metaphor"
+   },
+   {
+    "id": "w4",
+    "t": "비유적으로 쓰이다.",
+    "read": "biyujeogeuro sseuida.",
+    "en": "be used figuratively"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "은유를 사용해 4문장을 쓰고, 마지막 문장에서 본뜻과 매개를 밝혀 보세요.",
+    "en": "Write four sentences using a metaphor and identify its tenor and vehicle in the last sentence."
+   },
+   "must_include": [
+    {
+     "label": "인생은 여행",
+     "match": [
+      "인생은 긴 여행이에요"
+     ]
+    },
+    {
+     "label": "불러일으키다",
+     "match": [
+      "불러일으켜요"
+     ]
+    },
+    {
+     "label": "본뜻과 매개",
+     "match": [
+      "본뜻은 인생이고 매개는 여행"
+     ]
+    }
+   ],
+   "model": "인생은 긴 여행이에요. 우리는 길을 잃기도 하고 지름길을 찾기도 해요. 그 이미지는 방향을 찾는 삶을 불러일으켜요. 이 은유에서 본뜻은 인생이고 매개는 여행이에요.",
+   "model_trans": {
+    "ko": "인생은 긴 여행이에요. 우리는 길을 잃기도 하고 지름길을 찾기도 해요. 그 이미지는 방향을 찾는 삶을 불러일으켜요. 이 은유에서 본뜻은 인생이고 매개는 여행이에요.",
+    "en": "Life is a long journey. We lose our way and sometimes find shortcuts. The image evokes a life searching for direction. In this metaphor the tenor is life and the vehicle is the journey."
+   }
+  }
+ }
+}

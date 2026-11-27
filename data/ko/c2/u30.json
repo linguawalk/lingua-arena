@@ -1,0 +1,787 @@
+{
+ "meta": {
+  "id": "ko_c2_u30",
+  "lang": "ko",
+  "family": "asia",
+  "level": "c2",
+  "unit": 30,
+  "concept": "C2.U30",
+  "status": "live",
+  "title": {
+   "target": "시의 형식 분석",
+   "ko": "시 분석 용어",
+   "en": "Terms for analysing poetry"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "연",
+   "pos": "noun",
+   "read": "yeon",
+   "en": "stanza",
+   "ex": {
+    "t": "이 시는 네 개의 연으로 이루어져 있어요.",
+    "read": "i sineun ne gaeui yeoneuro irueojyeo isseoyo.",
+    "en": "The poem consists of four stanzas."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "운",
+   "pos": "noun",
+   "read": "un",
+   "en": "rhyme",
+   "ex": {
+    "t": "각 연은 규칙적인 운을 가져요.",
+    "read": "gak yeoneun gyuchikjeogin uneul gajyeoyo.",
+    "en": "Each stanza has a regular rhyme."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "운율",
+   "pos": "noun",
+   "read": "unyul",
+   "en": "meter",
+   "ex": {
+    "t": "시의 운율은 약강 5보격이에요.",
+    "read": "siui unyureun yakgang 5bogyeogieyo.",
+    "en": "The poem's meter is iambic pentameter."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "행걸침",
+   "pos": "noun",
+   "read": "haenggeolchim",
+   "en": "enjambment",
+   "ex": {
+    "t": "행걸침은 흐름을 만들어요.",
+    "read": "haenggeolchimeun heureumeul mandeureoyo.",
+    "en": "Enjambment creates flow."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "두운",
+   "pos": "noun",
+   "read": "duun",
+   "en": "alliteration",
+   "ex": {
+    "t": "두운은 소리의 효과를 높여요.",
+    "read": "duuneun soriui hyogwareul nopyeoyo.",
+    "en": "Alliteration heightens the sound effect."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "이미지",
+   "pos": "noun",
+   "read": "imiji",
+   "en": "imagery",
+   "ex": {
+    "t": "시는 풍부한 이미지를 써요.",
+    "read": "sineun pungbuhan imijireul sseoyo.",
+    "en": "The poem uses rich imagery."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "화자",
+   "pos": "noun",
+   "read": "hwaja",
+   "en": "speaker",
+   "ex": {
+    "t": "시의 화자는 늙은 어부예요.",
+    "read": "siui hwajaneun neulgeun eobuyeyo.",
+    "en": "The speaker of the poem is an old fisherman."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "어조",
+   "pos": "noun",
+   "read": "eojo",
+   "en": "tone",
+   "ex": {
+    "t": "시의 어조는 애잔해요.",
+    "read": "siui eojoneun aejanhaeyo.",
+    "en": "The tone of the poem is wistful."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "상징",
+   "pos": "noun",
+   "read": "sangjing",
+   "en": "symbol",
+   "ex": {
+    "t": "장미는 사랑의 상징이에요.",
+    "read": "jangmineun sarangui sangjingieyo.",
+    "en": "The rose is a symbol of love."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "의인화",
+   "pos": "noun",
+   "read": "uiinhwa",
+   "en": "personification",
+   "ex": {
+    "t": "바람이 속삭이는 것은 의인화예요.",
+    "read": "barami soksagineun geoseun uiinhwayeyo.",
+    "en": "The wind whispering is personification."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "-(으)로 이루어져 있다, 운율을 따르다, 형식이 의미에 기여하다, 어조가 -하다",
+   "en": "-(으)로 이루어져 있다, 운율을 따르다, 형식이 의미에 기여하다, 어조가 -하다 (poetic form)"
+  },
+  "explain": {
+   "ko": "시를 분석할 때는 형식과 내용을 함께 살펴봅니다. '이 시는 네 개의 연으로 이루어져 있고 ABAB의 운을 따라요'처럼 구조를 설명합니다. 연, 운, 운율, 행걸침 같은 형식 요소가 이미지와 어조를 통해 의미를 만들어 냅니다. 소리 장치인 두운도 리듬과 분위기에 기여합니다. 화자의 어조는 '애잔하다', '평온하다'처럼 표현합니다.",
+   "en": "Analyse a poem by looking at form and content together. Describe structure: 'The poem consists of four stanzas following an ABAB rhyme.' Stanza, rhyme, metre and enjambment create meaning through image and tone. Alliteration also adds rhythm and mood. Describe the speaker's tone with words like '애잔하다' (plaintive) or '평온하다' (serene)."
+  },
+  "table": {
+   "head": [
+    "요소 / Element",
+    "뜻 / Meaning",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "연 / Stanza",
+     "행의 묶음",
+     "네 개의 연"
+    ],
+    [
+     "운 / Rhyme",
+     "끝소리의 반복",
+     "ABAB"
+    ],
+    [
+     "행걸침 / Enjambment",
+     "행을 넘는 흐름",
+     "끊김 없는 생각"
+    ],
+    [
+     "두운 / Alliteration",
+     "앞소리의 반복",
+     "silver streams softly sing"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "형식은 의미에 기여합니다.",
+    "en": "Form contributes to meaning."
+   },
+   {
+    "ko": "화자와 작가를 구분하세요.",
+    "en": "Distinguish speaker from poet."
+   },
+   {
+    "ko": "소리 장치는 분위기를 만듭니다.",
+    "en": "Sound devices make mood."
+   }
+  ],
+  "examples": [
+   {
+    "t": "이 시는 네 개의 연으로 이루어져 있어요.",
+    "read": "i sineun ne gaeui yeoneuro irueojyeo isseoyo.",
+    "en": "The poem consists of four stanzas."
+   },
+   {
+    "t": "시의 운율은 약강 5보격이에요.",
+    "read": "siui unyureun yakgang 5bogyeogieyo.",
+    "en": "The poem's meter is iambic pentameter."
+   },
+   {
+    "t": "행걸침은 흐름을 만들어요.",
+    "read": "haenggeolchimeun heureumeul mandeureoyo.",
+    "en": "Enjambment creates flow."
+   },
+   {
+    "t": "시의 어조는 애잔해요.",
+    "read": "siui eojoneun aejanhaeyo.",
+    "en": "The tone of the poem is wistful."
+   },
+   {
+    "t": "바람이 속삭이는 것은 의인화예요.",
+    "read": "barami soksagineun geoseun uiinhwayeyo.",
+    "en": "The wind whispering is personification."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "이 시는 네 개의 연으로 이루어져 ___.",
+    "options": [
+     "있어요",
+     "없어요",
+     "했어요"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "시의 ___는 애잔해요.",
+    "options": [
+     "어조",
+     "발음",
+     "철자"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "이 시는 ABAB의 운을 ___.",
+    "options": [
+     "따라요",
+     "지워요",
+     "닫아요"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "두운이 리듬을 ___.",
+    "options": [
+     "더해요",
+     "빼요",
+     "숨겨요"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "행걸침이란 무엇인가요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What is enjambment?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "문장이 행을 넘어 흐르는 기법이에요.",
+       "시의 제목이에요.",
+       "소리 없는 시예요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "약강 5보격이란 무엇인가요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) What is iambic pentameter?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "한 행에 약강이 다섯 번 오는 운율이에요.",
+       "다섯 개의 연이에요.",
+       "다섯 줄의 시예요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이 시는 몇 개의 연으로 되어 있어?"
+      },
+      {
+       "s": "B",
+       "t": "네 개의 연이고 ABAB의 운이야."
+      },
+      {
+       "s": "A",
+       "t": "어조는 어때?"
+      },
+      {
+       "s": "B",
+       "t": "애잔해. 화자가 상실을 회상하거든."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: How many stanzas does this poem have?\nB: Four, with an ABAB rhyme scheme.\nA: What about the tone?\nB: Wistful. The speaker recalls a loss."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "이 시의 어조는 어때요?",
+      "options": [
+       "애잔해요",
+       "유쾌해요",
+       "분노해요"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "시를 분석할 때는 형식과 내용을 함께 살펴보아야 합니다. 연, 운, 운율, 행걸침 같은 형식 요소가 이미지와 어조를 통해 의미를 만들어 냅니다. 소리 장치인 두운도 시의 리듬과 분위기에 기여합니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "When analysing a poem, one must examine form and content together. Formal elements such as stanza, rhyme, meter and enjambment create meaning through imagery and tone. Sound devices such as alliteration also contribute to the poem's rhythm and mood."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "시를 분석할 때 무엇을 함께 살펴요?",
+      "options": [
+       "형식과 내용",
+       "작가의 나이",
+       "출판 연도"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이 시의 두운을 찾아보세요."
+      },
+      {
+       "s": "B",
+       "t": "'silver streams softly sing'입니다."
+      },
+      {
+       "s": "A",
+       "t": "어떤 효과가 있나요?"
+      },
+      {
+       "s": "B",
+       "t": "부드러운 소리가 평온함을 만듭니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Professor: Find the alliteration in this poem.\nStudent: 'silver streams softly sing'.\nProfessor: What effect does it have?\nStudent: The soft sounds create calm."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "교수는 이 시의 ______을 찾아보라고 해요",
+      "answers": [
+       "두운"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "부드러운 소리가 ______함을 만든다고 해요",
+      "answers": [
+       "평온"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 이 시는 네 개의 연으로 이루어져 ___.\n2) 시의 운율은 약강 5보격___.\n3) 시의 ___는 애잔해요.",
+    "trans": {
+     "en": "1) The poem consists of four stanzas. 2) The poem's meter is iambic pentameter. 3) The tone of the poem is wistful."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "이 시는 네 개의 연으로 이루어져 ___.",
+      "options": [
+       "있어요",
+       "없어요",
+       "했어요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "시의 운율은 약강 5보격___.",
+      "options": [
+       "이에요",
+       "에게",
+       "부터"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "시의 ___는 애잔해요.",
+      "options": [
+       "어조",
+       "발음",
+       "철자"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "이 시는 풍부한 이미지를 씁니다. 바람이 속삭이는 것은 (1)이고 장미는 사랑의 (2)입니다. 형식과 내용이 함께 의미를 (3).",
+    "trans": {
+     "en": "This poem uses rich imagery. The wind whispering is personification, and the rose is a symbol of love. Form and content together create meaning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "의인화",
+       "직유",
+       "운율"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "상징",
+       "시작",
+       "제목"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "만들어 냅니다",
+       "지웁니다",
+       "숨깁니다"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "시 비평\n형식이 말하는 것\n행걸침은 문장이 행을 넘어 흐르게 하여 끊어지지 않는 생각의 느낌을 준다. 반면 짧은 행은 숨을 멈추는 효과를 낸다. 형식은 의미를 만들어 내는 도구다.",
+    "trans": {
+     "en": "POETRY CRITICISM\nWhat form says\nEnjambment lets a sentence run over the line, giving the feel of an unbroken thought. Short lines, by contrast, create the effect of holding one's breath. Form is a tool for making meaning."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "행걸침은 어떤 느낌을 줘요?",
+      "options": [
+       "끊어지지 않는 생각",
+       "숨 멈춤",
+       "빠른 박자"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "짧은 행은 어떤 효과를 내요?",
+      "options": [
+       "숨을 멈추는 효과",
+       "흐름 강화",
+       "소리 감소"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "비평은 행걸침이 끊어지지 않는 생각의 느낌을 준다고 본다. 비평은 짧은 행이 흐름을 만든다고 본다. 비평은 형식이 의미를 만드는 도구라고 본다.",
+    "trans": {
+     "en": "The criticism says enjambment gives the feel of an unbroken thought. The criticism says short lines create flow. The criticism says form is a tool for making meaning."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "비평은 행걸침이 끊어지지 않는 생각의 느낌을 준다고 본다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "비평은 짧은 행이 흐름을 만든다고 본다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "비평은 이 시가 작년에 쓰였다고 한다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "이 시는 네 개의 연으로 이루어져 있습니다.",
+    "read": "i sineun ne gaeui yeoneuro irueojyeo itseumnida.",
+    "en": "The poem consists of four stanzas.",
+    "situation": {
+     "ko": "구조를 말할 때",
+     "en": "Describing structure"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "각 연은 ABAB의 운을 따릅니다.",
+    "read": "gak yeoneun ABABui uneul ttareumnida.",
+    "en": "Each stanza follows an ABAB rhyme scheme.",
+    "situation": {
+     "ko": "운을 설명할 때",
+     "en": "Explaining rhyme"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "시의 운율은 약강 5보격입니다.",
+    "read": "siui unyureun yakgang 5bogyeogimnida.",
+    "en": "The meter of the poem is iambic pentameter.",
+    "situation": {
+     "ko": "운율을 설명할 때",
+     "en": "Explaining meter"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "행걸침은 문장이 행을 넘어 흐르게 합니다.",
+    "read": "haenggeolchimeun munjangi haengeul neomeo heureuge hamnida.",
+    "en": "Enjambment lets a sentence run over the line break.",
+    "situation": {
+     "ko": "행걸침을 설명할 때",
+     "en": "Explaining enjambment"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "두운은 비슷한 소리를 반복해 리듬을 만듭니다.",
+    "read": "duuneun biseutan sorireul banbokae rideumeul mandeumnida.",
+    "en": "Alliteration repeats similar sounds to create rhythm.",
+    "situation": {
+     "ko": "소리 장치를 설명할 때",
+     "en": "Explaining sound devices"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "바람이 속삭이는 것은 의인화입니다.",
+    "read": "barami soksagineun geoseun uiinhwaimnida.",
+    "en": "The wind whispering is personification.",
+    "situation": {
+     "ko": "수사법을 설명할 때",
+     "en": "Explaining a figure"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "시의 어조는 애잔하고 화자는 상실을 회상합니다.",
+    "read": "siui eojoneun aejanhago hwajaneun sangsireul hoesanghamnida.",
+    "en": "The tone is wistful and the speaker recalls a loss.",
+    "situation": {
+     "ko": "분석할 때",
+     "en": "Analysing"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "시를 분석할 때는 형식이 의미에 어떻게 기여하는지 살펴보세요.",
+    "read": "sireul bunseokal ttaeneun hyeongsigi uimie eotteoke giyeohaneunji salpyeoboseyo.",
+    "en": "When analysing a poem, consider how form contributes to meaning.",
+    "situation": {
+     "ko": "분석 원칙",
+     "en": "Analytical principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~로 이루어져 있다.",
+    "read": "~ro irueojyeo itda.",
+    "en": "consist of ..."
+   },
+   {
+    "id": "w2",
+    "t": "운율을 따르다.",
+    "read": "unyureul ttareuda.",
+    "en": "follow a rhyme scheme"
+   },
+   {
+    "id": "w3",
+    "t": "형식이 의미에 기여하다.",
+    "read": "hyeongsigi uimie giyeohada.",
+    "en": "form contributes to meaning"
+   },
+   {
+    "id": "w4",
+    "t": "어조가 ~하다.",
+    "read": "eojoga ~hada.",
+    "en": "The tone is ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "시의 형식 요소 세 가지를 사용해 가상의 시를 4문장으로 분석해 보세요.",
+    "en": "Analyse an imaginary poem in four sentences using three formal elements."
+   },
+   "must_include": [
+    {
+     "label": "~로 이루어져 있다",
+     "match": [
+      "네 개의 연으로 이루어져"
+     ]
+    },
+    {
+     "label": "행걸침",
+     "match": [
+      "행걸침이 흐름"
+     ]
+    },
+    {
+     "label": "어조",
+     "match": [
+      "어조는 애잔"
+     ]
+    }
+   ],
+   "model": "이 시는 네 개의 연으로 이루어져 있고 ABAB의 운을 따라요. 행걸침이 흐름을 만들고 두운이 리듬을 더해요. 시의 어조는 애잔해요. 이처럼 형식이 의미에 기여해요.",
+   "model_trans": {
+    "ko": "이 시는 네 개의 연으로 이루어져 있고 ABAB의 운을 따라요. 행걸침이 흐름을 만들고 두운이 리듬을 더해요. 시의 어조는 애잔해요. 이처럼 형식이 의미에 기여해요.",
+    "en": "This poem consists of four stanzas and follows an ABAB rhyme scheme. Enjambment creates flow and alliteration adds rhythm. The tone of the poem is wistful. In this way, form contributes to meaning."
+   }
+  }
+ }
+}

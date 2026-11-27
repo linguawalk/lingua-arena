@@ -1,0 +1,787 @@
+{
+ "meta": {
+  "id": "ko_c2_u04",
+  "lang": "ko",
+  "family": "asia",
+  "level": "c2",
+  "unit": 4,
+  "concept": "C2.U04",
+  "status": "live",
+  "title": {
+   "target": "강한 부정과 시간 연결 표현",
+   "ko": "문학적 도치와 강조 구조",
+   "en": "Literary inversion and emphatic structures"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "어떤 상황에서도 ~하지 않다",
+   "pos": "phrase",
+   "read": "eotteon sanghwangeseodo ~haji anta",
+   "en": "under no circumstances",
+   "ex": {
+    "t": "어떤 상황에서도 문을 열면 안 돼요.",
+    "read": "eotteon sanghwangeseodo muneul yeolmyeon an dwaeyo.",
+    "en": "Under no circumstances should the door be opened."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "~하자마자",
+   "pos": "phrase",
+   "read": "~hajamaja",
+   "en": "no sooner ... than",
+   "ex": {
+    "t": "그녀는 도착하자마자 전화가 울렸어요.",
+    "read": "geunyeoneun dochakajamaja jeonhwaga ullyeosseoyo.",
+    "en": "No sooner had she arrived than the phone rang."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "~뿐만 아니라",
+   "pos": "phrase",
+   "read": "~ppunman anira",
+   "en": "not only ... but also",
+   "ex": {
+    "t": "그는 똑똑할 뿐만 아니라 친절했어요.",
+    "read": "geuneun ttokttokal ppunman anira chinjeolhaesseoyo.",
+    "en": "Not only was he clever, but he was also kind."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "결코 ~하지 않다",
+   "pos": "phrase",
+   "read": "gyeolko ~haji anta",
+   "en": "never before",
+   "ex": {
+    "t": "이렇게 아름다운 곳은 본 적이 없어요.",
+    "read": "ireoke areumdaun goseun bon jeogi eopseoyo.",
+    "en": "Never before had I seen such a beautiful place."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "전혀 알지 못하다",
+   "pos": "phrase",
+   "read": "jeonhyeo alji motada",
+   "en": "little did one know",
+   "ex": {
+    "t": "그는 그것이 마지막인 줄 전혀 몰랐어요.",
+    "read": "geuneun geugeosi majimagin jul jeonhyeo mollasseoyo.",
+    "en": "Little did he know it was the last time."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "엄청난",
+   "pos": "adj",
+   "read": "eomcheongnan",
+   "en": "tremendous",
+   "ex": {
+    "t": "그 소식은 엄청난 충격이었어요.",
+    "read": "geu sosigeun eomcheongnan chunggyeogieosseoyo.",
+    "en": "The news was a tremendous shock."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "거의 ~하지 않다",
+   "pos": "phrase",
+   "read": "geoui ~haji anta",
+   "en": "hardly ever",
+   "ex": {
+    "t": "그는 거의 웃지 않아요.",
+    "read": "geuneun geoui utji anayo.",
+    "en": "Hardly ever does he smile."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "~해서야 비로소",
+   "pos": "phrase",
+   "read": "~haeseoya biroso",
+   "en": "only then",
+   "ex": {
+    "t": "그제야 나는 진실을 깨달았어요.",
+    "read": "geujeya naneun jinsireul kkaedarasseoyo.",
+    "en": "Only then did I realise the truth."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "장엄한",
+   "pos": "adj",
+   "read": "jangeomhan",
+   "en": "majestic",
+   "ex": {
+    "t": "산은 장엄하게 솟아 있었어요.",
+    "read": "saneun jangeomhage sosa isseosseoyo.",
+    "en": "The mountain rose majestic above us."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "압도하다",
+   "pos": "verb",
+   "read": "apdohada",
+   "en": "overwhelm",
+   "ex": {
+    "t": "그 풍경은 나를 압도했어요.",
+    "read": "geu punggyeongeun nareul apdohaesseoyo.",
+    "en": "The view overwhelmed me."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "-자마자, -(으)ㄹ 뿐만 아니라, 결코 -지 않다, -아/어서야 비로소, 그제야",
+   "en": "-자마자, -(으)ㄹ 뿐만 아니라, 결코 -지 않다, -아/어서야 비로소, 그제야 (strong negation, timing)"
+  },
+  "explain": {
+   "ko": "한국어에서 문장에 힘을 주는 방법은 어순보다 표현에 있습니다. 두 사건이 곧바로 이어질 때는 '-자마자'를 씁니다: '그는 들어오자마자 모두 조용해졌어요.' 더하는 내용은 '-(으)ㄹ 뿐만 아니라'로 이끕니다. 강한 부정은 '결코·전혀·도무지 -지 않다'로, 어떤 경우에도 금지할 때는 '어떤 경우에도 -(으)면 안 되다'로 말합니다. 뒤늦은 깨달음은 '-아/어서야 비로소'나 '그제야'로 나타냅니다.",
+   "en": "Korean adds force through expressions rather than word order. Immediate succession: '-자마자': 'As soon as he walked in, everyone fell silent.' Addition: '-(으)ㄹ 뿐만 아니라'. Strong negation: '결코·전혀·도무지 -지 않다'; a ban in all cases: '어떤 경우에도 -(으)면 안 되다'. A late realisation: '-아/어서야 비로소' or '그제야'."
+  },
+  "table": {
+   "head": [
+    "기능 / Function",
+    "형태 / Form",
+    "예 / Example"
+   ],
+   "rows": [
+    [
+     "즉시 / Immediately",
+     "-자마자",
+     "도착하자마자 전화가 울렸어요."
+    ],
+    [
+     "첨가 / Addition",
+     "-(으)ㄹ 뿐만 아니라",
+     "맛있을 뿐만 아니라 싸요."
+    ],
+    [
+     "강한 부정 / Strong no",
+     "결코·전혀 -지 않다",
+     "전혀 알지 못했어요."
+    ],
+    [
+     "뒤늦은 깨달음 / Late",
+     "그제야, -아/어서야 비로소",
+     "그제야 모든 것을 깨달았어요."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'-자마자'는 앞뒤 행동의 주어가 달라도 됩니다.",
+    "en": "'-자마자' allows different subjects."
+   },
+   {
+    "ko": "'결코·전혀'는 부정 표현과 함께 씁니다.",
+    "en": "'결코·전혀' go with negatives."
+   },
+   {
+    "ko": "'그제야'는 일이 있은 뒤에 비로소 알았다는 뜻입니다.",
+    "en": "'그제야' means 'only then'."
+   }
+  ],
+  "examples": [
+   {
+    "t": "어떤 상황에서도 이 문을 열어서는 안 됩니다.",
+    "read": "eotteon sanghwangeseodo i muneul yeoreoseoneun an doemnida.",
+    "en": "Under no circumstances should this door be opened."
+   },
+   {
+    "t": "그녀는 도착하자마자 전화가 울렸어요.",
+    "read": "geunyeoneun dochakajamaja jeonhwaga ullyeosseoyo.",
+    "en": "No sooner had she arrived than the phone rang."
+   },
+   {
+    "t": "그는 똑똑할 뿐만 아니라 매우 겸손했어요.",
+    "read": "geuneun ttokttokal ppunman anira maeu gyeomsonhaesseoyo.",
+    "en": "Not only was he brilliant, but he was also very modest."
+   },
+   {
+    "t": "그제야 나는 모든 것을 깨달았어요.",
+    "read": "geujeya naneun modeun geoseul kkaedarasseoyo.",
+    "en": "Only then did I understand everything."
+   },
+   {
+    "t": "그 놀라움이 너무 컸기 때문에 아무도 말을 하지 못했어요.",
+    "read": "geu nollaumi neomu keotgi ttaemune amudo mareul haji motaesseoyo.",
+    "en": "So great was the surprise that nobody could speak."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "그녀는 도착하___ 전화가 울렸어요.",
+    "options": [
+     "자마자",
+     "려고",
+     "는데"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "어떤 상황에서도 열면 ___.",
+    "options": [
+     "안 돼요",
+     "좋아요",
+     "돼요"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "나는 그 일을 ___ 알지 못했어요.",
+    "options": [
+     "전혀",
+     "가끔",
+     "자주"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___ 나는 모든 것을 깨달았어요.",
+    "options": [
+     "그제야",
+     "그래서",
+     "그러면"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "그 소식을 들었을 때 어떻게 반응했나요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) How did you react when you heard the news?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "듣자마자 깜짝 놀랐어요.",
+       "내일 만나요.",
+       "저는 모르는 사람이에요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "그곳에 들어갈 수 있나요?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "(Question) Is it possible to go in there?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "알맞은 대답은 무엇입니까?",
+      "options": [
+       "어떤 경우에도 들어갈 수 없어요.",
+       "열쇠가 필요 없어요.",
+       "저는 이미 들어갔어요."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "그가 들어오자마자 모두 조용해졌어."
+      },
+      {
+       "s": "B",
+       "t": "무슨 일이야?"
+      },
+      {
+       "s": "A",
+       "t": "그가 그렇게 화낸 것을 본 적이 없었거든."
+      },
+      {
+       "s": "B",
+       "t": "그제야 나는 상황이 심각하다는 걸 알았어."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "A: No sooner had he walked in than everyone went quiet.\nB: What happened?\nA: I had never seen him so angry.\nB: Only then did I realise how serious it was."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "B는 언제 상황이 심각하다는 것을 알았어요?",
+      "options": [
+       "그의 화난 모습을 보고 나서",
+       "회의가 끝난 뒤",
+       "집에 돌아간 뒤"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "도치는 문어체에서 문장에 힘을 주는 장치입니다. 부정이나 제한의 부사가 문장 앞에 오면 조동사가 주어 앞으로 이동합니다. 이 구조는 소설과 연설에서 특히 효과적이지만, 일상 대화에서는 어색할 수 있습니다."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Inversion gives force to literary prose. When a negative or restrictive adverb opens a sentence, the auxiliary moves before the subject. The structure is especially effective in fiction and speeches, but it can sound stilted in everyday conversation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "도치는 어디에서 특히 효과적이에요?",
+      "options": [
+       "소설과 연설",
+       "일상 대화",
+       "전화 통화"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "이 장면에 긴장감을 더하고 싶어요."
+      },
+      {
+       "s": "B",
+       "t": "인물이 모른다는 점을 암시하세요."
+      },
+      {
+       "s": "A",
+       "t": "예를 들면요?"
+      },
+      {
+       "s": "B",
+       "t": "'그는 그것이 마지막인 줄 전혀 몰랐다'처럼요."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "en": "Writer: I want to add tension to this scene.\nEditor: Hint that the character doesn't know.\nWriter: For example?\nEditor: Something like 'Little did he know it was the last time.'"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "편집자는 인물이 ______ 점을 암시하라고 해요",
+      "answers": [
+       "모른다는"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "'그는 그것이 마지막인 줄 ______ 몰랐다'",
+      "answers": [
+       "전혀"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) 어떤 상황에서도 열면 ___.\n2) 그녀는 도착하___ 전화가 울렸어요.\n3) ___ 나는 모든 것을 깨달았어요.",
+    "trans": {
+     "en": "1) Under no circumstances should it be opened. 2) No sooner had she arrived than the phone rang. 3) Only then did I understand everything."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "어떤 상황에서도 열면 ___.",
+      "options": [
+       "안 돼요",
+       "좋아요",
+       "돼요"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "그녀는 도착하___ 전화가 울렸어요.",
+      "options": [
+       "자마자",
+       "려고",
+       "는데"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___ 나는 모든 것을 깨달았어요.",
+      "options": [
+       "그제야",
+       "그래서",
+       "그러면"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "그가 연설을 마치(1) 청중이 기립했습니다. 그러나 그는 그 연설이 자신의 삶을 바꾸리라는 것은 (2) 알지 못했습니다. 그날 이후 그는 전혀 다른 길을 걷게 (3).",
+    "trans": {
+     "en": "No sooner had he finished the speech than the audience rose. But little did he know that it would change his life. From that day he walked a very different path."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "자마자",
+       "려고",
+       "는데"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "전혀",
+       "자주",
+       "가끔"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "되었습니다",
+       "되지 않았습니다",
+       "되고 싶습니다"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "단편 소설\n마지막 열차\n밤은 깊어 있었다. 그가 역에 도착했을 때 열차는 이미 떠난 뒤였다. 그제야 그는 시간표가 바뀐 것을 깨달았다. 그렇게 외로운 밤은 일찍이 없었다.",
+    "trans": {
+     "en": "SHORT STORY\nThe last train\nIt was deep into the night. By the time he reached the station, the train had already left. Only then did he realise the timetable had changed. Never before had he known such a lonely night."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "그가 역에 도착했을 때 열차는 어땠어요?",
+      "options": [
+       "이미 떠난 뒤였다",
+       "아직 오지 않았다",
+       "연착되고 있었다"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "그가 그제야 깨달은 것은 무엇이에요?",
+      "options": [
+       "시간표가 바뀐 것",
+       "열차를 놓친 친구",
+       "역의 위치"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "소설은 밤이 깊은 때를 배경으로 한다. 그는 열차에 제때 탔다. 그는 시간표가 바뀐 것을 뒤늦게 깨달았다.",
+    "trans": {
+     "en": "The story is set late at night. He caught the train in time. He realised late that the timetable had changed."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "소설은 밤이 깊은 때를 배경으로 한다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "그는 열차에 제때 탔다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "그는 역에서 친구를 만났다.",
+      "options": [
+       "맞음",
+       "틀림",
+       "알 수 없음"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "이렇게 아름다운 풍경은 본 적이 없었어요.",
+    "read": "ireoke areumdaun punggyeongeun bon jeogi eopseosseoyo.",
+    "en": "Never before had I seen such a beautiful landscape.",
+    "situation": {
+     "ko": "부정 부사 도치",
+     "en": "Inversion after a negative adverb"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "그는 재능이 있을 뿐만 아니라 근면하기도 했습니다.",
+    "read": "geuneun jaeneungi isseul ppunman anira geunmyeonhagido haetseumnida.",
+    "en": "Not only was he talented, but he was also hard-working.",
+    "situation": {
+     "ko": "not only 도치",
+     "en": "Not only with inversion"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "어떤 경우에도 비밀번호를 공유해서는 안 됩니다.",
+    "read": "eotteon gyeonguedo bimilbeonhoreul gongyuhaeseoneun an doemnida.",
+    "en": "Under no circumstances should you share your password.",
+    "situation": {
+     "ko": "금지를 강하게 말할 때",
+     "en": "A strong prohibition"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "그가 연설을 마치자마자 박수가 터졌습니다.",
+    "read": "geuga yeonseoreul machijamaja baksuga teojyeotseumnida.",
+    "en": "No sooner had he finished the speech than applause erupted.",
+    "situation": {
+     "ko": "연속 사건을 극적으로 말할 때",
+     "en": "Dramatic sequence"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "그는 그것이 마지막 만남이 될 줄은 전혀 몰랐습니다.",
+    "read": "geuneun geugeosi majimak mannami doel jureun jeonhyeo mollatseumnida.",
+    "en": "Little did he know that it would be their last meeting.",
+    "situation": {
+     "ko": "서사에서 반전을 암시할 때",
+     "en": "Foreshadowing in narrative"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "그제야 비로소 상황의 심각성을 깨달았습니다.",
+    "read": "geujeya biroso sanghwangui simgakseongeul kkaedaratseumnida.",
+    "en": "Only then did we realise how serious the situation was.",
+    "situation": {
+     "ko": "깨달음의 순간을 강조할 때",
+     "en": "Highlighting a moment of realisation"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "그 충격이 너무 커서 그녀는 말을 잇지 못했습니다.",
+    "read": "geu chunggyeogi neomu keoseo geunyeoneun mareul itji motaetseumnida.",
+    "en": "So great was her shock that she could not continue.",
+    "situation": {
+     "ko": "정도를 극적으로 강조할 때",
+     "en": "Emphasising degree"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "그는 거의 웃는 법이 없었습니다.",
+    "read": "geuneun geoui unneun beobi eopseotseumnida.",
+    "en": "Rarely did he smile.",
+    "situation": {
+     "ko": "빈도를 문어체로 말할 때",
+     "en": "Literary frequency"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "~하자마자 ~했다.",
+    "read": "~hajamaja ~haetda.",
+    "en": "No sooner had ... than ..."
+   },
+   {
+    "id": "w2",
+    "t": "~뿐만 아니라 ~도.",
+    "read": "~ppunman anira ~do.",
+    "en": "Not only did/was ..., but ..."
+   },
+   {
+    "id": "w3",
+    "t": "어떤 경우에도 ~해서는 안 된다.",
+    "read": "eotteon gyeonguedo ~haeseoneun an doenda.",
+    "en": "Under no circumstances should ..."
+   },
+   {
+    "id": "w4",
+    "t": "그제야 ~했다.",
+    "read": "geujeya ~haetda.",
+    "en": "Only then did ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "부정 부사 도치(never, only then, not only, no sooner)를 사용해 극적인 순간을 4문장으로 써 보세요.",
+    "en": "Write four sentences describing a dramatic moment using negative-adverb inversion (never, only then, not only, no sooner)."
+   },
+   "must_include": [
+    {
+     "label": "~하자마자",
+     "match": [
+      "자마자"
+     ]
+    },
+    {
+     "label": "그제야",
+     "match": [
+      "그제야"
+     ]
+    },
+    {
+     "label": "전혀 ~지 않다",
+     "match": [
+      "전혀 몰랐"
+     ]
+    }
+   ],
+   "model": "나는 그 건물에 들어서자마자 이상한 정적을 느꼈어요. 그렇게 조용한 곳은 본 적이 없었어요. 그제야 나는 무언가 잘못됐음을 깨달았어요. 어떤 일이 닥칠지는 전혀 몰랐어요.",
+   "model_trans": {
+    "ko": "나는 그 건물에 들어서자마자 이상한 정적을 느꼈어요. 그렇게 조용한 곳은 본 적이 없었어요. 그제야 나는 무언가 잘못됐음을 깨달았어요. 어떤 일이 닥칠지는 전혀 몰랐어요.",
+    "en": "No sooner had I entered the building than I felt an eerie silence. Never before had I known such a quiet place. Only then did I realise something was wrong. Little did I know what was coming."
+   }
+  }
+ }
+}
