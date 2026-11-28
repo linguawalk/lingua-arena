@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "pt_c2_u39",
+  "lang": "pt",
+  "family": "europe",
+  "level": "c2",
+  "unit": 39,
+  "concept": "C2.U39",
+  "status": "live",
+  "title": {
+   "target": "Português jurídico: contratos e cláusulas",
+   "ko": "법률 영어: 계약과 조항",
+   "en": "Legal English: contracts and clauses"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "doravante",
+   "pos": "adv",
+   "ko": "이하",
+   "en": "hereinafter",
+   "ex": {
+    "t": "Doravante denominada Vendedora.",
+    "ko": "이하 '매도인'이라 한다.",
+    "en": "Hereinafter referred to as the Seller."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "a parte",
+   "pos": "noun",
+   "ko": "당사자",
+   "en": "party",
+   "ex": {
+    "t": "O contrato tem duas partes.",
+    "ko": "계약 당사자는 두 곳이에요.",
+    "en": "There are two parties to the contract."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "deverá",
+   "pos": "modal",
+   "ko": "~해야 한다 (의무)",
+   "en": "shall",
+   "ex": {
+    "t": "O Vendedor deverá entregar os bens.",
+    "ko": "매도인은 상품을 인도해야 한다.",
+    "en": "The Seller shall deliver the goods."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "indenizar",
+   "pos": "verb",
+   "ko": "면책하다",
+   "en": "indemnify",
+   "ex": {
+    "t": "O Vendedor deverá indenizar o Comprador.",
+    "ko": "매도인은 구매자를 면책해야 한다.",
+    "en": "The Seller shall indemnify the Buyer."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "a força maior",
+   "pos": "phrase",
+   "ko": "불가항력",
+   "en": "force majeure",
+   "ex": {
+    "t": "Os eventos de força maior são escusados.",
+    "ko": "불가항력 사유는 면책돼요.",
+    "en": "Force majeure events are excused."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "a lei aplicável",
+   "pos": "phrase",
+   "ko": "준거법",
+   "en": "governing law",
+   "ex": {
+    "t": "A lei aplicável é a coreana.",
+    "ko": "준거법은 한국법이에요.",
+    "en": "The governing law is Korean law."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "a violação",
+   "pos": "noun",
+   "ko": "계약 위반",
+   "en": "breach",
+   "ex": {
+    "t": "A violação é motivo de rescisão.",
+    "ko": "계약 위반은 해지 사유예요.",
+    "en": "A breach is grounds for termination."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "rescindir",
+   "pos": "verb",
+   "ko": "해지하다",
+   "en": "terminate",
+   "ex": {
+    "t": "A parte poderá rescindir o contrato.",
+    "ko": "당사자는 계약을 해지할 수 있어요.",
+    "en": "A party may terminate the contract."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "não obstante",
+   "pos": "prep",
+   "ko": "~에도 불구하고",
+   "en": "notwithstanding",
+   "ex": {
+    "t": "Não obstante qualquer outra disposição, esta cláusula prevalece.",
+    "ko": "다른 규정에도 불구하고 이 조항이 우선해요.",
+    "en": "Notwithstanding any other provision, this clause prevails."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "vinculante",
+   "pos": "adj",
+   "ko": "구속력 있는",
+   "en": "binding",
+   "ex": {
+    "t": "Este acordo é vinculante.",
+    "ko": "이 계약은 구속력이 있어요.",
+    "en": "This agreement is binding."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "doravante · não obstante · deverá · parte · indenizar · força maior · lei aplicável",
+   "en": "legal Portuguese: hereinafter, notwithstanding, shall, party, indemnify, force majeure, governing law"
+  },
+  "explain": {
+   "ko": "O português jurídico dá prioridade à precisão e à ausência de ambiguidade. O futuro do presente expressa obrigação: 'O Vendedor deverá entregar os bens na data acordada.' O verbo 'poder' expressa direito: 'A outra parte poderá rescindir o contrato.' Vocabulário tradicional: 'doravante denominada', 'não obstante', 'outrossim', 'a lei aplicável', 'o foro'. Cláusulas típicas: indenização ('O Vendedor deverá indenizar o Comprador por qualquer perda sofrida'), força maior ('O atraso causado por força maior não gerará responsabilidade'), violação e rescisão, lei aplicável ('Este Contrato será regido pelas leis da República da Coreia'). Os contratos têm frases longas e estrutura rígida, para reduzir disputas de interpretação.",
+   "en": "Legal Portuguese gives first priority to precision and absence of ambiguity. The future tense expresses obligation: 'O Vendedor deverá entregar os bens na data acordada.' The verb 'poder' expresses right: 'A outra parte poderá rescindir o contrato.' Traditional vocabulary: 'doravante denominada', 'não obstante', 'outrossim', 'a lei aplicável', 'o foro'. Typical clauses: indemnity ('O Vendedor deverá indenizar o Comprador por qualquer perda sofrida'), force majeure ('O atraso causado por força maior não gerará responsabilidade'), breach and termination, governing law ('Este Contrato será regido pelas leis da República da Coreia'). Contracts have long sentences and strict structure, to reduce disputes over interpretation."
+  },
+  "table": {
+   "head": [
+    "조항 / Cláusula",
+    "표현 / Expressão",
+    "예문 / Exemplo"
+   ],
+   "rows": [
+    [
+     "의무",
+     "deverá ~",
+     "O Vendedor deverá entregar os bens."
+    ],
+    [
+     "권리",
+     "poderá ~",
+     "A parte poderá rescindir o contrato."
+    ],
+    [
+     "불가항력",
+     "força maior",
+     "O atraso por força maior não gera responsabilidade."
+    ],
+    [
+     "준거법",
+     "será regido pelas leis de ~",
+     "Será regido pelas leis da Coreia."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'Deverá' é obrigação; 'poderá', direito.",
+    "en": "'Deverá' is obligation; 'poderá', right."
+   },
+   {
+    "ko": "Evite a ambiguidade.",
+    "en": "Avoid ambiguity."
+   },
+   {
+    "ko": "Releia antes de assinar.",
+    "en": "Reread before signing."
+   }
+  ],
+  "examples": [
+   {
+    "t": "As partes deste Contrato são doravante denominadas Vendedor e Comprador.",
+    "ko": "계약 당사자는 두 곳이에요.",
+    "en": "There are two parties to the contract."
+   },
+   {
+    "t": "O Vendedor deverá entregar os bens na data acordada.",
+    "ko": "매도인은 상품을 인도해야 한다.",
+    "en": "The Seller shall deliver the goods."
+   },
+   {
+    "t": "O atraso causado por força maior não gerará responsabilidade.",
+    "ko": "불가항력 사유는 면책돼요.",
+    "en": "Force majeure events are excused."
+   },
+   {
+    "t": "Não obstante qualquer outra disposição, esta cláusula prevalecerá.",
+    "ko": "준거법은 한국법이에요.",
+    "en": "The governing law is Korean law."
+   },
+   {
+    "t": "Este Contrato será regido pelas leis da República da Coreia.",
+    "ko": "이 계약은 구속력이 있어요.",
+    "en": "This agreement is binding."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "O Vendedor ___ entregar os bens.",
+    "options": [
+     "deverá",
+     "dever",
+     "devido"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Este Contrato será ___ pelas leis da Coreia.",
+    "options": [
+     "regido",
+     "reger",
+     "regendo a"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "O atraso por força ___ não gera responsabilidade.",
+    "options": [
+     "maior",
+     "menor",
+     "mais"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "A parte ___ rescindir o contrato.",
+    "options": [
+     "poderá",
+     "poder",
+     "podido"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "O que significa 'deverá' num contrato?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 계약서에서 shall은 무엇을 뜻하나요?",
+     "en": "(Question) What does 'shall' mean in a contract?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "Expressa obrigação.",
+       "Expressa dúvida.",
+       "Expressa saudação."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "O que é uma cláusula de indenização?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 면책 조항이란 무엇인가요?",
+     "en": "(Question) What is an indemnity clause?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "A promessa de cobrir a perda de outro.",
+       "Uma multa de trânsito.",
+       "Um aviso."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Que lei rege este contrato?"
+      },
+      {
+       "s": "B",
+       "t": "As leis da República da Coreia."
+      },
+      {
+       "s": "A",
+       "t": "Há também uma cláusula de força maior?"
+      },
+      {
+       "s": "B",
+       "t": "Sim, o atraso causado por força maior não gera responsabilidade."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 계약서의 준거법은 어느 나라 법이야?\nB: 대한민국 법이야.\nA: 불가항력 조항도 있어?\nB: 응, 불가항력 사유로 인한 지연은 책임이 면제돼.",
+     "en": "A: Which country's law governs this contract?\nB: The laws of the Republic of Korea.\nA: Is there a force majeure clause too?\nB: Yes, delay caused by force majeure carries no liability."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Que lei rege o contrato?",
+      "options": [
+       "As leis da República da Coreia",
+       "As leis de Portugal",
+       "Nenhuma"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "O português jurídico dá prioridade à precisão e à ausência de ambiguidade. O futuro expressa obrigação e o verbo poder expressa direito, e usa-se vocabulário tradicional como 'doravante' e 'não obstante'. Os contratos têm frases longas e estrutura rígida para reduzir disputas de interpretação."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "법률 영어는 정확성과 모호함의 회피를 최우선으로 합니다. shall은 의무를, may는 권리를 나타내고, hereinafter, notwithstanding 같은 전통적 어휘가 쓰입니다. 계약서는 해석의 다툼을 줄이도록 문장이 길고 구조가 엄격합니다.",
+     "en": "Legal English gives first priority to precision and avoidance of ambiguity. Shall expresses obligation and may expresses right, and traditional vocabulary such as hereinafter and notwithstanding is used. Contracts have long sentences and strict structure so as to reduce disputes over interpretation."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "O que o português jurídico prioriza?",
+      "options": [
+       "A precisão",
+       "A rima",
+       "A brevidade"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Posso examinar primeiro o contrato?"
+      },
+      {
+       "s": "B",
+       "t": "Claro. Veja a cláusula 3."
+      },
+      {
+       "s": "A",
+       "t": "O que significa esta cláusula?"
+      },
+      {
+       "s": "B",
+       "t": "Significa que o contrato pode ser rescindido em caso de violação."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "고객: 계약서를 먼저 검토해도 될까요?\n변호사: 물론입니다. 제3조를 보세요.\n고객: 이 조항은 무슨 뜻인가요?\n변호사: 위반 시 계약을 해지할 수 있다는 뜻입니다.",
+     "en": "Client: May I review the contract first?\nLawyer: Of course. Look at Clause 3.\nClient: What does this clause mean?\nLawyer: It means the contract may be terminated in case of breach."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Veja a cláusula ______",
+      "answers": [
+       "3"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "rescindido em caso de ______",
+      "answers": [
+       "violação"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) O contrato tem duas ___.\n2) O Vendedor ___ entregar os bens.\n3) Este acordo é ___.",
+    "trans": {
+     "ko": "1) 계약 당사자는 두 곳이에요. 2) 매도인은 상품을 인도해야 한다. 3) 이 계약은 구속력이 있어요.",
+     "en": "1) There are two parties to the contract. 2) The Seller shall deliver the goods. 3) This agreement is binding."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "O contrato tem duas ___.",
+      "options": [
+       "partes",
+       "parte",
+       "partir"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "O Vendedor ___ entregar os bens.",
+      "options": [
+       "deverá",
+       "dever",
+       "devido"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Este acordo é ___.",
+      "options": [
+       "vinculante",
+       "vincular",
+       "vínculo de"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "O Vendedor deverá entregar os bens na data (1). O atraso causado por força maior não gerará (2). Em caso de violação, a outra parte poderá (3) este Contrato.",
+    "trans": {
+     "ko": "매도인은 약정된 기일까지 상품을 인도해야 한다. 불가항력 사유로 인한 지연은 책임이 면제된다. 계약 위반 시 상대방은 계약을 해지할 수 있다.",
+     "en": "The Seller shall deliver the goods by the agreed date. Delay caused by force majeure shall not give rise to liability. In the event of breach, the other party may terminate this Agreement."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "acordada",
+       "acordar",
+       "acordo a"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "responsabilidade",
+       "responder",
+       "responsável a"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "rescindir",
+       "rescisão",
+       "rescindido a"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "GUIA JURÍDICO\nComo ler um contrato\nUm contrato começa com as cláusulas de definição e prossegue com obrigações, direitos, indenização, rescisão e lei aplicável. O futuro expressa obrigação e o verbo poder expressa direito. Redações ambíguas podem causar disputas; por isso, verifique-as sempre antes de assinar.",
+    "trans": {
+     "ko": "법률 가이드\n계약서 읽는 법\n계약서는 정의 조항으로 시작해 의무, 권리, 면책, 해지, 준거법 순으로 이어집니다. shall은 의무를, may는 권리를 나타냅니다. 모호한 표현은 분쟁의 원인이 되므로 서명 전에 반드시 확인하세요.",
+     "en": "LEGAL GUIDE\nHow to read a contract\nA contract starts with definition clauses and continues with obligations, rights, indemnity, termination and governing law. Shall expresses obligation and may expresses right. Ambiguous wording can cause disputes, so always check it before signing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Como começa um contrato?",
+      "options": [
+       "Com as cláusulas de definição",
+       "Com a assinatura",
+       "Com o preço"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "O que fazer antes de assinar?",
+      "options": [
+       "Verificar as redações ambíguas",
+       "Ignorar",
+       "Decorar"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "O guia diz que um contrato começa com as cláusulas de definição. O guia diz que o verbo poder expressa obrigação. O guia diz para verificar as redações ambíguas antes de assinar.",
+    "trans": {
+     "ko": "가이드는 계약서가 정의 조항으로 시작한다고 본다. 가이드는 may가 의무를 나타낸다고 본다. 가이드는 서명 전에 모호한 표현을 확인하라고 한다.",
+     "en": "The guide says a contract starts with definition clauses. The guide says may expresses obligation. The guide says to check ambiguous wording before signing."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "O guia diz para verificar as redações ambíguas antes de assinar.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "O verbo poder expressa obrigação.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "O guia é de um escritório de Luanda.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "As partes deste Contrato são doravante denominadas Vendedor e Comprador.",
+    "ko": "본 계약의 당사자는 이하 '매도인'과 '매수인'이라 한다.",
+    "en": "The parties to this Agreement are hereinafter referred to as the Seller and the Buyer.",
+    "situation": {
+     "ko": "정의 조항",
+     "en": "Definition clause"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "O Vendedor deverá entregar os bens na data acordada.",
+    "ko": "매도인은 약정된 기일까지 상품을 인도해야 한다.",
+    "en": "The Seller shall deliver the goods by the agreed date.",
+    "situation": {
+     "ko": "의무 조항",
+     "en": "Obligation clause"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "O Vendedor deverá indenizar o Comprador por qualquer perda sofrida.",
+    "ko": "매도인은 매수인에게 발생한 손실을 면책해야 한다.",
+    "en": "The Seller shall indemnify the Buyer against any loss incurred.",
+    "situation": {
+     "ko": "면책 조항",
+     "en": "Indemnity clause"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "O atraso causado por força maior não gerará responsabilidade.",
+    "ko": "불가항력 사유로 인한 지연은 책임이 면제된다.",
+    "en": "Delay caused by force majeure shall not give rise to liability.",
+    "situation": {
+     "ko": "불가항력 조항",
+     "en": "Force majeure clause"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Não obstante qualquer outra disposição, esta cláusula prevalecerá.",
+    "ko": "다른 규정에도 불구하고 이 조항이 우선한다.",
+    "en": "Notwithstanding any other provision, this clause shall prevail.",
+    "situation": {
+     "ko": "우선 조항",
+     "en": "Priority clause"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Em caso de violação, a outra parte poderá rescindir este Contrato.",
+    "ko": "계약 위반 시 상대방은 계약을 해지할 수 있다.",
+    "en": "In the event of breach, the other party may terminate this Agreement.",
+    "situation": {
+     "ko": "해지 조항",
+     "en": "Termination clause"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Este Contrato será regido pelas leis da República da Coreia.",
+    "ko": "본 계약의 준거법은 대한민국 법으로 한다.",
+    "en": "This Agreement shall be governed by the laws of the Republic of Korea.",
+    "situation": {
+     "ko": "준거법 조항",
+     "en": "Governing law clause"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Um contrato deve ser redigido com precisão e sem ambiguidade.",
+    "ko": "계약서는 모호함 없이 정확하게 써야 합니다.",
+    "en": "A contract must be drafted precisely and without ambiguity.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "doravante denominado ~.",
+    "ko": "이하 ~라 한다.",
+    "en": "hereinafter referred to as ..."
+   },
+   {
+    "id": "w2",
+    "t": "não obstante ~.",
+    "ko": "~에도 불구하고.",
+    "en": "notwithstanding ..."
+   },
+   {
+    "id": "w3",
+    "t": "deverá ~.",
+    "ko": "~해야 한다 (의무).",
+    "en": "shall ..."
+   },
+   {
+    "id": "w4",
+    "t": "ser regido pelas leis de ~.",
+    "ko": "~의 법에 따른다.",
+    "en": "be governed by the laws of ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "계약 조항 형식으로 의무, 면책, 준거법을 포함한 4문장을 써 보세요.",
+    "en": "Write four sentences in contract-clause style including an obligation, an indemnity and a governing-law clause."
+   },
+   "must_include": [
+    {
+     "label": "deverá",
+     "match": [
+      "deverá entregar"
+     ]
+    },
+    {
+     "label": "indenizar",
+     "match": [
+      "deverá indenizar"
+     ]
+    },
+    {
+     "label": "força maior",
+     "match": [
+      "força maior"
+     ]
+    },
+    {
+     "label": "lei aplicável",
+     "match": [
+      "regido pelas leis"
+     ]
+    }
+   ],
+   "model": "O Vendedor deverá entregar os bens na data acordada. O Vendedor deverá indenizar o Comprador por qualquer perda sofrida. O atraso causado por força maior não gerará responsabilidade. Este Contrato será regido pelas leis da República da Coreia.",
+   "model_trans": {
+    "ko": "매도인은 약정된 기일까지 상품을 인도해야 한다. 매도인은 매수인이 입은 손실을 면책해야 한다. 불가항력 사유로 인한 지연은 책임을 지지 아니한다. 본 계약은 대한민국 법의 적용을 받는다.",
+    "en": "The Seller shall deliver the goods by the agreed date. The Seller shall indemnify the Buyer against any loss suffered. Delay caused by force majeure shall not give rise to liability. This Agreement shall be governed by the laws of the Republic of Korea."
+   }
+  }
+ }
+}

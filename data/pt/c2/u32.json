@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "pt_c2_u32",
+  "lang": "pt",
+  "family": "europe",
+  "level": "c2",
+  "unit": 32,
+  "concept": "C2.U32",
+  "status": "live",
+  "title": {
+   "target": "Persuasão e falácias lógicas",
+   "ko": "설득과 논리적 오류",
+   "en": "Persuasion and logical fallacies"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "o espantalho",
+   "pos": "phrase",
+   "ko": "허수아비 논증",
+   "en": "straw man",
+   "ex": {
+    "t": "Ele usou um argumento do espantalho.",
+    "ko": "그는 허수아비 논증을 사용했어요.",
+    "en": "He used a straw man argument."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "o ad hominem",
+   "pos": "phrase",
+   "ko": "인신공격",
+   "en": "ad hominem",
+   "ex": {
+    "t": "O ataque ad hominem desvia do ponto.",
+    "ko": "인신공격은 논점을 흐려요.",
+    "en": "An ad hominem attack distracts from the point."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "a ladeira escorregadia",
+   "pos": "phrase",
+   "ko": "미끄러운 경사",
+   "en": "slippery slope",
+   "ex": {
+    "t": "Esse é um argumento da ladeira escorregadia.",
+    "ko": "그건 미끄러운 경사 논증이에요.",
+    "en": "That is a slippery slope argument."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "o falso dilema",
+   "pos": "phrase",
+   "ko": "흑백 논리",
+   "en": "false dilemma",
+   "ex": {
+    "t": "O falso dilema limita as opções.",
+    "ko": "흑백 논리는 선택지를 제한해요.",
+    "en": "A false dilemma limits the choices."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "a petição de princípio",
+   "pos": "phrase",
+   "ko": "논점 선취",
+   "en": "begging the question",
+   "ex": {
+    "t": "Essa afirmação é uma petição de princípio.",
+    "ko": "그 주장은 논점을 선취해요.",
+    "en": "That claim begs the question."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "a falácia",
+   "pos": "noun",
+   "ko": "오류",
+   "en": "fallacy",
+   "ex": {
+    "t": "O argumento contém uma falácia.",
+    "ko": "그 주장에는 오류가 있어요.",
+    "en": "The argument contains a fallacy."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "a premissa",
+   "pos": "noun",
+   "ko": "전제",
+   "en": "premise",
+   "ex": {
+    "t": "Se a premissa é falsa, a conclusão falha.",
+    "ko": "전제가 틀리면 결론도 틀려요.",
+    "en": "If the premise is false, the conclusion fails."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "válido",
+   "pos": "adj",
+   "ko": "타당한",
+   "en": "valid",
+   "ex": {
+    "t": "O raciocínio é válido.",
+    "ko": "그 추론은 타당해요.",
+    "en": "The reasoning is valid."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "refutar",
+   "pos": "verb",
+   "ko": "반박하다",
+   "en": "refute",
+   "ex": {
+    "t": "Ele refutou a afirmação.",
+    "ko": "그는 주장을 반박했어요.",
+    "en": "He refuted the claim."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "capcioso",
+   "pos": "adj",
+   "ko": "교묘한",
+   "en": "specious",
+   "ex": {
+    "t": "É um argumento plausível, mas capcioso.",
+    "ko": "그건 그럴듯하지만 교묘한 주장이에요.",
+    "en": "It is a plausible but specious argument."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "espantalho · ad hominem · ladeira escorregadia · falso dilema · petição de princípio",
+   "en": "persuasion and logical fallacies: straw man, ad hominem, slippery slope, false dilemma, begging the question"
+  },
+  "explain": {
+   "ko": "Falácias lógicas são raciocínios que parecem plausíveis, mas não são válidos. Espantalho: deforma a afirmação do adversário para criticá-la. Ad hominem: ataca a pessoa, não o ponto. Ladeira escorregadia: afirma que uma pequena concessão levará a um desastre, sem mostrar cada passo. Falso dilema: limita as opções a duas ('ou a favor ou contra'). Petição de princípio: já assume, na premissa, a conclusão a provar. Se a premissa é falsa, mesmo um raciocínio válido leva a uma conclusão falsa. Ao refutar, nomeie o tipo específico de falácia: 'Ele nunca refutou o ponto real.' Conhecer as falácias permite avaliar criticamente a persuasão alheia e checar os próprios argumentos.",
+   "en": "Logical fallacies are reasonings that seem plausible but are not valid. Straw man: distorts the opponent's claim in order to criticise it. Ad hominem: attacks the person, not the point. Slippery slope: claims a small concession will lead to disaster, without showing each step. False dilemma: limits the options to two ('for or against'). Begging the question: already assumes, in the premise, the conclusion to be proved. If the premise is false, even valid reasoning leads to a false conclusion. When refuting, name the specific type of fallacy: 'Ele nunca refutou o ponto real.' Knowing fallacies lets you critically evaluate others' persuasion and check your own arguments."
+  },
+  "table": {
+   "head": [
+    "falácia / Falácia",
+    "traço / Traço",
+    "예 / Exemplo"
+   ],
+   "rows": [
+    [
+     "espantalho",
+     "주장을 왜곡",
+     "Deformou a tese do adversário."
+    ],
+    [
+     "ad hominem",
+     "사람을 공격",
+     "Atacou a pessoa, não o ponto."
+    ],
+    [
+     "falso dilema",
+     "선택지를 둘로 제한",
+     "Ou a favor, ou contra."
+    ],
+    [
+     "petição de princípio",
+     "결론을 전제로 삼음",
+     "Já pressupõe o que deve provar."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "Nomeie o tipo de falácia.",
+    "en": "Name the type of fallacy."
+   },
+   {
+    "ko": "Premissa falsa, conclusão falha.",
+    "en": "False premise, failed conclusion."
+   },
+   {
+    "ko": "Verifique os seus argumentos.",
+    "en": "Check your own arguments."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Ele deformou a afirmação do adversário para criar um espantalho.",
+    "ko": "그는 허수아비 논증을 사용했어요.",
+    "en": "He used a straw man argument."
+   },
+   {
+    "t": "A crítica ataca a pessoa, não o ponto: é um ad hominem.",
+    "ko": "인신공격은 논점을 흐려요.",
+    "en": "An ad hominem attack distracts from the point."
+   },
+   {
+    "t": "Esse argumento é uma ladeira escorregadia.",
+    "ko": "흑백 논리는 선택지를 제한해요.",
+    "en": "A false dilemma limits the choices."
+   },
+   {
+    "t": "Ele apresentou um falso dilema: a favor ou contra.",
+    "ko": "그 주장은 논점을 선취해요.",
+    "en": "That claim begs the question."
+   },
+   {
+    "t": "Se a premissa é falsa, a conclusão falha.",
+    "ko": "그는 그 주장을 반박했어요.",
+    "en": "He refuted the claim."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Ele usou um argumento do ___.",
+    "options": [
+     "espantalho",
+     "espantar",
+     "espanto"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "O ataque ad ___ desvia do ponto.",
+    "options": [
+     "hominem",
+     "homem",
+     "humano"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "O falso ___ limita as opções.",
+    "options": [
+     "dilema",
+     "dilemar",
+     "dilata"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Ele ___ a afirmação.",
+    "options": [
+     "refutou",
+     "refutar",
+     "refutado de"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "O que é um argumento do espantalho?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 허수아비 논증이란 무엇인가요?",
+     "en": "(Question) What is a straw man argument?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "Deformar uma afirmação para atacá-la.",
+       "Elogiar o adversário.",
+       "Citar um poema."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "O que é um falso dilema?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 흑백 논리란 무엇인가요?",
+     "en": "(Question) What is a false dilemma?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "Limitar as opções a apenas duas.",
+       "Oferecer dez opções.",
+       "Não oferecer opção."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Ele deformou as palavras do adversário e depois as criticou."
+      },
+      {
+       "s": "B",
+       "t": "Isso é um espantalho."
+      },
+      {
+       "s": "A",
+       "t": "E ainda atacou a pessoa."
+      },
+      {
+       "s": "B",
+       "t": "Então nunca refutou o ponto real."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 그는 상대의 말을 왜곡해서 비판했어.\nB: 허수아비 논증이네.\nA: 그리고 상대를 인신공격까지 했어.\nB: 그렇다면 논점은 전혀 반박하지 못한 거야.",
+     "en": "A: He distorted his opponent's words and then criticised them.\nB: That is a straw man.\nA: And he even attacked the person.\nB: Then he never refuted the actual point."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "O que ele fez além de deformar?",
+      "options": [
+       "Atacou a pessoa",
+       "Elogiou a pessoa",
+       "Foi embora"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Falácias lógicas são raciocínios que parecem plausíveis, mas não são válidos. O espantalho deforma a afirmação do adversário, o ad hominem ataca a pessoa e o falso dilema limita as opções a duas. Conhecer as falácias permite avaliar criticamente a persuasão alheia e verificar os próprios argumentos."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "논리적 오류는 그럴듯해 보이지만 타당하지 않은 추론입니다. 허수아비 논증은 상대의 주장을 왜곡하고, 인신공격은 사람을 공격하며, 흑백 논리는 선택지를 두 개로 제한합니다. 오류를 알면 남의 설득을 비판적으로 평가하고 내 논증도 점검할 수 있습니다.",
+     "en": "Logical fallacies are reasonings that seem plausible but are not valid. A straw man distorts the opponent's claim, an ad hominem attacks the person, and a false dilemma limits the choices to two. Knowing fallacies lets you evaluate others' persuasion critically and check your own arguments."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "O que é uma falácia?",
+      "options": [
+       "Um raciocínio plausível, mas inválido",
+       "Uma prova",
+       "Uma estatística"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Que falácia o senhor vê nessa afirmação?"
+      },
+      {
+       "s": "B",
+       "t": "É uma petição de princípio."
+      },
+      {
+       "s": "A",
+       "t": "O que isso significa?"
+      },
+      {
+       "s": "B",
+       "t": "Já toma como premissa a conclusão a ser provada."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "사회자: 이 주장에서 어떤 오류가 보이나요?\n패널: 논점을 선취하고 있습니다.\n사회자: 어떤 의미인가요?\n패널: 증명할 결론을 이미 전제로 삼고 있다는 뜻입니다.",
+     "en": "Moderator: Which fallacy do you see in this claim?\nPanelist: It begs the question.\nModerator: What does that mean?\nPanelist: It already takes the conclusion to be proved as its premise."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "É uma petição de ______",
+      "answers": [
+       "princípio"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "a conclusão a ser ______",
+      "answers": [
+       "provada"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Ele usou um argumento do ___.\n2) O ataque ad ___ desvia do ponto.\n3) O falso ___ limita as opções.",
+    "trans": {
+     "ko": "1) 그는 허수아비 논증을 사용했어요. 2) 인신공격은 논점을 흐려요. 3) 흑백 논리는 선택지를 제한해요.",
+     "en": "1) He used a straw man argument. 2) An ad hominem attack distracts from the point. 3) A false dilemma limits the choices."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Ele usou um argumento do ___.",
+      "options": [
+       "espantalho",
+       "espantar",
+       "espanto"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "O ataque ad ___ desvia do ponto.",
+      "options": [
+       "hominem",
+       "homem",
+       "humano"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "O falso ___ limita as opções.",
+      "options": [
+       "dilema",
+       "dilemar",
+       "dilata"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "A afirmação é plausível, mas (1). A premissa não foi provada, e a conclusão já está contida nela. Essa petição de (2) enfraquece a (3).",
+    "trans": {
+     "ko": "그 주장은 그럴듯하지만 교묘하다. 전제는 증명되지 않았고 결론은 이미 전제에 들어 있다. 이런 논점 선취는 설득력을 떨어뜨린다.",
+     "en": "The claim is plausible but specious. The premise has not been proved, and the conclusion is already contained in it. Such begging the question weakens the persuasion."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "capciosa",
+       "capciar",
+       "capricho a"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "princípio",
+       "princípio de",
+       "princesa"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "persuasão",
+       "persuadir",
+       "persuasivo a"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "COLUNA DE LÓGICA\nUm olho para as falácias\nO argumento da ladeira escorregadia afirma que uma pequena concessão logo trará o desastre. Mas, se não mostra que cada passo realmente ocorrerá, é uma falácia. O leitor crítico verifica os elos um a um.",
+    "trans": {
+     "ko": "논리 칼럼\n오류를 알아보는 눈\n미끄러운 경사 논증은 작은 양보가 곧 재앙을 부른다고 주장한다. 그러나 각 단계가 실제로 일어나는지 증명하지 않는다면 그것은 오류다. 비판적 독자는 연결 고리를 하나씩 확인한다.",
+     "en": "LOGIC COLUMN\nAn eye for fallacies\nA slippery slope argument claims that a small concession will soon bring disaster. But if it does not show that each step will actually occur, it is a fallacy. A critical reader checks the links one by one."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "O que afirma o argumento da ladeira escorregadia?",
+      "options": [
+       "Que uma pequena concessão trará desastre",
+       "Que tudo é seguro",
+       "Que nada muda"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "O que faz o leitor crítico?",
+      "options": [
+       "Verifica os elos um a um",
+       "Aceita tudo",
+       "Ignora"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "A coluna diz que o argumento da ladeira escorregadia afirma que uma pequena concessão trará desastre. A coluna diz que tais argumentos são sempre válidos. A coluna diz que o leitor crítico verifica os elos um a um.",
+    "trans": {
+     "ko": "칼럼은 미끄러운 경사 논증이 작은 양보가 재앙을 부른다고 주장한다고 본다. 칼럼은 그 논증이 항상 타당하다고 본다. 칼럼은 비판적 독자가 연결 고리를 하나씩 확인한다고 본다.",
+     "en": "The column says a slippery slope argument claims a small concession will bring disaster. The column says such arguments are always valid. The column says a critical reader checks the links one by one."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "A coluna diz que o leitor crítico verifica os elos um a um.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Tais argumentos são sempre válidos.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "A coluna é de uma advogada de Brasília.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Ele deformou a afirmação do adversário para criar um espantalho.",
+    "ko": "그는 상대의 주장을 왜곡해 허수아비 논증을 만들었습니다.",
+    "en": "He distorted his opponent's claim to create a straw man.",
+    "situation": {
+     "ko": "허수아비 논증",
+     "en": "Straw man"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "A crítica ataca a pessoa, não o ponto: é um ad hominem.",
+    "ko": "그의 비판은 논점이 아니라 사람을 공격하는 인신공격입니다.",
+    "en": "His criticism attacks the person, not the point: an ad hominem.",
+    "situation": {
+     "ko": "인신공격",
+     "en": "Ad hominem"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Esse argumento é uma ladeira escorregadia: uma pequena concessão leva ao desastre.",
+    "ko": "그 논증은 작은 양보가 곧 재앙이 된다는 미끄러운 경사입니다.",
+    "en": "That argument is a slippery slope: a small concession leads to disaster.",
+    "situation": {
+     "ko": "미끄러운 경사",
+     "en": "Slippery slope"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Ele apresentou um falso dilema: a favor ou contra.",
+    "ko": "그는 찬성 아니면 반대라는 흑백 논리를 폈습니다.",
+    "en": "He presented a false dilemma: either for or against.",
+    "situation": {
+     "ko": "흑백 논리",
+     "en": "False dilemma"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "A afirmação assume na premissa a conclusão que deveria provar.",
+    "ko": "그 주장은 증명해야 할 결론을 전제에 이미 담고 있습니다.",
+    "en": "The claim assumes in its premise the conclusion it must prove.",
+    "situation": {
+     "ko": "논점 선취",
+     "en": "Begging the question"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Se a premissa é falsa, mesmo um raciocínio válido leva a uma conclusão falsa.",
+    "ko": "전제가 틀리면 아무리 타당한 추론도 결론이 틀립니다.",
+    "en": "If a premise is false, even valid reasoning yields a false conclusion.",
+    "situation": {
+     "ko": "논증을 평가할 때",
+     "en": "Evaluating arguments"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "A afirmação parece plausível, mas é capciosa.",
+    "ko": "그럴듯해 보이지만 그 주장은 교묘합니다.",
+    "en": "The claim seems plausible but is specious.",
+    "situation": {
+     "ko": "비판할 때",
+     "en": "Criticising"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Ao refutar um argumento, nomeie o tipo específico de falácia.",
+    "ko": "논증을 반박할 때는 오류의 유형을 구체적으로 지적하세요.",
+    "en": "When refuting an argument, name the specific type of fallacy.",
+    "situation": {
+     "ko": "원칙을 말할 때",
+     "en": "Stating a principle"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "atacar a pessoa, não o ponto.",
+    "ko": "논점이 아니라 사람을 공격하다.",
+    "en": "attack the person, not the point"
+   },
+   {
+    "id": "w2",
+    "t": "Se a premissa é falsa, a conclusão falha.",
+    "ko": "전제가 틀리면 결론도 틀리다.",
+    "en": "If the premise is false, the conclusion fails"
+   },
+   {
+    "id": "w3",
+    "t": "limitar as opções.",
+    "ko": "선택지를 제한하다.",
+    "en": "limit the choices"
+   },
+   {
+    "id": "w4",
+    "t": "apontar uma falácia.",
+    "ko": "오류를 지적하다.",
+    "en": "point out a fallacy"
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "논리적 오류를 두 가지 이상 지적하며 한 주장을 4문장으로 반박해 보세요.",
+    "en": "Refute a claim in four sentences, pointing out at least two logical fallacies."
+   },
+   "must_include": [
+    {
+     "label": "ad hominem",
+     "match": [
+      "ataque ad hominem"
+     ]
+    },
+    {
+     "label": "falso dilema",
+     "match": [
+      "falso dilema"
+     ]
+    },
+    {
+     "label": "falácias",
+     "match": [
+      "duas falácias"
+     ]
+    },
+    {
+     "label": "refutação",
+     "match": [
+      "refutação"
+     ]
+    }
+   ],
+   "model": "O argumento dele contém duas falácias. Primeiro, ele fez um ataque ad hominem ao adversário. Segundo, apresentou um falso dilema: a favor ou contra. Nomear o tipo de falácia torna a refutação clara.",
+   "model_trans": {
+    "ko": "그의 주장에는 두 가지 오류가 있어요. 우선 그는 반대자를 공격하는 인신공격을 했어요. 또한 찬성 아니면 반대라는 흑백 논리를 폈어요. 오류의 유형을 지적해야 반박이 명확해져요.",
+    "en": "His argument contains two fallacies. First, he made an ad hominem attack on his opponent. Second, he presented a false dilemma: either for or against. Naming the type of fallacy makes the refutation clear."
+   }
+  }
+ }
+}

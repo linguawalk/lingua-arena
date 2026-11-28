@@ -1,0 +1,803 @@
+{
+ "meta": {
+  "id": "pt_c2_u09",
+  "lang": "pt",
+  "family": "europe",
+  "level": "c2",
+  "unit": 9,
+  "concept": "C2.U09",
+  "status": "live",
+  "title": {
+   "target": "Estrutura da informação e peso final",
+   "ko": "정보 구조와 문장 균형",
+   "en": "Information structure and end-weight"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "a informação dada",
+   "pos": "noun",
+   "ko": "이미 알려진 정보",
+   "en": "given information",
+   "ex": {
+    "t": "A frase costuma começar com informação dada.",
+    "ko": "문장은 보통 이미 알려진 정보로 시작해요.",
+    "en": "A sentence usually starts with given information."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "a informação nova",
+   "pos": "noun",
+   "ko": "새 정보",
+   "en": "new information",
+   "ex": {
+    "t": "A informação nova tende a vir no fim.",
+    "ko": "새 정보는 문장 끝에 오는 경향이 있어요.",
+    "en": "New information tends to come at the end."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "o peso final",
+   "pos": "noun",
+   "ko": "문미 중점",
+   "en": "end-weight",
+   "ex": {
+    "t": "Os sintagmas longos vão para o fim pelo princípio do peso final.",
+    "ko": "긴 구는 문미 중점 원칙에 따라 뒤로 가요.",
+    "en": "Long phrases move to the end by end-weight."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "deslocar",
+   "pos": "verb",
+   "ko": "후치하다",
+   "en": "extrapose",
+   "ex": {
+    "t": "Deslocar um sujeito longo facilita a leitura.",
+    "ko": "긴 주어를 뒤로 보내면 읽기 쉬워져요.",
+    "en": "Extraposing a long subject makes it easier to read."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "bem ordenado",
+   "pos": "adj",
+   "ko": "정돈된",
+   "en": "well-ordered",
+   "ex": {
+    "t": "Um texto bem ordenado é fácil de ler.",
+    "ko": "잘 정돈된 글은 읽기 쉬워요.",
+    "en": "A well-ordered text is easy to read."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "o ponto focal",
+   "pos": "noun",
+   "ko": "강조점",
+   "en": "focal point",
+   "ex": {
+    "t": "O ponto focal da frase está no fim.",
+    "ko": "문장의 강조점은 끝에 있어요.",
+    "en": "The focal point of a sentence lies at the end."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "supracitado",
+   "pos": "adj",
+   "ko": "앞서 말한",
+   "en": "aforementioned",
+   "ex": {
+    "t": "Voltemos ao problema supracitado.",
+    "ko": "앞서 말한 문제를 다시 보죠.",
+    "en": "Let us revisit the aforementioned problem."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "conduzir a",
+   "pos": "phrase",
+   "ko": "유도하다",
+   "en": "lead into",
+   "ex": {
+    "t": "A introdução conduz ao corpo do texto.",
+    "ko": "서론은 본론으로 이끌어요.",
+    "en": "The introduction leads into the main body."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "a transição",
+   "pos": "noun",
+   "ko": "전환",
+   "en": "transition",
+   "ex": {
+    "t": "A transição entre os parágrafos é suave.",
+    "ko": "단락 사이의 전환이 매끄러워요.",
+    "en": "The transition between paragraphs is smooth."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "o salto lógico",
+   "pos": "noun",
+   "ko": "비약",
+   "en": "leap",
+   "ex": {
+    "t": "Há um salto na lógica.",
+    "ko": "논리에 비약이 있어요.",
+    "en": "There is a leap in the logic."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "dado-novo · peso final · extraposição · existencial haver",
+   "en": "information structure: given-new, end-weight, extraposition, existential there"
+  },
+  "explain": {
+   "ko": "A frase portuguesa flui, em geral, do conhecido para o novo. O princípio do peso final leva os sintagmas longos para o fim: 'Surpreendeu-nos que ele tivesse saído.' em vez de 'Que ele tivesse saído nos surpreendeu.' Estruturas que introduzem informação nova: o verbo impessoal 'haver' ('Há várias razões pelas quais a política fracassou.'), a oração extraposta ('É evidente que precisam entregar todos os documentos.'), 'O ponto forte deste artigo reside na sofisticação do seu método.' / 'O problema reside em ~.' Retomada: 'o problema supracitado', 'o referido método'. Clivada: 'Foi este novo método que resolveu o problema.' Cuide das transições entre parágrafos.",
+   "en": "The Portuguese sentence generally flows from known to new. The end-weight principle moves long phrases to the end: 'Surpreendeu-nos que ele tivesse saído.' instead of 'Que ele tivesse saído nos surpreendeu.' Structures that introduce new information: impersonal 'haver' ('Há várias razões pelas quais a política fracassou.'), the extraposed clause ('É evidente que precisam entregar todos os documentos.'), 'O ponto forte deste artigo reside na sofisticação do seu método.' / 'O problema reside em ~.' Resumption: 'o problema supracitado', 'o referido método'. Cleft: 'Foi este novo método que resolveu o problema.' Mind the transitions between paragraphs."
+  },
+  "table": {
+   "head": [
+    "구조 / Estrutura",
+    "의미 / Sentido",
+    "예문 / Exemplo"
+   ],
+   "rows": [
+    [
+     "É ~ que ~",
+     "외치 구문",
+     "É evidente que precisam entregar tudo."
+    ],
+    [
+     "Há ~",
+     "존재 구문",
+     "Há várias razões pelas quais fracassou."
+    ],
+    [
+     "~ reside em ~",
+     "~에 있다",
+     "O ponto forte reside no método."
+    ],
+    [
+     "o supracitado ~",
+     "앞서 언급한 ~",
+     "Voltemos ao problema supracitado."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "Mova o elemento longo para o fim.",
+    "en": "Move the long element to the end."
+   },
+   {
+    "ko": "'Haver' impessoal não varia.",
+    "en": "Impersonal 'haver' does not vary."
+   },
+   {
+    "ko": "Do dado ao novo.",
+    "en": "From given to new."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Surpreendeu-nos que ele tivesse recusado a proposta.",
+    "ko": "그가 돌아오지 않았다는 사실은 놀라웠어요.",
+    "en": "It was surprising that he had not returned."
+   },
+   {
+    "t": "Há várias razões pelas quais a política fracassou.",
+    "ko": "그 정책이 실패한 이유는 여러 가지가 있어요.",
+    "en": "There are several reasons why the policy failed."
+   },
+   {
+    "t": "O ponto forte deste artigo reside na sofisticação do seu método.",
+    "ko": "선생님이 학생들에게 흥미로운 책 한 권을 추천했어요.",
+    "en": "The teacher recommended to the students an interesting book on linguistics."
+   },
+   {
+    "t": "É evidente que precisam entregar todos os documentos.",
+    "ko": "그들이 모든 서류를 제출할 필요가 있다는 점은 분명해요.",
+    "en": "It is clear that they need to submit all the documents."
+   },
+   {
+    "t": "Foi este novo método que resolveu o problema.",
+    "ko": "이 논문의 장점은 그 방법론의 정교함에 있어요.",
+    "en": "The strength of this paper lies in the sophistication of its methodology."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "___ várias razões pelas quais a política fracassou.",
+    "options": [
+     "Há",
+     "Têm",
+     "Houve de"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "O ponto forte deste artigo ___ no método.",
+    "options": [
+     "reside",
+     "residem",
+     "residir"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Voltemos ao problema ___.",
+    "options": [
+     "supracitado",
+     "citar",
+     "citação"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "É evidente ___ precisam entregar tudo.",
+    "options": [
+     "que",
+     "quem",
+     "o qual"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Qual é o problema deste plano?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 계획의 문제는 무엇인가요?",
+     "en": "(Question) What is the problem with this plan?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "Há uma falha grave.",
+       "Falha grave tem há.",
+       "Plano não problema."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Qual é o ponto forte deste artigo?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 논문의 장점은 무엇인가요?",
+     "en": "(Question) What is the strength of this paper?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "O seu ponto forte reside nos dados.",
+       "Dados reside forte não.",
+       "Ponto ele não."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Este texto é difícil de ler. Por quê?"
+      },
+      {
+       "s": "B",
+       "t": "O sujeito é longo demais. Tente deslocar a parte longa para o fim."
+      },
+      {
+       "s": "A",
+       "t": "Por exemplo?"
+      },
+      {
+       "s": "B",
+       "t": "Como 'Surpreendeu-nos que ele tivesse saído', em vez de 'Que ele tivesse saído nos surpreendeu'."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 이 글을 읽기 어려워. 왜 그럴까?\nB: 주어가 너무 길어서 그래. 긴 부분은 뒤로 보내 봐.\nA: 예를 들면?\nB: 'That he left surprised us' 대신 'It surprised us that he left'처럼.",
+     "en": "A: This text is hard to read. Why?\nB: The subject is too long. Try moving the long part to the end.\nA: For example?\nB: Like 'It surprised us that he left' instead of 'That he left surprised us'."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Por que o texto é difícil de ler?",
+      "options": [
+       "O sujeito é longo demais",
+       "Há poucas palavras",
+       "O papel é ruim"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "As frases do português fluem, em geral, da informação conhecida para a nova. Os sintagmas longos vão para o fim, pelo princípio do peso final. O 'haver' existencial e a construção extraposta 'É … que' introduzem informação nova com eficácia."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "영어 문장은 대체로 이미 아는 정보에서 새 정보로 흐릅니다. 긴 구는 문장 뒤로 옮기는 문미 중점 원칙을 따릅니다. 존재문 there is나 후치 It is ... that은 새로운 정보를 효과적으로 도입합니다.",
+     "en": "English sentences generally flow from known to new information. Long phrases move to the end by the end-weight principle. Existential there is and extraposed It is ... that introduce new information effectively."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Onde costuma ir a informação nova?",
+      "options": [
+       "No fim da frase",
+       "No início",
+       "No título"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Explique a estrutura do seu artigo."
+      },
+      {
+       "s": "B",
+       "t": "A introdução apresenta o problema e conduz ao corpo do texto."
+      },
+      {
+       "s": "A",
+       "t": "As transições são suaves?"
+      },
+      {
+       "s": "B",
+       "t": "Sim, cada parágrafo passa do dado ao novo."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 논문의 구조를 설명해 주세요.\n학생: 서론은 문제를 소개하고 본론으로 이끕니다.\n교수: 전환은 매끄럽습니까?\n학생: 네, 각 단락은 앞선 정보에서 새로운 정보로 이어집니다.",
+     "en": "Professor: Please explain the structure of your paper.\nStudent: The introduction presents the problem and leads into the main body.\nProfessor: Are the transitions smooth?\nStudent: Yes, each paragraph moves from given to new information."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "A introdução conduz ao corpo do ______",
+      "answers": [
+       "texto"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Cada parágrafo passa do dado ao ______",
+      "answers": [
+       "novo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Surpreendeu-nos que ele ___ recusado a proposta.\n2) ___ várias razões pelas quais a política fracassou.\n3) O ponto forte deste artigo ___ na sofisticação do seu método.",
+    "trans": {
+     "ko": "1) 그가 돌아오지 않았다는 건 놀라웠어요. 2) 그 정책이 실패한 이유는 여러 가지예요. 3) 이 논문의 장점은 방법론의 정교함에 있어요.",
+     "en": "1) It was surprising that he had not returned. 2) There are several reasons why the policy failed. 3) The strength of this paper lies in the sophistication of its methodology."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Surpreendeu-nos que ele ___ recusado a proposta.",
+      "options": [
+       "tivesse",
+       "tem",
+       "teve"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "___ várias razões pelas quais a política fracassou.",
+      "options": [
+       "Há",
+       "Têm",
+       "Houve de"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "O ponto forte deste artigo ___ na sofisticação do seu método.",
+      "options": [
+       "reside",
+       "residem",
+       "residir"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Há vários problemas neste relatório. O maior reside na origem pouco (1) dos dados. O problema supracitado pode minar a (2) da conclusão. É, por isso, necessário (3) os dados.",
+    "trans": {
+     "ko": "이 보고서에는 몇 가지 문제가 있다. 가장 큰 문제는 자료의 출처가 불분명하다는 점이다. 앞서 말한 문제는 결론의 신뢰성을 해칠 수 있다. 따라서 자료를 다시 확인하는 것이 필요하다.",
+     "en": "There are several problems in this report. The biggest lies in the unclear source of the data. The aforementioned problem may undermine the reliability of the conclusion. It is therefore necessary to recheck the data."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "clara",
+       "claro a",
+       "clarear"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "confiabilidade",
+       "confiar",
+       "confiado a"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "reverificar",
+       "reverificação a",
+       "verificado a"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "DICA DE ESCRITA\nFrases que se leem bem\nOs leitores acompanham com facilidade o texto que vai do dado ao novo. Desloque os sujeitos longos para o fim e coloque o ponto principal por último. Assim as frases ficam equilibradas e claras.",
+    "trans": {
+     "ko": "글쓰기 팁\n읽기 쉬운 문장\n독자는 이미 아는 정보에서 새로운 정보로 흐르는 글을 쉽게 읽습니다. 긴 주어는 뒤로 보내고, 핵심은 문장 끝에 두세요. 이렇게 하면 문장이 균형 잡히고 명확해집니다.",
+     "en": "WRITING TIP\nSentences that read easily\nReaders find it easy to follow text that moves from given to new information. Move long subjects to the end and place the key point last. This makes sentences balanced and clear."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "O que os leitores acompanham com facilidade?",
+      "options": [
+       "Texto que vai do dado ao novo",
+       "Texto sem pontuação",
+       "Texto muito curto"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Onde colocar o ponto principal?",
+      "options": [
+       "No fim",
+       "No início",
+       "Em nota de rodapé"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "O texto diz que os leitores acompanham bem o texto que vai do dado ao novo. O texto aconselha manter os sujeitos longos no início. O texto aconselha pôr o ponto principal no fim.",
+    "trans": {
+     "ko": "글은 독자가 이미 아는 정보에서 새 정보로 흐르는 글을 읽기 쉽다고 말한다. 글은 긴 주어를 앞에 두라고 권한다. 글은 핵심을 문장 끝에 두라고 권한다.",
+     "en": "The text says readers find given-to-new text easy to follow. The text advises keeping long subjects at the start. The text advises placing the key point at the end."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "O texto aconselha pôr o ponto principal no fim.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "O texto aconselha manter os sujeitos longos no início.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "O texto é de um manual escolar.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Surpreendeu-nos que ele tivesse recusado a proposta.",
+    "ko": "그가 제안을 거절했다는 사실은 놀라웠습니다.",
+    "en": "It was surprising that he turned down the proposal.",
+    "situation": {
+     "ko": "긴 주어를 후치할 때",
+     "en": "Extraposing a long subject"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Há várias causas para este problema.",
+    "ko": "이 문제에는 여러 가지 원인이 있습니다.",
+    "en": "There are several causes of this problem.",
+    "situation": {
+     "ko": "존재문으로 새 정보를 도입할 때",
+     "en": "Introducing new information with 'there'"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "O valor deste estudo reside nos novos dados que apresenta.",
+    "ko": "이 연구의 가치는 새로운 데이터를 제시했다는 점에 있습니다.",
+    "en": "The value of this study lies in the new data it presents.",
+    "situation": {
+     "ko": "문미에 핵심을 둘 때",
+     "en": "Placing the key point last"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Ele passou a toda a equipe uma informação de grande importância.",
+    "ko": "그는 팀 전체에 매우 중요한 정보를 전달했습니다.",
+    "en": "He passed on to the whole team some information of great importance.",
+    "situation": {
+     "ko": "긴 목적어를 뒤로 보낼 때",
+     "en": "Moving a long object to the end"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Voltemos ao problema supracitado.",
+    "ko": "앞서 언급한 문제로 돌아가 보겠습니다.",
+    "en": "Let us return to the aforementioned problem.",
+    "situation": {
+     "ko": "앞선 정보를 가리킬 때",
+     "en": "Referring back to given information"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Há uma falha grave nesta abordagem.",
+    "ko": "이 접근법에는 한 가지 심각한 결점이 있습니다.",
+    "en": "There is one serious flaw in this approach.",
+    "situation": {
+     "ko": "새 정보를 도입할 때",
+     "en": "Introducing a new point"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Foi este novo método que resolveu o problema.",
+    "ko": "그 문제를 해결한 것은 바로 이 새로운 방법이었습니다.",
+    "en": "It was this new method that solved the problem.",
+    "situation": {
+     "ko": "분열문으로 초점을 줄 때",
+     "en": "Using a cleft for focus"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "O objetivo deste ensaio é comparar as duas abordagens.",
+    "ko": "이 글의 목적은 두 가지 접근을 비교하는 것입니다.",
+    "en": "The aim of this essay is to compare the two approaches.",
+    "situation": {
+     "ko": "문미에 중요한 정보를 두는 구조",
+     "en": "A balanced, end-focused structure"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "É ~ que ~.",
+    "ko": "~라는 것은 …이다 (후치).",
+    "en": "It is ... that ..."
+   },
+   {
+    "id": "w2",
+    "t": "Há ~.",
+    "ko": "~이(가) 있다 (존재).",
+    "en": "There is/are ..."
+   },
+   {
+    "id": "w3",
+    "t": "~ reside em ~.",
+    "ko": "가치/문제는 ~에 있다.",
+    "en": "The strength/problem lies in ..."
+   },
+   {
+    "id": "w4",
+    "t": "o supracitado ~.",
+    "ko": "앞서 말한 ~.",
+    "en": "the aforementioned ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "정보 구조(문미 중점, 후치, there is)를 사용해 문제를 분석하는 4문장을 써 보세요.",
+    "en": "Write four sentences analysing a problem, using information structure (end-weight, extraposition, there is)."
+   },
+   "must_include": [
+    {
+     "label": "há",
+     "match": [
+      "há uma falha grave"
+     ]
+    },
+    {
+     "label": "é claro que",
+     "match": [
+      "é evidente que",
+      "é claro que"
+     ]
+    },
+    {
+     "label": "reside",
+     "match": [
+      "reside"
+     ]
+    },
+    {
+     "label": "supracitado",
+     "match": [
+      "supracitado"
+     ]
+    }
+   ],
+   "model": "Há uma falha grave neste plano. É evidente que os custos poderiam subir muito acima do esperado. O cerne do problema reside no cronograma apertado demais. Para reduzir o risco supracitado, é aconselhável proceder por etapas.",
+   "model_trans": {
+    "ko": "이 계획에는 한 가지 심각한 결점이 있어요. 비용이 예상보다 훨씬 높아질 수 있다는 점은 분명해요. 문제의 핵심은 일정이 지나치게 빡빡하다는 데 있어요. 앞서 말한 위험을 줄이려면 단계별로 진행하는 것이 바람직해요.",
+    "en": "There is one serious flaw in this plan. It is clear that costs could rise far above expectation. The crux of the problem lies in the schedule being too tight. To reduce the aforementioned risk, it is advisable to proceed in stages."
+   }
+  }
+ }
+}
