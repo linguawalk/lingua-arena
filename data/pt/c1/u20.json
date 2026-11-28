@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "pt_c1_u20",
+  "lang": "pt",
+  "family": "europe",
+  "level": "c1",
+  "unit": 20,
+  "concept": "C1.U20",
+  "status": "live",
+  "title": {
+   "target": "Estrutura argumentativa em ensaios acadêmicos",
+   "ko": "학술 에세이의 논증 구조",
+   "en": "Argument structure in academic essays"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "a tese",
+   "pos": "noun",
+   "ko": "논지",
+   "en": "thesis statement",
+   "ex": {
+    "t": "Declare a sua tese claramente na introdução.",
+    "ko": "서론에서 논지를 분명히 밝히세요.",
+    "en": "State your thesis clearly in the introduction."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "a frase-tópico",
+   "pos": "noun",
+   "ko": "주제문",
+   "en": "topic sentence",
+   "ex": {
+    "t": "Cada parágrafo começa com uma frase-tópico.",
+    "ko": "각 단락은 주제문으로 시작해요.",
+    "en": "Each paragraph begins with a topic sentence."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "o contra-argumento",
+   "pos": "noun",
+   "ko": "반론",
+   "en": "counter-argument",
+   "ex": {
+    "t": "Reconheça o contra-argumento e depois refute-o.",
+    "ko": "반론을 인정한 뒤 반박하세요.",
+    "en": "Acknowledge a counter-argument and then refute it."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "a refutação",
+   "pos": "noun",
+   "ko": "반박",
+   "en": "refutation",
+   "ex": {
+    "t": "A refutação dele foi convincente.",
+    "ko": "그의 반박은 설득력 있었어요.",
+    "en": "His refutation was convincing."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "sustentar",
+   "pos": "verb",
+   "ko": "뒷받침하다",
+   "en": "support",
+   "ex": {
+    "t": "Sustente a sua afirmação com provas.",
+    "ko": "근거로 주장을 뒷받침하세요.",
+    "en": "Support your claim with evidence."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "a evidência",
+   "pos": "noun",
+   "ko": "근거",
+   "en": "evidence",
+   "ex": {
+    "t": "São necessárias evidências suficientes.",
+    "ko": "충분한 근거가 필요해요.",
+    "en": "Sufficient evidence is needed."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "coerente",
+   "pos": "adj",
+   "ko": "일관된",
+   "en": "coherent",
+   "ex": {
+    "t": "A lógica deve ser coerente.",
+    "ko": "논리가 일관되어야 해요.",
+    "en": "The logic must be coherent."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "a premissa",
+   "pos": "noun",
+   "ko": "전제",
+   "en": "premise",
+   "ex": {
+    "t": "A premissa do argumento é falha.",
+    "ko": "그 주장의 전제는 잘못되었어요.",
+    "en": "The premise of the argument is flawed."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "a conclusão",
+   "pos": "noun",
+   "ko": "결론",
+   "en": "conclusion",
+   "ex": {
+    "t": "A conclusão retoma a tese.",
+    "ko": "결론은 서론의 논지로 돌아가요.",
+    "en": "The conclusion returns to the thesis."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "a contradição",
+   "pos": "noun",
+   "ko": "모순",
+   "en": "contradiction",
+   "ex": {
+    "t": "Há uma contradição no argumento.",
+    "ko": "논지에 모순이 있어요.",
+    "en": "There is a contradiction in the argument."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "tese · frase-tópico · contra-argumento · refutação",
+   "en": "argument structure in academic essays: thesis statement, topic sentence, counter-argument, refutation"
+  },
+  "explain": {
+   "ko": "Um ensaio argumentativo tem introdução, desenvolvimento e conclusão. Na introdução, apresente a tese: 'Este ensaio defende que o trabalho remoto aumenta a produtividade.' Cada parágrafo começa com uma frase-tópico. Apresente o contra-argumento: 'Alguns alegam que o trabalho em equipe se enfraquece.' E refute-o: 'No entanto, estudos recentes mostram que…'. Sustente com evidências: 'Isso é corroborado por…'. Aponte contradições: 'Há uma contradição nessa lógica.' Na conclusão, retome a tese: 'Em suma, os benefícios superam as desvantagens; portanto, as empresas devem adotar…'.",
+   "en": "An argumentative essay has an introduction, body and conclusion. In the introduction, present the thesis: 'Este ensaio defende que o trabalho remoto aumenta a produtividade.' Each paragraph begins with a topic sentence. Present the counter-argument: 'Alguns alegam que o trabalho em equipe se enfraquece.' And refute it: 'No entanto, estudos recentes mostram que…'. Support with evidence: 'Isso é corroborado por…'. Point out contradictions: 'Há uma contradição nessa lógica.' In the conclusion, restate the thesis: 'Em suma, os benefícios superam as desvantagens; portanto, as empresas devem adotar…'."
+  },
+  "table": {
+   "head": [
+    "부분 / Parte",
+    "표현 / Expressão",
+    "예문 / Exemplo"
+   ],
+   "rows": [
+    [
+     "tese",
+     "Este ensaio defende que ~",
+     "Este ensaio defende que o trabalho remoto aumenta a produtividade."
+    ],
+    [
+     "contra-argumento",
+     "Alguns alegam que ~",
+     "Alguns alegam que o trabalho em equipe se enfraquece."
+    ],
+    [
+     "refutação",
+     "No entanto, ~ mostram que ~",
+     "No entanto, estudos recentes mostram o contrário."
+    ],
+    [
+     "conclusão",
+     "Em suma, ~",
+     "Em suma, os benefícios superam as desvantagens."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "A tese vem na introdução.",
+    "en": "The thesis comes in the introduction."
+   },
+   {
+    "ko": "Reconheça e refute o contra-argumento.",
+    "en": "Acknowledge and refute the counter-argument."
+   },
+   {
+    "ko": "A conclusão retoma a tese.",
+    "en": "The conclusion restates the thesis."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Você deve declarar a tese claramente na introdução.",
+    "ko": "서론에서 논지를 분명히 밝혀야 해요.",
+    "en": "You should state your thesis clearly in the introduction."
+   },
+   {
+    "t": "Cada parágrafo deve começar com uma frase-tópico.",
+    "ko": "각 단락은 주제문으로 시작해야 해요.",
+    "en": "Each paragraph should begin with a topic sentence."
+   },
+   {
+    "t": "É eficaz reconhecer o contra-argumento e depois refutá-lo.",
+    "ko": "반론을 인정한 뒤 반박하는 것이 효과적이에요.",
+    "en": "It is effective to acknowledge a counter-argument and then refute it."
+   },
+   {
+    "t": "Evidências suficientes sustentam a afirmação.",
+    "ko": "충분한 근거가 주장을 뒷받침해요.",
+    "en": "Sufficient evidence supports the claim."
+   },
+   {
+    "t": "A conclusão deve retomar a tese.",
+    "ko": "결론은 서론의 논지로 돌아가야 해요.",
+    "en": "The conclusion should return to the thesis."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Este ensaio ___ que o trabalho remoto aumenta a produtividade.",
+    "options": [
+     "defende",
+     "defender",
+     "defesa"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Cada parágrafo começa com uma frase-___.",
+    "options": [
+     "tópico",
+     "típico",
+     "tópica a"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Alguns ___ que o trabalho em equipe se enfraquece.",
+    "options": [
+     "alegam",
+     "alega",
+     "alegar"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "A conclusão ___ a tese.",
+    "options": [
+     "retoma",
+     "retomar",
+     "retomada de"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Qual é a tese deste ensaio?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 에세이의 논지는 무엇인가요?",
+     "en": "(Question) What is the thesis of this essay?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "Que o trabalho remoto aumenta a produtividade.",
+       "Que o trabalho é remoto lá.",
+       "Tese não tem."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Como o contra-argumento é refutado?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 반론은 어떻게 반박하나요?",
+     "en": "(Question) How is the counter-argument refuted?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "Citando estudos recentes.",
+       "Ignorando-o.",
+       "Repetindo a tese."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Escrevi a introdução; a minha tese está clara?"
+      },
+      {
+       "s": "B",
+       "t": "'Este ensaio defende que o trabalho remoto aumenta a produtividade' — está clara."
+      },
+      {
+       "s": "A",
+       "t": "Devo incluir um contra-argumento?"
+      },
+      {
+       "s": "B",
+       "t": "Sim, apresentá-lo e refutá-lo torna o texto mais convincente."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 에세이 서론을 썼는데 논지가 분명한지 봐 줄래?\nB: '이 글은 재택근무가 생산성을 높인다고 주장한다'가 논지구나. 명확해.\nA: 반론도 넣어야 할까?\nB: 응, 반론을 소개하고 반박하면 더 설득력 있어.",
+     "en": "A: I've written my introduction; is my thesis clear?\nB: 'This essay argues that remote working boosts productivity' — that's clear.\nA: Should I include a counter-argument?\nB: Yes, introducing and refuting one makes it more convincing."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "O que o homem aconselha?",
+      "options": [
+       "Apresentar e refutar um contra-argumento",
+       "Cortar a tese",
+       "Escrever menos"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Um bom ensaio acadêmico tem introdução, desenvolvimento e conclusão. A introdução apresenta a tese e cada parágrafo do desenvolvimento começa com uma frase-tópico. Reconhecer e refutar um contra-argumento fortalece a argumentação. A conclusão retoma a tese."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "좋은 학술 에세이는 서론, 본론, 결론으로 구성됩니다. 서론에서는 논지를 밝히고, 본론의 각 단락은 주제문으로 시작합니다. 반론을 인정하고 반박하면 논증이 더 탄탄해집니다. 결론에서는 논지를 다시 정리합니다.",
+     "en": "A good academic essay has an introduction, body and conclusion. The introduction states the thesis, and each body paragraph starts with a topic sentence. Acknowledging and refuting a counter-argument strengthens the argument. The conclusion restates the thesis."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "O que a conclusão deve fazer?",
+      "options": [
+       "Retomar a tese",
+       "Trazer uma tese nova",
+       "Calar"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Li o seu ensaio."
+      },
+      {
+       "s": "B",
+       "t": "O que achou?"
+      },
+      {
+       "s": "A",
+       "t": "A tese está clara, mas falta um contra-argumento."
+      },
+      {
+       "s": "B",
+       "t": "Vou acrescentar um e refutá-lo."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "교수: 에세이를 읽었습니다.\n학생: 어땠나요?\n교수: 논지는 분명하지만 반론이 없습니다.\n학생: 반론을 추가하고 반박하겠습니다.",
+     "en": "Professor: I read your essay.\nStudent: What did you think?\nProfessor: The thesis is clear, but there's no counter-argument.\nStudent: I'll add one and refute it."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "O professor diz que a tese está ______",
+      "answers": [
+       "clara"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "O aluno vai acrescentar um contra-argumento e ______",
+      "answers": [
+       "refutá-lo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Este ensaio ___ que o trabalho remoto aumenta a produtividade.\n2) Cada parágrafo começa com uma frase-___.\n3) É eficaz reconhecer o contra-argumento e depois ___.",
+    "trans": {
+     "ko": "1) 서론에서 논지를 분명히 밝혀야 해요. 2) 각 단락은 주제문으로 시작해야 해요. 3) 반론을 인정한 뒤 반박하는 것이 효과적이에요.",
+     "en": "1) You should state your thesis clearly in the introduction. 2) Each paragraph should begin with a topic sentence. 3) It is effective to acknowledge a counter-argument and then refute it."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Este ensaio ___ que o trabalho remoto aumenta a produtividade.",
+      "options": [
+       "defende",
+       "defender",
+       "defesa"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Cada parágrafo começa com uma frase-___.",
+      "options": [
+       "tópico",
+       "típico",
+       "tópica a"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "É eficaz reconhecer o contra-argumento e depois ___.",
+      "options": [
+       "refutá-lo",
+       "refutar de",
+       "refutado a"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Este ensaio defende que a ampliação das ciclovias urbanas beneficia o meio ambiente. Alguns (1) que o custo é alto demais. A longo (2), porém, o congestionamento e a poluição diminuem, gerando benefícios que superam o custo. (3), as cidades devem avançar com o plano.",
+    "trans": {
+     "ko": "이 에세이는 도시의 자전거 도로 확대가 환경에 도움이 된다고 주장합니다. 일부는 비용이 너무 크다고 반대합니다. 그러나 장기적으로는 교통 정체와 오염이 줄어들어 비용을 상회하는 이익이 생깁니다. 따라서 도시는 계획을 추진해야 합니다.",
+     "en": "This essay argues that expanding urban cycle lanes benefits the environment. Some object that the cost is too high. In the long term, however, congestion and pollution fall, producing benefits that outweigh the cost. Therefore cities should go ahead with the plan."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "objetam",
+       "objeto a",
+       "objetar"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "prazo",
+       "prazer",
+       "praça"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "Portanto",
+       "Porém",
+       "Contudo"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "GUIA DE ESTUDO\nEnsaios argumentativos\nUm bom ensaio argumentativo começa com uma tese clara. O desenvolvimento sustenta a tese com evidências e apresenta contra-argumentos. Os contra-argumentos devem ser refutados. A conclusão retoma a tese e resume os pontos principais.",
+    "trans": {
+     "ko": "학습 가이드\n논증 에세이\n좋은 논증 에세이는 분명한 논지로 시작한다. 본론에서는 근거로 논지를 뒷받침하고 반론을 소개한다. 반론은 반드시 반박되어야 한다. 결론은 논지로 돌아가 핵심을 정리한다.",
+     "en": "STUDY GUIDE\nArgument essays\nA good argument essay starts with a clear thesis. The body supports the thesis with evidence and introduces counter-arguments. Counter-arguments must be refuted. The conclusion returns to the thesis and summarises key points."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Com o que um bom ensaio começa?",
+      "options": [
+       "Uma tese clara",
+       "Uma pergunta",
+       "Uma citação"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "O que os contra-argumentos exigem?",
+      "options": [
+       "Serem refutados",
+       "Serem ignorados",
+       "Serem copiados"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "Um ensaio argumentativo começa com uma tese clara. Não é preciso apresentar contra-argumentos. A conclusão resume os pontos principais.",
+    "trans": {
+     "ko": "논증 에세이는 분명한 논지로 시작한다. 반론은 소개하지 않아도 된다. 결론은 핵심을 정리한다.",
+     "en": "An argument essay starts with a clear thesis. Counter-arguments need not be introduced. The conclusion summarises the key points."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "A conclusão resume os pontos principais.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Não é preciso apresentar contra-argumentos.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "O guia foi escrito por um professor.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "A tese deste ensaio é que o trabalho remoto aumenta a produtividade.",
+    "ko": "이 에세이의 논지는 재택근무가 생산성을 높인다는 것입니다.",
+    "en": "The thesis of this essay is that remote working boosts productivity.",
+    "situation": {
+     "ko": "논지를 소개할 때",
+     "en": "Introducing the thesis"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "O primeiro parágrafo trata da economia de custos.",
+    "ko": "첫째 단락은 비용 절감에 초점을 맞춥니다.",
+    "en": "The first paragraph focuses on cost savings.",
+    "situation": {
+     "ko": "단락 구조를 안내할 때",
+     "en": "Signposting"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Alguns alegam que o trabalho em equipe se enfraquece.",
+    "ko": "일부는 팀워크가 약해진다고 주장합니다.",
+    "en": "Some argue that teamwork is weakened.",
+    "situation": {
+     "ko": "반론을 소개할 때",
+     "en": "Introducing a counter-argument"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "No entanto, essa afirmação é refutada por pesquisas recentes.",
+    "ko": "그러나 이 주장은 최근 연구에 의해 반박됩니다.",
+    "en": "However, this claim is refuted by recent research.",
+    "situation": {
+     "ko": "반박할 때",
+     "en": "Refuting"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Dois estudos podem ser citados em apoio a isso.",
+    "ko": "이를 뒷받침하는 근거로 두 가지 연구를 들 수 있습니다.",
+    "en": "Two studies can be cited in support of this.",
+    "situation": {
+     "ko": "근거를 제시할 때",
+     "en": "Providing evidence"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Há uma contradição nessa lógica.",
+    "ko": "이 논리에는 모순이 있습니다.",
+    "en": "There is a contradiction in this logic.",
+    "situation": {
+     "ko": "논리를 비판할 때",
+     "en": "Criticising logic"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Em suma, os benefícios do trabalho remoto superam as desvantagens.",
+    "ko": "종합하면 재택근무의 이점이 단점을 상회합니다.",
+    "en": "In sum, the benefits of remote working outweigh the drawbacks.",
+    "situation": {
+     "ko": "결론을 말할 때",
+     "en": "Concluding"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Portanto, as empresas devem adotar regimes de trabalho flexíveis.",
+    "ko": "따라서 기업은 유연한 근무 제도를 도입해야 합니다.",
+    "en": "Therefore, companies should introduce flexible working arrangements.",
+    "situation": {
+     "ko": "제안으로 마무리할 때",
+     "en": "Ending with a recommendation"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Este ensaio defende que ~.",
+    "ko": "이 에세이는 ~라고 주장한다.",
+    "en": "This essay argues that ..."
+   },
+   {
+    "id": "w2",
+    "t": "Alguns alegam que ~; no entanto, ~.",
+    "ko": "일부는 ~라고 주장하지만 ~",
+    "en": "Some claim that ..., but ..."
+   },
+   {
+    "id": "w3",
+    "t": "Isso é corroborado por ~.",
+    "ko": "이를 뒷받침하는 근거는 ~이다.",
+    "en": "This is supported by ..."
+   },
+   {
+    "id": "w4",
+    "t": "Em suma / Portanto, ~.",
+    "ko": "종합하면 ~이다.",
+    "en": "In sum / On balance, ..."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "논지·반론·반박·결론이 모두 들어간 4문장의 논증 에세이 요약을 써 보세요.",
+    "en": "Write a four-sentence summary of an argument essay that includes thesis, counter-argument, refutation and conclusion."
+   },
+   "must_include": [
+    {
+     "label": "tese",
+     "match": [
+      "este ensaio defende que"
+     ]
+    },
+    {
+     "label": "contra-argumento",
+     "match": [
+      "alguns alegam que"
+     ]
+    },
+    {
+     "label": "refutação",
+     "match": [
+      "no entanto"
+     ]
+    },
+    {
+     "label": "conclusão",
+     "match": [
+      "em suma"
+     ]
+    }
+   ],
+   "model": "Este ensaio defende que o trabalho remoto aumenta a produtividade. Alguns alegam que o trabalho em equipe se enfraquece. No entanto, estudos recentes mostram que as ferramentas de colaboração on-line reduzem esse problema. Em suma, as empresas devem adotar regimes de trabalho flexíveis.",
+   "model_trans": {
+    "ko": "이 에세이는 재택근무가 생산성을 높인다고 주장합니다. 일부는 팀워크가 약해진다고 주장합니다. 그러나 최근 연구는 온라인 협업 도구가 이 문제를 줄인다는 것을 보여 줍니다. 종합하면 기업은 유연한 근무 제도를 도입해야 합니다.",
+    "en": "This essay argues that remote working boosts productivity. Some claim that teamwork is weakened. However, recent studies show that online collaboration tools reduce this problem. In sum, companies should introduce flexible working arrangements."
+   }
+  }
+ }
+}
