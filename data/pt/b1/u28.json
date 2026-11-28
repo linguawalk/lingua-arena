@@ -1,0 +1,802 @@
+{
+ "meta": {
+  "id": "pt_b1_u28",
+  "lang": "pt",
+  "family": "europe",
+  "level": "b1",
+  "unit": 28,
+  "concept": "B1.U28",
+  "status": "live",
+  "title": {
+   "target": "Quantificadores: algum, nenhum, muito, pouco, cada, todo",
+   "ko": "수량 표현: some · any · much · many · each · every",
+   "en": "Quantifiers: some, any, much, many, each, every"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "bastante",
+   "pos": "adj",
+   "ko": "충분한",
+   "en": "enough",
+   "ex": {
+    "t": "Não temos tempo suficiente.",
+    "ko": "우리는 충분한 시간이 없어요.",
+    "en": "We don't have enough time."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "nenhum",
+   "pos": "det",
+   "ko": "조금도",
+   "en": "any",
+   "ex": {
+    "t": "Não há nenhum leite na geladeira.",
+    "ko": "냉장고에 우유가 조금도 없어요.",
+    "en": "There isn't any milk in the fridge."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "muitos",
+   "pos": "det",
+   "ko": "많은(셀 수 있는)",
+   "en": "many",
+   "ex": {
+    "t": "Não há muitos parques nesta cidade.",
+    "ko": "이 도시에는 공원이 많지 않아요.",
+    "en": "There aren't many parks in this city."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "muito",
+   "pos": "det",
+   "ko": "많은(셀 수 없는)",
+   "en": "much",
+   "ex": {
+    "t": "Não tenho muito dinheiro.",
+    "ko": "나는 돈이 많지 않아요.",
+    "en": "I don't have much money."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "alguns",
+   "pos": "det",
+   "ko": "몇몇의",
+   "en": "a few",
+   "ex": {
+    "t": "Tenho alguns amigos na Inglaterra.",
+    "ko": "나는 영국에 친구가 몇 명 있어요.",
+    "en": "I have a few friends in England."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "um pouco de",
+   "pos": "det",
+   "ko": "약간의",
+   "en": "a little",
+   "ex": {
+    "t": "Acrescente um pouco de sal à sopa.",
+    "ko": "수프에 소금을 조금 넣으세요.",
+    "en": "Add a little salt to the soup."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "cada",
+   "pos": "det",
+   "ko": "각각",
+   "en": "each",
+   "ex": {
+    "t": "Cada aluno deve trazer um livro.",
+    "ko": "각 학생은 책을 한 권씩 가져야 해요.",
+    "en": "Each student must bring a book."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "todo",
+   "pos": "det",
+   "ko": "모든",
+   "en": "every",
+   "ex": {
+    "t": "Faço exercício toda manhã.",
+    "ko": "나는 매일 아침 운동을 해요.",
+    "en": "I exercise every morning."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "a maioria",
+   "pos": "det",
+   "ko": "대부분",
+   "en": "most",
+   "ex": {
+    "t": "A maioria das pessoas concorda com isso.",
+    "ko": "대부분의 사람들이 그 의견에 동의해요.",
+    "en": "Most people agree with that opinion."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "ninguém",
+   "pos": "pron",
+   "ko": "아무도 ~않다",
+   "en": "no one",
+   "ex": {
+    "t": "Ninguém soube responder à pergunta.",
+    "ko": "아무도 그 문제에 답하지 못했어요.",
+    "en": "No one could answer the question."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "alguns · nenhum · muito(s) · pouco(s) · cada · todo(s) · bastante · a maioria",
+   "en": "alguns · nenhum · muito(s) · pouco(s) · cada · todo(s) · bastante · a maioria"
+  },
+  "explain": {
+   "ko": "Contáveis (plural): 'muitos', 'poucos', 'alguns', 'vários', 'nenhum': 'Há alguns amigos.' / 'Não há muitos parques.' Incontáveis: 'muito', 'pouco', 'um pouco de', 'nenhum': 'Não tenho muito dinheiro.' / 'Acrescente um pouco de sal.' 'Suficiente / bastante' serve para os dois: 'Não temos tempo suficiente.' Em frases negativas usa-se 'nenhum / nenhuma': 'Não há nenhum leite.' 'Cada' + singular: 'Cada aluno deve trazer um livro.' 'Todo(a)' + singular sem artigo = cada: 'Faço exercício toda manhã.' 'A maioria de' + plural: 'A maioria dos vizinhos é simpática.' 'Ninguém / nada' pedem a negação antes do verbo: 'Não vi ninguém.'",
+   "en": "Countable (plural): 'muitos', 'poucos', 'alguns', 'vários', 'nenhum': 'Há alguns amigos.' / 'Não há muitos parques.' Uncountable: 'muito', 'pouco', 'um pouco de', 'nenhum': 'Não tenho muito dinheiro.' / 'Acrescente um pouco de sal.' 'Suficiente / bastante' works for both: 'Não temos tempo suficiente.' In negatives use 'nenhum / nenhuma': 'Não há nenhum leite.' 'Cada' + singular: 'Cada aluno deve trazer um livro.' 'Todo(a)' + singular without article = every: 'Faço exercício toda manhã.' 'A maioria de' + plural: 'A maioria dos vizinhos é simpática.' 'Ninguém / nada' need negation before the verb: 'Não vi ninguém.'"
+  },
+  "table": {
+   "head": [
+    "용도 / Uso",
+    "표현 / Expressão",
+    "예문 / Exemplo"
+   ],
+   "rows": [
+    [
+     "가산 명사 많음",
+     "muitos / poucos / alguns",
+     "Não há muitos parques."
+    ],
+    [
+     "불가산 명사",
+     "muito / pouco / um pouco de",
+     "Não tenho muito dinheiro."
+    ],
+    [
+     "부정",
+     "nenhum / nenhuma",
+     "Não há nenhum leite na geladeira."
+    ],
+    [
+     "각각",
+     "cada + singular",
+     "Cada aluno deve trazer um livro."
+    ],
+    [
+     "대부분",
+     "a maioria de",
+     "A maioria das pessoas concorda."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "'Muito' é invariável como advérbio e varia como adjetivo.",
+    "en": "'Muito' is invariable as an adverb and agrees as an adjective."
+   },
+   {
+    "ko": "'Pouco' = quase nada; 'um pouco' = alguma coisa.",
+    "en": "'Pouco' = hardly any; 'um pouco' = some."
+   },
+   {
+    "ko": "'Cada' é sempre singular.",
+    "en": "'Cada' is always singular."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Não temos tempo suficiente.",
+    "ko": "우리는 충분한 시간이 없어요.",
+    "en": "We don't have enough time."
+   },
+   {
+    "t": "Não há muitos parques nesta cidade.",
+    "ko": "이 도시에는 공원이 많지 않아요.",
+    "en": "There aren't many parks in this city."
+   },
+   {
+    "t": "Não tenho muito dinheiro.",
+    "ko": "나는 돈이 많지 않아요.",
+    "en": "I don't have much money."
+   },
+   {
+    "t": "Cada aluno deve trazer um livro.",
+    "ko": "각 학생은 책을 한 권씩 가져야 해요.",
+    "en": "Each student must bring a book."
+   },
+   {
+    "t": "Faço exercício toda manhã.",
+    "ko": "나는 매일 아침 운동을 해요.",
+    "en": "I exercise every morning."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Não há ___ parques nesta cidade.",
+    "options": [
+     "muitos",
+     "muito",
+     "nenhum"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "Não tenho ___ dinheiro.",
+    "options": [
+     "muito",
+     "muitos",
+     "cada"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Tenho ___ amigos na Inglaterra.",
+    "options": [
+     "alguns",
+     "algum",
+     "cada"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "___ aluno deve trazer um livro.",
+    "options": [
+     "Cada",
+     "Todos",
+     "Muitos"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Há leite na geladeira?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 냉장고에 우유가 있어요?",
+     "en": "(Question) Is there any milk in the fridge?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "Sobrou um pouco.",
+       "Muitos.",
+       "Cada um."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Quanto dinheiro você tem?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 돈이 얼마나 있어요?",
+     "en": "(Question) How much money do you have?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "Não tenho muito.",
+       "Não tenho nenhuns.",
+       "Todos os dias."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Quantas pessoas vêm à festa?"
+      },
+      {
+       "s": "B",
+       "t": "Alguns amigos. Não muitos."
+      },
+      {
+       "s": "A",
+       "t": "Vai ter comida suficiente?"
+      },
+      {
+       "s": "B",
+       "t": "Sim. Tem um pouco de bolo e bastante fruta."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 파티에 사람이 몇 명 올까?\nB: 친구 몇 명이 올 거야. 많지는 않아.\nA: 음식이 충분할까?\nB: 응. 케이크도 조금 있고 과일도 많아.",
+     "en": "A: How many people are coming to the party?\nB: A few friends. Not many.\nA: Will there be enough food?\nB: Yes. There's a little cake and plenty of fruit."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quantos amigos vêm?",
+      "options": [
+       "Alguns",
+       "Muitos",
+       "Nenhum"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Não há muitos parques no meu bairro, mas há alguns cafés. A maioria dos vizinhos é simpática e cada um conhece os outros. Toda manhã começo o dia com uma caminhada no parque."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "우리 동네에는 공원이 많지 않아요. 하지만 카페는 몇 개 있어요. 대부분의 이웃들은 친절하고 모두 서로를 알아요. 매일 아침 나는 공원에서 걸으며 하루를 시작해요.",
+     "en": "There aren't many parks in my neighbourhood, but there are a few cafés. Most of my neighbours are friendly and each one knows the others. Every morning I start the day with a walk in the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Como são os vizinhos?",
+      "options": [
+       "Simpáticos",
+       "Barulhentos",
+       "Antipáticos"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Supermercado."
+      },
+      {
+       "s": "B",
+       "t": "Tem leite na seção de laticínios?"
+      },
+      {
+       "s": "A",
+       "t": "Sobrou um pouco, mas não muito."
+      },
+      {
+       "s": "B",
+       "t": "Então levo duas garrafas."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "직원: 슈퍼마켓입니다.\n손님: 유제품 코너에 우유가 있나요?\n직원: 조금 남아 있지만 많지는 않습니다.\n손님: 그럼 두 병만 주세요.",
+     "en": "Assistant: Supermarket.\nGuest: Is there any milk in the dairy section?\nAssistant: There's a little left, but not much.\nGuest: Then I'll take two bottles."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Sobrou um ______",
+      "answers": [
+       "pouco"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Levo duas ______",
+      "answers": [
+       "garrafas"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Não temos tempo ___.\n2) Não há ___ parques nesta cidade.\n3) Não tenho ___ dinheiro.",
+    "trans": {
+     "ko": "1) 우리는 충분한 시간이 없어요. 2) 이 도시에는 공원이 많지 않아요. 3) 나는 돈이 많지 않아요.",
+     "en": "1) We don't have enough time. 2) There aren't many parks in this city. 3) I don't have much money."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Não temos tempo ___.",
+      "options": [
+       "suficiente",
+       "suficientes",
+       "bastar"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Não há ___ parques nesta cidade.",
+      "options": [
+       "muitos",
+       "muito",
+       "nenhum"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Não tenho ___ dinheiro.",
+      "options": [
+       "muito",
+       "muitos",
+       "cada"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Não há muitos parques no meu bairro, mas há (1) cafés. A maioria dos vizinhos é simpática e (2) um conhece os outros. (3) manhã começo o dia com uma caminhada no parque.",
+    "trans": {
+     "ko": "우리 동네에는 공원이 많지 않아요. 하지만 카페는 몇 개 있어요. 대부분의 이웃들은 친절하고 모두 서로를 알아요. 매일 아침 나는 공원에서 걸으며 하루를 시작해요.",
+     "en": "There aren't many parks in my neighbourhood, but there are a few cafés. Most of my neighbours are friendly and each one knows the others. Every morning I start the day with a walk in the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "alguns",
+       "algum",
+       "cada"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "cada",
+       "todo",
+       "alguns"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "Toda",
+       "Todo",
+       "Todas"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "AVISO\nCada aluno deve trazer um livro até a próxima segunda-feira. Poucos alunos já trouxeram o seu. Não há muitos livros na biblioteca, então se prepare com antecedência.",
+    "trans": {
+     "ko": "공지\n각 학생은 다음 주 월요일까지 책 한 권을 가져와야 합니다. 소수의 학생만 이미 가져왔습니다. 도서관에는 책이 많이 없으니 미리 준비하세요.",
+     "en": "NOTICE\nEach student must bring a book by next Monday. Only a few students have brought one already. There aren't many books in the library, so prepare in advance."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "O que cada aluno deve fazer?",
+      "options": [
+       "Trazer um livro",
+       "Trazer um caderno",
+       "Pagar uma taxa"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Quantos livros há na biblioteca?",
+      "options": [
+       "Não muitos",
+       "Muitíssimos",
+       "Nenhum"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "A May comprou comida para a festa. Há bolo suficiente, mas só alguns refrigerantes. Ela decidiu comprar mais amanhã.",
+    "trans": {
+     "ko": "메이는 파티에 필요한 음식을 샀어요. 케이크는 충분하지만 음료수는 조금밖에 없어요. 그녀는 내일 더 사기로 했어요.",
+     "en": "May bought food for the party. There is enough cake, but there are only a few drinks. She decided to buy more tomorrow."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "Há bolo suficiente.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "Há refrigerante demais.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "A festa é de aniversário.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Há leite na geladeira?",
+    "ko": "돈이 얼마나 있어요?",
+    "en": "How much money do you have?",
+    "situation": {
+     "ko": "셀 수 없는 수량을 물을 때",
+     "en": "Asking about an uncountable amount"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Não há nenhum leite.",
+    "ko": "친구가 몇 명이에요?",
+    "en": "How many friends do you have?",
+    "situation": {
+     "ko": "셀 수 있는 수량을 물을 때",
+     "en": "Asking about a countable number"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Quanto dinheiro você tem?",
+    "ko": "우유가 조금도 없어요.",
+    "en": "There isn't any milk.",
+    "situation": {
+     "ko": "부정문에서",
+     "en": "In negative sentences"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Tenho alguns amigos na Inglaterra.",
+    "ko": "영국에 친구가 몇 명 있어요.",
+    "en": "I have a few friends in England.",
+    "situation": {
+     "ko": "조금 있음을 말할 때",
+     "en": "Saying there are some"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Acrescente um pouco de sal.",
+    "ko": "수프에 소금을 조금 넣으세요.",
+    "en": "Add a little salt to the soup.",
+    "situation": {
+     "ko": "소량을 말할 때",
+     "en": "Saying a small amount"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Cada aluno deve trazer um livro.",
+    "ko": "각 학생은 책을 가져와야 해요.",
+    "en": "Each student must bring a book.",
+    "situation": {
+     "ko": "하나씩 말할 때",
+     "en": "Talking about one by one"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "A maioria das pessoas concorda.",
+    "ko": "대부분의 사람들이 동의해요.",
+    "en": "Most people agree.",
+    "situation": {
+     "ko": "대다수를 말할 때",
+     "en": "Talking about the majority"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Não temos tempo suficiente.",
+    "ko": "시간이 충분하지 않아요.",
+    "en": "We don't have enough time.",
+    "situation": {
+     "ko": "부족함을 말할 때",
+     "en": "Saying something is not enough"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Há alguns ~.",
+    "ko": "~가 ~개 있어요.",
+    "en": "There are a few ~."
+   },
+   {
+    "id": "w2",
+    "t": "Há um pouco de ~.",
+    "ko": "~가 약간 있어요.",
+    "en": "There is a little ~."
+   },
+   {
+    "id": "w3",
+    "t": "Não há muitos / muito ~.",
+    "ko": "~가 많지 않아요.",
+    "en": "There aren't many / much ~."
+   },
+   {
+    "id": "w4",
+    "t": "Cada / Todo ~ deve ~.",
+    "ko": "각 ~는 ~해야 해요.",
+    "en": "Each / Every ~ must ~."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "우리 동네나 집에 있는 것과 없는 것을 수량 표현을 사용해 4문장으로 써 보세요.",
+    "en": "Write 4 sentences about what there is and isn't in your neighbourhood or home, using quantifiers."
+   },
+   "must_include": [
+    {
+     "label": "Há alguns ~",
+     "match": [
+      "alguns"
+     ]
+    },
+    {
+     "label": "Há um pouco de ~",
+     "match": [
+      "um pouco de"
+     ]
+    },
+    {
+     "label": "Cada / Todo ~",
+     "match": [
+      "cada",
+      "toda manhã"
+     ]
+    }
+   ],
+   "model": "Não há muitos parques no meu bairro, mas há alguns cafés. Há um pouco de tempo em casa, mas não muito, então acordo cedo toda manhã. A maioria dos vizinhos é simpática e cada um conhece os outros.",
+   "model_trans": {
+    "ko": "우리 동네에는 공원이 많지 않아요. 하지만 카페는 몇 개 있어요. 나는 집에 시간이 많지 않아서 매일 아침 일찍 일어나요. 대부분의 이웃들은 친절하고 모두 서로를 알아요.",
+    "en": "There aren't many parks in my neighbourhood. But there are a few cafés. I don't have much time at home, so I get up early every morning. Most of my neighbours are friendly and each one knows the others."
+   }
+  }
+ }
+}
