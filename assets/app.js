@@ -16,7 +16,7 @@
       yourAnswer: '정답', pickOne: '선택하세요', typeHere: '입력', disclaimer1: 'TOEIC, TOEFL, IELTS 등 시험 이름은 각 주관 기관의 상표이며, 이 사이트는 해당 기관과 관련이 없습니다. 모든 문제는 시험 "형식"을 참고해 새로 만든 오리지널 연습 자료입니다.',
       disclaimer2: '듣기 음성은 TTS로 제작해 유튜브에 올리고 링크로 연결합니다.',
       tabs: { vocab: '어휘', grammar: '문법', listening: '듣기', reading: '읽기', speaking: '말하기', writing: '쓰기' },
-      heroTitle: '일상에서 쓰는 외국어, 7개 언어 한 곳에서', heroSub: '모든 언어가 같은 A1~C2 단계와 같은 표현 흐름으로 이어집니다. 영어의 be동사를 배우면 프랑스어 être, 일본어 です와 나란히 비교해 볼 수 있어요.',
+      heroTitle: '일상에서 쓰는 외국어, 8개 언어 한 곳에서', heroSub: '모든 언어가 같은 A1~C2 단계와 같은 표현 흐름으로 이어집니다. 영어의 be동사를 배우면 프랑스어 être, 일본어 です와 나란히 비교해 볼 수 있어요.',
       langHeroSub: 'A1~C2 단계마다 어휘·문법·듣기·읽기·말하기·쓰기 6개 영역을 공부합니다.', unitsReady: '공개된 유닛', planned: '예정',
     },
     en: {
@@ -32,7 +32,7 @@
       yourAnswer: 'Answer', pickOne: 'Choose one', typeHere: 'Type', disclaimer1: 'TOEIC, TOEFL, IELTS and other exam names are trademarks of their owners; this site is not affiliated with them. All items are original practice material modelled on the exam formats.',
       disclaimer2: 'Listening audio is made with TTS, uploaded to YouTube and linked from here.',
       tabs: { vocab: 'Vocabulary', grammar: 'Grammar', listening: 'Listening', reading: 'Reading', speaking: 'Speaking', writing: 'Writing' },
-      heroTitle: 'Everyday foreign languages — seven in one place', heroSub: 'Every language follows the same A1–C2 steps and the same flow of expressions, so you can compare English "be" with French "être" and Japanese "です" side by side.',
+      heroTitle: 'Everyday foreign languages — eight in one place', heroSub: 'Every language follows the same A1–C2 steps and the same flow of expressions, so you can compare English "be" with French "être" and Japanese "です" side by side.',
       langHeroSub: 'Each level covers six skills: vocabulary, grammar, listening, reading, speaking and writing.', unitsReady: 'Units available', planned: 'Planned',
     },
   };

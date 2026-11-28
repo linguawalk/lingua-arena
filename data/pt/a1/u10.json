@@ -1,0 +1,801 @@
+{
+ "meta": {
+  "id": "pt_a1_u10",
+  "lang": "pt",
+  "family": "europe",
+  "level": "a1",
+  "unit": 10,
+  "concept": "A1.U10",
+  "status": "live",
+  "title": {
+   "target": "Compras e preços",
+   "ko": "쇼핑과 가격",
+   "en": "Shopping and prices"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "a loja",
+   "pos": "noun",
+   "ko": "가게",
+   "en": "shop",
+   "ex": {
+    "t": "Eu compro pão nesta loja.",
+    "ko": "그 가게는 열려 있어요.",
+    "en": "The shop is open."
+   }
+  },
+  {
+   "id": "v2",
+   "t": "o preço",
+   "pos": "noun",
+   "ko": "가격",
+   "en": "price",
+   "ex": {
+    "t": "Qual é o preço?",
+    "ko": "가격이 얼마예요?",
+    "en": "What is the price?"
+   }
+  },
+  {
+   "id": "v3",
+   "t": "barato",
+   "pos": "adj",
+   "ko": "싼",
+   "en": "cheap",
+   "ex": {
+    "t": "Esta bolsa é barata.",
+    "ko": "이 가방은 싸요.",
+    "en": "This bag is cheap."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "caro",
+   "pos": "adj",
+   "ko": "비싼",
+   "en": "expensive",
+   "ex": {
+    "t": "Aquilo é caro.",
+    "ko": "저 전화기는 비싸요.",
+    "en": "That phone is expensive."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "comprar",
+   "pos": "verb",
+   "ko": "사다",
+   "en": "buy",
+   "ex": {
+    "t": "Eu compro uma bolsa.",
+    "ko": "저는 여기서 빵을 사요.",
+    "en": "I buy bread here."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "pagar",
+   "pos": "verb",
+   "ko": "지불하다",
+   "en": "pay",
+   "ex": {
+    "t": "Eu pago com cartão.",
+    "ko": "저는 카드로 계산해요.",
+    "en": "I pay by card."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "o dinheiro",
+   "pos": "noun",
+   "ko": "현금",
+   "en": "cash",
+   "ex": {
+    "t": "Eu pago em dinheiro.",
+    "ko": "저는 현금으로 계산해요.",
+    "en": "I pay in cash."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "o cartão",
+   "pos": "noun",
+   "ko": "카드",
+   "en": "card",
+   "ex": {
+    "t": "Posso pagar com cartão?",
+    "ko": "카드로 계산할 수 있어요?",
+    "en": "Can I pay by card?"
+   }
+  },
+  {
+   "id": "v9",
+   "t": "o real",
+   "pos": "noun",
+   "ko": "달러",
+   "en": "dollar",
+   "ex": {
+    "t": "Custa cinco reais.",
+    "ko": "그것은 오 달러예요.",
+    "en": "It is five dollars."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "quanto custa",
+   "pos": "adv",
+   "ko": "얼마",
+   "en": "how much",
+   "ex": {
+    "t": "Quanto custa isto?",
+    "ko": "이것은 얼마예요?",
+    "en": "How much is this?"
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "지시사 este / esse / aquele와 Quanto custa?",
+   "en": "Demonstratives (este / esse / aquele) and 'Quanto custa?'"
+  },
+  "explain": {
+   "ko": "가격은 'Quanto custa ~?'로 묻고 'Custa cinco reais.'로 답합니다. 가까운 것은 este / esta / isto, 조금 먼 것은 esse / essa / isso, 먼 것은 aquele / aquela / aquilo입니다. 복수는 Quanto custam ~?",
+   "en": "Ask the price with 'Quanto custa ~?' and answer 'Custa cinco reais.' Near things: este / esta / isto; middle: esse / essa / isso; far: aquele / aquela / aquilo. For plurals: Quanto custam ~?"
+  },
+  "table": {
+   "head": [
+    "거리 / Distância",
+    "남성 / Masc.",
+    "여성 / Fem.",
+    "중성 / Neutro"
+   ],
+   "rows": [
+    [
+     "가까이 / perto",
+     "este",
+     "esta",
+     "isto"
+    ],
+    [
+     "중간 / meio",
+     "esse",
+     "essa",
+     "isso"
+    ],
+    [
+     "멀리 / longe",
+     "aquele",
+     "aquela",
+     "aquilo"
+    ],
+    [
+     "복수 / plural",
+     "estes",
+     "estas",
+     "—"
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "isto / isso / aquilo는 이름을 모르는 물건에 씁니다.",
+    "en": "isto / isso / aquilo are for things you can't name."
+   },
+   {
+    "ko": "형용사는 명사의 성에 맞춥니다: bolsa barata, livro barato.",
+    "en": "Adjectives agree: bolsa barata, livro barato."
+   },
+   {
+    "ko": "복수 가격: Quanto custam estas canetas?",
+    "en": "Plural price: Quanto custam estas canetas?"
+   }
+  ],
+  "examples": [
+   {
+    "t": "Quanto custa isto?",
+    "ko": "이것은 얼마예요?",
+    "en": "How much is this?"
+   },
+   {
+    "t": "Custa cinco reais.",
+    "ko": "그것은 오 달러예요.",
+    "en": "It is five dollars."
+   },
+   {
+    "t": "Esta bolsa é barata.",
+    "ko": "이 가방은 싸요.",
+    "en": "This bag is cheap."
+   },
+   {
+    "t": "Aquilo é caro.",
+    "ko": "저것은 비싸요.",
+    "en": "That is expensive."
+   },
+   {
+    "t": "Posso pagar com cartão?",
+    "ko": "카드로 계산할 수 있어요?",
+    "en": "Can I pay by card?"
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Quanto ___ isto?",
+    "options": [
+     "custa",
+     "custam",
+     "custo"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___ bolsa é barata.",
+    "options": [
+     "Esta",
+     "Este",
+     "Isto"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "Aquilo ___ caro.",
+    "options": [
+     "é",
+     "são",
+     "sou"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Quanto ___ estas canetas?",
+    "options": [
+     "custa",
+     "custam",
+     "custo"
+    ],
+    "answer": 1,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Quanto custa isto?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이것은 얼마예요?",
+     "en": "(Question) How much is this?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "Custa cinco reais.",
+       "Eu moro em Seul.",
+       "São cinco horas."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Você quer pagar com cartão?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 카드로 계산하시겠어요?",
+     "en": "(Question) Would you like to pay by card?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "Sim, com cartão.",
+       "Hoje é sábado.",
+       "Eu tenho um irmão."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Com licença. Quanto custa esta bolsa?"
+      },
+      {
+       "s": "B",
+       "t": "Custa dez reais."
+      },
+      {
+       "s": "A",
+       "t": "É muito caro. Você tem uma mais barata?"
+      },
+      {
+       "s": "B",
+       "t": "Tenho, esta custa cinco reais."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 실례합니다. 이 가방은 얼마예요?\nB: 십 달러예요.\nA: 너무 비싸요. 더 싼 것 있어요?\nB: 네, 이것은 오 달러예요.",
+     "en": "A: Excuse me. How much is this bag?\nB: It's ten dollars.\nA: That's too expensive. Do you have a cheaper one?\nB: Yes, this one is five dollars."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quanto custa a bolsa mais barata?",
+      "options": [
+       "Dez reais",
+       "Cinco reais",
+       "Dois reais"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Eu compro pão e água nesta loja. O pão custa três reais. A água custa dois reais."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "저는 이 가게에서 빵과 물을 사요. 빵은 삼 달러예요. 물은 이 달러예요.",
+     "en": "I buy bread and water at this shop. The bread is three dollars. The water is two dollars."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quanto custa o pão?",
+      "options": [
+       "Dois reais",
+       "Três reais",
+       "Cinco reais"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Custa cinco reais."
+      },
+      {
+       "s": "B",
+       "t": "Posso pagar com cartão?"
+      },
+      {
+       "s": "A",
+       "t": "Pode, sim."
+      },
+      {
+       "s": "B",
+       "t": "Posso ter o recibo também?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "점원: 오 달러예요.\n손님: 카드로 계산할 수 있어요?\n점원: 네, 가능해요.\n손님: 영수증도 주세요.",
+     "en": "Clerk: It's five dollars.\nGuest: Can I pay by card?\nClerk: Yes, you can.\nGuest: Can I have a receipt, too?"
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Custa ______ reais",
+      "answers": [
+       "cinco"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "Pede o ______",
+      "answers": [
+       "recibo"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Esta bolsa é ___.\n2) Aqueles livros ___ caros.\n3) Quanto ___ estas canetas?",
+    "trans": {
+     "ko": "1) 이 가방은 싸요. 2) 저 책들은 비싸요. 3) 이 펜들은 얼마예요?",
+     "en": "1) This bag is cheap. 2) Those books are expensive. 3) How much are these pens?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Esta bolsa é ___.",
+      "options": [
+       "barata",
+       "barato",
+       "baratos"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Aqueles livros ___ caros.",
+      "options": [
+       "são",
+       "é",
+       "sou"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Quanto ___ estas canetas?",
+      "options": [
+       "custam",
+       "custa",
+       "custo"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Olá! Eu compro uma bolsa na loja. Esta bolsa é (1). Ela (2) cinco reais. Eu pago em (3).",
+    "trans": {
+     "ko": "안녕하세요! 저는 가게에서 가방을 사요. 이 가방은 싸요. 이것은 오 달러예요. 저는 현금으로 계산해요.",
+     "en": "Hello! I buy a bag at the shop. This bag is cheap. It is five dollars. I pay in cash."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "barata",
+       "barato",
+       "baratas"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "custa",
+       "custam",
+       "custo"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "dinheiro",
+       "cartão",
+       "recibo"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "LISTA DE PREÇOS\nPão: R$ 3\nÁgua: R$ 2\nBolsa: R$ 10",
+    "trans": {
+     "ko": "가격표\n빵: 3달러\n물: 2달러\n가방: 10달러",
+     "en": "PRICE LIST\nBread: $3\nWater: $2\nBag: $10"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Quanto custa a bolsa?",
+      "options": [
+       "R$ 2",
+       "R$ 3",
+       "R$ 10"
+      ],
+      "answer": 2
+     },
+     {
+      "type": "mc",
+      "q": "O que custa R$ 2?",
+      "options": [
+       "Pão",
+       "Água",
+       "Bolsa"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "O Tom está em uma loja. Ele compra uma bolsa. A bolsa custa dez reais. Ele paga com cartão.",
+    "trans": {
+     "ko": "톰은 가게에 있어요. 그는 가방을 사요. 가방은 십 달러예요. 그는 카드로 계산해요.",
+     "en": "Tom is at a shop. He buys a bag. The bag is ten dollars. He pays by card."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "A bolsa custa dez reais.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "O Tom paga em dinheiro.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "O Tom compra um livro.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Quanto custa isto?",
+    "ko": "이것은 얼마예요?",
+    "en": "How much is this?",
+    "situation": {
+     "ko": "가격을 물을 때",
+     "en": "Asking the price"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Custa cinco reais.",
+    "ko": "오 달러예요.",
+    "en": "It's five dollars.",
+    "situation": {
+     "ko": "가격을 말할 때",
+     "en": "Saying the price"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "É caro demais.",
+    "ko": "너무 비싸요.",
+    "en": "It's too expensive.",
+    "situation": {
+     "ko": "가격이 높다고 말할 때",
+     "en": "Saying it costs too much"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Você tem uma mais barata?",
+    "ko": "더 싼 것 있어요?",
+    "en": "Do you have a cheaper one?",
+    "situation": {
+     "ko": "저렴한 것을 찾을 때",
+     "en": "Asking for a cheaper one"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Eu levo este.",
+    "ko": "이걸로 할게요.",
+    "en": "I'll take this.",
+    "situation": {
+     "ko": "살 것을 정했을 때",
+     "en": "Deciding to buy"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "Posso pagar com cartão?",
+    "ko": "카드로 계산할 수 있어요?",
+    "en": "Can I pay by card?",
+    "situation": {
+     "ko": "결제 방법을 물을 때",
+     "en": "Asking how to pay"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "Eu pago em dinheiro.",
+    "ko": "현금으로 낼게요.",
+    "en": "I'll pay in cash.",
+    "situation": {
+     "ko": "현금으로 낼 때",
+     "en": "Paying in cash"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Posso ter o recibo?",
+    "ko": "영수증 주세요.",
+    "en": "Can I have a receipt?",
+    "situation": {
+     "ko": "영수증을 부탁할 때",
+     "en": "Asking for a receipt"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Quanto custa isto?",
+    "ko": "이것은 얼마예요?",
+    "en": "How much is this?"
+   },
+   {
+    "id": "w2",
+    "t": "Custa ~ reais.",
+    "ko": "그것은 ~ 달러예요.",
+    "en": "It is ~ dollars."
+   },
+   {
+    "id": "w3",
+    "t": "Esta ~ é barata / cara.",
+    "ko": "이 ~는 싸요/비싸요.",
+    "en": "This ~ is cheap/expensive."
+   },
+   {
+    "id": "w4",
+    "t": "Eu pago com cartão.",
+    "ko": "저는 카드로 계산해요.",
+    "en": "I pay by card."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "쇼핑에 대해 3문장으로 써 보세요: 가격 묻기, 가격 말하기, 결제 방법.",
+    "en": "Write 3 sentences about shopping: ask a price, say a price, and say how you pay."
+   },
+   "must_include": [
+    {
+     "label": "Quanto custa ~?",
+     "match": [
+      "quanto custa"
+     ]
+    },
+    {
+     "label": "Custa ~ reais",
+     "match": [
+      "custa cinco reais"
+     ]
+    },
+    {
+     "label": "Eu pago ~",
+     "match": [
+      "pago com cartão"
+     ]
+    }
+   ],
+   "model": "Quanto custa esta bolsa? Custa cinco reais. Eu pago com cartão.",
+   "model_trans": {
+    "ko": "이 가방은 얼마예요? 그것은 오 달러예요. 저는 카드로 계산해요.",
+    "en": "How much is this bag? It is five dollars. I pay by card."
+   }
+  }
+ }
+}

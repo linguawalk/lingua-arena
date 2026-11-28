@@ -1,0 +1,797 @@
+{
+ "meta": {
+  "id": "pt_a1_u07",
+  "lang": "pt",
+  "family": "europe",
+  "level": "a1",
+  "unit": 7,
+  "concept": "A1.U07",
+  "status": "live",
+  "title": {
+   "target": "Lugares e direções",
+   "ko": "장소와 길 묻기",
+   "en": "Places and directions"
+  }
+ },
+ "vocab": [
+  {
+   "id": "v1",
+   "t": "a estação",
+   "pos": "noun",
+   "ko": "역",
+   "en": "station",
+   "ex": {
+    "t": "Onde fica a estação?",
+    "ko": "역은 어디에 있어요?",
+    "en": "Where is the station?"
+   }
+  },
+  {
+   "id": "v2",
+   "t": "o banco",
+   "pos": "noun",
+   "ko": "은행",
+   "en": "bank",
+   "ex": {
+    "t": "O banco fica perto daqui.",
+    "ko": "이 거리에 은행이 있어요.",
+    "en": "There is a bank on this street."
+   }
+  },
+  {
+   "id": "v3",
+   "t": "o hospital",
+   "pos": "noun",
+   "ko": "병원",
+   "en": "hospital",
+   "ex": {
+    "t": "O hospital fica nesta rua.",
+    "ko": "병원은 커요.",
+    "en": "The hospital is big."
+   }
+  },
+  {
+   "id": "v4",
+   "t": "o parque",
+   "pos": "noun",
+   "ko": "공원",
+   "en": "park",
+   "ex": {
+    "t": "Há um parque perto da escola.",
+    "ko": "도시에 공원이 있어요.",
+    "en": "There is a park in the city."
+   }
+  },
+  {
+   "id": "v5",
+   "t": "o supermercado",
+   "pos": "noun",
+   "ko": "슈퍼마켓",
+   "en": "supermarket",
+   "ex": {
+    "t": "O supermercado é grande.",
+    "ko": "여기에 슈퍼마켓이 있어요.",
+    "en": "There is a supermarket here."
+   }
+  },
+  {
+   "id": "v6",
+   "t": "a rua",
+   "pos": "noun",
+   "ko": "거리, 길",
+   "en": "street",
+   "ex": {
+    "t": "Moro nesta rua.",
+    "ko": "은행은 이 거리에 있어요.",
+    "en": "The bank is on this street."
+   }
+  },
+  {
+   "id": "v7",
+   "t": "à esquerda",
+   "pos": "adv",
+   "ko": "왼쪽",
+   "en": "left",
+   "ex": {
+    "t": "Vire à esquerda.",
+    "ko": "왼쪽으로 도세요.",
+    "en": "Turn left."
+   }
+  },
+  {
+   "id": "v8",
+   "t": "à direita",
+   "pos": "adv",
+   "ko": "오른쪽",
+   "en": "right",
+   "ex": {
+    "t": "Vire à direita.",
+    "ko": "오른쪽으로 도세요.",
+    "en": "Turn right."
+   }
+  },
+  {
+   "id": "v9",
+   "t": "ao lado de",
+   "pos": "prep",
+   "ko": "~ 옆에",
+   "en": "next to",
+   "ex": {
+    "t": "O banco fica ao lado da estação.",
+    "ko": "은행은 역 옆에 있어요.",
+    "en": "The bank is next to the station."
+   }
+  },
+  {
+   "id": "v10",
+   "t": "em frente a",
+   "pos": "prep",
+   "ko": "~ 앞에",
+   "en": "in front of",
+   "ex": {
+    "t": "O parque fica em frente à escola.",
+    "ko": "공원은 학교 앞에 있어요.",
+    "en": "The park is in front of the school."
+   }
+  }
+ ],
+ "grammar": {
+  "title": {
+   "ko": "Onde fica ~? · Há ~ + 위치 전치사",
+   "en": "Onde fica ~? · Há ~ + prepositions of place"
+  },
+  "explain": {
+   "ko": "장소를 물을 때는 'Onde fica ~?'를 쓰고, 존재를 말할 때는 'Há ~'(~이 있다)를 씁니다. 위치 전치사 뒤에는 de를 붙이며 관사와 합쳐집니다: ao lado de + a = ao lado da, perto de + o = perto do.",
+   "en": "Ask for a place with 'Onde fica ~?' and say something exists with 'Há ~'. Position phrases take 'de', which merges with the article: ao lado de + a = ao lado da, perto de + o = perto do."
+  },
+  "table": {
+   "head": [
+    "표현 / Expressão",
+    "의미 / Significado",
+    "예 / Exemplo"
+   ],
+   "rows": [
+    [
+     "Onde fica ~?",
+     "~은 어디예요?",
+     "Onde fica a estação?"
+    ],
+    [
+     "Há ~",
+     "~이 있다",
+     "Há um parque aqui."
+    ],
+    [
+     "ao lado de",
+     "~ 옆에",
+     "O banco fica ao lado da estação."
+    ],
+    [
+     "em frente a",
+     "~ 앞에",
+     "O parque fica em frente à escola."
+    ]
+   ]
+  },
+  "notes": [
+   {
+    "ko": "Há는 단수와 복수 모두에 쓰입니다: Há um banco. / Há dois parques.",
+    "en": "'Há' is used for singular and plural: Há um banco. / Há dois parques."
+   },
+   {
+    "ko": "de + o = do, de + a = da, a + a = à (em frente à escola).",
+    "en": "de + o = do, de + a = da, a + a = à (em frente à escola)."
+   },
+   {
+    "ko": "길 안내: Siga em frente. Vire à esquerda / à direita.",
+    "en": "Directions: Siga em frente. Vire à esquerda / à direita."
+   }
+  ],
+  "examples": [
+   {
+    "t": "Onde fica a estação?",
+    "ko": "역은 어디에 있어요?",
+    "en": "Where is the station?"
+   },
+   {
+    "t": "O banco fica ao lado da estação.",
+    "ko": "은행은 역 옆에 있어요.",
+    "en": "The bank is next to the station."
+   },
+   {
+    "t": "Há um parque em frente à escola.",
+    "ko": "학교 앞에 공원이 있어요.",
+    "en": "There is a park in front of the school."
+   },
+   {
+    "t": "Há um hospital nesta rua?",
+    "ko": "이 거리에 병원이 있어요?",
+    "en": "Is there a hospital on this street?"
+   },
+   {
+    "t": "Vire à direita.",
+    "ko": "오른쪽으로 도세요.",
+    "en": "Turn right."
+   }
+  ],
+  "practice": [
+   {
+    "type": "mc",
+    "q": "Onde ___ a estação?",
+    "options": [
+     "fica",
+     "ficam",
+     "tenho"
+    ],
+    "answer": 0,
+    "id": "g1"
+   },
+   {
+    "type": "mc",
+    "q": "___ um parque perto daqui.",
+    "options": [
+     "Há",
+     "Sou",
+     "Tem"
+    ],
+    "answer": 0,
+    "id": "g2"
+   },
+   {
+    "type": "mc",
+    "q": "O banco fica ao ___ da estação.",
+    "options": [
+     "lado",
+     "frente",
+     "direita"
+    ],
+    "answer": 0,
+    "id": "g3"
+   },
+   {
+    "type": "mc",
+    "q": "Vire ___ esquerda.",
+    "options": [
+     "à",
+     "o",
+     "de"
+    ],
+    "answer": 0,
+    "id": "g4"
+   }
+  ]
+ },
+ "listening": {
+  "video_id": null,
+  "items": [
+   {
+    "id": "l1",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Onde fica o banco?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 은행은 어디에 있어요?",
+     "en": "(Question) Where is the bank?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "Fica ao lado da estação.",
+       "Eu tenho um banco.",
+       "É segunda-feira."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l2",
+    "format": "qr",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Há um parque perto daqui?"
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "(질문) 이 근처에 공원이 있어요?",
+     "en": "(Question) Is there a park near here?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Qual é a melhor resposta?",
+      "options": [
+       "Sim, há um parque ali.",
+       "Sim, eu sou estudante.",
+       "Não, eu moro em Seul."
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l3",
+    "format": "conv",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Com licença. Onde fica o hospital?"
+      },
+      {
+       "s": "B",
+       "t": "Siga em frente e vire à direita."
+      },
+      {
+       "s": "A",
+       "t": "É longe?"
+      },
+      {
+       "s": "B",
+       "t": "Não. Fica ao lado da escola."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "A: 실례합니다. 병원이 어디에 있어요?\nB: 쭉 가서 오른쪽으로 도세요.\nA: 멀어요?\nB: 아니요. 학교 옆에 있어요.",
+     "en": "A: Excuse me. Where is the hospital?\nB: Go straight and turn right.\nA: Is it far?\nB: No. It's next to the school."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Onde fica o hospital?",
+      "options": [
+       "Ao lado da escola",
+       "Em frente ao banco",
+       "Na estação"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "l4",
+    "format": "talk",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Nesta rua há um banco, um parque e um supermercado. O parque fica em frente à escola."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "이 거리에는 은행, 공원, 슈퍼마켓이 있어요. 공원은 학교 앞에 있어요.",
+     "en": "On this street, there is a bank, a park, and a supermarket. The park is in front of the school."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "O que fica em frente à escola?",
+      "options": [
+       "O banco",
+       "O parque",
+       "O supermercado"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "l5",
+    "format": "form",
+    "tts": {
+     "speakers": [
+      {
+       "id": "A",
+       "voice": "female"
+      },
+      {
+       "id": "B",
+       "voice": "male"
+      }
+     ],
+     "lines": [
+      {
+       "s": "A",
+       "t": "Aonde você vai?"
+      },
+      {
+       "s": "B",
+       "t": "À estação."
+      },
+      {
+       "s": "A",
+       "t": "Vire à esquerda. A estação fica ao lado do banco."
+      },
+      {
+       "s": "B",
+       "t": "Obrigado."
+      }
+     ]
+    },
+    "audio": {
+     "start": null,
+     "end": null
+    },
+    "trans": {
+     "ko": "안내원: 어디에 가세요?\n손님: 역에 가요.\n안내원: 왼쪽으로 도세요. 역은 은행 옆에 있어요.\n손님: 고맙습니다.",
+     "en": "Guide: Where are you going?\nGuest: To the station.\nGuide: Turn left. The station is next to the bank.\nGuest: Thank you."
+    },
+    "questions": [
+     {
+      "type": "blank",
+      "q": "Vá: vire à ______",
+      "answers": [
+       "esquerda"
+      ]
+     },
+     {
+      "type": "blank",
+      "q": "A estação fica ao lado do ______",
+      "answers": [
+       "banco"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "reading": {
+  "items": [
+   {
+    "id": "r1",
+    "format": "incomplete",
+    "passage": "1) Há um banco ___ rua.\n2) Há dois ___.\n3) Onde ___ o hospital?",
+    "trans": {
+     "ko": "1) 이 거리에 은행이 있어요. 2) 공원이 두 개 있어요. 3) 병원은 어디에 있어요?",
+     "en": "1) There is a bank on this street. 2) There are two parks. 3) Where is the hospital?"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Há um banco ___ rua.",
+      "options": [
+       "nesta",
+       "neste",
+       "este"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "Há dois ___.",
+      "options": [
+       "parque",
+       "parques",
+       "parquees"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "mc",
+      "q": "Onde ___ o hospital?",
+      "options": [
+       "fica",
+       "ficam",
+       "são"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r2",
+    "format": "textcomp",
+    "passage": "Olá! Eu moro nesta rua. (1) um parque em frente à escola. O banco (2) ao lado do parque. A escola é (3).",
+    "trans": {
+     "ko": "안녕하세요! 저는 이 거리에 살아요. 학교 앞에 공원이 있어요. 은행은 공원 옆에 있어요.",
+     "en": "Hello! I live on this street. There is a park in front of the school. The bank is next to the park."
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "(1)",
+      "options": [
+       "Há",
+       "Sou",
+       "É"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(2)",
+      "options": [
+       "fica",
+       "ficam",
+       "tem"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "(3)",
+      "options": [
+       "grande",
+       "grandes",
+       "grando"
+      ],
+      "answer": 0
+     }
+    ]
+   },
+   {
+    "id": "r3",
+    "format": "short",
+    "passage": "MAPA\nEstação: ao lado do banco\nParque: em frente à escola\nHospital: ao lado do supermercado",
+    "trans": {
+     "ko": "안내도\n역: 은행 옆\n공원: 학교 앞\n병원: 슈퍼마켓 옆",
+     "en": "MAP\nStation: next to the bank\nPark: in front of the school\nHospital: next to the supermarket"
+    },
+    "questions": [
+     {
+      "type": "mc",
+      "q": "Onde fica a estação?",
+      "options": [
+       "Ao lado do banco",
+       "Em frente à escola",
+       "Ao lado do hospital"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "mc",
+      "q": "O que fica ao lado do hospital?",
+      "options": [
+       "O banco",
+       "O supermercado",
+       "O parque"
+      ],
+      "answer": 1
+     }
+    ]
+   },
+   {
+    "id": "r4",
+    "format": "tfng",
+    "passage": "A estação fica nesta rua. O banco fica ao lado da estação. O hospital é longe.",
+    "trans": {
+     "ko": "역은 이 거리에 있어요. 은행은 역 옆에 있어요. 병원은 멀어요.",
+     "en": "The station is on this street. The bank is next to the station. The hospital is far."
+    },
+    "questions": [
+     {
+      "type": "tfng",
+      "q": "O banco fica ao lado da estação.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 0
+     },
+     {
+      "type": "tfng",
+      "q": "O hospital é perto.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 1
+     },
+     {
+      "type": "tfng",
+      "q": "Há um parque nesta rua.",
+      "options": [
+       "Verdadeiro",
+       "Falso",
+       "Não mencionado"
+      ],
+      "answer": 2
+     }
+    ]
+   }
+  ]
+ },
+ "speaking": {
+  "expressions": [
+   {
+    "id": "s1",
+    "t": "Com licença, onde fica a estação?",
+    "ko": "실례합니다. 역이 어디에 있어요?",
+    "en": "Excuse me, where is the station?",
+    "situation": {
+     "ko": "길을 물을 때",
+     "en": "Asking the way"
+    }
+   },
+   {
+    "id": "s2",
+    "t": "Há um banco perto daqui?",
+    "ko": "이 근처에 은행이 있어요?",
+    "en": "Is there a bank near here?",
+    "situation": {
+     "ko": "장소를 찾을 때",
+     "en": "Looking for a place"
+    }
+   },
+   {
+    "id": "s3",
+    "t": "Siga em frente.",
+    "ko": "쭉 가세요.",
+    "en": "Go straight.",
+    "situation": {
+     "ko": "길을 안내할 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s4",
+    "t": "Vire à esquerda.",
+    "ko": "왼쪽으로 도세요.",
+    "en": "Turn left.",
+    "situation": {
+     "ko": "길을 안내할 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s5",
+    "t": "Vire à direita.",
+    "ko": "오른쪽으로 도세요.",
+    "en": "Turn right.",
+    "situation": {
+     "ko": "길을 안내할 때",
+     "en": "Giving directions"
+    }
+   },
+   {
+    "id": "s6",
+    "t": "O banco fica ao lado da estação.",
+    "ko": "은행은 역 옆에 있어요.",
+    "en": "The bank is next to the station.",
+    "situation": {
+     "ko": "위치를 설명할 때",
+     "en": "Describing a location"
+    }
+   },
+   {
+    "id": "s7",
+    "t": "É longe?",
+    "ko": "멀어요?",
+    "en": "Is it far?",
+    "situation": {
+     "ko": "거리를 물을 때",
+     "en": "Asking about distance"
+    }
+   },
+   {
+    "id": "s8",
+    "t": "Obrigado. Ajudou muito.",
+    "ko": "고맙습니다. 큰 도움이 됐어요.",
+    "en": "Thank you. That's very helpful.",
+    "situation": {
+     "ko": "감사를 표할 때",
+     "en": "Thanking someone"
+    }
+   }
+  ]
+ },
+ "writing": {
+  "expressions": [
+   {
+    "id": "w1",
+    "t": "Onde fica o ~?",
+    "ko": "~는 어디에 있어요?",
+    "en": "Where is the ~?"
+   },
+   {
+    "id": "w2",
+    "t": "Há um ~ ao lado do ~.",
+    "ko": "~ 옆에 ~가 있어요.",
+    "en": "There is a ~ next to the ~."
+   },
+   {
+    "id": "w3",
+    "t": "Há um ~ em frente à ~.",
+    "ko": "~ 앞에 ~가 있어요.",
+    "en": "There is a ~ in front of the ~."
+   },
+   {
+    "id": "w4",
+    "t": "Vire à esquerda / à direita.",
+    "ko": "왼쪽/오른쪽으로 도세요.",
+    "en": "Turn left/right."
+   }
+  ],
+  "task": {
+   "prompt": {
+    "ko": "길 안내를 3문장으로 써 보세요: 장소의 위치, 왼쪽 또는 오른쪽으로 가기, 옆에 있는 건물.",
+    "en": "Write 3 sentences giving directions: where a place is, turning left or right, and a building next to it."
+   },
+   "must_include": [
+    {
+     "label": "Onde fica ~?",
+     "match": [
+      "fica"
+     ]
+    },
+    {
+     "label": "ao lado de",
+     "match": [
+      "ao lado da",
+      "ao lado do"
+     ]
+    },
+    {
+     "label": "Vire à ~",
+     "match": [
+      "vire à esquerda"
+     ]
+    }
+   ],
+   "model": "A estação fica nesta rua. Siga em frente e vire à esquerda. O banco fica ao lado da estação.",
+   "model_trans": {
+    "ko": "역은 이 거리에 있어요. 쭉 가서 왼쪽으로 도세요. 은행은 역 옆에 있어요.",
+    "en": "The station is on this street. Go straight and turn left. The bank is next to the station."
+   }
+  }
+ }
+}
